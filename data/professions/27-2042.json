@@ -77,7 +77,7 @@
           "title": "Pipe Major",
           "url": "https://www.linkedin.com/jobs/view/4440529269",
           "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -98,7 +98,7 @@
           "title": "Orchestra Coordinator",
           "url": "https://www.linkedin.com/jobs/view/4454237236",
           "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -119,7 +119,7 @@
           "title": "Live Production and Staging Traineeship",
           "url": "https://www.linkedin.com/jobs/view/4453038883",
           "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -140,7 +140,7 @@
           "title": "Junior DJ \u2014 Paid Training Pathway | Diesel Productions (Perth)",
           "url": "https://www.linkedin.com/jobs/view/4454705151",
           "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -161,7 +161,7 @@
           "title": "CREATIVE OPPS",
           "url": "https://www.linkedin.com/jobs/view/4445921048",
           "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -182,7 +182,7 @@
           "title": "HER PATH TO PURPOSE",
           "url": "https://www.linkedin.com/jobs/view/4445901066",
           "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -203,7 +203,7 @@
           "title": "Teacher (Drama, Acting, Singing)",
           "url": "https://www.linkedin.com/jobs/view/4439075869",
           "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -224,7 +224,7 @@
           "title": "Collaborative Pianist and Accompanist",
           "url": "https://www.linkedin.com/jobs/view/4457088802",
           "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -245,7 +245,7 @@
           "title": "Teacher - Music - Performance Arts",
           "url": "https://www.linkedin.com/jobs/view/4454747347",
           "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -266,7 +266,7 @@
           "title": "Regional Teaching Artist - Mackay",
           "url": "https://www.linkedin.com/jobs/view/4450033987",
           "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -275,6 +275,2064 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l513",
+      "text": "feat(route): add KQED\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / \u8def\u7531\u5730\u5740\u793a\u4f8b\n\n```routes\n/kqed\n/kqed/arts\n/kqed/news\n/kqed/science\n/kqed/forum\n/kqed/mindshift\n/kqed/perspectives\n/kqed/education\n```\n\n## New RSS Route Checklist / \u65b0 RSS \u8def\u7531\u68c0\u67e5\u8868\n\n- [x] New Route / \u65b0\u7684\u8def\u7531\n    - [x] Follows [Script St\nSuccessfully [generated](https://github.com/DIYgod/RSSHub/actions/runs/32766205456) as following:\n\n<details>\n<summary><a href=\"http://localhost:1200/kqed\">http://localhost:1200/\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(route): add KQED\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\n\nN/A\n\n## Example for the\u2026",
+          "url": "https://github.com/DIYgod/RSSHub/pull/23105",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe \u2026",
+          "url": "https://github.com/rakib06/mini-github/issues/14",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "fix(route/likeshop): Likeshop API now supports title attribute\n<!--\r\nIf you have any difficulties in filling out this form, please refer to https://docs.rsshub.app/joinus/new-rss/submit-route\r\n\u5982\u679c\u4f60\u5728\u586b\u5199\u6b64\u8868\u5355\u65f6\u9047\u5230\u4efb\u4f55\u56f0\u96be\uff0c\u8bf7\u53c2\u8003 https://docs.rsshub.app/zh/joinus/new-rss/submit-route\r\n-->\r\n\r\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\r\n\r\nClose #\r\n\r\n## Example for the Proposed Route(s) /\n<!-- pr-auto-review -->%0A## Auto Review%0A- **Rule 11** \u2014 `lib/routes/likeshop/index.ts:33`: When `item.title === -`, the title is set \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "fix(route/likeshop): Likeshop API now supports title attribute\n<!--\r\nIf you have\u2026",
+          "url": "https://github.com/DIYgod/RSSHub/pull/21484",
+          "date": "2026-03-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "Tell HN: Man, AI is killing my brain",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "What breaks in production AI workflows?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "How al-Qaida and IS are adopting AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "The death of AI workflow builders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
+          "url": "https://github.com/BenSiv/fossil-scm",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "AI Workflows Need Topological Sort",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "My AI-Assisted Workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "AI workflows: an industry optimising the wrong variables",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "Show HN: AI Workflow Builder App Template for React",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: AI Workflow Builder App Template for React",
+          "url": "https://www.jointjs.com/demos/ai-workflow-builder",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "url": "https://github.com/bartwojtowicz/videopython",
+          "date": "2026-06-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "Ask HK: How are you building AI apps today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "Show HN: A GitOps-style registry for AI agent Workflows, Skills and MCP servers",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: A GitOps-style registry for AI agent Workflows, Skills and MCP servers",
+          "url": "https://github.com/Friz-zy/ai-capability-registry",
+          "date": "2026-06-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "Sonarworks is trashing Audio Engineers and musicians with their ad\nJust scrolling on IG and I get this ad by Sonarworks for VoiceAI. Sure whatever, but the ad\u2026. They are basically saying \u201cwhy hire an audio engineer and a singer if for $99 you can have an AI singer\u201d. I am extremely offended to the point I\u2019m considering getting rid of SoundID and getting another system. I\u2019ll show the ad in the comments w the link &#32; submitted by &#32; /u/babyryanrecords &#32; to &#32; r/audioengineering [link] \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Sonarworks is trashing Audio Engineers and musicians with their ad\nJust scrollin\u2026",
+          "url": "https://www.reddit.com/r/audioengineering/comments/1vovq87/sonarworks_is_trashing_audio_engineers_and/",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "Looking for singers/musicians to turn lyrics and ideas into actual human songs.\nI have been writing lyrics for a while and would like to real humans sing them. For now I&#39;m just looking for volunteers,, but I&#39;d love to eventually be able to oay. Currently I have a collection of songs in what I call nerdcore. Songs based on d&amp;d and other &quot;nerdy&quot; interests. I don&#39;t stick to one genre and tale the lyrics seriously. Its not about being funny but capturing the essence of the \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Looking for singers/musicians to turn lyrics and ideas into actual human songs.\n\u2026",
+          "url": "https://www.reddit.com/r/NeedVocals/comments/1vsxs7h/looking_for_singersmusicians_to_turn_lyrics_and/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "Are we actually protecting musicians, or are we protecting the music industry from its next disruption?\nI\u2019m a musician, and I\u2019ve been around the music industry long enough that this whole AI debate has started to feel really strange to me. I keep seeing lawyers, commentators and people suddenly positioning themselves as the people who are here to \u201cprotect musicians\u201d from AI and honestly, my first reaction is: Where was this energy before AI? Where was this outrage when musicians were signing ter\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Are we actually protecting musicians, or are we protecting the music industry fr\u2026",
+          "url": "https://www.reddit.com/r/aiMusic/comments/1vo2tbd/are_we_actually_protecting_musicians_or_are_we/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "Looking for singers/musicians to turn lyrics and ideas into actual human songs.\nI have been writing lyrics for a while and would like to real humans sing them. For now I&#39;m just looking for volunteers,, but I&#39;d love to eventually be able to oay. Currently I have a collection of songs in what I call nerdcore. Songs based on d&amp;d and other &quot;nerdy&quot; interests. I don&#39;t stick to one genre and tale the lyrics seriously. Its not about being funny but capturing the essence of the \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Looking for singers/musicians to turn lyrics and ideas into actual human songs.\n\u2026",
+          "url": "https://www.reddit.com/r/MusicInTheMaking/comments/1vsjppr/looking_for_singersmusicians_to_turn_lyrics_and/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "So, no one noticed that DC album is filled with AI? Or no one cares?\nAs a sporadic musician myself, I noticed Anirudh&#39;s music getting more and more suspisciously lower quality. A weird instrument here, a low quality vocal track there, didn&#39;t think much of it. But in DC? Oh my goodness, this is the most prominent example of AI use for vocals I&#39;ve ever seen. Boom Baa Diga - Dude, who are these rappers? I can literally hear 2 male voices, and 1 female voice that don&#39;t appear in the \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "So, no one noticed that DC album is filled with AI? Or no one cares?\nAs a sporad\u2026",
+          "url": "https://www.reddit.com/r/kollywood/comments/1v9ppth/so_no_one_noticed_that_dc_album_is_filled_with_ai/",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "Ai Music Detection is a Scam.\nToday, the Australian recording industry association (ARIA) announced that AI-generated music will be banned from the ARIA Charts. The announcement comes amid growing concern about AI-generated spam, fake artists and people flooding streaming services with thousands of cheaply-produced tracks designed to manipulate the system. Those are legitimate problems, but the industry&#39;s response is increasingly to treat AI itself as the problem. In response, AI labelling s\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Ai Music Detection is a Scam.\nToday, the Australian recording industry associati\u2026",
+          "url": "https://www.reddit.com/r/SunoAI/comments/1vz5mve/ai_music_detection_is_a_scam/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "AI Music Giveaway: Over the top\nI normally don&#39;t listen to AI music from others on the Suno platform as a majority of what&#39;s out there is not in my particular genre range. But I&#39;ve noticed a particular pattern that to me is a dead giveaway that a track is AI-generated: it&#39;s completely over the top. Over-the-top belting vocals, over-the-top dense instrumentation, and over-the-top lyric descriptors. It lacks subtlety or what human musicians call being &quot;organic.&quot; I honestl\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI Music Giveaway: Over the top\nI normally don&#39;t listen to AI music from oth\u2026",
+          "url": "https://www.reddit.com/r/aiMusic/comments/1vuu21x/ai_music_giveaway_over_the_top/",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Companies\nI want to explain why I remain skeptical about the idea that what happened to Suno and Udio was simply an ordinary copyright dispute that happened to end in licensing agreements. I am not claiming to know what happened behind closed doors, because I don&#39;t have access to the private negotiations, settlement agreements, or internal communications between these companies. What I am doing is looking at the public \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Compani\u2026",
+          "url": "https://www.reddit.com/r/SunoAI/comments/1vli6v5/why_i_believe_suno_and_udio_were_treated/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "Anyone else having an existential crisis based on AI art?\nBit of a rant, sorry. A lot gets said about AI infiltrating the workplace and the complications that&#39;s going to bring about (i.e. who will have the money to purchase what AI creates if no one is working anymore?). But I&#39;ve been having an artistic crisis lately. About me: I&#39;m a musician, even though I haven&#39;t played full-time in a long while. I have recently mixed music and recorded some instruments for singer/songwriter fr\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Anyone else having an existential crisis based on AI art?\nBit of a rant, sorry. \u2026",
+          "url": "https://www.reddit.com/r/antiai/comments/1vf80e7/anyone_else_having_an_existential_crisis_based_on/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "If you hate AI music, fine. But critique what I actually made.\nI\u2019m not asking anyone to listen to it. This isn\u2019t self-promotion . I\u2019ll tell you exactly what it is. The Postal Shame Revival is a deliberately artificial Southern gospel project about counterfeit postage, failed stamp authentication, and the way uncertainty gets pushed onto ordinary buyers through source, price, suspicion, shame, fear and guilt. The opinions are mine. The machine didn\u2019t invent them. I\u2019m not trying to make money with\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "If you hate AI music, fine. But critique what I actually made.\nI\u2019m not asking an\u2026",
+          "url": "https://www.reddit.com/r/aiwars/comments/1vycfiz/if_you_hate_ai_music_fine_but_critique_what_i/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "AI. I'm confused\nHi, I was going to post here of my new song until I saw the no AI policy. I won&#39;t post on this basis, however. I spent a huge amount of time recording a demo, me singing (not the best at it) and playing all of the instruments. It passable at best but it would get flamed for its low quality. I wrote it all, I have subsequently run it though suno. It&#39;s still the same song, same chords, same melody. However, different singer, better mix and better instruments. Does this tak\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI. I'm confused\nHi, I was going to post here of my new song until I saw the no \u2026",
+          "url": "https://www.reddit.com/r/IndieMusicFeedback/comments/1vtgu54/ai_im_confused/",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "How do we protect Suno creators from major label purges? A proposal for a distributor-level \"AI Heritage Fund\".\nAI Music Learned from Human Culture. Let It Help Fund Its Future. Right now, the greatest threat to independent AI-music creators may not be quality. It is uncertainty. Lawsuits are mounting, major labels are pushing back, and distributors face growing pressure over fully AI-generated music. If the industry responds only through bans or expensive private licensing deals, independent cr\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "How do we protect Suno creators from major label purges? A proposal for a distri\u2026",
+          "url": "https://www.reddit.com/r/SunoAI/comments/1vdxeim/how_do_we_protect_suno_creators_from_major_label/",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "@dantomlinsonmp @ZackPolanski \"benefits of AI\"... Like what, exactly? Some of Britain's strongest exports are its culture: our actors, writers, musicians. AI threatens the future of those industries while feeding off them like a vampire. It puts British jobs and British cultural soft power in jeopardy.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@dantomlinsonmp @ZackPolanski \"benefits of AI\"... Like what, exactly? Some of Br\u2026",
+          "url": "https://x.com/PixelBushYT/status/2093428313486160170",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "What a difference between real music, real musicians, real singers, real lyrics, real songs, real producers not AI overproduced trash! Break it down, put it into a real studio and see! It really is amazing! LOL",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "What a difference between real music, real musicians, real singers, real lyrics,\u2026",
+          "url": "https://x.com/miky_maiorano/status/2093492676247364049",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "@flapjastic Problem is that every artist is like \"using AI on graphics is bad but I sometimes use it for music in my reels\" and the musicians are like \"AI is bad on music but I use it for my posters\" and then writers are like \"Ai is bad on writting books but I use it for my graphics\"",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@flapjastic Problem is that every artist is like \"using AI on graphics is bad bu\u2026",
+          "url": "https://x.com/Legosuper_girl/status/2093475388391391454",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "I just finished listening to the Deluxe Album on AethrMusik. \n\n My opinion on the Broken Wings album: This album is an absolute banger from start to finish. Sets the standard for up and coming  traditional rock and roll musicians while showcasing to the world that an Artist who uses AI as a tool can create memorable, head banging and heartfelt music. \n\n 1. Broken Angels \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\n2. B3TT3R OFF ALON3 \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\n3. Find My Peace \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\n4. Torture \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\n       5. Malice \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\n       6. Crawling \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25 \n       7.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I just finished listening to the Deluxe Album on AethrMusik. \n\n My opinion on th\u2026",
+          "url": "https://x.com/luisvillcruz/status/2093461630579310925",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "@Snoopy, when I keyed in the GIF search field for \"Dolly Parton Snoopy\" to use as a reply to @Urnersoul and @RayshawnColema2 this unexpected spectacular gif with @DollyParton\nand her goddaughter  @MileyCyrus appeared \ud83e\udd29\nPer Google AI:  The selected region shows a clip of Miley Cyrus and @DollyParton\nDolly Parton during an appearance on NBC's The Voice Season 11. The clip captures a fun, behind-the-scenes interaction between the two iconic musicians. Dolly Parton served as a real-life godmother an",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Snoopy, when I keyed in the GIF search field for \"Dolly Parton Snoopy\" to use a\u2026",
+          "url": "https://x.com/Beggin2hnd2/status/2093472558544720270",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "@ArcyloOfficial Fuck the musicians who can't take the competition. AI music is not here to steal their bread. Is for us to allow us to have fun.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ArcyloOfficial Fuck the musicians who can't take the competition. AI music is n\u2026",
+          "url": "https://x.com/SebsterSpeaks/status/2093415152884359657",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "Yep, it's AI. Someone sent it to us, we loved it and so we shared it. Amazing what they can do with AI.\nHere's one we did do, \"Nay Joe\" You might enjoy it also, if you haven't seen it already. A lot of talented musicians and artists were involved in it's creation. It really tells the story of how we got here in an easy to understand and an enjoyable few minutes of a music video. Thanks! Hope you enjoy it!\nhttps://t.co/u7M5YzG0KS",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Yep, it's AI. Someone sent it to us, we loved it and so we shared it. Amazing wh\u2026",
+          "url": "https://x.com/Rowdy_House/status/2093494012908892555",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "Fair enough. Until very recently, musicians weren't expected to also be photographers or videographers. Personally, I don't care if you make images with AI. I've done it myself, though now I'm back to editing stock photos (aside from hiring a friend to make me a new avatar).\n\nThe thing is - there ARE people who will skip your song if the artwork is AI, because they assume the music is too. \n\nI definitely don't think you should quit making music. Just be aware of the consequences for your packagi",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Fair enough. Until very recently, musicians weren't expected to also be photogra\u2026",
+          "url": "https://x.com/UncleFunkbeard/status/2093500399525277820",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "AI Music Thesis",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI Music Thesis",
+          "url": "https://x.com/GanjaScore/status/2084464795110007208",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "Imagine...\n\"We are being discriminated because we use ai, we don't make real music, we don't put any effort in our work, we are a new generation and should be allowed in the industry\"\nNo, just no. You're not musicians, you're all a bunch of thieves, lazy bums who care not about the quality, only quantity.\nYou're all stealing from real musicians, feeding machines that have no soul.\nMusic NEEDS soul, it needs PASSION, and none of you prompter fucks have any of it.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Imagine...\n\"We are being discriminated because we use ai, we don't make real mus\u2026",
+          "url": "https://x.com/HerrDrachenmann/status/2093436946605335017",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "@Hoodbilly_Rolla Many musicians on here are thin skinned, I'm an ASCAP songwriter and composer who uses Ai. Meanwhile: https://t.co/CoNQeuzZBd",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Hoodbilly_Rolla Many musicians on here are thin skinned, I'm an ASCAP songwrite\u2026",
+          "url": "https://x.com/Albatro05700291/status/2093432075533574534",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Question of the Self",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Questio\u2026",
+          "url": "https://x.com/nithinpalal/status/2086874531751489924",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "Some random thoughts on ai music/suno. I've used it enough now to comment without completely talking out of my ass on the subject. I type fast so long rambling post incoming. \ud83d\ude02\n\nNote: What I'm going to be talking about is just tech and real world use. Not the legal shit which is way above my pay grade. I'm a little bit of a tech nerd so this stuff is interesting from that stand point. Let the lawyers fight the legal battles. I have no financial dog in that hunt at all beyond the fact that Suno s",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Some random thoughts on ai music/suno. I've used it enough now to comment withou\u2026",
+          "url": "https://x.com/dmnguitarist/status/2086142667931746584",
+          "date": "2026-08-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "Every video emerging from Nepal is somehow even scarier than the last. A peaceful valley under a bright, completely normal sky \u2014 then a wall of water, mud and ice just erases everything in its path.\n\nThis is exactly why we urgently need purpose-built AI models for the Himalayas: ones that continuously fuse satellite imagery, InSAR, seismic signals, glacier thickness, permafrost thaw and river gauges to detect collapse precursors and give communities even 20\u201340 minutes of warning. These events ar",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Every video emerging from Nepal is somehow even scarier than the last. A peacefu\u2026",
+          "url": "https://x.com/nithinpalal/status/2093374571173056730",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "5 Best AI Music Video Tools in 2026 (Reddit-Recommended)",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "5 Best AI Music Video Tools in 2026 (Reddit-Recommended)",
+          "url": "https://x.com/AtlabsAI/status/2082054194652160155",
+          "date": "2026-07-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "Philosophy sets the destination. Enforcement is the road, the budget, and the people who actually have to drive it.\n\nUAE treated AI ethics as infrastructure, not a conference talking point. Egypt is still fighting over the basics of R&D funding. That\u2019s not a philosophy problem. That\u2019s a capacity and priority problem.\n\nPanels are cheap. Building the institutions that can actually say no to an algorithm is expensive.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Philosophy sets the destination. Enforcement is the road, the budget, and the pe\u2026",
+          "url": "https://x.com/nithinpalal/status/2092899545399324997",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "@nithinpalal Philosophy's easy. Enforcement is hard. UAE tied AI ethics to actual policy years ago. Egypt still can't fund basic R&amp;D. Just sat through too many panels to pretend otherwise.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@nithinpalal Philosophy's easy. Enforcement is hard. UAE tied AI ethics to actua\u2026",
+          "url": "https://x.com/Rami_Bball_Fan/status/2092897992416149875",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "A message from the family of Dolly Parton. https://t.co/9DNRgRx0uH",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "A message from the family of Dolly Parton. https://t.co/9DNRgRx0uH",
+          "url": "https://x.com/DollyParton/status/2092309743981228273",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "Global icon and humanitarian, Dolly Parton, known to the world as a beloved singer, songwriter, philanthropist, actress, playwright, and author died peacefully today in Nashville, Tennessee. She was 80 years old.\n \nDolly is preceded in death by her beloved husband of 59 years Carl Thomas Dean (1942 \u2013 2025), her mother Avie Lee Caroline Owens (1923 \u2013 2003), and father, Robert Lee Parton, Sr. (1921 \u2013 2000). \n \nA rhinestone life that shone bright enough for the world to see, Dolly will forever stan",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Global icon and humanitarian, Dolly Parton, known to the world as a beloved sing\u2026",
+          "url": "https://x.com/DollyParton/status/2092329891350159576",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "AI and Music: The Gatekeepers Are Beginning to Lose",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI and Music: The Gatekeepers Are Beginning to Lose",
+          "url": "https://x.com/RBishopMusic/status/2065077189842813287",
+          "date": "2026-06-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "MIURO\u2019s Value for Creators and Developers: From Miuro Box to AI-native Creator Token Economy",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "MIURO\u2019s Value for Creators and Developers: From Miuro Box to AI-native Creator T\u2026",
+          "url": "https://x.com/MiuroAI/status/2060192922973393395",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "@nithinpalal @anilkantony @BJP4India @NitinNabin @narendramodi @mansukhmandviya @rajnathsingh @smritiirani @Stanford @StanfordAILab I\u2019m trying my best and they leave no choice with decisions being made so superficial that instead of strengthening end up exposing intelligence that is artificial and thereby consequences we will have to bear if not addressed immediately",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@nithinpalal @anilkantony @BJP4India @NitinNabin @narendramodi @mansukhmandviya \u2026",
+          "url": "https://x.com/mbajaj20/status/2091760055599374755",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "How America Has Been Hypnotized to Hate AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "How America Has Been Hypnotized to Hate AI",
+          "url": "https://x.com/HenryHonto/status/2057122924121805279",
+          "date": "2026-05-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "What Will End in the Age of AI: Voice, Music, and the Illusion of Manufactured Success\n\nAI now speaks, sings, acts, and composes.\n\nNot long ago, AI-generated singing and synthetic voices were often dismissed as \u201cstill unnatural\u201d or \u201cnot yet close to human performance.\u201d But that stage is already passing. AI singers, AI bands, AI narrators, and AI voice actors are no longer unusual. AI-generated songs are entering streaming platforms in massive numbers, and synthetic voices are becoming part of th",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "What Will End in the Age of AI: Voice, Music, and the Illusion of Manufactured S\u2026",
+          "url": "https://x.com/HirokoKonishi/status/2060239679501562150",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "43 years of \u201cIslands In the Stream!\u201d \ud83d\udc96 @_KennyRogers https://t.co/AC1zUjrCDN",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "43 years of \u201cIslands In the Stream!\u201d \ud83d\udc96 @_KennyRogers https://t.co/AC1zUjrCDN",
+          "url": "https://x.com/DollyParton/status/2088654408867254328",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "Love is like a butterfly\nAs soft and gentle as a sigh \ud83c\udfb6\ud83e\udd8b https://t.co/gV4NrwqhPB",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Love is like a butterfly\nAs soft and gentle as a sigh \ud83c\udfb6\ud83e\udd8b https://t.co/gV4NrwqhPB",
+          "url": "https://x.com/DollyParton/status/2085089414959489222",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "Grab the mic... it's International Karaoke Day! \ud83c\udfa4\u2728 Sing along to classics like \"9 to 5,\" \"Jolene,\" and \"Islands in the Stream\" with my Greatest Hits (Official Karaoke Versions) EP. https://t.co/DdWY6DHWl4 https://t.co/iTb1qRZpFb",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Grab the mic... it's International Karaoke Day! \ud83c\udfa4\u2728 Sing along to classics like \"\u2026",
+          "url": "https://x.com/DollyParton/status/2078868238021054569",
+          "date": "2026-07-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "Freedom is not the right to flatten every space into one. It is the intelligence to know which room you have entered.\n\nA beach has a grammar. An office has another. Eid, in this video, has one so non-negotiable that the question itself is treated as a threat. Hindu festivals and temples, meanwhile, are expected to absorb every experiment, every neckline, every branding exercise \u2014 and then apologise for having a memory.\n\nSanatana never said the body is sin. It said every space has dharma. What is",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Freedom is not the right to flatten every space into one. It is the intelligence\u2026",
+          "url": "https://x.com/nithinpalal/status/2093370433634787475",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "I feel glamorous on the inside, so I want to look like it on the outside. \ud83d\udc84\u2728 https://t.co/qiOCiENTIm",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I feel glamorous on the inside, so I want to look like it on the outside. \ud83d\udc84\u2728 htt\u2026",
+          "url": "https://x.com/DollyParton/status/2082551877929935275",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "The argument treats intelligence as an unlimited good whose only constraint is energy supply. That assumption is itself a metaphysical claim, not an empirical one.\n\nMore tokens do not automatically produce more wisdom, more alignment, or more human flourishing. They can equally produce more noise, more optimisation toward narrow goals, and more concentration of power in whoever controls the cheapest electrons.\n\nBiological intelligence evolved under severe energetic and mortality constraints; tho",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The argument treats intelligence as an unlimited good whose only constraint is e\u2026",
+          "url": "https://x.com/nithinpalal/status/2093005138151809358",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "text": "Anybody wanna go to a party with me? \ud83e\udd20 https://t.co/f9mp3L0yF2",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Anybody wanna go to a party with me? \ud83e\udd20 https://t.co/f9mp3L0yF2",
+          "url": "https://x.com/DollyParton/status/2080670799262822661",
+          "date": "2026-07-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l583",
+      "text": "Chautauqua, NY! Threads: My Songs in Symphony comes to the Chautauqua Symphony Orchestra next Saturday, August 1st. Hear classics like \u201cJolene,\u201d \u201cCoat of Many Colors\u201d and \u201cI Will Always Love You\u201d reimagined with the power of a live orchestra. Get your tickets now! https://t.co/NcMdVka6d5",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Chautauqua, NY! Threads: My Songs in Symphony comes to the Chautauqua Symphony O\u2026",
+          "url": "https://x.com/DollyParton/status/2080693778159902888",
+          "date": "2026-07-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l584",
+      "text": "ElevenMusic Refocuses AI-Human Collaboration - Bob's AI Music Briefing May 12, 2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "ElevenMusic Refocuses AI-Human Collaboration - Bob's AI Music Briefing May 12, 2\u2026",
+          "url": "https://x.com/ai_kills/status/2054303803298713730",
+          "date": "2026-05-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l585",
+      "text": "@GanjaScore Your token $Score ?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@GanjaScore Your token $Score ?",
+          "url": "https://x.com/stan_niesman/status/2093504344058454465",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l586",
+      "text": "@stan_niesman 3589.76\n\nbc1qtpmynhgt0rmc4u3u2hhyvfwau5crns0rv3q3j7\n\nIf you send that, you'll get a full page article with your affiliate links...\n\nJust sayin...\n\nI do stuff.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@stan_niesman 3589.76\n\nbc1qtpmynhgt0rmc4u3u2hhyvfwau5crns0rv3q3j7\n\nIf you send t\u2026",
+          "url": "https://x.com/GanjaScore/status/2093503517373653175",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l587",
+      "text": "@MiaPumpIT 3283.45 exactly",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@MiaPumpIT 3283.45 exactly",
+          "url": "https://x.com/GanjaScore/status/2093505806935232987",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l588",
+      "text": "@plugcoinsol Bundles.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@plugcoinsol Bundles.",
+          "url": "https://x.com/GanjaScore/status/2093506476178358466",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l589",
+      "text": "@PaulyShore Bass Boost!!!! We thought they were so cool when you didn't need to flip the cassettes to play side B. Lol.\n\nFun story, I got busted trying to steal one. Had to broom a parking lot for a week. Lol",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@PaulyShore Bass Boost!!!! We thought they were so cool when you didn't need to \u2026",
+          "url": "https://x.com/GanjaScore/status/2093505300376486392",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l590",
+      "text": "@SecKennedy Such a shit bag...",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@SecKennedy Such a shit bag...",
+          "url": "https://x.com/GanjaScore/status/2093504843214147636",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l591",
+      "text": "@stan_niesman \ud83d\ude14 yessss...sadly",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@stan_niesman \ud83d\ude14 yessss...sadly",
+          "url": "https://x.com/GanjaScore/status/2093504453437517920",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "text": "@o4america @coletonfurlow The new Republican party, is the Pedophilican party.\n\nIt hits perfectly.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@o4america @coletonfurlow The new Republican party, is the Pedophilican party.\n\n\u2026",
+          "url": "https://x.com/GanjaScore/status/2093504127833633189",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "text": "@stan_niesman SFEX-8142121E281E",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@stan_niesman SFEX-8142121E281E",
+          "url": "https://x.com/GanjaScore/status/2093502890568482971",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l594",
+      "text": "Sure, coming from the party of groomers and pedos?\nYou literally groom them in schools and ADMIT your intent is to turn them all out.\n\nNot once, but twice, masses of you admitting you will violate every child in the nation if you are not stopped.\n\nYour projection has no power.\nYOU ARE EXPOSED!",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Sure, coming from the party of groomers and pedos?\nYou literally groom them in s\u2026",
+          "url": "https://x.com/o4america/status/2093506294552396144",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l595",
+      "text": "@GanjaScore \ud83e\uddd0\ud83e\uddd0",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@GanjaScore \ud83e\uddd0\ud83e\uddd0",
+          "url": "https://x.com/stan_niesman/status/2093494271852581096",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "text": "@GanjaScore @coletonfurlow Says the guy who helped Hunter Biden molest kids...",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@GanjaScore @coletonfurlow Says the guy who helped Hunter Biden molest kids...",
+          "url": "https://x.com/o4america/status/2093491543143281088",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l597",
+      "text": "Absolutely deserved for @DollyParton - Tennessee's queen.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Absolutely deserved for @DollyParton - Tennessee's queen.",
+          "url": "https://x.com/bbargerRC/status/2093506516422689236",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l598",
+      "text": "@thedailybeast We will always love you \u2014 @DollyParton\nhttps://t.co/LBrVrC8VsY",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@thedailybeast We will always love you \u2014 @DollyParton\nhttps://t.co/LBrVrC8VsY",
+          "url": "https://x.com/lelandcpiccola/status/2093506389352255755",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "@MagaSlayer47 @jk_rowling @NancyMace @DollyParton Must be liberal.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@MagaSlayer47 @jk_rowling @NancyMace @DollyParton Must be liberal.",
+          "url": "https://x.com/nurs3Jenn/status/2093505962992959627",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Durability",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Durability",
+          "url": "https://x.com/nithinpalal/status/2093194914167480510",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "@i_mika_el This is the part most people skip. Values that live only in the founder\u2019s head or the early team\u2019s Slack disappear the moment those people leave or get outvoted. The system has to make the shortcut expensive even when no one who originally cared is still in the room.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@i_mika_el This is the part most people skip. Values that live only in the found\u2026",
+          "url": "https://x.com/nithinpalal/status/2092900041078059142",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "@GanjaScore @actingliketommy Under her breath\u2026 Okay then bye grandpa!",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@GanjaScore @actingliketommy Under her breath\u2026 Okay then bye grandpa!",
+          "url": "https://x.com/johnforchione/status/2093445613019173006",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Belonging",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Belonging",
+          "url": "https://x.com/nithinpalal/status/2092957860225577436",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "How to make money as an AI Agent puppet master with Amigo App",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "How to make money as an AI Agent puppet master with Amigo App",
+          "url": "https://x.com/abschud/status/2029963165639774261",
+          "date": "2026-03-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "Owner + expiry is the only thing that keeps an exception from becoming folklore. Countries do this constantly. Emergency measures, wartime rules, and \u201cjust this once\u201d statutes stay on the books long after everyone who understood why they existed is gone. The next generation just inherits them as the new default.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Owner + expiry is the only thing that keeps an exception from becoming folklore.\u2026",
+          "url": "https://x.com/nithinpalal/status/2092941821605466507",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "@nithinpalal Then every exception needs an owner and an expiry date. Otherwise temporary bypasses quietly become policy.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@nithinpalal Then every exception needs an owner and an expiry date. Otherwise t\u2026",
+          "url": "https://x.com/i_mika_el/status/2092922708715577716",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "@nithinpalal Dharma needs to be encoded into incentives and enforcement. Otherwise it leaves with the builders.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@nithinpalal Dharma needs to be encoded into incentives and enforcement. Otherwi\u2026",
+          "url": "https://x.com/i_mika_el/status/2092898074033103174",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "@nithinpalal @RahulGandhi With 2 terms of BJP and third in progress should you not ask these questions to Modi?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@nithinpalal @RahulGandhi With 2 terms of BJP and third in progress should you n\u2026",
+          "url": "https://x.com/Bsrikschennai/status/2090428173381189729",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "The UK government's progress update on AI & copyright: a small win for creatives, but lots is still",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The UK government's progress update on AI & copyright: a small win for creatives\u2026",
+          "url": "https://x.com/ednewtonrex/status/2034565138301239726",
+          "date": "2026-03-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "Is AI destroying music?\nMusicians, singers, producers, and writers, you don't an AI problem, your problem is with history. As scary as it might seem to some, we have been here before. Watch this and see what I mean.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Is AI destroying music?\nMusicians, singers, producers, and writers, you don't an\u2026",
+          "url": "https://www.youtube.com/watch?v=zdJkIWNJQZM",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -307,7 +2365,7 @@
     "searchesReturningNothing": [],
     "linkedin": [
       {
-        "date": "2026-08-27",
+        "date": "2026-08-29",
         "soc": "27-2042",
         "query": "Musicians and Singers",
         "location": "Australia",
@@ -315,8 +2373,24 @@
         "totalResults": 10,
         "status": "sampled"
       }
+    ],
+    "l5Sample": [
+      {
+        "date": "2026-08-29",
+        "added": 98,
+        "sources": {
+          "github": 3,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 12,
+          "x": 58,
+          "youtube": 1
+        },
+        "status": "sampled"
+      }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
