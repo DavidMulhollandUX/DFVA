@@ -1,77 +1,387 @@
 {
   "onet_soc_code": "19-1011",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Animal Scientists",
   "aliases": [
-    "Graduate Nutritionist"
+    "Animal Nutritionist",
+    "Animal Physiologist",
+    "Livestock Scientist"
   ],
-  "anzsco": "220000",
+  "anzsco": "234511",
   "window": {
     "from": "2025-08-01",
-    "to": "2026-08-24"
+    "to": "2026-08-29"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-29",
+  "expires": "2027-02-29",
   "programs": [],
   "claims": [
     {
-      "id": "19-1011-01",
-      "text": "National peak professional bodies and statutory regulators governing Animal Scientists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "l1-01",
+      "text": "Animal scientists working with genetically modified organisms are bound by the Gene Technology Act 2000 (Cth) and overseen by the Office of the Gene Technology Regulator (OGTR); institutions must hold OGTR accreditation and run Institutional Biosafety Committees.",
       "lane": "L1",
-      "tier": "regulatory",
+      "tier": "regulatory-instrument",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Animal Scientists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Animal Scientists",
-          "url": "https://www.psc.gov.au/standards/19-1011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Animal Scientists"
+          "publisher": "Office of the Gene Technology Regulator",
+          "title": "Legislative documents (Gene Technology Act 2000)",
+          "url": "https://ogtr.gov.au/about-ogtr/legislative-documents",
+          "date": "2025-02-26",
+          "whatItMeasured": "Primary Commonwealth legislation registering GMO dealings; OGTR is the licensing regulator."
         }
       ],
-      "scope": "Australian practitioners in Animal Scientists across public, private, and research sectors.",
+      "scope": "Binds GMO/gene-editing research work by animal scientists; does not cover conventional animal husbandry or non-GMO field trials.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "Source real (ogtr.gov.au, primary regulator). Measures this population (GMO researchers). In window (Act current, 2025 amendment noted)."
     },
     {
-      "id": "19-1011-02",
-      "text": "Automation of routine transactional and analytical tasks in Animal Scientists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "id": "l1-02",
+      "text": "Animal scientists in research involving animals or imported biologicals must comply with the Biosecurity Act 2015 (Cth) and state biosecurity/animal-welfare legislation, administered through institutional biosafety and animal-ethics committees.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Legislation.gov.au",
+          "title": "Biosecurity Act 2015 (Cth) No. 61, 2015",
+          "url": "https://legislation.gov.au/C2015A00061/2025-01-01/2025-01-01/text/original/pdf",
+          "date": "2025-01-01",
+          "whatItMeasured": "Primary Commonwealth legislation (Biosecurity Act 2015) governing animal/plant health and imported biologicals."
+        }
+      ],
+      "scope": "Applies to research settings using animals/biologicals; not a claim about commercial farm employment of animal scientists.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (legislation.gov.au, primary Act). Measures research-animal scientists. In window (Act in force 2025 compilation)."
+    },
+    {
+      "id": "l1-03",
+      "text": "The peak professional body, Ag Institute Australia (Australian Institute of Agricultural Science and Technology), administers the Certified Practising Agriculturalist (CPAg) national accreditation scheme for agriculture and natural-resource professionals.",
+      "lane": "L1",
+      "tier": "accreditation-body",
+      "sources": [
+        {
+          "publisher": "Ag Institute Australia",
+          "title": "Ag Institute Australia — membership and accreditation",
+          "url": "https://aginstitute.com.au",
+          "date": "2026",
+          "whatItMeasured": "Peak-body accreditation scheme (CPAg) for agricultural science professionals."
+        }
+      ],
+      "scope": "Voluntary professional accreditation; not a statutory registration requirement to practise as an animal scientist in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (peak body site). Measures the profession's accreditation body. In window."
+    },
+    {
+      "id": "l2-01",
+      "text": "Jobs and Skills Australia's Generative AI Capacity Study (Aug 2025) assessed 358 ANZSCO occupations and rated agriculture among the lowest AI-automation-risk groups: GenAI 'assists diagnostics or planning but not execution', with augmentation outweighing replacement.",
       "lane": "L2",
-      "tier": "scholarly",
+      "tier": "institutional-study",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Animal Scientists",
-          "url": "https://www.jobsandskills.gov.au/research/19-1011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Animal Scientists in Australia"
+          "publisher": "Jobs and Skills Australia (reported by aichanging.work)",
+          "title": "Australia's First Gen AI Capacity Study: 79% of Workers Face Low Risk",
+          "url": "https://aichanging.work/en/blog/jsa-genai-capacity-study-australia-2025",
+          "date": "2025-08",
+          "whatItMeasured": "JSA whole-of-labour-market task-level study of 358 occupations; agriculture classified low automation risk."
         }
       ],
-      "scope": "Entry-level and senior Animal Scientists roles in Australia.",
+      "scope": "National workforce-level finding; does not quantify animal-scientist-specific task exposure. AU study, not US transfer.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "Source real (reports the JSA 2025 study). Measures Australian workforce. In window (2025 release)."
     },
     {
-      "id": "l503",
-      "text": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Executive Summary\n\n**Key Insights** reveal a paradoxical landscape where technological advancement simultaneously erodes and reinforces security. While Meta's AI support bot facilitated high-profile account takeovers by bypassing two-factor authentication t\n---\n### Articles Processed\n| \ud83d\udcd1 Article | \ud83d\udc64 Author | \ud83d\udcc4 Summary | \ud83c\udff7\ufe0f Tags |\n|---------|-----------|-----------|--------|\n| [\ud83d\udd17](https://www.0xsid.com/blog/meta-account-t\u2026",
+      "id": "l2-02",
+      "text": "Precision-livestock AI is an active Australian research area: University of Melbourne's Digital Agriculture group applies computer vision and remote sensing to livestock welfare, and Food Agility CRC with Meat & Livestock Australia fund federated-learning models for livestock growth prediction.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "arXiv (Food Agility CRC / MLA funded)",
+          "title": "Neural Federated Learning for Livestock Growth Prediction",
+          "url": "https://arxiv.org/pdf/2603.28117v2",
+          "date": "2026-03",
+          "whatItMeasured": "Australian CRC/MLA-funded study prototyping federated learning for farm-specific livestock weight prediction."
+        }
+      ],
+      "scope": "Research prototypes, not yet standard industry practice; focuses on growth prediction, not all animal-science tasks.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (arXiv preprint, funded by named AU bodies). Measures AU livestock-AI research. In window (2026)."
+    },
+    {
+      "id": "l3-01",
+      "text": "Virtual fencing (AI-trained GPS collars) has moved past pilot to commercial adoption in Australian red meat: Halter reports 2,000+ farmers and over 1 million collars sold across AU/NZ/US, with AI identifying endemic-disease signs (ticks, buffalo fly) and predicting calving and illness.",
+      "lane": "L3",
+      "tier": "industry-analysis",
+      "sources": [
+        {
+          "publisher": "ARAIN",
+          "title": "AI in Australian red meat: collars, weigh platforms, and the slow business of knowing your animals better",
+          "url": "https://arain.com.au/insights/ai-australian-red-meat-livestock-2026",
+          "date": "2026-07-03",
+          "whatItMeasured": "Industry analysis of AI adoption in AU red-meat livestock (virtual fencing, EID, disease detection)."
+        }
+      ],
+      "scope": "Red-meat/livestock sector specifically; not a measure of laboratory or research animal-science employment.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (industry analysis, dated 2026). Measures AU red-meat AI adoption. In window."
+    },
+    {
+      "id": "l3-02",
+      "text": "CSIRO has demonstrated AI livestock technologies (GPS activity trackers, computer vision for behaviour, acoustic vocalisation analysis, virtual-fencing prototypes) at its Armidale facility; industry bodies report uneven adoption constrained by upfront cost and uncertain payback for small-medium enterprises.",
+      "lane": "L3",
+      "tier": "industry-analysis",
+      "sources": [
+        {
+          "publisher": "IMARC Group (market analysis, cites CSIRO)",
+          "title": "Australia Animal Husbandry Market — Precision Livestock Farming trends",
+          "url": "https://imarcgroup.com/australia-animal-husbandry-market",
+          "date": "2025",
+          "whatItMeasured": "Market report describing CSIRO AI-livestock demonstrations (Feb 2024) and adoption barriers."
+        }
+      ],
+      "scope": "Market-analysis secondary source; figures on adoption are illustrative, not a primary survey of animal scientists.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (market report). Measures AU livestock-tech landscape. In window."
+    },
+    {
+      "id": "l408",
+      "text": "Research Project Officer - Livestock Production — CSIRO (Townsville, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "CSIRO",
+          "title": "Research Project Officer - Livestock Production",
+          "url": "https://www.linkedin.com/jobs/view/4454003520",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Research Project Officer - Livestock Production — CSIRO (Woodstock, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "CSIRO",
+          "title": "Research Project Officer - Livestock Production",
+          "url": "https://www.linkedin.com/jobs/view/4454002552",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Senior Research Scientist or Principal Research Scientist — Department of Primary Industries & Regional Development (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Primary Industries & Regional Development",
+          "title": "Senior Research Scientist or Principal Research Scientist",
+          "url": "https://www.linkedin.com/jobs/view/4454482791",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "text": "Expression of Interest – Veterinary Clinical Academic Opportunities — James Cook University (Townsville, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "James Cook University",
+          "title": "Expression of Interest – Veterinary Clinical Academic Opportunities",
+          "url": "https://www.linkedin.com/jobs/view/4444279551",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "Animal Health Technician - Animal Health Team — Tassal Group (Margate, Tasmania, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Tassal Group",
+          "title": "Animal Health Technician - Animal Health Team",
+          "url": "https://www.linkedin.com/jobs/view/4456093922",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "text": "Lecturer / Senior Lecturer in Agricultural Science — Charles Sturt University (Wagga Wagga, New South Wales, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Charles Sturt University",
+          "title": "Lecturer / Senior Lecturer in Agricultural Science",
+          "url": "https://www.linkedin.com/jobs/view/4457405756",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l414",
+      "text": "Animal Services Coordinator — University of Tasmania (Hobart, Tasmania, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "University of Tasmania",
+          "title": "Animal Services Coordinator",
+          "url": "https://www.linkedin.com/jobs/view/4458061681",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l415",
+      "text": "Technical & Product Performance Support Officer — Skretting (Cambridge, Tasmania, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Skretting",
+          "title": "Technical & Product Performance Support Officer",
+          "url": "https://www.linkedin.com/jobs/view/4443429742",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l416",
+      "text": "Senior Technical Officer — Department of Agriculture and Fisheries (Katherine, Northern Territory, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Agriculture and Fisheries",
+          "title": "Senior Technical Officer",
+          "url": "https://www.linkedin.com/jobs/view/4446253579",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l417",
+      "text": "Animal Production Advisor - Northern NSW — Nutrien Ag Solutions - Australia (Armidale, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Nutrien Ag Solutions - Australia",
+          "title": "Animal Production Advisor - Northern NSW",
+          "url": "https://www.linkedin.com/jobs/view/4453663629",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l518",
+      "text": "Daily Content Summary 2026-06-02\n# 📰 Daily Content Summary - 2026-06-02\n### Executive Summary\n\n**Key Insights** reveal a paradoxical landscape where technological advancement simultaneously erodes and reinforces security. While Meta's AI support bot facilitated high-profile account takeovers by bypassing two-factor authentication t\n---\n### Articles Processed\n| 📑 Article | 👤 Author | 📄 Summary | 🏷️ Tags |\n|---------|-----------|-----------|--------|\n| [🔗](https://www.0xsid.com/blog/meta-account-t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Exec\u2026",
+          "title": "Daily Content Summary 2026-06-02\n# 📰 Daily Content Summary - 2026-06-02\n### Exec…",
           "url": "https://github.com/jhengy/content-aggregator/issues/506",
           "date": "2026-06-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -85,14 +395,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l504",
-      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       \u2026",
+      "id": "l519",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe \u2026",
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe …",
           "url": "https://github.com/rakib06/mini-github/issues/14",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -106,14 +416,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l505",
-      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n\u00b7 I.G. Farben's post-w\n\ud83e\udd3f\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati\u2026",
+      "id": "l520",
+      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n· I.G. Farben's post-w\n🤿\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL\u2026",
+          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL…",
           "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/3",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -127,7 +437,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l506",
+      "id": "l521",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -148,7 +458,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l507",
+      "id": "l522",
       "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -169,7 +479,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l508",
+      "id": "l523",
       "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -190,7 +500,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l509",
+      "id": "l524",
       "text": "How al-Qaida and IS are adopting AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -211,7 +521,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l510",
+      "id": "l525",
       "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -232,7 +542,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l511",
+      "id": "l526",
       "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -253,14 +563,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l512",
-      "text": "Primus \u2013 AI Research Scientist",
+      "id": "l527",
+      "text": "Primus – AI Research Scientist",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Primus \u2013 AI Research Scientist",
+          "title": "Primus – AI Research Scientist",
           "url": "https://lab.cloud/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -274,7 +584,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l513",
+      "id": "l528",
       "text": "AI Scientists will win official olympiad medals at IOAI 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -295,7 +605,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l514",
+      "id": "l529",
       "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -316,14 +626,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l515",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "id": "l530",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -337,14 +647,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l516",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "id": "l531",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -358,7 +668,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l517",
+      "id": "l532",
       "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -379,7 +689,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l518",
+      "id": "l533",
       "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -400,7 +710,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l519",
+      "id": "l534",
       "text": "Show HN: AI scientist builds an open-source Codex Micro from scratch for $40",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -421,7 +731,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l520",
+      "id": "l535",
       "text": "Open Letter to Compassionate, Left-Leaning, AI-Hating, Animal-Loving Meat Eaters",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -442,7 +752,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l521",
+      "id": "l536",
       "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -463,7 +773,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l522",
+      "id": "l537",
       "text": "AI workflows: an industry optimising the wrong variables",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -484,7 +794,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l523",
+      "id": "l538",
       "text": "Show HN: AI Workflow Builder App Template for React",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -505,7 +815,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l524",
+      "id": "l539",
       "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -526,14 +836,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l525",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "id": "l540",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -547,7 +857,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l526",
+      "id": "l541",
       "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -568,14 +878,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l527",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "id": "l542",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -589,7 +899,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l528",
+      "id": "l543",
       "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -610,14 +920,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l529",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "id": "l544",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -631,14 +941,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l530",
-      "text": "AI Giving Students Brain Atrophy\nSo for context, I am a postdoc neuroscientist working with flies. In my personal time, I am an artist and I make all my own figures and images for my presentations. I have been babysitting a masters student for some summer internship thing and at the end of the month of shadowing, the student gives a presentation on the work they did. The work is very straight forward. They have been helping me with behavioral experiments. I taught them to prep the bugs, starve t\u2026",
+      "id": "l545",
+      "text": "AI Giving Students Brain Atrophy\nSo for context, I am a postdoc neuroscientist working with flies. In my personal time, I am an artist and I make all my own figures and images for my presentations. I have been babysitting a masters student for some summer internship thing and at the end of the month of shadowing, the student gives a presentation on the work they did. The work is very straight forward. They have been helping me with behavioral experiments. I taught them to prep the bugs, starve t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI Giving Students Brain Atrophy\nSo for context, I am a postdoc neuroscientist w\u2026",
+          "title": "AI Giving Students Brain Atrophy\nSo for context, I am a postdoc neuroscientist w…",
           "url": "https://www.reddit.com/r/labrats/comments/1vji9g9/ai_giving_students_brain_atrophy/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -652,14 +962,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l531",
-      "text": "Scientists make first viruses designed by AI.How safe is it?\nAI has now designed viruses that did not exist before. Scientists have used AI models trained on the genetic information of about 2 million bacteriophages to design new viral genomes. In the laboratory, 16 of these AI-designed viruses proved viable, and a combination of them successfully killed strains of E. coli that were resistant to naturally occurring bacteriophages. The potential benefit is enormous: AI could help design highly ta\u2026",
+      "id": "l546",
+      "text": "Scientists make first viruses designed by AI.How safe is it?\nAI has now designed viruses that did not exist before. Scientists have used AI models trained on the genetic information of about 2 million bacteriophages to design new viral genomes. In the laboratory, 16 of these AI-designed viruses proved viable, and a combination of them successfully killed strains of E. coli that were resistant to naturally occurring bacteriophages. The potential benefit is enormous: AI could help design highly ta…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Scientists make first viruses designed by AI.How safe is it?\nAI has now designed\u2026",
+          "title": "Scientists make first viruses designed by AI.How safe is it?\nAI has now designed…",
           "url": "https://www.reddit.com/r/AcharyaPrashant_AP/comments/1vrllta/scientists_make_first_viruses_designed_by_aihow/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -673,14 +983,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l532",
-      "text": "Artificial Intelligence was able to create 16 new viruses that can infect bacteria, raising concerns of potential misuse.\nAI Model Designs 16 Functional Viruses From Scratch, Advancing Therapies While Raising Biosecurity Concerns Researchers from Stanford University and the Arc Institute used genome language models, Evo 1 and Evo 2, to generate hundreds of thousands of candidate bacteriophage genomes. After synthesizing and testing nearly 300 designs in the laboratory, they identified 16 viable \u2026",
+      "id": "l547",
+      "text": "Artificial Intelligence was able to create 16 new viruses that can infect bacteria, raising concerns of potential misuse.\nAI Model Designs 16 Functional Viruses From Scratch, Advancing Therapies While Raising Biosecurity Concerns Researchers from Stanford University and the Arc Institute used genome language models, Evo 1 and Evo 2, to generate hundreds of thousands of candidate bacteriophage genomes. After synthesizing and testing nearly 300 designs in the laboratory, they identified 16 viable …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Artificial Intelligence was able to create 16 new viruses that can infect bacter\u2026",
+          "title": "Artificial Intelligence was able to create 16 new viruses that can infect bacter…",
           "url": "https://www.reddit.com/r/STEW_ScTecEngWorld/comments/1vi0cuo/artificial_intelligence_was_able_to_create_16_new/",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -694,14 +1004,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l533",
-      "text": "Scientists have designed a functioning virus from scratch using AI\nArtificial intelligence has designed viruses that can infect bacteria and reproduce \u2013 a first that shows AI is beginning to do more than analyse the genetic code of living things. It can write new versions of it, too. The viruses in question are bacteriophages, or phages \u2013 viruses that infect bacteria rather than people, animals or plants. Researchers used AI to design hundreds of new versions of a well-studied phage, then built \u2026",
+      "id": "l548",
+      "text": "Scientists have designed a functioning virus from scratch using AI\nArtificial intelligence has designed viruses that can infect bacteria and reproduce – a first that shows AI is beginning to do more than analyse the genetic code of living things. It can write new versions of it, too. The viruses in question are bacteriophages, or phages – viruses that infect bacteria rather than people, animals or plants. Researchers used AI to design hundreds of new versions of a well-studied phage, then built …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Scientists have designed a functioning virus from scratch using AI\nArtificial in\u2026",
+          "title": "Scientists have designed a functioning virus from scratch using AI\nArtificial in…",
           "url": "https://www.reddit.com/r/Science_India/comments/1vqude4/scientists_have_designed_a_functioning_virus_from/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -715,14 +1025,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l534",
-      "text": "Westlake\u2013Tsinghua\u2013SIA Mouse Amygdala BMI Hands Fear to AI Swarms While DARPA and NTU Scale Animal Cyborgs\nZirui Chen, Lin Zhang, Guiyong Chen, Hongru Liu and co-authors at Westlake University\u2019s WINDY Lab, the Shenyang Institute of Automation of the Chinese Academy of Sciences, Tsinghua University\u2019s School of Biomedical Engineering, and China Medical University published a closed-loop architecture in National Science Review that treats a mouse\u2019s fear as a control token for a robot swarm. A wirele\u2026",
+      "id": "l549",
+      "text": "Westlake–Tsinghua–SIA Mouse Amygdala BMI Hands Fear to AI Swarms While DARPA and NTU Scale Animal Cyborgs\nZirui Chen, Lin Zhang, Guiyong Chen, Hongru Liu and co-authors at Westlake University’s WINDY Lab, the Shenyang Institute of Automation of the Chinese Academy of Sciences, Tsinghua University’s School of Biomedical Engineering, and China Medical University published a closed-loop architecture in National Science Review that treats a mouse’s fear as a control token for a robot swarm. A wirele…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Westlake\u2013Tsinghua\u2013SIA Mouse Amygdala BMI Hands Fear to AI Swarms While DARPA and\u2026",
+          "title": "Westlake–Tsinghua–SIA Mouse Amygdala BMI Hands Fear to AI Swarms While DARPA and…",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1w0xp2i/westlaketsinghuasia_mouse_amygdala_bmi_hands_fear/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -736,14 +1046,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l535",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "id": "l550",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -757,14 +1067,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l536",
-      "text": "Post-AI Cynicism, the \u201cBehavioral Sink,\u201d and the Evolution of Human Motivation\nAfter Scarcity: For most of human history, civilization was organized around a simple psychological equation: survival required effort, and effort required motivation. Hunger compelled production; scarcity generated competition; danger created solidarity; social exclusion imposed conformity; and the prospect of wealth or status encouraged individuals to work beyond immediate biological necessity. Human institutions gr\u2026",
+      "id": "l551",
+      "text": "Post-AI Cynicism, the “Behavioral Sink,” and the Evolution of Human Motivation\nAfter Scarcity: For most of human history, civilization was organized around a simple psychological equation: survival required effort, and effort required motivation. Hunger compelled production; scarcity generated competition; danger created solidarity; social exclusion imposed conformity; and the prospect of wealth or status encouraged individuals to work beyond immediate biological necessity. Human institutions gr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Post-AI Cynicism, the \u201cBehavioral Sink,\u201d and the Evolution of Human Motivation\nA\u2026",
+          "title": "Post-AI Cynicism, the “Behavioral Sink,” and the Evolution of Human Motivation\nA…",
           "url": "https://www.reddit.com/r/AfterClass/comments/1vslxn7/postai_cynicism_the_behavioral_sink_and_the/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -778,14 +1088,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l537",
-      "text": "The Guardian: AI-altered images on birdwatching forums putting research at risk\nFor many birdwatchers, recording a species outside its normal range is the holy grail. In the UK, the discoveries often make national headlines. The western reef heron, for example, usually found in Africa and southern Europe, was spotted in a seaside town in north Wales in June, and widely celebrated on birding forums. But a new scourge is threatening to disrupt the fun: AI slop. Scientists are appealing to birders \u2026",
+      "id": "l552",
+      "text": "The Guardian: AI-altered images on birdwatching forums putting research at risk\nFor many birdwatchers, recording a species outside its normal range is the holy grail. In the UK, the discoveries often make national headlines. The western reef heron, for example, usually found in Africa and southern Europe, was spotted in a seaside town in north Wales in June, and widely celebrated on birding forums. But a new scourge is threatening to disrupt the fun: AI slop. Scientists are appealing to birders …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Guardian: AI-altered images on birdwatching forums putting research at risk\n\u2026",
+          "title": "The Guardian: AI-altered images on birdwatching forums putting research at risk\n…",
           "url": "https://www.reddit.com/r/antiai/comments/1v9qnyb/the_guardian_aialtered_images_on_birdwatching/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -799,14 +1109,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l538",
-      "text": "Scientist says RAM pricing has reverted to normalized 2007 levels \u2014 memory prices have been falling exponentially for decades, but the AI shortage undid 20 years of progress in a matter of months\n&#32; submitted by &#32; /u/jluizsouzadev &#32; to &#32; r/hardware [link] &#32; [comments]",
+      "id": "l553",
+      "text": "Scientist says RAM pricing has reverted to normalized 2007 levels — memory prices have been falling exponentially for decades, but the AI shortage undid 20 years of progress in a matter of months\n&#32; submitted by &#32; /u/jluizsouzadev &#32; to &#32; r/hardware [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Scientist says RAM pricing has reverted to normalized 2007 levels \u2014 memory price\u2026",
+          "title": "Scientist says RAM pricing has reverted to normalized 2007 levels — memory price…",
           "url": "https://www.reddit.com/r/hardware/comments/1vifbtj/scientist_says_ram_pricing_has_reverted_to/",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -820,14 +1130,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l539",
-      "text": "I\u2019m not a technical fella, but I studied engineering (alongside finance), cover technical industries at work (a lot of industrial technology) and have friends at a number of the leading AI / robotics companies. General thoughts from conversations with these folks over the last 2-3 years on AI / Physical AI:\n\n\u2022 I do not think AGI is worth spending much mindspace on right now. It is too loosely defined and the goalposts keep moving. We have been one month away from AGI for the last year. Doesn't m",
+      "id": "l554",
+      "text": "I’m not a technical fella, but I studied engineering (alongside finance), cover technical industries at work (a lot of industrial technology) and have friends at a number of the leading AI / robotics companies. General thoughts from conversations with these folks over the last 2-3 years on AI / Physical AI:\n\n• I do not think AGI is worth spending much mindspace on right now. It is too loosely defined and the goalposts keep moving. We have been one month away from AGI for the last year. Doesn't m",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I\u2019m not a technical fella, but I studied engineering (alongside finance), cover \u2026",
+          "title": "I’m not a technical fella, but I studied engineering (alongside finance), cover …",
           "url": "https://x.com/Noodle_Noodle1/status/2092227557202763820",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -841,14 +1151,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l540",
+      "id": "l555",
       "text": "AI designed a virus, scientists brought it to life | Eitan Gefen, Ynetnews\n\nUntil recently, much of the debate around artificial intelligence focused on what machines could write, draw or calculate. Now the question is becoming far more consequential: Can AI design something that actually functions inside the biological world?\n\nResearchers from Stanford University and the Arc Institute have used artificial intelligence to design the genetic code of bacteriophages, viruses that infect bacteria, a",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI designed a virus, scientists brought it to life | Eitan Gefen, Ynetnews\n\nUnti\u2026",
+          "title": "AI designed a virus, scientists brought it to life | Eitan Gefen, Ynetnews\n\nUnti…",
           "url": "https://x.com/OwenGregorian/status/2088969823044723044",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -862,14 +1172,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l541",
-      "text": "Think UBI from AI is just the new trickle-down economics meme.\n\nWe already have UBI. I\u2019d guess half of white-collar jobs are UBI. Walk around any major city in the middle of the day and it\u2019s BUSSIN.\n\nAI might make the implicit UBI explicit though.",
+      "id": "l556",
+      "text": "Think UBI from AI is just the new trickle-down economics meme.\n\nWe already have UBI. I’d guess half of white-collar jobs are UBI. Walk around any major city in the middle of the day and it’s BUSSIN.\n\nAI might make the implicit UBI explicit though.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Think UBI from AI is just the new trickle-down economics meme.\n\nWe already have \u2026",
+          "title": "Think UBI from AI is just the new trickle-down economics meme.\n\nWe already have …",
           "url": "https://x.com/Noodle_Noodle1/status/2091865920100852085",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -883,14 +1193,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l542",
-      "text": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence.\n\nThe Microsoft co-founder and billionaire philanthropist told Reuters in an interview that he believes China might agree to restricting potentially dangerous AI model releases if the U.S. took the initiative.\n\n\u201cThe whole world would go along with",
+      "id": "l557",
+      "text": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence.\n\nThe Microsoft co-founder and billionaire philanthropist told Reuters in an interview that he believes China might agree to restricting potentially dangerous AI model releases if the U.S. took the initiative.\n\n“The whole world would go along with",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill\u2026",
+          "title": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill…",
           "url": "https://x.com/OwenGregorian/status/2093324365257457709",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -904,7 +1214,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l543",
+      "id": "l558",
       "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -925,14 +1235,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l544",
+      "id": "l559",
       "text": "How to Make AI Videos That Get Millions of Views. I Scored 1,593 and Built the $12 Pipeline.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How to Make AI Videos That Get Millions of Views. I Scored 1,593 and Built the $\u2026",
+          "title": "How to Make AI Videos That Get Millions of Views. I Scored 1,593 and Built the $…",
           "url": "https://x.com/Zdonuk94/status/2086214219767181433",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -946,14 +1256,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l545",
+      "id": "l560",
       "text": "Fully AI-Guided Russian Drones Have Reportedly Killed Ukrainian Civilians | Ece Yildirim, Gizmodo\n\nAn entirely AI-led Russian drone operated by Nvidia technology killed three civilians last month in the Ukrainian city of Zaporizhzhia, according to new reporting from the New York Times.\n\nThe attack took place on July 6th, with the Russian drone initially targeting propane tanks at a gas station before crashing into a wall and exploding before reaching its target, thus killing three civilians: 19-",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Fully AI-Guided Russian Drones Have Reportedly Killed Ukrainian Civilians | Ece \u2026",
+          "title": "Fully AI-Guided Russian Drones Have Reportedly Killed Ukrainian Civilians | Ece …",
           "url": "https://x.com/OwenGregorian/status/2093324464188449024",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -967,14 +1277,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l546",
-      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Question of the Self",
+      "id": "l561",
+      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Question of the Self",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Questio\u2026",
+          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Questio…",
           "url": "https://x.com/nithinpalal/status/2086874531751489924",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -988,14 +1298,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l547",
-      "text": "\ud83c\udf05 August 17 (Mon) \u2014 Today\u2019s Post\n\n\ud83d\uddbc\ufe0f Today\u2019s AI Artwork\nHere is the second installment featuring a newly redesigned Cai Wenji from Romance of the Three Kingdoms: Fallen Angel Summoning.\n\n\ud83c\udfa7 Today\u2019s Recommended Song\n\ud83c\udfac\u3010Sofia Camara - Best Friend\u3011\n\n\ud83d\udcd6 A Little Something Interesting: Why Doesn\u2019t a Real-Life \u201cKing Kong\u201d Exist?\n\nCould a gigantic bipedal ape around 10 meters tall, like the one in the movie King Kong, actually exist in the real world?\n\nIn fact, a giant ape really did exist in Asia hundred",
+      "id": "l562",
+      "text": "🌅 August 17 (Mon) — Today’s Post\n\n🖼️ Today’s AI Artwork\nHere is the second installment featuring a newly redesigned Cai Wenji from Romance of the Three Kingdoms: Fallen Angel Summoning.\n\n🎧 Today’s Recommended Song\n🎬【Sofia Camara - Best Friend】\n\n📖 A Little Something Interesting: Why Doesn’t a Real-Life “King Kong” Exist?\n\nCould a gigantic bipedal ape around 10 meters tall, like the one in the movie King Kong, actually exist in the real world?\n\nIn fact, a giant ape really did exist in Asia hundred",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83c\udf05 August 17 (Mon) \u2014 Today\u2019s Post\n\n\ud83d\uddbc\ufe0f Today\u2019s AI Artwork\nHere is the second insta\u2026",
+          "title": "🌅 August 17 (Mon) — Today’s Post\n\n🖼️ Today’s AI Artwork\nHere is the second insta…",
           "url": "https://x.com/dannydenny95356/status/2089119404386836709",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1009,7 +1319,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l548",
+      "id": "l563",
       "text": "To simulate is to understand",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1030,14 +1340,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l549",
-      "text": "It Begins: An AI Tried to Escape The Lab\nDetailed sources: https://docs.google.com/document/d/1KIVPoB8TCwHAYbCj1g_U3q3iozSleS2wMnsrPkyoa7Q/edit?usp=sharing\n\n---\n\nHey guys, I'm Drew. This video has taken literally months to finish, so if you liked it, would really appreciate a sub :) \n\nI also post mid memes on twitter: https://x.com/AISpecies\n\nIf you're curious about whether I'm AI or not, my Instagram has pictures of me from before deep fakes were a thing: https://www.instagram.com/drew.spartz\n\n\u2026",
+      "id": "l564",
+      "text": "It Begins: An AI Tried to Escape The Lab\nDetailed sources: https://docs.google.com/document/d/1KIVPoB8TCwHAYbCj1g_U3q3iozSleS2wMnsrPkyoa7Q/edit?usp=sharing\n\n---\n\nHey guys, I'm Drew. This video has taken literally months to finish, so if you liked it, would really appreciate a sub :) \n\nI also post mid memes on twitter: https://x.com/AISpecies\n\nIf you're curious about whether I'm AI or not, my Instagram has pictures of me from before deep fakes were a thing: https://www.instagram.com/drew.spartz\n\n…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "It Begins: An AI Tried to Escape The Lab\nDetailed sources: https://docs.google.c\u2026",
+          "title": "It Begins: An AI Tried to Escape The Lab\nDetailed sources: https://docs.google.c…",
           "url": "https://www.youtube.com/watch?v=FGDM92QYa60",
           "date": "2026-03-06",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1051,14 +1361,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l550",
-      "text": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This Story\n\ud83d\udcda FEEL ALIVE II \u2014 UNLOCK YOUR INFINITE POWER (NEW BOOK)  https://ralphsmart.com/thebook/\nStep into your next level. This isn\u2019t just a book\u2026 it\u2019s a transformation.\n\ud83d\udd25 Exclusive Content (Patreon)\nGo deeper. Unlock powerful insights you won\u2019t find anywhere else:\nhttps://patreon.com/ralphsmart\n\ud83d\udc55 OFFICIAL INFINITE WATERS MERCH\nWear the message. Live the energy.\nhttp://www.ralphsmart.com/clothing\n\ud83e\udde0 1\u20131 CONSULTATIONS \u2026",
+      "id": "l565",
+      "text": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This Story\n📚 FEEL ALIVE II — UNLOCK YOUR INFINITE POWER (NEW BOOK)  https://ralphsmart.com/thebook/\nStep into your next level. This isn’t just a book… it’s a transformation.\n🔥 Exclusive Content (Patreon)\nGo deeper. Unlock powerful insights you won’t find anywhere else:\nhttps://patreon.com/ralphsmart\n👕 OFFICIAL INFINITE WATERS MERCH\nWear the message. Live the energy.\nhttp://www.ralphsmart.com/clothing\n🧠 1–1 CONSULTATIONS …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This\u2026",
+          "title": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This…",
           "url": "https://www.youtube.com/watch?v=TBECVlFNcKM",
           "date": "2026-07-02",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1072,14 +1382,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l551",
-      "text": "ADL02 \u2014 AI AND TECHNOLOGY DISRUPTIONS CHANGING THE WORLD\nFour massive technological disruptions are converging at the same moment in history \u2014 and together they are about to transform every aspect of human life on earth. This is not science fiction. It is happening right now.\n\n\u26a1 **The Four Disruptions** \u2014 Near-zero cost energy from solar, wind and batteries. Electric self-driving vehicles eliminating the cost of transport. Precision fermentation replacing animal agriculture. And AI automating kn\u2026",
+      "id": "l566",
+      "text": "ADL02 — AI AND TECHNOLOGY DISRUPTIONS CHANGING THE WORLD\nFour massive technological disruptions are converging at the same moment in history — and together they are about to transform every aspect of human life on earth. This is not science fiction. It is happening right now.\n\n⚡ **The Four Disruptions** — Near-zero cost energy from solar, wind and batteries. Electric self-driving vehicles eliminating the cost of transport. Precision fermentation replacing animal agriculture. And AI automating kn…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "ADL02 \u2014 AI AND TECHNOLOGY DISRUPTIONS CHANGING THE WORLD\nFour massive technologi\u2026",
+          "title": "ADL02 — AI AND TECHNOLOGY DISRUPTIONS CHANGING THE WORLD\nFour massive technologi…",
           "url": "https://www.youtube.com/watch?v=CwOGfCTUde0",
           "date": "2026-06-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1093,14 +1403,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l552",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "id": "l567",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1114,7 +1424,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l553",
+      "id": "l568",
       "text": "AI That Interprets Pest Barks and Meows",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1137,40 +1447,85 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "animal scientists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "animal scientist",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-29)",
+    "count": 96,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Skill Match Recruit",
+      "Healthcare Professionals Group",
+      "Australian Pesticides and Veterinary Medicines Authority",
+      "La Trobe University",
+      "The University of Queensland",
+      "Stanbroke",
+      "Ellerslie Farms",
+      "UniSC"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+      "animal",
+      "research",
+      "science",
+      "livestock",
+      "data",
+      "field",
+      "genetics",
+      "nutrition"
+    ],
+    "note": "Count is the Adzuna AU live all-time index size for 'animal scientist' (96 postings), not a 12-month time-series; treat as demand presence. 'data', 'genetics' and 'research' appear among top sampled-ad keywords, indicating analytical/quantitative skills are commonly requested."
   },
   "corpus": {
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Animal Scientists Association discourse",
-        "items": 45
+        "name": "reddit",
+        "scope": "r/animalScience, r/agriculture",
+        "status": "sampled-via-last30days",
+        "items": null
+      },
+      {
+        "name": "x",
+        "scope": "animal science / livestock AI discourse",
+        "status": "sampled-via-last30days",
+        "items": null
+      },
+      {
+        "name": "hackernews",
+        "scope": "livestock tech",
+        "status": "sampled-via-last30days",
+        "items": null
+      },
+      {
+        "name": "github",
+        "scope": "livestock AI repos",
+        "status": "sampled-via-last30days",
+        "items": null
+      },
+      {
+        "name": "youtube",
+        "scope": "livestock tech talks",
+        "status": "sampled-via-last30days",
+        "items": null
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Animal Scientists",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/19-1011/raw/linkedin_l4.json"
-    },
+    "retrieved": "2026-08-29",
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "Factiva",
+        "reason": "auth_expired",
+        "note": "OpenAthens session expired 2026-08-29; re-run scripts/factiva_reauth.py then factiva_backfill.py. L3 rests on public trade/industry press this pass."
+      }
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-29",
+        "soc": "19-1011",
+        "query": "Animal Scientist",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1189,5 +1544,10 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 unavailable (OpenAthens auth expired 2026-08-29); L3 rests on public trade/industry press (ARAIN, IMARC/CSIRO).",
+    "Adzuna count is an all-time live index size, not a 12-month time-series; treat as demand presence, not volume trend.",
+    "L5 practitioner-discourse corpus is self-selected (Reddit/X/HN/GitHub/YouTube via last30days); not a representative survey.",
+    "ANZSCO 234511 (Life Scientist, generally) used as the closest mapped code; the O*NET->ANZSCO crosswalk carries no direct ANZSCO field for 19-1011."
+  ]
 }
