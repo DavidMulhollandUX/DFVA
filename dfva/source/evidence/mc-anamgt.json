@@ -1,0 +1,126 @@
+{
+  "code": "mc-anamgt",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor: 'At least one core unit assesses collaborative practice — group projects with individual accountability' is satisfied by the compulsory Data Analysis subject's syndicate assignment, graded 'equivalent to individual' work. Level 3 additionally requires an assessment where 'coordinating work across people AND tools/AI systems' is itself assessed; no such assessed division of labour between people and AI/tools appears anywhere in the extract, so the program does not clear level 3.",
+      "evidenceLines": [
+        "Students are required to achieve a grade of 70% minimum in Data Analysis to progress to Category 2 and Category 3 subjects and students cannot continue in the Master of Analytics Management course without meeting all the requirements below.",
+        "Syndicate assignment (equivalent of individual 500 words) (4 - 5 students per group)"
+      ]
+    },
+    "C2": {
+      "score": 0,
+      "rationale": "Level 0 anchor: 'No assessment requires students to appraise the quality of work — their own, peers', or a tool's.' Every assessment breakdown captured in the extract (contribution items, quizzes, syndicate assignments, exams) contains no peer-review, criterion-referenced critique, portfolio-with-standards, or reliance-decision component. 'instructor evaluation of contribution to class learning' is staff appraising the student, not the student appraising work, so it does not satisfy the construct.",
+      "evidenceLines": [
+        "Contribution to class learning: Attendance at lectures and workshops, instructor evaluation of contribution to class learning",
+        "Class preparations",
+        "Final Examination"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Ambiguous between level 1 ('AI or digital tools appear only as electives or as tool operation/training') and level 2 ('Core units address AI capabilities AND limitations/ethics ... discussed and assessed'). MGMT90244 Leading Data and AI Transformation is listed in Category 2 without a 'choose N of M' qualifier — unlike Category 1's 'any three of the following five' and Category 3's 'any two of the following three' — so it reads as required, and its outcomes state an 'ethical framework for how to use business analytics', which is not tool-operation content. But the subject's assessment table only names generic categories (in-class contribution, quizzes, final exam) with no line tying an assessment task to the ethics/governance content, so per R2 the assessed status of that content cannot be confirmed. Resolved to the lower level (1); ambiguity recorded.",
+      "evidenceLines": [
+        "MGMT90244\tLeading Data and AI Transformation",
+        "Plus any three of the following five subjects:",
+        "Any two of the following three subjects:",
+        "Develop an organisation's vision, goals and ethical framework for how to use business analytics more effectively",
+        "5 x fortnightly quizzes",
+        "Final Exam"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor: 'At least one core assessment requires application to novel or unfamiliar problems'. Applied Analytics Lab, the required Category 4 capstone, requires students to 'articulate the business problem to be solved' using 'real data from an industry setting', assessed via a hurdle project proposal and a final report/presentation. Level 3 requires a demonstrably self-scoped capstone, or assessed identification of one's own knowledge gaps with a plan to close them; the extract states only that the project uses real industry data, not that students select or scope the project themselves, so self-scoping cannot be confirmed. Resolved to the lower level (2); ambiguity recorded.",
+      "evidenceLines": [
+        "This subject involves completion of a 10-week project using real data from an industry setting.",
+        "Clearly articulate the business problem to be solved and the data & tools required to solve the problem.",
+        "Project proposal"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 2 anchor: 'Students design and conduct an inquiry with methodology selection and data collection, assessed'. Applied Analytics Lab requires students to 'articulate the business problem to be solved and the data & tools required' and to 'produce original work ... which demonstrates analytical, research and problem-solving skills', using real industry data, assessed through a hurdle project proposal and a report-plus-30-minute-presentation. Level 3 requires the methodology to be 'defended under scrutiny (viva, defence, or staged supervised review)'; the extract documents only a presentation of the report, not an interrogation of method, so level 3 cannot be confirmed. Resolved to the lower level (2); ambiguity recorded.",
+      "evidenceLines": [
+        "Clearly articulate the business problem to be solved and the data & tools required to solve the problem.",
+        "Produce original work in an appropriate format which demonstrates analytical, research and problem-solving skills;",
+        "Project report and presentation (report is 5,000 word and presentation is 30 minutes which in total are equivalent of 8000 word assessment)"
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 1,
+      "rationale": "Ambiguous between level 1 ('core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team') and level 2 (a 'recognised professional genre or an audience beyond the teaching team ... judged against criteria drawn from professional practice'). Applied Analytics Lab's capstone requires students to 'present their work professionally in a way that makes the connections between the results of their analysis and business issues for an organisation', suggestive of a consultancy-style genre, and Marketing includes a syndicate presentation. But the extract never names either presentation's audience, so it cannot be confirmed as extending beyond the teaching team or as judged against professional-practice criteria. Resolved to the lower level (1); ambiguity recorded.",
+      "evidenceLines": [
+        "Present their work professionally in a way that makes the connections between the results of their analysis and business issues for an organisation.",
+        "Syndicate project: Presentation (4 - 5 students in each group)",
+        "Effective communicators of business analytics concepts and solutions to peers and the wider community; and"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor: 'At least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice.' Applied Analytics Lab is 'completion of a 10-week project using real data from an industry setting', producing a report and presentation that 'makes the connections between the results of their analysis and business issues for an organisation' — the artefact an analyst would produce, from a real problem. Level 3 requires such tasks to be the program's 'assessment spine ... at least one per stage'; earlier categories document syndicate case assignments and reports built on business scenarios rather than full real-data professional-task reproduction, so the spine condition is not met.",
+      "evidenceLines": [
+        "This subject involves completion of a 10-week project using real data from an industry setting.",
+        "Put into practice communication, interpersonal, organisational and time management skills in a workplace context;",
+        "Syndicate case assignments; (4 - 5 students in each group)"
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0 anchor: 'No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure.' No placement, practicum, internship or community-based project is named anywhere in the extract. The closest candidate is Applied Analytics Lab's 'real data from an industry setting', but the text documents a data-analysis project rather than a workplace placement, and never states practitioner supervision, a host organisation, or accountability to that host, which level 2 ('real workplace or professional-community setting with practitioner supervision and assessment') requires. Because the evidence is genuinely ambiguous as to whether this constitutes work-situated learning at all, it is resolved to the lower level (0); ambiguity recorded.",
+      "evidenceLines": [
+        "This subject involves completion of a 10-week project using real data from an industry setting.",
+        "This is an individual project."
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a staged prerequisite chain built on an AACSB-accredited specialist analytics/management core across four ordered categories (Foundation Management, Analytics Foundations, Analytics Specialised, Applied Analytics Lab Capstone) — a coherent specialist core with progressive depth, per the G1 PASS anchor.",
+        "evidenceLines": [
+          "Students are required to achieve a grade of 70% minimum in Data Analysis to progress to Category 2 and Category 3 subjects and students cannot continue in the Master of Analytics Management course without meeting all the requirements below.",
+          "AACSB"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Applied Analytics Lab is a required live project with real uncertainty and accountability rather than recall or scripted responses, per the G2 PASS anchor ('simulations/capstones/live projects with real uncertainty and accountability').",
+        "evidenceLines": [
+          "This subject involves completion of a 10-week project using real data from an industry setting.",
+          "Hurdle requirement: Hurdle requirement: students need to pass this assessment to pass the subject"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: MGMT90244's ethical/governance content is stated in outcomes but no assessment line names it specifically — resolved to level 1, not 2.",
+      "C4: Applied Analytics Lab is a required capstone applying to a real problem, but self-scoping by the student is not documented — resolved to level 2, not 3.",
+      "C5: Applied Analytics Lab requires designed inquiry with real data, but no documented defence of methodology under scrutiny — resolved to level 2, not 3.",
+      "W1: Applied Analytics Lab and Marketing include presentations that may be professional-genre, but neither line documents the audience — resolved to level 1, not 2.",
+      "W3: Applied Analytics Lab's 'real data from an industry setting' could indicate work-integrated learning, but no practitioner supervision or host accountability is documented — resolved to level 0, not 2."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-29"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
