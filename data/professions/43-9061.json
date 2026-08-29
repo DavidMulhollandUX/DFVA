@@ -2058,6 +2058,489 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l498",
+      "text": "Brokerage House Clerk \u2014 UPS (Botany, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "UPS",
+          "title": "Brokerage House Clerk",
+          "url": "https://www.linkedin.com/jobs/view/4448732815",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l499",
+      "text": "Brokerage House Clerk \u2014 UPS (Botany, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "UPS",
+          "title": "Brokerage House Clerk",
+          "url": "https://www.linkedin.com/jobs/view/4448747263",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4100",
+      "text": "CLERK 11M-SCHOOL OFFICE \u2014 Brevard Public Schools (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Brevard Public Schools",
+          "title": "CLERK 11M-SCHOOL OFFICE",
+          "url": "https://www.linkedin.com/jobs/view/4457653209",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4101",
+      "text": "Armed Forces Post Office (APO) Clerk \u2014 Amentum (Alice Springs, Northern Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Amentum",
+          "title": "Armed Forces Post Office (APO) Clerk",
+          "url": "https://www.linkedin.com/jobs/view/4453088426",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4102",
+      "text": "2026 Administration Expression of Interest Pool \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 6 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "City of Bunbury",
+          "title": "2026 Administration Expression of Interest Pool",
+          "url": "https://www.linkedin.com/jobs/view/2026",
+          "date": "6 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4103",
+      "text": "2026 Administration Expression of Interest Pool \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 6 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "City of Bunbury",
+          "title": "2026 Administration Expression of Interest Pool",
+          "url": "https://www.linkedin.com/jobs/view/4368195597",
+          "date": "6 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4104",
+      "text": "Administration Officer \u2014 Queensland Corrective Services (Townsville, Queensland, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Corrective Services",
+          "title": "Administration Officer",
+          "url": "https://www.linkedin.com/jobs/view/4455605861",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4105",
+      "text": "Health Information Clerk \u2014 Ramsay Health Care (Nedlands, Western Australia, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ramsay Health Care",
+          "title": "Health Information Clerk",
+          "url": "https://www.linkedin.com/jobs/view/4456086389",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4106",
+      "text": "2026 South West Sport Centre Expression of Interest - Customer Service, Administration & Cafe \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "City of Bunbury",
+          "title": "2026 South West Sport Centre Expression of Interest - Customer Service, Administration & Cafe",
+          "url": "https://www.linkedin.com/jobs/view/4358451636",
+          "date": "7 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4107",
+      "text": "Administrative Officer - Expression of Interest \u2014 Queensland Corrective Services (Townsville, Queensland, Australia). Posted 11 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Corrective Services",
+          "title": "Administrative Officer - Expression of Interest",
+          "url": "https://www.linkedin.com/jobs/view/4295606930",
+          "date": "11 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4108",
+      "text": "Admissions Assistant \u2014 Townsville Grammar School (Townsville, Queensland, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Townsville Grammar School",
+          "title": "Admissions Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4455490849",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l5109",
+      "text": "AK: results_url not set \u2014 Clarity adapter assumption unverified\n## Summary\nFollowing the CT dual-ID fix (#170) and its live verification, tried to run the same \"Race Creation: Untested \u2192 Verified\" check against AK and WY (both flagged `\u26a0\ufe0f Untested` in `docs/state-research/00-MASTER-INDEX.md`, tier \"Results Coverage Only\").\n\nBoth currently use `ClarityAdapter` (`\n<html><head></head><body><p>I reviewed issue #178, the current Wyoming research file, and the available first-party Wyoming election sy\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "AK: results_url not set \u2014 Clarity adapter assumption unverified\n## Summary\nFollo\u2026",
+          "url": "https://github.com/CivicMirror/CivicMirror-API/issues/178",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "feat(offices): local office catalog batch \u2014 matcher key fixes, migration 184, NULL-office repair wrapper\n## Summary\n\nRound-24 office-catalog batch: clears every future NULL-office election shell on the manual-research database (358 shells, 600 stranded candidate links \u2014 office_id = NULL hard-blocks the candidate-records stage for all of them) and makes the same title forms match on future injections.\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_s\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(offices): local office catalog batch \u2014 matcher key fixes, migration 184, NU\u2026",
+          "url": "https://github.com/shu1513/voteapp/pull/287",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5112",
+      "text": "Optimize catalogue generator vendor and WhatsApp Access Hub link retrieval\n## Objective\nImprove retrieval speed on the Create Catalogue page. The page currently shows empty entitlement rows, no vendor rows, and slow/empty WhatsApp Access Hub link loading. Vendors and WhatsApp links should load quickly using staged reads, summaries, caching, and indexed queries.\n\n## Require\nRuntime error from local console after catalogue retrieval optimization:\n\n```text\nReferenceError: detailedVendors is not def\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Optimize catalogue generator vendor and WhatsApp Access Hub link retrieval\n## Ob\u2026",
+          "url": "https://github.com/seigendc-cmyk/itred/issues/10",
+          "date": "2026-05-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5113",
+      "text": "Formal Notice of Statutory Non-Compliance filed with City Clerk's Office 8-5-26\n\u00a711-33-107 If a public recreation board or commission shall be established, it shall discharge its functions through a public recreation department, as provided in Section 33-106 of this title, shall make annual reports, shall adopt rules and regulations and establish general policies for the conduct of its business and for the operation of public recreational activities and services. &#32; submitted by &#32; /u/Prot\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Formal Notice of Statutory Non-Compliance filed with City Clerk's Office 8-5-26\n\u2026",
+          "url": "https://www.reddit.com/r/tulsa/comments/1vuf8wo/formal_notice_of_statutory_noncompliance_filed/",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5114",
+      "text": "AI slop is swamping a House office that drafts US laws: The Office of Legislative Counsel is facing a barrage of new AI-generated bills, many of which are riddled with errors.\nCongressional lawyers are struggling to manage a flood of legislative proposals generated using artificial intelligence tools, many of them riddled with errors and shoddy language. The strain on the House Office of Legislative Counsel is increasing as more congressional offices and outside groups rely on generative AI to d\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI slop is swamping a House office that drafts US laws: The Office of Legislativ\u2026",
+          "url": "https://www.reddit.com/r/law/comments/1vqqv7m/ai_slop_is_swamping_a_house_office_that_drafts_us/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5115",
+      "text": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California lawmakers debate AI regulation and voters prepare to weigh a proposed 5% one-time billionaire tax, labor leaders are pushing back against what they see as growing threats to workers.\n\nPolitical Breakdown host Marisa Lagos sits down with Lorena Gonzalez, president of the California Federation of Labor Unions, to discuss AI in the workplace, worker surveillance and human oversight. They also discuss California\u2019s proposed \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California law\u2026",
+          "url": "https://www.youtube.com/watch?v=WLbvdWXuR3Y",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5116",
+      "text": "The Death Of White-Collar Jobs Has Already Started (AI Is Replacing Knowledge Work)\nArtificial Intelligence is no longer just assisting office workers\u2014it's beginning to replace them.\n\nAcross software engineering, finance, law, marketing, consulting, customer service, accounting, and other knowledge-based professions, AI is taking over tasks that once required years of education and experience. Companies are deploying AI copilots and autonomous AI agents to write code, analyse data, create report\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Death Of White-Collar Jobs Has Already Started (AI Is Replacing Knowledge Wo\u2026",
+          "url": "https://www.youtube.com/watch?v=CkWSDmLVwKE",
+          "date": "2026-07-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5117",
+      "text": "Why I Switched From ChatGPT to Claude (without losing anything)\n\u2705 Get your FREE AI Prompt Cheatsheet here: https://go.danmartell.com/484Q7tK\n\n\ud83d\udc65 Are you building an AI software company? Partner with me: https://go.danmartell.com/3NSVsO2\n\nSomething massive is happening in the AI world right now, and most people are on the wrong side of it. ChatGPT uninstalls are spiking, OpenAI is burning cash at an alarming rate, and Claude just took the #1 spot on the App Store.\n\nIn this video, I break down what\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Why I Switched From ChatGPT to Claude (without losing anything)\n\u2705 Get your FREE \u2026",
+          "url": "https://www.youtube.com/watch?v=XRU-CjzYt_o",
+          "date": "2026-04-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5118",
+      "text": "Why AI Might Not Replace Your Job After All\nSince ChatGPT\u2019s debut, AI has been framed as everything from a world-changing breakthrough to an existential threat. Companies are pouring hundreds of billions into the space as commentators debate potentially utopian and dystopian futures. But researchers like Princeton\u2019s Arvind Narayanan argue the reality may be more incremental \u2013 a powerful technology that will reshape work and productivity over time, without overturning the basic limits of economic\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Why AI Might Not Replace Your Job After All\nSince ChatGPT\u2019s debut, AI has been f\u2026",
+          "url": "https://www.youtube.com/watch?v=EGskcTRnLJ0",
+          "date": "2026-03-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5119",
+      "text": "Andrew Yang WARNS of 'Riots In The Streets' as AI DESTROYS Millions of Jobs!\nAndrew Yang just dropped one of the most alarming AI predictions yet, claiming that up to 50% of entry-level white-collar jobs could disappear in the coming years. From software developers and call center workers to truck drivers and office employees, Yang argues that artificial intelligence is about to reshape the American workforce faster than most people realize.\n\nBut is this a realistic warning or another exaggerate\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Andrew Yang WARNS of 'Riots In The Streets' as AI DESTROYS Millions of Jobs!\nAnd\u2026",
+          "url": "https://www.youtube.com/watch?v=77ZiuT46xm4",
+          "date": "2026-06-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5120",
+      "text": "The AI Disruption: Is Your Job Safe from the New Industrial Revolution?\nAre we on the brink of the greatest labor market disruption in human history? The rise of Artificial Intelligence, specifically Generative AI, is fundamentally shifting the global economy, and the transition is happening right now. Most Americans believe generative AI will have a major, mostly negative impact on jobs over the next two decades, and the data suggests this anxiety is entirely well-founded. According to the Inte\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The AI Disruption: Is Your Job Safe from the New Industrial Revolution?\nAre we o\u2026",
+          "url": "https://www.youtube.com/watch?v=tiWRq9dw8Ik",
+          "date": "2026-03-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -2088,14 +2571,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Office Clerks, General",
-      "location": "Australia",
-      "returned": 12,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/43-9061/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Office Clerks, General",
+        "location": "Australia",
+        "returned": 12,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/43-9061/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "43-9061",
+        "query": "Office Clerks, General",
+        "location": "Australia",
+        "returned": 12,
+        "totalResults": 12,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -2109,9 +2603,23 @@
           "youtube": 6
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 12,
+        "sources": {
+          "github": 13,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 2,
+          "x": 50,
+          "youtube": 6
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

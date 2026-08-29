@@ -1007,6 +1007,426 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l448",
+      "text": "Production Editor \u2014 Standards Australia (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Standards Australia",
+          "title": "Production Editor",
+          "url": "https://www.linkedin.com/jobs/view/4452895800",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l449",
+      "text": "International Document Controller - Mareeba or Cairns \u2014 MAF International (Cairns, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "MAF International",
+          "title": "International Document Controller - Mareeba or Cairns",
+          "url": "https://www.linkedin.com/jobs/view/4453246514",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l450",
+      "text": "EN Editors \u2014 Language Bear (Canberra, Australian Capital Territory, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Language Bear",
+          "title": "EN Editors",
+          "url": "https://www.linkedin.com/jobs/view/4444656352",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l451",
+      "text": "Content Specialist \u2014 Saltus Group (Sydney, New South Wales, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Saltus Group",
+          "title": "Content Specialist",
+          "url": "https://www.linkedin.com/jobs/view/4454234517",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "Document Writer - Port Botany Terminal \u2014 DP World (Port Botany, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "DP World",
+          "title": "Document Writer - Port Botany Terminal",
+          "url": "https://www.linkedin.com/jobs/view/4426784189",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l453",
+      "text": "Digital Copywriter \u2014 BAMBRICK (Brisbane City, Queensland, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "BAMBRICK",
+          "title": "Digital Copywriter",
+          "url": "https://www.linkedin.com/jobs/view/4435684340",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Radio Sub Reader - Darwin \u2014 Australian Broadcasting Corporation (ABC) (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Australian Broadcasting Corporation (ABC)",
+          "title": "Radio Sub Reader - Darwin",
+          "url": "https://www.linkedin.com/jobs/view/4454010422",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Education Officer \u2014 Department of Local Government, Industry Regulation and Safety (LGIRS) (Cannington, Western Australia, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Local Government, Industry Regulation and Safety (LGIRS)",
+          "title": "Education Officer",
+          "url": "https://www.linkedin.com/jobs/view/4448132977",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Linemarker \u2014 Intersectional Linemarkers (Perth, Western Australia, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Intersectional Linemarkers",
+          "title": "Linemarker",
+          "url": "https://www.linkedin.com/jobs/view/4441933615",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "Printer \u2014 News Corp Australia (Yandina, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "News Corp Australia",
+          "title": "Printer",
+          "url": "https://www.linkedin.com/jobs/view/4458167778",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l558",
+      "text": "fix: let sub-agents reliably see the message, drafts and research (#117)\n## Summary\n\nFixes #117. Each `investigator`/`verifier`/proofreader `AgentTool` call is a fresh, stateless single-message session with no memory of the writer's turn. During draft-review rounds the writer fanned out parallel proofreader calls but only pasted the full draft into the first, writing \u300c\uff08\u540c\n> [!CAUTION]\n> The consumer version of Gemini Code Assist on GitHub has been sunset. All code review activity has officially c\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "fix: let sub-agents reliably see the message, drafts and research (#117)\n## Summ\u2026",
+          "url": "https://github.com/cofacts/ai/pull/119",
+          "date": "2026-07-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "feat: chunked guideline generation for long subtitle files\n## Motivation\r\n\r\n`ContextReviewerAgent.build_context` sends the entire subtitle text to the LLM in a single call to generate a translation guideline (glossary, characters, summary, tone, audience). This works fine for cloud models with large context windows (e.g. GPT-4.1-mini at 128K), but fails on\n@zh-plus  Chunked guideline generation is experimental and off by default, but it's better than nothing for users on self-hosted models with \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: chunked guideline generation for long subtitle files\n## Motivation\r\n\r\n`Con\u2026",
+          "url": "https://github.com/zh-plus/openlrc/pull/103",
+          "date": "2026-04-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "Anthropic Claude Embeds Persistent Invisible Text Watermarks Worldwide Under EU AI Act Transparency Code\nAnthropic Claude models launched on or after August 2, 2026 embed imperceptible watermarks directly into generated text at the model level. The technique weaves statistical patterns into the output itself so the mark travels with any copy-paste and may survive light editing. Signed C2PA provenance metadata is also attached to supported files such as PNG, JPG and SVG. The same architecture app\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Anthropic Claude Embeds Persistent Invisible Text Watermarks Worldwide Under EU \u2026",
+          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vmcqz1/anthropic_claude_embeds_persistent_invisible_text/",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "Which AI is best for developmental editing and line/copy editing?\nI have a finished manuscript for a novel that is approximately 86,550 words and I&#39;m trying to figure out the best way to approach the editing stage. My next step would be to hire a professional developmental editor followed by a line/copy editor but unfortunately I don&#39;t currently have the money to hire professional editors for both stages so I&#39;m considering using AI. I&#39;m specifically looking for an AI that can do \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Which AI is best for developmental editing and line/copy editing?\nI have a finis\u2026",
+          "url": "https://www.reddit.com/r/WritingWithAI/comments/1vqp89z/which_ai_is_best_for_developmental_editing_and/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "PSA: Claude's new models (and its working on updating its previously released models) will apparently be adding watermarks to the content it generates (WHICH SOMEHOW INCLUDES TEXT YOU YOU JUST COPY AND PASTE FROM THE AI PROGRAM)\nAnthropic just published how Claude marks AI-generated content ( https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content ). It is not 100% clear how it is working or what models it is being done in, but Claude can weave an invisible watermar\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "PSA: Claude's new models (and its working on updating its previously released mo\u2026",
+          "url": "https://www.reddit.com/r/DentalSchool/comments/1vlmafr/psa_claudes_new_models_and_its_working_on/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "Claude is watermarking AI text: Everything you need to know\nClaude's Invisible Watermark: What It Means for AI Text in 2026\n\nStarting August 2026, Claude-generated text can carry an invisible, machine-readable watermark\u2014across Claude.ai, the API, Claude Code, Claude Co-work, AWS, Google Cloud, and Microsoft Foundry. But what does that actually mean for your writing, your code, and the future of AI detection?\n\n\ud83d\udd14 Subscribe: @kaiexplainsYT \n\nIn this deep dive, Kai breaks down the technical mechanic\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Claude is watermarking AI text: Everything you need to know\nClaude's Invisible W\u2026",
+          "url": "https://www.youtube.com/watch?v=EWGDJqlYlA8",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "Claude's Invisible Watermark: What It Can't Prove\nAnthropic now embeds an invisible watermark in the text Claude generates. The news covered what\nhappened. This covers how it works, and what a detected mark actually proves, which is a lot less\nthan most people are assuming.\n\nThe short version: most people assume it works by hiding characters between the words. It is in\nthe word choices themselves. That one idea explains every property Anthropic describes, including\nwhy it survives a copy-paste a\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Claude's Invisible Watermark: What It Can't Prove\nAnthropic now embeds an invisi\u2026",
+          "url": "https://www.youtube.com/watch?v=QZ9MsAwKnLk",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "Claude's Watermark Can't Tell Editing From Writing - Daily AI Pulse\nFull breakdown here: https://weekly.joebuildsai.com/p/claude-s-watermark-can-t-tell-editing-from-writing\n\n#AI #AIAgents #AINews #ClaudeAI #Anthropic #AIWatermark\n\nGet free AI playbooks & automations \ud83d\udc49 https://weekly.joebuildsai.com\n\nClaude's Watermark Can't Tell Editing From Writing\n\nAnthropic globally activated invisible, machine-readable watermarks across every Claude model on August 2, 2026, driven by the EU AI Act's Article \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Claude's Watermark Can't Tell Editing From Writing - Daily AI Pulse\nFull breakdo\u2026",
+          "url": "https://www.youtube.com/watch?v=rbZIRItJtPI",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "AI Detectors Can't Flag This Manual Technique | Remove AI detection FREE\nMaster Academic Prompt Engineering and learn how to humanise AI-generated text manually without relying on any AI humaniser tools. \nAI Detectors Can't Flag this tool too\ud83d\udc49 https://bit.ly/4wPRyqJ\n\nHowever, In this video, I walk you through a practical, step-by-step method I personally used to transform a passage from 100% AI detection to 0% AI score on Turnitin, Drillbit, Originality AI, GPTZero  and high originality on tools\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Detectors Can't Flag This Manual Technique | Remove AI detection FREE\nMaster \u2026",
+          "url": "https://www.youtube.com/watch?v=P2OS-ckfryE",
+          "date": "2026-04-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "TURNITIN AI Finally Defeated by AI HUMANIZING TOOLS!!\nStruggling with high Turnitin AI percentage on your thesis, assignment, or journal paper?\n\nIn this video, we test PaperBleach AI and Purify Text to see whether these AI humanizer tools can really reduce Turnitin AI detection \u2014 or whether they still fail after the latest Turnitin AI updates.\n\nMany students are told that tools like PaperBleach AI or Purify Text can \u201chumanize\u201d AI-generated content and make it safer. But do they really work? In t\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "TURNITIN AI Finally Defeated by AI HUMANIZING TOOLS!!\nStruggling with high Turni\u2026",
+          "url": "https://www.youtube.com/watch?v=c0xytO3u6Qk",
+          "date": "2026-04-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1037,14 +1457,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Proofreaders and Copy Markers",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/43-9081/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Proofreaders and Copy Markers",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/43-9081/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "43-9081",
+        "query": "Proofreaders and Copy Markers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1058,9 +1489,23 @@
           "youtube": 5
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 10,
+        "sources": {
+          "github": 6,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 4,
+          "x": 6,
+          "youtube": 5
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
