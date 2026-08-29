@@ -1,0 +1,122 @@
+{
+  "code": "mc-archuch",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 — group projects with individual accountability assessed in core units ABPL90118, ABPL90424, ABPL90140; no core assessment ties coordination across people AND tools/AI systems (level 3) into an assessed task.",
+      "evidenceLines": [
+        "Group Project Submission 1 (3 students per group) | 3x A1 sheets",
+        "Individual Project Detailing , 3x A1 sheets",
+        "Assignment 2: Interim proposal (group work – 2‐3 students), 4 x A2 size panels",
+        "Group Project Submission :Letters and reports on project initiation and procurement scenarios"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 — Design Studio C/D assess criterion-referenced critical evaluation of the developing design against precedents/theories. Ambiguous with level 3's reliance-justification anchor; no explicit reliance-decision or AI-output defence documented, resolved down.",
+      "evidenceLines": [
+        "Booklet (Final): Re-submit revised and developed booklet containing evidence of application of Indigenous cultural competencies, knowledge of relevant architectural precedents and theories, design research to the design challenge; as well as iterative exploration and critical evaluation of the developing design. Format: A5 digital book, 96 pages +/-10% (inclusive of interim submission)",
+        "Critically evaluate results in relation to the environmental and socio-cultural context, stakeholder needs and relevant design practices and theories."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 — AI content appears only as an elective subject (ABPL90452) and as an unassessed core-unit outcome (ABPL90140); no core unit assesses AI capabilities and limitations/ethics.",
+      "evidenceLines": [
+        "ABPL90452\tAI in Architectural Design and Practice",
+        "Investigate and assess the impacts of disruptive change to the profession, such as new technologies, artificial intelligence and climate change, on architectural practice workflows, and business."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 — Design Thesis (ABPL90169), required core, is explicitly a self-directed research/design capstone assessed via a hurdle-weighted Resolved Design (70%).",
+      "evidenceLines": [
+        "Resolved Design: Fully resolved architectural design thesis that explores the research question presented in two forms: A5 digital book that records the research investigation through text and visual representations that may include drawings, digital multi-media and physical models as appropriate to the design; and Design crit (10 minutes)"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 — Design Thesis requires research-question formulation and a thesis statement developed into a resolved design thesis. Ambiguous with level 3 given required status and staged 'Design crit' reviews, but no explicit methodology-defence or primary-evidence language is documented; resolved down.",
+      "evidenceLines": [
+        "Demonstrate an understanding of design as a form of research enquiry.",
+        "Preliminary Thesis Proposal: Oral presentation (7 minutes) of research questions, accompanied by critical evaluation of relevant precedents from practice and research, and a draft 'thesis statement'",
+        "Resolved Design: Fully resolved architectural design thesis that explores the research question presented in two forms: A5 digital book that records the research investigation through text and visual representations that may include drawings, digital multi-media and physical models as appropriate to the design; and Design crit (10 minutes)"
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 — Architectural Practice assesses professional-genre letters and reports. Ambiguous with level 3 given Studio A's assessed presentation to a panel of guest critics (real external audience), but no repeated/progressive documented structure with professional conduct as an explicit assessed criterion; resolved down.",
+      "evidenceLines": [
+        "Group Project Submission :Letters and reports on project initiation and procurement scenarios",
+        "Individual Project Submission: Letters and reports on contract administration scenarios",
+        "Hurdle requirement: The final project submission and presentation constitutes a hurdle requirement and students must present their final work to a panel of guest critics at the end of the semester.\tDuring the teaching period\t90%"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3 — professional-format design artefacts recur as the assessment spine across core Studios A-E and Design Thesis; Studios D and E explicitly grade against named NSCA Performance Criteria, the profession's own accreditation standard.",
+      "evidenceLines": [
+        "Demonstrate professional competencies set out in the National Standards of Competency for Architects related to site & culture (PC8, PC17, PC19, PC26, PC27, PC29, PC30, PC32, PC34, PC36, PC40).",
+        "Booklet (Final) : Document and reflect upon iterative design exploration and disciplinary research; and, document understanding of and engagement with relevant professional knowledge, in particular the following National Standard of Competency for Architects (NSCA) Performance Criteria (PC) PC3, PC12, PC16, PC18, PC23, PC24",
+        "Resolved Design; Design submission comprising oral presentation accompanied by representations appropriate for the design, and may include drawings, documentation of process work, digital multi-media, and physical models. NSCA Performance Criteria PC39 is met"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 — the MUCH Heritage Industry Internship is a substantial supervised placement but is one of two optional choices within the Core option category (alternative: Minor Thesis), matching level 1's literal 'optional internship' anchor rather than a required core placement.",
+      "evidenceLines": [
+        "ABPL90360\tMUCH Heritage Industry Internship",
+        "Students enrolled in this subject will complete an internship of a minimum of 20 days full-time placement with an external organisation in the architectural, urban and cultural heritage field. Students will be supervised by the Subject Coordinator in collaboration with a designated party at the host organisation.",
+        "Students are responsible for identifying a suitable work placement to be approved by the course coordinator."
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Coherent, progressive specialist core (275/350cp) culminating in an ARBV-accredited registration pathway.",
+        "evidenceLines": [
+          "This course meets the academic requirements for registration as an architect under the Architects Registration Board of Victoria (ARBV).",
+          "275 credit points of core subjects"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Studio and practice assessments require defended trade-off decisions on complex, real-world design/procurement problems rather than recall.",
+        "evidenceLines": [
+          "Common to all studios will be sites that have cultural, environmental, political and legal complexities which designs will need to address.",
+          "Analyse and evaluate diverse procurement methods and contractual relationships, to determine appropriate strategies for managing project scope, cost, time and quality."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2: Design Studio C/D's staged interim-to-final booklet documentation of 'iterative exploration and critical evaluation' reads toward level 3's process-focused reliance-justification anchor, but no assessed item explicitly requires documenting/justifying reliance decisions or defending AI-output judgements — resolved to level 2.",
+      "C3: Architectural Practice's (ABPL90140) core-unit outcome names AI critically ('impacts of disruptive change... artificial intelligence... on architectural practice workflows'), which is stronger than pure tool-operation content, but is not shown to be an assessed item (R2) — resolved to level 1, the level matching AI's only clearly-assessed appearance (as an elective subject).",
+      "C5: Design Thesis (ABPL90169) is a required core subject staged through three oral 'Design crit' reviews, which reads toward level 3's 'methodology defended under scrutiny (viva, defence, or staged supervised review),' but the extract never documents an explicit methodology-selection-and-defence process or names primary-evidence generation — resolved to level 2.",
+      "W1: Studio A's (ABPL90284) hurdle-weighted final presentation to 'a panel of guest critics' is a real external-practitioner audience matching level 3's anchor, but no other core studio documents an external/guest panel and no assessment item explicitly names professional conduct or accountability as a graded criterion, so the 'assessed repeatedly and progressively... with professional conduct... explicitly among the assessed criteria' requirement is not met — resolved to level 2.",
+      "W3: The MUCH Heritage Industry Internship (ABPL90360) is a substantial, supervised, host-accountable, reflectively-assessed placement that would otherwise read as level 2 or higher, but it is one of two choices in the 'Core option' category (alternative: Minor Thesis) and so is not required of all students, matching level 1's literal 'optional internship' anchor — resolved to level 1."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-29"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
