@@ -1,29 +1,39 @@
-# Deep Research Evidence Log: Physicians and Surgeons, All Other (29-1069)
+# Evidence log: Physicians, Surgeons, and Medical Specialists (29-1069)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `med-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Medical Board of Australia / AHPRA] Good Medical Practice: A Code of Conduct for Doctors in Australia — https://www.medicalboard.gov.au/Codes-Guidelines-Policies/Code-of-conduct.aspx (2024-09-01)
+  "The Medical Board of Australia and AHPRA mandate that clinical decision-making, procedural execution, and prescription authorization remain strict, non-delegabl..."
 
-> "The Medical Board of Australia and AHPRA mandate that clinical decision-making, procedural execution, and prescription authorization remain strict, non-delegable human medical responsibilities that cannot be deferred to diagnostic algorithms."
+### L2 Scholarly / institutional (1 claims)
+- [Medical Journal of Australia (MJA)] Artificial Intelligence in Australian Clinical Medicine: Boundaries of Diagnostic Support vs Clinical Accountability — https://doi.org/10.5694/mja2.52301 (2025-06-15)
+  "Physical bedside examinations, intraoperative procedural adjustments, and acute clinical crisis management demonstrate near-zero automated substitution potentia..."
 
-- **Scope:** All registered medical practitioners across public and private healthcare sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Statutory standard binding all Australian medical doctors.
-- **Sources:**
-  * **Medical Board of Australia / AHPRA** (2024-09-01): [Good Medical Practice: A Code of Conduct for Doctors in Australia](https://www.medicalboard.gov.au/Codes-Guidelines-Policies/Code-of-conduct.aspx) — *What it measured:* Statutory professional conduct standards binding all registered medical practitioners in Australia
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (49 claims)
+- last30days declared sample: 49 items across github=4, grounding=0, hackernews=24, reddit=2, x=14, youtube=2.
+- Representative practitioner quotes:
+  - [github] SAFE Digest 2026-08-11 — AI & Medical Education
+# SAFE Researcher Digest — 2026-08-11
 
-### Claim `med-02` (L2 · scholarly)
+> Tailored for two workshops: **F...
+  - [github] Give six professional occupations the training structure they lacked
+`Dermatologists`, `General Internal Medicine Physic...
+  - [github] Add mundane medicine category: physicians and medical guilds
+## Summary
+- Adds a new `content/medicine/` category (P3 ro...
+  - [github] The Last Physician
+This is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.
 
-> "Physical bedside examinations, intraoperative procedural adjustments, and acute clinical crisis management demonstrate near-zero automated substitution potential, anchoring long-term workforce durability."
 
-- **Scope:** Tertiary inpatient, surgical, and specialist outpatient clinical care.
-- **Bearing:** W2, W3, G2
-- **Refute notes:** Direct empirical evidence supporting low medical AI substitution exposure.
-- **Sources:**
-  * **Medical Journal of Australia (MJA)** (2025-06-15): [Artificial Intelligence in Australian Clinical Medicine: Boundaries of Diagnostic Support vs Clinical Accountability](https://doi.org/10.5694/mja2.52301) — *What it measured:* Clinical workflow analysis across 14 Australian tertiary teaching hospitals
 
----
+
+#...
+  - [hackernews] Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI...

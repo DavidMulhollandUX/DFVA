@@ -1973,6 +1973,384 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l494",
+      "text": "Podiatrist \u2014 Peninsula Foot Clinic (Mornington Peninsula, Victoria, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Peninsula Foot Clinic",
+          "title": "Podiatrist",
+          "url": "https://www.linkedin.com/jobs/view/4456823232",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l495",
+      "text": "Podiatrist \u2014 The Foot Hub (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "The Foot Hub",
+          "title": "Podiatrist",
+          "url": "https://www.linkedin.com/jobs/view/4452784463",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l496",
+      "text": "Podiatrist \u2014 Mediix (Mandurah, Western Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mediix",
+          "title": "Podiatrist",
+          "url": "https://www.linkedin.com/jobs/view/4452198523",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l497",
+      "text": "Podiatrist \u2014 Mediix (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mediix",
+          "title": "Podiatrist",
+          "url": "https://www.linkedin.com/jobs/view/4452197277",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l498",
+      "text": "Podiatrist \u2014 Juniper Aged Care (St James, Western Australia, Australia). Posted 8 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Juniper Aged Care",
+          "title": "Podiatrist",
+          "url": "https://www.linkedin.com/jobs/view/4350230306",
+          "date": "8 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l499",
+      "text": "Podiatrist \u2014 Dan Everson Podiatry (Sunshine Coast, Queensland, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Dan Everson Podiatry",
+          "title": "Podiatrist",
+          "url": "https://www.linkedin.com/jobs/view/4444681663",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4100",
+      "text": "Podiatrist - Community \u2014 Juniper Aged Care (Innaloo, Western Australia, Australia). Posted 6 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Juniper Aged Care",
+          "title": "Podiatrist - Community",
+          "url": "https://www.linkedin.com/jobs/view/4363909782",
+          "date": "6 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4101",
+      "text": "Podiatrist \u2014 UnitingCare Queensland (Rockhampton, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "UnitingCare Queensland",
+          "title": "Podiatrist",
+          "url": "https://www.linkedin.com/jobs/view/4453421096",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4102",
+      "text": "Experienced Podiatrist Position \u2014 Whittlesea Foot & Ankle Clinic (Whittlesea, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Whittlesea Foot & Ankle Clinic",
+          "title": "Experienced Podiatrist Position",
+          "url": "https://www.linkedin.com/jobs/view/4445638798",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l5103",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ\u2026",
+          "url": "https://www.reddit.com/r/cscareerquestions/comments/1vqe677/how_are_people_buying_homes_and_getting_married/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "Top Comfortable Workboot Features Explained by a Podiatrist #ComfortableBoots #WorkwearEssentials\nDiscover the Ultimate Workboot Features According to a Podiatrist! \ud83d\udc62\ud83d\udc68\u200d\u2695\ufe0f Are your feet feeling the strain after a long day at work? Finding the right pair of workboots can make all the difference in your comfort and productivity. We've teamed up with a professional podiatrist to reveal what you should look for when choosing workboots that keep your feet happy and healthy. From superior arch support \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Top Comfortable Workboot Features Explained by a Podiatrist #ComfortableBoots #W\u2026",
+          "url": "https://www.youtube.com/watch?v=QAM9elURDt0",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "FDA Patient-Focused Drug Development Meeting for Nonhealing Chronic Wounds\nOn August 25, 2026, FDA hosted a hybrid public meeting on Patient-Focused Drug Development for Nonhealing Chronic Wounds. This meeting provided FDA and other key stakeholders, including medical product developers, health care providers, and academic researchers, the opportunity to hear directly from patients, patient representatives, and care partners about their experiences with nonhealing chronic wounds, including how t\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "FDA Patient-Focused Drug Development Meeting for Nonhealing Chronic Wounds\nOn Au\u2026",
+          "url": "https://www.youtube.com/watch?v=n6oboWBI_Ec",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "Boiling Your Heels to 'Fix' Them? A Podiatrist's Warning + Real Night-Out Tips\nA viral Instagram \"hack\" is telling women to boil their high heels in water to melt and mold the plastic around their toes for a \"custom fit.\" As a Sydney podiatrist, I had to jump in \u2014 this is a genuinely dangerous idea and I'm breaking down exactly why, plus what you should actually do if your high heels are hurting your feet.In this video I cover:\n\n\u2705 Why boiling high heels is a burn and material-breakdown risk\n\n\u2705 W\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Boiling Your Heels to 'Fix' Them? A Podiatrist's Warning + Real Night-Out Tips\nA\u2026",
+          "url": "https://www.youtube.com/watch?v=cDlBIGiDshY",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -2003,14 +2381,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Podiatrists",
-      "location": "Australia",
-      "returned": 9,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/29-1081/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Podiatrists",
+        "location": "Australia",
+        "returned": 9,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/29-1081/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "29-1081",
+        "query": "Podiatrists",
+        "location": "Australia",
+        "returned": 9,
+        "totalResults": 9,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -2025,9 +2414,24 @@
           "youtube": 3
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 9,
+        "sources": {
+          "github": 0,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 12,
+          "x": 52,
+          "youtube": 3
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

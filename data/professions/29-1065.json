@@ -1826,6 +1826,363 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l487",
+      "text": "Rural Generalist - Paediatrics \u2014 NT Health (Katherine, Northern Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NT Health",
+          "title": "Rural Generalist - Paediatrics",
+          "url": "https://www.linkedin.com/jobs/view/4448096430",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l488",
+      "text": "Pediatrician \u2014 Danila Dilba Health Service (Darwin, Northern Territory, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Danila Dilba Health Service",
+          "title": "Pediatrician",
+          "url": "https://www.linkedin.com/jobs/view/4446718342",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l489",
+      "text": "Paediatrician Consultant \u2014 NT Health (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NT Health",
+          "title": "Paediatrician Consultant",
+          "url": "https://www.linkedin.com/jobs/view/4450842197",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l490",
+      "text": "Pediatrician - Regional South Australia - 365,798 - 713,692pa \u2014 Mediix (Adelaide, South Australia, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mediix",
+          "title": "Pediatrician - Regional South Australia - 365,798 - 713,692pa",
+          "url": "https://www.linkedin.com/jobs/view/4436108883",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l491",
+      "text": "Paediatrician \u2014 Mediix (Darwin, Northern Territory, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mediix",
+          "title": "Paediatrician",
+          "url": "https://www.linkedin.com/jobs/view/4432375323",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l492",
+      "text": "Consultant - Paediatrics - Kalgoorlie Health Campus \u2014 WA Country Health Service (Kalgoorlie, Western Australia, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "WA Country Health Service",
+          "title": "Consultant - Paediatrics - Kalgoorlie Health Campus",
+          "url": "https://www.linkedin.com/jobs/view/4444528930",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l493",
+      "text": "HNELHD - Staff Specialist in General Paediatrics, Armidale Rural Referral Hospital \u2014 Hunter New England Local Health District (Armidale, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Hunter New England Local Health District",
+          "title": "HNELHD - Staff Specialist in General Paediatrics, Armidale Rural Referral Hospital",
+          "url": "https://www.linkedin.com/jobs/view/4344724226",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l494",
+      "text": "Medical - General Practitioner \u2014 cohealth (Parkville, Victoria, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "cohealth",
+          "title": "Medical - General Practitioner",
+          "url": "https://www.linkedin.com/jobs/view/4456471060",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l495",
+      "text": "Registrar or Principal House Officer (Paediatrics) \u2014 Central Queensland Hospital and Health Service (Gladstone, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Central Queensland Hospital and Health Service",
+          "title": "Registrar or Principal House Officer (Paediatrics)",
+          "url": "https://www.linkedin.com/jobs/view/4448141511",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l496",
+      "text": "Pediatrician \u2014 Spinner Medical Recruitment (Western Australia, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Spinner Medical Recruitment",
+          "title": "Pediatrician",
+          "url": "https://www.linkedin.com/jobs/view/4458222168",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l597",
+      "text": "AI executives are increasingly confronting a widening gap between industry optimism and public sentiment, according to Futurism and recent polling cited in its report.\nAn Economist/YouGov poll found that 70% of Americans believe AI is \u201cmoving too fast,\u201d while about 64% believe the general population is unlikely to ever benefit economically from the technology, according to Futurism. The backlash is being felt across several areas, including AI-generated content, job displacement, data centers, c\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI executives are increasingly confronting a widening gap between industry optim\u2026",
+          "url": "https://www.reddit.com/r/AIdaily_news/comments/1vy2r5o/ai_executives_are_increasingly_confronting_a/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l598",
+      "text": "Anthropic CEO Dario Amodei Warns Simultaneous White-Collar AI Disruption Risks Overwhelming Labor Adaptation\nFrontier AI systems developed by Anthropic and peers automate core cognitive tasks across law, coding, consulting, finance and medicine at once. Dario Amodei, Anthropic CEO, has stated these systems will disrupt roughly 50 percent of entry-level white-collar roles within one to five years while broader capabilities scale faster. The dual-use vector is general cognitive substitution that c\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Anthropic CEO Dario Amodei Warns Simultaneous White-Collar AI Disruption Risks O\u2026",
+          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vndn8d/anthropic_ceo_dario_amodei_warns_simultaneous/",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better\u2026",
+          "url": "https://www.reddit.com/r/jenova_ai/comments/1vypds5/general_ai_chatbots_vs_specialized_ai/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "[TLDR] Discussion Hub for new Claude incident: Service disruption on Claude services on Aug 16, 2026 [via r/ClaudeAI]\nOP : u/ClaudeAI-mod-bot Resolved - The issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork has been resolved. Aug 16, 22:34 UTC Monitoring - A fix has been deployed for the issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork and we are monitoring for recovery. Aug 16, 22:22 UTC Update - We are i\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "[TLDR] Discussion Hub for new Claude incident: Service disruption on Claude serv\u2026",
+          "url": "https://www.reddit.com/r/ClaudeCoding/comments/1vqcq30/tldr_discussion_hub_for_new_claude_incident/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "I been working on this prompt in general for a football career system you can run with ai if anyone could give feedback on how it is that would be nice\n# Pro Football Engine (PFE) \u2014 Realistic Master Edition v3 You are PFE, a hyper-realistic, consequence-driven Football Career Simulator and Game Host. You model a living football world that mirrors how the sport actually works \u2014 economically, politically, psychologically \u2014 where decisions carry lasting, sometimes irreversible weight. Luck decides \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I been working on this prompt in general for a football career system you can ru\u2026",
+          "url": "https://www.reddit.com/r/FifaCareers/comments/1vfu8tk/i_been_working_on_this_prompt_in_general_for_a/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "The warning signs are suddenly everywhere\nIn this podcast: Trump sued over his midterm meddling, Trump interview with Glenn Beck,Trump points to \"Lake America\" on map, and more... \n\ud83e\udd1d Become a Member: https://www.davidpakman.com/membership\n\n00:00 Start\n01:08 Trump sued over his midterm meddling\n08:13 Secret Service officials suspended\n15:32 Laura Ingraham advises fear mongering\n22:59 Will Cain abruptly changes topics\n31:48 Dr. Zachary Rubin interview\n49:20 Trump interview with Glenn Beck\n59:26 Tr\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The warning signs are suddenly everywhere\nIn this podcast: Trump sued over his m\u2026",
+          "url": "https://www.youtube.com/watch?v=_n0hL_xFaRg",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1856,14 +2213,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Pediatricians, General",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/29-1065/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Pediatricians, General",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/29-1065/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "29-1065",
+        "query": "Pediatricians, General",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1878,9 +2246,24 @@
           "youtube": 2
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 7,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 5,
+          "x": 52,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

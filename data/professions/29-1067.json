@@ -2038,6 +2038,468 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l497",
+      "text": "EXPRESSION OF INTEREST - ENT SURGEON, ALBURY-WODONGA \u2014 ASOHNS - Australian Society of Otolaryngology Head and Neck Surgery (Wodonga, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ASOHNS - Australian Society of Otolaryngology Head and Neck Surgery",
+          "title": "EXPRESSION OF INTEREST - ENT SURGEON, ALBURY-WODONGA",
+          "url": "https://www.linkedin.com/jobs/view/4442544870",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l498",
+      "text": "Orthopaedic Surgeon - Staff Specialist \u2014 Sant\u00e9 Recruitment (Rockhampton, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Sant\u00e9 Recruitment",
+          "title": "Orthopaedic Surgeon - Staff Specialist",
+          "url": "https://www.linkedin.com/jobs/view/4453042608",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l499",
+      "text": "Specialist - Orthopaedic Surgeon \u2014 Sant\u00e9 Recruitment (Shepparton, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Sant\u00e9 Recruitment",
+          "title": "Specialist - Orthopaedic Surgeon",
+          "url": "https://www.linkedin.com/jobs/view/4437722481",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4100",
+      "text": "SENIOR MEDICAL OFFICER (GP ENT) - ROCKHAMPTON, QUEENSLAND \u2014 ASOHNS - Australian Society of Otolaryngology Head and Neck Surgery (Rockhampton Area). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ASOHNS - Australian Society of Otolaryngology Head and Neck Surgery",
+          "title": "SENIOR MEDICAL OFFICER (GP ENT) - ROCKHAMPTON, QUEENSLAND",
+          "url": "https://www.linkedin.com/jobs/view/4442562093",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4101",
+      "text": "Senior Staff Specialist/Staff Specialist - General Surgery (Interest in Colorectal Surgery) \u2014 Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Central Queensland Hospital and Health Service",
+          "title": "Senior Staff Specialist/Staff Specialist - General Surgery (Interest in Colorectal Surgery)",
+          "url": "https://www.linkedin.com/jobs/view/4456308105",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4102",
+      "text": "Cardiac Surgery Fellow \u2014 The Royal Children's Hospital (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "The Royal Children's Hospital",
+          "title": "Cardiac Surgery Fellow",
+          "url": "https://www.linkedin.com/jobs/view/4457433078",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4103",
+      "text": "Surgery Specialist - VRH Dandenong \u2014 Veterinary Referral Hospital (Dandenong, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Veterinary Referral Hospital",
+          "title": "Surgery Specialist - VRH Dandenong",
+          "url": "https://www.linkedin.com/jobs/view/4457425211",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4104",
+      "text": "Orthopaedic Surgeon | Regional WA \u2014 Mediix (Perth, Western Australia, Australia). Posted 4 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mediix",
+          "title": "Orthopaedic Surgeon | Regional WA",
+          "url": "https://www.linkedin.com/jobs/view/4392501153",
+          "date": "4 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4105",
+      "text": "Veterinary Surgeon \u2014 SASH - the Small Animal Specialist Hospital (Gold Coast, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "SASH - the Small Animal Specialist Hospital",
+          "title": "Veterinary Surgeon",
+          "url": "https://www.linkedin.com/jobs/view/4447302715",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4106",
+      "text": "Surgery Specialist - VRH Dandenong \u2014 Greencross Vet Hospital (Dandenong, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Greencross Vet Hospital",
+          "title": "Surgery Specialist - VRH Dandenong",
+          "url": "https://www.linkedin.com/jobs/view/4456589775",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l5107",
+      "text": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sections 1\u20133 (Purpose & Scope; Domain Matrix; Evidence Bands)**  \nDecember 02, 2025  \n\n---\n\n## 1. Purpose & Scope\n\nThis section aligns the project\u2019s TXT and PDF corpus around one structural pattern:\n\n> **Systems that secure compliance and e\nHere is the forensic debrief of the current operational reality, synthesized from your diagnosis.\n\ud83d\udccb CLINICAL DIAGNOSIS: The Parasitic Extraction Engine\nSubject: Global Socio-Economic\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sec\u2026",
+          "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/2",
+          "date": "2026-04-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "url": "https://www.reddit.com/r/ControlProblem/comments/1vzy4do/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5112",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5113",
+      "text": "Can AI Ever Replace a Surgeon? This Doctor Says No | Dr. Brad Feltis\nDr. Brad Feltis has spent his career looking patients in the eye right before the moment everything could go wrong.\n\nIn this episode, the pediatric surgeon behind one of the only advanced fetal surgery programs in North America explains why no algorithm can replicate that split-second of human connection. He also opens up about what it took to build that program from scratch with zero hospital support, recruiting elite surgeons\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Can AI Ever Replace a Surgeon? This Doctor Says No | Dr. Brad Feltis\nDr. Brad Fe\u2026",
+          "url": "https://www.youtube.com/watch?v=psKZlrp_gcg",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5114",
+      "text": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & Plot Guide)\nHow to Build Custom Plots and Story Twists from Scratch in zeta AI - Chat, Story, Play\nStuck with predictable AI roleplays that keep looping the same responses? In this step-by-step tutorial, learn how to take total control of your Zeta AI experience, direct multi-character storylines, and engineer dramatic plot twists that keep your characters locked into the story arc.\n\nWe walk through prompt setups, sma\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & P\u2026",
+          "url": "https://www.youtube.com/watch?v=vwcJh4YvyTo",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5115",
+      "text": "When AI Enters the Operating Room\nA Reuters report on botched surgeries involving AI-assisted medical devices is making the rounds, and it raises some genuinely uncomfortable questions.\n\nNuria and Morgan dig into the details: an AI navigation tool used in sinus surgery that allegedly failed to identify a patient's carotid artery, leading to a stroke, and an FDA report on AI software for prenatal ultrasounds wrongly labelling fetal structures. \n\nMorgan brings her experience consulting for intraop\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "When AI Enters the Operating Room\nA Reuters report on botched surgeries involvin\u2026",
+          "url": "https://www.youtube.com/watch?v=fv4RAj7l05Y",
+          "date": "2026-04-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5116",
+      "text": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This Story\n\ud83d\udcda FEEL ALIVE II \u2014 UNLOCK YOUR INFINITE POWER (NEW BOOK)  https://ralphsmart.com/thebook/\nStep into your next level. This isn\u2019t just a book\u2026 it\u2019s a transformation.\n\ud83d\udd25 Exclusive Content (Patreon)\nGo deeper. Unlock powerful insights you won\u2019t find anywhere else:\nhttps://patreon.com/ralphsmart\n\ud83d\udc55 OFFICIAL INFINITE WATERS MERCH\nWear the message. Live the energy.\nhttp://www.ralphsmart.com/clothing\n\ud83e\udde0 1\u20131 CONSULTATIONS \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This\u2026",
+          "url": "https://www.youtube.com/watch?v=TBECVlFNcKM",
+          "date": "2026-07-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5117",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
+          "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
+          "date": "2026-03-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5118",
+      "text": "AI Gives Wrong Medical Advice \u2014 Doctors Still Take the Legal Hit | Dr. John Ferguson\nAI gives wrong medical advice. AI adds a disclaimer. The doctor gets sued. The patient pays the price.\n\nThat's the current legal arrangement \u2014 and Dr. John Ferguson argues this accountability gap isn't accidental. Until AI carries real liability, there's no financial incentive to get it right.\n\nDr. Ferguson is a quintuple board-certified surgeon with decades of surgical experience and one of medicine's leading v\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Gives Wrong Medical Advice \u2014 Doctors Still Take the Legal Hit | Dr. John Ferg\u2026",
+          "url": "https://www.youtube.com/watch?v=XHNYXvs3q-A",
+          "date": "2026-07-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -2068,14 +2530,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Surgeons",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/29-1067/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Surgeons",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/29-1067/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "29-1067",
+        "query": "Surgeons",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -2090,9 +2563,24 @@
           "youtube": 6
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 12,
+        "sources": {
+          "github": 2,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 6,
+          "x": 56,
+          "youtube": 6
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
