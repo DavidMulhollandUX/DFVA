@@ -1703,6 +1703,300 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l481",
+      "text": "Technical Sales Representative SA \u2014 DuluxGroup (Allenby Gardens, South Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "DuluxGroup",
+          "title": "Technical Sales Representative SA",
+          "url": "https://www.linkedin.com/jobs/view/4450880338",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l482",
+      "text": "Sales Specialist \u2014 DKSH (Macquarie Park, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "DKSH",
+          "title": "Sales Specialist",
+          "url": "https://www.linkedin.com/jobs/view/4423632106",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l483",
+      "text": "Salesperson \u2014 Emyte Australia (Dandenong, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Emyte Australia",
+          "title": "Salesperson",
+          "url": "https://www.linkedin.com/jobs/view/4454928816",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l484",
+      "text": "Specialist Inside Sales Australia \u2014 Chem-Trend (Thomastown, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Chem-Trend",
+          "title": "Specialist Inside Sales Australia",
+          "url": "https://www.linkedin.com/jobs/view/4448873344",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l485",
+      "text": "Sales Account Manager \u2014 Primaplas Pty Ltd (Glen Iris, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Primaplas Pty Ltd",
+          "title": "Sales Account Manager",
+          "url": "https://www.linkedin.com/jobs/view/4448977081",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l486",
+      "text": "Technical Sales Representative - Industry \u2014 Sika (Bibra Lake, Western Australia, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Sika",
+          "title": "Technical Sales Representative - Industry",
+          "url": "https://www.linkedin.com/jobs/view/4412842902",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l487",
+      "text": "Sales Account Representative (QLD) \u2014 Jotun (Berrinba, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Jotun",
+          "title": "Sales Account Representative (QLD)",
+          "url": "https://www.linkedin.com/jobs/view/4450066551",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l488",
+      "text": "Account Manager, Polymer & Rubber \u2014 Brenntag (Greater Melbourne Area). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Brenntag",
+          "title": "Account Manager, Polymer & Rubber",
+          "url": "https://www.linkedin.com/jobs/view/4401037909",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l489",
+      "text": "Sales Representative - Marine/Protective Coatings (WA) \u2014 Jotun (Henderson, Western Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Jotun",
+          "title": "Sales Representative - Marine/Protective Coatings (WA)",
+          "url": "https://www.linkedin.com/jobs/view/4450072551",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l490",
+      "text": "External Sales WSS \u2014 Xylem (Parramatta, New South Wales, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Xylem",
+          "title": "External Sales WSS",
+          "url": "https://www.linkedin.com/jobs/view/4444527459",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l591",
+      "text": "r/gamedev Policy on AI Use\nAI is one of the most contentious subjects in game development right now, and we regularly see posts reported or discussions derailed simply because AI was involved somewhere in the process. We want to be clear about our position: r/gamedev does not prohibit the use of AI, and using AI does not automatically make a post low effort. This is not an endorsement of every AI company, model, or use case. Legitimate technical, legal, economic, ethical, and creative concerns e\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "r/gamedev Policy on AI Use\nAI is one of the most contentious subjects in game de\u2026",
+          "url": "https://www.reddit.com/r/gamedev/comments/1vrnqyt/rgamedev_policy_on_ai_use/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "text": "AI bubble in a nutshell\nThe AI bubble isn\u2019t bursting. You idiots ARE the demand. Everyone compares AI to the dot-com bubble while using AI every fucking day. We ask it stupid questions, write emails and texts, summarize shit we don\u2019t want to read, code, research, study, make spreadsheets, plan trips\u2014the list keeps growing. And that\u2019s just us degenerates. Enterprises are plugging AI into customer service, coding, cybersecurity, data analysis, sales, marketing, and basically every workflow where h\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI bubble in a nutshell\nThe AI bubble isn\u2019t bursting. You idiots ARE the demand.\u2026",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1vknzog/ai_bubble_in_a_nutshell/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "text": "How to Use AI in Your Business in 2026\nGet your free personalized $100M scaling roadmap: https://www.acquisition.com/roadmap\n\nIf you\u2019re new to my channel, my name is Alex Hormozi. I\u2019m the founder and managing partner of Acquisition.com. It\u2019s a family office, which is just a formal way of saying we invest our own money into companies. Our 10 portfolio companies bring in over $250,000,000+ per year. Our ownership stake varies between 20% and 100% of them. Given this is a YT channel, and anyone can\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How to Use AI in Your Business in 2026\nGet your free personalized $100M scaling \u2026",
+          "url": "https://www.youtube.com/watch?v=fr78adfAnuA",
+          "date": "2026-04-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l594",
+      "text": "How To Create AI UGC Ads (Full Tutorial)\nJoin our Free weekend Masterclasses on various AI topics : https://class.100xengineers.com/tohqPo\n\nIn this video, we break down how to create AI UGC Ads using ChatGPT Images and Seedance 2.0. Learn how to generate ad creatives with consistent characters, and high-converting AI ad videos for brands, products, and content creation.\n\nPrompting Guidelines Doc : https://docs.google.com/document/d/1gk5TmsjO-082syYp7o1DvW1kk9YwMRIojk3WHc0_fHc/edit?tab=t.0\n\nTimes\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How To Create AI UGC Ads (Full Tutorial)\nJoin our Free weekend Masterclasses on \u2026",
+          "url": "https://www.youtube.com/watch?v=pRtkjKD38SM",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1733,14 +2027,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/41-4011/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/41-4011/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "41-4011",
+        "query": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1754,9 +2059,23 @@
           "youtube": 2
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 4,
+        "sources": {
+          "github": 3,
+          "grounding": 0,
+          "hackernews": 23,
+          "reddit": 2,
+          "x": 48,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

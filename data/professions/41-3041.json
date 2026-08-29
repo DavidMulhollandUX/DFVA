@@ -1574,6 +1574,489 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l475",
+      "text": "Travel Advisor - Remote Team \u2014 Travel Associates Australia & New Zealand (Victoria Plains, Western Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Travel Associates Australia & New Zealand",
+          "title": "Travel Advisor - Remote Team",
+          "url": "https://www.linkedin.com/jobs/view/4344585762",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l476",
+      "text": "Travel Advisor - Remote Team \u2014 Flight Centre Travel Group (Australian Capital Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Flight Centre Travel Group",
+          "title": "Travel Advisor - Remote Team",
+          "url": "https://www.linkedin.com/jobs/view/4455275264",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l477",
+      "text": "Travel Advisor - West Lakes, SA \u2014 Travel Associates Australia & New Zealand (South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Travel Associates Australia & New Zealand",
+          "title": "Travel Advisor - West Lakes, SA",
+          "url": "https://www.linkedin.com/jobs/view/4293726419",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l478",
+      "text": "Travel Specialist \u2014 Moore Australia (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Moore Australia",
+          "title": "Travel Specialist",
+          "url": "https://www.linkedin.com/jobs/view/4452419143",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l479",
+      "text": "Travel Advisor - West Lakes, SA \u2014 Flight Centre Travel Group (South Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Flight Centre Travel Group",
+          "title": "Travel Advisor - West Lakes, SA",
+          "url": "https://www.linkedin.com/jobs/view/4455261391",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l480",
+      "text": "Travel Consultant \u2014 Travel Trade Recruitment (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Travel Trade Recruitment",
+          "title": "Travel Consultant",
+          "url": "https://www.linkedin.com/jobs/view/4451345036",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l481",
+      "text": "Travel Consultant - West Lakes, SA \u2014 Cruiseabout Australia (South Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cruiseabout Australia",
+          "title": "Travel Consultant - West Lakes, SA",
+          "url": "https://www.linkedin.com/jobs/view/4444253249",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l482",
+      "text": "Travel Sales Consultant \u2014 Journey Beyond (Adelaide, South Australia, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Journey Beyond",
+          "title": "Travel Sales Consultant",
+          "url": "https://www.linkedin.com/jobs/view/4430180257",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l483",
+      "text": "Groups Reservations Agent \u2014 IHG Hotels & Resorts (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "IHG Hotels & Resorts",
+          "title": "Groups Reservations Agent",
+          "url": "https://www.linkedin.com/jobs/view/4450135169",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l484",
+      "text": "Travel Consultant - Canberra, ACT \u2014 FCM Travel Australia (Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "FCM Travel Australia",
+          "title": "Travel Consultant - Canberra, ACT",
+          "url": "https://www.linkedin.com/jobs/view/4449960901",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l585",
+      "text": "feat!: define sale-basis steps for quantities\nContext: https://github.com/Universal-Commerce-Protocol/ucp/pull/597. This PR drafts alternate solution shape...\r\n\r\n---\r\n\r\nUCP's integer `quantity` has no denominator. It can represent two bottles, but not 1.50 kg of loose goods while preserving exact fulfillment, adjustment, and return arithmetic.\nThanks for putting this together, @igrigorik! This PR seems **heavily aligned** with one of the design options we discussed in [#597](https://github.com/U\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat!: define sale-basis steps for quantities\nContext: https://github.com/Univer\u2026",
+          "url": "https://github.com/Universal-Commerce-Protocol/ucp/pull/653",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l586",
+      "text": "Suggested fix for Windows host 1.4.6 breaks text input from iOS and Android (Resulted in modifier keys general fix)\n### Summary\r\nTested virtual keyboards:\r\n- Google Pixel 9 Pro XL, Android 16\r\n- iPad M1, iPadOS 26.3.1 (`23D8133`)\r\n\r\nOn Windows 11 Pro `25H2`, calling `en.key_sequence(..)` no longer results in actual key down / key up behavior for legacy character input coming from iOS/Android virtual keyboards.\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Suggested fix for Windows host 1.4.6 breaks text input from iOS and Android (Res\u2026",
+          "url": "https://github.com/rustdesk/rustdesk/pull/14709",
+          "date": "2026-04-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l587",
+      "text": "clippy: 33 deny lints + fix 2735 violations across workspace\nAdds 45 deny-level clippy lints + `dead_code`/`unused_*`/`unreachable_*` to `[workspace.lints]`, a `clippy.toml` routing `std::{fs,sync,collections,process,env}` and `println!`/`eprintln!` through `bun_*` wrappers, and fixes the resulting violations across the workspace. Net **\u22126.2K LOC** of dead co\n<div><sup>Updated 4:59 PM PT - May 20th, 2026</sup></div>\n\n:x: @Jarred-Sumner, your commit 1a9b38ec118127ec130d916b252ea83c211d2f08 has 1 \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "clippy: 33 deny lints + fix 2735 violations across workspace\nAdds 45 deny-level \u2026",
+          "url": "https://github.com/oven-sh/bun/pull/31116",
+          "date": "2026-05-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l588",
+      "text": "[codex] Overhaul cost dashboard analytics and fix exclusion day counts\n## Summary\n- rebuild the cost analytics area into a single `CostSummaryDashboard` operations board\n- fix exclusion-aware daily averages to use canonical trip-window day coverage minus the union of excluded-country itinerary days\n- remove the legacy pie chart and standalone country breakdown surfaces\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: failure by codera\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[codex] Overhaul cost dashboard analytics and fix exclusion day counts\n## Summar\u2026",
+          "url": "https://github.com/bdamokos/travel-tracker/pull/274",
+          "date": "2026-04-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l589",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l590",
+      "text": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economically valuable?\nI\u2019ve been thinking about AI and automation, and I\u2019m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economic\u2026",
+          "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l591",
+      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi\u2026",
+          "url": "https://www.reddit.com/r/Synthsara/comments/1vhiz58/the_codex_of_the_diamond_flame_quantum/",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "text": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world\u2019s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we\u2019ll see by\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot\u2026",
+          "url": "https://www.youtube.com/watch?v=aV26V1UvkJw",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "text": "Deploy a 24/7 AI Agent in 10 Minutes (No Code, No Docker)\n\ud83d\udc49 *Try Hostinger:* http://hostinger.com/juliaopenclaw\n\n*Deploy OpenClaw on Hostinger and turn missed messages into a 24/7 AI agent that works while you\u2019re offline.*\n\nSee how one-click deployment puts an always-on AI agent across WhatsApp, Telegram, Slack, and Discord\u2014without laptops, downtime, or manual setup.\n\nInside this breakdown:\n\u2022 OpenClaw on Hostinger setup in under 10 minutes\n\u2022 One-click deployment + isolated container security\n\u2022 W\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Deploy a 24/7 AI Agent in 10 Minutes (No Code, No Docker)\n\ud83d\udc49 *Try Hostinger:* htt\u2026",
+          "url": "https://www.youtube.com/watch?v=O3cg7JN9h6U",
+          "date": "2026-05-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l594",
+      "text": "I Tested Claude's New Managed Agents... What You Need To Know\nMy FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=managed-agents&hcategory=youtube-videos&utm_campaign=free-group\nFull courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=managed-agents&hcategory=youtube-videos&utm_campaign=ais-plus\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools\ud83d\udcbb\nFREE MONTH voice to text: https://get.g\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "I Tested Claude's New Managed Agents... What You Need To Know\nMy FREE AI OS Cour\u2026",
+          "url": "https://www.youtube.com/watch?v=27Y44JYXZJ8",
+          "date": "2026-04-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l595",
+      "text": "Will AI Travel Agents Replace OTAs?\nWant to stay ahead of AI disruption? Learn how AltexSoft helps businesses build scalable AI solutions and lasting competitive advantage https://www.altexsoft.com/ai-transformation/?utm_source=youtube&utm_medium=video&utm_campaign=alex_ai_replace_ota\n\nAI travel agents promise to transform the way we search, plan, and book trips\u2014but what does that mean for Booking.com, Expedia, Airbnb, and the future of travel distribution?\n\nIn this video, AltexSoft Founder and \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Will AI Travel Agents Replace OTAs?\nWant to stay ahead of AI disruption? Learn h\u2026",
+          "url": "https://www.youtube.com/watch?v=KY31Qj-fTyw",
+          "date": "2026-05-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "text": "Travel agent quote vs AI: the results shocked me\n\u2708\ufe0f What if your \u00a32,000 holiday is already overpriced\u2026 and you just don\u2019t know it?\n\nMost people don\u2019t overpay for flights.\u274c \n\nThey overpay for:\n\nConvenience\n\u201cSafe\u201d choices\n Tourist shortcuts\nPre-built packages that hide cheaper options\n\n\ud83d\udca1 So I ran a simple test.\n\nSame trip. Same dates. Same city.\n\nOne planned by a travel agent\u2026One built completely using AI.\n\nThe gap wasn\u2019t small. It was nearly \u00a31,000 saved.\n\nThen things got interesting.\n\n\ud83d\udca1 Because \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Travel agent quote vs AI: the results shocked me\n\u2708\ufe0f What if your \u00a32,000 holiday \u2026",
+          "url": "https://www.youtube.com/watch?v=W3ZAtrn8BfI",
+          "date": "2026-06-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l597",
+      "text": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: h\u2026",
+          "url": "https://www.youtube.com/watch?v=w6eUBmVwNMY",
+          "date": "2026-03-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1604,14 +2087,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Travel Agents",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/41-3041/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Travel Agents",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/41-3041/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "41-3041",
+        "query": "Travel Agents",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1626,9 +2120,24 @@
           "youtube": 6
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 13,
+        "sources": {
+          "github": 13,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 3,
+          "x": 26,
+          "youtube": 6
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

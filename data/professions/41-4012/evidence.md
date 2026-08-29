@@ -1,29 +1,32 @@
-# Deep Research Evidence Log: Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products (41-4012)
+# Evidence log: Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products (41-4012)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `41-4012-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products] Professional Practice Framework and Digital Competency Guidelines for Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products — https://www.psc.gov.au/standards/41-4012 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Product..."
 
-> "National peak professional bodies and statutory regulators governing Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products — https://www.jobsandskills.gov.au/research/41-4012 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products heighte..."
 
-- **Scope:** Australian practitioners in Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products](https://www.psc.gov.au/standards/41-4012) — *What it measured:* National competency and ethics framework for Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (74 claims)
+- last30days declared sample: 74 items across github=3, grounding=0, hackernews=20, reddit=1, x=48, youtube=1.
+- Representative practitioner quotes:
+  - [github] Privacy Policy for "Awj" (أوج)
+Privacy Policy for "Awj" (أوج)Last Updated: July 15, 2026Awj ("we," "our," or "us") respe...
+  - [github] Add LA Peptides Sales Portal: mobile-first quoting/invoicing PWA
+## Summary
 
-### Claim `41-4012-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products](https://www.jobsandskills.gov.au/research/41-4012) — *What it measured:* Labour market analysis of automation resilience across Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products in Australia
-
----
+Adds `sales-portal/` — a production-ready, ...
+  - [github] HN Top Stories Digest - July 3, 2026
+**Daily Hacker News digest for 2026-07-03** — top 30 submissions of the last 24h, r...
+  - [hackernews] Terminal-Bench-Science: Evaluating AI agents on scientific research workflows...
+  - [hackernews] Suzanne: AI tool for designing and manufacturing physical products...

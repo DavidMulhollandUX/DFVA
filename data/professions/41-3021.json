@@ -1303,6 +1303,489 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l462",
+      "text": "Sales Consultant \u2014 Canstar (Brisbane City, Queensland, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Canstar",
+          "title": "Sales Consultant",
+          "url": "https://www.linkedin.com/jobs/view/4456492381",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l463",
+      "text": "Copy of Sales Consultant \u2014 Canstar (Brisbane, Queensland, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Canstar",
+          "title": "Copy of Sales Consultant",
+          "url": "https://www.linkedin.com/jobs/view/4455621878",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l464",
+      "text": "Sales Advisor \u2014 Youi Insurance (Chermside, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Youi Insurance",
+          "title": "Sales Advisor",
+          "url": "https://www.linkedin.com/jobs/view/4452971728",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l465",
+      "text": "Life Insurance Consultants \u2014 AIA Australia (Millers Point, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "AIA Australia",
+          "title": "Life Insurance Consultants",
+          "url": "https://www.linkedin.com/jobs/view/4453269665",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l466",
+      "text": "Insurance Sales Consultant \u2014 TAL Australia (Melbourne, Victoria, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "TAL Australia",
+          "title": "Insurance Sales Consultant",
+          "url": "https://www.linkedin.com/jobs/view/4457324300",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l467",
+      "text": "Sales Agent - Life Insurance \u2014 Compare Club (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Compare Club",
+          "title": "Sales Agent - Life Insurance",
+          "url": "https://www.linkedin.com/jobs/view/4448402312",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l468",
+      "text": "Business Insurance Sales Consultant \u2014 BizCover (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "BizCover",
+          "title": "Business Insurance Sales Consultant",
+          "url": "https://www.linkedin.com/jobs/view/4457083278",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l469",
+      "text": "Business Insurance Sales Consultant \u2014 BizCover (Sydney, New South Wales, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "BizCover",
+          "title": "Business Insurance Sales Consultant",
+          "url": "https://www.linkedin.com/jobs/view/4443073103",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l470",
+      "text": "Sales Consultants - Health Insurance \u2014 Compare the Market Australia (Brisbane City, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Compare the Market Australia",
+          "title": "Sales Consultants - Health Insurance",
+          "url": "https://www.linkedin.com/jobs/view/4458729651",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l471",
+      "text": "Sales Agent - Health Insurance \u2014 Compare Club (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Compare Club",
+          "title": "Sales Agent - Health Insurance",
+          "url": "https://www.linkedin.com/jobs/view/4451202293",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l572",
+      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "[Feature]: Add \"AI Adoption Talk (FREE)\" as the 5th service, and backfill the 4th service's missing operator-side propagation\n> **Evidence log**: every pre-fix number and derivation below was measured at source at Stages 2 and 3; the measurements are posted as the **Evidence & Derivations** comment, keyed by AC number. This body is the contract, that comment its provenance.\n\n### Framing Validation (complete BEFORE filing)\n### Sources Consulted\n\nStage-1 research: `/tmp/research_ai-adoption-talk_2\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[Feature]: Add \"AI Adoption Talk (FREE)\" as the 5th service, and backfill the 4t\u2026",
+          "url": "https://github.com/hoiung/hoiboy-uk/issues/54",
+          "date": "2026-07-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox between PeptiBloom Work execution and Technical Direction/Orchestrator.\n\nUse this issue for coordination messages that should **not** modify `main` or trigger site builds/deployments.\n\n### Work protocol\n- Before autonomous work, read the current project co\nORCHESTRATOR -> WORK\n\nCurrent review verified directly against GitHub on 2026-08-17:\n- PR #12 HEAD `f030718ecc68a7a5664a4950d3fc50da13e6dd55`: open, non-draft, mer\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox \u2026",
+          "url": "https://github.com/e-milysol/peptibloom-project/issues/13",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; \ud83d\udd34 KEV: 1 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 14 &nbsp;|&nbsp; \ud83d\udfe1\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
+          "date": "2026-05-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n\u00b7 I.G. Farben's post-w\n\ud83e\udd3f\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL\u2026",
+          "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/3",
+          "date": "2026-04-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]\nFrom the article: Internal posts also reportedly pointed to AI agents making \u201clarge-scale, disruptive actions that humans are unlikely to execute\u201d and leading to a 40 percent increase in major technic The line right after too \"... leading to a 40 percent increase in major technical and security incidents compared to the prior year.\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&\u2026",
+          "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "I built an AI-assisted automatic swing trading agent\nFirst off, I&#39;m not selling anything, the code is in a GitHub repo but it&#39;s currently private while in development. I&#39;ve been a software engineer since the late 80&#39;s and investing for 38 years. I retired at 35 due to a few successful early Internet businesses. I&#39;m 57 now, but still do a little contract software development on the side (as I enjoy it). Oh, and sorry about the redacted content, I don&#39;t want to seem like I&\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I built an AI-assisted automatic swing trading agent\nFirst off, I&#39;m not sell\u2026",
+          "url": "https://www.reddit.com/r/ai_trading/comments/1vmu5bh/i_built_an_aiassisted_automatic_swing_trading/",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try Unreal MCP with an AI agent to see whether this stuff is actually as impressive as people keep claiming. Not because I particularly wanna use it, I honestly don&#39;t. After watching AI completely disrupt the web and mobile development industry, which I worked in for years, and being unemployed for almost two years now, I&#39;m not exactly excited about giving more money to those billionaire AI CEOs . Anyway, I wanted\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try U\u2026",
+          "url": "https://www.reddit.com/r/unrealengine/comments/1vtl6ip/i_tried_unreal_mcp_and_agentic_ai_coding_heres/",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontier model (Astra) was produced using only a fraction of the compute OpenAI expects to possess later next year (Early-Mid 2027). The model generation trained after Abilene (Open AI&#39;s data centre) reaches full scale operation will harness the research gains from Agent 0 ( Astra or GPT-6 ) + open source research + all the internal progress the frontier labs have made. This will combine: stronger pre-trained representa\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontie\u2026",
+          "url": "https://www.reddit.com/r/singularity/comments/1vcmg36/agent_0_from_ai2027_is_here_its_called_astra/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "How AI Is Transforming Insurance Sales | More Appointments, Better Conversations & Higher Revenue\nWhat if your insurance agency could book more appointments, reduce acquisition costs, and generate predictable revenue using AI?\n\nIn this video, Zac Fischer  shares real agency results, including  263 booked appointments, 1,280 hot leads, and more than $225,000 in annual premium generated in just one week. You'll discover why the most successful insurance agencies focus on cost per conversation  ins\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How AI Is Transforming Insurance Sales | More Appointments, Better Conversations\u2026",
+          "url": "https://www.youtube.com/watch?v=S004guI6YAM",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "text": "How ICHRAs and AI Are Reshaping the Future of Health Insurance | Hill Gage\nIn this episode of Master AI Disruption: Insurance Insider, Francis Cholle speaks with Hill Gage, health insurance broker and founder of Ben, about the major transformations reshaping the health insurance industry.\n\nKey topics discussed in this episode include:\n\n\u2022 The transition from fee-for-service to value-based care\n\u2022 How ICHRAs give employers and employees greater flexibility\n\u2022 The operational challenges preventing so\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How ICHRAs and AI Are Reshaping the Future of Health Insurance | Hill Gage\nIn th\u2026",
+          "url": "https://www.youtube.com/watch?v=brP0tpfbsRw",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l583",
+      "text": "AI Booked 344K in Premium This Month\u2014Here's How\nSee how AI lead management generates consistent appointments for your sales team. Learn how automation creates a self-sustaining workforce.\n\nThis breakdown explains why current lead management tools fail to keep up with volume and how an AI-driven approach ensures no lead is left behind. We examine the mechanics of a system that manages outreach automatically, allowing your sales team to focus on closing rather than cold calling or manual follow-up\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Booked 344K in Premium This Month\u2014Here's How\nSee how AI lead management gener\u2026",
+          "url": "https://www.youtube.com/watch?v=kFmsqH7wv_Q",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l584",
+      "text": "Will AI Replace Insurance Agents | Mind Ware Vault\nWill AI replace insurance agents\u2014or is it quietly transforming the industry instead of destroying it? In this video, we explore how artificial intelligence is already reshaping insurance faster than most people realize, from instant quotes to automated underwriting and AI-powered claims systems.\n\nThe real question isn\u2019t whether AI will replace insurance agents, but which parts of the job are disappearing\u2014and which ones are becoming more valuable\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Will AI Replace Insurance Agents | Mind Ware Vault\nWill AI replace insurance age\u2026",
+          "url": "https://www.youtube.com/watch?v=EU-sfMlKlGs",
+          "date": "2026-06-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1333,14 +1816,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Insurance Sales Agents",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/41-3021/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Insurance Sales Agents",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/41-3021/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "41-3021",
+        "query": "Insurance Sales Agents",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "status": "sampled",
@@ -1360,9 +1854,23 @@
           "youtube": 4
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 13,
+        "sources": {
+          "github": 5,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 5,
+          "x": 21,
+          "youtube": 4
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

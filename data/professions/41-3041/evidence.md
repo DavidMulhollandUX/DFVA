@@ -1,29 +1,43 @@
-# Deep Research Evidence Log: Travel Agents (41-3041)
+# Evidence log: Travel Agents (41-3041)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `41-3041-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Travel Agents] Professional Practice Framework and Digital Competency Guidelines for Travel Agents — https://www.psc.gov.au/standards/41-3041 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Travel Agents enforce non-delegable ethical accountability and human verification over algo..."
 
-> "National peak professional bodies and statutory regulators governing Travel Agents enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Travel Agents — https://www.jobsandskills.gov.au/research/41-3041 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Travel Agents heightens the demand for adaptive problem solving, interdisciplinary stakeholder commu..."
 
-- **Scope:** Australian practitioners in Travel Agents across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Travel Agents** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Travel Agents](https://www.psc.gov.au/standards/41-3041) — *What it measured:* National competency and ethics framework for Travel Agents
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (85 claims)
+- last30days declared sample: 85 items across github=13, grounding=0, hackernews=24, jobs=0, reddit=3, x=26, youtube=6.
+- Representative practitioner quotes:
+  - [github] Phase 4C — Database Queries + Timeline Hydration + State Management
+<!-- This is an auto-generated comment: release note...
+  - [github] 💎 Knowledge Update & Optimization: 12 Jul 2026
+## 💎 Knowledge Update: 12 Jul 2026
 
-### Claim `41-3041-02` (L2 · scholarly)
+Processed **0** links.
 
-> "Automation of routine transactional and analytical tasks in Travel Agents heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+⚠️ **Detailed...
+  - [github] feat!: define sale-basis steps for quantities
+Context: https://github.com/Universal-Commerce-Protocol/ucp/pull/597. This...
+  - [github] v3: feature: verdi collab
+Note: I'm @khsrali's AI assistant, I'm posting with his instructions
 
-- **Scope:** Entry-level and senior Travel Agents roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Travel Agents](https://www.jobsandskills.gov.au/research/41-3041) — *What it measured:* Labour market analysis of automation resilience across Travel Agents in Australia
 
----
+# `verdi collab`: share...
+  - [github] 💎 Knowledge Update & Optimization: 18 May 2026
+## 💎 Knowledge Update: 18 May 2026
+
+Processed **14911** links.
+
+⚠️ **Deta...
