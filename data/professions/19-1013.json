@@ -1,137 +1,367 @@
 {
+  "onet_soc_code": "19-1013",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Agricultural, Plant, and Horticultural Scientists",
   "aliases": [
-    "Consultant Urban Horticulturalist",
-    "Horticultural Consultant",
-    "Horticulturalist",
-    "Agronomist",
-    "Soil Scientist",
-    "Horticultural Researcher",
     "Agricultural Scientist",
-    "Plant Pathologist",
-    "Agricultural Consultant"
+    "Agronomist",
+    "Plant Breeder",
+    "Crop Scientist"
   ],
-  "anzsco": "234111",
-  "jobAds": {
-    "source": "adzuna-au",
-    "query": "agricultural scientist OR agronomist OR horticulturist OR soil scientist",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1840,
-    "topEmployers": [
-      "Nutrien Ag Solutions",
-      "Elders Limited",
-      "CSIRO Agriculture and Food",
-      "Victorian Department of Energy, Environment and Climate Action (DEECA)",
-      "Nufarm",
-      "Treasury Wine Estates"
-    ],
-    "topSkills": [
-      "Agronomic crop forecasting",
-      "Soil microbiome analytics",
-      "Climate adaptation planning",
-      "Precision agriculture telemetry",
-      "Field trial experimental design"
-    ]
+  "anzsco": "234112",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-29"
   },
-  "corpus": {
-    "platforms": [
-      {
-        "name": "reddit",
-        "scope": "r/agriculture, r/gardening",
-        "items": 60
-      },
-      {
-        "name": "industry_bulletins",
-        "scope": "GRDC GroundCover, Australian Institute of Agricultural Science and Technology",
-        "items": 38
-      }
-    ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Agricultural, Plant, and Horticultural Scientists",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/19-1013/raw/linkedin_l4.json"
-    },
-    "l5Sample": [
-      {
-        "date": "2026-08-29",
-        "added": 40,
-        "sources": {
-          "github": 1,
-          "grounding": 0,
-          "hackernews": 24,
-          "reddit": 5,
-          "x": 10,
-          "youtube": 0
-        },
-        "status": "sampled"
-      }
-    ]
-  },
+  "generated": "2026-08-29",
+  "expires": "2027-02-29",
+  "programs": [],
   "claims": [
     {
-      "id": "agr-01",
-      "text": "The Australian Code for the Responsible Conduct of Research (NHMRC/ARC) and APVMA agricultural chemical regulations mandate direct human scientific oversight over field pesticide trials, transgenic breeding validation, and environmental impact assessments.",
+      "id": "l1-01",
+      "text": "Plant breeders' rights in Australia are governed by the Plant Breeder's Rights Act 1994 (Cth), administered by IP Australia, granting exclusive commercial rights over new plant varieties — the core IP regime for plant scientists developing cultivars.",
       "lane": "L1",
-      "tier": "regulatory",
+      "tier": "regulatory-instrument",
       "sources": [
         {
-          "publisher": "Australian Pesticides and Veterinary Medicines Authority (APVMA)",
-          "title": "Regulatory Guidelines for Agricultural Chemical and Biological Efficacy Testing",
-          "url": "https://apvma.gov.au/node/1094",
-          "date": "2024-11-20",
-          "whatItMeasured": "Statutory efficacy and environmental safety compliance standards"
+          "publisher": "Legislation.gov.au",
+          "title": "Plant Breeder's Rights Act 1994 (Cth)",
+          "url": "https://legislation.gov.au/C2004A04783/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html",
+          "date": "2024-10-14",
+          "whatItMeasured": "Primary Commonwealth legislation (PBR Act 1994) protecting new plant varieties."
         }
       ],
-      "scope": "Agricultural researchers, agronomists, and soil scientists.",
+      "scope": "Binds plant variety IP and breeding work; not a claim about field agronomy employment generally.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Binding regulatory compliance framework."
+      "refuteNotes": "Source real (legislation.gov.au, primary Act). Measures plant-breeding scientists. In window."
     },
     {
-      "id": "agr-02",
-      "text": "Precision agriculture AI models and drone multispectral imaging automate yield mapping, shifting demand toward field soil pathology verification, on-farm grower advisory, and climate resilience interventions under microclimate uncertainty.",
+      "id": "l1-02",
+      "text": "The peak professional body, Ag Institute Australia (Australian Institute of Agricultural Science and Technology), administers the Certified Practising Agriculturalist (CPAg) national accreditation scheme for agricultural, horticultural and natural-resource professionals.",
+      "lane": "L1",
+      "tier": "accreditation-body",
+      "sources": [
+        {
+          "publisher": "Ag Institute Australia",
+          "title": "Ag Institute Australia — membership and accreditation",
+          "url": "https://aginstitute.com.au",
+          "date": "2026",
+          "whatItMeasured": "Peak-body accreditation scheme (CPAg) for agricultural science professionals."
+        }
+      ],
+      "scope": "Voluntary professional accreditation; not a statutory registration requirement to practise.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (peak body site). Measures the profession's accreditation body. In window."
+    },
+    {
+      "id": "l2-01",
+      "text": "CSIRO and GRDC are building applied AI for plant scientists: a GRDC Accelerating Genetic Gain 'Pre-Breeding Optimisation Engine' (breeder-facing AI tools integrating genetic, phenotypic and environmental data, to 2028) and the long-running Future Farm precision-agriculture decision-support work with the University of Sydney.",
       "lane": "L2",
-      "tier": "scholarly",
+      "tier": "scholarly-study",
       "sources": [
         {
-          "publisher": "Agricultural Systems",
-          "title": "Autonomous Agronomy and the Value of Field-Based Scientific Judgment in Australian Broadacre Farming",
-          "url": "https://doi.org/10.1016/j.agsy.2025.103980",
-          "date": "2025-03-08",
-          "whatItMeasured": "Field trial evaluation across 30 grain, horticulture, and livestock properties in Victoria and NSW"
+          "publisher": "CSIRO Data Access Portal (GRDC-funded)",
+          "title": "Pre-Breeding Optimisation Engine / Accelerating Genetic Gain",
+          "url": "https://data.csiro.au/categories/kw/Optimisation",
+          "date": "2026",
+          "whatItMeasured": "CSIRO/GRDC AI breeding-tools project description (3-year term to Nov 2028)."
         }
       ],
-      "scope": "Broadacre farming, horticultural orchards, and agricultural consulting services.",
+      "scope": "Research/co-investment programmes, not yet standard industry practice across all plant-science roles.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Corroborated by GRDC and MLA industry research data."
+      "refuteNotes": "Source real (CSIRO data portal, GRDC-funded). Measures AU plant-breeding AI research. In window."
     },
     {
-      "id": "l503",
+      "id": "l2-02",
+      "text": "Jobs and Skills Australia's Generative AI Capacity Study (Aug 2025) assessed 358 ANZSCO occupations and rated agriculture among the lowest AI-automation-risk groups, where GenAI 'assists diagnostics or planning but not execution'.",
+      "lane": "L2",
+      "tier": "institutional-study",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia (reported by aichanging.work)",
+          "title": "Australia's First Gen AI Capacity Study: 79% of Workers Face Low Risk",
+          "url": "https://aichanging.work/en/blog/jsa-genai-capacity-study-australia-2025",
+          "date": "2025-08",
+          "whatItMeasured": "JSA whole-of-labour-market task-level study of 358 occupations; agriculture classified low automation risk."
+        }
+      ],
+      "scope": "National workforce-level finding; does not quantify agricultural-scientist-specific task exposure. AU study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (reports the JSA 2025 study). Measures Australian workforce. In window."
+    },
+    {
+      "id": "l3-01",
+      "text": "Industry trackers show Australian grains AI/autonomy moving from interest to adoption: the 2nd-year Autonomous Farm Machinery Use in Australia report (Grain Producers Australia, TMA, SPAA) finds broadening interest, and GRDC's Grain Automate initiative targets 80% of grain growers equipped for autonomous field machines by 2028 (61% expressed interest in learning more).",
+      "lane": "L3",
+      "tier": "industry-analysis",
+      "sources": [
+        {
+          "publisher": "ARAIN",
+          "title": "Intelligent or artificial: what two pieces of evidence say about AI in Australian grains right now",
+          "url": "https://arain.com.au/insights/ai-australian-grains-application-mid-2026",
+          "date": "2026",
+          "whatItMeasured": "Industry analysis of GRDC/GPA autonomous-machinery tracker and GRDC Updates."
+        }
+      ],
+      "scope": "Grains sector specifically; measures grower adoption intent, not agricultural-scientist employment.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (industry analysis, 2026). Measures AU grains AI adoption. In window."
+    },
+    {
+      "id": "l3-02",
+      "text": "Murdoch University leads a multidisciplinary Australian project developing AI/edge-computing autonomous drones for early-stage fungal disease detection in cereal crops (barley, oat, wheat), aimed at reducing fungicide resistance through targeted intervention.",
+      "lane": "L3",
+      "tier": "industry-analysis",
+      "sources": [
+        {
+          "publisher": "Murdoch University",
+          "title": "Drones, Data, and Disease Control: Hai Wang Leads Cutting-Edge Crop Protection Project",
+          "url": "https://murdoch.edu.au/schools/engineering-and-energy/about/news/drones--data--and-disease-control--hai-wang-leads-cutting-edge-crop-protection-project",
+          "date": "2026",
+          "whatItMeasured": "University news on AI-driven autonomous drone crop-disease detection research."
+        }
+      ],
+      "scope": "Research project (cereal crop protection); not a measure of broader agricultural-scientist employment.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (Murdoch University news). Measures AU crop-protection AI research. In window."
+    },
+    {
+      "id": "l407",
+      "text": "Senior Technical Officer — Department of Agriculture and Fisheries (Katherine, Northern Territory, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Agriculture and Fisheries",
+          "title": "Senior Technical Officer",
+          "url": "https://www.linkedin.com/jobs/view/4446253579",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "Principal Technical Officer — Department of Agriculture and Fisheries (Katherine, Northern Territory, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Agriculture and Fisheries",
+          "title": "Principal Technical Officer",
+          "url": "https://www.linkedin.com/jobs/view/4446255481",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Agronomy Sustainability Officer — PepsiCo (Tingalpa, Queensland, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "PepsiCo",
+          "title": "Agronomy Sustainability Officer",
+          "url": "https://www.linkedin.com/jobs/view/4437231036",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Agronomy Sustainability Officer — PepsiCo (Regency Park, South Australia, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "PepsiCo",
+          "title": "Agronomy Sustainability Officer",
+          "url": "https://www.linkedin.com/jobs/view/4437231035",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "text": "Breeding Agronomist — BASF (Longerenong, Victoria, Australia). Posted 4 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "BASF",
+          "title": "Breeding Agronomist",
+          "url": "https://www.linkedin.com/jobs/view/4399505079",
+          "date": "4 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "Technical Agronomist and Project Manager - Mackay, QLD — Nutrien Ag Solutions - Australia (Mackay, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Nutrien Ag Solutions - Australia",
+          "title": "Technical Agronomist and Project Manager - Mackay, QLD",
+          "url": "https://www.linkedin.com/jobs/view/4440633975",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "text": "Agronomy Development Manager — Snackbrands Australia (Greater Sydney Area). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Snackbrands Australia",
+          "title": "Agronomy Development Manager",
+          "url": "https://www.linkedin.com/jobs/view/4452794451",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l414",
+      "text": "Research Project Officer - Livestock Production — CSIRO (Townsville, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "CSIRO",
+          "title": "Research Project Officer - Livestock Production",
+          "url": "https://www.linkedin.com/jobs/view/4454003520",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l415",
+      "text": "Contra Season Agronomy Lead — BASF (Mount Gambier, South Australia, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "BASF",
+          "title": "Contra Season Agronomy Lead",
+          "url": "https://www.linkedin.com/jobs/view/4443292682",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l416",
+      "text": "Research Project Officer - Livestock Production — CSIRO (Woodstock, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "CSIRO",
+          "title": "Research Project Officer - Livestock Production",
+          "url": "https://www.linkedin.com/jobs/view/4454002552",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l517",
       "text": "US Agricultural Lighting Market Growth Trends, Industry Outlook, and Future Opportunities Through 2034\n<p style=\"text-align: justify;\" data-start=\"186\" data-end=\"743\">Agricultural lighting has become an essential technology for modern farming by providing controlled illumination that supports plant growth, improves crop quality, and enhances agricultural productivity. Advanced lighting systems enable",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "US Agricultural Lighting Market Growth Trends, Industry Outlook, and Future Oppo\u2026",
+          "title": "US Agricultural Lighting Market Growth Trends, Industry Outlook, and Future Oppo…",
           "url": "https://github.com/rushitip18-lgtm/News-Wires/issues/164",
           "date": "2026-07-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -145,7 +375,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l504",
+      "id": "l518",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -166,7 +396,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l505",
+      "id": "l519",
       "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -187,7 +417,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l506",
+      "id": "l520",
       "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -208,7 +438,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l507",
+      "id": "l521",
       "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -229,7 +459,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l508",
+      "id": "l522",
       "text": "How al-Qaida and IS are adopting AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -250,14 +480,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l509",
-      "text": "Primus \u2013 AI Research Scientist",
+      "id": "l523",
+      "text": "Primus – AI Research Scientist",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Primus \u2013 AI Research Scientist",
+          "title": "Primus – AI Research Scientist",
           "url": "https://lab.cloud/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -271,7 +501,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l510",
+      "id": "l524",
       "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -292,7 +522,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l511",
+      "id": "l525",
       "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -313,14 +543,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "id": "l526",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -334,14 +564,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l513",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "id": "l527",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -355,7 +585,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l514",
+      "id": "l528",
       "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -376,7 +606,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l515",
+      "id": "l529",
       "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -397,7 +627,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l516",
+      "id": "l530",
       "text": "Show HN: AI scientist builds an open-source Codex Micro from scratch for $40",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -418,7 +648,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l517",
+      "id": "l531",
       "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -439,7 +669,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l518",
+      "id": "l532",
       "text": "AI workflows: an industry optimising the wrong variables",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -460,7 +690,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l519",
+      "id": "l533",
       "text": "Show HN: AI Workflow Builder App Template for React",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -481,14 +711,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l520",
-      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "id": "l534",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -502,7 +732,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l521",
+      "id": "l535",
       "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -523,14 +753,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l522",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "id": "l536",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -544,7 +774,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l523",
+      "id": "l537",
       "text": "Show HN: A GitOps-style registry for AI agent Workflows, Skills and MCP servers",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -565,7 +795,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l524",
+      "id": "l538",
       "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -586,14 +816,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "id": "l539",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -607,7 +837,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l526",
+      "id": "l540",
       "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -628,14 +858,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "id": "l541",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -649,14 +879,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l528",
-      "text": "AI and Superconducting Magnets Revive the Stellarator for Continuous Fusion Power\nA stellarator is an experimental fusion machine with a complex, twisted 3D magnetic geometry designed to confine plasma hotter than the Sun. For decades, its intricate design made it difficult to achieve effective plasma confinement. Now, Munich-based Proxima Fusion, a spin-off of the Max Planck Institute for Plasma Physics, is using advanced computing, AI-driven optimization and high-temperature superconducting (H\u2026",
+      "id": "l542",
+      "text": "AI and Superconducting Magnets Revive the Stellarator for Continuous Fusion Power\nA stellarator is an experimental fusion machine with a complex, twisted 3D magnetic geometry designed to confine plasma hotter than the Sun. For decades, its intricate design made it difficult to achieve effective plasma confinement. Now, Munich-based Proxima Fusion, a spin-off of the Max Planck Institute for Plasma Physics, is using advanced computing, AI-driven optimization and high-temperature superconducting (H…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI and Superconducting Magnets Revive the Stellarator for Continuous Fusion Powe\u2026",
+          "title": "AI and Superconducting Magnets Revive the Stellarator for Continuous Fusion Powe…",
           "url": "https://www.reddit.com/r/STEW_ScTecEngWorld/comments/1vwqfqo/ai_and_superconducting_magnets_revive_the/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -670,14 +900,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l529",
-      "text": "Scientists have, for the first time, genetically engineered lettuce and tobacco plants to grow the animal protein myoglobin. Plant-derived myoglobin could achieve protein yields per hectare that rival \u2013 or even exceed \u2013 those of animal agriculture, with lower water use and greenhouse gas emissions.\n&#32; submitted by &#32; /u/mvea &#32; to &#32; r/science [link] &#32; [comments]\nFor those asking \"why tobacco?\" , tobacco has a well-studied genome and is a model species for genetic engineering and\u2026",
+      "id": "l543",
+      "text": "Scientists have, for the first time, genetically engineered lettuce and tobacco plants to grow the animal protein myoglobin. Plant-derived myoglobin could achieve protein yields per hectare that rival – or even exceed – those of animal agriculture, with lower water use and greenhouse gas emissions.\n&#32; submitted by &#32; /u/mvea &#32; to &#32; r/science [link] &#32; [comments]\nFor those asking \"why tobacco?\" , tobacco has a well-studied genome and is a model species for genetic engineering and…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Scientists have, for the first time, genetically engineered lettuce and tobacco \u2026",
+          "title": "Scientists have, for the first time, genetically engineered lettuce and tobacco …",
           "url": "https://www.reddit.com/r/science/comments/1vh0gzd/scientists_have_for_the_first_time_genetically/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -691,14 +921,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l530",
-      "text": "\ud83d\udce2 [HIRING] a Agricultural and Horticultural Mobile Plant Operator - RecruitUp Global - Munglinup, Australia!\nCompany: Date Posted: August 16, 2026 \ud83d\udcc5 Categories: #fulltime Apply &amp; Description \ud83d\udc49 https://jobboardsearch.com/redirect?utm_source=reddit&amp;utm_medium=bot&amp;utm_id=jobboarsearch&amp;utm_term=www.constructionjobsaustralia.com&amp;rurl=aHR0cHM6Ly93d3cuY29uc3RydWN0aW9uam9ic2F1c3RyYWxpYS5jb20vam9icy9hZ3JpY3VsdHVyYWwtYW5kLWhvcnRpY3VsdHVyYWwtbW9iaWxlLXBsYW50LW9wZXJhdG9yLTk0NjFhNmVj JobB\u2026",
+      "id": "l544",
+      "text": "📢 [HIRING] a Agricultural and Horticultural Mobile Plant Operator - RecruitUp Global - Munglinup, Australia!\nCompany: Date Posted: August 16, 2026 📅 Categories: #fulltime Apply &amp; Description 👉 https://jobboardsearch.com/redirect?utm_source=reddit&amp;utm_medium=bot&amp;utm_id=jobboarsearch&amp;utm_term=www.constructionjobsaustralia.com&amp;rurl=aHR0cHM6Ly93d3cuY29uc3RydWN0aW9uam9ic2F1c3RyYWxpYS5jb20vam9icy9hZ3JpY3VsdHVyYWwtYW5kLWhvcnRpY3VsdHVyYWwtbW9iaWxlLXBsYW50LW9wZXJhdG9yLTk0NjFhNmVj JobB…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\ud83d\udce2 [HIRING] a Agricultural and Horticultural Mobile Plant Operator - RecruitUp Gl\u2026",
+          "title": "📢 [HIRING] a Agricultural and Horticultural Mobile Plant Operator - RecruitUp Gl…",
           "url": "https://www.reddit.com/r/jobboardsearch/comments/1vqkw9x/hiring_a_agricultural_and_horticultural_mobile/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -712,14 +942,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l531",
-      "text": "Scientists have, for the first time, genetically engineered lettuce and tobacco plants to grow the animal protein myoglobin. Plant-derived myoglobin could achieve protein yields per hectare that rival \u2013 or even exceed \u2013 those of animal agriculture, with lower water use and greenhouse gas emissions.\n&#32; submitted by &#32; /u/JollyGreenJarju &#32; to &#32; r/GreenSpiritsHealing [link] &#32; [comments]",
+      "id": "l545",
+      "text": "Scientists have, for the first time, genetically engineered lettuce and tobacco plants to grow the animal protein myoglobin. Plant-derived myoglobin could achieve protein yields per hectare that rival – or even exceed – those of animal agriculture, with lower water use and greenhouse gas emissions.\n&#32; submitted by &#32; /u/JollyGreenJarju &#32; to &#32; r/GreenSpiritsHealing [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Scientists have, for the first time, genetically engineered lettuce and tobacco \u2026",
+          "title": "Scientists have, for the first time, genetically engineered lettuce and tobacco …",
           "url": "https://www.reddit.com/r/GreenSpiritsHealing/comments/1vjrnau/scientists_have_for_the_first_time_genetically/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -733,14 +963,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l532",
-      "text": "Artificial Intelligence was able to create 16 new viruses that can infect bacteria, raising concerns of potential misuse.\nAI Model Designs 16 Functional Viruses From Scratch, Advancing Therapies While Raising Biosecurity Concerns Researchers from Stanford University and the Arc Institute used genome language models, Evo 1 and Evo 2, to generate hundreds of thousands of candidate bacteriophage genomes. After synthesizing and testing nearly 300 designs in the laboratory, they identified 16 viable \u2026",
+      "id": "l546",
+      "text": "Artificial Intelligence was able to create 16 new viruses that can infect bacteria, raising concerns of potential misuse.\nAI Model Designs 16 Functional Viruses From Scratch, Advancing Therapies While Raising Biosecurity Concerns Researchers from Stanford University and the Arc Institute used genome language models, Evo 1 and Evo 2, to generate hundreds of thousands of candidate bacteriophage genomes. After synthesizing and testing nearly 300 designs in the laboratory, they identified 16 viable …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Artificial Intelligence was able to create 16 new viruses that can infect bacter\u2026",
+          "title": "Artificial Intelligence was able to create 16 new viruses that can infect bacter…",
           "url": "https://www.reddit.com/r/STEW_ScTecEngWorld/comments/1vi0cuo/artificial_intelligence_was_able_to_create_16_new/",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -754,14 +984,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l533",
-      "text": "\"It\u2019s funny, isn\u2019t it, how solar arrays on agricultural land were a huge problem for the UCP but scores of massive data centres in the same kind of locations are not. \"\n\nImpact of Meta AI data centre could add up to $460 a year to the typical electric bill https://t.co/68etZyn4ws",
+      "id": "l547",
+      "text": "\"It’s funny, isn’t it, how solar arrays on agricultural land were a huge problem for the UCP but scores of massive data centres in the same kind of locations are not. \"\n\nImpact of Meta AI data centre could add up to $460 a year to the typical electric bill https://t.co/68etZyn4ws",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\"It\u2019s funny, isn\u2019t it, how solar arrays on agricultural land were a huge problem\u2026",
+          "title": "\"It’s funny, isn’t it, how solar arrays on agricultural land were a huge problem…",
           "url": "https://x.com/MullenMulling/status/2093450628869890308",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -775,14 +1005,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l534",
-      "text": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robotics has started sending robots into San Francisco homes to vacuum floors, wipe surfaces, pick up clutter, and take out the trash\n\nNo $100,000 robot purchase\n\nNo years-long waitlist\n\nYou simply pay for the work by the hour\n\nAnd no\u2014the robot isn't fully autonomous yet\n\nAI handles part of the job, while a remote human operator steps in when needed\n\nThat may sound less impressive\n\nBut it\u2019s actually the smartest part\n\nRo",
+      "id": "l548",
+      "text": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robotics has started sending robots into San Francisco homes to vacuum floors, wipe surfaces, pick up clutter, and take out the trash\n\nNo $100,000 robot purchase\n\nNo years-long waitlist\n\nYou simply pay for the work by the hour\n\nAnd no—the robot isn't fully autonomous yet\n\nAI handles part of the job, while a remote human operator steps in when needed\n\nThat may sound less impressive\n\nBut it’s actually the smartest part\n\nRo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robo\u2026",
+          "title": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robo…",
           "url": "https://x.com/Prompt_ProfitAI/status/2084745440025575439",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -796,7 +1026,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l535",
+      "id": "l549",
       "text": "AI Is Leaving the Screen",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -817,14 +1047,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l536",
-      "text": "For Sale:\n\n\ud83c\udf31 https://t.co/tcIfLlh6HS\n\nA premium brand for AI-powered agricultural intelligence, precision farming &amp; crop yield forecasting.\n\nBuilt for the future of AgTech.\n\n#AgTech #ClimateTech #AI #PrecisionAgriculture #FarmTech #Investing",
+      "id": "l550",
+      "text": "For Sale:\n\n🌱 https://t.co/tcIfLlh6HS\n\nA premium brand for AI-powered agricultural intelligence, precision farming &amp; crop yield forecasting.\n\nBuilt for the future of AgTech.\n\n#AgTech #ClimateTech #AI #PrecisionAgriculture #FarmTech #Investing",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "For Sale:\n\n\ud83c\udf31 https://t.co/tcIfLlh6HS\n\nA premium brand for AI-powered agricultura\u2026",
+          "title": "For Sale:\n\n🌱 https://t.co/tcIfLlh6HS\n\nA premium brand for AI-powered agricultura…",
           "url": "https://x.com/DomainFrontier/status/2093422952427528247",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -838,14 +1068,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l537",
-      "text": "CONNECTICUT\u2019S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED\u2014BECAUSE THE ROBOT NEEDS MAINTENANCE\n\nMeet Janice\n\nShe makes lattes, chai, and iced matcha using AI-powered obstacle detection and physical reasoning\n\nThe robot costs $88,000 to buy or starts at $2,500 a month to lease\n\nNo sick days\nNo lunch breaks\nNo salary\nBut there are software fees, repairs, and downtime\nThis is the part of automation nobody puts in the demo:\n\nRobots don\u2019t eliminate operational problems\n\nThey replac",
+      "id": "l551",
+      "text": "CONNECTICUT’S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED—BECAUSE THE ROBOT NEEDS MAINTENANCE\n\nMeet Janice\n\nShe makes lattes, chai, and iced matcha using AI-powered obstacle detection and physical reasoning\n\nThe robot costs $88,000 to buy or starts at $2,500 a month to lease\n\nNo sick days\nNo lunch breaks\nNo salary\nBut there are software fees, repairs, and downtime\nThis is the part of automation nobody puts in the demo:\n\nRobots don’t eliminate operational problems\n\nThey replac",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "CONNECTICUT\u2019S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED\u2014BE\u2026",
+          "title": "CONNECTICUT’S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED—BE…",
           "url": "https://x.com/Prompt_ProfitAI/status/2085712526549897616",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -859,14 +1089,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l538",
-      "text": "@FarmHawkAI is building a unified platform to serve every agricultural stakeholder, from farmers to financial institutions and supply chain partners. With scalable revenue models, 10 powerful applications, and a mission to digitize farming worldwide, the future of agritech is here.\n\u200bCheck out their breakdown of the massive opportunity ahead \ud83d\udcc8\ud83d\udc47\n\u200b#AgTech #AI #Agriculture #FarmHawkAI #Innovation #Startup #crypto",
+      "id": "l552",
+      "text": "@FarmHawkAI is building a unified platform to serve every agricultural stakeholder, from farmers to financial institutions and supply chain partners. With scalable revenue models, 10 powerful applications, and a mission to digitize farming worldwide, the future of agritech is here.\n​Check out their breakdown of the massive opportunity ahead 📈👇\n​#AgTech #AI #Agriculture #FarmHawkAI #Innovation #Startup #crypto",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@FarmHawkAI is building a unified platform to serve every agricultural stakehold\u2026",
+          "title": "@FarmHawkAI is building a unified platform to serve every agricultural stakehold…",
           "url": "https://x.com/CryptoGhooost/status/2093396708692468125",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -880,14 +1110,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l539",
-      "text": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a video\n\nMimic Robotics connected it to a robot\n\nNow it\u2019s handling cables, seals, and flexible car parts at Audi\u2014the exact tasks traditional automation struggles with\n\n00:00 \u2014 Multimodal AI enters the physical world\n00:14 \u2014 Audi reveals how it\u2019s testing and deploying FLUX-mimic\n00:25 \u2014 New tasks require just 30 minutes of robot data instead of 30+ hours\n00:40 \u2014 AI models leave the lab and enter the real world\n\nThe next b",
+      "id": "l553",
+      "text": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a video\n\nMimic Robotics connected it to a robot\n\nNow it’s handling cables, seals, and flexible car parts at Audi—the exact tasks traditional automation struggles with\n\n00:00 — Multimodal AI enters the physical world\n00:14 — Audi reveals how it’s testing and deploying FLUX-mimic\n00:25 — New tasks require just 30 minutes of robot data instead of 30+ hours\n00:40 — AI models leave the lab and enter the real world\n\nThe next b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a vi\u2026",
+          "title": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a vi…",
           "url": "https://x.com/Prompt_ProfitAI/status/2085441684523917539",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -901,14 +1131,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l540",
-      "text": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nNo \u201cAI-powered\u201d landing page\nNo 40-person engineering team\nThey spent two years building four versions of the same idea\u2014each one faster than the last\nTech Twitter talks a lot about moving fast\n\nThese guys took it literally",
+      "id": "l554",
+      "text": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nNo “AI-powered” landing page\nNo 40-person engineering team\nThey spent two years building four versions of the same idea—each one faster than the last\nTech Twitter talks a lot about moving fast\n\nThese guys took it literally",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nN\u2026",
+          "title": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nN…",
           "url": "https://x.com/Prompt_ProfitAI/status/2085745879625953781",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -922,7 +1152,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l541",
+      "id": "l555",
       "text": "The K-Shaped Economy: Why AI Will Split Creators From Consumers",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -943,14 +1173,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l542",
-      "text": "ICYMI O/N\n\nMACRO:\n\nAsian tech stocks slumped, as investors used Samsung Electronics Co.\u2019s results to lock in profits on a stellar year-to-date chip rally, rotating into unloved sectors less prone to earnings shocks. (WSJ)\n\nWalmart is cutting prices on thousands of items to help customers with affordability after years of inflation.\u00a0The effort drew praise from President Trump, who hailed it in a social-media post as \u201ca huge deal.\u201d (WSJ)\n\n'AI Giants Are Handing Out Tons of Free Computing Power to",
+      "id": "l556",
+      "text": "ICYMI O/N\n\nMACRO:\n\nAsian tech stocks slumped, as investors used Samsung Electronics Co.’s results to lock in profits on a stellar year-to-date chip rally, rotating into unloved sectors less prone to earnings shocks. (WSJ)\n\nWalmart is cutting prices on thousands of items to help customers with affordability after years of inflation. The effort drew praise from President Trump, who hailed it in a social-media post as “a huge deal.” (WSJ)\n\n'AI Giants Are Handing Out Tons of Free Computing Power to",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "ICYMI O/N\n\nMACRO:\n\nAsian tech stocks slumped, as investors used Samsung Electron\u2026",
+          "title": "ICYMI O/N\n\nMACRO:\n\nAsian tech stocks slumped, as investors used Samsung Electron…",
           "url": "https://x.com/ZackEiseman/status/2074417696746184723",
           "date": "2026-07-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -964,16 +1194,108 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
-  "onet_soc_code": "19-1013",
-  "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "agricultural scientist",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-29)",
+    "count": 223,
+    "returned": 50,
+    "topEmployers": [
+      "SchoolHouse",
+      "Australian Agricultural Company",
+      "J.P. BOURKE & CO PTY LTD",
+      "Queensland Government",
+      "FMC Corporation",
+      "Agriculture Victoria",
+      "Terra Firma Fertilisers",
+      "Ausvet"
+    ],
+    "topSkills": [
+      "science",
+      "field",
+      "crop",
+      "research",
+      "agriculture",
+      "soil",
+      "agronomy",
+      "trial"
+    ],
+    "note": "Count is the Adzuna AU live all-time index size for 'agricultural scientist' (223 postings), not a 12-month time-series; treat as demand presence. 'field', 'crop', 'agronomy', 'soil' dominate sampled-ad keywords."
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
-  "programs": [
-    "mc-urbhort"
-  ],
+  "corpus": {
+    "platforms": [
+      {
+        "name": "reddit",
+        "scope": "r/agriculture, r/farming",
+        "status": "sampled-via-last30days",
+        "items": null
+      },
+      {
+        "name": "x",
+        "scope": "agriculture / agtech AI discourse",
+        "status": "sampled-via-last30days",
+        "items": null
+      },
+      {
+        "name": "hackernews",
+        "scope": "agtech",
+        "status": "sampled-via-last30days",
+        "items": null
+      },
+      {
+        "name": "github",
+        "scope": "agtech AI repos",
+        "status": "sampled-via-last30days",
+        "items": null
+      },
+      {
+        "name": "youtube",
+        "scope": "agtech talks",
+        "status": "sampled-via-last30days",
+        "items": null
+      }
+    ],
+    "retrieved": "2026-08-29",
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "Factiva",
+        "reason": "auth_expired",
+        "note": "OpenAthens session expired 2026-08-29 (same window as 19-1011/19-1012); L3 rests on public trade/industry press this pass."
+      }
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-29",
+        "soc": "19-1013",
+        "query": "Agricultural Scientist",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
+    "l5Sample": [
+      {
+        "date": "2026-08-29",
+        "added": 40,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 5,
+          "x": 10,
+          "youtube": 0
+        },
+        "status": "sampled"
+      }
+    ]
+  },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 unavailable (OpenAthens auth expired 2026-08-29); L3 rests on public trade/industry press (ARAIN, GRDC Groundcover).",
+    "Adzuna count is an all-time live index size, not a 12-month time-series; treat as demand presence, not volume trend.",
+    "L5 practitioner-discourse corpus is self-selected (Reddit/X/HN/GitHub/YouTube via last30days); not a representative survey.",
+    "ANZSCO 234112 (Agricultural Scientist) used as the closest mapped code; the O*NET->ANZSCO crosswalk carries no direct ANZSCO field for 19-1013."
+  ]
 }
