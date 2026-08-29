@@ -1,29 +1,27 @@
-# Deep Research Evidence Log: Microbiologists (19-1022)
+# Evidence log: Microbiologists (19-1022)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `19-1022-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Microbiologists] Professional Practice Framework and Digital Competency Guidelines for Microbiologists — https://www.psc.gov.au/standards/19-1022 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Microbiologists enforce non-delegable ethical accountability and human verification over al..."
 
-> "National peak professional bodies and statutory regulators governing Microbiologists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Microbiologists — https://www.jobsandskills.gov.au/research/19-1022 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Microbiologists heightens the demand for adaptive problem solving, interdisciplinary stakeholder com..."
 
-- **Scope:** Australian practitioners in Microbiologists across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Microbiologists** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Microbiologists](https://www.psc.gov.au/standards/19-1022) — *What it measured:* National competency and ethics framework for Microbiologists
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
-
-### Claim `19-1022-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Microbiologists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Microbiologists roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Microbiologists](https://www.jobsandskills.gov.au/research/19-1022) — *What it measured:* Labour market analysis of automation resilience across Microbiologists in Australia
-
----
+### L5 Practitioner discourse (70 claims)
+- last30days declared sample: 70 items across github=0, grounding=0, hackernews=24, jobs=0, reddit=12, x=25, youtube=2.
+- Representative practitioner quotes:
+  - [hackernews] Tell HN: Man, AI is killing my brain...
+  - [hackernews] What breaks in production AI workflows?...
+  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
+  - [hackernews] How al-Qaida and IS are adopting AI...
+  - [hackernews] Ask HN: What does the day-to-day work of an AI Engineer look like?...
