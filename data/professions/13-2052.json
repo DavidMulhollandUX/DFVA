@@ -65,6 +65,1287 @@
       ],
       "refuted": false,
       "refuteNotes": "Directly backed by JSA national workforce data."
+    },
+    {
+      "id": "l403",
+      "text": "Clime Private Wealth | Private Wealth Adviser, HNW & Wholesale (NSW, VIC, SA & QLD) \u2014 Clime Private Wealth (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Clime Private Wealth",
+          "title": "Clime Private Wealth | Private Wealth Adviser, HNW & Wholesale (NSW, VIC, SA & QLD)",
+          "url": "https://www.linkedin.com/jobs/view/4453793864",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l404",
+      "text": "Financial Adviser \u2014 Wealth Peak Financial Advice (North Sydney, New South Wales, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Wealth Peak Financial Advice",
+          "title": "Financial Adviser",
+          "url": "https://www.linkedin.com/jobs/view/4454225501",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l405",
+      "text": "Private Wealth Adviser - HNW & Wholesale - Multiple Locations (Sydney, Melbourne, Adelaide, Brisbane) \u2014 River X (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "River X",
+          "title": "Private Wealth Adviser - HNW & Wholesale - Multiple Locations (Sydney, Melbourne, Adelaide, Brisbane)",
+          "url": "https://www.linkedin.com/jobs/view/4453905738",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "Senior Financial Adviser \u2014 Nationwide Financial (Greater Sydney Area). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Nationwide Financial",
+          "title": "Senior Financial Adviser",
+          "url": "https://www.linkedin.com/jobs/view/4452035129",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Private Wealth Adviser \u2014 FourQuarters Recruitment (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "FourQuarters Recruitment",
+          "title": "Private Wealth Adviser",
+          "url": "https://www.linkedin.com/jobs/view/4454970037",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "Senior Private Wealth Adviser \u2014 FourQuarters Recruitment (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "FourQuarters Recruitment",
+          "title": "Senior Private Wealth Adviser",
+          "url": "https://www.linkedin.com/jobs/view/4454475362",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Financial Adviser \u2014 Recruit 2 Advice (Greater Sydney Area). Posted 23 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Recruit 2 Advice",
+          "title": "Financial Adviser",
+          "url": "https://www.linkedin.com/jobs/view/4457650304",
+          "date": "23 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Financial Adviser \u2014 Kaizen Recruitment (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Kaizen Recruitment",
+          "title": "Financial Adviser",
+          "url": "https://www.linkedin.com/jobs/view/4455535610",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "text": "Certified Financial Planner \u2014 Really Awesome People (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Really Awesome People",
+          "title": "Certified Financial Planner",
+          "url": "https://www.linkedin.com/jobs/view/4457186816",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "Financial Adviser \u2014 Granada Wealth Advisory (Balmain, New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Granada Wealth Advisory",
+          "title": "Financial Adviser",
+          "url": "https://www.linkedin.com/jobs/view/4456864552",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l513",
+      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "Rewrite Rust NLP module with keyword additions and unit tests\n## **User description**\n### **User description**\n\n<!-- This is an auto-generated description by cubic. -->\n---\n## Summary by cubic\nMigrated parsing, calendar, analytics/dashboard, search, and Excel export to Rust (`hesabyar-core` via UniFFI). Added a 200+\u2011keyword Persian NLP, type\u2011safe enums, resili\nCodeAnt AI is reviewing your PR. <!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Rewrite Rust NLP module with keyword additions and unit tests\n## **User descript\u2026",
+          "url": "https://github.com/mcuteangel/hesabyaar/pull/69",
+          "date": "2026-07-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "Motion Phase 3 \u2014 button press contract + adopt utilities in donor app\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\nBuilds on #194 (Phase 2). Establishes the button press contract and starts adopting it in the donor app where the redundant `active:scale-[0.98]` was most concentrated.\n\n## What changes\n\n### Shared `Button`\n- **Drop `transition-colors` from the base** \u2014 replaced b\nResolved the `epic` \u2194 Phase 3 conflict in `packages/ui/components/shadcn/button.tsx` by keeping the shadcn audit pieces from `epi\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Motion Phase 3 \u2014 button press contract + adopt utilities in donor app\n<!-- CURSO\u2026",
+          "url": "https://github.com/Asymmetric-al/core/pull/195",
+          "date": "2026-04-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "AI financial advice is surprisingly good, especially if you ask right questions",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI financial advice is surprisingly good, especially if you ask right questions",
+          "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "Tell HN: Man, AI is killing my brain",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "My personal AI benchmark: \u201cGenerate an SVG of a frog with a Habsburg jaw\u201d",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "My personal AI benchmark: \u201cGenerate an SVG of a frog with a Habsburg jaw\u201d",
+          "url": "https://frogs.vaguespac.es/",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "We gave a village personal AI agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "We gave a village personal AI agents",
+          "url": "https://blog.cosmos-institute.org/p/we-gave-a-village-personal-ai-agents",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "Ask HN: What's your monthly personal AI budget?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What's your monthly personal AI budget?",
+          "url": "https://news.ycombinator.com/item?id=49127681",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "Ask HN: Thoughts on AI in Personal Finance?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Thoughts on AI in Personal Finance?",
+          "url": "https://news.ycombinator.com/item?id=48854585",
+          "date": "2026-07-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "Show HN: Crux, a personal AI on your computer you can reach from anywhere",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Crux, a personal AI on your computer you can reach from anywhere",
+          "url": "https://qunt.in",
+          "date": "2026-07-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "The death of AI workflow builders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "AI Is Upending One of Finance's Cushiest Jobs",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Is Upending One of Finance's Cushiest Jobs",
+          "url": "https://www.bloomberg.com/news/features/2026-06-05/ai-is-upending-traditional-financial-advisor-jobs",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "Microsoft wants users to be addicted to Scout, their AI personal assistant",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Microsoft wants users to be addicted to Scout, their AI personal assistant",
+          "url": "https://disassociated.com/microsoft-users-addicted-ai-personal-assistant/",
+          "date": "2026-06-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "Show HN: GSV \u2013 a personal AI computer that unifies your machines",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: GSV \u2013 a personal AI computer that unifies your machines",
+          "url": "https://github.com/deathbyknowledge/gsv",
+          "date": "2026-06-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "How Kepler built verifiable AI for financial services with Claude",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "How Kepler built verifiable AI for financial services with Claude",
+          "url": "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude",
+          "date": "2026-05-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "Ask HK: How are you building AI apps today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+          "url": "https://www.getcore.me/",
+          "date": "2026-04-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "My new financial advisor is recommending that I buy a house instead of investing.\nI am 30 years old and married. I have a little over $300k sitting in America Funds investments, my wife and I make $240k a year combined, we are in a luxury apartment paying $3k a month in rent. I recently got a new financial advisor due to personal reasons. He\u2019s telling me and my wife that my $300k would be better invested in property rather than American Funds or other Index funds, he is highly encouraging us to \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "My new financial advisor is recommending that I buy a house instead of investing\u2026",
+          "url": "https://www.reddit.com/r/personalfinance/comments/1vfafq7/my_new_financial_advisor_is_recommending_that_i/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "HOW TO MAKE MONEY WHEN AI MAKES EXECUTION CHEAP",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "HOW TO MAKE MONEY WHEN AI MAKES EXECUTION CHEAP",
+          "url": "https://x.com/T0vi7/status/2091164764923703490",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "Michael Truell and three MIT friends thought AI coding was too crowded. In August 2024, Cursor raised a $60 million Series A. It was company funding, not disclosed personal earnings.\n\nTheir first AI idea was a CAD tool for mechanical engineers. It failed for a simple reason: the founders did not understand the work closely enough.\n\nThen GitHub Copilot changed their mind. It showed them that code models were useful outside a lab, even if bigger players were already in the market.\n\nCursor did not",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Michael Truell and three MIT friends thought AI coding was too crowded. In Augus\u2026",
+          "url": "https://x.com/T0vi7/status/2093439838615957560",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ \u201cWhy OpenClaw and the Atlassian MCP Server Matter \u2014 Pi Desktop Is No Longer Just a Node Application\u201d ]]]\n[[[ \u201cTurning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure\u201d ]]]\n[[[",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain N\u2026",
+          "url": "https://x.com/applekhankorea/status/2093366647587565778",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in the age of AI:\n\n\"This is why we keep a direct-to-consumer business. A lot of our customers in the lending world rely on lead generation platforms like Credit Karma and LendingTree, or personal finance websites. They\u2019re affiliates that send out leads.\n\nIf AI disrupts that, how do we know our partners are set up to make sure they get those leads in that future?\n\nWe\u2019re not really outsourcing the underwriting. We\u2019re outsou",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in th\u2026",
+          "url": "https://x.com/ThePeelPod/status/2093359585419579440",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "BestBlogs Daily \u00b7 08-26 \u00b7 Jalape\u00f1o's first benchmarks, one Claude memory, and Canva's AI cost math",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BestBlogs Daily \u00b7 08-26 \u00b7 Jalape\u00f1o's first benchmarks, one Claude memory, and Ca\u2026",
+          "url": "https://x.com/BestBlogsDev/status/2092404364145217841",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "Victor Riparbelli\u2019s Synthesia raised a $90 million Series C. Its AI turns a script into a video with a human-looking presenter.\n\nThat is company funding, not money Riparbelli personally took home. His personal proceeds were not disclosed.\n\nThe problem was not simply making an avatar speak. A training video still needs a natural script, visuals, editing, and a new shoot when the message changes.\n\nRiparbelli\u2019s point is blunt: paste a document into an avatar and it sounds weird. People do not speak",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Victor Riparbelli\u2019s Synthesia raised a $90 million Series C. Its AI turns a scri\u2026",
+          "url": "https://x.com/T0vi7/status/2091983351586463969",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "BestBlogs Daily \u00b7 08-25\n\n# runtime AI governance / ADK live evaluation / DFlash / speculative decoding / LangSmith\n\n[1] \u2605 Deep Dive \u00b7 Microsoft Moves AI Governance From Policy to Runtime Enforcement\nMicrosoft\u2019s nine-domain architecture turns AI governance into an operational loop: policy defines requirements, runtime controls enforce them, observability records behavior, evaluations test quality and safety, and audit converts telemetry into evidence. It also extends identity and checkpoints to a",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BestBlogs Daily \u00b7 08-25\n\n# runtime AI governance / ADK live evaluation / DFlash \u2026",
+          "url": "https://x.com/BestBlogsDev/status/2092046971985158653",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "BestBlogs Daily \u00b7 08-26\n\n# OpenAI Jalape\u00f1o / Claude memory / WebMCP / LLM evaluation / Granite 4.2\n\n[1] \u2605 Deep Dive \u00b7 Jalape\u00f1o\u2019s first results show industry-leading speed and efficiency in AI inference\nOpenAI reports first results for Jalape\u00f1o, its custom inference chip: 1.5 to 1.9 times more AI work per watt and 1.7 to 3.6 times lower end-to-end latency than comparison systems on the public InferenceX benchmark. Gains come from co-designing chip, memory, network and software around language-mod",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BestBlogs Daily \u00b7 08-26\n\n# OpenAI Jalape\u00f1o / Claude memory / WebMCP / LLM evalua\u2026",
+          "url": "https://x.com/BestBlogsDev/status/2092404418847428780",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+          "url": "https://x.com/theneurondaily/status/2093302072145825969",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+          "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nBy Cassidy K. Buhler, Fernando P\u00e9rez & Carl Boettiger\nhttps://t.co/7DVqLebNcD\n\nPublicly available AI models and local infrastructure can reduce AI\u2019s environmental footprint while giving researchers greater control over the tools they use.\n\nAs public opposition grows against the soaring energy and water demands of data centres powering the artificial-intelligence boom, some technology companies are talking about puttin",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nB\u2026",
+          "url": "https://x.com/gecko39/status/2092989601098940612",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "BestBlogs Daily \u00b7 06-30 \u00b7 Spotify's infra, Block's autonomous org, Spring AI's harness",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BestBlogs Daily \u00b7 06-30 \u00b7 Spotify's infra, Block's autonomous org, Spring AI's h\u2026",
+          "url": "https://x.com/BestBlogsDev/status/2071739978993053937",
+          "date": "2026-06-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "The AI-Pilled Operating Company",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The AI-Pilled Operating Company",
+          "url": "https://x.com/selectstarkyle/status/2044995153174159489",
+          "date": "2026-04-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "I Finally Snapped | Financial Audit\n*AGHHHHH SHE NEVER PAYS HER TAXES!!!*In the post show, we learn she refuses to pay taxes. She wants every benefit, but won't contribute anything... this is so infuriating. Watch here: https://hamr.link/ytjoin *OR* download the brand new Hammer Elite App \u27a1\ufe0f https://hammerelite.com 30% off *LIMITED TIME ONLY* as a launch bonus\n\n\ud83d\udcb0 Download Dollarwise - Big Deals, New Features, Free Trial: https://go.dollarwise.com/join\n=============================\n\ud83d\udc49 Checking & S\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "I Finally Snapped | Financial Audit\n*AGHHHHH SHE NEVER PAYS HER TAXES!!!*In the \u2026",
+          "url": "https://www.youtube.com/watch?v=XT02_pqmbeM",
+          "date": "2026-07-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "Perspectives: Will AI Replace Financial Advisors?\n\u2022 In this Money & Meaning Perspectives episode, host Jeff Bernier examines how artificial intelligence is changing financial advice and what that means for the future of financial advisors. Jeff explores the shift from knowledge work toward \u201cwisdom work,\u201d where experience, judgment, discernment, empathy, and perspective become increasingly important. He discusses where AI excels, where human advisors can continue to add value, and why the future \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Perspectives: Will AI Replace Financial Advisors?\n\u2022 In this Money & Meaning Pers\u2026",
+          "url": "https://www.youtube.com/watch?v=YVO-vfO0n6c",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "AI Is Giving Financial Advice Now\n00:00 - Introduction\n02:23 - ChatGPT Announcement\n05:44 - The Pros\n07:54 - Advice Concerns\n10:09 - Regulatory Ambiguity\n14:22 - Considerations for Using AI Advisors\n16:56 - Will AI Replace Advisors?\n\nDead on the Money Podcast Episode: https://youtu.be/po9zpbVQOYE?si=1B2Ff87jzRakyMdr\n\nChatGPT announced this week that it would allow users to connect their bank/investment accounts to the platform to receive AI advice for their finances - today we dive into the impl\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Is Giving Financial Advice Now\n00:00 - Introduction\n02:23 - ChatGPT Announcem\u2026",
+          "url": "https://www.youtube.com/watch?v=mR4eOVo126Y",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "Will A.I Kill Financial Services? How to Protect Your Business against it + My 1-5yr Predictions!\nWill A.I Kill Financial Services? How to Protect your Business against it + my 1-5yr predictions! Terry Blackburn tackles the biggest question facing financial services professionals today: Will AI destroy our industry, or is there opportunity in the disruption? In this essential episode, Terry shares his bold predictions for what will happen to mortgage brokers, protection advisors, financial plann\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Will A.I Kill Financial Services? How to Protect Your Business against it + My 1\u2026",
+          "url": "https://www.youtube.com/watch?v=I0e6fiPkxkA",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "I'm Changing How I Invest My Money Because of AI\n\u27a1\ufe0f Learn How To Start An AI Based Side Hustle (free live workshop): https://event.thewealthportal.com\n\n\ud83d\udc49  To get free fractional shares worth up to \u00a3100, use the promo code TILBURY or visit https://www.trading212.com/join/TILBURY. Terms apply. *This is an affiliate link.\n\n\ud83c\udfaf If you are building a startup, particularly in AI, and want a strategic investor who can accelerate growth, email ventures@marktilbury.com\n_____________________________________\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "I'm Changing How I Invest My Money Because of AI\n\u27a1\ufe0f Learn How To Start An AI Bas\u2026",
+          "url": "https://www.youtube.com/watch?v=O8t50OxsfB8",
+          "date": "2026-03-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "Stop Paying Financial Advisors: How AI Is Building Wealth Smarter\nYou are paying for financial help that AI can already assist with in ways most people are only starting to understand. \ud83d\udcc9\n\nFinancial advisors, budgeting apps, and credit monitoring services are tools millions of people still pay for \u2014 even though AI can now support many of these functions faster, more flexibly, and often at little to no cost.\n\nIn this breakdown, we explore what AI is already capable of in personal finance, how peop\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Stop Paying Financial Advisors: How AI Is Building Wealth Smarter\nYou are paying\u2026",
+          "url": "https://www.youtube.com/watch?v=cRZlVFeSSic",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "\"5 Things Financial Advisors Charge For That AI Now Does Free\"\nThe average financial advisor charges \n1% a year. On a $200,000 portfolio \nthat's $2,000 \u2014 and over 30 years, \ncompounding against you, the real cost \nis six figures.\n\nFor a long time that fee was the price \nof access to expertise you couldn't \nget anywhere else. In the last two \nyears, that changed.\n\nHere are 5 things advisors charged for \nthat AI now does \u2014 with the exact \nprompts, and an honest breakdown of \nwhere a real advisor S\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "\"5 Things Financial Advisors Charge For That AI Now Does Free\"\nThe average finan\u2026",
+          "url": "https://www.youtube.com/watch?v=QQim9JrC_d0",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "Financial Advisors React to Wild Money Advice ft. @ErinTalksMoney\nHuge thanks to Erin Talks Money for joining us for this react! Check out her channel @ErinTalksMoney \n\nViral money advice is everywhere\u2014but how much of it actually helps you build wealth? In this episode of Financial Advisors React, Brian Preston, Bo Hanson, and @ErinTalksMoney  break down popular financial clips covering investing, HELOC strategies, saving for retirement, earning more income, index funds, college majors, spending\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Financial Advisors React to Wild Money Advice ft. @ErinTalksMoney\nHuge thanks to\u2026",
+          "url": "https://www.youtube.com/watch?v=f4lyoyaiuv4",
+          "date": "2026-06-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "Financial Advisors React to INSANE Money Clips\nFinancial Advisors React is back with some of the wildest money clips on the internet. From \u201cmoney is just an idea\u201d and private chef tax write-offs to trading challenges, student loan reality checks, and people who have never heard of a 401(k), we break down the financial lessons hidden inside the chaos. Along the way, they cover investing, saving, retirement planning, index funds, wealth building, financial literacy, and why getting rich is usually\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Financial Advisors React to INSANE Money Clips\nFinancial Advisors React is back \u2026",
+          "url": "https://www.youtube.com/watch?v=hRGJoCppiYQ",
+          "date": "2026-06-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "Trump Praised Australia\u2019s Retirement System \u2014 Is it Really Better than the USA?\nPresident Trump recently pointed to Australia\u2019s retirement system and suggested it might be a better model than what we use in the United States.\n\nAt first glance, it sounds appealing.\n\nIn Australia, retirement savings are taxed up front, and then withdrawals in retirement are generally tax-free. Compare that to the U.S. system, where most retirees defer taxes through 401(k)s and IRAs and pay taxes later.\n\nSo the que\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Trump Praised Australia\u2019s Retirement System \u2014 Is it Really Better than the USA?\n\u2026",
+          "url": "https://www.youtube.com/watch?v=kY5vVa7q7hI",
+          "date": "2026-06-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -101,17 +1382,42 @@
         "plan": "data/professions/13-2052/raw/l5_plan.json",
         "sources": 0,
         "source": "last30days"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 51,
+        "sources": {
+          "github": 3,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 1,
+          "x": 13,
+          "youtube": 10
+        },
+        "status": "sampled"
       }
     ],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Personal Financial Advisors",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/13-2052/raw/linkedin_l4.json"
-    }
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Personal Financial Advisors",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/13-2052/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "13-2052",
+        "query": "Personal Financial Advisors",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

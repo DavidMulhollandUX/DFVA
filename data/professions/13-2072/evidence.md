@@ -1,29 +1,36 @@
-# Deep Research Evidence Log: Loan Officers (13-2072)
+# Evidence log: Loan Officers (13-2072)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `13-2072-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Loan Officers] Professional Practice Framework and Digital Competency Guidelines for Loan Officers — https://www.psc.gov.au/standards/13-2072 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Loan Officers enforce non-delegable ethical accountability and human verification over algo..."
 
-> "National peak professional bodies and statutory regulators governing Loan Officers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Loan Officers — https://www.jobsandskills.gov.au/research/13-2072 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Loan Officers heightens the demand for adaptive problem solving, interdisciplinary stakeholder commu..."
 
-- **Scope:** Australian practitioners in Loan Officers across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Loan Officers** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Loan Officers](https://www.psc.gov.au/standards/13-2072) — *What it measured:* National competency and ethics framework for Loan Officers
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (81 claims)
+- last30days declared sample: 81 items across 81 items.
+- Representative practitioner quotes:
+  - [github] AI agents: put David Chandler back into everything that was live
+AI agents: put David Chandler back into everything that...
+  - [github] 📌 Job Radar — master board (every open role, one place)
+Every alert-worthy open role the radar currently knows, best fir...
+  - [github] Add messages tab to loan file; fix account settings LocalProxy crash
 
-### Claim `13-2072-02` (L2 · scholarly)
+- loan_file: add Messages section — loan officers ...
+  - [github] [DMP 2026]: Agentic AI for Proactive Portfolio Management with Explainable Autonomy
+### Ticket Contents
 
-> "Automation of routine transactional and analytical tasks in Loan Officers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Loan Officers roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Loan Officers](https://www.jobsandskills.gov.au/research/13-2072) — *What it measured:* Labour market analysis of automation resilience across Loan Officers in Australia
-
----
+## Description
+...
+  - [github] Add MLO Intelligence Engine — Bloomberg Terminal for Loan Officers
+Bootstraps the full MLO Intelligence Engine on top of...

@@ -1,29 +1,42 @@
-# Deep Research Evidence Log: Financial Analysts (13-2051)
+# Evidence log: Financial Analysts (13-2051)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `13-2051-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Financial Analysts] Professional Practice Framework and Digital Competency Guidelines for Financial Analysts — https://www.psc.gov.au/standards/13-2051 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Financial Analysts enforce non-delegable ethical accountability and human verification over..."
 
-> "National peak professional bodies and statutory regulators governing Financial Analysts enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Financial Analysts — https://www.jobsandskills.gov.au/research/13-2051 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Financial Analysts heightens the demand for adaptive problem solving, interdisciplinary stakeholder ..."
 
-- **Scope:** Australian practitioners in Financial Analysts across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Financial Analysts** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Financial Analysts](https://www.psc.gov.au/standards/13-2051) — *What it measured:* National competency and ethics framework for Financial Analysts
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (61 claims)
+- last30days declared sample: 61 items across 61 items.
+- Representative practitioner quotes:
+  - [github] 💎 Knowledge Update & Optimization: 13 Jul 2026
+## 💎 Knowledge Update: 13 Jul 2026
 
-### Claim `13-2051-02` (L2 · scholarly)
+Processed **0** links.
 
-> "Automation of routine transactional and analytical tasks in Financial Analysts heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+⚠️ **Detailed...
+  - [github] 📌 Job Radar — master board (every open role, one place)
+Every alert-worthy open role the radar currently knows, best fir...
+  - [github] 💎 Knowledge Update & Optimization: 18 May 2026
+## 💎 Knowledge Update: 18 May 2026
 
-- **Scope:** Entry-level and senior Financial Analysts roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Financial Analysts](https://www.jobsandskills.gov.au/research/13-2051) — *What it measured:* Labour market analysis of automation resilience across Financial Analysts in Australia
+Processed **14911** links.
 
----
+⚠️ **Deta...
+  - [github] 📈 AI Open Source Trends 2026-07-22
+# AI Open Source Trends 2026-07-22
+
+> Sources: GitHub Trending + GitHub Search API | ...
+  - [github] Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2026 for Kerala's IT Professionals
+![Blog...
