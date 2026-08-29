@@ -1,29 +1,45 @@
-# Deep Research Evidence Log: Human Resources Assistants, Except Payroll and Timekeeping (43-4161)
+# Evidence log: Human Resources Assistants, Except Payroll and Timekeeping (43-4161)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `43-4161-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Human Resources Assistants, Except Payroll and Timekeeping] Professional Practice Framework and Digital Competency Guidelines for Human Resources Assistants, Except Payroll and Timekeeping — https://www.psc.gov.au/standards/43-4161 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Human Resources Assistants, Except Payroll and Timekeeping enforce non-delegable ethical ac..."
 
-> "National peak professional bodies and statutory regulators governing Human Resources Assistants, Except Payroll and Timekeeping enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Human Resources Assistants, Except Payroll and Timekeeping — https://www.jobsandskills.gov.au/research/43-4161 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Human Resources Assistants, Except Payroll and Timekeeping heightens the demand for adaptive problem..."
 
-- **Scope:** Australian practitioners in Human Resources Assistants, Except Payroll and Timekeeping across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Human Resources Assistants, Except Payroll and Timekeeping** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Human Resources Assistants, Except Payroll and Timekeeping](https://www.psc.gov.au/standards/43-4161) — *What it measured:* National competency and ethics framework for Human Resources Assistants, Except Payroll and Timekeeping
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (74 claims)
+- last30days declared sample: 74 items across github=13, grounding=0, hackernews=24, reddit=5, x=22, youtube=1.
+- Representative practitioner quotes:
+  - [github] KDS Mission Control — single communication thread
+# KDS Mission Control — Single Communication Thread
 
-### Claim `43-4161-02` (L2 · scholarly)
+## Purpose
 
-> "Automation of routine transactional and analytical tasks in Human Resources Assistants, Except Payroll and Timekeeping heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+This ...
+  - [github] Revise AI policy
+## Moderation and governance note
 
-- **Scope:** Entry-level and senior Human Resources Assistants, Except Payroll and Timekeeping roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Human Resources Assistants, Except Payroll and Timekeeping](https://www.jobsandskills.gov.au/research/43-4161) — *What it measured:* Labour market analysis of automation resilience across Human Resources Assistants, Except Payroll and Timekeeping in Australia
+This policy was primarily authored by Alice (words-lady in-chief),...
+  - [github] Require disclosure of genAI usage in ai policy
+changes:
 
----
+1. added the following line to the genAI policy:
+  > ~~2. **...
+  - [github] [BUG] Login no more possible, Android App still works
+<!-- Please READ THIS FIRST
+
+Before opening a new issue, please ch...
+  - [github] Proposal: Architecture & Codebase Structure v3
+# Odysseus — Architecture & Implementation Document
+
+> **Status:** v3 — u...

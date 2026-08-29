@@ -1009,6 +1009,342 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l448",
+      "text": "Review Officer \u2014 Department of Justice and Community Safety, Victoria (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Justice and Community Safety, Victoria",
+          "title": "Review Officer",
+          "url": "https://www.linkedin.com/jobs/view/4453674377",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l449",
+      "text": "Screening Case Management Officer \u2014 Department of Education, Western Australia (Greater Perth Area). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education, Western Australia",
+          "title": "Screening Case Management Officer",
+          "url": "https://www.linkedin.com/jobs/view/4451191296",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l450",
+      "text": "Employment Service Roles - Recruitment Information Session \u2014 atWork Australia (Wishart, Queensland, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "atWork Australia",
+          "title": "Employment Service Roles - Recruitment Information Session",
+          "url": "https://www.linkedin.com/jobs/view/4278707426",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l451",
+      "text": "Security and Safety Officer \u2014 Department of Justice and Community Safety, Victoria (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Justice and Community Safety, Victoria",
+          "title": "Security and Safety Officer",
+          "url": "https://www.linkedin.com/jobs/view/4454378407",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "Client Intake Officer \u2014 Big Smile Services (Toowoomba, Queensland, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Big Smile Services",
+          "title": "Client Intake Officer",
+          "url": "https://www.linkedin.com/jobs/view/4431979543",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l453",
+      "text": "Employment Service Roles - Recruitment Information Session \u2014 atWork Australia (Melbourne, Victoria, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "atWork Australia",
+          "title": "Employment Service Roles - Recruitment Information Session",
+          "url": "https://www.linkedin.com/jobs/view/4274277315",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Recruitment and Assessment Officer \u2014 Centacare Catholic Country SA (Whyalla, South Australia, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Centacare Catholic Country SA",
+          "title": "Recruitment and Assessment Officer",
+          "url": "https://www.linkedin.com/jobs/view/4456861620",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "USCG License Application Review Analyst \u2014 Mariner Credential Service Government (Cross Creek & Review, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mariner Credential Service Government",
+          "title": "USCG License Application Review Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4448964301",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Eligibility Officer \u2014 EML Group (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "EML Group",
+          "title": "Eligibility Officer",
+          "url": "https://www.linkedin.com/jobs/view/4414731554",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "Employment Consultant \u2014 APM (Canberra, Australian Capital Territory, Australia). Posted 23 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "APM",
+          "title": "Employment Consultant",
+          "url": "https://www.linkedin.com/jobs/view/4457648346",
+          "date": "23 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l558",
+      "text": "Phase 05: TUI Dashboard Localization\n## Summary\n\n**Phase 05: TUI Dashboard Localization**\n**Goal:** Add Turkish string support to the Go TUI Dashboard.\n**Status:** Verified \u2713\n\nAdded complete, zero-dependency static localization support to the Career Ops dashboard (`main.go`, `pipeline.go`, `viewer.go`, `progress.go`).\n\n## Changes\n\n###\nWelcome to career-ops, @uelkerd! Thanks for your first PR.\n\nA few things to know:\n- Tests will run automatically \u2014 check the status below\n- Make sure you've linked\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Phase 05: TUI Dashboard Localization\n## Summary\n\n**Phase 05: TUI Dashboard Local\u2026",
+          "url": "https://github.com/d-ulker/career-ops/pull/8",
+          "date": "2026-07-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "Atack card\u00edaco permanente\nhola mundo : adan ema andrade gregorio rodrigez gonzalez ulices rodrigez gonzalez  erick ema andrade amelia ema andrade adan ema andrade gregorio rodrigez gonzalez import numpy as np\nimport matplotlib.pyplot as plt\nfrom matplotlib.animation import FuncAnimation\nimport time\nimport random\n\nclass Simul\n\"postmeasles\" \"postmortem\" \"posttransplant\" \"posttrauma\" \"postuler\" \"posz\u00f3ster\" \"pos\u00e9\" \"pos\u00e9es\"\n \"pos\u00e9s\" \"potencia\" \"potenciales\" \"potencialmente\" \"potentiel\" \"pourrait\" \"po\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Atack card\u00edaco permanente\nhola mundo : adan ema andrade gregorio rodrigez gonzal\u2026",
+          "url": "https://github.com/yashpatel48/Heart-Attack-Prediction-ML/issues/1",
+          "date": "2026-03-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "Spiraling ever since AI took my tech job\nSighh... I (31F) moved in with my bf (28M) of 5 months to save money (we had known each other around 1 year) while working remotely. I was making $100K (my dream salary) and moving in so I could pay down my student loans from Uni. (Around 60-$80K). I was doing data analytics for a supply chain company. He lives in a very small town 1.5 hrs outside of Chicago. I say this because I have to drive 20 mins either direction for a grocery store whereas I was liv\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Spiraling ever since AI took my tech job\nSighh... I (31F) moved in with my bf (2\u2026",
+          "url": "https://www.reddit.com/r/GirlDinnerDiaries/comments/1vzgmig/spiraling_ever_since_ai_took_my_tech_job/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "Writing formats I can no longer read because AI has beaten them to death\nI don\u2019t even care anymore whether these posts are *actually* AI-generated. The problem is that there\u2019s now a very specific style of internet writing that instantly makes my brain refuse to continue reading. You know the one. Actually, no. You *feel* the one. See? I\u2019m already doing it. Here is my current collection of writing formats that need to be put on administrative leave: --- **1. The hostage-negotiation reveal** Do yo\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Writing formats I can no longer read because AI has beaten them to death\nI don\u2019t\u2026",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vlddcq/writing_formats_i_can_no_longer_read_because_ai/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "How to Use AI to Prepare for An Interview | Claude (Prompt Included)\nIn this video I build an Interview Prep Coach you can run for free. Paste one prompt and it produces a full interview guide for a specific role:\n\n\u2714\ufe0f A role summary and what the company is actually screening for\n\u2714\ufe0f 10\u201315 core competencies the interview will test\n\u2714\ufe0f Likely questions, plus why each one gets asked and what it's measuring\n\u2714\ufe0f A response framework for each, with sample answers drawn from your own resume\n\u2714\ufe0f Personaliza\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How to Use AI to Prepare for An Interview | Claude (Prompt Included)\nIn this vid\u2026",
+          "url": "https://www.youtube.com/watch?v=lVzx1VzjMdg",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "Design an AI Coding Agent \u2014 System Design Interview (Staff-Level, 2026)\nTake a frontier model, hand it a bug, and it fails roughly two times out of three. Wrap that same model in the right loop and it reads the repo, edits the files, runs the tests, and opens a clean pull request. A coding agent is not a smarter model \u2014 it's a loop: retrieve the right code, make a precise edit, verify, and repeat. Here's the full staff-level breakdown for the 2026 AI system design interview.\n\nIn this deep dive:\n\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Design an AI Coding Agent \u2014 System Design Interview (Staff-Level, 2026)\nTake a f\u2026",
+          "url": "https://www.youtube.com/watch?v=rnWZE8oI8cI",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1039,14 +1375,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Interviewers, Except Eligibility and Loan",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/43-4111/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Interviewers, Except Eligibility and Loan",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/43-4111/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "43-4111",
+        "query": "Interviewers, Except Eligibility and Loan",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1060,9 +1407,23 @@
           "youtube": 2
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 6,
+        "sources": {
+          "github": 3,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 2,
+          "x": 14,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
