@@ -28,3 +28,20 @@ Walks 17 of the 402 audit...
   - [hackernews] Tell HN: Man, AI is killing my brain...
   - [hackernews] Privacy risks from medical AI tools are not shared equally...
   - [hackernews] What breaks in production AI workflows?...
+
+## L1 — 49-9062
+- Therapeutic Goods Administration: Medical devices — https://tga.gov.au/products/medical-devices
+- Productivity Commission: Submission 121 - Department of Health - Right to Repair — https://assets.pc.gov.au/__data/assets/pdf_file/0011/272909/sub121-repair.pdf
+
+## L1 — 49-9062
+- Sydney Children's Hospitals Network: Management of Biomedical Equipment (Policy 2019-125 v2.0) — https://resources.schn.health.nsw.gov.au/policies/policies/pdf/2019-125.pdf
+- Intertek Inform: AS/NZS 3551:2004 (superseded by 2024 edition) — https://intertekinform.com/en-au/standards/as-nzs-3551-2004-116927_saig_as_as_244547
+
+## L1 — 49-9062
+- Energy Safe Victoria: Prescribed and non-prescribed electrical work — https://esv.vic.gov.au/certificates-electrical-safety/obligations-and-guidelines/prescribed-and-non-prescribed-work
+
+## L2 — 49-9062
+- arXiv: Empowering Medical Equipment Sustainability in Low-Resource Settings: An AI-Powered Diagnostic and Support Platform for Biomedical Technicians — https://arxiv.org/pdf/2601.16967
+
+## L2 — 49-9062
+- Jobs and Skills Australia: Our Gen AI Transition: Implications for Work and Skills (Generative AI Capacity Study) — https://jobsandskills.gov.au/publications/generative-ai-capacity-study-report

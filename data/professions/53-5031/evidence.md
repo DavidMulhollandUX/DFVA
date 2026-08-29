@@ -40,3 +40,18 @@ Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn
 ## Problem
 
 AI subscription reports had no reliable...
+
+## L1 — 53-5031
+- Australian Maritime Safety Authority: Engineer class 2 (Certificate of Competency) — https://amsa.gov.au/node/10477/printable/print
+- Australian Visa Online: Ship's Engineer Visa Pathway Australia 2026 (ANZSCO 231212) — https://australianvisaonline.com/occupations/ships-engineer-visa-pathway-australia
+
+## L1 — 53-5031
+- Australian Maritime Safety Authority: Engineer Watchkeeper Certificate of Competency — https://amsa.gov.au/sites/default/files/Engineer%20Watchkeeper.pdf
+- Wish To Sail (maritime certification guide): Australia Maritime Certification Guide 2026 — STCW & AMSA Endorsement — https://wishtosail.com/country/australia
+
+## L2 — 53-5031
+- Transport Reviews (Taylor & Francis): A human-centred review on maritime autonomous surfaces ships: impacts, responses, and future directions — https://www.tandfonline.com/doi/full/10.1080/01441647.2024.2325453
+- Journal of Marine Science and Engineering (MDPI): Future Directions for Human-Centered Transparent Systems for Engine Room Monitoring in Shore Control Centers — https://mdpi.com/2077-1312/10/1/22
+
+## L2 — 53-5031
+- Jobs and Skills Australia: Our Gen AI Transition: Implications for Work and Skills (Generative AI Capacity Study) — https://jobsandskills.gov.au/publications/generative-ai-capacity-study-report

@@ -9,8 +9,8 @@
     "from": "2025-08-01",
     "to": "2026-08-24"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-28",
   "programs": [],
   "claims": [
     {
@@ -486,27 +486,6 @@
           "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l526",
-      "text": "Show HN: Vektorgeist- A platform for AI operators and their agent's",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Vektorgeist- A platform for AI operators and their agent's",
-          "url": "https://vektorgeist.com/",
-          "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
         }
       ],
@@ -1293,6 +1272,671 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l101",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "text": "Process equipment operators work under state WHS regulations and machinery safety standards (AS 4024 Safety of Machinery); in food, pharmaceutical and allied sectors they are additionally bound by the Australia New Zealand Food Standards Code (FSANZ) and GMP/HACCP requirements.",
+      "sources": [
+        {
+          "publisher": "training.gov.au",
+          "title": "MSL933003 Apply critical control point requirements",
+          "url": "https://training.gov.au/Training/Details/MSL933003",
+          "date": "",
+          "whatItMeasured": "Covers ANZFS Code, Australian GMP for medicinal products, GLP, and state/territory WHS legislation for production operators"
+        },
+        {
+          "publisher": "Harrison Barratt (food & beverage compliance)",
+          "title": "From Floor to Fork: Food and Beverage Safety and Compliance Essentials",
+          "url": "https://harrisonbarratt.com.au/blog/from-floor-to-fork-food-and-beverage-safety-and-compliance-essentials-every-australian-employer-and-worker-must-know",
+          "date": "",
+          "whatItMeasured": "Dual WHS + FSANZ framework; machinery guarded to AS 4024; HACCP training for production/QA roles"
+        }
+      ],
+      "scope": "Binds operators in regulated process sectors (food/pharma/chemical); the occupation is governed by workplace safety and sector standards rather than a single professional licence.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Sources real (training.gov.au, compliance firm). Population: AU process operators in regulated sectors. Window: current (WHS Regulation 2025). Survives."
+    },
+    {
+      "id": "l201",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "text": "Industrial automation (IIoT, SCADA/DCS, AI process control) has already absorbed routine monitoring and parameter-setting tasks in process plants; the World Economic Forum projects a net global gain of 78 million jobs by 2030 (85M displaced, 170M created), with evidence that AI augments skilled technical roles.",
+      "sources": [
+        {
+          "publisher": "IIoT-World",
+          "title": "The Future of Industrial Remote Work (Part 4)",
+          "url": "https://iiot-world.com/smart-manufacturing/future-industrial-remote-work-critical-perspectives-faq-part-4",
+          "date": "",
+          "whatItMeasured": "WEF: 78M net job gain by 2030; industrial sector endorses 'AI augments workers', evidence supports it for skilled trades"
+        },
+        {
+          "publisher": "AI Job Checker",
+          "title": "Food Processing Machine Operators: AI Risk Analysis",
+          "url": "https://aijobchecker.com/jobs/food-and-tobacco-roasting-baking-and-drying-machine-operators-and-tenders",
+          "date": "",
+          "whatItMeasured": "Commercial model: 79% automation displacement risk from IIoT/SCADA/CV, not generative AI"
+        }
+      ],
+      "scope": "Global manufacturing; routine monitoring most exposed, fault diagnosis/judgment retained. AI Job Checker is a commercial risk model, not peer-reviewed.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Sources real (IIoT-World industry analysis; aijobchecker commercial). Population: global process operators. Window: 2024-26. Scope applied; one source non-scholarly."
+    },
+    {
+      "id": "l202",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "text": "Jobs and Skills Australia's Generative AI Capacity Study (August 2025) found GenAI augments rather than replaces Australian workers: 79% experience only minor automation of small task portions, with high-skilled and manual trades augmenting most.",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Implications for Work and Skills (Generative AI Capacity Study)",
+          "url": "https://jobsandskills.gov.au/publications/generative-ai-capacity-study-report",
+          "date": "2025-08-14",
+          "whatItMeasured": "JSA Aug 2025 study: GenAI augments 93% of uses; 79% of workers minor task automation"
+        }
+      ],
+      "scope": "National workforce study, not an occupation-specific assessment of process operators; supports an augmentation posture for technical trades.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (JSA primary). Population: Australian workers overall. Window: Aug 2025. Not occupation-specific; scope applied."
+    },
+    {
+      "id": "l565",
+      "text": "feat: add monster item drops and advanced equipment\n## Base / head\n\n- Base: `release/2.7.0` at `9ccd257400d078cfceb24cdaee0a4497d9fcd65e`\n- Head: `codex/ver-2.7.0-item-foundation` at `6b51daca62e7b291f3ee21f6a8108f6bda9d0fd0`\n- Application version is unchanged.\n\n## Immutable Ruleset v17\n\n- Publishes `hakoniwa-2s-plus-v17` / version `17` / checksum `8",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: add monster item drops and advanced equipment\n## Base / head\n\n- Base: `rel…",
+          "url": "https://github.com/Mamiki765/hakoniwa-world/pull/95",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "feat(agent-equipment): add authored proposal commands\n<details>\n<summary><picture><img alt=\"DIFF\" src=\"https://img.shields.io/badge/DIFF-57606A?style=for-the-badge\" height=\"16\"></picture>&nbsp;<picture><img alt=\"IMPL: 5640 additions, 317 deletions\" src=\"https://img.shields.io/badge/IMPL-%2B5640%20%E2%88%92317-0969DA?style=flat\" height=\"16\"></picture> <",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(agent-equipment): add authored proposal commands\n<details>\n<summary><pictur…",
+          "url": "https://github.com/nisavid/dotfiles/pull/83",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "feat(router): add block-weighted KV hit metrics\n## Overview:\r\n\r\nThe current equipment of router metrics complicates the analysis of routing efficiency, as it does not provide predictions of the routing cache hit in terms close to tokens.\r\n\r\nAdd block-weighted KV hit metrics alongside the existing request-weighted histograms, enabling accurate com",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(router): add block-weighted KV hit metrics\n## Overview:\r\n\r\nThe current equi…",
+          "url": "https://github.com/ai-dynamo/dynamo/pull/13169",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "Crystallize Cooling Omega as a stateful thermal response policy\n## **User description**\nCRYSTALLIZATION-MANDATE work unit on current `master@9cc88f8f0c8f47a2960b8722022d5007711b921c`.\n\nThis replaces a conflicted public surface that mixed a small local normalized-flow model with unsupported backup/emergency cooling, automatic failover, hardware shutdown, live hea",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Crystallize Cooling Omega as a stateful thermal response policy\n## **User descri…",
+          "url": "https://github.com/GlacierEQ/xai-colossus-cooling-omega/pull/3",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / 路由地址示例\n\n```routes\n/kqed\n/kqed/arts\n/kqed/news\n/kqed/science\n/kqed/forum\n/kqed/mindshift\n/kqed/perspectives\n/kqed/education\n```\n\n## New RSS Route Checklist / 新 RSS 路由检查表\n\n- [x] New Route / 新的路由\n    - [x] Follows [Script St\nSuccessfully [generated](https://github.com/DIYgod/RSSHub/actions/runs/32766205456) as following:\n\n<details>\n<summary><a href=\"http://localhost:1200/kqed\">http://localhost:1200/…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the…",
+          "url": "https://github.com/DIYgod/RSSHub/pull/23105",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "Handbook: franchise model, the foodservice entitlement, and where a customer starts\nDocumentation only — no code, no schema, no functions. Companion to melt-dashboard #337 / #339 and apbg-gateway #61, whose work the handbook had no record of anywhere in the chapters or the SOPs.\n\n## Chapter 11 — Companion Apps\n\nThe Melt section still described a **single-tenant portal for one accou",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Handbook: franchise model, the foodservice entitlement, and where a customer sta…",
+          "url": "https://github.com/skypace/apbg-billing/pull/395",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "fix(audit): implement architecture-audit F1-F8 — LLM whitelist, memory scoping, healing events, mem0 bridge\n## Summary\nImplements all 8 findings from the agent-architecture-audit fix plan (F1-F8) with full local validation per SAFE PUSH MODE.\n\n| # | Finding | Fix |\n|---|---|---|\n| F2 | mem0 bridge dead import | New \\\fireai/infrastructure/mem0_workflow_bridge.py\\ — bounded hint enrichment, fail-safe, read-",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "fix(audit): implement architecture-audit F1-F8 — LLM whitelist, memory scoping, …",
+          "url": "https://github.com/ahmdelbaz28-ux/BAZspark/pull/284",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "Expand blocklist: Add major Russian state-backed and RКN-compliant Autonomous Systems (ASNs)\n## The Threat: They won't just block us — they are trying to eliminate all VPNs\n\nWe need to act immediately and aggressively expand our blocking scope. The digital landscape in Russia has fundamentally changed: major tech corporations, state-backed ecosystems, and financial institutions are no long\nI strongly oppose this kind of arbitrary approach, as it is not better than what Roskomnadzor is doing. The…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Expand blocklist: Add major Russian state-backed and RКN-compliant Autonomous Sy…",
+          "url": "https://github.com/C24Be/AS_Network_List/issues/28",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "Nvidia Rubin architecture preview\n## TL;DR\n\nNVIDIA recently published new material on the Rubin architecture in [Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/ \"Inside NVIDIA Rubin GPU Architecture: Powering",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Nvidia Rubin architecture preview\n## TL;DR\n\nNVIDIA recently published new materi…",
+          "url": "https://github.com/zartbot/blog/issues/11",
+          "date": "2026-07-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.\n\n\n\n\n# THE LAST PHYSICIAN\n\nIn the year 2115, humanity has achieved what previous generations believed impossible.\n\nDisease has been conquered. Cancer, dementia, heart failure, sepsis, and countless other k",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical…",
+          "url": "https://github.com/badbeaver88/game/issues/19",
+          "date": "2026-06-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "NTCode: Bring the power of scripting to the station. Again.\n## About The Pull Request\r\n\r\nOnce upon a time, there was a language called NTSL, which allowed you to do amazing things with telecommunications. Unfortunately, the developer left, and the language was removed from the game. But today I want to introduce a new language called NTCode (yes, I couldn't\nI've a few questions. \r\n\r\nTo begin with, I think this may be a cool feature (with some strings attached), however it seems its only applicat…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "NTCode: Bring the power of scripting to the station. Again.\n## About The Pull Re…",
+          "url": "https://github.com/tgstation/tgstation/pull/96793",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "docs(sitestacker-parity): Phase 5 governance — ADRs 0026–0030, OpenSpec runtime-contract requirement, glossary + doc wiring\nCloses #521 (Phase 5 (Public Website Runtime Contract) — T1 docs ticket; parent epic #520).\n\n## Summary\n\nAuthors the Phase 5 governance layer from the settled PRD (`docs/prds/sitestacker-parity/phase-05-public-website-runtime-contract.md`) — no decisions re-opened, docs only:\n\n- **Five ADRs** in the",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "docs(sitestacker-parity): Phase 5 governance — ADRs 0026–0030, OpenSpec runtime-…",
+          "url": "https://github.com/Asymmetric-al/core/pull/962",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "Add managed bot players with cast\n## Summary\r\n- add a TFS 1.8 BotManager that spawns registered bot characters through IOLoginData and keeps active bots owned by shared_ptr\r\n- expose Game/Player Lua bindings plus /bot GOD commands for register, spawn, despawn, cast, list, and auto-spawn\r\n- add bot_players schema, migration 55->56, m",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add managed bot players with cast\n## Summary\r\n- add a TFS 1.8 BotManager that sp…",
+          "url": "https://github.com/Mateuzkl/forgottenserver-downgrade-1.8-8.60/pull/159",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "Sub $5B AI Picks and shovels reporting Aug 4th AMC\nTONIGHT — AMC Aug 4 MEC ($0.54B, Coil 9) — Mayville Engineering is North America&#39;s largest metal fabricator, and it&#39;s in the middle of a pivot that the street hasn&#39;t caught up to. The old business was commercial vehicles and powersports — cyclical, shrinking. The new business is data center electrical infrastructure: switchgear, busway, PDU enclosures, cooling assemblies. The Accu-Fab acquisition in Q3 2025 brought DC capabilities an…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Sub $5B AI Picks and shovels reporting Aug 4th AMC\nTONIGHT — AMC Aug 4 MEC ($0.5…",
+          "url": "https://www.reddit.com/r/TheBuildout/comments/1vfjh2b/sub_5b_ai_picks_and_shovels_reporting_aug_4th_amc/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "AI IS NO LONGER THE FUTURE. IT IS ALREADY CHANGING THE WORLD. 🤖",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI IS NO LONGER THE FUTURE. IT IS ALREADY CHANGING THE WORLD. 🤖",
+          "url": "https://x.com/mistersx16/status/2093639939904741617",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "Leaving an industry is not the same as starting over.\n\nHypothetical: a process engineer has spent 12 years in automotive manufacturing and wants out.\n\nAn OffLadder Career Stress Test would ignore titles for a minute and split the work.\n\nAI is likely to absorb more first-pass downtime analysis, first drafts of SOPs and routine root-cause summaries.\n\nWhat becomes more valuable is designing the right experiment, earning operator trust, balancing quality with speed and safety, and owning whether the",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Leaving an industry is not the same as starting over.\n\nHypothetical: a process e…",
+          "url": "https://x.com/offladder/status/2093528981824053495",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "text": "𝗧𝗵𝗲 𝗛𝗮𝗿𝗱 𝗣𝗮𝗿𝘁 𝗢𝗳 𝗔𝗜 𝗜𝘀𝗻’𝘁 𝗔𝗹𝘄𝗮𝘆𝘀 𝗨𝘀𝗶𝗻𝗴 𝗧𝗵𝗲 𝗠𝗼𝗱𝗲𝗹. 𝗜𝘁’𝘀 𝗙𝗶𝗻𝗱𝗶𝗻𝗴 𝗧𝗵𝗲 𝗥𝗶𝗴𝗵𝘁 𝗢𝗻𝗲.\n\nAnyone who uses several AI tools regularly knows the small frustrations.\n\nOne model is better at coding.\n\nAnother handles long documents nicely.\n\nAnother is useful for images or multimodal work.\n\nThen each one has its own interface, API, pricing structure, limits and workflow.\n\nNone of this sounds particularly difficult until you are using AI every day.\n\nThen the switching starts to become part of the work itself.\n\nTh",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "𝗧𝗵𝗲 𝗛𝗮𝗿𝗱 𝗣𝗮𝗿𝘁 𝗢𝗳 𝗔𝗜 𝗜𝘀𝗻’𝘁 𝗔𝗹𝘄𝗮𝘆𝘀 𝗨𝘀𝗶𝗻𝗴 𝗧𝗵𝗲 𝗠𝗼𝗱𝗲𝗹. 𝗜𝘁’𝘀 𝗙𝗶𝗻𝗱𝗶𝗻𝗴 𝗧𝗵𝗲 𝗥𝗶𝗴𝗵𝘁 𝗢𝗻𝗲.\n\nA…",
+          "url": "https://x.com/Basil_dom/status/2093738461815599602",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l583",
+      "text": "The full AI buildout (and what I'm investing in here):",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The full AI buildout (and what I'm investing in here):",
+          "url": "https://x.com/__Con_/status/2071986992091435386",
+          "date": "2026-06-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l584",
+      "text": "How to coordinate \"the swarm\" of AI Agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "How to coordinate \"the swarm\" of AI Agents",
+          "url": "https://x.com/FernandoTN/status/2093488963730489841",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l585",
+      "text": "Why Local AI Is the Next Big Computing Revolution",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Why Local AI Is the Next Big Computing Revolution",
+          "url": "https://x.com/manojnandanwar_/status/2093583120805318767",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l586",
+      "text": "AI WEEKLY UPDATE — Saturday, 29 August 2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI WEEKLY UPDATE — Saturday, 29 August 2026",
+          "url": "https://x.com/MansaTesla/status/2093477283768013046",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l587",
+      "text": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
+          "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l588",
+      "text": "Claude AI Social Media Agent Automates Nine Platforms From One Prompt",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Claude AI Social Media Agent Automates Nine Platforms From One Prompt",
+          "url": "https://x.com/JulianGoldieSEO/status/2093431174052171976",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l589",
+      "text": "When AI Spills into the Physical World - Why Teledyne Could Benefit",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "When AI Spills into the Physical World - Why Teledyne Could Benefit",
+          "url": "https://x.com/BegYouInvest/status/2086816820913119541",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l590",
+      "text": "The State of Artificial Intelligence in 2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The State of Artificial Intelligence in 2026",
+          "url": "https://x.com/neuralbroker/status/2070925296753377640",
+          "date": "2026-06-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l591",
+      "text": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the world’s largest AI data centers, using thermal drone footage to reveal the hidden pollution powering the AI boom. As companies race to build the future of artificial intelligence, residents and experts warn that fossil fuels, secrecy, and weak regulation may be putting communities at risk.\n\nYou can learn more about @floodlightnews  and its mission by visiting https://floodlightnews.org/\n\nSubscribe to Floodlight's YouTub…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the wor…",
+          "url": "https://www.youtube.com/watch?v=5p426fSlYH4",
+          "date": "2026-05-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "text": "The Global Helium Crisis: The Secret Ingredient Killing the AI Boom\nHelium cools the machines that make the chips that power artificial intelligence.\n\nAdvanced semiconductors -- the kind in NVIDIA's AI accelerators -- are manufactured using extreme ultraviolet lithography. That process prints circuits at scales below 7 nanometers. During lithography, wafers have to be cooled, process chambers have to be purged of chemical residues, and vacuum systems have to be tested to tolerances measured in p…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Global Helium Crisis: The Secret Ingredient Killing the AI Boom\nHelium cools…",
+          "url": "https://www.youtube.com/watch?v=KHzsLXwGq7M",
+          "date": "2026-04-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1322,7 +1966,22 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "source": "Factiva/OpenAthens",
+        "status": "auth-expired",
+        "lane": "L3",
+        "date": "2026-08-30",
+        "note": "OpenAthens session expired 2026-08-30; re-run scripts/factiva_reauth.py to refresh"
+      },
+      {
+        "source": "last30days:grounding",
+        "status": "failed",
+        "lane": "L5",
+        "date": "2026-08-30",
+        "note": "grounding source failed during this L5 run (coverage gap, not evidence of quiet)"
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1347,9 +2006,23 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 28,
+        "sources": {
+          "github": 14,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 1,
+          "x": 15,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -9,8 +9,8 @@
     "from": "2025-08-01",
     "to": "2026-08-24"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-28",
   "programs": [],
   "claims": [
     {
@@ -1085,27 +1085,6 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l554",
-      "text": "2026 Best Remote Jobs - Fully Remote Companies Hiring\nFlexJobs Has 100% Verified Jobs, Resume Help, Career Tools. Sign Up Now With 14-Day Trial. Find & Apply To Expert-Verified Remote Jobs Hiring Immediately Near You & Across The Globe",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "jobs",
-          "title": "2026 Best Remote Jobs - Fully Remote Companies Hiring\nFlexJobs Has 100% Verified…",
-          "url": "https://duckduckgo.com/y.js?ad_domain=flexjobs.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=5xmAxiHG9LNNloP6tRKw9ArZr8mLl5r3AD7503Ht57Mu0khyxtdTRnEHSvvOyYHVf4roybTJhhPzrWmlohTk3csHj59R4KMafKDbmqOdhk0MyQoWGhyB_C%2DCVi7fjrkfDLflEKJE0nqy6u1lSc4UBgKmMwA5pVQ6_bKO8w4Q9b0.wmZFJir5eD9jglGgamhhzA&rut=013424a5e9f46d2d916597f4f9997883f7ca8965e8cfcd0394b3c08ba6fdb541&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8pPb6fXt_tWI1wgQvLxshaDVUCUxSUPpAhLHIu6NdoxZNZ8HGz9F8IG6z2fgQvzF5hlSZ4dA2oUnrBmLz9ZUUfFwHpfLt1A9IhY3uz4KOWqF0YyCyyXdQJzUORrZ23s8SfjK6UUUpH_KifUrQG4%2DpkyvQs79L21clTn_c7eJWRNDkIo0NEkLvW12R3DE51vNCDarbJoSmK6wIYHMBzKyeK1dZ5Wc%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cuZmxleGpvYnMuY29tJTJmbHAlMmZyZW1vdGUtam9iczElM2ZuZXR3b3JrJTNkcyUyNmRldmljZSUzZGMlMjZhZHBvc2l0aW9uJTNkJTI2YWRncm91cGlkJTNkMTI2ODgzODA2NTAyNDM2MCUyNnBsYWNlbWVudCUzZCUyNmFkaWQlM2QlMjZtc2Nsa2lkJTNkNDI0ODM1OTk0ZjA4MWIwNmVmZWQ1ZjBiNWFhNTVmMjIlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2QlMjU1QnNlYXJjaCUyNTVEJTI1MjBjYW4lMjUyRnVrJTI1MkZhdXMlMjUyRm56X25iX3dmaF9iZXRhJTI2dXRtX3Rlcm0lM2RmaW5kYWpvYiUyNnV0bV9jb250ZW50JTNkd29yayUyNTIwZnJvbSUyNTJGYXQlMjUyMGhvbWU%26rlid%3D424835994f081b06efed5f0b5aa55f22&vqd=4-169070484170584817708326771537218920878&iurl=%7B1%7DIG%3DCF0DFB58C82947E6A5D5942C0DBAD8F6%26CID%3D18C446A1CD4163473BFD5162CC87623E%26ID%3DDevEx%2C5042.1",
-          "date": "",
-          "whatItMeasured": "last30days L5 practitioner discourse (jobs); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
       "id": "l555",
       "text": "Ship Engineering Jobs in All Melbourne VIC - Jun 2026 | SEEK\nFind your ideal job at SEEK with 424 Ship Engineering jobs found in All Melbourne VIC. View all our Ship Engineering vacancies now with new jobs added daily!",
       "lane": "L5",
@@ -1199,27 +1178,6 @@
           "publisher": "jobs",
           "title": "541 Ship Engineer jobs in Australia - LinkedIn\nToday's top 541 Ship Engineer job…",
           "url": "https://au.linkedin.com/jobs/ship-engineer-jobs",
-          "date": "",
-          "whatItMeasured": "last30days L5 practitioner discourse (jobs); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l560",
-      "text": "Job Search Australia - Find Your Dream Job Today!\nQuickly search more than 200k job openings from local employers who want to hire YOU!",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "jobs",
-          "title": "Job Search Australia - Find Your Dream Job Today!\nQuickly search more than 200k …",
-          "url": "https://duckduckgo.com/y.js?ad_domain=jobsearch.com.au&ad_provider=bingv7aa&ad_type=txad&click_metadata=1G5MYMNPQgrEO3tpzM9vvFi_uG%2DfDFMptJXwmU0%2D04C2DL180_biJibP3MGqxT2ElXKTvAnKI1IHsnunXW_wrqfjeKhCm%2DUBd8JI1iUYsdrcYfK%2Dqkv9nJhqII3ZZud6tg9QGvIghIWPdGAQ4DuNyjv_82Z2kAL8NHgAUGACaVU.Q3jv0Wgsox9hEWOb6FyEYA&rut=2602b49a6169a0b7028f3ab33b5b0bcdbcd5d5c58008c677644e796f870b2d7e&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8%2DMSwgb3e7hOkFtbZAa%2DJ5zVUCUzPzo7OMWh0mg_xU%2DgJzqXb4t8hpQG_y8Vzg9uVfqd2MT8ctC9JYrJ6maWryfnuPkmrHrErAyK%2DOaL%2D0XDTytwh6V97L1T3jF5h98GHg5mFIA7FkI_7Od2EKDz3E0QrQWNBpaP52dAC4oe4NrWcErJh%2DpcQi3BR7hb%2DruAoVpb6Nyk19kqJaEqoNFdUwI3UQqI%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cuam9ic2VhcmNoLmNvbS5hdSUyZiUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZGJpbmclMjZtc2Nsa2lkJTNkOGU2MTkyNmY4YTVkMTQ0MTMxZTZmOGZkOWZmMGFlYWI%26rlid%3D8e61926f8a5d144131e6f8fd9ff0aeab&vqd=4-147163657585620039892011869138297696952&iurl=%7B1%7DIG%3DCF0DFB58C82947E6A5D5942C0DBAD8F6%26CID%3D18C446A1CD4163473BFD5162CC87623E%26ID%3DDevEx%2C5037.1",
           "date": "",
           "whatItMeasured": "last30days L5 practitioner discourse (jobs); retrieved 2026-08-29"
         }
@@ -2028,6 +1986,447 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l101",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "text": "Ship engineers must hold an AMSA-issued Certificate of Competency under Marine Order 70 (Seafarer certification) 2014 and Marine Order 72 (Engineer officers) 2014, made under the Navigation Act 2012, aligned to the STCW Convention; AMSA reports only ~1,668 Ship's Engineers hold an Australian-issued certificate of competency.",
+      "sources": [
+        {
+          "publisher": "Australian Maritime Safety Authority",
+          "title": "Engineer class 2 (Certificate of Competency)",
+          "url": "https://amsa.gov.au/node/10477/printable/print",
+          "date": "",
+          "whatItMeasured": "CoC issued under Marine Order 70/72 2014, Navigation Act 2012, STCW-aligned; medical/sea-service/course requirements"
+        },
+        {
+          "publisher": "Australian Visa Online",
+          "title": "Ship's Engineer Visa Pathway Australia 2026 (ANZSCO 231212)",
+          "url": "https://australianvisaonline.com/occupations/ships-engineer-visa-pathway-australia",
+          "date": "2026",
+          "whatItMeasured": "Cites AMSA: only ~1,668 Ship's Engineers hold an Australian-issued certificate of competency"
+        }
+      ],
+      "scope": "Binds anyone serving on Australian-flagged vessels; the certificate of competency is a hard regulatory barrier to the occupation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Sources real (AMSA primary; visa summary citing AMSA). Population: AU ship engineers. Window: current. Survives."
+    },
+    {
+      "id": "l102",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "text": "Engineer certification aligns with the International Convention on Standards of Training, Certification and Watchkeeping for Seafarers (STCW), incorporated by reference under Marine Order 72; recognised marine surveyors or STCW CoC holders may serve, and remote operators are presently outside the STCW framework.",
+      "sources": [
+        {
+          "publisher": "Australian Maritime Safety Authority",
+          "title": "Engineer Watchkeeper Certificate of Competency",
+          "url": "https://amsa.gov.au/sites/default/files/Engineer%20Watchkeeper.pdf",
+          "date": "",
+          "whatItMeasured": "STCW Code Section A-III/1; approved short courses; AMSA oral examination required"
+        },
+        {
+          "publisher": "Wish To Sail (maritime certification guide)",
+          "title": "Australia Maritime Certification Guide 2026 — STCW & AMSA Endorsement",
+          "url": "https://wishtosail.com/country/australia",
+          "date": "2026",
+          "whatItMeasured": "STCW divides certification; remote operators currently outside STCW framework"
+        }
+      ],
+      "scope": "International convention; remote/autonomous operation currently sits outside STCW, a regulatory gap for shore-based monitoring.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Sources real (AMSA, maritime guide). Population: international/UA. Window: current. Survives."
+    },
+    {
+      "id": "l201",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "text": "Maritime Autonomous Surface Ships (MASS) research — a 2024 systematic review of 101 articles — finds automation shifts seafarer task contents and skills toward remote monitoring (shore control centres), but adoption is phased and STCW certification still applies only to onboard crew.",
+      "sources": [
+        {
+          "publisher": "Transport Reviews (Taylor & Francis)",
+          "title": "A human-centred review on maritime autonomous surfaces ships: impacts, responses, and future directions",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/01441647.2024.2325453",
+          "date": "2024",
+          "whatItMeasured": "Systematic review of 101 articles; MASS impacts seafarers' employment, task contents, skills"
+        },
+        {
+          "publisher": "Journal of Marine Science and Engineering (MDPI)",
+          "title": "Future Directions for Human-Centered Transparent Systems for Engine Room Monitoring in Shore Control Centers",
+          "url": "https://mdpi.com/2077-1312/10/1/22",
+          "date": "2022",
+          "whatItMeasured": "Engine-room monitoring moving to shore control centres; STCW excludes remote operators"
+        }
+      ],
+      "scope": "International maritime; phased adoption, not immediate displacement; ship engineers' core competency remains STCW-regulated.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Sources real (peer-reviewed). Population: global seafarers. Window: 2022-24. Scope applied."
+    },
+    {
+      "id": "l202",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "text": "Jobs and Skills Australia's Generative AI Capacity Study (August 2025) found GenAI augments rather than replaces Australian workers: 79% experience only minor automation of small task portions, with high-skilled and manual trades augmenting most.",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Implications for Work and Skills (Generative AI Capacity Study)",
+          "url": "https://jobsandskills.gov.au/publications/generative-ai-capacity-study-report",
+          "date": "2025-08-14",
+          "whatItMeasured": "JSA Aug 2025 study: GenAI augments 93% of uses; 79% of workers minor task automation"
+        }
+      ],
+      "scope": "National workforce study, not an occupation-specific assessment of ship engineers; supports an augmentation posture for technical maritime roles.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (JSA primary). Population: Australian workers overall. Window: Aug 2025. Not occupation-specific; scope applied."
+    },
+    {
+      "id": "l5101",
+      "text": "Add built-in Amp integration for agent status in tabs\n## Summary\n\nAdds zero-config Amp agent status tracking in cmux tabs, mirroring the existing Claude Code integration.\n\n### How it works\n\nWhen a user types `amp` inside a cmux terminal, the shell wrapper transparently:\n1. Auto-installs the bundled status plugin into `~/.config/amp/plugins/`\n2. Enables\n@HamptonMakes is attempting to deploy a commit to the **Manaflow** Team on [Vercel](https://vercel.com).\n\nA member of the Team first needs to [au…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add built-in Amp integration for agent status in tabs\n## Summary\n\nAdds zero-conf…",
+          "url": "https://github.com/manaflow-ai/cmux/pull/2007",
+          "date": "2026-03-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "Codex/perform exchange gateway gap analysis ee6iqh\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * Autodiscover (XML/SOAP/JSON), ActiveSync (EAS) and EWS calendar/folder support, CalDAV-backed calendar sync, Cloudflare Worker gateway and HTTP storage API, healthcheck endpo\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/settings/u…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Codex/perform exchange gateway gap analysis ee6iqh\n<!-- This is an auto-generate…",
+          "url": "https://github.com/Voornaamenachternaam/exchange_gateway/pull/1148",
+          "date": "2026-03-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "[Feature]: Locked Gherkin DSL -- Bridging Shannon-Kolmogorov Gap for ~~Proven~~ Demonstrated Accuracy Gains\n### Summary\n\nAI-Drafted, several HITL iterations, then edited:\n\nAdd AI-assisted generation of  locked Gherkin (`.feature`) files as a low-Kolmogorov-complexity DSL layer in GSD-2 — this single change turns GSD-2 from “statistically good” toward “algorithmically reliable” code generation.\n\n\n### Probl\n👋 Thanks for opening this issue!\n\nThis was automatically flagged for maintainer review.\n\n**…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[Feature]: Locked Gherkin DSL -- Bridging Shannon-Kolmogorov Gap for ~~Proven~~ …",
+          "url": "https://github.com/gsd-build/gsd-2/issues/2578",
+          "date": "2026-03-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra…",
+          "url": "https://www.reddit.com/r/HFY/comments/1vwpkvz/the_human_artificial_hivemind_part_641_a_new_set/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "“AI slop” is becoming a meaningless label when people use it for anything AI-assisted\nThere is a difference between criticizing bad generated output and treating the mere use of AI as proof that something is bad. That distinction is disappearing. A one-shot prompt that produces a brittle app full of fake functionality is slop. Fine. A developer using ChatGPT/Codex/agents to accelerate implementation while still controlling architecture, reviewing diffs, writing tests, validating security and deb…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "“AI slop” is becoming a meaningless label when people use it for anything AI-ass…",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpf50/ai_slop_is_becoming_a_meaningless_label_when/",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "Hierarchos Alpha v0.30: Toward a Vulkan-Native Recurrent AI Stack for Training, Inference, Memory, and Adaptive Computation\nMost modern language-model research assumes two things at once: a Transformer-like architecture and a CUDA-centered software stack. Hierarchos is an experiment in questioning both assumptions. Hierarchos is a recurrent, memory-augmented language-model architecture combining an RWKV-derived neural backbone, hierarchical Manager/Worker computation, adaptive computation time, …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Hierarchos Alpha v0.30: Toward a Vulkan-Native Recurrent AI Stack for Training, …",
+          "url": "https://www.reddit.com/r/ROCm/comments/1w0kepb/hierarchos_alpha_v030_toward_a_vulkannative/",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "AI-Assisted Writing is already here, myStar Trek TNG episode\nHello, I thought I&#39;d share this piece that could not have been done without Gemini/ChatGPT/Grok editing. Since April 19th, AI has allowed me to get all these ideas (290 writings, see Substack link in profile) that have been in my head for decades. It really does take out the friction and the output is like a Big Bang. I have run into the usual &quot;AI Slop&quot; and other pushback in other subreddits, but many of my pieces have fo…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI-Assisted Writing is already here, myStar Trek TNG episode\nHello, I thought I&…",
+          "url": "https://www.reddit.com/r/WritingWithAI/comments/1vhb455/aiassisted_writing_is_already_here_mystar_trek/",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "The Insane Complexity of the Semiconductor Global Supply Chain\nCheck out Genspark, an All-in-one AI Workspace that hit $250M ARR in just 12 months. New users can get a sign-up bonus + GetStarted bonus.\n\nhttps://www.genspark.ai/?utm_source=yt&utm_campaign=Micro\n\n#Genspark #WorkwithGenspark\n@GensparkProduct \n\n*********\nI'm on Spotify 👉 https://open.spotify.com/show/0qSzwHHHo7Hx9QbvzKHQAy?si=l9gQx_T6Tbuh2Kz84O-eng\n\n*******\n\nChapter Breakdown\n\n00:00 Intro\n02:20 Base Components\n06:57 Sponsor\n08:10 Th…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Insane Complexity of the Semiconductor Global Supply Chain\nCheck out Genspar…",
+          "url": "https://www.youtube.com/watch?v=Gj5liYnpTeM",
+          "date": "2026-05-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we’ll see by…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot…",
+          "url": "https://www.youtube.com/watch?v=aV26V1UvkJw",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "The Double Disruption : The Real Reason Agile Is Breaking in the AI Era\nEvery Agile ceremony you run was built on one assumption — that human effort is the unit of production. AI just broke it.\n\nIn 2001, seventeen software engineers got together and wrote twelve principles that became the Agile Manifesto. It was a real leap forward from waterfall delivery — plan less, adapt more, ship working software instead of documents nobody reads. Enterprises spent the better part of the next two decades tr…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Double Disruption : The Real Reason Agile Is Breaking in the AI Era\nEvery Ag…",
+          "url": "https://www.youtube.com/watch?v=rsuIfKsRuzc",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5112",
+      "text": "Claude just got another superpower...\nRun any code on Google’s world-class infrastructure - https://cloud.run. Get 2 million free requests per month\n\nClaude Design could be Anthropic's most disruptive tool since Claude Code. But can their new Opus 4.7 powered platform really turn your half-baked Figma wireframe into a production ready UI? Let's run it.\n\n#coding #programming\n\n🔖 Topics Covered\n- What is Claude Design\n- Claude Design vs Figma vs Adobe\n- Claude Design demo\n\nWant more Fireship?\n\n🗞️ N…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Claude just got another superpower...\nRun any code on Google’s world-class infra…",
+          "url": "https://www.youtube.com/watch?v=jeA-KBv0b68",
+          "date": "2026-04-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5113",
+      "text": "The Future of SMART Vessels: AI & Marine Diesel Engines\nIn this video, we dive deep into the intersection of artificial intelligence and the maritime industry, focusing specifically on my recent literature review: \"Fault Detection in Tugboat Marine Diesel Engines Through the Application of Machine Learning.\"\n\n👉 Read the full Technical White Paper on my blog here: https://github.com/RafaPieper/Fault_Detection_Marine_Engines_Review/blob/main/Paper-Machine%20Learning%20Review%20for%20ship%20mainten…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Future of SMART Vessels: AI & Marine Diesel Engines\nIn this video, we dive d…",
+          "url": "https://www.youtube.com/watch?v=YdfIqsiNv_Y",
+          "date": "2026-04-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5114",
+      "text": "Claude Mythos is too dangerous for public consumption...\nBrowserbase is the simplest way to give your agents access to the whole web. Try it for free - https://browserbase.run/fireship\n\nAnthropic locked down their new Mythos model because they say it's too dangerous for normies like you and me to use. Let's investigate...\n\n#mythos #ai #programming #claude \n\nResources:\nhttps://www.trendmicro.com/en_us/research/26/c/axios-npm-package-compromised.html\n\nWant more Fireship?\n\n🗞️ Newsletter: https://by…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Claude Mythos is too dangerous for public consumption...\nBrowserbase is the simp…",
+          "url": "https://www.youtube.com/watch?v=d3Qq-rkp_to",
+          "date": "2026-04-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5115",
+      "text": "Ship AI Products Users Pay For: The 7-Step Framework That Killed 83% of GPT Wrappers\nReal AI products solve workflow problems with deterministic systems wrapped around LLMs, not chat interfaces with thin prompts\n\nhttps://atlassignal.in\nhttps://x.com/atlassignaldesk\n\n. The difference between failure and $50K MRR is systematic evaluation, failure mode handling, and measuring business metrics—not model performance. In this breakdown: Ship AI Products Users Pay For: The 7-Step Framework That Killed …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Ship AI Products Users Pay For: The 7-Step Framework That Killed 83% of GPT Wrap…",
+          "url": "https://www.youtube.com/watch?v=EZG_n637Afg",
+          "date": "2026-06-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5116",
+      "text": "Ship, Don’t Flinch: Navigate 12 Months of AI Upheaval\nCreator/teacher George Blackman's @GeorgeBlackmanYT  thoughts on AI we will cover: Explore AI’s “flattening” of skills, hybrid careers, and the fear that moats are vanishing. Through a cultural vignette about a well-known photographer’s AI panic, I argue for calibrating anxiety to actual expertise, focusing on 12-month survival over five-year plans, and letting our identities soften across disciplines so we can become unique blends.\n\nOn the b…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Ship, Don’t Flinch: Navigate 12 Months of AI Upheaval\nCreator/teacher George Bla…",
+          "url": "https://www.youtube.com/watch?v=waBs8I5vZFg",
+          "date": "2026-03-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -2057,7 +2456,29 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "source": "Factiva/OpenAthens",
+        "status": "auth-expired",
+        "lane": "L3",
+        "date": "2026-08-30",
+        "note": "OpenAthens session expired 2026-08-30; re-run scripts/factiva_reauth.py to refresh"
+      },
+      {
+        "source": "last30days:grounding",
+        "status": "failed",
+        "lane": "L5",
+        "date": "2026-08-30",
+        "note": "grounding source failed during this L5 run (coverage gap, not evidence of quiet)"
+      },
+      {
+        "source": "last30days:jobs",
+        "status": "failed",
+        "lane": "L5",
+        "date": "2026-08-30",
+        "note": "jobs source failed during this L5 run (coverage gap, not evidence of quiet)"
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -2083,9 +2504,24 @@
           "youtube": 8
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 16,
+        "sources": {
+          "github": 14,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 10,
+          "reddit": 5,
+          "x": 25,
+          "youtube": 8
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

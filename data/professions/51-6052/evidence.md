@@ -29,3 +29,15 @@ hosted_by: proxima424
   - [hackernews] Hallmark – Anti-AI-Slop Design Skill for Claude Code, Cursor, and Codex...
   - [hackernews] Show HN: Design Patterns for AI...
   - [hackernews] Scoring Show HN submissions for AI design patterns...
+
+## L1 — 51-6052
+- training.gov.au: MST31022 Certificate III in Apparel, Fashion and Textiles — https://training.gov.au/Training/Details/MST31022
+- Fair Work Ombudsman: Textile, Clothing, Footwear and Associated Industries Award 2020 (MA000017) — https://awards.fairwork.gov.au/MA000017.html
+- Valont careers: Tailors and Dressmakers jobs in Australia — https://valont.com.au/careers/tailors-and-dressmakers
+
+## L2 — 51-6052
+- Springer (Journal of Intelligent Manufacturing): A vision-driven framework for robotic garment stitching: edge-aware perception and trajectory planning — https://link.springer.com/article/10.1007/s10845-026-02941-0
+- Springer (Int J Life Cycle Assessment): Reducing the environmental footprint of cotton T-shirt production through automation and reshoring — https://link.springer.com/article/10.1007/s11367-026-02630-3
+
+## L2 — 51-6052
+- Jobs and Skills Australia: Our Gen AI Transition: Implications for Work and Skills (Generative AI Capacity Study) — https://jobsandskills.gov.au/publications/generative-ai-capacity-study-report

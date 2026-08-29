@@ -38,3 +38,14 @@ hosted_by: proxima424
 ---...
   - [hackernews] Tell HN: Man, AI is killing my brain...
   - [hackernews] What breaks in production AI workflows?...
+
+## L1 — 51-9012
+- training.gov.au: MSL933003 Apply critical control point requirements — https://training.gov.au/Training/Details/MSL933003
+- Harrison Barratt (food & beverage compliance): From Floor to Fork: Food and Beverage Safety and Compliance Essentials — https://harrisonbarratt.com.au/blog/from-floor-to-fork-food-and-beverage-safety-and-compliance-essentials-every-australian-employer-and-worker-must-know
+
+## L2 — 51-9012
+- IIoT-World: The Future of Industrial Remote Work (Part 4) — https://iiot-world.com/smart-manufacturing/future-industrial-remote-work-critical-perspectives-faq-part-4
+- AI Job Checker: Food Processing Machine Operators: AI Risk Analysis — https://aijobchecker.com/jobs/food-and-tobacco-roasting-baking-and-drying-machine-operators-and-tenders
+
+## L2 — 51-9012
+- Jobs and Skills Australia: Our Gen AI Transition: Implications for Work and Skills (Generative AI Capacity Study) — https://jobsandskills.gov.au/publications/generative-ai-capacity-study-report

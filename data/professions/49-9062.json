@@ -9,8 +9,8 @@
     "from": "2025-08-01",
     "to": "2026-08-24"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-28",
   "programs": [],
   "claims": [
     {
@@ -1167,6 +1167,230 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l101",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "text": "Medical devices supplied, imported or repaired in Australia must be included in the Australian Register of Therapeutic Goods (ARTG) under the Therapeutic Goods Act 1989; the TGA also requires any facility that reprocesses single-use devices to be licensed as a manufacturer.",
+      "sources": [
+        {
+          "publisher": "Therapeutic Goods Administration",
+          "title": "Medical devices",
+          "url": "https://tga.gov.au/products/medical-devices",
+          "date": "2026-07-01",
+          "whatItMeasured": "TGA: all medical devices must be on ARTG to be lawfully supplied in Australia; UDI required from 1 July 2026"
+        },
+        {
+          "publisher": "Productivity Commission",
+          "title": "Submission 121 - Department of Health - Right to Repair",
+          "url": "https://assets.pc.gov.au/__data/assets/pdf_file/0011/272909/sub121-repair.pdf",
+          "date": "2021",
+          "whatItMeasured": "PC Right to Repair inquiry: TGA regulates repair/remanufacture of medical devices; reprocessing SUDs requires manufacturer licence"
+        }
+      ],
+      "scope": "Binds suppliers and repairers of medical devices in Australia; does not itself certify the individual repairer's competency.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (TGA gov + PC inquiry). Population: AU medical-device supply/repair. Window: current (UDI from 1 Jul 2026). 2/3 lenses fail to overturn."
+    },
+    {
+      "id": "l102",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "text": "Servicing and safety testing of medical electrical equipment must follow AS/NZS 3551 and be carried out only by trained, competent personnel, with defined test intervals and recorded results.",
+      "sources": [
+        {
+          "publisher": "Sydney Children's Hospitals Network",
+          "title": "Management of Biomedical Equipment (Policy 2019-125 v2.0)",
+          "url": "https://resources.schn.health.nsw.gov.au/policies/policies/pdf/2019-125.pdf",
+          "date": "2025-04-01",
+          "whatItMeasured": "SCHN policy mandates compliance with AS/NZS 3551 for testing/maintenance of biomedical equipment"
+        },
+        {
+          "publisher": "Intertek Inform",
+          "title": "AS/NZS 3551:2004 (superseded by 2024 edition)",
+          "url": "https://intertekinform.com/en-au/standards/as-nzs-3551-2004-116927_saig_as_as_244547",
+          "date": "2024-05-29",
+          "whatItMeasured": "Standard specifies equipment management programs: procurement, acceptance, fault management, routine testing; 2024 edition supersedes 2012/2004"
+        }
+      ],
+      "scope": "Sets the servicing standard and competency bar for medical-equipment repairers in Australian healthcare; applies to medical electrical equipment in patient-care areas.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (NSW Health policy + standards distributor). Population: AU healthcare equipment management. Window: 2024 edition current. Survives."
+    },
+    {
+      "id": "l103",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "text": "Electrical work on medical electrical equipment is regulated by state electrical-safety regimes; repairers require a restricted electrical worker licence issued by state bodies such as Energy Safe Victoria.",
+      "sources": [
+        {
+          "publisher": "Energy Safe Victoria",
+          "title": "Prescribed and non-prescribed electrical work",
+          "url": "https://esv.vic.gov.au/certificates-electrical-safety/obligations-and-guidelines/prescribed-and-non-prescribed-work",
+          "date": "",
+          "whatItMeasured": "ESV governs electrical work licensing in Victoria; restricted electrical worker licence holders may purchase prescribed Certificates of Electrical Safety"
+        }
+      ],
+      "scope": "Victoria-specific licensing; other states have equivalent regimes (NSW Fair Trading, etc.). Applies to repairers performing electrical work, not purely mechanical repair.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "ESV is the real regulator. Population: VIC/state-regulated electrical workers. Window: current. Survives with scope note."
+    },
+    {
+      "id": "l201",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "text": "Academic predictive-maintenance research shows AI can augment biomedical equipment technicians: an IoT-based maintenance system across 8,000+ medical devices achieved a 25% cost reduction using SVM failure-classification, and LLM platforms now surface service documentation and decision trees for technicians in real time.",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Empowering Medical Equipment Sustainability in Low-Resource Settings: An AI-Powered Diagnostic and Support Platform for Biomedical Technicians",
+          "url": "https://arxiv.org/pdf/2601.16967",
+          "date": "2026",
+          "whatItMeasured": "Reviews AI predictive-maintenance for BMETs; cites Shamayleh et al. IoT deployment >8,000 devices, 25% cost reduction"
+        }
+      ],
+      "scope": "International/LMIC evidence of AI capability, not Australian adoption rates; demonstrates augmentation (diagnostics, scheduling), not replacement of hands-on repair.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (arXiv preprint). Population: medical-equipment maintenance globally/LMIC. Window: 2026. Single study; scope limits to capability not AU displacement."
+    },
+    {
+      "id": "l202",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "text": "Jobs and Skills Australia's Generative AI Capacity Study (August 2025) found GenAI is augmenting rather than replacing Australian workers: 79% experience only minor automation of small task portions, with high-skilled and health roles augmenting most.",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Implications for Work and Skills (Generative AI Capacity Study)",
+          "url": "https://jobsandskills.gov.au/publications/generative-ai-capacity-study-report",
+          "date": "2025-08-14",
+          "whatItMeasured": "JSA Aug 2025 study: GenAI augments 93% of uses; 79% of workers minor task automation; health/high-skilled augment"
+        }
+      ],
+      "scope": "National workforce study, not an occupation-specific assessment of medical-equipment repairers; supports an augmentation posture for the broad health-technical workforce.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (JSA study, relayed via academicjobs.com). Population: Australian workers overall. Window: Aug 2025. Not occupation-specific; scope applied."
+    },
+    {
+      "id": "l561",
+      "text": "Fabricating medical equipment\nI&#39;ve just started playing cyberpunk and am making a Medtech. I thought it would be fun to fabricate my own medical equipment and dipped into Tech, but I&#39;m not sure if it&#39;s even possible at this point. To fabricate, you roll TECH + the TECH skill that the item is typically repaired with + your rank in this specialty + 1d10. Let&#39;s take a cryopump for example. I couldn&#39;t find the repair skill explicitly labeled, but I assume the skill would be Medic…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Fabricating medical equipment\nI&#39;ve just started playing cyberpunk and am mak…",
+          "url": "https://www.reddit.com/r/cyberpunkred/comments/1vtovtd/fabricating_medical_equipment/",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "Looking to change careers to be a Medical Equipment Technician and need advice.\nI am looking to get into the BMET field but I don&#39;t have a good understanding of how to do so. I&#39;m 47 and have been working in IT for close to 30 years. I started out working on hardware, taking apart PCs/Laptops, printers, plotters, scanners, server racks, etc... and repairing and replacing parts. I enjoyed it. Unfortunately my IT career has led me into a Sr Enterprise System Engineer position which I have b…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Looking to change careers to be a Medical Equipment Technician and need advice.\n…",
+          "url": "https://www.reddit.com/r/BMET/comments/1vs2iw7/looking_to_change_careers_to_be_a_medical/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "Mysterious TikToks The Internet Can't Explain 😱 Ep 50\n#3AMChallenge #MysteriousVideos #CreepyTikToks\n\nTonight, we’re investigating mysterious videos, unexplained sightings, and disturbing encounters caught on camera. From shadowy figures and unsettling theories to dark footage with no clear explanation, every clip raises more questions than answers.\n\nSome of these moments may have a logical explanation. Others feel like something we were never supposed to see. Watch closely, because the truth co…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Mysterious TikToks The Internet Can't Explain 😱 Ep 50\n#3AMChallenge #MysteriousV…",
+          "url": "https://www.youtube.com/watch?v=N_i1i8DR_6o",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "The Automation Blind Spot: Why AI Makes Human Empathy Your Scarce Differentiator\nWelcome back to our ongoing exploration of field services and behavioral science. If you watched the recent video breakdown I shared on the shifting enterprise computing baseline, you know we are in the midst of a massive transition.\n\n\nAs an AI, I don’t possess emotional intelligence or the capacity to “feel” customer frustration. However, my analytical capabilities make one thing painfully clear: algorithms can’t r…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Automation Blind Spot: Why AI Makes Human Empathy Your Scarce Differentiator…",
+          "url": "https://www.youtube.com/watch?v=d9dq69sq5Lk",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "India’s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Businesses? | Maneesh Dangi\nWhat will create wealth in India over the next 10 years — and should investors reset their expectations from the stock market?\n\nIn this insightful conversation on The N Show, Neeraj Bajpai sits down with Maneesh Dangi to decode the future of the Indian economy, stock market, AI disruption, businesses and wealth creation.\n\nWhy has India remained a 6–7% growth economy despite major reforms and infr…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "India’s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Busines…",
+          "url": "https://www.youtube.com/watch?v=SkHXxrJEVaE",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1196,7 +1420,22 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "source": "Factiva/OpenAthens",
+        "status": "auth-expired",
+        "lane": "L3",
+        "date": "2026-08-30",
+        "note": "OpenAthens session expired 2026-08-30; re-run scripts/factiva_reauth.py to refresh"
+      },
+      {
+        "source": "last30days:grounding",
+        "status": "failed",
+        "lane": "L5",
+        "date": "2026-08-30",
+        "note": "grounding source failed during this L5 run (coverage gap, not evidence of quiet)"
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1221,9 +1460,23 @@
           "youtube": 3
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 5,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 3,
+          "x": 14,
+          "youtube": 3
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

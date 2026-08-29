@@ -9,8 +9,8 @@
     "from": "2025-08-01",
     "to": "2026-08-24"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-28",
   "programs": [],
   "claims": [
     {
@@ -371,27 +371,6 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l520",
-      "text": "Show HN: Scan any website for AI design patterns",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Scan any website for AI design patterns",
-          "url": "https://slopcop.adriankrebs.ch",
-          "date": "2026-07-07",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
       "id": "l521",
       "text": "AI-writing-pattern linter that kept flagging my own README",
       "lane": "L5",
@@ -612,27 +591,6 @@
           "title": "Explore Automated License Plate Readers - Locations Near You",
           "url": "https://maps.deflock.org/",
           "date": "2026-07-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l532",
-      "text": "No-Code Automated Quant Trading",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "No-Code Automated Quant Trading",
-          "url": "https://runhalcyon.com/",
-          "date": "2026-06-20",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
         }
       ],
@@ -1986,6 +1944,384 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l101",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "text": "Tailors and dressmakers in Australia are not subject to a licence or mandatory qualification; the national VET qualification MST31022 Certificate III in Apparel, Fashion and Textiles exists but is not compulsory, and pay is set by the Fair Work Textile, Clothing, Footwear and Associated Industries Award 2020 (MA000017).",
+      "sources": [
+        {
+          "publisher": "training.gov.au",
+          "title": "MST31022 Certificate III in Apparel, Fashion and Textiles",
+          "url": "https://training.gov.au/Training/Details/MST31022",
+          "date": "2025",
+          "whatItMeasured": "National VET qualification for apparel/tailoring; superseded MST30819 (transition ended Jan 2025)"
+        },
+        {
+          "publisher": "Fair Work Ombudsman",
+          "title": "Textile, Clothing, Footwear and Associated Industries Award 2020 (MA000017)",
+          "url": "https://awards.fairwork.gov.au/MA000017.html",
+          "date": "2020",
+          "whatItMeasured": "Industrial award setting pay/conditions for clothing trades"
+        },
+        {
+          "publisher": "Valont careers",
+          "title": "Tailors and Dressmakers jobs in Australia",
+          "url": "https://valont.com.au/careers/tailors-and-dressmakers",
+          "date": "2026-07-31",
+          "whatItMeasured": "Notes there is no licence and no mandatory qualification for tailors/dressmakers in Australia"
+        }
+      ],
+      "scope": "No binding statutory instrument governs the individual repairer; regulation is limited to VET qualifications and industrial awards. Low regulatory protection for the occupation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Sources real (training.gov.au, Fair Work, careers summary). Population: AU tailors/dressmakers. Window: current (MST31022 current). Survives; negative-regulation finding."
+    },
+    {
+      "id": "l201",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "text": "Robotic sewing automation is advancing (vision-driven garment stitching; Sewbot demonstrated ~1,142 T-shirts/hour) but garment assembly remains largely manual and requires operator supervision for ambiguous cases; full automation of bespoke tailoring is not yet achieved.",
+      "sources": [
+        {
+          "publisher": "Springer (Journal of Intelligent Manufacturing)",
+          "title": "A vision-driven framework for robotic garment stitching: edge-aware perception and trajectory planning",
+          "url": "https://link.springer.com/article/10.1007/s10845-026-02941-0",
+          "date": "2026",
+          "whatItMeasured": "Robotic perimeter-stitch system; operator supervision retained for ambiguous geometry"
+        },
+        {
+          "publisher": "Springer (Int J Life Cycle Assessment)",
+          "title": "Reducing the environmental footprint of cotton T-shirt production through automation and reshoring",
+          "url": "https://link.springer.com/article/10.1007/s11367-026-02630-3",
+          "date": "2026",
+          "whatItMeasured": "Notes garment assembly remains largely manual, requiring lots of staff"
+        }
+      ],
+      "scope": "Manufacturing-scale automated sewing, not bespoke/custom tailoring; international R&D. Demonstrates capability, not current displacement of Australian tailors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Sources real (peer-reviewed). Population: global garment manufacturing. Window: 2026. Single-domain; scope applied."
+    },
+    {
+      "id": "l202",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "text": "Jobs and Skills Australia's Generative AI Capacity Study (August 2025) found GenAI augments rather than replaces Australian workers: 79% experience only minor automation of small task portions, with high-skilled and manual trades augmenting most.",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Implications for Work and Skills (Generative AI Capacity Study)",
+          "url": "https://jobsandskills.gov.au/publications/generative-ai-capacity-study-report",
+          "date": "2025-08-14",
+          "whatItMeasured": "JSA Aug 2025 study: GenAI augments 93% of uses; 79% of workers minor task automation"
+        }
+      ],
+      "scope": "National workforce study, not an occupation-specific assessment of tailors; supports an augmentation posture for manual trades.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (JSA primary). Population: Australian workers overall. Window: Aug 2025. Not occupation-specific; scope applied."
+    },
+    {
+      "id": "l598",
+      "text": "Steward journal\nEvery steward run posts a comment here saying what it actually did — Manager's Fleet Ops reads this journal for its in-panel run reviews. Keep this issue open.\n<!-- steward-run:29620500465 -->\n### Steward improve — analytics.polecat.live · success\n\nI'll stop polling now and wait for the background task notification when the test suite completes.\n\n[Run log](https://github.com/kevinrhaas/polecat-platform/actions/runs/29620500465) <!-- steward-run:29623846189 -->\n### Steward improve…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Steward journal\nEvery steward run posts a comment here saying what it actually d…",
+          "url": "https://github.com/kevinrhaas/polecat-platform/issues/56",
+          "date": "2026-07-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "ByteDance and Alibaba to disable humanlike AI custom agents as new rules loom",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "ByteDance and Alibaba to disable humanlike AI custom agents as new rules loom",
+          "url": "https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom",
+          "date": "2026-07-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "Show HN: Jaybase: Append-only fact store for AI doing business workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Jaybase: Append-only fact store for AI doing business workflows",
+          "url": "https://github.com/kyle-visner/jaybase",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "👉 FOR JOB SEEKERS\n\nTurn applications into interviews! \n\nA free job board with direct company links, plus AI that tailors your resume to every job, preps your interviews, and tracks every application in one place.\nCheck This Out 👇 Free ✨",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "👉 FOR JOB SEEKERS\n\nTurn applications into interviews! \n\nA free job board with di…",
+          "url": "https://x.com/JulieFrench_/status/2093545240019837046",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "@staywithme8_ @dontwannabsad @jk7tb @piernas_con @pearlytrivia But ai basically just tailors and modify its response according to the user's response to it. Like this 👇 https://t.co/DuA3HlCXku",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@staywithme8_ @dontwannabsad @jk7tb @piernas_con @pearlytrivia But ai basically …",
+          "url": "https://x.com/SS000246/status/2093502733571756361",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "1 week free access + 700+ free courses on datacamp😳\n\nwhat you get:\n-data & Tech: python, sql, power bi, data science\n-advanced: ai & machine learning courses\n-career: career & skill tracks, hands-on coding projects\n-validation: practice exercises, assessments, datacamp certifications\n\nplus no credit card required to start learning\n\nsetup:\n1. go to : https://t.co/NzLtno2ulj\n2. create a new account or log in\n3. start exploring courses instantly\n\noffer ends august 30, 2026 at 11:59 PM ET (some prem",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "1 week free access + 700+ free courses on datacamp😳\n\nwhat you get:\n-data & Tech:…",
+          "url": "https://x.com/nahid_pro09/status/2093743873881473064",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "Role Rover is an AI career Agent built to Land you more Job Interviews .\n\nIt finds relevant local and global roles 24/7, tailors your CV and help you apply automatically.\n\nWe are openning our Private Beta completely for free. https://t.co/hKC62JFiGK",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Role Rover is an AI career Agent built to Land you more Job Interviews .\n\nIt fin…",
+          "url": "https://x.com/myrolerover/status/2093763871085318158",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "81 applications sent with @justusemany.\n\nThe AI will keep getting better at matching you with the jobs that fit you best.\n\nApply Assist edits and tailors your CV for each application it sends out - no two applications use the exact same CV.\n\nTry it: https://t.co/Q4QMBhK5or https://t.co/MEOjpyyPi7",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "81 applications sent with @justusemany.\n\nThe AI will keep getting better at matc…",
+          "url": "https://x.com/tryjude/status/2093699266086674897",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "Job search tools usually mean your data sitting on someone else's server. ai-job-search runs locally on Claude Code instead — evaluates postings against your profile, tailors your CV per role, writes cover letters, preps interviews. Fork it, own it. https://t.co/l3vpQ6ANC2 https://t.co/HQoAO2jEsk",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Job search tools usually mean your data sitting on someone else's server. ai-job…",
+          "url": "https://x.com/tanz1r/status/2093389908761063526",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "I’m thinking more that there will be tailors, furniture makers, etc with small teams and a warehouse of bots turning out bespoke goods. Local businesses who meet the needs of their community but with raw materials coming from more centralized processors. So mass production of material, shipped to local craftsmen who design products using AI to make them production ready for the bots who will finish and package then deliver.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I’m thinking more that there will be tailors, furniture makers, etc with small t…",
+          "url": "https://x.com/_jameshatfield_/status/2093420916038345093",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "@bikenn_njukang Then tell Ai to humanize it so it doesn't get flagged...",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@bikenn_njukang Then tell Ai to humanize it so it doesn't get flagged...",
+          "url": "https://x.com/bello_Tbabtz/status/2092890555193729175",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "https://t.co/BRoyCrKKMz\n\nsign up →claim 1 free week →learn python, sql &amp; ai\n\n700+ premium courses · hands-on projects &amp; certs · no credit card required\n\ni post free setups + workflows daily · @nahid_pro09",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "https://t.co/BRoyCrKKMz\n\nsign up →claim 1 free week →learn python, sql &amp; ai\n…",
+          "url": "https://x.com/nahid_pro09/status/2093746034640044394",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "I Paid Dress Makers $5000 To Recreate AI Dresses ... AGAIN\nToday we hired dress makers to make AI designed dresses but in real life! \n\nEDIT: Congratulations to the winner ashleynicole565!! 🥳\nWhatnot is giving away $15 off your first purchase on Whatnot when you sign up using my link: https://whatnot.com/invite/miamaples\n\nAnd to enter for the camera set, sign up to Whatnot using my link and spend some or all of your free $15! 📸 To enter for free, comment your Whatnot username below. The winner wi…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "I Paid Dress Makers $5000 To Recreate AI Dresses ... AGAIN\nToday we hired dress …",
+          "url": "https://www.youtube.com/watch?v=GLO9HFWLbq8",
+          "date": "2026-06-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "I went to 4 different tailors in Vietnam and ... I have thoughts\nwhen I asked people what content they wanted to see from Vietnam, tailoring tips and tricks was by far the biggest request. \n\nI'd really hoped I'd be making a super simple vlog with prices and shop recommendations but... life had other plans. the benefit of which is I have lots of advice about how to navigate it if you're visiting hoi an or are just curious.\n\nafter visiting four different stores in Hoi An, including a leather tailo…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "I went to 4 different tailors in Vietnam and ... I have thoughts\nwhen I asked pe…",
+          "url": "https://www.youtube.com/watch?v=PtQsUrGDwNI",
+          "date": "2026-04-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -2015,7 +2351,22 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "source": "Factiva/OpenAthens",
+        "status": "auth-expired",
+        "lane": "L3",
+        "date": "2026-08-30",
+        "note": "OpenAthens session expired 2026-08-30; re-run scripts/factiva_reauth.py to refresh"
+      },
+      {
+        "source": "last30days:grounding",
+        "status": "failed",
+        "lane": "L5",
+        "date": "2026-08-30",
+        "note": "grounding source failed during this L5 run (coverage gap, not evidence of quiet)"
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -2053,9 +2404,23 @@
           "youtube": 0
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 14,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 0,
+          "x": 16,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
