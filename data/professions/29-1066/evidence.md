@@ -1,29 +1,43 @@
-# Deep Research Evidence Log: Psychiatrists (29-1066)
+# Evidence log: Psychiatrists (29-1066)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `29-1066-01` (L1 · regulatory)
+### L1 Regulatory / standards (2 claims)
+- [Medical Board of Australia] Specialist registration — https://medicalboard.gov.au/Registration/Types/Specialist-Registration.aspx (2026)
+  "Psychiatrists are registered medical practitioners who must hold specialist registration with the Medical Board of Australia; psychiatry is a recognised specialist field and the Ro..."
+  Scope: National registration law; psychiatrists as registered specialist medical practitioners, not task-level practice.
+- [AHPRA] Australia welcomes more than 100 new GPs — https://www.ahpra.gov.au/News/2025-05-08-Australia-welcomes-more-than-100-new-GPs.aspx (2025-05-08)
+  "AHPRA's Expedited Specialist pathway, opened in 2024, had registered 127 internationally qualified specialists by 28 April 2025, including one psychiatrist, fast-tracking psychiatr..."
+  Scope: Workforce registration pathway for internationally qualified specialists; includes psychiatrists; not AI exposure.
 
-> "National peak professional bodies and statutory regulators governing Psychiatrists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (2 claims)
+- [Jobs and Skills Australia] Our Gen AI Transition - Final release — https://jobsandskills.gov.au/publications/our-gen-ai-transition-final-release (2025-08-14)
+  "Jobs and Skills Australia's 'Our Gen AI Transition: Implications for Work and Skills' (14 August 2025) finds generative AI is far more likely to augment than replace Australian rol..."
+  Scope: National labour-market study; applies to all occupations including these health professions; does not measure task-level automation within a specific clinical role.
+- [Frontiers in Psychiatry] From promise to practice: insights into ChatGPT-4o use in child and adolescent mental health from professionals — https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1668814/full (2025)
+  "A 2025 survey of 96 child and adolescent psychiatrists and 70 psychologists found psychiatrists held more positive views than psychologists toward ChatGPT-4o for clinician-facing, ..."
+  Scope: Clinician attitudes to generative AI in child/adolescent mental health; self-reported attitudes, not deployed automation of diagnosis.
 
-- **Scope:** Australian practitioners in Psychiatrists across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Psychiatrists** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Psychiatrists](https://www.psc.gov.au/standards/29-1066) — *What it measured:* National competency and ethics framework for Psychiatrists
+### L3 Trade press (0 claims)
 
----
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
+- Adzuna AU: 0 live postings matching "None" (None); top employers: .
 
-### Claim `29-1066-02` (L2 · scholarly)
+### L5 Practitioner discourse (57 claims)
+- last30days declared sample: 57 items across github=2, grounding=0, hackernews=24, jobs=0, reddit=9, x=18, youtube=4.
+- Representative practitioner quotes:
+  - [github] Behavioral Health EHR Software: A Complete Guide to Choosing the Right Solution in 2026
+Healthcare o...
+  - [github] Why Are Top Mental Health EHRs Becoming Essential for Modern Behavioral Healthcare?
+Mental healthcar...
+  - [hackernews] Tell HN: Man, AI is killing my brain
+  - [hackernews] What breaks in production AI workflows?
+  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python
+  - [hackernews] How al-Qaida and IS are adopting AI
+  - [hackernews] Ask HN: What does the day-to-day work of an AI Engineer look like?
+  - [hackernews] Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion
 
-> "Automation of routine transactional and analytical tasks in Psychiatrists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Psychiatrists roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Psychiatrists](https://www.jobsandskills.gov.au/research/29-1066) — *What it measured:* Labour market analysis of automation resilience across Psychiatrists in Australia
-
----

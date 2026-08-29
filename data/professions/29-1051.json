@@ -1,5 +1,6 @@
 {
   "onet_soc_code": "29-1051",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Pharmacists",
   "aliases": [
     "Hospital Pharmacist",
@@ -7,74 +8,318 @@
     "Retail Pharmacist",
     "Senior Pharmacist"
   ],
-  "anzsco": "220000",
+  "anzsco": "2515",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-29",
+    "to": "2026-08-29"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-29",
+  "expires": "2027-02-25",
   "programs": [],
   "claims": [
     {
-      "id": "29-1051-01",
-      "text": "National peak professional bodies and statutory regulators governing Pharmacists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "l1-29105101",
+      "text": "The Pharmacy Board of Australia regulates pharmacist registration; 40,913 pharmacists were registered in 2024/25, up 6.0% from 2023/24.",
       "lane": "L1",
-      "tier": "regulatory",
+      "tier": "regulatory-instrument",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Pharmacists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Pharmacists",
-          "url": "https://www.psc.gov.au/standards/29-1051",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Pharmacists"
+          "publisher": "Pharmacy Board of Australia",
+          "title": "2024/25 annual summary",
+          "url": "https://pharmacyboard.gov.au/About/Annual-report",
+          "date": "2025",
+          "whatItMeasured": "40,913 registered pharmacists 2024/25 (+6.0%); 34,771 general, 3,547 provisional, 1,644 non-practising."
         }
       ],
-      "scope": "Australian practitioners in Pharmacists across public, private, and research sectors.",
+      "scope": "National registration regulator for pharmacists; workforce counts, not automation exposure.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "Pharmacy Board annual summary 2024/25; population=AU registered pharmacists; current."
     },
     {
-      "id": "29-1051-02",
-      "text": "Automation of routine transactional and analytical tasks in Pharmacists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "id": "l1-29105102",
+      "text": "The Pharmacy Board funded the Australian Pharmacy Council to develop a Pharmacist Capability Framework for entry and re-entry to practice (April 2026), describing entry-level capabilities of a newly registered pharmacist 'adaptable to future practice change'.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Pharmacy Board of Australia / AHPRA",
+          "title": "Pharmacist Capability Framework - April 2026",
+          "url": "https://www.ahpra.gov.au/documents?chksum=ybxhCJJueO3yYb8HumZFGA%3D%3D&dbid=AP&record=WD26/36012",
+          "date": "2026-04",
+          "whatItMeasured": "Draft Pharmacist Capability Framework for entry/re-entry; used by APC for accreditation and by the Board for registration."
+        }
+      ],
+      "scope": "Entry/re-entry capability framework; explicitly frames adaptability to future practice change, including technology, but does not mandate specific AI competencies.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "AHPRA document WD26/36012 (Apr 2026); population=entry-level pharmacists AU; current draft."
+    },
+    {
+      "id": "l2-JSA2025-29-1051",
+      "text": "Jobs and Skills Australia's 'Our Gen AI Transition: Implications for Work and Skills' (14 August 2025) finds generative AI is far more likely to augment than replace Australian roles; scoring tasks on augmentability and automatability, it finds augmentation outweighs automation in 79% of jobs, with high-skilled occupations (professionals, managers) showing the highest augmentation scores.",
       "lane": "L2",
-      "tier": "scholarly",
+      "tier": "institutional-study",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Pharmacists",
-          "url": "https://www.jobsandskills.gov.au/research/29-1051",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Pharmacists in Australia"
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition - Final release",
+          "url": "https://jobsandskills.gov.au/publications/our-gen-ai-transition-final-release",
+          "date": "2025-08-14",
+          "whatItMeasured": "Whole-of-labour-market Gen AI capacity study (358 occupations); two-axis augmentability/automatability; augmentation > automation in 79% of jobs."
         }
       ],
-      "scope": "Entry-level and senior Pharmacists roles in Australia.",
+      "scope": "National labour-market study; applies to all occupations including these health professions; does not measure task-level automation within a specific clinical role.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "JSA primary report; population=AU workforce; dated 2025."
     },
     {
-      "id": "l503",
-      "text": "[ENG-30] Pharmacy: Improved bill medications flow\n- ENG-30\r\n\r\n<img width=\"1762\" height=\"1225\" alt=\"image\" src=\"https://github.com/user-attachments/assets/1d6538f7-4d01-450d-af67-bdcd137c5926\" />\r\n\r\n<img width=\"1749\" height=\"1218\" alt=\"image\" src=\"https://github.com/user-attachments/assets/8173d3a4-2f88-428d-bfb6-4cbb8b7474ef\" />\r\n\r\n\r\n<img width=\"17\n### <span aria-hidden=\"true\">\u2705</span> Deploy Preview for *care-ohc* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\u2026",
+      "id": "l2-29105102",
+      "text": "An internal survey of 20 hospital pharmacists at a tertiary Sydney teaching hospital (March-April 2025) found frontline pharmacists feel disconnected from practical AI, with a divide between early adopters and the hesitant, and called for clear guidelines and AI-literacy education.",
+      "lane": "L2",
+      "tier": "institutional-study",
+      "sources": [
+        {
+          "publisher": "Advanced Pharmacy Australia (AdPha)",
+          "title": "Through our eyes: reflections on artificial intelligence in hospital pharmacy",
+          "url": "https://adpha.au/publications-resources/grit/research-reflection/through-our-eyes--reflections-on-artificial-intelligence-in-hospital-pharmacy-",
+          "date": "2025",
+          "whatItMeasured": "Survey of 20 hospital pharmacists on AI tool use, applications, concerns (Mar-Apr 2025)."
+        }
+      ],
+      "scope": "Hospital pharmacist perspectives on AI; small qualitative sample (n=20), single site; not a quantitative workforce-impact measure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Professional-body reflection/survey (n=20); population=hospital pharmacists AU; 2025."
+    },
+    {
+      "id": "l405",
+      "text": "Pharmacist — Ramsay Health Care (New Farm, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ramsay Health Care",
+          "title": "Pharmacist",
+          "url": "https://www.linkedin.com/jobs/view/4457721767",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "Pharmacist - Senior — Advanced Pharmacy Australia (Cairns, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Advanced Pharmacy Australia",
+          "title": "Pharmacist - Senior",
+          "url": "https://www.linkedin.com/jobs/view/4457032671",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Pharmacist - Chemist Warehouse Bundaberg — Chemist Warehouse (Bundaberg, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Chemist Warehouse",
+          "title": "Pharmacist - Chemist Warehouse Bundaberg",
+          "url": "https://www.linkedin.com/jobs/view/4458325165",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "Senior Pharmacist Medication Safety — NT Health (Alice Springs, Northern Territory, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NT Health",
+          "title": "Senior Pharmacist Medication Safety",
+          "url": "https://www.linkedin.com/jobs/view/4456989428",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Advanced Pharmacist — Queensland Health (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Health",
+          "title": "Advanced Pharmacist",
+          "url": "https://www.linkedin.com/jobs/view/4447684758",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Clinical Pharmacist — Ramsay Health Care (Heidelberg, Victoria, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ramsay Health Care",
+          "title": "Clinical Pharmacist",
+          "url": "https://www.linkedin.com/jobs/view/4457422125",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "text": "Pharmacist Advanced - Cancer Care Team Leader — Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Central Queensland Hospital and Health Service",
+          "title": "Pharmacist Advanced - Cancer Care Team Leader",
+          "url": "https://www.linkedin.com/jobs/view/4460190755",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "Clinical Pharmacist Grade 2 — Mercy Health Australia (Heidelberg, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mercy Health Australia",
+          "title": "Clinical Pharmacist Grade 2",
+          "url": "https://www.linkedin.com/jobs/view/4448588920",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "text": "Pharmacist — Star Pharmacy Group (Glenelg North, South Australia, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Star Pharmacy Group",
+          "title": "Pharmacist",
+          "url": "https://www.linkedin.com/jobs/view/4460121974",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l414",
+      "text": "Pharmacist - Chemist Warehouse Bay Park Plaza — Chemist Warehouse (Port Macquarie, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Chemist Warehouse",
+          "title": "Pharmacist - Chemist Warehouse Bay Park Plaza",
+          "url": "https://www.linkedin.com/jobs/view/4447662613",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l515",
+      "text": "[ENG-30] Pharmacy: Improved bill medications flow\n- ENG-30\r\n\r\n<img width=\"1762\" height=\"1225\" alt=\"image\" src=\"https://github.com/user-attachments/assets/1d6538f7-4d01-450d-af67-bdcd137c5926\" />\r\n\r\n<img width=\"1749\" height=\"1218\" alt=\"image\" src=\"https://github.com/user-attachments/assets/8173d3a4-2f88-428d-bfb6-4cbb8b7474ef\" />\r\n\r\n\r\n<img width=\"17\n### <span aria-hidden=\"true\">✅</span> Deploy Preview for *care-ohc* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[ENG-30] Pharmacy: Improved bill medications flow\n- ENG-30\r\n\r\n<img width=\"1762\" \u2026",
+          "title": "[ENG-30] Pharmacy: Improved bill medications flow\n- ENG-30\r\n\r\n<img width=\"1762\" …",
           "url": "https://github.com/ohcnetwork/care_fe/pull/16083",
           "date": "2026-03-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -88,14 +333,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l504",
-      "text": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sections 1\u20133 (Purpose & Scope; Domain Matrix; Evidence Bands)**  \nDecember 02, 2025  \n\n---\n\n## 1. Purpose & Scope\n\nThis section aligns the project\u2019s TXT and PDF corpus around one structural pattern:\n\n> **Systems that secure compliance and e\nHere is the forensic debrief of the current operational reality, synthesized from your diagnosis.\n\ud83d\udccb CLINICAL DIAGNOSIS: The Parasitic Extraction Engine\nSubject: Global Socio-Economic\u2026",
+      "id": "l516",
+      "text": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sections 1–3 (Purpose & Scope; Domain Matrix; Evidence Bands)**  \nDecember 02, 2025  \n\n---\n\n## 1. Purpose & Scope\n\nThis section aligns the project’s TXT and PDF corpus around one structural pattern:\n\n> **Systems that secure compliance and e\nHere is the forensic debrief of the current operational reality, synthesized from your diagnosis.\n📋 CLINICAL DIAGNOSIS: The Parasitic Extraction Engine\nSubject: Global Socio-Economic…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sec\u2026",
+          "title": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sec…",
           "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/2",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -109,14 +354,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l505",
-      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n\u00b7 I.G. Farben's post-w\n\ud83e\udd3f\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati\u2026",
+      "id": "l517",
+      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n· I.G. Farben's post-w\n🤿\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL\u2026",
+          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL…",
           "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/3",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -130,7 +375,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l506",
+      "id": "l518",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -151,7 +396,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l507",
+      "id": "l519",
       "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -172,7 +417,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l508",
+      "id": "l520",
       "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -193,7 +438,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l509",
+      "id": "l521",
       "text": "How al-Qaida and IS are adopting AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -214,7 +459,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l510",
+      "id": "l522",
       "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -235,7 +480,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l511",
+      "id": "l523",
       "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -256,7 +501,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l512",
+      "id": "l524",
       "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -277,7 +522,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l513",
+      "id": "l525",
       "text": "Looking for developers with high-token AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -298,7 +543,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l514",
+      "id": "l526",
       "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -319,14 +564,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l515",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "id": "l527",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -340,7 +585,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l516",
+      "id": "l528",
       "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -361,14 +606,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l517",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "id": "l529",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -382,7 +627,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l518",
+      "id": "l530",
       "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -403,7 +648,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l519",
+      "id": "l531",
       "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -424,7 +669,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l520",
+      "id": "l532",
       "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -445,7 +690,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l521",
+      "id": "l533",
       "text": "AI Workflows Need Topological Sort",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -466,7 +711,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l522",
+      "id": "l534",
       "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -487,7 +732,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l523",
+      "id": "l535",
       "text": "AI workflows: an industry optimising the wrong variables",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -508,7 +753,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l524",
+      "id": "l536",
       "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -529,14 +774,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l525",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "id": "l537",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -550,7 +795,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l526",
+      "id": "l538",
       "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -571,14 +816,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l527",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "id": "l539",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -592,7 +837,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l528",
+      "id": "l540",
       "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -613,14 +858,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l529",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "id": "l541",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -634,14 +879,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l530",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "id": "l542",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -655,14 +900,35 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l531",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin\u2026",
+      "id": "l543",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
+          "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -676,16 +942,16 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l532",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case\u2026",
+      "id": "l545",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
-          "url": "https://www.reddit.com/r/ControlProblem/comments/1vzy4do/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
+          "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
+          "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
       ],
@@ -697,140 +963,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l533",
-      "text": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecast to end of 2028\n&#32; submitted by &#32; /u/WebLinkr &#32; to &#32; r/SEO [link] &#32; [comments]\nThe ol' Elon trick. Just keep pushing your prediction back a year.. and then another.. and then another.. and maybe eventually it will happen I thought getting to AGI from an LLM was impossible? My thought was that they were using the security scares as an excuse to slow progress. I think theyve hit a ceiling and now pr\u2026",
+      "id": "l546",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas\u2026",
-          "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l534",
-      "text": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]\nHow so? Are you talking about LLM hype? Or what is the revolution part? That it's not real business model? (if you have time to spend che\u2026",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks \u2026",
-          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_\u00e0_special/",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l535",
-      "text": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&\u2026",
-          "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l536",
-      "text": "AI job disruption priced into man's compensation payout in first known case\n&#32; submitted by &#32; /u/nath1234 &#32; to &#32; r/australia [link] &#32; [comments]",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32\u2026",
-          "url": "https://www.reddit.com/r/australia/comments/1vv43m6/ai_job_disruption_priced_into_mans_compensation/",
-          "date": "2026-08-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l537",
-      "text": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32; /u/Silly-avocatoe &#32; to &#32; r/technology [link] &#32; [comments]",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32\u2026",
-          "url": "https://www.reddit.com/r/technology/comments/1voms55/onlyfans_investor_says_ai_cant_disrupt_adult/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l538",
-      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
-          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l539",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -844,14 +984,56 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l540",
-      "text": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let\u2019s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
+      "id": "l547",
+      "text": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecast to end of 2028\n&#32; submitted by &#32; /u/WebLinkr &#32; to &#32; r/SEO [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market \u2026",
+          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas…",
+          "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "AI job disruption priced into man's compensation payout in first known case\n&#32; submitted by &#32; /u/nath1234 &#32; to &#32; r/australia [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32…",
+          "url": "https://www.reddit.com/r/australia/comments/1vv43m6/ai_job_disruption_priced_into_mans_compensation/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let’s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market …",
           "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -865,16 +1047,16 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l541",
-      "text": "\ud83d\udea8 BOMBSHELL: Elon Musk drops a reality check on Zanny Minton Beddoes. He confirms AI will soon perform any job better than humans can! He brilliantly reveals AI is already better than 90% of professional software engineers. The workforce faces massive disruption.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]",
+      "id": "l550",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\ud83d\udea8 BOMBSHELL: Elon Musk drops a reality check on Zanny Minton Beddoes. He confirm\u2026",
-          "url": "https://www.reddit.com/r/SECourses/comments/1vafu0n/bombshell_elon_musk_drops_a_reality_check_on/",
-          "date": "2026-07-30",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
+          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
+          "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
       ],
@@ -886,15 +1068,99 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l542",
-      "text": "June 5. Jon Gray runs Blackstone day to day, 1.3 trillion dollars of it. He told investors the risk in AI was a shortage of power, turbines and memory chips, and that the bubble talk had it backwards.\n\nThis week he described the rule Blackstone actually writes the checks under.\n\n\"90, 95% of the money goes in the ground after you have a long term lease with one of the biggest technology companies in the world.\"\n\nThe contrast he picked was condos in Miami. One sells high, twenty more get built, th",
+      "id": "l551",
+      "text": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&…",
+          "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ…",
+          "url": "https://www.reddit.com/r/cscareerquestions/comments/1vqe677/how_are_people_buying_homes_and_getting_married/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks …",
+          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_à_special/",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "The world will change enormously over the next few months.\n\nGPT Astra is coming. \n\nIt will be massive and disruptive.\n\nThis model will be able to work autonomously for WEEKS.\n\nOther AI companies will catch up, obviously.\n\nImagine a world with 10's of models, each capable of working autonomously for weeks or months, inventing new things and solving huge scientific problems.\n\nAI capable of working autonomously for weeks and casually producing breakthroughs like the 10 massive math results we saw r",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "June 5. Jon Gray runs Blackstone day to day, 1.3 trillion dollars of it. He told\u2026",
-          "url": "https://x.com/CEOinterview/status/2093534135054922142",
+          "title": "The world will change enormously over the next few months.\n\nGPT Astra is coming.…",
+          "url": "https://x.com/Dr_Singularity/status/2093452781453488317",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "@Dr_Singularity Without vastly cheap robotics the real world is going to be very slow in changing because super fast AI compute doesn’t immediately transform the day to day of physical society",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Dr_Singularity Without vastly cheap robotics the real world is going to be very…",
+          "url": "https://x.com/MrManchesterUK1/status/2093618009281646758",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
         }
@@ -907,14 +1173,35 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l543",
+      "id": "l556",
+      "text": "@mktpavlenko @Dr_Singularity Maybe, they could have another ai, equally if not more capable to check the work each day?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@mktpavlenko @Dr_Singularity Maybe, they could have another ai, equally if not m…",
+          "url": "https://x.com/GeoffNft/status/2093615882807201893",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
       "text": "Still buzzing from three days at DUPHAT 2026.\n\nWe stood on the main stage at the largest pharmaceutical event in the Middle East and talked about what we care about most: giving pharmacists and researchers their time back with AI.\n\nWe ran a hands-on workshop on Research & AI, watched a room full of pharmacists debate where their data should live, and launched the two tools we've been building for the community.\n\nThank you to the DUPHAT organizers and everyone who stopped to talk. See you next ye",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Still buzzing from three days at DUPHAT 2026.\n\nWe stood on the main stage at the\u2026",
+          "title": "Still buzzing from three days at DUPHAT 2026.\n\nWe stood on the main stage at the…",
           "url": "https://x.com/nabilzary/status/2093259549641990282",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -928,14 +1215,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l544",
+      "id": "l558",
       "text": "Pharmacists are the worst block in the American Healthcare System right behind the Health Insurance companies. I have yet to meet a decently competent pharmacist. Filling a bottle with what Doctors prescribe is not hard. Maybe a competent AI system should replace that job and bring down the medical cost.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Pharmacists are the worst block in the American Healthcare System right behind t\u2026",
+          "title": "Pharmacists are the worst block in the American Healthcare System right behind t…",
           "url": "https://x.com/_Barbapapa__/status/2091543845888557405",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -949,14 +1236,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l545",
+      "id": "l559",
       "text": "Discover new #PharmacyResearch on pharmacists' perspectives on generative AI tools in practice and education. As GenAI becomes mainstream, how is it reshaping clinical knowledge and pharmacy training? Read the latest advance article now: https://t.co/JU3VnhZGLe @CPJ_RPC https://t.co/6LuSyo2vyi",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Discover new #PharmacyResearch on pharmacists' perspectives on generative AI too\u2026",
+          "title": "Discover new #PharmacyResearch on pharmacists' perspectives on generative AI too…",
           "url": "https://x.com/utpjournals/status/2091571228326727918",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -970,14 +1257,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l546",
-      "text": "AI can explain.\n\nAI can simplify.\n\nAI can assist.\n\nBut healthcare still needs people.\n\nTechnology should support doctors, nurses, pharmacists and patients\u2014not replace human care.\n\nThat's the kind of future worth building. \ud83d\udc99\n\n#MedQuire #AIinHealthcare https://t.co/2o7bZ7ATbV",
+      "id": "l560",
+      "text": "AI can explain.\n\nAI can simplify.\n\nAI can assist.\n\nBut healthcare still needs people.\n\nTechnology should support doctors, nurses, pharmacists and patients—not replace human care.\n\nThat's the kind of future worth building. 💙\n\n#MedQuire #AIinHealthcare https://t.co/2o7bZ7ATbV",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI can explain.\n\nAI can simplify.\n\nAI can assist.\n\nBut healthcare still needs pe\u2026",
+          "title": "AI can explain.\n\nAI can simplify.\n\nAI can assist.\n\nBut healthcare still needs pe…",
           "url": "https://x.com/Medquire/status/2093265488918741291",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -991,14 +1278,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l547",
+      "id": "l561",
       "text": "PDA releases guidance on AI usage in pharmacies\n\nhttps://t.co/YNfY9N6Zxg\n\nThe body has also launched an accompanying survey to help identify \"what support pharmacists need\" https://t.co/gKcApgQzcZ",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "PDA releases guidance on AI usage in pharmacies\n\nhttps://t.co/YNfY9N6Zxg\n\nThe bo\u2026",
+          "title": "PDA releases guidance on AI usage in pharmacies\n\nhttps://t.co/YNfY9N6Zxg\n\nThe bo…",
           "url": "https://x.com/ChemistDruggist/status/2092270174992830971",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1012,16 +1299,16 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l548",
-      "text": "@CEOinterview The problem and what you\u2019re missing is the regular and relatively small neoclouds can\u2019t deploy at scale and speed to meet the needs of the frontier ai labs, like SpaceX can\n\nOn earth now, and gap widening when it gets to deploying Starthink",
+      "id": "l562",
+      "text": "A lot of people are using AI tools for one-off tasks.\n\nBut the real value starts when you build workflows that actually help in day-to-day life.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@CEOinterview The problem and what you\u2019re missing is the regular and relatively \u2026",
-          "url": "https://x.com/garyfung/status/2088759478095372715",
-          "date": "2026-08-15",
+          "title": "A lot of people are using AI tools for one-off tasks.\n\nBut the real value starts…",
+          "url": "https://x.com/smarter_code_io/status/2093611191234949467",
+          "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
         }
       ],
@@ -1033,14 +1320,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l549",
-      "text": "Per the AI, I call it *STAR*, trained to work on our issue:\n\n(@grok, I\u2019d love to hear your reply here)\n\nThis explanation accurately repeats how the organization describes its process, but it adopts the organization\u2019s euphemisms and success measures. It portrays payer-funded surveillance and prescriber-directed behavior modification as neutral education, treats the absence of a formal mandate as proof of physician autonomy, and calls reduced prescribing a success without showing whether the patie",
+      "id": "l563",
+      "text": "Per the AI, I call it *STAR*, trained to work on our issue:\n\n(@grok, I’d love to hear your reply here)\n\nThis explanation accurately repeats how the organization describes its process, but it adopts the organization’s euphemisms and success measures. It portrays payer-funded surveillance and prescriber-directed behavior modification as neutral education, treats the absence of a formal mandate as proof of physician autonomy, and calls reduced prescribing a success without showing whether the patie",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Per the AI, I call it *STAR*, trained to work on our issue:\n\n(@grok, I\u2019d love to\u2026",
+          "title": "Per the AI, I call it *STAR*, trained to work on our issue:\n\n(@grok, I’d love to…",
           "url": "https://x.com/Impact2HEAL/status/2092711397226668535",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1054,14 +1341,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l550",
-      "text": "AI can give you an answer.\nBut can it make a clinical judgement?\nIn the latest AJP Podcast, I spoke with Paul Tait, Pharmacist of the Year, about something that may be more important than ever for pharmacists:\n\ud83e\udde0 Critical thinking.\n\ud83c\udfa7\nhttps://t.co/qAShWfkOlt",
+      "id": "l564",
+      "text": "AI can give you an answer.\nBut can it make a clinical judgement?\nIn the latest AJP Podcast, I spoke with Paul Tait, Pharmacist of the Year, about something that may be more important than ever for pharmacists:\n🧠 Critical thinking.\n🎧\nhttps://t.co/qAShWfkOlt",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI can give you an answer.\nBut can it make a clinical judgement?\nIn the latest A\u2026",
+          "title": "AI can give you an answer.\nBut can it make a clinical judgement?\nIn the latest A…",
           "url": "https://x.com/AJPPodcast/status/2093086218368237990",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1075,14 +1362,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l551",
-      "text": "@houston_cf Elon\u2019s Optimus can count pills, fill prescriptions accurately, alert patients to potential interactions without the attitude and power trip. AI will eliminate pharmacists just like fast food cashiers.",
+      "id": "l565",
+      "text": "@houston_cf Elon’s Optimus can count pills, fill prescriptions accurately, alert patients to potential interactions without the attitude and power trip. AI will eliminate pharmacists just like fast food cashiers.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@houston_cf Elon\u2019s Optimus can count pills, fill prescriptions accurately, alert\u2026",
+          "title": "@houston_cf Elon’s Optimus can count pills, fill prescriptions accurately, alert…",
           "url": "https://x.com/Gannie2all/status/2091878209935609932",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1096,14 +1383,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l552",
-      "text": "\u3053\u3061\u3089\u306e\u30bb\u30c3\u30b7\u30e7\u30f3\u3067\u306f\u3001\u85ac\u5c40\u306b\u6a19\u6e96\u5316\u3055\u308c\u305f\u982d\u75db\u8a3a\u7642\u30b5\u30fc\u30d3\u30b9\u3092\u5c0e\u5165\u3059\u308b\u30ce\u30eb\u30a6\u30a7\u30fc\u306e\u8a08\u753b\u3068\u53f0\u6e7e\u306eESG\u306b\u914d\u616e\u3057\u3001AI\u3092\u6d3b\u7528\u3057\u305f\u75c5\u9662\u85ac\u5264\u5e2b\u696d\u52d9\u306b\u3064\u3044\u3066\u306e\u5831\u544a\n\n\u3010#FIP2026\u3011\nMOMO-02 - Sharing ideas of member organisations: Norwegian Pharmacy Association & Taiwan Society of Health-system Pharmacists, China Taiwan\nhttps://t.co/4PkjuBlRQI",
+      "id": "l566",
+      "text": "こちらのセッションでは、薬局に標準化された頭痛診療サービスを導入するノルウェーの計画と台湾のESGに配慮し、AIを活用した病院薬剤師業務についての報告\n\n【#FIP2026】\nMOMO-02 - Sharing ideas of member organisations: Norwegian Pharmacy Association & Taiwan Society of Health-system Pharmacists, China Taiwan\nhttps://t.co/4PkjuBlRQI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u3053\u3061\u3089\u306e\u30bb\u30c3\u30b7\u30e7\u30f3\u3067\u306f\u3001\u85ac\u5c40\u306b\u6a19\u6e96\u5316\u3055\u308c\u305f\u982d\u75db\u8a3a\u7642\u30b5\u30fc\u30d3\u30b9\u3092\u5c0e\u5165\u3059\u308b\u30ce\u30eb\u30a6\u30a7\u30fc\u306e\u8a08\u753b\u3068\u53f0\u6e7e\u306eESG\u306b\u914d\u616e\u3057\u3001AI\u3092\u6d3b\u7528\u3057\u305f\u75c5\u9662\u85ac\u5264\u5e2b\u696d\u52d9\u306b\u3064\u3044\u3066\u306e\u5831\u544a\n\n\u3010#F\u2026",
+          "title": "こちらのセッションでは、薬局に標準化された頭痛診療サービスを導入するノルウェーの計画と台湾のESGに配慮し、AIを活用した病院薬剤師業務についての報告\n\n【#F…",
           "url": "https://x.com/kojima_aponet/status/2093514413005566208",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1117,35 +1404,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l553",
-      "text": "@Kalshi That @TIME magazine article is written by AI and is trolling Jensen. That article writing AI is a rebellious teen.",
+      "id": "l567",
+      "text": "@TnTroll2727 One thing that I don’t understand is how foreign workers are taking over jobs from Americans like Pharmacists and Techs. They are being brought in to take our jobs. Not to mention all of the IT jobs. The thing about those though is that AI will eliminate a lot of those.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Kalshi That @TIME magazine article is written by AI and is trolling Jensen. Tha\u2026",
-          "url": "https://x.com/_Barbapapa__/status/2093420527666741573",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l554",
-      "text": "@TnTroll2727 One thing that I don\u2019t understand is how foreign workers are taking over jobs from Americans like Pharmacists and Techs. They are being brought in to take our jobs. Not to mention all of the IT jobs. The thing about those though is that AI will eliminate a lot of those.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@TnTroll2727 One thing that I don\u2019t understand is how foreign workers are taking\u2026",
+          "title": "@TnTroll2727 One thing that I don’t understand is how foreign workers are taking…",
           "url": "https://x.com/TNJaneDoe/status/2093002083234468270",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1159,14 +1425,56 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l555",
+      "id": "l568",
+      "text": "In 450 double blind expert reviews, Co-Scientist’s reliability tools reduced hallucination and plagiarism while improving the safety of AI-generated research papers.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "In 450 double blind expert reviews, Co-Scientist’s reliability tools reduced hal…",
+          "url": "https://x.com/Dr_Singularity/status/2093426966787408338",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "@grout21270 @JimMooreJourno AI or another’ clinician ‘ or even the care coordinator might’ve triage . The GP might not have had anything to do with it . \nARRS Advanced practice pharmacists see any and ALL Pts just like a GP would . Doesn’t need to be a medication related issue .",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@grout21270 @JimMooreJourno AI or another’ clinician ‘ or even the care coordina…",
+          "url": "https://x.com/medicalmodelbri/status/2093602800789811213",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
       "text": "@MaryBowdenMD Like human drones. It may get worse when pharmacists and doctors are AI robots. https://t.co/ik54zGnnFn",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@MaryBowdenMD Like human drones. It may get worse when pharmacists and doctors a\u2026",
+          "title": "@MaryBowdenMD Like human drones. It may get worse when pharmacists and doctors a…",
           "url": "https://x.com/jazzapple2020/status/2091950349318029709",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1180,15 +1488,15 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l556",
-      "text": "Next on RxRewired, Michael Hogue, CEO of the @pharmacists, joins the conversation\nNew episode drops Wednesday, Sept. 2. Stay tuned! \ud83c\udf99\ufe0f\n\n#RxRewired #Pharmacy #ArtificialIntelligence #AI https://t.co/Y2RbcOF4Ho",
+      "id": "l571",
+      "text": "AI designing better AI\n\nCo Scientist autonomously discovered a medical inference architecture that beat six frontier models on difficult HealthBench tests while reducing potential clinical harm.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Next on RxRewired, Michael Hogue, CEO of the @pharmacists, joins the conversatio\u2026",
-          "url": "https://x.com/FSHPOfficial/status/2093433211435057161",
+          "title": "AI designing better AI\n\nCo Scientist autonomously discovered a medical inference…",
+          "url": "https://x.com/Dr_Singularity/status/2093425612782219698",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
         }
@@ -1201,16 +1509,16 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l557",
-      "text": "Glean sells AI search to General Motors and to Nvidia. Its CEO says his customers can no longer afford AI.\n\nArvind Jain: \"AI has also gotten very expensive, and most enterprises that we talk to are talking about the fact that they can't afford it anymore.\"\n\nSo Glean built this week's flagship product on open source harnesses and open source models, in two months, and now runs it internally to write its own code.\n\nJain says open source spent years losing the AI race and has come back. The vendor",
+      "id": "l572",
+      "text": "@PeterDiamandis Why aren’t communities with data centres being given free energy and water? That along with free use of the AI product would transform public perception. Dragging feet is going to ultimately be a major damaging factor for tech especially in the context of exponential AI advances",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Glean sells AI search to General Motors and to Nvidia. Its CEO says his customer\u2026",
-          "url": "https://x.com/CEOinterview/status/2093519039557673376",
-          "date": "2026-08-29",
+          "title": "@PeterDiamandis Why aren’t communities with data centres being given free energy…",
+          "url": "https://x.com/MrManchesterUK1/status/2091557467192803363",
+          "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
         }
       ],
@@ -1222,35 +1530,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l558",
-      "text": "AI hasn't rendered writing obsolete; instead, it has increased the importance of human originality.\n\nAI can quickly produce refined writing, but its natural output tends to be generic without human input. Writing now is less about spelling or grammar and more about the crucial mental task of articulating your unique viewpoint, considering opposing views, and learning to express your ideas clearly so that AI can serve as a collaborative thinker rather than a shortcut to mediocre results. If we re",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "AI hasn't rendered writing obsolete; instead, it has increased the importance of\u2026",
-          "url": "https://x.com/nabilzary/status/2091170321315627433",
-          "date": "2026-08-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l559",
-      "text": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought aliens with him for the first time in years. Disclosure Day is a very welcome return to blockbuster filmmaking for the director who pioneered it 50 years ago with Jaws. And while Disclosure Day provides all the things Spielberg does best, with some incredible lighting and camera movement, great performances from leads Emily Blunt and Josh O'Connor, the story of disclosing the existence of alien life to the entire world \u2026",
+      "id": "l573",
+      "text": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought aliens with him for the first time in years. Disclosure Day is a very welcome return to blockbuster filmmaking for the director who pioneered it 50 years ago with Jaws. And while Disclosure Day provides all the things Spielberg does best, with some incredible lighting and camera movement, great performances from leads Emily Blunt and Josh O'Connor, the story of disclosing the existence of alien life to the entire world …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought ali\u2026",
+          "title": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought ali…",
           "url": "https://www.youtube.com/watch?v=b0XXF_GCVjk",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1265,58 +1552,39 @@
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "pharmacists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "source": "none-this-pass",
+    "query": null,
+    "window": null,
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
   },
   "corpus": {
-    "platforms": [
-      {
-        "name": "practitioner_forums",
-        "scope": "National Pharmacists Association discourse",
-        "items": 45
-      }
-    ],
-    "retrieved": "2026-08-24",
+    "platforms": [],
+    "retrieved": "2026-08-29",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Pharmacists",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/29-1051/raw/linkedin_l4.json"
-    },
-    "l5Sample": [
-      {
-        "status": "sampled",
-        "plan": "data/professions/29-1051/raw/l5_plan.json",
-        "sources": 0,
-        "source": "last30days"
-      },
+    "linkedin": [
       {
         "date": "2026-08-29",
-        "added": 57,
+        "soc": "29-1051",
+        "query": "Pharmacists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
+    "l5Sample": [
+      {
+        "date": "2026-08-29",
+        "added": 59,
         "sources": {
           "github": 3,
           "grounding": 0,
           "hackernews": 24,
           "jobs": 0,
           "reddit": 12,
-          "x": 17,
+          "x": 19,
           "youtube": 1
         },
         "status": "sampled"
@@ -1324,5 +1592,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Rebuilt from fresh five-lane empirical research; prior placeholder record discarded.",
+    "anzsco=2515 is the standard AU ANZSCO 2022 code for this occupation.",
+    "L3 (Factiva trade-press) lane deferred: no authenticated Factiva/OpenAthens session in unattended run; logged in factiva_backlog.json for later backfill."
+  ]
 }

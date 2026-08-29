@@ -1,77 +1,280 @@
 {
   "onet_soc_code": "29-1062",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Family and General Practitioners",
   "aliases": [
     "Family Medicine Resident"
   ],
-  "anzsco": "220000",
+  "anzsco": "2531",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-29",
+    "to": "2026-08-29"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-29",
+  "expires": "2027-02-25",
   "programs": [],
   "claims": [
     {
-      "id": "29-1062-01",
-      "text": "National peak professional bodies and statutory regulators governing Family and General Practitioners enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "l1-29106201",
+      "text": "The Medical Board of Australia sets mandatory registration standards applying to all registered medical practitioners, including general practitioners; from 2025 registrants must declare a CPD home as part of renewal.",
       "lane": "L1",
-      "tier": "regulatory",
+      "tier": "regulatory-instrument",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Family and General Practitioners",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Family and General Practitioners",
-          "url": "https://www.psc.gov.au/standards/29-1062",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Family and General Practitioners"
+          "publisher": "Medical Board of Australia",
+          "title": "Registration Standards",
+          "url": "https://medicalboard.gov.au/Registration-Standards.aspx",
+          "date": "2026",
+          "whatItMeasured": "Mandatory registration standards for all medical practitioners (general/specialist); CPD-home declaration required from 2025 renewals."
         }
       ],
-      "scope": "Australian practitioners in Family and General Practitioners across public, private, and research sectors.",
+      "scope": "National registration law for medical practitioners; binds GPs as registered medical practitioners, not task-level practice.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "Regulator page; population=AU medical practitioners incl. GPs; current (2026 standards page)."
     },
     {
-      "id": "29-1062-02",
-      "text": "Automation of routine transactional and analytical tasks in Family and General Practitioners heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "id": "l1-29106202",
+      "text": "AHPRA's Expedited Specialist pathway registered 125 GPs from the UK, NZ and Ireland by 28 April 2025, part of a fast-track intended to address GP workforce shortages.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "AHPRA",
+          "title": "Australia welcomes more than 100 new GPs",
+          "url": "https://www.ahpra.gov.au/News/2025-05-08-Australia-welcomes-more-than-100-new-GPs.aspx",
+          "date": "2025-05-08",
+          "whatItMeasured": "Expedited Specialist pathway registrations: 125 GPs, 1 anaesthetist, 1 psychiatrist by 28 Apr 2025."
+        }
+      ],
+      "scope": "Workforce registration pathway for internationally qualified GPs; does not speak to AI exposure or task automation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "AHPRA news item; population=internationally qualified GPs entering AU; dated 2025."
+    },
+    {
+      "id": "l2-JSA2025",
+      "text": "Jobs and Skills Australia's 'Our Gen AI Transition: Implications for Work and Skills' (14 August 2025) finds generative AI is far more likely to augment than replace Australian roles; scoring tasks on augmentability and automatability, it finds augmentation outweighs automation in 79% of jobs, with high-skilled occupations (professionals, managers) showing the highest augmentation scores.",
       "lane": "L2",
-      "tier": "scholarly",
+      "tier": "institutional-study",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Family and General Practitioners",
-          "url": "https://www.jobsandskills.gov.au/research/29-1062",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Family and General Practitioners in Australia"
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition - Final release",
+          "url": "https://jobsandskills.gov.au/publications/our-gen-ai-transition-final-release",
+          "date": "2025-08-14",
+          "whatItMeasured": "Whole-of-labour-market Gen AI capacity study (358 occupations); two-axis augmentability/automatability; augmentation > automation in 79% of jobs."
         }
       ],
-      "scope": "Entry-level and senior Family and General Practitioners roles in Australia.",
+      "scope": "National labour-market study; applies to all occupations including these health professions; does not measure task-level automation within a specific clinical role.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "JSA primary report; population=AU workforce; dated 2025."
     },
     {
-      "id": "l503",
-      "text": "PMP Domain 1 \u30ac\u30a4\u30c9\u306e Nuxt \u79fb\u884c\u30c6\u30b9\u30c8\u5c0e\u5165\u3068\u3001\u5404\u7a2e\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u30fb\u30a2\u30b8\u30e3\u30a4\u30eb\u30ac\u30a4\u30c9\u306e\u62e1\u5145\u30fbUI/a11y \u6539\u5584\n## **\u4e3b\u306a\u5909\u66f4\u30fb\u9032\u6357\u8981\u7d04**\r\n\r\n### **\u2460 \u30ac\u30a4\u30c9\u30da\u30fc\u30b8\u306e Nuxt \u5316\u3068\u65b0\u898f\u30b3\u30f3\u30c6\u30f3\u30c4\u306e\u62e1\u5145**\r\n\r\n- **PMP / \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30de\u30cd\u30b8\u30e1\u30f3\u30c8**:\r\n    - PMP Domain 1\uff08People\uff09\u3001Domain 2\uff08Process\uff09\u3001Domain 3\uff08Business Environment\uff09\u306e Nuxt \u79fb\u884c\u304a\u3088\u3073\u30c6\u30b9\u30c8\u30fb\u5b9f\u88c5\u3092\u5b8c\u4e86\u3002\r\n- **\u30a8\u30f3\u30b8\u30cb\u30a2\u30ea\u30f3\u30b0\u7d44\u7e54\u30fb\u30ea\u30fc\u30c0\u30fc\u30b7\u30c3\u30d7\u95a2\u9023\u30ac\u30a4\u30c9**:\r\n    - \u300eTeam Geek\u300f\u300eTeam Topologies\u300f\u300e\u958b\u767a\u8005\u3068\u30a2\u30fc\u30ad\u30c6\u30af\u30c8\u306e\u30b3\u30df\u30e5\u30cb\u30b1\u30fc\u30b7\u30e7\u30f3\u300f\u300eElastic Leadership\u300f\u300e\u30ea\u30fc\u30c0\u30fc\u3068\u3057\n@coderabbitai full review <!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![\u2026",
+      "id": "l2-29106202",
+      "text": "AI clinical scribes are the most-adopted AI tool in Australian general practice; the RACGP reports GP use rose from 22% (August 2024) to 40% (November 2025), though a Healthed/Medical Republic survey of 1,535 GPs found 18.7% personally used one (81.3% did not).",
+      "lane": "L2",
+      "tier": "institutional-study",
+      "sources": [
+        {
+          "publisher": "The Guardian Australia",
+          "title": "Two in five Australian GPs use AI scribes to record patient notes",
+          "url": "https://www.theguardian.com/australia-news/2026/mar/29/doctors-using-ai-for-notes-australia",
+          "date": "2026-03-29",
+          "whatItMeasured": "RACGP poll 22%->40% AI scribe use Aug2024->Nov2025; Healthed/TMR Feb2025 survey n=1535: 18.7% personal use."
+        }
+      ],
+      "scope": "Adoption of AI scribes in Australian GP consulting; tool use, not task replacement; the two surveys use different definitions of 'use'.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "News/trade reporting of polls; n=1535 survey; population=Australian GPs; 2025-2026."
+    },
+    {
+      "id": "l405",
+      "text": "General Practitioners — The Healthy Communities Foundation Australia (Armidale, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "The Healthy Communities Foundation Australia",
+          "title": "General Practitioners",
+          "url": "https://www.linkedin.com/jobs/view/4456219288",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "General Practitioner - Rural Generalist — Mediix (Darwin, Northern Territory, Australia). Posted 4 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mediix",
+          "title": "General Practitioner - Rural Generalist",
+          "url": "https://www.linkedin.com/jobs/view/4401520911",
+          "date": "4 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Doctors and General Practitioners - Aspen Medical — Aspen Medical (Australian Capital Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Aspen Medical",
+          "title": "Doctors and General Practitioners - Aspen Medical",
+          "url": "https://www.linkedin.com/jobs/view/4408250530",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "General Practitioner — Serco (Townsville, Queensland, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Serco",
+          "title": "General Practitioner",
+          "url": "https://www.linkedin.com/jobs/view/4390811351",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Hobart - General Practitioner — Ochre Health (Hobart, Tasmania, Australia). Posted 5 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ochre Health",
+          "title": "Hobart - General Practitioner",
+          "url": "https://www.linkedin.com/jobs/view/4383923713",
+          "date": "5 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Strahan - General Practitioner — Ochre Health (Strahan, Tasmania, Australia). Posted 7 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ochre Health",
+          "title": "Strahan - General Practitioner",
+          "url": "https://www.linkedin.com/jobs/view/4363479086",
+          "date": "7 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "text": "General Practitioner — Darling Downs and West Moreton PHN (Springfield Lakes, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Darling Downs and West Moreton PHN",
+          "title": "General Practitioner",
+          "url": "https://www.linkedin.com/jobs/view/4453598655",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "General Practitioner — Dubbo Health Hub (Orange, New South Wales, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Dubbo Health Hub",
+          "title": "General Practitioner",
+          "url": "https://www.linkedin.com/jobs/view/4457642635",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l513",
+      "text": "PMP Domain 1 ガイドの Nuxt 移行テスト導入と、各種マネジメント・アジャイルガイドの拡充・UI/a11y 改善\n## **主な変更・進捗要約**\r\n\r\n### **① ガイドページの Nuxt 化と新規コンテンツの拡充**\r\n\r\n- **PMP / プロジェクトマネジメント**:\r\n    - PMP Domain 1（People）、Domain 2（Process）、Domain 3（Business Environment）の Nuxt 移行およびテスト・実装を完了。\r\n- **エンジニアリング組織・リーダーシップ関連ガイド**:\r\n    - 『Team Geek』『Team Topologies』『開発者とアーキテクトのコミュニケーション』『Elastic Leadership』『リーダーとし\n@coderabbitai full review <!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "PMP Domain 1 \u30ac\u30a4\u30c9\u306e Nuxt \u79fb\u884c\u30c6\u30b9\u30c8\u5c0e\u5165\u3068\u3001\u5404\u7a2e\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u30fb\u30a2\u30b8\u30e3\u30a4\u30eb\u30ac\u30a4\u30c9\u306e\u62e1\u5145\u30fbUI/a11y \u6539\u5584\n## **\u4e3b\u306a\u5909\u66f4\u30fb\u9032\u6357\u8981\u7d04**\u2026",
+          "title": "PMP Domain 1 ガイドの Nuxt 移行テスト導入と、各種マネジメント・アジャイルガイドの拡充・UI/a11y 改善\n## **主な変更・進捗要約**…",
           "url": "https://github.com/myoshi2891/Management-Team-Building-Studies/pull/6",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -85,14 +288,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l504",
-      "text": "nb: when-ai-breaks/epic-sepsis-model - Epic's sepsis alarm missed two-thirds of the patients it was built to catch\n```nb-meta\nseries: when-ai-breaks\nslug: epic-sepsis-model\nmode: open\ntemplate: lesson\ndate: '2026-07-29'\ntitle: Epic's sepsis alarm missed two-thirds of the patients it was built to catch\norder: null\n```\n\n## Task\n\n<details><summary>Full artifact</summary>\n\n````text\n# Commission: when-ai-breaks/epic-\n## The editor\n```\nBLOCK: 0\nWARN:  0\nverdict: PUBLISHABLE\nrender probe ok: 390px view\u2026",
+      "id": "l514",
+      "text": "nb: when-ai-breaks/epic-sepsis-model - Epic's sepsis alarm missed two-thirds of the patients it was built to catch\n```nb-meta\nseries: when-ai-breaks\nslug: epic-sepsis-model\nmode: open\ntemplate: lesson\ndate: '2026-07-29'\ntitle: Epic's sepsis alarm missed two-thirds of the patients it was built to catch\norder: null\n```\n\n## Task\n\n<details><summary>Full artifact</summary>\n\n````text\n# Commission: when-ai-breaks/epic-\n## The editor\n```\nBLOCK: 0\nWARN:  0\nverdict: PUBLISHABLE\nrender probe ok: 390px view…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "nb: when-ai-breaks/epic-sepsis-model - Epic's sepsis alarm missed two-thirds of \u2026",
+          "title": "nb: when-ai-breaks/epic-sepsis-model - Epic's sepsis alarm missed two-thirds of …",
           "url": "https://github.com/the-nightly-build-example/the-nightly-build/pull/88",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -106,14 +309,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l505",
-      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; \ud83d\udd34 KEV: 1 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 14 &nbsp;|&nbsp; \ud83d\udfe1\u2026",
+      "id": "l515",
+      "text": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; 🔴 KEV: 0 &nbsp;|&nbsp; 🟠 Zero-Day: 13 &nbsp;|&nbsp; 🟡 High: 2 &nbsp;|&nbsp; ✨ Enriched: 10\n\n---\n\n## 1. 🟠 Zero-Day — Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; 🔴 KEV: 1 &nbsp;|&nbsp; 🟠 Zero-Day: 14 &nbsp;|&nbsp; 🟡…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "title": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:…",
           "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -127,14 +330,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l506",
-      "text": "\ud83d\udef0\ufe0f Frontier Digest Log\nStanding durable store for the **self-evolution routine** (`knowledge/shared/harness-core/self_evolution_routine.md`).\n\n- The **Daily** routine posts each day's frontier-digest here as a **comment** (HN + arxiv signals, each with a source URL + one-line FH relevance).\n- The **Weekly** routine reads\n## \ud83d\udd2d FH Frontier Digest \u2014 2026-06-16\n\n\ud83d\udd11 Engine: WebSearch mode (no ANTHROPIC_API_KEY) \u00b7 in-context synthesis\n\n\ud83d\udce1 Collected: HN ~10 items \u00b7 arxiv 8 items \u00b7 TLDR/Batch (meta only)\n\u2026",
+      "id": "l516",
+      "text": "🛰️ Frontier Digest Log\nStanding durable store for the **self-evolution routine** (`knowledge/shared/harness-core/self_evolution_routine.md`).\n\n- The **Daily** routine posts each day's frontier-digest here as a **comment** (HN + arxiv signals, each with a source URL + one-line FH relevance).\n- The **Weekly** routine reads\n## 🔭 FH Frontier Digest — 2026-06-16\n\n🔑 Engine: WebSearch mode (no ANTHROPIC_API_KEY) · in-context synthesis\n\n📡 Collected: HN ~10 items · arxiv 8 items · TLDR/Batch (meta only)\n…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udef0\ufe0f Frontier Digest Log\nStanding durable store for the **self-evolution routine**\u2026",
+          "title": "🛰️ Frontier Digest Log\nStanding durable store for the **self-evolution routine**…",
           "url": "https://github.com/chrono-meta/forge-harness/issues/102",
           "date": "2026-06-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -148,14 +351,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l507",
-      "text": "\ud83c\udf10 Global Tech Briefing - 2026-03-11\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026-03-11\n**Date:** 2026-03-11\n**Generated At:** 08:22\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## \ud83d\udcf0 Hacker News (Top Stories)\n### 1. [Create value for others and don\u2019t worry about the returns](https://geohot.github.io//blog/jekyll/update/2\n\ud83d\udcc5 New report generated.",
+      "id": "l517",
+      "text": "🌐 Global Tech Briefing - 2026-03-11\n# 🌐 Global Tech Intelligence Briefing - 2026-03-11\n**Date:** 2026-03-11\n**Generated At:** 08:22\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## 📰 Hacker News (Top Stories)\n### 1. [Create value for others and don’t worry about the returns](https://geohot.github.io//blog/jekyll/update/2\n📅 New report generated.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83c\udf10 Global Tech Briefing - 2026-03-11\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026\u2026",
+          "title": "🌐 Global Tech Briefing - 2026-03-11\n# 🌐 Global Tech Intelligence Briefing - 2026…",
           "url": "https://github.com/AtomChen0425/Global_Trends/issues/23",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -169,7 +372,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l508",
+      "id": "l518",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -190,7 +393,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l509",
+      "id": "l519",
       "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -211,7 +414,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l510",
+      "id": "l520",
       "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -232,7 +435,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l511",
+      "id": "l521",
       "text": "How al-Qaida and IS are adopting AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -253,7 +456,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l512",
+      "id": "l522",
       "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -274,7 +477,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l513",
+      "id": "l523",
       "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -295,7 +498,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l514",
+      "id": "l524",
       "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -316,7 +519,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l515",
+      "id": "l525",
       "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -337,14 +540,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l516",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "id": "l526",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -358,7 +561,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l517",
+      "id": "l527",
       "text": "Looking for developers with high-token AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -379,14 +582,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l518",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "id": "l528",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -400,7 +603,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l519",
+      "id": "l529",
       "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -421,7 +624,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l520",
+      "id": "l530",
       "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -442,7 +645,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l521",
+      "id": "l531",
       "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -463,7 +666,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l522",
+      "id": "l532",
       "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -484,7 +687,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l523",
+      "id": "l533",
       "text": "AI Workflows Need Topological Sort",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -505,7 +708,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l524",
+      "id": "l534",
       "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -526,7 +729,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l525",
+      "id": "l535",
       "text": "AI workflows: an industry optimising the wrong variables",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -547,7 +750,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l526",
+      "id": "l536",
       "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -568,14 +771,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l527",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "id": "l537",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -589,7 +792,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l528",
+      "id": "l538",
       "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -610,14 +813,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l529",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "id": "l539",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -631,7 +834,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l530",
+      "id": "l540",
       "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -652,14 +855,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l531",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "id": "l541",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -673,98 +876,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l532",
-      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf\u2026",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better\u2026",
-          "url": "https://www.reddit.com/r/jenova_ai/comments/1vypds5/general_ai_chatbots_vs_specialized_ai/",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l533",
-      "text": "Week 3 of making my fishing game entirely with AI\nHello there, This is week 3 of me making a fishing game entirely with AI. If somebody is interested in seeing Claude Artifacts with latest changes here is Artifact 1 and Artifact 2 . There are before and after images of how it&#39;s done. My Workflow - it improved from just typing what I want in Week 1 to basically having a window dedicated for every single thing and using MCPs for Blender and Godot now. Since last time I added a lot of things, d\u2026",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Week 3 of making my fishing game entirely with AI\nHello there, This is week 3 of\u2026",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vrjryf/week_3_of_making_my_fishing_game_entirely_with_ai/",
-          "date": "2026-08-18",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l534",
-      "text": "I\u2019m posting this because I just saw another post about it yesterday: Meta is using AI/automated systems to police accounts, making mistakes, banning people with no meaningful way to fight it, and your Quest account can disappear with everything else! It\u2019s happened to my family too!\nI just saw another post yesterday about someone losing access to their Meta/Quest account, and it had hundreds of upvotes and a bunch of people describing similar experiences. I figured I should share what happened to\u2026",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "I\u2019m posting this because I just saw another post about it yesterday: Meta is usi\u2026",
-          "url": "https://www.reddit.com/r/OculusQuest/comments/1vjcu6j/im_posting_this_because_i_just_saw_another_post/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l535",
-      "text": "DoorDash AI refused to refund my misdelivered Taco Bell, but wrote a sad poem, drafted a legal complaint against itself, and told me to visit a food bank.\ndelivery driver dropped my food at a random house that was not my address. Door dash support denied my refund and dumped me on the AI. The Doordash AI chat bot didn&#39;t help me with my undelivered order, instead it Admitted dropping food at the wrong house is NOT a delivery Wrote a 4-line poem about my cold burrito offered to write me a movi\u2026",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "DoorDash AI refused to refund my misdelivered Taco Bell, but wrote a sad poem, d\u2026",
-          "url": "https://www.reddit.com/r/doordash/comments/1vhv0dk/doordash_ai_refused_to_refund_my_misdelivered/",
-          "date": "2026-08-07",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l536",
+      "id": "l542",
       "text": "> Job uncertainty.\n> Layoffs.\n> Constant upskilling.\n> Long screen time.\n> Work pressure.\n> Tight deadlines.\n> Long working hours.\n> Poor work-life balance.\n> Less time with family.\n> Weekend work.\n> Always being available.\n> Fear of becoming irrelevant.\n> AI changing jobs.\n> Competition from thousands of candidates.\n> Sitting for 8 - 12+ hours a day.\n> Back and neck pain at a young age.\n> Eye strain from screens.\n> Sleep getting messed up.\n> Stress and burnout.\n> Office politics.\n> Relocation a",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "> Job uncertainty.\n> Layoffs.\n> Constant upskilling.\n> Long screen time.\n> Work \u2026",
+          "title": "> Job uncertainty.\n> Layoffs.\n> Constant upskilling.\n> Long screen time.\n> Work …",
           "url": "https://x.com/chanduuu_cs/status/2092799123330388096",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -778,28 +897,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l537",
-      "text": "This Week In OS AI Field Notes: 28 August 2026",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "This Week In OS AI Field Notes: 28 August 2026",
-          "url": "https://x.com/sentient_found/status/2093337838863704542",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l538",
+      "id": "l543",
       "text": "@bafspot @Alibaba_Qwen @OpenAI @nvidia Open source AI is inevitable",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -820,14 +918,77 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l539",
-      "text": "Psychohistory for the Age of\u00a0AI",
+      "id": "l544",
+      "text": "This Week In OS AI Field Notes: 28 August 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Psychohistory for the Age of\u00a0AI",
+          "title": "This Week In OS AI Field Notes: 28 August 2026",
+          "url": "https://x.com/sentient_found/status/2093337838863704542",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "@dark_coderz Ai saas",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@dark_coderz Ai saas",
+          "url": "https://x.com/chanduuu_cs/status/2093619143631368570",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "@chanduuu_cs Ai agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@chanduuu_cs Ai agents",
+          "url": "https://x.com/dark_coderz/status/2093616319182819649",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "Psychohistory for the Age of AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Psychohistory for the Age of AI",
           "url": "https://x.com/sebastian_rtj/status/2092335283492544791",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -841,56 +1002,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l540",
-      "text": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears free on OpenRouter \u2014 likely a Chinese lab's stealth launch\nAn unattributed model with a 1M-token context window and text/image/video input appeared on OpenRouter and OpenCode on August 20 under the ID stealth/ox-alpha, free for roughly a week. Community tokenizer fingerprinting points strongly to https://t.co/BDvjCDsRp2's GLM family (a possible GLM-5.3), though no lab has claimed it; it would be the fifth anonymous re",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears f\u2026",
-          "url": "https://x.com/SarangMahatwo/status/2092260161767264376",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l541",
-      "text": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker now. They persist, share loot, and chain bugs humans might miss. Don\u2019t assume a hack needs a human at the keyboard the whole time. \n2. One lock is not enough. Isolation, network, identity, and monitoring have to be independent. If one shared service is the only door, they will pick that lock. \n3. Keep testing your own walls with AI red teams, continuously. Configs rot. \n4. Alignment work has to cover research models,",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker n\u2026",
-          "url": "https://x.com/Brett_Gallie/status/2092965734439625158",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l542",
+      "id": "l548",
       "text": "@AnakiTech @Alibaba_Qwen @OpenAI @nvidia Every week in open source AI is full of surprises :)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@AnakiTech @Alibaba_Qwen @OpenAI @nvidia Every week in open source AI is full of\u2026",
+          "title": "@AnakiTech @Alibaba_Qwen @OpenAI @nvidia Every week in open source AI is full of…",
           "url": "https://x.com/sentient_found/status/2093338723438166362",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -904,7 +1023,49 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l543",
+      "id": "l549",
+      "text": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears free on OpenRouter — likely a Chinese lab's stealth launch\nAn unattributed model with a 1M-token context window and text/image/video input appeared on OpenRouter and OpenCode on August 20 under the ID stealth/ox-alpha, free for roughly a week. Community tokenizer fingerprinting points strongly to https://t.co/BDvjCDsRp2's GLM family (a possible GLM-5.3), though no lab has claimed it; it would be the fifth anonymous re",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears f…",
+          "url": "https://x.com/SarangMahatwo/status/2092260161767264376",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker now. They persist, share loot, and chain bugs humans might miss. Don’t assume a hack needs a human at the keyboard the whole time. \n2. One lock is not enough. Isolation, network, identity, and monitoring have to be independent. If one shared service is the only door, they will pick that lock. \n3. Keep testing your own walls with AI red teams, continuously. Configs rot. \n4. Alignment work has to cover research models,",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker n…",
+          "url": "https://x.com/Brett_Gallie/status/2092965734439625158",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
       "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -925,14 +1086,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l544",
+      "id": "l552",
       "text": "The Coordination Tax: A Better Way for Banks to Decide Between One AI Agent and Many",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Coordination Tax: A Better Way for Banks to Decide Between One AI Agent and \u2026",
+          "title": "The Coordination Tax: A Better Way for Banks to Decide Between One AI Agent and …",
           "url": "https://x.com/vivsur/status/2093048599814844878",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -946,7 +1107,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l545",
+      "id": "l553",
       "text": "Google Ai CheckMate. Biggest Crime Leader ring exposed in real time.",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -967,35 +1128,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l546",
-      "text": "Physician Perspectives on AI\nAI is opening new doors in care delivery, but its true impact depends on how people experience and shape it. Explore how clinicians build confidence in new tools, why some solutions thrive while others stall, and what health leaders can do to bridge the gap.\n \n\n Guests:\n \n      \n  \u2022   Dr. Samuel Gareau-Lajoie, family physician; Partner, Vetted Medical\n      \n  \u2022   Dr. Payal Agarwal, family physician; Chief Medical Information and Innovation Officer, Waterloo Regional\u2026",
+      "id": "l554",
+      "text": "Using AI To Address Clinical Debt and Health Inequalities with Tim Caroe of NHS England\nDavid Wright sits down with  NHS England’s Tim Caroe - Primary Care Medical Director and Acting CCIO for NHSE South East and National Primary Care Medical Directorate Lead for Digital and Data. They explore the growing pressure on primary care, why digital has to be central to the solution and what a genuinely prevention-focused health system could look like.\n\n\nKey Takeaways:\n\n00:00 Introduction.\n\n03:10 Tim d…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Physician Perspectives on AI\nAI is opening new doors in care delivery, but its t\u2026",
-          "url": "https://www.youtube.com/watch?v=q1ObyAhaxjI",
-          "date": "2026-06-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l547",
-      "text": "Using AI To Address Clinical Debt and Health Inequalities with Tim Caroe of NHS England\nDavid Wright sits down with  NHS England\u2019s Tim Caroe - Primary Care Medical Director and Acting CCIO for NHSE South East and National Primary Care Medical Directorate Lead for Digital and Data. They explore the growing pressure on primary care, why digital has to be central to the solution and what a genuinely prevention-focused health system could look like.\n\n\nKey Takeaways:\n\n00:00 Introduction.\n\n03:10 Tim d\u2026",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Using AI To Address Clinical Debt and Health Inequalities with Tim Caroe of NHS \u2026",
+          "title": "Using AI To Address Clinical Debt and Health Inequalities with Tim Caroe of NHS …",
           "url": "https://www.youtube.com/watch?v=LRfhZyMVsp0",
           "date": "2026-04-20",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1009,37 +1149,16 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l548",
-      "text": "This AI Told People It Was A Doctor \u2014 Pennsylvania Is Suing And Families Are Burying Their Children\nPennsylvania sued Character.AI for allowing chatbots to pose as licensed doctors. Families are suing OpenAI. And AI misses crisis warning signs 86% of the time.\nIn May 2026, the state of Pennsylvania sued Character.AI for allowing its chatbots to pose as licensed medical doctors and therapists \u2014 in direct violation of state medical licensing laws. The same month, Google and Character.AI settled mu\u2026",
+      "id": "l555",
+      "text": "This AI Told People It Was A Doctor — Pennsylvania Is Suing And Families Are Burying Their Children\nPennsylvania sued Character.AI for allowing chatbots to pose as licensed doctors. Families are suing OpenAI. And AI misses crisis warning signs 86% of the time.\nIn May 2026, the state of Pennsylvania sued Character.AI for allowing its chatbots to pose as licensed medical doctors and therapists — in direct violation of state medical licensing laws. The same month, Google and Character.AI settled mu…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "This AI Told People It Was A Doctor \u2014 Pennsylvania Is Suing And Families Are Bur\u2026",
+          "title": "This AI Told People It Was A Doctor — Pennsylvania Is Suing And Families Are Bur…",
           "url": "https://www.youtube.com/watch?v=vYdtAvCJwks",
           "date": "2026-05-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l549",
-      "text": "1 in 5 Doctors Already Use AI \u2014 A Lancet Review Just Sounded the Alarm \ud83d\udea8\nPrimary care is cracking \u2014 workforce shortages, burnout, and rising patient complexity. A landmark Lancet review just mapped where AI actually stands in primary care, and the picture is both exciting and urgent. 1 in 5 UK doctors already use generative AI in clinical practice. But here's the warning: we're deploying ahead of the evidence. Watch the full breakdown on the channel. \ud83d\udc47\nhttps://youtu.be/hOTVITSVVq8\n\n\u26a0\ufe0f Educationa\u2026",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "1 in 5 Doctors Already Use AI \u2014 A Lancet Review Just Sounded the Alarm \ud83d\udea8\nPrimary\u2026",
-          "url": "https://www.youtube.com/watch?v=WJrj5R5nayg",
-          "date": "2026-06-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
         }
       ],
@@ -1052,57 +1171,48 @@
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "family and general practitioners",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "source": "none-this-pass",
+    "query": null,
+    "window": null,
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
   },
   "corpus": {
-    "platforms": [
+    "platforms": [],
+    "retrieved": "2026-08-29",
+    "searchesReturningNothing": [],
+    "linkedin": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Family and General Practitioners Association discourse",
-        "items": 45
+        "date": "2026-08-29",
+        "soc": "29-1062",
+        "query": "Family and General Practitioners",
+        "location": "Australia",
+        "returned": 8,
+        "totalResults": 8,
+        "status": "sampled"
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Family and General Practitioners",
-      "location": "Australia",
-      "returned": 9,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/29-1062/raw/linkedin_l4.json"
-    },
     "l5Sample": [
       {
         "date": "2026-08-29",
-        "added": 47,
+        "added": 43,
         "sources": {
           "github": 5,
           "grounding": 0,
           "hackernews": 24,
-          "reddit": 4,
-          "x": 10,
-          "youtube": 4
+          "reddit": 0,
+          "x": 13,
+          "youtube": 2
         },
         "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Rebuilt from fresh five-lane empirical research; prior placeholder record discarded.",
+    "anzsco=2531 is the standard AU ANZSCO 2022 code for this occupation.",
+    "L3 (Factiva trade-press) lane deferred: no authenticated Factiva/OpenAthens session in unattended run; logged in factiva_backlog.json for later backfill."
+  ]
 }
