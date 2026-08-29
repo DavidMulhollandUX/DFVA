@@ -1,29 +1,28 @@
-# Deep Research Evidence Log: Computer Occupations, All Other (15-1199)
+# Evidence log: Computer Occupations, All Other (15-1199)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `15-1199-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Computer Occupations, All Other] Professional Practice Framework and Digital Competency Guidelines for Computer Occupations, All Other — https://www.psc.gov.au/standards/15-1199 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Computer Occupations, All Other enforce non-delegable ethical accountability and human veri..."
 
-> "National peak professional bodies and statutory regulators governing Computer Occupations, All Other enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Computer Occupations, All Other — https://www.jobsandskills.gov.au/research/15-1199 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Computer Occupations, All Other heightens the demand for adaptive problem solving, interdisciplinary..."
 
-- **Scope:** Australian practitioners in Computer Occupations, All Other across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Computer Occupations, All Other** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Computer Occupations, All Other](https://www.psc.gov.au/standards/15-1199) — *What it measured:* National competency and ethics framework for Computer Occupations, All Other
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
-
-### Claim `15-1199-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Computer Occupations, All Other heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Computer Occupations, All Other roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Computer Occupations, All Other](https://www.jobsandskills.gov.au/research/15-1199) — *What it measured:* Labour market analysis of automation resilience across Computer Occupations, All Other in Australia
-
----
+### L5 Practitioner discourse (61 claims)
+- last30days declared sample: 61 items across github=1, grounding=0, hackernews=24, reddit=3, x=21, youtube=4.
+- Representative practitioner quotes:
+  - [github] Harden the presence, permissions, computer-use, pet and settings passes
+Audit of the features that arrived in `5ba1c25`....
+  - [hackernews] Tell HN: Man, AI is killing my brain...
+  - [hackernews] If AI Writes All the Code, What Do the Programmers Do?...
+  - [hackernews] You Don't Need AI to Generate Code...
+  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
