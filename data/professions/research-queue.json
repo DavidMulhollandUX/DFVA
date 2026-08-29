@@ -331,7 +331,7 @@
     "19-1011": "done",
     "19-1012": "done",
     "19-1013": "done",
-    "19-1020": "pending",
+    "19-1020": "done",
     "19-1022": "pending",
     "19-1023": "pending",
     "19-1029": "pending",
@@ -548,7 +548,8 @@
     "17-3023": 2,
     "19-1011": 1,
     "19-1012": 1,
-    "19-1013": 1
+    "19-1013": 1,
+    "19-1020": 1
   },
   "leases": {},
   "runs": [
@@ -857,6 +858,12 @@
       "soc": "19-1013",
       "status": "done",
       "note": "5-lane empirical; Factiva expired->web trade press; L5 40 items"
+    },
+    {
+      "at": "2026-08-29T10:10:04.609529+00:00",
+      "soc": "19-1020",
+      "status": "done",
+      "note": "5-lane empirical; Factiva expired->web trade press; L5 58 items"
     }
   ],
   "claims": [
