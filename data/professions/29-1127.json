@@ -1119,6 +1119,363 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l453",
+      "text": "Speech Language Pathologist \u2014 The Child Development Hub (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "The Child Development Hub",
+          "title": "Speech Language Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4454257521",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Speech Pathologist \u2014 The Royal Children's Hospital (Melbourne, Victoria, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "The Royal Children's Hospital",
+          "title": "Speech Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4454971729",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Speech Language Pathologist - Statewide Talent Pool \u2014 Queensland Government (Brisbane, Queensland, Australia). Posted 6 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Government",
+          "title": "Speech Language Pathologist - Statewide Talent Pool",
+          "url": "https://www.linkedin.com/jobs/view/4373928455",
+          "date": "6 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Speech Pathologist \u2014 Each (Campbelltown, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Each",
+          "title": "Speech Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4443640714",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "Speech Pathologist \u2014 Early Start Australia (Strathpine, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Early Start Australia",
+          "title": "Speech Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4452896974",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l458",
+      "text": "Speech Pathologist \u2014 Early Start Australia (Coomera, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Early Start Australia",
+          "title": "Speech Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4311015432",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Speech Pathologist \u2014 Soaring Health Sport, Wellness & Community Centre (Craigieburn, Victoria, Australia). Posted 5 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Soaring Health Sport, Wellness & Community Centre",
+          "title": "Speech Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4379792338",
+          "date": "5 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l460",
+      "text": "AHP1/2 Speech Pathologists, Multiple Roles, Various Locations \u2014 Department for Education, South Australia (South Australia, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department for Education, South Australia",
+          "title": "AHP1/2 Speech Pathologists, Multiple Roles, Various Locations",
+          "url": "https://www.linkedin.com/jobs/view/4381930274",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l461",
+      "text": "Speech Language Pathologist \u2014 MySolas (Townsville, Queensland, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "MySolas",
+          "title": "Speech Language Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4453887368",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "Speech Pathologist \u2014 APM (Strathpine, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "APM",
+          "title": "Speech Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4454948571",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l563",
+      "text": "Add a full standalone For Clinicians page\n## Summary\nFourth of the five nav sections converted from a homepage anchor into a real page (Research, Science, and For Families already merged).\n\nWritten for a speech-language pathologist or clinic deciding whether and how to fit this alongside existing care:\n\n- How live remote monitoring works fo\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settings/us\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add a full standalone For Clinicians page\n## Summary\nFourth of the five nav sect\u2026",
+          "url": "https://github.com/kaleidoscopeAI/goeckoh-site/pull/51",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "Collections Agent platform: voice bot, KB RAG, Prompt Studio, billing & sandbox tuning\n## Summary\r\nEnd-to-end BFSI Collections Agent platform across three surfaces \u2014 frontend (`Habibi/`, TanStack), backend (FastAPI + Postgres 16/pgvector), and a **Pipecat 1.0** voice bot. This bundles the full body of work to date so it can be reviewed as one unit.\r\n\r\n## Backend\r\n- **Voice bot** (`bac\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Rev\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Collections Agent platform: voice bot, KB RAG, Prompt Studio, billing & sandbox \u2026",
+          "url": "https://github.com/susanthp18/Habibi/pull/3",
+          "date": "2026-07-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "Grace Flare Pro \u2014 SLP services + parent home-program product (MVP)\n## What this is\n\nA new, separately-monetized professional product surface for speech-language pathologists \u2014 inspired by the \"Claude for Teachers\" launch \u2014 living in the same repo/Supabase project as a distinct branded area, plus a public no-account parent view.\n\n**Status: WIP.** Phase A (backend) i\n[vc]: #/zPIIgJMWhkazsSAA2z4XSDvVdDMGaSKf82/LSH1DH4=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJncmFj\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Grace Flare Pro \u2014 SLP services + parent home-program product (MVP)\n## What this \u2026",
+          "url": "https://github.com/MJACode/bright-baby-steps/pull/177",
+          "date": "2026-07-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "Has anybody used Speech Blubs?\nI&#39;ve been seeing ads for Speech Blubs everywhere. I came across one ad in particular where they used an AI &quot;speech-language pathologist&quot; on a stage to say that late talkers do not catch up on their own and that parents should use Speech Blubs to help their child. All the ads I&#39;ve seen seem to encourage using the app to teach their children how to speak (opposed to actual human interaction) and felt like fearmongering for parents who might genuinel\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Has anybody used Speech Blubs?\nI&#39;ve been seeing ads for Speech Blubs everywh\u2026",
+          "url": "https://www.reddit.com/r/slp/comments/1votl16/has_anybody_used_speech_blubs/",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "I asked AI to go through all the available evidence of afterlife and miracles. This is what it said\nExecutive Summary I treated this as an evidence-integration problem rather than a religion-versus-materialism argument, and searched specifically for prospective studies, primary papers, systematic reviews, adversarial replications, and the strongest anomalous cases available through August 10, 2026 . My conclusion is asymmetric: Science strongly establishes that ordinary human consciousness is ex\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I asked AI to go through all the available evidence of afterlife and miracles. T\u2026",
+          "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1vkq6fd/i_asked_ai_to_go_through_all_the_available/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy Notes\nIn this video, therapist Kendra Seoane shares her experience using Twofold AI, one of the fastest-growing AI scribes for therapists and mental health professionals.\n\nIf you're searching for the best AI scribe for therapists, AI therapy notes generator, or a HIPAA-compliant AI note taker for mental health professionals, this testimonial explains why many clinicians are switching to Twofold to save time on documen\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy N\u2026",
+          "url": "https://www.youtube.com/watch?v=mfKn0ZBCV-U",
+          "date": "2026-03-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "Praxis Speech-Language Pathology 5331 Practice Test 2026 | Master Your SLP Certification\nPractice today, improve tomorrow, and prepare with confidence at https://quizzprep.com/\n. Passing the Praxis Speech-Language Pathology 5331 exam in 2026 requires more than just a surface-level understanding of communication disorders. It demands a sophisticated mastery of clinical judgment, the latest ASHA standards, and the evidence-based practices that define modern speech therapy. This comprehensive pract\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Praxis Speech-Language Pathology 5331 Practice Test 2026 | Master Your SLP Certi\u2026",
+          "url": "https://www.youtube.com/watch?v=SL1FrrrwXbM",
+          "date": "2026-03-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1149,14 +1506,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Speech-Language Pathologists",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/29-1127/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Speech-Language Pathologists",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/29-1127/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "29-1127",
+        "query": "Speech-Language Pathologists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1171,9 +1539,24 @@
           "youtube": 2
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 7,
+        "sources": {
+          "github": 5,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 3,
+          "x": 16,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

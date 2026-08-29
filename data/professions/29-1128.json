@@ -902,6 +902,300 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l443",
+      "text": "Exercise Physiologist \u2014 Kieser Australia (Sunshine Coast, Queensland, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Kieser Australia",
+          "title": "Exercise Physiologist",
+          "url": "https://www.linkedin.com/jobs/view/4456473137",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l444",
+      "text": "Exercise Physiologist \u2014 UnitingCare Queensland (Fraser Coast, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "UnitingCare Queensland",
+          "title": "Exercise Physiologist",
+          "url": "https://www.linkedin.com/jobs/view/4456556067",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l445",
+      "text": "Exercise Physiologist - Sporting Wheelies \u2014 Spinal Life Australia (Milton, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Spinal Life Australia",
+          "title": "Exercise Physiologist - Sporting Wheelies",
+          "url": "https://www.linkedin.com/jobs/view/4453904087",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l446",
+      "text": "Exercise Physiologist | Nowra \u2014 Optimum Health Solutions (Nowra, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Optimum Health Solutions",
+          "title": "Exercise Physiologist | Nowra",
+          "url": "https://www.linkedin.com/jobs/view/4448105904",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l447",
+      "text": "Exercise Physiologist \u2014 UnitingCare Queensland (Maryborough, Queensland, Australia). Posted 15 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "UnitingCare Queensland",
+          "title": "Exercise Physiologist",
+          "url": "https://www.linkedin.com/jobs/view/4456551069",
+          "date": "15 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l448",
+      "text": "Senior Exercise Physiologist \u2014 MoveImprove Performance (Killara, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "MoveImprove Performance",
+          "title": "Senior Exercise Physiologist",
+          "url": "https://www.linkedin.com/jobs/view/4453980727",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l449",
+      "text": "Exercise Physiologist \u2014 Kieser Australia (Maroochydore, Queensland, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Kieser Australia",
+          "title": "Exercise Physiologist",
+          "url": "https://www.linkedin.com/jobs/view/4455499297",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l450",
+      "text": "Clinical Exercise Physiologist \u2014 South West Health Management (Campbelltown, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "South West Health Management",
+          "title": "Clinical Exercise Physiologist",
+          "url": "https://www.linkedin.com/jobs/view/4439140127",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l451",
+      "text": "Exercise Physiologist | Batemans Bay \u2014 Optimum Health Solutions (Batemans Bay, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Optimum Health Solutions",
+          "title": "Exercise Physiologist | Batemans Bay",
+          "url": "https://www.linkedin.com/jobs/view/4448114734",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l552",
+      "text": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarcus (15 Jul): *\"We talk a lot about dietitians but there's no mention of the exercise physiologists anywhere. Is that deliberate?\"*\n\n## Answer (verified) \u2014 half-deliberate, now fixed\n- **No standalone EP page is correct** \u2014 Ahrefs AU shows no bariatric/weight-loss EP search demand (`exerci\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarc\u2026",
+          "url": "https://github.com/amirariff91/marcuscaporaso/pull/11",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "Some of the anti-AI backlash in education is probably coming from people who financially benefit from keeping education expensive\nI think there is an uncomfortable financial incentive behind at least some of the hostility toward AI in higher education that nobody really wants to talk about. The American higher-education system is built around scarcity. You need admission to the right institution. You need professors, classrooms, administrative departments, textbooks, accreditation, four years of\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Some of the anti-AI backlash in education is probably coming from people who fin\u2026",
+          "url": "https://www.reddit.com/r/TrueUnpopularOpinion/comments/1vvlqpe/some_of_the_antiai_backlash_in_education_is/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra\u2026",
+          "url": "https://www.reddit.com/r/HFY/comments/1vwpkvz/the_human_artificial_hivemind_part_641_a_new_set/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Should Be Commonly Owned and Controlled \u2014 and How Such Cooperation Could Be Organized Artificial intelligence may become one of humanity\u2019s most important productive, scientific, political, and administrative capacities. If that is the case, the central question is not only what AI will be able to do, but who will own it, who will control its development and use, and who will benefit from the value it creates. There are\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Sh\u2026",
+          "url": "https://www.reddit.com/r/LeftistsForAI/comments/1vcmh7k/the_case_for_common_ownership_and_international/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Prep\nPrepare smarter with https://quizzprep.com/ \u2014 get the latest practice quizzes, exam prep packages, and quick-review cheat sheets to help you study faster and pass with confidence.\n. Achieving the ACSM Certified Exercise Physiologist (ACSM-EP) credential in 2026 marks you as a leader in the science of health and fitness. This comprehensive walkthrough is designed to prepare you for the current certification exam, c\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Pr\u2026",
+          "url": "https://www.youtube.com/watch?v=6o3kWOEkrJ4",
+          "date": "2026-03-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -932,14 +1226,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Exercise Physiologists",
-      "location": "Australia",
-      "returned": 9,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/29-1128/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Exercise Physiologists",
+        "location": "Australia",
+        "returned": 9,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/29-1128/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "29-1128",
+        "query": "Exercise Physiologists",
+        "location": "Australia",
+        "returned": 9,
+        "totalResults": 9,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -954,9 +1259,24 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 5,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 3,
+          "x": 11,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -1,29 +1,42 @@
-# Deep Research Evidence Log: Speech-Language Pathologists (29-1127)
+# Evidence log: Speech-Language Pathologists (29-1127)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `29-1127-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Speech-Language Pathologists] Professional Practice Framework and Digital Competency Guidelines for Speech-Language Pathologists — https://www.psc.gov.au/standards/29-1127 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Speech-Language Pathologists enforce non-delegable ethical accountability and human verific..."
 
-> "National peak professional bodies and statutory regulators governing Speech-Language Pathologists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Speech-Language Pathologists — https://www.jobsandskills.gov.au/research/29-1127 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Speech-Language Pathologists heightens the demand for adaptive problem solving, interdisciplinary st..."
 
-- **Scope:** Australian practitioners in Speech-Language Pathologists across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Speech-Language Pathologists** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Speech-Language Pathologists](https://www.psc.gov.au/standards/29-1127) — *What it measured:* National competency and ethics framework for Speech-Language Pathologists
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (57 claims)
+- last30days declared sample: 57 items across github=5, grounding=0, hackernews=24, jobs=0, reddit=3, x=16, youtube=2.
+- Representative practitioner quotes:
+  - [github] Add a full standalone For Clinicians page
+## Summary
+Fourth of the five nav sections converted from a homepage anchor in...
+  - [github] Collections Agent platform: voice bot, KB RAG, Prompt Studio, billing & sandbox tuning
+## Summary
+End-to-end BFSI Colle...
+  - [github] Grace Flare Pro — SLP services + parent home-program product (MVP)
+## What this is
 
-### Claim `29-1127-02` (L2 · scholarly)
+A new, separately-monetized professi...
+  - [github] New project submission: TheraGraf
+Name: TheraGraf
+           Website: www.theragraf.com
+           Repository: https://g...
+  - [github] Add Project: Cognitive Care Assistant by Corbin and Connor Craig
+### Your Full Name
 
-> "Automation of routine transactional and analytical tasks in Speech-Language Pathologists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+Corbin Craig and Connor Craig
 
-- **Scope:** Entry-level and senior Speech-Language Pathologists roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Speech-Language Pathologists](https://www.jobsandskills.gov.au/research/29-1127) — *What it measured:* Labour market analysis of automation resilience across Speech-Language Pathologists in Australia
-
----
+### ...
