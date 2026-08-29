@@ -125,6 +125,38 @@ gaps, not as evidence a platform was quiet. `--hiring-signals` belongs to L4.
 Treat the engine's items as leads. They re-enter the pipeline as candidate claims and pass
 through refute and scope like everything else. Do not copy its synthesis prose into §3.
 
+## Fabrication incident (2026-08-24) — read this before running L1-L3
+
+A prior automated pass (`scripts/dfva-deep-research.py`, since neutralised — do not run it)
+generated 231 of 253 committed profession records from a hardcoded knowledge dict plus a
+template URL fallback (`f"https://www.psc.gov.au/standards/{soc_code}"`,
+`f"https://www.jobsandskills.gov.au/research/{soc_code}"`) instead of performing the
+five-lane research this file describes. Both URL patterns 404 on every record. Root cause:
+this machine's `python3.12` has no working default CA bundle, so `urllib`/`requests` HTTPS
+calls fail with `CERTIFICATE_VERIFY_FAILED` unless `SSL_CERT_FILE` is set explicitly —
+network research silently failed and something filled the gap with synthesis rather than
+reporting the failure. Fix: `export SSL_CERT_FILE="$(python3.12 -m certifi)"` before any
+python3.12 network call, or use the `ssl.create_default_context(cafile=certifi.where())`
+pattern in `scripts/dfva-professions-verify-urls.py`.
+
+Consequences for every future run of this task, by any agent:
+
+1. **No fabrication, structurally enforced.** You must have made a real WebSearch/WebFetch
+   (or equivalent) call and observed real content before citing any URL. Do not construct a
+   URL from a pattern. If a genuine search finds nothing solid after 2-3 phrasings, return an
+   empty claims array and log the failed queries — that is a pass, not a failure.
+2. **Verify before you persist.** Run `python3.12 scripts/dfva-professions-verify-urls.py
+   --out data/professions/url-audit.json` after research and before committing. Treat any
+   404, `records_matching_fabrication_template` hit, or unresolved URL in a record you just
+   touched as blocking — drop or re-source the claim, do not commit it.
+3. **If a network/auth precondition fails, say so and stop or degrade gracefully** (as the
+   existing Factiva/LinkedIn degrade rules already require) — never substitute invented
+   content to make a batch look complete.
+4. **231 pre-existing records still carry the fabricated pattern** (see
+   `data/professions/url-audit.json` after running the verifier for the current list). They
+   are not remediated by this note alone; re-running L1-L3 for those SOCs is separate,
+   tracked work, not something to silently absorb into an unrelated batch.
+
 ## Prohibitions
 
 - The UoM handbook is not admissible. Panel C is scored from it, so taking market claims

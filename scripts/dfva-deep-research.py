@@ -1,19 +1,35 @@
 #!/usr/bin/env python3
 """
-DFVA Deep Profession Market Research Engine.
-Implements docs/dfva-profession-deep-research.md and docs/tasks/dfva-profession-discourse.SKILL.md.
+NEUTRALISED 2026-08-29 — DO NOT RUN.
 
-Produces:
-1. data/professions/<soc>.json (committed record conforming to Section 6 output contract)
-2. data/professions/<soc>/evidence.md (verbatim quotes and sources)
-3. Backfills and enriches reports/dfva-market-<code>.md, reports/dfva-v4-<code>.md, and reports/dfva-v4-recommend-<code>.md
+This script does not perform research. `PROFESSION_KNOWLEDGE` below is a hardcoded dict,
+and every SOC not in it falls back to a template that synthesises a fake publisher name and
+a fake URL (`f"https://www.psc.gov.au/standards/{soc_code}"`,
+`f"https://www.jobsandskills.gov.au/research/{soc_code}"`). Both URL patterns 404. Running
+this script generated 231 of the 253 committed records in data/professions/ with fabricated
+L1/L2 claims and a fabricated jobAds block, committed 2026-08-24 in 0a7ad1419106.
+
+Root cause: this machine's python3.12 has no working default CA bundle, so real HTTPS
+research calls failed with CERTIFICATE_VERIFY_FAILED, and whatever generated this script
+filled the resulting gap with synthesis instead of reporting the failure. See
+docs/tasks/dfva-profession-discourse.SKILL.md ("Fabrication incident 2026-08-24") for the
+real procedure and the fix.
+
+Left in place, unmodified below this guard, only as a forensic record. If you are tempted to
+resurrect this approach: don't. Do the five-lane research the SKILL describes, with a real
+WebSearch/WebFetch call behind every claim.
 """
+
+import sys
+sys.exit(
+    "scripts/dfva-deep-research.py is neutralised — it fabricates data, it does not research it. "
+    "See the docstring and docs/tasks/dfva-profession-discourse.SKILL.md."
+)
 
 import csv
 import json
 import os
 import subprocess
-import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
