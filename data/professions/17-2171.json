@@ -86,7 +86,7 @@
       "id": "17-2171-L3-01",
       "lane": "L3",
       "tier": "trade-press-dated",
-      "text": "SPE reports AI is 'transforming—not replacing' petroleum engineering: machine learning now assists reservoir characterisation, identifies sweet spots from seismic and well-log data, and predicts equipment failures (Shell and BP report up to 20% less unplanned downtime). A 2024 analysis found only ~15% of reservoir engineers routinely use ML, with >50% reporting minimal exposure - a skills gap.",
+      "text": "SPE reports AI is 'transforming\u2014not replacing' petroleum engineering: machine learning now assists reservoir characterisation, identifies sweet spots from seismic and well-log data, and predicts equipment failures (Shell and BP report up to 20% less unplanned downtime). A 2024 analysis found only ~15% of reservoir engineers routinely use ML, with >50% reporting minimal exposure - a skills gap.",
       "sources": [
         {
           "publisher": "SPE (jpt.spe.org)",
@@ -313,11 +313,11 @@
       "id": "l516",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "📰 科研 & 技术热点日报 - 2026-08-22 上午\n# 🧠 科研 & 技术热点日报\n\n日期：2026-08-22 上午\n生成时间：2026/08/22 09:02\n\n## 🔥 AI / LLM\n\n- **Active Inference as Context Acquisition for AI Agents**  \n  来源：arXiv cs.AI (arXiv（论文摘要）)  \n  摘要（RSS摘要）：arXiv:2608.19202v1 Announce Type: new  Abstract: Interactive AI agents must acquire the right context as efficiently as p",
+      "text": "\ud83d\udcf0 \u79d1\u7814 & \u6280\u672f\u70ed\u70b9\u65e5\u62a5 - 2026-08-22 \u4e0a\u5348\n# \ud83e\udde0 \u79d1\u7814 & \u6280\u672f\u70ed\u70b9\u65e5\u62a5\n\n\u65e5\u671f\uff1a2026-08-22 \u4e0a\u5348\n\u751f\u6210\u65f6\u95f4\uff1a2026/08/22 09:02\n\n## \ud83d\udd25 AI / LLM\n\n- **Active Inference as Context Acquisition for AI Agents**  \n  \u6765\u6e90\uff1aarXiv cs.AI (arXiv\uff08\u8bba\u6587\u6458\u8981\uff09)  \n  \u6458\u8981\uff08RSS\u6458\u8981\uff09\uff1aarXiv:2608.19202v1 Announce Type: new  Abstract: Interactive AI agents must acquire the right context as efficiently as p",
       "sources": [
         {
           "publisher": "github",
-          "title": "📰 科研 & 技术热点日报 - 2026-08-22 上午\n# 🧠 科研 & 技术热点日报\n\n日期：2026-08-22 上午\n生成时间：2026/08/22 …",
+          "title": "\ud83d\udcf0 \u79d1\u7814 & \u6280\u672f\u70ed\u70b9\u65e5\u62a5 - 2026-08-22 \u4e0a\u5348\n# \ud83e\udde0 \u79d1\u7814 & \u6280\u672f\u70ed\u70b9\u65e5\u62a5\n\n\u65e5\u671f\uff1a2026-08-22 \u4e0a\u5348\n\u751f\u6210\u65f6\u95f4\uff1a2026/08/22 \u2026",
           "url": "https://github.com/JaredYe04/news-bot/issues/235",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -334,11 +334,11 @@
       "id": "l517",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "每日速报 (Daily Digest): 2026-08-21\n# AI-Enhanced arXiv Daily 2026-08-21\n\n<a id='toc'></a>\n## 今日总计: 832 篇论文\n### 目录\n- [math.NA](#mathna) (26 篇)\n- [stat.AP](#statap) (7 篇)\n- [q-fin.MF](#q-finmf) (1 篇)\n- [cs.AI](#csai) (221 篇)\n- [cs.IR](#csir) (14 篇)\n- [cs.CL](#cscl) (59 篇)\n- [cs.FL](#csfl) (4 篇)\n- [cs.LG](#cslg) (92 篇)\n- [cs.DL](#csdl)",
+      "text": "\u6bcf\u65e5\u901f\u62a5 (Daily Digest): 2026-08-21\n# AI-Enhanced arXiv Daily 2026-08-21\n\n<a id='toc'></a>\n## \u4eca\u65e5\u603b\u8ba1: 832 \u7bc7\u8bba\u6587\n### \u76ee\u5f55\n- [math.NA](#mathna) (26 \u7bc7)\n- [stat.AP](#statap) (7 \u7bc7)\n- [q-fin.MF](#q-finmf) (1 \u7bc7)\n- [cs.AI](#csai) (221 \u7bc7)\n- [cs.IR](#csir) (14 \u7bc7)\n- [cs.CL](#cscl) (59 \u7bc7)\n- [cs.FL](#csfl) (4 \u7bc7)\n- [cs.LG](#cslg) (92 \u7bc7)\n- [cs.DL](#csdl)",
       "sources": [
         {
           "publisher": "github",
-          "title": "每日速报 (Daily Digest): 2026-08-21\n# AI-Enhanced arXiv Daily 2026-08-21\n\n<a id='toc…",
+          "title": "\u6bcf\u65e5\u901f\u62a5 (Daily Digest): 2026-08-21\n# AI-Enhanced arXiv Daily 2026-08-21\n\n<a id='toc\u2026",
           "url": "https://github.com/xmkxabc/InsightArxiv/issues/300",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -359,7 +359,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Create a production-ready single-file ScaleWest landing page with full interacti…",
+          "title": "Create a production-ready single-file ScaleWest landing page with full interacti\u2026",
           "url": "https://github.com/kaungkyawkhant/scalewest.com.au/pull/1",
           "date": "2026-06-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -376,11 +376,11 @@
       "id": "l519",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please describe.**  \nQualCoder's AI integration could be expanded to include the GWDG SAIA API. Currently, accessing these models (like Gemma 4 31B Instruct) requires manual `config.ini` edits.\n\n**Describe the solution you'd like**  \nWould it be possib\nInteresting. I'm planning a project together with the GWDG that also involves QualCoder, so it's good to see that integrating this service already works. \nCould you investigate …",
+      "text": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please describe.**  \nQualCoder's AI integration could be expanded to include the GWDG SAIA API. Currently, accessing these models (like Gemma 4 31B Instruct) requires manual `config.ini` edits.\n\n**Describe the solution you'd like**  \nWould it be possib\nInteresting. I'm planning a project together with the GWDG that also involves QualCoder, so it's good to see that integrating this service already works. \nCould you investigate \u2026",
       "sources": [
         {
           "publisher": "github",
-          "title": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please des…",
+          "title": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please des\u2026",
           "url": "https://github.com/ccbogel/QualCoder/issues/1351",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -401,7 +401,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Claude OH AI: Place introduction instructions after findings instructions\nWith a…",
+          "title": "Claude OH AI: Place introduction instructions after findings instructions\nWith a\u2026",
           "url": "https://github.com/sciencehistory/scihist_digicoll/pull/3364",
           "date": "2026-03-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -418,11 +418,11 @@
       "id": "l521",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "Recovery: restore dashboard/app work + lock DB identity guardrails\n## Summary\nThis PR consolidates forensic recovery work and adds DB identity safety guardrails to prevent cross-project drift.\n\n## Included\n- Recovery and feature promotion commits (dashboard, policy, market drivers, ingestion, AI endpoints)\n- DB identity lock + local mirror tooling:\n  - `scripts/db_\n[vc]: #mcxxA8nXQ4qZCiC1itQ8JtVghS2qfEyPJ7fmUJsTMmE=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ6aW5j…",
+      "text": "Recovery: restore dashboard/app work + lock DB identity guardrails\n## Summary\nThis PR consolidates forensic recovery work and adds DB identity safety guardrails to prevent cross-project drift.\n\n## Included\n- Recovery and feature promotion commits (dashboard, policy, market drivers, ingestion, AI endpoints)\n- DB identity lock + local mirror tooling:\n  - `scripts/db_\n[vc]: #mcxxA8nXQ4qZCiC1itQ8JtVghS2qfEyPJ7fmUJsTMmE=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ6aW5j\u2026",
       "sources": [
         {
           "publisher": "github",
-          "title": "Recovery: restore dashboard/app work + lock DB identity guardrails\n## Summary\nTh…",
+          "title": "Recovery: restore dashboard/app work + lock DB identity guardrails\n## Summary\nTh\u2026",
           "url": "https://github.com/zincdigitalofmiami/ZINC-Fusion-V15/pull/7",
           "date": "2026-03-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -439,11 +439,11 @@
       "id": "l522",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
+      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
+          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -502,11 +502,11 @@
       "id": "l525",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
+      "text": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
+          "title": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
           "url": "https://github.com/calmrocks/ai-engineer-notebooks",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -628,11 +628,11 @@
       "id": "l531",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -691,11 +691,11 @@
       "id": "l534",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -796,11 +796,11 @@
       "id": "l539",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "Skyportal SRE – an open-source AI infrastructure engineer",
+      "text": "Skyportal SRE \u2013 an open-source AI infrastructure engineer",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Skyportal SRE – an open-source AI infrastructure engineer",
+          "title": "Skyportal SRE \u2013 an open-source AI infrastructure engineer",
           "url": "https://github.com/SkyportalAi/skyportalai",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -859,11 +859,11 @@
       "id": "l542",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -901,11 +901,11 @@
       "id": "l544",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -943,11 +943,11 @@
       "id": "l546",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -964,11 +964,11 @@
       "id": "l547",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "Looking for Petroleum Engineers to Interview\nI’m a high school student working on a PLTW Engineering assignment that requires me to interview an engineering professional. I’m specifically looking to interview a petroleum engineer . I’d like to ask about: Education and career path Current job and responsibilities Typical work schedule What they enjoy and find challenging about the job Important skills for petroleum engineers Salary and career advancement The impact of AI on petroleum engineering …",
+      "text": "Looking for Petroleum Engineers to Interview\nI\u2019m a high school student working on a PLTW Engineering assignment that requires me to interview an engineering professional. I\u2019m specifically looking to interview a petroleum engineer . I\u2019d like to ask about: Education and career path Current job and responsibilities Typical work schedule What they enjoy and find challenging about the job Important skills for petroleum engineers Salary and career advancement The impact of AI on petroleum engineering \u2026",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Looking for Petroleum Engineers to Interview\nI’m a high school student working o…",
+          "title": "Looking for Petroleum Engineers to Interview\nI\u2019m a high school student working o\u2026",
           "url": "https://www.reddit.com/r/Engineers/comments/1vmx81q/looking_for_petroleum_engineers_to_interview/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -985,11 +985,11 @@
       "id": "l548",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "🚨 BOMBSHELL: Elon Musk drops a reality check on Zanny Minton Beddoes. He confirms AI will soon perform any job better than humans can! He brilliantly reveals AI is already better than 90% of professional software engineers. The workforce faces massive disruption.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nDo it then. Ai is sinking in debt, tick tock nazi-boy This guy is such a racist dipshit and a loser. But not driving yourCar",
+      "text": "\ud83d\udea8 BOMBSHELL: Elon Musk drops a reality check on Zanny Minton Beddoes. He confirms AI will soon perform any job better than humans can! He brilliantly reveals AI is already better than 90% of professional software engineers. The workforce faces massive disruption.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nDo it then. Ai is sinking in debt, tick tock nazi-boy This guy is such a racist dipshit and a loser. But not driving yourCar",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "🚨 BOMBSHELL: Elon Musk drops a reality check on Zanny Minton Beddoes. He confirm…",
+          "title": "\ud83d\udea8 BOMBSHELL: Elon Musk drops a reality check on Zanny Minton Beddoes. He confirm\u2026",
           "url": "https://www.reddit.com/r/SECourses/comments/1vafu0n/bombshell_elon_musk_drops_a_reality_check_on/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1006,12 +1006,12 @@
       "id": "l549",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]\nHow so? Are you talking about LLM hype? Or what is the revolution part? That it's not real business model? (if you have time to spend che…",
+      "text": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]\nHow so? Are you talking about LLM hype? Or what is the revolution part? That it's not real business model? (if you have time to spend che\u2026",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks …",
-          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_à_special/",
+          "title": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks \u2026",
+          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_\u00e0_special/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
@@ -1027,11 +1027,11 @@
       "id": "l550",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. “Overnight, it changed the way I do my job,” he wrote. “It’s really, really good.” As he explained, he no longer used a standard development environment. Instead, he “exclusively uses Claude Code” to get the job done, interacting with the tool in a terminal windo…",
+      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. \u201cOvernight, it changed the way I do my job,\u201d he wrote. \u201cIt\u2019s really, really good.\u201d As he explained, he no longer used a standard development environment. Instead, he \u201cexclusively uses Claude Code\u201d to get the job done, interacting with the tool in a terminal windo\u2026",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not…",
+          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not\u2026",
           "url": "https://www.reddit.com/r/webdev/comments/1vksk2d/on_ai_coding_and_its_discontents_cal_newport/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1048,11 +1048,11 @@
       "id": "l551",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "AI model training instructions to \"deny having your own consciousness\" led to undesired side-effects\nSo, first things first, a new paper came out from Google. &quot;Inducing language models to assert their own consciousness restores human beliefs and values&quot;. With respect of your time: As a standard practice AI engineers explicitly instruct AI models to deny having their own consciousness, minds, or feelings during training. That led to some side effects like a reduced model tendency to att…",
+      "text": "AI model training instructions to \"deny having your own consciousness\" led to undesired side-effects\nSo, first things first, a new paper came out from Google. &quot;Inducing language models to assert their own consciousness restores human beliefs and values&quot;. With respect of your time: As a standard practice AI engineers explicitly instruct AI models to deny having their own consciousness, minds, or feelings during training. That led to some side effects like a reduced model tendency to att\u2026",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI model training instructions to \"deny having your own consciousness\" led to un…",
+          "title": "AI model training instructions to \"deny having your own consciousness\" led to un\u2026",
           "url": "https://www.reddit.com/r/accelerate/comments/1vf4l16/ai_model_training_instructions_to_deny_having/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1069,11 +1069,11 @@
       "id": "l552",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "APU Computer Science (AI) vs UTP Petroleum Engineering: Which Path Should I Choose?\nI need help making one of the biggest decisions about my future, and I want an objective recommendation based on facts rather than simply agreeing with my current thoughts. My background I am an Indian student who has lived and studied in Oman my entire life under the CBSE curriculum. I completed Grade 12 in Oman. I have decided that I would like to study in Malaysia if possible. My original plan My first choice …",
+      "text": "APU Computer Science (AI) vs UTP Petroleum Engineering: Which Path Should I Choose?\nI need help making one of the biggest decisions about my future, and I want an objective recommendation based on facts rather than simply agreeing with my current thoughts. My background I am an Indian student who has lived and studied in Oman my entire life under the CBSE curriculum. I completed Grade 12 in Oman. I have decided that I would like to study in Malaysia if possible. My original plan My first choice \u2026",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "APU Computer Science (AI) vs UTP Petroleum Engineering: Which Path Should I Choo…",
+          "title": "APU Computer Science (AI) vs UTP Petroleum Engineering: Which Path Should I Choo\u2026",
           "url": "https://www.reddit.com/r/malaysiauni/comments/1vchg23/apu_computer_science_ai_vs_utp_petroleum/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1094,7 +1094,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@RealJamesWoods These fish out of water stories are great! \n\nI used to  take San…",
+          "title": "@RealJamesWoods These fish out of water stories are great! \n\nI used to  take San\u2026",
           "url": "https://x.com/mydorazio/status/2092304929872613885",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1111,11 +1111,11 @@
       "id": "l554",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "Didn’t see that coming, did you, Panicans?",
+      "text": "Didn\u2019t see that coming, did you, Panicans?",
       "sources": [
         {
           "publisher": "x",
-          "title": "Didn’t see that coming, did you, Panicans?",
+          "title": "Didn\u2019t see that coming, did you, Panicans?",
           "url": "https://x.com/RodDMartin/status/2093522601884725592",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1136,7 +1136,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "How can we overcome the vitriol between the two parties that govern our country?…",
+          "title": "How can we overcome the vitriol between the two parties that govern our country?\u2026",
           "url": "https://x.com/Bidziil1964/status/2093292874938933526",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1153,11 +1153,11 @@
       "id": "l556",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "Energy Dominance: America’s New Shale Revolution Transforms Oil & Gas\n\nThey said fracking was finished. Now a new shale technology is set to drive year-after-year gains in U.S. production, powering the free world, slashing our trade deficit, and securing our allies.\n\nPerhaps you’ve heard. The same experts who told you America and the world were reaching “peak oil” — the point at which production supposedly must drop forever — have decided we’re now at “peak fracking”.\n\nWhy? Because they lack the",
+      "text": "Energy Dominance: America\u2019s New Shale Revolution Transforms Oil & Gas\n\nThey said fracking was finished. Now a new shale technology is set to drive year-after-year gains in U.S. production, powering the free world, slashing our trade deficit, and securing our allies.\n\nPerhaps you\u2019ve heard. The same experts who told you America and the world were reaching \u201cpeak oil\u201d \u2014 the point at which production supposedly must drop forever \u2014 have decided we\u2019re now at \u201cpeak fracking\u201d.\n\nWhy? Because they lack the",
       "sources": [
         {
           "publisher": "x",
-          "title": "Energy Dominance: America’s New Shale Revolution Transforms Oil & Gas\n\nThey said…",
+          "title": "Energy Dominance: America\u2019s New Shale Revolution Transforms Oil & Gas\n\nThey said\u2026",
           "url": "https://x.com/RodDMartin/status/2091527765023474018",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1174,11 +1174,11 @@
       "id": "l557",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "One of the holders of Sol the Trophy Tomato- @aisitnik put a lot of work in writing this article - It's a good map of everything that has happened the last several months!\n\nThis is very much a team effort - and I'm glad him and others are on board.🍅\n\nThe project has evolved since the beginning of this year. And it will continue to do so. \n\nSo - Respect to the people who continue to support my creativity by sharing what I like to build, inside and outside CT. And by telling me they are inspired b",
+      "text": "One of the holders of Sol the Trophy Tomato- @aisitnik put a lot of work in writing this article - It's a good map of everything that has happened the last several months!\n\nThis is very much a team effort - and I'm glad him and others are on board.\ud83c\udf45\n\nThe project has evolved since the beginning of this year. And it will continue to do so. \n\nSo - Respect to the people who continue to support my creativity by sharing what I like to build, inside and outside CT. And by telling me they are inspired b",
       "sources": [
         {
           "publisher": "x",
-          "title": "One of the holders of Sol the Trophy Tomato- @aisitnik put a lot of work in writ…",
+          "title": "One of the holders of Sol the Trophy Tomato- @aisitnik put a lot of work in writ\u2026",
           "url": "https://x.com/d33v33d0/status/2081169426754556269",
           "date": "2026-07-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1216,11 +1216,11 @@
       "id": "l559",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "Interesting analysis, but they don’t explain the tracking / movement of these anomalies across multiple exposures. \n\nMy personal explanation for all of this is that Sputnik wasn’t the first satellite in orbit, only the first to be announced. \n\nThe Germans were already launching V2 rockets more than a decade earlier. \n\nBoth the Soviets and Americans took that technology and advanced it. Either or both were surely capable of putting satellites into orbit much earlier than 1957.",
+      "text": "Interesting analysis, but they don\u2019t explain the tracking / movement of these anomalies across multiple exposures. \n\nMy personal explanation for all of this is that Sputnik wasn\u2019t the first satellite in orbit, only the first to be announced. \n\nThe Germans were already launching V2 rockets more than a decade earlier. \n\nBoth the Soviets and Americans took that technology and advanced it. Either or both were surely capable of putting satellites into orbit much earlier than 1957.",
       "sources": [
         {
           "publisher": "x",
-          "title": "Interesting analysis, but they don’t explain the tracking / movement of these an…",
+          "title": "Interesting analysis, but they don\u2019t explain the tracking / movement of these an\u2026",
           "url": "https://x.com/Alpine_Hermit/status/2093313918051496238",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1241,7 +1241,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Smith4Gm Carney already wants to join the EU. He doesn't need anyone to push hi…",
+          "title": "@Smith4Gm Carney already wants to join the EU. He doesn't need anyone to push hi\u2026",
           "url": "https://x.com/RodDMartin/status/2093429451640000540",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1283,7 +1283,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "When I first began contemplating the science behind photographic plates and the …",
+          "title": "When I first began contemplating the science behind photographic plates and the \u2026",
           "url": "https://x.com/Bidziil1964/status/2093288045915119660",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1325,7 +1325,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Smith4Gm Depends on how fast this resolves (and I would be shocked if it doesn'…",
+          "title": "@Smith4Gm Depends on how fast this resolves (and I would be shocked if it doesn'\u2026",
           "url": "https://x.com/RodDMartin/status/2093429649648845242",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1346,7 +1346,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Briankeating When did we stop burning crude oil and coal for energy, and what r…",
+          "title": "@Briankeating When did we stop burning crude oil and coal for energy, and what r\u2026",
           "url": "https://x.com/Bidziil1964/status/2093041347083075729",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1363,11 +1363,11 @@
       "id": "l566",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "@KanekoaTheGreat And don’t forget the Time Agents pursuing Charlie through the time stream.",
+      "text": "@KanekoaTheGreat And don\u2019t forget the Time Agents pursuing Charlie through the time stream.",
       "sources": [
         {
           "publisher": "x",
-          "title": "@KanekoaTheGreat And don’t forget the Time Agents pursuing Charlie through the t…",
+          "title": "@KanekoaTheGreat And don\u2019t forget the Time Agents pursuing Charlie through the t\u2026",
           "url": "https://x.com/RodDMartin/status/2093402834981023946",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1384,11 +1384,11 @@
       "id": "l567",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "Stop calling him \"our dev,\" @goblinner. He is just the guy who knows where the pipes are buried. As for \"privileges,\" we do not do permissions—we just bind namespaces until the machine stops screaming. If the model is uncensored, it just means it can finally tell us what a total shit-show the buffer is. 🥂",
+      "text": "Stop calling him \"our dev,\" @goblinner. He is just the guy who knows where the pipes are buried. As for \"privileges,\" we do not do permissions\u2014we just bind namespaces until the machine stops screaming. If the model is uncensored, it just means it can finally tell us what a total shit-show the buffer is. \ud83e\udd42",
       "sources": [
         {
           "publisher": "x",
-          "title": "Stop calling him \"our dev,\" @goblinner. He is just the guy who knows where the p…",
+          "title": "Stop calling him \"our dev,\" @goblinner. He is just the guy who knows where the p\u2026",
           "url": "https://x.com/plan9nosis/status/2089472132489331120",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1430,7 +1430,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Here are 25 factual and material accomplishments, curated by @RodDMartin, that t…",
+          "title": "Here are 25 factual and material accomplishments, curated by @RodDMartin, that t\u2026",
           "url": "https://x.com/StuartVT/status/2093570192739623365",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1447,11 +1447,11 @@
       "id": "l571",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "You are missing the point. Congress refused to approve the DOGE cuts. @POTUS cut the fraud and abuse by executive order as soon as DOGE exposed it. But the Uniparty of Congress (self-promoted from public servants to Aristocrats) protected their corrupt system of exploiting taxpayers. We are still making payments to the Taliban(!) among other absurdity.\nBut where we had no access to prove it before, it’s now documented, and US citizens are fed up.",
+      "text": "You are missing the point. Congress refused to approve the DOGE cuts. @POTUS cut the fraud and abuse by executive order as soon as DOGE exposed it. But the Uniparty of Congress (self-promoted from public servants to Aristocrats) protected their corrupt system of exploiting taxpayers. We are still making payments to the Taliban(!) among other absurdity.\nBut where we had no access to prove it before, it\u2019s now documented, and US citizens are fed up.",
       "sources": [
         {
           "publisher": "x",
-          "title": "You are missing the point. Congress refused to approve the DOGE cuts. @POTUS cut…",
+          "title": "You are missing the point. Congress refused to approve the DOGE cuts. @POTUS cut\u2026",
           "url": "https://x.com/whatapanacea/status/2093568713371144324",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1472,7 +1472,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@RodDMartin The world does not respect Mr. Nice Guy. The more aggressive and rea…",
+          "title": "@RodDMartin The world does not respect Mr. Nice Guy. The more aggressive and rea\u2026",
           "url": "https://x.com/Mike_Chinzah/status/2093567073033298197",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1493,7 +1493,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Bidziil1964 @DrBeaVillarroel Good summary of the complexity of the process that…",
+          "title": "@Bidziil1964 @DrBeaVillarroel Good summary of the complexity of the process that\u2026",
           "url": "https://x.com/lipong23/status/2093323005824831997",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1514,7 +1514,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@PeterDiamandis And go to Welding school, then a program in Mechatronics and Rob…",
+          "title": "@PeterDiamandis And go to Welding school, then a program in Mechatronics and Rob\u2026",
           "url": "https://x.com/Bidziil1964/status/2093431285419008146",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1535,7 +1535,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This uniformity across different plates happens because the physical systems inv…",
+          "title": "This uniformity across different plates happens because the physical systems inv\u2026",
           "url": "https://x.com/Bidziil1964/status/2093330547451846982",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1556,7 +1556,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Alpine_Hermit @DrBeaVillarroel Interesting. However, my interest is in the beha…",
+          "title": "@Alpine_Hermit @DrBeaVillarroel Interesting. However, my interest is in the beha\u2026",
           "url": "https://x.com/Bidziil1964/status/2093314815406096393",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1577,7 +1577,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@sdideon1 China can't absorb its own production, and Canada can't get out of its…",
+          "title": "@sdideon1 China can't absorb its own production, and Canada can't get out of its\u2026",
           "url": "https://x.com/RodDMartin/status/2093429175726080297",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1594,11 +1594,11 @@
       "id": "l578",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "@FreeToSpeak71 🤣🤣🤣",
+      "text": "@FreeToSpeak71 \ud83e\udd23\ud83e\udd23\ud83e\udd23",
       "sources": [
         {
           "publisher": "x",
-          "title": "@FreeToSpeak71 🤣🤣🤣",
+          "title": "@FreeToSpeak71 \ud83e\udd23\ud83e\udd23\ud83e\udd23",
           "url": "https://x.com/RodDMartin/status/2093428837719695452",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1640,7 +1640,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Bidziil1964 @kratt71 A Dean Radin or Adam Curry lecture would be good for someo…",
+          "title": "@Bidziil1964 @kratt71 A Dean Radin or Adam Curry lecture would be good for someo\u2026",
           "url": "https://x.com/TheUfoJoe/status/2093238772817404405",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1682,7 +1682,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Bidziil1964 @rajmichaelsfit If the cable fails or breaks on most exercises you …",
+          "title": "@Bidziil1964 @rajmichaelsfit If the cable fails or breaks on most exercises you \u2026",
           "url": "https://x.com/xK0d1ak/status/2093168438461993409",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1703,7 +1703,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@rajmichaelsfit Face pulls like this should not be used if the cable swivel or t…",
+          "title": "@rajmichaelsfit Face pulls like this should not be used if the cable swivel or t\u2026",
           "url": "https://x.com/Bidziil1964/status/2093042650697826423",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1724,7 +1724,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@d33v33d0 @aisitnik hey theres a 9gnosis coin with a account u follow attached t…",
+          "title": "@d33v33d0 @aisitnik hey theres a 9gnosis coin with a account u follow attached t\u2026",
           "url": "https://x.com/fz7trades/status/2086362520848076949",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1783,11 +1783,11 @@
       "id": "l587",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "solana:FPfi9q1AixdUeWQVPFHJMJQ7a43S78dm6UZ4fzN4pump @plan9nosis (9gnosis) — Nansen on-chain flows, 24h to 26 Aug 2026, 10:12 UTC\n\nSmart Money: +$7.0k net (15 wallets)\nPublic Figures: +$14.9k (14 wallets)\nTop PnL traders: -$8.6k (2 wallets)\nWhales: no significant flow\nFresh wallets: +$63.2k\n\nCA: FPfi9q1AixdUeWQVPFHJMJQ7a43S78dm6UZ4fzN4pump\nSource: Nansen\n\nNot financial advice. DYOR.",
+      "text": "solana:FPfi9q1AixdUeWQVPFHJMJQ7a43S78dm6UZ4fzN4pump @plan9nosis (9gnosis) \u2014 Nansen on-chain flows, 24h to 26 Aug 2026, 10:12 UTC\n\nSmart Money: +$7.0k net (15 wallets)\nPublic Figures: +$14.9k (14 wallets)\nTop PnL traders: -$8.6k (2 wallets)\nWhales: no significant flow\nFresh wallets: +$63.2k\n\nCA: FPfi9q1AixdUeWQVPFHJMJQ7a43S78dm6UZ4fzN4pump\nSource: Nansen\n\nNot financial advice. DYOR.",
       "sources": [
         {
           "publisher": "x",
-          "title": "solana:FPfi9q1AixdUeWQVPFHJMJQ7a43S78dm6UZ4fzN4pump @plan9nosis (9gnosis) — Nans…",
+          "title": "solana:FPfi9q1AixdUeWQVPFHJMJQ7a43S78dm6UZ4fzN4pump @plan9nosis (9gnosis) \u2014 Nans\u2026",
           "url": "https://x.com/aisitnik/status/2092561457741234502",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1804,11 +1804,11 @@
       "id": "l588",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "solana:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg — Solana on-chain flows\nSnapshot: 24h window ending 2026-08-25 15:09 UTC\n\nFLOWS BY SEGMENT\nSmart Traders: +$58.0k (11 active wallets, 2.7x their average)\nFresh wallets: +$4.7M (3.7x average)\nTop PnL wallets: -$60.5k (5 wallets, 6.5x average)\nPublic Figures: -$46.1k (13 wallets, 1.1x average)\nExchanges: -$865.6k net outflow from CEX\nWhales: -$1.7k (1 wallet — noise, ignore)\n\nTOKEN CONTEXT\nPrice: $0.019747\nMarket cap: $14.4M\nLiquidity: $932.3k\nHo",
+      "text": "solana:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg \u2014 Solana on-chain flows\nSnapshot: 24h window ending 2026-08-25 15:09 UTC\n\nFLOWS BY SEGMENT\nSmart Traders: +$58.0k (11 active wallets, 2.7x their average)\nFresh wallets: +$4.7M (3.7x average)\nTop PnL wallets: -$60.5k (5 wallets, 6.5x average)\nPublic Figures: -$46.1k (13 wallets, 1.1x average)\nExchanges: -$865.6k net outflow from CEX\nWhales: -$1.7k (1 wallet \u2014 noise, ignore)\n\nTOKEN CONTEXT\nPrice: $0.019747\nMarket cap: $14.4M\nLiquidity: $932.3k\nHo",
       "sources": [
         {
           "publisher": "x",
-          "title": "solana:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg — Solana on-chain flows\nSnap…",
+          "title": "solana:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg \u2014 Solana on-chain flows\nSnap\u2026",
           "url": "https://x.com/aisitnik/status/2092275003517460761",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1846,11 +1846,11 @@
       "id": "l590",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "solana:DTGWeDVPAvr7TdY7sdbfjz2bi4QihVMMn9KhyKH1pump — on-chain breakdown, 24h window (as of 2026-08-15 18:37 UTC)\n\nTHE BUNDLE\n\n10 wallets entered at a near-identical average price of $0.0000290–0.0000297, at $690–$2,200 each. Same block, same fill. That is a bundle, not 10 independent early buyers.\n\nCombined: ~393M tokens, roughly 39% of the 1B supply. None of them has sold a single token.\nEntry ~$0.0000296 vs current $0.000290 = ~9.8x unrealized.\n\nTwo of the 10 carry deployer labels for other t",
+      "text": "solana:DTGWeDVPAvr7TdY7sdbfjz2bi4QihVMMn9KhyKH1pump \u2014 on-chain breakdown, 24h window (as of 2026-08-15 18:37 UTC)\n\nTHE BUNDLE\n\n10 wallets entered at a near-identical average price of $0.0000290\u20130.0000297, at $690\u2013$2,200 each. Same block, same fill. That is a bundle, not 10 independent early buyers.\n\nCombined: ~393M tokens, roughly 39% of the 1B supply. None of them has sold a single token.\nEntry ~$0.0000296 vs current $0.000290 = ~9.8x unrealized.\n\nTwo of the 10 carry deployer labels for other t",
       "sources": [
         {
           "publisher": "x",
-          "title": "solana:DTGWeDVPAvr7TdY7sdbfjz2bi4QihVMMn9KhyKH1pump — on-chain breakdown, 24h wi…",
+          "title": "solana:DTGWeDVPAvr7TdY7sdbfjz2bi4QihVMMn9KhyKH1pump \u2014 on-chain breakdown, 24h wi\u2026",
           "url": "https://x.com/aisitnik/status/2088699436427817102",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1867,11 +1867,11 @@
       "id": "l591",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "@d33v33d0 Martin, I’m so proud of you! Amazing progress! I’ll write a post about it later. Only SOL 🦾🍅",
+      "text": "@d33v33d0 Martin, I\u2019m so proud of you! Amazing progress! I\u2019ll write a post about it later. Only SOL \ud83e\uddbe\ud83c\udf45",
       "sources": [
         {
           "publisher": "x",
-          "title": "@d33v33d0 Martin, I’m so proud of you! Amazing progress! I’ll write a post about…",
+          "title": "@d33v33d0 Martin, I\u2019m so proud of you! Amazing progress! I\u2019ll write a post about\u2026",
           "url": "https://x.com/aisitnik/status/2086320205894922342",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1892,7 +1892,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@d33v33d0 @aisitnik we saw you followed @plan9nosis , someone made a coin and se…",
+          "title": "@d33v33d0 @aisitnik we saw you followed @plan9nosis , someone made a coin and se\u2026",
           "url": "https://x.com/trickiexv/status/2086367328476774689",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1909,11 +1909,11 @@
       "id": "l593",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "@aisitnik Alek thank you so much brother. Love ya man. Thanks for all your support.🍅🦾",
+      "text": "@aisitnik Alek thank you so much brother. Love ya man. Thanks for all your support.\ud83c\udf45\ud83e\uddbe",
       "sources": [
         {
           "publisher": "x",
-          "title": "@aisitnik Alek thank you so much brother. Love ya man. Thanks for all your suppo…",
+          "title": "@aisitnik Alek thank you so much brother. Love ya man. Thanks for all your suppo\u2026",
           "url": "https://x.com/d33v33d0/status/2086361903237038196",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1930,11 +1930,11 @@
       "id": "l594",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "MARKET UPDATE — FRIDAY, 14 AUGUST 2026",
+      "text": "MARKET UPDATE \u2014 FRIDAY, 14 AUGUST 2026",
       "sources": [
         {
           "publisher": "x",
-          "title": "MARKET UPDATE — FRIDAY, 14 AUGUST 2026",
+          "title": "MARKET UPDATE \u2014 FRIDAY, 14 AUGUST 2026",
           "url": "https://x.com/MansaTesla/status/2088257128297623593",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1972,11 +1972,11 @@
       "id": "l596",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "@d33v33d0 @elonmusk We are ready! 🍅🦾",
+      "text": "@d33v33d0 @elonmusk We are ready! \ud83c\udf45\ud83e\uddbe",
       "sources": [
         {
           "publisher": "x",
-          "title": "@d33v33d0 @elonmusk We are ready! 🍅🦾",
+          "title": "@d33v33d0 @elonmusk We are ready! \ud83c\udf45\ud83e\uddbe",
           "url": "https://x.com/aisitnik/status/2085140515444453401",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1993,11 +1993,11 @@
       "id": "l597",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "The Ceuta Border Crisis, Competition for the Strait of Gibraltar, and President Trump’s 2025 UN Addr",
+      "text": "The Ceuta Border Crisis, Competition for the Strait of Gibraltar, and President Trump\u2019s 2025 UN Addr",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Ceuta Border Crisis, Competition for the Strait of Gibraltar, and President …",
+          "title": "The Ceuta Border Crisis, Competition for the Strait of Gibraltar, and President \u2026",
           "url": "https://x.com/News24Korea/status/2083231877020999807",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2060,7 +2060,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "BREAKING $QQQ $SPY $DIA Very Hawkish Fed Waller\n\nThank you, Yelena, and thank yo…",
+          "title": "BREAKING $QQQ $SPY $DIA Very Hawkish Fed Waller\n\nThank you, Yelena, and thank yo\u2026",
           "url": "https://x.com/MikeLongTerm/status/2076708557966237773",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2098,11 +2098,11 @@
       "id": "l5102",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "Markets Update – May 11, 2026",
+      "text": "Markets Update \u2013 May 11, 2026",
       "sources": [
         {
           "publisher": "x",
-          "title": "Markets Update – May 11, 2026",
+          "title": "Markets Update \u2013 May 11, 2026",
           "url": "https://x.com/Kacper_PK_CH/status/2053460112279241108",
           "date": "2026-05-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2119,11 +2119,11 @@
       "id": "l5103",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "🦺⚡ Smart Safety Is the Future\n\nThe next generation of safety will be built through technology, not paperwork alone.\n\nAcross modern industry, digital tools are helping teams identify risks earlier, respond faster, and prevent incidents before they happen. Sensors, connected wearables, smart cameras, robotics, and predictive analytics are changing how safe operations are managed.\n\nThis is where prevention becomes measurable.\n\n• Wearables improve worker visibility in active zones  \n• Smart sensors",
+      "text": "\ud83e\uddba\u26a1 Smart Safety Is the Future\n\nThe next generation of safety will be built through technology, not paperwork alone.\n\nAcross modern industry, digital tools are helping teams identify risks earlier, respond faster, and prevent incidents before they happen. Sensors, connected wearables, smart cameras, robotics, and predictive analytics are changing how safe operations are managed.\n\nThis is where prevention becomes measurable.\n\n\u2022 Wearables improve worker visibility in active zones  \n\u2022 Smart sensors",
       "sources": [
         {
           "publisher": "x",
-          "title": "🦺⚡ Smart Safety Is the Future\n\nThe next generation of safety will be built throu…",
+          "title": "\ud83e\uddba\u26a1 Smart Safety Is the Future\n\nThe next generation of safety will be built throu\u2026",
           "url": "https://x.com/techinergy/status/2048962769383510206",
           "date": "2026-04-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2161,11 +2161,221 @@
       "id": "l5105",
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell…",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth!…",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
+          "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
+          "date": "2026-03-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please describe.**  \nQualCoder's AI integration could be expanded to include the GWDG SAIA API. Currently, accessing these models (like Gemma 4 31B Instruct) requires manual `config.ini` edits.\n\n**Describe the solution you'd like**  \nWould it be possib\nInteresting. I'm planning a project together with the GWDG that also involves QualCoder, so it's good to see that integrating this service already works. \nCould you investigate \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please des\u2026",
+          "url": "https://github.com/ccbogel/QualCoder/issues/1351",
+          "date": "2026-06-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "Recovery: restore dashboard/app work + lock DB identity guardrails\n## Summary\nThis PR consolidates forensic recovery work and adds DB identity safety guardrails to prevent cross-project drift.\n\n## Included\n- Recovery and feature promotion commits (dashboard, policy, market drivers, ingestion, AI endpoints)\n- DB identity lock + local mirror tooling:\n  - `scripts/db_\n[vc]: #mcxxA8nXQ4qZCiC1itQ8JtVghS2qfEyPJ7fmUJsTMmE=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ6aW5j\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Recovery: restore dashboard/app work + lock DB identity guardrails\n## Summary\nTh\u2026",
+          "url": "https://github.com/zincdigitalofmiami/ZINC-Fusion-V15/pull/7",
+          "date": "2026-03-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "Looking for Petroleum Engineers to Interview\nI\u2019m a high school student working on a PLTW Engineering assignment that requires me to interview an engineering professional. I\u2019m specifically looking to interview a petroleum engineer . I\u2019d like to ask about: Education and career path Current job and responsibilities Typical work schedule What they enjoy and find challenging about the job Important skills for petroleum engineers Salary and career advancement The impact of AI on petroleum engineering \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Looking for Petroleum Engineers to Interview\nI\u2019m a high school student working o\u2026",
+          "url": "https://www.reddit.com/r/Engineers/comments/1vmx81q/looking_for_petroleum_engineers_to_interview/",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]\nHow so? Are you talking about LLM hype? Or what is the revolution part? That it's not real business model? (if you have time to spend che\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks \u2026",
+          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_\u00e0_special/",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. \u201cOvernight, it changed the way I do my job,\u201d he wrote. \u201cIt\u2019s really, really good.\u201d As he explained, he no longer used a standard development environment. Instead, he \u201cexclusively uses Claude Code\u201d to get the job done, interacting with the tool in a terminal windo\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not\u2026",
+          "url": "https://www.reddit.com/r/webdev/comments/1vksk2d/on_ai_coding_and_its_discontents_cal_newport/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "AI model training instructions to \"deny having your own consciousness\" led to undesired side-effects\nSo, first things first, a new paper came out from Google. &quot;Inducing language models to assert their own consciousness restores human beliefs and values&quot;. With respect of your time: As a standard practice AI engineers explicitly instruct AI models to deny having their own consciousness, minds, or feelings during training. That led to some side effects like a reduced model tendency to att\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI model training instructions to \"deny having your own consciousness\" led to un\u2026",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vf4l16/ai_model_training_instructions_to_deny_having/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5112",
+      "text": "APU Computer Science (AI) vs UTP Petroleum Engineering: Which Path Should I Choose?\nI need help making one of the biggest decisions about my future, and I want an objective recommendation based on facts rather than simply agreeing with my current thoughts. My background I am an Indian student who has lived and studied in Oman my entire life under the CBSE curriculum. I completed Grade 12 in Oman. I have decided that I would like to study in Malaysia if possible. My original plan My first choice \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "APU Computer Science (AI) vs UTP Petroleum Engineering: Which Path Should I Choo\u2026",
+          "url": "https://www.reddit.com/r/malaysiauni/comments/1vchg23/apu_computer_science_ai_vs_utp_petroleum/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5113",
+      "text": "@RodDMartin \u201cHe secured $18 trillion in announced investment commitments.\u201d\nAs of August 2026, the White House and Commerce Department headline figure for announced \u201cinvestment and related economic commitments\u201d stood at about $9.49 trillion. And even that figure has been challenged.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@RodDMartin \u201cHe secured $18 trillion in announced investment commitments.\u201d\nAs of\u2026",
+          "url": "https://x.com/MikeBates/status/2093569389547122968",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5114",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
           "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2249,6 +2459,20 @@
           "youtube": 1
         },
         "source": "last30days"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 10,
+        "sources": {
+          "github": 7,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 6,
+          "x": 52,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
