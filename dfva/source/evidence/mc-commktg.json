@@ -1,0 +1,130 @@
+{
+  "code": "mc-commktg",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Collaboration/teamwork is claimed at program level (generic skills, graduate attributes) but no core subject's assessment table lists any group, team, or client/stakeholder-facing item — every subject scored (IBUS90006, MGMT90193/196/197/198/199/202/205/206/207/237/238, MKTG90023/90024) itemises only 'Individual' assignments/presentations/reports/exams plus unspecified-format 'Class participation'. Matches Level 1: collaboration appears in outcomes but is not assessed in any core unit.",
+      "evidenceLines": [
+        "Teamwork through collaborative exercises in workshops and assessment.",
+        "Collaborate and be effective in teams; and",
+        "Individual assignment 1",
+        "Individual assignment 2"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Critical evaluation of literature/theory is claimed repeatedly in program outcomes and generic skills, and one core-discipline-option subject (MGMT90197) assesses 'Research reflection assignments' at 30%, but the extract documents no rubric, standard, or criteria the reflection is judged against, and there is no peer review, structured critique, portfolio, or marking-against-exemplars anywhere, nor any evidence of documented AI/tool-reliance decisions. Matches Level 1 rather than the criterion-referenced appraisal required for Level 2.",
+      "evidenceLines": [
+        "Interpret and critically evaluate the latest thinking in marketing research through an appreciation of scholarly literature",
+        "Critical evaluation of evidence in support of an argument or proposition;",
+        "Research reflection assignments"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "The only digital-tool content in the entire extract is training in statistical software: MGMT90199 explicitly teaches technique application 'using specialised computer software called STATA', and generic-skills lists elsewhere name 'use of computer software' at Some/Moderate level. No AI, artificial intelligence, or digital-tool ethics/limitations/governance content appears anywhere in the extract. This is tool operation/training — Level 1 — with no Level 2/3 AI-specific critique or governance content to elevate it.",
+      "evidenceLines": [
+        "This subject will include opportunities to apply one or more of these techniques in a research project using specialised computer software called STATA.",
+        "Some level of development: use of computer software."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "DEMOTED from 3 to 2 on review (verdict not upheld). The original Level-3 claim rested entirely on the Research Report evidence ('a research report (completed over two consecutive semesters)', 'Students are required to undertake research into a topic of their choice... under the supervision of...', 'Individual research report.', '12,000 words', 'Findings based on original research that deploys rigorous and appropriate research methods.'), but every one of those lines is simultaneously cited as C5's evidence (and reused again in W2 and G2), violating the one-construct-one-home rule, and the reuse was never disclosed in ambiguities. C5's construct — the capacity to generate primary evidence and defend methodology — is the one that names this evidence, so it belongs there. Stripped of the Research Report, the only remaining support is the assessed 'research project' language in MGMT90198/90199 (design/apply a specialised method to a research project), which is sufficient for Level 2 ('application to novel or unfamiliar problems') but not for Level 3's 'structured progression toward independent learning' claim, which was argued using the same double-counted capstone evidence. Per the scoring-direction rule, the ambiguity resolves to the lower level: 2. A higher level is not ruled out, but would need a fresh capture and a fresh scoring pass isolating non-duplicated Level 3 evidence.",
+      "evidenceLines": [
+        "a research report (completed over two consecutive semesters)",
+        "Students are required to undertake research into a topic of their choice, subject to approval by the program coordinator, under the supervision of a member of the Department of Management and Marketing.",
+        "Individual research report.",
+        "12,000 words",
+        "Findings based on original research that deploys rigorous and appropriate research methods."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "The compulsory Research Report requires original primary research with methodology selection and data collection, and Research Design (MGMT90205) explicitly assesses methodological choice-making ('Align methodological choices with research questions', 'Identify the potential strengths and limitations associated with alternative research strategies and methods'). This satisfies Level 2 in full. Level 3 additionally requires the methodology be 'defended under scrutiny (viva, defence, or staged supervised review)' — the extract documents supervision of the Research Report but no viva, defence, or staged review process, so the ambiguity is resolved to the lower level (2) per the scoring-direction rule.",
+      "evidenceLines": [
+        "Align methodological choices with research questions to be investigated",
+        "Identify the potential strengths and limitations associated with alternative research strategies and methods used in marketing and management research",
+        "Findings based on original research that deploys rigorous and appropriate research methods.",
+        "Students are required to undertake research into a topic of their choice, subject to approval by the program coordinator, under the supervision of a member of the Department of Management and Marketing."
+      ]
+    },
+    "adaptiveness": 7,
+    "W1": {
+      "score": 1,
+      "rationale": "Communication is claimed at program level ('Communication of marketing ideas, theories and solutions to peers and the wider community', 'Independent and effective in communication of ideas'), and several core/core-option subjects add in-class presentation assessment items (IBUS90006, MGMT90199, MGMT90202, MGMT90205, MGMT90206/207). Nothing in the extract documents a recognised professional genre (client brief, consultancy/policy advice, pitch) or an audience beyond the teaching team/peers, and no professional-conduct/accountability criterion is documented. Matches Level 1.",
+      "evidenceLines": [
+        "Communication of marketing ideas, theories and solutions to peers and the wider community;",
+        "Individual presentation",
+        "Individual class presentation"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "MKTG90024 assesses a 'Journal review' and a 'Conceptual journal paper', and the Research Report requires an original research report — contextualised, scholarly-writing tasks that go beyond a decontextualised exam. However the extract documents no external practitioner audience, no externally supplied or resource-constrained problem, and no criteria drawn from practice beyond internal academic marking (supervisor/coordinator assessed). For this pre-PhD research-training cohort the discipline's own practice is academic scholarship, so these tasks arguably approach practice fidelity, but that is not documented in the extract, so the ambiguity is resolved to the lower level (1).",
+      "evidenceLines": [
+        "Journal review",
+        "Conceptual journal paper",
+        "Individual research report."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "No placement, practicum, internship, community-based project, or any other work-integrated-learning activity appears anywhere in the extract. The full enumeration of program components (compulsory foundation subjects, core discipline elective, advanced/additional methods subjects, special topics subjects, electives, research report) contains no WIL element, and the cohort is pre-PhD coursework students, not a cohort documented as already practising in the profession, so the in-practice route does not apply either.",
+      "evidenceLines": [
+        "The program consists of six compulsory foundation subjects, one core discipline elective, one advanced methods subject and one additional methods subject that must be approved by the program director, two special topics subjects, three electives that must be approved by the program director and a research report (completed over two consecutive semesters)."
+      ]
+    },
+    "workplace": 2,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent, staged compulsory methods sequence with progressive depth: Foundations in Qualitative/Quantitative Methods and Research Foundations (semester 1) -> Research Design, Advanced Marketing Management and one of two Advanced Methods subjects (semester 2) -> Research Report Parts 1-2 alongside Special Topics (semesters 3-4), reinforced by minimum-average progression gates specific to the discipline's own subjects. This is a staged prerequisite chain with disciplinary identity, not generic/interchangeable content.",
+        "evidenceLines": [
+          "The program consists of six compulsory foundation subjects, one core discipline elective, one advanced methods subject and one additional methods subject that must be approved by the program director, two special topics subjects, three electives that must be approved by the program director and a research report (completed over two consecutive semesters).",
+          "An average of no less than 75% overall in all subjects taken in Year 1; and",
+          "An average of no less than 80% in all the subjects that are offered by the Department of Management and Marketing (subject codes beginning with MKTG, MGMT, and IBUS)."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The compulsory Research Report requires 'findings based on original research' — real, undetermined-outcome primary research rather than recall or scripted response — and Research Design explicitly assesses students' ability to weigh strengths and limitations of alternative research strategies and methods, i.e. defended methodological trade-off decisions under genuine uncertainty.",
+        "evidenceLines": [
+          "Findings based on original research that deploys rigorous and appropriate research methods.",
+          "Identify the potential strengths and limitations associated with alternative research strategies and methods used in marketing and management research"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2: 'Research reflection assignments' (MGMT90197, one of the required Core Discipline options) is assessed at 30% and could indicate criterion-referenced appraisal (Level 2), but the extract documents no rubric or standard the reflection is judged against -- resolved to Level 1 per the lower-level rule.",
+      "C5: The Research Report is conducted 'under the supervision of' a staff member, which could constitute the 'staged supervised review' route to Level 3, but no viva, defence, or staged review process is documented in the extract -- resolved to Level 2.",
+      "W2: For this pre-PhD research-training cohort the discipline's own professional practice is academic scholarship, so the Research Report and 'Conceptual journal paper' tasks arguably approach practice fidelity (Level 2), but the extract documents no external review, submission process, or practice-derived judging criteria -- resolved to Level 1.",
+      "Evidence for C1 and W1 drawn from the 'Core Discipline subject chosen from' list (IBUS90006, MGMT90193/196/197/200/195) reflects only one of several optional pathways rather than a universally taken compulsory unit; treated as core-equivalent structural evidence because exactly one such subject is mandatory.",
+      "The scraped page for https://handbook.unimelb.edu.au/2026/subjects/mgmt90203/assessment duplicates the MGMT90197 assessment page verbatim (same title, contact, and assessment items) rather than showing MGMT90203-specific data; it was not used as independent evidence for MGMT90203.",
+      "C4/C5/W2/G2 originally reused the same Research Report evidence lines across four items without disclosure, breaking the one-construct-one-home rule. On review this was resolved by homing the evidence in C5 (the construct that names it) and demoting C4 from 3 to 2, since C4's independent, non-duplicated support (the MGMT90198/90199 research-project language) only reaches Level 2."
+    ],
+    "notScoreable": [
+      "MGMT90203 assessment structure: the extract's 'mgmt90203/assessment' source contains unrelated content — the assessment table for MGMT90197 — so MGMT90203's actual assessment design could not be verified and was not used as evidence for any item."
+    ],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-30"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
