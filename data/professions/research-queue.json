@@ -322,10 +322,10 @@
     "17-2112": "done",
     "17-2141": "done",
     "17-2151": "done",
-    "17-2171": "in_progress",
-    "17-2199": "in_progress",
-    "17-3011": "in_progress",
-    "17-3023": "in_progress",
+    "17-2171": "done",
+    "17-2199": "done",
+    "17-3011": "done",
+    "17-3023": "done",
     "17-3029": "pending",
     "17-3031": "pending",
     "19-1011": "pending",
@@ -412,13 +412,13 @@
     "27-4032": "done",
     "29-1011": "pending",
     "29-1021": "pending",
-    "29-1031": "pending",
-    "29-1051": "pending",
+    "29-1031": "done",
+    "29-1051": "done",
     "29-1061": "pending",
-    "29-1062": "pending",
+    "29-1062": "done",
     "29-1063": "pending",
     "29-1065": "pending",
-    "29-1066": "pending",
+    "29-1066": "done",
     "29-1067": "pending",
     "29-1069": "pending",
     "29-1081": "pending",
@@ -541,26 +541,13 @@
     "13-2081": 1,
     "13-2099": 1,
     "15-2031": 1,
-    "15-2041": 1
+    "15-2041": 1,
+    "17-2171": 2,
+    "17-2199": 2,
+    "17-3011": 2,
+    "17-3023": 2
   },
-  "leases": {
-    "17-2171": {
-      "worker": "cron",
-      "claimed_at": "2026-08-29T07:04:36.344141+00:00"
-    },
-    "17-2199": {
-      "worker": "cron",
-      "claimed_at": "2026-08-29T07:04:36.430556+00:00"
-    },
-    "17-3011": {
-      "worker": "cron",
-      "claimed_at": "2026-08-29T07:04:36.517752+00:00"
-    },
-    "17-3023": {
-      "worker": "cron",
-      "claimed_at": "2026-08-29T07:04:36.609901+00:00"
-    }
-  },
+  "leases": {},
   "runs": [
     {
       "at": "2026-08-26T15:44:25.472219+00:00",
@@ -801,6 +788,54 @@
       "soc": "15-2041",
       "status": "done",
       "note": "cron batch: L1/L2/L4(Adzuna+Seek+LinkedIn)/L5 empirical; L3 Factiva auth_expired (degraded)"
+    },
+    {
+      "at": "2026-08-29T07:23:28.613763+00:00",
+      "soc": "17-2171",
+      "status": "done",
+      "note": "empirical-five-lane-v1 committed a5ea355"
+    },
+    {
+      "at": "2026-08-29T07:23:28.706530+00:00",
+      "soc": "17-2199",
+      "status": "done",
+      "note": "empirical-five-lane-v1 committed a5ea355"
+    },
+    {
+      "at": "2026-08-29T07:23:28.811718+00:00",
+      "soc": "17-3011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 committed a5ea355"
+    },
+    {
+      "at": "2026-08-29T07:23:28.903160+00:00",
+      "soc": "17-3023",
+      "status": "done",
+      "note": "empirical-five-lane-v1 committed a5ea355"
+    },
+    {
+      "at": "2026-08-29T07:23:37.440750+00:00",
+      "soc": "17-2171",
+      "status": "done",
+      "note": "empirical-five-lane-v1 committed a5ea355"
+    },
+    {
+      "at": "2026-08-29T07:23:37.538621+00:00",
+      "soc": "17-2199",
+      "status": "done",
+      "note": "empirical-five-lane-v1 committed a5ea355"
+    },
+    {
+      "at": "2026-08-29T07:23:37.640663+00:00",
+      "soc": "17-3011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 committed a5ea355"
+    },
+    {
+      "at": "2026-08-29T07:23:37.740609+00:00",
+      "soc": "17-3023",
+      "status": "done",
+      "note": "empirical-five-lane-v1 committed a5ea355"
     }
   ],
   "claims": [
