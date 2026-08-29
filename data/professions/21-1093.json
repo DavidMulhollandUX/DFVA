@@ -16,7 +16,9 @@
   },
   "generated": "2026-08-24",
   "expires": "2027-02-24",
-  "programs": [],
+  "programs": [
+    "mc-socw"
+  ],
   "claims": [
     {
       "id": "21-1093-01",
@@ -67,216 +69,6 @@
       ],
       "refuted": false,
       "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
-      "id": "l403",
-      "text": "Support Coordinator \u2014 Wellways Australia (Cairns North, Queensland, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Wellways Australia",
-          "title": "Support Coordinator",
-          "url": "https://www.linkedin.com/jobs/view/4454473130",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l404",
-      "text": "Support Coordinator \u2014 Access Your Supports (South Geelong, Victoria, Australia). Posted 3 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Access Your Supports",
-          "title": "Support Coordinator",
-          "url": "https://www.linkedin.com/jobs/view/4416248187",
-          "date": "3 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l405",
-      "text": "Case Worker \u2014 Centrecare (Cannington, Western Australia, Australia). Posted 5 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Centrecare",
-          "title": "Case Worker",
-          "url": "https://www.linkedin.com/jobs/view/4456207515",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l406",
-      "text": "Youth Engagement Worker - Student Support (North) - 976133 \u2014 Department for Education, Children and Young People (Launceston, Tasmania, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department for Education, Children and Young People",
-          "title": "Youth Engagement Worker - Student Support (North) - 976133",
-          "url": "https://www.linkedin.com/jobs/view/4454776032",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l407",
-      "text": "ITC Youth Worker \u2014 MacKillop Family Services (Newcastle, New South Wales, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "MacKillop Family Services",
-          "title": "ITC Youth Worker",
-          "url": "https://www.linkedin.com/jobs/view/4448404309",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l408",
-      "text": "Caseworker \u2014 Queensland Government (Townsville, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Queensland Government",
-          "title": "Caseworker",
-          "url": "https://www.linkedin.com/jobs/view/4453659190",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l409",
-      "text": "Support Coordinator - Aftercare \u2014 Wellways Australia (Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Wellways Australia",
-          "title": "Support Coordinator - Aftercare",
-          "url": "https://www.linkedin.com/jobs/view/4451639654",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l410",
-      "text": "Activities Officer \u2014 STAR Community Services (previously Transport) (Lowood, Queensland, Australia). Posted 9 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "STAR Community Services (previously Transport)",
-          "title": "Activities Officer",
-          "url": "https://www.linkedin.com/jobs/view/4457942179",
-          "date": "9 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l411",
-      "text": "Supportive Housing Case Manager (FT or PT) \u2014 The Good Seed (Hyde Park, Queensland, Australia). Posted 5 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "The Good Seed",
-          "title": "Supportive Housing Case Manager (FT or PT)",
-          "url": "https://www.linkedin.com/jobs/view/4380545707",
-          "date": "5 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l412",
-      "text": "Child Safety Officer - Intensive Family Engagement Service - 526923 \u2014 Department for Education, Children and Young People (Hobart, Tasmania, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department for Education, Children and Young People",
-          "title": "Child Safety Officer - Intensive Family Engagement Service - 526923",
-          "url": "https://www.linkedin.com/jobs/view/4457482862",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "jobAds": {
@@ -307,17 +99,14 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": [
-      {
-        "date": "2026-08-27",
-        "soc": "21-1093",
-        "query": "Social and Human Service Assistants",
-        "location": "Australia",
-        "returned": 10,
-        "totalResults": 10,
-        "status": "sampled"
-      }
-    ]
+    "linkedin": {
+      "status": "sampled",
+      "query": "Social and Human Service Assistants",
+      "location": "Australia",
+      "returned": 10,
+      "source": "linkedin (unofficial scrape)",
+      "_raw": "data/professions/21-1093/raw/linkedin_l4.json"
+    }
   },
   "confidence": "high",
   "caveats": []

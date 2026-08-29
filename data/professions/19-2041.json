@@ -17,6 +17,8 @@
   "generated": "2026-08-24",
   "expires": "2027-02-24",
   "programs": [
+    "mc-engysys",
+    "mc-env",
     "mc-urbhort"
   ],
   "claims": [
@@ -69,237 +71,6 @@
       ],
       "refuted": false,
       "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
-      "id": "l403",
-      "text": "Environmental Health Officer \u2014 Hawkesbury City Council (Hawkesbury, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Hawkesbury City Council",
-          "title": "Environmental Health Officer",
-          "url": "https://www.linkedin.com/jobs/view/4454478550",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l404",
-      "text": "Environmental Health Officer(s) \u2014 Ballina Shire Council (Ballina, New South Wales, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Ballina Shire Council",
-          "title": "Environmental Health Officer(s)",
-          "url": "https://www.linkedin.com/jobs/view/4448978915",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l405",
-      "text": "Hazardous Material Specialist \u2014 AECOM (Newcastle, New South Wales, Australia). Posted 3 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "AECOM",
-          "title": "Hazardous Material Specialist",
-          "url": "https://www.linkedin.com/jobs/view/4410341275",
-          "date": "3 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l406",
-      "text": "Industrial Hygienist \u2014 Amentum (Alice Springs, Northern Territory, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Amentum",
-          "title": "Industrial Hygienist",
-          "url": "https://www.linkedin.com/jobs/view/4444976586",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l407",
-      "text": "Environmental Health Officer \u2014 City of Melbourne (Carlton, Victoria, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "City of Melbourne",
-          "title": "Environmental Health Officer",
-          "url": "https://www.linkedin.com/jobs/view/4453470294",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l408",
-      "text": "Environmental Health Officer \u2014 Blacktown City Council (Blacktown, New South Wales, Australia). Posted 5 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Blacktown City Council",
-          "title": "Environmental Health Officer",
-          "url": "https://www.linkedin.com/jobs/view/4457303209",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l409",
-      "text": "Environmental Scientist/Hazardous Materials - Perth, WA \u2014 Tetra Tech Coffey (Perth, Western Australia, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Tetra Tech Coffey",
-          "title": "Environmental Scientist/Hazardous Materials - Perth, WA",
-          "url": "https://www.linkedin.com/jobs/view/4446776172",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l410",
-      "text": "Air Quality Specialist \u2014 AECOM (Newcastle West, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "AECOM",
-          "title": "Air Quality Specialist",
-          "url": "https://www.linkedin.com/jobs/view/4452921414",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l411",
-      "text": "2026 Environmental Health Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "City of Bunbury",
-          "title": "2026 Environmental Health Expressions of Interest",
-          "url": "https://www.linkedin.com/jobs/view/2026",
-          "date": "7 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l412",
-      "text": "2026 Environmental Health Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "City of Bunbury",
-          "title": "2026 Environmental Health Expressions of Interest",
-          "url": "https://www.linkedin.com/jobs/view/4358169290",
-          "date": "7 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l413",
-      "text": "Environmental Officer \u2014 Queensland Government (Brisbane, Queensland, Australia). Posted 1 year ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Queensland Government",
-          "title": "Environmental Officer",
-          "url": "https://www.linkedin.com/jobs/view/4022066931",
-          "date": "1 year ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "jobAds": {
@@ -330,17 +101,14 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": [
-      {
-        "date": "2026-08-27",
-        "soc": "19-2041",
-        "query": "Environmental Scientists and Specialists, Including Health",
-        "location": "Australia",
-        "returned": 11,
-        "totalResults": 11,
-        "status": "sampled"
-      }
-    ]
+    "linkedin": {
+      "status": "sampled",
+      "query": "Environmental Scientists and Specialists, Including Health",
+      "location": "Australia",
+      "returned": 11,
+      "source": "linkedin (unofficial scrape)",
+      "_raw": "data/professions/19-2041/raw/linkedin_l4.json"
+    }
   },
   "confidence": "high",
   "caveats": []

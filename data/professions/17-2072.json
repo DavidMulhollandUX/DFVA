@@ -12,63 +12,118 @@
     "from": "2025-08-01",
     "to": "2026-08-24"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-27",
+  "expires": "2027-02-27",
   "programs": [],
   "claims": [
     {
-      "id": "17-2072-01",
-      "text": "National peak professional bodies and statutory regulators governing Electronics Engineers, Except Computer enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "l1a",
+      "text": "Engineers Australia is the approved accreditation body for engineering education programs in Australia, operating under the Washington Accord mutual-recognition framework.",
       "lane": "L1",
       "tier": "regulatory",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Electronics Engineers, Except Computer",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Electronics Engineers, Except Computer",
-          "url": "https://www.psc.gov.au/standards/17-2072",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Electronics Engineers, Except Computer"
+          "publisher": "Engineers Australia",
+          "title": "Accreditation",
+          "url": "https://www.engineersaustralia.org.au/about-us/accreditation",
+          "date": "2026-08-27",
+          "whatItMeasured": "Engineers Australia is the approved accreditation body for engineering education programs in Australia. Retrieved 2026-08-27."
         }
       ],
-      "scope": "Australian practitioners in Electronics Engineers, Except Computer across public, private, and research sectors.",
+      "scope": "Accredits tertiary engineering programs; applies to all professional engineers educated in Australia.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "Real primary source (regulator/inquiry/publisher). 2 of 3 refuters failed to overturn: source is genuine, measures this population, within window."
     },
     {
-      "id": "17-2072-02",
-      "text": "Automation of routine transactional and analytical tasks in Electronics Engineers, Except Computer heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "id": "l1b",
+      "text": "From 6 March 2025, professional engineers in prescribed areas of engineering must be registered; electronics engineers in defence, manufacturing and infrastructure roles may be captured where their work falls in a prescribed area.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Engineers Australia",
+          "title": "State registration",
+          "url": "https://www.engineersaustralia.org.au/credentials/registration/state-registration",
+          "date": "2026-08-27",
+          "whatItMeasured": "From 6 March 2025, professional engineers providing professional engineering services in prescribed areas must be registered. Retrieved 2026-08-27."
+        }
+      ],
+      "scope": "Applicability depends on the prescribed area and jurisdiction; many electronics engineering roles are outside mandatory registration.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Real primary source (regulator/inquiry/publisher). 2 of 3 refuters failed to overturn: source is genuine, measures this population, within window."
+    },
+    {
+      "id": "l2a",
+      "text": "Design, engineering, science and transport professionals are among the most AI-exposed occupational groups in Australia (an 87% tertiary-educated cohort), per an OECD-based exposure analysis.",
       "lane": "L2",
       "tier": "scholarly",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Electronics Engineers, Except Computer",
-          "url": "https://www.jobsandskills.gov.au/research/17-2072",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Electronics Engineers, Except Computer in Australia"
+          "publisher": "Parliament of Australia, Parliamentary Library",
+          "title": "Potential impact of Artificial Intelligence (AI) on the Australian workforce",
+          "url": "https://www.aph.gov.au/About_Parliament/Parliamentary_departments/Parliamentary_Library/Research/Issues_and_Insights/48th_Parliament/potentialimpactofArtificialIntelligence",
+          "date": "2026-08-27",
+          "whatItMeasured": "Design, engineering, science & transport professionals are among the most AI-exposed occupational groups in Australia (87% tertiary-educated cohort). Retrieved 2026-08-27."
         }
       ],
-      "scope": "Entry-level and senior Electronics Engineers, Except Computer roles in Australia.",
+      "scope": "Measures task/occupation exposure to AI, not headcount displacement; Australia 2021/2022 data.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "Real primary source (regulator/inquiry/publisher). 2 of 3 refuters failed to overturn: source is genuine, measures this population, within window."
     },
     {
-      "id": "l403",
-      "text": "Electronics Design Engineer \u2014 Elemental Electronics (Greater Melbourne Area). Posted 44 minutes ago.",
+      "id": "l2b",
+      "text": "PwC's 2026 AI Jobs Barometer finds the skills required for the most AI-exposed jobs are changing more than twice as fast as for the least-exposed jobs, and 'professionalised' AI-exposed roles are growing.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "PwC",
+          "title": "AI Jobs Barometer 2026",
+          "url": "https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html",
+          "date": "2026-08-27",
+          "whatItMeasured": "Skills for the most AI-exposed jobs are changing more than twice as fast as for the least-exposed; 'professionalised' AI-exposed roles are growing. Retrieved 2026-08-27."
+        }
+      ],
+      "scope": "Aggregate/global signal of skill churn, not a claim about engineering headcount.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Real primary source (regulator/inquiry/publisher). 2 of 3 refuters failed to overturn: source is genuine, measures this population, within window."
+    },
+    {
+      "id": "l2d",
+      "text": "The House of Representatives Standing Committee inquiry 'The Future of Work' (report January 2025) examined the digital transformation of Australian workplaces.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "House of Representatives Standing Committee",
+          "title": "The Future of Work (inquiry report, Jan 2025)",
+          "url": "https://parlinfo.aph.gov.au/parlInfo/download/committees/reportrep/RB000516/toc_pdf/TheFutureofWork.pdf",
+          "date": "2026-08-27",
+          "whatItMeasured": "Inquiry into the digital transformation of workplaces. Retrieved 2026-08-27."
+        }
+      ],
+      "scope": "Broad inquiry into workplace digital transformation; not engineering-specific.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Real primary source (regulator/inquiry/publisher). 2 of 3 refuters failed to overturn: source is genuine, measures this population, within window."
+    },
+    {
+      "id": "l406",
+      "text": "Electronics Design Engineer — Elemental Electronics (Greater Melbourne Area). Posted 44 minutes ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -88,8 +143,8 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l404",
-      "text": "Senior Electronics Engineer \u2014 IC Resources (Greater Newcastle Area). Posted 1 week ago.",
+      "id": "l407",
+      "text": "Senior Electronics Engineer — IC Resources (Greater Newcastle Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -109,13 +164,13 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l405",
-      "text": "Senior Electronic Engineer \u2014 Schr\u00e9der ANZ (Rydalmere, New South Wales, Australia). Posted 1 week ago.",
+      "id": "l408",
+      "text": "Senior Electronic Engineer — Schréder ANZ (Rydalmere, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Schr\u00e9der ANZ",
+          "publisher": "Schréder ANZ",
           "title": "Senior Electronic Engineer",
           "url": "https://www.linkedin.com/jobs/view/4453513455",
           "date": "1 week ago",
@@ -130,8 +185,8 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l406",
-      "text": "Electronics Design Engineer \u2014 Electro Optic Systems (Canberra, Australian Capital Territory, Australia). Posted 2 days ago.",
+      "id": "l409",
+      "text": "Electronics Design Engineer — Electro Optic Systems (Canberra, Australian Capital Territory, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -151,8 +206,8 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l407",
-      "text": "Senior RF Hardware Engineer \u2014 ProFound People (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "id": "l410",
+      "text": "Senior RF Hardware Engineer — ProFound People (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -172,8 +227,8 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l408",
-      "text": "Hardware Engineer, Sydney \u2014 Arista Networks (Sydney, New South Wales, Australia). Posted 2 months ago.",
+      "id": "l411",
+      "text": "Hardware Engineer, Sydney — Arista Networks (Sydney, New South Wales, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -193,8 +248,8 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l409",
-      "text": "Electronics Engineer \u2014 ProFound People (Adelaide, South Australia, Australia). Posted 5 days ago.",
+      "id": "l412",
+      "text": "Electronics Engineer — ProFound People (Adelaide, South Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -214,8 +269,8 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l410",
-      "text": "Electronics Engineer - Directed Energy \u2014 Electro Optic Systems (Symonston, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "id": "l413",
+      "text": "Electronics Engineer - Directed Energy — Electro Optic Systems (Symonston, Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -235,13 +290,13 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l411",
-      "text": "Senior Electronics Engineer \u2014 Schr\u00e9der (Rydalmere, New South Wales, Australia). Posted 3 weeks ago.",
+      "id": "l414",
+      "text": "Senior Electronics Engineer — Schréder (Rydalmere, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Schr\u00e9der",
+          "publisher": "Schréder",
           "title": "Senior Electronics Engineer",
           "url": "https://www.linkedin.com/jobs/view/4448906871",
           "date": "3 weeks ago",
@@ -256,8 +311,8 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l412",
-      "text": "Electronics Engineer - Humidification Technology \u2014 Resmed (Sydney, New South Wales, Australia). Posted 1 month ago.",
+      "id": "l415",
+      "text": "Electronics Engineer - Humidification Technology — Resmed (Sydney, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -279,32 +334,34 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "electronics engineers, except computer",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "electronics engineer",
+    "window": "2025-08-01 to 2026-08-27",
+    "count": 530,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Macro Recruitment",
+      "ResMed",
+      "Salient Group",
+      "Electro Optic Systems",
+      "Element Engineering Australia",
+      "DroneShield",
+      "L3Harris",
+      "RHL",
+      "Tritium Power Solutions AU",
+      "Ampcontrol"
     ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "topSkills": {
+      "design": 28,
+      "commissioning": 2,
+      "cad": 1,
+      "sustainability": 1
+    }
   },
   "corpus": {
-    "platforms": [
-      {
-        "name": "practitioner_forums",
-        "scope": "National Electronics Engineers, Except Computer Association discourse",
-        "items": 45
-      }
+    "platforms": [],
+    "retrieved": "2026-08-27",
+    "searchesReturningNothing": [
+      "Factiva L3 (trade press): not retrieved this run — OpenAthens session expired (auth_expired); logged to data/professions/factiva_backlog.json for backfill. L3 lane omitted."
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
     "linkedin": [
       {
         "date": "2026-08-27",
@@ -315,8 +372,20 @@
         "totalResults": 10,
         "status": "sampled"
       }
+    ],
+    "l5Sample": [
+      {
+        "status": "sampled",
+        "plan": "data/professions/17-2072/raw/l5_plan.json",
+        "sources": 0,
+        "source": "last30days"
+      }
     ]
   },
-  "confidence": "high",
-  "caveats": []
+  "confidence": "medium",
+  "caveats": [
+    "L1/L2/L4 rebuilt with real sourced evidence on 2026-08-27, replacing fabricated placeholder claims from the prior bulk run.",
+    "L3 Factiva omitted this run (OpenAthens session expired); backfill pending.",
+    "L5 practitioner discourse: last30days sweep run 2026-08-27."
+  ]
 }

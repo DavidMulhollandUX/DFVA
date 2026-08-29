@@ -12,7 +12,9 @@
   },
   "generated": "2026-08-24",
   "expires": "2027-02-24",
-  "programs": [],
+  "programs": [
+    "mc-it"
+  ],
   "claims": [
     {
       "id": "15-1143-01",
@@ -63,216 +65,6 @@
       ],
       "refuted": false,
       "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
-      "id": "l403",
-      "text": "Network Design Engineer \u2014 Google (Sydney, New South Wales, Australia). Posted 6 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Google",
-          "title": "Network Design Engineer",
-          "url": "https://www.linkedin.com/jobs/view/4427728541",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l404",
-      "text": "Network Architect \u2014 Tata Consultancy Services (Greater Brisbane Area). Posted 6 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Tata Consultancy Services",
-          "title": "Network Architect",
-          "url": "https://www.linkedin.com/jobs/view/4455675343",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l405",
-      "text": "Network Architect \u2014 AARNet (Australia's Academic and Research Network) (Melbourne, Victoria, Australia). Posted 5 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "AARNet (Australia's Academic and Research Network)",
-          "title": "Network Architect",
-          "url": "https://www.linkedin.com/jobs/view/4454600148",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l406",
-      "text": "Solutions Architect, Networking Ethernet \u2014 NVIDIA (Sydney, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "NVIDIA",
-          "title": "Solutions Architect, Networking Ethernet",
-          "url": "https://www.linkedin.com/jobs/view/4395472518",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l407",
-      "text": "Network Engineer - Network Infrastructure \u2014 TikTok (Sydney, New South Wales, Australia). Posted 4 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "TikTok",
-          "title": "Network Engineer - Network Infrastructure",
-          "url": "https://www.linkedin.com/jobs/view/4446038485",
-          "date": "4 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l408",
-      "text": "Network Engineer \u2014 Optiver (Sydney, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Optiver",
-          "title": "Network Engineer",
-          "url": "https://www.linkedin.com/jobs/view/4423661338",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l409",
-      "text": "Network Engineer \u2014 Ventia (Adelaide, South Australia, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Ventia",
-          "title": "Network Engineer",
-          "url": "https://www.linkedin.com/jobs/view/4451416245",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l410",
-      "text": "Network Implementation Engineer - Physical Network Infrastructure \u2014 TikTok (Sydney, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "TikTok",
-          "title": "Network Implementation Engineer - Physical Network Infrastructure",
-          "url": "https://www.linkedin.com/jobs/view/4453953215",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l411",
-      "text": "Network Design Engineer \u2014 Leidos (Alice Springs, Northern Territory, Australia). Posted 4 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Leidos",
-          "title": "Network Design Engineer",
-          "url": "https://www.linkedin.com/jobs/view/4455021995",
-          "date": "4 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l412",
-      "text": "Senior Network Architect \u2014 Opasa (Melbourne, Victoria, Australia). Posted 2 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Opasa",
-          "title": "Senior Network Architect",
-          "url": "https://www.linkedin.com/jobs/view/4455827805",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "jobAds": {
@@ -303,17 +95,14 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": [
-      {
-        "date": "2026-08-27",
-        "soc": "15-1143",
-        "query": "Computer Network Architects",
-        "location": "Australia",
-        "returned": 10,
-        "totalResults": 10,
-        "status": "sampled"
-      }
-    ]
+    "linkedin": {
+      "status": "sampled",
+      "query": "Computer Network Architects",
+      "location": "Australia",
+      "returned": 10,
+      "source": "linkedin (unofficial scrape)",
+      "_raw": "data/professions/15-1143/raw/linkedin_l4.json"
+    }
   },
   "confidence": "high",
   "caveats": []

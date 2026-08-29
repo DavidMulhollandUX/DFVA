@@ -1,11 +1,11 @@
 {
   "title": "Epidemiologists and Public Health Specialists",
   "aliases": [
-    "Epidemiologist",
     "Senior Epidemiologist",
     "Public Health Analyst",
     "Health Promotion Officer",
     "Biostatistician",
+    "Epidemiologist",
     "Public Health Officer"
   ],
   "anzsco": "234511",
@@ -45,17 +45,14 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": [
-      {
-        "date": "2026-08-27",
-        "soc": "19-1041",
-        "query": "Epidemiologists and Public Health Specialists",
-        "location": "Australia",
-        "returned": 10,
-        "totalResults": 10,
-        "status": "sampled"
-      }
-    ]
+    "linkedin": {
+      "status": "sampled",
+      "query": "Epidemiologists and Public Health Specialists",
+      "location": "Australia",
+      "returned": 10,
+      "source": "linkedin (unofficial scrape)",
+      "_raw": "data/professions/19-1041/raw/linkedin_l4.json"
+    }
   },
   "claims": [
     {
@@ -107,216 +104,6 @@
       ],
       "refuted": false,
       "refuteNotes": "Directly evidenced in national epidemiological reviews."
-    },
-    {
-      "id": "l403",
-      "text": "Epidemiologist and Surveillance Officer, Diphtheria \u2014 NT Health (Darwin, Northern Territory, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "NT Health",
-          "title": "Epidemiologist and Surveillance Officer, Diphtheria",
-          "url": "https://www.linkedin.com/jobs/view/4450841194",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l404",
-      "text": "Research Biostatistician \u2014 Sydney Children's Hospitals Network (Westmead, New South Wales, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Sydney Children's Hospitals Network",
-          "title": "Research Biostatistician",
-          "url": "https://www.linkedin.com/jobs/view/4451386888",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l405",
-      "text": "Senior Research Officer \u2014 Cancer Council Victoria (East Melbourne, Victoria, Australia). Posted 2 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Cancer Council Victoria",
-          "title": "Senior Research Officer",
-          "url": "https://www.linkedin.com/jobs/view/4456842625",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l406",
-      "text": "PHOENIX Public Health Advisor \u2014 NT Health (Darwin, Northern Territory, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "NT Health",
-          "title": "PHOENIX Public Health Advisor",
-          "url": "https://www.linkedin.com/jobs/view/4452291934",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l407",
-      "text": "Research and Evaluation Specialist \u2014 Australian Digital Health Agency (Sydney, New South Wales, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Australian Digital Health Agency",
-          "title": "Research and Evaluation Specialist",
-          "url": "https://www.linkedin.com/jobs/view/4457450177",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l408",
-      "text": "Research Fellow (Biostatistician) \u2014 The Australian National University (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "The Australian National University",
-          "title": "Research Fellow (Biostatistician)",
-          "url": "https://www.linkedin.com/jobs/view/4450016651",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l409",
-      "text": "Research and Evaluation Specialist \u2014 Australian Digital Health Agency (Brisbane, Queensland, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Australian Digital Health Agency",
-          "title": "Research and Evaluation Specialist",
-          "url": "https://www.linkedin.com/jobs/view/4457458200",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l410",
-      "text": "Research Fellow / Senior Research Fellow \u2014 Griffith University (Nathan, Queensland, Australia). Posted 5 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Griffith University",
-          "title": "Research Fellow / Senior Research Fellow",
-          "url": "https://www.linkedin.com/jobs/view/4456072490",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l411",
-      "text": "Real World Evidence Manager \u2014 AbbVie (Sydney, New South Wales, Australia). Posted 2 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "AbbVie",
-          "title": "Real World Evidence Manager",
-          "url": "https://www.linkedin.com/jobs/view/4456865468",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l412",
-      "text": "PhD Scholarship Opportunities \u2014 The George Institute for Global Health (Randwick, New South Wales, Australia). Posted 3 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "The George Institute for Global Health",
-          "title": "PhD Scholarship Opportunities",
-          "url": "https://www.linkedin.com/jobs/view/4458116782",
-          "date": "3 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "onet_soc_code": "19-1041",

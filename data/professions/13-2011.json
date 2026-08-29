@@ -1,17 +1,17 @@
 {
   "title": "Accountants and Auditors",
   "aliases": [
-    "Audit Graduate",
-    "Management Accountant",
     "Chartered Accountant",
     "Accountant",
-    "Certified Practising Accountant",
-    "Accountant (General)",
-    "Assistant Accountant",
-    "External Auditor",
     "Business Services Accountant",
-    "Forensic Accountant",
-    "Audit Manager"
+    "Audit Manager",
+    "Audit Graduate",
+    "Accountant (General)",
+    "External Auditor",
+    "Assistant Accountant",
+    "Certified Practising Accountant",
+    "Management Accountant",
+    "Forensic Accountant"
   ],
   "anzsco": "221111",
   "jobAds": {
@@ -52,17 +52,14 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": [
-      {
-        "date": "2026-08-27",
-        "soc": "13-2011",
-        "query": "Accountants and Auditors",
-        "location": "Australia",
-        "returned": 9,
-        "totalResults": 9,
-        "status": "sampled"
-      }
-    ]
+    "linkedin": {
+      "status": "sampled",
+      "query": "Accountants and Auditors",
+      "location": "Australia",
+      "returned": 9,
+      "source": "linkedin (unofficial scrape)",
+      "_raw": "data/professions/13-2011/raw/linkedin_l4.json"
+    }
   },
   "claims": [
     {
@@ -73,7 +70,7 @@
       "sources": [
         {
           "publisher": "Accounting Professional & Ethical Standards Board (APESB)",
-          "title": "APES 110 Code of Ethics for Professional Accountants \u2014 Technology and AI Provisions",
+          "title": "APES 110 Code of Ethics for Professional Accountants — Technology and AI Provisions",
           "url": "https://apesb.org.au/standards-guidance/apes-110-code-of-ethics/",
           "date": "2024-12-01",
           "whatItMeasured": "Binding ethical standards for all CPA Australia and CAANZ members"
@@ -114,195 +111,6 @@
       ],
       "refuted": false,
       "refuteNotes": "Directly supported by AASB legislation enacted in 2024-2025."
-    },
-    {
-      "id": "l403",
-      "text": "Expression of interest - Financial Audit \u2014 Audit Office of South Australia (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Audit Office of South Australia",
-          "title": "Expression of interest - Financial Audit",
-          "url": "https://www.linkedin.com/jobs/view/4449962479",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l404",
-      "text": "Accountant \u2014 Perks (Adelaide, South Australia, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Perks",
-          "title": "Accountant",
-          "url": "https://www.linkedin.com/jobs/view/4449435062",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l405",
-      "text": "Associates and Senior Associates - Audit - Australia \u2014 EY (Adelaide, South Australia, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "EY",
-          "title": "Associates and Senior Associates - Audit - Australia",
-          "url": "https://www.linkedin.com/jobs/view/4433160820",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l406",
-      "text": "Accountant \u2014 Searson Buck Group (Hobart, Tasmania, Australia). Posted 2 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Searson Buck Group",
-          "title": "Accountant",
-          "url": "https://www.linkedin.com/jobs/view/4456884052",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l407",
-      "text": "Accountant \u2014 Bentleys Australia and New Zealand (Adelaide, South Australia, Australia). Posted 1 month ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Bentleys Australia and New Zealand",
-          "title": "Accountant",
-          "url": "https://www.linkedin.com/jobs/view/4436528793",
-          "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l408",
-      "text": "Management Accountant \u2014 Downer (Adelaide, South Australia, Australia). Posted 5 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Downer",
-          "title": "Management Accountant",
-          "url": "https://www.linkedin.com/jobs/view/4457086525",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l409",
-      "text": "Associate \u2014 Grant Thornton Australia (Perth, Western Australia, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Grant Thornton Australia",
-          "title": "Associate",
-          "url": "https://www.linkedin.com/jobs/view/4452366326",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l410",
-      "text": "Experienced Analyst | Accounting and Reporting Assurance | Canberra \u2014 Deloitte (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Deloitte",
-          "title": "Experienced Analyst | Accounting and Reporting Assurance | Canberra",
-          "url": "https://www.linkedin.com/jobs/view/4340117574",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l411",
-      "text": "Intermediate Auditor \u2014 William Buck (Brisbane City, Queensland, Australia). Posted 2 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "William Buck",
-          "title": "Intermediate Auditor",
-          "url": "https://www.linkedin.com/jobs/view/4438791809",
-          "date": "2 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "onet_soc_code": "13-2011",
@@ -313,7 +121,10 @@
   "generated": "2026-08-24",
   "expires": "2027-02-24",
   "programs": [
-    "742ab"
+    "742ab",
+    "mc-finance",
+    "mc-mgmtact",
+    "mc-mgmtfin"
   ],
   "confidence": "high",
   "caveats": []

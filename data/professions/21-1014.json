@@ -16,7 +16,9 @@
   },
   "generated": "2026-08-24",
   "expires": "2027-02-24",
-  "programs": [],
+  "programs": [
+    "mc-socw"
+  ],
   "claims": [
     {
       "id": "21-1014-01",
@@ -67,216 +69,6 @@
       ],
       "refuted": false,
       "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
-      "id": "l403",
-      "text": "Mental Health Clinician \u2014 Queensland Government (Brisbane, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Queensland Government",
-          "title": "Mental Health Clinician",
-          "url": "https://www.linkedin.com/jobs/view/4455769199",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l404",
-      "text": "Clinical Psychologist/Counsellor (Hybrid) \u2014 Intellect (Cairns City, Queensland, Australia). Posted 3 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Intellect",
-          "title": "Clinical Psychologist/Counsellor (Hybrid)",
-          "url": "https://www.linkedin.com/jobs/view/4410323628",
-          "date": "3 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l405",
-      "text": "Farm Community Counsellor - Social Worker / Psychologist \u2014 Murrumbidgee Local Health District (MLHD) (Greater Albury-Wodonga Area). Posted 21 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Murrumbidgee Local Health District (MLHD)",
-          "title": "Farm Community Counsellor - Social Worker / Psychologist",
-          "url": "https://www.linkedin.com/jobs/view/4456986303",
-          "date": "21 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l406",
-      "text": "Mental Health Clinician (Psych, OT or SW) \u2014 Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 6 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Central Queensland Hospital and Health Service",
-          "title": "Mental Health Clinician (Psych, OT or SW)",
-          "url": "https://www.linkedin.com/jobs/view/4456465416",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l407",
-      "text": "Mental Health Adviser (Counsellor) \u2014 Queensland Corrective Services (Rockhampton, Queensland, Australia). Posted 6 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Queensland Corrective Services",
-          "title": "Mental Health Adviser (Counsellor)",
-          "url": "https://www.linkedin.com/jobs/view/4455614800",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l408",
-      "text": "Mental Health Clinician - CAMHS Youth Mental Health Initiative \u2014 Hunter New England Local Health District (Newcastle, New South Wales, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Hunter New England Local Health District",
-          "title": "Mental Health Clinician - CAMHS Youth Mental Health Initiative",
-          "url": "https://www.linkedin.com/jobs/view/4457464168",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l409",
-      "text": "Community Counsellor \u2014 NT Health (Alice Springs, Northern Territory, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "NT Health",
-          "title": "Community Counsellor",
-          "url": "https://www.linkedin.com/jobs/view/4452858427",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l410",
-      "text": "Psychologists, Social Workers, and Counsellors - ACT \u2014 Converge (Canberra, Australian Capital Territory, Australia). Posted 11 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Converge",
-          "title": "Psychologists, Social Workers, and Counsellors - ACT",
-          "url": "https://www.linkedin.com/jobs/view/4303997964",
-          "date": "11 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l411",
-      "text": "Counsellor (TAIHS Disaster Recovery Program) \u2014 Townsville Aboriginal and Islander Health Service (Townsville, Queensland, Australia). Posted 18 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Townsville Aboriginal and Islander Health Service",
-          "title": "Counsellor (TAIHS Disaster Recovery Program)",
-          "url": "https://www.linkedin.com/jobs/view/4457687472",
-          "date": "18 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l412",
-      "text": "Community Mental Health Clinician, Adult Service - Bega \u2014 Southern NSW Local Health District (Bega, New South Wales, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Southern NSW Local Health District",
-          "title": "Community Mental Health Clinician, Adult Service - Bega",
-          "url": "https://www.linkedin.com/jobs/view/4458723906",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "jobAds": {
@@ -307,17 +99,14 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": [
-      {
-        "date": "2026-08-27",
-        "soc": "21-1014",
-        "query": "Mental Health Counselors",
-        "location": "Australia",
-        "returned": 10,
-        "totalResults": 10,
-        "status": "sampled"
-      }
-    ]
+    "linkedin": {
+      "status": "sampled",
+      "query": "Mental Health Counselors",
+      "location": "Australia",
+      "returned": 10,
+      "source": "linkedin (unofficial scrape)",
+      "_raw": "data/professions/21-1014/raw/linkedin_l4.json"
+    }
   },
   "confidence": "high",
   "caveats": []

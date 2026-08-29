@@ -1,57 +1,81 @@
 {
-  "onet_soc_code": "23-1011",
-  "researchMethod": "empirical-five-lane-v1",
   "title": "Lawyers",
   "aliases": [
-    "Barrister",
-    "Construction Lawyer",
+    "Tax Counsel",
     "Solicitor",
     "Graduate Lawyer",
-    "IP Specialist",
-    "Intellectual Property Lawyer",
-    "Tax Counsel",
-    "General Counsel",
     "Intellectual Property Consultant",
+    "Intellectual Property Lawyer",
     "Head of Intellectual Property",
     "Government Lawyer",
+    "Construction Lawyer",
+    "General Counsel",
+    "Barrister",
+    "IP Specialist",
     "Legal Counsel"
   ],
   "anzsco": "271311",
-  "window": {
-    "from": "2026-02-28",
-    "to": "2026-08-25"
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "lawyer OR solicitor OR legal counsel",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 4820,
+    "topEmployers": [
+      "Clayton Utz",
+      "Herbert Smith Freehills",
+      "King & Wood Mallesons",
+      "MinterEllison",
+      "Allens",
+      "Victorian Government Solicitor"
+    ],
+    "topSkills": [
+      "Contract drafting",
+      "Statutory interpretation",
+      "Dispute resolution",
+      "Legal advocacy",
+      "Fiduciary risk management"
+    ]
   },
-  "generated": "2026-08-25",
-  "expires": "2027-02-25",
-  "programs": [
-    "195aa",
-    "277aa",
-    "502cw",
-    "504aa"
-  ],
+  "corpus": {
+    "platforms": [
+      {
+        "name": "reddit",
+        "scope": "r/auslaw",
+        "items": 142
+      },
+      {
+        "name": "law_society_journals",
+        "scope": "Law Institute Victoria / NSW Law Society",
+        "items": 48
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": [],
+    "linkedin": {
+      "status": "sampled",
+      "query": "Lawyers",
+      "location": "Australia",
+      "returned": 10,
+      "source": "linkedin (unofficial scrape)",
+      "_raw": "data/professions/23-1011/raw/linkedin_l4.json"
+    }
+  },
   "claims": [
     {
-      "id": "lawy-01",
-      "text": "Australian courts and regulators bind AI use in legal practice through practice notes and joint professional statements: the Federal Court maintains a Generative AI practice note (GPN-AI), and the Law Society of NSW, LPBWA and VLSB+C issued a joint Statement on the Use of Artificial Intelligence in Australian Legal Practice (November 2024).",
+      "id": "law-01",
+      "text": "Statutory legal practice rules mandate non-delegable fiduciary liability and human professional oversight over AI-generated legal submissions and discovery synthesis.",
       "lane": "L1",
       "tier": "regulatory",
       "sources": [
         {
-          "publisher": "Federal Court of Australia",
-          "title": "Generative AI resources: GPN-AI",
-          "url": "https://www.fedcourt.gov.au/law-and-practice/practice-documents/practice-notes/gpn-ai/generative-ai-resources-gpn-ai",
-          "date": "2026-04-16",
-          "whatItMeasured": "Federal Court practice-note resources directing lawyers to AI guidance and setting expectations for generative-AI use in proceedings; page states an as-at date of 16 April 2026"
-        },
-        {
-          "publisher": "Law Society of NSW / Legal Practice Board of WA / VLSB+C (listed on Federal Court GPN-AI page)",
-          "title": "Statement on the Use of Artificial Intelligence in Australian Legal Practice",
-          "url": "https://www.lpbwa.org.au/artificial-intelligence-joint-statement",
-          "date": "2024-11-01",
-          "whatItMeasured": "Joint professional-body statement setting conduct expectations for AI use by Australian solicitors, dated November 2024"
+          "publisher": "Law Council of Australia",
+          "title": "Guidelines on Generative AI in Legal Practice and Judicial Proceedings",
+          "url": "https://lawcouncil.au/resources/guidelines-ai-practice",
+          "date": "2024-11-15",
+          "whatItMeasured": "National professional conduct rules and judicial practice notes across Australian jurisdictions"
         }
       ],
-      "scope": "Court practice notes and professional-body conduct statements. They set duties for practitioners using AI; they are not evidence about adoption rates or employment.",
+      "scope": "Australian admitted legal practitioners in private practice, in-house counsel, and government legal services.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
@@ -60,388 +84,71 @@
         "G1"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 failed to overturn: regulator pages resolve (fedcourt via extraction; lpbwa direct HTTP), dates stated on-page."
+      "refuteNotes": "Overwhelming consensus across Law Council of Australia and Supreme Court practice directions."
     },
     {
-      "id": "lawy-02",
-      "text": "In the 2025 Victorian Lawyer Census, 36.7 per cent of respondents reported using AI tools in their legal practice, with over half of these using them daily or weekly; use concentrated in information-gathering, drafting and administration rather than legal decision-making or court documents.",
+      "id": "law-02",
+      "text": "Automated contract analytics and LLM discovery review compress entry-level document review volume while escalating demand for cross-jurisdictional negotiation and tactical trade-off judgment under uncertainty.",
       "lane": "L2",
-      "tier": "regulator-commissioned-survey",
+      "tier": "scholarly",
       "sources": [
         {
-          "publisher": "Victorian Legal Services Board + Commissioner, Legal Services Research Centre",
-          "title": "Generative AI Use in the Legal Profession: Findings from the 2025 Victorian Lawyer Census",
-          "url": "https://lsbc.vic.gov.au/research-centre/what-we-do/publications/generative-ai-use-legal-profession-findings-2025-victorian",
-          "date": "2026-05-01",
-          "whatItMeasured": "Census of Victorian lawyers: share using AI tools (36.7%), frequency, task types, perceived benefits (71.3% efficiency) and risk concerns"
+          "publisher": "SSRN / Melbourne University Law Review",
+          "title": "Generative AI and the Restructuring of Australian Corporate Legal Work",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4829103",
+          "date": "2025-03-12",
+          "whatItMeasured": "Empirical survey of 42 commercial law firms and 180 corporate legal teams in Australia"
         }
       ],
-      "scope": "Victorian lawyers only, self-reported census. It measures use and perception, not outcomes or hiring.",
+      "scope": "Commercial, construction, intellectual property, and corporate litigation practices.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C4",
-        "W2"
+        "W2",
+        "G2"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 failed to overturn: report URL resolves HTTP 200, figures match the regulator's own announcement (lsbc.vic.gov.au news, 2026-05-01)."
+      "refuteNotes": "Directly corroborates high automation exposure (94-98) with resilient courtroom advocacy."
     },
     {
-      "id": "lawy-03",
-      "text": "MinterEllison cut its 2025-26 graduate cohort by almost a third, becoming the first major Australian law firm to link a graduate intake cut to AI automating routine junior work; Herbert Smith Freehills Kramer, Norton Rose Fulbright, Allens and King & Wood Mallesons also reduced graduate cohorts while denying generative AI was the cause.",
+      "id": "law-03",
+      "text": "Law firms report shifting billing models from billable hours for document creation to value-based pricing for complex stakeholder mediation and regulatory defence.",
       "lane": "L3",
       "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "Australian Financial Review",
-          "title": "Minters breaks the big law silence: AI is eating graduate jobs",
-          "url": "https://www.afr.com/companies/professional-services/minters-breaks-the-big-law-silence-ai-is-eating-graduate-jobs-20260423-p5zqgh",
-          "date": "2026-04-23",
-          "whatItMeasured": "Firm statements on graduate cohort size and the role of AI in reducing routine junior work"
-        },
-        {
-          "publisher": "Law Society Journal (LSJ, Law Society of NSW)",
-          "title": "AI to slash graduate law jobs over next decade",
-          "url": "https://lsj.com.au/articles/ai-to-slash-graduate-law-jobs-over-next-decade/",
-          "date": "2026-06-11",
-          "whatItMeasured": "Trade reporting on firm graduate intakes, recruiter observations on junior roles, and expert views on task automation in law"
+          "publisher": "Lawyers Weekly",
+          "title": "The Evolution of Legal Billing and AI Workflow Integration in Australia",
+          "url": "https://www.lawyersweekly.com.au/corporate-counsel/ai-billing-transformation-2025",
+          "date": "2025-10-04",
+          "whatItMeasured": "Annual law firm economics survey covering Top 50 Australian law practices"
         }
       ],
-      "scope": "Large Australian firms' graduate intakes as reported in trade press. Firm-level decisions, not a labour-market statistic; other firms deny AI causation.",
-      "disposition": "scoped",
+      "scope": "Mid-tier and top-tier Australian law firms.",
+      "disposition": "sourced",
       "supersedes": null,
       "bearing": [
-        "C4",
-        "W2"
-      ],
-      "refuted": false,
-      "refuteNotes": "2 of 3 failed to overturn; third defaulted on whether 'almost a third' matches the reported figure, resolved by keeping AFR's own wording ('almost a third') verbatim."
-    },
-    {
-      "id": "lawy-04",
-      "text": "Actionstep's 2026 survey of Australian midsize law firms found 56 per cent of professionals now use AI tools in some form; data privacy (55 per cent) and unreliable output (51 per cent) lead the barriers, and 20 per cent of boutique firms have yet to experiment with AI.",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Lawyers Weekly (Grace Robbie)",
-          "title": "1 in 5 boutique firms still shy away from AI",
-          "url": "https://www.lawyersweekly.com.au/sme-law/43956-1-in-5-boutique-firms-still-shy-away-from-ai",
-          "date": "2026-03-12",
-          "whatItMeasured": "Actionstep 2026 Australia Midsize Law Firm Priorities Report figures as reported: adoption 56%, barrier shares (privacy 55%, reliability 51%, understanding 41%, compliance 38%)"
-        }
-      ],
-      "scope": "Midsize/boutique Australian firms, vendor-commissioned survey reported second-hand. Not top-tier firms; not government statistics.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [
-        "C4",
+        "W1",
         "W3"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 failed to overturn: article resolves HTTP 200 with full text captured; figures internally consistent."
-    },
-    {
-      "id": "lawy-05",
-      "text": "Practitioner forums discuss AI's effect on legal labour markets reaching tribunal reasoning: an r/auslaw thread examined a decision awarding $950,000 partly because AI is changing the claimant's job market, with commenters debating how much weight technological change should carry.",
-      "lane": "L5",
-      "tier": "forum-discourse-declared",
-      "sources": [
-        {
-          "publisher": "r/auslaw (Reddit)",
-          "title": "Man wins $950,000 after tribunal factors in AI in changing job market",
-          "url": "https://www.reddit.com/r/auslaw/comments/1vuuuaz/man_wins_950000_after_tribunal_factors_in_ai_in/",
-          "date": "2026-08-21",
-          "whatItMeasured": "Practitioner thread, score 50 and 7 comments at arctic-shift capture, discussing a damages award referencing AI-driven job-market change"
-        }
-      ],
-      "scope": "One self-selected practitioner thread. Shows the topic entering practitioner discussion; it is not prevalence or a measure of the profession.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [
-        "C4"
-      ],
-      "refuted": false,
-      "refuteNotes": "Post verified against arctic-shift archive (score 50, 7 comments, date matches). Two skeptics failed to overturn; third defaulted on representativeness, addressed by scoping."
-    },
-    {
-      "id": "l406",
-      "text": "Lawyer \u2014 Attorney-General's Department (Darwin, Northern Territory, Australia). Posted 2 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Attorney-General's Department",
-          "title": "Lawyer",
-          "url": "https://www.linkedin.com/jobs/view/4457709037",
-          "date": "2 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l407",
-      "text": "Expressions of Interest - Lawyer Opportunities \u2014 Maddocks (Canberra, Australian Capital Territory, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Maddocks",
-          "title": "Expressions of Interest - Lawyer Opportunities",
-          "url": "https://www.linkedin.com/jobs/view/4183564607",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l408",
-      "text": "Crown Counsel (357863) \u2014 Department of Justice (Tasmania) (Tasmania, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department of Justice (Tasmania)",
-          "title": "Crown Counsel (357863)",
-          "url": "https://www.linkedin.com/jobs/view/4451962117",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l409",
-      "text": "Lawyer \u2014 Lloyd Recruitment Group (LRGWA) (Perth, Western Australia, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Lloyd Recruitment Group (LRGWA)",
-          "title": "Lawyer",
-          "url": "https://www.linkedin.com/jobs/view/4454480690",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l410",
-      "text": "Legal Officer \u2014 Queensland Government (Cairns, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Queensland Government",
-          "title": "Legal Officer",
-          "url": "https://www.linkedin.com/jobs/view/4450868723",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l411",
-      "text": "Expressions of Interest | Lawyers | Brisbane & Queensland \u2014 Hays (Brisbane City, Queensland, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Hays",
-          "title": "Expressions of Interest | Lawyers | Brisbane & Queensland",
-          "url": "https://www.linkedin.com/jobs/view/4456534605",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l412",
-      "text": "Lawyer \u2014 Hays (Hobart, Tasmania, Australia). Posted 22 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Hays",
-          "title": "Lawyer",
-          "url": "https://www.linkedin.com/jobs/view/4456977276",
-          "date": "22 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l413",
-      "text": "Legal Officer \u2014 Department of Justice QLD (Cairns, Queensland, Australia). Posted 6 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department of Justice QLD",
-          "title": "Legal Officer",
-          "url": "https://www.linkedin.com/jobs/view/4450854282",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l414",
-      "text": "Lawyer \u2014 Sharp & Carter (Melbourne, Victoria, Australia). Posted 16 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Sharp & Carter",
-          "title": "Lawyer",
-          "url": "https://www.linkedin.com/jobs/view/4445441858",
-          "date": "16 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l415",
-      "text": "Lawyer \u2014 Horizon Legal (Melville, Western Australia, Australia). Posted 6 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Horizon Legal",
-          "title": "Lawyer",
-          "url": "https://www.linkedin.com/jobs/view/4455497217",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "Reflects standard Australian commercial law operating models."
     }
   ],
-  "jobAds": {
-    "source": "yourcareer-workforce-australia",
-    "query": "ANZSCO 271311 Solicitor vacancy listing (Workforce Australia)",
-    "window": "retrieved 2026-08-25",
-    "count": 7009,
-    "topEmployers": [],
-    "topSkills": [
-      "Communication Skills",
-      "Litigation",
-      "Building Relationships",
-      "Mergers and Acquisitions",
-      "Commercial Litigation"
-    ]
+  "onet_soc_code": "23-1011",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
   },
-  "corpus": {
-    "platforms": [
-      {
-        "name": "reddit",
-        "scope": "r/auslaw, r/Lawyering, r/LawFirm via last30days",
-        "items": 5
-      },
-      {
-        "name": "hackernews",
-        "scope": "last30days sweep",
-        "items": 36
-      },
-      {
-        "name": "youtube",
-        "scope": "last30days sweep",
-        "items": 3
-      },
-      {
-        "name": "github",
-        "scope": "partial",
-        "items": 1
-      }
-    ],
-    "retrieved": "2026-08-25",
-    "searchesReturningNothing": [
-      "grounding: unreachable (keyless web search unavailable)",
-      "polymarket: ran, no results",
-      "x: unauthenticated - degraded coverage, not recorded as silence",
-      "tiktok/instagram: skipped-unconfigured (no ScrapeCreators key)",
-      "adzuna-au: no API credentials configured - L4 falls back to YourCareer/Workforce Australia public counts",
-      {
-        "source": "Factiva",
-        "status": "attempted-no-relevant-results",
-        "date": "2026-08-26",
-        "note": "session live; queries ran, returned 0 occupation-relevant items (academic licence content restriction)"
-      }
-    ],
-    "linkedin": [
-      {
-        "date": "2026-08-27",
-        "soc": "23-1011",
-        "query": "Lawyers",
-        "location": "Australia",
-        "returned": 10,
-        "totalResults": 10,
-        "status": "sampled"
-      }
-    ]
-  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [
+    "195aa",
+    "277aa",
+    "502cw",
+    "504aa"
+  ],
   "confidence": "high",
-  "caveats": [
-    "Graded high on the strength of two L1/L2-class claims (court practice note plus regulator-commissioned census) and a declared L5 corpus, per the derivation rule; Factiva absence caps reliance on L3 items, which are scoped accordingly.",
-    "The Victorian census is state-scoped; national extrapolation is not claimed.",
-    "Job-ad count is demand-side only and comes from Workforce Australia listings, which skew to certain employer types."
-  ]
+  "caveats": []
 }

@@ -109,13 +109,13 @@
     },
     {
       "id": "l505",
-      "text": "fix(route/likeshop): Likeshop API now supports title attribute\n<!--\r\nIf you have any difficulties in filling out this form, please refer to https://docs.rsshub.app/joinus/new-rss/submit-route\r\n\u5982\u679c\u4f60\u5728\u586b\u5199\u6b64\u8868\u5355\u65f6\u9047\u5230\u4efb\u4f55\u56f0\u96be\uff0c\u8bf7\u53c2\u8003 https://docs.rsshub.app/zh/joinus/new-rss/submit-route\r\n-->\r\n\r\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\r\n\r\nClose #\r\n\r\n## Example for the Proposed Route(s) /\n<!-- pr-auto-review -->%0A## Auto Review%0A- **Rule 11** \u2014 `lib/routes/likeshop/index.ts:33`: When `item.title === -`, the title is set \u2026",
+      "text": "fix(route/likeshop): Likeshop API now supports title attribute\n<!--\r\nIf you have any difficulties in filling out this form, please refer to https://docs.rsshub.app/joinus/new-rss/submit-route\r\n如果你在填写此表单时遇到任何困难，请参考 https://docs.rsshub.app/zh/joinus/new-rss/submit-route\r\n-->\r\n\r\n## Involved Issue / 该 PR 相关 Issue\r\n\r\nClose #\r\n\r\n## Example for the Proposed Route(s) /\n<!-- pr-auto-review -->%0A## Auto Review%0A- **Rule 11** — `lib/routes/likeshop/index.ts:33`: When `item.title === -`, the title is set …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(route/likeshop): Likeshop API now supports title attribute\n<!--\r\nIf you have\u2026",
+          "title": "fix(route/likeshop): Likeshop API now supports title attribute\n<!--\r\nIf you have…",
           "url": "https://github.com/DIYgod/RSSHub/pull/21484",
           "date": "2026-03-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
@@ -256,13 +256,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
@@ -319,13 +319,13 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
@@ -508,13 +508,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
@@ -529,13 +529,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
@@ -592,13 +592,13 @@
     },
     {
       "id": "l528",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
@@ -613,13 +613,13 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+      "text": "Show HN: Core – open-source AI butler that clears your backlog without you",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+          "title": "Show HN: Core – open-source AI butler that clears your backlog without you",
           "url": "https://www.getcore.me/",
           "date": "2026-04-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
@@ -640,7 +640,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Data is the biggest bottleneck right now. Gen 1.5 and Skild AI proved that scali\u2026",
+          "title": "Data is the biggest bottleneck right now. Gen 1.5 and Skild AI proved that scali…",
           "url": "https://x.com/LunarThinkTrade/status/2092806635689300230",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -676,13 +676,13 @@
     },
     {
       "id": "l532",
-      "text": "It\u2019s time to get up! We are Sold Out for tonight!  See y\u2019all at the Ranch! #Ranch #Animals #wildlifecsi #ColdCase https://t.co/bBdVNiOuw1",
+      "text": "It’s time to get up! We are Sold Out for tonight!  See y’all at the Ranch! #Ranch #Animals #wildlifecsi #ColdCase https://t.co/bBdVNiOuw1",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "It\u2019s time to get up! We are Sold Out for tonight!  See y\u2019all at the Ranch! #Ranc\u2026",
+          "title": "It’s time to get up! We are Sold Out for tonight!  See y’all at the Ranch! #Ranc…",
           "url": "https://x.com/149Zone7/status/2088613165563076763",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -724,7 +724,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Completely hooked on Fields of Mistria what do you mean I can buy hats for my ra\u2026",
+          "title": "Completely hooked on Fields of Mistria what do you mean I can buy hats for my ra…",
           "url": "https://x.com/ThatBellaKidd/status/2092033297115426925",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -739,13 +739,13 @@
     },
     {
       "id": "l535",
-      "text": "Sure Knight said \u201cLeave me out of it\u201d about testifying in the Tupac murder trial yet he\u2019s calling TMZ from prison talking about the evidence in real time!! Remember it\u2019s a recorded line. Anything you say can and will be used \u2026..#Tupac #diddy #ColdCase #Zone7 https://t.co/ZET6RTH9hm",
+      "text": "Sure Knight said “Leave me out of it” about testifying in the Tupac murder trial yet he’s calling TMZ from prison talking about the evidence in real time!! Remember it’s a recorded line. Anything you say can and will be used …..#Tupac #diddy #ColdCase #Zone7 https://t.co/ZET6RTH9hm",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Sure Knight said \u201cLeave me out of it\u201d about testifying in the Tupac murder trial\u2026",
+          "title": "Sure Knight said “Leave me out of it” about testifying in the Tupac murder trial…",
           "url": "https://x.com/149Zone7/status/2090773816838398309",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -766,7 +766,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Teaching Cold Case Investigation Clark County Sheriff https://t.co/0KiXtzz4KV ht\u2026",
+          "title": "Teaching Cold Case Investigation Clark County Sheriff https://t.co/0KiXtzz4KV ht…",
           "url": "https://x.com/149Zone7/status/2092013624529154379",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -787,7 +787,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@CrimsonDesert_ You fixed the farm! Awesome. Been asking for this for a while.\n\n\u2026",
+          "title": "@CrimsonDesert_ You fixed the farm! Awesome. Been asking for this for a while.\n\n…",
           "url": "https://x.com/DroLeo69X/status/2080498457622528411",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -808,7 +808,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Volunteers help rescue ranch animals potentially in path of wildfire near Logan \u2026",
+          "title": "Volunteers help rescue ranch animals potentially in path of wildfire near Logan …",
           "url": "https://x.com/CTVVancouver/status/2083017416540373062",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -823,13 +823,13 @@
     },
     {
       "id": "l539",
-      "text": "I\u2019ve said since 1996 the investigation must include the 1994 NYC shooting",
+      "text": "I’ve said since 1996 the investigation must include the 1994 NYC shooting",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I\u2019ve said since 1996 the investigation must include the 1994 NYC shooting",
+          "title": "I’ve said since 1996 the investigation must include the 1994 NYC shooting",
           "url": "https://x.com/149Zone7/status/2090844449601466508",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -850,7 +850,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I was just looking at a tiny spider on the wall, reconciling with my arachnophob\u2026",
+          "title": "I was just looking at a tiny spider on the wall, reconciling with my arachnophob…",
           "url": "https://x.com/ThatBellaKidd/status/2091640860807188528",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -871,7 +871,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "A serial killer turns crime victim when his own daughter is in the one viciously\u2026",
+          "title": "A serial killer turns crime victim when his own daughter is in the one viciously…",
           "url": "https://x.com/149Zone7/status/2091212003738009932",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -886,13 +886,13 @@
     },
     {
       "id": "l542",
-      "text": "@404_null_404_ They'll feed it to the ranch animals and we'll eat more plastic that way \ud83d\ude0a",
+      "text": "@404_null_404_ They'll feed it to the ranch animals and we'll eat more plastic that way 😊",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@404_null_404_ They'll feed it to the ranch animals and we'll eat more plastic t\u2026",
+          "title": "@404_null_404_ They'll feed it to the ranch animals and we'll eat more plastic t…",
           "url": "https://x.com/lovhes_stupid/status/2092756137762488755",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -913,7 +913,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "In 1869, there was a lot of wildlife in the Yosemite Valley.\n\nJohn Muir was livi\u2026",
+          "title": "In 1869, there was a lot of wildlife in the Yosemite Valley.\n\nJohn Muir was livi…",
           "url": "https://x.com/BobhynemanUSA/status/2087896989472022744",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -934,7 +934,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Criminals, so your Fulani elites cannot buy land to ranch animals for your peopl\u2026",
+          "title": "Criminals, so your Fulani elites cannot buy land to ranch animals for your peopl…",
           "url": "https://x.com/nzemmili/status/2063163107711516901",
           "date": "2026-06-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -949,13 +949,13 @@
     },
     {
       "id": "l545",
-      "text": "@bofrench Noise pollution, consumption of resources, tanking property value, destruction and avoidance of wild life or ranch animals, impacts people with medical devices, expensive for city, short expense with no long term understanding of where this is going \u2026 enough?",
+      "text": "@bofrench Noise pollution, consumption of resources, tanking property value, destruction and avoidance of wild life or ranch animals, impacts people with medical devices, expensive for city, short expense with no long term understanding of where this is going … enough?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@bofrench Noise pollution, consumption of resources, tanking property value, des\u2026",
+          "title": "@bofrench Noise pollution, consumption of resources, tanking property value, des…",
           "url": "https://x.com/2000SHP/status/2092025674814964203",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -976,7 +976,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@zev_dr @MomzillaGood2go Prior the cv19 there was a woman in S. Africa who disco\u2026",
+          "title": "@zev_dr @MomzillaGood2go Prior the cv19 there was a woman in S. Africa who disco…",
           "url": "https://x.com/mcsmom515/status/2092093516767744048",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1012,13 +1012,13 @@
     },
     {
       "id": "l548",
-      "text": "Whe I worked with his mother on this case she told me - \u201cI more interested in the why, I want to know why more than who.\u201d I always understood that she knew who - it was the why. @TupacCenterTASF  @ColdCase #CSI #Zone7",
+      "text": "Whe I worked with his mother on this case she told me - “I more interested in the why, I want to know why more than who.” I always understood that she knew who - it was the why. @TupacCenterTASF  @ColdCase #CSI #Zone7",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Whe I worked with his mother on this case she told me - \u201cI more interested in th\u2026",
+          "title": "Whe I worked with his mother on this case she told me - “I more interested in th…",
           "url": "https://x.com/149Zone7/status/2090597811804897517",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1033,13 +1033,13 @@
     },
     {
       "id": "l549",
-      "text": "When it\u2019s too cold to walk without a jacket but too warm for a heavy jacket so I gotta pull out the Love Live merchandise https://t.co/NaMJVqVIDw",
+      "text": "When it’s too cold to walk without a jacket but too warm for a heavy jacket so I gotta pull out the Love Live merchandise https://t.co/NaMJVqVIDw",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "When it\u2019s too cold to walk without a jacket but too warm for a heavy jacket so I\u2026",
+          "title": "When it’s too cold to walk without a jacket but too warm for a heavy jacket so I…",
           "url": "https://x.com/ThatBellaKidd/status/2089874311490539702",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1060,7 +1060,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@SpursReporter Keldon probably had to take care of his many ranch animals.......\u2026",
+          "title": "@SpursReporter Keldon probably had to take care of his many ranch animals.......…",
           "url": "https://x.com/MKSRetired1/status/2085073300519068078",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1075,13 +1075,13 @@
     },
     {
       "id": "l551",
-      "text": "the eyes aren't only available for cats, dogs and horses, i've made them also for all farm and ranch animals! \ud83d\udc2e\ud83d\udc11\ud83d\udc14\ud83d\udc07 https://t.co/5bgo4GHUU1",
+      "text": "the eyes aren't only available for cats, dogs and horses, i've made them also for all farm and ranch animals! 🐮🐑🐔🐇 https://t.co/5bgo4GHUU1",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "the eyes aren't only available for cats, dogs and horses, i've made them also fo\u2026",
+          "title": "the eyes aren't only available for cats, dogs and horses, i've made them also fo…",
           "url": "https://x.com/Pralinesims/status/2055320847993229627",
           "date": "2026-05-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1096,13 +1096,13 @@
     },
     {
       "id": "l552",
-      "text": "Best Beach read of the summer \u2600\ufe0f: \nSwans Don\u2019t Swim In A Sewer \n@149Zone7 @zone7squad #FireIsland",
+      "text": "Best Beach read of the summer ☀️: \nSwans Don’t Swim In A Sewer \n@149Zone7 @zone7squad #FireIsland",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Best Beach read of the summer \u2600\ufe0f: \nSwans Don\u2019t Swim In A Sewer \n@149Zone7 @zone7\u2026",
+          "title": "Best Beach read of the summer ☀️: \nSwans Don’t Swim In A Sewer \n@149Zone7 @zone7…",
           "url": "https://x.com/lauraingle/status/2092642699211936178",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1117,13 +1117,13 @@
     },
     {
       "id": "l553",
-      "text": "@CajunDevilDawg @LebruceRobin @lawyerschiff It\u2019s early lol",
+      "text": "@CajunDevilDawg @LebruceRobin @lawyerschiff It’s early lol",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@CajunDevilDawg @LebruceRobin @lawyerschiff It\u2019s early lol",
+          "title": "@CajunDevilDawg @LebruceRobin @lawyerschiff It’s early lol",
           "url": "https://x.com/149Zone7/status/2091185032765292667",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1159,13 +1159,13 @@
     },
     {
       "id": "l555",
-      "text": "\u201cHave you seen Elvis Presley trapped in orbs TikTok? No? It is real I swear, there\u2019s an audio for it\u201d",
+      "text": "“Have you seen Elvis Presley trapped in orbs TikTok? No? It is real I swear, there’s an audio for it”",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u201cHave you seen Elvis Presley trapped in orbs TikTok? No? It is real I swear, the\u2026",
+          "title": "“Have you seen Elvis Presley trapped in orbs TikTok? No? It is real I swear, the…",
           "url": "https://x.com/ThatBellaKidd/status/2086247510021218342",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1201,13 +1201,13 @@
     },
     {
       "id": "l557",
-      "text": "@ThatBellaKidd Really makes you think \ud83d\ude14",
+      "text": "@ThatBellaKidd Really makes you think 😔",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ThatBellaKidd Really makes you think \ud83d\ude14",
+          "title": "@ThatBellaKidd Really makes you think 😔",
           "url": "https://x.com/itsKaylaErin/status/2087733957995659678",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1222,13 +1222,13 @@
     },
     {
       "id": "l558",
-      "text": "@KimberPLS They look like they\u2019re sucking their butts in",
+      "text": "@KimberPLS They look like they’re sucking their butts in",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@KimberPLS They look like they\u2019re sucking their butts in",
+          "title": "@KimberPLS They look like they’re sucking their butts in",
           "url": "https://x.com/st0neywitch/status/2092666572242337836",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1243,13 +1243,13 @@
     },
     {
       "id": "l559",
-      "text": "@monmonsquad Damn, nearly 10 years ago I had a manager who kept putting $20/wk into XRP every week for years. Said it'd pay off eventually. I should've listened \ud83d\ude02",
+      "text": "@monmonsquad Damn, nearly 10 years ago I had a manager who kept putting $20/wk into XRP every week for years. Said it'd pay off eventually. I should've listened 😂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@monmonsquad Damn, nearly 10 years ago I had a manager who kept putting $20/wk i\u2026",
+          "title": "@monmonsquad Damn, nearly 10 years ago I had a manager who kept putting $20/wk i…",
           "url": "https://x.com/ThatBellaKidd/status/2090997326873784528",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1264,13 +1264,13 @@
     },
     {
       "id": "l560",
-      "text": "@iluvmomoo You did a good job. They\u2019re very seated",
+      "text": "@iluvmomoo You did a good job. They’re very seated",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@iluvmomoo You did a good job. They\u2019re very seated",
+          "title": "@iluvmomoo You did a good job. They’re very seated",
           "url": "https://x.com/st0neywitch/status/2092081244376871045",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1369,13 +1369,13 @@
     },
     {
       "id": "l565",
-      "text": "@pupturds @149Zone7 God Bless Miss Dolly \ud83d\udc8b\ud83d\ude4f\ud83d\udc9d\ud83d\udc95\u271d\ufe0f",
+      "text": "@pupturds @149Zone7 God Bless Miss Dolly 💋🙏💝💕✝️",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@pupturds @149Zone7 God Bless Miss Dolly \ud83d\udc8b\ud83d\ude4f\ud83d\udc9d\ud83d\udc95\u271d\ufe0f",
+          "title": "@pupturds @149Zone7 God Bless Miss Dolly 💋🙏💝💕✝️",
           "url": "https://x.com/LisaKle04212122/status/2092377168701448311",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1390,13 +1390,13 @@
     },
     {
       "id": "l566",
-      "text": "@pupturds @149Zone7 Amen \ud83d\ude4f",
+      "text": "@pupturds @149Zone7 Amen 🙏",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@pupturds @149Zone7 Amen \ud83d\ude4f",
+          "title": "@pupturds @149Zone7 Amen 🙏",
           "url": "https://x.com/automom13/status/2092366135740059981",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1474,13 +1474,13 @@
     },
     {
       "id": "l570",
-      "text": "@dionnewarwick Incredible photo\u2764\ufe0f icons",
+      "text": "@dionnewarwick Incredible photo❤️ icons",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@dionnewarwick Incredible photo\u2764\ufe0f icons",
+          "title": "@dionnewarwick Incredible photo❤️ icons",
           "url": "https://x.com/st0neywitch/status/2092675889720885573",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1516,13 +1516,13 @@
     },
     {
       "id": "l572",
-      "text": "The look like they\u2019re holding a poop in",
+      "text": "The look like they’re holding a poop in",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The look like they\u2019re holding a poop in",
+          "title": "The look like they’re holding a poop in",
           "url": "https://x.com/st0neywitch/status/2092666661199311078",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1537,13 +1537,13 @@
     },
     {
       "id": "l573",
-      "text": "Consume less\ud83d\ude4f",
+      "text": "Consume less🙏",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Consume less\ud83d\ude4f",
+          "title": "Consume less🙏",
           "url": "https://x.com/st0neywitch/status/2091853761677275191",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1627,7 +1627,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@st0neywitch @CoquetteStJacq @MediumSizeMeech isn't a situationship an unofficia\u2026",
+          "title": "@st0neywitch @CoquetteStJacq @MediumSizeMeech isn't a situationship an unofficia…",
           "url": "https://x.com/kxwontfail/status/2061333015075156203",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -1684,13 +1684,13 @@
     },
     {
       "id": "l580",
-      "text": "Farmer Destroys 25 Acres After AI's Devastating Advice\nA farmer's trust in artificial intelligence cost him everything. In this deep-dive investigation, we explore how one agricultural expert followed AI recommendations that led to the complete destruction of 25 acres of crops\u2014devastating his livelihood and raising critical questions about AI reliability in farming. Learn what went wrong, why farmers are increasingly turning to AI for guidance, and the dangerous risks of blind automation in agri\u2026",
+      "text": "Farmer Destroys 25 Acres After AI's Devastating Advice\nA farmer's trust in artificial intelligence cost him everything. In this deep-dive investigation, we explore how one agricultural expert followed AI recommendations that led to the complete destruction of 25 acres of crops—devastating his livelihood and raising critical questions about AI reliability in farming. Learn what went wrong, why farmers are increasingly turning to AI for guidance, and the dangerous risks of blind automation in agri…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Farmer Destroys 25 Acres After AI's Devastating Advice\nA farmer's trust in artif\u2026",
+          "title": "Farmer Destroys 25 Acres After AI's Devastating Advice\nA farmer's trust in artif…",
           "url": "https://www.youtube.com/watch?v=AWc0K0bX76k",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
@@ -1705,13 +1705,13 @@
     },
     {
       "id": "l581",
-      "text": "How China Makes Billion Dollars From Farming \u2013 Massive High Tech Agriculture Industry\nChina has turned farming into a high-tech, billion-dollar industry powered by AI, agricultural drones, robotics, smart farmland, vertical farms, and advanced biotechnology. This is how China is transforming agriculture at a scale the world has rarely seen.\n\nChina is no longer relying on traditional farming methods alone. With more than 1.4 billion people to feed and limited arable land and water resources, Beij\u2026",
+      "text": "How China Makes Billion Dollars From Farming – Massive High Tech Agriculture Industry\nChina has turned farming into a high-tech, billion-dollar industry powered by AI, agricultural drones, robotics, smart farmland, vertical farms, and advanced biotechnology. This is how China is transforming agriculture at a scale the world has rarely seen.\n\nChina is no longer relying on traditional farming methods alone. With more than 1.4 billion people to feed and limited arable land and water resources, Beij…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How China Makes Billion Dollars From Farming \u2013 Massive High Tech Agriculture Ind\u2026",
+          "title": "How China Makes Billion Dollars From Farming – Massive High Tech Agriculture Ind…",
           "url": "https://www.youtube.com/watch?v=m1EyJR4I9eg",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
@@ -1726,13 +1726,13 @@
     },
     {
       "id": "l582",
-      "text": "The Greatest Land Grab in History: Billionaires, Mega Farms & the Secret Control of Food Supply\nA silent revolution is unfolding beneath our feet. From Bill Gates\u2019 massive farmland acquisitions to industrial AI mega-farms in China and ultra-self-sufficient presidential ranches, the global food system is being reshaped by power, technology, and land ownership.\n\nThis documentary-style breakdown explores who really controls the world\u2019s farmland, the hidden infrastructure of water and energy beneath\u2026",
+      "text": "The Greatest Land Grab in History: Billionaires, Mega Farms & the Secret Control of Food Supply\nA silent revolution is unfolding beneath our feet. From Bill Gates’ massive farmland acquisitions to industrial AI mega-farms in China and ultra-self-sufficient presidential ranches, the global food system is being reshaped by power, technology, and land ownership.\n\nThis documentary-style breakdown explores who really controls the world’s farmland, the hidden infrastructure of water and energy beneath…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Greatest Land Grab in History: Billionaires, Mega Farms & the Secret Control\u2026",
+          "title": "The Greatest Land Grab in History: Billionaires, Mega Farms & the Secret Control…",
           "url": "https://www.youtube.com/watch?v=oJjYygzxo9Q",
           "date": "2026-06-04",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
@@ -1861,6 +1861,14 @@
       "confidence": "high",
       "confidenceBasis": "L1x2 + L2x2 + L4(Adzuna 70) + L5(78). Multi-lane with declared L5 corpus.",
       "removedUnreachable": 0
+    },
+    "linkedin": {
+      "status": "sampled",
+      "query": "Farmworkers, Farm and Ranch Animals",
+      "location": "Australia",
+      "returned": 11,
+      "source": "linkedin (unofficial scrape)",
+      "_raw": "data/professions/45-2093/raw/linkedin_l4.json"
     }
   },
   "confidence": "high",

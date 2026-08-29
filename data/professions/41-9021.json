@@ -91,7 +91,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
+    "searchesReturningNothing": [],
+    "linkedin": {
+      "status": "sampled",
+      "query": "Real Estate Brokers",
+      "location": "Australia",
+      "returned": 10,
+      "source": "linkedin (unofficial scrape)",
+      "_raw": "data/professions/41-9021/raw/linkedin_l4.json"
+    }
   },
   "confidence": "high",
   "caveats": []

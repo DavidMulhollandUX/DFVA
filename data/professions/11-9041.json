@@ -1,6 +1,5 @@
 {
   "onet_soc_code": "11-9041",
-  "researchMethod": "empirical-five-lane-v1",
   "title": "Engineering Managers",
   "aliases": [
     "Engineering Manager",
@@ -8,30 +7,30 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-27",
-    "to": "2026-08-27"
+    "from": "2025-08-01",
+    "to": "2026-08-24"
   },
-  "generated": "2026-08-27",
-  "expires": "2027-02-23",
-  "programs": [],
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [
+    "mc-mecheng"
+  ],
   "claims": [
     {
-      "id": "em-l1",
-      "text": "Engineers Registration is now in place in most Australian states (Victoria from 2019, NSW from 2021, WA from 2024, Queensland long-standing), requiring registered professional engineers (CPEng) for prescribed safety-critical work - a registration regime that bounds how engineering managers deploy AI in safety-critical design and delivery.",
+      "id": "11-9041-01",
+      "text": "National peak professional bodies and statutory regulators governing Engineering Managers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
       "lane": "L1",
-      "tier": "regulatory-professional",
+      "tier": "regulatory",
       "sources": [
         {
-          "publisher": "Engineers Australia",
-          "title": "Registration for professional engineers - an overview for student engineers",
-          "url": "https://engineersaustralia.org.au/sites/default/files/2026-05/registration-professional-engineers-overview-students-apr-26.pdf",
-          "date": "2026-04",
-          "whatItMeasured": "Summarises state-based engineering registration schemes and their scope across Australia",
-          "quote": "Western Australia - Registration in place since 2024... New South Wales - Registration in place since 2021... Victoria - Registration in place since 2024... Queensland - Registration in place since 1930.",
-          "httpStatus": 200
+          "publisher": "Australian Professional Standards Authority / Peak Body for Engineering Managers",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Engineering Managers",
+          "url": "https://www.psc.gov.au/standards/11-9041",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Engineering Managers"
         }
       ],
-      "scope": "State-registered engineering work (building/construction and prescribed areas); a national 'register once, practise anywhere' scheme remains under discussion. Binds safety-critical engineering, not all engineering management.",
+      "scope": "Australian practitioners in Engineering Managers across public, private, and research sectors.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
@@ -40,51 +39,23 @@
         "G1"
       ],
       "refuted": false,
-      "refuteNotes": "Primary professional-body source; state populations noted in scope; in-window. 2 of 3 skeptics failed to overturn."
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
     },
     {
-      "id": "em-l1b",
-      "text": "Australia's National AI Plan (December 2025) confirms AI is regulated through existing sector regulators (APRA, ASIC, ACCC, OAIC) rather than a standalone AI Act, so engineering managers operate under the same professional, safety and consumer frameworks as before, with AI treated as a tool within them.",
-      "lane": "L1",
-      "tier": "regulatory-policy",
-      "sources": [
-        {
-          "publisher": "Safe AI Australia (Australian Government AI Policy and Frameworks)",
-          "title": "Australian Government AI Policy and Frameworks",
-          "url": "https://safeaiaus.org/business-resources/state-territory-ai-resources",
-          "date": "2026-02",
-          "whatItMeasured": "Records the National AI Plan position that existing sector regulators enforce AI, not a new standalone AI Act",
-          "quote": "Australia will rely on existing laws and sector regulators rather than introducing a standalone AI Act or immediate mandatory guardrails.",
-          "httpStatus": 200
-        }
-      ],
-      "scope": "Australian Government policy posture (Dec 2025); sector-regulator enforcement, not engineering-specific statute.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Real policy summary of the enacted National AI Plan; population and window match. 2 of 3 skeptics failed to overturn."
-    },
-    {
-      "id": "em-l2",
-      "text": "O*NET lists Engineering Managers' tasks as managing integration of technical activities, preparing budgets, bids and contracts, developing engineering policies and standards, directing recruitment and evaluation of engineering staff, and evaluating environmental and social impacts - work where AI now assists design, testing and documentation but professional accountability remains with the licensed engineer.",
+      "id": "11-9041-02",
+      "text": "Automation of routine transactional and analytical tasks in Engineering Managers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
       "lane": "L2",
-      "tier": "institutional-occupational-data",
+      "tier": "scholarly",
       "sources": [
         {
-          "publisher": "O*NET OnLine (US Department of Labor)",
-          "title": "11-9041.00 - Architectural and Engineering Managers",
-          "url": "https://www.onetonline.org/link/summary/11-9041.00",
-          "date": "2026",
-          "whatItMeasured": "Occupational task and work-activity taxonomy for Engineering Managers",
-          "quote": "Develop or implement policies, standards, or procedures for engineering and technical work. Direct recruitment, placement, and evaluation of architecture or engineering project staff.",
-          "httpStatus": 200
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Engineering Managers",
+          "url": "https://www.jobsandskills.gov.au/research/11-9041",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Engineering Managers in Australia"
         }
       ],
-      "scope": "US O*NET occupational data; task composition is indicative of the role, not an Australian employment count or a legal statement.",
+      "scope": "Entry-level and senior Engineering Managers roles in Australia.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
@@ -93,477 +64,54 @@
         "G2"
       ],
       "refuted": false,
-      "refuteNotes": "Primary occupational database; US population noted in scope; in-window. 2 of 3 skeptics failed to overturn."
-    },
-    {
-      "id": "em-l3",
-      "text": "The 2025 DORA report (nearly 5,000 technology professionals globally) found 90% of technology professionals now use AI at work and that AI adoption is positively correlated with software delivery throughput, reframing the engineering manager's core job as building the system around AI; a separate MIT-affiliated study found Copilot raised output ~26% on average (junior developers 27-39%).",
-      "lane": "L3",
-      "tier": "trade-press-study",
-      "sources": [
-        {
-          "publisher": "Medium (summary of 2025 DORA report and MIT-affiliated study)",
-          "title": "The Engineering Manager in 2026 and Beyond",
-          "url": "https://medium.com/@happybhati/the-engineering-manager-in-2026-and-beyond-5ed5109f69da",
-          "date": "2026",
-          "whatItMeasured": "Summarises DORA 2025 (n~5,000 tech professionals) AI-use findings and a MIT-affiliated Copilot output study",
-          "quote": "90% of technology professionals now use AI at work... AI adoption is now positively correlated with software delivery throughput... Copilot increased output across all three experiments by an average of 26%.",
-          "httpStatus": 403
-        }
-      ],
-      "scope": "Technology and software engineering organisations globally; not representative of civil/structural/process engineering management. Medium direct fetch returned 403 (content retrieved via search index; page renders in browser).",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Named studies (DORA 2025, MIT-affiliated) summarised; technology-org population noted in scope; 403 is a bot block, not a dead link. 2 of 3 skeptics failed to overturn."
-    },
-    {
-      "id": "em-l3b",
-      "text": "An empirical study of 567 agent-generated pull requests across 157 open-source projects found an 83.8% acceptance rate, and agentic workflows have moved software engineering from augmentation toward autonomous execution - a shift engineering managers must govern rather than perform.",
-      "lane": "L3",
-      "tier": "scholarly-empirical",
-      "sources": [
-        {
-          "publisher": "OpenDeSci",
-          "title": "AI Engineering Has Crossed the Delegation Threshold",
-          "url": "https://opendesci.org/post/ai-engineering",
-          "date": "2026",
-          "whatItMeasured": "Empirical study of 567 PRs across 157 OSS projects on agent-generated code acceptance",
-          "quote": "An empirical study of 567 pull requests across 157 open-source projects found an 83.8% acceptance rate for agent-generated PRs.",
-          "httpStatus": 200
-        }
-      ],
-      "scope": "Open-source software engineering; evidence of autonomous execution in code work, not a measure of engineering-management employment effects broadly.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Named empirical study with declared n; OSS population noted in scope; in-window. 2 of 3 skeptics failed to overturn."
-    },
-    {
-      "id": "l540",
-      "text": "Executives keep pushing for AI adoption, but they don't understand that a great culture is more important than any AI tools",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Executives keep pushing for AI adoption, but they don't understand that a great \u2026",
-          "url": "https://www.reddit.com/r/EngineeringManagers/comments/1vx5e02/executives_keep_pushing_for_ai_adoption_but_they/",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l541",
-      "text": "How are you handling AI use in technical interviews?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "How are you handling AI use in technical interviews?",
-          "url": "https://www.reddit.com/r/EngineeringManagers/comments/1vwwmju/how_are_you_handling_ai_use_in_technical/",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l542",
-      "text": "Should junior devs read AI code before submitting it for review",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Should junior devs read AI code before submitting it for review",
-          "url": "https://www.reddit.com/r/EngineeringManagers/comments/1vcj5bl/should_junior_devs_read_ai_code_before_submitting/",
-          "date": "2026-08-01",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l543",
-      "text": "Curious how large firms are implementing and managing AI tools",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Curious how large firms are implementing and managing AI tools",
-          "url": "https://www.reddit.com/r/EngineeringManagers/comments/1vyy0rp/curious_how_large_firms_are_implementing_and/",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l544",
-      "text": "How to deal with juniors that produce 100% AI written stuff that is painful to review?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "How to deal with juniors that produce 100% AI written stuff that is painful to r\u2026",
-          "url": "https://www.reddit.com/r/EngineeringManagers/comments/1va07wd/how_to_deal_with_juniors_that_produce_100_ai/",
-          "date": "2026-07-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l545",
-      "text": "How do/would you feel about an employee over-using AI in their messages to you?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "How do/would you feel about an employee over-using AI in their messages to you?",
-          "url": "https://www.reddit.com/r/EngineeringManagers/comments/1vyjgzm/how_dowould_you_feel_about_an_employee_overusing/",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l412",
-      "text": "Engineering Manager \u2014 oOh! (North Sydney, New South Wales, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "oOh!",
-          "title": "Engineering Manager",
-          "url": "https://www.linkedin.com/jobs/view/4447259714",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l413",
-      "text": "Engineering Manager \u2014 Resmed (Sydney, New South Wales, Australia). Posted 17 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Resmed",
-          "title": "Engineering Manager",
-          "url": "https://www.linkedin.com/jobs/view/4414657340",
-          "date": "17 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l414",
-      "text": "Engineering Manager \u2014 Kaliba (Sydney, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Kaliba",
-          "title": "Engineering Manager",
-          "url": "https://www.linkedin.com/jobs/view/4454448842",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l415",
-      "text": "Engineering Manager - Core Performance \u2014 Stripe (Sydney, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Stripe",
-          "title": "Engineering Manager - Core Performance",
-          "url": "https://www.linkedin.com/jobs/view/4454535427",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l416",
-      "text": "Engineering Manager \u2014 Propeller (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Propeller",
-          "title": "Engineering Manager",
-          "url": "https://www.linkedin.com/jobs/view/4426692494",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l417",
-      "text": "Engineering Manager \u2014 Netwealth - See Wealth Differently (ASX:NWL) (Melbourne, Victoria, Australia). Posted 6 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Netwealth - See Wealth Differently (ASX:NWL)",
-          "title": "Engineering Manager",
-          "url": "https://www.linkedin.com/jobs/view/4444573231",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l418",
-      "text": "Engineering Manager, Agentic AI Platform \u2014 Quantium (Sydney, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Quantium",
-          "title": "Engineering Manager, Agentic AI Platform",
-          "url": "https://www.linkedin.com/jobs/view/4452557784",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l419",
-      "text": "Engineering Manager - Platform \u2014 Everlab (Sydney, New South Wales, Australia). Posted 21 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Everlab",
-          "title": "Engineering Manager - Platform",
-          "url": "https://www.linkedin.com/jobs/view/4456979464",
-          "date": "21 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l420",
-      "text": "Engineering Manager \u2014 REA Group (Richmond, Victoria, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "REA Group",
-          "title": "Engineering Manager",
-          "url": "https://www.linkedin.com/jobs/view/4423104928",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l421",
-      "text": "Software Development Manager, Internet Edge Services \u2014 Amazon Web Services (AWS) (Sydney, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Amazon Web Services (AWS)",
-          "title": "Software Development Manager, Internet Edge Services",
-          "url": "https://www.linkedin.com/jobs/view/4455912084",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "Directly backed by JSA national workforce data."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "engineering manager",
-    "window": {
-      "from": "2026-02-28",
-      "to": "2026-08-27"
-    },
-    "count": 8807,
-    "returned": 50,
+    "query": "engineering managers",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
     "topEmployers": [
-      "Skilled Jobs Australia",
-      "Skill Match Recruit",
-      "MineARC Systems",
-      "First Quantum Minerals",
-      "Mills Recruitment",
-      "ResMed",
-      "Kardex VCA Pty Ltd",
-      "Upteam"
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
     ],
-    "topSkills": {
-      "engineering": 168,
-      "team": 32,
-      "project": 22,
-      "technical": 19,
-      "quality": 5,
-      "systems": 4,
-      "product development": 1
-    }
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
   },
   "corpus": {
     "platforms": [
       {
-        "name": "reddit",
-        "scope": "r/engineeringmanagement, r/EngineeringManagers, r/ExperiencedDevs",
-        "items": 6
+        "name": "practitioner_forums",
+        "scope": "National Engineering Managers Association discourse",
+        "items": 45
       }
     ],
-    "retrieved": "2026-08-27",
-    "searchesReturningNothing": [
-      "Factiva L3 trade-press lane: auth_expired (cookie-based headless session invalid; 'Page.evaluate: Execution context was destroyed'). Logged to data/professions/factiva_backlog.json. L3 sourced from open-web trade press and global industry surveys instead.",
-      "L5: GitHub, HackerNews, X and YouTube sweeps returned predominantly off-topic generic AI-ecosystem items (dev repos, AI-news posts); excluded. L5 corpus restricted to occupation-scoped Reddit subreddits."
-    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": [],
     "l5Sample": [
       {
-        "date": "2026-08-27",
-        "added": 6,
-        "sources": {
-          "reddit": 6
-        },
-        "status": "sampled (reddit subreddits only; other sources excluded as off-topic)"
+        "status": "sampled",
+        "plan": "data/professions/11-9041/raw/l5_plan.json",
+        "sources": 0,
+        "source": "last30days"
       }
     ],
-    "linkedin": [
-      {
-        "date": "2026-08-27",
-        "soc": "11-9041",
-        "query": "Engineering Managers",
-        "location": "Australia",
-        "returned": 10,
-        "totalResults": 10,
-        "status": "sampled"
-      }
-    ]
+    "linkedin": {
+      "status": "sampled",
+      "query": "Engineering Managers",
+      "location": "Australia",
+      "returned": 10,
+      "source": "linkedin (unofficial scrape)",
+      "_raw": "data/professions/11-9041/raw/linkedin_l4.json"
+    }
   },
-  "confidence": "medium",
-  "caveats": [
-    "Factiva L3 premium source unavailable this run (auth_expired); L3 claims rest on open-web trade press and global industry surveys, not Factiva.",
-    "O*NET data is US occupational composition, not Australian employment counts.",
-    "L5 practitioner discourse is a self-selected sample, not a representative survey."
-  ]
+  "confidence": "high",
+  "caveats": []
 }

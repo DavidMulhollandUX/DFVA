@@ -22,7 +22,7 @@
       "sources": [
         {
           "publisher": "Safe Work Australia",
-          "title": "Agriculture \u2014 Safe Work Australia",
+          "title": "Agriculture — Safe Work Australia",
           "url": "https://www.safeworkaustralia.gov.au/safety-topic/industry-and-business/agriculture",
           "date": "",
           "whatItMeasured": "National WHS policy page for the agriculture industry."
@@ -108,13 +108,13 @@
     },
     {
       "id": "l505",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
@@ -129,13 +129,13 @@
     },
     {
       "id": "l506",
-      "text": "fix(mapping): audit batch 1 \u2014 SOC 21+45 KldB and title corrections\n## Summary\n\nFirst batch of corrections from a 10-agent (Sonnet) coherence audit over all 923 occupations in the corpus. The audit flagged **402 occupations** across three independent flag types (kldb-mismatch / title-awkward / anf-mismatch) \u2014 full output landed in `scripts/audit/findings-2026-04-25.",
+      "text": "fix(mapping): audit batch 1 — SOC 21+45 KldB and title corrections\n## Summary\n\nFirst batch of corrections from a 10-agent (Sonnet) coherence audit over all 923 occupations in the corpus. The audit flagged **402 occupations** across three independent flag types (kldb-mismatch / title-awkward / anf-mismatch) — full output landed in `scripts/audit/findings-2026-04-25.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(mapping): audit batch 1 \u2014 SOC 21+45 KldB and title corrections\n## Summary\n\nF\u2026",
+          "title": "fix(mapping): audit batch 1 — SOC 21+45 KldB and title corrections\n## Summary\n\nF…",
           "url": "https://github.com/mo-sp/pathfinder/pull/73",
           "date": "2026-04-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
@@ -150,13 +150,13 @@
     },
     {
       "id": "l507",
-      "text": "Show HN: OpenKnowledge \u2013 open source AI-first alternative to Obsidian/Notion",
+      "text": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: OpenKnowledge \u2013 open source AI-first alternative to Obsidian/Notion",
+          "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
           "url": "https://github.com/inkeep/open-knowledge",
           "date": "2026-06-25",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
@@ -339,13 +339,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
@@ -360,13 +360,13 @@
     },
     {
       "id": "l517",
-      "text": "Show HN: Reyn \u2013 local-first AI that journals and recalls your work",
+      "text": "Show HN: Reyn – local-first AI that journals and recalls your work",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Reyn \u2013 local-first AI that journals and recalls your work",
+          "title": "Show HN: Reyn – local-first AI that journals and recalls your work",
           "url": "https://www.usereyn.com/",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
@@ -423,13 +423,13 @@
     },
     {
       "id": "l520",
-      "text": "Show HN: Mnemo \u2013 local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
+      "text": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Mnemo \u2013 local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
+          "title": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
           "url": "https://github.com/zaydmulani09/mnemo",
           "date": "2026-06-03",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
@@ -444,13 +444,13 @@
     },
     {
       "id": "l521",
-      "text": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
+      "text": "OpenClaw for Sales – Using Local-First AI Agents for Sales Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
+          "title": "OpenClaw for Sales – Using Local-First AI Agents for Sales Workflows",
           "url": "https://www.kickscale.com/en/blog/openclaw-sales-ai-agent-revolution",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
@@ -507,13 +507,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
@@ -591,13 +591,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Slate \u2013 Open-source AI workspace with a built-in browser",
+      "text": "Show HN: Slate – Open-source AI workspace with a built-in browser",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Slate \u2013 Open-source AI workspace with a built-in browser",
+          "title": "Show HN: Slate – Open-source AI workspace with a built-in browser",
           "url": "https://github.com/slate-ai/slate",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
@@ -633,13 +633,13 @@
     },
     {
       "id": "l530",
-      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
@@ -654,13 +654,13 @@
     },
     {
       "id": "l531",
-      "text": "\"I draw the line at harming animals.\"\nThere was a post yesterday/earlier today on another writing sub about the lines that writers are not willing to cross, and coming up over and over again was the mention of &quot;harming animals.&quot; One commenter even mentioned the fact that their followers would be upset, to put it mildly, if they ever did cross that line. A quick search on Reddit showed me that this question pops up over and over again on subreddits dedicated to writing, and animal harm \u2026",
+      "text": "\"I draw the line at harming animals.\"\nThere was a post yesterday/earlier today on another writing sub about the lines that writers are not willing to cross, and coming up over and over again was the mention of &quot;harming animals.&quot; One commenter even mentioned the fact that their followers would be upset, to put it mildly, if they ever did cross that line. A quick search on Reddit showed me that this question pops up over and over again on subreddits dedicated to writing, and animal harm …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"I draw the line at harming animals.\"\nThere was a post yesterday/earlier today o\u2026",
+          "title": "\"I draw the line at harming animals.\"\nThere was a post yesterday/earlier today o…",
           "url": "https://www.reddit.com/r/writing/comments/1vr62i9/i_draw_the_line_at_harming_animals/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
@@ -675,13 +675,13 @@
     },
     {
       "id": "l532",
-      "text": "Why \"AI\" is the same as hoverboards\nthis, is a hoverboard... or is it!? in actuality, this product that has been dubbed a hover board does not in fact hover. why did this happen? because a bunch of science fiction stories predicted that we would have hoverboards in the 21st century. of course, here in reality hoverboards never came to pass, but that didn&#39;t stop companies from creating what is essentially just a segway without handlebars and trying to pass it off as the thing everyone wants f\u2026",
+      "text": "Why \"AI\" is the same as hoverboards\nthis, is a hoverboard... or is it!? in actuality, this product that has been dubbed a hover board does not in fact hover. why did this happen? because a bunch of science fiction stories predicted that we would have hoverboards in the 21st century. of course, here in reality hoverboards never came to pass, but that didn&#39;t stop companies from creating what is essentially just a segway without handlebars and trying to pass it off as the thing everyone wants f…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why \"AI\" is the same as hoverboards\nthis, is a hoverboard... or is it!? in actua\u2026",
+          "title": "Why \"AI\" is the same as hoverboards\nthis, is a hoverboard... or is it!? in actua…",
           "url": "https://www.reddit.com/r/antiai/comments/1ve7e77/why_ai_is_the_same_as_hoverboards/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
@@ -696,13 +696,13 @@
     },
     {
       "id": "l533",
-      "text": "YOUR AI AGENT DOESN\u2019T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
+      "text": "YOUR AI AGENT DOESN’T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "YOUR AI AGENT DOESN\u2019T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
+          "title": "YOUR AI AGENT DOESN’T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
           "url": "https://x.com/bykushnir/status/2092563824566050843",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -759,13 +759,13 @@
     },
     {
       "id": "l536",
-      "text": "@TheDailyRuck I love the first line. \ud83d\udc4f",
+      "text": "@TheDailyRuck I love the first line. 👏",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheDailyRuck I love the first line. \ud83d\udc4f",
+          "title": "@TheDailyRuck I love the first line. 👏",
           "url": "https://x.com/_answersking/status/2092797324850335991",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
@@ -780,13 +780,13 @@
     },
     {
       "id": "l537",
-      "text": "\ud83d\udd25In Another World, His MAX-Luck System Gave Him a Hidden Class That Summons an INFINITE Abyss Army!\n#Comic #ComicSystem #ComicOverview #Comic #Comic #Novel #Anime #JapaneseAnimation #ScienceFiction #System #Trillionaire #Billionaire #top10manhwa\n\ud83d\udd25\nHey Friends!\nIf you\u2019re enjoying this story, show some love with likes and subscriptions. I'll work hard to get the next part out as soon as possible!\n\nVideo Description\uff1aYe Lingchen, orphaned at a young age, saved for eight years for his life-changing p\u2026",
+      "text": "🔥In Another World, His MAX-Luck System Gave Him a Hidden Class That Summons an INFINITE Abyss Army!\n#Comic #ComicSystem #ComicOverview #Comic #Comic #Novel #Anime #JapaneseAnimation #ScienceFiction #System #Trillionaire #Billionaire #top10manhwa\n🔥\nHey Friends!\nIf you’re enjoying this story, show some love with likes and subscriptions. I'll work hard to get the next part out as soon as possible!\n\nVideo Description：Ye Lingchen, orphaned at a young age, saved for eight years for his life-changing p…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "\ud83d\udd25In Another World, His MAX-Luck System Gave Him a Hidden Class That Summons an I\u2026",
+          "title": "🔥In Another World, His MAX-Luck System Gave Him a Hidden Class That Summons an I…",
           "url": "https://www.youtube.com/watch?v=H90LO63qOV8",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
@@ -801,13 +801,13 @@
     },
     {
       "id": "l538",
-      "text": "\u300a\u5929\u624d\u5f13\u7bad\u624b\u7684\u76f4\u64ad\u300b\ud83d\udd25\u6614\u65e5\u5c04\u7bad\u5929\u624d\u56e0\u4f24\u9000\u5f79\uff0c\u8f6c\u884c\u76f4\u64ad\u6e38\u620f\uff0c\u51ed\u501f\u60ca\u4eba\u7bad\u672f\u4e0e\u83dc\u9e1f\u4eba\u8bbe\u8fc5\u901f\u7206\u7ea2\u3002\u5982\u4eca\u5316\u8eab\u201cAlmond\u201d\uff0c\u4ed6\u8a93\u8981\u767b\u9876\u7535\u7ade\u4e16\u754c#\u7535\u7ade#\u76f4\u64ad#\u5c04\u7bad#\u5929\u624d#\u9006\u88ad#\u6210\u957f\n\u300a\u5929\u624d\u5f13\u7bad\u624b\u7684\u76f4\u64ad\u300b\uff5c\u6f2b\u756b\u89e3\u8aaa\uff5c\u96fb\u7af6\u76f4\u64ad\uff5c\u5929\u624d\u9006\u8972\n\n\u66fe\u7d93\u88ab\u8b7d\u70ba\u5929\u624d\u5c04\u7bad\u9078\u624b\u7684\u4ed6\uff0c\u537b\u56e0\u70ba\u4e00\u5834\u610f\u5916\u53d7\u50b7\uff0c\u88ab\u8feb\u63d0\u524d\u7d50\u675f\u8077\u696d\u751f\u6daf\u3002\n\n\u5931\u53bb\u5c04\u7bad\u5922\u60f3\u5f8c\uff0c\u4ed6\u8f49\u884c\u6210\u70ba\u904a\u6232\u4e3b\u64ad\uff0c\u539f\u672c\u53ea\u60f3\u9760\u76f4\u64ad\u7dad\u6301\u751f\u6d3b\uff0c\u6c92\u60f3\u5230\u6191\u85c9\u8457\u9a5a\u4eba\u7684\u53cd\u61c9\u529b\u8207\u7cbe\u6e96\u5230\u8a87\u5f35\u7684\u300c\u5f13\u7bad\u300d\u64cd\u4f5c\uff0c\u8fc5\u901f\u5438\u5f15\u5927\u91cf\u89c0\u773e\u3002\n\n\u66f4\u6709\u8da3\u7684\u662f\uff0c\u70ba\u4e86\u96b1\u85cf\u81ea\u5df1\u7684\u771f\u6b63\u5be6\u529b\uff0c\u4ed6\u6545\u610f\u4fdd\u6301\u8457\u300c\u904a\u6232\u83dc\u9ce5\u300d\u7684\u4eba\u8a2d\u3002\n\n\u7576\u5929\u624d\u5c04\u7bad\u6280\u8853\u8207\u96fb\u7af6\u904a\u6232\u5b8c\u7f8e\u7d50\u5408\uff0c\u4e3b\u64ad\u300cAlmond\u300d\u958b\u59cb\u4e00\u8def\u9006\u8972\uff0c\u5411\u8457\u96fb\u7af6\u4e16\u754c\u6700\u9802\u7aef\u767c\u8d77\u6311\u6230\uff01\n\n\u672c\u96c6\u5e36\u4f86\u300a\u5929\u624d\u5f13\u7bad\u624b\u7684\u76f4\u64ad\u300b\u7684\u7cbe\u5f69\u6f2b\u756b\u89e3\u8aaa\uff0c\u5e36\u4f60\u5feb\u901f\u4e86\u89e3\u5287\u60c5\u3001\u76f4\u64ad\u540d\u5834\u9762\u3001\u96fb\u7af6\u5c0d\u6230\u8207\u4e3b\u89d2\u7684\u6210\u9577\u4e4b\u8def\u3002\n\n\u5982\u679c\u4f60\u559c\u6b61\uff1a\n\n\ud83c\udfae \u96fb\u7af6\u984c\u6750\n\ud83c\udfa5 \u904a\u6232\u76f4\u64ad\n\ud83c\udff9 \u5c04\u7bad\u5929\u624d\n\ud83d\udd25 \u9006\u8972\u723d\u6587\n\ud83c\udfc6 \u96fb\u7af6\u6bd4\u8cfd\n\ud83d\udcaa \u5929\u624d\u4e3b\u89d2\n\ud83d\udcc8 \u6210\u9577\u578b\u6545\u4e8b\n\ud83d\udcd6 \u6f2b\u756b\u89e3\u8aaa\n\n\u6b61\u8fce\u6309\u8b9a \ud83d\udc4d\u3001\u8a02\u95b1 \ud83d\udd14\uff0c\u958b\u555f\u5c0f\u9234\u943a\uff0c\u7b2c\u4e00\u6642\u9593\u6536\u770b\u66f4\u591a\u7cbe\u5f69\u6f2b\u756b\u89e3\u8aaa\uff01\n\n#\u6f2b\u756b\u89e3\u8aaa #\u97d3\u6f2b #\u96fb\u7af6 #\u76f4\u64ad #\u5c04\u7bad #\u5929\u624d #\u9006\u8972 #\u6210\u9577 #\u6f2b\u756b\u63a8\u85a6\n\n\u2615 \u60f3\u2026",
+      "text": "《天才弓箭手的直播》🔥昔日射箭天才因伤退役，转行直播游戏，凭借惊人箭术与菜鸟人设迅速爆红。如今化身“Almond”，他誓要登顶电竞世界#电竞#直播#射箭#天才#逆袭#成长\n《天才弓箭手的直播》｜漫畫解說｜電競直播｜天才逆襲\n\n曾經被譽為天才射箭選手的他，卻因為一場意外受傷，被迫提前結束職業生涯。\n\n失去射箭夢想後，他轉行成為遊戲主播，原本只想靠直播維持生活，沒想到憑藉著驚人的反應力與精準到誇張的「弓箭」操作，迅速吸引大量觀眾。\n\n更有趣的是，為了隱藏自己的真正實力，他故意保持著「遊戲菜鳥」的人設。\n\n當天才射箭技術與電競遊戲完美結合，主播「Almond」開始一路逆襲，向著電競世界最頂端發起挑戰！\n\n本集帶來《天才弓箭手的直播》的精彩漫畫解說，帶你快速了解劇情、直播名場面、電競對戰與主角的成長之路。\n\n如果你喜歡：\n\n🎮 電競題材\n🎥 遊戲直播\n🏹 射箭天才\n🔥 逆襲爽文\n🏆 電競比賽\n💪 天才主角\n📈 成長型故事\n📖 漫畫解說\n\n歡迎按讚 👍、訂閱 🔔，開啟小鈴鐺，第一時間收看更多精彩漫畫解說！\n\n#漫畫解說 #韓漫 #電競 #直播 #射箭 #天才 #逆襲 #成長 #漫畫推薦\n\n☕ 想…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "\u300a\u5929\u624d\u5f13\u7bad\u624b\u7684\u76f4\u64ad\u300b\ud83d\udd25\u6614\u65e5\u5c04\u7bad\u5929\u624d\u56e0\u4f24\u9000\u5f79\uff0c\u8f6c\u884c\u76f4\u64ad\u6e38\u620f\uff0c\u51ed\u501f\u60ca\u4eba\u7bad\u672f\u4e0e\u83dc\u9e1f\u4eba\u8bbe\u8fc5\u901f\u7206\u7ea2\u3002\u5982\u4eca\u5316\u8eab\u201cAlmond\u201d\uff0c\u4ed6\u8a93\u8981\u767b\u9876\u7535\u7ade\u4e16\u754c#\u7535\u7ade#\u76f4\u64ad#\u5c04\u7bad#\u5929\u624d#\u2026",
+          "title": "《天才弓箭手的直播》🔥昔日射箭天才因伤退役，转行直播游戏，凭借惊人箭术与菜鸟人设迅速爆红。如今化身“Almond”，他誓要登顶电竞世界#电竞#直播#射箭#天才#…",
           "url": "https://www.youtube.com/watch?v=c-wFE8V205s",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
@@ -822,13 +822,13 @@
     },
     {
       "id": "l539",
-      "text": "The Entire History of Human Invention | Full Documentary\nHumanity's entire technology tree in one history documentary: 170+ inventions, from the first controlled fire to artificial intelligence, and how each one unlocked the next.\n\nLong before recorded history, someone refused to let a fire die.\nEvery tool we made taught us how to make another.\nWriting let the dead speak to the living; steam became power; machines began to learn.\nNo invention ever stood alone - each one stands on all that came b\u2026",
+      "text": "The Entire History of Human Invention | Full Documentary\nHumanity's entire technology tree in one history documentary: 170+ inventions, from the first controlled fire to artificial intelligence, and how each one unlocked the next.\n\nLong before recorded history, someone refused to let a fire die.\nEvery tool we made taught us how to make another.\nWriting let the dead speak to the living; steam became power; machines began to learn.\nNo invention ever stood alone - each one stands on all that came b…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Entire History of Human Invention | Full Documentary\nHumanity's entire techn\u2026",
+          "title": "The Entire History of Human Invention | Full Documentary\nHumanity's entire techn…",
           "url": "https://www.youtube.com/watch?v=CjZ8ZeVMTI4",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
@@ -849,7 +849,7 @@
       "sources": [
         {
           "publisher": "youtube",
-          "title": "100 Billion People Forced to Dig! He Awakens the \"5x Loot\" Glitch to Survive the\u2026",
+          "title": "100 Billion People Forced to Dig! He Awakens the \"5x Loot\" Glitch to Survive the…",
           "url": "https://www.youtube.com/watch?v=5TJp0xCgW3I",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
@@ -864,13 +864,13 @@
     },
     {
       "id": "l541",
-      "text": "Everyone Called Him Weak Until He Upgraded His Broken Raft Into a Plant Warship\u2014Girls Beg to Board!\n#Comic #ComicSystem #ComicOverview #Comic #Comic #Novel #Anime #JapaneseAnimation #ScienceFiction #System #Trillionaire #Billionaire #top10manhwa\n\n\u2705Novel Title: Global Age of Sailing: My Card Pool Contains Everything\n(Thank you for watching! Please leave \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f in the comments!)\n------------------------------------------------------------------------------------------------\nDisclaimer: Yang Li awa\u2026",
+      "text": "Everyone Called Him Weak Until He Upgraded His Broken Raft Into a Plant Warship—Girls Beg to Board!\n#Comic #ComicSystem #ComicOverview #Comic #Comic #Novel #Anime #JapaneseAnimation #ScienceFiction #System #Trillionaire #Billionaire #top10manhwa\n\n✅Novel Title: Global Age of Sailing: My Card Pool Contains Everything\n(Thank you for watching! Please leave ❤️❤️❤️ in the comments!)\n------------------------------------------------------------------------------------------------\nDisclaimer: Yang Li awa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Everyone Called Him Weak Until He Upgraded His Broken Raft Into a Plant Warship\u2014\u2026",
+          "title": "Everyone Called Him Weak Until He Upgraded His Broken Raft Into a Plant Warship—…",
           "url": "https://www.youtube.com/watch?v=oPPCvndQeGo",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
@@ -999,6 +999,14 @@
       "confidence": "high",
       "confidenceBasis": "L1x2 + L2x2 + L4(Adzuna 356) + L5(37). Multi-lane with declared L5 corpus.",
       "removedUnreachable": 0
+    },
+    "linkedin": {
+      "status": "sampled",
+      "query": "First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers",
+      "location": "Australia",
+      "returned": 10,
+      "source": "linkedin (unofficial scrape)",
+      "_raw": "data/professions/45-1011/raw/linkedin_l4.json"
     }
   },
   "confidence": "high",
