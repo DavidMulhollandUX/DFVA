@@ -1,0 +1,124 @@
+{
+  "code": "mc-mgmtafn",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Meets the level-2 anchor: at least one core unit assesses collaborative practice with individual accountability (group assignments with per-student word allocations; a group presentation where all students must present and answer questions individually), recurring across multiple core accounting and finance subjects. Does not reach level 3: the extract contains no assessment that requires coordinating work across people AND tools/AI systems, and no documented role-and-tool allocation task — there is no AI or tool-coordination content anywhere in the file.",
+      "evidenceLines": [
+        "Group assignment (4000 words, in groups of 4-5 students)",
+        "Group assignment (3000 words equivalent, in groups of 3-4 students)",
+        "Group (5-6 students) Assignment (Due 10 days after presentation)"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "The capstone ACCT90033 carries an assessed 'Individual relfective journal' (15%), which exceeds level 1's bare outcome-statement threshold since it is graded, not merely claimed. But the extract does not describe the journal being marked against quality-appraisal criteria, exemplars, or a structured-critique rubric, so it cannot be confirmed as level 2's 'criterion-referenced appraisal of quality.' No peer review, structured critique or reliance-justification task (level 3) appears anywhere. Ambiguous between 1 and 2 — scored at the lower level per the scoring-direction rule.",
+      "evidenceLines": [
+        "Individual relfective journal",
+        "750 words"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "The only documented digital-tool content in a core unit is ACCT90030's assessed 'Computerised ERP practice sets' — operational tool training, matching level 1's 'tool operation/training' anchor. No AI content, and no evidence anywhere in the extract of AI capabilities being addressed alongside limitations or ethics (level 2), so it cannot be scored higher.",
+      "evidenceLines": [
+        "Computerised ERP practice sets"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Demoted from 2 to 1 on adversarial verification: all three evidenceLines are sourced from ACCT90033's subject Overview / Intended Learning Outcomes, not the Assessment table (Individual presentation, Group assignment, Individual reflective journal, Exam) — none of which textually reference case-study or cross-disciplinary application. R2's blanket rule caps an outcome-only-evidenced capability at level 1. Original rationale, for reference: the capstone ACCT90033 requires applying theory from multiple disciplines to case studies and current news events — read as an assessed learning outcome, which would satisfy level 2's 'application to novel or unfamiliar problems... cross-context projects' if the outcome were tied to a named, gradable assessment item; the same subject's 'in-depth investigation into an accounting topic of interest' gestures toward level 3's self-scoped independent project but has the same defect.",
+      "evidenceLines": [
+        "Apply underlying principles and theories from a variety of accounting and non-accounting disciplines to organisational problems/issues presented in given case studies and current events",
+        "to examine various case studies and current news events",
+        "complete an in-depth investigation into an accounting topic of interest"
+      ]
+    },
+    "C5": {
+      "score": 0,
+      "rationale": "No compulsory subject teaches research methodology, data collection, or methodology selection; no primary-evidence project of any kind is documented. The only relevant statements are generic-skill claims about retrieving information and synthesising literature, which are consistent with level 0's 'secondary synthesis only.' They could arguably support level 1's 'literature-review assessment' if such a task existed, but no assessment-table item anywhere in the extract is named as a literature review or research-methods task. Ambiguous between 0 and 1 — scored at the lower level.",
+      "evidenceLines": [
+        "Business research skills including the retrieval of information from a variety of sources;",
+        "The ability to access data and research information form a variety of sources",
+        "Source, synthesize and evaluate in a scholarly way, relevant literature relating to a particular topic"
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 1,
+      "rationale": "Professional communication appears as a program-level generic-skill statement, and core assessment adds oral presentation to the teaching team (ACCT90033's individual presentation; FNCE90062's group presentation of a final report 'during the final meeting') — matching level 1's 'presentation to peers/staff, but no professional genre and no audience beyond the teaching team.' Nothing in the extract documents a client brief, consultancy deliverable, or an external/practitioner audience judging the work, so level 2 is not met.",
+      "evidenceLines": [
+        "Communication of accounting, finance and commerce related ideas, theories and solutions to peers and the wider community;",
+        "Individual presentation and oral assessment",
+        "Group (5-6 students) presentation of final report scheduled during the final meeting"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "FNCE90062 (one of the two capstone options) has students 'develop analyst reports' on real corporate-finance topics and states graduates will 'apply the tools, techniques and approaches typically required of financial analysts' — a practitioner artefact judged to a professional standard, matching level 2's 'reproduces a professional task end to end... producing the artefact a practitioner would produce.' This is documented in only the capstone, not scaffolded earlier in the program (the other core subjects' group assignments and exams remain academic in artefact form), so it does not meet level 3's requirement that such tasks form the program's assessment spine rather than a single instance.",
+      "evidenceLines": [
+        "Working in groups, students will develop analyst reports on topics including firm valuation, capital structure, mergers and acquisitions, corporate governance, and other contemporary issues and present these for assessment using a range of relevant pedagogical approaches.",
+        "Upon successful completion of this subject, students will be able to apply the tools, techniques and approaches typically required of financial analysts that support decision-making in corporate finance and investment management.",
+        "Present high quality verbal and written presentations of a standard expected of industry practitioners."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Work-integrated learning subjects (Global Business Practicum, Business and Economics Internship, Business Practicum) appear only inside the Management-subjects pool that students may draw two general electives from — not in the compulsory core, capstone, or finance/accounting discipline core. This matches level 1's 'exists only as an elective, an optional internship.' No core unit places students in a real workplace with practitioner supervision and assessment (level 2), so it cannot score higher.",
+      "evidenceLines": [
+        "Students must complete two subjects from any of the following lists:",
+        "Global Business Practicum",
+        "Business and Economics Internship",
+        "Business Practicum"
+      ]
+    },
+    "workplace": 4,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent, professionally accredited specialist core: three compulsory finance subjects, seven compulsory accounting subjects and a capstone (125 of 200 credit points), with named subjects required for entry to CAANZ and CPA Australia professional studies programs — a disciplinary identity with an externally accredited sequence, not generic or interchangeable content.",
+        "evidenceLines": [
+          "Certified Practising Accountant Australia (CPA)",
+          "Chartered Accountants Australia and New Zealand (CAANZ)",
+          "The Master of Management (Accounting and Finance) program consists of 16 subjects, comprising three core finance subjects, seven core accounting subjects, three finance electives, two general electives and one capstone subject.",
+          "The following subjects (or equivalent) are required for entry to Chartered Accountants Australia and New Zealand (CAANZ) and Certified Practising Accountants Australia (CPA) professional studies programs:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The FNCE90062 capstone assesses 'decision-making skills through making a single recommendation of the best choice in applied settings when the various parties affected by that decision do not share a set of common preferences' — a defended trade-off decision under real disagreement/uncertainty, not recall or scripted response. ACCT90033's requirement to apply professional judgement across alternatives to reach well-reasoned decisions reinforces this.",
+        "evidenceLines": [
+          "Decision-making skills through making a single recommendation of the best choice in applied settings when the various parties affected by that decision do not share a set of common preferences; and",
+          "Apply professional judgement, including identification and evaluation of alternatives, to reach well-reasoned decisions/solutions based on relevant case facts and contexts"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2: ACCT90033's assessed 'Individual relfective journal' (15%) is graded but the extract does not specify whether it is marked against explicit quality-appraisal criteria (level 2) or is unstructured reflection (level 1); resolved to the lower level, 1.",
+      "C4: ACCT90033's overview phrase 'complete an in-depth investigation into an accounting topic of interest' suggests a self-scoped project (level 3) but is not clearly tied to a distinct named item in the subject's Assessment table; resolved to the lower level, 2 on initial scoring, then demoted to 1 on adversarial verification since the level-2 claim rests on the same outcome-only evidence defect.",
+      "C5: Generic-skill statements about 'business research skills' and synthesising 'relevant literature' could indicate a level-1 literature-review assessment, but no Assessment-table item in the extract is named as a literature review or research-methods task; resolved to the lower level, 0.",
+      "W2: Case-based assessment recurs across several core subjects (ACCT90010, ACCT90033 and others), which could be read toward level 3's 'assessment spine,' but only the FNCE90062 capstone documents an actual practitioner artefact (analyst report) judged to professional standards — the other core subjects' case work stays in exam/essay form; resolved to the lower level, 2."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-30"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
