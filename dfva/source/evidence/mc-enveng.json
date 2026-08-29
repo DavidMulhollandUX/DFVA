@@ -1,0 +1,141 @@
+{
+  "code": "mc-enveng",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2, not 3: core units assess collaborative practice with individual accountability, matching the level-2 anchor ('At least one core unit assesses collaborative practice — group projects with individual accountability... interprofessional activity'). This recurs across Year 1 and Year 2 core units (ENEN20002, CVEN20001, ENGR90051, GEOM90006, ENEN90028), meeting level 3's recurrence clause, but no assessment in the extract requires 'coordinating work across people AND tools/AI systems' or assesses 'the division of work between people and systems' as level 3 additionally requires, so the score stays at 2.",
+      "evidenceLines": [
+        "Three written group assignments (3 team members/group). 1500 words in total for the group assignment (a workload equivalent to 500 words per student per assignment). 10% each, 30% in total. Due Weeks 5, 7 and 12.",
+        "Note: Students are required to participate in a peer review survey process to allow the coordinator to allocate individual marks for the group assignments.",
+        "In this subject, students will actively engage in an interdisciplinary, collaborative and project-based learning environment, offering insights into the professional nature of engineering work.",
+        "Mid-semester project review (conducted as a team, marked individually).",
+        "Major Project: Major spatial data analysis project requiring each team member to commit 40 hours (a contribution to the group report equivalent of 1500 words) of work for the group report, worth 35%."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: matches 'Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique... marking against exemplars' — ENGR90051's graded Peer feedback + evaluation component (15%) is structured peer critique, and ENEN30001's capstone assesses critical evaluation of the students' own model, assumptions, data and analysis. Neither documents a reliance/override decision on a tool, source or collaborator, nor a process-focused strategy-adjustment record, so level 3 is not met.",
+      "evidenceLines": [
+        "Peer feedback + evaluation (individual). Feedback: Approx. 8 hours of work per student. Evaluation: Approx. 12 hours of work, including teamwork documentation, team discussion + personal reflection",
+        "Students will also be expected to critically evaluate the quality of their model, assumptions, data and analysis.",
+        "Written 2 hour open-book exam (50%) in end semester exam period. ILOs 2, 3 and 4 are addressed in this exam"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1: matches 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable.' Core units require operational use of programming/scripting tools (a numerical programming language, Python, R). The only AI-named subject, System Optimisation & Machine Learning, is an elective, not core. The program's ILO mentioning 'the rise of automation and intelligent processes' is an unassessed program-level outcome (R2 applies). No core unit is documented assessing AI capabilities together with limitations/ethics, which level 2 requires.",
+      "evidenceLines": [
+        "Students will use a numerical programming language to undertake modelling tasks and will be required to learn some programming skills in the subject.",
+        "acquire technical software skills in a high-level scripting language (such as Python and R) that enable them to effectively address spatial data science problems across a variety of domains.",
+        "develop practical analytical skills through Python-based tutorials and exercises.",
+        "System Optimisation & Machine Learning",
+        "the rise of automation and intelligent processes, and privacy and security in the age of the internet"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2: matches 'At least one core assessment requires application to novel or unfamiliar problems — case variation, unseen datasets, cross-context projects.' The Monitoring Environmental Impacts core unit assesses design of an environmental monitoring program tailored to 'a client' and a specific environmental system under investigation. No core assessment in the extract documents a self-scoped capstone or assessed identification of knowledge gaps with a plan (level 3); the Year 3 Engineering Capstone Project's assessment detail was absent from the extract, so a level-3 claim could not be verified.",
+      "evidenceLines": [
+        "Design an environmental monitoring program to meet the requirements of a client, including conceptualising the environmental system under investigation",
+        "Project- One 1000 word/student group report due mid-semester. ILOs 1, 2, 3 and 6 are addressed in this report"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: matches 'Students design and conduct an inquiry with methodology selection and data collection, assessed.' The Monitoring Environmental Impacts core unit requires methodology selection and real field data collection at a compulsory five-day field camp, assessed via reports and an oral presentation/test. Ambiguous with level 3 (the oral test includes 10 minutes of questions), but the extract does not establish 'a substantial project' at the required scale nor that this is the sole route; resolved to the lower level.",
+      "evidenceLines": [
+        "There is also a semester long project to design and implement an environmental monitoring program supported by weekly practice classes.",
+        "Presentation & Oral Test- One 15-minute oral presentation, consisting of 5 minutes of presentation and 10 minutes of questions. ILO 1 and 6 are addressed in this presentation and oral test.",
+        "Select environmental sensors, sampling theory and field techniques",
+        "Selection of measurement techniques and consideration of measurement scale, conceptualising environmental responses to human activities, environmental sampling and monitoring design, systematic review of causal evidence, statistical analysis of environmental effects, risk assessments for occupational health and safety during environmental field programs."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1: matches 'Communication or professional conduct appears in learning outcomes or graduate attributes; core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team.' Communication is named in outcomes, and core assessment adds oral presentations to peers/staff, but no assessment clearly specifies a recognised professional genre or an audience beyond the teaching team judged against professional-practice criteria (level 2's requirement).",
+      "evidenceLines": [
+        "Demonstrate effective engineering communication skills, including the ability to articulate design concepts and technical information to achieve specific outcomes, and to purposefully interact with a range of stakeholders.",
+        "Oral presentation (10%) of approximately 5 minutes per student on their characterisation of their system, requiring approx. 10-15 hour investigation and preparation plus workshop contact time, due about week 4.",
+        "A capacity to articulate their knowledge and understanding in oral and written presentations;"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 3: matches 'Such tasks are the program's assessment spine rather than a single instance... AND at least one carries a genuine constraint of practice — ... real resource/time limits...' Professional-task reproduction recurs across ENGR90051, ENEN30001, CVEN90051 and ENEN30003, each reproducing a professional engineering task end to end. The Monitoring Environmental Impacts field camp adds a genuine constraint of practice: a fixed, compulsory five-day on-site field camp with a hard attendance hurdle.",
+      "evidenceLines": [
+        "This capstone subject involves an investigation and problem-solving project which will require students to apply a broad knowledge to realistic problems typical of what would be expected with employment in the environmental engineering industry.",
+        "The students will then build and operate these systems and undertake monitoring and analysis of their behaviour to provide a critical appraisal of the original model.",
+        "Students that successfully completely this subject will have the skills to practice under a chartered engineer to analyse problems and propose designs in the field of civil and environmental hydraulic engineering.",
+        "Phase I of the design project, including a report of maximum 10 pages, plus model files, due mid-semester.",
+        "The subject has a strong practical component with a five-day field camp during the week before the mid-semester break involving student-led environmental monitoring.",
+        "Within-semester and field camp participation. This includes both attendance and active participation in learning activities.",
+        "Hurdle requirement: Complete attendance at the field camp is a hurdle requirement to pass this subject.",
+        "Through a real-world project, students will gain hands-on design experience addressing a complex challenge.",
+        "Students will experience the entire engineering design process, covering problem definition, ideation, concept development, analysis, prototyping, testing and iteration."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2: the Engineering Practice Hurdle is compulsory, not elective, ruling out level 1, documented via an e-portfolio and satisfiable via ENGR90033 Internship, STEP, or an agreed unpaid internship at an approved firm. The extract does not confirm every route delivers a fully supervised, accountable placement with structured reflection (level 3) — the e-portfolio also accepts 'reflections on extracurricular activities such as employment and volunteering activities.' Resolved to the lower level.",
+      "evidenceLines": [
+        "In order to achieve the Engineering Practice Hurdle requirement, students will need to document the attainment of professional skills at an adequate level. This may include the successful completion of any of the following:",
+        "Skills Towards Employment Program (STEP)",
+        "ENGR90033 Internship subject",
+        "An agreed level of internship at an approved engineering form (without receiving University credit)",
+        "Completion of the degree will not be approved until this requirement has been met.",
+        "Students will be introduced early in their degree to the online e-portfolio system as a way of documenting their attainment of graduate attributes which accord with University and professional accreditation standards.",
+        "The artifacts recorded in the e-portfolio may include formal study elements, such as design reports, as well as reflections on extracurricular activities such as employment and volunteering activities."
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS: matches 'an accredited sequence, or a staged prerequisite chain.' The program is fully accredited by both EUR-ACE and Engineers Australia, requires 225 of 300 credit points as compulsory subjects, and documents a staged Year 1 to 2 to 3 core sequence.",
+        "evidenceLines": [
+          "The Master of Environmental Engineering is fully accredited by EUR-ACE® (EURopean- ACcredited Engineer)",
+          "The Master of Environmental Engineering is fully accredited by Engineers Australia",
+          "225 credit points of compulsory subjects",
+          "The core subject lists are divided into specific year levels, reflecting the recommended order of completing the course. There is, however, some flexibility between Year 2 and 3 core subjects, depending on the requisites set between them."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS: matches 'Assessments require defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability.' ENEN30003 assesses well-justified trade-off decisions, and Water Planning & an Uncertain Future is built around decision-making theory under uncertainty, assessed via reports and interactive oral assessments.",
+        "evidenceLines": [
+          "Make well-justified decisions considering multiobjective tradeoffs and/or different stakeholders' preferences.",
+          "This subject will provide an introduction to decision making theory under uncertainty.",
+          "Critique existing water policy with reference to current science, decision theory and future uncertainty",
+          "Individual oral presentation (5 mins) with an interactive oral assessment (5 minutes) Adressing Intended Learning Outcomes (ILO)s, 1,3 and 5"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C5: Monitoring Environmental Impacts' field camp plus its questioned oral test (10 minutes of questions) straddles level 2 (methodology selection + data collection, assessed) and level 3 (methodology defended under scrutiny, as a required, substantial, sole route); resolved to level 2, the lower level.",
+      "W1: The Monitoring Environmental Impacts brief to design a program 'to meet the requirements of a client' straddles level 1 (claimed stakeholder communication, presentations only to teaching staff) and level 2 (a genuine professional-genre deliverable judged against practice criteria); the extract does not confirm the client is a real external judge, so resolved to level 1.",
+      "W3: The Engineering Practice Hurdle's three qualifying routes (ENGR90033 Internship, STEP, or an agreed unpaid firm internship, documented via an e-portfolio that also accepts 'reflections on extracurricular activities') straddle level 2 (a short, stand-alone real-workplace placement) and level 3 (a fully supervised, accountable placement); the compulsory nature rules out level 1, but supervision/accountability is not confirmed for every route, so resolved to level 2."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-30"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
