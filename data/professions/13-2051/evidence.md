@@ -1,42 +1,30 @@
-# Evidence log: Financial Analysts (13-2051)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 13-2051 Financial Analysts
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Run: 2026-08-30 (empirical-five-lane-v1). L1/L2 researched this run; L4 (LinkedIn) and L5
+(last30days) carried from the 2026-08-29 pass; L3 (Factiva) pending re-auth.
 
-## Lane sources (one short quote per source)
+## L1 — regulatory
+- ASIC, "RG 264 Sell-side research" —
+  https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-264-sell-side-research (2017-12)
+  > "This guide focuses on managing conflicts of interest and inside information when providing sell-side research."
+  Research analysts at AFS licensees are governed by RG 264 (supplementing RG 79). A financial analyst who gives
+  financial product advice must act under an AFSL or as an authorised representative (Corporations Act 2001).
+  Does not cover internal/corporate FP&A analysts who give no external advice.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Financial Analysts] Professional Practice Framework and Digital Competency Guidelines for Financial Analysts — https://www.psc.gov.au/standards/13-2051 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Financial Analysts enforce non-delegable ethical accountability and human verification over..."
+## L2 — scholarly / institutional
+- Jobs and Skills Australia, "Australia's AI Transition: Jobs, Skills and the Future of Work (Generative AI
+  Capacity Study)" — https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study (2025-08)
+  > "about 79% of Australian workers face low or very low automation risk"
+  Finance/analyst roles sit in the higher-exposure business cluster; augmentation outweighs automation.
 
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Financial Analysts — https://www.jobsandskills.gov.au/research/13-2051 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Financial Analysts heightens the demand for adaptive problem solving, interdisciplinary stakeholder ..."
+## L3 — trade press (Factiva)
+- GAP: OpenAthens session expired 2026-08-30; logged to data/professions/factiva_backlog.json (auth_expired).
 
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
+## L4 — demand-side job ads (carried 2026-08-29)
+- LinkedIn (unofficial scrape) postings folded previously; see ledger claims l403–l412 (Ritchie Bros., Hays,
+  VALD, SunPork, Water Corporation, Viva Energy, Minderoo, Unitywater, Talent). Demand signal, not destinations.
 
-### L5 Practitioner discourse (61 claims)
-- last30days declared sample: 61 items across 61 items.
-- Representative practitioner quotes:
-  - [github] 💎 Knowledge Update & Optimization: 13 Jul 2026
-## 💎 Knowledge Update: 13 Jul 2026
-
-Processed **0** links.
-
-⚠️ **Detailed...
-  - [github] 📌 Job Radar — master board (every open role, one place)
-Every alert-worthy open role the radar currently knows, best fir...
-  - [github] 💎 Knowledge Update & Optimization: 18 May 2026
-## 💎 Knowledge Update: 18 May 2026
-
-Processed **14911** links.
-
-⚠️ **Deta...
-  - [github] 📈 AI Open Source Trends 2026-07-22
-# AI Open Source Trends 2026-07-22
-
-> Sources: GitHub Trending + GitHub Search API | ...
-  - [github] Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2026 for Kerala's IT Professionals
-![Blog...
+## L5 — practitioner discourse (carried 2026-08-29)
+- last30days sweep folded previously; declared sample in corpus.l5Sample. Broad AI-discourse sample
+  (Hacker News / GitHub), not occupation-specific communities. Includes "AI financial advice is surprisingly good"
+  (MIT Sloan) and "Ask HN: Thoughts on AI in Personal Finance?".

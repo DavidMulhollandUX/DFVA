@@ -12,10 +12,10 @@
   "anzsco": "220000",
   "window": {
     "from": "2025-08-01",
-    "to": "2026-08-24"
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-30",
   "programs": [
     "mc-finance",
     "mc-mgmtfin"
@@ -23,7 +23,7 @@
   "claims": [
     {
       "id": "l403",
-      "text": "FP&A Analyst — Ritchie Bros. (Yatala, Queensland, Australia). Posted 3 months ago.",
+      "text": "FP&A Analyst \u2014 Ritchie Bros. (Yatala, Queensland, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -44,7 +44,7 @@
     },
     {
       "id": "l404",
-      "text": "Financial Analyst — Hays (Canberra, Australian Capital Territory, Australia). Posted 5 days ago.",
+      "text": "Financial Analyst \u2014 Hays (Canberra, Australian Capital Territory, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -65,7 +65,7 @@
     },
     {
       "id": "l405",
-      "text": "Financial Analyst — Hays (Chermside, Queensland, Australia). Posted 1 week ago.",
+      "text": "Financial Analyst \u2014 Hays (Chermside, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -86,7 +86,7 @@
     },
     {
       "id": "l406",
-      "text": "Commercial Analyst — VALD (Newstead, Queensland, Australia). Posted 5 months ago.",
+      "text": "Commercial Analyst \u2014 VALD (Newstead, Queensland, Australia). Posted 5 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -107,7 +107,7 @@
     },
     {
       "id": "l407",
-      "text": "FP&A Analyst — SunPork Group (Eagle Farm, Queensland, Australia). Posted 1 week ago.",
+      "text": "FP&A Analyst \u2014 SunPork Group (Eagle Farm, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -128,7 +128,7 @@
     },
     {
       "id": "l408",
-      "text": "Financial Performance - Analyst — Water Corporation (Leederville, Western Australia, Australia). Posted 17 hours ago.",
+      "text": "Financial Performance - Analyst \u2014 Water Corporation (Leederville, Western Australia, Australia). Posted 17 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -149,7 +149,7 @@
     },
     {
       "id": "l409",
-      "text": "Finance Analyst — Viva Energy Australia (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Finance Analyst \u2014 Viva Energy Australia (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -170,7 +170,7 @@
     },
     {
       "id": "l410",
-      "text": "Analyst, Financial Planning & Analysis — Minderoo Foundation (Greater Perth Area). Posted 2 weeks ago.",
+      "text": "Analyst, Financial Planning & Analysis \u2014 Minderoo Foundation (Greater Perth Area). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -191,7 +191,7 @@
     },
     {
       "id": "l411",
-      "text": "Financial Planning Analyst — Unitywater (Mango Hill, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Financial Planning Analyst \u2014 Unitywater (Mango Hill, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -212,7 +212,7 @@
     },
     {
       "id": "l412",
-      "text": "Pricing Analyst — Talent (Adelaide, South Australia, Australia). Posted 6 days ago.",
+      "text": "Pricing Analyst \u2014 Talent (Adelaide, South Australia, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -233,13 +233,13 @@
     },
     {
       "id": "l513",
-      "text": "💎 Knowledge Update & Optimization: 13 Jul 2026\n## 💎 Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n⚠️ **Detailed Safety Audit moved to comments due to scale.**\n\n\n### 🧠 AI Intelligence & Observability Report\n\n#### 🤖 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "💎 Knowledge Update & Optimization: 13 Jul 2026\n## 💎 Knowledge Update: 13 Jul 202…",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 202\u2026",
           "url": "https://github.com/nubenetes/awesome-kubernetes/pull/499",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -254,13 +254,13 @@
     },
     {
       "id": "l514",
-      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1334 roles**, refreshed Wed Aug 26, 14:12 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
+      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1334 roles**, refreshed Wed Aug 26, 14:12 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
+          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -275,13 +275,13 @@
     },
     {
       "id": "l515",
-      "text": "💎 Knowledge Update & Optimization: 18 May 2026\n## 💎 Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n⚠️ **Detailed Safety Audit moved to comments due to scale.**\n\n\n### 🧠 AI Intelligence & Observability Report\n\n#### 🤖 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "💎 Knowledge Update & Optimization: 18 May 2026\n## 💎 Knowledge Update: 18 May 202…",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 202\u2026",
           "url": "https://github.com/nubenetes/awesome-kubernetes/pull/133",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -296,13 +296,13 @@
     },
     {
       "id": "l516",
-      "text": "📈 AI Open Source Trends 2026-07-22\n# AI Open Source Trends 2026-07-22\n\n> Sources: GitHub Trending + GitHub Search API | Generated: 2026-07-22 01:19 UTC\n\n---\n\n# **AI Open Source Ecosystem Trends Report**\n**Date:** 2026-07-22\n**Source:** GitHub Trending + Topic Search (AI/ML-focused)\n\n---\n\n## **Step 1: Filtered AI/ML Projects**\nFrom th",
+      "text": "\ud83d\udcc8 AI Open Source Trends 2026-07-22\n# AI Open Source Trends 2026-07-22\n\n> Sources: GitHub Trending + GitHub Search API | Generated: 2026-07-22 01:19 UTC\n\n---\n\n# **AI Open Source Ecosystem Trends Report**\n**Date:** 2026-07-22\n**Source:** GitHub Trending + Topic Search (AI/ML-focused)\n\n---\n\n## **Step 1: Filtered AI/ML Projects**\nFrom th",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "📈 AI Open Source Trends 2026-07-22\n# AI Open Source Trends 2026-07-22\n\n> Sources…",
+          "title": "\ud83d\udcc8 AI Open Source Trends 2026-07-22\n# AI Open Source Trends 2026-07-22\n\n> Sources\u2026",
           "url": "https://github.com/stevenko2002/agents-radar/issues/278",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -323,7 +323,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2…",
+          "title": "Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2\u2026",
           "url": "https://github.com/Angelin-ak/novox-test-blog/issues/10",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -344,7 +344,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Navigating the Digital Horizon: 2026 Tech Trends and Your Career Roadmap from No…",
+          "title": "Navigating the Digital Horizon: 2026 Tech Trends and Your Career Roadmap from No\u2026",
           "url": "https://github.com/Angelin-ak/novox-test-blog/issues/4",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -359,13 +359,13 @@
     },
     {
       "id": "l519",
-      "text": "Unlock full Veklom marketplace revenue model across all 126+ backend endpoints\n## Goal\nUnlock the full Veklom revenue surface so the backend is used as a complete marketplace/control-node business, not a reduced demo or single-offer SaaS.\n\nThe platform should support multiple monetization paths at once while staying inside the hard boundary: Veklom is a governed AI/control bac\n## Positioning lock: Veklom is a Sovereign Control Node, not just a backend\n\nThis repo should be treated as the implemen…",
+      "text": "Unlock full Veklom marketplace revenue model across all 126+ backend endpoints\n## Goal\nUnlock the full Veklom revenue surface so the backend is used as a complete marketplace/control-node business, not a reduced demo or single-offer SaaS.\n\nThe platform should support multiple monetization paths at once while staying inside the hard boundary: Veklom is a governed AI/control bac\n## Positioning lock: Veklom is a Sovereign Control Node, not just a backend\n\nThis repo should be treated as the implemen\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Unlock full Veklom marketplace revenue model across all 126+ backend endpoints\n#…",
+          "title": "Unlock full Veklom marketplace revenue model across all 126+ backend endpoints\n#\u2026",
           "url": "https://github.com/reprewindai-dev/byosbackened/issues/1",
           "date": "2026-04-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -506,13 +506,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +548,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -716,13 +716,13 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -758,13 +758,13 @@
     },
     {
       "id": "l538",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -779,13 +779,13 @@
     },
     {
       "id": "l539",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -842,13 +842,13 @@
     },
     {
       "id": "l542",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -863,13 +863,13 @@
     },
     {
       "id": "l543",
-      "text": "Show HN: Core – open-source AI butler that clears your backlog without you",
+      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Core – open-source AI butler that clears your backlog without you",
+          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
           "url": "https://www.getcore.me/",
           "date": "2026-04-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -884,13 +884,13 @@
     },
     {
       "id": "l544",
-      "text": "The AI Boom Is Transforming the American Economy Beyond Recognition (WSJ)\nThe U.S. economy keeps putting more eggs in the artificial-intelligence basket. Tech companies are spending hundreds of billions of dollars to meet AI computing needs and issuing billions of dollars of debt to help make those purchases. The rapid data-center build-out is powering construction spending, hiring and municipal revenues. Meanwhile, a stock-market rally fueled by the rise in shares of chip makers and other compa…",
+      "text": "The AI Boom Is Transforming the American Economy Beyond Recognition (WSJ)\nThe U.S. economy keeps putting more eggs in the artificial-intelligence basket. Tech companies are spending hundreds of billions of dollars to meet AI computing needs and issuing billions of dollars of debt to help make those purchases. The rapid data-center build-out is powering construction spending, hiring and municipal revenues. Meanwhile, a stock-market rally fueled by the rise in shares of chip makers and other compa\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The AI Boom Is Transforming the American Economy Beyond Recognition (WSJ)\nThe U.…",
+          "title": "The AI Boom Is Transforming the American Economy Beyond Recognition (WSJ)\nThe U.\u2026",
           "url": "https://www.reddit.com/r/DeepStateCentrism/comments/1vfj1ti/the_ai_boom_is_transforming_the_american_economy/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -905,13 +905,13 @@
     },
     {
       "id": "l545",
-      "text": "What Would Actually Happen If Governments Confirmed That Non-Human Intelligence Is Already Here? (Do you agree with the AI?)\nSuggested Reddit Title What Would Actually Happen If Governments Confirmed That Non-Human Intelligence Is Already Here? Let us assume, for the sake of discussion, that an official announcement is made and supported by convincing evidence: Non-human intelligence exists, it has reached Earth, and some form of presence is already here. This would not be comparable to discover…",
+      "text": "What Would Actually Happen If Governments Confirmed That Non-Human Intelligence Is Already Here? (Do you agree with the AI?)\nSuggested Reddit Title What Would Actually Happen If Governments Confirmed That Non-Human Intelligence Is Already Here? Let us assume, for the sake of discussion, that an official announcement is made and supported by convincing evidence: Non-human intelligence exists, it has reached Earth, and some form of presence is already here. This would not be comparable to discover\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What Would Actually Happen If Governments Confirmed That Non-Human Intelligence …",
+          "title": "What Would Actually Happen If Governments Confirmed That Non-Human Intelligence \u2026",
           "url": "https://www.reddit.com/r/UFOs_Archive/comments/1vg5cdd/what_would_actually_happen_if_governments/",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -926,13 +926,13 @@
     },
     {
       "id": "l546",
-      "text": "What if AI doesn’t just replace jobs, but makes human labor itself less economically valuable?\nI’ve been thinking about AI and automation, and I’m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man…",
+      "text": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economically valuable?\nI\u2019ve been thinking about AI and automation, and I\u2019m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What if AI doesn’t just replace jobs, but makes human labor itself less economic…",
+          "title": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economic\u2026",
           "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -947,13 +947,13 @@
     },
     {
       "id": "l547",
-      "text": "How I’m Using Binance Agent OS in My AI Workflow",
+      "text": "How I\u2019m Using Binance Agent OS in My AI Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How I’m Using Binance Agent OS in My AI Workflow",
+          "title": "How I\u2019m Using Binance Agent OS in My AI Workflow",
           "url": "https://x.com/CryptoVerse_Co/status/2092272694926668230",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +968,13 @@
     },
     {
       "id": "l548",
-      "text": "https://t.co/xlpRlDPvo2 brings the power of the AMD AI ecosystem into the tools developers already use, helping turn ideas into optimized, GPU-accelerated applications faster.\n\nVamsi Boppana, SVP of AI at AMD, shares how we’re making AI development more accessible and intuitive. https://t.co/rUEWnIQNMr",
+      "text": "https://t.co/xlpRlDPvo2 brings the power of the AMD AI ecosystem into the tools developers already use, helping turn ideas into optimized, GPU-accelerated applications faster.\n\nVamsi Boppana, SVP of AI at AMD, shares how we\u2019re making AI development more accessible and intuitive. https://t.co/rUEWnIQNMr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "https://t.co/xlpRlDPvo2 brings the power of the AMD AI ecosystem into the tools …",
+          "title": "https://t.co/xlpRlDPvo2 brings the power of the AMD AI ecosystem into the tools \u2026",
           "url": "https://x.com/AMD/status/2092010923691028653",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +989,13 @@
     },
     {
       "id": "l549",
-      "text": "$AMD| Enterprises are accelerating Agentic AI 🧵\nNot Financial Advice! DYOR!\n\n1. EPYC CPUs: The Orchestration and Control Backbone\n\nAgentic AI workloads differ from traditional training-focused AI. They involve complex, multi-step workflows: intent interpretation, planning, tool-calling (APIs, databases, code execution in sandboxes), multi-agent coordination, state management, policy enforcement, and observation/feedback loops. \n\n@AMD  has explicitly highlighted that agentic AI is driving a “CPU",
+      "text": "$AMD| Enterprises are accelerating Agentic AI \ud83e\uddf5\nNot Financial Advice! DYOR!\n\n1. EPYC CPUs: The Orchestration and Control Backbone\n\nAgentic AI workloads differ from traditional training-focused AI. They involve complex, multi-step workflows: intent interpretation, planning, tool-calling (APIs, databases, code execution in sandboxes), multi-agent coordination, state management, policy enforcement, and observation/feedback loops. \n\n@AMD  has explicitly highlighted that agentic AI is driving a \u201cCPU",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "$AMD| Enterprises are accelerating Agentic AI 🧵\nNot Financial Advice! DYOR!\n\n1. …",
+          "title": "$AMD| Enterprises are accelerating Agentic AI \ud83e\uddf5\nNot Financial Advice! DYOR!\n\n1. \u2026",
           "url": "https://x.com/MikeLongTerm/status/2073804738940813399",
           "date": "2026-07-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1016,7 +1016,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Creating richer digital worlds takes more than imagination. It takes breakthroug…",
+          "title": "Creating richer digital worlds takes more than imagination. It takes breakthroug\u2026",
           "url": "https://x.com/AMD/status/2092636106588143741",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1031,13 +1031,13 @@
     },
     {
       "id": "l551",
-      "text": "WHY $GOOGL IS THE MARKET’S MOST MISUNDERSTOOD AI WINNER",
+      "text": "WHY $GOOGL IS THE MARKET\u2019S MOST MISUNDERSTOOD AI WINNER",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "WHY $GOOGL IS THE MARKET’S MOST MISUNDERSTOOD AI WINNER",
+          "title": "WHY $GOOGL IS THE MARKET\u2019S MOST MISUNDERSTOOD AI WINNER",
           "url": "https://x.com/VanquishTrader/status/2083925968717312420",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1058,7 +1058,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This may be one of the most important charts for understanding where enterprise …",
+          "title": "This may be one of the most important charts for understanding where enterprise \u2026",
           "url": "https://x.com/rickyho_1989/status/2091690491461132689",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1079,7 +1079,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Three years ago, we launched Theory Ventures with a simple premise : AI would re…",
+          "title": "Three years ago, we launched Theory Ventures with a simple premise : AI would re\u2026",
           "url": "https://x.com/ttunguz/status/2075629199252144550",
           "date": "2026-07-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1121,7 +1121,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "$APPF up 50% in 2 months, but still down 30% in the past year.\n\nGrok's interpret…",
+          "title": "$APPF up 50% in 2 months, but still down 30% in the past year.\n\nGrok's interpret\u2026",
           "url": "https://x.com/bullhooves/status/2090775848236277957",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1157,13 +1157,13 @@
     },
     {
       "id": "l557",
-      "text": "$AMD $MSFT | Inference ✍️🚀🚀🚀\n\nMicrosoft will be using @AMD CPU GPU & Custom HBv  to power frontier model inference. Frontier AI models are the most advanced, so using AMD's hardware in this application proves that @Microsoft  believes that AMD has the lowest Inference cost. \n\nMicrosoft specifically using AMD chips for inference. That's another big deal, as inference with an AI model occurs after they're trained. Inference is a completely different type of workload than training, and using AMD's",
+      "text": "$AMD $MSFT | Inference \u270d\ufe0f\ud83d\ude80\ud83d\ude80\ud83d\ude80\n\nMicrosoft will be using @AMD CPU GPU & Custom HBv  to power frontier model inference. Frontier AI models are the most advanced, so using AMD's hardware in this application proves that @Microsoft  believes that AMD has the lowest Inference cost. \n\nMicrosoft specifically using AMD chips for inference. That's another big deal, as inference with an AI model occurs after they're trained. Inference is a completely different type of workload than training, and using AMD's",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "$AMD $MSFT | Inference ✍️🚀🚀🚀\n\nMicrosoft will be using @AMD CPU GPU & Custom HBv …",
+          "title": "$AMD $MSFT | Inference \u270d\ufe0f\ud83d\ude80\ud83d\ude80\ud83d\ude80\n\nMicrosoft will be using @AMD CPU GPU & Custom HBv \u2026",
           "url": "https://x.com/MikeLongTerm/status/2092666111732883702",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1184,7 +1184,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th\u2026",
           "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1199,13 +1199,13 @@
     },
     {
       "id": "l559",
-      "text": "$AMD is a $1,000 stock| Era of CPU bottleneck🧵\nCPUs to dominate Agentic AI| Inference 👑\nAnalysts are realizing Standalone EPYC is now worth   $1T+ market-cap equivalent TODAY (~$620/share).\nNot Financial Advice! \n\nCPU is now the main bottleneck in Agentic AI! \nGPUs now have to wait for the next batch of tokens or context from the CPU, leading to underutilization (sometimes 20-50% or lower in unoptimized agentic setups). The era for Inference Queen just getting started. A violent Rerating is comi",
+      "text": "$AMD is a $1,000 stock| Era of CPU bottleneck\ud83e\uddf5\nCPUs to dominate Agentic AI| Inference \ud83d\udc51\nAnalysts are realizing Standalone EPYC is now worth   $1T+ market-cap equivalent TODAY (~$620/share).\nNot Financial Advice! \n\nCPU is now the main bottleneck in Agentic AI! \nGPUs now have to wait for the next batch of tokens or context from the CPU, leading to underutilization (sometimes 20-50% or lower in unoptimized agentic setups). The era for Inference Queen just getting started. A violent Rerating is comi",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "$AMD is a $1,000 stock| Era of CPU bottleneck🧵\nCPUs to dominate Agentic AI| Infe…",
+          "title": "$AMD is a $1,000 stock| Era of CPU bottleneck\ud83e\uddf5\nCPUs to dominate Agentic AI| Infe\u2026",
           "url": "https://x.com/MikeLongTerm/status/2046213661396439425",
           "date": "2026-04-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1220,13 +1220,13 @@
     },
     {
       "id": "l560",
-      "text": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears free on OpenRouter — likely a Chinese lab's stealth launch\nAn unattributed model with a 1M-token context window and text/image/video input appeared on OpenRouter and OpenCode on August 20 under the ID stealth/ox-alpha, free for roughly a week. Community tokenizer fingerprinting points strongly to https://t.co/BDvjCDsRp2's GLM family (a possible GLM-5.3), though no lab has claimed it; it would be the fifth anonymous re",
+      "text": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears free on OpenRouter \u2014 likely a Chinese lab's stealth launch\nAn unattributed model with a 1M-token context window and text/image/video input appeared on OpenRouter and OpenCode on August 20 under the ID stealth/ox-alpha, free for roughly a week. Community tokenizer fingerprinting points strongly to https://t.co/BDvjCDsRp2's GLM family (a possible GLM-5.3), though no lab has claimed it; it would be the fifth anonymous re",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears f…",
+          "title": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears f\u2026",
           "url": "https://x.com/SarangMahatwo/status/2092260161767264376",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1247,7 +1247,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Education is another focus, with programs designed to broaden access to computin…",
+          "title": "Education is another focus, with programs designed to broaden access to computin\u2026",
           "url": "https://x.com/AMD/status/2092258397450109359",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1262,13 +1262,13 @@
     },
     {
       "id": "l562",
-      "text": "⚡🤖 https://t.co/D0OdXFmcl8 — THE BEST AI PRODUCTS WON’T FEEL LIKE SOFTWARE.\n\nThey’ll feel like:\n\nSOMEONE ALREADY TOOK CARE OF IT.\n\nYour inbox?\n\nHandled.\n\nMeeting notes?\n\nOrganized.\n\nCustomer follow-ups?\n\nDrafted.\n\nResearch?\n\nDone.\n\nCalendar chaos?\n\nSorted.\n\nDocuments?\n\nUnderstood.\n\nTasks?\n\nPrioritized.\n\nYou don't open twelve dashboards.\n\nYou don't learn another complicated interface.\n\nYou just say:\n\n“Zoli, take care of this.”\n\nAnd that's the opportunity inside:\n\nhttps://t.co/D0OdXFmcl8\n\nShort.",
+      "text": "\u26a1\ud83e\udd16 https://t.co/D0OdXFmcl8 \u2014 THE BEST AI PRODUCTS WON\u2019T FEEL LIKE SOFTWARE.\n\nThey\u2019ll feel like:\n\nSOMEONE ALREADY TOOK CARE OF IT.\n\nYour inbox?\n\nHandled.\n\nMeeting notes?\n\nOrganized.\n\nCustomer follow-ups?\n\nDrafted.\n\nResearch?\n\nDone.\n\nCalendar chaos?\n\nSorted.\n\nDocuments?\n\nUnderstood.\n\nTasks?\n\nPrioritized.\n\nYou don't open twelve dashboards.\n\nYou don't learn another complicated interface.\n\nYou just say:\n\n\u201cZoli, take care of this.\u201d\n\nAnd that's the opportunity inside:\n\nhttps://t.co/D0OdXFmcl8\n\nShort.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "⚡🤖 https://t.co/D0OdXFmcl8 — THE BEST AI PRODUCTS WON’T FEEL LIKE SOFTWARE.\n\nThe…",
+          "title": "\u26a1\ud83e\udd16 https://t.co/D0OdXFmcl8 \u2014 THE BEST AI PRODUCTS WON\u2019T FEEL LIKE SOFTWARE.\n\nThe\u2026",
           "url": "https://x.com/UpHonestReal/status/2091845196845637891",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1331,7 +1331,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is Helping Workers More Than Enterprises. Why That Will be a Problem for Hype…",
+          "title": "AI Is Helping Workers More Than Enterprises. Why That Will be a Problem for Hype\u2026",
           "url": "https://x.com/CalcusCal/status/2079378989462786480",
           "date": "2026-07-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1346,13 +1346,13 @@
     },
     {
       "id": "l566",
-      "text": "$AMD| Dr. Su bet big on Inference since 2023 🧵\nA true Long Term Leader! This is the kind of leader I betting on long term to win the top 10 largest market cap! \nNot Financial Advice! \n\nDr. @LisaSu has long viewed inference as a critical and ultimately larger part of the AI compute opportunity compared to training ,  but the market's intense focus on training (driven by the initial LLM scaling race post-ChatGPT) made her emphasis on inference stand out as a differentiated bet. And in 2026, it sho",
+      "text": "$AMD| Dr. Su bet big on Inference since 2023 \ud83e\uddf5\nA true Long Term Leader! This is the kind of leader I betting on long term to win the top 10 largest market cap! \nNot Financial Advice! \n\nDr. @LisaSu has long viewed inference as a critical and ultimately larger part of the AI compute opportunity compared to training ,  but the market's intense focus on training (driven by the initial LLM scaling race post-ChatGPT) made her emphasis on inference stand out as a differentiated bet. And in 2026, it sho",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "$AMD| Dr. Su bet big on Inference since 2023 🧵\nA true Long Term Leader! This is …",
+          "title": "$AMD| Dr. Su bet big on Inference since 2023 \ud83e\uddf5\nA true Long Term Leader! This is \u2026",
           "url": "https://x.com/MikeLongTerm/status/2046331812956561701",
           "date": "2026-04-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1409,13 +1409,13 @@
     },
     {
       "id": "l569",
-      "text": "The Most INSANE Financial Audit Ever\n💰 Download Dollarwise- 6.0 Is Now *LIVE* - Big Deals, New Features, Free Trial: https://bit.ly/46fiDYP\n\n*I MADE HIM REDOWNLOAD THE AI GIRLFRIEND* - and oh my goodnesssssss.... I cannot believe these messages he was having with \"her\". This is some of the most insane sh*t I've ever seen. Watch here: ➡️ https://bit.ly/chpostshow\n=============================\n👉 Checking & Savings: GGet a $200 bonus and earn 3.75% APY on your Savings with Chime®: https://secure.mo…",
+      "text": "The Most INSANE Financial Audit Ever\n\ud83d\udcb0 Download Dollarwise- 6.0 Is Now *LIVE* - Big Deals, New Features, Free Trial: https://bit.ly/46fiDYP\n\n*I MADE HIM REDOWNLOAD THE AI GIRLFRIEND* - and oh my goodnesssssss.... I cannot believe these messages he was having with \"her\". This is some of the most insane sh*t I've ever seen. Watch here: \u27a1\ufe0f https://bit.ly/chpostshow\n=============================\n\ud83d\udc49 Checking & Savings: GGet a $200 bonus and earn 3.75% APY on your Savings with Chime\u00ae: https://secure.mo\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Most INSANE Financial Audit Ever\n💰 Download Dollarwise- 6.0 Is Now *LIVE* - …",
+          "title": "The Most INSANE Financial Audit Ever\n\ud83d\udcb0 Download Dollarwise- 6.0 Is Now *LIVE* - \u2026",
           "url": "https://www.youtube.com/watch?v=8u7HqZJQHDM",
           "date": "2026-04-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1430,13 +1430,13 @@
     },
     {
       "id": "l570",
-      "text": "I'm Changing How I Invest My Money Because of AI\n➡️ Learn How To Start An AI Based Side Hustle (free live workshop): https://event.thewealthportal.com\n\n👉  To get free fractional shares worth up to £100, use the promo code TILBURY or visit https://www.trading212.com/join/TILBURY. Terms apply. *This is an affiliate link.\n\n🎯 If you are building a startup, particularly in AI, and want a strategic investor who can accelerate growth, email ventures@marktilbury.com\n_____________________________________…",
+      "text": "I'm Changing How I Invest My Money Because of AI\n\u27a1\ufe0f Learn How To Start An AI Based Side Hustle (free live workshop): https://event.thewealthportal.com\n\n\ud83d\udc49  To get free fractional shares worth up to \u00a3100, use the promo code TILBURY or visit https://www.trading212.com/join/TILBURY. Terms apply. *This is an affiliate link.\n\n\ud83c\udfaf If you are building a startup, particularly in AI, and want a strategic investor who can accelerate growth, email ventures@marktilbury.com\n_____________________________________\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I'm Changing How I Invest My Money Because of AI\n➡️ Learn How To Start An AI Bas…",
+          "title": "I'm Changing How I Invest My Money Because of AI\n\u27a1\ufe0f Learn How To Start An AI Bas\u2026",
           "url": "https://www.youtube.com/watch?v=O8t50OxsfB8",
           "date": "2026-03-06",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1451,13 +1451,13 @@
     },
     {
       "id": "l571",
-      "text": "Will AI Replace Financial Analysts? Goldman Sachs & JPMorgan Finally Answered\nGoldman Sachs. JPMorgan. BCG. Bloomberg. They have all run the numbers — and 85% of financial analysts who don't adapt to AI are at risk. This video goes beyond the headlines and looks at the actual data: what AI is already doing inside the world's biggest banks, which analyst tasks have already been automated, and what the research says about who survives this shift and who doesn't.\nAI Capital Code decodes how artific…",
+      "text": "Will AI Replace Financial Analysts? Goldman Sachs & JPMorgan Finally Answered\nGoldman Sachs. JPMorgan. BCG. Bloomberg. They have all run the numbers \u2014 and 85% of financial analysts who don't adapt to AI are at risk. This video goes beyond the headlines and looks at the actual data: what AI is already doing inside the world's biggest banks, which analyst tasks have already been automated, and what the research says about who survives this shift and who doesn't.\nAI Capital Code decodes how artific\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Will AI Replace Financial Analysts? Goldman Sachs & JPMorgan Finally Answered\nGo…",
+          "title": "Will AI Replace Financial Analysts? Goldman Sachs & JPMorgan Finally Answered\nGo\u2026",
           "url": "https://www.youtube.com/watch?v=bqNPRspYr7U",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1472,13 +1472,13 @@
     },
     {
       "id": "l572",
-      "text": "Why Financial Analysts Should Be Worried Right Now\nFinancial analysts are facing a silent disruption — and most don’t even see it coming.\n\nIn this video, we break down how AI is quietly replacing key financial analyst tasks like financial modeling, forecasting, reporting, and data analysis. What used to take days now takes minutes.\n\nThis is not hype. This is already happening.\n\nThrough a realistic story, you’ll see how high-income professionals — earning $100K to $200K — are being replaced, not …",
+      "text": "Why Financial Analysts Should Be Worried Right Now\nFinancial analysts are facing a silent disruption \u2014 and most don\u2019t even see it coming.\n\nIn this video, we break down how AI is quietly replacing key financial analyst tasks like financial modeling, forecasting, reporting, and data analysis. What used to take days now takes minutes.\n\nThis is not hype. This is already happening.\n\nThrough a realistic story, you\u2019ll see how high-income professionals \u2014 earning $100K to $200K \u2014 are being replaced, not \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why Financial Analysts Should Be Worried Right Now\nFinancial analysts are facing…",
+          "title": "Why Financial Analysts Should Be Worried Right Now\nFinancial analysts are facing\u2026",
           "url": "https://www.youtube.com/watch?v=WOxDk4fVc8w",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1493,13 +1493,13 @@
     },
     {
       "id": "l573",
-      "text": "AI vs Financial Analysts: Who Wins?\nArtificial Intelligence is rapidly transforming the finance industry — but will it take your job? In this video, we break down exactly how AI is impacting financial analyst roles, which tasks are already being automated, and the critical skills you need to stay ahead.\nWhether you're a student eyeing a finance career or a working professional worried about disruption, this video gives you a clear, honest picture of what's coming.\n📌 What You'll Learn:\n✅ How AI i…",
+      "text": "AI vs Financial Analysts: Who Wins?\nArtificial Intelligence is rapidly transforming the finance industry \u2014 but will it take your job? In this video, we break down exactly how AI is impacting financial analyst roles, which tasks are already being automated, and the critical skills you need to stay ahead.\nWhether you're a student eyeing a finance career or a working professional worried about disruption, this video gives you a clear, honest picture of what's coming.\n\ud83d\udccc What You'll Learn:\n\u2705 How AI i\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI vs Financial Analysts: Who Wins?\nArtificial Intelligence is rapidly transform…",
+          "title": "AI vs Financial Analysts: Who Wins?\nArtificial Intelligence is rapidly transform\u2026",
           "url": "https://www.youtube.com/watch?v=6al_FptLm08",
           "date": "2026-03-23",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1511,6 +1511,48 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l1-2051-01",
+      "text": "Investment/research financial analysts at AFS licensees are governed by ASIC Regulatory Guide 264 (Sell-side research), which requires arrangements to manage inside information and conflicts of interest when producing research, supplementing RG 79. More broadly, a financial analyst who provides financial product advice must do so under an Australian Financial Services Licence (AFSL) or as an authorised representative; the regime is set by the Corporations Act 2001.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "ASIC",
+          "title": "RG 264 Sell-side research",
+          "url": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-264-sell-side-research",
+          "date": "2017-12",
+          "whatItMeasured": "ASIC RG 264 (sell-side research) conflicts/inside-information obligations + AFSL regime for financial product advice."
+        }
+      ],
+      "scope": "Applies to analysts producing sell-side research and those giving financial product advice; does not cover internal/corporate FP&A analysts who give no external advice.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "ASIC regulatory guide (official); population = AU AFS-licensed research analysts; in force."
+    },
+    {
+      "id": "l2-2051-jsa",
+      "text": "Jobs and Skills Australia's Generative AI Capacity Study (August 2025) scores 358 ANZSCO occupations on task-level augmentability and automatability. It finds augmentation outweighs automation across the workforce: about 79% of Australian workers face low or very low automation risk, while routine clerical and administrative roles - including bookkeepers, receptionists, and business-analysis, sales, marketing and PR positions - carry the highest automation exposure. The study flags entry-level and clerical business roles as most exposed, with limited mobility options.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Australia's AI Transition: Jobs, Skills and the Future of Work (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study, task-level ANZSCO v1.3 exposure, 358 occupations, Aug 2025."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level estimates. Finance/analyst roles sit in the higher-exposure business cluster.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Primary Australian government source; population = AU occupations; Aug 2025."
     }
   ],
   "jobAds": {
@@ -1540,7 +1582,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired (re-run factiva_reauth.py). Logged to factiva_backlog.json; L3 trade-press lane pending re-auth backfill.",
+        "date": "2026-08-30"
+      }
+    ],
     "l5Sample": [
       {
         "status": "sampled",
@@ -1584,5 +1634,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press lane pending re-auth (auth_expired 2026-08-30); backfill via factiva_backlog.json.",
+    "L5 corpus is a broad AI-discourse sample (Hacker News / GitHub), not occupation-specific practitioner communities; treat as indicative, not representative."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

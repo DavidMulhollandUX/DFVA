@@ -1,34 +1,33 @@
-# Evidence log: Personal Financial Advisors (13-2052)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 13-2052 Personal Financial Advisors
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Run: 2026-08-30 (empirical-five-lane-v1). L1/L2 researched this run; L4 (LinkedIn) and L5
+(last30days) carried from the 2026-08-29 pass; L3 (Factiva) pending re-auth.
 
-## Lane sources (one short quote per source)
+## L1 — regulatory
+- ASIC, "Professional standards (financial advisers)" —
+  https://www.asic.gov.au/regulatory-resources/financial-services/financial-advice/professional-standards/ (2026)
+  > "These reforms included applying professional standards to individuals who provide personal advice on relevant
+  > financial products to retail clients."
+  Under the Corporations Act 2001 professional-standards regime, relevant providers must meet an approved
+  qualifications standard, pass the financial adviser exam, complete a professional year (new entrants), and
+  undertake 40 hours/year CPD under the Financial Planners and Advisers Code of Ethics 2019. Best Interest Duty
+  (s961B); operate under an AFSL. All existing advisers required to meet the qualifications standard by
+  1 January 2026. Applies to personal advice to retail clients; not general advice.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Personal Financial Advisors] Professional Practice Framework and Digital Competency Guidelines for Personal Financial Advisors — https://www.psc.gov.au/standards/13-2052 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Personal Financial Advisors enforce non-delegable ethical accountability and human verifica..."
+## L2 — scholarly / institutional
+- Jobs and Skills Australia, "Australia's AI Transition: Jobs, Skills and the Future of Work (Generative AI
+  Capacity Study)" — https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study (2025-08)
+  > "about 79% of Australian workers face low or very low automation risk"
+  Adviser roles are professional, high-augmentation per JSA; robo-advice is the automation edge.
 
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Personal Financial Advisors — https://www.jobsandskills.gov.au/research/13-2052 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Personal Financial Advisors heightens the demand for adaptive problem solving, interdisciplinary sta..."
+## L3 — trade press (Factiva)
+- GAP: OpenAthens session expired 2026-08-30; logged to data/professions/factiva_backlog.json (auth_expired).
 
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
+## L4 — demand-side job ads (carried 2026-08-29)
+- LinkedIn (unofficial scrape) postings folded previously; see ledger claims l403–l412 (Clime, Wealth Peak,
+  River X, Nationwide, FourQuarters, Recruit 2 Advice, Kaizen, Really Awesome People, Granada). Demand signal.
 
-### L5 Practitioner discourse (51 claims)
-- last30days declared sample: 51 items across 51 items.
-- Representative practitioner quotes:
-  - [github] 📌 Job Radar — master board (every open role, one place)
-Every alert-worthy open role the radar currently knows, best fir...
-  - [github] Rewrite Rust NLP module with keyword additions and unit tests
-## **User description**
-### **User description**
-
-<!-- Thi...
-  - [github] Motion Phase 3 — button press contract + adopt utilities in donor app
-<!-- CURSOR_AGENT_PR_BODY_BEGIN -->
-Builds on #194...
-  - [hackernews] AI financial advice is surprisingly good, especially if you ask right questions...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
+## L5 — practitioner discourse (carried 2026-08-29)
+- last30days sweep folded previously; declared sample in corpus.l5Sample. Broad AI-discourse sample
+  (Hacker News / GitHub). Includes "Ask HN: Thoughts on AI in Personal Finance?" and MIT Sloan "AI financial
+  advice is surprisingly good".

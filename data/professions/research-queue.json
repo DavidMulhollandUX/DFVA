@@ -285,11 +285,11 @@
     "13-1131": "done",
     "13-1151": "done",
     "13-1161": "done",
-    "13-1199": "pending",
+    "13-1199": "done",
     "13-2011": "done",
-    "13-2021": "pending",
-    "13-2051": "pending",
-    "13-2052": "pending",
+    "13-2021": "done",
+    "13-2051": "done",
+    "13-2052": "done",
     "13-2061": "pending",
     "13-2072": "pending",
     "13-2081": "done",
@@ -558,7 +558,11 @@
     "13-1081": 1,
     "13-1131": 1,
     "13-1151": 1,
-    "13-1161": 1
+    "13-1161": 1,
+    "13-1199": 2,
+    "13-2021": 2,
+    "13-2051": 2,
+    "13-2052": 2
   },
   "leases": {},
   "runs": [
@@ -939,6 +943,54 @@
       "soc": "13-1161",
       "status": "done",
       "note": "L1/L2 web-researched claims added; L4 LinkedIn + L5 last30days present; L3 Factiva omitted (auth expired, backlog logged). empirical-five-lane-v1 set, confidence high."
+    },
+    {
+      "at": "2026-08-29T19:56:12.649535+00:00",
+      "soc": "13-1199",
+      "status": "done",
+      "note": "empirical L1/L2 added; L3 Factiva gap logged; L4/L5 carried from 2026-08-29"
+    },
+    {
+      "at": "2026-08-29T19:56:12.950744+00:00",
+      "soc": "13-2021",
+      "status": "done",
+      "note": "empirical L1/L2 added; L3 Factiva gap logged; L4/L5 carried from 2026-08-29"
+    },
+    {
+      "at": "2026-08-29T19:56:13.109766+00:00",
+      "soc": "13-2051",
+      "status": "done",
+      "note": "empirical L1/L2 added; L3 Factiva gap logged; L4/L5 carried from 2026-08-29"
+    },
+    {
+      "at": "2026-08-29T19:56:13.322954+00:00",
+      "soc": "13-2052",
+      "status": "done",
+      "note": "empirical L1/L2 added; L3 Factiva gap logged; L4/L5 carried from 2026-08-29"
+    },
+    {
+      "at": "2026-08-29T19:56:23.820358+00:00",
+      "soc": "13-1199",
+      "status": "done",
+      "note": "empirical L1/L2 added; L3 Factiva gap logged; L4/L5 carried from 2026-08-29"
+    },
+    {
+      "at": "2026-08-29T19:56:23.926337+00:00",
+      "soc": "13-2021",
+      "status": "done",
+      "note": "empirical L1/L2 added; L3 Factiva gap logged; L4/L5 carried from 2026-08-29"
+    },
+    {
+      "at": "2026-08-29T19:56:24.034050+00:00",
+      "soc": "13-2051",
+      "status": "done",
+      "note": "empirical L1/L2 added; L3 Factiva gap logged; L4/L5 carried from 2026-08-29"
+    },
+    {
+      "at": "2026-08-29T19:56:24.139913+00:00",
+      "soc": "13-2052",
+      "status": "done",
+      "note": "empirical L1/L2 added; L3 Factiva gap logged; L4/L5 carried from 2026-08-29"
     }
   ],
   "claims": [
