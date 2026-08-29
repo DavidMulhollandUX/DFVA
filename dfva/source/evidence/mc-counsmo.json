@@ -1,0 +1,133 @@
+{
+  "code": "mc-counsmo",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Anchor Level 1: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' Teamwork/collaboration recurs as a generic-skill outcome across nearly every core subject ('work collaboratively'; 'Work in collaboration with others') but no assessed core task is quoted as requiring coordinating work across people and tools/AI systems, or as a group project, client/stakeholder work, or interprofessional activity judged on its own criteria. Two Level-2 candidates were considered and resolved downward: WELF90018's 'Written peer evaluation' is appraisal of a peer's quality of work, which homes in C2 under the one-construct-one-home rule, not here; and Placement's 'liaising with other professional practitioners' is descriptive subject-overview text, not a quoted assessed criterion.",
+      "evidenceLines": [
+        "work collaboratively;",
+        "Work in collaboration with others."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Anchor Level 2: 'Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars.' A 30%-weighted 'Written self-evaluation' is assessed in nearly every core subject, and WELF90018 additionally assesses a 'Written peer evaluation' (30%), matching the ILO 'Constructively appraise their practice and the practice of others'. Level 3 ('document and justify reliance decisions... or evidence strategy adjustment over time') is not clearly reached: the extract contains no reliance-on-tool/source/collaborator content, and the nearest candidates (WELF90018's six-weekly reflective journal; placement's supervisor-guided reflection) are not quoted as a graded, criterion-referenced justification of strategy adjustment, so this was scored to the lower level.",
+      "evidenceLines": [
+        "Written self-evaluation",
+        "Constructively appraise their practice and the practice of others.",
+        "Written peer evaluation"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Anchor Level 0: 'No digital/AI content in any core unit or program-level outcome.' Across the course overview and all ten core/capstone subjects, the only digital-adjacent language is communication modality ('Communicate effectively in oral and digital forms') — the medium of delivery, not digital or AI tool use, capability, limitation, ethics or governance. No AI or digital-literacy content of any kind appears in the extract.",
+      "evidenceLines": [
+        "Communicate effectively in oral and digital forms;"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "DEMOTED from 3 to 2 on adversarial verification. The level-3 route relies on WELF90023's intended learning outcome ('Design a personalised professional development plan...') for the 'knowledge gaps' requirement; the actual assessment-table line ('Professional development plan/oral assessment. (25 minutes)') never itself states gap-identification as a graded criterion. R2 requires assessment evidence, not an outcome statement standing in for it.",
+      "evidenceLines": [
+        "Design a personalised professional development plan that aligns with the standards and the requirements of practice placements and future professional counselling work.",
+        "Evaluate and apply supervisor, peer, and client feedback to develop clinical readiness for counselling settings including the placement experience;",
+        "Professional development plan/oral assessment. (25 minutes)",
+        "design of a client-facing tool, training module, policy submission, service enhancement plan, or business case to establish a private practice."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "DEMOTED from 2 to 1 on adversarial verification. The capstone overview text (not quoted in the score) states the research strategy is developed 'such as a scoping review or analysis of secondary data' -- neither involves primary data collection, closer to the level-1 anchor 'literature-review assessment'. The rationale omits this countervailing evidence sitting next to the quoted ILO and does not disclose the ambiguity.",
+      "evidenceLines": [
+        "Students will have the opportunity to undertake a literature review, develop research questions and undertake the research activities required to answer their research question.",
+        "Design and implement an appropriate research method to answer the research question;",
+        "Oral defence. Due in week 7 of Part B.",
+        "25 credit point capstone experience comprised of a practice innovation or research capstone pathway."
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 2,
+      "rationale": "DEMOTED from 3 to 2 on adversarial verification. 'Professional conduct or accountability explicitly among the assessed criteria' is evidenced only by the Australian Police Check / Working With Children Check requirement, which is an eligibility prerequisite to attend placement, not a graded performance criterion. No quoted line shows conduct/accountability actually being marked; level 2 (real-practitioner-judged professional genre via supervisor observation) is solidly met, but level 3's second conjunct is not.",
+      "evidenceLines": [
+        "Students will undertake Counselling Placement A in a professional counselling context, guided by an approved counselling supervisor.",
+        "both comprise on the job demonstration by the student and observation by the placement supervisor.",
+        "Students must complete an Australian Police Check and relevant state-based screening (e.g. Working With Children or Working With Vulnerable People Checks) to undertake placement."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Anchor Level 3: authentic tasks form the assessment spine (at least one per stage) AND at least one carries a genuine constraint of practice. Authentic, practice-resembling artefacts recur across stages: WELF90018's recorded 'Counselling skills demonstration recording and oral presentation'; WELF90023's 'Simulated 15 minute counselling session'; Placement's real client work ('direct counselling delivery, case presentation, record keeping, managing a caseload... liaising with other professional practitioners', structured as 'a 2 days per week for 7 weeks of placement'); and the capstone's practitioner artefact ('design of a client-facing tool, training module, policy submission, service enhancement plan, or business case'). Placement supplies the genuine constraint of practice: real clients, a fixed weekly structure. Ambiguity: the recurring 'Case study/Scenario based oral assessment' format used across most Year 1 subjects reads as an academic oral exam about a scenario rather than the artefact a practitioner produces, so it was not counted toward the spine; the score rests on the other four instances instead.",
+      "evidenceLines": [
+        "Counselling skills demonstration recording and oral presentation",
+        "Simulated 15 minute counselling session during residential experience week.",
+        "direct counselling delivery, case presentation, record keeping, managing a caseload, and liaising with other professional practitioners.",
+        "Placements will usually be structured as a 2 days per week for 7 weeks of placement.",
+        "design of a client-facing tool, training module, policy submission, service enhancement plan, or business case to establish a private practice."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Anchor Level 3: substantial required work-situated learning, a sequence, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection. 'All students must complete a compulsory, in-person 200-hour supervised placement under the guidance of a qualified clinical supervisor', delivered as a required two-subject sequence: 'Counselling Placement B provides 105 hours of professional practice, which combined with 105 hours in Counselling Placement A leads to a total of 210 placement hours', with Placement B gated on completion of Placement A. Structured reflection is explicit assessed ILO content across both subjects.",
+      "evidenceLines": [
+        "All students must complete a compulsory, in-person 200-hour supervised placement under the guidance of a qualified clinical supervisor.",
+        "Counselling Placement B provides 105 hours of professional practice, which combined with 105 hours in Counselling Placement A leads to a total of 210 placement hours in the Master of Counselling.",
+        "Students must have completed the Counselling Placement A to be eligible for subject.",
+        "Show preparation for and engagement in supervision, guided self-reflection and professional development opportunities;",
+        "Students will engage in structured supervision, feedback, and critical self-reflection to further develop and consolidate their counselling skills."
+      ]
+    },
+    "workplace": 8,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents an all-compulsory specialist core ('125 credit points of Compulsory subjects') with a staged prerequisite chain: the Residential subject 'provides preparation for placements and needs to be completed before Placement A', and Placement B is gated ('Students must have completed the Counselling Placement A to be eligible for subject') — a coherent, progressively deepening counselling-specific sequence from theory/skills/ethics/assessment through residential, dual placement, and capstone.",
+        "evidenceLines": [
+          "125 credit points of Compulsory subjects",
+          "The Residential Industry Experience subject provides preparation for placements and needs to be completed before Placement A.",
+          "Students must have completed the Counselling Placement A to be eligible for subject."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core assessment repeatedly requires defended, scenario-based decisions under pass/fail hurdles ('Case study/Scenario based oral assessment' with 'Hurdle requirement: Students must achieve a Pass for this hurdle'), and the required placement sequence places students in live, uncertain practice with real clients and real-time simulation ('Practical experience... extending their development of counselling skills with real-world experience and the varied clients they will work within professional practice'; 'Simulated 15 minute counselling session during residential experience week').",
+        "evidenceLines": [
+          "Case study/Scenario based oral assessment.",
+          "Hurdle requirement: Students must achieve a Pass for this hurdle.",
+          "Practical experience is important for a student's counselling education, extending their development of counselling skills with real-world experience and the varied clients they will work within professional practice.",
+          "Simulated 15 minute counselling session during residential experience week."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: WELF90018's 'Written peer evaluation' (30%) and Placement's descriptive 'liaising with other professional practitioners' could suggest Level 2 collaborative/interprofessional practice; resolved to Level 1 — peer evaluation is homed in C2 (appraisal of quality) per the one-construct-one-home rule, and the placement liaison language is not a quoted assessed criterion.",
+      "C2: WELF90018's six-weekly reflective journal and placement's supervisor-guided reflection gesture toward Level 3's 'evidence strategy adjustment over time', but neither is quoted as a graded, criterion-referenced justification of reliance/strategy decisions; resolved to Level 2.",
+      "C4: The Practice Innovation capstone's suggested project list ('client-facing tool, training module, policy submission, service enhancement plan, business case') is somewhat bounded rather than fully open-scoped; the Level 3 score rests primarily on the independently unambiguous WELF90023 professional-development-plan evidence. Verification demoted this item to Level 2 — see rationale.",
+      "C5: The Research Capstone pathway shows Level-3-caliber content (methodology defended via a hurdle-linked oral defence), but the capstone is 'comprised of a practice innovation or research capstone pathway' — an OR choice — and the Level 3 anchor explicitly excludes 'one route among several'; resolved to Level 2. Verification demoted this item to Level 1 — see rationale.",
+      "W1/W3: Both draw on the Counselling Placement A/B sequence. W1 is scored from the audience/practitioner-judgement and professional-conduct clauses (supervisor observation, police-check compliance); W3 is scored from the duration/structure/accountability clauses (210 required hours, prerequisite sequencing, structured reflection) — distinct constructs per instrument design, not double-counted from the same evidence.",
+      "W1/W2: Both draw on placement text. W1 uses the audience/practitioner-judgement clauses; W2 uses the task-content and constraint-of-practice clauses (real clients, fixed weekly structure) — kept to separate homes. Verification demoted W1 to Level 2 — see rationale.",
+      "Verification pass 2026-08-30: C4, C5 and W1 were demoted from the submitted scores on adversarial review; see each item's rationale for the specific reasoning."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-30"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
