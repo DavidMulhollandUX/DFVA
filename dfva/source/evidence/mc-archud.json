@@ -1,0 +1,112 @@
+{
+  "code": "mc-archud",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Core group-assessed projects with individual accountability (ABPL90118, ABPL90140, ABPL90131) meet level 2; no core assessment requires coordinating people AND tools/AI systems as an assessed criterion, so level 3 is not met.",
+      "evidenceLines": [
+        "Group Project Submission 1 (3 students per group) | 3x A1 sheets",
+        "Individual Project Detailing , 3x A1 sheets",
+        "Group Project Submission :Letters and reports on project initiation and procurement scenarios",
+        "Site analysis poster (group work 3-4 students),"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Core Design Studio C/E booklets require criterion-referenced appraisal of the student's own developing design/work against explicit performance criteria (level 2). No core assessment documents justified reliance/override decisions on a tool or collaborator, so level 3 is not met.",
+      "evidenceLines": [
+        "Booklet (Final): Re-submit revised and developed booklet containing evidence of application of Indigenous cultural competencies, knowledge of relevant architectural precedents and theories, design research to the design challenge; as well as iterative exploration and critical evaluation of the developing design.",
+        "Booklet (final): Booklet with completed and finalised tasks demonstrating attainment of NSCA Performance Criteria PC10, PC28, PC31, PC33, PC35, and PC45."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "AI/ML content appears only in electives (ABPL90452, ABPL90123); core digital content is tool-operation only, capped at level 1 by the instrument's own migration note.",
+      "evidenceLines": [
+        "ABPL90452\tAI in Architectural Design and Practice",
+        "use digital and analogue tools with control, specificity and for the right task;",
+        "make basic use of digital design programs."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "The required core Thesis is explicitly the program's culmination, staged and assessed as a self-scoped design-research investigation, matching the level-3 anchor.",
+      "evidenceLines": [
+        "This subject is the culmination of each student's studies in Master of Architecture and Master of Urban Design double degree. It will consist of a number of autonomous studio groups offering a range of opportunities for students to demonstrate an original approach to design synthesis in urban design and architecture, which is based on research and critical thinking.",
+        "Preliminary Thesis Proposal: Oral presentation (7 minutes) of research questions, accompanied by critical evaluation of relevant precedents from practice and research, and a draft 'thesis statement'"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "The required Thesis documents an assessed, staged inquiry with a research question and evaluated precedents (level 2). The extract lacks explicit methodology-selection/data-collection or methodology-defence language needed for level 3, so resolved DOWN per the ambiguity rule.",
+      "evidenceLines": [
+        "Preliminary Thesis Proposal: Oral presentation (7 minutes) of research questions, accompanied by critical evaluation of relevant precedents from practice and research, and a draft 'thesis statement'",
+        "Resolved Design: A fully resolved Architecture and Urban design thesis that explores the research question presented in two forms"
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 2,
+      "rationale": "Core ABPL90140 assesses professional-genre letters/reports and core studios require presenting to 'a panel of guest critics' beyond the teaching team (level 2). No assessment text names professional conduct/accountability as an explicit criterion, so the level-3 recurrence-plus-conduct anchor is not documented; resolved DOWN.",
+      "evidenceLines": [
+        "Group Project Submission :Letters and reports on project initiation and procurement scenarios",
+        "Hurdle requirement: The final project submission and presentation constitutes a hurdle requirement and students must present their final work to a panel of guest critics at the end of the semester."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Demoted from 3 to 2 on verification: both cited evidenceLines are non-assessment text (an Overview narrative sentence about studio sites, and an Intended-Learning-Outcome sentence from ABPL90287), not an assessment task, hurdle, or placement requirement, so the level-3 anchor's R2 assessment-evidence requirement is not satisfied and the rationale's claim of 'defended design decisions under jury critique' is undocumented. Genuine assessment evidence in the extract (Booklets graded against National Standards of Competency for Architects performance criteria, e.g. PC10/28/31/33/35/45) supports level 2 (judged against criteria drawn from practice); nothing cited documents a recurring assessment spine plus a genuine constraint of practice inside an assessed task.",
+      "evidenceLines": [
+        "Common to all studios will be sites that have cultural, environmental, political and legal complexities which designs will need to address.",
+        "Integrate the basic building performance requirements relevant to the National Construction Code and applicable Australian Standards into the design development process;"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "The only work-situated-learning content is the elective 'Bower Studio - Community Development'; no core unit places students in a supervised real workplace, so this is level 1.",
+      "evidenceLines": [
+        "ABPL90152\tBower Studio - Community Development"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Overwhelmingly compulsory specialist core (375 of 400 credit points), staged studio progressions, and professional accreditation (ARBV registration pathway) meet the G1 PASS anchor.",
+        "evidenceLines": [
+          "100 credit point of year 1 core subjects",
+          "275 credit points of Architecture and Urban Design core subjects",
+          "This course meets the academic requirements for registration as an architect under the Architects Registration Board of Victoria (ARBV)."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core studios require defended design decisions under jury critique against real, complex site conditions, and the Thesis carries a pass-required hurdle on its Resolved Design stage, evidencing accountability under uncertainty.",
+        "evidenceLines": [
+          "Common to all studios will be sites that have cultural, environmental, political and legal complexities which designs will need to address.",
+          "Hurdle requirement: A pass in the Resolved is required in order to pass the subject overall."
+        ]
+      }
+    },
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-29"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
