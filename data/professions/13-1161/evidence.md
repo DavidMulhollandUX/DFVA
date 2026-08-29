@@ -1,39 +1,23 @@
 # Evidence log: Market Research Analysts and Marketing Specialists (13-1161)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+Generated 2026-08-30. Research method: empirical-five-lane-v1.
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Lanes: L1 regulatory, L2 scholarly, L3 trade press (Factiva - OMITTED, auth expired), L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
 ## Lane sources (one short quote per source)
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Market Research Analysts and Marketing Specialists] Professional Practice Framework and Digital Competency Guidelines for Market Research Analysts and Marketing Specialists — https://www.psc.gov.au/standards/13-1161 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Market Research Analysts and Marketing Specialists enforce non-delegable ethical accountabi..."
+### L1 Regulatory / standards
+- [The Research Society] QPR accreditation - https://aprc-research.com/member-associations/the-research-society-australia
+  "QPR (Qualified Professional Researcher) Offering members industry recognition ... through QPR accreditation."
+- [Research Live] 2027 merger - https://research-live.com/article/news/australian-research-industry-bodies-propose-merger/id/5151906
 
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Market Research Analysts and Marketing Specialists — https://www.jobsandskills.gov.au/research/13-1161 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Market Research Analysts and Marketing Specialists heightens the demand for adaptive problem solving..."
+### L2 Scholarly / institutional
+- [Qualtrics] 2026 trends - https://strategaresearch.com/using-ai-for-market-research-news-tools-and-examples
+  "95% of researchers say they use AI tools regularly or are testing them."
+- [Segwise/ESOMAR] synthetic data - https://segwise.ai/blog/best-ai-market-research-tools-2026
+  "Synthetic respondents reached about 88% relative accuracy ... use them to pre-test, not replace."
 
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
+### L3 Trade press (OMITTED)
+- Factiva not run: OpenAthens session expired 2026-08-30. Gap logged to factiva_backlog.json; backfill on re-auth.
 
-### L5 Practitioner discourse (74 claims)
-- last30days declared sample: 74 items across github=12, grounding=0, hackernews=24, reddit=10, x=16, youtube=1.
-- Representative practitioner quotes:
-  - [github] feat(govspend): add govspend
-## govspend
-
-Adds `govspend`, a read-only public-sector spending and opportunity research C...
-  - [github] docs: The Third Eye business plan — unit economics, market, competitors, projection
-Produced by a multi-agent research p...
-  - [github] Phases 3-8: research pipeline, daily screen, and first frontend
-## Summary
-
-This PR advances the project from the deploy...
-  - [github] feat(orchestration): introduce 4 new analysts, social/alt dataflows, tool recovery, and orchestration fixes
-## Overview...
-  - [github] Transform TradingAgents into IndiaMarketAgents research copilot foundation
-# PR Readiness Package
-
-Date: 2026-06-11
-Bran...
+### L4 Demand (LinkedIn, 10 postings sampled) + L5 practitioner discourse
+- See corpus.linkedin and corpus.l5Sample in the ledger (populated from prior real runs).
