@@ -1742,6 +1742,300 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l483",
+      "text": "Pharmacy Technician \u2014 Ramsay Health Care (Greenslopes, Queensland, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ramsay Health Care",
+          "title": "Pharmacy Technician",
+          "url": "https://www.linkedin.com/jobs/view/4423749095",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l484",
+      "text": "Pharmacy Technician \u2014 Ramsay Health Care (Cairns, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ramsay Health Care",
+          "title": "Pharmacy Technician",
+          "url": "https://www.linkedin.com/jobs/view/4454485460",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l485",
+      "text": "Pharmacy Technician \u2014 Mercy Health Australia (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mercy Health Australia",
+          "title": "Pharmacy Technician",
+          "url": "https://www.linkedin.com/jobs/view/4457448269",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l486",
+      "text": "Oncology Pharmacy Technician \u2014 HPS (Adelaide, South Australia, Australia). Posted 19 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "HPS",
+          "title": "Oncology Pharmacy Technician",
+          "url": "https://www.linkedin.com/jobs/view/4459101381",
+          "date": "19 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l487",
+      "text": "Pharmacy Technician Level 4 \u2014 Pharmacy 777 (New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Pharmacy 777",
+          "title": "Pharmacy Technician Level 4",
+          "url": "https://www.linkedin.com/jobs/view/4457109054",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l488",
+      "text": "Pharmacy Dispense Technician \u2014 Power FM Bega Bay (Broulee, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Power FM Bega Bay",
+          "title": "Pharmacy Dispense Technician",
+          "url": "https://www.linkedin.com/jobs/view/4456598227",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l489",
+      "text": "Pharmacy Technician - Chemist Warehouse Parramatta \u2014 Chemist Warehouse (Parramatta, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Chemist Warehouse",
+          "title": "Pharmacy Technician - Chemist Warehouse Parramatta",
+          "url": "https://www.linkedin.com/jobs/view/4454474938",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l490",
+      "text": "Pharmacy Technician - Chemist Warehouse Strathfield Plaza \u2014 Chemist Warehouse (Strathfield, New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Chemist Warehouse",
+          "title": "Pharmacy Technician - Chemist Warehouse Strathfield Plaza",
+          "url": "https://www.linkedin.com/jobs/view/4456850141",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l491",
+      "text": "Oncology Pharmacy Technician - Icon Cancer Centre Chermside \u2014 Icon Group (Brisbane, Queensland, Australia). Posted 11 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Icon Group",
+          "title": "Oncology Pharmacy Technician - Icon Cancer Centre Chermside",
+          "url": "https://www.linkedin.com/jobs/view/4459180344",
+          "date": "11 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l492",
+      "text": "Oncology Pharmacy Technician - Hollywood Private Hospital \u2014 Icon Group (Perth, Western Australia, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Icon Group",
+          "title": "Oncology Pharmacy Technician - Hollywood Private Hospital",
+          "url": "https://www.linkedin.com/jobs/view/4458741359",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l593",
+      "text": "an\n## **CodeAnt-AI Description**\n**Expand lab setup, patient registration, and pharmacy billing workflows**\n\n### What Changed\n- Lab test and panel setup now captures more details, including method, specimen, notes, result options, reference ranges by age and gender, subheadings, and test order.\n- Lab r\nCodeAnt AI is reviewing your PR.\n\n---\n\n### Thanks for using CodeAnt! \ud83c\udf89\n\nWe're free for open-source projects. if you're enjoying it, help us grow by sharing.\n\n[Share on X](https://twitter.com/inten\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "an\n## **CodeAnt-AI Description**\n**Expand lab setup, patient registration, and p\u2026",
+          "url": "https://github.com/chamaleon-it/HMS/pull/109",
+          "date": "2026-03-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l594",
+      "text": "Consulting professional audience + copy corrections, Academy technician refocus\n## Changes (requested by Ian, 2026-07-04)\n\n### Consulting page\n- Added a fifth audience to **Who we help**: *Healthcare professionals & administrators* \u2014 professionals and administrative stakeholders requiring guidance in standardizing patient care, improving safety, and ensuring regulatory complian\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Cha\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Consulting professional audience + copy corrections, Academy technician refocus\n\u2026",
+          "url": "https://github.com/ian-angus/pixopharm-waitlist/pull/2",
+          "date": "2026-07-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l595",
+      "text": "How AI Is Changing Pharmacy Operations with Harry Travis\nMost pharmacy leaders know AI is coming - but very few understand what it actually takes to apply it in real operations without getting lost in hype, complexity, or vendor noise.\n\n\n\nIn this episode of the *Pharmacy Operators Podcast*, Eesha Sharma sits down with Harry Travis - former executive at Aetna, CVS Caremark, and Accredo, and a 40-year veteran of pharmacy operations.\n\n\n\nHarry has seen every major shift in pharmacy - from IV automat\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How AI Is Changing Pharmacy Operations with Harry Travis\nMost pharmacy leaders k\u2026",
+          "url": "https://www.youtube.com/watch?v=Vj0fncs3cfM",
+          "date": "2026-03-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "text": "Pharmacy Automation Stocks: 2026 Breakdown\nAutomated dispensing machine market analysis is critical for investors tracking the future of hospital efficiency and pharmacy technology in 2026. This video provides a comprehensive breakdown of the sector\u2019s growth outlook, focusing on how key players like Omnicell (OMCL) and Becton, Dickinson and Company (BDX) are leading the digital transformation of healthcare.\n\nWe examine the rising demand for AI-enabled medication management, the competitive lands\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Pharmacy Automation Stocks: 2026 Breakdown\nAutomated dispensing machine market a\u2026",
+          "url": "https://www.youtube.com/watch?v=yquIh2QfVzQ",
+          "date": "2026-06-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1772,14 +2066,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Pharmacy Technicians",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/29-2052/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Pharmacy Technicians",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/29-2052/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "29-2052",
+        "query": "Pharmacy Technicians",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1794,9 +2099,24 @@
           "youtube": 2
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 4,
+        "sources": {
+          "github": 10,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 0,
+          "x": 44,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

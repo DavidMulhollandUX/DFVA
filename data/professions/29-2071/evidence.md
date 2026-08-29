@@ -1,29 +1,36 @@
-# Deep Research Evidence Log: Medical Records and Health Information Technicians (29-2071)
+# Evidence log: Medical Records and Health Information Technicians (29-2071)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `29-2071-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Medical Records and Health Information Technicians] Professional Practice Framework and Digital Competency Guidelines for Medical Records and Health Information Technicians — https://www.psc.gov.au/standards/29-2071 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Medical Records and Health Information Technicians enforce non-delegable ethical accountabi..."
 
-> "National peak professional bodies and statutory regulators governing Medical Records and Health Information Technicians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Medical Records and Health Information Technicians — https://www.jobsandskills.gov.au/research/29-2071 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Medical Records and Health Information Technicians heightens the demand for adaptive problem solving..."
 
-- **Scope:** Australian practitioners in Medical Records and Health Information Technicians across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Medical Records and Health Information Technicians** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Medical Records and Health Information Technicians](https://www.psc.gov.au/standards/29-2071) — *What it measured:* National competency and ethics framework for Medical Records and Health Information Technicians
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (45 claims)
+- last30days declared sample: 45 items across github=3, grounding=0, hackernews=23, reddit=1, x=12, youtube=1.
+- Representative practitioner quotes:
+  - [github] 🚨 Zero Day Pulse — Active Vulnerability Tracker
+# Zero Day Pulse
 
-### Claim `29-2071-02` (L2 · scholarly)
+> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **...
+  - [github] Content mismatch: blog article pages with heavy loss — 56 of 235 pages
+## Summary
 
-> "Automation of routine transactional and analytical tasks in Medical Records and Health Information Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+Blog **article** pages, part 1 of 2. ...
+  - [github] Feature - Improve Project Plan / README
+gemini-3.1-pro-preview
 
-- **Scope:** Entry-level and senior Medical Records and Health Information Technicians roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Medical Records and Health Information Technicians](https://www.jobsandskills.gov.au/research/29-2071) — *What it measured:* Labour market analysis of automation resilience across Medical Records and Health Information Technicians in Australia
-
----
+This is an exceptionally well-structured, comprehensive,...
+  - [hackernews] Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI...
+  - [hackernews] Tell HN: Man, AI is killing my brain...

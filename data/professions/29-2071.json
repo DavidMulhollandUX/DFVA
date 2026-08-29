@@ -902,6 +902,321 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l443",
+      "text": "Compilations Officer \u2014 NT Health (Alice Springs, Northern Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NT Health",
+          "title": "Compilations Officer",
+          "url": "https://www.linkedin.com/jobs/view/4453486098",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l444",
+      "text": "Health Information Administration Officer \u2014 Murrumbidgee Local Health District (MLHD) (Wagga Wagga, New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Murrumbidgee Local Health District (MLHD)",
+          "title": "Health Information Administration Officer",
+          "url": "https://www.linkedin.com/jobs/view/4455833970",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l445",
+      "text": "Clinical Information Officer (Administration Officer Lvl 2) \u2013 Records Processing & Scanning Reliever (24/7 Rotating Roster) - Perm FT \u2014 South Western Sydney Local Health District (Liverpool, New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "South Western Sydney Local Health District",
+          "title": "Clinical Information Officer (Administration Officer Lvl 2) \u2013 Records Processing & Scanning Reliever (24/7 Rotating Roster) - Perm FT",
+          "url": "https://www.linkedin.com/jobs/view/4456805703",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l446",
+      "text": "Information Management Officer \u2014 Department of Justice (Greater Perth Area). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Justice",
+          "title": "Information Management Officer",
+          "url": "https://www.linkedin.com/jobs/view/4456187764",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l447",
+      "text": "HIM /Clinical Coder\nAdelaide, South Australia 5000 \u2014 AusHealth Diagnostics (Adelaide, South Australia, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "AusHealth Diagnostics",
+          "title": "HIM /Clinical Coder\nAdelaide, South Australia 5000",
+          "url": "https://www.linkedin.com/jobs/view/4442136278",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l448",
+      "text": "Sexual Health Medicine Registrar \u2014 NT Health (Darwin, Northern Territory, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NT Health",
+          "title": "Sexual Health Medicine Registrar",
+          "url": "https://www.linkedin.com/jobs/view/4455097722",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l449",
+      "text": "Support Officer - Electronic Patient Record \u2014 South Eastern Sydney Local Health District (SESLHD) (Greater Sydney Area). Posted 14 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "South Eastern Sydney Local Health District (SESLHD)",
+          "title": "Support Officer - Electronic Patient Record",
+          "url": "https://www.linkedin.com/jobs/view/4459021601",
+          "date": "14 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l450",
+      "text": "Health Information Manager / Clinical Coder - Remote\nMelbourne, Victoria 3000 \u2014 AusHealth Diagnostics (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "AusHealth Diagnostics",
+          "title": "Health Information Manager / Clinical Coder - Remote\nMelbourne, Victoria 3000",
+          "url": "https://www.linkedin.com/jobs/view/4442125628",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l451",
+      "text": "Clinical Information Modeller/Informatician \u2014 CSIRO (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "CSIRO",
+          "title": "Clinical Information Modeller/Informatician",
+          "url": "https://www.linkedin.com/jobs/view/4456155397",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "Deputy Health Information Manager - Lismore \u2014 Northern NSW Local Health District (Lismore, New South Wales, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Northern NSW Local Health District",
+          "title": "Deputy Health Information Manager - Lismore",
+          "url": "https://www.linkedin.com/jobs/view/4455247930",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l553",
+      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; \ud83d\udd34 KEV: 1 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 14 &nbsp;|&nbsp; \ud83d\udfe1\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
+          "date": "2026-05-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "Content mismatch: blog article pages with heavy loss \u2014 56 of 235 pages\n## Summary\n\nBlog **article** pages, part 1 of 2. A full source-vs-migrated audit of all **293 page pairs** found content mismatches on **154 of the 235 blog article pages** (81 are clean). This issue tracks the **56 where a lot is wrong** \u2014 five or more distinct mismatches, or a CRITICAL page carryi\n**Full per-item detail \u2014 part 1 of 3.** Complete, untruncated findings for the pages tracked in this issue \u2014 one expandable bloc\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Content mismatch: blog article pages with heavy loss \u2014 56 of 235 pages\n## Summar\u2026",
+          "url": "https://github.com/aemsites/intuit-erp/issues/687",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an exceptionally well-structured, comprehensive, and ambitious project plan. Tackling acoustic violence and harassment requires a multidisciplinary approach, and AVHERI successfully bridges the gap between technology, sociology, legal advocacy, and survivor support. \n... gemini-3.1-pro-preview\n\nHere is the fully updated, comprehensive **V2.0 Project Plan for AVHERI**. This version directly integrates the strategic analysis, \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an excep\u2026",
+          "url": "https://github.com/Transparency-X/AVHERI/issues/2",
+          "date": "2026-04-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "When AI admits that it lied to you and sending you on a goose chase\nI understand that AI is just a tool and I hadn&#39;t intended on using it at all, but after doing a random search for records on a death, AI jumped in (Thanks, Google!) and started to tell me that it found the record and how to go about it. I figured, what the hell, this will be helpful. Fast forward to being sent on a literal goose-chase for a non-existent record that AI/Gemini completely fabricated. It made up what the cause o\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "When AI admits that it lied to you and sending you on a goose chase\nI understand\u2026",
+          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vhbq1z/when_ai_admits_that_it_lied_to_you_and_sending/",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "AI is Rewriting Medicine: Deconstructing the Smart Health Network. #healthIT #healthinformatics\nThe healthcare industry is undergoing a massive, rapid transformation into a digitally connected, knowledge-based economy. But at what cost? In this episode of \"Insight Engine,\" we are deconstructing the Smart Health Network to understand how clinical environments are evolving from traditional, hierarchical models into fluid, automated networks.\nFrom the billions spent on EHR adoption to the AI algori\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI is Rewriting Medicine: Deconstructing the Smart Health Network. #healthIT #he\u2026",
+          "url": "https://www.youtube.com/watch?v=y5JmdwpjjXk",
+          "date": "2026-06-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -932,14 +1247,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Medical Records and Health Information Technicians",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/29-2071/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Medical Records and Health Information Technicians",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/29-2071/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "29-2071",
+        "query": "Medical Records and Health Information Technicians",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -953,9 +1279,23 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 5,
+        "sources": {
+          "github": 3,
+          "grounding": 0,
+          "hackernews": 23,
+          "reddit": 1,
+          "x": 12,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
