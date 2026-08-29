@@ -1784,6 +1784,510 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l485",
+      "text": "Counter Specialist \u2014 JB Hi-Fi (Burwood, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "JB Hi-Fi",
+          "title": "Counter Specialist",
+          "url": "https://www.linkedin.com/jobs/view/4446055160",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l486",
+      "text": "Cage Cashier, Mindil Beach Casino Resort (Parental Leave Cover) \u2014 Delaware North, Australia & New Zealand (Darwin, Northern Territory, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Delaware North, Australia & New Zealand",
+          "title": "Cage Cashier, Mindil Beach Casino Resort (Parental Leave Cover)",
+          "url": "https://www.linkedin.com/jobs/view/4448010040",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l487",
+      "text": "Counter Specialist \u2014 JB Hi-Fi (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "JB Hi-Fi",
+          "title": "Counter Specialist",
+          "url": "https://www.linkedin.com/jobs/view/4445869845",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l488",
+      "text": "Kiosk Attendant \u2014 Belgravia Leisure (Dickson, Australian Capital Territory, Australia). Posted 4 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Belgravia Leisure",
+          "title": "Kiosk Attendant",
+          "url": "https://www.linkedin.com/jobs/view/4447002386",
+          "date": "4 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l489",
+      "text": "Front Office All Rounder - Full Time \u2014 Marriott International (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Marriott International",
+          "title": "Front Office All Rounder - Full Time",
+          "url": "https://www.linkedin.com/jobs/view/4446547806",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l490",
+      "text": "Kiosk Attendant - Immediate start \u2014 Belgravia Leisure (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Belgravia Leisure",
+          "title": "Kiosk Attendant - Immediate start",
+          "url": "https://www.linkedin.com/jobs/view/4457046671",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l491",
+      "text": "Counter Sales - Rowville - VIC \u2014 Middy's Electrical (Rowville, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Middy's Electrical",
+          "title": "Counter Sales - Rowville - VIC",
+          "url": "https://www.linkedin.com/jobs/view/4456182584",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l492",
+      "text": "Counter Sales - Darwin - NT \u2014 Middy's Electrical (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Middy's Electrical",
+          "title": "Counter Sales - Darwin - NT",
+          "url": "https://www.linkedin.com/jobs/view/4451501807",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l493",
+      "text": "Customer Care Consultant - Front Desk/ Reception \u2014 Forward Ability Support (Newington, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Forward Ability Support",
+          "title": "Customer Care Consultant - Front Desk/ Reception",
+          "url": "https://www.linkedin.com/jobs/view/4448932225",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l594",
+      "text": "feat!: default cashier caps gain catalog create+edit, deletes stay opt-in\nCloses #1536.\n\n## What\n\nAmends the strict-parity rollout (`338cfbea`): the default **cashier** role now carries **create + edit** capabilities for products, coupons, and customers. **No delete capabilities by default** \u2014 deletion remains a deliberate merchant grant via POS Access settings. The v2 pu\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change St\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat!: default cashier caps gain catalog create+edit, deletes stay opt-in\nCloses\u2026",
+          "url": "https://github.com/wcpos/woocommerce-pos/pull/1541",
+          "date": "2026-08-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l595",
+      "text": "feat: add Billing & Revenue Cycle v1 (Charge Items, Invoices, Payments)\n## Summary\n\nAdds the Billing & Revenue Cycle v1 module \u2014 the top gap identified in a feature-parity pass against OpenEMR, Bahmni, and HospitalRun. Cash-first patient billing:\n\n- **Charge Item master** \u2014 tenant-scoped priced service catalogue (name, uppercase code, fixed category set, unit price, act\n[vc]: #h7NXiySbJNmYfa34EdZ7OdK1CPgivKnPaeAbZUqBMg4=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: add Billing & Revenue Cycle v1 (Charge Items, Invoices, Payments)\n## Summa\u2026",
+          "url": "https://github.com/redskyuae/emr/pull/252",
+          "date": "2026-07-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "text": "feat: implement teacher dashboard with attendance management\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * Role-aware profile editing for students and staff, including guardian/staff details and account credential updates, plus stronger password change validation.\n  * Teacher atte\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://st\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: implement teacher dashboard with attendance management\n<!-- This is an aut\u2026",
+          "url": "https://github.com/Kuzuri247/thoms-school-ERP/pull/5",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l597",
+      "text": "feat: enhance POS functionality with dedicated cashier app, improved \u2026\n\u2026terminal payload, and idempotency key support for sales\n\n<!-- CURSOR_SUMMARY -->\n---\n\n> [!NOTE]\n> **Medium Risk**\n> Medium risk because it changes the POS checkout/sale flow (idempotency + offline queuing) and introduces realtime broadcasting and a schema migration that could affect sale creation a\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: failure by codera\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: enhance POS functionality with dedicated cashier app, improved \u2026\n\u2026terminal\u2026",
+          "url": "https://github.com/Snossy123/Senso-ERP/pull/9",
+          "date": "2026-05-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l598",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "url": "https://www.reddit.com/r/ControlProblem/comments/1vzy4do/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]\nHow so? Are you talking about LLM hype? Or what is the revolution part? That it's not real business model? (if you have time to spend che\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks \u2026",
+          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_\u00e0_special/",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "10 Jobs AI Robots Could Replace by 2030 \ud83e\udd16 | The Future of Work\n\ud83e\udd16 10 Jobs AI Robots Could Replace by 2030\n\nArtificial intelligence and humanoid robots are rapidly changing the way we work. From warehouse workers and cashiers to truck drivers, factory workers, customer service agents, and construction workers, automation could transform millions of jobs over the next few years.\n\nIn this cinematic documentary, we explore 10 jobs that could face major disruption as AI-powered robots become smarter, \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "10 Jobs AI Robots Could Replace by 2030 \ud83e\udd16 | The Future of Work\n\ud83e\udd16 10 Jobs AI Robo\u2026",
+          "url": "https://www.youtube.com/watch?v=TDuFg9zFR6E",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "The Jobs AI Is Actually Coming For (It's Not Who You Think)\nIf you've been told AI is coming for low-wage, routine work first \u2014 the cashiers, the warehouse pickers, the call center floor \u2014 the most detailed measurement of AI exposure published this year says you've had it backwards.\n\nThe workers most exposed to AI right now earn 47% more than workers with zero exposure. They're almost four times more likely to hold a graduate degree. They're more likely to be women.\n\nThere's no mass unemployment\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Jobs AI Is Actually Coming For (It's Not Who You Think)\nIf you've been told \u2026",
+          "url": "https://www.youtube.com/watch?v=4X2pN6DxtSw",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "The Retailers Ripping Out Self-Checkout Prove AI Isn't Always the Answer\nA Dutch supermarket predicted the self-checkout reversal six years before Walmart admitted it. In 2019, Jumbo launched \"Kletskassa\" - a deliberately slow chat-checkout lane. Everyone called it a loneliness story. It was actually a segmentation strategy.\n\nNow Walmart, Target, Costco, Aldi and 9+ major chains are pulling self-checkout as shrinkage and churn pile up. Here's what Jumbo understood in 2019 that most retail and CX\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Retailers Ripping Out Self-Checkout Prove AI Isn't Always the Answer\nA Dutch\u2026",
+          "url": "https://www.youtube.com/watch?v=dG5o_HJxCCY",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: h\u2026",
+          "url": "https://www.youtube.com/watch?v=w6eUBmVwNMY",
+          "date": "2026-03-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1814,14 +2318,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Cashiers",
-      "location": "Australia",
-      "returned": 9,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/41-2011/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Cashiers",
+        "location": "Australia",
+        "returned": 9,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/41-2011/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "41-2011",
+        "query": "Cashiers",
+        "location": "Australia",
+        "returned": 9,
+        "totalResults": 9,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1836,9 +2351,24 @@
           "youtube": 5
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 15,
+        "sources": {
+          "github": 4,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 12,
+          "x": 37,
+          "youtube": 5
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

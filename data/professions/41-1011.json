@@ -734,6 +734,300 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l435",
+      "text": "Full Time Retail Supervisors - Homebush \u2014 PUMA Group (Homebush, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "PUMA Group",
+          "title": "Full Time Retail Supervisors - Homebush",
+          "url": "https://www.linkedin.com/jobs/view/4446112161",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l436",
+      "text": "AU-Manager \u2014 Apple (Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Apple",
+          "title": "AU-Manager",
+          "url": "https://www.linkedin.com/jobs/view/4452409129",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l437",
+      "text": "Platypus Management Opportunities - Canberra \u2014 Platypus Shoes (Canberra, Australian Capital Territory, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Platypus Shoes",
+          "title": "Platypus Management Opportunities - Canberra",
+          "url": "https://www.linkedin.com/jobs/view/4456488713",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l438",
+      "text": "Store Supervisor, FT \u2014 Under Armour (Brit Brit, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Under Armour",
+          "title": "Store Supervisor, FT",
+          "url": "https://www.linkedin.com/jobs/view/4455981253",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l439",
+      "text": "Store Leadership Opportunities (NSW) \u2014 The Good Guys (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "The Good Guys",
+          "title": "Store Leadership Opportunities (NSW)",
+          "url": "https://www.linkedin.com/jobs/view/4281077647",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l440",
+      "text": "Retail Concession Supervisor - Parramatta \u2014 Commonry (Parramatta, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Commonry",
+          "title": "Retail Concession Supervisor - Parramatta",
+          "url": "https://www.linkedin.com/jobs/view/4458532016",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l441",
+      "text": "Retail Concession Supervisor - Geelong \u2014 Commonry (Geelong, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Commonry",
+          "title": "Retail Concession Supervisor - Geelong",
+          "url": "https://www.linkedin.com/jobs/view/4454362346",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l442",
+      "text": "AU-Manager \u2014 Apple (Queensland, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Apple",
+          "title": "AU-Manager",
+          "url": "https://www.linkedin.com/jobs/view/4424505813",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l443",
+      "text": "Expressions of Interest - Sydney Management \u2014 SEPHORA (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "SEPHORA",
+          "title": "Expressions of Interest - Sydney Management",
+          "url": "https://www.linkedin.com/jobs/view/4457049897",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l444",
+      "text": "Expressions of Interest - Canberra Management \u2014 SEPHORA (Canberra, Australian Capital Territory, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "SEPHORA",
+          "title": "Expressions of Interest - Canberra Management",
+          "url": "https://www.linkedin.com/jobs/view/4458179290",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l545",
+      "text": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 Americans quit the job search in July, energy bills keep climbing on Hormuz tensions, and AI is quietly eliminating jobs across the economy |TOP 45 STORIES\nThe July jobs report looks better on paper, but only because 264,000 people stopped searching for work entirely. At the same time, the Hormuz standoff is pushing energy prices higher, raising gas, diesel, and heating costs for American households. And economists warn tha\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 America\u2026",
+          "url": "https://www.reddit.com/r/TrumpGlobalWar/comments/1vldga3/us_economy_briefing_11082026_0609_pm_et_last_24/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "How to Become an AI Product Manager in 2026 | Ex-Google, Microsoft\nIf you want to break into AI product management in 2026- one of the most in-demand, best-compensated roles in tech right now - this video gives you the exact roadmap to do it.\n\nHere's the thing: most people who want to become AI PMs are going about it completely backwards. They're collecting certifications, taking course after course, and building zero real experience. Then they wonder why they're not getting callbacks.\n\nWhat's D\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How to Become an AI Product Manager in 2026 | Ex-Google, Microsoft\nIf you want t\u2026",
+          "url": "https://www.youtube.com/watch?v=JKaA6HcxyXU",
+          "date": "2026-03-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California lawmakers debate AI regulation and voters prepare to weigh a proposed 5% one-time billionaire tax, labor leaders are pushing back against what they see as growing threats to workers.\n\nPolitical Breakdown host Marisa Lagos sits down with Lorena Gonzalez, president of the California Federation of Labor Unions, to discuss AI in the workplace, worker surveillance and human oversight. They also discuss California\u2019s proposed \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California law\u2026",
+          "url": "https://www.youtube.com/watch?v=WLbvdWXuR3Y",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "How AI Solves Retail\u2019s 100% Employee Turnover Crisis (Sanish Mondkar Explained)\nHow AI Solves Retail\u2019s 100% Employee Turnover Crisis (Sanish Mondkar Explained)\nRetail faces a shocking 100% employee turnover problem but can AI really fix it? In this video, Sanish Mondkar from Legion Technologies shares how artificial intelligence is transforming hiring, scheduling, and employee retention in the retail industry. Discover how smart workforce solutions are helping businesses reduce turnover and boos\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How AI Solves Retail\u2019s 100% Employee Turnover Crisis (Sanish Mondkar Explained)\n\u2026",
+          "url": "https://www.youtube.com/watch?v=_KKbanm_Gnw",
+          "date": "2026-03-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -764,14 +1058,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "First-Line Supervisors/Managers of Retail Sales Workers",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/41-1011/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "First-Line Supervisors/Managers of Retail Sales Workers",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/41-1011/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "41-1011",
+        "query": "First-Line Supervisors/Managers of Retail Sales Workers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -785,9 +1090,23 @@
           "youtube": 3
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 4,
+        "sources": {
+          "github": 10,
+          "grounding": 0,
+          "hackernews": 12,
+          "reddit": 1,
+          "x": 6,
+          "youtube": 3
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

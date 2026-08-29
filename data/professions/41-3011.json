@@ -1219,6 +1219,363 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l458",
+      "text": "Account Executive \u2014 The Brand Power Company (Sydney, New South Wales, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "The Brand Power Company",
+          "title": "Account Executive",
+          "url": "https://www.linkedin.com/jobs/view/4453495721",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Retail Media Sales Executive \u2014 Kmart Australia Limited (Chadstone, Victoria, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Kmart Australia Limited",
+          "title": "Retail Media Sales Executive",
+          "url": "https://www.linkedin.com/jobs/view/4455841923",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l460",
+      "text": "Advertising Sales Specialist \u2014 carsales (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "carsales",
+          "title": "Advertising Sales Specialist",
+          "url": "https://www.linkedin.com/jobs/view/4452180341",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l461",
+      "text": "Wanted: Fire-Breathing Sales Beast \u2014 KingKong (South Yarra, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "KingKong",
+          "title": "Wanted: Fire-Breathing Sales Beast",
+          "url": "https://www.linkedin.com/jobs/view/4396872055",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "Client Executive \u2014 ARN (North Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ARN",
+          "title": "Client Executive",
+          "url": "https://www.linkedin.com/jobs/view/4443249758",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l463",
+      "text": "Senior Media Sales Executive \u2014 CLICK FRENZY (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "CLICK FRENZY",
+          "title": "Senior Media Sales Executive",
+          "url": "https://www.linkedin.com/jobs/view/4441789522",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l464",
+      "text": "Senior Sales Executive - Perth \u2014 Special Broadcasting Service (SBS) Australia (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Special Broadcasting Service (SBS) Australia",
+          "title": "Senior Sales Executive - Perth",
+          "url": "https://www.linkedin.com/jobs/view/4452566902",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l465",
+      "text": "Sales Executive \u2014 Mojo Dojo (South Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mojo Dojo",
+          "title": "Sales Executive",
+          "url": "https://www.linkedin.com/jobs/view/4449525280",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l466",
+      "text": "Senior Sales Executive \u2014 Broadsign (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Broadsign",
+          "title": "Senior Sales Executive",
+          "url": "https://www.linkedin.com/jobs/view/4452671940",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l467",
+      "text": "Multimedia Sales Representative \u2014 Southern Cross Austereo (Toowoomba, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Southern Cross Austereo",
+          "title": "Multimedia Sales Representative",
+          "url": "https://www.linkedin.com/jobs/view/4452178650",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l568",
+      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "I ran a six-agent AI marketing team for three months. This is what it did.\n\\ I mentioned this case a few times in this sub, and were asked to share more details on it.* For three months, a fintech project ran with a one-person marketing function: me, backed by six AI agents. The agents handled social content, email, advertising monitoring, growth experiments, and outreach. I handled strategy, priorities, approvals, and anything with enough ambiguity or risk to require judgment. Built it from the\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I ran a six-agent AI marketing team for three months. This is what it did.\n\\ I m\u2026",
+          "url": "https://www.reddit.com/r/AI_Agents/comments/1vyxua5/i_ran_a_sixagent_ai_marketing_team_for_three/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "CRAZY False Advertising on this zillow listing - using AI generated images to sell a house!\nSharing because this is the first time I&#39;ve seen this on the market and I find it abhorrent. The images are not watermarked as AI generated and after the first 6 fake images you can see what the house actually looks like. WILD behavior from this agent. &#32; submitted by &#32; /u/Objective_Analysis_3 &#32; to &#32; r/vancouverwa [link] &#32; [comments]\nName and shame who this is so they stop. Listed b\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "CRAZY False Advertising on this zillow listing - using AI generated images to se\u2026",
+          "url": "https://www.reddit.com/r/vancouverwa/comments/1vkrd4e/crazy_false_advertising_on_this_zillow_listing/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "Are AI agents are going to have an adoption problem before they have a capability problem?\nWe spend a ton of time talking about what an agent can do. Tool use. Memory. Planning. Multi-agent setups. Better models. But in a real company none of that matters if people stop using the thing after two weeks. I work around sales teams where this problem is pretty obvious. You can give a manager AI that analyzes customer conversations and points out where reps lose deals. Sounds useful but if recording \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Are AI agents are going to have an adoption problem before they have a capabilit\u2026",
+          "url": "https://www.reddit.com/r/AI_Agents/comments/1vklcin/are_ai_agents_are_going_to_have_an_adoption/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "Agents using AI\nSaw a house on rightmove, thought it looked nice. Made a booking and then the agent says, just so you know all the pics on the website are AI because the house isn&#39;t in a great state. Why are these agents using AI and not disclosing it on the advertisement? Surely there should be some rule against this? I get they want viewings but I feel like if you turn up and it looks nothing like expected, it will just turn people off. &#32; submitted by &#32; /u/FrivolousManiac &#32; to \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Agents using AI\nSaw a house on rightmove, thought it looked nice. Made a booking\u2026",
+          "url": "https://www.reddit.com/r/HousingUK/comments/1vn7we6/agents_using_ai/",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "CampaignBuilders Review: AI Builds Marketing Campaigns! \ud83d\udd34 Campaign Builders Review + OTO + BONUS\n\ud83d\udc49 CampaignBuilders Review & Bonuses: https://samuelmarco.us.com/campaignbuilders-review/ \u25c0\u25c0\u25c0\n\ud83d\udc49 CampaignBuilders Frontend: https://samuelmarco.us.com/live/campaignbuilders \u25c0\u25c0\u25c0\n\ud83d\udc49 CampaignBuilders All-Inclusive Bundle: https://samuelmarco.us.com/live/campaignbuilders-bundle \u25c0\u25c0\u25c0\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\ud83c\udfaf In This Video\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\u2705 What is CampaignBuilders?\n\u2705 Full Demo Inside the \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "CampaignBuilders Review: AI Builds Marketing Campaigns! \ud83d\udd34 Campaign Builders Revi\u2026",
+          "url": "https://www.youtube.com/watch?v=zYJ1e1I7ZPY",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "The End of Marketing Agencies (Permanent AI Replacement)\nI completely replaced my marketing team with a centralized AI system\u2014here is exactly how solo entrepreneurs are using it to scale revenue without hiring expensive agencies.\n\nIn this video, we break down the technological shift from traditional marketing teams to centralized AI automation. Unlike standard tutorials that push fragmented point-solution software stacks, we reveal the Chief Revenue Officer framework. You will see exactly how to\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The End of Marketing Agencies (Permanent AI Replacement)\nI completely replaced m\u2026",
+          "url": "https://www.youtube.com/watch?v=qamrLa4fXvA",
+          "date": "2026-03-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1249,14 +1606,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Advertising Sales Agents",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/41-3011/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Advertising Sales Agents",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/41-3011/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "41-3011",
+        "query": "Advertising Sales Agents",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1270,9 +1638,23 @@
           "youtube": 3
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 7,
+        "sources": {
+          "github": 4,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 6,
+          "x": 18,
+          "youtube": 3
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

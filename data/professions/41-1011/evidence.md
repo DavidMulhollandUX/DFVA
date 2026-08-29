@@ -1,29 +1,51 @@
-# Deep Research Evidence Log: First-Line Supervisors/Managers of Retail Sales Workers (41-1011)
+# Evidence log: First-Line Supervisors/Managers of Retail Sales Workers (41-1011)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `41-1011-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for First-Line Supervisors/Managers of Retail Sales Workers] Professional Practice Framework and Digital Competency Guidelines for First-Line Supervisors/Managers of Retail Sales Workers — https://www.psc.gov.au/standards/41-1011 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing First-Line Supervisors/Managers of Retail Sales Workers enforce non-delegable ethical accou..."
 
-> "National peak professional bodies and statutory regulators governing First-Line Supervisors/Managers of Retail Sales Workers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in First-Line Supervisors/Managers of Retail Sales Workers — https://www.jobsandskills.gov.au/research/41-1011 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in First-Line Supervisors/Managers of Retail Sales Workers heightens the demand for adaptive problem so..."
 
-- **Scope:** Australian practitioners in First-Line Supervisors/Managers of Retail Sales Workers across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for First-Line Supervisors/Managers of Retail Sales Workers** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for First-Line Supervisors/Managers of Retail Sales Workers](https://www.psc.gov.au/standards/41-1011) — *What it measured:* National competency and ethics framework for First-Line Supervisors/Managers of Retail Sales Workers
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (36 claims)
+- last30days declared sample: 36 items across github=10, grounding=0, hackernews=12, reddit=1, x=6, youtube=3.
+- Representative practitioner quotes:
+  - [github] SDA-2_Namya Suneja_Assignment 1
+### Full Name
 
-### Claim `41-1011-02` (L2 · scholarly)
+Namya Suneja
 
-> "Automation of routine transactional and analytical tasks in First-Line Supervisors/Managers of Retail Sales Workers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+### Student ID / Roll Number
 
-- **Scope:** Entry-level and senior First-Line Supervisors/Managers of Retail Sales Workers roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in First-Line Supervisors/Managers of Retail Sales Workers](https://www.jobsandskills.gov.au/research/41-1011) — *What it measured:* Labour market analysis of automation resilience across First-Line Supervisors/Managers of Retail Sales Workers in Australia
+341155
 
----
+### Industry Selected...
+  - [github] Daily sales + sales-per-labor-hour (SPLH)
+## Problem
+
+Sales-per-labor-hour (SPLH) is *the* productivity metric in retail...
+  - [github] Add AmpIQ Sales Planning product page
+<!-- CURSOR_AGENT_PR_BODY_BEGIN -->
+## Summary
+Adds the **AmpIQ Sales Planning** p...
+  - [github] [A1] <065085_Khushal_Arora> — Assignment 1
+### Full Name
+
+Khushal Arora
+
+### Student ID / Roll Number
+
+065085
+
+### Indus...
+  - [github] 💡 [for Retail Chains & Store Managers] RetailWise AI - From fragmented operations and inconsistent experiences to unifie...
