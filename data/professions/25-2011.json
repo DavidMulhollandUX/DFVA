@@ -1836,5 +1836,6 @@
   "confidence": "high",
   "caveats": [
     "L1/L2/L3 added 2026-08-30 (autoloop): AITSL registration/accreditation, JSA/Felten exposure index 64.33, AI-in-schools trade press. Factiva L3 gap logged (auth_expired)."
-  ]
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

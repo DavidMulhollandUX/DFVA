@@ -1488,27 +1488,6 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l573",
-      "text": "@TheZvi memory is a contributor, you want more unique context and less repeated context. Wild guess, but maybe try asking it to think about some post-unique image first",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@TheZvi memory is a contributor, you want more unique context and less repeated \u2026",
-          "url": "https://x.com/zmj/status/2093524626811023459",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
       "id": "l574",
       "text": "@TheZvi They really did an incredible job given the constraints! But yeah..",
       "lane": "L5",
@@ -2449,5 +2428,6 @@
   "confidence": "high",
   "caveats": [
     "L1/L2/L3 added 2026-08-30 (autoloop): AITSL registration/accreditation, JSA/Felten exposure index 91.99, AI-in-schools trade press. Factiva L3 gap logged (auth_expired)."
-  ]
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

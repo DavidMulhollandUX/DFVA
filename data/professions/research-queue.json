@@ -312,14 +312,14 @@
     "17-1012": "done",
     "17-1022": "done",
     "17-2011": "done",
-    "17-2031": "pending",
-    "17-2041": "pending",
+    "17-2031": "done",
+    "17-2041": "done",
     "17-2051": "done",
     "17-2071": "done",
     "17-2072": "done",
     "17-2081": "done",
-    "17-2111": "pending",
-    "17-2112": "pending",
+    "17-2111": "done",
+    "17-2112": "done",
     "17-2141": "pending",
     "17-2151": "pending",
     "17-2171": "done",
@@ -574,7 +574,15 @@
     "17-1011": 1,
     "17-1012": 1,
     "17-1022": 1,
-    "17-2011": 1
+    "17-2011": 1,
+    "17-2031": 1,
+    "17-2041": 1,
+    "17-2111": 1,
+    "17-2112": 1,
+    "25-2011": 1,
+    "25-2021": 1,
+    "25-2022": 1,
+    "25-2031": 1
   },
   "leases": {},
   "runs": [
@@ -1075,6 +1083,54 @@
       "soc": "17-2011",
       "status": "done",
       "note": ""
+    },
+    {
+      "at": "2026-08-30T03:40:07.970110+00:00",
+      "soc": "17-2031",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2 web-researched + L3 web trade press (Factiva auth_expired) + L4 Adzuna+LinkedIn + L5 last30days re-run; confidence high"
+    },
+    {
+      "at": "2026-08-30T03:40:08.079260+00:00",
+      "soc": "17-2041",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2 web-researched + L3 web trade press (Factiva auth_expired) + L4 Adzuna+LinkedIn + L5 last30days re-run; confidence high"
+    },
+    {
+      "at": "2026-08-30T03:40:08.185963+00:00",
+      "soc": "17-2111",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2 web-researched + L3 web trade press (Factiva auth_expired) + L4 Adzuna+LinkedIn + L5 last30days re-run; confidence high"
+    },
+    {
+      "at": "2026-08-30T03:40:08.293283+00:00",
+      "soc": "17-2112",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2 web-researched + L3 web trade press (Factiva auth_expired) + L4 Adzuna+LinkedIn + L5 last30days re-run; confidence high"
+    },
+    {
+      "at": "2026-08-30T04:45:32.162135+00:00",
+      "soc": "25-2011",
+      "status": "done",
+      "note": "five-lane empirical research verified: 0 fabrication-template hits, 1 dead L5 x.com URL (l573) dropped, evidence.md present"
+    },
+    {
+      "at": "2026-08-30T04:45:32.303306+00:00",
+      "soc": "25-2021",
+      "status": "done",
+      "note": "five-lane empirical research verified: 0 fabrication-template hits, 1 dead L5 x.com URL (l573) dropped, evidence.md present"
+    },
+    {
+      "at": "2026-08-30T04:45:32.417998+00:00",
+      "soc": "25-2022",
+      "status": "done",
+      "note": "five-lane empirical research verified: 0 fabrication-template hits, 1 dead L5 x.com URL (l573) dropped, evidence.md present"
+    },
+    {
+      "at": "2026-08-30T04:45:32.535334+00:00",
+      "soc": "25-2031",
+      "status": "done",
+      "note": "five-lane empirical research verified: 0 fabrication-template hits, 1 dead L5 x.com URL (l573) dropped, evidence.md present"
     }
   ],
   "claims": [
