@@ -1,0 +1,136 @@
+{
+  "code": "mc-thtrdra",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2: DRAM90022 (Collaboration in Action) and DRAM90012 (Collaborative Dramaturgies Project) are core units that assess collaborative practice with individual accountability (an attendance hurdle plus graded group-performance and journal components); assessed collaborative practice recurs across the program (also DRAM90011, DRAM90013, DRAM90024). Level 3 additionally requires at least one assessment where coordinating work across people AND tools/AI systems is itself assessed (per the v4.1 migration note restricting C1 to human-plus-tool coordination, since the placement route moved to W3). The extract contains no reference anywhere to gen AI, digital tools, or technology coordination, so Level 3's tool/AI-coordination component is unmet.",
+      "evidenceLines": [
+        "Students collaborate with other VCA graduate disciplines and engage with writers, directors, designers, choreographers, performance-makers and actors on a range of projects in an intensive training environment.",
+        "Workbook portfolio in preparation for a group performance.",
+        "Development and presentation of a 15 minute small group performance.",
+        "20-minute group performance",
+        "Hurdle requirement: Students must attend a minimum of 80% of all scheduled classes."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: DRAM90022's 'Critical reflective journal of collaborative' (40%) sits against the DRAM90012 outcome to 'evaluate the effectiveness of a collaborative dramaturgy and assess the impact of individual behaviour on group dynamics' — criterion-referenced appraisal of collaborative quality, assessed. Level 3 requires assessment to document and justify specific reliance decisions (on a tool, source or collaborator) or evidence strategy adjustment over time. DRAM90011's 'Process journal' (40%) and DRAM90013's project journal are process-focused and plausibly straddle this, but neither assessment description states that reliance decisions or strategy adjustment over time must be documented and justified. Ambiguous between Level 2 and 3; resolved to the lower Level 2 per the scoring-direction rule.",
+      "evidenceLines": [
+        "Critical reflective journal of collaborative.",
+        "evaluate the effectiveness of a collaborative dramaturgy and assess the impact of individual behaviour on group dynamics.",
+        "Process journal",
+        "critically evaluate the role of the dramaturg in the project context."
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Level 0: no core unit or program-level outcome in the extract references digital tools, technology, AI or gen AI capabilities, limitations, ethics or governance. The course-level Generic skills list and every subject's Intended learning outcomes / Generic skills sections enumerate only disciplinary, research, communication, collaboration and leadership skills (e.g. 'use a range of research tools and methodologies', 'network, broker and mentor'), with no digital/AI content anywhere across all ten core subjects in the extract.",
+      "evidenceLines": [
+        "work across disciplines, create and organise a range of aesthetic material",
+        "use a range of research tools and methodologies",
+        "network, broker and mentor"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 (demoted from 3 on evidence review): DRAM90013 (Independent Dramaturgy Project, 37.5 points, the program's largest single subject) is presented as the culmination/synthesis subject in which each student independently identifies and establishes the parameters of their own project, and DRAM90018 documents structured progression toward it. All three evidenceLines are Overview/Intended-learning-outcomes text, not text drawn from DRAM90013's actual Assessment page; R2 holds that an outcome statement alone is never sufficient for Level 3. No assessment-task text was quoted to substantiate the capstone claim at demotion time, even though such text exists unquoted elsewhere in the source (extract lines 689/694/699) — a fresh capture and scoring pass against that assessment-page text could support Level 3, but this pass does not raise the score without it.",
+      "evidenceLines": [
+        "This subject is the culmination and synthesis of all the other subjects in the course; knowledge and skills gained are practically applied in a specific project identified by the student.",
+        "interpret and establish the dramaturgical parameters of a project independently;",
+        "begin to articulate an independent project research trajectory and project idea that will inform their internship semester 1 and final independent project in semester 2;"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: DRAM90010 (Performing Arts Research Methodologies) trains methodology selection, assessed via 'Identifying research questions and methodologies appropriate to own practice' (40%). DRAM90013's required Independent Dramaturgy Project generates primary practice-based evidence via a substantial required project, documented ('journal and formal documentation of research materials; observation of rehearsals/meetings') and critically analysed in a synthesising essay — methodology selection and primary evidence generation, assessed. Level 3 additionally requires methodology defended under scrutiny (viva, defence, or staged supervised review). DRAM90013 includes a '30-minute oral presentation on project' (20%), which plausibly serves this function, but unlike THTR90009's presentation (explicitly '(plus Q&A)'), the extract does not state that DRAM90013's presentation involves examiner challenge or defence of methodology. Ambiguous between Level 2 and 3; resolved to the lower Level 2.",
+      "evidenceLines": [
+        "This subject aims to develop an understanding of the major critical issues in the field of performance, and a range of methodologies appropriate to the production, documentation and analysis of performance texts, contexts and processes.",
+        "Written assignment 2: Identifying research questions and methodologies appropriate to own practice",
+        "Engagement with practical project (evidenced by journal and formal documentation of research materials; observation of rehearsals/meetings, where appropriate).",
+        "Essay synthesising practice and theory in a critical analysis of the process and performance outcome.",
+        "30-minute oral presentation on project"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: recognised professional genres recur across core units — an 'Industry Pitch Document' (DRAM90019, 30%), a '15-minute Project pitch presentation' (DRAM90018, 30%), and 'Critical evaluation of a dramaturgical feedback session with a writer' (DRAM90024, 30%) — reinforced by outcomes such as DRAM90023's 'comport a professional demeanour in a leadership role appropriate to the working context'. Level 3 additionally requires at least one core assessment delivered to, or judged by, a real external audience or practitioner, with professional conduct/accountability explicitly assessed. DRAM90011 places students as a working dramaturg in an actual VCA production, and DRAM90013 places them on productions 'in the main stage or independent theatre arena locally, nationally or internationally' — real external contexts — but the extract documents these assessments (journals, essays, presentations) as judged by the unit coordinator, not by an external practitioner or industry panel. Ambiguous between Level 2 and 3; resolved to the lower Level 2.",
+      "evidenceLines": [
+        "This organisational and theoretical knowledge will be applied in context as a dramaturg in rehearsals on a Victorian College of the Arts (VCA) Theatre undergraduate production (or equivalent).",
+        "Industry Pitch Document",
+        "15-minute Project pitch presentation",
+        "Critical evaluation of a dramaturgical feedback session with a writer.",
+        "comport a professional demeanour in a leadership role appropriate to the working context."
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 (demoted from 2 on evidence review): all five evidenceLines are Overview/outcome text; DRAM90011's actual graded items (Individual presentation, Critical analysis essay, Process journal) are academic reflective genres, not the production documents the outcome quote claims are produced. W2's own Level 1 anchor — artefact produced and criteria applied remain academic — fits the actual graded items better than Level 2, and the rationale's own stated ambiguity should have resolved down per the scoring-direction rule rather than settling at Level 2.",
+      "evidenceLines": [
+        "This organisational and theoretical knowledge will be applied in context as a dramaturg in rehearsals on a Victorian College of the Arts (VCA) Theatre undergraduate production (or equivalent).",
+        "create the relevant documents and materials required by a dramaturg in a production process;",
+        "Each student will work as a dramaturg or assistant dramaturg on a project of a large or small scale happening at the Victorian College of the Arts (VCA) or in the main stage or independent theatre arena locally, nationally or internationally.",
+        "You will assume the leadership role of dramaturg on a new writing project and will work closely with writers and directors to make collective decisions, interpret material, give critical feedback and facilitate the creative process.",
+        "produce the relevant documents and materials required by a collaborative devising project in a production process;"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2: DRAM90013 (Independent Dramaturgy Project, required, 37.5 points) places each student as a dramaturg or assistant dramaturg on a real production 'happening at the Victorian College of the Arts (VCA) or in the main stage or independent theatre arena locally, nationally or internationally', assessed via engagement evidenced by journal, documentation and observation, plus a synthesising critical-analysis essay — a core unit placing students in a real production setting with assessment. Level 3 requires an extended placement or a sequence of them, supervised by a practitioner, with accountability to the host and structured reflection. DRAM90013 is a single (if large) required subject rather than a documented sequence, and the extract never states that a practitioner (as distinct from the university unit coordinator) supervises the placement, nor that students are accountable to the host. DRAM90018's outcome references 'their internship semester 1', but no internship subject page or assessment appears in the extract to substantiate it. Ambiguous between Level 2 and 3; resolved to the lower Level 2 given the missing supervision/accountability evidence.",
+      "evidenceLines": [
+        "Each student will work as a dramaturg or assistant dramaturg on a project of a large or small scale happening at the Victorian College of the Arts (VCA) or in the main stage or independent theatre arena locally, nationally or internationally.",
+        "This work will be documented, discussed and critically analysed through: presentation, documented portfolio and written essay.",
+        "Engagement with practical project (evidenced by journal and formal documentation of research materials; observation of rehearsals/meetings, where appropriate).",
+        "begin to articulate an independent project research trajectory and project idea that will inform their internship semester 1 and final independent project in semester 2;"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The course structure is explicitly '150-point program of compulsory subjects' — every listed subject across both years is compulsory, with a staged/progressive sequence (DRAM90011 Applied Dramaturgy 1 -> DRAM90023 Applied Dramaturgy 2, explicitly 'Drawing on the learning from Applied Dramaturgy 1' -> DRAM90013 Independent Dramaturgy Project capstone) within a named specialist discipline ('the first and only course leading to a qualification in dramaturgy in Australia and Asia'). This is an all-compulsory specialist core with progressive depth.",
+        "evidenceLines": [
+          "150-point program of compulsory subjects",
+          "This is the first and only course leading to a qualification in dramaturgy in Australia and Asia, and offers a unique curriculum emerging from its positioning within the Victorian College of the Arts (VCA) and the artistic and cultural life of Melbourne.",
+          "Drawing on the learning from Applied Dramaturgy 1, this subject will enable you to consolidate practice, leadership skills and understanding of dramaturgy in a range of contexts before undertaking your Independent Dramaturgy Project."
+        ]
+      },
+      "G2": {
+        "result": "FAIL",
+        "rationale": "Demoted from PASS on evidence review: all four evidenceLines are Intended-Learning-Outcomes or Overview text, never an Assessment-page description showing that decision-defence is what is graded. The actual graded items in DRAM90013/DRAM90024/DRAM90012 are reflective essays and journals whose descriptions do not state that decision justification is assessed. Re-flagged as unconfirmed/FAIL pending assessment-page evidence of graded decision-defence; a fresh capture targeting the Assessment sections of these subjects could restore a PASS if that text substantiates it.",
+        "evidenceLines": [
+          "engage in dramaturgical decision making and identify the artistic, logistical, critical, aesthetic and critical consequences that flow from those decisions;",
+          "make and justify dramaturgical decisions appropriate to the working context;",
+          "make appropriate dramaturgical decisions and implement changes within a creative process based on group discussions and feedback from staff;",
+          "Each student will work as a dramaturg or assistant dramaturg on a project of a large or small scale happening at the Victorian College of the Arts (VCA) or in the main stage or independent theatre arena locally, nationally or internationally."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C4 (demotion note): the Level-3 capstone claim rests only on DRAM90013's Overview/outcome text; the source extract reportedly contains unquoted DRAM90013 assessment-page text (lines 689/694/699) that could substantiate Level 3 with a fresh capture and re-score targeting that text.",
+      "G2 (demotion note): the FAIL is evidence-gap driven, not a confirmed absence of decision-defence assessment — assessment-page text for DRAM90013/DRAM90024/DRAM90012 was never quoted; a targeted re-capture of those subjects' Assessment sections could restore PASS.",
+      "C2, C5, W1 and W3 each carry a rationale-stated ambiguity between their current level and the level above, resolved down per the scoring-direction rule; none were part of the verified demotion list, so left unchanged in this pass, but are candidates for review if fresh assessment-page evidence becomes available."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-30"
+      },
+      "mechanical": true,
+      "date": "2026-08-30"
+    }
+  }
+}
