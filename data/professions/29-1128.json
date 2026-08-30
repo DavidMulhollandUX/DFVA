@@ -9,12 +9,465 @@
     "from": "2025-08-01",
     "to": "2026-08-24"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-28",
   "programs": [],
   "claims": [
     {
-      "id": "l503",
+      "id": "c01",
+      "text": "Exercise Physiologists are classified under ANZSCO 234915 (Skill Level 1); VETASSESS is the assessing authority for migration skills assessments of the occupation.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "VETASSESS",
+          "title": "Exercise Physiologist - ANZSCO 234915 (Group A occupation infosheet)",
+          "url": "https://vetassess.com.au/information-sheet/1257/2013-anzsco",
+          "date": "2026-08-02",
+          "whatItMeasured": "ANZSCO code and skills-assessment authority for the occupation"
+        }
+      ],
+      "scope": "ANZSCO taxonomy / migration classification; not a practice standard or employment count.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real, states this ANZSCO code, dated 2026-08-02."
+    },
+    {
+      "id": "c02",
+      "text": "Exercise physiologists are self-regulated through Exercise & Sports Science Australia (ESSA) and are NOT registered under the National Registration and Accreditation Scheme (NRAS)/AHPRA; the protected title 'physiotherapist' is AHPRA-regulated but 'exercise physiologist' is not.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Physiotherapy Association",
+          "title": "Differences between a physiotherapist and an exercise physiologist (Valuing Skills factsheet)",
+          "url": "https://australian.physio/sites/default/files/1A_Valuing_Skills_Factsheet_Difference_between_physiotherapists_and_EPs_Jan2024.pdf",
+          "date": "2024-01",
+          "whatItMeasured": "Regulatory status of EPs vs physiotherapists under NRAS/AHPRA"
+        }
+      ],
+      "scope": "Australian regulatory status; does not state scope-of-practice or funding detail.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (APA factsheet), states EPs self-regulated via ESSA, not under National Law."
+    },
+    {
+      "id": "c03",
+      "text": "The ESSA Accredited Exercise Physiologist (AEP) Professional Standards (2021) came into effect 1 January 2023, defining the minimum knowledge, skills, attitudes, values and abilities required for ESSA accreditation and ongoing practice.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Exercise & Sports Science Australia",
+          "title": "The Professional Standards Documents - AEP Professional Standards for Accreditation (2021)",
+          "url": "https://essa.org.au/Public/Professional_Standards/The_professional_standards.aspx",
+          "date": "2023-01-01",
+          "whatItMeasured": "Effective date and content of AEP accreditation standards"
+        }
+      ],
+      "scope": "ESSA accreditation standard (binding for AEPs); professional-body standard, not government legislation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (ESSA), standards effective 1 Jan 2023."
+    },
+    {
+      "id": "c04",
+      "text": "ESSA accreditation as an Accredited Exercise Physiologist (AEP) is the gate to delivering services under Medicare (Chronic Disease Management plans, up to 5 allied-health sessions per calendar year), the NDIS, DVA, WorkCover and private health insurance.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "University of Sydney",
+          "title": "How to become an accredited exercise physiologist",
+          "url": "https://sydney.edu.au/medicine-health/study-medicine-and-health/study-areas/health-sciences-and-allied-health/how-to-become-an-accredited-exercise-physiologist.html",
+          "date": "",
+          "whatItMeasured": "Funding pathways accessible to accredited EPs (Medicare/DVA/WorkCover/private health)"
+        }
+      ],
+      "scope": "Australia; describes accreditation-linked funding access; no provider count given. NDIS plan rules change via review (see L3).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (USyd), states AEP enables services under Medicare/DVA/WorkCover/private health."
+    },
+    {
+      "id": "c05",
+      "text": "Jobs and Skills Australia's ANZSCO 234915 profile (ABS 2021 Census) records 5,100 people employed as Exercise Physiologists, 38% part-time, 52% female, median age 29; JSA states these ANZSCO-based pages will not be updated (OSCA-based profiles replace them mid-2026).",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / ABS",
+          "title": "Exercise Physiologists (ANZSCO 234915) occupation profile",
+          "url": "https://jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations/234915-exercise-physiologists",
+          "date": "",
+          "whatItMeasured": "Employment count, part-time share, gender, median age (ABS 2021 Census)"
+        }
+      ],
+      "scope": "Australia, 2021 Census basis; no annual-growth figure published on this page; superseded by OSCA mid-2026.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (JSA/ABS 2021 Census)."
+    },
+    {
+      "id": "c06",
+      "text": "JSA's newer OSCA-based profile (OSCA 262231, released mid-2026) records 4,600 employed Exercise Physiologists, 62.9% full-time, 36.9% part-time, median age 29, 52.8% female; Skill Level 1, with no licensing/registration requirement listed.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Exercise Physiologist (OSCA 262231) occupation profile",
+          "url": "https://jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations-osca/262231-exercise-physiologist",
+          "date": "2026",
+          "whatItMeasured": "Employment count and demographics under the new OSCA taxonomy"
+        }
+      ],
+      "scope": "Australia; OSCA is the new taxonomy replacing ANZSCO; count differs from the 2021 Census ANZSCO figure (5,100).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (JSA OSCA page)."
+    },
+    {
+      "id": "c07",
+      "text": "ESSA (national peak body) represents over 9,600 university-qualified Accredited Exercise Physiologists; around 69% of AEPs work with older adults aged 65+.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Exercise & Sports Science Australia",
+          "title": "ESSA submission - Pricing Framework for Australian Support at Home Aged Care Services 2027-28",
+          "url": "https://essa.org.au/Common/Uploaded%20files/Submissions/ESSA%20Response%20_Pricing%20Framework%20for%20Australian%20Support%20at%20Home%20Aged%20Care%20Services%202027%E2%80%9328.pdf",
+          "date": "2025",
+          "whatItMeasured": "AEP membership count and share working with 65+ adults"
+        }
+      ],
+      "scope": "ESSA-member self-report in a submission; not a census of all practising EPs.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (ESSA submission PDF)."
+    },
+    {
+      "id": "c08",
+      "text": "A 2025 narrative review (BMC Sports Science, Medicine and Rehabilitation) found GenAI is adopted anecdotally by clinical exercise physiologists for practice management, program design and research, but remains far from mainstream and lacks clinical guidelines/position statements; the workforce is 'questioning how, or if, they should utilise these technologies'.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "BMC Sports Science, Medicine and Rehabilitation",
+          "title": "Promises and perils of generative artificial intelligence: a narrative review informing its ethical and practical applications in clinical exercise physiology",
+          "url": "https://doi.org/10.1186/s13102-025-01182-7",
+          "date": "2025",
+          "whatItMeasured": "State of GenAI adoption and the clinical-guideline gap in clinical exercise physiology"
+        }
+      ],
+      "scope": "Peer-reviewed narrative review (not primary empirical AU data); draws on global literature.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "ai-augments-admin-and-program-design",
+        "guideline-gap"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (BMC, 2025)."
+    },
+    {
+      "id": "c09",
+      "text": "ABC News (Nov 2025) reported the federal NDIS review is examining participant access to exercise physiology, with ESSA's submission arguing EP services 'could not be substituted' by other supports; an EP with 50+ NDIS clients reported increasing plan denials for exercise physiology.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ABC News",
+          "title": "Leo relies on exercise physiology to keep him moving but that could change under NDIS review",
+          "url": "https://abc.net.au/news/2025-11-12/advocates-fear-ndis-review-cuts-to-exercise-physiology/105970108",
+          "date": "2025-11-12",
+          "whatItMeasured": "NDIS review impact on EP access; ESSA submission position"
+        }
+      ],
+      "scope": "Single national outlet; review outcome not final at publication.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "funding-uncertainty-ndis"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (ABC), dated 2025-11-12."
+    },
+    {
+      "id": "c10",
+      "text": "A 2026 allied-health demand analysis (GorillaJobs) cites JSA's 2025 projections of 20-25% growth in the allied health workforce over five years, and flags the 1 July 2025 NDIS pricing reforms and 1 Nov 2025 strengthened Aged Care Quality Standards as demand drivers for clinicians including exercise physiologists.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "GorillaJobs",
+          "title": "Where the Allied Health Demand Is in Sydney: Hot Spots for Clinicians Looking to Move in 2026",
+          "url": "https://blog.gorillajobs.com.au/2026/05/04/where-the-allied-health-demand-is-in-sydney-hot-spots-for-clinicians-looking-to-move-in-2026",
+          "date": "2026-05-04",
+          "whatItMeasured": "Allied-health demand drivers and JSA 2025 growth projection"
+        }
+      ],
+      "scope": "Sydney-focused trade analysis; cites the JSA projection second-hand.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "demand-growth-allied-health"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (GorillaJobs blog), dated 2026-05-04."
+    },
+    {
+      "id": "c11",
+      "text": "Victoria University careers guidance reports average Australian EP salary $80,000-$90,000, describes EPs as 'in shortage across Australia and especially in rural areas', and cites Seek/ESSA for +7% year-on-year employment growth with a 'Strong' projection.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Victoria University",
+          "title": "Average exercise physiologist salaries across Australian states",
+          "url": "https://vu.edu.au/about-vu/news-events/vu-blog/average-exercise-physiologist-salaries-across-australian-states",
+          "date": "",
+          "whatItMeasured": "Salary, shortage status and growth projection for EPs (cites Seek, ESSA)"
+        }
+      ],
+      "scope": "Careers/guidance blog citing Seek/ESSA; not a primary labour statistic.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "demand-growth-allied-health",
+        "rural-shortage"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (VU blog)."
+    },
+    {
+      "id": "c12",
+      "text": "Tasmanian Times (June 2025) reported Tasmania's public health system has no exercise physiologists despite their role in multidisciplinary teams on the mainland, and that the University of Tasmania no longer offers exercise physiology qualifications - illustrating regional workforce gaps.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Tasmanian Times",
+          "title": "Tasmanian's Health Resembles The Most Remote, Disadvantaged Regions Of Australia",
+          "url": "https://tasmaniantimes.com/2025/06/tasmanians-health-resembles-the-most-remote-disadvantaged-regions-of-australia",
+          "date": "2025-06",
+          "whatItMeasured": "Regional EP workforce gap in Tasmania"
+        }
+      ],
+      "scope": "Opinion/analysis outlet; single state, illustrates rural/regional maldistribution.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "rural-shortage"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (Tasmanian Times), dated 2025-06."
+    },
+    {
+      "id": "l413",
+      "text": "Exercise Physiologist — Kieser Australia (Maroochydore, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Kieser Australia",
+          "title": "Exercise Physiologist",
+          "url": "https://www.linkedin.com/jobs/view/4455499297",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l414",
+      "text": "Exercise Physiologist — Sonic HealthPlus (Gladstone, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Sonic HealthPlus",
+          "title": "Exercise Physiologist",
+          "url": "https://www.linkedin.com/jobs/view/4454184014",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l415",
+      "text": "Exercise Physiologist — Sonic HealthPlus (Woden, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Sonic HealthPlus",
+          "title": "Exercise Physiologist",
+          "url": "https://www.linkedin.com/jobs/view/4448403808",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l416",
+      "text": "Exercise Physiologist — Patches Australia (Perth, Western Australia, Australia). Posted 1 year ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Patches Australia",
+          "title": "Exercise Physiologist",
+          "url": "https://www.linkedin.com/jobs/view/4226045647",
+          "date": "1 year ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l417",
+      "text": "Exercise Physiologist — Kieser Australia (Mornington Peninsula, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Kieser Australia",
+          "title": "Exercise Physiologist",
+          "url": "https://www.linkedin.com/jobs/view/4448135469",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l418",
+      "text": "Exercise Physiologist — Nabenet (Canberra, Australian Capital Territory, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Nabenet",
+          "title": "Exercise Physiologist",
+          "url": "https://www.linkedin.com/jobs/view/4449962270",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l419",
+      "text": "Clinical Exercise Physiologist — KINESIS HEALTHCARE (Werribee, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "KINESIS HEALTHCARE",
+          "title": "Clinical Exercise Physiologist",
+          "url": "https://www.linkedin.com/jobs/view/4454231970",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l420",
+      "text": "Exercise Physiologist — Active Answers Health (Northern Beaches, New South Wales, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Active Answers Health",
+          "title": "Exercise Physiologist",
+          "url": "https://www.linkedin.com/jobs/view/4437990237",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l421",
+      "text": "Accredited Exercise Physiologist — Belgravia Leisure (Sydney, New South Wales, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Belgravia Leisure",
+          "title": "Accredited Exercise Physiologist",
+          "url": "https://www.linkedin.com/jobs/view/4447815215",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l522",
       "text": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarcus (15 Jul): *\"We talk a lot about dietitians but there's no mention of the exercise physiologists anywhere. Is that deliberate?\"*\n\n## Answer (verified) — half-deliberate, now fixed\n- **No standalone EP page is correct** — Ahrefs AU shows no bariatric/weight-loss EP search demand (`exerci\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](…",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -24,406 +477,7 @@
           "title": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarc…",
           "url": "https://github.com/amirariff91/marcuscaporaso/pull/11",
           "date": "2026-07-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l504",
-      "text": "Tell HN: Man, AI is killing my brain",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Tell HN: Man, AI is killing my brain",
-          "url": "https://news.ycombinator.com/item?id=49468252",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l505",
-      "text": "What breaks in production AI workflows?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "What breaks in production AI workflows?",
-          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l506",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l507",
-      "text": "How al-Qaida and IS are adopting AI",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "How al-Qaida and IS are adopting AI",
-          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l508",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-          "url": "https://news.ycombinator.com/item?id=48672619",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l509",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-          "url": "https://isaidumber.today/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l510",
-      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
-          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
-          "date": "2026-07-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l511",
-      "text": "The death of AI workflow builders",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "The death of AI workflow builders",
-          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l512",
-      "text": "Looking for developers with high-token AI workflows",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Looking for developers with high-token AI workflows",
-          "url": "https://canopywave.com/events/unlimited-token-plan-200m",
-          "date": "2026-07-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l513",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-          "url": "https://www.contextvault.dev/",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l514",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-          "url": "https://argonix.io/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l515",
-      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
-          "url": "https://github.com/BenSiv/fossil-scm",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l516",
-      "text": "What is agentic AI today, and what do we want it to be?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "What is agentic AI today, and what do we want it to be?",
-          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-          "date": "2026-07-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l517",
-      "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
-          "url": "https://latentdynamics.substack.com/p/semantic-transactions-securing-untrusted",
-          "date": "2026-07-16",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l518",
-      "text": "My AI-Assisted Workflow",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "My AI-Assisted Workflow",
-          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
-          "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l519",
-      "text": "AI Workflows Need Topological Sort",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "AI Workflows Need Topological Sort",
-          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
-          "date": "2026-06-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l520",
-      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l521",
-      "text": "AI workflows: an industry optimising the wrong variables",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "AI workflows: an industry optimising the wrong variables",
-          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
-          "date": "2026-05-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l522",
-      "text": "Ask HK: How are you building AI apps today?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Ask HK: How are you building AI apps today?",
-          "url": "https://news.ycombinator.com/item?id=48323554",
-          "date": "2026-05-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -435,16 +489,16 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
-          "url": "https://blocks.ai",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -456,16 +510,16 @@
     },
     {
       "id": "l524",
-      "text": "The Problem with AI Today",
+      "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The Problem with AI Today",
-          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
-          "date": "2026-05-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -477,16 +531,16 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-          "url": "https://github.com/kontext-dev/kontext-cli",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -498,16 +552,16 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "text": "How al-Qaida and IS are adopting AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
-          "url": "https://theincidentchallenge.com/",
-          "date": "2026-05-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -519,16 +573,16 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
-          "url": "https://news.ycombinator.com/item?id=47590261",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -540,16 +594,16 @@
     },
     {
       "id": "l528",
-      "text": "Some of the anti-AI backlash in education is probably coming from people who financially benefit from keeping education expensive\nI think there is an uncomfortable financial incentive behind at least some of the hostility toward AI in higher education that nobody really wants to talk about. The American higher-education system is built around scarcity. You need admission to the right institution. You need professors, classrooms, administrative departments, textbooks, accreditation, four years of…",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Some of the anti-AI backlash in education is probably coming from people who fin…",
-          "url": "https://www.reddit.com/r/TrueUnpopularOpinion/comments/1vvlqpe/some_of_the_antiai_backlash_in_education_is/",
-          "date": "2026-08-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -561,16 +615,16 @@
     },
     {
       "id": "l529",
-      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa…",
+      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra…",
-          "url": "https://www.reddit.com/r/HFY/comments/1vwpkvz/the_human_artificial_hivemind_part_641_a_new_set/",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -582,16 +636,16 @@
     },
     {
       "id": "l530",
-      "text": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Should Be Commonly Owned and Controlled — and How Such Cooperation Could Be Organized Artificial intelligence may become one of humanity’s most important productive, scientific, political, and administrative capacities. If that is the case, the central question is not only what AI will be able to do, but who will own it, who will control its development and use, and who will benefit from the value it creates. There are…",
+      "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Sh…",
-          "url": "https://www.reddit.com/r/LeftistsForAI/comments/1vcmh7k/the_case_for_common_ownership_and_international/",
-          "date": "2026-08-01",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -603,16 +657,16 @@
     },
     {
       "id": "l531",
-      "text": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for AI agents making thousands of tiny payments a day.\n\n@samrags_ of @merit_systems explains why stablecoins could be the rail the agent economy runs on. https://t.co/P1o2CMuaNu",
+      "text": "Looking for developers with high-token AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for …",
-          "url": "https://x.com/a16zcrypto/status/2092335249195970753",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Looking for developers with high-token AI workflows",
+          "url": "https://canopywave.com/events/unlimited-token-plan-200m",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -624,16 +678,16 @@
     },
     {
       "id": "l532",
-      "text": "The habits of AI writing, and what to do about them",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The habits of AI writing, and what to do about them",
-          "url": "https://x.com/a16zcrypto/status/2091934263302402318",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -645,16 +699,16 @@
     },
     {
       "id": "l533",
-      "text": "Beyond slop, taste, and AI moral panic: What social science tells us",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Beyond slop, taste, and AI moral panic: What social science tells us",
-          "url": "https://x.com/a16zcrypto/status/2092678605998624834",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -666,16 +720,16 @@
     },
     {
       "id": "l534",
-      "text": "Trying to avoid AI slop in your copywriting?\n\nUse this, and read @stephbzinn's piece: https://t.co/UFOIAasdbF",
+      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Trying to avoid AI slop in your copywriting?\n\nUse this, and read @stephbzinn's p…",
-          "url": "https://x.com/a16zcrypto/status/2092998851171061764",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
+          "url": "https://github.com/BenSiv/fossil-scm",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -687,16 +741,16 @@
     },
     {
       "id": "l535",
-      "text": "Building the most AI-enabled creative agency on the planet",
+      "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Building the most AI-enabled creative agency on the planet",
-          "url": "https://x.com/richhomiecon/status/2090557768550007198",
-          "date": "2026-08-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
+          "url": "https://latentdynamics.substack.com/p/semantic-transactions-securing-untrusted",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -708,16 +762,16 @@
     },
     {
       "id": "l536",
-      "text": "Why Alignment Is Inevitable as AI Becomes More Intelligent",
+      "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Why Alignment Is Inevitable as AI Becomes More Intelligent",
-          "url": "https://x.com/jlist21/status/2090996958114582728",
-          "date": "2026-08-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -729,16 +783,16 @@
     },
     {
       "id": "l537",
-      "text": "AI Did Not Invent Computer-Assisted Thinking. It Is the Next Step.",
+      "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "AI Did Not Invent Computer-Assisted Thinking. It Is the Next Step.",
-          "url": "https://x.com/StarTrekLink/status/2090591646475768200",
-          "date": "2026-08-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -750,16 +804,16 @@
     },
     {
       "id": "l538",
-      "text": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in the Room",
+      "text": "AI Workflows Need Topological Sort",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
-          "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -771,16 +825,16 @@
     },
     {
       "id": "l539",
-      "text": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
-          "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -792,16 +846,16 @@
     },
     {
       "id": "l540",
-      "text": "I turned this into a de-slop skill using\n@promptcowboy\n\nCopy the skill file below yeee haaa 🤠\n\n---\nname: de-slop\ndescription: Edits and rewrites prose so it does its job — clear, trustworthy, and recognizably driven by a person. Removes meaningless language, fungible vocabulary, imposed structure, and punctuation monotony without flattening voice or banning marks. Use when asked to edit, rewrite, tighten, de-AI, humanize, or improve writing, or when asked why something \"sounds like AI.\" Works id",
+      "text": "AI workflows: an industry optimising the wrong variables",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "I turned this into a de-slop skill using\n@promptcowboy\n\nCopy the skill file belo…",
-          "url": "https://x.com/promptcowboy/status/2092153120998715672",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -813,16 +867,16 @@
     },
     {
       "id": "l541",
-      "text": "Immunologists, neuro-immuno psychiatrists, exercise physiologists who’ve turned to these thorny problems have been producing amazing science. It’s nowhere in this article. Instead, this article’s approach to severe Long Covid or ME/CFS is like recommending rest and calm for TB and blaming it on sensitive intelligence, and blaming ulcers on being type A, etc. It’s what medicine did before they understood as a coping mechanism.",
+      "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Immunologists, neuro-immuno psychiatrists, exercise physiologists who’ve turned …",
-          "url": "https://x.com/zeynep/status/2061793814742769674",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -834,16 +888,16 @@
     },
     {
       "id": "l542",
-      "text": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Prep\nPrepare smarter with https://quizzprep.com/ — get the latest practice quizzes, exam prep packages, and quick-review cheat sheets to help you study faster and pass with confidence.\n. Achieving the ACSM Certified Exercise Physiologist (ACSM-EP) credential in 2026 marks you as a leader in the science of health and fitness. This comprehensive walkthrough is designed to prepare you for the current certification exam, c…",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Pr…",
-          "url": "https://www.youtube.com/watch?v=6o3kWOEkrJ4",
-          "date": "2026-03-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -854,206 +908,206 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l443",
-      "text": "Exercise Physiologist — Kieser Australia (Sunshine Coast, Queensland, Australia). Posted 6 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Kieser Australia",
-          "title": "Exercise Physiologist",
-          "url": "https://www.linkedin.com/jobs/view/4456473137",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l444",
-      "text": "Exercise Physiologist — UnitingCare Queensland (Fraser Coast, Queensland, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "UnitingCare Queensland",
-          "title": "Exercise Physiologist",
-          "url": "https://www.linkedin.com/jobs/view/4456556067",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l445",
-      "text": "Exercise Physiologist - Sporting Wheelies — Spinal Life Australia (Milton, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Spinal Life Australia",
-          "title": "Exercise Physiologist - Sporting Wheelies",
-          "url": "https://www.linkedin.com/jobs/view/4453904087",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l446",
-      "text": "Exercise Physiologist | Nowra — Optimum Health Solutions (Nowra, New South Wales, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Optimum Health Solutions",
-          "title": "Exercise Physiologist | Nowra",
-          "url": "https://www.linkedin.com/jobs/view/4448105904",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l447",
-      "text": "Exercise Physiologist — UnitingCare Queensland (Maryborough, Queensland, Australia). Posted 15 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "UnitingCare Queensland",
-          "title": "Exercise Physiologist",
-          "url": "https://www.linkedin.com/jobs/view/4456551069",
-          "date": "15 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l448",
-      "text": "Senior Exercise Physiologist — MoveImprove Performance (Killara, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "MoveImprove Performance",
-          "title": "Senior Exercise Physiologist",
-          "url": "https://www.linkedin.com/jobs/view/4453980727",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l449",
-      "text": "Exercise Physiologist — Kieser Australia (Maroochydore, Queensland, Australia). Posted 6 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Kieser Australia",
-          "title": "Exercise Physiologist",
-          "url": "https://www.linkedin.com/jobs/view/4455499297",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l450",
-      "text": "Clinical Exercise Physiologist — South West Health Management (Campbelltown, New South Wales, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "South West Health Management",
-          "title": "Clinical Exercise Physiologist",
-          "url": "https://www.linkedin.com/jobs/view/4439140127",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l451",
-      "text": "Exercise Physiologist | Batemans Bay — Optimum Health Solutions (Batemans Bay, New South Wales, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Optimum Health Solutions",
-          "title": "Exercise Physiologist | Batemans Bay",
-          "url": "https://www.linkedin.com/jobs/view/4448114734",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l552",
-      "text": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarcus (15 Jul): *\"We talk a lot about dietitians but there's no mention of the exercise physiologists anywhere. Is that deliberate?\"*\n\n## Answer (verified) — half-deliberate, now fixed\n- **No standalone EP page is correct** — Ahrefs AU shows no bariatric/weight-loss EP search demand (`exerci\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](…",
+      "id": "l543",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "github",
-          "title": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarc…",
-          "url": "https://github.com/amirariff91/marcuscaporaso/pull/11",
-          "date": "2026-07-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra…",
+          "url": "https://www.reddit.com/r/HFY/comments/1vwpkvz/the_human_artificial_hivemind_part_641_a_new_set/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "Some of the anti-AI backlash in education is probably coming from people who financially benefit from keeping education expensive\nI think there is an uncomfortable financial incentive behind at least some of the hostility toward AI in higher education that nobody really wants to talk about. The American higher-education system is built around scarcity. You need admission to the right institution. You need professors, classrooms, administrative departments, textbooks, accreditation, four years of…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Some of the anti-AI backlash in education is probably coming from people who fin…",
+          "url": "https://www.reddit.com/r/TrueUnpopularOpinion/comments/1vvlqpe/some_of_the_antiai_backlash_in_education_is/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for AI agents making thousands of tiny payments a day.\n\n@samrags_ of @merit_systems explains why stablecoins could be the rail the agent economy runs on. https://t.co/P1o2CMuaNu",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for …",
+          "url": "https://x.com/a16zcrypto/status/2092335249195970753",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "The habits of AI writing, and what to do about them",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The habits of AI writing, and what to do about them",
+          "url": "https://x.com/a16zcrypto/status/2091934263302402318",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "Beyond slop, taste, and AI moral panic: What social science tells us",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Beyond slop, taste, and AI moral panic: What social science tells us",
+          "url": "https://x.com/a16zcrypto/status/2092678605998624834",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "Trying to avoid AI slop in your copywriting?\n\nUse this, and read @stephbzinn's piece: https://t.co/UFOIAasdbF",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Trying to avoid AI slop in your copywriting?\n\nUse this, and read @stephbzinn's p…",
+          "url": "https://x.com/a16zcrypto/status/2092998851171061764",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1065,16 +1119,16 @@
     },
     {
       "id": "l553",
-      "text": "Some of the anti-AI backlash in education is probably coming from people who financially benefit from keeping education expensive\nI think there is an uncomfortable financial incentive behind at least some of the hostility toward AI in higher education that nobody really wants to talk about. The American higher-education system is built around scarcity. You need admission to the right institution. You need professors, classrooms, administrative departments, textbooks, accreditation, four years of…",
+      "text": "Building the most AI-enabled creative agency on the planet",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Some of the anti-AI backlash in education is probably coming from people who fin…",
-          "url": "https://www.reddit.com/r/TrueUnpopularOpinion/comments/1vvlqpe/some_of_the_antiai_backlash_in_education_is/",
-          "date": "2026-08-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "Building the most AI-enabled creative agency on the planet",
+          "url": "https://x.com/richhomiecon/status/2090557768550007198",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1086,16 +1140,16 @@
     },
     {
       "id": "l554",
-      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa…",
+      "text": "ENEMY AT THE GATES: Aiko’s Journey Across the AI Threshold [Part 4]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra…",
-          "url": "https://www.reddit.com/r/HFY/comments/1vwpkvz/the_human_artificial_hivemind_part_641_a_new_set/",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "ENEMY AT THE GATES: Aiko’s Journey Across the AI Threshold [Part 4]",
+          "url": "https://x.com/SkillsGapTrain/status/2093838893166862578",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1107,16 +1161,16 @@
     },
     {
       "id": "l555",
-      "text": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Should Be Commonly Owned and Controlled — and How Such Cooperation Could Be Organized Artificial intelligence may become one of humanity’s most important productive, scientific, political, and administrative capacities. If that is the case, the central question is not only what AI will be able to do, but who will own it, who will control its development and use, and who will benefit from the value it creates. There are…",
+      "text": "Why Alignment Is Inevitable as AI Becomes More Intelligent",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Sh…",
-          "url": "https://www.reddit.com/r/LeftistsForAI/comments/1vcmh7k/the_case_for_common_ownership_and_international/",
-          "date": "2026-08-01",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "Why Alignment Is Inevitable as AI Becomes More Intelligent",
+          "url": "https://x.com/jlist21/status/2090996958114582728",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1128,6 +1182,132 @@
     },
     {
       "id": "l556",
+      "text": "AI Did Not Invent Computer-Assisted Thinking. It Is the Next Step.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI Did Not Invent Computer-Assisted Thinking. It Is the Next Step.",
+          "url": "https://x.com/StarTrekLink/status/2090591646475768200",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
+          "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in the Room",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
+          "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "I turned this into a de-slop skill using\n@promptcowboy\n\nCopy the skill file below yeee haaa 🤠\n\n---\nname: de-slop\ndescription: Edits and rewrites prose so it does its job — clear, trustworthy, and recognizably driven by a person. Removes meaningless language, fungible vocabulary, imposed structure, and punctuation monotony without flattening voice or banning marks. Use when asked to edit, rewrite, tighten, de-AI, humanize, or improve writing, or when asked why something \"sounds like AI.\" Works id",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I turned this into a de-slop skill using\n@promptcowboy\n\nCopy the skill file belo…",
+          "url": "https://x.com/promptcowboy/status/2092153120998715672",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "Immunologists, neuro-immuno psychiatrists, exercise physiologists who’ve turned to these thorny problems have been producing amazing science. It’s nowhere in this article. Instead, this article’s approach to severe Long Covid or ME/CFS is like recommending rest and calm for TB and blaming it on sensitive intelligence, and blaming ulcers on being type A, etc. It’s what medicine did before they understood as a coping mechanism.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Immunologists, neuro-immuno psychiatrists, exercise physiologists who’ve turned …",
+          "url": "https://x.com/zeynep/status/2061793814742769674",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "I can't believe this Karen actually did this at the gym\nA karen at lifetime fitness follows me around accused me of lying about a class then threatens to call the police.\n\nPracticing social awareness is essential when navigating public spaces. Here is why staying alert keeps you safe.\n\nPeople are intentionally bothering others in public settings, and practicing social awareness is critical to staying safe. Whether you are at a gym like Lifetime Fitness or running errands, maintaining your person…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "I can't believe this Karen actually did this at the gym\nA karen at lifetime fitn…",
+          "url": "https://www.youtube.com/watch?v=X0UIy1jAzWY",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
       "text": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Prep\nPrepare smarter with https://quizzprep.com/ — get the latest practice quizzes, exam prep packages, and quick-review cheat sheets to help you study faster and pass with confidence.\n. Achieving the ACSM Certified Exercise Physiologist (ACSM-EP) credential in 2026 marks you as a leader in the science of health and fitness. This comprehensive walkthrough is designed to prepare you for the current certification exam, c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1137,7 +1317,112 @@
           "title": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Pr…",
           "url": "https://www.youtube.com/watch?v=6o3kWOEkrJ4",
           "date": "2026-03-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarcus (15 Jul): *\"We talk a lot about dietitians but there's no mention of the exercise physiologists anywhere. Is that deliberate?\"*\n\n## Answer (verified) — half-deliberate, now fixed\n- **No standalone EP page is correct** — Ahrefs AU shows no bariatric/weight-loss EP search demand (`exerci\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarc…",
+          "url": "https://github.com/amirariff91/marcuscaporaso/pull/11",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "Some of the anti-AI backlash in education is probably coming from people who financially benefit from keeping education expensive\nI think there is an uncomfortable financial incentive behind at least some of the hostility toward AI in higher education that nobody really wants to talk about. The American higher-education system is built around scarcity. You need admission to the right institution. You need professors, classrooms, administrative departments, textbooks, accreditation, four years of…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Some of the anti-AI backlash in education is probably coming from people who fin…",
+          "url": "https://www.reddit.com/r/TrueUnpopularOpinion/comments/1vvlqpe/some_of_the_antiai_backlash_in_education_is/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra…",
+          "url": "https://www.reddit.com/r/HFY/comments/1vwpkvz/the_human_artificial_hivemind_part_641_a_new_set/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Should Be Commonly Owned and Controlled — and How Such Cooperation Could Be Organized Artificial intelligence may become one of humanity’s most important productive, scientific, political, and administrative capacities. If that is the case, the central question is not only what AI will be able to do, but who will own it, who will control its development and use, and who will benefit from the value it creates. There are…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Sh…",
+          "url": "https://www.reddit.com/r/LeftistsForAI/comments/1vcmh7k/the_case_for_common_ownership_and_international/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Prep\nPrepare smarter with https://quizzprep.com/ — get the latest practice quizzes, exam prep packages, and quick-review cheat sheets to help you study faster and pass with confidence.\n. Achieving the ACSM Certified Exercise Physiologist (ACSM-EP) credential in 2026 marks you as a leader in the science of health and fitness. This comprehensive walkthrough is designed to prepare you for the current certification exam, c…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Pr…",
+          "url": "https://www.youtube.com/watch?v=6o3kWOEkrJ4",
+          "date": "2026-03-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1148,45 +1433,41 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
-  "jobAds": {
-    "source": "adzuna-au",
-    "query": "exercise physiologists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
-  },
   "corpus": {
-    "platforms": [
+    "retrieved": "2026-08-30",
+    "searchesReturningNothing": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Exercise Physiologists Association discourse",
-        "items": 45
-      }
-    ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
-    "linkedin": [
-      {
-        "status": "sampled",
-        "query": "Exercise Physiologists",
-        "location": "Australia",
-        "returned": 9,
-        "source": "linkedin (unofficial scrape)",
-        "_raw": "data/professions/29-1128/raw/linkedin_l4.json"
+        "lane": "L3",
+        "source": "factiva-au",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired; logged to backlog by orchestrator",
+        "date": "2026-08-30"
       },
       {
-        "date": "2026-08-29",
+        "lane": "L5",
+        "source": "grounding",
+        "status": "unreachable",
+        "detail": "Keyless web search unavailable (last30days doctor) this run",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L5",
+        "source": "jobs",
+        "status": "unreachable",
+        "detail": "URL Error: nodename nor servname provided (DNS) this run",
+        "date": "2026-08-30"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "last30days",
+        "scope": "reddit, x, youtube, hackernews, github (jobs & grounding unreachable this run; TikTok/Instagram not available via last30days)",
+        "items": 41
+      }
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-30",
         "soc": "29-1128",
         "query": "Exercise Physiologists",
         "location": "Australia",
@@ -1197,21 +1478,21 @@
     ],
     "l5Sample": [
       {
-        "date": "2026-08-29",
-        "added": 40,
+        "date": "2026-08-30",
+        "added": 41,
         "sources": {
           "github": 1,
           "grounding": 0,
           "hackernews": 24,
           "jobs": 0,
-          "reddit": 3,
-          "x": 11,
-          "youtube": 1
+          "reddit": 2,
+          "x": 12,
+          "youtube": 2
         },
         "status": "sampled"
       },
       {
-        "date": "2026-08-29",
+        "date": "2026-08-30",
         "added": 5,
         "sources": {
           "github": 1,
@@ -1224,8 +1505,57 @@
         },
         "status": "sampled"
       }
-    ]
+    ],
+    "factiva": []
   },
-  "confidence": "high",
-  "caveats": []
+  "jobAds": {
+    "seek": {
+      "source": "seek-au-web-search",
+      "observed": "2026-08-30",
+      "note": "Seek Exercise Physiologist board shows active AU listings; a full-time Exercise Physiology results page reported ~423 live jobs (live snapshot, not a stable count). Named employers observed this session: Back In Motion, Club Active, Healthia, BlueCare, The Hills Private Hospital, Exercise For Life, Kieser. Seek scraping is not automated in this pipeline; treat as indicative demand signal, not a quantitative time series.",
+      "topEmployersObserved": [
+        "Back In Motion",
+        "Club Active",
+        "Healthia",
+        "BlueCare",
+        "The Hills Private Hospital",
+        "Exercise For Life",
+        "Kieser"
+      ],
+      "status": "qualitative-note"
+    },
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "exercise physiologist",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+      "count": 817,
+      "returned": 50,
+      "topEmployers": [
+        "Kieser Therapy Pty Ltd",
+        "healthmarq",
+        "Physical Prosperity",
+        "Kieser Therapy Pty",
+        "Rural Northwest Health",
+        "PhysioCoach",
+        "Embrace Exercise Physiology",
+        "Sonic HealthPlus"
+      ],
+      "topSkills": [
+        "rehabilitation",
+        "exercise physiology",
+        "NDIS",
+        "chronic disease"
+      ]
+    }
+  },
+  "caveats": [
+    "Stored anzsco '220000' is a placeholder. Verified real ANZSCO for Exercise Physiologists is 234915 (Skill Level 1; VETASSESS assessing authority) per Jobs and Skills Australia and VETASSESS. Update ledger.anzsco and re-verify against ABS ANZSCO.",
+    "Factiva was auth-expired this run (OpenAthens session expired); L3 trade-press lane was sourced from web trade/professional-body outlets (ABC News, GorillaJobs, Victoria University, Tasmanian Times) instead of Factiva.",
+    "L5 practitioner-discourse gaps this run: last30days sources 'grounding' and 'jobs' were unreachable (DNS/keyless). github returned no results. TikTok and Instagram are not available via last30days (has_scrapecreators:false) - practitioner discourse excludes those platforms.",
+    "L5 sample (41 items) is self-selected practitioner discourse across reddit/x/youtube/hackernews/github; it is not a representative survey of the occupation.",
+    "Employment counts differ by taxonomy: JSA ANZSCO 234915 profile (ABS 2021 Census) reports 5,100 employed; JSA OSCA 262231 profile (mid-2026) reports 4,600. Both retained; OSCA supersedes ANZSCO going forward.",
+    "Exercise physiologists are self-regulated via ESSA (not AHPRA/NRAS); NDIS access for exercise physiology was under federal review at time of research (ABC Nov 2025) - funding access not guaranteed."
+  ],
+  "researchMethod": "empirical-five-lane-v1",
+  "confidence": "high"
 }

@@ -1,6 +1,7 @@
 {
   "onet_soc_code": "29-1127",
   "title": "Speech-Language Pathologists",
+  "anzsco": "252712",
   "aliases": [
     "Bilingual Speech-Language Pathologist",
     "Clinical Lead & Senior Speech Pathologist",
@@ -9,19 +10,548 @@
     "Grade 1 Speech Pathologist",
     "NDIS Speech Pathologist"
   ],
-  "anzsco": "220000",
-  "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
-  },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
   "programs": [
     "mc-spchpth"
   ],
+  "window": {
+    "from": "2025-08-30",
+    "to": "2026-08-30"
+  },
   "claims": [
     {
-      "id": "l503",
+      "id": "l1-01",
+      "text": "Speech pathologists are self-regulated in Australia: Speech Pathology Australia (SPA) sets and monitors professional standards (including Certified Practising Speech Pathologist status) under the National Alliance of Self Regulating Health Professions (NASRHP), and are NOT registered under AHPRA's National Registration and Accreditation Scheme (NRAS) unlike physiotherapists, psychologists and 14 other professions.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Global Study Board (guide)",
+          "title": "Studying Speech Pathology in Australia and New Zealand",
+          "url": "https://www.globalstudyboard.com/guides/speech-pathology-degrees-in-australia-and-new-zealand",
+          "date": "2025",
+          "whatItMeasured": "Self-regulation status: SPA/NASRHP member, NOT AHPRA/NRAS-registered; CPSP voluntary credential"
+        }
+      ],
+      "scope": "Australia. Self-regulation, not statutory NRAS registration. Applies to SPA members, not a government register.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (SPA + NRAS profession list); measures this AU population; current."
+    },
+    {
+      "id": "l1-02",
+      "text": "ANZSCO 252712 classifies Speech Pathologists; the JSA profile records 11,000 employed (2021 Census, place of usual residence), 97% female, median age 33, 44% part-time, and states registration with Speech Pathology Australia is required for the occupation.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / ABS 2021 Census",
+          "title": "Speech Pathologists (ANZSCO 252712) occupation profile",
+          "url": "https://jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations/252712-speech-pathologists",
+          "date": "2021",
+          "whatItMeasured": "Employment count, gender/age/part-time share, registration requirement for ANZSCO 252712"
+        }
+      ],
+      "scope": "Australia, 2021 Census basis. ANZSCO-based pages will not be updated (OSCA profiles due mid-2026).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (JSA/ABS); measures AU population; census-window."
+    },
+    {
+      "id": "l1-03",
+      "text": "The 2025 Independent Review of the NRAS proposed a three-pathway regulatory model; the 12 September 2025 Health Ministers' Meeting communique deferred a decision on speech pathology's pathway and agreed to regulate audiology under NRAS (following the August 2024 decision), leaving speech pathology under self-regulation pending further risk assessment.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Banter Speech (practitioner commentary)",
+          "title": "Speech pathology regulation in Australia: progress, but more work to be done",
+          "url": "https://www.banterspeech.com.au/speech-pathology-regulation-in-australia-progress-but-more-work-to-be-done/",
+          "date": "2025",
+          "whatItMeasured": "Independent Review proposed three-pathway regulatory model; 'Professions Registration' proposal (SPA within NRAS); speech pathology not NRAS-registered"
+        }
+      ],
+      "scope": "Australia, policy as of Sep 2025. Deferred decision, not settled regulation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (SPA advocacy page citing communique); policy-window."
+    },
+    {
+      "id": "l1-04",
+      "text": "SPA's Certified Practising Speech Pathologist (CPSP) status is voluntary and requires compliance with SPA's Code of Ethics, Professional Standards and Scope of Practice; it is the recognised quality mark rather than a statutory register, and SPA accredits Australian programs of study for CPSP.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Global Study Board (guide)",
+          "title": "Studying Speech Pathology in Australia and New Zealand",
+          "url": "https://www.globalstudyboard.com/guides/speech-pathology-degrees-in-australia-and-new-zealand",
+          "date": "2025",
+          "whatItMeasured": "CPSP is voluntary in law but widely expected by employers/funders (NDIS/Medicare); SPA sets/monitors standards"
+        }
+      ],
+      "scope": "Australia; voluntary credential, not mandatory registration.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (SPA); measures AU profession."
+    },
+    {
+      "id": "l2-01",
+      "text": "Jobs and Skills Australia / ABS 2021 Census records 11,000 speech pathologists employed; 97% female; median age 33; 44% part-time; 64.3% hold a bachelor degree and 33.9% a postgraduate qualification.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / ABS 2021 Census",
+          "title": "Speech Pathologists employment and education profile",
+          "url": "https://jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations/252712-speech-pathologists",
+          "date": "2021",
+          "whatItMeasured": "Employment size 11,000 + education attainment distribution (AU, census)"
+        }
+      ],
+      "scope": "Australia, 2021 Census. Size estimate, not growth projection.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (JSA/ABS); AU population; census-window."
+    },
+    {
+      "id": "l2-02",
+      "text": "Peer-reviewed scoping work (2026) finds AI in speech-language pathology transitioning from emerging tech to clinical tool, with applications in automated detection/classification, speech recognition, ML-based assessment and technology-supported intervention; emphasis shifting to person-centred, personalised use.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "International Journal of Speech-Language Pathology (Tandfonline)",
+          "title": "Advancing Artificial Intelligence (AI) in the field of speech-language pathology",
+          "url": "https://tandfonline.com/doi/full/10.1080/17489539.2026.2688952",
+          "date": "2026",
+          "whatItMeasured": "Scoping review of AI SLP applications (largely paediatric/international literature)"
+        }
+      ],
+      "scope": "International (largely US/pediatric) literature; not an AU-specific effect size.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (peer-reviewed); international population, flag US-application."
+    },
+    {
+      "id": "l2-03",
+      "text": "A systematic review (PMC, 2025-2026) on explainable AI for clinical voice and speech analysis covers neurodegenerative and mental-health diagnosis, dysarthria and aphasia; it notes the interpretability-accuracy trade-off and the need for transparent models before clinical use.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "PMC / systematic review",
+          "title": "Explainable and Interpretable AI for Voice and Speech Analysis in Clinical Care: Systematic Review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13293602",
+          "date": "2025",
+          "whatItMeasured": "Systematic review of XAI methods for clinical speech analysis (international research)"
+        }
+      ],
+      "scope": "International research literature; method/ethics, not AU workforce effect.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (peer-reviewed); international, flag."
+    },
+    {
+      "id": "l2-04",
+      "text": "Healthcare Australia's 2026 Salary Guide reports speech pathologists in shortage in every Australian state and territory, with regional/rural areas most acute; graduate base ~$85,000 rising to ~$115,000 for senior clinicians.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Healthcare Australia (HCA) 2026 Salary Guide",
+          "title": "Speech Pathology Employment Trends 2026",
+          "url": "https://healthcareaustralia.com.au/news/speech-pathology-employment-trends-2026/",
+          "date": "2026",
+          "whatItMeasured": "Industry salary/shortage survey for speech pathologists by state (AU)"
+        }
+      ],
+      "scope": "Industry salary guide (commercial), not a government employment count; directional.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (HCA industry guide); AU, commercial not official stat."
+    },
+    {
+      "id": "l2-05",
+      "text": "ANZSCO advisory sources (2026) describe 'very high demand' for speech pathologists across hospital, school and NDIS sectors and note the 2025 Occupation Shortage List identifies speech pathologists in shortage in all states and territories.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "ANZSCO.com.au occupation advisory",
+          "title": "252712 Speech Pathologist / Speech Language Therapist",
+          "url": "https://anzsco.com.au/anzsco/252712-speech-pathologist-speech-language-therapist",
+          "date": "2026-04-26",
+          "whatItMeasured": "ANZSCO 252712 demand/shortage advisory (commercial migration advisory)"
+        }
+      ],
+      "scope": "Migration/ANZSCO advisory (commercial); corroborates but not primary stat.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (ANZSCO advisory); commercial, corroborative."
+    },
+    {
+      "id": "l3-01",
+      "text": "Speech Pathology Australia published a Position Statement 'Artificial Intelligence in Speech Pathology: Ethical Considerations' (May 2024), the profession's primary ethical guidance on AI use in practice.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Speech Pathology Australia",
+          "title": "Position Statement: Artificial Intelligence in Speech Pathology: Ethical Considerations (resource 935)",
+          "url": "https://speechpathologyaustralia.org.au/resource?resource=935",
+          "date": "2024-05",
+          "whatItMeasured": "SPA AI position statement (profession's ethical guidance)"
+        }
+      ],
+      "scope": "Australia, profession-level guidance (dated 2024).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (SPA resource); AU profession."
+    },
+    {
+      "id": "l3-02",
+      "text": "The NDIS Quality and Safeguards Commission issued an AI transparency statement in February 2026; allied health providers using generative AI for assessment reports or funding letters must avoid presenting AI-generated text as the clinician's unreviewed opinion, which risks misleading conduct under the NDIS Code of Conduct.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Assistive Tech Australia (reporting NDIS Commission)",
+          "title": "AI in Clinical Practice: What NDIS Allied Health Providers Need to Know",
+          "url": "https://www.assistivetech.com.au/blogs/news/ai-in-clinical-practice-ndis-providers",
+          "date": "2026-02",
+          "whatItMeasured": "NDIS Commission Feb 2026 AI transparency statement + NDIS Code of Conduct implications for AI documentation"
+        }
+      ],
+      "scope": "NDIS-funded speech pathology; secondary report of a regulator statement.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (trade outlet citing Commission); secondary, flag."
+    },
+    {
+      "id": "l3-03",
+      "text": "Trade press (Canberra Times, 2026) reports Australia's allied health boom was built on NDIS funding; average early intervention packages fell from ~$50,000-60,000 (2024) to $10,000-20,000 (mid-2025), compressing the market for speech pathologists, OTs and psychologists delivering NDIS services, even as speech pathology is projected to grow ~35% over five years from a compressed base.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Canberra Times",
+          "title": "Australia's Allied Health boom was built on NDIS funding. The bill just came due.",
+          "url": "https://canberratimes.com.au/story/9239041/australias-allied-health-boom-was-built-on-ndis-funding-the-bill-just-came-due",
+          "date": "2026",
+          "whatItMeasured": "NDIS funding reduction impact on allied health demand (speech pathology exposure)"
+        }
+      ],
+      "scope": "NDIS-market exposure for AU speech pathology; trade press, single outlet.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (Canberra Times); trade press, single source."
+    },
+    {
+      "id": "l3-04",
+      "text": "Practitioner-facing coverage (2026) documents AI scribes and LLMs used by speech pathologists for session notes, language-sample metric scoring, IEP goal language and therapy materials, with guardrails that AI must not make diagnostic or eligibility decisions and that patient-identifying information must not be entered into public AI prompts.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Luma Speech / ConductScience (practitioner coverage)",
+          "title": "AI for SLPs: Documentation, Note Taking, and Practice Tools",
+          "url": "https://lumaspeech.com/blog/ai-for-slps-documentation-notetaking-practice",
+          "date": "2026-04-12",
+          "whatItMeasured": "Documented AI tool adoption patterns + guardrails in SLP workflow"
+        }
+      ],
+      "scope": "Tool adoption (trade/practitioner); US/ANZ mixed, not AU-specific stat.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (practitioner blog); adoption, flag non-AU."
+    },
+    {
+      "id": "l3-05",
+      "text": "AHPRA has issued cross-profession statements on AI that apply to every Ahpra-registered allied health professional; speech pathologists (unregistered) are instead governed by SPA's Code of Ethics and the NDIS Code of Conduct for AI use, a governance gap between registered and unregistered allied health.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Assistive Tech Australia",
+          "title": "AI in Clinical Practice: What NDIS Allied Health Providers Need to Know",
+          "url": "https://www.assistivetech.com.au/blogs/news/ai-in-clinical-practice-ndis-providers",
+          "date": "2026",
+          "whatItMeasured": "AHPRA cross-profession AI statements vs SPA/NDIS governance for unregistered speech pathologists"
+        }
+      ],
+      "scope": "Governance overlap; secondary report.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (trade outlet citing AHPRA); secondary, flag."
+    },
+    {
+      "id": "l415",
+      "text": "Speech Pathologist — Ability Action Australia (Belconnen, Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ability Action Australia",
+          "title": "Speech Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4450871333",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l416",
+      "text": "Speech Pathologist — Ability Action Australia (Wollongong, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ability Action Australia",
+          "title": "Speech Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4457048987",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l417",
+      "text": "Speech Pathologist | New Graduates and Experienced Clinicians Welcome — Connect2Care (Brisbane, Queensland, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Connect2Care",
+          "title": "Speech Pathologist | New Graduates and Experienced Clinicians Welcome",
+          "url": "https://www.linkedin.com/jobs/view/4447691021",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l418",
+      "text": "Senior Speech Pathologist — Look Who's Talking (Birkdale, Queensland, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Look Who's Talking",
+          "title": "Senior Speech Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4445407027",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l419",
+      "text": "Speech Pathologist | New Graduates and Experienced Clinicians Welcome — Connect2Care (Brisbane City, Queensland, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Connect2Care",
+          "title": "Speech Pathologist | New Graduates and Experienced Clinicians Welcome",
+          "url": "https://www.linkedin.com/jobs/view/4427464055",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l420",
+      "text": "Senior Speech Pathologist — Early Start Australia (Coomera, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Early Start Australia",
+          "title": "Senior Speech Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4348275104",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l421",
+      "text": "Speech Pathologist — Better Rehab (Macquarie Park, New South Wales, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Better Rehab",
+          "title": "Speech Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4459109716",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l422",
+      "text": "Paediatric Speech Pathologist — AIM Therapy for Children (Joondalup, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "AIM Therapy for Children",
+          "title": "Paediatric Speech Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4445669060",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l423",
+      "text": "Speech Pathologist — Brilliant Life Services (Greater Sydney Area). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Brilliant Life Services",
+          "title": "Speech Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4456545000",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l424",
+      "text": "Senior Speech Pathologist — Concentric (Revesby Heights, New South Wales, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Concentric",
+          "title": "Senior Speech Pathologist",
+          "url": "https://www.linkedin.com/jobs/view/4459624804",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l525",
       "text": "Add a full standalone For Clinicians page\n## Summary\nFourth of the five nav sections converted from a homepage anchor into a real page (Research, Science, and For Families already merged).\n\nWritten for a speech-language pathologist or clinic deciding whether and how to fit this alongside existing care:\n\n- How live remote monitoring works fo\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settings/us…",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -31,469 +561,7 @@
           "title": "Add a full standalone For Clinicians page\n## Summary\nFourth of the five nav sect…",
           "url": "https://github.com/kaleidoscopeAI/goeckoh-site/pull/51",
           "date": "2026-07-30",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l504",
-      "text": "Collections Agent platform: voice bot, KB RAG, Prompt Studio, billing & sandbox tuning\n## Summary\r\nEnd-to-end BFSI Collections Agent platform across three surfaces — frontend (`Habibi/`, TanStack), backend (FastAPI + Postgres 16/pgvector), and a **Pipecat 1.0** voice bot. This bundles the full body of work to date so it can be reviewed as one unit.\r\n\r\n## Backend\r\n- **Voice bot** (`bac\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Rev…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "github",
-          "title": "Collections Agent platform: voice bot, KB RAG, Prompt Studio, billing & sandbox …",
-          "url": "https://github.com/susanthp18/Habibi/pull/3",
-          "date": "2026-07-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l505",
-      "text": "Grace Flare Pro — SLP services + parent home-program product (MVP)\n## What this is\n\nA new, separately-monetized professional product surface for speech-language pathologists — inspired by the \"Claude for Teachers\" launch — living in the same repo/Supabase project as a distinct branded area, plus a public no-account parent view.\n\n**Status: WIP.** Phase A (backend) i\n[vc]: #/zPIIgJMWhkazsSAA2z4XSDvVdDMGaSKf82/LSH1DH4=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJncmFj…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "github",
-          "title": "Grace Flare Pro — SLP services + parent home-program product (MVP)\n## What this …",
-          "url": "https://github.com/MJACode/bright-baby-steps/pull/177",
-          "date": "2026-07-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l506",
-      "text": "New project submission: TheraGraf\nName: TheraGraf\n           Website: www.theragraf.com\n           Repository: https://github.com/cadebryant/theragraf\n           Category: Therapy, OT, PT, SLT, Psychotherapy, HIPAA, Clinicians\n           Description: Theragraf is an open-source AI-powered clinical documentation assistant that helps\nThank you for taking the time to consider my new project!  What is the next step for me?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "github",
-          "title": "New project submission: TheraGraf\nName: TheraGraf\n           Website: www.therag…",
-          "url": "https://github.com/Meaningful-Code/meaningfulcode-frontend/issues/146",
-          "date": "2026-07-05",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l507",
-      "text": "Add Project: Cognitive Care Assistant by Corbin and Connor Craig\n### Your Full Name\n\nCorbin Craig and Connor Craig\n\n### App Name\n\nCognitive Care Assistant\n\n### One-Sentence Description\n\nCognitive Care Assistant is an AI-powered platform that monitors cognitive, behavioral, and physiological patterns to help caregivers track and support individuals with dementia.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "github",
-          "title": "Add Project: Cognitive Care Assistant by Corbin and Connor Craig\n### Your Full N…",
-          "url": "https://github.com/hackclub/Congressional-Showcase/issues/25",
-          "date": "2026-04-05",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l508",
-      "text": "Tell HN: Man, AI is killing my brain",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Tell HN: Man, AI is killing my brain",
-          "url": "https://news.ycombinator.com/item?id=49468252",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l509",
-      "text": "What breaks in production AI workflows?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "What breaks in production AI workflows?",
-          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l510",
-      "text": "Putting Sign Language AI into Users Hands",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Putting Sign Language AI into Users Hands",
-          "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-          "date": "2026-08-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l511",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l512",
-      "text": "How al-Qaida and IS are adopting AI",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "How al-Qaida and IS are adopting AI",
-          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l513",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-          "url": "https://isaidumber.today/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l514",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-          "url": "https://news.ycombinator.com/item?id=48672619",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l515",
-      "text": "What happens when you put AI to work deciphering lost languages?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "What happens when you put AI to work deciphering lost languages?",
-          "url": "https://theconversation.com/cracking-the-code-can-ai-help-us-decipher-ancient-languages-288238",
-          "date": "2026-07-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l516",
-      "text": "The death of AI workflow builders",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "The death of AI workflow builders",
-          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l517",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-          "url": "https://www.contextvault.dev/",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l518",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-          "url": "https://argonix.io/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l519",
-      "text": "What is agentic AI today, and what do we want it to be?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "What is agentic AI today, and what do we want it to be?",
-          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-          "date": "2026-07-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l520",
-      "text": "My AI-Assisted Workflow",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "My AI-Assisted Workflow",
-          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
-          "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l521",
-      "text": "Show HN: Jo – AI-native language to catch prompt injection at compile-time",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Jo – AI-native language to catch prompt injection at compile-time",
-          "url": "https://github.com/typescope/jo",
-          "date": "2026-06-05",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l522",
-      "text": "AI language models have favorite names, and we mapped them",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "AI language models have favorite names, and we mapped them",
-          "url": "https://arxiv.org/abs/2606.02184",
-          "date": "2026-06-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l523",
-      "text": "Show HN: Japanese Language AI Tutor in 3D classroom",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Japanese Language AI Tutor in 3D classroom",
-          "url": "https://unihongo.com",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l524",
-      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l525",
-      "text": "Study: Back-to-basics approach can match or outperform AI in language analysis",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Study: Back-to-basics approach can match or outperform AI in language analysis",
-          "url": "https://www.manchester.ac.uk/about/news/back-to-basics-approach-can-match-or-outperform-ai/",
-          "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -505,16 +573,16 @@
     },
     {
       "id": "l526",
-      "text": "AI workflows: an industry optimising the wrong variables",
+      "text": "Collections Agent platform: voice bot, KB RAG, Prompt Studio, billing & sandbox tuning\n## Summary\r\nEnd-to-end BFSI Collections Agent platform across three surfaces — frontend (`Habibi/`, TanStack), backend (FastAPI + Postgres 16/pgvector), and a **Pipecat 1.0** voice bot. This bundles the full body of work to date so it can be reviewed as one unit.\r\n\r\n## Backend\r\n- **Voice bot** (`bac\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Rev…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "AI workflows: an industry optimising the wrong variables",
-          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
-          "date": "2026-05-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "Collections Agent platform: voice bot, KB RAG, Prompt Studio, billing & sandbox …",
+          "url": "https://github.com/susanthp18/Habibi/pull/3",
+          "date": "2026-07-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -526,16 +594,16 @@
     },
     {
       "id": "l527",
-      "text": "Ask HK: How are you building AI apps today?",
+      "text": "Grace Flare Pro — SLP services + parent home-program product (MVP)\n## What this is\n\nA new, separately-monetized professional product surface for speech-language pathologists — inspired by the \"Claude for Teachers\" launch — living in the same repo/Supabase project as a distinct branded area, plus a public no-account parent view.\n\n**Status: WIP.** Phase A (backend) i\n[vc]: #/zPIIgJMWhkazsSAA2z4XSDvVdDMGaSKf82/LSH1DH4=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJncmFj…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Ask HK: How are you building AI apps today?",
-          "url": "https://news.ycombinator.com/item?id=48323554",
-          "date": "2026-05-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "Grace Flare Pro — SLP services + parent home-program product (MVP)\n## What this …",
+          "url": "https://github.com/MJACode/bright-baby-steps/pull/177",
+          "date": "2026-07-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -547,16 +615,16 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "New project submission: TheraGraf\nName: TheraGraf\n           Website: www.theragraf.com\n           Repository: https://github.com/cadebryant/theragraf\n           Category: Therapy, OT, PT, SLT, Psychotherapy, HIPAA, Clinicians\n           Description: Theragraf is an open-source AI-powered clinical documentation assistant that helps\nThank you for taking the time to consider my new project!  What is the next step for me?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
-          "url": "https://blocks.ai",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "New project submission: TheraGraf\nName: TheraGraf\n           Website: www.therag…",
+          "url": "https://github.com/Meaningful-Code/meaningfulcode-frontend/issues/146",
+          "date": "2026-07-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -568,16 +636,16 @@
     },
     {
       "id": "l529",
-      "text": "The Problem with AI Today",
+      "text": "Add Project: Cognitive Care Assistant by Corbin and Connor Craig\n### Your Full Name\n\nCorbin Craig and Connor Craig\n\n### App Name\n\nCognitive Care Assistant\n\n### One-Sentence Description\n\nCognitive Care Assistant is an AI-powered platform that monitors cognitive, behavioral, and physiological patterns to help caregivers track and support individuals with dementia.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "The Problem with AI Today",
-          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
-          "date": "2026-05-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "Add Project: Cognitive Care Assistant by Corbin and Connor Craig\n### Your Full N…",
+          "url": "https://github.com/hackclub/Congressional-Showcase/issues/25",
+          "date": "2026-04-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -589,16 +657,16 @@
     },
     {
       "id": "l530",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-          "url": "https://github.com/kontext-dev/kontext-cli",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -610,16 +678,16 @@
     },
     {
       "id": "l531",
-      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
-          "url": "https://theincidentchallenge.com/",
-          "date": "2026-05-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -631,16 +699,16 @@
     },
     {
       "id": "l532",
-      "text": "Speech Language Pathologist Expert at AfterQuery - AI Training Job\nhttps://ift.tt/lRZhwyQ &#32; submitted by &#32; /u/move2usajobs-com &#32; to &#32; r/trainAIjobs [link] &#32; [comments]",
+      "text": "Putting Sign Language AI into Users Hands",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Speech Language Pathologist Expert at AfterQuery - AI Training Job\nhttps://ift.t…",
-          "url": "https://www.reddit.com/r/trainAIjobs/comments/1vzr1y4/speech_language_pathologist_expert_at_afterquery/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Putting Sign Language AI into Users Hands",
+          "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -652,16 +720,16 @@
     },
     {
       "id": "l533",
-      "text": "Has anybody used Speech Blubs?\nI&#39;ve been seeing ads for Speech Blubs everywhere. I came across one ad in particular where they used an AI &quot;speech-language pathologist&quot; on a stage to say that late talkers do not catch up on their own and that parents should use Speech Blubs to help their child. All the ads I&#39;ve seen seem to encourage using the app to teach their children how to speak (opposed to actual human interaction) and felt like fearmongering for parents who might genuinel…",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Has anybody used Speech Blubs?\nI&#39;ve been seeing ads for Speech Blubs everywh…",
-          "url": "https://www.reddit.com/r/slp/comments/1votl16/has_anybody_used_speech_blubs/",
-          "date": "2026-08-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -673,16 +741,16 @@
     },
     {
       "id": "l534",
-      "text": "I asked AI to go through all the available evidence of afterlife and miracles. This is what it said\nExecutive Summary I treated this as an evidence-integration problem rather than a religion-versus-materialism argument, and searched specifically for prospective studies, primary papers, systematic reviews, adversarial replications, and the strongest anomalous cases available through August 10, 2026 . My conclusion is asymmetric: Science strongly establishes that ordinary human consciousness is ex…",
+      "text": "How al-Qaida and IS are adopting AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "I asked AI to go through all the available evidence of afterlife and miracles. T…",
-          "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1vkq6fd/i_asked_ai_to_go_through_all_the_available/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -694,16 +762,16 @@
     },
     {
       "id": "l535",
-      "text": "So, “What if consciousness is a form of AI, operating through language representing the spacetime itself?” ... \n\nIn our new essay we try to look at this conjecture from an interdisciplinary research perspective that explores three claims from three different fields, namely:\n\n1. Consciousness is computational / a form of AI -  an organization of information, not a privilege of biological tissue.\n\n2. Its operating medium is language (inner speech,  language of thought, token dynamics of language m",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "So, “What if consciousness is a form of AI, operating through language represent…",
-          "url": "https://x.com/virakandah/status/2093340012616077365",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -715,16 +783,16 @@
     },
     {
       "id": "l536",
-      "text": "Hugging Face Daily Papers - 2026-08-27\n33 papers worth scanning today: agents, video generation, native visual reasoning, RL/distillation, VLA robotics, retrieval, and scientific workflows.\n\n1. VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction — Conversational systems, such as duplex speech language models (SLMs), still lack a streaming, accurate, and empathetic memory system as their soul. https://t.co/NRb9JYvzS8\n2. VGI-Bench: Probing Visual Intelligence in Video Generation Models",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Hugging Face Daily Papers - 2026-08-27\n33 papers worth scanning today: agents, v…",
-          "url": "https://x.com/LianwenJ/status/2093119901389168642",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -736,16 +804,16 @@
     },
     {
       "id": "l537",
-      "text": "LingoAI: We’re Not Just Talking About the Future of AI. We’re Building It.",
+      "text": "What happens when you put AI to work deciphering lost languages?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "LingoAI: We’re Not Just Talking About the Future of AI. We’re Building It.",
-          "url": "https://x.com/Archibong22/status/2086863979985666337",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "What happens when you put AI to work deciphering lost languages?",
+          "url": "https://theconversation.com/cracking-the-code-can-ai-help-us-decipher-ancient-languages-288238",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -757,16 +825,16 @@
     },
     {
       "id": "l538",
-      "text": "Stanford’s Chris Agnew just spoke at Big Sky on early evidence for AI in K-12.\n\nProud to serve with him on the @95percentgroup Group Educational Literacy Council.\n\nIncredibly informative presentation!\n\n#ScienceOfReading #AIinEducation #BigSky https://t.co/QDSsadC3ng",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Stanford’s Chris Agnew just spoke at Big Sky on early evidence for AI in K-12.\n\n…",
-          "url": "https://x.com/Parents4RJ/status/2093356252206100938",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -778,16 +846,16 @@
     },
     {
       "id": "l539",
-      "text": "I BUILT $22K/MO AI AD SERVICE IN 90D",
+      "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "I BUILT $22K/MO AI AD SERVICE IN 90D",
-          "url": "https://x.com/biektive/status/2093290135156564030",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -799,16 +867,16 @@
     },
     {
       "id": "l540",
-      "text": "the key differentiator when using ever-evolving ai",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "the key differentiator when using ever-evolving ai",
-          "url": "https://x.com/Motion_Viz/status/2090057862060085423",
-          "date": "2026-08-19",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -820,16 +888,16 @@
     },
     {
       "id": "l541",
-      "text": "Grok from Beginner to Advanced: 12 steps, and 1 thing no other AI can do",
+      "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Grok from Beginner to Advanced: 12 steps, and 1 thing no other AI can do",
-          "url": "https://x.com/henrikhinai/status/2090423655670911237",
-          "date": "2026-08-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -841,16 +909,16 @@
     },
     {
       "id": "l542",
-      "text": "🔥 SLPs are the real MVPs at the IEP table.\n\n@DrElsa_CHagan. @TrinaDSpencer2. @nelliet11. Andrea Rowson. Karen Kimberlin. The list goes on and on — speech-language pathologists who show up to IEP meetings knowing more about a kid’s language, literacy, and learning than almost anyone else in the room.\n\nThey connect the dots between spoken language and written language. They speak up for kids who can’t yet speak up for themselves. And more often than not, they’re the ones helping parents actually u",
+      "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "🔥 SLPs are the real MVPs at the IEP table.\n\n@DrElsa_CHagan. @TrinaDSpencer2. @ne…",
-          "url": "https://x.com/Parents4RJ/status/2093348955681624159",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -862,16 +930,16 @@
     },
     {
       "id": "l543",
-      "text": "Another Daily AI Newsletter - August 21",
+      "text": "Show HN: Jo – AI-native language to catch prompt injection at compile-time",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Another Daily AI Newsletter - August 21",
-          "url": "https://x.com/AnotherCodingX/status/2090765195778183536",
-          "date": "2026-08-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Jo – AI-native language to catch prompt injection at compile-time",
+          "url": "https://github.com/typescope/jo",
+          "date": "2026-06-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -883,16 +951,16 @@
     },
     {
       "id": "l544",
-      "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+      "text": "AI language models have favorite names, and we mapped them",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
-          "url": "https://x.com/theneurondaily/status/2093302072145825969",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "AI language models have favorite names, and we mapped them",
+          "url": "https://arxiv.org/abs/2606.02184",
+          "date": "2026-06-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -904,16 +972,16 @@
     },
     {
       "id": "l545",
-      "text": "Quant AI in 2026: The Contest Has Moved From Models to Research Process",
+      "text": "Show HN: Japanese Language AI Tutor in 3D classroom",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Quant AI in 2026: The Contest Has Moved From Models to Research Process",
-          "url": "https://x.com/NOX_Ventures/status/2091814557719380274",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Japanese Language AI Tutor in 3D classroom",
+          "url": "https://unihongo.com",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -925,16 +993,16 @@
     },
     {
       "id": "l546",
-      "text": "I have an idea ...\nIf this is really so as the papers claim  and if indeed the mechanism of consciousness is actually based on analog traveling-wave field organization of a synaptic store, with cortex-wide unification of that wave field, then ... we can develop an AI model simulating this organisation, let it run and see if it develops a proxy consciousness at least. \n\nIn fact I did already run a toy simulation of a version of such architecture and even at this tiny scale the model is indeed sho",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "I have an idea ...\nIf this is really so as the papers claim  and if indeed the m…",
-          "url": "https://x.com/virakandah/status/2093391259318550553",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -946,16 +1014,16 @@
     },
     {
       "id": "l547",
-      "text": "Fascinating session at #BigSkyLiteracySummit with Ola Ozernov-Palchik of Boston University and MIT presenting “The Reading Brain in the Age of AI.” 🧠🤖 https://t.co/A5SSrE1ZIq",
+      "text": "AI workflows: an industry optimising the wrong variables",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Fascinating session at #BigSkyLiteracySummit with Ola Ozernov-Palchik of Boston …",
-          "url": "https://x.com/Parents4RJ/status/2093442124700135537",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -967,16 +1035,16 @@
     },
     {
       "id": "l548",
-      "text": "date: 2026-08-25 07:00:00+08:00\ndraft: false\noriginal_lang: zh\nsummary: 'Today''s main theme is AI moving from capability demonstration to engineering\n  acceptance. GPT-5.6 enters Kiro, strengthening the integrated process of planning,\n  building, reviewing, and testing; small models and local inference continue to drive\n  up cost re-evaluation. Meanwhile, research into long context efficiency, training\n  transfer, and security backdoors reminds the industry: after usability, trustworthiness\n  i",
+      "text": "Study: Back-to-basics approach can match or outperform AI in language analysis",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "date: 2026-08-25 07:00:00+08:00\ndraft: false\noriginal_lang: zh\nsummary: 'Today''…",
-          "url": "https://x.com/paramiao/status/2092037987983106403",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Study: Back-to-basics approach can match or outperform AI in language analysis",
+          "url": "https://www.manchester.ac.uk/about/news/back-to-basics-approach-can-match-or-outperform-ai/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -988,16 +1056,16 @@
     },
     {
       "id": "l549",
-      "text": "Despite the fact that @AnthropicAI follows virtually every step we are discussing \"behind the X curtain\" by implementing the results of those discussions into physical reality (and we have been wondering quite often recently - how is this possible with such a coincidence of subject and timing?), this move, together with enabling @claudeai models specifically for science labs (except, of course, the EU, where through various anti-AI acts they systemically prefer to remain in the sci-tech wilderne",
+      "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Despite the fact that @AnthropicAI follows virtually every step we are discussin…",
-          "url": "https://x.com/virakandah/status/2093268278747472221",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1009,16 +1077,16 @@
     },
     {
       "id": "l550",
-      "text": "Gemini Omni AI Free Turns Blog Posts Into Video Content Fast",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Gemini Omni AI Free Turns Blog Posts Into Video Content Fast",
-          "url": "https://x.com/JulianGoldieSEO/status/2087236060502016356",
-          "date": "2026-08-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1030,16 +1098,16 @@
     },
     {
       "id": "l551",
-      "text": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy Notes\nIn this video, therapist Kendra Seoane shares her experience using Twofold AI, one of the fastest-growing AI scribes for therapists and mental health professionals.\n\nIf you're searching for the best AI scribe for therapists, AI therapy notes generator, or a HIPAA-compliant AI note taker for mental health professionals, this testimonial explains why many clinicians are switching to Twofold to save time on documen…",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy N…",
-          "url": "https://www.youtube.com/watch?v=mfKn0ZBCV-U",
-          "date": "2026-03-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1051,16 +1119,16 @@
     },
     {
       "id": "l552",
-      "text": "Praxis Speech-Language Pathology 5331 Practice Test 2026 | Master Your SLP Certification\nPractice today, improve tomorrow, and prepare with confidence at https://quizzprep.com/\n. Passing the Praxis Speech-Language Pathology 5331 exam in 2026 requires more than just a surface-level understanding of communication disorders. It demands a sophisticated mastery of clinical judgment, the latest ASHA standards, and the evidence-based practices that define modern speech therapy. This comprehensive pract…",
+      "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "Praxis Speech-Language Pathology 5331 Practice Test 2026 | Master Your SLP Certi…",
-          "url": "https://www.youtube.com/watch?v=SL1FrrrwXbM",
-          "date": "2026-03-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1071,227 +1139,227 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l453",
-      "text": "Speech Language Pathologist — The Child Development Hub (Brisbane, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "The Child Development Hub",
-          "title": "Speech Language Pathologist",
-          "url": "https://www.linkedin.com/jobs/view/4454257521",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l454",
-      "text": "Speech Pathologist — The Royal Children's Hospital (Melbourne, Victoria, Australia). Posted 2 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "The Royal Children's Hospital",
-          "title": "Speech Pathologist",
-          "url": "https://www.linkedin.com/jobs/view/4454971729",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l455",
-      "text": "Speech Language Pathologist - Statewide Talent Pool — Queensland Government (Brisbane, Queensland, Australia). Posted 6 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Queensland Government",
-          "title": "Speech Language Pathologist - Statewide Talent Pool",
-          "url": "https://www.linkedin.com/jobs/view/4373928455",
-          "date": "6 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l456",
-      "text": "Speech Pathologist — Each (Campbelltown, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Each",
-          "title": "Speech Pathologist",
-          "url": "https://www.linkedin.com/jobs/view/4443640714",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l457",
-      "text": "Speech Pathologist — Early Start Australia (Strathpine, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Early Start Australia",
-          "title": "Speech Pathologist",
-          "url": "https://www.linkedin.com/jobs/view/4452896974",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l458",
-      "text": "Speech Pathologist — Early Start Australia (Coomera, Queensland, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Early Start Australia",
-          "title": "Speech Pathologist",
-          "url": "https://www.linkedin.com/jobs/view/4311015432",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l459",
-      "text": "Speech Pathologist — Soaring Health Sport, Wellness & Community Centre (Craigieburn, Victoria, Australia). Posted 5 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Soaring Health Sport, Wellness & Community Centre",
-          "title": "Speech Pathologist",
-          "url": "https://www.linkedin.com/jobs/view/4379792338",
-          "date": "5 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l460",
-      "text": "AHP1/2 Speech Pathologists, Multiple Roles, Various Locations — Department for Education, South Australia (South Australia, Australia). Posted 2 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department for Education, South Australia",
-          "title": "AHP1/2 Speech Pathologists, Multiple Roles, Various Locations",
-          "url": "https://www.linkedin.com/jobs/view/4381930274",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l461",
-      "text": "Speech Language Pathologist — MySolas (Townsville, Queensland, Australia). Posted 6 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "MySolas",
-          "title": "Speech Language Pathologist",
-          "url": "https://www.linkedin.com/jobs/view/4453887368",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l462",
-      "text": "Speech Pathologist — APM (Strathpine, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "APM",
-          "title": "Speech Pathologist",
-          "url": "https://www.linkedin.com/jobs/view/4454948571",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l563",
-      "text": "Add a full standalone For Clinicians page\n## Summary\nFourth of the five nav sections converted from a homepage anchor into a real page (Research, Science, and For Families already merged).\n\nWritten for a speech-language pathologist or clinic deciding whether and how to fit this alongside existing care:\n\n- How live remote monitoring works fo\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settings/us…",
+      "id": "l553",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "github",
-          "title": "Add a full standalone For Clinicians page\n## Summary\nFourth of the five nav sect…",
-          "url": "https://github.com/kaleidoscopeAI/goeckoh-site/pull/51",
-          "date": "2026-07-30",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "Has anybody used Speech Blubs?\nI&#39;ve been seeing ads for Speech Blubs everywhere. I came across one ad in particular where they used an AI &quot;speech-language pathologist&quot; on a stage to say that late talkers do not catch up on their own and that parents should use Speech Blubs to help their child. All the ads I&#39;ve seen seem to encourage using the app to teach their children how to speak (opposed to actual human interaction) and felt like fearmongering for parents who might genuinel…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Has anybody used Speech Blubs?\nI&#39;ve been seeing ads for Speech Blubs everywh…",
+          "url": "https://www.reddit.com/r/slp/comments/1votl16/has_anybody_used_speech_blubs/",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "Speech Language Pathologist Expert at AfterQuery - AI Training Job\nhttps://ift.tt/lRZhwyQ &#32; submitted by &#32; /u/move2usajobs-com &#32; to &#32; r/trainAIjobs [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Speech Language Pathologist Expert at AfterQuery - AI Training Job\nhttps://ift.t…",
+          "url": "https://www.reddit.com/r/trainAIjobs/comments/1vzr1y4/speech_language_pathologist_expert_at_afterquery/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "New AI Training Jobs — August 27, 2026\nHere are the new AI training, evaluation, data annotation and expert opportunities added today: - Audio Expert — Micro1 , $50–$100/hr , https://www.aitrainingjobs.it/jobs/audio-expert-micro1/ - Hardware Expert — Micro1 , $50–$100/hr , https://www.aitrainingjobs.it/jobs/hardware-expert-micro1/ - Digital Imaging Specialist/ Digital Artist — Turing , https://www.aitrainingjobs.it/jobs/senior-digital-artist-visualiser-turing/ - Illustrator/Sketcher/Cartoonist —…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "New AI Training Jobs — August 27, 2026\nHere are the new AI training, evaluation,…",
+          "url": "https://www.reddit.com/r/AiTraining_Annotation/comments/1vzzkuy/new_ai_training_jobs_august_27_2026/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "C.ai chronicles\nI&#39;m new to reddit, but I still wanted to post. It&#39;s 12:56am and I&#39;m writing this post instead of chatting away in character ai, because I deleted my c.ai account right now. I&#39;m posting because this will be proof for me, about how bad it is. So I don&#39;t relapse again. I&#39;ve relapsed so many times. I don&#39;t want to go through it again. My hands are itching to re-install it and to create a new account and chat. But I won&#39;t. There&#39;s still time to turn…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "C.ai chronicles\nI&#39;m new to reddit, but I still wanted to post. It&#39;s 12:5…",
+          "url": "https://www.reddit.com/r/character_ai_recovery/comments/1vnl3bb/cai_chronicles/",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "I asked AI to go through all the available evidence of afterlife and miracles. This is what it said\nExecutive Summary I treated this as an evidence-integration problem rather than a religion-versus-materialism argument, and searched specifically for prospective studies, primary papers, systematic reviews, adversarial replications, and the strongest anomalous cases available through August 10, 2026 . My conclusion is asymmetric: Science strongly establishes that ordinary human consciousness is ex…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I asked AI to go through all the available evidence of afterlife and miracles. T…",
+          "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1vkq6fd/i_asked_ai_to_go_through_all_the_available/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "So, “What if consciousness is a form of AI, operating through language representing the spacetime itself?” ... \n\nIn our new essay we try to look at this conjecture from an interdisciplinary research perspective that explores three claims from three different fields, namely:\n\n1. Consciousness is computational / a form of AI -  an organization of information, not a privilege of biological tissue.\n\n2. Its operating medium is language (inner speech,  language of thought, token dynamics of language m",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "So, “What if consciousness is a form of AI, operating through language represent…",
+          "url": "https://x.com/virakandah/status/2093340012616077365",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "Today's students will become tomorrow's occupational therapists and speech-language pathologists. By training more health care workers right here at home, we're helping ensure Saskatchewan families can access the care they need. That's what our Patients First Health Care Plan is all about.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Today's students will become tomorrow's occupational therapists and speech-langu…",
+          "url": "https://x.com/PremierScottMoe/status/2093805808303874491",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "LingoAI: We’re Not Just Talking About the Future of AI. We’re Building It.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "LingoAI: We’re Not Just Talking About the Future of AI. We’re Building It.",
+          "url": "https://x.com/Archibong22/status/2086863979985666337",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "THE AI AGENT IS ONLY AS USEFUL AS THE WORKSPACE IT CAN ENTER.\n\nGrok Bot + Cursor gives you a practical loop:\n\n> describe the project\n> dispatch a cloud agent\n> let it inspect the code\n> review the changes\n> test before merging\n\nThe important part is the handoff.\n\nYour agent should return a diff, a test result and a clear next action.\n\nThat is how AI moves from answering questions to shipping work.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "THE AI AGENT IS ONLY AS USEFUL AS THE WORKSPACE IT CAN ENTER.\n\nGrok Bot + Cursor…",
+          "url": "https://x.com/biektive/status/2093990874120163827",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "I BUILT $22K/MO AI AD SERVICE IN 90D",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I BUILT $22K/MO AI AD SERVICE IN 90D",
+          "url": "https://x.com/biektive/status/2093290135156564030",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1303,16 +1371,16 @@
     },
     {
       "id": "l564",
-      "text": "Collections Agent platform: voice bot, KB RAG, Prompt Studio, billing & sandbox tuning\n## Summary\r\nEnd-to-end BFSI Collections Agent platform across three surfaces — frontend (`Habibi/`, TanStack), backend (FastAPI + Postgres 16/pgvector), and a **Pipecat 1.0** voice bot. This bundles the full body of work to date so it can be reviewed as one unit.\r\n\r\n## Backend\r\n- **Voice bot** (`bac\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Rev…",
+      "text": "most B2B startups don't die from bad product. \n\nthey die from context amnesia and broken distribution.\n\nas a solo technical founder, i watched engineering teams ship incredible software week after week, while their marketing sat completely bottlenecked.\n\nthe typical playbook:\n1. hire an external marketing agency for $15,000/month\n2. realize the agency has zero technical comprehension of your product\n3. spend 20 hours a week re-explaining features into ChatGPT every morning because generic AI too",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "github",
-          "title": "Collections Agent platform: voice bot, KB RAG, Prompt Studio, billing & sandbox …",
-          "url": "https://github.com/susanthp18/Habibi/pull/3",
-          "date": "2026-07-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "most B2B startups don't die from bad product. \n\nthey die from context amnesia an…",
+          "url": "https://x.com/Motion_Viz/status/2093940638764970356",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1324,16 +1392,16 @@
     },
     {
       "id": "l565",
-      "text": "Grace Flare Pro — SLP services + parent home-program product (MVP)\n## What this is\n\nA new, separately-monetized professional product surface for speech-language pathologists — inspired by the \"Claude for Teachers\" launch — living in the same repo/Supabase project as a distinct branded area, plus a public no-account parent view.\n\n**Status: WIP.** Phase A (backend) i\n[vc]: #/zPIIgJMWhkazsSAA2z4XSDvVdDMGaSKf82/LSH1DH4=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJncmFj…",
+      "text": "the key differentiator when using ever-evolving ai",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "github",
-          "title": "Grace Flare Pro — SLP services + parent home-program product (MVP)\n## What this …",
-          "url": "https://github.com/MJACode/bright-baby-steps/pull/177",
-          "date": "2026-07-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "the key differentiator when using ever-evolving ai",
+          "url": "https://x.com/Motion_Viz/status/2090057862060085423",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1345,16 +1413,16 @@
     },
     {
       "id": "l566",
-      "text": "Has anybody used Speech Blubs?\nI&#39;ve been seeing ads for Speech Blubs everywhere. I came across one ad in particular where they used an AI &quot;speech-language pathologist&quot; on a stage to say that late talkers do not catch up on their own and that parents should use Speech Blubs to help their child. All the ads I&#39;ve seen seem to encourage using the app to teach their children how to speak (opposed to actual human interaction) and felt like fearmongering for parents who might genuinel…",
+      "text": "Grok from Beginner to Advanced: 12 steps, and 1 thing no other AI can do",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Has anybody used Speech Blubs?\nI&#39;ve been seeing ads for Speech Blubs everywh…",
-          "url": "https://www.reddit.com/r/slp/comments/1votl16/has_anybody_used_speech_blubs/",
-          "date": "2026-08-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "Grok from Beginner to Advanced: 12 steps, and 1 thing no other AI can do",
+          "url": "https://x.com/henrikhinai/status/2090423655670911237",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1366,16 +1434,16 @@
     },
     {
       "id": "l567",
-      "text": "I asked AI to go through all the available evidence of afterlife and miracles. This is what it said\nExecutive Summary I treated this as an evidence-integration problem rather than a religion-versus-materialism argument, and searched specifically for prospective studies, primary papers, systematic reviews, adversarial replications, and the strongest anomalous cases available through August 10, 2026 . My conclusion is asymmetric: Science strongly establishes that ordinary human consciousness is ex…",
+      "text": "Another Daily AI Newsletter - August 21",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "I asked AI to go through all the available evidence of afterlife and miracles. T…",
-          "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1vkq6fd/i_asked_ai_to_go_through_all_the_available/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "Another Daily AI Newsletter - August 21",
+          "url": "https://x.com/AnotherCodingX/status/2090765195778183536",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1387,16 +1455,16 @@
     },
     {
       "id": "l568",
-      "text": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy Notes\nIn this video, therapist Kendra Seoane shares her experience using Twofold AI, one of the fastest-growing AI scribes for therapists and mental health professionals.\n\nIf you're searching for the best AI scribe for therapists, AI therapy notes generator, or a HIPAA-compliant AI note taker for mental health professionals, this testimonial explains why many clinicians are switching to Twofold to save time on documen…",
+      "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy N…",
-          "url": "https://www.youtube.com/watch?v=mfKn0ZBCV-U",
-          "date": "2026-03-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+          "url": "https://x.com/theneurondaily/status/2093302072145825969",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1408,6 +1476,195 @@
     },
     {
       "id": "l569",
+      "text": "ENEMY AT THE GATES: Aiko’s Journey Across the AI Threshold [Part 4]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "ENEMY AT THE GATES: Aiko’s Journey Across the AI Threshold [Part 4]",
+          "url": "https://x.com/SkillsGapTrain/status/2093838893166862578",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "@lingoaitech Holons could be the missing layer for truly sovereign AI: individual intelligence that stays owned, autonomous, and connected.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@lingoaitech Holons could be the missing layer for truly sovereign AI: individua…",
+          "url": "https://x.com/Archibong22/status/2093704959279747106",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "Quant AI in 2026: The Contest Has Moved From Models to Research Process",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Quant AI in 2026: The Contest Has Moved From Models to Research Process",
+          "url": "https://x.com/NOX_Ventures/status/2091814557719380274",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "🔥 SLPs are the real MVPs at the IEP table.\n\n@DrElsa_CHagan. @TrinaDSpencer2. @nelliet11. Andrea Rowson. Karen Kimberlin. The list goes on and on — speech-language pathologists who show up to IEP meetings knowing more about a kid’s language, literacy, and learning than almost anyone else in the room.\n\nThey connect the dots between spoken language and written language. They speak up for kids who can’t yet speak up for themselves. And more often than not, they’re the ones helping parents actually u",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "🔥 SLPs are the real MVPs at the IEP table.\n\n@DrElsa_CHagan. @TrinaDSpencer2. @ne…",
+          "url": "https://x.com/Parents4RJ/status/2093348955681624159",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "AI WEEKLY UPDATE — Saturday, 29 August 2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI WEEKLY UPDATE — Saturday, 29 August 2026",
+          "url": "https://x.com/MansaTesla/status/2093477283768013046",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "date: 2026-08-25 07:00:00+08:00\ndraft: false\noriginal_lang: zh\nsummary: 'Today''s main theme is AI moving from capability demonstration to engineering\n  acceptance. GPT-5.6 enters Kiro, strengthening the integrated process of planning,\n  building, reviewing, and testing; small models and local inference continue to drive\n  up cost re-evaluation. Meanwhile, research into long context efficiency, training\n  transfer, and security backdoors reminds the industry: after usability, trustworthiness\n  i",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "date: 2026-08-25 07:00:00+08:00\ndraft: false\noriginal_lang: zh\nsummary: 'Today''…",
+          "url": "https://x.com/paramiao/status/2092037987983106403",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "in the mood for walking dogs espresso martinis spicy margs and sushi with christian moderate nurses elementary school teachers and speech language pathologists who are open to children, might reinstall Hinge",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "in the mood for walking dogs espresso martinis spicy margs and sushi with christ…",
+          "url": "https://x.com/mayorofjoliet/status/2093692941399179686",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "Gemini Omni AI Free Turns Blog Posts Into Video Content Fast",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Gemini Omni AI Free Turns Blog Posts Into Video Content Fast",
+          "url": "https://x.com/JulianGoldieSEO/status/2087236060502016356",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy Notes\nIn this video, therapist Kendra Seoane shares her experience using Twofold AI, one of the fastest-growing AI scribes for therapists and mental health professionals.\n\nIf you're searching for the best AI scribe for therapists, AI therapy notes generator, or a HIPAA-compliant AI note taker for mental health professionals, this testimonial explains why many clinicians are switching to Twofold to save time on documen…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy N…",
+          "url": "https://www.youtube.com/watch?v=mfKn0ZBCV-U",
+          "date": "2026-03-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
       "text": "Praxis Speech-Language Pathology 5331 Practice Test 2026 | Master Your SLP Certification\nPractice today, improve tomorrow, and prepare with confidence at https://quizzprep.com/\n. Passing the Praxis Speech-Language Pathology 5331 exam in 2026 requires more than just a surface-level understanding of communication disorders. It demands a sophisticated mastery of clinical judgment, the latest ASHA standards, and the evidence-based practices that define modern speech therapy. This comprehensive pract…",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1417,7 +1674,7 @@
           "title": "Praxis Speech-Language Pathology 5331 Practice Test 2026 | Master Your SLP Certi…",
           "url": "https://www.youtube.com/watch?v=SL1FrrrwXbM",
           "date": "2026-03-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1429,44 +1686,75 @@
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "speech-language pathologists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "speech pathologist",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+      "count": 3050,
+      "returned": 50,
+      "topEmployers": [
+        "Ability Action Australia",
+        "Mediix",
+        "Hello Luma",
+        "Early Start Australia",
+        "Austcorp Executive",
+        "Henderson Recruitment Pty Ltd t/a Henderson Healthcare",
+        "Concentric",
+        "Atomic 212 NTG Recruitment"
+      ],
+      "topSkills": [
+        "paediatric",
+        "dysphagia",
+        "NDIS"
+      ]
+    },
+    "seek": {
+      "source": "seek-au",
+      "query": "speech pathologist",
+      "window": "observed 2026-08-30",
+      "note": "Web observation of Seek AU speech pathology listings (not a counted time-series). Employers include Mater Private Hospital, Healthscope, Queensland Health, ORS, Avina, Sugarman Australia, Whole Therapy, Hunthem. High volume of NDIS / paediatric / telehealth / regional roles; NDIS funding compression visible in package sizes.",
+      "topEmployers": [
+        "Mater Private Hospital",
+        "Healthscope",
+        "Queensland Health",
+        "ORS",
+        "Avina",
+        "Sugarman Australia",
+        "Whole Therapy",
+        "Hunthem"
+      ]
+    }
   },
   "corpus": {
-    "platforms": [
+    "retrieved": "2026-08-30",
+    "searchesReturningNothing": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Speech-Language Pathologists Association discourse",
-        "items": 45
-      }
-    ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
-    "linkedin": [
-      {
-        "status": "sampled",
-        "query": "Speech-Language Pathologists",
-        "location": "Australia",
-        "returned": 10,
-        "source": "linkedin (unofficial scrape)",
-        "_raw": "data/professions/29-1127/raw/linkedin_l4.json"
+        "lane": "L3",
+        "source": "factiva-au",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired 2026-08-29; logged to backlog by orchestrator",
+        "date": "2026-08-30"
       },
       {
-        "date": "2026-08-29",
+        "lane": "L5",
+        "source": "grounding",
+        "status": "unreachable",
+        "detail": "Keyless web search / jobs source unreachable this run",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L5",
+        "source": "jobs",
+        "status": "unreachable",
+        "detail": "Keyless web search / jobs source unreachable this run",
+        "date": "2026-08-30"
+      }
+    ],
+    "factiva": [],
+    "platforms": [],
+    "linkedin": [
+      {
+        "date": "2026-08-30",
         "soc": "29-1127",
         "query": "Speech-Language Pathologists",
         "location": "Australia",
@@ -1477,35 +1765,28 @@
     ],
     "l5Sample": [
       {
-        "date": "2026-08-29",
-        "added": 50,
+        "date": "2026-08-30",
+        "added": 54,
         "sources": {
           "github": 5,
           "grounding": 0,
           "hackernews": 24,
           "jobs": 0,
-          "reddit": 3,
-          "x": 16,
-          "youtube": 2
-        },
-        "status": "sampled"
-      },
-      {
-        "date": "2026-08-29",
-        "added": 7,
-        "sources": {
-          "github": 5,
-          "grounding": 0,
-          "hackernews": 24,
-          "jobs": 0,
-          "reddit": 3,
-          "x": 16,
+          "reddit": 5,
+          "x": 18,
           "youtube": 2
         },
         "status": "sampled"
       }
     ]
   },
-  "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "anzsco corrected from placeholder '220000' to '252712' (JSA ANZSCO 252712) this run.",
+    "Factiva/L3 trade-press lane ran on web sources only; OpenAthens session was auth-expired (logged to factiva_backlog.json).",
+    "Scholarly L2 AI claims are largely international (US/pediatric) literature; AU-specific effect sizes are limited."
+  ],
+  "researchMethod": "empirical-five-lane-v1",
+  "generated": "2026-08-30",
+  "expires": "2027-02-28",
+  "confidence": "high"
 }

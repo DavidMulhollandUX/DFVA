@@ -1,27 +1,268 @@
 {
   "onet_soc_code": "29-1125",
   "title": "Recreational Therapists",
+  "anzsco": "220000",
   "aliases": [
     "Diversional Therapist",
-    "Early Childhood Music Group Facilitator",
-    "Expressive Therapies Group Facilitator",
-    "Expressive Therapist",
-    "Locum Music Therapist",
-    "Music Facilitator"
+    "Recreational Therapist (ANZSCO alt title)",
+    "Lifestyle Coordinator (related, ANZSCO 411332)",
+    "Leisure and Lifestyle Officer",
+    "Activities Coordinator",
+    "Activities Officer",
+    "Wellness Partner"
   ],
-  "anzsco": "220000",
-  "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
-  },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
   "programs": [
     "m04aa"
   ],
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-30"
+  },
+  "generated": "2026-08-30",
+  "expires": "2027-02-28",
+  "researchMethod": "empirical-five-lane-v1",
+  "confidence": "high",
   "claims": [
     {
-      "id": "l503",
+      "id": "c01",
+      "text": "Under Australia's ANZSCO classification, the US O*NET occupation 'Recreational Therapists' (29-1125) maps to ANZSCO 411311 Diversional Therapist, whose listed alternative title is 'Recreational Therapist'; the occupation sits in Unit Group 4113 Diversional Therapists and is classified Skill Level 3 (AQF Certificate III/IV).",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Bureau of Statistics (ABS)",
+          "title": "ANZSCO - Unit Group 4113 Diversional Therapists; Occupation 411311 Diversional Therapist (alt title Recreational Therapist)",
+          "url": "https://abs.gov.au/ausstats/abs@.nsf/Previousproducts/1B2E4C8136AA52D8CA2575DF002DA746?opendocument=",
+          "date": "",
+          "whatItMeasured": "ABS ANZSCO First Edition Rev 1 classification of the AU equivalent occupation; retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Classification of the Australian equivalent occupation; sets skill level and title, not the registration regime.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (ABS ANZSCO); measures the AU-equivalent occupation, in window."
+    },
+    {
+      "id": "c02",
+      "text": "Recreational/Diversional Therapists are NOT among the 16 health professions regulated by AHPRA under the Health Practitioner Regulation National Law; AHPRA's register covers medicine, nursing, midwifery, psychology, physiotherapy, occupational therapy, pharmacy and others but not diversional or recreational therapy, so the occupation is not subject to National-Law registration or protected-title provisions.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Health Practitioner Regulation Agency (AHPRA)",
+          "title": "Registers of practitioners - listed regulated professions",
+          "url": "https://ahpra.gov.au/registration/registers-of-practitioners.aspx",
+          "date": "",
+          "whatItMeasured": "AHPRA public register of regulated professions; retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Establishes absence of National-Law (AHPRA) regulation for the occupation; does not preclude state/employer or professional-association registration.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (AHPRA); the 16 listed professions exclude diversional/recreational therapy."
+    },
+    {
+      "id": "c03",
+      "text": "The ANZSCO 2024 consultation draft reclassifies the occupation as 411331 Diversional Therapist at Skill Level 2 (AQF Associate Degree/Advanced Diploma/Diploma or 3+ years relevant experience), separating it from Lifestyle Coordinator (411332); the draft was released 25 July 2024 and remains a consultation draft, not yet operative.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Bureau of Statistics (ABS)",
+          "title": "Consultation draft ANZSCO July 2024 - Occupation 411331 Diversional Therapist",
+          "url": "https://abs.gov.au/statistics/classifications/consultation-draft-australian-and-new-zealand-standard-classification-occupations-anzsco/jul-2024/browse-classification/4/41/411/4113/411331",
+          "date": "",
+          "whatItMeasured": "ABS ANZSCO 2024 consultation-draft classification; retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Consultation draft only; not the operative classification. Supersedes the 411311 grouping once enacted.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (ABS draft); draft status noted."
+    },
+    {
+      "id": "c04",
+      "text": "The professional body for the occupation is Diversional and Recreation Therapy Australia (DRTA, formerly Diversional Therapy Australia); NSW Health (HETI) states that to be a member as a Diversional Therapist requires a Bachelor of Health Science (Recreation Therapy) or equivalent, indicating voluntary professional-association rather than statutory registration.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "NSW Health Education and Training Institute (HETI) / Diversional and Recreation Therapy Australia",
+          "title": "Profession: Diversional Therapist - qualification and registration requirements",
+          "url": "https://heti.nsw.gov.au/education-and-training/our-focus-areas/allied-health/allied-health-professions-in-nsw-health/diversional-therapy",
+          "date": "",
+          "whatItMeasured": "HETI allied-health profession profile citing DRTA membership pathway; retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Professional-association membership pathway (voluntary); not a statutory registration requirement.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (HETI/NSW Health); measures membership requirement of the professional body."
+    },
+    {
+      "id": "c05",
+      "text": "Jobs and Skills Australia (profiling ANZSCO 4113 Diversional Therapists from the ABS Labour Force Survey, Detailed, February 2026) reports about 5,300 employed, 74% female, median weekly earnings $1,434, median age 48, 48% part-time, with annual employment growth of -200.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia (JSA)",
+          "title": "Occupation profile - Diversional Therapists (ANZSCO 4113)",
+          "url": "https://jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations-anzsco/4113-diversional-therapists",
+          "date": "",
+          "whatItMeasured": "JSA occupation profile, source ABS LFS Detailed Feb 2026 + JSA trend; retrieved 2026-08-30"
+        }
+      ],
+      "scope": "AU national employment snapshot for ANZSCO 4113 (group level); trend estimates, not a census headcount of the precise occupation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (JSA/ABS); AU population, in window."
+    },
+    {
+      "id": "c06",
+      "text": "Labour Market Insights (Jobs and Skills Australia) profiles Diversional Therapists (ANZSCO 4113) at 6,700 employed, with projected growth of 5.1% (about 100 jobs, from 1,700 in 2021 to 1,800 in 2026), median weekly earnings $1,234, 91% female, average age 52, ~48% full-time, concentrated in Health care and social assistance.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia - Labour Market Insights",
+          "title": "Diversional Therapists occupation profile (ANZSCO 4113)",
+          "url": "https://labourmarketinsights.gov.au/occupation-profile/recreational-therapists?occupationCode=4113",
+          "date": "",
+          "whatItMeasured": "LMI profile combining ABS LFS and JSA Employment Projections to 2026; retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Combines ABS LFS and JSA projections to 2026 at the 4113 group level; projection is model-based.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (LMI/JSA); AU population, in window."
+    },
+    {
+      "id": "c07",
+      "text": "Under the skill-based OSCA classification (2021 Census), Occupation 411331 Diversional Therapist employed 970 people, 89.7% female and 10.0% male, median age 54, 44.4% full-time / 54.9% part-time.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia - OSCA",
+          "title": "Occupation profile - Diversional Therapist (OSCA 411331)",
+          "url": "https://jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations-osca/411331-diversional-therapist",
+          "date": "",
+          "whatItMeasured": "JSA OSCA profile from 2021 Census; retrieved 2026-08-30"
+        }
+      ],
+      "scope": "OSCA 2021 Census-based headcount; small-cell confidentiality suppresses some state/territory and age breakdowns (shown N/A).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (JSA OSCA/2021 Census); AU population."
+    },
+    {
+      "id": "c08",
+      "text": "Diversional Therapy Australia's submission to the Productivity Commission inquiry 'Caring for Older Australians' argued for reinstating Diversional Therapy as a funded aged-care modality, a mandatory minimum of rostered diversional-therapy hours per resident, and minimum staff-qualification levels for leisure/lifestyle services - evidence of a professional-body push to lift the occupation's funded status and recognition.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Diversional Therapy Australia (submission to Productivity Commission)",
+          "title": "Submission 175 - Caring for Older Australians (public inquiry)",
+          "url": "https://assets.pc.gov.au/inquiries/completed/aged-care/submissions/sub175.pdf",
+          "date": "",
+          "whatItMeasured": "PC aged-care inquiry submission by the professional body; retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Advocacy submission reflecting the body's standing policy position (inquiry completed c.2011); not a current funded-hours count. Recency-limited but real professional-body publication.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (PC submission PDF); measures the body's policy position, not current workforce."
+    },
+    {
+      "id": "c09",
+      "text": "Commercial training aggregator Get Course (citing the JSA Internet Vacancy Index and JSA employment projections) reports about 725 Diversional Therapist openings advertised online over the 12 months to June 2026 (53 advertised in June 2026, down 25.6% year-on-year), with employment projected to grow to ~7,300 workers by 2030 and ~7,900 by 2035, and the occupation not on the 2025 national shortage list.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Get Course (training aggregator, cites JSA IVI/projections)",
+          "title": "Certificate IV in Leisure and Health (CHC43415) - jobs, outcomes, demand",
+          "url": "https://getcourse.com.au/qualifications/chc43415-certificate-iv-in-leisure-and-health",
+          "date": "",
+          "whatItMeasured": "Get Course demand snapshot for Diversional Therapist, to June 2026; retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Commercial aggregator; figures derived from JSA IVI and projections, not primary data. 'Down 25.6%' is year-on-year online-ad change, not employment.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (Get Course); demand-side proxy, not an authoritative workforce count."
+    },
+    {
+      "id": "c10",
+      "text": "Aged-care reform is increasing the policy weight on therapy and allied health in care delivery: the Support at Home program replaced Home Care Packages from November 2025 with an explicit wellness/reablement focus, and Art Therapy was added to the Commonwealth Home Support Programme (CHSP) Service Catalogue 2025-27 as a 'therapeutic service for independent living' - trends that lift demand for lifestyle, leisure and diversional-therapy roles.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Community Care Review",
+          "title": "New focus on allied health coming to home care (Support at Home manual, reablement/wellness)",
+          "url": "https://communitycarereview.com.au/2025/04/03/dont-get-left-behind-on-allied-health",
+          "date": "",
+          "whatItMeasured": "Trade-press report on 2025 aged-care reform and allied-health/therapy emphasis; retrieved 2026-08-30"
+        },
+        {
+          "publisher": "The Senior",
+          "title": "Arts and crafts for seniors: the new aged care plan (CHSP 2025-27 recognises Art Therapy)",
+          "url": "https://thesenior.com.au/story/9119065/arts-and-crafts-for-seniors-the-new-aged-care-plan",
+          "date": "",
+          "whatItMeasured": "Trade-press report on Aged Care Act 2024 / CHSP 2025-27 therapy recognition; retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Trade-press interpretation of 2025-26 aged-care reform; directional demand signal, not a headcount.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Two independent AU trade-press sources; measures reform direction, not quantified demand."
+    },
+    {
+      "id": "c11",
+      "text": "Diversional therapy is fundable through the NDIS (Core Supports - Assistance with Social and Community Participation; Capacity Building - Improved Daily Living) and through aged-care packages (Home Care Packages / Support at Home, CHSP), linking the occupation's demand to the disability-support and aged-care funding markets.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Carevo (NDIS/aged-care provider marketplace)",
+          "title": "Diversional therapy - NDIS Core/Capacity Building and aged-care funding pathways",
+          "url": "https://carevo.com.au/services/diversional-therapy-home/lightning-ridge",
+          "date": "",
+          "whatItMeasured": "Provider-market description of NDIS/aged-care funding for diversional therapy; retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Provider-market description (commercial); consistent across multiple NDIS/aged-care provider pages but not a government primary source. Indicates funding linkage, not volume.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (provider marketplace); commercial provenance noted."
+    },
+    {
+      "id": "l512",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -31,196 +272,7 @@
           "title": "Tell HN: Man, AI is killing my brain",
           "url": "https://news.ycombinator.com/item?id=49468252",
           "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l504",
-      "text": "What breaks in production AI workflows?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "What breaks in production AI workflows?",
-          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l505",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l506",
-      "text": "How al-Qaida and IS are adopting AI",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "How al-Qaida and IS are adopting AI",
-          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l507",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-          "url": "https://news.ycombinator.com/item?id=48672619",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l508",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-          "url": "https://isaidumber.today/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l509",
-      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
-          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
-          "date": "2026-07-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l510",
-      "text": "The death of AI workflow builders",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "The death of AI workflow builders",
-          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l511",
-      "text": "Looking for developers with high-token AI workflows",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Looking for developers with high-token AI workflows",
-          "url": "https://canopywave.com/events/unlimited-token-plan-200m",
-          "date": "2026-07-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l512",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-          "url": "https://www.contextvault.dev/",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -232,16 +284,16 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-          "url": "https://argonix.io/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -253,16 +305,16 @@
     },
     {
       "id": "l514",
-      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
-          "url": "https://github.com/BenSiv/fossil-scm",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -274,16 +326,16 @@
     },
     {
       "id": "l515",
-      "text": "What is agentic AI today, and what do we want it to be?",
+      "text": "How al-Qaida and IS are adopting AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "What is agentic AI today, and what do we want it to be?",
-          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-          "date": "2026-07-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -295,16 +347,16 @@
     },
     {
       "id": "l516",
-      "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
-          "url": "https://latentdynamics.substack.com/p/semantic-transactions-securing-untrusted",
-          "date": "2026-07-16",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -316,16 +368,16 @@
     },
     {
       "id": "l517",
-      "text": "My AI-Assisted Workflow",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "My AI-Assisted Workflow",
-          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
-          "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -337,16 +389,16 @@
     },
     {
       "id": "l518",
-      "text": "AI Workflows Need Topological Sort",
+      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Workflows Need Topological Sort",
-          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
-          "date": "2026-06-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -358,16 +410,16 @@
     },
     {
       "id": "l519",
-      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -379,16 +431,16 @@
     },
     {
       "id": "l520",
-      "text": "AI workflows: an industry optimising the wrong variables",
+      "text": "Looking for developers with high-token AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI workflows: an industry optimising the wrong variables",
-          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
-          "date": "2026-05-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Looking for developers with high-token AI workflows",
+          "url": "https://canopywave.com/events/unlimited-token-plan-200m",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -400,16 +452,16 @@
     },
     {
       "id": "l521",
-      "text": "Ask HK: How are you building AI apps today?",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HK: How are you building AI apps today?",
-          "url": "https://news.ycombinator.com/item?id=48323554",
-          "date": "2026-05-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -421,16 +473,16 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
-          "url": "https://blocks.ai",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -442,16 +494,16 @@
     },
     {
       "id": "l523",
-      "text": "The Problem with AI Today",
+      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The Problem with AI Today",
-          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
-          "date": "2026-05-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
+          "url": "https://github.com/BenSiv/fossil-scm",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -463,16 +515,16 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-          "url": "https://github.com/kontext-dev/kontext-cli",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
+          "url": "https://latentdynamics.substack.com/p/semantic-transactions-securing-untrusted",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -484,16 +536,16 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
-          "url": "https://theincidentchallenge.com/",
-          "date": "2026-05-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -505,16 +557,16 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
-          "url": "https://news.ycombinator.com/item?id=47590261",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -526,16 +578,16 @@
     },
     {
       "id": "l527",
-      "text": "Recreational Therapists at Handshake - AI Training Job\nhttps://ift.tt/MYNyp3w &#32; submitted by &#32; /u/move2usajobs-com &#32; to &#32; r/trainAIjobs [link] &#32; [comments]",
+      "text": "AI Workflows Need Topological Sort",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Recreational Therapists at Handshake - AI Training Job\nhttps://ift.tt/MYNyp3w &#…",
-          "url": "https://www.reddit.com/r/trainAIjobs/comments/1vnf050/recreational_therapists_at_handshake_ai_training/",
-          "date": "2026-08-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -547,16 +599,16 @@
     },
     {
       "id": "l528",
-      "text": "Software Development After AI\nI think the software industry is going to face a major disruption in the next few years. We are getting close to a point where you could have one AI agent analyze an existing app, map out its features, understand how it works, and then have another AI agent rebuild it from scratch with a new design, different UI elements, and new branding. The result could be a near identical alternative that offers the same functionality but is released for free or at a much lower …",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Software Development After AI\nI think the software industry is going to face a m…",
-          "url": "https://www.reddit.com/r/vibecoding/comments/1vbb5bh/software_development_after_ai/",
-          "date": "2026-07-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -568,16 +620,16 @@
     },
     {
       "id": "l529",
-      "text": "ChatGPT is crazy good at turning anti-AI copypastas into infographics. I use them to respond to pro-AI sentiment bc it puts antis on the backfoot trying to defend their cringe and delusional talking points, and the option to straw man isn't available bc it's already been called out in advance\nText versions for everywhere that images aren&#39;t available: Listen dude. I understand this stuff. I did a VBScript assignment in highschool where we had to copy images from a folder and output a collage …",
+      "text": "AI workflows: an industry optimising the wrong variables",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "ChatGPT is crazy good at turning anti-AI copypastas into infographics. I use the…",
-          "url": "https://www.reddit.com/r/DefendingAIArt/comments/1vmdp53/chatgpt_is_crazy_good_at_turning_antiai/",
-          "date": "2026-08-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -589,16 +641,16 @@
     },
     {
       "id": "l530",
-      "text": "@GovernorShapiro @RobertKennedyJr Odd. Look at who sponsors the American Academy of Pediatrics. I wonder why they want people believing there isn't any fetal tissue in vaccines. https://t.co/nUqGLaUbWb",
+      "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "@GovernorShapiro @RobertKennedyJr Odd. Look at who sponsors the American Academy…",
-          "url": "https://x.com/HenryHonto/status/2092676271771697166",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -610,16 +662,16 @@
     },
     {
       "id": "l531",
-      "text": "Karlos May, Ohio State commit and #7 ranked defensive lineman in the country, turned to UAB Sports Medicine Surgeon Dr. Momaya when he tore his ACL. His comeback has been incredible and the best is yet to come. \n\n@uabmedicine @UABSportsMed \n\nhttps://t.co/FUvAXpDPV2 https://t.co/WAl4edSnvi",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Karlos May, Ohio State commit and #7 ranked defensive lineman in the country, tu…",
-          "url": "https://x.com/AmitMomayaMD/status/2092951273343467672",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -631,16 +683,16 @@
     },
     {
       "id": "l532",
-      "text": "✨Thank you for celebrating Panda Cares Day 🐼 with us! We are grateful to Panda Cares and all the @PandaExpress 🥡 associates and guests for their dedication and support of Children's Specialized Hospital, the @CMN_HQ hospital of New Jersey 💙. https://t.co/Gnv2RZ9QzM",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "✨Thank you for celebrating Panda Cares Day 🐼 with us! We are grateful to Panda C…",
-          "url": "https://x.com/ChildrensSpecNJ/status/2087275433695862985",
-          "date": "2026-08-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -652,16 +704,16 @@
     },
     {
       "id": "l533",
-      "text": "Celebrating one year of the UAB Rehabilitation Pavilion! 🎉\n\nSince opening its doors, the pavilion has been a place for patients, families, and care teams to celebrate progress and remarkable recoveries. Here’s to many more years of helping patients move forward. 💚 https://t.co/4OUnjYZZaH",
+      "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Celebrating one year of the UAB Rehabilitation Pavilion! 🎉\n\nSince opening its do…",
-          "url": "https://x.com/uabmedicine/status/2090533148555657564",
-          "date": "2026-08-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -673,16 +725,16 @@
     },
     {
       "id": "l534",
-      "text": "Surgery has often been known as the “neglected stepchild of global health.” In this segment, Lily Gutnik, M.D., explains the challenges of collecting meaningful data for a field that crosses so many specialties and services.\n\n🎧 Listen here: https://t.co/Iag5rYJWa2 https://t.co/wInH1tpSBG",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Surgery has often been known as the “neglected stepchild of global health.” In t…",
-          "url": "https://x.com/uabmedicine/status/2090816403590799457",
-          "date": "2026-08-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -694,16 +746,16 @@
     },
     {
       "id": "l535",
-      "text": "How America Has Been Hypnotized to Hate AI",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "How America Has Been Hypnotized to Hate AI",
-          "url": "https://x.com/HenryHonto/status/2057122924121805279",
-          "date": "2026-05-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -715,16 +767,16 @@
     },
     {
       "id": "l536",
-      "text": "Looking for fun activities led by CSH Recreational Therapists? Register now for fall programs!👏🍂\n\nTo learn about our programs and register, please visit us at https://t.co/Qp0BjW2Am8. Fall registration will be open online until 9/5 https://t.co/uMuxndFaS7",
+      "text": "it's time to once again subject you all to the melopia agenda 😎 \n🫶 thanks (in order) to... \n🎨 @pickled0ctopus\n🎨 @HonestitisAbe\n🎨 @katherinacomb\n🎨 @r_nooir https://t.co/rY02ahktZK",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Looking for fun activities led by CSH Recreational Therapists? Register now for …",
-          "url": "https://x.com/ChildrensSpecNJ/status/2091163594071101440",
-          "date": "2026-08-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "it's time to once again subject you all to the melopia agenda 😎 \n🫶 thanks (in or…",
+          "url": "https://x.com/cptnefarious/status/2093720924172255495",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -736,16 +788,16 @@
     },
     {
       "id": "l537",
-      "text": "Follow a day in the life of a fundraiser at Children’s Specialized Hospital Foundation. Happy National Nonprofit Day!✨ Learn more about the Foundation at https://t.co/MSJy88mnG0 💙. https://t.co/Zw3hpeNkWO",
+      "text": "Letting you know I have c0mms open! Feel free to look at my kofi, I do a range of art. I do mainly traditional, but can do digital!\nAlso if you have questions feel free to DM me here or on kofi! I can do more than Ghost as well! https://t.co/QDVor8kg4e",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Follow a day in the life of a fundraiser at Children’s Specialized Hospital Foun…",
-          "url": "https://x.com/ChildrensSpecNJ/status/2089427060359876893",
-          "date": "2026-08-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Letting you know I have c0mms open! Feel free to look at my kofi, I do a range o…",
+          "url": "https://x.com/HonestitisAbe/status/2093375764909420992",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -757,16 +809,16 @@
     },
     {
       "id": "l538",
-      "text": "August is #Psoriasis Action Month. 💚\n\nPsoriasis is a chronic condition caused by an overactive immune system that can affect more than just the skin. This month, we’re raising awareness about the different types of psoriasis and common triggers.\n\n➡️ https://t.co/Exnpcj5EJs https://t.co/P0Jh7cFdhG",
+      "text": "How America Has Been Hypnotized to Hate AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "August is #Psoriasis Action Month. 💚\n\nPsoriasis is a chronic condition caused by…",
-          "url": "https://x.com/uabmedicine/status/2093006694804525486",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "How America Has Been Hypnotized to Hate AI",
+          "url": "https://x.com/HenryHonto/status/2057122924121805279",
+          "date": "2026-05-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -778,16 +830,16 @@
     },
     {
       "id": "l539",
-      "text": "@ChildrensSpecNJ So grateful to make a difference together. Thank you for celebrating Panda Cares Day with us! 🐼❤️",
+      "text": "I love sketching my beautiful friends 💜💜💜\n#sketches https://t.co/TAbJY4OLIE",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ChildrensSpecNJ So grateful to make a difference together. Thank you for celebr…",
-          "url": "https://x.com/PandaExpress/status/2086148820312719474",
-          "date": "2026-08-08",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "I love sketching my beautiful friends 💜💜💜\n#sketches https://t.co/TAbJY4OLIE",
+          "url": "https://x.com/HonestitisAbe/status/2093400048725852501",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -799,16 +851,16 @@
     },
     {
       "id": "l540",
-      "text": "This National Dog Day, we’re celebrating Walk &amp; Roll team Golden Girls co captains, Gallop and Maui! The CSH facility dogs are part of our family. Today, they invite you to join their team and bring your pup to Walk &amp; Roll with them!  Register today at https://t.co/g6i9rFAMCW. https://t.co/4lclbvS3Al",
+      "text": "@GovernorShapiro @RobertKennedyJr Odd. Look at who sponsors the American Academy of Pediatrics. I wonder why they want people believing there isn't any fetal tissue in vaccines. https://t.co/nUqGLaUbWb",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This National Dog Day, we’re celebrating Walk &amp; Roll team Golden Girls co ca…",
-          "url": "https://x.com/ChildrensSpecNJ/status/2092628283124777195",
+          "title": "@GovernorShapiro @RobertKennedyJr Odd. Look at who sponsors the American Academy…",
+          "url": "https://x.com/HenryHonto/status/2092676271771697166",
           "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -820,16 +872,16 @@
     },
     {
       "id": "l541",
-      "text": "August is #Breastfeeding Awareness Month. 💜\nUAB Women and Infants Services offers expert lactation support before and after birth to help moms feel informed and supported throughout their breastfeeding journey.\n\n➡️ https://t.co/dXHcyTluqg https://t.co/9KC0NkxiWr",
+      "text": "Karlos May, Ohio State commit and #7 ranked defensive lineman in the country, turned to UAB Sports Medicine Surgeon Dr. Momaya when he tore his ACL. His comeback has been incredible and the best is yet to come. \n\n@uabmedicine @UABSportsMed \n\nhttps://t.co/FUvAXpDPV2 https://t.co/WAl4edSnvi",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "August is #Breastfeeding Awareness Month. 💜\nUAB Women and Infants Services offer…",
-          "url": "https://x.com/uabmedicine/status/2093413740167246191",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Karlos May, Ohio State commit and #7 ranked defensive lineman in the country, tu…",
+          "url": "https://x.com/AmitMomayaMD/status/2092951273343467672",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -841,16 +893,16 @@
     },
     {
       "id": "l542",
-      "text": "UAB Medicine #UrgentCare is open seven days a week, providing expert treatment in the heart of downtown Birmingham. If you need to see a doctor today, don’t hesitate. Walk-ins are welcome, and we offer free parking in the deck behind the clinic.\n🔗 https://t.co/7C0e7NrZ7Z https://t.co/bmvUhdBI79",
+      "text": "Are you kidding me????😭",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "UAB Medicine #UrgentCare is open seven days a week, providing expert treatment i…",
-          "url": "https://x.com/uabmedicine/status/2089423439761203490",
-          "date": "2026-08-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Are you kidding me????😭",
+          "url": "https://x.com/HonestitisAbe/status/2092984410077335733",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -862,16 +914,16 @@
     },
     {
       "id": "l543",
-      "text": "Dr. Cassandra Newsom's lab is participating in a clinical trial evaluating an investigational treatment for children ages 3–12 with genetically confirmed Phelan-McDermid syndrome (PMS). The 19-week study includes five in-person visits and six phone/video calls.\n\n@UABMedicine https://t.co/lNOS7D72Ku",
+      "text": "Surgery has often been known as the “neglected stepchild of global health.” In this segment, Lily Gutnik, M.D., explains the challenges of collecting meaningful data for a field that crosses so many specialties and services.\n\n🎧 Listen here: https://t.co/Iag5rYJWa2 https://t.co/wInH1tpSBG",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Dr. Cassandra Newsom's lab is participating in a clinical trial evaluating an in…",
-          "url": "https://x.com/UNeurobiology/status/2093338124067725718",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Surgery has often been known as the “neglected stepchild of global health.” In t…",
+          "url": "https://x.com/uabmedicine/status/2090816403590799457",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -883,16 +935,16 @@
     },
     {
       "id": "l544",
-      "text": "CSH Early Intervention Program is a state and federally funded program that provides early identification, evaluation, and intervention for children from birth to three years of age. \nhttps://t.co/L9Wc5rh42N https://t.co/HfKJG9vq8p",
+      "text": "Here’s my link!\n\nhttps://t.co/i1kZVKbqr9",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "CSH Early Intervention Program is a state and federally funded program that prov…",
-          "url": "https://x.com/ChildrensSpecNJ/status/2092311337976090819",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Here’s my link!\n\nhttps://t.co/i1kZVKbqr9",
+          "url": "https://x.com/HonestitisAbe/status/2093375953195991112",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -904,16 +956,16 @@
     },
     {
       "id": "l545",
-      "text": "Looking for a sign to do good 👀? This is it! Visit https://t.co/TwUInsYFG7 today to make a difference in the lives of children and families at CSH!💙 https://t.co/sWhOR9dspo",
+      "text": "Celebrating one year of the UAB Rehabilitation Pavilion! 🎉\n\nSince opening its doors, the pavilion has been a place for patients, families, and care teams to celebrate progress and remarkable recoveries. Here’s to many more years of helping patients move forward. 💚 https://t.co/4OUnjYZZaH",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Looking for a sign to do good 👀? This is it! Visit https://t.co/TwUInsYFG7 today…",
-          "url": "https://x.com/ChildrensSpecNJ/status/2090876692818436473",
-          "date": "2026-08-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Celebrating one year of the UAB Rehabilitation Pavilion! 🎉\n\nSince opening its do…",
+          "url": "https://x.com/uabmedicine/status/2090533148555657564",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -925,16 +977,16 @@
     },
     {
       "id": "l546",
-      "text": "It’s National #Breastfeeding Month. 💜 Breastfeeding can come with questions, challenges, and a learning curve for new moms. UAB Medicine offers expert lactation support to help mothers feel informed and confident throughout their journey.\n\n➡️ https://t.co/T5wN5fXKj6 https://t.co/uFRSAH9Ml1",
+      "text": "August is #Psoriasis Action Month. 💚\n\nPsoriasis is a chronic condition caused by an overactive immune system that can affect more than just the skin. This month, we’re raising awareness about the different types of psoriasis and common triggers.\n\n➡️ https://t.co/Exnpcj5EJs https://t.co/P0Jh7cFdhG",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "It’s National #Breastfeeding Month. 💜 Breastfeeding can come with questions, cha…",
-          "url": "https://x.com/uabmedicine/status/2092282275333329085",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "August is #Psoriasis Action Month. 💚\n\nPsoriasis is a chronic condition caused by…",
+          "url": "https://x.com/uabmedicine/status/2093006694804525486",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -946,16 +998,16 @@
     },
     {
       "id": "l547",
-      "text": "@HenryHonto @GovernorShapiro @RobertKennedyJr I’m going to personally add the fetus juice just for you",
+      "text": "@lvabradine @Wisdo007 Riaaaaaa https://t.co/Hkm4BdD1kM",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@HenryHonto @GovernorShapiro @RobertKennedyJr I’m going to personally add the fe…",
-          "url": "https://x.com/Bunch0numb3rz/status/2092700026074194405",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@lvabradine @Wisdo007 Riaaaaaa https://t.co/Hkm4BdD1kM",
+          "url": "https://x.com/HonestitisAbe/status/2093736646172672206",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -967,16 +1019,16 @@
     },
     {
       "id": "l548",
-      "text": "Now through Nov. 21, @UABOrtho will offer a Saturday Morning Injury Clinic at UAB Hospital-Highlands, providing convenient walk-in care for acute injuries (sports injuries, sprains, strains, possible fractures, etc.).\n\nNo appointment is necessary.\n\n🏥 https://t.co/QnFX1R2cTr https://t.co/pzhABhBTcd",
+      "text": "@HonestitisAbe 2BTR evoking Things™️ beyond re-simping for Terzo bc of Perps’ vocals (I never left) https://t.co/a9rsNOqT5x",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Now through Nov. 21, @UABOrtho will offer a Saturday Morning Injury Clinic at UA…",
-          "url": "https://x.com/uabmedicine/status/2093359415231496509",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@HonestitisAbe 2BTR evoking Things™️ beyond re-simping for Terzo bc of Perps’ vo…",
+          "url": "https://x.com/lvabradine/status/2093763544504209501",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -988,16 +1040,16 @@
     },
     {
       "id": "l549",
-      "text": "Check out our recent blog post on knee braces for offensive linemen.\n\n@uabmedicine @UABSportsMed \n\nhttps://t.co/Mq69dbdT86 https://t.co/sVmNoj1w0r",
+      "text": "August is #Breastfeeding Awareness Month. 💜\nUAB Women and Infants Services offers expert lactation support before and after birth to help moms feel informed and supported throughout their breastfeeding journey.\n\n➡️ https://t.co/dXHcyTluqg https://t.co/9KC0NkxiWr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Check out our recent blog post on knee braces for offensive linemen.\n\n@uabmedici…",
-          "url": "https://x.com/AmitMomayaMD/status/2093304526967087286",
+          "title": "August is #Breastfeeding Awareness Month. 💜\nUAB Women and Infants Services offer…",
+          "url": "https://x.com/uabmedicine/status/2093413740167246191",
           "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1009,16 +1061,16 @@
     },
     {
       "id": "l550",
-      "text": "This National #TherapeuticRecreation Week, we recognize the dedicated recreational therapists who help patients build the strength, confidence, and independence to return to the activities they enjoy most. Thank you for making a difference in the lives of our patients every day. https://t.co/JlKj7dh9CC",
+      "text": "Dr. Cassandra Newsom's lab is participating in a clinical trial evaluating an investigational treatment for children ages 3–12 with genetically confirmed Phelan-McDermid syndrome (PMS). The 19-week study includes five in-person visits and six phone/video calls.\n\n@UABMedicine https://t.co/lNOS7D72Ku",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This National #TherapeuticRecreation Week, we recognize the dedicated recreation…",
-          "url": "https://x.com/uabmedicine/status/2074146459067261292",
-          "date": "2026-07-06",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Dr. Cassandra Newsom's lab is participating in a clinical trial evaluating an in…",
+          "url": "https://x.com/UNeurobiology/status/2093338124067725718",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1030,16 +1082,16 @@
     },
     {
       "id": "l551",
-      "text": "As a leader with @StevensThon 🕺, Pujan knows first-hand the impact that fundraising has on children at CSH. This Marathon Monday, we’re excited that he has joined the CSH Foundation NYC Marathon 🗽 team to make an even bigger difference 🏃💙!  https://t.co/NsF9QYyiTD! https://t.co/CQldcijMN9",
+      "text": "UAB Medicine #UrgentCare is open seven days a week, providing expert treatment in the heart of downtown Birmingham. If you need to see a doctor today, don’t hesitate. Walk-ins are welcome, and we offer free parking in the deck behind the clinic.\n🔗 https://t.co/7C0e7NrZ7Z https://t.co/bmvUhdBI79",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "As a leader with @StevensThon 🕺, Pujan knows first-hand the impact that fundrais…",
-          "url": "https://x.com/ChildrensSpecNJ/status/2091903475395211767",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "UAB Medicine #UrgentCare is open seven days a week, providing expert treatment i…",
+          "url": "https://x.com/uabmedicine/status/2089423439761203490",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1051,16 +1103,16 @@
     },
     {
       "id": "l552",
-      "text": "How is progressive pulmonary fibrosis diagnosed—and what treatment options are available? 🫁 Teja Kulkarni, M.D., discusses recognizing PPF early, multidisciplinary evaluation, and emerging antifibrotic therapies in the latest MedCast episode. 🎙️\nhttps://t.co/fNuWa6HSaG https://t.co/WccfGGQJqg",
+      "text": "@HonestitisAbe FLALFJSKFHSKA 😭😭😭",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How is progressive pulmonary fibrosis diagnosed—and what treatment options are a…",
-          "url": "https://x.com/uabmedicine/status/2091918347336040808",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@HonestitisAbe FLALFJSKFHSKA 😭😭😭",
+          "url": "https://x.com/lvabradine/status/2093891705887920144",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1072,16 +1124,16 @@
     },
     {
       "id": "l553",
-      "text": "Our Toms River Long Term Care staff and residents had a blast during Shark Week! 🦈💙They took a trip to the aquarium, participated in themed activities, and enjoyed a visit from Bruce, the shark. Bruce even stopped by our Toms River outpatient facility 👋 https://t.co/MYEZ7jvr7d https://t.co/W9qtqdDu7P",
+      "text": "@HonestitisAbe EMILY. https://t.co/ptnwLtjRyR",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Our Toms River Long Term Care staff and residents had a blast during Shark Week!…",
-          "url": "https://x.com/ChildrensSpecNJ/status/2091556144879714685",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@HonestitisAbe EMILY. https://t.co/ptnwLtjRyR",
+          "url": "https://x.com/lvabradine/status/2092811482991825077",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1093,16 +1145,16 @@
     },
     {
       "id": "l554",
-      "text": "@ChildrensSpecNJ A BLIZZARD Treat for a great cause? That’s hero behavior!",
+      "text": "It’s National #Breastfeeding Month. 💜 Breastfeeding can come with questions, challenges, and a learning curve for new moms. UAB Medicine offers expert lactation support to help mothers feel informed and confident throughout their journey.\n\n➡️ https://t.co/T5wN5fXKj6 https://t.co/uFRSAH9Ml1",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ChildrensSpecNJ A BLIZZARD Treat for a great cause? That’s hero behavior!",
-          "url": "https://x.com/DairyQueen/status/2082841293583991257",
-          "date": "2026-07-30",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "It’s National #Breastfeeding Month. 💜 Breastfeeding can come with questions, cha…",
+          "url": "https://x.com/uabmedicine/status/2092282275333329085",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1114,16 +1166,16 @@
     },
     {
       "id": "l555",
-      "text": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr You really believe they can filter out every single nanoscopic particle of fetal tissue?",
+      "text": "@lvabradine Oouuggghh my jenis erecti",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr You really believe they can fil…",
-          "url": "https://x.com/HenryHonto/status/2092689790705508363",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@lvabradine Oouuggghh my jenis erecti",
+          "url": "https://x.com/HonestitisAbe/status/2093531032897167839",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1135,16 +1187,16 @@
     },
     {
       "id": "l556",
-      "text": "@VivekGRamaswamy All of your posts fall flat. Are you even trying? Where was the fire you had when you were running for president?",
+      "text": "@cptnefarious @pickled0ctopus @HonestitisAbe @r_nooir YEAAAHHHH",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@VivekGRamaswamy All of your posts fall flat. Are you even trying? Where was the…",
-          "url": "https://x.com/HenryHonto/status/2093071936876052913",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@cptnefarious @pickled0ctopus @HonestitisAbe @r_nooir YEAAAHHHH",
+          "url": "https://x.com/katherinacomb/status/2093721051339366888",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1156,16 +1208,16 @@
     },
     {
       "id": "l557",
-      "text": "Maybe fake news is finally dying.",
+      "text": "@HenryHonto @GovernorShapiro @RobertKennedyJr I’m going to personally add the fetus juice just for you",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Maybe fake news is finally dying.",
-          "url": "https://x.com/HenryHonto/status/2093031500698771841",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@HenryHonto @GovernorShapiro @RobertKennedyJr I’m going to personally add the fe…",
+          "url": "https://x.com/Bunch0numb3rz/status/2092700026074194405",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1177,16 +1229,16 @@
     },
     {
       "id": "l558",
-      "text": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Thank you. Going above and beyond",
+      "text": "@lvabradine https://t.co/eQtb4lcfcp",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Thank you. Going above and beyo…",
-          "url": "https://x.com/HenryHonto/status/2092700599829553263",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@lvabradine https://t.co/eQtb4lcfcp",
+          "url": "https://x.com/HonestitisAbe/status/2092812202839343170",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1198,16 +1250,16 @@
     },
     {
       "id": "l559",
-      "text": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Ah so vaccines do have fetus juice",
+      "text": "Now through Nov. 21, @UABOrtho will offer a Saturday Morning Injury Clinic at UAB Hospital-Highlands, providing convenient walk-in care for acute injuries (sports injuries, sprains, strains, possible fractures, etc.).\n\nNo appointment is necessary.\n\n🏥 https://t.co/QnFX1R2cTr https://t.co/pzhABhBTcd",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Ah so vaccines do have fetus ju…",
-          "url": "https://x.com/HenryHonto/status/2092699402427122006",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Now through Nov. 21, @UABOrtho will offer a Saturday Morning Injury Clinic at UA…",
+          "url": "https://x.com/uabmedicine/status/2093359415231496509",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1219,16 +1271,16 @@
     },
     {
       "id": "l560",
-      "text": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr https://t.co/pH6ye7lTAn",
+      "text": "Check out our recent blog post on knee braces for offensive linemen.\n\n@uabmedicine @UABSportsMed \n\nhttps://t.co/Mq69dbdT86 https://t.co/sVmNoj1w0r",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr https://t.co/pH6ye7lTAn",
-          "url": "https://x.com/HenryHonto/status/2092693531190038734",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Check out our recent blog post on knee braces for offensive linemen.\n\n@uabmedici…",
+          "url": "https://x.com/AmitMomayaMD/status/2093304526967087286",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1240,16 +1292,16 @@
     },
     {
       "id": "l561",
-      "text": "🤮",
+      "text": "This National #TherapeuticRecreation Week, we recognize the dedicated recreational therapists who help patients build the strength, confidence, and independence to return to the activities they enjoy most. Thank you for making a difference in the lives of our patients every day. https://t.co/JlKj7dh9CC",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "🤮",
-          "url": "https://x.com/HenryHonto/status/2092670473339298069",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "This National #TherapeuticRecreation Week, we recognize the dedicated recreation…",
+          "url": "https://x.com/uabmedicine/status/2074146459067261292",
+          "date": "2026-07-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1261,16 +1313,16 @@
     },
     {
       "id": "l562",
-      "text": "@UNeurobiology @uabbme @UABPathology @UABPsychiatry @UABHeersink @UABNews @uabmedicine Congratulations 🎉",
+      "text": "How is progressive pulmonary fibrosis diagnosed—and what treatment options are available? 🫁 Teja Kulkarni, M.D., discusses recognizing PPF early, multidisciplinary evaluation, and emerging antifibrotic therapies in the latest MedCast episode. 🎙️\nhttps://t.co/fNuWa6HSaG https://t.co/WccfGGQJqg",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@UNeurobiology @uabbme @UABPathology @UABPsychiatry @UABHeersink @UABNews @uabme…",
-          "url": "https://x.com/NathanASmith1/status/2093097359647383614",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "How is progressive pulmonary fibrosis diagnosed—and what treatment options are a…",
+          "url": "https://x.com/uabmedicine/status/2091918347336040808",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1282,16 +1334,16 @@
     },
     {
       "id": "l563",
-      "text": "PM&amp;R Chair @VNguyenPMR was elected to serve as vice president of ISPRM, a global organization dedicated to advancing rehabilitation medicine, education, research, and advocacy for people with disabilities. 👏@UABHeersink @uabmedicine \nhttps://t.co/JkX6awR74Q https://t.co/ARcIyQC1hq",
+      "text": "@lvabradine I misss my wifffeee even more😭 Damn you Tobias!! https://t.co/5Ic46J6BdJ",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "PM&amp;R Chair @VNguyenPMR was elected to serve as vice president of ISPRM, a gl…",
-          "url": "https://x.com/UABrehab/status/2092702225478861301",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@lvabradine I misss my wifffeee even more😭 Damn you Tobias!! https://t.co/5Ic46J…",
+          "url": "https://x.com/HonestitisAbe/status/2093772370880147967",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1303,16 +1355,16 @@
     },
     {
       "id": "l564",
-      "text": "@HenryHonto @GovernorShapiro @RobertKennedyJr Low IQ RW conspiracy theorist.",
+      "text": "@VivekGRamaswamy All of your posts fall flat. Are you even trying? Where was the fire you had when you were running for president?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@HenryHonto @GovernorShapiro @RobertKennedyJr Low IQ RW conspiracy theorist.",
-          "url": "https://x.com/todhale/status/2093089647987720311",
+          "title": "@VivekGRamaswamy All of your posts fall flat. Are you even trying? Where was the…",
+          "url": "https://x.com/HenryHonto/status/2093071936876052913",
           "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1324,16 +1376,16 @@
     },
     {
       "id": "l565",
-      "text": "@HenryHonto @VivekGRamaswamy For some reason Vivek refuses to brag about all Trump's winning",
+      "text": "Maybe fake news is finally dying.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@HenryHonto @VivekGRamaswamy For some reason Vivek refuses to brag about all Tru…",
-          "url": "https://x.com/pbbaer/status/2093081493879066936",
+          "title": "Maybe fake news is finally dying.",
+          "url": "https://x.com/HenryHonto/status/2093031500698771841",
           "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1345,16 +1397,16 @@
     },
     {
       "id": "l566",
-      "text": "@HenryHonto @Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Tiny parts of cells is not tissue...",
+      "text": "@UNeurobiology @uabbme @UABPathology @UABPsychiatry @UABHeersink @UABNews @uabmedicine Congratulations 🎉",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@HenryHonto @Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Tiny parts of cells…",
-          "url": "https://x.com/Lennert_vd_Boom/status/2093065284965847484",
+          "title": "@UNeurobiology @uabbme @UABPathology @UABPsychiatry @UABHeersink @UABNews @uabme…",
+          "url": "https://x.com/NathanASmith1/status/2093097359647383614",
           "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1366,16 +1418,16 @@
     },
     {
       "id": "l567",
-      "text": "@HenryHonto @GovernorShapiro @RobertKennedyJr Because there is no fetal tissue in any vaccine...",
+      "text": "@HenryHonto @GovernorShapiro @RobertKennedyJr Low IQ RW conspiracy theorist.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@HenryHonto @GovernorShapiro @RobertKennedyJr Because there is no fetal tissue i…",
-          "url": "https://x.com/Lennert_vd_Boom/status/2093065159644217565",
+          "title": "@HenryHonto @GovernorShapiro @RobertKennedyJr Low IQ RW conspiracy theorist.",
+          "url": "https://x.com/todhale/status/2093089647987720311",
           "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1387,16 +1439,16 @@
     },
     {
       "id": "l568",
-      "text": "Join us in congratulating to Dr. Kelly Keefe Marcoux, Chief Nursing Officer @ChildrensSpecNJ, on being named a Fellow of the American Academy of Nursing!👏👏\n\nThis is one of the highest honors in the nursing profession, and we couldn't be prouder to have such an inspiring leader in the RWJBarnabas Health family. Thank you for your dedication to our patients and families!",
+      "text": "@HenryHonto @VivekGRamaswamy For some reason Vivek refuses to brag about all Trump's winning",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Join us in congratulating to Dr. Kelly Keefe Marcoux, Chief Nursing Officer @Chi…",
-          "url": "https://x.com/RWJBarnabas/status/2079666793572893010",
-          "date": "2026-07-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@HenryHonto @VivekGRamaswamy For some reason Vivek refuses to brag about all Tru…",
+          "url": "https://x.com/pbbaer/status/2093081493879066936",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1408,16 +1460,16 @@
     },
     {
       "id": "l569",
-      "text": "Nick Jonas visited the Children's Specialized Hospital in New Brunswick, surprising patients and families with a special visit. He is so sweet 🥹❤️ #NickJonas\n\n📸: @ChildrensSpecNJ https://t.co/FZNYYeuQXa",
+      "text": "@HenryHonto @Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Tiny parts of cells is not tissue...",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Nick Jonas visited the Children's Specialized Hospital in New Brunswick, surpris…",
-          "url": "https://x.com/Bradfordsrookie/status/2073267221594284344",
-          "date": "2026-07-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@HenryHonto @Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Tiny parts of cells…",
+          "url": "https://x.com/Lennert_vd_Boom/status/2093065284965847484",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1429,16 +1481,16 @@
     },
     {
       "id": "l570",
-      "text": "@RATSFICATION I work in mental health! I’m a recreational therapists with a specialty in therapeutic art!",
+      "text": "@HenryHonto @GovernorShapiro @RobertKennedyJr Because there is no fetal tissue in any vaccine...",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@RATSFICATION I work in mental health! I’m a recreational therapists with a spec…",
-          "url": "https://x.com/HonestitisAbe/status/2042308285106098180",
-          "date": "2026-04-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@HenryHonto @GovernorShapiro @RobertKennedyJr Because there is no fetal tissue i…",
+          "url": "https://x.com/Lennert_vd_Boom/status/2093065159644217565",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1450,16 +1502,16 @@
     },
     {
       "id": "l571",
-      "text": "Congratulations to Kelly Keefe Marcoux, PhD, Vice President of Patient Care Services and Chief Nursing Officer @ChildrensSpecNJ (part of the Children’s Health network at RWJBarnabas Health), on being named the inaugural recipient of the Society of Pediatric Nurses (SPN) DAISY Award of the Year in Pediatric Nursing! The award was presented to her at the SPN’s 36th Annual Conference recently held in Orlando, Florida.\n\nThe SPN DAISY Award of the Year in Pediatric Nursing recognizes one exceptional",
+      "text": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr You really believe they can filter out every single nanoscopic particle of fetal tissue?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Congratulations to Kelly Keefe Marcoux, PhD, Vice President of Patient Care Serv…",
-          "url": "https://x.com/RWJBarnabas/status/2061878351053078907",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr You really believe they can fil…",
+          "url": "https://x.com/HenryHonto/status/2092689790705508363",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1471,16 +1523,16 @@
     },
     {
       "id": "l572",
-      "text": "FIU Researcher Dr. Tana Carson created an evidence-based program at FIU that prepares graduate students, future physical, occupational and recreational therapists, to teach swimming and water safety to children with autism, giving them the skills and confidence to thrive in the water.\n\nThis #WorldAutismAwarenessDay, meet the FIU innovators turning passion into real change. 💙 \n\n@FIUCCF \n@FIUNursing \n\nRead more: https://t.co/7He63X4yeH",
+      "text": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Thank you. Going above and beyond",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "FIU Researcher Dr. Tana Carson created an evidence-based program at FIU that pre…",
-          "url": "https://x.com/FIU/status/2039708452662956513",
-          "date": "2026-04-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Thank you. Going above and beyo…",
+          "url": "https://x.com/HenryHonto/status/2092700599829553263",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1492,16 +1544,16 @@
     },
     {
       "id": "l573",
-      "text": "This is why I exclusively patronize white male:\n\nPhysicians (MDs), Osteopathic Physicians (DOs), Surgeons, Anesthesiologists, Radiologists, Pathologists, Psychiatrists, Neurologists, Cardiologists, Dermatologists, Endocrinologists, Gastroenterologists, Geriatricians, Hematologists, Hepatologists, Immunologists, Infectious Disease Specialists, Intensivists, Nephrologists, Oncologists, Ophthalmologists, Otolaryngologists, Pulmonologists, Rheumatologists, Urologists, Obstetricians, Gynecologists, P",
+      "text": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Ah so vaccines do have fetus juice",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This is why I exclusively patronize white male:\n\nPhysicians (MDs), Osteopathic P…",
-          "url": "https://x.com/WBSApparel/status/2037701655223804109",
-          "date": "2026-03-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Ah so vaccines do have fetus ju…",
+          "url": "https://x.com/HenryHonto/status/2092699402427122006",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1513,16 +1565,16 @@
     },
     {
       "id": "l574",
-      "text": "Happy Child Life Month! We love our extraordinary Child Life Team consisting of Child Life Specialists, Music Therapists, Recreational Therapists, and Art Therapists who work hard each day to create a brighter hospital experience for our patients and families. This team provides coping skills through play, alleviate anxiety by explaining procedures in a kid-friendly way, supports families with understanding their child's diagnosis and much more. We are incredibly grateful to have them at Manning",
+      "text": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr https://t.co/pH6ye7lTAn",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Happy Child Life Month! We love our extraordinary Child Life Team consisting of …",
-          "url": "https://x.com/manfamchildrens/status/2038711153497350286",
-          "date": "2026-03-30",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr https://t.co/pH6ye7lTAn",
+          "url": "https://x.com/HenryHonto/status/2092693531190038734",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1534,6 +1586,132 @@
     },
     {
       "id": "l575",
+      "text": "🤮",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "🤮",
+          "url": "https://x.com/HenryHonto/status/2092670473339298069",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "PM&amp;R Chair @VNguyenPMR was elected to serve as vice president of ISPRM, a global organization dedicated to advancing rehabilitation medicine, education, research, and advocacy for people with disabilities. 👏@UABHeersink @uabmedicine \nhttps://t.co/JkX6awR74Q https://t.co/ARcIyQC1hq",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "PM&amp;R Chair @VNguyenPMR was elected to serve as vice president of ISPRM, a gl…",
+          "url": "https://x.com/UABrehab/status/2092702225478861301",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "@RATSFICATION I work in mental health! I’m a recreational therapists with a specialty in therapeutic art!",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@RATSFICATION I work in mental health! I’m a recreational therapists with a spec…",
+          "url": "https://x.com/HonestitisAbe/status/2042308285106098180",
+          "date": "2026-04-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "This is why I exclusively patronize white male:\n\nPhysicians (MDs), Osteopathic Physicians (DOs), Surgeons, Anesthesiologists, Radiologists, Pathologists, Psychiatrists, Neurologists, Cardiologists, Dermatologists, Endocrinologists, Gastroenterologists, Geriatricians, Hematologists, Hepatologists, Immunologists, Infectious Disease Specialists, Intensivists, Nephrologists, Oncologists, Ophthalmologists, Otolaryngologists, Pulmonologists, Rheumatologists, Urologists, Obstetricians, Gynecologists, P",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "This is why I exclusively patronize white male:\n\nPhysicians (MDs), Osteopathic P…",
+          "url": "https://x.com/WBSApparel/status/2037701655223804109",
+          "date": "2026-03-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "FIU Researcher Dr. Tana Carson created an evidence-based program at FIU that prepares graduate students, future physical, occupational and recreational therapists, to teach swimming and water safety to children with autism, giving them the skills and confidence to thrive in the water.\n\nThis #WorldAutismAwarenessDay, meet the FIU innovators turning passion into real change. 💙 \n\n@FIUCCF \n@FIUNursing \n\nRead more: https://t.co/7He63X4yeH",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "FIU Researcher Dr. Tana Carson created an evidence-based program at FIU that pre…",
+          "url": "https://x.com/FIU/status/2039708452662956513",
+          "date": "2026-04-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "Happy Child Life Month! We love our extraordinary Child Life Team consisting of Child Life Specialists, Music Therapists, Recreational Therapists, and Art Therapists who work hard each day to create a brighter hospital experience for our patients and families. This team provides coping skills through play, alleviate anxiety by explaining procedures in a kid-friendly way, supports families with understanding their child's diagnosis and much more. We are incredibly grateful to have them at Manning",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Happy Child Life Month! We love our extraordinary Child Life Team consisting of …",
+          "url": "https://x.com/manfamchildrens/status/2038711153497350286",
+          "date": "2026-03-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
       "text": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researchers are increasingly using the term to describe cases where people develop or strengthen psychotic symptoms, especially delusions, after prolonged use of AI chatbots. With increasing use of chatbots for therapy, and even AI \"companions,\" what does this mean? Come on in!\n\nPatreon: https://www.patreon.com/GeorgRockallSchmidt \nLeave a tip: paypal.me/GeorgRockallSchmidt \nTwitter: https://twitter.com/grockallschmidt \nBlu…",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1543,280 +1721,7 @@
           "title": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researc…",
           "url": "https://www.youtube.com/watch?v=lt6SnAxRopQ",
           "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l476",
-      "text": "Diversional Therapy Assistant (531487) — Department of Health, Tasmania (West Coast, Tasmania, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department of Health, Tasmania",
-          "title": "Diversional Therapy Assistant (531487)",
-          "url": "https://www.linkedin.com/jobs/view/4450191968",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l477",
-      "text": "Allied Health - Mental Health and Alcohol & Other Drugs Talent Pool - Queensland Health — Metro South Health (Greater Brisbane Area). Posted 4 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Metro South Health",
-          "title": "Allied Health - Mental Health and Alcohol & Other Drugs Talent Pool - Queensland Health",
-          "url": "https://www.linkedin.com/jobs/view/4396237997",
-          "date": "4 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l478",
-      "text": "Case Managers - Aranda House Therapeutic Community — Drug & Alcohol Services Australia (Alice Springs, Northern Territory, Australia). Posted 2 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Drug & Alcohol Services Australia",
-          "title": "Case Managers - Aranda House Therapeutic Community",
-          "url": "https://www.linkedin.com/jobs/view/4456851771",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l479",
-      "text": "Clinician — Department of Justice and Community Safety, Victoria (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department of Justice and Community Safety, Victoria",
-          "title": "Clinician",
-          "url": "https://www.linkedin.com/jobs/view/4451644109",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l480",
-      "text": "Recovery Clinician — Mercy Health Australia (Footscray, Victoria, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Mercy Health Australia",
-          "title": "Recovery Clinician",
-          "url": "https://www.linkedin.com/jobs/view/4448591210",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l481",
-      "text": "FT / PT / CASUAL: Senior / Rehabilitation Consultant OT, Psych, Rehab Counsellor – Townsville — Strive Occupational Rehabilitation (Townsville, Queensland, Australia). Posted 1 month ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Strive Occupational Rehabilitation",
-          "title": "FT / PT / CASUAL: Senior / Rehabilitation Consultant OT, Psych, Rehab Counsellor – Townsville",
-          "url": "https://www.linkedin.com/jobs/view/4443369914",
-          "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l482",
-      "text": "Allied Health - Mental Health and Alcohol & Other Drugs Talent Pool - Queensland Health — West Moreton Hospital and Health Service (Greater Brisbane Area). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "West Moreton Hospital and Health Service",
-          "title": "Allied Health - Mental Health and Alcohol & Other Drugs Talent Pool - Queensland Health",
-          "url": "https://www.linkedin.com/jobs/view/4394326160",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l483",
-      "text": "Key Worker - Hobart — Everyday Independence (Hobart, Tasmania, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Everyday Independence",
-          "title": "Key Worker - Hobart",
-          "url": "https://www.linkedin.com/jobs/view/4451019858",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l484",
-      "text": "Mental Health Clinician — Queensland Corrective Services (Brisbane, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Queensland Corrective Services",
-          "title": "Mental Health Clinician",
-          "url": "https://www.linkedin.com/jobs/view/4453251259",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l485",
-      "text": "Program Facilitator — Serco (Wooroloo, Western Australia, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Serco",
-          "title": "Program Facilitator",
-          "url": "https://www.linkedin.com/jobs/view/4453676526",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l586",
-      "text": "Software Development After AI\nI think the software industry is going to face a major disruption in the next few years. We are getting close to a point where you could have one AI agent analyze an existing app, map out its features, understand how it works, and then have another AI agent rebuild it from scratch with a new design, different UI elements, and new branding. The result could be a near identical alternative that offers the same functionality but is released for free or at a much lower …",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Software Development After AI\nI think the software industry is going to face a m…",
-          "url": "https://www.reddit.com/r/vibecoding/comments/1vbb5bh/software_development_after_ai/",
-          "date": "2026-07-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l587",
-      "text": "ChatGPT is crazy good at turning anti-AI copypastas into infographics. I use them to respond to pro-AI sentiment bc it puts antis on the backfoot trying to defend their cringe and delusional talking points, and the option to straw man isn't available bc it's already been called out in advance\nText versions for everywhere that images aren&#39;t available: Listen dude. I understand this stuff. I did a VBScript assignment in highschool where we had to copy images from a folder and output a collage …",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "ChatGPT is crazy good at turning anti-AI copypastas into infographics. I use the…",
-          "url": "https://www.reddit.com/r/DefendingAIArt/comments/1vmdp53/chatgpt_is_crazy_good_at_turning_antiai/",
-          "date": "2026-08-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l588",
-      "text": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researchers are increasingly using the term to describe cases where people develop or strengthen psychotic symptoms, especially delusions, after prolonged use of AI chatbots. With increasing use of chatbots for therapy, and even AI \"companions,\" what does this mean? Come on in!\n\nPatreon: https://www.patreon.com/GeorgRockallSchmidt \nLeave a tip: paypal.me/GeorgRockallSchmidt \nTwitter: https://twitter.com/grockallschmidt \nBlu…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researc…",
-          "url": "https://www.youtube.com/watch?v=lt6SnAxRopQ",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1827,77 +1732,99 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
-  "jobAds": {
-    "source": "adzuna-au",
-    "query": "recreational therapists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
-  },
   "corpus": {
-    "platforms": [
+    "retrieved": "2026-08-30",
+    "factiva": [],
+    "searchesReturningNothing": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Recreational Therapists Association discourse",
-        "items": 45
-      }
-    ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
-    "linkedin": [
-      {
-        "status": "sampled",
-        "query": "Recreational Therapists",
-        "location": "Australia",
-        "returned": 10,
-        "source": "linkedin (unofficial scrape)",
-        "_raw": "data/professions/29-1125/raw/linkedin_l4.json"
+        "lane": "L3",
+        "source": "factiva-au",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired; logged to backlog by orchestrator",
+        "date": "2026-08-30"
       },
       {
-        "date": "2026-08-29",
+        "lane": "L4",
+        "source": "linkedin (unofficial scrape)",
+        "status": "off_target",
+        "detail": "Returned 10 allied-health/mental-health postings; 0 Recreational/Diversional Therapist-specific. Not folded as claims.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "status": "unreachable",
+        "detail": "last30days grounding source unreachable this run.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L5",
+        "source": "jobs",
+        "status": "unreachable",
+        "detail": "last30days jobs source unreachable this run.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L5",
+        "source": "last30days",
+        "status": "low_signal_off_topic",
+        "detail": "Engine returned 70 items (hackernews 24, x 45, youtube 1) but all are generic AI discourse or off-topic social posts with NO recreational-therapist-specific discussion; the HN items are identical to the prior fabricated set, indicating a stale/contaminated library. 0 items folded as L5 claims.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L5",
+        "source": "reddit",
+        "status": "no-results",
+        "detail": "Reddit returned 0 items for the occupation/AI query.",
+        "date": "2026-08-30"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "last30days",
+        "scope": "reddit,x,youtube,hackernews,github,polymarket (grounding & jobs unreachable)",
+        "items": 70,
+        "note": "Returned items generic/off-topic; 0 occupation-specific. Declared for provenance; not used as L5 claims."
+      }
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-30",
         "soc": "29-1125",
-        "query": "Recreational Therapists",
-        "location": "Australia",
+        "query": "Recreational Therapists / Diversional Therapist (Australia)",
+        "status": "off_target_no_fold",
         "returned": 10,
-        "totalResults": 10,
-        "status": "sampled"
+        "detail": "LinkedIn MCP unofficial scraper returned only allied-health/mental-health roles (Occupational Therapist, Psychologist, Rehab Counsellor, allied-health EOIs); no Recreational/Diversional Therapist-specific postings. Not folded as L4 claims to avoid misattributing OT demand to this SOC."
       }
     ],
     "l5Sample": [
       {
-        "date": "2026-08-29",
-        "added": 73,
+        "date": "2026-08-30",
+        "soc": "29-1125",
+        "engine": "last30days",
+        "status": "ran_low_signal",
+        "items_returned": 70,
+        "items_folded": 0,
         "sources": {
+          "hackernews": 24,
+          "x": 45,
+          "youtube": 1,
+          "reddit": 0,
           "github": 0,
           "grounding": 0,
-          "hackernews": 24,
-          "jobs": 0,
-          "reddit": 3,
-          "x": 45,
-          "youtube": 1
+          "jobs": 0
         },
-        "status": "sampled"
+        "note": "All returned items are generic AI discourse (hackernews) or off-topic social posts (x); no occupation-specific practitioner discussion of AI exposure. Not folded as claims to avoid re-introducing the prior fabricated set."
       },
       {
-        "date": "2026-08-29",
-        "added": 3,
+        "date": "2026-08-30",
+        "added": 70,
         "sources": {
           "github": 0,
           "grounding": 0,
           "hackernews": 24,
           "jobs": 0,
-          "reddit": 3,
+          "reddit": 0,
           "x": 45,
           "youtube": 1
         },
@@ -1905,6 +1832,49 @@
       }
     ]
   },
-  "confidence": "high",
-  "caveats": []
+  "jobAds": {
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "recreational therapist",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+      "count": 13,
+      "returned": 13,
+      "topEmployers": [
+        "Montefiore",
+        "Buckland Aged Care Services",
+        "Mt. Pleasant YPN",
+        "Montefiore Home",
+        "St Vincent’s Health Australia",
+        "St Vincent's Care Services",
+        "Baisie Therapy Services"
+      ],
+      "topSkills": [
+        "aged care"
+      ]
+    },
+    "seek": {
+      "source": "seek.com.au (web_search snapshot 2026-08-30)",
+      "query": "Diversional Therapist / Recreational Therapist Australia",
+      "observedCounts": {
+        "diversionalTherapistJobs": 369,
+        "diversionalJobsBroad": 72,
+        "onSiteDiversionalTherapyJobs": 1731
+      },
+      "topEmployersObserved": [
+        "Montefiore",
+        "St Vincent's Health Australia",
+        "integratedliving Australia"
+      ],
+      "note": "Counts observed from SEEK search-result pages (web_search), not a live API pull. 'Diversional Therapist' returns ~369 jobs; broader 'diversional' ~1,731 on-site roles. Top employers are aged-care NFP and health providers. Do not treat as a precise vacancy count."
+    }
+  },
+  "caveats": [
+    "anzsco '220000' is a placeholder carried from the prior ledger. The Australian equivalent of US O*NET 29-1125 Recreational Therapists is ANZSCO 411311/411331 Diversional Therapist (alternative title 'Recreational Therapist') per ABS ANZSCO - verify against the current ABS ANZSCO before relying on the code.",
+    "Factiva (L3) was auth-expired this run; L3 was supplied via web trade-press and professional-body sources instead. Logged to factiva backlog by orchestrator.",
+    "All prior (2026-08-24/29) claims for this SOC were fabricated and have been discarded; this ledger is rebuilt from empirical research performed 2026-08-30.",
+    "L2 figures describe ANZSCO 4113 (group) and OSCA 411331 (occupation); small-cell confidentiality suppresses some breakdowns.",
+    "L5 practitioner discourse (last30days) returned 70 items but NONE are occupation-specific: the HackerNews items are generic AI-discourse posts (identical to the prior fabricated set, indicating a stale library) and the X items are off-topic social posts. No L5 claims were folded; L5 is recorded as a low-signal coverage gap, not usable evidence.",
+    "LinkedIn L4 (unofficial scraper) returned only allied-health/mental-health roles (Occupational Therapist, Psychologist, Rehab Counsellor); no Recreational/Diversional Therapist-specific postings were found, so no LinkedIn L4 claims were folded.",
+    "L4 demand evidence is thin: Adzuna returned 13 all-time index matches (a few on-target Diversional Therapist / Leisure & Lifestyle roles amid broader allied-health matches); SEEK observed ~369 'Diversional Therapist' and ~1,731 on-site 'diversional therapy' jobs via web_search snapshot (not a live API count)."
+  ]
 }
