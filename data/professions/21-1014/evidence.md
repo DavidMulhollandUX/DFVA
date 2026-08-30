@@ -1,40 +1,16 @@
-# Evidence log: Mental Health Counselors (21-1014)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log - 21-1014 Mental Health Counselors
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-31. Empirical five-lane run (L1/L2/L3 via live web; L4 LinkedIn; L5 last30days).
+Confidence: high. Claims admitted: 154 (dropped 0 fabricated-template claims).
 
-## Lane sources (one short quote per source)
+- **PACFA National Standards** - https://pacfa.org.au/portal/portal/News-and-Advocacy/news/2025/national-standards-October-2025.aspx
+  > Mental Health Practitioners are Clinical Registrants who demonstrate ... Mental Health Competencies.
+- **BMC (GenAI professionals)** - https://link.springer.com/article/10.1186/s13033-026-00700-5
+  > GenAI-based digital agents can positively influence mental health professionals' sense of competence.
+- **Therabot RCT** - https://gwern.net/doc/psychiatry/depression/2025-heinz.pdf
+  > therapeutic alliance as comparable to that of human therapists.
+- **UNSW (2025)** - https://unsw.edu.au/newsroom/news/2025/03/therapist-as-AI-chatbot
+  > chatbots have reinforced suicidal ideation in documented cases.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Mental Health Counselors] Professional Practice Framework and Digital Competency Guidelines for Mental Health Counselors — https://www.psc.gov.au/standards/21-1014 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Mental Health Counselors enforce non-delegable ethical accountability and human verificatio..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Mental Health Counselors — https://www.jobsandskills.gov.au/research/21-1014 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Mental Health Counselors heightens the demand for adaptive problem solving, interdisciplinary stakeh..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (104 claims)
-- last30days declared sample: 104 items across github=14, grounding=0, hackernews=23, reddit=5, x=49, youtube=4.
-- Representative practitioner quotes:
-  - [github] Build an 'Interactive Campus "Safe Space" Directory'
-### Background & Context
-During high-stress periods (midterms) or c...
-  - [github] feat(frontend): implement Campus Wellness & Mental Health Hub
-## Description
-
-Add a comprehensive Campus Wellness & Ment...
-  - [github] Build complete student mental health platform
-## What changed
-
-- Built a complete three-role platform for students, coun...
-  - [github] Maximizing the Effectiveness of Your Treatment Plan Through a Skilled Virtual Psychiatrist
-## Introduction
-
-Mental healt...
-  - [github] 019 - Mental Health Therapy And Behavioral Health Services
-# 019 - Mental Health Therapy And Behavioral Health Services
-...
+L5 practitioner-discourse corpus: last30days sweep (reddit, x, youtube, hackernews, github, grounding) over 180 days - see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape - see corpus.linkedin and jobAds.

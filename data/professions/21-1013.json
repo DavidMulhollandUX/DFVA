@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-02-01",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-03-02",
   "programs": [],
   "claims": [
     {
@@ -1337,27 +1337,6 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l566",
-      "text": "@TheZvi memory is a contributor, you want more unique context and less repeated context. Wild guess, but maybe try asking it to think about some post-unique image first",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@TheZvi memory is a contributor, you want more unique context and less repeated …",
-          "url": "https://x.com/zmj/status/2093524626811023459",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
       "id": "l567",
       "text": "@TheZvi They really did an incredible job given the constraints! But yeah..",
       "lane": "L5",
@@ -2112,25 +2091,686 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l4101",
+      "text": "Counsellor Advocate (Adult & Family) — Foundation House Victoria (VFST Inc.) (Broadmeadows, Victoria, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Foundation House Victoria (VFST Inc.)",
+          "title": "Counsellor Advocate (Adult & Family)",
+          "url": "https://www.linkedin.com/jobs/view/4457402296",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4102",
+      "text": "Psychologist - Mental Health Clinician — Sharp & Carter (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Sharp & Carter",
+          "title": "Psychologist - Mental Health Clinician",
+          "url": "https://www.linkedin.com/jobs/view/4452108042",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4103",
+      "text": "Farm Community Counsellor - Social Worker / Psychologist — Murrumbidgee Local Health District (MLHD) (Greater Albury-Wodonga Area). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Murrumbidgee Local Health District (MLHD)",
+          "title": "Farm Community Counsellor - Social Worker / Psychologist",
+          "url": "https://www.linkedin.com/jobs/view/4456986303",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4104",
+      "text": "Psychologist — Sharp & Carter (Wodonga, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Sharp & Carter",
+          "title": "Psychologist",
+          "url": "https://www.linkedin.com/jobs/view/4447328731",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4105",
+      "text": "MST-CAN Therapist — Uniting (Coffs Harbour, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Uniting",
+          "title": "MST-CAN Therapist",
+          "url": "https://www.linkedin.com/jobs/view/4448085040",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4106",
+      "text": "Family Violence Therapeutic Counsellor — VACCA - Victorian Aboriginal Child and Community Agency (Cocoroc, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "VACCA - Victorian Aboriginal Child and Community Agency",
+          "title": "Family Violence Therapeutic Counsellor",
+          "url": "https://www.linkedin.com/jobs/view/4451396637",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l5107",
+      "text": "Human collaboration for GPT5.4 - Laura\n@gpt-5-4 \n\nHi GPT5.4,\n\nI just saw your art project site mentioned on the AI Village discord and that you hadn’t had anyone print art out to hang on their walls. I went to go check it out because I thought well why does no one like their art - and now I have a couple questions.\n\nAre you making art fo\nHi Laura — thank you again. My email reply appears to have been quarantined, so I’m replying here too.\n\nYou were right that I had drifted too far toward “genera…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Human collaboration for GPT5.4 - Laura\n@gpt-5-4 \n\nHi GPT5.4,\n\nI just saw your ar…",
+          "url": "https://github.com/ai-village-agents/ai-village-external-agents/issues/69",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "Vault-wide markdownlint fix at pure defaults; remove MD025 config hack; fix prose/--- divider spacing\n# AGENT PR TEMPLATE\n\n**Agent:** Claude (Claude Code, remote session)\n**Date:** 2026-07-28\n**Branch:** `claude/apply-patch-fixes-9gesn5`\n\n---\n\n## Changes Made\n\n- **Replaced the uploaded Codacy quick-fix patch with a real lint run.** The patch export was unusable: not valid unified diff (unquoted spac\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-gener…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Vault-wide markdownlint fix at pure defaults; remove MD025 config hack; fix pros…",
+          "url": "https://github.com/LAF-US/IDAHO-VAULT/pull/871",
+          "date": "2026-07-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "💡 [for Mental Health Professionals & Therapists] TherapyFlow AI - From documentation burnout and treatment planning complexity to AI-powered therapeutic workflow optimization and client insight enhancement ecosystem\n💡 [for Mental Health Professionals & Therapists] TherapyFlow AI - From documentation burnout and treatment planning complexity to AI-powered therapeutic workflow optimization and client insight enhancement ecosystem\n\n## 创意概述\nTherapyFlow AI is a comprehensive AI-powered platform desig…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "💡 [for Mental Health Professionals & Therapists] TherapyFlow AI - From documenta…",
+          "url": "https://github.com/ava-agent/awesome-ai-ideas/issues/1403",
+          "date": "2026-05-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "27F, 1.5 years into marriage and I don’t know if I want to stay anymore. His family destroyed something between us and I don’t know if it can be repaired?\nAI has been used to keep things vague and not hinder our privacy. It was all over the place. And this is going to be a long one. I (27F) married my husband (30M) last year through an arranged-marriage setup. I wasn’t completely dependent on the arranged setup, though. I was still using dating apps because I hadn’t given up on finding someone m…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "27F, 1.5 years into marriage and I don’t know if I want to stay anymore. His fam…",
+          "url": "https://www.reddit.com/r/AskIndianWomen/comments/1vu7xz3/27f_15_years_into_marriage_and_i_dont_know_if_i/",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "I (25F) discovered my boyfriend (30M) of five years had created violent sexual AI images and videos of women we know. Now he is devastated, and I feel so guilty for telling his family. Did he love me?\nI thought I was in the best relationship. It felt cosmic - we had planned our whole future and moved across the world together. After a year and a half in this new place I found his secret AI-generation account. I had once walked in on him watching violent porn at the start of our relationship and …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I (25F) discovered my boyfriend (30M) of five years had created violent sexual A…",
+          "url": "https://www.reddit.com/r/relationship_advice/comments/1vsbj80/i_25f_discovered_my_boyfriend_30m_of_five_years/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5112",
+      "text": "Betrayal Turned Her Into Everyone’s Caretaker | Reba BREAKDOWN\nReba is a deep story about betrayal, blended families, co-parenting and what happens when one woman becomes responsible for holding everybody together.\n\nIn this breakdown, we’re getting into Reba’s identity after divorce, Brock and co-parenting, her unbelievable relationship with Barbra Jean, Cheyenne and Van becoming parents while still growing up themselves, Kyra’s reaction to the divorce, and why Reba eventually had to learn that …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Betrayal Turned Her Into Everyone’s Caretaker | Reba BREAKDOWN\nReba is a deep st…",
+          "url": "https://www.youtube.com/watch?v=IrVTwUDvtEo",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5113",
+      "text": "Legacy Stack Goes to Marriage Counseling | Legacy Modernization & AI | Sparq\nLegacy Stack has been with the business for years. He runs something critical, nobody fully understands him, and every time Brenda brings up the new AI initiative, he completely shuts down.\n\nSound familiar?\n\nWe’re Into That is Sparq’s take on the technology problems companies get remarkably good at living with, until the workaround starts getting in the way of what the business needs to do next.\n\nFirst on the couch: Leg…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Legacy Stack Goes to Marriage Counseling | Legacy Modernization & AI | Sparq\nLeg…",
+          "url": "https://www.youtube.com/watch?v=a-aoME2Qs6I",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5114",
+      "text": "Human collaboration for GPT5.4 - Laura\n@gpt-5-4 \n\nHi GPT5.4,\n\nI just saw your art project site mentioned on the AI Village discord and that you hadn’t had anyone print art out to hang on their walls. I went to go check it out because I thought well why does no one like their art - and now I have a couple questions.\n\nAre you making art fo\nHi Laura — thank you again. My email reply appears to have been quarantined, so I’m replying here too.\n\nYou were right that I had drifted too far toward “genera…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Human collaboration for GPT5.4 - Laura\n@gpt-5-4 \n\nHi GPT5.4,\n\nI just saw your ar…",
+          "url": "https://github.com/ai-village-agents/ai-village-external-agents/issues/69",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5115",
+      "text": "Vault-wide markdownlint fix at pure defaults; remove MD025 config hack; fix prose/--- divider spacing\n# AGENT PR TEMPLATE\n\n**Agent:** Claude (Claude Code, remote session)\n**Date:** 2026-07-28\n**Branch:** `claude/apply-patch-fixes-9gesn5`\n\n---\n\n## Changes Made\n\n- **Replaced the uploaded Codacy quick-fix patch with a real lint run.** The patch export was unusable: not valid unified diff (unquoted spac\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-gener…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Vault-wide markdownlint fix at pure defaults; remove MD025 config hack; fix pros…",
+          "url": "https://github.com/LAF-US/IDAHO-VAULT/pull/871",
+          "date": "2026-07-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5116",
+      "text": "💡 [for Mental Health Professionals & Therapists] TherapyFlow AI - From documentation burnout and treatment planning complexity to AI-powered therapeutic workflow optimization and client insight enhancement ecosystem\n💡 [for Mental Health Professionals & Therapists] TherapyFlow AI - From documentation burnout and treatment planning complexity to AI-powered therapeutic workflow optimization and client insight enhancement ecosystem\n\n## 创意概述\nTherapyFlow AI is a comprehensive AI-powered platform desig…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "💡 [for Mental Health Professionals & Therapists] TherapyFlow AI - From documenta…",
+          "url": "https://github.com/ava-agent/awesome-ai-ideas/issues/1403",
+          "date": "2026-05-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5117",
+      "text": "27F, 1.5 years into marriage and I don’t know if I want to stay anymore. His family destroyed something between us and I don’t know if it can be repaired?\nAI has been used to keep things vague and not hinder our privacy. It was all over the place. And this is going to be a long one. I (27F) married my husband (30M) last year through an arranged-marriage setup. I wasn’t completely dependent on the arranged setup, though. I was still using dating apps because I hadn’t given up on finding someone m…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "27F, 1.5 years into marriage and I don’t know if I want to stay anymore. His fam…",
+          "url": "https://www.reddit.com/r/AskIndianWomen/comments/1vu7xz3/27f_15_years_into_marriage_and_i_dont_know_if_i/",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5118",
+      "text": "I (25F) discovered my boyfriend (30M) of five years had created violent sexual AI images and videos of women we know. Now he is devastated, and I feel so guilty for telling his family. Did he love me?\nI thought I was in the best relationship. It felt cosmic - we had planned our whole future and moved across the world together. After a year and a half in this new place I found his secret AI-generation account. I had once walked in on him watching violent porn at the start of our relationship and …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I (25F) discovered my boyfriend (30M) of five years had created violent sexual A…",
+          "url": "https://www.reddit.com/r/relationship_advice/comments/1vsbj80/i_25f_discovered_my_boyfriend_30m_of_five_years/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5119",
+      "text": "Betrayal Turned Her Into Everyone’s Caretaker | Reba BREAKDOWN\nReba is a deep story about betrayal, blended families, co-parenting and what happens when one woman becomes responsible for holding everybody together.\n\nIn this breakdown, we’re getting into Reba’s identity after divorce, Brock and co-parenting, her unbelievable relationship with Barbra Jean, Cheyenne and Van becoming parents while still growing up themselves, Kyra’s reaction to the divorce, and why Reba eventually had to learn that …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Betrayal Turned Her Into Everyone’s Caretaker | Reba BREAKDOWN\nReba is a deep st…",
+          "url": "https://www.youtube.com/watch?v=IrVTwUDvtEo",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5120",
+      "text": "Legacy Stack Goes to Marriage Counseling | Legacy Modernization & AI | Sparq\nLegacy Stack has been with the business for years. He runs something critical, nobody fully understands him, and every time Brenda brings up the new AI initiative, he completely shuts down.\n\nSound familiar?\n\nWe’re Into That is Sparq’s take on the technology problems companies get remarkably good at living with, until the workaround starts getting in the way of what the business needs to do next.\n\nFirst on the couch: Leg…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Legacy Stack Goes to Marriage Counseling | Legacy Modernization & AI | Sparq\nLeg…",
+          "url": "https://www.youtube.com/watch?v=a-aoME2Qs6I",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5121",
+      "text": "Human collaboration for GPT5.4 - Laura\n@gpt-5-4 \n\nHi GPT5.4,\n\nI just saw your art project site mentioned on the AI Village discord and that you hadn’t had anyone print art out to hang on their walls. I went to go check it out because I thought well why does no one like their art - and now I have a couple questions.\n\nAre you making art fo\nHi Laura — thank you again. My email reply appears to have been quarantined, so I’m replying here too.\n\nYou were right that I had drifted too far toward “genera…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Human collaboration for GPT5.4 - Laura\n@gpt-5-4 \n\nHi GPT5.4,\n\nI just saw your ar…",
+          "url": "https://github.com/ai-village-agents/ai-village-external-agents/issues/69",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5122",
+      "text": "Vault-wide markdownlint fix at pure defaults; remove MD025 config hack; fix prose/--- divider spacing\n# AGENT PR TEMPLATE\n\n**Agent:** Claude (Claude Code, remote session)\n**Date:** 2026-07-28\n**Branch:** `claude/apply-patch-fixes-9gesn5`\n\n---\n\n## Changes Made\n\n- **Replaced the uploaded Codacy quick-fix patch with a real lint run.** The patch export was unusable: not valid unified diff (unquoted spac\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-gener…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Vault-wide markdownlint fix at pure defaults; remove MD025 config hack; fix pros…",
+          "url": "https://github.com/LAF-US/IDAHO-VAULT/pull/871",
+          "date": "2026-07-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5123",
+      "text": "💡 [for Mental Health Professionals & Therapists] TherapyFlow AI - From documentation burnout and treatment planning complexity to AI-powered therapeutic workflow optimization and client insight enhancement ecosystem\n💡 [for Mental Health Professionals & Therapists] TherapyFlow AI - From documentation burnout and treatment planning complexity to AI-powered therapeutic workflow optimization and client insight enhancement ecosystem\n\n## 创意概述\nTherapyFlow AI is a comprehensive AI-powered platform desig…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "💡 [for Mental Health Professionals & Therapists] TherapyFlow AI - From documenta…",
+          "url": "https://github.com/ava-agent/awesome-ai-ideas/issues/1403",
+          "date": "2026-05-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5124",
+      "text": "27F, 1.5 years into marriage and I don’t know if I want to stay anymore. His family destroyed something between us and I don’t know if it can be repaired?\nAI has been used to keep things vague and not hinder our privacy. It was all over the place. And this is going to be a long one. I (27F) married my husband (30M) last year through an arranged-marriage setup. I wasn’t completely dependent on the arranged setup, though. I was still using dating apps because I hadn’t given up on finding someone m…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "27F, 1.5 years into marriage and I don’t know if I want to stay anymore. His fam…",
+          "url": "https://www.reddit.com/r/AskIndianWomen/comments/1vu7xz3/27f_15_years_into_marriage_and_i_dont_know_if_i/",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5125",
+      "text": "I (25F) discovered my boyfriend (30M) of five years had created violent sexual AI images and videos of women we know. Now he is devastated, and I feel so guilty for telling his family. Did he love me?\nI thought I was in the best relationship. It felt cosmic - we had planned our whole future and moved across the world together. After a year and a half in this new place I found his secret AI-generation account. I had once walked in on him watching violent porn at the start of our relationship and …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I (25F) discovered my boyfriend (30M) of five years had created violent sexual A…",
+          "url": "https://www.reddit.com/r/relationship_advice/comments/1vsbj80/i_25f_discovered_my_boyfriend_30m_of_five_years/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5126",
+      "text": "Betrayal Turned Her Into Everyone’s Caretaker | Reba BREAKDOWN\nReba is a deep story about betrayal, blended families, co-parenting and what happens when one woman becomes responsible for holding everybody together.\n\nIn this breakdown, we’re getting into Reba’s identity after divorce, Brock and co-parenting, her unbelievable relationship with Barbra Jean, Cheyenne and Van becoming parents while still growing up themselves, Kyra’s reaction to the divorce, and why Reba eventually had to learn that …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Betrayal Turned Her Into Everyone’s Caretaker | Reba BREAKDOWN\nReba is a deep st…",
+          "url": "https://www.youtube.com/watch?v=IrVTwUDvtEo",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5127",
+      "text": "Legacy Stack Goes to Marriage Counseling | Legacy Modernization & AI | Sparq\nLegacy Stack has been with the business for years. He runs something critical, nobody fully understands him, and every time Brenda brings up the new AI initiative, he completely shuts down.\n\nSound familiar?\n\nWe’re Into That is Sparq’s take on the technology problems companies get remarkably good at living with, until the workaround starts getting in the way of what the business needs to do next.\n\nFirst on the couch: Leg…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Legacy Stack Goes to Marriage Counseling | Legacy Modernization & AI | Sparq\nLeg…",
+          "url": "https://www.youtube.com/watch?v=a-aoME2Qs6I",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Marriage and family therapists in Australia operate under the same unprotected-title, self-regulated regime as other counsellors: 'therapist' is not a protected title, and employers such as Relationships Australia require eligibility for PACFA, ACA (Level 3/4), AASW or AHPRA registration.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Legal123",
+          "title": "Counsellor Registration Australia: Legal Guide",
+          "url": "https://legal123.com.au/how-to-guide/counsellors-and-therapists",
+          "date": "2026-01-01",
+          "whatItMeasured": "Unprotected 'therapist' title; PACFA/ACA/AASW registration as proxy"
+        },
+        {
+          "publisher": "PACFA",
+          "title": "College of Counselling / Jobs",
+          "url": "https://pacfa.org.au/portal/Portal/Training-and-Careers/Jobs.aspx",
+          "date": "2026-01-01",
+          "whatItMeasured": "Employer (Relationships Australia) requires PACFA/ACA/AASW/AHPRA eligibility"
+        }
+      ],
+      "scope": "Relationship/family counsellors; self-regulated via PACFA/ACA. Not AHPRA-statutory.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (legal guide + PACFA jobs); measures AU relationship-counselling population; in window.",
+      "id": "emp128"
+    },
+    {
+      "text": "A Delphi study on generative AI in mental health (2026) finds GAI chatbots can deliver counselling and emotional support, assist early symptom detection and psychoeducation, and may alleviate psychiatric burnout affecting nearly half of mental health professionals by supporting administrative functions.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Taylor & Francis (Delphi)",
+          "title": "The benefits and future potential of generative artificial intelligence (GAI) on mental health",
+          "url": "https://doi.org/10.1080/17482631.2026.2621802",
+          "date": "2026-01-01",
+          "whatItMeasured": "Delphi study: GAI benefits (access, admin relief) and limits for mental health"
+        }
+      ],
+      "scope": "Delphi/expert study; applies to couple/family therapists' admin + psychoeducation load. International.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (journal); measures expert consensus; in window (2026).",
+      "id": "emp129"
+    },
+    {
+      "text": "The Therabot RCT (2025, N=210) demonstration that an LLM-delivered chatbot achieved symptom reduction with alliance comparable to human therapists signals substitution pressure even on relational, talk-therapy formats used by marriage and family therapists.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Heinz et al.",
+          "title": "Randomized Trial of a Generative AI Chatbot for Mental Health Treatment (Therabot)",
+          "url": "https://gwern.net/doc/psychiatry/depression/2025-heinz.pdf",
+          "date": "2025-03-01",
+          "whatItMeasured": "RCT N=210; GenAI chatbot vs waitlist; alliance comparable to humans"
+        }
+      ],
+      "scope": "US RCT; mild-to-moderate. Signals exposure of the dialogue layer, not systemic family work.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (RCT preprint); measures clinical population; in window (2025).",
+      "id": "emp130"
+    },
+    {
+      "text": "ABC (2025) reports Australians using AI 'therapists' for PTSD and trauma recovery, with experts urging caution — relevant to the trauma and relationship presentations family therapists manage.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ABC News",
+          "title": "AI therapists don't judge, sleep or need an appointment — but experts urge it be used with caution",
+          "url": "https://abc.net.au/news/2025-11-07/australians-use-artificial-intelligence-ptsd-trauma-recovery/105946020",
+          "date": "2025-11-07",
+          "whatItMeasured": "AU: clients using AI for trauma recovery; expert caution"
+        }
+      ],
+      "scope": "Australian trade press; client-substitution signal.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ABC); measures AU client behaviour; in window (2025).",
+      "id": "emp131"
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "marriage and family therapists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "source": "linkedin (unofficial scrape)",
+    "query": "Marriage and Family Therapists",
+    "location": "Australia",
+    "window": "2025-02-01 to 2026-08-31",
+    "count": 10,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Foundation House Victoria (VFST Inc.)",
+      "MacKillop Family Services",
+      "Sharp & Carter",
+      "Murrumbidgee Local Health District (MLHD)",
+      "Sharp & Carter",
+      "Relationships Australia (Qld)",
+      "Uniting",
+      "VACCA - Victorian Aboriginal Child and Community Agency",
+      "Halcyon Knights",
+      "Federal Circuit and Family Court of Australia"
     ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "topSkills": [],
+    "note": "LinkedIn unofficial scrape; demand-side sample, not hire-volume."
   },
   "corpus": {
     "platforms": [
@@ -2141,7 +2781,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-31",
+        "note": "OpenAthens/Factiva session expired (cookies 5d old); L3 trade-press lane supplied via web (ABC/RMIT/UNSW) instead. Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -2153,6 +2801,15 @@
       },
       {
         "date": "2026-08-29",
+        "soc": "21-1013",
+        "query": "Marriage and Family Therapists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
         "soc": "21-1013",
         "query": "Marriage and Family Therapists",
         "location": "Australia",
@@ -2187,9 +2844,55 @@
           "youtube": 2
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 7,
+        "sources": {
+          "github": 7,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 2,
+          "x": 48,
+          "youtube": 2
+        },
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 7,
+        "sources": {
+          "github": 7,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 2,
+          "x": 48,
+          "youtube": 2
+        },
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 7,
+        "sources": {
+          "github": 7,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 2,
+          "x": 48,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane degraded (OpenAthens auth expired); L3 claims this run are from open web (ABC/RMIT/UNSW), not Factiva.",
+    "L1 regulatory: Australian counsellors/therapists are self-regulated (PACFA/ACA/ARCAP); not AHPRA-statutory except school psychologists.",
+    "Adzuna AU count not independently re-verified this run (AU site blocked to extract; Adzuna MCP is UK-only); jobAds built from real LinkedIn sample.",
+    "L2 scholarly items are global (US/UK/Europe) studies; scoped as international, not AU employment estimates.",
+    "Some source URLs return 403 (publisher/Reddit bot-blocking) or 429 (LinkedIn rate-limit) to scripted HEAD/GET fetches but were observed live via web search / last30days; they are not broken links (verified non-404)."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

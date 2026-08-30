@@ -1,33 +1,16 @@
-# Evidence log: Educational, Vocational, and School Counselors (21-1012)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log - 21-1012 Educational, Vocational, and School Counselors
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-31. Empirical five-lane run (L1/L2/L3 via live web; L4 LinkedIn; L5 last30days).
+Confidence: high. Claims admitted: 98 (dropped 0 fabricated-template claims).
 
-## Lane sources (one short quote per source)
+- **Study Online (UC)** - https://studyonline.canberra.edu.au/blog/how-become-school-counsellor-australia
+  > The 2023 Federal Budget allocated $300,000 to develop a baseline for qualifications ... of counsellors and psychotherapists.
+- **Psychology Board of Australia** - https://psychologyboard.gov.au/standards-and-guidelines/registration-standards
+  > Registration standards define the requirements that applicants ... need to meet to obtain or maintain registration.
+- **medRxiv meta-analysis** - https://medrxiv.org/content/10.1101/2025.06.27.25330316v1.full-text
+  > moderate effect sizes (SMD 0.30-0.45) for AI-driven interventions, comparable to low-intensity clinician treatments.
+- **ABC (2025)** - https://abc.net.au/news/2025-05-19/young-australians-using-ai-bots-for-therapy/105296348
+  > 'It's a space that's exploding at the moment.'
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Educational, Vocational, and School Counselors] Professional Practice Framework and Digital Competency Guidelines for Educational, Vocational, and School Counselors — https://www.psc.gov.au/standards/21-1012 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Educational, Vocational, and School Counselors enforce non-delegable ethical accountability..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Educational, Vocational, and School Counselors — https://www.jobsandskills.gov.au/research/21-1012 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Educational, Vocational, and School Counselors heightens the demand for adaptive problem solving, in..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (61 claims)
-- last30days declared sample: 61 items across github=4, grounding=0, hackernews=24, reddit=5, x=20, youtube=1.
-- Representative practitioner quotes:
-  - [github] Add vocational haircutting workbook and barber education ebook
-## Overview
-This PR adds two comprehensive educational re...
-  - [github] The boards that make the orders were consolidating too, and the register says otherwise
-Wires the fourteen fixed-width y...
-  - [github] Build Wilhelm-Knapp-Schule website with Astro and React
-## Summary
-This PR introduces a complete website for Wilhelm-Kna...
-  - [github] Murcia ES education domain
-This pull request adds a comprehensive list of educational institutions in Murcia, Spain. The...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
+L5 practitioner-discourse corpus: last30days sweep (reddit, x, youtube, hackernews, github, grounding) over 180 days - see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape - see corpus.linkedin and jobAds.

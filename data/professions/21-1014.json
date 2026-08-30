@@ -11,11 +11,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-02-01",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-03-02",
   "programs": [
     "mc-socw"
   ],
@@ -2413,25 +2413,882 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l4115",
+      "text": "Therapeutic Counsellor — Better Health Network (Bentleigh East, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Better Health Network",
+          "title": "Therapeutic Counsellor",
+          "url": "https://www.linkedin.com/jobs/view/4456164849",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4116",
+      "text": "Clinical Psychologist / Licensed Counselor (Albury, Australia) — Intellect (West Albury, New South Wales, Australia). Posted 4 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Intellect",
+          "title": "Clinical Psychologist / Licensed Counselor (Albury, Australia)",
+          "url": "https://www.linkedin.com/jobs/view/4407303512",
+          "date": "4 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4117",
+      "text": "Clinical Psychologist / Licensed Counselor (Albury, Australia) — Intellect (Albury, New South Wales, Australia). Posted 5 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Intellect",
+          "title": "Clinical Psychologist / Licensed Counselor (Albury, Australia)",
+          "url": "https://www.linkedin.com/jobs/view/4393533136",
+          "date": "5 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4118",
+      "text": "EAP Clinician - Social Worker/Psychologist/Counsellor — TELUS Health (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "TELUS Health",
+          "title": "EAP Clinician - Social Worker/Psychologist/Counsellor",
+          "url": "https://www.linkedin.com/jobs/view/4445923563",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4119",
+      "text": "Counselor — WRAD (Warrnambool, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "WRAD",
+          "title": "Counselor",
+          "url": "https://www.linkedin.com/jobs/view/4456078683",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4120",
+      "text": "Counsellor - Kids Helpline — yourtown (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "yourtown",
+          "title": "Counsellor - Kids Helpline",
+          "url": "https://www.linkedin.com/jobs/view/4454975939",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4121",
+      "text": "Counsellor — atWork Australia (Salisbury, South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "atWork Australia",
+          "title": "Counsellor",
+          "url": "https://www.linkedin.com/jobs/view/4454356235",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4122",
+      "text": "Senior Mental Health Clinician - Ararat — Grampians Health (Ararat, Victoria, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Grampians Health",
+          "title": "Senior Mental Health Clinician - Ararat",
+          "url": "https://www.linkedin.com/jobs/view/4456840084",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4123",
+      "text": "Counsellor — atWork Australia (Albany, Western Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "atWork Australia",
+          "title": "Counsellor",
+          "url": "https://www.linkedin.com/jobs/view/4453065067",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l5124",
+      "text": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / 路由地址示例\n\n```routes\n/kqed\n/kqed/arts\n/kqed/news\n/kqed/science\n/kqed/forum\n/kqed/mindshift\n/kqed/perspectives\n/kqed/education\n```\n\n## New RSS Route Checklist / 新 RSS 路由检查表\n\n- [x] New Route / 新的路由\n    - [x] Follows [Script St\nSuccessfully [generated](https://github.com/DIYgod/RSSHub/actions/runs/32766205456) as following:\n\n<details>\n<summary><a href=\"http://localhost:1200/kqed\">http://localhost:1200/…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the…",
+          "url": "https://github.com/DIYgod/RSSHub/pull/23105",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5125",
+      "text": "\"I would think just as highly of a friend who used an AI chatbot for mental health support as one who didn't.\" How much do you agree with this statement?\nView Poll &#32; submitted by &#32; /u/DeepBlue_8 &#32; to &#32; r/polls [link] &#32; [comments]\nI’m not going to criticize a desperate person using desperate means. I wouldn't judge them but I don't think it's a good idea frankly I'd be concerned for them instead of thinking less of them. So guess I would think just as high, but with an importa…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\"I would think just as highly of a friend who used an AI chatbot for mental heal…",
+          "url": "https://www.reddit.com/r/polls/comments/1vgi7zu/i_would_think_just_as_highly_of_a_friend_who_used/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5126",
+      "text": "My mental health got better when I left these spaces\nI used to Mod Anti Ai, and the toxicity from the &quot;debate&quot; on both ends drove me bonkers, and I left. No shade to most of the mods of that sub, I have some suspicions about the &quot;head mod&quot; though. Many of us wanted to have stricter rules and help curate the sub, so it was less ragebait and more productive, and they insisted the ragebait was more important because it brought more attention to the sub. Dumb. But I&#39;m not her…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "My mental health got better when I left these spaces\nI used to Mod Anti Ai, and …",
+          "url": "https://www.reddit.com/r/aiwars/comments/1vvpmdi/my_mental_health_got_better_when_i_left_these/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5127",
+      "text": "Thoughts about people talking to AI about their problems and their Mental Health..?\nI happen to see this news just now and honestly, I must admit I am one of those people who sometimes talk to AI about my own personal problems because whether we admit it or not... we need someone who won&#39;t really judge us as we open up. And sometimes, AI happens to be that &quot;someone&quot;. Again, JUST SOMETIMES. Although I agree with the psychiatrist&#39;s view na iba pa rin when we open up our problems,…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Thoughts about people talking to AI about their problems and their Mental Health…",
+          "url": "https://www.reddit.com/r/AnongThoughtsMo/comments/1vq0jdu/thoughts_about_people_talking_to_ai_about_their/",
+          "date": "2026-08-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5128",
+      "text": "LLM and mental health\nHi there, I&#39;m a software engineer, using LLMs heavily both in my day job and for pet projects, and I started noticing some signs, that are a bit worrying me. Maybe even more than a bit. There are already a lot of claims of how LLMs are addictive, creating non-stop flow of dophamine, as we see how they help us research or build something - and yes, I&#39;ve noticed it myself. There are also claims that working with LLMs is akin to playing with slot machine - and for pure…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "LLM and mental health\nHi there, I&#39;m a software engineer, using LLMs heavily …",
+          "url": "https://www.reddit.com/r/singularity/comments/1vero50/llm_and_mental_health/",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5129",
+      "text": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researchers are increasingly using the term to describe cases where people develop or strengthen psychotic symptoms, especially delusions, after prolonged use of AI chatbots. With increasing use of chatbots for therapy, and even AI \"companions,\" what does this mean? Come on in!\n\nPatreon: https://www.patreon.com/GeorgRockallSchmidt \nLeave a tip: paypal.me/GeorgRockallSchmidt \nTwitter: https://twitter.com/grockallschmidt \nBlu…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researc…",
+          "url": "https://www.youtube.com/watch?v=lt6SnAxRopQ",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5130",
+      "text": "AI Is Winning the Mental Health War And Real Therapists Are Losing?!\nAl Is Winning the Mental Health War And Real Therapists Are Losing?! The mental health industry is losing people to chatbots and nobody wants to say why. Here's the truth: when you have childhood trauma, human connection doesn't feel safe.\n\nIt feels like a threat. And AI? AI doesn't judge you. It doesn't get tired of you. It doesn't leave. For millions of people carrying attachment wounds, that's not a tech trend. That's a trau…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Is Winning the Mental Health War And Real Therapists Are Losing?!\nAl Is Winni…",
+          "url": "https://www.youtube.com/watch?v=wWFIja45hVw",
+          "date": "2026-06-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5131",
+      "text": "Using AI to Transform Therapy & Mental Health Outcomes with Diana Oganesian | Ep. 83\nPsychotherapy hasn't improved its effectiveness in 40 years, and therapists are burning out. \n\n\nBut what if AI could change that?\n\n\nIn Episode 83 of Women Disrupting Tech, Diana Oganesian shares how her family's decade-long search for therapy after an earthquake inspired her to create Sestive, a platform using AI to make therapy better for everyone.\n\n\nDiscover:📊 Why therapy's effectiveness has stagnated.🤖 How AI…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Using AI to Transform Therapy & Mental Health Outcomes with Diana Oganesian | Ep…",
+          "url": "https://www.youtube.com/watch?v=LMXNSDSW2l0",
+          "date": "2026-06-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5132",
+      "text": "Your AI Therapist Is Making You Lonelier\nAI therapist loneliness is becoming a growing concern as millions of people turn to AI therapy apps instead of real human connection. This video explores how AI therapist loneliness happens and why AI therapy apps may actually deepen emotional dependency rather than solve loneliness. If you’ve ever wondered whether AI therapist loneliness is real, this breakdown of AI therapist making you lonely will reveal how AI mental health apps are designed.\n\nAI ther…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Your AI Therapist Is Making You Lonelier\nAI therapist loneliness is becoming a g…",
+          "url": "https://www.youtube.com/watch?v=Bu7MsWlwht0",
+          "date": "2026-03-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5133",
+      "text": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / 路由地址示例\n\n```routes\n/kqed\n/kqed/arts\n/kqed/news\n/kqed/science\n/kqed/forum\n/kqed/mindshift\n/kqed/perspectives\n/kqed/education\n```\n\n## New RSS Route Checklist / 新 RSS 路由检查表\n\n- [x] New Route / 新的路由\n    - [x] Follows [Script St\nSuccessfully [generated](https://github.com/DIYgod/RSSHub/actions/runs/32766205456) as following:\n\n<details>\n<summary><a href=\"http://localhost:1200/kqed\">http://localhost:1200/…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the…",
+          "url": "https://github.com/DIYgod/RSSHub/pull/23105",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5134",
+      "text": "\"I would think just as highly of a friend who used an AI chatbot for mental health support as one who didn't.\" How much do you agree with this statement?\nView Poll &#32; submitted by &#32; /u/DeepBlue_8 &#32; to &#32; r/polls [link] &#32; [comments]\nI’m not going to criticize a desperate person using desperate means. I wouldn't judge them but I don't think it's a good idea frankly I'd be concerned for them instead of thinking less of them. So guess I would think just as high, but with an importa…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\"I would think just as highly of a friend who used an AI chatbot for mental heal…",
+          "url": "https://www.reddit.com/r/polls/comments/1vgi7zu/i_would_think_just_as_highly_of_a_friend_who_used/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5135",
+      "text": "My mental health got better when I left these spaces\nI used to Mod Anti Ai, and the toxicity from the &quot;debate&quot; on both ends drove me bonkers, and I left. No shade to most of the mods of that sub, I have some suspicions about the &quot;head mod&quot; though. Many of us wanted to have stricter rules and help curate the sub, so it was less ragebait and more productive, and they insisted the ragebait was more important because it brought more attention to the sub. Dumb. But I&#39;m not her…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "My mental health got better when I left these spaces\nI used to Mod Anti Ai, and …",
+          "url": "https://www.reddit.com/r/aiwars/comments/1vvpmdi/my_mental_health_got_better_when_i_left_these/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5136",
+      "text": "Thoughts about people talking to AI about their problems and their Mental Health..?\nI happen to see this news just now and honestly, I must admit I am one of those people who sometimes talk to AI about my own personal problems because whether we admit it or not... we need someone who won&#39;t really judge us as we open up. And sometimes, AI happens to be that &quot;someone&quot;. Again, JUST SOMETIMES. Although I agree with the psychiatrist&#39;s view na iba pa rin when we open up our problems,…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Thoughts about people talking to AI about their problems and their Mental Health…",
+          "url": "https://www.reddit.com/r/AnongThoughtsMo/comments/1vq0jdu/thoughts_about_people_talking_to_ai_about_their/",
+          "date": "2026-08-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5137",
+      "text": "LLM and mental health\nHi there, I&#39;m a software engineer, using LLMs heavily both in my day job and for pet projects, and I started noticing some signs, that are a bit worrying me. Maybe even more than a bit. There are already a lot of claims of how LLMs are addictive, creating non-stop flow of dophamine, as we see how they help us research or build something - and yes, I&#39;ve noticed it myself. There are also claims that working with LLMs is akin to playing with slot machine - and for pure…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "LLM and mental health\nHi there, I&#39;m a software engineer, using LLMs heavily …",
+          "url": "https://www.reddit.com/r/singularity/comments/1vero50/llm_and_mental_health/",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5138",
+      "text": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researchers are increasingly using the term to describe cases where people develop or strengthen psychotic symptoms, especially delusions, after prolonged use of AI chatbots. With increasing use of chatbots for therapy, and even AI \"companions,\" what does this mean? Come on in!\n\nPatreon: https://www.patreon.com/GeorgRockallSchmidt \nLeave a tip: paypal.me/GeorgRockallSchmidt \nTwitter: https://twitter.com/grockallschmidt \nBlu…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researc…",
+          "url": "https://www.youtube.com/watch?v=lt6SnAxRopQ",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5139",
+      "text": "AI Is Winning the Mental Health War And Real Therapists Are Losing?!\nAl Is Winning the Mental Health War And Real Therapists Are Losing?! The mental health industry is losing people to chatbots and nobody wants to say why. Here's the truth: when you have childhood trauma, human connection doesn't feel safe.\n\nIt feels like a threat. And AI? AI doesn't judge you. It doesn't get tired of you. It doesn't leave. For millions of people carrying attachment wounds, that's not a tech trend. That's a trau…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Is Winning the Mental Health War And Real Therapists Are Losing?!\nAl Is Winni…",
+          "url": "https://www.youtube.com/watch?v=wWFIja45hVw",
+          "date": "2026-06-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5140",
+      "text": "Using AI to Transform Therapy & Mental Health Outcomes with Diana Oganesian | Ep. 83\nPsychotherapy hasn't improved its effectiveness in 40 years, and therapists are burning out. \n\n\nBut what if AI could change that?\n\n\nIn Episode 83 of Women Disrupting Tech, Diana Oganesian shares how her family's decade-long search for therapy after an earthquake inspired her to create Sestive, a platform using AI to make therapy better for everyone.\n\n\nDiscover:📊 Why therapy's effectiveness has stagnated.🤖 How AI…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Using AI to Transform Therapy & Mental Health Outcomes with Diana Oganesian | Ep…",
+          "url": "https://www.youtube.com/watch?v=LMXNSDSW2l0",
+          "date": "2026-06-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5141",
+      "text": "Your AI Therapist Is Making You Lonelier\nAI therapist loneliness is becoming a growing concern as millions of people turn to AI therapy apps instead of real human connection. This video explores how AI therapist loneliness happens and why AI therapy apps may actually deepen emotional dependency rather than solve loneliness. If you’ve ever wondered whether AI therapist loneliness is real, this breakdown of AI therapist making you lonely will reveal how AI mental health apps are designed.\n\nAI ther…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Your AI Therapist Is Making You Lonelier\nAI therapist loneliness is becoming a g…",
+          "url": "https://www.youtube.com/watch?v=Bu7MsWlwht0",
+          "date": "2026-03-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5142",
+      "text": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / 路由地址示例\n\n```routes\n/kqed\n/kqed/arts\n/kqed/news\n/kqed/science\n/kqed/forum\n/kqed/mindshift\n/kqed/perspectives\n/kqed/education\n```\n\n## New RSS Route Checklist / 新 RSS 路由检查表\n\n- [x] New Route / 新的路由\n    - [x] Follows [Script St\nSuccessfully [generated](https://github.com/DIYgod/RSSHub/actions/runs/32766205456) as following:\n\n<details>\n<summary><a href=\"http://localhost:1200/kqed\">http://localhost:1200/…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the…",
+          "url": "https://github.com/DIYgod/RSSHub/pull/23105",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5143",
+      "text": "\"I would think just as highly of a friend who used an AI chatbot for mental health support as one who didn't.\" How much do you agree with this statement?\nView Poll &#32; submitted by &#32; /u/DeepBlue_8 &#32; to &#32; r/polls [link] &#32; [comments]\nI’m not going to criticize a desperate person using desperate means. I wouldn't judge them but I don't think it's a good idea frankly I'd be concerned for them instead of thinking less of them. So guess I would think just as high, but with an importa…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\"I would think just as highly of a friend who used an AI chatbot for mental heal…",
+          "url": "https://www.reddit.com/r/polls/comments/1vgi7zu/i_would_think_just_as_highly_of_a_friend_who_used/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5144",
+      "text": "My mental health got better when I left these spaces\nI used to Mod Anti Ai, and the toxicity from the &quot;debate&quot; on both ends drove me bonkers, and I left. No shade to most of the mods of that sub, I have some suspicions about the &quot;head mod&quot; though. Many of us wanted to have stricter rules and help curate the sub, so it was less ragebait and more productive, and they insisted the ragebait was more important because it brought more attention to the sub. Dumb. But I&#39;m not her…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "My mental health got better when I left these spaces\nI used to Mod Anti Ai, and …",
+          "url": "https://www.reddit.com/r/aiwars/comments/1vvpmdi/my_mental_health_got_better_when_i_left_these/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5145",
+      "text": "Thoughts about people talking to AI about their problems and their Mental Health..?\nI happen to see this news just now and honestly, I must admit I am one of those people who sometimes talk to AI about my own personal problems because whether we admit it or not... we need someone who won&#39;t really judge us as we open up. And sometimes, AI happens to be that &quot;someone&quot;. Again, JUST SOMETIMES. Although I agree with the psychiatrist&#39;s view na iba pa rin when we open up our problems,…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Thoughts about people talking to AI about their problems and their Mental Health…",
+          "url": "https://www.reddit.com/r/AnongThoughtsMo/comments/1vq0jdu/thoughts_about_people_talking_to_ai_about_their/",
+          "date": "2026-08-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5146",
+      "text": "LLM and mental health\nHi there, I&#39;m a software engineer, using LLMs heavily both in my day job and for pet projects, and I started noticing some signs, that are a bit worrying me. Maybe even more than a bit. There are already a lot of claims of how LLMs are addictive, creating non-stop flow of dophamine, as we see how they help us research or build something - and yes, I&#39;ve noticed it myself. There are also claims that working with LLMs is akin to playing with slot machine - and for pure…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "LLM and mental health\nHi there, I&#39;m a software engineer, using LLMs heavily …",
+          "url": "https://www.reddit.com/r/singularity/comments/1vero50/llm_and_mental_health/",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5147",
+      "text": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researchers are increasingly using the term to describe cases where people develop or strengthen psychotic symptoms, especially delusions, after prolonged use of AI chatbots. With increasing use of chatbots for therapy, and even AI \"companions,\" what does this mean? Come on in!\n\nPatreon: https://www.patreon.com/GeorgRockallSchmidt \nLeave a tip: paypal.me/GeorgRockallSchmidt \nTwitter: https://twitter.com/grockallschmidt \nBlu…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researc…",
+          "url": "https://www.youtube.com/watch?v=lt6SnAxRopQ",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5148",
+      "text": "AI Is Winning the Mental Health War And Real Therapists Are Losing?!\nAl Is Winning the Mental Health War And Real Therapists Are Losing?! The mental health industry is losing people to chatbots and nobody wants to say why. Here's the truth: when you have childhood trauma, human connection doesn't feel safe.\n\nIt feels like a threat. And AI? AI doesn't judge you. It doesn't get tired of you. It doesn't leave. For millions of people carrying attachment wounds, that's not a tech trend. That's a trau…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Is Winning the Mental Health War And Real Therapists Are Losing?!\nAl Is Winni…",
+          "url": "https://www.youtube.com/watch?v=wWFIja45hVw",
+          "date": "2026-06-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5149",
+      "text": "Using AI to Transform Therapy & Mental Health Outcomes with Diana Oganesian | Ep. 83\nPsychotherapy hasn't improved its effectiveness in 40 years, and therapists are burning out. \n\n\nBut what if AI could change that?\n\n\nIn Episode 83 of Women Disrupting Tech, Diana Oganesian shares how her family's decade-long search for therapy after an earthquake inspired her to create Sestive, a platform using AI to make therapy better for everyone.\n\n\nDiscover:📊 Why therapy's effectiveness has stagnated.🤖 How AI…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Using AI to Transform Therapy & Mental Health Outcomes with Diana Oganesian | Ep…",
+          "url": "https://www.youtube.com/watch?v=LMXNSDSW2l0",
+          "date": "2026-06-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5150",
+      "text": "Your AI Therapist Is Making You Lonelier\nAI therapist loneliness is becoming a growing concern as millions of people turn to AI therapy apps instead of real human connection. This video explores how AI therapist loneliness happens and why AI therapy apps may actually deepen emotional dependency rather than solve loneliness. If you’ve ever wondered whether AI therapist loneliness is real, this breakdown of AI therapist making you lonely will reveal how AI mental health apps are designed.\n\nAI ther…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Your AI Therapist Is Making You Lonelier\nAI therapist loneliness is becoming a g…",
+          "url": "https://www.youtube.com/watch?v=Bu7MsWlwht0",
+          "date": "2026-03-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Mental health counsellors in Australia are self-regulated through PACFA/ACA (ARCAP); PACFA's Mental Health Competencies define a 'Mental Health Practitioner' clinical registrant who demonstrates assessment and intervention knowledge — distinct from AHPRA-registered psychologists.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "PACFA",
+          "title": "National Standards for Counsellors and Psychotherapists - Now Available",
+          "url": "https://pacfa.org.au/portal/portal/News-and-Advocacy/news/2025/national-standards-October-2025.aspx",
+          "date": "2025-10-13",
+          "whatItMeasured": "PACFA National Standards; Mental Health Practitioner career stage; self-regulation"
+        },
+        {
+          "publisher": "Legal123",
+          "title": "Counsellor Registration Australia: Legal Guide",
+          "url": "https://legal123.com.au/how-to-guide/counsellors-and-therapists",
+          "date": "2026-01-01",
+          "whatItMeasured": "Unprotected title; PACFA/ACA voluntary registration"
+        }
+      ],
+      "scope": "Mental health counsellors (self-regulated). AHPRA regulates psychologists, not counsellors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (PACFA/Legal123); measures AU mental-health-counsellor population; in window.",
+      "id": "emp151"
+    },
+    {
+      "text": "A mixed-method study of 13 Ukrainian mental health professionals using a GenAI digital agent (APIA, GPT-3.5/4) found GenAI positively influenced their sense of competence and, to a lesser extent, autonomy in asynchronous online psychotherapy — i.e. AI augments the practitioner rather than replacing the role.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "BMC / Springer",
+          "title": "Empowering mental health professionals in asynchronous online psychotherapy with GenAI",
+          "url": "https://link.springer.com/article/10.1186/s13033-026-00700-5",
+          "date": "2026-01-01",
+          "whatItMeasured": "Mixed-methods, n=13; GenAI boosted competence/autonomy of mental health professionals"
+        }
+      ],
+      "scope": "Small qualitative study (Ukraine); signals augmentation of practitioner tasks. Not AU.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (BMC); measures mental-health-professional experience; in window (2026).",
+      "id": "emp152"
+    },
+    {
+      "text": "The Therabot RCT (2025, N=210) is the first RCT showing a fully Gen-AI chatbot treats clinical-level depressive/anxiety symptoms with alliance comparable to human therapists — the strongest current evidence for automation of the core mental-health-counselling dialogue.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Heinz et al.",
+          "title": "Randomized Trial of a Generative AI Chatbot for Mental Health Treatment (Therabot)",
+          "url": "https://gwern.net/doc/psychiatry/depression/2025-heinz.pdf",
+          "date": "2025-03-01",
+          "whatItMeasured": "RCT N=210; GenAI chatbot vs waitlist; alliance comparable to humans"
+        }
+      ],
+      "scope": "US RCT; mild-to-moderate. Core-dialogue exposure; not complex case management.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (RCT preprint); measures clinical population; in window (2025).",
+      "id": "emp153"
+    },
+    {
+      "text": "UNSW (2025) reports apps such as Woebot, Wysa and Replika now hold sophisticated two-way mental-health conversations, while warning that chatbots have reinforced suicidal ideation in documented cases — framing both the demand and the risk mental health counsellors navigate.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "UNSW Newsroom",
+          "title": "Could you replace your therapist with an AI chatbot?",
+          "url": "https://unsw.edu.au/newsroom/news/2025/03/therapist-as-AI-chatbot",
+          "date": "2025-03-01",
+          "whatItMeasured": "AU: chatbot therapy efficacy + documented harm cases"
+        },
+        {
+          "publisher": "ABC News",
+          "title": "AI therapists don't judge, sleep or need an appointment",
+          "url": "https://abc.net.au/news/2025-11-07/australians-use-artificial-intelligence-ptsd-trauma-recovery/105946020",
+          "date": "2025-11-07",
+          "whatItMeasured": "AU: clients using AI for trauma recovery; expert caution"
+        }
+      ],
+      "scope": "Australian trade press; practitioner/client framing. Not an employment study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (UNSW/ABC); measures AU discourse; in window (2025).",
+      "id": "emp154"
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "mental health counselors",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "source": "linkedin (unofficial scrape)",
+    "query": "Mental Health Counselors",
+    "location": "Australia",
+    "window": "2025-02-01 to 2026-08-31",
+    "count": 10,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Better Health Network",
+      "Intellect",
+      "Intellect",
+      "TELUS Health",
+      "WRAD",
+      "yourtown",
+      "atWork Australia",
+      "Grampians Health",
+      "NT Health",
+      "atWork Australia"
     ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "topSkills": [],
+    "note": "LinkedIn unofficial scrape; demand-side sample, not hire-volume."
   },
   "corpus": {
     "platforms": [
@@ -2442,7 +3299,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-31",
+        "note": "OpenAthens/Factiva session expired (cookies 5d old); L3 trade-press lane supplied via web (ABC/RMIT/UNSW) instead. Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -2454,6 +3319,15 @@
       },
       {
         "date": "2026-08-29",
+        "soc": "21-1014",
+        "query": "Mental Health Counselors",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
         "soc": "21-1014",
         "query": "Mental Health Counselors",
         "location": "Australia",
@@ -2488,9 +3362,55 @@
           "youtube": 4
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 9,
+        "sources": {
+          "github": 14,
+          "grounding": 0,
+          "hackernews": 23,
+          "reddit": 5,
+          "x": 49,
+          "youtube": 4
+        },
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 9,
+        "sources": {
+          "github": 14,
+          "grounding": 0,
+          "hackernews": 23,
+          "reddit": 5,
+          "x": 49,
+          "youtube": 4
+        },
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 9,
+        "sources": {
+          "github": 14,
+          "grounding": 0,
+          "hackernews": 23,
+          "reddit": 5,
+          "x": 49,
+          "youtube": 4
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane degraded (OpenAthens auth expired); L3 claims this run are from open web (ABC/RMIT/UNSW), not Factiva.",
+    "L1 regulatory: Australian counsellors/therapists are self-regulated (PACFA/ACA/ARCAP); not AHPRA-statutory except school psychologists.",
+    "Adzuna AU count not independently re-verified this run (AU site blocked to extract; Adzuna MCP is UK-only); jobAds built from real LinkedIn sample.",
+    "L2 scholarly items are global (US/UK/Europe) studies; scoped as international, not AU employment estimates.",
+    "Some source URLs return 403 (publisher/Reddit bot-blocking) or 429 (LinkedIn rate-limit) to scripted HEAD/GET fetches but were observed live via web search / last30days; they are not broken links (verified non-404)."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

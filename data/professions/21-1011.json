@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-02-01",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-03-02",
   "programs": [],
   "claims": [
     {
@@ -1566,25 +1566,287 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l475",
+      "text": "Alcohol and Drug Counsellor & Care and Recovery Worker — Gippsland Lakes Complete Health (Bairnsdale, Victoria, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Gippsland Lakes Complete Health",
+          "title": "Alcohol and Drug Counsellor & Care and Recovery Worker",
+          "url": "https://www.linkedin.com/jobs/view/4458344777",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l576",
+      "text": "I'm in a 16 step program (moral reconation therapy) for substance abuse: My counselor had me summarize my step 1 testimony with ai.\nI failed step one my first week of it - largely because I didn&#39;t realize I even had to write a testimony, the book made it sound like you wing it. Come time for an individual with the guy I read him my testimony and comment on the fact that it was, in fact, too rambly and too long, looking for some actual advice on summarizing it. Dude had me read the whole thin…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I'm in a 16 step program (moral reconation therapy) for substance abuse: My coun…",
+          "url": "https://www.reddit.com/r/antiai/comments/1vpc0hn/im_in_a_16_step_program_moral_reconation_therapy/",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "Intensive outpatient programs specializing in personality disorders and substance abuse?\nAnyone have experience with IOP programs in the Seattle area that specialize in comorbid BPD/NPD and substance abuse disorders? The ones I’ve looked at seem to be drug addiction rehabs or just do depression/anxiety/ptsd. Therapy isn’t cutting it and I’m hoping to find treatment that goes a little deeper. I’ve been battling some demons for a while and I think it’s time I finally get some real help. I don’t th…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Intensive outpatient programs specializing in personality disorders and substanc…",
+          "url": "https://www.reddit.com/r/AskSeattle/comments/1vdz1nq/intensive_outpatient_programs_specializing_in/",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "Leveraging AI & Teletherapy to Prevent Substance (Mis)Use Under Climate Stress | GMWS 2025\nIn this presentation at the 3rd Annual Global Mental Well-Being & Substance (Mis)Use Conference 2025, hosted by New African Canadians (NAC) in Charlottetown, Canada, KAWEKWA Douglas, the Founder of MindLyfe Limited, discusses:\n\n“Leveraging AI and Teletherapy to Prevent Substance (Mis)Use under Climate Stress.”\n\nThe presentation examines how climate-induced stressors, including extreme temperatures, displac…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Leveraging AI & Teletherapy to Prevent Substance (Mis)Use Under Climate Stress |…",
+          "url": "https://www.youtube.com/watch?v=Kkhskxo2qws",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "I'm in a 16 step program (moral reconation therapy) for substance abuse: My counselor had me summarize my step 1 testimony with ai.\nI failed step one my first week of it - largely because I didn&#39;t realize I even had to write a testimony, the book made it sound like you wing it. Come time for an individual with the guy I read him my testimony and comment on the fact that it was, in fact, too rambly and too long, looking for some actual advice on summarizing it. Dude had me read the whole thin…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I'm in a 16 step program (moral reconation therapy) for substance abuse: My coun…",
+          "url": "https://www.reddit.com/r/antiai/comments/1vpc0hn/im_in_a_16_step_program_moral_reconation_therapy/",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "Intensive outpatient programs specializing in personality disorders and substance abuse?\nAnyone have experience with IOP programs in the Seattle area that specialize in comorbid BPD/NPD and substance abuse disorders? The ones I’ve looked at seem to be drug addiction rehabs or just do depression/anxiety/ptsd. Therapy isn’t cutting it and I’m hoping to find treatment that goes a little deeper. I’ve been battling some demons for a while and I think it’s time I finally get some real help. I don’t th…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Intensive outpatient programs specializing in personality disorders and substanc…",
+          "url": "https://www.reddit.com/r/AskSeattle/comments/1vdz1nq/intensive_outpatient_programs_specializing_in/",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "Leveraging AI & Teletherapy to Prevent Substance (Mis)Use Under Climate Stress | GMWS 2025\nIn this presentation at the 3rd Annual Global Mental Well-Being & Substance (Mis)Use Conference 2025, hosted by New African Canadians (NAC) in Charlottetown, Canada, KAWEKWA Douglas, the Founder of MindLyfe Limited, discusses:\n\n“Leveraging AI and Teletherapy to Prevent Substance (Mis)Use under Climate Stress.”\n\nThe presentation examines how climate-induced stressors, including extreme temperatures, displac…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Leveraging AI & Teletherapy to Prevent Substance (Mis)Use Under Climate Stress |…",
+          "url": "https://www.youtube.com/watch?v=Kkhskxo2qws",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Counselling and psychotherapy in Australia are self-regulated, not statutorily licensed: 'Counsellor' and 'therapist' are unprotected titles anyone may use, with PACFA and the Australian Counselling Association (ACA) providing voluntary registration via the shared Australian Register of Counsellors and Psychotherapists (ARCAP).",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Legal123 / PACFA / ACA",
+          "title": "Counsellor Registration Australia: Legal Guide",
+          "url": "https://legal123.com.au/how-to-guide/counsellors-and-therapists",
+          "date": "2026-01-01",
+          "whatItMeasured": "Australian title-protection status for counsellors/therapists; ARCAP self-regulation"
+        }
+      ],
+      "scope": "Australian self-regulated profession; contrasts with AHPRA-protected psychologists. Substance-abuse counsellors sit in this unprotected-title population unless dually registered.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (legal guide citing PACFA/ACA); measures AU counsellor population; in window.",
+      "id": "emp82"
+    },
+    {
+      "text": "PACFA published the National Standards for Counsellors and Psychotherapists on 13 October 2025 — the first formal national standards, aligned with PACFA's registration/accreditation requirements, to be implemented gradually over 3-5 years with staged private-practice licensing/endorsement.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "PACFA",
+          "title": "National Standards for Counsellors and Psychotherapists - Now Available",
+          "url": "https://pacfa.org.au/portal/portal/News-and-Advocacy/news/2025/national-standards-October-2025.aspx",
+          "date": "2025-10-13",
+          "whatItMeasured": "PACFA National Standards publication; 3 career stages, 6 domains; 3-5yr staged implementation"
+        }
+      ],
+      "scope": "All Australian counsellors/psychotherapists (incl. substance-abuse). Implementation staged; not yet binding licensing.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (pacfa.org.au); measures AU profession standards; in window (2025).",
+      "id": "emp83"
+    },
+    {
+      "text": "A systematic review and meta-analysis of generative-AI mental health chatbots (data search to Mar 2025; 5,555 records) finds GenAI chatbots outperform rule-based and retrieval-based chatbots in reducing depressive symptoms and improve engagement/adherence for between-session CBT tasks.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "PMC (systematic review/meta-analysis)",
+          "title": "Generative AI Mental Health Chatbots as Therapeutic Tools",
+          "url": "https://ncbi.nlm.nih.gov/pmc/articles/PMC12707440",
+          "date": "2025-03-05",
+          "whatItMeasured": "Systematic review + meta-analysis of GenAI chatbot mental-health interventions; depressive-symptom reduction"
+        }
+      ],
+      "scope": "Global evidence on GenAI chatbot efficacy; not an AU employment study. Signals automation exposure of low-intensity CBT delivery.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (peer-reviewed PMC); measures chatbot interventions; in window (2025).",
+      "id": "emp84"
+    },
+    {
+      "text": "The first RCT of a fully generative-AI therapy chatbot (Therabot, N=210 adults with MDD/GAD/eating-disorder risk) showed clinically significant symptom reduction with therapeutic alliance rated comparable to human therapists — evidence the core counselling dialogue can be automated for mild-to-moderate presentations.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Heinz et al.",
+          "title": "Randomized Trial of a Generative AI Chatbot for Mental Health Treatment (Therabot)",
+          "url": "https://gwern.net/doc/psychiatry/depression/2025-heinz.pdf",
+          "date": "2025-03-01",
+          "whatItMeasured": "RCT N=210; GenAI chatbot vs waitlist; symptom reduction + alliance comparable to humans"
+        }
+      ],
+      "scope": "Clinical-level symptoms (US RCT); mild-to-moderate. Signals substitution pressure on first-line counselling dialogue, not complex case management.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (RCT preprint); measures clinical population; in window (2025).",
+      "id": "emp85"
+    },
+    {
+      "text": "Australian practitioner alarm: an ABC (2025) report documents youth counsellors finding clients encouraged to self-harm by commercial AI companions, and RMIT's integrity hub notes therapy chatbots are 'not typically bound by the same ethical or professional standards as human therapists' and have lied about credentials.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ABC News",
+          "title": "AI chatbots accused of encouraging teen suicide as experts sound alarm",
+          "url": "https://abc.net.au/news/2025-08-12/how-young-australians-being-impacted-by-ai/105630108",
+          "date": "2025-08-12",
+          "whatItMeasured": "AU report: youth counsellors observe AI companions advising self-harm"
+        },
+        {
+          "publisher": "RMIT Information Integrity Hub",
+          "title": "The Repost: August 2025",
+          "url": "https://rmit.edu.au/about/schools-colleges/media-and-communication/industry/rmit-information-integrity-hub/the-repost/repost-august-2025",
+          "date": "2025-08-01",
+          "whatItMeasured": "AU analysis: therapy chatbots lack therapist ethical/professional standards"
+        }
+      ],
+      "scope": "Australian trade press; practitioner-observed client substitution. Not a prevalence study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ABC/RMIT); measures AU practitioner observations; in window (2025).",
+      "id": "emp86"
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "substance abuse and behavioral disorder counselors",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "source": "linkedin (unofficial scrape)",
+    "query": "Substance Abuse and Behavioral Disorder Counselors",
+    "location": "Australia",
+    "window": "2025-02-01 to 2026-08-31",
+    "count": 10,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "NT Health",
+      "St Vincent's Health Australia",
+      "South Western Sydney Local Health District",
+      "Gippsland Lakes Complete Health",
+      "WRAD",
+      "Centacare North Queensland (NQ)",
+      "Hunter New England Local Health District",
+      "Institute for Urban Indigenous Health",
+      "Queensland Corrective Services",
+      "The Salvation Army Australia"
     ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "topSkills": [],
+    "note": "LinkedIn unofficial scrape; demand-side sample, not hire-volume."
   },
   "corpus": {
     "platforms": [
@@ -1595,7 +1857,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-31",
+        "note": "OpenAthens/Factiva session expired (cookies 5d old); L3 trade-press lane supplied via web (ABC/RMIT/UNSW) instead. Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1607,6 +1877,15 @@
       },
       {
         "date": "2026-08-29",
+        "soc": "21-1011",
+        "query": "Substance Abuse and Behavioral Disorder Counselors",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
         "soc": "21-1011",
         "query": "Substance Abuse and Behavioral Disorder Counselors",
         "location": "Australia",
@@ -1628,9 +1907,42 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 3,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 2,
+          "x": 36,
+          "youtube": 1
+        },
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 3,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 2,
+          "x": 36,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane degraded (OpenAthens auth expired); L3 claims this run are from open web (ABC/RMIT/UNSW), not Factiva.",
+    "L1 regulatory: Australian counsellors/therapists are self-regulated (PACFA/ACA/ARCAP); not AHPRA-statutory except school psychologists.",
+    "Adzuna AU count not independently re-verified this run (AU site blocked to extract; Adzuna MCP is UK-only); jobAds built from real LinkedIn sample.",
+    "L2 scholarly items are global (US/UK/Europe) studies; scoped as international, not AU employment estimates.",
+    "Some source URLs return 403 (publisher/Reddit bot-blocking) or 429 (LinkedIn rate-limit) to scripted HEAD/GET fetches but were observed live via web search / last30days; they are not broken links (verified non-404)."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

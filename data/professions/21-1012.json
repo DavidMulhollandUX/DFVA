@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-02-01",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-03-02",
   "programs": [],
   "claims": [
     {
@@ -1503,25 +1503,602 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l472",
+      "text": "Careers Advisor — Kaplan (Greater Brisbane Area). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Kaplan",
+          "title": "Careers Advisor",
+          "url": "https://www.linkedin.com/jobs/view/4458564234",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l473",
+      "text": "Intensive Education Case Manager - Metropolitan North Region — Queensland Government (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Government",
+          "title": "Intensive Education Case Manager - Metropolitan North Region",
+          "url": "https://www.linkedin.com/jobs/view/4456743585",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l474",
+      "text": "Indigenous Student Success Officer and Senior Support Advisor (*Identified) — University of Wollongong (Wollongong, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "University of Wollongong",
+          "title": "Indigenous Student Success Officer and Senior Support Advisor (*Identified)",
+          "url": "https://www.linkedin.com/jobs/view/4098517027",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l475",
+      "text": "Psychological Workplace Rehabilitation Consultant — KINNECT (Toowoomba, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "KINNECT",
+          "title": "Psychological Workplace Rehabilitation Consultant",
+          "url": "https://www.linkedin.com/jobs/view/4454228877",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l476",
+      "text": "Guidance Officer - Kruger State School — Queensland Government (Ipswich, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Government",
+          "title": "Guidance Officer - Kruger State School",
+          "url": "https://www.linkedin.com/jobs/view/4460360822",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l477",
+      "text": "Educational Counselor — Asia Pacific Group - Education & Migration Services (Williams Landing, Victoria, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Asia Pacific Group - Education & Migration Services",
+          "title": "Educational Counselor",
+          "url": "https://www.linkedin.com/jobs/view/4455820912",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l478",
+      "text": "Educational Counselor — Asia Pacific Group - Education & Migration Services (Perth, Western Australia, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Asia Pacific Group - Education & Migration Services",
+          "title": "Educational Counselor",
+          "url": "https://www.linkedin.com/jobs/view/4457220938",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l479",
+      "text": "Teacher - Career Practitioner — Department of Education, Western Australia (Greater Perth Area). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education, Western Australia",
+          "title": "Teacher - Career Practitioner",
+          "url": "https://www.linkedin.com/jobs/view/4455688385",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l580",
+      "text": "Add vocational haircutting workbook and barber education ebook\n## Overview\nThis PR adds two comprehensive educational resources designed to support vocational and professional barber education programs.\n\n## Resources Created\n\n### 1. Foundational Haircutting Workbook\nAn interactive HTML workbook tailored for high school students beginning their haircutting educa\n<h3>Confidence Score: 1/5</h3>\n\nThese files are entirely unrelated to the frappe/education application and should not be merged.\n\nTwo st…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add vocational haircutting workbook and barber education ebook\n## Overview\nThis …",
+          "url": "https://github.com/frappe/education/pull/469",
+          "date": "2026-07-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generated Educational Materials Full of Inexcusable Hallucinations, Including a Map Labeled With \"North Dahota\" and \"Olkchoma\"\n&#32; submitted by &#32; /u/SplashTarget &#32; to &#32; r/antiai [link] &#32; [comments]\nSaw this in my news feed the other day. I'm not surprised the AI screwed up, but I am surprised that apparently not a single person even skim read the result before handing it out to students. Maybe I The teache…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generat…",
+          "url": "https://www.reddit.com/r/antiai/comments/1vshdo1/kentucky_middle_school_sends_students_home_on/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "text": "Kentucky Middle School Gives Students AI-Generated Educational Materials Full of Hallucinations, Including a Map Labeled With \"North Dahota\" and \"Olkchoma\"\n&#32; submitted by &#32; /u/snailman89 &#32; to &#32; r/stupidpol [link] &#32; [comments]\ni kind of despair at the top down infiltration of ai into parts of society that were working well (or at least, better than this). no one asked for this! i’m in my early 20s and to be cliche, this is The thing about the world now is 99.9% of the populati…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Kentucky Middle School Gives Students AI-Generated Educational Materials Full of…",
+          "url": "https://www.reddit.com/r/stupidpol/comments/1vsecpk/kentucky_middle_school_gives_students_aigenerated/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l583",
+      "text": "Our counselors used AI to create student schedules.\nAnd did not check the accuracy of the schedules before sending them to the high school students. This also messed with staff schedules, common planning periods within departments, and IEPs. Via email, one of the counselors mentioned that she used AI to create the schedule and was frustrated with how it turned out. I’m flabbergasted. Just wanted to mention this in case other schools are experiencing the same issues. &#32; submitted by &#32; /u/m…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Our counselors used AI to create student schedules.\nAnd did not check the accura…",
+          "url": "https://www.reddit.com/r/Teachers/comments/1vrm00w/our_counselors_used_ai_to_create_student_schedules/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l584",
+      "text": "I am a 14 year old student who wants to pay his school fees by his own because my parents are having problem dealing my educational expenses. im more into computer subjects. after researching i found out these 2 skills that are craving my interest ai annotation and freelance writing , photo editing\nmy pc specs are i3 3240 no gpu 8gb ddr3 ram and my laptop specs are i5 8th gen 1.4ghz no gpu 8gb ddr4 ram and my parents already gave me permission to do these stuff &#32; submitted by &#32; /u/Typica…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I am a 14 year old student who wants to pay his school fees by his own because m…",
+          "url": "https://www.reddit.com/r/PakFreelancers/comments/1v9uram/i_am_a_14_year_old_student_who_wants_to_pay_his/",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l585",
+      "text": "I'm a High School Student who writes monthly newspaper articles about education and school in general. Does anyone have any suggestions for future articles? I have already talked about AI, so no need to suggest that.\nAny advice will help. Thank you! To clarify, this is for a town/regional paper not for a school paper. &#32; submitted by &#32; /u/LegitimatePear3045 &#32; to &#32; r/highschool [link] &#32; [comments]\nI worked in the broadcast journalism department at my old high school as both a s…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I'm a High School Student who writes monthly newspaper articles about education …",
+          "url": "https://www.reddit.com/r/highschool/comments/1vxi6ck/im_a_high_school_student_who_writes_monthly/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l586",
+      "text": "Educating Tomorrow’s Lawyers for an AI-Disrupted Legal Market\nIn this episode, I sit down with Professor Kipp Coddington from the University of Wyoming College of Law to discuss how legal education is adapting to the age of AI and what skills tomorrow's lawyers will need to succeed.\n\n\n\nKipp teaches an innovative course on AI and Internet Law that combines substantive legal issues with hands-on technology training. Students are expected to use AI throughout the course, experiment with tools such …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Educating Tomorrow’s Lawyers for an AI-Disrupted Legal Market\nIn this episode, I…",
+          "url": "https://www.youtube.com/watch?v=vibxqq4GYBE",
+          "date": "2026-07-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l587",
+      "text": "Add vocational haircutting workbook and barber education ebook\n## Overview\nThis PR adds two comprehensive educational resources designed to support vocational and professional barber education programs.\n\n## Resources Created\n\n### 1. Foundational Haircutting Workbook\nAn interactive HTML workbook tailored for high school students beginning their haircutting educa\n<h3>Confidence Score: 1/5</h3>\n\nThese files are entirely unrelated to the frappe/education application and should not be merged.\n\nTwo st…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add vocational haircutting workbook and barber education ebook\n## Overview\nThis …",
+          "url": "https://github.com/frappe/education/pull/469",
+          "date": "2026-07-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l588",
+      "text": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generated Educational Materials Full of Inexcusable Hallucinations, Including a Map Labeled With \"North Dahota\" and \"Olkchoma\"\n&#32; submitted by &#32; /u/SplashTarget &#32; to &#32; r/antiai [link] &#32; [comments]\nSaw this in my news feed the other day. I'm not surprised the AI screwed up, but I am surprised that apparently not a single person even skim read the result before handing it out to students. Maybe I The teache…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generat…",
+          "url": "https://www.reddit.com/r/antiai/comments/1vshdo1/kentucky_middle_school_sends_students_home_on/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l589",
+      "text": "Kentucky Middle School Gives Students AI-Generated Educational Materials Full of Hallucinations, Including a Map Labeled With \"North Dahota\" and \"Olkchoma\"\n&#32; submitted by &#32; /u/snailman89 &#32; to &#32; r/stupidpol [link] &#32; [comments]\ni kind of despair at the top down infiltration of ai into parts of society that were working well (or at least, better than this). no one asked for this! i’m in my early 20s and to be cliche, this is The thing about the world now is 99.9% of the populati…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Kentucky Middle School Gives Students AI-Generated Educational Materials Full of…",
+          "url": "https://www.reddit.com/r/stupidpol/comments/1vsecpk/kentucky_middle_school_gives_students_aigenerated/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l590",
+      "text": "Our counselors used AI to create student schedules.\nAnd did not check the accuracy of the schedules before sending them to the high school students. This also messed with staff schedules, common planning periods within departments, and IEPs. Via email, one of the counselors mentioned that she used AI to create the schedule and was frustrated with how it turned out. I’m flabbergasted. Just wanted to mention this in case other schools are experiencing the same issues. &#32; submitted by &#32; /u/m…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Our counselors used AI to create student schedules.\nAnd did not check the accura…",
+          "url": "https://www.reddit.com/r/Teachers/comments/1vrm00w/our_counselors_used_ai_to_create_student_schedules/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l591",
+      "text": "I am a 14 year old student who wants to pay his school fees by his own because my parents are having problem dealing my educational expenses. im more into computer subjects. after researching i found out these 2 skills that are craving my interest ai annotation and freelance writing , photo editing\nmy pc specs are i3 3240 no gpu 8gb ddr3 ram and my laptop specs are i5 8th gen 1.4ghz no gpu 8gb ddr4 ram and my parents already gave me permission to do these stuff &#32; submitted by &#32; /u/Typica…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I am a 14 year old student who wants to pay his school fees by his own because m…",
+          "url": "https://www.reddit.com/r/PakFreelancers/comments/1v9uram/i_am_a_14_year_old_student_who_wants_to_pay_his/",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "text": "I'm a High School Student who writes monthly newspaper articles about education and school in general. Does anyone have any suggestions for future articles? I have already talked about AI, so no need to suggest that.\nAny advice will help. Thank you! To clarify, this is for a town/regional paper not for a school paper. &#32; submitted by &#32; /u/LegitimatePear3045 &#32; to &#32; r/highschool [link] &#32; [comments]\nI worked in the broadcast journalism department at my old high school as both a s…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I'm a High School Student who writes monthly newspaper articles about education …",
+          "url": "https://www.reddit.com/r/highschool/comments/1vxi6ck/im_a_high_school_student_who_writes_monthly/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "text": "Educating Tomorrow’s Lawyers for an AI-Disrupted Legal Market\nIn this episode, I sit down with Professor Kipp Coddington from the University of Wyoming College of Law to discuss how legal education is adapting to the age of AI and what skills tomorrow's lawyers will need to succeed.\n\n\n\nKipp teaches an innovative course on AI and Internet Law that combines substantive legal issues with hands-on technology training. Students are expected to use AI throughout the course, experiment with tools such …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Educating Tomorrow’s Lawyers for an AI-Disrupted Legal Market\nIn this episode, I…",
+          "url": "https://www.youtube.com/watch?v=vibxqq4GYBE",
+          "date": "2026-07-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Australian school counsellors are governed state-by-state, not by one national standard: NSW requires eligibility for Psychology Board of Australia registration plus approval to teach; Victoria titles the role 'mental health practitioner'; Queensland uses 'guidance officer' (registered teacher + Master of Guidance and Counselling).",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Study Online (UC)",
+          "title": "How to become a school counsellor in Australia",
+          "url": "https://studyonline.canberra.edu.au/blog/how-become-school-counsellor-australia",
+          "date": "2024-01-01",
+          "whatItMeasured": "State-by-state school-counsellor entry requirements; 2023 Federal Budget $300k for counsellor/psychotherapist baseline"
+        },
+        {
+          "publisher": "Psychology Board of Australia",
+          "title": "Registration standards",
+          "url": "https://psychologyboard.gov.au/standards-and-guidelines/registration-standards",
+          "date": "2026-07-15",
+          "whatItMeasured": "AHPRA Psychology Board mandatory + profession registration standards (school psychologists in NSW/VIC)"
+        }
+      ],
+      "scope": "School counsellors where the role requires psychology registration; the broader 'student wellbeing' workforce is unregistered.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (university guide + AHPRA); measures AU school-counsellor regulation; in window.",
+      "id": "emp94"
+    },
+    {
+      "text": "The 2023 Federal Budget allocated $300,000 to develop a baseline for qualifications, supervision, professional development and oversight of counsellors and psychotherapists — an early signal of moving toward national recognition, realised in PACFA's 2025 National Standards.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Study Online (UC)",
+          "title": "How to become a school counsellor in Australia",
+          "url": "https://studyonline.canberra.edu.au/blog/how-become-school-counsellor-australia",
+          "date": "2024-01-01",
+          "whatItMeasured": "2023 Federal Budget $300k counsellor/psychotherapist baseline initiative"
+        }
+      ],
+      "scope": "Policy signal, not yet binding. Relevant to school counselling as part of the counsellor workforce.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (university guide citing Federal Budget); measures AU policy; in window.",
+      "id": "emp95"
+    },
+    {
+      "text": "Generative-AI mental health chatbots show moderate effect sizes (SMD 0.30-0.45) comparable to low-intensity clinician treatments, especially CBT-based approaches for mild-to-moderate depression — relevant to the student-facing, low-acuity work school counsellors carry.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "medRxiv (meta-analysis)",
+          "title": "Conversational AI in Therapy: Current Applications and Future Directions",
+          "url": "https://medrxiv.org/content/10.1101/2025.06.27.25330316v1.full-text",
+          "date": "2025-06-27",
+          "whatItMeasured": "Quantitative meta-analysis: SMD 0.30-0.45 for AI interventions; NLP >90% intent recognition"
+        }
+      ],
+      "scope": "Global meta-analysis; scoped to low-acuity student presentations school counsellors see. Not an AU study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (preprint meta-analysis); measures chatbot interventions; in window (2025).",
+      "id": "emp96"
+    },
+    {
+      "text": "An AI-augmented single-session therapy framework (2026) is positioned to augment, not replace, trained human providers or peer/lay counsellors, expanding access where workforce gaps reach 40-fold between high- and low-income regions.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Taylor & Francis",
+          "title": "AI-Human synergy in single-session therapy",
+          "url": "https://tandfonline.com/doi/abs/10.1080/29974100.2026.2636264",
+          "date": "2026-01-01",
+          "whatItMeasured": "Theoretically grounded AI-augmented SST framework; augments human/lay counsellors"
+        }
+      ],
+      "scope": "Framework/commentary; applies to brief-intervention school counselling. International.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (journal); measures framework; in window (2026).",
+      "id": "emp97"
+    },
+    {
+      "text": "ABC (2025) reports young Australians are turning to AI chatbots for therapy, with a UNSW professor describing the space as 'exploding' — directly shaping the presenting needs of school-age clients school counsellors support.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ABC News",
+          "title": "Young Australians using AI bots for therapy",
+          "url": "https://abc.net.au/news/2025-05-19/young-australians-using-ai-bots-for-therapy/105296348",
+          "date": "2025-05-19",
+          "whatItMeasured": "AU: young people substituting AI bots for therapy; expert caution"
+        }
+      ],
+      "scope": "Australian trade press; client-substitution signal, not a school-counsellor employment study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ABC); measures AU youth behaviour; in window (2025).",
+      "id": "emp98"
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "educational, vocational, and school counselors",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "source": "linkedin (unofficial scrape)",
+    "query": "Educational, Vocational, and School Counselors",
+    "location": "Australia",
+    "window": "2025-02-01 to 2026-08-31",
+    "count": 10,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Brisbane Catholic Education",
+      "Kaplan",
+      "Queensland Government",
+      "Central Regional TAFE",
+      "University of Wollongong",
+      "KINNECT",
+      "Queensland Government",
+      "Asia Pacific Group - Education & Migration Services",
+      "Asia Pacific Group - Education & Migration Services",
+      "Department of Education, Western Australia"
     ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "topSkills": [],
+    "note": "LinkedIn unofficial scrape; demand-side sample, not hire-volume."
   },
   "corpus": {
     "platforms": [
@@ -1532,7 +2109,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-31",
+        "note": "OpenAthens/Factiva session expired (cookies 5d old); L3 trade-press lane supplied via web (ABC/RMIT/UNSW) instead. Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1544,6 +2129,15 @@
       },
       {
         "date": "2026-08-29",
+        "soc": "21-1012",
+        "query": "Educational, Vocational, and School Counselors",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
         "soc": "21-1012",
         "query": "Educational, Vocational, and School Counselors",
         "location": "Australia",
@@ -1578,9 +2172,42 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 7,
+        "sources": {
+          "github": 4,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 5,
+          "x": 20,
+          "youtube": 1
+        },
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 7,
+        "sources": {
+          "github": 4,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 5,
+          "x": 20,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane degraded (OpenAthens auth expired); L3 claims this run are from open web (ABC/RMIT/UNSW), not Factiva.",
+    "L1 regulatory: Australian counsellors/therapists are self-regulated (PACFA/ACA/ARCAP); not AHPRA-statutory except school psychologists.",
+    "Adzuna AU count not independently re-verified this run (AU site blocked to extract; Adzuna MCP is UK-only); jobAds built from real LinkedIn sample.",
+    "L2 scholarly items are global (US/UK/Europe) studies; scoped as international, not AU employment estimates.",
+    "Some source URLs return 403 (publisher/Reddit bot-blocking) or 429 (LinkedIn rate-limit) to scripted HEAD/GET fetches but were observed live via web search / last30days; they are not broken links (verified non-404)."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

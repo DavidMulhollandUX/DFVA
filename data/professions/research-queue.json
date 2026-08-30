@@ -358,10 +358,10 @@
     "19-4061": "done",
     "19-4093": "done",
     "19-4099": "pending",
-    "21-1011": "pending",
-    "21-1012": "pending",
-    "21-1013": "pending",
-    "21-1014": "pending",
+    "21-1011": "done",
+    "21-1012": "done",
+    "21-1013": "done",
+    "21-1014": "done",
     "21-1015": "pending",
     "21-1021": "pending",
     "21-1023": "pending",
@@ -599,7 +599,11 @@
     "19-4021": 1,
     "33-3012": 1,
     "33-3021": 1,
-    "33-3051": 1
+    "33-3051": 1,
+    "21-1011": 1,
+    "21-1012": 1,
+    "21-1013": 1,
+    "21-1014": 1
   },
   "leases": {},
   "runs": [
@@ -1250,6 +1254,30 @@
       "soc": "33-3051",
       "status": "done",
       "note": ""
+    },
+    {
+      "at": "2026-08-30T18:17:34.715296+00:00",
+      "soc": "21-1011",
+      "status": "done",
+      "note": "empirical five-lane run 2026-08-31 (L1/L2/L3 web, L4 LinkedIn, L5 last30days; Factiva degraded)"
+    },
+    {
+      "at": "2026-08-30T18:17:34.830182+00:00",
+      "soc": "21-1012",
+      "status": "done",
+      "note": "empirical five-lane run 2026-08-31 (L1/L2/L3 web, L4 LinkedIn, L5 last30days; Factiva degraded)"
+    },
+    {
+      "at": "2026-08-30T18:17:34.936205+00:00",
+      "soc": "21-1013",
+      "status": "done",
+      "note": "empirical five-lane run 2026-08-31 (L1/L2/L3 web, L4 LinkedIn, L5 last30days; Factiva degraded)"
+    },
+    {
+      "at": "2026-08-30T18:17:35.047364+00:00",
+      "soc": "21-1014",
+      "status": "done",
+      "note": "empirical five-lane run 2026-08-31 (L1/L2/L3 web, L4 LinkedIn, L5 last30days; Factiva degraded)"
     }
   ],
   "claims": [
