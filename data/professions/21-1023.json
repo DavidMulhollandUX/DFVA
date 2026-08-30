@@ -1,26 +1,232 @@
 {
   "onet_soc_code": "21-1023",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Mental Health and Substance Abuse Social Workers",
   "aliases": [
-    "Case Manager",
-    "Clinical Social Worker",
     "Mental Health Social Worker",
-    "Senior Social Worker",
-    "Social Worker"
+    "Substance Abuse Social Worker"
   ],
-  "anzsco": "220000",
+  "anzsco": null,
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-01",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
-  "programs": [
-    "mc-socw"
-  ],
+  "generated": "2026-08-31",
+  "expires": "2027-02-27",
+  "programs": [],
   "claims": [
     {
-      "id": "l503",
+      "id": "l401",
+      "text": "Social Worker (Inpatient Mental Health) — Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Central Queensland Hospital and Health Service",
+          "title": "Social Worker (Inpatient Mental Health)",
+          "url": "https://www.linkedin.com/jobs/view/4459688509",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l402",
+      "text": "Mental Health Social Worker — SSI (Carlton, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "SSI",
+          "title": "Mental Health Social Worker",
+          "url": "https://www.linkedin.com/jobs/view/4448914001",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l403",
+      "text": "Psychosocial Clinician - QLD — Canteen Australia (Brisbane City, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Canteen Australia",
+          "title": "Psychosocial Clinician - QLD",
+          "url": "https://www.linkedin.com/jobs/view/4458943725",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l404",
+      "text": "Social Worker (Lvl 4) Car T-Cell Therapy - Perm FT — South Western Sydney Local Health District (Liverpool, New South Wales, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "South Western Sydney Local Health District",
+          "title": "Social Worker (Lvl 4) Car T-Cell Therapy - Perm FT",
+          "url": "https://www.linkedin.com/jobs/view/4458360631",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l405",
+      "text": "EAP Clinician - Social Worker/Psychologist/Counsellor — TELUS Health (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "TELUS Health",
+          "title": "EAP Clinician - Social Worker/Psychologist/Counsellor",
+          "url": "https://www.linkedin.com/jobs/view/4445923563",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "Social Worker PECC — Northern Sydney Local Health District (Hornsby, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Northern Sydney Local Health District",
+          "title": "Social Worker PECC",
+          "url": "https://www.linkedin.com/jobs/view/4455613968",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Social Worker, Occupational Therapist, Psychologist - Senior (Clinical Care Coordinator Mental Health) — Metro South Health (Brisbane, Queensland, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Metro South Health",
+          "title": "Social Worker, Occupational Therapist, Psychologist - Senior (Clinical Care Coordinator Mental Health)",
+          "url": "https://www.linkedin.com/jobs/view/4458581483",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "Social Worker (Lvl 1-2) - Youth Health Service - Perm FT — South Western Sydney Local Health District (Carramar, New South Wales, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "South Western Sydney Local Health District",
+          "title": "Social Worker (Lvl 1-2) - Youth Health Service - Perm FT",
+          "url": "https://www.linkedin.com/jobs/view/4458365552",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Intervention Worker - headspace Toowoomba — Youturn (Toowoomba, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Youturn",
+          "title": "Intervention Worker - headspace Toowoomba",
+          "url": "https://www.linkedin.com/jobs/view/4449361464",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Senior Social Worker (Adolescent Integrated Care) — Children's Health Queensland Hospital and Health Service (Brisbane, Queensland, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Children's Health Queensland Hospital and Health Service",
+          "title": "Senior Social Worker (Adolescent Integrated Care)",
+          "url": "https://www.linkedin.com/jobs/view/4459111562",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l511",
       "text": "Tuned 60-day autonomous operating loop\n# Mission\n\nRun Tuned as one bounded autonomous commercial bet for 60 days.\n\n**Stretch target:** exceed $1,000,000 in gross cash collected within 60 days. Treat this as pressure and direction, never as evidence or a forecast. Optimize expected revenue and learning velocity without fabricating tractio\n## Executor connected — bootstrap report (2026-08-06 20:30 Sydney)\n\n**Claude executor is live.** Claude Code Routine `trig_01KQ72C9WYh8LwvFJkXkwnqq`, model Clau…",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -30,175 +236,7 @@
           "title": "Tuned 60-day autonomous operating loop\n# Mission\n\nRun Tuned as one bounded auton…",
           "url": "https://github.com/in-c0/tuned/issues/1",
           "date": "2026-08-06",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l504",
-      "text": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which of Jameson or OmniBlocks is better.\n\n@coderabbitai Please generate a summary of the situation.\n@coderabbitai Please respond to my first message. <!-- This is an auto-generated reply by CodeRabbit -->\n> [!TIP]\n> For best results, initiate chat on the files or code changes.\n\n<details>\n<summary>🧩 Analysis chain</summary>\n\n🏁 Script executed:\n```\n#!/bin/bash\n# Fetch issue `#335`\ngh issue view 335 --repo OmniBlocks/monorepo…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "github",
-          "title": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which o…",
-          "url": "https://github.com/OmniBlocks/monorepo/issues/335",
-          "date": "2026-05-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l505",
-      "text": "Self-hosted CMS: editable pages + resource articles (D1-backed)\nAdds a self-hosted CMS so the marketing team can edit the site without touching code. All page copy and resource articles move into Cloudflare D1; the public pages render from the database via SSR, and a calm `/admin` editor drives draft → publish.\n\n## ⚠️ Deploy step — seed the database (read first)\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "github",
-          "title": "Self-hosted CMS: editable pages + resource articles (D1-backed)\nAdds a self-host…",
-          "url": "https://github.com/nosliwsirhc/safe_harbours/pull/3",
-          "date": "2026-06-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l506",
-      "text": "Tell HN: Man, AI is killing my brain",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Tell HN: Man, AI is killing my brain",
-          "url": "https://news.ycombinator.com/item?id=49468252",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l507",
-      "text": "Is AI Coding Affecting Our Mental Health? [video]",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Is AI Coding Affecting Our Mental Health? [video]",
-          "url": "https://www.youtube.com/watch?v=iPUn1Fnfn0k",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l508",
-      "text": "Wealthy AI workers send San Francisco house prices soaring",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Wealthy AI workers send San Francisco house prices soaring",
-          "url": "https://www.bbc.com/news/articles/c9q29j47v9ro",
-          "date": "2026-07-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l509",
-      "text": "What breaks in production AI workflows?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "What breaks in production AI workflows?",
-          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l510",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l511",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-          "url": "https://isaidumber.today/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -210,16 +248,16 @@
     },
     {
       "id": "l512",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "text": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which of Jameson or OmniBlocks is better.\n\n@coderabbitai Please generate a summary of the situation.\n@coderabbitai Please respond to my first message. <!-- This is an auto-generated reply by CodeRabbit -->\n> [!TIP]\n> For best results, initiate chat on the files or code changes.\n\n<details>\n<summary>🧩 Analysis chain</summary>\n\n🏁 Script executed:\n```\n#!/bin/bash\n# Fetch issue `#335`\ngh issue view 335 --repo OmniBlocks/monorepo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-          "url": "https://news.ycombinator.com/item?id=48672619",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which o…",
+          "url": "https://github.com/OmniBlocks/monorepo/issues/335",
+          "date": "2026-05-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -231,16 +269,16 @@
     },
     {
       "id": "l513",
-      "text": "The death of AI workflow builders",
+      "text": "Self-hosted CMS: editable pages + resource articles (D1-backed)\nAdds a self-hosted CMS so the marketing team can edit the site without touching code. All page copy and resource articles move into Cloudflare D1; the public pages render from the database via SSR, and a calm `/admin` editor drives draft → publish.\n\n## ⚠️ Deploy step — seed the database (read first)\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "The death of AI workflow builders",
-          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "Self-hosted CMS: editable pages + resource articles (D1-backed)\nAdds a self-host…",
+          "url": "https://github.com/nosliwsirhc/safe_harbours/pull/3",
+          "date": "2026-06-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -252,16 +290,16 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "P0: Länder-Fachvollständigkeit - Mandate, Wirkungspotenzial und Golden-State für alle 16 Länder\n## Anlass\nDer Live-Check am 20.08.2026 zeigt für Baden-Württemberg auf `/laender/baden-wuerttemberg/mandat-und-praxis` nur die verifizierte Mandatsbasis. Die Seite sagt selbst: `vollständige Commitment-Zerlegung wird fortlaufend ergänzt`.\n\nDer kanonische WÖk-Bestand bestätigt die Fachlücke:\n- `/WOEK\nWÖk RESTORE-FIRST FACHCHECK — Rheinland-Pfalz, 20.08.2026. This closes an important classification ambi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-          "url": "https://www.contextvault.dev/",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "P0: Länder-Fachvollständigkeit - Mandate, Wirkungspotenzial und Golden-State für…",
+          "url": "https://github.com/sustynats/wirkungsoekonomie.de/issues/240",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -273,16 +311,16 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-          "url": "https://argonix.io/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -294,16 +332,16 @@
     },
     {
       "id": "l516",
-      "text": "What is agentic AI today, and what do we want it to be?",
+      "text": "Is AI Coding Affecting Our Mental Health? [video]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "What is agentic AI today, and what do we want it to be?",
-          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-          "date": "2026-07-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Is AI Coding Affecting Our Mental Health? [video]",
+          "url": "https://www.youtube.com/watch?v=iPUn1Fnfn0k",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -315,16 +353,16 @@
     },
     {
       "id": "l517",
-      "text": "1 in 5 U.S. Adolescents and Young Adults Use AI Chatbots for Mental Health",
+      "text": "Wealthy AI workers send San Francisco house prices soaring",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "1 in 5 U.S. Adolescents and Young Adults Use AI Chatbots for Mental Health",
-          "url": "https://www.rand.org/news/press/2026/06/nearly-1-in-5-us-adolescents-and-young-adults-use-ai.html",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Wealthy AI workers send San Francisco house prices soaring",
+          "url": "https://www.bbc.com/news/articles/c9q29j47v9ro",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -336,16 +374,16 @@
     },
     {
       "id": "l518",
-      "text": "Ask HN: How do you handle the actual situation with so much AI noises",
+      "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: How do you handle the actual situation with so much AI noises",
-          "url": "https://news.ycombinator.com/item?id=48947498",
-          "date": "2026-07-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -357,16 +395,16 @@
     },
     {
       "id": "l519",
-      "text": "My AI-Assisted Workflow",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "My AI-Assisted Workflow",
-          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
-          "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -378,16 +416,16 @@
     },
     {
       "id": "l520",
-      "text": "Show HN: AI Workflow Builder App Template for React",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: AI Workflow Builder App Template for React",
-          "url": "https://www.jointjs.com/demos/ai-workflow-builder",
-          "date": "2026-07-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -399,16 +437,16 @@
     },
     {
       "id": "l521",
-      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -420,16 +458,16 @@
     },
     {
       "id": "l522",
-      "text": "AI workflows: an industry optimising the wrong variables",
+      "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI workflows: an industry optimising the wrong variables",
-          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
-          "date": "2026-05-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -441,16 +479,16 @@
     },
     {
       "id": "l523",
-      "text": "How AI Is Changing How We Think, Talk and Relate to Each Other",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "How AI Is Changing How We Think, Talk and Relate to Each Other",
-          "url": "https://news.northeastern.edu/2026/07/01/ai-mental-health-impact-research/",
-          "date": "2026-07-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -462,16 +500,16 @@
     },
     {
       "id": "l524",
-      "text": "Ask HK: How are you building AI apps today?",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HK: How are you building AI apps today?",
-          "url": "https://news.ycombinator.com/item?id=48323554",
-          "date": "2026-05-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -483,16 +521,16 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "1 in 5 U.S. Adolescents and Young Adults Use AI Chatbots for Mental Health",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
-          "url": "https://blocks.ai",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "1 in 5 U.S. Adolescents and Young Adults Use AI Chatbots for Mental Health",
+          "url": "https://www.rand.org/news/press/2026/06/nearly-1-in-5-us-adolescents-and-young-adults-use-ai.html",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -504,16 +542,16 @@
     },
     {
       "id": "l526",
-      "text": "The Problem with AI Today",
+      "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The Problem with AI Today",
-          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
-          "date": "2026-05-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -525,16 +563,16 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Ask HN: How do you handle the actual situation with so much AI noises",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-          "url": "https://github.com/kontext-dev/kontext-cli",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HN: How do you handle the actual situation with so much AI noises",
+          "url": "https://news.ycombinator.com/item?id=48947498",
+          "date": "2026-07-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -546,16 +584,16 @@
     },
     {
       "id": "l528",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
-          "url": "https://news.ycombinator.com/item?id=47590261",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -567,16 +605,16 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: CyberWriter – a .md editor built on Apple's (barely-used) on-device AI",
+      "text": "The AI tool discovery problem",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: CyberWriter – a .md editor built on Apple's (barely-used) on-device AI",
-          "url": "https://cyberwriter.app",
-          "date": "2026-04-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "The AI tool discovery problem",
+          "url": "https://news.ycombinator.com/item?id=48361292",
+          "date": "2026-06-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -588,16 +626,16 @@
     },
     {
       "id": "l530",
-      "text": "Social anxiety, not masking, may drive mental health struggles in autistic adults. Hiding or suppressing traits to fit in with social expectations is often linked to higher rates of depression and distress.\n&#32; submitted by &#32; /u/FreeHugs23 &#32; to &#32; r/science [link] &#32; [comments]\n\"Hiding or suppressing traits to fit in with social expectations\" ^ Which is in itself a form of masking . It's literally the 'first' form of masking I think of. What is this garbage? Psy post is a pop sci…",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Social anxiety, not masking, may drive mental health struggles in autistic adult…",
-          "url": "https://www.reddit.com/r/science/comments/1vmcl5t/social_anxiety_not_masking_may_drive_mental/",
-          "date": "2026-08-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -609,16 +647,16 @@
     },
     {
       "id": "l531",
-      "text": "Social anxiety, not masking, may drive mental health struggles in autistic adults. Hiding or suppressing traits to fit in with social expectations is often linked to higher rates of depression and distress.\n&#32; submitted by &#32; /u/FreeHugs23 &#32; to &#32; r/psychology [link] &#32; [comments]\nI though hiding or suppressing traits to fit in with social expectations is masking. Did I miss something or read the headline wrong? Anyways, thanks OP for the breakdown in the comments because the a A…",
+      "text": "Show HN: AI Workflow Builder App Template for React",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Social anxiety, not masking, may drive mental health struggles in autistic adult…",
-          "url": "https://www.reddit.com/r/psychology/comments/1vmcl7q/social_anxiety_not_masking_may_drive_mental/",
-          "date": "2026-08-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: AI Workflow Builder App Template for React",
+          "url": "https://www.jointjs.com/demos/ai-workflow-builder",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -630,16 +668,16 @@
     },
     {
       "id": "l532",
-      "text": "My feed is post after post of the famous/wealthy and their mental health and substance abuse challenges. It's been building up slowly and now it's getting loud. \n\nCan't wait to see what AI assisted solutions they are about to sell for this.",
+      "text": "Ask HN: Is AI dumbing us down?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "My feed is post after post of the famous/wealthy and their mental health and sub…",
-          "url": "https://x.com/Catina1641300/status/2089690988688155092",
-          "date": "2026-08-18",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HN: Is AI dumbing us down?",
+          "url": "https://news.ycombinator.com/item?id=48725549",
+          "date": "2026-06-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -651,16 +689,16 @@
     },
     {
       "id": "l533",
-      "text": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
+      "text": "AI workflows: an industry optimising the wrong variables",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
-          "url": "https://x.com/ThreadedInsight/status/2091815531984957703",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -672,16 +710,16 @@
     },
     {
       "id": "l534",
-      "text": "Nvidia just bought the entire open-source AI ecosystem.\n\n> Acquired Hugging Face for $12.9 billion\n> Now owns 2.5M+ models and 950K+ datasets under one roof\n> 13M+ registered developers now technically Nvidia users\n> The \"GitHub of AI\" now Nvidia's GitHub\n> One of Nvidia's biggest acquisitions ever\n> Comes as OpenAI, Anthropic, and Google build their own chips to escape Nvidia\n> Every open-weight model - Kimi, DeepSeek, Qwen, GLM is hosted on infrastructure Nvidia now controls\n> Jensen Huang no",
+      "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Nvidia just bought the entire open-source AI ecosystem.\n\n> Acquired Hugging Face…",
-          "url": "https://x.com/iam_elias1/status/2092923567054970920",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -693,16 +731,16 @@
     },
     {
       "id": "l535",
-      "text": "only videos i’ve ever seen with “made with ai meta glasses” pop up on my feed have been of people recording vulnerable people with mental health/substance abuse issues, or men sexually harassing women and girls",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "only videos i’ve ever seen with “made with ai meta glasses” pop up on my feed ha…",
-          "url": "https://x.com/lrw655321/status/2070134568938512728",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -714,16 +752,16 @@
     },
     {
       "id": "l536",
-      "text": "The AI Agent Dilemma",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The AI Agent Dilemma",
-          "url": "https://x.com/themayursinha/status/2091963933171036205",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -735,16 +773,16 @@
     },
     {
       "id": "l537",
-      "text": "Building an AI-native team",
+      "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Building an AI-native team",
-          "url": "https://x.com/Leundai0/status/2091910299330773039",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -756,16 +794,16 @@
     },
     {
       "id": "l538",
-      "text": "AI Overview\nMetastasizing is the active process in which cancer cells break away from the main (primary) tumor, travel through the blood or lymph system, and start growing as new tumors in other parts of the body.\n\nSan Francisco General Hospital (officially known as the Zuckerberg San Francisco General Hospital and Trauma Center)[1] is a public hospital in San Francisco, California, operated by the San Francisco Department of Public Health. It serves as the only Level I trauma center for the 1.5",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away…",
-          "url": "https://x.com/DunnBilly87734/status/2091848709533569181",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -777,16 +815,16 @@
     },
     {
       "id": "l539",
-      "text": "AI Didn't Remove the Engineering Barrier. It Moved It.",
+      "text": "My feed is post after post of the famous/wealthy and their mental health and substance abuse challenges. It's been building up slowly and now it's getting loud. \n\nCan't wait to see what AI assisted solutions they are about to sell for this.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Didn't Remove the Engineering Barrier. It Moved It.",
-          "url": "https://x.com/DogeOne6/status/2092510933965054063",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "My feed is post after post of the famous/wealthy and their mental health and sub…",
+          "url": "https://x.com/Catina1641300/status/2089690988688155092",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -798,16 +836,16 @@
     },
     {
       "id": "l540",
-      "text": "The one keyboard shortcut that changed how I use AI coding agents",
+      "text": "only videos i’ve ever seen with “made with ai meta glasses” pop up on my feed have been of people recording vulnerable people with mental health/substance abuse issues, or men sexually harassing women and girls",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The one keyboard shortcut that changed how I use AI coding agents",
-          "url": "https://x.com/vicky_grok/status/2091522295718449616",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "only videos i’ve ever seen with “made with ai meta glasses” pop up on my feed ha…",
+          "url": "https://x.com/lrw655321/status/2070134568938512728",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -819,16 +857,16 @@
     },
     {
       "id": "l541",
-      "text": "AI Agents Now Consume 5× More Tokens Than Humans",
+      "text": "I Built 3 Mobile Apps With AI in 2026. Here's Exactly How.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Agents Now Consume 5× More Tokens Than Humans",
-          "url": "https://x.com/ExecutionersES/status/2091735579608395826",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "I Built 3 Mobile Apps With AI in 2026. Here's Exactly How.",
+          "url": "https://x.com/BuildWithxAI/status/2093053991248859297",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -840,16 +878,16 @@
     },
     {
       "id": "l542",
-      "text": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in the Room",
+      "text": "The AI Agent Dilemma",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
-          "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
+          "title": "The AI Agent Dilemma",
+          "url": "https://x.com/themayursinha/status/2091963933171036205",
           "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -861,16 +899,16 @@
     },
     {
       "id": "l543",
-      "text": "A public health paper just described how AI-driven unemployment could trigger the same economic collapse that caused the 2008 financial crisis.\n\nExcept this time, there is no housing bubble to blame. The bubble is the workforce itself.\n\nThe paper is called \"The Recessionary Pressures of Generative AI: A Threat to Wellbeing.\" Published in 2024 on arXiv, later peer-reviewed and cited in public health literature through the National Institutes of Health. It is not written by economists. It is writt",
+      "text": "Building an AI-native team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A public health paper just described how AI-driven unemployment could trigger th…",
-          "url": "https://x.com/iam_elias1/status/2053482016595959973",
-          "date": "2026-05-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Building an AI-native team",
+          "url": "https://x.com/Leundai0/status/2091910299330773039",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -882,16 +920,16 @@
     },
     {
       "id": "l544",
-      "text": "@Catina1641300 maybe but then that means someone thought it would be 'cool' to have her Mom get involved on the regular. it's the only time I've seen an influencer involve a parent. Pretty weird",
+      "text": "AI Didn't Remove the Engineering Barrier. It Moved It.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Catina1641300 maybe but then that means someone thought it would be 'cool' to h…",
-          "url": "https://x.com/FringeViews/status/2091260344811340218",
-          "date": "2026-08-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "AI Didn't Remove the Engineering Barrier. It Moved It.",
+          "url": "https://x.com/DogeOne6/status/2092510933965054063",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -903,16 +941,16 @@
     },
     {
       "id": "l545",
-      "text": "why be angry that your tax money goes towards bombing campaigns that kill kids and a police force that mass arrests pensioners for holding up cardboard signs when you can be angry that a disabled girl is getting a car",
+      "text": "ENEMY AT THE GATES: Aiko’s Journey Across the AI Threshold [Part 4]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "why be angry that your tax money goes towards bombing campaigns that kill kids a…",
-          "url": "https://x.com/lrw655321/status/2089478931992736114",
-          "date": "2026-08-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "ENEMY AT THE GATES: Aiko’s Journey Across the AI Threshold [Part 4]",
+          "url": "https://x.com/SkillsGapTrain/status/2093838893166862578",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -924,16 +962,16 @@
     },
     {
       "id": "l546",
-      "text": "@dan_villafan it’s not about whether you’d personally be swayed to visit rwanda or not? it’s that villa have struck up a deal with and are representing a repressive regime with human rights violations, that not long ago, our country had a cruel deportation scheme with. it’s ugly sportswashing.",
+      "text": "AI 与 Web3 双周法律简报",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@dan_villafan it’s not about whether you’d personally be swayed to visit rwanda …",
-          "url": "https://x.com/lrw655321/status/2077050504069226897",
-          "date": "2026-07-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "AI 与 Web3 双周法律简报",
+          "url": "https://x.com/mankunlaw/status/2093933143531131165",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -945,16 +983,16 @@
     },
     {
       "id": "l547",
-      "text": "A new Chinese player added",
+      "text": "A public health paper just described how AI-driven unemployment could trigger the same economic collapse that caused the 2008 financial crisis.\n\nExcept this time, there is no housing bubble to blame. The bubble is the workforce itself.\n\nThe paper is called \"The Recessionary Pressures of Generative AI: A Threat to Wellbeing.\" Published in 2024 on arXiv, later peer-reviewed and cited in public health literature through the National Institutes of Health. It is not written by economists. It is writt",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A new Chinese player added",
-          "url": "https://x.com/iam_elias1/status/2093292197009621402",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "A public health paper just described how AI-driven unemployment could trigger th…",
+          "url": "https://x.com/iam_elias1/status/2053482016595959973",
+          "date": "2026-05-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -975,7 +1013,7 @@
           "title": "I was honoured to attend the Distinguished Gentleman’s Ride in Shillong, an init…",
           "url": "https://x.com/WailadmikiS/status/2056979522491494634",
           "date": "2026-05-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -996,7 +1034,7 @@
           "title": "These scumbags are using AI to monetize sponsorship\n\nDisgusting pathetic grifter…",
           "url": "https://x.com/alex_behrend/status/2036012782135746883",
           "date": "2026-03-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1008,720 +1046,6 @@
     },
     {
       "id": "l550",
-      "text": "GLM-5.3 just went open-weight.\n\n→ Zhipu's flagship model is now fully open, not the Flash variant, the full GLM-5.3\n→ Weights live on HuggingFace right now\n→ Free to download, fine-tune, self-host, deploy anywhere\n→ 1M token context window\n→ Frontier-class reasoning and coding performance\n→ Third major open-weight drop from China this month, after Kimi K3 and Qwen3.8\n→ Zhipu shipped the full-fat version while U.S. labs are still gatekeeping behind APIs\n→ The \"open-weight can't match closed-sourc",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "GLM-5.3 just went open-weight.\n\n→ Zhipu's flagship model is now fully open, not …",
-          "url": "https://x.com/iam_elias1/status/2093363783272124808",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l551",
-      "text": "Hy4 has been released.\n\nAnd It seems a good model for it's size. Last time Hy3 was so popular because of it's small size.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "Hy4 has been released.\n\nAnd It seems a good model for it's size. Last time Hy3 w…",
-          "url": "https://x.com/iam_elias1/status/2093260780317921648",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l552",
-      "text": "@Catina1641300 Oh right I forgot about that. You know who else pushes that and has a whole foundation dedicated to it?\nNicole Shanahan.\nRFK jr running mate (wasn't she?) and big time promoted by Ian Carroll.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@Catina1641300 Oh right I forgot about that. You know who else pushes that and h…",
-          "url": "https://x.com/FringeViews/status/2090815634439291377",
-          "date": "2026-08-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l553",
-      "text": "@OfficerHeinz @lrw655321 This but unironically",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@OfficerHeinz @lrw655321 This but unironically",
-          "url": "https://x.com/ehsan02_/status/2075641228339593472",
-          "date": "2026-07-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l554",
-      "text": "@tomjc09 yeah real. it’s not terrible but their music’s nowhere near as good as it used to be, it’s like it’s been written with festivals/gigs in mind. they’ve never topped a hero’s death, that guitar heavy post punk sound was their best.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@tomjc09 yeah real. it’s not terrible but their music’s nowhere near as good as …",
-          "url": "https://x.com/lrw655321/status/2089467377993892230",
-          "date": "2026-08-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l555",
-      "text": "the twisted upper class see vulnerable, working class women and girls as sacrificial fodder to enforce racial fear-mongering. these people see impoverished women as scum &amp; the dregs of society, fit for paid rape. how does one become such a hateful ghoul? sick woman.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "the twisted upper class see vulnerable, working class women and girls as sacrifi…",
-          "url": "https://x.com/lrw655321/status/2088071394214981695",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l556",
-      "text": "@lrw655321 She was a vile human being, and being murdered doesn't absolve her of that.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@lrw655321 She was a vile human being, and being murdered doesn't absolve her of…",
-          "url": "https://x.com/CorinthianJax/status/2075654033461678085",
-          "date": "2026-07-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l557",
-      "text": "Anthropic is being arrogant here.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "Anthropic is being arrogant here.",
-          "url": "https://x.com/iam_elias1/status/2092960453899288855",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l558",
-      "text": "@iam_elias1 I'll fetch the original post so the reply matches the discussion and adds one new piece of context.Checking whether this acquisition is real and looking for extra context that isn’t already in the post.they said no to a $7b stake last year then sold the whole thing",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@iam_elias1 I'll fetch the original post so the reply matches the discussion and…",
-          "url": "https://x.com/RaoulDukeDegen/status/2092934171715150035",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l559",
-      "text": "trust the process but honestly what the fuck, looking back on the trophy just feels a bit sad",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "trust the process but honestly what the fuck, looking back on the trophy just fe…",
-          "url": "https://x.com/lrw655321/status/2090823177156907321",
-          "date": "2026-08-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l560",
-      "text": "@nplum24 @Trap_12G ... did it start?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@nplum24 @Trap_12G ... did it start?",
-          "url": "https://x.com/Catina1641300/status/2092325578477052082",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l561",
-      "text": "@OzzySkateboard Here too.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@OzzySkateboard Here too.",
-          "url": "https://x.com/Catina1641300/status/2093099519378375067",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l562",
-      "text": "@FieldGuideAI Yep, thanks for sharing this insights",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@FieldGuideAI Yep, thanks for sharing this insights",
-          "url": "https://x.com/iam_elias1/status/2092974031616270733",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l563",
-      "text": "@Catina1641300 @Trap_12G I believe it has, pre-Hunger games. Time to prepare for survival mode 😉😓",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@Catina1641300 @Trap_12G I believe it has, pre-Hunger games. Time to prepare for…",
-          "url": "https://x.com/nplum24/status/2092326222390858091",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l564",
-      "text": "@Catina1641300 I'm re-watching it right now! :)",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@Catina1641300 I'm re-watching it right now! :)",
-          "url": "https://x.com/FringeViews/status/2091307875574432067",
-          "date": "2026-08-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l565",
-      "text": "god forbid young people are more clued up on corruption &amp; war crimes than people like this that can only criticise her for being “baby faced” and looking “about 12”. there is no justification for UoM using their students’ tuition fees to develop weapons for a genocidal state.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "god forbid young people are more clued up on corruption &amp; war crimes than pe…",
-          "url": "https://x.com/lrw655321/status/2078602022832558319",
-          "date": "2026-07-18",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l566",
-      "text": "remember being sat in the stretford end (lol) when united knocked us out the carabou cup few years ago &amp; garnacho was crazy to watch just tore up the wing in the second half &amp; made a muppet out of matty cash, idk i’m excited as long as he stops thinking he’s ronaldo i’m happy",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "remember being sat in the stretford end (lol) when united knocked us out the car…",
-          "url": "https://x.com/lrw655321/status/2080334706831200320",
-          "date": "2026-07-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l567",
-      "text": "@FringeViews Just got an ad for the company on X. Never saw it before 10 minutes ago. 🫩",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@FringeViews Just got an ad for the company on X. Never saw it before 10 minutes…",
-          "url": "https://x.com/Catina1641300/status/2093441108718112784",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l568",
-      "text": "@bindureddy It is still a pretty good model",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@bindureddy It is still a pretty good model",
-          "url": "https://x.com/iam_elias1/status/2093281242800361670",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l569",
-      "text": "no champions league, they didn’t even make europa or conference, in his prime, i feel sorry for him, he should be playing in the champions league, or europe at the very least. how the hell can you go from winning the europa league to a club that finished the prem mid table",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "no champions league, they didn’t even make europa or conference, in his prime, i…",
-          "url": "https://x.com/lrw655321/status/2079695303226036619",
-          "date": "2026-07-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l570",
-      "text": "@lrw655321 Spend her whole life advocating against feminism to then be killed in an act of normalized misogyny. \n\nThis doesn't really change my outlook on life, I already believed in spiritual/energetic karma.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@lrw655321 Spend her whole life advocating against feminism to then be killed in…",
-          "url": "https://x.com/Teslapunk3327/status/2075673634958369178",
-          "date": "2026-07-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l571",
-      "text": "Maybe this guy is the architect of my algorithm. That would make a lot of sense. 😂",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "Maybe this guy is the architect of my algorithm. That would make a lot of sense.…",
-          "url": "https://x.com/Catina1641300/status/2093099893904839126",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l572",
-      "text": "@FringeViews @pubity Frankenscience is everywhere 🤮",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@FringeViews @pubity Frankenscience is everywhere 🤮",
-          "url": "https://x.com/Catina1641300/status/2092766129416528136",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l573",
-      "text": "I think the nostalgia is about sales. It sells better than sex in an oversexed culture.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "I think the nostalgia is about sales. It sells better than sex in an oversexed c…",
-          "url": "https://x.com/Catina1641300/status/2092614175138693341",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l574",
-      "text": "@ajs6888 yeah, that's the concerning part",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@ajs6888 yeah, that's the concerning part",
-          "url": "https://x.com/iam_elias1/status/2092989914858377726",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l575",
-      "text": "@iam_elias1 这要是真的，开源生态怕是要先集体失眠了",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@iam_elias1 这要是真的，开源生态怕是要先集体失眠了",
-          "url": "https://x.com/ajs6888/status/2092959534717526184",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l576",
-      "text": "the synthetic face isn't the main problem. it's that 30+ platforms converge on the same polished cadence, fake pause, and product hold\n\nbuyers recognize the format before they process the offer\n\ni built adenslab around finished static visuals instead, because a sharp product proof / comparison / objection ad often feels more credible than another avatar reading a script",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "the synthetic face isn't the main problem. it's that 30+ platforms converge on t…",
-          "url": "https://x.com/timopowerz/status/2092745593194004532",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l577",
-      "text": "@iam_elias1 Zero marketing, maximum impact! We actually traced how this model silently crushed benchmarks https://t.co/BQdBJrzyX9 — outperforming with no hype is the real story.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@iam_elias1 Zero marketing, maximum impact! We actually traced how this model si…",
-          "url": "https://x.com/MichaelWaitze/status/2092608883705758057",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l578",
-      "text": "@iam_elias1 The sameness is the problem; I'd compare those talking-avatar ads with product-first clips built around one concrete use case, because UGC needs believable product proof more than a synthetic presenter.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@iam_elias1 The sameness is the problem; I'd compare those talking-avatar ads wi…",
-          "url": "https://x.com/v4vaivideo/status/2092569318965829950",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l579",
-      "text": "We have one and they also do Rocky Horror once a month.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "We have one and they also do Rocky Horror once a month.",
-          "url": "https://x.com/Catina1641300/status/2092251249588523180",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l580",
-      "text": "Getting closer.... https://t.co/v8gC5vo8uc",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "Getting closer.... https://t.co/v8gC5vo8uc",
-          "url": "https://x.com/Catina1641300/status/2092249804873101797",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l581",
-      "text": "@Catina1641300 Manipulation works best on the weak minded especially if they want something from the manipulators. It's not about IQ as smart people can be manipulated too.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@Catina1641300 Manipulation works best on the weak minded especially if they wan…",
-          "url": "https://x.com/cook11245/status/2091287766822781145",
-          "date": "2026-08-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l582",
-      "text": "@lrw655321 https://t.co/uotoWnmODq",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@lrw655321 https://t.co/uotoWnmODq",
-          "url": "https://x.com/nyabzlol/status/2075674681663803811",
-          "date": "2026-07-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l583",
-      "text": "@lrw655321 a white man finally taking one for the team",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@lrw655321 a white man finally taking one for the team",
-          "url": "https://x.com/bejeweledmothma/status/2075667037720879588",
-          "date": "2026-07-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l584",
       "text": "Solutions and Pathways Forward\n\nExperts agree Alaska must shift from reactive removal to prevention and tribal-led solutions. \n\nThe Family First Prevention Services Act (FFPSA) of 2018 now allows Title IV-E funds to pay for evidence-based prevention (e.g., mental health therapy, substance abuse treatment, parenting classes, kinship navigation) at a 50% match. \n\nAlaska’s children’s agencies are working on a federally approved FFPSA plan so that both the State and Tribes can draw these funds for a",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1731,7 +1055,7 @@
           "title": "Solutions and Pathways Forward\n\nExperts agree Alaska must shift from reactive re…",
           "url": "https://x.com/VeritasCyborg/status/2029486500799488097",
           "date": "2026-03-05",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1742,404 +1066,158 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l585",
-      "text": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast, BBC World Service\nWhat if leaving your bedroom felt impossible? Across Asia, a growing number of young people are becoming hikikomori, a term used to describe people who suffer from a severe social withdrawal. \n\nClick here to subscribe to our channel 👉🏽 https://bbc.in/3VyyriM\n\nThey shut themselves in their homes, retreating from work, school, or their families for months, sometimes years.  \n\nThat condition was firs…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l1a01",
+      "text": "The AASW Accredited Mental Health Social Worker (AMHSW) credential is required to access Medicare Better Access and Chronic Disease Management funding; eligibility requires current AASW membership and at least 2 years full-time-equivalent (3,360 hours) supervised mental health practice in the last 5 years.",
+      "lane": "L1",
+      "tier": "regulatory-standards",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast…",
-          "url": "https://www.youtube.com/watch?v=GKILCqVwp9E",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "AASW",
+          "title": "AASW Accredited Mental Health Social Worker Application Criteria",
+          "url": "https://aasw.asn.au/credentials/aasw-accredited-mental-health-social-worker-application-criteria",
+          "date": "",
+          "whatItMeasured": "AASW AMHSW application criteria (Medicare FPS eligibility), retrieved 2026-08-31"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "AMHSW sub-set of 21-1023; Medicare accreditation framework.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Source real (AASW). Population: AU AMHSW. Window: current (criteria from 1 July 2022)."
     },
     {
-      "id": "l486",
-      "text": "Mental Health Clinician (Psych, OT or SW) — Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 6 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l1a02",
+      "text": "Under Medicare, to provide Focused Psychological Strategies a practitioner must be an AASW member accredited to the AMHSW criteria in force from 1 July 2022.",
+      "lane": "L1",
+      "tier": "regulatory-standards",
       "sources": [
         {
-          "publisher": "Central Queensland Hospital and Health Service",
-          "title": "Mental Health Clinician (Psych, OT or SW)",
-          "url": "https://www.linkedin.com/jobs/view/4456465416",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "Services Australia",
+          "title": "Specific criteria for allied health and primary care professionals",
+          "url": "https://servicesaustralia.gov.au/specific-criteria-for-allied-health-professionals?context=20",
+          "date": "",
+          "whatItMeasured": "Services Australia specific criteria for allied health (AASW/AMHSW for Medicare FPS), retrieved 2026-08-31"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Medicare funding rule for FPS delivery.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "Source real (Services Australia). Population: AU Medicare providers. Window: current."
     },
     {
-      "id": "l487",
-      "text": "Social Worker — Ramsay Health Care (Joondalup, Western Australia, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l2a01",
+      "text": "Orygen's living systematic review (updated April 2026) of AI chatbots for youth mental health found 12 controlled trials (13 chatbots, 2,620 young people) where chatbots may reduce depression and anxiety symptoms on low-certainty evidence, and young people viewed AI as supplementary rather than a replacement for professional care.",
+      "lane": "L2",
+      "tier": "scholarly-study",
       "sources": [
         {
-          "publisher": "Ramsay Health Care",
-          "title": "Social Worker",
-          "url": "https://www.linkedin.com/jobs/view/4454710624",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "Orygen",
+          "title": "How effective is artificial intelligence (AI) in youth mental health interventions?",
+          "url": "https://orygen.org.au/Training/Resources/digital-technology/Evidence-review/How-effective-is-artificial-intelligence",
+          "date": "2026-04",
+          "whatItMeasured": "Orygen living systematic review on AI in youth mental health interventions (12 trials, n=2620), retrieved 2026-08-31"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Youth/adult mental health; relevant to AMHSW caseloads. Low-certainty evidence.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "Source real (Orygen). Population: young people. Window: to April 2026."
     },
     {
-      "id": "l488",
-      "text": "Mental Health Clinician (Psych, OT or SW) — Central Queensland Hospital and Health Service (Yeppoon, Queensland, Australia). Posted 6 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l3a01",
+      "text": "AASW's responsible-AI webinar for social workers covered AI scribes for clinical notes and the ethical use of AI in direct client work, directly relevant to Accredited Mental Health Social Workers delivering Medicare-funded Focused Psychological Strategies.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "Central Queensland Hospital and Health Service",
-          "title": "Mental Health Clinician (Psych, OT or SW)",
-          "url": "https://www.linkedin.com/jobs/view/4456477177",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "AASW",
+          "title": "Responsible AI Uses for Social Workers — AI Scribes and Beyond",
+          "url": "https://www.aasw.asn.au/event/aasw-webinar-recording-responsible-ai-uses-for-social-workers-ai-scribes-and-beyond/",
+          "date": "2026",
+          "whatItMeasured": "AASW responsible-AI webinar (AI scribes, ethical use), retrieved 2026-08-31"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Professional-body CPD; not primary research. Factiva L3 unavailable this run (auth expired); supplied via web.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l489",
-      "text": "Social Worker, Occupational Therapist, Psychologist - Senior (Clinical Care Coordinator Mental Health) — Metro South Health (Brisbane, Queensland, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Metro South Health",
-          "title": "Social Worker, Occupational Therapist, Psychologist - Senior (Clinical Care Coordinator Mental Health)",
-          "url": "https://www.linkedin.com/jobs/view/4458581483",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l490",
-      "text": "Mental Health Clinician (Psychologist Social Worker or Occupational Therapist) — Queensland Corrective Services (Cairns, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Queensland Corrective Services",
-          "title": "Mental Health Clinician (Psychologist Social Worker or Occupational Therapist)",
-          "url": "https://www.linkedin.com/jobs/view/4403692642",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l491",
-      "text": "Mental Health Social Worker — SSI (Carlton, Victoria, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "SSI",
-          "title": "Mental Health Social Worker",
-          "url": "https://www.linkedin.com/jobs/view/4448914001",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l492",
-      "text": "Social Worker — Clarity Health Care (Rockhampton Area). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Clarity Health Care",
-          "title": "Social Worker",
-          "url": "https://www.linkedin.com/jobs/view/4456582419",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l493",
-      "text": "Senior Mental Health Clinician — Queensland Corrective Services (Townsville, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Queensland Corrective Services",
-          "title": "Senior Mental Health Clinician",
-          "url": "https://www.linkedin.com/jobs/view/4452742378",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l494",
-      "text": "Allied Health - Mental Health and Alcohol & Other Drugs Talent Pool - Queensland Health — Metro South Health (Greater Brisbane Area). Posted 4 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Metro South Health",
-          "title": "Allied Health - Mental Health and Alcohol & Other Drugs Talent Pool - Queensland Health",
-          "url": "https://www.linkedin.com/jobs/view/4396237997",
-          "date": "4 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l495",
-      "text": "Mental Health Liaison Clinician — Queensland Government (Brisbane, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Queensland Government",
-          "title": "Mental Health Liaison Clinician",
-          "url": "https://www.linkedin.com/jobs/view/4450875060",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l596",
-      "text": "Tuned 60-day autonomous operating loop\n# Mission\n\nRun Tuned as one bounded autonomous commercial bet for 60 days.\n\n**Stretch target:** exceed $1,000,000 in gross cash collected within 60 days. Treat this as pressure and direction, never as evidence or a forecast. Optimize expected revenue and learning velocity without fabricating tractio\n## Executor connected — bootstrap report (2026-08-06 20:30 Sydney)\n\n**Claude executor is live.** Claude Code Routine `trig_01KQ72C9WYh8LwvFJkXkwnqq`, model Clau…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "github",
-          "title": "Tuned 60-day autonomous operating loop\n# Mission\n\nRun Tuned as one bounded auton…",
-          "url": "https://github.com/in-c0/tuned/issues/1",
-          "date": "2026-08-06",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l597",
-      "text": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which of Jameson or OmniBlocks is better.\n\n@coderabbitai Please generate a summary of the situation.\n@coderabbitai Please respond to my first message. <!-- This is an auto-generated reply by CodeRabbit -->\n> [!TIP]\n> For best results, initiate chat on the files or code changes.\n\n<details>\n<summary>🧩 Analysis chain</summary>\n\n🏁 Script executed:\n```\n#!/bin/bash\n# Fetch issue `#335`\ngh issue view 335 --repo OmniBlocks/monorepo…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "github",
-          "title": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which o…",
-          "url": "https://github.com/OmniBlocks/monorepo/issues/335",
-          "date": "2026-05-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l598",
-      "text": "Self-hosted CMS: editable pages + resource articles (D1-backed)\nAdds a self-hosted CMS so the marketing team can edit the site without touching code. All page copy and resource articles move into Cloudflare D1; the public pages render from the database via SSR, and a calm `/admin` editor drives draft → publish.\n\n## ⚠️ Deploy step — seed the database (read first)\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "github",
-          "title": "Self-hosted CMS: editable pages + resource articles (D1-backed)\nAdds a self-host…",
-          "url": "https://github.com/nosliwsirhc/safe_harbours/pull/3",
-          "date": "2026-06-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l599",
-      "text": "Social anxiety, not masking, may drive mental health struggles in autistic adults. Hiding or suppressing traits to fit in with social expectations is often linked to higher rates of depression and distress.\n&#32; submitted by &#32; /u/FreeHugs23 &#32; to &#32; r/science [link] &#32; [comments]\n\"Hiding or suppressing traits to fit in with social expectations\" ^ Which is in itself a form of masking . It's literally the 'first' form of masking I think of. What is this garbage? Psy post is a pop sci…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Social anxiety, not masking, may drive mental health struggles in autistic adult…",
-          "url": "https://www.reddit.com/r/science/comments/1vmcl5t/social_anxiety_not_masking_may_drive_mental/",
-          "date": "2026-08-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l5100",
-      "text": "Social anxiety, not masking, may drive mental health struggles in autistic adults. Hiding or suppressing traits to fit in with social expectations is often linked to higher rates of depression and distress.\n&#32; submitted by &#32; /u/FreeHugs23 &#32; to &#32; r/psychology [link] &#32; [comments]\nI though hiding or suppressing traits to fit in with social expectations is masking. Did I miss something or read the headline wrong? Anyways, thanks OP for the breakdown in the comments because the a A…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Social anxiety, not masking, may drive mental health struggles in autistic adult…",
-          "url": "https://www.reddit.com/r/psychology/comments/1vmcl7q/social_anxiety_not_masking_may_drive_mental/",
-          "date": "2026-08-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l5101",
-      "text": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast, BBC World Service\nWhat if leaving your bedroom felt impossible? Across Asia, a growing number of young people are becoming hikikomori, a term used to describe people who suffer from a severe social withdrawal. \n\nClick here to subscribe to our channel 👉🏽 https://bbc.in/3VyyriM\n\nThey shut themselves in their homes, retreating from work, school, or their families for months, sometimes years.  \n\nThat condition was firs…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast…",
-          "url": "https://www.youtube.com/watch?v=GKILCqVwp9E",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Source real (AASW). Single provider CPD. Window: 2026."
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "mental health and substance abuse social workers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "source": "pending-this-run",
+    "query": null,
+    "window": null,
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": [],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "mental health social worker",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+      "count": 702,
+      "returned": 50,
+      "topEmployers": [
+        "atWork Australia",
+        "Queensland Government",
+        "Gidget Foundation",
+        "Queensland Corrective Services",
+        "Acacia Connection",
+        "Henderson Recruitment Pty Ltd t/a Henderson Healthcare",
+        "Henderson Healthcare",
+        "Acacia Psychology"
+      ],
+      "topSkills": [
+        "mental health",
+        "counselling",
+        "assessment"
+      ]
+    }
   },
   "corpus": {
-    "platforms": [
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Mental Health and Substance Abuse Social Workers Association discourse",
-        "items": 45
-      }
-    ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
-    "linkedin": [
-      {
-        "status": "sampled",
-        "query": "Mental Health and Substance Abuse Social Workers",
-        "location": "Australia",
-        "returned": 10,
-        "source": "linkedin (unofficial scrape)",
-        "_raw": "data/professions/21-1023/raw/linkedin_l4.json"
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens/Factiva session expired; L3 supplied via web (AASW/ASORC/PHAA/ARPA).",
+        "date": "2026-08-31"
       },
       {
-        "date": "2026-08-29",
+        "lane": "L5",
+        "source": "grounding",
+        "status": "unreachable",
+        "detail": "Keyless web search unavailable (last30days grounding source).",
+        "date": "2026-08-31"
+      },
+      {
+        "lane": "L4",
+        "source": "last30days-jobs",
+        "status": "unreachable",
+        "detail": "last30days hiring-signals/jobs source unreachable (DNS).",
+        "date": "2026-08-31"
+      },
+      {
+        "lane": "L2",
+        "source": "JMIR Pediatrics (child maltreatment AI)",
+        "status": "bot_gated",
+        "detail": "Direct HTTP fetch blocked by Cloudflare; source is a real peer-reviewed article but unverifiable via fetch this run. Not admitted as a claim.",
+        "date": "2026-08-31"
+      }
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-31",
         "soc": "21-1023",
-        "query": "Mental Health and Substance Abuse Social Workers",
+        "query": "Mental Health Social Worker",
         "location": "Australia",
         "returned": 10,
         "totalResults": 10,
@@ -2148,33 +1226,24 @@
     ],
     "l5Sample": [
       {
-        "date": "2026-08-29",
-        "added": 83,
+        "date": "2026-08-31",
+        "added": 40,
         "sources": {
-          "github": 3,
+          "github": 4,
           "grounding": 0,
           "hackernews": 24,
-          "reddit": 2,
-          "x": 53,
-          "youtube": 1
-        },
-        "status": "sampled"
-      },
-      {
-        "date": "2026-08-29",
-        "added": 6,
-        "sources": {
-          "github": 3,
-          "grounding": 0,
-          "hackernews": 24,
-          "reddit": 2,
-          "x": 53,
-          "youtube": 1
+          "reddit": 0,
+          "x": 12,
+          "youtube": 0
         },
         "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva lane unavailable this run (OpenAthens auth expired); L3 supplied via web (AASW).",
+    "L5 corpus is self-selected; corroborate before high-grade use. L5 grounding source unreachable.",
+    "AMHSW credential covers a sub-set of this SOC; L1 reflects Medicare accreditation, not full population."
+  ]
 }

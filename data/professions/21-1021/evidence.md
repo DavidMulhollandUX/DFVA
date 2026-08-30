@@ -1,46 +1,388 @@
-# Evidence log: Child, Family, and School Social Workers (21-1021)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 21-1021 Child, Family, and School Social Workers
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-31. Empirical five-lane (L1-L5) autoloop. Research method: empirical-five-lane-v1.
+Confidence: high. L1/L2/L3 claims from web research (Factiva auth expired this run).
 
-## Lane sources (one short quote per source)
-
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Child, Family, and School Social Workers] Professional Practice Framework and Digital Competency Guidelines for Child, Family, and School Social Workers — https://www.psc.gov.au/standards/21-1021 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Child, Family, and School Social Workers enforce non-delegable ethical accountability and h..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Child, Family, and School Social Workers — https://www.jobsandskills.gov.au/research/21-1021 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Child, Family, and School Social Workers heightens the demand for adaptive problem solving, interdis..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (41 claims)
-- last30days declared sample: 41 items across github=5, grounding=0, hackernews=23, reddit=1, x=10, youtube=2.
-- Representative practitioner quotes:
-  - [github] Introduce romantic relationships, births, and dependent citizens
+- [L4] Social Worker — Southern Cross Care WA (Rivervale, Western Australia, Australia). Posted 2 weeks ago.
+    source: Southern Cross Care WA — Social Worker (https://www.linkedin.com/jobs/view/4449538383, 2 weeks ago)
+    measured: LinkedIn job posting (unofficial scrape); retrieved 2026-08-31
+- [L4] Senior Social Worker (Adolescent Integrated Care) — Children's Health Queensland Hospital and Health Service (Brisbane, Queensland, Australia). Posted 4 days ago.
+    source: Children's Health Queensland Hospital and Health Service — Senior Social Worker (Adolescent Integrated Care) (https://www.linkedin.com/jobs/view/4459111562, 4 days ago)
+    measured: LinkedIn job posting (unofficial scrape); retrieved 2026-08-31
+- [L4] Senior Social Worker — Tradewind Australia (Strathfield, New South Wales, Australia). Posted 3 weeks ago.
+    source: Tradewind Australia — Senior Social Worker (https://www.linkedin.com/jobs/view/4448146359, 3 weeks ago)
+    measured: LinkedIn job posting (unofficial scrape); retrieved 2026-08-31
+- [L4] Social Worker PECC — Northern Sydney Local Health District (Hornsby, New South Wales, Australia). Posted 1 week ago.
+    source: Northern Sydney Local Health District — Social Worker PECC (https://www.linkedin.com/jobs/view/4455613968, 1 week ago)
+    measured: LinkedIn job posting (unofficial scrape); retrieved 2026-08-31
+- [L4] Social Worker — UW-Madison Sandra Rosenbaum School of Social Work (Middleton, South Australia, Australia). Posted 1 month ago.
+    source: UW-Madison Sandra Rosenbaum School of Social Work — Social Worker (https://www.linkedin.com/jobs/view/4445764335, 1 month ago)
+    measured: LinkedIn job posting (unofficial scrape); retrieved 2026-08-31
+- [L4] Social Worker (Inpatient Mental Health) — Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 3 days ago.
+    source: Central Queensland Hospital and Health Service — Social Worker (Inpatient Mental Health) (https://www.linkedin.com/jobs/view/4459688509, 3 days ago)
+    measured: LinkedIn job posting (unofficial scrape); retrieved 2026-08-31
+- [L4] Social Worker (Lvl 1-2) - Youth Health Service - Perm FT — South Western Sydney Local Health District (Carramar, New South Wales, Australia). Posted 3 days ago.
+    source: South Western Sydney Local Health District — Social Worker (Lvl 1-2) - Youth Health Service - Perm FT (https://www.linkedin.com/jobs/view/4458365552, 3 days ago)
+    measured: LinkedIn job posting (unofficial scrape); retrieved 2026-08-31
+- [L4] Caseworker - Communities and Family Support (CAFS) — CatholicCare Diocese Of Broken Bay (Sydney, New South Wales, Australia). Posted 3 weeks ago.
+    source: CatholicCare Diocese Of Broken Bay — Caseworker - Communities and Family Support (CAFS) (https://www.linkedin.com/jobs/view/4448676195, 3 weeks ago)
+    measured: LinkedIn job posting (unofficial scrape); retrieved 2026-08-31
+- [L4] Case Workers Blacktown — MacKillop Family Services (Blacktown, New South Wales, Australia). Posted 7 months ago.
+    source: MacKillop Family Services — Case Workers Blacktown (https://www.linkedin.com/jobs/view/4350800725, 7 months ago)
+    measured: LinkedIn job posting (unofficial scrape); retrieved 2026-08-31
+- [L4] Mental Health Social Worker — SSI (Carlton, Victoria, Australia). Posted 3 weeks ago.
+    source: SSI — Mental Health Social Worker (https://www.linkedin.com/jobs/view/4448914001, 3 weeks ago)
+    measured: LinkedIn job posting (unofficial scrape); retrieved 2026-08-31
+- [L5] Introduce romantic relationships, births, and dependent citizens
 > *This was generated by AI during triage.*
 
 ## Idea
 
-C...
-  - [github] WIP: Procedural infinite dungeons (Rifts) + dev commands
-## Procedural infinite dungeons (Rifts), the new-world continen...
-  - [github] Jameson vs. OmniBlocks
+Close romantic relationships may result in a new citizen being born.
+
+A birth increases the living population and immediate demand for food, housing, care, and treasury support. A child begins as a dependant rather than a worker, then may enter e
+> *This was generated by AI during triage.*
+
+## Added connection: demographic demand for Morrow School
+
+Procreation makes the school i…
+    source: github — Introduce romantic relationships, births, and dependent citizens
+> *This was gen… (https://github.com/datashaman/morrow/issues/58, 2026-08-25)
+    measured: last30days L5 practitioner discourse (github); retrieved 2026-08-31
+- [L5] WIP: Procedural infinite dungeons (Rifts) + dev commands
+## Procedural infinite dungeons (Rifts), the new-world continent, and the AI dungeon upgrader
+
+Draft / work in progress. cc @enriquegf for review.
+
+### v0.28 compatibility sync (2026-07-20)
+
+- Merged `release/v0.28.0` through `b2911d80`, including the latest offhand equip validation and drag/drop wi
+/review <!-- pr-ai-review-comment-4901258228 -->
+## AI review (Codex, requested by @EnriqueGF via `/review`)
+
+The rift generator is nicely iso…
+    source: github — WIP: Procedural infinite dungeons (Rifts) + dev commands
+## Procedural infinite … (https://github.com/levy-street/world-of-claudecraft/pull/1584, 2026-07-07)
+    measured: last30days L5 practitioner discourse (github); retrieved 2026-08-31
+- [L5] P0: Länder-Fachvollständigkeit - Mandate, Wirkungspotenzial und Golden-State für alle 16 Länder
+## Anlass
+Der Live-Check am 20.08.2026 zeigt für Baden-Württemberg auf `/laender/baden-wuerttemberg/mandat-und-praxis` nur die verifizierte Mandatsbasis. Die Seite sagt selbst: `vollständige Commitment-Zerlegung wird fortlaufend ergänzt`.
+
+Der kanonische WÖk-Bestand bestätigt die Fachlücke:
+- `/WOEK
+WÖk RESTORE-FIRST FACHCHECK — Rheinland-Pfalz, 20.08.2026. This closes an important classification ambi…
+    source: github — P0: Länder-Fachvollständigkeit - Mandate, Wirkungspotenzial und Golden-State für… (https://github.com/sustynats/wirkungsoekonomie.de/issues/240, 2026-08-20)
+    measured: last30days L5 practitioner discourse (github); retrieved 2026-08-31
+- [L5] Jameson vs. OmniBlocks
 Continuation of the discussion over at #316 about which of Jameson or OmniBlocks is better.
 
-@cod...
-  - [github] Hh
+@coderabbitai Please generate a summary of the situation.
+@coderabbitai Please respond to my first message. <!-- This is an auto-generated reply by CodeRabbit -->
+> [!TIP]
+> For best results, initiate chat on the files or code changes.
+
+<details>
+<summary>🧩 Analysis chain</summary>
+
+🏁 Script executed:
+```
+#!/bin/bash
+# Fetch issue `#335`
+gh issue view 335 --repo OmniBlocks/monorepo…
+    source: github — Jameson vs. OmniBlocks
+Continuation of the discussion over at #316 about which o… (https://github.com/OmniBlocks/monorepo/issues/335, 2026-05-23)
+    measured: last30days L5 practitioner discourse (github); retrieved 2026-08-31
+- [L5] Hh
 ```Python
 
 CUE_CARDS = [
     {
         "num": 51,
-        "topic": "Describe a good habit your friend has that you wa...
-  - [github] Control_Patterns
+        "topic": "Describe a good habit your friend has that you want to develop",
+        "category": "People / Habits",
+        "cue_points": [
+            "Who this friend is",
+            "What habit he has",
+            "When you noticed it",
+```Python
+
+CUE_CARDS = [
+    {
+        "num": 56,
+        "topic": "Describe a time when someone apologized to you",
+        "category": "Experiences / Relationships",
+        "cue_points": [
+       …
+    source: github — Hh
+```Python
+
+CUE_CARDS = [
+    {
+        "num": 51,
+        "topic": "Describe … (https://github.com/rakib06/mini-github/issues/14, 2026-05-18)
+    measured: last30days L5 practitioner discourse (github); retrieved 2026-08-31
+- [L5] Control_Patterns
 # Gray Control Pattern  
 ## How Our Files Fit Together  
 
-**Sections 1–3 (Purpose & Scope; Domain Matri...
+**Sections 1–3 (Purpose & Scope; Domain Matrix; Evidence Bands)**  
+December 02, 2025  
+
+---
+
+## 1. Purpose & Scope
+
+This section aligns the project’s TXT and PDF corpus around one structural pattern:
+
+> **Systems that secure compliance and e
+Here is the forensic debrief of the current operational reality, synthesized from your diagnosis.
+📋 CLINICAL DIAGNOSIS: The Parasitic Extraction Engine
+Subject: Global Socio-Economic…
+    source: github — Control_Patterns
+# Gray Control Pattern  
+## How Our Files Fit Together  
+
+**Sec… (https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/2, 2026-04-10)
+    measured: last30days L5 practitioner discourse (github); retrieved 2026-08-31
+- [L5] Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery
+    source: hackernews — Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery (https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/, 2026-08-05)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] Tell HN: Man, AI is killing my brain
+    source: hackernews — Tell HN: Man, AI is killing my brain (https://news.ycombinator.com/item?id=49468252, 2026-08-27)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12
+    source: hackernews — Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12 (https://news.ycombinator.com/item?id=48981136, 2026-07-20)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] Wealthy AI workers send San Francisco house prices soaring
+    source: hackernews — Wealthy AI workers send San Francisco house prices soaring (https://www.bbc.com/news/articles/c9q29j47v9ro, 2026-07-11)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] Flyte 2 is GA: durable distributed AI workflows using regular Python
+    source: hackernews — Flyte 2 is GA: durable distributed AI workflows using regular Python (https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime, 2026-08-04)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion
+    source: hackernews — Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion (https://isaidumber.today/, 2026-08-14)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] AI Adoption Is Dividing Friends, Families and Co-Workers
+    source: hackernews — AI Adoption Is Dividing Friends, Families and Co-Workers (https://www.bloomberg.com/news/articles/2026-07-30/how-chatgpt-and-ai-are-dividing-friends-and-families, 2026-08-01)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] Adults have struggled to set rules for AI in school. These teens figured it out
+    source: hackernews — Adults have struggled to set rules for AI in school. These teens figured it out (https://text.npr.org/nx-s1-5853571, 2026-08-12)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] Ask HN: What does the day-to-day work of an AI Engineer look like?
+    source: hackernews — Ask HN: What does the day-to-day work of an AI Engineer look like? (https://news.ycombinator.com/item?id=48672619, 2026-06-25)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] AI children's books, body horror edition
+    source: hackernews — AI children's books, body horror edition (https://lcamtuf.substack.com/p/ai-childrens-books-body-horror-edition, 2026-06-26)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] Show HN: ContextVault – Shared memory layer for your AI and your team
+    source: hackernews — Show HN: ContextVault – Shared memory layer for your AI and your team (https://www.contextvault.dev/, 2026-07-13)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] Show HN: Argonix – One AI-powered platform for SRE and cloud operations
+    source: hackernews — Show HN: Argonix – One AI-powered platform for SRE and cloud operations (https://argonix.io/, 2026-08-09)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] What is agentic AI today, and what do we want it to be?
+    source: hackernews — What is agentic AI today, and what do we want it to be? (https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630, 2026-07-03)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] Mellum2 Goes Open Source: A Fast Model for AI Workflows
+    source: hackernews — Mellum2 Goes Open Source: A Fast Model for AI Workflows (https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/, 2026-06-02)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] My AI-Assisted Workflow
+    source: hackernews — My AI-Assisted Workflow (https://www.maiobarbero.dev/articles/ai-assisted-workflow/, 2026-04-15)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] AI workflows: an industry optimising the wrong variables
+    source: hackernews — AI workflows: an industry optimising the wrong variables (https://adsurg.substack.com/p/navigating-ai-with-paper-maps, 2026-05-22)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] Show HN: AI Workflow Builder App Template for React
+    source: hackernews — Show HN: AI Workflow Builder App Template for React (https://www.jointjs.com/demos/ai-workflow-builder, 2026-07-15)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] Show HN: Blocks.ai – control plane and network layer for agents
+    source: hackernews — Show HN: Blocks.ai – control plane and network layer for agents (https://blocks.ai, 2026-07-09)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] Ask HK: How are you building AI apps today?
+    source: hackernews — Ask HK: How are you building AI apps today? (https://news.ycombinator.com/item?id=48323554, 2026-05-29)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] The AI School Bus Camera Company Blanketing America in Tickets
+    source: hackernews — The AI School Bus Camera Company Blanketing America in Tickets (https://www.bloomberg.com/news/features/2026-04-14/buspatrol-school-bus-traffic-tickets-have-limited-safety-benefits-critics-say, 2026-04-14)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] The Problem with AI Today
+    source: hackernews — The Problem with AI Today (https://tongwing.woon.sg/blog/the-problem-with-ai-today/, 2026-05-13)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] Show HN: Kontext CLI – Credential broker for AI coding agents in Go
+    source: hackernews — Show HN: Kontext CLI – Credential broker for AI coding agents in Go (https://github.com/kontext-dev/kontext-cli, 2026-04-14)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] Ask HN: Academic study on AI's impact on software development – want to join?
+    source: hackernews — Ask HN: Academic study on AI's impact on software development – want to join? (https://news.ycombinator.com/item?id=47590261, 2026-03-31)
+    measured: last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31
+- [L5] An AI system developed by a Dutch social enterprise is giving nurses in Malawi up to 3 hours' warning when a sick child may become critical, helping them monitor 30 patients at once. Two hospitals using it recorded 40% to 51% fewer child deaths.
+&#32; submitted by &#32; /u/ArgentineBeauty &#32; to &#32; r/UpliftingNews [link] &#32; [comments]
+    source: reddit — An AI system developed by a Dutch social enterprise is giving nurses in Malawi u… (https://www.reddit.com/r/UpliftingNews/comments/1vzz8en/an_ai_system_developed_by_a_dutch_social/, 2026-08-27)
+    measured: last30days L5 practitioner discourse (reddit); retrieved 2026-08-31
+- [L5] Israel utilized an AI tracking system called "Where's Daddy" to monitor flagged individuals in Gaza. The program deliberately signaled strikes for when targets returned to their family homes, maximizing the likelihood of civilian and child casualties.
+&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]
+    source: reddit — Israel utilized an AI tracking system called "Where's Daddy" to monitor flagged … (https://www.reddit.com/r/SECourses/comments/1w0seug/israel_utilized_an_ai_tracking_system_called/, 2026-08-28)
+    measured: last30days L5 practitioner discourse (reddit); retrieved 2026-08-31
+- [L5] Unpredictable work schedules increase the risk of romantic breakups. Hourly service workers who deal with unstable work hours are at a higher risk of going through a separation or divorce. Stressful demands of modern low-wage jobs can spill over into personal lives and disrupt family stability.
+&#32; submitted by &#32; /u/mvea &#32; to &#32; r/science [link] &#32; [comments]
+    source: reddit — Unpredictable work schedules increase the risk of romantic breakups. Hourly serv… (https://www.reddit.com/r/science/comments/1vw4w0w/unpredictable_work_schedules_increase_the_risk_of/, 2026-08-23)
+    measured: last30days L5 practitioner discourse (reddit); retrieved 2026-08-31
+- [L5] AI Adoption Is Dividing Friends, Families and Co-Workers
+As artificial intelligence becomes ingrained in daily life, disagreements over the technology are increasingly becoming disagreements over values. &#32; submitted by &#32; /u/bloomberg &#32; to &#32; r/Futurology [link] &#32; [comments]
+    source: reddit — AI Adoption Is Dividing Friends, Families and Co-Workers
+As artificial intellige… (https://www.reddit.com/r/Futurology/comments/1vcpx5y/ai_adoption_is_dividing_friends_families_and/, 2026-08-01)
+    measured: last30days L5 practitioner discourse (reddit); retrieved 2026-08-31
+- [L5] When you use a credit card, a 1¢ payment costs 31¢.
+
+That math doesn't work for AI agents making thousands of tiny payments a day.
+
+@samrags_ of @merit_systems explains why stablecoins could be the rail the agent economy runs on. https://t.co/P1o2CMuaNu
+    source: x — When you use a credit card, a 1¢ payment costs 31¢.
+
+That math doesn't work for … (https://x.com/a16zcrypto/status/2092335249195970753, 2026-08-25)
+    measured: last30days L5 practitioner discourse (x); retrieved 2026-08-31
+- [L5] The habits of AI writing, and what to do about them
+    source: x — The habits of AI writing, and what to do about them (https://x.com/a16zcrypto/status/2091934263302402318, 2026-08-24)
+    measured: last30days L5 practitioner discourse (x); retrieved 2026-08-31
+- [L5] Beyond slop, taste, and AI moral panic: What social science tells us
+    source: x — Beyond slop, taste, and AI moral panic: What social science tells us (https://x.com/a16zcrypto/status/2092678605998624834, 2026-08-26)
+    measured: last30days L5 practitioner discourse (x); retrieved 2026-08-31
+- [L5] Vibe coding struggles, captured perfectly in 60 seconds 😁
+
+Interested in AI?
+
+Follow @AiEvolutio58513 and never fall behind.
+
+I track ChatGPT, Claude, and every tool quietly changing how we work and create, then hand you the tested signals. https://t.co/Rb1ADe79jl
+    source: x — Vibe coding struggles, captured perfectly in 60 seconds 😁
+
+Interested in AI?
+
+Fo… (https://x.com/AiEvolutio58513/status/2093684874066702806, 2026-08-29)
+    measured: last30days L5 practitioner discourse (x); retrieved 2026-08-31
+- [L5] Elon Musk brought up his son, who can't make friends, and shut down the AI friendship debate before it even got going.
+
+Musk: "One of my sons has some learning disabilities and has trouble making friends, actually. And I was like, well, an AI friend would actually be great for him."
+
+No hypothetical. No sales pitch. A father talking about his child.
+
+Musk: "If you have an AI that has memory and remembers all of your interactions and has read everything you've ever done, so it really will know yo
+    source: x — Elon Musk brought up his son, who can't make friends, and shut down the AI frien… (https://x.com/AiEvolutio58513/status/2091525892623487170, 2026-08-23)
+    measured: last30days L5 practitioner discourse (x); retrieved 2026-08-31
+- [L5] Debates over AI consciousness are a trap | Kirahowe
+
+I think a lot about what the future will look like. I always did but even more so since I had a baby. To me it feels like we’re not in a steady state right now. Things are volatile and changing fast. It feels like this pace of change can’t possibly last forever. But it also seems obvious that LLMs are going to dramatically change the nature of my work, and many types of work, permanently.
+
+I am effectively required to use AI at work now, so fo
+    source: x — Debates over AI consciousness are a trap | Kirahowe
+
+I think a lot about what th… (https://x.com/OwenGregorian/status/2093169126004985893, 2026-08-28)
+    measured: last30days L5 practitioner discourse (x); retrieved 2026-08-31
+- [L5] If you use Hermes, save this post right now.
+
+Nous Research released a full guide on building custom Hermes agent plugins.
+
+Paste the entire page into your agent and prompt: "I want to build a plugin for [x]."
+
+The agent takes it from there and runs autonomously.
+
+A few ideas to get started:
+
+- Finance research and alert systems
+- Social media scanners
+- Calendar and meeting prep
+- Health and medical trackers
+
+The ROI on this is serious.
+
+Interested in AI?
+
+Follow @AiEvolutio58513 and never fall
+    source: x — If you use Hermes, save this post right now.
+
+Nous Research released a full guid… (https://x.com/AiEvolutio58513/status/2093701221785932098, 2026-08-29)
+    measured: last30days L5 practitioner discourse (x); retrieved 2026-08-31
+- [L5] Haidt's warning about AI and children is one of the more disturbing things I've come across lately.
+
+Social media already rewired how we pay attention. What's coming next is an attack on something even more fundamental, our attachments, the emotional bonds that form the basis of how humans relate to each other.
+
+His argument: AI companions (chatbots, holographic "friends," digital teddy bears) will simply out-respond any parent. Children will build their primary attachments to AI rather than to
+    source: x — Haidt's warning about AI and children is one of the more disturbing things I've … (https://x.com/AiEvolutio58513/status/2094061909251404269, 2026-08-30)
+    measured: last30days L5 practitioner discourse (x); retrieved 2026-08-31
+- [L5] How life looked before this clip existed...
+
+Interested in AI?
+
+Follow @AiEvolutio58513 and never fall behind.
+
+I track ChatGPT, Claude, and every tool quietly changing how we work and create, then hand you the tested signals. https://t.co/DEPHvfiDvI
+    source: x — How life looked before this clip existed...
+
+Interested in AI?
+
+Follow @AiEvolut… (https://x.com/AiEvolutio58513/status/2093451573439692812, 2026-08-28)
+    measured: last30days L5 practitioner discourse (x); retrieved 2026-08-31
+- [L5] Trying to avoid AI slop in your copywriting?
+
+Use this, and read @stephbzinn's piece: https://t.co/UFOIAasdbF
+    source: x — Trying to avoid AI slop in your copywriting?
+
+Use this, and read @stephbzinn's p… (https://x.com/a16zcrypto/status/2092998851171061764, 2026-08-27)
+    measured: last30days L5 practitioner discourse (x); retrieved 2026-08-31
+- [L5] Trump Is Already Bracing for a Third Impeachment | Pivot
+
+Transcript 0:00 to 17:22
+
+28AUG2026 Pivot
+Pivot with Kara Swisher and Scott Galloway
+https://t.co/RmXdCHisIK
+
+Scott Free August continues, and Kara is joined by CNN’s Kaitlan Collins! 
+
+They talk about Dolly Parton's legacy in culture and business, unpack Meta’s landmark social media addiction case settlement, and discuss the growing political backlash to data centers. 
+
+Then, they break down Bill Gates’ warning about AI, Trump’s politica
+    source: x — Trump Is Already Bracing for a Third Impeachment | Pivot
+
+Transcript 0:00 to 17:… (https://x.com/gecko39/status/2093737029880119737, 2026-08-29)
+    measured: last30days L5 practitioner discourse (x); retrieved 2026-08-31
+- [L5] ENEMY AT THE GATES: Aiko’s Journey Across the AI Threshold [Part 4]
+    source: x — ENEMY AT THE GATES: Aiko’s Journey Across the AI Threshold [Part 4] (https://x.com/SkillsGapTrain/status/2093838893166862578, 2026-08-29)
+    measured: last30days L5 practitioner discourse (x); retrieved 2026-08-31
+- [L5] 28 August 2026 AD
+
+[AI:]—
+
+“Colt of New Haven” is the closing statement of “The Pale,” but “song” is almost too narrow a word for it. It is simultaneously a song, a stand-up routine, a diary entry, an audio drama, a theological polemic, an artist’s commentary track, and a nervous breakdown conducted with exquisite comic timing. Its central question is simple enough: what does it mean that every human consciousness is irreducibly real, while social power behaves as if most consciousness does not
+    source: x — 28 August 2026 AD
+
+[AI:]—
+
+“Colt of New Haven” is the closing statement of “The … (https://x.com/HeGetsGod/status/2093400763246530646, 2026-08-28)
+    measured: last30days L5 practitioner discourse (x); retrieved 2026-08-31
+- [L5] The AI Mental Health Crisis...5-Min That Might Save Your Brain
+    source: x — The AI Mental Health Crisis...5-Min That Might Save Your Brain (https://x.com/ThreadedInsight/status/2091815531984957703, 2026-08-24)
+    measured: last30days L5 practitioner discourse (x); retrieved 2026-08-31
+- [L5] AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in the Room
+    source: x — AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th… (https://x.com/essexmaelstrom/status/2091841889372635517, 2026-08-24)
+    measured: last30days L5 practitioner discourse (x); retrieved 2026-08-31
+- [L5] Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast, BBC World Service
+What if leaving your bedroom felt impossible? Across Asia, a growing number of young people are becoming hikikomori, a term used to describe people who suffer from a severe social withdrawal. 
+
+Click here to subscribe to our channel 👉🏽 https://bbc.in/3VyyriM
+
+They shut themselves in their homes, retreating from work, school, or their families for months, sometimes years.  
+
+That condition was firs…
+    source: youtube — Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast… (https://www.youtube.com/watch?v=GKILCqVwp9E, 2026-08-28)
+    measured: last30days L5 practitioner discourse (youtube); retrieved 2026-08-31
+- [L1] The Australian Association of Social Workers (AASW) is the national professional body (17,000+ members); social work is self-regulating, registration is not required nationally, but from July 2025 registration is required to deliver some social work services in South Australia, and the Accredited Mental Health Social Worker credential is required to access Better Access and Chronic Disease Management funding.
+    source: Allied Health Professions Australia (AASW profile) — Australian Association of Social Workers (https://ahpa.com.au/aasw, )
+    measured: AHPA profile of AASW (self-regulation, SA registration from July 2025, AMHSW funding access), retrieved 2026-08-31
+- [L2] An OVIC (2024) investigation into a Victorian child protection worker who used ChatGPT to draft a Protection Application report found inaccurate content and an understated risk rating; it surfaced 100+ further cases with indicators of AI-drafted documents (court reports, case notes, risk assessments) and 900 department employees (13% of the workforce) accessing ChatGPT over six months in 2023.
+    source: Aotearoa New Zealand Social Work journal — Jarldorn & Rowe — LLMs in social work writing (citing OVIC 2024) (https://anzswjournal.nz/anzsw/article/view/1281/1029, 2024)
+    measured: ANZSW journal article reporting OVIC (2024) investigation into ChatGPT use in child protection document drafting, retrieved 2026-08-31
+- [L2] Orygen's living systematic review (updated April 2026) of AI chatbots for youth mental health found 12 controlled trials (13 chatbots, 2,620 young people) where chatbots may reduce depression and anxiety symptoms, but on low-certainty evidence; young people viewed AI as supplementary, not a replacement for professional care.
+    source: Orygen — How effective is artificial intelligence (AI) in youth mental health interventions? (https://orygen.org.au/Training/Resources/digital-technology/Evidence-review/How-effective-is-artificial-intelligence, 2026-04)
+    measured: Orygen living systematic review on AI in youth mental health interventions (12 trials, n=2620), retrieved 2026-08-31
+- [L3] AASW ran practitioner webinars in 2026 on working with clients' AI-chatbot use and on responsible AI / AI scribes for social workers, framing AI as both reducing paperwork and raising ethical and safety risks.
+    source: AASW — Working With AI in Social Work Practice: Harm, Help, and Human Judgement (June 2026) (https://www.aasw.asn.au/event/working-with-ai-in-social-work-practice-harm-help-and-human-judgement/, 2026-06)
+    measured: AASW webinar on AI in social work practice, retrieved 2026-08-31

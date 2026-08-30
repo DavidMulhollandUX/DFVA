@@ -1,36 +1,75 @@
 {
   "onet_soc_code": "21-1021",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Child, Family, and School Social Workers",
   "aliases": [
-    "Advanced Child Protection Practitioner",
     "Child Protection Practitioner",
-    "Child and Family Practitioner",
-    "Family Support Worker",
-    "Family Violence Practitioner"
+    "School Social Worker",
+    "Family Support Worker"
   ],
-  "anzsco": "220000",
+  "anzsco": null,
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-01",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
-  "programs": [
-    "mc-socw"
-  ],
+  "generated": "2026-08-31",
+  "expires": "2027-02-27",
+  "programs": [],
   "claims": [
     {
-      "id": "l403",
-      "text": "Social Worker - Marsden State School — Queensland Government (Beaudesert, Queensland, Australia). Posted 1 week ago.",
+      "id": "l401",
+      "text": "Social Worker — Southern Cross Care WA (Rivervale, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Queensland Government",
-          "title": "Social Worker - Marsden State School",
-          "url": "https://www.linkedin.com/jobs/view/4454538784",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "Southern Cross Care WA",
+          "title": "Social Worker",
+          "url": "https://www.linkedin.com/jobs/view/4449538383",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l402",
+      "text": "Senior Social Worker (Adolescent Integrated Care) — Children's Health Queensland Hospital and Health Service (Brisbane, Queensland, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Children's Health Queensland Hospital and Health Service",
+          "title": "Senior Social Worker (Adolescent Integrated Care)",
+          "url": "https://www.linkedin.com/jobs/view/4459111562",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l403",
+      "text": "Senior Social Worker — Tradewind Australia (Strathfield, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Tradewind Australia",
+          "title": "Senior Social Worker",
+          "url": "https://www.linkedin.com/jobs/view/4448146359",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -42,16 +81,16 @@
     },
     {
       "id": "l404",
-      "text": "Court Child Expert (Psychologist or Social Worker) — Federal Circuit and Family Court of Australia (Newcastle, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Social Worker PECC — Northern Sydney Local Health District (Hornsby, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Federal Circuit and Family Court of Australia",
-          "title": "Court Child Expert (Psychologist or Social Worker)",
-          "url": "https://www.linkedin.com/jobs/view/4456450030",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "Northern Sydney Local Health District",
+          "title": "Social Worker PECC",
+          "url": "https://www.linkedin.com/jobs/view/4455613968",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -63,16 +102,16 @@
     },
     {
       "id": "l405",
-      "text": "Child Safety Officer — Queensland Government (Brisbane, Queensland, Australia). Posted 2 months ago.",
+      "text": "Social Worker — UW-Madison Sandra Rosenbaum School of Social Work (Middleton, South Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Queensland Government",
-          "title": "Child Safety Officer",
-          "url": "https://www.linkedin.com/jobs/view/4432506775",
-          "date": "2 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "UW-Madison Sandra Rosenbaum School of Social Work",
+          "title": "Social Worker",
+          "url": "https://www.linkedin.com/jobs/view/4445764335",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -84,16 +123,16 @@
     },
     {
       "id": "l406",
-      "text": "Triage Counsellor (Social Worker/Psychologist/Counsellor) — Federal Circuit and Family Court of Australia (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Social Worker (Inpatient Mental Health) — Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Federal Circuit and Family Court of Australia",
-          "title": "Triage Counsellor (Social Worker/Psychologist/Counsellor)",
-          "url": "https://www.linkedin.com/jobs/view/4450882317",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "Central Queensland Hospital and Health Service",
+          "title": "Social Worker (Inpatient Mental Health)",
+          "url": "https://www.linkedin.com/jobs/view/4459688509",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -105,16 +144,16 @@
     },
     {
       "id": "l407",
-      "text": "Child and Family Expert — Legal Aid WA (Perth, Western Australia, Australia). Posted 2 days ago.",
+      "text": "Social Worker (Lvl 1-2) - Youth Health Service - Perm FT — South Western Sydney Local Health District (Carramar, New South Wales, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Legal Aid WA",
-          "title": "Child and Family Expert",
-          "url": "https://www.linkedin.com/jobs/view/4456856134",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "South Western Sydney Local Health District",
+          "title": "Social Worker (Lvl 1-2) - Youth Health Service - Perm FT",
+          "url": "https://www.linkedin.com/jobs/view/4458365552",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -126,16 +165,16 @@
     },
     {
       "id": "l408",
-      "text": "Child Safety Officer - Intensive Family Engagement Service - 526923 — Department for Education, Children and Young People (Hobart, Tasmania, Australia). Posted 1 day ago.",
+      "text": "Caseworker - Communities and Family Support (CAFS) — CatholicCare Diocese Of Broken Bay (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Department for Education, Children and Young People",
-          "title": "Child Safety Officer - Intensive Family Engagement Service - 526923",
-          "url": "https://www.linkedin.com/jobs/view/4457482862",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "CatholicCare Diocese Of Broken Bay",
+          "title": "Caseworker - Communities and Family Support (CAFS)",
+          "url": "https://www.linkedin.com/jobs/view/4448676195",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -147,16 +186,16 @@
     },
     {
       "id": "l409",
-      "text": "Case Worker, On PAR — The Smith Family (New South Wales, Australia). Posted 6 days ago.",
+      "text": "Case Workers Blacktown — MacKillop Family Services (Blacktown, New South Wales, Australia). Posted 7 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "The Smith Family",
-          "title": "Case Worker, On PAR",
-          "url": "https://www.linkedin.com/jobs/view/4456428998",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "MacKillop Family Services",
+          "title": "Case Workers Blacktown",
+          "url": "https://www.linkedin.com/jobs/view/4350800725",
+          "date": "7 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -168,16 +207,16 @@
     },
     {
       "id": "l410",
-      "text": "Social Worker — Department of Education (Morwell, Victoria, Australia). Posted 1 week ago.",
+      "text": "Mental Health Social Worker — SSI (Carlton, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Department of Education",
-          "title": "Social Worker",
-          "url": "https://www.linkedin.com/jobs/view/4454500671",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "SSI",
+          "title": "Mental Health Social Worker",
+          "url": "https://www.linkedin.com/jobs/view/4448914001",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -188,49 +227,7 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l411",
-      "text": "Joint Child Protection Response Program (JCPRP) Caseworker - Statewide — NSW Department of Communities and Justice (Newcastle West, New South Wales, Australia). Posted 2 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "NSW Department of Communities and Justice",
-          "title": "Joint Child Protection Response Program (JCPRP) Caseworker - Statewide",
-          "url": "https://www.linkedin.com/jobs/view/4410148038",
-          "date": "2 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l412",
-      "text": "Joint Child Protection Response Program (JCPRP) Caseworker - Statewide — NSW Department of Communities and Justice (Liverpool, New South Wales, Australia). Posted 3 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "NSW Department of Communities and Justice",
-          "title": "Joint Child Protection Response Program (JCPRP) Caseworker - Statewide",
-          "url": "https://www.linkedin.com/jobs/view/4410134117",
-          "date": "3 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l513",
+      "id": "l511",
       "text": "Introduce romantic relationships, births, and dependent citizens\n> *This was generated by AI during triage.*\n\n## Idea\n\nClose romantic relationships may result in a new citizen being born.\n\nA birth increases the living population and immediate demand for food, housing, care, and treasury support. A child begins as a dependant rather than a worker, then may enter e\n> *This was generated by AI during triage.*\n\n## Added connection: demographic demand for Morrow School\n\nProcreation makes the school i…",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -240,7 +237,49 @@
           "title": "Introduce romantic relationships, births, and dependent citizens\n> *This was gen…",
           "url": "https://github.com/datashaman/morrow/issues/58",
           "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l512",
+      "text": "WIP: Procedural infinite dungeons (Rifts) + dev commands\n## Procedural infinite dungeons (Rifts), the new-world continent, and the AI dungeon upgrader\n\nDraft / work in progress. cc @enriquegf for review.\n\n### v0.28 compatibility sync (2026-07-20)\n\n- Merged `release/v0.28.0` through `b2911d80`, including the latest offhand equip validation and drag/drop wi\n/review <!-- pr-ai-review-comment-4901258228 -->\n## AI review (Codex, requested by @EnriqueGF via `/review`)\n\nThe rift generator is nicely iso…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "WIP: Procedural infinite dungeons (Rifts) + dev commands\n## Procedural infinite …",
+          "url": "https://github.com/levy-street/world-of-claudecraft/pull/1584",
+          "date": "2026-07-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "P0: Länder-Fachvollständigkeit - Mandate, Wirkungspotenzial und Golden-State für alle 16 Länder\n## Anlass\nDer Live-Check am 20.08.2026 zeigt für Baden-Württemberg auf `/laender/baden-wuerttemberg/mandat-und-praxis` nur die verifizierte Mandatsbasis. Die Seite sagt selbst: `vollständige Commitment-Zerlegung wird fortlaufend ergänzt`.\n\nDer kanonische WÖk-Bestand bestätigt die Fachlücke:\n- `/WOEK\nWÖk RESTORE-FIRST FACHCHECK — Rheinland-Pfalz, 20.08.2026. This closes an important classification ambi…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "P0: Länder-Fachvollständigkeit - Mandate, Wirkungspotenzial und Golden-State für…",
+          "url": "https://github.com/sustynats/wirkungsoekonomie.de/issues/240",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -252,16 +291,16 @@
     },
     {
       "id": "l514",
-      "text": "WIP: Procedural infinite dungeons (Rifts) + dev commands\n## Procedural infinite dungeons (Rifts), the new-world continent, and the AI dungeon upgrader\n\nDraft / work in progress. cc @enriquegf for review.\n\n### v0.28 compatibility sync (2026-07-20)\n\n- Merged `release/v0.28.0` through `b2911d80`, including the latest offhand equip validation and drag/drop wi\n/review <!-- pr-ai-review-comment-4901258228 -->\n## AI review (Codex, requested by @EnriqueGF via `/review`)\n\nThe rift generator is nicely iso…",
+      "text": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which of Jameson or OmniBlocks is better.\n\n@coderabbitai Please generate a summary of the situation.\n@coderabbitai Please respond to my first message. <!-- This is an auto-generated reply by CodeRabbit -->\n> [!TIP]\n> For best results, initiate chat on the files or code changes.\n\n<details>\n<summary>🧩 Analysis chain</summary>\n\n🏁 Script executed:\n```\n#!/bin/bash\n# Fetch issue `#335`\ngh issue view 335 --repo OmniBlocks/monorepo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "WIP: Procedural infinite dungeons (Rifts) + dev commands\n## Procedural infinite …",
-          "url": "https://github.com/levy-street/world-of-claudecraft/pull/1584",
-          "date": "2026-07-07",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "title": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which o…",
+          "url": "https://github.com/OmniBlocks/monorepo/issues/335",
+          "date": "2026-05-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -273,16 +312,16 @@
     },
     {
       "id": "l515",
-      "text": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which of Jameson or OmniBlocks is better.\n\n@coderabbitai Please generate a summary of the situation.\n@coderabbitai Please respond to my first message. <!-- This is an auto-generated reply by CodeRabbit -->\n> [!TIP]\n> For best results, initiate chat on the files or code changes.\n\n<details>\n<summary>🧩 Analysis chain</summary>\n\n🏁 Script executed:\n```\n#!/bin/bash\n# Fetch issue `#335`\ngh issue view 335 --repo OmniBlocks/monorepo…",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which o…",
-          "url": "https://github.com/OmniBlocks/monorepo/issues/335",
-          "date": "2026-05-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe …",
+          "url": "https://github.com/rakib06/mini-github/issues/14",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -294,16 +333,16 @@
     },
     {
       "id": "l516",
-      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       …",
+      "text": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sections 1–3 (Purpose & Scope; Domain Matrix; Evidence Bands)**  \nDecember 02, 2025  \n\n---\n\n## 1. Purpose & Scope\n\nThis section aligns the project’s TXT and PDF corpus around one structural pattern:\n\n> **Systems that secure compliance and e\nHere is the forensic debrief of the current operational reality, synthesized from your diagnosis.\n📋 CLINICAL DIAGNOSIS: The Parasitic Extraction Engine\nSubject: Global Socio-Economic…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe …",
-          "url": "https://github.com/rakib06/mini-github/issues/14",
-          "date": "2026-05-18",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "title": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sec…",
+          "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/2",
+          "date": "2026-04-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -315,16 +354,16 @@
     },
     {
       "id": "l517",
-      "text": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sections 1–3 (Purpose & Scope; Domain Matrix; Evidence Bands)**  \nDecember 02, 2025  \n\n---\n\n## 1. Purpose & Scope\n\nThis section aligns the project’s TXT and PDF corpus around one structural pattern:\n\n> **Systems that secure compliance and e\nHere is the forensic debrief of the current operational reality, synthesized from your diagnosis.\n📋 CLINICAL DIAGNOSIS: The Parasitic Extraction Engine\nSubject: Global Socio-Economic…",
+      "text": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "github",
-          "title": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sec…",
-          "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/2",
-          "date": "2026-04-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+          "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -336,16 +375,16 @@
     },
     {
       "id": "l518",
-      "text": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+      "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
-          "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
-          "date": "2026-08-05",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -357,16 +396,16 @@
     },
     {
       "id": "l519",
-      "text": "Tell HN: Man, AI is killing my brain",
+      "text": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Tell HN: Man, AI is killing my brain",
-          "url": "https://news.ycombinator.com/item?id=49468252",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
+          "url": "https://news.ycombinator.com/item?id=48981136",
+          "date": "2026-07-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -378,16 +417,16 @@
     },
     {
       "id": "l520",
-      "text": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
+      "text": "Wealthy AI workers send San Francisco house prices soaring",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
-          "url": "https://news.ycombinator.com/item?id=48981136",
-          "date": "2026-07-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Wealthy AI workers send San Francisco house prices soaring",
+          "url": "https://www.bbc.com/news/articles/c9q29j47v9ro",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -399,16 +438,16 @@
     },
     {
       "id": "l521",
-      "text": "Wealthy AI workers send San Francisco house prices soaring",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Wealthy AI workers send San Francisco house prices soaring",
-          "url": "https://www.bbc.com/news/articles/c9q29j47v9ro",
-          "date": "2026-07-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -420,16 +459,16 @@
     },
     {
       "id": "l522",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -450,7 +489,7 @@
           "title": "AI Adoption Is Dividing Friends, Families and Co-Workers",
           "url": "https://www.bloomberg.com/news/articles/2026-07-30/how-chatgpt-and-ai-are-dividing-friends-and-families",
           "date": "2026-08-01",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -462,16 +501,16 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "text": "Adults have struggled to set rules for AI in school. These teens figured it out",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-          "url": "https://isaidumber.today/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Adults have struggled to set rules for AI in school. These teens figured it out",
+          "url": "https://text.npr.org/nx-s1-5853571",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -483,16 +522,16 @@
     },
     {
       "id": "l525",
-      "text": "Adults have struggled to set rules for AI in school. These teens figured it out",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Adults have struggled to set rules for AI in school. These teens figured it out",
-          "url": "https://text.npr.org/nx-s1-5853571",
-          "date": "2026-08-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -504,16 +543,16 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "text": "AI children's books, body horror edition",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-          "url": "https://news.ycombinator.com/item?id=48672619",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "AI children's books, body horror edition",
+          "url": "https://lcamtuf.substack.com/p/ai-childrens-books-body-horror-edition",
+          "date": "2026-06-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -525,16 +564,16 @@
     },
     {
       "id": "l527",
-      "text": "AI children's books, body horror edition",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI children's books, body horror edition",
-          "url": "https://lcamtuf.substack.com/p/ai-childrens-books-body-horror-edition",
-          "date": "2026-06-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -546,16 +585,16 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-          "url": "https://www.contextvault.dev/",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -567,16 +606,16 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-          "url": "https://argonix.io/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -588,16 +627,16 @@
     },
     {
       "id": "l530",
-      "text": "What is agentic AI today, and what do we want it to be?",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "What is agentic AI today, and what do we want it to be?",
-          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-          "date": "2026-07-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -618,7 +657,7 @@
           "title": "My AI-Assisted Workflow",
           "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
           "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -630,16 +669,16 @@
     },
     {
       "id": "l532",
-      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "text": "AI workflows: an industry optimising the wrong variables",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -651,16 +690,16 @@
     },
     {
       "id": "l533",
-      "text": "AI workflows: an industry optimising the wrong variables",
+      "text": "Show HN: AI Workflow Builder App Template for React",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI workflows: an industry optimising the wrong variables",
-          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
-          "date": "2026-05-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: AI Workflow Builder App Template for React",
+          "url": "https://www.jointjs.com/demos/ai-workflow-builder",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -672,16 +711,16 @@
     },
     {
       "id": "l534",
-      "text": "Show HN: AI Workflow Builder App Template for React",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: AI Workflow Builder App Template for React",
-          "url": "https://www.jointjs.com/demos/ai-workflow-builder",
-          "date": "2026-07-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -693,16 +732,16 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
-          "url": "https://blocks.ai",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -714,16 +753,16 @@
     },
     {
       "id": "l536",
-      "text": "Ask HK: How are you building AI apps today?",
+      "text": "The AI School Bus Camera Company Blanketing America in Tickets",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HK: How are you building AI apps today?",
-          "url": "https://news.ycombinator.com/item?id=48323554",
-          "date": "2026-05-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "The AI School Bus Camera Company Blanketing America in Tickets",
+          "url": "https://www.bloomberg.com/news/features/2026-04-14/buspatrol-school-bus-traffic-tickets-have-limited-safety-benefits-critics-say",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -735,16 +774,16 @@
     },
     {
       "id": "l537",
-      "text": "The AI School Bus Camera Company Blanketing America in Tickets",
+      "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The AI School Bus Camera Company Blanketing America in Tickets",
-          "url": "https://www.bloomberg.com/news/features/2026-04-14/buspatrol-school-bus-traffic-tickets-have-limited-safety-benefits-critics-say",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -756,16 +795,16 @@
     },
     {
       "id": "l538",
-      "text": "The Problem with AI Today",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The Problem with AI Today",
-          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
-          "date": "2026-05-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -777,16 +816,16 @@
     },
     {
       "id": "l539",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-          "url": "https://github.com/kontext-dev/kontext-cli",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -798,16 +837,16 @@
     },
     {
       "id": "l540",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "An AI system developed by a Dutch social enterprise is giving nurses in Malawi up to 3 hours' warning when a sick child may become critical, helping them monitor 30 patients at once. Two hospitals using it recorded 40% to 51% fewer child deaths.\n&#32; submitted by &#32; /u/ArgentineBeauty &#32; to &#32; r/UpliftingNews [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
-          "url": "https://news.ycombinator.com/item?id=47590261",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "An AI system developed by a Dutch social enterprise is giving nurses in Malawi u…",
+          "url": "https://www.reddit.com/r/UpliftingNews/comments/1vzz8en/an_ai_system_developed_by_a_dutch_social/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -819,16 +858,16 @@
     },
     {
       "id": "l541",
-      "text": "My wife (29f) says she gets to make 100% of the educational decisions for our child. I (28f) can't change her mind\nI am not The OOP, OOP is u/TeacherWifeBlues My wife (29f) says she gets to make 100% of the educational decisions for our child. I (28f) can&#39;t change her mind. TRIGGER WARNING: Controlling behavior Original Post May 17, 2016 My wife and I have been together for seven years. We&#39;re expecting our first child in June. It&#39;s a girl and were both extremely excited. Background: …",
+      "text": "Israel utilized an AI tracking system called \"Where's Daddy\" to monitor flagged individuals in Gaza. The program deliberately signaled strikes for when targets returned to their family homes, maximizing the likelihood of civilian and child casualties.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "My wife (29f) says she gets to make 100% of the educational decisions for our ch…",
-          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1vqhqay/my_wife_29f_says_she_gets_to_make_100_of_the/",
-          "date": "2026-08-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "title": "Israel utilized an AI tracking system called \"Where's Daddy\" to monitor flagged …",
+          "url": "https://www.reddit.com/r/SECourses/comments/1w0seug/israel_utilized_an_ai_tracking_system_called/",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -840,16 +879,16 @@
     },
     {
       "id": "l542",
-      "text": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for AI agents making thousands of tiny payments a day.\n\n@samrags_ of @merit_systems explains why stablecoins could be the rail the agent economy runs on. https://t.co/P1o2CMuaNu",
+      "text": "Unpredictable work schedules increase the risk of romantic breakups. Hourly service workers who deal with unstable work hours are at a higher risk of going through a separation or divorce. Stressful demands of modern low-wage jobs can spill over into personal lives and disrupt family stability.\n&#32; submitted by &#32; /u/mvea &#32; to &#32; r/science [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for …",
-          "url": "https://x.com/a16zcrypto/status/2092335249195970753",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "Unpredictable work schedules increase the risk of romantic breakups. Hourly serv…",
+          "url": "https://www.reddit.com/r/science/comments/1vw4w0w/unpredictable_work_schedules_increase_the_risk_of/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -861,16 +900,16 @@
     },
     {
       "id": "l543",
-      "text": "The habits of AI writing, and what to do about them",
+      "text": "AI Adoption Is Dividing Friends, Families and Co-Workers\nAs artificial intelligence becomes ingrained in daily life, disagreements over the technology are increasingly becoming disagreements over values. &#32; submitted by &#32; /u/bloomberg &#32; to &#32; r/Futurology [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The habits of AI writing, and what to do about them",
-          "url": "https://x.com/a16zcrypto/status/2091934263302402318",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "AI Adoption Is Dividing Friends, Families and Co-Workers\nAs artificial intellige…",
+          "url": "https://www.reddit.com/r/Futurology/comments/1vcpx5y/ai_adoption_is_dividing_friends_families_and/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -882,16 +921,16 @@
     },
     {
       "id": "l544",
-      "text": "Beyond slop, taste, and AI moral panic: What social science tells us",
+      "text": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for AI agents making thousands of tiny payments a day.\n\n@samrags_ of @merit_systems explains why stablecoins could be the rail the agent economy runs on. https://t.co/P1o2CMuaNu",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Beyond slop, taste, and AI moral panic: What social science tells us",
-          "url": "https://x.com/a16zcrypto/status/2092678605998624834",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for …",
+          "url": "https://x.com/a16zcrypto/status/2092335249195970753",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -903,16 +942,16 @@
     },
     {
       "id": "l545",
-      "text": "Elon Musk brought up his son, who can't make friends, and shut down the AI friendship debate before it even got going.\n\nMusk: \"One of my sons has some learning disabilities and has trouble making friends, actually. And I was like, well, an AI friend would actually be great for him.\"\n\nNo hypothetical. No sales pitch. A father talking about his child.\n\nMusk: \"If you have an AI that has memory and remembers all of your interactions and has read everything you've ever done, so it really will know yo",
+      "text": "The habits of AI writing, and what to do about them",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Elon Musk brought up his son, who can't make friends, and shut down the AI frien…",
-          "url": "https://x.com/AiEvolutio58513/status/2091525892623487170",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The habits of AI writing, and what to do about them",
+          "url": "https://x.com/a16zcrypto/status/2091934263302402318",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -924,16 +963,16 @@
     },
     {
       "id": "l546",
-      "text": "This Fable 5 UI/UX hack is wild.\n\nThe \"Taste\" skill completely kills generic AI slop and gives Fable 5 the tools and instructions to ship beautiful design.\n\nMight be the best AI skill I've seen.\n\nInterested in AI?\n\nFollow @AiEvolutio58513 and never fall behind.\n\nI track ChatGPT, Claude, and every tool quietly changing how we work and create, then hand you the tested signals.",
+      "text": "Beyond slop, taste, and AI moral panic: What social science tells us",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This Fable 5 UI/UX hack is wild.\n\nThe \"Taste\" skill completely kills generic AI …",
-          "url": "https://x.com/AiEvolutio58513/status/2093321728277803360",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Beyond slop, taste, and AI moral panic: What social science tells us",
+          "url": "https://x.com/a16zcrypto/status/2092678605998624834",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -945,16 +984,16 @@
     },
     {
       "id": "l547",
-      "text": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what the future will look like. I always did but even more so since I had a baby. To me it feels like we’re not in a steady state right now. Things are volatile and changing fast. It feels like this pace of change can’t possibly last forever. But it also seems obvious that LLMs are going to dramatically change the nature of my work, and many types of work, permanently.\n\nI am effectively required to use AI at work now, so fo",
+      "text": "Vibe coding struggles, captured perfectly in 60 seconds 😁\n\nInterested in AI?\n\nFollow @AiEvolutio58513 and never fall behind.\n\nI track ChatGPT, Claude, and every tool quietly changing how we work and create, then hand you the tested signals. https://t.co/Rb1ADe79jl",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what th…",
-          "url": "https://x.com/OwenGregorian/status/2093169126004985893",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Vibe coding struggles, captured perfectly in 60 seconds 😁\n\nInterested in AI?\n\nFo…",
+          "url": "https://x.com/AiEvolutio58513/status/2093684874066702806",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -966,16 +1005,16 @@
     },
     {
       "id": "l548",
-      "text": "Trying to avoid AI slop in your copywriting?\n\nUse this, and read @stephbzinn's piece: https://t.co/UFOIAasdbF",
+      "text": "Elon Musk brought up his son, who can't make friends, and shut down the AI friendship debate before it even got going.\n\nMusk: \"One of my sons has some learning disabilities and has trouble making friends, actually. And I was like, well, an AI friend would actually be great for him.\"\n\nNo hypothetical. No sales pitch. A father talking about his child.\n\nMusk: \"If you have an AI that has memory and remembers all of your interactions and has read everything you've ever done, so it really will know yo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Trying to avoid AI slop in your copywriting?\n\nUse this, and read @stephbzinn's p…",
-          "url": "https://x.com/a16zcrypto/status/2092998851171061764",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Elon Musk brought up his son, who can't make friends, and shut down the AI frien…",
+          "url": "https://x.com/AiEvolutio58513/status/2091525892623487170",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -987,16 +1026,16 @@
     },
     {
       "id": "l549",
-      "text": "How life looked before this clip existed...\n\nInterested in AI?\n\nFollow @AiEvolutio58513 and never fall behind.\n\nI track ChatGPT, Claude, and every tool quietly changing how we work and create, then hand you the tested signals. https://t.co/DEPHvfiDvI",
+      "text": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what the future will look like. I always did but even more so since I had a baby. To me it feels like we’re not in a steady state right now. Things are volatile and changing fast. It feels like this pace of change can’t possibly last forever. But it also seems obvious that LLMs are going to dramatically change the nature of my work, and many types of work, permanently.\n\nI am effectively required to use AI at work now, so fo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How life looked before this clip existed...\n\nInterested in AI?\n\nFollow @AiEvolut…",
-          "url": "https://x.com/AiEvolutio58513/status/2093451573439692812",
+          "title": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what th…",
+          "url": "https://x.com/OwenGregorian/status/2093169126004985893",
           "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1008,16 +1047,16 @@
     },
     {
       "id": "l550",
-      "text": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
+      "text": "If you use Hermes, save this post right now.\n\nNous Research released a full guide on building custom Hermes agent plugins.\n\nPaste the entire page into your agent and prompt: \"I want to build a plugin for [x].\"\n\nThe agent takes it from there and runs autonomously.\n\nA few ideas to get started:\n\n- Finance research and alert systems\n- Social media scanners\n- Calendar and meeting prep\n- Health and medical trackers\n\nThe ROI on this is serious.\n\nInterested in AI?\n\nFollow @AiEvolutio58513 and never fall",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
-          "url": "https://x.com/ThreadedInsight/status/2091815531984957703",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "If you use Hermes, save this post right now.\n\nNous Research released a full guid…",
+          "url": "https://x.com/AiEvolutio58513/status/2093701221785932098",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1029,16 +1068,16 @@
     },
     {
       "id": "l551",
-      "text": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in the Room",
+      "text": "Haidt's warning about AI and children is one of the more disturbing things I've come across lately.\n\nSocial media already rewired how we pay attention. What's coming next is an attack on something even more fundamental, our attachments, the emotional bonds that form the basis of how humans relate to each other.\n\nHis argument: AI companions (chatbots, holographic \"friends,\" digital teddy bears) will simply out-respond any parent. Children will build their primary attachments to AI rather than to",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
-          "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Haidt's warning about AI and children is one of the more disturbing things I've …",
+          "url": "https://x.com/AiEvolutio58513/status/2094061909251404269",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1050,16 +1089,16 @@
     },
     {
       "id": "l552",
-      "text": "“The Woman With Dad Isn’t My Mom,” My Granddaughter Whispered At My 68th Birthday Party...\n“The Woman With Dad Isn’t My Mom,” My Granddaughter Whispered At My 68th Birthday Party...\n\nWelcome to Revenge Dad. We are a digital storytelling channel dedicated to exploring the unspoken truths of family life. Through cinematic dramatizations, we uncover the hidden strength of those who are underestimated.\n\n\n🎯  Lessons from this story:\n\n✦ Trust should never replace awareness, especially when money, fami…",
+      "text": "How life looked before this clip existed...\n\nInterested in AI?\n\nFollow @AiEvolutio58513 and never fall behind.\n\nI track ChatGPT, Claude, and every tool quietly changing how we work and create, then hand you the tested signals. https://t.co/DEPHvfiDvI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "“The Woman With Dad Isn’t My Mom,” My Granddaughter Whispered At My 68th Birthda…",
-          "url": "https://www.youtube.com/watch?v=wyp1hNMmeL0",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "How life looked before this clip existed...\n\nInterested in AI?\n\nFollow @AiEvolut…",
+          "url": "https://x.com/AiEvolutio58513/status/2093451573439692812",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1071,6 +1110,132 @@
     },
     {
       "id": "l553",
+      "text": "Trying to avoid AI slop in your copywriting?\n\nUse this, and read @stephbzinn's piece: https://t.co/UFOIAasdbF",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Trying to avoid AI slop in your copywriting?\n\nUse this, and read @stephbzinn's p…",
+          "url": "https://x.com/a16zcrypto/status/2092998851171061764",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "Trump Is Already Bracing for a Third Impeachment | Pivot\n\nTranscript 0:00 to 17:22\n\n28AUG2026 Pivot\nPivot with Kara Swisher and Scott Galloway\nhttps://t.co/RmXdCHisIK\n\nScott Free August continues, and Kara is joined by CNN’s Kaitlan Collins! \n\nThey talk about Dolly Parton's legacy in culture and business, unpack Meta’s landmark social media addiction case settlement, and discuss the growing political backlash to data centers. \n\nThen, they break down Bill Gates’ warning about AI, Trump’s politica",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Trump Is Already Bracing for a Third Impeachment | Pivot\n\nTranscript 0:00 to 17:…",
+          "url": "https://x.com/gecko39/status/2093737029880119737",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "ENEMY AT THE GATES: Aiko’s Journey Across the AI Threshold [Part 4]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "ENEMY AT THE GATES: Aiko’s Journey Across the AI Threshold [Part 4]",
+          "url": "https://x.com/SkillsGapTrain/status/2093838893166862578",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "28 August 2026 AD\n\n[AI:]—\n\n“Colt of New Haven” is the closing statement of “The Pale,” but “song” is almost too narrow a word for it. It is simultaneously a song, a stand-up routine, a diary entry, an audio drama, a theological polemic, an artist’s commentary track, and a nervous breakdown conducted with exquisite comic timing. Its central question is simple enough: what does it mean that every human consciousness is irreducibly real, while social power behaves as if most consciousness does not",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "28 August 2026 AD\n\n[AI:]—\n\n“Colt of New Haven” is the closing statement of “The …",
+          "url": "https://x.com/HeGetsGod/status/2093400763246530646",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
+          "url": "https://x.com/ThreadedInsight/status/2091815531984957703",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in the Room",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
+          "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
       "text": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast, BBC World Service\nWhat if leaving your bedroom felt impossible? Across Asia, a growing number of young people are becoming hikikomori, a term used to describe people who suffer from a severe social withdrawal. \n\nClick here to subscribe to our channel 👉🏽 https://bbc.in/3VyyriM\n\nThey shut themselves in their homes, retreating from work, school, or their families for months, sometimes years.  \n\nThat condition was firs…",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1080,7 +1245,7 @@
           "title": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast…",
           "url": "https://www.youtube.com/watch?v=GKILCqVwp9E",
           "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1089,49 +1254,160 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l1a01",
+      "text": "The Australian Association of Social Workers (AASW) is the national professional body (17,000+ members); social work is self-regulating, registration is not required nationally, but from July 2025 registration is required to deliver some social work services in South Australia, and the Accredited Mental Health Social Worker credential is required to access Better Access and Chronic Disease Management funding.",
+      "lane": "L1",
+      "tier": "regulatory-standards",
+      "sources": [
+        {
+          "publisher": "Allied Health Professions Australia (AASW profile)",
+          "title": "Australian Association of Social Workers",
+          "url": "https://ahpa.com.au/aasw",
+          "date": "",
+          "whatItMeasured": "AHPA profile of AASW (self-regulation, SA registration from July 2025, AMHSW funding access), retrieved 2026-08-31"
+        }
+      ],
+      "scope": "AASW/AHPA peak-body + accreditation; SA-specific registration only.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (AHPA). Population: AU social workers. Window: current (SA reg from July 2025)."
+    },
+    {
+      "id": "l2a01",
+      "text": "An OVIC (2024) investigation into a Victorian child protection worker who used ChatGPT to draft a Protection Application report found inaccurate content and an understated risk rating; it surfaced 100+ further cases with indicators of AI-drafted documents (court reports, case notes, risk assessments) and 900 department employees (13% of the workforce) accessing ChatGPT over six months in 2023.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Aotearoa New Zealand Social Work journal",
+          "title": "Jarldorn & Rowe — LLMs in social work writing (citing OVIC 2024)",
+          "url": "https://anzswjournal.nz/anzsw/article/view/1281/1029",
+          "date": "2024",
+          "whatItMeasured": "ANZSW journal article reporting OVIC (2024) investigation into ChatGPT use in child protection document drafting, retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Victoria child protection; one jurisdiction; 2023 access data.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (peer-reviewed journal citing OVIC). Population: Vic child protection workforce. Window: 2023-2024."
+    },
+    {
+      "id": "l2a03",
+      "text": "Orygen's living systematic review (updated April 2026) of AI chatbots for youth mental health found 12 controlled trials (13 chatbots, 2,620 young people) where chatbots may reduce depression and anxiety symptoms, but on low-certainty evidence; young people viewed AI as supplementary, not a replacement for professional care.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Orygen",
+          "title": "How effective is artificial intelligence (AI) in youth mental health interventions?",
+          "url": "https://orygen.org.au/Training/Resources/digital-technology/Evidence-review/How-effective-is-artificial-intelligence",
+          "date": "2026-04",
+          "whatItMeasured": "Orygen living systematic review on AI in youth mental health interventions (12 trials, n=2620), retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Youth mental health; intersects school-social-worker caseloads. Low-certainty evidence.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (Orygen living review). Population: young people (AU context). Window: to April 2026."
+    },
+    {
+      "id": "l3a01",
+      "text": "AASW ran practitioner webinars in 2026 on working with clients' AI-chatbot use and on responsible AI / AI scribes for social workers, framing AI as both reducing paperwork and raising ethical and safety risks.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "AASW",
+          "title": "Working With AI in Social Work Practice: Harm, Help, and Human Judgement (June 2026)",
+          "url": "https://www.aasw.asn.au/event/working-with-ai-in-social-work-practice-harm-help-and-human-judgement/",
+          "date": "2026-06",
+          "whatItMeasured": "AASW webinar on AI in social work practice, retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Professional-body CPD; not primary research. Factiva L3 unavailable this run (auth expired); supplied via web.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (AASW). Single provider CPD. Window: 2026."
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "child, family, and school social workers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "source": "pending-this-run",
+    "query": null,
+    "window": null,
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": [],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "social worker",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+      "count": 1805,
+      "returned": 50,
+      "topEmployers": [
+        "Healthscope",
+        "Victorian Government",
+        "Clarity Health Care",
+        "Eastern Health",
+        "St Vincent’s Health Australia",
+        "St Vincent's Hospital Sydney",
+        "Joondalup Health Campus",
+        "SA Health"
+      ],
+      "topSkills": [
+        "child protection",
+        "counselling",
+        "assessment"
+      ]
+    }
   },
   "corpus": {
-    "platforms": [
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Child, Family, and School Social Workers Association discourse",
-        "items": 45
-      }
-    ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
-    "linkedin": [
-      {
-        "status": "sampled",
-        "query": "Child, Family, and School Social Workers",
-        "location": "Australia",
-        "returned": 10,
-        "source": "linkedin (unofficial scrape)",
-        "_raw": "data/professions/21-1021/raw/linkedin_l4.json"
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens/Factiva session expired; L3 supplied via web (AASW/ASORC/PHAA/ARPA).",
+        "date": "2026-08-31"
       },
       {
-        "date": "2026-08-29",
+        "lane": "L5",
+        "source": "grounding",
+        "status": "unreachable",
+        "detail": "Keyless web search unavailable (last30days grounding source).",
+        "date": "2026-08-31"
+      },
+      {
+        "lane": "L4",
+        "source": "last30days-jobs",
+        "status": "unreachable",
+        "detail": "last30days hiring-signals/jobs source unreachable (DNS).",
+        "date": "2026-08-31"
+      },
+      {
+        "lane": "L2",
+        "source": "JMIR Pediatrics (child maltreatment AI)",
+        "status": "bot_gated",
+        "detail": "Direct HTTP fetch blocked by Cloudflare; source is a real peer-reviewed article but unverifiable via fetch this run. Not admitted as a claim.",
+        "date": "2026-08-31"
+      }
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-31",
         "soc": "21-1021",
-        "query": "Child, Family, and School Social Workers",
+        "query": "Social Worker",
         "location": "Australia",
         "returned": 10,
         "totalResults": 10,
@@ -1140,20 +1416,24 @@
     ],
     "l5Sample": [
       {
-        "date": "2026-08-29",
-        "added": 41,
+        "date": "2026-08-31",
+        "added": 49,
         "sources": {
-          "github": 5,
+          "github": 6,
           "grounding": 0,
           "hackernews": 23,
-          "reddit": 1,
-          "x": 10,
-          "youtube": 2
+          "reddit": 4,
+          "x": 15,
+          "youtube": 1
         },
         "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva lane unavailable this run (OpenAthens auth expired); L3 supplied via web (AASW).",
+    "L5 corpus is self-selected; corroborate before high-grade use. L5 grounding source unreachable.",
+    "OVIC ChatGPT finding is Victoria child protection (one jurisdiction, 2023 access data)."
+  ]
 }
