@@ -5,17 +5,381 @@
     "Educational Psychologist",
     "Registered Psychologist"
   ],
-  "anzsco": "220000",
+  "anzsco": "272311",
   "window": {
     "from": "2025-08-01",
-    "to": "2026-08-24"
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-03-01",
   "programs": [],
   "claims": [
     {
-      "id": "l503",
+      "id": "19-3031-l1-01",
+      "text": "Australia's Psychology Board of Australia (via Ahpra) states that registered psychologists using AI must still meet existing code-of-conduct obligations — accountability, understanding the tool, transparency of its use, informed consent, and ethical/legal compliance — so AI does not create a new exemption from professional duties.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Psychology Board of Australia (Ahpra)",
+          "title": "Applying your code of conduct to evolving technologies",
+          "url": "https://psychologyboard.gov.au/News/2024-08-22-AI-in-healthcare-code-of-conduct.aspx",
+          "date": "2024-08-22",
+          "whatItMeasured": "Guidance note to all registered health practitioners (including psychologists) on the principles to apply when using or integrating AI into practice, translating existing code-of-conduct obligations."
+        }
+      ],
+      "scope": "Registered psychologists in Australia (Ahpra National Scheme).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (Psychology Board of Australia official news page, dated 22 Aug 2024). Applies to Australian registered psychologists, the occupation's regulatory population. Within window (2024). No dissent located; consistent with later APS/TGA instruments.",
+      "quote": "Ahpra and the National Boards have developed principles for practitioners to consider when using or looking to integrate AI into their practice."
+    },
+    {
+      "id": "19-3031-l1-02",
+      "text": "Australia's Therapeutic Goods Administration (TGA) concluded that the standing exclusion for 'digital mental health tools' from medical-device regulation is no longer appropriate and requires urgent review, and signalled that AI scribes that propose diagnosis/treatment may meet the definition of a medical device requiring pre-market approval.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Therapeutic Goods Administration (TGA), Australian Government",
+          "title": "Clarifying and strengthening the regulation of Medical Device Software including Artificial Intelligence (AI) — Outcomes Report",
+          "url": "https://www.tga.gov.au/resources/consultation/consultation-clarifying-and-strengthening-regulation-artificial-intelligence-ai",
+          "date": "2025-07-30",
+          "whatItMeasured": "Outcome of a 2024 TGA review (consultation Sep–Oct 2024; 53 formal responses, 600+ stakeholders) of whether existing medical-device software/AI legislation is fit for purpose, including findings on digital scribes and digital mental health tools."
+        }
+      ],
+      "scope": "Australian regulatory framework for software/AI as a medical device, including tools used by registered psychologists (digital mental health tools, AI scribes).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (TGA consultation/outcomes page; report published 30 July 2025 per TGA and corroborating legal/medical trade coverage). Binds Australian supply of mental-health AI; psychology-relevant via Finding 8 (digital mental health tools). Within window.",
+      "quote": "The digital mental health tools exclusion is no longer appropriate and urgent review is needed."
+    },
+    {
+      "id": "19-3031-l1-03",
+      "text": "The Australian Psychological Society's Professional practice guidelines for the use of AI and emerging technologies (released after the PsyBA Code of Conduct took effect on 1 Dec 2025) state that AI must not substitute for professional decision-making or clinical judgement and that psychologists remain fully responsible for all aspects of service delivery, including AI-generated outputs, requiring tool-specific written informed consent.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Psychological Society (APS)",
+          "title": "Using AI in psychological practice: How the new APS practice guidelines help psychologists",
+          "url": "https://psychology.org.au/insights/use-ai-in-practice-new-aps-practice-guidelines",
+          "date": "2026-02",
+          "whatItMeasured": "Explanation of the APS Professional practice guidelines for the use of AI and emerging technologies (member resource) covering clinical accountability, evidence-based standards, specific informed consent, data security, bias vigilance and digital literacy for psychologists."
+        }
+      ],
+      "scope": "Australian psychologists who are APS members (peak body representing ~25,000 members), operating under the Psychology Board of Australia Code of Conduct effective 1 Dec 2025.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real (APS insights page, last reviewed Feb 2026; guidelines released late 2025/early 2026 alongside PsyBA Code of Conduct effective 1 Dec 2025). Applies to Australian psychologist population. Within window. Member-only guideline, but described publicly by APS.",
+      "quote": "psychologists remain fully responsible for all aspects of service delivery, including any outputs generated by technology."
+    },
+    {
+      "id": "19-3031-l2-01",
+      "text": "A peer-reviewed validation study of an LLM-powered conversational depression-screening tool (embedding the Beck Depression Inventory Fast Screen into a ChatGPT-4o dialogue) found the automated scores correlated strongly with clinician BDI-FS ratings (Spearman rho ≈ 0.79) among adults seeking psychological consultation, suggesting AI can complement — not replace — clinical judgement in psychological assessment.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "JMIR Formative Research (JMIR Publications)",
+          "title": "Evaluating the Efficacy of AI-Based Interactive Assessments Using Large Language Models for Depression Screening: Development and Usability Study",
+          "url": "https://doi.org/10.2196/78401",
+          "date": "2026-01-13",
+          "whatItMeasured": "164 attendees (≥18 yrs) at the Psychological Crisis Early Warning and Monitoring Technology Research Center, Zhengzhou Normal University, China, sequentially screened Jul 2024–Jan 2025; 28 with depression and 87 without completed the LLM-based Automated Assessment Paradigm, scored against clinician diagnosis."
+        }
+      ],
+      "scope": "Adults seeking psychological consultation in an urban Chinese university-affiliated centre (not an Australian sample); generalisable to psychologist-delivered assessment only with caution.",
+      "disposition": "sourced",
+      "refuted": false,
+      "supersedes": null,
+      "bearing": [],
+      "refuteNotes": "Source real (PubMed PMID 41529832; JMIR Form Res 2026;10:e78401, published 13 Jan 2026; full text via doi.org). Peer-reviewed. Population is Chinese, not Australian — scope explicitly limited. Authors state tool should complement, not replace, trained professionals. Within window (2026).",
+      "quote": "The AAP framework combines the interactivity and personalization of NLP-powered tools with the psychometric rigor of traditional scales."
+    },
+    {
+      "id": "19-3031-l2-02",
+      "text": "A peer-reviewed mixed-methods systematic review and meta-analysis of 29 studies on AI in online mental healthcare found AI-delivered self-guided interventions produced medium-to-large effects on depression/anxiety symptoms with dropout comparable to non-AI care, but rated the underlying evidence quality as low to very low, highlighting a major validation gap.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Frontiers in Psychiatry (Frontiers Media)",
+          "title": "Examining the role of AI technology in online mental healthcare: opportunities, challenges, and implications, a mixed-methods review",
+          "url": "https://doi.org/10.3389/fpsyt.2024.1356773",
+          "date": "2024-05-07",
+          "whatItMeasured": "PRISMA systematic review of 29 peer-reviewed RCTs/observational/case studies (MEDLINE, CINAHL, PsycINFO, EMBASE, Cochrane) on AI applications in online mental healthcare, with meta- and network meta-analysis of pre/post intervention outcomes."
+        }
+      ],
+      "scope": "Global body of AI online mental-health intervention studies (US/Canada context cited); not specific to Australia.",
+      "disposition": "sourced",
+      "refuted": false,
+      "supersedes": null,
+      "bearing": [],
+      "refuteNotes": "Source real (Front. Psychiatry 15:1356773, published 7 May 2024; doi 10.3389/fpsyt.2024.1356773). Peer-reviewed, PRISMA-registered. Population is the literature, not a single national cohort; scope stated. Within window (2024).",
+      "quote": "AI-delivered self-guided interventions demonstrated medium to large effects on managing mental health symptoms, with dropout rates comparable to non-AI interventions."
+    },
+    {
+      "id": "19-3031-l3-01",
+      "text": "In its 2026–27 Pre-Budget Submission the APS warned that AI and digital mental health services are rolling out 'without appropriate evaluation' and called for collaborative benchmarking, cautioning that without standards and psychologically informed governance these tools could widen inequities and increase pressure on an already stretched psychology workforce.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Australian Psychological Society (APS) — media release",
+          "title": "Australians at risk as AI and digital mental health services roll out without appropriate evaluation",
+          "url": "https://psychology.org.au/about-us/news-and-media/media-releases/2026/australians-at-risk-as-ai-and-digital-mental-healt",
+          "date": "2026",
+          "whatItMeasured": "APS position (via 2026–27 Pre-Budget Submission) on the workforce and safety implications of rapidly deployed AI/digital mental health services in Australia, attributed to APS President Dr Kelly Gough."
+        }
+      ],
+      "scope": "Australian mental-health service delivery and the psychology workforce.",
+      "disposition": "sourced",
+      "refuted": false,
+      "supersedes": null,
+      "bearing": [],
+      "refuteNotes": "Source real (APS official media-release page, dated 2026; references the 2026–27 Pre-Budget Submission). Attributable, dated. Applies to Australian workforce. Within window. Trade/practitioner-press, not peer-reviewed.",
+      "quote": "AI tools must support and never substitute for professional judgement, ethical care and human relationships."
+    },
+    {
+      "id": "19-3031-l3-02",
+      "text": "Trade-press reporting (Hospital Health, Apr 2024) noted that an announcement that 'chatbot psychologists' could enter Australia's healthcare system within two years sparked controversy, with University of Melbourne digital-mental-health specialist Dr Simon D'Alfonso and Blue Knot Foundation's Dr Cathy Kezelman arguing such bots should be adjuncts, not replacements, for human therapists.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Hospital Health (trade publication)",
+          "title": "Should chatbot psychologists be part of the health system?",
+          "url": "https://hospitalhealth.com.au/content/aged-allied-health/article/should-chatbot-psychologists-be-part-of-the-health-system--741159686",
+          "date": "2024-04-08",
+          "whatItMeasured": "News analysis of proposals to introduce conversational AI 'chatbot psychologists' into the Australian health system, quoting clinical experts on therapeutic alliance, trauma risk and appropriate scope as adjunct care."
+        }
+      ],
+      "scope": "Australian health-system debate on AI chatbot mental-health delivery.",
+      "disposition": "sourced",
+      "refuted": false,
+      "supersedes": null,
+      "bearing": [],
+      "refuteNotes": "Source real (Hospital Health article by Amy Sarcevic, dated Monday 08 April 2024). Attributable, dated trade reporting. Applies to Australian context. Within window. Opinion/analysis, not a regulated instrument.",
+      "quote": "I don't see them as a comprehensive replacement."
+    },
+    {
+      "id": "l401",
+      "text": "Psychologist – Register of Interest — Department of Education and Training (Tennant Creek, Northern Territory, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education and Training",
+          "title": "Psychologist – Register of Interest",
+          "url": "https://www.linkedin.com/jobs/view/4429552801",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l402",
+      "text": "Psychologist — Department of Education (Morwell, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education",
+          "title": "Psychologist",
+          "url": "https://www.linkedin.com/jobs/view/4454395706",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l403",
+      "text": "Psychologist — Northern Territory Police Force (Katherine, Northern Territory, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Northern Territory Police Force",
+          "title": "Psychologist",
+          "url": "https://www.linkedin.com/jobs/view/4458934362",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l404",
+      "text": "Expression of Interest (EOI) - Guidance Counsellor — Brisbane Catholic Education (Brisbane City, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Brisbane Catholic Education",
+          "title": "Expression of Interest (EOI) - Guidance Counsellor",
+          "url": "https://www.linkedin.com/jobs/view/4448258429",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l405",
+      "text": "Senior Clinician — FBG Group (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "FBG Group",
+          "title": "Senior Clinician",
+          "url": "https://www.linkedin.com/jobs/view/4452839984",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "Psychologist — NSW Department of Communities and Justice (Tenambit, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Department of Communities and Justice",
+          "title": "Psychologist",
+          "url": "https://www.linkedin.com/jobs/view/4453525055",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Senior Clinician — FBG Group (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "FBG Group",
+          "title": "Senior Clinician",
+          "url": "https://www.linkedin.com/jobs/view/4452840931",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "Psychologist (517844) — Department of Health, Tasmania (West Coast, Tasmania, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Health, Tasmania",
+          "title": "Psychologist (517844)",
+          "url": "https://www.linkedin.com/jobs/view/4418386744",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Senior Mental Health Clinician – CAMHS — Far West Local Health District (Broken Hill, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Far West Local Health District",
+          "title": "Senior Mental Health Clinician – CAMHS",
+          "url": "https://www.linkedin.com/jobs/view/4456701051",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Court Child Expert (Psychologist or Social Worker) — Federal Circuit and Family Court of Australia (Newcastle, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Federal Circuit and Family Court of Australia",
+          "title": "Court Child Expert (Psychologist or Social Worker)",
+          "url": "https://www.linkedin.com/jobs/view/4456450030",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l511",
       "text": "feat: add 3 skills (chiropractic, business-valuation, school-counseling)\nThis PR adds 3 new domain-specific skills.\n\n---\n\n## Skill 1: `chiropractic-encounter-note-drafter` — chiropractic\n\n**Skill name and domain:** `chiropractic-encounter-note-drafter` in the `chiropractic` plugin (new plugin).\n\n**Problem it addresses:** Doctors of Chiropractic spend 90–150 minutes per d",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -25,175 +389,7 @@
           "title": "feat: add 3 skills (chiropractic, business-valuation, school-counseling)\nThis PR…",
           "url": "https://github.com/beasaltfish/Open-Skill-Hub-Archive/pull/93",
           "date": "2026-06-01",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l504",
-      "text": "Tell HN: Man, AI is killing my brain",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Tell HN: Man, AI is killing my brain",
-          "url": "https://news.ycombinator.com/item?id=49468252",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l505",
-      "text": "What breaks in production AI workflows?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "What breaks in production AI workflows?",
-          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l506",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l507",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-          "url": "https://isaidumber.today/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l508",
-      "text": "How al-Qaida and IS are adopting AI",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "How al-Qaida and IS are adopting AI",
-          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l509",
-      "text": "Adults have struggled to set rules for AI in school. These teens figured it out",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Adults have struggled to set rules for AI in school. These teens figured it out",
-          "url": "https://text.npr.org/nx-s1-5853571",
-          "date": "2026-08-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l510",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-          "url": "https://news.ycombinator.com/item?id=48672619",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l511",
-      "text": "The death of AI workflow builders",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "The death of AI workflow builders",
-          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -205,16 +401,16 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-          "url": "https://www.contextvault.dev/",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -226,16 +422,16 @@
     },
     {
       "id": "l513",
-      "text": "General LLMs outperform specialized clinical AI tools on medical benchmarks",
+      "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "General LLMs outperform specialized clinical AI tools on medical benchmarks",
-          "url": "https://www.nature.com/articles/s41591-026-04431-5",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -247,16 +443,16 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-          "url": "https://argonix.io/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -268,16 +464,16 @@
     },
     {
       "id": "l515",
-      "text": "What is agentic AI today, and what do we want it to be?",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "What is agentic AI today, and what do we want it to be?",
-          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-          "date": "2026-07-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -289,16 +485,16 @@
     },
     {
       "id": "l516",
-      "text": "General-purpose large language models outperform specialized clinical AI tools",
+      "text": "How al-Qaida and IS are adopting AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "General-purpose large language models outperform specialized clinical AI tools",
-          "url": "https://www.nature.com/articles/s41591-026-04431-5",
-          "date": "2026-06-16",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -310,16 +506,16 @@
     },
     {
       "id": "l517",
-      "text": "My AI-Assisted Workflow",
+      "text": "Adults have struggled to set rules for AI in school. These teens figured it out",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "My AI-Assisted Workflow",
-          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
-          "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Adults have struggled to set rules for AI in school. These teens figured it out",
+          "url": "https://text.npr.org/nx-s1-5853571",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -331,16 +527,16 @@
     },
     {
       "id": "l518",
-      "text": "Norway's school AI ban is the wrong thing to do.",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Norway's school AI ban is the wrong thing to do.",
-          "url": "https://coffee.link/norway-is-banning-the-wrong-thing/",
-          "date": "2026-06-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -352,16 +548,16 @@
     },
     {
       "id": "l519",
-      "text": "AI Workflows Need Topological Sort",
+      "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Workflows Need Topological Sort",
-          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
-          "date": "2026-06-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -373,16 +569,16 @@
     },
     {
       "id": "l520",
-      "text": "The AI School Bus Camera Company Blanketing America in Tickets",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The AI School Bus Camera Company Blanketing America in Tickets",
-          "url": "https://www.bloomberg.com/news/features/2026-04-14/buspatrol-school-bus-traffic-tickets-have-limited-safety-benefits-critics-say",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -394,16 +590,16 @@
     },
     {
       "id": "l521",
-      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "text": "General LLMs outperform specialized clinical AI tools on medical benchmarks",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "General LLMs outperform specialized clinical AI tools on medical benchmarks",
+          "url": "https://www.nature.com/articles/s41591-026-04431-5",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -415,16 +611,16 @@
     },
     {
       "id": "l522",
-      "text": "Ask HK: How are you building AI apps today?",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HK: How are you building AI apps today?",
-          "url": "https://news.ycombinator.com/item?id=48323554",
-          "date": "2026-05-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -436,16 +632,16 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
-          "url": "https://blocks.ai",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -457,16 +653,16 @@
     },
     {
       "id": "l524",
-      "text": "The Problem with AI Today",
+      "text": "General-purpose large language models outperform specialized clinical AI tools",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The Problem with AI Today",
-          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
-          "date": "2026-05-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "General-purpose large language models outperform specialized clinical AI tools",
+          "url": "https://www.nature.com/articles/s41591-026-04431-5",
+          "date": "2026-06-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -478,16 +674,16 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-          "url": "https://github.com/kontext-dev/kontext-cli",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -499,16 +695,16 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "text": "Norway's school AI ban is the wrong thing to do.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
-          "url": "https://theincidentchallenge.com/",
-          "date": "2026-05-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Norway's school AI ban is the wrong thing to do.",
+          "url": "https://coffee.link/norway-is-banning-the-wrong-thing/",
+          "date": "2026-06-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -520,16 +716,16 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "AI Workflows Need Topological Sort",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
-          "url": "https://news.ycombinator.com/item?id=47590261",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -541,16 +737,16 @@
     },
     {
       "id": "l528",
-      "text": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s some of my reasoning, though I want you to know that I don&#39;t have perfect understanding and knowledge of the topic and besides my view, I still use genai weekly: It has dramatically increased the amount of low-quality, AI-generated content online, making it harder to find genuine information and discussion. Misinformation, scams, impersonation, and deepfakes have become much easier and cheaper to produce Many pe…",
+      "text": "The AI School Bus Camera Company Blanketing America in Tickets",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s…",
-          "url": "https://www.reddit.com/r/changemyview/comments/1vf8rfu/cmv_modern_generative_ai_has_been_a_net_negative/",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "The AI School Bus Camera Company Blanketing America in Tickets",
+          "url": "https://www.bloomberg.com/news/features/2026-04-14/buspatrol-school-bus-traffic-tickets-have-limited-safety-benefits-critics-say",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -562,16 +758,16 @@
     },
     {
       "id": "l529",
-      "text": "Prenup and premarital counseling 39M and 48F\nI 39M recieved a prenup 26 days before the wedding from my fiancée (48F). We spoke briefly about it one morning months prior. I have debt but will aquire a healthcare business from a mentor here pretty soon. She has a high net worth, which is understandable to have a prenup. Day 23 I retain a family lawyer. Day 20 we meet and go over what a prenup is and how it works. I ask to not touch her money and walk away with no alimony. I also ask how could I p…",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Prenup and premarital counseling 39M and 48F\nI 39M recieved a prenup 26 days bef…",
-          "url": "https://www.reddit.com/r/relationship_advice/comments/1vblhdh/prenup_and_premarital_counseling_39m_and_48f/",
-          "date": "2026-07-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -583,16 +779,16 @@
     },
     {
       "id": "l530",
-      "text": "What it looks like to really work with AI in a small medical practice.",
+      "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "What it looks like to really work with AI in a small medical practice.",
-          "url": "https://x.com/JohnGoldman/status/2087294966292750432",
-          "date": "2026-08-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -604,16 +800,16 @@
     },
     {
       "id": "l531",
-      "text": "AI designed a virus, scientists brought it to life | Eitan Gefen, Ynetnews\n\nUntil recently, much of the debate around artificial intelligence focused on what machines could write, draw or calculate. Now the question is becoming far more consequential: Can AI design something that actually functions inside the biological world?\n\nResearchers from Stanford University and the Arc Institute have used artificial intelligence to design the genetic code of bacteriophages, viruses that infect bacteria, a",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "AI designed a virus, scientists brought it to life | Eitan Gefen, Ynetnews\n\nUnti…",
-          "url": "https://x.com/OwenGregorian/status/2088969823044723044",
-          "date": "2026-08-16",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -625,16 +821,16 @@
     },
     {
       "id": "l532",
-      "text": "I am pretty close to celebrating. We seem to have solved the PDF / lab / note extraction to deterministic data problem for our healthcare practice. Has taken about a month but we're here.  Next up is the test run in the EMR with the AI analysis overtop of it. \n\nThis has been a ton of work, trial and error, and learned lesson in applied agentic coding and analysis.\n\nSend us a PDF, we parse it, prove it, save it as 100% fact, to the extent the lab or test itself was true!\n\nEvery claim has a citati",
+      "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "I am pretty close to celebrating. We seem to have solved the PDF / lab / note ex…",
-          "url": "https://x.com/JohnGoldman/status/2093486266260341242",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -646,16 +842,16 @@
     },
     {
       "id": "l533",
-      "text": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another “we’re changing healthcare with AI” thread, I want to share the questions people have been asking us.\n\nDoctors. Hospital owners. Founders. VCs. Customers.\n\nSome of them were uncomfortable.\n\nProbably the most useful questions we’ve received.\n\n“Why would Apollo need you if OpenAI or Microsoft can give them models, servers, engineers and basically unlimited compute?”\n\nFair.\n\nWe are not trying to build a better GPT.\n\nAnd we’re no",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another “we’re ch…",
-          "url": "https://x.com/KarthikNagpuri/status/2093567763801686429",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -667,16 +863,16 @@
     },
     {
       "id": "l534",
-      "text": "20 AI Concepts You Must Understand In 2026",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "20 AI Concepts You Must Understand In 2026",
-          "url": "https://x.com/ifioknkem/status/2086847543321719167",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -688,16 +884,16 @@
     },
     {
       "id": "l535",
-      "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
-          "url": "https://x.com/theneurondaily/status/2093302072145825969",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -709,16 +905,16 @@
     },
     {
       "id": "l536",
-      "text": "Ok this is super nerdy deep in the weeds practical real world AI use on the cutting edge (for a power vibe coder like me).\n\nat rebel, we've been using a perfectly adequate yet 2024 tech stack for a couple of years. a month ago we contracted with Canvas Medical to create a new system where they house the PHI and run the EMR while we can build basically whatever we want around it.\n\nfinding canvas was huge for us because as power vibe coders, we had a killer prototype for the app of our dreams, but",
+      "text": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s some of my reasoning, though I want you to know that I don&#39;t have perfect understanding and knowledge of the topic and besides my view, I still use genai weekly: It has dramatically increased the amount of low-quality, AI-generated content online, making it harder to find genuine information and discussion. Misinformation, scams, impersonation, and deepfakes have become much easier and cheaper to produce Many pe…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Ok this is super nerdy deep in the weeds practical real world AI use on the cutt…",
-          "url": "https://x.com/JohnGoldman/status/2087292234572218811",
-          "date": "2026-08-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s…",
+          "url": "https://www.reddit.com/r/changemyview/comments/1vf8rfu/cmv_modern_generative_ai_has_been_a_net_negative/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -730,16 +926,16 @@
     },
     {
       "id": "l537",
-      "text": "The Rise of the AI Generalist: How AI Copilots Are Reshaping the Global Workforce in 2026",
+      "text": "Prenup and premarital counseling 39M and 48F\nI 39M recieved a prenup 26 days before the wedding from my fiancée (48F). We spoke briefly about it one morning months prior. I have debt but will aquire a healthcare business from a mentor here pretty soon. She has a high net worth, which is understandable to have a prenup. Day 23 I retain a family lawyer. Day 20 we meet and go over what a prenup is and how it works. I ask to not touch her money and walk away with no alimony. I also ask how could I p…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The Rise of the AI Generalist: How AI Copilots Are Reshaping the Global Workforc…",
-          "url": "https://x.com/DinoJVidiliCons/status/2089356456587931795",
-          "date": "2026-08-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "Prenup and premarital counseling 39M and 48F\nI 39M recieved a prenup 26 days bef…",
+          "url": "https://www.reddit.com/r/relationship_advice/comments/1vblhdh/prenup_and_premarital_counseling_39m_and_48f/",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -751,16 +947,16 @@
     },
     {
       "id": "l538",
-      "text": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
+      "text": "What it looks like to really work with AI in a small medical practice.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
-          "url": "https://x.com/ThreadedInsight/status/2091815531984957703",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "What it looks like to really work with AI in a small medical practice.",
+          "url": "https://x.com/JohnGoldman/status/2087294966292750432",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -772,16 +968,16 @@
     },
     {
       "id": "l539",
-      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Question of the Self",
+      "text": "AI designed a virus, scientists brought it to life | Eitan Gefen, Ynetnews\n\nUntil recently, much of the debate around artificial intelligence focused on what machines could write, draw or calculate. Now the question is becoming far more consequential: Can AI design something that actually functions inside the biological world?\n\nResearchers from Stanford University and the Arc Institute have used artificial intelligence to design the genetic code of bacteriophages, viruses that infect bacteria, a",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Questio…",
-          "url": "https://x.com/nithinpalal/status/2086874531751489924",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "AI designed a virus, scientists brought it to life | Eitan Gefen, Ynetnews\n\nUnti…",
+          "url": "https://x.com/OwenGregorian/status/2088969823044723044",
+          "date": "2026-08-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -793,16 +989,16 @@
     },
     {
       "id": "l540",
-      "text": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears free on OpenRouter — likely a Chinese lab's stealth launch\nAn unattributed model with a 1M-token context window and text/image/video input appeared on OpenRouter and OpenCode on August 20 under the ID stealth/ox-alpha, free for roughly a week. Community tokenizer fingerprinting points strongly to https://t.co/BDvjCDsRp2's GLM family (a possible GLM-5.3), though no lab has claimed it; it would be the fifth anonymous re",
+      "text": "I am pretty close to celebrating. We seem to have solved the PDF / lab / note extraction to deterministic data problem for our healthcare practice. Has taken about a month but we're here.  Next up is the test run in the EMR with the AI analysis overtop of it. \n\nThis has been a ton of work, trial and error, and learned lesson in applied agentic coding and analysis.\n\nSend us a PDF, we parse it, prove it, save it as 100% fact, to the extent the lab or test itself was true!\n\nEvery claim has a citati",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears f…",
-          "url": "https://x.com/SarangMahatwo/status/2092260161767264376",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "I am pretty close to celebrating. We seem to have solved the PDF / lab / note ex…",
+          "url": "https://x.com/JohnGoldman/status/2093486266260341242",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -814,16 +1010,16 @@
     },
     {
       "id": "l541",
-      "text": "President Trump Champions Educational Freedom — Putting Students and Parents First",
+      "text": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another “we’re changing healthcare with AI” thread, I want to share the questions people have been asking us.\n\nDoctors. Hospital owners. Founders. VCs. Customers.\n\nSome of them were uncomfortable.\n\nProbably the most useful questions we’ve received.\n\n“Why would Apollo need you if OpenAI or Microsoft can give them models, servers, engineers and basically unlimited compute?”\n\nFair.\n\nWe are not trying to build a better GPT.\n\nAnd we’re no",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "President Trump Champions Educational Freedom — Putting Students and Parents Fir…",
-          "url": "https://x.com/WhiteHouse/status/2091958903277769161",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another “we’re ch…",
+          "url": "https://x.com/KarthikNagpuri/status/2093567763801686429",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -835,16 +1031,16 @@
     },
     {
       "id": "l542",
-      "text": "So, the @CIA  and its well documented torture programme have truly screwed up the 9/11 investigation because, as we all predicted, evidence under torture is not worth a cent. Well done  George Tenet  and let's not forget the role played by millionaires James Mitchell and Bruce Jessen: the two former U.S. Air Force survival school psychologists who designed the specific torture techniques (such as waterboarding, sleep deprivation, and stress positions). They formed a company, Mitchell, Jessen & A",
+      "text": "20 AI Concepts You Must Understand In 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "So, the @CIA  and its well documented torture programme have truly screwed up th…",
-          "url": "https://x.com/yvonneridley/status/2093404169415573674",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "20 AI Concepts You Must Understand In 2026",
+          "url": "https://x.com/ifioknkem/status/2086847543321719167",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -856,16 +1052,16 @@
     },
     {
       "id": "l543",
-      "text": "@TheInsiderPaper National Association of School Psychologists believes otherwise. The mental health profession is mentally ill. https://t.co/CMe5THSCov",
+      "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheInsiderPaper National Association of School Psychologists believes otherwise…",
-          "url": "https://x.com/ANanaRepublic/status/2091984032380629280",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+          "url": "https://x.com/theneurondaily/status/2093302072145825969",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -877,16 +1073,16 @@
     },
     {
       "id": "l544",
-      "text": "TEA Under Morath Lets Houston ISD Keep Filing H-1Bs for $126K Engineers & School Psychologists\n\nThe Texas Education Agency has full control over Houston ISD — yet under TEA’s watch, HISD continues filing H-1B visas, including for “Engineer Center of Excellence” positions paid a minimum of $126,000 (and higher).  Why is Houston ISD also hiring foreign School Psychologists (LSSPs) on H-1B visas?\n\nGovernor Abbott just made it crystal clear: “Exactly zero Texas public school employees should be here",
+      "text": "Ok this is super nerdy deep in the weeds practical real world AI use on the cutting edge (for a power vibe coder like me).\n\nat rebel, we've been using a perfectly adequate yet 2024 tech stack for a couple of years. a month ago we contracted with Canvas Medical to create a new system where they house the PHI and run the EMR while we can build basically whatever we want around it.\n\nfinding canvas was huge for us because as power vibe coders, we had a killer prototype for the app of our dreams, but",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "TEA Under Morath Lets Houston ISD Keep Filing H-1Bs for $126K Engineers & School…",
-          "url": "https://x.com/drbone4tx/status/2090116099912147066",
-          "date": "2026-08-19",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Ok this is super nerdy deep in the weeds practical real world AI use on the cutt…",
+          "url": "https://x.com/JohnGoldman/status/2087292234572218811",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -898,16 +1094,16 @@
     },
     {
       "id": "l545",
-      "text": "@libsoftiktok @jonesville We have school psychologists in Utah preaching this shit. It’s insane.",
+      "text": "The Rise of the AI Generalist: How AI Copilots Are Reshaping the Global Workforce in 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@libsoftiktok @jonesville We have school psychologists in Utah preaching this sh…",
-          "url": "https://x.com/Journey_Utah/status/2092120288494522673",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The Rise of the AI Generalist: How AI Copilots Are Reshaping the Global Workforc…",
+          "url": "https://x.com/DinoJVidiliCons/status/2089356456587931795",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -919,16 +1115,16 @@
     },
     {
       "id": "l546",
-      "text": "Administration and Literacy. That would cover health service managers, school principals, Human Resources, school psychologists, writers and editors in literary arts. Just two weeks ago we learned over 70% of the publishing world is made up of white women today! That doesn’t seem like balance to me!",
+      "text": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Administration and Literacy. That would cover health service managers, school pr…",
-          "url": "https://x.com/LisaBritton/status/2090747457390977097",
-          "date": "2026-08-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
+          "url": "https://x.com/ThreadedInsight/status/2091815531984957703",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -940,16 +1136,16 @@
     },
     {
       "id": "l547",
-      "text": "A medical diagnosis and educational eligibility are two different things, and explaining that distinction to families isn’t always easy.\n\nThat’s why we created a new FREE Medical Diagnosis vs. Educational Eligibility handout to help school psychologists explain the difference.",
+      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Question of the Self",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A medical diagnosis and educational eligibility are two different things, and ex…",
-          "url": "https://x.com/SchoolPsychDCom/status/2087954771269312773",
-          "date": "2026-08-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Questio…",
+          "url": "https://x.com/nithinpalal/status/2086874531751489924",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -961,16 +1157,16 @@
     },
     {
       "id": "l548",
-      "text": "\"When student data is poor, the last rock that education academics want to turn over is the quality of the instruction that students have been exposed to. I think this is an extraordinary insult to the esteem and potential impact of teaching as a profession.\" @PCSnow1604 \n\nSpot. On.\n\nThere is a study by Dr. Galen Alessi from Western MI Univ.  Fifty school psychologists were asked what factors were responsible for a child's learning difficulties, looking at over 5000 cases.  The responses from sc",
+      "text": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears free on OpenRouter — likely a Chinese lab's stealth launch\nAn unattributed model with a 1M-token context window and text/image/video input appeared on OpenRouter and OpenCode on August 20 under the ID stealth/ox-alpha, free for roughly a week. Community tokenizer fingerprinting points strongly to https://t.co/BDvjCDsRp2's GLM family (a possible GLM-5.3), though no lab has claimed it; it would be the fifth anonymous re",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\"When student data is poor, the last rock that education academics want to turn …",
-          "url": "https://x.com/EduConsumersFdn/status/2090420259404513298",
-          "date": "2026-08-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears f…",
+          "url": "https://x.com/SarangMahatwo/status/2092260161767264376",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -982,16 +1178,16 @@
     },
     {
       "id": "l549",
-      "text": "Every other position that requires a master's degree is paid on a different scale.\nAdministrators? Different scale. Speech language pathologists? Different scale. School psychologists? Different scale.\nEvery educator is underpaid. There's no question about that. But we're all just so defeated from trying to plead our case, especially when there is precedent for other professionals, and being met with a closed door.",
+      "text": "President Trump Champions Educational Freedom — Putting Students and Parents First",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Every other position that requires a master's degree is paid on a different scal…",
-          "url": "https://x.com/uglygreenjacket/status/2085786183615774970",
-          "date": "2026-08-07",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "President Trump Champions Educational Freedom — Putting Students and Parents Fir…",
+          "url": "https://x.com/WhiteHouse/status/2091958903277769161",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1003,16 +1199,16 @@
     },
     {
       "id": "l550",
-      "text": "@gloomyyumes I got my diagnosis at 16 after struggling with audhd through my school life like this. School psychologists are kinda iffy, but they can be a good entryway for your parents to search for outside help. Just don't share anything you wouldn't like your parents to know with them tbh https://t.co/YoacUM0fEU",
+      "text": "So, the @CIA  and its well documented torture programme have truly screwed up the 9/11 investigation because, as we all predicted, evidence under torture is not worth a cent. Well done  George Tenet  and let's not forget the role played by millionaires James Mitchell and Bruce Jessen: the two former U.S. Air Force survival school psychologists who designed the specific torture techniques (such as waterboarding, sleep deprivation, and stress positions). They formed a company, Mitchell, Jessen & A",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@gloomyyumes I got my diagnosis at 16 after struggling with audhd through my sch…",
-          "url": "https://x.com/n0t_deer/status/2091569108139610273",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "So, the @CIA  and its well documented torture programme have truly screwed up th…",
+          "url": "https://x.com/yvonneridley/status/2093404169415573674",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1024,16 +1220,16 @@
     },
     {
       "id": "l551",
-      "text": "@lilmoemusic @Mike_Amanpene which test in particular? those based on recommendation of school psychologists?",
+      "text": "@TheInsiderPaper National Association of School Psychologists believes otherwise. The mental health profession is mentally ill. https://t.co/CMe5THSCov",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@lilmoemusic @Mike_Amanpene which test in particular? those based on recommendat…",
-          "url": "https://x.com/nymfree/status/2091940538102518213",
+          "title": "@TheInsiderPaper National Association of School Psychologists believes otherwise…",
+          "url": "https://x.com/ANanaRepublic/status/2091984032380629280",
           "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1045,16 +1241,16 @@
     },
     {
       "id": "l552",
-      "text": "Adding to the list:\nMarxist Paulo Freire who fashioned modern education as a tool for social change. Equity’s oppressor vs oppressed stance. Centering education on race and sexual identities. The claim that America was founded on racism and all American institutions are racist today. What could go wrong? No wonder the push now is to hire school psychologists to fix the mess they made. But I would advise to stay away.",
+      "text": "TEA Under Morath Lets Houston ISD Keep Filing H-1Bs for $126K Engineers & School Psychologists\n\nThe Texas Education Agency has full control over Houston ISD — yet under TEA’s watch, HISD continues filing H-1B visas, including for “Engineer Center of Excellence” positions paid a minimum of $126,000 (and higher).  Why is Houston ISD also hiring foreign School Psychologists (LSSPs) on H-1B visas?\n\nGovernor Abbott just made it crystal clear: “Exactly zero Texas public school employees should be here",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Adding to the list:\nMarxist Paulo Freire who fashioned modern education as a too…",
-          "url": "https://x.com/D4131David/status/2092765227766915125",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "TEA Under Morath Lets Houston ISD Keep Filing H-1Bs for $126K Engineers & School…",
+          "url": "https://x.com/drbone4tx/status/2090116099912147066",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1066,16 +1262,16 @@
     },
     {
       "id": "l553",
-      "text": "AI Workflows for School Psychologists: Finishing Reports Faster and Leading Better IEP Meetings\nYou sit down at your desk with a stack of evaluation data, late reports, and an IEP meeting starting in twenty minutes. The paperwork is piling up, and the clock is ticking. You want to write a comprehensive report that truly helps the student, but right now you are just trying to get it out the door on time.\n\nIn this session of School Psych AI Office Hours, we focus on what you can control. We break …",
+      "text": "@libsoftiktok @jonesville We have school psychologists in Utah preaching this shit. It’s insane.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "AI Workflows for School Psychologists: Finishing Reports Faster and Leading Bett…",
-          "url": "https://www.youtube.com/watch?v=hH9EIoUvxQ4",
-          "date": "2026-05-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "@libsoftiktok @jonesville We have school psychologists in Utah preaching this sh…",
+          "url": "https://x.com/Journey_Utah/status/2092120288494522673",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1087,16 +1283,16 @@
     },
     {
       "id": "l554",
-      "text": "Office Hours Part 2: How to use the Readability Assistant Tool to Simplify Clinical Jargon\nIn this session of SchoolPsych AI Office Hours, Byron McClure demonstrates how to transform complex clinical jargon into parent friendly language using the Readability Assistant. Whether you're working with WISC interpretive reports or lengthy psychological evaluations, this tool allows you to set specific grade level accessibility to ensure your findings are actionable and understandable for families.\nThe…",
+      "text": "Administration and Literacy. That would cover health service managers, school principals, Human Resources, school psychologists, writers and editors in literary arts. Just two weeks ago we learned over 70% of the publishing world is made up of white women today! That doesn’t seem like balance to me!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "Office Hours Part 2: How to use the Readability Assistant Tool to Simplify Clini…",
-          "url": "https://www.youtube.com/watch?v=X__3Qg2Q_Dc",
-          "date": "2026-04-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "Administration and Literacy. That would cover health service managers, school pr…",
+          "url": "https://x.com/LisaBritton/status/2090747457390977097",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1107,227 +1303,17 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l455",
-      "text": "Psychologist – Register of Interest — Department of Education and Training (Tennant Creek, Northern Territory, Australia). Posted 2 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department of Education and Training",
-          "title": "Psychologist – Register of Interest",
-          "url": "https://www.linkedin.com/jobs/view/4429552801",
-          "date": "2 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l456",
-      "text": "Psychologist — Northern Territory Government (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Northern Territory Government",
-          "title": "Psychologist",
-          "url": "https://www.linkedin.com/jobs/view/4449360782",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l457",
-      "text": "Psychologist — Department of Education (Morwell, Victoria, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department of Education",
-          "title": "Psychologist",
-          "url": "https://www.linkedin.com/jobs/view/4454395706",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l458",
-      "text": "Psychologist — NSW Department of Communities and Justice (Tenambit, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "NSW Department of Communities and Justice",
-          "title": "Psychologist",
-          "url": "https://www.linkedin.com/jobs/view/4453525055",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l459",
-      "text": "Psychologist (517844) — Department of Health, Tasmania (West Coast, Tasmania, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department of Health, Tasmania",
-          "title": "Psychologist (517844)",
-          "url": "https://www.linkedin.com/jobs/view/4418386744",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l460",
-      "text": "Psychologist — NSW Department of Communities and Justice (Little Jilliby, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "NSW Department of Communities and Justice",
-          "title": "Psychologist",
-          "url": "https://www.linkedin.com/jobs/view/4453529036",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l461",
-      "text": "Psychologist — Sigma Therapies (Perth, Western Australia, Australia). Posted 2 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Sigma Therapies",
-          "title": "Psychologist",
-          "url": "https://www.linkedin.com/jobs/view/4458144994",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l462",
-      "text": "Psychologist — NT Health (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "NT Health",
-          "title": "Psychologist",
-          "url": "https://www.linkedin.com/jobs/view/4448097419",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l463",
-      "text": "Psychologist — Succoris Psychology Group (Perth, Western Australia, Australia). Posted 5 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Succoris Psychology Group",
-          "title": "Psychologist",
-          "url": "https://www.linkedin.com/jobs/view/4456221695",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l464",
-      "text": "Psychologist — Activ8 Mind (Adelaide, South Australia, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Activ8 Mind",
-          "title": "Psychologist",
-          "url": "https://www.linkedin.com/jobs/view/4453288306",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l565",
-      "text": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s some of my reasoning, though I want you to know that I don&#39;t have perfect understanding and knowledge of the topic and besides my view, I still use genai weekly: It has dramatically increased the amount of low-quality, AI-generated content online, making it harder to find genuine information and discussion. Misinformation, scams, impersonation, and deepfakes have become much easier and cheaper to produce Many pe…",
+      "id": "l555",
+      "text": "A medical diagnosis and educational eligibility are two different things, and explaining that distinction to families isn’t always easy.\n\nThat’s why we created a new FREE Medical Diagnosis vs. Educational Eligibility handout to help school psychologists explain the difference.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s…",
-          "url": "https://www.reddit.com/r/changemyview/comments/1vf8rfu/cmv_modern_generative_ai_has_been_a_net_negative/",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "A medical diagnosis and educational eligibility are two different things, and ex…",
+          "url": "https://x.com/SchoolPsychDCom/status/2087954771269312773",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1338,17 +1324,17 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l566",
-      "text": "Prenup and premarital counseling 39M and 48F\nI 39M recieved a prenup 26 days before the wedding from my fiancée (48F). We spoke briefly about it one morning months prior. I have debt but will aquire a healthcare business from a mentor here pretty soon. She has a high net worth, which is understandable to have a prenup. Day 23 I retain a family lawyer. Day 20 we meet and go over what a prenup is and how it works. I ask to not touch her money and walk away with no alimony. I also ask how could I p…",
+      "id": "l556",
+      "text": "\"When student data is poor, the last rock that education academics want to turn over is the quality of the instruction that students have been exposed to. I think this is an extraordinary insult to the esteem and potential impact of teaching as a profession.\" @PCSnow1604 \n\nSpot. On.\n\nThere is a study by Dr. Galen Alessi from Western MI Univ.  Fifty school psychologists were asked what factors were responsible for a child's learning difficulties, looking at over 5000 cases.  The responses from sc",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Prenup and premarital counseling 39M and 48F\nI 39M recieved a prenup 26 days bef…",
-          "url": "https://www.reddit.com/r/relationship_advice/comments/1vblhdh/prenup_and_premarital_counseling_39m_and_48f/",
-          "date": "2026-07-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "\"When student data is poor, the last rock that education academics want to turn …",
+          "url": "https://x.com/EduConsumersFdn/status/2090420259404513298",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1359,7 +1345,91 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l567",
+      "id": "l557",
+      "text": "Every other position that requires a master's degree is paid on a different scale.\nAdministrators? Different scale. Speech language pathologists? Different scale. School psychologists? Different scale.\nEvery educator is underpaid. There's no question about that. But we're all just so defeated from trying to plead our case, especially when there is precedent for other professionals, and being met with a closed door.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Every other position that requires a master's degree is paid on a different scal…",
+          "url": "https://x.com/uglygreenjacket/status/2085786183615774970",
+          "date": "2026-08-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "@gloomyyumes I got my diagnosis at 16 after struggling with audhd through my school life like this. School psychologists are kinda iffy, but they can be a good entryway for your parents to search for outside help. Just don't share anything you wouldn't like your parents to know with them tbh https://t.co/YoacUM0fEU",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@gloomyyumes I got my diagnosis at 16 after struggling with audhd through my sch…",
+          "url": "https://x.com/n0t_deer/status/2091569108139610273",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "@lilmoemusic @Mike_Amanpene which test in particular? those based on recommendation of school psychologists?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@lilmoemusic @Mike_Amanpene which test in particular? those based on recommendat…",
+          "url": "https://x.com/nymfree/status/2091940538102518213",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "Adding to the list:\nMarxist Paulo Freire who fashioned modern education as a tool for social change. Equity’s oppressor vs oppressed stance. Centering education on race and sexual identities. The claim that America was founded on racism and all American institutions are racist today. What could go wrong? No wonder the push now is to hire school psychologists to fix the mess they made. But I would advise to stay away.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Adding to the list:\nMarxist Paulo Freire who fashioned modern education as a too…",
+          "url": "https://x.com/D4131David/status/2092765227766915125",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
       "text": "AI Workflows for School Psychologists: Finishing Reports Faster and Leading Better IEP Meetings\nYou sit down at your desk with a stack of evaluation data, late reports, and an IEP meeting starting in twenty minutes. The paperwork is piling up, and the clock is ticking. You want to write a comprehensive report that truly helps the student, but right now you are just trying to get it out the door on time.\n\nIn this session of School Psych AI Office Hours, we focus on what you can control. We break …",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1369,7 +1439,7 @@
           "title": "AI Workflows for School Psychologists: Finishing Reports Faster and Leading Bett…",
           "url": "https://www.youtube.com/watch?v=hH9EIoUvxQ4",
           "date": "2026-05-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1380,7 +1450,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l568",
+      "id": "l562",
       "text": "Office Hours Part 2: How to use the Readability Assistant Tool to Simplify Clinical Jargon\nIn this session of SchoolPsych AI Office Hours, Byron McClure demonstrates how to transform complex clinical jargon into parent friendly language using the Readability Assistant. Whether you're working with WISC interpretive reports or lengthy psychological evaluations, this tool allows you to set specific grade level accessibility to ensure your findings are actionable and understandable for families.\nThe…",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1390,7 +1460,7 @@
           "title": "Office Hours Part 2: How to use the Readability Assistant Tool to Simplify Clini…",
           "url": "https://www.youtube.com/watch?v=X__3Qg2Q_Dc",
           "date": "2026-04-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1403,32 +1473,100 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "clinical, counseling, and school psychologists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "psychologist",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 23708,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "SA Health",
+      "Skilled Nursing",
+      "Sharp & Carter",
+      "Gidget Foundation",
+      "Queensland Government",
+      "Northern Adelaide Local Health Network",
+      "Gidget Foundation Australia",
+      "Healthscope"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+      "counselling"
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "psychologist",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+      "count": 23708,
+      "returned": 50,
+      "topEmployers": [
+        "SA Health",
+        "Skilled Nursing",
+        "Sharp & Carter",
+        "Gidget Foundation",
+        "Queensland Government",
+        "Northern Adelaide Local Health Network",
+        "Gidget Foundation Australia",
+        "Healthscope"
+      ],
+      "topSkills": [
+        "counselling"
+      ]
+    },
+    "linkedin": {
+      "status": "sampled",
+      "returned": 10,
+      "totalResults": 10,
+      "source": "linkedin (unofficial scrape)",
+      "_raw": "data/professions/19-3031/raw/linkedin_l4.json"
+    }
   },
   "corpus": {
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Clinical, Counseling, and School Psychologists Association discourse",
-        "items": 45
+        "name": "github",
+        "scope": "last30days github",
+        "items": 1
+      },
+      {
+        "name": "hackernews",
+        "scope": "last30days hackernews",
+        "items": 24
+      },
+      {
+        "name": "reddit",
+        "scope": "last30days reddit",
+        "items": 2
+      },
+      {
+        "name": "x",
+        "scope": "last30days x",
+        "items": 23
+      },
+      {
+        "name": "youtube",
+        "scope": "last30days youtube",
+        "items": 2
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "retrieved": "2026-08-30",
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired 2026-08-30; backlogged for re-auth via scripts/factiva_reauth.py"
+      },
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "status": "unreachable",
+        "detail": "Keyless web search unavailable"
+      },
+      {
+        "lane": "L5",
+        "source": "jobs",
+        "status": "unreachable",
+        "detail": "URL Error: nodename nor servname provided"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1446,25 +1584,30 @@
         "returned": 10,
         "totalResults": 10,
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "soc": "19-3031",
+        "query": "Clinical Counseling and School Psychologists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "soc": "19-3031",
+        "query": "Clinical Counseling and School Psychologists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
       }
     ],
     "l5Sample": [
       {
-        "date": "2026-08-29",
+        "date": "2026-08-30",
         "added": 52,
-        "sources": {
-          "github": 1,
-          "grounding": 0,
-          "hackernews": 24,
-          "reddit": 2,
-          "x": 23,
-          "youtube": 2
-        },
-        "status": "sampled"
-      },
-      {
-        "date": "2026-08-29",
-        "added": 4,
         "sources": {
           "github": 1,
           "grounding": 0,
@@ -1478,5 +1621,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 (trade press) unavailable this run — OpenAthens session expired; backlogged for re-auth.",
+    "L5 sources grounding + jobs unreachable in this environment; practitioner discourse drawn from reddit/x/youtube/hackernews/github/polymarket."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }
