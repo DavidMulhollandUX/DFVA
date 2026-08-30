@@ -1,0 +1,123 @@
+{
+  "code": "mc-muspt",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1, not 2: 'demonstrate skills in cooperation, communication and negotiation that allow for effective working in groups' recurs as a Generic-skills outcome across most core units but no assessment item is described as assessing group/team practice with individual accountability, client work, or interprofessional activity per R2. The one plausible candidate — rehearsing/conducting an ensemble in MUSI90265, assessed via practical test and viva — requires coordinating other performers but is teacher-directed rather than the anchor's Level-2 examples (group projects, client/stakeholder work, interprofessional activity); this is genuinely ambiguous between Level 1 and 2, so the lower level is taken (see ambiguities).",
+      "evidenceLines": [
+        "demonstrate skills in cooperation, communication and negotiation that allow for effective working in groups;",
+        "rehearse and conduct an instrumental or vocal ensemble with confidence and conviction whilst understanding the principles to be followed in solving complex musical challenges;"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: 'Written assignment: task and assessment design and alignment, critique and improvement strategies' (MUSI90151, 40% of the unit) is a core-assessed structured critique of assessment/task design — criterion-referenced appraisal of quality per the anchor. Reflective journals in MUSI90147/90156 (20%) add assessed reflection but are self-reflection rather than criterion-referenced appraisal on their own. Level 3 requires documenting/justifying reliance decisions on a tool, source or collaborator (e.g. AI-output judgement); no such evidence appears anywhere in the extract.",
+      "evidenceLines": [
+        "Written assignment: task and assessment design and alignment, critique and improvement strategies",
+        "Reflective journal of pedagogic and content discussion"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Level 0: no AI content appears anywhere in the extract, and the only digital-tools mention — 'the applications of information and communication gathering technologies to music learning' (MUSI90150 overview) — is general ICT, appears only as background course description, and is not tied to any assessed item, so it does not clear even Level 1's bar of AI/digital tools as electives or tool-operation training.",
+      "evidenceLines": [
+        "Students are introduced to a wide range of music teaching theories, methods, and other contemporary approaches, including the applications of information and communication gathering technologies to music learning."
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 2 evidence was reassigned on review: MUSI90151's 'Written assignment: review, design and technical comprehension of a VCE music program' is also claimed as W2 evidence (producing the artefact a practitioner would produce), and per the rubric's one-construct-one-home tie-breaker it belongs to W2, not C4. Without that line, C4's only remaining evidence is that a Capstone/Research-Capstone pathway exists by name — not itself an assessed cross-context task — so it falls to Level 1: transfer is claimed in outcomes/pathway-naming but not distinctly assessed. Original rationale for the disputed Level 2 call, retained for record: MUSI90151's assignment required applying curriculum-design principles to a specific real external curriculum context (VCE), fitting the anchor's 'cross-context projects'; Level 3 could not be confirmed because no Capstone subject page or assessment text is present in the extract (see notScoreable).",
+      "evidenceLines": [
+        "PLUS one Capstone subject (12.5 points) from a defined Capstone Pathway",
+        "This course also offers a pathway to graduate research programs via the Research Capstone Pathway."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1, not 2: MUSI90150 introduces research paradigms, methodology and data-collection/analysis techniques, and its assessed 'draft proposal for a small-scale research project' (30%) requires methodology selection, but is explicitly a draft proposal — design only, with no assessed conduct of the inquiry or data collection documented in the extract, so it falls short of Level 2's 'design AND conduct.' No Capstone/Research-Capstone content is present to evaluate for Level 3 (see notScoreable).",
+      "evidenceLines": [
+        "Students will be introduced to the role of the music teacher as a researcher with an overview of the nature of scholarly and practitioner-based research, the major paradigms, methodologies and data collection / analysis techniques, and reporting / dissemination conventions that apply to music performance learning and teaching.",
+        "A draft proposal for a small-scale research project"
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: 'a recognised professional genre' is satisfied by assessed teaching demonstrations — MUSI90179's '10-minute teaching demonstration and 5-minute viva' (30%) and MUSI90194's '5-minute class presentation/demonstration and reflection' (20%) and '10-minute multimedia lesson presentation' (30%) — the genre a music-performance teacher actually uses, judged against practice-derived criteria. Level 3 requires at least one such assessment delivered to or judged by a real external audience or practitioner with conduct/accountability explicitly assessed; the extract documents these demonstrations to the teaching team/examiners only, not to a named external practitioner panel or real students.",
+      "evidenceLines": [
+        "10-minute teaching demonstration and 5-minute viva",
+        "5-minute class presentation/demonstration and reflection",
+        "10-minute multimedia lesson presentation"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: multiple core units reproduce a professional task end to end — MUSI90151's review/design of a real VCE music program, and MUSI90179/MUSI90194's teaching demonstrations producing the artefact (a taught lesson/unit) a practitioner would produce, judged against practice-derived criteria. Level 3 needs this to be the assessment spine AND at least one instance to carry a genuine constraint of practice (real resource/time limits, a consequential audience, or the profession's own performance standards); the extract does not document such a constraint on any instance (see ambiguities).",
+      "evidenceLines": [
+        "Written assignment: review, design and technical comprehension of a VCE music program",
+        "10-minute teaching demonstration and 5-minute viva",
+        "Folio including principles of pedagogy, unit design and placement observation/reflective diary"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2: MUSI90194 places students in real workplace settings under practitioner supervision — '24 hours of work experience... under the supervision of experienced teachers/musical directors/tutors and Melbourne Conservatorium of Music academic staff' — with a hurdle ('Successful completion of 6 days (36 hours) placement') and an assessed placement-observation/reflective-diary component within the Folio (40%). This is short and, per the detailed subject-level evidence in the extract, stands alone in a single core unit, so it does not meet Level 3's 'extended placement... or a sequence of them.' The course overview's broader claim of 'a range of professional placements... in a variety of settings' is noted but not substantiated with per-subject assessment detail elsewhere in the extract (see ambiguities).",
+      "evidenceLines": [
+        "As part of this subject students are required to complete 24 hours of work experience, during which they will observe a wide range of teaching and instruction in a variety of music educational contexts. These placements will be under the supervision of experienced teachers/musical directors/tutors and Melbourne Conservatorium of Music academic staff.",
+        "Hurdle requirement: Successful completion of 6 days (36 hours) placement.",
+        "A range of professional placements are completed in a variety of settings including schools, studios and community organisations."
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents an all-compulsory specialist core (100 credit points compulsory plus a 25-point Specialisation core and a 25-point Capstone) in Western classical/contemporary instrumental-vocal performance teaching, with a staged Year 1 → Year 2 sequence (e.g. Instrumental Pedagogy in Year 1 preceding Applied Instrumental and Vocal Teaching in Year 2). This is a coherent specialist core with progressive depth, not generic or interchangeable content.",
+        "evidenceLines": [
+          "The Master of Music (Performance Teaching) is a specialist coursework degree, preparing graduates in Western classical and contemporary music as performer-teachers.",
+          "100 credit points of compulsory subjects"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Multiple core assessments require students to defend practical and pedagogical decisions under live questioning — viva voce components in MUSI90179 ('7-minute presentation and 8-minute viva'; '10-minute teaching demonstration and 5-minute viva') and MUSI90265 ('5-minute viva voce test') — rather than recall or scripted responses only.",
+        "evidenceLines": [
+          "7-minute presentation and 8-minute viva",
+          "10-minute teaching demonstration and 5-minute viva",
+          "5-minute viva voce test"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: Directing/rehearsing an ensemble (MUSI90265) is assessed and requires coordinating multiple performers, but doesn't cleanly match the anchor's Level-2 examples (group projects with individual accountability, client/stakeholder work, interprofessional activity) since it is teacher-directed rather than peer collaboration; scored at the lower level (1) rather than 2.",
+      "C3: MUSI90150 mentions 'information and communication gathering technologies' as course content, but this is general ICT, not AI, and is not tied to any assessed item; scored 0 rather than 1.",
+      "C4: The Level-2 evidence line (MUSI90151's VCE-program review/design assignment) was reassigned to W2 under the rubric's one-construct-one-home tie-breaker (see verdict demotion); C4 was demoted from 2 to 1 as a result. The Capstone/Research-Capstone Pathway is named but has no subject page or assessment text in the extract, so no replacement Level-2/3 evidence for C4 could be evaluated (see notScoreable).",
+      "W2: Core assessment reproduces professional tasks end to end (VCE curriculum review/design, teaching demonstrations) across several core units, but the extract does not document a genuine constraint of practice (real resource/time limits, a consequential external audience, or accountability to the profession's own standards) attached to any of them, so it was not scored at Level 3.",
+      "W3: The course overview and specialisation descriptions claim 'a range of professional placements... in a variety of settings,' but only one core subject (MUSI90194) documents placement hours and assessment detail in the extract, and that placement is short (24-36 hours) and observational; scored at Level 2 rather than 3."
+    ],
+    "notScoreable": [
+      "Capstone Pathway subject(s) — the compulsory 12.5-point Capstone subject in each year, and the named 'Research Capstone Pathway' — have no subject page or assessment text in the extract, so C4 Level 3 and C5 Level 3 could not be evaluated against their actual content.",
+      "Second Instrument / Vocal Study 1 (MUSI90155) and the core Specialisation subjects (25 credit points) — the extract's MUSI90155 pages duplicate MUSI90151's 'Music Performance Curriculum Assessment' text rather than containing MUSI90155's own content, and no Specialisation subject pages are present, so neither could be scored."
+    ],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-30"
+      },
+      "mechanical": true,
+      "date": "2026-08-30"
+    }
+  }
+}
