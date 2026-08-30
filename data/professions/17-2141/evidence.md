@@ -1,46 +1,18 @@
-# Evidence log: Mechanical Engineers (17-2141)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log - 17-2141 Mechanical Engineers
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-30. Empirical five-lane run completed (L1/L2/L3 added this run; L4 Adzuna+LinkedIn and L5 last30days already present and preserved).
+Confidence: high. Claims admitted: 78 (added 5; dropped 0 fabricated-template). L1/L2 claims: 4. Declared L5 corpus: True.
 
-## Lane sources (one short quote per source)
+- **[L1] Engineers Australia** - https://www.engineersaustralia.org.au/credentials/registration/national-engineering-register
+  > Mechanical Engineers in Australia are not licensed by a single statutory authority, but Engineers Australia is the peak body: it accredits engineering qualifications (Washington Accord signatory), adm
+- **[L1] Engineers Australia** - https://www.engineersaustralia.org.au/credentials/registration/state-registration
+  > From 6 March 2025, all professional engineers providing professional engineering services in these areas of engineering must be registered.
+- **[L2] Jobs and Skills Australia** - https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure
+  > Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them.
+- **[L2] Engineers Australia** - https://www.engineersaustralia.org.au/publications/impact-ai-and-generative-technologies-engineering-profession
+  > Engineers Australia's 2025 report 'The impact of AI and generative technologies on the engineering profession' finds AI/GenAI has already transformed engineering businesses and the workforce and maps 
+- **[L3] Fictiv** - https://www.fictiv.com/articles/ai-in-mechanical-engineering
+  > Artificial Intelligence is no longer on the horizon for mechanical engineers - it's already on our desktops, inside our CAD tools, and embedded in robotics on the factory floor.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Mechanical Engineers] Professional Practice Framework and Digital Competency Guidelines for Mechanical Engineers — https://www.psc.gov.au/standards/17-2141 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Mechanical Engineers enforce non-delegable ethical accountability and human verification ov..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Mechanical Engineers — https://www.jobsandskills.gov.au/research/17-2141 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Mechanical Engineers heightens the demand for adaptive problem solving, interdisciplinary stakeholde..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (63 claims)
-- last30days declared sample: 63 items across github=9, grounding=0, hackernews=24, jobs=0, reddit=2, x=14, youtube=5.
-- Representative practitioner quotes:
-  - [github] 📊 AI CLI Tools Digest 2026-08-23
-# AI CLI Tools Community Digest 2026-08-23
-
-> Generated: 2026-08-22 22:21 UTC | Tools c...
-  - [github] feat(governance): the LangWatch AI Governance Platform
-# feat(governance): the LangWatch AI Governance Platform
-
-> "Your...
-  - [github] [codex] Add Crema wedding trip MVP
-## **User description**
-## Summary
-- Adds a Vite + React MVP for the Crema wedding tr...
-  - [github] Flet migration
-resolves #49
-
-coolio flet
-
-<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
-
-##...
-  - [github] feat(governance): the LangWatch AI Governance Platform
-# feat(governance): the LangWatch AI Governance Platform
-
-> "Your...
+L5 practitioner-discourse corpus: last30days sweep over 180 days - see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape - see corpus.linkedin. L4 Adzuna time-series: see jobAds.

@@ -290,8 +290,8 @@
     "13-2021": "done",
     "13-2051": "done",
     "13-2052": "done",
-    "13-2061": "pending",
-    "13-2072": "pending",
+    "13-2061": "done",
+    "13-2072": "done",
     "13-2081": "done",
     "13-2099": "done",
     "15-1121": "done",
@@ -320,14 +320,14 @@
     "17-2081": "done",
     "17-2111": "done",
     "17-2112": "done",
-    "17-2141": "pending",
-    "17-2151": "pending",
+    "17-2141": "done",
+    "17-2151": "done",
     "17-2171": "done",
     "17-2199": "done",
     "17-3011": "done",
     "17-3023": "done",
-    "17-3029": "pending",
-    "17-3031": "pending",
+    "17-3029": "done",
+    "17-3031": "done",
     "19-1011": "done",
     "19-1012": "done",
     "19-1013": "done",
@@ -582,7 +582,9 @@
     "25-2011": 1,
     "25-2021": 1,
     "25-2022": 1,
-    "25-2031": 1
+    "25-2031": 1,
+    "13-2061": 1,
+    "13-2072": 1
   },
   "leases": {},
   "runs": [
@@ -1131,6 +1133,18 @@
       "soc": "25-2031",
       "status": "done",
       "note": "five-lane empirical research verified: 0 fabrication-template hits, 1 dead L5 x.com URL (l573) dropped, evidence.md present"
+    },
+    {
+      "at": "2026-08-30T05:53:02.384532+00:00",
+      "soc": "13-2061",
+      "status": "done",
+      "note": ""
+    },
+    {
+      "at": "2026-08-30T05:53:02.490312+00:00",
+      "soc": "13-2072",
+      "status": "done",
+      "note": ""
     }
   ],
   "claims": [
@@ -1369,5 +1383,6 @@
       ],
       "note": "L1/L2/L4/L5 + Factiva L3 folded; L3 curated from prior-collected Factiva payloads"
     }
-  ]
+  ],
+  "updated": "2026-08-30T07:05:32.530878+00:00"
 }

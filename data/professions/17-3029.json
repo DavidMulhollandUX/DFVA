@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-30",
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-03-01",
   "programs": [],
   "claims": [
     {
@@ -1629,6 +1629,92 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Engineering Technicians (and Engineering Technologists) in Australia are covered by Engineers Australia's National Engineering Register (NER), which provides a national framework of registration for professional engineers, engineering technologists and engineering associates. State professional-engineer registration schemes primarily cover those providing professional engineering services; technologists/associates are captured where they do so.",
+      "lane": "L1",
+      "tier": "regulatory-professional-body",
+      "sources": [
+        {
+          "publisher": "Engineers Australia",
+          "title": "National Engineering Register",
+          "url": "https://www.engineersaustralia.org.au/credentials/registration/national-engineering-register",
+          "date": "2026",
+          "whatItMeasured": "NER national registration framework covering professional engineers, engineering technologists and engineering associates; EA-recognised engineering qualifications."
+        }
+      ],
+      "scope": "Voluntary EA credentialling for technologists/associates; statutory registration (below) applies where professional engineering services are delivered. Population = AU engineering technicians/technologists.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (engineersaustralia.org.au); measures this population; current.",
+      "id": "17-3029-empi78"
+    },
+    {
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study (2025) finds augmentation generally outweighs automation and that technical/technician-level occupations also skew towards augmentation (e.g., Agricultural Technicians scored 0.41 automation / 0.72 augmentability in JSA's 358-occupation table). Effects depend on adoption and workplace adaptation.",
+      "lane": "L2",
+      "tier": "scholarly-modelling",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition - Exposure (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "Task/occupation-level Gen AI augmentability/automatability across 358 ANZSCO occupations; technician rows (e.g., Agricultural Technicians 0.41/0.72) skew to augmentation.",
+          "quote": "Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level potential. Engineering technicians inferred as a technical group in the augmentation band; the Agricultural Technicians row is illustrative, not this exact SOC.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (JSA gov); measures AU occupations; published 2025.",
+      "id": "17-3029-empi79"
+    },
+    {
+      "text": "Engineers Australia's 2025 report on AI and generative technologies finds AI/GenAI has already transformed engineering businesses and the workforce and maps how the profession will evolve, relevant to engineering technologists as a discipline within the profession.",
+      "lane": "L2",
+      "tier": "institutional-profession",
+      "sources": [
+        {
+          "publisher": "Engineers Australia",
+          "title": "The impact of AI and generative technologies on the engineering profession",
+          "url": "https://www.engineersaustralia.org.au/publications/impact-ai-and-generative-technologies-engineering-profession",
+          "date": "2025",
+          "whatItMeasured": "EA profession-wide study of AI/GenAI impact on engineering businesses and workforce."
+        }
+      ],
+      "scope": "Profession-wide (all engineering disciplines, including technologists). Adoption commentary, not a displacement forecast.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (EA); measures the engineering profession; 2025.",
+      "id": "17-3029-empi80"
+    },
+    {
+      "text": "Trade-press analysis (Monograph, 2025) reports AI-powered CAD and BIM tools deliver 30-50% efficiency gains in architecture and engineering firms by automating repetitive drafting tasks - AutoCAD 2025's machine-learning Object Detection scans drawings and suggests objects to convert to blocks, freeing technical staff for higher-value work - directly affecting engineering technicians who do CAD/CAE drafting and analysis.",
+      "lane": "L3",
+      "tier": "trade-press",
+      "sources": [
+        {
+          "publisher": "Monograph",
+          "title": "AI CAD: Boost Design Efficiency with Intelligent Automation",
+          "url": "https://monograph.com/blog/ai-cad-design-efficiency-intelligent-automation",
+          "date": "2025-11-20",
+          "whatItMeasured": "Trade-press analysis of AI in CAD/BIM: AutoCAD 2025 ML Object Detection automates drafting (block conversion); cites 30-50% efficiency gains in A&E firms.",
+          "quote": "AI automation handles these repetitive tasks in seconds, freeing technical staff for higher-value design and engineering work."
+        }
+      ],
+      "scope": "CAD/CAE tooling trade press (A&E firms); applies to drafting/design technicians' tooling. Signals augmentation of repetitive CAD work (block conversion, clash detection), not elimination of the role. US/global vendor-adjacent perspective.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (monograph.com, 200 verified, full text extracted); measures AI-in-CAD tooling; 2025. Trade press.",
+      "id": "17-3029-empi81"
     }
   ],
   "jobAds": {
@@ -1658,7 +1744,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-30",
+        "note": "OpenAthens session expired 2026-08-30; Factiva L3 trade-press lane unavailable. Gap logged, not evidence of quiet. Re-run scripts/factiva_reauth.py then scripts/factiva_backfill.py."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1708,5 +1802,8 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press lane unavailable this run (OpenAthens session expired 2026-08-30; logged to factiva_backlog.json, matching the same-date cron batch). L3 covered by web trade press / professional-body publications (Fictiv, E&MJ, Siemens, DroneDeploy) instead. L1/L2 sources are Australian regulatory/scholarly (Engineers Australia NER + state registration + EA 2025 AI report; JSA Gen AI Capacity Study) plus SSSI for surveying. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); L5 practitioner corpus (last30days) was already present from a prior run and preserved (MERGE, not overwritten). Confidence rests on >=2 L1/L2 claims plus the declared L5 corpus."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

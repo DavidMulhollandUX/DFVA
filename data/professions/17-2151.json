@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-30",
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-03-01",
   "programs": [],
   "claims": [
     {
@@ -1104,6 +1104,114 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Mining and Geological Engineers in Australia are not licensed by a single statutory authority, but Engineers Australia is the peak body: it accredits engineering qualifications, administers the Chartered credential, and maintains the National Engineering Register (NER) covering professional engineers, engineering technologists and engineering associates. Mining-safety engineering work is additionally governed by state Mines Safety legislation and regulators.",
+      "lane": "L1",
+      "tier": "regulatory-professional-body",
+      "sources": [
+        {
+          "publisher": "Engineers Australia",
+          "title": "National Engineering Register",
+          "url": "https://www.engineersaustralia.org.au/credentials/registration/national-engineering-register",
+          "date": "2026",
+          "whatItMeasured": "EA peak-body role: accreditation, Chartered credential, NER national registration framework for professional engineers/technologists/associates."
+        }
+      ],
+      "scope": "Voluntary professional credentialling; no single statutory licence. Mining-safety engineering also bound by state WHS/Mines Safety regimes. Population = Australian mining/geological engineers.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (engineersaustralia.org.au); measures this population; current.",
+      "id": "17-2151-empi53"
+    },
+    {
+      "text": "State-based registration of professional engineers is mandatory or rolling out; mining engineers providing professional engineering services must register where required (Queensland RPEQ, Victoria's five prescribed areas, Western Australia building engineers from 1 July 2024, fully mandatory 1 July 2027, and the ACT).",
+      "lane": "L1",
+      "tier": "regulatory-state-registration",
+      "sources": [
+        {
+          "publisher": "Engineers Australia",
+          "title": "State registration",
+          "url": "https://www.engineersaustralia.org.au/credentials/registration/state-registration",
+          "date": "Last updated 04 May 2026",
+          "whatItMeasured": "State-by-state professional-engineer registration requirements; phased mandatory implementation incl. WA building engineers (1 Jul 2027) and ACT (6 Mar 2025).",
+          "quote": "From 6 March 2025, all professional engineers providing professional engineering services in these areas of engineering must be registered."
+        }
+      ],
+      "scope": "Statutory registration in prescribed areas; applies to professional engineers including mining engineers. Sets competency/conduct standards. Population = AU professional engineers.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (EA); measures AU state registration; current to May 2026.",
+      "id": "17-2151-empi54"
+    },
+    {
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study (2025) finds augmentation generally outweighs automation for current Gen AI: professional and technical occupations skew towards augmentation, with automation potential concentrated in routine roles. Effects depend on adoption and workplace adaptation.",
+      "lane": "L2",
+      "tier": "scholarly-modelling",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition - Exposure (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "Task/occupation-level Gen AI augmentability/automatability across 358 ANZSCO occupations; 'Professional group skews towards augmentation.'",
+          "quote": "Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level potential, not observed job losses. Mining engineers inferred as skill-level-1 professionals in the high-augmentation band.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (JSA gov); measures AU occupations; published 2025.",
+      "id": "17-2151-empi55"
+    },
+    {
+      "text": "Engineers Australia's 2025 report on AI and generative technologies finds AI/GenAI has already transformed engineering businesses and the workforce and maps how the profession will evolve - relevant to mining engineers as a discipline within the profession.",
+      "lane": "L2",
+      "tier": "institutional-profession",
+      "sources": [
+        {
+          "publisher": "Engineers Australia",
+          "title": "The impact of AI and generative technologies on the engineering profession",
+          "url": "https://www.engineersaustralia.org.au/publications/impact-ai-and-generative-technologies-engineering-profession",
+          "date": "2025",
+          "whatItMeasured": "EA profession-wide study of AI/GenAI impact on engineering businesses and workforce and future evolution."
+        }
+      ],
+      "scope": "Profession-wide (all engineering disciplines, including mining). Adoption/positioning commentary, not a displacement forecast.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (EA); measures the engineering profession; 2025.",
+      "id": "17-2151-empi56"
+    },
+    {
+      "text": "Trade-press analysis (E&MJ, April 2025) reports AI is reshaping the mining value chain end to end - mineral exploration (BHP used ML to discover new copper deposits in Australia and the USA), predictive maintenance, autonomous haulage and remote operations. Rio Tinto's AutoHaul autonomous trains have travelled 7 million km since 2019 and its Pilbara iron-ore fleet includes 130+ autonomous trucks; S&P Global wrote it is 'nearly impossible to envision a significant-scale mining operation that does not incorporate technology'.",
+      "lane": "L3",
+      "tier": "trade-press",
+      "sources": [
+        {
+          "publisher": "Engineering & Mining Journal (E&MJ)",
+          "title": "AI: Bringing Mining Companies Closer to Their Data",
+          "url": "https://www.e-mj.com/features/ai-bringing-mining-companies-closer-to-their-data/",
+          "date": "2025-04",
+          "whatItMeasured": "Trade-press analysis of AI across the mining value chain (exploration, maintenance, autonomous/remote ops); cites BHP and Rio Tinto deployments.",
+          "quote": "Over the years, AI has helped BHP unlock potential value through multiple innovations, including predictive maintenance, energy optimization, autonomous vehicle and machinery operation, data-driven decision making and real-time monitoring and reporting."
+        }
+      ],
+      "scope": "Mining industry trade press; automation in mining is mature (autonomous haulage since the 2010s). Applies to mining engineers' operating context; not an Australian employment statistic for the occupation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (e-mj.com); measures AI adoption in mining; 2025. Industry trade press.",
+      "id": "17-2151-empi57"
     }
   ],
   "jobAds": {
@@ -1133,7 +1241,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-30",
+        "note": "OpenAthens session expired 2026-08-30; Factiva L3 trade-press lane unavailable. Gap logged, not evidence of quiet. Re-run scripts/factiva_reauth.py then scripts/factiva_backfill.py."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1176,5 +1292,8 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press lane unavailable this run (OpenAthens session expired 2026-08-30; logged to factiva_backlog.json, matching the same-date cron batch). L3 covered by web trade press / professional-body publications (Fictiv, E&MJ, Siemens, DroneDeploy) instead. L1/L2 sources are Australian regulatory/scholarly (Engineers Australia NER + state registration + EA 2025 AI report; JSA Gen AI Capacity Study) plus SSSI for surveying. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); L5 practitioner corpus (last30days) was already present from a prior run and preserved (MERGE, not overwritten). Confidence rests on >=2 L1/L2 claims plus the declared L5 corpus."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -1,33 +1,16 @@
-# Evidence log: Engineering Technicians, Except Drafters, All Other (17-3029)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log - 17-3029 Engineering Technicians, Except Drafters, All Other
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-30. Empirical five-lane run completed (L1/L2/L3 added this run; L4 Adzuna+LinkedIn and L5 last30days already present and preserved).
+Confidence: high. Claims admitted: 81. L1/L2 claims: 3. Declared L5 corpus: True.
 
-## Lane sources (one short quote per source)
+- **[L1] Engineers Australia** - https://www.engineersaustralia.org.au/credentials/registration/national-engineering-register
+  > Engineering Technicians (and Engineering Technologists) in Australia are covered by Engineers Australia's National Engineering Register (NER), which provides a national framework of registration for p
+- **[L2] Jobs and Skills Australia** - https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure
+  > Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them.
+- **[L2] Engineers Australia** - https://www.engineersaustralia.org.au/publications/impact-ai-and-generative-technologies-engineering-profession
+  > Engineers Australia's 2025 report on AI and generative technologies finds AI/GenAI has already transformed engineering businesses and the workforce and maps how the profession will evolve, relevant to
+- **[L3] Monograph** - https://monograph.com/blog/ai-cad-design-efficiency-intelligent-automation
+  > AI automation handles these repetitive tasks in seconds, freeing technical staff for higher-value design and engineering work.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Engineering Technicians, Except Drafters, All Other] Professional Practice Framework and Digital Competency Guidelines for Engineering Technicians, Except Drafters, All Other — https://www.psc.gov.au/standards/17-3029 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Engineering Technicians, Except Drafters, All Other enforce non-delegable ethical accountab..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Engineering Technicians, Except Drafters, All Other — https://www.jobsandskills.gov.au/research/17-3029 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Engineering Technicians, Except Drafters, All Other heightens the demand for adaptive problem solvin..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (67 claims)
-- last30days declared sample: 67 items across github=2, grounding=0, hackernews=24, reddit=6, x=22, youtube=3.
-- Representative practitioner quotes:
-  - [github] Gooncave eviction part one
-## About the PR
-Removes two of the "gooncave" jobs, chemist & atmos tech, and their uses.
-M...
-  - [github] [Session] Research software engineering: Between Service Provision and Research
-### Organizers
-
-Markus Konkol, 52°North ...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] Everybody's Weirded Out by AI–Except the People Who Foist It on Us...
-  - [hackernews] Everyone Is Wrong About AI Except Me...
+L5 practitioner-discourse corpus: last30days sweep over 180 days - see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape - see corpus.linkedin. L4 Adzuna time-series: see jobAds.

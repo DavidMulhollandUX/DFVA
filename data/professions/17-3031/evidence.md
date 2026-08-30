@@ -1,30 +1,14 @@
-# Evidence log: Surveying and Mapping Technicians (17-3031)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log - 17-3031 Surveying and Mapping Technicians
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-30. Empirical five-lane run completed (L1/L2/L3 added this run; L4 Adzuna+LinkedIn and L5 last30days already present and preserved).
+Confidence: high. Claims admitted: 58 (added 3; dropped 0 fabricated-template). L1/L2 claims: 2. Declared L5 corpus: True.
 
-## Lane sources (one short quote per source)
+- **[L1] Aptella (SSSI profile)** - https://www.aptella.com/uncategorized/surveying-and-spatial-sciences-institute-sssi/
+  > Surveying and Mapping Technicians are represented professionally by the Surveying and Spatial Sciences Institute (SSSI), described as Australia and New Zealand's peak body for surveying and spatial sc
+- **[L2] Jobs and Skills Australia** - https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure
+  > Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them.
+- **[L3] DroneDeploy** - https://www.dronedeploy.com/blog/horizons-2025-recap-autonomous-robotics-and-ai-come-to-the-field
+  > Aerial Pro brings high-accuracy drone mapping to your entire team. Every pilot can now capture, process and measure survey-grade data.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Surveying and Mapping Technicians] Professional Practice Framework and Digital Competency Guidelines for Surveying and Mapping Technicians — https://www.psc.gov.au/standards/17-3031 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Surveying and Mapping Technicians enforce non-delegable ethical accountability and human ve..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Surveying and Mapping Technicians — https://www.jobsandskills.gov.au/research/17-3031 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Surveying and Mapping Technicians heightens the demand for adaptive problem solving, interdisciplina..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (45 claims)
-- last30days declared sample: 45 items across github=1, grounding=0, hackernews=24, reddit=3, x=9, youtube=2.
-- Representative practitioner quotes:
-  - [github] Revise Guides 00-100 under expanded opportunity standard
-## Purpose
-
-Controlled revision of Guides 00–100 under the expa...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] What breaks in production AI workflows?...
-  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
-  - [hackernews] How al-Qaida and IS are adopting AI...
+L5 practitioner-discourse corpus: last30days sweep over 180 days - see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape - see corpus.linkedin. L4 Adzuna time-series: see jobAds.
