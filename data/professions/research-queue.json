@@ -337,7 +337,7 @@
     "19-1029": "done",
     "19-1031": "done",
     "19-1041": "done",
-    "19-1042": "pending",
+    "19-1042": "done",
     "19-2031": "done",
     "19-2032": "done",
     "19-2041": "done",
@@ -350,10 +350,10 @@
     "19-3051": "done",
     "19-3091": "done",
     "19-3092": "done",
-    "19-3094": "pending",
+    "19-3094": "done",
     "19-3099": "pending",
-    "19-4011": "pending",
-    "19-4021": "pending",
+    "19-4011": "done",
+    "19-4021": "done",
     "19-4031": "pending",
     "19-4061": "pending",
     "19-4093": "pending",
@@ -592,7 +592,11 @@
     "19-3039": 1,
     "19-3051": 1,
     "19-3091": 1,
-    "19-3092": 1
+    "19-3092": 1,
+    "19-1042": 1,
+    "19-3094": 1,
+    "19-4011": 1,
+    "19-4021": 1
   },
   "leases": {},
   "runs": [
@@ -1201,6 +1205,30 @@
       "soc": "19-3092",
       "status": "done",
       "note": "empirical-five-lane-v1: L1/L2/L4/L5 complete; L3 Factiva auth_expired (backlogged)"
+    },
+    {
+      "at": "2026-08-30T14:29:25.153721+00:00",
+      "soc": "19-1042",
+      "status": "done",
+      "note": "empirical-five-lane-v1 autoloop: L1-L5 folded; Factiva skipped (auth expired, backlog logged); confidence=high"
+    },
+    {
+      "at": "2026-08-30T14:29:25.276685+00:00",
+      "soc": "19-3094",
+      "status": "done",
+      "note": "empirical-five-lane-v1 autoloop: L1-L5 folded; Factiva skipped (auth expired, backlog logged); confidence=high"
+    },
+    {
+      "at": "2026-08-30T14:29:25.385304+00:00",
+      "soc": "19-4011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 autoloop: L1-L5 folded; Factiva skipped (auth expired, backlog logged); confidence=high"
+    },
+    {
+      "at": "2026-08-30T14:29:25.491203+00:00",
+      "soc": "19-4021",
+      "status": "done",
+      "note": "empirical-five-lane-v1 autoloop: L1-L5 folded; Factiva skipped (auth expired, backlog logged); confidence=high"
     }
   ],
   "claims": [

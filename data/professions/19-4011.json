@@ -8,341 +8,383 @@
     "Quality Control Officer"
   ],
   "anzsco": "220000",
-  "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
-  },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
   "programs": [],
+  "window": {
+    "from": "2025-08-31",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-03-01",
   "claims": [
     {
-      "id": "l503",
-      "text": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.\n\n\n\n\n# THE LAST PHYSICIAN\n\nIn the year 2115, humanity has achieved what previous generations believed impossible.\n\nDisease has been conquered. Cancer, dementia, heart failure, sepsis, and countless other k\nAbsolutely—this has the bones of a very strong near-future thriller. The concept already feels cinematic, high-stakes, and thematically rich. What it needs is a bit more structure …",
+      "id": "l401",
+      "text": "Agronomy Field Coordinator - Mount Gambier \u2014 PepsiCo (Tarpeena, South Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "PepsiCo",
+          "title": "Agronomy Field Coordinator - Mount Gambier",
+          "url": "https://www.linkedin.com/jobs/view/4453422973",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l402",
+      "text": "Animal Health Technician - Animal Health Team \u2014 Tassal Group (Margate, Tasmania, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Tassal Group",
+          "title": "Animal Health Technician - Animal Health Team",
+          "url": "https://www.linkedin.com/jobs/view/4456093922",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l403",
+      "text": "Feed Technician \u2014 Tassal Group (Hobart, Tasmania, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Tassal Group",
+          "title": "Feed Technician",
+          "url": "https://www.linkedin.com/jobs/view/4457446226",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l404",
+      "text": "Technical Officer - Agricultural Instruction - Cattle - General Farm \u2014 Department of Education, Western Australia (Fitzroy Crossing, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education, Western Australia",
+          "title": "Technical Officer - Agricultural Instruction - Cattle - General Farm",
+          "url": "https://www.linkedin.com/jobs/view/4454248996",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l405",
+      "text": "Cultivation Technician \u2014 Austranna (Ipswich, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Austranna",
+          "title": "Cultivation Technician",
+          "url": "https://www.linkedin.com/jobs/view/4452207923",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "Field Data Officer &amp;#8211; Moama \u2014 AGnVET (Moama, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "AGnVET",
+          "title": "Field Data Officer &amp;#8211; Moama",
+          "url": "https://www.linkedin.com/jobs/view/4449053323",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Senior Vineyard Operator \u2014 winejobsonline.com (Margaret River, Western Australia, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "winejobsonline.com",
+          "title": "Senior Vineyard Operator",
+          "url": "https://www.linkedin.com/jobs/view/4456926928",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "Senior Farm Hand \u2014 University of Tasmania (Burnie, Tasmania, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "University of Tasmania",
+          "title": "Senior Farm Hand",
+          "url": "https://www.linkedin.com/jobs/view/4454168746",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Aquaculture Technician \u2014 CSIRO (Darwin, Northern Territory, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "CSIRO",
+          "title": "Aquaculture Technician",
+          "url": "https://www.linkedin.com/jobs/view/4450314076",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Revegetation Support Officer \u2013 North-West Vic \u2014 Cassinia Environmental (Mildura, Victoria, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cassinia Environmental",
+          "title": "Revegetation Support Officer \u2013 North-West Vic",
+          "url": "https://www.linkedin.com/jobs/view/4457658854",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l101",
+      "text": "VETASSESS is the assessing authority for Agricultural Technician (ANZSCO 311111), a Skill Level 2 occupation (AQF Diploma or higher).",
+      "lane": "L1",
+      "tier": "regulatory-standards",
+      "sources": [
+        {
+          "publisher": "VETASSESS",
+          "title": "Agricultural Technician ANZSCO 311111 information sheet",
+          "url": "https://vetassess.com.au/information-sheet/256/2013-anzsco",
+          "date": "2026",
+          "whatItMeasured": "VETASSESS skills-assessment authority statement for 311111"
+        }
+      ],
+      "scope": "Migration skills assessment; not a domestic practising licence.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Refuted by default-until-overturned check: source real & dated; measures this AU population; within 12-mo window. 2 of 3 lenses fail to overturn."
+    },
+    {
+      "id": "l102",
+      "text": "ANZSCO 311112 Agricultural and Agritech Technician was added to the Core Skills Occupation List in Dec 2024 to recognise precision agriculture, virtual fencing and automated-milking specialists; relevant regulators include APVMA (ag-vet chemicals), FSANZ (food standards) and DAFF.",
+      "lane": "L1",
+      "tier": "regulatory-standards",
+      "sources": [
+        {
+          "publisher": "Australian Visa Online",
+          "title": "Agricultural and Agritech Technician Visa Pathway Australia 2026",
+          "url": "https://australianvisaonline.com/occupations/agricultural-and-agritech-technician-visa-pathway-australia",
+          "date": "2026",
+          "whatItMeasured": "CSOL addition of ANZSCO 311112 (Dec 2024)"
+        }
+      ],
+      "scope": "Independent guide, not government; CSOL change is the verifiable fact.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Refuted by default-until-overturned check: source real & dated; measures this AU population; within 12-mo window. 2 of 3 lenses fail to overturn."
+    },
+    {
+      "id": "l103",
+      "text": "Agricultural and food testing laboratories are accredited by NATA to ISO/IEC 17025; TGA regulates agricultural/ veterinary IVDs.",
+      "lane": "L1",
+      "tier": "regulatory-standards",
+      "sources": [
+        {
+          "publisher": "NATA",
+          "title": "ISO/IEC 17025 Application Document",
+          "url": "https://nata.com.au/files/2026/02/ISOIEC-17025-Application-Document-Effective-May26.pdf",
+          "date": "2026-05",
+          "whatItMeasured": "NATA accreditation criteria for testing labs (ISO/IEC 17025)"
+        }
+      ],
+      "scope": "Binds lab quality systems, not individual technician registration.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Refuted by default-until-overturned check: source real & dated; measures this AU population; within 12-mo window. 2 of 3 lenses fail to overturn."
+    },
+    {
+      "id": "l201",
+      "text": "JSA's Gen AI Capacity Study (Aug 2025) places agriculture among lower-exposure occupations (physical, on-farm work), while noting agribusiness back-office roles (clerks, logistics, bookkeeping) are highly exposed. Occupation-specific ANZSCO 311111 exposure is in JSA's occupation-data release.",
+      "lane": "L2",
+      "tier": "scholarly-institutional",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Implications for Work and Skills",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-14",
+          "whatItMeasured": "JSA whole-of-market GenAI exposure study"
+        }
+      ],
+      "scope": "Whole-of-market finding; Agricultural Technician (311111) specific score in JSA occupation-data release.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Refuted by default-until-overturned check: source real & dated; measures this AU population; within 12-mo window. 2 of 3 lenses fail to overturn."
+    },
+    {
+      "id": "l301",
+      "text": "A 2025 Grain Producers Australia survey of 207 grain growers found growers already using autonomous/semi-autonomous machinery named productivity (73%) and time savings (65%) as top benefits; barriers were affordability (52%) and poor rural connectivity.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "LocalAg",
+          "title": "Autonomous Tractors in Australia: Are They Worth The Investment Yet",
+          "url": "https://localag.com.au/blog/autonomous-tractors-in-australia-are-they-worth-the-investment-yet",
+          "date": "2025",
+          "whatItMeasured": "GPA national survey of autonomous farm machinery adoption (n=207)"
+        }
+      ],
+      "scope": "Grower survey; reflects farm-business adoption, a demand signal for agritech technician skills, not displacement.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Refuted by default-until-overturned check: source real & dated; measures this AU population; within 12-mo window. 2 of 3 lenses fail to overturn."
+    },
+    {
+      "id": "l302",
+      "text": "GRDC's Grain Automate initiative targets 80% of Australian grain growers equipped with the skills, data and governance to integrate autonomous field machinery by 2028.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ARAIN",
+          "title": "Grain Automate and the long road to autonomous farming in Australia",
+          "url": "https://arain.com.au/insights/grain-automate-autonomous-farming-reality",
+          "date": "2026-04",
+          "whatItMeasured": "GRDC Grain Automate adoption target (by 2028)"
+        }
+      ],
+      "scope": "Industry-target statement; signals rising demand for autonomous-machinery support skills.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Refuted by default-until-overturned check: source real & dated; measures this AU population; within 12-mo window. 2 of 3 lenses fail to overturn."
+    },
+    {
+      "id": "l303",
+      "text": "Analysis (Jul 2026) finds on-farm physical agricultural work among the safest from generative AI while agribusiness back-office roles (clerks, logistics, bookkeeping) are among the most exposed in the economy.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Episode3",
+          "title": "AI is coming for farming, just not the paddock you're watching",
+          "url": "https://episode3.net/conversations/ai-is-coming-for-farming-just-not-the-paddock-youre-watching",
+          "date": "2026-07",
+          "whatItMeasured": "Trade-press analysis of GenAI exposure across agribusiness"
+        }
+      ],
+      "scope": "Whole-economy exposure framing applied to agriculture; not a technician-specific displacement claim.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Refuted by default-until-overturned check: source real & dated; measures this AU population; within 12-mo window. 2 of 3 lenses fail to overturn."
+    },
+    {
+      "id": "l518",
+      "text": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.\n\n\n\n\n# THE LAST PHYSICIAN\n\nIn the year 2115, humanity has achieved what previous generations believed impossible.\n\nDisease has been conquered. Cancer, dementia, heart failure, sepsis, and countless other k\nAbsolutely\u2014this has the bones of a very strong near-future thriller. The concept already feels cinematic, high-stakes, and thematically rich. What it needs is a bit more structure \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical…",
+          "title": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical\u2026",
           "url": "https://github.com/badbeaver88/game/issues/19",
           "date": "2026-06-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l504",
-      "text": "Tell HN: Man, AI is killing my brain",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Tell HN: Man, AI is killing my brain",
-          "url": "https://news.ycombinator.com/item?id=49468252",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l505",
-      "text": "AI for science needs reasoning, not just data",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "AI for science needs reasoning, not just data",
-          "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
-          "date": "2026-08-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l506",
-      "text": "What breaks in production AI workflows?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "What breaks in production AI workflows?",
-          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l507",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l508",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-          "url": "https://isaidumber.today/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l509",
-      "text": "How al-Qaida and IS are adopting AI",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "How al-Qaida and IS are adopting AI",
-          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l510",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-          "url": "https://news.ycombinator.com/item?id=48672619",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l511",
-      "text": "The death of AI workflow builders",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "The death of AI workflow builders",
-          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l512",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-          "url": "https://www.contextvault.dev/",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l513",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-          "url": "https://argonix.io/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l514",
-      "text": "What is agentic AI today, and what do we want it to be?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "What is agentic AI today, and what do we want it to be?",
-          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-          "date": "2026-07-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l515",
-      "text": "My AI-Assisted Workflow",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "My AI-Assisted Workflow",
-          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
-          "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l516",
-      "text": "AI Workflows Need Topological Sort",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "AI Workflows Need Topological Sort",
-          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
-          "date": "2026-06-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l517",
-      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l518",
-      "text": "AI workflows: an industry optimising the wrong variables",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "AI workflows: an industry optimising the wrong variables",
-          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
-          "date": "2026-05-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -354,16 +396,16 @@
     },
     {
       "id": "l519",
-      "text": "The weather and climate science AI revolution isn't revolutionary",
+      "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The weather and climate science AI revolution isn't revolutionary",
-          "url": "https://arstechnica.com/science/2026/06/the-weather-and-climate-science-ai-revolution-isnt-revolutionary/",
-          "date": "2026-06-08",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -375,16 +417,16 @@
     },
     {
       "id": "l520",
-      "text": "Show HN: AI Workflow Builder App Template for React",
+      "text": "AI for science needs reasoning, not just data",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: AI Workflow Builder App Template for React",
-          "url": "https://www.jointjs.com/demos/ai-workflow-builder",
-          "date": "2026-07-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "AI for science needs reasoning, not just data",
+          "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -396,16 +438,16 @@
     },
     {
       "id": "l521",
-      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
+      "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
-          "url": "https://github.com/bartwojtowicz/videopython",
-          "date": "2026-06-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -417,16 +459,16 @@
     },
     {
       "id": "l522",
-      "text": "Ask HK: How are you building AI apps today?",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HK: How are you building AI apps today?",
-          "url": "https://news.ycombinator.com/item?id=48323554",
-          "date": "2026-05-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -438,16 +480,16 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
-          "url": "https://blocks.ai",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -459,16 +501,16 @@
     },
     {
       "id": "l524",
-      "text": "The Problem with AI Today",
+      "text": "How al-Qaida and IS are adopting AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The Problem with AI Today",
-          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
-          "date": "2026-05-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -480,16 +522,16 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-          "url": "https://github.com/kontext-dev/kontext-cli",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -501,16 +543,16 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
-          "url": "https://theincidentchallenge.com/",
-          "date": "2026-05-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -522,16 +564,16 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
-          "url": "https://news.ycombinator.com/item?id=47590261",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -543,16 +585,16 @@
     },
     {
       "id": "l528",
-      "text": "As a UF Student and NVIDIA Intern, I’m Using Agricultural AI to Help Transform Global Food Production\n&#32; submitted by &#32; /u/EarthEmail &#32; to &#32; r/EnvironmentalNews [link] &#32; [comments]",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "As a UF Student and NVIDIA Intern, I’m Using Agricultural AI to Help Transform G…",
-          "url": "https://www.reddit.com/r/EnvironmentalNews/comments/1vttu94/as_a_uf_student_and_nvidia_intern_im_using/",
-          "date": "2026-08-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -564,16 +606,16 @@
     },
     {
       "id": "l529",
-      "text": "Can anyone tell me the scope of Bsc in sericulture/community science/ food nutrition and dietetics under Assam Agricultural University? Also what are the job propsects in the respective fields and higher studies?\nAlso if anyone is from aau or overall know anything about aau fields can anyone help? &#32; submitted by &#32; /u/TheLimitlessVOID2 &#32; to &#32; r/assam [link] &#32; [comments]\nPlease hohai koribo parile 🙏",
+      "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Can anyone tell me the scope of Bsc in sericulture/community science/ food nutri…",
-          "url": "https://www.reddit.com/r/assam/comments/1vh8ca4/can_anyone_tell_me_the_scope_of_bsc_in/",
-          "date": "2026-08-06",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -585,16 +627,16 @@
     },
     {
       "id": "l530",
-      "text": "AI in Agricultural and Life Sciences URGENT QUESTION\nhas anyone taken this class with Raquel Dias? what is it like, is it difficult? how is the professor? is there programming knowledge required/involved? what was your experience like in this class? any insight or resources would be helpful. &#32; submitted by &#32; /u/Intelligent-Deal8165 &#32; to &#32; r/ufl [link] &#32; [comments]",
+      "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "AI in Agricultural and Life Sciences URGENT QUESTION\nhas anyone taken this class…",
-          "url": "https://www.reddit.com/r/ufl/comments/1vzg7br/ai_in_agricultural_and_life_sciences_urgent/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -606,16 +648,16 @@
     },
     {
       "id": "l531",
-      "text": "AI Is Leaving the Screen",
+      "text": "AI Workflows Need Topological Sort",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "AI Is Leaving the Screen",
-          "url": "https://x.com/Prompt_ProfitAI/status/2082855999107367285",
-          "date": "2026-07-30",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -627,16 +669,16 @@
     },
     {
       "id": "l532",
-      "text": "The K-Shaped Economy: Why AI Will Split Creators From Consumers",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The K-Shaped Economy: Why AI Will Split Creators From Consumers",
-          "url": "https://x.com/samweinstein/status/2083680215054667788",
-          "date": "2026-08-01",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -648,16 +690,16 @@
     },
     {
       "id": "l533",
-      "text": "Over the past few days, during the ongoing Assembly session, both #TVKVijay and its alliance partners, as well as #AIADMK and its alliance partners, have been actively raising issues concerning the people. They have been discussing public welfare schemes, development initiatives, and the problems faced by ordinary citizens. However, the #DMK, on the other hand, appears to be focusing mainly on creating noise and disruptions, engaging in confrontations, and doing everything possible to stop the p",
+      "text": "AI workflows: an industry optimising the wrong variables",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Over the past few days, during the ongoing Assembly session, both #TVKVijay and …",
-          "url": "https://x.com/chnmharish/status/2093345046246592976",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -669,16 +711,16 @@
     },
     {
       "id": "l534",
-      "text": "Every video emerging from Nepal is somehow even scarier than the last. A peaceful valley under a bright, completely normal sky — then a wall of water, mud and ice just erases everything in its path.\n\nThis is exactly why we urgently need purpose-built AI models for the Himalayas: ones that continuously fuse satellite imagery, InSAR, seismic signals, glacier thickness, permafrost thaw and river gauges to detect collapse precursors and give communities even 20–40 minutes of warning. These events ar",
+      "text": "The weather and climate science AI revolution isn't revolutionary",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Every video emerging from Nepal is somehow even scarier than the last. A peacefu…",
-          "url": "https://x.com/nithinpalal/status/2093374571173056730",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "The weather and climate science AI revolution isn't revolutionary",
+          "url": "https://arstechnica.com/science/2026/06/the-weather-and-climate-science-ai-revolution-isnt-revolutionary/",
+          "date": "2026-06-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -690,16 +732,16 @@
     },
     {
       "id": "l535",
-      "text": "Philosophy sets the destination. Enforcement is the road, the budget, and the people who actually have to drive it.\n\nUAE treated AI ethics as infrastructure, not a conference talking point. Egypt is still fighting over the basics of R&D funding. That’s not a philosophy problem. That’s a capacity and priority problem.\n\nPanels are cheap. Building the institutions that can actually say no to an algorithm is expensive.",
+      "text": "Show HN: AI Workflow Builder App Template for React",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Philosophy sets the destination. Enforcement is the road, the budget, and the pe…",
-          "url": "https://x.com/nithinpalal/status/2092899545399324997",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: AI Workflow Builder App Template for React",
+          "url": "https://www.jointjs.com/demos/ai-workflow-builder",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -711,16 +753,16 @@
     },
     {
       "id": "l536",
-      "text": "@nithinpalal Philosophy's easy. Enforcement is hard. UAE tied AI ethics to actual policy years ago. Egypt still can't fund basic R&amp;D. Just sat through too many panels to pretend otherwise.",
+      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "@nithinpalal Philosophy's easy. Enforcement is hard. UAE tied AI ethics to actua…",
-          "url": "https://x.com/Rami_Bball_Fan/status/2092897992416149875",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "url": "https://github.com/bartwojtowicz/videopython",
+          "date": "2026-06-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -732,16 +774,16 @@
     },
     {
       "id": "l537",
-      "text": "Not Dolly! 😭",
+      "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Not Dolly! 😭",
-          "url": "https://x.com/theashrb/status/2093011578664718628",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -753,16 +795,16 @@
     },
     {
       "id": "l538",
-      "text": "ICYMI O/N\n\nMACRO:\n\nAsian tech stocks slumped, as investors used Samsung Electronics Co.’s results to lock in profits on a stellar year-to-date chip rally, rotating into unloved sectors less prone to earnings shocks. (WSJ)\n\nWalmart is cutting prices on thousands of items to help customers with affordability after years of inflation. The effort drew praise from President Trump, who hailed it in a social-media post as “a huge deal.” (WSJ)\n\n'AI Giants Are Handing Out Tons of Free Computing Power to",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "ICYMI O/N\n\nMACRO:\n\nAsian tech stocks slumped, as investors used Samsung Electron…",
-          "url": "https://x.com/ZackEiseman/status/2074417696746184723",
-          "date": "2026-07-07",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -774,16 +816,16 @@
     },
     {
       "id": "l539",
-      "text": "The Cockroach Janta Party is gearing up for its next course of action by raising local issues across Tamilnadu. The party is currently working at a rapid pace to prepare for its upcoming moves. #CockroachJantaParty #CJP https://t.co/LEzeLCdhr3",
+      "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The Cockroach Janta Party is gearing up for its next course of action by raising…",
-          "url": "https://x.com/chnmharish/status/2093372039444984160",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -795,16 +837,16 @@
     },
     {
       "id": "l540",
-      "text": "Exactly that lol work hard and play harder",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Exactly that lol work hard and play harder",
-          "url": "https://x.com/theashrb/status/2093192146748657806",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -816,16 +858,16 @@
     },
     {
       "id": "l541",
-      "text": "@nithinpalal @anilkantony @BJP4India @NitinNabin @narendramodi @mansukhmandviya @rajnathsingh @smritiirani @Stanford @StanfordAILab I’m trying my best and they leave no choice with decisions being made so superficial that instead of strengthening end up exposing intelligence that is artificial and thereby consequences we will have to bear if not addressed immediately",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "@nithinpalal @anilkantony @BJP4India @NitinNabin @narendramodi @mansukhmandviya …",
-          "url": "https://x.com/mbajaj20/status/2091760055599374755",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -837,16 +879,16 @@
     },
     {
       "id": "l542",
-      "text": "I just had THE best Pastei de Nata in Madrid omds… that was truly an out of body experience.",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "I just had THE best Pastei de Nata in Madrid omds… that was truly an out of body…",
-          "url": "https://x.com/theashrb/status/2093300688126202054",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -858,16 +900,16 @@
     },
     {
       "id": "l543",
-      "text": "Freedom is not the right to flatten every space into one. It is the intelligence to know which room you have entered.\n\nA beach has a grammar. An office has another. Eid, in this video, has one so non-negotiable that the question itself is treated as a threat. Hindu festivals and temples, meanwhile, are expected to absorb every experiment, every neckline, every branding exercise — and then apologise for having a memory.\n\nSanatana never said the body is sin. It said every space has dharma. What is",
+      "text": "As a UF Student and NVIDIA Intern, I\u2019m Using Agricultural AI to Help Transform Global Food Production\n&#32; submitted by &#32; /u/EarthEmail &#32; to &#32; r/EnvironmentalNews [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Freedom is not the right to flatten every space into one. It is the intelligence…",
-          "url": "https://x.com/nithinpalal/status/2093370433634787475",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "As a UF Student and NVIDIA Intern, I\u2019m Using Agricultural AI to Help Transform G\u2026",
+          "url": "https://www.reddit.com/r/EnvironmentalNews/comments/1vttu94/as_a_uf_student_and_nvidia_intern_im_using/",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -879,16 +921,16 @@
     },
     {
       "id": "l544",
-      "text": "Washing down a calorific meal with (pretty much) even more calories than you just ate 😭😭😭",
+      "text": "Can anyone tell me the scope of Bsc in sericulture/community science/ food nutrition and dietetics under Assam Agricultural University? Also what are the job propsects in the respective fields and higher studies?\nAlso if anyone is from aau or overall know anything about aau fields can anyone help? &#32; submitted by &#32; /u/TheLimitlessVOID2 &#32; to &#32; r/assam [link] &#32; [comments]\nPlease hohai koribo parile \ud83d\ude4f",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Washing down a calorific meal with (pretty much) even more calories than you jus…",
-          "url": "https://x.com/theashrb/status/2093453693748187446",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "Can anyone tell me the scope of Bsc in sericulture/community science/ food nutri\u2026",
+          "url": "https://www.reddit.com/r/assam/comments/1vh8ca4/can_anyone_tell_me_the_scope_of_bsc_in/",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -900,16 +942,16 @@
     },
     {
       "id": "l545",
-      "text": "Alcohol, stress, backed up digestive systems, the list goes on 😂",
+      "text": "AI in Agricultural and Life Sciences URGENT QUESTION\nhas anyone taken this class with Raquel Dias? what is it like, is it difficult? how is the professor? is there programming knowledge required/involved? what was your experience like in this class? any insight or resources would be helpful. &#32; submitted by &#32; /u/Intelligent-Deal8165 &#32; to &#32; r/ufl [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Alcohol, stress, backed up digestive systems, the list goes on 😂",
-          "url": "https://x.com/theashrb/status/2093460755156709718",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "AI in Agricultural and Life Sciences URGENT QUESTION\nhas anyone taken this class\u2026",
+          "url": "https://www.reddit.com/r/ufl/comments/1vzg7br/ai_in_agricultural_and_life_sciences_urgent/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -921,16 +963,16 @@
     },
     {
       "id": "l546",
-      "text": "Recycled nudes lmaooooo",
+      "text": "AI Is Leaving the Screen",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Recycled nudes lmaooooo",
-          "url": "https://x.com/theashrb/status/2093030002564444295",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "AI Is Leaving the Screen",
+          "url": "https://x.com/Prompt_ProfitAI/status/2082855999107367285",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -942,16 +984,16 @@
     },
     {
       "id": "l547",
-      "text": "Remembering the Dalit leader of modern Keralam, Mahatma Ayyankali on his 163rd birth anniversary ❤️ #Ayyankali #Dalits https://t.co/P8ElTZG3Nz",
+      "text": "The K-Shaped Economy: Why AI Will Split Creators From Consumers",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Remembering the Dalit leader of modern Keralam, Mahatma Ayyankali on his 163rd b…",
-          "url": "https://x.com/chnmharish/status/2093217772797116807",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The K-Shaped Economy: Why AI Will Split Creators From Consumers",
+          "url": "https://x.com/samweinstein/status/2083680215054667788",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -963,16 +1005,16 @@
     },
     {
       "id": "l548",
-      "text": "@RmvBalaji It's there. The color has changed slightly because some work was done on the image's color. you can see it if you look closely, near the left shoulder.",
+      "text": "Over the past few days, during the ongoing Assembly session, both #TVKVijay and its alliance partners, as well as #AIADMK and its alliance partners, have been actively raising issues concerning the people. They have been discussing public welfare schemes, development initiatives, and the problems faced by ordinary citizens. However, the #DMK, on the other hand, appears to be focusing mainly on creating noise and disruptions, engaging in confrontations, and doing everything possible to stop the p",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@RmvBalaji It's there. The color has changed slightly because some work was done…",
-          "url": "https://x.com/chnmharish/status/2093085523745423751",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Over the past few days, during the ongoing Assembly session, both #TVKVijay and \u2026",
+          "url": "https://x.com/chnmharish/status/2093345046246592976",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -984,16 +1026,16 @@
     },
     {
       "id": "l549",
-      "text": "That's a good article by @YashaviniE. #Uvakai has stated that Tamil Nadu can pursue its $1.5 trillion economic target without treating the proposed #ParandurAirport as an immediate necessity, given that existing airport capacity remains underutilised and other infrastructure and transport options can support future growth. The article explains this well, highlighting the need to make better use of existing aviation infrastructure and explore alternative transport options before establishing the",
+      "text": "Every video emerging from Nepal is somehow even scarier than the last. A peaceful valley under a bright, completely normal sky \u2014 then a wall of water, mud and ice just erases everything in its path.\n\nThis is exactly why we urgently need purpose-built AI models for the Himalayas: ones that continuously fuse satellite imagery, InSAR, seismic signals, glacier thickness, permafrost thaw and river gauges to detect collapse precursors and give communities even 20\u201340 minutes of warning. These events ar",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "That's a good article by @YashaviniE. #Uvakai has stated that Tamil Nadu can pur…",
-          "url": "https://x.com/chnmharish/status/2093409353869230567",
+          "title": "Every video emerging from Nepal is somehow even scarier than the last. A peacefu\u2026",
+          "url": "https://x.com/nithinpalal/status/2093374571173056730",
           "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1005,16 +1047,16 @@
     },
     {
       "id": "l550",
-      "text": "The Discipline of Power: Economics, Resilience, Optionality, and the Civilisational Art of Choice",
+      "text": "Philosophy sets the destination. Enforcement is the road, the budget, and the people who actually have to drive it.\n\nUAE treated AI ethics as infrastructure, not a conference talking point. Egypt is still fighting over the basics of R&D funding. That\u2019s not a philosophy problem. That\u2019s a capacity and priority problem.\n\nPanels are cheap. Building the institutions that can actually say no to an algorithm is expensive.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Discipline of Power: Economics, Resilience, Optionality, and the Civilisatio…",
-          "url": "https://x.com/nithinpalal/status/2088144717708136625",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Philosophy sets the destination. Enforcement is the road, the budget, and the pe\u2026",
+          "url": "https://x.com/nithinpalal/status/2092899545399324997",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1026,16 +1068,16 @@
     },
     {
       "id": "l551",
-      "text": "The argument treats intelligence as an unlimited good whose only constraint is energy supply. That assumption is itself a metaphysical claim, not an empirical one.\n\nMore tokens do not automatically produce more wisdom, more alignment, or more human flourishing. They can equally produce more noise, more optimisation toward narrow goals, and more concentration of power in whoever controls the cheapest electrons.\n\nBiological intelligence evolved under severe energetic and mortality constraints; tho",
+      "text": "@nithinpalal Philosophy's easy. Enforcement is hard. UAE tied AI ethics to actual policy years ago. Egypt still can't fund basic R&amp;D. Just sat through too many panels to pretend otherwise.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The argument treats intelligence as an unlimited good whose only constraint is e…",
-          "url": "https://x.com/nithinpalal/status/2093005138151809358",
+          "title": "@nithinpalal Philosophy's easy. Enforcement is hard. UAE tied AI ethics to actua\u2026",
+          "url": "https://x.com/Rami_Bball_Fan/status/2092897992416149875",
           "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1047,16 +1089,16 @@
     },
     {
       "id": "l552",
-      "text": "@chnmharish Who cares bro ! We knew DMK is behind the scene.",
+      "text": "Not Dolly! \ud83d\ude2d",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@chnmharish Who cares bro ! We knew DMK is behind the scene.",
-          "url": "https://x.com/Balumuthaiya_A/status/2093398202753884495",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Not Dolly! \ud83d\ude2d",
+          "url": "https://x.com/theashrb/status/2093011578664718628",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1068,16 +1110,16 @@
     },
     {
       "id": "l553",
-      "text": "😍😍😍😍",
+      "text": "ICYMI O/N\n\nMACRO:\n\nAsian tech stocks slumped, as investors used Samsung Electronics Co.\u2019s results to lock in profits on a stellar year-to-date chip rally, rotating into unloved sectors less prone to earnings shocks. (WSJ)\n\nWalmart is cutting prices on thousands of items to help customers with affordability after years of inflation.\u00a0The effort drew praise from President Trump, who hailed it in a social-media post as \u201ca huge deal.\u201d (WSJ)\n\n'AI Giants Are Handing Out Tons of Free Computing Power to",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "😍😍😍😍",
-          "url": "https://x.com/theashrb/status/2093148203948408895",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "ICYMI O/N\n\nMACRO:\n\nAsian tech stocks slumped, as investors used Samsung Electron\u2026",
+          "url": "https://x.com/ZackEiseman/status/2074417696746184723",
+          "date": "2026-07-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1089,16 +1131,16 @@
     },
     {
       "id": "l554",
-      "text": "@chnmharish Shows how inclined and biased you've changed nowadays \n1. EPS\n2. EV Velu\n3. Udhay\n4. Sowmiya Ramdoss\n5. SPV\n6. Adhav\n7. CVS",
+      "text": "The Cockroach Janta Party is gearing up for its next course of action by raising local issues across Tamilnadu. The party is currently working at a rapid pace to prepare for its upcoming moves. #CockroachJantaParty #CJP https://t.co/LEzeLCdhr3",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@chnmharish Shows how inclined and biased you've changed nowadays \n1. EPS\n2. EV …",
-          "url": "https://x.com/draju_tarun/status/2093395204128821361",
+          "title": "The Cockroach Janta Party is gearing up for its next course of action by raising\u2026",
+          "url": "https://x.com/chnmharish/status/2093372039444984160",
           "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1110,16 +1152,16 @@
     },
     {
       "id": "l555",
-      "text": "The Algorithmic Manor (Article 1 of 3)",
+      "text": "Exactly that lol work hard and play harder",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Algorithmic Manor (Article 1 of 3)",
-          "url": "https://x.com/theashrb/status/2065764385293738227",
-          "date": "2026-06-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Exactly that lol work hard and play harder",
+          "url": "https://x.com/theashrb/status/2093192146748657806",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1131,16 +1173,16 @@
     },
     {
       "id": "l556",
-      "text": "@nithinpalal @RahulGandhi With 2 terms of BJP and third in progress should you not ask these questions to Modi?",
+      "text": "@nithinpalal @anilkantony @BJP4India @NitinNabin @narendramodi @mansukhmandviya @rajnathsingh @smritiirani @Stanford @StanfordAILab I\u2019m trying my best and they leave no choice with decisions being made so superficial that instead of strengthening end up exposing intelligence that is artificial and thereby consequences we will have to bear if not addressed immediately",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@nithinpalal @RahulGandhi With 2 terms of BJP and third in progress should you n…",
-          "url": "https://x.com/Bsrikschennai/status/2090428173381189729",
-          "date": "2026-08-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@nithinpalal @anilkantony @BJP4India @NitinNabin @narendramodi @mansukhmandviya \u2026",
+          "url": "https://x.com/mbajaj20/status/2091760055599374755",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1152,16 +1194,16 @@
     },
     {
       "id": "l557",
-      "text": "Tamilnadu Revised Budget Estimates 2026 - 2027: My Views (Part 1)",
+      "text": "I just had THE best Pastei de Nata in Madrid omds\u2026 that was truly an out of body experience.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Tamilnadu Revised Budget Estimates 2026 - 2027: My Views (Part 1)",
-          "url": "https://x.com/chnmharish/status/2085229403177676903",
-          "date": "2026-08-06",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "I just had THE best Pastei de Nata in Madrid omds\u2026 that was truly an out of body\u2026",
+          "url": "https://x.com/theashrb/status/2093300688126202054",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1173,16 +1215,16 @@
     },
     {
       "id": "l558",
-      "text": "@rravik என்னுடைய எதிர்ப்பு எடப்பாடியாருக்கு எதிரானது இல்லை, அவரது அமைதிக்கு எதிரானது. எதிர்ப்பு காட்டும் யாரும், டாப் 5ல் எதிர்ப்பவரை கொண்டுவந்து நிறுத்தமாட்டார்கள்.",
+      "text": "Freedom is not the right to flatten every space into one. It is the intelligence to know which room you have entered.\n\nA beach has a grammar. An office has another. Eid, in this video, has one so non-negotiable that the question itself is treated as a threat. Hindu festivals and temples, meanwhile, are expected to absorb every experiment, every neckline, every branding exercise \u2014 and then apologise for having a memory.\n\nSanatana never said the body is sin. It said every space has dharma. What is",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@rravik என்னுடைய எதிர்ப்பு எடப்பாடியாருக்கு எதிரானது இல்லை, அவரது அமைதிக்கு எதிர…",
-          "url": "https://x.com/chnmharish/status/2093349194119757841",
+          "title": "Freedom is not the right to flatten every space into one. It is the intelligence\u2026",
+          "url": "https://x.com/nithinpalal/status/2093370433634787475",
           "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1194,16 +1236,16 @@
     },
     {
       "id": "l559",
-      "text": "@i_mika_el This is the part most people skip. Values that live only in the founder’s head or the early team’s Slack disappear the moment those people leave or get outvoted. The system has to make the shortcut expensive even when no one who originally cared is still in the room.",
+      "text": "Washing down a calorific meal with (pretty much) even more calories than you just ate \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@i_mika_el This is the part most people skip. Values that live only in the found…",
-          "url": "https://x.com/nithinpalal/status/2092900041078059142",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Washing down a calorific meal with (pretty much) even more calories than you jus\u2026",
+          "url": "https://x.com/theashrb/status/2093453693748187446",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1215,16 +1257,16 @@
     },
     {
       "id": "l560",
-      "text": "@SundaramMa16369 பூணூலை அணியும் போது, அதன் பிரம்ம முடிச்சு மேல்நோக்கி இருக்குமாறு வலது கையில் பிடித்துக்கொண்டு, அதன் கீழ்ப்பகுதியை இடது கையில், பஞ்சபாத்திரத்தின் மீது வைத்து பிடித்துக்கொண்டு, யக்ஞோபவீதம் பரமம் பவித்ரம் என்கிற மந்திரத்தை உச்சரித்தபடி, இடது தோள் வழியாக பூணூலை அணிய வேண்டும்.",
+      "text": "Alcohol, stress, backed up digestive systems, the list goes on \ud83d\ude02",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@SundaramMa16369 பூணூலை அணியும் போது, அதன் பிரம்ம முடிச்சு மேல்நோக்கி இருக்குமாற…",
-          "url": "https://x.com/chnmharish/status/2093084227998978081",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Alcohol, stress, backed up digestive systems, the list goes on \ud83d\ude02",
+          "url": "https://x.com/theashrb/status/2093460755156709718",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1236,16 +1278,16 @@
     },
     {
       "id": "l561",
-      "text": "DIMĀGĪ SANĀTANĪ: The Architecture of Durability",
+      "text": "Recycled nudes lmaooooo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "DIMĀGĪ SANĀTANĪ: The Architecture of Durability",
-          "url": "https://x.com/nithinpalal/status/2093194914167480510",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Recycled nudes lmaooooo",
+          "url": "https://x.com/theashrb/status/2093030002564444295",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1257,16 +1299,16 @@
     },
     {
       "id": "l562",
-      "text": "Madrid is always a good time 😍",
+      "text": "Remembering the Dalit leader of modern Keralam, Mahatma Ayyankali on his 163rd birth anniversary \u2764\ufe0f #Ayyankali #Dalits https://t.co/P8ElTZG3Nz",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Madrid is always a good time 😍",
-          "url": "https://x.com/theashrb/status/2093269323653558570",
+          "title": "Remembering the Dalit leader of modern Keralam, Mahatma Ayyankali on his 163rd b\u2026",
+          "url": "https://x.com/chnmharish/status/2093217772797116807",
           "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1278,16 +1320,16 @@
     },
     {
       "id": "l563",
-      "text": "@chnmharish இங்க வந்தா வெச்சி செஞ்சி விடலாம். Gen Z பூரா விஜய்க்காக எந்த extreme வேணா போகக் கூடியவர்கள்.",
+      "text": "@RmvBalaji It's there. The color has changed slightly because some work was done on the image's color. you can see it if you look closely, near the left shoulder.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@chnmharish இங்க வந்தா வெச்சி செஞ்சி விடலாம். Gen Z பூரா விஜய்க்காக எந்த extreme…",
-          "url": "https://x.com/Deva_Party/status/2093406077203444095",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@RmvBalaji It's there. The color has changed slightly because some work was done\u2026",
+          "url": "https://x.com/chnmharish/status/2093085523745423751",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1299,16 +1341,16 @@
     },
     {
       "id": "l564",
-      "text": "THE ARTICLE THEY DON’T WANT YOU TO READ.",
+      "text": "That's a good article by @YashaviniE. #Uvakai has stated that Tamil Nadu can pursue its $1.5 trillion economic target without treating the proposed #ParandurAirport as an immediate necessity, given that existing airport capacity remains underutilised and other infrastructure and transport options can support future growth. The article explains this well, highlighting the need to make better use of existing aviation infrastructure and explore alternative transport options before establishing the",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "THE ARTICLE THEY DON’T WANT YOU TO READ.",
-          "url": "https://x.com/italianvillain_/status/2083906194972762524",
-          "date": "2026-08-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "That's a good article by @YashaviniE. #Uvakai has stated that Tamil Nadu can pur\u2026",
+          "url": "https://x.com/chnmharish/status/2093409353869230567",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1320,16 +1362,16 @@
     },
     {
       "id": "l565",
-      "text": "DIMĀGĪ SANĀTANĪ: The Architecture of Belonging",
+      "text": "The Discipline of Power: Economics, Resilience, Optionality, and the Civilisational Art of Choice",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "DIMĀGĪ SANĀTANĪ: The Architecture of Belonging",
-          "url": "https://x.com/nithinpalal/status/2092957860225577436",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The Discipline of Power: Economics, Resilience, Optionality, and the Civilisatio\u2026",
+          "url": "https://x.com/nithinpalal/status/2088144717708136625",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1341,16 +1383,16 @@
     },
     {
       "id": "l566",
-      "text": "@theashrb They like to push them off trains?",
+      "text": "The argument treats intelligence as an unlimited good whose only constraint is energy supply. That assumption is itself a metaphysical claim, not an empirical one.\n\nMore tokens do not automatically produce more wisdom, more alignment, or more human flourishing. They can equally produce more noise, more optimisation toward narrow goals, and more concentration of power in whoever controls the cheapest electrons.\n\nBiological intelligence evolved under severe energetic and mortality constraints; tho",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@theashrb They like to push them off trains?",
-          "url": "https://x.com/Muncun/status/2093523198734402023",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The argument treats intelligence as an unlimited good whose only constraint is e\u2026",
+          "url": "https://x.com/nithinpalal/status/2093005138151809358",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1362,16 +1404,16 @@
     },
     {
       "id": "l567",
-      "text": "@ChelskiBoy11 @CarefulTweeter @theashrb Well that’s good to hear",
+      "text": "@chnmharish Who cares bro ! We knew DMK is behind the scene.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ChelskiBoy11 @CarefulTweeter @theashrb Well that’s good to hear",
-          "url": "https://x.com/iamsoulthepoet/status/2093491699330785421",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@chnmharish Who cares bro ! We knew DMK is behind the scene.",
+          "url": "https://x.com/Balumuthaiya_A/status/2093398202753884495",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1383,16 +1425,16 @@
     },
     {
       "id": "l568",
-      "text": "@chnmharish Tvk people issue pesudhu uruttu vera",
+      "text": "\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@chnmharish Tvk people issue pesudhu uruttu vera",
-          "url": "https://x.com/SurenderVenugo4/status/2093404282607521805",
+          "title": "\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d",
+          "url": "https://x.com/theashrb/status/2093148203948408895",
           "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1404,16 +1446,16 @@
     },
     {
       "id": "l569",
-      "text": "@chnmharish Looks like some think tanks has planned well to counter tvk.. dmm dummies vachi counter panna muduyadhu nu therinjitanunga",
+      "text": "@chnmharish Shows how inclined and biased you've changed nowadays \n1. EPS\n2. EV Velu\n3. Udhay\n4. Sowmiya Ramdoss\n5. SPV\n6. Adhav\n7. CVS",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@chnmharish Looks like some think tanks has planned well to counter tvk.. dmm du…",
-          "url": "https://x.com/jagtce/status/2093402894443946337",
+          "title": "@chnmharish Shows how inclined and biased you've changed nowadays \n1. EPS\n2. EV \u2026",
+          "url": "https://x.com/draju_tarun/status/2093395204128821361",
           "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1425,16 +1467,16 @@
     },
     {
       "id": "l570",
-      "text": "@theashrb So nobody’s posted the link? 👀",
+      "text": "The Algorithmic Manor (Article 1 of 3)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@theashrb So nobody’s posted the link? 👀",
-          "url": "https://x.com/SALICYLICS/status/2093468391063331311",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The Algorithmic Manor (Article 1 of 3)",
+          "url": "https://x.com/theashrb/status/2065764385293738227",
+          "date": "2026-06-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1446,16 +1488,16 @@
     },
     {
       "id": "l571",
-      "text": "@theashrb @rennnnn7_ Erm. What makes these clubs more connected ?",
+      "text": "@nithinpalal @RahulGandhi With 2 terms of BJP and third in progress should you not ask these questions to Modi?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@theashrb @rennnnn7_ Erm. What makes these clubs more connected ?",
-          "url": "https://x.com/DJMadz_/status/2093427928948166885",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@nithinpalal @RahulGandhi With 2 terms of BJP and third in progress should you n\u2026",
+          "url": "https://x.com/Bsrikschennai/status/2090428173381189729",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1467,16 +1509,16 @@
     },
     {
       "id": "l572",
-      "text": "@GregJacksonII @theashrb I do know that. I’m not a Chelsea fan. I remember them in the 80s. They still have many awful NF/EDL fans. But it’s undeniable that in the last 20 years, they’ve also gained a large black/mixed fanbase. Many of them will like this.",
+      "text": "Tamilnadu Revised Budget Estimates 2026 - 2027: My Views (Part 1)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@GregJacksonII @theashrb I do know that. I’m not a Chelsea fan. I remember them …",
-          "url": "https://x.com/mufcsince83/status/2093361773898273108",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Tamilnadu Revised Budget Estimates 2026 - 2027: My Views (Part 1)",
+          "url": "https://x.com/chnmharish/status/2085229403177676903",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1488,16 +1530,16 @@
     },
     {
       "id": "l573",
-      "text": "THE ROBOT REVOLUTION IS ALREADY HERE — AND MOST PEOPLE AREN’T READY",
+      "text": "@rravik \u0b8e\u0ba9\u0bcd\u0ba9\u0bc1\u0b9f\u0bc8\u0baf \u0b8e\u0ba4\u0bbf\u0bb0\u0bcd\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0b9f\u0baa\u0bcd\u0baa\u0bbe\u0b9f\u0bbf\u0baf\u0bbe\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b8e\u0ba4\u0bbf\u0bb0\u0bbe\u0ba9\u0ba4\u0bc1 \u0b87\u0bb2\u0bcd\u0bb2\u0bc8, \u0b85\u0bb5\u0bb0\u0ba4\u0bc1 \u0b85\u0bae\u0bc8\u0ba4\u0bbf\u0b95\u0bcd\u0b95\u0bc1 \u0b8e\u0ba4\u0bbf\u0bb0\u0bbe\u0ba9\u0ba4\u0bc1. \u0b8e\u0ba4\u0bbf\u0bb0\u0bcd\u0baa\u0bcd\u0baa\u0bc1 \u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1\u0bae\u0bcd \u0baf\u0bbe\u0bb0\u0bc1\u0bae\u0bcd, \u0b9f\u0bbe\u0baa\u0bcd 5\u0bb2\u0bcd \u0b8e\u0ba4\u0bbf\u0bb0\u0bcd\u0baa\u0bcd\u0baa\u0bb5\u0bb0\u0bc8 \u0b95\u0bca\u0ba3\u0bcd\u0b9f\u0bc1\u0bb5\u0ba8\u0bcd\u0ba4\u0bc1 \u0ba8\u0bbf\u0bb1\u0bc1\u0ba4\u0bcd\u0ba4\u0bae\u0bbe\u0b9f\u0bcd\u0b9f\u0bbe\u0bb0\u0bcd\u0b95\u0bb3\u0bcd.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "THE ROBOT REVOLUTION IS ALREADY HERE — AND MOST PEOPLE AREN’T READY",
-          "url": "https://x.com/baseonbots/status/2092988879103988124",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@rravik \u0b8e\u0ba9\u0bcd\u0ba9\u0bc1\u0b9f\u0bc8\u0baf \u0b8e\u0ba4\u0bbf\u0bb0\u0bcd\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0b9f\u0baa\u0bcd\u0baa\u0bbe\u0b9f\u0bbf\u0baf\u0bbe\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b8e\u0ba4\u0bbf\u0bb0\u0bbe\u0ba9\u0ba4\u0bc1 \u0b87\u0bb2\u0bcd\u0bb2\u0bc8, \u0b85\u0bb5\u0bb0\u0ba4\u0bc1 \u0b85\u0bae\u0bc8\u0ba4\u0bbf\u0b95\u0bcd\u0b95\u0bc1 \u0b8e\u0ba4\u0bbf\u0bb0\u2026",
+          "url": "https://x.com/chnmharish/status/2093349194119757841",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1509,16 +1551,16 @@
     },
     {
       "id": "l574",
-      "text": "Owner + expiry is the only thing that keeps an exception from becoming folklore. Countries do this constantly. Emergency measures, wartime rules, and “just this once” statutes stay on the books long after everyone who understood why they existed is gone. The next generation just inherits them as the new default.",
+      "text": "@i_mika_el This is the part most people skip. Values that live only in the founder\u2019s head or the early team\u2019s Slack disappear the moment those people leave or get outvoted. The system has to make the shortcut expensive even when no one who originally cared is still in the room.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Owner + expiry is the only thing that keeps an exception from becoming folklore.…",
-          "url": "https://x.com/nithinpalal/status/2092941821605466507",
+          "title": "@i_mika_el This is the part most people skip. Values that live only in the found\u2026",
+          "url": "https://x.com/nithinpalal/status/2092900041078059142",
           "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1530,16 +1572,16 @@
     },
     {
       "id": "l575",
-      "text": "@chembashankar It's because of the sitting position, sir. That's why it looks like that.",
+      "text": "@SundaramMa16369 \u0baa\u0bc2\u0ba3\u0bc2\u0bb2\u0bc8 \u0b85\u0ba3\u0bbf\u0baf\u0bc1\u0bae\u0bcd \u0baa\u0bcb\u0ba4\u0bc1, \u0b85\u0ba4\u0ba9\u0bcd \u0baa\u0bbf\u0bb0\u0bae\u0bcd\u0bae \u0bae\u0bc1\u0b9f\u0bbf\u0b9a\u0bcd\u0b9a\u0bc1 \u0bae\u0bc7\u0bb2\u0bcd\u0ba8\u0bcb\u0b95\u0bcd\u0b95\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bbe\u0bb1\u0bc1 \u0bb5\u0bb2\u0ba4\u0bc1 \u0b95\u0bc8\u0baf\u0bbf\u0bb2\u0bcd \u0baa\u0bbf\u0b9f\u0bbf\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0ba3\u0bcd\u0b9f\u0bc1, \u0b85\u0ba4\u0ba9\u0bcd \u0b95\u0bc0\u0bb4\u0bcd\u0baa\u0bcd\u0baa\u0b95\u0bc1\u0ba4\u0bbf\u0baf\u0bc8 \u0b87\u0b9f\u0ba4\u0bc1 \u0b95\u0bc8\u0baf\u0bbf\u0bb2\u0bcd, \u0baa\u0b9e\u0bcd\u0b9a\u0baa\u0bbe\u0ba4\u0bcd\u0ba4\u0bbf\u0bb0\u0ba4\u0bcd\u0ba4\u0bbf\u0ba9\u0bcd \u0bae\u0bc0\u0ba4\u0bc1 \u0bb5\u0bc8\u0ba4\u0bcd\u0ba4\u0bc1 \u0baa\u0bbf\u0b9f\u0bbf\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0ba3\u0bcd\u0b9f\u0bc1, \u0baf\u0b95\u0bcd\u0b9e\u0bcb\u0baa\u0bb5\u0bc0\u0ba4\u0bae\u0bcd \u0baa\u0bb0\u0bae\u0bae\u0bcd \u0baa\u0bb5\u0bbf\u0ba4\u0bcd\u0bb0\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0b95\u0bbf\u0bb1 \u0bae\u0ba8\u0bcd\u0ba4\u0bbf\u0bb0\u0ba4\u0bcd\u0ba4\u0bc8 \u0b89\u0b9a\u0bcd\u0b9a\u0bb0\u0bbf\u0ba4\u0bcd\u0ba4\u0baa\u0b9f\u0bbf, \u0b87\u0b9f\u0ba4\u0bc1 \u0ba4\u0bcb\u0bb3\u0bcd \u0bb5\u0bb4\u0bbf\u0baf\u0bbe\u0b95 \u0baa\u0bc2\u0ba3\u0bc2\u0bb2\u0bc8 \u0b85\u0ba3\u0bbf\u0baf \u0bb5\u0bc7\u0ba3\u0bcd\u0b9f\u0bc1\u0bae\u0bcd.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@chembashankar It's because of the sitting position, sir. That's why it looks li…",
-          "url": "https://x.com/chnmharish/status/2093085160954880212",
+          "title": "@SundaramMa16369 \u0baa\u0bc2\u0ba3\u0bc2\u0bb2\u0bc8 \u0b85\u0ba3\u0bbf\u0baf\u0bc1\u0bae\u0bcd \u0baa\u0bcb\u0ba4\u0bc1, \u0b85\u0ba4\u0ba9\u0bcd \u0baa\u0bbf\u0bb0\u0bae\u0bcd\u0bae \u0bae\u0bc1\u0b9f\u0bbf\u0b9a\u0bcd\u0b9a\u0bc1 \u0bae\u0bc7\u0bb2\u0bcd\u0ba8\u0bcb\u0b95\u0bcd\u0b95\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bbe\u0bb1\u2026",
+          "url": "https://x.com/chnmharish/status/2093084227998978081",
           "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1551,16 +1593,16 @@
     },
     {
       "id": "l576",
-      "text": "@nithinpalal Then every exception needs an owner and an expiry date. Otherwise temporary bypasses quietly become policy.",
+      "text": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Durability",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@nithinpalal Then every exception needs an owner and an expiry date. Otherwise t…",
-          "url": "https://x.com/i_mika_el/status/2092922708715577716",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Durability",
+          "url": "https://x.com/nithinpalal/status/2093194914167480510",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1572,16 +1614,16 @@
     },
     {
       "id": "l577",
-      "text": "@nithinpalal Dharma needs to be encoded into incentives and enforcement. Otherwise it leaves with the builders.",
+      "text": "Madrid is always a good time \ud83d\ude0d",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@nithinpalal Dharma needs to be encoded into incentives and enforcement. Otherwi…",
-          "url": "https://x.com/i_mika_el/status/2092898074033103174",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Madrid is always a good time \ud83d\ude0d",
+          "url": "https://x.com/theashrb/status/2093269323653558570",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1593,16 +1635,16 @@
     },
     {
       "id": "l578",
-      "text": "2045 - Western Iberian Peninsula: Infrastructure and Resource Inventory Assessment",
+      "text": "@chnmharish \u0b87\u0b99\u0bcd\u0b95 \u0bb5\u0ba8\u0bcd\u0ba4\u0bbe \u0bb5\u0bc6\u0b9a\u0bcd\u0b9a\u0bbf \u0b9a\u0bc6\u0b9e\u0bcd\u0b9a\u0bbf \u0bb5\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd. Gen Z \u0baa\u0bc2\u0bb0\u0bbe \u0bb5\u0bbf\u0b9c\u0baf\u0bcd\u0b95\u0bcd\u0b95\u0bbe\u0b95 \u0b8e\u0ba8\u0bcd\u0ba4 extreme \u0bb5\u0bc7\u0ba3\u0bbe \u0baa\u0bcb\u0b95\u0b95\u0bcd \u0b95\u0bc2\u0b9f\u0bbf\u0baf\u0bb5\u0bb0\u0bcd\u0b95\u0bb3\u0bcd.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "2045 - Western Iberian Peninsula: Infrastructure and Resource Inventory Assessme…",
-          "url": "https://x.com/thePM_001/status/2080824060385067258",
-          "date": "2026-07-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@chnmharish \u0b87\u0b99\u0bcd\u0b95 \u0bb5\u0ba8\u0bcd\u0ba4\u0bbe \u0bb5\u0bc6\u0b9a\u0bcd\u0b9a\u0bbf \u0b9a\u0bc6\u0b9e\u0bcd\u0b9a\u0bbf \u0bb5\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd. Gen Z \u0baa\u0bc2\u0bb0\u0bbe \u0bb5\u0bbf\u0b9c\u0baf\u0bcd\u0b95\u0bcd\u0b95\u0bbe\u0b95 \u0b8e\u0ba8\u0bcd\u0ba4 extreme\u2026",
+          "url": "https://x.com/Deva_Party/status/2093406077203444095",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1614,16 +1656,16 @@
     },
     {
       "id": "l579",
-      "text": "The End of Men? Why Hanna Rosin’s Thesis Collapsed",
+      "text": "THE ARTICLE THEY DON\u2019T WANT YOU TO READ.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The End of Men? Why Hanna Rosin’s Thesis Collapsed",
-          "url": "https://x.com/theantigynocen1/status/2063605426932052399",
-          "date": "2026-06-07",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "THE ARTICLE THEY DON\u2019T WANT YOU TO READ.",
+          "url": "https://x.com/italianvillain_/status/2083906194972762524",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1635,16 +1677,16 @@
     },
     {
       "id": "l580",
-      "text": "Western development ain't no flex. It's an illusion.\n\nMost Genocidal Empires in history:\n\nBritish Empire: 225-250 million+ killed\n\nUnited States: 65 million+ killed\n\nGerman Reichs: 57 million+ killed\n\nBelgian Empire: 20 million+ killed\n\nFrench Empire: 15 million+ killed\n\nSpanish Empire: 63 million+ killed (mostly Amerindians)\n\nPortuguese Empire: 60 million+ killed (mostly Amerindians)\n\nItalian Empire: 51 million+ killed\n\nJapanese Empire: 4 million+ killed\n\nDutch Empire: 3 million+ killed\n\nThe Cu",
+      "text": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Belonging",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Western development ain't no flex. It's an illusion.\n\nMost Genocidal Empires in …",
-          "url": "https://x.com/DjehutySpeaks/status/2053222807149179265",
-          "date": "2026-05-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Belonging",
+          "url": "https://x.com/nithinpalal/status/2092957860225577436",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1656,16 +1698,16 @@
     },
     {
       "id": "l581",
-      "text": "YOUR HOME, YOUR COUNTRY, YOUR LIVES!",
+      "text": "@theashrb They like to push them off trains?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "YOUR HOME, YOUR COUNTRY, YOUR LIVES!",
-          "url": "https://x.com/veryangelic1/status/2034467817215373644",
-          "date": "2026-03-19",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@theashrb They like to push them off trains?",
+          "url": "https://x.com/Muncun/status/2093523198734402023",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1676,227 +1718,311 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l482",
-      "text": "Laboratory Technician — Bulla Dairy Foods (Colac, Victoria, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Bulla Dairy Foods",
-          "title": "Laboratory Technician",
-          "url": "https://www.linkedin.com/jobs/view/4448907967",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l483",
-      "text": "Laboratory Technician (East Brisbane) — SGS (East Brisbane, Queensland, Australia). Posted 1 month ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "SGS",
-          "title": "Laboratory Technician (East Brisbane)",
-          "url": "https://www.linkedin.com/jobs/view/4435931118",
-          "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l484",
-      "text": "Laboratory Technician - Food Chemistry — ALS (Scoresby, Victoria, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "ALS",
-          "title": "Laboratory Technician - Food Chemistry",
-          "url": "https://www.linkedin.com/jobs/view/4413670149",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l485",
-      "text": "Laboratory Technician & Product Technologist — Hatch (Sydney, New South Wales, Australia). Posted 1 month ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Hatch",
-          "title": "Laboratory Technician & Product Technologist",
-          "url": "https://www.linkedin.com/jobs/view/4436526122",
-          "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l486",
-      "text": "Manufacturing Technician (Biochemist) — Vow (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Vow",
-          "title": "Manufacturing Technician (Biochemist)",
-          "url": "https://www.linkedin.com/jobs/view/4447463811",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l487",
-      "text": "Experienced Hatchery Technician — Tasmanian Oyster Company Limited (Greater Hobart Area). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Tasmanian Oyster Company Limited",
-          "title": "Experienced Hatchery Technician",
-          "url": "https://www.linkedin.com/jobs/view/4453561026",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l488",
-      "text": "Animal Health Technician - Animal Health Team — Tassal Group (Margate, Tasmania, Australia). Posted 5 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Tassal Group",
-          "title": "Animal Health Technician - Animal Health Team",
-          "url": "https://www.linkedin.com/jobs/view/4456093922",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l489",
-      "text": "Feed Technician — Tassal Group (Hobart, Tasmania, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Tassal Group",
-          "title": "Feed Technician",
-          "url": "https://www.linkedin.com/jobs/view/4457446226",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l490",
-      "text": "Aquaculture Technician — CSIRO (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "CSIRO",
-          "title": "Aquaculture Technician",
-          "url": "https://www.linkedin.com/jobs/view/4450314076",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l491",
-      "text": "Laboratory Technician & Product Technologist @ Suntory Oceania — Hatch (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Hatch",
-          "title": "Laboratory Technician & Product Technologist @ Suntory Oceania",
-          "url": "https://www.linkedin.com/jobs/view/4434818769",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l592",
-      "text": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.\n\n\n\n\n# THE LAST PHYSICIAN\n\nIn the year 2115, humanity has achieved what previous generations believed impossible.\n\nDisease has been conquered. Cancer, dementia, heart failure, sepsis, and countless other k\nAbsolutely—this has the bones of a very strong near-future thriller. The concept already feels cinematic, high-stakes, and thematically rich. What it needs is a bit more structure …",
+      "id": "l582",
+      "text": "@ChelskiBoy11 @CarefulTweeter @theashrb Well that\u2019s good to hear",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "github",
-          "title": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical…",
-          "url": "https://github.com/badbeaver88/game/issues/19",
-          "date": "2026-06-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "@ChelskiBoy11 @CarefulTweeter @theashrb Well that\u2019s good to hear",
+          "url": "https://x.com/iamsoulthepoet/status/2093491699330785421",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l583",
+      "text": "@chnmharish Tvk people issue pesudhu uruttu vera",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@chnmharish Tvk people issue pesudhu uruttu vera",
+          "url": "https://x.com/SurenderVenugo4/status/2093404282607521805",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l584",
+      "text": "@chnmharish Looks like some think tanks has planned well to counter tvk.. dmm dummies vachi counter panna muduyadhu nu therinjitanunga",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@chnmharish Looks like some think tanks has planned well to counter tvk.. dmm du\u2026",
+          "url": "https://x.com/jagtce/status/2093402894443946337",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l585",
+      "text": "@theashrb So nobody\u2019s posted the link? \ud83d\udc40",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@theashrb So nobody\u2019s posted the link? \ud83d\udc40",
+          "url": "https://x.com/SALICYLICS/status/2093468391063331311",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l586",
+      "text": "@theashrb @rennnnn7_ Erm. What makes these clubs more connected ?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@theashrb @rennnnn7_ Erm. What makes these clubs more connected ?",
+          "url": "https://x.com/DJMadz_/status/2093427928948166885",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l587",
+      "text": "@GregJacksonII @theashrb I do know that. I\u2019m not a Chelsea fan. I remember them in the 80s. They still have many awful NF/EDL fans. But it\u2019s undeniable that in the last 20 years, they\u2019ve also gained a large black/mixed fanbase. Many of them will like this.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@GregJacksonII @theashrb I do know that. I\u2019m not a Chelsea fan. I remember them \u2026",
+          "url": "https://x.com/mufcsince83/status/2093361773898273108",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l588",
+      "text": "THE ROBOT REVOLUTION IS ALREADY HERE \u2014 AND MOST PEOPLE AREN\u2019T READY",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "THE ROBOT REVOLUTION IS ALREADY HERE \u2014 AND MOST PEOPLE AREN\u2019T READY",
+          "url": "https://x.com/baseonbots/status/2092988879103988124",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l589",
+      "text": "Owner + expiry is the only thing that keeps an exception from becoming folklore. Countries do this constantly. Emergency measures, wartime rules, and \u201cjust this once\u201d statutes stay on the books long after everyone who understood why they existed is gone. The next generation just inherits them as the new default.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Owner + expiry is the only thing that keeps an exception from becoming folklore.\u2026",
+          "url": "https://x.com/nithinpalal/status/2092941821605466507",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l590",
+      "text": "@chembashankar It's because of the sitting position, sir. That's why it looks like that.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@chembashankar It's because of the sitting position, sir. That's why it looks li\u2026",
+          "url": "https://x.com/chnmharish/status/2093085160954880212",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l591",
+      "text": "@nithinpalal Then every exception needs an owner and an expiry date. Otherwise temporary bypasses quietly become policy.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@nithinpalal Then every exception needs an owner and an expiry date. Otherwise t\u2026",
+          "url": "https://x.com/i_mika_el/status/2092922708715577716",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "text": "@nithinpalal Dharma needs to be encoded into incentives and enforcement. Otherwise it leaves with the builders.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@nithinpalal Dharma needs to be encoded into incentives and enforcement. Otherwi\u2026",
+          "url": "https://x.com/i_mika_el/status/2092898074033103174",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "text": "2045 - Western Iberian Peninsula: Infrastructure and Resource Inventory Assessment",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "2045 - Western Iberian Peninsula: Infrastructure and Resource Inventory Assessme\u2026",
+          "url": "https://x.com/thePM_001/status/2080824060385067258",
+          "date": "2026-07-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l594",
+      "text": "The End of Men? Why Hanna Rosin\u2019s Thesis Collapsed",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The End of Men? Why Hanna Rosin\u2019s Thesis Collapsed",
+          "url": "https://x.com/theantigynocen1/status/2063605426932052399",
+          "date": "2026-06-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l595",
+      "text": "Western development ain't no flex. It's an illusion.\n\nMost Genocidal Empires in history:\n\nBritish Empire: 225-250 million+ killed\n\nUnited States: 65 million+ killed\n\nGerman Reichs: 57 million+ killed\n\nBelgian Empire: 20 million+ killed\n\nFrench Empire: 15 million+ killed\n\nSpanish Empire: 63 million+ killed (mostly Amerindians)\n\nPortuguese Empire: 60 million+ killed (mostly Amerindians)\n\nItalian Empire: 51 million+ killed\n\nJapanese Empire: 4 million+ killed\n\nDutch Empire: 3 million+ killed\n\nThe Cu",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Western development ain't no flex. It's an illusion.\n\nMost Genocidal Empires in \u2026",
+          "url": "https://x.com/DjehutySpeaks/status/2053222807149179265",
+          "date": "2026-05-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "text": "YOUR HOME, YOUR COUNTRY, YOUR LIVES!",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "YOUR HOME, YOUR COUNTRY, YOUR LIVES!",
+          "url": "https://x.com/veryangelic1/status/2034467817215373644",
+          "date": "2026-03-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1908,46 +2034,45 @@
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "agricultural and food science technicians",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "agricultural technician",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+      "count": 32,
+      "returned": 32,
+      "topEmployers": [
+        "Honeycombes Sales and Service",
+        "Australian Country Choice",
+        "CLAAS Harvest Centre",
+        "Skill Match Recruit",
+        "Global Skilled Employment Services",
+        "L and R KHAKH",
+        "RecruitUp Global",
+        "Kubota Australia and New Zealand"
+      ],
+      "topSkills": [
+        "(no skill keywords matched in sample)"
+      ]
+    }
   },
   "corpus": {
-    "platforms": [
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Agricultural and Food Science Technicians Association discourse",
-        "items": 45
+        "lane": "L5",
+        "source": "grounding",
+        "status": "unreachable",
+        "detail": "keyless web search unavailable",
+        "date": "2026-08-31",
+        "note": "last30days source unreachable this run; not evidence the platform was quiet"
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
     "linkedin": [
       {
-        "status": "sampled",
-        "query": "Agricultural and Food Science Technicians",
-        "location": "Australia",
-        "returned": 10,
-        "source": "linkedin (unofficial scrape)",
-        "_raw": "data/professions/19-4011/raw/linkedin_l4.json"
-      },
-      {
-        "date": "2026-08-29",
+        "date": "2026-08-31",
         "soc": "19-4011",
-        "query": "Agricultural and Food Science Technicians",
+        "query": "Agricultural Technician",
         "location": "Australia",
         "returned": 10,
         "totalResults": 10,
@@ -1956,21 +2081,8 @@
     ],
     "l5Sample": [
       {
-        "date": "2026-08-29",
+        "date": "2026-08-31",
         "added": 79,
-        "sources": {
-          "github": 1,
-          "grounding": 0,
-          "hackernews": 24,
-          "reddit": 3,
-          "x": 51,
-          "youtube": 0
-        },
-        "status": "sampled"
-      },
-      {
-        "date": "2026-08-29",
-        "added": 1,
         "sources": {
           "github": 1,
           "grounding": 0,
@@ -1984,5 +2096,6 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

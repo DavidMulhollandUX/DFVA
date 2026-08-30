@@ -10,320 +10,362 @@
     "Medical Science Liaison - Neuroscience"
   ],
   "anzsco": "220000",
-  "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
-  },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
   "programs": [],
+  "window": {
+    "from": "2025-08-31",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-03-01",
   "claims": [
     {
-      "id": "l503",
-      "text": "HN Top Stories Digest - June 30, 2026\n**Daily Hacker News digest for 2026-06-30** — top 30 submissions of the last 24h, ranked by points. Each entry summarizes the linked article and its HN discussion.\n\n📄 Permalink (master): https://github.com/srid/claude-dump/blob/master/hn/2026/06/30.md\n\nFetch notes: 1 article (#16, Maturitas journal)",
+      "id": "l401",
+      "text": "Medical Scientist (530821) \u2014 Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Health, Tasmania",
+          "title": "Medical Scientist (530821)",
+          "url": "https://www.linkedin.com/jobs/view/4455837907",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l402",
+      "text": "Medical Scientist Grade 1 \u2014 The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "The Royal Melbourne Hospital",
+          "title": "Medical Scientist Grade 1",
+          "url": "https://www.linkedin.com/jobs/view/4458145680",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l403",
+      "text": "Health Professional Level 2 - Pathology Medical Scientist \u2014 Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Canberra Health Services",
+          "title": "Health Professional Level 2 - Pathology Medical Scientist",
+          "url": "https://www.linkedin.com/jobs/view/4452184643",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l404",
+      "text": "Immunology Scientist \u2014 QML Pathology (Murarrie, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "QML Pathology",
+          "title": "Immunology Scientist",
+          "url": "https://www.linkedin.com/jobs/view/4440101574",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l405",
+      "text": "Health Professional Level 3 - Senior Scientist \u2014 Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Canberra Health Services",
+          "title": "Health Professional Level 3 - Senior Scientist",
+          "url": "https://www.linkedin.com/jobs/view/4451130405",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "Scientist (ADA) (copy) \u2014 360biolabs, a BioAgilytix company (Melbourne, Victoria, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "360biolabs, a BioAgilytix company",
+          "title": "Scientist (ADA) (copy)",
+          "url": "https://www.linkedin.com/jobs/view/4459640983",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Medical Laboratory Scientist - Transplant & Cellular Therapy \u2014 NSW Health Pathology (Liverpool, New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Health Pathology",
+          "title": "Medical Laboratory Scientist - Transplant & Cellular Therapy",
+          "url": "https://www.linkedin.com/jobs/view/4460177588",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "Medical Laboratory Scientist - Andrology \u2014 NSW Health Pathology (Randwick, New South Wales, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Health Pathology",
+          "title": "Medical Laboratory Scientist - Andrology",
+          "url": "https://www.linkedin.com/jobs/view/4457668834",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Scientist (PK) \u2014 360biolabs, a BioAgilytix company (Melbourne, Victoria, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "360biolabs, a BioAgilytix company",
+          "title": "Scientist (PK)",
+          "url": "https://www.linkedin.com/jobs/view/4439774673",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Clinical Scientist | Genomics \u2014 Virtus Health (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Virtus Health",
+          "title": "Clinical Scientist | Genomics",
+          "url": "https://www.linkedin.com/jobs/view/4455607486",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l101",
+      "text": "The Australian Institute of Medical and Clinical Scientists (AIMS) is the designated assessing authority for Medical Laboratory Scientist (ANZSCO 234611) and Medical Laboratory Technician (ANZSCO 311213) under the Migration Regulations 1994; it also accredits Australian medical laboratory science degrees.",
+      "lane": "L1",
+      "tier": "regulatory-standards",
+      "sources": [
+        {
+          "publisher": "AIMS",
+          "title": "Guidelines for Assessment \u2014 MLS/MLT",
+          "url": "https://aims.org.au/common/Uploaded%20files/Overseas%20Skills%20Assessment/Guidelines%20for%20Assessment%20-%20MLS%20MLT%20v18.4.pdf",
+          "date": "2025",
+          "whatItMeasured": "AIMS assessing-authority statement for ANZSCO 234611/311213"
+        }
+      ],
+      "scope": "Migration skills assessment and degree accreditation; not a practising licence for domestic employment.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Refuted by default-until-overturned check: source real & dated; measures this AU population; within 12-mo window. 2 of 3 lenses fail to overturn."
+    },
+    {
+      "id": "l102",
+      "text": "Medical scientists are self-regulated through voluntary CMLS certification; the Australian Government excluded Medical Scientists and Technical Officers from AHPRA when it was established in 2010, so there is no statutory registration body for the occupation.",
+      "lane": "L1",
+      "tier": "regulatory-standards",
+      "sources": [
+        {
+          "publisher": "CMLS",
+          "title": "FAQ \u2014 Certification",
+          "url": "https://cmls.org.au/blank-3",
+          "date": "2025",
+          "whatItMeasured": "CMLS statement that medical scientists are not AHPRA-registered"
+        }
+      ],
+      "scope": "Voluntary certification scheme; does not bind all practitioners.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Refuted by default-until-overturned check: source real & dated; measures this AU population; within 12-mo window. 2 of 3 lenses fail to overturn."
+    },
+    {
+      "id": "l103",
+      "text": "Medical and biological testing laboratories are accredited by NATA to ISO 15189; the TGA regulates in-vitro diagnostics (IVDs) under the Therapeutic Goods Act, including in-house IVDs assessed against NPAAC requirements.",
+      "lane": "L1",
+      "tier": "regulatory-standards",
+      "sources": [
+        {
+          "publisher": "NATA",
+          "title": "ISO 15189:2022 Standard Application Document",
+          "url": "https://nata.com.au/files/2025/11/ISO-15189-2022-Standard-Application-Document-Effective-Feb-2026.pdf",
+          "date": "2026-02",
+          "whatItMeasured": "NATA accreditation criteria for medical testing labs (ISO 15189)"
+        }
+      ],
+      "scope": "Binds laboratory quality systems, not individual scientist registration.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Refuted by default-until-overturned check: source real & dated; measures this AU population; within 12-mo window. 2 of 3 lenses fail to overturn."
+    },
+    {
+      "id": "l201",
+      "text": "Jobs and Skills Australia's Generative AI Capacity Study (Aug 2025) finds GenAI is more likely to augment than replace work: 79% of Australian workers face low or very low automation risk and only ~4% face high automation risk; routine cognitive tasks are most exposed. Occupation-specific ANZSCO exposure scores are published in JSA's occupation-data release.",
+      "lane": "L2",
+      "tier": "scholarly-institutional",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Implications for Work and Skills",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-14",
+          "whatItMeasured": "JSA whole-of-labour-market GenAI exposure study (358 occupations)"
+        }
+      ],
+      "scope": "Whole-of-market finding; Medical Scientist (ANZSCO 2346) specific score in JSA occupation-data release, not asserted here.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Refuted by default-until-overturned check: source real & dated; measures this AU population; within 12-mo window. 2 of 3 lenses fail to overturn."
+    },
+    {
+      "id": "l301",
+      "text": "AI in imaging analysis and AI-assisted cancer screening moved into mainstream digital-health product cycles in 2025; Histopath became Australia's first 100% digital anatomical pathology laboratory (26 pathologists reporting digitally).",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Pathology News",
+          "title": "Australian Digital Health Year in Review 2025: AI Goes Mainstream",
+          "url": "https://pathologynews.com/digital-pathology/australian-digital-health-year-in-review-2025-ai-goes-mainstream",
+          "date": "2025",
+          "whatItMeasured": "Trade-press review of AI adoption in AU pathology"
+        }
+      ],
+      "scope": "Vendor/industry trade press; reflects adoption momentum, not workforce displacement.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Refuted by default-until-overturned check: source real & dated; measures this AU population; within 12-mo window. 2 of 3 lenses fail to overturn."
+    },
+    {
+      "id": "l302",
+      "text": "RCPA modelling projects a 20-30% shortfall of pathologists and senior scientists by 2030; digital pathology is framed as a workforce-strategy response to the shortage rather than headcount reduction.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Magentus",
+          "title": "Intelligent Connections Series: Digital Pathology Solution",
+          "url": "https://magentus.com/newsroom/news/intelligent-connections-series-digital-pathology-solution-for-system-at-a-crossroads",
+          "date": "2025",
+          "whatItMeasured": "Industry commentary on pathologist/senior-scientist workforce shortage"
+        }
+      ],
+      "scope": "Vendor-hosted panel; shortage figure attributed to RCPA modelling, not independently verified here.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Refuted by default-until-overturned check: source real & dated; measures this AU population; within 12-mo window. 2 of 3 lenses fail to overturn."
+    },
+    {
+      "id": "l517",
+      "text": "HN Top Stories Digest - June 30, 2026\n**Daily Hacker News digest for 2026-06-30** \u2014 top 30 submissions of the last 24h, ranked by points. Each entry summarizes the linked article and its HN discussion.\n\n\ud83d\udcc4 Permalink (master): https://github.com/srid/claude-dump/blob/master/hn/2026/06/30.md\n\nFetch notes: 1 article (#16, Maturitas journal)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "HN Top Stories Digest - June 30, 2026\n**Daily Hacker News digest for 2026-06-30*…",
+          "title": "HN Top Stories Digest - June 30, 2026\n**Daily Hacker News digest for 2026-06-30*\u2026",
           "url": "https://github.com/srid/claude-dump/pull/61",
           "date": "2026-06-30",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l504",
-      "text": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
-          "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
-          "date": "2026-08-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l505",
-      "text": "Tell HN: Man, AI is killing my brain",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Tell HN: Man, AI is killing my brain",
-          "url": "https://news.ycombinator.com/item?id=49468252",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l506",
-      "text": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
-          "url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
-          "date": "2026-07-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l507",
-      "text": "Privacy risks from medical AI tools are not shared equally",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Privacy risks from medical AI tools are not shared equally",
-          "url": "https://www.nature.com/articles/d41586-026-02288-9",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l508",
-      "text": "Everyone Is Wrong About AI Except Me",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Everyone Is Wrong About AI Except Me",
-          "url": "https://jasonpargin.substack.com/p/everyone-is-wrong-about-ai-except",
-          "date": "2026-06-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l509",
-      "text": "What breaks in production AI workflows?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "What breaks in production AI workflows?",
-          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l510",
-      "text": "Building compliant AI medical software",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Building compliant AI medical software",
-          "url": "https://geekyants.com/en-us/blog/how-to-build-medical-device-software-with-ai-compliance-architecture-and-development-process",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l511",
-      "text": "PwC Report: AI Making Medical Bills Higher",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "PwC Report: AI Making Medical Bills Higher",
-          "url": "https://fortune.com/2026/06/12/ai-making-medical-bills-higher/",
-          "date": "2026-06-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l512",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l513",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-          "url": "https://isaidumber.today/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l514",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-          "url": "https://news.ycombinator.com/item?id=48672619",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l515",
-      "text": "Primus – AI Research Scientist",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Primus – AI Research Scientist",
-          "url": "https://lab.cloud/",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l516",
-      "text": "GCC to Decline Any Significant Contributions Made via AI/LLMs – Except for Tests",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "GCC to Decline Any Significant Contributions Made via AI/LLMs – Except for Tests",
-          "url": "https://www.phoronix.com/news/GCC-Declining-AI-Contributions",
-          "date": "2026-07-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l517",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-          "url": "https://www.contextvault.dev/",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -335,16 +377,16 @@
     },
     {
       "id": "l518",
-      "text": "The death of AI workflow builders",
+      "text": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The death of AI workflow builders",
-          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
+          "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -356,16 +398,16 @@
     },
     {
       "id": "l519",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-          "url": "https://argonix.io/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -377,16 +419,16 @@
     },
     {
       "id": "l520",
-      "text": "What is agentic AI today, and what do we want it to be?",
+      "text": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "What is agentic AI today, and what do we want it to be?",
-          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-          "date": "2026-07-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
+          "url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
+          "date": "2026-07-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -398,16 +440,16 @@
     },
     {
       "id": "l521",
-      "text": "My AI-Assisted Workflow",
+      "text": "Privacy risks from medical AI tools are not shared equally",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "My AI-Assisted Workflow",
-          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
-          "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Privacy risks from medical AI tools are not shared equally",
+          "url": "https://www.nature.com/articles/d41586-026-02288-9",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -419,16 +461,16 @@
     },
     {
       "id": "l522",
-      "text": "Ask HK: How are you building AI apps today?",
+      "text": "Everyone Is Wrong About AI Except Me",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HK: How are you building AI apps today?",
-          "url": "https://news.ycombinator.com/item?id=48323554",
-          "date": "2026-05-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Everyone Is Wrong About AI Except Me",
+          "url": "https://jasonpargin.substack.com/p/everyone-is-wrong-about-ai-except",
+          "date": "2026-06-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -440,16 +482,16 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
-          "url": "https://blocks.ai",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -461,16 +503,16 @@
     },
     {
       "id": "l524",
-      "text": "The Problem with AI Today",
+      "text": "Building compliant AI medical software",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The Problem with AI Today",
-          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
-          "date": "2026-05-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Building compliant AI medical software",
+          "url": "https://geekyants.com/en-us/blog/how-to-build-medical-device-software-with-ai-compliance-architecture-and-development-process",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -482,16 +524,16 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "PwC Report: AI Making Medical Bills Higher",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-          "url": "https://github.com/kontext-dev/kontext-cli",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "PwC Report: AI Making Medical Bills Higher",
+          "url": "https://fortune.com/2026/06/12/ai-making-medical-bills-higher/",
+          "date": "2026-06-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -503,16 +545,16 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
-          "url": "https://theincidentchallenge.com/",
-          "date": "2026-05-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -524,16 +566,16 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
-          "url": "https://news.ycombinator.com/item?id=47590261",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -545,16 +587,16 @@
     },
     {
       "id": "l528",
-      "text": "The reason why governments and mega-corps/the financial sector are bum-rushing AI and massive data centers is because they know full well that we are living through the anthropocene mass extinction event And they are hoping it is going to lead to a breakthrough and save at least the elite.\nEverything is getting odder. Faster. More obvious. And at the same time everything is getting hotter. Much hotter. It is difficult for people to keep pretending like we&#39;re not on the precipice of mass deat…",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "The reason why governments and mega-corps/the financial sector are bum-rushing A…",
-          "url": "https://www.reddit.com/r/theories/comments/1vcgw3j/the_reason_why_governments_and_megacorpsthe/",
-          "date": "2026-08-01",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -566,16 +608,16 @@
     },
     {
       "id": "l529",
-      "text": "No career is safe except medical in this era of AI. What backup options are you considering? MBA , MS , startup or continuing in tech/core?\n&#32; submitted by &#32; /u/Aspirant_huu &#32; to &#32; r/Btechtards [link] &#32; [comments]\nMS- Mr. Salman khan banunga Thinking about startup, idea is raiding data centers in masses , ai bhi khatam aur mass hiring bhi hojayegi Muje bhi include karlo",
+      "text": "Primus \u2013 AI Research Scientist",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "No career is safe except medical in this era of AI. What backup options are you …",
-          "url": "https://www.reddit.com/r/Btechtards/comments/1vqu34l/no_career_is_safe_except_medical_in_this_era_of/",
-          "date": "2026-08-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Primus \u2013 AI Research Scientist",
+          "url": "https://lab.cloud/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -587,16 +629,16 @@
     },
     {
       "id": "l530",
-      "text": "Medical Laboratory Scientist Expert at AfterQuery - AI Training Job\nhttps://ift.tt/zUDCq7p &#32; submitted by &#32; /u/move2usajobs-com &#32; to &#32; r/trainAIjobs [link] &#32; [comments]",
+      "text": "GCC to Decline Any Significant Contributions Made via AI/LLMs \u2013 Except for Tests",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Medical Laboratory Scientist Expert at AfterQuery - AI Training Job\nhttps://ift.…",
-          "url": "https://www.reddit.com/r/trainAIjobs/comments/1vzr1w3/medical_laboratory_scientist_expert_at_afterquery/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "GCC to Decline Any Significant Contributions Made via AI/LLMs \u2013 Except for Tests",
+          "url": "https://www.phoronix.com/news/GCC-Declining-AI-Contributions",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -608,16 +650,16 @@
     },
     {
       "id": "l531",
-      "text": "Artificial Intelligence was able to create 16 new viruses that can infect bacteria, raising concerns of potential misuse.\nAI Model Designs 16 Functional Viruses From Scratch, Advancing Therapies While Raising Biosecurity Concerns Researchers from Stanford University and the Arc Institute used genome language models, Evo 1 and Evo 2, to generate hundreds of thousands of candidate bacteriophage genomes. After synthesizing and testing nearly 300 designs in the laboratory, they identified 16 viable …",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Artificial Intelligence was able to create 16 new viruses that can infect bacter…",
-          "url": "https://www.reddit.com/r/STEW_ScTecEngWorld/comments/1vi0cuo/artificial_intelligence_was_able_to_create_16_new/",
-          "date": "2026-08-07",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -629,16 +671,16 @@
     },
     {
       "id": "l532",
-      "text": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe've barely caught our breaths since Collaborative Agent Hackathon at @Cambridge_Uni, UK, and now we're going to host another intense hackathon in Berlin. September 16. ​The Collaborative Agent Hackathon is a 1-day event for building open-source, collaborative AI agents using Flower.\n\n​Agents are changing what is possible, and their greatest potential emerges when they collaborate safely in human-supervised multi-agent",
+      "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe'v…",
-          "url": "https://x.com/flwrlabs/status/2092989569264214482",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -650,16 +692,16 @@
     },
     {
       "id": "l533",
-      "text": "How AI Is Changing the Way People Build Startups",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "How AI Is Changing the Way People Build Startups",
-          "url": "https://x.com/Goura_vk/status/2093337130437410979",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -671,16 +713,16 @@
     },
     {
       "id": "l534",
-      "text": "At the next Flower Monthly (Wednesday, September 2), we’ll be joined by 6 researchers and engineers working on some of the most interesting areas in federated learning and AI.\n\nHasti Zanganeh and Lydia Obeng will present SpikeFed, their work on federated training of spiking neural networks for event based vision. The project brings together federated learning, privacy preserving training, neuromorphic computing, and more efficient approaches to processing visual data.\n\nWe’ll also hear from Tanve",
+      "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "At the next Flower Monthly (Wednesday, September 2), we’ll be joined by 6 resear…",
-          "url": "https://x.com/flwrlabs/status/2093356198959403366",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -692,16 +734,16 @@
     },
     {
       "id": "l535",
-      "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+      "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
-          "url": "https://x.com/theneurondaily/status/2093302072145825969",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -713,16 +755,16 @@
     },
     {
       "id": "l536",
-      "text": "Cisco just gave its 90,000 employees their own AI agent.\n\nAnd the interesting part isn't the number.\n\nIt's how they built it.\n\nEach employee gets a personalized agent that can pull context from company systems using that employee's existing permissions.\n\nBehind it?\n\n800+ specialized subagents handling things like sales analysis, inbox management, research, and other workflows.\n\nThe employee doesn't need to know which agent should do what.\n\nThey just ask.\n\nMyAgent routes the work to the right cap",
+      "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Cisco just gave its 90,000 employees their own AI agent.\n\nAnd the interesting pa…",
-          "url": "https://x.com/Goura_vk/status/2093248535399411908",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -734,16 +776,16 @@
     },
     {
       "id": "l537",
-      "text": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
-          "url": "https://x.com/ThreadedInsight/status/2091815531984957703",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -755,16 +797,16 @@
     },
     {
       "id": "l538",
-      "text": "Alexa and others are just too limiting, not to mention since they're cloud based I worry with the amount of access to my personal data they'd have for the type of system I want. In my late teens I remember reading about Bill Gates' smart home and wanting something like that. When Eureka came out (loved that show) and I saw that smart house in it, I knew I wanted something just like that one day. Something far more than just, \"Hey, stupid AI...play music, set a timer, answer a question, or turn o",
+      "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Alexa and others are just too limiting, not to mention since they're cloud based…",
-          "url": "https://x.com/CarlB_jr/status/2092095017695219995",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -776,16 +818,16 @@
     },
     {
       "id": "l539",
-      "text": "The 25 AI Concepts You Actually Need to Understand in 2026",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The 25 AI Concepts You Actually Need to Understand in 2026",
-          "url": "https://x.com/gowthamshankaar/status/2089631096699015238",
-          "date": "2026-08-18",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -797,16 +839,16 @@
     },
     {
       "id": "l540",
-      "text": "AI Did Not Invent Computer-Assisted Thinking. It Is the Next Step.",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "AI Did Not Invent Computer-Assisted Thinking. It Is the Next Step.",
-          "url": "https://x.com/StarTrekLink/status/2090591646475768200",
-          "date": "2026-08-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -818,16 +860,16 @@
     },
     {
       "id": "l541",
-      "text": "@dubsa98 And medical scientists!!! 🧑🏻‍🔬",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "@dubsa98 And medical scientists!!! 🧑🏻‍🔬",
-          "url": "https://x.com/Ad4mScott/status/2093115173418471630",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -839,16 +881,16 @@
     },
     {
       "id": "l542",
-      "text": "This week. In-person events are great. \n\n2 Workshop days, From Zero to Hero: Federated AI in Healthcare, and Collaborative Agent Hackathon. \n\nThere are more coming up; September 16 we'll be in Berlin for another Collaborative Agent Hackathon. \n\nKeep an eye out for more events. Next week will definitely be exciting.",
+      "text": "The reason why governments and mega-corps/the financial sector are bum-rushing AI and massive data centers is because they know full well that we are living through the anthropocene mass extinction event And they are hoping it is going to lead to a breakthrough and save at least the elite.\nEverything is getting odder. Faster. More obvious. And at the same time everything is getting hotter. Much hotter. It is difficult for people to keep pretending like we&#39;re not on the precipice of mass deat\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "This week. In-person events are great. \n\n2 Workshop days, From Zero to Hero: Fed…",
-          "url": "https://x.com/flwrlabs/status/2093533957195247990",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "The reason why governments and mega-corps/the financial sector are bum-rushing A\u2026",
+          "url": "https://www.reddit.com/r/theories/comments/1vcgw3j/the_reason_why_governments_and_megacorpsthe/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -860,16 +902,16 @@
     },
     {
       "id": "l543",
-      "text": "Found a learning platform that doesn't feel like another course library.\n\nDURA has 660 lessons across 15 engineering phases, with interactive activities and 100+ project tutorials.\n\nYou can start from the basics or follow a career path toward roles like backend engineer, AI engineer, or CTO.\n\nThe best part:\nLearn → build → practice → move forward.\n\nFree forever.\nhttps://t.co/RIGzpYoAnD",
+      "text": "No career is safe except medical in this era of AI. What backup options are you considering? MBA , MS , startup or continuing in tech/core?\n&#32; submitted by &#32; /u/Aspirant_huu &#32; to &#32; r/Btechtards [link] &#32; [comments]\nMS- Mr. Salman khan banunga Thinking about startup, idea is raiding data centers in masses , ai bhi khatam aur mass hiring bhi hojayegi Muje bhi include karlo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Found a learning platform that doesn't feel like another course library.\n\nDURA h…",
-          "url": "https://x.com/Goura_vk/status/2093236553481085200",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "No career is safe except medical in this era of AI. What backup options are you \u2026",
+          "url": "https://www.reddit.com/r/Btechtards/comments/1vqu34l/no_career_is_safe_except_medical_in_this_era_of/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -880,227 +922,227 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l444",
-      "text": "Clinical Curation Scientist — Children's Cancer Institute (Greater Sydney Area). Posted 6 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Children's Cancer Institute",
-          "title": "Clinical Curation Scientist",
-          "url": "https://www.linkedin.com/jobs/view/4455498608",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l445",
-      "text": "Medical Scientist (530821) — Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 2 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department of Health, Tasmania",
-          "title": "Medical Scientist (530821)",
-          "url": "https://www.linkedin.com/jobs/view/4455837907",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l446",
-      "text": "Medical Scientist Grade 1 — The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 2 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "The Royal Melbourne Hospital",
-          "title": "Medical Scientist Grade 1",
-          "url": "https://www.linkedin.com/jobs/view/4458145680",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l447",
-      "text": "Immunology Scientist — QML Pathology (Murarrie, Queensland, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "QML Pathology",
-          "title": "Immunology Scientist",
-          "url": "https://www.linkedin.com/jobs/view/4440101574",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l448",
-      "text": "Clinical Scientist | Genomics — Virtus Health (Sydney, New South Wales, Australia). Posted 6 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Virtus Health",
-          "title": "Clinical Scientist | Genomics",
-          "url": "https://www.linkedin.com/jobs/view/4455607486",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l449",
-      "text": "Health Professional Level 2 - Pathology Medical Scientist — Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Canberra Health Services",
-          "title": "Health Professional Level 2 - Pathology Medical Scientist",
-          "url": "https://www.linkedin.com/jobs/view/4452184643",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l450",
-      "text": "Medical Laboratory Scientist - Andrology — NSW Health Pathology (Randwick, New South Wales, Australia). Posted 18 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "NSW Health Pathology",
-          "title": "Medical Laboratory Scientist - Andrology",
-          "url": "https://www.linkedin.com/jobs/view/4457668834",
-          "date": "18 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l451",
-      "text": "Senior Medical Laboratory Scientist - Molecular Medicine — NSW Health Pathology (New Lambton, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "NSW Health Pathology",
-          "title": "Senior Medical Laboratory Scientist - Molecular Medicine",
-          "url": "https://www.linkedin.com/jobs/view/4450864793",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l452",
-      "text": "Health Professional Level 3 - Senior Scientist — Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Canberra Health Services",
-          "title": "Health Professional Level 3 - Senior Scientist",
-          "url": "https://www.linkedin.com/jobs/view/4451130405",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l453",
-      "text": "Scientist (PK) — 360biolabs, a BioAgilytix company (Melbourne, Victoria, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "360biolabs, a BioAgilytix company",
-          "title": "Scientist (PK)",
-          "url": "https://www.linkedin.com/jobs/view/4439774673",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l554",
-      "text": "The reason why governments and mega-corps/the financial sector are bum-rushing AI and massive data centers is because they know full well that we are living through the anthropocene mass extinction event And they are hoping it is going to lead to a breakthrough and save at least the elite.\nEverything is getting odder. Faster. More obvious. And at the same time everything is getting hotter. Much hotter. It is difficult for people to keep pretending like we&#39;re not on the precipice of mass deat…",
+      "id": "l544",
+      "text": "Medical Laboratory Scientist Expert at AfterQuery - AI Training Job\nhttps://ift.tt/zUDCq7p &#32; submitted by &#32; /u/move2usajobs-com &#32; to &#32; r/trainAIjobs [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The reason why governments and mega-corps/the financial sector are bum-rushing A…",
-          "url": "https://www.reddit.com/r/theories/comments/1vcgw3j/the_reason_why_governments_and_megacorpsthe/",
-          "date": "2026-08-01",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "title": "Medical Laboratory Scientist Expert at AfterQuery - AI Training Job\nhttps://ift.\u2026",
+          "url": "https://www.reddit.com/r/trainAIjobs/comments/1vzr1w3/medical_laboratory_scientist_expert_at_afterquery/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "Artificial Intelligence was able to create 16 new viruses that can infect bacteria, raising concerns of potential misuse.\nAI Model Designs 16 Functional Viruses From Scratch, Advancing Therapies While Raising Biosecurity Concerns Researchers from Stanford University and the Arc Institute used genome language models, Evo 1 and Evo 2, to generate hundreds of thousands of candidate bacteriophage genomes. After synthesizing and testing nearly 300 designs in the laboratory, they identified 16 viable \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Artificial Intelligence was able to create 16 new viruses that can infect bacter\u2026",
+          "url": "https://www.reddit.com/r/STEW_ScTecEngWorld/comments/1vi0cuo/artificial_intelligence_was_able_to_create_16_new/",
+          "date": "2026-08-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe've barely caught our breaths since Collaborative Agent Hackathon at @Cambridge_Uni, UK, and now we're going to host another intense hackathon in Berlin. September 16. \u200bThe Collaborative Agent Hackathon is a 1-day event for building open-source, collaborative AI agents using Flower.\n\n\u200bAgents are changing what is possible, and their greatest potential emerges when they collaborate safely in human-supervised multi-agent",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe'v\u2026",
+          "url": "https://x.com/flwrlabs/status/2092989569264214482",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "How AI Is Changing the Way People Build Startups",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "How AI Is Changing the Way People Build Startups",
+          "url": "https://x.com/Goura_vk/status/2093337130437410979",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "At the next Flower Monthly (Wednesday, September 2), we\u2019ll be joined by 6 researchers and engineers working on some of the most interesting areas in federated learning and AI.\n\nHasti Zanganeh and Lydia Obeng will present SpikeFed, their work on federated training of spiking neural networks for event based vision. The project brings together federated learning, privacy preserving training, neuromorphic computing, and more efficient approaches to processing visual data.\n\nWe\u2019ll also hear from Tanve",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "At the next Flower Monthly (Wednesday, September 2), we\u2019ll be joined by 6 resear\u2026",
+          "url": "https://x.com/flwrlabs/status/2093356198959403366",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+          "url": "https://x.com/theneurondaily/status/2093302072145825969",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "Cisco just gave its 90,000 employees their own AI agent.\n\nAnd the interesting part isn't the number.\n\nIt's how they built it.\n\nEach employee gets a personalized agent that can pull context from company systems using that employee's existing permissions.\n\nBehind it?\n\n800+ specialized subagents handling things like sales analysis, inbox management, research, and other workflows.\n\nThe employee doesn't need to know which agent should do what.\n\nThey just ask.\n\nMyAgent routes the work to the right cap",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Cisco just gave its 90,000 employees their own AI agent.\n\nAnd the interesting pa\u2026",
+          "url": "https://x.com/Goura_vk/status/2093248535399411908",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
+          "url": "https://x.com/ThreadedInsight/status/2091815531984957703",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "Alexa and others are just too limiting, not to mention since they're cloud based I worry with the amount of access to my personal data they'd have for the type of system I want. In my late teens I remember reading about Bill Gates' smart home and wanting something like that. When Eureka came out (loved that show) and I saw that smart house in it, I knew I wanted something just like that one day. Something far more than just, \"Hey, stupid AI...play music, set a timer, answer a question, or turn o",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Alexa and others are just too limiting, not to mention since they're cloud based\u2026",
+          "url": "https://x.com/CarlB_jr/status/2092095017695219995",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "The 25 AI Concepts You Actually Need to Understand in 2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The 25 AI Concepts You Actually Need to Understand in 2026",
+          "url": "https://x.com/gowthamshankaar/status/2089631096699015238",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "AI Did Not Invent Computer-Assisted Thinking. It Is the Next Step.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI Did Not Invent Computer-Assisted Thinking. It Is the Next Step.",
+          "url": "https://x.com/StarTrekLink/status/2090591646475768200",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1112,16 +1154,58 @@
     },
     {
       "id": "l555",
-      "text": "Artificial Intelligence was able to create 16 new viruses that can infect bacteria, raising concerns of potential misuse.\nAI Model Designs 16 Functional Viruses From Scratch, Advancing Therapies While Raising Biosecurity Concerns Researchers from Stanford University and the Arc Institute used genome language models, Evo 1 and Evo 2, to generate hundreds of thousands of candidate bacteriophage genomes. After synthesizing and testing nearly 300 designs in the laboratory, they identified 16 viable …",
+      "text": "@dubsa98 And medical scientists!!! \ud83e\uddd1\ud83c\udffb\u200d\ud83d\udd2c",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Artificial Intelligence was able to create 16 new viruses that can infect bacter…",
-          "url": "https://www.reddit.com/r/STEW_ScTecEngWorld/comments/1vi0cuo/artificial_intelligence_was_able_to_create_16_new/",
-          "date": "2026-08-07",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "@dubsa98 And medical scientists!!! \ud83e\uddd1\ud83c\udffb\u200d\ud83d\udd2c",
+          "url": "https://x.com/Ad4mScott/status/2093115173418471630",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "This week. In-person events are great. \n\n2 Workshop days, From Zero to Hero: Federated AI in Healthcare, and Collaborative Agent Hackathon. \n\nThere are more coming up; September 16 we'll be in Berlin for another Collaborative Agent Hackathon. \n\nKeep an eye out for more events. Next week will definitely be exciting.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "This week. In-person events are great. \n\n2 Workshop days, From Zero to Hero: Fed\u2026",
+          "url": "https://x.com/flwrlabs/status/2093533957195247990",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "Found a learning platform that doesn't feel like another course library.\n\nDURA has 660 lessons across 15 engineering phases, with interactive activities and 100+ project tutorials.\n\nYou can start from the basics or follow a career path toward roles like backend engineer, AI engineer, or CTO.\n\nThe best part:\nLearn \u2192 build \u2192 practice \u2192 move forward.\n\nFree forever.\nhttps://t.co/RIGzpYoAnD",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Found a learning platform that doesn't feel like another course library.\n\nDURA h\u2026",
+          "url": "https://x.com/Goura_vk/status/2093236553481085200",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1133,46 +1217,46 @@
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "medical scientists, except epidemiologists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "medical scientist",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+      "count": 688,
+      "returned": 50,
+      "topEmployers": [
+        "SA Health",
+        "Central Adelaide Local Health Network",
+        "GSK",
+        "SA Health - Statewide Clinical Support Services",
+        "Australian Clinical Labs",
+        "Alfred Health",
+        "EP Healthcare",
+        "2022 Takeda Pharmaceuticals Australia Pty"
+      ],
+      "topSkills": [
+        "laboratory",
+        "research"
+      ]
+    }
   },
   "corpus": {
-    "platforms": [
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Medical Scientists, Except Epidemiologists Association discourse",
-        "items": 45
+        "lane": "L5",
+        "source": "grounding",
+        "status": "unreachable",
+        "detail": "keyless web search unavailable",
+        "date": "2026-08-31",
+        "note": "last30days source unreachable this run; not evidence the platform was quiet"
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
     "linkedin": [
       {
-        "status": "sampled",
-        "query": "Medical Scientists, Except Epidemiologists",
-        "location": "Australia",
-        "returned": 10,
-        "source": "linkedin (unofficial scrape)",
-        "_raw": "data/professions/19-1042/raw/linkedin_l4.json"
-      },
-      {
-        "date": "2026-08-29",
+        "date": "2026-08-31",
         "soc": "19-1042",
-        "query": "Medical Scientists, Except Epidemiologists",
+        "query": "Medical Scientist",
         "location": "Australia",
         "returned": 10,
         "totalResults": 10,
@@ -1181,21 +1265,8 @@
     ],
     "l5Sample": [
       {
-        "date": "2026-08-29",
+        "date": "2026-08-31",
         "added": 41,
-        "sources": {
-          "github": 1,
-          "grounding": 0,
-          "hackernews": 24,
-          "reddit": 4,
-          "x": 12,
-          "youtube": 0
-        },
-        "status": "sampled"
-      },
-      {
-        "date": "2026-08-29",
-        "added": 2,
         "sources": {
           "github": 1,
           "grounding": 0,
@@ -1209,5 +1280,6 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
