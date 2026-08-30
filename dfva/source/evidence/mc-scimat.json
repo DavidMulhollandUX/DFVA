@@ -1,0 +1,126 @@
+{
+  "code": "mc-scimat",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2: MAST90014 (compulsory in one of five specialisation pathways) assesses a six-person group project with individual-accountability language ('Each student should contribute 40 hours'). No other subject assesses group work, so Level 3's requirement that assessed collaboration recur across the program and coordinate people AND tools/AI systems is not met.",
+      "evidenceLines": [
+        "Students must complete two compulsory specialisation subjects:",
+        "MAST90014\tOptimisation for Industry",
+        "One group project: consisting of six students to a group including one group written report and one 10-minute group presentation, due late in semester. Each student should contribute 40 hours of work towards the report and presentation."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1: reflection appears only at graduate-attribute/outcome level ('critical enquiry, analysis and reflection'; 'evaluate ... the various contexts in which they can be applied'); no assessment in the extract requires criterion-referenced appraisal of quality of own/peer/tool work. R2 caps this at Level 1.",
+      "evidenceLines": [
+        "have the ability to demonstrate advanced independent critical enquiry, analysis and reflection;",
+        "evaluate both computational and analytical tools, and evaluate the various contexts in which they can be applied."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1: AI/digital content is confined to electives (COMP90049, COMP90051, LAWS90203 'Not available in 2026') or operational tool use ('using Python and appropriate black-box solvers'). No core unit assesses AI capabilities and limitations/ethics together, or requires critique/governance of AI systems.",
+      "evidenceLines": [
+        "Solve optimisation problems arising in industrial frameworks using Python and appropriate black-box solvers.",
+        "COMP90049\tIntroduction to Machine Learning",
+        "LAWS90203\tScience & AI: Legal & Ethical Challenges\tNot available in 2026\t12.5"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Demoted from 3 to 2 on verification. Level 3 requires a documented 'self-scoped' capstone/research project. The only evidence is 'students should finalise their choice of research project supervisor and research topic' — this documents student CHOICE of topic, not that the topic/scope is self-defined rather than selected from a supervisor-offered list; the extract never clarifies which. Per the instrument's own rule (ambiguous evidence takes the lower level), 'self-scoped' is an unsupported stretch on documented 'choice.' Level 2 remains solidly supported independent of this ambiguity: the assessed 800-hour original research thesis plainly satisfies 'application to novel or unfamiliar problems.'",
+      "evidenceLines": [
+        "Research Project Component (50 points or in special cases, with approval of the MSc program coordinator, 25 points with an additional 25 points of Master's level Mathematics and Statistics discipline subjects).",
+        "During the first semester, students should finalise their choice of research project supervisor and research topic.",
+        "An indicative total time commitment of 800 hours for the duration of the project is expected."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Ambiguous between Level 2 and 3, resolved down. The Research Project is REQUIRED, substantial, with methodology selection (Level 2 met), but the extract documents only 'thesis and presentation,' not a viva/defence/staged supervised review, so Level 3's scrutiny requirement is not clearly met.",
+      "evidenceLines": [
+        "Research Project Component (50 points or in special cases, with approval of the MSc program coordinator, 25 points with an additional 25 points of Master's level Mathematics and Statistics discipline subjects).",
+        "The students will have to give presentations on their research projects in the last week of that teaching period, on a date to be announced by the School of Mathematics and Statistics at the beginning of that semester."
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1: communication is named at graduate-attribute level and core assessment adds presentations (MAST90014 group presentation; a 15-minute oral project presentation elsewhere), but no professional genre is named and no audience beyond the teaching team is documented.",
+      "evidenceLines": [
+        "reach a high level of achievement in writing, research or project activities, problem-solving and communication;",
+        "One group project: consisting of six students to a group including one group written report and one 10-minute group presentation, due late in semester.",
+        "An oral presentation on a project held towards the end of semester"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1: industry/real-world scenario framing appears (MAST90014, MAST90127), but the artefacts produced and criteria applied remain academic; no assessment is documented as judged against practice-derived criteria.",
+      "evidenceLines": [
+        "This subject will expose students to operations research techniques as used in industry. A heavy emphasis will be placed on the modelling process that turns an industrial problem into a mathematical formulation.",
+        "A written assignment including a computational implementation of an industrial optimisation model",
+        "With a focus on mechanistic modelling and viewing biological systems as dynamic in nature, you will learn how to develop and implement “real-world” models, applicable to current open problems in mathematical biology."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: work-situated learning exists only as one Professional Skills elective option, 'Science and Technology Internship', among several alternatives, not a core unit for the cohort as a whole.",
+      "evidenceLines": [
+        "SCIE90017\tScience and Technology Internship",
+        "Summer Term (Off Campus)",
+        "Semester 1 (Off Campus)",
+        "Semester 2 (Early-Start) (Off Campus)"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A compulsory specialisation (62.5 points) chosen from five discipline strands, each with compulsory subjects plus electives, layered with 75 points of Further Discipline subjects — a coherent, progressively advanced specialist core.",
+        "evidenceLines": [
+          "Students must select one of the following specialisations (62.5 pts):",
+          "Students must complete two compulsory specialisation subjects:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The compulsory Research Project Component is a self-scoped, supervised, 800-hour original research undertaking culminating in a thesis and presentation — the closest documented match to a capstone with real uncertainty and accountability.",
+        "evidenceLines": [
+          "During the first semester, students should finalise their choice of research project supervisor and research topic.",
+          "An indicative total time commitment of 800 hours for the duration of the project is expected."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: the Level 2 evidence (MAST90014's assessed group project) is compulsory only within the Operations Research and Industrial Optimisation specialisation, one of five pathways, not universally core to the program.",
+      "C3: LAWS90203 'Science & AI: Legal & Ethical Challenges' addresses AI governance content matching Level 2/3 language, but it is an elective (not compulsory) and flagged 'Not available in 2026' — resolved to Level 1.",
+      "C4 (demoted 3→2): 'students should finalise their choice of research project supervisor and research topic' documents student CHOICE of topic, not that the topic/scope is self-defined versus selected from a supervisor-offered list — ambiguous, resolved to the lower level per the instrument's own rule.",
+      "C5: the Research Project meets Level 2 cleanly but the extract documents only 'thesis and presentation,' not a viva/defence/staged supervised review needed for Level 3 — resolved to Level 2.",
+      "G2: no line uses explicit 'trade-off,' 'uncertainty,' or 'defence' language; PASS is inferred from the compulsory, self-scoped, substantial Research Project Component being the closest documented match to the gate anchor."
+    ],
+    "notScoreable": [
+      "The raw extract's 'mast90129' source block briefly contained unrelated Contemporary Chinese Studies content (apparent capture mismatch) and was excluded from scoring entirely — not used as C2 evidence."
+    ],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-30"
+      },
+      "mechanical": true,
+      "date": "2026-08-30"
+    }
+  }
+}
