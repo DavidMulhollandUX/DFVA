@@ -4,146 +4,123 @@
     "instrument": "4.2-draft",
     "C1": {
       "score": 0,
-      "rationale": "Level 0 anchor - 'No collaborative, stakeholder or team-based work is assessed anywhere in the core' - is affirmatively satisfied, and the score is lowered from a submitted 1 on adversarial challenge. The level-1 anchor requires collaboration or teamwork to appear in LEARNING OUTCOMES; in this capture it does not. The five outcomes blocks - the four course intended learning outcomes and the outcome lists of EDUC90847, EDUC90848, EDUC90850 and EDUC90747 - name no collaboration, teamwork, group or stakeholder work. The only stakeholder and client language sits in the Graduate attributes block ('communicating with clients and stakeholders') and in subject-overview taught-topic prose ('stakeholder engagement strategies'), neither of which is a learning outcome. The omission is deliberate instrument drafting: C2 level 1 reads 'outcomes or graduate attributes', W1 level 1 reads 'learning outcomes or graduate attributes', C3 level 0 reads 'any core unit or program-level outcome', while C1 level 1 reads 'learning outcomes' alone. The nearest outcome, EDUC90747's 'Communicate findings in written and verbal forms', is communication to an audience, which is the W1 construct. On the level-0 test itself, every assessed task in the compulsory core is an individually authored artefact - EDUC90847's Project and Synthesis exercise, EDUC90848's Online exercises, Midterm Exam and Research Proposal, EDUC90850's Practical activities and Case-based analysis, and EDUC90747's proposal, written task and individual oral presentation. The one interactive task, EDUC90847's critical reflection on peers' projects, is appraisal of the quality of work and scores in C2 under the one-construct-one-home rule; the capstone's real-project route is workplace immersion and scores in W3. Elective content cannot lift the item above level 1. This matches the settled treatment of 511aa, 742ab and 300bb, each of which scores 0 on the same structure.",
+      "rationale": "Anchor 0 applies -- no collaborative, stakeholder or team-based work is assessed anywhere in the core. The only peer-facing task ('Community: Critical reflection on peer's projects') is individual appraisal of others' work and, per the one-construct-one-home rule, scores in C2 instead. 'Stakeholder engagement strategies' and 'communicating with clients and stakeholders' appear only as an unassessed topic mention and a graduate attribute, never as assessed core collaborative practice.",
       "evidenceLines": [
-        "Demonstrate advanced knowledge and understanding of evaluation theory and practice.",
-        "Apply understandings of evaluation theory and methods to a range of professional settings.",
-        "Apply evaluation theory to designing and conducting an evaluation",
-        "Formulate research questions and operationalise relevant constructs using appropriate tools",
-        "Analyse and criticize evaluation products",
-        "Communicate findings in written and verbal forms",
-        "Project ... 3000 words (equivalent) ... Week 8 ... 60%",
-        "Final Project: Research Proposal ... 3000 words ... Week 9 ... 60%",
-        "Case-based analysis ... 3250 words ... End of the teaching period ... 65%",
-        "Students complete four compulsory subjects and four elective subjects."
+        "The Master of Evaluation is a 100 point coursework classified course. Students complete four compulsory subjects and four elective subjects. Please note that students can only select online availabilities of these subjects.",
+        "This subject focuses on connecting theory to evaluation practice. Topics include: evaluation-specific tools and methods; planning, conducting and managing evaluations; stakeholder engagement strategies; and evaluation reporting.",
+        "Graduates will develop evidence and practice based knowledge of evaluation and research that applies across disciplines. They will demonstrate a high level of skill designing and conducting evaluation and research activities and communicating with clients and stakeholders. Graduates will be critical and creative thinkers, with an aptitude for continued self-directed learning."
       ]
     },
     "C2": {
       "score": 2,
-      "rationale": "Level 2 anchor - 'Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars' - is met by named, weighted assessment in the compulsory core, so R2 is satisfied. EDUC90847 assesses 'Community: Critical reflection on peer's projects (4 x 250 word posts)' at 20%, which is peer review, against the subject learning outcome 'Assess quality in evaluation practice'. EDUC90850 assesses 'Case-based analysis' at 65% against the outcome 'Analyse and criticize evaluation products', and its outcomes name the standards the critique is referenced to ('Identify different sets of standards, competencies and ethics for practice'). EDUC90848 states it 'prepares students to critically appraise the quality of existing evaluations'. Level 3 is not met: no assessment task requires students to document and justify reliance decisions - when they relied on or overrode a tool, source or collaborator - to defend judgements of AI-output quality, or to evidence strategy adjustment over time. The nearest evidence is the capstone outcome 'Critically discuss one's self knowledge and skills in the evaluation field' and the capstone overview's statement that the project is an opportunity to reflect on what the course taught, both of which are statements attached to no assessment row, which R2 forbids scoring at level 3.",
+      "rationale": "Anchor 2 met: core assessment includes criterion-referenced appraisal of quality -- Practice of Evaluation's structured critical reflection on peers' projects (20%, required of all students) and Foundations of Evaluation's 'Case-based analysis' (65%), tied to the ILO 'Analyse and criticize evaluation products'. Anchor 3 (documenting and justifying reliance decisions on a tool/collaborator, or process-focused strategy adjustment) has no supporting evidence anywhere in the extract, capping the score at 2.",
       "evidenceLines": [
-        "Community: Critical reflection on peer's projects (4 x 250 word posts) ... 1000 words (total) ... From Week 1 to Week 6 ... 20%",
-        "Assess quality in evaluation practice",
+        "Community: Critical reflection on peer's projects (4 x 250 word posts)",
         "Analyse and criticize evaluation products",
-        "Case-based analysis ... 3250 words ... End of the teaching period ... 65%",
-        "Identify different sets of standards, competencies and ethics for practice",
-        "prepares students to critically appraise the quality of existing evaluations",
-        "Critically discuss one's self knowledge and skills in the evaluation field",
-        "The project is designed to provide an opportunity to practice from and reflect on learnings they have gained from the course."
+        "Case-based analysis"
       ]
     },
     "C3": {
       "score": 0,
-      "rationale": "Level 0 anchor - 'No digital/AI content in any core unit or program-level outcome' - holds literally. The four course-level intended learning outcomes, the three graduate-attribute statements, and the overviews and outcome lists of all four compulsory subjects (EDUC90847, EDUC90848, EDUC90850, EDUC90747) name no digital tool, software, data system, automation or artificial intelligence. EDUC90850's content list is 'the nature and purposes of evaluation, the logic of evaluation, types of evaluations, values, and professional standards'; EDUC90847's is evaluation methods, planning, stakeholder engagement and reporting. Level 1 is not met: it requires AI or digital tools to appear at least as electives or as tool operation and training, and no elective in the list of seven is documented as digital or AI content - the capture for those subjects is assessment tables only, and none names a tool, platform or software. The word 'online' throughout the capture denotes delivery mode ('Delivered: Online', 'Term 2 (Online)', 'Online quiz', 'via video conference'), not documented digital-literacy curriculum, and R1 forbids crediting mode as content.",
+      "rationale": "Anchor 0 applies: no digital/AI content in any core unit or program-level outcome. Every compulsory-subject overview and the course-level outcomes/attributes are quoted in full below; none mentions AI, digital tools, or technology. The sole technology mention in the whole extract ('statistical software') belongs to an elective subject, not the compulsory core, so it cannot raise the score.",
       "evidenceLines": [
         "This subject provides students with an introduction to evaluation fundamentals, including: the nature and purposes of evaluation, the logic of evaluation, types of evaluations, values, and professional standards.",
-        "This subject focuses on connecting theory to evaluation practice.",
-        "Topics include: evaluation-specific tools and methods; planning, conducting and managing evaluations; stakeholder engagement strategies; and evaluation reporting.",
-        "Demonstrate advanced knowledge and understanding of evaluation theory and practice.",
-        "Formulate research questions and operationalise relevant constructs using appropriate tools",
-        "The Master of Evaluation is a program conducted purely online, of professional development catering for the needs of those who wish to prepare for a leadership role in evaluation theory, method, and practice at local, national and international levels."
+        "This subject focuses on connecting theory to evaluation practice. Topics include: evaluation-specific tools and methods; planning, conducting and managing evaluations; stakeholder engagement strategies; and evaluation reporting.",
+        "This subject equips students with practical skills to select appropriate research methodologies for conducting evaluation research across diverse contexts. Students will learn to match evaluation questions and purposes with suitable methodological approaches, considering stakeholder needs, resources, and other contextual factors. Through hands-on activities, students will develop competencies in designing applied studies to suit different contexts and evaluative purposes. The subject emphasises the complexities of methodological decision-making within real-world evaluation contexts and prepares students to critically appraise the quality of existing evaluations. Ethical considerations are integrated throughout the subject.",
+        "Drawing on theory, knowledge, and skills developed throughout the Master of Evaluation, students scope and complete an individual project. The project is designed to provide an opportunity to practice from and reflect on learnings they have gained from the course."
       ]
     },
     "C4": {
       "score": 3,
-      "rationale": "Level 3 anchor - 'The program documents structured progression toward independent learning: a self-scoped capstone or research project' - is met on assessment evidence, not outcome statements, so R2 is satisfied. EDUC90747 Evaluation Capstone is compulsory, is 'taken in the final semester of the Master of Evaluation', draws on theory, knowledge and skills developed throughout the program, and requires students to 'scope and complete an individual project'. The scoping is itself an assessed, weighted task: 'A project proposal indicating content, scope, and plan', 1000 words, Week 4, 20%, with the outcome 'Plan evaluation activities or plan a literature review'. That is a self-scoped capstone, documented and assessed, positioned at the end of a staged program of four compulsory subjects. Level 2 is comfortably cleared beneath it: EDUC90850's 'Case-based analysis' at 65% applies analytic methods to cases against the outcome 'Define and explain methods to analyse programs and apply them to simple cases', and EDUC90848's research proposal requires methodological choice for an unfamiliar evaluation context.",
+      "rationale": "Anchor 3 met directly: 'the program documents structured progression toward independent learning: a self-scoped capstone or research project.' The compulsory Evaluation Capstone is explicitly student-scoped ('students scope and complete an individual project') and assessed; both permitted forms (real-evaluation-project report or literature-review article) are equally self-directed, so route choice creates no ambiguity here.",
       "evidenceLines": [
-        "EDUC90747 Evaluation Capstone is taken in the final semester of the Master of Evaluation.",
-        "Drawing on theory, knowledge, and skills developed throughout the Master of Evaluation, students scope and complete an individual project.",
-        "A project proposal indicating content, scope, and plan ... 1000 words (equivalent) ... Week 4 ... 20%",
-        "Plan evaluation activities or plan a literature review",
-        "Define and explain methods to analyse programs and apply them to simple cases",
-        "Students complete four compulsory subjects and four elective subjects."
+        "Drawing on theory, knowledge, and skills developed throughout the Master of Evaluation, students scope and complete an individual project. The project is designed to provide an opportunity to practice from and reflect on learnings they have gained from the course.",
+        "The capstone project is either 1) a participation in a real evaluation project, which leads to the production of a report, or 2) a critical review of a particular body of literature in evaluation, which leads to the production of a journal article. All students provide an oral presentation of their findings, either in person or via video conference."
       ]
     },
     "C5": {
       "score": 1,
-      "rationale": "Level 1 anchor - 'Introductory methods unit; literature-review assessment' - is what the compulsory core documents, and the score is lowered from a submitted 2 on adversarial challenge. The methods unit is EDUC90848 Applied Research Methodology, which 'equips students with practical skills to select appropriate research methodologies for conducting evaluation research across diverse contexts' and assesses that selection in a 60% 'Final Project: Research Proposal' against the outcomes 'Formulate research questions and operationalise relevant constructs using appropriate tools' and 'Demonstrate knowledge of basic foundations of research design including ethical requirements of research involving human subjects'. The literature-review assessment is present too, as the capstone's second route, 'a critical review of a particular body of literature in evaluation'. Level 2 is not met. Its anchor is a conjunction - 'Students design and conduct an inquiry with methodology selection and data collection, assessed' - and only the design half is documented. The EDUC90848 task is a proposal and stops at the proposal; it selects a methodology and collects nothing. Conduct and data collection are documented nowhere in the compulsory core: EDUC90847's assessment row states only 'Project', its length and its weight - '3000 words (equivalent) ... Week 8 ... 60%' - and says nothing about what the project collects or from whom. The conducting language, 'Apply evaluation theory to designing and conducting an evaluation', is an intended learning outcome, and R2 caps at 1 a capability that appears in outcomes but is never assessed. The capstone does not supply the missing half either: its data route is one of two - 'either 1) a participation in a real evaluation project ... or 2) a critical review of a particular body of literature' - and its outcome is likewise disjunctive ('Analyse data and synthesize research findings ... or analyse and argue on theories and findings from the evaluation literature'), so a student can complete the program without collecting any data. Level 3, which additionally requires primary-evidence generation to be REQUIRED and the methodology defended under scrutiny, fails a fortiori.",
+      "rationale": "Ambiguous between anchor 1 ('introductory methods unit... assessment') and anchor 2 ('design and conduct... with data collection, assessed'). Applied Research Methodology's sole graded deliverable is a 'Final Project: Research Proposal' -- design without documented conduct/data collection. The Capstone's real-evaluation-project route could reach design-and-conduct, but is one of two alternative routes, and the instrument's own Level-3 language for this item explicitly disqualifies 'one route among several' from counting as required. Resolved to the LOWER level, 1.",
       "evidenceLines": [
-        "This subject equips students with practical skills to select appropriate research methodologies for conducting evaluation research across diverse contexts.",
-        "Final Project: Research Proposal ... 3000 words ... Week 9 ... 60%",
-        "Formulate research questions and operationalise relevant constructs using appropriate tools",
-        "Demonstrate knowledge of basic foundations of research design including ethical requirements of research involving human subjects",
-        "Project ... 3000 words (equivalent) ... Week 8 ... 60%",
-        "Apply evaluation theory to designing and conducting an evaluation",
-        "The capstone project is either 1) a participation in a real evaluation project, which leads to the production of a report, or 2) a critical review of a particular body of literature in evaluation, which leads to the production of a journal article.",
-        "Analyse data and synthesize research findings for evaluation purposes or analyse and argue on theories and findings from the evaluation literature"
+        "This subject equips students with practical skills to select appropriate research methodologies for conducting evaluation research across diverse contexts. Students will learn to match evaluation questions and purposes with suitable methodological approaches, considering stakeholder needs, resources, and other contextual factors.",
+        "Final Project: Research Proposal",
+        "The capstone project is either 1) a participation in a real evaluation project, which leads to the production of a report, or 2) a critical review of a particular body of literature in evaluation, which leads to the production of a journal article."
       ]
     },
     "adaptiveness": 6,
     "W1": {
       "score": 1,
-      "rationale": "Level 1 anchor - 'Communication or professional conduct appears in learning outcomes or graduate attributes; core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team' - is met exactly. The outcome side is satisfied by EDUC90747's 'Communicate findings in written and verbal forms' and by the graduate attribute naming skill in 'communicating with clients and stakeholders'. The spoken side is satisfied by a compulsory, universal task: the capstone's 20-minute 'Oral presentation at the end of term that provides a synthesis of the Capstone project', carried as a hurdle requirement. Level 2 is not met: no core assessment is documented as a recognised professional genre judged against criteria drawn from practice, and no audience beyond the teaching team is documented. The capstone written task is 'such as an article or project report', so the professional genre is one option and the academic genre the other, and R3 resolves that downward; the oral presentation is delivered in person or by video conference with no external panel, client or practitioner named. Evaluation reporting appears as taught content in EDUC90847's topic list but attaches to no assessment row, which R2 excludes.",
+      "rationale": "Anchor 1 fits: communication appears as a graduate attribute while core assessment adds an oral presentation to an audience the extract documents only as the teaching team. The Capstone's written task ('such as an article or project report') plausibly is a professional genre (anchor 2), but nothing states it is judged against practice-derived criteria, and no audience beyond the teaching team is documented anywhere in the core. Resolved to the LOWER level, 1.",
       "evidenceLines": [
-        "Communicate findings in written and verbal forms",
-        "They will demonstrate a high level of skill designing and conducting evaluation and research activities and communicating with clients and stakeholders.",
-        "Oral presentation at the end of term that provides a synthesis of the Capstone project. This can be done via video conference. ... 20 minutes ... Hurdle requirement: Students must complete this task to pass the subject ... Late in the teaching period",
-        "A written task (such as an article or project report), due end of term ... 4000 words (equivalent) ... End of the teaching period ... 80%",
-        "Topics include: evaluation-specific tools and methods; planning, conducting and managing evaluations; stakeholder engagement strategies; and evaluation reporting."
+        "Graduates will develop evidence and practice based knowledge of evaluation and research that applies across disciplines. They will demonstrate a high level of skill designing and conducting evaluation and research activities and communicating with clients and stakeholders. Graduates will be critical and creative thinkers, with an aptitude for continued self-directed learning.",
+        "A written task (such as an article or project report), due end of term",
+        "Oral presentation at the end of term that provides a synthesis of the Capstone project. This can be done via video conference."
       ]
     },
     "W2": {
       "score": 1,
-      "rationale": "Level 1 anchor - 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic' - is affirmatively met, and the score is lowered from a submitted 2, which the adversarial pass refuted unanimously on three lenses. EDUC90850's 65% 'Case-based analysis' is exactly a case-study task, on cases the subject's own outcome calls simple - 'Define and explain methods to analyse programs and apply them to simple cases' - and EDUC90847's 20% 'Synthesis exercise' is academic in form. The level-2 anchor reads, in full: 'At least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice.' That is a three-part conjunction. The submitted rationale quoted only the first two parts and dropped the third, and dropping it is how the wrong score got in. The third part is plainly undocumented: no assessment row anywhere in this capture states any criterion, rubric or standard. Every assessment table in the capture carries the same three columns - 'Description Timing Percentage' - so each row records what the task is, how long it is, when it falls and what it is worth, and nothing about how it is judged. Nothing in the capture therefore says the criteria are drawn from practice, and R1 forbids supplying them from what a practising evaluator plausibly would be held to. The realism conjunct is unearned as well. EDUC90848's 60% 'Final Project: Research Proposal' is the artefact a practising evaluator produces before fieldwork, and the subject documents contextual design constraints - 'designing applied studies to suit different contexts and evaluative purposes', 'considering stakeholder needs, resources, and other contextual factors' - but the only real problem documented in the core is the capstone's real-project route, which is one of two options and is already housed in W3 under the one-construct-one-home rule. R3 resolves the straddle downward.",
+      "rationale": "Anchor 1 is solidly established for the whole cohort: Applied Research Methodology is 'real-world' framed but its graded artefact is an academic research proposal, and Foundations of Evaluation's 'Case-based analysis' is scenario-framed but academic. The Capstone's real-evaluation-project route would reproduce a professional task end to end (anchor 2), but it is one of two alternative routes rather than required of every student. Resolved to the LOWER level, 1.",
       "evidenceLines": [
-        "Case-based analysis ... 3250 words ... End of the teaching period ... 65%",
-        "Define and explain methods to analyse programs and apply them to simple cases",
-        "Synthesis exercise ... 1000 words ... Week 9 ... 20%",
-        "Description Timing Percentage",
-        "Final Project: Research Proposal ... 3000 words ... Week 9 ... 60%",
-        "Through hands-on activities, students will develop competencies in designing applied studies to suit different contexts and evaluative purposes.",
-        "considering stakeholder needs, resources, and other contextual factors",
+        "The subject emphasises the complexities of methodological decision-making within real-world evaluation contexts and prepares students to critically appraise the quality of existing evaluations.",
+        "Final Project: Research Proposal",
+        "Case-based analysis",
         "The capstone project is either 1) a participation in a real evaluation project, which leads to the production of a report, or 2) a critical review of a particular body of literature in evaluation, which leads to the production of a journal article."
       ]
     },
     "W3": {
-      "score": 1,
-      "rationale": "Level 1 anchor - 'Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity' - is met. The cohort is documented as already practising, so the v4.2 in-practice route is open to this program: the overview names 'policy and program planners, trainers, teachers, performance auditors, internal monitoring and evaluation staff, project staff, managers, medical staff, and independent consultants' drawn from the public sector, non-government agencies and business. Work-situated activity appears once, as an option: the capstone project is 'either 1) a participation in a real evaluation project ... or 2) a critical review of a particular body of literature'. Level 2 is not met on either route. On the placement route, no core unit places students in a workplace with practitioner supervision. On the in-practice route, no core unit requires activity conducted in the student's own professional practice with real recipients and a documented outcome measure - the real-project route is elective within the capstone, the handbook does not require the project to sit in the student's own workplace, and no host or workplace supervisor assessment, hours log or accountability to workplace stakeholders is documented. R3 resolves the optional route downward.",
+      "score": 0,
+      "rationale": "The cohort is documented as already-practising professionals, the population the v4.2 in-practice route targets, and the Capstone's real-project option gestures toward that route. But the extract never documents own-practice framing, practitioner supervision, real recipients, or a workplace-specific outcome measure -- elements both anchors 1 and 2 require -- and the option is also one of two alternative capstone routes. Per R1 (documented evidence only) and the scoring-direction rule, resolved to the floor, 0.",
       "evidenceLines": [
-        "Our students include policy and program planners, trainers, teachers, performance auditors, internal monitoring and evaluation staff, project staff, managers, medical staff, and independent consultants.",
-        "They are drawn from the public sector, non-government agencies, and business in areas such as education, welfare, and health.",
-        "The capstone project is either 1) a participation in a real evaluation project, which leads to the production of a report, or 2) a critical review of a particular body of literature in evaluation, which leads to the production of a journal article.",
-        "Drawing on theory, knowledge, and skills developed throughout the Master of Evaluation, students scope and complete an individual project.",
-        "Students should choose four elective subjects from the following list."
+        "Our students include policy and program planners, trainers, teachers, performance auditors, internal monitoring and evaluation staff, project staff, managers, medical staff, and independent consultants. They are drawn from the public sector, non-government agencies, and business in areas such as education, welfare, and health.",
+        "The capstone project is either 1) a participation in a real evaluation project, which leads to the production of a report, or 2) a critical review of a particular body of literature in evaluation, which leads to the production of a journal article."
       ]
     },
-    "workplace": 3,
+    "workplace": 2,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: the program documents a coherent specialist core with progressive methodological depth. All four compulsory subjects are evaluation subjects - EDUC90850 Foundations of Evaluation (nature, logic, types, values and professional standards), EDUC90847 Practice of Evaluation (methods, planning, conducting and managing evaluations, reporting), EDUC90848 Applied Research Methodology (research design, methodological decision-making, ethics), and EDUC90747 Evaluation Capstone - and the capstone is positioned by the course structure at the end of the sequence, drawing on the whole program. All seven electives are evaluation subjects too, so there is no generic or interchangeable content anywhere in the 100 points.",
+        "rationale": "All four compulsory subjects (Foundations of Evaluation, Practice of Evaluation, Applied Research Methodology, Evaluation Capstone) are evaluation-discipline-specific, sequenced from fundamentals through applied practice/methods to a final-semester capstone -- an all-compulsory specialist core with progressive depth, not generic or interchangeable content.",
         "evidenceLines": [
           "The Master of Evaluation is a 100 point coursework classified course. Students complete four compulsory subjects and four elective subjects.",
           "EDUC90747 Evaluation Capstone is taken in the final semester of the Master of Evaluation.",
-          "The course aims to enable students to become familiar with theories underlying policy and program development, the roles of various types of evaluation, ethical practice, and key concepts and approaches to evaluation.",
-          "Demonstrate an appreciation of professional responsibilities and ethical principles that should characterise leaders in the evaluation field."
+          "This subject provides students with an introduction to evaluation fundamentals, including: the nature and purposes of evaluation, the logic of evaluation, types of evaluations, values, and professional standards."
         ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: core assessment requires defended trade-off decisions rather than recall. EDUC90848 is built on methodological choice under conditions the handbook states are complex and contested - 'the complexities of methodological decision-making within real-world evaluation contexts' - and assesses it in a 60% research proposal that must match evaluation questions and purposes to methods against stakeholder needs, resources and other contextual factors. The course-level graduate attributes name the value conflict that makes those decisions contested, and the compulsory capstone requires a self-scoped project defended in a hurdle oral presentation.",
+        "rationale": "Applied Research Methodology (compulsory) is explicitly built around 'the complexities of methodological decision-making within real-world evaluation contexts', and the compulsory Capstone offers a live-project route with genuine real-world uncertainty rather than recall or scripted responses.",
         "evidenceLines": [
           "The subject emphasises the complexities of methodological decision-making within real-world evaluation contexts and prepares students to critically appraise the quality of existing evaluations.",
-          "considering stakeholder needs, resources, and other contextual factors",
-          "Evaluate social research literature to make informed decisions",
-          "They will understand the existence of multiple sets of values, how those affect the task of evaluation, and how to make the values conversation an explicit component of evaluation work.",
-          "Final Project: Research Proposal ... 3000 words ... Week 9 ... 60%"
+          "The capstone project is either 1) a participation in a real evaluation project, which leads to the production of a report, or 2) a critical review of a particular body of literature in evaluation, which leads to the production of a journal article."
         ]
       }
     },
     "ambiguities": [
-      "C1 straddled 0 and 1 and resolved to 0 on adversarial challenge. The level-1 anchor names learning outcomes only, while C2, C3 and W1 name graduate attributes or program-level outcomes explicitly, so the graduate attribute 'communicating with clients and stakeholders' and the taught topic 'stakeholder engagement strategies' cannot carry the item to 1. Level 0's own test - no assessed collaborative work in the core - is affirmatively satisfied, so the evidence is consistent with 0 and R3 applies.",
-      "C2 straddled 2 and 3: peer review in EDUC90847 and criterion-referenced critique in EDUC90850 satisfy level 2, but the reflection on one's own knowledge and skills that level 3 would need sits in capstone outcomes with no assessment row, so R2 holds it at 2.",
-      "C3 straddled 0 and 1: 'online' delivery, an online quiz in an elective and video-conference presentation are mode, not documented digital or AI curriculum, and R1 forbids crediting mode as content. No elective is documented as digital or AI content either, so level 1's own condition fails and the item sits at 0.",
-      "C5 straddled 1 and 2 and resolved to 1 on adversarial challenge. Level 2 is a conjunction - design and conduct, with methodology selection and data collection, assessed - and only design is documented: EDUC90848's 60% research proposal selects a methodology and stops at the proposal. Conduct survives only as EDUC90847's intended learning outcome 'Apply evaluation theory to designing and conducting an evaluation', whose assessment row records nothing but 'Project', its length and its weight, so R2 caps it at 1; and the capstone's data route is one of two, so R3 confirms the lower level.",
-      "W1 straddled 1 and 2: the hurdle oral presentation and the capstone written task come close to a professional genre, but the written task is 'an article or project report' - one academic option, one professional - and no audience beyond the teaching team and no criteria drawn from practice are documented. R3 resolves down to 1.",
-      "W2 straddled 1 and 2 and resolved to 1 on adversarial challenge. The level-2 anchor has three conjuncts - a real or realistic problem, the artefact a practitioner would produce, and judgement 'against criteria drawn from practice' - and the third is undocumented: no assessment row in this capture states any criterion, rubric or standard, because the tables carry only description, timing and percentage. The realism conjunct rests on the capstone's real-project route, which is optional and is scored in W3. Level 1's own test is affirmatively met by the 65% case-based analysis on simple cases and the 20% synthesis exercise, so R3 resolves down to 1.",
-      "W3 straddled 1 and 2: the cohort is documented as already practising, which opens the v4.2 in-practice route, but the real-project capstone option is one of two routes and carries no documented workplace supervision, outcome measure or accountability to workplace stakeholders. R3 resolves down to 1."
+      "C1 vs C2: Practice of Evaluation's 'Community: Critical reflection on peer's projects' could suggest peer/collaborative engagement (C1), but per one-construct-one-home it scores in C2; with that evidence excluded, C1 has no assessed collaborative practice anywhere in the core, so it scores 0.",
+      "C5: the Capstone's real-evaluation-project route could satisfy design-and-conduct evidence generation, but as one of two alternative routes (not required of the whole cohort), and given the instrument's own Level-3 language disqualifying 'one route among several', resolved to the lower level, 1.",
+      "W2: the same optional real-evaluation-project route would reproduce a professional task end-to-end if taken, but is not required of the whole cohort; resolved to the lower level, 1.",
+      "W3: the cohort is documented as already-practising and the Capstone's real-project option gestures toward the v4.2 in-practice route, but own-practice framing, supervision, real recipients and a documented outcome measure are never stated; resolved to the floor, 0.",
+      "W1: the Capstone's written task plausibly is a professional genre, but no practice-derived criteria or external audience beyond the teaching team is documented anywhere in the core; resolved to the lower level, 1."
     ],
+    "notScoreable": [],
     "verified": {
-      "adversarial": true,
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-31"
+      },
       "mechanical": true,
-      "date": "2026-08-25"
+      "date": "2026-08-30"
     }
   }
 }
