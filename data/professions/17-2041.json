@@ -14,21 +14,21 @@
     "from": "2025-08-01",
     "to": "2026-08-24"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-28",
   "programs": [
     "mc-chemeng"
   ],
   "claims": [
     {
       "id": "l503",
-      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
+      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
+          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -43,13 +43,13 @@
     },
     {
       "id": "l504",
-      "text": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidcoder @playforge-coding Would it be possible for the Sparkle developers to use Boxy on your infrastructure as a chatbot, but in such a way that it can't open PRs or commit to Sparkle?\n\n@OmniBlocks/boxy Please research how this could be done. Afterwards, please output a list of your current\n<details>\n<summary>🔧 My tool activity log (4 calls)</summary>\n\n**1. `read_memory`**\n\nParams:\n```json\n{\n  \"title\": \"Allowed Reposito…",
+      "text": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidcoder @playforge-coding Would it be possible for the Sparkle developers to use Boxy on your infrastructure as a chatbot, but in such a way that it can't open PRs or commit to Sparkle?\n\n@OmniBlocks/boxy Please research how this could be done. Afterwards, please output a list of your current\n<details>\n<summary>\ud83d\udd27 My tool activity log (4 calls)</summary>\n\n**1. `read_memory`**\n\nParams:\n```json\n{\n  \"title\": \"Allowed Reposito\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidco…",
+          "title": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidco\u2026",
           "url": "https://github.com/OmniBlocks/Boxy-gh/issues/63",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -64,13 +64,13 @@
     },
     {
       "id": "l505",
-      "text": "Daily Content Summary 2026-06-02\n# 📰 Daily Content Summary - 2026-06-02\n### Executive Summary\n\n**Key Insights** reveal a paradoxical landscape where technological advancement simultaneously erodes and reinforces security. While Meta's AI support bot facilitated high-profile account takeovers by bypassing two-factor authentication t",
+      "text": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Executive Summary\n\n**Key Insights** reveal a paradoxical landscape where technological advancement simultaneously erodes and reinforces security. While Meta's AI support bot facilitated high-profile account takeovers by bypassing two-factor authentication t",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Daily Content Summary 2026-06-02\n# 📰 Daily Content Summary - 2026-06-02\n### Exec…",
+          "title": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Exec\u2026",
           "url": "https://github.com/jhengy/content-aggregator/issues/506",
           "date": "2026-06-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -85,13 +85,13 @@
     },
     {
       "id": "l506",
-      "text": "feat: unified theme consistency, atomic saves, dashboard improvements\n## Summary\n\nApplies the Cellar Ledger design system across all screens and adds atomic save semantics to the entry form.\n\n### Theme & UI consistency\n- Apply shared design tokens and components across **25+ screens** (analytics, calculators, farm detail, logs, tasks, warehouse, weather, soil profilin\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- walkthrough_start -->\n\n<details>\n<summary>📝 Walkthrou…",
+      "text": "feat: unified theme consistency, atomic saves, dashboard improvements\n## Summary\n\nApplies the Cellar Ledger design system across all screens and adds atomic save semantics to the entry form.\n\n### Theme & UI consistency\n- Apply shared design tokens and components across **25+ screens** (analytics, calculators, farm detail, logs, tasks, warehouse, weather, soil profilin\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- walkthrough_start -->\n\n<details>\n<summary>\ud83d\udcdd Walkthrou\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: unified theme consistency, atomic saves, dashboard improvements\n## Summary…",
+          "title": "feat: unified theme consistency, atomic saves, dashboard improvements\n## Summary\u2026",
           "url": "https://github.com/ashish921998/vinesight-rn/pull/145",
           "date": "2026-04-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -106,13 +106,13 @@
     },
     {
       "id": "l507",
-      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       …",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe …",
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe \u2026",
           "url": "https://github.com/rakib06/mini-github/issues/14",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -127,13 +127,13 @@
     },
     {
       "id": "l508",
-      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment—ranging from consumer earbuds to professional line arrays and covert surveillance g…",
+      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment\u2014ranging from consumer earbuds to professional line arrays and covert surveillance g\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su…",
+          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su\u2026",
           "url": "https://github.com/Transparency-X/Sound-Equipment-Lifespace/issues/1",
           "date": "2026-05-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -190,13 +190,13 @@
     },
     {
       "id": "l511",
-      "text": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
+      "text": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
+          "title": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
           "url": "https://github.com/calmrocks/ai-engineer-notebooks",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -316,13 +316,13 @@
     },
     {
       "id": "l517",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -379,13 +379,13 @@
     },
     {
       "id": "l520",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -484,13 +484,13 @@
     },
     {
       "id": "l525",
-      "text": "Skyportal SRE – an open-source AI infrastructure engineer",
+      "text": "Skyportal SRE \u2013 an open-source AI infrastructure engineer",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Skyportal SRE – an open-source AI infrastructure engineer",
+          "title": "Skyportal SRE \u2013 an open-source AI infrastructure engineer",
           "url": "https://github.com/SkyportalAi/skyportalai",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -547,13 +547,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -589,13 +589,13 @@
     },
     {
       "id": "l530",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -631,13 +631,13 @@
     },
     {
       "id": "l532",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -652,13 +652,13 @@
     },
     {
       "id": "l533",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac…",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and …",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and \u2026",
           "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -673,13 +673,13 @@
     },
     {
       "id": "l534",
-      "text": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robotics has started sending robots into San Francisco homes to vacuum floors, wipe surfaces, pick up clutter, and take out the trash\n\nNo $100,000 robot purchase\n\nNo years-long waitlist\n\nYou simply pay for the work by the hour\n\nAnd no—the robot isn't fully autonomous yet\n\nAI handles part of the job, while a remote human operator steps in when needed\n\nThat may sound less impressive\n\nBut it’s actually the smartest part\n\nRo",
+      "text": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robotics has started sending robots into San Francisco homes to vacuum floors, wipe surfaces, pick up clutter, and take out the trash\n\nNo $100,000 robot purchase\n\nNo years-long waitlist\n\nYou simply pay for the work by the hour\n\nAnd no\u2014the robot isn't fully autonomous yet\n\nAI handles part of the job, while a remote human operator steps in when needed\n\nThat may sound less impressive\n\nBut it\u2019s actually the smartest part\n\nRo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robo…",
+          "title": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robo\u2026",
           "url": "https://x.com/Prompt_ProfitAI/status/2084745440025575439",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -694,13 +694,13 @@
     },
     {
       "id": "l535",
-      "text": "CONNECTICUT’S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED—BECAUSE THE ROBOT NEEDS MAINTENANCE\n\nMeet Janice\n\nShe makes lattes, chai, and iced matcha using AI-powered obstacle detection and physical reasoning\n\nThe robot costs $88,000 to buy or starts at $2,500 a month to lease\n\nNo sick days\nNo lunch breaks\nNo salary\nBut there are software fees, repairs, and downtime\nThis is the part of automation nobody puts in the demo:\n\nRobots don’t eliminate operational problems\n\nThey replac",
+      "text": "CONNECTICUT\u2019S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED\u2014BECAUSE THE ROBOT NEEDS MAINTENANCE\n\nMeet Janice\n\nShe makes lattes, chai, and iced matcha using AI-powered obstacle detection and physical reasoning\n\nThe robot costs $88,000 to buy or starts at $2,500 a month to lease\n\nNo sick days\nNo lunch breaks\nNo salary\nBut there are software fees, repairs, and downtime\nThis is the part of automation nobody puts in the demo:\n\nRobots don\u2019t eliminate operational problems\n\nThey replac",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "CONNECTICUT’S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED—BE…",
+          "title": "CONNECTICUT\u2019S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED\u2014BE\u2026",
           "url": "https://x.com/Prompt_ProfitAI/status/2085712526549897616",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -715,13 +715,13 @@
     },
     {
       "id": "l536",
-      "text": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a video\n\nMimic Robotics connected it to a robot\n\nNow it’s handling cables, seals, and flexible car parts at Audi—the exact tasks traditional automation struggles with\n\n00:00 — Multimodal AI enters the physical world\n00:14 — Audi reveals how it’s testing and deploying FLUX-mimic\n00:25 — New tasks require just 30 minutes of robot data instead of 30+ hours\n00:40 — AI models leave the lab and enter the real world\n\nThe next b",
+      "text": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a video\n\nMimic Robotics connected it to a robot\n\nNow it\u2019s handling cables, seals, and flexible car parts at Audi\u2014the exact tasks traditional automation struggles with\n\n00:00 \u2014 Multimodal AI enters the physical world\n00:14 \u2014 Audi reveals how it\u2019s testing and deploying FLUX-mimic\n00:25 \u2014 New tasks require just 30 minutes of robot data instead of 30+ hours\n00:40 \u2014 AI models leave the lab and enter the real world\n\nThe next b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a vi…",
+          "title": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a vi\u2026",
           "url": "https://x.com/Prompt_ProfitAI/status/2085441684523917539",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -736,13 +736,13 @@
     },
     {
       "id": "l537",
-      "text": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nNo “AI-powered” landing page\nNo 40-person engineering team\nThey spent two years building four versions of the same idea—each one faster than the last\nTech Twitter talks a lot about moving fast\n\nThese guys took it literally",
+      "text": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nNo \u201cAI-powered\u201d landing page\nNo 40-person engineering team\nThey spent two years building four versions of the same idea\u2014each one faster than the last\nTech Twitter talks a lot about moving fast\n\nThese guys took it literally",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nN…",
+          "title": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nN\u2026",
           "url": "https://x.com/Prompt_ProfitAI/status/2085745879625953781",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -778,13 +778,13 @@
     },
     {
       "id": "l539",
-      "text": "#China’s #Army in 2025: A Mountain of #OpenSource Data\n\nhttps://t.co/AGiEASSIuY\n\nArticle Compilations by Ken Allen —\n\n⚔️   China’s Army in 2025: Sources & Key Issues\n⚔️   Overview File: China’s Army in 2025\n⚔️   English-Language PRC Articles on China’s Army in 2025\n⚔️   Chinese-Language PRC Articles on China’s Army in 2025\n\n[This summary was prepared with AI assistance and vetted by Ken Allen, who contributed key inputs. Unless otherwise specified, “Chinese” means “Chinese-language.”]\n\nhttps://t",
+      "text": "#China\u2019s #Army in 2025: A Mountain of #OpenSource Data\n\nhttps://t.co/AGiEASSIuY\n\nArticle Compilations by Ken Allen \u2014\n\n\u2694\ufe0f   China\u2019s Army in 2025: Sources & Key Issues\n\u2694\ufe0f   Overview File: China\u2019s Army in 2025\n\u2694\ufe0f   English-Language PRC Articles on China\u2019s Army in 2025\n\u2694\ufe0f   Chinese-Language PRC Articles on China\u2019s Army in 2025\n\n[This summary was prepared with AI assistance and vetted by Ken Allen, who contributed key inputs. Unless otherwise specified, \u201cChinese\u201d means \u201cChinese-language.\u201d]\n\nhttps://t",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "#China’s #Army in 2025: A Mountain of #OpenSource Data\n\nhttps://t.co/AGiEASSIuY\n…",
+          "title": "#China\u2019s #Army in 2025: A Mountain of #OpenSource Data\n\nhttps://t.co/AGiEASSIuY\n\u2026",
           "url": "https://x.com/AndrewSErickson/status/2087683384428425517",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -799,13 +799,13 @@
     },
     {
       "id": "l540",
-      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Question of the Self",
+      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Question of the Self",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Questio…",
+          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Questio\u2026",
           "url": "https://x.com/nithinpalal/status/2086874531751489924",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -826,7 +826,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "2,000 humanoid robots to be introduced in textile plants for faster, leaner prod…",
+          "title": "2,000 humanoid robots to be introduced in textile plants for faster, leaner prod\u2026",
           "url": "https://x.com/OwenGregorian/status/2082086040689668370",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -862,13 +862,13 @@
     },
     {
       "id": "l543",
-      "text": "How AI Is Used in Healthcare: A Simple Guide\n\nArtificial intelligence is already inside your hospital. It is reading your X-rays, transcribing your doctor's notes, predicting your risk of disease, and — in some cases — deciding whether your insurance will cover your treatment.\n\nAI in healthcare is not science fiction. It is happening right now, and it affects everyone who ever visits a doctor. In this guide, we will break down how AI is used in medicine today, where it helps, and where it raises",
+      "text": "How AI Is Used in Healthcare: A Simple Guide\n\nArtificial intelligence is already inside your hospital. It is reading your X-rays, transcribing your doctor's notes, predicting your risk of disease, and \u2014 in some cases \u2014 deciding whether your insurance will cover your treatment.\n\nAI in healthcare is not science fiction. It is happening right now, and it affects everyone who ever visits a doctor. In this guide, we will break down how AI is used in medicine today, where it helps, and where it raises",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How AI Is Used in Healthcare: A Simple Guide\n\nArtificial intelligence is already…",
+          "title": "How AI Is Used in Healthcare: A Simple Guide\n\nArtificial intelligence is already\u2026",
           "url": "https://x.com/Qubax_Ai/status/2073338738977935741",
           "date": "2026-07-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -889,7 +889,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Nerdicalization: How Hyper-Specific Technical Optimization Re-Engineers Legacy I…",
+          "title": "Nerdicalization: How Hyper-Specific Technical Optimization Re-Engineers Legacy I\u2026",
           "url": "https://x.com/BunnyFather/status/2076745230984843324",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -904,13 +904,13 @@
     },
     {
       "id": "l545",
-      "text": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the world’s largest AI data centers, using thermal drone footage to reveal the hidden pollution powering the AI boom. As companies race to build the future of artificial intelligence, residents and experts warn that fossil fuels, secrecy, and weak regulation may be putting communities at risk.\n\nYou can learn more about @floodlightnews  and its mission by visiting https://floodlightnews.org/\n\nSubscribe to Floodlight's YouTub…",
+      "text": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the world\u2019s largest AI data centers, using thermal drone footage to reveal the hidden pollution powering the AI boom. As companies race to build the future of artificial intelligence, residents and experts warn that fossil fuels, secrecy, and weak regulation may be putting communities at risk.\n\nYou can learn more about @floodlightnews  and its mission by visiting https://floodlightnews.org/\n\nSubscribe to Floodlight's YouTub\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the wor…",
+          "title": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the wor\u2026",
           "url": "https://www.youtube.com/watch?v=5p426fSlYH4",
           "date": "2026-05-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -925,13 +925,13 @@
     },
     {
       "id": "l546",
-      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world’s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode…",
+      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world\u2019s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My…",
+          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My\u2026",
           "url": "https://www.youtube.com/watch?v=eWC47agaKpk",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -946,13 +946,13 @@
     },
     {
       "id": "l547",
-      "text": "Why Is Energy Draining Robot Intelligence?\nWhat if the ultimate limitation of tomorrow's autonomous machines is not their artificial intelligence, but their massive power consumption?\n Standard military-support robots rapidly drain conventional batteries because running advanced sensors, high-power motors, constant communications, and onboard AI computing creates a massive energy demand\n.\nThis breakdown reveals the high-endurance engineering breakthroughs designed to keep autonomous ground platf…",
+      "text": "Why Is Energy Draining Robot Intelligence?\nWhat if the ultimate limitation of tomorrow's autonomous machines is not their artificial intelligence, but their massive power consumption?\n Standard military-support robots rapidly drain conventional batteries because running advanced sensors, high-power motors, constant communications, and onboard AI computing creates a massive energy demand\n.\nThis breakdown reveals the high-endurance engineering breakthroughs designed to keep autonomous ground platf\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why Is Energy Draining Robot Intelligence?\nWhat if the ultimate limitation of to…",
+          "title": "Why Is Energy Draining Robot Intelligence?\nWhat if the ultimate limitation of to\u2026",
           "url": "https://www.youtube.com/watch?v=KAqafA9uCQ4",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -967,13 +967,13 @@
     },
     {
       "id": "l548",
-      "text": "No Exposure To IT Yet; AI Disruption Still Too Uncertain: Marcellus Investment Managers\n#AlphaManagers | Pramod Gubbi, Marcellus Investment Managers To @CNBCTV18News\n\n* No exposure to IT yet; AI disruption still too uncertain\n* See quality stocks making a comeback as earnings bottom out\n* Bullish on manufacturing export-focussed sectors like textiles, chemicals & engineering good\n#AlphaManagers, #PramodGubbi, #Marcellus, #MarcellusInvestmentManagers, #CNBCTV18, #StockMarket, #IndianMarkets, #Inv…",
+      "text": "No Exposure To IT Yet; AI Disruption Still Too Uncertain: Marcellus Investment Managers\n#AlphaManagers | Pramod Gubbi, Marcellus Investment Managers To @CNBCTV18News\n\n* No exposure to IT yet; AI disruption still too uncertain\n* See quality stocks making a comeback as earnings bottom out\n* Bullish on manufacturing export-focussed sectors like textiles, chemicals & engineering good\n#AlphaManagers, #PramodGubbi, #Marcellus, #MarcellusInvestmentManagers, #CNBCTV18, #StockMarket, #IndianMarkets, #Inv\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "No Exposure To IT Yet; AI Disruption Still Too Uncertain: Marcellus Investment M…",
+          "title": "No Exposure To IT Yet; AI Disruption Still Too Uncertain: Marcellus Investment M\u2026",
           "url": "https://www.youtube.com/watch?v=DOKViyb09eQ",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -988,7 +988,7 @@
     },
     {
       "id": "l449",
-      "text": "Process Engineer — Sugar Australia (Racecourse, Queensland, Australia). Posted 5 days ago.",
+      "text": "Process Engineer \u2014 Sugar Australia (Racecourse, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1009,7 +1009,7 @@
     },
     {
       "id": "l450",
-      "text": "Process Engineer — Veolia | Australia & New Zealand (Norman Gardens, Queensland, Australia). Posted 1 month ago.",
+      "text": "Process Engineer \u2014 Veolia | Australia & New Zealand (Norman Gardens, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "l451",
-      "text": "Process Engineer — IFF (Melbourne, Victoria, Australia). Posted 6 days ago.",
+      "text": "Process Engineer \u2014 IFF (Melbourne, Victoria, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1051,7 +1051,7 @@
     },
     {
       "id": "l452",
-      "text": "Chemical Engineer — Alcoa Australia (Wagerup, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Chemical Engineer \u2014 Alcoa Australia (Wagerup, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1072,7 +1072,7 @@
     },
     {
       "id": "l453",
-      "text": "Process Engineer (Kwinana) — Covalent Lithium (Kwinana, Western Australia, Australia). Posted 5 days ago.",
+      "text": "Process Engineer (Kwinana) \u2014 Covalent Lithium (Kwinana, Western Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1093,7 +1093,7 @@
     },
     {
       "id": "l454",
-      "text": "Production Engineer — Linde (Wetherill Park, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Production Engineer \u2014 Linde (Wetherill Park, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1114,7 +1114,7 @@
     },
     {
       "id": "l455",
-      "text": "Production Engineer — BOC South Pacific (Wetherill Park, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Production Engineer \u2014 BOC South Pacific (Wetherill Park, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1135,7 +1135,7 @@
     },
     {
       "id": "l456",
-      "text": "Process Engineer — Beca (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Process Engineer \u2014 Beca (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1156,7 +1156,7 @@
     },
     {
       "id": "l457",
-      "text": "Process Engineer — Anglo American (Middlemount, Queensland, Australia). Posted 2 days ago.",
+      "text": "Process Engineer \u2014 Anglo American (Middlemount, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1177,7 +1177,7 @@
     },
     {
       "id": "l458",
-      "text": "Chemical / Process Engineer — Egis in ANZ (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Chemical / Process Engineer \u2014 Egis in ANZ (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1198,13 +1198,13 @@
     },
     {
       "id": "l559",
-      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
+      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
+          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1219,13 +1219,13 @@
     },
     {
       "id": "l560",
-      "text": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidcoder @playforge-coding Would it be possible for the Sparkle developers to use Boxy on your infrastructure as a chatbot, but in such a way that it can't open PRs or commit to Sparkle?\n\n@OmniBlocks/boxy Please research how this could be done. Afterwards, please output a list of your current\n<details>\n<summary>🔧 My tool activity log (4 calls)</summary>\n\n**1. `read_memory`**\n\nParams:\n```json\n{\n  \"title\": \"Allowed Reposito…",
+      "text": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidcoder @playforge-coding Would it be possible for the Sparkle developers to use Boxy on your infrastructure as a chatbot, but in such a way that it can't open PRs or commit to Sparkle?\n\n@OmniBlocks/boxy Please research how this could be done. Afterwards, please output a list of your current\n<details>\n<summary>\ud83d\udd27 My tool activity log (4 calls)</summary>\n\n**1. `read_memory`**\n\nParams:\n```json\n{\n  \"title\": \"Allowed Reposito\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidco…",
+          "title": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidco\u2026",
           "url": "https://github.com/OmniBlocks/Boxy-gh/issues/63",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1240,13 +1240,13 @@
     },
     {
       "id": "l561",
-      "text": "feat: unified theme consistency, atomic saves, dashboard improvements\n## Summary\n\nApplies the Cellar Ledger design system across all screens and adds atomic save semantics to the entry form.\n\n### Theme & UI consistency\n- Apply shared design tokens and components across **25+ screens** (analytics, calculators, farm detail, logs, tasks, warehouse, weather, soil profilin\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- walkthrough_start -->\n\n<details>\n<summary>📝 Walkthrou…",
+      "text": "feat: unified theme consistency, atomic saves, dashboard improvements\n## Summary\n\nApplies the Cellar Ledger design system across all screens and adds atomic save semantics to the entry form.\n\n### Theme & UI consistency\n- Apply shared design tokens and components across **25+ screens** (analytics, calculators, farm detail, logs, tasks, warehouse, weather, soil profilin\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- walkthrough_start -->\n\n<details>\n<summary>\ud83d\udcdd Walkthrou\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: unified theme consistency, atomic saves, dashboard improvements\n## Summary…",
+          "title": "feat: unified theme consistency, atomic saves, dashboard improvements\n## Summary\u2026",
           "url": "https://github.com/ashish921998/vinesight-rn/pull/145",
           "date": "2026-04-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1261,13 +1261,13 @@
     },
     {
       "id": "l562",
-      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       …",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe …",
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe \u2026",
           "url": "https://github.com/rakib06/mini-github/issues/14",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1282,13 +1282,13 @@
     },
     {
       "id": "l563",
-      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment—ranging from consumer earbuds to professional line arrays and covert surveillance g…",
+      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment\u2014ranging from consumer earbuds to professional line arrays and covert surveillance g\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su…",
+          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su\u2026",
           "url": "https://github.com/Transparency-X/Sound-Equipment-Lifespace/issues/1",
           "date": "2026-05-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1303,13 +1303,13 @@
     },
     {
       "id": "l564",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac…",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and …",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and \u2026",
           "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1324,13 +1324,13 @@
     },
     {
       "id": "l565",
-      "text": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the world’s largest AI data centers, using thermal drone footage to reveal the hidden pollution powering the AI boom. As companies race to build the future of artificial intelligence, residents and experts warn that fossil fuels, secrecy, and weak regulation may be putting communities at risk.\n\nYou can learn more about @floodlightnews  and its mission by visiting https://floodlightnews.org/\n\nSubscribe to Floodlight's YouTub…",
+      "text": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the world\u2019s largest AI data centers, using thermal drone footage to reveal the hidden pollution powering the AI boom. As companies race to build the future of artificial intelligence, residents and experts warn that fossil fuels, secrecy, and weak regulation may be putting communities at risk.\n\nYou can learn more about @floodlightnews  and its mission by visiting https://floodlightnews.org/\n\nSubscribe to Floodlight's YouTub\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the wor…",
+          "title": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the wor\u2026",
           "url": "https://www.youtube.com/watch?v=5p426fSlYH4",
           "date": "2026-05-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1345,13 +1345,13 @@
     },
     {
       "id": "l566",
-      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world’s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode…",
+      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world\u2019s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My…",
+          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My\u2026",
           "url": "https://www.youtube.com/watch?v=eWC47agaKpk",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1366,13 +1366,13 @@
     },
     {
       "id": "l567",
-      "text": "Why Is Energy Draining Robot Intelligence?\nWhat if the ultimate limitation of tomorrow's autonomous machines is not their artificial intelligence, but their massive power consumption?\n Standard military-support robots rapidly drain conventional batteries because running advanced sensors, high-power motors, constant communications, and onboard AI computing creates a massive energy demand\n.\nThis breakdown reveals the high-endurance engineering breakthroughs designed to keep autonomous ground platf…",
+      "text": "Why Is Energy Draining Robot Intelligence?\nWhat if the ultimate limitation of tomorrow's autonomous machines is not their artificial intelligence, but their massive power consumption?\n Standard military-support robots rapidly drain conventional batteries because running advanced sensors, high-power motors, constant communications, and onboard AI computing creates a massive energy demand\n.\nThis breakdown reveals the high-endurance engineering breakthroughs designed to keep autonomous ground platf\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why Is Energy Draining Robot Intelligence?\nWhat if the ultimate limitation of to…",
+          "title": "Why Is Energy Draining Robot Intelligence?\nWhat if the ultimate limitation of to\u2026",
           "url": "https://www.youtube.com/watch?v=KAqafA9uCQ4",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1387,16 +1387,310 @@
     },
     {
       "id": "l568",
-      "text": "No Exposure To IT Yet; AI Disruption Still Too Uncertain: Marcellus Investment Managers\n#AlphaManagers | Pramod Gubbi, Marcellus Investment Managers To @CNBCTV18News\n\n* No exposure to IT yet; AI disruption still too uncertain\n* See quality stocks making a comeback as earnings bottom out\n* Bullish on manufacturing export-focussed sectors like textiles, chemicals & engineering good\n#AlphaManagers, #PramodGubbi, #Marcellus, #MarcellusInvestmentManagers, #CNBCTV18, #StockMarket, #IndianMarkets, #Inv…",
+      "text": "No Exposure To IT Yet; AI Disruption Still Too Uncertain: Marcellus Investment Managers\n#AlphaManagers | Pramod Gubbi, Marcellus Investment Managers To @CNBCTV18News\n\n* No exposure to IT yet; AI disruption still too uncertain\n* See quality stocks making a comeback as earnings bottom out\n* Bullish on manufacturing export-focussed sectors like textiles, chemicals & engineering good\n#AlphaManagers, #PramodGubbi, #Marcellus, #MarcellusInvestmentManagers, #CNBCTV18, #StockMarket, #IndianMarkets, #Inv\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "No Exposure To IT Yet; AI Disruption Still Too Uncertain: Marcellus Investment M…",
+          "title": "No Exposure To IT Yet; AI Disruption Still Too Uncertain: Marcellus Investment M\u2026",
           "url": "https://www.youtube.com/watch?v=DOKViyb09eQ",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "17-2041-L1-01",
+      "text": "Chemical engineers managing process safety and hazardous chemicals in Australia are bound by the model Work Health and Safety Regulations (2011), which impose duties on PCBUs to manage risks from hazardous chemicals (SDS, labelling, risk management); major-hazard facilities are regulated by state authorities. Professional standing is via Engineers Australia (Washington Accord) or IChemE accreditation.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Safe Work Australia",
+          "title": "WHS duties related to hazardous chemicals",
+          "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemicals/whs-duties-related-hazardous-chemicals",
+          "date": "",
+          "whatItMeasured": "Safe Work Australia model WHS Regulations duties re hazardous chemicals; applies to process-chemical work."
+        }
+      ],
+      "scope": "AU model-WHS jurisdictions; chemical process-safety duties. Does not cover non-hazardous process design.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Regulator (SWA) guidance; population = AU chemical-handling workplaces; in force."
+    },
+    {
+      "id": "17-2041-L2-01",
+      "text": "JSA's Gen AI Capacity Study (Aug 2025) finds augmentation outweighs automation at the task level; chemical-engineering tasks such as literature review and process modelling show higher automatability while plant safety and regulatory judgement remain human-led, consistent with the study's routine-vs-non-routine exposure pattern.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition \u2013 Exposure (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study Paper A (Exposure): task-level augmentability/automatability scores across 358 ANZSCO occupations (Felten 2021 + ILO/Gmyrek-Berg-Bescond 2023 frameworks tailored to ANZSCO), Aug 2025."
+        }
+      ],
+      "scope": "Primary Australian government source; population = AU occupations (task cluster, not this SOC individually); published Aug 2025.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Primary Australian government source; population = AU occupations; published Aug 2025; framework transparent."
+    },
+    {
+      "id": "17-2041-L3-01",
+      "text": "Engineers Australia's 2025 AI-impact report frames AI as augmenting engineering work; for chemical engineers this maps to AI-assisted process modelling and literature review while scale-up, plant safety and regulatory judgement stay with the engineer.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Engineers Australia",
+          "title": "The impact of AI and generative technologies on the engineering profession",
+          "url": "https://www.engineersaustralia.org.au/publications/impact-ai-and-generative-technologies-engineering-profession",
+          "date": "2025-01",
+          "whatItMeasured": "Engineers Australia profession report on how AI/GenAI has transformed engineering businesses and the workforce, and how it will evolve."
+        }
+      ],
+      "scope": "Peak-body profession report; directional, AU engineering broadly; not a quantitative labour study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Peak body publication; directional, AU engineering; not a quantitative labour study."
+    },
+    {
+      "id": "l570",
+      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1439 roles**, refreshed Sat Aug 29, 19:51 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [x] **SpaceX** \u2014 [New Graduate Engineer, Software - '26/'27 (Starlink)](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_ji\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidcoder @playforge-coding Would it be possible for the Sparkle developers to use Boxy on your infrastructure as a chatbot, but in such a way that it can't open PRs or commit to Sparkle?\n\n@OmniBlocks/boxy Please research how this could be done. Afterwards, please output a list of your current\n<details>\n<summary>\ud83d\udd27 My tool activity log (4 calls)</summary>\n\n**1. `read_memory`**\n\nParams:\n```json\n{\n  \"title\": \"Allowed Reposito\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidco\u2026",
+          "url": "https://github.com/OmniBlocks/Boxy-gh/issues/63",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "feat: unified theme consistency, atomic saves, dashboard improvements\n## Summary\n\nApplies the Cellar Ledger design system across all screens and adds atomic save semantics to the entry form.\n\n### Theme & UI consistency\n- Apply shared design tokens and components across **25+ screens** (analytics, calculators, farm detail, logs, tasks, warehouse, weather, soil profilin\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- walkthrough_start -->\n\n<details>\n<summary>\ud83d\udcdd Walkthrou\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: unified theme consistency, atomic saves, dashboard improvements\n## Summary\u2026",
+          "url": "https://github.com/ashish921998/vinesight-rn/pull/145",
+          "date": "2026-04-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe \u2026",
+          "url": "https://github.com/rakib06/mini-github/issues/14",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment\u2014ranging from consumer earbuds to professional line arrays and covert surveillance g\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su\u2026",
+          "url": "https://github.com/Transparency-X/Sound-Equipment-Lifespace/issues/1",
+          "date": "2026-05-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and \u2026",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impacted. Sharing my views.\nThe setup Nasscom puts Indian tech revenue at $315 billion for FY26, growing 6.1%, with exports around $246 billion and a workforce touching 6 million. Sounds fine until you look at what is inside that number. Net job addition of about 135,000, against a sector that used to add three or four times that. TCS announced roughly 12,200 cuts this financial year, mostly middle and senior management,\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impa\u2026",
+          "url": "https://www.reddit.com/r/gujarat/comments/1ve8711/if_ai_breaks_indian_it_gujarat_is_one_of_the_few/",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "@vigneshwer_ram Blocked for AI slop.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@vigneshwer_ram Blocked for AI slop.",
+          "url": "https://x.com/8roku8hl/status/2093817271198097681",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the world\u2019s largest AI data centers, using thermal drone footage to reveal the hidden pollution powering the AI boom. As companies race to build the future of artificial intelligence, residents and experts warn that fossil fuels, secrecy, and weak regulation may be putting communities at risk.\n\nYou can learn more about @floodlightnews  and its mission by visiting https://floodlightnews.org/\n\nSubscribe to Floodlight's YouTub\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the wor\u2026",
+          "url": "https://www.youtube.com/watch?v=5p426fSlYH4",
+          "date": "2026-05-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "My Honest Thoughts on AI and the Job Market in 2026 (No Hype)\n\ud83d\ude80 Try Flow Pro free for 14 days + get an extra month free with my code TECHWITHTIM!\n\ud83d\udc49 Start here: https://ref.wisprflow.ai/techwithtim\n\nSoftware engineering has changed dramatically in 2026 and over the past few months. My opinion on AI as it relates to software engineering and the job market has changed as well. I want to go through five major shifts that I've seen recently and what I believe this means for the future of software dev\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "My Honest Thoughts on AI and the Job Market in 2026 (No Hype)\n\ud83d\ude80 Try Flow Pro fre\u2026",
+          "url": "https://www.youtube.com/watch?v=PEFso88LkC4",
+          "date": "2026-03-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "No Exposure To IT Yet; AI Disruption Still Too Uncertain: Marcellus Investment Managers\n#AlphaManagers | Pramod Gubbi, Marcellus Investment Managers To @CNBCTV18News\n\n* No exposure to IT yet; AI disruption still too uncertain\n* See quality stocks making a comeback as earnings bottom out\n* Bullish on manufacturing export-focussed sectors like textiles, chemicals & engineering good\n#AlphaManagers, #PramodGubbi, #Marcellus, #MarcellusInvestmentManagers, #CNBCTV18, #StockMarket, #IndianMarkets, #Inv\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "No Exposure To IT Yet; AI Disruption Still Too Uncertain: Marcellus Investment M\u2026",
+          "url": "https://www.youtube.com/watch?v=DOKViyb09eQ",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1423,7 +1717,32 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "chemical engineer",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+      "count": 481,
+      "returned": 50,
+      "topEmployers": [
+        "Hire Resolve.com",
+        "Alcoa",
+        "Skilled Jobs Australia",
+        "University of New South Wales",
+        "Macro Recruitment",
+        "Premium Graduate Placements",
+        "Omnia Specialities Australia",
+        "Cleanaway"
+      ],
+      "topSkills": [
+        "chemical",
+        "process",
+        "operations",
+        "plant",
+        "safety",
+        "production"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1434,7 +1753,29 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens/Factiva session expired (cookies 2026-08-26); L3 sourced from web trade press + Engineers Australia instead. Logged to factiva_backlog.json.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "seek",
+        "status": "not-sampled",
+        "detail": "Seek trend pages not queried this run; Adzuna AU (jobAds) + LinkedIn (L4 claims) cover L4 demand signal.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "last30days-hiring-signals",
+        "status": "not-sampled",
+        "detail": "last30days --hiring-signals not run separately; L5 last30days ran and Adzuna+LinkedIn cover L4 demand.",
+        "date": "2026-08-30"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1482,9 +1823,24 @@
           "youtube": 4
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 11,
+        "sources": {
+          "github": 6,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 2,
+          "x": 12,
+          "youtube": 3
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

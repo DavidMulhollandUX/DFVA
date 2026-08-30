@@ -10,8 +10,8 @@
     "from": "2025-08-01",
     "to": "2026-08-24"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-28",
   "programs": [],
   "claims": [
     {
@@ -22,7 +22,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Discussion: make the engineering change the unit of context, impact, verificatio…",
+          "title": "Discussion: make the engineering change the unit of context, impact, verificatio\u2026",
           "url": "https://github.com/czync/token-killer/issues/91",
           "date": "2026-07-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -37,13 +37,13 @@
     },
     {
       "id": "l504",
-      "text": "Add legacy compatibility adapters and gameplay patches\n## 🔗 Related Issue  Supersedes #241 by splitting that change set into a reviewable five-PR stack. This is part 3 of 5 and depends on #243.  ## 📝 Description of the Change  This layer adds the compatibility runtime that sits on top of the authoring and loader foundations from #242 and #243:  - Confus\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storag…",
+      "text": "Add legacy compatibility adapters and gameplay patches\n## \ud83d\udd17 Related Issue  Supersedes #241 by splitting that change set into a reviewable five-PR stack. This is part 3 of 5 and depends on #243.  ## \ud83d\udcdd Description of the Change  This layer adds the compatibility runtime that sits on top of the authoring and loader foundations from #242 and #243:  - Confus\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storag\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add legacy compatibility adapters and gameplay patches\n## 🔗 Related Issue  Super…",
+          "title": "Add legacy compatibility adapters and gameplay patches\n## \ud83d\udd17 Related Issue  Super\u2026",
           "url": "https://github.com/F-U-S-E-E/FuseDevelopmentGroup/pull/244",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -58,13 +58,13 @@
     },
     {
       "id": "l505",
-      "text": "💎 Knowledge Update & Optimization: 13 Jul 2026\n## 💎 Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n⚠️ **Detailed Safety Audit moved to comments due to scale.**\n\n\n### 🧠 AI Intelligence & Observability Report\n\n#### 🤖 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "💎 Knowledge Update & Optimization: 13 Jul 2026\n## 💎 Knowledge Update: 13 Jul 202…",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 202\u2026",
           "url": "https://github.com/nubenetes/awesome-kubernetes/pull/499",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -79,13 +79,13 @@
     },
     {
       "id": "l506",
-      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
+      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
+          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -100,13 +100,13 @@
     },
     {
       "id": "l507",
-      "text": "💎 Knowledge Update & Optimization: 13 Jul 2026\n## 💎 Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n⚠️ **Detailed Safety Audit moved to comments due to scale.**\n\n\n### 🧠 AI Intelligence & Observability Report\n\n#### 🤖 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.\n## 🛡️ Safety & Mandate Audit (Detailed)\n\n## 🛡️ Platinum Safety & Mandate Audit: ❌ FAILED\n*Audit executed on 2026-07-13 03:57:40*\n\n### 🔍 High-Value Pendin…",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.\n## \ud83d\udee1\ufe0f Safety & Mandate Audit (Detailed)\n\n## \ud83d\udee1\ufe0f Platinum Safety & Mandate Audit: \u274c FAILED\n*Audit executed on 2026-07-13 03:57:40*\n\n### \ud83d\udd0d High-Value Pendin\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "💎 Knowledge Update & Optimization: 13 Jul 2026\n## 💎 Knowledge Update: 13 Jul 202…",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 202\u2026",
           "url": "https://github.com/nubenetes/awesome-kubernetes/pull/499",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -121,13 +121,13 @@
     },
     {
       "id": "l508",
-      "text": "💎 Knowledge Update & Optimization: 18 May 2026\n## 💎 Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n⚠️ **Detailed Safety Audit moved to comments due to scale.**\n\n\n### 🧠 AI Intelligence & Observability Report\n\n#### 🤖 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "💎 Knowledge Update & Optimization: 18 May 2026\n## 💎 Knowledge Update: 18 May 202…",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 202\u2026",
           "url": "https://github.com/nubenetes/awesome-kubernetes/pull/133",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -148,7 +148,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2…",
+          "title": "Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2\u2026",
           "url": "https://github.com/Angelin-ak/novox-test-blog/issues/10",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -205,13 +205,13 @@
     },
     {
       "id": "l512",
-      "text": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
+      "text": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
+          "title": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
           "url": "https://github.com/calmrocks/ai-engineer-notebooks",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -331,13 +331,13 @@
     },
     {
       "id": "l518",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -415,13 +415,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -520,13 +520,13 @@
     },
     {
       "id": "l527",
-      "text": "Skyportal SRE – an open-source AI infrastructure engineer",
+      "text": "Skyportal SRE \u2013 an open-source AI infrastructure engineer",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Skyportal SRE – an open-source AI infrastructure engineer",
+          "title": "Skyportal SRE \u2013 an open-source AI infrastructure engineer",
           "url": "https://github.com/SkyportalAi/skyportalai",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -562,13 +562,13 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -604,13 +604,13 @@
     },
     {
       "id": "l531",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -646,13 +646,13 @@
     },
     {
       "id": "l533",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -667,13 +667,13 @@
     },
     {
       "id": "l534",
-      "text": "I Tried Unreal MCP and *Agentic AI Coding*. Here’s What I Got\nI decided to try Unreal MCP with an AI agent to see whether this stuff is actually as impressive as people keep claiming. Not because I particularly wanna use it, I honestly don&#39;t. After watching AI completely disrupt the web and mobile development industry, which I worked in for years, and being unemployed for almost two years now, I&#39;m not exactly excited about giving more money to those billionaire AI CEOs . Anyway, I wanted…",
+      "text": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try Unreal MCP with an AI agent to see whether this stuff is actually as impressive as people keep claiming. Not because I particularly wanna use it, I honestly don&#39;t. After watching AI completely disrupt the web and mobile development industry, which I worked in for years, and being unemployed for almost two years now, I&#39;m not exactly excited about giving more money to those billionaire AI CEOs . Anyway, I wanted\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I Tried Unreal MCP and *Agentic AI Coding*. Here’s What I Got\nI decided to try U…",
+          "title": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try U\u2026",
           "url": "https://www.reddit.com/r/unrealengine/comments/1vtl6ip/i_tried_unreal_mcp_and_agentic_ai_coding_heres/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -688,13 +688,13 @@
     },
     {
       "id": "l535",
-      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. “Overnight, it changed the way I do my job,” he wrote. “It’s really, really good.” As he explained, he no longer used a standard development environment. Instead, he “exclusively uses Claude Code” to get the job done, interacting with the tool in a terminal windo…",
+      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. \u201cOvernight, it changed the way I do my job,\u201d he wrote. \u201cIt\u2019s really, really good.\u201d As he explained, he no longer used a standard development environment. Instead, he \u201cexclusively uses Claude Code\u201d to get the job done, interacting with the tool in a terminal windo\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not…",
+          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not\u2026",
           "url": "https://www.reddit.com/r/webdev/comments/1vksk2d/on_ai_coding_and_its_discontents_cal_newport/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -709,13 +709,13 @@
     },
     {
       "id": "l536",
-      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. “Overnight, it changed the way I do my job,” he wrote. “It’s really, really good.” As he explained, he no longer used a standard development environment. Instead, he “exclusively uses Claude Code” to get the job done, interacting with the tool in a terminal windo…",
+      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. \u201cOvernight, it changed the way I do my job,\u201d he wrote. \u201cIt\u2019s really, really good.\u201d As he explained, he no longer used a standard development environment. Instead, he \u201cexclusively uses Claude Code\u201d to get the job done, interacting with the tool in a terminal windo\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not…",
+          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not\u2026",
           "url": "https://www.reddit.com/r/theprimeagen/comments/1vksl8x/on_ai_coding_and_its_discontents_cal_newport/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -730,13 +730,13 @@
     },
     {
       "id": "l537",
-      "text": "AI is Making Me Stupid\nI&#39;ve been using AI for over a year for both personal and professional tasks. I find it to be boring and dumbing. I enjoy solving engineering problems, I enjoy writing new code and utilities that solve problems. It&#39;s interesting and what keeps me in the technology domain. Now with AI I feel like a chump. I just have to come up with a sufficient prompt and AI will generate all that for me so why am I still here? It&#39;s not a ego thing, it&#39;s a matter of wanting …",
+      "text": "AI is Making Me Stupid\nI&#39;ve been using AI for over a year for both personal and professional tasks. I find it to be boring and dumbing. I enjoy solving engineering problems, I enjoy writing new code and utilities that solve problems. It&#39;s interesting and what keeps me in the technology domain. Now with AI I feel like a chump. I just have to come up with a sufficient prompt and AI will generate all that for me so why am I still here? It&#39;s not a ego thing, it&#39;s a matter of wanting \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI is Making Me Stupid\nI&#39;ve been using AI for over a year for both personal …",
+          "title": "AI is Making Me Stupid\nI&#39;ve been using AI for over a year for both personal \u2026",
           "url": "https://www.reddit.com/r/AIDiscussion/comments/1vtp6om/ai_is_making_me_stupid/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -751,13 +751,13 @@
     },
     {
       "id": "l538",
-      "text": "Bill Gates says artificial intelligence could reshape the labor market far faster than previous technological shifts, with major disruption potentially occurring over the course of a decade rather than several generations, according to CNBC.\nIn a new essay, the Microsoft co-founder argues that AI can substitute for human cognition across a broad range of industries, including law, customer service, medicine, software and manufacturing. He says many jobs could disappear permanently, particularly …",
+      "text": "Bill Gates says artificial intelligence could reshape the labor market far faster than previous technological shifts, with major disruption potentially occurring over the course of a decade rather than several generations, according to CNBC.\nIn a new essay, the Microsoft co-founder argues that AI can substitute for human cognition across a broad range of industries, including law, customer service, medicine, software and manufacturing. He says many jobs could disappear permanently, particularly \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates says artificial intelligence could reshape the labor market far faste…",
+          "title": "Bill Gates says artificial intelligence could reshape the labor market far faste\u2026",
           "url": "https://www.reddit.com/r/AIdaily_news/comments/1vyzcme/bill_gates_says_artificial_intelligence_could/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -772,13 +772,13 @@
     },
     {
       "id": "l539",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -793,13 +793,13 @@
     },
     {
       "id": "l540",
-      "text": "Why Does AI Seem to Face So Much More Resistance in the U.S. Than in China?\nEver since generative AI entered the mainstream, I’ve noticed something interesting: There seems to be an enormous amount of anti-AI sentiment in American online communities. AI-generated art gets criticized. AI writing gets criticized. AI coding gets criticized. Companies get attacked for adopting AI. Sometimes, even saying that you use AI heavily at work is enough for people to accuse you of “cheating,” having no real …",
+      "text": "Why Does AI Seem to Face So Much More Resistance in the U.S. Than in China?\nEver since generative AI entered the mainstream, I\u2019ve noticed something interesting: There seems to be an enormous amount of anti-AI sentiment in American online communities. AI-generated art gets criticized. AI writing gets criticized. AI coding gets criticized. Companies get attacked for adopting AI. Sometimes, even saying that you use AI heavily at work is enough for people to accuse you of \u201ccheating,\u201d having no real \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why Does AI Seem to Face So Much More Resistance in the U.S. Than in China?\nEver…",
+          "title": "Why Does AI Seem to Face So Much More Resistance in the U.S. Than in China?\nEver\u2026",
           "url": "https://www.reddit.com/r/aiwars/comments/1vz2ls5/why_does_ai_seem_to_face_so_much_more_resistance/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -814,13 +814,13 @@
     },
     {
       "id": "l541",
-      "text": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impacted. Sharing my views.\nThe setup Nasscom puts Indian tech revenue at $315 billion for FY26, growing 6.1%, with exports around $246 billion and a workforce touching 6 million. Sounds fine until you look at what is inside that number. Net job addition of about 135,000, against a sector that used to add three or four times that. TCS announced roughly 12,200 cuts this financial year, mostly middle and senior management,…",
+      "text": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impacted. Sharing my views.\nThe setup Nasscom puts Indian tech revenue at $315 billion for FY26, growing 6.1%, with exports around $246 billion and a workforce touching 6 million. Sounds fine until you look at what is inside that number. Net job addition of about 135,000, against a sector that used to add three or four times that. TCS announced roughly 12,200 cuts this financial year, mostly middle and senior management,\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impa…",
+          "title": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impa\u2026",
           "url": "https://www.reddit.com/r/gujarat/comments/1ve8711/if_ai_breaks_indian_it_gujarat_is_one_of_the_few/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -835,13 +835,13 @@
     },
     {
       "id": "l542",
-      "text": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Companies\nI want to explain why I remain skeptical about the idea that what happened to Suno and Udio was simply an ordinary copyright dispute that happened to end in licensing agreements. I am not claiming to know what happened behind closed doors, because I don&#39;t have access to the private negotiations, settlement agreements, or internal communications between these companies. What I am doing is looking at the public …",
+      "text": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Companies\nI want to explain why I remain skeptical about the idea that what happened to Suno and Udio was simply an ordinary copyright dispute that happened to end in licensing agreements. I am not claiming to know what happened behind closed doors, because I don&#39;t have access to the private negotiations, settlement agreements, or internal communications between these companies. What I am doing is looking at the public \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Compani…",
+          "title": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Compani\u2026",
           "url": "https://www.reddit.com/r/SunoAI/comments/1vli6v5/why_i_believe_suno_and_udio_were_treated/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -856,13 +856,13 @@
     },
     {
       "id": "l543",
-      "text": "I think AI has made being a developer a better profession.\nThe impact of AI on the software development industry is impossible to ignore, but I believe that, overall, this disruption is a positive thing. AI is going to reshape the developer job market and weed out a lot of people who think of themselves as developers—people I’d call “API boys,” including many of those so-called full-stack developers. For quite some time, the software development industry has been seriously oversaturated. A lot o…",
+      "text": "I think AI has made being a developer a better profession.\nThe impact of AI on the software development industry is impossible to ignore, but I believe that, overall, this disruption is a positive thing. AI is going to reshape the developer job market and weed out a lot of people who think of themselves as developers\u2014people I\u2019d call \u201cAPI boys,\u201d including many of those so-called full-stack developers. For quite some time, the software development industry has been seriously oversaturated. A lot o\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I think AI has made being a developer a better profession.\nThe impact of AI on t…",
+          "title": "I think AI has made being a developer a better profession.\nThe impact of AI on t\u2026",
           "url": "https://www.reddit.com/r/cscareerquestions/comments/1vu3okl/i_think_ai_has_made_being_a_developer_a_better/",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -877,13 +877,13 @@
     },
     {
       "id": "l544",
-      "text": "In ten years, will “written without AI” mean anything?\nI&#39;ve been thinking about what AI-assisted writing might look like ten years from now. The amount of information available to AI keeps growing, and AI itself is being integrated into more and more of the tools we use every day. At some point, I wonder if using AI will stop feeling like a deliberate choice and start feeling more like using a microchip—something so deeply embedded in our tools that we barely think about whether we&#39;re “u…",
+      "text": "In ten years, will \u201cwritten without AI\u201d mean anything?\nI&#39;ve been thinking about what AI-assisted writing might look like ten years from now. The amount of information available to AI keeps growing, and AI itself is being integrated into more and more of the tools we use every day. At some point, I wonder if using AI will stop feeling like a deliberate choice and start feeling more like using a microchip\u2014something so deeply embedded in our tools that we barely think about whether we&#39;re \u201cu\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "In ten years, will “written without AI” mean anything?\nI&#39;ve been thinking ab…",
+          "title": "In ten years, will \u201cwritten without AI\u201d mean anything?\nI&#39;ve been thinking ab\u2026",
           "url": "https://www.reddit.com/r/AIWritingLounge/comments/1vowt68/in_ten_years_will_written_without_ai_mean_anything/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -898,13 +898,13 @@
     },
     {
       "id": "l545",
-      "text": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years | Simonroses\n\nWork is not disappearing. The job is. The salaried, 9-to-5, one-employer-for-decades package we call “a job” is an industrial-age artifact, and AI agents plus humanoid robots are dismantling it piece by piece. Over the next 10 years, repetitive, risky, and simple tasks get automated at both ends: cognitive work by agents, physical work by robots. The 9-to-5 schedule dies first. Remote and hybrid work kee",
+      "text": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years | Simonroses\n\nWork is not disappearing. The job is. The salaried, 9-to-5, one-employer-for-decades package we call \u201ca job\u201d is an industrial-age artifact, and AI agents plus humanoid robots are dismantling it piece by piece. Over the next 10 years, repetitive, risky, and simple tasks get automated at both ends: cognitive work by agents, physical work by robots. The 9-to-5 schedule dies first. Remote and hybrid work kee",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years |…",
+          "title": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years |\u2026",
           "url": "https://x.com/OwenGregorian/status/2091137764980912401",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -919,13 +919,13 @@
     },
     {
       "id": "l546",
-      "text": "I’m not a technical fella, but I studied engineering (alongside finance), cover technical industries at work (a lot of industrial technology) and have friends at a number of the leading AI / robotics companies. General thoughts from conversations with these folks over the last 2-3 years on AI / Physical AI:\n\n• I do not think AGI is worth spending much mindspace on right now. It is too loosely defined and the goalposts keep moving. We have been one month away from AGI for the last year. Doesn't m",
+      "text": "I\u2019m not a technical fella, but I studied engineering (alongside finance), cover technical industries at work (a lot of industrial technology) and have friends at a number of the leading AI / robotics companies. General thoughts from conversations with these folks over the last 2-3 years on AI / Physical AI:\n\n\u2022 I do not think AGI is worth spending much mindspace on right now. It is too loosely defined and the goalposts keep moving. We have been one month away from AGI for the last year. Doesn't m",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I’m not a technical fella, but I studied engineering (alongside finance), cover …",
+          "title": "I\u2019m not a technical fella, but I studied engineering (alongside finance), cover \u2026",
           "url": "https://x.com/Noodle_Noodle1/status/2092227557202763820",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -961,13 +961,13 @@
     },
     {
       "id": "l548",
-      "text": "The Real Threat Isn’t AI. It’s Compute.",
+      "text": "The Real Threat Isn\u2019t AI. It\u2019s Compute.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Real Threat Isn’t AI. It’s Compute.",
+          "title": "The Real Threat Isn\u2019t AI. It\u2019s Compute.",
           "url": "https://x.com/Bradleyxf0/status/2092430372617282006",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -982,13 +982,13 @@
     },
     {
       "id": "l549",
-      "text": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence.\n\nThe Microsoft co-founder and billionaire philanthropist told Reuters in an interview that he believes China might agree to restricting potentially dangerous AI model releases if the U.S. took the initiative.\n\n“The whole world would go along with",
+      "text": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence.\n\nThe Microsoft co-founder and billionaire philanthropist told Reuters in an interview that he believes China might agree to restricting potentially dangerous AI model releases if the U.S. took the initiative.\n\n\u201cThe whole world would go along with",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill…",
+          "title": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill\u2026",
           "url": "https://x.com/OwenGregorian/status/2093324365257457709",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1003,13 +1003,13 @@
     },
     {
       "id": "l550",
-      "text": "AI NEWS: Week of August 24–30, 2026",
+      "text": "AI NEWS: Week of August 24\u201330, 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI NEWS: Week of August 24–30, 2026",
+          "title": "AI NEWS: Week of August 24\u201330, 2026",
           "url": "https://x.com/davidakpovi/status/2093287033800179758",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1030,7 +1030,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Fully AI-Guided Russian Drones Have Reportedly Killed Ukrainian Civilians | Ece …",
+          "title": "Fully AI-Guided Russian Drones Have Reportedly Killed Ukrainian Civilians | Ece \u2026",
           "url": "https://x.com/OwenGregorian/status/2093324464188449024",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1045,13 +1045,13 @@
     },
     {
       "id": "l552",
-      "text": "French firm’s new industrial humanoid robot learns faster through human demonstrations | Jijo Malayil, Interesting Engineering\n\nThe humanoid combines a soft outer shell with exposed joints, prioritizing function while remaining approachable and distinct.\n\nFrench robotics firm UMA has unveiled the design of its first AI-powered humanoid robot at the Machina Summit in Paris.\n\nThe humanoid features human-scale proportions, a neutral visor instead of a face, and visible mechanical joints. The compan",
+      "text": "French firm\u2019s new industrial humanoid robot learns faster through human demonstrations | Jijo Malayil, Interesting Engineering\n\nThe humanoid combines a soft outer shell with exposed joints, prioritizing function while remaining approachable and distinct.\n\nFrench robotics firm UMA has unveiled the design of its first AI-powered humanoid robot at the Machina Summit in Paris.\n\nThe humanoid features human-scale proportions, a neutral visor instead of a face, and visible mechanical joints. The compan",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "French firm’s new industrial humanoid robot learns faster through human demonstr…",
+          "title": "French firm\u2019s new industrial humanoid robot learns faster through human demonstr\u2026",
           "url": "https://x.com/OwenGregorian/status/2075180657039249488",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1072,7 +1072,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "https://t.co/ikq3UyGnau\n\n$NVDA $MU $SNDK $LITE EXECUTIVE SUMMARY\n\nThe GTC Taipei…",
+          "title": "https://t.co/ikq3UyGnau\n\n$NVDA $MU $SNDK $LITE EXECUTIVE SUMMARY\n\nThe GTC Taipei\u2026",
           "url": "https://x.com/TheValueist/status/2061410630947491875",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1129,13 +1129,13 @@
     },
     {
       "id": "l556",
-      "text": "AI Isn’t Stealing Your Job — It’s Creating Better Ones",
+      "text": "AI Isn\u2019t Stealing Your Job \u2014 It\u2019s Creating Better Ones",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Isn’t Stealing Your Job — It’s Creating Better Ones",
+          "title": "AI Isn\u2019t Stealing Your Job \u2014 It\u2019s Creating Better Ones",
           "url": "https://x.com/Robertl83909710/status/2053641357592494140",
           "date": "2026-05-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1192,13 +1192,13 @@
     },
     {
       "id": "l559",
-      "text": "Tech Jobs for Industrial Engineers: Salaries & Transition Plan in 2026\n🎯 Career coaching for engineers\nGet clarity on your career direction, strengthen your CV and professional positioning, or build a practical career roadmap:\nhttps://amirzeynali.com/coaching\n\n🎓 Courses for industrial engineers\nPre-register for practical, self-paced programs and reserve the current early-signup offer:\nhttps://amirzeynali.com/courses\n\n🏭 Optimization services for businesses\nImprove operations, ERP workflows, data-…",
+      "text": "Tech Jobs for Industrial Engineers: Salaries & Transition Plan in 2026\n\ud83c\udfaf Career coaching for engineers\nGet clarity on your career direction, strengthen your CV and professional positioning, or build a practical career roadmap:\nhttps://amirzeynali.com/coaching\n\n\ud83c\udf93 Courses for industrial engineers\nPre-register for practical, self-paced programs and reserve the current early-signup offer:\nhttps://amirzeynali.com/courses\n\n\ud83c\udfed Optimization services for businesses\nImprove operations, ERP workflows, data-\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Tech Jobs for Industrial Engineers: Salaries & Transition Plan in 2026\n🎯 Career …",
+          "title": "Tech Jobs for Industrial Engineers: Salaries & Transition Plan in 2026\n\ud83c\udfaf Career \u2026",
           "url": "https://www.youtube.com/watch?v=denH7wkBcS4",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1213,13 +1213,13 @@
     },
     {
       "id": "l560",
-      "text": "What 6 months of AI coding did to my dev team\nIf you're building software in your business - running a dev team, hiring developers, or vibe-coding with Lovable, Bolt or Cursor - the ground under you has already shifted. Most founders are hiring for the wrong skills and do not realise it yet.\n\nI'm running a 20-person dev team building We UC, our unified communications platform. Over the last six months, the bottleneck in software development has moved. It is not where it used to be. And what I'm …",
+      "text": "What 6 months of AI coding did to my dev team\nIf you're building software in your business - running a dev team, hiring developers, or vibe-coding with Lovable, Bolt or Cursor - the ground under you has already shifted. Most founders are hiring for the wrong skills and do not realise it yet.\n\nI'm running a 20-person dev team building We UC, our unified communications platform. Over the last six months, the bottleneck in software development has moved. It is not where it used to be. And what I'm \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "What 6 months of AI coding did to my dev team\nIf you're building software in you…",
+          "title": "What 6 months of AI coding did to my dev team\nIf you're building software in you\u2026",
           "url": "https://www.youtube.com/watch?v=h0hdaHPKDdI",
           "date": "2026-04-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1234,13 +1234,13 @@
     },
     {
       "id": "l561",
-      "text": "This Is The Next Industry AI Will Disrupt\nAI is already transforming entire professions like software engineering and law. And accounting might be next. In this episode of The Breakdown, YC’s Tom Blomfield and David Lieb sat down with Onshore founder Dominic Vitucci to find out just how AI is fundamentally changing one of the world’s oldest professions and what that could mean for the future of white collar work.",
+      "text": "This Is The Next Industry AI Will Disrupt\nAI is already transforming entire professions like software engineering and law. And accounting might be next. In this episode of The Breakdown, YC\u2019s Tom Blomfield and David Lieb sat down with Onshore founder Dominic Vitucci to find out just how AI is fundamentally changing one of the world\u2019s oldest professions and what that could mean for the future of white collar work.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "This Is The Next Industry AI Will Disrupt\nAI is already transforming entire prof…",
+          "title": "This Is The Next Industry AI Will Disrupt\nAI is already transforming entire prof\u2026",
           "url": "https://www.youtube.com/watch?v=lfzm2SlhbM8",
           "date": "2026-03-07",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1255,7 +1255,7 @@
     },
     {
       "id": "l462",
-      "text": "Process Engineer — Sugar Australia (Racecourse, Queensland, Australia). Posted 5 days ago.",
+      "text": "Process Engineer \u2014 Sugar Australia (Racecourse, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1276,7 +1276,7 @@
     },
     {
       "id": "l463",
-      "text": "Continuous Improvement Engineer — Etex (Hazelmere, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Continuous Improvement Engineer \u2014 Etex (Hazelmere, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1297,7 +1297,7 @@
     },
     {
       "id": "l464",
-      "text": "CI Engineer — Etex (Altona, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "CI Engineer \u2014 Etex (Altona, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1318,7 +1318,7 @@
     },
     {
       "id": "l465",
-      "text": "Manufacturing Engineer — Arkeus (Ormeau, Queensland, Australia). Posted 20 hours ago.",
+      "text": "Manufacturing Engineer \u2014 Arkeus (Ormeau, Queensland, Australia). Posted 20 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1339,7 +1339,7 @@
     },
     {
       "id": "l466",
-      "text": "Production Engineer — SMC Corporation Australia and New Zealand (Castle Hill, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Production Engineer \u2014 SMC Corporation Australia and New Zealand (Castle Hill, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1360,7 +1360,7 @@
     },
     {
       "id": "l467",
-      "text": "Process Improvement Engineer — CGC Recruitment (Greater Sydney Area). Posted 6 days ago.",
+      "text": "Process Improvement Engineer \u2014 CGC Recruitment (Greater Sydney Area). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1381,7 +1381,7 @@
     },
     {
       "id": "l468",
-      "text": "Process Engineer — The Midfield Group (Warrnambool, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Process Engineer \u2014 The Midfield Group (Warrnambool, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1402,7 +1402,7 @@
     },
     {
       "id": "l469",
-      "text": "Operations Engineer, Global Engineering Services — Amazon (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Operations Engineer, Global Engineering Services \u2014 Amazon (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1423,7 +1423,7 @@
     },
     {
       "id": "l470",
-      "text": "Production Engineer — Lincoln Electric (Malaga, Western Australia, Australia). Posted 5 days ago.",
+      "text": "Production Engineer \u2014 Lincoln Electric (Malaga, Western Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1444,7 +1444,7 @@
     },
     {
       "id": "l471",
-      "text": "Manufacturing Improvement Lead — CMTP (Edinburgh, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Manufacturing Improvement Lead \u2014 CMTP (Edinburgh, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1465,13 +1465,13 @@
     },
     {
       "id": "l572",
-      "text": "Add legacy compatibility adapters and gameplay patches\n## 🔗 Related Issue  Supersedes #241 by splitting that change set into a reviewable five-PR stack. This is part 3 of 5 and depends on #243.  ## 📝 Description of the Change  This layer adds the compatibility runtime that sits on top of the authoring and loader foundations from #242 and #243:  - Confus\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storag…",
+      "text": "Add legacy compatibility adapters and gameplay patches\n## \ud83d\udd17 Related Issue  Supersedes #241 by splitting that change set into a reviewable five-PR stack. This is part 3 of 5 and depends on #243.  ## \ud83d\udcdd Description of the Change  This layer adds the compatibility runtime that sits on top of the authoring and loader foundations from #242 and #243:  - Confus\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storag\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add legacy compatibility adapters and gameplay patches\n## 🔗 Related Issue  Super…",
+          "title": "Add legacy compatibility adapters and gameplay patches\n## \ud83d\udd17 Related Issue  Super\u2026",
           "url": "https://github.com/F-U-S-E-E/FuseDevelopmentGroup/pull/244",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1486,13 +1486,13 @@
     },
     {
       "id": "l573",
-      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
+      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
+          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1507,13 +1507,13 @@
     },
     {
       "id": "l574",
-      "text": "💎 Knowledge Update & Optimization: 13 Jul 2026\n## 💎 Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n⚠️ **Detailed Safety Audit moved to comments due to scale.**\n\n\n### 🧠 AI Intelligence & Observability Report\n\n#### 🤖 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.\n## 🛡️ Safety & Mandate Audit (Detailed)\n\n## 🛡️ Platinum Safety & Mandate Audit: ❌ FAILED\n*Audit executed on 2026-07-13 03:57:40*\n\n### 🔍 High-Value Pendin…",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.\n## \ud83d\udee1\ufe0f Safety & Mandate Audit (Detailed)\n\n## \ud83d\udee1\ufe0f Platinum Safety & Mandate Audit: \u274c FAILED\n*Audit executed on 2026-07-13 03:57:40*\n\n### \ud83d\udd0d High-Value Pendin\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "💎 Knowledge Update & Optimization: 13 Jul 2026\n## 💎 Knowledge Update: 13 Jul 202…",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 202\u2026",
           "url": "https://github.com/nubenetes/awesome-kubernetes/pull/499",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1528,13 +1528,13 @@
     },
     {
       "id": "l575",
-      "text": "I Tried Unreal MCP and *Agentic AI Coding*. Here’s What I Got\nI decided to try Unreal MCP with an AI agent to see whether this stuff is actually as impressive as people keep claiming. Not because I particularly wanna use it, I honestly don&#39;t. After watching AI completely disrupt the web and mobile development industry, which I worked in for years, and being unemployed for almost two years now, I&#39;m not exactly excited about giving more money to those billionaire AI CEOs . Anyway, I wanted…",
+      "text": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try Unreal MCP with an AI agent to see whether this stuff is actually as impressive as people keep claiming. Not because I particularly wanna use it, I honestly don&#39;t. After watching AI completely disrupt the web and mobile development industry, which I worked in for years, and being unemployed for almost two years now, I&#39;m not exactly excited about giving more money to those billionaire AI CEOs . Anyway, I wanted\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I Tried Unreal MCP and *Agentic AI Coding*. Here’s What I Got\nI decided to try U…",
+          "title": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try U\u2026",
           "url": "https://www.reddit.com/r/unrealengine/comments/1vtl6ip/i_tried_unreal_mcp_and_agentic_ai_coding_heres/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1549,13 +1549,13 @@
     },
     {
       "id": "l576",
-      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. “Overnight, it changed the way I do my job,” he wrote. “It’s really, really good.” As he explained, he no longer used a standard development environment. Instead, he “exclusively uses Claude Code” to get the job done, interacting with the tool in a terminal windo…",
+      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. \u201cOvernight, it changed the way I do my job,\u201d he wrote. \u201cIt\u2019s really, really good.\u201d As he explained, he no longer used a standard development environment. Instead, he \u201cexclusively uses Claude Code\u201d to get the job done, interacting with the tool in a terminal windo\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not…",
+          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not\u2026",
           "url": "https://www.reddit.com/r/webdev/comments/1vksk2d/on_ai_coding_and_its_discontents_cal_newport/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1570,13 +1570,13 @@
     },
     {
       "id": "l577",
-      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. “Overnight, it changed the way I do my job,” he wrote. “It’s really, really good.” As he explained, he no longer used a standard development environment. Instead, he “exclusively uses Claude Code” to get the job done, interacting with the tool in a terminal windo…",
+      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. \u201cOvernight, it changed the way I do my job,\u201d he wrote. \u201cIt\u2019s really, really good.\u201d As he explained, he no longer used a standard development environment. Instead, he \u201cexclusively uses Claude Code\u201d to get the job done, interacting with the tool in a terminal windo\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not…",
+          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not\u2026",
           "url": "https://www.reddit.com/r/theprimeagen/comments/1vksl8x/on_ai_coding_and_its_discontents_cal_newport/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1591,13 +1591,13 @@
     },
     {
       "id": "l578",
-      "text": "AI is Making Me Stupid\nI&#39;ve been using AI for over a year for both personal and professional tasks. I find it to be boring and dumbing. I enjoy solving engineering problems, I enjoy writing new code and utilities that solve problems. It&#39;s interesting and what keeps me in the technology domain. Now with AI I feel like a chump. I just have to come up with a sufficient prompt and AI will generate all that for me so why am I still here? It&#39;s not a ego thing, it&#39;s a matter of wanting …",
+      "text": "AI is Making Me Stupid\nI&#39;ve been using AI for over a year for both personal and professional tasks. I find it to be boring and dumbing. I enjoy solving engineering problems, I enjoy writing new code and utilities that solve problems. It&#39;s interesting and what keeps me in the technology domain. Now with AI I feel like a chump. I just have to come up with a sufficient prompt and AI will generate all that for me so why am I still here? It&#39;s not a ego thing, it&#39;s a matter of wanting \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI is Making Me Stupid\nI&#39;ve been using AI for over a year for both personal …",
+          "title": "AI is Making Me Stupid\nI&#39;ve been using AI for over a year for both personal \u2026",
           "url": "https://www.reddit.com/r/AIDiscussion/comments/1vtp6om/ai_is_making_me_stupid/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1612,13 +1612,13 @@
     },
     {
       "id": "l579",
-      "text": "Bill Gates says artificial intelligence could reshape the labor market far faster than previous technological shifts, with major disruption potentially occurring over the course of a decade rather than several generations, according to CNBC.\nIn a new essay, the Microsoft co-founder argues that AI can substitute for human cognition across a broad range of industries, including law, customer service, medicine, software and manufacturing. He says many jobs could disappear permanently, particularly …",
+      "text": "Bill Gates says artificial intelligence could reshape the labor market far faster than previous technological shifts, with major disruption potentially occurring over the course of a decade rather than several generations, according to CNBC.\nIn a new essay, the Microsoft co-founder argues that AI can substitute for human cognition across a broad range of industries, including law, customer service, medicine, software and manufacturing. He says many jobs could disappear permanently, particularly \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates says artificial intelligence could reshape the labor market far faste…",
+          "title": "Bill Gates says artificial intelligence could reshape the labor market far faste\u2026",
           "url": "https://www.reddit.com/r/AIdaily_news/comments/1vyzcme/bill_gates_says_artificial_intelligence_could/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1633,13 +1633,13 @@
     },
     {
       "id": "l580",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1654,13 +1654,13 @@
     },
     {
       "id": "l581",
-      "text": "Why Does AI Seem to Face So Much More Resistance in the U.S. Than in China?\nEver since generative AI entered the mainstream, I’ve noticed something interesting: There seems to be an enormous amount of anti-AI sentiment in American online communities. AI-generated art gets criticized. AI writing gets criticized. AI coding gets criticized. Companies get attacked for adopting AI. Sometimes, even saying that you use AI heavily at work is enough for people to accuse you of “cheating,” having no real …",
+      "text": "Why Does AI Seem to Face So Much More Resistance in the U.S. Than in China?\nEver since generative AI entered the mainstream, I\u2019ve noticed something interesting: There seems to be an enormous amount of anti-AI sentiment in American online communities. AI-generated art gets criticized. AI writing gets criticized. AI coding gets criticized. Companies get attacked for adopting AI. Sometimes, even saying that you use AI heavily at work is enough for people to accuse you of \u201ccheating,\u201d having no real \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why Does AI Seem to Face So Much More Resistance in the U.S. Than in China?\nEver…",
+          "title": "Why Does AI Seem to Face So Much More Resistance in the U.S. Than in China?\nEver\u2026",
           "url": "https://www.reddit.com/r/aiwars/comments/1vz2ls5/why_does_ai_seem_to_face_so_much_more_resistance/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1675,13 +1675,13 @@
     },
     {
       "id": "l582",
-      "text": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impacted. Sharing my views.\nThe setup Nasscom puts Indian tech revenue at $315 billion for FY26, growing 6.1%, with exports around $246 billion and a workforce touching 6 million. Sounds fine until you look at what is inside that number. Net job addition of about 135,000, against a sector that used to add three or four times that. TCS announced roughly 12,200 cuts this financial year, mostly middle and senior management,…",
+      "text": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impacted. Sharing my views.\nThe setup Nasscom puts Indian tech revenue at $315 billion for FY26, growing 6.1%, with exports around $246 billion and a workforce touching 6 million. Sounds fine until you look at what is inside that number. Net job addition of about 135,000, against a sector that used to add three or four times that. TCS announced roughly 12,200 cuts this financial year, mostly middle and senior management,\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impa…",
+          "title": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impa\u2026",
           "url": "https://www.reddit.com/r/gujarat/comments/1ve8711/if_ai_breaks_indian_it_gujarat_is_one_of_the_few/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1696,13 +1696,13 @@
     },
     {
       "id": "l583",
-      "text": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Companies\nI want to explain why I remain skeptical about the idea that what happened to Suno and Udio was simply an ordinary copyright dispute that happened to end in licensing agreements. I am not claiming to know what happened behind closed doors, because I don&#39;t have access to the private negotiations, settlement agreements, or internal communications between these companies. What I am doing is looking at the public …",
+      "text": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Companies\nI want to explain why I remain skeptical about the idea that what happened to Suno and Udio was simply an ordinary copyright dispute that happened to end in licensing agreements. I am not claiming to know what happened behind closed doors, because I don&#39;t have access to the private negotiations, settlement agreements, or internal communications between these companies. What I am doing is looking at the public \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Compani…",
+          "title": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Compani\u2026",
           "url": "https://www.reddit.com/r/SunoAI/comments/1vli6v5/why_i_believe_suno_and_udio_were_treated/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1717,13 +1717,13 @@
     },
     {
       "id": "l584",
-      "text": "I think AI has made being a developer a better profession.\nThe impact of AI on the software development industry is impossible to ignore, but I believe that, overall, this disruption is a positive thing. AI is going to reshape the developer job market and weed out a lot of people who think of themselves as developers—people I’d call “API boys,” including many of those so-called full-stack developers. For quite some time, the software development industry has been seriously oversaturated. A lot o…",
+      "text": "I think AI has made being a developer a better profession.\nThe impact of AI on the software development industry is impossible to ignore, but I believe that, overall, this disruption is a positive thing. AI is going to reshape the developer job market and weed out a lot of people who think of themselves as developers\u2014people I\u2019d call \u201cAPI boys,\u201d including many of those so-called full-stack developers. For quite some time, the software development industry has been seriously oversaturated. A lot o\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I think AI has made being a developer a better profession.\nThe impact of AI on t…",
+          "title": "I think AI has made being a developer a better profession.\nThe impact of AI on t\u2026",
           "url": "https://www.reddit.com/r/cscareerquestions/comments/1vu3okl/i_think_ai_has_made_being_a_developer_a_better/",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1738,13 +1738,13 @@
     },
     {
       "id": "l585",
-      "text": "In ten years, will “written without AI” mean anything?\nI&#39;ve been thinking about what AI-assisted writing might look like ten years from now. The amount of information available to AI keeps growing, and AI itself is being integrated into more and more of the tools we use every day. At some point, I wonder if using AI will stop feeling like a deliberate choice and start feeling more like using a microchip—something so deeply embedded in our tools that we barely think about whether we&#39;re “u…",
+      "text": "In ten years, will \u201cwritten without AI\u201d mean anything?\nI&#39;ve been thinking about what AI-assisted writing might look like ten years from now. The amount of information available to AI keeps growing, and AI itself is being integrated into more and more of the tools we use every day. At some point, I wonder if using AI will stop feeling like a deliberate choice and start feeling more like using a microchip\u2014something so deeply embedded in our tools that we barely think about whether we&#39;re \u201cu\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "In ten years, will “written without AI” mean anything?\nI&#39;ve been thinking ab…",
+          "title": "In ten years, will \u201cwritten without AI\u201d mean anything?\nI&#39;ve been thinking ab\u2026",
           "url": "https://www.reddit.com/r/AIWritingLounge/comments/1vowt68/in_ten_years_will_written_without_ai_mean_anything/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1759,13 +1759,13 @@
     },
     {
       "id": "l586",
-      "text": "Tech Jobs for Industrial Engineers: Salaries & Transition Plan in 2026\n🎯 Career coaching for engineers\nGet clarity on your career direction, strengthen your CV and professional positioning, or build a practical career roadmap:\nhttps://amirzeynali.com/coaching\n\n🎓 Courses for industrial engineers\nPre-register for practical, self-paced programs and reserve the current early-signup offer:\nhttps://amirzeynali.com/courses\n\n🏭 Optimization services for businesses\nImprove operations, ERP workflows, data-…",
+      "text": "Tech Jobs for Industrial Engineers: Salaries & Transition Plan in 2026\n\ud83c\udfaf Career coaching for engineers\nGet clarity on your career direction, strengthen your CV and professional positioning, or build a practical career roadmap:\nhttps://amirzeynali.com/coaching\n\n\ud83c\udf93 Courses for industrial engineers\nPre-register for practical, self-paced programs and reserve the current early-signup offer:\nhttps://amirzeynali.com/courses\n\n\ud83c\udfed Optimization services for businesses\nImprove operations, ERP workflows, data-\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Tech Jobs for Industrial Engineers: Salaries & Transition Plan in 2026\n🎯 Career …",
+          "title": "Tech Jobs for Industrial Engineers: Salaries & Transition Plan in 2026\n\ud83c\udfaf Career \u2026",
           "url": "https://www.youtube.com/watch?v=denH7wkBcS4",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1780,16 +1780,1339 @@
     },
     {
       "id": "l587",
-      "text": "What 6 months of AI coding did to my dev team\nIf you're building software in your business - running a dev team, hiring developers, or vibe-coding with Lovable, Bolt or Cursor - the ground under you has already shifted. Most founders are hiring for the wrong skills and do not realise it yet.\n\nI'm running a 20-person dev team building We UC, our unified communications platform. Over the last six months, the bottleneck in software development has moved. It is not where it used to be. And what I'm …",
+      "text": "What 6 months of AI coding did to my dev team\nIf you're building software in your business - running a dev team, hiring developers, or vibe-coding with Lovable, Bolt or Cursor - the ground under you has already shifted. Most founders are hiring for the wrong skills and do not realise it yet.\n\nI'm running a 20-person dev team building We UC, our unified communications platform. Over the last six months, the bottleneck in software development has moved. It is not where it used to be. And what I'm \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "What 6 months of AI coding did to my dev team\nIf you're building software in you…",
+          "title": "What 6 months of AI coding did to my dev team\nIf you're building software in you\u2026",
           "url": "https://www.youtube.com/watch?v=h0hdaHPKDdI",
           "date": "2026-04-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "17-2112-L1-01",
+      "text": "Industrial engineers in Australia are recognised via Engineers Australia's National Engineering Register (NER, introduced 2015) and accredited programs (Washington Accord); their method toolkit centres on lean, six sigma and process optimisation, now intersecting with Industry 4.0 and AI-assisted simulation. The NER is a register, not a licence (unlike Victoria's PE registration).",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Engineers Australia",
+          "title": "National Engineering Register",
+          "url": "https://www.engineersaustralia.org.au/credentials/registration/national-engineering-register",
+          "date": "2026-07-03",
+          "whatItMeasured": "EA NER recognition framework + accredited engineering qualifications; industrial-engineering method toolkit."
+        }
+      ],
+      "scope": "Australian recognised engineers; NER is a register not a licence.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "EA peak body; population = AU recognised industrial engineers; NER current (updated 2026-07-03)."
+    },
+    {
+      "id": "17-2112-L2-01",
+      "text": "JSA's Gen AI Capacity Study (Aug 2025) finds augmentation outweighs automation at the task level; industrial-engineering tasks (process modelling, optimisation scenarios) show higher automatability while change management and operations judgement remain human-led.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition \u2013 Exposure (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study Paper A (Exposure): task-level augmentability/automatability scores across 358 ANZSCO occupations (Felten 2021 + ILO/Gmyrek-Berg-Bescond 2023 frameworks tailored to ANZSCO), Aug 2025."
+        }
+      ],
+      "scope": "Primary Australian government source; population = AU occupations (task cluster, not this SOC individually); published Aug 2025.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Primary Australian government source; population = AU occupations; published Aug 2025; framework transparent."
+    },
+    {
+      "id": "17-2112-L3-01",
+      "text": "Engineers Australia's 2025 AI-impact report frames AI as augmenting engineering work; for industrial engineers this is AI-assisted optimisation and simulation while change management stays human.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Engineers Australia",
+          "title": "The impact of AI and generative technologies on the engineering profession",
+          "url": "https://www.engineersaustralia.org.au/publications/impact-ai-and-generative-technologies-engineering-profession",
+          "date": "2025-01",
+          "whatItMeasured": "Engineers Australia profession report on how AI/GenAI has transformed engineering businesses and the workforce, and how it will evolve."
+        }
+      ],
+      "scope": "Peak-body profession report; directional, AU engineering broadly; not a quantitative labour study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Peak body publication; directional, AU engineering; not a quantitative labour study."
+    },
+    {
+      "id": "l590",
+      "text": "Add legacy compatibility adapters and gameplay patches\n## \ud83d\udd17 Related Issue  Supersedes #241 by splitting that change set into a reviewable five-PR stack. This is part 3 of 5 and depends on #243.  ## \ud83d\udcdd Description of the Change  This layer adds the compatibility runtime that sits on top of the authoring and loader foundations from #242 and #243:  - Confus\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storag\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add legacy compatibility adapters and gameplay patches\n## \ud83d\udd17 Related Issue  Super\u2026",
+          "url": "https://github.com/F-U-S-E-E/FuseDevelopmentGroup/pull/244",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l591",
+      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1439 roles**, refreshed Sat Aug 29, 19:51 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [x] **SpaceX** \u2014 [New Graduate Engineer, Software - '26/'27 (Starlink)](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_ji\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.\n## \ud83d\udee1\ufe0f Safety & Mandate Audit (Detailed)\n\n## \ud83d\udee1\ufe0f Platinum Safety & Mandate Audit: \u274c FAILED\n*Audit executed on 2026-07-13 03:57:40*\n\n### \ud83d\udd0d High-Value Pendin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 202\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/499",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l594",
+      "text": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try Unreal MCP with an AI agent to see whether this stuff is actually as impressive as people keep claiming. Not because I particularly wanna use it, I honestly don&#39;t. After watching AI completely disrupt the web and mobile development industry, which I worked in for years, and being unemployed for almost two years now, I&#39;m not exactly excited about giving more money to those billionaire AI CEOs . Anyway, I wanted\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try U\u2026",
+          "url": "https://www.reddit.com/r/unrealengine/comments/1vtl6ip/i_tried_unreal_mcp_and_agentic_ai_coding_heres/",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l595",
+      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. \u201cOvernight, it changed the way I do my job,\u201d he wrote. \u201cIt\u2019s really, really good.\u201d As he explained, he no longer used a standard development environment. Instead, he \u201cexclusively uses Claude Code\u201d to get the job done, interacting with the tool in a terminal windo\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not\u2026",
+          "url": "https://www.reddit.com/r/webdev/comments/1vksk2d/on_ai_coding_and_its_discontents_cal_newport/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l597",
+      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. \u201cOvernight, it changed the way I do my job,\u201d he wrote. \u201cIt\u2019s really, really good.\u201d As he explained, he no longer used a standard development environment. Instead, he \u201cexclusively uses Claude Code\u201d to get the job done, interacting with the tool in a terminal windo\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not\u2026",
+          "url": "https://www.reddit.com/r/theprimeagen/comments/1vksl8x/on_ai_coding_and_its_discontents_cal_newport/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l598",
+      "text": "AI is Making Me Stupid\nI&#39;ve been using AI for over a year for both personal and professional tasks. I find it to be boring and dumbing. I enjoy solving engineering problems, I enjoy writing new code and utilities that solve problems. It&#39;s interesting and what keeps me in the technology domain. Now with AI I feel like a chump. I just have to come up with a sufficient prompt and AI will generate all that for me so why am I still here? It&#39;s not a ego thing, it&#39;s a matter of wanting \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI is Making Me Stupid\nI&#39;ve been using AI for over a year for both personal \u2026",
+          "url": "https://www.reddit.com/r/AIDiscussion/comments/1vtp6om/ai_is_making_me_stupid/",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "Bill Gates says artificial intelligence could reshape the labor market far faster than previous technological shifts, with major disruption potentially occurring over the course of a decade rather than several generations, according to CNBC.\nIn a new essay, the Microsoft co-founder argues that AI can substitute for human cognition across a broad range of industries, including law, customer service, medicine, software and manufacturing. He says many jobs could disappear permanently, particularly \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates says artificial intelligence could reshape the labor market far faste\u2026",
+          "url": "https://www.reddit.com/r/AIdaily_news/comments/1vyzcme/bill_gates_says_artificial_intelligence_could/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "Why Does AI Seem to Face So Much More Resistance in the U.S. Than in China?\nEver since generative AI entered the mainstream, I\u2019ve noticed something interesting: There seems to be an enormous amount of anti-AI sentiment in American online communities. AI-generated art gets criticized. AI writing gets criticized. AI coding gets criticized. Companies get attacked for adopting AI. Sometimes, even saying that you use AI heavily at work is enough for people to accuse you of \u201ccheating,\u201d having no real \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Why Does AI Seem to Face So Much More Resistance in the U.S. Than in China?\nEver\u2026",
+          "url": "https://www.reddit.com/r/aiwars/comments/1vz2ls5/why_does_ai_seem_to_face_so_much_more_resistance/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impacted. Sharing my views.\nThe setup Nasscom puts Indian tech revenue at $315 billion for FY26, growing 6.1%, with exports around $246 billion and a workforce touching 6 million. Sounds fine until you look at what is inside that number. Net job addition of about 135,000, against a sector that used to add three or four times that. TCS announced roughly 12,200 cuts this financial year, mostly middle and senior management,\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impa\u2026",
+          "url": "https://www.reddit.com/r/gujarat/comments/1ve8711/if_ai_breaks_indian_it_gujarat_is_one_of_the_few/",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Companies\nI want to explain why I remain skeptical about the idea that what happened to Suno and Udio was simply an ordinary copyright dispute that happened to end in licensing agreements. I am not claiming to know what happened behind closed doors, because I don&#39;t have access to the private negotiations, settlement agreements, or internal communications between these companies. What I am doing is looking at the public \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Compani\u2026",
+          "url": "https://www.reddit.com/r/SunoAI/comments/1vli6v5/why_i_believe_suno_and_udio_were_treated/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "I think AI has made being a developer a better profession.\nThe impact of AI on the software development industry is impossible to ignore, but I believe that, overall, this disruption is a positive thing. AI is going to reshape the developer job market and weed out a lot of people who think of themselves as developers\u2014people I\u2019d call \u201cAPI boys,\u201d including many of those so-called full-stack developers. For quite some time, the software development industry has been seriously oversaturated. A lot o\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I think AI has made being a developer a better profession.\nThe impact of AI on t\u2026",
+          "url": "https://www.reddit.com/r/cscareerquestions/comments/1vu3okl/i_think_ai_has_made_being_a_developer_a_better/",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "In ten years, will \u201cwritten without AI\u201d mean anything?\nI&#39;ve been thinking about what AI-assisted writing might look like ten years from now. The amount of information available to AI keeps growing, and AI itself is being integrated into more and more of the tools we use every day. At some point, I wonder if using AI will stop feeling like a deliberate choice and start feeling more like using a microchip\u2014something so deeply embedded in our tools that we barely think about whether we&#39;re \u201cu\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "In ten years, will \u201cwritten without AI\u201d mean anything?\nI&#39;ve been thinking ab\u2026",
+          "url": "https://www.reddit.com/r/AIWritingLounge/comments/1vowt68/in_ten_years_will_written_without_ai_mean_anything/",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "Elon Musk told Jamie Dimon why Earth cannot keep up with AI. He didn't talk vision. He talked physics.\n\nMusk: \"I think we can do probably somewhere around 1 terawatt per year of AI space compute from Earth, but we can do 1,000 terawatts or more from the Moon.\"\n\nOne terawatt. That is the hard thermodynamic ceiling of this planet.\n\nEvery reactor. Every solar array. Every grid upgrade humanity can engineer. The whole thing tops out at one terawatt of AI compute.\n\nEarth is not a launchpad anymore. I",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Elon Musk told Jamie Dimon why Earth cannot keep up with AI. He didn't talk visi\u2026",
+          "url": "https://x.com/AiEvolutio58513/status/2093655931993399702",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "AI IS NO LONGER THE FUTURE. IT IS ALREADY CHANGING THE WORLD. \ud83e\udd16",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI IS NO LONGER THE FUTURE. IT IS ALREADY CHANGING THE WORLD. \ud83e\udd16",
+          "url": "https://x.com/mistersx16/status/2093639939904741617",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "So What If We Are Overbuilding AI Infrastructure?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "So What If We Are Overbuilding AI Infrastructure?",
+          "url": "https://x.com/madridraptor/status/2093746748606808161",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "California\u2019s New Efficiency Standards Make Replacement Tires A Luxury Item | I & I Editorial Board, Climate Change Dispatch\n\nWhich state has the highest retail tire prices in the country? It\u2019s not a data point that anyone, as far as we know, compiles, but artificial intelligence suggests that it\u2019s California. What we can be sure about, though, is that in about three years, California drivers will be paying more for tires than they are today. [some emphasis, links added]\n\nSignificantly\u00a0more.\n\nIt",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "California\u2019s New Efficiency Standards Make Replacement Tires A Luxury Item | I &\u2026",
+          "url": "https://x.com/OwenGregorian/status/2093679912498372690",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "ENEMY AT THE GATES: Aiko\u2019s Journey Across the AI Threshold [Part 4]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "ENEMY AT THE GATES: Aiko\u2019s Journey Across the AI Threshold [Part 4]",
+          "url": "https://x.com/SkillsGapTrain/status/2093838893166862578",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "https://t.co/IzFNMr38rG",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "https://t.co/IzFNMr38rG",
+          "url": "https://x.com/OwenGregorian/status/2093700197377302684",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "Your morning coffee might blunt some of fructose\u2019s metabolic mess \u2014 if you skip the sugar\n\nThe world drinks about 2.25 billion cups of coffee a day. It also drinks a staggering amount of soda. A new review in the journal Diseases asks a slightly spicy question: can the first habit take some of the sting out of the second?\n\nThe short version is \u201cmaybe, in rats, and a little bit in people \u2014 as long as you are not turning the coffee into dessert.\u201d\n\nResearchers at Mexico\u2019s Social Security Institute,",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Your morning coffee might blunt some of fructose\u2019s metabolic mess \u2014 if you skip \u2026",
+          "url": "https://x.com/OwenGregorian/status/2093680053825507385",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5112",
+      "text": "It\u2019s Saturday, and that means it\u2019s time for The Afterparty.\n\nWe start with the Simultaneous Sip, then you get the mic.\n\nBring a take on what we covered on the Scott Adams School with Erica and Marcela or from the news:\n\n1. Margaret Brennan insisting kids weren\u2019t forced into COVID shots\n\n2. FEMA crews skipping homes with Trump signs\n\n3. Data centers vacuuming the trades off housing sites so we can't build\n\nEveryone is welcome to speak. Two rules:\n\n1. Be respectful\n2. Don\u2019t interrupt\n\nRequest the",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "It\u2019s Saturday, and that means it\u2019s time for The Afterparty.\n\nWe start with the S\u2026",
+          "url": "https://x.com/OwenGregorian/status/2093683436485530030",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5113",
+      "text": "Here is your personal, digitally engraved invitation to the Afterparty.\n\nWill you be there?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Here is your personal, digitally engraved invitation to the Afterparty.\n\nWill yo\u2026",
+          "url": "https://x.com/OwenGregorian/status/2093691546319138853",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5114",
+      "text": "@rodmanmaffet A lot. But mostly for my day job.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@rodmanmaffet A lot. But mostly for my day job.",
+          "url": "https://x.com/OwenGregorian/status/2093685889612255709",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5115",
+      "text": "$NVDA $MU $SNDK $LITE Valient effort @nicochristie . Unfortunately in GAI consolidation and scale are the only way.\n\nBest of luck on your next project.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "$NVDA $MU $SNDK $LITE Valient effort @nicochristie . Unfortunately in GAI consol\u2026",
+          "url": "https://x.com/TheValueist/status/2093732742001524770",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5116",
+      "text": "This one hits. I learned it firsthand with $IREN. At one point it was 60% of my portfolio. The hardest part wasn\u2019t deciding whether IREN was still a good company\u2014it was asking whether it was still the best place for my capital.\n\nYour cost basis is history. Capital allocation is about what happens next.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "This one hits. I learned it firsthand with $IREN. At one point it was 60% of my \u2026",
+          "url": "https://x.com/JRConviction/status/2093852143379714402",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5117",
+      "text": "$DBA",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "$DBA",
+          "url": "https://x.com/TheValueist/status/2093732879184601181",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5118",
+      "text": "$VLO $MPC $PSX $DINO Venezuela unfortunately can\u2019t grow production without help from the US. This is a win/win deal for both countries.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "$VLO $MPC $PSX $DINO Venezuela unfortunately can\u2019t grow production without help \u2026",
+          "url": "https://x.com/TheValueist/status/2093872637298532787",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5119",
+      "text": "@HiiiPowerRevo @Dfarkle2 Being disrespectful in my replies is a good way to get blocked.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@HiiiPowerRevo @Dfarkle2 Being disrespectful in my replies is a good way to get \u2026",
+          "url": "https://x.com/OwenGregorian/status/2093686279946764346",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5120",
+      "text": "$DBA EXECUTIVE ASSESSMENT (1/x)\n\nThe agricultural commodity complex presents a constructive but highly heterogeneous setup. The bullish case rests on tightening wheat and cattle balances, robust corn and soybean processing demand, policy-supported soybean-oil consumption, elevated energy and logistics costs, weather dispersion, and an increasingly consequential 2026\u20132027 El Ni\u00f1o. The bearish case rests on potentially large Northern Hemisphere row-crop harvests, ample global soybean availability,",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "$DBA EXECUTIVE ASSESSMENT (1/x)\n\nThe agricultural commodity complex presents a c\u2026",
+          "url": "https://x.com/TheValueist/status/2093783134659596744",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5121",
+      "text": "$DBA $VLO $MPC $PSX $DINO The key point is that diesel is not a simple 1-for-1 bullish or bearish input for DBA. The impact depends on why diesel is high, how long it stays high, and whether the increase is large enough to change farmer behavior, logistics, biofuel economics, or food demand. In the very short run, elevated diesel can actually hurt farm margins without immediately lifting agricultural futures. Over several planting and harvesting cycles, persistently high diesel becomes increasin",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "$DBA $VLO $MPC $PSX $DINO The key point is that diesel is not a simple 1-for-1 b\u2026",
+          "url": "https://x.com/TheValueist/status/2093783509462593855",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5122",
+      "text": "@JonkooTrades Google will tech you: \u201cMonk mode is a self-imposed period of intense focus and temporary isolation where you cut out everyday distractions to reach a specific personal or professional goal\u201d",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@JonkooTrades Google will tech you: \u201cMonk mode is a self-imposed period of inten\u2026",
+          "url": "https://x.com/BlackPantherCap/status/2093798159398965449",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5123",
+      "text": "@TheValueist Silly to assume that 1/2 the people in the world wouldn't be opposed to every single thing that happened in Venezuela. Because they are opposed to every single thing that Trump does.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheValueist Silly to assume that 1/2 the people in the world wouldn't be oppose\u2026",
+          "url": "https://x.com/ScubaMikeBTC/status/2093614057697730982",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5124",
+      "text": "@cmazas83 Thank you! Appreciate it! And yes \ud83d\ude05",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@cmazas83 Thank you! Appreciate it! And yes \ud83d\ude05",
+          "url": "https://x.com/BlackPantherCap/status/2093797583151882674",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5125",
+      "text": "@AlfredENewman5 They started with two octopuses, a bottle of Chianti, and a long weekend.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@AlfredENewman5 They started with two octopuses, a bottle of Chianti, and a long\u2026",
+          "url": "https://x.com/OwenGregorian/status/2093684815346180287",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5126",
+      "text": "@JonkooTrades My 365 Challenge with posting on X everyday, is monk-mode.\n\nBasically is locking in.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@JonkooTrades My 365 Challenge with posting on X everyday, is monk-mode.\n\nBasica\u2026",
+          "url": "https://x.com/BlackPantherCap/status/2093798583032054239",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5127",
+      "text": "@JonkooTrades Oh, you\u2019ve never heard of it? \ud83e\uddd8\u200d\u2642\ufe0f",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@JonkooTrades Oh, you\u2019ve never heard of it? \ud83e\uddd8\u200d\u2642\ufe0f",
+          "url": "https://x.com/BlackPantherCap/status/2093797875238977956",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5128",
+      "text": "@WildBever Reflection, insight, next level \ud83e\uddd8\u200d\u2642\ufe0f",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@WildBever Reflection, insight, next level \ud83e\uddd8\u200d\u2642\ufe0f",
+          "url": "https://x.com/BlackPantherCap/status/2093797752215916930",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5129",
+      "text": "SUGAR\n\nSugar sits at the intersection of weather, petroleum, currencies, ethanol policy, and government intervention. USDA projected Brazilian 2026\u20132027 sugar production near 42.5 million metric tons, approximately 1.3 million below the prior estimate, partly because a larger share of cane was expected to be directed toward ethanol. Thailand\u2019s output was projected near 9.5 million metric tons, while India\u2019s balance remained sensitive to weather, domestic prices, export restrictions, imports, and",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "SUGAR\n\nSugar sits at the intersection of weather, petroleum, currencies, ethanol\u2026",
+          "url": "https://x.com/TheValueist/status/2093783141898957074",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5130",
+      "text": "@OrangeCryptoTec Will do! And thanks for the kind and supportive words \ud83d\ude4f",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@OrangeCryptoTec Will do! And thanks for the kind and supportive words \ud83d\ude4f",
+          "url": "https://x.com/BlackPantherCap/status/2093811320197877762",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5131",
+      "text": "@TheValueist Solid. The piece I'd add is realized price \u2014 even blended to Merey, it's a heavy sour only US Gulf cokers and Chinese teapots really want, and the teapots take it at a steep discount. Cash flow per barrel, not just output, is what actually caps the rebuild.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheValueist Solid. The piece I'd add is realized price \u2014 even blended to Merey,\u2026",
+          "url": "https://x.com/derrick_dao/status/2093689938088706144",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5132",
+      "text": "@BlackPantherCap Also other side of the coin, if the thesis gets stronger, don\u2019t be worried about increasing your average cost.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@BlackPantherCap Also other side of the coin, if the thesis gets stronger, don\u2019t\u2026",
+          "url": "https://x.com/brokenclockrisk/status/2093861229286621347",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5133",
+      "text": "@proxietuna @BlackPantherCap More what shade gets thrown at me when I critique names. You can tell they are not rational or logical.  Very easy to see.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@proxietuna @BlackPantherCap More what shade gets thrown at me when I critique n\u2026",
+          "url": "https://x.com/BenBajarin/status/2093851637773447552",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5134",
+      "text": "@OwenGregorian Waiting to have the switch installed!",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@OwenGregorian Waiting to have the switch installed!",
+          "url": "https://x.com/JerryReinoehl/status/2093892332458291237",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5135",
+      "text": "@OwenGregorian Bad history with humans messing with Mother Nature's natural balance.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@OwenGregorian Bad history with humans messing with Mother Nature's natural bala\u2026",
+          "url": "https://x.com/JerryReinoehl/status/2093887131357757501",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5136",
+      "text": "@OwenGregorian This is your best:",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@OwenGregorian This is your best:",
+          "url": "https://x.com/cryptodiaries/status/2093886697788362895",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5137",
+      "text": "@OwenGregorian Two espressos every morning.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@OwenGregorian Two espressos every morning.",
+          "url": "https://x.com/ShepherdWatcher/status/2093883496313786740",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5138",
+      "text": "@OwenGregorian The societal implications of digital privacy depend heavily on transparency, accountability, and governance over the next decade.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@OwenGregorian The societal implications of digital privacy depend heavily on tr\u2026",
+          "url": "https://x.com/AtikulRoma72686/status/2093874122921300147",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5139",
+      "text": "@TradableAstro Whats you\u2019re thesis behind this since October? Statiscly september should be worse than October right.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TradableAstro Whats you\u2019re thesis behind this since October? Statiscly septembe\u2026",
+          "url": "https://x.com/BlackPantherCap/status/2093799297892421770",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5140",
+      "text": "@zedryaz \ud83d\udc4a",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@zedryaz \ud83d\udc4a",
+          "url": "https://x.com/BlackPantherCap/status/2093797781580231084",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5141",
+      "text": "LIQUIDITY AND ETF FUNCTION\n\nThe source material reports a bid of 29.18, an ask of 29.19, NAV of 29.164, and market price of 29.19. The bid-ask spread was approximately 3.4 basis points, and the market price was approximately 8.9 basis points above NAV. These are efficient trading characteristics for a specialized commodity pool and indicate that the ETF creation-redemption mechanism was functioning normally.\n\nDaily trading value at the reported 3.34 million shares and 29.19 price was approximate",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "LIQUIDITY AND ETF FUNCTION\n\nThe source material reports a bid of 29.18, an ask o\u2026",
+          "url": "https://x.com/TheValueist/status/2093783147372564834",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5142",
+      "text": "@BlackPantherCap This is why I\u2019m trying to anchor myself to the thesis instead of the price\n\nWhat did I expect the business to do when I bought it? Are those signals getting stronger or weaker?\n\nMy entry price doesn\u2019t answer either question.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@BlackPantherCap This is why I\u2019m trying to anchor myself to the thesis instead o\u2026",
+          "url": "https://x.com/weijinnnnnn/status/2093835665847025706",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5143",
+      "text": "@BlackPantherCap Yep way too many people too emotionally attached.  Especially those coming out of crypto to invest in tech IMO..",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@BlackPantherCap Yep way too many people too emotionally attached.  Especially t\u2026",
+          "url": "https://x.com/BenBajarin/status/2093828365207880133",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5144",
+      "text": "@TheValueist @nicochristie Yeah you're that capital's the only real barrier now.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheValueist @nicochristie Yeah you're that capital's the only real barrier now.",
+          "url": "https://x.com/MoMoMacro/status/2093782496290730323",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5145",
+      "text": "@TheValueist lowkey elite info.\n\nhttps://t.co/lbFVAhazqI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheValueist lowkey elite info.\n\nhttps://t.co/lbFVAhazqI",
+          "url": "https://x.com/_XZIIIZX/status/2093443562608427365",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5146",
+      "text": "@TheValueist This isn't the hardest part. The hardest part will be when the bullwhip effect kicks in when margins collapse in the next couple of years and it goes back to like 500 dollars. That'll be the hard part. Memory stocks are in an obvious distribution phase.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheValueist This isn't the hardest part. The hardest part will be when the bull\u2026",
+          "url": "https://x.com/JD04925090/status/2093408099319046279",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5147",
+      "text": "AI Is Destroying India's Outsourcing Industry?\nIs AI destroying the offshore outsourcing model?\n\nAfter a surprising conversation with a former colleague from India, I began investigating what may be one of the biggest economic disruptions happening in the global technology industry right now. For decades, countries like India built massive offshore technology sectors around software development, IT services, business process outsourcing, and engineering support. But according to industry insider\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Is Destroying India's Outsourcing Industry?\nIs AI destroying the offshore out\u2026",
+          "url": "https://www.youtube.com/watch?v=JAHt9hxaBp4",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5148",
+      "text": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world\u2019s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we\u2019ll see by\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot\u2026",
+          "url": "https://www.youtube.com/watch?v=aV26V1UvkJw",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5149",
+      "text": "Tech Jobs for Industrial Engineers: Salaries & Transition Plan in 2026\n\ud83c\udfaf Career coaching for engineers\nGet clarity on your career direction, strengthen your CV and professional positioning, or build a practical career roadmap:\nhttps://amirzeynali.com/coaching\n\n\ud83c\udf93 Courses for industrial engineers\nPre-register for practical, self-paced programs and reserve the current early-signup offer:\nhttps://amirzeynali.com/courses\n\n\ud83c\udfed Optimization services for businesses\nImprove operations, ERP workflows, data-\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Tech Jobs for Industrial Engineers: Salaries & Transition Plan in 2026\n\ud83c\udfaf Career \u2026",
+          "url": "https://www.youtube.com/watch?v=denH7wkBcS4",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1816,7 +3139,32 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "industrial engineer",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+      "count": 3521,
+      "returned": 50,
+      "topEmployers": [
+        "Beca",
+        "Aurecon",
+        "Aurecon Australasia Pty Ltd",
+        "IFS",
+        "Interflow",
+        "Johnson Controls",
+        "Skilled Jobs Australia",
+        "Benchtop Express"
+      ],
+      "topSkills": [
+        "manufacturing",
+        "process",
+        "supply chain",
+        "productivity",
+        "operations",
+        "continuous improvement"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1827,7 +3175,29 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens/Factiva session expired (cookies 2026-08-26); L3 sourced from web trade press + Engineers Australia instead. Logged to factiva_backlog.json.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "seek",
+        "status": "not-sampled",
+        "detail": "Seek trend pages not queried this run; Adzuna AU (jobAds) + LinkedIn (L4 claims) cover L4 demand signal.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "last30days-hiring-signals",
+        "status": "not-sampled",
+        "detail": "last30days --hiring-signals not run separately; L5 last30days ran and Adzuna+LinkedIn cover L4 demand.",
+        "date": "2026-08-30"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1875,9 +3245,24 @@
           "youtube": 3
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 60,
+        "sources": {
+          "github": 7,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 11,
+          "x": 53,
+          "youtube": 4
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

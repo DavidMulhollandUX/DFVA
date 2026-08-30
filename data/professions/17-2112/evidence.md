@@ -1,41 +1,16 @@
-# Evidence log: Industrial Engineers (17-2112)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Industrial Engineers (17-2112) — empirical-five-lane-v1 evidence log
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-30. Method: L1 regulatory, L2 scholarly, L3 trade press (web; Factiva auth_expired), L4 Adzuna+LinkedIn, L5 last30days.
+Confidence: high. NOTE: one intended L3 claim (17-2112-L3-02, Emerald lean/Industry4.0) was dropped because its only candidate URL 404'd on verification.
 
-## Lane sources (one short quote per source)
+## Claims (one short verbatim quote per source)
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Industrial Engineers] Professional Practice Framework and Digital Competency Guidelines for Industrial Engineers — https://www.psc.gov.au/standards/17-2112 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Industrial Engineers enforce non-delegable ethical accountability and human verification ov..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Industrial Engineers — https://www.jobsandskills.gov.au/research/17-2112 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Industrial Engineers heightens the demand for adaptive problem solving, interdisciplinary stakeholde..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (75 claims)
-- last30days declared sample: 75 items across github=7, grounding=0, hackernews=24, jobs=0, reddit=11, x=14, youtube=3.
-- Representative practitioner quotes:
-  - [github] Discussion: make the engineering change the unit of context, impact, verification, and routing
-> [!NOTE]
-> Discussion on...
-  - [github] Add legacy compatibility adapters and gameplay patches
-## 🔗 Related Issue  Supersedes #241 by splitting that change set ...
-  - [github] 💎 Knowledge Update & Optimization: 13 Jul 2026
-## 💎 Knowledge Update: 13 Jul 2026
-
-Processed **0** links.
-
-⚠️ **Detailed...
-  - [github] 📌 Job Radar — master board (every open role, one place)
-Every alert-worthy open role the radar currently knows, best fir...
-  - [github] 💎 Knowledge Update & Optimization: 13 Jul 2026
-## 💎 Knowledge Update: 13 Jul 2026
-
-Processed **0** links.
-
-⚠️ **Detailed...
+- **17-2112-L1-01 (L1)** Engineers Australia — National Engineering Register
+  - URL: https://www.engineersaustralia.org.au/credentials/registration/national-engineering-register  (2026-07-03)
+  - Claim: Industrial engineers in Australia are recognised via Engineers Australia's National Engineering Register (NER, introduced 2015) and accredited programs (Washington Accord); their method toolkit centres on lean, six sigma and process optimisation, now intersecting with Industry 4.0 and AI-assisted simulation. The NER is a register, not a licence (unlike Victoria's PE registration).
+- **17-2112-L2-01 (L2)** Jobs and Skills Australia — Our Gen AI Transition – Exposure (Generative AI Capacity Study)
+  - URL: https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure  (2025-08)
+  - Claim: JSA's Gen AI Capacity Study (Aug 2025) finds augmentation outweighs automation at the task level; industrial-engineering tasks (process modelling, optimisation scenarios) show higher automatability while change management and operations judgement remain human-led.
+- **17-2112-L3-01 (L3)** Engineers Australia — The impact of AI and generative technologies on the engineering profession
+  - URL: https://www.engineersaustralia.org.au/publications/impact-ai-and-generative-technologies-engineering-profession  (2025-01)
+  - Claim: Engineers Australia's 2025 AI-impact report frames AI as augmenting engineering work; for industrial engineers this is AI-assisted optimisation and simulation while change management stays human.

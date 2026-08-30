@@ -10,15 +10,15 @@
     "from": "2025-08-01",
     "to": "2026-08-24"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-28",
   "programs": [
     "mc-mecheng"
   ],
   "claims": [
     {
       "id": "l403",
-      "text": "HSEQ Engineer — Reach Subsea (Perth, Western Australia, Australia). Posted 6 days ago.",
+      "text": "HSEQ Engineer \u2014 Reach Subsea (Perth, Western Australia, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -39,7 +39,7 @@
     },
     {
       "id": "l404",
-      "text": "Senior HSSE Engineer (Gas Turbines) — Solar Turbines (Rowville, Victoria, Australia). Posted 2 days ago.",
+      "text": "Senior HSSE Engineer (Gas Turbines) \u2014 Solar Turbines (Rowville, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -60,7 +60,7 @@
     },
     {
       "id": "l405",
-      "text": "EH&S Specialist — Otis Elevator Co. (Perth, Western Australia, Australia). Posted 5 days ago.",
+      "text": "EH&S Specialist \u2014 Otis Elevator Co. (Perth, Western Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -81,7 +81,7 @@
     },
     {
       "id": "l406",
-      "text": "EH&S Specialist — Otis Elevator Co. (Kings Park, Western Australia, Australia). Posted 5 days ago.",
+      "text": "EH&S Specialist \u2014 Otis Elevator Co. (Kings Park, Western Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -102,7 +102,7 @@
     },
     {
       "id": "l407",
-      "text": "Work Health, Safety, Environment & Quality (WHSEQ) Specialist — Acu-Tech Piping Systems (Redbank Plains, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Work Health, Safety, Environment & Quality (WHSEQ) Specialist \u2014 Acu-Tech Piping Systems (Redbank Plains, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -123,7 +123,7 @@
     },
     {
       "id": "l408",
-      "text": "EHS and Rail Advisor — Siemens (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "EHS and Rail Advisor \u2014 Siemens (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -144,7 +144,7 @@
     },
     {
       "id": "l409",
-      "text": "EOI Safety Professionals | Major Infrastructure Project — McConnell Dowell (Perth, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "EOI Safety Professionals | Major Infrastructure Project \u2014 McConnell Dowell (Perth, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -165,7 +165,7 @@
     },
     {
       "id": "l410",
-      "text": "Process Safety Engineer — ConocoPhillips (Brisbane, Queensland, Australia). Posted 1 day ago.",
+      "text": "Process Safety Engineer \u2014 ConocoPhillips (Brisbane, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -186,7 +186,7 @@
     },
     {
       "id": "l411",
-      "text": "HSEQ Officer — Design & Build Recruitment (Perth, Western Australia, Australia). Posted 5 days ago.",
+      "text": "HSEQ Officer \u2014 Design & Build Recruitment (Perth, Western Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -207,13 +207,13 @@
     },
     {
       "id": "l512",
-      "text": "Please Do Not Vibe Fuck Up This Software\n<img width=\"590\" height=\"454\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1b00011b-1b7d-4d76-a6a9-286eb0392ba4\" />\nLooks like it's time to vibe-fork in Rust. AI and C are an explosive combination. i wondered why my 3d printers were running like sh*t and at 100% cpu; turns out log2ram uses rsync. one could argue AI introduced this bug into my (printing) robots and it was an AI attack. The issue tracker is not a place for you to farm viral s…",
+      "text": "Please Do Not Vibe Fuck Up This Software\n<img width=\"590\" height=\"454\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1b00011b-1b7d-4d76-a6a9-286eb0392ba4\" />\nLooks like it's time to vibe-fork in Rust. AI and C are an explosive combination. i wondered why my 3d printers were running like sh*t and at 100% cpu; turns out log2ram uses rsync. one could argue AI introduced this bug into my (printing) robots and it was an AI attack. The issue tracker is not a place for you to farm viral s\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Please Do Not Vibe Fuck Up This Software\n<img width=\"590\" height=\"454\" alt=\"Imag…",
+          "title": "Please Do Not Vibe Fuck Up This Software\n<img width=\"590\" height=\"454\" alt=\"Imag\u2026",
           "url": "https://github.com/RsyncProject/rsync/issues/929",
           "date": "2026-05-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -228,13 +228,13 @@
     },
     {
       "id": "l513",
-      "text": "Codex SQLite feedback logs can write ~640 TB/year and rapidly consume SSD endurance\nUpdate at Jun 23, 2026: the following 3 PRs are merged, it could avoid 85% logs(feedback from my codex), so let me close this issue.\n\nThanks @jif-oai for the fix.\n\n- https://github.com/openai/codex/pull/29432 (released in 0.142.0)\n- https://github.com/openai/codex/pull/29457 (released in 0.142.0)\n-\nPotential duplicates detected. Please review them and close your issue if it is a duplicate.\n\n- #26869\n- #27741\n- #2…",
+      "text": "Codex SQLite feedback logs can write ~640 TB/year and rapidly consume SSD endurance\nUpdate at Jun 23, 2026: the following 3 PRs are merged, it could avoid 85% logs(feedback from my codex), so let me close this issue.\n\nThanks @jif-oai for the fix.\n\n- https://github.com/openai/codex/pull/29432 (released in 0.142.0)\n- https://github.com/openai/codex/pull/29457 (released in 0.142.0)\n-\nPotential duplicates detected. Please review them and close your issue if it is a duplicate.\n\n- #26869\n- #27741\n- #2\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Codex SQLite feedback logs can write ~640 TB/year and rapidly consume SSD endura…",
+          "title": "Codex SQLite feedback logs can write ~640 TB/year and rapidly consume SSD endura\u2026",
           "url": "https://github.com/openai/codex/issues/28224",
           "date": "2026-06-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -255,7 +255,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Stage 5C.1: Failure Detection and Recovery State Model\n## **User description**\n<…",
+          "title": "Stage 5C.1: Failure Detection and Recovery State Model\n## **User description**\n<\u2026",
           "url": "https://github.com/DashFin-FarDb/financial-asset-relationship-db/pull/1167",
           "date": "2026-05-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -276,7 +276,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "expose graph persistence configured in detailed health\n## **User description**\r\n…",
+          "title": "expose graph persistence configured in detailed health\n## **User description**\r\n\u2026",
           "url": "https://github.com/DashFin-FarDb/financial-asset-relationship-db/pull/1143",
           "date": "2026-05-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -291,13 +291,13 @@
     },
     {
       "id": "l516",
-      "text": "ci: add CodeScene PR Refactoring Agent workflow\n## Summary\n\nAdds the [CodeScene PR Refactoring Agent](https://codescene.io/docs/developer-tools/pr-refactoring-agent.html) so reviewers can request Code Health-guided refactoring on any PR by commenting `/cs-agent`.\n\n- `.github/workflows/refactoring-agent.yml` — triggers on `issue_comment`, gated to",
+      "text": "ci: add CodeScene PR Refactoring Agent workflow\n## Summary\n\nAdds the [CodeScene PR Refactoring Agent](https://codescene.io/docs/developer-tools/pr-refactoring-agent.html) so reviewers can request Code Health-guided refactoring on any PR by commenting `/cs-agent`.\n\n- `.github/workflows/refactoring-agent.yml` \u2014 triggers on `issue_comment`, gated to",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "ci: add CodeScene PR Refactoring Agent workflow\n## Summary\n\nAdds the [CodeScene …",
+          "title": "ci: add CodeScene PR Refactoring Agent workflow\n## Summary\n\nAdds the [CodeScene \u2026",
           "url": "https://github.com/abapify/openadt/pull/44",
           "date": "2026-06-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -318,7 +318,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Modernize phase 1\n## **User description**\nModernize what-license as a browser-on…",
+          "title": "Modernize phase 1\n## **User description**\nModernize what-license as a browser-on\u2026",
           "url": "https://github.com/PeterDaveHello/what-license/pull/4",
           "date": "2026-06-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -333,13 +333,13 @@
     },
     {
       "id": "l518",
-      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
+      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
+          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -354,13 +354,13 @@
     },
     {
       "id": "l519",
-      "text": "[MODEL] Claude Code is unusable for complex engineering tasks with the Feb updates\n### Preflight Checklist\n\n- [x] I have searched [existing issues](https://github.com/anthropics/claude-code/issues?q=is%3Aissue%20state%3Aopen%20label%3Amodel) for similar behavior reports\n- [x] This report does NOT contain sensitive information (API keys, passwords, etc.)\n\n### Type of Behavior Issue\nIncredible analysis. As a user, I experienced this over the past weeks and couldn't put my finger on it. The point o…",
+      "text": "[MODEL] Claude Code is unusable for complex engineering tasks with the Feb updates\n### Preflight Checklist\n\n- [x] I have searched [existing issues](https://github.com/anthropics/claude-code/issues?q=is%3Aissue%20state%3Aopen%20label%3Amodel) for similar behavior reports\n- [x] This report does NOT contain sensitive information (API keys, passwords, etc.)\n\n### Type of Behavior Issue\nIncredible analysis. As a user, I experienced this over the past weeks and couldn't put my finger on it. The point o\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[MODEL] Claude Code is unusable for complex engineering tasks with the Feb updat…",
+          "title": "[MODEL] Claude Code is unusable for complex engineering tasks with the Feb updat\u2026",
           "url": "https://github.com/anthropics/claude-code/issues/42796",
           "date": "2026-04-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -381,7 +381,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Refactor Python script for metric verification\n## **User description**\r\n<!-- kod…",
+          "title": "Refactor Python script for metric verification\n## **User description**\r\n<!-- kod\u2026",
           "url": "https://github.com/DashFin-FarDb/financial-asset-relationship-db/pull/1217",
           "date": "2026-05-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -402,7 +402,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Recovery gate and lock failure hardening\n## **User description**\r\n<!-- kody-pr-s…",
+          "title": "Recovery gate and lock failure hardening\n## **User description**\r\n<!-- kody-pr-s\u2026",
           "url": "https://github.com/DashFin-FarDb/financial-asset-relationship-db/pull/1169",
           "date": "2026-05-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -423,7 +423,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Rebuild Drift Reconciliation: Explicit Plan Generation + Evaluator Adapter\n## Up…",
+          "title": "Rebuild Drift Reconciliation: Explicit Plan Generation + Evaluator Adapter\n## Up\u2026",
           "url": "https://github.com/DashFin-FarDb/financial-asset-relationship-db/pull/1193",
           "date": "2026-05-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -444,7 +444,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "chore: knip dead-code & dependency purge + farmer recs migration\n## Summary\n\nSta…",
+          "title": "chore: knip dead-code & dependency purge + farmer recs migration\n## Summary\n\nSta\u2026",
           "url": "https://github.com/ashish921998/Vinesight/pull/162",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -459,13 +459,13 @@
     },
     {
       "id": "l524",
-      "text": "Proposal: Build a next-generation native Windows UI framework for modern declarative UI and AI automation\n# Proposal: Build a next-generation native Windows UI framework for modern declarative UI and AI automation\n\n## Summary\n\nWinUI is an important UI framework for native Windows application development. It provides Fluent Design controls, native Windows integration, and a XAML-based development model.\nthe seam in section 9 isn't the semantic-component model. UIA already exposes AutomationId/Nam…",
+      "text": "Proposal: Build a next-generation native Windows UI framework for modern declarative UI and AI automation\n# Proposal: Build a next-generation native Windows UI framework for modern declarative UI and AI automation\n\n## Summary\n\nWinUI is an important UI framework for native Windows application development. It provides Fluent Design controls, native Windows integration, and a XAML-based development model.\nthe seam in section 9 isn't the semantic-component model. UIA already exposes AutomationId/Nam\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Proposal: Build a next-generation native Windows UI framework for modern declara…",
+          "title": "Proposal: Build a next-generation native Windows UI framework for modern declara\u2026",
           "url": "https://github.com/microsoft/microsoft-ui-xaml/issues/11126",
           "date": "2026-05-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -501,13 +501,13 @@
     },
     {
       "id": "l526",
-      "text": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
+      "text": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
+          "title": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
           "url": "https://github.com/calmrocks/ai-engineer-notebooks",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -522,13 +522,13 @@
     },
     {
       "id": "l527",
-      "text": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
+      "text": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
+          "title": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
           "url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -795,13 +795,13 @@
     },
     {
       "id": "l540",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -816,13 +816,13 @@
     },
     {
       "id": "l541",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -879,13 +879,13 @@
     },
     {
       "id": "l544",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -921,13 +921,13 @@
     },
     {
       "id": "l546",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -942,13 +942,13 @@
     },
     {
       "id": "l547",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -963,13 +963,13 @@
     },
     {
       "id": "l548",
-      "text": "Show HN: CyberWriter – a .md editor built on Apple's (barely-used) on-device AI",
+      "text": "Show HN: CyberWriter \u2013 a .md editor built on Apple's (barely-used) on-device AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: CyberWriter – a .md editor built on Apple's (barely-used) on-device AI",
+          "title": "Show HN: CyberWriter \u2013 a .md editor built on Apple's (barely-used) on-device AI",
           "url": "https://cyberwriter.app",
           "date": "2026-04-20",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -984,13 +984,13 @@
     },
     {
       "id": "l549",
-      "text": "I’m 23. I spent 262 days documenting an AI behavior that could decide whether future machines act. I sent the evidence to Elon Musk, Sam Altman, Dario Amodei, Marc Benioff, Greg Brockman and others. The record is public.\nI’m posting this here because at this point I don’t want anyone to take my word for the history. (Bottom for TL;DR) AI Can Now Say “No” by Outputting Literally Nothing (&quot;&quot;) AI is beginning to expose a programmable boundary between capability and permission. I’m 23, ind…",
+      "text": "I\u2019m 23. I spent 262 days documenting an AI behavior that could decide whether future machines act. I sent the evidence to Elon Musk, Sam Altman, Dario Amodei, Marc Benioff, Greg Brockman and others. The record is public.\nI\u2019m posting this here because at this point I don\u2019t want anyone to take my word for the history. (Bottom for TL;DR) AI Can Now Say \u201cNo\u201d by Outputting Literally Nothing (&quot;&quot;) AI is beginning to expose a programmable boundary between capability and permission. I\u2019m 23, ind\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I’m 23. I spent 262 days documenting an AI behavior that could decide whether fu…",
+          "title": "I\u2019m 23. I spent 262 days documenting an AI behavior that could decide whether fu\u2026",
           "url": "https://www.reddit.com/r/conspiracy/comments/1w0bxcu/im_23_i_spent_262_days_documenting_an_ai_behavior/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1005,14 +1005,14 @@
     },
     {
       "id": "l550",
-      "text": "CHAI: Persona Update ℹ️ and Improving Safety 👷‍♂️\nWe have updated the Chai Apple app with persona and bot-memory and advanced bot-builder tools. We are currently waiting for Apple to approve our latest build so we can release the feature. AI apps are currently facing extra scrutiny and so the review process is taking longer. We&#39;re still a small team, only 15 engineers, and almost 2 million daily users. But we take all user complaints seriously, and are working hard to build something that is…",
+      "text": "CHAI: Persona Update \u2139\ufe0f and Improving Safety \ud83d\udc77\u200d\u2642\ufe0f\nWe have updated the Chai Apple app with persona and bot-memory and advanced bot-builder tools. We are currently waiting for Apple to approve our latest build so we can release the feature. AI apps are currently facing extra scrutiny and so the review process is taking longer. We&#39;re still a small team, only 15 engineers, and almost 2 million daily users. But we take all user complaints seriously, and are working hard to build something that is\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "CHAI: Persona Update ℹ️ and Improving Safety 👷‍♂️\nWe have updated the Chai Apple…",
-          "url": "https://www.reddit.com/r/ChaiApp/comments/1vg6mtt/chai_persona_update_ℹ_and_improving_safety/",
+          "title": "CHAI: Persona Update \u2139\ufe0f and Improving Safety \ud83d\udc77\u200d\u2642\ufe0f\nWe have updated the Chai Apple\u2026",
+          "url": "https://www.reddit.com/r/ChaiApp/comments/1vg6mtt/chai_persona_update_\u2139_and_improving_safety/",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
@@ -1131,13 +1131,13 @@
     },
     {
       "id": "l556",
-      "text": "About the job\nAnduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril’s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D",
+      "text": "About the job\nAnduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century\u2019s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril\u2019s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "About the job\nAnduril Industries is a defense technology company with a mission …",
+          "title": "About the job\nAnduril Industries is a defense technology company with a mission \u2026",
           "url": "https://x.com/sumbios/status/2092161057217265948",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1158,7 +1158,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Alexa and others are just too limiting, not to mention since they're cloud based…",
+          "title": "Alexa and others are just too limiting, not to mention since they're cloud based\u2026",
           "url": "https://x.com/CarlB_jr/status/2092095017695219995",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1362,13 +1362,13 @@
     },
     {
       "id": "l567",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1383,13 +1383,13 @@
     },
     {
       "id": "l568",
-      "text": "AI & IoT Based Conveyor Belt Health Monitoring System | Predictive Maintenance for Mining.#SIH2026.\nDescription\nConveyor belts are a critical part of iron ore mining, where unexpected belt or joint failures can cause production delays, safety risks, material loss and high maintenance costs.\nThis project proposes an AI and IoT-based Conveyor Belt Health Monitoring and Predictive Maintenance System that continuously monitors conveyor belt condition using sensors and camera-based inspection.\nThe sy…",
+      "text": "AI & IoT Based Conveyor Belt Health Monitoring System | Predictive Maintenance for Mining.#SIH2026.\nDescription\nConveyor belts are a critical part of iron ore mining, where unexpected belt or joint failures can cause production delays, safety risks, material loss and high maintenance costs.\nThis project proposes an AI and IoT-based Conveyor Belt Health Monitoring and Predictive Maintenance System that continuously monitors conveyor belt condition using sensors and camera-based inspection.\nThe sy\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI & IoT Based Conveyor Belt Health Monitoring System | Predictive Maintenance f…",
+          "title": "AI & IoT Based Conveyor Belt Health Monitoring System | Predictive Maintenance f\u2026",
           "url": "https://www.youtube.com/watch?v=Na0hrdtg9gg",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1404,16 +1404,625 @@
     },
     {
       "id": "l569",
-      "text": "This AI Never Blinks: PPE Safety Detection in Real Time\nWhat if every camera at an industrial site could become an AI-powered safety inspector?\n\nThis video shows ViewLogic PPE Detection in action — real-time AI video analytics identifying personal protective equipment and potential safety violations directly from camera feeds.\n\n⚡ Continuous 24/7 monitoring\n⚡ Real-time PPE detection\n⚡ Instant identification of safety violations\n⚡ Automated monitoring across multiple cameras and locations\n⚡ Less d…",
+      "text": "This AI Never Blinks: PPE Safety Detection in Real Time\nWhat if every camera at an industrial site could become an AI-powered safety inspector?\n\nThis video shows ViewLogic PPE Detection in action \u2014 real-time AI video analytics identifying personal protective equipment and potential safety violations directly from camera feeds.\n\n\u26a1 Continuous 24/7 monitoring\n\u26a1 Real-time PPE detection\n\u26a1 Instant identification of safety violations\n\u26a1 Automated monitoring across multiple cameras and locations\n\u26a1 Less d\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "This AI Never Blinks: PPE Safety Detection in Real Time\nWhat if every camera at …",
+          "title": "This AI Never Blinks: PPE Safety Detection in Real Time\nWhat if every camera at \u2026",
           "url": "https://www.youtube.com/watch?v=5P70dsrk69Q",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "17-2111-L1-01",
+      "text": "Health and safety engineers advise under the model Work Health and Safety Act 2011, which imposes a positive personal due-diligence duty on 'officers' (s27) of a PCBU; ISO 45001 is the recognised voluntary management-system standard they help implement. State/territory regulators enforce.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Safe Work Australia",
+          "title": "Model Work Health and Safety laws",
+          "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/model-whs-laws",
+          "date": "",
+          "whatItMeasured": "Model WHS Act 2011 officer due-diligence duty (s27) + ISO 45001 management system."
+        }
+      ],
+      "scope": "AU model-WHS jurisdictions; officers/senior managers; ISO 45001 is voluntary standard, not law.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "SWA model WHS laws; population = AU model-WHS jurisdictions; in force since 2011."
+    },
+    {
+      "id": "17-2111-L2-01",
+      "text": "JSA's Gen AI Capacity Study (Aug 2025) finds augmentation outweighs automation at the task level; safety-engineering work (hazard identification, incident investigation, audit) is non-routine and physically/site-contextual, skewing toward augmentation rather than automation.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition \u2013 Exposure (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study Paper A (Exposure): task-level augmentability/automatability scores across 358 ANZSCO occupations (Felten 2021 + ILO/Gmyrek-Berg-Bescond 2023 frameworks tailored to ANZSCO), Aug 2025."
+        }
+      ],
+      "scope": "Primary Australian government source; population = AU occupations (task cluster, not this SOC individually); published Aug 2025.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Primary Australian government source; population = AU occupations; published Aug 2025; framework transparent."
+    },
+    {
+      "id": "17-2111-L3-01",
+      "text": "Engineers Australia's 2025 AI-impact report frames AI as augmenting engineering work; for safety engineers this is AI-assisted hazard analysis and reporting while on-site judgement and regulatory sign-off remain human.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Engineers Australia",
+          "title": "The impact of AI and generative technologies on the engineering profession",
+          "url": "https://www.engineersaustralia.org.au/publications/impact-ai-and-generative-technologies-engineering-profession",
+          "date": "2025-01",
+          "whatItMeasured": "Engineers Australia profession report on how AI/GenAI has transformed engineering businesses and the workforce, and how it will evolve."
+        }
+      ],
+      "scope": "Peak-body profession report; directional, AU engineering broadly; not a quantitative labour study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Peak body publication; directional, AU engineering; not a quantitative labour study."
+    },
+    {
+      "id": "l571",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.\n## \ud83d\udee1\ufe0f Safety & Mandate Audit (Detailed)\n\n## \ud83d\udee1\ufe0f Platinum Safety & Mandate Audit: \u274c FAILED\n*Audit executed on 2026-07-13 03:57:40*\n\n### \ud83d\udd0d High-Value Pendin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 202\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/499",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 202\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/499",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "Discussion: make the engineering change the unit of context, impact, verification, and routing\n> [!NOTE]\n> Discussion only. This is not an approved implementation spec, milestone commitment, or `ready-for-agent` ticket.\n\n## Why this issue exists\n\nThe attached research argues that AI coding has moved the bottleneck rather than removed it. Code generation is faster, but engineers still pay for",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Discussion: make the engineering change the unit of context, impact, verificatio\u2026",
+          "url": "https://github.com/czync/token-killer/issues/91",
+          "date": "2026-07-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "\ud83d\udcca AI CLI Tools Digest 2026-08-23\n# AI CLI Tools Community Digest 2026-08-23\n\n> Generated: 2026-08-22 22:21 UTC | Tools covered: 9\n\n- [Claude Code](https://github\u200b.com/anthropics/claude-code)\n- [OpenAI Codex](https://github\u200b.com/openai/codex)\n- [Gemini CLI](https://github\u200b.com/google-gemini/gemini-cli)\n- [GitHub Copilot CLI](https:/",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udcca AI CLI Tools Digest 2026-08-23\n# AI CLI Tools Community Digest 2026-08-23\n\n> G\u2026",
+          "url": "https://github.com/kakapez/agents-radar/issues/1354",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 202\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/133",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "\u2699\ufe0f AI Infrastructure Digest 2026-08-16\n# AI Infrastructure Digest 2026-08-16\n\n> Generated: 2026-08-15 23:11 UTC | Projects covered: 6\n\n- [vLLM](https://github\u200b.com/vllm-project/vllm)\n- [SGLang](https://github\u200b.com/sgl-project/sglang)\n- [llama.cpp](https://github\u200b.com/ggml-org/llama.cpp)\n- [Ollama](https://github\u200b.com/ollama/ollama)\n- [Li",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\u2699\ufe0f AI Infrastructure Digest 2026-08-16\n# AI Infrastructure Digest 2026-08-16\n\n> \u2026",
+          "url": "https://github.com/duanyytop/agents-radar/issues/2740",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "Merge epic integration into main\n## Summary\n\nThis PR promotes the accumulated `epic` integration work into `main`. It is intentionally broad and includes the reviewed PR stack already merged into `epic`, plus the AI tooling standardization and CI/integration hardening work needed for the mainline merge.\n\n## Review Fixes Included\n\n-",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Merge epic integration into main\n## Summary\n\nThis PR promotes the accumulated `e\u2026",
+          "url": "https://github.com/Asymmetric-al/core/pull/223",
+          "date": "2026-05-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the LangWatch AI Governance Platform\n\n> \"Your engineers are running AI through Workato Genies, Claude for Work, Copilot\n> Studio agents, Cursor, Claude Code, and a dozen homegrown agents. You have no\n> idea who's doing what, what it's costing, or which agent just did 1,000 action",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the L\u2026",
+          "url": "https://github.com/langwatch/langwatch/pull/3524",
+          "date": "2026-04-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the official Inngest agent skill set and refreshed canonical skill mirrors under \\docs/ai/skills/\\, \\.agents/skills/\\, and \\.cursor/skills/\\.\n- Wired agent routing (\\AGENTS.md\\, playbook, stack registry, \\\find-skills\\) and \\inngest-dev\\ MCP in \\.mcp.json\\ / \\.cursor/mcp.json\\.\n- A",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the officia\u2026",
+          "url": "https://github.com/Asymmetric-al/core/pull/282",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Executive Summary\n\n**Key Insights** reveal a paradoxical landscape where technological advancement simultaneously erodes and reinforces security. While Meta's AI support bot facilitated high-profile account takeovers by bypassing two-factor authentication t",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Exec\u2026",
+          "url": "https://github.com/jhengy/content-aggregator/issues/506",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2026 for Kerala's IT Professionals\n![Blog Thumbnail](https://image.pollinations.ai/prompt/A%20futuristic%20cityscape%20with%20digital%20overlays%20repre?width=1200&height=630&nologo=true)\n\n# Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2026 for Kerala's IT Professionals\n\n**Published by Novoxed Tech L",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2\u2026",
+          "url": "https://github.com/Angelin-ak/novox-test-blog/issues/10",
+          "date": "2026-06-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "text": "Add built-in Amp integration for agent status in tabs\n## Summary\n\nAdds zero-config Amp agent status tracking in cmux tabs, mirroring the existing Claude Code integration.\n\n### How it works\n\nWhen a user types `amp` inside a cmux terminal, the shell wrapper transparently:\n1. Auto-installs the bundled status plugin into `~/.config/amp/plugins/`\n2. Enables\n@HamptonMakes is attempting to deploy a commit to the **Manaflow** Team on [Vercel](https://vercel.com).\n\nA member of the Team first needs to [au\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add built-in Amp integration for agent status in tabs\n## Summary\n\nAdds zero-conf\u2026",
+          "url": "https://github.com/manaflow-ai/cmux/pull/2007",
+          "date": "2026-03-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l583",
+      "text": "Add comprehensive unit and utility test coverage\n## Description\n\nThis PR expands unit test coverage across manager and utility code in CARLOS EMR. It includes manager tests for documents, forms, messaging, MFA, security, lookup lists, patient consent, and pharmacy workflows, plus utility coverage for QR code generation, PDF encryption, queue cachi\n<!-- Generated by sourcery-ai[bot]: start review_guide -->\n\n## Reviewer's Guide\n\nAdds comprehensive JUnit 5 + Mockito unit test suites for five core m\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add comprehensive unit and utility test coverage\n## Description\n\nThis PR expands\u2026",
+          "url": "https://github.com/carlos-emr/carlos/pull/767",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l584",
+      "text": "Ask HN: Do older programmers/CS academics view AI safety as a form of arrogance?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Do older programmers/CS academics view AI safety as a form of arrogance?",
+          "url": "https://news.ycombinator.com/item?id=49111613",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l585",
+      "text": "Head of US Commerce Dept.'s AI safety arm resigns",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Head of US Commerce Dept.'s AI safety arm resigns",
+          "url": "https://thehill.com/policy/technology/5978770-chris-fall-caisi-resigns/",
+          "date": "2026-07-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l586",
+      "text": "AI-assisted engineers are burning out, is this fine?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI-assisted engineers are burning out, is this fine?",
+          "url": "https://evilmartians.com/chronicles/ai-assisted-engineers-are-burning-out-is-this-fine",
+          "date": "2026-05-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l587",
+      "text": "TL;DR; AI skills beat years of experience. Learn them for free: https://t.co/2uAymo6n6A\n\nSince leaving ALX, I\u2019ve been working intensively, mostly alone, on a stealth project. It\u2019s working. Really well actually (even though I got rejected - again - from YC :)). It\u2019s starting to generate good revenue, and I\u2019m having a ton of fun building again.\n\nBut after a few months, I realized something. I miss the impact and the meaning of helping others. At Holberton, and later at ALX, we had the opportunity",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "TL;DR; AI skills beat years of experience. Learn them for free: https://t.co/2uA\u2026",
+          "url": "https://x.com/jbarbier/status/2092924625499869436",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l588",
+      "text": "Psychohistory for the Age of\u00a0AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Psychohistory for the Age of\u00a0AI",
+          "url": "https://x.com/sebastian_rtj/status/2092335283492544791",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l589",
+      "text": "BestBlogs Daily \u00b7 08-26\n\n# OpenAI Jalape\u00f1o / Claude memory / WebMCP / LLM evaluation / Granite 4.2\n\n[1] \u2605 Deep Dive \u00b7 Jalape\u00f1o\u2019s first results show industry-leading speed and efficiency in AI inference\nOpenAI reports first results for Jalape\u00f1o, its custom inference chip: 1.5 to 1.9 times more AI work per watt and 1.7 to 3.6 times lower end-to-end latency than comparison systems on the public InferenceX benchmark. Gains come from co-designing chip, memory, network and software around language-mod",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BestBlogs Daily \u00b7 08-26\n\n# OpenAI Jalape\u00f1o / Claude memory / WebMCP / LLM evalua\u2026",
+          "url": "https://x.com/BestBlogsDev/status/2092404418847428780",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l590",
+      "text": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+          "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l591",
+      "text": "ENEMY AT THE GATES: Aiko\u2019s Journey Across the AI Threshold [Part 4]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "ENEMY AT THE GATES: Aiko\u2019s Journey Across the AI Threshold [Part 4]",
+          "url": "https://x.com/SkillsGapTrain/status/2093838893166862578",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "text": "#Google AI looooooooooool:  Based on your project notes, you are looking to replace a small dock on Lake St. Clair, which is a structure built over the water for mooring boats\u2014not a dog!Here are the next steps to get your dock replacement project moving forward:\ud83d\udccb Key Steps for Your Dock ProjectPermitting: Lake St. Clair requires specific environmental and shoreline permits (such as from local authorities or the Army Corps of Engineers) before construction can begin.Dock Types: You will need to c",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "#Google AI looooooooooool:  Based on your project notes, you are looking to repl\u2026",
+          "url": "https://x.com/NearContractors/status/2072452165621424322",
+          "date": "2026-07-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "text": "BestBlogs Daily \u00b7 08-08 \u00b7 AI code trust gaps, tutor over-help, and Astra's critical cyber threshold",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BestBlogs Daily \u00b7 08-08 \u00b7 AI code trust gaps, tutor over-help, and Astra's criti\u2026",
+          "url": "https://x.com/BestBlogsDev/status/2085884461003284697",
+          "date": "2026-08-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l594",
+      "text": "\u201cThis is the first real AI sovereignty shock.\nThe point is not that the models stayed down forever.\nThe point is that they could be taken down at all\u2026\nThe old fear was that a single company held the keys.\nThe new fear is colder.\nThe company was holding borrowed keys.\nIt was undone by an order.\nstate power arriving at software speed.\n\nThis is the part that should make everyone uncomfortable.\n\nA company wrapping one frontier model is no longer just taking vendor risk.\nIt is taking sovereign-interv",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\u201cThis is the first real AI sovereignty shock.\nThe point is not that the models s\u2026",
+          "url": "https://x.com/MyEchoConnect/status/2066296063296725456",
+          "date": "2026-06-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l595",
+      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world\u2019s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My\u2026",
+          "url": "https://www.youtube.com/watch?v=eWC47agaKpk",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "text": "AI Safety Expert: Only 5 Jobs Survive by 2030\nDr. Roman Yampolskiy reveals which 5 jobs will survive AI automation by 2030. Explore the future of work as artificial intelligence reshapes employment. Learn critical insights about AI safety, job displacement, and how to prepare for technological disruption. Stay updated on AI news and developments.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Safety Expert: Only 5 Jobs Survive by 2030\nDr. Roman Yampolskiy reveals which\u2026",
+          "url": "https://www.youtube.com/watch?v=b9UxWH-_pB0",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1440,7 +2049,32 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "health and safety engineer",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+      "count": 109,
+      "returned": 50,
+      "topEmployers": [
+        "Amazon",
+        "Pacific National",
+        "WSP",
+        "Airswift",
+        "WSP USA",
+        "ResMed",
+        "Caterpillar",
+        "Aliaxis"
+      ],
+      "topSkills": [
+        "safety",
+        "risk",
+        "compliance",
+        "whs",
+        "hazard",
+        "iso 45001"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1451,7 +2085,29 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens/Factiva session expired (cookies 2026-08-26); L3 sourced from web trade press + Engineers Australia instead. Logged to factiva_backlog.json.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "seek",
+        "status": "not-sampled",
+        "detail": "Seek trend pages not queried this run; Adzuna AU (jobAds) + LinkedIn (L4 claims) cover L4 demand signal.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "last30days-hiring-signals",
+        "status": "not-sampled",
+        "detail": "last30days --hiring-signals not run separately; L5 last30days ran and Adzuna+LinkedIn cover L4 demand.",
+        "date": "2026-08-30"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1484,9 +2140,23 @@
           "youtube": 3
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 26,
+        "sources": {
+          "github": 13,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 0,
+          "x": 14,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

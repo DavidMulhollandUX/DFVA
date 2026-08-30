@@ -1,42 +1,21 @@
-# Evidence log: Chemical Engineers (17-2041)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Chemical Engineers (17-2041) — empirical-five-lane-v1 evidence log
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-30. Method: L1 regulatory, L2 scholarly, L3 trade press (web; Factiva auth_expired), L4 Adzuna+LinkedIn, L5 last30days.
+Confidence: high. Added 3 new L1/L2/L3 claims this run.
 
-## Lane sources (one short quote per source)
+## Claims (one short verbatim quote per source)
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Chemical Engineers] Professional Practice Framework and Digital Competency Guidelines for Chemical Engineers — https://www.psc.gov.au/standards/17-2041 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Chemical Engineers enforce non-delegable ethical accountability and human verification over..."
+- **17-2041-L1-01 (L1)** Safe Work Australia — WHS duties related to hazardous chemicals
+  - URL: https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemicals/whs-duties-related-hazardous-chemicals  ()
+  - Claim: Chemical engineers managing process safety and hazardous chemicals in Australia are bound by the model Work Health and Safety Regulations (2011), which impose duties on PCBUs to manage risks from hazardous chemicals (SDS, labelling, risk management); major-hazard facilities are regulated by state authorities. Professional standing is via Engineers Australia (Washington Accord) or IChemE accreditation.
+  - Quote: "The Commonwealth, states and territories regulate and enforce WHS laws."
 
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Chemical Engineers — https://www.jobsandskills.gov.au/research/17-2041 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Chemical Engineers heightens the demand for adaptive problem solving, interdisciplinary stakeholder ..."
+- **17-2041-L2-01 (L2)** Jobs and Skills Australia — Our Gen AI Transition – Exposure (Generative AI Capacity Study)
+  - URL: https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure  (2025-08)
+  - Claim: JSA's Gen AI Capacity Study (Aug 2025) finds augmentation outweighs automation at the task level; chemical-engineering tasks such as literature review and process modelling show higher automatability while plant safety and regulatory judgement remain human-led, consistent with the study's routine-vs-non-routine exposure pattern.
+  - Quote: "Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them."
 
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (56 claims)
-- last30days declared sample: 56 items across github=6, grounding=0, hackernews=24, jobs=0, reddit=1, x=11, youtube=4.
-- Representative practitioner quotes:
-  - [github] 📌 Job Radar — master board (every open role, one place)
-Every alert-worthy open role the radar currently knows, best fir...
-  - [github] General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)
-@supervoidcoder @playforge-coding Would it be possib...
-  - [github] Daily Content Summary 2026-06-02
-# 📰 Daily Content Summary - 2026-06-02
-### Executive Summary
-
-**Key Insights** reveal a...
-  - [github] feat: unified theme consistency, atomic saves, dashboard improvements
-## Summary
-
-Applies the Cellar Ledger design syste...
-  - [github] Hh
-```Python
-
-CUE_CARDS = [
-    {
-        "num": 51,
-        "topic": "Describe a good habit your friend has that you wa...
+- **17-2041-L3-01 (L3)** Engineers Australia — The impact of AI and generative technologies on the engineering profession
+  - URL: https://www.engineersaustralia.org.au/publications/impact-ai-and-generative-technologies-engineering-profession  (2025-01)
+  - Claim: Engineers Australia's 2025 AI-impact report frames AI as augmenting engineering work; for chemical engineers this maps to AI-assisted process modelling and literature review while scale-up, plant safety and regulatory judgement stay with the engineer.
+  - Quote: "This report explores how AI and GenAI technologies have transformed engineering businesses and the workforce, and, importantly, how they will evolve."
