@@ -7,15 +7,15 @@
   "anzsco": "220000",
   "window": {
     "from": "2025-08-01",
-    "to": "2026-08-24"
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-26",
   "programs": [],
   "claims": [
     {
       "id": "l403",
-      "text": "Mortgage Loan Officer — Banner Bank (Sunnyside, South Australia, Australia). Posted 3 days ago.",
+      "text": "Mortgage Loan Officer \u2014 Banner Bank (Sunnyside, South Australia, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -36,7 +36,7 @@
     },
     {
       "id": "l404",
-      "text": "Home Lending Executive — People First Bank (South Australia, Australia). Posted 6 days ago.",
+      "text": "Home Lending Executive \u2014 People First Bank (South Australia, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -57,7 +57,7 @@
     },
     {
       "id": "l405",
-      "text": "Mobile Lender | Cairns | QLD — Bendigo Bank (Cairns, Queensland, Australia). Posted 2 days ago.",
+      "text": "Mobile Lender | Cairns | QLD \u2014 Bendigo Bank (Cairns, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -78,7 +78,7 @@
     },
     {
       "id": "l406",
-      "text": "Home Lending Executive — NAB (Adelaide, South Australia, Australia). Posted 4 days ago.",
+      "text": "Home Lending Executive \u2014 NAB (Adelaide, South Australia, Australia). Posted 4 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -99,7 +99,7 @@
     },
     {
       "id": "l407",
-      "text": "Home Lending Executive - SA — NAB (Adelaide, South Australia, Australia). Posted 5 days ago.",
+      "text": "Home Lending Executive - SA \u2014 NAB (Adelaide, South Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -120,7 +120,7 @@
     },
     {
       "id": "l408",
-      "text": "Lending Specialist - Amberley — Australian Military Bank Ltd (Ironbark, Queensland, Australia). Posted 1 month ago.",
+      "text": "Lending Specialist - Amberley \u2014 Australian Military Bank Ltd (Ironbark, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -141,7 +141,7 @@
     },
     {
       "id": "l409",
-      "text": "Mortgage Broker - Adelaide — Aussie (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Mortgage Broker - Adelaide \u2014 Aussie (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -162,7 +162,7 @@
     },
     {
       "id": "l410",
-      "text": "Branch Lending Specialist — Great Southern Bank (Browns Plains, Queensland, Australia). Posted 14 hours ago.",
+      "text": "Branch Lending Specialist \u2014 Great Southern Bank (Browns Plains, Queensland, Australia). Posted 14 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -183,7 +183,7 @@
     },
     {
       "id": "l411",
-      "text": "Lending Specialist - Success — BOQ Group (Success, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Lending Specialist - Success \u2014 BOQ Group (Success, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -204,7 +204,7 @@
     },
     {
       "id": "l412",
-      "text": "Home Lending Specialist | Community Bank Victor Harbor | SA — Bendigo Bank (Victor Harbor, South Australia, Australia). Posted 18 hours ago.",
+      "text": "Home Lending Specialist | Community Bank Victor Harbor | SA \u2014 Bendigo Bank (Victor Harbor, South Australia, Australia). Posted 18 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -231,7 +231,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "AI agents: put David Chandler back into everything that was live\nAI agents: put …",
+          "title": "AI agents: put David Chandler back into everything that was live\nAI agents: put \u2026",
           "url": "https://github.com/briannafare/the-lindley-team/pull/19",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -246,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1334 roles**, refreshed Wed Aug 26, 14:12 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
+      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1334 roles**, refreshed Wed Aug 26, 14:12 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
+          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -267,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "Add messages tab to loan file; fix account settings LocalProxy crash\n\n- loan_file: add Messages section — loan officers can now send a\n  message to the borrower directly from the loan file, and all prior\n  borrower messages are shown inline (staff/AI/borrower colour-coded)\n- loan_file route: accept POST with _action=send_message, create\n  BorrowerMessage(sender_type=staff) and redirect back on success\n- account/settings: replace type(current_user).query with User.query\n  — type() on a Flask-Logi…",
+      "text": "Add messages tab to loan file; fix account settings LocalProxy crash\n\n- loan_file: add Messages section \u2014 loan officers can now send a\n  message to the borrower directly from the loan file, and all prior\n  borrower messages are shown inline (staff/AI/borrower colour-coded)\n- loan_file route: accept POST with _action=send_message, create\n  BorrowerMessage(sender_type=staff) and redirect back on success\n- account/settings: replace type(current_user).query with User.query\n  \u2014 type() on a Flask-Logi\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add messages tab to loan file; fix account settings LocalProxy crash\n\n- loan_fil…",
+          "title": "Add messages tab to loan file; fix account settings LocalProxy crash\n\n- loan_fil\u2026",
           "url": "https://github.com/letoya-ui/ravlo-platform/pull/181",
           "date": "2026-06-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -288,13 +288,13 @@
     },
     {
       "id": "l516",
-      "text": "[DMP 2026]: Agentic AI for Proactive Portfolio Management with Explainable Autonomy\n### Ticket Contents\n\n## Description\nOverview and Objectives: Design and build a prototype \"Portfolio Health Agent\" that autonomously monitors loan portfolios, identifies at-risk accounts, and takes pre-approved actions (e.g., sending reminders, scheduling follow-ups) while escalating complex cases t\nThis ticket will be assigned to the successful C4GT DMP2026 applicant Hey, went through the Mifos X API docs and th…",
+      "text": "[DMP 2026]: Agentic AI for Proactive Portfolio Management with Explainable Autonomy\n### Ticket Contents\n\n## Description\nOverview and Objectives: Design and build a prototype \"Portfolio Health Agent\" that autonomously monitors loan portfolios, identifies at-risk accounts, and takes pre-approved actions (e.g., sending reminders, scheduling follow-ups) while escalating complex cases t\nThis ticket will be assigned to the successful C4GT DMP2026 applicant Hey, went through the Mifos X API docs and th\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[DMP 2026]: Agentic AI for Proactive Portfolio Management with Explainable Auton…",
+          "title": "[DMP 2026]: Agentic AI for Proactive Portfolio Management with Explainable Auton\u2026",
           "url": "https://github.com/openMF/mifos-x-ai-agentic-framework/issues/2",
           "date": "2026-03-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -309,13 +309,13 @@
     },
     {
       "id": "l517",
-      "text": "Add MLO Intelligence Engine — Bloomberg Terminal for Loan Officers\nBootstraps the full MLO Intelligence Engine on top of the empty repo skeleton: real-time mortgage news ingestion, AI enrichment, vector embeddings, and Supabase persistence — runnable with a single command.\n\n## Project structure\n\n```\napp/           # Pipeline entry point + centralized config with st",
+      "text": "Add MLO Intelligence Engine \u2014 Bloomberg Terminal for Loan Officers\nBootstraps the full MLO Intelligence Engine on top of the empty repo skeleton: real-time mortgage news ingestion, AI enrichment, vector embeddings, and Supabase persistence \u2014 runnable with a single command.\n\n## Project structure\n\n```\napp/           # Pipeline entry point + centralized config with st",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add MLO Intelligence Engine — Bloomberg Terminal for Loan Officers\nBootstraps th…",
+          "title": "Add MLO Intelligence Engine \u2014 Bloomberg Terminal for Loan Officers\nBootstraps th\u2026",
           "url": "https://github.com/VellichorVoyager/MLO-Media/pull/1",
           "date": "2026-04-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -330,13 +330,13 @@
     },
     {
       "id": "l518",
-      "text": "Remove Loan Officer section from VIP partners sidebar\n\n- _sidebar_vip.html: removed the loan_officer/lender elif block entirely\n  (Workspace, Lending, Business nav links) and cleaned the brand link\n  condition to no longer route LO/lender roles to the LO dashboard\n- _sidebar_partner.html: removed vip.loan_officer_dashboard from the\n  VIP Workspace active-state check\n\nhttps://claude.ai/code/session_01YLteXLZwzHoNAeGaDaZNA9\n<!-- devin-review-badge-begin -->\n\n---\n\n<a href=\"https://app.devin.ai/revi…",
+      "text": "Remove Loan Officer section from VIP partners sidebar\n\n- _sidebar_vip.html: removed the loan_officer/lender elif block entirely\n  (Workspace, Lending, Business nav links) and cleaned the brand link\n  condition to no longer route LO/lender roles to the LO dashboard\n- _sidebar_partner.html: removed vip.loan_officer_dashboard from the\n  VIP Workspace active-state check\n\nhttps://claude.ai/code/session_01YLteXLZwzHoNAeGaDaZNA9\n<!-- devin-review-badge-begin -->\n\n---\n\n<a href=\"https://app.devin.ai/revi\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Remove Loan Officer section from VIP partners sidebar\n\n- _sidebar_vip.html: remo…",
+          "title": "Remove Loan Officer section from VIP partners sidebar\n\n- _sidebar_vip.html: remo\u2026",
           "url": "https://github.com/letoya-ui/ravlo-platform/pull/110",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -351,13 +351,13 @@
     },
     {
       "id": "l519",
-      "text": "Takes: For production-grade structured financial tasks — credit risk scoring, fraud detection, and regulatory capital calculation — purpose-built Large Tabular Models (LTMs) will displace fine-tuned…\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data “AI-ready” or “AI-native.”\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1.",
+      "text": "Takes: For production-grade structured financial tasks \u2014 credit risk scoring, fraud detection, and regulatory capital calculation \u2014 purpose-built Large Tabular Models (LTMs) will displace fine-tuned\u2026\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data \u201cAI-ready\u201d or \u201cAI-native.\u201d\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Takes: For production-grade structured financial tasks — credit risk scoring, fr…",
+          "title": "Takes: For production-grade structured financial tasks \u2014 credit risk scoring, fr\u2026",
           "url": "https://github.com/KatsuyaITO/indx-autoresearch-financeaiready/issues/202",
           "date": "2026-07-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -372,13 +372,13 @@
     },
     {
       "id": "l520",
-      "text": "Foundations: Open gaps — 2026-07-02\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data “AI-ready” or “AI-native.”\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1.",
+      "text": "Foundations: Open gaps \u2014 2026-07-02\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data \u201cAI-ready\u201d or \u201cAI-native.\u201d\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Foundations: Open gaps — 2026-07-02\n**Topic:** Research case studies from academ…",
+          "title": "Foundations: Open gaps \u2014 2026-07-02\n**Topic:** Research case studies from academ\u2026",
           "url": "https://github.com/KatsuyaITO/indx-autoresearch-financeaiready/issues/289",
           "date": "2026-07-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -393,13 +393,13 @@
     },
     {
       "id": "l521",
-      "text": "Document Agric_SMart platform scope and target architecture\nUgandan smallholder farmers face fragmented access to markets, trusted inputs, advisory services, logistics, finance, and localized decision support. This PR turns the repository’s placeholder README into a concrete product definition for an integrated AI-enabled agriculture platform tailored to tho",
+      "text": "Document Agric_SMart platform scope and target architecture\nUgandan smallholder farmers face fragmented access to markets, trusted inputs, advisory services, logistics, finance, and localized decision support. This PR turns the repository\u2019s placeholder README into a concrete product definition for an integrated AI-enabled agriculture platform tailored to tho",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Document Agric_SMart platform scope and target architecture\nUgandan smallholder …",
+          "title": "Document Agric_SMart platform scope and target architecture\nUgandan smallholder \u2026",
           "url": "https://github.com/mutesiwilbrod/Agric_SMart/pull/1",
           "date": "2026-06-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -414,13 +414,13 @@
     },
     {
       "id": "l522",
-      "text": "VaultSync Loan Origination Hub : A zero-code, AI-first loan origination platform that uses a multi-agent Copilot architecture and SharePoint Premium to automate banking workflows while eliminating AI hallucinations through strict data grounding.\n### Submission Name\n\nVaultSync Loan Origination Hub\n\n### Description\n\n🚀 Elevator Pitch\n\nA zero-code, AI-first loan origination platform that uses a multi-agent Copilot architecture and SharePoint Premium to automate banking workflows while eliminating AI…",
+      "text": "VaultSync Loan Origination Hub : A zero-code, AI-first loan origination platform that uses a multi-agent Copilot architecture and SharePoint Premium to automate banking workflows while eliminating AI hallucinations through strict data grounding.\n### Submission Name\n\nVaultSync Loan Origination Hub\n\n### Description\n\n\ud83d\ude80 Elevator Pitch\n\nA zero-code, AI-first loan origination platform that uses a multi-agent Copilot architecture and SharePoint Premium to automate banking workflows while eliminating AI\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "VaultSync Loan Origination Hub : A zero-code, AI-first loan origination platform…",
+          "title": "VaultSync Loan Origination Hub : A zero-code, AI-first loan origination platform\u2026",
           "url": "https://github.com/SharePoint/sharepoint-hackathon/issues/232",
           "date": "2026-03-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -435,13 +435,13 @@
     },
     {
       "id": "l523",
-      "text": "feat: implement XAI-RAS — explainable AI credit risk assessment system for Nepalese market\nBootstraps the repository from empty to a fully functional ML credit-risk framework targeting Nepal's banking sector, compliant with NRB AI Guidelines 2025.\n\n## ML Pipeline\n- **`data/generator.py`** — Synthetic loan-application generator with Nepal-specific features: remittance income (source countr",
+      "text": "feat: implement XAI-RAS \u2014 explainable AI credit risk assessment system for Nepalese market\nBootstraps the repository from empty to a fully functional ML credit-risk framework targeting Nepal's banking sector, compliant with NRB AI Guidelines 2025.\n\n## ML Pipeline\n- **`data/generator.py`** \u2014 Synthetic loan-application generator with Nepal-specific features: remittance income (source countr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: implement XAI-RAS — explainable AI credit risk assessment system for Nepal…",
+          "title": "feat: implement XAI-RAS \u2014 explainable AI credit risk assessment system for Nepal\u2026",
           "url": "https://github.com/okprabhat787898-dev/XAI-Credit-Risk-GlobalIME/pull/1",
           "date": "2026-04-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -456,13 +456,13 @@
     },
     {
       "id": "l524",
-      "text": "Redesign welcome and password reset emails with Ravlo branding\n\nWelcome email: adds logo, 15-day trial callout, 3-step quick-start\nguide (search → analyze → apply), and on-brand layout matching the\npreview welcome email style.\n\nPassword reset email: upgrades from plain text to full HTML with logo,\nclear CTA button, and consistent footer — replacing the bare link body.\n\nhttps://claude.ai/code/session_011xaYmCvbiJLZH9gbsht3Pf\n<!-- devin-review-badge-begin -->\n\n---\n\n<a href=\"https://app.devin.ai/re…",
+      "text": "Redesign welcome and password reset emails with Ravlo branding\n\nWelcome email: adds logo, 15-day trial callout, 3-step quick-start\nguide (search \u2192 analyze \u2192 apply), and on-brand layout matching the\npreview welcome email style.\n\nPassword reset email: upgrades from plain text to full HTML with logo,\nclear CTA button, and consistent footer \u2014 replacing the bare link body.\n\nhttps://claude.ai/code/session_011xaYmCvbiJLZH9gbsht3Pf\n<!-- devin-review-badge-begin -->\n\n---\n\n<a href=\"https://app.devin.ai/re\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Redesign welcome and password reset emails with Ravlo branding\n\nWelcome email: a…",
+          "title": "Redesign welcome and password reset emails with Ravlo branding\n\nWelcome email: a\u2026",
           "url": "https://github.com/letoya-ui/ravlo-platform/pull/170",
           "date": "2026-06-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -483,7 +483,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Multiple research questions\nTo transition from general regulatory awareness into…",
+          "title": "Multiple research questions\nTo transition from general regulatory awareness into\u2026",
           "url": "https://github.com/davidamitchell/Research/issues/570",
           "date": "2026-05-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -498,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Expand brokerage platform with financial dashboards and AI automation\n### Financial & Performance Dashboards\n- Added a comprehensive suite of dashboards including Agent Earnings, Team Revenue Rollup, Brokerage P&L, and Recruiting ROI.\n- Implemented a Lifetime Customer portal view and a Usage Metering dashboard with role-based access control (RBAC).\n- Created a Team He\n[vc]: #g1vCL5RxDM0CYLY8nmsgBtnBbvMo3bBqpCSp/4TeI0o=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ2M…",
+      "text": "Expand brokerage platform with financial dashboards and AI automation\n### Financial & Performance Dashboards\n- Added a comprehensive suite of dashboards including Agent Earnings, Team Revenue Rollup, Brokerage P&L, and Recruiting ROI.\n- Implemented a Lifetime Customer portal view and a Usage Metering dashboard with role-based access control (RBAC).\n- Created a Team He\n[vc]: #g1vCL5RxDM0CYLY8nmsgBtnBbvMo3bBqpCSp/4TeI0o=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ2M\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Expand brokerage platform with financial dashboards and AI automation\n### Financ…",
+          "title": "Expand brokerage platform with financial dashboards and AI automation\n### Financ\u2026",
           "url": "https://github.com/YHSG-Kling/v0-Vip-Re-OS-V1/pull/5",
           "date": "2026-03-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -666,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -708,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -897,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -918,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -981,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1002,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "Show HN: Core – open-source AI butler that clears your backlog without you",
+      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Core – open-source AI butler that clears your backlog without you",
+          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
           "url": "https://www.getcore.me/",
           "date": "2026-04-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1029,7 +1029,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "How to Rebuild a Company around AI\n@Alehandromz (Alejandro Maza), Chief Product …",
+          "title": "How to Rebuild a Company around AI\n@Alehandromz (Alejandro Maza), Chief Product \u2026",
           "url": "https://x.com/gokulr/status/2091932375429370061",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1092,7 +1092,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "the next trillion dollar companies wont be software companies\n\ntheyll be service…",
+          "title": "the next trillion dollar companies wont be software companies\n\ntheyll be service\u2026",
           "url": "https://x.com/0xWuki/status/2085930672850690132",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1113,7 +1113,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Great list. We @MarathonMP have a strong and value-added presence in NYC thanks …",
+          "title": "Great list. We @MarathonMP have a strong and value-added presence in NYC thanks \u2026",
           "url": "https://x.com/gokulr/status/2092386356072980899",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1134,7 +1134,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Eval suites: the zero-hype guide to jump-start your own AI flywheel on your own …",
+          "title": "Eval suites: the zero-hype guide to jump-start your own AI flywheel on your own \u2026",
           "url": "https://x.com/TXpaintbrush/status/2079933279868768730",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1155,7 +1155,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Leaders Must Manufacture Discomfort\n@frank_slootman (Frank Slootman), former CEO…",
+          "title": "Leaders Must Manufacture Discomfort\n@frank_slootman (Frank Slootman), former CEO\u2026",
           "url": "https://x.com/gokulr/status/2092271932586774578",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1170,13 +1170,13 @@
     },
     {
       "id": "l558",
-      "text": "💯 to this. It also speaks to a founder who’s truly navigated the idea maze and deeply understood customer needs, current alternatives available to them, and how to build a remarkable and differentiated product and business even in a highly competitive market (and let’s face it, every market today is highly competitive).",
+      "text": "\ud83d\udcaf to this. It also speaks to a founder who\u2019s truly navigated the idea maze and deeply understood customer needs, current alternatives available to them, and how to build a remarkable and differentiated product and business even in a highly competitive market (and let\u2019s face it, every market today is highly competitive).",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "💯 to this. It also speaks to a founder who’s truly navigated the idea maze and d…",
+          "title": "\ud83d\udcaf to this. It also speaks to a founder who\u2019s truly navigated the idea maze and d\u2026",
           "url": "https://x.com/gokulr/status/2092465129917165840",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1218,7 +1218,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "$VLO $MPC $PSX $DINO Refiners crushing it today. This is the first time I've eve…",
+          "title": "$VLO $MPC $PSX $DINO Refiners crushing it today. This is the first time I've eve\u2026",
           "url": "https://x.com/TheValueist/status/2092650528937226256",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1239,7 +1239,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@gokulr @alehandromz @astrange @Gabe_NM @a16z Rebuilding APIs is a quarter of wo…",
+          "title": "@gokulr @alehandromz @astrange @Gabe_NM @a16z Rebuilding APIs is a quarter of wo\u2026",
           "url": "https://x.com/liav_chen/status/2092266935501418895",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1260,7 +1260,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "$NVDA $MU $SNDK $LITE Many of your favorite GAI infrastructure names are up dece…",
+          "title": "$NVDA $MU $SNDK $LITE Many of your favorite GAI infrastructure names are up dece\u2026",
           "url": "https://x.com/TheValueist/status/2092665091338502442",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1275,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "😬🔥",
+      "text": "\ud83d\ude2c\ud83d\udd25",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "😬🔥",
+          "title": "\ud83d\ude2c\ud83d\udd25",
           "url": "https://x.com/gokulr/status/2092382389364515100",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1323,7 +1323,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Global Tungsten Market: Strategic Scarcity, Western Supply-Chain Bottlenecks, an…",
+          "title": "Global Tungsten Market: Strategic Scarcity, Western Supply-Chain Bottlenecks, an\u2026",
           "url": "https://x.com/TheValueist/status/2092649637542805541",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1344,7 +1344,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "It's scary how many categories of industrial materials China has come to control…",
+          "title": "It's scary how many categories of industrial materials China has come to control\u2026",
           "url": "https://x.com/TheValueist/status/2092669244311818279",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1365,7 +1365,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "$VLO $MPC $PSX $DINO FEDERAL GAS-TAX HOLIDAY: PROBABILITY, LEGALITY, ECONOMIC IN…",
+          "title": "$VLO $MPC $PSX $DINO FEDERAL GAS-TAX HOLIDAY: PROBABILITY, LEGALITY, ECONOMIC IN\u2026",
           "url": "https://x.com/TheValueist/status/2092663219802321254",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1380,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "@gokulr @MarathonMP @AlexGorgoni @ChaseAPackard Marathon FTW! Added to top 5 in NYC 🚀",
+      "text": "@gokulr @MarathonMP @AlexGorgoni @ChaseAPackard Marathon FTW! Added to top 5 in NYC \ud83d\ude80",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@gokulr @MarathonMP @AlexGorgoni @ChaseAPackard Marathon FTW! Added to top 5 in …",
+          "title": "@gokulr @MarathonMP @AlexGorgoni @ChaseAPackard Marathon FTW! Added to top 5 in \u2026",
           "url": "https://x.com/davj/status/2092658948759503021",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1407,7 +1407,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Don't Add The 24th Module\nJosh Meier and @Mattmcpartlon1 (Matt McPartion), Co-Fo…",
+          "title": "Don't Add The 24th Module\nJosh Meier and @Mattmcpartlon1 (Matt McPartion), Co-Fo\u2026",
           "url": "https://x.com/gokulr/status/2092660070660423857",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1428,7 +1428,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "CONSUMER DEMAND AND REFINERY-MARKET TRANSMISSION\n\nThe demand response is likely …",
+          "title": "CONSUMER DEMAND AND REFINERY-MARKET TRANSMISSION\n\nThe demand response is likely \u2026",
           "url": "https://x.com/TheValueist/status/2092663227054256207",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1449,7 +1449,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Global Tungsten Market: Strategic Scarcity, Western Supply-Chain Bottlenecks, an…",
+          "title": "Global Tungsten Market: Strategic Scarcity, Western Supply-Chain Bottlenecks, an\u2026",
           "url": "https://x.com/TheValueist/status/2092649270050496553",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1470,7 +1470,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "$VLO $MPC $PSX $DINO The Hidden Refining Input: How Low Nat Gas Prices Reshape G…",
+          "title": "$VLO $MPC $PSX $DINO The Hidden Refining Input: How Low Nat Gas Prices Reshape G\u2026",
           "url": "https://x.com/TheValueist/status/2092644046128693287",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1512,7 +1512,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheValueist Strong analysis, mate. The key distinction between deferral and tru…",
+          "title": "@TheValueist Strong analysis, mate. The key distinction between deferral and tru\u2026",
           "url": "https://x.com/kamhossieny/status/2092665846409662576",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1527,13 +1527,13 @@
     },
     {
       "id": "l575",
-      "text": "@TheValueist But it’s Platinum protein!!! All this stuff is so unnecessary for most",
+      "text": "@TheValueist But it\u2019s Platinum protein!!! All this stuff is so unnecessary for most",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheValueist But it’s Platinum protein!!! All this stuff is so unnecessary for m…",
+          "title": "@TheValueist But it\u2019s Platinum protein!!! All this stuff is so unnecessary for m\u2026",
           "url": "https://x.com/tampablue87/status/2092647112907358424",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1548,13 +1548,13 @@
     },
     {
       "id": "l576",
-      "text": "@TheValueist Legal ease that’s it \nOnce in a lawsuit , it is all compromise \nPay $ and make concessions that’s it",
+      "text": "@TheValueist Legal ease that\u2019s it \nOnce in a lawsuit , it is all compromise \nPay $ and make concessions that\u2019s it",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheValueist Legal ease that’s it \nOnce in a lawsuit , it is all compromise \nPay…",
+          "title": "@TheValueist Legal ease that\u2019s it \nOnce in a lawsuit , it is all compromise \nPay\u2026",
           "url": "https://x.com/drsessasarasota/status/2092642053964353721",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1590,13 +1590,13 @@
     },
     {
       "id": "l578",
-      "text": "@TheValueist The key shift is architectural: performance is increasingly won by moving data, security, and control closer to where computation happens. PIM, CXL compute, DPUs, and adaptive SoCs all point to the same bottleneck—data movement.",
+      "text": "@TheValueist The key shift is architectural: performance is increasingly won by moving data, security, and control closer to where computation happens. PIM, CXL compute, DPUs, and adaptive SoCs all point to the same bottleneck\u2014data movement.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheValueist The key shift is architectural: performance is increasingly won by …",
+          "title": "@TheValueist The key shift is architectural: performance is increasingly won by \u2026",
           "url": "https://x.com/davidarngar/status/2092628140220707214",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1611,13 +1611,13 @@
     },
     {
       "id": "l579",
-      "text": "@gokulr @Mattmcpartlon1 @chaidiscovery @gradypb @w1tness1ngh @sequoia The real scaling constraint may shift from model capacity to experiment throughput. If design gets 100x cheaper but validation stays slow, the bottleneck simply moves downstream—making lab automation part of the model roadmap.",
+      "text": "@gokulr @Mattmcpartlon1 @chaidiscovery @gradypb @w1tness1ngh @sequoia The real scaling constraint may shift from model capacity to experiment throughput. If design gets 100x cheaper but validation stays slow, the bottleneck simply moves downstream\u2014making lab automation part of the model roadmap.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@gokulr @Mattmcpartlon1 @chaidiscovery @gradypb @w1tness1ngh @sequoia The real s…",
+          "title": "@gokulr @Mattmcpartlon1 @chaidiscovery @gradypb @w1tness1ngh @sequoia The real s\u2026",
           "url": "https://x.com/davidarngar/status/2092662657895579867",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1680,7 +1680,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@gokulr @MarathonMP @AlexGorgoni @ChaseAPackard Strong value added presence in n…",
+          "title": "@gokulr @MarathonMP @AlexGorgoni @ChaseAPackard Strong value added presence in n\u2026",
           "url": "https://x.com/podreceipts/status/2092590383209365972",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1701,7 +1701,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@gokulr @alehandromz @astrange @Gabe_NM @a16z This is the six percent trap in mi…",
+          "title": "@gokulr @alehandromz @astrange @Gabe_NM @a16z This is the six percent trap in mi\u2026",
           "url": "https://x.com/tonytonggg/status/2092199426412732820",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1743,7 +1743,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@gokulr @alehandromz @astrange @Gabe_NM @a16z The line that sticks is throwing o…",
+          "title": "@gokulr @alehandromz @astrange @Gabe_NM @a16z The line that sticks is throwing o\u2026",
           "url": "https://x.com/DataInfraxInc/status/2092035738560762097",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1764,7 +1764,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@gokulr @alehandromz @astrange @Gabe_NM @a16z The six percent trap is the right …",
+          "title": "@gokulr @alehandromz @astrange @Gabe_NM @a16z The six percent trap is the right \u2026",
           "url": "https://x.com/PayInOne/status/2092001361026003455",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1800,13 +1800,13 @@
     },
     {
       "id": "l588",
-      "text": "Ryan Grant on Better’s Leadership Change, Mortgage AI, and the Future of Loan Officers\nWhat does Better’s leadership change mean for its mortgage technology, NEO Home Loans and the future of loan officers?\n \nAt the 2026 HousingWire AI Summit, HousingWire CEO Clayton Collins sits down with Ryan Grant, President of NEO Home Loans powered by Better, for a candid discussion about artificial intelligence, mortgage production costs and the changing role of the mortgage advisor.\n \nRyan explains why Bet…",
+      "text": "Ryan Grant on Better\u2019s Leadership Change, Mortgage AI, and the Future of Loan Officers\nWhat does Better\u2019s leadership change mean for its mortgage technology, NEO Home Loans and the future of loan officers?\n \nAt the 2026 HousingWire AI Summit, HousingWire CEO Clayton Collins sits down with Ryan Grant, President of NEO Home Loans powered by Better, for a candid discussion about artificial intelligence, mortgage production costs and the changing role of the mortgage advisor.\n \nRyan explains why Bet\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Ryan Grant on Better’s Leadership Change, Mortgage AI, and the Future of Loan Of…",
+          "title": "Ryan Grant on Better\u2019s Leadership Change, Mortgage AI, and the Future of Loan Of\u2026",
           "url": "https://www.youtube.com/watch?v=WLhVOR0eQfs",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1821,13 +1821,13 @@
     },
     {
       "id": "l589",
-      "text": "Why Reddit is MANDATORY for LOs Today!\nIf you’re a loan officer and Reddit isn’t part of your strategy yet, this episode may change your mind.\n\nTo get the prompt visit: https://www.facebook.com/share/p/1932DRzi5R/ and type in Mortgage Marketing\n\nChris Johnstone joins the Loan Officer Breakfast Club to break down how Reddit, AI, and online conversations are changing the way consumers find and choose mortgage professionals.\n\nGoogle reviews still matter, but AI tools like ChatGPT are increasingly l…",
+      "text": "Why Reddit is MANDATORY for LOs Today!\nIf you\u2019re a loan officer and Reddit isn\u2019t part of your strategy yet, this episode may change your mind.\n\nTo get the prompt visit: https://www.facebook.com/share/p/1932DRzi5R/ and type in Mortgage Marketing\n\nChris Johnstone joins the Loan Officer Breakfast Club to break down how Reddit, AI, and online conversations are changing the way consumers find and choose mortgage professionals.\n\nGoogle reviews still matter, but AI tools like ChatGPT are increasingly l\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why Reddit is MANDATORY for LOs Today!\nIf you’re a loan officer and Reddit isn’t…",
+          "title": "Why Reddit is MANDATORY for LOs Today!\nIf you\u2019re a loan officer and Reddit isn\u2019t\u2026",
           "url": "https://www.youtube.com/watch?v=TIkflSnExE4",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1842,13 +1842,13 @@
     },
     {
       "id": "l590",
-      "text": "Upstart Q2 Earnings: The AI Company Disrupting The $1 Trillion Lending Market\nSimon Erickson and Heather Horton break down Upstart Holdings (NASDAQ:UPST) Q2 2026 earnings, released the day before this live stream. \n\nNew CEO Paul Gu, one of the company's original co-founders, posted his own recap directly on X just 100 days into the role, a move Simon highlights as a sign the company is finally learning to speak Wall Street's language rather than getting lost in the weeds of its AI credit models.…",
+      "text": "Upstart Q2 Earnings: The AI Company Disrupting The $1 Trillion Lending Market\nSimon Erickson and Heather Horton break down Upstart Holdings (NASDAQ:UPST) Q2 2026 earnings, released the day before this live stream. \n\nNew CEO Paul Gu, one of the company's original co-founders, posted his own recap directly on X just 100 days into the role, a move Simon highlights as a sign the company is finally learning to speak Wall Street's language rather than getting lost in the weeds of its AI credit models.\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Upstart Q2 Earnings: The AI Company Disrupting The $1 Trillion Lending Market\nSi…",
+          "title": "Upstart Q2 Earnings: The AI Company Disrupting The $1 Trillion Lending Market\nSi\u2026",
           "url": "https://www.youtube.com/watch?v=YnD9ZMjr08w",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1863,13 +1863,13 @@
     },
     {
       "id": "l591",
-      "text": "Blue Owl: How AI Broke a $1.8T Lending Empire\n📩 Stay ahead of bankruptcies, distressed debt, and leveraged finance — subscribe to the newsletter: https://www.junkbondinvestor.com/\n\nBlue Owl Capital promised individual investors something Wall Street had never offered them before — access to private credit markets with quarterly cash-out windows. The loans inside the funds couldn't be sold quickly. But as long as nobody panicked, the system worked. Then people started panicking. In March 2026, Gl…",
+      "text": "Blue Owl: How AI Broke a $1.8T Lending Empire\n\ud83d\udce9 Stay ahead of bankruptcies, distressed debt, and leveraged finance \u2014 subscribe to the newsletter: https://www.junkbondinvestor.com/\n\nBlue Owl Capital promised individual investors something Wall Street had never offered them before \u2014 access to private credit markets with quarterly cash-out windows. The loans inside the funds couldn't be sold quickly. But as long as nobody panicked, the system worked. Then people started panicking. In March 2026, Gl\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Blue Owl: How AI Broke a $1.8T Lending Empire\n📩 Stay ahead of bankruptcies, dist…",
+          "title": "Blue Owl: How AI Broke a $1.8T Lending Empire\n\ud83d\udce9 Stay ahead of bankruptcies, dist\u2026",
           "url": "https://www.youtube.com/watch?v=_AqEhQvjpsg",
           "date": "2026-05-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1884,13 +1884,13 @@
     },
     {
       "id": "l592",
-      "text": "Appraisal Shortage Revealed: New Rules + AI Could Reshape Mortgage Lending\nAppraisal workforce shortage is tightening lending—new licensing rules and AI valuations could change closings fast.\n\nIn this real estate news breakdown, we cover Jim Park’s warnings on the shrinking appraiser pipeline, why fewer trainees and supervisors are entering the field, and how regulatory scrutiny is shifting the appraisal landscape. We’ll also unpack what automated valuation models (AVMs) and AI tools mean for cr…",
+      "text": "Appraisal Shortage Revealed: New Rules + AI Could Reshape Mortgage Lending\nAppraisal workforce shortage is tightening lending\u2014new licensing rules and AI valuations could change closings fast.\n\nIn this real estate news breakdown, we cover Jim Park\u2019s warnings on the shrinking appraiser pipeline, why fewer trainees and supervisors are entering the field, and how regulatory scrutiny is shifting the appraisal landscape. We\u2019ll also unpack what automated valuation models (AVMs) and AI tools mean for cr\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Appraisal Shortage Revealed: New Rules + AI Could Reshape Mortgage Lending\nAppra…",
+          "title": "Appraisal Shortage Revealed: New Rules + AI Could Reshape Mortgage Lending\nAppra\u2026",
           "url": "https://www.youtube.com/watch?v=l2DghmFPHQo",
           "date": "2026-06-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1905,16 +1905,688 @@
     },
     {
       "id": "l593",
-      "text": "How Loan Officers Are Using AI to Win More Realtor Deals with LoanOfficer.ai\nWant more Realtor relationships without chasing them all day?\n\nHere’s a simple strategy top loan officers are using right now 👇\n\n👉 Set agents up on daily or weekly rate updates\n👉 Ask for permission (this is key)\n👉 Let your AI assistant handle replies in real-time\n\nNow instead of “checking in”…\nyou’re showing up with value — consistently.\n\nAnd here’s where it gets powerful:\n\nWhen an agent replies with a scenario like:\n“$…",
+      "text": "How Loan Officers Are Using AI to Win More Realtor Deals with LoanOfficer.ai\nWant more Realtor relationships without chasing them all day?\n\nHere\u2019s a simple strategy top loan officers are using right now \ud83d\udc47\n\n\ud83d\udc49 Set agents up on daily or weekly rate updates\n\ud83d\udc49 Ask for permission (this is key)\n\ud83d\udc49 Let your AI assistant handle replies in real-time\n\nNow instead of \u201cchecking in\u201d\u2026\nyou\u2019re showing up with value \u2014 consistently.\n\nAnd here\u2019s where it gets powerful:\n\nWhen an agent replies with a scenario like:\n\u201c$\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How Loan Officers Are Using AI to Win More Realtor Deals with LoanOfficer.ai\nWan…",
+          "title": "How Loan Officers Are Using AI to Win More Realtor Deals with LoanOfficer.ai\nWan\u2026",
           "url": "https://www.youtube.com/watch?v=Yq77VMjyVIU",
           "date": "2026-04-02",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l492",
+      "text": "Mobile Lender | Community Bank Altona | VIC \u2014 Bendigo Bank (Altona, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bendigo Bank",
+          "title": "Mobile Lender | Community Bank Altona | VIC",
+          "url": "https://www.linkedin.com/jobs/view/4447388252",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l493",
+      "text": "Mobile Lender | Sydney | NSW \u2014 Bendigo Bank (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bendigo Bank",
+          "title": "Mobile Lender | Sydney | NSW",
+          "url": "https://www.linkedin.com/jobs/view/4456546006",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l494",
+      "text": "Home Loan Specialist \u2013 Mortgage Broker \u2014 Fox Home Loans (Sunshine Coast, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Fox Home Loans",
+          "title": "Home Loan Specialist \u2013 Mortgage Broker",
+          "url": "https://www.linkedin.com/jobs/view/4449423252",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l495",
+      "text": "Mobile Lending Specialist \u2014 Beyond Bank Australia (Canberra, Australian Capital Territory, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Beyond Bank Australia",
+          "title": "Mobile Lending Specialist",
+          "url": "https://www.linkedin.com/jobs/view/4356261731",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l496",
+      "text": "Mobile Lending Specialist \u2014 Beyond Bank Australia (Perth, Western Australia, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Beyond Bank Australia",
+          "title": "Mobile Lending Specialist",
+          "url": "https://www.linkedin.com/jobs/view/4458078127",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l497",
+      "text": "Home Loan Specialist - Victoria Police Centre \u2014 BankVic (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "BankVic",
+          "title": "Home Loan Specialist - Victoria Police Centre",
+          "url": "https://www.linkedin.com/jobs/view/4456474498",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l498",
+      "text": "Home Lending Executive - Ballarat \u2014 Commonwealth Bank (Ballarat, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Commonwealth Bank",
+          "title": "Home Lending Executive - Ballarat",
+          "url": "https://www.linkedin.com/jobs/view/4454518474",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l499",
+      "text": "Local Home Loan Specialist - Caneland Central Mackay \u2014 Queensland Country Bank (Mackay, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Country Bank",
+          "title": "Local Home Loan Specialist - Caneland Central Mackay",
+          "url": "https://www.linkedin.com/jobs/view/4415005656",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "13-2072-L1-01",
+      "text": "Loan officers and mortgage brokers in Australia are bound by the National Consumer Credit Protection Act 2009, whose Chapter 3 imposes responsible lending obligations: credit licensees must hold an Australian Credit Licence and (with mortgage brokers) owe a best-interests duty to the consumer.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "ASIC",
+          "title": "Responsible lending",
+          "url": "https://www.asic.gov.au/regulatory-resources/credit/responsible-lending",
+          "date": "",
+          "whatItMeasured": "NCCP Act 2009 Ch 3 responsible lending; ACL required; mortgage-broker best-interests duty."
+        }
+      ],
+      "scope": "Binds credit licensees and credit assistance providers nationally. Not a statement about AI.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "ASIC regulator page citing NCCP Act; population = AU credit licensees; in force."
+    },
+    {
+      "id": "13-2072-L1-02",
+      "text": "The NCCP Act 2009 prohibits engaging in credit activity without an Australian Credit Licence and requires a licensee to assess whether a credit contract will be unsuitable for the consumer (s128) no more than 90 days before entering or increasing the credit limit (120 days for residential mortgages, s130) - the statutory loan-assessment duty loan officers perform.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Federal Register of Legislation",
+          "title": "National Consumer Credit Protection Act 2009",
+          "url": "https://www.legislation.gov.au/C2009A00134/latest",
+          "date": "2009",
+          "whatItMeasured": "NCCP Act 2009: ACL required; s128/130 unsuitability assessment timing before credit is entered/increased."
+        }
+      ],
+      "scope": "Binds credit providers and brokers; the assessment duty is statutory, not AI-derived.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Commonwealth legislation text; population = AU credit providers; Act 2009."
+    },
+    {
+      "id": "13-2072-L1-03",
+      "text": "ASIC Regulatory Guide 209 (RG 209) sets out ASIC's view of responsible lending conduct and makes clear lenders can no longer simply rely on borrower-supplied information but must take reasonable steps to verify the consumer's financial situation - the verification standard AI credit-assessment tools must satisfy.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "ASIC",
+          "title": "Regulatory Guide 209: Credit licensing - Responsible lending conduct",
+          "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-209-credit-licensing-responsible-lending-conduct",
+          "date": "",
+          "whatItMeasured": "ASIC RG 209 responsible lending conduct; verification (not mere reliance) of borrower information required."
+        }
+      ],
+      "scope": "Binds credit licensees/credit assistance providers; sets the compliance bar for automated assessment.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "ASIC regulatory guide; population = AU credit licensees; current."
+    },
+    {
+      "id": "13-2072-L2-01",
+      "text": "JSA's Gen AI Capacity Study (August 2025) finds augmentation outweighs automation and that routine-cognitive clerical roles carry the highest automatability; it scores Accounting Clerks at augmentability 0.74 / automatability 0.71, indicating the loan-origination assessment and documentation tasks sit in a high-exposure band even where professional finance roles skew to augmentation.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition - Exposure",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study (Aug 2025); augmentation > automation; Accounting Clerks 0.74/0.71; routine-cognitive exposure high."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived. Applies the study's frame to origination tasks, not a direct loan-officer score.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Primary Australian government study; population = AU occupations; Aug 2025."
+    },
+    {
+      "id": "13-2072-L2-02",
+      "text": "The ILO task-level framework (Gmyrek, Berg & Bescond, 2023) finds routine cognitive and clerical tasks most exposed to automation, consistent with JSA's finding that loan-origination's document-review and assessment steps are partially automatable while judgement-heavy broker tasks skew to augmentation.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "ILO",
+          "title": "Generative AI and Jobs: A global analysis of potential (working paper)",
+          "url": "https://webapps.ilo.org/static/english/intserv/working-papers/wp096/index.html",
+          "date": "2023",
+          "whatItMeasured": "ILO wp096: routine cognitive/clerical tasks most automatable; partial exposure for knowledge work."
+        }
+      ],
+      "scope": "Global framework; applied here to origination by analogy of task composition, not AU-specific.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Peer ILO working paper; method source; 2023."
+    },
+    {
+      "id": "13-2072-L3-01",
+      "text": "A 2026 vendor report on AI lending transformation claims lenders using AI-based scoring reduced per-loan origination costs by up to 14% and defect rates by 40%, with about a 5-day shorter loan cycle - a quantified demand-side claim about automation of origination.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "timvero",
+          "title": "How AI Is Transforming Lending in 2026",
+          "url": "https://timvero.com/blog/how-ai-and-automation-are-transforming-lending",
+          "date": "2026",
+          "whatItMeasured": "timvero (2026): AI scoring -14% origination cost, -40% defects, ~5-day shorter cycle."
+        }
+      ],
+      "scope": "Vendor/blog source; directional, not independently audited. Global lending context.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Named publisher + date (2026); single vendor source; claims unverified."
+    },
+    {
+      "id": "13-2072-L3-02",
+      "text": "Industry coverage lists GenAI use cases in mortgage lending - summarising loan files, detecting inconsistencies, and supporting underwriters with context-driven insights - describing how the underwriting step is augmented rather than removed.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "appinventiv",
+          "title": "10 Use Cases of How AI is Reshaping the Mortgage Lending Industry",
+          "url": "https://appinventiv.com/blog/ai-in-mortgage-lending-industry/",
+          "date": "2026",
+          "whatItMeasured": "appinventiv (2026): GenAI summarises loan files, detects inconsistencies, supports underwriters."
+        }
+      ],
+      "scope": "Trade/industry coverage; not a primary study. Global mortgage context.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Named publisher + date (2026); single source."
+    },
+    {
+      "id": "13-2072-L3-03",
+      "text": "A practitioner article on Australian mortgage brokers in 2026 argues the AI future is already arriving and that brokers who adopt AI tooling will lead - a practitioner-discourse signal about adoption pressure in the role.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "LinkedIn (Jason)",
+          "title": "What AI Will Mean for Australian Mortgage Brokers in 2026",
+          "url": "https://www.linkedin.com/pulse/what-ai-mean-australian-mortgage-brokers-2026-jason-9wsbc",
+          "date": "2026",
+          "whatItMeasured": "LinkedIn practitioner piece: AU mortgage brokers adapting to AI in 2026."
+        }
+      ],
+      "scope": "Practitioner opinion piece; self-selected, not representative. AU broker context.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Named author/platform + date (2026); single practitioner source."
+    },
+    {
+      "id": "l5108",
+      "text": "Add messages tab to loan file; fix account settings LocalProxy crash\n\n- loan_file: add Messages section \u2014 loan officers can now send a\n  message to the borrower directly from the loan file, and all prior\n  borrower messages are shown inline (staff/AI/borrower colour-coded)\n- loan_file route: accept POST with _action=send_message, create\n  BorrowerMessage(sender_type=staff) and redirect back on success\n- account/settings: replace type(current_user).query with User.query\n  \u2014 type() on a Flask-Logi\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add messages tab to loan file; fix account settings LocalProxy crash\n\n- loan_fil\u2026",
+          "url": "https://github.com/letoya-ui/ravlo-platform/pull/181",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "[DMP 2026]: Agentic AI for Proactive Portfolio Management with Explainable Autonomy\n### Ticket Contents\n\n## Description\nOverview and Objectives: Design and build a prototype \"Portfolio Health Agent\" that autonomously monitors loan portfolios, identifies at-risk accounts, and takes pre-approved actions (e.g., sending reminders, scheduling follow-ups) while escalating complex cases t\nThis ticket will be assigned to the successful C4GT DMP2026 applicant Hey, went through the Mifos X API docs and th\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[DMP 2026]: Agentic AI for Proactive Portfolio Management with Explainable Auton\u2026",
+          "url": "https://github.com/openMF/mifos-x-ai-agentic-framework/issues/2",
+          "date": "2026-03-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "Remove Loan Officer section from VIP partners sidebar\n\n- _sidebar_vip.html: removed the loan_officer/lender elif block entirely\n  (Workspace, Lending, Business nav links) and cleaned the brand link\n  condition to no longer route LO/lender roles to the LO dashboard\n- _sidebar_partner.html: removed vip.loan_officer_dashboard from the\n  VIP Workspace active-state check\n\nhttps://claude.ai/code/session_01YLteXLZwzHoNAeGaDaZNA9\n<!-- devin-review-badge-begin -->\n\n---\n\n<a href=\"https://app.devin.ai/revi\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Remove Loan Officer section from VIP partners sidebar\n\n- _sidebar_vip.html: remo\u2026",
+          "url": "https://github.com/letoya-ui/ravlo-platform/pull/110",
+          "date": "2026-05-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "VaultSync Loan Origination Hub : A zero-code, AI-first loan origination platform that uses a multi-agent Copilot architecture and SharePoint Premium to automate banking workflows while eliminating AI hallucinations through strict data grounding.\n### Submission Name\n\nVaultSync Loan Origination Hub\n\n### Description\n\n\ud83d\ude80 Elevator Pitch\n\nA zero-code, AI-first loan origination platform that uses a multi-agent Copilot architecture and SharePoint Premium to automate banking workflows while eliminating AI\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "VaultSync Loan Origination Hub : A zero-code, AI-first loan origination platform\u2026",
+          "url": "https://github.com/SharePoint/sharepoint-hackathon/issues/232",
+          "date": "2026-03-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5112",
+      "text": "Redesign welcome and password reset emails with Ravlo branding\n\nWelcome email: adds logo, 15-day trial callout, 3-step quick-start\nguide (search \u2192 analyze \u2192 apply), and on-brand layout matching the\npreview welcome email style.\n\nPassword reset email: upgrades from plain text to full HTML with logo,\nclear CTA button, and consistent footer \u2014 replacing the bare link body.\n\nhttps://claude.ai/code/session_011xaYmCvbiJLZH9gbsht3Pf\n<!-- devin-review-badge-begin -->\n\n---\n\n<a href=\"https://app.devin.ai/re\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Redesign welcome and password reset emails with Ravlo branding\n\nWelcome email: a\u2026",
+          "url": "https://github.com/letoya-ui/ravlo-platform/pull/170",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5113",
+      "text": "Expand brokerage platform with financial dashboards and AI automation\n### Financial & Performance Dashboards\n- Added a comprehensive suite of dashboards including Agent Earnings, Team Revenue Rollup, Brokerage P&L, and Recruiting ROI.\n- Implemented a Lifetime Customer portal view and a Usage Metering dashboard with role-based access control (RBAC).\n- Created a Team He\n[vc]: #g1vCL5RxDM0CYLY8nmsgBtnBbvMo3bBqpCSp/4TeI0o=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ2M\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Expand brokerage platform with financial dashboards and AI automation\n### Financ\u2026",
+          "url": "https://github.com/YHSG-Kling/v0-Vip-Re-OS-V1/pull/5",
+          "date": "2026-03-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5114",
+      "text": "Tell HN: Man, AI is killing my brain",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5115",
+      "text": "Deep Cogito\n\nCompanies need AI models that understand how their teams make decisions. A general-purpose model starts with broad knowledge. Companies still have to teach it their products, customers, code, security policies, and internal standards.\n\nRAG can retrieve a relevant document at inference time. Specialized work requires the model to learn from a company\u2019s examples and outcomes.\n\n@DeepCogito is solving this through post-training, using reinforcement learning to train open-weight models o",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Deep Cogito\n\nCompanies need AI models that understand how their teams make decis\u2026",
+          "url": "https://x.com/gokulr/status/2092684984138272947",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5116",
+      "text": "The Moat Is Better, Not More\n@RileyBrown (Riley Brown) AI creator and founder of @Chorus_agent, interviewed by @PetergYang (Peter Yang) (Behind the Craft)\n\nSummary: Riley Brown has built an audience of roughly 1.7 million by teaching AI, but his operating system is designed around depth rather than volume. He turns successful tasks into reusable skills, combines those skills into personalized workflows, and uses agents to invest more research and iteration in every piece. The goal is not a conte",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Moat Is Better, Not More\n@RileyBrown (Riley Brown) AI creator and founder of\u2026",
+          "url": "https://x.com/gokulr/status/2093448696423977071",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5117",
+      "text": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in the age of AI:\n\n\"This is why we keep a direct-to-consumer business. A lot of our customers in the lending world rely on lead generation platforms like Credit Karma and LendingTree, or personal finance websites. They\u2019re affiliates that send out leads.\n\nIf AI disrupts that, how do we know our partners are set up to make sure they get those leads in that future?\n\nWe\u2019re not really outsourcing the underwriting. We\u2019re outsou",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in th\u2026",
+          "url": "https://x.com/ThePeelPod/status/2093359585419579440",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5118",
+      "text": "Ryan Grant on Better\u2019s Leadership Change, Mortgage AI, and the Future of Loan Officers\nWhat does Better\u2019s leadership change mean for its mortgage technology, NEO Home Loans and the future of loan officers?\n \nAt the 2026 HousingWire AI Summit, HousingWire CEO Clayton Collins sits down with Ryan Grant, President of NEO Home Loans powered by Better, for a candid discussion about artificial intelligence, mortgage production costs and the changing role of the mortgage advisor.\n \nRyan explains why Bet\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Ryan Grant on Better\u2019s Leadership Change, Mortgage AI, and the Future of Loan Of\u2026",
+          "url": "https://www.youtube.com/watch?v=WLhVOR0eQfs",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5119",
+      "text": "Why Reddit is MANDATORY for LOs Today!\nIf you\u2019re a loan officer and Reddit isn\u2019t part of your strategy yet, this episode may change your mind.\n\nTo get the prompt visit: https://www.facebook.com/share/p/1932DRzi5R/ and type in Mortgage Marketing\n\nChris Johnstone joins the Loan Officer Breakfast Club to break down how Reddit, AI, and online conversations are changing the way consumers find and choose mortgage professionals.\n\nGoogle reviews still matter, but AI tools like ChatGPT are increasingly l\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Why Reddit is MANDATORY for LOs Today!\nIf you\u2019re a loan officer and Reddit isn\u2019t\u2026",
+          "url": "https://www.youtube.com/watch?v=TIkflSnExE4",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5120",
+      "text": "Upstart Q2 Earnings: The AI Company Disrupting The $1 Trillion Lending Market\nSimon Erickson and Heather Horton break down Upstart Holdings (NASDAQ:UPST) Q2 2026 earnings, released the day before this live stream. \n\nNew CEO Paul Gu, one of the company's original co-founders, posted his own recap directly on X just 100 days into the role, a move Simon highlights as a sign the company is finally learning to speak Wall Street's language rather than getting lost in the weeds of its AI credit models.\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Upstart Q2 Earnings: The AI Company Disrupting The $1 Trillion Lending Market\nSi\u2026",
+          "url": "https://www.youtube.com/watch?v=YnD9ZMjr08w",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5121",
+      "text": "Appraisal Shortage Revealed: New Rules + AI Could Reshape Mortgage Lending\nAppraisal workforce shortage is tightening lending\u2014new licensing rules and AI valuations could change closings fast.\n\nIn this real estate news breakdown, we cover Jim Park\u2019s warnings on the shrinking appraiser pipeline, why fewer trainees and supervisors are entering the field, and how regulatory scrutiny is shifting the appraisal landscape. We\u2019ll also unpack what automated valuation models (AVMs) and AI tools mean for cr\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Appraisal Shortage Revealed: New Rules + AI Could Reshape Mortgage Lending\nAppra\u2026",
+          "url": "https://www.youtube.com/watch?v=l2DghmFPHQo",
+          "date": "2026-06-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5122",
+      "text": "Blue Owl: How AI Broke a $1.8T Lending Empire\n\ud83d\udce9 Stay ahead of bankruptcies, distressed debt, and leveraged finance \u2014 subscribe to the newsletter: https://www.junkbondinvestor.com/\n\nBlue Owl Capital promised individual investors something Wall Street had never offered them before \u2014 access to private credit markets with quarterly cash-out windows. The loans inside the funds couldn't be sold quickly. But as long as nobody panicked, the system worked. Then people started panicking. In March 2026, Gl\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Blue Owl: How AI Broke a $1.8T Lending Empire\n\ud83d\udce9 Stay ahead of bankruptcies, dist\u2026",
+          "url": "https://www.youtube.com/watch?v=_AqEhQvjpsg",
+          "date": "2026-05-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5123",
+      "text": "How Loan Officers Are Using AI to Win More Realtor Deals with LoanOfficer.ai\nWant more Realtor relationships without chasing them all day?\n\nHere\u2019s a simple strategy top loan officers are using right now \ud83d\udc47\n\n\ud83d\udc49 Set agents up on daily or weekly rate updates\n\ud83d\udc49 Ask for permission (this is key)\n\ud83d\udc49 Let your AI assistant handle replies in real-time\n\nNow instead of \u201cchecking in\u201d\u2026\nyou\u2019re showing up with value \u2014 consistently.\n\nAnd here\u2019s where it gets powerful:\n\nWhen an agent replies with a scenario like:\n\u201c$\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How Loan Officers Are Using AI to Win More Realtor Deals with LoanOfficer.ai\nWan\u2026",
+          "url": "https://www.youtube.com/watch?v=Yq77VMjyVIU",
+          "date": "2026-04-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1941,7 +2613,31 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "loan officer",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+      "count": 16,
+      "returned": 16,
+      "topEmployers": [
+        "Medtronic",
+        "Banner Bank",
+        "Fitzgerald Jenkins Recruitment",
+        "ACT Health",
+        "Chartline",
+        "Kaizen Recruitment",
+        "Motor Scout Australia",
+        "Barclays"
+      ],
+      "topSkills": [
+        "loan",
+        "mortgage",
+        "credit",
+        "broker",
+        "lending"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1952,7 +2648,50 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired; re-run scripts/factiva_reauth.py. Logged to factiva_backlog.json.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "seek",
+        "status": "not-sampled",
+        "detail": "Seek trend pages not queried this batch; Adzuna AU + LinkedIn used for L4 demand signal.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "last30days-hiring-signals",
+        "status": "not-sampled",
+        "detail": "last30days --hiring-signals not run separately; Adzuna + LinkedIn cover L4 demand. L5 last30days ran.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L5",
+        "source": "tiktok",
+        "status": "unavailable",
+        "detail": "has_scrapecreators: false (TikTok/Instagram unavailable in this environment). Recorded as coverage, not a finding.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L5",
+        "source": "instagram",
+        "status": "unavailable",
+        "detail": "has_scrapecreators: false (TikTok/Instagram unavailable). Recorded as coverage, not a finding.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "status": "source_failed",
+        "detail": "last30days reported 'grounding' source failed on 2026-08-30 run; reddit/x/youtube/hackernews/polymarket/github succeeded. Coverage gap, not a finding.",
+        "date": "2026-08-30"
+      }
+    ],
     "l5Sample": [
       {
         "status": "sampled",
@@ -1970,6 +2709,20 @@
           "jobs": 0,
           "reddit": 0,
           "x": 37,
+          "youtube": 6
+        },
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 16,
+        "sources": {
+          "github": 13,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 0,
+          "x": 8,
           "youtube": 6
         },
         "status": "sampled"
@@ -1992,9 +2745,21 @@
         "returned": 10,
         "totalResults": 10,
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "soc": "13-2072",
+        "query": "Loan Officer",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva degraded (auth_expired) 2026-08-30; L3 trade-press sourced via web. L5 grounding source failed this run."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }
