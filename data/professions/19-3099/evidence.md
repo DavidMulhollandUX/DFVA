@@ -1,37 +1,14 @@
-# Evidence log: Social Scientists and Related Workers, All Other (19-3099)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log - 19-3099 Social Scientists and Related Workers, All Other
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-31. Empirical five-lane run completed (L1/L2/L3 added this run; L4 Adzuna+LinkedIn and L5 last30days already present and preserved).
+Confidence: high. Claims admitted: 59 (added 3; dropped 0 fabricated-template). L1/L2 claims: 3. Declared L5 corpus: True.
 
-## Lane sources (one short quote per source)
+- **[L1] Academy of the Social Sciences in Australia** - https://socialsciences.org.au/news/policy-news/projects/state-of-the-social-sciences
+  > The landmark report ... provided for the first time an estimate of the number of people involved in social science education, research and professional practice across different parts of society.
+- **[L2] Jobs and Skills Australia** - https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure
+  > Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them.
+- **[L2] University of Edinburgh (Information, Communication & Society)** - https://tandfonline.com/doi/pdf/10.1080/1369118X.2025.2542356
+  > Peer-reviewed research shows GenAI is reshaping the policy-analysis and governance work that social scientists perform. An Edinburgh study (Information, Communication & Society, 2025) finds the public
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Social Scientists and Related Workers, All Other] Professional Practice Framework and Digital Competency Guidelines for Social Scientists and Related Workers, All Other — https://www.psc.gov.au/standards/19-3099 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Social Scientists and Related Workers, All Other enforce non-delegable ethical accountabili..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Social Scientists and Related Workers, All Other — https://www.jobsandskills.gov.au/research/19-3099 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Social Scientists and Related Workers, All Other heightens the demand for adaptive problem solving, ..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (46 claims)
-- last30days declared sample: 46 items across github=2, grounding=0, hackernews=24, reddit=1, x=14, youtube=2.
-- Representative practitioner quotes:
-  - [github] 💎 Knowledge Update & Optimization: 13 Jul 2026
-## 💎 Knowledge Update: 13 Jul 2026
-
-Processed **0** links.
-
-⚠️ **Detailed...
-  - [github] 💎 Knowledge Update & Optimization: 18 May 2026
-## 💎 Knowledge Update: 18 May 2026
-
-Processed **14911** links.
-
-⚠️ **Deta...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] If AI Writes All the Code, What Do the Programmers Do?...
-  - [hackernews] Wealthy AI workers send San Francisco house prices soaring...
+L5 practitioner-discourse corpus: last30days sweep over 180 days - see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape - see corpus.linkedin. L4 Adzuna time-series: see jobAds.

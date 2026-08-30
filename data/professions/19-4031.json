@@ -8,11 +8,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-31",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-03-02",
   "programs": [
     "mc-chemeng"
   ],
@@ -1360,6 +1360,93 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Chemical Technicians in Australia are not a licensed occupation. Jobs and Skills Australia's OSCA profile for Chemical Technician (311531) lists skill level 2 (Diploma/Advanced Diploma) and explicitly states 'No licensing or registration requirements are listed for this occupation.' Professional recognition is available through the Royal Australian Chemical Institute (RACI) grades such as MRACI/Chartered Chemist, referenced in the Fair Work Commission award as the benchmark for chemical qualifications.",
+      "lane": "L1",
+      "tier": "regulatory-professional-body",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Chemical Technician - OSCA 311531",
+          "url": "https://www.jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations-osca/311531-chemical-technician",
+          "date": "2025",
+          "whatItMeasured": "OSCA occupation profile: skill level 2; 'No licensing or registration requirements are listed for this occupation.'",
+          "quote": "No licensing or registration requirements are listed for this occupation."
+        },
+        {
+          "publisher": "Royal Australian Chemical Institute (RACI)",
+          "title": "RACI - Membership and professional recognition (MRACI / Chartered Chemist)",
+          "url": "https://raci.org.au/",
+          "date": "2026",
+          "whatItMeasured": "RACI is the Australian professional body for chemistry; offers MRACI and Chartered Chemist grades - voluntary professional recognition, not a statutory licence."
+        }
+      ],
+      "scope": "Voluntary RACI professional recognition; no statutory licence. Population = Australian chemical technicians (ANZSCO 311411 / OSCA 311531).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (JSA OSCA; Fair Work); measures this population; current.",
+      "id": "19-4031-e65"
+    },
+    {
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study (2025) finds augmentation generally outweighs automation for current Gen AI: technician-level occupations skew towards augmentation, with automation potential concentrated in routine roles. Effects depend on adoption and workplace adaptation. Chemical technicians are inferred as a skill-level-2 technical group in the augmentation band.",
+      "lane": "L2",
+      "tier": "scholarly-modelling",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition - Exposure (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "Task/occupation-level Gen AI augmentability and automatability across 358 ANZSCO occupations; 'augmentation generally outweighs automation'.",
+          "quote": "Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them."
+        },
+        {
+          "publisher": "AI Changing Work (secondary summary of JSA)",
+          "title": "Australia's First Gen AI Capacity Study: 79% of Workers Face Low Risk",
+          "url": "https://aichanging.work/en/blog/jsa-genai-capacity-study-australia-2025",
+          "date": "2025",
+          "whatItMeasured": "Secondary summary of the JSA study: 79% of Australian workers face low/very-low automation risk; professionals see the highest augmentation gains."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level potential, not observed job losses. Chemical technicians inferred as a technical group in the augmentation band.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (JSA gov); measures AU occupations; published 2025.",
+      "id": "19-4031-e66"
+    },
+    {
+      "text": "Scholarly lab-automation literature shows AI and robotics are absorbing routine chemical-technician bench work. A 2025 Chimia outlook on self-driving labs finds robotics + AI + data science now automate the chemistry design-build-test-learn loop; an Oct-2025 arXiv outlook argues LLM-based AI agents help chemists run experimental design, synthesis optimisation and materials characterisation - the routine technician tasks.",
+      "lane": "L2",
+      "tier": "scholarly-automation",
+      "sources": [
+        {
+          "publisher": "Chimia (Swiss Chemical Society)",
+          "title": "Bridging Innovation and Efficiency: The Promises and Challenges of Self-Driving Labs as Sustainable Drivers for Chemistry",
+          "url": "https://doi.org/10.2533/chimia.2025.600",
+          "date": "2025",
+          "whatItMeasured": "Peer-reviewed outlook: self-driving labs (robotics + AI + data science) automate the design-analysis loop in chemistry - evidence AI automates routine lab procedures.",
+          "quote": "automated closed-loop experimentation, frequently named 'Self-driving labs' (SDLs), which integrate robotics, some form of artificial intelligence (AI) and data science, has emerged as a promising solution."
+        },
+        {
+          "publisher": "arXiv",
+          "title": "Synergizing chemical and AI communities for advancing laboratories of the future",
+          "url": "https://arxiv.org/pdf/2510.16293v1.pdf",
+          "date": "2025-10",
+          "whatItMeasured": "Outlook article: ML/LLM agents help chemists with experimental design, synthesis optimisation and materials characterisation - routine technician tasks."
+        }
+      ],
+      "scope": "Chemistry lab automation literature (peer-reviewed); automates routine bench/analysis tasks, not an Australian employment statistic. Applies to chemical technicians' routine procedures; judgement/safety oversight remain human.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Chimia; arXiv); measures AI lab automation; 2024-2025. Applies to chemical technicians' routine procedures; judgement/safety oversight remain human.",
+      "id": "19-4031-e67"
     }
   ],
   "jobAds": {
@@ -1389,7 +1476,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-31",
+        "note": "No interactive OpenAthens SSO session in unattended cron run; Factiva L3 trade-press lane unavailable. Gap logged, not evidence of quiet. Re-run scripts/factiva_reauth.py then scripts/factiva_backfill.py in an attended session."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1441,5 +1536,8 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press lane unavailable this run (no interactive OpenAthens SSO session in an unattended cron run; consistent with the same-date autoloop batch). Gap logged to factiva_backlog.json, not evidence of quiet. L3 for forest/conservation technicians was supplemented with web professional/trade press (PI-CASC; AIJobChecker, flagged commercial). L1/L2 sources are Australian regulatory/scholarly (ASSA; JSA Gen AI Capacity Study; RACI via Fair Work award; OSCA 311531; Forestry Australia) plus international scholarly literature (Edinburgh AI-governance study; Cell ORGANA lab automation; Nature AI-Sprint; arXiv social-science GenAI adoption). L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); L5 practitioner corpus (last30days) was already present from a prior run and preserved (MERGE, not overwritten). Confidence rests on >=2 L1/L2 claims plus the declared L5 corpus."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

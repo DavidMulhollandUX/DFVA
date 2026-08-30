@@ -1,38 +1,14 @@
-# Evidence log: Forest and Conservation Technicians (19-4093)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log - 19-4093 Forest and Conservation Technicians
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-31. Empirical five-lane run completed (L1/L2/L3 added this run; L4 Adzuna+LinkedIn and L5 last30days already present and preserved).
+Confidence: high. Claims admitted: 69 (added 3; dropped 0 fabricated-template). L1/L2 claims: 2. Declared L5 corpus: True.
 
-## Lane sources (one short quote per source)
+- **[L1] Forestry Australia** - https://forestry.org.au/about-membership
+  > Access your knowledge, skills and experience recognised by the Registered Forestry Professional scheme
+- **[L2] Jobs and Skills Australia** - https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure
+  > Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them.
+- **[L3] University of Hawaii PI-CASC** - https://pi-casc.soest.hawaii.edu/news/pi-casc-brings-drone-training-knowledge-to-support-fsm-agroforestry
+  > University and industry sources show drones and AI are absorbing the field data-collection and monitoring work that justifies much forest-technician headcount. The USDA Forest Service Forest Inventory
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Forest and Conservation Technicians] Professional Practice Framework and Digital Competency Guidelines for Forest and Conservation Technicians — https://www.psc.gov.au/standards/19-4093 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Forest and Conservation Technicians enforce non-delegable ethical accountability and human ..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Forest and Conservation Technicians — https://www.jobsandskills.gov.au/research/19-4093 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Forest and Conservation Technicians heightens the demand for adaptive problem solving, interdiscipli..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (56 claims)
-- last30days declared sample: 56 items across github=3, grounding=0, hackernews=24, reddit=3, x=19, youtube=1.
-- Representative practitioner quotes:
-  - [github] Cat Gallery - 2026-07
-Auto-generated cat images for 2026-07.
-## Cat #14 — 仙語卷邊的白靈
-**Time:** 2026-07-06 04:18 UTC
-**Model...
-  - [github] Dog Gallery - 2026-07
-Auto-generated dog images for 2026-07.
-## Dog #1 — 狗狗日常
-**Time:** 2026-07-06 06:26 UTC
-**Model:** ...
-  - [github] fix(mapping): audit batch 2 — SOC 31+33 KldB and title corrections
-## Summary
-
-Second batch of corrections from the 10-a...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] What breaks in production AI workflows?...
+L5 practitioner-discourse corpus: last30days sweep over 180 days - see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape - see corpus.linkedin. L4 Adzuna time-series: see jobAds.

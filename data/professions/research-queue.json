@@ -351,12 +351,12 @@
     "19-3091": "done",
     "19-3092": "done",
     "19-3094": "done",
-    "19-3099": "pending",
+    "19-3099": "done",
     "19-4011": "done",
     "19-4021": "done",
-    "19-4031": "pending",
-    "19-4061": "pending",
-    "19-4093": "pending",
+    "19-4031": "done",
+    "19-4061": "done",
+    "19-4093": "done",
     "19-4099": "pending",
     "21-1011": "pending",
     "21-1012": "pending",
@@ -1489,5 +1489,5 @@
       "note": "L1/L2/L4/L5 + Factiva L3 folded; L3 curated from prior-collected Factiva payloads"
     }
   ],
-  "updated": "2026-08-30T07:05:32.530878+00:00"
+  "updated": "2026-08-30T17:01:21.880553+00:00"
 }

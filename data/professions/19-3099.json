@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-31",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-03-02",
   "programs": [
     "244cw"
   ],
@@ -1190,6 +1190,86 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Social Scientists and Related Workers, All Other is a residual ANZSCO/O*NET category with no single statutory registration or licensing body. In Australia the discipline is represented by the Academy of the Social Sciences in Australia (ASSA), a peak learned academy of 750+ Fellows, and by discipline bodies (e.g. economic, political-science and sociological associations); practitioners are employed in universities, government departments and consultancies rather than under a professional licence.",
+      "lane": "L1",
+      "tier": "regulatory-professional-body",
+      "sources": [
+        {
+          "publisher": "Academy of the Social Sciences in Australia",
+          "title": "State of the Social Sciences",
+          "url": "https://socialsciences.org.au/news/policy-news/projects/state-of-the-social-sciences",
+          "date": "2026",
+          "whatItMeasured": "ASSA as peak learned academy for the social sciences; maps the sector, its practitioners and grand challenges.",
+          "quote": "The landmark report ... provided for the first time an estimate of the number of people involved in social science education, research and professional practice across different parts of society."
+        },
+        {
+          "publisher": "Academy of the Social Sciences in Australia",
+          "title": "About the Academy",
+          "url": "https://socialsciences.org.au/",
+          "date": "2026",
+          "whatItMeasured": "ASSA promotes excellence in the social sciences and informs policy; a learned academy, not a licensing authority."
+        }
+      ],
+      "scope": "Voluntary learned-academy membership; no statutory licence for social scientists. Population = Australian social science researchers and professionals (the 'All Other' residual spans policy, research and analysis roles).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ASSA); measures this population (AU social sciences); current.",
+      "id": "19-3099-e57"
+    },
+    {
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study (2025) finds augmentation generally outweighs automation for current Gen AI: professional and technical occupations skew towards augmentation, with automation potential concentrated in routine roles. Effects depend on adoption and workplace adaptation, not exposure alone. Social scientists sit in the professional band where augmentation (literature synthesis, drafting, data analysis) dominates.",
+      "lane": "L2",
+      "tier": "scholarly-modelling",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition - Exposure (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "Task/occupation-level Gen AI augmentability and automatability across 358 ANZSCO occupations; 'augmentation generally outweighs automation'.",
+          "quote": "Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them."
+        },
+        {
+          "publisher": "AI Changing Work (secondary summary of JSA)",
+          "title": "Australia's First Gen AI Capacity Study: 79% of Workers Face Low Risk",
+          "url": "https://aichanging.work/en/blog/jsa-genai-capacity-study-australia-2025",
+          "date": "2025",
+          "whatItMeasured": "Secondary summary of the JSA study: 79% of Australian workers face low/very-low automation risk; professionals see the highest augmentation gains."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level potential scores, not observed job losses. Social scientists inferred as skill-level-1 professionals in the high-augmentation band.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (JSA gov); measures AU occupations; published 2025.",
+      "id": "19-3099-e58"
+    },
+    {
+      "text": "Australia's learned academies (ACOLA) state that generative AI is transformational and that emerging technologies including AI will create more jobs than are lost, while calling for social-science expertise to govern the disruption. This positions social scientists' analysis and policy work as central to, rather than displaced by, the AI transition.",
+      "lane": "L2",
+      "tier": "scholarly-institutional",
+      "sources": [
+        {
+          "publisher": "Australian Council of Learned Academies (ACOLA)",
+          "title": "Media Statement: Release of Government Discussion Paper on safe and responsible AI in Australia",
+          "url": "https://acola.org/news/media-statement-release-government-discussion-paper-safe-and-responsible-ai-australia",
+          "date": "2023",
+          "whatItMeasured": "Learned-academies statement: GenAI is transformational and will create more jobs than lost; calls for social-science expertise in governing AI disruption.",
+          "quote": "emerging technologies, including AI, will create more jobs than any lost"
+        }
+      ],
+      "scope": "UK policy-governance case study; signals the kind of framing/analysis work social scientists do is being changed by AI. Not an Australian employment statistic for the occupation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ACOLA learned-academies statement); measures expert position on AI disruption + role of social science; 2023 statement, durable.",
+      "id": "19-3099-e59"
     }
   ],
   "jobAds": {
@@ -1219,7 +1299,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-31",
+        "note": "No interactive OpenAthens SSO session in unattended cron run; Factiva L3 trade-press lane unavailable. Gap logged, not evidence of quiet. Re-run scripts/factiva_reauth.py then scripts/factiva_backfill.py in an attended session."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1269,5 +1357,8 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press lane unavailable this run (no interactive OpenAthens SSO session in an unattended cron run; consistent with the same-date autoloop batch). Gap logged to factiva_backlog.json, not evidence of quiet. L3 for forest/conservation technicians was supplemented with web professional/trade press (PI-CASC; AIJobChecker, flagged commercial). L1/L2 sources are Australian regulatory/scholarly (ASSA; JSA Gen AI Capacity Study; RACI via Fair Work award; OSCA 311531; Forestry Australia) plus international scholarly literature (Edinburgh AI-governance study; Cell ORGANA lab automation; Nature AI-Sprint; arXiv social-science GenAI adoption). L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); L5 practitioner corpus (last30days) was already present from a prior run and preserved (MERGE, not overwritten). Confidence rests on >=2 L1/L2 claims plus the declared L5 corpus."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

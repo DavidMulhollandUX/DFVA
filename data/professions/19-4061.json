@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-31",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-03-02",
   "programs": [
     "mc-spchpth"
   ],
@@ -1505,6 +1505,92 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Social Science Research Assistants are not a licensed occupation. They are employed mainly in universities, government research agencies and consultancies, with practice governed by institutional research-ethics frameworks and NHMRC/ARC research-conduct expectations rather than a statutory register. The Academy of the Social Sciences in Australia (ASSA) represents the discipline at the learned-academy level.",
+      "lane": "L1",
+      "tier": "regulatory-professional-body",
+      "sources": [
+        {
+          "publisher": "Academy of the Social Sciences in Australia",
+          "title": "About the Academy",
+          "url": "https://socialsciences.org.au/",
+          "date": "2026",
+          "whatItMeasured": "ASSA as peak learned academy for social science researchers and professionals; no statutory licence for research assistants."
+        },
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Occupation and industry profiles (OSCA)",
+          "url": "https://www.jobsandskills.gov.au/data/occupation-and-industry-profiles",
+          "date": "2025",
+          "whatItMeasured": "JSA occupation profiles confirm research-assistant roles are employed (university/government), not licensed."
+        }
+      ],
+      "scope": "Voluntary learned-academy membership; no statutory licence. Population = Australian social-science research assistants (university/government/consultancy employment).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ASSA; JSA); measures this population; current.",
+      "id": "19-4061-e72"
+    },
+    {
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study (2025) finds augmentation generally outweighs automation for current Gen AI: professional and technical occupations skew towards augmentation. Social-science research assistants sit in the professional/research-support band where augmentation (literature review, data analysis, drafting) dominates.",
+      "lane": "L2",
+      "tier": "scholarly-modelling",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition - Exposure (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "Task/occupation-level Gen AI augmentability and automatability across 358 ANZSCO occupations; 'augmentation generally outweighs automation'.",
+          "quote": "Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them."
+        },
+        {
+          "publisher": "AI Changing Work (secondary summary of JSA)",
+          "title": "Australia's First Gen AI Capacity Study: 79% of Workers Face Low Risk",
+          "url": "https://aichanging.work/en/blog/jsa-genai-capacity-study-australia-2025",
+          "date": "2025",
+          "whatItMeasured": "Secondary summary of the JSA study: 79% of Australian workers face low/very-low automation risk; professionals see the highest augmentation gains."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level potential, not observed job losses. Research assistants inferred as a research-support group in the augmentation band.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (JSA gov); measures AU occupations; published 2025.",
+      "id": "19-4061-e73"
+    },
+    {
+      "text": "Peer-reviewed studies show GenAI is augmenting exactly the tasks research assistants perform. A Nature (Scientific Reports, 2025) 'AI-Sprint' study finds pairing early-career researchers with AI improves manuscript quality and drafting momentum; an arXiv (2025) study of the social and behavioural sciences reports rapid, growing GenAI adoption for literature review, data analysis and writing among researchers - the core research-assistant workflow.",
+      "lane": "L2",
+      "tier": "scholarly-institutional",
+      "sources": [
+        {
+          "publisher": "Nature (Scientific Reports)",
+          "title": "Lessons from an AI-Sprint: a proposal for measuring human-AI cooperation in research",
+          "url": "https://nature.com/articles/s41599-025-06110-1",
+          "date": "2025",
+          "whatItMeasured": "Peer-reviewed study: AI paired with early-career researchers improves manuscripts and drafting momentum.",
+          "quote": "working with AI improves the manuscripts of early-career researchers."
+        },
+        {
+          "publisher": "arXiv",
+          "title": "Can GenAI Improve Academic Performance? Evidence from the Social and Behavioral Sciences",
+          "url": "https://arxiv.org/abs/2510.02408",
+          "date": "2025",
+          "whatItMeasured": "Study of Scopus author-level panel (2021-2024): growing GenAI adoption among social/behavioural scientists for lit review, data analysis, writing."
+        }
+      ],
+      "scope": "Peer-reviewed research on AI in research work; maps to research-assistant tasks (review, analysis, drafting). Not an Australian employment statistic; general scholarly-labour evidence.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Nature; arXiv); measures AI augmentation of research tasks; 2025.",
+      "id": "19-4061-e74"
     }
   ],
   "jobAds": {
@@ -1534,7 +1620,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-31",
+        "note": "No interactive OpenAthens SSO session in unattended cron run; Factiva L3 trade-press lane unavailable. Gap logged, not evidence of quiet. Re-run scripts/factiva_reauth.py then scripts/factiva_backfill.py in an attended session."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1584,5 +1678,8 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press lane unavailable this run (no interactive OpenAthens SSO session in an unattended cron run; consistent with the same-date autoloop batch). Gap logged to factiva_backlog.json, not evidence of quiet. L3 for forest/conservation technicians was supplemented with web professional/trade press (PI-CASC; AIJobChecker, flagged commercial). L1/L2 sources are Australian regulatory/scholarly (ASSA; JSA Gen AI Capacity Study; RACI via Fair Work award; OSCA 311531; Forestry Australia) plus international scholarly literature (Edinburgh AI-governance study; Cell ORGANA lab automation; Nature AI-Sprint; arXiv social-science GenAI adoption). L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); L5 practitioner corpus (last30days) was already present from a prior run and preserved (MERGE, not overwritten). Confidence rests on >=2 L1/L2 claims plus the declared L5 corpus."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }
