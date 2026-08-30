@@ -9,8 +9,8 @@
     "from": "2025-08-01",
     "to": "2026-08-24"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-02-27",
   "programs": [
     "244cw"
   ],
@@ -1316,6 +1316,160 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "r301",
+      "text": "General 'Community Health Workers' are not a nationally registered health profession under AHPRA; by contrast Aboriginal and Torres Strait Islander Health Practitioners are registered with the Aboriginal and Torres Strait Islander Health Practice Board of Australia (a National Board under AHPRA) from 1 July 2012.",
+      "lane": "L1",
+      "tier": "regulatory-registration-status",
+      "sources": [
+        {
+          "publisher": "RACGP Working Well / ATSIHPBA",
+          "title": "Working well resources: Glossary (Aboriginal and Torres Strait Islander Health Practitioners)",
+          "url": "https://workingwell.racgp.org.au/glossary.htm",
+          "date": "2024",
+          "whatItMeasured": "States ATSIHPs register with ATSIHPBA (AHPRA sub-board) since 1 July 2012; implies general CHWs are not in the national scheme."
+        },
+        {
+          "publisher": "Australian Government Department of Health and Aged Care",
+          "title": "Unleashing the Potential of our Health Workforce — Scope of Practice Review Issues Paper 2",
+          "url": "https://health.gov.au/sites/default/files/2024-04/unleashing-the-potential-of-our-health-workforce-scope-of-practice-review-issues-paper-2_0.pdf",
+          "date": "2024-04",
+          "whatItMeasured": "Scope-of-practice review covering regulated and self-regulated health professionals and the para-professional workforce (health assistants, technicians)."
+        }
+      ],
+      "scope": "Registration status only; 'Community Health Workers' as a US-style occupation is not the same as the Australian ATSI health-worker cadre. Scope limited to whether the role is nationally registered.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (RACGP glossary + Health Dept issues paper, returned by search). Population fits (Australian health workforce). In window (2024). Survives 2/3."
+    },
+    {
+      "id": "r302",
+      "text": "Aboriginal and Torres Strait Islander Health Workers (distinct from Practitioners) are not registered but are qualified via Certificate III/IV in primary health care and may hold Medicare Provider Numbers; their practice centres on health promotion, education and community engagement.",
+      "lane": "L1",
+      "tier": "regulatory-unregistered-cadre",
+      "sources": [
+        {
+          "publisher": "MJA Insight+",
+          "title": "Aboriginal and Torres Strait Islander health workers and practitioners in general practice",
+          "url": "https://insightplus.mja.com.au/2025/31/aboriginal-and-torres-strait-islander-health-workers-and-practitioners-in-general-practice",
+          "date": "2025",
+          "whatItMeasured": "Describes ATSI Health Workers' non-registered status, Cert III/IV qualification, MBS claiming, and community-engagement role."
+        }
+      ],
+      "scope": "ATSI health workers specifically; a culturally-specific cadre within the broad community-health space, not the whole SOC.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "C3"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (MJA Insight+ 2025). Population fits (ATSI health workers). In window. Survives 2/3; scoped to ATSI cadre."
+    },
+    {
+      "id": "r303",
+      "text": "A 2026 multi-country analysis (The Lancet Primary Care, via the Community Health Impact Coalition) found over half of NGOs piloting AI tools in community health worker programs, yet almost none integrated into national health systems — risking the fragmented trajectory of earlier digital-health innovations.",
+      "lane": "L2",
+      "tier": "scholarly-multicountry",
+      "sources": [
+        {
+          "publisher": "Community Health Impact Coalition (CHIC) Research Roundup 138",
+          "title": "AI is gaining traction in community health but not yet built into national strategies",
+          "url": "https://sbee.link/myj6vxa7fc",
+          "date": "2026",
+          "whatItMeasured": "Multi-country survey of 28 NGOs across 18 countries operating CHW programs; >50% piloting AI, near-zero national-system integration."
+        }
+      ],
+      "scope": "International (18 countries), not Australia-specific; measures pilot adoption, not Australian labour-market effect. CHIC roundup is a secondary synthesis.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (CHIC 2026 roundup, returned by search). Population fits (CHW programs internationally). In window (2026). Survives 2/3; scoped to international pilots."
+    },
+    {
+      "id": "r304",
+      "text": "A scoping review of AI/algorithmic literacy among health workers (Frontiers in Public Health, 2026) found 12 studies (2021-2025) concentrated in medical and nursing education, with NO studies exploring public-health practice — a gap directly affecting community health workers.",
+      "lane": "L2",
+      "tier": "scholarly-scoping-review",
+      "sources": [
+        {
+          "publisher": "Frontiers in Public Health",
+          "title": "AI and algorithmic literacy among health workers: a scoping review through a digital health literacy lens",
+          "url": "https://frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1802392/pdf",
+          "date": "2026-04-23",
+          "whatItMeasured": "Scoping review of 12 studies (2021-2025) on AI literacy among health workers; none in public-health practice; definitions theory-weak."
+        }
+      ],
+      "scope": "Health-worker AI literacy literature gap; identifies absence of evidence for CHWs rather than a measured effect.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (Front Public Health 2026). Population fits (health workers incl. public health). In window (2026). Survives 2/3; scoped to evidence gap."
+    },
+    {
+      "id": "r305",
+      "text": "The 3rd National Policy Roadmap for AI in Healthcare ('Don't Walk. Run.', AAAiH/2026) concludes the Australian healthcare system is unprepared for AI disruption and makes 28 recommendations including workforce upskilling and a national Chief AI Officer training program; it notes NHMRC and MRFF are 'not up to speed on AI'.",
+      "lane": "L3",
+      "tier": "trade-press-roadmap",
+      "sources": [
+        {
+          "publisher": "Croakey",
+          "title": "Australian healthcare system is unprepared for AI disruption: new report",
+          "url": "https://croakey.org/australian-healthcare-system-is-unprepared-for-ai-disruption-new-report",
+          "date": "2026",
+          "whatItMeasured": "Reports AAAiH 3rd National Policy Roadmap: 28 recommendations across leadership, governance, workforce, consumers; health system unprepared."
+        },
+        {
+          "publisher": "Digital Health CRC",
+          "title": "Australian health and technology leaders release the National Policy Roadmap for AI in Healthcare",
+          "url": "https://digitalhealthcrc.com/australian-health-and-technology-leaders-release-the-national-policy-roadmap-for-ai-in-healthcare/",
+          "date": "2026",
+          "whatItMeasured": "Roadmap developed with 96+ organisations and 20 peak bodies/government agencies; calls for sovereign AI and workforce training."
+        }
+      ],
+      "scope": "Whole healthcare system (policy); CHWs are within scope as part of the workforce but the claim is system-level preparedness, not occupation-specific.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (Croakey + DHCRC, 2026). Population fits (Australian health workforce). In window. Survives 2/3; scoped to system-level policy."
+    },
+    {
+      "id": "r306",
+      "text": "A RACGP poll found 40% of Australian GPs were using AI scribes by November 2025 (up from 22% fifteen months earlier), signalling fast AI-augmentation in primary care adjacent to community health work.",
+      "lane": "L3",
+      "tier": "trade-press-adoption-rate",
+      "sources": [
+        {
+          "publisher": "Healthcare Australia",
+          "title": "Healthcare Workforce Trends 2026: What Australian Health Leaders Need to Know",
+          "url": "https://healthcareaustralia.com.au/healthcare-workforce-trends-2026-what-australian-health-leaders-need-to-know",
+          "date": "2026-08-14",
+          "whatItMeasured": "Reports RACGP poll: 40% of GPs using AI scribes by Nov 2025, up from 22%; dominant model augmentation not replacement."
+        }
+      ],
+      "scope": "GPs (primary care), an adjacent profession; signals augmentation pace, not a measured effect on community health workers specifically.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (Healthcare Australia 2026). Population adjacent (GPs). In window (2025-26). Survives 2/3; scoped to adjacent adoption rate."
     }
   ],
   "jobAds": {
@@ -1345,7 +1499,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens/Factiva session expired (interactive UoM SSO required; loop cannot authenticate). L3 supplied via web research (OVIC, AASW, Infoxchange, Oxford AI Atlas, Croakey/DHCRC, CHIC, Front Public Health).",
+        "date": "2026-08-31"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1395,5 +1557,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva lane unavailable this run (OpenAthens auth expired); L3 supplied via web (Croakey/DHCRC roadmap, CHIC, Front Public Health, Healthcare Australia).",
+    "L5 corpus carried from 2026-08-29 run; CHW AI-evidence is international/multi-country, not Australia-specific.",
+    "L1: general Community Health Workers are not nationally registered (AHPRA); only ATSI Health Practitioners are. Scope claims to registration status."
+  ]
 }

@@ -1,0 +1,282 @@
+{
+  "21-1092": [
+    {
+      "id": "r101",
+      "text": "Probation and parole officers in Australia are governed by state corrective-services legislation (e.g. Corrections Act 1986 (Vic) and Corrections Regulations 2019 (Vic)), not a national registration scheme; the occupation is not registered with AHPRA.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {"publisher": "Victorian Legislation and Parliamentary Counsel", "title": "Corrections Act 1986 (Vic) — in force", "url": "https://www.legislation.vic.gov.au/in-force/acts/corrections-act-1986", "date": "2026", "whatItMeasured": "Confirms Corrections Act 1986 (Vic) is the principal Act governing Victorian correctional facilities and corrective services staff; no national registration body named."}
+      ],
+      "scope": "Victoria state legislation; other states have equivalent corrective-services Acts. Scope limited to legislative governance, not AI-specific rules.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": ["C3", "W2"],
+      "refuted": false,
+      "refuteNotes": "Source real (Victoria Law Handbook, returned by search). Population fits (corrective services officers). In window (current Act). Survives: 2/3 lenses fail to overturn."
+    },
+    {
+      "id": "r102",
+      "text": "Actuarial risk-assessment tools, notably the Level of Service Inventory-Revised (LSI-R), are embedded in Australian corrective services and inform prison placement, therapeutic interventions and parole timing for several thousand offenders each year in Victoria, NSW and the ACT.",
+      "lane": "L2",
+      "tier": "scholarly-actuarial",
+      "sources": [
+        {"publisher": "Melbourne University Law Review", "title": "Algorithmic Risk Assessment in Australian Corrective Services", "url": "https://law.unimelb.edu.au/__data/assets/pdf_file/0004/5409526/Dancy-491-38.pdf", "date": "2025", "whatItMeasured": "Legal-scholarly analysis of LSI-R use across Vic/NSW/ACT corrective services; documents that risk scores (not their component factors) inform placement, intervention and parole decisions for thousands annually."}
+      ],
+      "scope": "Vic/NSW/ACT corrective services only; probabilistic actuarial tool, not generative AI. Does not measure probation-officer job displacement, only the algorithmic instrument they operate within.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": ["C3", "L2"],
+      "refuted": false,
+      "refuteNotes": "Source real (MULR 49(1) 38, extracted). Population fits (Australian corrective services). In window (2025). Survives 2/3."
+    },
+    {
+      "id": "r103",
+      "text": "Scholarly critique holds that LSI-R factors affecting risk scores are not published by the agencies that use them, and its application to Aboriginal and Torres Strait Islander persons may contravene the Guiding Principles for Corrections in Australia (Revised 2018).",
+      "lane": "L2",
+      "tier": "scholarly-equity",
+      "sources": [
+        {"publisher": "Melbourne University Law Review", "title": "Algorithmic Risk Assessment in Australian Corrective Services", "url": "https://law.unimelb.edu.au/__data/assets/pdf_file/0004/5409526/Dancy-491-38.pdf", "date": "2025", "whatItMeasured": "Argues public scrutiny of LSI-R is sparse, scoring factors opaque, and application to Aboriginal and Torres Strait Islander persons may breach the 2018 Guiding Principles for Corrections in Australia."}
+      ],
+      "scope": "Equity/transparency critique of an actuarial tool; not a measurement of probation-officer task automation.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": ["C3"],
+      "refuted": false,
+      "refuteNotes": "Source real. Population fits (Australian corrective services, Indigenous equity lens). In window. Survives 2/3; scoped to equity critique."
+    },
+    {
+      "id": "r104",
+      "text": "Victoria Police integrated generative AI (Salesforce OmniStudio) into its Police Assistance Line and Online Reporting platform in 2025 to automate processing of roughly 20% of non-urgent crime reports, with human agents still handling content before referral.",
+      "lane": "L3",
+      "tier": "trade-press-adoption",
+      "sources": [
+        {"publisher": "Oxford Tech & Justice (AI Justice Atlas)", "title": "AI Use in Australian Criminal Proceedings", "url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas", "date": "2026-07", "whatItMeasured": "Documents GenAI adoption in Victorian law enforcement (Police Assistance Line) automating ~20% of crime reports; states content still handled by a human agent."}
+      ],
+      "scope": "Law-enforcement intake, an adjacent function to community corrections, not probation-officer casework directly. Signalling adjacency, not direct substitution.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": ["W2"],
+      "refuted": false,
+      "refuteNotes": "Source real (Oxford AI Atlas, July 2026, extracted). Population adjacent (law enforcement). In window. Survives 2/3; scoped to adjacent adoption."
+    },
+    {
+      "id": "r105",
+      "text": "There is no dedicated national regulatory framework governing AI in Australian criminal proceedings; oversight is a fragmented patchwork of court practice notes, judicial and professional-body guidance, and general-law statutes, with more than 30 court cases of AI-generated fabrications recorded.",
+      "lane": "L3",
+      "tier": "trade-press-governance",
+      "sources": [
+        {"publisher": "Oxford Tech & Justice (AI Justice Atlas)", "title": "AI Use in Australian Criminal Proceedings", "url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas", "date": "2026-07", "whatItMeasured": "Maps AI-governance landscape for Australian criminal proceedings: no single law, fragmented court/professional guidance, 30+ fabrication cases in courts."}
+      ],
+      "scope": "Criminal proceedings broadly (courts/law enforcement); probation/parole sits within this system but the claim is about governance absence, not a measured effect on the occupation.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": ["C3", "W2"],
+      "refuted": false,
+      "refuteNotes": "Source real. Population fits (Australian justice system). In window (2026). Survives 2/3; scoped to governance landscape."
+    },
+    {
+      "id": "r106",
+      "text": "AI-based risk-prediction models may support but not replace clinical judgement and therapeutic relationships in correctional mental health (recidivism, self-harm, violence), while risking reproduction of structural bias embedded in training data.",
+      "lane": "L2",
+      "tier": "scholarly-clinical-ai",
+      "sources": [
+        {"publisher": "PubMed / Australasian Psychiatry", "title": "Artificial intelligence in Australian prison psychiatry: Promise, pitfalls, and ethical imperatives", "url": "https://pubmed.ncbi.nlm.nih.gov/42339609", "date": "2025", "whatItMeasured": "Conceptual/ethical review of AI risk-prediction in Queensland prison psychiatry; concludes AI may augment but not replace clinical judgement; flags bias reproduction."}
+      ],
+      "scope": "Correctional mental-health clinicians (psychiatry), a sub-set adjacent to community corrections; not a direct measure of probation-officer tasks.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": ["C3"],
+      "refuted": false,
+      "refuteNotes": "Source real (PubMed 2025). Population adjacent (correctional psychiatry, Queensland). In window. Survives 2/3; scoped to clinical-adjacent."
+    }
+  ],
+  "21-1093": [
+    {
+      "id": "r201",
+      "text": "Social workers are self-regulated through the Australian Association of Social Workers (AASW); only Accredited Mental Health Social Workers gain a Medicare provider number to deliver Focused Psychological Strategies under Better Access. The broader 'Social and Human Service Assistants' occupation is not statutorily registered.",
+      "lane": "L1",
+      "tier": "regulatory-self-regulation",
+      "sources": [
+        {"publisher": "Australian Association of Social Workers", "title": "Mental Health (AASW Accredited Mental Health Social Worker)", "url": "https://aasw.asn.au/mental-health", "date": "2025", "whatItMeasured": "Documents AASW self-regulation and the Medicare-endorsed AMHSW credential; confirms no statutory registration for the occupation at large."}
+      ],
+      "scope": "AASW member social workers; the SOC also covers assistants and non-AASW roles. Registration status is self-regulatory, not government licensing.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": ["C3", "W2"],
+      "refuted": false,
+      "refuteNotes": "Source real (AASW, returned by search). Population fits (Australian social work). In window. Survives 2/3."
+    },
+    {
+      "id": "r202",
+      "text": "The Australian Privacy Act's automated decision-making (ADM) transparency obligation, effective 10 December 2026, requires charities and NGOs making decisions substantially based on automated processing (about beneficiaries, donors, employees) to notify affected individuals — directly relevant to AI casework, eligibility and triage tools in community services.",
+      "lane": "L1",
+      "tier": "regulatory-pending",
+      "sources": [
+        {"publisher": "AI Risk Aware (citing the Privacy Act)", "title": "AI Governance for Australian Non-Profits and Charities", "url": "https://airiskaware.com/insights/ai-governance-australian-non-profits-charities", "date": "2026", "whatItMeasured": "States the Privacy Act ADM transparency obligation takes effect 10 Dec 2026; ACNC Standard 5 duty of care extends to AI deployment decisions by charities."}
+      ],
+      "scope": "Charities/NGOs, a major employer of social and human service assistants; obligation is forward-dated (Dec 2026) and applies to automated decisions, not all AI assistance.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": ["C3", "W2"],
+      "refuted": false,
+      "refuteNotes": "Source real (AI Risk Aware, 2026). Population fits (for-purpose sector). In window (effective 2026). Survives 2/3; scoped to charities + forward-dated obligation."
+    },
+    {
+      "id": "r203",
+      "text": "A qualitative study of social workers' reflections on AI in crisis settings found AI tools (triage chatbots, NLP classifiers, predictive risk models) helpful for structure but limited for the trauma-informed, culturally responsive and ethically attuned dimensions of crisis care that exceed current systems; AI cannot replace the relational practice.",
+      "lane": "L2",
+      "tier": "scholarly-qualitative",
+      "sources": [
+        {"publisher": "Aotearoa New Zealand Social Work Journal", "title": "Between data and dignity: Social workers' reflections on artificial intelligence (AI) use", "url": "https://anzswjournal.nz/anzsw/article/view/1293/1028", "date": "2026", "whatItMeasured": "Qualitative original article (38(1), 2026) on social workers' experience of AI in crisis intervention; concludes AI cannot replace embodied/relational dimensions."}
+      ],
+      "scope": "Crisis social work (NZ/Australia context); qualitative, not a measured productivity or displacement figure. Generalises to the occupation's relational core.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": ["C3"],
+      "refuted": false,
+      "refuteNotes": "Source real (ANZSW Journal 2026, returned by search). Population fits (social work practice). In window (2026). Survives 2/3."
+    },
+    {
+      "id": "r204",
+      "text": "The Office of the Victorian Information Commissioner (OVIC) found a Victorian child-protection worker's use of ChatGPT to draft a Children's Court Protection Application Report produced inaccurate content that downplayed risk to a child and disclosed personal information to OpenAI; DFFH contravened IPPs 3.1 and 4.1 and was ordered to block GenAI tools for two years.",
+      "lane": "L3",
+      "tier": "regulator-investigation",
+      "sources": [
+        {"publisher": "Office of the Victorian Information Commissioner", "title": "OVIC finds department responsible for breaches of privacy through use of ChatGPT", "url": "https://ovic.vic.gov.au/mediarelease/ovic-finds-department-responsible-for-breaches-of-privacy-through-use-of-chatgpt", "date": "2024-09-24", "whatItMeasured": "Investigation report into a child-protection worker's ChatGPT use on a Protection Application Report; found inaccurate risk-downplaying content and unauthorised disclosure; compliance notice blocking GenAI for two years."},
+        {"publisher": "OVIC (PDF report)", "title": "Investigation into the use of ChatGPT by a Child Protection worker", "url": "https://ovic.vic.gov.au/wp-content/uploads/2024/11/DFFH-ChatGPT-investigation-report-20240924-Re-upload.pdf", "date": "2024-09-24", "whatItMeasured": "Full investigation report; worker entered names and risk-assessment info into ChatGPT; content recast sensitive material as a parental 'strength'."}
+      ],
+      "scope": "Statutory child-protection social work (a sub-set of the SOC); a documented failure mode (hallucination + privacy breach), not a claim about the whole occupation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": ["C3", "W2"],
+      "refuted": false,
+      "refuteNotes": "Source real (OVIC media release + PDF, 2024, returned by search). Population fits (statutory social work). In window (2024). Survives 2/3; scoped to child protection."
+    },
+    {
+      "id": "r205",
+      "text": "Settlement Services International deployed AI to reduce caseworker documentation burden by 1-2 hours per day, finalise notes same-day, lift audit compliance from 85% to 98% and report 93% caseworker satisfaction, with human-centred design and human oversight throughout.",
+      "lane": "L3",
+      "tier": "trade-press-case-study",
+      "sources": [
+        {"publisher": "Infoxchange", "title": "Case Study: More Time for Families — SSI Leans on AI to Strengthen Child and Family Support", "url": "https://communities.infoxchange.org/news/10037877", "date": "2026", "whatItMeasured": "Single-organisation case study: PoC with 25 users scaled to production; measured documentation-time saving, compliance lift, 93% satisfaction; human oversight retained."}
+      ],
+      "scope": "One NGO (SSI), child and family support; augmentation not replacement. Single case study, not sector-wide data.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": ["W2"],
+      "refuted": false,
+      "refuteNotes": "Source real (Infoxchange, 2026). Population fits (community-services casework). In window. Survives 2/3; scoped to one NGO case study."
+    },
+    {
+      "id": "r206",
+      "text": "The AASW is issuing live professional-development guidance on AI in practice (e.g. 'Working with AI in Social Work Practice' June 2026 and 'Responsible AI Uses for Social Workers — AI Scribes and Beyond'), signalling emerging peak-body standards rather than binding regulation.",
+      "lane": "L3",
+      "tier": "peak-body-guidance",
+      "sources": [
+        {"publisher": "Australian Association of Social Workers", "title": "Working With AI in Social Work Practice: Harm, Help, and Human Judgement", "url": "https://www.aasw.asn.au/event/working-with-ai-in-social-work-practice-harm-help-and-human-judgement/", "date": "2026-06", "whatItMeasured": "AASW webinar on clients' AI-chatbot use and practitioner response frameworks (EPIC model, Digital Stewardship)."},
+        {"publisher": "Australian Association of Social Workers", "title": "Responsible AI Uses for Social Workers — AI Scribes and Beyond", "url": "https://aasw.asn.au/event/aasw-webinar-recording-responsible-ai-uses-for-social-workers-ai-scribes-and-beyond", "date": "2026", "whatItMeasured": "AASW foundational webinar on AI scribes, prompting, risks and practice considerations."}
+      ],
+      "scope": "Professional development / guidance, not statutory regulation; reflects awareness-raising, not a measured effect on the labour market.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": ["C3"],
+      "refuted": false,
+      "refuteNotes": "Source real (AASW event pages, 2026). Population fits (Australian social workers). In window. Survives 2/3; scoped to guidance, not regulation."
+    }
+  ],
+  "21-1094": [
+    {
+      "id": "r301",
+      "text": "General 'Community Health Workers' are not a nationally registered health profession under AHPRA; by contrast Aboriginal and Torres Strait Islander Health Practitioners are registered with the Aboriginal and Torres Strait Islander Health Practice Board of Australia (a National Board under AHPRA) from 1 July 2012.",
+      "lane": "L1",
+      "tier": "regulatory-registration-status",
+      "sources": [
+        {"publisher": "RACGP Working Well / ATSIHPBA", "title": "Working well resources: Glossary (Aboriginal and Torres Strait Islander Health Practitioners)", "url": "https://workingwell.racgp.org.au/glossary.htm", "date": "2024", "whatItMeasured": "States ATSIHPs register with ATSIHPBA (AHPRA sub-board) since 1 July 2012; implies general CHWs are not in the national scheme."},
+        {"publisher": "Australian Government Department of Health and Aged Care", "title": "Unleashing the Potential of our Health Workforce — Scope of Practice Review Issues Paper 2", "url": "https://health.gov.au/sites/default/files/2024-04/unleashing-the-potential-of-our-health-workforce-scope-of-practice-review-issues-paper-2_0.pdf", "date": "2024-04", "whatItMeasured": "Scope-of-practice review covering regulated and self-regulated health professionals and the para-professional workforce (health assistants, technicians)."}
+      ],
+      "scope": "Registration status only; 'Community Health Workers' as a US-style occupation is not the same as the Australian ATSI health-worker cadre. Scope limited to whether the role is nationally registered.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": ["C3", "W2"],
+      "refuted": false,
+      "refuteNotes": "Source real (RACGP glossary + Health Dept issues paper, returned by search). Population fits (Australian health workforce). In window (2024). Survives 2/3."
+    },
+    {
+      "id": "r302",
+      "text": "Aboriginal and Torres Strait Islander Health Workers (distinct from Practitioners) are not registered but are qualified via Certificate III/IV in primary health care and may hold Medicare Provider Numbers; their practice centres on health promotion, education and community engagement.",
+      "lane": "L1",
+      "tier": "regulatory-unregistered-cadre",
+      "sources": [
+        {"publisher": "MJA Insight+", "title": "Aboriginal and Torres Strait Islander health workers and practitioners in general practice", "url": "https://insightplus.mja.com.au/2025/31/aboriginal-and-torres-strait-islander-health-workers-and-practitioners-in-general-practice", "date": "2025", "whatItMeasured": "Describes ATSI Health Workers' non-registered status, Cert III/IV qualification, MBS claiming, and community-engagement role."}
+      ],
+      "scope": "ATSI health workers specifically; a culturally-specific cadre within the broad community-health space, not the whole SOC.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": ["C3"],
+      "refuted": false,
+      "refuteNotes": "Source real (MJA Insight+ 2025). Population fits (ATSI health workers). In window. Survives 2/3; scoped to ATSI cadre."
+    },
+    {
+      "id": "r303",
+      "text": "A 2026 multi-country analysis (The Lancet Primary Care, via the Community Health Impact Coalition) found over half of NGOs piloting AI tools in community health worker programs, yet almost none integrated into national health systems — risking the fragmented trajectory of earlier digital-health innovations.",
+      "lane": "L2",
+      "tier": "scholarly-multicountry",
+      "sources": [
+        {"publisher": "Community Health Impact Coalition (CHIC) Research Roundup 138", "title": "AI is gaining traction in community health but not yet built into national strategies", "url": "https://sbee.link/myj6vxa7fc", "date": "2026", "whatItMeasured": "Multi-country survey of 28 NGOs across 18 countries operating CHW programs; >50% piloting AI, near-zero national-system integration."}
+      ],
+      "scope": "International (18 countries), not Australia-specific; measures pilot adoption, not Australian labour-market effect. CHIC roundup is a secondary synthesis.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": ["W2"],
+      "refuted": false,
+      "refuteNotes": "Source real (CHIC 2026 roundup, returned by search). Population fits (CHW programs internationally). In window (2026). Survives 2/3; scoped to international pilots."
+    },
+    {
+      "id": "r304",
+      "text": "A scoping review of AI/algorithmic literacy among health workers (Frontiers in Public Health, 2026) found 12 studies (2021-2025) concentrated in medical and nursing education, with NO studies exploring public-health practice — a gap directly affecting community health workers.",
+      "lane": "L2",
+      "tier": "scholarly-scoping-review",
+      "sources": [
+        {"publisher": "Frontiers in Public Health", "title": "AI and algorithmic literacy among health workers: a scoping review through a digital health literacy lens", "url": "https://frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1802392/pdf", "date": "2026-04-23", "whatItMeasured": "Scoping review of 12 studies (2021-2025) on AI literacy among health workers; none in public-health practice; definitions theory-weak."}
+      ],
+      "scope": "Health-worker AI literacy literature gap; identifies absence of evidence for CHWs rather than a measured effect.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": ["C3"],
+      "refuted": false,
+      "refuteNotes": "Source real (Front Public Health 2026). Population fits (health workers incl. public health). In window (2026). Survives 2/3; scoped to evidence gap."
+    },
+    {
+      "id": "r305",
+      "text": "The 3rd National Policy Roadmap for AI in Healthcare ('Don't Walk. Run.', AAAiH/2026) concludes the Australian healthcare system is unprepared for AI disruption and makes 28 recommendations including workforce upskilling and a national Chief AI Officer training program; it notes NHMRC and MRFF are 'not up to speed on AI'.",
+      "lane": "L3",
+      "tier": "trade-press-roadmap",
+      "sources": [
+        {"publisher": "Croakey", "title": "Australian healthcare system is unprepared for AI disruption: new report", "url": "https://croakey.org/australian-healthcare-system-is-unprepared-for-ai-disruption-new-report", "date": "2026", "whatItMeasured": "Reports AAAiH 3rd National Policy Roadmap: 28 recommendations across leadership, governance, workforce, consumers; health system unprepared."},
+        {"publisher": "Digital Health CRC", "title": "Australian health and technology leaders release the National Policy Roadmap for AI in Healthcare", "url": "https://digitalhealthcrc.com/australian-health-and-technology-leaders-release-the-national-policy-roadmap-for-ai-in-healthcare/", "date": "2026", "whatItMeasured": "Roadmap developed with 96+ organisations and 20 peak bodies/government agencies; calls for sovereign AI and workforce training."}
+      ],
+      "scope": "Whole healthcare system (policy); CHWs are within scope as part of the workforce but the claim is system-level preparedness, not occupation-specific.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": ["C3", "W2"],
+      "refuted": false,
+      "refuteNotes": "Source real (Croakey + DHCRC, 2026). Population fits (Australian health workforce). In window. Survives 2/3; scoped to system-level policy."
+    },
+    {
+      "id": "r306",
+      "text": "A RACGP poll found 40% of Australian GPs were using AI scribes by November 2025 (up from 22% fifteen months earlier), signalling fast AI-augmentation in primary care adjacent to community health work.",
+      "lane": "L3",
+      "tier": "trade-press-adoption-rate",
+      "sources": [
+        {"publisher": "Healthcare Australia", "title": "Healthcare Workforce Trends 2026: What Australian Health Leaders Need to Know", "url": "https://healthcareaustralia.com.au/healthcare-workforce-trends-2026-what-australian-health-leaders-need-to-know", "date": "2026-08-14", "whatItMeasured": "Reports RACGP poll: 40% of GPs using AI scribes by Nov 2025, up from 22%; dominant model augmentation not replacement."}
+      ],
+      "scope": "GPs (primary care), an adjacent profession; signals augmentation pace, not a measured effect on community health workers specifically.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": ["W2"],
+      "refuted": false,
+      "refuteNotes": "Source real (Healthcare Australia 2026). Population adjacent (GPs). In window (2025-26). Survives 2/3; scoped to adjacent adoption rate."
+    }
+  ]
+}

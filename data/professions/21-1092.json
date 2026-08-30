@@ -12,8 +12,8 @@
     "from": "2025-08-01",
     "to": "2026-08-24"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-02-27",
   "programs": [],
   "claims": [
     {
@@ -1947,6 +1947,147 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "r101",
+      "text": "Probation and parole officers in Australia are governed by state corrective-services legislation (e.g. Corrections Act 1986 (Vic) and Corrections Regulations 2019 (Vic)), not a national registration scheme; the occupation is not registered with AHPRA.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Victorian Legislation and Parliamentary Counsel",
+          "title": "Corrections Act 1986 (Vic) — in force",
+          "url": "https://www.legislation.vic.gov.au/in-force/acts/corrections-act-1986",
+          "date": "2026",
+          "whatItMeasured": "Confirms Corrections Act 1986 (Vic) is the principal Act governing Victorian correctional facilities and corrective services staff; no national registration body named."
+        }
+      ],
+      "scope": "Victoria state legislation; other states have equivalent corrective-services Acts. Scope limited to legislative governance, not AI-specific rules.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (Victoria Law Handbook, returned by search). Population fits (corrective services officers). In window (current Act). Survives: 2/3 lenses fail to overturn."
+    },
+    {
+      "id": "r102",
+      "text": "Actuarial risk-assessment tools, notably the Level of Service Inventory-Revised (LSI-R), are embedded in Australian corrective services and inform prison placement, therapeutic interventions and parole timing for several thousand offenders each year in Victoria, NSW and the ACT.",
+      "lane": "L2",
+      "tier": "scholarly-actuarial",
+      "sources": [
+        {
+          "publisher": "Melbourne University Law Review",
+          "title": "Algorithmic Risk Assessment in Australian Corrective Services",
+          "url": "https://law.unimelb.edu.au/__data/assets/pdf_file/0004/5409526/Dancy-491-38.pdf",
+          "date": "2025",
+          "whatItMeasured": "Legal-scholarly analysis of LSI-R use across Vic/NSW/ACT corrective services; documents that risk scores (not their component factors) inform placement, intervention and parole decisions for thousands annually."
+        }
+      ],
+      "scope": "Vic/NSW/ACT corrective services only; probabilistic actuarial tool, not generative AI. Does not measure probation-officer job displacement, only the algorithmic instrument they operate within.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "L2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (MULR 49(1) 38, extracted). Population fits (Australian corrective services). In window (2025). Survives 2/3."
+    },
+    {
+      "id": "r103",
+      "text": "Scholarly critique holds that LSI-R factors affecting risk scores are not published by the agencies that use them, and its application to Aboriginal and Torres Strait Islander persons may contravene the Guiding Principles for Corrections in Australia (Revised 2018).",
+      "lane": "L2",
+      "tier": "scholarly-equity",
+      "sources": [
+        {
+          "publisher": "Melbourne University Law Review",
+          "title": "Algorithmic Risk Assessment in Australian Corrective Services",
+          "url": "https://law.unimelb.edu.au/__data/assets/pdf_file/0004/5409526/Dancy-491-38.pdf",
+          "date": "2025",
+          "whatItMeasured": "Argues public scrutiny of LSI-R is sparse, scoring factors opaque, and application to Aboriginal and Torres Strait Islander persons may breach the 2018 Guiding Principles for Corrections in Australia."
+        }
+      ],
+      "scope": "Equity/transparency critique of an actuarial tool; not a measurement of probation-officer task automation.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "C3"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real. Population fits (Australian corrective services, Indigenous equity lens). In window. Survives 2/3; scoped to equity critique."
+    },
+    {
+      "id": "r104",
+      "text": "Victoria Police integrated generative AI (Salesforce OmniStudio) into its Police Assistance Line and Online Reporting platform in 2025 to automate processing of roughly 20% of non-urgent crime reports, with human agents still handling content before referral.",
+      "lane": "L3",
+      "tier": "trade-press-adoption",
+      "sources": [
+        {
+          "publisher": "Oxford Tech & Justice (AI Justice Atlas)",
+          "title": "AI Use in Australian Criminal Proceedings",
+          "url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+          "date": "2026-07",
+          "whatItMeasured": "Documents GenAI adoption in Victorian law enforcement (Police Assistance Line) automating ~20% of crime reports; states content still handled by a human agent."
+        }
+      ],
+      "scope": "Law-enforcement intake, an adjacent function to community corrections, not probation-officer casework directly. Signalling adjacency, not direct substitution.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (Oxford AI Atlas, July 2026, extracted). Population adjacent (law enforcement). In window. Survives 2/3; scoped to adjacent adoption."
+    },
+    {
+      "id": "r105",
+      "text": "There is no dedicated national regulatory framework governing AI in Australian criminal proceedings; oversight is a fragmented patchwork of court practice notes, judicial and professional-body guidance, and general-law statutes, with more than 30 court cases of AI-generated fabrications recorded.",
+      "lane": "L3",
+      "tier": "trade-press-governance",
+      "sources": [
+        {
+          "publisher": "Oxford Tech & Justice (AI Justice Atlas)",
+          "title": "AI Use in Australian Criminal Proceedings",
+          "url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+          "date": "2026-07",
+          "whatItMeasured": "Maps AI-governance landscape for Australian criminal proceedings: no single law, fragmented court/professional guidance, 30+ fabrication cases in courts."
+        }
+      ],
+      "scope": "Criminal proceedings broadly (courts/law enforcement); probation/parole sits within this system but the claim is about governance absence, not a measured effect on the occupation.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real. Population fits (Australian justice system). In window (2026). Survives 2/3; scoped to governance landscape."
+    },
+    {
+      "id": "r106",
+      "text": "AI-based risk-prediction models may support but not replace clinical judgement and therapeutic relationships in correctional mental health (recidivism, self-harm, violence), while risking reproduction of structural bias embedded in training data.",
+      "lane": "L2",
+      "tier": "scholarly-clinical-ai",
+      "sources": [
+        {
+          "publisher": "PubMed / Australasian Psychiatry",
+          "title": "Artificial intelligence in Australian prison psychiatry: Promise, pitfalls, and ethical imperatives",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42339609",
+          "date": "2025",
+          "whatItMeasured": "Conceptual/ethical review of AI risk-prediction in Queensland prison psychiatry; concludes AI may augment but not replace clinical judgement; flags bias reproduction."
+        }
+      ],
+      "scope": "Correctional mental-health clinicians (psychiatry), a sub-set adjacent to community corrections; not a direct measure of probation-officer tasks.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "C3"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (PubMed 2025). Population adjacent (correctional psychiatry, Queensland). In window. Survives 2/3; scoped to clinical-adjacent."
     }
   ],
   "jobAds": {
@@ -1976,7 +2117,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens/Factiva session expired (interactive UoM SSO required; loop cannot authenticate). L3 supplied via web research (OVIC, AASW, Infoxchange, Oxford AI Atlas, Croakey/DHCRC, CHIC, Front Public Health).",
+        "date": "2026-08-31"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -2026,5 +2175,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva lane unavailable this run (OpenAthens auth expired); L3 supplied via web (Oxford Tech & Justice AI Atlas, MULR).",
+    "L5 corpus is a self-selected practitioner-discourse sample (HN/X/reddit/youtube) carried from the 2026-08-29 run; corroborate before high-grade use.",
+    "L1 is thin: probation/parole officers are state-regulated under corrective-services legislation, not nationally registered; no AI-specific binding instrument."
+  ]
 }

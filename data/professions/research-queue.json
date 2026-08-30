@@ -366,9 +366,9 @@
     "21-1021": "done",
     "21-1023": "done",
     "21-1091": "done",
-    "21-1092": "pending",
-    "21-1093": "pending",
-    "21-1094": "pending",
+    "21-1092": "done",
+    "21-1093": "done",
+    "21-1094": "done",
     "23-1011": "done",
     "23-2011": "pending",
     "25-1071": "pending",
@@ -1339,7 +1339,7 @@
   "claims": [
     {
       "id": "l401",
-      "text": "Research Fellow \u2014 The Australian National University (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "Research Fellow — The Australian National University (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1360,7 +1360,7 @@
     },
     {
       "id": "l402",
-      "text": "Research Fellow \u2014 RMIT University (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Research Fellow — RMIT University (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1381,13 +1381,13 @@
     },
     {
       "id": "l403",
-      "text": "Research Engineer \u2013 Matilda \u2014 Maincode (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Research Engineer – Matilda — Maincode (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "Maincode",
-          "title": "Research Engineer \u2013 Matilda",
+          "title": "Research Engineer – Matilda",
           "url": "https://www.linkedin.com/jobs/view/4387325191",
           "date": "1 week ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
@@ -1402,7 +1402,7 @@
     },
     {
       "id": "l404",
-      "text": "iOS Vulnerability Researcher \u2014 Interrupt Labs (Melbourne, Victoria, Australia). Posted 3 months ago.",
+      "text": "iOS Vulnerability Researcher — Interrupt Labs (Melbourne, Victoria, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1423,7 +1423,7 @@
     },
     {
       "id": "l405",
-      "text": "AI Researcher \u2014 Maincode (Melbourne, Victoria, Australia). Posted 2 days ago.",
+      "text": "AI Researcher — Maincode (Melbourne, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1444,7 +1444,7 @@
     },
     {
       "id": "l406",
-      "text": "AI Researcher (KV cache optimization) \u2014 Glasswing (Australia). Posted 1 month ago.",
+      "text": "AI Researcher (KV cache optimization) — Glasswing (Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1465,7 +1465,7 @@
     },
     {
       "id": "l407",
-      "text": "Experienced Vulnerability Researcher \u2014 Breakpoint Research (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "text": "Experienced Vulnerability Researcher — Breakpoint Research (Melbourne, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1486,7 +1486,7 @@
     },
     {
       "id": "l408",
-      "text": "Audio Algorithm Researcher - Immersive Intelligent \u2014 TikTok (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "text": "Audio Algorithm Researcher - Immersive Intelligent — TikTok (Sydney, New South Wales, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1507,7 +1507,7 @@
     },
     {
       "id": "l409",
-      "text": "Experienced Vulnerability Researcher \u2014 Interrupt Labs (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Experienced Vulnerability Researcher — Interrupt Labs (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1528,7 +1528,7 @@
     },
     {
       "id": "l410",
-      "text": "Founding ML Researcher \u2014 Base Compute (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "text": "Founding ML Researcher — Base Compute (Melbourne, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1573,5 +1573,5 @@
       "note": "L1/L2/L4/L5 + Factiva L3 folded; L3 curated from prior-collected Factiva payloads"
     }
   ],
-  "updated": "2026-08-30T17:01:21.880553+00:00"
+  "updated": "2026-08-31T08:50:00+00:00"
 }
