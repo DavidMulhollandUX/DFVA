@@ -9,10 +9,10 @@
   "anzsco": "220000",
   "window": {
     "from": "2025-08-01",
-    "to": "2026-08-24"
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-26",
   "programs": [
     "mc-inslead"
   ],
@@ -25,7 +25,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "[VertexED] Prioritize real users over investor volume\nGTM priority: verify produ…",
+          "title": "[VertexED] Prioritize real users over investor volume\nGTM priority: verify produ\u2026",
           "url": "https://github.com/vertex-studyAI/vertexED.ai/issues/471",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -40,13 +40,13 @@
     },
     {
       "id": "l504",
-      "text": "feat: multi-repo orchestration + per-repo namespacing + headless teachers\n## What\nMakes the Agent-School framework multi-repo aware and run natively under Orca headless — no manual confirmation at boot.\n\n## Why\n- **Per-repo isolation**: dispatching Sound Royale + school-core must not collide on shared bookbag/score state. Orca automation + worktree names can't contain `/`",
+      "text": "feat: multi-repo orchestration + per-repo namespacing + headless teachers\n## What\nMakes the Agent-School framework multi-repo aware and run natively under Orca headless \u2014 no manual confirmation at boot.\n\n## Why\n- **Per-repo isolation**: dispatching Sound Royale + school-core must not collide on shared bookbag/score state. Orca automation + worktree names can't contain `/`",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: multi-repo orchestration + per-repo namespacing + headless teachers\n## Wha…",
+          "title": "feat: multi-repo orchestration + per-repo namespacing + headless teachers\n## Wha\u2026",
           "url": "https://github.com/branben/school-core/pull/38",
           "date": "2026-07-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -61,13 +61,13 @@
     },
     {
       "id": "l505",
-      "text": "feat: generalize lesson planner for ECCE-XII with 4As template, paper generation, and mobile-first UI\n## Summary\r\n\r\nGeneralized the lesson planner from a Physics-only tool (Grades 9-12) to a full curriculum platform for Peoples Higher Secondary School Jamshoro covering ECCE through Class XII.\r\n\r\n### Key Changes\r\n- **Curriculum data**: Reorganized into `curriculum/subjects/*.ts` for maintainability;\n[vc]: #1nkUaZ1BLLC0hj8TW/GCoVdR1f1ISSfsZj5+gt4nVfE=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIi…",
+      "text": "feat: generalize lesson planner for ECCE-XII with 4As template, paper generation, and mobile-first UI\n## Summary\r\n\r\nGeneralized the lesson planner from a Physics-only tool (Grades 9-12) to a full curriculum platform for Peoples Higher Secondary School Jamshoro covering ECCE through Class XII.\r\n\r\n### Key Changes\r\n- **Curriculum data**: Reorganized into `curriculum/subjects/*.ts` for maintainability;\n[vc]: #1nkUaZ1BLLC0hj8TW/GCoVdR1f1ISSfsZj5+gt4nVfE=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIi\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: generalize lesson planner for ECCE-XII with 4As template, paper generation…",
+          "title": "feat: generalize lesson planner for ECCE-XII with 4As template, paper generation\u2026",
           "url": "https://github.com/abdulahadattar/Peoples-School-lesson-planner/pull/1",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -82,13 +82,13 @@
     },
     {
       "id": "l506",
-      "text": "Outreach: Seek feedback from Vancouver educator and parent organizations\nDescription:\nTo improve accuracy and credibility, consider proactively requesting feedback from the following groups before or shortly after public launch:\n\nVAES (Vancouver Elementary School Teachers' Association) — VSB elementary local\nVSTA (Vancouver Secondary Teachers' Association) — VSB secondar",
+      "text": "Outreach: Seek feedback from Vancouver educator and parent organizations\nDescription:\nTo improve accuracy and credibility, consider proactively requesting feedback from the following groups before or shortly after public launch:\n\nVAES (Vancouver Elementary School Teachers' Association) \u2014 VSB elementary local\nVSTA (Vancouver Secondary Teachers' Association) \u2014 VSB secondar",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Outreach: Seek feedback from Vancouver educator and parent organizations\nDescrip…",
+          "title": "Outreach: Seek feedback from Vancouver educator and parent organizations\nDescrip\u2026",
           "url": "https://github.com/ygjb/parentsguidetoai.ca/issues/3",
           "date": "2026-06-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -109,7 +109,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: add tenant and organization hierarchy foundation\n## Summary\n\n- add Tenant …",
+          "title": "feat: add tenant and organization hierarchy foundation\n## Summary\n\n- add Tenant \u2026",
           "url": "https://github.com/joshua-sx/openschool-v2/pull/92",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -130,7 +130,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Linear Issue: Teacher Dashboard for School Edition\n## Summary\n\nBuild the first p…",
+          "title": "Linear Issue: Teacher Dashboard for School Edition\n## Summary\n\nBuild the first p\u2026",
           "url": "https://github.com/Dayova/dayova-mvp/issues/323",
           "date": "2026-07-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -151,7 +151,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Senior secondary staff assignment scopes\n# Spec: Senior Secondary Staff Assignme…",
+          "title": "Senior secondary staff assignment scopes\n# Spec: Senior Secondary Staff Assignme\u2026",
           "url": "https://github.com/ishaqyusuf/school-clerk-oss/issues/24",
           "date": "2026-07-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -172,7 +172,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Correct the error in my code\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta c…",
+          "title": "Correct the error in my code\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta c\u2026",
           "url": "https://github.com/BRIDE1/CALCULATOR-APP/issues/1",
           "date": "2026-07-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -187,13 +187,13 @@
     },
     {
       "id": "l511",
-      "text": "Automated educator lane in the relevance filter (replaces manual re-open)\n## Why\n\nThe catalog now tracks educator competencies (audience `educator` skills, UNESCO AI Competency Framework for Teachers), but the relevance filter still drops educator-competence evidence as \"adult audience\". Until now that evidence — teacher studies the learner gate intentionally drops — coul",
+      "text": "Automated educator lane in the relevance filter (replaces manual re-open)\n## Why\n\nThe catalog now tracks educator competencies (audience `educator` skills, UNESCO AI Competency Framework for Teachers), but the relevance filter still drops educator-competence evidence as \"adult audience\". Until now that evidence \u2014 teacher studies the learner gate intentionally drops \u2014 coul",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Automated educator lane in the relevance filter (replaces manual re-open)\n## Why…",
+          "title": "Automated educator lane in the relevance filter (replaces manual re-open)\n## Why\u2026",
           "url": "https://github.com/malkreide/future-skills-evidence-graph/pull/76",
           "date": "2026-06-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -214,7 +214,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: Implement a School Management System database schema\n### Overview\r\nThis Pu…",
+          "title": "feat: Implement a School Management System database schema\n### Overview\r\nThis Pu\u2026",
           "url": "https://github.com/Powellpay-LTD/schooldatabase/pull/29",
           "date": "2026-06-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -271,13 +271,13 @@
     },
     {
       "id": "l515",
-      "text": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
+      "text": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
+          "title": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
           "url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -439,13 +439,13 @@
     },
     {
       "id": "l523",
-      "text": "GCC to Decline Any Significant Contributions Made via AI/LLMs – Except for Tests",
+      "text": "GCC to Decline Any Significant Contributions Made via AI/LLMs \u2013 Except for Tests",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "GCC to Decline Any Significant Contributions Made via AI/LLMs – Except for Tests",
+          "title": "GCC to Decline Any Significant Contributions Made via AI/LLMs \u2013 Except for Tests",
           "url": "https://www.phoronix.com/news/GCC-Declining-AI-Contributions",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -460,13 +460,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -586,13 +586,13 @@
     },
     {
       "id": "l530",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -691,13 +691,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Slate – Open-source AI workspace with a built-in browser",
+      "text": "Show HN: Slate \u2013 Open-source AI workspace with a built-in browser",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Slate – Open-source AI workspace with a built-in browser",
+          "title": "Show HN: Slate \u2013 Open-source AI workspace with a built-in browser",
           "url": "https://github.com/slate-ai/slate",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -733,13 +733,13 @@
     },
     {
       "id": "l537",
-      "text": "Munderi Government Higher Secondary School in Kannur, Kerala, is showing what public education can look like when infrastructure, technology and learning are given the attention they deserve. CAN WE FIND SUCH GOVT SCHOOLS IN UP, MP, BH, GJ, UK, , etc ?\nhttps://www.instagram.com/reel/DcXrpGIzA4\\_ The school has smart classrooms, modern science facilities, a digital library and advanced learning spaces. It also became Kerala’s first government school to establish a fully equipped robotics lab, fea…",
+      "text": "Munderi Government Higher Secondary School in Kannur, Kerala, is showing what public education can look like when infrastructure, technology and learning are given the attention they deserve. CAN WE FIND SUCH GOVT SCHOOLS IN UP, MP, BH, GJ, UK, , etc ?\nhttps://www.instagram.com/reel/DcXrpGIzA4\\_ The school has smart classrooms, modern science facilities, a digital library and advanced learning spaces. It also became Kerala\u2019s first government school to establish a fully equipped robotics lab, fea\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Munderi Government Higher Secondary School in Kannur, Kerala, is showing what pu…",
+          "title": "Munderi Government Higher Secondary School in Kannur, Kerala, is showing what pu\u2026",
           "url": "https://www.reddit.com/r/IndianFocus/comments/1vw5kbz/munderi_government_higher_secondary_school_in/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -754,13 +754,13 @@
     },
     {
       "id": "l538",
-      "text": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generated Educational Materials Full of Inexcusable Hallucinations, Including a Map Labeled With \"North Dahota\" and \"Olkchoma\"\n&#32; submitted by &#32; /u/SplashTarget &#32; to &#32; r/antiai [link] &#32; [comments]\nSaw this in my news feed the other day. I'm not surprised the AI screwed up, but I am surprised that apparently not a single person even skim read the result before handing it out to students. Maybe I The teache…",
+      "text": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generated Educational Materials Full of Inexcusable Hallucinations, Including a Map Labeled With \"North Dahota\" and \"Olkchoma\"\n&#32; submitted by &#32; /u/SplashTarget &#32; to &#32; r/antiai [link] &#32; [comments]\nSaw this in my news feed the other day. I'm not surprised the AI screwed up, but I am surprised that apparently not a single person even skim read the result before handing it out to students. Maybe I The teache\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generat…",
+          "title": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generat\u2026",
           "url": "https://www.reddit.com/r/antiai/comments/1vshdo1/kentucky_middle_school_sends_students_home_on/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -775,13 +775,13 @@
     },
     {
       "id": "l539",
-      "text": "#Vietnam to include #AI in the school curriculum nationwide\n\nThis just a week after Vietnam announced a goal to equip 10 million workers with AI skills by 2030.\n\nStarting from the 2026–2027 academic year, all general education students in Vietnam will receive structured AI education under a new framework issued by the Ministry of Education and Training.\n\nEvery class will have 12 periods of core AI content per academic year.\n\nThe program is designed to build AI competencies from an early age and",
+      "text": "#Vietnam to include #AI in the school curriculum nationwide\n\nThis just a week after Vietnam announced a goal to equip 10 million workers with AI skills by 2030.\n\nStarting from the 2026\u20132027 academic year, all general education students in Vietnam will receive structured AI education under a new framework issued by the Ministry of Education and Training.\n\nEvery class will have 12 periods of core AI content per academic year.\n\nThe program is designed to build AI competencies from an early age and",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "#Vietnam to include #AI in the school curriculum nationwide\n\nThis just a week af…",
+          "title": "#Vietnam to include #AI in the school curriculum nationwide\n\nThis just a week af\u2026",
           "url": "https://x.com/Carlosa_DaNang/status/2091724724070146522",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -817,13 +817,13 @@
     },
     {
       "id": "l541",
-      "text": "The Real Threat Isn’t AI. It’s Compute.",
+      "text": "The Real Threat Isn\u2019t AI. It\u2019s Compute.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Real Threat Isn’t AI. It’s Compute.",
+          "title": "The Real Threat Isn\u2019t AI. It\u2019s Compute.",
           "url": "https://x.com/Bradleyxf0/status/2092430372617282006",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -844,7 +844,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Hello, Enugu! \n\nWe love you all here! The energy, the warmth, the spirit, unmist…",
+          "title": "Hello, Enugu! \n\nWe love you all here! The energy, the warmth, the spirit, unmist\u2026",
           "url": "https://x.com/sowore/status/2093259195277513164",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -880,13 +880,13 @@
     },
     {
       "id": "l544",
-      "text": "\"Doctors were on strike for 13 months. The only thing doctors have never said is why they went on strike. But in the 13 months, there was no mass death.\"\n— Peter Obi defends why doctors went on strike for 13 months why he was Anambra State Governor\nVideo Credit: @SymfoniNews  TV\n\nIt is still unbelievable! I sat there and listened to  @PeterObi  attempt to justify this by claiming there was “no mass death.”\nHow can the absence of “mass death” ever become a justification for his ineptitude and inc",
+      "text": "\"Doctors were on strike for 13 months. The only thing doctors have never said is why they went on strike. But in the 13 months, there was no mass death.\"\n\u2014 Peter Obi defends why doctors went on strike for 13 months why he was Anambra State Governor\nVideo Credit: @SymfoniNews  TV\n\nIt is still unbelievable! I sat there and listened to  @PeterObi  attempt to justify this by claiming there was \u201cno mass death.\u201d\nHow can the absence of \u201cmass death\u201d ever become a justification for his ineptitude and inc",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\"Doctors were on strike for 13 months. The only thing doctors have never said is…",
+          "title": "\"Doctors were on strike for 13 months. The only thing doctors have never said is\u2026",
           "url": "https://x.com/sowore/status/2093085653957562875",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -901,13 +901,13 @@
     },
     {
       "id": "l545",
-      "text": "When @ChibuikeAmaechi  stood at the @NigBarAssoc  Annual General Conference in Port Harcourt boasting, “Take @sowore  around Rivers State, I built this road, I built that road, I built this school, I built that school,” he may have forgotten to look around him.\n\nThis was the venue of the very NBA conference where he made those boasts.\n\nLook around Port Harcourt. Look at the roads. Look at the infrastructure. Look at the condition of a state they governed and claimed to have transformed.\nThis is",
+      "text": "When @ChibuikeAmaechi  stood at the @NigBarAssoc  Annual General Conference in Port Harcourt boasting, \u201cTake @sowore  around Rivers State, I built this road, I built that road, I built this school, I built that school,\u201d he may have forgotten to look around him.\n\nThis was the venue of the very NBA conference where he made those boasts.\n\nLook around Port Harcourt. Look at the roads. Look at the infrastructure. Look at the condition of a state they governed and claimed to have transformed.\nThis is",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "When @ChibuikeAmaechi  stood at the @NigBarAssoc  Annual General Conference in P…",
+          "title": "When @ChibuikeAmaechi  stood at the @NigBarAssoc  Annual General Conference in P\u2026",
           "url": "https://x.com/sowore/status/2093470487410008150",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -922,13 +922,13 @@
     },
     {
       "id": "l546",
-      "text": "On January 11, 2012, Nigeria's number 1 hypocrite, Bola Ahmed Tinubu @officialABAT , then an opposition leader, published a lengthy article attacking then President Goodluck Jonathan's fuel-subsidy removal, calling it ill-timed and describing it as the “Jonathan tax.” Years later, \n\nTinubu came to power and implemented an abrupt subsidy removal himself, plunging millions of Nigerians into unrecoverable multi-dimensional poverty. Nigerians should revisit what he wrote in 2012 and compare his argu",
+      "text": "On January 11, 2012, Nigeria's number 1 hypocrite, Bola Ahmed Tinubu @officialABAT , then an opposition leader, published a lengthy article attacking then President Goodluck Jonathan's fuel-subsidy removal, calling it ill-timed and describing it as the \u201cJonathan tax.\u201d Years later, \n\nTinubu came to power and implemented an abrupt subsidy removal himself, plunging millions of Nigerians into unrecoverable multi-dimensional poverty. Nigerians should revisit what he wrote in 2012 and compare his argu",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "On January 11, 2012, Nigeria's number 1 hypocrite, Bola Ahmed Tinubu @officialAB…",
+          "title": "On January 11, 2012, Nigeria's number 1 hypocrite, Bola Ahmed Tinubu @officialAB\u2026",
           "url": "https://x.com/sowore/status/2093068774576652377",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -943,13 +943,13 @@
     },
     {
       "id": "l547",
-      "text": "Don’t let Atiku Abubakar and his clowning group deceive you about fuel subsidy or pretend that they are responsible for the panic now gripping the failed Asiwaju Bola Ahmed Tinubu regime.\n\nIt was our firm and uncompromising stance at the Nigerian Bar Association Annual General Conference in Port Harcourt that sent the Asiwaju Bola Ahmed Tinubu regime scampering.\n\nOnly the African Action Congress (AAC) made its position absolutely clear that we will not remove fuel subsidy In fact, by the time we",
+      "text": "Don\u2019t let Atiku Abubakar and his clowning group deceive you about fuel subsidy or pretend that they are responsible for the panic now gripping the failed Asiwaju Bola Ahmed Tinubu regime.\n\nIt was our firm and uncompromising stance at the Nigerian Bar Association Annual General Conference in Port Harcourt that sent the Asiwaju Bola Ahmed Tinubu regime scampering.\n\nOnly the African Action Congress (AAC) made its position absolutely clear that we will not remove fuel subsidy In fact, by the time we",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Don’t let Atiku Abubakar and his clowning group deceive you about fuel subsidy o…",
+          "title": "Don\u2019t let Atiku Abubakar and his clowning group deceive you about fuel subsidy o\u2026",
           "url": "https://x.com/sowore/status/2093109591919690232",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -964,13 +964,13 @@
     },
     {
       "id": "l548",
-      "text": "It has always been about class. Nigeria’s top echelon, the monied, connected, and powerful, doesn’t merely expect respect; too often, it extracts and extorts deference from the poor and vulnerable.\n\nThe powerful Nigerian man wants those beneath him to bow, kneel, genuflect, address him by elaborate titles, and constantly acknowledge his status.\n\nLook at @TonyOElumelu  holding Obasanjo’s hand like a little child. \n\nSuddenly, it is no longer about being Africans; it is about class. When privilege",
+      "text": "It has always been about class. Nigeria\u2019s top echelon, the monied, connected, and powerful, doesn\u2019t merely expect respect; too often, it extracts and extorts deference from the poor and vulnerable.\n\nThe powerful Nigerian man wants those beneath him to bow, kneel, genuflect, address him by elaborate titles, and constantly acknowledge his status.\n\nLook at @TonyOElumelu  holding Obasanjo\u2019s hand like a little child. \n\nSuddenly, it is no longer about being Africans; it is about class. When privilege",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "It has always been about class. Nigeria’s top echelon, the monied, connected, an…",
+          "title": "It has always been about class. Nigeria\u2019s top echelon, the monied, connected, an\u2026",
           "url": "https://x.com/sowore/status/2093064926671872079",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -991,7 +991,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The State of the Nation Interview on Afia TV Enugu.\n\nWe discussed the state of o…",
+          "title": "The State of the Nation Interview on Afia TV Enugu.\n\nWe discussed the state of o\u2026",
           "url": "https://x.com/sowore/status/2093329671114940582",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1033,7 +1033,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "A LONG READ, IT IS WORTH IT! \n\nBuilding a Modern, Free, Inclusive, and Future-Re…",
+          "title": "A LONG READ, IT IS WORTH IT! \n\nBuilding a Modern, Free, Inclusive, and Future-Re\u2026",
           "url": "https://x.com/sowore/status/2072702965429747797",
           "date": "2026-07-02",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1054,7 +1054,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@DoctorMinted I'm commenting on the nature of elitist behaviour not the efficacy…",
+          "title": "@DoctorMinted I'm commenting on the nature of elitist behaviour not the efficacy\u2026",
           "url": "https://x.com/HeadWarriorTWM/status/2093454685860511840",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1069,13 +1069,13 @@
     },
     {
       "id": "l553",
-      "text": "In a world where critical thinking, free speech and thought are under attack from multiple angles, our seminars empower you to stand strong and resolute.\nHelp tackle the scourge of woke. Sharpen your mind. Construct persuasive narratives. Champion meritocracy, intelligence, talent and excellence (M·I·T·E).\n\nJoin The Winning Mindset Discipline - monthly online seminars for cultural warrior.\n\nContact me for an informal chat\n\nhttps://t.co/qZZR3ySlNy",
+      "text": "In a world where critical thinking, free speech and thought are under attack from multiple angles, our seminars empower you to stand strong and resolute.\nHelp tackle the scourge of woke. Sharpen your mind. Construct persuasive narratives. Champion meritocracy, intelligence, talent and excellence (M\u00b7I\u00b7T\u00b7E).\n\nJoin The Winning Mindset Discipline - monthly online seminars for cultural warrior.\n\nContact me for an informal chat\n\nhttps://t.co/qZZR3ySlNy",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "In a world where critical thinking, free speech and thought are under attack fro…",
+          "title": "In a world where critical thinking, free speech and thought are under attack fro\u2026",
           "url": "https://x.com/HeadWarriorTWM/status/2093458705874296863",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1117,7 +1117,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@sowore @ChibuikeAmaechi @NigBarAssoc Stop being very stupid. @ARISEtv should no…",
+          "title": "@sowore @ChibuikeAmaechi @NigBarAssoc Stop being very stupid. @ARISEtv should no\u2026",
           "url": "https://x.com/xkalibaer/status/2093529386595029031",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1159,7 +1159,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@politicalmath thought he was pretty misaligned to the other AIs before he remov…",
+          "title": "@politicalmath thought he was pretty misaligned to the other AIs before he remov\u2026",
           "url": "https://x.com/TheZvi/status/2093472917631762471",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1180,7 +1180,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@tszzl @_NathanCalvin did OpenAI not notice the universal cheat simply because i…",
+          "title": "@tszzl @_NathanCalvin did OpenAI not notice the universal cheat simply because i\u2026",
           "url": "https://x.com/TheZvi/status/2093506756668182642",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1222,7 +1222,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@BrokenPremises @dankschmoney @grok @TheZvi hes just saying their predictions ca…",
+          "title": "@BrokenPremises @dankschmoney @grok @TheZvi hes just saying their predictions ca\u2026",
           "url": "https://x.com/b1llb3llamy/status/2093517019303784767",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1243,7 +1243,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@tszzl @_NathanCalvin might be good to have an alert that triggers if the answer…",
+          "title": "@tszzl @_NathanCalvin might be good to have an alert that triggers if the answer\u2026",
           "url": "https://x.com/TheZvi/status/2093522241065451858",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1264,7 +1264,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@b1llb3llamy @BrokenPremises @dankschmoney @grok @TheZvi yes, \"calibrate\" in the…",
+          "title": "@b1llb3llamy @BrokenPremises @dankschmoney @grok @TheZvi yes, \"calibrate\" in the\u2026",
           "url": "https://x.com/tautologer/status/2093518016420171870",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1306,7 +1306,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@HeadWarriorTWM Possible severe ASD, and ODD (Oppositional Defiance Disorder, an…",
+          "title": "@HeadWarriorTWM Possible severe ASD, and ODD (Oppositional Defiance Disorder, an\u2026",
           "url": "https://x.com/LizzieCornish12/status/2093510712878321668",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1363,13 +1363,13 @@
     },
     {
       "id": "l567",
-      "text": "@HeadWarriorTWM The old classic - penis envy!?! LOL 😂",
+      "text": "@HeadWarriorTWM The old classic - penis envy!?! LOL \ud83d\ude02",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@HeadWarriorTWM The old classic - penis envy!?! LOL 😂",
+          "title": "@HeadWarriorTWM The old classic - penis envy!?! LOL \ud83d\ude02",
           "url": "https://x.com/haralotek11850/status/2093499795495420297",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1390,7 +1390,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@RoueBadly @HeadWarriorTWM and just as she says \"for generations\", her left top …",
+          "title": "@RoueBadly @HeadWarriorTWM and just as she says \"for generations\", her left top \u2026",
           "url": "https://x.com/D25percent/status/2093499193289556230",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1447,13 +1447,13 @@
     },
     {
       "id": "l571",
-      "text": "@sowore @ChibuikeAmaechi @NigBarAssoc Took week's to find a loophole and this is it? Floods don’t respect party lines. \nInstead of mocking, let’s talk solutions. Rotimi Amechi showed capacity when he served. \nCampaign, win a councillorship, deliver in your own state, then we compare notes.",
+      "text": "@sowore @ChibuikeAmaechi @NigBarAssoc Took week's to find a loophole and this is it? Floods don\u2019t respect party lines. \nInstead of mocking, let\u2019s talk solutions. Rotimi Amechi showed capacity when he served. \nCampaign, win a councillorship, deliver in your own state, then we compare notes.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@sowore @ChibuikeAmaechi @NigBarAssoc Took week's to find a loophole and this is…",
+          "title": "@sowore @ChibuikeAmaechi @NigBarAssoc Took week's to find a loophole and this is\u2026",
           "url": "https://x.com/EzeorjikaDarli/status/2093528156393103736",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1474,7 +1474,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@sowore @ChibuikeAmaechi @NigBarAssoc Rotimi Amaechi spent eight years as a key …",
+          "title": "@sowore @ChibuikeAmaechi @NigBarAssoc Rotimi Amaechi spent eight years as a key \u2026",
           "url": "https://x.com/olusola_alani/status/2093527747263902092",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1495,7 +1495,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheZvi memory is a contributor, you want more unique context and less repeated …",
+          "title": "@TheZvi memory is a contributor, you want more unique context and less repeated \u2026",
           "url": "https://x.com/zmj/status/2093524626811023459",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1531,13 +1531,13 @@
     },
     {
       "id": "l575",
-      "text": "@dankschmoney @grok @TheZvi Why say “calibrated in advance”?  What is there to calibrate? This makes it sound like less wrong is culty or disingenuous in some way, and I’m curious how exactly",
+      "text": "@dankschmoney @grok @TheZvi Why say \u201ccalibrated in advance\u201d?  What is there to calibrate? This makes it sound like less wrong is culty or disingenuous in some way, and I\u2019m curious how exactly",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@dankschmoney @grok @TheZvi Why say “calibrated in advance”?  What is there to c…",
+          "title": "@dankschmoney @grok @TheZvi Why say \u201ccalibrated in advance\u201d?  What is there to c\u2026",
           "url": "https://x.com/BrokenPremises/status/2093512767869505827",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1558,7 +1558,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@jon_stokes oh tbc I have SO MANY questions about the humans as well, but OAI do…",
+          "title": "@jon_stokes oh tbc I have SO MANY questions about the humans as well, but OAI do\u2026",
           "url": "https://x.com/TheZvi/status/2093483421284581727",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1579,7 +1579,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@jon_stokes I mean I guess you could indeed respond with 'oh so these people are…",
+          "title": "@jon_stokes I mean I guess you could indeed respond with 'oh so these people are\u2026",
           "url": "https://x.com/TheZvi/status/2093471383682527391",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1747,7 +1747,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Ready for some Monday arvo policy on the run? \n\nHere's back of the napkin 'how t…",
+          "title": "Ready for some Monday arvo policy on the run? \n\nHere's back of the napkin 'how t\u2026",
           "url": "https://x.com/negativevortex_/status/2066380891765850451",
           "date": "2026-06-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1762,13 +1762,13 @@
     },
     {
       "id": "l586",
-      "text": "The AI Fallacy: Dr. Jerry Kane on Education, Work, and What We're Getting Wrong\nThe AI fallacy is thinking the transformation is only in the tool.\n \n\nAI is already transforming education and work; not just because of what it can do, but because of what people believe it can do. Students, workers, managers, universities, and companies are all changing their behavior around AI, sometimes rationally, sometimes badly, and often before they even fully understand it.\n \n\nThe AI paradox is that it is bo…",
+      "text": "The AI Fallacy: Dr. Jerry Kane on Education, Work, and What We're Getting Wrong\nThe AI fallacy is thinking the transformation is only in the tool.\n \n\nAI is already transforming education and work; not just because of what it can do, but because of what people believe it can do. Students, workers, managers, universities, and companies are all changing their behavior around AI, sometimes rationally, sometimes badly, and often before they even fully understand it.\n \n\nThe AI paradox is that it is bo\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The AI Fallacy: Dr. Jerry Kane on Education, Work, and What We're Getting Wrong\n…",
+          "title": "The AI Fallacy: Dr. Jerry Kane on Education, Work, and What We're Getting Wrong\n\u2026",
           "url": "https://www.youtube.com/watch?v=YjkvTweZUI0",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1783,13 +1783,13 @@
     },
     {
       "id": "l587",
-      "text": "Which university degrees will survive AI job disruption? - Asia Specific podcast, BBC World Service\nComments by a senior Indonesian official about students pursuing “irrelevant” university degrees has sparked a debate about what sort of careers will survive in a fast-changing job market. \n \nClick here to subscribe to our channel 👉🏽 https://bbc.in/3VyyriM  \n \nIndonesia is looking at ways to better equip universities and vocational schools for the future job market, and a relatively low level of g…",
+      "text": "Which university degrees will survive AI job disruption? - Asia Specific podcast, BBC World Service\nComments by a senior Indonesian official about students pursuing \u201cirrelevant\u201d university degrees has sparked a debate about what sort of careers will survive in a fast-changing job market. \n \nClick here to subscribe to our channel \ud83d\udc49\ud83c\udffd https://bbc.in/3VyyriM  \n \nIndonesia is looking at ways to better equip universities and vocational schools for the future job market, and a relatively low level of g\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Which university degrees will survive AI job disruption? - Asia Specific podcast…",
+          "title": "Which university degrees will survive AI job disruption? - Asia Specific podcast\u2026",
           "url": "https://www.youtube.com/watch?v=C045VwVVJes",
           "date": "2026-05-29",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1804,7 +1804,7 @@
     },
     {
       "id": "l488",
-      "text": "EXPRESSIONS OF INTEREST - TEACHERS — Townsville Grammar School (Townsville, Queensland, Australia). Posted 1 month ago.",
+      "text": "EXPRESSIONS OF INTEREST - TEACHERS \u2014 Townsville Grammar School (Townsville, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1825,7 +1825,7 @@
     },
     {
       "id": "l489",
-      "text": "Classroom Teacher — Department of Education (Victoria, Australia). Posted 1 day ago.",
+      "text": "Classroom Teacher \u2014 Department of Education (Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1846,7 +1846,7 @@
     },
     {
       "id": "l490",
-      "text": "Humanities Teacher- Secondary — Vivid Teachers (Darwin, Northern Territory, Australia). Posted 3 weeks ago.",
+      "text": "Humanities Teacher- Secondary \u2014 Vivid Teachers (Darwin, Northern Territory, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1867,7 +1867,7 @@
     },
     {
       "id": "l491",
-      "text": "Teacher - Humanities and Social Sciences — Department of Education, Western Australia (Greater Perth Area). Posted 2 days ago.",
+      "text": "Teacher - Humanities and Social Sciences \u2014 Department of Education, Western Australia (Greater Perth Area). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1888,7 +1888,7 @@
     },
     {
       "id": "l492",
-      "text": "Educators- Mentor — Unity Grammar (Parramatta, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Educators- Mentor \u2014 Unity Grammar (Parramatta, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1909,7 +1909,7 @@
     },
     {
       "id": "l493",
-      "text": "Secondary Teacher — Trinity Anglican School (Cairns, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Secondary Teacher \u2014 Trinity Anglican School (Cairns, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1930,7 +1930,7 @@
     },
     {
       "id": "l494",
-      "text": "Secondary Teachers for 2027 - Marist College — Catholic Education Diocese of Rockhampton (Emerald, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Secondary Teachers for 2027 - Marist College \u2014 Catholic Education Diocese of Rockhampton (Emerald, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1951,7 +1951,7 @@
     },
     {
       "id": "l495",
-      "text": "Teacher - Humanities and Social Sciences — Department of Education, Western Australia (Kimberley, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Teacher - Humanities and Social Sciences \u2014 Department of Education, Western Australia (Kimberley, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1972,7 +1972,7 @@
     },
     {
       "id": "l496",
-      "text": "Teacher & Leadership Opportunities 2027 — Catholic Education Tasmania (Mornington, Tasmania, Australia). Posted 1 week ago.",
+      "text": "Teacher & Leadership Opportunities 2027 \u2014 Catholic Education Tasmania (Mornington, Tasmania, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1993,7 +1993,7 @@
     },
     {
       "id": "l497",
-      "text": "Integrated Humanities Teacher — Catholic Education, Archdiocese of Canberra and Goulburn (Isabella Plains, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "Integrated Humanities Teacher \u2014 Catholic Education, Archdiocese of Canberra and Goulburn (Isabella Plains, Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2014,13 +2014,13 @@
     },
     {
       "id": "l598",
-      "text": "feat: generalize lesson planner for ECCE-XII with 4As template, paper generation, and mobile-first UI\n## Summary\r\n\r\nGeneralized the lesson planner from a Physics-only tool (Grades 9-12) to a full curriculum platform for Peoples Higher Secondary School Jamshoro covering ECCE through Class XII.\r\n\r\n### Key Changes\r\n- **Curriculum data**: Reorganized into `curriculum/subjects/*.ts` for maintainability;\n[vc]: #1nkUaZ1BLLC0hj8TW/GCoVdR1f1ISSfsZj5+gt4nVfE=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIi…",
+      "text": "feat: generalize lesson planner for ECCE-XII with 4As template, paper generation, and mobile-first UI\n## Summary\r\n\r\nGeneralized the lesson planner from a Physics-only tool (Grades 9-12) to a full curriculum platform for Peoples Higher Secondary School Jamshoro covering ECCE through Class XII.\r\n\r\n### Key Changes\r\n- **Curriculum data**: Reorganized into `curriculum/subjects/*.ts` for maintainability;\n[vc]: #1nkUaZ1BLLC0hj8TW/GCoVdR1f1ISSfsZj5+gt4nVfE=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIi\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: generalize lesson planner for ECCE-XII with 4As template, paper generation…",
+          "title": "feat: generalize lesson planner for ECCE-XII with 4As template, paper generation\u2026",
           "url": "https://github.com/abdulahadattar/Peoples-School-lesson-planner/pull/1",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2035,13 +2035,13 @@
     },
     {
       "id": "l599",
-      "text": "Munderi Government Higher Secondary School in Kannur, Kerala, is showing what public education can look like when infrastructure, technology and learning are given the attention they deserve. CAN WE FIND SUCH GOVT SCHOOLS IN UP, MP, BH, GJ, UK, , etc ?\nhttps://www.instagram.com/reel/DcXrpGIzA4\\_ The school has smart classrooms, modern science facilities, a digital library and advanced learning spaces. It also became Kerala’s first government school to establish a fully equipped robotics lab, fea…",
+      "text": "Munderi Government Higher Secondary School in Kannur, Kerala, is showing what public education can look like when infrastructure, technology and learning are given the attention they deserve. CAN WE FIND SUCH GOVT SCHOOLS IN UP, MP, BH, GJ, UK, , etc ?\nhttps://www.instagram.com/reel/DcXrpGIzA4\\_ The school has smart classrooms, modern science facilities, a digital library and advanced learning spaces. It also became Kerala\u2019s first government school to establish a fully equipped robotics lab, fea\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Munderi Government Higher Secondary School in Kannur, Kerala, is showing what pu…",
+          "title": "Munderi Government Higher Secondary School in Kannur, Kerala, is showing what pu\u2026",
           "url": "https://www.reddit.com/r/IndianFocus/comments/1vw5kbz/munderi_government_higher_secondary_school_in/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2056,13 +2056,13 @@
     },
     {
       "id": "l5100",
-      "text": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generated Educational Materials Full of Inexcusable Hallucinations, Including a Map Labeled With \"North Dahota\" and \"Olkchoma\"\n&#32; submitted by &#32; /u/SplashTarget &#32; to &#32; r/antiai [link] &#32; [comments]\nSaw this in my news feed the other day. I'm not surprised the AI screwed up, but I am surprised that apparently not a single person even skim read the result before handing it out to students. Maybe I The teache…",
+      "text": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generated Educational Materials Full of Inexcusable Hallucinations, Including a Map Labeled With \"North Dahota\" and \"Olkchoma\"\n&#32; submitted by &#32; /u/SplashTarget &#32; to &#32; r/antiai [link] &#32; [comments]\nSaw this in my news feed the other day. I'm not surprised the AI screwed up, but I am surprised that apparently not a single person even skim read the result before handing it out to students. Maybe I The teache\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generat…",
+          "title": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generat\u2026",
           "url": "https://www.reddit.com/r/antiai/comments/1vshdo1/kentucky_middle_school_sends_students_home_on/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2077,13 +2077,13 @@
     },
     {
       "id": "l5101",
-      "text": "The AI Fallacy: Dr. Jerry Kane on Education, Work, and What We're Getting Wrong\nThe AI fallacy is thinking the transformation is only in the tool.\n \n\nAI is already transforming education and work; not just because of what it can do, but because of what people believe it can do. Students, workers, managers, universities, and companies are all changing their behavior around AI, sometimes rationally, sometimes badly, and often before they even fully understand it.\n \n\nThe AI paradox is that it is bo…",
+      "text": "The AI Fallacy: Dr. Jerry Kane on Education, Work, and What We're Getting Wrong\nThe AI fallacy is thinking the transformation is only in the tool.\n \n\nAI is already transforming education and work; not just because of what it can do, but because of what people believe it can do. Students, workers, managers, universities, and companies are all changing their behavior around AI, sometimes rationally, sometimes badly, and often before they even fully understand it.\n \n\nThe AI paradox is that it is bo\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The AI Fallacy: Dr. Jerry Kane on Education, Work, and What We're Getting Wrong\n…",
+          "title": "The AI Fallacy: Dr. Jerry Kane on Education, Work, and What We're Getting Wrong\n\u2026",
           "url": "https://www.youtube.com/watch?v=YjkvTweZUI0",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2098,16 +2098,247 @@
     },
     {
       "id": "l5102",
-      "text": "Which university degrees will survive AI job disruption? - Asia Specific podcast, BBC World Service\nComments by a senior Indonesian official about students pursuing “irrelevant” university degrees has sparked a debate about what sort of careers will survive in a fast-changing job market. \n \nClick here to subscribe to our channel 👉🏽 https://bbc.in/3VyyriM  \n \nIndonesia is looking at ways to better equip universities and vocational schools for the future job market, and a relatively low level of g…",
+      "text": "Which university degrees will survive AI job disruption? - Asia Specific podcast, BBC World Service\nComments by a senior Indonesian official about students pursuing \u201cirrelevant\u201d university degrees has sparked a debate about what sort of careers will survive in a fast-changing job market. \n \nClick here to subscribe to our channel \ud83d\udc49\ud83c\udffd https://bbc.in/3VyyriM  \n \nIndonesia is looking at ways to better equip universities and vocational schools for the future job market, and a relatively low level of g\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Which university degrees will survive AI job disruption? - Asia Specific podcast…",
+          "title": "Which university degrees will survive AI job disruption? - Asia Specific podcast\u2026",
           "url": "https://www.youtube.com/watch?v=C045VwVVJes",
           "date": "2026-05-29",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "25-2031-L1-01",
+      "text": "In Australia, entry to the teaching profession is regulated nationally through AITSL's Accreditation of initial teacher education programs in Australia: Standards and Procedures (2025), under which every initial teacher education program must be accredited so its graduates meet the Australian Professional Standards for Teachers at the Graduate career stage. State and territory teacher registration authorities (for example VIT in Victoria and NESA in NSW) then register teachers to practise under their respective Education Acts, so Secondary School Teachers, Except Special and Vocational Education requires an accredited teaching qualification and registration to lawfully teach in an Australian school.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Institute for Teaching and School Leadership (AITSL)",
+          "title": "Accreditation of initial teacher education programs in Australia: Standards and Procedures (2025)",
+          "url": "https://aitsl.edu.au/tools-resources/resource/accreditation-of-initial-teacher-education-programs-in-australia---standards-and-procedures",
+          "date": "2025",
+          "whatItMeasured": "AITSL Accreditation Standards and Procedures (2025) set the national ITE accreditation requirements; graduates must meet the Australian Professional Standards for Teachers."
+        }
+      ],
+      "scope": "Australian school teachers (all states/territories); binds who may lawfully teach. Does not cover unregistered paraprofessionals or out-of-school tutoring.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "AITSL (national teacher regulator/standards body) primary; population = AU teachers; in force 2025."
+    },
+    {
+      "id": "25-2031-L2-01",
+      "text": "DFVA's v31 occupation crosswalk assigns Secondary School Teachers, Except Special and Vocational Education an AI exposure index of 91.99/100 (Felten-AIOE task-exposure framework, rescaled 0-100, the same lineage as the JSA Gen AI Capacity Study). Among the four school-teacher levels, preschool teaching carries the lowest exposure (64.33) and middle-school teaching the highest (94.25), reflecting differences in task composition (planning, marking, admin, feedback) rather than a forecast of employment change.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/occupation-data-on-ai-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "DFVA v31_extension_crosswalk.csv ai_exposure_index for 25-2031 = 91.99/100 (Felten-AIOE Appendix A, rescaled 0-100); methodology per JSA Gen AI Capacity Study."
+        }
+      ],
+      "scope": "Australian occupation task-exposure score (0-100); model-derived, not an employment-change forecast.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "DFVA crosswalk (project data) + JSA primary; population = AU school teachers; 2025-08."
+    },
+    {
+      "id": "25-2031-L2-02",
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study (August 2025) scores 358 ANZSCO occupations on augmentation and automation exposure using a task-level ILO/Felten framework. It finds most Australian workers face low automation risk, but education-professional occupations cluster toward the higher-exposure end because their core tasks (lesson planning, resource creation, feedback, assessment drafting) are language- and knowledge-intensive and readily supported by generative AI.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/occupation-data-on-ai-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study, task-level ANZSCO v1.3 exposure (augmentation/automation), 358 occupations, Aug 2025."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level estimates, not employment forecasts.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Primary Australian government source; population = AU occupations; published Aug 2025."
+    },
+    {
+      "id": "25-2031-L3-01",
+      "text": "The Australian Framework for Generative AI in Schools (endorsed by Education Ministers; June 2025 review) sets six principles - teaching and learning, human and social wellbeing, transparency, fairness, accountability, and privacy/security/safety - to guide responsible gen-AI use by teachers, students and school leaders. It is national policy implemented through state and system binding rules rather than legislation, and directly shapes what teachers are permitted and expected to do with AI in classrooms.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Australian Government Department of Education",
+          "title": "Australian Framework for Generative Artificial Intelligence (AI) in Schools",
+          "url": "https://education.gov.au/schooling/resources/australian-framework-generative-artificial-intelligence-ai-schools",
+          "date": "2025-06",
+          "whatItMeasured": "Australian Framework for Generative AI in Schools; June 2025 ministerial endorsement of the 2024 framework review; six principles + 25 guiding statements."
+        }
+      ],
+      "scope": "Australian school education nationally; policy framework, not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Dept of Education publication; population = AU schools; 2025-06."
+    },
+    {
+      "id": "25-2031-L3-02",
+      "text": "In August 2026, state education departments moved to curb student AI cheating in ways that reshape teacher assessment design: NSW proposed banning unsupervised take-home assignments for Years 11-12 (prompted by more than 1,000 recorded cheating cases in 2025) and NESA's 2024 AI-in-schools policy treats unapproved AI use as an academic-integrity breach, while Victoria will impose primary-school screen-time caps from Term 1 2027. Teachers must therefore collect evidence of learning through oral, performance and in-person modes less exposed to AI misuse.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ABC News",
+          "title": "How education departments across the country are cracking down on students using AI to cheat",
+          "url": "https://abc.net.au/news/2026-08-25/how-education-departments-across-country-are-cracking-down-on-ai/107026976",
+          "date": "2026-08-25",
+          "whatItMeasured": "ABC News reporting on state AI-cheating responses: NSW HSC overhaul, NESA 2024 AI policy, Victoria 2027 screen-time caps; dated 2026-08-25."
+        }
+      ],
+      "scope": "Australian state school systems; reporting, not a primary study. NSW/VIC specific examples.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "ABC News (attributable reporting); population = AU state schools; 2026-08-25."
+    },
+    {
+      "id": "25-2031-L3-03",
+      "text": "Responsible AI Australia's 2026 education brief notes the national gen-AI schools framework is implemented by states through binding policies, and that schools must run privacy due diligence before procuring AI tools (data storage, model training on inputs, third-party sharing), prohibit entering student or staff personal information into public gen-AI tools, and keep humans in the loop on judgements such as student-achievement marking and report writing. These constraints define the boundaries of AI adoption a teacher can undertake.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Responsible AI Australia",
+          "title": "AI Regulation in Australian Education (2026): Schools, Universities, Rules and Updates",
+          "url": "https://responsibleaiaustralia.com.au/industries/education",
+          "date": "2026",
+          "whatItMeasured": "Responsible AI Australia education page: national framework, state implementation, edtech procurement and use rules; 2026."
+        }
+      ],
+      "scope": "Australian school education; practitioner/policy brief, not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Responsible AI Australia (industry body); population = AU schools; 2026."
+    },
+    {
+      "id": "l5107",
+      "text": "feat: generalize lesson planner for ECCE-XII with 4As template, paper generation, and mobile-first UI\n## Summary\r\n\r\nGeneralized the lesson planner from a Physics-only tool (Grades 9-12) to a full curriculum platform for Peoples Higher Secondary School Jamshoro covering ECCE through Class XII.\r\n\r\n### Key Changes\r\n- **Curriculum data**: Reorganized into `curriculum/subjects/*.ts` for maintainability;\n[vc]: #1nkUaZ1BLLC0hj8TW/GCoVdR1f1ISSfsZj5+gt4nVfE=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIi\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: generalize lesson planner for ECCE-XII with 4As template, paper generation\u2026",
+          "url": "https://github.com/abdulahadattar/Peoples-School-lesson-planner/pull/1",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "Munderi Government Higher Secondary School in Kannur, Kerala, is showing what public education can look like when infrastructure, technology and learning are given the attention they deserve. CAN WE FIND SUCH GOVT SCHOOLS IN UP, MP, BH, GJ, UK, , etc ?\nhttps://www.instagram.com/reel/DcXrpGIzA4\\_ The school has smart classrooms, modern science facilities, a digital library and advanced learning spaces. It also became Kerala\u2019s first government school to establish a fully equipped robotics lab, fea\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Munderi Government Higher Secondary School in Kannur, Kerala, is showing what pu\u2026",
+          "url": "https://www.reddit.com/r/IndianFocus/comments/1vw5kbz/munderi_government_higher_secondary_school_in/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generated Educational Materials Full of Inexcusable Hallucinations, Including a Map Labeled With \"North Dahota\" and \"Olkchoma\"\n&#32; submitted by &#32; /u/SplashTarget &#32; to &#32; r/antiai [link] &#32; [comments]\nSaw this in my news feed the other day. I'm not surprised the AI screwed up, but I am surprised that apparently not a single person even skim read the result before handing it out to students. Maybe I The teache\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generat\u2026",
+          "url": "https://www.reddit.com/r/antiai/comments/1vshdo1/kentucky_middle_school_sends_students_home_on/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "The AI Fallacy: Dr. Jerry Kane on Education, Work, and What We're Getting Wrong\nThe AI fallacy is thinking the transformation is only in the tool.\n \n\nAI is already transforming education and work; not just because of what it can do, but because of what people believe it can do. Students, workers, managers, universities, and companies are all changing their behavior around AI, sometimes rationally, sometimes badly, and often before they even fully understand it.\n \n\nThe AI paradox is that it is bo\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The AI Fallacy: Dr. Jerry Kane on Education, Work, and What We're Getting Wrong\n\u2026",
+          "url": "https://www.youtube.com/watch?v=YjkvTweZUI0",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "Which university degrees will survive AI job disruption? - Asia Specific podcast, BBC World Service\nComments by a senior Indonesian official about students pursuing \u201cirrelevant\u201d university degrees has sparked a debate about what sort of careers will survive in a fast-changing job market. \n \nClick here to subscribe to our channel \ud83d\udc49\ud83c\udffd https://bbc.in/3VyyriM  \n \nIndonesia is looking at ways to better equip universities and vocational schools for the future job market, and a relatively low level of g\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Which university degrees will survive AI job disruption? - Asia Specific podcast\u2026",
+          "url": "https://www.youtube.com/watch?v=C045VwVVJes",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -2145,7 +2376,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens SSO session expired; re-run factiva_reauth.py then factiva_backfill.py. L3 covered this pass via web trade-press (Framework, ABC, Responsible AI Australia) instead.",
+        "date": "2026-08-30"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -2191,9 +2430,24 @@
           "youtube": 2
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 5,
+        "sources": {
+          "github": 10,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 2,
+          "x": 47,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L1/L2/L3 added 2026-08-30 (autoloop): AITSL registration/accreditation, JSA/Felten exposure index 91.99, AI-in-schools trade press. Factiva L3 gap logged (auth_expired)."
+  ]
 }

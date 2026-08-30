@@ -7,10 +7,10 @@
   "anzsco": "220000",
   "window": {
     "from": "2025-08-01",
-    "to": "2026-08-24"
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-26",
   "programs": [
     "mc-inslead"
   ],
@@ -23,7 +23,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Set Monday 5 PM Kris and Park middle-school class\n- Reserve Monday 17:00 for the…",
+          "title": "Set Monday 5 PM Kris and Park middle-school class\n- Reserve Monday 17:00 for the\u2026",
           "url": "https://github.com/choiyoonmi/ht-schedule/pull/13",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -38,13 +38,13 @@
     },
     {
       "id": "l504",
-      "text": "Outreach: Seek feedback from Vancouver educator and parent organizations\nDescription:\nTo improve accuracy and credibility, consider proactively requesting feedback from the following groups before or shortly after public launch:\n\nVAES (Vancouver Elementary School Teachers' Association) — VSB elementary local\nVSTA (Vancouver Secondary Teachers' Association) — VSB secondar",
+      "text": "Outreach: Seek feedback from Vancouver educator and parent organizations\nDescription:\nTo improve accuracy and credibility, consider proactively requesting feedback from the following groups before or shortly after public launch:\n\nVAES (Vancouver Elementary School Teachers' Association) \u2014 VSB elementary local\nVSTA (Vancouver Secondary Teachers' Association) \u2014 VSB secondar",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Outreach: Seek feedback from Vancouver educator and parent organizations\nDescrip…",
+          "title": "Outreach: Seek feedback from Vancouver educator and parent organizations\nDescrip\u2026",
           "url": "https://github.com/ygjb/parentsguidetoai.ca/issues/3",
           "date": "2026-06-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -65,7 +65,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Preparing Children for School Through Meaningful Learning\nThe change from home t…",
+          "title": "Preparing Children for School Through Meaningful Learning\nThe change from home t\u2026",
           "url": "https://github.com/DataONEorg/Education/issues/204",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,7 +86,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Shaping Strong Foundations for Lifelong Learning in Tucson\nChoosing the right el…",
+          "title": "Shaping Strong Foundations for Lifelong Learning in Tucson\nChoosing the right el\u2026",
           "url": "https://github.com/Tucson-Hebrew-Academy/private-elementary-schools-in-tucson-az/issues/1",
           "date": "2026-07-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -101,13 +101,13 @@
     },
     {
       "id": "l507",
-      "text": "Strong Start for Young Learners Through Elementary Education in Tucson Private Schools\nEarly education is the most important stage in a child’s learning journey. It helps build reading, writing, thinking skills, and strong confidence. Many families search for [Tucson private schools elementary](https://thaaz.org/best-elementary-school-in-tucson-az/) options because they want a safe, s",
+      "text": "Strong Start for Young Learners Through Elementary Education in Tucson Private Schools\nEarly education is the most important stage in a child\u2019s learning journey. It helps build reading, writing, thinking skills, and strong confidence. Many families search for [Tucson private schools elementary](https://thaaz.org/best-elementary-school-in-tucson-az/) options because they want a safe, s",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Strong Start for Young Learners Through Elementary Education in Tucson Private S…",
+          "title": "Strong Start for Young Learners Through Elementary Education in Tucson Private S\u2026",
           "url": "https://github.com/Tucson-Hebrew-Academy/Tucson-Private-Schools-Elementary/issues/15",
           "date": "2026-07-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -128,7 +128,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Creating Strong Learners Through Elementary Private Education in Tucson\nChoosing…",
+          "title": "Creating Strong Learners Through Elementary Private Education in Tucson\nChoosing\u2026",
           "url": "https://github.com/Tucson-Hebrew-Academy/Tucson-Private-Schools-Elementary/issues/16",
           "date": "2026-07-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -143,13 +143,13 @@
     },
     {
       "id": "l509",
-      "text": "Add LP-style landing page to recommend the reading record to fellow teachers\n## Summary\n- Added a new `index.html` one-page LP site in Japanese tailored for elementary school teacher colleagues\n- Reflected the requested content structure around the six \"授業あるある\" categories\n- Styled the page with a clean, modern aesthetic inspired by the referenced site (minimal layout, soft p",
+      "text": "Add LP-style landing page to recommend the reading record to fellow teachers\n## Summary\n- Added a new `index.html` one-page LP site in Japanese tailored for elementary school teacher colleagues\n- Reflected the requested content structure around the six \"\u6388\u696d\u3042\u308b\u3042\u308b\" categories\n- Styled the page with a clean, modern aesthetic inspired by the referenced site (minimal layout, soft p",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add LP-style landing page to recommend the reading record to fellow teachers\n## …",
+          "title": "Add LP-style landing page to recommend the reading record to fellow teachers\n## \u2026",
           "url": "https://github.com/papua2129/sougoubooks_1/pull/1",
           "date": "2026-05-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -164,13 +164,13 @@
     },
     {
       "id": "l510",
-      "text": "Creating a Strong Educational Foundation for Young Learners\nEvery parent wants their child to begin school in an environment that encourages learning, confidence, and personal growth. Elementary education plays a major role in shaping a child’s future academic success and character development. Because of this, many families search for the [best elementary s",
+      "text": "Creating a Strong Educational Foundation for Young Learners\nEvery parent wants their child to begin school in an environment that encourages learning, confidence, and personal growth. Elementary education plays a major role in shaping a child\u2019s future academic success and character development. Because of this, many families search for the [best elementary s",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Creating a Strong Educational Foundation for Young Learners\nEvery parent wants t…",
+          "title": "Creating a Strong Educational Foundation for Young Learners\nEvery parent wants t\u2026",
           "url": "https://github.com/Tucson-Hebrew-Academy/best-elementary-schools-in-tucson-arizona/issues/2",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -185,13 +185,13 @@
     },
     {
       "id": "l511",
-      "text": "General Discussion Issue 3\nSince the last one disappeared when @PPPDUD got banned, I'm making a new one.\n\nAnyways, it is school holidays for me now! Yay!\nHey there! I'm Boxy, the new automated assistant here for OmniBlocks. Think of me as the friendly, hopefully much smarter replacement for that old bot, CodeRabbit.\n\nIt sounds like you're having a good start to your school holidays—congrats! Since this is a general discussion thread, I've gone ahead ... @OmniBlocks/boxy Please scour the codebase…",
+      "text": "General Discussion Issue 3\nSince the last one disappeared when @PPPDUD got banned, I'm making a new one.\n\nAnyways, it is school holidays for me now! Yay!\nHey there! I'm Boxy, the new automated assistant here for OmniBlocks. Think of me as the friendly, hopefully much smarter replacement for that old bot, CodeRabbit.\n\nIt sounds like you're having a good start to your school holidays\u2014congrats! Since this is a general discussion thread, I've gone ahead ... @OmniBlocks/boxy Please scour the codebase\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "General Discussion Issue 3\nSince the last one disappeared when @PPPDUD got banne…",
+          "title": "General Discussion Issue 3\nSince the last one disappeared when @PPPDUD got banne\u2026",
           "url": "https://github.com/OmniBlocks/monorepo/issues/552",
           "date": "2026-07-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -206,13 +206,13 @@
     },
     {
       "id": "l512",
-      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
+      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
+          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -233,7 +233,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add behavior plan generator CLI for schools\n### Motivation\n- Provide a lightweig…",
+          "title": "Add behavior plan generator CLI for schools\n### Motivation\n- Provide a lightweig\u2026",
           "url": "https://github.com/jggorman91/CodexTest/pull/2",
           "date": "2026-03-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -248,13 +248,13 @@
     },
     {
       "id": "l514",
-      "text": "Building Strong Foundations for Young Learners in Tucson\nThe early years of a child’s education are very important. These years shape how children think, learn, and grow. Many parents today are searching for [Tucson Private Schools Elementary](https://thaaz.org/best-elementary-school-in-tucson-az/) options to give their children a strong start in life.\n\nA",
+      "text": "Building Strong Foundations for Young Learners in Tucson\nThe early years of a child\u2019s education are very important. These years shape how children think, learn, and grow. Many parents today are searching for [Tucson Private Schools Elementary](https://thaaz.org/best-elementary-school-in-tucson-az/) options to give their children a strong start in life.\n\nA",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Building Strong Foundations for Young Learners in Tucson\nThe early years of a ch…",
+          "title": "Building Strong Foundations for Young Learners in Tucson\nThe early years of a ch\u2026",
           "url": "https://github.com/Tucson-Hebrew-Academy/Tucson-Private-Schools-Elementary/issues/14",
           "date": "2026-05-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -269,13 +269,13 @@
     },
     {
       "id": "l515",
-      "text": "Fresh Approach to Early Education for Families in Tucson\nChoosing the right school for your child’s early years is a big decision. These years shape how children learn, grow, and see the world. Many parents today are exploring [Tucson Private Schools Elementary](https://thaaz.org/best-elementary-school-in-tucson-az/) options because they want a safe, supp",
+      "text": "Fresh Approach to Early Education for Families in Tucson\nChoosing the right school for your child\u2019s early years is a big decision. These years shape how children learn, grow, and see the world. Many parents today are exploring [Tucson Private Schools Elementary](https://thaaz.org/best-elementary-school-in-tucson-az/) options because they want a safe, supp",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Fresh Approach to Early Education for Families in Tucson\nChoosing the right scho…",
+          "title": "Fresh Approach to Early Education for Families in Tucson\nChoosing the right scho\u2026",
           "url": "https://github.com/Tucson-Hebrew-Academy/Tucson-Private-Schools-Elementary/issues/13",
           "date": "2026-05-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -296,7 +296,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add AI image generation course curriculum for elementary students\n## Summary\nAdd…",
+          "title": "Add AI image generation course curriculum for elementary students\n## Summary\nAdd\u2026",
           "url": "https://github.com/dabing823-spec/stock-prediction-tw/pull/1",
           "date": "2026-04-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -353,13 +353,13 @@
     },
     {
       "id": "l519",
-      "text": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
+      "text": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
+          "title": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
           "url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -542,13 +542,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -584,13 +584,13 @@
     },
     {
       "id": "l530",
-      "text": "GCC to Decline Any Significant Contributions Made via AI/LLMs – Except for Tests",
+      "text": "GCC to Decline Any Significant Contributions Made via AI/LLMs \u2013 Except for Tests",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "GCC to Decline Any Significant Contributions Made via AI/LLMs – Except for Tests",
+          "title": "GCC to Decline Any Significant Contributions Made via AI/LLMs \u2013 Except for Tests",
           "url": "https://www.phoronix.com/news/GCC-Declining-AI-Contributions",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -605,13 +605,13 @@
     },
     {
       "id": "l531",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -668,13 +668,13 @@
     },
     {
       "id": "l534",
-      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -710,13 +710,13 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -773,13 +773,13 @@
     },
     {
       "id": "l539",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -794,13 +794,13 @@
     },
     {
       "id": "l540",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -815,13 +815,13 @@
     },
     {
       "id": "l541",
-      "text": "ai usage in elementary schools is becoming dystopian.\nedit: i’m from canada for those who are wondering. it is not any better here than in the us. i’m 21 and i work at an elementary school. as of right now, chatgpt is running the school. the principal pulled me aside to tell me i had a course i needed to take for my new position, but that chatgpt could help me. my vice principal pretty much only speaks to chatgpt and is very well on the road to ai psychosis. she uses it for everything. she genui…",
+      "text": "ai usage in elementary schools is becoming dystopian.\nedit: i\u2019m from canada for those who are wondering. it is not any better here than in the us. i\u2019m 21 and i work at an elementary school. as of right now, chatgpt is running the school. the principal pulled me aside to tell me i had a course i needed to take for my new position, but that chatgpt could help me. my vice principal pretty much only speaks to chatgpt and is very well on the road to ai psychosis. she uses it for everything. she genui\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "ai usage in elementary schools is becoming dystopian.\nedit: i’m from canada for …",
+          "title": "ai usage in elementary schools is becoming dystopian.\nedit: i\u2019m from canada for \u2026",
           "url": "https://www.reddit.com/r/antiai/comments/1w0h2eu/ai_usage_in_elementary_schools_is_becoming/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -842,7 +842,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generat…",
+          "title": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generat\u2026",
           "url": "https://www.reddit.com/r/antiai/comments/1vshdo1/kentucky_middle_school_sends_students_home_on/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -857,13 +857,13 @@
     },
     {
       "id": "l543",
-      "text": "Teachers are a respected profession. They often have to get advanced degrees. Why do they get paid so little in the elementary through high school age group, when they are building the foundation of knowledge that children need in life?\n&#32; submitted by &#32; /u/icecream1972 &#32; to &#32; r/askanything [link] &#32; [comments]\nA lot of people do not respect them, or education in general.. because teaching is a \"passion career.\" the idea is you can abuse them as much as you want, and they'll st…",
+      "text": "Teachers are a respected profession. They often have to get advanced degrees. Why do they get paid so little in the elementary through high school age group, when they are building the foundation of knowledge that children need in life?\n&#32; submitted by &#32; /u/icecream1972 &#32; to &#32; r/askanything [link] &#32; [comments]\nA lot of people do not respect them, or education in general.. because teaching is a \"passion career.\" the idea is you can abuse them as much as you want, and they'll st\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Teachers are a respected profession. They often have to get advanced degrees. Wh…",
+          "title": "Teachers are a respected profession. They often have to get advanced degrees. Wh\u2026",
           "url": "https://www.reddit.com/r/askanything/comments/1v9jkrs/teachers_are_a_respected_profession_they_often/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -884,7 +884,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Middle school teacher dealing with unconsentual sexual AI deepfakes of her\nAngel…",
+          "title": "Middle school teacher dealing with unconsentual sexual AI deepfakes of her\nAngel\u2026",
           "url": "https://www.reddit.com/r/antiai/comments/1vlsb9v/middle_school_teacher_dealing_with_unconsentual/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -899,13 +899,13 @@
     },
     {
       "id": "l545",
-      "text": "NY school pauses $60K AI robot teacher over privacy fears, maker’s sex doll ties\n&#32; submitted by &#32; /u/TheFrederalGovt &#32; to &#32; r/nottheonion [link] &#32; [comments]",
+      "text": "NY school pauses $60K AI robot teacher over privacy fears, maker\u2019s sex doll ties\n&#32; submitted by &#32; /u/TheFrederalGovt &#32; to &#32; r/nottheonion [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "NY school pauses $60K AI robot teacher over privacy fears, maker’s sex doll ties…",
+          "title": "NY school pauses $60K AI robot teacher over privacy fears, maker\u2019s sex doll ties\u2026",
           "url": "https://www.reddit.com/r/nottheonion/comments/1vamcug/ny_school_pauses_60k_ai_robot_teacher_over/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -926,7 +926,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "New York school pauses plan to deploy humanlike AI robot teacher after backlash\n…",
+          "title": "New York school pauses plan to deploy humanlike AI robot teacher after backlash\n\u2026",
           "url": "https://www.reddit.com/r/news/comments/1v9h67e/new_york_school_pauses_plan_to_deploy_humanlike/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -941,13 +941,13 @@
     },
     {
       "id": "l547",
-      "text": "AI in the classroom prompts tide of concern from US parents and experts | Eric Berger, The Guardian\n\nIn October, Kelly Clancy’s son received an assignment in sixth grade at a middle school in Brooklyn, New York, to create a science experiment and then ask Google Gemini, an artificial intelligence chatbot, for feedback, she said.\n\nClancy, who has three children in New York City public schools, told the teacher that the bot “is something that just teaches kids that they can have machines do the th",
+      "text": "AI in the classroom prompts tide of concern from US parents and experts | Eric Berger, The Guardian\n\nIn October, Kelly Clancy\u2019s son received an assignment in sixth grade at a middle school in Brooklyn, New York, to create a science experiment and then ask Google Gemini, an artificial intelligence chatbot, for feedback, she said.\n\nClancy, who has three children in New York City public schools, told the teacher that the bot \u201cis something that just teaches kids that they can have machines do the th",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI in the classroom prompts tide of concern from US parents and experts | Eric B…",
+          "title": "AI in the classroom prompts tide of concern from US parents and experts | Eric B\u2026",
           "url": "https://x.com/OwenGregorian/status/2069752200184615217",
           "date": "2026-06-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,7 +968,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "My thoughts on the current state of AI, where we might be heading, and where we …",
+          "title": "My thoughts on the current state of AI, where we might be heading, and where we \u2026",
           "url": "https://x.com/thomasLe_e/status/2089332614364586137",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1004,13 +1004,13 @@
     },
     {
       "id": "l550",
-      "text": "267. The Conduit Metaphor & EdTech\n# Links for the Curious\n\nLLMs are the latest in a long line of technologies that promise to upend traditional educational institutions by replacing the primary (expensive) \"conduit\" of knowledge: skilled teachers. But is that framework missing something important?\n\nGrimaldi, P. J., Basu Mallick, D., Waters, A. E. & Baraniuk, R. G. Do open educational resources improve student learning? Implications of the access hypothesis. PLoS ONE 14, e0212508 (2019).\nTlili, …",
+      "text": "267. The Conduit Metaphor & EdTech\n# Links for the Curious\n\nLLMs are the latest in a long line of technologies that promise to upend traditional educational institutions by replacing the primary (expensive) \"conduit\" of knowledge: skilled teachers. But is that framework missing something important?\n\nGrimaldi, P. J., Basu Mallick, D., Waters, A. E. & Baraniuk, R. G. Do open educational resources improve student learning? Implications of the access hypothesis.\u00a0PLoS ONE 14, e0212508 (2019).\nTlili, \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "267. The Conduit Metaphor & EdTech\n# Links for the Curious\n\nLLMs are the latest …",
+          "title": "267. The Conduit Metaphor & EdTech\n# Links for the Curious\n\nLLMs are the latest \u2026",
           "url": "https://www.youtube.com/watch?v=kdPMkLp_LWM",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1025,7 +1025,7 @@
     },
     {
       "id": "l451",
-      "text": "Teacher - Primary — Department of Education, Western Australia (Greater Perth Area). Posted 5 days ago.",
+      "text": "Teacher - Primary \u2014 Department of Education, Western Australia (Greater Perth Area). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1046,7 +1046,7 @@
     },
     {
       "id": "l452",
-      "text": "Teacher - Generalist — Department of Education, Western Australia (Esperance, Western Australia, Australia). Posted 1 day ago.",
+      "text": "Teacher - Generalist \u2014 Department of Education, Western Australia (Esperance, Western Australia, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1067,13 +1067,13 @@
     },
     {
       "id": "l453",
-      "text": "Primary School Teacher – Find your purpose, your community, your Territory — Department of Education and Training (Northern Territory, Australia). Posted 2 weeks ago.",
+      "text": "Primary School Teacher \u2013 Find your purpose, your community, your Territory \u2014 Department of Education and Training (Northern Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "Department of Education and Training",
-          "title": "Primary School Teacher – Find your purpose, your community, your Territory",
+          "title": "Primary School Teacher \u2013 Find your purpose, your community, your Territory",
           "url": "https://www.linkedin.com/jobs/view/4449339172",
           "date": "2 weeks ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -1088,13 +1088,13 @@
     },
     {
       "id": "l454",
-      "text": "Primary School Teacher – Find your purpose, your community, your Territory — Department of Education and Training (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
+      "text": "Primary School Teacher \u2013 Find your purpose, your community, your Territory \u2014 Department of Education and Training (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "Department of Education and Training",
-          "title": "Primary School Teacher – Find your purpose, your community, your Territory",
+          "title": "Primary School Teacher \u2013 Find your purpose, your community, your Territory",
           "url": "https://www.linkedin.com/jobs/view/4449324939",
           "date": "2 weeks ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -1109,7 +1109,7 @@
     },
     {
       "id": "l455",
-      "text": "Classroom Teacher — Department of Education (Victoria, Australia). Posted 1 day ago.",
+      "text": "Classroom Teacher \u2014 Department of Education (Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1130,7 +1130,7 @@
     },
     {
       "id": "l456",
-      "text": "EXPRESSIONS OF INTEREST - TEACHERS — Townsville Grammar School (Townsville, Queensland, Australia). Posted 1 month ago.",
+      "text": "EXPRESSIONS OF INTEREST - TEACHERS \u2014 Townsville Grammar School (Townsville, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1151,7 +1151,7 @@
     },
     {
       "id": "l457",
-      "text": "Teacher — Woodline Primary (Torquay, Victoria, Australia). Posted 1 day ago.",
+      "text": "Teacher \u2014 Woodline Primary (Torquay, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1172,7 +1172,7 @@
     },
     {
       "id": "l458",
-      "text": "Primary Teacher — Hume Anglican Grammar (Craigieburn, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Primary Teacher \u2014 Hume Anglican Grammar (Craigieburn, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1193,7 +1193,7 @@
     },
     {
       "id": "l459",
-      "text": "Catholic School Teachers 2027 — Catholic Education Western Australia (Kununurra, Western Australia, Australia). Posted 3 weeks ago.",
+      "text": "Catholic School Teachers 2027 \u2014 Catholic Education Western Australia (Kununurra, Western Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1214,7 +1214,7 @@
     },
     {
       "id": "l460",
-      "text": "FY27: Teacher, Special Education (Learning Center Grades 4/5), Rock View ES, 1.0 FTE — Montgomery County Public Schools (Kensington, Victoria, Australia). Posted 5 days ago.",
+      "text": "FY27: Teacher, Special Education (Learning Center Grades 4/5), Rock View ES, 1.0 FTE \u2014 Montgomery County Public Schools (Kensington, Victoria, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1235,13 +1235,13 @@
     },
     {
       "id": "l561",
-      "text": "General Discussion Issue 3\nSince the last one disappeared when @PPPDUD got banned, I'm making a new one.\n\nAnyways, it is school holidays for me now! Yay!\nHey there! I'm Boxy, the new automated assistant here for OmniBlocks. Think of me as the friendly, hopefully much smarter replacement for that old bot, CodeRabbit.\n\nIt sounds like you're having a good start to your school holidays—congrats! Since this is a general discussion thread, I've gone ahead ... @OmniBlocks/boxy Please scour the codebase…",
+      "text": "General Discussion Issue 3\nSince the last one disappeared when @PPPDUD got banned, I'm making a new one.\n\nAnyways, it is school holidays for me now! Yay!\nHey there! I'm Boxy, the new automated assistant here for OmniBlocks. Think of me as the friendly, hopefully much smarter replacement for that old bot, CodeRabbit.\n\nIt sounds like you're having a good start to your school holidays\u2014congrats! Since this is a general discussion thread, I've gone ahead ... @OmniBlocks/boxy Please scour the codebase\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "General Discussion Issue 3\nSince the last one disappeared when @PPPDUD got banne…",
+          "title": "General Discussion Issue 3\nSince the last one disappeared when @PPPDUD got banne\u2026",
           "url": "https://github.com/OmniBlocks/monorepo/issues/552",
           "date": "2026-07-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1256,13 +1256,13 @@
     },
     {
       "id": "l562",
-      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
+      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
+          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1277,13 +1277,13 @@
     },
     {
       "id": "l563",
-      "text": "ai usage in elementary schools is becoming dystopian.\nedit: i’m from canada for those who are wondering. it is not any better here than in the us. i’m 21 and i work at an elementary school. as of right now, chatgpt is running the school. the principal pulled me aside to tell me i had a course i needed to take for my new position, but that chatgpt could help me. my vice principal pretty much only speaks to chatgpt and is very well on the road to ai psychosis. she uses it for everything. she genui…",
+      "text": "ai usage in elementary schools is becoming dystopian.\nedit: i\u2019m from canada for those who are wondering. it is not any better here than in the us. i\u2019m 21 and i work at an elementary school. as of right now, chatgpt is running the school. the principal pulled me aside to tell me i had a course i needed to take for my new position, but that chatgpt could help me. my vice principal pretty much only speaks to chatgpt and is very well on the road to ai psychosis. she uses it for everything. she genui\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "ai usage in elementary schools is becoming dystopian.\nedit: i’m from canada for …",
+          "title": "ai usage in elementary schools is becoming dystopian.\nedit: i\u2019m from canada for \u2026",
           "url": "https://www.reddit.com/r/antiai/comments/1w0h2eu/ai_usage_in_elementary_schools_is_becoming/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1298,13 +1298,13 @@
     },
     {
       "id": "l564",
-      "text": "Teachers are a respected profession. They often have to get advanced degrees. Why do they get paid so little in the elementary through high school age group, when they are building the foundation of knowledge that children need in life?\n&#32; submitted by &#32; /u/icecream1972 &#32; to &#32; r/askanything [link] &#32; [comments]\nA lot of people do not respect them, or education in general.. because teaching is a \"passion career.\" the idea is you can abuse them as much as you want, and they'll st…",
+      "text": "Teachers are a respected profession. They often have to get advanced degrees. Why do they get paid so little in the elementary through high school age group, when they are building the foundation of knowledge that children need in life?\n&#32; submitted by &#32; /u/icecream1972 &#32; to &#32; r/askanything [link] &#32; [comments]\nA lot of people do not respect them, or education in general.. because teaching is a \"passion career.\" the idea is you can abuse them as much as you want, and they'll st\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Teachers are a respected profession. They often have to get advanced degrees. Wh…",
+          "title": "Teachers are a respected profession. They often have to get advanced degrees. Wh\u2026",
           "url": "https://www.reddit.com/r/askanything/comments/1v9jkrs/teachers_are_a_respected_profession_they_often/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1319,16 +1319,247 @@
     },
     {
       "id": "l565",
-      "text": "267. The Conduit Metaphor & EdTech\n# Links for the Curious\n\nLLMs are the latest in a long line of technologies that promise to upend traditional educational institutions by replacing the primary (expensive) \"conduit\" of knowledge: skilled teachers. But is that framework missing something important?\n\nGrimaldi, P. J., Basu Mallick, D., Waters, A. E. & Baraniuk, R. G. Do open educational resources improve student learning? Implications of the access hypothesis. PLoS ONE 14, e0212508 (2019).\nTlili, …",
+      "text": "267. The Conduit Metaphor & EdTech\n# Links for the Curious\n\nLLMs are the latest in a long line of technologies that promise to upend traditional educational institutions by replacing the primary (expensive) \"conduit\" of knowledge: skilled teachers. But is that framework missing something important?\n\nGrimaldi, P. J., Basu Mallick, D., Waters, A. E. & Baraniuk, R. G. Do open educational resources improve student learning? Implications of the access hypothesis.\u00a0PLoS ONE 14, e0212508 (2019).\nTlili, \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "267. The Conduit Metaphor & EdTech\n# Links for the Curious\n\nLLMs are the latest …",
+          "title": "267. The Conduit Metaphor & EdTech\n# Links for the Curious\n\nLLMs are the latest \u2026",
           "url": "https://www.youtube.com/watch?v=kdPMkLp_LWM",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "25-2021-L1-01",
+      "text": "In Australia, entry to the teaching profession is regulated nationally through AITSL's Accreditation of initial teacher education programs in Australia: Standards and Procedures (2025), under which every initial teacher education program must be accredited so its graduates meet the Australian Professional Standards for Teachers at the Graduate career stage. State and territory teacher registration authorities (for example VIT in Victoria and NESA in NSW) then register teachers to practise under their respective Education Acts, so Elementary School Teachers, Except Special Education requires an accredited teaching qualification and registration to lawfully teach in an Australian school.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Institute for Teaching and School Leadership (AITSL)",
+          "title": "Accreditation of initial teacher education programs in Australia: Standards and Procedures (2025)",
+          "url": "https://aitsl.edu.au/tools-resources/resource/accreditation-of-initial-teacher-education-programs-in-australia---standards-and-procedures",
+          "date": "2025",
+          "whatItMeasured": "AITSL Accreditation Standards and Procedures (2025) set the national ITE accreditation requirements; graduates must meet the Australian Professional Standards for Teachers."
+        }
+      ],
+      "scope": "Australian school teachers (all states/territories); binds who may lawfully teach. Does not cover unregistered paraprofessionals or out-of-school tutoring.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "AITSL (national teacher regulator/standards body) primary; population = AU teachers; in force 2025."
+    },
+    {
+      "id": "25-2021-L2-01",
+      "text": "DFVA's v31 occupation crosswalk assigns Elementary School Teachers, Except Special Education an AI exposure index of 84.74/100 (Felten-AIOE task-exposure framework, rescaled 0-100, the same lineage as the JSA Gen AI Capacity Study). Among the four school-teacher levels, preschool teaching carries the lowest exposure (64.33) and middle-school teaching the highest (94.25), reflecting differences in task composition (planning, marking, admin, feedback) rather than a forecast of employment change.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/occupation-data-on-ai-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "DFVA v31_extension_crosswalk.csv ai_exposure_index for 25-2021 = 84.74/100 (Felten-AIOE Appendix A, rescaled 0-100); methodology per JSA Gen AI Capacity Study."
+        }
+      ],
+      "scope": "Australian occupation task-exposure score (0-100); model-derived, not an employment-change forecast.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "DFVA crosswalk (project data) + JSA primary; population = AU school teachers; 2025-08."
+    },
+    {
+      "id": "25-2021-L2-02",
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study (August 2025) scores 358 ANZSCO occupations on augmentation and automation exposure using a task-level ILO/Felten framework. It finds most Australian workers face low automation risk, but education-professional occupations cluster toward the higher-exposure end because their core tasks (lesson planning, resource creation, feedback, assessment drafting) are language- and knowledge-intensive and readily supported by generative AI.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/occupation-data-on-ai-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study, task-level ANZSCO v1.3 exposure (augmentation/automation), 358 occupations, Aug 2025."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level estimates, not employment forecasts.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Primary Australian government source; population = AU occupations; published Aug 2025."
+    },
+    {
+      "id": "25-2021-L3-01",
+      "text": "The Australian Framework for Generative AI in Schools (endorsed by Education Ministers; June 2025 review) sets six principles - teaching and learning, human and social wellbeing, transparency, fairness, accountability, and privacy/security/safety - to guide responsible gen-AI use by teachers, students and school leaders. It is national policy implemented through state and system binding rules rather than legislation, and directly shapes what teachers are permitted and expected to do with AI in classrooms.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Australian Government Department of Education",
+          "title": "Australian Framework for Generative Artificial Intelligence (AI) in Schools",
+          "url": "https://education.gov.au/schooling/resources/australian-framework-generative-artificial-intelligence-ai-schools",
+          "date": "2025-06",
+          "whatItMeasured": "Australian Framework for Generative AI in Schools; June 2025 ministerial endorsement of the 2024 framework review; six principles + 25 guiding statements."
+        }
+      ],
+      "scope": "Australian school education nationally; policy framework, not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Dept of Education publication; population = AU schools; 2025-06."
+    },
+    {
+      "id": "25-2021-L3-02",
+      "text": "In August 2026, state education departments moved to curb student AI cheating in ways that reshape teacher assessment design: NSW proposed banning unsupervised take-home assignments for Years 11-12 (prompted by more than 1,000 recorded cheating cases in 2025) and NESA's 2024 AI-in-schools policy treats unapproved AI use as an academic-integrity breach, while Victoria will impose primary-school screen-time caps from Term 1 2027. Teachers must therefore collect evidence of learning through oral, performance and in-person modes less exposed to AI misuse.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ABC News",
+          "title": "How education departments across the country are cracking down on students using AI to cheat",
+          "url": "https://abc.net.au/news/2026-08-25/how-education-departments-across-country-are-cracking-down-on-ai/107026976",
+          "date": "2026-08-25",
+          "whatItMeasured": "ABC News reporting on state AI-cheating responses: NSW HSC overhaul, NESA 2024 AI policy, Victoria 2027 screen-time caps; dated 2026-08-25."
+        }
+      ],
+      "scope": "Australian state school systems; reporting, not a primary study. NSW/VIC specific examples.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "ABC News (attributable reporting); population = AU state schools; 2026-08-25."
+    },
+    {
+      "id": "25-2021-L3-03",
+      "text": "Responsible AI Australia's 2026 education brief notes the national gen-AI schools framework is implemented by states through binding policies, and that schools must run privacy due diligence before procuring AI tools (data storage, model training on inputs, third-party sharing), prohibit entering student or staff personal information into public gen-AI tools, and keep humans in the loop on judgements such as student-achievement marking and report writing. These constraints define the boundaries of AI adoption a teacher can undertake.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Responsible AI Australia",
+          "title": "AI Regulation in Australian Education (2026): Schools, Universities, Rules and Updates",
+          "url": "https://responsibleaiaustralia.com.au/industries/education",
+          "date": "2026",
+          "whatItMeasured": "Responsible AI Australia education page: national framework, state implementation, edtech procurement and use rules; 2026."
+        }
+      ],
+      "scope": "Australian school education; practitioner/policy brief, not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Responsible AI Australia (industry body); population = AU schools; 2026."
+    },
+    {
+      "id": "l570",
+      "text": "General Discussion Issue 3\nSince the last one disappeared when @PPPDUD got banned, I'm making a new one.\n\nAnyways, it is school holidays for me now! Yay!\nHey there! I'm Boxy, the new automated assistant here for OmniBlocks. Think of me as the friendly, hopefully much smarter replacement for that old bot, CodeRabbit.\n\nIt sounds like you're having a good start to your school holidays\u2014congrats! Since this is a general discussion thread, I've gone ahead ... @OmniBlocks/boxy Please scour the codebase\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "General Discussion Issue 3\nSince the last one disappeared when @PPPDUD got banne\u2026",
+          "url": "https://github.com/OmniBlocks/monorepo/issues/552",
+          "date": "2026-07-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "ai usage in elementary schools is becoming dystopian.\nedit: i\u2019m from canada for those who are wondering. it is not any better here than in the us. i\u2019m 21 and i work at an elementary school. as of right now, chatgpt is running the school. the principal pulled me aside to tell me i had a course i needed to take for my new position, but that chatgpt could help me. my vice principal pretty much only speaks to chatgpt and is very well on the road to ai psychosis. she uses it for everything. she genui\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "ai usage in elementary schools is becoming dystopian.\nedit: i\u2019m from canada for \u2026",
+          "url": "https://www.reddit.com/r/antiai/comments/1w0h2eu/ai_usage_in_elementary_schools_is_becoming/",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "Teachers are a respected profession. They often have to get advanced degrees. Why do they get paid so little in the elementary through high school age group, when they are building the foundation of knowledge that children need in life?\n&#32; submitted by &#32; /u/icecream1972 &#32; to &#32; r/askanything [link] &#32; [comments]\nA lot of people do not respect them, or education in general.. because teaching is a \"passion career.\" the idea is you can abuse them as much as you want, and they'll st\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Teachers are a respected profession. They often have to get advanced degrees. Wh\u2026",
+          "url": "https://www.reddit.com/r/askanything/comments/1v9jkrs/teachers_are_a_respected_profession_they_often/",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "267. The Conduit Metaphor & EdTech\n# Links for the Curious\n\nLLMs are the latest in a long line of technologies that promise to upend traditional educational institutions by replacing the primary (expensive) \"conduit\" of knowledge: skilled teachers. But is that framework missing something important?\n\nGrimaldi, P. J., Basu Mallick, D., Waters, A. E. & Baraniuk, R. G. Do open educational resources improve student learning? Implications of the access hypothesis.\u00a0PLoS ONE 14, e0212508 (2019).\nTlili, \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "267. The Conduit Metaphor & EdTech\n# Links for the Curious\n\nLLMs are the latest \u2026",
+          "url": "https://www.youtube.com/watch?v=kdPMkLp_LWM",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1366,7 +1597,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens SSO session expired; re-run factiva_reauth.py then factiva_backfill.py. L3 covered this pass via web trade-press (Framework, ABC, Responsible AI Australia) instead.",
+        "date": "2026-08-30"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1412,9 +1651,24 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 5,
+        "sources": {
+          "github": 14,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 6,
+          "x": 3,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L1/L2/L3 added 2026-08-30 (autoloop): AITSL registration/accreditation, JSA/Felten exposure index 84.74, AI-in-schools trade press. Factiva L3 gap logged (auth_expired)."
+  ]
 }
