@@ -2199,7 +2199,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "not_run_unattended",
+        "detail": "Factiva requires interactive UoM SSO; unavailable in cron. L3 sourced from open-web trade press / professional-body publications instead (per degrade rule).",
+        "date": "2026-08-30"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
