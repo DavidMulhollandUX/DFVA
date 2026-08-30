@@ -1,40 +1,30 @@
-# Evidence log: Bookkeeping, Accounting, and Auditing Clerks (43-3031)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log - Bookkeeping, Accounting, and Auditing Clerks (43-3031)
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-31. Research method: empirical-five-lane-v1 (L1-L5).
+ANZSCO: 551111. Confidence: high.
 
-## Lane sources (one short quote per source)
+## L1 - Regulatory / standards
+- TPB Code of Professional Conduct (TASA 2009 Div 30): Code of Professional Conduct (Code) contained in Division 30 of the Tax Agent Services Act 2009 (TASA)  [tpb.gov.au/tpb-gs-01-2010-code-professional-conduct]
+- Privacy Act 1988 / Fair Work Act 2009: The Privacy Act regulates the handling of personal information by both public and private sector entities in Australia  [jacmac.com.au/insights/accessing-employment-records]
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Bookkeeping, Accounting, and Auditing Clerks] Professional Practice Framework and Digital Competency Guidelines for Bookkeeping, Accounting, and Auditing Clerks — https://www.psc.gov.au/standards/43-3031 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Bookkeeping, Accounting, and Auditing Clerks enforce non-delegable ethical accountability a..."
+## L2 - Scholarly / institutional
+- JSA Gen AI Capacity Study 2025: routine clerical roles, including general clerks, receptionists, accounting clerks, and bookkeepers, as the most automatable  [jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study]
+- ACS reports JSA: data entry, record-keeping, accounting, and communications are among the most vulnerable to potential automation by generative artificial intelligence in Australia  [ia.acs.org.au]
+- scty.org 2025 evidence: 5,172 customer support agents with staggered access to a GPT-3-based assistant. Average productivity up 15%. Lower-skill agents up 30%  [scty.org/words/ai-work-2025]
+- Nature 2025 non-clinician AI: 98% originated from non-clinician users across 239 roles. Usage was dominated by administrative tasks including email and document writing (53.9%)  [nature.com/articles/s44401-025-00063-y]
+- Felten-AIOE (DFVA crosswalk): ANZSCO 551111 (Bookkeeper) at 88.4 - placing bookkeeping clerks in the high-exposure clerical cluster.
 
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Bookkeeping, Accounting, and Auditing Clerks — https://www.jobsandskills.gov.au/research/43-3031 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Bookkeeping, Accounting, and Auditing Clerks heightens the demand for adaptive problem solving, inte..."
+## L3 - Trade press (Factiva expired; web trade press used)
+- Business Insider 2025-08: the biggest job declines by 2050 for general clerks, receptionists, accounting clerks and bookkeepers  [businessinsider.com]
+- Nucamp 2025: bookkeepers ~40% task impact  [nucamp.co]
 
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
+## L4 - Demand-side job ads
+- Adzuna AU live all-time index folded into jobAds.adzuna (see ledger).
+- LinkedIn postings folded as L4 claims (source: linkedin (unofficial scrape)).
 
-### L5 Practitioner discourse (65 claims)
-- last30days declared sample: 65 items across github=12, grounding=0, hackernews=24, reddit=4, x=14, youtube=3.
-- Representative practitioner quotes:
-  - [github] feat: add Responses API provider support
-## Summary
+## L5 - Practitioner discourse (last30days)
+- last30days sweep (reddit/x/youtube/hn/github/grounding) folded as L5 claims; see corpus.l5Sample.
 
-- adds a native `responses` provider protocol targeting `/responses...
-  - [github] feat(skills): unify keep-or-dismiss and severity into one five-way triage verdict
-## What
-
-Replaces the two-judgment rev...
-  - [github] Enforce a single asset category per Strategy Lab design attempt
-## Summary
-
-Selecting only **Stocks** in the Strategy La...
-  - [github] Topic 19: CPU frontend bottlenecks
-## Summary
-
-- Adds Topic 19's compact mental model and a checked Rust cycle-accountin...
-  - [github] fix(connectors): count hard-kill failures and cap deletion blast radius
-Two coupled fixes from a pipeline audit. Both ad...
+## Coverage gaps
+- Factiva L3 trade-press lane unavailable this run: OpenAthens session expired 2026-08-26. Logged to factiva_backlog.json.
+- L1 for 43-4051/43-6011/43-9061 is regime-general (Privacy/Fair Work); no occupation-specific licensing body.

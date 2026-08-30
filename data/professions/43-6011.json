@@ -8,13 +8,13 @@
     "Music Label Assistant",
     "Student Administration Officer"
   ],
-  "anzsco": "220000",
+  "anzsco": "521211",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-31",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-03-03",
   "programs": [
     "038ab",
     "mc-ir"
@@ -1258,6 +1258,321 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l460",
+      "text": "Senior Executive Support Officer — Bureau of Meteorology (Adelaide, South Australia, Australia). Posted 2 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bureau of Meteorology",
+          "title": "Senior Executive Support Officer",
+          "url": "https://www.linkedin.com/jobs/view/4461019266",
+          "date": "2 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l461",
+      "text": "Executive Assistant — Department of Children and Families (Darwin, Northern Territory, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Children and Families",
+          "title": "Executive Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4458021527",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "Senior Executive Support Officer — Bureau of Meteorology (Hobart, Tasmania, Australia). Posted 2 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bureau of Meteorology",
+          "title": "Senior Executive Support Officer",
+          "url": "https://www.linkedin.com/jobs/view/4461027213",
+          "date": "2 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l463",
+      "text": "Executive Support Officer (523607) — Department of Health, Tasmania (Hobart, Tasmania, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Health, Tasmania",
+          "title": "Executive Support Officer (523607)",
+          "url": "https://www.linkedin.com/jobs/view/4457707635",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "43-6011-L1-01",
+      "text": "Executive secretaries and administrative assistants handle personal and commercial information; the Privacy Act 1988 APPs bind their APP-entity employers and the Fair Work Act 2009 requires seven-year employee-record retention. No occupation-specific licensing regime governs the role.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Jacmac Law",
+          "title": "Accessing employment records: Privacy Act and Fair Work Act intersection",
+          "url": "https://jacmac.com.au/insights/accessing-employment-records",
+          "date": "2025",
+          "whatItMeasured": "Explains Privacy Act 1988 (Cth) APPs apply to personal information handled by APP entities; employee-records exemption for direct employment handling."
+        }
+      ],
+      "scope": "Applies via employer; employee-records exemption; no specific regulator for the occupation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Jacmac/AWNA real statutes; population = AU employers; current. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-6011-L2-01",
+      "text": "JSA's 2025 Gen AI Capacity Study places secretarial and administrative roles among the most automatable Australian occupations, with augmentation outweighing automation overall.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Gen AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08",
+          "whatItMeasured": "JSA economy-wide CGE modelling of GenAI automation/augmentation exposure across 358+ AU occupations to 2050."
+        }
+      ],
+      "scope": "AU economy-wide modelling; covers ANZSCO 521211/542211 within clerical cluster.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "JSA gov study real; population = AU; 2025. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-6011-L2-02",
+      "text": "2025 evidence names secretarial/administrative work as a clear automation-exposed group; augmentation concentrated in mixed-judgement roles.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "scty.org",
+          "title": "AI at Work: The 2025 Evidence",
+          "url": "https://scty.org/words/ai-work-2025",
+          "date": "2025-12",
+          "whatItMeasured": "Synthesises 7 major 2025 studies (ILO, WEF, Anthropic, OpenAI, academic); Brynjolfsson RCT n=5,172 CS agents +15% (lower-skill +30%); clerical/secretarial the clear automation 'loser'."
+        }
+      ],
+      "scope": "Synthesis; secretarial specifically flagged as automation 'loser'.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "scty.org synthesis real studies; population = global; in window. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-6011-L2-03",
+      "text": "Nature (2025) 30,503-thread study: 98% non-clinician use, admin tasks (email/document writing) 53.9% - direct empirical match to secretarial/administrative work.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Nature (Scientific Reports)",
+          "title": "Uses of generative AI by non-clinician staff at an academic medical centre",
+          "url": "https://preview-www.nature.com/articles/s44401-025-00063-y",
+          "date": "2025",
+          "whatItMeasured": "30,503 LLM chat threads; 98% non-clinician (239 roles); admin tasks (email/document writing) 53.9% of usage."
+        }
+      ],
+      "scope": "Single US site; non-clinician cohort includes admin assistants.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Nature peer-reviewed 2025; population = US; in window. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-6011-L3-01",
+      "text": "ACS reports JSA found communications and record-keeping among the most automation-vulnerable AU occupations - covering administrative/secretarial work.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ACS (Australasian Computer Society)",
+          "title": "Aussie jobs most vulnerable to AI outlined in govt study",
+          "url": "https://ia.acs.org.au/article/2025/aussie-jobs-most-vulnerable-to-ai-outlined-in-govt-study.html",
+          "date": "2025",
+          "whatItMeasured": "Reports JSA finding that data entry, record-keeping, accounting and communications are among most automation-vulnerable AU occupations."
+        }
+      ],
+      "scope": "Trade-press report of JSA; attributable.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "ACS real; reports JSA; AU; 2025. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-6011-L3-02",
+      "text": "Vendor analysis estimates correspondence secretaries at 71% AI exposure in 2025 (rising to 83% by 2028), with scheduling at 72% automation and filing at 65%.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "aichanging.work",
+          "title": "Will AI Replace Correspondence Secretaries?",
+          "url": "https://aichanging.work/en/blog/will-ai-replace-correspondence-secretaries",
+          "date": "2025",
+          "whatItMeasured": "Vendor estimate: correspondence secretaries 71% exposure 2025 (83% by 2028); scheduling 72% automation, filing 65%."
+        }
+      ],
+      "scope": "Vendor projection, not measured; single-source estimate.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "aichanging.work real; vendor estimate; population = secretaries; 2025. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "l571",
+      "text": "PR-CAREER-KG-10: content(career): add secretaries and administrative assistants KG asset package\n## What changed\n- Added the PR-CAREER-KG-10 dry-run zh-CN career KG asset package for Secretaries and Administrative Assistants, Except Legal, Medical, and Executive.\n- Added QA, dry-run importer, staging preview smoke, fap-web render smoke, and SHA manifest evidence under generated/career-kg-pr-10-\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "PR-CAREER-KG-10: content(career): add secretaries and administrative assistants …",
+          "url": "https://github.com/fermatmind/fap-web/pull/1540",
+          "date": "2026-07-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "BREAKING: President Trump Signs Executive Order Splitting Childhood Vaccine Schedule Into Tiers And Breaking Up MMR Shot While Repeatedly Invoking Unproven Autism Link, As NIH Director Bhattacharya, GOP Senator Cassidy, And Pediatricians Nationwide Push Back 🏛️🦠\nPresident Trump signed an executive order Monday recommending sweeping changes to childhood vaccine guidance, splitting shots into tiers where some vaccines would only be recommended for high-risk children, such as those against RSV and …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "BREAKING: President Trump Signs Executive Order Splitting Childhood Vaccine Sche…",
+          "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1vl22cs/breaking_president_trump_signs_executive_order/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "I Replaced My $80k Assistant with 3 AI Agents\nI replaced my $80k executive assistant with three AI agents — and the results were shocking. What once required a full-time salary, benefits, and office space is now handled by software that costs less than a streaming subscription.\n\nThis isn't a theoretical experiment. We follow a real business owner who made the switch and document every detail: the onboarding, the failures, the breakthroughs, and the uncomfortable truth about what happened next. A…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "I Replaced My $80k Assistant with 3 AI Agents\nI replaced my $80k executive assis…",
+          "url": "https://www.youtube.com/watch?v=ET7W0xuQBdU",
+          "date": "2026-04-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "Full Claude Cowork Tutorial: The AI That Replaces Your Assistant\n*🖥️ Free Claude Cowork Stack:* https://clickhubspot.com/72f269\n\nMore from Futurepedia:\n👉 Join the fastest-growing AI education platform! Try it free and explore 20+ top-rated courses in AI: https://bit.ly/futurepediaSL\n\nSummary:\nClaude Cowork is one of the biggest updates in AI for a long time, it actually feels like a real coworker you can delegate to. It’s an AI agent that lives on your computer. It can plan and execute multi-ste…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Full Claude Cowork Tutorial: The AI That Replaces Your Assistant\n*🖥️ Free Claude…",
+          "url": "https://www.youtube.com/watch?v=7e3JovO8ngI",
+          "date": "2026-03-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "KILL THE INBOX NIGHTMARE: The 24/7 AI Executive Assistant Demo.\nScaling a business requires a gatekeeper, not a faster typist. Most founders waste 15+ hours weekly on admin because they lack a system to filter the noise. Eva is a high-level AI EA engineered to mirror your authority and handle the front lines so you only see what requires a CEO-level decision.\n\nThe Tactical Breakdown\n📈 The Authority Feed: How to train Eva on your brand’s \"soul\" so she thinks like you.\n📈 Single-Prompt Automation: …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "KILL THE INBOX NIGHTMARE: The 24/7 AI Executive Assistant Demo.\nScaling a busine…",
+          "url": "https://www.youtube.com/watch?v=Tn6U_1GD0R8",
+          "date": "2026-03-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1276,7 +1591,28 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "administrative assistant",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+      "count": 4601,
+      "returned": 50,
+      "topEmployers": [
+        "Frontline HR",
+        "Shine Lawyers",
+        "Sharp & Carter",
+        "Total Tools",
+        "Best and Less",
+        "MP Recruitment",
+        "TP Human Capital",
+        "Cootharinga North Queensland"
+      ],
+      "topSkills": [
+        "administration",
+        "scheduling"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1286,8 +1622,24 @@
         "items": 45
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "query": "Executive Secretaries and Administrative Assistants AI disruption",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired (cookies 2026-08-26); re-run factiva_reauth.py",
+        "date": "2026-08-31"
+      },
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "status": "unreachable",
+        "detail": "Keyless web search unavailable in this environment",
+        "date": "2026-08-31"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1299,6 +1651,15 @@
       },
       {
         "date": "2026-08-29",
+        "soc": "43-6011",
+        "query": "Executive Secretaries and Administrative Assistants",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
         "soc": "43-6011",
         "query": "Executive Secretaries and Administrative Assistants",
         "location": "Australia",
@@ -1333,9 +1694,27 @@
           "youtube": 3
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 5,
+        "sources": {
+          "github": 2,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 1,
+          "x": 14,
+          "youtube": 3
+        },
+        "status": "sampled"
       }
     ]
   },
-  "confidence": "high",
-  "caveats": []
+  "confidence": "medium",
+  "caveats": [
+    "L1 is regime-general (Privacy Act / Fair Work); no occupation-specific licensing body.",
+    "Factiva unavailable (auth expired); L3 led by web trade press + vendor estimates + one small (n=10) study.",
+    "Gaia secretary study is very small (n=10/arm); treat as augmentation evidence only."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -5,13 +5,13 @@
     "General Clerk",
     "General Clerks nfd"
   ],
-  "anzsco": "220000",
+  "anzsco": "531111",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-31",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-03-03",
   "programs": [],
   "claims": [
     {
@@ -2491,6 +2491,468 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l4119",
+      "text": "Visits Processing Officer — Queensland Corrective Services (Townsville, Queensland, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Corrective Services",
+          "title": "Visits Processing Officer",
+          "url": "https://www.linkedin.com/jobs/view/4458361746",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4120",
+      "text": "Armed Forces Post Office (APO) Clerk — Amentum (Alice Springs, Northern Territory, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Amentum",
+          "title": "Armed Forces Post Office (APO) Clerk",
+          "url": "https://www.linkedin.com/jobs/view/4460170891",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4121",
+      "text": "Library Officer — Department of Education, Western Australia (Greater Perth Area). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education, Western Australia",
+          "title": "Library Officer",
+          "url": "https://www.linkedin.com/jobs/view/4452973777",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "43-9061-L1-01",
+      "text": "Office clerks handle personal and commercial information; the Privacy Act 1988 APPs bind their APP-entity employers and the Fair Work Act 2009 requires seven-year employee-record retention. No occupation-specific licensing regime governs general office clerks.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Jacmac Law",
+          "title": "Accessing employment records: Privacy Act and Fair Work Act intersection",
+          "url": "https://jacmac.com.au/insights/accessing-employment-records",
+          "date": "2025",
+          "whatItMeasured": "Explains Privacy Act 1988 (Cth) APPs apply to personal information handled by APP entities; employee-records exemption for direct employment handling."
+        }
+      ],
+      "scope": "Applies via employer; employee-records exemption; no specific regulator for the occupation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Jacmac/AWNA real statutes; population = AU employers; current. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-9061-L2-01",
+      "text": "JSA's 2025 Gen AI Capacity Study names general clerks among the most automatable Australian occupations and projects the biggest job declines by 2050 for general clerks, receptionists, accounting clerks and bookkeepers.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Gen AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08",
+          "whatItMeasured": "JSA economy-wide CGE modelling of GenAI automation/augmentation exposure across 358+ AU occupations to 2050."
+        }
+      ],
+      "scope": "AU economy-wide modelling; covers ANZSCO 531111 general clerks.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "JSA gov study real; population = AU; 2025. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-9061-L2-02",
+      "text": "2025 evidence names clerical/secretarial work as the clear automation-exposed group; routine, rules-based office tasks are the most readily automated.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "scty.org",
+          "title": "AI at Work: The 2025 Evidence",
+          "url": "https://scty.org/words/ai-work-2025",
+          "date": "2025-12",
+          "whatItMeasured": "Synthesises 7 major 2025 studies (ILO, WEF, Anthropic, OpenAI, academic); Brynjolfsson RCT n=5,172 CS agents +15% (lower-skill +30%); clerical/secretarial the clear automation 'loser'."
+        }
+      ],
+      "scope": "Synthesis; clerical specifically flagged.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "scty.org synthesis real studies; population = global; in window. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-9061-L2-03",
+      "text": "Nature (2025) 30,503-thread study: 98% non-clinician use, admin tasks (email/document writing) 53.9% - evidence of GenAI uptake in general office work.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Nature (Scientific Reports)",
+          "title": "Uses of generative AI by non-clinician staff at an academic medical centre",
+          "url": "https://preview-www.nature.com/articles/s44401-025-00063-y",
+          "date": "2025",
+          "whatItMeasured": "30,503 LLM chat threads; 98% non-clinician (239 roles); admin tasks (email/document writing) 53.9% of usage."
+        }
+      ],
+      "scope": "Single US site; non-clinician cohort.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Nature peer-reviewed 2025; population = US; in window. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-9061-L3-01",
+      "text": "ACS reports JSA found data entry and record-keeping among the most automation-vulnerable AU occupations - covering general office clerks.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ACS (Australasian Computer Society)",
+          "title": "Aussie jobs most vulnerable to AI outlined in govt study",
+          "url": "https://ia.acs.org.au/article/2025/aussie-jobs-most-vulnerable-to-ai-outlined-in-govt-study.html",
+          "date": "2025",
+          "whatItMeasured": "Reports JSA finding that data entry, record-keeping, accounting and communications are among most automation-vulnerable AU occupations."
+        }
+      ],
+      "scope": "Trade-press report of JSA; attributable.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "ACS real; reports JSA; AU; 2025. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-9061-L3-02",
+      "text": "Business Insider reports JSA modelling projects the biggest job declines by 2050 for general clerks, receptionists, accounting clerks and bookkeepers.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Business Insider",
+          "title": "Gen AI to automate clerical work, augment high-skill roles: report",
+          "url": "https://businessinsider.com/gen-ai-automate-clerical-work-augment-high-skill-roles-report-2025-8",
+          "date": "2025-08",
+          "whatItMeasured": "Summarises JSA modelling: biggest job declines by 2050 for general clerks, receptionists, accounting clerks, bookkeepers."
+        }
+      ],
+      "scope": "Trade-press summary of JSA CGE modelling; projection to 2050.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "BI real; reports JSA; AU; 2025. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-9061-L3-03",
+      "text": "Government case examples (2025) place administrative officers/office clerks among the most AI-exposed roles: Medicare processing halved, ~99% IDP extraction, 22-25% fewer no-shows.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Nucamp",
+          "title": "Top 5 jobs in government most at risk from AI in Australia",
+          "url": "https://nucamp.co/blog/coding-bootcamp-australia-aus-government-top-5-jobs-in-government-that-are-most-at-risk-from-ai-in-australia--and-how-to-adapt",
+          "date": "2025-09",
+          "whatItMeasured": "Government case examples: administrative officers/office clerks most exposed; Medicare processing halved, ~99% IDP extraction."
+        }
+      ],
+      "scope": "Government case examples, not a workforce forecast; AU public sector.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Nucamp real; government examples; AU; 2025. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "l5129",
+      "text": "AK: results_url not set — Clarity adapter assumption unverified\n## Summary\nFollowing the CT dual-ID fix (#170) and its live verification, tried to run the same \"Race Creation: Untested → Verified\" check against AK and WY (both flagged `⚠️ Untested` in `docs/state-research/00-MASTER-INDEX.md`, tier \"Results Coverage Only\").\n\nBoth currently use `ClarityAdapter` (`\n<html><head></head><body><p>I reviewed issue #178, the current Wyoming research file, and the available first-party Wyoming election sy…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "AK: results_url not set — Clarity adapter assumption unverified\n## Summary\nFollo…",
+          "url": "https://github.com/CivicMirror/CivicMirror-API/issues/178",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5130",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5131",
+      "text": "feat(offices): local office catalog batch — matcher key fixes, migration 184, NULL-office repair wrapper\n## Summary\n\nRound-24 office-catalog batch: clears every future NULL-office election shell on the manual-research database (358 shells, 600 stranded candidate links — office_id = NULL hard-blocks the candidate-records stage for all of them) and makes the same title forms match on future injections.\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_s…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(offices): local office catalog batch — matcher key fixes, migration 184, NU…",
+          "url": "https://github.com/shu1513/voteapp/pull/287",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5132",
+      "text": "Optimize catalogue generator vendor and WhatsApp Access Hub link retrieval\n## Objective\nImprove retrieval speed on the Create Catalogue page. The page currently shows empty entitlement rows, no vendor rows, and slow/empty WhatsApp Access Hub link loading. Vendors and WhatsApp links should load quickly using staged reads, summaries, caching, and indexed queries.\n\n## Require\nRuntime error from local console after catalogue retrieval optimization:\n\n```text\nReferenceError: detailedVendors is not def…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Optimize catalogue generator vendor and WhatsApp Access Hub link retrieval\n## Ob…",
+          "url": "https://github.com/seigendc-cmyk/itred/issues/10",
+          "date": "2026-05-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5133",
+      "text": "Formal Notice of Statutory Non-Compliance filed with City Clerk's Office 8-5-26\n§11-33-107 If a public recreation board or commission shall be established, it shall discharge its functions through a public recreation department, as provided in Section 33-106 of this title, shall make annual reports, shall adopt rules and regulations and establish general policies for the conduct of its business and for the operation of public recreational activities and services. &#32; submitted by &#32; /u/Prot…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Formal Notice of Statutory Non-Compliance filed with City Clerk's Office 8-5-26\n…",
+          "url": "https://www.reddit.com/r/tulsa/comments/1vuf8wo/formal_notice_of_statutory_noncompliance_filed/",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5134",
+      "text": "AI slop is swamping a House office that drafts US laws: The Office of Legislative Counsel is facing a barrage of new AI-generated bills, many of which are riddled with errors.\nCongressional lawyers are struggling to manage a flood of legislative proposals generated using artificial intelligence tools, many of them riddled with errors and shoddy language. The strain on the House Office of Legislative Counsel is increasing as more congressional offices and outside groups rely on generative AI to d…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI slop is swamping a House office that drafts US laws: The Office of Legislativ…",
+          "url": "https://www.reddit.com/r/law/comments/1vqqv7m/ai_slop_is_swamping_a_house_office_that_drafts_us/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5135",
+      "text": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California lawmakers debate AI regulation and voters prepare to weigh a proposed 5% one-time billionaire tax, labor leaders are pushing back against what they see as growing threats to workers.\n\nPolitical Breakdown host Marisa Lagos sits down with Lorena Gonzalez, president of the California Federation of Labor Unions, to discuss AI in the workplace, worker surveillance and human oversight. They also discuss California’s proposed …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California law…",
+          "url": "https://www.youtube.com/watch?v=WLbvdWXuR3Y",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5136",
+      "text": "The Death Of White-Collar Jobs Has Already Started (AI Is Replacing Knowledge Work)\nArtificial Intelligence is no longer just assisting office workers—it's beginning to replace them.\n\nAcross software engineering, finance, law, marketing, consulting, customer service, accounting, and other knowledge-based professions, AI is taking over tasks that once required years of education and experience. Companies are deploying AI copilots and autonomous AI agents to write code, analyse data, create report…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Death Of White-Collar Jobs Has Already Started (AI Is Replacing Knowledge Wo…",
+          "url": "https://www.youtube.com/watch?v=CkWSDmLVwKE",
+          "date": "2026-07-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5137",
+      "text": "Why I Switched From ChatGPT to Claude (without losing anything)\n✅ Get your FREE AI Prompt Cheatsheet here: https://go.danmartell.com/484Q7tK\n\n👥 Are you building an AI software company? Partner with me: https://go.danmartell.com/3NSVsO2\n\nSomething massive is happening in the AI world right now, and most people are on the wrong side of it. ChatGPT uninstalls are spiking, OpenAI is burning cash at an alarming rate, and Claude just took the #1 spot on the App Store.\n\nIn this video, I break down what…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Why I Switched From ChatGPT to Claude (without losing anything)\n✅ Get your FREE …",
+          "url": "https://www.youtube.com/watch?v=XRU-CjzYt_o",
+          "date": "2026-04-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5138",
+      "text": "Why AI Might Not Replace Your Job After All\nSince ChatGPT’s debut, AI has been framed as everything from a world-changing breakthrough to an existential threat. Companies are pouring hundreds of billions into the space as commentators debate potentially utopian and dystopian futures. But researchers like Princeton’s Arvind Narayanan argue the reality may be more incremental – a powerful technology that will reshape work and productivity over time, without overturning the basic limits of economic…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Why AI Might Not Replace Your Job After All\nSince ChatGPT’s debut, AI has been f…",
+          "url": "https://www.youtube.com/watch?v=EGskcTRnLJ0",
+          "date": "2026-03-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5139",
+      "text": "Andrew Yang WARNS of 'Riots In The Streets' as AI DESTROYS Millions of Jobs!\nAndrew Yang just dropped one of the most alarming AI predictions yet, claiming that up to 50% of entry-level white-collar jobs could disappear in the coming years. From software developers and call center workers to truck drivers and office employees, Yang argues that artificial intelligence is about to reshape the American workforce faster than most people realize.\n\nBut is this a realistic warning or another exaggerate…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Andrew Yang WARNS of 'Riots In The Streets' as AI DESTROYS Millions of Jobs!\nAnd…",
+          "url": "https://www.youtube.com/watch?v=77ZiuT46xm4",
+          "date": "2026-06-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5140",
+      "text": "The AI Disruption: Is Your Job Safe from the New Industrial Revolution?\nAre we on the brink of the greatest labor market disruption in human history? The rise of Artificial Intelligence, specifically Generative AI, is fundamentally shifting the global economy, and the transition is happening right now. Most Americans believe generative AI will have a major, mostly negative impact on jobs over the next two decades, and the data suggests this anxiety is entirely well-founded. According to the Inte…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The AI Disruption: Is Your Job Safe from the New Industrial Revolution?\nAre we o…",
+          "url": "https://www.youtube.com/watch?v=tiWRq9dw8Ik",
+          "date": "2026-03-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -2509,7 +2971,31 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "office clerk",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+      "count": 122,
+      "returned": 50,
+      "topEmployers": [
+        "NSW Government",
+        "NSW State Emergency Service",
+        "Amentum",
+        "Core Talent",
+        "Barry Nilsson",
+        "State Emergency Service",
+        "Andrew Evans Plumbing",
+        "INTERNATIONAL TAXATION SERVICES "
+      ],
+      "topSkills": [
+        "administration",
+        "clerical",
+        "data entry",
+        "office administration",
+        "reception"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -2519,8 +3005,24 @@
         "items": 45
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "query": "Office Clerks, General AI disruption",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired (cookies 2026-08-26); re-run factiva_reauth.py",
+        "date": "2026-08-31"
+      },
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "status": "unreachable",
+        "detail": "Keyless web search unavailable in this environment",
+        "date": "2026-08-31"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -2532,6 +3034,15 @@
       },
       {
         "date": "2026-08-29",
+        "soc": "43-9061",
+        "query": "Office Clerks, General",
+        "location": "Australia",
+        "returned": 12,
+        "totalResults": 12,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
         "soc": "43-9061",
         "query": "Office Clerks, General",
         "location": "Australia",
@@ -2566,9 +3077,27 @@
           "youtube": 6
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 12,
+        "sources": {
+          "github": 13,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 2,
+          "x": 50,
+          "youtube": 6
+        },
+        "status": "sampled"
       }
     ]
   },
-  "confidence": "high",
-  "caveats": []
+  "confidence": "medium",
+  "caveats": [
+    "L1 is regime-general (Privacy Act / Fair Work); no occupation-specific licensing body for general clerks.",
+    "Factiva unavailable (auth expired); L3 led by web trade press.",
+    "Government case examples (nucamp) are illustrative, not a workforce forecast."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

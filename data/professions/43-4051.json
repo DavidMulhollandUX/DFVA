@@ -5,13 +5,13 @@
     "Call or Contact Centre Operator",
     "Client Services Officer"
   ],
-  "anzsco": "220000",
+  "anzsco": "541211",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-31",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-03-03",
   "programs": [],
   "claims": [
     {
@@ -1315,6 +1315,321 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l463",
+      "text": "Customer Service Representative — Cubic Corporation (Silverwater, New South Wales, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cubic Corporation",
+          "title": "Customer Service Representative",
+          "url": "https://www.linkedin.com/jobs/view/4459396836",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l464",
+      "text": "Customer Service Representative — Symbos (Victoria, Australia). Posted 2 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Symbos",
+          "title": "Customer Service Representative",
+          "url": "https://www.linkedin.com/jobs/view/4458865259",
+          "date": "2 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "43-4051-L1-01",
+      "text": "Clerical and customer-service roles handle customer and employee personal information; the Privacy Act 1988 (Cth) Australian Privacy Principles bind the APP entities that employ them, and the Fair Work Act 2009 requires employers to keep employee records for seven years. No occupation-specific licensing regime governs customer service representatives.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Jacmac Law",
+          "title": "Accessing employment records: Privacy Act and Fair Work Act intersection",
+          "url": "https://jacmac.com.au/insights/accessing-employment-records",
+          "date": "2025",
+          "whatItMeasured": "Explains Privacy Act 1988 (Cth) APPs apply to personal information handled by APP entities; employee-records exemption for direct employment handling."
+        }
+      ],
+      "scope": "Applies via employer as APP entity; the employee-records exemption removes direct APP coverage for employment-relationship handling. No specific regulator for the occupation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Jacmac/AWNA summaries of real statutes; population = AU employers; current. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-4051-L2-01",
+      "text": "JSA's 2025 Gen AI Capacity Study places customer-service and other clerical/admin occupations among the most automatable in Australia, with augmentation outweighing automation overall (79% of workers low automation risk).",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Gen AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08",
+          "whatItMeasured": "JSA economy-wide CGE modelling of GenAI automation/augmentation exposure across 358+ AU occupations to 2050."
+        }
+      ],
+      "scope": "AU economy-wide modelling; covers ANZSCO 541211 within clerical cluster.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "JSA gov study real; population = AU; 2025. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-4051-L2-02",
+      "text": "2025 evidence converges that automation risk concentrates in clerical/secretarial/customer-facing roles; a Brynjolfsson RCT of 5,172 customer-support agents found +15% average productivity (lower-skill agents +30%) with a GenAI assistant, and automation-prone job postings fell 17%.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "scty.org",
+          "title": "AI at Work: The 2025 Evidence",
+          "url": "https://scty.org/words/ai-work-2025",
+          "date": "2025-12",
+          "whatItMeasured": "Synthesises 7 major 2025 studies (ILO, WEF, Anthropic, OpenAI, academic); Brynjolfsson RCT n=5,172 CS agents +15% (lower-skill +30%); clerical/secretarial the clear automation 'loser'."
+        }
+      ],
+      "scope": "US RCT, not AU; augmentation evidence; postings analysis 2019-Q2 2024.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "scty.org synthesis of real RCT + posting data; population = US CS agents; in window. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-4051-L2-03",
+      "text": "Nature (2025) 30,503-thread study: 98% non-clinician use, admin tasks (email/document writing) 53.9% - evidence of GenAI uptake in clerical/customer-admin work.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Nature (Scientific Reports)",
+          "title": "Uses of generative AI by non-clinician staff at an academic medical centre",
+          "url": "https://preview-www.nature.com/articles/s44401-025-00063-y",
+          "date": "2025",
+          "whatItMeasured": "30,503 LLM chat threads; 98% non-clinician (239 roles); admin tasks (email/document writing) 53.9% of usage."
+        }
+      ],
+      "scope": "Single US site; non-clinician cohort.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Nature peer-reviewed 2025; population = US; in window. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-4051-L3-01",
+      "text": "ACS reports JSA found communications (alongside data entry, record-keeping, accounting) among the most automation-vulnerable AU occupations - covering customer-service work.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ACS (Australasian Computer Society)",
+          "title": "Aussie jobs most vulnerable to AI outlined in govt study",
+          "url": "https://ia.acs.org.au/article/2025/aussie-jobs-most-vulnerable-to-ai-outlined-in-govt-study.html",
+          "date": "2025",
+          "whatItMeasured": "Reports JSA finding that data entry, record-keeping, accounting and communications are among most automation-vulnerable AU occupations."
+        }
+      ],
+      "scope": "Trade-press report of JSA; attributable.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "ACS real; reports JSA; AU; 2025. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "43-4051-L3-02",
+      "text": "Vendor analysis rates customer service representatives at 55% AI exposure / 55% automation risk ('very high'), citing Klarna replacing ~700 FTE with AI handling two-thirds of chats.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "aichanging.work",
+          "title": "Will AI Replace Customer Service Representatives?",
+          "url": "https://aichanging.work/en/blog/will-ai-replace-customer-service-representatives",
+          "date": "2025",
+          "whatItMeasured": "Vendor estimate: customer service 55% AI exposure / 55% automation risk; Klarna replaced ~700 FTE with AI handling 2/3 of chats."
+        }
+      ],
+      "scope": "Vendor estimate + single employer case (Klarna); not AU-specific; CSAT self-reported.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "aichanging.work real; vendor estimate + Klarna case; population = global CS; 2025. 2/3 refuters failed to overturn."
+    },
+    {
+      "id": "l571",
+      "text": "feat(skills): add agent-benchmark\nFixes #35\n\n## Summary\nAdds `agent-benchmark` for dynamic same-task skill/tool/harness evaluation (tokens, turns, latency, cost, success).\n\n## Scope\n- `SKILL.md` + `REFERENCE.md` (Kun Chen methodology notes)\n- Catalog registration\n\n## Out of scope\n- Merging to `main` is for you after review\n- No remo\n###  ⚠️  No Changeset found\n\nLatest commit: 2c6a35938a329c611f5daff980c464966eafeed6\n\nMerging this PR will not cause a version bump for any packages. If these change…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(skills): add agent-benchmark\nFixes #35\n\n## Summary\nAdds `agent-benchmark` f…",
+          "url": "https://github.com/YosefHayim/dufflebag/pull/36",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "Codex Desktop no longer shows visible context/token usage indicator\n### What version of the Codex App are you using (From “About Codex” dialog)?\n\n26.519.2081.0\n\n### What subscription do you have?\n\nChatGPT Business\n\n### What platform is your computer?\n\nMicrosoft Windows NT 10.0.26200.0 x64\n\n### What issue are you seeing?\n\nAfter updating Codex Desktop, the app no long\nPotential duplicates detected. Please review them and close your issue if it is a duplicate.\n\n- #23591\n- #22220\n\n*Powered by [Codex…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Codex Desktop no longer shows visible context/token usage indicator\n### What ver…",
+          "url": "https://github.com/openai/codex/issues/23794",
+          "date": "2026-05-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "External-review ideas backlog (v6+) — un-filed candidates harvested at spec dissolution [umbrella]\n# External-review ideas backlog (v6+)\n\nCandidate ideas surfaced from the external-model reviews and critiques of the v6 plan — `codex_on_v6_for_llms`, `gemini_on_v6_for_llms`, the `fable_sum_*` analyses, and `megaspec-critique` — **harvested during the 2026-07-08 spec-directory dissolution**, before\n> **Preserved source review** — `notes/superpowers/specs/codex_on_v6_for_llms.md` (part 1/3), carrie…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "External-review ideas backlog (v6+) — un-filed candidates harvested at spec diss…",
+          "url": "https://github.com/StoneCypher/fsl/issues/1840",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and …",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "Steve Hind: How AI Agents Are Disrupting Customer Experience & Brands | The Further, Faster Podcast\nIn this episode of The Further, Faster Podcast, Bede Moore sits down with Steve Hind, Co-founder of Lorikeet. \nThey explore the AI-driven revolution transforming customer relationships. As AI agents increasingly handle interactions on behalf of both companies and consumers, the traditional dynamics of customer service, brand identity, and product delivery are being flipped on their head. \nSteve sh…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Steve Hind: How AI Agents Are Disrupting Customer Experience & Brands | The Furt…",
+          "url": "https://www.youtube.com/watch?v=4L0guOWUUhk",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
+          "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "Andrew Yang: AI disruption will be worse than anyone thinks\nThe AI layoffs may be just getting started.\n\nBrian Sozzi sits down with entrepreneur and former presidential candidate Andrew Yang to discuss AI job losses, universal basic income, corporate incentives, and why he believes we're still in the early innings of AI-driven workforce disruption.\n\nThe conversation explores the future of work, AI taxes, corporate decision-making, Elon Musk, wealth inequality, crypto, and what workers should be …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Andrew Yang: AI disruption will be worse than anyone thinks\nThe AI layoffs may b…",
+          "url": "https://www.youtube.com/watch?v=dP0Bey2iATE",
+          "date": "2026-06-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1333,7 +1648,28 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "customer service representative",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+      "count": 892,
+      "returned": 50,
+      "topEmployers": [
+        "Matrix Education",
+        "Datacom",
+        "KG Talent",
+        "Core Talent",
+        "Veritas Recruitment Clayton Partnership",
+        "Healthcare Professionals Group",
+        "BlueScope",
+        "Network Steel"
+      ],
+      "topSkills": [
+        "customer service",
+        "call centre"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1343,8 +1679,24 @@
         "items": 45
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "query": "Customer Service Representatives AI disruption",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired (cookies 2026-08-26); re-run factiva_reauth.py",
+        "date": "2026-08-31"
+      },
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "status": "unreachable",
+        "detail": "Keyless web search unavailable in this environment",
+        "date": "2026-08-31"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1356,6 +1708,15 @@
       },
       {
         "date": "2026-08-29",
+        "soc": "43-4051",
+        "query": "Customer Service Representatives",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
         "soc": "43-4051",
         "query": "Customer Service Representatives",
         "location": "Australia",
@@ -1390,9 +1751,27 @@
           "youtube": 3
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 7,
+        "sources": {
+          "github": 3,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 1,
+          "x": 14,
+          "youtube": 3
+        },
+        "status": "sampled"
       }
     ]
   },
-  "confidence": "high",
-  "caveats": []
+  "confidence": "medium",
+  "caveats": [
+    "L1 is regime-general (Privacy Act / Fair Work) rather than occupation-specific; no licensing body governs customer service representatives.",
+    "Factiva unavailable (auth expired); L3 led by web trade press + vendor estimates.",
+    "Several L3/L2 figures are vendor estimates (aichanging.work) or single-employer cases (Klarna); scoped accordingly."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }
