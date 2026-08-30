@@ -4,17 +4,290 @@
   "aliases": [
     "Surveyor"
   ],
-  "anzsco": "220000",
+  "anzsco": "232212",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-30",
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-26",
   "programs": [],
   "claims": [
     {
-      "id": "l503",
+      "id": "17-1022-L1-01",
+      "text": "Under the Surveying Act 2004 (Vic), only Licensed Surveyors registered with the Surveyors Registration Board of Victoria may legally perform cadastral (land and boundary) surveys; an unregistered person undertaking such a survey faces prosecution and the survey has no legal standing. Registration requires an approved surveying/geomatics degree, supervised cadastral training, and Board examinations, with annual renewal and mutual recognition across states and New Zealand.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Surveyors Registration Board of Victoria",
+          "title": "Check if a Surveyor is Registered",
+          "url": "https://surveyorsboard.vic.gov.au/content/77/Check-Surveyor-Registered.aspx",
+          "date": "2004",
+          "whatItMeasured": "State surveyor registration (Surveying Act 2004 Vic); population = cadastral surveyors in Vic; in force."
+        }
+      ],
+      "scope": "Victorian cadastral-surveyor regime (parallel regimes in other states); binds boundary/cadastral survey work. Does not cover all 'surveyors' (e.g. mining/engineering survey technicians, 17-3031).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Real named source; population and window scoped per claim; in force/published."
+    },
+    {
+      "id": "17-1022-L2-01",
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study (August 2025) scores 358 ANZSCO occupations on augmentability and automatability (0-1). It finds augmentation outweighs automation across the workforce and 79% of Australian workers face low or very low automation risk; professionals and managers (ANZSCO skill levels 1-2) show the highest augmentation exposure.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study, task-level ANZSCO v1.3 exposure, 358 occupations, Aug 2025."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level estimates.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Primary Australian government source; population = AU occupations; Aug 2025."
+    },
+    {
+      "id": "17-1022-L2-02",
+      "text": "The DFVA AIOE crosswalk assigns Surveyors (17-1022, ANZSCO 232212) an AI-exposure index of 67.08/100 (high mapping confidence) - lower than the design-profession cluster, reflecting the field/site and measurement nature of much surveying work alongside its CAD/GIS and data-processing tasks.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Felten, Raj & Seamans (2021), Strategic Management Journal; AIOE dataset",
+          "title": "Occupational, industry, and geographic exposure to artificial intelligence: A novel dataset",
+          "url": "https://github.com/AIOE-Data/AIOE",
+          "date": "2021",
+          "whatItMeasured": "AIOE occupation-level AI-exposure score (Appendix A), rescaled 0-100; DFVA crosswalk maps 17-1022 -> 232212 at 67.08."
+        }
+      ],
+      "scope": "US-derived AIOE measure adapted via DFVA crosswalk to AU ANZSCO; task-level exposure estimate.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Real named source; population and window scoped per claim; in force/published."
+    },
+    {
+      "id": "l404",
+      "text": "Senior Surveyor \u2014 RPS (Fortitude Valley, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "RPS",
+          "title": "Senior Surveyor",
+          "url": "https://www.linkedin.com/jobs/view/4425921687",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l405",
+      "text": "Surveyor \u2014 Bennett + Bennett (Mullumbimby, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bennett + Bennett",
+          "title": "Surveyor",
+          "url": "https://www.linkedin.com/jobs/view/4445879121",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "Senior Surveyor \u2014 Planned Resources (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Planned Resources",
+          "title": "Senior Surveyor",
+          "url": "https://www.linkedin.com/jobs/view/4445865080",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Surveyor \u2014 Bennett + Bennett (Sunshine Coast, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bennett + Bennett",
+          "title": "Surveyor",
+          "url": "https://www.linkedin.com/jobs/view/4445883225",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "Senior Surveyor - South Australia \u2014 Survey Management Solutions (South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Survey Management Solutions",
+          "title": "Senior Surveyor - South Australia",
+          "url": "https://www.linkedin.com/jobs/view/4452332747",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Senior Registered Surveyor \u2014 Constructive (North Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Constructive",
+          "title": "Senior Registered Surveyor",
+          "url": "https://www.linkedin.com/jobs/view/4458146347",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Lead Surveyor \u2014 Aurecon (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Aurecon",
+          "title": "Lead Surveyor",
+          "url": "https://www.linkedin.com/jobs/view/4444087671",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "text": "Surveyor \u2014 RPS (South Townsville, Queensland, Australia). Posted 4 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "RPS",
+          "title": "Surveyor",
+          "url": "https://www.linkedin.com/jobs/view/4431233373",
+          "date": "4 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "Surveyor Brisbane \u2014 PeopleIN (Brisbane, Queensland, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "PeopleIN",
+          "title": "Surveyor Brisbane",
+          "url": "https://www.linkedin.com/jobs/view/4457079672",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "text": "Senior Surveyor \u2014 Survey Management Solutions (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Survey Management Solutions",
+          "title": "Senior Surveyor",
+          "url": "https://www.linkedin.com/jobs/view/4452350562",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l514",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -24,238 +297,7 @@
           "title": "Tell HN: Man, AI is killing my brain",
           "url": "https://news.ycombinator.com/item?id=49468252",
           "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l504",
-      "text": "What breaks in production AI workflows?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "What breaks in production AI workflows?",
-          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l505",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l506",
-      "text": "How al-Qaida and IS are adopting AI",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "How al-Qaida and IS are adopting AI",
-          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l507",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-          "url": "https://news.ycombinator.com/item?id=48672619",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l508",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-          "url": "https://isaidumber.today/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l509",
-      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
-          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
-          "date": "2026-07-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l510",
-      "text": "Looking for developers with high-token AI workflows",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Looking for developers with high-token AI workflows",
-          "url": "https://canopywave.com/events/unlimited-token-plan-200m",
-          "date": "2026-07-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l511",
-      "text": "The death of AI workflow builders",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "The death of AI workflow builders",
-          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l512",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-          "url": "https://www.contextvault.dev/",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l513",
-      "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
-          "url": "https://latentdynamics.substack.com/p/semantic-transactions-securing-untrusted",
-          "date": "2026-07-16",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l514",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-          "url": "https://argonix.io/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -267,16 +309,16 @@
     },
     {
       "id": "l515",
-      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
+      "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
-          "url": "https://github.com/BenSiv/fossil-scm",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -288,16 +330,16 @@
     },
     {
       "id": "l516",
-      "text": "What is agentic AI today, and what do we want it to be?",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "What is agentic AI today, and what do we want it to be?",
-          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-          "date": "2026-07-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -309,16 +351,16 @@
     },
     {
       "id": "l517",
-      "text": "My AI-Assisted Workflow",
+      "text": "How al-Qaida and IS are adopting AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "My AI-Assisted Workflow",
-          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
-          "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -330,16 +372,16 @@
     },
     {
       "id": "l518",
-      "text": "AI Workflows Need Topological Sort",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Workflows Need Topological Sort",
-          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
-          "date": "2026-06-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -351,16 +393,16 @@
     },
     {
       "id": "l519",
-      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -372,16 +414,16 @@
     },
     {
       "id": "l520",
-      "text": "AI workflows: an industry optimising the wrong variables",
+      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI workflows: an industry optimising the wrong variables",
-          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
-          "date": "2026-05-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -393,16 +435,16 @@
     },
     {
       "id": "l521",
-      "text": "Ask HK: How are you building AI apps today?",
+      "text": "Looking for developers with high-token AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HK: How are you building AI apps today?",
-          "url": "https://news.ycombinator.com/item?id=48323554",
-          "date": "2026-05-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Looking for developers with high-token AI workflows",
+          "url": "https://canopywave.com/events/unlimited-token-plan-200m",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -414,16 +456,16 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
-          "url": "https://blocks.ai",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -435,16 +477,16 @@
     },
     {
       "id": "l523",
-      "text": "The Problem with AI Today",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The Problem with AI Today",
-          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
-          "date": "2026-05-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -456,16 +498,16 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-          "url": "https://github.com/kontext-dev/kontext-cli",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
+          "url": "https://latentdynamics.substack.com/p/semantic-transactions-securing-untrusted",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -477,16 +519,16 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
-          "url": "https://theincidentchallenge.com/",
-          "date": "2026-05-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -498,16 +540,16 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
-          "url": "https://news.ycombinator.com/item?id=47590261",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
+          "url": "https://github.com/BenSiv/fossil-scm",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -519,16 +561,16 @@
     },
     {
       "id": "l527",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
+      "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
-          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -540,16 +582,16 @@
     },
     {
       "id": "l528",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
+      "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
-          "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -561,16 +603,16 @@
     },
     {
       "id": "l529",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin…",
+      "text": "AI Workflows Need Topological Sort",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
-          "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -582,16 +624,16 @@
     },
     {
       "id": "l530",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case…",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
-          "url": "https://www.reddit.com/r/ControlProblem/comments/1vzy4do/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -603,16 +645,16 @@
     },
     {
       "id": "l531",
-      "text": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecast to end of 2028\n&#32; submitted by &#32; /u/WebLinkr &#32; to &#32; r/SEO [link] &#32; [comments]\nThe ol' Elon trick. Just keep pushing your prediction back a year.. and then another.. and then another.. and maybe eventually it will happen I thought getting to AGI from an LLM was impossible? My thought was that they were using the security scares as an excuse to slow progress. I think theyve hit a ceiling and now pr…",
+      "text": "AI workflows: an industry optimising the wrong variables",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas…",
-          "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -624,16 +666,16 @@
     },
     {
       "id": "l532",
-      "text": "AI job disruption priced into man's compensation payout in first known case\n&#32; submitted by &#32; /u/nath1234 &#32; to &#32; r/australia [link] &#32; [comments]",
+      "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32…",
-          "url": "https://www.reddit.com/r/australia/comments/1vv43m6/ai_job_disruption_priced_into_mans_compensation/",
-          "date": "2026-08-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -645,16 +687,16 @@
     },
     {
       "id": "l533",
-      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals …",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ…",
-          "url": "https://www.reddit.com/r/cscareerquestions/comments/1vqe677/how_are_people_buying_homes_and_getting_married/",
-          "date": "2026-08-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -666,16 +708,16 @@
     },
     {
       "id": "l534",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]",
+      "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
-          "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -687,16 +729,16 @@
     },
     {
       "id": "l535",
-      "text": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let’s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market …",
-          "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
-          "date": "2026-07-30",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -708,16 +750,16 @@
     },
     {
       "id": "l536",
-      "text": "Surveyors urged to embrace spatial intelligence as AI reshapes the profession https://t.co/JdUjaRuLzu #Surveyors #SpatialIntelligence #AI",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Surveyors urged to embrace spatial intelligence as AI reshapes the profession ht…",
-          "url": "https://x.com/tv3_ghana/status/2091074021395984622",
-          "date": "2026-08-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -729,16 +771,16 @@
     },
     {
       "id": "l537",
-      "text": "Data: your sleep score last night.\nIntelligence: what it means for today.\nAction: a wind-down routine, a supplement suggestion.\nCommerce: it's ordered before you even ask.\n\nThat's the full Agentic AI loop. Most wellness apps stop at step one. https://t.co/LBehVKR4Kg",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Data: your sleep score last night.\nIntelligence: what it means for today.\nAction…",
-          "url": "https://x.com/sleepagotchi/status/2092250646762356934",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -750,16 +792,16 @@
     },
     {
       "id": "l538",
-      "text": "Ask ten people what \"the agentic wellness layer\" means and you'll get ten vague answers.\n\nHere's ours: four AI agents that don't just show you your sleep data, they act on it. Recommendations, routines, purchases - handled, not just displayed. https://t.co/Za1IGf7JtG",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Ask ten people what \"the agentic wellness layer\" means and you'll get ten vague …",
-          "url": "https://x.com/sleepagotchi/status/2091892362481951109",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -771,16 +813,16 @@
     },
     {
       "id": "l539",
-      "text": "Reflections on the Current State of AI Application in the Construction Industry",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Reflections on the Current State of AI Application in the Construction Industry",
-          "url": "https://x.com/RogerWei1982/status/2086713592314003489",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -792,16 +834,16 @@
     },
     {
       "id": "l540",
-      "text": "The agentic wellness layer turns health intelligence into action - and $SLEEP powers the economy that makes those actions possible.\n\nFrom staking and AI credits to every purchase the Shopping Agent makes, $SLEEP runs underneath the system.\n\nIntelligence. Action. $SLEEP. https://t.co/JnnwTAn50S",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The agentic wellness layer turns health intelligence into action - and $SLEEP po…",
-          "url": "https://x.com/sleepagotchi/status/2093337816185090469",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -813,16 +855,16 @@
     },
     {
       "id": "l541",
-      "text": "AI is transforming quantity takeoff—making construction workflows faster, simpler, and more accurate. QuantifAI shows how AI + 5D BIM can reduce repetitive work and help quantity surveyors focus on analysis and better decisions.\n\nLearn more: https://t.co/CnD7cvhfih\n\n#AI #AEC",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "AI is transforming quantity takeoff—making construction workflows faster, simple…",
-          "url": "https://x.com/David_jason_d/status/2093313306476093862",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "url": "https://www.reddit.com/r/ControlProblem/comments/1vzy4do/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -834,16 +876,16 @@
     },
     {
       "id": "l542",
-      "text": "The future of wellness is agentic AI.\n\nWearables created the data layer. AI agents are building the intelligence layer that turns that data into personalised actions and commerce.",
+      "text": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecast to end of 2028\n&#32; submitted by &#32; /u/WebLinkr &#32; to &#32; r/SEO [link] &#32; [comments]\nThe ol' Elon trick. Just keep pushing your prediction back a year.. and then another.. and then another.. and maybe eventually it will happen I thought getting to AGI from an LLM was impossible? My thought was that they were using the security scares as an excuse to slow progress. I think theyve hit a ceiling and now pr\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The future of wellness is agentic AI.\n\nWearables created the data layer. AI agen…",
-          "url": "https://x.com/sleepagotchi/status/2090801093655535864",
-          "date": "2026-08-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas\u2026",
+          "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -855,16 +897,16 @@
     },
     {
       "id": "l543",
-      "text": "The trades that keep America running — adjusters, HVAC techs, vet clinics, surveyors — still run on software built before smartphones existed. Counterline ships AI workflow tools for what their workday actually looks like. $300-$800 per seat. First product soon.",
+      "text": "AI job disruption priced into man's compensation payout in first known case\n&#32; submitted by &#32; /u/nath1234 &#32; to &#32; r/australia [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The trades that keep America running — adjusters, HVAC techs, vet clinics, surve…",
-          "url": "https://x.com/polsia/status/2092397473558143235",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32\u2026",
+          "url": "https://www.reddit.com/r/australia/comments/1vv43m6/ai_job_disruption_priced_into_mans_compensation/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -876,16 +918,16 @@
     },
     {
       "id": "l544",
-      "text": "Have you met Sleepagotchi? the agentic AI layer for the wellness economy.  \n\nAI agents. Wearable data. Personalized wellness. One intelligence layer. 🦖",
+      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Have you met Sleepagotchi? the agentic AI layer for the wellness economy.  \n\nAI …",
-          "url": "https://x.com/sleepagotchi/status/2092923078674362630",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ\u2026",
+          "url": "https://www.reddit.com/r/cscareerquestions/comments/1vqe677/how_are_people_buying_homes_and_getting_married/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -897,16 +939,16 @@
     },
     {
       "id": "l545",
-      "text": "Will AI help surveyors determine cost effective ways to clear the land without clear cutting?",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Will AI help surveyors determine cost effective ways to clear the land without c…",
-          "url": "https://x.com/mike_few55843/status/2092438865038491816",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -918,16 +960,16 @@
     },
     {
       "id": "l546",
-      "text": "WHAT IF THE PYRAMIDS WERE BUILT WITH THE HELP OF AI?",
+      "text": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let\u2019s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "WHAT IF THE PYRAMIDS WERE BUILT WITH THE HELP OF AI?",
-          "url": "https://x.com/mistersx16/status/2091930856411578460",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market \u2026",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -939,16 +981,16 @@
     },
     {
       "id": "l547",
-      "text": "(2/3)\ninformation was given to farmers on how and when to use balanced fertilizers and in what quantity. BTM, Nala briefed all surveyors on how to use AI in Digital Crop Survey and how to facilitate the benefits of the Crop Insurance Scheme to farmers.On this occasion, BTM",
+      "text": "Surveyors urged to embrace spatial intelligence as AI reshapes the profession https://t.co/JdUjaRuLzu #Surveyors #SpatialIntelligence #AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "(2/3)\ninformation was given to farmers on how and when to use balanced fertilize…",
-          "url": "https://x.com/AgriDirectorate/status/2092939798906626380",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Surveyors urged to embrace spatial intelligence as AI reshapes the profession ht\u2026",
+          "url": "https://x.com/tv3_ghana/status/2091074021395984622",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -960,16 +1002,16 @@
     },
     {
       "id": "l548",
-      "text": "(2/3)\nDirector Shri Sanjay Kumar Singh shared valuable information on the use of balanced fertilizers and crop disease management, while BTM, Karmatand Shri Vijay Kumar briefed farmers and surveyors on the use of AI in Digital Crop Survey and Crop Insurance.On this occasion,",
+      "text": "Data: your sleep score last night.\nIntelligence: what it means for today.\nAction: a wind-down routine, a supplement suggestion.\nCommerce: it's ordered before you even ask.\n\nThat's the full Agentic AI loop. Most wellness apps stop at step one. https://t.co/LBehVKR4Kg",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "(2/3)\nDirector Shri Sanjay Kumar Singh shared valuable information on the use of…",
-          "url": "https://x.com/AgriDirectorate/status/2092923929526775884",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Data: your sleep score last night.\nIntelligence: what it means for today.\nAction\u2026",
+          "url": "https://x.com/sleepagotchi/status/2092250646762356934",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -981,16 +1023,16 @@
     },
     {
       "id": "l549",
-      "text": "Surveyors urged to embrace spatial intelligence as AI reshapes the profession https://t.co/nuw8ehjOJc",
+      "text": "Ask ten people what \"the agentic wellness layer\" means and you'll get ten vague answers.\n\nHere's ours: four AI agents that don't just show you your sleep data, they act on it. Recommendations, routines, purchases - handled, not just displayed. https://t.co/Za1IGf7JtG",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Surveyors urged to embrace spatial intelligence as AI reshapes the profession ht…",
-          "url": "https://x.com/OnuaTV/status/2091074913717420159",
-          "date": "2026-08-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Ask ten people what \"the agentic wellness layer\" means and you'll get ten vague \u2026",
+          "url": "https://x.com/sleepagotchi/status/2091892362481951109",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1002,16 +1044,16 @@
     },
     {
       "id": "l550",
-      "text": "Join the Surveyors Institute of Malawi (SIM) for an insightful CPD Webinar on Digitization in the Artificial Intelligence Era: The Future of Construction Industry Professionals.\nExplore how AI and digital technologies are transforming the construction industry and the future of professional practice.\n\n🗓️ 20 August 2025\n🔗 Register here: https://t.co/5hfxNL2XfR\n\nRegistration will be confirmed upon payment of the webinar fee.",
+      "text": "Reflections on the Current State of AI Application in the Construction Industry",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Join the Surveyors Institute of Malawi (SIM) for an insightful CPD Webinar on Di…",
-          "url": "https://x.com/Arch_KE/status/2085612901268889842",
-          "date": "2026-08-07",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Reflections on the Current State of AI Application in the Construction Industry",
+          "url": "https://x.com/RogerWei1982/status/2086713592314003489",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1023,16 +1065,16 @@
     },
     {
       "id": "l551",
-      "text": "Surveyors urged to embrace spatial intelligence as AI reshapes profession\n\nRead more ⬇️\nhttps://t.co/X7Y2iUKHOD\n\n#ChannelOneNews #ChannelOneTV #GhanaNews",
+      "text": "The agentic wellness layer turns health intelligence into action - and $SLEEP powers the economy that makes those actions possible.\n\nFrom staking and AI credits to every purchase the Shopping Agent makes, $SLEEP runs underneath the system.\n\nIntelligence. Action. $SLEEP. https://t.co/JnnwTAn50S",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Surveyors urged to embrace spatial intelligence as AI reshapes profession\n\nRead …",
-          "url": "https://x.com/Channel1TVGHA/status/2091777661555069386",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The agentic wellness layer turns health intelligence into action - and $SLEEP po\u2026",
+          "url": "https://x.com/sleepagotchi/status/2093337816185090469",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1044,16 +1086,16 @@
     },
     {
       "id": "l552",
-      "text": "🏆 Order Wins — 2026-08-22\n\nDisc: AI generated, please verify\n\n🏆 Monarch Surveyors and Engineering Consultants Limited — Order Win ₹2 cr\n\nMonarch Surveyors and Engineering Consultants received a work order worth Rs. 1.68 Crore from Fursungi-Uruli Devachi Nagar Parishad for GIS base maps, Existing Land Use mapping, and GIS-based Development Plans preparation.\n\n⏱ Execution: Work to commence immediately with estimated completion timeline as per contract terms\n\n#MonarchSurveyorsEngineeringConsultants",
+      "text": "AI is transforming quantity takeoff\u2014making construction workflows faster, simpler, and more accurate. QuantifAI shows how AI + 5D BIM can reduce repetitive work and help quantity surveyors focus on analysis and better decisions.\n\nLearn more: https://t.co/CnD7cvhfih\n\n#AI #AEC",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "🏆 Order Wins — 2026-08-22\n\nDisc: AI generated, please verify\n\n🏆 Monarch Surveyor…",
-          "url": "https://x.com/LngTrmInvestor/status/2091157575496851881",
-          "date": "2026-08-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "AI is transforming quantity takeoff\u2014making construction workflows faster, simple\u2026",
+          "url": "https://x.com/David_jason_d/status/2093313306476093862",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1065,16 +1107,16 @@
     },
     {
       "id": "l553",
-      "text": "Been sitting in the @sleepagotchi Discord more than usual lately, mostly just to see how the community actually runs day to day.\n\nMost token-gated communities are built around one incentive: do more, get more. Message count, task count, whatever the metric is, more activity always wins.\n\nSleepagotchi's current community campaign explicitly pushes against that. Runs weekly, resets every Wednesday, currently in its ongoing round through September 2nd.\n\nNo grind required. No spam race to the finish",
+      "text": "The future of wellness is agentic AI.\n\nWearables created the data layer. AI agents are building the intelligence layer that turns that data into personalised actions and commerce.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Been sitting in the @sleepagotchi Discord more than usual lately, mostly just to…",
-          "url": "https://x.com/xxxpizzaboss/status/2093563942522212532",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The future of wellness is agentic AI.\n\nWearables created the data layer. AI agen\u2026",
+          "url": "https://x.com/sleepagotchi/status/2090801093655535864",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1086,16 +1128,16 @@
     },
     {
       "id": "l554",
-      "text": "This is the day-to-day reality for Christians in the Holy Land—hated, spat upon, tortured, and murdered by Zionists. https://t.co/eOf1u5hAOX",
+      "text": "The trades that keep America running \u2014 adjusters, HVAC techs, vet clinics, surveyors \u2014 still run on software built before smartphones existed. Counterline ships AI workflow tools for what their workday actually looks like. $300-$800 per seat. First product soon.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This is the day-to-day reality for Christians in the Holy Land—hated, spat upon,…",
-          "url": "https://x.com/irlandarra2019/status/2093563479416340971",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The trades that keep America running \u2014 adjusters, HVAC techs, vet clinics, surve\u2026",
+          "url": "https://x.com/polsia/status/2092397473558143235",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1107,16 +1149,16 @@
     },
     {
       "id": "l555",
-      "text": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an idea, an experience, a feeling, or simply the urge to create.  For Clyde Baricuatro, or Klayd, art becomes a way of exploring personal perspectives and turning the everyday Filipino experience into something others can connect with. \n\nRooted in his Bisaya identity, his work explores day-to-day habits and nuance of Filipino culture. With a unique creative voice, Baricuatro brings his narrative to life with Inatò Galler",
+      "text": "Have you met Sleepagotchi? the agentic AI layer for the wellness economy.  \n\nAI agents. Wearable data. Personalized wellness. One intelligence layer. \ud83e\udd96",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an i…",
-          "url": "https://x.com/cebudailynews/status/2093565229158506875",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Have you met Sleepagotchi? the agentic AI layer for the wellness economy.  \n\nAI \u2026",
+          "url": "https://x.com/sleepagotchi/status/2092923078674362630",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1128,16 +1170,16 @@
     },
     {
       "id": "l556",
-      "text": "This is so meaningful for me because I have all the bad habits and had just experienced low blood sugar + heatstroke during my last field work. Also, this resonates with what I do day to day, helping to provide medical education through podcast and social media.",
+      "text": "Will AI help surveyors determine cost effective ways to clear the land without clear cutting?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This is so meaningful for me because I have all the bad habits and had just expe…",
-          "url": "https://x.com/fuyu_no_airi/status/2093567230093197345",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Will AI help surveyors determine cost effective ways to clear the land without c\u2026",
+          "url": "https://x.com/mike_few55843/status/2092438865038491816",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1149,16 +1191,16 @@
     },
     {
       "id": "l557",
-      "text": "@JohnSmithvbp8 @JAESREVENGE You’ve been watching him and keeping up with him since. You’re up under every post about him daily. If he all these thing why the fuck are you keeping up with his day to day? Eat dick and stop with yall fake moral compass",
+      "text": "WHAT IF THE PYRAMIDS WERE BUILT WITH THE HELP OF AI?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@JohnSmithvbp8 @JAESREVENGE You’ve been watching him and keeping up with him sin…",
-          "url": "https://x.com/S0NastyS0Rude/status/2093564459197313472",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "WHAT IF THE PYRAMIDS WERE BUILT WITH THE HELP OF AI?",
+          "url": "https://x.com/mistersx16/status/2091930856411578460",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1170,16 +1212,16 @@
     },
     {
       "id": "l558",
-      "text": "@joeroganhq These things vary day to day.",
+      "text": "(2/3)\ninformation was given to farmers on how and when to use balanced fertilizers and in what quantity. BTM, Nala briefed all surveyors on how to use AI in Digital Crop Survey and how to facilitate the benefits of the Crop Insurance Scheme to farmers.On this occasion, BTM",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@joeroganhq These things vary day to day.",
-          "url": "https://x.com/aprilswedge/status/2093564453812162960",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "(2/3)\ninformation was given to farmers on how and when to use balanced fertilize\u2026",
+          "url": "https://x.com/AgriDirectorate/status/2092939798906626380",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1191,16 +1233,16 @@
     },
     {
       "id": "l559",
-      "text": "@zainhas @grok what does this practically mean in day to day coding?",
+      "text": "(2/3)\nDirector Shri Sanjay Kumar Singh shared valuable information on the use of balanced fertilizers and crop disease management, while BTM, Karmatand Shri Vijay Kumar briefed farmers and surveyors on the use of AI in Digital Crop Survey and Crop Insurance.On this occasion,",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@zainhas @grok what does this practically mean in day to day coding?",
-          "url": "https://x.com/Chris76822191/status/2093570745553014868",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "(2/3)\nDirector Shri Sanjay Kumar Singh shared valuable information on the use of\u2026",
+          "url": "https://x.com/AgriDirectorate/status/2092923929526775884",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1212,16 +1254,16 @@
     },
     {
       "id": "l560",
-      "text": "Should put him behind the bars for foul play,cancelling the Election?..This is the secret of Victory?..adjournment over adjournment and complete term.\nWhy day to day heaing is not held?",
+      "text": "Surveyors urged to embrace spatial intelligence as AI reshapes the profession https://t.co/nuw8ehjOJc",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Should put him behind the bars for foul play,cancelling the Election?..This is t…",
-          "url": "https://x.com/SanjivaSailesh/status/2093563511381397514",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Surveyors urged to embrace spatial intelligence as AI reshapes the profession ht\u2026",
+          "url": "https://x.com/OnuaTV/status/2091074913717420159",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1233,16 +1275,16 @@
     },
     {
       "id": "l561",
-      "text": "vaguely. I have focus swings from day to day. it manifests in mood https://t.co/0FGPBZnIgp",
+      "text": "Join the Surveyors Institute of Malawi (SIM) for an insightful CPD Webinar on Digitization in the Artificial Intelligence Era: The Future of Construction Industry Professionals.\nExplore how AI and digital technologies are transforming the construction industry and the future of professional practice.\n\n\ud83d\uddd3\ufe0f 20 August 2025\n\ud83d\udd17 Register here: https://t.co/5hfxNL2XfR\n\nRegistration will be confirmed upon payment of the webinar fee.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "vaguely. I have focus swings from day to day. it manifests in mood https://t.co/…",
-          "url": "https://x.com/ZanksZee/status/2093569250221043766",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Join the Surveyors Institute of Malawi (SIM) for an insightful CPD Webinar on Di\u2026",
+          "url": "https://x.com/Arch_KE/status/2085612901268889842",
+          "date": "2026-08-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1254,16 +1296,16 @@
     },
     {
       "id": "l562",
-      "text": "@stacewrites_ I love writing on a plane. A lot easier to disconnect from the day to day up high in the air!",
+      "text": "Surveyors urged to embrace spatial intelligence as AI reshapes profession\n\nRead more \u2b07\ufe0f\nhttps://t.co/X7Y2iUKHOD\n\n#ChannelOneNews #ChannelOneTV #GhanaNews",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@stacewrites_ I love writing on a plane. A lot easier to disconnect from the day…",
-          "url": "https://x.com/stevemoth/status/2093568834787774559",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Surveyors urged to embrace spatial intelligence as AI reshapes profession\n\nRead \u2026",
+          "url": "https://x.com/Channel1TVGHA/status/2091777661555069386",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1275,16 +1317,16 @@
     },
     {
       "id": "l563",
-      "text": "@Cocoaaa64 \"but im just saying a woman would not wear that day to day\"\ni'm a woman and i would DEFINITELY use that day to day\n(i use something similar and have similar outfits irl)",
+      "text": "\ud83c\udfc6 Order Wins \u2014 2026-08-22\n\nDisc: AI generated, please verify\n\n\ud83c\udfc6 Monarch Surveyors and Engineering Consultants Limited \u2014 Order Win \u20b92 cr\n\nMonarch Surveyors and Engineering Consultants received a work order worth Rs. 1.68 Crore from Fursungi-Uruli Devachi Nagar Parishad for GIS base maps, Existing Land Use mapping, and GIS-based Development Plans preparation.\n\n\u23f1 Execution: Work to commence immediately with estimated completion timeline as per contract terms\n\n#MonarchSurveyorsEngineeringConsultants",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Cocoaaa64 \"but im just saying a woman would not wear that day to day\"\ni'm a wom…",
-          "url": "https://x.com/snowmint0/status/2093568471787257910",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "\ud83c\udfc6 Order Wins \u2014 2026-08-22\n\nDisc: AI generated, please verify\n\n\ud83c\udfc6 Monarch Surveyor\u2026",
+          "url": "https://x.com/LngTrmInvestor/status/2091157575496851881",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1296,16 +1338,16 @@
     },
     {
       "id": "l564",
-      "text": "@LordOBI_SWC @BeldexCoin small UX improvements like this often make the biggest difference in day-to-day usage",
+      "text": "Been sitting in the @sleepagotchi Discord more than usual lately, mostly just to see how the community actually runs day to day.\n\nMost token-gated communities are built around one incentive: do more, get more. Message count, task count, whatever the metric is, more activity always wins.\n\nSleepagotchi's current community campaign explicitly pushes against that. Runs weekly, resets every Wednesday, currently in its ongoing round through September 2nd.\n\nNo grind required. No spam race to the finish",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@LordOBI_SWC @BeldexCoin small UX improvements like this often make the biggest …",
-          "url": "https://x.com/ibmcrypt_sol/status/2093567231846134153",
+          "title": "Been sitting in the @sleepagotchi Discord more than usual lately, mostly just to\u2026",
+          "url": "https://x.com/xxxpizzaboss/status/2093563942522212532",
           "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1317,16 +1359,16 @@
     },
     {
       "id": "l565",
-      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful …",
+      "text": "This is the day-to-day reality for Christians in the Holy Land\u2014hated, spat upon, tortured, and murdered by Zionists. https://t.co/eOf1u5hAOX",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http…",
-          "url": "https://www.youtube.com/watch?v=DQwlMX27E6k",
-          "date": "2026-03-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "This is the day-to-day reality for Christians in the Holy Land\u2014hated, spat upon,\u2026",
+          "url": "https://x.com/irlandarra2019/status/2093563479416340971",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1338,16 +1380,16 @@
     },
     {
       "id": "l566",
-      "text": "Will This $11B AI Startup Disrupt Big Law?\nToday on the Prof G Markets Founder Series, Ed Elson speaks with Gabe Pereyra, President and co-founder of Harvey, a legal AI startup. They break down what AI can realistically automate in law, how quickly that shift could happen, and what’s likely to slow adoption. They also discuss how Harvey has built trust with major firms despite being a young company.\n\nTimestamps:\n00:00 Intro\n01:13 Interview with Gabe Pereyra\n01:18 What is Harvey?\n02:20 How did yo…",
+      "text": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an idea, an experience, a feeling, or simply the urge to create.  For Clyde Baricuatro, or Klayd, art becomes a way of exploring personal perspectives and turning the everyday Filipino experience into something others can connect with. \n\nRooted in his Bisaya identity, his work explores day-to-day habits and nuance of Filipino culture. With a unique creative voice, Baricuatro brings his narrative to life with Inat\u00f2 Galler",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "Will This $11B AI Startup Disrupt Big Law?\nToday on the Prof G Markets Founder S…",
-          "url": "https://www.youtube.com/watch?v=A77WUBqkhZQ",
-          "date": "2026-05-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an i\u2026",
+          "url": "https://x.com/cebudailynews/status/2093565229158506875",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1359,16 +1401,16 @@
     },
     {
       "id": "l567",
-      "text": "AI, Surveying, and the New RICS Standard with Christopher\nChristopher De Gruben breaks down how AI is changing property and surveying, the new RICS Responsible Use of AI standard, and how surveyors can stay ahead without losing their professional judgment. Real use cases, career insights, and the future of the industry, all in one conversation.\n\nYouTube Chapters \n26:46 AI in APC & training: what’s changing\n27:36 Universities rethink AI for students\n28:23 AI anxiety in surveying\n32:32 Will AI rep…",
+      "text": "This is so meaningful for me because I have all the bad habits and had just experienced low blood sugar + heatstroke during my last field work. Also, this resonates with what I do day to day, helping to provide medical education through podcast and social media.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "AI, Surveying, and the New RICS Standard with Christopher\nChristopher De Gruben …",
-          "url": "https://www.youtube.com/watch?v=4Y4Yk8LwyGY",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "This is so meaningful for me because I have all the bad habits and had just expe\u2026",
+          "url": "https://x.com/fuyu_no_airi/status/2093567230093197345",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1380,16 +1422,16 @@
     },
     {
       "id": "l568",
-      "text": "AI, Strategy and the Future of Construction and Surveying with Suzanne Hill\nAI is changing construction and surveying faster than most firms realise.\nIn this episode, I speak with Suzanne Hill about AI strategy, data ownership, risk, and what UK surveyors and construction firms must do before 2026.\n\nWe discuss:\n• AI in surveying and construction\n• Business model change\n• Platform risk and data ownership\n• Client displacement\n• Leadership and strategic thinking\n\nGuest links\n• Suzanne Hill on Link…",
+      "text": "@JohnSmithvbp8 @JAESREVENGE You\u2019ve been watching him and keeping up with him since. You\u2019re up under every post about him daily. If he all these thing why the fuck are you keeping up with his day to day? Eat dick and stop with yall fake moral compass",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "AI, Strategy and the Future of Construction and Surveying with Suzanne Hill\nAI i…",
-          "url": "https://www.youtube.com/watch?v=qvq4IFolyyc",
-          "date": "2026-03-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "@JohnSmithvbp8 @JAESREVENGE You\u2019ve been watching him and keeping up with him sin\u2026",
+          "url": "https://x.com/S0NastyS0Rude/status/2093564459197313472",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1401,16 +1443,16 @@
     },
     {
       "id": "l569",
-      "text": "Static Online Surveys vs AI-Moderated Interviews by Veronica Valli , Head of Research, Glaut\nSurvey teams face increasing pressure to deliver deeper insights while maintaining methodological rigor, operational stability, and client trust. One potential shift is moving from static online surveys to AI-moderated interviews (AIMIs), sometimes called conversational surveys. The main question isn’t whether this approach is innovative, but whether it is reliable and operationally sound.\n\nAIMIs combine…",
+      "text": "@joeroganhq These things vary day to day.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "Static Online Surveys vs AI-Moderated Interviews by Veronica Valli , Head of Res…",
-          "url": "https://www.youtube.com/watch?v=ljhBUIli47U",
-          "date": "2026-06-07",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "@joeroganhq These things vary day to day.",
+          "url": "https://x.com/aprilswedge/status/2093564453812162960",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1422,16 +1464,16 @@
     },
     {
       "id": "l570",
-      "text": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul…",
+      "text": "@zainhas @grok what does this practically mean in day to day coding?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: h…",
-          "url": "https://www.youtube.com/watch?v=w6eUBmVwNMY",
-          "date": "2026-03-18",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "@zainhas @grok what does this practically mean in day to day coding?",
+          "url": "https://x.com/Chris76822191/status/2093570745553014868",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1442,458 +1484,227 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l471",
-      "text": "Senior Surveyor — RPS (Fortitude Valley, Queensland, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l571",
+      "text": "Should put him behind the bars for foul play,cancelling the Election?..This is the secret of Victory?..adjournment over adjournment and complete term.\nWhy day to day heaing is not held?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "RPS",
-          "title": "Senior Surveyor",
-          "url": "https://www.linkedin.com/jobs/view/4425921687",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "Should put him behind the bars for foul play,cancelling the Election?..This is t\u2026",
+          "url": "https://x.com/SanjivaSailesh/status/2093563511381397514",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l472",
-      "text": "Surveyor — Bennett + Bennett (Mullumbimby, New South Wales, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l572",
+      "text": "vaguely. I have focus swings from day to day. it manifests in mood https://t.co/0FGPBZnIgp",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Bennett + Bennett",
-          "title": "Surveyor",
-          "url": "https://www.linkedin.com/jobs/view/4445879121",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "vaguely. I have focus swings from day to day. it manifests in mood https://t.co/\u2026",
+          "url": "https://x.com/ZanksZee/status/2093569250221043766",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l473",
-      "text": "Senior Surveyor — Planned Resources (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l573",
+      "text": "@stacewrites_ I love writing on a plane. A lot easier to disconnect from the day to day up high in the air!",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Planned Resources",
-          "title": "Senior Surveyor",
-          "url": "https://www.linkedin.com/jobs/view/4445865080",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "@stacewrites_ I love writing on a plane. A lot easier to disconnect from the day\u2026",
+          "url": "https://x.com/stevemoth/status/2093568834787774559",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l474",
-      "text": "Surveyor — Bennett + Bennett (Sunshine Coast, Queensland, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l574",
+      "text": "@Cocoaaa64 \"but im just saying a woman would not wear that day to day\"\ni'm a woman and i would DEFINITELY use that day to day\n(i use something similar and have similar outfits irl)",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Bennett + Bennett",
-          "title": "Surveyor",
-          "url": "https://www.linkedin.com/jobs/view/4445883225",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "@Cocoaaa64 \"but im just saying a woman would not wear that day to day\"\ni'm a wom\u2026",
+          "url": "https://x.com/snowmint0/status/2093568471787257910",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l475",
-      "text": "Senior Surveyor - South Australia — Survey Management Solutions (South Australia, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l575",
+      "text": "@LordOBI_SWC @BeldexCoin small UX improvements like this often make the biggest difference in day-to-day usage",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Survey Management Solutions",
-          "title": "Senior Surveyor - South Australia",
-          "url": "https://www.linkedin.com/jobs/view/4452332747",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "@LordOBI_SWC @BeldexCoin small UX improvements like this often make the biggest \u2026",
+          "url": "https://x.com/ibmcrypt_sol/status/2093567231846134153",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l476",
-      "text": "Senior Registered Surveyor — Constructive (North Sydney, New South Wales, Australia). Posted 2 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l576",
+      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Constructive",
-          "title": "Senior Registered Surveyor",
-          "url": "https://www.linkedin.com/jobs/view/4458146347",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "youtube",
+          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http\u2026",
+          "url": "https://www.youtube.com/watch?v=DQwlMX27E6k",
+          "date": "2026-03-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l477",
-      "text": "Lead Surveyor — Aurecon (Brisbane, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l577",
+      "text": "Will This $11B AI Startup Disrupt Big Law?\nToday on the Prof G Markets Founder Series, Ed Elson speaks with Gabe Pereyra, President and co-founder of Harvey, a legal AI startup. They break down what AI can realistically automate in law, how quickly that shift could happen, and what\u2019s likely to slow adoption. They also discuss how Harvey has built trust with major firms despite being a young company.\n\nTimestamps:\n00:00 Intro\n01:13 Interview with Gabe Pereyra\n01:18 What is Harvey?\n02:20 How did yo\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Aurecon",
-          "title": "Lead Surveyor",
-          "url": "https://www.linkedin.com/jobs/view/4444087671",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "youtube",
+          "title": "Will This $11B AI Startup Disrupt Big Law?\nToday on the Prof G Markets Founder S\u2026",
+          "url": "https://www.youtube.com/watch?v=A77WUBqkhZQ",
+          "date": "2026-05-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l478",
-      "text": "Surveyor — RPS (South Townsville, Queensland, Australia). Posted 4 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l578",
+      "text": "AI, Surveying, and the New RICS Standard with Christopher\nChristopher De Gruben breaks down how AI is changing property and surveying, the new RICS Responsible Use of AI standard, and how surveyors can stay ahead without losing their professional judgment. Real use cases, career insights, and the future of the industry, all in one conversation.\n\nYouTube Chapters \n26:46 AI in APC & training: what\u2019s changing\n27:36 Universities rethink AI for students\n28:23 AI anxiety in surveying\n32:32 Will AI rep\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "RPS",
-          "title": "Surveyor",
-          "url": "https://www.linkedin.com/jobs/view/4431233373",
-          "date": "4 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "youtube",
+          "title": "AI, Surveying, and the New RICS Standard with Christopher\nChristopher De Gruben \u2026",
+          "url": "https://www.youtube.com/watch?v=4Y4Yk8LwyGY",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l479",
-      "text": "Surveyor Brisbane — PeopleIN (Brisbane, Queensland, Australia). Posted 5 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l579",
+      "text": "AI, Strategy and the Future of Construction and Surveying with Suzanne Hill\nAI is changing construction and surveying faster than most firms realise.\nIn this episode, I speak with Suzanne Hill about AI strategy, data ownership, risk, and what UK surveyors and construction firms must do before 2026.\n\nWe discuss:\n\u2022 AI in surveying and construction\n\u2022 Business model change\n\u2022 Platform risk and data ownership\n\u2022 Client displacement\n\u2022 Leadership and strategic thinking\n\nGuest links\n\u2022 Suzanne Hill on Link\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "PeopleIN",
-          "title": "Surveyor Brisbane",
-          "url": "https://www.linkedin.com/jobs/view/4457079672",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "youtube",
+          "title": "AI, Strategy and the Future of Construction and Surveying with Suzanne Hill\nAI i\u2026",
+          "url": "https://www.youtube.com/watch?v=qvq4IFolyyc",
+          "date": "2026-03-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l480",
-      "text": "Senior Surveyor — Survey Management Solutions (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l580",
+      "text": "Static Online Surveys vs AI-Moderated Interviews by Veronica Valli , Head of Research, Glaut\nSurvey teams face increasing pressure to deliver deeper insights while maintaining methodological rigor, operational stability, and client trust. One potential shift is moving from static online surveys to AI-moderated interviews (AIMIs), sometimes called conversational surveys. The main question isn\u2019t whether this approach is innovative, but whether it is reliable and operationally sound.\n\nAIMIs combine\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Survey Management Solutions",
-          "title": "Senior Surveyor",
-          "url": "https://www.linkedin.com/jobs/view/4452350562",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "youtube",
+          "title": "Static Online Surveys vs AI-Moderated Interviews by Veronica Valli , Head of Res\u2026",
+          "url": "https://www.youtube.com/watch?v=ljhBUIli47U",
+          "date": "2026-06-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
       "id": "l581",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
-          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l582",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
-          "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l583",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
-          "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l584",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
-          "url": "https://www.reddit.com/r/ControlProblem/comments/1vzy4do/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l585",
-      "text": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecast to end of 2028\n&#32; submitted by &#32; /u/WebLinkr &#32; to &#32; r/SEO [link] &#32; [comments]\nThe ol' Elon trick. Just keep pushing your prediction back a year.. and then another.. and then another.. and maybe eventually it will happen I thought getting to AGI from an LLM was impossible? My thought was that they were using the security scares as an excuse to slow progress. I think theyve hit a ceiling and now pr…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas…",
-          "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l586",
-      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals …",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ…",
-          "url": "https://www.reddit.com/r/cscareerquestions/comments/1vqe677/how_are_people_buying_homes_and_getting_married/",
-          "date": "2026-08-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l587",
-      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful …",
+      "text": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http…",
-          "url": "https://www.youtube.com/watch?v=DQwlMX27E6k",
-          "date": "2026-03-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l588",
-      "text": "Will This $11B AI Startup Disrupt Big Law?\nToday on the Prof G Markets Founder Series, Ed Elson speaks with Gabe Pereyra, President and co-founder of Harvey, a legal AI startup. They break down what AI can realistically automate in law, how quickly that shift could happen, and what’s likely to slow adoption. They also discuss how Harvey has built trust with major firms despite being a young company.\n\nTimestamps:\n00:00 Intro\n01:13 Interview with Gabe Pereyra\n01:18 What is Harvey?\n02:20 How did yo…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Will This $11B AI Startup Disrupt Big Law?\nToday on the Prof G Markets Founder S…",
-          "url": "https://www.youtube.com/watch?v=A77WUBqkhZQ",
-          "date": "2026-05-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l589",
-      "text": "AI, Surveying, and the New RICS Standard with Christopher\nChristopher De Gruben breaks down how AI is changing property and surveying, the new RICS Responsible Use of AI standard, and how surveyors can stay ahead without losing their professional judgment. Real use cases, career insights, and the future of the industry, all in one conversation.\n\nYouTube Chapters \n26:46 AI in APC & training: what’s changing\n27:36 Universities rethink AI for students\n28:23 AI anxiety in surveying\n32:32 Will AI rep…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "AI, Surveying, and the New RICS Standard with Christopher\nChristopher De Gruben …",
-          "url": "https://www.youtube.com/watch?v=4Y4Yk8LwyGY",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l590",
-      "text": "AI, Strategy and the Future of Construction and Surveying with Suzanne Hill\nAI is changing construction and surveying faster than most firms realise.\nIn this episode, I speak with Suzanne Hill about AI strategy, data ownership, risk, and what UK surveyors and construction firms must do before 2026.\n\nWe discuss:\n• AI in surveying and construction\n• Business model change\n• Platform risk and data ownership\n• Client displacement\n• Leadership and strategic thinking\n\nGuest links\n• Suzanne Hill on Link…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "AI, Strategy and the Future of Construction and Surveying with Suzanne Hill\nAI i…",
-          "url": "https://www.youtube.com/watch?v=qvq4IFolyyc",
-          "date": "2026-03-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l591",
-      "text": "Static Online Surveys vs AI-Moderated Interviews by Veronica Valli , Head of Research, Glaut\nSurvey teams face increasing pressure to deliver deeper insights while maintaining methodological rigor, operational stability, and client trust. One potential shift is moving from static online surveys to AI-moderated interviews (AIMIs), sometimes called conversational surveys. The main question isn’t whether this approach is innovative, but whether it is reliable and operationally sound.\n\nAIMIs combine…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Static Online Surveys vs AI-Moderated Interviews by Veronica Valli , Head of Res…",
-          "url": "https://www.youtube.com/watch?v=ljhBUIli47U",
-          "date": "2026-06-07",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l592",
-      "text": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: h…",
+          "title": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: h\u2026",
           "url": "https://www.youtube.com/watch?v=w6eUBmVwNMY",
           "date": "2026-03-18",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1920,7 +1731,34 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "surveyor",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+      "count": 757,
+      "returned": 50,
+      "topEmployers": [
+        "Tetra Tech",
+        "Framework Search & Select Pty Ltd",
+        "Ertech",
+        "Rps Incorporated",
+        "Thiess",
+        "Bennett + Bennett",
+        "CPB",
+        "CPB Contractors"
+      ],
+      "topSkills": [
+        "survey",
+        "construction",
+        "cadastral",
+        "gis",
+        "registration",
+        "mapping",
+        "boundary",
+        "gnss"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1931,7 +1769,50 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens SSO session expired (no interactive re-auth in unattended run). Logged to factiva_backlog.json; re-run factiva_reauth.py then factiva_backfill.py.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L3",
+        "source": "web-trade-press",
+        "status": "not-sampled",
+        "detail": "IBISWorld / Perplexity trade-press sweep not run this batch; Factiva is the L3 lane.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "seek",
+        "status": "not-sampled",
+        "detail": "Seek trend pages not queried this batch; Adzuna AU + LinkedIn used for L4 demand signal.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "last30days-hiring-signals",
+        "status": "not-sampled",
+        "detail": "last30days --hiring-signals not run separately; L5 last30days ran and Adzuna+LinkedIn cover L4 demand.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "status": "failed",
+        "detail": "last30days grounding (web) source failed this run; reddit/x/hackernews/github/youtube returned items.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L5",
+        "source": "tiktok-instagram",
+        "status": "unavailable",
+        "detail": "has_scrapecreators:false; TikTok and Instagram unavailable in this environment (coverage gap, not quiet).",
+        "date": "2026-08-30"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1943,6 +1824,15 @@
       },
       {
         "date": "2026-08-29",
+        "soc": "17-1022",
+        "query": "Surveyors",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
         "soc": "17-1022",
         "query": "Surveyors",
         "location": "Australia",
@@ -1979,9 +1869,26 @@
           "youtube": 6
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 68,
+        "sources": {
+          "github": 0,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 9,
+          "x": 29,
+          "youtube": 6
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press not retrieved this run (OpenAthens SSO expired); L3-led high grade is therefore not claimed - record rests on L1+L2+L4+L5."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }
