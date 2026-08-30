@@ -1,0 +1,137 @@
+{
+  "code": "mc-mtrneng",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 met: multiple core units assess collaborative practice with group projects with individual accountability, per the anchor. Level 3 additionally requires assessed collaboration to recur across the program AND at least one assessment to require coordinating work across people AND tools/AI systems (documented role/tool allocation). Collaborative assessment does recur across Years 1-2, but no captured unit documents an assessment of the division of work between people and AI/tool systems, and the Year 3 Engineering Capstone (ENGR90037/38) - the most plausible site for such a task - has no assessment page in the extract. Ambiguity resolves to the lower level per the scoring-direction rule.",
+      "evidenceLines": [
+        "Continuous group assessment of in-class exercises.",
+        "Continuous assessment throughout the semester, worth 30%, that is comprised of a mix of pre-lab questions and in-class laboratory outcomes (done in small groups of 2-3 students), workshop quizzes assessing both theory and practical laboratory skills, and group assignments (in teams of 3 students).",
+        "Continuous assessment of submitted project work, completed in small groups (2-3 students), not exceeding at total of 20 pages of reports, due at least two weeks apart in the second half of semester.",
+        "Group research project. Addresses ILOs 1, 3 & 4.",
+        "Concept design report (team of 3).",
+        "Final design report (team of 3).",
+        "Demonstration (team) Approx. 20 hours of work per student, including project work (~10 hours), demo and presentation and preparation (~10 hours)",
+        "Written Assignment (Group-based report)."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 met via criterion-referenced peer review: ENGR90051's assessed 'Peer feedback + evaluation' is structured critique of peers' contribution, satisfying the anchor's peer-review/structured-critique clause. Level 3 requires assessment that documents and justifies reliance decisions on a tool, source or collaborator, or evidences strategy adjustment over time (process-focused assessment). The fortnightly 'Project log' plus the final individual 'Reflection' could be read that way, but the extract only describes them as general reflection tied to project logs, not explicitly as documenting reliance decisions or strategy adjustment. Ambiguity resolves to the lower level.",
+      "evidenceLines": [
+        "Peer feedback + evaluation (individual). Feedback: Approx. 8 hours of work per student. Evaluation: Approx. 12 hours of work, including teamwork documentation, team discussion + personal reflection",
+        "Project log (individual) 0.5 to 1 page, every 2-3 weeks through the semester, 10% total (2.5% per submission).",
+        "Reflection (based on the project logs and the rest of the subject) (individual). Approx. 10 hours of work per student. (Equivalent to approx. 2 pages)"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 met: 'Introduction to Machine Learning' (COMP90049) is a Year 2 compulsory (core) subject, so AI content is not confined to electives, but its documented content and ILOs are entirely technical/operational (designing, implementing and evaluating ML models) with no mention anywhere in the extract of AI limitations, ethics, bias, governance or societal impact. This matches the anchor's tool-operation/training clause - 'the operational level TEQSA identifies as non-durable' - which caps the score at 1 regardless of core/elective status. Level 2 (limitations/ethics discussed and assessed) is not evidenced.",
+      "evidenceLines": [
+        "COMP90049\tIntroduction to Machine Learning",
+        "Machine Learning is the study of making accurate, computationally efficient, interpretable and robust inferences from data, often drawing on principles from statistics.",
+        "ILO 3 - Design, implement, and evaluate machine learning systems for real-world problems",
+        "ILO 4 - Identify the correct machine learning model for a given real-world problem"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 met: ENGR90051 (core) requires assessed engagement with a real-world, complex, cross-context problem - matching the anchor's 'cross-context projects' example of application to novel or unfamiliar problems - via graded project logs, review, demonstration and final submission, not merely claimed in outcomes. Level 3 requires a documented self-scoped capstone/research project or assessed identification of one's own knowledge gaps with a plan to close them. The course overview states the degree 'culminates in a capstone design experience' (ENGR90037/38), which could satisfy this, but no assessment page for the capstone subjects was present in the extract, so the self-scoping/progression structure cannot be confirmed. Scored at the lower, confirmed level.",
+      "evidenceLines": [
+        "Through a real-world project, students will gain hands-on design experience addressing a complex challenge.",
+        "The degree culminates in a capstone design experience.",
+        "Correctly apply all stages of an engineering design process – problem definition, ideation, concept development, analysis, prototyping, and testing – to discover learnings that successfully progress a project."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 (R2 default): the program-level ILO documents a research capability - 'undertake a piece of original research... involving the collection of data, its objective analysis and interpretation' - but this appears only among program-level intended learning outcomes, with no core-unit assessment evidence for it in the extract. Per R2, a capability documented in outcomes but never shown to be assessed scores 1 uniformly. The only subject offering primary-evidence research work, 'Engineering Research Project Part 1/2' (ENGR90041/ENGR90042), is a Group B elective, not core, and no capstone assessment page was captured to confirm a required inquiry component elsewhere.",
+      "evidenceLines": [
+        "Students have the opportunity to participate in overseas study, industry-based projects and supervised research.",
+        "ENGR90041\tEngineering Research Project Part 1"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 met: professional communication and 'purposeful' stakeholder interaction appear in ILOs, and core assessment adds spoken/interactive components (interactive discussion, team demonstration) beyond the teaching-team default of exams/reports. Level 2 requires a recognised professional genre or an audience beyond the teaching team (client brief, pitch, public-facing artefact) judged against practice-derived criteria. The extract documents stakeholder interaction as an ILO and an assessed 'Interactive discussion' and 'Demonstration,' but never states the audience is external to the teaching team or names a specific professional genre judged against professional-practice criteria. Ambiguity resolves to the lower level.",
+      "evidenceLines": [
+        "Demonstrate effective engineering communication skills, including the ability to articulate design concepts and technical information to achieve specific outcomes, and to purposefully interact with a range of stakeholders.",
+        "Interactive discussion (conducted as a team, marked individually). Up to 15 mins (based on work completed throughout the entire semester).",
+        "have effective verbal and written communication skills that enable them to make a meaningful contribution to the changes facing society;"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 clearly met: at least one core assessment (ENGR90051) reproduces a professional engineering-design task end to end - problem definition through prototyping and testing on a real-world problem - and MCEN30021 and MCEN90061 similarly run assessed hands-on design/build projects with real-world framing, i.e. the artefact and process resemble what a practitioner produces. Level 3 requires such tasks to form the program's assessment spine (a capstone plus scaffolding, or at least one per stage) AND at least one to carry a genuine constraint of practice. Years 1-2 show a strong recurring pattern and ENGR90051's stakeholder/sustainability/safety/ethics-constrained brief looks like a genuine practice constraint, but the Year 3 capstone (ENGR90037/38) assessment page is absent from the extract, so continuation of the spine into the final stage is unconfirmed. Ambiguity resolves to the lower level.",
+      "evidenceLines": [
+        "In this subject, students will actively engage in an interdisciplinary, collaborative and project-based learning environment, offering insights into the professional nature of engineering work.",
+        "Students will experience the entire engineering design process, covering problem definition, ideation, concept development, analysis, prototyping, testing and iteration.",
+        "This subject introduces students to the conceptual engineering design process, emphasising the real-world application and hands-on experience using machine elements.",
+        "Design systems within real-world contexts.",
+        "Mechatronics Systems Design uses a project-based learning approach to enable students to experience the integrated design process of mechatronics systems and acquire relevant knowledge and skills."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 met: the Engineering Practice Hurdle documents work-situated learning only as one of several optional routes - STEP (a skills/employability program, not a supervised placement), the ENGR90033 Internship subject (confirmed elsewhere as a Group B elective, 25 credit points), or an unassessed self-arranged internship 'without receiving University credit.' None of these is a required, supervised, assessed core placement, matching the anchor's 'exists only as an elective, an optional internship, or an unassessed extracurricular... activity.' No core unit places students in a supervised, assessed real workplace setting, so Level 0 is also excluded by the presence of these routes.",
+      "evidenceLines": [
+        "In order to achieve the Engineering Practice Hurdle requirement, students will need to document the attainment of professional skills at an adequate level. This may include the successful completion of any of the following:",
+        "Skills Towards Employment Program (STEP)",
+        "ENGR90033 Internship subject",
+        "An agreed level of internship at an approved engineering form (without receiving University credit)",
+        "ENGR90033\tInternship"
+      ]
+    },
+    "workplace": 4,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS: the program documents a coherent, accredited specialist core with progressive structure - 225 of 300 credit points are compulsory, arranged in a staged Year 1 to Year 2 to Year 3 sequence with noted prerequisite/requisite dependencies between Years 2 and 3, and the course carries Engineers Australia and EURACE professional accreditation. This matches the anchor's 'accredited sequence' and 'staged prerequisite chain' clauses.",
+        "evidenceLines": [
+          "225 credit points of compulsory subjects",
+          "Engineers Australia",
+          "EURACE",
+          "Year 1:\n\n100 credit points of Year 1 compulsory subjects",
+          "There is, however, some flexibility between Year 2 and 3 core subjects, depending on the requisites set between them."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS: ENGR90051 requires students to 'justify design decisions' and weigh stakeholder, sustainability, safety, feasibility and ethical trade-offs on a real-world project across multiple assessed components (review, demonstration, final submission) - defended trade-off decisions under real constraints, matching the anchor. This is reinforced by MCEN30021's assessed design-with-hurdle project work, which similarly requires reasoned engineering requirements and physical demonstration/defence of design choices.",
+        "evidenceLines": [
+          "Justify design decisions throughout the design process.",
+          "Students are expected to integrate diverse perspectives, considering factors like stakeholders, sustainability (including environmental and social issues), safety, feasibility, and technical and ethical considerations.",
+          "Construct well-reasoned engineering requirements for a given problem or need;",
+          "Physical demonstration and interactive oral assessment (individual)."
+        ]
+      }
+    },
+    "ambiguities": [
+      "No item score was demoted on adversarial verification; all C1-C5/W1-W3 scores match the score-step's own output.",
+      "One evidenceLine in C5 was flagged non-verbatim during verification (source uses a semicolon where the quote used a period) and removed; C5's score (1) and rationale are unchanged.",
+      "Several items (C1, C4, C5, W2) note that the Year 3 capstone (ENGR90037/ENGR90038) has no assessment page in the extract, so higher-level capstone-dependent evidence could not be confirmed; scores reflect only the documented Years 1-2 material."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-30"
+      },
+      "mechanical": true,
+      "date": "2026-08-30"
+    }
+  }
+}
