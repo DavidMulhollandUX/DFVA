@@ -1693,24 +1693,908 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l481",
+      "text": "Scientific Officer — Jigsaw Notions (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Jigsaw Notions",
+          "title": "Scientific Officer",
+          "url": "https://www.linkedin.com/jobs/view/4453422120",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l482",
+      "text": "Microbiology Department Supervisor — Arna Pharma (Sydney, New South Wales, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Arna Pharma",
+          "title": "Microbiology Department Supervisor",
+          "url": "https://www.linkedin.com/jobs/view/4442953350",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l483",
+      "text": "Quality Specialist — Bega Group (Hobart, Tasmania, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bega Group",
+          "title": "Quality Specialist",
+          "url": "https://www.linkedin.com/jobs/view/4456970363",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l484",
+      "text": "Senior Laboratory Analyst — TMS Environment Ltd (Senior, South Australia, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "TMS Environment Ltd",
+          "title": "Senior Laboratory Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4437916299",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l485",
+      "text": "Scientific Officer — Macquarie University (North Ryde, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Macquarie University",
+          "title": "Scientific Officer",
+          "url": "https://www.linkedin.com/jobs/view/4455460961",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l486",
+      "text": "Laboratory Technician — Mackay Regional Council (Mackay, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mackay Regional Council",
+          "title": "Laboratory Technician",
+          "url": "https://www.linkedin.com/jobs/view/4453417539",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l587",
+      "text": "(919) 333-5626 James marcelle Shackelfords bio shield 🛡️ to monitor AI bioresearch.\nTechnology\n\nAI CEOs from OpenAI, Anthropic, and Microsoft set aside their rivalry to warn Congress AI is making it too easy to design and create bioweapons\nBy Marco Quiroz-Gutierrez,  16 hrs ago\nFortune\nFortune\n\nFollow\nhttps://img.particlenews.com/image.php?url=3FyYNq_1C3srlqo00\n\nThe CEOs of some of\nSpam, should be closed This issue is stale because it has been open 60 days with no activity. Remove stale label or…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "(919) 333-5626 James marcelle Shackelfords bio shield 🛡️ to monitor AI bioresear…",
+          "url": "https://github.com/openai/openai-cookbook/issues/2770",
+          "date": "2026-06-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l588",
+      "text": "Bio shield AI research monitoring agent.\nTechnology\n\nAI CEOs from OpenAI, Anthropic, and Microsoft set aside their rivalry to warn Congress AI is making it too easy to design and create bioweapons\nBy Marco Quiroz-Gutierrez,  16 hrs ago\nFortune\nFortune\n\nFollow\nhttps://img.particlenews.com/image.php?url=3FyYNq_1C3srlqo00\n\nThe CEOs of some of",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Bio shield AI research monitoring agent.\nTechnology\n\nAI CEOs from OpenAI, Anthro…",
+          "url": "https://github.com/shacklefordjames60-coder/Dark-Matter-detection-engine/issues/34",
+          "date": "2026-06-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l589",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
+          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l590",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
+          "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l591",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
+          "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
+          "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
+          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l594",
+      "text": "+234 check this \nGenerative AI Specialist.\n💰 ₦420K–₦700K\n💼 Full-time\nApply through the link in the comments. https://t.co/tvxXyRucUX",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "+234 check this \nGenerative AI Specialist.\n💰 ₦420K–₦700K\n💼 Full-time\nApply throu…",
+          "url": "https://x.com/OlatunjiAyokan2/status/2093959234836726032",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l595",
+      "text": "👩🏽‍💻 Meet IGBO data &amp; AI educator Daberechi Nnamani, founder of The Data Immersed (TDI).\n\nOriginally trained as a microbiologist, Dabere transitioned into technology and has built one of Africa's growing data and AI communities. https://t.co/hhQo4yuq0B",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "👩🏽‍💻 Meet IGBO data &amp; AI educator Daberechi Nnamani, founder of The Data Imm…",
+          "url": "https://x.com/ekwensubusiness/status/2075953447484924279",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "text": "August 1, 2026.\n\nToday, I'm beginning a journey to share what I learn and observe at the intersection of microbiology, food safety, public health, quality systems, and AI.\n\nAs a Microbiologist and Quality Control professional, I've come to appreciate how science quietly protects millions of lives every day.\nThrough this page, I'll be sharing lessons, insights, opportunities, and ideas that can help build safer food systems and healthier communities.\n\nIf you're interested in science, innovation,",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "August 1, 2026.\n\nToday, I'm beginning a journey to share what I learn and observ…",
+          "url": "https://x.com/RealAAbeeblahi/status/2083328445962912228",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l597",
+      "text": "Google searches are on the downfall 📉 \n\nwith the surge of AI being used in day to day life, people are beginning to turn to AI for their searches. \nCheck out the blog below...\n\nhttps://t.co/WW4bbEGB6p\n\n#AIsearch #GoogleSearch #GEO\nhttps://t.co/WW4bbEGB6p",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Google searches are on the downfall 📉 \n\nwith the surge of AI being used in day t…",
+          "url": "https://x.com/quad_web/status/2093972232917651930",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l598",
+      "text": "🚨 Backend Engineers, don’t skip this one.\n\nOpenTrain AI is looking for developers to work on backend software and AI training projects.\n\n💰 $60–$120/hr\n🌍 Remote\n⏳ 3–6 months\n💵 Estimated earnings: $1,200–$2,400\n\nYou need 1+ year of hands-on experience with Python, Java, Go, Rust, C++, or TypeScript, plus backend/API and database knowledge.\n\n⚠️ Important: You’ll need to complete a live interview with OpenAI before you can complete your application.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "🚨 Backend Engineers, don’t skip this one.\n\nOpenTrain AI is looking for developer…",
+          "url": "https://x.com/OlatunjiAyokan2/status/2093967397875036462",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "@shoujowife @repvtationTV I’m concerned for whatever institution gave you your degree to be a “microbiologist” if you don’t understand the different types of bacteria and use google ai as a source",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@shoujowife @repvtationTV I’m concerned for whatever institution gave you your d…",
+          "url": "https://x.com/tbro0902/status/2064324741142385130",
+          "date": "2026-06-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "OpenTrain AI is looking for AI Response Evaluators\n\nRemote | Global\n$5 per label | Up to $125 estimated project earnings\n\nYou’ll evaluate AI-generated financial research and trading analysis, verify the quality of its reasoning, and provide structured feedback.\n\n• Less than 20 hours/week\n• Project duration: under 1 month\n• 80 AI Trainers needed\n• Entry-level opportunity\n\nImportant: Applicants will need to complete a live interview with OpenAI before completing the application process.\n\nLink in t",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "OpenTrain AI is looking for AI Response Evaluators\n\nRemote | Global\n$5 per label…",
+          "url": "https://x.com/OlatunjiAyokan2/status/2093976027869352219",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "🚨 Backend Engineers, check this OpenTrain AI opportunity! 💻\n\n💰 $60–$120/hr\n💵 $1,200–$2,400 estimated\n🌍 Remote | 3–6 months\n\nLooking for developers with 1+ year of experience in Python, Java, Go, Rust, C++ or TypeScript.\n\n⚠️ Before completing your application, you’ll need to go through a live interview with OpenAI.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "🚨 Backend Engineers, check this OpenTrain AI opportunity! 💻\n\n💰 $60–$120/hr\n💵 $1,…",
+          "url": "https://x.com/OlatunjiAyokan2/status/2093966106968854760",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "I've spent the last 2 years mostly working with AI, but now that I'm starting to work with humans more a few things are becoming very obvious:\n\n1) Humans are way more prompt efficient. AIs need almost constant supervision to stay on task, to not drift, etc. Even when the topic is very clearly articulated, or the goal, they will often start injecting their own ideas, their own goals, and so on. Humans, on the other hand, particularly once you have the correct human, need very little supervision b",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I've spent the last 2 years mostly working with AI, but now that I'm starting to…",
+          "url": "https://x.com/DaveShapi/status/2080313124066869485",
+          "date": "2026-07-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "Singapore just launched an AI server rack running on 16 million living human neurons.\n\nWe are quietly normalizing the conversion of human biological material into disposable, liquid-nourished server hardware long before regulatory frameworks even exist for commercial wetware. https://t.co/E7Zj8KW8NU",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Singapore just launched an AI server rack running on 16 million living human neu…",
+          "url": "https://x.com/angelovalidiya/status/2092686394728567131",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "Had some fun with AI.\nIt turned an ordinary picture in a nice cartoon.\nI love how it got Mc Fluff's eyes. https://t.co/mJrQk0h3v6",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Had some fun with AI.\nIt turned an ordinary picture in a nice cartoon.\nI love ho…",
+          "url": "https://x.com/angelovalidiya/status/2093673756199711213",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "I applied for 2k plus jobs last year all over the country I was willing to drive all over or move to a different county, I’m a qualified microbiologist I worked in my field for 3 years. Constant ghosting or 2-3 stage interviews and then I was ghosted or sent an automated ai email! After 6 months of trying to get a job all I got was a part time temp retail job for Christmas , I was still actively applying and interviewing for jobs and once Christmas was over I was unemployed again and still had n",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I applied for 2k plus jobs last year all over the country I was willing to drive…",
+          "url": "https://x.com/clocrisis/status/2063119945626513649",
+          "date": "2026-06-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "Check out my new post!\n\nAI now makes medicines. Are you ready for this disaster?\n\nhttps://t.co/xcgkygErkN https://t.co/siJX5lVOn5",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Check out my new post!\n\nAI now makes medicines. Are you ready for this disaster?…",
+          "url": "https://x.com/angelovalidiya/status/2080199673239801902",
+          "date": "2026-07-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "How to stop AI from building a bioweapon",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "How to stop AI from building a bioweapon",
+          "url": "https://x.com/pro_jectliberty/status/2074607224576749698",
+          "date": "2026-07-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "SPEAKER ANNOUNCEMENT!!!\n\nWe are excited to announce Sampson Agboola, Microbiologist , AI Engineer, Scientific Officer, National Health Insurance Authority Clinic, University of Port Harcourt Teaching Hospital, as part of our speaker line up.\n\nSampson Agboola is a Microbiologist and AI Engineer who's over 9+ years of work experience in the healthcare sector across diagnostics, pharmaceutical sales, and health insurance.\n\nHe currently works with the Federal Ministry of Health and Social Welfare Ni",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "SPEAKER ANNOUNCEMENT!!!\n\nWe are excited to announce Sampson Agboola, Microbiolog…",
+          "url": "https://x.com/phtech_expo/status/2065347493689253968",
+          "date": "2026-06-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "I’m Benwise, a content strategist, business developer, and digital builder operating at the intersection of science, Web3/AI\n\nBy background, I’m a Microbiologist, but by practice, I speak fluent crypto, real estate, and algo. Right now, its either I’m running ads on IG and developing content strategies, closing OTC deals for a crypto trading firm or producing content for a wholesale startup whilst quietly building a waste-tech company out of Port Harcourt.\n\nSometimes in some sane afternoons, I u",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I’m Benwise, a content strategist, business developer, and digital builder opera…",
+          "url": "https://x.com/benwhyzee/status/2063001105357783164",
+          "date": "2026-06-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scientists sits down with three leading experts at the intersection of artificial intelligence and biosecurity:\n\nDavid Relman, Professor of Microbiology & Immunology at Stanford University\n\nAllison Berke, Senior Engineer at RAND's Center for AI, Security, and Technology\n\nJaime Yassif, Senior Advisor at the Nuclear Threat Initiative\n\nIn this conversation, they break down the most urgent risks and opportunities shaping AI …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scie…",
+          "url": "https://www.youtube.com/watch?v=UsDc_vb-ELw",
+          "date": "2026-07-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "ai just created viruses that don’t exist in nature for first time\nStanford University and Arc Institute researchers have used generative AI models, known as Evo1 and Evo2, to design and create fully functional synthetic viruses that never existed in nature. Trained on genomic sequences across viruses, bacteria, plants, and humans, these AI algorithms synthesized 300 designs, resulting in 16 active bacteriophages that proved more effective at killing antibiotic-resistant E. coli bacteria than nat…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "ai just created viruses that don’t exist in nature for first time\nStanford Unive…",
+          "url": "https://www.youtube.com/watch?v=Nr0ggWqnkfE",
+          "date": "2026-08-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "ll1112",
+      "text": "The Commonwealth Biosecurity Act 2015, which commenced on 16 June 2016 and is co-administered by the Agriculture and Health ministers, provides the legal framework binding anyone dealing with biosecurity matter—including microbial pathogens imported or handled by microbiologists.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Department of Agriculture, Fisheries and Forestry (DAFF)",
+          "title": "Legislation - Biosecurity Act 2015",
+          "url": "https://agriculture.gov.au/biosecurity/legislation",
+          "date": "2016-06-16",
+          "whatItMeasured": "States the Biosecurity Act 2015 is the primary legislation for all of Australia's biosecurity activities and commenced on 16 June 2016, co-administered by the Agriculture and Health ministers."
+        },
+        {
+          "publisher": "Office of Parliamentary Counsel (legislation.gov.au)",
+          "title": "Biosecurity Act 2015 - authorised compilation",
+          "url": "https://legislation.gov.au/C2015A00061/2025-01-01/2025-01-01/text/original/pdf",
+          "date": "2025-01-01",
+          "whatItMeasured": "Authorised compilation of the Biosecurity Act 2015 in force 1 January 2025, defining biosecurity matter, dealings and the general biosecurity duty."
+        }
+      ],
+      "scope": "Applies to dealings with biosecurity matter at the border, on Commonwealth land and import-risk material; does not by itself regulate routine diagnostic microbiology in private or state labs.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Admissible: a real Commonwealth statute (legislation.gov.au compilation + DAFF) that binds handlers of microbial biosecurity matter."
+    },
+    {
+      "id": "ll1113",
+      "text": "The Gene Technology Act 2000 and Gene Technology Regulations 2001 established the National Gene Technology Regulatory Scheme, administered by the Office of the Gene Technology Regulator, which licences GMO dealings, certifies physical containment facilities and accredits organisations—binding microbiologists who work with genetically modified organisms.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Office of the Gene Technology Regulator (OGTR)",
+          "title": "Legislative documents",
+          "url": "https://ogtr.gov.au/about-ogtr/legislative-documents",
+          "date": "2001-06-21",
+          "whatItMeasured": "States Commonwealth gene technology legislation took effect on 21 June 2001, comprising the Gene Technology Act 2000 and Regulations 2001, administered by the Gene Technology Regulator who licences GMO dealings and certifies containment facilities."
+        },
+        {
+          "publisher": "Department of Health and Aged Care (directory.gov.au)",
+          "title": "Office of the Gene Technology Regulator",
+          "url": "https://www.directory.gov.au/portfolios/health-disability-and-ageing/department-health-disability-and-ageing/office-gene-technology-regulator",
+          "date": "2001-06-21",
+          "whatItMeasured": "Describes the Regulator as licensing and monitoring GMO dealings, certifying physical containment facilities and accrediting organisations."
+        }
+      ],
+      "scope": "Binds only dealings with GMOs and certified physical containment facilities; does not cover non-GMO or purely observational microbiology.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Admissible: real federal statute and regulator (OGTR) that directly licenses/certifies GMO work performed by microbiologists."
+    },
+    {
+      "id": "ll1114",
+      "text": "Under the Therapeutic Goods Act 1989, the TGA regulates in-vitro diagnostic (IVD) medical devices—including the microbiology and pathology tests performed in diagnostic laboratories—requiring them to meet Essential Principles for quality, safety and performance and be entered on the ARTG before lawful supply.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Therapeutic Goods Administration (TGA)",
+          "title": "Overview of medical devices and IVD regulation",
+          "url": "https://tga.gov.au/products/medical-devices/overview/overview-medical-devices-and-ivd-regulation",
+          "date": "2010-07-01",
+          "whatItMeasured": "Explains IVDs are regulated under the Therapeutic Goods Act 1989 as a subset of medical devices; the IVD framework commenced 1 July 2010, requiring ARTG inclusion and compliance with Essential Principles for quality, safety and performance."
+        }
+      ],
+      "scope": "Covers IVD devices (tests, instruments, software) placed on the Australian market; it does not govern the professional registration of individual microbiologists.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Admissible: real TGA regulatory framework (Therapeutic Goods Act 1989) covering diagnostic microbiology assays as IVDs."
+    },
+    {
+      "id": "ll1115",
+      "text": "Medical laboratories in Australia—including microbiology/pathology labs—must hold NATA/RCPA accreditation to ISO 15189 (AS ISO 15189:2023) to claim Medicare payments for pathology services, making NATA accreditation a de facto mandatory standard for the occupation's core diagnostic work.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "National Association of Testing Authorities (NATA)",
+          "title": "Human Pathology (ISO 15189) Laboratory Accreditation",
+          "url": "https://nata.com.au/accreditation/medical-laboratory-accreditation-iso-15189/",
+          "date": "2023-05",
+          "whatItMeasured": "States the NATA/RCPA program is the mandatory accreditation pathway for laboratories to claim Medicare payments for pathology services; ISO 15189:2022 was accepted Dec 2022 and republished as AS ISO 15189:2023 in May 2023."
+        },
+        {
+          "publisher": "Therapeutic Goods Administration (TGA)",
+          "title": "TGA-NATA MoU relating to the regulation of in-house IVDs",
+          "url": "https://tga.gov.au/resources/publication/corporate-reports/tga-nata-mou-relating-regulation-house-ivds",
+          "date": "2016-09-02",
+          "whatItMeasured": "MoU (made 2 Sep 2016) records that all medical laboratories undertaking Medicare-rebated pathology tests are required to hold NATA/RCPA accreditation to ISO 15189."
+        }
+      ],
+      "scope": "Applies to medical/pathology labs doing Medicare-rebatable testing; research-only microbiology labs may instead fall under ISO/IEC 17025.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Admissible: NATA (accreditation body) + TGA MoU confirm ISO 15189 accreditation is required for the occupation's Medicare-funded pathology work."
+    },
+    {
+      "id": "ll1116",
+      "text": "The Australian Society for Microbiology's Code of Ethics requires every member to maintain professional competence by keeping abreast of new information and developments and not to engage in microbiological practices restricted by law—a binding professional standard for the occupation.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Australian Society for Microbiology (ASM)",
+          "title": "Governing Documents — Ethics",
+          "url": "https://theasm.org.au/governing-documents",
+          "date": "2026",
+          "whatItMeasured": "ASM governing-document ethics code (page undated; retrieved 2026) requires members to maintain professional competence and not engage in practices restricted by law or professional agreement."
+        }
+      ],
+      "scope": "Binds ASM members (voluntary professional society), not all employed microbiologists; a code-of-conduct standard rather than a statutory duty.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Admissible: a real professional-body code retrieved from theasm.org.au; page carries no publication date so the year reflects retrieval."
+    },
+    {
+      "id": "ll2117",
+      "text": "Jobs and Skills Australia's occupation profile for Microbiologists (ANZSCO 234517), based on the 2021 Census, counts 760 employed microbiologists, with 78% working full-time, a median age of 37, 65% female, and 92% holding a bachelor degree or higher.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia (JSA)",
+          "title": "Microbiologists (ANZSCO 234517) occupation profile",
+          "url": "https://www.jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations/234517-microbiologists",
+          "date": "2021",
+          "whatItMeasured": "JSA profile drawing on the ABS 2021 Census: 760 employed, 78% full-time, 65% female, median age 37, 51.0% bachelor + 41.2% postgrad (92.2% degree or higher); top states VIC 38.1%, NSW 28.3%, QLD 19.1%."
+        }
+      ],
+      "scope": "Australian resident employed microbiologists per the 2021 Census (usual residence); the ANZSCO-based profile will not be updated (OSCA-based profiles due mid-2026).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Admissible: official Australian government occupation data (JSA/ABS 2021 Census), the institutional basis for the occupation's size and composition."
+    },
+    {
+      "id": "ll2118",
+      "text": "The ABS ANZSCO classification defines Microbiologist (234517) as a Skill Level 1 occupation—requiring a bachelor degree or higher—whose incumbents study bacteria, viruses and protozoa and develop products, materials and processes from micro-organisms.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Australian Bureau of Statistics (ABS)",
+          "title": "ANZSCO 234517 Microbiologist (cat. 1220.0)",
+          "url": "https://abs.gov.au/AUSSTATS/abs@.nsf/0/87E2C8318CF4CA00CA2575DF002DA66A?opendocument=",
+          "date": "2022",
+          "whatItMeasured": "ANZSCO Unit Group 2345 Life Scientists lists 234517 Microbiologist, Skill Level 1 (bachelor degree or higher), defining its tasks and specialisations."
+        }
+      ],
+      "scope": "Australian/NZ standard occupational classification; defines the occupation's skill level and tasks, not employment counts or AI exposure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Admissible: the official ABS classification that anchors the occupation in Australian data systems."
+    },
+    {
+      "id": "ll2119",
+      "text": "A 2025 Bioplatforms Australia landscape analysis, engaging 231 Australian omics and molecular-life-sciences researchers and enablers, found generative AI is reshaping biology research infrastructure and that the skills and paradigm needed to succeed in the AI era differ from traditional research practice.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Bioplatforms Australia (via Innate Innovation consultancy)",
+          "title": "Bioplatforms Australia's Landscape Analysis of AI - generative AI's impact on biology research infrastructure",
+          "url": "https://innateinnovation.co/post/bioplatforms-australia-s-landscape-analysis-of-ai",
+          "date": "2025-03-21",
+          "whatItMeasured": "Published 21 Mar 2025 (updated 26 Mar 2025); summarises BPA's AI landscape analysis: 231 stakeholders engaged, generative AI changing biology research, recommendations to build AI-era capability in the NCRIS molecular-life-sciences community."
+        }
+      ],
+      "scope": "Australian NCRIS molecular-life-sciences research community (researchers/enablers), not specifically clinical diagnostic microbiologists; signals AI exposure of the research side of the occupation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Admissible: an Australian institutional (NCRIS) analysis of generative-AI impact on the biosciences workforce/skills."
+    },
+    {
+      "id": "ll3120",
+      "text": "Pathology Technology Australia's September 2025 newsletter reports a panellist discussion (RCPA, TGA, Australian Digital Health Agency) concluding AI is already applied across diagnostic triage, quality assurance and clinical decision support in pathology, with the consensus that AI should augment rather than replace clinical expertise.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Pathology Technology Australia (PTA)",
+          "title": "PTA Review Issue 10 - AI in Healthcare and Pathology: the experts have their say",
+          "url": "https://pathologytechnology.org.au/wp-content/uploads/2025/09/Sep-25-Newsletter.pdf",
+          "date": "2025-09",
+          "whatItMeasured": "September 2025 newsletter covering an AGM panel on AI in pathology with RCPA/TGA/ADHA; themes: trust and transparency, data sovereignty, regulation/liability, and workforce augmentation (AI augments not replaces)."
+        }
+      ],
+      "scope": "Australian pathology-technology trade body; qualitative expert commentary, not quantitative employment or market data.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Admissible: a dated trade-press newsletter retrieved as a PDF; captures professional-body/expert view on AI in pathology microbiology."
+    },
+    {
+      "id": "ll3121",
+      "text": "The Australian Society for Microbiology is actively curating AI content for the occupation: its 2026 EduCon announced a forthcoming November 2026 Microbiology Australia issue titled 'In the Era of AI: Approaches for Learning and Teaching in Microbiology.'",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Australian Society for Microbiology (ASM)",
+          "title": "EduCon 2026 - special issue announcement (Microbiology Australia, Nov 2026)",
+          "url": "https://theasmmeeting.org.au/educon",
+          "date": "2026-11",
+          "whatItMeasured": "Announced a special education-focused Microbiology Australia issue (November 2026) 'In the Era of AI: Approaches for Learning and Teaching in Microbiology' from ASM's EduCon 2026."
+        }
+      ],
+      "scope": "Forthcoming professional-body thematic issue (announced, not yet published); signals the ASM's prioritisation of AI in microbiology education rather than measuring disruption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Admissible: a real ASM announcement retrieved from theasmmeeting.org.au; dated to the announced Nov 2026 issue."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "microbiologists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "microbiologist",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 7,
+    "returned": 7,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Evolve Scientific",
+      "Alosca Technologies",
+      "Department of Health Tasmania",
+      "University of Melbourne"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "microbiology",
+      "laboratory",
+      "assay",
+      "culture",
+      "quality"
     ]
   },
   "corpus": {
@@ -1736,6 +2620,15 @@
         "date": "2026-08-29",
         "soc": "19-1022",
         "query": "Microbiologists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "soc": "19-1022",
+        "query": "Microbiologist",
         "location": "Australia",
         "returned": 10,
         "totalResults": 10,
@@ -1770,9 +2663,24 @@
           "youtube": 2
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 25,
+        "sources": {
+          "github": 2,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 12,
+          "x": 17,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

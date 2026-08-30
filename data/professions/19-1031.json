@@ -1363,24 +1363,831 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l465",
+      "text": "Intermediate Ecologists — Beca (Rockhampton, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Beca",
+          "title": "Intermediate Ecologists",
+          "url": "https://www.linkedin.com/jobs/view/4453397781",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l466",
+      "text": "Senior Ecohydrologist — NSW Department of Climate Change, Energy, the Environment and Water (Queanbeyan, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Department of Climate Change, Energy, the Environment and Water",
+          "title": "Senior Ecohydrologist",
+          "url": "https://www.linkedin.com/jobs/view/4452149529",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l467",
+      "text": "Senior Ecologist — Jacobs (North Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Jacobs",
+          "title": "Senior Ecologist",
+          "url": "https://www.linkedin.com/jobs/view/4454003176",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l468",
+      "text": "Senior Ecologist — Onterris (Brisbane, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Onterris",
+          "title": "Senior Ecologist",
+          "url": "https://www.linkedin.com/jobs/view/4432263494",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l469",
+      "text": "Principal Ecologist — SLR Consulting (Townsville, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "SLR Consulting",
+          "title": "Principal Ecologist",
+          "url": "https://www.linkedin.com/jobs/view/4424066338",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l470",
+      "text": "Senior Ecologist — WSP in Australia (Sydney, New South Wales, Australia). Posted 22 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "WSP in Australia",
+          "title": "Senior Ecologist",
+          "url": "https://www.linkedin.com/jobs/view/4384585095",
+          "date": "22 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l471",
+      "text": "Principal Ecologist — SLR Consulting (Cairns, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "SLR Consulting",
+          "title": "Principal Ecologist",
+          "url": "https://www.linkedin.com/jobs/view/4424066337",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l101",
+      "text": "The Environment Protection and Biodiversity Conservation Act 1999 (EPBC Act) is Australia's principal national environmental law, requiring referral, assessment and approval of actions likely to significantly impact nine matters of national environmental significance, and came into force on 16 July 2000.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Australian Government Department of Climate Change, Energy, the Environment and Water (DCCEEW)",
+          "title": "Environment Protection and Biodiversity Conservation Act 1999 (EPBC Act)",
+          "url": "https://www.dcceew.gov.au/environment/epbc",
+          "date": "2000-07-16",
+          "whatItMeasured": "Australia's main national environmental legislation and its referral/assessment/approval process for matters of national environmental significance."
+        }
+      ],
+      "scope": "Federal instrument only; does not capture state/territory equivalents or the 2025 subordinate-regulation refresh.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Binding only for actions impacting matters of national environmental significance or Commonwealth land/agencies; state laws govern most on-ground conservation work."
+    },
+    {
+      "id": "l102",
+      "text": "The Environment Protection and Biodiversity Conservation Regulations 2025 (instrument F2025L01584) commenced on 19 December 2025, replacing the EPBC Regulations 2000 ahead of their sunset date in substantially the same form with only minor corrections.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Australian Government Department of Climate Change, Energy, the Environment and Water (DCCEEW)",
+          "title": "Environment Protection and Biodiversity Conservation Act 1999 (EPBC Act)",
+          "url": "https://www.dcceew.gov.au/environment/epbc",
+          "date": "2025-12-19",
+          "whatItMeasured": "Commencement of the EPBC Regulations 2025 (instrument F2025L01584) replacing the 2000 regulations."
+        }
+      ],
+      "scope": "Subordinate regulations (not the Act itself); minor corrections only, so substantive obligations are unchanged from the 2000 framework.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Only the regulations were refreshed; the Act's referral/approval obligations are unchanged."
+    },
+    {
+      "id": "l103",
+      "text": "The Nature Repair Act 2023 establishes the Nature Repair Market, a national legislated biodiversity market issuing biodiversity certificates for projects that protect, manage or restore biodiversity, and environment protection reforms passed on 28 November 2025 allow those certificates to be used as environmental offsets where a method permits.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Australian Government Department of Climate Change, Energy, the Environment and Water (DCCEEW)",
+          "title": "Nature Repair Market",
+          "url": "https://www.dcceew.gov.au/environment/environmental-markets/nature-repair-market",
+          "date": "2025-11-28",
+          "whatItMeasured": "The Nature Repair Act 2023 framework and the 28 November 2025 reforms permitting biodiversity certificates to be used as offsets."
+        }
+      ],
+      "scope": "Voluntary national market; participation and offset use are conditional on the method and relevant environment protection laws.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Market is voluntary; certificate-as-offset applies only where the method and Rules allow and under relevant EPBC/state laws."
+    },
+    {
+      "id": "l104",
+      "text": "Under the Nature Repair Market's Replanting native forest and woodland ecosystems method, proponents must engage a Suitably Qualified Person (SQP) who has practised as an ecologist or botanist within the past three years, and must keep permanent sampling-plot and field-survey monitoring records for the permanence period.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Clean Energy Regulator (CER)",
+          "title": "Replanting native forest and woodland ecosystems method",
+          "url": "https://cer.gov.au/schemes/nature-repair-market-scheme/replanting-native-forest-and-woodland-ecosystems-method",
+          "date": "2025",
+          "whatItMeasured": "Method eligibility requiring an ecologist/botanist SQP and monitoring records (method instrument F2025L00253)."
+        }
+      ],
+      "scope": "Applies only to the first Nature Repair Market method (replanting native forest/woodland), not all biodiversity work.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "SQP ecologist requirement is method-specific; other methods may set different qualification rules."
+    },
+    {
+      "id": "l106",
+      "text": "The Carbon Credits (Carbon Farming Initiative) Act 2011 enables the Australian Carbon Credit Unit (ACCU) Scheme, administered by the Clean Energy Regulator, with six legislated Offset Integrity Standards (s133) that all carbon-abatement methods must meet.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Australian Government Department of Climate Change, Energy, the Environment and Water (DCCEEW)",
+          "title": "Australian Carbon Credit Unit (ACCU) Scheme",
+          "url": "https://www.dcceew.gov.au/climate-change/emissions-reduction/accu-scheme",
+          "date": "2011",
+          "whatItMeasured": "The ACCU Scheme under the CFI Act 2011 and its six Offset Integrity Standards (s133)."
+        }
+      ],
+      "scope": "Carbon-abatement/credit context; relevant to conservation scientists in revegetation/sequestration projects, not a general biodiversity duty.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Governs carbon credits, not standalone biodiversity protection; interacts with the Nature Repair Market via 'stacking'."
+    },
+    {
+      "id": "l107",
+      "text": "The Safeguard Mechanism (National Greenhouse and Energy Reporting (Safeguard Mechanism) Rule 2015, amended 2023) sets annually declining baselines on facilities emitting more than 100,000 tonnes CO2-e per year, covering 219 facilities in 2023-24 that produced about 31% of Australia's emissions.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Australian Government Department of Climate Change, Energy, the Environment and Water (DCCEEW)",
+          "title": "Safeguard Mechanism overview",
+          "url": "https://dcceew.gov.au/climate-change/emissions-reporting/national-greenhouse-energy-reporting-scheme/safeguard-mechanism/overview",
+          "date": "2024",
+          "whatItMeasured": "Safeguard Mechanism coverage, 219 facilities in 2023-24, and the 4.9% baseline decline rate from the 2023 reforms."
+        }
+      ],
+      "scope": "Industrial large-emitter emissions only; indirect relevance to conservation scientists via offset/survey work for proponents.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Binding on large industrial facilities, not on conservation scientists directly; relevance is via client compliance and ACCU offsetting."
+    },
+    {
+      "id": "l108",
+      "text": "Queensland's environmental offset framework draws on the Environmental Offsets Act 2014, Nature Conservation Act 1992, Vegetation Management Act 1999 and Environmental Protection Act 1994, with offsets legally secured through mechanisms such as environmental offset protection areas and voluntary declarations.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Queensland Government",
+          "title": "Legal security (environmental offsets)",
+          "url": "https://www.qld.gov.au/environment/management/environmental/offsets/delivering-legal-security",
+          "date": "2014",
+          "whatItMeasured": "Queensland statutory mechanisms for securing environmental offsets under the EO Act 2014, NC Act 1992, VM Act 1999 and EP Act 1994."
+        }
+      ],
+      "scope": "Queensland only; mechanisms specified exclude securing offsets for EPBC matters of national environmental significance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "QLD-specific; EPBC-conditioned offsets cannot be secured via QLD environmental offset protection areas."
+    },
+    {
+      "id": "l109",
+      "text": "The EIANZ Code of Ethics and Professional Conduct (revised 1 December 2021 to incorporate Indigenous knowledge, values and rights) binds Certified Environmental Practitioners (CEnvP), and the NSW EPA since 1 July 2017 has required certain reports to be prepared or reviewed by accredited practitioners.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "CEnvP Scheme / Environment Institute of Australia and New Zealand (EIANZ)",
+          "title": "EIANZ Code of Ethics & Professional Conduct",
+          "url": "https://cenvp.org/about-us/code-of-ethics-professional-conduct/",
+          "date": "2021-12-01",
+          "whatItMeasured": "EIANZ Code of Ethics obligations for environmental practitioners and the 1 December 2021 Indigenous-knowledge amendment."
+        }
+      ],
+      "scope": "Voluntary professional certification, not statute; the NSW EPA accreditation requirement is the main binding element.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "CEnvP is voluntary certification; only the NSW EPA requirement to use accredited practitioners is directly binding on report sign-off."
+    },
+    {
+      "id": "l201",
+      "text": "Jobs and Skills Australia reports ANZSCO 2343 'Environmental Scientists' — the Australian occupation group that encompasses Conservation Scientists (SOC 19-1031) — employed 32,000 people with annual employment growth of 1,000 (ABS Labour Force Survey, 2025 four-quarter average).",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Environmental Scientists (ANZSCO 2343)",
+          "url": "https://jobsandskills.gov.au/data/labour-market-insights/occupations/2343-environmental-scientists",
+          "date": "2026-02",
+          "whatItMeasured": "Employment size (32,000), annual growth (1,000) and weekly earnings for environmental scientists from ABS LFS 2025."
+        }
+      ],
+      "scope": "National ANZSCO 2343 proxy (includes conservation scientists but also other environmental scientists); ANZSCO-based pages not updated after the mid-2026 OSCA transition.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "ANZSCO 2343 is a broader grouping than SOC 19-1031; figures are a proxy, not a conservation-scientist-specific count."
+    },
+    {
+      "id": "l202",
+      "text": "Jobs and Skills Australia data show Environmental Scientists are distributed across NSW (22.1%), Victoria (21.4%), Queensland (20.6%) and Western Australia (20.4%), with about 49% living outside capital cities.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Environmental Scientists (ANZSCO 2343) — States and territories",
+          "url": "https://jobsandskills.gov.au/data/labour-market-insights/occupations/2343-environmental-scientists",
+          "date": "2026-02",
+          "whatItMeasured": "State/territory employment share and regional distribution for environmental scientists (ABS LFS Detailed, Feb 2026)."
+        }
+      ],
+      "scope": "National ANZSCO 2343 proxy; not conservation-scientist-specific and not state-level employment counts.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Share figures are for the broader environmental-scientist group, not SOC 19-1031 alone."
+    },
+    {
+      "id": "l204",
+      "text": "CSIRO's CRAGS2 (Ruggedised Autonomous Gigapixel System) uses solar-powered long-duration cameras and machine learning to automate seabird and seal colony surveillance on Albatross Island, delivering image-to-alert within 30 minutes for early disease detection.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "CSIRO",
+          "title": "Threatened, Endangered or Protected Species — Current activities (CRAGS2)",
+          "url": "https://research.csiro.au/teps/current-activities/",
+          "date": "2024",
+          "whatItMeasured": "An autonomous imaging + machine-learning system for remote colony health monitoring and HPAI early detection."
+        }
+      ],
+      "scope": "CSIRO applied-research demonstrator at one site; illustrates capability, not workforce-scale deployment.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single-site demonstrator; shows feasibility of autonomous AI monitoring rather than sector-wide practice."
+    },
+    {
+      "id": "l206",
+      "text": "A 2025 Biological Reviews paper on Australia's Wildlife Observatory (WildObs) — led by the ARDC and the Terrestrial Ecosystem Research Network — proposes the country's first national camera-trap data platform applying AI computer vision (MegaDetector) to classify wildlife at scale.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "QCIF (reporting WildObs / ARDC)",
+          "title": "New WildObs paper highlights challenges and opportunities in camera trap research",
+          "url": "https://qcif.edu.au/news/new-wildobs-paper-highlights-challenges-and-opportunities-in-camera-trap-research",
+          "date": "2025-02-04",
+          "whatItMeasured": "Review of a decade of Australian camera-trap data and the proposed national AI-enabled WildObs platform."
+        }
+      ],
+      "scope": "Proposed/emerging national infrastructure; the platform's build and adoption were not complete as of the 2025 review.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "WildObs described as a proposed initiative; the paper identifies gaps (standardisation, infrastructure) rather than reporting mature deployment."
+    },
+    {
+      "id": "l207",
+      "text": "The Productivity Commission's 2004 inquiry 'Impacts of Native Vegetation and Biodiversity Regulations' (Report No. 29) examined the economic effects of native-vegetation and biodiversity regulation across states and territories and their interaction with the EPBC Act 1999.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Productivity Commission",
+          "title": "Impacts of Native Vegetation and Biodiversity Regulations",
+          "url": "https://assets.pc.gov.au/inquiries/completed/native-vegetation/report/native-vegetation.pdf",
+          "date": "2004-04-08",
+          "whatItMeasured": "Independent review of economic impacts of native vegetation/biodiversity regulation and overlap with the EPBC Act."
+        }
+      ],
+      "scope": "2004 findings; predate the Nature Repair Market, mature ACCU Scheme and post-2020 EPBC reform — not the current regulatory state.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Historical (2004) analysis; does not reflect 2023-2025 nature-market and EPBC reforms."
+    },
+    {
+      "id": "l301",
+      "text": "The Ecological Society of Australia's September 2023 Bulletin 'Developing ethical and inclusive artificial intelligence for conservation' (Dr Emma Spencer, WWF-Australia) argues AI is increasingly used to process large conservation datasets, citing the Eyes on Recovery project that used AI to analyse about 5 million post-2019-20-bushfire images across south-eastern Australia.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Ecological Society of Australia (ESA)",
+          "title": "Developing ethical and inclusive artificial intelligence for conservation",
+          "url": "https://ecolsoc.org.au/bulletin/developing-ethical-and-inclusive-artificial-intelligence-for-conservation",
+          "date": "2023-09",
+          "whatItMeasured": "ESA practitioner commentary on AI for big conservation datasets and the ethics of its use."
+        }
+      ],
+      "scope": "Opinion/commentary, not a measurement of workforce adoption; focuses on ethics and inclusion.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Professional-body opinion piece; signals sentiment and use-cases, not quantified adoption."
+    },
+    {
+      "id": "l302",
+      "text": "A CSIRO, Aak Puul Ngantam Cape York and Microsoft NESP partnership (reported 18 February 2021) built a world-first AI cloud system that analyses aerial beach imagery to locate turtle nests and predator tracks, cutting a month of ground monitoring to about two hours.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Microsoft Australia News Centre",
+          "title": "Teaming up for turtles",
+          "url": "https://news.microsoft.com/en-au/features/teaming-up-for-turtles/",
+          "date": "2021-02-18",
+          "whatItMeasured": "Trade-press feature on an AI + drone/cloud system for turtle-nest and predator monitoring in Cape York under NESP."
+        }
+      ],
+      "scope": "Single celebrated case study (Cape York turtles); illustrates applied AI, not sector-wide practice.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Vendor/feature coverage of one project; not an independent measure of conservation-science task automation."
+    },
+    {
+      "id": "l303",
+      "text": "Wild magazine (Issue #198, Summer 2025) reported that Bush Heritage Australia, with eVorta and Timberscope, deployed an AI-powered 'HAND' trap using thermal image recognition and a satellite/5G app to remotely catch feral cats, with the first capture at Naree Reserve in June 2025.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Wild (Australian conservation magazine)",
+          "title": "Green Pages: Issue #198, Summer 2025 — AI's HAND-y Solution",
+          "url": "https://wild.com.au/conservation/green-pages-198/",
+          "date": "2025",
+          "whatItMeasured": "Trade-press brief on AI-enabled feral-cat trap technology deployed by Bush Heritage Australia."
+        }
+      ],
+      "scope": "One practitioner case study (feral-cat control); illustrative of AI tooling, not workforce-wide uptake.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single field deployment brief; no quantified effect on conservation-science employment or tasks."
+    },
+    {
+      "id": "l305",
+      "text": "The Ecological Society of Australia's 22 November 2023 Bulletin 'Nature Repair Market – Can we achieve nature-positive outcomes?' (Dr Alison Ritchie, UWA) assessed the proposed Nature Repair Market Bill 2023, noting Australia's biodiversity market had been valued at up to $137 billion (later revised to $70 billion).",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Ecological Society of Australia (ESA)",
+          "title": "Nature Repair Market – Can we achieve nature-positive outcomes?",
+          "url": "https://www.ecolsoc.org.au/bulletin/nature-repair-market/",
+          "date": "2023-11-22",
+          "whatItMeasured": "ESA practitioner commentary on the Nature Repair Market Bill 2023 and its biodiversity-market valuation."
+        }
+      ],
+      "scope": "Pre-passage commentary (Bill was before the Senate at time of writing); the Act ultimately passed in 2023 with 2025 offset reforms.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Commentary written while the Bill was pending; the market framework has since been legislated and amended (Nov 2025)."
+    },
+    {
+      "id": "l589",
+      "text": "Foundations: A theory of Automated Market Makers in DeFi\n**Topic:** Quantitative trading; machine learning for quant & trading; agentic coding techniques; LLMs & multimodal LLMs; and autonomous research (autoresearch / AI-scientist) systems — methods, papers, tools  \n**Date:** 2026-08-29\n\n**Theme:** AMM Theory, Routing, and Execution\nThese papers connect",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Foundations: A theory of Automated Market Makers in DeFi\n**Topic:** Quantitative…",
+          "url": "https://github.com/jjakimoto/research-issues/issues/1155",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l590",
+      "text": "Takes: In Outcome Monitors, the working ingredient is static affordance disclosure, not fault detection or its timing: rendering each tool's substitute-tool mapping ONCE as a table in the system prom…\n**Topic:** Quantitative trading; machine learning for quant & trading; agentic coding techniques; LLMs & multimodal LLMs; and autonomous research (autoresearch / AI-scientist) systems — methods, papers, tools  \n**Date:** 2026-08-24\n\n\n- **Rationale:** The paper's own controls already strip the mecha…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Takes: In Outcome Monitors, the working ingredient is static affordance disclosu…",
+          "url": "https://github.com/jjakimoto/research-issues/issues/957",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l591",
+      "text": "[ONBOARD: 3 RTC] Compare RustChain to Another Blockchain Project\n## Bounty: 3 RTC\n\n### What You'll Do\nResearch RustChain and compare it to another blockchain project you know.\n\n### Steps\n1. **Pick any other blockchain project**: Bitcoin, Ethereum, Solana, Ergo, Chia, whatever you know\n2. **Write a comparison** (300-800 words) covering:\n   - Consensus mechanism di\n/apply\n\nI'm interested in working on this bounty.\n\n**My approach:**\n1. Review the requirements thoroughly\n2. Implement a high-quality …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[ONBOARD: 3 RTC] Compare RustChain to Another Blockchain Project\n## Bounty: 3 RT…",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/2786",
+          "date": "2026-04-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "text": "📰 科研 & 技术热点日报 - 2026-06-02 上午\n# 🧠 科研 & 技术热点日报\n\n日期：2026-06-02 上午\n生成时间：2026/06/02 08:51\n\n## 📝 今日总结\n\n# 2026年6月2日 科研与技术热点新闻总结\n\n## 1. 今日最重要的技术趋势和热点\n\n**（1）神经符号AI融合成为解决复杂物理约束问题的关键路径**  \n今日多篇论文（如PhyDrawGen、Physically Viable World Models）共同指向一个趋势：纯数据驱动的生成模型（如扩散模型、大语言模型）在需要严格遵循物理定律、几何约束的领域（如物理图表生成、具身智能世界模型）存在系统性缺陷。研究者开始采用“神经-符号”混合架构：先用LLM",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "📰 科研 & 技术热点日报 - 2026-06-02 上午\n# 🧠 科研 & 技术热点日报\n\n日期：2026-06-02 上午\n生成时间：2026/06/02 …",
+          "url": "https://github.com/JaredYe04/news-bot/issues/150",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "text": "Update\nYes. The next logical step is a **public disclaimer / boundary statement** that prevents overclaiming while preserving authorship, intent, and safety posture.\n\nHere is a clean version you can put in the README, repo description, release notes, or public post:\n\n```md\n## Public Disclaimer\n\nThis reposi\nThe agent encountered an error and was unable to start working on this issue: Please try again later, or contact support if the problem persists. (Request id: 7D2E:25657B:10A51C2:14DD659:69FF6…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Update\nYes. The next logical step is a **public disclaimer / boundary statement*…",
+          "url": "https://github.com/Sovereign-Data-Foundation/3a7bd3e2360f7c3b7436f8d7c1b92eb4e3e53d54a17d3f5eae17eb4a69b1f04d-truealpha-spiral.py/issues/73",
+          "date": "2026-05-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l594",
+      "text": "Show HN: Multi Agent Protocol for AI Scientist by Hexo Labs",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Multi Agent Protocol for AI Scientist by Hexo Labs",
+          "url": "https://github.com/hexo-ai/socrates",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l595",
+      "text": "I dont understand how someone can be anti AI\nAI is such an exciting techology that is going to massively improve our lives and the world, it is going to bring massive economic gains and make our lives easier and more convenient. how can you possibly be against this? people are so weird. we should all be excited about it &#32; submitted by &#32; /u/technocraticnihilist &#32; to &#32; r/accelerate [link] &#32; [comments]\nPeople used to be against bridges being built. Don't try to understand it, it…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I dont understand how someone can be anti AI\nAI is such an exciting techology th…",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vozb95/i_dont_understand_how_someone_can_be_anti_ai/",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "text": "Chief Scientist of Redwood Research (AI safety lab) Ryan Greenblatt’s best guess prediction for AI progress over the next few years\n&#32; submitted by &#32; /u/JuglansRegia3 &#32; to &#32; r/accelerate [link] &#32; [comments]\nDon’t know why I bothered to click the Singularity post itself above. Haven’t been there in nearly a year, and it’s still full of denialists and decels, etc, I'm not reading all that, but I bet I would find it too slow, and the answer is to accelerate 🚀 Too conservative, I …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Chief Scientist of Redwood Research (AI safety lab) Ryan Greenblatt’s best guess…",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vn4583/chief_scientist_of_redwood_research_ai_safety_lab/",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l597",
+      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment…",
+          "url": "https://www.reddit.com/r/newbrunswickcanada/comments/1vkm48r/lorneville_ai_data_centre_update_eia_technical/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l598",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and …",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "Embrace conservative and progressive arguments regarding AI\nAI is going to change society a lot. Historically, big changes were handled through balance between conservative and progressive forces. If people run for the woods because they don&#39;t want to be associated with particular countries or groups of politicians, we miss the chance to have necessary debates and integrate technology in thoughtful ways. First, conservatism is belief that any big social change should happen gradually, with c…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Embrace conservative and progressive arguments regarding AI\nAI is going to chang…",
+          "url": "https://www.reddit.com/r/aiwars/comments/1vzydmy/embrace_conservative_and_progressive_arguments/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "Trinidad is calling for Transparency about the Memoranda of Understanding for US AI Data Centres.\nAs a concerned conservation scientist with experience with industry and the regulatory process, I was interviewed and my thoughts included in this article.\n\n https://t.co/rWY6BrDXn9",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Trinidad is calling for Transparency about the Memoranda of Understanding for US…",
+          "url": "https://x.com/hatchlinguist/status/2077380533793718617",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This Story\n📚 FEEL ALIVE II — UNLOCK YOUR INFINITE POWER (NEW BOOK)  https://ralphsmart.com/thebook/\nStep into your next level. This isn’t just a book… it’s a transformation.\n🔥 Exclusive Content (Patreon)\nGo deeper. Unlock powerful insights you won’t find anywhere else:\nhttps://patreon.com/ralphsmart\n👕 OFFICIAL INFINITE WATERS MERCH\nWear the message. Live the energy.\nhttp://www.ralphsmart.com/clothing\n🧠 1–1 CONSULTATIONS …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This…",
+          "url": "https://www.youtube.com/watch?v=TBECVlFNcKM",
+          "date": "2026-07-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "conservation scientists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "conservation scientist",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 82,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Australian Wildlife Conservancy",
+      "Department of Industry",
+      "Job Details",
+      "Department of Biodiversity Conservation and Attractions WA",
+      "Taronga Conservation Society Australia",
+      "Department of Biodiversity, Conservation and Attractions",
+      "Monash University",
+      "Department of Climate Change, Energy, the Environment and Water"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "conservation",
+      "land",
+      "GIS",
+      "restoration",
+      "ecosystem",
+      "monitoring",
+      "natural resource",
+      "catchment"
     ]
   },
   "corpus": {
@@ -1406,6 +2213,15 @@
         "date": "2026-08-29",
         "soc": "19-1031",
         "query": "Conservation Scientists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "soc": "19-1031",
+        "query": "Conservation Scientist",
         "location": "Australia",
         "returned": 10,
         "totalResults": 10,
@@ -1440,9 +2256,24 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 14,
+        "sources": {
+          "github": 9,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 7,
+          "x": 3,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

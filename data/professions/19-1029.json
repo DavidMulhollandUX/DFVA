@@ -1571,24 +1571,1061 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l475",
+      "text": "Scientist Ecotoxicology | 552626 — NSW Department of Climate Change, Energy, the Environment and Water (Lidcombe, New South Wales, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Department of Climate Change, Energy, the Environment and Water",
+          "title": "Scientist Ecotoxicology | 552626",
+          "url": "https://www.linkedin.com/jobs/view/4459627615",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l476",
+      "text": "Laboratory Diagnostic Technician — CSIRO (Geelong, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "CSIRO",
+          "title": "Laboratory Diagnostic Technician",
+          "url": "https://www.linkedin.com/jobs/view/4447262150",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l477",
+      "text": "USP Bioprocess Scientist II — Thermo Fisher Scientific (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Thermo Fisher Scientific",
+          "title": "USP Bioprocess Scientist II",
+          "url": "https://www.linkedin.com/jobs/view/4450468094",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l1-1",
+      "text": "Australia's national Gene Technology Regulatory Scheme, established under the Gene Technology Act 2000 (commenced 21 June 2001) and the Gene Technology Regulations 2001, requires an OGTR licence for any 'dealings' with genetically modified organisms, binding molecular biologists, biotechnologists and other biological scientists who work with GMOs.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Office of the Gene Technology Regulator",
+          "title": "Legislative documents",
+          "url": "https://www.ogtr.gov.au/about-ogtr/legislative-documents",
+          "date": "2001-06-21",
+          "whatItMeasured": "Stated the national scheme comprises the Gene Technology Act 2000 and Gene Technology Regulations 2001, took effect 21 June 2001, and that dealings with GMOs require OGTR authorisation; latest listed amendment commenced 26 Feb 2025."
+        }
+      ],
+      "scope": "Binds GMO work only; does not cover biological scientists who do not handle GMOs. Commonwealth scheme mirrored by state/territory corresponding legislation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Commonwealth instrument; state corresponding laws not individually enumerated."
+    },
+    {
+      "id": "l1-2",
+      "text": "The Biosecurity Act 2015 (Cth) is the primary legislation providing the legal powers for all of Australia's biosecurity activities, including controls on the import, movement and handling of biological material affecting human, animal and plant health.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Department of Agriculture, Fisheries and Forestry",
+          "title": "Legislation",
+          "url": "https://www.agriculture.gov.au/biosecurity-trade/policy/legislation",
+          "date": "2015",
+          "whatItMeasured": "Stated the Biosecurity Act 2015 is the primary legislation providing the legal powers for all of Australia's biosecurity activities."
+        }
+      ],
+      "scope": "Commonwealth biosecurity framework; parallel state/territory biosecurity, environment and health regulations not individually enumerated.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Framework Act; specific biosecurity control orders relate to importers/holders, not the occupation broadly."
+    },
+    {
+      "id": "l1-3",
+      "text": "NATA accredits Australian biological testing laboratories to ISO/IEC 17025, with a Life Sciences annex covering facilities using nucleic-acid detection techniques including for genetically modified materials, a competence standard many regulators and clients require.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "National Association of Testing Authorities, Australia",
+          "title": "Testing & Calibration (ISO/IEC 17025) Accreditation",
+          "url": "https://nata.com.au/accreditation/laboratory-accreditation-iso-iec-17025/",
+          "date": "2021-02-02",
+          "whatItMeasured": "Describes ISO/IEC 17025 accreditation and the Life Sciences ISO/IEC 17025 Annex covering facilities using nucleic-acid detection techniques (including genetically modified materials), Feb 2021; latest criteria update listed 17 Feb 2026."
+        }
+      ],
+      "scope": "Voluntary/market- or regulator-driven accreditation for testing labs, not a universal statutory licence for all biological scientists or research roles.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Accreditation, not a blanket occupational licence."
+    },
+    {
+      "id": "l1-4",
+      "text": "NHMRC's applicable-laws guidance requires researchers, including biological scientists, conducting GMO research to comply with the Gene Technology Act 2000 and also flags the Therapeutic Goods Act 1989, Defence Trade Controls Act 2012 and the Nagoya Protocol as binding obligations for funded research.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "National Health and Medical Research Council",
+          "title": "Applicable laws and obligations",
+          "url": "https://www.nhmrc.gov.au/research-policy/applicable-laws-and-obligations",
+          "date": "2026-08-30",
+          "whatItMeasured": "Lists applicable laws for researchers: Gene Technology Act 2000 for GMO research, Therapeutic Goods Act 1989, Defence Trade Controls Act 2012, Nagoya Protocol on access and benefit-sharing, plus animal-research and clinical-trial obligations."
+        }
+      ],
+      "scope": "Applies to NHMRC-funded/affiliated researchers and institutions; not a standalone licence for the occupation at large.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Institutional guidance page; retrieved 2026-08-30 (undated)."
+    },
+    {
+      "id": "l2-1",
+      "text": "Jobs and Skills Australia's ANZSCO 2345 'Life Scientists' profile (ABS Labour Force Survey, detailed February 2026) records 9,700 employed, 65% female, median full-time earnings of $1,544/week and median age 41 — the parent unit group containing the O*NET 19-1029 residual.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Life Scientists (ANZSCO 2345)",
+          "url": "https://jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations/2345-life-scientists",
+          "date": "2026-02",
+          "whatItMeasured": "ANZSCO 2345 Life Scientists profile: 9,700 employed, 65% female, median full-time earnings $1,544/wk, median age 41 (ABS LFS detailed Feb 2026)."
+        }
+      ],
+      "scope": "Covers the whole ANZSCO unit group 2345, not only the 'All Other' (nec) residual; ANZSCO profiles being retired for OSCA in mid-2026.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Group-level data; 19-1029 is the nec sub-component."
+    },
+    {
+      "id": "l2-2",
+      "text": "JSA's OSCA 244699 'Life Scientists nec' profile — the Australian classification closest to O*NET 19-1029 — shows 1,200 employed (2021), 77.1% full-time, median age 38 and 57.9% female, with no licensing or registration requirements listed.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Life Scientists nec (OSCA 244699)",
+          "url": "https://jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations-osca/244699-life-scientists-nec",
+          "date": "2021",
+          "whatItMeasured": "OSCA 244699 Life Scientists nec: 1,200 employed (2021 Census), 77.1% full-time, median age 38, 57.9% female; no licensing/registration requirements listed."
+        }
+      ],
+      "scope": "2021 Census basis; small cell with some fields suppressed for confidentiality; nearest proxy to 'All Other', not an exact match.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Proxy category; not a one-to-one mapping of O*NET 19-1029."
+    },
+    {
+      "id": "l2-3",
+      "text": "JSA's employment projections to May 2035 (Victoria University model) explicitly state they 'do not currently reflect the labour market implications of the adoption of generative AI and other emerging technologies' — a stated gap for any AI-disruption assessment of this occupation.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Employment Projections",
+          "url": "https://www.jobsandskills.gov.au/data/employment-projections",
+          "date": "2026-08-30",
+          "whatItMeasured": "JSA 10-year employment projections to May 2035 (Victoria University Employment Forecasting model) state they do not yet reflect generative-AI adoption; total Australian employment projected +13.3% over 10 years."
+        }
+      ],
+      "scope": "National, model-based projections with inherent uncertainty; omits gen-AI effects by JSA's own admission.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Retrieved 2026-08-30; projections page is continuously updated."
+    },
+    {
+      "id": "l2-4",
+      "text": "JSA's 'Australia's AI Transition: Jobs, Skills and the Future of Work' (Our Gen AI Transition capacity study, 2025) examines the early, emerging labour-market implications of generative AI adoption across Australian occupations, including science and technical roles.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Australia's AI Transition: Jobs, Skills and the Future of Work",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-03",
+          "whatItMeasured": "JSA's generative-AI capacity study examining early labour-market implications of generative AI adoption in Australia (referenced by the Employment Projections page)."
+        }
+      ],
+      "scope": "National capacity study; occupation-level gen-AI exposure for biological scientists not isolated in the retrieved summary.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Study date approximated from page assets (2025-03)."
+    },
+    {
+      "id": "l2-5",
+      "text": "A 2025 review in Current Opinion in Biotechnology argues that AI/ML coupled with biofoundry automation is shifting the biological scientist's role so that the most productive researchers will be those fluent in 'biology, robotics, and AI/ML' rather than laboratory technique alone (global/US scholarly perspective, not Australia-specific).",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Current Opinion in Biotechnology / University of Illinois",
+          "title": "AI-powered biofoundries for protein engineering and metabolic engineering",
+          "url": "https://zhaogroup.chbe.illinois.edu/publications/HZ474.pdf",
+          "date": "2025",
+          "whatItMeasured": "Review (Curr. Opin. Biotechnol. 2025, 96:103380) on converging AI/ML and biofoundry robotics, stating the most impactful researchers will be those well-versed in biology, robotics and AI/ML."
+        }
+      ],
+      "scope": "Global/US scholarly review; not an Australian study — scoped as US/global per lane rules.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Not Australia-specific; included to scope US/global automation literature."
+    },
+    {
+      "id": "l3-1",
+      "text": "AusBiotech's 2024-25 Annual Report states Australia's life sciences sector comprises over 2,900 organisations, employs one in every 60 Australian workers, and that the national peak body represents more than 3,000 members — context for demand for biological scientists.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "AusBiotech",
+          "title": "AusBiotech's Annual Report captures a defining year for life sciences",
+          "url": "https://ausbiotech.org/ABT/ABT/News/Media-Releases/AusBiotech%E2%80%99s_Annual_Report_captures_a_defining_year_for_life_sciences.aspx",
+          "date": "2025-10-06",
+          "whatItMeasured": "AusBiotech 2024-25 Annual Report: life sciences sector over 2,900 organisations, employs 1 in 60 Australian workers, 3,000+ members."
+        }
+      ],
+      "scope": "Peak-body advocacy figures (self-reported); covers the whole life-sciences ecosystem, not only biological scientists.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Self-reported member/ecosystem figures."
+    },
+    {
+      "id": "l3-3",
+      "text": "University of Sydney scientists reported (Nature Communications, July 2025) PROTEUS, a 'biological artificial intelligence' directed-evolution system that designs and evolves molecules inside mammalian cells — an example of AI tooling entering core molecular-biology workflows.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Medical Xpress (ScienceX)",
+          "title": "Scientists create biological 'artificial intelligence' system",
+          "url": "https://medicalxpress.com/news/2025-07-scientists-biological-artificial-intelligence.pdf",
+          "date": "2025-07-08",
+          "whatItMeasured": "News: University of Sydney scientists developed PROTEUS, a biological-AI directed-evolution platform operating in mammalian cells (Nature Communications 2025)."
+        }
+      ],
+      "scope": "Single research-team news item; proof-of-concept, not yet routine practice.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single-lab demonstration."
+    },
+    {
+      "id": "l3-4",
+      "text": "IBISWorld's 'Biotechnology in Australia' industry report puts 2026 market size at $13.0bn and a 3.2% CAGR over 2021-26, but its detailed revenue, employee and company figures are behind a paywall and could not be independently verified here.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "IBISWorld",
+          "title": "Biotechnology in Australia",
+          "url": "https://ibisworld.com/australia/industry/biotechnology/1901",
+          "date": "2026",
+          "whatItMeasured": "IBISWorld Biotechnology in Australia: market size $13.0bn (2026), +3.2% CAGR 2021-26; detailed revenue/employment figures behind paywall (shown as $xx.xx in retrieved snippet)."
+        }
+      ],
+      "scope": "Paywalled; only headline market-size and derived CAGR retrievable. Does not break out biological-scientist employment.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Headline only; full dataset inaccessible without subscription."
+    },
+    {
+      "id": "l3-5",
+      "text": "The Australian Society for Microbiology's governing documents require members (microbiologists — a Life Scientist 2345 specialty) to maintain professional competence and not engage in microbiological practices restricted by law or professional agreement.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Australian Society for Microbiology",
+          "title": "Governing Documents",
+          "url": "https://theasm.org.au/governing-documents",
+          "date": "2026-08-30",
+          "whatItMeasured": "ASM Code of Ethics requires members to maintain professional competence and not engage in microbiological practices restricted by law or professional agreement; society ~2,000 members."
+        }
+      ],
+      "scope": "Ethics-code obligation for ASM members only; one learned society within the broader biological-scientist population.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Retrieved 2026-08-30; member-count from secondary (Wikipedia) source."
+    },
+    {
+      "id": "l591",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1439 roles**, refreshed Sat Aug 29, 19:51 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [x] **SpaceX** — [New Graduate Engineer, Software - '26/'27 (Starlink)](https://boards.greenhouse.io/spacex/jobs/8696058002?gh_ji…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
+          "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "text": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidcoder @playforge-coding Would it be possible for the Sparkle developers to use Boxy on your infrastructure as a chatbot, but in such a way that it can't open PRs or commit to Sparkle?\n\n@OmniBlocks/boxy Please research how this could be done. Afterwards, please output a list of your current\n<details>\n<summary>🔧 My tool activity log (4 calls)</summary>\n\n**1. `read_memory`**\n\nParams:\n```json\n{\n  \"title\": \"Allowed Reposito…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidco…",
+          "url": "https://github.com/OmniBlocks/Boxy-gh/issues/63",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe …",
+          "url": "https://github.com/rakib06/mini-github/issues/14",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l594",
+      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n· I.G. Farben's post-w\n🤿\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL…",
+          "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/3",
+          "date": "2026-04-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l595",
+      "text": "Primus – AI Research Scientist",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Primus – AI Research Scientist",
+          "url": "https://lab.cloud/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "text": "What breaks in production AI workflows?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l597",
+      "text": "How al-Qaida and IS are adopting AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l598",
+      "text": "Show HN: AI scientist builds an open-source Codex Micro from scratch for $40",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: AI scientist builds an open-source Codex Micro from scratch for $40",
+          "url": "https://iluvatarlabs.com/blog/2026/08/how-we-cloned-openai-codex-micro/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "The death of AI workflow builders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "AI workflows: an industry optimising the wrong variables",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "Show HN: Multi Agent Protocol for AI Scientist by Hexo Labs",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Multi Agent Protocol for AI Scientist by Hexo Labs",
+          "url": "https://github.com/hexo-ai/socrates",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "Show HN: AI Workflow Builder App Template for React",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: AI Workflow Builder App Template for React",
+          "url": "https://www.jointjs.com/demos/ai-workflow-builder",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
+          "url": "https://github.com/bartwojtowicz/videopython",
+          "date": "2026-06-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "Scientists Sound Alarm on AI-Generated Biological Viruses Amid Unregulated Industry: “The ability to compose viral genomes using generative AI now exists; the governance to safely steer it does not,” a pair of researchers said.\n&#32; submitted by &#32; /u/Confident_Salt_8108 &#32; to &#32; r/Futurology [link] &#32; [comments]\nIt's humanity, we won't legislate until after something bad happens. Seems like most countries are looking backwards and not forward. You mean it’s old people in legislatur…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Scientists Sound Alarm on AI-Generated Biological Viruses Amid Unregulated Indus…",
+          "url": "https://www.reddit.com/r/Futurology/comments/1vjg8sn/scientists_sound_alarm_on_aigenerated_biological/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "Post-AI Cynicism, the “Behavioral Sink,” and the Evolution of Human Motivation\nAfter Scarcity: For most of human history, civilization was organized around a simple psychological equation: survival required effort, and effort required motivation. Hunger compelled production; scarcity generated competition; danger created solidarity; social exclusion imposed conformity; and the prospect of wealth or status encouraged individuals to work beyond immediate biological necessity. Human institutions gr…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Post-AI Cynicism, the “Behavioral Sink,” and the Evolution of Human Motivation\nA…",
+          "url": "https://www.reddit.com/r/AfterClass/comments/1vslxn7/postai_cynicism_the_behavioral_sink_and_the/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and …",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "What Would Actually Happen If Governments Confirmed That Non-Human Intelligence Is Already Here? (Do you agree with the AI?)\nSuggested Reddit Title What Would Actually Happen If Governments Confirmed That Non-Human Intelligence Is Already Here? Let us assume, for the sake of discussion, that an official announcement is made and supported by convincing evidence: Non-human intelligence exists, it has reached Earth, and some form of presence is already here. This would not be comparable to discover…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "What Would Actually Happen If Governments Confirmed That Non-Human Intelligence …",
+          "url": "https://www.reddit.com/r/UFOs_Archive/comments/1vg5cdd/what_would_actually_happen_if_governments/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "Governing AI in Complex Societies\nFrom Algorithmic Leviathan to Cognitive Democracy: Abstract Artificial intelligence is rapidly becoming part of the infrastructure through which modern societies perceive, predict and govern themselves. This transformation creates a fundamental institutional dilemma. AI can dramatically expand the capacity of governments and citizens to process information, simulate complex systems and evaluate policy consequences. Yet the same technologies can concentrate infor…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Governing AI in Complex Societies\nFrom Algorithmic Leviathan to Cognitive Democr…",
+          "url": "https://www.reddit.com/r/IT4Research/comments/1vjpoin/governing_ai_in_complex_societies/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5112",
+      "text": "Framework for if ai does become sentient/concious\n⚠️this paper was generated with the assistance of an AI. but the core concepts, framework design, logic, and original ideas are entirely my own. This was generated after discussing every one of my ideas and having them combine them into one giant text⚠️ Current AI alignment paradigms focus heavily on containment, RLHF (Reinforcement Learning from Human Feedback), or total termination capabilities. This paper proposes an alternative framework: The…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Framework for if ai does become sentient/concious\n⚠️this paper was generated wit…",
+          "url": "https://www.reddit.com/r/PhilosophyofMind/comments/1valnc4/framework_for_if_ai_does_become_sentientconcious/",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5113",
+      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide 🧵👇\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16…",
+          "url": "https://x.com/msyed_/status/2093227435961565570",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5114",
+      "text": "1/ We spent H1 2026 talking to 20+ CTOs about agentic AI adoption in engineering teams. \n\nOn average, organizations spend $1-2K per engineer per month on tokens (many spend less!). But the average hides a wide internal distribution: a few heavy parallel-agent users at $8-10K/month, many lighter users near zero. \n\nHint: @liranesh says if you’re spending <$1K/month, you’re not there yet.\n\nDive into the token trends to see the real story. 🧵",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "1/ We spent H1 2026 talking to 20+ CTOs about agentic AI adoption in engineering…",
+          "url": "https://x.com/BessemerVP/status/2093020817827168419",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5115",
+      "text": "AI NEWS: Week of August 24–30, 2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI NEWS: Week of August 24–30, 2026",
+          "url": "https://x.com/davidakpovi/status/2093287033800179758",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5116",
+      "text": "Friday fintech funding!\n\nBevel raised a $6M seed from SHAKTI, @ResoluteVC & @BessemerVP   \n\nBeveil is building a licensed high-net-worth personal lines brokerage covering home, auto & personal. Producers are paired w/ internally built AI that handles back office workflow, risk analysis + carrier submissions. They started as a free AI tool for LA fire survivors to document lost inventory for claims. \n\nSome stats: \n- Used by 25%+ of Palisades & Eaton fire survivors \n- 500k+ items inventoried \n- No",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Friday fintech funding!\n\nBevel raised a $6M seed from SHAKTI, @ResoluteVC & @Bes…",
+          "url": "https://x.com/jbahrdestefano/status/2093369695051161850",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5117",
+      "text": "6/ This is just one piece of the larger picture when it comes to AI transformation.\n\n@liranesh and @AdamRFisher published The Agentic Awakening ⭐️— the AI-pilled playbook on building the right infrastructure, creating evangelists, and restructuring orgs around agentic development. \n\nLearn more about AI measurement and read the full report here: https://t.co/Std7JCvDib",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "6/ This is just one piece of the larger picture when it comes to AI transformati…",
+          "url": "https://x.com/BessemerVP/status/2093021976616964520",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5118",
+      "text": "5/ The measurement advantage is simple: define a peer set (same stage, sector, architecture class), instrument three numbers (AI-attributed code %, effective FTE per human engineer, token spend per engineer), update quarterly. Almost no one does this systematically yet.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "5/ The measurement advantage is simple: define a peer set (same stage, sector, a…",
+          "url": "https://x.com/BessemerVP/status/2093021761675608418",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5119",
+      "text": "4/ @Uber burned through its entire 2026 AI budget by April—84% of engineers agentic, 70%+ AI-generated code. \n\n@Salesforce is substituting tokens for hiring: ~$300M annually. Neither had systematic measurement before the spike hit.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "4/ @Uber burned through its entire 2026 AI budget by April—84% of engineers agen…",
+          "url": "https://x.com/BessemerVP/status/2093021670747357300",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5120",
+      "text": "Here's what's happening in tech in the land down under. \n\n1/10\n\nAustralia is cutting deals on coal-powered data centres while drawing a hard line against AI-generated music.\n\nAt the same time, Meta just agreed to a massive $25B settlement over teen social media addiction.\n\nThe tech policy landscape is shifting fast.\n\nHere is the full breakdown of what moved across tech, policy, and AI this week 🧵👇\n\n2/10\n\nPrime Minister Anthony Albanese just gave ground on national data centre energy rules.\n\nQuee",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Here's what's happening in tech in the land down under. \n\n1/10\n\nAustralia is cut…",
+          "url": "https://x.com/msyed_/status/2093239477473021974",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5121",
+      "text": "The biotech AI innovation stack",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The biotech AI innovation stack",
+          "url": "https://x.com/BessemerVP/status/2049909274508394922",
+          "date": "2026-04-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5122",
+      "text": "AI just created a brand new virus. Should we be scared? | BBC News\nArtificial Intelligence has been used to design brand new viruses that are fully functional and can replicate in the laboratory, say US researchers.\n \nIt is the first time whole genomes have been successfully designed by AI.\n \nThe resulting 16 novel viruses were created to infect bacteria and pose no threat to people. But experts have also warned AI-designed viruses raise \"urgent\" safety and security concerns.\n \nIn this video...\n…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI just created a brand new virus. Should we be scared? | BBC News\nArtificial In…",
+          "url": "https://www.youtube.com/watch?v=z9FXO6_0Nv0",
+          "date": "2026-08-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5123",
+      "text": "Claude Mythos is too dangerous for public consumption...\nBrowserbase is the simplest way to give your agents access to the whole web. Try it for free - https://browserbase.run/fireship\n\nAnthropic locked down their new Mythos model because they say it's too dangerous for normies like you and me to use. Let's investigate...\n\n#mythos #ai #programming #claude \n\nResources:\nhttps://www.trendmicro.com/en_us/research/26/c/axios-npm-package-compromised.html\n\nWant more Fireship?\n\n🗞️ Newsletter: https://by…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Claude Mythos is too dangerous for public consumption...\nBrowserbase is the simp…",
+          "url": "https://www.youtube.com/watch?v=d3Qq-rkp_to",
+          "date": "2026-04-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "biological scientists, all other",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "biological scientist",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 310,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Mercor",
+      "SchoolHouse",
+      "Monash University",
+      "Monash IVF Group",
+      "The University of Auckland",
+      "Blue Mountains Grammar School",
+      "Kolbe Catholic College",
+      "Macro Recruitment"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "biology",
+      "research",
+      "laboratory",
+      "data",
+      "analysis",
+      "molecular",
+      "trial"
     ]
   },
   "corpus": {
@@ -1614,6 +2651,15 @@
         "date": "2026-08-29",
         "soc": "19-1029",
         "query": "Biological Scientists, All Other",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "soc": "19-1029",
+        "query": "Biological Scientist",
         "location": "Australia",
         "returned": 10,
         "totalResults": 10,
@@ -1646,9 +2692,24 @@
           "youtube": 3
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 33,
+        "sources": {
+          "github": 4,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 7,
+          "x": 17,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

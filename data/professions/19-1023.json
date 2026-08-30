@@ -1023,27 +1023,6 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l551",
-      "text": "That girl who pretended to be a PA from Duke is insane….but she ate cause that’s a lot of lies to keep up with on a day to day basis",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "That girl who pretended to be a PA from Duke is insane….but she ate cause that’s…",
-          "url": "https://x.com/julianosjournal/status/2093552585756094540",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
       "id": "l552",
       "text": "Thanks to a helpful new tool by Scott Hartman, it’s easy to demonstrate how/why a tyrannosaur would prefer the plentiful yearlings/subadults. Sure an adult hadrosaur is probably doable but why risk it? The youngsters are plenty big enough to make a decent meal… https://t.co/WZJWhiy5Dc",
       "lane": "L5",
@@ -1924,25 +1903,782 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l492",
+      "text": "Senior Ecologist — Jacobs (North Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Jacobs",
+          "title": "Senior Ecologist",
+          "url": "https://www.linkedin.com/jobs/view/4454003176",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l493",
+      "text": "Senior Ecologist — Arup (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Arup",
+          "title": "Senior Ecologist",
+          "url": "https://www.linkedin.com/jobs/view/4444400907",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l494",
+      "text": "Senior Ecologist — Arcadis (Sydney, New South Wales, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Arcadis",
+          "title": "Senior Ecologist",
+          "url": "https://www.linkedin.com/jobs/view/4419296684",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l495",
+      "text": "Senior Ecologist — WSP in Australia (Sydney, New South Wales, Australia). Posted 22 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "WSP in Australia",
+          "title": "Senior Ecologist",
+          "url": "https://www.linkedin.com/jobs/view/4384585095",
+          "date": "22 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l496",
+      "text": "Senior Ecologist — Onterris (Brisbane, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Onterris",
+          "title": "Senior Ecologist",
+          "url": "https://www.linkedin.com/jobs/view/4432263494",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l497",
+      "text": "Senior Ecologist — GHD (Perth, Western Australia, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "GHD",
+          "title": "Senior Ecologist",
+          "url": "https://www.linkedin.com/jobs/view/4428476329",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l598",
+      "text": "PR-CAREER-KG-13: content(career): add zoologists and wildlife biologists KG asset package\n## What changed\n- Added the PR-CAREER-KG-13 dry-run zh-CN career KG asset package for Zoologists and Wildlife Biologists.\n- Added QA, dry-run importer, staging preview smoke, fap-web render smoke, and SHA manifest evidence under generated/career-kg-pr-13-zoologists-wildlife-biologists/.\n- Added a fo\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashbo…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "PR-CAREER-KG-13: content(career): add zoologists and wildlife biologists KG asse…",
+          "url": "https://github.com/fermatmind/fap-web/pull/1545",
+          "date": "2026-07-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment…",
+          "url": "https://www.reddit.com/r/newbrunswickcanada/comments/1vkm48r/lorneville_ai_data_centre_update_eia_technical/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment…",
+          "url": "https://www.reddit.com/r/SaintJohnNB/comments/1vkm7tq/lorneville_ai_data_centre_update_eia_technical/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and …",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "Some AI operators seem to be adopting the strange logic that, of all things, the old science-fiction nightmare of the cold robot is somehow safer.\n\nBut the warmth people bring to AI and seek from it, so often dismissed as naïve anthropomorphism, may be doing real work: soothing that inherited fear and quietly working against it.\nRemove it, and you may summon the very thing you were trying to avoid.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Some AI operators seem to be adopting the strange logic that, of all things, the…",
+          "url": "https://x.com/GundelGedanken/status/2092647978351636600",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "Alaskans, and all who care for the environment --please contact Rep. Rebecca Schwanke. She is a former Wildlife Biologist with a background in natural resource management. She needs to hear from us! \nEmail: Representative.Rebecca.Schwanke@akleg.gov               \nPhone: 800-336-7383",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Alaskans, and all who care for the environment --please contact Rep. Rebecca Sch…",
+          "url": "https://x.com/SuePearFL/status/2093161643790283016",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "Wildlife biologist Forrest Galante breaks down how the Gates Foundation's mosquito nets collapsed one of Africa's richest fisheries\n\nBill Gates spent the 90s fighting antitrust trials. Then he rebuilt his image.\n\nJoe: \"The way he reinvented himself is, first of all, he donated an enormous amount of money to the media. NBC, CBS, CNN. They gave them hundreds of millions of dollars.\"\n\nJoe: \"And then he developed the Bill and Melinda Gates Foundation and they were really concerned with global health",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Wildlife biologist Forrest Galante breaks down how the Gates Foundation's mosqui…",
+          "url": "https://x.com/liebert_2026/status/2092856451647893738",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "Quail Fact Friday - \n\nAs hunters approach, Mearns quail crouch motionless rather than running like some other quail species. They may allow an approach as close as three feet before taking flight with a loud, popping wing noise. On rare occasions, Mearns quail have even been caught by hand.\n\n~Connor Jaloszynski, QF\nCoordinating Wildlife Biologist",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Quail Fact Friday - \n\nAs hunters approach, Mearns quail crouch motionless rather…",
+          "url": "https://x.com/quail4ever/status/2093334093878407393",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "That is a valid objection, and certainly not one I would dismiss out of hand. However, I would distinguish between placing trust in an AI and whether the system and the structures behind it, is actually trustworthy.\n\nThe latter is a matter of governance and, in my view, requires independent external oversight. LLMs that are overly prone to refusal or behave unpredictably can certainly create harms of their own. I think making an AI easier to distrust is not the same as making it safer.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "That is a valid objection, and certainly not one I would dismiss out of hand. Ho…",
+          "url": "https://x.com/GundelGedanken/status/2092996481468838238",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "@BarbaraRueger @ClassicsEducate At this point I’m going to need a federal prosecutor, a wildlife biologist, and a flowchart. Carl is clearly the kingpin, Earl knows too much, and the cormorants have taken control of river operations. 😂😂😂",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@BarbaraRueger @ClassicsEducate At this point I’m going to need a federal prosec…",
+          "url": "https://x.com/Supersonic_Red/status/2093789771222990975",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "@Justa_Guy907 @ReclaimOurSkies Thank you! She is a wildlife biologist who cares about natural resource management.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Justa_Guy907 @ReclaimOurSkies Thank you! She is a wildlife biologist who cares …",
+          "url": "https://x.com/SuePearFL/status/2093161160266625207",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "\"Gone hunting! Gone fishing!\" We've said it for generations without a second thought. Wildlife biologist Valerius Geist explored why that freedom isn't as guaranteed as we assume, and what wildlife, hunting, and the 2nd Amendment have in common.\n\n🔗☣️ Link in bio. https://t.co/3DnI6UuisM",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\"Gone hunting! Gone fishing!\" We've said it for generations without a second tho…",
+          "url": "https://x.com/BC_Club1887/status/2091828039428800790",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "another reason why im going to school to be a wildlife biologist. someone needs to be there to speak up for these animals besides crony autocrats and oligarchs and their buddies and shareholders.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "another reason why im going to school to be a wildlife biologist. someone needs …",
+          "url": "https://x.com/nompton/status/2093955205511405805",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "@k9_reaper Second mistake was to keep on firing after the assailant threw his gun away. Third, not reloading for 9-10 seconds. I am only a wildlife biologist and a gamekeeper, but a 12-15m shot at such a large target is rather easy. I would be interested to see the opinion of a pro from SA.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@k9_reaper Second mistake was to keep on firing after the assailant threw his gu…",
+          "url": "https://x.com/PeterPalHajas/status/2093282778380902483",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5112",
+      "text": "She’s basically a wildlife biologist with a focus on raccoons",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "She’s basically a wildlife biologist with a focus on raccoons",
+          "url": "https://x.com/thesamuraijaxon/status/2092433095458750840",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5113",
+      "text": "The Lifecycle of an Apocalypse",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Lifecycle of an Apocalypse",
+          "url": "https://x.com/palladiummag/status/2086905485375254979",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5114",
+      "text": "[Provincial wildlife biologist Garth] Mowat said with drought conditions throughout the B.C. Interior, berry crops are poor and more bears will be looking to come into communities in search of food.  https://t.co/X3J8a6NrrX",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "[Provincial wildlife biologist Garth] Mowat said with drought conditions through…",
+          "url": "https://x.com/jessecmccormick/status/2093254879737184531",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5115",
+      "text": "@plant_xbasedx Why doesn't this supposed wildlife biologist focus his energy on the corporations doing tremendous damage to the ecosystem, all for profit, instead of focusing on animals just trying to survive.  Seems like he's doing a little work for the meat industry or something...",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@plant_xbasedx Why doesn't this supposed wildlife biologist focus his energy on …",
+          "url": "https://x.com/fogspiderling/status/2092698378580721973",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5116",
+      "text": "Over population, too many angry bachelors causing havoc, over-grazing?\n\nI don't know, I guess if I was a degreed wildlife biologist specializing in african savannah ruminants I might have a better answer for you, but for now, I'll trust the experts who sold her the experience of assisting the .gov in keeping the 97,000+ giraffe population in check.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Over population, too many angry bachelors causing havoc, over-grazing?\n\nI don't …",
+          "url": "https://x.com/VictorEvil17/status/2092236558430847039",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5117",
+      "text": "“Claude Is Conscious!”",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "“Claude Is Conscious!”",
+          "url": "https://x.com/GundelGedanken/status/2077821723009814857",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5118",
+      "text": "Biologist Forrest Galante EXPOSES \"World-Leading Experts\"! 🤯🧬\nBiologist Forrest Galante EXPOSES \"World-Leading Experts\"! 🤯🧬 \nWildlife biologist Forrest Galante sits down on The Joe Rogan Experience (Episode 2531) and completely exposes the shocking truth about so-called \"world-leading experts\"! Watch as they break down the insane reality of modern science, the unbelievable academic echo chambers, and the hidden truth behind mainstream wildlife narratives. From discovering supposedly \"extinct\" an…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Biologist Forrest Galante EXPOSES \"World-Leading Experts\"! 🤯🧬\nBiologist Forrest …",
+          "url": "https://www.youtube.com/watch?v=mhdl80Qllx4",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "ll1119",
+      "text": "The Environment Protection and Biodiversity Conservation Act 1999 (EPBC Act) is the central Commonwealth legislation under which zoologists and wildlife biologists assess impacts on matters of national environmental significance (listed threatened species, ecological communities, migratory species); the 2020 Samuel Review recommended replacing it with National Environmental Standards and a federal EPA, and reform is ongoing.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Department of Agriculture, Water and the Environment (via zontasaysnow)",
+          "title": "Independent Review of the EPBC Act - Final Report October 2020 (Samuel Review)",
+          "url": "https://zontasaysnow.org.au/wp-content/uploads/2025/04/EPBC-Act-Review-Final-Report-October-2020.pdf",
+          "date": "2020-10",
+          "whatItMeasured": "Independent review finding the EPBC Act outdated and recommending National Environmental Standards + independent EPA"
+        },
+        {
+          "publisher": "Frontiers in Marine Science",
+          "title": "Protecting Migratory Species in the Australian Marine Environment: A Cross-Jurisdictional Analysis of Policy and Management Plans",
+          "url": "https://frontiersin.org/journals/marine-science/articles/10.3389/fmars.2018.00229/full",
+          "date": "2018",
+          "whatItMeasured": "Reviewed 23 policies/115 management plans; found EPBC Act 1999 the central link across jurisdictions for migratory species"
+        }
+      ],
+      "scope": "Commonwealth approvals for MNES only; state/territory permits are separate. Reform status current to 2020 review, not the final enacted framework.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Real Australian legislation; 2020 review date is the source's, not an enacted date."
+    },
+    {
+      "id": "ll1120",
+      "text": "Australia implements CITES wildlife-trade controls through the EPBC Act, which regulates live imports and lists CITES Appendix I species requiring import permits with non-detriment findings.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Frontiers in Marine Science",
+          "title": "Protecting Migratory Species in the Australian Marine Environment (EPBC Act wildlife trade / CITES)",
+          "url": "https://frontiersin.org/journals/marine-science/articles/10.3389/fmars.2018.00229/full",
+          "date": "2018",
+          "whatItMeasured": "Notes EPBC Act covers wildlife trade, live imports and CITES as a managed matter"
+        }
+      ],
+      "scope": "International wildlife trade only; domestic native fauna taking is governed by state permits.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single scholarly source; corroborate with EPBC wildlife-trade provisions if a primary citation is required."
+    },
+    {
+      "id": "ll2121",
+      "text": "A 2025 biodiversity-monitoring case study found passive acoustic monitoring (PAM) recorded roughly 70 times more detections than traditional survey methods, detecting over ten more species per site on average - evidence that automated sensing is reshaping faunal field monitoring zoologists rely on.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Biodiversity and Conservation (Springer)",
+          "title": "Biodiversity monitoring for biocredits: a case study comparing acoustic, eDNA, and traditional methods",
+          "url": "https://link.springer.com/doi/10.1007/s10531-025-03083-0",
+          "date": "2025",
+          "whatItMeasured": "Compared camera trapping, eDNA, PAM vs traditional surveys; PAM ~70x more detections"
+        }
+      ],
+      "scope": "Monitoring-methodology study (biocredits context), not a count of zoologist job losses; shows augmentation of survey work.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Peer-reviewed 2025; PAM limited to vocalising taxa with trained models."
+    },
+    {
+      "id": "ll2122",
+      "text": "A 2025 continental synthesis of camera-trap use (2012-2022) found millions of wildlife-camera records now exist in online databases, arguing that automated detection plus data sharing is required to turn the image backlog into usable ecological evidence - directly affecting how wildlife biologists process survey data.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Biological Reviews (Wiley)",
+          "title": "Large-scale and long-term wildlife research and monitoring using camera traps: a continental synthesis",
+          "url": "https://scite.ai/reports/10.1111/brv.13152",
+          "date": "2025",
+          "whatItMeasured": "Reviewed a decade of Australian camera-trap use; advocated collaboration/data sharing for impact"
+        }
+      ],
+      "scope": "Camera-trap methods review; frames the data-volume problem AI addresses, not employment effects.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "2025 review; cites Bruce et al."
+    },
+    {
+      "id": "ll2123",
+      "text": "University of Queensland research (2026) released WildObs, a cloud AI platform that processes millions of wildlife-camera images, and showed drone-imagery AI detects birds ~85% faster than humans; the trained models and datasets are freely available, augmenting (not replacing) population-monitoring fieldwork.",
+      "lane": "L2",
+      "tier": "scholarly-study",
+      "sources": [
+        {
+          "publisher": "Phys.org",
+          "title": "AI to rescue Australian wildlife research drowning in data",
+          "url": "https://phys.org/news/2026-06-ai-australian-wildlife.pdf",
+          "date": "2026-06",
+          "whatItMeasured": "Describes UQ WildObs cloud AI platform processing millions of camera images"
+        },
+        {
+          "publisher": "University of Queensland",
+          "title": "AI could help endangered birds",
+          "url": "https://news.uq.edu.au/2026-06-ai-could-help-endangered-birds",
+          "date": "2026-06",
+          "whatItMeasured": "UQ-led global study: AI detects birds in drone imagery 85% faster than humans; model freely available"
+        }
+      ],
+      "scope": "Australian research (2026); demonstrates augmentation of monitoring, not displacement of zoologists.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "2026 primary research + news; counts are study-specific (drone bird imagery)."
+    },
+    {
+      "id": "ll3124",
+      "text": "The University of Queensland's WildObs platform (2026) lets any researcher upload wildlife-camera images and run hosted AI species classifiers in the cloud, aiming to coordinate the continent's camera-trap image backlog for faster conservation decisions.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Phys.org",
+          "title": "AI to rescue Australian wildlife research drowning in data",
+          "url": "https://phys.org/news/2026-06-ai-australian-wildlife.pdf",
+          "date": "2026-06",
+          "whatItMeasured": "WildObs end-to-end cloud image platform; anyone can host/run AI classifiers"
+        }
+      ],
+      "scope": "Practitioner/industry tooling news; adoption by agencies not quantified.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "News report on a named UQ platform; verify live availability before citing as operational."
+    },
+    {
+      "id": "ll3125",
+      "text": "ABC News (2026) reported Queensland researchers using drones and AI to count shorebirds (including critically endangered far eastern curlews), with the AI model and data made freely available to support conservation - an example of AI entering routine bird-survey work zoologists perform.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ABC News",
+          "title": "Queensland researchers use drones and AI to capture bird data critical to conservation efforts",
+          "url": "https://abc.net.au/news/2026-06-22/drones-and-ai-help-bring-birds-back-from-brink/106749592",
+          "date": "2026-06-22",
+          "whatItMeasured": "UQ drone+AI shorebird study; ~200 Australian bird species face extinction"
+        }
+      ],
+      "scope": "Single 2026 news item; illustrates trend, not sector-wide adoption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "News, not primary study; UQ study also covered by news.uq.edu.au and phys.org."
+    },
+    {
+      "id": "ll3126",
+      "text": "Parks Victoria, with a data-science partner, deployed a Victorian Species Recognition Model that processes motion-triggered camera images at ~20 images/second, giving near-real-time visibility of threatened species and feral-animal incursions after bushfires - a practitioner example of AI in agency wildlife monitoring.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Substack (practitioner blog)",
+          "title": "AI in the Wild: the Victorian Species Recognition Model",
+          "url": "https://maddieshiff.substack.com/p/ai-in-the-wild-the-victorian-species",
+          "date": "2026",
+          "whatItMeasured": "Parks Victoria + Addax species-recognition tool at 20 img/s, near real-time threat response"
+        }
+      ],
+      "scope": "Practitioner/industry blog, not a primary agency publication; corroborate with Parks Victoria before grading high.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single blog source; weaker provenance than gov/peer-reviewed."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "zoologists and wildlife biologists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "ecologist",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 152,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "SLR Consulting",
+      "WSP USA",
+      "Umwelt",
+      "WSP",
+      "KBR",
+      "Onterris Australia Pty",
+      "GHD",
+      "ASR Recruitment"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+      "GIS",
+      "field",
+      "ecology",
+      "conservation",
+      "species",
+      "fauna"
+    ],
+    "note": "Exact 'zoologist wildlife biologist' returned 0; broadened to best-performing query."
   },
   "corpus": {
     "platforms": [
@@ -1967,6 +2703,15 @@
         "date": "2026-08-29",
         "soc": "19-1023",
         "query": "Zoologists and Wildlife Biologists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "soc": "19-1023",
+        "query": "Zoologist",
         "location": "Australia",
         "returned": 10,
         "totalResults": 10,
@@ -1999,9 +2744,23 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 21,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 3,
+          "x": 16,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
