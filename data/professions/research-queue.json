@@ -456,9 +456,9 @@
     "31-9096": "pending",
     "31-9097": "pending",
     "31-9099": "pending",
-    "33-3012": "pending",
-    "33-3021": "pending",
-    "33-3051": "pending",
+    "33-3012": "done",
+    "33-3021": "done",
+    "33-3051": "done",
     "35-3011": "pending",
     "35-3022": "pending",
     "35-3031": "pending",
@@ -596,7 +596,10 @@
     "19-1042": 1,
     "19-3094": 1,
     "19-4011": 1,
-    "19-4021": 1
+    "19-4021": 1,
+    "33-3012": 1,
+    "33-3021": 1,
+    "33-3051": 1
   },
   "leases": {},
   "runs": [
@@ -1229,6 +1232,24 @@
       "soc": "19-4021",
       "status": "done",
       "note": "empirical-five-lane-v1 autoloop: L1-L5 folded; Factiva skipped (auth expired, backlog logged); confidence=high"
+    },
+    {
+      "at": "2026-08-30T15:49:49.169393+00:00",
+      "soc": "33-3012",
+      "status": "done",
+      "note": ""
+    },
+    {
+      "at": "2026-08-30T15:49:49.269840+00:00",
+      "soc": "33-3021",
+      "status": "done",
+      "note": ""
+    },
+    {
+      "at": "2026-08-30T15:49:49.372042+00:00",
+      "soc": "33-3051",
+      "status": "done",
+      "note": ""
     }
   ],
   "claims": [

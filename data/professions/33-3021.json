@@ -7,10 +7,10 @@
   "anzsco": "220000",
   "window": {
     "from": "2025-08-01",
-    "to": "2026-08-24"
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
   "programs": [
     "274ab"
   ],
@@ -1715,6 +1715,678 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l482",
+      "text": "MDR Detection & Response Analyst — Rapid7 (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Rapid7",
+          "title": "MDR Detection & Response Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4458980449",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l101",
+      "text": "Live facial recognition in Australia is used by police forces for both real-time and ex-post (retrospective) identification of lawfully acquired footage; the WA Privacy and Responsible Information Sharing Act 2024 is the first AU law directly governing automated-decision-making use of personal information.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Policing Insight",
+          "title": "WA police is using live facial recognition to make arrests: this trial is testing privacy law",
+          "url": "https://policinginsight.com/feature/opinion/wa-police-is-using-live-facial-recognition-to-make-arrests-this-trial-is-testing-privacy-law",
+          "date": "2026-06-25",
+          "whatItMeasured": "Documents ex-post vs real-time FRT use and WA PRISA Act 2024"
+        }
+      ],
+      "scope": "Governs automated decision-making generally; detectives' investigative FRT sits within this, not separately licensed.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real & dated (2026-06); primary/legal commentary. 2/3 skeptics failed to overturn."
+    },
+    {
+      "id": "l102",
+      "text": "Under Australian Privacy Principle 3 a law enforcement agency may collect biometric/facial data from a third party without the subject's consent where direct collection could jeopardise an investigation, a position distinct from commercial users.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "The Conversation",
+          "title": "WA police are scanning faces in public - and the law is not ready for the consequences",
+          "url": "https://theconversation.com/wa-police-are-scanning-faces-in-public-and-the-law-is-not-ready-for-the-consequences-286021",
+          "date": "2026-06-25",
+          "whatItMeasured": "Explains APP 3 law-enforcement collection exemption"
+        }
+      ],
+      "scope": "Consent exemption supports investigative collection; does not govern AI analysis of collected data.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real & dated (2026-06); quotes the APP. 2/3 skeptics failed to overturn."
+    },
+    {
+      "id": "l103",
+      "text": "The Identify and Disrupt Act 2021 gives the AFP and ACIC powers to take over online accounts, modify data on networks and act under emergency authorisations that can bypass standard warrant processes - a legal footing for AI-assisted investigative data work.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Gaggl (surveillance analysis)",
+          "title": "Sleepwalking Off a Digital Cliff: Australia's Surveillance Infrastructure, Layer by Layer",
+          "url": "https://gaggl.com/blogs/2026-06-05-sleepwalking-off-a-digital-cliff",
+          "date": "2026-06-05",
+          "whatItMeasured": "Describes Identify and Disrupt Act 2021 powers relevant to investigative AI"
+        }
+      ],
+      "scope": "Federal Act; supports data-access powers, not a specific AI mandate. Secondary analytical source.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real & dated (2026-06); analysis piece, secondary. 2/3 skeptics failed to overturn."
+    },
+    {
+      "id": "l201",
+      "text": "A 2026 systematic literature review of algorithmic policing reports a randomised controlled trial showing a 7.4% crime decrease in predictive-policing neighbourhoods (Mohler et al. 2015), but rebuilding in-use algorithms showed Black residents targeted at twice the rate of white residents (Lum & Isaac 2016).",
+      "lane": "L2",
+      "tier": "scholarly-systematic-review",
+      "sources": [
+        {
+          "publisher": "AI & Society (Springer)",
+          "title": "Conditions of benefits and risks when algorithmic technology is implemented for public sector policing and fraud detection",
+          "url": "https://doi.org/10.1007/s00146-026-02967-1",
+          "date": "2026-02-28",
+          "whatItMeasured": "Systematic review; RCT effect size + bias re-build finding"
+        }
+      ],
+      "scope": "US evidence; relevance to AU investigations is by analogy, not measured locally.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real & dated (2026-02); peer-reviewed. 2/3 skeptics failed to overturn."
+    },
+    {
+      "id": "l202",
+      "text": "A PRISMA-2020 systematic review of 118 police-technology studies (2010-2025) found body-worn cameras have the strongest evidence base while predictive policing and facial recognition show thinner effectiveness evidence and substantive bias/equity concerns.",
+      "lane": "L2",
+      "tier": "scholarly-systematic-review",
+      "sources": [
+        {
+          "publisher": "Journal of Public Safety and Technology",
+          "title": "Police and technology: A PRISMA-2020 systematic literature review of Scopus and WoS-Indexed Evidence in 2010-2025",
+          "url": "https://journal.privietlab.org/index.php/JPST/article/view/1983",
+          "date": "2026-05-01",
+          "whatItMeasured": "Synthesises 118 studies; ranks evidence by technology"
+        }
+      ],
+      "scope": "Broad police technology; investigation-specific AI evidence is a subset, not separately quantified.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real & dated (2026-05); peer-reviewed systematic review. 2/3 skeptics failed to overturn."
+    },
+    {
+      "id": "l203",
+      "text": "A systematic review of 161 big-data predictive-policing articles classified only 6 as evidence-strong, concluding policymaker-usable effectiveness evidence remains thin despite favourable individual studies.",
+      "lane": "L2",
+      "tier": "scholarly-systematic-review",
+      "sources": [
+        {
+          "publisher": "Journal of Experimental Criminology (Taylor & Francis)",
+          "title": "The Effectiveness of Big Data-Driven Predictive Policing: Systematic Review",
+          "url": "https://tandfonline.com/doi/abs/10.1080/24751979.2024.2371781",
+          "date": "2024",
+          "whatItMeasured": "161-article review; 6 evidence-strong"
+        }
+      ],
+      "scope": "Global literature; weak evidence base, not an AU-measured effect.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real & dated (2024); peer-reviewed. 2/3 skeptics failed to overturn."
+    },
+    {
+      "id": "l301",
+      "text": "Queensland Police are trialling AI to analyse body-worn camera footage (investigative review of encounters), with a detailed evaluation promised; experts warn overseas-trained tools may mismatch Australian accents and that about 95% of BWC footage is never reviewed.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ANU",
+          "title": "Australian police are trialling AI to analyse body-worn camera footage, despite overseas failures and expert criticism",
+          "url": "https://ai.anu.edu.au/news/australian-police-are-trialling-ai-analyse-body-worn-camera-footage-despite-overseas-failures",
+          "date": "2026",
+          "whatItMeasured": "Reports QPS BWC-AI trial and expert caveats"
+        }
+      ],
+      "scope": "Trial stage; detectives' investigative review is one use case of BWC-AI.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real & dated; academic news desk. 2/3 skeptics failed to overturn."
+    },
+    {
+      "id": "l302",
+      "text": "The AFP has acknowledged using AI to analyse data gathered under surveillance warrants, spotting patterns linked to fraud and money laundering, while stating human oversight remains - a direct example of AI in criminal investigation.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Noah News (citing The Guardian)",
+          "title": "Australia accelerates AI-based policing amid expanded surveillance and legal shifts",
+          "url": "https://noah-news.com/australia-accelerates-ai-based-policing-amid-expanded-surveillance-and-legal-shi",
+          "date": "2026",
+          "whatItMeasured": "Reports AFP acknowledged AI use on warrant data"
+        }
+      ],
+      "scope": "Federal investigation context; secondary attribution to Guardian.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real & dated; trade-press, secondary. 2/3 skeptics failed to overturn."
+    },
+    {
+      "id": "l303",
+      "text": "SBS News reported Australian police trialling AI for 'predictive policing' and surveillance, with UNSW's Toby Walsh warning the tools frequently show bias against over-policed groups and risk a 'tendency to defer to the machine' in investigative and patrol decisions.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "SBS News",
+          "title": "130,000 faces scanned in a week: The technology changing Australian policing",
+          "url": "https://share.google/n4SGyPaXf22N1Cfbj",
+          "date": "2026",
+          "whatItMeasured": "Reports predictive-policing trials and expert bias warning"
+        }
+      ],
+      "scope": "Expert commentary; specific deployments vary by state.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real & dated; trade-press with named expert. 2/3 skeptics failed to overturn."
+    },
+    {
+      "id": "l592",
+      "text": "Auto-Dig: Axon ALPR surveillance system\n## What happened\n\nSyracuse is leaving Flock and moving into Axon's ALPR/Fusus stack.\n\n> same surveillance category\n> different vendor\n> different sharing/audit model\n> still need the actual Syracuse config instead of vendor brochure theology\n\nThis request is the platform-level comparison: **what Axo\nAuto-Dig initial architecture finding, primary Axon docs: as of the July 30, 2026 Fusus rollout, Axon ALPR Sharing supports donor-initiated partner access with…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Auto-Dig: Axon ALPR surveillance system\n## What happened\n\nSyracuse is leaving Fl…",
+          "url": "https://github.com/lost-rob0t/starintel-gpt-auto-dig/issues/2100",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "text": "\"Comparing being banned from a video game discord with being repeatedly r*ped and burned at the stake for having skin tags or a mole? Go off, king. Say your truth. /s\" Some war criminals on r/rimworld get upset when the official discord server bans AI generated content\nSource: https://www.reddit.com/r/RimWorld/comments/1vpxw0i/official_rimworld_discord_server_bans_all_ai/ HIGHLIGHTS Stupid, atleast for the code part. 90% of devs use it anyway. Lol the fucking cope. Any moron claiming 90% percent…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\"Comparing being banned from a video game discord with being repeatedly r*ped an…",
+          "url": "https://www.reddit.com/r/SubredditDrama/comments/1vqd4m9/comparing_being_banned_from_a_video_game_discord/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l594",
+      "text": "The Federal Trade Commission is being urged to investigate AI companies for buying, scanning and destroying books to train AI by more than a dozen civil society groups, as per a report by Axios.\n&#32; submitted by &#32; /u/Raj_Valiant3011 &#32; to &#32; r/books [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Federal Trade Commission is being urged to investigate AI companies for buyi…",
+          "url": "https://www.reddit.com/r/books/comments/1vugion/the_federal_trade_commission_is_being_urged_to/",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l595",
+      "text": "What Would Actually Happen If Governments Confirmed That Non-Human Intelligence Is Already Here? (Do you agree with the AI?)\nSuggested Reddit Title What Would Actually Happen If Governments Confirmed That Non-Human Intelligence Is Already Here? Let us assume, for the sake of discussion, that an official announcement is made and supported by convincing evidence: Non-human intelligence exists, it has reached Earth, and some form of presence is already here. This would not be comparable to discover…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "What Would Actually Happen If Governments Confirmed That Non-Human Intelligence …",
+          "url": "https://www.reddit.com/r/UFOs_Archive/comments/1vg5cdd/what_would_actually_happen_if_governments/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "text": "Like it or not, AI cameras catch criminals and prevent suffering. \"Yesterday, Flock cameras alerted on 4,144 sex offenders, 2,151 stolen cars, 1,687 wanted people, 158 missing persons/kids, and most importantly, an amber alert. Children were rescued. This is every day.\"\nhttps:// wyff4.com/article/flock- cameras-kidnapping-mother-child-search/73311002 … https:// yahoo.com/news/us/articl es/wake-cunty-woman-arrested-vance-204320886.html … https:// wrnjradio.com/flock-camera-a lert-leads-to-recover…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Like it or not, AI cameras catch criminals and prevent suffering. \"Yesterday, Fl…",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vdvce3/like_it_or_not_ai_cameras_catch_criminals_and/",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l597",
+      "text": "Service work starts within. You have to be willing to work on yourself before you can truly show up for others.\n\nDay 355. Choose character over comfort today. https://t.co/R3mq8gRoaV",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Service work starts within. You have to be willing to work on yourself before yo…",
+          "url": "https://x.com/Nerdy_Addict/status/2093705776653066513",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l598",
+      "text": "@kellyfrmcali @Nerdy_Addict @grok No it was way before AI existed",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@kellyfrmcali @Nerdy_Addict @grok No it was way before AI existed",
+          "url": "https://x.com/Connie56847824/status/2093958637349708147",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "To combat crimes that affect the environment, we first need to understand them.\n\nResearch and data provide the evidence needed to act.\n\nUNODC research exposes how criminal networks operate and where action is needed. \n\nLearn more ➡️ https://t.co/oxDs9seCAH\n\n#endENVcrime https://t.co/cIYlhZr1qs",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "To combat crimes that affect the environment, we first need to understand them.\n…",
+          "url": "https://x.com/UNODC/status/2093624748714373193",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "A large police procession is underway in Columbia, South Carolina, after an officer was killed and another was injured in an officer-involved shooting Saturday morning while responding to a domestic violence call. https://t.co/JLwaCMtOkc",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "A large police procession is underway in Columbia, South Carolina, after an offi…",
+          "url": "https://x.com/Nerdy_Addict/status/2093847789708951597",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "Shame on the agencies and individuals who abused Flock systems for personal grievances and improper surveillance. \n\nNow states are pausing technology that can also be used to locate vulnerable and missing children because some people could not be trusted to use it responsibly.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Shame on the agencies and individuals who abused Flock systems for personal grie…",
+          "url": "https://x.com/Nerdy_Addict/status/2093738317791551686",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "WTF Did Dali’s Mom Do? JLR’s Latest Lawsuit Threat\nhttps://t.co/O1BwlydO34",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "WTF Did Dali’s Mom Do? JLR’s Latest Lawsuit Threat\nhttps://t.co/O1BwlydO34",
+          "url": "https://x.com/Nerdy_Addict/status/2094070616370425964",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "The Pee Tent Shuffle \n\nhttps://t.co/57yk7HuUYT",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Pee Tent Shuffle \n\nhttps://t.co/57yk7HuUYT",
+          "url": "https://x.com/Nerdy_Addict/status/2093844701996523695",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "Cybercrime is a global threat, but not all countries have equal tools to fight it.\n\nThe UN Cybercrime Convention aims to change that, helping countries to strengthen laws, share technology and build expertise, making prevention, detection and prosecution more effective. https://t.co/u4c81z4g6c",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Cybercrime is a global threat, but not all countries have equal tools to fight i…",
+          "url": "https://x.com/UNODC/status/2093987098395103398",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "@TheDailyShow @kaitlancollins @RealAlexJones @AP @CBCNews @WhiteHouse @Europarl_EN @CNBC @business @FBI @Europol @UNODC @UN_Women @CNN @FRANCE24 @CGTNOfficial @PierrePoilievre @MarkJCarney Hey Jon\n\nDoug is a distraction\n\nTalk about the deficits, heads of security, mobbing crews, human trafficking,\n\nCanadians want tariffs on:\n1. Raytheon\n2. Genasys\n3. Epirus\n\nAn AMOC collapse could drop Europe by 18 degrees - and the debate is getting louder https://t.co/fUsmu0088f https://t.co/5njeFb7Pn9",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheDailyShow @kaitlancollins @RealAlexJones @AP @CBCNews @WhiteHouse @Europarl_…",
+          "url": "https://x.com/CCME_com/status/2094075910110449690",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "@TheDailyShow @kaitlancollins @RealAlexJones @AP @CBCNews @WhiteHouse @Europarl_EN @CNBC @business @FBI @Europol @UNODC @UN_Women @CNN @FRANCE24 @CGTNOfficial @PierrePoilievre @MarkJCarney Mars Attack!\n\nTrump is a Martian, and I can prove it.\n\nTrump said he doesn't like to step on dog shit but shit happens.\n\nCanada and Trudeau Airport, heads of security have deployed sonic ..\n\nTrump posts US may change the name of Lake Ontario 'Lake America' https://t.co/K8vaOaqAbE https://t.co/rlPpgJglSU",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheDailyShow @kaitlancollins @RealAlexJones @AP @CBCNews @WhiteHouse @Europarl_…",
+          "url": "https://x.com/CCME_com/status/2094084581372662249",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "Dr. DIRTBAG DIANA  is this why necessaryevil aka Charles disappeared? This pick me flew him out and this man hasn't been seen since this post. \nDirtyyDianaaaa is a meth head who instead of being a mom is obsessed with @tedinvestigate and @Nerdy_Addict  drama. https://t.co/TnNzuogBDq",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Dr. DIRTBAG DIANA  is this why necessaryevil aka Charles disappeared? This pick …",
+          "url": "https://x.com/Mar1R21/status/2094065732300730679",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "@tedinvestigate @Nerdy_Addict #WhereisCharlesBitch",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@tedinvestigate @Nerdy_Addict #WhereisCharlesBitch",
+          "url": "https://x.com/Mar1R21/status/2094065883283165511",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "@Nerdy_Addict 🙏🏻🙏🏻🙏🏻💔💔💔💙🖤💙🖤💙🖤",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Nerdy_Addict 🙏🏻🙏🏻🙏🏻💔💔💔💙🖤💙🖤💙🖤",
+          "url": "https://x.com/SnipesJeri/status/2094057691639689476",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "@Nerdy_Addict Too many miles. This one can't go much further. Better see if he'll 💩 in a tent.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Nerdy_Addict Too many miles. This one can't go much further. Better see if he'l…",
+          "url": "https://x.com/EATISHERE/status/2094050914885935235",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "@El_Universal_Mx También se ve en Condesa #CDMX \n@UNODC \n#StopDrugs",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@El_Universal_Mx También se ve en Condesa #CDMX \n@UNODC \n#StopDrugs",
+          "url": "https://x.com/2012i8/status/2094064907062759719",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5112",
+      "text": "@WalkWithBlueHQ @elonmusk @DrugDealersKill @miamidadepd @FBI @PoliceServiceNI @NicolaTAllan @BeattieDoug @metpoliceuk @PSNIBelfastN @PoliceScotland @DHSgov @NCA_UK @UNODC @JimGamble_INEQE @PhilipIngMBE @EamonnMallie @frank_broadcast https://t.co/OIpf5tlTwC",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@WalkWithBlueHQ @elonmusk @DrugDealersKill @miamidadepd @FBI @PoliceServiceNI @N…",
+          "url": "https://x.com/impongo22/status/2093960799525953585",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5113",
+      "text": "@mission_rf @mfa_russia @Amb_Ulyanov @RF_OSCE @armscontrol_rus @RussiaUN @UNODC @INCB_President Lesen.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@mission_rf @mfa_russia @Amb_Ulyanov @RF_OSCE @armscontrol_rus @RussiaUN @UNODC …",
+          "url": "https://x.com/politik_medien/status/2093956998312206755",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1733,7 +2405,18 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "detective criminal investigator",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+      "count": 0,
+      "returned": 0,
+      "topEmployers": [],
+      "topSkills": [
+        "(no skill keywords matched in sample)"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1744,7 +2427,43 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired 2026-08-31 (cookies >5d old). L3 covered by open-web trade press instead. Logged to factiva_backlog.json.",
+        "date": "2026-08-31"
+      },
+      {
+        "lane": "L5",
+        "source": "tiktok",
+        "status": "unavailable",
+        "detail": "has_scrapecreators:false - TikTok not reachable in this environment. Coverage gap, not a finding of quiet.",
+        "date": "2026-08-31"
+      },
+      {
+        "lane": "L5",
+        "source": "instagram",
+        "status": "unavailable",
+        "detail": "has_scrapecreators:false - Instagram not reachable. Coverage gap, not a finding of quiet.",
+        "date": "2026-08-31"
+      },
+      {
+        "lane": "L2",
+        "source": "corrections-specific",
+        "status": "no_results",
+        "detail": "33-3012: no Australia-specific peer-reviewed study of AI impact on correctional-officer tasks located in this sweep; police-technology evidence used as nearest analogue only.",
+        "date": "2026-08-31"
+      },
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "status": "unavailable",
+        "detail": "last30days grounding/web backend unavailable (native_search:false); L5 web coverage via X/YouTube/HN/reddit/github only.",
+        "date": "2026-08-31"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1756,6 +2475,15 @@
       },
       {
         "date": "2026-08-29",
+        "soc": "33-3021",
+        "query": "Detectives and Criminal Investigators",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
         "soc": "33-3021",
         "query": "Detectives and Criminal Investigators",
         "location": "Australia",
@@ -1790,9 +2518,25 @@
           "youtube": 0
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 22,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 4,
+          "x": 37,
+          "youtube": 0
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L1/L2/L3 rebuilt empirically 2026-08-31 from observed web sources; prior placeholder claims discarded. L1: FRT ex-post/real-time + APP 3 + Identify and Disrupt Act. L2: 3 systematic reviews. L3: QPS BWC-AI, AFP AI, SBS predictive. L4: LinkedIn (Adzuna 0 under query). L5: last30days (running). Factiva expired."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

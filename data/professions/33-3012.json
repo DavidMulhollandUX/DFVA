@@ -7,10 +7,10 @@
   "anzsco": "220000",
   "window": {
     "from": "2025-08-01",
-    "to": "2026-08-24"
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
   "programs": [],
   "claims": [
     {
@@ -1230,6 +1230,594 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l459",
+      "text": "Talent Pool - Correctional Officer - Broken Hill Correctional Centre — NSW Department of Communities and Justice (Broken Hill, New South Wales, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Department of Communities and Justice",
+          "title": "Talent Pool - Correctional Officer - Broken Hill Correctional Centre",
+          "url": "https://www.linkedin.com/jobs/view/4419240171",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l460",
+      "text": "Custodial Correctional Officer — Queensland Corrective Services (Townsville, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Corrective Services",
+          "title": "Custodial Correctional Officer",
+          "url": "https://www.linkedin.com/jobs/view/4326372535",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l461",
+      "text": "Custodial Correctional Officer — Queensland Corrective Services (Rockhampton, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Corrective Services",
+          "title": "Custodial Correctional Officer",
+          "url": "https://www.linkedin.com/jobs/view/4326372534",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l101",
+      "text": "Queensland's Corrective Services (Emerging Technologies and Security) and Other Legislation Amendment Act 2022 grants explicit authority to use x-ray body scanners, CCTV, body-worn cameras and other emerging technologies in custodial facilities, and criminalises drone flights over corrective services facilities.",
+      "lane": "L1",
+      "tier": "regulatory-instrument",
+      "sources": [
+        {
+          "publisher": "Queensland Parliament",
+          "title": "Corrective Services (Emerging Technologies and Security) and Other Legislation Amendment Bill 2022 - committee report",
+          "url": "https://documents.parliament.qld.gov.au/bills/2022/3122/Corrective-Services-(Emerging-Technologies-and-Security)-and-Other-Legislation-Amendment-Bill-2022---explanatory-notes-c6f1.pdf",
+          "date": "2023-02-10",
+          "whatItMeasured": "Records Qld Act amendments authorising scanners/CCTV/BWC and drone criminalisation in corrections"
+        }
+      ],
+      "scope": "Qld custodial environment; authorises technology use, does not itself prescribe AI. Other states vary.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real & dated (2023); primary parliamentary record. 2/3 skeptics failed to overturn."
+    },
+    {
+      "id": "l102",
+      "text": "Corrective Services NSW has installed full-body scanning technology at reception points in prisons and facilities nationally have added surveillance upgrades, netting and detection patrols to counter drone contraband drops.",
+      "lane": "L1",
+      "tier": "regulatory-operational",
+      "sources": [
+        {
+          "publisher": "Streamline Feed (news.com.au syndication)",
+          "title": "Parcel Find Exposes Drone Smuggling Threat to Australian Prisons",
+          "url": "https://streamlinefeed.co.ke/news/parcel-find-exposes-drone-smuggling-threat-to-australian-prisons",
+          "date": "2026-08-28",
+          "whatItMeasured": "Reports CSNSW body scanners and national surveillance upgrades vs drone contraband"
+        }
+      ],
+      "scope": "Operational deployment, not legislation; contraband-focused, not offender-management AI.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real & dated (2026-08); trade/news, secondary syndication. 2/3 skeptics failed to overturn."
+    },
+    {
+      "id": "l201",
+      "text": "A PRISMA-2020 systematic review of 118 police-technology studies (2010-2025) found body-worn cameras have the strongest evidence base while predictive policing and facial recognition show thinner effectiveness evidence and bias concerns - the closest analogue evidence base to custodial supervision technology, though it centres on patrol/investigation rather than prisons.",
+      "lane": "L2",
+      "tier": "scholarly-systematic-review",
+      "sources": [
+        {
+          "publisher": "Journal of Public Safety and Technology",
+          "title": "Police and technology: A PRISMA-2020 systematic literature review of Scopus and WoS-Indexed Evidence in 2010-2025",
+          "url": "https://journal.privietlab.org/index.php/JPST/article/view/1983",
+          "date": "2026-05-01",
+          "whatItMeasured": "Synthesises 118 studies; ranks evidence by technology type"
+        }
+      ],
+      "scope": "Police-technology review; custodial-officer AI impact is not separately measured. Used as the nearest analogue only.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real & dated (2026-05); peer-reviewed. 2/3 skeptics failed to overturn."
+    },
+    {
+      "id": "l301",
+      "text": "Australian prisons face a rising wave of drone contraband drops (phones, drugs, steroids); several states have introduced specific offences for drone flights near correctional facilities, and Corrective Services NSW uses full-body scanners at reception.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Age / Brisbane Times",
+          "title": "High seize: The battle of wits to stop drugs slipping into our jails",
+          "url": "https://theage.com.au/national/queensland/high-seize-the-battle-of-wits-to-stop-drugs-slipping-into-our-jails-20231214-p5ergv.html",
+          "date": "2023-12-14",
+          "whatItMeasured": "Reports drone contraband threat and scanner/wastewater responses in Qld prisons"
+        }
+      ],
+      "scope": "Contraband-interdiction tech; does not measure AI impact on officer core tasks (supervision, casework).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real & dated (2023-12); trade-press. 2/3 skeptics failed to overturn."
+    },
+    {
+      "id": "l302",
+      "text": "Queensland corrective services legislation (2022) explicitly authorises x-ray body scanners, CCTV and body-worn cameras in closed correctional environments as part of a modernised emergency-response and threat-monitoring framework.",
+      "lane": "L3",
+      "tier": "trade-press-regulatory",
+      "sources": [
+        {
+          "publisher": "Queensland Parliament (explanatory notes)",
+          "title": "Corrective Services (Emerging Technologies and Security) and Other Legislation Amendment Bill 2022 - explanatory notes",
+          "url": "https://documents.parliament.qld.gov.au/bills/2022/3122/Corrective-Services-(Emerging-Technologies-and-Security)-and-Other-Legislation-Amendment-Bill-2022---explanatory-notes-c6f1.pdf",
+          "date": "2022",
+          "whatItMeasured": "Explanatory notes authorising scanners/CCTV/BWC in corrections"
+        }
+      ],
+      "scope": "Primary legislative explanatory note; authorises tech, not AI specifically.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source real & dated (2022); primary document. 2/3 skeptics failed to overturn."
+    },
+    {
+      "id": "l567",
+      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don’t see a problem with that. This is such a hopelessly ch…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI…",
+          "url": "https://www.reddit.com/r/SubredditDrama/comments/1vlyeei/can_you_please_just_write_your_own_posts_op_makes/",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "OUTRAGE: Farnsley Middle School in Louisville, Kentucky Sent Students Home With AI-Generated First-Day Packets, Including A U.S Map Filled With Misspelled State Names, Misplaced Cities, And Entirely Fabricated Territories, As Officials Order 17 Pages Torn Out Before Redistribution 🤖📚\nFarnsley Middle School in Southwest Louisville sent students home on the first day of the 2026 school year with agenda packets containing wildly inaccurate, AI-generated educational content, including a US map riddl…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "OUTRAGE: Farnsley Middle School in Louisville, Kentucky Sent Students Home With …",
+          "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1vr2klw/outrage_farnsley_middle_school_in_louisville/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "‘My life’s screwed’: Korean investors stress out after AI bubble bursts - FT\nSong Mi-kyung pocketed a profit of about Won300mn ($200,000) earlier this year as South Korea’s stock market surged on the AI boom. The 60-year-old Seoul resident has now found out the hard way that stocks can go down as well as up after a wild week on the Kospi. Her portfolio now shows a paper loss of more than 60 per cent as the index heads for a record monthly loss, down nearly 40 per cent from its June peak. “The lo…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "‘My life’s screwed’: Korean investors stress out after AI bubble bursts - FT\nSon…",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1vaja9t/my_lifes_screwed_korean_investors_stress_out/",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Operational Review, Stability Write Up, Benchmarks\nI thought this would be relevant to the homelab subreddit so I&#39;m adding it here, just to put the information out there and discuss if there is any interest. I am an IT infrastructure engineer by profession, so my contribution to the conversation is mainly from a hardware/systems perspective rather than from a Machine Learning researcher standpoint. I got my start wit…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Oper…",
+          "url": "https://www.reddit.com/r/homelab/comments/1veh5gt/data_center_in_a_box_on_wheels_256gb_vram512gb/",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "I contacted Apple, the EU Commission, Swedish authorities and MEPs about Siri AI in the EU. Here is the full status\nI am a Swedish iPhone user and app developer. I want Siri AI to become available on iPhone and iPad in the European Union, with a credible path toward Swedish-language support. I also want this to happen without unnecessarily weakening privacy, security or fair competition. As of 8 August 2026, EU users still have no public release timetable for Siri AI on iPhone or iPad. ## What A…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I contacted Apple, the EU Commission, Swedish authorities and MEPs about Siri AI…",
+          "url": "https://www.reddit.com/r/Applelntelligence/comments/1vj5x75/i_contacted_apple_the_eu_commission_swedish/",
+          "date": "2026-08-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "Ai tries to lie about Odyssey's box office so far and apologises to me. But still tries to sugar coat it.\nhttps://preview.redd.it/oqpnfvl3ytgh1.png?width=494&amp;format=png&amp;auto=webp&amp;s=927c654ec8221b1869475b081f57c2e2cf176f05 https://preview.redd.it/tgnh7hx4ytgh1.png?width=521&amp;format=png&amp;auto=webp&amp;s=d9c619fddacd9f7b6d300c2cafe8001482726904 https://preview.redd.it/8749ulp7ytgh1.png?width=491&amp;format=png&amp;auto=webp&amp;s=1734e613de692a22f252e60196e76dd475bf1280 https://pr…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Ai tries to lie about Odyssey's box office so far and apologises to me. But stil…",
+          "url": "https://www.reddit.com/r/moviecritic/comments/1vcz3dc/ai_tries_to_lie_about_odysseys_box_office_so_far/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "Osun Election: NIS, NSCDC, Correctional Officers Finally Paid Duty Allowance After SaharaReporters’ Report | Sahara Reporters     https://t.co/x1ecclPAuP https://t.co/D3bh0jDYBR",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Osun Election: NIS, NSCDC, Correctional Officers Finally Paid Duty Allowance Aft…",
+          "url": "https://x.com/SaharaReporters/status/2093996772196548945",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "The Wanini Kireri Magereza Level 4 Hospital in Ruiru was commissioned with 150 beds, expanding comprehensive healthcare for correctional officers, inmates and nearby communities. for Kenyan communities nationwide #GOKThisWeek Forging Onwards. https://t.co/YTfy51z0zV",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Wanini Kireri Magereza Level 4 Hospital in Ruiru was commissioned with 150 b…",
+          "url": "https://x.com/keah_ke1/status/2094026344074019117",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "The Wanini Kireri Magereza Level 4 Hospital strengthens healthcare infrastructure by bringing modern medical services closer to correctional officers, inmates and neighbouring residents.\n#GOKThisWeek\nForging Onwards https://t.co/mpQqFH1UzK",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Wanini Kireri Magereza Level 4 Hospital strengthens healthcare infrastructur…",
+          "url": "https://x.com/kafangii/status/2094020464733540506",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "Wanini Kireri Magereza Level 4 Hospital brings increased healthcare capacity to Ruiru with 150 beds and a comprehensive range of services, giving correctional officers, inmates and surrounding residents better access to medical care. #GOKThisWeek Forging Onwards https://t.co/AUoxcT0NyK",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Wanini Kireri Magereza Level 4 Hospital brings increased healthcare capacity to …",
+          "url": "https://x.com/realkahiro/status/2094019112070484273",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "The 150-bed Wanini Kireri Magereza Level 4 Hospital strengthens healthcare capacity in Ruiru by providing comprehensive services while supporting the health needs of correctional officers, inmates and the wider surrounding population. #GOKThisWeek Forging Onwards https://t.co/PVaJTIkmoO",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The 150-bed Wanini Kireri Magereza Level 4 Hospital strengthens healthcare capac…",
+          "url": "https://x.com/realkahiro/status/2094017525918978326",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "@KathyHochul Not the families of NYS Correctional officers tho. Do not include them in your blanket statement.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@KathyHochul Not the families of NYS Correctional officers tho. Do not include t…",
+          "url": "https://x.com/Kenefick_22/status/2094022335678296205",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "The Government commissioned the 150-bed Wanini Kireri Magereza Level 4 Hospital in Ruiru, providing a modern healthcare facility intended to serve correctional officers, inmates and surrounding communities. #GOKThisWeek Forging Onwards https://t.co/zwjMSotrC9",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Government commissioned the 150-bed Wanini Kireri Magereza Level 4 Hospital …",
+          "url": "https://x.com/BonfaceOngeriW/status/2094026561812857152",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "Healthcare infrastructure is expanding. DP Kithure Kindiki commissioned the 150-bed Wanini Kireri Magereza Level 4 Hospital in Ruiru. The modern facility will serve correctional officers, inmates &amp; surrounding communities through SHA's Usalama Cover.\nForging Onwards\n#GOKThisWeek https://t.co/4GMPbOoByZ",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Healthcare infrastructure is expanding. DP Kithure Kindiki commissioned the 150-…",
+          "url": "https://x.com/SeyMonicah/status/2094023624332136622",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "Healthcare for correctional officers and inmates has received a massive uplift. DP Kithure Kindiki opened the 150-bed Wanini Kireri Magereza Level 4 Hospital in Ruiru, fully integrated with SHA's Usalama Cover for inpatient and outpatient treatment. #GOKThisWeek Forging Onwards https://t.co/sCj40PGIJ0",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Healthcare for correctional officers and inmates has received a massive uplift. …",
+          "url": "https://x.com/Muoki_1/status/2094030840040706268",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "text": "Deputy President Kithure Kindiki officially commissioned the Wanini Kireri Magereza Level 4 Hospital in Ruiru. The 150-bed ultra-modern healthcare facility serves correctional officers, inmates, and neighboring communities with total medical care. #GOKThisWeek Forging Onwards https://t.co/oRExlzpwTx",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Deputy President Kithure Kindiki officially commissioned the Wanini Kireri Mager…",
+          "url": "https://x.com/Muoki_1/status/2094030855152730364",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l583",
+      "text": "Wanini Kireri Magereza Level 4 Hospital is designed to provide comprehensive healthcare under one roof, including inpatient, outpatient, maternity and emergency services, while serving correctional officers, inmates and surrounding communities. #GOKThisWeek Forging Onwards https://t.co/N7flXPLKXr",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Wanini Kireri Magereza Level 4 Hospital is designed to provide comprehensive hea…",
+          "url": "https://x.com/realkahiro/status/2094029345584976055",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l584",
+      "text": "@Ruto_nated #GOKThisWeek | Forging Onwards\nDeputy President Kithure Kindiki commissioned the Wanini Kireri Magereza Level 4 Hospital in Ruiru. The 150-bed ultra-modern facility serves correctional officers, inmates and the surrounding community.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Ruto_nated #GOKThisWeek | Forging Onwards\nDeputy President Kithure Kindiki comm…",
+          "url": "https://x.com/KiprotichSNR1/status/2094024995110338899",
+          "date": "2026-08-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l585",
+      "text": "Judge SHUTS DOWN Cop Who Pepper Sprayed Handcuffed Woman\nWatch judge simpson destroy an assault defendant https://youtu.be/t0EyOsrPhBY?si=IP0BKxmu2l6kDLgT\n\nWashtenaw County Sheriff Sergeant Christopher Day faced a preliminary examination in Michigan’s 14A District Court following a controversial incident inside a jail sallyport. Charged with Felonious Assault (MCL § 750.82) and Misconduct in Office (a common-law felony under MCL § 750.505), Sergeant Day deployed ASR pepper spray into the face of…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Judge SHUTS DOWN Cop Who Pepper Sprayed Handcuffed Woman\nWatch judge simpson des…",
+          "url": "https://www.youtube.com/watch?v=wk-WmmMioc4",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l586",
+      "text": "Judge SHUTS DOWN Cop Who Pepper Sprayed Handcuffed Woman\nWatch judge simpson destroy an assault defendant https://youtu.be/t0EyOsrPhBY?si=IP0BKxmu2l6kDLgT\n\nWashtenaw County Sheriff Sergeant Christopher Day faced a preliminary examination in Michigan’s 14A District Court following a controversial incident inside a jail sallyport. Charged with Felonious Assault (MCL § 750.82) and Misconduct in Office (a common-law felony under MCL § 750.505), Sergeant Day deployed ASR pepper spray into the face of…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Judge SHUTS DOWN Cop Who Pepper Sprayed Handcuffed Woman\nWatch judge simpson des…",
+          "url": "https://www.youtube.com/watch?v=wk-WmmMioc4",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1248,7 +1836,28 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "correctional officer",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+      "count": 109,
+      "returned": 50,
+      "topEmployers": [
+        "Department of Corrections NT",
+        "Queensland Corrective Services",
+        "NSW Department of Communities and Justice",
+        "Department of Justice",
+        "NSW Government",
+        "Department of Communities and Justice",
+        "Serco",
+        "Queensland Government"
+      ],
+      "topSkills": [
+        "corrections",
+        "security"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1259,7 +1868,43 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired 2026-08-31 (cookies >5d old). L3 covered by open-web trade press instead. Logged to factiva_backlog.json.",
+        "date": "2026-08-31"
+      },
+      {
+        "lane": "L5",
+        "source": "tiktok",
+        "status": "unavailable",
+        "detail": "has_scrapecreators:false - TikTok not reachable in this environment. Coverage gap, not a finding of quiet.",
+        "date": "2026-08-31"
+      },
+      {
+        "lane": "L5",
+        "source": "instagram",
+        "status": "unavailable",
+        "detail": "has_scrapecreators:false - Instagram not reachable. Coverage gap, not a finding of quiet.",
+        "date": "2026-08-31"
+      },
+      {
+        "lane": "L2",
+        "source": "corrections-specific",
+        "status": "no_results",
+        "detail": "33-3012: no Australia-specific peer-reviewed study of AI impact on correctional-officer tasks located in this sweep; police-technology evidence used as nearest analogue only.",
+        "date": "2026-08-31"
+      },
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "status": "unavailable",
+        "detail": "last30days grounding/web backend unavailable (native_search:false); L5 web coverage via X/YouTube/HN/reddit/github only.",
+        "date": "2026-08-31"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1271,6 +1916,15 @@
       },
       {
         "date": "2026-08-29",
+        "soc": "33-3012",
+        "query": "Correctional Officers and Jailers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
         "soc": "33-3012",
         "query": "Correctional Officers and Jailers",
         "location": "Australia",
@@ -1305,9 +1959,25 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 20,
+        "sources": {
+          "github": 0,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 6,
+          "x": 14,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L1/L2/L3 rebuilt empirically 2026-08-31 from observed web sources; prior placeholder claims discarded. L1: Qld Corrective Services Act 2022 + CSNSW scanners. L2: PRISMA review as nearest analogue (corrections-specific sparse). L3: drone contraband + Qld scanners. L4: Adzuna 109 + LinkedIn. L5: last30days (running). Factiva expired."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }
