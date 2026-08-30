@@ -1,0 +1,108 @@
+{
+  "code": "mc-larch",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2, not 3: ABPL90048's Assignment 2 splits into individual and group components, and ABPL90074's Documentation review is graded group work (20%) feeding into an individually synthesised project, meeting the Level 2 anchor 'group projects with individual accountability'. Level 3 requires an assessment where coordination between people AND tools/AI systems is itself assessed; no core assessment does this in the extract.",
+      "evidenceLines": [
+        "Assignment 2, examines the landscape architectural office environment from an administrative, managerial, construction, technology perspective, including the system of professionals in which it is positioned. Individual work 1500 words group work 500 words",
+        "Documentation review (group work) equivalent to 1000 words per student"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: ABPL90074's group assignment to 'critically review real documentation packages, conduct site visits and interview designers' is graded (20%, Week 4) structured critique of real professional work, matching the Level 2 anchor. Ambiguity: explicit marking criteria are not stated, but the task is unambiguously assessed, ruling out Level 1. No evidence shows students documenting/justifying reliance decisions on tools or defending AI-output judgements, so Level 3 is not met.",
+      "evidenceLines": [
+        "A group assignment to critically review real documentation packages, conduct site visits and interview designers and present findings to their peers; and the main assignment of a landscape detail design and documentation project that utilises and synthesises skills and knowledge gained in the first two assignments and prerequisite subjects.",
+        "Documentation review (group work) equivalent to 1000 words per student"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1: digital tools appear only as tool operation/training — ABPL90074 'introduces CAD as the graphic medium for documentation' and grades CAD-skill development; ABPL90170 uses 'advanced digital tools for spatial analysis, modelling, and visual representation'. No AI-specific content (capabilities, limitations, ethics, governance) appears anywhere, so Levels 2 and 3 are unreachable.",
+      "evidenceLines": [
+        "This subject links the creative, practical and technical aspects of landscape architecture design process to construction by developing knowledge and skills that translate and communicate design into the language of construction documentation emphasising the materiality and assemblage of hard scapes. The subject also introduces CAD as the graphic medium for documentation. Knowledge and skills are developed through a series of assessment components:",
+        "Both themes incorporate advanced digital tools for spatial analysis, modelling, and visual representation. These tools are integral to exploring innovative, sustainable strategies and fostering data-driven decision-making and communication within the design process."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2: ABPL90170's Assignment 1 (20%, Week 4) requires assessed application to 'real-world projects' that vary by site, meeting the Level 2 anchor. Ambiguity: ABPL90375 is labelled 'the capstone subject' with overview text suggesting a self-scoped research project (Level 3), but its assessment page returned an unrelated course's overview rather than an assessment table, so no ASSESSMENT evidence exists for it (R2). Resolved DOWN to Level 2.",
+      "evidenceLines": [
+        "Students will apply their chosen focus to real-world projects, developing their ability to analyse, structure, and implement effective design solutions. Through this process, they will learn strategies that contribute to the creation of sustainable, adaptive landscape design that address ecological, social, and aesthetic considerations.",
+        "Assignment 1: A scientifically informed, multimedia exploration, created using methods from either geospatial technology, botany, ecology or horticulture that communicates planting or planning insights effectively"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: ABPL90263's 'Water Flow Hydro Lab report (individual task)' (20%, Week 4) and ABPL90170's Assignment 1 both require assessed methodology selection and data collection, matching the Level 2 anchor. No evidence shows a REQUIRED primary-evidence project with methodology defended under scrutiny, so Level 3 is not met.",
+      "evidenceLines": [
+        "Water Flow Hydro Lab report (individual task) , equivalent to 1000 words",
+        "Assignment 1: A scientifically informed, multimedia exploration, created using methods from either geospatial technology, botany, ecology or horticulture that communicates planting or planning insights effectively"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1: professional practice/ethics is directly assessed (ABPL90048 Assignment 1) and ABPL90074 adds a presentation component, but the genre stays academic and the audience stays within the teaching team/peers, matching Level 1 exactly. Ambiguity: ABPL90430 documents real external stakeholder engagement (WWCHAC, Merri-Bek Council) that would satisfy Level 2/3, but is marked 'Not available in 2026' with an undocumented substitute, so this evidence was not used to raise the score.",
+      "evidenceLines": [
+        "Assignment 1, explores the identity and professional practice of landscape architecture, its code, ethics and modes of operation in a variety of spheres (individual work)",
+        "A group assignment to critically review real documentation packages, conduct site visits and interview designers and present findings to their peers; and the main assignment of a landscape detail design and documentation project that utilises and synthesises skills and knowledge gained in the first two assignments and prerequisite subjects."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: ABPL90072's Assignment 2 produces a 'design master plan... A1 size exhibition panel', and ABPL90074 produces real construction documentation judged against professional CAD/ESD criteria — both artefacts a practitioner would produce. Ambiguity: whether a 'genuine constraint of practice' (Level 3) is documented outside the unavailable ABPL90430 is unclear, so resolved DOWN to Level 2.",
+      "evidenceLines": [
+        "Assignment 2: Graphic and verbal presentation of design master plan. This will include one A1 size exhibition panel in digital format and accompanying documentation",
+        "The assessment criteria encourage the integration of ESD technologies in the detail design process and the development of CAD skills. The subject is delivered through a series of lectures, CAD intensives, and weekly design documentation tutorials, readings, site visits, interviews with designers and presentations."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0: no placement, practicum, or community-based project in a currently-available unit is documented. ABPL90430 documents exactly this (assessed WWCHAC/Merri-Bek Council engagement, hurdle-graded reflective Design journal) but is marked 'Not available in 2026' with an undocumented substitute studio, so per R1 and the lower-level rule this is scored 0.",
+      "evidenceLines": [
+        "ABPL90430\tDesign with Country: Resilience Studio\tNot available in 2026\t25"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "AILA-accredited program with a defined accreditation-required core and a progressive numbered studio sequence (Studios 1-5) culminating in a capstone thesis.",
+        "evidenceLines": [
+          "This course is currently accredited by the Australian Institute of Landscape Architects (AILA).",
+          "The following subjects are required for accreditation purposes unless equivalence can be demonstrated:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core assessment requires balancing real, competing constraints: Landscape Practice assesses risk identification/allocation/control against codes and policies, and ABPL90072 requires design interventions weighing environmental against social/cultural factors on real sites.",
+        "evidenceLines": [
+          "Manage risks with particular reference to their identification, allocation and control with regard to codes, policies, and organisational environments.",
+          "This studio explores different ways of making sustainable urban environments by considering environmental (e.g., energy, water, materials, waste, ecology) and social/cultural (e.g., environment/behavior, cultural heritage conservation) factors and their incorporation into design interventions."
+        ]
+      }
+    },
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-30"
+      },
+      "mechanical": true,
+      "date": "2026-08-30"
+    }
+  }
+}
