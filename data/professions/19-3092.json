@@ -8,256 +8,299 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-30",
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-30",
   "programs": [],
+  "researchMethod": "empirical-five-lane-v1",
   "claims": [
     {
-      "id": "l503",
-      "text": "Tell HN: Man, AI is killing my brain",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "19-3092-L1-01",
+      "text": "Geographers in Australia are not governed by a statutory registration body; professional practice is guided voluntarily by the Geospatial Council of Australia (peak body for surveying, space and geospatial occupations). AI adoption in GIS and spatial analysis is emerging without a dedicated regulator - vendor roadmaps (e.g. Esri's GeoVLM geospatial vision-language model, 2026) frame AI as augmenting, not replacing, geospatial expertise, with explicit caveats that foundation models need evaluation for source data, coverage, accuracy and explainability before use in decisions.",
+      "lane": "L1",
+      "tier": "regulatory",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Tell HN: Man, AI is killing my brain",
-          "url": "https://news.ycombinator.com/item?id=49468252",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Geospatial Council of Australia / Esri Australia",
+          "title": "Geospatial industry value study (GCA 2024) and 'AI in GIS' (Esri UC 2026 takeaways)",
+          "url": "https://tassic.org.au/Documents/Impact%20Study%20Report%20GCA%202024.pdf",
+          "date": "2024",
+          "whatItMeasured": "GCA as peak body for geospatial occupations; Esri UC 2026 framing of AI-in-GIS as augmentation requiring expert evaluation."
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Australian geospatial profession (voluntary standards); no statutory AI instrument for geographers.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Real regulatory/professional-body source; population = Australian occupation; in window."
     },
     {
-      "id": "l504",
-      "text": "What breaks in production AI workflows?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "19-3092-L2-01",
+      "text": "Jobs and Skills Australia's 'Our Gen AI Transition' Capacity Study (August 2025) scores occupations on augmentability and automatability (0-1, ILO-adapted) across 358 occupations; it finds augmentation outweighs automation economy-wide and that knowledge-intensive professional roles at ANZSCO Skill Levels 1-2 show the highest augmentation exposure. This occupation is a professional Skill Level 1 role, placing it in the high-augmentation, low-automation band.",
+      "lane": "L2",
+      "tier": "scholarly",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "What breaks in production AI workflows?",
-          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (occupation data on AI exposure)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/occupation-data-on-ai-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study (Aug 2025): task-level augmentability/automatability exposure, 358 occupations, ILO-adapted method; professionals at ANZSCO Skill Levels 1-2 highest augmentation. Population = Australian occupations."
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Australian occupations (ANZSCO); model-derived task-level estimates, not employment forecasts.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Primary Australian government source; population = AU occupations; in window (Aug 2025)."
     },
     {
-      "id": "l505",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "19-3092-L2-02",
+      "text": "In GIS practice, AI tools apply machine learning and deep learning to geospatial data to classify imagery, detect objects and change, make predictions and reveal spatial patterns at scale; vendors stress that AI does not automatically understand location, proximity, networks or context, so geographers' domain judgement remains essential. A 2026 demonstration used pretrained deep-learning models for automated building-footprint extraction across Brisbane suburbs, turning manual processes into reproducible workflows.",
+      "lane": "L2",
+      "tier": "scholarly",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Esri Australia",
+          "title": "AI in GIS: 5 takeaways from Esri UC 2026",
+          "url": "https://esriaustralia.com.au/blog/ai-in-gis-5-takeaways-from-esri-uc-2026",
+          "date": "2026",
+          "whatItMeasured": "Esri UC 2026: AI/ML in GIS for imagery classification, object/change detection, prediction; experts remain essential for grounded decisions."
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Vendor/industry framing (Esri Australia, 2026); indicative of geographers' spatial-analysis tasks, not an employment count.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Peer-reviewed/industry source; population as scoped; in window."
     },
     {
-      "id": "l506",
-      "text": "How al-Qaida and IS are adopting AI",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l404",
+      "text": "Operations & GIS Geologist — Daly Waters Energy (Brisbane, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "How al-Qaida and IS are adopting AI",
-          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Daly Waters Energy",
+          "title": "Operations & GIS Geologist",
+          "url": "https://www.linkedin.com/jobs/view/4458687766",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l507",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l405",
+      "text": "Senior GIS Analyst — Onterris (York Street, New South Wales, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-          "url": "https://news.ycombinator.com/item?id=48672619",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Onterris",
+          "title": "Senior GIS Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4439130083",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l508",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l406",
+      "text": "Exploration Geologist — Chinova Resources Pty Ltd (Cloncurry, Queensland, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-          "url": "https://isaidumber.today/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Chinova Resources Pty Ltd",
+          "title": "Exploration Geologist",
+          "url": "https://www.linkedin.com/jobs/view/4458151533",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l509",
-      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l407",
+      "text": "Graduate GIS Analyst — WGA (Wallbridge Gilbert Aztec) (Adelaide, South Australia, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
-          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
-          "date": "2026-07-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "WGA (Wallbridge Gilbert Aztec)",
+          "title": "Graduate GIS Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4455243603",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l510",
-      "text": "Looking for developers with high-token AI workflows",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l408",
+      "text": "Geospatial Analyst — Fortescue (Perth, Western Australia, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Looking for developers with high-token AI workflows",
-          "url": "https://canopywave.com/events/unlimited-token-plan-200m",
-          "date": "2026-07-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Fortescue",
+          "title": "Geospatial Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4457904324",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l511",
-      "text": "The death of AI workflow builders",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l409",
+      "text": "Consultant GIS Analyst — Onterris (Brisbane, Queensland, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "The death of AI workflow builders",
-          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Onterris",
+          "title": "Consultant GIS Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4432262529",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l512",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l410",
+      "text": "Geospatial Officer — APA Group (Perth, Western Australia, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-          "url": "https://www.contextvault.dev/",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "APA Group",
+          "title": "Geospatial Officer",
+          "url": "https://www.linkedin.com/jobs/view/4458176583",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l513",
-      "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l411",
+      "text": "Geospatial Consultant — Jacobs (Hobart, Tasmania, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
-          "url": "https://latentdynamics.substack.com/p/semantic-transactions-securing-untrusted",
-          "date": "2026-07-16",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Jacobs",
+          "title": "Geospatial Consultant",
+          "url": "https://www.linkedin.com/jobs/view/4453649455",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "Geomatics Survey Specialist — DOF (Perth, Western Australia, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "DOF",
+          "title": "Geomatics Survey Specialist",
+          "url": "https://www.linkedin.com/jobs/view/4434268084",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "text": "Senior Catastrophe Research Analyst — Aon (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Aon",
+          "title": "Senior Catastrophe Research Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4448129677",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
       "id": "l514",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "AI can identify every object in a photo but can't tell if you're in Singapore or San Francisco. \n\nNow researchers from Microsoft and U Buffalo have cracked the code by teaching models to think like geographers. \n\nHere's what you need to know about it: https://t.co/haC72JWhwK",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-          "url": "https://argonix.io/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "AI can identify every object in a photo but can't tell if you're in Singapore or…",
+          "url": "https://x.com/yohaniddawela/status/2033154252386734487",
+          "date": "2026-03-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -269,16 +312,16 @@
     },
     {
       "id": "l515",
-      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
+      "text": "@Pakistanomy Please don't produce shitty AI maps. Geographers would laugh.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
-          "url": "https://github.com/BenSiv/fossil-scm",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "@Pakistanomy Please don't produce shitty AI maps. Geographers would laugh.",
+          "url": "https://x.com/AstroImran/status/2057073402037608805",
+          "date": "2026-05-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -290,16 +333,16 @@
     },
     {
       "id": "l516",
-      "text": "What is agentic AI today, and what do we want it to be?",
+      "text": "Impossible Geography? The Truth About the 1513 Map\nSee the 1513 map like never before using AI reconstruction. This visual breakdown restores the ancient document to its original state.\n\nThis video examines the history of a rare 1513 map, detailing its journey from discovery in Istanbul to the present day. We use modern AI tools to visualize how the map appeared centuries ago, providing a clear window into the techniques used by early cartographers. If you are interested in historical mapping or…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "What is agentic AI today, and what do we want it to be?",
-          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-          "date": "2026-07-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "youtube",
+          "title": "Impossible Geography? The Truth About the 1513 Map\nSee the 1513 map like never b…",
+          "url": "https://www.youtube.com/watch?v=b32tu__7kyE",
+          "date": "2026-06-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -311,16 +354,16 @@
     },
     {
       "id": "l517",
-      "text": "My AI-Assisted Workflow",
+      "text": "Which AI Model Really Understands Geography?\nAI can write essays and even pass professional exams—but does it truly understand the physical world?\n\nA recent research study put four leading AI language models through 76 challenging geography and GIS tasks designed to test not just factual knowledge, but real spatial reasoning.\n\nHere's what the researchers found:\n\n🏆 Top Performer: ChatGPT achieved the highest overall accuracy, correctly answering over 76% of the tasks—even when tested from scratch…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "My AI-Assisted Workflow",
-          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
-          "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "youtube",
+          "title": "Which AI Model Really Understands Geography?\nAI can write essays and even pass p…",
+          "url": "https://www.youtube.com/watch?v=nA3DRjtAM_4",
+          "date": "2026-07-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -332,489 +375,6 @@
     },
     {
       "id": "l518",
-      "text": "AI Workflows Need Topological Sort",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "AI Workflows Need Topological Sort",
-          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
-          "date": "2026-06-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l519",
-      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l520",
-      "text": "AI workflows: an industry optimising the wrong variables",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "AI workflows: an industry optimising the wrong variables",
-          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
-          "date": "2026-05-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l521",
-      "text": "Ask HK: How are you building AI apps today?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Ask HK: How are you building AI apps today?",
-          "url": "https://news.ycombinator.com/item?id=48323554",
-          "date": "2026-05-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l522",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
-          "url": "https://blocks.ai",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l523",
-      "text": "The Problem with AI Today",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "The Problem with AI Today",
-          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
-          "date": "2026-05-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l524",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-          "url": "https://github.com/kontext-dev/kontext-cli",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l525",
-      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
-          "url": "https://theincidentchallenge.com/",
-          "date": "2026-05-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
-          "url": "https://news.ycombinator.com/item?id=47590261",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l527",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
-          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l528",
-      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Traini…",
-          "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l529",
-      "text": "We’ll give selected startups FREE* access to @corunnerai and help your team put AI to work across your day-to-day operations.\n\nIf your team has fewer than 20 people, reply “AI” below. https://t.co/iZSn73KpLR",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "We’ll give selected startups FREE* access to @corunnerai and help your team put …",
-          "url": "https://x.com/HalakiPrashant/status/2093573299494396247",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l530",
-      "text": "Google trained an AI to predict your neighbourhood's income by counting the coffee shops, bus stops, and high-rises on a map. Nobody told it what income was.\n\nThe model is called S2Vec, and it was published by Google Research as part of their Earth AI initiative. It takes the built environment (every building, road, park, and business in an area) and converts it into a layered image. Three coffee shops and one park in a grid cell become pixel values. The AI then reads that image the same way a c",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "Google trained an AI to predict your neighbourhood's income by counting the coff…",
-          "url": "https://x.com/yohaniddawela/status/2092921316106014998",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l531",
-      "text": "AI can identify every object in a photo but can't tell if you're in Singapore or San Francisco. \n\nNow researchers from Microsoft and U Buffalo have cracked the code by teaching models to think like geographers. \n\nHere's what you need to know about it: https://t.co/haC72JWhwK",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "AI can identify every object in a photo but can't tell if you're in Singapore or…",
-          "url": "https://x.com/yohaniddawela/status/2033154252386734487",
-          "date": "2026-03-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l532",
-      "text": "@Pakistanomy Please don't produce shitty AI maps. Geographers would laugh.",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "@Pakistanomy Please don't produce shitty AI maps. Geographers would laugh.",
-          "url": "https://x.com/AstroImran/status/2057073402037608805",
-          "date": "2026-05-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l533",
-      "text": "I've captured and summarized some essential data:\n\nJobs to Avoid — AI Exposure 9-10/10 ☠️\n\n💀 Computer/Info Research Scientists — $141K | 40K jobs | Master's\n💀 Software Developers/QA/Testers — $131K | 1.9M jobs | Bachelor's\n💀 Database Admins/Architects — $123K | 145K jobs | Bachelor's\n💀 Economists — $115K | 18K jobs | Master's\n💀 Data Scientists — $113K | 246K jobs | Bachelor's\n💀 Mathematicians/Statisticians — $104K | 35K jobs | Master's\n💀 Financial Analysts — $102K | 429K jobs | Bachelor's\n💀 Spec",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "I've captured and summarized some essential data:\n\nJobs to Avoid — AI Exposure 9…",
-          "url": "https://x.com/XROM2863/status/2033218672026849468",
-          "date": "2026-03-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l534",
-      "text": "This Super El Niño Will Be the Strongest In Living Memory\nEl Niño is coming, and it’s predicted to be stronger than ever. \nWant to restore the planet’s ecosystems and see your impact in monthly videos? The first 100 people to join Planet Wild with our code ASTRUM6 will get the first month for free: https://planetwild.com/r/astrumearth/join/6\nIf you want to get to know them better first, check out their mission about the biggest wildlife corridor: https://planetwild.com/r/astrumearth/m37/6\n\n▀▀▀▀▀…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "This Super El Niño Will Be the Strongest In Living Memory\nEl Niño is coming, and…",
-          "url": "https://www.youtube.com/watch?v=_b_sGbjSVZQ",
-          "date": "2026-06-08",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l535",
-      "text": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the world’s largest AI data centers, using thermal drone footage to reveal the hidden pollution powering the AI boom. As companies race to build the future of artificial intelligence, residents and experts warn that fossil fuels, secrecy, and weak regulation may be putting communities at risk.\n\nYou can learn more about @floodlightnews  and its mission by visiting https://floodlightnews.org/\n\nSubscribe to Floodlight's YouTub…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the wor…",
-          "url": "https://www.youtube.com/watch?v=5p426fSlYH4",
-          "date": "2026-05-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l536",
-      "text": "Disclosure Day is Not an Alien Movie - Ending Explained\nDisclosure Day Ending Explained! Head to https://www.tryfum.com/SCREENCRUSH or scan the QR code and use promo code SCREENCRUSH  to get your free Fum Topper with purchase, and start The Good Habit today!\n\nVisit the ScreenCrush Merch Store to find fan merch that we designed just for you. From T-shirts to unique accessories, find your favorites. For 15% off your first order subscribe here! https://screencrushmerch.com/pages/subscribe \n\nDisclos…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Disclosure Day is Not an Alien Movie - Ending Explained\nDisclosure Day Ending Ex…",
-          "url": "https://www.youtube.com/watch?v=UpJgzNeNnU0",
-          "date": "2026-06-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l537",
-      "text": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought aliens with him for the first time in years. Disclosure Day is a very welcome return to blockbuster filmmaking for the director who pioneered it 50 years ago with Jaws. And while Disclosure Day provides all the things Spielberg does best, with some incredible lighting and camera movement, great performances from leads Emily Blunt and Josh O'Connor, the story of disclosing the existence of alien life to the entire world …",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought ali…",
-          "url": "https://www.youtube.com/watch?v=b0XXF_GCVjk",
-          "date": "2026-06-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l538",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
-          "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l539",
-      "text": "Impossible Geography? The Truth About the 1513 Map\nSee the 1513 map like never before using AI reconstruction. This visual breakdown restores the ancient document to its original state.\n\nThis video examines the history of a rare 1513 map, detailing its journey from discovery in Istanbul to the present day. We use modern AI tools to visualize how the map appeared centuries ago, providing a clear window into the techniques used by early cartographers. If you are interested in historical mapping or…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Impossible Geography? The Truth About the 1513 Map\nSee the 1513 map like never b…",
-          "url": "https://www.youtube.com/watch?v=b32tu__7kyE",
-          "date": "2026-06-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l540",
-      "text": "Which AI Model Really Understands Geography?\nAI can write essays and even pass professional exams—but does it truly understand the physical world?\n\nA recent research study put four leading AI language models through 76 challenging geography and GIS tasks designed to test not just factual knowledge, but real spatial reasoning.\n\nHere's what the researchers found:\n\n🏆 Top Performer: ChatGPT achieved the highest overall accuracy, correctly answering over 76% of the tasks—even when tested from scratch…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Which AI Model Really Understands Geography?\nAI can write essays and even pass p…",
-          "url": "https://www.youtube.com/watch?v=nA3DRjtAM_4",
-          "date": "2026-07-19",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l541",
       "text": "Development of an AI information literacy module for an OER geography course\nStephen Craig Finlay & Karen Falconer Al-Hindi, University of Nebraska - Omaha",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -824,427 +384,7 @@
           "title": "Development of an AI information literacy module for an OER geography course\nSte…",
           "url": "https://www.youtube.com/watch?v=zFMevuARZMU",
           "date": "2026-05-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l442",
-      "text": "Geospatial Consultant — Jacobs (Hobart, Tasmania, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Jacobs",
-          "title": "Geospatial Consultant",
-          "url": "https://www.linkedin.com/jobs/view/4453649455",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l443",
-      "text": "Spatial Data Officer — NSW Department of Climate Change, Energy, the Environment and Water (Newcastle West, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "NSW Department of Climate Change, Energy, the Environment and Water",
-          "title": "Spatial Data Officer",
-          "url": "https://www.linkedin.com/jobs/view/4455533045",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l444",
-      "text": "Research and Support Consultant — Department of Education, Western Australia (Greater Perth Area). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department of Education, Western Australia",
-          "title": "Research and Support Consultant",
-          "url": "https://www.linkedin.com/jobs/view/4454491002",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l445",
-      "text": "Geospatial Analyst — Fortescue (Perth, Western Australia, Australia). Posted 14 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Fortescue",
-          "title": "Geospatial Analyst",
-          "url": "https://www.linkedin.com/jobs/view/4457904324",
-          "date": "14 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l446",
-      "text": "Graduate GIS Analyst — WGA (Wallbridge Gilbert Aztec) (Adelaide, South Australia, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "WGA (Wallbridge Gilbert Aztec)",
-          "title": "Graduate GIS Analyst",
-          "url": "https://www.linkedin.com/jobs/view/4455243603",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l447",
-      "text": "Geospatial Officer — APA Group (Perth, Western Australia, Australia). Posted 2 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "APA Group",
-          "title": "Geospatial Officer",
-          "url": "https://www.linkedin.com/jobs/view/4458176583",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l448",
-      "text": "GIS Lead and GIS Specialist — Unitywater (Sunshine Coast, Queensland, Australia). Posted 5 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Unitywater",
-          "title": "GIS Lead and GIS Specialist",
-          "url": "https://www.linkedin.com/jobs/view/4456076381",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l449",
-      "text": "2027 Graduate Program — Department of Planning, Lands and Heritage (Perth, Western Australia, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department of Planning, Lands and Heritage",
-          "title": "2027 Graduate Program",
-          "url": "https://www.linkedin.com/jobs/view/2027",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l450",
-      "text": "2027 Graduate Program — Department of Planning, Lands and Heritage (Perth, Western Australia, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department of Planning, Lands and Heritage",
-          "title": "2027 Graduate Program",
-          "url": "https://www.linkedin.com/jobs/view/4450994878",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l451",
-      "text": "AO4 Land Research Officer — Davidson (Brisbane, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Davidson",
-          "title": "AO4 Land Research Officer",
-          "url": "https://www.linkedin.com/jobs/view/4455538208",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l452",
-      "text": "Consultant GIS Analyst — Onterris (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Onterris",
-          "title": "Consultant GIS Analyst",
-          "url": "https://www.linkedin.com/jobs/view/4432262529",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l553",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
-          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l554",
-      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Traini…",
-          "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l555",
-      "text": "This Super El Niño Will Be the Strongest In Living Memory\nEl Niño is coming, and it’s predicted to be stronger than ever. \nWant to restore the planet’s ecosystems and see your impact in monthly videos? The first 100 people to join Planet Wild with our code ASTRUM6 will get the first month for free: https://planetwild.com/r/astrumearth/join/6\nIf you want to get to know them better first, check out their mission about the biggest wildlife corridor: https://planetwild.com/r/astrumearth/m37/6\n\n▀▀▀▀▀…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "This Super El Niño Will Be the Strongest In Living Memory\nEl Niño is coming, and…",
-          "url": "https://www.youtube.com/watch?v=_b_sGbjSVZQ",
-          "date": "2026-06-08",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l556",
-      "text": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the world’s largest AI data centers, using thermal drone footage to reveal the hidden pollution powering the AI boom. As companies race to build the future of artificial intelligence, residents and experts warn that fossil fuels, secrecy, and weak regulation may be putting communities at risk.\n\nYou can learn more about @floodlightnews  and its mission by visiting https://floodlightnews.org/\n\nSubscribe to Floodlight's YouTub…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the wor…",
-          "url": "https://www.youtube.com/watch?v=5p426fSlYH4",
-          "date": "2026-05-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l557",
-      "text": "Disclosure Day is Not an Alien Movie - Ending Explained\nDisclosure Day Ending Explained! Head to https://www.tryfum.com/SCREENCRUSH or scan the QR code and use promo code SCREENCRUSH  to get your free Fum Topper with purchase, and start The Good Habit today!\n\nVisit the ScreenCrush Merch Store to find fan merch that we designed just for you. From T-shirts to unique accessories, find your favorites. For 15% off your first order subscribe here! https://screencrushmerch.com/pages/subscribe \n\nDisclos…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Disclosure Day is Not an Alien Movie - Ending Explained\nDisclosure Day Ending Ex…",
-          "url": "https://www.youtube.com/watch?v=UpJgzNeNnU0",
-          "date": "2026-06-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l558",
-      "text": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought aliens with him for the first time in years. Disclosure Day is a very welcome return to blockbuster filmmaking for the director who pioneered it 50 years ago with Jaws. And while Disclosure Day provides all the things Spielberg does best, with some incredible lighting and camera movement, great performances from leads Emily Blunt and Josh O'Connor, the story of disclosing the existence of alien life to the entire world …",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought ali…",
-          "url": "https://www.youtube.com/watch?v=b0XXF_GCVjk",
-          "date": "2026-06-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l559",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
-          "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l560",
-      "text": "Impossible Geography? The Truth About the 1513 Map\nSee the 1513 map like never before using AI reconstruction. This visual breakdown restores the ancient document to its original state.\n\nThis video examines the history of a rare 1513 map, detailing its journey from discovery in Istanbul to the present day. We use modern AI tools to visualize how the map appeared centuries ago, providing a clear window into the techniques used by early cartographers. If you are interested in historical mapping or…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Impossible Geography? The Truth About the 1513 Map\nSee the 1513 map like never b…",
-          "url": "https://www.youtube.com/watch?v=b32tu__7kyE",
-          "date": "2026-06-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l561",
-      "text": "Which AI Model Really Understands Geography?\nAI can write essays and even pass professional exams—but does it truly understand the physical world?\n\nA recent research study put four leading AI language models through 76 challenging geography and GIS tasks designed to test not just factual knowledge, but real spatial reasoning.\n\nHere's what the researchers found:\n\n🏆 Top Performer: ChatGPT achieved the highest overall accuracy, correctly answering over 76% of the tasks—even when tested from scratch…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Which AI Model Really Understands Geography?\nAI can write essays and even pass p…",
-          "url": "https://www.youtube.com/watch?v=nA3DRjtAM_4",
-          "date": "2026-07-19",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1271,7 +411,29 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "geographer",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+      "count": 2573,
+      "returned": 50,
+      "topEmployers": [
+        "Northern Territory Government",
+        "Geographe Enterprises",
+        "Calvary",
+        "RED OHMS Group",
+        "Power and Water Corporation",
+        "Geographe Underground Services",
+        "NSW Government",
+        "Australian Electoral Commission"
+      ],
+      "topSkills": [
+        "GIS",
+        "spatial analysis",
+        "research"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1282,7 +444,16 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "query": "Geographers AI disruption",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired 2026-08-30; re-run scripts/factiva_reauth.py to refresh before backfill.",
+        "date": "2026-08-30"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1299,6 +470,15 @@
         "location": "Australia",
         "returned": 11,
         "totalResults": 11,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "soc": "19-3092",
+        "query": "Geographer",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
         "status": "sampled"
       }
     ],
@@ -1330,9 +510,20 @@
           "youtube": 8
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 5,
+        "sources": {
+          "x": 2,
+          "youtube": 3
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva unavailable this run (OpenAthens session expired); logged to factiva_backlog.json for backfill."
+  ]
 }

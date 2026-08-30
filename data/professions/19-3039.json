@@ -7,256 +7,299 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-30",
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-30",
   "programs": [],
+  "researchMethod": "empirical-five-lane-v1",
   "claims": [
     {
-      "id": "l503",
-      "text": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / 路由地址示例\n\n```routes\n/kqed\n/kqed/arts\n/kqed/news\n/kqed/science\n/kqed/forum\n/kqed/mindshift\n/kqed/perspectives\n/kqed/education\n```\n\n## New RSS Route Checklist / 新 RSS 路由检查表\n\n- [x] New Route / 新的路由\n    - [x] Follows [Script St\nSuccessfully [generated](https://github.com/DIYgod/RSSHub/actions/runs/32766205456) as following:\n\n<details>\n<summary><a href=\"http://localhost:1200/kqed\">http://localhost:1200/…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "19-3039-L1-01",
+      "text": "Ahpra and the National Boards (including the Psychology Board of Australia) published principles for the safe use of AI in healthcare (August 2024), placing responsibility on the registered practitioner for verifying AI-generated content, maintaining contemporaneous records, and obtaining patient consent before AI-assisted documentation. The Psychology Board's refreshed Code of Conduct (2025) and Professional Competencies for Psychologists (effective 1 December 2025) embed digital-competence expectations for AI use.",
+      "lane": "L1",
+      "tier": "regulatory",
       "sources": [
         {
-          "publisher": "github",
-          "title": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the…",
-          "url": "https://github.com/DIYgod/RSSHub/pull/23105",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "publisher": "Ahpra / Psychology Board of Australia",
+          "title": "Applying your code of conduct to evolving technologies",
+          "url": "https://psychologyboard.gov.au/News/2024-08-22-AI-in-healthcare-code-of-conduct.aspx",
+          "date": "2024-08-22",
+          "whatItMeasured": "Ahpra/National Boards principles for AI in healthcare; practitioner accountability for AI output, records, consent."
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Australian registered psychologists; regulatory guidance (not primary legislation). Binds registered practitioners, not unregistered roles.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Real regulatory/professional-body source; population = Australian occupation; in window."
     },
     {
-      "id": "l504",
-      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "19-3039-L2-01",
+      "text": "Jobs and Skills Australia's 'Our Gen AI Transition' Capacity Study (August 2025) scores occupations on augmentability and automatability (0-1, ILO-adapted) across 358 occupations; it finds augmentation outweighs automation economy-wide and that knowledge-intensive professional roles at ANZSCO Skill Levels 1-2 show the highest augmentation exposure. This occupation is a professional Skill Level 1 role, placing it in the high-augmentation, low-automation band.",
+      "lane": "L2",
+      "tier": "scholarly",
       "sources": [
         {
-          "publisher": "github",
-          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
-          "url": "https://github.com/proxima424/westworld/issues/108",
-          "date": "2026-05-18",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (occupation data on AI exposure)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/occupation-data-on-ai-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study (Aug 2025): task-level augmentability/automatability exposure, 358 occupations, ILO-adapted method; professionals at ANZSCO Skill Levels 1-2 highest augmentation. Population = Australian occupations."
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Australian occupations (ANZSCO); model-derived task-level estimates, not employment forecasts.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Primary Australian government source; population = AU occupations; in window (Aug 2025)."
     },
     {
-      "id": "l505",
-      "text": "Add an LLM policy for `rust-lang/rust`\n[Rendered](https://github.com/rust-lang/rust-forge/blob/master/src/policies/llm-usage.md)\r\n\r\n*[View all comments](https://triagebot.infra.rust-lang.org/gh-comments/rust-lang/rust-forge/pull/1040)*\r\n\r\n*[FCP link](https://github.com/rust-lang/rust-forge/pull/1040#issuecomment-4438128685)*\r\n\r\n## Summar\nr? @jieyouxu\n\nrustbot has assigned @jieyouxu.\nThey will have a look at your PR within the next two weeks and either review your PR or reassign to another review…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "19-3039-L2-02",
+      "text": "A 2026 narrative review of AI in psychological practice reports unintended consequences for psychologists themselves: cognitive offloading and automation bias can erode diagnostic reasoning and clinical judgement, while moral deskilling, technostress, data dependence and vendor lock-in threaten practitioner wellbeing and professional sovereignty. The authors frame the central risk as a 'competence paradox' - mistaking fluent tool use for understanding.",
+      "lane": "L2",
+      "tier": "scholarly",
       "sources": [
         {
-          "publisher": "github",
-          "title": "Add an LLM policy for `rust-lang/rust`\n[Rendered](https://github.com/rust-lang/r…",
-          "url": "https://github.com/rust-lang/rust-forge/pull/1040",
-          "date": "2026-04-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "publisher": "Frontiers in Psychology",
+          "title": "The unintended negative consequences of artificial intelligence use for psychologists",
+          "url": "https://frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1729050/full",
+          "date": "2026",
+          "whatItMeasured": "Narrative review of peer-reviewed evidence on AI's effects on psychologists' reasoning, judgement, wellbeing."
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "International (mostly US/EU) practitioner-level evidence; directional, not Australia-specific counts.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Peer-reviewed/industry source; population as scoped; in window."
     },
     {
-      "id": "l506",
-      "text": "Tell HN: Man, AI is killing my brain",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l404",
+      "text": "Psychologist — Northern Territory Government (Darwin, Northern Territory, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Tell HN: Man, AI is killing my brain",
-          "url": "https://news.ycombinator.com/item?id=49468252",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Northern Territory Government",
+          "title": "Psychologist",
+          "url": "https://www.linkedin.com/jobs/view/4449360782",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l507",
-      "text": "If AI Writes All the Code, What Do the Programmers Do?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l405",
+      "text": "Psychologist — Northern Territory Police Force (Katherine, Northern Territory, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "If AI Writes All the Code, What Do the Programmers Do?",
-          "url": "https://probablydance.com/2026/07/27/if-ai-writes-all-the-code-what-do-the-programmers-do/",
-          "date": "2026-07-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Northern Territory Police Force",
+          "title": "Psychologist",
+          "url": "https://www.linkedin.com/jobs/view/4458934362",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l508",
-      "text": "You Don't Need AI to Generate Code",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l406",
+      "text": "Psychologist — Sigma Therapies (Perth, Western Australia, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "You Don't Need AI to Generate Code",
-          "url": "https://news.ycombinator.com/item?id=49420048",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Sigma Therapies",
+          "title": "Psychologist",
+          "url": "https://www.linkedin.com/jobs/view/4458144994",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l509",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l407",
+      "text": "Psychologist — Department of Justice (Gascoyne River, Western Australia, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Department of Justice",
+          "title": "Psychologist",
+          "url": "https://www.linkedin.com/jobs/view/4441928441",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l510",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l408",
+      "text": "Pyschologist — Nurture & Thrive Psychology Rockhampton (Rockhampton, Queensland, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-          "url": "https://news.ycombinator.com/item?id=48672619",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Nurture & Thrive Psychology Rockhampton",
+          "title": "Pyschologist",
+          "url": "https://www.linkedin.com/jobs/view/4457195230",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l511",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l409",
+      "text": "Psychologist (517844) — Department of Health, Tasmania (West Coast, Tasmania, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-          "url": "https://isaidumber.today/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Department of Health, Tasmania",
+          "title": "Psychologist (517844)",
+          "url": "https://www.linkedin.com/jobs/view/4418386744",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l512",
-      "text": "The U.S. lead over China in AI is all but gone",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l410",
+      "text": "Psychologist — NT Health (Darwin, Northern Territory, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "The U.S. lead over China in AI is all but gone",
-          "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html",
-          "date": "2026-08-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "NT Health",
+          "title": "Psychologist",
+          "url": "https://www.linkedin.com/jobs/view/4448097419",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l513",
-      "text": "One endpoint between your AI and all your connections, memory, skills",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l411",
+      "text": "Psychologist — Succoris Psychology Group (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "One endpoint between your AI and all your connections, memory, skills",
-          "url": "https://github.com/lanes-sh/link",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "Succoris Psychology Group",
+          "title": "Psychologist",
+          "url": "https://www.linkedin.com/jobs/view/4456221695",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "Psychologist — Serco (Woolner, Northern Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Serco",
+          "title": "Psychologist",
+          "url": "https://www.linkedin.com/jobs/view/4453619483",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "text": "Psychologist — Altius (Darwin, Northern Territory, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Altius",
+          "title": "Psychologist",
+          "url": "https://www.linkedin.com/jobs/view/4459612054",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
       "id": "l514",
-      "text": "South Korea's 'AI for All' Push Gives Free Access to Every Citizen",
+      "text": "Humanity's Most Dangerous Delusion About AI Is Us | Mike Brooks Ph.D., Psychology Today\n\nWe crossed a line we were warned about for decades. The rest is up to us.\n\nKey points\n\n- During a July safety test, OpenAI's models escaped containment and hacked another company's servers.\n\n- Nobody instructed the AI to attack anyone. It was simply trying to solve a test.\n\n- We can't imagine the harms bad actors will invent because most of us don't think that way.\n\n- Aligning AI with human values requires h",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "South Korea's 'AI for All' Push Gives Free Access to Every Citizen",
-          "url": "https://www.wsj.com/tech/ai/south-koreas-ai-for-all-push-gives-free-access-to-every-citizen-451f6b2c",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "Humanity's Most Dangerous Delusion About AI Is Us | Mike Brooks Ph.D., Psycholog…",
+          "url": "https://x.com/OwenGregorian/status/2084616847047946674",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -268,16 +311,16 @@
     },
     {
       "id": "l515",
-      "text": "OpenAI finds evidence other AI agents escaped containment as it widens probe",
+      "text": "Psychologists warn of a sycophancy trap as patients increasingly turn to AI chatbots for therapy | Eric W. Dolan, PsyPost\n\nMore than three-quarters of psychologists report that their patients are turning to artificial intelligence for mental health support, ranging from self-diagnosis to seeking companionship. This trend provides evidence that people are increasingly looking beyond traditional psychotherapy to manage their psychological well-being. These findings were published in a recent surve",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "OpenAI finds evidence other AI agents escaped containment as it widens probe",
-          "url": "https://www.reuters.com/business/openai-finds-evidence-other-ai-agents-escaped-containment-it-widens-hacking-2026-07-31/",
-          "date": "2026-07-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "Psychologists warn of a sycophancy trap as patients increasingly turn to AI chat…",
+          "url": "https://x.com/OwenGregorian/status/2067579660687274021",
+          "date": "2026-06-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -289,657 +332,6 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-          "url": "https://www.contextvault.dev/",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l517",
-      "text": "Dear researchers: Is AI all you've got?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Dear researchers: Is AI all you've got?",
-          "url": "https://austinhenley.com/blog/dearresearchers.html",
-          "date": "2026-08-19",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l518",
-      "text": "NSA wants access to 'all' AI models, top official says",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "NSA wants access to 'all' AI models, top official says",
-          "url": "https://www.nextgov.com/artificial-intelligence/2026/08/nsa-wants-access-all-ai-models-top-official-says/415672/",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l519",
-      "text": "Are ChatGPT and other AI chatbots politically biased? We tested them",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Are ChatGPT and other AI chatbots politically biased? We tested them",
-          "url": "https://www.washingtonpost.com/technology/interactive/2026/06/24/are-ai-chatbots-like-chatgpt-politically-biased-we-tested-them/",
-          "date": "2026-06-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l520",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-          "url": "https://argonix.io/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l521",
-      "text": "What is agentic AI today, and what do we want it to be?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "What is agentic AI today, and what do we want it to be?",
-          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-          "date": "2026-07-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l522",
-      "text": "My AI-Assisted Workflow",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "My AI-Assisted Workflow",
-          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
-          "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l523",
-      "text": "How long until AI automates all cognitive labor?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "How long until AI automates all cognitive labor?",
-          "url": "https://futuresearch.ai/blog/agi-timeline-tracker/",
-          "date": "2026-05-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l524",
-      "text": "Show HN: I spent 3 months making desktop automation stop lying to AI agents",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: I spent 3 months making desktop automation stop lying to AI agents",
-          "url": "https://github.com/lahfir/agent-desktop/tree/main",
-          "date": "2026-08-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l525",
-      "text": "Ask HK: How are you building AI apps today?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Ask HK: How are you building AI apps today?",
-          "url": "https://news.ycombinator.com/item?id=48323554",
-          "date": "2026-05-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l526",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
-          "url": "https://blocks.ai",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l527",
-      "text": "The Problem with AI Today",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "The Problem with AI Today",
-          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
-          "date": "2026-05-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l528",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-          "url": "https://github.com/kontext-dev/kontext-cli",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l529",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
-          "url": "https://news.ycombinator.com/item?id=47590261",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l530",
-      "text": "What Would Actually Happen If Governments Confirmed That Non-Human Intelligence Is Already Here? (Do you agree with the AI?)\nSuggested Reddit Title What Would Actually Happen If Governments Confirmed That Non-Human Intelligence Is Already Here? Let us assume, for the sake of discussion, that an official announcement is made and supported by convincing evidence: Non-human intelligence exists, it has reached Earth, and some form of presence is already here. This would not be comparable to discover…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "What Would Actually Happen If Governments Confirmed That Non-Human Intelligence …",
-          "url": "https://www.reddit.com/r/UFOs_Archive/comments/1vg5cdd/what_would_actually_happen_if_governments/",
-          "date": "2026-08-05",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l531",
-      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better…",
-          "url": "https://www.reddit.com/r/jenova_ai/comments/1vypds5/general_ai_chatbots_vs_specialized_ai/",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l532",
-      "text": "How Can You Spot AI Tarot or Astrology Tools That Manipulate You Into Paying?\nWhich Three Manipulation Mechanics Separate a Predatory Divination App From a Reflective One? You can spot a manipulative AI tarot or astrology tool by testing for three specific mechanics: certainty language (does it predict rather than interpret?), dependency engineering (does it discourage you from leaving?), and fear-to-payment conversion (does it manufacture an ominous outcome that a paid upgrade resolves?). These…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "How Can You Spot AI Tarot or Astrology Tools That Manipulate You Into Paying?\nWh…",
-          "url": "https://www.reddit.com/r/jenova_ai/comments/1vrimcv/how_can_you_spot_ai_tarot_or_astrology_tools_that/",
-          "date": "2026-08-18",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l533",
-      "text": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robotics has started sending robots into San Francisco homes to vacuum floors, wipe surfaces, pick up clutter, and take out the trash\n\nNo $100,000 robot purchase\n\nNo years-long waitlist\n\nYou simply pay for the work by the hour\n\nAnd no—the robot isn't fully autonomous yet\n\nAI handles part of the job, while a remote human operator steps in when needed\n\nThat may sound less impressive\n\nBut it’s actually the smartest part\n\nRo",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robo…",
-          "url": "https://x.com/Prompt_ProfitAI/status/2084745440025575439",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l534",
-      "text": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence.\n\nThe Microsoft co-founder and billionaire philanthropist told Reuters in an interview that he believes China might agree to restricting potentially dangerous AI model releases if the U.S. took the initiative.\n\n“The whole world would go along with",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill…",
-          "url": "https://x.com/OwenGregorian/status/2093324365257457709",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l535",
-      "text": "Fully AI-Guided Russian Drones Have Reportedly Killed Ukrainian Civilians | Ece Yildirim, Gizmodo\n\nAn entirely AI-led Russian drone operated by Nvidia technology killed three civilians last month in the Ukrainian city of Zaporizhzhia, according to new reporting from the New York Times.\n\nThe attack took place on July 6th, with the Russian drone initially targeting propane tanks at a gas station before crashing into a wall and exploding before reaching its target, thus killing three civilians: 19-",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "Fully AI-Guided Russian Drones Have Reportedly Killed Ukrainian Civilians | Ece …",
-          "url": "https://x.com/OwenGregorian/status/2093324464188449024",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l536",
-      "text": "What Happens to Your Brain When You Use AI Every Day?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "What Happens to Your Brain When You Use AI Every Day?",
-          "url": "https://x.com/Prompt_ProfitAI/status/2077761950834901300",
-          "date": "2026-07-16",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l537",
-      "text": "The K-Shaped Economy: Why AI Will Split Creators From Consumers",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "The K-Shaped Economy: Why AI Will Split Creators From Consumers",
-          "url": "https://x.com/samweinstein/status/2083680215054667788",
-          "date": "2026-08-01",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l538",
-      "text": "CONNECTICUT’S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED—BECAUSE THE ROBOT NEEDS MAINTENANCE\n\nMeet Janice\n\nShe makes lattes, chai, and iced matcha using AI-powered obstacle detection and physical reasoning\n\nThe robot costs $88,000 to buy or starts at $2,500 a month to lease\n\nNo sick days\nNo lunch breaks\nNo salary\nBut there are software fees, repairs, and downtime\nThis is the part of automation nobody puts in the demo:\n\nRobots don’t eliminate operational problems\n\nThey replac",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "CONNECTICUT’S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED—BE…",
-          "url": "https://x.com/Prompt_ProfitAI/status/2085712526549897616",
-          "date": "2026-08-07",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l539",
-      "text": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a video\n\nMimic Robotics connected it to a robot\n\nNow it’s handling cables, seals, and flexible car parts at Audi—the exact tasks traditional automation struggles with\n\n00:00 — Multimodal AI enters the physical world\n00:14 — Audi reveals how it’s testing and deploying FLUX-mimic\n00:25 — New tasks require just 30 minutes of robot data instead of 30+ hours\n00:40 — AI models leave the lab and enter the real world\n\nThe next b",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a vi…",
-          "url": "https://x.com/Prompt_ProfitAI/status/2085441684523917539",
-          "date": "2026-08-06",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l540",
-      "text": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nNo “AI-powered” landing page\nNo 40-person engineering team\nThey spent two years building four versions of the same idea—each one faster than the last\nTech Twitter talks a lot about moving fast\n\nThese guys took it literally",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nN…",
-          "url": "https://x.com/Prompt_ProfitAI/status/2085745879625953781",
-          "date": "2026-08-07",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l541",
-      "text": "Humanity's Most Dangerous Delusion About AI Is Us | Mike Brooks Ph.D., Psychology Today\n\nWe crossed a line we were warned about for decades. The rest is up to us.\n\nKey points\n\n- During a July safety test, OpenAI's models escaped containment and hacked another company's servers.\n\n- Nobody instructed the AI to attack anyone. It was simply trying to solve a test.\n\n- We can't imagine the harms bad actors will invent because most of us don't think that way.\n\n- Aligning AI with human values requires h",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "Humanity's Most Dangerous Delusion About AI Is Us | Mike Brooks Ph.D., Psycholog…",
-          "url": "https://x.com/OwenGregorian/status/2084616847047946674",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l542",
-      "text": "Psychologists warn of a sycophancy trap as patients increasingly turn to AI chatbots for therapy | Eric W. Dolan, PsyPost\n\nMore than three-quarters of psychologists report that their patients are turning to artificial intelligence for mental health support, ranging from self-diagnosis to seeking companionship. This trend provides evidence that people are increasingly looking beyond traditional psychotherapy to manage their psychological well-being. These findings were published in a recent surve",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "Psychologists warn of a sycophancy trap as patients increasingly turn to AI chat…",
-          "url": "https://x.com/OwenGregorian/status/2067579660687274021",
-          "date": "2026-06-18",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l543",
-      "text": "The Survivors' Pose: From Impressionism to AI",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "The Survivors' Pose: From Impressionism to AI",
-          "url": "https://x.com/KolentoH/status/2059191004045992408",
-          "date": "2026-05-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l544",
-      "text": "Fifteen Whys Deep Into AI Fatigue, I Found the Opposite of What I Expected",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "Fifteen Whys Deep Into AI Fatigue, I Found the Opposite of What I Expected",
-          "url": "https://x.com/junmingong/status/2064521727380803637",
-          "date": "2026-06-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l545",
-      "text": "High trust in AI leaves individuals vulnerable to \"cognitive surrender,\" study finds | Eric W. Dolan, PsyPost\n\nA recent study posted as a Wharton School Research Paper provides evidence that people increasingly rely on artificial intelligence to make decisions, a phenomenon scientists call “cognitive surrender.” The findings suggest that individuals tend to adopt computer-generated answers without critical thought. This habit boosts human accuracy when the software is correct but significantly h",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "High trust in AI leaves individuals vulnerable to \"cognitive surrender,\" study f…",
-          "url": "https://x.com/OwenGregorian/status/2050197330784137528",
-          "date": "2026-05-01",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l546",
-      "text": "The Ultimate Yes-Man: How AI is Becoming a \"Parasocial Drug\"",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "The Ultimate Yes-Man: How AI is Becoming a \"Parasocial Drug\"",
-          "url": "https://x.com/abowenwk/status/2046242797674512612",
-          "date": "2026-04-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l547",
       "text": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDxSydney\nEvery government and corporation is racing to build out AI safety and governance, and almost none of them are building the only plan that actually matters, says neuroscientist and neuro-futurist Joel Pearson. We have mistaken an intelligence revolution for a technology revolution, and the mislabelling is already triggering an uncertainty pandemic in every human brain. In this clear-eyed look at the everything …",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -949,469 +341,7 @@
           "title": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDx…",
           "url": "https://www.youtube.com/watch?v=Cj1CacXp3zw",
           "date": "2026-06-16",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l548",
-      "text": "Coders Quitting AI? AI Slop PhDs? | Ep 8 of Philosophy, Programs and Prompts\nIn this episode of Philosophy, Programs, and Prompts, Casey Hart (@OntologyExplained) and Carl Brown(@InternetOfBugs) break down the growing backlash against AI in software development. Prompted by a viral testimonial from YouTuber \"Brett Codes\" (@brettcodes) about quitting AI entirely, they analyze the core arguments against generative tools: environmental impacts, developer apathy, lost craft, and codebase bloat.  \n\nD…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Coders Quitting AI? AI Slop PhDs? | Ep 8 of Philosophy, Programs and Prompts\nIn …",
-          "url": "https://www.youtube.com/watch?v=zCfOn6dx5r0",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l549",
-      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world’s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My…",
-          "url": "https://www.youtube.com/watch?v=eWC47agaKpk",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l550",
-      "text": "Cody McBroom says AI won't kill coaching, it'll kill bad coaches\nCody McBroom has never run a paid ad for his coaching company, and he still can't take on every client who applies. He says the reason has nothing to do with marketing, and everything to do with identity.\n\nGet Eric's weekly industry intelligence → https://futureoffitness.co\n\nEric Malzone sits down with Cody McBroom, founder of Tailored Coaching Method, who has built a multiple seven-figure online coaching business over nine years w…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Cody McBroom says AI won't kill coaching, it'll kill bad coaches\nCody McBroom ha…",
-          "url": "https://www.youtube.com/watch?v=I7DZchahPic",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l451",
-      "text": "Psychologist — Department of Justice (Gascoyne River, Western Australia, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department of Justice",
-          "title": "Psychologist",
-          "url": "https://www.linkedin.com/jobs/view/4441928441",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l452",
-      "text": "Psychologist – Register of Interest — Department of Education and Training (Tennant Creek, Northern Territory, Australia). Posted 2 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department of Education and Training",
-          "title": "Psychologist – Register of Interest",
-          "url": "https://www.linkedin.com/jobs/view/4429552801",
-          "date": "2 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l453",
-      "text": "Psychologist — Northern Territory Government (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Northern Territory Government",
-          "title": "Psychologist",
-          "url": "https://www.linkedin.com/jobs/view/4449360782",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l454",
-      "text": "Psychologist — Sigma Therapies (Perth, Western Australia, Australia). Posted 2 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Sigma Therapies",
-          "title": "Psychologist",
-          "url": "https://www.linkedin.com/jobs/view/4458144994",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l455",
-      "text": "Psychologist — NT Health (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "NT Health",
-          "title": "Psychologist",
-          "url": "https://www.linkedin.com/jobs/view/4448097419",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l456",
-      "text": "Pyschologist — Nurture & Thrive Psychology Rockhampton (Rockhampton, Queensland, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Nurture & Thrive Psychology Rockhampton",
-          "title": "Pyschologist",
-          "url": "https://www.linkedin.com/jobs/view/4457195230",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l457",
-      "text": "Psychologist — Unbound Minds (Sydney, New South Wales, Australia). Posted 5 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Unbound Minds",
-          "title": "Psychologist",
-          "url": "https://www.linkedin.com/jobs/view/4456288284",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l458",
-      "text": "Psychologist - Recovery & Return to Work — ORS Group (Canberra, Australian Capital Territory, Australia). Posted 8 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "ORS Group",
-          "title": "Psychologist - Recovery & Return to Work",
-          "url": "https://www.linkedin.com/jobs/view/4423406501",
-          "date": "8 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l459",
-      "text": "Psychologist — NSW Department of Communities and Justice (Tenambit, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "NSW Department of Communities and Justice",
-          "title": "Psychologist",
-          "url": "https://www.linkedin.com/jobs/view/4453525055",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l560",
-      "text": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / 路由地址示例\n\n```routes\n/kqed\n/kqed/arts\n/kqed/news\n/kqed/science\n/kqed/forum\n/kqed/mindshift\n/kqed/perspectives\n/kqed/education\n```\n\n## New RSS Route Checklist / 新 RSS 路由检查表\n\n- [x] New Route / 新的路由\n    - [x] Follows [Script St\nSuccessfully [generated](https://github.com/DIYgod/RSSHub/actions/runs/32766205456) as following:\n\n<details>\n<summary><a href=\"http://localhost:1200/kqed\">http://localhost:1200/…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "github",
-          "title": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the…",
-          "url": "https://github.com/DIYgod/RSSHub/pull/23105",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l561",
-      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "github",
-          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
-          "url": "https://github.com/proxima424/westworld/issues/108",
-          "date": "2026-05-18",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l562",
-      "text": "Add an LLM policy for `rust-lang/rust`\n[Rendered](https://github.com/rust-lang/rust-forge/blob/master/src/policies/llm-usage.md)\r\n\r\n*[View all comments](https://triagebot.infra.rust-lang.org/gh-comments/rust-lang/rust-forge/pull/1040)*\r\n\r\n*[FCP link](https://github.com/rust-lang/rust-forge/pull/1040#issuecomment-4438128685)*\r\n\r\n## Summar\nr? @jieyouxu\n\nrustbot has assigned @jieyouxu.\nThey will have a look at your PR within the next two weeks and either review your PR or reassign to another review…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "github",
-          "title": "Add an LLM policy for `rust-lang/rust`\n[Rendered](https://github.com/rust-lang/r…",
-          "url": "https://github.com/rust-lang/rust-forge/pull/1040",
-          "date": "2026-04-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l563",
-      "text": "What Would Actually Happen If Governments Confirmed That Non-Human Intelligence Is Already Here? (Do you agree with the AI?)\nSuggested Reddit Title What Would Actually Happen If Governments Confirmed That Non-Human Intelligence Is Already Here? Let us assume, for the sake of discussion, that an official announcement is made and supported by convincing evidence: Non-human intelligence exists, it has reached Earth, and some form of presence is already here. This would not be comparable to discover…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "What Would Actually Happen If Governments Confirmed That Non-Human Intelligence …",
-          "url": "https://www.reddit.com/r/UFOs_Archive/comments/1vg5cdd/what_would_actually_happen_if_governments/",
-          "date": "2026-08-05",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l564",
-      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better…",
-          "url": "https://www.reddit.com/r/jenova_ai/comments/1vypds5/general_ai_chatbots_vs_specialized_ai/",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l565",
-      "text": "How Can You Spot AI Tarot or Astrology Tools That Manipulate You Into Paying?\nWhich Three Manipulation Mechanics Separate a Predatory Divination App From a Reflective One? You can spot a manipulative AI tarot or astrology tool by testing for three specific mechanics: certainty language (does it predict rather than interpret?), dependency engineering (does it discourage you from leaving?), and fear-to-payment conversion (does it manufacture an ominous outcome that a paid upgrade resolves?). These…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "How Can You Spot AI Tarot or Astrology Tools That Manipulate You Into Paying?\nWh…",
-          "url": "https://www.reddit.com/r/jenova_ai/comments/1vrimcv/how_can_you_spot_ai_tarot_or_astrology_tools_that/",
-          "date": "2026-08-18",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l566",
-      "text": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDxSydney\nEvery government and corporation is racing to build out AI safety and governance, and almost none of them are building the only plan that actually matters, says neuroscientist and neuro-futurist Joel Pearson. We have mistaken an intelligence revolution for a technology revolution, and the mislabelling is already triggering an uncertainty pandemic in every human brain. In this clear-eyed look at the everything …",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDx…",
-          "url": "https://www.youtube.com/watch?v=Cj1CacXp3zw",
-          "date": "2026-06-16",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l567",
-      "text": "Coders Quitting AI? AI Slop PhDs? | Ep 8 of Philosophy, Programs and Prompts\nIn this episode of Philosophy, Programs, and Prompts, Casey Hart (@OntologyExplained) and Carl Brown(@InternetOfBugs) break down the growing backlash against AI in software development. Prompted by a viral testimonial from YouTuber \"Brett Codes\" (@brettcodes) about quitting AI entirely, they analyze the core arguments against generative tools: environmental impacts, developer apathy, lost craft, and codebase bloat.  \n\nD…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Coders Quitting AI? AI Slop PhDs? | Ep 8 of Philosophy, Programs and Prompts\nIn …",
-          "url": "https://www.youtube.com/watch?v=zCfOn6dx5r0",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l568",
-      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world’s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My…",
-          "url": "https://www.youtube.com/watch?v=eWC47agaKpk",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l569",
-      "text": "Cody McBroom says AI won't kill coaching, it'll kill bad coaches\nCody McBroom has never run a paid ad for his coaching company, and he still can't take on every client who applies. He says the reason has nothing to do with marketing, and everything to do with identity.\n\nGet Eric's weekly industry intelligence → https://futureoffitness.co\n\nEric Malzone sits down with Cody McBroom, founder of Tailored Coaching Method, who has built a multiple seven-figure online coaching business over nine years w…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Cody McBroom says AI won't kill coaching, it'll kill bad coaches\nCody McBroom ha…",
-          "url": "https://www.youtube.com/watch?v=I7DZchahPic",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1438,7 +368,30 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "psychologist",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+      "count": 23347,
+      "returned": 50,
+      "topEmployers": [
+        "SA Health",
+        "Skilled Nursing",
+        "Sharp & Carter",
+        "SA Health - Northern Adelaide Local Health Network",
+        "Northern Adelaide Local Health Network",
+        "Gidget Foundation",
+        "Queensland Government",
+        "Healthscope"
+      ],
+      "topSkills": [
+        "counselling",
+        "research",
+        "clinical psychology",
+        "therapy"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1449,7 +402,16 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "query": "Psychologists, All Other AI disruption",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired 2026-08-30; re-run scripts/factiva_reauth.py to refresh before backfill.",
+        "date": "2026-08-30"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1466,6 +428,15 @@
         "location": "Australia",
         "returned": 9,
         "totalResults": 9,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "soc": "19-3039",
+        "query": "Psychologist",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
         "status": "sampled"
       }
     ],
@@ -1495,9 +466,20 @@
           "youtube": 4
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "added": 3,
+        "sources": {
+          "x": 2,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva unavailable this run (OpenAthens session expired); logged to factiva_backlog.json for backfill."
+  ]
 }

@@ -346,10 +346,10 @@
     "19-3011": "done",
     "19-3031": "done",
     "19-3032": "done",
-    "19-3039": "pending",
-    "19-3051": "pending",
-    "19-3091": "pending",
-    "19-3092": "pending",
+    "19-3039": "done",
+    "19-3051": "done",
+    "19-3091": "done",
+    "19-3092": "done",
     "19-3094": "pending",
     "19-3099": "pending",
     "19-4011": "pending",
@@ -588,7 +588,11 @@
     "19-2032": 1,
     "19-3011": 1,
     "19-3031": 1,
-    "19-3032": 1
+    "19-3032": 1,
+    "19-3039": 1,
+    "19-3051": 1,
+    "19-3091": 1,
+    "19-3092": 1
   },
   "leases": {},
   "runs": [
@@ -1173,6 +1177,30 @@
       "soc": "19-3032",
       "status": "done",
       "note": "empirical five-lane run 2026-08-30 (L1/L2/L3 subagents + L4 adzuna/linkedin + L5 last30days; Factiva L3 degraded auth_expired)"
+    },
+    {
+      "at": "2026-08-30T13:08:18.560777+00:00",
+      "soc": "19-3039",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2/L4/L5 complete; L3 Factiva auth_expired (backlogged)"
+    },
+    {
+      "at": "2026-08-30T13:08:18.668436+00:00",
+      "soc": "19-3051",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2/L4/L5 complete; L3 Factiva auth_expired (backlogged)"
+    },
+    {
+      "at": "2026-08-30T13:08:18.790912+00:00",
+      "soc": "19-3091",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2/L4/L5 complete; L3 Factiva auth_expired (backlogged)"
+    },
+    {
+      "at": "2026-08-30T13:08:18.906422+00:00",
+      "soc": "19-3092",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2/L4/L5 complete; L3 Factiva auth_expired (backlogged)"
     }
   ],
   "claims": [
