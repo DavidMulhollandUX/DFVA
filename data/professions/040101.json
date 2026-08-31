@@ -1,0 +1,176 @@
+{
+  "onet_soc_code": "040101",
+  "title": "Architect",
+  "aliases": [
+    "Architectural Graduate",
+    "Landscape Architect"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-arclarc"
+  ],
+  "claims": [
+    {
+      "id": "L1-1",
+      "text": "Victoria's Architects Registration Board (ARBV) moved architect registration from perpetual to an annual financial-year cycle effective 13 August 2025, requiring architects to submit renewal fees, proof of professional indemnity insurance, proof of CPD compliance, and a fitness-to-practise declaration by 30 June each year or have their registration automatically lapse within a month.",
+      "lane": "L1",
+      "tier": "state regulator (statutory instrument)",
+      "sources": [
+        {
+          "publisher": "Architects Registration Board of Victoria (ARBV)",
+          "title": "Architect Act changes 2025",
+          "url": "https://www.arbv.vic.gov.au/architect-act-changes-2025",
+          "date": "2025-08-13",
+          "whatItMeasured": "ARBV's own regulatory notice describing changes to the Architects Act 1991 made by the Building Legislation Amendment and Other Matters Act 2024, effective 13 August 2025"
+        }
+      ],
+      "scope": "Covers only Victoria's state-based registration regime for architects under the Architects Act 1991 as amended \u2014 not national accreditation, other Australian states/territories, or any measure of how architects, firms or employers actually regard or have responded to the change; also does not establish the precise automatic-lapse timing ('within a month') beyond the general 30 June renewal deadline.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L2-2",
+      "text": "The AI Occupational Exposure (AIOE) index (Felten, Raj & Seamans, Strategic Management Journal 2021) scores US SOC 17-1011 'Architects, Except Landscape and Naval' at 1.047 and SOC 17-1012 'Landscape Architects' at 1.034, both well above the roughly-zero population mean, placing architecture occupations in the upper range of AI exposure among the 774 six-digit SOC occupations the index covers.",
+      "lane": "L2",
+      "tier": "Peer-reviewed \u2014 Strategic Management Journal",
+      "sources": [
+        {
+          "publisher": "Felten, E.W., Raj, M. & Seamans, R. (via AIOE-Data project data release)",
+          "title": "Occupational, Industry, and Geographic Exposure to Artificial Intelligence: A Novel Dataset and Its Potential Uses (AIOE dataset, Appendix A)",
+          "url": "https://raw.githubusercontent.com/AIOE-Data/AIOE/main/AIOE_DataAppendix.xlsx",
+          "date": "2021",
+          "whatItMeasured": "Crowd-worker ratings of the relatedness between 52 AI-application categories (drawn from AI patent/ability descriptions) and O*NET task and ability descriptions, aggregated to occupation level and standardized into an index across the full US six-digit SOC taxonomy (774 occupations); published in Strategic Management Journal, doi 10.1002/smj.3286."
+        }
+      ],
+      "scope": "A theoretical, task-overlap exposure measure computed in 2018-2021 (pre-ChatGPT) for the US SOC taxonomy only \u2014 not an employment, wage, hiring, or adoption-rate estimate, has no Australian population, and the underlying study itself falls outside the 2025-2026 evidence window even though it remains the standard reference cited in current research; treat the exact figures as a fixed historical benchmark, not a 2025/2026 measurement, and do not extend it to ANZSCO architects without independent validation.",
+      "disposition": "scoped"
+    },
+    {
+      "id": "L3-1",
+      "text": "The RIBA AI Report 2025 found that AI use among UK architecture practices rose from about 41% in 2024 to nearly 59-60% in 2025, while roughly two-thirds of surveyed architects expressed concern about AI increasing the risk of design imitation and 35% viewed AI as a threat to the profession.",
+      "lane": "L3",
+      "tier": "professional-body publication",
+      "sources": [
+        {
+          "publisher": "Workplace Insight",
+          "title": "UK architects embrace AI more and more, although concerns about creativity remain",
+          "url": "https://workplaceinsight.net/uk-architects-embrace-ai-more-and-more-although-concerns-about-creativity-remain/",
+          "date": "2025-06-26",
+          "whatItMeasured": "Trade-press summary of RIBA's second annual AI Report, an RIBA member survey of UK architecture practices on AI adoption and attitudes"
+        }
+      ],
+      "scope": "Reflects RIBA-member self-report at the practice level (adoption rates and stated concerns), not verified individual-level attitudes, actual job/task displacement, or non-RIBA-member UK practices; does not establish the survey's sample size or response rate (only the primary RIBA AI Report 2025 document itself would); UK-practice population only, not global or Australian.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L3-2",
+      "text": "An AIA/Deltek Architecture Billings Index survey reported in June 2026 found that 88% of responding US architecture firm leaders said AI use had no impact on staffing, versus 3% who reported staff reductions attributable to AI and 2% who added positions because of it.",
+      "lane": "L3",
+      "tier": "professional-body publication",
+      "sources": [
+        {
+          "publisher": "American Institute of Architects (AIA)",
+          "title": "ABI May 2026: Architecture firm billings weaken further",
+          "url": "https://www.aia.org/resource-center/abi-may-2026-architecture-firm-billings-weaken-further",
+          "date": "2026-06-24",
+          "whatItMeasured": "Monthly Work-on-the-Boards survey run by AIA's Economics & Market Research Group, asking US architecture firm leaders about AI's effect on staffing decisions"
+        }
+      ],
+      "scope": "A single monthly Work-on-the-Boards survey wave of US AIA/Deltek respondent firm leaders' self-reported perception \u2014 not a payroll or employment-count measure of actual job change, not a longer-run trend across multiple months, and not evidence of causal mechanism; US firm-leader population only, not a broader industry census or an Australian figure.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L5-1",
+      "text": "In a January 2026 Archinect practitioner forum thread, architects split sharply over whether using AI to look up building codes and similar reference tasks is a professional failing, with one side calling that use \"lazy\" and unprofessional and another accusing that framing of \"shadowboxing his own anxieties.\"",
+      "lane": "L5",
+      "tier": "practitioner forum (self-selected)",
+      "sources": [
+        {
+          "publisher": "Archinect (architecture profession forum)",
+          "title": "I feel like AI use is unethical for architects | Forum | Archinect",
+          "url": "https://archinect.com/forum/thread/150521508/i-feel-like-ai-use-is-unethical-for-architects",
+          "date": "2026-01-26",
+          "whatItMeasured": "Open public forum thread among self-identified architecture practitioners/students debating AI use in daily practice; not a survey, no representative sampling."
+        }
+      ],
+      "scope": "One open, self-selected Archinect forum thread with an unknown and likely small number of participants \u2014 does not support any claim about prevalence of either view across the architecture profession, and captures only the framing of whichever posters chose to weigh in on this specific thread in January 2026.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L5-2",
+      "text": "In a separate 2026 Archinect thread on using AI in architectural practice, participants repeatedly framed AI output as equivalent to an untrained or unlicensed intern's work \u2014 something to supervise and verify rather than trust \u2014 with one describing it as having \"book knowledge but no real world experience.\"",
+      "lane": "L5",
+      "tier": "practitioner forum (self-selected)",
+      "sources": [
+        {
+          "publisher": "Archinect (architecture profession forum)",
+          "title": "Using Artificial Intelligence (AI) in the Practice of Architecture | Forum | Archinect",
+          "url": "https://archinect.com/forum/thread/150511744/using-artificial-intelligence-ai-in-the-practice-of-architecture",
+          "date": "2026",
+          "whatItMeasured": "Open public forum thread among self-identified architecture practitioners discussing how they personally use and evaluate AI tools in practice; not a survey."
+        }
+      ],
+      "scope": "Reflects only the practitioners who chose to post in this one 2026 thread \u2014 does not establish how widely the 'untrained intern' framing is held across the profession, and the thread's exact date/participant count could not be independently confirmed beyond the URL and quoted content.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L5-3",
+      "text": "Architect and AI strategist Nitsan Bartov, writing in Architizer's practitioner-facing journal, argues the real risk to the profession is not sudden job loss but the gradual, unnoticed erosion of design judgment as routine tasks slide to automation, comparing it to how surgical residents still operate by hand under supervision so that judgment develops through doing.",
+      "lane": "L5",
+      "tier": "practitioner op-ed / trade blog",
+      "sources": [
+        {
+          "publisher": "Architizer Journal",
+          "title": "The Architecture Gym: Keeping Design Judgment Fit for the Age of AI",
+          "url": "https://architizer.com/blog/practice/tools/architecture-gym-design-judgment-ai/",
+          "date": "2026",
+          "whatItMeasured": "First-person practitioner op-ed by an architect who leads AI strategy at a practicing firm (Henning Larsen) and trains staff on AI use, reflecting on his own observations of AI's effect on design skill, not a study or survey."
+        }
+      ],
+      "scope": "One practitioner's argued opinion published on a trade-press blog (Architizer Journal) \u2014 not a study, survey, or measured finding about skill erosion, and not representative of the profession's average view; the article's practice examples draw on the author's own firm (Henning Larsen) and AI-vendor ambassador role (Krea.ai), which is a source of potential bias not disclosed in the claim's own framing.",
+      "disposition": "sourced"
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "architect",
+    "window": "snapshot 2026-08-31",
+    "count": 4595,
+    "topEmployers": [
+      "Hassell Services",
+      "The HR Ally",
+      "Talenza",
+      "Infosys Singapore & Australia",
+      "Vivid Recruitment",
+      "Aspect Personnel",
+      "Unison Group",
+      "Australian Payments Plus"
+    ],
+    "topSkills": [
+      "documentation",
+      "revit",
+      "autocad",
+      "project management"
+    ]
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "site:jobsandskills.gov.au architects automatability augmentability score",
+      "JSA \"232111\" architects gen AI exposure automatability augmentability",
+      "arxiv Labor Market Incidence of New Technologies architects occupation elasticity wage effect (no architect-specific figures found in accessible abstract/sections)",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable \u2014 no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}

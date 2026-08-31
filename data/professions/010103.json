@@ -1,0 +1,224 @@
+{
+  "onet_soc_code": "010103",
+  "title": "Statistician",
+  "aliases": [
+    "Biostatistician",
+    "Data Scientist"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-biosenh"
+  ],
+  "claims": [
+    {
+      "id": "L1-1",
+      "text": "The Statistical Society of Australia's Code of Conduct is mandatory for all members holding its Accredited Statistician (AStat) or Graduate Statistician (GStat) accreditation, with non-compliance grounds for disciplinary action or loss of accreditation.",
+      "lane": "L1",
+      "tier": "professional-body code of conduct (voluntary, non-statutory)",
+      "sources": [
+        {
+          "publisher": "Statistical Society of Australia",
+          "title": "Code of conduct",
+          "url": "https://www.statsoc.org.au/Code-of-conduct",
+          "date": "2019-08-01",
+          "whatItMeasured": "The Society's own binding conduct standard document, dated 1 August 2019 and current on its live accreditation page as of the research window."
+        },
+        {
+          "publisher": "Statistical Society of Australia",
+          "title": "Professional accreditation",
+          "url": "https://statsoc.org.au/Professional-accreditation",
+          "date": "1996 (scheme established); page current 2026",
+          "whatItMeasured": "The Society's own description of the AStat/GStat accreditation scheme, its five-yearly maintenance-report requirement, and its Code of Conduct binding obligation."
+        }
+      ],
+      "scope": "Confirms SSA's own voluntary accreditation scheme requires its AStat/GStat holders to be bound by the Code of Conduct; does not establish the specific disciplinary mechanisms or sanctions text (that level of detail sits in the linked PDF, not verified here), and says nothing about statisticians who hold no SSA accreditation, since 'Statistician' is not a licensed or state-registered occupation in Australia.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L1-2",
+      "text": "Statistician (ANZSCO 224113) is a Group A occupation on Australia's skilled-migration occupation list, and VETASSESS as the assessing authority requires an AQF Bachelor degree or higher in a highly relevant field (e.g. Statistics, Biostatistics, Mathematical Statistics) plus at least one year of highly relevant, appropriate-skill-level employment within the preceding five years before it will issue a positive skills assessment.",
+      "lane": "L1",
+      "tier": "Commonwealth skilled-migration assessing-authority requirement",
+      "sources": [
+        {
+          "publisher": "VETASSESS",
+          "title": "Statistician Skills Assessment ANZSCO 224113",
+          "url": "https://www.vetassess.com.au/check-my-occupation/professional-occupations/statistician",
+          "date": "2026 (live page; a related VETASSESS information sheet is dated 2026-06-04)",
+          "whatItMeasured": "VETASSESS's own published qualification and employment criteria for a positive statistician skills assessment under the ANZSCO 2013 (Group A) classification used for Australian skilled-visa nomination."
+        }
+      ],
+      "scope": "Governs eligibility for skilled-visa nomination via VETASSESS assessment of the Statistician ANZSCO code specifically; does not describe domestic professional licensing, ongoing practice standards once working in Australia, or apply to citizens/residents seeking employment without a visa pathway, or to assessments run by a different authority.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L2-1",
+      "text": "US Bureau of Labor Statistics employment projections attribute part of a projected 33.5% growth in data-scientist employment between 2024 and 2034 to AI-driven growth in the volume of data organisations need interpreted.",
+      "lane": "L2",
+      "tier": "institutional (federal statistical agency)",
+      "sources": [
+        {
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "title": "Artificial intelligence, information technology, and employment, 2024\u201334 (The Economics Daily)",
+          "url": "https://www.bls.gov/opub/ted/2026/artificial-intelligence-information-technology-and-employment-2024-34.htm",
+          "date": "2026",
+          "whatItMeasured": "BLS Employment Projections program's 10-year (2024\u20132034) occupational employment growth projections for the US labour market, with AI/IT adoption discussed as a demand driver for data-related occupations."
+        }
+      ],
+      "scope": "US Bureau of Labor Statistics projection for the distinct 'data scientist' occupational code only, not for 'statistician' (a separate BLS/O*NET code) and not for Australia; it is a 10-year aggregate employment-demand growth projection, not a task-level automation-exposure, displacement, or wage estimate.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L2-2",
+      "text": "Anthropic's Economic Index-based labour-market measure finds a large gap between the theoretical AI exposure of Computer and Mathematical occupations (94% of tasks scored as having LLM penetration scope, using the Eloundou et al. 2023 task-exposure metric) and Claude's observed, automation-oriented task coverage in that occupation group (33%).",
+      "lane": "L2",
+      "tier": "institutional (AI-lab economic research using own product-usage data)",
+      "sources": [
+        {
+          "publisher": "Anthropic",
+          "title": "Labor market impacts of AI: A new measure and early evidence",
+          "url": "https://www.anthropic.com/research/labor-market-impacts",
+          "date": "2026-03-05",
+          "whatItMeasured": "Combines the Eloundou et al. (2023) O*NET task-exposure (beta) scores with millions of real Claude.ai conversations mapped to ~800 O*NET occupations across four Economic Index releases, isolating automated (vs. augmentative) work-related usage to compute observed task coverage per occupation group."
+        }
+      ],
+      "scope": "Reports the aggregated SOC major group 'Computer and Mathematical Occupations' (which includes statisticians, data scientists, software developers, etc.), not a disaggregated statistician-specific figure; 'observed exposure' reflects Claude.ai usage specifically (whose user base skews US/English-language) rather than AI usage in general or Australian usage patterns.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L3-1",
+      "text": "Clinical Trials Arena reported that AI-driven automation of entry-level biostatistics programming work is raising concern within the biostatistics profession that the traditional \"pyramid\" training pathway - where junior statistical programmers build expertise through routine hands-on tasks before advancing to senior roles - may be disrupted if AI absorbs that entry-level work.",
+      "lane": "L3",
+      "tier": "trade press - dated, byline, independent reporting",
+      "sources": [
+        {
+          "publisher": "Clinical Trials Arena (GlobalData Media)",
+          "title": "Clinical trial statistics gets an AI-era overhaul",
+          "url": "https://www.clinicaltrialsarena.com/ai/clinical-trial-statistics-gets-an-ai-era-overhaul/",
+          "date": "2026-06-15",
+          "whatItMeasured": "Journalist Catherine Longworth's reported feature, built on an interview with Kyle McBride (VP of AI and Innovation at Veristat, a clinical CRO), on how AI is changing biostatistics work in clinical trials; not a survey or dataset."
+        }
+      ],
+      "scope": "Reports one CRO executive's stated concern about a training-pipeline risk in a reported feature article, not a measured decline in entry-level biostatistics hiring or a quantified extent of AI displacement of junior programming work \u2014 no labour-market data accompanies the claim.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L3-2",
+      "text": "The American Statistical Association's Biopharmaceutical Section newsletter devoted its Spring 2025 issue to \"The Evolving Role of Statisticians in the Pharmaceutical Industry: Leveraging Advanced Statistical Analytics and Artificial Intelligence,\" including a piece framing generative AI as infrastructure-level change (\"modern-day electricity\") for the profession rather than a passing tool.",
+      "lane": "L3",
+      "tier": "professional-body publication - dated section newsletter",
+      "sources": [
+        {
+          "publisher": "American Statistical Association, Biopharmaceutical Section",
+          "title": "ASA Biopharmaceutical Report, 2025 Spring Issue",
+          "url": "https://asabiopreport.substack.com/p/2025-spring-issue",
+          "date": "2025-05-15",
+          "whatItMeasured": "An editorial/newsletter issue compiling member-contributed opinion and advice articles on AI and statisticians' roles in pharma; not an empirical study or survey of the membership."
+        }
+      ],
+      "scope": "One themed newsletter issue containing multiple member-contributed opinion/advice pieces, not an ASA-adopted policy position or a survey measuring how the membership broadly views AI's effect on their roles; the 'modern-day electricity' framing is one named trio of authors' own characterization, not a section-wide consensus.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L3-3",
+      "text": "Trade press coverage (BusinessWire and re-reported by industry outlets including BioXconomy) of CRO Veristat's May 2026 launch of \"InStat\" - described as the industry's first zero-code, fully automated biostatistics platform - reported the vendor's claim that it cuts clinical-trial statistical output turnaround from 4-6 weeks to 5 days or less by having AI translate biostatisticians' analysis specifications into code, while keeping expert biostatistician review of validated statistical engines' output.",
+      "lane": "L3",
+      "tier": "trade press - largely press-release-derived, one outlet explicitly AI-rewritten from the release",
+      "sources": [
+        {
+          "publisher": "BusinessWire",
+          "title": "Veristat Launches AI Biostatistics Platform, Cutting Clinical Trial Data Readout Time from 5 Weeks to 5 Days* Without Regulatory Risks",
+          "url": "https://www.businesswire.com/news/home/20260513591002/en/Veristat-Launches-AI-Biostatistics-Platform-Cutting-Clinical-Trial-Data-Readout-Time-from-5-Weeks-to-5-Days-Without-Regulatory-Risks",
+          "date": "2026-05-13",
+          "whatItMeasured": "A corporate press release announcing a new commercial product and its first customer (Clene Nanomedicine); no independent measurement of typical turnaround times or accuracy across the industry."
+        },
+        {
+          "publisher": "BioXconomy (Informa Connect)",
+          "title": "Veristat unveils AI platform for faster trials",
+          "url": "https://www.bioxconomy.com/clinical-and-research/veristat-launches-ai-platform-for-faster-trials",
+          "date": "2026-05-14",
+          "whatItMeasured": "Trade-outlet republication of the Veristat press release; the article itself states it was \"re-written in full by AI\" from the release, so it adds no independent verification."
+        }
+      ],
+      "scope": "A vendor's own marketing claim about its own new product, amplified by a wire service and by an outlet that discloses its coverage was AI-rewritten from that same release \u2014 not an independent, peer-reviewed, or third-party-audited measurement of turnaround times, error rates, or adoption, and not evidence of an industry-wide trend beyond this one CRO's announced platform and its single named initial customer.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L5-2",
+      "text": "In an interview published in the American Statistical Association's Biopharmaceutical Report, a Harvard statistics professor and an AbbVie VP of Data Sciences raised, unprompted, that statisticians face real competitive pressure from AI/ML and argued the profession should reposition itself toward auditing and quality-controlling AI systems and co-leading interdisciplinary teams rather than performing primary data analysis alone.",
+      "lane": "L5",
+      "tier": "professional-body newsletter (interview/opinion)",
+      "sources": [
+        {
+          "publisher": "American Statistical Association Biopharmaceutical Section (ASA Biopharm Report, Substack)",
+          "title": "Statistician 2.0 \u2014 Statistics and Statistician in the AI/ML era",
+          "url": "https://asabiopreport.substack.com/p/statistician-20-statistics-and-statistician",
+          "date": "2025-08-29",
+          "whatItMeasured": "Published interview/opinion exchange between two named senior practitioners (academia and pharma industry) on their own views of the profession's trajectory; not a survey."
+        }
+      ],
+      "scope": "Two named senior individuals' considered opinions in a professional-society interview/newsletter format, not a poll or survey of the biostatistics workforce; their views (senior academic and senior pharma executive) may not generalize to early-career or non-pharma statisticians.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L5-3",
+      "text": "A mid-career statistician writing in the ASA's STATtrak newsletter said that over the prior decade job postings and graduate programs shifted from 'statistician' toward 'data scientist' framing, and described his own unprompted identity conflict about needing to sometimes act as a data scientist while keeping statistical rigor.",
+      "lane": "L5",
+      "tier": "professional-body newsletter (first-person essay)",
+      "sources": [
+        {
+          "publisher": "American Statistical Association (STATtrak)",
+          "title": "Being a Statistician in the Age of Data Science: Fleeting Advice from a Mid-Career, Card-Carrying Statistician",
+          "url": "https://stattrak.amstat.org/2025/02/01/being-a-statistician-in-the-age-of-data-science-fleeting-advice-from-a-mid-career-card-carrying-statistician/",
+          "date": "2025-02-01",
+          "whatItMeasured": "First-person career-reflection essay by one named statistician (PhD, Senior Director at a research firm) published in an ASA member newsletter; not a survey or aggregated count."
+        }
+      ],
+      "scope": "One practitioner's personal narrative and career advice in a self-selected newsletter submission, published just before the window's nominal start date (2025-02-01 vs. 2025-03-01 cutoff); it does not measure how widespread the 'statistician' to 'data scientist' identity shift or job-posting trend actually is across the workforce, and reflects a US pharma/consulting-adjacent career path specifically.",
+      "disposition": "scoped"
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "statistician",
+    "window": "snapshot 2026-08-31",
+    "count": 15,
+    "topEmployers": [
+      "Queensland Government",
+      "CSL Behring Pty Ltd",
+      "CSL Plasma",
+      "Department of Queensland Treasury",
+      "Murdoch University",
+      "Tomra",
+      "Commonwealth Bank of Australia",
+      "SAHMRI"
+    ],
+    "topSkills": [
+      "r"
+    ]
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "jobsandskills.gov.au statisticians ANZSCO 224113 gen AI exposure automatability score (site fetch timed out repeatedly; no verifiable statistician-specific score obtained)",
+      "Brynjolfsson Chandar Chen 2025 Canaries in the Coal Mine statisticians data scientists occupation-specific effect size (paper discusses software development/customer service by name, not statisticians)",
+      "arxiv 2510.25137 Iceberg Index statistician data scientist disaggregated exposure score (only a generic mention of data scientists, no assigned metric)",
+      "site:reddit.com r/statistics AI replacing statisticians 2025",
+      "\"r/statistics\" OR \"r/AskStatistics\" reddit AI job worried statistician",
+      "data scientist LinkedIn article statistician AI job 2025 first person",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable \u2014 no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}

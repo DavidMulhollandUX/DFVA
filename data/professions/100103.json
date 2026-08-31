@@ -1,0 +1,240 @@
+{
+  "onet_soc_code": "100103",
+  "title": "Actor",
+  "aliases": [
+    "Stage Manager",
+    "Theatre Writer"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-desprod",
+    "mc-thtrwri"
+  ],
+  "claims": [
+    {
+      "id": "L1-1",
+      "text": "The Live Performance Award 2020 (MA000081), a Fair Work Commission modern award consolidated with amendments up to 1 July 2026, sets binding minimum pay rates, allowances and employment conditions for actors and other performers engaged in Australia's live theatrical, operatic, dance and musical performance industry.",
+      "lane": "L1",
+      "tier": "Federal industrial instrument (modern award)",
+      "sources": [
+        {
+          "publisher": "Fair Work Ombudsman",
+          "title": "Live Performance Award [MA000081] - Award summary",
+          "url": "https://www.fairwork.gov.au/employment-conditions/awards/awards-summary/ma000081-summary",
+          "date": "2026-07-01",
+          "whatItMeasured": "Official Australian federal regulator summary of the modern award's coverage, defining 'performer' to include actor, singer, dancer, understudy/swing performer, and stating current consolidated amendment date"
+        },
+        {
+          "publisher": "Fair Work Ombudsman",
+          "title": "Live Performance Award 2020 [MA000081]",
+          "url": "https://awards.fairwork.gov.au/MA000081.html",
+          "date": "2026-07-01",
+          "whatItMeasured": "Full consolidated award text incorporating variations PR799280, PR799361 and PR799516, effective from 1 July 2026 (minimum rates, allowances)"
+        }
+      ],
+      "scope": "Covers only actors engaged as employees under this specific modern award in Australia's live performance sector; it is not an occupational licence, does not cover screen/film actors under separate instruments (e.g. commercial/screen agreements), does not cover independent contractors, and says nothing about actual wage levels paid in practice versus the award floor.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L1-2",
+      "text": "The Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Services) Bill 2025, passed by the Australian Parliament on 27 November 2025 and in effect from 1 January 2026, requires streaming platforms with more than one million Australian subscribers to spend at least 10% of local expenditure (or 7.5% of local revenue) on new Australian drama, children's, documentary, arts and educational content, administered and enforced by the Australian Communications and Media Authority (ACMA).",
+      "lane": "L1",
+      "tier": "Commonwealth statute",
+      "sources": [
+        {
+          "publisher": "Parliament of Australia",
+          "title": "Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Services) Bill 2025",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/bd/bd2526/26bd32",
+          "date": "2025-11-27",
+          "whatItMeasured": "Official Bills Digest describing the legislative instrument, its passage date, and the expenditure obligation on qualifying streaming services"
+        },
+        {
+          "publisher": "Federal Register of Legislation",
+          "title": "Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Services) Act 2025 (C2025A00071)",
+          "url": "https://www.legislation.gov.au/C2025A00071/asmade/2025-12-04/text/original/pdf",
+          "date": "2025-12-04",
+          "whatItMeasured": "Authoritative statutory text as made, confirming enactment and commencement provisions"
+        }
+      ],
+      "scope": "Regulates streaming-platform local-content expenditure only; it creates no individual entitlement, licence, or guaranteed employment for actors, does not specify how much of that expenditure reaches performer wages versus production/other costs, and does not apply to non-drama/non-qualifying content or platforms under the 1-million-subscriber threshold.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L2-1",
+      "text": "The Felten, Raj and Seamans AI Occupational Exposure (AIOE) index scores the US Actors occupation (O*NET-SOC 27-2011) at 0.159, a modestly positive but mid-distribution exposure value on an index that ranges from about -2.67 (Dancers, lowest) to 1.58 (Genetic Counselors, highest) across all occupations.",
+      "lane": "L2",
+      "tier": "peer-reviewed index (Strategic Management Journal)",
+      "sources": [
+        {
+          "publisher": "Strategic Management Journal / Felten, Raj & Seamans",
+          "title": "Occupational, industry, and geographic exposure to artificial intelligence: A novel dataset and its potential uses",
+          "url": "https://sms.onlinelibrary.wiley.com/doi/abs/10.1002/smj.3286",
+          "date": "2021",
+          "whatItMeasured": "Crowd-sourced task-to-AI-application relatedness ratings aggregated via O*NET task data to a theoretical AI exposure score for every 6-digit US SOC occupation, including Actors (27-2011)."
+        }
+      ],
+      "scope": "US labour market and O*NET task structure only, not Australia; measures theoretical exposure of 2019-era task content to then-existing AI applications, not realised job loss, wage change, or exposure specific to generative AI; the dataset maximum (Genetic Counselors) is 1.53, not 1.58 as commonly cited \u2014 use the corrected figure; does not separately cover Stage Manager or Theatre Writer roles.",
+      "disposition": "corrected"
+    },
+    {
+      "id": "L3-1",
+      "text": "On 2026-03-28, SAG-AFTRA executive director Duncan Crabtree-Ireland told an AFL-CIO summit the union is bargaining for a 'Tilly tax' that would require studios to pay a fee for using synthetic or digitally replicated performers set at rates comparable to hiring a human actor, ahead of the union's June 2026 contract expiration.",
+      "lane": "L3",
+      "tier": "trade/business press, dated official statement",
+      "sources": [
+        {
+          "publisher": "Fortune",
+          "title": "Actors union is bargaining for 'Tilly tax' on AI film characters",
+          "url": "https://fortune.com/2026/03/28/actors-union-sag-aftra-contract-bargaining-tilly-tax-ai-film-characters-hollywood-studios/",
+          "date": "2026-03-28",
+          "whatItMeasured": "Reported statement by SAG-AFTRA's executive director at a named public event (AFL-CIO summit, Washington DC) about the union's AI bargaining strategy; not a survey or dataset."
+        }
+      ],
+      "scope": "Describes a bargaining proposal only, not an adopted or paid fee \u2014 no studio has been shown to pay a 'Tilly tax', and the eventual June 2026 ratified contract (see L3-3) did not include a fee framed this way, only 'significant additional value' and 'articulable business reason' tests. Scope is US SAG-AFTRA screen/TV/film performers only, not stage actors, stage managers, theatre writers, or the Australian labour market.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L3-2",
+      "text": "On 2025-12-18, the UK actors' union Equity announced that in an indicative ballot of its roughly 7,000 balloted members (75% turnout), 99% voted to support refusing on-set digital body/facial scans used to create AI digital doubles unless the union secures stronger consent, transparency, and remuneration protections from UK producers' body PACT.",
+      "lane": "L3",
+      "tier": "trade press, union-reported ballot result",
+      "sources": [
+        {
+          "publisher": "Deadline",
+          "title": "British Actors Vote To Refuse On-Set Digital Scans Amid Growing AI Dispute",
+          "url": "https://deadline.com/2025/12/equity-british-actors-vote-digital-scand-ai-dispute-1236652329/",
+          "date": "2025-12-18",
+          "whatItMeasured": "An indicative (non-binding, non-industrial-action) internal union ballot of Equity's own membership on willingness to refuse digital scanning; a union-administered vote, not an independent survey of the occupation or of employer practice."
+        }
+      ],
+      "scope": "The 'roughly 7,000' figure understates the actual balloted population of 7,732 by about 10% \u2014 treat the true figure as ~7,700. This is an indicative, non-binding ballot only; it does not establish that digital scanning is currently being used to train AI models or replace actors (Equity itself says there is no evidence of that yet), nor that any binding industrial action followed. Scope is UK screen actors under Equity, not stage actors, US actors, stage managers, or theatre writers.",
+      "disposition": "scoped"
+    },
+    {
+      "id": "L3-3",
+      "text": "In June 2026, SAG-AFTRA members ratified a four-year TV/theatrical contract with AMPTP studios and streamers by an approximately 91.42%-to-8.58% vote (about 19.25% ballot return), adding provisions that require producers to show synthetic AI performers provide 'significant additional value' over a human actor and to have an 'articulable business reason' before scanning an actor for a digital replica, effective 2026-07-01 through 2030-06-30.",
+      "lane": "L3",
+      "tier": "trade press, aggregated dated reporting (article not directly fetchable; corroborated across independent outlets via search)",
+      "sources": [
+        {
+          "publisher": "Deadline / Variety / LA Magazine (converging trade coverage)",
+          "title": "SAG-AFTRA Members Approve AMPTP Deal / SAG-AFTRA Members Ratify Contract With AI Terms and Pension Merger",
+          "url": "https://deadline.com/2026/06/sag-aftra-members-approve-amptp-deal-2026-1236941651/",
+          "date": "2026-06-05",
+          "whatItMeasured": "Reporting on SAG-AFTRA's own official membership ratification vote tally and a summary of new contract text on synthetic-performer and digital-replica-scanning provisions; not an independent audit of employer AI adoption."
+        },
+        {
+          "publisher": "Variety",
+          "title": "SAG-AFTRA Members Ratify Contract With AI Terms and Pension Merger",
+          "url": "https://variety.com/2026/film/news/sag-aftra-ratification-ai-pension-merger-1236767288/",
+          "date": "2026-06-05",
+          "whatItMeasured": "Same ratification event, corroborating vote percentage and AI contract-term details from a second trade outlet."
+        }
+      ],
+      "scope": "Describes contract terms and a ratification vote only, not observed studio behaviour under the new rules \u2014 the contract only took effect 2026-07-01, so no data yet exists on how 'significant additional value' or 'articulable business reason' will be applied or enforced in practice. Does not extend to stage actors, stage managers, theatre writers, or non-US jurisdictions.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L5-1",
+      "text": "Working actors reacted unprompted and negatively on their own social media accounts to the AI-generated \"actress\" Tilly Norwood, with performers including Emily Blunt, Melissa Barrera, Mara Wilson and Ralph Ineson publicly framing AI performers as a threat to human connection and livelihood in acting.",
+      "lane": "L5",
+      "tier": "practitioner social-media reaction (press-relayed)",
+      "sources": [
+        {
+          "publisher": "CNN",
+          "title": "Tilly Norwood: Hollywood is fuming over a new 'AI actress'",
+          "url": "https://www.cnn.com/2025/09/30/tech/hollywood-ai-actor-backlash",
+          "date": "2025-09-30",
+          "whatItMeasured": "Compiled actors' own public Instagram/X statements reacting to an AI talent-studio product; not a survey, a collection of self-selected public reactions from a handful of well-known performers."
+        },
+        {
+          "publisher": "Forbes",
+          "title": "Instagram Users Are Not Happy About AI Actress Tilly Norwood",
+          "url": "https://www.forbes.com/sites/johnbbrandon/2025/09/30/instagram-users-are-not-happy-about-ai-actress-tilly-norwood/",
+          "date": "2025-09-30",
+          "whatItMeasured": "Press roundup of practitioners' own Instagram/X posts (Emily Blunt, Melissa Barrera, Mara Wilson, Ralph Ineson) made in direct, unprompted response to the Tilly Norwood announcement."
+        }
+      ],
+      "scope": "Represents only a small number of self-selected, high-profile performers whose reactions were amplified because they are famous; it says nothing about the views of rank-and-file, non-celebrity, or Australian actors, and does not establish how widespread this sentiment is across the acting workforce as a whole.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L5-2",
+      "text": "A working actor's personal blog post described returning to acting work and testing an AI-powered casting-matching platform (\"Cast Me Now\"), reporting that it produced auditions without manual submission and arguing AI \"doesn't automatically have to be the enemy of creatives\" if it removes submission busywork.",
+      "lane": "L5",
+      "tier": "practitioner personal blog",
+      "sources": [
+        {
+          "publisher": "coleconnor.com",
+          "title": "Actors Are Terrified of AI \u2014 But This One Got Me Auditions",
+          "url": "https://coleconnor.com/ai-for-actors-casting/",
+          "date": "2025-12-24",
+          "whatItMeasured": "First-person account by one working actor of adopting an AI casting-submission tool; a single practitioner's unprompted self-report, not a study of adoption rates or outcomes."
+        }
+      ],
+      "scope": "Is one individual's self-reported, unprompted experience with one tool; it does not support any claim about adoption rates, effectiveness, or sentiment among actors generally, and the site's promotional framing toward the tool it discusses should be weighed accordingly.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L5-3",
+      "text": "Practitioner-facing industry commentary in this window converged on a distinction between AI as a production/casting tool (script analysis, self-tape submission routing, line memorization aids) versus AI as a full performance substitute, with voice acting and background/video-game work repeatedly singled out by actors and casting professionals as the areas of greatest concern.",
+      "lane": "L5",
+      "tier": "practitioner-facing trade commentary",
+      "sources": [
+        {
+          "publisher": "Backstage",
+          "title": "Is AI Going to Take Your Acting or Writing Gigs?",
+          "url": "https://www.backstage.com/magazine/article/can-ai-replace-actors-76363/",
+          "date": "2025 (exact date not confirmed by fetch; site returned HTTP 403 on direct retrieval)",
+          "whatItMeasured": "Trade-press synthesis aimed at working actors, citing casting-industry sources on where AI concerns concentrate (voice, background/video-game work) versus where it is used as a tool; not a survey of actor opinion."
+        }
+      ],
+      "scope": "Title corrected to 'Is AI Going to Replace Writers and Actors?' (Backstage). This is trade-press synthesis for a practitioner audience, not a direct sample or survey of practitioner opinion, so it cannot support a claim about what proportion of actors hold this view; the source's exact publication date remains unconfirmed since the page returns HTTP 403 on direct fetch.",
+      "disposition": "corrected"
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "actor",
+    "window": "snapshot 2026-08-31",
+    "count": 137,
+    "topEmployers": [
+      "Mercor",
+      "Jobgether",
+      "Screen Queensland Pty",
+      "Infinite Consulting",
+      "AusNet Services",
+      "Google",
+      "Palo Alto Networks",
+      "Accenture"
+    ],
+    "topSkills": [
+      "audition"
+    ]
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "\"Working with Children Check\" reform impact on screen industry actors specifically",
+      "NSW Screen and Digital Games Industries Act 2025 binding standard for actors (found only industry-support/funding provisions, not a binding code of conduct for the occupation, so not included as a claim)",
+      "stage manager blog AI automation theatre 2025 2026 (surfaced only vendor/marketing blogs about AI in venue operations, no stage-manager-authored discourse)",
+      "reddit.com/r/acting AI generative actors afraid (no accessible reddit thread content surfaced, only secondary press coverage)",
+      "SAG-AFTRA members reddit AI self tape casting complaints 2025 (no reddit thread content surfaced within window)",
+      "voice actor blog post AI cloning my voice 2025 2026 personal account (only vendor/marketing guides about voice-cloning technology, no first-person voice-actor accounts)",
+      "theatre actor Substack AI acting career worried personal essay 2025 (candidate pieces found were dated Feb 2025 and Jul 2024, outside or at the edge of window and excluded for date/author-fit)",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable \u2014 no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}

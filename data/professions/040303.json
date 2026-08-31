@@ -1,0 +1,247 @@
+{
+  "onet_soc_code": "040303",
+  "title": "Construction Project Manager",
+  "aliases": [
+    "Contract Administrator",
+    "Quantity Surveyor"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-cmprop"
+  ],
+  "claims": [
+    {
+      "id": "L1-1",
+      "text": "Victoria requires anyone performing construction project management on domestic building work to hold \"Project Manager\" registration as a building practitioner under the Building Act 1993 (Vic) and Building Regulations 2018 (Vic), with the regulator having transitioned from the Victorian Building Authority to the newly established Building and Plumbing Commission on 2025-07-01.",
+      "lane": "L1",
+      "tier": "state statutory registration scheme",
+      "sources": [
+        {
+          "publisher": "Australian Business Licence and Information Service (business.gov.au), mirroring Victorian Building Authority / Building and Plumbing Commission content",
+          "title": "Registration of Building Practitioners - Project Manager (Domestic) - VIC",
+          "url": "https://ablis.business.gov.au/service/vic/registration-of-building-practitioners-project-manager-domestic-/40947",
+          "date": "2026-08-31",
+          "whatItMeasured": "Government licensing-information service page describing the statutory eligibility criteria (qualifications/experience, character/fit-and-proper, insurance, police check) and legal basis for the Project Manager building-practitioner registration category; not a survey or sentiment source"
+        },
+        {
+          "publisher": "Victorian Building Authority",
+          "title": "A new regulator with new powers and the publication of an independent report",
+          "url": "https://www.vba.vic.gov.au/news/news/2024/a-new-regulator-with-new-powers-and-the-publication-of-an-independent-report",
+          "date": "2024-10",
+          "whatItMeasured": "Regulator media release announcing the Building Legislation Amendment (Buyer Protections) Bill and the creation of the Building and Plumbing Commission to replace the VBA, effective 2025-07-01"
+        }
+      ],
+      "scope": "Confirms Victorian statutory requirements binding project managers on domestic building work only, not commercial/infrastructure project management, and only in Victoria. The BPC succeeded the VBA as of 2025-07-01 per the regulator's own transition notice. Says nothing about the profession's or market's view of the scheme, national uptake, or how many practitioners hold this specific registration.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L1-2",
+      "text": "Queensland requires a construction project manager who administers a building contract as superintendent (certifying timing, quality and cost) to hold the QBCC \"Builder\u2014Project Management Services\" licence, which sets 4 years' relevant experience, technical-qualification and compulsory professional-indemnity-insurance eligibility criteria, with the licence page's fee schedule last updated 2025-07-23 under the annual 1 July legislative fee adjustment.",
+      "lane": "L1",
+      "tier": "state statutory licensing instrument",
+      "sources": [
+        {
+          "publisher": "Queensland Building and Construction Commission (QBCC)",
+          "title": "Builder\u2014project management services",
+          "url": "https://www.qbcc.qld.gov.au/licences/apply-licence/available-licences/builder/builder-project-management-services",
+          "date": "2025-07-23",
+          "whatItMeasured": "Regulator licence-class page setting out the statutory scope of work, eligibility criteria and fees for the Builder\u2014Project Management Services licence class, dated by its own \"last published\" stamp"
+        }
+      ],
+      "scope": "Confirms a Queensland-only statutory licensing requirement for the superintendent/contract-administration function of construction project management, current as of the licence page's 2025-07-23 update. Does not establish a national licensing standard, does not apply to project managers who never act as contract superintendent, and says nothing about demand, sentiment, or AI exposure for the role.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L1-3",
+      "text": "The Australian Institute of Quantity Surveyors (AIQS), the national professional accreditation body for quantity surveyors and construction economists, binds all its members to a Code of Conduct and maintains published Practice Standards, Guidance Notes and Competency Standards documents that define professional practice for the occupation.",
+      "lane": "L1",
+      "tier": "professional accreditation body instrument",
+      "sources": [
+        {
+          "publisher": "Australian Institute of Quantity Surveyors (AIQS)",
+          "title": "Standards",
+          "url": "https://www.aiqs.com.au/standards",
+          "date": "2026-08-31",
+          "whatItMeasured": "Professional body's own standards page stating that all members are bound by the AIQS Code of Conduct and listing the categories of standards documents (Information Papers, Guidance Notes, Practice Standards, Guidelines, Manuals) it maintains"
+        }
+      ],
+      "scope": "Confirms AIQS Code of Conduct binds all members and that AIQS maintains a Standards Publications suite (Information Papers, Guidance Notes, Practice Standards, Guidelines, Manuals). This source does not show a separate 'Competency Standards' document category on the Standards page as the claim implies \u2014 competency material sits under AIQS's membership/education content instead. AIQS membership/accreditation is voluntary, not a government-mandated precondition to practise quantity surveying or project management in Australia, and this source is silent on prevalence or market sentiment.",
+      "disposition": "corrected"
+    },
+    {
+      "id": "L2-1",
+      "text": "In Brookings Metro's classification of 148 built-environment occupations using the Felten-Raj-Seamans AI Occupational Exposure (AIOE) index and the IMF's Pizzinelli et al. AI complementarity (theta) score, construction managers sit in the higher-exposure group of 33 occupations, which carries a median annual wage of USD 100,105.",
+      "lane": "L2",
+      "tier": "institutional (Brookings Metro, using peer-reviewed AIOE + IMF theta measures)",
+      "sources": [
+        {
+          "publisher": "Brookings Institution (Brookings Metro)",
+          "title": "The AI durability of built environment careers",
+          "url": "https://www.brookings.edu/articles/the-ai-durability-of-built-environment-careers/",
+          "date": "2026-03-12",
+          "whatItMeasured": "Applied the Felten-Raj-Seamans (2021) AIOE occupational exposure score and the Pizzinelli et al. (2023, IMF) AI-complementarity theta score to 148 US built-environment occupations (O*NET/SOC basis), grouping them into higher- vs lower-exposure bands with associated median wages."
+        }
+      ],
+      "scope": "US SOC-based analysis (occupation 'construction managers,' SOC 11-9021) confirmed to place construction managers in Brookings' higher-exposure group of 33 built-environment occupations with $100,105 median wage. Does not correspond one-to-one with the Australian ANZSCO 133111 Construction Project Manager occupation, reports a categorical exposure placement rather than a specific numeric AIOE/theta score for the occupation, and documents a cross-sectional classification, not an observed employment or task-displacement outcome.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L2-2",
+      "text": "A 2026 survey of 77 quantity surveyors in Sarawak, Malaysia found that the two AI impacts rated most severe were 'maximise work efficiency to improve productivity' and 'improve quantity take-off from drawings', with the strongest predictor of AI adoption being professionals' skill/knowledge for communication and contractual issues (PLS-SEM analysis).",
+      "lane": "L2",
+      "tier": "peer-reviewed (Journal of Engineering, Design and Technology, Emerald)",
+      "sources": [
+        {
+          "publisher": "Emerald Publishing \u2014 Journal of Engineering, Design and Technology",
+          "title": "The impact of artificial intelligence on the quantity surveying profession in Sarawak, Malaysia",
+          "url": "https://www.emerald.com/jedt/article/24/1/171/1307366/The-impact-of-artificial-intelligence-on-the",
+          "date": "2026-02-03",
+          "whatItMeasured": "Simple-random-sample questionnaire of 77 quantity surveying professionals in Sarawak, Malaysia, analysed with descriptive statistics, factor analysis and PLS-SEM to rank 20 perceived AI impacts and identify adoption predictors."
+        }
+      ],
+      "scope": "Self-reported perceptions from 77 quantity surveyors in Sarawak, Malaysia (peer-reviewed, DOI confirmed), not an observed labour-market or task-automation effect. A Malaysian regional sample, not Australian. Quantity surveying is one sub-role within the broader Construction Project Manager occupation key, and these findings on 'most severe AI impacts' and adoption predictors should not be generalised to the full project-management scope of that occupation or to Australian practice.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L3-1",
+      "text": "Trade press reported that a 2025 RICS global survey of more than 2,200 built-environment professionals found 45% of organisations had no AI implementation and only about 1.5% used AI across multiple processes, even though respondents rated AI highly for cost estimating, scheduling and risk-related tasks central to project management and quantity surveying work.",
+      "lane": "L3",
+      "tier": "trade press summarizing professional-body survey",
+      "sources": [
+        {
+          "publisher": "Construction Dive",
+          "title": "Builders slow to adopt AI despite perceived benefits",
+          "url": "https://www.constructiondive.com/news/builders-ai-survey-adoption-gap-construction/761632/",
+          "date": "2025-10-01",
+          "whatItMeasured": "Trade-press news article summarizing RICS's global survey of 2,200+ construction/property professionals on organisational AI adoption levels and perceived value, published alongside RICS's October 2025 AI in Construction report."
+        }
+      ],
+      "scope": "Confirmed to accurately summarise RICS's global (2,200+ professional) survey figures (45% no AI implementation, ~1.5% multi-process use). Measures organisation-wide adoption stage across construction broadly, not task-level automation of construction project manager or quantity surveyor duties specifically, and reflects a global respondent mix rather than an Australia-specific finding.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L3-2",
+      "text": "A follow-up RICS survey of more than 3,100 professionals, reported in trade press in August 2026, found regular AI use in construction rose from 12% in 2025 to 19% in 2026 and that firms are shifting from experimentation to embedding AI in practice, while security and privacy concerns among respondents rose from 22% to 30% over the same period.",
+      "lane": "L3",
+      "tier": "trade press summarizing professional-body survey",
+      "sources": [
+        {
+          "publisher": "Specification Online",
+          "title": "AI use surges across property and construction industries but firms struggle to move beyond pilot studies",
+          "url": "https://specificationonline.co.uk/articles/2026-08-18/rics/ai-use-surges-across-property-and-construction-industries-but-firms-struggle-to-move-beyond-pilot-studies",
+          "date": "2026-08-18",
+          "whatItMeasured": "Trade-press article summarizing RICS's AI in Commercial Property and Construction Report 2026, based on RICS's Q1 2026 Global Commercial Property Monitor and Global Construction Monitor surveys of 3,100+ chartered surveyors and construction professionals worldwide."
+        }
+      ],
+      "scope": "Confirmed to accurately report RICS's Q1 2026 global survey figures (3,100+ respondents; regular AI use 12%\u219219% in construction; security/privacy concern 22%\u219230%). This is a global, sector-wide figure spanning construction and commercial property together, not disaggregated by occupation (project manager vs quantity surveyor) or by country, so it cannot be read as an Australia- or role-specific adoption trend.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L5-1",
+      "text": "A practicing chartered quantity surveyor (MCIOB, MQSI) writing on his own blog said AI will automate administrative QS tasks such as summarising documents, assisting with quantity calculations, and drafting letters, but argued professional judgement in negotiations and site-specific decisions (e.g. assessing excavation productivity) stays irreplaceable, concluding 'AI will not replace the QS who uses it. It may replace the QS who does not.'",
+      "lane": "L5",
+      "tier": "practitioner blog (single author, self-selected)",
+      "sources": [
+        {
+          "publisher": "AI Construction Hub (Blogspot)",
+          "title": "Will AI Replace Quantity Surveyors? Full Industry Analysis (2026) The Honest Answer",
+          "url": "https://aiconstructionhub.blogspot.com/2026/05/will-ai-replace-quantity-surveyors.html",
+          "date": "2026-05-17",
+          "whatItMeasured": "First-person blog post by a self-identified practicing QS working on live infrastructure projects under FIDIC conditions; not a survey or sampled study \u2014 one practitioner's own account."
+        }
+      ],
+      "scope": "Confirmed a real, currently-live single-author blog post (dated 2026-05-17) whose content and closing line match the claim. Represents one self-identified practitioner's opinion, with credentials (MCIOB, MQSI) unverified by any third party in this source, and not a sampled or representative view of quantity surveyors generally \u2014 do not treat as evidence of a prevailing professional consensus.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "L5-2",
+      "text": "James Garner, a chartered quantity surveyor who became Head of AI and Data at global construction consultancy Gleeds, told the Association for Project Management that AI should not be used as a simple search tool and that firms adopting a disciplined 'bookending' approach (human control at the start and end of a process) could see 20-50% efficiency gains in the near term, provided they build genuine AI literacy and address data-privacy and IP risks first.",
+      "lane": "L5",
+      "tier": "professional-body interview (named practitioner)",
+      "sources": [
+        {
+          "publisher": "Association for Project Management (APM)",
+          "title": "The Big Interview: James Garner",
+          "url": "https://www.apm.org.uk/news/the-big-interview-james-garner/",
+          "date": "2026-03-17",
+          "whatItMeasured": "One-on-one interview with a named individual practitioner (ex-QS, now AI/data lead at a construction consultancy) conducted by a project-management professional body; not a survey of the membership."
+        }
+      ],
+      "scope": "APM's own article credits Garner as 'Global Head of Data and Insights & Analytics' at Gleeds and a Fellow of RICS, not literally 'Head of AI and Data' as this claim states (his career began as a RICS-qualified quantity surveyor before he moved into data/analytics leadership from 2020, which supports but does not exactly match 'chartered quantity surveyor who became Head of AI and Data'). The confirmed 'bookending' approach and 20-50% efficiency-gain figures are his own stated projection for his own firm's method, not a measured or cross-sectional finding, and should not be read as representative of project managers or quantity surveyors generally.",
+      "disposition": "corrected"
+    },
+    {
+      "id": "L5-3",
+      "text": "In RICS's Q2 2025 skills survey of over 2,000 built-environment professionals worldwide, 44% of project managers and 38% of quantity surveying/construction professionals said they were concerned about AI's impact on their own role, and 48% of project managers and 41% of QS/construction professionals said they felt overwhelmed by how fast technology is changing the profession, even though 67-69% in both groups agreed AI would help them deliver greater value in future.",
+      "lane": "L5",
+      "tier": "professional-body survey (prompted, not organic discourse)",
+      "sources": [
+        {
+          "publisher": "Royal Institution of Chartered Surveyors (RICS)",
+          "title": "Artificial intelligence in construction report",
+          "url": "https://www.rics.org/news-insights/artificial-intelligence-in-construction-report",
+          "date": "2025-09-12",
+          "whatItMeasured": "RICS Q2 2025 skills survey, self-reported responses from 2,000+ RICS-affiliated professionals worldwide, broken out by role including project managers and QS/construction professionals."
+        }
+      ],
+      "scope": "Confirmed to precisely match RICS's Q2 2025 skills-survey figures (44%/38% concerned; 48%/41% overwhelmed; 67-69% agree AI adds value) for project managers vs QS/construction professionals. This is a prompted, self-selected RICS-membership survey response from a global (not Australia-specific) sample \u2014 read it as sentiment among RICS-surveyed respondents worldwide, not as evidence of what practitioners raise unprompted in forums, blogs, or Australian discourse specifically.",
+      "disposition": "sourced"
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "construction project manager",
+    "window": "snapshot 2026-08-31",
+    "count": 3118,
+    "topEmployers": [
+      "Workpac",
+      "Kaura Homes",
+      "Michael Page",
+      "Equinix",
+      "Amicus",
+      "TMX",
+      "HAYS",
+      "McDonald's"
+    ],
+    "topSkills": [
+      "quality",
+      "site",
+      "budget",
+      "schedule",
+      "subcontractor",
+      "tender",
+      "handover"
+    ]
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "Jobs and Skills Australia construction project manager AI automation exposure occupation (site pages at jobsandskills.gov.au for ANZSCO 133111 / 1331 timed out on WebFetch across 4 separate attempts \u2014 could not retrieve the specific occupation-level exposure/augmentability/automatability score despite the study existing and covering ~998 Australian occupations)",
+      "Productivity Commission Australia AI exposure construction managers occupation task (PDF at assets.pc.gov.au/2025-10/ai-paper1-productivity.pdf was not text-extractable via WebFetch)",
+      "SSRN NBER \"construction project manager\" AI exposure task automation study 2025 2026 (no NBER/SSRN paper specific to this occupation found)",
+      "Felten Raj Seamans AI occupational exposure \"construction managers\" SOC score / AIOE score list 11-9021 exposure ranking (no direct numeric AIOE score for SOC 11-9021 retrieved; GitHub raw CSV returned 404)",
+      "\"quantity surveyor\" OR \"contract administrator\" AI layoffs OR redundancy Australia 2025 2026 trade press",
+      "Master Builders Australia OR Consult Australia AI quantity surveyor workforce report 2025 2026",
+      "AIQS journal AI quantity surveying task automation article 2025 2026 (only found vendor webinar content, not independent trade-press reporting)",
+      "site:reddit.com construction project manager AI replace job",
+      "site:reddit.com quantity surveyor AI",
+      "reddit.com r/Construction OR r/QuantitySurveying AI job worried",
+      "reddit construction estimator \"AI\" won't replace OR \"scared\" thread",
+      "UK Contractor Talk forum AI construction quantity surveying discussion",
+      "quantity surveyor AI reddit \"taking my job\" OR \"worried about AI\" 2025",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable \u2014 no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}
