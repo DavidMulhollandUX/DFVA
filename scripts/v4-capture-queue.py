@@ -457,7 +457,14 @@ def discover(prog: dict, slot: str, links: list[str]) -> int:
     if slot == "structure" and not any(re.search(r"/subjects/[a-z]{4}\d{5}", h) for h in links):
         add_page(prog, f"{prog['base']}/majors-minors-specialisations", "specialisations")
 
-    if slot in ("structure", "specialisations"):
+    # A structure/specialisations page's own components can be one more level
+    # of grouping rather than the curriculum itself — MC-APLING's entry-point
+    # components (100pt/150pt/200pt) each link to per-specialisation
+    # components (English Language, TESOL, ...) that carry the actual subject
+    # tables. Letting comp-* pages spawn further components too (not just the
+    # first level) reaches that content; add_page's URL/slot dedup keeps this
+    # from looping back on a page already queued.
+    if slot in ("structure", "specialisations") or slot.startswith("comp-"):
         comps = []
         for h in links:
             m = re.match(r"https://handbook\.unimelb\.edu\.au/(?:\d{4}/)?components/([\w-]+)", h)
@@ -549,6 +556,19 @@ def cmd_save(code: str, slot: str) -> None:
     # table — so it gets a lower bar than a course or structure page.
     floor = 150 if slot.startswith("subj-") else 400
     if len(text) < floor:
+        # An entry-point component (an "-entry-N" credit-point variant, not a
+        # subject) sometimes has nothing at its generic /course-structure path
+        # even though the site's own links point elsewhere for it — /print
+        # carried the real content for MC-APLING's three entry components
+        # (2026-08-31), while /course-structure did for others (MC-ARCLARC).
+        # Try /print once before giving up rather than hardcoding one path.
+        if slot.startswith("comp-") and url.endswith("/course-structure"):
+            fallback = url[: -len("/course-structure")] + "/print"
+            del prog["pages"][url]
+            prog["pages"][fallback] = {"slot": slot, "status": "pending", "chars": 0, "ts": None}
+            save_queue(q)
+            print(f"{code}/{slot}: /course-structure only {len(text)} chars — requeued at /print")
+            return
         prog["pages"][url].update(status="failed", ts=now(), note="too short")
         save_queue(q)
         sys.exit(f"{code}/{slot}: only {len(text)} chars (need {floor}) — capture rejected")
