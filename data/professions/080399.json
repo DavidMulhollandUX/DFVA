@@ -1,0 +1,194 @@
+{
+  "onet_soc_code": "080399",
+  "title": "Entrepreneur",
+  "aliases": [
+    "Startup Founder",
+    "Innovation Manager"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-entrpsp"
+  ],
+  "claims": [
+    {
+      "id": "L1-2",
+      "text": "The Treasury Laws Amendment (Business Registries Stabilisation and Uplift) Act 2026, which passed both Houses of the Australian Parliament on 30 June 2026, strengthens the Director Identification Number regime binding every company director (including startup founders who register a company) and will link Director IDs to the ASIC Companies Register from 1 July 2027.",
+      "lane": "L1",
+      "tier": "Commonwealth legislation (corporate registry)",
+      "sources": [
+        {
+          "publisher": "Australian Government, The Treasury (Assistant Minister Andrew Leigh)",
+          "title": "New laws to help Australians know who stands behind a company",
+          "url": "https://ministers.treasury.gov.au/ministers/andrew-leigh-2025/media-releases/new-laws-help-australians-know-who-stands-behind-company",
+          "date": "2026-06-30",
+          "whatItMeasured": "Ministerial media release announcing passage of the Act, its amendments to the Corporations Act 2001 Director ID regime, and the 1 July 2027 implementation date for linking Director IDs to the ASIC register."
+        }
+      ],
+      "scope": "Binds anyone who becomes a company director, not entrepreneurship specifically; a founder trading as a sole trader or partnership is not directly captured. This is a compliance/registry-transparency obligation, not evidence of entrepreneur sentiment, discourse, or business practice.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L1-3",
+      "text": "From 1 October 2025 the Australian Taxation Office's Legislative Instrument LI 2025/19 sets the binding safe-harbour methods Australian start-up companies must use to value unlisted shares issued under the employee share scheme start-up tax concession, replacing the prior instrument ESS 2015/1.",
+      "lane": "L1",
+      "tier": "Commonwealth legislative instrument (tax)",
+      "sources": [
+        {
+          "publisher": "Australian Taxation Office",
+          "title": "ESS – standard documents for the start-up concession / Key ESS changes in detail",
+          "url": "https://www.ato.gov.au/businesses-and-organisations/corporate-tax-measures-and-assurance/employee-share-schemes/in-detail/key-ess-changes-in-detail",
+          "date": "2025-10-01",
+          "whatItMeasured": "ATO guidance pages describing the eligibility criteria for the start-up ESS concession (Australian-resident company, turnover under $50 million, share discount and holding-period rules) and the commencement of LI 2025/19 as the Commissioner-binding valuation methodology from 1 October 2025."
+        }
+      ],
+      "scope": "Governs equity-compensation tax valuation for incorporated start-ups issuing employee shares under the ESS start-up concession; does not apply to entrepreneurs without a company or without employee share arrangements, and is a compliance/valuation instrument, not a measure of professional sentiment, discourse, or prevalence.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L2-1",
+      "text": "Industries with higher task-level exposure to generative AI saw about 20% more startup formation than less-exposed industries, and founding teams in those startups increasingly came from occupations whose tasks can be performed using GenAI.",
+      "lane": "L2",
+      "tier": "NBER conference paper / SSRN working paper (not yet peer-reviewed)",
+      "sources": [
+        {
+          "publisher": "NBER (conference paper) / SSRN",
+          "title": "Prompted to Start: How Generative AI is Transforming Entrepreneurship",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5749564",
+          "date": "2026",
+          "whatItMeasured": "US venture-backed and formally registered startup entry across industries, matched to a GenAI task-exposure measure built from GenAI query-task proportions; compares startup-formation rates and founder occupational background between higher- and lower-exposure industries."
+        }
+      ],
+      "scope": "Measures how AI task-exposure in an industry affects entry-rate and composition of founders (entrepreneurial supply), not automation risk to the 'Entrepreneur/Founder' role itself; US data only; a working paper not yet peer-reviewed; does not isolate a distinct 'entrepreneur' occupation code, and the underlying entry is described as smaller-scale on average even as aggregate industry employment rises.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-1",
+      "text": "Inc. reported that Anthropic CEO Dario Amodei predicted, in an on-stage Q&A at Anthropic's Code with Claude developer conference, that AI could enable the first billion-dollar company run by a single human employee as soon as 2026, later giving the outcome a 70-80% probability in a follow-up press session.",
+      "lane": "L3",
+      "tier": "trade/business press",
+      "sources": [
+        {
+          "publisher": "Inc.",
+          "title": "Anthropic CEO Dario Amodei Predicts the First Billion-Dollar Solopreneur by 2026",
+          "url": "https://www.inc.com/ben-sherry/anthropic-ceo-dario-amodei-predicts-the-first-billion-dollar-solopreneur-by-2026/91193609",
+          "date": "2025-05-23",
+          "whatItMeasured": "Journalist Ben Sherry's on-the-record account of remarks Amodei made in a public Q&A and a subsequent press session at Anthropic's May 2025 developer conference; not a survey or study."
+        }
+      ],
+      "scope": "A single executive's forward-looking prediction as reported by one outlet, not a measured trend or survey of entrepreneurs; does not establish that any single-employee billion-dollar company has actually formed, and says nothing about AI-tool adoption prevalence among entrepreneurs generally.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-2",
+      "text": "Forbes reported that AI agent stacks are becoming central to a 'solo-founder playbook,' citing an AI tooling cost of roughly $3,000-$12,000 per year replacing functions that previously required $80,000-$120,000 per month in payroll, alongside the trend of solo-founded startups rising from 23.7% of new ventures in 2019 to over a third by 2026.",
+      "lane": "L3",
+      "tier": "trade/business press (contributor)",
+      "sources": [
+        {
+          "publisher": "Forbes",
+          "title": "Why AI Agent Startups Are Becoming The New Solo-Founder Playbook",
+          "url": "https://www.forbes.com/sites/nehamehra/2026/08/03/why-ai-agent-startups-are-becoming-the-new-solo-founder-playbook/",
+          "date": "2026-08-03",
+          "whatItMeasured": "A Forbes contributor's trend analysis piece drawing on startup-formation and cost figures from third-party sources (e.g. Carta's solo-founder tracking); not itself a primary survey."
+        }
+      ],
+      "scope": "This is a contributor trend-analysis piece, not a primary study; it does not establish that the cited cost savings caused the rise in solo founding, nor that the cost figures are independently audited. The 23.7%-to-over-a-third solo-founder statistic traces to Carta's own data product (a separate primary source), not to original Forbes research, and should be attributed there if used as a standalone figure.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-3",
+      "text": "Forbes reported on a Harvard Business School/INSEAD working paper (Kim and Koning) finding that AI-native startups among a sample of Y Combinator companies have roughly 25% fewer employees than comparable non-AI startups in the same industry and founding cohort, with flatter hierarchies and comparable valuations.",
+      "lane": "L3",
+      "tier": "trade/business press (contributor)",
+      "sources": [
+        {
+          "publisher": "Forbes",
+          "title": "AI Startups Really Do Run Leaner, Here's The Data",
+          "url": "https://www.forbes.com/sites/joemckendrick/2026/07/05/ai-startups-really-do-run-leaner-heres-the-data/",
+          "date": "2026-07-05",
+          "whatItMeasured": "Forbes contributor Joe McKendrick's summary of an academic working paper's headcount and org-structure comparison across roughly 2,900 Y Combinator-backed startups; the article itself did not independently measure anything."
+        },
+        {
+          "publisher": "Harvard Business School",
+          "title": "Less Headcount, More Valuation: How AI-Native Firms Change the Game",
+          "url": "https://aiinstitute.hbs.edu/less-headcount-more-valuation-how-ai-native-firms-change-the-game/",
+          "date": "2026-06",
+          "whatItMeasured": "HBS AI Institute's own summary of the same Kim/Koning working paper (26-090) on headcount and hierarchy differences in AI-native firms."
+        }
+      ],
+      "scope": "The primary finding belongs to the Kim/Koning HBS working paper (an academic, not-yet-peer-reviewed source), not to Forbes's own reporting. The paper's full sample spans a broader venture-backed population (YC plus PitchBook-listed firms, reported elsewhere as approaching 50,000), not solely the roughly 2,900 YC companies cited -- attribute the headcount/hierarchy findings to that fuller sample rather than to YC alone unless the YC-only subsample figure can be separately confirmed. Does not generalize to entrepreneurship broadly, only to venture-backed, disproportionately US, AI-native startups.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L5-1",
+      "text": "In an Indie Hackers forum post, a founder argued that AI has not threatened founders' roles but has eliminated the excuses they used to delay shipping (lack of capital, technical skill, or market research), and commenters largely agreed while adding that distribution and \"selling,\" not building speed, remains the real bottleneck.",
+      "lane": "L5",
+      "tier": "practitioner forum (Indie Hackers)",
+      "sources": [
+        {
+          "publisher": "Indie Hackers",
+          "title": "Founders aren't scared AI will replace them. They're scared it'll remove their excuses.",
+          "url": "https://www.indiehackers.com/post/founders-arent-scared-ai-will-replace-them-they-re-scared-it-ll-remove-their-excuses-7cabd22eae",
+          "date": "2026-04-12",
+          "whatItMeasured": "One founder's forum post plus its comment thread (17 upvotes, 41 comments) on the Indie Hackers community platform, self-selected startup founders/indie developers."
+        }
+      ],
+      "scope": "Does not support a prevalence estimate for how the broader entrepreneur population views AI; Indie Hackers members are a self-selected, technically-inclined subset of founders, and this reflects one thread's discussion (with unverified specific engagement counts), not a survey of founders generally.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-2",
+      "text": "In the comment thread on an Indie Hackers post about AI automation for solo founders, practitioners described which automations actually paid off for them, with one commenter noting the ones that \"compounded\" were those addressing a task done every single week, while another cautioned there is still a gap between plugging in AI tools and wiring them into real business outcomes.",
+      "lane": "L5",
+      "tier": "practitioner forum (Indie Hackers)",
+      "sources": [
+        {
+          "publisher": "Indie Hackers",
+          "title": "How Indie Hackers Can Use AI Automation to Grow Smarter, Not Harder in 2025",
+          "url": "https://www.indiehackers.com/post/how-indie-hackers-can-use-ai-automation-to-grow-smarter-not-harder-in-2025-5639ab4f1a",
+          "date": "2025-07-26",
+          "whatItMeasured": "A forum post (1 like) and its comment thread (6 comments) on Indie Hackers, reflecting first-person accounts from a handful of self-selected founders about which AI automations worked in their own businesses."
+        }
+      ],
+      "scope": "Does not support prevalence claims about AI automation adoption or effectiveness across the founder population; reflects first-person accounts from a handful of self-selected founders in one small comment thread, not a systematic survey, and the specific quoted commenter remarks could not be independently re-confirmed beyond the post's general theme.",
+      "disposition": "sourced",
+      "refuted": false
+    }
+  ],
+  "jobAds": {
+    "source": "none",
+    "query": "",
+    "window": "",
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "entrepreneur LinkedIn article \"my job as a founder\" AI reflections",
+      "startup founder podcast transcript AI anxiety founders 2026 (no full transcripts surfaced, only episode summaries)",
+      "\"as a founder\" AI made me obsolete reflection blog (results were journalism/trade press, not first-person founder blogs)",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable — no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}

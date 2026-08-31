@@ -1,0 +1,188 @@
+{
+  "onet_soc_code": "070101",
+  "title": "Early Childhood Teacher",
+  "aliases": [
+    "Kindergarten Teacher",
+    "Preschool Teacher"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-teachec"
+  ],
+  "claims": [
+    {
+      "id": "L1-1",
+      "text": "ACECQA's qualification requirements for early childhood teaching program assessments (Bachelor-level, AQF level 7, with defined age-focus, supervised professional experience and curriculum-content components) apply to all program assessment applications received from 1 July 2025.",
+      "lane": "L1",
+      "tier": "national regulator — qualification standard",
+      "sources": [
+        {
+          "publisher": "ACECQA (Australian Children's Education & Care Quality Authority)",
+          "title": "ACECQA qualification requirements for early childhood teaching program assessments",
+          "url": "https://www.acecqa.gov.au/sites/default/files/2025-08/ACECQA%20qualification%20requirements%20for%20early%20childhood%20teaching%20program%20assessments.pdf",
+          "date": "2025-08",
+          "whatItMeasured": "Regulator instrument specifying the qualification-level, age-focus, supervised-practice and curriculum criteria ACECQA uses to assess early childhood teaching programs under the Education and Care Services National Law/National Quality Framework."
+        }
+      ],
+      "scope": "Shows what ACECQA requires of teaching programs seeking or renewing approval; does not indicate how many higher-education providers or programs have actually changed curricula in response, does not measure ITE program compliance rates, and does not reflect early childhood teacher or student sentiment toward the requirement.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L1-2",
+      "text": "Australian Education Ministers agreed a package of 'Strengthened NQF' child safety and protection reforms to the Education and Care Services National Law and National Regulations — including mandatory child protection/national child safety training for all educators and staff and a cut in incident-notification timeframes from 7 days to 24 hours — commencing 27 February 2026.",
+      "lane": "L1",
+      "tier": "national regulator — child safety instrument",
+      "sources": [
+        {
+          "publisher": "ACECQA (Australian Children's Education & Care Quality Authority)",
+          "title": "Strengthened NQF child safety and protections (Omnibus)",
+          "url": "https://www.acecqa.gov.au/child-safety-changes-national-quality-framework-strengthening-safety-education-and-care",
+          "date": "2026-02",
+          "whatItMeasured": "Regulator/Education Ministers' agreed statutory reform package amending the National Law and Regulations that bind all education and care staff, including early childhood teachers, on child safety obligations."
+        }
+      ],
+      "scope": "Establishes the new binding legal obligations and their commencement date; does not measure actual compliance, implementation quality across services, or how educators, providers or families have responded to the reforms.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-1",
+      "text": "Trade press reported that about 29–30% of U.S. public-school pre-K teachers used generative AI for job-related purposes in the 2024–25 school year, a markedly lower adoption rate than the 42% (elementary), 64% (middle), and 69% (high school) reported for other K-12 grade bands.",
+      "lane": "L3",
+      "tier": "trade press (education technology news)",
+      "sources": [
+        {
+          "publisher": "EdSurge News",
+          "title": "1 in 3 Pre-K Teachers Uses Generative AI at School",
+          "url": "https://www.edsurge.com/news/2026-01-05-1-in-3-pre-k-teachers-uses-generative-ai-at-school",
+          "date": "2026-01-05",
+          "whatItMeasured": "News article by Lauren Coffey reporting figures from RAND's spring 2025 American Public School Pre-K Teacher Survey (~2,000 pre-K teachers)"
+        },
+        {
+          "publisher": "K-12 Dive",
+          "title": "Pre-K teachers speak out about AI, instructional materials, training and pay in surveys",
+          "url": "https://www.k12dive.com/news/preschool-teacher-surveys-AI-edtech-instruction-pay-Rand/808287/",
+          "date": "2026-01-05",
+          "whatItMeasured": "News article by Kara Arundel reporting the same RAND survey (1,586 pre-K teachers, spring 2025, released December 2025), with grade-band comparison figures and RAND researchers' stated rationale (screen-time concerns)"
+        }
+      ],
+      "scope": "Does not establish the primary RAND study's full methodology, margin of error, or causal explanation for the adoption gap (screen-time concerns) — that lives in RAND's own report RRA4412-2, not these two articles' paraphrase. Reflects self-reported tool-use frequency only, not task-level automation exposure, job displacement, or effectiveness of AI use.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-2",
+      "text": "Trade press reported that while over 70% of surveyed pre-K teachers had received some professional learning on educational technology, 59% said they still needed additional training in at least one area, with behavior-management training the most requested (64%).",
+      "lane": "L3",
+      "tier": "trade press (K-12 industry news)",
+      "sources": [
+        {
+          "publisher": "K-12 Dive",
+          "title": "Pre-K teachers speak out about AI, instructional materials, training and pay in surveys",
+          "url": "https://www.k12dive.com/news/preschool-teacher-surveys-AI-edtech-instruction-pay-Rand/808287/",
+          "date": "2026-01-05",
+          "whatItMeasured": "News article by Kara Arundel reporting professional-development figures from RAND's spring 2025 American Public School Pre-K Teacher Survey (1,586 pre-K teachers)"
+        }
+      ],
+      "scope": "The underlying figures span professional learning on educational technology broadly (instructional planning, delivering instruction, assessment, judging ed-tech quality) — not generative-AI training specifically — so this does not support a claim about AI-specific training gaps. It reflects self-reported training needs, not measured classroom AI competency or child outcomes.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-1",
+      "text": "On a UK early-years practitioner forum (Foundation Stage Forum / eyfs.info), a supervisor's post about a junior staff member using ChatGPT to write child observations drew replies raising safeguarding/data-protection risk of entering child information into public AI tools, loss of each educator's individual voice in learning journals, and doubt that longer AI-generated text adds real analytic value.",
+      "lane": "L5",
+      "tier": "practitioner forum thread",
+      "sources": [
+        {
+          "publisher": "The Foundation Stage Forum (eyfs.info)",
+          "title": "Using Chat GPT to write observations - Early Years Setting Management",
+          "url": "https://eyfs.info/forums/topic/56570-using-chat-gpt-to-write-observations/",
+          "whatItMeasured": "A discussion thread among early years practitioners/managers on the UK's Foundation Stage Forum (a community for early years educators), not a survey; captures unprompted practitioner reactions to a colleague's AI use."
+        }
+      ],
+      "scope": "Reflects the visible posters on one thread of one UK forum; does not establish how common ChatGPT use for observations is across the early-years workforce (UK or elsewhere), and the concern-heavy tone reflects self-selection of who chose to reply, not a representative sample of practitioner opinion.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-2",
+      "text": "A 40-year early years teacher and independent EYFS consultant, writing a personal Medium post in June 2025, frames generative AI as something that should free up practitioners' time for what \"AI can't\" do rather than replace them, positioning the sector's task as change-navigation rather than job loss.",
+      "lane": "L5",
+      "tier": "practitioner personal blog (Medium)",
+      "sources": [
+        {
+          "publisher": "Medium (personal blog)",
+          "title": "AI in the Early Years Sector. Navigating the Journey.",
+          "url": "https://medium.com/@alison_54503/ai-in-the-early-years-sector-navigating-the-journey-69c08dce2811",
+          "whatItMeasured": "One practitioner's personal reflective essay (Alison Featherbe, a former nursery manager/early years teacher turned independent early years consultant and trainer), not a study or survey; represents one individual's stated view."
+        }
+      ],
+      "scope": "A single practitioner-turned-consultant's personal opinion piece, not a study or survey; the author's current work partly as a paid trainer to the sector may bias the framing toward adoption-friendly optimism relative to a still-practicing classroom educator, and the piece does not measure how widely this optimistic view is shared across the early-years workforce.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-3",
+      "text": "On Early Childhood Australia's member-facing blog \"The Spoke\" (Feb 2026), a contributor and a quoted colleague raise the concern that outsourcing analysis of child-observation evidence to generative AI \"reduces professional decision making in a time when we are striving to raise the professionalism of the early childhood workforce,\" alongside a specific incident of a parent doubting the authenticity of AI-touched observation language.",
+      "lane": "L5",
+      "tier": "professional-body blog",
+      "sources": [
+        {
+          "publisher": "Early Childhood Australia",
+          "title": "Gen-AI in early childhood education: Navigating a not-so-new frontier?",
+          "url": "https://thespoke.earlychildhoodaustralia.org.au/gen-ai-in-early-childhood-education-navigating-a-not-so-new-frontier/",
+          "whatItMeasured": "An article on the blog of Early Childhood Australia, the national early childhood sector peak/professional body, discussing practitioner and colleague concerns about generative AI in observation/assessment practice; not a member survey."
+        }
+      ],
+      "scope": "Corrected dating: this piece was first published 2025-02-19 (just outside the window) and updated 2026-02-09 — cite it as a February 2026-updated piece, not a February 2026-authored one. Content otherwise reflects the views of the article's authors and one quoted colleague/parent anecdote, not a poll of ECA's membership, and does not establish what share of the profession shares this concern.",
+      "disposition": "corrected",
+      "refuted": false
+    }
+  ],
+  "jobAds": {
+    "source": "none",
+    "query": "",
+    "window": "",
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "STALE LINK: dropped claim L1-3 (QCT/Queensland-early-childhood mandatory-registration consultation claim) -- both cited source URLs returned genuine 404s on verification (earlychildhood.qld.gov.au and qct.edu.au); could not re-source within this session's exhausted WebSearch budget, and WebFetch on the parent listing pages did not surface a live replacement",
+      "Jobs and Skills Australia AI capability occupation exposure early childhood teacher",
+      "early childhood teacher AI automation exposure study occupation",
+      "\"Jobs and Skills Australia\" Gen AI capacity study exposure index methodology ANZSCO occupation score",
+      "jobsandskills.gov.au \"early childhood\" teacher exposure score generative AI capacity study table",
+      "Jobs and Skills Australia Gen AI capacity study \"child carers\" OR \"early childhood\" occupation ranking exposure score PDF",
+      "\"241111\" OR \"Early Childhood (Pre-primary School) Teachers\" Jobs Skills Australia AI exposure score",
+      "Productivity Commission OR NBER OR SSRN early childhood teacher preschool teacher AI automation task exposure",
+      "Felten Raj Seamans AI occupational exposure index \"preschool teachers\" OR \"childcare workers\" 2025",
+      "Eloundou GPT occupational exposure \"preschool teachers\" OR \"childcare\" beta score 2025 2026",
+      "jobsandskills.gov.au generative AI capacity study report PDF download \"occupation profiles\" exposure appendix",
+      "jobsandskills.gov.au \"detailed data release\" gen ai exposure occupation xlsx csv download",
+      "WebFetch attempts on jobsandskills.gov.au exposure/occupation pages and official PDF (all timed out); WebFetch on nationalskillsweek.com.au and IZA dp18235.pdf mirrors (returned unparseable binary content, no extractable occupation-level figures)",
+      "NAEYC artificial intelligence early childhood educators 2025 2026 (workforce/task-automation angle)",
+      "Child Care Exchange OR Childcare Business trade publication AI early childhood teachers 2025 2026",
+      "Hechinger Report early childhood AI preschool 2025 2026 (usable items were outside the 2025-03-01 to 2026-08-31 window)",
+      "preschool teacher reddit AI worried automation replace (no direct Reddit thread content surfaced)",
+      "r/ECEProfessionals reddit AI ChatGPT lesson plans thread (no direct thread found)",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable — no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}

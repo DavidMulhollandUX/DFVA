@@ -1,0 +1,246 @@
+{
+  "onet_soc_code": "0909",
+  "title": "Solicitor",
+  "aliases": [
+    "Corporate Lawyer",
+    "Commercial Lawyer",
+    "Private Practice Lawyer"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-privlaw"
+  ],
+  "claims": [
+    {
+      "id": "L1-1",
+      "text": "The Law Council of Australia is consulting (submissions due 30 March 2026) on amendments to two Australian Solicitors' Conduct Rules and a new Legal Practice Rule 12 requiring solicitors to inform clients in retainer agreements of statutory reporting obligations, timed to align with the Anti-Money Laundering and Counter-Terrorism Financing regime's extension to the legal profession from 1 July 2026.",
+      "lane": "L1",
+      "tier": "national professional body rule-change consultation (pre-instrument)",
+      "sources": [
+        {
+          "publisher": "Law Council of Australia",
+          "title": "Consultation on Solicitors' Professional Rules",
+          "url": "https://lawcouncil.au/policy-agenda/regulation-of-the-profession-and-ethics/australian-solicitors-conduct-rules/consultation-on-solicitors-professional-rules",
+          "date": "2026-03-02",
+          "whatItMeasured": "Official consultation notice from the peak body that maintains the Australian Solicitors' Conduct Rules, stating the proposed rule text, the AML/CTF driver, and the 30 March 2026 submission deadline."
+        },
+        {
+          "publisher": "Law Council of Australia",
+          "title": "Australian Solicitors' Conduct Rules",
+          "url": "https://lawcouncil.au/policy-agenda/regulation-of-the-profession-and-ethics/australian-solicitors-conduct-rules",
+          "date": "2026",
+          "whatItMeasured": "The Law Council's own policy page describing the ASCR framework and the proposed Rule 8, Rule 13 and new Rule 12 amendments and their intended 1 July 2026 alignment."
+        }
+      ],
+      "scope": "As of March 2026 this was a proposed rule change out for consultation, not yet binding — but the amended ASCR and new Rule 12 commenced 1 July 2026, so by the time this claim is read the changes are in force, not pending. The claim says nothing about solicitor sentiment toward AML/CTF obligations, actual retainer-wording compliance rates, or firms' AML/CTF program readiness more broadly.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L1-2",
+      "text": "The Law Society of NSW published \"A Solicitor's Guide to Responsible Use of Artificial Intelligence\" in January 2026, professional-body guidance tying AI use (confidentiality, hallucination risk, billing, disclosure to clients) to solicitors' existing obligations under the Legal Profession Uniform Law and the Australian Solicitors' Conduct Rules 2015.",
+      "lane": "L1",
+      "tier": "state professional/registration body guidance document",
+      "sources": [
+        {
+          "publisher": "The Law Society of NSW",
+          "title": "A Solicitor's Guide to Responsible Use of Artificial Intelligence (January 2026)",
+          "url": "https://www.lawsociety.com.au/sites/default/files/2026-01/20260109%20LS4816_PSU_GuidetoAI_2026-01-08a%20FINALv2.pdf",
+          "date": "2026-01-09",
+          "whatItMeasured": "The Law Society of NSW's own published practice guide (PDF, filename and cover dated January 2026) setting out expected professional conduct when solicitors use AI tools."
+        },
+        {
+          "publisher": "The Law Society of NSW",
+          "title": "A solicitor's guide to responsible use of artificial intelligence",
+          "url": "https://www.lawsociety.com.au/AI-hub/solicitors-guide-responsible-use-artificial-intelligence",
+          "date": "2026",
+          "whatItMeasured": "The Law Society of NSW's AI Hub landing page hosting and describing the same guide as part of its practitioner-support resources."
+        }
+      ],
+      "scope": "This is advisory practice-support guidance, not a gazetted conduct rule carrying disciplinary force on its own, and it does not measure actual AI usage rates, adoption, or practitioner sentiment among solicitors — only what the Law Society recommends. It is NSW-specific; other state law societies (WA, Victoria) have issued separate, differently-dated AI guidance not covered by this source.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L2-1",
+      "text": "The ILO's 2025 refined Global Index of Occupational Exposure to Generative AI places Lawyers (ISCO-08 code 2611, the occupation solicitors map to) in its lowest exposure band ('Minimal Exposure'), with a mean task-automation-potential score of 0.36 (SD 0.09) on a 0-1 scale — well below clerical and data-entry occupations that top the index near 0.7.",
+      "lane": "L2",
+      "tier": "institutional index (ILO working paper)",
+      "sources": [
+        {
+          "publisher": "International Labour Organization",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/sites/default/files/2025-05/WP140_web.pdf",
+          "date": "2025-05",
+          "whatItMeasured": "Task-level GenAI automation-potential survey of 1,640 workers across each ISCO-08 1-digit occupational group in Poland (52,558 data points on 2,861 tasks), refined through international expert Delphi-style validation and AI-assisted scoring, then mapped to the global ISCO-08 classification; the annex reports a mean exposure score of 0.36 for ISCO 2611 Lawyers."
+        }
+      ],
+      "scope": "This is a global, Poland-survey-anchored task-index measuring GenAI automation *potential*, not an Australia-specific or solicitor-firm-specific study, and it says nothing about observed employment, wage, or hiring effects. Corrected: 'Minimal Exposure' is the second-lowest of six exposure bands in the paper, not the literal lowest — a distinct, lower 'Not Exposed' band (containing e.g. Judges, Civil Engineers, Legislators) sits beneath it.",
+      "disposition": "corrected",
+      "refuted": false
+    },
+    {
+      "id": "L2-2",
+      "text": "A randomized controlled trial assigning upper-level US law students to complete legal tasks found that an AI reasoning model (OpenAI o1-preview) increased task productivity by roughly 34-140%, and a retrieval-augmented-generation legal-AI tool (Vincent AI) increased it by roughly 38-115%, across five of six tested legal tasks, both with quality/hallucination rates no worse than the no-AI control.",
+      "lane": "L2",
+      "tier": "peer-reviewed RCT (SSRN preprint, forthcoming in a SAGE journal)",
+      "sources": [
+        {
+          "publisher": "SSRN / University of Minnesota & University of Michigan law faculty",
+          "title": "AI-Powered Lawyering: AI Reasoning Models, Retrieval Augmented Generation, and the Future of Legal Practice",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5162111",
+          "date": "2025-03-02",
+          "whatItMeasured": "First randomized controlled trial assigning upper-level US law students to complete six legal drafting/analysis tasks using a RAG-powered legal-AI tool, an AI reasoning model, or no AI assistance, measuring task-completion productivity and output quality/hallucination rates."
+        }
+      ],
+      "scope": "US law students performing simulated legal tasks under experimental conditions, not practising Australian solicitors doing live client work — an experimental productivity ceiling, not an observed labour-market or headcount effect. Corrected: quality/hallucination rates were no worse than control only for the RAG tool (Vincent AI); the reasoning model (o1-preview) improved analytical depth but introduced more hallucinations than the no-AI control, contrary to the claim's 'both... no worse than' framing.",
+      "disposition": "corrected",
+      "refuted": false
+    },
+    {
+      "id": "L3-1",
+      "text": "Trade press reported that junior corporate lawyers were split on AI's threat to their roles as of mid-2026, with associates describing AI as absorbing a large share of document review, due diligence and first-draft work in transactional and M&A practice, while litigation work was seen as comparatively insulated.",
+      "lane": "L3",
+      "tier": "trade press (legal-sector outlet)",
+      "sources": [
+        {
+          "publisher": "Legal Cheek",
+          "title": "Junior lawyers split: Is AI 'eating' their jobs, or just an above-average paralegal?",
+          "url": "https://www.legalcheek.com/2026/07/junior-lawyers-divided-over-whether-ai-is-eating-their-jobs-or-just-cutting-the-boring-bits/",
+          "date": "2026-07-08",
+          "whatItMeasured": "Legal Cheek's own reporting and interviews/quotes gathered from junior lawyers and commenters, not a structured survey."
+        }
+      ],
+      "scope": "Reflects individual junior lawyers' impressions gathered informally by a trade outlet, not a structured survey or firm-level headcount/hiring data, and the split in views is specific to corporate/transactional vs litigation practice areas — it says nothing about solicitors in other practice areas (family, criminal, property, etc.) or about Australian solicitors specifically (Legal Cheek is UK-focused).",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-2",
+      "text": "Trade press covering a Major, Lindsey & Africa legal-hiring report said employers increasingly seek lawyers combining legal expertise with AI fluency, but described true AI expertise among practising lawyers as still scarce as of May 2026.",
+      "lane": "L3",
+      "tier": "trade press summarising an industry report",
+      "sources": [
+        {
+          "publisher": "National Jurist",
+          "title": "Legal hiring in 2026: AI skills and strategic expertise top employer demand",
+          "url": "https://nationaljurist.com/legal-hiring-in-2026-ai-skills-and-strategic-expertise-top-employer-demand/",
+          "date": "2026-05-26",
+          "whatItMeasured": "National Jurist's article paraphrasing findings from a Major, Lindsey & Africa (MLA) legal-hiring report; the underlying MLA report's own methodology and sample were not detailed in this article."
+        }
+      ],
+      "scope": "This is trade-press paraphrase of a US-focused legal-hiring/recruiting report (Major, Lindsey & Africa), not the primary MLA report's own methodology or sample; it concerns US in-house/law-firm hiring demand broadly, not Australian solicitors or any single practice area, and 'scarce AI expertise' is an employer-demand framing, not a measured competency assessment.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-3",
+      "text": "Trade press reported that Baker McKenzie was cutting roughly 600 business-services roles (marketing, secretarial and related support functions) in February 2026, with the firm citing increased use of AI and workflow efficiencies as part of the rationale, following similar reported reductions at Clifford Chance and Freshfields.",
+      "lane": "L3",
+      "tier": "trade press (dated news report)",
+      "sources": [
+        {
+          "publisher": "Legal Cheek",
+          "title": "Baker McKenzie to cut business services roles as AI use grows",
+          "url": "https://www.legalcheek.com/2026/02/baker-mckenzie-to-cut-business-services-roles-as-ai-use-grows/",
+          "date": "2026-02-06",
+          "whatItMeasured": "Legal Cheek's news reporting, including a firm spokesperson statement, on an internal Baker McKenzie business-services restructuring."
+        }
+      ],
+      "scope": "Concerns business-services/support staff (marketing, secretarial, research), not fee-earning solicitors or associates, and reflects named-firm reductions rather than an industry-wide census; the Clifford Chance reduction predates this claim's cited event by about three months and was smaller in scale (~50 vs ~600 roles).",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-4",
+      "text": "Legal Cheek's LegalEdCon 2026 coverage reported that a surge in AI-assisted training-contract applications was prompting firms to redesign graduate recruitment, including moving aptitude tests and video interviews ahead of written application stages to reduce AI-assisted gaming of applications.",
+      "lane": "L3",
+      "tier": "trade press (conference coverage)",
+      "sources": [
+        {
+          "publisher": "Legal Cheek",
+          "title": "LegalEdCon 2026: Everything you need to know",
+          "url": "https://www.legalcheek.com/lc-careers-posts/legaledcon-2026-everything-you-need-to-know/",
+          "date": "2026-05-15",
+          "whatItMeasured": "Legal Cheek's summary of conference sessions and speaker statements at LegalEdCon 2026, not a controlled survey of firms' recruitment practices."
+        }
+      ],
+      "scope": "Reflects named UK firms' specific process changes reported at one conference, not a sector-wide census of application volumes or a quantified AI-gaming rate; concerns graduate/training-contract recruitment only, not lateral or qualified-solicitor hiring, and is UK-specific rather than Australian.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-1",
+      "text": "In a RollOnFriday forum thread (23-27 March 2026, roughly 18 distinct pseudonymous posters identifying as lawyers/solicitors), practitioners debated specific AI tools they use in their own day-to-day work, ranging from calling subscription ChatGPT unreliable to praising Copilot as more useful than compliance training courses, with mixed results reported for tasks like agreement analysis versus condensing dictated notes.",
+      "lane": "L5",
+      "tier": "practitioner forum (pseudonymous, credentials unverified)",
+      "sources": [
+        {
+          "publisher": "RollOnFriday",
+          "title": "What legal AI do you use",
+          "url": "https://www.rollonfriday.com/discussion/what-legal-ai-do-you-use",
+          "date": "2026-03-23",
+          "whatItMeasured": "Open forum thread; not a survey — self-selected posters on a UK legal-gossip/discussion site describing which AI tools they personally use and how well each performed on specific tasks."
+        }
+      ],
+      "scope": "A single open, pseudonymous, self-selected UK legal-gossip forum thread — does not establish AI tool adoption rates or sentiment across the solicitor profession generally, does not generalise to Australian solicitors, and the posters' credentials/practice areas are unverified.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-2",
+      "text": "In a later RollOnFriday thread (16 April 2026, 25+ distinct posters), practitioners split between one view that AI output now exceeds a strong associate's work (\"way better. Faster, more thorough and more agile\" — poster \"Muttley\") and warnings that firms billing on team hours face an unsustainable model, against others who countered that hallucinations and an unresolved \"wrong step problem\" remain intrinsic to the tools.",
+      "lane": "L5",
+      "tier": "practitioner forum (pseudonymous, credentials unverified)",
+      "sources": [
+        {
+          "publisher": "RollOnFriday",
+          "title": "Recently had a deeper look at the capability of an AI platform",
+          "url": "https://www.rollonfriday.com/discussion/recently-had-deeper-look-capability-ai-platform",
+          "date": "2026-04-16",
+          "whatItMeasured": "Open forum thread; not a survey — self-selected posters discussing, unprompted, whether AI platforms (Legora, Harvey, Relativity, Kira, Claude) now match or exceed associate-level legal work and what that implies for billing and staffing."
+        }
+      ],
+      "scope": "A single anonymous, self-selected UK-skewed, large-firm-skewed forum thread — supports only 'this view was raised in practitioner discourse,' not a prevalence estimate of how widespread the 'AI beats associates' view is among solicitors generally, and does not generalise to Australian solicitors or smaller/regional practices.",
+      "disposition": "sourced",
+      "refuted": false
+    }
+  ],
+  "jobAds": {
+    "source": "none",
+    "query": "",
+    "window": "",
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "Legal Profession Uniform Admission Amendment (Qualifications) Rule 2025 commencement details (Legal Services Council recent-changes page did not corroborate this instrument)",
+      "ACT Legal Profession (Solicitors) Conduct Rules 2025 (No 2) commencement date verification via legislation.act.gov.au PDF (file unreadable/binary via WebFetch)",
+      "Jobs and Skills Australia Generative AI Capacity Study exposure score legal professionals ANZSCO (page fetch timed out twice; no solicitor-specific figure surfaced in search snippets)",
+      "jobsandskills.gov.au occupation-data-on-ai-exposure legal professionals solicitors (WebFetch timeout)",
+      "Productivity Commission Australia AI legal services occupation exposure report 2025 (no PC-specific legal-occupation figure found; PC papers reference JSA's aggregate 4% figure, not a legal-specific one)",
+      "site:eig.org AI and Jobs lawyers Anthropic Eloundou Felten comparison table (PDF fetch returned corrupted/binary content, no verifiable figures extracted)",
+      "\"junior lawyer\" reddit AI drafting contracts worried 2026",
+      "solicitor LinkedIn article \"using AI\" in my practice commercial law 2025",
+      "site:linkedin.com/pulse solicitor AI drafting contracts 2026",
+      "Australian solicitor forum AI billable hours \"own work\" 2025 2026",
+      "\"Good Bot Podcast\" lawyer transcript AI own practice governance",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable — no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}

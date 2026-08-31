@@ -1,0 +1,242 @@
+{
+  "onet_soc_code": "019905",
+  "title": "Food Scientist",
+  "aliases": [
+    "Food Technologist",
+    "Packaging Engineer"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-foodpi"
+  ],
+  "claims": [
+    {
+      "id": "L1-1",
+      "text": "The International Food Science Certification Commission (operating under IFT, and endorsed/promoted to Australian members by the Australian Institute of Food Science and Technology) is retiring the Certified Food Scientist (CFS) credential, with new applications closing 15 December 2025, exams closing 15 December 2026, and existing certificate-holders' recognition continuing only until December 2029.",
+      "lane": "L1",
+      "tier": "professional-certification-body (US-based scheme, AU-endorsed)",
+      "sources": [
+        {
+          "publisher": "IFT / International Food Science Certification Commission (IFSCC)",
+          "title": "Certified Food Scientist Program Retirement – FAQs",
+          "url": "https://164454.fs1.hubspotusercontent-na1.net/hubfs/164454/CFS/IFT%20Certified%20Food%20Scientist%20Program%20Retirement%20%E2%80%93%20FAQs.pdf",
+          "date": "2025-03-27",
+          "whatItMeasured": "Official FAQ document (PDF metadata dated 2025-03-27) issued by IFSCC/IFT stating the CFS certification is being sunset over a five-year window due to sustained year-over-year decline in registrations and renewals."
+        },
+        {
+          "publisher": "IFT",
+          "title": "Get Your CFS",
+          "url": "https://www.ift.org/career-development/certification/get-your-cfs",
+          "date": "accessed 2026-09-01",
+          "whatItMeasured": "Live IFT certification page confirming current status: \"This program has been sunset,\" directing enquiries to ifscc@ift.org."
+        }
+      ],
+      "scope": "Describes the status of a voluntary, US-administered professional certification only — it is not an Australian or US statutory licence, food scientists in both countries can practise without it, and the claim says nothing about how many working food scientists hold CFS, why IFT is retiring it (declining registrations/renewals, per the FAQ), or how Australian employers weight the credential.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L1-2",
+      "text": "VETASSESS, the Australian government's designated skills-assessing authority for skilled migration, classifies Food Technologist (ANZSCO 234212) as a \"Group A\" occupation requiring an AQF Bachelor-degree-or-higher qualification comparable in a field highly relevant to food technology (e.g. Food Science & Technology, Nutrition, Food Processing Technology, Food Engineering, Dietetics) plus at least one year of highly relevant post-qualification employment within the preceding five years for a positive assessment.",
+      "lane": "L1",
+      "tier": "skilled-migration assessing-authority criteria (Commonwealth-recognised)",
+      "sources": [
+        {
+          "publisher": "VETASSESS",
+          "title": "Food Technologist Skills Assessment ANZSCO 234212",
+          "url": "https://www.vetassess.com.au/check-my-occupation/professional-occupations/food-technologist",
+          "date": "accessed 2026-09-01 (page undated; references an internal \"Group A - August 2026\" diagram)",
+          "whatItMeasured": "VETASSESS's own published qualification and employment criteria that an applicant nominating ANZSCO 234212 Food Technologist for an Australian skilled-migration visa must satisfy for a positive skills assessment."
+        }
+      ],
+      "scope": "Governs eligibility for a positive skills assessment supporting an Australian skilled-migration visa application only; it is not a licence to practise and does not apply to, or regulate, food scientists already working in Australia (including those who arrived by other pathways), and it provides no evidence about domestic labour-market demand, vacancy volume, or professional sentiment toward the occupation.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L1-3",
+      "text": "The Australian Institute of Food Science and Technology (AIFST) — the national professional body for the occupation — grants the post-nominal \"MAIFST\" (Professional Member) only to applicants who hold an undergraduate or postgraduate degree in science, food science or technology plus three years of relevant professional experience (or a diploma plus five years, or ten years of relevant experience without formal qualifications), nominated by two existing Fellow or Professional members.",
+      "lane": "L1",
+      "tier": "national professional-body membership standard (non-statutory)",
+      "sources": [
+        {
+          "publisher": "Australian Institute of Food Science and Technology (AIFST)",
+          "title": "Professional membership",
+          "url": "https://www.aifst.asn.au/professional",
+          "date": "accessed 2026-09-01 (page undated)",
+          "whatItMeasured": "AIFST's own published qualification/experience thresholds and nomination requirements for its Professional Member grade, current on its membership page as retrieved."
+        }
+      ],
+      "scope": "Describes AIFST's voluntary professional-membership grade only, not a statutory licence — no Australian law requires food scientists to hold MAIFST to practise, and the claim provides no figure for what share of working food scientists actually hold the credential or how the profession at large regards it.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L2-1",
+      "text": "Food Scientists and Technologists (SOC 19-1012) have an AI Occupational Exposure (AIOE) index score of 0.794, placing them at roughly the 69th percentile of AI exposure among 774 detailed US occupations.",
+      "lane": "L2",
+      "tier": "institutional dataset (peer-reviewed methodology)",
+      "sources": [
+        {
+          "publisher": "AIOE-Data project (Felten, Raj & Seamans)",
+          "title": "AIOE Data Appendix — Occupational, Industry, and Geographic Exposure to Artificial Intelligence",
+          "url": "https://github.com/AIOE-Data/AIOE",
+          "date": "2021 (dataset, underlying Felten/Raj/Seamans 2021 Strategic Management Journal paper)",
+          "whatItMeasured": "A standardised (z-score) index built by linking 10 AI application categories to 52 O*NET work abilities via a crowd-sourced relatedness survey, then aggregating to occupation level for 774 six-digit US SOC codes; downloaded and parsed directly from the project's public Data Appendix A spreadsheet, confirming SOC 19-1012 = 0.7943575."
+        }
+      ],
+      "scope": "A fixed, standardized index built in 2021 from crowd-sourced task-ability overlap with 2021-era AI applications (e.g. image/speech recognition, early language modelling) — it predates ChatGPT-class generative AI entirely and is not a 2025/2026 measurement. It uses the US O*NET/SOC occupational structure, not ANZSCO, and is a relative exposure score, not a probability of displacement, a wage effect, or a headcount projection; treat it only as historical/background context, not as evidence of the current AI landscape for this occupation.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L2-2",
+      "text": "In Jobs and Skills Australia's national Generative AI Capacity Study, the professional occupational group covering 'Chemists, and Food and Wine Scientists' scored 0.33 on a 0–1 automation scale and 0.74 on a 0–1 augmentation scale, sitting with other science/engineering professional occupations that skew toward augmentation rather than automation.",
+      "lane": "L2",
+      "tier": "government/institutional study",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia (Australian Government)",
+          "title": "Our Gen AI Transition – Exposure (Generative Artificial Intelligence Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure",
+          "date": "2025-08-14",
+          "whatItMeasured": "JSA's first national whole-of-labour-market Gen AI study mapped ANZSCO occupational task data, job ads, surveys and international benchmarks onto separate 0–1 automation and augmentation scores per occupation group; figures for 'Chemists, and Food and Wine Scientists' extracted directly from the page's embedded scatter-chart data (Professional group chart, x=automation, y=augmentation)."
+        }
+      ],
+      "scope": "The 'Chemists, and Food and Wine Scientists' point is a JSA-defined occupational group in the professional-occupations scatter chart, which may pool several related ANZSCO unit-group occupations rather than isolating Food Technologist (234212) alone — it should not be read as a Food-Technologist-specific figure. The 0-1 scores describe relative task exposure/augmentation potential estimated from occupational task data, job ads, surveys and international benchmarks, not projected employment change, wage impact, or realized headcount effects.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L3-1",
+      "text": "Trade press reported that AI-driven computational screening is compressing food R&D timelines and redirecting food scientists' time away from physical trial-and-error lab testing toward directing and evaluating AI-generated candidates before lab work begins.",
+      "lane": "L3",
+      "tier": "trade press",
+      "sources": [
+        {
+          "publisher": "DairyReporter.com (William Reed)",
+          "title": "AI reshapes F&B jobs as automation hits product R&D",
+          "url": "https://www.dairyreporter.com/Article/2026/05/27/ai-reshapes-fb-jobs-as-automation-hits-product-rd/",
+          "date": "2026-05-27",
+          "whatItMeasured": "Dated trade journalism citing a NotCo/Kraft Heinz case (R&D timeline cut from two years to ten months) and named industry sources (NotCo's Alisia Heath, consultant Jonny Bingham) on how AI is redesigning food-science R&D work."
+        }
+      ],
+      "scope": "Illustrates a shift in how time is allocated within R&D workflows at specific companies (NotCo, Kraft Heinz) via named-source trade journalism, not a quantified, industry-wide rate of change in food-scientist task composition. The article separately cites a BSI survey finding that 'more than half of industry leaders say AI is enabling headcount reductions' — that statistic is explicitly industry-wide across food manufacturing operations generally, not specific to R&D or food-scientist roles, and must not be attributed to this article's own reporting or narrowed to this occupation.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L3-2",
+      "text": "Trade press documented a 2025-2026 wave of AI R&D platforms and autonomous agents adopted by food companies and professional bodies for formulation, ingredient discovery and product-development analytics, including IFT's CoDeveloper platform, Turing Labs' Luna AI agent, NotCo's Giuseppe/Concept Quant tools, and Shiru's Flourish.",
+      "lane": "L3",
+      "tier": "trade press",
+      "sources": [
+        {
+          "publisher": "FoodNavigator.com (William Reed)",
+          "title": "This year's wave of tools, from trendspotting engines to autonomous R&D agents, turned AI into everyday infrastructure for food and beverage",
+          "url": "https://www.foodnavigator.com/Article/2025/12/22/this-years-wave-of-tools-from-trendspotting-engines-to-autonomous-rd-agents-turned-ai-into-everyday-infrastructure-for-food-and-beverage/",
+          "date": "2025-12-22",
+          "whatItMeasured": "Year-end trade-press roundup, with named tools, companies, and an on-record CEO quote (Turing Labs' Manmit Shrimali), of AI products deployed in food-science R&D workflows during 2025."
+        }
+      ],
+      "scope": "A year-end trade-press roundup of vendor/product launches and named-source commentary, not a market-adoption study — it does not quantify what share of food companies or food scientists actually use these tools, nor does it measure any resulting change in food-scientist headcount, task mix, or employment outcomes.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-3",
+      "text": "A 2026 Institute of Food Technologists (IFT) survey of more than 5,000 food-science professionals found most respondents were not concerned about AI threatening their jobs, yet AI was the most frequently cited priority for skills development.",
+      "lane": "L3",
+      "tier": "professional-body publication",
+      "sources": [
+        {
+          "publisher": "Institute of Food Technologists (IFT)",
+          "title": "IFT's New Compensation and Career Path Report Highlights Shifting Priorities in Food Science Careers",
+          "url": "https://www.ift.org/about-us/press/press-releases/compensation-and-career-path-report-2026",
+          "date": "2026-06-24",
+          "whatItMeasured": "IFT's own compensation and career-path survey (part of a series dating to 1966), self-reported responses from over 5,000 food-science professionals globally on job concerns and skills-development priorities, including AI."
+        }
+      ],
+      "scope": "A professional body's self-reported member survey capturing stated sentiment and self-identified priorities at one point in time (fielded January 2026); it is not an external, independent, or longitudinal measurement of actual AI-driven task automation or job displacement in food science, and 'most respondents not concerned' should not be read as a precise proportion — the release does not give the exact percentage.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-1",
+      "text": "Renee Leber, IFT's Food Science and Technical Services Manager, told trade press that AI itself won't take a food scientist's job but a food scientist who uses AI well might take the job of one who doesn't, framing AI as a co-scientist that can roughly halve early-stage formulation iterations.",
+      "lane": "L5",
+      "tier": "professional-body-newsletter/trade-press",
+      "sources": [
+        {
+          "publisher": "FoodIngredientsFirst",
+          "title": "IFT: AI won't take a food scientist's job, but a food scientist using AI might",
+          "url": "https://www.foodingredientsfirst.com/news/ift-ai-codeveloper-sous-tool-food-innovation.html",
+          "date": "2025-10-02",
+          "whatItMeasured": "Trade-press interview with an IFT staff food scientist about the organisation's AI co-scientist tool (Sous/CoDeveloper) and her own view of AI's effect on formulation work; not a survey, single practitioner's stated opinion."
+        }
+      ],
+      "scope": "A single IFT staff member's characterization of IFT's own commercial AI tool (CoDeveloper/Sous), given in an interview promoting that tool's launch — it is not survey evidence and cannot be generalized to how food scientists broadly regard AI's job impact; because Leber speaks for the organization that built and sells the tool, her framing should be read as an interested product endorsement, not disinterested practitioner sentiment.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L5-2",
+      "text": "Mohamed Badaoui Najjar, PepsiCo's Senior Director of R&D Digital Transformation, wrote on IFT's own blog that food science work is becoming 'AI plus human intelligence' rather than AI versus human intelligence, and that the value of AI in his R&D work depends on people being upskilled to use it well.",
+      "lane": "L5",
+      "tier": "professional-body-newsletter",
+      "sources": [
+        {
+          "publisher": "Institute of Food Technologists (IFT)",
+          "title": "AI and the Future of Food Innovation",
+          "url": "https://www.ift.org/news-and-publications/blog/2025/ai-and-the-future-of-food-innovation",
+          "date": "2025-08-20",
+          "whatItMeasured": "First-person blog post by a PepsiCo R&D digital-transformation practitioner published on the food scientists' professional body's own blog, describing his own view of AI's role in product development and formulation work; not a survey or poll."
+        }
+      ],
+      "scope": "One senior R&D practitioner's first-person framing at a single large CPG company (PepsiCo), published on IFT's own blog, which curates toward constructive, adoption-positive industry narratives — it is not survey or population-level evidence, says nothing about how prevalent this view is among food scientists generally, and should not be read alongside the more skeptical or anxious sentiment that may exist among rank-and-file practitioners the blog does not platform.",
+      "disposition": "scoped",
+      "refuted": false
+    }
+  ],
+  "jobAds": {
+    "source": "none",
+    "query": "",
+    "window": "",
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "Food Standards Australia New Zealand food scientist qualification requirement 2025 2026",
+      "AIFST accreditation food science degree 2025 (no specific accredited-program list or accreditation-date content found on aifst.asn.au/Universities-and-Courses)",
+      "VETASSESS \"Group A\" migration skills assessment guideline document 2025 pdf (no dated official PDF located)",
+      "Jobs and Skills Australia AI automation exposure food scientist OR food technologist occupation",
+      "\"food scientist\" OR \"food technologist\" AI exposure task automation study 2025 (peer-reviewed, non-marketing)",
+      "Eloundou Manning GPT AI exposure occupation \"food scientists\" OR \"19-1012\" (no occupation-specific figure surfaced)",
+      "Productivity Commission Australia generative AI occupational exposure food scientists technologists",
+      "CEDA \"Australia's future workforce\" automation risk food technologist OR food scientist occupation probability (no CEDA-specific figure for this occupation, only a third-party site's derivative claim)",
+      "food scientist forum AI automation \"my job\" reddit 2026",
+      "site:reddit.com food science AI job worried formulation",
+      "reddit.com/r/foodscience AI automation",
+      "reddit r/foodscience \"AI\" thread career automation worried",
+      "\"food technologist\" OR \"food scientist\" blog \"AI\" \"my job\" opinion 2025",
+      "\"food scientist\" LinkedIn article \"generative AI\" formulation experience worried skeptical",
+      "food technologist LinkedIn article AI changing food product development (no independent LinkedIn articles found, only trade press)",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable — no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}
