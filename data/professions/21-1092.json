@@ -2179,5 +2179,6 @@
     "L3 Factiva lane unavailable this run (OpenAthens auth expired); L3 supplied via web (Oxford Tech & Justice AI Atlas, MULR).",
     "L5 corpus is a self-selected practitioner-discourse sample (HN/X/reddit/youtube) carried from the 2026-08-29 run; corroborate before high-grade use.",
     "L1 is thin: probation/parole officers are state-regulated under corrective-services legislation, not nationally registered; no AI-specific binding instrument."
-  ]
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

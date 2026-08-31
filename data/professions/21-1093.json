@@ -1113,27 +1113,6 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l555",
-      "text": "This is what happens when AI makes a GTA 6 trailer. https://t.co/3Wxq757ycJ",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "x",
-          "title": "This is what happens when AI makes a GTA 6 trailer. https://t.co/3Wxq757ycJ",
-          "url": "https://x.com/lomot36748/status/2092856343732613162",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
       "id": "l556",
       "text": "AI Just Had a Wild Week. Here Are the 100+ Stories That Matter",
       "lane": "L5",
@@ -1924,5 +1903,6 @@
     "L3 Factiva lane unavailable this run (OpenAthens auth expired); L3 supplied via web (OVIC, AASW, Infoxchange).",
     "L5 corpus carried from 2026-08-29 run; OVIC ChatGPT child-protection finding (2024) is the strongest occupation-specific AI-failure signal.",
     "Privacy Act ADM transparency obligation (effective 10 Dec 2026) is forward-dated and applies to charities/NGOs making automated decisions, not all AI assistance."
-  ]
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

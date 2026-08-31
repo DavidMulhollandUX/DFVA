@@ -1561,5 +1561,6 @@
     "L3 Factiva lane unavailable this run (OpenAthens auth expired); L3 supplied via web (Croakey/DHCRC roadmap, CHIC, Front Public Health, Healthcare Australia).",
     "L5 corpus carried from 2026-08-29 run; CHW AI-evidence is international/multi-country, not Australia-specific.",
     "L1: general Community Health Workers are not nationally registered (AHPRA); only ATSI Health Practitioners are. Scope claims to registration status."
-  ]
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }
