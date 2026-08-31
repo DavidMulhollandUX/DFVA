@@ -371,10 +371,10 @@
     "21-1094": "done",
     "23-1011": "done",
     "23-2011": "pending",
-    "25-1071": "pending",
-    "25-1072": "pending",
-    "25-1081": "pending",
-    "25-1191": "pending",
+    "25-1071": "in_progress",
+    "25-1072": "in_progress",
+    "25-1081": "in_progress",
+    "25-1191": "in_progress",
     "25-1194": "pending",
     "25-2011": "done",
     "25-2021": "done",
@@ -401,10 +401,10 @@
     "27-2041": "pending",
     "27-2042": "pending",
     "27-3022": "pending",
-    "27-3031": "pending",
-    "27-3041": "pending",
-    "27-3042": "pending",
-    "27-3043": "pending",
+    "27-3031": "done",
+    "27-3041": "done",
+    "27-3042": "done",
+    "27-3043": "done",
     "27-3091": "pending",
     "27-4011": "pending",
     "27-4014": "pending",
@@ -618,9 +618,30 @@
     "27-1011": 1,
     "27-1013": 1,
     "27-1014": 1,
-    "27-1021": 1
+    "27-1021": 1,
+    "27-3043": 1,
+    "27-3042": 1,
+    "27-3041": 1,
+    "27-3031": 1
   },
-  "leases": {},
+  "leases": {
+    "25-1071": {
+      "worker": "cron-1516",
+      "claimed_at": "2026-08-31T07:25:39.628923+00:00"
+    },
+    "25-1072": {
+      "worker": "cron-1516",
+      "claimed_at": "2026-08-31T07:25:39.851062+00:00"
+    },
+    "25-1081": {
+      "worker": "cron-1516",
+      "claimed_at": "2026-08-31T07:25:40.020301+00:00"
+    },
+    "25-1191": {
+      "worker": "cron-1516",
+      "claimed_at": "2026-08-31T07:25:40.151971+00:00"
+    }
+  },
   "runs": [
     {
       "at": "2026-08-26T15:44:25.472219+00:00",
@@ -1383,6 +1404,30 @@
       "soc": "27-1021",
       "status": "done",
       "note": "empirical-five-lane-v1: L1/L2 genuine web research (AGD CAIRG, AU copyright/AI policy, SoA/CVL/Goldmedia/Springer/Taylor-Francis studies), L3 Factiva folded from authenticated 2026-08-26 session, L4 Adzuna+LinkedIn, L5 last30days"
+    },
+    {
+      "at": "2026-08-31T09:03:55.101022+00:00",
+      "soc": "27-3043",
+      "status": "done",
+      "note": "autoloop 5-lane: L1/L2 web-researched, L4 Adzuna+LinkedIn, L5 last30days; L3 Factiva auth_expired (logged to backlog)"
+    },
+    {
+      "at": "2026-08-31T09:03:55.227471+00:00",
+      "soc": "27-3042",
+      "status": "done",
+      "note": "autoloop 5-lane: L1/L2 web-researched, L4 Adzuna+LinkedIn, L5 last30days; L3 Factiva auth_expired (logged to backlog)"
+    },
+    {
+      "at": "2026-08-31T09:03:55.341495+00:00",
+      "soc": "27-3041",
+      "status": "done",
+      "note": "autoloop 5-lane: L1/L2 web-researched, L4 Adzuna+LinkedIn, L5 last30days; L3 Factiva auth_expired (logged to backlog)"
+    },
+    {
+      "at": "2026-08-31T09:03:55.456226+00:00",
+      "soc": "27-3031",
+      "status": "done",
+      "note": "autoloop 5-lane: L1/L2 web-researched, L4 Adzuna+LinkedIn, L5 last30days; L3 Factiva auth_expired (logged to backlog)"
     }
   ],
   "claims": [

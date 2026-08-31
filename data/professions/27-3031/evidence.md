@@ -1,39 +1,36 @@
-# Evidence log: Public Relations Specialists (27-3031)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — Public Relations Specialists (27-3031)
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-31 by the DFVA profession deep-research autoloop (empirical five-lane run).
+Method: L1 regulatory/standards, L2 scholarly/institutional, L3 trade press (Factiva),
+L4 demand-side job ads, L5 practitioner discourse. One short quote per source.
 
-## Lane sources (one short quote per source)
+## L1 — Regulatory / standards
+- Communication and Public Relations Australia: https://www.cpra.org.au/
+  > Communication and Public Relations Australia (CPRA, formerly PRIA) delivers industry-leading training, networking and knowledge, and accreditation for PR practitioners.
+  (Writing/editing/PR are self-regulated or unlicensed occupations in Australia; the
+  relevant peak body or official occupation profile is cited, not a statutory licence.)
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Public Relations Specialists] Professional Practice Framework and Digital Competency Guidelines for Public Relations Specialists — https://www.psc.gov.au/standards/27-3031 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Public Relations Specialists enforce non-delegable ethical accountability and human verific..."
+## L2 — Scholarly / institutional
+- Jobs and Skills Australia, "Australia's AI Transition: Jobs, Skills and the Future of Work"
+  (Overarching Report 14 Aug 2025; Final Release 30 Sep 2025):
+  https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > Gen AI is more likely to augment human work than replace it.
+- The Conversation, "These 3 charts show female-dominated jobs are actually the most exposed to AI"
+  (academic analysis of JSA exposure data):
+  https://theconversation.com/these-3-charts-show-female-dominated-jobs-are-actually-the-most-exposed-to-ai-288103
+  > Clerical and administrative jobs are among those with the highest automation exposure scores.
 
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Public Relations Specialists — https://www.jobsandskills.gov.au/research/27-3031 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Public Relations Specialists heightens the demand for adaptive problem solving, interdisciplinary st..."
+## L3 — Trade press (Factiva)
+- NOT SAMPLED this run: OpenAthens/Factiva session expired (auth_expired). Logged to
+  data/professions/factiva_backlog.json for attended backfill. No fabricated L3 content.
 
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
+## L4 — Demand-side job ads
+- Adzuna AU (live all-time index, query = occupation title): count recorded in jobAds.adzuna.
+- LinkedIn postings (unofficial scrape, provenance tagged): live postings recorded in corpus.linkedin.
+- Seek trend pages and last30days --hiring-signals: not sampled this run (graceful degrade).
 
-### L5 Practitioner discourse (40 claims)
-- last30days declared sample: 40 items across github=3, grounding=0, hackernews=23, reddit=1, x=11, youtube=2.
-- Representative practitioner quotes:
-  - [github] chore(tests): cache hot request-path work to speed up backend tests
-## Problem
-
-Backend python tests spend a large share...
-  - [github] Add Tateyama Museum support Relation for Nunobashi Kanjoe
-## What changed
-
-- adds `富山県［立山博物館］` as an approved public-age...
-  - [github] Hh
-```Python
-
-CUE_CARDS = [
-    {
-        "num": 51,
-        "topic": "Describe a good habit your friend has that you wa...
-  - [hackernews] Show HN: A public AI whose memory is shared across all users...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
+## L5 — Practitioner discourse (last30days)
+- Engine swept reddit, x, youtube, hackernews, github, grounding over a 180-day window
+  (--as-of 2026-08-31). grounding was unreachable (keyless web search); the other sources
+  returned items, folded as L5 claims (corpus.l5Sample). Declared sample replaces the
+  "no platform was sampled" sentence in market §3.
