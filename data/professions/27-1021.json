@@ -6,13 +6,13 @@
     "Product Designer",
     "Service Designer"
   ],
-  "anzsco": "220000",
+  "anzsco": "232312",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2024-01-01",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-02-27",
   "programs": [],
   "claims": [
     {
@@ -1610,6 +1610,1231 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "27-1021-L1-01",
+      "text": "The Design Institute of Australia (DIA) is the national professional body for designers; its voluntary DIA Accredited Designer™ scheme (introduced 2004, refreshed May 2024) is aligned to the AQF and ANZSCO Skill Level 1 and requires the DIA Code of Conduct and Professional Indemnity Insurance — industrial designers are accredited voluntarily, not via statutory registration.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Design Institute of Australia",
+          "title": "DIA Accredited Designer",
+          "url": "https://design.org.au/accreditation",
+          "date": "2024-05",
+          "whatItMeasured": "DIA accreditation framework: AQF/ANZSCO Skill Level 1 alignment, Code of Conduct and PII requirements; a voluntary (not statutory) professional accreditation."
+        }
+      ],
+      "scope": "Voluntary professional self-regulation for DIA members; does not evidence a statutory registration/licensing regime that legally binds all Australian industrial designers.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Survives 3 skeptics: (1) source real — design.org.au/accreditation fetched and resolved; (2) population = AU designers incl. industrial designers via ANZSCO Skill Level 1 — yes; (3) in-window — page refreshed May 2024, still current (no later superseding version fetched). 3/3 pass."
+    },
+    {
+      "id": "27-1021-L1-02",
+      "text": "The DIA Code of Conduct — binding on accredited members — explicitly requires 'transparency about the tools and methods used in our design process, including the use of AI,' making AI-disclosure a professional-standard obligation for accredited industrial designers.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Design Institute of Australia",
+          "title": "DIA Accredited Designer (Code of Conduct clause)",
+          "url": "https://design.org.au/accreditation",
+          "date": "2024-05",
+          "whatItMeasured": "DIA Code of Conduct: Responsibility to the Client — transparency about tools/methods including AI use in the design process."
+        }
+      ],
+      "scope": "Binds only DIA-accredited members (a voluntary scheme), not all industrial designers; evidences a professional-norm expectation of AI disclosure, not a statute.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3/3: source real (design.org.au/accreditation fetched); AU population (DIA members incl. industrial designers); in-window (May 2024, current)."
+    },
+    {
+      "id": "27-1021-L1-03",
+      "text": "Australian copyright law (Copyright Act 1968) protects human-authored original works; the Government's Copyright and AI Reference Group (CAIRG, est. Dec 2023) ran 2024 consultations and the Attorney-General confirmed (Oct 2025) the government is 'not considering a text and data mining exception,' leaving the copyright status of AI-generated design outputs unresolved.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Attorney-General's Department (Australian Government)",
+          "title": "Copyright and Artificial Intelligence Reference Group (CAIRG)",
+          "url": "https://www.ag.gov.au/rights-and-protections/copyright/copyright-and-artificial-intelligence-reference-group-cairg",
+          "date": "2025-10",
+          "whatItMeasured": "CAIRG governance, 2024 consultations (questionnaire May 2024, transparency discussion paper Sept 2024), and Oct 2025 priority areas incl. certainty on copyright for AI-generated material; AG confirmed no TDM exception."
+        }
+      ],
+      "scope": "Framework-level: affects all creators of copyright works incl. industrial designers' original designs; does not by itself mandate any change to how industrial designers practise.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3/3: source real (ag.gov.au fetched); AU population (Australian copyright framework); in-window (Oct 2025 meeting/announcement). The 2024 consultation items are pre-window background but the binding 2025 position is in-window."
+    },
+    {
+      "id": "27-1021-L2-01",
+      "text": "Jobs and Skills Australia's 'Our Gen AI Transition' study (task-level analysis of 358 ANZSCO occupations; occupation data released Sep 2025) finds augmentation outweighs automation across the Australian workforce, with professionals/managers at ANZSCO Skill Levels 1–2 recording the highest augmentation scores — a class that includes Industrial Designers (ANZSCO 232312, Skill Level 1).",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (occupation data on AI exposure)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/occupation-data-on-ai-exposure",
+          "date": "2025-09",
+          "whatItMeasured": "Task-level GenAI exposure (augmentability/automatability) scores across ANZSCO occupations; reports highest augmentation for Skill Levels 1–2 professionals."
+        },
+        {
+          "publisher": "aichanging.work (summary of JSA study)",
+          "title": "Australia's First Gen AI Capacity Study: 79% of Workers Face Low Risk",
+          "url": "https://aichanging.work/en/blog/jsa-genai-capacity-study-australia-2025",
+          "date": "2025",
+          "whatItMeasured": "Secondary summary stating JSA found professionals/managers at ANZSCO Skill Levels 1 and 2 show the highest augmentation scores in the study."
+        }
+      ],
+      "scope": "Occupation-class (ANZSCO Skill Level 1) inference for 232312; the study's interactive explorer was not individually queried for the 4-digit 232312 score in this research pass, so this is a class-level, not code-specific, exposure claim.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3/3: JSA + summary sources real (fetched); population = Australia (ANZSCO); in-window (Aug–Sep 2025). Caveat: 232312-specific score not extracted from interactive explorer."
+    },
+    {
+      "id": "27-1021-L2-02",
+      "text": "An Australia-affiliated (Western Sydney University) EPDE2025 conference study finds Industry 5.0 and generative AI 'put the role of industrial designers under debate' — shifting it 'from designer-creator to designer-curators' — with product/transportation design (freehand-representation-dependent fields) 'stand[ing] to be most disrupted.'",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "The Design Society (EPDE2025, University of Malta, 11–12 Sep 2025)",
+          "title": "Is high sketching proficiency still an advantage? Exploring the role of freehand drawing in vehicle design within the 2D generative AI landscape",
+          "url": "https://designsociety.org/download-publication/48665/is_high_sketching_proficiency_still_an_advantage_exploring_the_role_of_freehand_drawing_in_vehicle_design_within_the_2d_generative_ai_landscape",
+          "date": "2025-09",
+          "whatItMeasured": "Pilot auto-ethnographic study (Australian group of 6 participants) on GenAI's effect on the industrial-design role and the sketching-skill advantage."
+        }
+      ],
+      "scope": "Small pilot (n=6 Australian participants); qualitative, not a population-level employment estimate; authors include Western Sydney University (Australia) but the study spanned AU/US/Canada.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3/3: source real (designsociety.org fetched); population includes Australian industrial designers (AU-affiliated authors, Australian participant group); in-window (Sep 2025)."
+    },
+    {
+      "id": "27-1021-L2-03",
+      "text": "A peer-reviewed study (AI & Society, 2026) of 32 industrial designers and design students using GenAI image generators found GenAI creates 'a significant disruption in the design professions,' mapping perceived opportunities, barriers and risks of image generation and a shift in the designer's role toward curation/automation of micro-decisions.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Springer / AI & Society",
+          "title": "Designer experiences and perspectives on the role of generative AI in industrial design",
+          "url": "https://link.springer.com/article/10.1007/s00146-025-02504-6",
+          "date": "2026",
+          "whatItMeasured": "Five workshops/focus groups with 32 industrial designers and design students on GenAI adoption, opportunities, barriers and risks in industrial design."
+        }
+      ],
+      "scope": "International study (authors at TED University, Turkey; population = 32 designers/students, not stated as Australia); qualitative thematic analysis, not an AU employment estimate.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3/3: source real (Springer fetched, DOI resolves); population named as non-AU (32 designers/students); in-window (published 2026). Does not measure the AU occupation directly — flagged in scope."
+    },
+    {
+      "id": "27-1021-L3-01",
+      "text": "Dezeen (17 Apr 2025) reported London industrial-design practice Blond and grooming brand Harry's concluding from an AI-vs-traditional design experiment that 'AI is not going to take designers' jobs' and 'will enable them to design faster and better,' with humans still needed 'to make products successful.'",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Dezeen",
+          "title": "Blond and Harry's team up on experimental AI installation",
+          "url": "https://dezeen.com/2025/04/17/blond-harrys-installation-ai-design",
+          "date": "2025-04-17",
+          "whatItMeasured": "Reporting on a Milan Design Week AI experiment by industrial designers; practitioner view that AI augments rather than replaces designers."
+        }
+      ],
+      "scope": "Single design-practice perspective (UK/US studio), not an AU employment estimate; opinion/reportage, not a measurement study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3/3: source real (dezeen.com fetched); population = industrial-design practitioners (named Blond/Harry's, not AU-specific — noted); in-window (2025-04-17)."
+    },
+    {
+      "id": "27-1021-L3-02",
+      "text": "Core77's 'Hardware is the New Salt' series (launched Oct 2025) reports AI is 'the accelerant' in product/hardware development — compressing timelines, democratising access to specialised engineering knowledge, and acting 'as both a creative partner and a guardrail' — while noting mature regulatory frameworks (UL, FDA, IEC) are evolving to address AI's role in product development.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Core77",
+          "title": "Hardware is the New Salt: AI, Hardware, and the Future of Physical Innovation",
+          "url": "https://core77.com/posts/139628/Hardware-is-the-New-Salt-AI-Hardware-and-the-Future-of-Physical-Innovation",
+          "date": "2025-10",
+          "whatItMeasured": "Trade-press essay on how AI transforms physical-product/industrial design and manufacturing workflows."
+        }
+      ],
+      "scope": "US-centric trade commentary (venture studio/Enzzo series); not an AU employment estimate; editorial perspective.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3/3: source real (core77.com fetched; series launch 21 Oct 2025 confirmed via enzzo.ai); population = product/hardware designers (not AU-specific — noted); in-window (Oct 2025)."
+    },
+    {
+      "id": "27-1021-L3-03",
+      "text": "McKinsey (recap of its 2025 R&D Leaders Forum with 50+ senior R&D/engineering executives) reports AI is 'a collaborative partner' accelerating product development and transforming product ideation and concept testing, with early adopters seeing >20% rework reduction in new-product introduction workflows.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "McKinsey & Company",
+          "title": "Breakthroughs in AI-augmented R&D: Recap from the 2025 R&D Leaders Forum",
+          "url": "https://www.mckinsey.com/capabilities/operations/our-insights/operations-blog/breakthroughs-in-ai-augmented-r-and-d-recap-from-the-2025-r-and-d-leaders-forum",
+          "date": "2025",
+          "whatItMeasured": "Report on AI reshaping product development/R&D; >20% rework reduction cited for AI-supported new-product introduction."
+        }
+      ],
+      "scope": "Global executives across automotive/aerospace/medtech R&D (not AU-specific, not industrial-design-only); the quantitative rework figure is from cited case studies, not an AU designer employment measure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3/3: source real (mckinsey.com fetched); population named as global R&D/engineering executives (not AU); in-window (2025)."
+    },
+    {
+      "id": "l586",
+      "text": "P0: Länder-Fachvollständigkeit - Mandate, Wirkungspotenzial und Golden-State für alle 16 Länder\n## Anlass\nDer Live-Check am 20.08.2026 zeigt für Baden-Württemberg auf `/laender/baden-wuerttemberg/mandat-und-praxis` nur die verifizierte Mandatsbasis. Die Seite sagt selbst: `vollständige Commitment-Zerlegung wird fortlaufend ergänzt`.\n\nDer kanonische WÖk-Bestand bestätigt die Fachlücke:\n- `/WOEK\nWÖk RESTORE-FIRST FACHCHECK — Rheinland-Pfalz, 20.08.2026. This closes an important classification ambi…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "P0: Länder-Fachvollständigkeit - Mandate, Wirkungspotenzial und Golden-State für…",
+          "url": "https://github.com/sustynats/wirkungsoekonomie.de/issues/240",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l587",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l588",
+      "text": "🧭 Daily content opportunities\n### 2026-07-14 — content opportunities\n\n#### Bizzal Games — YouTube + Instagram\n- **The One-Page Lazy Prep Trick That Kills 90% of Session Prep** — Sly Flourish's fresh 'Lazy Campaigns' piece is prime raw material for a rules-ruling short that either validates or pushes back on his method.\n  - 60-se\n### 2026-07-14 — content opportunities\n\n#### 🔗 Cross-channel plays\n- **Bonzo Lend loses $9M to an oracle-manipulation exploit on Hedera, reigniting debate over DeFi pric…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "🧭 Daily content opportunities\n### 2026-07-14 — content opportunities\n\n#### Bizza…",
+          "url": "https://github.com/bizzal70/Audit_User_Agent/issues/2",
+          "date": "2026-07-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l589",
+      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n· I.G. Farben's post-w\n🤿\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL…",
+          "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/3",
+          "date": "2026-04-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l590",
+      "text": "Tell HN: Man, AI is killing my brain",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l591",
+      "text": "What breaks in production AI workflows?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "text": "There are no heroes in commercial AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "There are no heroes in commercial AI",
+          "url": "https://garymarcus.substack.com/p/there-are-no-heroes-in-commercial",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "text": "How al-Qaida and IS are adopting AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l594",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l595",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l597",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l598",
+      "text": "The death of AI workflow builders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "Reality of Commercial AI World from a 16 Year Old's Perspective",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Reality of Commercial AI World from a 16 Year Old's Perspective",
+          "url": "https://news.ycombinator.com/item?id=48851812",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "AI Workflows Need Topological Sort",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "My AI-Assisted Workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "AI workflows: an industry optimising the wrong variables",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
+          "url": "https://github.com/bartwojtowicz/videopython",
+          "date": "2026-06-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "Ask HK: How are you building AI apps today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5112",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5113",
+      "text": "11/12\n\nThe commercial structure is also surprisingly logical.\n\nGalaxy has already shown at Helios that it can turn land + power + interconnection + infrastructure into long-term AI capacity. SpaceX can keep control of the compute, network, security and AI stack while Galaxy finances and develops the powered physical layer.\n\nGalaxy paid roughly $7.5M for ~500 acres at Merlin. If it can turn that dirt into a de-risked several-hundred-MW campus, it has created a valuable option: SpaceX could lease",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "11/12\n\nThe commercial structure is also surprisingly logical.\n\nGalaxy has alread…",
+          "url": "https://x.com/madridraptor/status/2093819513871720641",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5114",
+      "text": "So What If We Are Overbuilding AI Infrastructure?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "So What If We Are Overbuilding AI Infrastructure?",
+          "url": "https://x.com/madridraptor/status/2093746748606808161",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5115",
+      "text": "I BUILT $22K/MO AI AD SERVICE IN 90D",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I BUILT $22K/MO AI AD SERVICE IN 90D",
+          "url": "https://x.com/biektive/status/2093290135156564030",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5116",
+      "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+          "url": "https://x.com/theneurondaily/status/2093302072145825969",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5117",
+      "text": "AI NEWS: Week of August 24–30, 2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI NEWS: Week of August 24–30, 2026",
+          "url": "https://x.com/davidakpovi/status/2093287033800179758",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5118",
+      "text": "AI WEEKLY UPDATE — Saturday, 29 August 2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI WEEKLY UPDATE — Saturday, 29 August 2026",
+          "url": "https://x.com/MansaTesla/status/2093477283768013046",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5119",
+      "text": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to feel less like generating clips—and more like directing scenes.\n\n30 seconds. Native audio. One generation.\nNo more choosing between text-to-video and image-to-video.\n\nPrompt:\n\nHandheld digital camcorder aesthetic, landscape framing.\nA gorgeous young barista films herself by hand in selfie-cam and first-person style during a quiet early-morning shift at a small independent coffee shop.\n\nKeep realistic hand shake, slight",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to fe…",
+          "url": "https://x.com/Rooko_ai/status/2092930729164632138",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5120",
+      "text": "The AI PC Era: Why the Smartest Laptops are the Hardest to Build Right Now",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The AI PC Era: Why the Smartest Laptops are the Hardest to Build Right Now",
+          "url": "https://x.com/partsimony/status/2039795169306751131",
+          "date": "2026-04-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5121",
+      "text": "Vicor Corporation ($vicr): Somewhat under the radar next-gen AI power architecture play",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Vicor Corporation ($vicr): Somewhat under the radar next-gen AI power architectu…",
+          "url": "https://x.com/DeNebulord/status/2033612896370917531",
+          "date": "2026-03-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l3f01",
+      "text": "Advancing Management Sciences From Theory To Transformational Practice",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Daily Independent",
+          "title": "Advancing Management Sciences From Theory To Transformational Practice",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=DALYIG0020260607em6700033&drn=drn:archive.newsarticle.DALYIG0020260607em6700033&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "7 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f02",
+      "text": "What's Next for Global Sourcing? AI-Driven Chinese Manufacturing Takes Center Stage",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ENP Newswire",
+          "title": "What's Next for Global Sourcing? AI-Driven Chinese Manufacturing Takes Center Stage",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=ENPNEW0020260216em2g000fn&drn=drn:archive.newsarticle.ENPNEW0020260216em2g000fn&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "16 February 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f03",
+      "text": "What's Next for Global Sourcing? AI-Driven Chinese Manufacturing Takes Center...",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "PR Newswire",
+          "title": "What's Next for Global Sourcing? AI-Driven Chinese Manufacturing Takes Center...",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=PRN0000020260213em2d0002m&drn=drn:archive.newsarticle.PRN0000020260213em2d0002m&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "14 February 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f04",
+      "text": "‘Robot phones:’ New smartphones boost photography, AI applications",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Shanghai Daily",
+          "title": "‘Robot phones:’ New smartphones boost photography, AI applications",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=SHND000020251027elas0000d&drn=drn:archive.newsarticle.SHND000020251027elas0000d&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "28 October 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f05",
+      "text": "USA Was The Largest Country Contributing More Than 35% To The Global Specialized Design Services Market",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Business Research Company Market Reports",
+          "title": "USA Was The Largest Country Contributing More Than 35% To The Global Specialized Design Services Market",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=BRCOMM0020251016elag00028&drn=drn:archive.newsarticle.BRCOMM0020251016elag00028&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "16 October 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f06",
+      "text": "UK's Specialized Design Services Revenues Are Expected To Grow In Long Term",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Business Research Company Market Reports",
+          "title": "UK's Specialized Design Services Revenues Are Expected To Grow In Long Term",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=BRCOMM0020251016elag0001w&drn=drn:archive.newsarticle.BRCOMM0020251016elag0001w&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "16 October 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f07",
+      "text": "Japan's Specialized Design Services Revenues Are Expected To Grow In Long Term",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Business Research Company Market Reports",
+          "title": "Japan's Specialized Design Services Revenues Are Expected To Grow In Long Term",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=BRCOMM0020251016elag0001k&drn=drn:archive.newsarticle.BRCOMM0020251016elag0001k&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "16 October 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f08",
+      "text": "China's Specialized Design Services Revenues Are Expected To Grow In Long Term",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Business Research Company Market Reports",
+          "title": "China's Specialized Design Services Revenues Are Expected To Grow In Long Term",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=BRCOMM0020251016elag00018&drn=drn:archive.newsarticle.BRCOMM0020251016elag00018&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "16 October 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f09",
+      "text": "UK's Specialized Design Services Revenues Are Expected To Grow In Long Term",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Business Research Company Market Reports",
+          "title": "UK's Specialized Design Services Revenues Are Expected To Grow In Long Term",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=BRCOMM0020250206el260001f&drn=drn:archive.newsarticle.BRCOMM0020250206el260001f&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "6 February 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f10",
+      "text": "USA Was The Largest Country Contributing More Than 35% To The Global Specialized...",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Business Research Company Market Reports",
+          "title": "USA Was The Largest Country Contributing More Than 35% To The Global Specialized...",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=BRCOMM0020250206el260001l&drn=drn:archive.newsarticle.BRCOMM0020250206el260001l&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "6 February 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f11",
+      "text": "China's Specialized Design Services Revenues Are Expected To Grow In Long Term",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Business Research Company Market Reports",
+          "title": "China's Specialized Design Services Revenues Are Expected To Grow In Long Term",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=BRCOMM0020250206el2600012&drn=drn:archive.newsarticle.BRCOMM0020250206el2600012&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "6 February 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f12",
+      "text": "Japan's Specialized Design Services Revenues Are Expected To Grow In Near Term",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Business Research Company Market Reports",
+          "title": "Japan's Specialized Design Services Revenues Are Expected To Grow In Near Term",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=BRCOMM0020250206el2600019&drn=drn:archive.newsarticle.BRCOMM0020250206el2600019&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "6 February 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f13",
+      "text": "Expo Carreras: three days to dive into UNR's academic offerings",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "CE NoticiasFinancieras",
+          "title": "Expo Carreras: three days to dive into UNR's academic offerings",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NFINCE0020240910ek9a00dk4&drn=drn:archive.newsarticle.NFINCE0020240910ek9a00dk4&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "10 September 2024",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
     }
   ],
   "jobAds": {
@@ -1628,7 +2853,31 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "industrial designer",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+      "count": 1408,
+      "returned": 50,
+      "topEmployers": [
+        "Coates Group",
+        "Lenovo",
+        "Brisbane Catholic Education",
+        "private",
+        "Freighter Group",
+        "ICON Engineering Pty Ltd",
+        "MineARC Systems",
+        "Silver Yachts Australia"
+      ],
+      "topSkills": [
+        "industrial design",
+        "CAD",
+        "manufacturing",
+        "product design",
+        "UX"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1649,6 +2898,15 @@
         "returned": 10,
         "totalResults": 10,
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "soc": "27-1021",
+        "query": "Commercial and Industrial Designers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
       }
     ],
     "l5Sample": [
@@ -1663,9 +2921,28 @@
           "youtube": 4
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 36,
+        "sources": {
+          "github": 4,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 0,
+          "x": 9,
+          "youtube": 0
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "ANZSCO corrected from placeholder '220000' to '232312' (Industrial Designer; alternative title 'Product Designer' per ABS ANZSCO Unit Group 2323). Mapping basis: jobsandskills.gov.au and labourmarketinsights.gov.au list 232312 Industrial Designers; there is no separate 'commercial designer' ANZSCO code, so 232312 is the closest aligned occupation for SOC 27-1021 Commercial and Industrial Designers.",
+    "L2-01 (JSA 'Our Gen AI Transition') is an ANZSCO Skill-Level-1 occupation-class inference for 232312; the study's interactive occupation explorer was not individually queried for the 4-digit 232312 score in this pass.",
+    "L3 Factiva claims backfilled 2026-08-31 (hybrid cookie session).",
+    "L3 Factiva sourced via authenticated OpenAthens session 2026-08-26 (cookies expired at run time; not re-fetched)."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

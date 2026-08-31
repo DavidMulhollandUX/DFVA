@@ -7,11 +7,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2024-01-01",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-02-27",
   "programs": [],
   "claims": [
     {
@@ -1630,6 +1630,132 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l3f01",
+      "text": "Adobe Creative Cafe: On Connections, Creativity, and Careers",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Chronicle",
+          "title": "Adobe Creative Cafe: On Connections, Creativity, and Careers",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=WC47107020260526em5p00001&fcpil=en&napc=S&sa_from=&cat=w&page_driver=searchBuilder_Search",
+          "date": "26 May 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l479",
+      "text": "Art Director — Cheil Australia (Sydney Olympic Park, New South Wales, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cheil Australia",
+          "title": "Art Director",
+          "url": "https://www.linkedin.com/jobs/view/4458409868",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "1101",
+      "text": "Australia's Copyright and Artificial Intelligence Reference Group (CAIRG), established December 2023, confirmed on 28 October 2025 three priority areas for copyright and AI: fair licensed avenues for using copyright material as AI inputs, certainty on how copyright applies to AI-generated material, and cheaper enforcement for AI-output infringement; the government is not considering a text-and-data-mining (TDM) exception.",
+      "lane": "L1",
+      "tier": "regulatory-standard",
+      "sources": [
+        {
+          "publisher": "Attorney-General's Department (Australia)",
+          "title": "Copyright and Artificial Intelligence Reference Group (CAIRG)",
+          "url": "https://www.ag.gov.au/rights-and-protections/copyright/copyright-and-artificial-intelligence-reference-group-cairg",
+          "date": "2025-10-28",
+          "whatItMeasured": "Australian Government AGD standing mechanism on copyright and AI; priority areas confirmed Oct 2025."
+        }
+      ],
+      "scope": "Australian federal copyright policy. Binds how an art director's commissioned work may be used as AI training input and the copyright status of AI-generated art-direction output.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source is official AGD (real). Population: Australian copyright framework. In window: priority areas confirmed Oct 2025. Survives."
+    },
+    {
+      "id": "1102",
+      "text": "On 15 July 2026 Prime Minister Albanese stated no company should use Australian books, music, art or news to train AI without the artist's control, and the Copyright Act 1968 already requires licences for AI training; Attorney-General Rowland ruled out a TDM exception in October 2025, with legislation to Parliament in early 2027.",
+      "lane": "L1",
+      "tier": "regulatory-standard",
+      "sources": [
+        {
+          "publisher": "Tech Times",
+          "title": "Australia Rejects AI Copyright Carve-Out: PM Calls Unlicensed Training Theft",
+          "url": "https://techtimes.com/articles/320755/20260716/australia-rejects-ai-copyright-carve-out-pm-calls-unlicensed-training-theft.htm",
+          "date": "2026-07-16",
+          "whatItMeasured": "News report of PM policy statement (15 Jul 2026) on AI training and copyright; cites Copyright Act 1968 and APRA AMCOS/Goldmedia 2024 analysis."
+        }
+      ],
+      "scope": "Australian federal policy direction (July 2026). Protects art directors' copyrighted output from unlicensed AI training; not a binding statute until enacted.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "News report of an official statement (real, quotes PM). Population: Australia. In window: July 2026."
+    },
+    {
+      "id": "2203",
+      "text": "A study of 36 creative directors found AI is treated as a supportive tool rather than a replacement for human creativity, with directors emphasising that emotional depth, intuition and cultural context - essential to persuasive advertising - remain human strengths.",
+      "lane": "L2",
+      "tier": "scholarly-institutional",
+      "sources": [
+        {
+          "publisher": "Springer (Intelligent Technologies and Robotics proceedings)",
+          "title": "Will Artificial Intelligence Replace Human Creativity in Advertising? The Creative Directors' Perspective",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-031-97799-2_1",
+          "date": "2026",
+          "whatItMeasured": "Interview study of 36 creative directors on AI in advertising creativity."
+        }
+      ],
+      "scope": "Interview study of 36 creative directors (geography not specified; 2026 Springer volume). Indicates the art-direction role shifts toward AI-assisted ideation, not elimination; not an Australian employment count.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Peer-reviewed book chapter (real DOI). Population: creative directors sample. In window: 2026 publication."
+    },
+    {
+      "id": "2204",
+      "text": "Interviews with senior advertising executives found generative AI reshapes creativity by handling routine tasks while human insight drives brand strategy and emotional connection, with concerns that AI use drives creative homogenisation.",
+      "lane": "L2",
+      "tier": "scholarly-institutional",
+      "sources": [
+        {
+          "publisher": "International Journal of Advertising (Taylor & Francis)",
+          "title": "Harmony or Discord? The Intersection of Generative AI and Human Creativity in Advertising",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/00218499.2025.2464305",
+          "date": "2025",
+          "whatItMeasured": "Interview study of senior advertising executives on GenAI and human creativity (published 2025)."
+        }
+      ],
+      "scope": "Senior advertising executives (2025). Task-level: routine production/ideation automates; strategy/emotion stay human. Not a displacement headcount.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Peer-reviewed journal article (real DOI, 2025). Population: advertising executives. In window: 2025."
     }
   ],
   "jobAds": {
@@ -1648,7 +1774,28 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "art director",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+      "count": 45,
+      "returned": 45,
+      "topEmployers": [
+        "Cotton On Group",
+        "VML",
+        "The People Portal",
+        "twentysix",
+        "Kolbe Catholic College",
+        "Canva",
+        "Laser Clinics Australia",
+        "Eucalyptus"
+      ],
+      "topSkills": [
+        "creative direction",
+        "art direction"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1665,6 +1812,15 @@
         "date": "2026-08-29",
         "soc": "27-1011",
         "query": "Art Directors",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "soc": "27-1011",
+        "query": "art director",
         "location": "Australia",
         "returned": 10,
         "totalResults": 10,
@@ -1688,5 +1844,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva claims backfilled 2026-08-31 (hybrid cookie session).",
+    "L3 Factiva sourced via authenticated OpenAthens session 2026-08-26 (cookies expired at run time; not re-fetched)."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

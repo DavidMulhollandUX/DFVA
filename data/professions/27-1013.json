@@ -7,11 +7,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2024-01-01",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-02-27",
   "programs": [],
   "claims": [
     {
@@ -1483,6 +1483,195 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l3f01",
+      "text": "Aspiring and professional advertisers are making room for AI in their work",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "U-Wire",
+          "title": "Aspiring and professional advertisers are making room for AI in their work",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=UWIR000020260309em3900065&drn=drn:archive.newsarticle.UWIR000020260309em3900065&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "9 March 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f02",
+      "text": "Analysis. Artificial intelligence and ecology: the risks of Ghibli-style images.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "CE NoticiasFinancieras",
+          "title": "Analysis. Artificial intelligence and ecology: the risks of Ghibli-style images.",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NFINCE0020250403el43009gv&drn=drn:archive.newsarticle.NFINCE0020250403el43009gv&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "3 April 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l473",
+      "text": "Art Director — I Want It Yesterday. (Sydney, New South Wales, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "I Want It Yesterday.",
+          "title": "Art Director",
+          "url": "https://www.linkedin.com/jobs/view/4459131019",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l474",
+      "text": "Employment EOI — Brisbane Powerhouse (New Farm, Queensland, Australia). Posted 1 year ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Brisbane Powerhouse",
+          "title": "Employment EOI",
+          "url": "https://www.linkedin.com/jobs/view/4120404980",
+          "date": "1 year ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l475",
+      "text": "Expression of Interest - CFX - Netflix Animation Studios — Netflix (Sydney, New South Wales, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Netflix",
+          "title": "Expression of Interest - CFX - Netflix Animation Studios",
+          "url": "https://www.linkedin.com/jobs/view/4456512388",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "1101",
+      "text": "The Resale Royalty Right for Visual Artists Act 2009 (Cth) grants eligible visual artists a 5% royalty on commercial resales above $1,000, managed by the Copyright Agency and extended to 26 countries from 31 March 2025; moral rights of attribution and integrity under the Copyright Act 1968 are inalienable.",
+      "lane": "L1",
+      "tier": "regulatory-standard",
+      "sources": [
+        {
+          "publisher": "Aurelian Lawyers & Advisers (Australian art-law update)",
+          "title": "Art Case Update: Changes in Moral Rights Law, NFTs and Cultural Heritage Practice",
+          "url": "https://aurelian.art/stories/art-case-update-september-2025",
+          "date": "2025-09",
+          "whatItMeasured": "Australian art-law firm update on Resale Royalty Right for Visual Artists Act 2009 (Cth) and moral rights; scheme extended to 26 countries 31 Mar 2025."
+        }
+      ],
+      "scope": "Australian statutory instrument binding the occupation (resale royalties, moral rights). AI-generated pastiches of a fine artist's style complicate attribution/moral-rights enforcement but do not remove the statutory right.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Australian art-law firm update citing the Act (real). Population: Australian visual artists. In window: scheme extended Mar 2025."
+    },
+    {
+      "id": "1102",
+      "text": "Australia's Copyright and Artificial Intelligence Reference Group (CAIRG) confirmed in October 2025 that the government is not considering a text-and-data-mining exception; training generative models on fine artists' works without a licence is potentially infringing under the Copyright Act 1968, and the copyright status of AI-generated visual art remains unresolved.",
+      "lane": "L1",
+      "tier": "regulatory-standard",
+      "sources": [
+        {
+          "publisher": "Attorney-General's Department (Australia)",
+          "title": "Copyright and Artificial Intelligence Reference Group (CAIRG)",
+          "url": "https://www.ag.gov.au/rights-and-protections/copyright/copyright-and-artificial-intelligence-reference-group-cairg",
+          "date": "2025-10-28",
+          "whatItMeasured": "Australian Government AGD mechanism on copyright and AI; no TDM exception; certainty on AI-generated material a stated priority."
+        }
+      ],
+      "scope": "Australian federal copyright policy. Directly affects whether a fine artist's catalogue may be used to train image models and whether AI-produced prints attract copyright.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source is official AGD (real). Population: Australian copyright framework. In window: Oct 2025. Survives."
+    },
+    {
+      "id": "2203",
+      "text": "A January 2024 survey of 787 UK authors, illustrators and translators found 26% of illustrators had already lost work to generative AI and 37% said their income had decreased in value because of it; 78% of illustrators expected generative AI to negatively affect future income.",
+      "lane": "L2",
+      "tier": "scholarly-institutional",
+      "sources": [
+        {
+          "publisher": "The Society of Authors (UK)",
+          "title": "SoA survey reveals a third of translators and quarter of illustrators losing work to AI",
+          "url": "https://societyofauthors.org/2024/04/11/soa-survey-reveals-a-third-of-translators-and-quarter-of-illustrators-losing-work-to-ai/",
+          "date": "2024-04-11",
+          "whatItMeasured": "Survey of 787 UK authors/illustrators/translators (Jan 2024) on generative AI impact."
+        }
+      ],
+      "scope": "UK illustrators/authors, Jan 2024. Illustrators are a fine-art subtype; indicative of displacement where GenAI substitutes commission work. Not an Australian count.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Professional-body survey (real, n=787). Population: UK illustrators. Older than 180-day window (2024) but foundational evidence for illustrator displacement; scoped."
+    },
+    {
+      "id": "2204",
+      "text": "Germany's first study of AI and the visual arts (Goldmedia, 3,000+ artists, 2024) found 56% of visual artists fear AI will cause loss of income and 53% see the livelihood of visual artists at risk, while 42% had already used AI tools (50% for ideas, 39% to develop new works).",
+      "lane": "L2",
+      "tier": "scholarly-institutional",
+      "sources": [
+        {
+          "publisher": "Initiative Urheberrecht / Stiftung Kunstfonds (Germany)",
+          "title": "AI AND VISUAL ARTS: Germany's first study on the impact of AI on the visual arts",
+          "url": "https://urheber.info/media/pages/diskurs/germany-s-first-study-on-the-impact-of-ai-on-the-visual-arts/c207e8b0fe-1719500494/press-release-ai-and-visual-arts.pdf",
+          "date": "2024-06-24",
+          "whatItMeasured": "Survey of 3,000+ German visual artists (Goldmedia, 2024) on generative AI impact."
+        }
+      ],
+      "scope": "German visual artists, 2024. Indicates both adoption and threat perception among fine artists; not Australian. Confirms global pattern of income-risk concern.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Commissioned study (real, n>3000). Population: German visual artists. Older than 180-day window (2024); foundational, scoped."
     }
   ],
   "jobAds": {
@@ -1501,7 +1690,18 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "fine artist",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+      "count": 0,
+      "returned": 0,
+      "topEmployers": [],
+      "topSkills": [
+        "(no skill keywords matched in sample)"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1512,12 +1712,30 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L4",
+        "source": "adzuna-au",
+        "query": "fine artist",
+        "status": "zero_results",
+        "detail": "Adzuna AU returned 0 live listings for 'fine artist' (2026-08-31); fine artists typically attain work via commission/freelance, not advertised job boards.",
+        "date": "2026-08-31"
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
         "soc": "27-1013",
         "query": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+        "location": "Australia",
+        "returned": 11,
+        "totalResults": 11,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "soc": "27-1013",
+        "query": "fine artist",
         "location": "Australia",
         "returned": 11,
         "totalResults": 11,
@@ -1541,5 +1759,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva claims backfilled 2026-08-31 (hybrid cookie session).",
+    "L3 Factiva sourced via authenticated OpenAthens session 2026-08-26 (cookies expired at run time; not re-fetched)."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2024-01-01",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-02-27",
   "programs": [],
   "claims": [
     {
@@ -1440,6 +1440,825 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l3f01",
+      "text": "NPTC Group of Colleges Invests in New State-of-the-Art Games Development and Esports Facilities",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Contify Investment News",
+          "title": "NPTC Group of Colleges Invests in New State-of-the-Art Games Development and Esports Facilities",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=ATINVT0020260824em8l000mf&drn=drn:archive.newsarticle.ATINVT0020260824em8l000mf&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "21 August 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f02",
+      "text": "Works by Niles Atallah and León & Cociña Featured in a Video Exhibition",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "CE NoticiasFinancieras",
+          "title": "Works by Niles Atallah and León & Cociña Featured in a Video Exhibition",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NFINCE0020260817em8h006am&drn=drn:archive.newsarticle.NFINCE0020260817em8h006am&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "17 August 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f03",
+      "text": "Image to Video AI: Turning a Single Photo Into Shareable Content",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "EdTechReview",
+          "title": "Image to Video AI: Turning a Single Photo Into Shareable Content",
+          "url": "javascript:void(0); return false;",
+          "date": "6 August 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f04",
+      "text": "A Simplified View of the Jacobian Conjecture",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Towards Data Science",
+          "title": "A Simplified View of the Jacobian Conjecture",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=WC20543020260731em7u00006&fcpil=en&napc=S&sa_from=&cat=w&page_driver=searchBuilder_Search",
+          "date": "30 July 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f05",
+      "text": "Playgon Announces Strategic Repositioning and Upcoming Annual and Special Meeting of Shareholders, Proposed Share Consolidation, Name Change...",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Canada Stockwatch",
+          "title": "Playgon Announces Strategic Repositioning and Upcoming Annual and Special Meeting of Shareholders, Proposed Share Consolidation, Name Change...",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=CNSW000020260529em5t00go1&drn=drn:archive.newsarticle.CNSW000020260529em5t00go1&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "29 May 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f06",
+      "text": "Playgon Announces Strategic Repositioning and Upcoming Annual and Special...",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Newsfile",
+          "title": "Playgon Announces Strategic Repositioning and Upcoming Annual and Special...",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NEWFI00020260529em5t006em&drn=drn:archive.newsarticle.NEWFI00020260529em5t006em&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "30 May 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f07",
+      "text": "City of Vaughan - Jump into June with Recreation and Parks Month!",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Canadian Local Government News via PUBT",
+          "title": "City of Vaughan - Jump into June with Recreation and Parks Month!",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=CNLGN00020260529em5t003ml&drn=drn:archive.newsarticle.CNLGN00020260529em5t003ml&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "29 May 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f08",
+      "text": "City of Vaughan - Take part in Youth Week in Vaughan!",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Canadian Local Government News via PUBT",
+          "title": "City of Vaughan - Take part in Youth Week in Vaughan!",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=CNLGN00020260428em4s001gt&drn=drn:archive.newsarticle.CNLGN00020260428em4s001gt&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "28 April 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f09",
+      "text": "Spotlight falls on digital creativity, emerging technologies",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Borneo Bulletin",
+          "title": "Spotlight falls on digital creativity, emerging technologies",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=AIWBOR0020260423em4n00002&drn=drn:archive.newsarticle.AIWBOR0020260423em4n00002&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "23 April 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f10",
+      "text": "Patent Application; Patent Application Titled \"Immersive Engagement Platform Creation System\" Published Online (USPTO 20260037349)",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Marketing Weekly News",
+          "title": "Patent Application; Patent Application Titled \"Immersive Engagement Platform Creation System\" Published Online (USPTO 20260037349)",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=MRKWN00020260227em2r00031&drn=drn:archive.newsarticle.MRKWN00020260227em2r00031&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "27 February 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f11",
+      "text": "Damon Albarn, creator of Gorillaz, strongly criticizes \"K-Pop Demon Hunters\" and questions the entertainment industry.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "CE NoticiasFinancieras",
+          "title": "Damon Albarn, creator of Gorillaz, strongly criticizes \"K-Pop Demon Hunters\" and questions the entertainment industry.",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NFINCE0020260223em2m0005x&drn=drn:archive.newsarticle.NFINCE0020260223em2m0005x&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "22 February 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f12",
+      "text": "State turns to digital skills to fight substance abuse in Coast region",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Star (Kenya)",
+          "title": "State turns to digital skills to fight substance abuse in Coast region",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=STARKY0020260124em1o0001c&drn=drn:archive.newsarticle.STARKY0020260124em1o0001c&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "24 January 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f13",
+      "text": "Facilitation of Services for Digital PEACEPLUS Social Inclusion and Capacity Part of the Sligo PEACEPLUS Co-designed Local Community Peace...",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Tenders Electronic Daily",
+          "title": "Facilitation of Services for Digital PEACEPLUS Social Inclusion and Capacity Part of the Sligo PEACEPLUS Co-designed Local Community Peace...",
+          "url": "javascript:void(0); return false;",
+          "date": "23 December 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f14",
+      "text": "Iron Horse Acquisition II Corp. - Supplemental Prospectus (Form 424B4)",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Securities and Exchange Commission (SEC) Filings",
+          "title": "Iron Horse Acquisition II Corp. - Supplemental Prospectus (Form 424B4)",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=SAEXC00020251218elci0001y&drn=drn:archive.newsarticle.SAEXC00020251218elci0001y&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "18 December 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f15",
+      "text": "Facilitation of Services for Digital PEACEPLUS Social Inclusion and Capacity Part of the Sligo PEACEPLUS Co-designed Local Community Peace...",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Tenders Electronic Daily",
+          "title": "Facilitation of Services for Digital PEACEPLUS Social Inclusion and Capacity Part of the Sligo PEACEPLUS Co-designed Local Community Peace...",
+          "url": "javascript:void(0); return false;",
+          "date": "24 November 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f16",
+      "text": "Modern Uprising Studios & Screenvision Media Announce Submissions Now Open for Frame Forward Animated AI Festival",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "PR Newswire",
+          "title": "Modern Uprising Studios & Screenvision Media Announce Submissions Now Open for Frame Forward Animated AI Festival",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=PRN0000020251118elbi000dv&drn=drn:archive.newsarticle.PRN0000020251118elbi000dv&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "19 November 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f17",
+      "text": "Pride for Gardel's short film created with AI and awarded in Japan",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "CE NoticiasFinancieras",
+          "title": "Pride for Gardel's short film created with AI and awarded in Japan",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NFINCE0020251116elbg009gc&drn=drn:archive.newsarticle.NFINCE0020251116elbg009gc&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "16 November 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f18",
+      "text": "'Toy Story 5' reveals its first official TRAILER with Woody and Buzz back; when does it open in theaters?",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "CE NoticiasFinancieras",
+          "title": "'Toy Story 5' reveals its first official TRAILER with Woody and Buzz back; when does it open in theaters?",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NFINCE0020251111elbb00bjp&drn=drn:archive.newsarticle.NFINCE0020251111elbb00bjp&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "11 November 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f19",
+      "text": "Want to learn English? The SENA offers free courses to enhance your professional profile.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "CE NoticiasFinancieras",
+          "title": "Want to learn English? The SENA offers free courses to enhance your professional profile.",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NFINCE0020251028elas00ad5&drn=drn:archive.newsarticle.NFINCE0020251028elas00ad5&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "28 October 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f20",
+      "text": "Facilitation of Services for Digital PEACEPLUS: Social Inclusion and Capacity Part of the Sligo PEACEPLUS Co-designed Local Community Peace...",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Tenders Electronic Daily",
+          "title": "Facilitation of Services for Digital PEACEPLUS: Social Inclusion and Capacity Part of the Sligo PEACEPLUS Co-designed Local Community Peace...",
+          "url": "javascript:void(0); return false;",
+          "date": "27 August 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f21",
+      "text": "Bennett University Partners with CII to Revolutionize Design Education in Animation and VFX",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Times Now",
+          "title": "Bennett University Partners with CII to Revolutionize Design Education in Animation and VFX",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=TIMNOW0020250812el8c0008y&drn=drn:archive.newsarticle.TIMNOW0020250812el8c0008y&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "12 August 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f22",
+      "text": "What's The Sauce On Getting Trade Mark Protection For SOURCE? UK IPO Upholds Trade Mark Opposition By Valve Corporation",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Mondaq Business Briefing",
+          "title": "What's The Sauce On Getting Trade Mark Protection For SOURCE? UK IPO Upholds Trade Mark Opposition By Valve Corporation",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=BBPUB00020250605el650008i&drn=drn:archive.newsarticle.BBPUB00020250605el650008i&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "5 June 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f23",
+      "text": "NITDA commends NGO for empowering 500 girls in tech literacy",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Nigerian Tribune",
+          "title": "NITDA commends NGO for empowering 500 girls in tech literacy",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NIGTRI0020250524el5o0005u&drn=drn:archive.newsarticle.NIGTRI0020250524el5o0005u&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "24 May 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f24",
+      "text": "Otti approves immediate employment for 19 tech graduates",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Punch",
+          "title": "Otti approves immediate employment for 19 tech graduates",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=TPUNC00020250514el5e0003m&drn=drn:archive.newsarticle.TPUNC00020250514el5e0003m&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "14 May 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f25",
+      "text": "Abia Governor Lifts Ban On Employment, Offers 19 ICT Graduands Automatic Job",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Daily Independent",
+          "title": "Abia Governor Lifts Ban On Employment, Offers 19 ICT Graduands Automatic Job",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=DALYIG0020250511el5b001bh&drn=drn:archive.newsarticle.DALYIG0020250511el5b001bh&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "11 May 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f26",
+      "text": "WAVES 2025 opens in Mumbai, aims to make India global hub for media and entertainment",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "India Today NE",
+          "title": "WAVES 2025 opens in Mumbai, aims to make India global hub for media and entertainment",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=INTNEA0020250501el51000rt&drn=drn:archive.newsarticle.INTNEA0020250501el51000rt&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "1 May 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f27",
+      "text": "City of Vaughan - Participate in Vaughan’s Youth Week programming!",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Canadian Local Government News via PUBT",
+          "title": "City of Vaughan - Participate in Vaughan’s Youth Week programming!",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=CNLGN00020250422el4m004mp&drn=drn:archive.newsarticle.CNLGN00020250422el4m004mp&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "22 April 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f28",
+      "text": "Pixune: Pushing the Boundaries of 3D Animation with Unmatched Creativity",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "M2 Presswire",
+          "title": "Pixune: Pushing the Boundaries of 3D Animation with Unmatched Creativity",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=MTPW000020250403el42001jl&drn=drn:archive.newsarticle.MTPW000020250403el42001jl&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "2 April 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f29",
+      "text": "At the MWC, the King meets the proposals of the 'giants' of innovation: GSMA, Telefónica and Huawei, among others.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "CE NoticiasFinancieras",
+          "title": "At the MWC, the King meets the proposals of the 'giants' of innovation: GSMA, Telefónica and Huawei, among others.",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NFINCE0020250305el350084i&drn=drn:archive.newsarticle.NFINCE0020250305el350084i&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "5 March 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f30",
+      "text": "At the MWC, the King meets the proposals of the 'giants' of innovation: GSMA...",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "CE NoticiasFinancieras",
+          "title": "At the MWC, the King meets the proposals of the 'giants' of innovation: GSMA...",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NFINCE0020250304el34006ni&drn=drn:archive.newsarticle.NFINCE0020250304el34006ni&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "4 March 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l499",
+      "text": "Animator / Motion Designer / Video Editor — Portable (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Portable",
+          "title": "Animator / Motion Designer / Video Editor",
+          "url": "https://www.linkedin.com/jobs/view/4439016717",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4100",
+      "text": "Senior Animator — Light & Wonder (Silverwater, New South Wales, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Light & Wonder",
+          "title": "Senior Animator",
+          "url": "https://www.linkedin.com/jobs/view/4457220048",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4101",
+      "text": "Senior Animator — Light & Wonder (Silverwater, New South Wales, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Light & Wonder",
+          "title": "Senior Animator",
+          "url": "https://www.linkedin.com/jobs/view/4459151629",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4102",
+      "text": "Senior 3D Animators (Sydney) — Flying Bark Productions (Sydney, New South Wales, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Flying Bark Productions",
+          "title": "Senior 3D Animators (Sydney)",
+          "url": "https://www.linkedin.com/jobs/view/4422329027",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4103",
+      "text": "EOI - 2D Animation Directors — Princess Bento Studio (South Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Princess Bento Studio",
+          "title": "EOI - 2D Animation Directors",
+          "url": "https://www.linkedin.com/jobs/view/4441193702",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "1101",
+      "text": "Australia's Copyright and Artificial Intelligence Reference Group (CAIRG) confirmed in October 2025 that the government is not considering a text-and-data-mining exception; animation and VFX works are artistic works under the Copyright Act 1968, training models on existing works without a licence is potentially infringing, and the copyright status of AI-generated animation output is unresolved.",
+      "lane": "L1",
+      "tier": "regulatory-standard",
+      "sources": [
+        {
+          "publisher": "Attorney-General's Department (Australia)",
+          "title": "Copyright and Artificial Intelligence Reference Group (CAIRG)",
+          "url": "https://www.ag.gov.au/rights-and-protections/copyright/copyright-and-artificial-intelligence-reference-group-cairg",
+          "date": "2025-10-28",
+          "whatItMeasured": "Australian Government AGD mechanism on copyright and AI; no TDM exception; certainty on AI-generated material a stated priority."
+        }
+      ],
+      "scope": "Australian federal copyright policy. Affects whether animation/VFX studios' libraries may train image models and whether AI-produced frames attract copyright.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Source is official AGD (real). Population: Australian copyright framework. In window: Oct 2025. Survives."
+    },
+    {
+      "id": "1102",
+      "text": "On 15 July 2026 Prime Minister Albanese announced a new Office of AI and National Cabinet mandatory standards (August 2026) covering AI workplace rights and productivity, with legislation on AI training and copyright to Parliament in early 2027 - directly shaping how generative AI is deployed in animation and VFX studios.",
+      "lane": "L1",
+      "tier": "regulatory-standard",
+      "sources": [
+        {
+          "publisher": "Tech Times",
+          "title": "Australia Rejects AI Copyright Carve-Out: PM Calls Unlicensed Training Theft",
+          "url": "https://techtimes.com/articles/320755/20260716/australia-rejects-ai-copyright-carve-out-pm-calls-unlicensed-training-theft.htm",
+          "date": "2026-07-16",
+          "whatItMeasured": "News report of PM policy statement (15 Jul 2026) establishing Office of AI and mandatory standards covering workplace rights."
+        }
+      ],
+      "scope": "Australian federal policy direction (July 2026). Relevant to animation/VFX workplace deployment of GenAI; not a binding statute until enacted.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "News report of an official statement (real, quotes PM). Population: Australia. In window: July 2026."
+    },
+    {
+      "id": "2203",
+      "text": "A CVL Economics survey of 300 US entertainment-industry executives (Nov-Dec 2023), commissioned by the Animation Guild IATSE Local 839, estimated 204,000 entertainment jobs would be significantly disrupted by generative AI by 2026, including 118,500 in film, television and animation (21.4% of that workforce).",
+      "lane": "L2",
+      "tier": "scholarly-institutional",
+      "sources": [
+        {
+          "publisher": "Cartoon Brew (reporting CVL Economics / Animation Guild study)",
+          "title": "New Report Confirms Worst Fears: AI Will Disrupt Countless Animation Jobs Over Next 3 Years",
+          "url": "https://cartoonbrew.com/artist-rights/union-study-says-generative-ai-will-disrupt-204000-jobs-three-years-237495.html",
+          "date": "2024-01-30",
+          "whatItMeasured": "CVL Economics survey of 300 US entertainment-industry executives (Nov-Dec 2023), commissioned by Animation Guild IATSE Local 839 et al."
+        }
+      ],
+      "scope": "US film/TV/animation employment, 2024-2026 window. Not an Australian headcount; Australian animation/VFX exposure inferred from overlapping task sets (3-D modelling, concept art, rigging).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Industry-commissioned executive survey (real, n=300). Population: US entertainment execs. In window: 2024-2026. Scope limits to US; survives as indicative."
+    },
+    {
+      "id": "2204",
+      "text": "The same CVL Economics study found 75% of entertainment executives said generative AI had already supported elimination, reduction or consolidation of jobs, and that the most exposed tasks include 3-D modelling, character and environment design, concept art/visual development, animation and rigging, with entry-level roles disproportionately impacted.",
+      "lane": "L2",
+      "tier": "scholarly-institutional",
+      "sources": [
+        {
+          "publisher": "Cartoon Brew (reporting CVL Economics / Animation Guild study)",
+          "title": "New Report Confirms Worst Fears: AI Will Disrupt Countless Animation Jobs Over Next 3 Years",
+          "url": "https://cartoonbrew.com/artist-rights/union-study-says-generative-ai-will-disrupt-204000-jobs-three-years-237495.html",
+          "date": "2024-01-30",
+          "whatItMeasured": "CVL Economics study: task-level exposure and entry-level disproportion among entertainment roles."
+        }
+      ],
+      "scope": "US entertainment industry, 2024-2026. Task-level exposure for multimedia/animation artists; entry-level disproportion is not an Australian measure. Informs which animation tasks are automatable.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Same CVL study (real). Population: US entertainment execs. Distinct finding from the scale claim (mechanism vs headcount); scoped to US."
     }
   ],
   "jobAds": {
@@ -1458,7 +2277,30 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "animator",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+      "count": 249,
+      "returned": 50,
+      "topEmployers": [
+        "Flying Bark Productions",
+        "Flying Bark",
+        "KBR",
+        "Urban CGI",
+        "The Walt Disney Company",
+        "Industrial Light & Magic",
+        "Hooligan Animation",
+        "Mane Consulting"
+      ],
+      "topSkills": [
+        "animation",
+        "motion graphics",
+        "rigging",
+        "storyboard"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1478,6 +2320,15 @@
         "location": "Australia",
         "returned": 12,
         "totalResults": 12,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "soc": "27-1014",
+        "query": "animator",
+        "location": "Australia",
+        "returned": 11,
+        "totalResults": 11,
         "status": "sampled"
       }
     ],
@@ -1499,5 +2350,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva claims backfilled 2026-08-31 (hybrid cookie session).",
+    "L3 Factiva sourced via authenticated OpenAthens session 2026-08-26 (cookies expired at run time; not re-fetched)."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

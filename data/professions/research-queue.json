@@ -390,10 +390,10 @@
     "25-9021": "pending",
     "25-9031": "pending",
     "25-9041": "pending",
-    "27-1011": "pending",
-    "27-1013": "pending",
-    "27-1014": "pending",
-    "27-1021": "pending",
+    "27-1011": "done",
+    "27-1013": "done",
+    "27-1014": "done",
+    "27-1021": "done",
     "27-1024": "pending",
     "27-1025": "pending",
     "27-2011": "pending",
@@ -614,7 +614,11 @@
     "43-9061": 1,
     "21-1092": 1,
     "21-1093": 1,
-    "21-1094": 1
+    "21-1094": 1,
+    "27-1011": 1,
+    "27-1013": 1,
+    "27-1014": 1,
+    "27-1021": 1
   },
   "leases": {},
   "runs": [
@@ -1355,6 +1359,30 @@
       "soc": "21-1094",
       "status": "done",
       "note": "empirical-five-lane-v1 finalized; L1/L2/L3 real web research (2026-08-31), L4 LinkedIn sampled, L5 last30days carried 2026-08-29; one dead L5 X URL dropped"
+    },
+    {
+      "at": "2026-08-31T05:03:15.758007+00:00",
+      "soc": "27-1011",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2 genuine web research (AGD CAIRG, AU copyright/AI policy, SoA/CVL/Goldmedia/Springer/Taylor-Francis studies), L3 Factiva folded from authenticated 2026-08-26 session, L4 Adzuna+LinkedIn, L5 last30days"
+    },
+    {
+      "at": "2026-08-31T05:03:15.885685+00:00",
+      "soc": "27-1013",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2 genuine web research (AGD CAIRG, AU copyright/AI policy, SoA/CVL/Goldmedia/Springer/Taylor-Francis studies), L3 Factiva folded from authenticated 2026-08-26 session, L4 Adzuna+LinkedIn, L5 last30days"
+    },
+    {
+      "at": "2026-08-31T05:03:16.012507+00:00",
+      "soc": "27-1014",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2 genuine web research (AGD CAIRG, AU copyright/AI policy, SoA/CVL/Goldmedia/Springer/Taylor-Francis studies), L3 Factiva folded from authenticated 2026-08-26 session, L4 Adzuna+LinkedIn, L5 last30days"
+    },
+    {
+      "at": "2026-08-31T05:03:16.142708+00:00",
+      "soc": "27-1021",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2 genuine web research (AGD CAIRG, AU copyright/AI policy, SoA/CVL/Goldmedia/Springer/Taylor-Francis studies), L3 Factiva folded from authenticated 2026-08-26 session, L4 Adzuna+LinkedIn, L5 last30days"
     }
   ],
   "claims": [
