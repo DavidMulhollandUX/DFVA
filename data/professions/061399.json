@@ -1,0 +1,227 @@
+{
+  "onet_soc_code": "061399",
+  "title": "Youth Mental Health Practitioner",
+  "aliases": [
+    "Public Health Officer",
+    "Mental Health Program Coordinator"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-ymhmo"
+  ],
+  "claims": [
+    {
+      "id": "L1-1",
+      "text": "Victoria's Department of Education policy for the school-based Mental Health Practitioners initiative — the state program whose role title most closely matches \"Youth Mental Health Practitioner\" — requires practitioners to hold full AHPRA registration (psychologists, mental health nurses, occupational therapists), eligibility for Australian Association of Social Workers membership (social workers), or Australian Counselling Association/PACFA membership (counsellors), with policy current as of 25 August 2026.",
+      "lane": "L1",
+      "tier": "state government policy instrument (binding on employment eligibility)",
+      "sources": [
+        {
+          "publisher": "Victorian Department of Education",
+          "title": "Mental Health Practitioners initiative (Policy and Advisory Library)",
+          "url": "https://www2.education.vic.gov.au/pal/mental-health-practitioners-initiative/print-all",
+          "date": "2026-08-25",
+          "whatItMeasured": "Departmental policy text listing the qualification and registration pathway required for each discipline eligible to hold a school Mental Health Practitioner role; not a survey or study."
+        },
+        {
+          "publisher": "Victorian Government (vic.gov.au)",
+          "title": "Become a mental health practitioner",
+          "url": "https://www.vic.gov.au/become-mental-health-practitioner",
+          "date": "2026-08-03",
+          "whatItMeasured": "Public-facing restatement of the same departmental registration requirements for prospective applicants; not independent verification, same policy source."
+        }
+      ],
+      "scope": "Binds only Victorian government secondary and specialist schools employing under this DET-funded initiative; the department's own role title is \"Mental Health Practitioner\", not \"Youth Mental Health Practitioner\" — a nationally unprotected title — and the policy establishes only the entry-credential pathway, not how the role is regarded, its prevalence, or its outlook, and it does not apply outside Victorian government schools.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L1-2",
+      "text": "headspace's national Roles and Professions Glossary, covering Australia's largest youth mental health service network, does not define \"Youth Mental Health Practitioner\" as a distinct role or title; it instead requires frontline youth mental health clinicians to hold registration in one of four separately regulated base professions (AHPRA-registered psychologist, mental health nurse, or occupational therapist; AASW-eligible social worker; or ACA/PACFA-registered counsellor).",
+      "lane": "L1",
+      "tier": "sector-body role/registration glossary (non-legislative but sets network-wide practice standard)",
+      "sources": [
+        {
+          "publisher": "headspace National Youth Mental Health Foundation",
+          "title": "National Roles and Professions Glossary",
+          "url": "https://headspace.org.au/rolesandprofessionsglossary/",
+          "date": "undated page; privacy-policy footer dated 2026-03-19 (best known)",
+          "whatItMeasured": "Glossary text defining which of AHPRA, AASW, ACA, or PACFA registration each clinical role in the headspace network must hold; not a workforce count or survey."
+        }
+      ],
+      "scope": "Confirms only that headspace's national glossary lacks a distinct \"Youth Mental Health Practitioner\" entry and instead maps four base-profession registration pathways; it says nothing about sector or practitioner opinion of the role, does not establish a legally protected title under the Health Practitioner Regulation National Law, and does not extend beyond the headspace network to other youth mental health providers such as state MHP schemes or private practice.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L2-1",
+      "text": "Anthropic's Economic Index found that Community and Social Service occupations (the U.S. Department of Labor O*NET major group that includes mental health counselors, social and human service assistants, and community health workers) showed roughly 75% of Claude usage classified as augmentation (collaborative, iterative use) rather than automation (full task delegation), the highest augmentation share of any occupational category measured.",
+      "lane": "L2",
+      "tier": "institutional (industry AI-lab research, non-peer-reviewed)",
+      "sources": [
+        {
+          "publisher": "Anthropic",
+          "title": "Anthropic Economic Index: Insights from Claude 3.7 Sonnet",
+          "url": "https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7",
+          "date": "2025-03-27",
+          "whatItMeasured": "Anthropic's Clio tool mapped roughly 1 million anonymized Claude.ai Free/Pro conversations from an 11-day window following the Claude 3.7 Sonnet launch (Feb-Mar 2025) onto ~17,000 O*NET occupational tasks, classifying each conversation as automation or augmentation."
+        }
+      ],
+      "scope": "Supports only a description of how a large, self-selected sample of Claude.ai conversations from a single 11-day window (Feb-Mar 2025) mapped onto the broad US O*NET \"Community and Social Service\" major group; it does not support any claim about employment, wage, or displacement effects, about Australian workers, about the narrower youth mental health practitioner occupation (not broken out from the major group), or about the representativeness of Claude users versus the wider profession — the data is Anthropic's own vendor research, not an independent study.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-1",
+      "text": "US school districts adopted AI \"well-being companion\" and lesson-generation tools (e.g. Sonny, Lenny Learning) in 2025 to help school-based mental health staff manage rising caseloads, with one school psychologist reporting group-curriculum prep time fell from about 16 hours to roughly 90 minutes.",
+      "lane": "L3",
+      "tier": "trade-press-education",
+      "sources": [
+        {
+          "publisher": "Edutopia",
+          "title": "Schools Try AI as Student Mental Health Needs Surge",
+          "url": "https://www.edutopia.org/article/ai-student-mental-health-new-frontier-care",
+          "date": "2025-11-07",
+          "whatItMeasured": "Journalistic reporting drawing on interviews with school psychologists/social workers and vendor adoption figures (e.g. Lenny Learning: 400+ schools, 210,000+ students across 19 states; Sonny: 4,500+ students) for K-12 school mental-health-support tool rollout in the US."
+        }
+      ],
+      "scope": "Describes one journalist's account of a small number of named US K-12 school-based mental health staff (school psychologists/social workers) using vendor-supplied tools; the 16-hour-to-90-minute figure is one school psychologist's self-reported estimate for group-curriculum preparation, not a measured or audited efficiency study, is US-specific, and does not describe clinical youth mental health practitioners in community, public-health, or Australian settings.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-2",
+      "text": "A 2026 ASTHO analysis of its 2025 Profile of State and Territorial Public Health found 55% of responding US state/territorial health agencies cited a lack of staff AI skills or knowledge as a barrier to adoption, and 32% reported not using AI at all, even as 30% already use it for administrative/operational efficiency.",
+      "lane": "L3",
+      "tier": "professional-body-survey-summary",
+      "sources": [
+        {
+          "publisher": "ASTHO (Association of State and Territorial Health Officials)",
+          "title": "The State of AI in Public Health: New Data from the 2025 ASTHO Profile",
+          "url": "https://www.astho.org/topic/resource/2026/state-of-ai-in-public-health/",
+          "date": "2026-04-28",
+          "whatItMeasured": "ASTHO's own membership survey (the 2025 Profile of State and Territorial Public Health), n=32-44 of 41 responding US state/territorial health offices, asking about AI policy adoption, current use cases, and barriers to AI integration in public health agencies."
+        }
+      ],
+      "scope": "Covers US state/territorial public health agency operations broadly (n=44), not a specific occupation's task content, and is not scoped to youth mental health programs; the source itself carries an internal inconsistency between its prose (\"approximately 34%\" not using AI) and its own Table 3 (32%, 14/44) — this claim tracks the table figure. Any workforce-reduction inference beyond the stated skills-gap barrier is not supported by this source.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L3-3",
+      "text": "NPR reported that Kaiser Permanente reassigned a licensed clinical social worker away from mental-health triage after screening calls that previously took a licensed clinician 10-15 minutes began being handled by unlicensed staff following a script, shrinking the triage team at its Walnut Creek, California facility from nine providers to three.",
+      "lane": "L3",
+      "tier": "trade-press-news",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "title": "AI in the mental health care workforce is met with fear, pushback — and enthusiasm",
+          "url": "https://www.npr.org/2026/04/07/nx-s1-5771707/mental-health-care-workforce-artificial-intelligence-ai",
+          "date": "2026-04-07",
+          "whatItMeasured": "Journalistic reporting (interviews/sourcing, per WebSearch-returned content; direct WebFetch of the article timed out repeatedly and could not be independently re-verified) on a specific staffing change at one Kaiser Permanente facility tied to adoption of AI/script-based triage."
+        },
+        {
+          "publisher": "Google (WebSearch)",
+          "title": "Search snippet observed for NPR article",
+          "url": "https://www.npr.org/2026/04/07/nx-s1-5771707/mental-health-care-workforce-artificial-intelligence-ai",
+          "date": "2026-08-29",
+          "whatItMeasured": "Automated search-result summary of the NPR article's content, used because direct WebFetch of the NPR URL failed (ETIMEDOUT) on three attempts."
+        }
+      ],
+      "scope": "Corrected: the reassigned social worker (Marcucci-Morris) was at Kaiser's Oakland facility, not Walnut Creek; the nine-to-three triage-team shrinkage is a separate clinician's (Khalsa) account of the distinct Walnut Creek facility. Even corrected, this describes one adult-focused mental health triage team at one US employer, not a youth-specific practitioner role or Australian context, and the figures are self-reported by current/former staff during an active labor dispute (a 24-hour strike by 2,400 Kaiser mental health providers), not independently audited.",
+      "disposition": "corrected",
+      "refuted": false
+    },
+    {
+      "id": "L5-1",
+      "text": "In a February 2026 editorial in CYC-Online (the monthly professional-newsletter of the International Child and Youth Care Network), practitioner-editor Shemine Gulamhusein raised AI as a topic the child and youth care field has not yet addressed, asking unprompted what the practitioner's role should be now that young people and their families are already using AI tools.",
+      "lane": "L5",
+      "tier": "practitioner discourse — single professional-newsletter editorial",
+      "sources": [
+        {
+          "publisher": "CYC-Net (International Child and Youth Care Network)",
+          "title": "Imaginative AI (CYC-Online editorial, Issue 324)",
+          "url": "https://cyc-net.org/CYC-Online/cyconline-feb2026-ed.html",
+          "date": "2026-02",
+          "whatItMeasured": "Not a study — a single practitioner's editorial column in the field's monthly professional newsletter, raising AI as an emerging, largely undiscussed issue for child and youth care workers."
+        }
+      ],
+      "scope": "Confirms one child-and-youth-care field editor raised AI as an open, largely unaddressed question in a single newsletter editorial; does not establish that youth mental health practitioners (a distinct, more clinically regulated occupation) have begun any substantive discussion of AI, and cites no forum threads, surveys, or additional practitioner voices beyond the editor's own individual framing.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-2",
+      "text": "A September 2025 post on NASW's Social Work Blog (the U.S. National Association of Social Workers' professional-body blog) quotes social work practitioner-scholars Dr. Lauri Goldkind and Dr. Karen Magruder describing AI chatbots as unfit to serve as a therapist (\"a lot that can go wrong,\" prone to mistakes and to agreeing uncritically with users) and characterizing frontline resistance to AI adoption as rooted in \"care\" — concern for client privacy and fear of losing the human touch — rather than reflexive rejection.",
+      "lane": "L5",
+      "tier": "practitioner discourse — professional-body blog, quoting practitioner-scholars",
+      "sources": [
+        {
+          "publisher": "National Association of Social Workers (Social Work Blog)",
+          "title": "Social Workers vs. AI Therapists",
+          "url": "https://www.socialworkblog.org/sw-practice/2025/09/social-workers-vs-ai-therapists/",
+          "date": "2025-09-02",
+          "whatItMeasured": "Not a study — a professional-body blog post (written by a freelance contributor) that gathers quoted commentary from social work academics/practitioners on AI's suitability and limitations as a therapy substitute, in the context of new state legislation restricting AI mental-health services."
+        }
+      ],
+      "scope": "Concerns social work and AI-as-therapy-substitute generally, prompted by new US state legislation restricting AI mental-health services, with no youth-specific framing or context; represents two named social work academics' individual commentary, not a survey or sampled measure of frontline practitioner sentiment, and does not establish prevalence of this view across the profession.",
+      "disposition": "sourced",
+      "refuted": false
+    }
+  ],
+  "jobAds": {
+    "source": "none",
+    "query": "",
+    "window": "",
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "site:ahpra.gov.au National Law amendments 2025 2026 mental health practitioner title protection (403 on fetch, content unverifiable)",
+      "\"Youth Mental Health Practitioner\" classification Fair Work award 2025 (no award-specific classification found under this exact title)",
+      "Jobs and Skills Australia AI exposure \"mental health\" occupation 2025 — occupation-level score",
+      "\"health promotion officer\" OR \"welfare worker\" ANZSCO AI exposure automatability score Jobs Skills Australia — page fetches timed out repeatedly (jobsandskills.gov.au)",
+      "ILO Gmyrek Berg Bescond generative AI jobs global index occupational exposure \"social work\" OR \"counselling professionals\" score — PDF text unreadable via fetch",
+      "ILO Research Brief Feb 2026 Workers' exposure to AI occupation-level figures for health/social work — PDF text unreadable via fetch",
+      "\"youth mental health\" workforce artificial intelligence impact study 2025 2026 peer-reviewed — returned clinical-application studies, not labour-market/exposure studies",
+      "Eloundou OR Felten OR Webb 2025 2026 occupational exposure GPT \"social workers\" OR \"counselors\" score update — no occupation-specific figures surfaced",
+      "Productivity Commission AI occupational exposure Australia community health workers — no Productivity Commission occupation-level data found",
+      "Yale Budget Lab labor market AI exposure social work/counselling — fetch returned no content",
+      "PwC AI Jobs Barometer 2025 Australia health/community services occupation data — 403 Forbidden on PDF",
+      "\"youth mental health practitioner\" AI (returned only academic/clinical-research results, no L3 trade press specific to that exact job title)",
+      "\"crisis counselor\" OR \"youth counselor\" AI screening automation trade publication 2025 (mostly returned career-advice/aggregator sites, not dated trade-press reporting)",
+      "youth mental health worker AI documentation notes reddit 2026",
+      "mental health program coordinator \"AI\" burnout automation blog 2025 2026",
+      "\"r/socialwork\" OR \"r/therapists\" AI notes youth mental health practitioner discussion",
+      "school-based mental health clinician LinkedIn article AI chatbot replacing counselors youth",
+      "reddit r/socialwork AI progress notes case management youth",
+      "\"public health officer\" OR \"mental health program coordinator\" AI tools blog personal experience workload",
+      "youth worker case manager reddit thread AI tools \"case notes\" opinion",
+      "reddit \"school counselor\" AI chatbot students mental health thread 2026",
+      "youth mental health practitioner podcast transcript \"artificial intelligence\" case load 2026",
+      "linkedin.com/pulse youth mental health clinician AI reflections practice (Bjork article was 2023, out of window)",
+      "\"Counseling Today\" ACA AI school counselors youth mental health article 2025 2026",
+      "\"Mad in America\" OR \"Psychotherapy Networker\" AI youth mental health clinicians opinion 2025 (Sheehan piece did not discuss AI)",
+      "reddit.com r/therapists OR r/socialwork AI note taking students clients 2025 (only vendor round-up content found)",
+      "\"youth mental health\" clinician blog \"I use AI\" OR \"I've started using AI\" practice reflection 2025 2026",
+      "school social worker substack blog AI Copilot IEP notes students 2026",
+      "AI mental health caseworker students burnout discussion (reddit.com domain blocked from direct restriction)",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable — no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}

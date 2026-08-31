@@ -1,0 +1,248 @@
+{
+  "onet_soc_code": "039903",
+  "title": "Biomedical Engineer",
+  "aliases": [
+    "Medical Device Engineer",
+    "Health Technology Innovator"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-mti"
+  ],
+  "claims": [
+    {
+      "id": "L1-1",
+      "text": "Australia's Therapeutic Goods Administration made a mandatory Unique Device Identification (UDI) framework legally effective on 2025-03-24 via amendment to the Therapeutic Goods (Medical Devices) Regulations 2002, requiring medical device sponsors and manufacturers to meet UDI labelling and AusUDID data-submission requirements for Class IIb and Class III devices from 2026-07-01, with lower-risk device classes phased in over subsequent years.",
+      "lane": "L1",
+      "tier": "national regulator (statutory instrument)",
+      "sources": [
+        {
+          "publisher": "Therapeutic Goods Administration (Australian Government)",
+          "title": "New UDI requirements for medical devices commence 1 July 2026",
+          "url": "https://www.tga.gov.au/news/news-articles/new-udi-requirements-medical-devices-commence-1-july-2026",
+          "date": "2026 (news article; regulation amendment effective 2025-03-24)",
+          "whatItMeasured": "TGA regulator notice describing a binding amendment to the Therapeutic Goods (Medical Devices) Regulations 2002 and its phased compliance deadlines for device sponsors/manufacturers"
+        },
+        {
+          "publisher": "Advena Medical (regulatory affairs consultancy)",
+          "title": "Australia's UDI Mandatory Deadlines: Urgent Action for TGA Market Access",
+          "url": "https://advenamedical.com/australias-udi-mandatory-deadlines-urgent-action-for-tga-market-access/",
+          "date": "2026",
+          "whatItMeasured": "Regulatory-compliance summary corroborating the 2025-03-24 legal effect date and the 2026-07-01 Class IIb/III compliance deadline"
+        }
+      ],
+      "scope": "Binds device sponsors and manufacturers on labelling/traceability compliance for regulated products only; it does not license, register, or certify the individual biomedical engineer, and says nothing about employer sentiment, hiring volume, or how the profession views the requirement.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L1-2",
+      "text": "Engineers Australia's National Engineering Register (NER) — the peak professional body's national credentialing scheme applicable to biomedical engineers — is entirely voluntary and requires five or more years of relevant full-time-equivalent engineering work experience (at least four years within the last decade) plus satisfaction of five defined NER competencies, and operates alongside separate statutory registration regimes in Queensland, Victoria, the ACT and Western Australia.",
+      "lane": "L1",
+      "tier": "national professional body (credentialing instrument)",
+      "sources": [
+        {
+          "publisher": "Engineers Australia",
+          "title": "National Engineering Register",
+          "url": "https://www.engineersaustralia.org.au/credentials/registration/national-engineering-register",
+          "date": "accessed 2026-08-29",
+          "whatItMeasured": "Engineers Australia's own published NER eligibility criteria, application process and fee schedule, and its relationship to state statutory registration"
+        }
+      ],
+      "scope": "Describes a voluntary national credential and its formal eligibility bar; it is not a statutory licence to practise biomedical engineering nationally, does not itself establish state-mandated registration, and does not indicate how many working biomedical engineers actually hold it or what the profession thinks of it.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L2-1",
+      "text": "Biomedical/bioengineers rank at roughly the 74th percentile of AI exposure among 774 six-digit US occupations on Felten, Raj and Seamans' AI Occupational Exposure (AIOE) index (score 0.987, versus a sample median of about -0.05), meaning the occupation's O*NET ability profile overlaps AI-application benchmarks more than most occupations but well below the most-exposed white-collar roles.",
+      "lane": "L2",
+      "tier": "peer-reviewed journal (Strategic Management Journal) + primary dataset",
+      "sources": [
+        {
+          "publisher": "Strategic Management Journal (Wiley) / Felten, Raj & Seamans",
+          "title": "Occupational, industry, and geographic exposure to artificial intelligence: A novel dataset and its potential uses",
+          "url": "https://sms.onlinelibrary.wiley.com/doi/full/10.1002/smj.3286",
+          "date": "2021",
+          "whatItMeasured": "Constructs an occupation-level AI exposure score for 774 six-digit US SOC occupations by linking O*NET ability requirements to 10 AI-application benchmarks (e.g. image recognition, translation); not a survey of actual AI adoption or job loss."
+        },
+        {
+          "publisher": "AIOE-Data (Felten/Raj/Seamans public data repository, GitHub)",
+          "title": "AIOE_DataAppendix.xlsx, Appendix A (AIOE scores by SOC code)",
+          "url": "https://github.com/AIOE-Data/AIOE",
+          "date": "2021 (dataset accompanying the SMJ paper)",
+          "whatItMeasured": "Primary data file listing the AIOE score for SOC 17-2031 'Biomedical Engineers' as 0.9874239; percentile rank (74th of 774) calculated directly from this file for this claim."
+        }
+      ],
+      "scope": "US O*NET occupation classification only, not Australian ANZSCO data and not adjusted for the Australian labour market; measures structural task/ability overlap with pre-2021 AI-application benchmarks (image recognition, translation, etc.), not observed job losses, wage effects, or employer AI adoption; and does not by itself support a claim about generative AI/LLM exposure specifically -- that requires the separate Eloundou et al. study (see L2-2).",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L2-2",
+      "text": "In Eloundou, Manning, Mishkin and Rock's LLM labour-market-exposure study, human raters judged about 26% of Bioengineers'/Biomedical Engineers' O*NET work tasks (SOC 17-2031) as directly exposed to GPT-4-class language models (able to cut completion time at least 50% with no loss of quality), rising to about 54% once tasks completable via LLM-plus-complementary-software are half-weighted, and up to about 82% under the study's upper-bound measure that counts all LLM-plus-software-exposed tasks; GPT-4's own self-ratings for the same occupation were similar (23%, 59%, and 95% respectively).",
+      "lane": "L2",
+      "tier": "peer-reviewed journal (Science) + primary dataset",
+      "sources": [
+        {
+          "publisher": "Science / Eloundou, Manning, Mishkin & Rock (OpenAI, OpenResearch, University of Pennsylvania)",
+          "title": "GPTs are GPTs: Labor market impact potential of LLMs",
+          "url": "https://www.science.org/doi/10.1126/science.adj0998",
+          "date": "2024 (working paper 2023-03)",
+          "whatItMeasured": "Human labelers and a GPT-4-based classifier independently rated whether each O*NET task within an occupation could have its completion time cut by at least half using GPT-4-class LLMs (with or without complementary software), producing three increasingly inclusive exposure thresholds (alpha/beta/gamma) per six-digit SOC occupation; not a measurement of realized task automation or employment change."
+        },
+        {
+          "publisher": "OpenAI (public data repository, GitHub)",
+          "title": "GPTs-are-GPTs data/occ_level.csv, row 17-2031.00 Bioengineers and Biomedical Engineers",
+          "url": "https://github.com/openai/GPTs-are-GPTs/blob/main/data/occ_level.csv",
+          "date": "2023 (dataset accompanying the paper)",
+          "whatItMeasured": "Primary occupation-level data file giving human_rating_alpha/beta/gamma = 0.256/0.538/0.821 and dv_rating_alpha/beta/gamma (GPT-4 self-rating) = 0.231/0.590/0.949 for SOC 17-2031."
+        }
+      ],
+      "scope": "US O*NET occupation classification and 2023-era GPT-4 capability only; not Australian labour-market data and not adjusted for Australia; measures rater-judged task-level potential for time savings, not actual adoption, job displacement, employment counts, or wages, and predates most 2024-2026 generative-AI capability gains, so likely understates current exposure.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-1",
+      "text": "A January 2026 MedCity News op-ed by a named J&J MedTech principal engineer argued AI's role in medical-device development is to remove workflow friction across development stages -- from literature review to regulatory documentation -- stating explicitly that this 'isn't about replacing engineers, regulatory specialists, or clinical teams,' and cited a McKinsey estimate of 20-30% effort reduction in regulatory documentation drafting.",
+      "lane": "L3",
+      "tier": "trade press (industry practitioner op-ed)",
+      "sources": [
+        {
+          "publisher": "MedCity News",
+          "title": "How AI Is Actually Helping MedTech Teams Move Faster — Across Every Stage of Medical Device Development",
+          "url": "https://medcitynews.com/2026/01/how-ai-is-actually-helping-medtech-teams-move-faster-across-every-stage-of-medical-device-development/",
+          "date": "2026-01-21",
+          "whatItMeasured": "First-person industry commentary/op-ed by a named J&J MedTech principal engineer on where AI tools are used across medtech device-development workflow stages; not a survey, study, or quantitative measurement of its own."
+        }
+      ],
+      "scope": "Does not measure actual displacement, hiring, or headcount data for biomedical engineers; the McKinsey 20-30% regulatory-documentation figure is a secondary citation embedded in this op-ed, not a finding this article generated itself, and was not independently retrieved or verified here -- treat that specific figure as unverified even though the surrounding op-ed is genuine.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-2",
+      "text": "MD+DI (mddionline.com) reported that by 2026, generic AI-adjacent job titles that recruiters discussed in medtech circles in 2024 -- such as 'AI ethicist' and 'robotic process automation engineer' -- had largely been absorbed into more specific, regulated, clinically anchored job families, with salaries for software and regulatory roles reported as outpacing those for traditional engineering roles.",
+      "lane": "L3",
+      "tier": "trade press",
+      "sources": [
+        {
+          "publisher": "MD+DI / mddionline.com (Informa)",
+          "title": "The Future of Medtech Jobs Looks Different in 2026",
+          "url": "https://www.mddionline.com/business/the-future-of-medtech-jobs-looks-different-in-2026",
+          "date": "2026 (exact publication day not confirmed -- direct WebFetch of the page returned HTTP 403; content confirmed via a real WebSearch retrieval of the page's text)",
+          "whatItMeasured": "Trade-press analysis/commentary on shifts in medtech hiring-title language and role definitions from 2024 to 2026, apparently drawing on recruiter and industry conversations; not a structured labor-market survey with a stated sample or methodology."
+        }
+      ],
+      "scope": "Does not quantify how many roles were reclassified or provide a sample size; concerns medtech hiring-title trends broadly (including software, regulatory, and AI-adjacent titles), not biomedical/design engineers narrowly; does not itself claim engineer job losses; and the salary-comparison detail specifically was not independently reconfirmed against the source text, so treat it as the weaker-supported half of this claim.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L3-3",
+      "text": "An October 2025 MD+DI article reported that the ETQ Pulse of Quality Manufacturing 2025 Survey found medical device manufacturers citing labor shortages (reported as a 68% shortage figure) and rising product recalls as drivers for adopting AI and electronic quality-management systems, with 47% of surveyed organisations planning AI implementation within two years.",
+      "lane": "L3",
+      "tier": "trade press summarising a vendor-commissioned survey",
+      "sources": [
+        {
+          "publisher": "MD+DI / mddionline.com (Informa)",
+          "title": "Medtech Turns to AI as Labor Crisis & Recalls Surge",
+          "url": "https://www.mddionline.com/manufacturing/medical-device-makers-turn-to-ai-as-labor-crisis-recalls-surge-new-survey-reveals",
+          "date": "2025-10-30",
+          "whatItMeasured": "MD+DI's reporting on the ETQ Pulse of Quality Manufacturing 2025 Survey (commissioned by ETQ, a Hexagon company) of medical device manufacturers on quality-management and AI-adoption drivers, including a quoted comment from ETQ's CEO; sample size and survey methodology were not stated in the retrieved content."
+        }
+      ],
+      "scope": "This is workforce/labor-shortage data for medical device manufacturing and quality-management functions broadly (752 quality leaders across three countries), not a claim specifically about biomedical/design engineers' tasks, tools, or displacement risk; the primary ETQ survey itself (not this article's paraphrase) would be the appropriate L2-tier source, and it was not independently retrieved here -- the 68%/47% figures were cross-checked against MD+DI's reporting and corroborating trade coverage, not the raw survey instrument.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-1",
+      "text": "In a November 2025 episode of The BME Grad Podcast, biomedical engineering alumnus and Revvity senior machine learning engineer Thomas Kierski discussed how AI is being applied in preclinical imaging development and what job preparedness looks like for BME graduates in an AI-driven landscape.",
+      "lane": "L5",
+      "tier": "single podcast episode, one practitioner",
+      "sources": [
+        {
+          "publisher": "The BME Grad Podcast (Joint Dept. of Biomedical Engineering, UNC-Chapel Hill/NC State)",
+          "title": "S5E1 - AI in Biomedical Engineering with Thomas Kierski",
+          "url": "https://www.listennotes.com/podcasts/the-bme-grad-podcast-joint-biomedical-5IaOTbLKMpG/",
+          "date": "2025-11-07",
+          "whatItMeasured": "One practitioner interview (BME alum, now senior ML engineer at a preclinical-imaging instrumentation company) describing AI's role in his own technical domain and career advice for students entering the field"
+        }
+      ],
+      "scope": "Reflects one individual's account on a career-advice podcast aimed at students, not a survey or count of how many biomedical engineers raise AI unprompted; does not support claims about prevalence of AI concern or adoption across the profession, and Revvity is a preclinical-imaging instrumentation vendor, not a representative cross-section of biomedical engineering employers.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-2",
+      "text": "In an October 2025 trade-press \"year in review\" piece, healthcare technology management (HTM)/clinical-engineering industry leaders described generative AI simulating device behavior, generating maintenance protocols and assisting documentation, and AI-enabled device analytics, as among the biggest shifts in their work during 2025.",
+      "lane": "L5",
+      "tier": "trade-press solicited quotes, 4 named individuals",
+      "sources": [
+        {
+          "publisher": "24x7 Magazine (MEDQOR) — Leading Resource for Healthcare Technology Management Professionals",
+          "title": "HTM's Biggest Shifts of 2025",
+          "url": "https://24x7mag.com/market-trends/industry-leaders-reflect-htms-biggest-shifts-2025/",
+          "date": "2025-10-30",
+          "whatItMeasured": "Journalist-solicited reflections from named HTM/clinical-engineering industry figures (GE HealthCare, TRIMEDX, Intelas, FSI) on technology shifts they observed in their operational work over 2025"
+        }
+      ],
+      "scope": "Quotes were solicited by a trade journalist for a year-in-review roundup rather than raised fully unprompted; only 2 of the 4 quoted speakers (Rice, Kubricky) specifically described generative-AI simulation/protocol-generation/analytics, while Miles and Joslin discussed broader predictive-maintenance and repair-suggestion AI without that specific framing; speakers are vendor- and service-company executives in healthcare technology management/clinical engineering (equipment servicing and hospital technology operations) rather than device-design R&D biomedical engineers, so this does not support a claim about prevalence of AI discussion among rank-and-file design engineers or the broader biomedical engineering profession.",
+      "disposition": "sourced",
+      "refuted": false
+    }
+  ],
+  "jobAds": {
+    "source": "none",
+    "query": "",
+    "window": "",
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "Jobs and Skills Australia biomedical engineer AI exposure score",
+      "biomedical engineer Productivity Commission Australia AI automation exposure",
+      "biomedical engineer ABS AI exposure occupation Australia",
+      "biomedical engineer AI automation jobs 2026 trade press (returned only SEO career-advice/AI-content-farm sites: rolecompass.ai, aichanging.work, research.com career advice, ascendurepro.com -- not admissible as L3 trade press or professional-body publications)",
+      "IEEE Spectrum OR Fierce Biotech biomedical engineer AI job market 2026 (no on-topic IEEE Spectrum or Fierce Biotech article found specific to biomedical engineers; returned SEO career sites hirebase.org and research.com instead)",
+      "biomedical engineer AI automation \"my job\" forum discussion 2025",
+      "biomedical engineering reddit AI changing our work 2025 2026",
+      "\"medical device\" engineer blog AI tools workflow design controls 2025",
+      "site:reddit.com biomedical engineer AI job worried",
+      "reddit r/biomedicalengineers OR r/MedicalDevices AI automation career worried",
+      "eng-tips.com forum biomedical engineering AI thread",
+      "medical device R&D engineer AI copilot \"using AI\" LinkedIn article personal experience 2025",
+      "medtech engineer Substack OR Medium \"AI\" personal reflection design engineer 2025",
+      "\"biomedical engineering\" student subreddit ChatGPT design project 2025",
+      "teamblind.com medical device engineer AI (thread found had no relevant quotes)",
+      "reddit biomedical engineering AI taking jobs worried",
+      "reddit \"biomedical engineer\" AI ChatGPT use at work",
+      "\"biomedical engineer\" \"I used AI to\" OR \"I asked ChatGPT\" personal story 2025 2026",
+      "site:linkedin.com/pulse biomedical engineer artificial intelligence (results were generic explainer/marketing content, not personal practitioner reflection)",
+      "AAMI special report artificial intelligence biomedical engineers quotes members 2025",
+      "quora biomedical engineer \"how is AI\" changing your job answer 2025 (Quora blocked WebFetch)",
+      "\"clinical engineer\" OR \"biomedical engineer\" hacker news AI hospital",
+      "reddit.com/r/biomedicalengineering AI",
+      "reddit.com/r/MedicalDevices AI",
+      "clinical engineer hospital AI podcast interview \"my day to day\" 2025 biomedical",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable — no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}

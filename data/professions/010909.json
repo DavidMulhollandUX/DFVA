@@ -1,0 +1,237 @@
+{
+  "onet_soc_code": "010909",
+  "title": "Genetic Counsellor",
+  "aliases": [
+    "Genomics Scientist",
+    "Clinical Geneticist"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-genohlt"
+  ],
+  "claims": [
+    {
+      "id": "L1-2",
+      "text": "HGSA's Code of Ethics for Genetic Counsellors and Scope of Practice for Genetic Counsellors were both updated in 2026 to align terminology with the National Alliance of Self-Regulating Health Professions (NASRHP) 2026 Standards, of which HGSA is a member body.",
+      "lane": "L1",
+      "tier": "self-regulatory peak-body standards alignment",
+      "sources": [
+        {
+          "publisher": "Human Genetics Society of Australasia (HGSA)",
+          "title": "Code of Ethics for Genetic Counsellors",
+          "url": "https://hgsa.org.au/common/Uploaded%20files/pdfs/policies,%20position%20statements%20and%20guidelines/genetic%20counselling/Code%20of%20Ethics%20for%20GC.pdf",
+          "date": "2026",
+          "whatItMeasured": "HGSA binding ethics policy document for certified genetic counsellors, revised to adopt NASRHP 2026 Standards terminology."
+        },
+        {
+          "publisher": "Human Genetics Society of Australasia (HGSA)",
+          "title": "Scope of Practice for Genetic Counsellors",
+          "url": "https://hgsa.org.au/common/Uploaded%20files/pdfs/policies,%20position%20statements%20and%20guidelines/genetic%20counselling/Scope%20of%20Practice%20for%20GC.pdf",
+          "date": "2026",
+          "whatItMeasured": "HGSA binding scope-of-practice policy document for genetic counsellors, revised to adopt NASRHP 2026 Standards terminology."
+        }
+      ],
+      "scope": "Confirms alignment with a voluntary self-regulation peak body's benchmark standards under a Commonwealth-seeded quality framework, not a Commonwealth or state statutory regulatory regime (Australia has no AHPRA scheme for genetic counsellors); does not support any claim about mandatory registration, ASQA-accredited course requirements, or practitioner awareness of the terminology change.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L1-3",
+      "text": "HGSA's Scope of Practice Policy for Genetic Counsellors was revised (document 2025GC01, reviewed February 2025, later reissued as 2026GC01) to expand the recognised areas of practice to six categories: clinical, industry, academic, policy, research and education.",
+      "lane": "L1",
+      "tier": "professional standards instrument",
+      "sources": [
+        {
+          "publisher": "Human Genetics Society of Australasia (HGSA)",
+          "title": "HGSA Scope of Practice Policy for Genetic Counsellors Policy Number 2022GC01 (2025 consultation draft)",
+          "url": "https://www.hgsa.org.au/common/Uploaded%20files/pdfs/policies,%20position%20statements%20and%20guidelines/genetic%20counselling/2025%20CONSULTATION%20HGSA%20GC01%20Scope%20of%20Practice.pdf",
+          "date": "2025-02",
+          "whatItMeasured": "HGSA policy document defining the bounds of authorised professional practice for certified genetic counsellors, distinguishing it from earlier 2018/2019/2022 versions and widening recognised practice areas."
+        },
+        {
+          "publisher": "Human Genetics Society of Australasia (HGSA)",
+          "title": "Scope of Practice for Genetic Counsellors",
+          "url": "https://hgsa.org.au/common/Uploaded%20files/pdfs/policies,%20position%20statements%20and%20guidelines/genetic%20counselling/Scope%20of%20Practice%20for%20GC.pdf",
+          "date": "2026",
+          "whatItMeasured": "Current published HGSA scope-of-practice policy document for genetic counsellors."
+        }
+      ],
+      "scope": "Describes what the certifying body's own policy -- as of a 2025 consultation draft, not necessarily a fully finalized 2026 reissue -- permits as scope of practice; does not indicate any change in statutory licensing requirements and does not measure how many practising genetic counsellors actually work outside clinical roles.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L2-1",
+      "text": "In a North American survey of 160 genetic counselors and 57 genetic counseling students, respondents estimated that 25% of their work time is spent on administrative and repetitive tasks that could be delegated, and 84.6% saw benefit in AI reducing that repetitive-task load, while only 8.8% had actually used or recommended a clinical-genetics-specific AI chatbot in practice.",
+      "lane": "L2",
+      "tier": "institutional survey (medRxiv preprint)",
+      "sources": [
+        {
+          "publisher": "medRxiv",
+          "title": "Artificial Intelligence-Based Chatbots in Genetic Counseling Practice: Current Uptake, Utilization, and Perspectives",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.05.21.26353789v1.full",
+          "date": "2026-05-21",
+          "whatItMeasured": "Cross-sectional survey (Oct 2024-Apr 2025) of 160 practicing genetic counselors (15.0% response rate) and 57 genetic counseling students (18.4% response rate) across 38 US states and 3 Canadian provinces, measuring self-reported AI chatbot use, task-delegation attitudes, and confidence in AI performing specific counseling tasks."
+        }
+      ],
+      "scope": "Covers only self-reported attitudes and low current adoption among North American genetic counselors and students surveyed through April 2025 (15.0-18.4% response rate limits representativeness); it measures stated attitudes and behavior, not actual job displacement, wage effects, or task automation that has occurred, and does not apply to Australian genetic counsellors without an explicit caveat.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L2-2",
+      "text": "Genetic counselors received the highest AI Occupational Exposure (AIOE) score of any occupation in the peer-reviewed Felten-Raj-Seamans measure (built from O*NET task/ability data and AI-application ratings), and a 2025 US think-tank report using that same measure again placed genetic counselors in its top exposure quintile, reasoning that risk assessment from gene panels and family history aligns closely with current AI application capabilities.",
+      "lane": "L2",
+      "tier": "peer-reviewed measure + institutional report",
+      "sources": [
+        {
+          "publisher": "Economic Innovation Group",
+          "title": "AI and Jobs: The Final Word (Until the Next One)",
+          "url": "https://eig.org/ai-and-jobs-the-final-word/",
+          "date": "2025-08-10",
+          "whatItMeasured": "US think-tank labour-market report applying the Felten et al. (2021, Strategic Management Journal) AI Occupational Exposure (AIOE) index, itself constructed from US O*NET occupational task/ability data cross-referenced with AI-application ratings from roughly 2,000 crowdworkers, to rank US Census/SOC occupations including genetic counselors by AI exposure."
+        }
+      ],
+      "scope": "The source supports genetic counselors being placed among the AIOE measure's most-exposed occupations / top exposure quintile, not holding the single highest AIOE score of any occupation -- that specific superlative is not supported and should be dropped. AIOE remains a task-similarity exposure score agnostic to whether AI substitutes for or complements the worker, so even top-quintile placement does not by itself imply job loss, wage change, or actual automation, and the underlying O*NET task data are US-specific, requiring an explicit caveat before applying the ranking to Australian genetic counsellors.",
+      "disposition": "corrected",
+      "refuted": false
+    },
+    {
+      "id": "L3-1",
+      "text": "In a November 2025 CGTlive interview, genetic counselor Colleen Caleshu argued AI will not replace genetic counselors but could extend access by handling patients whose needs are straightforward, while people needing complex, personalized care continue to see human counselors.",
+      "lane": "L3",
+      "tier": "trade press (specialty clinical publication)",
+      "sources": [
+        {
+          "publisher": "CGTlive (Cell & Gene Therapy Live)",
+          "title": "Colleen Caleshu, MS, CGC, on Whether AI Will Replace Genetic Counselors",
+          "url": "https://www.cgtlive.com/view/caleshu-whether-ai-replace-genetic-counselors",
+          "date": "2025-11-12",
+          "whatItMeasured": "A trade-press interview capturing one genetic counselor's professional opinion; not a survey, workforce count, or clinical-outcomes study."
+        }
+      ],
+      "scope": "One practitioner's stated 'middle ground' opinion offered in a trade-press interview tied to a US professional conference, not a workforce-wide survey, a measured access-gap figure, or a quantified AI-performance claim; also not evidence specific to Australian genetic counselling practice.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-2",
+      "text": "The National Society of Genetic Counselors' Perspectives newsletter (Issue 7, April 2026) reported that a special Journal of Genetic Counseling issue found growing recognition that AI integration into genetic-counselor graduate education is now seen as inevitable, while faculty voiced concern about students losing writing skills and developing AI dependency.",
+      "lane": "L3",
+      "tier": "professional-body publication (NSGC newsletter)",
+      "sources": [
+        {
+          "publisher": "National Society of Genetic Counselors (NSGC), Perspectives newsletter",
+          "title": "AI/ML in Genomics and Genetic Counseling: Issue 7",
+          "url": "https://perspectives.nsgc.org/Article/aiml-in-genomics-and-genetic-counseling-issue-7-1",
+          "date": "2026-04-09",
+          "whatItMeasured": "A professional-body newsletter summarizing a special journal issue and faculty commentary on AI in genetic-counseling education; not a measured competency or outcomes study itself (that underlying journal special issue is a separate, uncited-here primary source)."
+        }
+      ],
+      "scope": "Professional-body-relayed sentiment from faculty commentary and a summarized special journal issue about US genetic-counseling graduate education; not a quantified measure of student competency loss, a clinical-practice or employment claim, or evidence about Australian genetic-counselling training programs.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-3",
+      "text": "NSGC's Perspectives newsletter (Issue 10, August 2026) framed AI as able to accelerate variant interpretation and rare-disease diagnosis and extend patient support between visits, while warning that reliance on AI risks eroding genetic counselors' critical-thinking and advocacy skills absent robust institutional governance.",
+      "lane": "L3",
+      "tier": "professional-body publication (NSGC newsletter)",
+      "sources": [
+        {
+          "publisher": "National Society of Genetic Counselors (NSGC), Perspectives newsletter",
+          "title": "AI/ML in Genomics and Genetic Counseling: Issue 10",
+          "url": "https://perspectives.nsgc.org/Article/aiml-in-genomics-and-genetic-counseling-issue-10",
+          "date": "2026-08-05",
+          "whatItMeasured": "Editorial/commentary framing by the professional body on AI's promise and risk in the field; not a primary trial or workforce-displacement measurement."
+        }
+      ],
+      "scope": "Editorial/commentary framing by the US professional body on AI's promise and risk in the field, not a primary trial or a measured diagnostic-delay, productivity, or displacement figure, and not evidence specific to Australian genetic-counselling practice.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-1",
+      "text": "In a December 2025 Substack post, licensed genetic counselor Jordana Graifman argued practitioners should ask not whether AI will replace genetic counselors but which parts of the job AI will take over, proposing AI handle pedigree drafting, intake logistics and routine pre/post-test education while counselors focus on high-stakes results, rare cases and emotional support.",
+      "lane": "L5",
+      "tier": "practitioner blog (Substack, individual author)",
+      "sources": [
+        {
+          "publisher": "Substack (jordanagraifman.substack.com)",
+          "title": "How will AI transform the field of genetic counseling?",
+          "url": "https://jordanagraifman.substack.com/p/how-will-ai-transform-the-field-of",
+          "date": "2025-12-09",
+          "whatItMeasured": "Personal essay by a practicing licensed clinical genetic counselor (MS, LCGC) reflecting on her own view of AI's role in her field; not a survey or study."
+        }
+      ],
+      "scope": "Reflects one practitioner's personal opinion essay published to a US-focused Substack, not a measured or documented current division of labor in genetic-counseling practice, and not evidence of prevalence of this view across the workforce or of applicability to Australian practice.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-2",
+      "text": "The April 2026 issue of the National Society of Genetic Counselors' Perspectives newsletter reported that genetic counseling faculty are concerned AI tools like ChatGPT may hinder students' writing-skill development and create dependency, and separately flagged legal-scholar concerns that AI-based clinical monitoring systems could reduce clinician autonomy, while noting only 13% of studies on LLM-based virtual-patient tools used validated assessment frameworks.",
+      "lane": "L5",
+      "tier": "professional-body newsletter (NSGC Perspectives)",
+      "sources": [
+        {
+          "publisher": "National Society of Genetic Counselors (NSGC), Perspectives newsletter",
+          "title": "AI/ML in Genomics and Genetic Counseling: Issue 7",
+          "url": "https://perspectives.nsgc.org/Article/aiml-in-genomics-and-genetic-counseling-issue-7-1",
+          "date": "2026-04-09",
+          "whatItMeasured": "Newsletter compiled by NSGC's Genomic Technologies SIG AI/ML Subcommittee synthesizing recent literature, conference talks and member perspectives on AI/ML in the field; not itself a primary survey of the membership."
+        }
+      ],
+      "scope": "A curated professional-society digest synthesizing literature, conference talks, and member perspectives -- not a representative poll of NSGC's full membership; the 13% figure describes published studies of LLM-based virtual patients generally (3 of 23 studies), not genetic-counseling-specific tool adoption, and none of it is evidence about Australian practice.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-3",
+      "text": "Speaking at the November 2025 NSGC annual conference, genetic counselor Colleen Caleshu (senior director of research and real-world data at Genome Medical) argued unprompted that AI could help close access gaps in genetic counseling by serving patients whose needs can be met without a human counselor, framing this as freeing counselors for complex cases rather than a threat of replacement.",
+      "lane": "L5",
+      "tier": "trade-press interview quoting a practitioner at a professional conference",
+      "sources": [
+        {
+          "publisher": "CGTLive",
+          "title": "Colleen Caleshu, MS, CGC, on Whether AI Will Replace Genetic Counselors",
+          "url": "https://www.cgtlive.com/view/caleshu-whether-ai-replace-genetic-counselors",
+          "date": "2025-11-12",
+          "whatItMeasured": "Interview with one practicing genetic counselor conducted at the 44th NSGC Annual Conference (Nov 6-10, 2025, Seattle); her own stated views, not a survey of conference attendees."
+        }
+      ],
+      "scope": "One individual's viewpoint captured as an interview response (not unprompted commentary) by trade media around a single US conference; not evidence of consensus among practicing genetic counsellors, of what proportion hold this 'augmentation' view, or of anything specific to the Australian workforce.",
+      "disposition": "scoped",
+      "refuted": false
+    }
+  ],
+  "jobAds": {
+    "source": "none",
+    "query": "",
+    "window": "",
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "STALE LINK: dropped claim L1-1 (HGSA GC-Certification-Submissions-Changes-to-Submission-Dates.aspx returned a genuine 404 on verification; could not re-source within this session's exhausted WebSearch budget, and the surviving Certification-Committee.aspx source could not be independently confirmed to state the same specific fact via WebFetch — also blocked)",
+      "site:reddit.com genetic counseling AI ChatGPT worried job",
+      "r/geneticcounseling AI",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable — no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}

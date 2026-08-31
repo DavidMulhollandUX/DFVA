@@ -1,0 +1,211 @@
+{
+  "onet_soc_code": "0615",
+  "title": "Sonographer",
+  "aliases": [
+    "Diagnostic Medical Sonographer",
+    "Ultrasound Technologist",
+    "Medical Imaging Technologist"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-cu"
+  ],
+  "claims": [
+    {
+      "id": "L1-1",
+      "text": "As of September 2025, sonographers in Australia remain outside the Health Practitioner Regulation National Law (AHPRA/National Registration and Accreditation Scheme), and the peak health ministers' review of that scheme endorsed only preparatory steps -- revising the risk-assessment process for admitting new professions by mid-2026 -- rather than admitting sonography.",
+      "lane": "L1",
+      "tier": "government/regulator communique",
+      "sources": [
+        {
+          "publisher": "Australasian Sonographers Association (ASA), citing the Health Ministers Meeting communique",
+          "title": "National Registration and Accreditation Scheme Complexity Review – key outcomes for sonography",
+          "url": "https://www.sonographers.org/article/national-registration-and-accreditation-scheme-complexity-review---key-outcomes-for-sonography",
+          "date": "2025-09-12",
+          "whatItMeasured": "Reports the 12 September 2025 Health Ministers Meeting decision on the NRAS Complexity Review's 26 recommendations, including confirmation that audiology (a comparator imaging/allied-health profession) will be admitted to AHPRA regulation while sonography's entry remains pending a revised risk-assessment process due mid-2026."
+        },
+        {
+          "publisher": "Queensland Office of the Health Ombudsman",
+          "title": "National Code of Conduct for Health Care Workers",
+          "url": "https://www.oho.qld.gov.au/for-providers/national-code-of-conduct-for-health-care-workers",
+          "date": "best known: page current as of search (2026-08)",
+          "whatItMeasured": "State regulator's own description of the National Code of Conduct for Health Care Workers, explicitly listing 'sonographer' among the unregistered occupations bound by the code rather than by AHPRA registration."
+        }
+      ],
+      "scope": "Confirms only the AHPRA/NRAS regulatory-status fact and the mid-2026 process step, both as of the dates measured. It does not measure sonographer sentiment toward NRAS entry, workforce demand, or whether the mid-2026 risk-assessment revision will actually lead to admission — the ASA's framing that audiology's inclusion 'strengthens the case' for sonography is advocacy, not a ministerial commitment.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L1-2",
+      "text": "On 21 July 2025 the Australasian Sonographers Association (ASA) and the Australian Sonographer Accreditation Registry (ASAR) jointly launched a new Code of Conduct for Sonographers, setting 21 standards of professional conduct that ASAR-accredited sonographers in Australia and New Zealand are expected to follow, replacing the prior 2015/2022 codes.",
+      "lane": "L1",
+      "tier": "professional accreditation-body instrument",
+      "sources": [
+        {
+          "publisher": "Australasian Sonographers Association / Australian Sonographer Accreditation Registry",
+          "title": "New Code of Conduct for Sonographers launched",
+          "url": "https://www.sonographers.org/article/new-code-of-conduct-for-sonographers-launched",
+          "date": "2025-07-21",
+          "whatItMeasured": "Direct announcement by the two bodies that jointly govern sonographer accreditation in Australia/NZ, describing the content, scope (21 standards) and launch date of the replacement Code of Conduct."
+        },
+        {
+          "publisher": "Australasian Sonographers Association / Australian Sonographer Accreditation Registry",
+          "title": "Code of Conduct for Sonographers 2025 (PDF)",
+          "url": "https://www.sonographers.org/publicassets/8792f4b8-7b60-f011-913f-0050568796d8/Code-of-Conduct-for-Sonographers-2025.pdf",
+          "date": "2025-07",
+          "whatItMeasured": "The primary instrument text itself, stating it is intended to complement statutory codes (e.g. the Medical Radiation Practice Board of Australia Code of Conduct and the National Code of Conduct for Health Care Workers) for the sonography workforce."
+        }
+      ],
+      "scope": "Confirms the existence, launch date, and content of a voluntary joint ASA/ASAR standards instrument. ASA and ASAR have no statutory power to compel compliance the way an AHPRA National Law board can, so this is not evidence of legal enforceability, and it carries no information about practitioner sentiment toward the code.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L2-1",
+      "text": "In a 2025 Australian crossover study, an AI/automation-enabled transthoracic echocardiography protocol reduced sonographers' scan time by 25% (13.4 vs 18.0 minutes) and console keystrokes by 54% (230.9 vs 502.8) compared with a standard protocol, both p<0.001.",
+      "lane": "L2",
+      "tier": "peer-reviewed clinical workflow study",
+      "sources": [
+        {
+          "publisher": "Echo Research and Practice (Springer Nature, BSE)",
+          "title": "Can automation and artificial intelligence reduce echocardiography scan time and ultrasound system interaction?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12168272/",
+          "date": "2025-06-16",
+          "whatItMeasured": "Single-center Australian crossover study (University of South Australia, Swinburne University of Technology, Flinders Medical Centre) with 2 sonographers scanning 35 volunteers under two protocols (70 total echocardiograms), timing scan duration, keystrokes, and console-reach time."
+        }
+      ],
+      "scope": "Measures within-scan efficiency for one exam type (transthoracic echo) on 35 healthy volunteers (mean age 39.5, 74% female) scanned by 2 sonographers at a single Adelaide site. Does not support a claim about job loss, staffing levels, or task elimination, and the authors themselves flag the small sample and non-diverse patient population as limits on generalizability.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L2-3",
+      "text": "In a 37-country European survey (2,206 respondents including 46 sonographers), 79.9% of imaging professionals agreed AI would only assist rather than replace their role, while opinion was split on future job prospects (32.3% expected more opportunities, 30.1% expected fewer, 32.6% expected no change).",
+      "lane": "L2",
+      "tier": "peer-reviewed survey (Europe)",
+      "sources": [
+        {
+          "publisher": "Insights into Imaging (Springer Nature) / European Federation of Radiographer Societies",
+          "title": "R-AI-diographers: a European survey on perceived impact of AI on professional identity, careers, and radiographers' roles",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11832980/",
+          "date": "2025-02-17",
+          "whatItMeasured": "Online survey of 2,206 diagnostic radiographers, therapeutic radiographers, nuclear medicine technologists and sonographers across 37 European countries (fielded June-August 2023), measuring self-reported/perceived views on AI's effect on jobs and professional identity."
+        }
+      ],
+      "scope": "Sonographers are only 46 of 2206 respondents (2.1%) within a mostly-radiographer sample; results are self-reported perceptions, not a measured task or employment effect, from a survey fielded June-August 2023 and published 2025-02-17 (just before this batch's discourse window) across 37 European countries, not Australia. Treat as an older European sentiment reference rather than a fresh 2025/2026 Australian signal.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L3-1",
+      "text": "At the American Institute of Ultrasound in Medicine's (AIUM) 2026 annual meeting, keynote speaker Dr. Alison Noble described AI as an evolving aid that helps sonographers manage workload and extend care to underserved areas, while cautioning that clinical trust and real-world reliability remain unresolved barriers to adoption.",
+      "lane": "L3",
+      "tier": "trade press (imaging specialty outlet, conference coverage)",
+      "sources": [
+        {
+          "publisher": "AuntMinnie",
+          "title": "AIUM: AI has evolving role in ultrasound",
+          "url": "https://www.auntminnie.com/clinical-news/ultrasound/article/15826275/aium-ai-has-evolving-role-in-ultrasound",
+          "date": "2026-05-28",
+          "whatItMeasured": "Trade-press report of a keynote address at the AIUM annual meeting; not a study or survey, so the claim is limited to what the speaker said, not an independently measured outcome."
+        }
+      ],
+      "scope": "Reports one expert's characterization at a single conference keynote, illustrated mainly by low-resource-setting deployments (Kenya, India), not a quantified productivity, accuracy, or job-displacement study, and not an institutional AIUM or ASA position.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-2",
+      "text": "A sonography-industry trade blog reported that, against a background of sonography vacancy rates that rose from 6.9% in 2021 to 16.7% in 2023 and stood at 12.4% in 2025 with over half of sonographers reporting moderate-to-severe burnout, AI-assisted acquisition, automated measurement, and workflow tools are being positioned by the imaging industry as 'capacity multipliers, not replacements for sonographers.'",
+      "lane": "L3",
+      "tier": "trade press (cardiovascular/imaging staffing industry blog)",
+      "sources": [
+        {
+          "publisher": "Cardioserv",
+          "title": "Growing Demand, Shrinking Workforce: The Sonographer Shortage Facing Imaging Labs",
+          "url": "https://www.cardioserv.net/sonographer-shortage/",
+          "date": "2026-04-13",
+          "whatItMeasured": "Trade commentary compiling workforce vacancy-rate and burnout figures (sourced from prior industry workforce surveys, not run by Cardioserv itself) and articulating an industry framing of AI's role; not a primary study."
+        }
+      ],
+      "scope": "The vacancy-rate and burnout figures are compiled by Cardioserv from separate primary workforce surveys it does not itself run or fully cite — treat any reuse of these specific percentages as needing the primary survey, not this article, as the citation. The 'capacity multipliers' framing is industry commentary, not a measured outcome of actual AI deployment in imaging labs.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-3",
+      "text": "Trade press covering the March 2025 GE HealthCare–NVIDIA partnership on autonomous ultrasound reported that the companies aim to reduce sonographer physical strain and daily workload through AI-driven image understanding and robotic navigation, citing industry figures that about 90% of sonographers report work-related musculoskeletal disorders and 81% of U.S. health systems report radiology technologist shortages.",
+      "lane": "L3",
+      "tier": "trade press (imaging-technology industry outlet, product/partnership announcement coverage)",
+      "sources": [
+        {
+          "publisher": "Imaging Technology News (ITN)",
+          "title": "GE HealthCare, NVIDIA Expand Relationship Focusing on Autonomous Imaging",
+          "url": "https://www.itnonline.com/content/ge-healthcare-nvidia-expand-relationship-focusing-autonomous-imaging",
+          "date": "2025-03-18",
+          "whatItMeasured": "Trade-press coverage of a vendor partnership announcement; the 90%/81% figures are industry statistics cited by the article (original source not identified in the piece), not findings the article itself measured."
+        }
+      ],
+      "scope": "Describes a March 2025 development partnership and stated intent, not a deployed and independently evaluated autonomous-ultrasound product. The 90%/81% figures are industry statistics the article cites without naming their original source — treat them as unverified pass-through statistics, not ITN-original findings. Does not support a claim that autonomous scanning is currently displacing sonographer tasks in practice.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-1",
+      "text": "On the practitioner-run podcast Sonographers After Dark, sonographer and educator Lashell Jones (RDMS-RDCS) discussed how AI tools are changing workflows and improving efficiency in maternal-fetal medicine and echocardiography, while stressing that empathy, skill, and human connection must stay central to sonographer practice.",
+      "lane": "L5",
+      "tier": "podcast (practitioner-hosted)",
+      "sources": [
+        {
+          "publisher": "Sonographers After Dark (podcast, hosted by sonographer Lara Williams)",
+          "title": "AI, Education & Evolution in Ultrasound — A Conversation with Lashell Jones",
+          "url": "https://www.sonographersafterdark.com/podcast/ai-education-evolution-in-ultrasound-a-conversation-with-lashell-jones",
+          "date": "2025-11-07",
+          "whatItMeasured": "One-off recorded conversation between a practicing sonographer/educator and a sonographer-podcast host; not a survey, no sample size, single practitioner's stated views"
+        }
+      ],
+      "scope": "One practitioner's recorded conversation on a practitioner-hosted podcast — not a survey, no sample size — so it does not support a claim about how common these views are across the sonography workforce. The 'RDMS-RDCS' credential claimed for the guest is unverified from the source checked and should be dropped or separately confirmed before reuse.",
+      "disposition": "scoped",
+      "refuted": false
+    }
+  ],
+  "jobAds": {
+    "source": "none",
+    "query": "",
+    "window": "",
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "Jobs and Skills Australia AI impact medical imaging sonographer occupation exposure score",
+      "OECD digital and AI skills in health occupations sonographer medical imaging technologist findings (direct occupation-level figure not retrievable from PDF)",
+      "SDMS Society Diagnostic Medical Sonography artificial intelligence official statement 2025 2026 (no dated SDMS position statement found; only a 2025 conference PDF handout)",
+      "\"American Society of Sonographers\" 2025 position statement AI (organization appears not to exist under this name; likely fabricated by an SEO content aggregator — excluded per no-fabrication contract)",
+      "reddit sonography students worried AI job outlook echo tech",
+      "site:reddit.com sonography AI ultrasound",
+      "reddit r/sonography AI ultrasound automation jobs",
+      "allnurses.com forum \"ultrasound tech\" OR sonographer AI thread",
+      "\"diagnostic medical sonographer\" AI artificial intelligence job worried Reddit",
+      "sonographer blog \"I use AI\" OR \"AI in my practice\" ultrasound personal experience 2025 2026",
+      "\"Sonographers in the Cities\" podcast AI artificial intelligence episode",
+      "\"sonographer\" LinkedIn article artificial intelligence ultrasound 2025 opinion",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable — no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}
