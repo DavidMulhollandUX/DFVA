@@ -1,0 +1,135 @@
+{
+  "code": "mc-entrpsp",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Anchor Level 2: 'At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity.' Group-assessed work with individual accountability recurs across compulsory, constrained-elective and capstone core units, including the capstone outcome 'Demonstrate team collaboration skills in the generation of an entrepreneurial product' and paired group/individual assessment items throughout the core. Level 3 requires 'coordinating work across people AND tools/AI systems' with that division of labour itself assessed; no core unit documents this, so the item does not advance beyond 2.",
+      "evidenceLines": [
+        "Demonstrate team collaboration skills in the generation of an entrepreneurial product",
+        "Group presentation on a business model based (10 mins) and written report (1500 words per student equivalent) (groups of 2-4)",
+        "Group assignment (4-5 students per group)",
+        "Project proposal (groups of 3-4), 3000 words per student",
+        "Group feedback presentation (12 mins) and written project update (400 words per student) (groups of 3-4)"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Anchor Level 1: 'Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria.' MGMT90229 documents reflective-learning outcomes and assesses individual reflective writing on personal abilities, ethics and identity, but the extract never documents criterion-referenced appraisal (peer review, structured critique, portfolio standards, exemplar marking) in any core unit required for Level 2 — the only documented peer-review instances (BUSA90485, MGMT90165) sit in the single free-elective slot, not core.",
+      "evidenceLines": [
+        "how to set up and use opportunities for reflective learning",
+        "Describe the development of personal skills and values;",
+        "Written assignment - personal entrepreneurial abilities",
+        "Written assignment - ethical decision making",
+        "Written assignment- becoming an entrepreneur"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Anchor Level 1: 'AI or digital tools appear only as electives or as tool operation/training.' The only AI content in the extract, MGMT90267 'Artificial Intelligence in Organisations' — including its ethics-adjacent outcome — sits inside the single free-elective slot ('Students must choose one elective subject from:'), never in any compulsory, constrained-elective or capstone core unit. No core unit documents AI or digital-tool content at all.",
+      "evidenceLines": [
+        "Students must choose one elective subject from:",
+        "Artificial Intelligence in Organisations",
+        "Critically evaluate the opportunities, limitations, and ethicalities of adopting AI to create value for the organisation."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Anchor Level 3: 'a self-scoped capstone or research project.' The compulsory two-subject capstone sequence has students develop and validate their own venture concept end to end: MGMT90230 has students generate and formalise their own idea toward an assessed 'Project proposal', and MGMT90286 explicitly extends this ('further develop the ideas explored in the subject New Venture Creation: Initiation') with students working 'according to their entrepreneurial interests' toward an assessed individual project — a documented, assessed, progressive, self-scoped capstone.",
+      "evidenceLines": [
+        "Create a usable entrepreneur venture concept",
+        "Next, students will translate their ideas into an initial proposal and develop testable entrepreneurial hypotheses.",
+        "The purpose of this subject is to further develop the ideas explored in the subject New Venture Creation: Initiation and conduct validation to launch a viable entrepreneurial venture.",
+        "Students are expected to work according to their entrepreneurial interests and to extend learning from Semester 1.",
+        "Individual written project"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Anchor Level 2: 'Students design and conduct an inquiry with methodology selection and data collection, assessed.' MGMT90286 requires students to test and validate their business idea and iterate using customer/stakeholder feedback, with a compulsory, assessed validation-plan hurdle preceding graded validation-test work. Level 3 additionally requires methodology 'defended under scrutiny (viva, defence, or staged supervised review)'; the validation-plan hurdle gates progress but the extract does not document a defence or review of the methodology itself, so the item is held at 2 (see ambiguities).",
+      "evidenceLines": [
+        "During the subject, students will learn how to test and validate their business idea, develop a minimum viable product (MVP) and iterate using feedback from customers and other stakeholders.",
+        "Test, validate and reorientate strategic directions",
+        "Test and validate market opportunities",
+        "Group validation plan (groups of 3-4). 350 words equivalent per student",
+        "Hurdle requirement: A proper validation plan is required in order to carry out validation tests. Students cannot proceed in the subject without successfully completing this task"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Anchor Level 2: 'at least one core assessment requires a recognised professional genre or an audience beyond the teaching team ... pitch ... judged against criteria drawn from professional practice.' The capstone assesses an investor-style pitch in both MGMT90230 ('produce a pitch document and give a presentation', 'Demonstrate skills in pitching entrepreneurial ideas to the investor community') and MGMT90286 ('Group pitch presentation (15 mins) and accompanying poster (400 words)'). Level 3 additionally requires delivery to or judgement by 'a real external audience or practitioner'; the extract documents only rhetorical framing ('investor community', 'relevant business audiences') and never states who actually judges the presentations, so it is not held to Level 3.",
+      "evidenceLines": [
+        "At the end of the subject term, students will produce a pitch document and give a presentation.",
+        "Demonstrate skills in pitching entrepreneurial ideas to the investor community",
+        "Group presentation (groups of 3-4)",
+        "Group pitch presentation (15 mins) and accompanying poster (400 words) (groups of 3-4)",
+        "Demonstrate skills in presenting to relevant business audiences"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Anchor Level 2: 'at least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice.' The New Venture Creation capstone has students build and pitch an actual venture, learn to 'establish viability of their entrepreneurial concepts and pivot their initial models', and apply lean-startup/design-thinking methodology to a real business model. Level 3 requires this to be 'the program's assessment spine ... a capstone plus earlier scaffolding, or at least one per stage'; the other four compulsory core units remain case-study-based with academic artefacts and criteria in the extract, so the spine requirement is not documented (see ambiguities).",
+      "evidenceLines": [
+        "Students also learn pitching skills to communicate their ideas, with the goal of persuading investors and acquiring resources for growth.",
+        "In this process, students learn skills to establish viability of their entrepreneurial concepts and pivot their initial models.",
+        "Analyse business environment to create and refine business models",
+        "Critically apply and evaluate lean start-up and design thinking methodologies"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Anchor Level 1: 'Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity.' Placement-type subjects (BUSA90525 Business and Economics Internship, BUSA90485 Global Business Practicum, BUSA90473 Business Practicum) appear only among the many options for the program's single free elective, never in the compulsory, constrained-elective or capstone core.",
+      "evidenceLines": [
+        "1 elective subject from the approved elective options (12.5 points)",
+        "This subject involves the completion of a professional work placement (internship) either:",
+        "Satisfactory work placement"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Anchor: 'an all-compulsory specialist core ... or a staged prerequisite chain.' The course structure documents an all-entrepreneurship-discipline compulsory core plus a staged two-subject capstone where the second subject is explicitly sequenced on the first.",
+        "evidenceLines": [
+          "2 capstone subjects (25 points)",
+          "The purpose of this subject is to further develop the ideas explored in the subject New Venture Creation: Initiation and conduct validation to launch a viable entrepreneurial venture."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Anchor: 'capstones ... with real uncertainty and accountability.' MGMT90286 requires students to test, validate and reorientate strategic directions for an actual venture using real customer feedback, gated by a hurdle that blocks progression without a proper validation plan — documenting real market uncertainty and accountability rather than recall or scripted response.",
+        "evidenceLines": [
+          "Test, validate and reorientate strategic directions",
+          "During the subject, students will learn how to test and validate their business idea, develop a minimum viable product (MVP) and iterate using feedback from customers and other stakeholders.",
+          "Hurdle requirement: A proper validation plan is required in order to carry out validation tests. Students cannot proceed in the subject without successfully completing this task"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2: MGMT90229's reflective written assignments (personal entrepreneurial abilities, ethical decision making, becoming an entrepreneur) are assessed but the extract documents no explicit marking criteria for the appraisal, straddling Level 0 ('no assessment requires appraising quality of work') and Level 1 ('reflection appears in outcomes ... not assessed against criteria') — resolved to Level 1, the anchor matching the documented reflective-learning outcome and assessed reflective writing, and not resolved upward to Level 2 absent documented criteria.",
+      "C5: MGMT90286's validation-plan hurdle ('cannot proceed ... without successfully completing this task') reads as a staged supervised-review checkpoint that could support Level 3's 'defended under scrutiny', but the extract does not document an actual defence or review of the methodology itself (only a pass/fail gate before proceeding) — resolved to Level 2 per the lower-level rule.",
+      "W2: The two-subject New Venture Creation capstone reproduces the venture-creation and validation process end to end with real customer feedback, which could be read as the program's assessment spine across two stages (Level 3); but the extract documents no comparably authentic, end-to-end professional task design in the four other compulsory core units (MGMT90225, FNCE90089, MGMT90228, MGMT90229), which remain case-study/academic in artefact and criteria — resolved to Level 2 per the lower-level rule."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-31"
+      },
+      "mechanical": true,
+      "date": "2026-08-31"
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "code": "mc-ibl",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 ('At least one core unit assesses collaborative practice — group projects with individual accountability'). Assessed group presentations/reports recur across multiple core units: MGMT90254, MGMT90287, MGMT90288 and MGMT90300 each carry an assessed group task, and MGMT90303 pairs a group presentation with individual practicum reports for individual accountability. No evidence in the extract shows an assessment requiring coordination of work across people AND tools/AI systems (Level 3's second conjunct) — no AI or digital-tool coordination content appears anywhere in the core.",
+      "evidenceLines": [
+        "Group Presentation - Collective Leadership Team Project",
+        "Group Presentation – Indigenous Hybrid Venture Prototype",
+        "Group Report - Indigenous Hybrid Venture Prototype",
+        "Group Presentation & Report",
+        "Group (2-3 students) business model presentation",
+        "Group Presentation (2-3 students) 20 minutes per group",
+        "Individual Practicum report - detailing the placement, reflections, themes, and case study"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1. Reflection is formally assessed in core units — MGMT90302's 'Individual / Personal standpoint critical reflection' (30%) and MGMT90287's 'Individual Assignment - Reflective Learning Journal' and 'Individual Assignment - Personal Reflection Video' — which exceeds a mere outcomes-statement. But none of this is documented as criterion-referenced appraisal of the quality of work (own, peer's, or a tool's): no peer review, structured critique of others' work, portfolio with standards, or marking against exemplars appears anywhere in the extract, so Level 2 is not met. Ambiguous whether assessed personal-standpoint reflection satisfies Level 2's 'criterion-referenced appraisal of quality'; resolved to the lower Level 1 per the ambiguity rule.",
+      "evidenceLines": [
+        "Individual / Personal standpoint critical reflection",
+        "Individual Assignment - Personal Reflection Video",
+        "Individual Assignment - Reflective Learning Journal"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 ('AI or digital tools appear only as electives or as tool operation/training'). Digital-tool content appears only within elective Core Foundation subjects, as tool operation: MGMT90239 has students 'Apply the Excel Solver to solve the mathematical models and analyze the solutions,' and ECON90076 lists 'Application of Windows software' among generic skills. No core (compulsory) unit addresses AI capabilities, limitations, ethics or governance — no mention of generative AI, or of digital tools at all, appears in any compulsory subject in the extract — so Level 2 is not met.",
+      "evidenceLines": [
+        "Apply the Excel Solver to solve the mathematical models and analyze the solutions",
+        "Application of Windows software"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2. Core assessments apply learning to novel/real-world problems: MGMT90300's 'Individual Market validation project report' and MGMT90303's outcome 'Critically apply theory and practice of graduate level studies in Indigenous business leadership to resolving real-world business/organisational issues.' MGMT90306's self-scoped 10,000-word research project ('select a topic to critically engage..., design research question/s, conduct original research') matches the Level 3 anchor's 'self-scoped capstone or research project,' but it sits within the 50-credit-point Industry-or-Research option — one of two routes documented in the course structure ('50 credit points of Industry or Research option') — so it is not guaranteed to every student. Ambiguous whether an optional-route capstone can satisfy Level 3; resolved to the lower Level 2.",
+      "evidenceLines": [
+        "Individual Market validation project report",
+        "Critically apply theory and practice of graduate level studies in Indigenous business leadership to resolving real-world business/organisational issues",
+        "This research essay asks the student to select a topic to critically engage (with approval from the course convenor), design research question/s, conduct original research and present a 10,000 word research essay.",
+        "50 credit points of Industry or Research option:"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 ('Students design and conduct an inquiry with methodology selection and data collection, assessed'). MGMT90306 has students 'design research question/s and apply ethical research methods and methodologies' and 'conduct original research,' assessed via a 10,000-word Research Essay (100%): methodology selection and data collection are documented and assessed. Level 3 requires the inquiry project to be REQUIRED, 'not one route among several' — but the course structure documents it as one of two 50-credit-point options ('50 credit points of Industry or Research option'), so Level 3 is excluded by the anchor's own text regardless of the project's quality.",
+      "evidenceLines": [
+        "This research essay asks the student to select a topic to critically engage (with approval from the course convenor), design research question/s, conduct original research and present a 10,000 word research essay.",
+        "Develop research question/s and apply ethical research methods and methodologies",
+        "50 credit points of Industry or Research option:"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 ('a recognised professional genre... judged against criteria drawn from professional practice'). MGMT90300 assesses a recognised professional genre: outcome 'Design and deliver a compelling pitch tailored to a target audience,' assessed as 'Group (2-3 students) business model presentation' (30%). The extract does not document that this or any other compulsory assessment is delivered to, or judged by, a real external audience or practitioner (no client, industry panel, or practitioner assessor is named for any compulsory subject), so Level 3's external-audience/accountability requirement is not met.",
+      "evidenceLines": [
+        "Design and deliver a compelling pitch tailored to a target audience",
+        "Group (2-3 students) business model presentation"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 ('at least one core assessment reproduces a professional task end to end'). MGMT90287's 'Group Presentation – Indigenous Hybrid Venture Prototype' / 'Group Report - Indigenous Hybrid Venture Prototype', and MGMT90300's 'Individual Final venture report', produce artefacts (a venture prototype, a venture report) that a practitioner would produce. MGMT90303's practicum places students in 'a strategic work placement within the Indigenous business sector... to connect their academic learning with practical application in a workplace setting' — a genuine constraint of practice (a real host organisation). These recurring instances (foundation, compulsory and practicum subjects) could constitute the 'assessment spine' Level 3 requires, but the extract does not explicitly state that assessment criteria for these tasks are drawn from professional practice standards — a condition Level 2 itself requires. Ambiguous between Level 2 and Level 3; resolved to the lower Level 2.",
+      "evidenceLines": [
+        "Group Presentation – Indigenous Hybrid Venture Prototype",
+        "Group Report - Indigenous Hybrid Venture Prototype",
+        "Individual Final venture report",
+        "This subject focuses on a strategic work placement within the Indigenous business sector to encourage the application of coursework from across students’ study in the Graduate Certificate and Masters of Indigenous Business Leadership coursework. It aims to give students structure to connect their academic learning with practical application in a workplace setting."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2. MGMT90303 Indigenous Business Practicum is a core (compulsory) unit that places students in a real workplace/community setting: 'This subject focuses on a strategic work placement within the Indigenous business sector,' 'The subject offers students the opportunity to support an Indigenous business or organisation in their own communities,' assessed via induction/placement plan, group presentation, and individual practicum reports ('detailing the placement, reflections, themes, and case study'). It is a single 12.5-credit-point subject, not documented as extended or as a sequence, matching Level 2's 'short or stands alone' rather than Level 3's 'extended placement... or a sequence of them.'",
+      "evidenceLines": [
+        "This subject focuses on a strategic work placement within the Indigenous business sector to encourage the application of coursework from across students’ study in the Graduate Certificate and Masters of Indigenous Business Leadership coursework.",
+        "The subject offers students the opportunity to support an Indigenous business or organisation in their own communities.",
+        "Individual Practicum report - detailing the placement, reflections, themes, and case study",
+        "Individual Practicum report – detailing the placement, reflections, themes, and case study. Individual Reflective Paper that details group presentation discussions, practicum learnings and application"
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The course structure documents an all-compulsory specialist core: '37.5 credit points of Compulsory Foundation subjects' (Indigenous Business Philosophy, Indigenous Business Ecosystems, Indigenous Business Leadership) and '50 credit points of Compulsory subjects' (Indigenising Human Resource Management, Indigenous Commercialisation, Indigenous Markets and Marketing, Indigenous Business Practicum) — seven compulsory subjects, all specific to Indigenous business leadership, giving the program a clear disciplinary identity distinct from generic business content.",
+        "evidenceLines": [
+          "37.5 credit points of Compulsory Foundation subjects",
+          "50 credit points of Compulsory subjects",
+          "Indigenous Business Philosophy",
+          "Indigenous Business Ecosystems",
+          "Indigenous Business Leadership",
+          "Indigenising Human Resource Management",
+          "Indigenous Commercialisation",
+          "Indigenous Markets and Marketing",
+          "Indigenous Business Practicum"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "MGMT90303's practicum requires students to 'Identify key strategic questions, assess options related to the practicum, communicate progress and check direction with subject coordinator and the practicum organisation' within a real, live placement — genuine uncertainty and accountability. MGMT90300 (Indigenous Commercialisation) similarly requires students to validate the market potential of entrepreneurial ideas and 'Design and deliver a compelling pitch tailored to a target audience' for investment — a defended trade-off/venture decision, not recall or scripted response.",
+        "evidenceLines": [
+          "Identify key strategic questions, assess options related to the practicum, communicate progress and check direction with subject coordinator and the practicum organisation",
+          "students will validate the market potential of commercial entrepreneurial ideas",
+          "Design and deliver a compelling pitch tailored to a target audience"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2: assessed personal-standpoint reflection (MGMT90302, MGMT90287) is ambiguous between the Level 0 and Level 1 anchors — resolved to Level 1 because it is formally assessed but not documented as criterion-referenced appraisal of quality (own, peer, or tool).",
+      "C4: MGMT90306's self-scoped research project matches the Level 3 'self-scoped capstone or research project' anchor, but it sits in an optional Industry-or-Research route, not guaranteed to every student — resolved to the lower Level 2.",
+      "W1: MGMT90300's pitch assessment ('business model presentation') is a recognised professional genre, but the extract does not document whether its audience extends beyond the teaching team — resolved to Level 2, without crediting Level 3's external-audience/practitioner requirement.",
+      "W2: recurring realistic-task assessments (MGMT90287, MGMT90300, MGMT90303) could form the 'assessment spine' Level 3 requires, but the extract never states assessment criteria are drawn from professional practice — resolved to the lower Level 2."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-31"
+      },
+      "mechanical": true,
+      "date": "2026-08-31"
+    }
+  }
+}

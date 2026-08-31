@@ -1,0 +1,129 @@
+{
+  "code": "mc-tranint",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 met: at least one core unit assesses collaborative practice with client/stakeholder work — TRAN90022 (Capstone Stream 1) places students in project teams on real-client translation work, assessed at 60% via 'Supervised translation projects'. Level 3 not reached: R2/R3 require assessment-level evidence, and no compulsory or capstone subject shows assessed collaboration recurring across the program, nor an assessment where the division of work between people and AI/tool systems is itself graded (TRAN90011 assesses AI use individually, not as people-plus-tool coordination). Per the scoring-direction rule the ambiguity over whether a single capstone-route subject counts as 'core' is resolved by not crediting Level 3.",
+      "evidenceLines": [
+        "This subject engages students in real-world translation projects with actual clients. They will work in project teams and develop the necessary processes and professional skills to produce translations of publication quality.",
+        "Supervised translation projects (various tasks and deadlines throughout the semester)",
+        "Work effectively and productively in a group situation"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 met: TRAN90007 (compulsory) assesses 'Translation and peer reviews' (40%) explicitly framed against the NAATI 'Certified Translator' standards — criterion-referenced appraisal of quality. Level 3 (documenting/justifying reliance decisions, or defending AI-output-quality judgements) is not clearly assessed anywhere: TRAN90011's overview claims students 'critically assess the output of AI', but its graded items ('Assignments on AI-enhanced intercultural communication'; 'Scenario-based interactive oral assessment and written report') do not themselves specify reliance-decision justification as a criterion, so per R2 this is not usable as Level-3 evidence.",
+      "evidenceLines": [
+        "Using the standards for 'Certified Translator' from Australia's National Accreditation Authority for Translators and Interpreters (NAATI) as a framework, students will undertake regular practical tasks and sharpen their ability to review translations, identify errors, and compare and evaluate translation choices.",
+        "Translation and peer reviews"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2 met: TRAN90011 'AI and Intercultural Communication' is a compulsory core unit whose content explicitly covers AI capabilities together with limitations and ethics ('affordances and limitations of AI technologies', 'legal and ethical risks incurred by AI use'), and this content is assessed (two assignment items, 50% each) rather than merely offered as an elective. Level 3 not reached: the assessment-line descriptions themselves do not name bias, accountability, transparency, regulation or data governance as graded criteria — only the course overview does — so per R2/R3 the critique/governance bar is not documented at the assessment level.",
+      "evidenceLines": [
+        "Students will be trained to make effective and ethical use of various AI technologies for intercultural communication tasks including translation, language teaching, transnational marketing communications, and game localisation.",
+        "Through practical tasks and interactive activities, students will learn to critically assess the output of AI in intercultural communication tasks, and to adopt different paradigms and strategies for human-AI collaboration.",
+        "Understand the ethics of translation and interpreting in the digital age and resolve ethical dilemmas in their professional practice.",
+        "Assignments on AI-enhanced intercultural communication"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 3 met via the self-scoped-project route: Capstone Stream 2 (TRAN90012/TRAN90013 Translation and Interpreting Thesis) matches each student to a supervisor 'appropriate to their needs and research interests' and requires a staged, assessed progression toward an independently defined 12,000-word research or commented-translation project (Topic Proposal, then outline/synopsis, then full draft, ahead of final submission). This is the anchor's 'self-scoped capstone or research project' route. Ambiguity: Stream 2 is one of two capstone streams (the alternative, Stream 1, offers no comparably self-scoped project), so this evidence is route-dependent rather than guaranteed for every student; the C4 Level-3 anchor, unlike C5's, carries no 'not one route among several' exclusion, so it is scored as met. Demoted from 3 to 2 on verification (2026-08-31): the route-dependent Level-3 evidence (Stream 2 thesis) was resolved upward for C4 while the identical route-dependency was resolved downward for the same fact pattern in C5; the scoring-direction rule defaults ambiguity to the lower level, so applying opposite defaults to one fact pattern is unsupported.",
+      "evidenceLines": [
+        "Students will be matched with a supervisor appropriate to their needs and research interests. Under the guidance of this supervisor, students will produce a text of 12,000 words comprising a research project or commented translation/interpreting project approved by the coordinator or supervisor.",
+        "Demonstrate an ability to develop a topic and methodology suitable for a higher research degree or extended project of translation or interpreting",
+        "Topic Proposal: To be submitted by the first week of the semester of thesis enrolment.",
+        "Thesis outline and synopsis (to be submitted in week 3).",
+        "Thesis Draft: A full draft of the thesis is to be submitted approximately 2 weeks prior to the final thesis submission date."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 met: the Capstone Stream 2 thesis (TRAN90012/TRAN90013) has students design and conduct an inquiry with methodology selection, staged and assessed (topic proposal, methodology-bearing outline/synopsis, supervised draft) toward a 12,000-word research or commented-translation/interpreting project. Level 3 is explicitly excluded by the anchor's own text, which requires the primary-evidence project be 'REQUIRED (not one route among several)': the handbook shows the thesis is Capstone Stream 2, an alternative to Capstone Stream 1 (TRAN90021/TRAN90022/TRAN90027, or TRAN90010), so it is one route among several rather than required. Scored at the lower level per the ambiguity/scoring-direction rule and the anchor's explicit exclusion.",
+      "evidenceLines": [
+        "Students will be matched with a supervisor appropriate to their needs and research interests. Under the guidance of this supervisor, students will produce a text of 12,000 words comprising a research project or commented translation/interpreting project approved by the coordinator or supervisor.",
+        "Capstone Stream 2\n\nTRAN90012 Translation and Interpreting Thesis 1 (18.75 points) and TRAN90013 Translation and Interpreting Thesis 2 (18.75 points)"
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 met: TRAN90010 (Translation Internship, a capstone option) is graded in part by 'Evaluation report from industry partner' (10%) — a professional-genre judgement by an audience beyond the teaching team — and TRAN90022 explicitly has students 'communicating their ideas to peers, clients and external stakeholders'. Level 3 (professional communication assessed repeatedly and progressively across the program) is not documented: the compulsory core's presentation-style assessments (TRAN90008 'Presentation' 20%; TRAN90009 in-class presentation 20%; TRAN90007 'Live Q&A') are addressed to the teaching team/peers, not a professional or external audience, so recurrence of professional-genre assessment across the program is not shown. Scored at the lower level per the ambiguity rule.",
+      "evidenceLines": [
+        "Evaluation report from industry partner",
+        "Students will also gain invaluable experience in communicating their ideas to peers, clients and external stakeholders.",
+        "Presentation"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 3 met: the compulsory core supplies recurring, professionally-anchored task design as scaffolding — TRAN90007 explicitly judges 'regular practical tasks' against the NAATI 'Certified Translator' standards framework — and this is capped by a capstone instance carrying a genuine constraint of practice: TRAN90022 has students deliver real client translation work under 'various tasks and deadlines throughout the semester' judged to 'publication quality', and TRAN90010 places students in an actual industry partner's workplace for approximately 340 hours, assessed via a 'Translation portfolio' (60%). These are documented features (real clients, real deadlines, a named professional standards framework), not bare authenticity labels (R4). Ambiguity: Capstone Stream 2 (thesis) students may not encounter this specific client/placement constraint, so the 'spine' claim is not guaranteed for every student; scored 3 because three of the four capstone routes (TRAN90010, TRAN90022, TRAN90027) carry it and the anchor's phrasing ('a capstone plus earlier scaffolding') does not require universality. Demoted from 3 to 2 on verification (2026-08-31): the Level-3 'assessment spine' claim concedes that Stream-2 thesis students may not encounter the cited capstone constraint, then resolves that ambiguity upward against the instrument's default-downward rule; one compulsory-core subject plus a non-guaranteed capstone route documents a single instance (Level 2), not a program-wide spine.",
+      "evidenceLines": [
+        "Using the standards for 'Certified Translator' from Australia's National Accreditation Authority for Translators and Interpreters (NAATI) as a framework, students will undertake regular practical tasks and sharpen their ability to review translations, identify errors, and compare and evaluate translation choices.",
+        "This subject engages students in real-world translation projects with actual clients. They will work in project teams and develop the necessary processes and professional skills to produce translations of publication quality.",
+        "Translation portfolio"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2 met: TRAN90010 (Translation Internship) places students in a real workplace ('approximately 340 hours of professional work experience at an industry partner's premise') with practitioner accountability ('Evaluation report from industry partner', 10%) and structured reflection ('A journal of practical work experience', 30%); TRAN90027 (Practicum) offers a shorter, comparable placement (~80 hours). Level 3 requires this to be 'in the core' (required): the handbook instead shows workplace placement is optional — the capstone can be completed via TRAN90021 + TRAN90022 (both on-campus, no employer placement), via TRAN90010 alone, via TRAN90027 combined with another Stream 1 subject, or via the Stream 2 thesis with no placement at all — so extended, required, practitioner-supervised placement is not documented as a program-wide requirement. Scored at the lower level per the ambiguity rule; no evidence of the v4.2 in-practice route (the cohort is described as intending future, not current, professional practice).",
+      "evidenceLines": [
+        "Evaluation report from industry partner"
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist translation/interpreting core (six compulsory subjects, 75 points, all discipline-specific: theory and practice, Australian-context and Chinese-context translation, bidirectional translation, AI/intercultural communication) and is an accredited sequence, endorsed by NAATI at multiple certification levels — the anchor's 'accredited sequence' route to PASS.",
+        "evidenceLines": [
+          "Master of Translation and Interpreting is endorsed by the National Accreditation Authority for Translators and Interpreters Ltd, Australia (NAATI), at the levels of Certified Translator, Certified Advanced Translator, Certified Provisional Interpreter, Certified Interpreter, Certified (Specialist) Legal Interpreter.",
+          "Six compulsory subjects (75 points)"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Capstone options carry real uncertainty and accountability: TRAN90022 has students deliver actual client translation projects under real deadlines, and TRAN90010 places students in an industry partner's workplace for ~340 hours with an external evaluation report — both are live-project/placement routes with genuine stakes, meeting the anchor's 'simulations/capstones/live projects with real uncertainty and accountability' condition.",
+        "evidenceLines": [
+          "This subject engages students in real-world translation projects with actual clients. They will work in project teams and develop the necessary processes and professional skills to produce translations of publication quality.",
+          "Evaluation report from industry partner"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: Level-2 evidence (TRAN90022 team-based client project) comes from one option within Capstone Stream 1; students choosing other capstone combinations (e.g. TRAN90021+TRAN90027, or the Stream 2 thesis) show no comparably explicit assessed team-collaboration evidence. Resolved by scoring the documented Level-2 instance and not crediting Level 3, since no core evidence shows recurrence or assessed coordination of people-plus-tools/AI.",
+      "C2: TRAN90011's overview claims students 'critically assess the output of AI', which gestures toward Level 3 (defending judgements of AI-output quality), but the graded assessment-item descriptions do not themselves specify this as a criterion. Resolved to Level 2 per R2 (assessment evidence required, not overview/outcome text).",
+      "C3: TRAN90011's overview names 'legal and ethical risks incurred by AI use' as course content, but the assessment-item descriptions do not name bias, accountability, transparency, regulation or data governance as graded criteria. Resolved to Level 2 per R2/R3.",
+      "C4: Level-3 evidence (the Stream 2 thesis) is route-dependent — Stream 1 capstone students are not shown completing a self-scoped project. Scored 3 because the C4 Level-3 anchor, unlike C5's, has no explicit 'required, not one route among several' exclusion.",
+      "C5: The same thesis evidence that satisfies Level 2 (inquiry with methodology, assessed) is explicitly barred from Level 3 by the anchor's own 'REQUIRED (not one route among several)' qualifier, since Stream 2 is an alternative to Stream 1. Resolved to Level 2.",
+      "W1: TRAN90010's practitioner-graded 'Evaluation report from industry partner' is a single strong instance toward Level 3, but 'repeatedly and progressively across the program' is not documented — compulsory-core presentations (TRAN90007, TRAN90008, TRAN90009) are addressed to the teaching team, not a professional/external audience. Resolved to Level 2.",
+      "W2: Level-3 evidence combines guaranteed compulsory-core scaffolding (TRAN90007's NAATI-framework tasks) with a capstone instance carrying genuine practice constraints (TRAN90022's real clients/deadlines, or TRAN90010's placement); Stream 2 (thesis) students may not encounter that specific constraint. Scored 3 on the strength that three of four capstone routes carry it and the anchor's own phrasing does not require universal coverage.",
+      "W3: Placement evidence (TRAN90010, TRAN90027) is optional rather than required — the capstone can be completed entirely on-campus (TRAN90021+TRAN90022) or via the Stream 2 thesis with no workplace placement. Resolved to Level 2 since Level 3 requires the placement to be 'in the core' (required)."
+    ],
+    "notScoreable": [
+      "C4 and W2 (post-verification): submitted scores of 3 were DEMOTED to 2 (see rationale). C5, W2, W3 and gate G2 evidenceLines had one or more quoted lines removed on verification (2026-08-31): the submitted quotes for the Capstone Stream 1 subject list and the 'industry partner's premise' placement lines did not match the source handbook's Unicode characters (a non-breaking space before '(12.5 points)'; a curly right single quote in \"partner's\") and could not be verified as verbatim. This affects quote fidelity only, not the scores — the underlying content (that these subjects and the placement exist) is not in dispute, only the exact characters transcribed."
+    ],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-31"
+      },
+      "mechanical": true,
+      "date": "2026-08-31"
+    }
+  }
+}

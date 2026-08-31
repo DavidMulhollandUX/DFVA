@@ -1,0 +1,123 @@
+{
+  "code": "mc-biosenh",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' A graduate attribute states students will have the capacity to participate in collaborative learning, but none of the five compulsory subjects or the compulsory capstone assess collaborative/team-based work. The team-graded assessments in the extract (INFO90002's team database-design assignment, ISYS90069's group project with peer evaluation) sit in elective subjects, which the anchor's 'core unit' language excludes, so Level 2 is not reached.",
+      "evidenceLines": [
+        "have the capacity to participate fully in collaborative learning and to confront unfamiliar problems",
+        "Students must complete the following FIVE compulsory subjects:"
+      ]
+    },
+    "C2": {
+      "score": 0,
+      "rationale": "Level 0: 'No assessment requires students to appraise the quality of work — their own, peers', or a tool's.' The compulsory subjects' assessed tasks are quizzes, practical exercises, written assignments and exams; none involve peer review, structured critique, or marking against exemplars. The graduate-attribute phrase about being 'critical and creative thinkers, with an aptitude for continued self-directed learning' gestures at reflection but is boilerplate attribute language, not a documented assessed reflection/self-assessment task, so it does not clearly clear even the Level 1 anchor — ambiguity resolved to the lower level per the scoring-direction rule.",
+      "evidenceLines": [
+        "be critical and creative thinkers, with an aptitude for continued self-directed learning"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1: 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable.' The compulsory core unit Introduction to Statistical Computing teaches operation of statistical software (Stata and R) for data manipulation, cleaning and programming — tool-operation/training content that caps the score at 1 per the C3 migration note. No core unit documents AI capabilities, limitations, ethics or governance (Level 2/3); the only AI-named subject (Machine Learning for Biostatistics) is an elective with no content captured in this extract.",
+      "evidenceLines": [
+        "Students will gain hands-on experience with two major statistical software packages (Stata and R), learning to efficiently manage and manipulate data, display and summarize data, check and clean datasets, and link files using unique and non-unique identifiers.",
+        "students will acquire fundamental graphing and programming skills for  each of these software packages and will be introduced to key principles of confidentiality and privacy in data storage, management, and analysis."
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1: the only evidence for application to a novel/unfamiliar problem is an ILO statement under 'Application of knowledge and skills' ('Plan and execute a research-based project that applies the necessary practical and technical skills to answer the proposed research question') plus course-structure subject/credit-point listings for the compulsory capstone (POPH90288/POPH90289/POPH90149). No assessment page for those capstone subjects was captured in the extract, so R2's requirement — 'an outcome statement is never sufficient' — is not met for the Level 2 anchor. Demoted from a first-pass score of 2 to 1 on adversarial review, consistent with the identical evidence gap already resolved downward on W2.",
+      "evidenceLines": [
+        "Plan and execute a research-based project that applies the necessary practical and technical skills to answer the proposed research question.",
+        "Students may take a 25 point Research Project.  Students have the option of enrolling in a year-long project or a semester-long project.  Students enrolling in the year-long project (POPH90288 & POPH90289) MUST complete the project in two semesters consecutively."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1: the Level 2 anchor requires the design-and-conduct inquiry to be 'assessed', but the only evidence is the same capstone ILO statement and course-structure subject/credit-point listing used for C4 — no assessment-task description for POPH90288/POPH90289/POPH90149 was captured in the extract. Demoted from a first-pass score of 2 to 1 on adversarial review, consistent with the identical evidence gap already resolved downward on W2.",
+      "evidenceLines": [
+        "Plan and execute a research-based project that applies the necessary practical and technical skills to answer the proposed research question.",
+        "Students may take a 25 point Research Project.  Students have the option of enrolling in a year-long project or a semester-long project.  Students enrolling in the year-long project (POPH90288 & POPH90289) MUST complete the project in two semesters consecutively."
+      ]
+    },
+    "adaptiveness": 4,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1: 'core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team.' The compulsory Epidemiology 1 includes a Tutorial Oral Assessment and Participation component — spoken communication assessed to the tutorial/teaching team, not a professional genre or external audience. The program-level outcome to employ communication skills with 'clinical/health professionals' names a professional audience but is not shown assessed in any core unit (R2), so Level 2 is not reached.",
+      "evidenceLines": [
+        "Tutorial Oral Assessment and Participation (15% oral assessment, 5% participation)",
+        "Employ sound communication skills relating to biostatistical issues with clinical/health professionals including appropriate presentation of statistical material."
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1: 'Contextualised or scenario-framed tasks appear... but the artefact produced and the criteria applied remain academic.' The compulsory core units are explicitly framed around health/medical data, but their assessed artefacts (practical exercises, major assignments, written exams) are academic in form, with no documented instance of a core assessment reproducing a professional task end to end judged against practice-derived criteria. The compulsory capstone Research Project may reach Level 2, but its assessment specifics are not captured in the extract, so ambiguity is resolved to the lower level.",
+      "evidenceLines": [
+        "The aim of this subject is to equip students with the knowledge and skills required for moderate to high level data manipulation and management in preparation for statistical analysis of data typically encountered in health and medical research.",
+        "This subject covers the fundamental theory of probability and statistical inference that is needed as a foundation for understanding and practice of the core methods of biostatistics, understood as the science of drawing conclusions from data in health and medical investigations."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0: 'No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure.' The extract documents the full compulsory structure and the Capstone Subjects options; none is a placement, practicum, or assessed activity in the student's own professional practice, and no such component appears among the captured electives either.",
+      "evidenceLines": [
+        "Students must complete the following FIVE compulsory subjects:",
+        "Capstone Subjects"
+      ]
+    },
+    "workplace": 2,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS: the program documents an all-compulsory specialist core (Epidemiology 1, Introduction to Statistical Computing, Probability & Inference in Biostatistics, Foundations of Regression, Advanced Regression) with progressive methodological depth and professional accreditation from the Statistical Society of Australia, meeting the PASS anchor 'an all-compulsory specialist core... or an accredited sequence.'",
+        "evidenceLines": [
+          "Professional accreditation",
+          "Statistical Society of Australia (SSA)",
+          "Students must complete the following FIVE compulsory subjects:",
+          "MAST90102\tFoundations of Regression",
+          "MAST90099\tAdvanced Regression"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS: the compulsory core assesses interpretation of statistical uncertainty rather than recall — deriving and interpreting likelihood-based estimates, and critically interpreting p-values, confidence intervals and Bayesian posterior distributions 'as they are used in medical and scientific investigations.' Combined with the compulsory capstone Research Project, this satisfies PASS over 'recall or scripted responses only.'",
+        "evidenceLines": [
+          "Explain the role of the likelihood function in parametric statistical inference, and be able to derive and interpret likelihood-based estimates for standard models",
+          "Critically interpret the commonly used tools of statistical inference, such as p-values, confidence intervals and Bayesian posterior distributions, as they are used in medical and scientific investigations",
+          "Plan and execute a research-based project that applies the necessary practical and technical skills to answer the proposed research question."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: team-graded assessment (INFO90002 database-design assignment; ISYS90069 group project) exists only in elective subjects, not the compulsory core, so scored at Level 1 (outcomes-only) rather than Level 2 per the 'core unit' requirement.",
+      "C2: the graduate-attribute phrase about being 'critical and creative thinkers, with an aptitude for continued self-directed learning' could be read as reflection/self-assessment language (Level 1), but is generic boilerplate not tied to an assessed appraisal task; resolved to Level 0, the lower level.",
+      "C4/C5: the compulsory capstone Research Project (Options 1 and 2) plausibly satisfies the Level 3 anchors for both items (self-scoped required project; primary evidence with defended methodology), but no dedicated overview/assessment page for POPH90288/POPH90289/POPH90149 was captured in the extract. On adversarial review this evidence gap was found insufficient even for the Level 2 anchor claimed in the first-pass score, so both items were demoted to Level 1, matching R2's requirement for quoted assessment evidence and the identical gap already resolved downward on W2.",
+      "W2: the same capstone Research Project could satisfy the Level 2 'professional task end to end' anchor, but lacking assessment-task detail in the extract, W2 was resolved to Level 1 based on the health-context framing of the compulsory coursework subjects instead.",
+      "G2: PASS relies partly on the compulsory capstone Research Project as a project with real uncertainty and accountability, but as with C4/C5/W2 its specific assessment tasks are not documented in this extract; the statistical-inference interpretation content in Probability & Inference in Biostatistics was treated as sufficient independent support for PASS."
+    ],
+    "notScoreable": [
+      "MAST90099 (Advanced Regression) is compulsory but has no subject overview/ILO/assessment page in this extract — only its title and credit points appear in the course-structure table — so its specific contribution to any item could not be verified.",
+      "The compulsory capstone subjects (POPH90288 Biostatistics Research Project Part 1, POPH90289 Part 2, POPH90149 Biostatistics Research Project - S) have no dedicated overview/ILO/assessment page in this extract — only titles, study periods and credit points in the course-structure table — so C4/C5 (now scored at Level 1), W2, and G2's capstone-based PASS support could not be fully confirmed against quoted assessment evidence."
+    ],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-31"
+      },
+      "mechanical": true,
+      "date": "2026-08-31"
+    }
+  }
+}

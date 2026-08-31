@@ -1,0 +1,127 @@
+{
+  "code": "mc-arclarc",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 — core recurring group-based assessment with individual accountability is documented: Applied Architectural Technology (core) grades three Group Project Submissions (10%+10%+20%) paired with an individually graded Individual Project Detailing (30%, hurdle); Architectural Practice (core) grades a Group Project Submission on procurement scenarios (25%); Landscape Studio 2 (core) grades a 3-person group Assignment 1 (30%). This satisfies the level-2 anchor 'At least one core unit assesses collaborative practice — group projects with individual accountability.' Level 3 additionally requires an assessment that requires coordinating work across people AND tools/AI systems (e.g. assessed division of labour between people and systems). No core unit in the extract documents such a task — digital tools (Rhino, AutoCAD, BIM) appear only as tools students use, never as an assessed human-tool coordination construct — so per R1/R2 the item is capped at 2.",
+      "evidenceLines": [
+        "Group Project Submission 1 (3 students per group) | 3x A1 sheets",
+        "Group Project Submission 2 (3 students per group), 3x A1 sheets",
+        "Group Project Submission 3 (3 students per group), 3x A1 sheets + Model",
+        "Individual Project Detailing , 3x A1 sheets",
+        "Group Project Submission :Letters and reports on project initiation and procurement scenarios",
+        "Assignment 1 (Group project – 3 per group): Multi-modal site exploration and analysis, equivalent of 3000 words per group"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Ambiguous between Level 1 and Level 2, resolved to the LOWER level per the ambiguity rule. Master of Architecture Studio A (core) grades 'explicit evidence of reflective thinking in the notebook' (10%), and Design Studio D (core) grades Interim and Final Booklets requiring students to 'document and reflect upon iterative design exploration' against named National Standard of Competency for Architects Performance Criteria (PC3, PC12, PC16, PC18, PC23, PC24). Both are assessed reflection in core units — beyond a bare outcomes-only claim — but neither line documents students appraising the QUALITY of work (their own, peers', or a tool's) against explicit standards; they document engagement with, and reflection on, the design process and named competencies rather than a criterion-referenced quality appraisal (peer review, structured critique conducted by the student, portfolio marked against exemplars) as the level-2 anchor requires. Per R2 and the ambiguity rule, scored at the lower level, 1.",
+      "evidenceLines": [
+        "The remainder of the final grade is reserved for explicit evidence of reflective thinking in the notebook.",
+        "Booklet (Interim): Document and reflect upon iterative design exploration and disciplinary research; and, document understanding of and engagement with relevant professional knowledge, in particular the following National Standard of Competency for Architects (NSCA) Performance Criteria (PC) PC3, PC12, PC16, PC18, PC23, PC24"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1. Artificial intelligence content is named explicitly only in a core unit's learning OUTCOME (Architectural Practice: 'Investigate and assess the impacts of disruptive change to the profession, such as new technologies, artificial intelligence and climate change... on architectural practice workflows, and business') and in ELECTIVES (Computational Design and Optimisation: 'Apply a variety of optimisation and machine learning techniques to solve design problems'; AI in Architectural Design and Practice, an elective in the 400-point structure). Per R2, an outcome never tied to an assessed task scores 1 uniformly: Architectural Practice's assessment table (group/individual letters and reports, class participation, invigilated exam) contains no line assessing AI content specifically. The elective-only computational/ML content matches the level-1 anchor's 'appear only as electives or as tool operation/training' directly.",
+      "evidenceLines": [
+        "Investigate and assess the impacts of disruptive change to the profession, such as new technologies, artificial intelligence and climate change, on architectural practice workflows, and business.",
+        "AI in Architectural Design and Practice",
+        "Apply a variety of optimisation and machine learning techniques to solve design problems"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3. Design Thesis (core, Master of Architecture) is described as the program's culmination, explicitly offering 'self-directed research inquiries/projects,' and is assessed across a staged, hurdle-gated sequence (Preliminary Thesis Proposal 10%; Interim design 20%; Resolved Design 70%, hurdle: 'Must pass Resolved Design to pass the subject'). Landscape Architecture Design Thesis (core, MLA pathway) is likewise the culminating, research-based capstone. This documents the level-3 anchor's 'self-scoped capstone or research project' as a required, assessed feature of the core.",
+      "evidenceLines": [
+        "This subject is the culmination of each student's studies in Master of Architecture. It will consist of a number of studio groups offering a range of opportunities for students to demonstrate an original approach to design synthesis, in architecture which is based on research and critical thinking. These studios will allow opportunities for self-directed research inquiries/projects.",
+        "Preliminary Thesis Proposal: Oral presentation (7 minutes) of research questions, accompanied by critical evaluation of relevant precedents from practice and research, and a draft 'thesis statement'",
+        "Hurdle requirement: Must pass Resolved Design to pass the subject"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Ambiguous between Level 2 and Level 3, resolved to the LOWER level. The required core capstone (Design Thesis / Landscape Architecture Design Thesis) frames the project as inquiry — 'Demonstrate an understanding of design as a form of research enquiry' — and is examined through a staged sequence of oral crits (Preliminary Thesis Proposal, Interim design 'Design crit... of refined research question,' Resolved Design 'Design crit') resembling the level-3 anchor's 'staged supervised review.' However, the extract frames the inquiry in design-synthesis terms rather than documenting explicit methodology selection and primary data collection — the empirical apparatus the level-2/3 anchors describe. Per the ambiguity rule this is scored at the lower level: a required inquiry with methodology framing is documented (level 2), but a substantial primary-evidence-generating project with methodology 'defended under scrutiny' in the level-3 sense is not clearly established.",
+      "evidenceLines": [
+        "Demonstrate an understanding of design as a form of research enquiry.",
+        "Interim design: Design crit comprising oral presentation (7 minutes) of refined research question accompanied by representations of design-in-progress, that might include including site investigations, sketches, drawings, maquettes, concept test models and/or digital multi-media experiments, as appropriate to the research.",
+        "Resolved Design: Fully resolved architectural design thesis that explores the research question presented in two forms: A5 digital book that records the research investigation through text and visual representations that may include drawings, digital multi-media and physical models as appropriate to the design; and Design crit (10 minutes)"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Ambiguous between Level 2 and Level 3, resolved to the LOWER level. Architectural Practice (core) assesses professional correspondence genres directly — 'Individual Project Submission: Letters and reports on contract administration scenarios' — and Master of Architecture Studio A (core) makes presentation to 'a panel of guest critics' a hurdle requirement, i.e. an audience beyond the teaching team, in a crit format recurring across later core studios. This clears Level 2's 'recognised professional genre or an audience beyond the teaching team.' Level 3 additionally requires professional conduct or accountability explicitly among the ASSESSED criteria; while Architectural Practice's outcomes discuss 'professional conduct responsibilities, including liability, duty of care,' no assessment-table line in the extract ties a grade to conduct or accountability as a criterion, so the item is capped at 2.",
+      "evidenceLines": [
+        "Individual Project Submission: Letters and reports on contract administration scenarios",
+        "Hurdle requirement: The final project submission and presentation constitutes a hurdle requirement and students must present their final work to a panel of guest critics at the end of the semester."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3. Studio-based design assessment is the program's spine across every core stage — Landscape Studio 1 through 5, Design Studio A, B and D, and the Design Thesis — each producing the artefact a practitioner would produce (design proposals, exhibition panels, construction documentation) judged by crit/panel review, satisfying 'such tasks are the program's assessment spine.' At least one core unit carries a genuine constraint of the profession's own performance standards: Design Studio D requires designs to 'integrate selected spatial requirements set out in the National Standards of Competency for Architects (NSCA) and in the Building Code of Australia (BCA)' and assesses a hurdle-gated Booklet documenting engagement with named NSCA Performance Criteria (PC3, PC12, PC16, PC18, PC23, PC24) — matching the level-3 anchor's 'the profession's own standards of performance' as an assessed constraint.",
+      "evidenceLines": [
+        "Architectural designs produced by students will be expected to integrate selected spatial requirements set out in the National Standards of Competency for Architects (NSCA) and in the Building Code of Australia (BCA) and consider environmental and ethical impact.",
+        "Booklet (Final) : Document and reflect upon iterative design exploration and disciplinary research; and, document understanding of and engagement with relevant professional knowledge, in particular the following National Standard of Competency for Architects (NSCA) Performance Criteria (PC) PC3, PC12, PC16, PC18, PC23, PC24",
+        "Hurdle requirement: A pass is required in the Booklet ( Final) to pass overall subject"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1. The only work-situated or community-based learning documented anywhere in the course structure is Bower Studio - Community Development, listed among the Architecture/Landscape Architecture ELECTIVES, run in Winter Term off campus. No CORE unit places students in a real workplace or professional-community setting with practitioner supervision and assessment. This matches the level-1 anchor precisely — 'Work-situated learning exists only as an elective' — rather than level 0, since a WIL-type unit does appear somewhere in the structure.",
+      "evidenceLines": [
+        "Bower Studio - Community Development",
+        "Winter Term (Off Campus)"
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The course documents a coherent, staged specialist core, not generic/interchangeable content: core studios progress Landscape Studio 1 through 5 and Design Studio A through B through D through Design Thesis across defined 'Second Year Core Subjects,' 'Third Year Core Subjects' and 'Fourth Year Core Subjects' blocks, and the course carries professional accreditation from ARBV and recognition from AILA. This is an accredited, staged professional core, matching the PASS anchor.",
+        "evidenceLines": [
+          "This course meets the academic requirements for registration as an architect under the Architects Registration Board of Victoria (ARBV).  In addition, professional experience post-graduation is required to sit the registration examination.",
+          "Australian Institute of Landscape Architects (AILA)",
+          "Second Year Core Subjects (100 points )",
+          "Third Year Core Subjects (100 points)",
+          "Fourth Year Core Subjects (100 points)"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core assessment repeatedly requires defended trade-off decisions under real uncertainty rather than recall: Design Studio B's generic skills require students to 'propose alternative solutions to a spatial problem and assess their relative value'; Landscape Practice (core) requires students to 'Manage risks with particular reference to their identification, allocation and control with regard to codes, policies, and organisational environments'; and studio capstones (Design Studio A, Design Thesis) gate a pass on hurdle-weighted crit presentations of self-directed design/research work to review panels. This matches the PASS anchor's 'defended trade-off decisions' and 'capstones... with real uncertainty and accountability.'",
+        "evidenceLines": [
+          "propose alternative solutions to a spatial problem and assess their relative value;",
+          "Manage risks with particular reference to their identification, allocation and control with regard to codes, policies, and organisational environments.",
+          "Hurdle requirement: The final project submission and presentation constitutes a hurdle requirement and students must present their final work to a panel of guest critics at the end of the semester.",
+          "Hurdle requirement: Must pass Resolved Design to pass the subject"
+        ]
+      }
+    },
+    "ambiguities": [
+      "verdict.demotions was empty and verdict.upheld was true, so every item was written verbatim from the input scored block — no score was changed.",
+      "G1/G2 before/after are encoded as 1=PASS for schema conformance (the items array requires integers); no numeric gate score exists in the source data, only PASS/PASS, which is carried unchanged in the gates field."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-31"
+      },
+      "mechanical": true,
+      "date": "2026-08-31"
+    }
+  }
+}
