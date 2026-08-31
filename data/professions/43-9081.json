@@ -11,8 +11,102 @@
   },
   "generated": "2026-08-24",
   "expires": "2027-02-24",
-  "programs": [],
+  "programs": [
+    "mc-pubcom"
+  ],
   "claims": [
+    {
+      "id": "bx-L1-1",
+      "text": "The Book Industry Award 2020 (MA000078), the Fair Work Commission's binding wage and conditions instrument for Australian book publishing employees, places proofreading duties within the Level 1 Trainee Book Editor classification in Schedule A, and its consolidated text incorporates all amendments up to 1 July 2026 (variation PR799358).",
+      "lane": "L1",
+      "tier": "Regulatory instrument — modern award (Fair Work Commission)",
+      "sources": [
+        {
+          "publisher": "Fair Work Ombudsman / Fair Work Commission",
+          "title": "Book Industry Award 2020 [MA000078]",
+          "url": "https://awards.fairwork.gov.au/MA000078.html",
+          "date": "2026-07-01",
+          "whatItMeasured": "Consolidated statutory modern award text (Schedule A classifications) covering pay and conditions for book-industry editorial employees in Australia, as varied to 1 July 2026."
+        }
+      ],
+      "scope": "Confirms that proofreading duties are legally classified as a trainee-level editorial function under one Australian industry award; it does not establish a standalone 'Proofreader' occupation, does not apply to freelance or non-employee proofreaders, and does not cover proofreaders working outside book publishing (e.g. under the Clerks Award or in other industries).",
+      "disposition": "sourced"
+    },
+    {
+      "id": "bx-L1-2",
+      "text": "The Australian Bureau of Statistics' Occupation Standard Classification for Australia (OSCA 2024, Version 1.0) formally replaced the Australian and New Zealand Standard Classification of Occupations (ANZSCO 2022) — under which 'Proof Reader' was coded 599913 in unit group 5999 — as Australia's official occupation classification standard from 23 March 2026, with a phased rollout across ABS collections (e.g. Labour Force statistics from September 2026).",
+      "lane": "L1",
+      "tier": "Regulatory/statistical standard instrument (ABS)",
+      "sources": [
+        {
+          "publisher": "Australian Bureau of Statistics",
+          "title": "About OSCA 2024",
+          "url": "https://www.abs.gov.au/about/key-priorities/about-osca/osca-2024",
+          "date": "2026-03-23",
+          "whatItMeasured": "ABS classification-standard governance record documenting OSCA's replacement of ANZSCO and the phased implementation timeline across national statistical collections."
+        },
+        {
+          "publisher": "Australian Bureau of Statistics",
+          "title": "ANZSCO 2022 — Browse Classification, unit group 5999 (code 599913 Proof Reader)",
+          "url": "https://www.abs.gov.au/statistics/classifications/anzsco-australian-and-new-zealand-standard-classification-occupations/2022/browse-classification/5/59/599/5999",
+          "date": "2022-11-22",
+          "whatItMeasured": "Prior official statistical classification entry defining the 'Proof Reader' occupation code, skill level and duties before OSCA superseded it."
+        }
+      ],
+      "scope": "This is a statistical/classification standard, not a licensing, wage, or conduct instrument — it does not set entry requirements, pay rates, or a code of conduct for proofreaders, and ANZSCO codes remain in use in some non-ABS systems during the phased 2026–2028 transition, so this does not establish that ANZSCO is fully retired everywhere.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "bx-L2-1",
+      "text": "A Stanford-led audit of AI agent automation and augmentation potential across 104 U.S. occupations classified \"Proofreaders and Copy Makers\" as one of 16 occupations predominantly rated H1 on the Human Agency Scale, the category denoting the lowest required level of human involvement (highest automation potential) as judged by AI domain experts.",
+      "lane": "L2",
+      "tier": "scholarly-preprint",
+      "sources": [
+        {
+          "publisher": "arXiv (Stanford Digital Economy Lab / Stanford HAI researchers, incl. Erik Brynjolfsson)",
+          "title": "Future of Work with AI Agents: Auditing Automation and Augmentation Potential across the U.S. Workforce",
+          "url": "https://arxiv.org/abs/2506.06576",
+          "date": "2025-06-06",
+          "whatItMeasured": "1,500 U.S. domain workers and AI capability experts assessed 844 O*NET tasks across 104 U.S. occupations, rating each task on a Human Agency Scale (H1-H5) for AI agent automation/augmentation potential."
+        }
+      ],
+      "scope": "Covers only the U.S. workforce and a 104-occupation subset of O*NET, not Australia; the H1 label is a categorical expert-panel classification, not a numeric displacement or task-share effect size, and the paper gives no separate quantitative score isolated to this SOC code beyond its inclusion in the 16-occupation predominantly-H1 group.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "bx-L3-1",
+      "text": "Publishers Weekly reported on 2025-11-28 that 63% of surveyed respondents said their publishing companies use AI in some manner, and that publishing-education programs (NYU Center for Publishing, Portland State University) responded by adding AI-literacy coursework for copy editors and developmental editors, while freelance editors described particular pressure to use AI tools to stay competitive.",
+      "lane": "L3",
+      "tier": "trade press - industry trade publication",
+      "sources": [
+        {
+          "publisher": "Publishers Weekly",
+          "title": "The Publishing Workshops Taking a Red Pen to AI",
+          "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/99192-the-publishing-workshops-taking-a-red-pen-to-ai.html",
+          "date": "2025-11-28",
+          "whatItMeasured": "Trade-press reporting (byline Sam Spratford) citing a company AI-use survey (63% figure, methodology/sample not detailed in the article) plus interviews with publishing educators and freelance editors about curriculum and workflow responses to AI."
+        }
+      ],
+      "scope": "Does not measure proofreader/copy-marker employment levels, wages, task counts, or displacement rates, and the 63% figure's survey methodology and sample are not given in the article, so it should not be treated as a rigorous primary study (that would be L2 if the underlying survey were sourced directly).",
+      "disposition": "sourced"
+    },
+    {
+      "id": "bx-L3-2",
+      "text": "In a memo reported by MediaPost on 2025-05-27, The Washington Post offered voluntary buyouts specifically targeting its copy desk and sports copy desk (plus video staff and 10-plus-year veterans), with executive editor Matt Murray framing the plan to consolidate copy editing into one central-hub desk as part of the newsroom 'adapting to changing habits and new technologies that are transforming news experiences.'",
+      "lane": "L3",
+      "tier": "trade press - media-industry news",
+      "sources": [
+        {
+          "publisher": "MediaPost",
+          "title": "The Washington Post Offers Buyouts To Copy, Video Staffers And 10-Year Veterans",
+          "url": "https://www.mediapost.com/publications/article/406182/the-washington-post-offers-buyouts-to-copy-vide.html",
+          "date": "2025-05-27",
+          "whatItMeasured": "Trade-press news report (byline Ray Schultz) of one employer's internal buyout memo and organizational restructuring announcement; not a survey, study, or occupation-wide statistic."
+        }
+      ],
+      "scope": "Documents one employer's single personnel action, not an occupation-wide proofreader/copy-editor trend; the memo cites 'new technologies' generically for the newsroom consolidation and does not isolate generative AI specifically as the cause of the copy-desk buyout offer.",
+      "disposition": "sourced"
+    },
     {
       "id": "l503",
       "text": "Upstream sync: scratch-gui (2026-07-01)\nAutomated upstream sync for `scratch-gui`. PLS REVIEW\nive updated this branch pls review ive updated this branch pls review ive updated this branch pls review",
@@ -1406,7 +1500,16 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      "IPEd editorial assistant proofreader binding standard registration 2025 2026 (found only the 2024 3rd-edition Standards document, which is voluntary professional guidance, not a binding regulatory instrument, so it was not used)",
+      "proofreader licensing registration requirement Australia government",
+      "Jobs and Skills Australia gen AI exposure occupation editorial proofread score augmentation automation (ANZSCO 4-digit study aggregates occupations above the 599913 Proof Readers unit group and no isolated score for it was found)",
+      "Anthropic Economic Index Claude.ai usage proofreading copy editing occupation task share 2025 (no task-level data for this occupation surfaced)",
+      "ILO Research Brief Workers' exposure to AI Feb 2026 PDF fetch for proofreaders/copy markers exposure score (PDF was not text-extractable and no occupation-level figure was recoverable)",
+      "CIEP Chartered Institute Editing Proofreading AI survey 2025 (page found but 403, could not verify date/content)",
+      "Editorial Freelancers Association AI editing survey 2025 (2026 rate chart found but contains no AI/automation content)",
+      "ACES editors society AI copy editing 2025 (found only webinar/conference listings, no dated findings or reporting)"
+    ],
     "linkedin": [
       {
         "status": "sampled",

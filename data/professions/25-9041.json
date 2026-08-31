@@ -13,8 +13,76 @@
   },
   "generated": "2026-08-24",
   "expires": "2027-02-24",
-  "programs": [],
+  "programs": [
+    "mc-teachpr",
+    "mc-teachsa"
+  ],
   "claims": [
+    {
+      "id": "bx-L1-1",
+      "text": "New York State's Board of Regents adopted amendments (effective 2025, phase-in beginning 2026) to Sections 52.21, 80-1.2, 80-3.7 and 80-5.6 of the Commissioner's Regulations that retire the multi-level (I/II/III) Teaching Assistant certificate structure and replace it with Initial, Pre-Professional and Professional Teaching Assistant certificates, with Level I applications due by 31 August 2025 and no Level I certificates issued after 1 February 2026.",
+      "lane": "L1",
+      "tier": "state regulation (adopted rule, primary source)",
+      "sources": [
+        {
+          "publisher": "New York State Education Department, Office of Counsel",
+          "title": "Terms - 52.21, 80-1.2, 80-3.7, and 80-5.6 and Subpart 80-6 of the Regulations of the Commissioner of Education Relating to Teaching Assistant Certification",
+          "url": "https://www.counsel.nysed.gov/rules/indices-fulltext/2025/03",
+          "date": "2025-03",
+          "whatItMeasured": "Text of the adopted Commissioner's Regulations amendment restructuring New York's Teaching Assistant certificate levels and setting application/issuance deadlines."
+        },
+        {
+          "publisher": "New York State Board of Regents",
+          "title": "Proposed Amendments to Teaching Assistant Certification",
+          "url": "https://www.regents.nysed.gov/sites/regents/files/HE%20-%20Proposed%20Amendments%20to%20Teaching%20Assistant%20Certification.pdf",
+          "date": "2025-02",
+          "whatItMeasured": "Regents item describing the proposed rule change, program registration standard (18 semester hours), and certificate-level transition schedule."
+        }
+      ],
+      "scope": "Applies only to New York State's licensure regime for its 'Teaching Assistant' certificate title; it does not set requirements in any other US state, does not apply to non-certificated aide roles, and says nothing about employer demand, compensation, or practitioner sentiment toward the change.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "bx-L1-2",
+      "text": "The Colorado Department of Education's ESEA Paraprofessional Guidance, last updated fall 2025, restates the federal ESSA/Title I-A qualification standard requiring instructional paraprofessionals hired after 8 January 2002 to hold a secondary diploma plus either two years of postsecondary study, an associate degree, or a passing score on an approved assessment (ACT WorkKeys or ETS ParaPro), and directs districts to have documented compliance processes in place during the 2025-26 school year.",
+      "lane": "L1",
+      "tier": "state agency regulatory guidance implementing federal statute",
+      "sources": [
+        {
+          "publisher": "Colorado Department of Education",
+          "title": "ESEA Paraprofessional Guidance",
+          "url": "https://ed.cde.state.co.us/fedprograms/tii-index/tii-a-hqp",
+          "date": "2025 (fall, per page's stated last-updated date)",
+          "whatItMeasured": "Official state-agency guidance page interpreting 34 CFR 200.58 / ESSA Section 1111(g)(2) qualification requirements for instructional paraprofessionals in Title I, Part A-funded roles, with an implementation timeline for districts."
+        }
+      ],
+      "scope": "Binds only Title I, Part A-funded instructional paraprofessional positions in Colorado public schools; does not apply to non-Title-I teacher assistant roles, purely non-instructional aide roles, or other states, and does not measure demand, pay, or practitioner sentiment.",
+      "disposition": "sourced"
+    },
+    {
+      "id": "bx-L2-1",
+      "text": "Jobs and Skills Australia's national Gen AI Capacity Study assigns Education Aides (ANZSCO unit group 4221, the group containing Teachers' Aides ANZSCO 422116) an automation exposure score of 0.31 and an augmentation exposure score of 0.65 on its 0-1 scale, placing the occupation in the low-automation/medium-augmentation band where the study places most of the Australian workforce.",
+      "lane": "L2",
+      "tier": "government/institutional (national task-exposure index)",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia (Australian Government)",
+          "title": "Our Gen AI Transition: Implications for Work and Skills (Final Overarching Report, 14 August 2025)",
+          "url": "https://www.jobsandskills.gov.au/download/19803/our-gen-ai-transition-implications-work-and-skills/3364/our-gen-ai-transition/pdf",
+          "date": "2025-08-14",
+          "whatItMeasured": "Describes and reports the methodology: JSA's adaptation of the ILO task-level augmentability/automatability scoring method (Gmyrek, Berg & Bescond 2023) to the ANZSCO v1.3 classification, applied across Australia's occupational structure using ABS Census 2021 occupation employment data."
+        },
+        {
+          "publisher": "Jobs and Skills Australia (Australian Government)",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism - occupation-level data table (Occupations_8.csv)",
+          "url": "https://www.jobsandskills.gov.au/sites/default/files/2025-09/Occupations_8.csv",
+          "date": "2025-09-30",
+          "whatItMeasured": "Published dataset of augmentation exposure score, automation exposure score, rate of skill change and related indicators for 357 four-digit ANZSCO occupations, including a row for Education Aides (4221) with automation exposure 0.31 and augmentation exposure 0.65."
+        }
+      ],
+      "scope": "A potential Gen AI task-exposure estimate for the Australian 4-digit ANZSCO unit group 'Education Aides' (not the narrower 6-digit Teachers' Aides subgroup specifically), reflecting current Gen AI task capability rather than observed employment, wage, or job-loss outcomes, and not directly transferable to the US SOC 25-9041 classification without independent mapping.",
+      "disposition": "sourced"
+    },
     {
       "id": "l503",
       "text": "feat: built-in benchmark suite — 4 standard prompts + run/track harness\n## Overview\n\nAdd a built-in **benchmark package** to autolens_assistant: four standard prompts (three assistant-mode at easy/medium/hard difficulty, one teacher-mode) that are run against different AI agents/harnesses and models to measure assistant performance, plus a harness to record each run (co\n## Checkpoint — ship sign-off (supervised park, 2026-07-10)\n\n**What was being done:** the build is complete and committed local…",
@@ -1492,7 +1560,23 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      "Jobs and Skills Australia teacher aides teacher assistants AI exposure 2025 (initial search - JSA occupation profile page itself carries no AI exposure data)",
+      "\"teacher assistants\" OR \"teaching assistants\" AI automation exposure occupation study 2025 (general scholarly search - returned only papers about AI-as-teaching-tool, not occupational exposure of the human role)",
+      "ABS \"teacher aides\" OR \"teachers' aides\" automation exposure index task-based 2025 2026 (no ABS-specific task exposure index for this occupation found)",
+      "Autor & Thompson \"Expertise\" (MIT, June 2025) PDF - searched for 'Teacher's aides' mention found via web search snippet; direct PDF fetch of the paper's body text did not surface an extractable occupation-level table entry for this occupation within the time available",
+      "ILO WP140 \"Generative AI and Jobs: A Refined Global Index of Occupational Exposure\" (May 2025) - PDF fetch could not extract readable occupation-level text confirming a score for teacher assistants/aides",
+      "\"teacher assistants\" OR \"teaching assistants\" AI automation education trade press 2025",
+      "\"instructional aide\" OR \"paraprofessional\" AI classroom technology news 2025 2026",
+      "\"teacher's aide\" OR \"teaching assistant\" jobs AI replace risk news 2025 2026",
+      "paraeducator jobs AI 2026 school district staffing news",
+      "\"education week\" OR \"k-12 dive\" paraprofessional artificial intelligence 2025",
+      "school districts cut paraprofessionals AI tutoring software budget 2025 2026",
+      "\"special education aide\" OR \"instructional assistant\" AI tools burden workload news",
+      "k12dive.com paraprofessional AI",
+      "districtadministration.com OR thejournal.com teacher aide AI automation 2025",
+      "\"teacher aide\" OR \"teacher's aide\" AI displacement automation risk occupation news 2025"
+    ],
     "linkedin": [
       {
         "status": "sampled",
