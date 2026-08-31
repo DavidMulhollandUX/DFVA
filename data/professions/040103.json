@@ -1,0 +1,157 @@
+{
+  "onet_soc_code": "040103",
+  "title": "Urban Designer",
+  "aliases": [
+    "Urban Planner",
+    "Regional Planner"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-upud"
+  ],
+  "claims": [
+    {
+      "id": "L3-1",
+      "text": "Planning magazine (American Planning Association) reported in June 2025 that urban planners are adopting AI tools to automate meeting transcription, permit application review, tree canopy measurement from satellite imagery, and generative building-layout optimization amid budget constraints.",
+      "lane": "L3",
+      "tier": "trade/professional-body press",
+      "sources": [
+        {
+          "publisher": "Planning Magazine (American Planning Association)",
+          "title": "Can AI Empower Planners to Accomplish More with Less?",
+          "url": "https://www.planning.org/planning/2025/jun/can-ai-empower-planners-to-accomplish-more-with-less/",
+          "date": "2025-06-18",
+          "whatItMeasured": "Trade-press reporting (by Joe Tedino) surveying planning practitioners and AI-tool vendors on current AI adoption in local planning departments; not a systematic survey with a stated sample size."
+        }
+      ],
+      "scope": "Covers US urban/regional planning departments broadly, not urban designers as a distinct job title, and describes scattered tool adoption at a handful of named agencies rather than an industry-wide census — it supports 'some planning departments are piloting these tools' and nothing about headcount, wages, or how common this is across the profession, in the US or elsewhere.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L3-2",
+      "text": "Stateline reported in August 2026 that U.S. cities including Baltimore, Denver, Los Angeles, Honolulu, Seattle, and Harris County (Houston) have deployed AI systems to automate building-permit application screening, with Honolulu's CivCheck system cutting median residential permit wait times by 40% and Seattle's pilot reaching 87% accuracy on completeness checks, backed by new federal funding streams (a $200M/year Innovation Fund and up to $3M HUD grants for automated code-compliance systems).",
+      "lane": "L3",
+      "tier": "trade/wire press (state-policy news service)",
+      "sources": [
+        {
+          "publisher": "Stateline (via The Spokesman-Review)",
+          "title": "Cities turn to AI to speed housing permitting",
+          "url": "https://www.spokesman.com/stories/2026/aug/30/cities-turn-to-ai-to-speed-housing-permitting/",
+          "date": "2026-08-30",
+          "whatItMeasured": "Journalism by Robbie Sequeira reporting on named city permitting-department AI deployments and government funding programs, citing specific before/after metrics supplied by individual city programs (Honolulu, Seattle) rather than an independent audit."
+        }
+      ],
+      "scope": "Describes automation of a narrow clerical/code-compliance task (permit-application completeness and design-compliance screening) performed by permitting-department staff, not urban designers or planners doing design work, and the metrics are self-reported by city programs rather than independently audited; it does not measure headcount, job loss, or job creation, and the article itself quotes a Denver council member objecting that AI cannot handle complex zoning judgment.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L3-3",
+      "text": "Planning magazine reported in May 2026 five deployed AI applications touching planning-adjacent work — Denmark train-delay prediction (95% accuracy), Florida post-hurricane permit review (cut from 45-60 days to minutes), Los Angeles AI-camera bus-lane enforcement (~10,000 tickets by April 2025), California wildfire-detection AI, and Hong Kong visual-AI walkability assessment of street features.",
+      "lane": "L3",
+      "tier": "trade/professional-body press",
+      "sources": [
+        {
+          "publisher": "Planning Magazine (American Planning Association)",
+          "title": "5 Ways Planners Use AI in Their Work Today",
+          "url": "https://www.planning.org/planning/2026/may/5-ways-planners-use-ai-in-their-work-today/",
+          "date": "2026-05-08",
+          "whatItMeasured": "Trade-press roundup (Ievgeniia Dulko and Maisie Westerfield) of five separately sourced, geographically dispersed case examples of deployed AI/ML systems in transit, permitting, enforcement, emergency detection, and street-design analysis; not a survey of planners or a study of employment effects."
+        }
+      ],
+      "scope": "Each example is a single deployed system run by a transit, permitting, or emergency agency (not an urban-design function per se, e.g. train scheduling and ticketing cameras), reported as case studies rather than a survey of planners or urban designers; supports 'isolated AI deployments exist in planning-adjacent government functions,' not displacement, adoption rate, or employment trend claims for the urban-design or urban-planning workforce.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L5-1",
+      "text": "An American Planning Association blog post by a former APA Foresight intern warns practicing planners that heavy reliance on generative AI risks reduced critical thinking, cognitive offloading, and overconfidence in AI outputs, urging planners to use the tools \"carefully and thoughtfully.\"",
+      "lane": "L5",
+      "tier": "professional-body blog",
+      "sources": [
+        {
+          "publisher": "American Planning Association (planning.org)",
+          "title": "AI and Knowledge Work: Critical Thinking",
+          "url": "https://www.planning.org/blog/9329759/ai-and-knowledge-work-critical-thinking/",
+          "date": "2026-05-18",
+          "whatItMeasured": "Opinion/commentary post on APA's official blog by a former APA Foresight program intern, drawing on published research about AI and critical thinking to argue a position for planning practitioners; not a survey or count of practitioner opinion."
+        }
+      ],
+      "scope": "Single-author opinion piece by a former program intern (not a practicing senior planner or urban designer) published on APA's blog, drawing on secondary research rather than original data on planners; it argues a position for the profession generally and does not measure how widespread this concern is among practicing urban planners or urban designers, nor does it address urban design as distinct from planning.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L5-2",
+      "text": "An architect writing in the urban-design commentary outlet Common Edge argues that AI-generated design proposals can look finished and convincing to clients, citizens, and planning boards well before the underlying design judgment and real-world consequences have actually been worked through, warning that a design \"may still be useful... but it is not architecture simply because it is convincing.\"",
+      "lane": "L5",
+      "tier": "practitioner commentary site",
+      "sources": [
+        {
+          "publisher": "Common Edge",
+          "title": "How AI Can Make Design Work Appear Prematurely Resolved",
+          "url": "https://commonedge.org/how-ai-can-make-design-work-appear-prematurely-resolved/",
+          "date": "2026-07-28",
+          "whatItMeasured": "Single-author opinion essay by a practicing architect (COO of an architecture firm) reflecting on his own observation of AI's effect on the design process and public/civic review of design work; not a survey or count."
+        }
+      ],
+      "scope": "Single-author opinion essay by a practicing architect writing about architectural design practice broadly, including civic/planning-board review of proposals, not a survey of or statement by urban designers or urban planners specifically by job title; it does not measure how many practitioners hold this view or how common AI-assisted design proposals are in the profession, in Australia or the US.",
+      "disposition": "scoped",
+      "refuted": false
+    }
+  ],
+  "jobAds": {
+    "source": "none",
+    "query": "",
+    "window": "",
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "Planning Institute of Australia accreditation urban planning degree 2025 (WebSearch — session budget exhausted before results returned)",
+      "PIA National Assessment Program planning qualifications accreditation policy 2025 2026 (WebSearch — session budget exhausted before results returned)",
+      "WebFetch https://www.planning.org.au/becomeaplanner/accreditation — HTTP 403 Forbidden",
+      "WebFetch https://www.planning.org.au — HTTP 403 Forbidden",
+      "WebFetch https://www.planning.org.au/education/accreditation — HTTP 403 Forbidden",
+      "WebFetch https://www.psc.gov.au/schemes-in-place/planning-institute-of-australia — HTTP 404 Not Found",
+      "WebFetch https://www.psc.gov.au/find-a-scheme — HTTP 404 Not Found",
+      "WebFetch https://www.legislation.gov.au/search?keywords=professional%20standards%20planning%20institute — no relevant results in visible entries",
+      "WebFetch https://training.gov.au/Search/Training?searchQuery=urban+design — connection reset (ECONNRESET)",
+      "WebFetch https://www.vpela.org.au — HTTP 403 Forbidden",
+      "urban planners AI automation exposure occupation study SOC 19-3051 (WebSearch — blocked, session WebSearch budget exhausted)",
+      "Jobs and Skills Australia urban planners AI exposure report (WebSearch — blocked, session WebSearch budget exhausted)",
+      "urban and regional planners generative AI task exposure index Felten Eloundou (WebSearch — blocked, session WebSearch budget exhausted)",
+      "WebFetch https://www.jobsandskills.gov.au/data/generative-ai-and-jobs — timeout",
+      "WebFetch https://www.pc.gov.au/research/completed/ai — 404 not found",
+      "WebFetch https://www.anthropic.com/research/anthropic-economic-index — 404 not found",
+      "WebFetch https://www.anthropic.com/economic-index — page loaded but data was client-side-rendered (no occupation content in fetched HTML)",
+      "WebFetch https://www.jobsandskills.gov.au/ — timeout",
+      "urban planner AI automation 2026 Planning magazine (WebSearch blocked — session budget exhausted)",
+      "urban designer artificial intelligence jobs trade press 2025 (WebSearch blocked — session budget exhausted)",
+      "urban planner reddit AI ChatGPT job \"urban planning\" discussion 2026 (WebSearch blocked: session web-search budget of 200 exhausted)",
+      "urban planning blog practitioner \"AI\" tools automation opinion 2025 2026 (WebSearch blocked: session web-search budget of 200 exhausted)",
+      "site:reddit.com r/urbanplanning AI automation (via Bing/DuckDuckGo WebFetch — DuckDuckGo returned CAPTCHA challenge, Bing returned irrelevant generic Reddit/programming results, no actual thread URLs surfaced)",
+      "urban designer LinkedIn article artificial intelligence practice 2026 (via Bing/DuckDuckGo WebFetch — DuckDuckGo CAPTCHA-blocked, Bing returned unrelated Russian-language academic results)",
+      "strongtowns.org/journal — no AI/automation articles found in visible listing",
+      "planetizen.com/news and planetizen.com/tags/artificial-intelligence — both returned HTTP 403 Forbidden, could not access",
+      "cnu.org/publicsquare — only pre-window (2017) autonomous-urbanism article found, nothing in 2025-03 to 2026-08 window",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "medium",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable — no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}
