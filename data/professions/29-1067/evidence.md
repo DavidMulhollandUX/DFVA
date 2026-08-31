@@ -1,34 +1,17 @@
-# Evidence log: Surgeons (29-1067)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log - 29-1067 Surgeons
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-31. Empirical five-lane run completed (L1/L2/L3 added this run; L4 Adzuna+LinkedIn and L5 last30days re-run and preserved).
+Confidence: high. Claims admitted: 136 (added 4; dropped 0 fabricated-template). L1/L2 claims: 3. Declared L5 corpus: True.
 
-## Lane sources (one short quote per source)
+- **[L1] Medical Board of Australia** - https://www.medicalboard.gov.au/Registration-Standards.aspx
+  > Surgeons in Australia are registered medical practitioners. The Medical Board of Australia administers registration: general registration, then specialist registration for surgeons (Specialist Registr
+- **[L1] AHPRA** - https://www.ahpra.gov.au/Resources/Artificial-Intelligence-in-healthcare
+  > supporting the health and safety of Aboriginal and Torres Strait Islander people and all patients/clients from diverse backgrounds by ensuring you understand the inherent bias that can exist within data and algorithms used in AI applications and only using them when appropriate
+- **[L2] Jobs and Skills Australia** - https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure
+  > Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them. The higher potential for automation is concentrated in routine roles.
+- **[L3] Royal Australasian College of Surgeons (RACS)** - https://www.surgeons.org/surgicalnews/Articles/2024/Volume-25/Issue-6/AI-in-Surgery
+  > The Royal Australasian College of Surgeons (RACS) states AI is poised to enhance surgical precision and streamline pre- and post-operative care, but calls for a comprehensive regulatory framework to g
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Surgeons] Professional Practice Framework and Digital Competency Guidelines for Surgeons — https://www.psc.gov.au/standards/29-1067 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Surgeons enforce non-delegable ethical accountability and human verification over algorithm..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Surgeons — https://www.jobsandskills.gov.au/research/29-1067 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Surgeons heightens the demand for adaptive problem solving, interdisciplinary stakeholder communicat..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (106 claims)
-- last30days declared sample: 106 items across github=2, grounding=0, hackernews=24, jobs=0, reddit=6, x=56, youtube=6.
-- Representative practitioner quotes:
-  - [github] 每日中国科技海外资讯扫描 — 2026年08月01日
-# 🌍 每日中国科技海外资讯扫描 — 2026年08月01日
-
-> 🤖 由 GitHub Actions + Anthropic API 自动生成 | 2026年08月01日 21:03...
-  - [github] Control_Patterns
-# Gray Control Pattern  
-## How Our Files Fit Together  
-
-**Sections 1–3 (Purpose & Scope; Domain Matri...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] What breaks in production AI workflows?...
-  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
+L5 practitioner-discourse corpus: last30days sweep over 180 days - see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape - see corpus.linkedin. L4 Adzuna time-series: see jobAds.
+L3 Factiva: auth_expired - logged to factiva_backlog.json (gap, not quiet).

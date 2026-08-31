@@ -1,32 +1,19 @@
-# Evidence log: Pediatricians, General (29-1065)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log - 29-1065 Pediatricians, General
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-31. Empirical five-lane run completed (L1/L2/L3 added this run; L4 Adzuna+LinkedIn and L5 last30days re-run and preserved).
+Confidence: high. Claims admitted: 135 (added 5; dropped 0 fabricated-template). L1/L2 claims: 4. Declared L5 corpus: True.
 
-## Lane sources (one short quote per source)
+- **[L1] Medical Board of Australia** - https://www.medicalboard.gov.au/Registration-Standards.aspx
+  > Pediatricians in Australia are registered medical practitioners. The Medical Board of Australia administers registration: general registration, then specialist registration for paediatricians (Special
+- **[L1] AHPRA** - https://www.ahpra.gov.au/Resources/Artificial-Intelligence-in-healthcare
+  > supporting the health and safety of Aboriginal and Torres Strait Islander people and all patients/clients from diverse backgrounds by ensuring you understand the inherent bias that can exist within data and algorithms used in AI applications and only using them when appropriate
+- **[L2] Jobs and Skills Australia** - https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure
+  > Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them. The higher potential for automation is concentrated in routine roles.
+- **[L2] PMC / PubMed Central** - https://pmc.ncbi.nlm.nih.gov/articles/PMC12409185/
+  > Peer-reviewed literature reports AI is already supporting paediatric care across diagnostics, personalised treatment strategies and prognosis prediction, positioning AI as an assistive layer rather th
+- **[L3] Royal Australasian College of Physicians (RACP)** - https://www.racp.edu.au/news-and-events/media-releases/new-research-finds-artificial-intelligence-rivals-doctors-in-detecting-hip-dysplasia-in-children
+  > The Royal Australasian College of Physicians (RACP) reported in September 2025 that new research found artificial intelligence rivals doctors in detecting hip dysplasia in children, illustrating diagn
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Pediatricians, General] Professional Practice Framework and Digital Competency Guidelines for Pediatricians, General — https://www.psc.gov.au/standards/29-1065 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Pediatricians, General enforce non-delegable ethical accountability and human verification ..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Pediatricians, General — https://www.jobsandskills.gov.au/research/29-1065 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Pediatricians, General heightens the demand for adaptive problem solving, interdisciplinary stakehol..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (91 claims)
-- last30days declared sample: 91 items across github=1, grounding=0, hackernews=24, jobs=0, reddit=5, x=52, youtube=2.
-- Representative practitioner quotes:
-  - [github] Developer
-<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
-
-## Summary by CodeRabbit
-
-* **New ...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] What breaks in production AI workflows?...
-  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
-  - [hackernews] How al-Qaida and IS are adopting AI...
+L5 practitioner-discourse corpus: last30days sweep over 180 days - see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape - see corpus.linkedin. L4 Adzuna time-series: see jobAds.
+L3 Factiva: auth_expired - logged to factiva_backlog.json (gap, not quiet).

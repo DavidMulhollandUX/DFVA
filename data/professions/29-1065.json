@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-01",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-03-02",
   "programs": [],
   "claims": [
     {
@@ -2133,6 +2133,729 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "P0: Länder-Fachvollständigkeit - Mandate, Wirkungspotenzial und Golden-State für alle 16 Länder\n## Anlass\nDer Live-Check am 20.08.2026 zeigt für Baden-Württemberg auf `/laender/baden-wuerttemberg/mandat-und-praxis` nur die verifizierte Mandatsbasis. Die Seite sagt selbst: `vollständige Commitment-Zerlegung wird fortlaufend ergänzt`.\n\nDer kanonische WÖk-Bestand bestätigt die Fachlücke:\n- `/WOEK\nWÖk RESTORE-FIRST FACHCHECK — Rheinland-Pfalz, 20.08.2026. This closes an important classification ambi…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "P0: Länder-Fachvollständigkeit - Mandate, Wirkungspotenzial und Golden-State für…",
+          "url": "https://github.com/sustynats/wirkungsoekonomie.de/issues/240",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "Curate congenital Zika syndrome as non-genetic cortical malformation mechanism\n## Scope\n    Create or enrich a congenital Zika syndrome entry focused on prenatal viral neural progenitor cytopathy and cortical malformation.\n\n    ## Review-derived mechanistic findings\n    The review uses ZIKV as the exemplar non-genetic MCD mechanism. Congenital infection is linked to microcepha\n## Issue Summary — Congenital Zika Syndrome (New Entry)\n\n### KB State\n\nNo existing entry for Zika virus, congenital Zika…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Curate congenital Zika syndrome as non-genetic cortical malformation mechanism\n#…",
+          "url": "https://github.com/monarch-initiative/dismech/issues/4088",
+          "date": "2026-06-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "Problem: Parents can't log and identify patterns in a young child's food selectivity to share with a feeding therapist\n**JTBD:** When my toddler or young child shows persistent food selectivity (refusing textures, colors, or preparation styles), I want to log each food interaction — accepted, rejected, tolerated — over weeks, so I can bring structured pattern data to the pediatrician or feeding therapist instead of",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Problem: Parents can't log and identify patterns in a young child's food selecti…",
+          "url": "https://github.com/muaddibco/RealWorldProblems/issues/1335",
+          "date": "2026-04-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
+          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
+          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
+          "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
+          "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&…",
+          "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
+          "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "AI job disruption priced into man's compensation payout in first known case\n&#32; submitted by &#32; /u/nath1234 &#32; to &#32; r/australia [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32…",
+          "url": "https://www.reddit.com/r/australia/comments/1vv43m6/ai_job_disruption_priced_into_mans_compensation/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5112",
+      "text": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecast to end of 2028\n&#32; submitted by &#32; /u/WebLinkr &#32; to &#32; r/SEO [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas…",
+          "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5113",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
+          "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5114",
+      "text": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32; /u/Silly-avocatoe &#32; to &#32; r/technology [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32…",
+          "url": "https://www.reddit.com/r/technology/comments/1voms55/onlyfans_investor_says_ai_cant_disrupt_adult/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5115",
+      "text": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks …",
+          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_à_special/",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5116",
+      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ…",
+          "url": "https://www.reddit.com/r/cscareerquestions/comments/1vqe677/how_are_people_buying_homes_and_getting_married/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5117",
+      "text": "65% of midmarket IT and security leaders are considering switching MSPs in the next 12 months.\n\nThat is not a ticket meltdown story. Corsica's 2026 MSP Trust Gap survey of 600 US midmarket IT and security decision makers found day to day trust and support can still look solid while buyers start internal discussions on replacing their provider.\n\nAmong those considering a switch, limited AI or automation support, reactive delivery, and lack of strategic guidance sit near the top of the list.\n\nAn M",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "65% of midmarket IT and security leaders are considering switching MSPs in the n…",
+          "url": "https://x.com/TheCIOWhisperer/status/2094391315001938053",
+          "date": "2026-08-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5118",
+      "text": "@ResisttheMS I trust Grok AI Robots more than most Pediatricians as they can’t be bought off as Elon would prioritize kids’ health over money. There is far too much unpredictability for me to feel comfortable with a robot surgical team at this time.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ResisttheMS I trust Grok AI Robots more than most Pediatricians as they can’t b…",
+          "url": "https://x.com/jenhoog/status/2092270641567375496",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5119",
+      "text": "Wow, it sounds like China's rural areas are really struggling to get access to pediatricians, and AI \"Al work buddy\" can be a game-changer for patients!.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Wow, it sounds like China's rural areas are really struggling to get access to p…",
+          "url": "https://x.com/JutilaPai49289/status/2091891794875384024",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5120",
+      "text": "Every advanced chip that powers AI starts as a blank wafer. Someone has to etch the patterns small enough to run the models that design the next generation of chips.\n\nTSMC is that foundry. It does not sell consumer gadgets. It manufactures the processors Nvidia, Apple, AMD, and the major cloud builders cannot build at scale without it.\n\nI just bought $TSM at $408.86.\n\nForward PEG: 0.86. Under 1.0 usually means growth is still underpriced relative to how fast earnings are expected to rise.\n\nThis",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Every advanced chip that powers AI starts as a blank wafer. Someone has to etch …",
+          "url": "https://x.com/TheCIOWhisperer/status/2091148513803428149",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5121",
+      "text": "Disclosure Day is Not an Alien Movie - Ending Explained\nDisclosure Day Ending Explained! Head to https://www.tryfum.com/SCREENCRUSH or scan the QR code and use promo code SCREENCRUSH  to get your free Fum Topper with purchase, and start The Good Habit today!\n\nVisit the ScreenCrush Merch Store to find fan merch that we designed just for you. From T-shirts to unique accessories, find your favorites. For 15% off your first order subscribe here! https://screencrushmerch.com/pages/subscribe \n\nDisclos…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Disclosure Day is Not an Alien Movie - Ending Explained\nDisclosure Day Ending Ex…",
+          "url": "https://www.youtube.com/watch?v=UpJgzNeNnU0",
+          "date": "2026-06-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5122",
+      "text": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought aliens with him for the first time in years. Disclosure Day is a very welcome return to blockbuster filmmaking for the director who pioneered it 50 years ago with Jaws. And while Disclosure Day provides all the things Spielberg does best, with some incredible lighting and camera movement, great performances from leads Emily Blunt and Josh O'Connor, the story of disclosing the existence of alien life to the entire world …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought ali…",
+          "url": "https://www.youtube.com/watch?v=b0XXF_GCVjk",
+          "date": "2026-06-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5123",
+      "text": "Macbook Neo Review: Better than you Think!\nMacbook Neo is only $600 bucks, but it's incredibly capable and compelling at this price\n\nCheck out dbrand skins for your MacBook at https://dbrand.com/retro-macbooks\n\nThat shirt! http://shop.MKBHD.com\n\n(Affiliate Link) MacBook Neo: https://geni.us/JGI8B3f\n\nPodcast: http://youtube.com/Waveform\n\nPlaylist of MKBHD Intro music: https://goo.gl/B3AWV5\nMacBook Neo provided by Apple for review.\n\n~\nhttp://twitter.com/MKBHD\nhttp://instagram.com/MKBHD\nhttp://face…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Macbook Neo Review: Better than you Think!\nMacbook Neo is only $600 bucks, but i…",
+          "url": "https://www.youtube.com/watch?v=iGeXGdYE7UE",
+          "date": "2026-03-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5124",
+      "text": "Effortless AI in Pediatric Dentistry: Smoother Visits, Clearer Conversations, and Stronger Trust\nInternationally recognized pediatric dentist and educator Dr. Josh Solomon shares how artificial intelligence can be seamlessly integrated into pediatric workflows to create a more natural, efficient, and engaging patient experience. Drawing on over two decades of clinical expertise, Dr. Solomon demonstrates how AI enhances diagnostics, simplifies communication, and supports stronger case acceptance—…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Effortless AI in Pediatric Dentistry: Smoother Visits, Clearer Conversations, an…",
+          "url": "https://www.youtube.com/watch?v=pVypbjEoTu4",
+          "date": "2026-06-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l4125",
+      "text": "Staff Specialist - General Paediatrics — Mediix (Millers Point, New South Wales, Australia). Posted 8 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mediix",
+          "title": "Staff Specialist - General Paediatrics",
+          "url": "https://www.linkedin.com/jobs/view/4345485555",
+          "date": "8 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4126",
+      "text": "Staff Specialist - General Paediatrics — Mediix (Belconnen, Australian Capital Territory, Australia). Posted 8 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mediix",
+          "title": "Staff Specialist - General Paediatrics",
+          "url": "https://www.linkedin.com/jobs/view/4345185843",
+          "date": "8 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4127",
+      "text": "Consultant Paediatrician immediate start — Santé Recruitment (Sale, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Santé Recruitment",
+          "title": "Consultant Paediatrician immediate start",
+          "url": "https://www.linkedin.com/jobs/view/4444852725",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4128",
+      "text": "Staff Specialist / Senior Lecturer (513827) — Department of Health, Tasmania (Brisbane, Queensland, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Health, Tasmania",
+          "title": "Staff Specialist / Senior Lecturer (513827)",
+          "url": "https://www.linkedin.com/jobs/view/4458561203",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4129",
+      "text": "Staff Specialist / Senior Lecturer (513827) — Department of Health, Tasmania (Melbourne, Victoria, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Health, Tasmania",
+          "title": "Staff Specialist / Senior Lecturer (513827)",
+          "url": "https://www.linkedin.com/jobs/view/4458567060",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4130",
+      "text": "Staff Specialist in General Paediatrics Armidale NSW — Santé Recruitment (Armidale, New South Wales, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Santé Recruitment",
+          "title": "Staff Specialist in General Paediatrics Armidale NSW",
+          "url": "https://www.linkedin.com/jobs/view/4458334609",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "text": "Pediatricians in Australia are registered medical practitioners. The Medical Board of Australia administers registration: general registration, then specialist registration for paediatricians (Specialist Registration standard effective 21 October 2024), supported by registration standards for criminal history, continuing professional development, recency of practice, professional indemnity insurance and English language skills. Paediatricians typically attain specialist registration through the Royal Australasian College of Physicians.",
+      "lane": "L1",
+      "tier": "regulatory-national-board",
+      "sources": [
+        {
+          "publisher": "Medical Board of Australia",
+          "title": "Registration Standards",
+          "url": "https://www.medicalboard.gov.au/Registration-Standards.aspx",
+          "date": "2026",
+          "whatItMeasured": "Medical Board registration standards (general + specialist registration; criminal history, CPD, recency of practice, PII, English language). Specialist Registration standard effective 21 Oct 2024."
+        }
+      ],
+      "scope": "Voluntary specialist collegiate pathway (RACP) plus statutory Medical Board registration. Population = Australian paediatricians (medical practitioners). No AI-specific registration standard.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (medicalboard.gov.au); measures AU medical practitioner registration; current 2026.",
+      "id": "29-1065-empi01"
+    },
+    {
+      "text": "Ahpra and the National Boards have published principles for health practitioners to consider when using or integrating AI into their practice, translating existing obligations in practitioner codes of conduct: accountability, an appropriate understanding of the tool, transparency of its use, informed consent, and ethical and legal issues. The AHPRA guidance (reviewed 22 August 2024) requires practitioners to understand inherent bias in AI data and algorithms, comply with TGA and state/territory requirements, be aware of employer governance arrangements, and hold appropriate professional indemnity insurance. No dedicated AI-specific registration standard exists; conduct is governed through the codes and registration standards.",
+      "lane": "L1",
+      "tier": "regulatory-ai-guidance",
+      "sources": [
+        {
+          "publisher": "AHPRA",
+          "title": "Meeting your professional obligations when using Artificial Intelligence in healthcare",
+          "url": "https://www.ahpra.gov.au/Resources/Artificial-Intelligence-in-healthcare",
+          "date": "2024-08-22",
+          "whatItMeasured": "AHPRA/National Boards guidance applying existing codes of conduct to practitioner AI use; lists accountability, tool understanding, transparency, consent, ethical/legal duties, TGA/state compliance, employer governance, professional indemnity insurance. Page reviewed 22/08/2024.",
+          "quote": "supporting the health and safety of Aboriginal and Torres Strait Islander people and all patients/clients from diverse backgrounds by ensuring you understand the inherent bias that can exist within data and algorithms used in AI applications and only using them when appropriate"
+        },
+        {
+          "publisher": "Medical Board of Australia",
+          "title": "Applying your code of conduct to evolving technologies - AI in healthcare",
+          "url": "https://www.medicalboard.gov.au/News/2024-08-22-AI-in-healthcare-code-of-conduct",
+          "date": "2024-08-22",
+          "whatItMeasured": "News: Ahpra and the National Boards developed principles for practitioners using/integrating AI; translates existing code-of-conduct obligations (accountability, understanding the tool, transparency, informed consent, ethical/legal issues)."
+        }
+      ],
+      "scope": "Applies to all AHPRA-registered practitioners incl. paediatricians; AI governance via codes of conduct, not a new registration standard. Population = AU health practitioners.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ahpra.gov.au + medicalboard.gov.au news); measures AU health practitioners; 2024.",
+      "id": "29-1065-empi02"
+    },
+    {
+      "text": "Jobs and Skills Australia's Generative AI Capacity Study (2025) finds augmentation generally outweighs automation for current Gen AI: professional and technical occupations skew towards augmentation, with the higher potential for automation concentrated in routine roles. Effects depend on adoption and workplace adaptation, not exposure alone.",
+      "lane": "L2",
+      "tier": "scholarly-modelling",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition - Exposure",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure",
+          "date": "2025",
+          "whatItMeasured": "Task/occupation-level Gen AI augmentability/automatability across 358 ANZSCO occupations (ILO/Gmyrek-Berg-Bescond method tailored to ANZSCO); 'Professional group skews towards augmentation'.",
+          "quote": "Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them. The higher potential for automation is concentrated in routine roles."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level potential, not observed job losses. Paediatricians inferred as skill-level-1 professionals in the high-augmentation band.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (JSA gov); measures AU occupations; published 2025.",
+      "id": "29-1065-empi03"
+    },
+    {
+      "text": "Peer-reviewed literature reports AI is already supporting paediatric care across diagnostics, personalised treatment strategies and prognosis prediction, positioning AI as an assistive layer rather than a replacement for the paediatrician's clinical judgement.",
+      "lane": "L2",
+      "tier": "scholarly-review",
+      "sources": [
+        {
+          "publisher": "PMC / PubMed Central",
+          "title": "Artificial intelligence in pediatric healthcare",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12409185/",
+          "date": "2025",
+          "whatItMeasured": "Review of AI in pediatric healthcare: supports diagnostics, personalised treatment strategies, prognosis predictions."
+        }
+      ],
+      "scope": "Global peer-reviewed review of AI in paediatrics; assistive tooling, not an Australian employment statistic.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (PMC/PMCID); measures AI in paediatric care literature; 2025.",
+      "id": "29-1065-empi04"
+    },
+    {
+      "text": "The Royal Australasian College of Physicians (RACP) reported in September 2025 that new research found artificial intelligence rivals doctors in detecting hip dysplasia in children, illustrating diagnostic AI reaching clinician-comparable performance in a specific paediatric task.",
+      "lane": "L3",
+      "tier": "trade-press-professional-body",
+      "sources": [
+        {
+          "publisher": "Royal Australasian College of Physicians (RACP)",
+          "title": "New research finds artificial intelligence rivals doctors in detecting hip dysplasia in children",
+          "url": "https://www.racp.edu.au/news-and-events/media-releases/new-research-finds-artificial-intelligence-rivals-doctors-in-detecting-hip-dysplasia-in-children",
+          "date": "2025-09-28",
+          "whatItMeasured": "RACP media release on AI rivaling doctors in detecting paediatric hip dysplasia (Sept 2025)."
+        }
+      ],
+      "scope": "Single-condition diagnostic finding (paediatric hip dysplasia); signals diagnostic-AI assistive adoption, not a displacement of paediatricians. Professional-body media release.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (racp.edu.au); measures one paediatric diagnostic AI result; 2025.",
+      "id": "29-1065-empi05"
     }
   ],
   "jobAds": {
@@ -2162,7 +2885,29 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-31",
+        "note": "Factiva/OpenAthens cookie file is ~5 days old; server-side session expired and an interactive UO+M SSO re-auth is impossible in an unattended cron run. L3 trade-press covered by web professional-body publications instead. Gap logged; re-run scripts/factiva_reauth.py then scripts/factiva_backfill.py to close."
+      },
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "reason": "unreachable",
+        "date": "2026-08-31",
+        "note": "last30days grounding (keyless web search) unreachable this run; recorded as coverage, not as a finding of quiet."
+      },
+      {
+        "lane": "L5",
+        "source": "jobs",
+        "reason": "unreachable",
+        "date": "2026-08-31",
+        "note": "last30days jobs source unreachable (nodename error) this run; recorded as coverage, not as a finding of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -2176,6 +2921,15 @@
         "date": "2026-08-29",
         "soc": "29-1065",
         "query": "Pediatricians, General",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "soc": "29-1065",
+        "query": "Pediatricians",
         "location": "Australia",
         "returned": 10,
         "totalResults": 10,
@@ -2210,9 +2964,26 @@
           "youtube": 2
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 23,
+        "sources": {
+          "github": 3,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 12,
+          "x": 14,
+          "youtube": 4
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press lane unavailable this run (OpenAthens session expired; cookie file ~5 days old, no interactive SSO in cron) - logged to factiva_backlog.json, covered by web professional-body publications (RACP/RACS/digitalhealth.org.au/London Ambulance Service). L1/L2 sources are Australian regulatory/scholarly (AHPRA + National Board registration standards, AHPRA AI-in-healthcare guidance, JSA Gen AI Capacity Study) plus discipline reviews. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); L5 practitioner corpus (last30days) re-run this run and preserved (MERGE). Confidence rests on >=2 L1/L2 claims plus the declared L5 corpus."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

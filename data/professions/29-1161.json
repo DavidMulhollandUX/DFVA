@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-01",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-03-02",
   "programs": [],
   "claims": [
     {
@@ -1650,6 +1650,435 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "AI is coming for our livelihood\nI work as a doctor in one of the premier hospitals in Pakistan. We have quarterly benchmarks that need to be met. As our system is all EHR related, we have gazillions of data points. So in one of the areas we werent doing well so i wanted to find out some metrics. Our compliance department was just tracking one thing from a data set. So, having no knowledge in python or stats, I had claude custom tailor a python script, which measures like so many things, all kids…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI is coming for our livelihood\nI work as a doctor in one of the premier hospita…",
+          "url": "https://www.reddit.com/r/PakistaniTech/comments/1vv4y96/ai_is_coming_for_our_livelihood/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Traini…",
+          "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "text": "Have nursing students or other students in college majors aiming at \"AI Proof\" jobs seen this video? Your future salary may depend on AI-built algorithms to reduce your paychecks.\nI don&#39;t mean to alarm people but forewarned is forearmed. Join unions or only work for organizations that have a contract-mandated pay scale, where everyone at the same license-level is paid the same wage per hour. And if you&#39;re already on these apps, don&#39;t bid lower just to get the shift. That&#39;s a race…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Have nursing students or other students in college majors aiming at \"AI Proof\" j…",
+          "url": "https://www.reddit.com/r/WGU/comments/1vvlriy/have_nursing_students_or_other_students_in/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l583",
+      "text": "Registered Nurse Salary Breakdown + AI Threat Assessment\nMedian RN pay is $86,070 and the top 10% clear $132,680+, but travel spikes and specialties change the game.\nWill AI replace nurses or finally kill the paperwork load? The answer may surprise you.\n\nWhat you will learn:\n- ✅ Real RN pay: national median, top 10%, and hourly rates from BLS\n- ✅ Top-paying states vs. lowest, and how big the geography gap really is\n- ✅ Entry-level offers for new grads and how differentials stack up nights/weeken…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Registered Nurse Salary Breakdown + AI Threat Assessment\nMedian RN pay is $86,07…",
+          "url": "https://www.youtube.com/watch?v=t1q_FNOubTw",
+          "date": "2026-06-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l484",
+      "text": "Nurse/Midwife Clinical Coordinator - Quality Improvement — Northern Territory Government (Alice Springs, Northern Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Northern Territory Government",
+          "title": "Nurse/Midwife Clinical Coordinator - Quality Improvement",
+          "url": "https://www.linkedin.com/jobs/view/4456152340",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l485",
+      "text": "Remote Area Nurse/Midwife - Primary and Public Health N3/N4 - all regions across NT Health — NT Health (Tennant Creek, Northern Territory, Australia). Posted 1 year ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NT Health",
+          "title": "Remote Area Nurse/Midwife - Primary and Public Health N3/N4 - all regions across NT Health",
+          "url": "https://www.linkedin.com/jobs/view/4149455282",
+          "date": "1 year ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l486",
+      "text": "Nurse/Midwife Clinical Specialist Remote — NT Health (Willowra, Northern Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NT Health",
+          "title": "Nurse/Midwife Clinical Specialist Remote",
+          "url": "https://www.linkedin.com/jobs/view/4449897124",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l487",
+      "text": "Nursing & Midwifery Talent Pool - Queensland Health — Metro South Health (Greater Brisbane Area). Posted 3 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Metro South Health",
+          "title": "Nursing & Midwifery Talent Pool - Queensland Health",
+          "url": "https://www.linkedin.com/jobs/view/4412655891",
+          "date": "3 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l488",
+      "text": "Nursing & Midwifery Talent Pool - Queensland Health — West Moreton Hospital and Health Service (Greater Brisbane Area). Posted 19 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "West Moreton Hospital and Health Service",
+          "title": "Nursing & Midwifery Talent Pool - Queensland Health",
+          "url": "https://www.linkedin.com/jobs/view/4394318449",
+          "date": "19 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l489",
+      "text": "Registered Nurse/Midwife — Ramsay Health Care (Greenslopes, Queensland, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ramsay Health Care",
+          "title": "Registered Nurse/Midwife",
+          "url": "https://www.linkedin.com/jobs/view/4458371438",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l490",
+      "text": "Director of Nursing and Midwifery — Northern Territory Government (Nhulunbuy, Northern Territory, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Northern Territory Government",
+          "title": "Director of Nursing and Midwifery",
+          "url": "https://www.linkedin.com/jobs/view/4451102223",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l491",
+      "text": "Registered Nurse/Midwife — Bairnsdale Regional Health Service (East Gippsland, Victoria, Australia). Posted 5 minutes ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bairnsdale Regional Health Service",
+          "title": "Registered Nurse/Midwife",
+          "url": "https://www.linkedin.com/jobs/view/4436053962",
+          "date": "5 minutes ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l492",
+      "text": "AIN, EN, ENAS, RN, Midwives, CN, CNC, NUM, DON — South West Hospital and Health Service (Queensland, Australia). Posted 10 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "South West Hospital and Health Service",
+          "title": "AIN, EN, ENAS, RN, Midwives, CN, CNC, NUM, DON",
+          "url": "https://www.linkedin.com/jobs/view/4331822788",
+          "date": "10 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l493",
+      "text": "Associate Nurse Unit Manager - Maternity — Bairnsdale Regional Health Service (East Gippsland, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bairnsdale Regional Health Service",
+          "title": "Associate Nurse Unit Manager - Maternity",
+          "url": "https://www.linkedin.com/jobs/view/4451101529",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "text": "Nurse Midwives in Australia are registered by the Nursing and Midwifery Board of Australia (NMBA) under the National Scheme; midwifery is a distinct registration (separate from, and able to be held concurrently with, nurse registration). NMBA registration standards define the requirements to be registered and to maintain registration, and the Midwife standards for practice describe expected practice.",
+      "lane": "L1",
+      "tier": "regulatory-national-board",
+      "sources": [
+        {
+          "publisher": "Nursing and Midwifery Board of Australia (NMBA)",
+          "title": "Registration Standards",
+          "url": "https://www.nursingmidwiferyboard.gov.au/registration-standards.aspx",
+          "date": "2026",
+          "whatItMeasured": "NMBA registration standards for midwives; Midwife standards for practice. Midwifery is a distinct registration under the National Scheme."
+        }
+      ],
+      "scope": "Statutory NMBA registration (midwifery). Population = Australian midwives. No AI-specific registration standard.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (nursingmidwiferyboard.gov.au); measures AU midwife registration; current 2026.",
+      "id": "29-1161-empi01"
+    },
+    {
+      "text": "Ahpra and the National Boards have published principles for health practitioners to consider when using or integrating AI into their practice, translating existing obligations in practitioner codes of conduct: accountability, an appropriate understanding of the tool, transparency of its use, informed consent, and ethical and legal issues. The AHPRA guidance (reviewed 22 August 2024) requires practitioners to understand inherent bias in AI data and algorithms, comply with TGA and state/territory requirements, be aware of employer governance arrangements, and hold appropriate professional indemnity insurance. No dedicated AI-specific registration standard exists; conduct is governed through the codes and registration standards.",
+      "lane": "L1",
+      "tier": "regulatory-ai-guidance",
+      "sources": [
+        {
+          "publisher": "AHPRA",
+          "title": "Meeting your professional obligations when using Artificial Intelligence in healthcare",
+          "url": "https://www.ahpra.gov.au/Resources/Artificial-Intelligence-in-healthcare",
+          "date": "2024-08-22",
+          "whatItMeasured": "AHPRA/National Boards guidance applying existing codes of conduct to practitioner AI use; lists accountability, tool understanding, transparency, consent, ethical/legal duties, TGA/state compliance, employer governance, professional indemnity insurance. Page reviewed 22/08/2024.",
+          "quote": "supporting the health and safety of Aboriginal and Torres Strait Islander people and all patients/clients from diverse backgrounds by ensuring you understand the inherent bias that can exist within data and algorithms used in AI applications and only using them when appropriate"
+        },
+        {
+          "publisher": "Medical Board of Australia",
+          "title": "Applying your code of conduct to evolving technologies - AI in healthcare",
+          "url": "https://www.medicalboard.gov.au/News/2024-08-22-AI-in-healthcare-code-of-conduct",
+          "date": "2024-08-22",
+          "whatItMeasured": "News: Ahpra and the National Boards developed principles for practitioners using/integrating AI; translates existing code-of-conduct obligations (accountability, understanding the tool, transparency, informed consent, ethical/legal issues)."
+        }
+      ],
+      "scope": "Applies to midwives as AHPRA-regulated practitioners; AI governance via codes of conduct. Population = AU midwives.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ahpra.gov.au); measures AU health practitioners; 2024.",
+      "id": "29-1161-empi02"
+    },
+    {
+      "text": "Jobs and Skills Australia's Generative AI Capacity Study (2025) finds augmentation generally outweighs automation for current Gen AI: professional and technical occupations skew towards augmentation, with the higher potential for automation concentrated in routine roles. Effects depend on adoption and workplace adaptation, not exposure alone.",
+      "lane": "L2",
+      "tier": "scholarly-modelling",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition - Exposure",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure",
+          "date": "2025",
+          "whatItMeasured": "Task/occupation-level Gen AI augmentability/automatability across 358 ANZSCO occupations (ILO/Gmyrek-Berg-Bescond method tailored to ANZSCO); 'Professional group skews towards augmentation'.",
+          "quote": "Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them. The higher potential for automation is concentrated in routine roles."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level potential. Midwives inferred as a health professional group in the augmentation band.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (JSA gov); measures AU occupations; published 2025.",
+      "id": "29-1161-empi03"
+    },
+    {
+      "text": "A 2025 scoping review of artificial intelligence in midwifery examined the implementation, prospects and attitudes of midwives toward AI, indicating the profession is actively scoping AI's role in education, decision support and patient care rather than treating it as settled.",
+      "lane": "L2",
+      "tier": "scholarly-review",
+      "sources": [
+        {
+          "publisher": "PMC / PubMed Central",
+          "title": "Artificial Intelligence in Midwifery: A Scoping Review of ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12026693/",
+          "date": "2025",
+          "whatItMeasured": "Scoping review of AI in midwifery: implementation, prospects, and midwife attitudes toward AI."
+        }
+      ],
+      "scope": "Global peer-reviewed scoping review; maps midwifery AI attitudes/implementation, not an Australian employment statistic.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (PMC/PMCID); measures AI-in-midwifery literature; 2025.",
+      "id": "29-1161-empi04"
+    },
+    {
+      "text": "Professional digital-health commentary notes nurses and midwives are well positioned to measure the impact of AI on patient outcomes and are urged to engage with how AI affects care, reflecting practitioner-level interest in AI adoption and evaluation.",
+      "lane": "L3",
+      "tier": "trade-press-professional-body",
+      "sources": [
+        {
+          "publisher": "digitalhealth.org.au",
+          "title": "AI in clinical practice - are nurses/midwives leading the way?",
+          "url": "https://digitalhealth.org.au/blog/ai-in-clinical-practice-are-nurses-midwives-leading-the-way/",
+          "date": "2025",
+          "whatItMeasured": "Professional publication on nurses/midwives measuring AI impact on patient outcomes."
+        }
+      ],
+      "scope": "Professional publication (digitalhealth.org.au); signals practitioner engagement with AI, not a displacement forecast.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (digitalhealth.org.au); measures professional commentary on AI in midwifery/nursing; 2025.",
+      "id": "29-1161-empi05"
     }
   ],
   "jobAds": {
@@ -1679,7 +2108,29 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-31",
+        "note": "Factiva/OpenAthens cookie file is ~5 days old; server-side session expired and an interactive UO+M SSO re-auth is impossible in an unattended cron run. L3 trade-press covered by web professional-body publications instead. Gap logged; re-run scripts/factiva_reauth.py then scripts/factiva_backfill.py to close."
+      },
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "reason": "unreachable",
+        "date": "2026-08-31",
+        "note": "last30days grounding (keyless web search) unreachable this run; recorded as coverage, not as a finding of quiet."
+      },
+      {
+        "lane": "L5",
+        "source": "jobs",
+        "reason": "unreachable",
+        "date": "2026-08-31",
+        "note": "last30days jobs source unreachable (nodename error) this run; recorded as coverage, not as a finding of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1691,6 +2142,15 @@
       },
       {
         "date": "2026-08-29",
+        "soc": "29-1161",
+        "query": "Nurse Midwives",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
         "soc": "29-1161",
         "query": "Nurse Midwives",
         "location": "Australia",
@@ -1727,9 +2187,26 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 5,
+        "sources": {
+          "github": 8,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 5,
+          "x": 25,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press lane unavailable this run (OpenAthens session expired; cookie file ~5 days old, no interactive SSO in cron) - logged to factiva_backlog.json, covered by web professional-body publications (RACP/RACS/digitalhealth.org.au/London Ambulance Service). L1/L2 sources are Australian regulatory/scholarly (AHPRA + National Board registration standards, AHPRA AI-in-healthcare guidance, JSA Gen AI Capacity Study) plus discipline reviews. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); L5 practitioner corpus (last30days) re-run this run and preserved (MERGE). Confidence rests on >=2 L1/L2 claims plus the declared L5 corpus."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -8,11 +8,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-01",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-03-02",
   "programs": [],
   "claims": [
     {
@@ -2450,6 +2450,435 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5117",
+      "text": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sections 1–3 (Purpose & Scope; Domain Matrix; Evidence Bands)**  \nDecember 02, 2025  \n\n---\n\n## 1. Purpose & Scope\n\nThis section aligns the project’s TXT and PDF corpus around one structural pattern:\n\n> **Systems that secure compliance and e\nHere is the forensic debrief of the current operational reality, synthesized from your diagnosis.\n📋 CLINICAL DIAGNOSIS: The Parasitic Extraction Engine\nSubject: Global Socio-Economic…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sec…",
+          "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/2",
+          "date": "2026-04-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5118",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
+          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5119",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
+          "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5120",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
+          "url": "https://www.reddit.com/r/ControlProblem/comments/1vzy4do/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5121",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
+          "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5122",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
+          "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5123",
+      "text": "Can AI Ever Replace a Surgeon? This Doctor Says No | Dr. Brad Feltis\nDr. Brad Feltis has spent his career looking patients in the eye right before the moment everything could go wrong.\n\nIn this episode, the pediatric surgeon behind one of the only advanced fetal surgery programs in North America explains why no algorithm can replicate that split-second of human connection. He also opens up about what it took to build that program from scratch with zero hospital support, recruiting elite surgeons…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Can AI Ever Replace a Surgeon? This Doctor Says No | Dr. Brad Feltis\nDr. Brad Fe…",
+          "url": "https://www.youtube.com/watch?v=psKZlrp_gcg",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5124",
+      "text": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & Plot Guide)\nHow to Build Custom Plots and Story Twists from Scratch in zeta AI - Chat, Story, Play\nStuck with predictable AI roleplays that keep looping the same responses? In this step-by-step tutorial, learn how to take total control of your Zeta AI experience, direct multi-character storylines, and engineer dramatic plot twists that keep your characters locked into the story arc.\n\nWe walk through prompt setups, sma…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & P…",
+          "url": "https://www.youtube.com/watch?v=vwcJh4YvyTo",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5125",
+      "text": "When AI Enters the Operating Room\nA Reuters report on botched surgeries involving AI-assisted medical devices is making the rounds, and it raises some genuinely uncomfortable questions.\n\nNuria and Morgan dig into the details: an AI navigation tool used in sinus surgery that allegedly failed to identify a patient's carotid artery, leading to a stroke, and an FDA report on AI software for prenatal ultrasounds wrongly labelling fetal structures. \n\nMorgan brings her experience consulting for intraop…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "When AI Enters the Operating Room\nA Reuters report on botched surgeries involvin…",
+          "url": "https://www.youtube.com/watch?v=fv4RAj7l05Y",
+          "date": "2026-04-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5126",
+      "text": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This Story\n📚 FEEL ALIVE II — UNLOCK YOUR INFINITE POWER (NEW BOOK)  https://ralphsmart.com/thebook/\nStep into your next level. This isn’t just a book… it’s a transformation.\n🔥 Exclusive Content (Patreon)\nGo deeper. Unlock powerful insights you won’t find anywhere else:\nhttps://patreon.com/ralphsmart\n👕 OFFICIAL INFINITE WATERS MERCH\nWear the message. Live the energy.\nhttp://www.ralphsmart.com/clothing\n🧠 1–1 CONSULTATIONS …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This…",
+          "url": "https://www.youtube.com/watch?v=TBECVlFNcKM",
+          "date": "2026-07-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5127",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth!…",
+          "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
+          "date": "2026-03-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5128",
+      "text": "AI Gives Wrong Medical Advice — Doctors Still Take the Legal Hit | Dr. John Ferguson\nAI gives wrong medical advice. AI adds a disclaimer. The doctor gets sued. The patient pays the price.\n\nThat's the current legal arrangement — and Dr. John Ferguson argues this accountability gap isn't accidental. Until AI carries real liability, there's no financial incentive to get it right.\n\nDr. Ferguson is a quintuple board-certified surgeon with decades of surgical experience and one of medicine's leading v…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Gives Wrong Medical Advice — Doctors Still Take the Legal Hit | Dr. John Ferg…",
+          "url": "https://www.youtube.com/watch?v=XHNYXvs3q-A",
+          "date": "2026-07-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l4129",
+      "text": "Surgery Specialist - VRH Dandenong — Veterinary Referral Hospital (Dandenong, Victoria, Australia). Posted 9 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Veterinary Referral Hospital",
+          "title": "Surgery Specialist - VRH Dandenong",
+          "url": "https://www.linkedin.com/jobs/view/4459767137",
+          "date": "9 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4130",
+      "text": "Neurosurgeon — Mediix (Darwin, Northern Territory, Australia). Posted 4 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mediix",
+          "title": "Neurosurgeon",
+          "url": "https://www.linkedin.com/jobs/view/4402634001",
+          "date": "4 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4131",
+      "text": "Obstetrics and Gynaecologist - Full time position - Brisbane — ME Medical Recruitment (Brisbane, Queensland, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ME Medical Recruitment",
+          "title": "Obstetrics and Gynaecologist - Full time position - Brisbane",
+          "url": "https://www.linkedin.com/jobs/view/4458346442",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4132",
+      "text": "NNSWLHD Visiting Medical Officer or Staff Specialist Urologist - Lismore Base Hospital (Apply via eCredential) — Northern NSW Local Health District (Lismore, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Northern NSW Local Health District",
+          "title": "NNSWLHD Visiting Medical Officer or Staff Specialist Urologist - Lismore Base Hospital (Apply via eCredential)",
+          "url": "https://www.linkedin.com/jobs/view/4448106689",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "text": "Surgeons in Australia are registered medical practitioners. The Medical Board of Australia administers registration: general registration, then specialist registration for surgeons (Specialist Registration standard effective 21 October 2024); registration standards cover criminal history, CPD, recency of practice, professional indemnity insurance and English language skills. Surgeons attain specialist registration through the Royal Australasian College of Surgeons.",
+      "lane": "L1",
+      "tier": "regulatory-national-board",
+      "sources": [
+        {
+          "publisher": "Medical Board of Australia",
+          "title": "Registration Standards",
+          "url": "https://www.medicalboard.gov.au/Registration-Standards.aspx",
+          "date": "2026",
+          "whatItMeasured": "Medical Board registration standards (general + specialist registration; specialist standard effective 21 Oct 2024; CPD, criminal history, recency, PII, English language)."
+        }
+      ],
+      "scope": "Voluntary specialist collegiate pathway (RACS) plus statutory Medical Board registration. Population = Australian surgeons (medical practitioners). No AI-specific registration standard.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (medicalboard.gov.au); measures AU medical practitioner registration; current 2026.",
+      "id": "29-1067-empi01"
+    },
+    {
+      "text": "Ahpra and the National Boards have published principles for health practitioners to consider when using or integrating AI into their practice, translating existing obligations in practitioner codes of conduct: accountability, an appropriate understanding of the tool, transparency of its use, informed consent, and ethical and legal issues. The AHPRA guidance (reviewed 22 August 2024) requires practitioners to understand inherent bias in AI data and algorithms, comply with TGA and state/territory requirements, be aware of employer governance arrangements, and hold appropriate professional indemnity insurance. No dedicated AI-specific registration standard exists; conduct is governed through the codes and registration standards.",
+      "lane": "L1",
+      "tier": "regulatory-ai-guidance",
+      "sources": [
+        {
+          "publisher": "AHPRA",
+          "title": "Meeting your professional obligations when using Artificial Intelligence in healthcare",
+          "url": "https://www.ahpra.gov.au/Resources/Artificial-Intelligence-in-healthcare",
+          "date": "2024-08-22",
+          "whatItMeasured": "AHPRA/National Boards guidance applying existing codes of conduct to practitioner AI use; lists accountability, tool understanding, transparency, consent, ethical/legal duties, TGA/state compliance, employer governance, professional indemnity insurance. Page reviewed 22/08/2024.",
+          "quote": "supporting the health and safety of Aboriginal and Torres Strait Islander people and all patients/clients from diverse backgrounds by ensuring you understand the inherent bias that can exist within data and algorithms used in AI applications and only using them when appropriate"
+        },
+        {
+          "publisher": "Medical Board of Australia",
+          "title": "Applying your code of conduct to evolving technologies - AI in healthcare",
+          "url": "https://www.medicalboard.gov.au/News/2024-08-22-AI-in-healthcare-code-of-conduct",
+          "date": "2024-08-22",
+          "whatItMeasured": "News: Ahpra and the National Boards developed principles for practitioners using/integrating AI; translates existing code-of-conduct obligations (accountability, understanding the tool, transparency, informed consent, ethical/legal issues)."
+        }
+      ],
+      "scope": "Applies to surgeons as AHPRA-registered practitioners; AI governance via codes of conduct. Population = AU surgeons.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ahpra.gov.au); measures AU health practitioners; 2024.",
+      "id": "29-1067-empi02"
+    },
+    {
+      "text": "Jobs and Skills Australia's Generative AI Capacity Study (2025) finds augmentation generally outweighs automation for current Gen AI: professional and technical occupations skew towards augmentation, with the higher potential for automation concentrated in routine roles. Effects depend on adoption and workplace adaptation, not exposure alone.",
+      "lane": "L2",
+      "tier": "scholarly-modelling",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition - Exposure",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure",
+          "date": "2025",
+          "whatItMeasured": "Task/occupation-level Gen AI augmentability/automatability across 358 ANZSCO occupations (ILO/Gmyrek-Berg-Bescond method tailored to ANZSCO); 'Professional group skews towards augmentation'.",
+          "quote": "Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them. The higher potential for automation is concentrated in routine roles."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level potential. Surgeons inferred as skill-level-1 professionals in the high-augmentation band.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (JSA gov); measures AU occupations; published 2025.",
+      "id": "29-1067-empi03"
+    },
+    {
+      "text": "The Royal Australasian College of Surgeons (RACS) states AI is poised to enhance surgical precision and streamline pre- and post-operative care, but calls for a comprehensive regulatory framework to guide safe and responsible use; RACS stresses the responsibility for patient care remains with the surgeon, and consent, privacy and data security must be managed.",
+      "lane": "L3",
+      "tier": "trade-press-professional-body",
+      "sources": [
+        {
+          "publisher": "Royal Australasian College of Surgeons (RACS)",
+          "title": "Future of AI in surgery",
+          "url": "https://www.surgeons.org/surgicalnews/Articles/2024/Volume-25/Issue-6/AI-in-Surgery",
+          "date": "2024",
+          "whatItMeasured": "RACS Surgical News: AI enhances surgical precision, pre/post-op care, education; RACS calls for regulatory framework; surgeon accountability unchanged."
+        }
+      ],
+      "scope": "Professional-body commentary (RACS, 2024); signals tooling adoption + regulatory ask, not a displacement forecast. Australian surgical workforce perspective.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (surgeons.org); measures RACS position on AI in surgery; 2024.",
+      "id": "29-1067-empi04"
     }
   ],
   "jobAds": {
@@ -2479,7 +2908,29 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-31",
+        "note": "Factiva/OpenAthens cookie file is ~5 days old; server-side session expired and an interactive UO+M SSO re-auth is impossible in an unattended cron run. L3 trade-press covered by web professional-body publications instead. Gap logged; re-run scripts/factiva_reauth.py then scripts/factiva_backfill.py to close."
+      },
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "reason": "unreachable",
+        "date": "2026-08-31",
+        "note": "last30days grounding (keyless web search) unreachable this run; recorded as coverage, not as a finding of quiet."
+      },
+      {
+        "lane": "L5",
+        "source": "jobs",
+        "reason": "unreachable",
+        "date": "2026-08-31",
+        "note": "last30days jobs source unreachable (nodename error) this run; recorded as coverage, not as a finding of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -2491,6 +2942,15 @@
       },
       {
         "date": "2026-08-29",
+        "soc": "29-1067",
+        "query": "Surgeons",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
         "soc": "29-1067",
         "query": "Surgeons",
         "location": "Australia",
@@ -2527,9 +2987,26 @@
           "youtube": 6
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 12,
+        "sources": {
+          "github": 2,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 6,
+          "x": 56,
+          "youtube": 6
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press lane unavailable this run (OpenAthens session expired; cookie file ~5 days old, no interactive SSO in cron) - logged to factiva_backlog.json, covered by web professional-body publications (RACP/RACS/digitalhealth.org.au/London Ambulance Service). L1/L2 sources are Australian regulatory/scholarly (AHPRA + National Board registration standards, AHPRA AI-in-healthcare guidance, JSA Gen AI Capacity Study) plus discipline reviews. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); L5 practitioner corpus (last30days) re-run this run and preserved (MERGE). Confidence rests on >=2 L1/L2 claims plus the declared L5 corpus."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

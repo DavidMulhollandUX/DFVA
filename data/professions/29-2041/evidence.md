@@ -1,31 +1,19 @@
-# Evidence log: Emergency Medical Technicians and Paramedics (29-2041)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log - 29-2041 Emergency Medical Technicians and Paramedics
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-31. Empirical five-lane run completed (L1/L2/L3 added this run; L4 Adzuna+LinkedIn and L5 last30days re-run and preserved).
+Confidence: high. Claims admitted: 64 (added 5; dropped 0 fabricated-template). L1/L2 claims: 4. Declared L5 corpus: True.
 
-## Lane sources (one short quote per source)
+- **[L1] Paramedicine Board of Australia** - https://www.paramedicineboard.gov.au/Professional-standards/Registration-standards.aspx
+  > Paramedics in Australia are registered by the Paramedicine Board of Australia under the National Scheme (paramedics joined the National Scheme on 30 November 2018). Registration standards define requi
+- **[L1] AHPRA** - https://www.ahpra.gov.au/Resources/Artificial-Intelligence-in-healthcare
+  > supporting the health and safety of Aboriginal and Torres Strait Islander people and all patients/clients from diverse backgrounds by ensuring you understand the inherent bias that can exist within data and algorithms used in AI applications and only using them when appropriate
+- **[L2] Jobs and Skills Australia** - https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure
+  > Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them. The higher potential for automation is concentrated in routine roles.
+- **[L2] PMC / PubMed Central** - https://pmc.ncbi.nlm.nih.gov/articles/PMC12494111/
+  > A 2025 review of artificial intelligence in prehospital emergency care finds AI is being applied to triage and destination decisions for time-critical conditions, with EMS providers viewing AI as an a
+- **[L3] London Ambulance Service** - https://www.londonambulance.nhs.uk/2025/09/04/first-ai-trial-sees-paramedics-at-london-ambulance-service-treat-more-patients/
+  > UK ambulance services are trialling AI to let paramedics care for more patients per day (London Ambulance Service's first AI trial, September 2025), indicating real-world prehospital AI adoption in di
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Emergency Medical Technicians and Paramedics] Professional Practice Framework and Digital Competency Guidelines for Emergency Medical Technicians and Paramedics — https://www.psc.gov.au/standards/29-2041 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Emergency Medical Technicians and Paramedics enforce non-delegable ethical accountability a..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Emergency Medical Technicians and Paramedics — https://www.jobsandskills.gov.au/research/29-2041 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Emergency Medical Technicians and Paramedics heightens the demand for adaptive problem solving, inte..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (37 claims)
-- last30days declared sample: 37 items across github=2, grounding=0, hackernews=24, reddit=1, x=6, youtube=1.
-- Representative practitioner quotes:
-  - [github] Say that certificates are not on this chart, because EMT is what people look for
-Reported as *"EMT is not in this list"*...
-  - [github] Add four more organizations to the affiliations grid
-## Summary
-
-Adds the four organizations newly uploaded to `EdgerAll...
-  - [hackernews] Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI...
-  - [hackernews] New Orleans is testing Carbyne’s AI-powered Emergency Call Triage software...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
+L5 practitioner-discourse corpus: last30days sweep over 180 days - see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape - see corpus.linkedin. L4 Adzuna time-series: see jobAds.
+L3 Factiva: auth_expired - logged to factiva_backlog.json (gap, not quiet).

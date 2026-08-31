@@ -410,16 +410,16 @@
     "27-4014": "pending",
     "27-4031": "pending",
     "27-4032": "pending",
-    "29-1011": "pending",
-    "29-1021": "pending",
+    "29-1011": "in_progress",
+    "29-1021": "in_progress",
     "29-1031": "done",
     "29-1051": "done",
-    "29-1061": "pending",
+    "29-1061": "in_progress",
     "29-1062": "done",
-    "29-1063": "pending",
-    "29-1065": "pending",
+    "29-1063": "in_progress",
+    "29-1065": "done",
     "29-1066": "done",
-    "29-1067": "pending",
+    "29-1067": "done",
     "29-1069": "done",
     "29-1081": "pending",
     "29-1122": "done",
@@ -430,7 +430,7 @@
     "29-1128": "done",
     "29-1131": "pending",
     "29-1141": "done",
-    "29-1161": "pending",
+    "29-1161": "done",
     "29-1171": "done",
     "29-1181": "pending",
     "29-1199": "pending",
@@ -441,7 +441,7 @@
     "29-2032": "pending",
     "29-2033": "pending",
     "29-2034": "pending",
-    "29-2041": "pending",
+    "29-2041": "done",
     "29-2052": "pending",
     "29-2055": "pending",
     "29-2071": "pending",
@@ -640,6 +640,22 @@
     "25-1191": {
       "worker": "cron-1516",
       "claimed_at": "2026-08-31T07:25:40.151971+00:00"
+    },
+    "29-1011": {
+      "worker": "cron-autoloop",
+      "claimed_at": "2026-08-31T10:35:16.436952+00:00"
+    },
+    "29-1021": {
+      "worker": "cron-autoloop",
+      "claimed_at": "2026-08-31T10:35:16.540511+00:00"
+    },
+    "29-1061": {
+      "worker": "cron-autoloop",
+      "claimed_at": "2026-08-31T10:35:16.645464+00:00"
+    },
+    "29-1063": {
+      "worker": "cron-autoloop",
+      "claimed_at": "2026-08-31T10:35:16.747993+00:00"
     }
   },
   "runs": [
@@ -1667,5 +1683,5 @@
       "note": "L1/L2/L4/L5 + Factiva L3 folded; L3 curated from prior-collected Factiva payloads"
     }
   ],
-  "updated": "2026-08-31T08:50:00+00:00"
+  "updated": "2026-08-31T12:06:26.637564+00:00"
 }

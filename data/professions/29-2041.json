@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-01",
+    "to": "2026-08-31"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-31",
+  "expires": "2027-03-02",
   "programs": [],
   "claims": [
     {
@@ -999,6 +999,372 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "Add four more organizations to the affiliations grid\n## Summary\n\nAdds the four organizations newly uploaded to `EdgerAllenBro/Website/logos`, bringing the affiliations grid to fourteen marks:\n\n- Association for Computing Machinery\n- International Association of Emergency Managers\n- National Registry of Emergency Medical Technicians\n- Public Relations\n### <span aria-hidden=\"true\">✅</span> Deploy Preview for *romancampaign* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidde…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add four more organizations to the affiliations grid\n## Summary\n\nAdds the four o…",
+          "url": "https://github.com/EdgerAllenBro/campaignwebsite/pull/17",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "Medical emergency at Albertsons\nWe had just ordered a drink at the Starbucks inside Albertsons on Royal when the worker started vomiting and then slumped to the ground. I grabbed store staff while my husband went into the stand to help (he’s a former Army medic). While we waited for the paramedics to get there, I noticed the people who were waiting for the drinks they ordered still hovering (five people). Silly me, I thought they were worried about the barista. Nope. They were waiting for their …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Medical emergency at Albertsons\nWe had just ordered a drink at the Starbucks ins…",
+          "url": "https://www.reddit.com/r/Eugene/comments/1vqbjzx/medical_emergency_at_albertsons/",
+          "date": "2026-08-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "How One Family Solved the $30,000 Air Ambulance Problem with Kaleigh Peat\nIn this episode of ChoinqueCast, I sit down with Kaleigh Peat, Manager of ACC Medlink, about providing ground and air medical transport options for families moving bedbound loved ones across the country. They discuss the company’s origins, affordability compared with air ambulances, one-on-one comfort care, national operations, and how the team uses technology to coordinate transports.\n\nPeat grew up working across ACC Medl…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How One Family Solved the $30,000 Air Ambulance Problem with Kaleigh Peat\nIn thi…",
+          "url": "https://www.youtube.com/watch?v=ccRk692PFRk",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l451",
+      "text": "NON-EMERGENCY PATIENT TRANSPORT Opportunities - ATA & PTO, LODDON MALLEE — Ambulance Victoria (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ambulance Victoria",
+          "title": "NON-EMERGENCY PATIENT TRANSPORT Opportunities - ATA & PTO, LODDON MALLEE",
+          "url": "https://www.linkedin.com/jobs/view/4453072163",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "Paramedic Emergency Services Officer — Stanmore Resources Limited (Brisbane, Queensland, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Stanmore Resources Limited",
+          "title": "Paramedic Emergency Services Officer",
+          "url": "https://www.linkedin.com/jobs/view/4458351582",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l453",
+      "text": "NON-EMERGENCY PATIENT TRANSPORT Opportunities - Clinic Transport Officer, METRO — Ambulance Victoria (Melbourne, Victoria, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ambulance Victoria",
+          "title": "NON-EMERGENCY PATIENT TRANSPORT Opportunities - Clinic Transport Officer, METRO",
+          "url": "https://www.linkedin.com/jobs/view/4457480009",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Medical & Emergency Services Officer — Focus Minerals (Perth, Western Australia, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Focus Minerals",
+          "title": "Medical & Emergency Services Officer",
+          "url": "https://www.linkedin.com/jobs/view/4459135008",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Paramedic — Ora Banda Mining Ltd (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ora Banda Mining Ltd",
+          "title": "Paramedic",
+          "url": "https://www.linkedin.com/jobs/view/4453876582",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Emergency Services Officer | Carrapateena | 8/6 7/7 Rotating Roster — BHP (Greater Adelaide Area). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "BHP",
+          "title": "Emergency Services Officer | Carrapateena | 8/6 7/7 Rotating Roster",
+          "url": "https://www.linkedin.com/jobs/view/4449553059",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "Staff Specialist - Emergency Medicine (518511) — Department of Health, Tasmania (West Coast, Tasmania, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Health, Tasmania",
+          "title": "Staff Specialist - Emergency Medicine (518511)",
+          "url": "https://www.linkedin.com/jobs/view/4418389803",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l458",
+      "text": "Urgent Care Paramedic | Royal Park | Fulltime and Part Time Opportunities — ForHealth Group (Alberton, South Australia, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ForHealth Group",
+          "title": "Urgent Care Paramedic | Royal Park | Fulltime and Part Time Opportunities",
+          "url": "https://www.linkedin.com/jobs/view/4456981989",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Urgent Care Paramedic | Norwood | Full Time and Part Time Opportunities — ForHealth Group (Norwood, South Australia, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ForHealth Group",
+          "title": "Urgent Care Paramedic | Norwood | Full Time and Part Time Opportunities",
+          "url": "https://www.linkedin.com/jobs/view/4454176764",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "text": "Paramedics in Australia are registered by the Paramedicine Board of Australia under the National Scheme (paramedics joined the National Scheme on 30 November 2018). Registration standards define requirements to be registered and to maintain registration; the Board's professional capabilities for registered paramedics set the practice expectations. (The SOC also covers Emergency Medical Technicians, who are not all AHPRA-registered in every state.)",
+      "lane": "L1",
+      "tier": "regulatory-national-board",
+      "sources": [
+        {
+          "publisher": "Paramedicine Board of Australia",
+          "title": "Registration standards",
+          "url": "https://www.paramedicineboard.gov.au/Professional-standards/Registration-standards.aspx",
+          "date": "2026",
+          "whatItMeasured": "Paramedicine Board registration standards; paramedics in National Scheme since 30 Nov 2018; professional capabilities for registered paramedics."
+        }
+      ],
+      "scope": "Statutory Paramedicine Board registration (paramedics). EMTs within the bundled SOC are not uniformly AHPRA-registered. Population = Australian paramedics. No AI-specific registration standard.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (paramedicineboard.gov.au); measures AU paramedic registration; current 2026.",
+      "id": "29-2041-empi01"
+    },
+    {
+      "text": "Ahpra and the National Boards have published principles for health practitioners to consider when using or integrating AI into their practice, translating existing obligations in practitioner codes of conduct: accountability, an appropriate understanding of the tool, transparency of its use, informed consent, and ethical and legal issues. The AHPRA guidance (reviewed 22 August 2024) requires practitioners to understand inherent bias in AI data and algorithms, comply with TGA and state/territory requirements, be aware of employer governance arrangements, and hold appropriate professional indemnity insurance. No dedicated AI-specific registration standard exists; conduct is governed through the codes and registration standards.",
+      "lane": "L1",
+      "tier": "regulatory-ai-guidance",
+      "sources": [
+        {
+          "publisher": "AHPRA",
+          "title": "Meeting your professional obligations when using Artificial Intelligence in healthcare",
+          "url": "https://www.ahpra.gov.au/Resources/Artificial-Intelligence-in-healthcare",
+          "date": "2024-08-22",
+          "whatItMeasured": "AHPRA/National Boards guidance applying existing codes of conduct to practitioner AI use; lists accountability, tool understanding, transparency, consent, ethical/legal duties, TGA/state compliance, employer governance, professional indemnity insurance. Page reviewed 22/08/2024.",
+          "quote": "supporting the health and safety of Aboriginal and Torres Strait Islander people and all patients/clients from diverse backgrounds by ensuring you understand the inherent bias that can exist within data and algorithms used in AI applications and only using them when appropriate"
+        },
+        {
+          "publisher": "Medical Board of Australia",
+          "title": "Applying your code of conduct to evolving technologies - AI in healthcare",
+          "url": "https://www.medicalboard.gov.au/News/2024-08-22-AI-in-healthcare-code-of-conduct",
+          "date": "2024-08-22",
+          "whatItMeasured": "News: Ahpra and the National Boards developed principles for practitioners using/integrating AI; translates existing code-of-conduct obligations (accountability, understanding the tool, transparency, informed consent, ethical/legal issues)."
+        }
+      ],
+      "scope": "Applies to registered paramedics as AHPRA-regulated practitioners; AI governance via codes of conduct. Population = AU paramedics.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ahpra.gov.au); measures AU health practitioners; 2024.",
+      "id": "29-2041-empi02"
+    },
+    {
+      "text": "Jobs and Skills Australia's Generative AI Capacity Study (2025) finds augmentation generally outweighs automation for current Gen AI: professional and technical occupations skew towards augmentation, with the higher potential for automation concentrated in routine roles. Effects depend on adoption and workplace adaptation, not exposure alone.",
+      "lane": "L2",
+      "tier": "scholarly-modelling",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition - Exposure",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure",
+          "date": "2025",
+          "whatItMeasured": "Task/occupation-level Gen AI augmentability/automatability across 358 ANZSCO occupations (ILO/Gmyrek-Berg-Bescond method tailored to ANZSCO); 'Professional group skews towards augmentation'.",
+          "quote": "Augmentation generally outweighs automation, with current Gen AI technologies more likely to enhance workers' efforts in completing tasks, rather than replace them. The higher potential for automation is concentrated in routine roles."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level potential. Paramedics inferred as a health professional group in the augmentation band.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (JSA gov); measures AU occupations; published 2025.",
+      "id": "29-2041-empi03"
+    },
+    {
+      "text": "A 2025 review of artificial intelligence in prehospital emergency care finds AI is being applied to triage and destination decisions for time-critical conditions, with EMS providers viewing AI as an adjunct that must be trustworthy, portable, and able to distinguish conditions such as haemorrhagic vs ischaemic stroke.",
+      "lane": "L2",
+      "tier": "scholarly-review",
+      "sources": [
+        {
+          "publisher": "PMC / PubMed Central",
+          "title": "Artificial Intelligence in Prehospital Emergency Care: Advancing Triage and Destination Decisions",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12494111/",
+          "date": "2025",
+          "whatItMeasured": "Review of AI in prehospital emergency care: triage and destination decisions; EMS provider views of AI as a trustworthy adjunct."
+        }
+      ],
+      "scope": "Global peer-reviewed review of AI in prehospital/EMS care; assistive triage/destination support, not an Australian employment statistic.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (PMC/PMCID); measures AI-in-prehospital literature; 2025.",
+      "id": "29-2041-empi04"
+    },
+    {
+      "text": "UK ambulance services are trialling AI to let paramedics care for more patients per day (London Ambulance Service's first AI trial, September 2025), indicating real-world prehospital AI adoption in dispatch/triage support internationally.",
+      "lane": "L3",
+      "tier": "trade-press-international",
+      "sources": [
+        {
+          "publisher": "London Ambulance Service",
+          "title": "First AI trial sees paramedics treat more patients",
+          "url": "https://www.londonambulance.nhs.uk/2025/09/04/first-ai-trial-sees-paramedics-at-london-ambulance-service-treat-more-patients/",
+          "date": "2025-09-04",
+          "whatItMeasured": "UK ambulance service AI trial enabling paramedics to care for more patients/day (Sept 2025)."
+        }
+      ],
+      "scope": "UK ambulance service trial (not Australian); signals international prehospital AI adoption in dispatch/triage, not an Australian employment statistic. Scoped to UK.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (londonambulance.nhs.uk); measures a UK paramedic AI trial; 2025. Scoped UK, not AU.",
+      "id": "29-2041-empi05"
     }
   ],
   "jobAds": {
@@ -1028,7 +1394,29 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-31",
+        "note": "Factiva/OpenAthens cookie file is ~5 days old; server-side session expired and an interactive UO+M SSO re-auth is impossible in an unattended cron run. L3 trade-press covered by web professional-body publications instead. Gap logged; re-run scripts/factiva_reauth.py then scripts/factiva_backfill.py to close."
+      },
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "reason": "unreachable",
+        "date": "2026-08-31",
+        "note": "last30days grounding (keyless web search) unreachable this run; recorded as coverage, not as a finding of quiet."
+      },
+      {
+        "lane": "L5",
+        "source": "jobs",
+        "reason": "unreachable",
+        "date": "2026-08-31",
+        "note": "last30days jobs source unreachable (nodename error) this run; recorded as coverage, not as a finding of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1040,6 +1428,15 @@
       },
       {
         "date": "2026-08-29",
+        "soc": "29-2041",
+        "query": "Emergency Medical Technicians and Paramedics",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
         "soc": "29-2041",
         "query": "Emergency Medical Technicians and Paramedics",
         "location": "Australia",
@@ -1074,9 +1471,25 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 3,
+        "sources": {
+          "github": 2,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 1,
+          "x": 6,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press lane unavailable this run (OpenAthens session expired; cookie file ~5 days old, no interactive SSO in cron) - logged to factiva_backlog.json, covered by web professional-body publications (RACP/RACS/digitalhealth.org.au/London Ambulance Service). L1/L2 sources are Australian regulatory/scholarly (AHPRA + National Board registration standards, AHPRA AI-in-healthcare guidance, JSA Gen AI Capacity Study) plus discipline reviews. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); L5 practitioner corpus (last30days) re-run this run and preserved (MERGE). Confidence rests on >=2 L1/L2 claims plus the declared L5 corpus."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }
