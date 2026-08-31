@@ -1,0 +1,228 @@
+{
+  "onet_soc_code": "0803",
+  "title": "Supply Chain Manager",
+  "aliases": [
+    "Logistics Manager",
+    "Operations Manager"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-mgmtscm"
+  ],
+  "claims": [
+    {
+      "id": "L1-1",
+      "text": "The Australian Bureau of Statistics' ANZSCO 2021 classification defines occupation code 133611 \"Supply and Distribution Manager\" as a Skill Level 1 occupation (bachelor degree or higher, or five years' relevant experience as a substitute) that \"plans, organises, directs, controls and coordinates the supply, storage and distribution of goods produced by an organisation.\"",
+      "lane": "L1",
+      "tier": "national statistical classification (ABS)",
+      "sources": [
+        {
+          "publisher": "Australian Bureau of Statistics (ABS)",
+          "title": "ANZSCO -- 1336 Supply, Distribution and Procurement Managers (browse classification)",
+          "url": "https://www.abs.gov.au/statistics/classifications/anzsco-australian-and-new-zealand-standard-classification-occupations/2021/browse-classification/1/13/133/1336",
+          "date": "2021-11-23",
+          "whatItMeasured": "Official ABS occupational classification structure and definitions, not a survey or discourse sample."
+        }
+      ],
+      "scope": "Defines and codifies the occupation for statistical, migration and regulatory cross-reference purposes only; it is a static classification, not evidence about how the profession is currently discussed, perceived, or affected by AI. The classification's original issue date (2021) predates the research window, but as the ABS's current binding definition it remains an accurate reference throughout it.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L1-2",
+      "text": "Under the nationally regulated VET system, TLI50224 Diploma of Logistics (Transport and Logistics Training Package) superseded TLI50221 with a mandatory transition deadline of 9 July 2025, after which registered training organisations could no longer deliver or assess trainees under TLI50221, per Australian Skills Quality Authority (ASQA) transition and teach-out arrangements; a NSW Government Training Services traineeship bulletin dated 13 March 2026 confirms TLI50224 as the current qualification pathway for trainees performing \"integrated management of logistics\" at senior operational levels, i.e. logistics manager roles.",
+      "lane": "L1",
+      "tier": "national VET regulatory instrument (ASQA-governed training package) + state training-authority bulletin",
+      "sources": [
+        {
+          "publisher": "training.gov.au (National Training Register) via secondary confirmation",
+          "title": "TLI50221 Diploma of Logistics -- superseded status and transition deadline",
+          "url": "https://training.gov.au/training/details/TLI50221",
+          "date": "2024-07-10",
+          "whatItMeasured": "Official national qualification register entry recording supersession by TLI50224 and the ASQA-set transition/teach-out deadline (9 July 2025); confirmed via WebSearch snippet quoting the register text, since the register page itself is JS-rendered and could not be fetched directly."
+        },
+        {
+          "publisher": "NSW Government, Department of Education -- Training Services",
+          "title": "CIB 768 -- Transport and Logistics -- traineeships (bulletin referencing TLI50224 Diploma of Logistics)",
+          "url": "https://www.nsw.gov.au/education-and-training/resources/cibs-bulletins/cib-765",
+          "date": "2026-03-13",
+          "whatItMeasured": "Official state training-authority bulletin naming TLI50224 as the traineeship qualification for logistics-manager-level roles and citing ASQA transition requirements, not a survey of sentiment."
+        }
+      ],
+      "scope": "Binds registered training organisations and traineeship structuring for entry/associate logistics-management qualifications only; establishes no licensing or professional-registration requirement to practise as a supply chain, logistics, or operations manager in Australia, and carries no signal about practitioner or employer sentiment toward the occupation. Note the NSW bulletin's URL slug ('cib-765') does not match its own displayed title ('CIB 768') — a quirk of the NSW site, confirmed not to affect the content match.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L2-1",
+      "text": "A 2025 Carnegie Mellon University-affiliated study using a frequency-weighted extension of the Eloundou et al. AI-exposure methodology found that among more than 200,000 U.S. logistics managers (operations, warehouse, and transportation managers), more than 90% of tasks are susceptible to AI-driven automation, with nearly all of those classified as core (not peripheral) activities.",
+      "lane": "L2",
+      "tier": "institutional/scholarly (US)",
+      "sources": [
+        {
+          "publisher": "Washington Center for Equitable Growth",
+          "title": "Adoption of generative AI will have different effects across jobs in the U.S. logistics workforce",
+          "url": "https://equitablegrowth.org/adoption-of-generative-ai-will-have-different-effects-across-jobs-in-the-u-s-logistics-workforce/",
+          "date": "2025-07-10",
+          "whatItMeasured": "Task-level AI exposure for logistics-manager occupations (operations, warehouse, transportation managers) in the U.S. Transportation and Warehousing industry (NAICS 48-49, ~6.6 million workers as of May 2023), using O*NET task importance/frequency/core-vs-supplemental data and an LLM-acceleration exposure threshold (tasks counted as exposed if a 50%+ speed-up is plausible)."
+        }
+      ],
+      "scope": "US-only finding restricted to the U.S. Transportation and Warehousing industry (NAICS 48-49); does not establish an Australian effect size or apply to the ANZSCO Supply Chain/Logistics Manager occupation specifically, since the underlying sample is the broader 'logistics managers' category (operations, warehouse, transportation). Task susceptibility to LLM-driven acceleration is a distinct claim from actual job loss, headcount reduction, or realized automation.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L2-2",
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study assigns Supply, Distribution and Procurement Managers (the ANZSCO occupation grouping supply chain managers) a Gen AI exposure score of 5.9 out of 10, with a reported automation-exposure component of 53% and an augmentation-exposure component of 74%, against an occupation base of 56,700 workers.",
+      "lane": "L2",
+      "tier": "institutional (Australian government study, via third-party aggregator)",
+      "sources": [
+        {
+          "publisher": "Will AI Take My Job (Australia)",
+          "title": "Will AI Take My Job as a Supply, Distribution and Procurement Managers? — AI Risk Score: 5.9/10",
+          "url": "https://www.willaitakemyjob.com.au/occupation/supply-distribution-and-procurement-managers",
+          "date": "2026 (site current; underlying JSA study 2024-2025)",
+          "whatItMeasured": "Occupation-level Gen AI task exposure (automation and augmentation components) for the ANZSCO Supply, Distribution and Procurement Managers occupation, drawn from Jobs and Skills Australia's Gen AI Capacity Study (whole-of-labour-market task-level exposure analysis) plus ABS employment/earnings data; population is the national occupation headcount (56,700)."
+        }
+      ],
+      "scope": "This is a third-party aggregator's presentation of figures it attributes to Jobs and Skills Australia's Gen AI Capacity Study; direct confirmation on jobsandskills.gov.au's own primary page or PDF was not obtained in this pass (prior attempts timed out), so the specific decimal figures should still be treated as reported-by-proxy rather than primary-source-verified. The occupation grouping ('Supply, Distribution and Procurement Managers') is broader than 'Supply Chain Manager' alone, spanning Distribution and Procurement Managers too.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-1",
+      "text": "Trade publication Inbound Logistics reported in November 2025 that industry experts expect AI to evolve supply chain and logistics manager roles toward AI-oversight positions such as \"warehouse AI specialists,\" with new hybrid titles emerging (e.g. predictive logistics manager, AI forecast coach) while humans remain in the loop for final decisions.",
+      "lane": "L3",
+      "tier": "trade press (industry magazine feature)",
+      "sources": [
+        {
+          "publisher": "Inbound Logistics",
+          "title": "What New Job Will AI Create in Logistics & Supply Chain Management?",
+          "url": "https://www.inboundlogistics.com/articles/what-new-job-will-ai-create-in-logistics-supply-chain-management/",
+          "date": "2025-11",
+          "whatItMeasured": "A compiled 'Good Question' feature gathering qualitative predictions from named industry experts on emerging AI-related job titles in logistics/supply chain; not a survey or dataset."
+        }
+      ],
+      "scope": "Does not support a quantified rate of role transformation or job loss/creation — the article compiles qualitative predictions from named industry experts on emerging AI-related job titles, not measured hiring or displacement outcomes, and no representative survey underlies the predictions.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-2",
+      "text": "Trade publication Material Handling & Logistics (MHL News) reported on 2026-02-27 that a Gartner survey of 509 global supply chain leaders (fielded July-October 2025) found 55% expect agentic AI to reduce entry-level hiring needs and 51% expect it to drive overall workforce reductions, while 86% agreed AI adoption requires new talent-pipeline processes.",
+      "lane": "L3",
+      "tier": "trade press (covering an analyst-firm survey)",
+      "sources": [
+        {
+          "publisher": "MHL News (Material Handling & Logistics)",
+          "title": "Agentic AI to Replace Entry Level Supply Chain Hiring",
+          "url": "https://www.mhlnews.com/labor-management/news/55360308/agentic-ai-to-replace-entry-level-supply-chain-hiring",
+          "date": "2026-02-27",
+          "whatItMeasured": "MHL News's report on a Gartner survey of 509 supply chain leaders worldwide, fielded July-October 2025, asking about expected effects of agentic AI on hiring and workforce size."
+        }
+      ],
+      "scope": "Reflects survey respondents' stated expectations about future hiring, not observed hiring outcomes or realized workforce reductions; the underlying Gartner survey itself is the primary study (a separate, unverified-here source) and this claim only establishes that its figures are consistently reported across MHL News and multiple other outlets, not that Gartner's raw methodology was independently audited.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L3-3",
+      "text": "SCM Talent Group (a supply-chain-focused recruiting/research firm) reported on 2026-02-05, citing Indeed job-posting data, that 85% of AI-related supply chain job openings in 2025 targeted mid-to-senior level roles rather than entry-level positions.",
+      "lane": "L3",
+      "tier": "trade press / professional-body-adjacent (specialist industry research firm)",
+      "sources": [
+        {
+          "publisher": "SCM Talent Group",
+          "title": "Supply Chain AI Jobs Are Here | U.S. Hiring Research 2025",
+          "url": "https://scmtalent.com/supply-chain-ai-jobs",
+          "date": "2026-02-05",
+          "whatItMeasured": "SCM Talent Group's synthesis (author Joshua Stack) of job-posting and hiring-trend data from Indeed, LinkedIn, ZipRecruiter, McKinsey, and Georgia Tech's Supply Chain and Logistics Institute, covering AI-related job postings in supply chain during 2025."
+        }
+      ],
+      "scope": "The 85% figure is SCM Talent Group's own synthesis of job-posting data (Indeed, LinkedIn, ZipRecruiter) rather than a figure independently verifiable against Indeed's raw dataset; supports only the seniority mix of AI-related job postings, not actual headcount change or realized hiring outcomes.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-1",
+      "text": "Named procurement/supply-chain practitioners at CIPS-featured organisations raised divergent unprompted views on AI's trajectory in their own function, from one predicting a 'lights out' supply chain function by 2028 to another framing the change as different jobs demanding different skills.",
+      "lane": "L5",
+      "tier": "professional-body publication (named practitioner quotes)",
+      "sources": [
+        {
+          "publisher": "CIPS (Chartered Institute of Procurement & Supply)",
+          "title": "AI in Procurement and Supply: Removing Jobs or Enabling Growth?",
+          "url": "https://www.cips.org/knowledge-and-insight/articles/the-future-of-ai-in-procurement-and-supply",
+          "date": "2026-07-13",
+          "whatItMeasured": "Editorial article by a professional body quoting named working practitioners (Sarah Simpson, Senior Manager Ethical Sourcing, Bega Group; Belinda West MCIPS, Head of Non-Trade Procurement, Woolworths) on how they expect AI/generative agents to change their own procurement and supply chain function."
+        }
+      ],
+      "scope": "Two named individuals at two companies, not a survey and not representative of supply chain managers broadly; both speakers are procurement-titled rather than logistics/operations-titled, so this speaks only to the procurement corner of the occupation. Critically, only one of the two (Sarah Simpson, Bega Group) is at an Australian organisation — Belinda West is Head of Non-Trade Procurement at Woolworths Holdings, the South African retailer, unrelated to the Australian Woolworths Group despite the shared name. This claim should not be read as two Australian practitioner perspectives.",
+      "disposition": "corrected",
+      "refuted": false
+    },
+    {
+      "id": "L5-2",
+      "text": "Senior procurement/supply-chain executives speaking to trade press about AI adoption in their own organisations unprompted described a cautious, incremental posture ('we don't have a blank check'; 'the juice has to be worth the squeeze') rather than a transformative one, aiming AI mainly at removing 'grunt work' so staff can focus on higher-value tasks.",
+      "lane": "L5",
+      "tier": "trade press practitioner quotes",
+      "sources": [
+        {
+          "publisher": "Supply Chain Dive",
+          "title": "Procurement leaders urge incremental AI adoption to avoid heavy spend",
+          "url": "https://www.supplychaindive.com/news/procurement-leaders-urge-incremental-ai-adoption-to-avoid-heavy-spend/820557/",
+          "date": "2026-05-21",
+          "whatItMeasured": "Trade-press report quoting named senior procurement/supply chain executives (John Eustis, SVP Group Procurement, Toray Industries America; Chris Martus, VP Procurement, The Mosaic Company; Dan Bartel, CPO, American Airlines), evidently speaking at an industry event, on how they are approaching AI adoption in their own functions."
+        }
+      ],
+      "scope": "Reflects the stated posture of a small number of named executives at large US enterprises, apparently speaking at an industry conference; not a random or representative sample, skews toward large-enterprise procurement leadership in the US rather than mid-level supply chain or logistics managers generally, and does not establish how common this cautious stance is across the profession or in Australia specifically.",
+      "disposition": "sourced",
+      "refuted": false
+    }
+  ],
+  "jobAds": {
+    "source": "none",
+    "query": "",
+    "window": "",
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "VETASSESS \"Logistics Manager\" 132411 skills assessment official page (direct fetch) -- returned 404, no confirmed live VETASSESS URL for this specific occupation code found via search or direct fetch",
+      "Standards Australia / AS ISO 28000 as an occupation-binding instrument specific to the Supply Chain Manager role -- found only as a voluntary organisational security-management certification standard, not an instrument that binds the occupation or its practitioners, so not used as a claim",
+      "Chartered Institute of Logistics and Transport Australia (CILTA) Certified Practising Logistician as a binding/statutory registration requirement -- not searched to completion; professional-body certification is voluntary, not regulatory, so excluded from L1",
+      "Productivity Commission Australia AI automation potential \"supply chain\" OR logistics managers occupation (no PC-specific occupation-level effect size found; only general commentary)",
+      "\"supply chain manager AI 2025 job automation trade press\" (ISM and SCMR articles found but blocked by paywall/SSO redirect — not usable as verified sources)",
+      "site:supplychaindive.com AI 2025 2026 supply chain manager skills jobs (no directly relevant dated article surfaced)",
+      "supply chain manager reddit AI automation my job 2026",
+      "site:reddit.com r/supplychain AI taking over planning jobs",
+      "\"supply chain manager\" forum discussion AI replacing demand planners worried",
+      "reddit.com/r/supplychain \"AI\" thread comments",
+      "r/logistics reddit \"AI\" job worried automation thread 2025",
+      "reddit \"supply chain\" planner \"AI\" \"replace my job\" OR \"worried about AI\" 2025 2026",
+      "\"r/logistics\" OR \"r/supplychain\" reddit AI job automation self text",
+      "\"I'm a supply chain manager\" AI ChatGPT changed how I work",
+      "\"supply chain manager\" LinkedIn article \"how AI\" my team practitioner reflection 2025",
+      "\"Operations Manager\" LinkedIn article AI automating \"my role\" warehouse 2026",
+      "\"supply chain\" OR \"logistics\" manager viral LinkedIn post AI job security 2026 comments",
+      "CSCMP supply chain quarterly readers AI job concerns letters 2025 2026",
+      "ASCM SCM Now practitioner AI job automation 2026 members reaction (article itself did not fetch usable content)",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable — no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}

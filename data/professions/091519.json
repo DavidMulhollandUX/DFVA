@@ -1,0 +1,229 @@
+{
+  "onet_soc_code": "091519",
+  "title": "Translator and Interpreter",
+  "aliases": [
+    "Conference Interpreter",
+    "Professional Translator"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-tranint"
+  ],
+  "claims": [
+    {
+      "id": "L1-1",
+      "text": "NAATI, Australia's national accrediting authority for translators and interpreters, issued a position statement on 2025-03-31 stating that AI must not be used in high-risk translation or interpreting assignments without the expert supervision of a NAATI-certified practitioner.",
+      "lane": "L1",
+      "tier": "regulator position statement",
+      "sources": [
+        {
+          "publisher": "NAATI (National Accreditation Authority for Translators and Interpreters)",
+          "title": "Position Statement on Use of AI for Translation and Interpreting Purposes",
+          "url": "https://www.naati.com.au/news/position-statement-ai/",
+          "date": "2025-03-31",
+          "whatItMeasured": "NAATI's own governance position, not a survey or study — a policy statement on how certified practitioners should relate to AI tools in high-risk work."
+        }
+      ],
+      "scope": "Documents NAATI's own governance position only, not a survey or study; does not measure how widely the position is followed in practice among Australian certified practitioners, and is not evidence of AI adoption levels, sentiment, or demand within the profession.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L1-2",
+      "text": "AUSIT (Australian Institute of Interpreters and Translators), whose Code of Ethics NAATI certification requires demonstrated knowledge of, commenced a formal review of its Code of Ethics and Code of Conduct in August 2025, the first review since the current 2012 code.",
+      "lane": "L1",
+      "tier": "professional-body standards review",
+      "sources": [
+        {
+          "publisher": "NAATI",
+          "title": "AUSIT Code of Ethics and Code of Conduct Review",
+          "url": "https://www.naati.com.au/news/ausit-code-of-ethics-and-code-of-conduct-review/",
+          "date": "2025-08",
+          "whatItMeasured": "An announcement of a governance/standards-review process undertaken by AUSIT's Ethics and Professional Practice Committee, not a survey or empirical study."
+        },
+        {
+          "publisher": "AUSIT (Australian Institute of Interpreters and Translators)",
+          "title": "AUSIT Code of Ethics and Code of Conduct",
+          "url": "https://ausit.org/code-of-ethics-and-code-of-conduct/",
+          "date": "2025-08",
+          "whatItMeasured": "Corroborating primary-source page from the standards body itself describing the review's scope and working group."
+        }
+      ],
+      "scope": "Documents that a review process began in August 2025 and its working-group composition; does not describe the content of the revised Code, which is unreleased, and is not evidence of practitioner sentiment toward the review or that the revision specifically targets AI.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L2-1",
+      "text": "A Microsoft Research study matching 200,000 anonymized Bing Copilot conversations to the US O*NET occupational task database found interpreters and translators had the highest AI applicability score of all 785 occupations studied (about 0.49 on a 0-to-1 scale), reflecting close to 50% task-content overlap with what people actually asked Copilot to do.",
+      "lane": "L2",
+      "tier": "institutional/scholarly (Microsoft Research working paper, arXiv preprint)",
+      "sources": [
+        {
+          "publisher": "Microsoft Research / arXiv",
+          "title": "Working with AI: Measuring the Applicability of Generative AI to Occupations",
+          "url": "https://arxiv.org/pdf/2507.07935",
+          "date": "2025-07",
+          "whatItMeasured": "Task-level overlap between 200,000 real, anonymized Bing Copilot conversations and the US O*NET task inventory, scored per occupation as an 'AI applicability score'."
+        },
+        {
+          "publisher": "Slator",
+          "title": "What Microsoft's Misunderstood Copilot Study Actually Means for the Language Industry",
+          "url": "https://slator.com/microsoft-misunderstood-copilot-study-language-industry/",
+          "date": "2025",
+          "whatItMeasured": "Secondary analysis of the same Microsoft paper's methodology and caveats specific to translators and interpreters."
+        }
+      ],
+      "scope": "Measures task-content overlap between real US Bing Copilot conversations and the O*NET task inventory across 785 US SOC occupations — not job loss, wage effects, or actual automation, and even the top-ranked occupation shows only about 49% overlap. The underlying conversation sample is a Microsoft Bing Copilot US user population, not an Australian sample, so it does not establish the effect for the Australian labour market, and 'interpreters and translators' is scored as one combined SOC occupation, not broken out separately.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L2-3",
+      "text": "An Oxford Martin School study found a negative relationship between local Google Translate adoption and translator/interpreter employment across 695 US local labour markets from 2010 (the launch of the Google Translate app) through 2023, using an instrumental-variable design and Occupational Employment and Wage Statistics data for the translator/interpreter occupation.",
+      "lane": "L2",
+      "tier": "scholarly (Oxford Martin School / CEPR working paper)",
+      "sources": [
+        {
+          "publisher": "Oxford Martin School, University of Oxford",
+          "title": "Lost in Translation: Artificial Intelligence and the Demand for Foreign Language Skills",
+          "url": "https://www.oxfordmartin.ox.ac.uk/publications/lost-in-translation-artificial-intelligence-and-the-demand-for-foreign-language-skills",
+          "date": "2025-01-26",
+          "whatItMeasured": "Causal effect of geographic variation in Google Translate adoption (post-2010) on translator/interpreter employment and wages, using 2010-2023 American Community Survey microdata, Lightcast job-postings data, and OEWS employment/wage series for 695 US local labour markets, with an instrumental-variable identification strategy plus placebo regressions."
+        },
+        {
+          "publisher": "CEPR (VoxEU)",
+          "title": "Lost in translation: AI's impact on translators and foreign language skills",
+          "url": "https://cepr.org/voxeu/columns/lost-translation-ais-impact-translators-and-foreign-language-skills",
+          "date": "2025-03-22",
+          "whatItMeasured": "Author-written summary of the same study's design and population for a general policy audience."
+        }
+      ],
+      "scope": "Measures rule/neural machine translation via the Google Translate app (2010-2023), not LLM-based generative-AI translation tools, so it does not support a claim about chatbot-driven displacement. The population is entirely US local labour markets (2010-2023 ACS/OEWS/Lightcast data), so applying the finding to Australia requires assuming a similar adoption and displacement pattern the study does not test.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L3-1",
+      "text": "Trade publication Slator reported in January 2026 that a language-access industry webinar survey of over 100 participants found 41% of language service integrators (LSIs) were evaluating AI interpreting solutions and 30% were already actively using it, framing AI interpreting as a major disruption LSIs would need to address in 2026.",
+      "lane": "L3",
+      "tier": "trade-press-industry-survey-reporting",
+      "sources": [
+        {
+          "publisher": "Slator",
+          "title": "AI Interpreting Will Be the Next Great Disruption. LSIs Must Act in 2026.",
+          "url": "https://slator.com/ai-interpreting-will-be-the-next-great-disruption-lsis-must-act-in-2026/",
+          "date": "2026-01-05",
+          "whatItMeasured": "Partner-authored trade article reporting results of a November 2025 language-access-policy webinar poll of 100+ language service integrator (LSI) participants on AI interpreting adoption status."
+        }
+      ],
+      "scope": "This is Boostlingo-authored sponsored/partner content published on Slator, not independent Slator editorial reporting -- Boostlingo is a commercial AI-interpreting vendor with a direct financial interest in portraying high LSI adoption. The underlying November 2025 webinar poll's sampling method, response rate, and margin of error are undisclosed. It measures LSI organizations' stated evaluation/adoption status, not interpreter job loss, wages, or demand, and is not a claim about individual practitioners.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L3-2",
+      "text": "Journalist Brian Merchant's August 2025 investigative piece profiled named freelance translators reporting steep income and rate declines attributed to generative AI post-editing work displacing traditional translation, including one technical translator whose 2025 earnings (about $9,300) were far below prior six-figure years and a Quebec-based translator whose income fell 60% in 2024.",
+      "lane": "L3",
+      "tier": "trade-press-investigative-journalism",
+      "sources": [
+        {
+          "publisher": "Blood in the Machine (Brian Merchant)",
+          "title": "AI Killed My Job: Translators",
+          "url": "https://www.bloodinthemachine.com/p/ai-killed-my-job-translators",
+          "date": "2025-08-21",
+          "whatItMeasured": "Journalistic investigation combining first-person interviews with named freelance translators (games, technical, literary) about income and rate changes, plus a cited reference to a Microsoft research study ranking translation high on an 'AI applicability' measure."
+        }
+      ],
+      "scope": "A small, self-selected, non-random sample of named individual translators who responded to a public callout, not a probability survey, so these income-decline figures cannot be generalised to the translator profession as a whole and do not extend to interpreters, who are not covered by this translator-focused piece.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-3",
+      "text": "A language-industry trade outlet's April 2025 coverage of the 2025 European Language Industry Survey (ELIS) reported that over 50% of translation jobs then involved machine translation and that about 23% of freelance translation professionals were considering leaving the industry, citing lower rates, fewer projects and reduced negotiating power.",
+      "lane": "L3",
+      "tier": "trade-press-summary-of-industry-survey",
+      "sources": [
+        {
+          "publisher": "Creative Words (industry blog)",
+          "title": "The Language Industry in 2025: holding steady or sliding back?",
+          "url": "https://www.creative-words.com/en/language-industry-elis-2025-results/",
+          "date": "2025-04-04",
+          "whatItMeasured": "Trade-press summary of the 2025 European Language Industry Survey (ELIS), a self-reported online survey of 1,322 respondents (654 independent language professionals, 179 language service companies) across 50 countries on market conditions including AI/MT use and rate pressure."
+        }
+      ],
+      "scope": "This trade article is a secondary summary of the primary ELIS 2025 survey (a separate source, not this article), and should not be cited as Creative Words' own original finding. ELIS respondents are self-selected European-network language professionals across 50 countries, not a global or Australian population, so the 23% figure does not generalise beyond that network.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L5-1",
+      "text": "In a August 2025 crowdsourced account of freelance translators' experiences, multiple named practitioners unprompted described severe, unrequested income and workload collapse they attributed to generative AI and machine-translation post-editing (MTPE) displacing translation-rate work, with figures ranging from a reported 60% income drop in 2024 (projected 80% by 2025) for one Quebec-based translator to zero work requests in a single month for an Italian-to-English translator.",
+      "lane": "L5",
+      "tier": "practitioner-testimony",
+      "sources": [
+        {
+          "publisher": "Blood in the Machine (Brian Merchant newsletter)",
+          "title": "AI Killed My Job: Translators",
+          "url": "https://www.bloodinthemachine.com/p/ai-killed-my-job-translators",
+          "date": "2025-08-21",
+          "whatItMeasured": "Journalist call-out soliciting first-person accounts from working translators about how AI/MTPE has changed their income and workload; a self-selected, non-random sample of respondents who chose to reply to a public callout, not a survey of the profession."
+        }
+      ],
+      "scope": "A self-selected sample of translators motivated to respond to a public journalist callout about hardship; excludes translators for whom AI has been neutral or positive, so it establishes that severe individual cases exist, not their prevalence or an average/typical income effect across the profession.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-2",
+      "text": "In March 2026 a named video-game translator (Czech-to-English translator/editor on Kingdom Come: Deliverance II) posted unprompted to a Reddit fan subreddit, with his identity verified by moderators, that Warhorse Studios had told him his position was becoming 'obsolete' in favour of AI for all translation going forward and that he felt 'incredibly betrayed' by the decision.",
+      "lane": "L5",
+      "tier": "practitioner-testimony",
+      "sources": [
+        {
+          "publisher": "Kotaku",
+          "title": "Translator On Kingdom Come 2 Claims He Was Replaced With AI",
+          "url": "https://kotaku.com/kingdom-come-2-translator-gen-ai-fired-warhorse-2000682854",
+          "date": "2026-03-28",
+          "whatItMeasured": "Reporting on a single named individual's unprompted Reddit post (r/kingdomcome) about his own termination and its stated cause, with identity verified by the subreddit's moderators and corroborated by a subsequent LinkedIn update; a single case, not a survey or count."
+        }
+      ],
+      "scope": "A single verified individual case in AAA-game localisation at one studio; the employer's stated reasoning ('obsolete') is the worker's account of what he was told, not an independently audited company policy (Warhorse has publicly disputed the framing), and this does not establish a pattern of AI-driven translator replacement across the games industry or the wider occupation.",
+      "disposition": "sourced",
+      "refuted": false
+    }
+  ],
+  "jobAds": {
+    "source": "none",
+    "query": "",
+    "window": "",
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "National Standards for Working with Interpreters in Courts and Tribunals update 2025 2026 (found only the 2022-04-28 second edition, outside the 2025-03-01 to 2026-08-31 window, plus a UK HMCTS item not admissible as an Australian instrument)",
+      "NAATI certification requirements change 2026 skilled migration interpreter (returned only generic/unofficial guide pages, not a dated regulatory change)",
+      "site:proz.com forum AI translation 2025 thread (page content blocked by 403, could not verify quotes)",
+      "reddit translator subreddit r/translator OR r/TranslationStudies AI job loss thread 2025 (no directly fetchable/citable thread found)",
+      "ATA Chronicle translator column AI 2025 \"my own experience\" OR \"in my practice\" (no matching practitioner column found)",
+      "court interpreter OR medical interpreter LinkedIn article AI concerns 2025 (returned only industry/advocacy-body content, not individual practitioner LinkedIn articles)",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable — no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}

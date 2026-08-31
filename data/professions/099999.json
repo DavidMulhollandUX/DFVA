@@ -1,0 +1,231 @@
+{
+  "onet_soc_code": "099999",
+  "title": "Social Change Leader",
+  "aliases": [
+    "Nonprofit Leader",
+    "Social Impact Manager"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-scl"
+  ],
+  "claims": [
+    {
+      "id": "L1-1",
+      "text": "The Australian Charities and Not-for-profits Commission's Governance Standard 5 requires every registered charity to take reasonable steps to ensure its Responsible Persons — including directors, committee members and Chief Executive Officers — act with care and diligence, act in good faith in the charity's best interests, avoid misusing their position or information, disclose conflicts of interest, and avoid insolvent trading.",
+      "lane": "L1",
+      "tier": "Commonwealth regulator — binding governance standard",
+      "sources": [
+        {
+          "publisher": "Australian Charities and Not-for-profits Commission (ACNC)",
+          "title": "Governance Standard 5: Duties of Responsible People",
+          "url": "https://www.acnc.gov.au/for-charities/manage-your-charity/governance-hub/5-duties-responsible-people",
+          "date": "current as at 2026-09-01 (ACNC guidance page, undated)",
+          "whatItMeasured": "ACNC's own regulatory guidance stating the statutory governance standard that binds the office-holders — including CEOs — of every charity registered under the ACNC Act 2012, compliance with which is a condition of remaining registered."
+        },
+        {
+          "publisher": "BDO Australia",
+          "title": "ACNC 2026-27 regulatory focus areas: What directors of charities need to know",
+          "url": "https://www.bdo.com.au/en-au/insights/not-for-profit/acnc-2026-27-regulatory-focus-areas-what-directors-of-charities-need-to-know",
+          "date": "2026",
+          "whatItMeasured": "Professional-services summary confirming Governance Standard 5 duties extend explicitly to CEOs as well as directors, and outlining the ACNC's stated compliance focus for 2026-27."
+        }
+      ],
+      "scope": "Binds Responsible Persons of ACNC-registered charities specifically; it does not bind leaders of unregistered community groups, social enterprises, or informal 'social change' initiatives outside the charity register, and it says nothing about how the profession or public regards the role.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L1-2",
+      "text": "The ACNC's four External Conduct Standards require any registered charity that operates outside Australia — even where overseas activity is a minor part of its work — to ensure its leadership takes reasonable steps to control and account for resources sent overseas, keep records of overseas activity, prevent fraud and corruption, and protect vulnerable individuals from harm, with non-compliance able to trigger revocation of charity registration.",
+      "lane": "L1",
+      "tier": "Commonwealth regulator — binding conduct standard",
+      "sources": [
+        {
+          "publisher": "Australian Charities and Not-for-profits Commission (ACNC)",
+          "title": "ACNC External Conduct Standards",
+          "url": "https://www.acnc.gov.au/for-charities/manage-your-charity/governance-hub/acnc-external-conduct-standards",
+          "date": "current as at 2026-09-01 (ACNC guidance page, undated)",
+          "whatItMeasured": "ACNC's own statement of the four External Conduct Standards, their overseas-activity trigger, and the enforcement consequence of non-compliance (registration revocation)."
+        }
+      ],
+      "scope": "Applies only to the subset of charities with overseas operations or overseas funding flows; it does not describe governance obligations for domestically-focused nonprofit or social-impact leadership roles, which fall under Governance Standard 5 (claim L1-1) instead.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L1-3",
+      "text": "Directors and officers of incorporated not-for-profit organisations in Australia are bound by the same general statutory duties as for-profit company directors under the Corporations Act 2001 (Cth) — including care and diligence (s180), good faith and proper purpose (ss181-183, 191), and, for directors, avoiding insolvent trading (s588G) — layered on top of any ACNC-specific governance standards.",
+      "lane": "L1",
+      "tier": "Commonwealth statute — general corporate law applied to NFP boards",
+      "sources": [
+        {
+          "publisher": "Directors Australia",
+          "title": "Not-for-profit director duties: the same or different?",
+          "url": "https://directorsaustralia.com.au/not-for-profit-director-duties-the-same-or-different/",
+          "date": "2025",
+          "whatItMeasured": "Legal-practice summary of which Corporations Act 2001 sections impose duties on NFP directors and officers, and which duty (insolvent trading) does not extend to officers who are not directors."
+        }
+      ],
+      "scope": "Corrected: for directors of ACNC-registered charities, Corporations Act ss180-183 and 191 duties are switched off and replaced by Governance Standard 5 -- they do not layer on top of it. The Corporations Act duties described here (including s180 and s588G insolvent trading) apply in full only to directors/officers of NFP entities incorporated as companies that are NOT ACNC-registered charities (e.g. many incorporated associations, clubs). This does not apply to unincorporated associations or to holders of informal titles such as 'Social Change Leader' who lack formal director/officer status.",
+      "disposition": "corrected",
+      "refuted": false
+    },
+    {
+      "id": "L3-1",
+      "text": "A nonprofit-sector trade outlet advised nonprofit professionals in mid-2025 to actively future-proof their careers against AI by building AI literacy, strengthening distinctly human skills (leadership, creative work, in-person communication), and advocating for ethical AI deployment.",
+      "lane": "L3",
+      "tier": "trade press (nonprofit-sector publication)",
+      "sources": [
+        {
+          "publisher": "Nonprofit Tech for Good",
+          "title": "How Nonprofit Professionals Can Begin to AI-Proof Their Careers",
+          "url": "https://www.nptechforgood.com/2025/06/23/how-nonprofit-professionals-can-begin-to-ai-proof-their-careers/",
+          "date": "2025-06-23",
+          "whatItMeasured": "Opinion/advice piece by a nonprofit-sector commentator (Heather Mansfield); not a survey or empirical study — draws on general AI-jobs commentary (e.g. Anthropic's CEO, World Economic Forum Future of Jobs Report) to argue nonprofit professionals should adapt."
+        }
+      ],
+      "scope": "Does not measure actual AI-driven job losses, task automation rates, or employer adoption among nonprofits; it is career advice/opinion, not a study of displacement or task change, and does not isolate leadership-tier roles specifically.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-2",
+      "text": "A philanthropy-services trade blog reported in mid-2026 that AI is automating routine nonprofit and grantmaking tasks (data entry, copywriting, preliminary proposal review), freeing program officers, grants-management staff, and communications staff for more relationship-building and strategic work, while citing July 2025 Chronicle of Philanthropy reporting that rapid AI adoption was a factor in some sector layoffs.",
+      "lane": "L3",
+      "tier": "trade press (philanthropy-sector blog citing dated news coverage)",
+      "sources": [
+        {
+          "publisher": "Foundation Source",
+          "title": "AI In Philanthropy Series #2: How AI is Changing the Work of Philanthropy",
+          "url": "https://foundationsource.com/blog/ai-in-philanthropy-series-2-how-ai-is-changing-the-work-of-philanthropy/",
+          "date": "2026-07-29",
+          "whatItMeasured": "Trade-press commentary piece; cites (but the underlying reporting was not independently retrieved here) a July 2025 Chronicle of Philanthropy report on AI adoption and sector layoffs, and a 2025 KPMG cross-industry worker survey finding 52% of U.S. workers fear AI-driven job displacement."
+        }
+      ],
+      "scope": "The July 2025 Chronicle of Philanthropy layoff reporting and the 2025 KPMG worker-fear survey are primary sources being paraphrased here and were not independently retrieved in this pass; this verdict covers only the trade blog's paraphrase, not those primary findings, and does not isolate executive/leadership-tier roles from program-officer or grants-admin roles.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-3",
+      "text": "A nonprofit-workforce commentary piece published in a syndicated business-press outlet in April 2026 said funders now expect nonprofit leaders to show AI governance, integration and scaling capability rather than mere AI use, and that many nonprofits still lack the data-governance infrastructure and technical expertise to meet that bar while also competing with tech-aligned employers for talent.",
+      "lane": "L3",
+      "tier": "trade/business press (syndicated advisory op-ed)",
+      "sources": [
+        {
+          "publisher": "The Westside Gazette (syndicated from Anthony Brunson P.A. Certified Public Accountants & Business Advisors)",
+          "title": "Nonprofits in 2026: Navigating Workforce Pressures, AI Disruption, and Shifting Funding Realities",
+          "url": "https://thewestsidegazette.com/nonprofits-in-2026-navigating-workforce-pressures-ai-disruption-and-shifting-funding-realities/",
+          "date": "2026-04-29",
+          "whatItMeasured": "Qualitative sector-commentary op-ed by a business-advisory firm; not a dated empirical study — cites named industry initiatives (Google/Microsoft/OpenAI Foundation/Meta/Kyndryl AI-reskilling and grant programs) but no dated survey or research report."
+        },
+        {
+          "publisher": "Anthony Brunson P.A. Certified Public Accountants & Business Advisors (original author, syndicated by The Westside Gazette)",
+          "title": "Nonprofits in 2026: Navigating Workforce Pressures, AI Disruption, and Shifting Funding Realities",
+          "url": "https://thewestsidegazette.com/nonprofits-in-2026-navigating-workforce-pressures-ai-disruption-and-shifting-funding-realities/",
+          "date": "2026-04-29",
+          "whatItMeasured": "Same article; listed separately to record original-author attribution alongside the syndicating outlet."
+        }
+      ],
+      "scope": "No quantified survey data backs the governance-expectation and capability-gap claims in this piece; it does not measure actual displacement, hiring, or task-level change for nonprofit leadership roles, only funder/sector expectations as characterized by the authoring advisory firm.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-4",
+      "text": "Trade coverage of the 2026 Nonprofit AI Adoption Report (a benchmark study of 346 nonprofits by Virtuous and Fundraising.AI) reported that 92% of nonprofits now use AI in some capacity but only 7% report major organizational impact, 47% have no AI governance policy, and most use remains individual/reactive rather than embedded in leadership workflows, goals or budgets.",
+      "lane": "L3",
+      "tier": "trade press (nonprofit-technology publication summarizing a sector benchmark report)",
+      "sources": [
+        {
+          "publisher": "NonProfit PRO",
+          "title": "Nonprofit AI Adoption Hits 92% But Only 7% See Major Impact",
+          "url": "https://www.nonprofitpro.com/article/nonprofit-ai-adoption-hits-92-but-only-7-see-major-impact/",
+          "date": "2026 (exact day not confirmed; content observed via search-result snippet, full-page fetch was blocked by a redirect)",
+          "whatItMeasured": "Trade-press summary of the 2026 Nonprofit AI Adoption Report, a benchmark survey of 346 nonprofits fielded by Virtuous and Fundraising.AI, covering AI adoption rate, perceived organizational impact, governance-policy prevalence, and whether AI use is individual/ad hoc versus embedded in team workflows."
+        }
+      ],
+      "scope": "The underlying Virtuous/Fundraising.AI benchmark survey is the primary source being summarized; figures describe nonprofits generally (a fundraising-technology-platform-sourced sample), not the Social Change Leader/nonprofit-executive role specifically, and do not measure task-level automation or headcount change.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-2",
+      "text": "Nathan Chappell, founder of the fundraising-sector community Fundraising.AI, names the productivity paradox - AI raising output while burnout among fundraising staff rises - as 'one of the things I worry about the most with AI in our sector.'",
+      "lane": "L5",
+      "tier": "practitioner opinion column (sector trade publication)",
+      "sources": [
+        {
+          "publisher": "Chronicle of Philanthropy",
+          "title": "Good News - and Bad News - About AI and Fundraising in 2026",
+          "url": "https://www.philanthropy.com/opinion/ais-impact-on-fundraising-in-2026/",
+          "date": "2025-11-13",
+          "whatItMeasured": "Opinion column by Nathan Chappell (chief AI officer, Virtuous Software; founder, Fundraising.AI), a first-person practitioner reflection, not a survey."
+        }
+      ],
+      "scope": "Reflects one prominent fundraising-tech practitioner's stated worry, not a measured prevalence across fundraisers generally; the exact quoted wording was not independently re-verified due to a blocked fetch, though source, author, and date are confirmed genuine. Chappell also sells AI fundraising software, which is a relevant interest to disclose.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-3",
+      "text": "A global philanthropy-sector publication reports that nonprofit staff are adopting AI tools informally and individually - drafting proposals, summarising reports, drafting social media content - without their organisations having had a strategic conversation about the longer-term implications for how the work gets done.",
+      "lane": "L5",
+      "tier": "sector publication summarising practitioner accounts",
+      "sources": [
+        {
+          "publisher": "Alliance magazine",
+          "title": "AI came into the nonprofit workplace through the side door",
+          "url": "https://www.alliancemagazine.org/blog/ai-came-into-the-nonprofit-workplace-through-the-side-door/",
+          "date": "2026-04-10",
+          "whatItMeasured": "Editorial synthesis of informal accounts from nonprofit leaders/staff internationally about how AI entered their day-to-day workflows; not a structured survey with a stated sample size."
+        },
+        {
+          "publisher": "Chronicle of Philanthropy",
+          "title": "Good News - and Bad News - About AI and Fundraising in 2026",
+          "url": "https://www.philanthropy.com/opinion/ais-impact-on-fundraising-in-2026/",
+          "date": "2025-11-13",
+          "whatItMeasured": "Corroborating practitioner-facing coverage noting the nonprofit sector has not yet seen AI-driven layoffs the way some tech companies have, against a backdrop of over 20,000 nonprofit job losses in the prior year for other reasons."
+        }
+      ],
+      "scope": "Does not establish what share of the nonprofit workforce has adopted AI this way, or that adoption is representative of Social Change Leader / nonprofit executive roles specifically rather than frontline or communications staff; the publication does not report a sample size or method for how it gathered these accounts.",
+      "disposition": "sourced",
+      "refuted": false
+    }
+  ],
+  "jobAds": {
+    "source": "none",
+    "query": "",
+    "window": "",
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "Jobs and Skills Australia AI exposure nonprofit manager occupation (ANZSCO occupation-level exposure table for welfare/social-service/nonprofit managers not retrievable — page fetches timed out and search snippets carried no occupation-specific figures)",
+      "AIOE Felten Raj Seamans SOC 11-9151 exposure score (AIOE_DataAppendix.xlsx is not machine-readable via WebFetch; no accessible CSV mirror with the SOC 11-9151 row found)",
+      "Eloundou et al. 'GPTs are GPTs' occupation exposure score for social and community service managers / community and social service occupations (no occupation-specific figure surfaced in search results)",
+      "McKinsey/Brookings automation potential nonprofit sector executive director / social services managers task automation (results were nonprofit-industry blog/marketing content, not a peer-reviewed or institutional effect-size study)",
+      "ILO Research Brief 'Workers' exposure to AI' — managers/social-community-service/NGO occupation-level exposure data (PDF fetch returned only formatting metadata, no extractable occupation-level figures)",
+      "nonprofit leaders AI 2026 trade press \"artificial intelligence\" nonprofit sector jobs",
+      "reddit r/nonprofit AI worried job replace fundraising 2026 (no visible reddit thread content returned; general web search substituted)",
+      "\"social impact\" manager LinkedIn article AI tools worried replacing my job 2026 (no specific first-person LinkedIn article by a social impact manager found)",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable — no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}

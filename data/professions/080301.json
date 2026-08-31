@@ -1,0 +1,278 @@
+{
+  "onet_soc_code": "080301",
+  "title": "Business Leader",
+  "aliases": [
+    "Indigenous Business Leader",
+    "General Manager"
+  ],
+  "window": {
+    "from": "2025-03-01",
+    "to": "2026-08-31"
+  },
+  "generated": "2026-08-31",
+  "expires": "2027-02-28",
+  "programs": [
+    "mc-ibl"
+  ],
+  "claims": [
+    {
+      "id": "L1-1",
+      "text": "From 1 July 2026, the Commonwealth's Indigenous Procurement Policy raises the eligibility bar for a business to be recognised as an Indigenous business for government-contract set-asides to 51% or more Aboriginal and/or Torres Strait Islander ownership and control (or registration with the Office of the Registrar of Indigenous Corporations), up from the prior 50% ownership-only threshold, with a transition period through 2026-27.",
+      "lane": "L1",
+      "tier": "Commonwealth procurement policy instrument (National Indigenous Australians Agency)",
+      "sources": [
+        {
+          "publisher": "National Indigenous Australians Agency (NIAA)",
+          "title": "The Indigenous Procurement Policy is changing",
+          "url": "https://www.niaa.gov.au/our-work/employment-and-economic-development/indigenous-procurement-policy-changing",
+          "date": "2026-08-13",
+          "whatItMeasured": "Official NIAA policy page describing the strengthened IPP eligibility criteria (51% First Nations ownership and control, or ORIC registration), the 1 July 2026 effective date, and the transitional arrangement allowing either the old 50% or new 51% test until businesses re-verify."
+        },
+        {
+          "publisher": "Supply Nation",
+          "title": "FAQs for Indigenous suppliers and members",
+          "url": "https://supplynation.org.au/resources/faqs/faqs-indigenous-business/",
+          "whatItMeasured": "Supply Nation's own certification-body FAQ page distinguishing 'Registered' (50%+ owned) from 'Certified' (51%+ owned, managed and controlled) Indigenous businesses, and noting unit trusts became ineligible for registration/certification from 1 July 2026."
+        }
+      ],
+      "scope": "Governs eligibility for Commonwealth procurement set-asides and Supply Nation certification only; it defines who counts as an 'Indigenous business' for that specific purpose, not who counts as a business leader generally, and carries no information about business-leadership market sentiment, displacement risk, or occupational exposure to AI.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L1-2",
+      "text": "An Act passed by the NSW Parliament on 27 June 2025 inserts section 26A into the Work Health and Safety Act 2011 (NSW), which from 1 July 2026 converts the roughly 30 Ministerially-approved WHS Codes of Practice from advisory guidance into legally binding compliance benchmarks for every business (PCBU), directly raising the bar for the personal, non-delegable due-diligence duty that section 27 of the same Act imposes on 'officers' — a category that captures general managers and other senior executives who make or participate in decisions affecting a substantial part of the business, not only directors.",
+      "lane": "L1",
+      "tier": "NSW state legislation (work health and safety)",
+      "sources": [
+        {
+          "publisher": "Lockton",
+          "title": "Enforceable Codes of Practice: What expanded WHS obligations mean for NSW organisations",
+          "url": "https://global.lockton.com/au/en/news-insights/enforceable-codes-of-practice-what-expanded-whs-obligations-mean-for-nsw-organisations",
+          "date": "2026-06-17",
+          "whatItMeasured": "Insurance-broker legal update naming the amending Act (Industrial Relations and Other Legislation Amendment (Workplace Protections) Act 2025, passed 27 June 2025), the 1 July 2026 commencement of s.26A, and its stated effect on officers' s.27 due-diligence obligations."
+        }
+      ],
+      "scope": "Applies to 'officers' of NSW-regulated PCBUs specifically (a legal category that can, but does not automatically, include general managers depending on their actual decision-making authority — case law shows it is fact-dependent, not automatic by title). It is a WHS compliance obligation confined to NSW, not a general definition of 'business leader' and not evidence about labour-market sentiment or AI exposure for the occupation.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L2-1",
+      "text": "A Jobs and Skills Australia CGE-modelling study of 998 occupations projects \"business administration managers\" among the Australian occupations with the largest employment gains under generative-AI-augmented growth through 2050, with 79% of the workforce overall classified as low automation exposure/medium-to-high augmentation potential.",
+      "lane": "L2",
+      "tier": "institutional (Australian federal government agency)",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Australia's AI Transition: Jobs, Skills and the Future of Work (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-14",
+          "whatItMeasured": "Computable general equilibrium (CGE) modelling of AI-augmented growth across 998 ANZSCO occupations in the Australian workforce, projecting employment gains/losses and automation-exposure/augmentation-potential classification to 2050"
+        },
+        {
+          "publisher": "Information Age (Australian Computer Society)",
+          "title": "Aussie jobs most vulnerable to AI outlined in govt study",
+          "url": "https://ia.acs.org.au/article/2025/aussie-jobs-most-vulnerable-to-ai-outlined-in-govt-study.html",
+          "date": "2025-08",
+          "whatItMeasured": "Press summary of the JSA study's occupation-level projections, confirming business administration managers among occupations projected to gain the most employment by 2050"
+        }
+      ],
+      "scope": "Names the broader ANZSCO unit group 'business administration managers' (132), not the narrower Business Leader/General Manager/CEO occupations (unit groups 1111-1113); this is a single-scenario 2050 CGE projection, not a measurement of current displacement or current market sentiment; the specific employment-gain ranking was directly confirmed only in the secondary (Information Age) summary, not independently cross-checked against JSA's own report tables.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L2-2",
+      "text": "A multi-country NBER working paper survey of nearly 6,000 CEOs, CFOs, and senior finance executives across the US, UK, Germany, and Australia found over two-thirds of senior executives personally used AI in a typical work week, at a modest average intensity of about 1.5 hours per week, with CEOs using AI more than CFOs and other senior executives.",
+      "lane": "L2",
+      "tier": "scholarly (NBER working paper)",
+      "sources": [
+        {
+          "publisher": "National Bureau of Economic Research (NBER)",
+          "title": "Firm Data on AI (NBER Working Paper No. 34836)",
+          "url": "https://www.nber.org/system/files/working_papers/w34836/w34836.pdf",
+          "date": "2026-05-01",
+          "whatItMeasured": "Survey of ~6,000 CEOs/CFOs/senior finance managers at firms in the US, UK, Germany and Australia (fielded Nov 2025-Jan 2026), self-reported weekly personal AI use and hours"
+        },
+        {
+          "publisher": "National Bureau of Economic Research (NBER)",
+          "title": "Global Evidence on Business Use of AI",
+          "url": "https://www.nber.org/digest/202605/global-evidence-business-use-ai",
+          "date": "2026-05-01",
+          "whatItMeasured": "NBER Digest summary of the same survey's executive-level AI-use findings"
+        }
+      ],
+      "scope": "Measures self-reported personal AI-usage intensity, not automation exposure, task displacement, or employment effect; the sample pools four countries together, and the Australia-specific breakdown is not reported separately in the cited sources, so the figures should be read as a four-country pooled average, not an Australia-specific statistic.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L2-3",
+      "text": "Australia's Department of Employment and Workplace Relations (Office of the Chief Economist) lists \"chief executives and managing directors\" among occupations expected to benefit from AI adoption because the technology complements rather than substitutes their work, within a report that separately found economy-wide employment in the occupations most exposed to AI grew 5.6% versus 9.5% for least-exposed occupations since November 2022.",
+      "lane": "L2",
+      "tier": "institutional (Australian federal government report)",
+      "sources": [
+        {
+          "publisher": "Department of Employment and Workplace Relations, Australian Government",
+          "title": "AI and employment in Australia",
+          "url": "https://www.dewr.gov.au/workplace-relations/resources/ai-and-employment-australia",
+          "date": "2026-07-08",
+          "whatItMeasured": "Descriptive statistics and statistical modelling on ABS Labour Force Survey and JSA Internet Vacancy Index data, tracking employment growth by AI-exposure quartile since the introduction of generative AI (Nov 2022) and classifying occupations as benefiting/at-risk from AI adoption"
+        },
+        {
+          "publisher": "Human Resources Director (Key Media)",
+          "title": "AI adoption is not causing broad job losses in Australia, report finds",
+          "url": "https://www.hcamag.com/au/specialisation/hr-technology/ai-adoption-is-not-causing-broad-job-losses-in-australia-report-finds/581605",
+          "date": "2026-07-08",
+          "whatItMeasured": "Press summary of the DEWR report's employment-growth-by-exposure findings"
+        }
+      ],
+      "scope": "The 5.6%/9.5% figure is an economy-wide statistic across all AI-exposure quartiles, not a number computed specifically for chief executives/managing directors; that occupation's classification as a 'beneficiary' is qualitative, not attached to its own quantified effect size in the sources found; this is a real-time labour-market monitoring report, not a forward-looking forecast.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-1",
+      "text": "CNBC reported on 2026-05-11 that Chief AI Officer positions have moved from largely symbolic to substantive roles with real budget and governance authority, reaching similar C-suite penetration in roughly half the time it took Chief Digital Officer roles to spread during the 2010s, per an IBM report the article cites.",
+      "lane": "L3",
+      "tier": "trade press (CNBC), citing a vendor/consultancy study",
+      "sources": [
+        {
+          "publisher": "CNBC",
+          "title": "Do you need a chief AI officer? Here's how the tech is changing boardrooms",
+          "url": "https://www.cnbc.com/2026/05/11/heres-how-artificial-intelligence-is-changing-boardrooms.html",
+          "date": "2026-05-11",
+          "whatItMeasured": "CNBC news article on Chief AI Officer role adoption, authority, and compensation in large-company boardrooms, citing an IBM report on CAIO prevalence and mandate as its primary data source"
+        }
+      ],
+      "scope": "The 'half the time' Chief-Digital-Officer comparison and the symbolic-to-substantive characterization are CNBC's own editorial analysis woven around the cited IBM data point (76% of firms now have a CAIO, up from 26% a year earlier) — not a finding stated in the IBM report itself. Treat the CDO-speed comparison as journalistic framing, not an IBM-sourced statistic; the claim does not show CAIO adoption reducing headcount among incumbent general managers or business leaders.",
+      "disposition": "corrected",
+      "refuted": false
+    },
+    {
+      "id": "L3-2",
+      "text": "In July 2026, Forbes and IBTimes UK reported that Skyfall AI, founded by former Microsoft AI executives, planned to spend up to USD 1 million acquiring a small SaaS or e-commerce company and run it with an AI system performing the full CEO function — hiring, customer management, financial decisions, and strategic direction — without a human chief executive.",
+      "lane": "L3",
+      "tier": "trade/business press (Forbes contributor piece; IBTimes UK)",
+      "sources": [
+        {
+          "publisher": "Forbes",
+          "title": "Former Microsoft AI Leaders Are Spending $1M To Prove AI Can Replace CEOs",
+          "url": "https://www.forbes.com/sites/victordey/2026/07/20/former-microsoft-ai-leaders-are-spending-1m-to-prove-ai-can-replace-ceos/",
+          "date": "2026-07-20",
+          "whatItMeasured": "News/profile article on a startup's announced plan to test full AI-as-CEO operation of an acquired small business; no completed outcome data at time of publication"
+        },
+        {
+          "publisher": "IBTimes UK",
+          "title": "AI Is Coming for CEOs' Jobs Next: Ex-Microsoft Leaders Bet $1M It Can Replace the Boss",
+          "url": "https://www.ibtimes.co.uk/skyfall-ai-can-ai-run-business-without-human-ceo-1809856",
+          "date": "2026-07-21",
+          "whatItMeasured": "Follow-up news coverage of the same Skyfall AI announcement, including a direct quote from the founders about their stated goal"
+        }
+      ],
+      "scope": "Describes a single, not-yet-completed startup experiment at the scale of one small acquired company — not evidence that AI has replaced or can replace CEOs or general managers at established firms; as of publication the acquisition itself had not closed and no operating results existed.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L3-3",
+      "text": "CNBC reported on 2025-11-14 that in a survey of its Workforce Executive Council, 89% of senior HR and business leaders expected AI to reshape jobs in 2026, and 67% said AI was already having an impact on jobs at their own firms, though workforce reductions in 2026 were attributed by respondents to general cost-cutting rather than AI-driven efficiency gains.",
+      "lane": "L3",
+      "tier": "trade press (CNBC), small non-random executive panel",
+      "sources": [
+        {
+          "publisher": "CNBC",
+          "title": "AI will impact jobs in 2026, say 89% of HR leaders: CNBC survey",
+          "url": "https://www.cnbc.com/2025/11/14/ai-to-impact-89percent-of-jobs-next-year-cnbc-survey-finds.html",
+          "date": "2025-11-14",
+          "whatItMeasured": "CNBC Workforce Executive Council poll of a reported 21 senior HR/business leaders at member companies, asking about expected and current AI impact on jobs and the drivers of planned 2026 workforce reductions"
+        }
+      ],
+      "scope": "Confirmed only that a genuine CNBC article with this exact headline and date exists; sample is described in the claim's own sourcing as a small (~21-respondent), self-selected CNBC Workforce Executive Council panel, not a representative survey of business leaders or general managers generally, and reports leaders' stated expectations/attributions rather than measured employment or task-composition outcomes. The 67% and cost-cutting-attribution figures rest on the claim's own account and were not independently re-verified in full body text.",
+      "disposition": "scoped",
+      "refuted": false
+    },
+    {
+      "id": "L5-1",
+      "text": "Box CEO Aaron Levie described his own management role shifting from directing individual contributors to becoming \"a manager of agents,\" which he called \"a completely different level of work,\" and said he now reallocates budget from automated functions into strategic areas AI cannot yet handle.",
+      "lane": "L5",
+      "tier": "practitioner podcast transcript",
+      "sources": [
+        {
+          "publisher": "Every (Every.to)",
+          "title": "Transcript: 'How Box Is Building an AI-first Company—Without Cutting Jobs'",
+          "url": "https://every.to/podcast/transcript-box-ceo-aaron-levie-on-why-ai-agents-won-t-take-your-job",
+          "date": "2025-10-08",
+          "whatItMeasured": "Podcast interview transcript in which Levie, in his own words, describes how AI agents changed his own day-to-day leadership and resource-allocation decisions at Box."
+        }
+      ],
+      "scope": "Reflects one CEO's self-reported account of his own role at one software company; not evidence of prevalence across business leaders or general managers generally, and Box's AI exposure (a software/content-management company) is not representative of the Business Leader occupation as a whole.",
+      "disposition": "sourced",
+      "refuted": false
+    },
+    {
+      "id": "L5-2",
+      "text": "Solo founder Ryan Carson described his own leadership work as having shifted to \"orchestrating\" multiple parallel AI agents, saying \"everyone is now a manager of agents\" and that his daily high-stakes decision volume rose from roughly two or three per day to ten or twenty by lunchtime, adding that agent oversight now happens from his phone throughout the day rather than only in the office.",
+      "lane": "L5",
+      "tier": "practitioner podcast transcript",
+      "sources": [
+        {
+          "publisher": "The Startup Ideas Podcast (podscripts.co transcript)",
+          "title": "How I run a team of AI Agents 24/7",
+          "url": "https://podscripts.co/podcasts/the-startup-ideas-podcast/how-i-run-a-team-of-ai-agents-247",
+          "date": "2026-07-24",
+          "whatItMeasured": "Podcast interview transcript in which Carson, founder/CEO of Untangle, describes in his own words how running AI agents changed his personal daily management workload and decision cadence."
+        }
+      ],
+      "scope": "Self-selected account from one solo founder at an early-stage, AI-native legal-tech startup (Untangle); does not support claims about typical general managers or business leaders in established organisations, and this workload pattern (phone-based, high-frequency agent oversight) may not generalise beyond very small, highly AI-integrated teams. Note the 'everyone is now a manager of agents' phrase is a close paraphrase of Carson's actual words, not a verbatim quote.",
+      "disposition": "corrected",
+      "refuted": false
+    }
+  ],
+  "jobAds": {
+    "source": "none",
+    "query": "",
+    "window": "",
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
+  },
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-31",
+    "searchesReturningNothing": [
+      "\"080301\" occupation code \"Business Leader\" ANZSCO",
+      "ANZSCO \"General Manager\" occupation code registration standard",
+      "\"Indigenous Business Leader\" occupation classification code Australia",
+      "Jobs and Skills Australia occupation code \"080301\"",
+      "OSCA occupation code \"0803\" Business Leader",
+      "ASX Corporate Governance Council Principles Recommendations 5th edition update 2025 senior executives (5th edition confirmed still in consultation as of Aug 2026, not yet binding — dropped as a claim)",
+      "Corporations Act 2001 officer duties \"general manager\" ASIC 2025 2026 (no dated 2025-26 instrument found defining 'officer' to include general managers)",
+      "\"Core Skills Occupation List\" 2025 \"General Manager\" 111211 update (most recent dated entry was 2 December 2024, before the research window)",
+      "Modern Slavery Act 2018 review 2025 mandatory due diligence reforms CEO attestation Australia (still under consultation, no binding reform enacted in window)",
+      "Fair Work high income threshold 2025-26 indexation general managers award coverage (indexation is routine and not specific to a 'General Managers Award' as such; dropped as unreliable)",
+      "Productivity Commission Australia AI exposure managers executives occupation 2025 2026 (no PC-specific occupation-level figures for managers found; only Danielle Wood's aggregate 4%-of-jobs comment surfaced)",
+      "OECD AI occupational exposure index \"managing directors\" OR \"chief executives\" score PIAAC (found only secondary/AI-summarized characterizations of the OECD AI Exposure Measure, not a verified direct figure for this occupation after a 403 on the CEPR VoxEU source and inability to load the primary OECD publication)",
+      "general manager blog AI changing my job 2026",
+      "\"general manager\" reddit AI automation replacing management jobs discussion",
+      "business leaders LinkedIn article \"how AI changed my job as a manager\"",
+      "reddit r/managers AI tools using daily work discussion 2026",
+      "site:reddit.com general manager AI replacing tasks in my job",
+      "\"general manager\" podcast transcript AI agents changed how I run the business",
+      "hotel general manager blog AI tools daily operations 2025 2026",
+      "Chartered Management Institute \"Management Today\" AI case study manager quote",
+      "site:linkedin.com/pulse \"general manager\" AI changed how I manage my team",
+      "indie hackers OR \"hacker news\" founder general manager AI agents running operations discussion thread 2025",
+      "substack \"general manager\" personal essay AI agents doing my job now 2026",
+      "\"general manager\" restaurant OR retail OR hotel Reddit \"AI\" doing my job easier scheduling inventory 2025",
+      "Factiva: no interactive OpenAthens session in this run",
+      "LinkedIn: no linkedin-mcp-search tool connected in this session"
+    ]
+  },
+  "confidence": "high",
+  "caveats": [
+    "Factiva (L3 premium trade press) unavailable — no interactive OpenAthens session",
+    "LinkedIn feed/post scraping out of scope by policy; article-only search attempted under L5"
+  ]
+}
