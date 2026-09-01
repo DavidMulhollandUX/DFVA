@@ -45,7 +45,6 @@
   "bh-sciadv"
  ],
  "excludedResearch": [
-  "572at",
   "dr-phileit",
   "dr-philbe",
   "dr-philart",
@@ -61,5 +60,9 @@
   "dh-lld",
   "dh-sc"
  ],
- "excludedResearchNote": "Thesis PhDs and higher doctorates by examination: Panel C v4 scores taught curriculum structure and these carry none (same rule as excludedMPhil; see the 552aa precedent in docs/dfva-v4-handbook-backfill-plan.md \u00a72). They keep their v1 evidence file and market report; /reports shows them as 'research', never 'v4 pending'."
+ "excludedResearchNote": "Thesis PhDs and higher doctorates by examination: Panel C v4 scores taught curriculum structure and these carry none (same rule as excludedMPhil; see the 552aa precedent in docs/dfva-v4-handbook-backfill-plan.md \u00a72). They keep their v1 evidence file and market report; /reports shows them as 'research', never 'v4 pending'.",
+ "excludedResearchPendingAuthoring": [
+  "572at"
+ ],
+ "excludedResearchPendingAuthoringNote": "Same category as excludedResearch (Master of Medicine's captured 2026 structure page confirms thesis-only enrolment: scrapes/v4/pages/572at__structure.txt) but, unlike the 14 in excludedResearch, it has no v1 evidence file, market report or assessment \u2014 it was never in the v1 41-program registry. dfva-v4-gen.ts only emits a V4_ONLY_PROGRAMS entry for scored programs, and REPORT_INDEX only reaches unscored research degrees through the v1 registry, so this code cannot get a working /reports row without first authoring the full v1-shaped report trio (dfva-572at.md, dfva-market-572at.md, dfva-recommend-572at.md) plus dfva-v4r-572at.md \u2014 comparable in scope to the mc-apling report-authoring pass. Move to excludedResearch once that's done."
 }
