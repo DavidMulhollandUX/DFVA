@@ -6,7 +6,7 @@ const content = {
   markdown: `# DFVA v4 DURABILITY REPORT: Bachelor of Arts (B-ARTS)
 
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
-**Assessment date:** 2026-08-16
+**Assessment date:** 2026-09-01
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/b-arts (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 35 pages captured
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
@@ -37,54 +37,32 @@ combined total: the sub-scores are reported side by side and never added.
 
 | Item | Score | Rationale (anchor-referenced) |
 | --- | --- | --- |
-| C1 Distributed cognition & relational capability [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 1 | Level 1 anchor: collaboration/teamwork appears in learning outcomes but no core unit assesses it. Teamwork is stated at course level ('Work effectively in groups...') and in subject generic-skills lists, but no assessment task in any compulsory-pool subject is a group or team task — the assessment tables of all thirteen Arts Discovery subjects (the only compulsory subject category the extract documents) contain individual essays, exams, quizzes, critiques and individually-graded participation. Not level 2: no core unit assesses collaborative practice with individual accountability, client or stakeholder work. The only assessed team task in the extract ('A team presentation analysing the strategic plan and mission of your host organisations and their relationship to community development goals') sits in MULT20014, an elective WIL subject marked 'Not available in 2026'; ARTS30001's 'small consulting team' is likewise elective, and R1 forbids scoring elective evidence as core. |
-| C2 Hybrid metacognition & evaluative judgement [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) | 1 | Level 1 anchor: self-assessment and reflection appear in the graduate attributes ('highly self-aware and reflective, with skills in self-assessment') but no unit that every student must take assesses appraisal against criteria. Level 2's named exemplars do occur — 'Peer review essay plan' (ARTS10005, 25%), 'A written critique' (CRIM10001, 15%), 'A critical text comparison' (POLS10003), 'Critical research video review' (LANG10001) — but each sits in one option of the thirteen-subject Arts Discovery pool, and documented pathways exist with no appraisal task at all (PHIL10002's assessment is short answers, an essay, an examination and weekly quizzes). The evidence is therefore consistent with both level 1 and level 2 depending on whether a menu-selected option counts as 'a core unit'; the scoring direction requires the lower level. Level 3 is absent outright: no assessment requires documenting or justifying reliance decisions on a tool, source or collaborator, or evidencing strategy adjustment over time. |
+| C1 Distributed cognition & relational capability [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 1 | Group work appears in some discovery subjects (AHIS10001 mentions team projects, ENGL10002 mentions team project) and learning outcomes mention working effectively in groups. However, group work is not systematically assessed across the core. The Bachelor of Arts has no common core - students choose their own majors, so group work assessment depends on the chosen major. |
+| C2 Hybrid metacognition & evaluative judgement [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) | 1 | Critical evaluation and self-reflection appear in learning outcomes and generic skills. ARTS10005 (The Buddhist Universe) includes a peer review essay plan (25%), but this is only one of several discovery subjects students can choose from. Not all students will take this subject. No systematic core assessment of evaluative judgement across all students. |
 | C3 Digital & AI literacy, including governance [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 1 | Level 1 anchor: digital tools appear as tool operation/training only — the operational level TEQSA identifies as non-durable. Digital capability is stated at program level as proficiency in 'appropriate information technologies' and communication 'on digital platforms', and the operational instances documented are database and web-tool searching. AI appears once, as subject-matter content in one Discovery option's overview paragraph, not as assessed treatment of capabilities and limits. Not level 0, because digital content is present in program-level generic skills. Not level 2: no core unit is documented as addressing AI capabilities AND limitations/ethics with use-with-limits assessed, and no assessment task in the extract names AI or digital tools. |
-| C4 Life-long learning & transfer [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 1 | Level 1 anchor: transfer is claimed in outcomes but not assessed. The course outcomes claim application 'within complex changing social contexts' and independence in 'the workplace and personal life', and the generic skills claim self-directed study, but no assessment task in the extract requires application to a novel or unfamiliar problem — the documented tasks are essays, exams, quizzes and bibliographies on taught material, so level 2 is not reached. Level 3 is not scoreable on this extract: the course structure requires a Capstone subject, but R2 requires assessment evidence for a level 3 and the extract contains no capstone subject page, no capstone assessment table and no evidence that any capstone is self-scoped. |
-| C5 Inquiry & evidence generation [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 1 | Level 1 anchor: introductory methods training and literature-review assessment. Methods training is documented as a hurdle module ('Researching History' in HIST10015) and literature-review assessment recurs as annotated-bibliography tasks across several Discovery options; the course outcome claims 'rigorous methods of inquiry'. Not level 0, because that training and those tasks exist. Not level 2: the only documented design-and-collect inquiry is LING10002's interviewing and systematic observation, assessed via two Reports — but LING10002 is one option of thirteen in the Discovery pool, so the program does not document that students design and conduct an inquiry; the ambiguity resolves down. Level 3 requires a substantial required primary-evidence project defended under scrutiny, which the extract does not document for any required subject. |
+| C4 Life-long learning & transfer [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 1 | Independent inquiry and self-directed learning appear in learning outcomes. A capstone subject is required at Level 3 for each major, but details are not extracted. No clear evidence of structured progression toward independent learning or assessed application to novel problems in the common core. |
+| C5 Inquiry & evidence generation [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 1 | Research skills appear in learning outcomes. A capstone subject is required at Level 3, but details are not extracted. No evidence in the common core of students designing and conducting an inquiry with methodology selection and data collection. |
 | **Adaptive capabilities** | **5 / 15** | |
 | W1 Professional communication & conduct [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) | 0 | Level 0 anchor (demoted from 1 on adversarial verification): every documented core assessment artefact is an academic genre addressed to the marker, and no core assessment task establishes a spoken deliverable. Level 1 requires BOTH that communication appear in outcomes AND that core assessment add presentation to peers/staff; the second clause is unsupported. Every named spoken/presentation task in the extract sits in an ELECTIVE Work Integrated Learning subject — ARTS30001's 'Linked Project Report and interactive orals', MULT20010's 'Personal/Professional Portfolio with a Student-led Interactive Oral Review', and MULT20014's team presentation (that subject is 'Not available in 2026'). No assessment table in any of the thirteen Arts Discovery subjects — the only compulsory subject category the extract documents — contains a presentation, oral, seminar or spoken deliverable. The three items previously cited as spoken work are participation marks, not presentations: 'Participation in class' (AHIS10001, 5%), 'Class participation' (HIST10015, 20%, sized '800 words (equivalent)') and 'In-class discussion questions' (ENGL10002, 10%, sized '400 words (equivalent)'); two of the three are quantified in WORD equivalents, so nothing establishes the mark is for oral contribution, and they appear in only 3 of the 13 substitutable Discovery options — the same minority-of-pool situation used to hold C2 and C5 down to 1. Holding W1 at 1 on the program-level generic skill 'Communicate effectively, in oral and written forms and on digital platforms' is barred twice over: by the scoring direction (resolve ambiguity to the LOWER level) and by W1's own migration note invoking Barrie (2006, 2007), which forbids scoring stated graduate attributes. |
 | W2 Authentic task design [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) | 1 | Level 1 anchor: contextualised or scenario-framed tasks appear, but the artefact produced and the criteria applied remain academic. Case-study framing recurs across the compulsory Discovery pool (art-history case studies, philosophy-of-science case studies, a historical argument built on one case study), yet every documented assessment artefact is an essay, exam, quiz, bibliography or academic report judged by the teaching team. Not level 0, because the framing is present. Not level 2: no core assessment reproduces a professional task end to end producing the artefact a practitioner would produce; the closest documented instance, ARTS30001's project report and interactive orals for an industry partner, is an elective, and R4 bars scoring up on its 'genuine professional setting' label. |
-| W3 Work-situated learning [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) | 1 | Level 1 anchor: work-situated learning exists only as an elective or optional internship. The course structure lists Work Integrated Learning as a category of Arts Discipline subjects that students 'may' complete, capped at one per semester, and the overview presents internship and volunteering as things students may undertake; no placement, practicum or community-based project appears among the course's completion requirements. MULT20010 documents an 80-100 hour self-sourced placement and MULT20014 a not-for-profit placement with an 80-hour attendance hurdle, but both are elective (and MULT20014 is 'Not available in 2026'), so level 2's requirement of a core unit placing students in a real workplace is not met. The in-practice route does not apply: nothing documents this cohort as already practising in a profession. |
+| W3 Work-situated learning [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) | 1 | MULT20010 Internship: Personal and Career Growth (Level 2), ARTS30001 Industry Project (Level 3), and MULT30019 Internship (Level 3) exist as Work Integrated Learning electives. These are not core requirements but are available to students. |
 | **Workplace practice** | **2 / 9** | |
 
 **C1 Distributed cognition & relational capability — 1/3**
 
 > Work effectively in groups to meet a shared goal with people whose disciplinary and cultural backgrounds differ from their own
 >
-> Work collaboratively and productively in groups and across disciplines
->
 > Contribute to team projects through active participation and effective collaboration
 >
-> Contribute to a team project through active participation and effective collaboration
->
-> Participation in class
->
-> Class participation
->
-> In-class discussion questions
->
-> A team presentation analysing the strategic plan and mission of your host organisations and their relationship to community development goals
->
-> Students may only complete one of the listed Work Integrated Learning subjects per semester, and students cannot complete the same Work Integrated Learning subject at different year levels.
+> Work collaboratively and productively in groups and across disciplines
 
 **C2 Hybrid metacognition & evaluative judgement — 1/3**
 
-> They are also highly self-aware and reflective, with skills in self-assessment, and place great importance on their personal and professional integrity.
+> Critically evaluate new ideas, research findings, methodologies and theoretical frameworks in their discipline
 >
-> Peer review essay plan
+> Peer review essay plan 1000 words Hurdle requirement: Must be submitted. Week 9 25%
 >
-> A written critique
->
-> A critical text comparison
->
-> Critical research video review
->
-> Students will take an Arts Discovery subject within their first semester of study. Undertaking at least one Arts Discovery subject is a requirement of the Bachelor of Arts.
->
-> An examination
->
-> Weekly quizzes
+> Engage confidently in self-directed study and research
 
 **C3 Digital & AI literacy, including governance — 1/3**
 
@@ -98,33 +76,17 @@ combined total: the sub-scores are reported side by side and never added.
 
 **C4 Life-long learning & transfer — 1/3**
 
-> Apply critical and analytical skills and methods to the identification and resolution of problems within complex changing social contexts
->
-> Work with independence, self-reflection and creativity to meet goals and challenges in the workplace and personal life.
+> Apply an independent approach to knowledge that uses rigorous methods of inquiry and appropriate theories and methodologies
 >
 > Engage confidently in self-directed study and research
 >
 > A minimum of 37.5 credit points of Level 3 Major subjects including a Capstone subject
->
-> Completion of at least 50 points of Level 1 study before proceeding to the next subject year level.
 
 **C5 Inquiry & evidence generation — 1/3**
 
-> Apply an independent approach to knowledge that uses rigorous methods of inquiry and appropriate theories and methodologies that are applied with intellectual honesty and a respect for ethical values
+> Apply an independent approach to knowledge that uses rigorous methods of inquiry and appropriate theories and methodologies
 >
-> Researching History Module
->
-> Hurdle requirement: If they have not already done so, students must successfully complete the online 'Researching History' module in order to submit assignments and to pass this subject.
->
-> Analytical exercise (annotated bibliography)
->
-> An essay plan with annotated bibliography
->
-> Expanded annotated bibliography
->
-> Annotated Bibliography
->
-> You will interview other people in your class, creating a sense of connection and belonging, as well as systematically observing instances of communication and miscommunication as it occurs across campus and in our communities.
+> A minimum of 37.5 credit points of Level 3 Major subjects including a Capstone subject
 
 **W1 Professional communication & conduct — 0/3**
 
@@ -160,17 +122,11 @@ combined total: the sub-scores are reported side by side and never added.
 
 **W3 Work-situated learning — 1/3**
 
-> Work Integrated Learning
->
-> Students may only complete one of the listed Work Integrated Learning subjects per semester, and students cannot complete the same Work Integrated Learning subject at different year levels.
->
-> Undertake specialised fieldwork, research options and integrated internship and volunteering programs which provide opportunities for professional work experience and community engagement
->
-> Through the completion of 80 to 100 hours of self-sourced work placement, students will test themselves in a workplace environment
->
 > Internship: Personal and Career Growth (MULT20010)
 >
 > Industry Project (ARTS30001)
+>
+> Students may only complete one of the listed Work Integrated Learning subjects per semester
 
 ## 3. GATES — Basis: scored
 
@@ -230,18 +186,15 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 **Panel A metadata.** Basis tier **pooled** (program family), n = 2596, 101 destination titles, 51 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: union of 18 "Bachelor of Arts (…)" records
 
-**Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-16: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
+**Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-09-01: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 
-**Ambiguities and construct-boundary notes** (8):
+**Ambiguities and construct-boundary notes** (5):
 
-- Structural ambiguity affecting every item: the only compulsory subject-level requirement the extract documents is one Arts Discovery subject chosen from thirteen options, so 'at least one core unit assesses X' is indeterminate whenever X appears in a minority of that pool. Rule applied uniformly: where level-2 evidence sits in a minority of the substitutable pool, resolve to the lower level and record it here.
-- C2 straddled levels 1 and 2. 'Peer review essay plan' (ARTS10005) and 'A written critique' (CRIM10001) are literally the level-2 exemplars, but a student can satisfy the Discovery requirement with PHIL10002, whose assessment is short answers, an essay, an examination and quizzes — no appraisal task. Resolved down to 1 by the lower-level rule.
-- C5 straddled levels 1 and 2. LING10002's interviewing and systematic observation, assessed by two Reports, would meet level 2's design-and-conduct-an-inquiry anchor, but it is one Discovery option of thirteen. Resolved down to 1 by the lower-level rule.
-- C1 and W1 both had candidate evidence in ARTS30001 (real industry partner, small consulting team, interactive orals) and MULT20010. Scored in neither, because both subjects are elective Work Integrated Learning, and the elective placement evidence was scored once, in W3 at level 1, per the one-construct-one-home rule.
-- W1 straddled levels 0 and 1 and was RESOLVED DOWN TO 0 on adversarial verification. The initial pass held it at 1 on the program-level generic skill 'Communicate effectively, in oral and written forms and on digital platforms' plus assessed class participation, but every named presentation/oral task in the extract is elective (ARTS30001, MULT20010, MULT20014), the three participation items appear in only 3 of the 13 Discovery options and two are sized in word equivalents, and Barrie (2006, 2007) via R2 forbids scoring stated graduate attributes. The lower-level rule applies, matching the treatment already given to C2 and C5.
-- G1 was a close call. The majors architecture (Level 2 and Level 3 major depth plus a required Capstone) is genuine counter-evidence to FAIL, but it is stated only as credit-point rules; against it stand the 125-point single-discipline cap, 50 points of compulsory Breadth, ~30 substitutable discipline lists and no compulsory specialist core, with no major or capstone page in the extract to evidence progressive depth. Resolved to FAIL.
-- G2 passes on the defended-argument route in essay-based assessment; whether contested-scholarship argumentation counts as 'defended trade-off decisions' is arguable, but the stated FAIL condition (recall or scripted responses only) is clearly not met.
-- R4 applied to ARTS30001, whose overview uses 'genuine professional setting', 'real project', 'practical workplace' and 'employability'. These labels were disregarded; only the documented features of the task were considered, and it is elective in any case.
+- C1: No common core - group work depends on chosen major - scored at level 1 based on outcomes
+- C2: Peer review exists in some discovery subjects but not all - scored at level 1
+- W2: No common core with authentic assessment - scored at level 0
+- W3: Internship/Industry Project exist but are elective - scored at level 1
+- C3, W1, W2, G1, G2 reverted to origin's scores on this review. C3: origin's AI mention (Buddhist Universe subject overview) and the IT-proficiency generic skill are program-level digital content, so level 0 ('no digital/AI content... anywhere') is not met; local's score of 0 quoted the same IT-proficiency line as evidence while scoring as if no content exists. W1: local's reversal to 1 relies on the same 'Participation in class' word-equivalent marks origin already considered and rejected (word-equivalents in only 3 of 13 substitutable Discovery options, no documented oral component) — it does not rebut that reasoning. W2: local's drop to 0 ignores origin's documented case-study framing evidence (art-history, philosophy-of-science, historical-argument case studies) without addressing it. G1: local's PASS does not engage the counter-evidence origin weighed — the 125-point single-discipline cap, the 'one to two Majors' language (undermining a single coherent core), and the absence of any actual major/capstone subject page in the extract — and the credit-point progression rules quoted are thresholds by year level, not the rubric's required 'staged prerequisite chain' between named subjects. G2: the rubric's FAIL condition is 'recall or scripted responses only'; the shared evidence (developing arguments, evaluating competing explanations, defending a contested-question position) is not recall/scripted, so the FAIL bar is not cleared — origin's PASS (on the defended-argument route, honestly flagged as arguable) is the better-supported reading; local's FAIL applies the strongest form of the PASS condition rather than testing the FAIL condition as written.
 
 **Not scoreable from the handbook** (3):
 

@@ -6,7 +6,7 @@ const content = {
   markdown: `# DFVA v4 DURABILITY REPORT: Bachelor of Biomedicine (B-BMED)
 
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
-**Assessment date:** 2026-08-16
+**Assessment date:** 2026-09-01
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/b-bmed (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 36 pages captured
 **Course Director:** Program Director: Associate Professor James Ziogas
 
@@ -38,40 +38,34 @@ combined total: the sub-scores are reported side by side and never added.
 
 | Item | Score | Rationale (anchor-referenced) |
 | --- | --- | --- |
-| C1 Distributed cognition & relational capability [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 2 | Meets the level-2 anchor: at least one core unit assesses collaborative practice with individual accountability. BIOM10001 (compulsory, first semester) assesses a group-of-4 written proposal and a group presentation; BIOL10002 assesses a written report split into an individual component, a team-member evaluation and a group report; BIOM20001 assesses a group work-preparation task and a group examination component. Not level 3: although assessed collaboration recurs across Levels 1-2 as the anchor's first clause requires, the second clause fails - no core assessment is documented as requiring coordination of work across people AND tools/AI systems, and no documented role or tool allocation is itself assessed. Placement/WIL evidence is excluded here by the one-construct-one-home rule and scored in W3. |
-| C2 Hybrid metacognition & evaluative judgement [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) | 2 | Meets the level-2 anchor, which names peer review as an instance of criterion-referenced appraisal of quality: BIOM30001 (compulsory Level 3) carries a graded, anonymous written peer assessment, and BIOL10002 assesses a team-member evaluation as a marked component. This clears level 1, whose anchor requires that no core unit assesses appraisal. Not level 3: no core assessment is documented as requiring students to record and justify reliance decisions, defend judgements of AI-output quality, or evidence strategy adjustment over time - the BIOM10001 e-portfolio is described only as 'written reflections' with no documented process-focused or gap-closing requirement. |
+| C1 Distributed cognition & relational capability [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 2 | Level 2: a core compulsory unit assesses collaborative practice. BIOM10001 (Discovering Biomedicine, Level 1 compulsory) assesses a group written proposal and a group presentation, both completed as a group of 4 with per-student word allocations (individual accountability). Collaboration also recurs in BIOL10002 (core) group report + team-member evaluation and is emphasised across the course. NOT level 3: no assessment requires coordinating work across people AND tools/AI systems (C3=0; no AI in core). |
+| C2 Hybrid metacognition & evaluative judgement [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) | 2 | Level 2: a core compulsory unit includes criterion-referenced appraisal of quality as peer review. BIOM30001 (Frontiers in Biomedicine, Level 3 compulsory) assesses 'Peer assessment (anonymous, online, written)' 5% — students appraise peers' debate/discussion performance. BIOM10001 additionally requires an e-portfolio of written reflections (hurdle). NOT level 3: no assessment requires documenting/justifying tool- or source-reliance decisions or defending AI-output quality (no AI in core). The peer-assessment rubric itself is not documented in the extract, which caps the item at 2. |
 | C3 Digital & AI literacy, including governance [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 1 | Matches the level-1 anchor - AI and digital tools appear only as electives or as tool operation, the level TEQSA identifies as non-durable. Core subjects state digital literacy only as a generic skill, and the only digital content documented in a core unit is computer-aided learning and use of electronic databases/forms of communication (tool operation). Machine-learning, informatics and neural-network subjects sit in the discipline-elective list, not the compulsory core. This is above level 0 because digital literacy does appear in core-unit generic skills. Not level 2: no core unit is documented as addressing AI capabilities AND limitations/ethics with use-with-limits assessed, and no core assessment requires critique or governance of AI systems (level 3). |
-| C4 Life-long learning & transfer [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 1 | Matches the level-1 anchor: self-directed learning and transfer are claimed in program intended learning outcomes and generic skills but no core assessment is documented against them. Not level 2 - no core assessment is described as requiring application to novel or unfamiliar problems (case variation, unseen datasets, cross-context projects); the CHEM10006 independent-learning hurdle is assessed but its tasks are not documented as novel-context application. Not level 3 - the anchor's structured progression to independent learning fails because the self-scoped research project subjects (SCIE30001, BIOM30003) sit under discipline electives, not the compulsory core, and no assessed identification of one's own knowledge gaps with a plan to close them is documented. |
-| C5 Inquiry & evidence generation [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 1 | Matches the level-1 anchor: introductory methods content and literature-based assessment. The core assesses an annotated bibliography and a conference abstract (BIOM10002), prescribed laboratory practical work (CHEM10006 hurdle) and a written physiology lab report (BIOM20002). Not level 2 - 'design and perform an inquiry-based project' appears only as a BIOL10002 intended learning outcome, and the corresponding assessment items (practical attendance hurdle, group written report) are not documented as student-selected methodology with data collection, so R2/the lower-level rule holds it at 1. Not level 3 - the substantial primary-evidence project is an elective route (Research Project Subjects), not required, and no viva or staged supervised defence is documented. |
+| C4 Life-long learning & transfer [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 1 | Level 1: transfer is claimed in outcomes but not clearly assessed as application to novel/unfamiliar problems. Outcomes require applying biomedical knowledge to determinants of health/disease and BIOM30002/BIOM30001 ILOs require applying a framework to systematic analysis of complex diseases. No core assessment is documented as requiring application to unseen datasets, cross-context projects or novel problems (the 'maladies' are taught cases). NOT level 2: no documented novel/unfamiliar-problem assessment. |
+| C5 Inquiry & evidence generation [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 1 | Level 1: an introductory inquiry/literature-review-style assessment exists. BIOM10001 assesses a group written proposal (20%, hurdle) on a current topic, and its ILO requires identifying, critically evaluating and communicating a current topic/issue and understanding how knowledge is testable/contestable by evidence-based enquiry. NOT level 2: no core assessment requires students to design and conduct an inquiry with methodology selection and data collection; the proposal is secondary synthesis, not primary-evidence generation. Ambiguous between 0 and 1; resolved to 1 because a literature-review-style assessment is documented. |
 | **Adaptive capabilities** | **7 / 15** | |
 | W1 Professional communication & conduct [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) | 1 | Level 1 anchor (demoted from 2 on adversarial verification): communication appears in outcomes and core assessment adds presentation to peers/staff, but nothing clears level 2's conjunction. The level-2 anchor requires a recognised professional genre OR an audience beyond the teaching team, AND judgement against criteria drawn from professional practice; the second clause is undocumented everywhere in the extract. BIOM10002's 'Conference abstract' and 'Virtual conference ePoster + 2 minute video synopsis' are research-training genres staged as an in-class virtual conference, with no documented audience beyond the teaching team and no practice-drawn criteria. BIOM30001's 'Writing for your audience' names no audience, and its debate exercise and BIOM10001's group presentation are delivered to peers and staff — the level-1 anchor verbatim. The remaining line, 'communicate effectively to different audiences about the ethical implications and social and patient outcomes of medical research', is a BIOM30002 intended learning outcome, which R2 and Barrie (2006, 2007) exclude — R2 binds hardest on W1. Cohort precedent is consistent: 872bb scored W1=1 while treating faculty research-seminar presentation and an externally examined thesis as academic rather than professional genres; mc-sciear scored 1 with assessed in-class orals and an in-class negotiation simulation; 991aa scored 1 with an assessed tutorial oral. Every published W1=2 rests on a genre aimed outside the academy or judged by a practitioner (mc-phtyph's client-facing 'Poster, handout, or social media post'; mc-scibit's industry-partner-assessed presentation; mc-jurisd's 'Memorandum to a partner'; mc-clind's clinical case formulation). b-bmed documents no such line, and resolving upward on a conceded gap is barred by the scoring direction (never resolve ambiguity upward). |
-| W2 Authentic task design [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) | 1 | Matches the level-1 anchor: contextualised and scenario-framed tasks appear - clinically relevant case studies in BIOM20001 and six case-based 'malady' modules in BIOM30002 - but the artefacts produced and the criteria applied remain academic (intra-semester tests, written assignments, lab reports and written examinations dominate every core subject's assessment table). Not level 2: no core assessment is documented as reproducing a professional task end to end with an artefact a practitioner would produce judged against criteria drawn from practice. Per R4 the case-study framing is scored on its documented features only. The conference abstract/ePoster is scored in W1 under the one-construct-one-home rule (it is named there as a professional genre). |
+| W2 Authentic task design [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) | 1 | Level 1: contextualised/scenario-framed tasks appear but the artefacts and criteria remain academic. BIOM30002 'Molecule to Malady' addresses six real 'maladies' (case framing) and BIOM30001 has a 'Graphical analysis written assignment', yet the produced artefacts are written assignments/exams judged by academic criteria, not a practitioner's artefact judged against practice criteria. NOT level 2: no core assessment reproduces a professional task end to end with practice-drawn criteria. |
 | W3 Work-situated learning [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) | 1 | Matches the level-1 anchor: work-situated learning exists only as an elective. The sole internship subject appears under the discipline-elective listing, not in the compulsory core, which comprises 50 points of Level 1, 50 points of Level 2 and 25 points of Level 3 discipline subjects with no placement, practicum, live-client or community-based project. Above level 0 because such an option does appear in the course structure. Not level 2: no core unit places students in a workplace or professional-community setting with practitioner supervision, and the cohort is not documented as already practising in the profession, so the v4.2 in-practice route does not apply. |
 | **Workplace practice** | **3 / 9** | |
 
 **C1 Distributed cognition & relational capability — 2/3**
 
-> Group project - written proposal, requiring completion of all preparation milestones and final proposal (completed as a group of 4) 1500‐Words total (500 word draft proposal plus 1000 word final proposal; equivalent to 375 words total per student)
->
-> Group Presentation‐ Group project presentation (completed as a group of 4) 1600 words equivalent (400 words per student)
->
-> Written Assignment- A written report comprising: (i) Individual component (200-word equivalent per student) due Week 5-7, 4%; (ii) Team member evaluation (100-word equivalent per student), due Week 12, 2% (iii) Group report: (700 words per group), due Week 10-12, 14%.
->
-> Written assignment (group work preparation - 4-6 students)
->
-> 2 x examinations Part 1: written exam, individual assignment, 2 hours (30%) Part 2: written exam, group (4-6 students) assignment, 1 hour (10%)
->
 > Demonstrate effective, respectful and inclusive teamwork and collaboration
+>
+> Collaborative learning is emphasised throughout the course as students work in laboratories, tutorials, workshops and small group activities, and undertake peer review
+>
+> Group project - written proposal, requiring completion of all preparation milestones and final proposal (completed as a group of 4)
+>
+> (completed as a group of 4) 1600 words equivalent (400 words per student)
 
 **C2 Hybrid metacognition & evaluative judgement — 2/3**
 
 > Peer assessment (anonymous, online, written)
 >
-> Written Assignment- A written report comprising: (i) Individual component (200-word equivalent per student) due Week 5-7, 4%; (ii) Team member evaluation (100-word equivalent per student), due Week 12, 2% (iii) Group report: (700 words per group), due Week 10-12, 14%.
->
 > Completion of an e-portfolio of written reflections
 >
-> Collaborative learning is emphasised throughout the course as students work in laboratories, tutorials, workshops and small group activities, and undertake peer review.
+> Demonstrate skills in reflective practice, self-directed learning and effective decision-making, to set personal and learning goals, manage tasks, and evaluate progress
 
 **C3 Digital & AI literacy, including governance — 1/3**
 
@@ -89,33 +83,19 @@ combined total: the sub-scores are reported side by side and never added.
 
 **C4 Life-long learning & transfer — 1/3**
 
-> Demonstrate skills in reflective practice, self-directed learning and effective decision-making, to set personal and learning goals, manage tasks, and evaluate progress;
+> Apply knowledge of human biomedical sciences to understand societal and environmental determinants of health and disease, and their impacts at an individual, community and population level
 >
-> Engage confidently in self-reflection, self-directed study and research;
+> Apply a theoretical framework to the systematic study of complex diseases
 >
-> Hurdle requirement: Independent learning tasks need to be completed in order to pass the subject.
->
-> Research Project Subjects
->
-> 25 credit points of Compulsory Level 3 Discipline subjects
+> apply an interdisciplinary approach to the systematic analysis of diseases
 
 **C5 Inquiry & evidence generation — 1/3**
 
-> design and perform an inquiry-based project and interpret the data.
+> Identify, critically evaluate and effectively communicate a current topic or issue in Biomedical Science or Health
 >
-> Develop literature research skills specific to the biomedical sciences
+> Group project - written proposal, requiring completion of all preparation milestones and final proposal (completed as a group of 4)
 >
-> Annotated bibliography
->
-> Conference abstract
->
-> Ongoing assessment of practical work (6 x 3 hour practicals)
->
-> Written Physiology Lab Report
->
-> Execute basic laboratory experiments; analyse and interpret experimental data and write laboratory reports;
->
-> Research Project Subjects
+> Understand why and how advances in Biomedical Science and Health knowledge are testable and contestable by evidence-based enquiry governed by research ethical standards
 
 **W1 Professional communication & conduct — 1/3**
 
@@ -133,17 +113,11 @@ combined total: the sub-scores are reported side by side and never added.
 
 **W2 Authentic task design — 1/3**
 
-> Integrate and apply knowledge of the basic principles of pathology to clinically relevant case studies.
+> apply an interdisciplinary approach to the systematic analysis of diseases
 >
-> Students spend 5-6 hours addressing each of six “maladies”, selected to demonstrate the holistic nature of medical practice and the integration of biomedical research into the development of novel diagnostics and evidence-based therapies.
->
-> Written Physiology Lab Report
->
-> 2 x 35 min intra-semester tests (15% each)
+> Students spend 5-6 hours addressing each of six “maladies”, selected to demonstrate the holistic nature of medical practice
 >
 > Graphical analysis written assignment
->
-> Written examination
 
 **W3 Work-situated learning — 1/3**
 
@@ -161,8 +135,8 @@ combined total: the sub-scores are reported side by side and never added.
 
 ## 3. GATES — Basis: scored
 
-- **G1 Disciplinary foundation:** PASS — Satisfies the PASS condition on two of its three routes: a compulsory specialist core at every year level (125 points of core subjects) and a staged prerequisite chain, with named Level 1 core subjects that must be completed before progression to Level 2 core, plus 50 points of Level 3 major study for disciplinary depth. This is not generic or interchangeable content - the core is biomedical-science specific from BIOM10001 through BIOM30001.
-- **G2 Decision-making under uncertainty:** FAIL — The PASS condition requires assessments that demand defended trade-off decisions, or simulations/capstones/live projects carrying real uncertainty and accountability. Neither is documented in the core: every compulsory subject's assessment table is dominated by intra-semester tests, quizzes, written assignments and written examinations, and the capstone-like research project sits outside the core as an elective. The closest candidates - a 2.5-minute-per-student debate exercise and a self-chosen group proposal on a current topic - are argued or scoped tasks, but neither is documented as requiring a trade-off decision to be defended, nor does either carry documented accountability under real uncertainty.
+- **G1 Disciplinary foundation:** PASS — The program documents a coherent specialist core with progressive technical depth across all years: 50cp compulsory Level 1 (BIOM10001, BIOL10002, CHEM10006, BIOM10002), 50cp compulsory Level 2 (BIOM20001, BIOM20002), 25cp compulsory Level 3 (BIOM30002, BIOM30001), with a staged prerequisite chain (the four Level 1 subjects must be completed before Level 2 core). Distinct biomedical-science disciplinary identity.
+- **G2 Decision-making under uncertainty:** FAIL — Core assessment is dominated by recall/scripted responses: written examinations (BIOM10001 40%, BIOM30001 50%, BIOM30002 55%), intra-semester tests, and 6 online quizzes (recall). The 'Graphical analysis written assignment' and group proposal involve some analysis but no assessment requires defended trade-off decisions, simulation, capstone or live project with real uncertainty and accountability. No level-3 scored item supplies the missing uncertainty either.
 
 ## 4. MARKET EVIDENCE — Basis: reported
 
@@ -215,16 +189,15 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 **Panel A metadata.** Basis tier **pooled** (program family), n = 380, 48 destination titles, 32 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: union of 7 "Bachelor of Biomedicine (…)" records
 
-**Panel C provenance.** Scored from the 2026 handbook capture (36 pages) and verified on 2026-08-16: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
+**Panel C provenance.** Scored from the 2026 handbook capture (36 pages) and verified on 2026-09-01: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 
-**Ambiguities and construct-boundary notes** (6):
+**Ambiguities and construct-boundary notes** (5):
 
-- C2 straddled 1 and 2: BIOM30001's 'Peer assessment (anonymous, online, written)' is a marked core task but the extract never states the criteria against which peers judge quality, so the level-2 phrase 'criterion-referenced' is inferred from the anchor's own naming of peer review as an instance. Resolved at 2 because level 1's anchor requires that no core unit assesses appraisal, which the graded peer assessment and team-member evaluation contradict.
-- C2 vs C4 over the BIOM10001 e-portfolio: 'Completion of an e-portfolio of written reflections' could read as C2's 'portfolio with standards' or as C4's assessed identification of knowledge gaps. Scored in C2 under one-construct-one-home (its construct is appraisal/regulation of one's own work) and it lifts neither item to 3, because neither the standards nor the gap-closing plan is documented.
-- C3 straddled 0 and 1: no core unit teaches AI, and digital content in the core is only generic-skill statements plus computer-aided learning. Resolved at 1 rather than 0 because the level-0 anchor requires no digital content in any core unit or program-level outcome, which the core generic skills contradict; the level-1 anchor's 'only as electives or as tool operation' fits exactly.
-- C5 straddled 1 and 2: BIOL10002's outcome 'design and perform an inquiry-based project and interpret the data.' would satisfy level 2 if an assessment item named it, but its assessment table lists only a practical-attendance hurdle, tests, a group written report and an exam. Resolved down to 1 by R2 and the never-resolve-upward rule.
-- W1 straddled 1 and 2: a conference abstract and virtual-conference ePoster are recognised genres of biomedical research practice, but level 2's qualifier 'judged against criteria drawn from professional practice' is not documented, and the conference is virtual/in-class with no evidenced audience beyond the teaching team. Resolved DOWN to 1 on adversarial verification: level 2 is a conjunction and the second clause is conceded absent, so the never-resolve-upward rule governs; presentation to peers and staff is the level-1 anchor exactly.
-- G2 was the closest call: the BIOM30001 debate exercise and the BIOM10001 self-chosen group proposal involve contestable positions, but neither is documented as a defended trade-off decision nor carries accountability under real uncertainty. Resolved to FAIL under the never-resolve-upward rule.
+- C2: BIOM30001 peer assessment (anonymous, online, written, 5%) is peer review in a core unit, meeting the level-2 anchor; the specific rubric/criteria are not documented, capping at 2 (cannot reach 3). Prior run scored 1.
+- C5: BIOM10001 group project written proposal is an introductory literature-review-style assessment (20%, hurdle) supporting level 1; it is a proposal, not methods-trained data collection, so it does not reach level 2. Ambiguous 0 vs 1; resolved to 1.
+- W1: 'Writing for your audience' (10%) plus the ILO 'communicate scientific knowledge to an informed lay audience' indicate an audience beyond the teaching team (informed lay), supporting level 2; specific professional criteria not documented, capping at 2.
+- W3: full-text search for placement\\|practicum\\|internship\\|work-integrated\\|WIL\\|clinical\\|industry returned only 'clinically relevant case studies' (a case study, not a placement); scored 0.
+- C3 and W1, W3 reverted to origin's scores on this review. C3: the core generic skill 'Demonstrates digital and scientific literacy skills' is program-level digital content, so level 0 is not met; local's score of 0 quoted this same line as evidence while scoring as if no content exists. W1: local's score of 2 supports the 'audience beyond the teaching team' claim for 'Writing for your audience' using the generic-skill line 'communicate scientific knowledge to an informed lay audience' rather than any documented feature of that specific assessed task — origin already established the task itself 'names no audience'; the W1 item's migration note explicitly invokes Barrie (2006, 2007) to forbid exactly this move (scoring off stated graduate attributes rather than documented assessment). W3: the W3 anchor's level-0 condition is 'no WIL... appears anywhere in the COURSE STRUCTURE' (not 'anywhere in the core'); origin documents SCIE30002 Science and Technology Internship as an elective within the course structure, which local's search did not surface — satisfying level 1 ('exists only as an elective'), not level 0.
 
 **Not scoreable from the handbook** (1):
 
