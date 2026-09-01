@@ -120,9 +120,23 @@ export default function AssessorPage() {
         </h1>
         <p className="text-muted-foreground mt-2">
           One input: a link to a course page in a university handbook. The
-          analysis scores the program across 11 dimensions and assigns a risk
-          band from RESILIENT to CRITICAL.
+          assessment scores the program on eight curriculum items across two
+          sub-scales (adaptiveness and workplace practice), checks two
+          preconditions, and places the program against the portfolio median.
         </p>
+      </div>
+
+      <div className="mb-6 flex items-start gap-3 rounded-lg border border-amber-300/60 bg-amber-50 px-4 py-3 text-sm text-amber-950 dark:border-amber-400/30 dark:bg-amber-950/40 dark:text-amber-100">
+        <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0" />
+        <div>
+          <p className="font-semibold">Prototype — not live.</p>
+          <p className="mt-0.5">
+            The assessment pipeline is a working prototype, not a production
+            system. Submitting a handbook URL will queue a job but the
+            automated scoring service is not currently connected. Sample
+            reports and scores on this site are illustrative and may change.
+          </p>
+        </div>
       </div>
 
       <form onSubmit={handleSubmit} className="mb-4">
