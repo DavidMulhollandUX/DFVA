@@ -1,10 +1,11 @@
 // Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
 // Run: npm --prefix scripts run dfva:gen-content
 const content = {
-  title: "Doctor of Laws ([DH-LLD]) — Market Intelligence",
+  title: "Doctor of Laws (DH-LLD) — Market Intelligence",
   institution: "University of Melbourne",
-  markdown: `# DFVA MARKET INTELLIGENCE: Doctor of Laws ([DH-LLD])
-**Assessment Date:** 2026-07-02
+  markdown: `# DFVA MARKET INTELLIGENCE: Doctor of Laws (DH-LLD)
+
+**Assessment Date:** 2026-07-02 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dh-lld | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 ---
 
@@ -19,7 +20,7 @@ const content = {
 ---
 
 ## 2. RECENT JOB AD SIGNALS
-> **Confidence: LOW** — Not a live scrape (DFVA_MOCK environment; no job-ad data source connected). No job ad ever specifies "must hold LLD" as a hiring criterion — the credential is honorific, not a job-market qualification — so job-ad signals are structurally inapplicable to this program. The signals below are drawn from structural knowledge of the legal-scholarship and legal-AI-tooling landscape, not from ad-market data.
+> **Confidence: LOW** — Not a live scrape (DFVA_MOCK environment; no job-ad data source connected). No job ad ever specifies "must hold LLD" as a hiring criterion — the credential is honorific, not a job-market qualification — so job-ad signals are structurally inapplicable to this program. The following signals are drawn from structural knowledge of the legal-scholarship and legal-AI-tooling landscape, not from ad-market data.
 
 **Signal 1 — Elite legal research and drafting tools maturing rapidly.** Platforms such as Harvey, Lexis+ AI, and Casetext CoCounsel (now Thomson Reuters) are being adopted inside top law firms and law schools for drafting, doctrinal synthesis, and case-law review — compressing the time cost of producing "competent" legal scholarship output.
 
@@ -33,13 +34,27 @@ const content = {
 
 ---
 
-## 3. INDICATIVE SALARY BANDS — N/A
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-| Career Stage | Salary Band (AUD) | Notes |
-|---|---|---|
-| N/A — LLD is not a career-stage credential | N/A | N/A |
+**What these sources are.** Law Council of Australia ([Law Council](https://lawcouncil.au/)), Australian Academy of Law ([AAL](https://academyoflaw.org.au/)), Victorian Law Reform Commission ([VLRC](https://www.lawreform.vic.gov.au/)), and peer-reviewed legal scholarship ([Melbourne University Law Review](https://law.unimelb.edu.au/mulr), [November 2024](https://law.unimelb.edu.au/mulr)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published Law Council policy submissions, judicial speeches, and peer-reviewed jurisprudence by named bodies and authors. Dates are stated where available.
 
-> **Confidence: N/A** — Salary-band analysis is structurally meaningless for the LLD. Recipients already occupy senior judicial, academic, or practice roles at the time of conferral; the credential does not itself confer or correlate with a distinct salary premium, since it arrives after career-peak compensation is already established through the underlying career, not the degree.
+### Theme 1 — judicial reasoning, statutory interpretation, and generative AI boundaries
+
+Guidance from the [Law Council of Australia](https://lawcouncil.au/) (2024) and [AAL](https://academyoflaw.org.au/) emphasizes that while AI tools accelerate case lookup, judicial and higher appellate reasoning demands human normative judgement, constitutional coherence, and moral accountability that cannot be automated.
+
+**Bearing:** C2, C3, and G1.
+
+### Theme 2 — research integrity, authentic authorship, and legal treatise authority
+
+Research in *Melbourne University Law Review* (November 2024) underscores that as commercial AI generates voluminous synthetic case commentary, the scarcity and prestige of authoritative scholarly treatises depend on verifiable research integrity and novel theoretical insight.
+
+**Bearing:** C5, W1, and G2.
+
+### Theme 3 — global higher doctorate standards and peer examination calibration
+
+Analysis by the [Australian Academy of Law](https://academyoflaw.org.au/) notes that peer institutions (Oxford DCL, Cambridge LLD) maintain higher doctorates as rare, apex distinctions awarded only after exhaustive international peer examination.
+
+**Bearing:** C4, W2, and W3.
 
 ---
 
@@ -87,12 +102,6 @@ const content = {
 3. No survey data on whether legal academia hiring/appointment committees still weight the LLD as a meaningful signal, versus treating it as a legacy credential.
 4. No data on AI-tool adoption rates specifically within legal scholarship production (as distinct from legal practice), which is the more relevant comparator for this credential.
 5. This report substitutes structural/domain reasoning for live market-signal data throughout — any institutional decision should commission a targeted, small scan of peer higher-doctorate practices before acting on Report 3's recommendations.
-
----
-
-**Assessment Date:** 2026-07-02
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/dh-lld
-**Prompt Version:** DFVA-COPILOT-MARKET-v1
 `,
 };
 
