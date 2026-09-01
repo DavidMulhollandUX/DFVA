@@ -150,14 +150,14 @@ The market intelligence gathered for this program indicates exceptional demand a
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| High demand across Melbourne Biomedical Precinct institutes and hospitals | Fast | Research institutes recruit Biomedicine graduates for lab research. | C4, W3 |
-| Rapid integration of AI in genomics, protein folding, and diagnostics | Fast | Labs mandate capability in computational biology tools (AlphaFold). | C3, G1 |
-| Strong cohort progression into postgrad medicine, dentistry, and health | Fast | High transition into MD/DDS programs requiring rigorous clinical acumen. | W1, G2 |
-| Very low AI substitution in wet-lab experiments and clinical care | Stable | Wet-lab cell assays, animal handling, and clinical reasoning are immune. | W2, G2 |
-| Purely descriptive biology memorisation without computational data | Declining | Replaced by multi-omics data integration and computational modeling. | C3, W2 |
-| Isolated wet-lab research without translational clinical context | Declining | Replaced by translational clinical trials and interdisciplinary teams. | C1, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| High demand across Melbourne Biomedical Precinct institutes and hospitals | Fast | Research institutes recruit Biomedicine graduates for lab research. — C4, W3 |
+| Rapid integration of AI in genomics, protein folding, and diagnostics | Fast | Labs mandate capability in computational biology tools (AlphaFold). — C3, G1 |
+| Strong cohort progression into postgrad medicine, dentistry, and health | Fast | High transition into MD/DDS programs requiring rigorous clinical acumen. — W1, G2 |
+| Very low AI substitution in wet-lab experiments and clinical care | Stable | Wet-lab cell assays, animal handling, and clinical reasoning are immune. — W2, G2 |
+| Purely descriptive biology memorisation without computational data | Declining | Replaced by multi-omics data integration and computational modeling. — C3, W2 |
+| Isolated wet-lab research without translational clinical context | Declining | Replaced by translational clinical trials and interdisciplinary teams. — C1, W1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for NHMRC, AusBiotech, and ASMR professional standards, and biomedical precinct hiring demand; and High for exact-name alumni destination tracking.
 

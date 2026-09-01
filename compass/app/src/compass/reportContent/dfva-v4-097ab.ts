@@ -156,14 +156,14 @@ The market intelligence gathered for this program indicates consistent employer 
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Localization and decolonial development frameworks | Sustained High | ACFID Code of Conduct and donor standards require practitioners to shift leadership to local Southern partners through participatory co-design and power-sharing. | C1, W1, G2 |
-| AI in MERL and mobile survey data analysis | Rising / Volatile | Widespread use of mobile data platforms (Kobo) and AI survey tools accelerates analysis, but creates high risk of algorithmic exclusion and hallucinated community sentiment. | C2, C3, W2 |
-| Climate displacement and anticipatory disaster financing | Rising | Climate volatility demands development specialists skilled in loss-and-damage governance and anticipatory cash transfer mechanisms. | C4, W2, G2 |
-| Authentic donor investment proposals and logframes | Rising | DFAT and multilateral donors demand fully articulated investment designs and M&E frameworks rather than abstract essays. | W2, W1 |
-| Top-down blueprint project planning without local ownership | Declining | Rigid top-down plans are rejected in favour of adaptive program management and community co-design. | C1, G2 |
-| Manual survey data tallying without mobile platforms | Declining | Enterprise mobile tools (Kobo, CommCare) automate raw survey capture and descriptive aggregation. | C3, C2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Localization and decolonial development frameworks | Sustained High | ACFID Code of Conduct and donor standards require practitioners to shift leadership to local Southern partners through participatory co-design and power-sharing. — C1, W1, G2 |
+| AI in MERL and mobile survey data analysis | Rising / Volatile | Widespread use of mobile data platforms (Kobo) and AI survey tools accelerates analysis, but creates high risk of algorithmic exclusion and hallucinated community sentiment. — C2, C3, W2 |
+| Climate displacement and anticipatory disaster financing | Rising | Climate volatility demands development specialists skilled in loss-and-damage governance and anticipatory cash transfer mechanisms. — C4, W2, G2 |
+| Authentic donor investment proposals and logframes | Rising | DFAT and multilateral donors demand fully articulated investment designs and M&E frameworks rather than abstract essays. — W2, W1 |
+| Top-down blueprint project planning without local ownership | Declining | Rigid top-down plans are rejected in favour of adaptive program management and community co-design. — C1, G2 |
+| Manual survey data tallying without mobile platforms | Declining | Enterprise mobile tools (Kobo, CommCare) automate raw survey capture and descriptive aggregation. — C3, C2 |
 
 **Evidence confidence.** The market intelligence carries **Medium–High** confidence overall: High for ACFID/DFAT sector standards, international NGO hiring, and localization guidelines; and Medium for general social development salary benchmarking.
 

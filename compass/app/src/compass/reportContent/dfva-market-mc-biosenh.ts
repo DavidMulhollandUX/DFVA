@@ -16,13 +16,13 @@ const content = {
 | Statistical / AI-systems auditor (emerging) | Not yet an established entry title | Auditing and quality-controlling AI-produced statistical output; co-leading interdisciplinary analysis teams | **LOW** for the auditing role itself — this is the reposition role two senior practitioners argue the profession should move toward, not one AI is substituting into | AI-model auditing and validation, interdisciplinary collaboration | Profession record L5-2 (ASA Biopharmaceutical Report interview, 2025-08-29) — a considered opinion from two named senior practitioners, not a measured hiring trend |
 
 ## 2. RECENT JOB AD SIGNALS
-> **Confidence: mixed by signal — see individual notes.** \`data/professions/010103.json\` carries a real Adzuna AU snapshot (\`jobAds.source: "adzuna-au"\`), not an estimate — this is live job-ad data, stated plainly, though the sample is small.
+> **Confidence: mixed by signal — see individual notes.** The job-ad data is a real Adzuna Australian snapshot, not a modelled estimate — live job-ad data, stated plainly, though the sample is small.
 
 1. **Real, live data — not a desk estimate.** The profession record's job-ad figures come from a real Adzuna AU snapshot taken 2026-08-31 for the query "statistician," returning **15** current vacancies. This is genuine job-board data, not a modelled or extrapolated figure — but 15 is a small snapshot, and no historical baseline exists to compare it against.
 
 2. **Employers span government and biomedical/pharma, directly relevant to this program.** The top employers in the snapshot are Queensland Government, CSL Behring Pty Ltd, CSL Plasma, Department of Queensland Treasury, Murdoch University, Tomra, Commonwealth Bank of Australia and SAHMRI. CSL Behring, CSL Plasma and SAHMRI (South Australian Health and Medical Research Institute) are biomedical/health-research employers directly adjacent to this program's biostatistics specialisation; the government and finance employers reflect the broader "Statistician" ANZSCO code the query was run against, not a biostatistics-specific search.
 
-3. **R is the single skill the snapshot surfaces.** \`jobAds.topSkills\` lists only "r" — consistent with the program's compulsory Introduction to Statistical Computing unit, which teaches Stata and R as its two statistical-software packages.
+3. **R is the single skill the snapshot surfaces.** The Adzuna snapshot lists only "r" — consistent with the program's compulsory Introduction to Statistical Computing unit, which teaches Stata and R as its two statistical-software packages.
 
 4. **Sample size is too small to support a trend or velocity claim.** With n = 15 and a single snapshot date, this signal cannot show whether biostatistics-adjacent hiring is rising, falling or flat — a claim of that kind would need a longitudinal pull, which does not exist in the supplied record. **LOW confidence** for anything beyond "these vacancies existed on this date."
 

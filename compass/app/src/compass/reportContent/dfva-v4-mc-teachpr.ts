@@ -164,7 +164,7 @@ primary-relevant data point (the Victorian screen-time cap from Term 1 2027); ta
 modelling (Theme 3) is MEDIUM-HIGH, though the program's own DFVA crosswalk score is a
 re-derivation of the same underlying methodology rather than an independent second source.
 The report separately flags that no genuine Adzuna job-ad volume, employer or skill data
-exists for this program's destination occupations — the templated \`jobAds\` block recurring
+exists for this program's destination occupations — the templated job-ad count recurring
 identically across 164 unrelated occupation records is treated as absent, not as a demand
 measurement — and that the Teacher Assistants and Teachers/Instructors All Other adjacent
 occupations are US SOC classifications mapped onto this Australian program, which needs

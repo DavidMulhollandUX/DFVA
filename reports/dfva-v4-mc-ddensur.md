@@ -171,14 +171,14 @@ The market intelligence gathered for this program indicates chronic shortages ac
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Nationwide shortage of registered dentists in regional and outer-metro clinics | Sustained High | Severe supply deficit drives signing bonuses and rapid career advancement. | W3, G1 |
-| Rapid integration of AI-assisted diagnostic radiograph tools | Fast | Private practices adopt Pearl and Overjet for computer vision caries detection. | C2, C3, W2 |
-| Statutory licensure and physical procedural moat | Stable | AHPRA registration and tactile surgical skill insulate dentistry from automation. | W1, W2, W3 |
-| Steady demand in public health networks | Sustained High | DHSV and community health centres recruit dentists for public dental waiting lists. | W1, W3 |
-| Manual unassisted radiographic screening | Declining | Replaced by AI-assisted computer vision diagnostic overlays. | C3, W2 |
-| Paper-based charting and unintegrated practice records | Declining | Replaced by integrated digital clinic management and CAD/CAM workflows. | C3, G1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Nationwide shortage of registered dentists in regional and outer-metro clinics | Sustained High | Severe supply deficit drives signing bonuses and rapid career advancement. — W3, G1 |
+| Rapid integration of AI-assisted diagnostic radiograph tools | Fast | Private practices adopt Pearl and Overjet for computer vision caries detection. — C2, C3, W2 |
+| Statutory licensure and physical procedural moat | Stable | AHPRA registration and tactile surgical skill insulate dentistry from automation. — W1, W2, W3 |
+| Steady demand in public health networks | Sustained High | DHSV and community health centres recruit dentists for public dental waiting lists. — W1, W3 |
+| Manual unassisted radiographic screening | Declining | Replaced by AI-assisted computer vision diagnostic overlays. — C3, W2 |
+| Paper-based charting and unintegrated practice records | Declining | Replaced by integrated digital clinic management and CAD/CAM workflows. — C3, G1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for ADC, DBA, and ADA statutory standards, and clinical workforce shortage data; and High for exact-name alumni destination tracking.
 

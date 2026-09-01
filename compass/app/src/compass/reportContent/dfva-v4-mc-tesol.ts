@@ -154,14 +154,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| ELICOS and pathway provider academic coordination shortage | Fast | Rebuilding language centres hire coordinators with NEAS and CRICOS skills. | W1, G1 |
-| EAL/D specialist teacher shortages in Victorian schools | Sustained High | State schools actively recruit qualified language teachers under VIT standards. | W3, G1 |
-| Digital learning design and multimodal authoring tools | Fast | Private language colleges seek developers skilled in H5P and digital platforms. | C3, W2 |
-| Relational pedagogy and intercultural communicative moat | Stable | High-relational classroom micro-teaching insulates TESOL from full automation. | C1, W2, G2 |
-| Traditional grammar worksheets without communicative context | Declining | Replaced by task-based, interactive communicative language teaching. | C2, W2 |
-| Monolingual deficit framing of language learners | Declining | Replaced by translanguaging and plurilingual pedagogical frameworks. | C2, G1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| ELICOS and pathway provider academic coordination shortage | Fast | Rebuilding language centres hire coordinators with NEAS and CRICOS skills. — W1, G1 |
+| EAL/D specialist teacher shortages in Victorian schools | Sustained High | State schools actively recruit qualified language teachers under VIT standards. — W3, G1 |
+| Digital learning design and multimodal authoring tools | Fast | Private language colleges seek developers skilled in H5P and digital platforms. — C3, W2 |
+| Relational pedagogy and intercultural communicative moat | Stable | High-relational classroom micro-teaching insulates TESOL from full automation. — C1, W2, G2 |
+| Traditional grammar worksheets without communicative context | Declining | Replaced by task-based, interactive communicative language teaching. — C2, W2 |
+| Monolingual deficit framing of language learners | Declining | Replaced by translanguaging and plurilingual pedagogical frameworks. — C2, G1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for ACTA, NEAS, and VIT professional standards, and school/ELICOS hiring demand; and High for exact-name alumni destination tracking.
 

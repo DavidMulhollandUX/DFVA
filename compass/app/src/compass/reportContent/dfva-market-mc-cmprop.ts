@@ -22,7 +22,7 @@ const content = {
 
 ## 2. RECENT JOB AD SIGNALS
 
-**Confidence: this section draws on real, live Adzuna AU job-ad data, not an estimate.** The profession record's \`jobAds\` field carries \`source: "adzuna-au"\` with a snapshot count of 3,118 open Australian listings for "construction project manager" as of 2026-08-31.
+**Confidence: this section draws on real, live Adzuna Australian job-ad data, not a modelled estimate.** The Adzuna snapshot returned 3,118 open Australian listings for "construction project manager" as of 2026-08-31.
 
 1. **3,118 open Australian job ads for "construction project manager"** in the 2026-08-31 Adzuna AU snapshot — a real, current demand count, not a projection.
 2. **Reported top employers mix direct employers with recruitment intermediaries.** Kaura Homes and Equinix appear as direct hirers; Michael Page, HAYS, Workpac, Amicus and TMX are staffing and recruitment firms, indicating that a substantial share of advertised roles in this occupation are placed through agencies rather than posted directly.

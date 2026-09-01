@@ -18,10 +18,10 @@
 
 ## 2. RECENT JOB AD SIGNALS
 
-1. **No live job-advertisement data exists for this research window.** The supplied profession record's `jobAds` block reports `source: "none"`, `count: 0`. This section cannot state Adzuna-sourced vacancy volumes, top employers, or top skills for the sonographer occupation. **Confidence: LOW** — this is a data gap, not evidence of flat or falling demand.
+1. **No live job-advertisement data exists for this research window.** No Adzuna or equivalent job-ad data was collected for the sonographer occupation. This section cannot state vacancy volumes, top employers, or top skills for the sonographer occupation. **Confidence: LOW** — this is a data gap, not evidence of flat or falling demand.
 2. **Independent trade-press commentary describes a persistent Australian sonography workforce shortage.** Cardioserv (13 April 2026) reports sonography vacancy rates rising from 6.9% in 2021 to 16.7% in 2023 and standing at 12.4% in 2025, alongside over half of sonographers reporting moderate-to-severe burnout. These figures are compiled by Cardioserv from separate primary workforce surveys it does not itself run or fully cite. **Confidence: MEDIUM-LOW** — directional, not a primary source; do not reuse the specific percentages without tracing them to the original survey.
 3. **No named employers are available for this program's destination occupation.** With no job-ad pull performed, there is no basis for a top-employers or top-skills list distinct from the qualitative discussion in §3. **Confidence: LOW.**
-4. **No L4-lane (direct labour-market-database) claims exist in the supplied profession record.** The record's evidence lanes run L1 (regulatory/professional-body), L2 (peer-reviewed), L3 (trade press) and L5 (practitioner discourse) — L4 is absent entirely, consistent with the empty `jobAds` block. **Confidence: LOW** — a fresh job-ad pull is needed before this section can report demand volume with any confidence.
+4. **No L4-lane (direct labour-market-database) claims exist in the supplied profession record.** The record's evidence lanes run L1 (regulatory/professional-body), L2 (peer-reviewed), L3 (trade press) and L5 (practitioner discourse) — L4 is absent entirely, consistent with the absence of job-ad data. **Confidence: LOW** — a fresh job-ad pull is needed before this section can report demand volume with any confidence.
 
 ---
 

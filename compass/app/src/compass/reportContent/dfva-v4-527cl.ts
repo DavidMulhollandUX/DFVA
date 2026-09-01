@@ -209,14 +209,14 @@ The market intelligence gathered for this program indicates exceptional, non-cyc
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Acute workforce shortage and AHPRA statutory registration | Sustained High | APAC-accredited graduates enter high-demand vacancies across hospitals and private practice, insulated by licensing. | W3, G1, G2 |
-| Telehealth and digital delivery as standard practice | Sustained High | Over 65% of psychology postings require video psychotherapy and remote risk management capabilities. | C3, W1, W2 |
-| NDIS Functional Capacity and digital psychometric testing demand | Sustained High | Demand for comprehensive cognitive and developmental assessments drives recruitment for provisionals. | W2, C2, C5 |
-| Workplace psychosocial hazard regulations (Safe Work Australia) | Rising | Emerging organizational consulting roles require clinical psychologists to evaluate systemic psychosocial risks. | C1, C4, W1 |
-| Unstructured talk therapy without empirical formulation | Declining | Clinical practice demands manualized, measurement-informed modalities. | C5, W2 |
-| Paper-based psychometric test administration | Declining | Testing is transitioning rapidly to digital iPad platforms (Q-interactive). | C3, C2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Acute workforce shortage and AHPRA statutory registration | Sustained High | APAC-accredited graduates enter high-demand vacancies across hospitals and private practice, insulated by licensing. — W3, G1, G2 |
+| Telehealth and digital delivery as standard practice | Sustained High | Over 65% of psychology postings require video psychotherapy and remote risk management capabilities. — C3, W1, W2 |
+| NDIS Functional Capacity and digital psychometric testing demand | Sustained High | Demand for comprehensive cognitive and developmental assessments drives recruitment for provisionals. — W2, C2, C5 |
+| Workplace psychosocial hazard regulations (Safe Work Australia) | Rising | Emerging organizational consulting roles require clinical psychologists to evaluate systemic psychosocial risks. — C1, C4, W1 |
+| Unstructured talk therapy without empirical formulation | Declining | Clinical practice demands manualized, measurement-informed modalities. — C5, W2 |
+| Paper-based psychometric test administration | Declining | Testing is transitioning rapidly to digital iPad platforms (Q-interactive). — C3, C2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for APS/PsyBA statutory standards, mental health workforce shortages, and digital assessment adoption; and High for exact-name alumni destination tracking.
 

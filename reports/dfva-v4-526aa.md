@@ -180,14 +180,14 @@ The market intelligence gathered for this program indicates extensive transforma
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| APRA CPS 230 Operational Resilience driving specialist hiring | Fast | Major banks and investment firms recruit lawyers for prudential compliance. | C4, G1 |
-| Demand for FinTech, crypto-assets, and digital payments specialists | Fast | Financial institutions seek counsel fluent in digital wallets and tokenised assets. | C3, G1 |
-| Integration of AI transaction surveillance and financial crime tools | Fast | Regulators and banks mandate legal literacy in algorithmic AML monitoring. | C3, G1 |
-| High AI exposure in routine loan drafting and standard covenants | Very Fast | Template drafting faces automation, elevating syndicated workout advisory. | C3, W2 |
-| Routine loan assembly without operational risk literacy | Declining | Replaced by APRA CPS 230 compliance and digital asset risk management. | C3, W2 |
-| Siloed domestic banking analysis without cross-border capital fluency | Declining | Replaced by multi-jurisdictional capital markets and debt restructuring. | C1, C4 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| APRA CPS 230 Operational Resilience driving specialist hiring | Fast | Major banks and investment firms recruit lawyers for prudential compliance. — C4, G1 |
+| Demand for FinTech, crypto-assets, and digital payments specialists | Fast | Financial institutions seek counsel fluent in digital wallets and tokenised assets. — C3, G1 |
+| Integration of AI transaction surveillance and financial crime tools | Fast | Regulators and banks mandate legal literacy in algorithmic AML monitoring. — C3, G1 |
+| High AI exposure in routine loan drafting and standard covenants | Very Fast | Template drafting faces automation, elevating syndicated workout advisory. — C3, W2 |
+| Routine loan assembly without operational risk literacy | Declining | Replaced by APRA CPS 230 compliance and digital asset risk management. — C3, W2 |
+| Siloed domestic banking analysis without cross-border capital fluency | Declining | Replaced by multi-jurisdictional capital markets and debt restructuring. — C1, C4 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for APRA, ASIC, and Law Council statutory benchmarks, and banking legal hiring demand; and High for exact-name alumni destination tracking.
 

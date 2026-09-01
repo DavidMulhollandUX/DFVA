@@ -178,14 +178,14 @@ The market intelligence gathered for this program indicates acute, structural wo
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Acute nursing workforce shortages across all public health networks | Sustained High | ANMAC-accredited graduates enter high-demand hospital vacancies, heavily protected by statutory registration. | W3, G1, G2 |
-| Electronic Medical Record (Epic/Cerner) adoption across health networks | Sustained High | Over 90% of hospital postings mandate digital documentation and automated medication safety compliance. | C3, W1, W2 |
-| Statutory 24/7 RN mandates in residential aged care | Sustained High | Regulatory mandates drive rapid promotion to clinical leadership and care coordination roles. | C1, W3, G1 |
-| Clinical Decision Support Systems (CDSS) and track-and-trigger alerts | Rising | Digital triage requires registered nurses to audit alerts and override automated recommendations when clinical signs dictate. | C2, C3, W2 |
-| Paper-based charting and handwritten medication records | Declining | Clinical documentation is almost entirely digitized across Victorian tertiary hospitals. | C3, W2 |
-| Task-oriented nursing without holistic care planning | Declining | Healthcare networks demand evidence-based clinical reasoning and interprofessional communication. | C5, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Acute nursing workforce shortages across all public health networks | Sustained High | ANMAC-accredited graduates enter high-demand hospital vacancies, heavily protected by statutory registration. — W3, G1, G2 |
+| Electronic Medical Record (Epic/Cerner) adoption across health networks | Sustained High | Over 90% of hospital postings mandate digital documentation and automated medication safety compliance. — C3, W1, W2 |
+| Statutory 24/7 RN mandates in residential aged care | Sustained High | Regulatory mandates drive rapid promotion to clinical leadership and care coordination roles. — C1, W3, G1 |
+| Clinical Decision Support Systems (CDSS) and track-and-trigger alerts | Rising | Digital triage requires registered nurses to audit alerts and override automated recommendations when clinical signs dictate. — C2, C3, W2 |
+| Paper-based charting and handwritten medication records | Declining | Clinical documentation is almost entirely digitized across Victorian tertiary hospitals. — C3, W2 |
+| Task-oriented nursing without holistic care planning | Declining | Healthcare networks demand evidence-based clinical reasoning and interprofessional communication. — C5, W1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for ANMAC and NMBA statutory standards, health system workforce shortages, and hospital EMR adoption; and High for exact-name alumni destination tracking.
 

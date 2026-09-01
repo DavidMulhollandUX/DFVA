@@ -165,14 +165,14 @@ The market intelligence gathered for this program indicates near-universal gradu
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Centralised statutory intern matching and AHPRA registration | Sustained High | Medical graduates enter guaranteed hospital internship posts upon graduation. | W3, G1 |
-| Critical nationwide shortage of GPs and Rural Generalists | Sustained High | Strong federal incentives and high workforce demand across regional healthcare networks. | W3, G1 |
-| Hospital adoption of ambient clinical AI documentation | Rising / Volatile | Ward documentation shifts from manual typing to AI scribe verification and sign-off. | C2, C3, W1 |
-| Non-delegable statutory clinical liability under AHPRA | Sustained High | Diagnostic decisions, physical examinations, and interventions legally require registered medical practitioners. | C2, G1, G2 |
-| Manual typing of routine discharge summaries | Declining | Ambient clinical AI tools automate routine clinical note generation. | C3, W1 |
-| Rote memorisation of drug interaction tables | Declining | Replaced by real-time clinical point-of-care databases and electronic prescribing. | C3, G1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Centralised statutory intern matching and AHPRA registration | Sustained High | Medical graduates enter guaranteed hospital internship posts upon graduation. — W3, G1 |
+| Critical nationwide shortage of GPs and Rural Generalists | Sustained High | Strong federal incentives and high workforce demand across regional healthcare networks. — W3, G1 |
+| Hospital adoption of ambient clinical AI documentation | Rising / Volatile | Ward documentation shifts from manual typing to AI scribe verification and sign-off. — C2, C3, W1 |
+| Non-delegable statutory clinical liability under AHPRA | Sustained High | Diagnostic decisions, physical examinations, and interventions legally require registered medical practitioners. — C2, G1, G2 |
+| Manual typing of routine discharge summaries | Declining | Ambient clinical AI tools automate routine clinical note generation. — C3, W1 |
+| Rote memorisation of drug interaction tables | Declining | Replaced by real-time clinical point-of-care databases and electronic prescribing. — C3, G1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for AMC, MBA, RACP, and RACGP statutory frameworks, state health department intern allocation data, and hospital digital health pilots; and High for exact-name alumni destination tracking.
 

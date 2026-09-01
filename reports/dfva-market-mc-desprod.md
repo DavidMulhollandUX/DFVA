@@ -27,8 +27,8 @@
 
 ## 2. RECENT JOB AD SIGNALS
 
-This is **real live Adzuna-AU data** (`jobAds.source: "adzuna-au"`, 137 postings, snapshot
-2026-08-31) — not an estimate. It is not, however, a scan of design or production job titles:
+This is **real live Adzuna Australian job-ad data** — 137 postings, snapshot
+2026-08-31 — not a modelled estimate. It is not, however, a scan of design or production job titles:
 the query that produced it was **"actor,"** inherited from the shared profession record. Every
 signal below is scoped accordingly; none should be read as a direct measurement of demand for
 production, costume or graphic design roles.
@@ -49,8 +49,9 @@ production, costume or graphic design roles.
    titles** — "production designer," "costume designer," "stage manager," "set designer," or
    "graphic designer (theatre/screen)." This is a direct, named gap, carried forward to §6.
 4. **The volume figure (137) is real and can be used as a baseline for a future, correctly
-   scoped scan** — the infrastructure for real Adzuna-AU retrieval clearly works (`jobAds.source:
-   "adzuna-au"`); the corrective action is re-running the query, not re-verifying the pipeline.
+   scoped scan** — the Adzuna retrieval pipeline is functioning correctly; the corrective
+   action is re-running the query against a design or production job title, not re-verifying
+   the data infrastructure.
 
 ## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 

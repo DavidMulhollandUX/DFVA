@@ -167,14 +167,14 @@ The market intelligence gathered for this program indicates massive structural s
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| OECD Pillar Two and global minimum tax implementation | Fast | Big Four and corporate tax teams hire specialists in GloBE rules. | C4, G1 |
-| AI tax compliance copilots and automated return preparation | Very Fast | Corporate divisions mandate proficiency in automated transfer pricing tools. | C3, G1 |
-| ATO compliance enforcement on private groups and Part IVA | Fast | Hiring surges for tax controversy specialists skilled in ATO audit defense. | W2, G2 |
-| Highest AI exposure in routine calculations and standard memos | Extremely Fast | Routine returns face full automation, elevating structural tax advisory. | C3, W2 |
-| Mechanical tax calculations and manual return preparation | Declining | Replaced by automated tax calculation platforms and AI data ingestion. | C3, W2 |
-| Purely domestic tax advice without Pillar Two / GloBE fluency | Declining | Replaced by multi-jurisdictional international tax structuring. | C1, C4 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| OECD Pillar Two and global minimum tax implementation | Fast | Big Four and corporate tax teams hire specialists in GloBE rules. — C4, G1 |
+| AI tax compliance copilots and automated return preparation | Very Fast | Corporate divisions mandate proficiency in automated transfer pricing tools. — C3, G1 |
+| ATO compliance enforcement on private groups and Part IVA | Fast | Hiring surges for tax controversy specialists skilled in ATO audit defense. — W2, G2 |
+| Highest AI exposure in routine calculations and standard memos | Extremely Fast | Routine returns face full automation, elevating structural tax advisory. — C3, W2 |
+| Mechanical tax calculations and manual return preparation | Declining | Replaced by automated tax calculation platforms and AI data ingestion. — C3, W2 |
+| Purely domestic tax advice without Pillar Two / GloBE fluency | Declining | Replaced by multi-jurisdictional international tax structuring. — C1, C4 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for ATO, TPB, and Tax Institute statutory standards, and corporate tax hiring demand; and High for exact-name alumni destination tracking.
 

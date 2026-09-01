@@ -207,14 +207,14 @@ The market intelligence gathered for this program indicates massive recruitment 
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Massive recruitment across Big 4, investment banks, and consulting firms | Fast | Major financial institutions recruit Commerce graduates at scale. | C4, W3 |
-| Pervasive deployment of AI financial modeling and automated audit tools | Fast | Employers mandate capabilities in validating AI financial forecasts. | C3, G1 |
-| Severe substitution pressure on spreadsheet prep and routine valuation | Accelerating | Routine valuation is automated; strategic advisory is paramount. | W1, G2 |
-| Growing demand for sustainable finance and carbon accounting (ASRS) | Fast | Corporations seek expertise in sustainability disclosures and climate risk. | C4, W2 |
-| Manual spreadsheet data entry and routine double-entry bookkeeping | Declining | Replaced by automated cloud accounting platforms and AI ledger systems. | C3, W2 |
-| Descriptive business case summaries without strategic trade-off modeling | Declining | Replaced by quantitative decision optimization under market volatility. | C1, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Massive recruitment across Big 4, investment banks, and consulting firms | Fast | Major financial institutions recruit Commerce graduates at scale. — C4, W3 |
+| Pervasive deployment of AI financial modeling and automated audit tools | Fast | Employers mandate capabilities in validating AI financial forecasts. — C3, G1 |
+| Severe substitution pressure on spreadsheet prep and routine valuation | Accelerating | Routine valuation is automated; strategic advisory is paramount. — W1, G2 |
+| Growing demand for sustainable finance and carbon accounting (ASRS) | Fast | Corporations seek expertise in sustainability disclosures and climate risk. — C4, W2 |
+| Manual spreadsheet data entry and routine double-entry bookkeeping | Declining | Replaced by automated cloud accounting platforms and AI ledger systems. — C3, W2 |
+| Descriptive business case summaries without strategic trade-off modeling | Declining | Replaced by quantitative decision optimization under market volatility. — C1, W1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for CPA, CAANZ, and AIA statutory accreditation standards, and corporate hiring demand; and High for exact-name alumni destination tracking.
 

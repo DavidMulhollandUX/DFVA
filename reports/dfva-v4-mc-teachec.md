@@ -184,7 +184,7 @@ article each reflect a small number of self-selected voices, not a workforce sur
 and the Australian ECT workforce-shortage status MEDIUM (one dated trade-press article
 citing Jobs and Skills Australia data, without a quantified vacancy count). The report
 names recent job-ad signals as its single most significant gap: no live job-ad corpus
-exists for this profession record (`jobAds.source: "none"`, count 0), so no hiring
+exists for this profession record (no Adzuna data available), so no hiring
 volume, employer name or advertised-salary figure can be cited for this program.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred

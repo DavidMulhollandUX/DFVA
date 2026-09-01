@@ -162,14 +162,14 @@ The market intelligence gathered for this program indicates consistent, infrastr
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Infrastructure Big Build pipeline in Victoria and NSW | Sustained High | Government transport and rail projects drive steady demand for structural engineering specialists. | W2, G1, G2 |
-| BIM authoring (Revit/Tekla) and computational scripting mandatory | Rising / Volatile | Consultancies mandate 3D digital model authoring and parametric optimization over 2D drafting. | C3, W2 |
-| Embodied carbon and sustainable timber structures (CLT) | Rising | Client ESG mandates require structural engineers to conduct whole-of-life carbon lifecycle assessments. | C4, C5, G1 |
-| Structural integrity verification and statutory engineering liability | Sustained High | Automated FEA software necessitates engineers who can audit calculations with hand-check reality checks. | C2, C3, W2 |
-| Manual 2D CAD drafting without BIM integration | Declining | Standalone 2D drafting is replaced by federated 3D models. | C3, W2 |
-| Hand calculations for routine member sizing | Declining | Automated software handles standard member sizing, shifting engineer focus to complex edge cases. | C3, C2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Infrastructure Big Build pipeline in Victoria and NSW | Sustained High | Government transport and rail projects drive steady demand for structural engineering specialists. — W2, G1, G2 |
+| BIM authoring (Revit/Tekla) and computational scripting mandatory | Rising / Volatile | Consultancies mandate 3D digital model authoring and parametric optimization over 2D drafting. — C3, W2 |
+| Embodied carbon and sustainable timber structures (CLT) | Rising | Client ESG mandates require structural engineers to conduct whole-of-life carbon lifecycle assessments. — C4, C5, G1 |
+| Structural integrity verification and statutory engineering liability | Sustained High | Automated FEA software necessitates engineers who can audit calculations with hand-check reality checks. — C2, C3, W2 |
+| Manual 2D CAD drafting without BIM integration | Declining | Standalone 2D drafting is replaced by federated 3D models. — C3, W2 |
+| Hand calculations for routine member sizing | Declining | Automated software handles standard member sizing, shifting engineer focus to complex edge cases. — C3, C2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for Engineers Australia competency frameworks, infrastructure consulting hiring data, and digital BIM adoption; and High for exact-name alumni destination tracking.
 

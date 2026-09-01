@@ -147,14 +147,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Production MLOps and containerized deployment skills dominant | Rising / Volatile | Employers mandate Docker, Kubernetes, and continuous model monitoring over exploratory notebooks. | C3, W2 |
-| Causal inference and experimental design as key differentiators | Sustained High | Tech and financial firms screen candidates on A/B testing, potential outcomes, and causal DAGs. | C4, C5, G1 |
-| AI code synthesis automating routine data manipulation | Rising / Volatile | Automated Python code generators handle basic pandas tasks, raising the premium on code audit skills. | C2, C3 |
-| Statutory AI governance and model auditing | Rising | Enterprise risk teams recruit data scientists to audit algorithmic bias and comply with AI standards. | C3, G1 |
-| Manual pandas data cleaning and basic exploratory scripting | Declining | Basic data wrangling tasks are heavily automated by enterprise AI coding tools. | C2, C3 |
-| Static dashboard generation without predictive modeling | Declining | Standalone descriptive reporting is replaced by integrated predictive pipelines. | W1, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Production MLOps and containerized deployment skills dominant | Rising / Volatile | Employers mandate Docker, Kubernetes, and continuous model monitoring over exploratory notebooks. — C3, W2 |
+| Causal inference and experimental design as key differentiators | Sustained High | Tech and financial firms screen candidates on A/B testing, potential outcomes, and causal DAGs. — C4, C5, G1 |
+| AI code synthesis automating routine data manipulation | Rising / Volatile | Automated Python code generators handle basic pandas tasks, raising the premium on code audit skills. — C2, C3 |
+| Statutory AI governance and model auditing | Rising | Enterprise risk teams recruit data scientists to audit algorithmic bias and comply with AI standards. — C3, G1 |
+| Manual pandas data cleaning and basic exploratory scripting | Declining | Basic data wrangling tasks are heavily automated by enterprise AI coding tools. — C2, C3 |
+| Static dashboard generation without predictive modeling | Declining | Standalone descriptive reporting is replaced by integrated predictive pipelines. — W1, W2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for ACS, DSAA, and SSA professional benchmarks, technology sector hiring data, and MLOps tooling adoption; and High for exact-name alumni destination tracking.
 

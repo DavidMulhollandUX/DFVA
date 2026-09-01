@@ -164,7 +164,7 @@ covering an analyst-firm survey, a recruiting-research firm's own data synthesis
 two professional-body/trade-press pieces quoting named practitioners — not a sampled
 survey of practitioner sentiment, and no direct extraction from X, LinkedIn or any
 professional forum was performed. Declared gaps: no live job-ad data exists for this
-profession record (\`jobAds.source = "none"\`); the JSA exposure figures were confirmed
+profession record (no Adzuna data available); the JSA exposure figures were confirmed
 only through a third-party aggregator, not the primary government page; the
 named-practitioner evidence is four individuals across two pieces, of whom only one is
 confirmed to speak from an Australian organisation; and Factiva was unavailable while

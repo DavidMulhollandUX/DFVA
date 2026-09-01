@@ -203,14 +203,14 @@ The market intelligence gathered for this program indicates high, sustained empl
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Structured public hospital graduate rotational intakes | Sustained High | Health services maintain annual intakes for registered graduate physiotherapists. | W3, G1 |
-| Mandated aged care minutes and NDIS funding growth | Sustained High | Structural policy tailwinds drive severe physiotherapist shortages in residential and disability care. | W3, G1 |
-| Rapid adoption of ambient AI clinical scribes (Heidi Health) | Rising | Allied health clinics adopt ambient documentation, freeing time for manual therapy and exercise prescription. | C2, C3, W1 |
-| Irreducible physical touch and AHPRA registration | Sustained High | Manual joint mobilization, palpation, and dry needling carry non-delegable statutory registration. | C2, G1, G2 |
-| Manual clinical note transcription | Declining | Ambient clinical AI tools streamline routine clinical note generation. | C3, W1 |
-| Generic static exercise sheet handouts | Declining | Replaced by individualized video exercises and sensor-tracked home programs. | C3, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Structured public hospital graduate rotational intakes | Sustained High | Health services maintain annual intakes for registered graduate physiotherapists. — W3, G1 |
+| Mandated aged care minutes and NDIS funding growth | Sustained High | Structural policy tailwinds drive severe physiotherapist shortages in residential and disability care. — W3, G1 |
+| Rapid adoption of ambient AI clinical scribes (Heidi Health) | Rising | Allied health clinics adopt ambient documentation, freeing time for manual therapy and exercise prescription. — C2, C3, W1 |
+| Irreducible physical touch and AHPRA registration | Sustained High | Manual joint mobilization, palpation, and dry needling carry non-delegable statutory registration. — C2, G1, G2 |
+| Manual clinical note transcription | Declining | Ambient clinical AI tools streamline routine clinical note generation. — C3, W1 |
+| Generic static exercise sheet handouts | Declining | Replaced by individualized video exercises and sensor-tracked home programs. — C3, W2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for APC and PBA statutory frameworks, public hospital intake data, and ambient scribe adoption trends; and High for exact-name alumni destination tracking.
 

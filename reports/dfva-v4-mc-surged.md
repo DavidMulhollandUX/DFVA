@@ -173,14 +173,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Hospital networks mandate formal surgical education credentials | Sustained High | Health networks require Master of Surgical Education for Director of Training roles. | W2, G1 |
-| Simulation centre expansion requires procedural pedagogy expertise | Fast | Skills centres hire educators to design deliberate practice and debriefing models. | W2, W3 |
-| RACS Competency Framework and EPA transition | Fast | College rolls out Entrustable Professional Activities across surgical specialties. | C2, W2 |
-| Physical surgical training and clinical supervisory moat | Stable | High-stakes operating theatre supervision creates absolute barrier to automation. | W2, W3, G2 |
-| Unstructured, uncalibrated apprentice-style supervision | Declining | Replaced by structured workplace assessment (EPAs, DOPS, Mini-CEX). | C2, W2 |
-| Logbook procedure counts without competency metrics | Declining | Replaced by competency-based progression and deliberate simulation practice. | C2, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Hospital networks mandate formal surgical education credentials | Sustained High | Health networks require Master of Surgical Education for Director of Training roles. — W2, G1 |
+| Simulation centre expansion requires procedural pedagogy expertise | Fast | Skills centres hire educators to design deliberate practice and debriefing models. — W2, W3 |
+| RACS Competency Framework and EPA transition | Fast | College rolls out Entrustable Professional Activities across surgical specialties. — C2, W2 |
+| Physical surgical training and clinical supervisory moat | Stable | High-stakes operating theatre supervision creates absolute barrier to automation. — W2, W3, G2 |
+| Unstructured, uncalibrated apprentice-style supervision | Declining | Replaced by structured workplace assessment (EPAs, DOPS, Mini-CEX). — C2, W2 |
+| Logbook procedure counts without competency metrics | Declining | Replaced by competency-based progression and deliberate simulation practice. — C2, W2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for RACS and AMC statutory frameworks, and health network hiring demand; and High for exact-name alumni destination tracking.
 

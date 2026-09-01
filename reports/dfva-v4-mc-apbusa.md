@@ -173,14 +173,14 @@ The market intelligence gathered for this program indicates strong commercial de
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Enterprise adoption of automated analytics and AI coding assistants | Rising / Volatile | Routine Python/SQL script generation is automated, raising the demand for analysts who can audit and validate algorithmic outputs. | C2, C3, W2 |
-| Financial services demand for AI governance and model risk auditors | Sustained High | Banks recruit analytics graduates to audit algorithmic bias and comply with APRA model risk standards. | C3, G1 |
-| Supply chain optimization and integer programming demand | Rising | Enterprise retailers seek analysts skilled in mixed-integer programming and simulation under supply chain volatility. | C4, C5, G2 |
-| Premium on executive communication and non-technical influence | Sustained High | Analytics managers must translate complex predictive models into clear strategic recommendations for boardrooms. | C1, W1, W3 |
-| Manual data cleaning and routine exploratory scripting | Declining | Basic ETL and data hygiene tasks are automated by enterprise AI platforms. | C3, C2 |
-| Descriptive dashboards without causal inference | Declining | Simple reporting without econometric or causal modeling is commoditised. | C5, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Enterprise adoption of automated analytics and AI coding assistants | Rising / Volatile | Routine Python/SQL script generation is automated, raising the demand for analysts who can audit and validate algorithmic outputs. — C2, C3, W2 |
+| Financial services demand for AI governance and model risk auditors | Sustained High | Banks recruit analytics graduates to audit algorithmic bias and comply with APRA model risk standards. — C3, G1 |
+| Supply chain optimization and integer programming demand | Rising | Enterprise retailers seek analysts skilled in mixed-integer programming and simulation under supply chain volatility. — C4, C5, G2 |
+| Premium on executive communication and non-technical influence | Sustained High | Analytics managers must translate complex predictive models into clear strategic recommendations for boardrooms. — C1, W1, W3 |
+| Manual data cleaning and routine exploratory scripting | Declining | Basic ETL and data hygiene tasks are automated by enterprise AI platforms. — C3, C2 |
+| Descriptive dashboards without causal inference | Declining | Simple reporting without econometric or causal modeling is commoditised. — C5, W2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for IAPA and ACS analytics industry benchmarks, banking sector hiring data, and AI coding tool adoption; and High for exact-name alumni destination tracking.
 

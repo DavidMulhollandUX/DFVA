@@ -153,7 +153,7 @@ confidence** (§3): sources are named HGSA policy instruments, a dated medRxiv
 practitioner survey, a US think-tank exposure measure, a professional-society newsletter
 and attributed trade-press/Substack commentary — no direct sampling of X, LinkedIn or any
 professional forum was performed. Declared gaps (§6): no Australian job-ad data exists
-for this occupation (`jobAds.source = "none"`, `jobAds.count = 0`); the AI-adoption
+for this occupation (no Adzuna data available); the AI-adoption
 practitioner survey is North American only, self-reported attitude data at a
 15.0–18.4% response rate, with no Australian equivalent identified; the AIOE exposure
 ranking is a US O*NET-derived task-similarity measure, not a displacement measurement,

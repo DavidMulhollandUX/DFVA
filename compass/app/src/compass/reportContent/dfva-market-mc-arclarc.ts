@@ -21,7 +21,7 @@ const content = {
 
 ## 2. RECENT JOB AD SIGNALS
 
-This section draws on real Adzuna AU job-ad data captured in the profession record (\`jobAds.source: "adzuna-au"\`, query "architect", snapshot 2026-08-31) — not an estimate.
+This section draws on Adzuna Australian job-ad data captured 31 August 2026 against the query "architect" — a directly observed count, not a modelled estimate.
 
 1. **Live demand is substantial and current.** The Adzuna AU snapshot returned **4,595** live job ads matching "architect" as of 2026-08-31. This is a real, directly measured count for the assessment window, not a modelled projection. **HIGH confidence.**
 2. **Direct-practice and recruitment-intermediary hiring are mixed in the top-employer list.** Of the eight named top employers, one — Hassell Services — is a named architecture practice; the remainder (The HR Ally, Talenza, Infosys Singapore & Australia, Vivid Recruitment, Aspect Personnel, Unison Group, Australian Payments Plus) are recruitment agencies, an IT services firm, and a payments company, indicating the ad count is substantially intermediated through staffing agencies and includes cross-industry postings that happen to use the title "architect" (a title also used outside building design, for example in software and enterprise architecture). This limits how far the raw count can be read as demand for building-design graduates specifically. **MEDIUM confidence.**

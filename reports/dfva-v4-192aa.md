@@ -133,14 +133,14 @@ The market intelligence gathered for this program indicates strong, high-compens
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| OECD BEPS 2.0 (Pillar One / Pillar Two) global minimum tax implementation | Sustained High | Multinationals and Big 4 advisors require tax specialists to audit multinational data feeds, calculate Qualified Domestic Minimum Top-Up Taxes (QDMTT), and resolve complex GloBE rules. | C3, W1, G1 |
-| Generative AI in tax advice drafting and treaty lookup | Rising / Volatile | Widespread use of tax LLMs accelerates preliminary research, but risks severe malpractice and promoter penalties if unverified against bilateral protocols and anti-avoidance rules (Part IVA). | C2, C3, W2 |
-| ATO multinational audit scrutiny and transfer pricing controversy | Rising | Australian Taxation Office Tax Avoidance Taskforce heavily scrutinises cross-border IP transfers and financing, demanding defensible transfer pricing economics. | C5, G2 |
-| Cross-border transfer pricing and intangible asset valuation | Rising | Intangible migration demands tax counsel who integrate economic modeling with international treaty jurisprudence. | C4, C5, W1 |
-| Routine double-tax agreement (DTA) desk lookup without commercial context | Declining | Standalone treaty cross-referencing is fully automated by enterprise tax intelligence databases. | C3, C2 |
-| Basic compliance calculations easily automated by ERP tax software | Declining | Enterprise corporate tax engines automate mechanical calculations, shifting value to strategic structuring and dispute defense. | W2, G2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| OECD BEPS 2.0 (Pillar One / Pillar Two) global minimum tax implementation | Sustained High | Multinationals and Big 4 advisors require tax specialists to audit multinational data feeds, calculate Qualified Domestic Minimum Top-Up Taxes (QDMTT), and resolve complex GloBE rules. — C3, W1, G1 |
+| Generative AI in tax advice drafting and treaty lookup | Rising / Volatile | Widespread use of tax LLMs accelerates preliminary research, but risks severe malpractice and promoter penalties if unverified against bilateral protocols and anti-avoidance rules (Part IVA). — C2, C3, W2 |
+| ATO multinational audit scrutiny and transfer pricing controversy | Rising | Australian Taxation Office Tax Avoidance Taskforce heavily scrutinises cross-border IP transfers and financing, demanding defensible transfer pricing economics. — C5, G2 |
+| Cross-border transfer pricing and intangible asset valuation | Rising | Intangible migration demands tax counsel who integrate economic modeling with international treaty jurisprudence. — C4, C5, W1 |
+| Routine double-tax agreement (DTA) desk lookup without commercial context | Declining | Standalone treaty cross-referencing is fully automated by enterprise tax intelligence databases. — C3, C2 |
+| Basic compliance calculations easily automated by ERP tax software | Declining | Enterprise corporate tax engines automate mechanical calculations, shifting value to strategic structuring and dispute defense. — W2, G2 |
 
 **Evidence confidence.** The market intelligence carries **Medium–High** confidence overall: High for OECD/ATO regulatory mandates and Big 4 recruitment; High for generative AI tax drafting risks; and Low for program-specific granular tax specialist salary tracking.
 

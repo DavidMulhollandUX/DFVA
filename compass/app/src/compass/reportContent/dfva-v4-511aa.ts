@@ -166,14 +166,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| DFAT and AGD recruitment for treaty and sanctions specialists | Fast | Commonwealth agencies hire lawyers for supply chain treaties and sanctions. | C4, G1 |
-| AI governance in public administration and automated decisions | Fast | Public lawyers evaluate algorithmic transparency and Robodebt reform compliance. | C3, G1 |
-| International arbitration and bilateral dispute settlement | Stable | International bodies seek practitioners skilled in treaty interpretation. | W2, G2 |
-| High AI exposure in routine statutory search and foreign summaries | Very Fast | Routine synthesis faces automation, elevating oral diplomatic advocacy. | C3, W2 |
-| Standardized foreign summaries without digital governance context | Declining | Replaced by algorithmic administrative audits and judicial review. | C3, W2 |
-| Siloed domestic public law without international biosecurity fluency | Declining | Replaced by multilateral treaty diplomacy and international humanitarian law. | C1, C4 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| DFAT and AGD recruitment for treaty and sanctions specialists | Fast | Commonwealth agencies hire lawyers for supply chain treaties and sanctions. — C4, G1 |
+| AI governance in public administration and automated decisions | Fast | Public lawyers evaluate algorithmic transparency and Robodebt reform compliance. — C3, G1 |
+| International arbitration and bilateral dispute settlement | Stable | International bodies seek practitioners skilled in treaty interpretation. — W2, G2 |
+| High AI exposure in routine statutory search and foreign summaries | Very Fast | Routine synthesis faces automation, elevating oral diplomatic advocacy. — C3, W2 |
+| Standardized foreign summaries without digital governance context | Declining | Replaced by algorithmic administrative audits and judicial review. — C3, W2 |
+| Siloed domestic public law without international biosecurity fluency | Declining | Replaced by multilateral treaty diplomacy and international humanitarian law. — C1, C4 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for Law Council of Australia, ACFID, and AIIA statutory standards, and public legal hiring demand; and High for exact-name alumni destination tracking.
 

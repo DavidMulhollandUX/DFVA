@@ -170,14 +170,14 @@ The market intelligence gathered for this program indicates elite, highly specia
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Tier 1 law firm and corporate in-house recruitment of LLM graduates | Sustained High | Commercial firms recruit LLM holders for specialized senior associate and special counsel vacancies in competition, IP, tax, and corporate law. | W1, W2, G2 |
-| Generative AI acceleration in contract analysis and discovery (Harvey, CoCounsel) | Rising / Volatile | AI platforms accelerate legal document diligence, increasing demand for lawyers who can audit algorithmic citations and risk allocations. | C2, C3, W2 |
-| Corporate demand for technology, data privacy, and AI governance specialists | Sustained High | Financial institutions and corporates recruit specialists to build institutional AI compliance frameworks under emerging regulatory regimes. | C3, G1 |
-| Strategic oral advocacy, courtroom cross-examination, and commercial negotiation | Sustained High | Real-time negotiation and oral persuasion remain completely insulated from algorithmic automation. | C1, W1, W3 |
-| Manual clause-by-clause contract diligence without automated tooling | Declining | First-pass contract review is commoditised by legal AI tools. | C3, C2 |
-| Boilerplate research memos and descriptive case summaries | Declining | Uncritical legal research without strategic commercial framing is superseded by legal LLMs. | C5, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Tier 1 law firm and corporate in-house recruitment of LLM graduates | Sustained High | Commercial firms recruit LLM holders for specialized senior associate and special counsel vacancies in competition, IP, tax, and corporate law. — W1, W2, G2 |
+| Generative AI acceleration in contract analysis and discovery (Harvey, CoCounsel) | Rising / Volatile | AI platforms accelerate legal document diligence, increasing demand for lawyers who can audit algorithmic citations and risk allocations. — C2, C3, W2 |
+| Corporate demand for technology, data privacy, and AI governance specialists | Sustained High | Financial institutions and corporates recruit specialists to build institutional AI compliance frameworks under emerging regulatory regimes. — C3, G1 |
+| Strategic oral advocacy, courtroom cross-examination, and commercial negotiation | Sustained High | Real-time negotiation and oral persuasion remain completely insulated from algorithmic automation. — C1, W1, W3 |
+| Manual clause-by-clause contract diligence without automated tooling | Declining | First-pass contract review is commoditised by legal AI tools. — C3, C2 |
+| Boilerplate research memos and descriptive case summaries | Declining | Uncritical legal research without strategic commercial framing is superseded by legal LLMs. — C5, W2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for Law Council of Australia and VLSB+C regulatory practice standards, commercial firm hiring data, and legal AI platform adoption; and High for exact-name alumni destination tracking.
 

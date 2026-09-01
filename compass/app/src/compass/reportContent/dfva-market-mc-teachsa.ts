@@ -19,9 +19,11 @@ const content = {
 
 ## 2. RECENT JOB AD SIGNALS
 
-**Correction (2026-09-01):** an earlier draft of this section reported each profession key's \`jobAds.count: 1200\` as a real, occupation-specific Adzuna capture. It is not. Across the wider \`data/professions/\` corpus, exactly 1,200 with the identical employer set ("Victorian State Government", "Specialist National Employers", "Leading Australian Consultancies") and identical skill set recurs verbatim across **164 otherwise-unrelated occupation records** — every genuine Adzuna count in the corpus is unique or near-unique, so a value repeated 164 times cannot be a real per-occupation measurement. The whole \`jobAds\` block on 25-2031, 25-9041 and 25-3099 is a templated placeholder, not live data, despite carrying \`source: "adzuna-au"\`.
+**Correction (2026-09-01):** an earlier draft of this section reported the job-ad count for each destination occupation as a real, occupation-specific Adzuna figure. It is not — the count is a templated placeholder that recurs across the wider profession dataset, not a query-specific extraction.
 
-1. **No genuine Adzuna job-ad volume, employer, or skill data exists for any of this program's three destination occupations in the reviewed material.** The \`jobAds\` block on 25-2031, 25-9041 and 25-3099 is a templated placeholder shared with 161 other unrelated occupations. **LOW confidence — treat as absent, not as a demand measurement.**
+> **Data provenance.** The count of 1,200 with an identical employer set ("Victorian State Government", "Specialist National Employers", "Leading Australian Consultancies") and identical skill list recurs verbatim across 164 unrelated occupation records in the profession dataset; every genuine Adzuna count is unique or near-unique, so a value repeated 164 times cannot be a real per-occupation measurement.
+
+1. **No genuine Adzuna job-ad volume, employer, or skill data exists for any of this program's three destination occupations in the reviewed material.** The job-ad count on all three destination occupations is a templated placeholder shared across the wider profession dataset, not a query-specific extraction. **LOW confidence — treat as absent, not as a demand measurement.**
 2. **The L4 spot-sample of individual postings corroborates real demand with named employers.** Ten dated LinkedIn postings per profession key (retrieved 2026-08-29) name specific hirers — Victorian and Western Australian Departments of Education, Catholic Education dioceses in Rockhampton, Tasmania and Canberra-Goulburn, and independent schools including Townsville Grammar and Trinity Anglican — actively recruiting secondary teachers, education assistants and instructor/trainer roles within the prior one to twelve weeks. **MEDIUM confidence** for "these specific roles exist and were advertised"; **LOW confidence** for anything about overall demand volume, since there is no real aggregate count to corroborate against.
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
@@ -77,7 +79,7 @@ The Chegg cuts are the company's own corporate workforce (product, engineering, 
 
 | Signal Area | Confidence | Gap / Caveat |
 |---|---|---|
-| §2 job-ad volume (Adzuna) | GAP — not data | The \`jobAds\` block on all three profession keys is a templated placeholder (count 1,200 recurs identically across 164 unrelated occupations in the corpus) despite carrying \`source: "adzuna-au"\`; treat as absent, not as a measurement |
+| §2 job-ad volume (Adzuna) | GAP — not data | The job-ad count on all three destination occupations is a templated placeholder (count 1,200 recurs identically across 164 unrelated occupations in the profession dataset); treat as absent, not as a measurement |
 | §3 Theme 1 (assessment-redesign policy) | HIGH | Dated, named AU government/ABC News/Responsible AI Australia sources; scoped specifically to NSW and Victoria, not verified as a national rule for every state/territory |
 | §3 Theme 2 (AI task-exposure indices) | MEDIUM | Task-similarity model estimates (JSA, Felten-AIOE, DFVA crosswalk), not observed employment or displacement outcomes; the AIOE figure's original framing was flagged and corrected in the source record for overstating a comparison |
 | §3 Theme 3 (Chegg / tutoring exposure) | MEDIUM | Chegg's cuts are corporate workforce, not a tutor-occupation census; the JSA Education Aides score is an ANZSCO 4-digit group, not the narrower occupation |
@@ -86,7 +88,7 @@ The Chegg cuts are the company's own corporate workforce (product, engineering, 
 
 ### Critical evidence gaps to close before institutional use:
 
-1. The Adzuna \`topEmployers\`/\`topSkills\` fields are generic placeholders rather than verified, teaching-sector-specific data — a targeted named-employer and skill-text analysis of AU secondary-teaching job ads has not yet been done.
+1. The Adzuna employer and skill data for these occupations are generic placeholders rather than verified, teaching-sector-specific data — a targeted named-employer and skill-text analysis of AU secondary-teaching job ads has not yet been done.
 2. The supplied \`mc-teachsa\` evidence extract does not name the program's actual Learning Area subject specialisations, so §1's family-to-specialisation mapping should be revisited once that detail is available.
 3. The only Teacher Assistant (SOC 25-9041) regulatory claims in the supplied record are US-specific (New York, Colorado); no Australian teacher-aide regulatory claim beyond the JSA exposure score was found.
 4. The Chegg evidence (Theme 3) is a US-market, corporate-level data point; no Australian tutoring-market employment data was found in the supplied records to corroborate or refute it locally.

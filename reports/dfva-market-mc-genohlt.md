@@ -13,7 +13,7 @@
 ## 2. RECENT JOB AD SIGNALS
 
 > **Confidence: LOW.** No live job-ad data exists for this profession in the supplied
-> profession record — `jobAds.source` is `"none"`, `jobAds.count` is `0`, and both
+> profession record — no Adzuna data was collected, and both
 > `topEmployers` and `topSkills` are empty arrays. This is a genuine gap, not an estimate
 > understated as one: **no Adzuna or other job-board data was collected for Genetic
 > Counsellor/Genomics Scientist**, and nothing below should be read as vacancy-count or
@@ -21,7 +21,7 @@
 > practitioner-survey data, which measures attitudes and self-reported behaviour, not
 > hiring demand.
 
-1. **No real job-ad data exists for this occupation.** `jobAds.count = 0` and no employers
+1. **No real job-ad data exists for this occupation.** no Adzuna data was collected and no employers
    or skills are recorded in the profession record. Institutional use of this report must
    not infer advertised-vacancy volume, named employers, or salary bands for genetic
    counselling or genomics-scientist roles from this section. Confidence: **LOW**.
@@ -175,7 +175,7 @@ skills to problem contexts where AI now performs similarly.
 | Signal Area | Confidence | Gap / Caveat |
 |---|---|---|
 | Job family mapping (§1) | MEDIUM | Grounded in the program's own core-subject evidence (GENE/HLTH/WELF codes) and the profession record's title/aliases; AI-substitution ratings are reasoned from the sourced claims below, not independently measured per family |
-| Recent job-ad signals (§2) | LOW | `jobAds.source = "none"`, `jobAds.count = 0` — no real Adzuna or other job-board data exists for this profession key; nothing here should be read as vacancy or employer evidence |
+| Recent job-ad signals (§2) | LOW | No Adzuna data was collected — no real Adzuna or other job-board data exists for this profession key; nothing here should be read as vacancy or employer evidence |
 | Practitioner AI-adoption survey (§2, §3 Theme 2) | LOW-MEDIUM | North American respondents only (15.0–18.4% response rate), self-reported attitudes rather than measured behaviour, no Australian equivalent survey identified |
 | HGSA scope-of-practice widening (§3 Theme 1) | MEDIUM | The six-category expansion is sourced to a 2025 consultation draft; the current 2026 published policy confirms the expanded categories but the session could not independently verify a fully finalised final reissue text beyond what HGSA publishes |
 | AIOE exposure ranking (§3 Theme 4) | MEDIUM | US O*NET-derived measure; corrected here from an overstated "highest of any occupation" claim to the supported "top exposure quintile"; task-similarity exposure, not a displacement measurement |

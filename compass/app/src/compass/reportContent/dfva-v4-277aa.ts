@@ -161,14 +161,14 @@ The market intelligence gathered for this program indicates strong, recession-re
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| TTIPAB accreditation for trans-Tasman patent and trademark registration | Sustained High | Mandatory statutory qualification for practice as a registered patent attorney and trade marks attorney in Australia and New Zealand. | G1, W1, W2 |
-| Non-human inventorship (*Thaler*) and AI-generated invention governance | Rising | Judicial rulings affirm inventors must be human; patent attorneys must audit human contribution vs machine output and manage AI training copyright risk. | C3, W1, G2 |
-| Generative AI in patent claim drafting and prior art search | Rising / Volatile | AI drafting assistants accelerate background claims, but risk public disclosure under s 24 and fail statutory sufficiency/support under s 40 if unverified. | C2, C3, W2 |
-| In-house IP counsel demand in deep-tech and biotech commercialisation | Rising | Technology scale-ups and medical research institutes hire specialist attorneys for freedom-to-operate (FTO) reviews and complex licensing frameworks. | C4, C5, W1 |
-| Routine manual prior-art keyword searches without AI tooling | Declining | Standalone keyword searches are automated by enterprise legal tech platforms (PatSnap, Clarivate). | C3, C2 |
-| Template-driven patent specifications without strategic claim boundary defense | Declining | AI claim generators automate basic template filing, shifting value to defended patent office hearings and litigation. | W2, G2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| TTIPAB accreditation for trans-Tasman patent and trademark registration | Sustained High | Mandatory statutory qualification for practice as a registered patent attorney and trade marks attorney in Australia and New Zealand. — G1, W1, W2 |
+| Non-human inventorship (*Thaler*) and AI-generated invention governance | Rising | Judicial rulings affirm inventors must be human; patent attorneys must audit human contribution vs machine output and manage AI training copyright risk. — C3, W1, G2 |
+| Generative AI in patent claim drafting and prior art search | Rising / Volatile | AI drafting assistants accelerate background claims, but risk public disclosure under s 24 and fail statutory sufficiency/support under s 40 if unverified. — C2, C3, W2 |
+| In-house IP counsel demand in deep-tech and biotech commercialisation | Rising | Technology scale-ups and medical research institutes hire specialist attorneys for freedom-to-operate (FTO) reviews and complex licensing frameworks. — C4, C5, W1 |
+| Routine manual prior-art keyword searches without AI tooling | Declining | Standalone keyword searches are automated by enterprise legal tech platforms (PatSnap, Clarivate). — C3, C2 |
+| Template-driven patent specifications without strategic claim boundary defense | Declining | AI claim generators automate basic template filing, shifting value to defended patent office hearings and litigation. — W2, G2 |
 
 **Evidence confidence.** The market intelligence carries **Medium–High** confidence overall: High for TTIPAB accreditation standards and established IP prosecution firm hiring; High for AI drafting risks and copyright reviews; and Low for program-specific granular salary benchmarking.
 

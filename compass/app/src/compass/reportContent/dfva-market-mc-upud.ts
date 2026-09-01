@@ -17,11 +17,11 @@ const content = {
 
 ## 2. RECENT JOB AD SIGNALS
 
-No live job-advertisement data exists for this profession record. \`data/professions/040103.json\` carries \`jobAds.source: "none"\` and \`jobAds.count: 0\` — this is not an estimate standing in for real data; no job-ad pull (Adzuna or otherwise) was run for this occupation. Treat every signal below as LOW confidence and indirect.
+No live job-advertisement data exists for this profession record. No Adzuna or equivalent job-ad data was collected for this occupation — this is not an estimate standing in for real data; no job-ad pull (Adzuna or otherwise) was run for this occupation. Treat every signal below as LOW confidence and indirect.
 
-1. **LOW confidence — no job-ad volume, employer, or skill-demand data available.** \`jobAds.count\` is 0 and \`topEmployers\`/\`topSkills\` are both empty arrays. Before using this program's market position for institutional decisions, a live job-ad pull against this occupation should be run.
+1. **LOW confidence — no job-ad volume, employer, or skill-demand data available.** No job-ad data was collected — no vacancy counts, employer names, or skill-demand data are available. Before using this program's market position for institutional decisions, a live job-ad pull against this occupation should be run.
 2. **LOW confidence, indirect — named government employers appear in trade press as AI adopters, not as job-ad postings.** Stateline (2026-08-30) names Baltimore, Denver, Los Angeles, Honolulu, Seattle and Harris County (Houston) as US local governments that have deployed AI permit-screening systems. This describes technology deployment inside planning-adjacent departments, not vacancy volume, salary, or hiring demand for planners or urban designers, and it is US local-government context rather than a measurement of the graduate labour market this program feeds.
-3. **LOW confidence — no skills-in-demand list exists for this occupation.** \`jobAds.topSkills\` is empty; the skills referenced in §1 and §4 come from trade-press description of tasks, not from parsed job-ad text.
+3. **LOW confidence — no skills-in-demand list exists for this occupation.** No job-ad skill data was captured; the skills referenced in §1 and §4 come from trade-press description of tasks, not from parsed job-ad text.
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
@@ -83,7 +83,7 @@ Both are single-author opinion pieces — the first by a former program intern r
 | Signal Area | Confidence | Gap / Caveat |
 | --- | --- | --- |
 | Job family map (§1) | MEDIUM | Grounded in the Onet "Urban Designer" record's own title and aliases plus the program's own core-unit descriptions, not in a job-ad-derived taxonomy |
-| Recent job-ad signals (§2) | NONE / LOW | \`jobAds.source\` is \`"none"\` and \`jobAds.count\` is 0 — no real job-ad pull exists for this profession key |
+| Recent job-ad signals (§2) | NONE / LOW | No Adzuna data was collected for this profession — no real job-ad pull exists for this profession key |
 | Current discussion signals (§3) | MEDIUM | Matches the profession record's own stated confidence ("medium"); rests on named trade press with dates, not on an independent survey, platform sampling, or Factiva (unavailable — no interactive OpenAthens session this run) |
 | Skill shift summary (§4) | LOW–MEDIUM | Inferred from the same trade-press sources as §3; no quantitative measurement of skill-demand change |
 | Curriculum implications (§5) | Inferred, not measured | Interpretation against the program's Panel C v4.2 evidence, not a new empirical claim |

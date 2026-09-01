@@ -167,14 +167,14 @@ The market intelligence gathered for this program indicates a high and accelerat
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Algorithmic choice architecture and ethical nudge governance | Rising | OECD (2024) Good Practice Principles and Australian Government (BETA) standards require ethical auditing of automated nudges, dark patterns, and algorithmic manipulation to preserve human autonomy. | C3, W1 |
-| Randomized controlled trials (RCTs) as causal evidentiary benchmark | Sustained High | BETA Evaluation Guidance and Australian Treasury evaluation toolkits re-affirm pre-registered field trials and causal inference as core human capabilities that automated models cannot replace. | C5, G2 |
-| Generative AI in consumer research and synthetic persona simulation | Rising / Volatile | Widespread adoption of LLM tools for qualitative coding and synthetic consumer personas (GRIT Report 2025); severe risks of hallucinated user motivations demand evaluative judgement and empirical ground-truthing. | C2, C5, W2 |
-| Behavioural consulting and policy implementation delivery | Rising | Global behavioural strategy consultancies (BIT, Decision Design) emphasize translating behavioural theory into client interventions, multi-stakeholder co-design, and executive communication. | C1, W1, W3 |
-| Manual qualitative transcription and basic survey cross-tabulation | Declining | Routine data cleaning, unassisted thematic coding, and basic descriptive reporting are heavily automated by enterprise analytics pipelines and LLM tools. | C2, C3 |
-| Decontextualised laboratory experiments without applied implementation | Declining | Employers in government and industry increasingly discount pure laboratory studies in favour of ecological field trials and applied consulting deliverables. | W2, G2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Algorithmic choice architecture and ethical nudge governance | Rising | OECD (2024) Good Practice Principles and Australian Government (BETA) standards require ethical auditing of automated nudges, dark patterns, and algorithmic manipulation to preserve human autonomy. — C3, W1 |
+| Randomized controlled trials (RCTs) as causal evidentiary benchmark | Sustained High | BETA Evaluation Guidance and Australian Treasury evaluation toolkits re-affirm pre-registered field trials and causal inference as core human capabilities that automated models cannot replace. — C5, G2 |
+| Generative AI in consumer research and synthetic persona simulation | Rising / Volatile | Widespread adoption of LLM tools for qualitative coding and synthetic consumer personas (GRIT Report 2025); severe risks of hallucinated user motivations demand evaluative judgement and empirical ground-truthing. — C2, C5, W2 |
+| Behavioural consulting and policy implementation delivery | Rising | Global behavioural strategy consultancies (BIT, Decision Design) emphasize translating behavioural theory into client interventions, multi-stakeholder co-design, and executive communication. — C1, W1, W3 |
+| Manual qualitative transcription and basic survey cross-tabulation | Declining | Routine data cleaning, unassisted thematic coding, and basic descriptive reporting are heavily automated by enterprise analytics pipelines and LLM tools. — C2, C3 |
+| Decontextualised laboratory experiments without applied implementation | Declining | Employers in government and industry increasingly discount pure laboratory studies in favour of ecological field trials and applied consulting deliverables. — W2, G2 |
 
 **Evidence confidence.** The market intelligence carries **Medium–High** confidence overall: High for government behavioural insights hiring (BETA, Victorian DPC) and market research agency demand; High for generative AI disruption in market research; Medium–High for UX research transitions; and Low for program-specific granular salary tracking.
 

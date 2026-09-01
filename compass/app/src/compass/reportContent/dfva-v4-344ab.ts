@@ -224,14 +224,14 @@ The market intelligence gathered for this program indicates strong, broad-based 
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Victorian and Commonwealth Public Service demand for strategic policy advisors | Sustained High | Government departments seek policy analysts with robust briefing, Cabinet Submission drafting, and statutory reform skills. | W1, W2, G2 |
-| Adoption of AI in policy research synthesis and automated drafting | Rising / Volatile | Agencies deploy LLMs for literature scanning, increasing demand for analysts who can audit machine summaries against administrative law and data integrity. | C2, C3, W2 |
-| Algorithmic decision-making and public sector AI governance mandates | Sustained High | DTA and state integrity bodies enforce stringent AI governance rules for automated government service delivery. | C3, G1 |
-| Political acumen, cross-agency negotiation, and community co-design | Sustained High | Cross-sector stakeholder consensus and civic deliberation remain entirely insulated from algorithmic automation. | C1, W1, W3 |
-| Routine descriptive literature summaries without strategic policy framing | Declining | Basic information retrieval is commoditised by generative AI scanning tools. | C3, C2 |
-| Passive administrative record collation without policy impact evaluation | Declining | Agencies prioritize rigorous econometric evaluation and econometric causal modeling. | C5, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Victorian and Commonwealth Public Service demand for strategic policy advisors | Sustained High | Government departments seek policy analysts with robust briefing, Cabinet Submission drafting, and statutory reform skills. — W1, W2, G2 |
+| Adoption of AI in policy research synthesis and automated drafting | Rising / Volatile | Agencies deploy LLMs for literature scanning, increasing demand for analysts who can audit machine summaries against administrative law and data integrity. — C2, C3, W2 |
+| Algorithmic decision-making and public sector AI governance mandates | Sustained High | DTA and state integrity bodies enforce stringent AI governance rules for automated government service delivery. — C3, G1 |
+| Political acumen, cross-agency negotiation, and community co-design | Sustained High | Cross-sector stakeholder consensus and civic deliberation remain entirely insulated from algorithmic automation. — C1, W1, W3 |
+| Routine descriptive literature summaries without strategic policy framing | Declining | Basic information retrieval is commoditised by generative AI scanning tools. — C3, C2 |
+| Passive administrative record collation without policy impact evaluation | Declining | Agencies prioritize rigorous econometric evaluation and econometric causal modeling. — C5, W2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for APS/VPS public sector workforce requirements, ANZSOG policy frameworks, and digital governance mandates; and High for exact-name alumni destination tracking.
 

@@ -137,14 +137,14 @@ The market intelligence gathered for this program indicates strong, highly speci
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Collaborative contracting (Alliancing, ECI, NEC4) vs fixed-price risk transfer | Sustained High | Australian Constructors Association and public infrastructure authorities mandate collaborative contracting frameworks to mitigate supply-chain insolvencies. | C1, W1, G2 |
-| AI disruption in automated contract review and schedule analytics | Rising / Volatile | Adoption of platforms like Kira and Robin AI accelerates contract diligence, shifting demand toward lawyers who can audit algorithmic risk allocations and critical path concurrency. | C2, C3, W2 |
-| Statutory adjudication velocity under Security of Payment regimes | Sustained High | Tight statutory timeframes require practitioners to produce legally and technically robust submissions under extreme time pressure. | C4, W2, G2 |
-| Dispute Avoidance Boards (DABs) and expert determinations | Rising | Infrastructure contracts increasingly require DABs, demanding oral advocacy and real-time cross-examination skills before industry experts. | W1, C5, G1 |
-| Routine clause-by-clause manual contract marking without strategic risk analysis | Declining | First-pass diligence is commoditised by automated legal analytics tools. | C3, C2 |
-| Generic litigation pleadings lacking forensic delay modeling | Declining | Arbitrators and courts reject unstructured delay claims without rigorous time-impact analysis. | C5, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Collaborative contracting (Alliancing, ECI, NEC4) vs fixed-price risk transfer | Sustained High | Australian Constructors Association and public infrastructure authorities mandate collaborative contracting frameworks to mitigate supply-chain insolvencies. — C1, W1, G2 |
+| AI disruption in automated contract review and schedule analytics | Rising / Volatile | Adoption of platforms like Kira and Robin AI accelerates contract diligence, shifting demand toward lawyers who can audit algorithmic risk allocations and critical path concurrency. — C2, C3, W2 |
+| Statutory adjudication velocity under Security of Payment regimes | Sustained High | Tight statutory timeframes require practitioners to produce legally and technically robust submissions under extreme time pressure. — C4, W2, G2 |
+| Dispute Avoidance Boards (DABs) and expert determinations | Rising | Infrastructure contracts increasingly require DABs, demanding oral advocacy and real-time cross-examination skills before industry experts. — W1, C5, G1 |
+| Routine clause-by-clause manual contract marking without strategic risk analysis | Declining | First-pass diligence is commoditised by automated legal analytics tools. — C3, C2 |
+| Generic litigation pleadings lacking forensic delay modeling | Declining | Arbitrators and courts reject unstructured delay claims without rigorous time-impact analysis. — C5, W2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for Tier 1 law firm recruitment standards, standard contracting forms (AS/FIDIC/NEC4), and statutory adjudication rules; and High for exact-name alumni destination tracking.
 
