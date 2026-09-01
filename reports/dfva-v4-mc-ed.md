@@ -162,14 +162,14 @@ The market intelligence gathered for this program indicates strong, ongoing recr
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Demand for data-literate school leaders and instructional coaches | Sustained High | School systems seek leading teachers capable of interpreting student data to drive curriculum improvement. | C4, G1 |
-| Surge in Instructional Designer roles across HE and corporate sectors | Rising | Employers require learning designers proficient in LMS authoring and authentic assessment design. | W2, G2 |
-| School leadership succession gap across Australian states | Sustained High | AITSL data shows impending principal retirements driving demand for Master-qualified leaders. | C4, W1 |
-| Generative AI integration creating assessment redesign imperatives | Rising / Volatile | Educational leaders must audit algorithmic bias and redesign assessments to withstand GenAI shortcuts. | C2, C3, W2 |
-| Transmission-based teaching and low-level worksheets | Declining | Rote instruction is increasingly obsolete in modern schools. | W2, G1 |
-| Isolated classroom practice without collaborative data analysis | Declining | Schools mandate professional learning communities and team-based inquiry. | C1, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Demand for data-literate school leaders and instructional coaches | Sustained High | School systems seek leading teachers capable of interpreting student data to drive curriculum improvement. — C4, G1 |
+| Surge in Instructional Designer roles across HE and corporate sectors | Rising | Employers require learning designers proficient in LMS authoring and authentic assessment design. — W2, G2 |
+| School leadership succession gap across Australian states | Sustained High | AITSL data shows impending principal retirements driving demand for Master-qualified leaders. — C4, W1 |
+| Generative AI integration creating assessment redesign imperatives | Rising / Volatile | Educational leaders must audit algorithmic bias and redesign assessments to withstand GenAI shortcuts. — C2, C3, W2 |
+| Transmission-based teaching and low-level worksheets | Declining | Rote instruction is increasingly obsolete in modern schools. — W2, G1 |
+| Isolated classroom practice without collaborative data analysis | Declining | Schools mandate professional learning communities and team-based inquiry. — C1, W1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for AITSL, ACER, and VIT professional standards, school system workforce planning data, and educational technology research; and High for exact-name alumni destination tracking.
 

@@ -168,14 +168,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Surge in mandatory ESG and climate disclosure compliance | Rising | Consultancies recruit environmental scientists skilled in carbon accounting and TNFD reporting. | C2, C4, G2 |
-| Sustained infrastructure EIA and statutory approvals pipeline | Sustained High | Federal and Victorian major projects require EPBC Act and environmental risk assessment. | W2, G1 |
-| Spatial data science and Google Earth Engine upskilling | Rising | Employers require proficiency in Python/R spatial analysis to process satellite and drone data. | C3, W2 |
-| Industry Project unit as a hiring differentiator | Sustained High | Consultancies and government bodies strongly prefer graduates with live stakeholder project experience. | W1, W3 |
-| Manual desktop GIS digitising and basic static map creation | Declining | Replaced by automated cloud-native geospatial processing scripts. | C3, W2 |
-| Descriptive EIA reports without quantitative data integration | Declining | Replaced by interactive environmental dashboards and quantitative risk models. | C2, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Surge in mandatory ESG and climate disclosure compliance | Rising | Consultancies recruit environmental scientists skilled in carbon accounting and TNFD reporting. — C2, C4, G2 |
+| Sustained infrastructure EIA and statutory approvals pipeline | Sustained High | Federal and Victorian major projects require EPBC Act and environmental risk assessment. — W2, G1 |
+| Spatial data science and Google Earth Engine upskilling | Rising | Employers require proficiency in Python/R spatial analysis to process satellite and drone data. — C3, W2 |
+| Industry Project unit as a hiring differentiator | Sustained High | Consultancies and government bodies strongly prefer graduates with live stakeholder project experience. — W1, W3 |
+| Manual desktop GIS digitising and basic static map creation | Declining | Replaced by automated cloud-native geospatial processing scripts. — C3, W2 |
+| Descriptive EIA reports without quantitative data integration | Declining | Replaced by interactive environmental dashboards and quantitative risk models. — C2, W2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for EIANZ CEnvP standards, DCCEEW regulatory guidelines, and environmental consulting hiring data; and High for exact-name alumni destination tracking.
 

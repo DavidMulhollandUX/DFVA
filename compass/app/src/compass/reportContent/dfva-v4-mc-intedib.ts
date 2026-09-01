@@ -194,14 +194,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Premium demand for certified IB Coordinators in independent schools | Fast | IBO-accredited qualifications command significant salary premiums. | W1, G1 |
-| Digital curriculum platform proficiency (Managebac / Toddle) | Very Fast | 60%+ of IB school job postings require digital curriculum tracking literacy. | C3, W2 |
-| AI assessment integrity challenges in Extended Essays and TOK | Fast | Schools actively recruit coordinators skilled in AI integrity and viva design. | C2, C3 |
-| Relational classroom facilitation and intercultural coaching moat | Stable | Pastoral care and inquiry facilitation protect classroom teachers from automation. | C1, G2 |
-| Didactic transmission teaching without inquiry scaffolding | Declining | Replaced by concept-based inquiry and Approaches to Learning (ATL) frameworks. | C4, C5 |
-| Paper-based unit documentation without digital tracking | Declining | Replaced by Managebac unit planners and continuous digital assessment analytics. | C3, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Premium demand for certified IB Coordinators in independent schools | Fast | IBO-accredited qualifications command significant salary premiums. — W1, G1 |
+| Digital curriculum platform proficiency (Managebac / Toddle) | Very Fast | 60%+ of IB school job postings require digital curriculum tracking literacy. — C3, W2 |
+| AI assessment integrity challenges in Extended Essays and TOK | Fast | Schools actively recruit coordinators skilled in AI integrity and viva design. — C2, C3 |
+| Relational classroom facilitation and intercultural coaching moat | Stable | Pastoral care and inquiry facilitation protect classroom teachers from automation. — C1, G2 |
+| Didactic transmission teaching without inquiry scaffolding | Declining | Replaced by concept-based inquiry and Approaches to Learning (ATL) frameworks. — C4, C5 |
+| Paper-based unit documentation without digital tracking | Declining | Replaced by Managebac unit planners and continuous digital assessment analytics. — C3, W2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for IBO and AITSL standards, and school coordinator hiring demand; and High for exact-name alumni destination tracking.
 

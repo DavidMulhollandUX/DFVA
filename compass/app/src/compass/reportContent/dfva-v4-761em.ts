@@ -161,14 +161,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Demand for engineering leaders bridging technical delivery and strategy | Fast | Top infrastructure and tech employers recruit commercial engineering managers. | C1, W1 |
-| Integration of AI-driven project scheduling and risk modeling | Very Fast | Capital delivery teams mandate proficiency in predictive tools (nPlan, Primavera). | C3, G1 |
-| Escalating requirement for ESG compliance and sustainable procurement | Fast | Asset owners require carbon accounting and circular procurement integration. | C4, W2 |
-| Moderate substitution pressure in routine scheduling and tracking | Fast | Routine status reporting faces automation, elevating stakeholder leadership. | C3, W2 |
-| Manual Gantt chart updates and routine administrative status reporting | Declining | Replaced by predictive project management platforms and automated tracking. | C3, W2 |
-| Siloed technical delivery without commercial and financial acumen | Declining | Replaced by cross-functional agile leadership and board-level communication. | C1, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Demand for engineering leaders bridging technical delivery and strategy | Fast | Top infrastructure and tech employers recruit commercial engineering managers. — C1, W1 |
+| Integration of AI-driven project scheduling and risk modeling | Very Fast | Capital delivery teams mandate proficiency in predictive tools (nPlan, Primavera). — C3, G1 |
+| Escalating requirement for ESG compliance and sustainable procurement | Fast | Asset owners require carbon accounting and circular procurement integration. — C4, W2 |
+| Moderate substitution pressure in routine scheduling and tracking | Fast | Routine status reporting faces automation, elevating stakeholder leadership. — C3, W2 |
+| Manual Gantt chart updates and routine administrative status reporting | Declining | Replaced by predictive project management platforms and automated tracking. — C3, W2 |
+| Siloed technical delivery without commercial and financial acumen | Declining | Replaced by cross-functional agile leadership and board-level communication. — C1, W1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for Engineers Australia, PMI, and AIPM competency standards, and engineering management hiring demand; and High for exact-name alumni destination tracking.
 

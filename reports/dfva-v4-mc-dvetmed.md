@@ -145,14 +145,14 @@ The market intelligence gathered for this program indicates acute shortages acro
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Nationwide shortage of registered veterinarians | Sustained High | Severe supply deficit drives signing bonuses and rural retention loadings. | W3, G1 |
-| Rapid deployment of veterinary AI diagnostics and ambient documentation | Fast | Clinical networks deploy SignalPET and ambient scribing software. | C2, C3, W2 |
-| Government incentives for regional and production animal practice | Sustained High | DAFF and state biosecurity agencies offer bonded grants and HECS relief. | W3, G1 |
-| Statutory licensure and physical procedural moat | Stable | AVBC accreditation and physical surgical skill protect clinical scope. | W1, W2, W3 |
-| Manual unassisted radiograph reading | Declining | Replaced by AI-assisted computer vision diagnostic triage. | C3, W2 |
-| Handwritten clinical notes and unintegrated charting | Declining | Replaced by ambient clinical AI dictation and integrated hospital CMS. | C3, G1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Nationwide shortage of registered veterinarians | Sustained High | Severe supply deficit drives signing bonuses and rural retention loadings. — W3, G1 |
+| Rapid deployment of veterinary AI diagnostics and ambient documentation | Fast | Clinical networks deploy SignalPET and ambient scribing software. — C2, C3, W2 |
+| Government incentives for regional and production animal practice | Sustained High | DAFF and state biosecurity agencies offer bonded grants and HECS relief. — W3, G1 |
+| Statutory licensure and physical procedural moat | Stable | AVBC accreditation and physical surgical skill protect clinical scope. — W1, W2, W3 |
+| Manual unassisted radiograph reading | Declining | Replaced by AI-assisted computer vision diagnostic triage. — C3, W2 |
+| Handwritten clinical notes and unintegrated charting | Declining | Replaced by ambient clinical AI dictation and integrated hospital CMS. — C3, G1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for AVBC, VetBoard Victoria, and AVA statutory standards, and workforce shortage data; and High for exact-name alumni destination tracking.
 

@@ -136,14 +136,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Nationwide demand for field agronomists and precision farming advisors | Fast | Agribusinesses and retail networks aggressively recruit agronomists. | C4, W3 |
-| Rapid deployment of precision AgTech AI, variable rate tech, and sensors | Fast | Farms mandate skills in spatial farm software (John Deere, DataFarming). | C3, G1 |
-| Focus on carbon farming, soil carbon measurement, and natural capital | Fast | Agribusinesses require skills in Australian Carbon Credit Unit methods. | C4, W2 |
-| Very low substitution pressure in physical field scouting and management | Stable | In-paddock inspection, animal handling, and grower trust are immune to AI. | W2, G2 |
-| Traditional calendar-based spraying without precision sensor data | Declining | Replaced by variable rate technology and drone multispectral imaging. | C3, W2 |
-| Paper farm record-keeping without spatial GIS and digital farm software | Declining | Replaced by integrated cloud-based precision farm management systems. | C3, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Nationwide demand for field agronomists and precision farming advisors | Fast | Agribusinesses and retail networks aggressively recruit agronomists. — C4, W3 |
+| Rapid deployment of precision AgTech AI, variable rate tech, and sensors | Fast | Farms mandate skills in spatial farm software (John Deere, DataFarming). — C3, G1 |
+| Focus on carbon farming, soil carbon measurement, and natural capital | Fast | Agribusinesses require skills in Australian Carbon Credit Unit methods. — C4, W2 |
+| Very low substitution pressure in physical field scouting and management | Stable | In-paddock inspection, animal handling, and grower trust are immune to AI. — W2, G2 |
+| Traditional calendar-based spraying without precision sensor data | Declining | Replaced by variable rate technology and drone multispectral imaging. — C3, W2 |
+| Paper farm record-keeping without spatial GIS and digital farm software | Declining | Replaced by integrated cloud-based precision farm management systems. — C3, W1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for AIA, GRDC, and MLA professional standards, and agribusiness graduate hiring demand; and High for exact-name alumni destination tracking.
 

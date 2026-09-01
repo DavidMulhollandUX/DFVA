@@ -177,14 +177,14 @@ The market intelligence gathered for this program indicates sustained demand acr
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Rapid expansion of MBS-funded genomic testing driving clinical demand | Sustained High | Medicare item additions for cancer and reproductive carrier screening drive clinic referrals. | W3, G1 |
-| Normalisation of hybrid and telehealth genetic counselling | Fast | Hospital networks mandate remote-first counselling to service regional/rural populations. | W1, G2 |
-| Scale-up of national reproductive carrier screening | Fast | Post-Mackenzie's Mission rollout creates acute demand in reproductive clinics. | W2, G1 |
-| Statutory licensure and interpersonal counselling moat | Stable | HGSA certification and empathetic communication insulate clinical roles from automation. | W1, W2, W3 |
-| Standalone karyotype-only interpretation | Declining | Replaced by whole-exome and whole-genome sequencing (WES/WGS) analysis. | C3, W2 |
-| Paper pedigree drawing and unintegrated records | Declining | Replaced by digital pedigree software and EHR-integrated clinical documentation. | C3, G1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Rapid expansion of MBS-funded genomic testing driving clinical demand | Sustained High | Medicare item additions for cancer and reproductive carrier screening drive clinic referrals. — W3, G1 |
+| Normalisation of hybrid and telehealth genetic counselling | Fast | Hospital networks mandate remote-first counselling to service regional/rural populations. — W1, G2 |
+| Scale-up of national reproductive carrier screening | Fast | Post-Mackenzie's Mission rollout creates acute demand in reproductive clinics. — W2, G1 |
+| Statutory licensure and interpersonal counselling moat | Stable | HGSA certification and empathetic communication insulate clinical roles from automation. — W1, W2, W3 |
+| Standalone karyotype-only interpretation | Declining | Replaced by whole-exome and whole-genome sequencing (WES/WGS) analysis. — C3, W2 |
+| Paper pedigree drawing and unintegrated records | Declining | Replaced by digital pedigree software and EHR-integrated clinical documentation. — C3, G1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for HGSA statutory competency standards, and clinical genetics workforce data; and High for exact-name alumni destination tracking.
 

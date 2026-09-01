@@ -162,14 +162,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Victorian public sector and council precinct design demand | Sustained High | DTP and councils hire urban designers for housing statement precinct renewals. | W1, G1 |
-| Multidisciplinary consultancies require digital & parametric fluency | Fast | Consultancies mandate 3D modelling (Rhino, Forma) and GIS spatial analytics. | C3, W2 |
-| Climate resilience and water-sensitive urban design (WSUD) | Fast | Masterplanning tenders require micro-climate and urban heat mitigation. | W2, G2 |
-| Physical site complexity and statutory governance moat | Stable | Multi-stakeholder negotiation and statutory liabilities insulate urban design. | W2, G1, G2 |
-| Static 2D masterplans without micro-climate variants | Declining | Replaced by parametric 3D models and scenario-based digital twins. | C3, W2 |
-| Generic consultation without genuine First Nations co-design | Declining | Replaced by Caring for Country frameworks and community co-design. | C1, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Victorian public sector and council precinct design demand | Sustained High | DTP and councils hire urban designers for housing statement precinct renewals. — W1, G1 |
+| Multidisciplinary consultancies require digital & parametric fluency | Fast | Consultancies mandate 3D modelling (Rhino, Forma) and GIS spatial analytics. — C3, W2 |
+| Climate resilience and water-sensitive urban design (WSUD) | Fast | Masterplanning tenders require micro-climate and urban heat mitigation. — W2, G2 |
+| Physical site complexity and statutory governance moat | Stable | Multi-stakeholder negotiation and statutory liabilities insulate urban design. — W2, G1, G2 |
+| Static 2D masterplans without micro-climate variants | Declining | Replaced by parametric 3D models and scenario-based digital twins. — C3, W2 |
+| Generic consultation without genuine First Nations co-design | Declining | Replaced by Caring for Country frameworks and community co-design. — C1, W1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for PIA and AILA statutory frameworks, and public sector/consultancy hiring demand; and High for exact-name alumni destination tracking.
 

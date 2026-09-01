@@ -159,14 +159,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Critical national shortage of registered veterinary clinical specialists | Fast | Specialist referral hospitals aggressively recruit clinical residents. | C4, W3 |
-| Rapid adoption of digital radiography and AI imaging triage platforms | Fast | Hospitals mandate skills in verifying AI radiograph readings against cases. | C3, G1 |
-| Strong alignment with ANZCVS fellowship pathways and residency standards | Fast | Training requires structured case logs, publications, and milestone seminars. | C5, W3 |
-| Very low substitution pressure in manual clinical examination and surgery | Stable | Physical palpation, complex surgery, and critical care remain automated-free. | W2, G2 |
-| Manual film radiography and chemical developing | Declining | Replaced by digital imaging sensors and AI diagnostic triage platforms. | C3, W2 |
-| Siloed clinical practice without multidisciplinary hospital team context | Declining | Replaced by integrated clinical rounds and collaborative case management. | C1, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Critical national shortage of registered veterinary clinical specialists | Fast | Specialist referral hospitals aggressively recruit clinical residents. — C4, W3 |
+| Rapid adoption of digital radiography and AI imaging triage platforms | Fast | Hospitals mandate skills in verifying AI radiograph readings against cases. — C3, G1 |
+| Strong alignment with ANZCVS fellowship pathways and residency standards | Fast | Training requires structured case logs, publications, and milestone seminars. — C5, W3 |
+| Very low substitution pressure in manual clinical examination and surgery | Stable | Physical palpation, complex surgery, and critical care remain automated-free. — W2, G2 |
+| Manual film radiography and chemical developing | Declining | Replaced by digital imaging sensors and AI diagnostic triage platforms. — C3, W2 |
+| Siloed clinical practice without multidisciplinary hospital team context | Declining | Replaced by integrated clinical rounds and collaborative case management. — C1, W1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for VPBV, AVA, and ANZCVS statutory and specialist standards, and referral hospital hiring demand; and High for exact-name alumni destination tracking.
 

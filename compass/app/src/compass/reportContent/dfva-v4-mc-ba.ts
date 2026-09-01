@@ -151,14 +151,14 @@ The market intelligence gathered for this program indicates strong, executive-le
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| AI strategy fluency now a baseline expectation in consulting | Sustained High | Top consultancies mandate that MBAs know how to deploy and critique LLMs for client market synthesis. | C2, C3, W2 |
-| Corporate demand for AI transformation change leaders | Rising / Volatile | ASX100 enterprises recruit change leaders who combine organizational psychology with digital governance. | C1, C3, W3 |
-| Product management roles demand technical-business hybrid fluency | Rising | Tech employers require PMs proficient in data analytics, API fundamentals, and AI product roadmapping. | C3, C4, W2 |
-| Premium on executive presence and board-level persuasion | Sustained High | As basic synthesis is automated, interpersonal persuasion, negotiation, and high-stakes communication dominate hiring criteria. | C1, W1, W3 |
-| Manual slide formatting and basic financial spreadsheet modeling | Declining | Routine model building and slide deck formatting are heavily automated by enterprise AI platforms. | C3, C2 |
-| Generic change management frameworks applied by rote | Declining | Theoretical change models without digital transformation context are discounted by employers. | C4, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| AI strategy fluency now a baseline expectation in consulting | Sustained High | Top consultancies mandate that MBAs know how to deploy and critique LLMs for client market synthesis. — C2, C3, W2 |
+| Corporate demand for AI transformation change leaders | Rising / Volatile | ASX100 enterprises recruit change leaders who combine organizational psychology with digital governance. — C1, C3, W3 |
+| Product management roles demand technical-business hybrid fluency | Rising | Tech employers require PMs proficient in data analytics, API fundamentals, and AI product roadmapping. — C3, C4, W2 |
+| Premium on executive presence and board-level persuasion | Sustained High | As basic synthesis is automated, interpersonal persuasion, negotiation, and high-stakes communication dominate hiring criteria. — C1, W1, W3 |
+| Manual slide formatting and basic financial spreadsheet modeling | Declining | Routine model building and slide deck formatting are heavily automated by enterprise AI platforms. — C3, C2 |
+| Generic change management frameworks applied by rote | Declining | Theoretical change models without digital transformation context are discounted by employers. — C4, W2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for AIM and AACSB executive benchmarks, consulting recruitment trends, and corporate leadership hiring; and High for exact-name alumni destination tracking.
 

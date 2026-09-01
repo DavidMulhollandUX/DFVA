@@ -202,14 +202,14 @@ The market intelligence gathered for this program indicates strong, recession-re
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| SSA accreditation and GCP clinical trial statistical compliance | Sustained High | Medical research institutes and contract research organisations require Statistical Society of Australia accreditation and GCP-compliant Statistical Analysis Plans (SAPs). | G1, W1, W2 |
-| Generative AI coding assistants in statistical programming | Rising / Volatile | AI coding tools accelerate routine data management, but produce subtle errors in complex survey designs; biostatisticians must audit and override AI-generated scripts. | C2, C3, W2 |
-| Target trial emulation and causal inference in observational health data | Rising | Leading medical journals and regulators require formal directed acyclic graph (DAG) modeling to eliminate confounding in linked health datasets. | C5, C2, G2 |
-| Interprofessional statistical consulting and clinical translation | Rising | Research institutes demand biostatisticians who can translate complex Bayesian posterior distributions and sampling uncertainties to non-statistical clinicians. | C1, W1, W3 |
-| Uncritical associational regression without formal causal assumptions | Declining | Health funders and clinical trials reject naive correlations in favour of pre-registered causal evaluation. | C5, G2 |
-| Manual rote data cleaning in R/Stata without automated pipelines | Declining | Routine cleaning is heavily automated by modern data pipelines and LLM tools. | C3, C2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| SSA accreditation and GCP clinical trial statistical compliance | Sustained High | Medical research institutes and contract research organisations require Statistical Society of Australia accreditation and GCP-compliant Statistical Analysis Plans (SAPs). — G1, W1, W2 |
+| Generative AI coding assistants in statistical programming | Rising / Volatile | AI coding tools accelerate routine data management, but produce subtle errors in complex survey designs; biostatisticians must audit and override AI-generated scripts. — C2, C3, W2 |
+| Target trial emulation and causal inference in observational health data | Rising | Leading medical journals and regulators require formal directed acyclic graph (DAG) modeling to eliminate confounding in linked health datasets. — C5, C2, G2 |
+| Interprofessional statistical consulting and clinical translation | Rising | Research institutes demand biostatisticians who can translate complex Bayesian posterior distributions and sampling uncertainties to non-statistical clinicians. — C1, W1, W3 |
+| Uncritical associational regression without formal causal assumptions | Declining | Health funders and clinical trials reject naive correlations in favour of pre-registered causal evaluation. — C5, G2 |
+| Manual rote data cleaning in R/Stata without automated pipelines | Declining | Routine cleaning is heavily automated by modern data pipelines and LLM tools. — C3, C2 |
 
 **Evidence confidence.** The market intelligence carries **Medium–High** confidence overall: High for SSA accreditation standards, medical research institute demand, and causal inference requirements; and Medium for general statistical salary benchmarking.
 

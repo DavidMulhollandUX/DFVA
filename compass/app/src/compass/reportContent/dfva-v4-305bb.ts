@@ -179,14 +179,14 @@ The market intelligence gathered for this program indicates robust, highly prote
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Audiology Australia (AudA) professional accreditation and CCP certification | Sustained High | Mandatory professional certification protects registered clinical audiologists from algorithmic substitution. | W1, W2, G1 |
-| Deep neural networks (DNNs) in hearing prosthetics and automated audiometry | Rising / Volatile | Hearing aid manufacturers deploy on-chip machine learning for noise reduction, requiring clinicians to audit acoustic algorithms against real-ear measurements. | C2, C3, W2 |
-| Expanding public hospital cochlear implant and vestibular diagnostic caseloads | Sustained High | Public health networks face persistent shortages for audiologists skilled in vestibular diagnostic batteries (vHIT, VEMP) and cochlear implant mapping. | C4, C5, G2 |
-| Relational counseling and stigma mitigation in sensory rehabilitation | Sustained High | High-touch empathetic communication is the primary determinant of device adoption, completely resilient against automated diagnostics. | C1, W1, W3 |
-| Standalone routine pure-tone audiometry without diagnostic contextualisation | Declining | First-pass threshold tests are commoditised by automated tablet audiometers. | C3, C2 |
-| Uncritical acceptance of automated manufacturer hearing aid programming | Declining | Clinicians must manually verify gain targets and acoustic coupling to avoid suboptimal patient outcomes. | C2, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Audiology Australia (AudA) professional accreditation and CCP certification | Sustained High | Mandatory professional certification protects registered clinical audiologists from algorithmic substitution. — W1, W2, G1 |
+| Deep neural networks (DNNs) in hearing prosthetics and automated audiometry | Rising / Volatile | Hearing aid manufacturers deploy on-chip machine learning for noise reduction, requiring clinicians to audit acoustic algorithms against real-ear measurements. — C2, C3, W2 |
+| Expanding public hospital cochlear implant and vestibular diagnostic caseloads | Sustained High | Public health networks face persistent shortages for audiologists skilled in vestibular diagnostic batteries (vHIT, VEMP) and cochlear implant mapping. — C4, C5, G2 |
+| Relational counseling and stigma mitigation in sensory rehabilitation | Sustained High | High-touch empathetic communication is the primary determinant of device adoption, completely resilient against automated diagnostics. — C1, W1, W3 |
+| Standalone routine pure-tone audiometry without diagnostic contextualisation | Declining | First-pass threshold tests are commoditised by automated tablet audiometers. — C3, C2 |
+| Uncritical acceptance of automated manufacturer hearing aid programming | Declining | Clinicians must manually verify gain targets and acoustic coupling to avoid suboptimal patient outcomes. — C2, W2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for Audiology Australia clinical standards, hearing health employer demand, and hearing prosthetic technology trends; and High for exact-name alumni destination tracking.
 

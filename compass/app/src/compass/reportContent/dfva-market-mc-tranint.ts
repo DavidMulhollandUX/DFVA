@@ -16,10 +16,10 @@ const content = {
 | AI-Augmented Language Services / Intercultural Communication Specialist | Localisation Project Coordinator, Intercultural Communication Consultant | Coordinating human-AI translation workflows, advising on AI use in cross-cultural and marketing communication | **LOW** — an emerging role built around the AI-literacy-plus-ethical-judgement function that the strongest evidence identifies as the part of the task set that has not moved to AI | AI-ethics literacy, human-AI collaboration strategy design | \`dfva/source/evidence/mc-tranint.json\` (TRAN90011); Microsoft Research/arXiv scoping note (L2-1) |
 
 ## 2. RECENT JOB AD SIGNALS
-> **Confidence: LOW** — no live job-ad pull exists for this occupation. The profession record's \`jobAds\` field carries \`source: "none"\` and \`count: 0\`, and the record carries no L4 (job-ad evidence) lane claims either. The signals below are stated as gaps, not findings, and none of them substitute for real vacancy data.
+> **Confidence: LOW** — no live job-ad pull exists for this occupation. No Adzuna or equivalent job-ad data was collected for this occupation, and the record carries no L4 (job-ad evidence) lane claims either. The signals below are stated as gaps, not findings, and none of them substitute for real vacancy data.
 
 **Signal 1 — No Adzuna or equivalent job-ad data was captured for this occupation in this research cycle.**
-The profession record (\`data/professions/091519.json\`) records \`jobAds.source: "none"\`, \`jobAds.count: 0\`, and empty \`topEmployers\` and \`topSkills\` arrays. This is a genuine absence, not an estimate rounded down — no job-title, employer, or in-ad-skill figures exist for this program at this time. LOW confidence.
+No Adzuna or equivalent job-ad data was collected for this occupation. This is a genuine absence, not an estimate rounded down — no job-title, employer, or in-ad-skill figures exist for this program at this time. LOW confidence.
 
 **Signal 2 — The record's own search log confirms the gap is a coverage limit, not an editorial omission.**
 The \`corpus.searchesReturningNothing\` list documents specific attempted searches that returned nothing citable, including a \`site:proz.com\` translator forum search blocked by a 403 response and a Reddit translator-subreddit search with no fetchable thread. The absence of job-ad data sits alongside a documented absence of forum-level demand signals. LOW confidence.
@@ -89,7 +89,7 @@ The article is authored by Boostlingo, a commercial AI-interpreting vendor with 
 | Task-overlap and machine-translation-adoption econometrics (Microsoft, Oxford Martin) | MEDIUM-HIGH | Real studies with named methodology, but both are US-only, and neither covers generative-AI chatbot translation specifically — Oxford Martin measures the pre-LLM Google Translate app over 2010–2023 |
 | Practitioner-testimony income and workload claims | LOW-MEDIUM | Self-selected samples responding to public callouts or a survey network, not a probability sample; the games-localisation case is a single verified individual, not a pattern |
 | AI-interpreting adoption among language-service integrators | LOW | Vendor-authored partner content on a commercial AI-interpreting platform, with undisclosed poll sampling and response rate |
-| Job-ad demand signals | NONE | \`jobAds.source: "none"\`, \`count: 0\` in the profession record; no live Adzuna or equivalent pull exists for this occupation, and no L4 lane claims are present |
+| Job-ad demand signals | NONE | No Adzuna or equivalent job-ad data exists for this profession; no live Adzuna or equivalent pull exists for this occupation, and no L4 lane claims are present |
 | Australian-specific evidence of any kind | LOW | Every quantitative study above is US-based; the only Australian sources are the two regulatory-position documents, which measure governance intent, not market outcomes |
 
 ### Critical evidence gaps to close before institutional use:

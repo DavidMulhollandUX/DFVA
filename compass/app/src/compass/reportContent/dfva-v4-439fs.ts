@@ -143,14 +143,14 @@ The market intelligence gathered for this program indicates steady, regulation-d
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Mandatory HACCP and FSANZ food safety compliance as hiring floor | Sustained High | Mandatory statutory food standards protect food safety officers and auditors from automated replacement. | W2, G1, G2 |
-| Transition from manual compliance to digital Quality Management Systems (eQMS) | Rising / Volatile | FMCG manufacturers deploy eQMS and inline spectroscopic monitoring, requiring food scientists who can audit digital sensor data. | C2, C3, W2 |
-| Alternative proteins, precision fermentation, and novel food regulations | Rising | Expanding alternative protein sectors require graduates capable of navigating novel food regulatory pathways and complex extrusion matrices. | C4, C5, G1 |
-| Cross-functional communication and food safety leadership | Sustained High | Managing cross-functional plant teams and leading food safety audits remain entirely human-centric. | C1, W1, W3 |
-| Manual paper-based HACCP record keeping without digital tracking | Declining | Paper documentation is displaced by automated digital quality tracking platforms. | C3, W2 |
-| Routine wet chemistry analytical tests automated by inline sensors | Declining | Basic compositional analysis is superseded by inline NIR and hyperspectral imaging. | C3, C2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Mandatory HACCP and FSANZ food safety compliance as hiring floor | Sustained High | Mandatory statutory food standards protect food safety officers and auditors from automated replacement. — W2, G1, G2 |
+| Transition from manual compliance to digital Quality Management Systems (eQMS) | Rising / Volatile | FMCG manufacturers deploy eQMS and inline spectroscopic monitoring, requiring food scientists who can audit digital sensor data. — C2, C3, W2 |
+| Alternative proteins, precision fermentation, and novel food regulations | Rising | Expanding alternative protein sectors require graduates capable of navigating novel food regulatory pathways and complex extrusion matrices. — C4, C5, G1 |
+| Cross-functional communication and food safety leadership | Sustained High | Managing cross-functional plant teams and leading food safety audits remain entirely human-centric. — C1, W1, W3 |
+| Manual paper-based HACCP record keeping without digital tracking | Declining | Paper documentation is displaced by automated digital quality tracking platforms. — C3, W2 |
+| Routine wet chemistry analytical tests automated by inline sensors | Declining | Basic compositional analysis is superseded by inline NIR and hyperspectral imaging. — C3, C2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for AIFST/FSANZ regulatory frameworks, food manufacturing workforce demand, and food processing automation trends; and High for exact-name alumni destination tracking.
 

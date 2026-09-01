@@ -155,14 +155,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| API CPV registration and RICS chartership requirement | Fast | Tier-1 firms mandate accredited degrees for valuation analyst recruitment. | W1, G1 |
-| Adoption of automated valuation models (AVMs) and PropTech | Fast | Analysts must critically interrogate AVM outputs against physical market evidence. | C2, C3 |
-| Mandatory mock courtroom expert testimony standards | Stable | Statutory compensation valuations demand demonstrated expert witness defence. | C2, W1 |
-| Physical inspection and development deal structuring moat | Stable | On-site due diligence and complex debt/equity underwriting insulate property. | W2, G2 |
-| Manual comparable sales collation without statistical regression | Declining | Replaced by multiple regression analysis and spatial PropTech dashboards. | C3, W2 |
-| Static quarterly reporting without dynamic DCF modelling | Declining | Replaced by ARGUS EstateMaster scenario analysis and real-time dashboards. | C3, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| API CPV registration and RICS chartership requirement | Fast | Tier-1 firms mandate accredited degrees for valuation analyst recruitment. — W1, G1 |
+| Adoption of automated valuation models (AVMs) and PropTech | Fast | Analysts must critically interrogate AVM outputs against physical market evidence. — C2, C3 |
+| Mandatory mock courtroom expert testimony standards | Stable | Statutory compensation valuations demand demonstrated expert witness defence. — C2, W1 |
+| Physical inspection and development deal structuring moat | Stable | On-site due diligence and complex debt/equity underwriting insulate property. — W2, G2 |
+| Manual comparable sales collation without statistical regression | Declining | Replaced by multiple regression analysis and spatial PropTech dashboards. — C3, W2 |
+| Static quarterly reporting without dynamic DCF modelling | Declining | Replaced by ARGUS EstateMaster scenario analysis and real-time dashboards. — C3, W2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for API and RICS statutory standards, and commercial real estate hiring demand; and High for exact-name alumni destination tracking.
 

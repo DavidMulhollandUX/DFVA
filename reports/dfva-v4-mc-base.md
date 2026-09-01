@@ -174,14 +174,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| SROI and rigorous impact measurement mandate | Fast | Intermediaries and philanthropies mandate SROI frameworks for leadership roles. | C5, W2 |
-| Corporate ESG disclosure and cross-sector executive mobility | Fast | ASX-listed firms hire senior social enterprise leaders for ESG director appointments. | W1, G1 |
-| Government social procurement expansion | Sustained High | Public social procurement creates demand for managers executing certified contracts. | W2, W3 |
-| High-stakes relational leadership and stakeholder governance moat | Stable | Multi-stakeholder negotiation under ambiguity insulates executive leadership. | C1, G2 |
-| Input/output activity counting without attribution | Declining | Replaced by SROI and mixed-methods impact attribution models. | C5, W2 |
-| Narrative-only grant applications without metrics | Declining | Replaced by blended finance structuring and outcomes-based contracting. | C5, G2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| SROI and rigorous impact measurement mandate | Fast | Intermediaries and philanthropies mandate SROI frameworks for leadership roles. — C5, W2 |
+| Corporate ESG disclosure and cross-sector executive mobility | Fast | ASX-listed firms hire senior social enterprise leaders for ESG director appointments. — W1, G1 |
+| Government social procurement expansion | Sustained High | Public social procurement creates demand for managers executing certified contracts. — W2, W3 |
+| High-stakes relational leadership and stakeholder governance moat | Stable | Multi-stakeholder negotiation under ambiguity insulates executive leadership. — C1, G2 |
+| Input/output activity counting without attribution | Declining | Replaced by SROI and mixed-methods impact attribution models. — C5, W2 |
+| Narrative-only grant applications without metrics | Declining | Replaced by blended finance structuring and outcomes-based contracting. — C5, G2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for SVA, CSI, and Social Traders standards, and executive hiring demand; and High for exact-name alumni destination tracking.
 

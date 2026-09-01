@@ -154,7 +154,7 @@ unavailable (no interactive OpenAthens session that run). The Job Family Map (§
 rated MEDIUM, grounded in the ONET "Urban Designer" record's own title and aliases plus
 the program's core-unit descriptions, not a job-ad-derived taxonomy. Recent Job Ad
 Signals (§2) carry NONE/LOW confidence: no live job-ad pull (Adzuna or otherwise) exists
-for this occupation (`jobAds.count` is 0), so every job-market-volume claim is indirect.
+for this occupation (no Adzuna data available), so every job-market-volume claim is indirect.
 The Skill Shift Summary is rated LOW–MEDIUM, inferred from the same trade-press sources
 rather than from a quantitative measurement of skill-demand change. The market report
 also notes it could not independently corroborate this program's PIA accreditation from

@@ -195,13 +195,13 @@ The market intelligence gathered for this program indicates strong, recession-re
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Human relational attunement as irreplaceable therapeutic agent | Sustained High | AMTA professional standards and international clinical literature emphasize that therapeutic efficacy is mediated by embodied acoustic co-presence and live non-verbal attunement, which automated AI algorithms cannot replicate. | C1, W1, W3 |
-| NDIS and public health functional outcome measurement | Rising | NDIS Quality and Safeguards Commission and health networks require standardised goal-attainment scaling (GAS) and objective functional metrics to maintain therapy funding. | C5, G1 |
-| Digital audio technology, DAWs, and telehealth in creative arts therapy | Rising | Integration of digital audio workstations, mobile multitrack recording apps, and telehealth streaming platforms in youth mental health and neuro-rehabilitation requires clinical data privacy and digital ethics governance. | C3, W2 |
-| Translation of clinical and neuroscientific trial evidence | Rising | Major hospital networks demand evidence-based neurologic music therapy protocols and translational clinical trials to support clinical integration and healthcare funding. | C5, G1 |
-| Unstructured, unmeasured music activities without clinical goals | Declining | Health services and funding bodies increasingly reject unmeasured recreation in favour of accredited, goal-directed allied health therapy. | W2, G2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Human relational attunement as irreplaceable therapeutic agent | Sustained High | AMTA professional standards and international clinical literature emphasize that therapeutic efficacy is mediated by embodied acoustic co-presence and live non-verbal attunement, which automated AI algorithms cannot replicate. — C1, W1, W3 |
+| NDIS and public health functional outcome measurement | Rising | NDIS Quality and Safeguards Commission and health networks require standardised goal-attainment scaling (GAS) and objective functional metrics to maintain therapy funding. — C5, G1 |
+| Digital audio technology, DAWs, and telehealth in creative arts therapy | Rising | Integration of digital audio workstations, mobile multitrack recording apps, and telehealth streaming platforms in youth mental health and neuro-rehabilitation requires clinical data privacy and digital ethics governance. — C3, W2 |
+| Translation of clinical and neuroscientific trial evidence | Rising | Major hospital networks demand evidence-based neurologic music therapy protocols and translational clinical trials to support clinical integration and healthcare funding. — C5, G1 |
+| Unstructured, unmeasured music activities without clinical goals | Declining | Health services and funding bodies increasingly reject unmeasured recreation in favour of accredited, goal-directed allied health therapy. — W2, G2 |
 
 **Evidence confidence.** The market intelligence carries **Medium–High** confidence overall: High for AMTA professional registration requirements, hospital/NDIS demand, and AI substitution resistance; and Medium for allied health enterprise agreement salary benchmarks.
 

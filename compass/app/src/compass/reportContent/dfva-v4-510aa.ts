@@ -187,14 +187,14 @@ The market intelligence gathered for this program indicates expanding demand acr
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Closing Loopholes reforms driving specialist IR hiring | Fast | Top law firms and corporate HR heavily recruit labour relations counsel. | C4, G1 |
-| Demand for independent workplace investigation specialists | Fast | Employers seek legal practitioners adhering strictly to procedural fairness. | W2, G2 |
-| Workplace AI surveillance and algorithmic management governance | Fast | Workplace teams mandate legal literacy in algorithmic employee monitoring. | C3, G1 |
-| High AI exposure in routine employment contracts and award checks | Very Fast | Template drafting faces automation, elevating complex industrial advocacy. | C3, W2 |
-| Template contract drafting without strategic bargaining literacy | Declining | Replaced by multi-enterprise bargaining and same-job-same-pay structuring. | C3, W2 |
-| Siloed employment law without psychosocial and equality context | Declining | Replaced by Respect@Work positive duty compliance and trauma-informed practice. | C1, C4 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Closing Loopholes reforms driving specialist IR hiring | Fast | Top law firms and corporate HR heavily recruit labour relations counsel. — C4, G1 |
+| Demand for independent workplace investigation specialists | Fast | Employers seek legal practitioners adhering strictly to procedural fairness. — W2, G2 |
+| Workplace AI surveillance and algorithmic management governance | Fast | Workplace teams mandate legal literacy in algorithmic employee monitoring. — C3, G1 |
+| High AI exposure in routine employment contracts and award checks | Very Fast | Template drafting faces automation, elevating complex industrial advocacy. — C3, W2 |
+| Template contract drafting without strategic bargaining literacy | Declining | Replaced by multi-enterprise bargaining and same-job-same-pay structuring. — C3, W2 |
+| Siloed employment law without psychosocial and equality context | Declining | Replaced by Respect@Work positive duty compliance and trauma-informed practice. — C1, C4 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for Fair Work Commission and ALLA statutory standards, and employment legal hiring demand; and High for exact-name alumni destination tracking.
 

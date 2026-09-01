@@ -152,14 +152,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Strong public sector demand for policy analysis and machinery of government | Fast | Public service agencies recruit Arts graduates for policy development. | C4, W3 |
-| Massive deployment of generative AI writing and research copilots | Fast | Policy agencies mandate literacy in verifying AI summaries and prompt ethics. | C3, G1 |
-| Need for ethical AI governance, misinformation analysis, and cultural safety | Fast | NGOs and institutions require analysis of algorithmic bias and data sovereignty. | C3, W2 |
-| Very high substitution in routine text drafting, summary, and press releases | Accelerating | Descriptive drafting is automated; nuanced stakeholder persuasion is vital. | W1, G2 |
-| Routine uncritical secondary literature essay writing | Declining | Replaced by authentic ministerial policy briefs and stakeholder submissions. | C5, W2 |
-| Purely theoretical analysis without policy application or stakeholder context | Declining | Replaced by applied mixed-methods research and cross-functional team projects. | C1, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Strong public sector demand for policy analysis and machinery of government | Fast | Public service agencies recruit Arts graduates for policy development. — C4, W3 |
+| Massive deployment of generative AI writing and research copilots | Fast | Policy agencies mandate literacy in verifying AI summaries and prompt ethics. — C3, G1 |
+| Need for ethical AI governance, misinformation analysis, and cultural safety | Fast | NGOs and institutions require analysis of algorithmic bias and data sovereignty. — C3, W2 |
+| Very high substitution in routine text drafting, summary, and press releases | Accelerating | Descriptive drafting is automated; nuanced stakeholder persuasion is vital. — W1, G2 |
+| Routine uncritical secondary literature essay writing | Declining | Replaced by authentic ministerial policy briefs and stakeholder submissions. — C5, W2 |
+| Purely theoretical analysis without policy application or stakeholder context | Declining | Replaced by applied mixed-methods research and cross-functional team projects. — C1, W1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for APSC, IPAA, and PRIA professional competency frameworks, and public sector hiring demand; and High for exact-name alumni destination tracking.
 

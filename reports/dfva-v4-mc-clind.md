@@ -154,14 +154,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Acute nationwide shortage of registered specialist prosthodontists | Sustained High | ADC and DBA registers confirm prosthodontics is severely undersupplied across ANZ. | W3, G1 |
-| Rapid adoption of digital CAD/CAM restorative workflows | Fast | Specialist clinics mandate intraoral digital scanning and CAD/CAM design. | C3, W2 |
-| 540+ hours of compulsory clinical hospital residency | Stable | Hospital specialist roles require extensive residency at Royal Dental Hospital. | W2, W3, G1 |
-| Statutory specialist registration monopoly and procedural moat | Stable | AHPRA title protection and surgical precision protect specialist prosthodontics. | W2, W3, G2 |
-| Analogue impressions and manual plaster articulation | Declining | Replaced by intraoral digital scanning (STL/PLY) and CAD/CAM milling. | C3, W2 |
-| Single-specialty isolated practice | Declining | Replaced by multidisciplinary treatment planning with surgeons and technicians. | C1, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Acute nationwide shortage of registered specialist prosthodontists | Sustained High | ADC and DBA registers confirm prosthodontics is severely undersupplied across ANZ. — W3, G1 |
+| Rapid adoption of digital CAD/CAM restorative workflows | Fast | Specialist clinics mandate intraoral digital scanning and CAD/CAM design. — C3, W2 |
+| 540+ hours of compulsory clinical hospital residency | Stable | Hospital specialist roles require extensive residency at Royal Dental Hospital. — W2, W3, G1 |
+| Statutory specialist registration monopoly and procedural moat | Stable | AHPRA title protection and surgical precision protect specialist prosthodontics. — W2, W3, G2 |
+| Analogue impressions and manual plaster articulation | Declining | Replaced by intraoral digital scanning (STL/PLY) and CAD/CAM milling. — C3, W2 |
+| Single-specialty isolated practice | Declining | Replaced by multidisciplinary treatment planning with surgeons and technicians. — C1, W1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for ADC and DBA statutory specialist standards, and hospital/clinic hiring demand; and High for exact-name alumni destination tracking.
 

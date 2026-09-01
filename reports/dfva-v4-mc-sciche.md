@@ -191,14 +191,14 @@ The market intelligence gathered for this program indicates consistent hiring ac
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Pharmaceutical QC and analytical method development sustain demand | Sustained High | Contract testing laboratories and pharma manufacturers actively hire LC-MS/NMR chemists. | W2, G1 |
-| Battery materials and critical minerals drive materials chemistry hiring | Fast | National critical minerals investments generate demand for materials chemists. | W2, G2 |
-| Chemical safety and environmental regulation expansion | Fast | AICIS notification requirements and PFAS remediation create compliance roles. | W1, G1 |
-| Physical experimentation and chemical synthesis moat | Stable | RACI standards and wet-bench laboratory work insulate chemistry from automation. | C4, C5, G1 |
-| Manual routine bench titration | Declining | Replaced by automated high-throughput analytical instrumentation. | C3, W2 |
-| Paper laboratory notebooks and manual record keeping | Declining | Replaced by electronic laboratory notebooks (ELN) and digital LIMS. | C3, G1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Pharmaceutical QC and analytical method development sustain demand | Sustained High | Contract testing laboratories and pharma manufacturers actively hire LC-MS/NMR chemists. — W2, G1 |
+| Battery materials and critical minerals drive materials chemistry hiring | Fast | National critical minerals investments generate demand for materials chemists. — W2, G2 |
+| Chemical safety and environmental regulation expansion | Fast | AICIS notification requirements and PFAS remediation create compliance roles. — W1, G1 |
+| Physical experimentation and chemical synthesis moat | Stable | RACI standards and wet-bench laboratory work insulate chemistry from automation. — C4, C5, G1 |
+| Manual routine bench titration | Declining | Replaced by automated high-throughput analytical instrumentation. — C3, W2 |
+| Paper laboratory notebooks and manual record keeping | Declining | Replaced by electronic laboratory notebooks (ELN) and digital LIMS. — C3, G1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for RACI and AICIS professional and statutory standards, and chemistry workforce demand; and High for exact-name alumni destination tracking.
 

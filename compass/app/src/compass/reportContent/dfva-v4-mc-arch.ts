@@ -165,14 +165,14 @@ The market intelligence gathered for this program indicates sustained demand acr
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Mandatory BIM and Revit documentation proficiency | Sustained High | Practices expect graduates to coordinate 3D BIM models and OpenBIM/IFC data from day one. | W2, G1 |
-| NCC 2025 Section J compliance and embodied carbon accounting | Rising | Regulatory changes mandate architects capable of whole-of-life embodied carbon calculations. | C2, C4, G2 |
-| Heritage and adaptive reuse specialist scarcity | Sustained High | Urban renewal drives recruitment for architects skilled in adaptive reuse and statutory conservation. | C4, W2 |
-| AI concept generation elevating critical design curation | Rising / Volatile | AI image engines generate concepts quickly, requiring architects to verify buildability and compliance. | C2, C3, W2 |
-| Manual 2D CAD drafting without BIM integration | Declining | Standalone drafting is obsolete in major commercial and civic projects. | W2, G1 |
-| Conceptual rendering without constructability analysis | Declining | Pure styling without structural and environmental performance is penalized. | C4, W2, G2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Mandatory BIM and Revit documentation proficiency | Sustained High | Practices expect graduates to coordinate 3D BIM models and OpenBIM/IFC data from day one. — W2, G1 |
+| NCC 2025 Section J compliance and embodied carbon accounting | Rising | Regulatory changes mandate architects capable of whole-of-life embodied carbon calculations. — C2, C4, G2 |
+| Heritage and adaptive reuse specialist scarcity | Sustained High | Urban renewal drives recruitment for architects skilled in adaptive reuse and statutory conservation. — C4, W2 |
+| AI concept generation elevating critical design curation | Rising / Volatile | AI image engines generate concepts quickly, requiring architects to verify buildability and compliance. — C2, C3, W2 |
+| Manual 2D CAD drafting without BIM integration | Declining | Standalone drafting is obsolete in major commercial and civic projects. — W2, G1 |
+| Conceptual rendering without constructability analysis | Declining | Pure styling without structural and environmental performance is penalized. — C4, W2, G2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for AIA, AACA, and ARBV statutory frameworks, architectural practice hiring data, and digital BIM/computational adoption; and High for exact-name alumni destination tracking.
 

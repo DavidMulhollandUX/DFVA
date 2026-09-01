@@ -185,14 +185,14 @@ The market intelligence gathered for this program indicates robust demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Automation of routine subjective refraction and automated fundus grading | Fast | Optical retail chains deploy automated autorefractors and AI fundus screening. | C2, C3, W2 |
-| Scope-of-practice expansion into autonomous glaucoma therapeutics | Fast | Regulatory updates expand therapeutic prescribing and glaucoma shared-care scope. | W1, G1 |
-| Severe undersupply of optometrists in rural and regional Australia | Sustained High | Regional eye clinics offer relocation grants and signing bonuses for registered graduates. | W3, G1 |
-| Statutory licensure and physical instrumentation moat | Stable | AHPRA registration and physical slit-lamp examination protect clinical scope. | W1, W2, W3 |
-| Standalone manual refraction without pathology screening | Declining | Replaced by comprehensive eye health and chronic ocular disease co-management. | C3, W2 |
-| Isolated practice models and paper record-keeping | Declining | Replaced by multidisciplinary shared-care protocols and integrated digital health records. | C1, G1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Automation of routine subjective refraction and automated fundus grading | Fast | Optical retail chains deploy automated autorefractors and AI fundus screening. — C2, C3, W2 |
+| Scope-of-practice expansion into autonomous glaucoma therapeutics | Fast | Regulatory updates expand therapeutic prescribing and glaucoma shared-care scope. — W1, G1 |
+| Severe undersupply of optometrists in rural and regional Australia | Sustained High | Regional eye clinics offer relocation grants and signing bonuses for registered graduates. — W3, G1 |
+| Statutory licensure and physical instrumentation moat | Stable | AHPRA registration and physical slit-lamp examination protect clinical scope. — W1, W2, W3 |
+| Standalone manual refraction without pathology screening | Declining | Replaced by comprehensive eye health and chronic ocular disease co-management. — C3, W2 |
+| Isolated practice models and paper record-keeping | Declining | Replaced by multidisciplinary shared-care protocols and integrated digital health records. — C1, G1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for OCANZ and OBA statutory competency standards, and optometry workforce data; and High for exact-name alumni destination tracking.
 

@@ -170,14 +170,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Acute nationwide shortage of registered specialist dentists | Sustained High | DBA and ADC data confirm acute specialist shortages across regional and metro ANZ. | W3, G1 |
-| AI diagnostic imaging integration into specialist clinical workflows | Fast | Specialist clinics adopt AI radiograph and CBCT screening tools (Pearl, Overjet). | C3, W2 |
-| Mandatory 3-year clinical hospital residency and thesis completion | Stable | Hospital specialist appointments require ADC-accredited residency and minor thesis. | C4, C5, G1 |
-| Statutory specialist registration monopoly and physical procedural moat | Stable | AHPRA title protection and surgical precision protect specialist dentistry. | W2, W3, G2 |
-| Standalone 2D radiographic tracing without 3D CBCT | Declining | Replaced by 3D CBCT, digital cephalometrics, and guided-surgery workflows. | C3, W2 |
-| Solo practice without digital referral networks | Declining | Replaced by multidisciplinary specialist networks and hospital referral pathways. | C1, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Acute nationwide shortage of registered specialist dentists | Sustained High | DBA and ADC data confirm acute specialist shortages across regional and metro ANZ. — W3, G1 |
+| AI diagnostic imaging integration into specialist clinical workflows | Fast | Specialist clinics adopt AI radiograph and CBCT screening tools (Pearl, Overjet). — C3, W2 |
+| Mandatory 3-year clinical hospital residency and thesis completion | Stable | Hospital specialist appointments require ADC-accredited residency and minor thesis. — C4, C5, G1 |
+| Statutory specialist registration monopoly and physical procedural moat | Stable | AHPRA title protection and surgical precision protect specialist dentistry. — W2, W3, G2 |
+| Standalone 2D radiographic tracing without 3D CBCT | Declining | Replaced by 3D CBCT, digital cephalometrics, and guided-surgery workflows. — C3, W2 |
+| Solo practice without digital referral networks | Declining | Replaced by multidisciplinary specialist networks and hospital referral pathways. — C1, W1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for ADC and DBA statutory specialist standards, and hospital/clinic hiring demand; and High for exact-name alumni destination tracking.
 

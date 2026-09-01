@@ -184,7 +184,7 @@ incorporate or issue shares), MEDIUM for the NBER/SSRN working paper (not yet
 peer-reviewed, US-only) and the Forbes/Inc pieces (contributor trend-analysis, not
 primary research), and LOW for the two Indie Hackers threads (small, self-selected,
 not representative of the founder population). No live job-ad data exists for this
-profession key at all (`jobAds.source: "none"`, `count: 0`), and no L4-lane
+profession key at all (no Adzuna data available), and no L4-lane
 (professional-body or accreditation) discourse exists in the record either — both
 recorded as gaps, not as zero-signal findings.
 

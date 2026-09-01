@@ -149,14 +149,14 @@ The market intelligence gathered for this program indicates vibrant, highly coll
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| National Cultural Policy (*Revive*) and First Nations co-leadership | Sustained High | Creative Australia funding guidelines mandate First Nations self-determination and shared decision-making across arts boards and festival curation. | C1, W1, G2 |
-| AI disruption in arts marketing and ticketing CRM | Rising / Volatile | Adoption of AI predictive analytics in platforms like Tessitura and Spektrix demands arts managers who can govern pricing algorithms and protect patron data privacy. | C2, C3, W2 |
-| Live performance cost pressures and philanthropic diversification | Rising | Severe inflationary cost pressures in touring require managers to execute complex financial modeling and multi-source grant co-investment. | C4, W2, G2 |
-| Modern award compliance and cultural safety in creative workplaces | Rising | Sector demands producers adept in Live Performance Award bargaining and trauma-informed cultural safety for diverse artistic ensembles. | W1, W2, G1 |
-| Traditional passive box-office reporting without CRM analytics | Declining | Standalone ticketing reporting is replaced by integrated customer relationship lifecycle modeling. | C3, C2 |
-| Generic arts grant applications lacking quantitative impact data | Declining | Funding bodies demand rigorous social return on investment (SROI) and community engagement metrics. | C5, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| National Cultural Policy (*Revive*) and First Nations co-leadership | Sustained High | Creative Australia funding guidelines mandate First Nations self-determination and shared decision-making across arts boards and festival curation. — C1, W1, G2 |
+| AI disruption in arts marketing and ticketing CRM | Rising / Volatile | Adoption of AI predictive analytics in platforms like Tessitura and Spektrix demands arts managers who can govern pricing algorithms and protect patron data privacy. — C2, C3, W2 |
+| Live performance cost pressures and philanthropic diversification | Rising | Severe inflationary cost pressures in touring require managers to execute complex financial modeling and multi-source grant co-investment. — C4, W2, G2 |
+| Modern award compliance and cultural safety in creative workplaces | Rising | Sector demands producers adept in Live Performance Award bargaining and trauma-informed cultural safety for diverse artistic ensembles. — W1, W2, G1 |
+| Traditional passive box-office reporting without CRM analytics | Declining | Standalone ticketing reporting is replaced by integrated customer relationship lifecycle modeling. — C3, C2 |
+| Generic arts grant applications lacking quantitative impact data | Declining | Funding bodies demand rigorous social return on investment (SROI) and community engagement metrics. — C5, W2 |
 
 **Evidence confidence.** The market intelligence carries **Medium–High** confidence overall: High for Creative Australia policy standards, major performing arts recruitment, and CRM technology disruption; and Medium for granular creative sector salary tracking.
 

@@ -228,14 +228,14 @@ The market intelligence gathered for this program indicates consistent public se
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Algorithmic welfare governance and administrative fairness | Rising | Following the Robodebt Royal Commission, Australian Public Service agencies mandate rigorous ethical scrutiny of automated compliance, predictive allocation, and administrative decision-making. | C3, W1, G2 |
-| Generative AI in policy briefing and consultation synthesis | Rising / Volatile | Widespread adoption of LLM tools across government departments for rapid policy scanning and consultation synthesis; requires evaluative judgement to detect hallucinations, factual errors, and subtle bias. | C2, C3, W2 |
-| Causal program evaluation and quasi-experimental methods | Rising | Australian Treasury Evaluation Toolkit and AIFS mandate pre-registered field trials, difference-in-differences, and empirical causal attribution to justify social spending. | C5, G2 |
-| Community co-design and Indigenous data sovereignty | Rising | National Agreement on Closing the Gap and CARE Principles require participatory co-design and ethical data governance with lived-experience cohorts. | C1, W1, W3 |
-| Uncritical descriptive policy summaries without empirical evaluation | Declining | Public sector departments increasingly discount generic literature summaries in favour of rigorous empirical evaluation and econometric modeling. | C5, W2 |
-| Manual cross-jurisdictional desk scanning without AI augmentation | Declining | Routine comparative policy compilation is heavily automated by enterprise search and LLM synthesis tools. | C3, C2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Algorithmic welfare governance and administrative fairness | Rising | Following the Robodebt Royal Commission, Australian Public Service agencies mandate rigorous ethical scrutiny of automated compliance, predictive allocation, and administrative decision-making. — C3, W1, G2 |
+| Generative AI in policy briefing and consultation synthesis | Rising / Volatile | Widespread adoption of LLM tools across government departments for rapid policy scanning and consultation synthesis; requires evaluative judgement to detect hallucinations, factual errors, and subtle bias. — C2, C3, W2 |
+| Causal program evaluation and quasi-experimental methods | Rising | Australian Treasury Evaluation Toolkit and AIFS mandate pre-registered field trials, difference-in-differences, and empirical causal attribution to justify social spending. — C5, G2 |
+| Community co-design and Indigenous data sovereignty | Rising | National Agreement on Closing the Gap and CARE Principles require participatory co-design and ethical data governance with lived-experience cohorts. — C1, W1, W3 |
+| Uncritical descriptive policy summaries without empirical evaluation | Declining | Public sector departments increasingly discount generic literature summaries in favour of rigorous empirical evaluation and econometric modeling. — C5, W2 |
+| Manual cross-jurisdictional desk scanning without AI augmentation | Declining | Routine comparative policy compilation is heavily automated by enterprise search and LLM synthesis tools. — C3, C2 |
 
 **Evidence confidence.** The market intelligence carries **Medium–High** confidence overall: High for APS/State government recruitment data and post-Robodebt algorithmic governance mandates; High for evaluation consulting demand; and Low for program-specific granular salary tracking.
 

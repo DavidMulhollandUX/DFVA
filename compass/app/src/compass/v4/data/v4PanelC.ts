@@ -28526,8 +28526,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
         "Assignment 1: A scientifically informed, multimedia exploration, created using methods from either geospatial technology, botany, ecology or horticulture that communicates planting or planning insights effectively",
         "This subject is the culmination of each student's studies in Master of Landscape Architecture. Students will be offered a studio thematic which provides scope for an original approach to design synthesis in landscape architecture, which is based on research and critical thinking.",
         "With course coordinator approval, high-achieving students may undertake the Landscape Architecture Design Thesis as an individually supervised design investigation. Similarly, under exceptional circumstances and with course coordinator approval, the Design Thesis may be undertaken as a written thesis.",
-        "Assignment 1: Written, graphic and verbal presentation of design concept, analytical work and design explorations (3000 words equivalent, Week 7, 30%)",
-        "Assignment 2: Written, graphic and verbal presentation of final design proposal. This will include exhibition panels and an accompanying document (7000 words equivalent, End of semester, 70%)"
+        "Assignment 1: Written, graphic and verbal presentation of design concept, analytical work and design explorations",
+        "Assignment 2: Written, graphic and verbal presentation of final design proposal. This will include exhibition panels and an accompanying document"
       ]
     },
     "C5": {

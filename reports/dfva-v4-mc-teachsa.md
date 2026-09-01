@@ -156,7 +156,7 @@ not observed employment or displacement outcomes, and the US AIOE figure has no 
 ANZSCO mapping. Theme 3 (Chegg/tutoring exposure) is rated MEDIUM: the Chegg cuts are
 corporate workforce, not a tutor-occupation census, and the JSA Education Aides score is
 an ANZSCO 4-digit group broader than the narrower occupation. The report also flags that
-its §2 job-ad volume block (Adzuna) is a templated placeholder repeated across 164
+its §2 job-ad volume (Adzuna) is a templated placeholder repeated across 164
 unrelated occupations and must be treated as absent, not as a demand measurement; that
 the program's own Learning Area subject specialisations are not named in the supplied
 evidence extract, so the job-family-to-specialisation mapping in Table 1 is inferred;

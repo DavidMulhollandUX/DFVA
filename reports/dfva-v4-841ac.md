@@ -207,14 +207,14 @@ The market intelligence gathered for this program indicates acute workforce shor
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Critical workforce shortages in public and rural community clinics | Fast | Health services recruit oral health therapists to address treatment waitlists. | C4, W3 |
-| Rapid adoption of digital intraoral scanning and chairside imaging | Fast | Dental practices mandate proficiency in digital scanners (iTero, TRIOS). | C3, G1 |
-| Dual-scope adult and paediatric restorative therapy expansion | Fast | Scope changes allow trained therapists to provide full restorative care. | W2, G1 |
-| Very low substitution pressure in manual operative clinical care | Stable | Manual dexterity in restorations and local anaesthesia is immune to AI. | W2, G2 |
-| Manual film radiography and chemical processing | Declining | Replaced by digital sensor imaging and AI caries detection overlays. | C3, W2 |
-| Paper dental charting and manual recall systems | Declining | Replaced by integrated cloud-based dental practice management systems. | C3, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Critical workforce shortages in public and rural community clinics | Fast | Health services recruit oral health therapists to address treatment waitlists. — C4, W3 |
+| Rapid adoption of digital intraoral scanning and chairside imaging | Fast | Dental practices mandate proficiency in digital scanners (iTero, TRIOS). — C3, G1 |
+| Dual-scope adult and paediatric restorative therapy expansion | Fast | Scope changes allow trained therapists to provide full restorative care. — W2, G1 |
+| Very low substitution pressure in manual operative clinical care | Stable | Manual dexterity in restorations and local anaesthesia is immune to AI. — W2, G2 |
+| Manual film radiography and chemical processing | Declining | Replaced by digital sensor imaging and AI caries detection overlays. — C3, W2 |
+| Paper dental charting and manual recall systems | Declining | Replaced by integrated cloud-based dental practice management systems. — C3, W1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for ADC, DBA, and ADOHTA statutory standards, and clinical dental hiring demand; and High for exact-name alumni destination tracking.
 

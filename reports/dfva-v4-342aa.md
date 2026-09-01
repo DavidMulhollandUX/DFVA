@@ -168,14 +168,14 @@ The market intelligence gathered for this program indicates acute, highly protec
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| RANZCP Fellowship accreditation and medical registration | Sustained High | Specialist medical qualification provides a non-negotiable regulatory barrier against algorithmic substitution. | W1, W2, G1 |
-| Ambient clinical AI documentation platforms (Heidi Health, Lyrebird) | Rising / Volatile | Ambient transcription tools enter psychiatric intakes, requiring psychiatrists to audit machine notes against diagnostic nuance and statutory risk criteria. | C2, C3, W2 |
-| Severe regional and subspecialty consultant psychiatrist shortages | Sustained High | Victorian Mental Health Royal Commission implementation sustains high demand for academically credentialed psychiatric registrars. | C4, W3, G2 |
-| Therapeutic alliance, empathy, and crisis de-escalation | Sustained High | Relational empathy, building rapport with paranoid patients, and managing transference cannot be automated. | C1, W1, W3 |
-| Manual descriptive progress note-taking without ambient dictation tools | Declining | Basic session transcription is automated by compliant clinical speech models. | C3, C2 |
-| Generic literature reviews and unvalidated clinical risk checklists | Declining | Complex multi-system psychiatric formulations replace descriptive checkbox summaries. | C5, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| RANZCP Fellowship accreditation and medical registration | Sustained High | Specialist medical qualification provides a non-negotiable regulatory barrier against algorithmic substitution. — W1, W2, G1 |
+| Ambient clinical AI documentation platforms (Heidi Health, Lyrebird) | Rising / Volatile | Ambient transcription tools enter psychiatric intakes, requiring psychiatrists to audit machine notes against diagnostic nuance and statutory risk criteria. — C2, C3, W2 |
+| Severe regional and subspecialty consultant psychiatrist shortages | Sustained High | Victorian Mental Health Royal Commission implementation sustains high demand for academically credentialed psychiatric registrars. — C4, W3, G2 |
+| Therapeutic alliance, empathy, and crisis de-escalation | Sustained High | Relational empathy, building rapport with paranoid patients, and managing transference cannot be automated. — C1, W1, W3 |
+| Manual descriptive progress note-taking without ambient dictation tools | Declining | Basic session transcription is automated by compliant clinical speech models. — C3, C2 |
+| Generic literature reviews and unvalidated clinical risk checklists | Declining | Complex multi-system psychiatric formulations replace descriptive checkbox summaries. — C5, W2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for RANZCP specialist curriculum standards, public hospital workforce shortages, and digital health software trends; and High for exact-name alumni destination tracking.
 

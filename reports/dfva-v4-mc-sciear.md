@@ -175,14 +175,14 @@ The market intelligence gathered for this program indicates active hiring across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Critical minerals exploration and field mapping expansion | Sustained High | National sovereign supply chain investments drive geologist recruitment. | W2, G1 |
-| Atmospheric science bifurcation: model runners vs model evaluators | Fast | BoM and CSIRO automate standard runs; demand shifts to observational validation. | C2, C3, G2 |
-| JORC Code statutory sign-off and physical core verification | Stable | JORC legal accountability insulates resource modeling from complete automation. | C2, W2, G1 |
-| Groundwater security and environmental statutory approvals | Sustained High | EPAs and consultancies require physical bore installation and testing. | W2, W3 |
-| Routine manual 2D GIS digitizing | Declining | Replaced by automated spatial feature extraction from satellite/drone data. | C3, W2 |
-| Paper core logging and manual descriptive records | Declining | Replaced by high-resolution core imaging and automated spectral logging. | C3, G1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Critical minerals exploration and field mapping expansion | Sustained High | National sovereign supply chain investments drive geologist recruitment. — W2, G1 |
+| Atmospheric science bifurcation: model runners vs model evaluators | Fast | BoM and CSIRO automate standard runs; demand shifts to observational validation. — C2, C3, G2 |
+| JORC Code statutory sign-off and physical core verification | Stable | JORC legal accountability insulates resource modeling from complete automation. — C2, W2, G1 |
+| Groundwater security and environmental statutory approvals | Sustained High | EPAs and consultancies require physical bore installation and testing. — W2, W3 |
+| Routine manual 2D GIS digitizing | Declining | Replaced by automated spatial feature extraction from satellite/drone data. — C3, W2 |
+| Paper core logging and manual descriptive records | Declining | Replaced by high-resolution core imaging and automated spectral logging. — C3, G1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for AIG and AusIMM statutory standards, and mining/environmental workforce demand; and High for exact-name alumni destination tracking.
 

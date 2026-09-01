@@ -169,14 +169,14 @@ The market intelligence gathered for this program indicates strong hiring across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| TGA/FDA regulatory submission automation drives demand for compliance auditors | Fast | Pharma manufacturers deploy AI dossier drafting tools, requiring human audit. | C2, C3, W2 |
-| Commercialisation deal flow surges in oncology and cell therapies | Sustained High | Tech transfer offices recruit analysts for licensing and patent due diligence. | C1, W1, G1 |
-| QA batch record automation and human sign-off mandate | Fast | GMP facilities automate routine review, but TGA requires human QA release. | C2, W2, G2 |
-| Professional Science Master’s alignment and industry accountability | Stable | NPSMA accreditation and industry capstones connect students to real firms. | W1, W3, G1 |
-| Routine regulatory document formatting | Declining | Replaced by cloud-based automated regulatory submission platforms. | C3, W2 |
-| Paper batch records and manual deviation logging | Declining | Replaced by integrated digital quality management systems (Veeva/MasterControl). | C3, G1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| TGA/FDA regulatory submission automation drives demand for compliance auditors | Fast | Pharma manufacturers deploy AI dossier drafting tools, requiring human audit. — C2, C3, W2 |
+| Commercialisation deal flow surges in oncology and cell therapies | Sustained High | Tech transfer offices recruit analysts for licensing and patent due diligence. — C1, W1, G1 |
+| QA batch record automation and human sign-off mandate | Fast | GMP facilities automate routine review, but TGA requires human QA release. — C2, W2, G2 |
+| Professional Science Master’s alignment and industry accountability | Stable | NPSMA accreditation and industry capstones connect students to real firms. — W1, W3, G1 |
+| Routine regulatory document formatting | Declining | Replaced by cloud-based automated regulatory submission platforms. — C3, W2 |
+| Paper batch records and manual deviation logging | Declining | Replaced by integrated digital quality management systems (Veeva/MasterControl). — C3, G1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for TGA and AusBiotech statutory and industry standards; and High for exact-name alumni destination tracking.
 

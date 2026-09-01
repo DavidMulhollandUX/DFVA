@@ -167,14 +167,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Transformation of BA role into automation & AI workflow architect | Fast | Consultancies and banks replace manual requirements drafting with LLM-assisted workflow tools. | C2, C3, W2 |
-| Escalating demand for enterprise AI governance (ISO 42001 / NIST) | Rising / Rapid | Enterprises scaling GenAI pilots require certified governance frameworks to manage risk. | C3, G1 |
-| Resurgence of enterprise architecture driven by hybrid cloud/AI | Rising | Complex multi-vendor AI integrations require principled enterprise architectural governance. | C1, G1 |
-| Entry-level project coordination administrative automation | Shrinking | Routine JIRA ticket creation and status reporting are absorbed by AI plugins. | W1, W2 |
-| Manual drafting of static business requirements documents (BRDs) | Declining | Replaced by iterative automation audits and user journey specifications. | C2, W2 |
-| Standard dashboard builds without underlying data engineering depth | Declining | Basic Power BI dashboards automated; semantic layers and dbt pipelines demanded. | C3, G2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Transformation of BA role into automation & AI workflow architect | Fast | Consultancies and banks replace manual requirements drafting with LLM-assisted workflow tools. — C2, C3, W2 |
+| Escalating demand for enterprise AI governance (ISO 42001 / NIST) | Rising / Rapid | Enterprises scaling GenAI pilots require certified governance frameworks to manage risk. — C3, G1 |
+| Resurgence of enterprise architecture driven by hybrid cloud/AI | Rising | Complex multi-vendor AI integrations require principled enterprise architectural governance. — C1, G1 |
+| Entry-level project coordination administrative automation | Shrinking | Routine JIRA ticket creation and status reporting are absorbed by AI plugins. — W1, W2 |
+| Manual drafting of static business requirements documents (BRDs) | Declining | Replaced by iterative automation audits and user journey specifications. — C2, W2 |
+| Standard dashboard builds without underlying data engineering depth | Declining | Basic Power BI dashboards automated; semantic layers and dbt pipelines demanded. — C3, G2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for ACS accreditation, ISACA governance frameworks, and professional technology consulting recruitment data; and High for exact-name alumni destination tracking.
 

@@ -183,14 +183,14 @@ The market intelligence gathered for this program indicates sustained demand acr
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Mobile vertical video production as baseline newsroom requirement | Fast | Major media outlets screen out applicants without mobile shooting and editing skills. | W2, G1 |
-| Data journalism, coding, and FOI skills creating premium hiring tier | Rising | Investigative desks actively recruit journalists with Python, SQL, and FOI dispute skills. | C5, G2 |
-| Public sector communications as highest-volume graduate employer | Sustained High | Government agencies value journalism graduates for rapid media cycle management. | W1, G1 |
-| Generative AI integration creating ethical verification mandates | Rising / Fast | MEAA guidelines mandate human oversight to prevent algorithmic misinformation and bias. | C2, C3, W2 |
-| Commodity wire rewriting and press release summarisation | Declining | Automated by LLMs across global news wire services. | C3, W2 |
-| Traditional print sub-editing and static page layout | Declining | Newsrooms transition completely to digital CMS and social-first packaging. | W2, G1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Mobile vertical video production as baseline newsroom requirement | Fast | Major media outlets screen out applicants without mobile shooting and editing skills. — W2, G1 |
+| Data journalism, coding, and FOI skills creating premium hiring tier | Rising | Investigative desks actively recruit journalists with Python, SQL, and FOI dispute skills. — C5, G2 |
+| Public sector communications as highest-volume graduate employer | Sustained High | Government agencies value journalism graduates for rapid media cycle management. — W1, G1 |
+| Generative AI integration creating ethical verification mandates | Rising / Fast | MEAA guidelines mandate human oversight to prevent algorithmic misinformation and bias. — C2, C3, W2 |
+| Commodity wire rewriting and press release summarisation | Declining | Automated by LLMs across global news wire services. — C3, W2 |
+| Traditional print sub-editing and static page layout | Declining | Newsrooms transition completely to digital CMS and social-first packaging. — W2, G1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for MEAA ethical standards, APC principles, and newsroom employment data; and High for exact-name alumni destination tracking.
 

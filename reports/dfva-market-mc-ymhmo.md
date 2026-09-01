@@ -11,11 +11,11 @@
 
 ## 2. RECENT JOB AD SIGNALS
 
-No live job-ad dataset exists for this profession record. `data/professions/061399.json` carries `jobAds.source: "none"`, `jobAds.count: 0`, and empty `topEmployers` and `topSkills` arrays — no Adzuna or equivalent query was ever run against Youth Mental Health Practitioner, Mental Health Program Coordinator or Public Health Officer titles. This is an absence of data, not a negative labour-market signal, and every item below is marked accordingly.
+No live job-ad dataset exists for this profession record. No Adzuna or equivalent job-ad data was collected for this occupation — no vacancy counts, employer names, or skill data exist — no Adzuna or equivalent query was ever run against Youth Mental Health Practitioner, Mental Health Program Coordinator or Public Health Officer titles. This is an absence of data, not a negative labour-market signal, and every item below is marked accordingly.
 
 1. **No job-ad volume figure exists for this occupation at all.** Unlike profession records with a captured Adzuna snapshot, there is no count of live postings to report for this program's destination titles. **LOW confidence** — this reflects a genuine research gap, not measured low demand.
-2. **No employer names can be reported.** `jobAds.topEmployers` is an empty array in the source record — there is no basis to name who is currently hiring into this occupation. **LOW confidence.**
-3. **No skill-term data can be reported.** `jobAds.topSkills` is likewise empty — no keyword-frequency signal exists to inform curriculum planning from job-ad text. **LOW confidence.**
+2. **No employer names can be reported.** No employer data was captured in the source record — there is no basis to name who is currently hiring into this occupation. **LOW confidence.**
+3. **No skill-term data can be reported.** No job-ad skill data was captured — no keyword-frequency signal exists to inform curriculum planning from job-ad text. **LOW confidence.**
 4. **The nearest available real signal is a government funding/eligibility policy, not job-ad data.** Victoria's Department of Education funds the school-based Mental Health Practitioners initiative and specifies the registration pathway required to be employed in it (L1-1), which confirms a real, government-funded delivery channel exists for this program's core destination role — but a funding policy is not a measure of posting volume, growth, or employer demand. **LOW-MEDIUM confidence** (the underlying policy source is real and current; its bearing on job-ad-style demand signals is indirect).
 
 This gap is flagged again in §6 as the top priority for closing before institutional use.
@@ -81,7 +81,7 @@ This supports a claim about how a large, self-selected sample of Claude.ai conve
 | Signal Area | Confidence | Gap / Caveat |
 |---|---|---|
 | Job family / registration-pathway mapping (§1) | MEDIUM | The registration pathway is sourced from current Victorian government and headspace policy text (L1-1, L1-2), but no source shows the relative size of each job family among this program's actual graduates |
-| Job ad signals (§2) | NONE | `jobAds.source: "none"` in the underlying profession record — no live job-ad query has ever been run for this occupation; every figure in §2 beyond the DET policy reference is an acknowledged absence, not a measurement |
+| Job ad signals (§2) | NONE | No Adzuna or equivalent job-ad data was collected for this occupation — no live job-ad query has ever been run for this occupation; every figure in §2 beyond the DET policy reference is an acknowledged absence, not a measurement |
 | Administrative AI-adoption signals (Theme 1) | MEDIUM | Edutopia's figure is one school psychologist's self-reported estimate, not an audited study; ASTHO's is the professional body's own membership survey (n=44) with an internal prose/table inconsistency in the source itself, tracked here to the table figure (32%) |
 | AI-enabled triage/clinical-labour shift (Theme 2) | LOW-MEDIUM | The NPR article could not be independently re-verified by direct fetch (WebFetch timed out three times; this claim rests on a WebSearch-returned summary); the figures are self-reported during an active labour dispute; the setting is US, adult-focused, and one earlier version of this claim required a factual correction |
 | Practitioner discourse on AI (Theme 3) | LOW | A single editorial and two quoted academics, not a sampled survey; the framing is child-and-youth-care and social-work generally, not youth mental health practitioner-specific, and neither source is Australian |

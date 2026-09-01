@@ -184,14 +184,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Acute nationwide shortage of titled pelvic health physiotherapists | Sustained High | APA and Continence Foundation confirm severe shortages in private and public networks. | W3, G1 |
-| Integration of digital biofeedback, RTUS, and telehealth triage | Fast | Specialist clinics mandate RTUS imaging and digital app-based biofeedback tools. | C3, W2 |
-| Mandatory hurdle practical clinical exams and placements | Stable | Hospital departments and private clinics require verified clinical hurdle exams. | W2, W3, G1 |
-| Hands-on physical assessment and intimate therapeutic moat | Stable | Intra-cavity digital examination and physical palpation insulate pelvic physiotherapy. | W2, W3, G2 |
-| Generic outpatient physiotherapy without pelvic specialization | Declining | Replaced by postgraduate APA-titled pelvic floor expertise. | C4, G1 |
-| Paper-based bladder diaries and manual tracking logs | Declining | Replaced by app-based digital tracking and real-time ultrasound biofeedback. | C3, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Acute nationwide shortage of titled pelvic health physiotherapists | Sustained High | APA and Continence Foundation confirm severe shortages in private and public networks. — W3, G1 |
+| Integration of digital biofeedback, RTUS, and telehealth triage | Fast | Specialist clinics mandate RTUS imaging and digital app-based biofeedback tools. — C3, W2 |
+| Mandatory hurdle practical clinical exams and placements | Stable | Hospital departments and private clinics require verified clinical hurdle exams. — W2, W3, G1 |
+| Hands-on physical assessment and intimate therapeutic moat | Stable | Intra-cavity digital examination and physical palpation insulate pelvic physiotherapy. — W2, W3, G2 |
+| Generic outpatient physiotherapy without pelvic specialization | Declining | Replaced by postgraduate APA-titled pelvic floor expertise. — C4, G1 |
+| Paper-based bladder diaries and manual tracking logs | Declining | Replaced by app-based digital tracking and real-time ultrasound biofeedback. — C3, W2 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for APA and PBA statutory titling standards, and hospital/clinic hiring demand; and High for exact-name alumni destination tracking.
 

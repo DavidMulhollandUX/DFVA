@@ -174,14 +174,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Quantum technology and hardware hiring surge across ANZ | Fast | Commercial quantum firms recruit physicists with Qiskit and HPC skills. | C3, G1 |
-| Defence science (DSTG and ASD) expansion under AUKUS | Sustained High | Defense R&D expands signals, sensing, and electromagnetic modeling roles. | W1, G1 |
-| Quantitative finance and risk analytics demand computational skills | Sustained High | Trading firms require mathematical modeling with verified Python/C++ skills. | C2, G1 |
-| Medical physics accreditation and clinical radiation safety | Stable | Radiation oncology clinics demand ACPSEM pathway dosimetry and QA. | W2, G1 |
-| Standalone MATLAB scripting without Python/C++ interoperability | Declining | Replaced by Python scientific ecosystems (NumPy, JAX) and GPU parallelism. | C3, W2 |
-| Academic-only writing without reproducible code repositories | Declining | Replaced by reproducible computational notebooks and Git repositories. | C3, G1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Quantum technology and hardware hiring surge across ANZ | Fast | Commercial quantum firms recruit physicists with Qiskit and HPC skills. — C3, G1 |
+| Defence science (DSTG and ASD) expansion under AUKUS | Sustained High | Defense R&D expands signals, sensing, and electromagnetic modeling roles. — W1, G1 |
+| Quantitative finance and risk analytics demand computational skills | Sustained High | Trading firms require mathematical modeling with verified Python/C++ skills. — C2, G1 |
+| Medical physics accreditation and clinical radiation safety | Stable | Radiation oncology clinics demand ACPSEM pathway dosimetry and QA. — W2, G1 |
+| Standalone MATLAB scripting without Python/C++ interoperability | Declining | Replaced by Python scientific ecosystems (NumPy, JAX) and GPU parallelism. — C3, W2 |
+| Academic-only writing without reproducible code repositories | Declining | Replaced by reproducible computational notebooks and Git repositories. — C3, G1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for AIP, DSTG, and ACPSEM statutory and professional frameworks, and quantum/defense hiring demand; and High for exact-name alumni destination tracking.
 

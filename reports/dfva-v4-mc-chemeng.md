@@ -137,14 +137,14 @@ The market intelligence gathered for this program indicates strong, energy-trans
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Clean energy transition and critical minerals refining demand | Sustained High | Decarbonization pilots and lithium processing drive recruitment across Australia. | W2, G1, G2 |
-| Commercial process simulation and digital twin modelling mandatory | Rising / Volatile | Chemical engineering employers mandate steady-state and dynamic plant simulation capabilities. | C3, W2 |
-| Major Hazard Facility statutory safety regulations and HAZOP | Sustained High | Non-delegable process safety liabilities require chemical engineers trained in HAZOP and LOPA. | C1, W1, W2 |
-| Thermodynamic reality checks against AI control algorithms | Rising | Automated control loops require engineers who can detect unphysical equilibrium predictions. | C2, C3 |
-| Manual steady-state spreadsheet calculations | Declining | Standalone calculations are replaced by integrated commercial simulation packages. | C3, W2 |
-| Carbon-intensive plant design without lifecycle emissions analysis | Declining | Industrial design demands whole-of-life greenhouse gas accounting and energy optimization. | C4, C5, G1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Clean energy transition and critical minerals refining demand | Sustained High | Decarbonization pilots and lithium processing drive recruitment across Australia. — W2, G1, G2 |
+| Commercial process simulation and digital twin modelling mandatory | Rising / Volatile | Chemical engineering employers mandate steady-state and dynamic plant simulation capabilities. — C3, W2 |
+| Major Hazard Facility statutory safety regulations and HAZOP | Sustained High | Non-delegable process safety liabilities require chemical engineers trained in HAZOP and LOPA. — C1, W1, W2 |
+| Thermodynamic reality checks against AI control algorithms | Rising | Automated control loops require engineers who can detect unphysical equilibrium predictions. — C2, C3 |
+| Manual steady-state spreadsheet calculations | Declining | Standalone calculations are replaced by integrated commercial simulation packages. — C3, W2 |
+| Carbon-intensive plant design without lifecycle emissions analysis | Declining | Industrial design demands whole-of-life greenhouse gas accounting and energy optimization. — C4, C5, G1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for IChemE and Engineers Australia statutory frameworks, energy and resources hiring data, and digital simulation adoption; and High for exact-name alumni destination tracking.
 

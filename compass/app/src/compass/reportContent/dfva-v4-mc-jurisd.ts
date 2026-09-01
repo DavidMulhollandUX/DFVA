@@ -174,14 +174,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Automation of junior document review and first-pass drafting | Fast | Top-tier law firms deploy legal LLMs, reducing routine paralegal document review. | C2, C3, W2 |
-| "AI-fluent" selection criteria in graduate solicitor recruitment | Rising | Law firms expect graduates to supervise AI copilots and audit synthetic citations. | C3, G1 |
-| Resilient premium on oral advocacy and relational client skills | Sustained High | Courtroom litigation and dispute resolution remain highly resistant to AI automation. | W1, G2 |
-| Emergence of legal operations and AI compliance counsel roles | Rising | Enterprises recruit legal technologists to audit AI risk and ensure regulatory compliance. | C3, G1 |
-| Manual discovery and keyword-based document review | Declining | Replaced by predictive coding and generative AI contract analytics. | C3, W2 |
-| Pure rote memorisation of statutory rules | Declining | Replaced by contextual application, statutory problem framing, and judicial strategy. | C2, G1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Automation of junior document review and first-pass drafting | Fast | Top-tier law firms deploy legal LLMs, reducing routine paralegal document review. — C2, C3, W2 |
+| "AI-fluent" selection criteria in graduate solicitor recruitment | Rising | Law firms expect graduates to supervise AI copilots and audit synthetic citations. — C3, G1 |
+| Resilient premium on oral advocacy and relational client skills | Sustained High | Courtroom litigation and dispute resolution remain highly resistant to AI automation. — W1, G2 |
+| Emergence of legal operations and AI compliance counsel roles | Rising | Enterprises recruit legal technologists to audit AI risk and ensure regulatory compliance. — C3, G1 |
+| Manual discovery and keyword-based document review | Declining | Replaced by predictive coding and generative AI contract analytics. — C3, W2 |
+| Pure rote memorisation of statutory rules | Declining | Replaced by contextual application, statutory problem framing, and judicial strategy. — C2, G1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for Law Council of Australia, VLAB, and LIV statutory ethical standards, and law firm recruitment data; and High for exact-name alumni destination tracking.
 

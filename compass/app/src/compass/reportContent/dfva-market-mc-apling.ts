@@ -25,7 +25,9 @@ All four AIOE values sit well above the field-basis median (83.21), consistent w
 
 ## 2. RECENT JOB AD SIGNALS
 
-This section draws on real Adzuna AU job-ad data captured in each profession record (\`jobAds.source: "adzuna-au"\`, snapshots fetched 2026-08-27 to 2026-09-01) — none of the four records carries the known fabricated-jobAds template (\`count: 1200\`, \`topEmployers: ["Victorian State Government", "Specialist National Employers", "Leading Australian Consultancies"]\`); all four were checked and none matches.
+This section draws on Adzuna Australian job-ad data captured between 27 August and 1 September 2026.
+
+> **Data provenance.** All four destination-occupation records were checked against a known templated placeholder that recurs across the wider profession dataset (count 1,200, identical employer and skill lists); none matches — each record carries its own query-specific Adzuna snapshot.
 
 1. **Adult-literacy/ESL teaching carries the largest live ad volume of the four.** The Adzuna AU snapshot for "adult literacy teacher" returned **244** live job ads (fetched 2026-09-01) — a real, directly measured count for the assessment window. **HIGH confidence.**
 2. **University lecturing demand is smaller but the employer list is clean.** The "education lecturer" query returned **89** ads; all eight named top employers are universities (University of Sydney, The University of Western Australia, University of Newcastle, Victorian Institute of Technology, CQ University, University of New South Wales, Monash University, University of Tasmania). **HIGH confidence** on employer composition; **MEDIUM** on how far a narrow query string represents total postsecondary-teaching demand.
@@ -94,7 +96,7 @@ These are two self-selected forum threads of unknown participant counts plus one
 
 ## 6. EVIDENCE CONFIDENCE + GAPS
 
-**Overall confidence: MEDIUM.** Per the corpus convention (high = ≥2 L1/L2/L3 claims AND an L5 corpus; medium = ≥1 L1/L2/L3 claim; low = none), only one of the four destination-occupation profession records — Education Administrators, Postsecondary (11-9033) — clears the "high" bar on its own (1 L1 + 2 L2 claims, plus an L5 corpus). The other three (Instructional Coordinators 25-9031, Adult Literacy/GED Teachers 25-3011, Education Teachers Postsecondary 25-1081) carry **zero** verifiable L1/L2/L3 claims in their own claims data. All four carry real L4 Adzuna job-ad data (checked against, and none matching, the known fabricated-jobAds template) and an L5 \`last30days\` practitioner-discourse corpus, though each L5 sample is dominated by generic AI-industry chatter (coding-agent workflow posts, unrelated technology tweets) rather than education- or applied-linguistics-specific content — only a minority of items in each sample bear directly on teaching or language education, and those are the ones cited in §3.
+**Overall confidence: MEDIUM.** Per the corpus convention (high = ≥2 L1/L2/L3 claims AND an L5 corpus; medium = ≥1 L1/L2/L3 claim; low = none), only one of the four destination-occupation profession records — Education Administrators, Postsecondary (11-9033) — clears the "high" bar on its own (1 L1 + 2 L2 claims, plus an L5 corpus). The other three (Instructional Coordinators 25-9031, Adult Literacy/GED Teachers 25-3011, Education Teachers Postsecondary 25-1081) carry **zero** verifiable L1/L2/L3 claims in their own claims data. All four carry real L4 Adzuna job-ad data and an L5 \`last30days\` practitioner-discourse corpus, though each L5 sample is dominated by generic AI-industry chatter (coding-agent workflow posts, unrelated technology tweets) rather than education- or applied-linguistics-specific content — only a minority of items in each sample bear directly on teaching or language education, and those are the ones cited in §3.
 
 **Genuine gaps:**
 

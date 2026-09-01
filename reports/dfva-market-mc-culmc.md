@@ -13,8 +13,8 @@
 
 ## 2. RECENT JOB AD SIGNALS
 
-The profession record's `jobAds` field carries `source: "adzuna-au"` with a real count — this
-is live labour-market data, not an estimate, and it is stated plainly as such below.
+The job-ad data is a real Adzuna Australian snapshot with a genuine query-specific count — this
+is live labour-market data, not a modelled estimate, and it is stated plainly as such below.
 
 1. **Real live data.** Adzuna's Australian job-ad index returned **1,200** live postings for
    the query "museum technicians and conservators" over the window 2025-08-01 to 2026-08-24
@@ -145,7 +145,7 @@ that it changes conservator staffing or task allocation industry-wide.
 | CI-2 | The profession's sole governing ethics instrument (AICCM Code) has no AI-specific provisions on record (Theme 1), and core professional-conduct assessment sits in a single compulsory unit, CUMC90006 Conservation Industry Internship (W1 scored 2). | D2 Professional Ethics and Governance | Extend the core internship/professional-practice assessment to explicitly cover AI-use disclosure and ethical accountability in collections documentation, ahead of any AICCM update. |
 | CI-3 | AI-assisted restoration tooling is emerging as a documented adjunct to hands-on treatment (Theme 4), while the program's authentic-treatment assessment (W2, CUMC90030 Conservation Practice) is not established as a full assessment spine across all three program-length variants. | D4 Workplace Realism | When W2's authentic-treatment assessment is extended to the 100pt variant, build in awareness of AI-assisted imaging and masking tools as adjuncts to, not substitutes for, hands-on treatment. |
 | CI-4 | Documentation and cataloguing is the specific functional category where deployed generative AI concentrates (Theme 2), while C5's methodology-and-data-collection work is assessed only at the outcomes level for the cited core units, not in a graded assessment table (C5 demoted to score 1 on verification). | D5 Applied Research Rigor | Move methodology-selection and data-collection work into a graded core assessment task, and incorporate critical evaluation of AI-assisted data-collection or cataloguing tools as part of that methodology design. |
-| CI-5 | Real job-ad data (jobAds.topSkills) shows ethical reasoning and stakeholder communication as top-ranked demand signals, and the program's collaborative, criteria-based assessment task (C1) currently sits in a unit compulsory only in the 200pt structure. | D1 Durable Human-Judgement Skills | Make the Sustainable Collections collaborative-assessment task, or an equivalent, compulsory across all three program-length variants (100pt/150pt/200pt), not the 200pt variant alone. |
+| CI-5 | Real job-ad data (the Adzuna snapshot) shows ethical reasoning and stakeholder communication as top-ranked demand signals, and the program's collaborative, criteria-based assessment task (C1) currently sits in a unit compulsory only in the 200pt structure. | D1 Durable Human-Judgement Skills | Make the Sustainable Collections collaborative-assessment task, or an equivalent, compulsory across all three program-length variants (100pt/150pt/200pt), not the 200pt variant alone. |
 
 ## 6. EVIDENCE CONFIDENCE + GAPS
 

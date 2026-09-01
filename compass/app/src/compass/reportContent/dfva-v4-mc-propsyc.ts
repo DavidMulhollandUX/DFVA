@@ -199,14 +199,14 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Demand for provisional psychologists under PsyBA 5+1 model | Sustained High | Community mental health and NDIS providers recruit accredited MPsych graduates. | W3, G1 |
-| Universal requirement for telehealth delivery and EHR tools | Fast | Job postings mandate demonstrated video-therapy and electronic records skills. | C3, W2 |
-| Mandatory hurdle clinical skills exams and PsyBA alignment | Stable | Employers and AHPRA require demonstrated competency in test administration. | W1, W2, G1 |
-| Therapeutic alliance and crisis de-escalation moat | Stable | Diagnostic interviewing and suicide risk formulation insulate clinical psychology. | W2, G2 |
-| Paper-and-pencil psychometric scoring without norming tools | Declining | Replaced by computerised assessment scoring and digital mental health tools. | C3, W2 |
-| Siloed practice without interprofessional team coordination | Declining | Replaced by multidisciplinary collaborative care across health teams. | C1, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Demand for provisional psychologists under PsyBA 5+1 model | Sustained High | Community mental health and NDIS providers recruit accredited MPsych graduates. — W3, G1 |
+| Universal requirement for telehealth delivery and EHR tools | Fast | Job postings mandate demonstrated video-therapy and electronic records skills. — C3, W2 |
+| Mandatory hurdle clinical skills exams and PsyBA alignment | Stable | Employers and AHPRA require demonstrated competency in test administration. — W1, W2, G1 |
+| Therapeutic alliance and crisis de-escalation moat | Stable | Diagnostic interviewing and suicide risk formulation insulate clinical psychology. — W2, G2 |
+| Paper-and-pencil psychometric scoring without norming tools | Declining | Replaced by computerised assessment scoring and digital mental health tools. — C3, W2 |
+| Siloed practice without interprofessional team coordination | Declining | Replaced by multidisciplinary collaborative care across health teams. — C1, W1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for APAC and PsyBA statutory standards, and mental health clinical hiring demand; and High for exact-name alumni destination tracking.
 

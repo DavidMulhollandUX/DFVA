@@ -179,14 +179,14 @@ The market intelligence gathered for this program indicates expanding demand acr
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Rapid deployment of AI diagnostic tools and SaMD regulation | Fast | TGA and medical defence groups recruit specialist health regulatory counsel. | C2, C3 |
-| Escalating demand for health data governance and privacy compliance | Fast | Hospital networks require legal counsel fluent in genomic and digital health privacy. | C3, G1 |
-| Shift toward complex coronial advocacy and clinical risk frameworks | Stable | Health services seek lawyers capable of managing root cause analyses and tribunals. | W2, G2 |
-| High AI exposure in routine medical doc-review and checklists | Very Fast | Routine filing faces automation, raising the premium on bioethical reasoning. | C3, W2 |
-| Routine health compliance tracking without clinical workflow literacy | Declining | Replaced by integrated clinical governance and algorithmic oversight. | C3, W2 |
-| Siloed medico-legal analysis without public health pandemic context | Declining | Replaced by global health law, biosecurity, and international biotech governance. | C1, C4 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Rapid deployment of AI diagnostic tools and SaMD regulation | Fast | TGA and medical defence groups recruit specialist health regulatory counsel. — C2, C3 |
+| Escalating demand for health data governance and privacy compliance | Fast | Hospital networks require legal counsel fluent in genomic and digital health privacy. — C3, G1 |
+| Shift toward complex coronial advocacy and clinical risk frameworks | Stable | Health services seek lawyers capable of managing root cause analyses and tribunals. — W2, G2 |
+| High AI exposure in routine medical doc-review and checklists | Very Fast | Routine filing faces automation, raising the premium on bioethical reasoning. — C3, W2 |
+| Routine health compliance tracking without clinical workflow literacy | Declining | Replaced by integrated clinical governance and algorithmic oversight. — C3, W2 |
+| Siloed medico-legal analysis without public health pandemic context | Declining | Replaced by global health law, biosecurity, and international biotech governance. — C1, C4 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for AHPRA, AABHL, and Law Council statutory benchmarks, and health legal hiring demand; and High for exact-name alumni destination tracking.
 

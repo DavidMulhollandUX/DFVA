@@ -190,14 +190,14 @@ The market intelligence gathered for this program indicates intense transformati
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Penetration of Gen-AI legal tech copilots (Harvey, CoCounsel) | Fast | Top-tier firms mandate proficiency in automated document review and drafting. | C2, C3 |
-| Escalating demand for cross-border M&A and regulatory specialists | Fast | Corporate transactions require foreign investment and FIRB compliance expertise. | C4, G1 |
-| Shift from passive doctrinal recall to strategic deal architecture | Fast | Employers seek commercial lawyers capable of structuring transactional risk. | W2, G2 |
-| High AI substitution pressure on routine legal drafting and research | Very Fast | Standardized drafting faces displacement, elevating complex advisory skills. | C3, W2 |
-| Routine precedent collation and manual discovery | Declining | Replaced by automated e-discovery pipelines and generative legal AI platforms. | C3, W2 |
-| Siloed domestic legal analysis without international fluency | Declining | Replaced by multi-jurisdictional cross-border transaction governance. | C1, C4 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Penetration of Gen-AI legal tech copilots (Harvey, CoCounsel) | Fast | Top-tier firms mandate proficiency in automated document review and drafting. — C2, C3 |
+| Escalating demand for cross-border M&A and regulatory specialists | Fast | Corporate transactions require foreign investment and FIRB compliance expertise. — C4, G1 |
+| Shift from passive doctrinal recall to strategic deal architecture | Fast | Employers seek commercial lawyers capable of structuring transactional risk. — W2, G2 |
+| High AI substitution pressure on routine legal drafting and research | Very Fast | Standardized drafting faces displacement, elevating complex advisory skills. — C3, W2 |
+| Routine precedent collation and manual discovery | Declining | Replaced by automated e-discovery pipelines and generative legal AI platforms. — C3, W2 |
+| Siloed domestic legal analysis without international fluency | Declining | Replaced by multi-jurisdictional cross-border transaction governance. — C1, C4 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for Law Council of Australia and ACC professional benchmarks, and commercial legal hiring demand; and High for exact-name alumni destination tracking.
 

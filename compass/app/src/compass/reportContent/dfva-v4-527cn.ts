@@ -201,14 +201,14 @@ The market intelligence gathered for this program indicates strong and growing d
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| Acute hospital demand for specialist neuropsychological diagnosis | Fast | Public healthcare networks recruit clinical neuropsychology registrars. | C4, W3 |
-| Demand for paediatric and neurodevelopmental specialists | Fast | Specialist hospitals seek neuropsychologists skilled in developmental genetics. | C4, W3 |
-| Integration of digital cognitive testing platforms and scoring AI | Fast | Practices require practitioners capable of supervising automated psychometrics. | C3, G1 |
-| Low substitution pressure in live patient assessment and testimony | Stable | Qualitative behavioral observation and forensic capacity remain resilient. | W2, G2 |
-| Manual norm calculations without digital testing literacy | Declining | Replaced by supervised computerized testing platforms and AI scoring audits. | C3, W2 |
-| Isolated reporting without interprofessional medical team context | Declining | Replaced by multidisciplinary case conferences and integrated rehab planning. | C1, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| Acute hospital demand for specialist neuropsychological diagnosis | Fast | Public healthcare networks recruit clinical neuropsychology registrars. — C4, W3 |
+| Demand for paediatric and neurodevelopmental specialists | Fast | Specialist hospitals seek neuropsychologists skilled in developmental genetics. — C4, W3 |
+| Integration of digital cognitive testing platforms and scoring AI | Fast | Practices require practitioners capable of supervising automated psychometrics. — C3, G1 |
+| Low substitution pressure in live patient assessment and testimony | Stable | Qualitative behavioral observation and forensic capacity remain resilient. — W2, G2 |
+| Manual norm calculations without digital testing literacy | Declining | Replaced by supervised computerized testing platforms and AI scoring audits. — C3, W2 |
+| Isolated reporting without interprofessional medical team context | Declining | Replaced by multidisciplinary case conferences and integrated rehab planning. — C1, W1 |
 
 **Evidence confidence.** The market intelligence carries **High** confidence overall: High for APAC, PsyBA, and APS CCN statutory standards, and hospital clinical hiring demand; and High for exact-name alumni destination tracking.
 

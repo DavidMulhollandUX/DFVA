@@ -198,14 +198,14 @@ The market intelligence gathered for this program indicates healthy, specialized
 
 ### Market Signals and Skill Shifts
 
-| Signal / Shift | Trend | Destination Context | Bears on |
-|---|---|---|---|
-| First Nations co-curation and Indigenous Cultural Intellectual Property (ICIP) | Sustained High | AMaGA standards require curators to navigate Indigenous data sovereignty, provenance auditing, and respectful co-curation with source communities. | C1, W1, G2 |
-| AI in museum cataloguing and digital collection management | Rising / Volatile | Adoption of automated image tagging and AI metadata generation requires curators to audit and override colonial taxonomy bias and hallucinated provenance. | C2, C3, W2 |
-| Climate-adaptive conservation and disaster risk mitigation | Rising | Growing environmental risks demand curators and registrars skilled in flood/fire disaster recovery and low-carbon exhibition touring logistics. | C4, W2, G2 |
-| Multidisciplinary exhibition project delivery and pitching | Rising | Galleries require curators who can lead complex spatial projects coordinating conservators, freight contractors, and public funding bodies. | C1, W1, W3 |
-| Traditional passive curating without community co-design | Declining | Standalone curatorial authoring is replaced by participatory and decolonial frameworks. | C1, G2 |
-| Manual paper-based registrarial filing without modern database systems | Declining | Enterprise museum platforms (TMS, EMu) automate physical record indexing. | C3, C2 |
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| First Nations co-curation and Indigenous Cultural Intellectual Property (ICIP) | Sustained High | AMaGA standards require curators to navigate Indigenous data sovereignty, provenance auditing, and respectful co-curation with source communities. — C1, W1, G2 |
+| AI in museum cataloguing and digital collection management | Rising / Volatile | Adoption of automated image tagging and AI metadata generation requires curators to audit and override colonial taxonomy bias and hallucinated provenance. — C2, C3, W2 |
+| Climate-adaptive conservation and disaster risk mitigation | Rising | Growing environmental risks demand curators and registrars skilled in flood/fire disaster recovery and low-carbon exhibition touring logistics. — C4, W2, G2 |
+| Multidisciplinary exhibition project delivery and pitching | Rising | Galleries require curators who can lead complex spatial projects coordinating conservators, freight contractors, and public funding bodies. — C1, W1, W3 |
+| Traditional passive curating without community co-design | Declining | Standalone curatorial authoring is replaced by participatory and decolonial frameworks. — C1, G2 |
+| Manual paper-based registrarial filing without modern database systems | Declining | Enterprise museum platforms (TMS, EMu) automate physical record indexing. — C3, C2 |
 
 **Evidence confidence.** The market intelligence carries **Medium–High** confidence overall: High for AMaGA/ICOM sector standards, public gallery recruitment, and ICIP provenance protocols; and Low for granular visual arts salary tracking.
 
