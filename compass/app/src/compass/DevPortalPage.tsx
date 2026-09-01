@@ -12,10 +12,8 @@ export default function DevPortalPage() {
             Developer Portal
           </h1>
           <p className="text-muted-foreground mt-4 max-w-2xl text-lg">
-            Integrate DFVA assessments into your university's curriculum
-            analytics pipeline. Clean API, typed SDKs, interactive playground —
-            the developer experience Coursedog, Modern Campus, and CourseLoop
-            don't offer.
+            Integrate Evidura assessments into your university's curriculum
+            analytics pipeline. Clean API, typed SDKs, interactive playground.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a

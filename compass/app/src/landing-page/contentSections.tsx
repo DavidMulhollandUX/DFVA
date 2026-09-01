@@ -261,7 +261,6 @@ export const footerNavigation = {
     { name: "Developers", href: "/developers" },
   ],
   company: [
-    { name: "University of Melbourne", href: "https://unimelb.edu.au" },
     { name: "Privacy", href: "/privacy" },
     { name: "Terms of Service", href: "/terms" },
   ],
