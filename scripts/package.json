@@ -9,7 +9,7 @@
     "dfva:gen-content": "npx tsx dfva-content-generate.ts",
     "dfva:gen-assessments": "npx tsx dfva-build-assessments.ts",
     "dfva:v4-schema-check": "npx tsx dfva-v4-schema-check.ts",
-    "dfva:check": "npx tsx dfva-check.ts && npx tsx dfva-v4-schema-check.ts && npx tsx dfva-content-check.ts && npx tsx dfva-registry-check.ts && npx tsx dfva-assessments-check.ts && npx tsx dfva-panela-coverage-check.ts && npx tsx dfva-reports-index-check.ts && npx tsx dfva-v4-verify-evidence.ts --strict && npx tsx check-capture-duplicates.ts && python3 check-report-prose.py",
+    "dfva:check": "npx tsx dfva-check.ts && npx tsx dfva-v4-schema-check.ts && npx tsx dfva-content-check.ts && npx tsx dfva-registry-check.ts && npx tsx dfva-assessments-check.ts && npx tsx dfva-panela-coverage-check.ts && npx tsx dfva-reports-index-check.ts && npx tsx dfva-instrument-purity-check.ts && npx tsx dfva-v4-verify-evidence.ts --strict && npx tsx check-capture-duplicates.ts && python3 check-report-prose.py",
     "dfva:assessments-check": "npx tsx dfva-assessments-check.ts",
     "dfva:check-registry": "npx tsx dfva-registry-check.ts",
     "dfva:content-check": "npx tsx dfva-content-check.ts",
@@ -22,6 +22,7 @@
     "dfva:capture-check": "npx tsx check-capture-provenance.ts",
     "dfva:capture-queue": "python3 build-capture-queue.py",
     "dfva:reports-index": "npx tsx dfva-reports-index-check.ts",
+    "dfva:purity-check": "npx tsx dfva-instrument-purity-check.ts",
     "dfva:report-prose": "python3 check-report-prose.py"
   },
   "devDependencies": {

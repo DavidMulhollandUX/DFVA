@@ -20,8 +20,11 @@ import AssessorPage from "./src/compass/AssessorPage" with { type: "ref" };
 import ReportsPage from "./src/compass/ReportsPage" with { type: "ref" };
 import ReportPage from "./src/compass/ReportPage" with { type: "ref" };
 import V4ReportsPage from "./src/compass/v4/V4ReportsPage" with { type: "ref" };
+import V4InsightsPage from "./src/compass/v4/V4InsightsPage" with { type: "ref" };
 import InsightsPage from "./src/compass/InsightsPage" with { type: "ref" };
-import MatrixDashboardPage from "./src/compass/v2/MatrixDashboardPage" with { type: "ref" };
+// MatrixDashboardPage (v2) retired with the v4 insights rebase: /insights now
+// routes to V4InsightsPage. The v2 and v3 report pages remain routed and
+// untouched — only the superseded portfolio derivations went.
 import V2ReportPage from "./src/compass/v2/V2ReportPage" with { type: "ref" };
 import V3ReportPage from "./src/compass/v3/V3ReportPage" with { type: "ref" };
 import V31ReportPage from "./src/compass/v31/V31ReportPage" with { type: "ref" };
@@ -279,8 +282,8 @@ export default app({
     route("ReportsRoute", "/reports", page(V4ReportsPage)),
     route("ReportsArchiveRoute", "/reports/archive", page(ReportsPage)),
     route("ReportDetailRoute", "/reports/:reportSlug", page(ReportPage)),
-    // v2 (dev branch): /insights IS the v2 matrix dashboard; v1 hub moves to /insights/v1
-    route("InsightsRoute", "/insights", page(MatrixDashboardPage)),
+    // /insights is the v4 portfolio overview; the v1 hub moves to /insights/v1
+    route("InsightsRoute", "/insights", page(V4InsightsPage)),
     // InsightsPage renders CompetitiveThreatCard and ImpactReportCard, which
     // carry internal competitive-strategy commentary written in the first
     // person about the methodology ("validates DFVA's thesis", "DFVA should
