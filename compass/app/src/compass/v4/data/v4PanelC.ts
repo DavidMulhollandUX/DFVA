@@ -16458,8 +16458,6 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
           "G1",
           "G2"
         ],
-        "demotions": [],
-        "unquotable": [],
         "date": "2026-08-29"
       },
       "mechanical": true,
@@ -17292,7 +17290,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       },
       "mechanical": true,
       "date": "2026-08-29"
-    }
+    },
+    "ambiguities": []
   },
   "mc-arch": {
     "instrument": "4.2-draft",
@@ -17549,7 +17548,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       },
       "mechanical": true,
       "date": "2026-08-29"
-    }
+    },
+    "ambiguities": []
   },
   "mc-archeng": {
     "instrument": "4.2-draft",
@@ -17903,7 +17903,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       },
       "mechanical": true,
       "date": "2026-08-29"
-    }
+    },
+    "ambiguities": []
   },
   "mc-archup": {
     "instrument": "4.2-draft",
@@ -18265,7 +18266,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       },
       "mechanical": true,
       "date": "2026-08-29"
-    }
+    },
+    "ambiguities": []
   },
   "mc-ba": {
     "instrument": "4.2-draft",
@@ -21221,7 +21223,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       },
       "mechanical": true,
       "date": "2026-08-29"
-    }
+    },
+    "ambiguities": []
   },
   "mc-commgmt": {
     "instrument": "4.2-draft",
@@ -25875,7 +25878,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       },
       "mechanical": true,
       "date": "2026-08-29"
-    }
+    },
+    "ambiguities": []
   },
   "mc-foodpi": {
     "instrument": "4.2-draft",
@@ -25909,14 +25913,13 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     },
     "C4": {
       "score": 1,
-      "rationale": "Level 2 met: FOOD90031's 'Product launch announcement of an innovative food packaging material' and FOOD90032's 'Design brief and design proposal for an innovative food package' both require applying taught methods to a self-generated, unfamiliar product/design scenario rather than a fixed taught case — cross-context application, assessed. Level 3 (self-scoped capstone) is documented for the Minor Project route ('an independently generated research question and investigation'), but Minor Project is only one of two required alternatives (Internship being the other, which is placement- not research-focused) — the scoring-direction rule resolves this down to Level 2 rather than crediting the capstone route as guaranteed program evidence.",
+      "rationale": "Level 2 met: FOOD90031's 'Product launch announcement of an innovative food packaging material' and FOOD90032's 'Design brief and design proposal for an innovative food package' both require applying taught methods to a self-generated, unfamiliar product/design scenario rather than a fixed taught case — cross-context application, assessed. Level 3 (self-scoped capstone) is documented for the Minor Project route ('an independently generated research question and investigation'), but Minor Project is only one of two required alternatives (Internship being the other, which is placement- not research-focused) — the scoring-direction rule resolves this down to Level 2 rather than crediting the capstone route as guaranteed program evidence. REVIEW NOTE (2026-08-31, evidence-attribution guard): Demoted 2 -> 1 by evidence-attribution review 2026-08-31 (see dfva-v4-verify-evidence guard run notes): the design-brief/product-launch lines cited here are also cited verbatim in W1 and W2, and the rubric's non-negotiable rule assigns evidence to exactly one item — the construct these lines name most directly is W2's authentic-artefact / W1's professional-genre claim, not C4's cross-context-application claim. With those lines discounted, the remaining C4 support is a single non-core Minor Project ILO sentence (Minor Project being one of two required alternative routes), which does not clear a Level 2 bar requiring documented CORE assessment of transfer. Score not raised without a fresh capture and scoring pass; flagged here per review instructions rather than re-scored upward.",
       "evidenceLines": [
         "Written Assignment - Product launch announcement of an innovative food packaging material",
         "Written Assignment - Design brief and design proposal for an innovative food package",
         "Integration and application of disciplinary knowledge and skills to an independently generated research question and investigation",
         "Students are required to complete 25 points of Internship subjects OR 25 points of Minor Project subjects"
-      ],
-      "reviewNote": "Demoted 2 -> 1 by evidence-attribution review 2026-08-31 (see dfva-v4-verify-evidence guard run notes): the design-brief/product-launch lines cited here are also cited verbatim in W1 and W2, and the rubric's non-negotiable rule assigns evidence to exactly one item — the construct these lines name most directly is W2's authentic-artefact / W1's professional-genre claim, not C4's cross-context-application claim. With those lines discounted, the remaining C4 support is a single non-core Minor Project ILO sentence (Minor Project being one of two required alternative routes), which does not clear a Level 2 bar requiring documented CORE assessment of transfer. Score not raised without a fresh capture and scoring pass; flagged here per review instructions rather than re-scored upward."
+      ]
     },
     "C5": {
       "score": 2,
@@ -28538,7 +28541,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       },
       "mechanical": true,
       "date": "2026-08-30"
-    }
+    },
+    "ambiguities": []
   },
   "mc-larchud": {
     "instrument": "4.2-draft",
