@@ -56,19 +56,16 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual pipetting and repetitive wet-lab tasks | Fast | Automated liquid handling operation and troubleshooting | Fast |
-| Paper-based lab notebooks and manual data entry | Very Fast | Electronic lab notebooks (ELN) and LIMS proficiency | Very Fast |
-| Statistical analysis via Excel only | Fast | R and Python for biomedical data analysis | Fast |
-| Isolated wet-lab skills without computational layer | Medium | Bioinformatics and computational biology skills | Fast |
-| Generic scientific writing without structured evidence synthesis | Medium | Systematic review methodology, meta-analysis, evidence grading | Medium |
-| On-site clinical trial monitoring (paper-based) | Medium | Risk-based remote monitoring, EDC platforms (Medidata, Veeva) | Fast |
-| Regulatory knowledge based on older TGA frameworks | Slow | TGA CTN/CTA post-reform compliance, ISO 13485, eCTD submission | Medium |
-| Passive literature reading | Medium | AI-assisted literature synthesis (Elicit, Semantic Scholar, Consensus) | Very Fast |
-| Generalist research assistant profile | Medium | Specialised domain depth (oncology, immunology, genomics, rare disease) | Medium |
-| Sole-author scientific communication | Slow | Cross-functional scientific communication: clinical, commercial, regulatory audiences | Medium |
+## 4. SKILL SHIFT SUMMARY
+
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-assisted literature synthesis and computational research tools (bioinformatics, R/Python) | **↑↑ Rising sharply** | Signal 1 (§2): bioinformatics tools are now required rather than preferred in research scientist and research officer ads, and wet-lab-only candidates are being screened out at shortlisting in genomics and precision medicine roles. D5 (AI literacy and governance) scores only 1/3 — no AI-specific units exist, and AI as a governed system is absent from the curriculum. |
+| GCP-certified clinical trial coordination | **↑↑ Rising sharply** | Signal 2 (§2): GCP certification is a near-universal prerequisite for CTC/CRA roles across ICON, IQVIA, Novotech and hospital research offices. CI-3 confirms this certification is not currently embedded in or facilitated by the curriculum. |
+| Regulatory affairs literacy (TGA CTN/CTA, ICH, eCTD) | **↑ Rising** | Signal 7 (§2): TGA's post-COVID regulatory workload has created entry-level demand for regulatory affairs associates. D3 (technical and quantitative depth) scores 3/3 for laboratory science overall, but no regulatory affairs curriculum exists despite clear subject-matter alignment. |
+| AI-assisted analysis and machine-learning familiarity for biomedical data | **↑ Rising** | Signal 4 (§2): Melbourne biotech and diagnostics employers (Starpharma, Hexima, Sonic Healthcare) are beginning to list AI-assisted analysis or ML familiarity in mid-level scientist ads — the same D5 gap (1/3) as above, now surfacing in applied industry roles rather than pure research. |
+| Sustained, self-scoped experimental research capability | **→ Stable, differentiating** | D7 (research methods rigour) and D4 (decision-making under uncertainty) both score 3/3: the 125-credit research project, the largest in this cohort, anchors durable, non-automatable methodological work. Signal 3 (§2) confirms this differentiates candidates against coursework-only master's graduates. |
+| Manual pipetting and repetitive wet-lab tasks without automation literacy | **↓↓ Falling sharply** | Existing declining-demand finding: displaced fast by automated liquid handling and troubleshooting, and paper-based lab notebooks/manual data entry are displaced very fast by ELN/LIMS proficiency, consistent with Job Family 3's MEDIUM–HIGH substitution pressure from advancing high-throughput automation (§1). |
 
 ## 5. CURRICULUM IMPLICATIONS
 | # | Implication | Dimension | Action |

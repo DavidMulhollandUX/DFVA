@@ -61,18 +61,15 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual literature review compilation | FAST | AI-assisted literature triage and evidence synthesis | FAST |
-| Hand-coded routine statistical analysis | MEDIUM | ML/AutoML-assisted biometrics and predictive modelling | MEDIUM |
-| Manual field-note/data transcription | FAST | Sensor/IoT and remote-sensing data pipeline management | FAST |
-| Generic report/grant first-drafting | MEDIUM | Grant strategy and novel-contribution framing (AI-assisted drafting, human-owned framing) | MEDIUM |
-| Siloed single-discipline agronomy expertise | SLOW | Hybrid agronomist-data-scientist profiles | FAST |
-| Manual GIS/imagery interpretation | MEDIUM | AI-assisted remote sensing with human ground-truthing/validation | MEDIUM |
-| Pure lab-technician-style bench execution (routine assays) | SLOW-MEDIUM | High-throughput phenotyping and automation-adjacent lab skills | MEDIUM |
-| Static, one-off field trial reporting | SLOW | Continuous/longitudinal on-farm trial data with digital integration | MEDIUM |
-| Generic sustainability reporting | SLOW | Quantified carbon/ESG measurement science | FAST |
-| Isolated academic-only career pathway framing | SLOW | Cross-sector (academia-government-agribusiness-agtech) career fluency | MEDIUM |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Hybrid agronomist-data-scientist profiles (remote sensing/ML plus field agronomy) | **↑↑ Rising sharply** | Signal 3 (§2) describes precision-agriculture data-scientist postings as "a distinct and growing category from a decade ago," and CI-1 (§5) flags this as a hiring preference the current curriculum has no explicit pathway for. |
+| Quantified carbon/ESG measurement science | **↑ Rising** | Signal 7 (§2) reports agribusiness corporates expanding sustainability/carbon-measurement research functions; CI-4 (§5) notes this durable career vertical is not currently offered as an elective or research theme. |
+| Applied bioinformatics and epidemiological/biometric modelling literacy | **↑ Rising** | Signal 2 (§2) shows agribusiness R&D postings now specifying "comfortable with data platforms (R, GIS, ag-data software)" alongside traditional field-trial experience. |
+| Regulatory and biosecurity science judgment | **→ Stable, differentiating** | Signal 6 (§2) identifies biosecurity/regulatory roles (APVMA, state biosecurity units) as requiring accountable human sign-off "not substitutable by AI," which CI-3 (§5) recommends surfacing explicitly in program positioning. |
+| Manual field-note and data transcription | **↓ Falling** | Signal 5 (§2) notes GRDC/AWI/MLA-funded project roles are shifting toward continuous, digitally-integrated trial data rather than one-off manual field records, consistent with CI-7's (§5) call to keep methods training aligned to digital agriculture. |
+| Manual literature review compilation | **↓ Falling** | The job-family map (§1) records AI-assisted literature triage and evidence synthesis as a rising skill across every listed job family, implying the manual-only version of this task is contracting in parallel. |
+| Generic "PhD in biology" credentialing without data-science specialisation | **↓↓ Falling sharply** | Signal 3 (§2) and CI-1 (§5) together describe the market rewarding hybrid agronomist-data-scientist profiles specifically over single-discipline specialists, the fastest-moving shift identified in this report. |
 
 ---
 

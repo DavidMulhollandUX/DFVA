@@ -63,16 +63,18 @@ Guidelines from [VetBoard Victoria](https://www.vetboard.vic.gov.au/) highlight 
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual unassisted radiograph reading without digital enhancement
-- Manual handwritten clinical notes and paper patient histories
-- Pure rote memorisation of breed predispositions without diagnostic reasoning
-
-### Rising Demand
-- Evaluative verification, audit, and clinician override of AI diagnostic imaging and point-of-care bloodwork tools
-- Ambient clinical AI scribe supervision and medical record quality assurance
-- Complex soft-tissue and orthopaedic surgical competence in high-throughput settings
-- Compassionate, trauma-informed client communication and ethical euthanasia counselling
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-assisted diagnostic triage judgment | **↑↑ Rising sharply** | The prior skill-shift table recorded this rising at FAST velocity from a Medium-declining baseline of manual bloodwork interpretation; Signal 4 (§2) confirms AI features are now bundled by default in veterinary practice-management platforms, while the companion assessment scores AI Literacy and Governance 1/3 given "rapid uptake of AI diagnostic imaging, ambient scribing, and triage tools" (CI-1). |
+| AI imaging pre-read verification skill | **↑↑ Rising sharply** | The prior skill-shift table recorded this rising at FAST velocity from a Medium-declining baseline of unsupported first-pass radiograph reading; Signal 3 (§2) confirms corporate consolidation is standardising AI-assisted imaging tools at the point of graduate entry. |
+| AI-scribe supervision and correction fluency | **↑ Rising** | The prior skill-shift table recorded this rising at FAST velocity as manual note-taking declines at the same rate; Signal 5 (§2) frames AI documentation tools as explicitly marketed to address burnout and early-career attrition — the sector's binding capacity constraint — and CI-5 recommends pairing this with wellbeing and boundary-setting content. |
+| Telehealth and remote triage capability for rural coverage gaps | **↑ Rising** | The prior skill-shift table recorded this rising at MEDIUM velocity from a Slow-declining baseline of telehealth-free rural generalist practice; Signal 2 (§2) confirms government incentive schemes are redirecting graduate supply toward rural and production-animal practice to close a structural, not cyclical, shortage (CI-2). |
+| AI-assisted population health and surveillance data literacy | **↑ Rising** | The prior skill-shift table recorded this rising at MEDIUM velocity alongside a Medium-declining manual biosecurity record-keeping baseline; CI-6 flags government biosecurity and One Health roles as a growing but under-visible pathway relative to clinical practice. |
+| Physical examination, surgery and client-facing judgment on live patients | **→ Stable, differentiating** | The companion assessment scores Automation Exposure of Roles and Human and Relational Capability 3/3 each, describing entry-level veterinary work as "dominated by physical examination, surgery, procedural skill, and client-facing judgment... none of which AI can perform." |
+| Rural and production-animal veterinary shortage as durable demand | **→ Stable, differentiating** | Signal 1 and Signal 2 (§2) describe a structural, not cyclical, undersupply reinforced by bonded rural placements and HECS relief schemes, and CI-2 recommends strengthening rural rotation depth as a deliberate career pathway rather than a residual option. |
+| Manual clinical note-taking speed | **↓↓ Falling sharply** | The prior skill-shift table recorded this declining at FAST velocity, the same rate as the AI-scribe supervision skill recorded rising in its place. |
+| Individual case documentation burden | **↓↓ Falling sharply** | The prior skill-shift table recorded this declining at FAST velocity, with the freed time reallocated to caseload volume and procedural repetitions at the same velocity. |
+| First-pass radiograph reading without support tools | **↓ Falling** | The prior skill-shift table recorded this declining at Medium velocity — the source task being displaced by the AI imaging pre-read verification skill rising above. |
 
 ---
 

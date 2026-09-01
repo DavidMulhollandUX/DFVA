@@ -62,16 +62,15 @@ Reports by [AIFS](https://aifs.gov.au/) (2024) and the [AASW Reconciliation Acti
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual transcription of handwritten case notes and boilerplate referral summaries
-- Routine administrative eligibility cross-referencing and static service catalog navigation
-- Formulaic intake reporting without clinical risk formulation
-
-### Rising Demand
-- Evaluative judgement and override auditing of AI-generated risk scores and automated intake summaries
-- High-acuity trauma-informed counselling, crisis intervention, and empathetic relational engagement
-- Complex statutory decision-making, child protection risk synthesis, and family court evidence preparation
-- AI ethics, algorithmic welfare critique, and Indigenous data sovereignty governance
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative judgement and override auditing of AI-generated risk scores | **↑↑ Rising sharply** | Theme 1 (§3) reports studies in *British Journal of Social Work* (2024) and *Australian Social Work* (January 2025) documenting systemic bias risk when automated risk-scoring is applied to vulnerable families, and Signal 2 (§2) reports hospitals trialling automated referral triage and risk screening placing "an immense premium" on auditing AI outputs; CI-2 (§5) confirms core units lack structured override and verification logs (C2: 2/3). |
+| AI ethics, algorithmic welfare critique, and Indigenous data sovereignty governance | **↑ Rising** | Theme 3 (§3) reports AIFS and the AASW Reconciliation Action Plan requiring Indigenous Data Sovereignty frameworks and relational accountability over extractive algorithmic indexing, while CI-3 (§5) confirms algorithmic bias, Robodebt lessons and CARE principles remain unassessed across the core (C3: 2/3). |
+| Human-AI clinical documentation collaboration under uncompromising ethical accountability | **↑ Rising** | Theme 2 (§3) reports AASW and IFSW 2024 practice standards holding that AI transcription and case-note synthesis may relieve administrative burden but social workers retain full ethical accountability for confidentiality and clinical fidelity, and CI-1 (§5) confirms no formal human-AI task-allocation protocol is assessed (C1: 2/3). |
+| High-acuity trauma-informed counselling, crisis intervention, and empathetic relational engagement | **→ Stable, differentiating** | Signal 3 (§2) reports high resilience against automation (86.73 exposure score, entry 84.59) rooted in empathetic interpersonal engagement, non-verbal crisis assessment and statutory decision-making. |
+| Complex statutory decision-making, child protection risk synthesis, and family court evidence preparation | **→ Stable, differentiating** | Signal 4 (§2) reports the Royal Commission into Victoria's Mental Health System and the MARAM framework mandating advanced cross-sector, trauma-informed assessment, consistent with §1's LOW substitution-pressure rating for the Child, Youth & Family Welfare job family. |
+| Manual transcription of handwritten case notes and boilerplate referral summaries | **↓ Falling** | Signal 2 (§2) reports hospitals and human services organisations trialling speech-to-text case-note generation and automated referral triage. |
+| Routine administrative eligibility cross-referencing and formulaic intake reporting | **↓↓ Falling sharply** | Signal 3 (§2) reports administrative intake and routine reporting face automation pressure even as core relational and ethical capabilities remain insulated from substitution. |
 
 ---
 

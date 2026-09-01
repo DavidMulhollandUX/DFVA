@@ -58,16 +58,18 @@ Curriculum reviews by [OCANZ](https://www.ocanz.org/) underline that doctor of o
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Standalone manual refractive vision testing without pathology screening
-- Unassisted manual grading of retinal photographs
-- Paper-based patient record management and isolated practice models
-
-### Rising Demand
-- Evaluative verification, audit, and clinician override of AI diagnostic imaging tools (OCT and fundus photography)
-- Advanced therapeutic prescribing and chronic glaucoma / anterior eye management
-- Specialty lens design (scleral and orthokeratology for paediatric myopia)
-- Interprofessional collaborative care pathways with ophthalmology and general practice
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-assisted triage interpretation and override judgment | **↑↑ Rising sharply** | The prior skill-shift table recorded this rising at FAST velocity as manual routine refraction declines at the same rate; the companion assessment scores AI Literacy and Governance 1/3 despite retinal AI screening already being "one of the most clinically mature AI applications" directly relevant to this profession. |
+| Clinical validation and critique of AI diagnostic tools | **↑↑ Rising sharply** | The prior skill-shift table recorded this rising at MEDIUM velocity from a FAST-declining baseline of manual retinal image grading; Signal 5 (§2) names an emerging adjacent job family of AI-vendor clinical-liaison roles the curriculum doesn't yet acknowledge (CI-5), and CI-7 flags the research-project requirement (D7, 2/3) as under-leveraged for AI-validation research. |
+| Therapeutic prescribing and chronic disease co-management | **↑ Rising** | The prior skill-shift table recorded this rising at MEDIUM velocity as high-volume routine screening declines at FAST velocity; Signal 2 (§2) confirms increasing ad frequency tied to state-level scope-of-practice expansion, which CI-2 flags as under-referenced in program positioning. |
+| Myopia control and paediatric specialty practice | **↑ Rising** | The prior skill-shift table recorded this rising at FAST velocity; Signal 3 (§2) confirms growing independent-practice demand around orthokeratology and atropine myopia-control programs, a strength CI-3 says the curriculum does not clearly call out. |
+| Interdisciplinary co-management with ophthalmology and general practice | **↑ Rising** | The prior skill-shift table recorded this rising at FAST velocity from a MEDIUM-declining "purely reactive referral practice"; Signal 7 (§2) confirms growing ad frequency for co-located eye-care roles positioning optometrists as the first-contact triage layer. |
+| Complex clinical judgment and physical hands-on skill (slit-lamp, tonometry, lens fitting) | **→ Stable, differentiating** | The companion assessment scores Human and Relational Capability and Domain Depth 3/3 each, describing a profile that "resists substitution even where individual diagnostic inputs (imaging) are increasingly AI-assisted." |
+| Rural and regional practice, incentivised recruitment | **→ Stable, differentiating** | Signal 1 and Signal 4 (§2) describe persistent structural shortage in non-metro Australia and New Zealand that is "largely insulated from near-term AI substitution," and CI-6 flags this as a durable placement pathway orthogonal to AI displacement risk. |
+| Manual routine refraction as a standalone billable skill | **↓↓ Falling sharply** | The prior skill-shift table recorded this declining at FAST velocity, the same rate as the AI-triage skill recorded rising in its place. |
+| Manual retinal image grading as core screening task | **↓↓ Falling sharply** | The prior skill-shift table recorded this declining at FAST velocity — the source task being displaced by the AI-validation and critique skill rising above. |
+| High-volume routine screening as primary role definition | **↓ Falling** | The prior skill-shift table recorded this declining at FAST velocity as the role redefines around therapeutic prescribing and chronic disease co-management. |
 
 ---
 

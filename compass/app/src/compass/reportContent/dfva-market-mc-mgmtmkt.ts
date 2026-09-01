@@ -62,16 +62,15 @@ Policy guidance from [ACCC](https://www.accc.gov.au/) (2024) and [OAIC](https://
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine copywriting, social media post drafting, and standard email newsletter generation
-- Basic search engine optimization (SEO) keyword stuffing and boilerplate blog writing
-- Manual performance data entry and static marketing dashboard compilation
-
-### Rising Demand
-- Evaluative judgement and override auditing of AI-generated marketing copy, personas, and campaign strategies
-- Advanced marketing analytics, customer data platform (CDP) governance, and econometric attribution modeling
-- High-level brand strategy, cross-functional stakeholder leadership, and executive agency pitch defense
-- Algorithmic advertising ethics, ACCC regulatory compliance, and consumer privacy protection
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative judgement and override auditing of AI-generated marketing copy and personas | **↑↑ Rising sharply** | C2 scores 2/3 — marketing-strategy and consumer-research tasks lack structured override and verification logs (CI-2). Theme 1 (§3) — *Journal of Marketing* (2024) and *Marketing Science* (January 2025) — find excessive reliance on synthetic personas and generic AI copy causes "severe brand commoditization," requiring human marketers to validate synthetic data against authentic ethnographic research. |
+| Routine copywriting, SEO keyword stuffing and static dashboard compilation | **↓↓ Falling sharply** | Named directly in the Declining Demand list. Signal 3 (§2) reports 96.45 automation exposure across routine social-media scheduling, basic copywriting and formulaic marketing reporting. |
+| Algorithmic advertising ethics, ACCC compliance and consumer-privacy protection | **↑↑ Rising sharply** | C3 scores 2/3 — algorithmic consumer manipulation and surveillance-advertising ethics are unassessed across the core (CI-3). Theme 3 (§3) — ACCC and OAIC (2024) — enforce compliance against deceptive design patterns and unauthorized consumer data profiling. |
+| Human-AI task division in campaign strategy | **↑ Rising** | C1 scores 2/3 — collaborative marketing projects lack a formal human-AI task allocation protocol (CI-1). Theme 2 (§3) — AMI and AANA (2024) — call for explicit division of labour between human strategists governing brand ethics and AI agents executing programmatic bidding. |
+| High-level brand strategy, creative direction and executive pitch defense | **→ Stable, differentiating** | §1's Brand Strategy & Product Marketing family carries HIGH substitution pressure on routine tasks, yet "human creative direction" persists as the differentiator; Signal 1 (§2) frames marketer value shifting "from manual copy drafting to creative brand curation, emotional resonance." |
+| Marketing analytics, CDP governance and econometric attribution modelling | **↑ Rising** | Signal 2 (§2) — the phase-out of third-party cookies and Privacy Act/GDPR compliance force marketers toward compliant first-party data architectures and marketing-mix models; named directly in the Rising Demand list. |
+| Externally assessed, industry-embedded capstone practicum | **↑ Rising** | W1 scores 2/3 (Capstone pitches evaluated internally, without external CMO panels) and W3 scores 1/3 (Business Practicum and Internships are selective capstone options, not universal). CI-4 and CI-5 call for external CPM/AMI panels and live client marketing briefs. |
 
 ---
 

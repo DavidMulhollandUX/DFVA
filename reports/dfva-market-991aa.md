@@ -58,16 +58,14 @@ Commentary from medical research institute leads and [ACTA](https://clinicaltria
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Uncritical associational regression without formal causal assumptions
-- Manual rote data cleaning in R/Stata easily scripted by AI tools
-- Disconnected statistical reporting without clinical translation
-
-### Rising Demand
-- Causal inference modeling, target trial emulation, and DAG construction
-- Evaluative critique and verification of AI-generated statistical scripts
-- GCP-compliant Statistical Analysis Plan (SAP) formulation and protocol pre-registration
-- Interprofessional translation of biostatistical concepts to clinical trial investigators
+| Skill | Direction | Rationale |
+|---|---|---|
+| Causal inference and target trial emulation | **↑↑ Rising sharply** | Theme 1 (§3) reports that leading journals and regulators now require target trial emulation and DAG-based confounding control, not associational regression; C5 scores only 2/3, with no documented methodology defence for the required Research Project. |
+| Evaluative critique of AI-generated statistical code | **↑↑ Rising sharply** | Theme 2 (§3) finds AI coding assistants speed routine R/Stata work but introduce subtle errors under complex sampling designs; C2 and C3 both score 1/3 — no core unit assesses criterion-referenced critique of statistical output or AI reliance/override decisions. |
+| Interprofessional clinical communication | **↑ Rising** | Theme 3 (§3) documents a persistent gap translating statistical uncertainty to clinical investigators; W1 scores 1/3 because the only core spoken assessment is a tutorial addressed to the teaching team, not clinicians. |
+| GCP-compliant Statistical Analysis Plan (SAP) design | **→ Stable, differentiating** | Signal 1 (§2) and the G1 PASS show SSA accreditation and GCP-compliant SAPs are an established, sustained hiring requirement across medical research institutes and CROs, not a new or declining one. |
+| Manual rote data cleaning in R/Stata | **↓ Falling** | Theme 2 (§3) records routine data manipulation being increasingly automated by AI coding tools, even though C3's core content is still built around manual Stata/R operation (1/3). |
+| Uncritical associational regression without causal assumptions | **↓↓ Falling sharply** | Theme 1 (§3) and the Market Signals table record medical journals and funders actively rejecting naive correlational analysis in favour of pre-registered causal designs. |
 
 ---
 

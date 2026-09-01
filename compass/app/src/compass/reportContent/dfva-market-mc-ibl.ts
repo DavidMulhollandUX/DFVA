@@ -65,14 +65,14 @@ Separately, Forbes and IBTimes UK reported in July 2026 that Skyfall AI, founded
 **Bearing:** C3. Both the CAIO-authority trend and the Skyfall experiment argue for AI governance literacy as leadership content, but neither supports overstating current displacement risk in the curriculum-implications section below.
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual, checklist-style verification of Indigenous-business eligibility | Medium | AI-agent orchestration and "manager of agents" leadership skill | Fast |
-| Routine general-management administrative tasks (reporting, scheduling) | Medium | Formal AI-governance capability — budget- and authority-bearing oversight of AI systems | Fast |
-| Direct supervision of routine individual-contributor work | Fast | High-frequency strategic decision-making under AI-compressed work cycles | Medium |
-| Symbolic, advisory-only technology-oversight roles | Medium | Personal, hands-on AI tool fluency among senior executives | Medium |
-| Ownership-only (50%) self-certification as an Indigenous business | Fast | Certified/audited Indigenous-business governance (51% ownership and control, ORIC registration) | Fast |
-| Generalist, undocumented WHS awareness for senior managers | Medium | Documented officer due-diligence practice against binding WHS Codes of Practice (NSW) | Medium |
+
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-agent orchestration and "manager of agents" leadership skill | **↑↑ Rising sharply** | Theme 2 (§3): Box CEO Aaron Levie and founder Ryan Carson both describe senior leadership shifting to directing parallel AI agents, and DEWR lists chief executives among occupations complemented rather than substituted by AI; C3 scores 1/3 — the program's only AI content is elective tool operation (Excel Solver, generic Windows software). |
+| Certified/audited Indigenous-business governance (51% ownership and control, ORIC registration) | **↑↑ Rising sharply** | Theme 1 (§3): the Commonwealth's Indigenous Procurement Policy tightens eligibility from 1 July 2026; C4 scores 2/3 — MGMT90300's market-validation work applies directly, but the Indigenous Business Practicum (W2) documents no content on the certification landscape host organisations now operate under. |
+| Formal AI-governance capability with budget and authority | **↑ Rising** | Theme 3 (§3): Chief AI Officer positions have moved from largely symbolic to substantive per an IBM finding cited by CNBC (76% of firms now have a CAIO, up from 26% a year earlier); C1 scores 2/3 — group collaboration is assessed across all four compulsory units, but no assessment requires coordinating work across people and AI tools specifically. |
+| Criterion-referenced appraisal of AI-assisted leadership output | **↑ Rising** | Theme 2 (§3) frames AI-agent oversight as increasingly a matter of judging when a recommendation is unreliable; C2 scores 1/3 — the program assesses personal reflection but no documented criterion-referenced appraisal of work quality, including AI-assisted output. |
+| Ownership-only (50%) self-certification as an Indigenous business | **↓↓ Falling sharply** | This section's own prior Declining Demand list and Theme 1 (§3) together identify the prior 50%-ownership-only certification standard as superseded by the tightened 51%-ownership-and-control test. |
 
 ## 5. CURRICULUM IMPLICATIONS
 | # | Implication | Dimension | Action |

@@ -48,16 +48,14 @@ Netflix's Q2 2025 earnings call (S&P Global Market Intelligence Kagan, July 2025
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual footage search, tagging, and routine subclip assembly
-- Unassisted rotoscoping, wire removal, and basic cleanup tasks in VFX
-- Routine translation and subtitle drafting without automated assist
-
-### Rising Demand
-- Evaluative judgement and directorial quality curation over generative AI video/previs outputs
-- Rights management, performer digital-replica consent workflows, and AI usage disclosure compliance
-- Virtual production integration (LED volume, real-time camera tracking)
-- Multidisciplinary crew communication and on-set technical coordination under live shooting constraints
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative judgement over generative AI video/previs output | **↑↑ Rising sharply** | Theme 1 (§3) names the resilient skill as evaluative judgement about when AI output meets premium standards, while post-production task execution compresses; C2 scores only 2/3 — digital and generative tools are introduced without an assessed reliance/override justification. |
+| Performer digital-replica consent and rights-clearance governance | **↑↑ Rising sharply** | Theme 2 (§3) documents SAG-AFTRA's binding labour constraints (the 2025 Interactive Media Agreement, opt-in-only Sora 2 use) making replica-consent a workplace competency; C3 scores 1/3 — no formal assessed module on AI rights governance or replica consent exists in the core. |
+| Virtual production integration (LED volume, real-time camera tracking) | **↑ Rising** | Signal 1 (§2) reports physical production and post-production absorbing AI tools over the next five years; W3 scores 0/3 — no structured external hosted placement exists to teach this integration in a live production setting. |
+| Directorial on-set creative judgement and cast/crew leadership | **→ Stable, differentiating** | The Job Family Map notes directorial craft sits above the current quality ceiling for end-to-end generation, rating it only MEDIUM substitution pressure because pre-visualisation compresses prep, not the on-set judgement itself. |
+| Routine translation and subtitle drafting without automated assist | **↓ Falling** | Theme 1 (§3) identifies dubbing and localisation as an early, deep AI-adoption site in post-production, alongside the existing evidence for this row. |
+| Manual footage search, tagging, and unassisted rotoscoping/wire removal | **↓↓ Falling sharply** | The Job Family Map rates this exact post-production work HIGH (task-level) substitution pressure, and Theme 1 (§3) cites Banijay's AI video-discovery partnership as already automating footage-library search and clipping. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

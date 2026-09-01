@@ -62,16 +62,13 @@ Standards from the [VIT](https://www.vit.vic.edu.au/) confirm that a substantial
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Traditional grammar-translation worksheets without interactive communicative context
-- Monolingual deficit framing of English language learners
-- Paper-only lesson plans without digital multimodal learning resources
-
-### Rising Demand
-- Evaluative verification of AI-generated language exercises and automated feedback
-- Translanguaging and plurilingual pedagogical strategies
-- Digital curriculum authoring (H5P, Canvas) and learner analytics interpretation
-- NEAS and CRICOS regulatory quality assurance compliance
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative verification of AI-generated language exercises and automated feedback | **↑↑ Rising sharply** | Theme 1 (§3) finds ACTA and *TESOL Quarterly* require language teachers to critically evaluate AI outputs for dialectal bias and cultural stereotyping; CI-2 notes C3 scores only 1/3, lacking an assessed AI-evaluation module. |
+| Digital curriculum authoring and learner-analytics interpretation | **↑ Rising** | Theme 2 (§3) grounds this in NEAS's requirement that effective language delivery use structured peer collaboration and calibrated formative-feedback rubrics, which the program's digital authoring content feeds. |
+| Translanguaging and plurilingual pedagogical strategy | **→ Stable, differentiating** | This professional judgement — weighing a learner's full linguistic repertoire rather than a deficit framing — is a human pedagogical skill the sourced AI-evaluation discourse (Theme 1, §3) does not describe automating. |
+| Traditional grammar-translation worksheets without interactive communicative context | **↓↓ Falling sharply** | Declining per the program's own market signal; superseded by AI-assisted, communicatively contextualised material. |
+| Monolingual deficit framing of English language learners | **↓ Falling** | Declining per the program's own market signal, in favour of translanguaging and plurilingual strategy named above. |
 
 ---
 

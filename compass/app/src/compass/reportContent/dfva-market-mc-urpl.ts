@@ -62,17 +62,13 @@ Reports by the [Victorian Department of Transport and Planning](https://www.plan
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine manual extraction of planning scheme zoning schedules and setback tables
-- Basic 2D drafting of site context plans without parametric data layers
-- Formulaic administrative filing of standard non-discretionary planning permits
-
-### Rising Demand
-- Evaluative judgement and override auditing of generative masterplanning and spatial simulation models
-- Discretionary statutory interpretation, planning panel submissions, and VCAT expert evidence presentation
-- Complex climate resilience planning, urban heat mitigation, and biodiversity integration
-- Participatory co-design, stakeholder consensus building, and Indigenous Connecting with Country frameworks
-- Critical spatial data literacy, digital twin analysis, and algorithmic planning governance
+| Skill | Direction | Rationale |
+|---|---|---|
+| Override auditing of generative masterplanning and spatial-simulation outputs | **↑↑ Rising sharply** | Theme 1 (§3) finds automated site-yield optimisers frequently overlook heritage constraints, equity impacts and microclimate dynamics unless audited and overridden by human planners; CI-2 notes C2 scores 2/3, lacking a structured AI override log. |
+| Algorithmic planning governance and spatial-data-justice literacy | **↑ Rising** | Theme 3 (§3) reports DTP and academic research on the need to safeguard spatial equity, avoid algorithmic redlining and embed Indigenous co-design frameworks; CI-3 notes C3 scores 2/3, with this content unassessed in the core. |
+| Compulsory minor thesis with staged oral defence | **→ Stable, differentiating** | C5 already scores the maximum 3/3; Theme 2 (§3) reinforces that professional accountability for discretionary statutory decisions remains strictly with qualified planners, not AI tools. |
+| Routine manual extraction of zoning schedules and setback tables | **↓↓ Falling sharply** | Theme 1 (§3) shows generative and simulation tools already producing this kind of first-pass output, shifting demand toward auditing it. |
+| Basic 2D drafting of site-context plans without parametric data layers | **↓ Falling** | Declining per the program's own market signal, superseded by digital twin and parametric spatial-data literacy named above. |
 
 ---
 

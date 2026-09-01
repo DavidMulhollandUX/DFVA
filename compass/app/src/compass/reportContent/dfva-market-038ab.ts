@@ -63,16 +63,15 @@ Museum sector guidance from [AMaGA](https://www.amaga.org.au/) (2024/2025) focus
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Traditional passive curating without community co-design
-- Manual paper-based registrarial filing without modern database systems
-- Generic exhibition proposals lacking environmental and budget risk assessment
-
-### Rising Demand
-- First Nations co-curation, ICIP governance, and provenance auditing
-- Digital collection management (TMS/EMu) and AI metadata ethical auditing
-- Disaster mitigation and climate-resilient exhibition logistics
-- Multidisciplinary team exhibition production and public pitch delivery
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-assisted cataloguing audit and metadata governance | **↑↑ Rising sharply** | C3 scores 1/3 — no compulsory subject documents AI, algorithm or digital-collection content at all; Theme 2 (§3) names algorithmic reproduction of colonial taxonomy bias and hallucinated provenance as the risk curators must now audit against. |
+| First Nations co-curation and ICIP governance | **↑ Rising** | Theme 1 (§3): AMaGA's 2024 roadmap and ICOM require curatorial authority to be shared with source communities; C1 (collaborative practice, 2/3) documents assessed team curatorial work in the core, but no compulsory subject assesses ICIP or provenance protocols specifically. |
+| Disaster mitigation and climate-resilient exhibition logistics | **↑ Rising** | Theme 3 (§3): AMaGA sector guidance on climate-adaptive conservation and flood/fire recovery; G2 (decision-making under uncertainty, PASS) already requires defended trade-off decisions on disaster preparation in the compulsory core, but no subject assesses low-carbon touring logistics specifically. |
+| Multidisciplinary exhibition production and pitch delivery | **↑ Rising** | W1 and W2 both score 2/3 — the compulsory exhibition proposal (ACUR90006) is the program's only practitioner-facing artefact, and Theme 3 names complex multi-stakeholder coordination as the sector's rising demand, but no external practitioner judges the work. |
+| Self-scoped independent inquiry | **→ Stable, differentiating** | C4 sits at the instrument ceiling (3/3) — every capstone stream requires a self-scoped, coordinator-approved research proposal, a durable capability the program already teaches at the highest documented level. |
+| Manual, paper-based registrarial filing | **↓↓ Falling sharply** | C3's evidence documents the sector's move to database platforms (TMS/EMu) replacing physical record indexing, yet no compulsory subject currently teaches these tools, leaving graduates to acquire the substitution unassisted. |
+| Passive curating without community co-design | **↓ Falling** | Theme 1 (§3): standalone curatorial authorship is displaced by participatory, decolonial frameworks; G1 (disciplinary foundation, PASS) documents a staged core, but no compulsory subject assesses community co-design as its own construct. |
 
 ---
 

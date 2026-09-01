@@ -62,16 +62,13 @@ Standards from the [ASE](https://surgicaleducation.com/) confirm that a rigorous
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Unstructured, uncalibrated apprentice-style clinical supervision
-- Purely didactic lecture-based surgical teaching
-- Logbook procedure counts without competency-based entrustment metrics
-
-### Rising Demand
-- Workplace-based assessment design (EPAs, DOPS, Mini-CEX)
-- Objective assessment of surgical simulation performance (VR, synthetic models, haptics)
-- Psychological safety and structured clinical debriefing frameworks
-- Longitudinal program evaluation and surgical curriculum audit (Kirkpatrick Levels 3–4)
+| Skill | Direction | Rationale |
+|---|---|---|
+| Workplace-based assessment design (EPAs, DOPS, Mini-CEX) | **↑↑ Rising sharply** | Theme 1 (§3) shows RACS continuing to roll out Entrustable Professional Activities across all surgical specialties, and the program already scores maximum on curriculum design (C4: 3/3, W2: 3/3) to meet it. |
+| Critical evaluation of AI-generated surgical-education and video-kinematic tools | **↑ Rising** | CI-2 notes C3 scores 1/3 — the program lacks an assessed module evaluating AI-generated surgical-education tools — while Theme 1 (§3) notes AI video-tracking tools now supply kinematic data alongside faculty entrustment judgement. |
+| Psychological safety and structured clinical debriefing | **→ Stable, differentiating** | Theme 2 (§3) grounds this in RACS/AMC reform guidance requiring cultivated psychological safety and interprofessional communication — judgement work that resists automation. |
+| Unstructured, uncalibrated apprentice-style clinical supervision | **↓↓ Falling sharply** | Declining per the program's own market signal; superseded by the workplace-based EPA/DOPS/Mini-CEX assessment design named above. |
+| Purely didactic, lecture-based teaching and logbook procedure counts without entrustment metrics | **↓ Falling** | Declining as RACS's EPA transition (Theme 1, §3) shifts credentialing toward calibrated workplace entrustment decisions rather than counted procedures or lecture attendance. |
 
 ---
 

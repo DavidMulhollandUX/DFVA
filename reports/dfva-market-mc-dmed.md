@@ -58,16 +58,18 @@ Standards from the [AMC](https://www.amc.org.au/) highlight that doctor-leaders 
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual handwriting and typing of routine discharge summaries
-- Rote memorisation of drug interaction tables (replaced by real-time clinical point-of-care databases)
-- Uncritical acceptance of standard clinical templates without patient individualisation
-
-### Rising Demand
-- Evaluative verification and audit of AI-generated clinical summaries and diagnostic support flags
-- Complex bedside clinical reasoning and multi-morbidity trade-off management
-- First Nations cultural safety and trauma-informed patient communication
-- Interprofessional team leadership and acute emergency resuscitation coordination
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-output verification and correction skill | **↑↑ Rising sharply** | The prior skill-shift table recorded this rising at FAST velocity as manual discharge-summary drafting declines at the same rate; Signal 5 (§2) confirms ambient-documentation AI pilots are already live across Victorian and NSW public hospitals, and CI-1 recommends redirecting the freed capacity toward supervision and judgment training. The companion assessment scores AI Literacy and Governance 1/3, noting "no explicit reference to AI tools" in the handbook. |
+| Supervised use of diagnostic decision-support AI | **↑↑ Rising sharply** | The prior skill-shift table recorded this rising at FAST velocity from a MEDIUM-declining baseline of manual first-pass image triage; Signal 4 (§2) shows radiology/pathology training-place decisions increasingly discussed alongside AI-assisted imaging tools, while CI-2 flags that tool adoption is outpacing formal training. |
+| Judgement-layer oversight of AI clinical decision support | **↑ Rising** | The prior skill-shift table recorded this rising at FAST velocity from a MEDIUM-declining reliance on rote drug-interaction memorisation. |
+| Explicit AI governance and ethics literacy in clinical contexts | **↑ Rising** | Signal 3 (§2) records specialist colleges (RACP, RANZCR) already publishing AI position statements and CPD content, and CI-3 warns the curriculum is moving slower than college expectations — the companion assessment scores Curriculum Currency and Adaptability 1/3 on the absence of a demonstrated AI-era refresh. |
+| Critical appraisal of AI-generated evidence summaries | **↑ Rising** | The prior skill-shift table recorded this rising at MEDIUM velocity as manual literature search declines at FAST velocity; CI-4 flags this skill as unevenly developed because deep research engagement is currently Discovery-pathway-dependent (D7 scores 2/3, not universal across the cohort). |
+| GP and rural-generalist pathway durability | **→ Stable, differentiating** | Signal 2 (§2) records Commonwealth policy-driven undersupply in general practice and rural/regional medicine that is not disrupted by AI within the assessment horizon, and CI-5 recommends leaning into this as a stable, high-need destination. |
+| Structural, centrally-allocated internship placement | **→ Stable, differentiating** | Signal 1 (§2) notes MD graduates do not compete in an open job-ad market for their first role, making conventional job-ad-volume signals close to irrelevant for this cohort — a structural feature of the pathway that AI adoption elsewhere in medicine does not change. |
+| Manual discharge summary and referral drafting | **↓↓ Falling sharply** | The prior skill-shift table recorded this declining at FAST velocity, the same rate at which the AI-verification skill above was recorded rising. |
+| Purely reactive documentation practices | **↓ Falling** | The prior skill-shift table recorded this declining at FAST velocity as population-health data literacy (including AI-assisted surveillance) rises in its place. |
+| Manual literature search for evidence synthesis | **↓ Falling** | The prior skill-shift table recorded this declining at FAST velocity as critical appraisal of AI-generated evidence summaries rises above. |
 
 ---
 

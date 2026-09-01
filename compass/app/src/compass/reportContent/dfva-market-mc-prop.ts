@@ -60,18 +60,18 @@ Standards from the [API](https://www.api.org.au/) confirm that an independent, s
 
 ---
 
-## 4. SKILL SHIFT SUMMARY
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-### Declining Demand
-- Manual comparable sales collation without spatial or statistical regression
-- Static quarterly market summaries without dynamic financial modeling
-- Siloed property valuation without broader investment portfolio fluency
-
-### Rising Demand
-- Multiple regression analysis and critical auditing of AVM algorithms
-- ARGUS EstateMaster / DCF financial modeling and securitisation analysis
-- ESG compliance (NABERS, Green Star) and sustainable development feasibility
-- Mock courtroom expert witness testimony and statutory compensation advocacy
+| Skill | Direction | Rationale |
+|---|---|---|
+| Critical review and professional override of AVM outputs | **↑↑ Rising sharply** | Signal 1 (§2) reports graduate valuers are now expected to interrogate automated valuation model outputs rather than simply replicate them, and Theme 1 (§3) records early-career valuers being asked to "sign off" on AVM outputs with minimal independent verification, raising professional-liability concerns. |
+| ESG, NABERS and GRESB compliance literacy | **↑↑ Rising sharply** | Theme 3 (§3) reports API and RICS groups now treating sustainability credentials as a hiring filter rather than a bonus, with candidates screened out at first round when they cannot speak to ESG reporting frameworks — a shift from 2022 when it was a differentiator. |
+| ARGUS Enterprise DCF modelling proficiency | **↑ Rising** | Signal 2 (§2) records ARGUS Enterprise proficiency named as required or strongly preferred in graduate investment-analyst ads, with LinkedIn data showing the tool cited in ANZ property investment roles up 34% year-on-year. |
+| Python, Power BI and PropTech platform literacy | **↑ Rising** | Signal 4 (§2) notes Python, Power BI and SQL requests in junior research ads were rare before 2023 and are now routine, while Theme 4 (§3) describes PropTech platforms being adopted inside firms faster than staff capability is being built. |
+| BTR, affordable housing and modular delivery feasibility modelling | **↑ Rising** | Signal 5 (§2) documents new ANZ role categories (Resident Experience Analyst, BTR Asset Analyst) that did not exist before 2022, and Theme 2 (§3) finds Property Council forums concluding graduate training "over-indexes on traditional strata and commercial development" relative to the institutional residential pipeline. |
+| Client advisory and stakeholder negotiation | **→ Stable, differentiating** | Signal 6 (§2) shows tenant-representation and leasing roles ranking "stakeholder management" and "negotiation skills" ahead of technical property knowledge, a durable requirement rather than a newly emerging one. |
+| Manual comparable-sales data collection and basic AVM replication | **↓↓ Falling sharply** | RICS 2025 (Job Family Map, §1) projects over 60% of residential valuation volume addressable by automated tools by 2027, and Theme 1 (§3) confirms AVM adoption is being driven by lender pressure to cut turnaround time. |
+| Static, manually assembled quarterly market report production | **↓ Falling** | Signal 4 (§2) attributes the shift toward Python/Power BI/SQL requests to internal pressure for real-time market dashboards "rather than quarterly static reports." |
 
 ---
 

@@ -105,18 +105,16 @@ inside a shrinking organisation" is.
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual species count field surveys (unaided) | Slow | eDNA sampling and metabarcoding | Fast |
-| Traditional literature search and synthesis (manual) | Fast | AI-assisted literature review with critical evaluation skills | Very Fast |
-| Standalone microscopy identification | Medium | Genomic/molecular species identification pipelines | Fast |
-| Report writing from first principles (consulting) | Medium | AI-assisted report drafting with expert review and regulatory judgment | Fast |
-| Single-discipline siloed ecology | Slow | Interdisciplinary biology-data science integration | Fast |
-| Wet-lab notebook data recording | Slow | FAIR data management and electronic lab notebooks | Medium |
-| Habitat mapping from ground survey only | Medium | Remote sensing, LiDAR and drone-based habitat mapping | Fast |
-| Purely descriptive biodiversity assessments | Medium | Quantitative biodiversity modelling and offset accounting | Fast |
-| Manual phylogenetic tree construction | Fast | Automated bioinformatics pipelines (BEAST, IQ-TREE) with interpretation skills | Very Fast |
-| Generalist environmental science degree (without specialisation) | Medium | Deep bioscience specialisation with computational overlay | Fast |
+| Skill | Direction | Rationale |
+|---|---|---|
+| eDNA sampling and metabarcoding | **↑↑ Rising sharply** | Signal 2 (§2) reports environmental consultancies and state agencies increasingly specifying eDNA and metabarcoding skills as ecology shifts from purely observational field work toward molecular verification, per CI-1 (§5). |
+| Biodiversity offset accounting and Nature Repair Market literacy | **↑↑ Rising sharply** | Signal 1 (§2) describes Biodiversity Assessor and Offset Credit Manager roles as "role categories that did not exist five years ago," created by Victoria's Biodiversity Response Planning and the federal Nature Repair Market Act. |
+| Molecular diagnostics for biosecurity (qPCR, whole-genome strain typing) | **↑ Rising** | Signal 3 (§2) notes DAFF, APHA and state biosecurity agencies have flagged workforce growth needs, with advertised roles increasingly requiring molecular diagnostic skills alongside field identification. |
+| Remote sensing, GIS and spatial-ecology integration | **↑ Rising** | Signal 7 (§2) identifies a growing cluster of Environmental Data Analyst and Spatial Ecologist roles requiring a biological-sciences background paired with LiDAR and GIS tools, which CI-2 (§5) flags as under-specified in the current curriculum. |
+| AI-assisted literature review and report drafting, with expert critical evaluation | **↑ Rising** | CI-5 (§5) argues AI is reshaping entry-level literature-synthesis and report-drafting tasks, and recommends the program position graduates as expert evaluators of AI-generated content rather than displaced task-workers. |
+| Field presence, species identification and regulatory judgment | **→ Stable, differentiating** | The job family map (§1) rates AI substitution pressure LOW for ecologists and conservation biologists because "field presence, species identification and regulatory judgment remain human-critical." |
+| Generalist environmental science training without specialisation | **↓ Falling** | CI-2 (§5) recommends a mandatory bioinformatics/data-science unit because computational skills are "increasingly required in role ads across all job families," making an unspecialised generalist profile less competitive. |
+| Manual phylogenetic tree construction | **↓↓ Falling sharply** | The job family map (§1) lists automated bioinformatics pipelines (GATK, BEAST) among rising skills for geneticists, with manual tree-building giving way to pipeline tools requiring interpretation rather than manual construction. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

@@ -62,16 +62,13 @@ Standards from [ALLA](https://www.alla.org.au/) confirm that authentic investiga
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Standardized template employment contract drafting
-- Purely adversarial litigation without mediation/conciliation fluency
-- Siloed employment law without psychosocial hazard and Respect@Work context
-
-### Rising Demand
-- Closing Loopholes multi-enterprise bargaining and same-job-same-pay strategy
-- Algorithmic management oversight and workplace AI monitoring governance
-- Trauma-informed workplace investigations and procedural fairness compliance
-- Fair Work Commission conciliation, arbitration, and enterprise dispute mediation
+| Skill | Direction | Rationale |
+|---|---|---|
+| Algorithmic management oversight and workplace AI monitoring governance | **↑↑ Rising sharply** | Theme 1 (§3) — LCA (November 2024) and the *Australian Journal of Labour Law* (December 2024) hold that labour lawyers must evaluate collective-bargaining constraints, privacy legislation and indirect-discrimination risk arising from AI shift allocation and monitoring, yet C3 scores 1/3: the only AI-bearing subjects (Digital Technologies and Labour Law; AI and Justice) are both elective, one 'Not available in 2026'. |
+| Closing Loopholes multi-enterprise bargaining and same-job-same-pay strategy | **↑ Rising** | Signal 1 (§2) reports major firms recruiting specialists in Closing Loopholes Act reforms, casual conversion and same-job-same-pay laws, while C4 scores 1/3 — the nearest-to-core subject, Principles of Employment Law, offers only a take-home examination or research-paper option with no documented novel-problem framing. |
+| Trauma-informed workplace investigations and procedural fairness compliance | **→ Stable, differentiating** | Theme 2 (§3) — FWC and ALLA reporting describes practitioners coordinating across union delegates, employer representatives and industrial mediators, yet C1 scores 1/3: the only assessed group work in the extract is a presentation in the elective AI and Justice subject, not a core unit. |
+| Purely adversarial litigation without mediation/conciliation fluency | **↓ Falling** | Signal 4 (§2) shows demand elevating complex industrial dispute arbitration and FWC advocacy over adversarial approaches, while C2 scores 1/3 — no assessment task in the extract documents criterion-referenced appraisal of work quality. |
+| Standardized template employment contract drafting | **↓↓ Falling sharply** | Signal 4 (§2) documents significant automated-tool adoption in standardised employment agreement drafting and award modernisation; C5 scores 1/3 — research papers are doctrinal secondary synthesis, never a required primary-evidence inquiry with defended methodology. |
 
 ---
 

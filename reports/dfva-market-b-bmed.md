@@ -57,16 +57,14 @@ Standards from [AAHMS](https://aahms.org/) confirm that primary experimental lab
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Purely descriptive biology memorisation without computational data integration
-- Manual gel reading without automated digital imaging analysis
-- Isolated wet-lab research without translational clinical context
-
-### Rising Demand
-- Single-cell genomics, proteomics, and computational biology AI pipelines
-- Translational clinical trial design and Good Clinical Practice (GCP) compliance
-- High-throughput screening data validation and statistical reproducibility
-- Interdisciplinary scientific communication to clinical and public audiences
+| Skill | Direction | Rationale |
+|---|---|---|
+| Computational biology and AI-driven biomarker/drug discovery validation | **↑↑ Rising sharply** | Theme 1 (§3) reports AI accelerates molecular target discovery while scientists retain responsibility for wet-lab validation; C3 scores 1/3 — AI and machine-learning content sits only in discipline electives, and core digital literacy is a generic skill limited to database and tool operation. |
+| Independent experimental design and methodology selection | **↑↑ Rising sharply** | Theme 3 (§3) names primary laboratory inquiry and proposal defence as the biomedical-research readiness benchmark; C5 scores 1/3 — core lab work follows prescribed practicals, and the substantial primary-evidence project sits in discipline electives rather than the compulsory core. |
+| Interdisciplinary, audience-aware scientific communication | **↑ Rising** | Theme 2 (§3) and Signal 1 (§2) describe researchers operating alongside clinicians, bioinformaticians and biostatisticians across the Melbourne Biomedical Precinct; W1 scores 1/3 — the only spoken tasks (conference abstract, ePoster, group presentation) have no documented audience beyond peers and staff and no criteria drawn from professional practice. |
+| Wet-lab experimentation and hands-on clinical/diagnostic judgment | **→ Stable, differentiating** | Signal 4 (§2) rates this work VERY LOW substitution pressure (44.92 exposure) — cell culture, pipetting, and ethical human-research compliance remain immune to the automation trend driving the other rows. |
+| Manual gel reading without automated digital imaging analysis | **↓ Falling** | Theme 1 (§3) and Signal 2 (§2) show AI-accelerated screening and imaging pipelines (AlphaFold, single-cell RNA-seq) displacing manual image reading in laboratories. |
+| Purely descriptive biology memorisation without computational data integration | **↓↓ Falling sharply** | The Rising Demand evidence for single-cell genomics, proteomics and computational biology AI pipelines shows the field moving past rote descriptive content; C4 scores 1/3 — no core assessment requires applying molecular knowledge to novel, computationally-integrated problems. |
 
 ---
 

@@ -127,21 +127,15 @@ that it changes conservator staffing or task allocation industry-wide.
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-| --- | --- | --- | --- |
-| Manual transcription of archival and collection records | Medium | Reviewing and validating AI-generated transcription and cataloguing output | Medium |
-| Purely manual in-painting and retouching time on damaged paintings | Slow | Digital-mask and imaging-assisted restoration workflows as a supplementary aid | Slow |
-| — | — | Disciplinary expertise in materials science and treatment judgement | Fast |
-| — | — | Ethical reasoning and sustainable, criteria-based decision-making in treatment and disposal choices | Fast |
-| — | — | Stakeholder communication and project governance | Medium |
-| Ungoverned or undisclosed AI use in professional practice | Slow | Formal AI-use disclosure and governance literacy among practitioners, as professional accountability catches up to deployed tools | Slow |
-
-Velocities are grounded in §3's four themes and the profession record's `jobAds.topSkills`
-(disciplinary expertise, stakeholder communication, ethical reasoning, adaptive analysis,
-project governance — real Adzuna data). "Slow" velocities reflect that the underlying evidence
-is single-institution or single-demonstration case reporting, not a trend series; "Fast" and
-"Medium" velocities reflect skills that already show up as the top-ranked demand signals in a
-1,200-record live job-ad aggregate.
+| Skill | Direction | Rationale |
+| --- | --- | --- |
+| Reviewing and validating AI-generated transcription and cataloguing output | **↑↑ Rising sharply** | Theme 3 (§3) reports B&O Railroad Museum archivists' role shifted toward reviewing AI-generated OCR transcriptions across 16 million records, and CI-1 (§5) notes the program's sole digital-content elective is not even offered in 2026 (C3 scores 1). |
+| Digital-mask and imaging-assisted restoration workflows as a supplementary aid | **↑ Rising** | Theme 4 (§3) reports an MIT-developed AI digital-mask technique cut manual in-painting time on one heavily damaged painting from months to hours, with its developer describing it as "a tool in the toolbox" rather than a replacement. |
+| Formal AI-use disclosure and governance literacy | **↑ Rising** | Theme 1 (§3) reports the profession's sole governing ethics instrument, the AICCM Code, has no AI-specific provisions on record, and CI-2 (§5) flags this as a governance gap professional accountability has not yet caught up to. |
+| Disciplinary expertise in materials science and treatment judgement | **→ Stable, differentiating** | Signal 3 (§2) reports real Adzuna job-ad data ranking disciplinary expertise as a top-demand skill across 1,200 live postings, with none of the five top-ranked skills being an AI or automation-tool skill. |
+| Ethical reasoning, stakeholder communication, and project governance | **→ Stable, differentiating** | Signal 3 (§2) reports the same real Adzuna aggregate ranking ethical reasoning, stakeholder communication, and project governance among the top demand signals, consistent with CI-5's (§5) push to make the program's collaborative-assessment task compulsory across all variants. |
+| Manual transcription of archival and collection records | **↓ Falling** | Theme 3 (§3) reports the same B&O Railroad Museum project shifted archivists away from manual transcription toward reviewing AI-generated output across 16 million Relief Department records. |
+| Purely manual in-painting and retouching time on damaged paintings | **↓ Falling** | Theme 4 (§3) reports the MIT digital-mask demonstration cut manual restoration time on one test painting from many months to several hours, though this is a single demonstration, not evidence of routine professional use. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

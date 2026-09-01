@@ -62,16 +62,15 @@ Technical reports from [ACSC](https://www.cyber.gov.au/) and CSIRO [Data61](http
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual writing of boilerplate CRUD code and standard syntax
-- Basic manual unit test writing without automated property-based testing
-- Routine manual system administration and non-declarative configuration
-
-### Rising Demand
-- Evaluative code review, automated verification, and LLM output security audit
-- Distributed systems architecture, microservices resilience, and cloud optimization
-- Human-AI collaborative engineering and agentic workflow orchestration
-- Zero-trust security engineering, threat modeling, and secure software supply chains
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative code review, automated verification and LLM-output security audit | **↑↑ Rising sharply** | C2 and C3 each score 2/3 — assessment lacks structured override/hallucination-verification protocols and AI governance is not guaranteed across all specialisations. Theme 1 (§3) — IEEE CS and *ACM Transactions on Software Engineering and Methodology* (January 2025) — show LLMs accelerate code synthesis while introducing hallucinated dependencies and vulnerabilities, "necessitating rigorous evaluative code review." |
+| Manual boilerplate CRUD code, standard syntax and routine unit-test writing | **↓↓ Falling sharply** | Named directly in the Declining Demand list. Signal 3 (§2) reports 92.91 automation exposure across routine programming, unit-test drafting and boilerplate configuration. |
+| Human-AI collaborative engineering and agentic workflow orchestration | **↑ Rising** | C1 scores 2/3 — capstones lack a formal human-AI workflow allocation charter (CI-1). Theme 2 (§3) — ACS and *IEEE Software* — hold that teams must "coordinate work explicitly across human engineers and autonomous agents." |
+| Distributed systems architecture, cloud-native resilience and zero-trust security | **↑↑ Rising sharply** | Theme 3 (§3) — ACSC and CSIRO Data61 (2024) — state sovereign, resilient infrastructure requires "deep mastery of distributed consensus... under adversarial conditions." Signal 4 (§2) ties this to Essential Eight and ISO 27001 compliance mandates. |
+| Industry-embedded, externally assessed software delivery | **↑ Rising** | W1 scores 2/3 (capstones judged solely by academic instructors) and W3 scores 1/3 (internship optional, not universal). CI-4 and CI-5 call for external tech panels and live client briefs to close this gap. |
+| Routine manual system administration and non-declarative configuration | **↓ Falling** | Named directly in the Declining Demand list. |
+| AI safety governance and regulatory compliance for software licensing | **↑ Rising** | C3 scores 2/3 — "specialized AI governance and regulatory compliance are not guaranteed across all specialisations" (CI-3). Signal 4 (§2) documents ACSC compliance mandates driving this demand. |
 
 ---
 

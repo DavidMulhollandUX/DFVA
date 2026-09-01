@@ -63,16 +63,14 @@ Technical guidelines from [DSAA](https://www.dsaa.org.au/) highlight that data a
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual data cleaning and routine exploratory SQL/Python coding
-- Descriptive dashboard creation without causal inference
-- Standard regression reporting without model explainability
-
-### Rising Demand
-- Evaluative verification and audit of AI-generated analytics code and ML models
-- Enterprise AI governance, algorithmic fairness auditing, and regulatory compliance
-- Mixed-integer mathematical programming and supply chain optimization
-- Executive data storytelling and client advisory
+| Skill | Direction | Rationale |
+|---|---|---|
+| Analytics engineering (dbt, pipeline orchestration, modular data transformation) | **↑↑ Rising sharply** | Theme 1 (§3): dbt appeared in 18% of senior analyst ads (Signal 2, §2), up from near-zero in 2023, and the discipline is redefining what "analyst" means. CI-4 confirms most business analytics programs — this one's own peer set — have no coverage, though D3 (technical and quantitative depth) scores 3/3 overall for the program's ML/statistics/causal core. |
+| Causal inference and experimental design (DiD, synthetic control, RDD) | **↑↑ Rising sharply** | Theme 3 (§3): senior ANZ practitioners repeatedly flag causal inference as undervalued in graduate education but highly valued in practice, a gap documented by the Analytics Association of Australia. D2 (systems thinking) scores 3/3 — "causal + predictive + NLP" already forms a full quantitative toolkit, the program's own curriculum evidence directly answering this rising demand. |
+| AI governance, model explainability and responsible-AI assurance | **↑ Rising** | Theme 4 (§3): the EU AI Act and Australia's 2025 voluntary AI ethics framework updates are generating new titles ("AI Assurance Analyst," "Model Risk Analyst") that pull analytics graduates into governance functions. D5 (AI literacy and governance) scores 3/3 — Machine Learning & AI for Business and NLP are core, not elective, positioning the program ahead of this shift. |
+| Executive communication and data storytelling | **↑ Rising** | Signal 4 (§2): explicit communication requirements ("data storytelling," "presenting to C-suite") now appear in roles that previously listed only technical skills. D8 (human and relational capability) scores only 2/3 — communication to non-technical audiences is emphasised but not yet assessed to a client-facing or panel-judged standard. |
+| Full-stack analytical capability (extract, model, visualise, communicate without handoffs) | **→ Stable, differentiating** | Theme 5 (§3): employers increasingly expect analysts to handle the whole pipeline without handoffs. D6 (domain depth) scores 3/3 — a 150-point specialist core spanning data platforms, programming, statistics, ML, NLP and causal/predictive analytics is a structural strength already built for this expectation, not a moving target. |
+| Static Excel-based reporting and on-premise SQL as the primary analytics platform | **↓↓ Falling sharply** | Existing declining-demand finding: displaced very fast by cloud data warehouse proficiency and self-service BI with a semantic layer, consistent with Job Family 1's HIGH substitution pressure for routine SQL and report generation (§1). |
 
 ---
 

@@ -63,16 +63,15 @@ Doctoral and postgraduate research standards from [RANZCP](https://www.ranzcp.or
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual descriptive progress note-taking without ambient dictation tools
-- Unstructured, unvalidated clinical risk assessments
-- Passive standalone diagnosis without multidisciplinary allied health coordination
-
-### Rising Demand
-- Evaluative verification of AI-assisted clinical documentation and diagnostic drafts
-- Complex psychopharmacological management and treatment-resistant illness protocols
-- Defended medico-legal and Mental Health Tribunal oral testimony
-- Translational clinical trial design and digital mental health governance
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative verification of AI-assisted clinical documentation | **↑↑ Rising sharply** | C2 scores 1/3 — critical appraisal appears in outcomes but no compulsory unit assesses appraisal of quality against criteria; Theme 1 (§3, RANZCP December 2024) confirms psychiatrists carry sole non-delegable liability for mental state documentation and risk stratification, requiring rigorous audit of machine-generated notes. |
+| Ambient clinical AI governance and privacy literacy | **↑↑ Rising sharply** | C3 scores 0/3 — no digital, computational or AI content appears anywhere in the six compulsory subjects; Signal 2 (§2) documents ambient AI dictation tools (Heidi Health, Lyrebird Health) already piloted in psychiatric intakes. |
+| Defended medico-legal and Mental Health Tribunal testimony | **↑ Rising** | W1 scores 1/3 — core spoken assessment reaches only peers and staff in a seminar series, with no professional genre or external audience judged against practice criteria, despite the forensic destination family naming cross-examination defence as its core rising skill. |
+| Translational clinical trial design and digital mental health governance | **↑ Rising** | C5 scores 2/3 in the compulsory Psychiatric Research Project, but this is one of two capstone routes rather than a required, defended primary-evidence project; Theme 3 (§3, RANZCP 2024/2025) demands defended empirical research in neurobiology or service delivery from every trainee. |
+| Complex multimorbid case formulation and lifelong learning | **→ Stable, differentiating** | C4 was demoted to 1/3 on adversarial verification, since the strongest transfer evidence (a Consultation-Liaison case study) is homed in W2/W3 by the one-construct-one-home rule, leaving the compulsory core's transfer capability under-documented despite genuine clinical breadth. |
+| Passive standalone diagnosis without multidisciplinary allied-health coordination | **↓ Falling** | C1 scores 1/3 — multidisciplinary teamwork is asserted only in unassessed generic-skills text across the compulsory subjects, never as an assessed collaborative task, even as Theme 2 (§3, *ANZJP* January 2025/RANZCP) names interprofessional teamwork as the discipline's defining resilient capability. |
+| Manual descriptive progress note-taking | **↓↓ Falling sharply** | W3 was demoted to 2/3 on adversarial verification — workplace-based assessment hurdles can be cleared via a peer-checked route with no workplace supervisor judgement, and C3's zero score means the compulsory core does not teach students to supervise the ambient dictation tools already replacing manual note-taking (Signal 2, §2). |
 
 ---
 

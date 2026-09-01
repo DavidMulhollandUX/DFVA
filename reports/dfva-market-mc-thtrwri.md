@@ -48,14 +48,13 @@ Scope: this is a small number of self-selected, US-based playwright-practitioner
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Uncredited or undisclosed AI drafting assistance in commissioned scripts | Medium | Disclosed, consent-based use of AI tools in script development, per the guild's own authorial-control principle | Medium |
-| Solo, informal entry into a sustainable playwriting career | Slow | Formalised, nationally funded playwright career-pathway services (Creative Australia Delivery Partner, 2026–2028) | Medium |
-| Treating a produced script as automatically available for AI training | Fast | Explicit non-ingestion or consent language attached to produced theatrical writing (HowlRound-documented practitioner stance) | Medium |
-| Generic "AI in the arts" framing that does not distinguish stage from screen | Medium | Sector-specific advocacy naming theatre, screen and interactive content as distinct risk categories (AWG) | Slow |
-| Non-binding advocacy as the only form of AI protection available to a theatre writer | Medium | Contract-level AI/authorship terms — already achieved in the adjacent US screen-performer union agreement (SAG-AFTRA, ratified June 2026), not yet present in Australian stage commissioning | Slow |
-| Industry pitching treated as an informal, unassessed skill | Slow | Formally assessed industry pitch documentation as a graded professional genre (DRAM90019) | Medium |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Disclosed, consent-based use of AI tools in script development | **↑↑ Rising sharply** | C3 is scored 0 — no unit documents AI capability, limitation or ethics content — while Theme 1 (§3) shows the Australian Writers' Guild has already published authorial-control and moral-rights principles for AI in dramatic writing. |
+| Formal industry pitch documentation and playwright career-pathway navigation | **↑ Rising** | Theme 2 (§3) documents Creative Australia's new Delivery Partner: Playwriting Services investment stream (2026–2028); W1 sits at Level 2 because the program's performance-reading season is not itself a graded event. |
+| Collective, negotiated authorship in the devising rehearsal room | **→ Stable, differentiating** | The job family map rates this LOW substitution pressure — a live, negotiated, embodied group process resists substitution by a text-generation tool. |
+| Treating a produced script as automatically available for AI training | **↓↓ Falling sharply** | Theme 3 (§3) documents practitioner-theatre-writers publicly declaring their scripts off-limits to AI training (HowlRound, 2026-04-02). |
+| Uncredited or undisclosed AI drafting assistance in commissioned scripts | **↓ Falling** | Theme 1 (§3) shows the writers' guild has already rejected unregulated AI use in dramatic writing, naming authorial control as a headline principle. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

@@ -50,14 +50,17 @@ The 24x7 Magazine quotes were solicited by a journalist for a year-in-review rou
 **Bearing:** W3. The compulsory subject list (75 of 100 credit points) and the full elective list contain no placement, practicum, internship or community-based-project subject — the clinician engagement documented in BMEN90042/BMEN90044 is coursework informed by external stakeholder input on campus, not supervised participation in a workplace. The two operational functions where this record's sourced material documents real 2025 AI adoption — clinical/healthcare technology management and manufacturing quality — are functions this program gives students no supervised exposure to.
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual, boilerplate regulatory-documentation drafting (literature review, submission text) | Medium | AI-assisted drafting and review within regulatory-documentation workflows | Fast |
-| Generic, standalone "AI-adjacent" job titles (for example AI ethicist, robotic-process-automation engineer) | Medium | AI content absorbed into specific, regulated, clinically anchored job families (software and regulatory roles) | Medium |
-| Manual UDI/traceability labelling and paper-based compliance record-keeping | Fast | AusUDID data-submission and structured device-traceability compliance workflows (binding from 2026-07-01 for Class IIb/III) | Fast |
-| Manual quality-management and recall-tracking processes | Medium | Electronic quality-management systems integrated with AI-driven quality analytics | Fast |
-| Reactive equipment servicing without predictive tooling | Slow | AI-enabled device analytics and generative-AI-assisted maintenance-protocol generation in clinical/healthcare technology management | Medium |
-| AI/digital-tools content treated as elective-only, outside the compulsory core (mirrors this program's own C3 finding) | Slow (structural, institution-level) | Baseline AI/ML literacy expected of MedTech engineers entering an occupation with measured GPT-4-class task exposure in the roughly 26-54% range | Fast |
+
+| Skill | Direction | Rationale |
+|---|---|---|
+| AusUDID data-submission and structured device-traceability compliance workflows | **↑↑ Rising sharply** | Theme 1 (§3) — Australia's UDI mandate is "a legal amendment to the Therapeutic Goods (Medical Devices) Regulations 2002," binding on Class IIb/III sponsors from 2026-07-01, and is "a firmer signal than anything the profession itself has said about hiring." Named directly in the report's own rising column at Fast velocity. |
+| Manual UDI/traceability labelling and paper-based compliance record-keeping | **↓↓ Falling sharply** | Named directly in the report's own declining column at Fast velocity, displaced by the same binding TGA compliance deadline (Theme 1, §3). |
+| AI-assisted drafting and review within regulatory-documentation workflows | **↑ Rising** | Theme 2 (§3) — a January 2026 MedCity News op-ed by a named J&J MedTech principal engineer describes AI "removing workflow friction... from literature review to regulatory documentation," citing an unverified McKinsey estimate of 20–30% effort reduction. Named directly in the report's own rising column. |
+| Manual, boilerplate regulatory-documentation drafting (literature review, submission text) | **↓ Falling** | Named directly in the report's own declining column at Medium velocity, per the same Theme 2 (§3) evidence. |
+| Baseline AI/ML literacy for MedTech engineers entering an occupation with 26–54% (up to 82%) GPT-4-class task exposure | **↑ Rising** | Theme 2 (§3) — C3 is held down because AI/digital-tools content sits only in a 25-point elective basket a student can complete the degree without ever choosing, against the Felten-Raj-Seamans AIOE's 74th-percentile exposure score and Eloundou et al.'s 26–54% (up to 82%) GPT-4-class task exposure for this occupation. |
+| Needs-discovery methodology and clinical design judgement (BioDesign practice) | **→ Stable, differentiating** | JF-1 (§1) carries only MEDIUM substitution pressure — "design judgement and clinical need-screening are not shown to transfer" to GPT-4-class tools even though roughly a quarter to over half of adjacent tasks are reducible. Directly matches the program's own compulsory BioDesign sequence (BMEN90042, BMEN90044). |
+| AI-enabled device analytics and generative-AI-assisted maintenance documentation (clinical/HTM operations) | **↑ Rising** | Theme 3 (§3) — 24x7 Magazine (October 2025) names this "among 2025's biggest shifts" in healthcare-technology-management operational work, in a growth function the program's compulsory structure gives students no supervised placement in (W3 bearing, CI-2). |
+| Reactive equipment servicing without predictive tooling | **↓ Falling** | Named directly in the report's own declining column at Slow velocity, displaced by the AI-enabled device-analytics shift documented in Theme 3 (§3). |
 
 ## 5. CURRICULUM IMPLICATIONS
 | # | Implication | Dimension | Action |

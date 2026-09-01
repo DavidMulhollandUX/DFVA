@@ -63,16 +63,15 @@ Revenue authorities globally are escalating transfer pricing audits regarding in
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine double-tax agreement (DTA) keyword lookup without commercial context
-- Manual transfer pricing documentation compilation without automated benchmarking
-- Basic compliance calculations easily automated by corporate tax software
-
-### Rising Demand
-- Strategic OECD Pillar Two GloBE modeling and multi-jurisdictional tax risk governance
-- Evaluative critique and legal verification of AI-generated tax advisory memoranda
-- Transfer pricing economic defense and cross-border intangible valuation
-- Oral advocacy and dispute resolution in ATO and international tax controversy
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-generated tax advice verification and statutory liability review | **↑↑ Rising sharply** | C2 scores 1/3 — no core assessment includes criterion-referenced appraisal of quality; Theme 2 (§3, Tax Institute of Australia December 2024) warns that legal LLMs frequently misinterpret foreign tax credits and bilateral protocol nuances, demanding rigorous evaluative judgement to avoid promoter-penalty liabilities. |
+| Digital tax analytics and Pillar Two GloBE data governance | **↑↑ Rising sharply** | C3 scores 0/3 — no core subject or program-level outcome addresses AI or digital tools at all; Theme 1 (§3, OECD 2024/2025/*Australian Tax Review* April 2025) names auditing multinational ERP accounting systems and verifying jurisdictional effective tax rates as capabilities the discipline now requires. |
+| Authentic practitioner deliverables (tax advice letters, ruling applications) | **↑ Rising** | W2 scores 1/3 — every compulsory assessment produces an academic take-home exam or research essay rather than the professional artefact (advice letter, ruling application) a practitioner actually produces. |
+| Transfer pricing economic defence and dispute arbitration | **↑ Rising** | Theme 3 (§3, ATO Tax Avoidance Taskforce 2024/2025): revenue authorities are escalating transfer pricing audits on intangible valuation; C1 scores 1/3 with no assessed collaborative advisory practice, and C5 scores 2/3 with only an elective research paper rather than a required, externally scrutinised evidence project. |
+| Professional communication to non-specialist and policy audiences | **→ Stable, differentiating** | W1 scores 2/3 — LAWS70319's policy-debate assessment and LAWS70006's stated non-specialist communication outcome are already documented in the core, though not yet judged by a real external audience or practitioner. |
+| Basic compliance calculations and routine treaty keyword lookup | **↓↓ Falling sharply** | Theme 2 (§3): automation of routine double-tax treaty comparisons and statutory tax code interpretation by tax AI platforms (Thomson Reuters Checkpoint Edge, Blue J Legal, Harvey) already shifts premium value toward controversy defence and structuring, a shift the compulsory core does not yet teach students to navigate (C3 scores 0/3). |
+| Manual transfer pricing documentation compilation | **↓ Falling** | Signal 2 (§2) documents automated benchmarking tools already displacing manual compilation, while W3 scores 0/3 — no work-integrated learning or practicum exists anywhere in the compulsory 100-point structure to teach the practice these tools replace. |
 
 ---
 

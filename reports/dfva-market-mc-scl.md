@@ -51,14 +51,15 @@ Scope: neither source establishes what share of the nonprofit workforce has adop
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Individual, unsanctioned and reactive staff use of AI tools | Fast | Organisation-wide AI strategy and staff AI-literacy leadership | Medium |
-| Manual, ungoverned grant and compliance reporting | Medium | AI governance policy design and adoption oversight (47% of surveyed nonprofits currently have none) | Fast |
-| Fully manual routine proposal drafting and preliminary review | Fast | Editorial review and direction of AI-drafted proposals and donor communications | Fast |
-| Compliance framed as a paperwork exercise | Slow | Demonstrated governance and conflict-of-interest disclosure practice under ACNC Governance Standard 5 | Slow |
-| Reflection-only self-assessment of leadership practice | Slow | Criterion-referenced appraisal of organisational and technology practice against an external standard | Medium |
-| Productivity measured by output volume alone | Medium | Monitoring and evaluation of staff wellbeing and burnout alongside AI-assisted output gains | Medium |
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI governance policy design and adoption oversight | **↑↑ Rising sharply** | Theme 2 (§3) reports the 2026 Nonprofit AI Adoption Report found 92% of surveyed nonprofits now use AI but 47% have no AI governance policy at all, with funders reported to expect demonstrated AI governance capability rather than mere use, while CI-1 (§5) confirms C3 scores 0 — no digital/AI content appears anywhere in the curriculum. |
+| Editorial review and direction of AI-drafted proposals and donor communications | **↑ Rising** | Theme 3 (§3) reports Alliance magazine and Foundation Source both describing nonprofit staff informally using AI to draft proposals, summarise reports and draft social content, freeing program-officer time for relationship-building. |
+| Criterion-referenced appraisal of organisational and technology practice against an external standard | **↑ Rising** | Theme 3 (§3) reports sources describing a missing "strategic conversation" about AI's organisational implications, while CI-2 (§5) confirms C2 is capped at Level 1 — reflective essays and journals are graded, but not criterion-referenced appraisal. |
+| Monitoring staff wellbeing and burnout alongside AI-assisted output gains | **↑ Rising** | Theme 3 (§3) reports Nathan Chappell (Chronicle of Philanthropy) naming a "productivity paradox" as one of his chief worries — AI raising output expectations while fundraising-staff burnout rises. |
+| Demonstrated governance and conflict-of-interest disclosure practice under ACNC Governance Standard 5 | **→ Stable, differentiating** | Theme 1 (§3) reports this duty binds Responsible Persons of registered charities personally, not a task an AI system can discharge on a leader's behalf, consistent with §1's LOW substitution-pressure rating for the Nonprofit / Charity Executive Leadership job family. |
+| Culturally-grounded leadership facilitation and policy communication | **→ Stable, differentiating** | §1's Job Family Map rates Indigenous-led Social Equity and Policy Advocacy LOW substitution pressure, describing the role as dependent on relational and cultural authority that resists automation, with no source in the research pass identifying AI displacement pressure in this niche. |
+| Fully manual routine proposal drafting and preliminary grant review | **↓ Falling** | §1's Job Family Map rates Fundraising, Development and Grantmaking MEDIUM-HIGH substitution pressure, and Theme 3 (§3) reports Foundation Source's account of AI already automating routine grantmaking tasks such as data entry, copywriting and preliminary proposal review. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

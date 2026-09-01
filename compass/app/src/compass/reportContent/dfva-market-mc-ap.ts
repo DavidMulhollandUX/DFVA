@@ -78,26 +78,15 @@ Commentary from global behavioural strategy firms (including [The Behavioural In
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-
-| Skill | Reason | Replacement |
+| Skill | Direction | Rationale |
 |---|---|---|
-| Manual survey data cleaning and basic cross-tabulation | Automated ETL and automated statistical scripts | Automated data validation pipelines and predictive modelling |
-| Unassisted qualitative text transcription and manual keyword coding | Generative AI transcription and automated semantic tagging | AI-assisted qualitative synthesis with human validity checks |
-| Intuitive advertising copy testing without empirical metrics | Shift to biometric, behavioural, and digital A/B experimentation | Experimental message testing and empirical persuasion analytics |
-| Decontextualised laboratory behavioural experiments | Industry and government demand for ecological validity | Real-world field experiments, RCTs, and live choice architecture |
-| Generic psychological theory synthesis without actionable client briefs | Clients demand tangible policy or commercial implementation | Applied consulting frameworks, intervention roadmaps, and ROI metrics |
-
-### Rising Demand
-
-| Skill | Reason | Curriculum Implication |
-|---|---|---|
-| AI-augmented behavioural auditing and algorithmic nudge governance | Growth of automated and personalized digital persuasion | Embed AI governance, bias detection, and ethics in advertising/decision units |
-| Field experimentation design (RCTs, A/B testing at scale) | Public policy and business require causal proof of intervention impact | Strengthen applied research methods and experimental design in core |
-| Mixed-methods inquiry (qualitative depth + multivariate statistics) | Quantitative analytics must be explained through qualitative user context | Integrate qualitative public health methods with multivariate psychological data |
-| Evaluative judgement of AI-generated consumer insights | Proliferation of synthetic personas and automated qualitative summaries | Teach structured critique and verification of LLM-generated behavioral outputs |
-| Consultative client management and structured policy communication | Behavioural scientists operate across multidisciplinary client teams | Expand consulting frameworks and stakeholder-facing presentations in core |
-| Human-AI collaborative problem solving | Applied teams use AI tools to draft interventions and analyze datasets | Structure team capstones with explicit role and AI tool coordination |
+| AI governance and ethical auditing of algorithmic nudging | **↑↑ Rising sharply** | Theme 1 (§3): the OECD Good Practice Principles (February 2024) and BETA's November 2025 briefing to Commonwealth governance committees flag risks of large-scale algorithmic manipulation. C3 scores only 1/3 — AI and digital tools appear as statistical-software operation in PSYC40005, and no core unit addresses AI capabilities, limitations or governance. |
+| Evaluative judgement of AI-generated and synthetic consumer insights | **↑↑ Rising sharply** | Theme 3 (§3): the GRIT 2025 report and 2025 *International Journal of Market Research* critique document rising use of synthetic personas alongside cautions that they fail to replicate authentic behavioural nuance. C2 scores only 1/3 — reflection appears in POPH90231 and PSYC90101, but no core unit assesses criterion-referenced critique of AI or tool outputs, or documents reliance/override decisions. |
+| Field experimentation design and causal inference (RCTs) | **↑ Rising** | Theme 2 (§3): BETA's Evaluation Guidance and the Australian Government Evaluation Toolkit reaffirm RCTs as the evidentiary benchmark. C5 scores 2/3 — core units assess research design and empirical analysis, but the substantial primary-research capstone (PSYC90106) is one route of two rather than compulsory for every candidate, so Level 3 is not reached. |
+| Consultative client management and stakeholder translation | **↑ Rising** | Theme 4 (§3): the Behavioural Insights Team (2025) stresses that consulting and implementation competencies are as necessary as technical knowledge. W1 scores 2/3 — PSYC90124 already assesses consulting genres, but core assessments are judged by the teaching team rather than an external practitioner panel. |
+| Documented human-AI collaborative workflow in team projects | **→ Stable, differentiating** | C1 scores 2/3: group presentations with individual accountability are assessed in PSYC90101, PSYC90124 and the marketing options, but no core assessment yet documents an explicit division of labour between people and AI tools — a structural gap rather than a fast-moving one. |
+| Manual survey cleaning, cross-tabulation and unassisted qualitative transcription | **↓↓ Falling sharply** | Existing declining-demand finding, reinforced by Signal 4 (§2): LLM-based tools now heavily augment thematic coding, literature extraction and survey drafting, displacing manual ETL and manual keyword coding. |
+| Decontextualised laboratory experiments without ecological validity | **↓ Falling** | Existing declining-demand finding, reinforced by Signal 1 (§2): government and industry recruitment for behavioural scientists (BETA, Victorian DPC, NSW BIU) now specifies field-experiment design over decontextualised lab studies. |
 
 ---
 

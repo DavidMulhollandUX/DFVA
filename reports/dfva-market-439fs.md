@@ -58,16 +58,15 @@ Strategic agendas from [AIFST](https://www.aifst.org.au/) and [CSIRO](https://ww
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual paper-based HACCP record keeping without digital tracking
-- Routine wet chemistry analytical tests that are now automated by inline sensors
-- Uncontextualised recipe adjustment without food safety risk evaluation
-
-### Rising Demand
-- Evaluative verification of AI-driven formulation tools and predictive shelf-life algorithms
-- Implementation and auditing of digital Quality Management Systems (eQMS)
-- Novel food regulatory submissions (precision fermentation, cellular agriculture)
-- Cross-functional communication across operations, regulation, and R&D
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative verification and override of AI-driven formulation tools | **↑↑ Rising sharply** | C2 and C3 both score 1/3 — food-industry AI applications and predictive shelf-life modelling are absent from the compulsory core (only R-based statistics is taught), while Theme 1 (§3, CSIRO 2024/2025/*Food Research International* January 2025) documents automated formulation predictions frequently failing at pilot-plant scale-up. |
+| Digital Quality Management System (eQMS) implementation and audit | **↑ Rising** | W2 scores 2/3 — the compulsory FOOD90008 already assesses a HACCP food safety plan against regulatory criteria, but no compulsory subject extends this to digital QMS platforms (SAP QM, MasterControl) named in Signal 2 (§2) as the industry's hiring standard. |
+| Cross-functional collaborative leadership in manufacturing | **↑ Rising** | Theme 2 (§3, AIFST November 2024): effective quality management requires collaboration across chemists, engineers, logistics and external auditors; C1 scores 2/3, with assessed group work confined to a single task in one of eight compulsory subjects rather than recurring across the core. |
+| External-practitioner-judged technical communication | **↑ Rising** | W1 scores 1/3 — spoken assessment is delivered to academic markers only, with no core task judged by a real food-industry practitioner, even as the export-compliance and regulatory-affairs destination families demand defended technical communication. |
+| Applied original research with staged supervision | **→ Stable, differentiating** | C4 and C5 both score 2/3 — the required capstone already assesses a proposal, thesis and oral presentation with graded methodology selection, an existing durable strength, though primary-evidence generation and self-scoping are both optional within the required project. |
+| Uncontextualised recipe adjustment without food safety risk evaluation | **↓↓ Falling sharply** | Theme 1 (§3): automated formulation and shelf-life models already accelerate recipe development, yet C2 and C3's low scores mean the compulsory core does not yet teach students to audit these predictions against empirical rheological and sensory trials. |
+| Manual paper-based HACCP record keeping and routine wet chemistry testing | **↓ Falling** | Signal 2 (§2): FMCG employers already specify digital quality platforms and inline spectroscopic analysis over paper-based logging, a shift W3's low score (1/3, industry internships remain elective) leaves untaught in applied practice. |
 
 ---
 

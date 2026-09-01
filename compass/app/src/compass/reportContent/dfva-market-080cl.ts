@@ -63,16 +63,16 @@ Guidelines from the [Psychology Board of Australia](https://www.psychologyboard.
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual rote session note-taking without ambient dictation tools
-- Unendorsed general psychological counseling
-- Passive paper-based psychometric test scoring
-
-### Rising Demand
-- Evaluative critique and auditing of AI-generated clinical documentation
-- Complex comorbidity treatment (CBT-E, DBT, Schema Therapy)
-- Dual clinical and translational research trial leadership
-- Interprofessional clinical team case presentation and tribunal advocacy
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-generated clinical documentation review and correction | **↑↑ Rising sharply** | C2 scores 1/3 — no compulsory assessment includes criterion-referenced appraisal of work quality; Theme 1 (§3, APS November 2024/ACPA) names auditing AI-generated progress notes against clinical nuance and privacy law as a non-delegable, rising skill. |
+| AI and digital literacy and governance in clinical practice | **↑↑ Rising sharply** | C3 scores 1/3 — the extract's only technology content is a single program-level e-health outcome line, with no assessed AI capabilities, limitations or governance content; ambient documentation tools (Upheal, Heidi Health) are already being piloted across allied health per Theme 1. |
+| Complex comorbidity and trauma-informed relational care | **↑ Rising** | Theme 2 (§3, *Australian Psychologist* January 2025/APS): the relational mechanism of psychotherapy is insulated from automation; W1 already sits at the instrument ceiling (3/3) on repeated, practitioner-judged clinical communication, evidencing where this durable skill is already taught. |
+| Interprofessional coordination across clinician and AI system | **↑ Rising** | C1 scores 2/3 — interprofessional activity is assessed in the compulsory Ways of Knowing subject, but no assessment allocates or appraises a division of work between clinician and a digital or AI system, the step level 3 requires. |
+| Dual clinical and translational research leadership | **→ Stable, differentiating** | C4 and C5 both sit at the instrument ceiling (3/3) — a required self-scoped research project with methodology defended before a Thesis Advisory Committee and an oral viva; Theme 3 (§3, PsyBA 2024/2025) names independent methodological defence as the discipline's core research-integrity expectation. |
+| Supervised clinical placement and case presentation | **→ Stable, differentiating** | W1 and W3 both sit at the ceiling (3/3) — 125 days of required, supervised, assessed placement with practitioner judgement and documented host accountability, the program's strongest documented asset. |
+| Manual rote session note-taking | **↓↓ Falling sharply** | The C3 rationale documents ambient AI documentation tools already absorbing session-note and intake-admin tasks Fast, a task the compulsory core does not yet teach students to supervise or audit. |
+| Passive paper-based psychometric test scoring | **↓ Falling** | C3's evidence: the extract's only other technology-adjacent core content is training in administering and scoring tests — tool operation, the non-durable, automatable layer distinct from AI-literate interpretive judgement. |
 
 ---
 

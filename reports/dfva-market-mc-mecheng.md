@@ -57,16 +57,15 @@ Policy papers from [Engineers Australia](https://www.engineersaustralia.org.au/)
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine 2D drafting and manual CAD detailing without parametric constraints
-- Basic hand calculations of static structures without multi-physics simulation
-- Traditional single-discipline mechanical prototyping without integrated sensor telemetry
-
-### Rising Demand
-- Evaluative judgement of AI generative design outputs and multi-physics FEA/CFD simulations
-- Mechatronic integration, ROS2 robotics, and closed-loop control system engineering
-- Physical prototyping, experimental failure analysis, and hardware-in-the-loop validation
-- Sustainable lifecycle assessment, green thermal systems, and embodied carbon auditing
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative judgement of AI generative design and multi-physics FEA/CFD outputs | **↑↑ Rising sharply** | C2 scores 2/3 — generative CAD and topology optimisation lack a structured override/verification log (CI-2). Theme 1 (§3) — ASME and *IEEE/ASME Transactions on Mechatronics* (January 2025) — show AI models violate manufacturing and fatigue constraints, "elevating the necessity of rigorous physical testing and evaluative structural judgement." |
+| Routine 2D drafting and manual CAD detailing without parametric constraints | **↓↓ Falling sharply** | Named directly in the Declining Demand list. Signal 1 (§2) describes consultancies shifting effort "from manual 3D drafting to high-level multi-physics constraint formulation." |
+| Physical prototyping, hardware-in-the-loop validation and experimental failure analysis | **→ Stable, differentiating** | Signal 3 (§2) — despite a 85.55 AI exposure score, physical prototyping, on-site commissioning and safety-critical stress testing provide "strong physical-world insulation against direct software substitution": a structurally protected skill rather than one newly accelerating. |
+| Mechatronic integration, ROS2 robotics and closed-loop control systems | **↑ Rising** | Signal 2 (§2) documents mining electrification and defense manufacturing demand for mechanical engineers who can integrate hardware with embedded firmware; named directly in the Rising Demand list. |
+| Human-AI task allocation and statutory safety sign-off in design teams | **↑ Rising** | C1 scores 2/3 — collaborative design projects lack a formal human-AI task allocation protocol (CI-1). Theme 2 (§3) — Engineers Australia and IMechE — call for explicit division of labour between engineers (statutory safety sign-off) and optimisation agents (parametric exploration). |
+| Sustainable lifecycle assessment and embodied-carbon auditing | **↑ Rising** | Signal 4 (§2) ties this to decarbonisation mandates and AS/NZS standards; named directly in the Rising Demand list. |
+| Basic hand calculations of static structures without multi-physics simulation | **↓ Falling** | Named directly in the Declining Demand list. |
 
 ---
 

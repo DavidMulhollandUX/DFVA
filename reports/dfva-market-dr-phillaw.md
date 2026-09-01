@@ -56,16 +56,15 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual case law/citation retrieval as a standalone paid skill | FAST | AI-assisted legal research triage and critique (knowing when to trust/override AI output) | FAST |
-| First-pass literature review drafting as billable/fundable RA work | MODERATE | Original doctrinal argument construction and defence | STABLE (always core) |
-| Generalist doctrinal research without technical/empirical grounding | SLOW | Comparative and empirical legal method (mixed-method legal research) | MODERATE |
-| Standalone black-letter law expertise absent policy/regulatory context | SLOW | AI governance and algorithmic accountability legal expertise | FAST |
-| Traditional tenure-track-only career framing for PhD graduates | MODERATE | Portfolio careers spanning academia, policy, judicial research, and specialist practice | MODERATE |
-| Print/manual archival legal-historical research methods | SLOW | Digital humanities and computational legal history methods | SLOW-MODERATE |
-| Purely domestic legal scholarship framing | SLOW | Comparative/transnational legal scholarship (given global regulatory divergence on AI, data, platforms) | MODERATE |
-| Unstructured, ad hoc doctoral training | SLOW | Structured doctoral professional-development programs (grant writing, public communication, policy engagement) | MODERATE |
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI governance and algorithmic accountability legal expertise | **↑↑ Rising sharply** | Signal 4 (§2) reports both government (Department of Industry, Science and Resources; Attorney-General's Department) and private-sector advisory roles referencing "AI governance" and "algorithmic accountability" have increased in visibility; CI-3 (§5) says candidates are not currently steered toward this niche. |
+| AI-assisted legal research triage and critique (knowing when to trust or override AI output) | **↑ Rising** | CI-1 (§5) states candidates who cannot critically evaluate AI-generated legal research outputs "will be less competitive for both academic and policy roles," an implicit hiring signal the doctoral training does not yet address. |
+| Comparative and empirical legal method (mixed-method legal research) | **↑ Rising** | CI-4 (§5) notes candidates pursuing purely doctrinal projects without empirical or comparative components are "narrowing their own interdisciplinary competitiveness in an academy increasingly valuing mixed-method legal research." |
+| Original doctrinal argument construction and defence | **→ Stable, differentiating** | Job Family Map (§1) rates automation pressure LOW for elite/specialist legal practice and academic scholarship precisely because doctrinal depth combined with defended original argument remains the credentialing bottleneck AI cannot substitute. |
+| Manual case law and citation retrieval as a standalone paid skill | **↓ Falling** | Job Family Map (§1) records AI-literate research triage rising across academic, judicial and policy families alike, displacing manual retrieval as a billable or fundable research-assistant task. |
+| First-pass literature review drafting as billable/fundable RA work | **↓ Falling** | The same shift (§1) toward AI-assisted triage applies directly to first-pass literature drafting, consistent with Signal 5's (§2) observation that near-term post-PhD academic employment leans heavily on casual/sessional research work under cost pressure. |
+| Traditional tenure-track-only career framing for PhD graduates | **↓↓ Falling sharply** | Signal 5 (§2) states "a substantial share of near-term post-PhD academic employment in Australian law schools is casual/sessional teaching," and CI-2 (§5) confirms Melbourne Law School has no visible mechanism tracking non-academic outcomes, compounding this decline. |
 
 ---
 

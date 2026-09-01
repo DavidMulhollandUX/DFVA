@@ -57,18 +57,14 @@ Standards from [ACS](https://www.acs.org.au/) emphasize that deploying autonomou
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine scripted feature engineering without foundation models
-- Isolated heuristic rules-based systems without machine learning integration
-- Monolithic desktop AI experimentation without cloud deployment pipelines
-- Manual hyperparameter tuning without automated experiment tracking
-
-### Rising Demand
-- Multimodal foundation model fine-tuning and retrieval-augmented architectures
-- Automated planning, reinforcement learning, and multi-agent system coordination
-- AI assurance, adversarial robustness testing, and algorithmic bias auditing
-- Production MLOps, containerized deployment, and continuous performance telemetry
-- Transparent stakeholder communication of AI risks, trade-offs, and capabilities
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI assurance, adversarial robustness and regulatory auditing | **↑↑ Rising sharply** | Theme 2 (§3): CSIRO/NAIC (November 2024) ties enterprise deployment to verifiable AI safety, bias mitigation and emerging AU/EU guardrail compliance. C3 already scores 3/3 for dedicated governance content (COMP90106, COMP90109), but C2 caps at 2/3 because no unit requires a rubric-assessed reliance-decision log, leaving the auditable-judgement layer of this shift only partly covered. |
+| Multimodal foundation model fine-tuning and retrieval-augmented architecture | **↑↑ Rising sharply** | Theme 1 (§3): IEEE Computer Society (January 2025) and ACM TIIS guidance centre AI engineering on multimodal foundation models and efficient distillation. Signal 1 (§2) names Atlassian, Canva, NAB and CSIRO actively recruiting for this, and C4 scores 3/3 on the capstone's self-scoped model-building requirement. |
+| Autonomous planning and multi-agent coordination | **↑ Rising** | Theme 3 (§3): ACS standards call for human-AI interaction design and multi-agent consensus protocols. The curriculum teaches this technically (C5 scores 3/3) but C1 scores only 1/3 because every core assessment from COMP90100 to COMP90113 is individual, so the collaborative-practice component Theme 3 also names is not yet assessed. |
+| Verified production deployment and stakeholder translation | **↑ Rising** | Signal 4 (§2): employers prioritise candidates who can move models from prototype to scalable, monitorable deployment with clear stakeholder communication. W2 (authentic task design) and W1 (professional communication) each score 2/3 — the capstone simulates deployment and includes oral defence, but neither carries live external client constraints nor an external practitioner panel. |
+| Dedicated AI governance and ethics literacy | **→ Stable, differentiating** | C3 already sits at the 3/3 ceiling (COMP90106 AI in Society, COMP90104, COMP90109) — this is the program's baseline differentiator against cognate computer-science degrees rather than a moving target. |
+| Manual heuristic rule design without ML or foundation-model integration | **↓↓ Falling sharply** | Existing declining-demand finding: automated ML pipelines and foundation models are displacing hand-built heuristic rules. Theme 1 (§3) reinforces that contemporary AI engineering now centres on foundation-model adaptation rather than manual rule design. |
 
 ---
 

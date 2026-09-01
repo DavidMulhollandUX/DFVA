@@ -57,14 +57,14 @@ This supports a claim about occupational shortage status and its stated cause. I
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Unassisted manual drafting of learning-story observations | Medium | AI-assisted drafting reviewed and edited under explicit professional judgment | Medium |
-| Generic "ICT as a tool" literacy with no AI-specific framing | Slow | AI-specific capability, limitation and ethics literacy, including child-data safeguarding | Medium |
-| Compliance against the seven-day incident-notification timeframe | Fast (mandated) | Compliance against the 24-hour incident-notification timeframe from 27 February 2026 | Fast |
-| Optional or ad hoc child-safety training | Fast (mandated) | Mandatory national child-protection and child-safety training for all educators and staff | Fast |
-| Treating educator supply as roughly matched to demand | Slow | Recognising Early Childhood Teacher as a formally listed shortage occupation, which reframes graduate destination planning | Medium |
-| General ed-tech professional learning as sufficient AI preparation | Slow | Targeted, AI-specific professional-development content distinct from general ed-tech training | Medium |
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-specific capability, limitation and ethics literacy for documentation | **↑↑ Rising sharply** | C3 is scored at anchor level 1 — ICT is taught only as a generic tool — while Theme 2 (§3) shows the international academic and practitioner literature on generative AI in learning-story documentation is concern-heavy on bias, privacy and educator preparedness. |
+| Compliance with the Strengthened NQF child-safety reforms (24-hour incident notification, mandatory child-protection training) | **↑↑ Rising sharply** | Theme 1 (§3) confirms ACECQA's reforms commence 27 February 2026, bearing directly on C3 and W3, where the program currently documents only a learning-outcome statement rather than a graded criterion. |
+| Leadership-track professional-standards evidence (Room Leader / Educational Leader progression) | **↑ Rising** | Theme 3 (§3) reports Early Childhood Teacher as a formally recognised shortage occupation at the qualified-teacher level, which CI-3 identifies as reframing C4's capstone content toward genuine leadership progression. |
+| Family and community partnership practice | **→ Stable, differentiating** | The job family map rates this LOW substitution pressure — relationship-based work with families and carers is not a task generative AI performs. |
+| Unassisted manual drafting of learning-story observations | **↓↓ Falling sharply** | Theme 2 (§3) documents AI-assisted drafting reviewed under professional judgment displacing purely manual observation writing. |
+| Generic "ICT as a tool" literacy with no AI-specific framing | **↓ Falling** | This is the program's current C3 anchor level; CI-1 recommends replacing it with graded AI-specific capability and ethics content. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

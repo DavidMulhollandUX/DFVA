@@ -69,16 +69,16 @@ This covers Victoria's statutory registration regime only, not other states or t
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual production of routine documentation without AI assistance | Medium | AI-assisted documentation and drafting tool fluency, alongside a still-dominant requirement for Revit and AutoCAD (per the Adzuna AU top-skills list) | Fast |
-| Uncritical acceptance of AI-generated design proposals | Slow — the norm is contested, not settled | Verification and supervision of AI design output, framed by practitioners as reviewing an unsupervised intern's work | Medium |
-| Delegating routine design tasks without tracking cumulative judgment loss | Slow | Deliberate practice to keep design judgment exercised even as routine tasks automate (the "architecture gym" framing) | Medium |
-| Direct AI-attributed staff reductions | Slow — only 3% of AIA/Deltek respondents reported reductions in June 2026 | AI-adoption literacy generally, given RIBA-reported UK practice use near 59–60% in 2025 | Fast |
-| Assumption of a settled professional norm on everyday AI use (for example, using AI for code lookups) | Slow — actively disputed as of January 2026 | Explicit professional guidance on acceptable AI use in day-to-day practice | Medium |
-| Treating architect registration as a one-off, perpetual credential | Fast — the perpetual model ended in Victoria on 13 August 2025 | Annual CPD, professional-indemnity, and fitness-to-practise compliance literacy for new registrants | Fast |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Verification and supervision of AI-generated design output | **↑↑ Rising sharply** | Theme 1 (§3): RIBA-reported UK practice AI use rose from about 41% (2024) to nearly 59–60% (2025), an acceleration outpacing any observed staffing effect. Theme 2 (§3) shows practitioners already frame AI output as work to verify, not trust — comparing it to an unsupervised intern's — yet C3 (digital and AI literacy) scores only 1/3, with AI content sitting in a single learning outcome and in electives rather than assessed core content. |
+| Explicit standards-based critique of AI-assisted and collaborative work | **↑ Rising** | Theme 2 (§3) links unsupervised delegation of design tasks to a gradual, unnoticed erosion of design judgment — the "architecture gym" argument for deliberate, supervised practice. C2 (hybrid metacognition and evaluative judgement) scores only 1/3: reflection is assessed but not judged against explicit quality standards or exemplars. |
+| Documented division of labour between people and digital/AI tools | **↑ Rising** | The Adzuna AU top-skills list (§2 Signal 3) shows documentation, Revit and AutoCAD still dominating live job ads, and Theme 3 (§3) records the profession still disputing acceptable everyday AI use. C1 (distributed cognition) is capped at 2/3 because no core unit assesses a graded division of labour between team members and BIM/AI tooling. |
+| Professional accountability and compliance literacy for new registrants | **↑ Rising** | Theme 4 (§3): the Architects Registration Board of Victoria's own notice (13 August 2025) moved registration from perpetual to an annual cycle requiring CPD, professional-indemnity proof and a fitness-to-practise declaration. W1 (professional communication and conduct) scores 2/3 — professional accountability appears as a learning outcome but is not yet an assessed criterion. |
+| Design-thesis methodology as documented, defended inquiry | **→ Stable, differentiating** | C5 (inquiry and evidence generation) scores 2/3: the capstone already frames design as inquiry, a stable programme strength, though it does not yet document primary-data-generating methodology to the Level 3 anchor — the gap Theme 2 (§3) implicitly raises by linking delegation to eroded judgement over time. |
+| Manual production of routine documentation without AI assistance | **↓ Falling** | Existing declining-demand finding: routine documentation production is shifting toward AI-assisted drafting fluency, though Revit and AutoCAD remain the dominant named skills in the live Adzuna AU job-ad corpus (§2 Signal 3), so the underlying software literacy itself is not falling. |
 
 ---
 

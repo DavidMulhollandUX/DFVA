@@ -57,16 +57,13 @@ Standards from [ACC Australia](https://www.acc.com/chapters-networks/chapters/au
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine legal research and manual precedent drafting
-- Standardized commercial contract assembly without strategic structuring
-- Purely domestic commercial law analysis without cross-border fluency
-
-### Rising Demand
-- AI legal tech fluency (Harvey, CoCounsel) and legal prompt engineering
-- Complex cross-border M&A structuring, FIRB compliance, and ESG governance
-- Transactional negotiation, commercial dispute arbitration, and board-level advisory
-- Critical evaluation and ethical verification of automated legal outputs
+| Skill | Direction | Rationale |
+|---|---|---|
+| Critical evaluation and ethical verification of AI-generated legal outputs | **↑↑ Rising sharply** | Theme 1 (§3) — LCA (November 2024) and the *Australian Journal of Corporate Law* (December 2024) hold that lawyers retain non-delegable fiduciary liability for verifying citations and preventing hallucinated precedents even as AI automates first-pass review, yet C2 scores 1/3 with no documented peer review, portfolio or criterion-referenced appraisal task anywhere in the extract. |
+| Cross-border M&A structuring, FIRB compliance and ESG governance | **↑ Rising** | Signal 2 (§2) names cross-border M&A structuring, FIRB compliance and Asia-Pacific foreign investment regulation as priority growth competencies, while C4 scores 1/3 because no core assessment requires application to novel or unfamiliar problems — the self-scoped research option is one route among several, not a required progression. |
+| Transactional negotiation and cross-functional deal-team coordination | **→ Stable, differentiating** | Theme 2 (§3) — ACC Australia and LCA reporting describes commercial lawyers coordinating across financial advisors, tax accountants and AI-tooling specialists on deal-closing pipelines, yet C1 scores 1/3: the only assessed team task sits in a prescribed-list subject, not the compulsory 12.5 credit points of core. |
+| Standardised commercial contract assembly without strategic structuring | **↓ Falling** | Signal 4 (§2) documents severe AI displacement of standardised contract drafting and precedent customisation; C3 scores 1/3 — AI and digital-law content (Artificial Intelligence and the Law, Regulating AI, Digital Law and Technological Innovation) is entirely elective, never assessed in a core unit. |
+| Routine legal research and manual precedent drafting | **↓↓ Falling sharply** | Signal 1 (§2) reports top-tier firms mandating Gen-AI legal copilots (Harvey, CoCounsel, Lexis+ AI) for contract review and statutory research; C5 scores 1/3 — the documented research-paper artefact is doctrinal secondary synthesis with no methodology selection or data collection. |
 
 ---
 

@@ -63,16 +63,14 @@ Guidelines from [IChemE](https://www.icheme.org/) highlight that scaling up nove
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual steady-state spreadsheet calculations without commercial simulation tools
-- Carbon-intensive process design without lifecycle greenhouse gas accounting
-- Prescriptive unit operation design without dynamic control loop analysis
-
-### Rising Demand
-- Evaluative verification and audit of AI-assisted plant simulation and control models
-- Low-carbon process design, hydrogen systems, and industrial carbon capture
-- Comprehensive process safety engineering (HAZOP, LOPA, Major Hazard Facility compliance)
-- Circular economy engineering, sustainable minerals recycling, and battery material refining
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative auditing of AI-driven process simulation against thermodynamic law | **↑↑ Rising sharply** | Theme 1 (§3): IChemE (November 2024) and *Chemical Engineering Science* (February 2025) warn that black-box AI models frequently predict physically impossible phase equilibria or violate mass/energy conservation. C2 scores only 1/3 — capstone reflections exist but no assessed reliance/override log audits automated simulation solver outputs. |
+| AI-driven process optimisation literacy (predictive maintenance, neural surrogate models, algorithmic risk) | **↑↑ Rising sharply** | Signal 2 (§2): process engineering roles require proficiency in commercial simulation packages and dynamic digital twins for real-time plant optimisation. C3 scores only 1/3 — core coursework trains commercial simulation software but lacks assessed modules on AI-driven optimisation and algorithmic risk (CI-1). |
+| Low-carbon process design (hydrogen systems, carbon capture, critical minerals) | **↑ Rising** | Signal 1 (§2): major energy and mining employers (Woodside, BHP, Rio Tinto, Orica, CSL) actively recruit for hydrogen pilots, battery-materials refining and plant decarbonisation, matching the existing rising-demand finding on low-carbon process design. |
+| Externally judged safety and multidisciplinary plant coordination (HAZOP facilitation) | **↑ Rising** | Theme 2 (§3): Engineers Australia and Chemistry Australia report plant operations depend on rigorous cross-disciplinary collaboration and complex human negotiation in safety culture. W1 scores 2/3 — the capstone already includes Environmental Effects Statements and oral presentations, but only to academic staff, not external practising engineers (CI-3). |
+| Physical process thermodynamics and reaction-kinetics judgement | **→ Stable, differentiating** | Signal 4 (§2): thermodynamic equilibrium, reaction kinetics and physical plant operations "require human chemical engineering principles and non-delegable statutory sign-off" — a durable structural strength, and the basis Theme 1 (§3) relies on for why AI outputs must be audited rather than trusted. |
+| Manual steady-state spreadsheet calculation without commercial simulation tools | **↓↓ Falling sharply** | Existing declining-demand finding, consistent with Signal 2 (§2)'s mandatory shift to Aspen Plus, Aspen HYSYS, PRO/II and dynamic digital twins for plant optimisation. |
 
 ---
 

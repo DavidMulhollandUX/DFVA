@@ -62,17 +62,14 @@ Industry reports from [APAM](https://apam.org.au/) confirm that contemporary act
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Uninformed submission to unrestricted digital likeness / voice cloning contracts
-- Formulaic recitation lacking live responsive listening
-- Passive reliance on traditional casting notices without self-tape production skills
-
-### Rising Demand
-- Motion capture (mocap) and performance capture techniques for virtual production
-- Rigorous vocal and physical flexibility across diverse theatrical styles
-- Evaluative judgement in self-directed audition taping and portfolio curation
-- Performer IP literacy and ethical AI contract negotiation under MEAA standards
-- Interdisciplinary ensemble collaboration and devises performance generation
+| Skill | Direction | Rationale |
+|---|---|---|
+| Performer IP literacy and AI/digital-likeness contract negotiation | **↑↑ Rising sharply** | Theme 1 (§3) reports actors must understand legal protections around body scans, digital-twin licensing and synthetic voice recreation; C3 scores 0/3 — no AI or digital-governance content appears in any core unit. |
+| Motion capture and performance-capture technique for virtual production | **↑↑ Rising sharply** | Signal 2 (§2) shows game studios and VFX houses mandating sensor-suit performance and spatial awareness in green/blue-screen volumes; C3's 0/3 score confirms no formal digital-performance curriculum yet backs this. |
+| Evaluative self-taping judgement and portfolio curation | **↑ Rising** | Theme 3 (§3) names self-taping evaluative judgement as an industry benchmark for contemporary actors; C2 scores only 1/3 — core reflections document skills development but no criterion-referenced appraisal of quality. |
+| Live embodied ensemble performance and vocal/physical presence | **→ Stable, differentiating** | Signal 4 (§2) rates real-time physical embodiment and kinetic audience co-presence VERY LOW substitution pressure (68.55 exposure); this is also the program's strongest scored construct, with C1 (ensemble rehearsal) at 2/3. |
+| Passive reliance on traditional casting notices without self-tape skills | **↓ Falling** | Theme 3 (§3) and the existing evidence show self-taping autonomy displacing passive submission to casting notices as the industry-standard audition route. |
+| Uninformed submission to unrestricted digital likeness/voice-cloning contracts | **↓↓ Falling sharply** | Theme 1 (§3) reports MEAA and Equity Australia enforcing strict collective bargaining agreements against exactly this practice; C3's 0/3 score shows the curriculum offers no formal guard against it yet, making the old practice both declining and actively hazardous. |
 
 ---
 

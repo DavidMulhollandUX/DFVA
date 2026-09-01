@@ -63,17 +63,15 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Generic literature review/synthesis as standalone skill | FAST | Community-controlled research design and protocol fluency | FAST |
-| Manual transcription of interviews/oral history | FAST | Indigenous data sovereignty and CARE principles literacy | FAST |
-| Generic policy report drafting | MEDIUM | AI-augmented (but human-validated) evidence synthesis | MEDIUM |
-| Non-Indigenous-led "expert" intermediary research roles | MEDIUM | Dual-system fluency (Western academic + Indigenous knowledge) | FAST |
-| Siloed single-discipline research training | SLOW-MEDIUM | Cross-disciplinary, cross-institutional research capability | MEDIUM |
-| Purely descriptive ethnographic/heritage documentation | SLOW | ICIP (Indigenous Cultural and Intellectual Property) governance expertise | FAST |
-| Generic grant-writing without community co-design framing | MEDIUM | Grant/funding navigation with genuine community co-design credentials | MEDIUM |
-| Passive stakeholder consultation | SLOW | Active self-determination-aligned partnership and shared-decision-making practice | FAST |
-| AI-naive research assistance roles | FAST | AI-literate research leadership able to govern AI use around sensitive community data | MEDIUM |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Indigenous data sovereignty and CARE principles literacy | **↑↑ Rising sharply** | CI-1 (§5) states rising demand for AI-literate research leaders who can govern AI use around community data "is not currently matched by explicit curriculum content," while Signal 2 (§2) documents ACCOs actively reducing reliance on external research intermediaries. |
+| ICIP (Indigenous Cultural and Intellectual Property) governance expertise | **↑ Rising** | Signal 3 (§2) links sustained native-title and cultural-heritage research demand to legislative reform activity requiring protocol-literate researchers, a governance layer CI-1 (§5) confirms has no dedicated module. |
+| Dual-system fluency (Western academic and Indigenous knowledge) | **↑ Rising** | CI-4 (§5) identifies dual-system fluency as "the strongest-growing skill category and already the degree's core design," reflected in Signal 1's (§2) growth of dedicated Indigenous research institute and fellowship positions. |
+| Community-controlled research design and co-design partnership | **→ Stable, differentiating** | Signal 2 (§2) frames ACCO research/program leadership growth as a "sector-wide self-determination trend" tied to Closing the Gap Priority Reform Two, which CI-2 (§5) recommends documenting as a portfolio artefact rather than treating as incidental. |
+| Generic literature review and synthesis as a standalone skill | **↓ Falling** | Job Family Map (§1) records AI-augmented, human-validated evidence synthesis rising across policy and health-advisory roles, displacing manual-only literature synthesis. |
+| Manual transcription of interviews and oral history | **↓ Falling** | The same structural shift (§1) toward AI-assisted analytics is offset directly by the rising demand for Indigenous data sovereignty literacy above, since transcription of culturally sensitive material is exactly where that governance layer applies. |
+| Non-Indigenous-led "expert" intermediary research roles | **↓↓ Falling sharply** | Signal 2 (§2) documents ACCOs increasingly seeking PhD-credentialed staff "to lead internally-directed research and evaluation, reducing reliance on external (often non-Indigenous) academic partners" — a self-determination trend displacing this role fastest. |
 
 ---
 

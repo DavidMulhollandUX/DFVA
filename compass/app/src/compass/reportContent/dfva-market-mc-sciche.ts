@@ -61,20 +61,17 @@ Standards from [RACI](https://raci.org.au/) confirm that a substantial multi-sem
 
 ---
 
-## 4. SKILL SHIFT SUMMARY
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-### Declining Demand
-- Manual routine bench titration without automated detection
-- Paper laboratory notebooks without digital ELN integration
-- Unassisted literature keyword searches for synthetic pathways
-
-### Rising Demand
-- Evaluative verification and experimental validation of ML-assisted synthesis predictions
-- Advanced hyphenated mass spectrometry and 2D NMR spectral deconvolution
-- Electronic laboratory notebook (ELN) data integrity and FAIR open-science compliance
-- Green chemistry metrics, solvent-free synthesis, and lifecycle carbon accounting
-
----
+| Skill | Direction | Rationale |
+|---|---|---|
+| Materials characterisation and battery/critical-minerals process chemistry | **↑↑ Rising sharply** | Signal 2 (§2) describes Australia's critical minerals and battery manufacturing ambitions as generating "a net-new demand signal absent from the market five years ago," which CI-4 (§5) recommends addressing through a materials and energy chemistry elective pathway. |
+| Chemical regulatory and compliance literacy (AICIS, REACH, TGA) | **↑ Rising** | Signal 3 (§2) attributes growing demand to AICIS reforms and ESG disclosure requirements, while CI-5 (§5) notes this literacy is "increasingly valued by employers but is not visibly present in the curriculum." |
+| AI/ML-assisted synthesis planning and reaction-prediction tools | **↑ Rising** | Signal 6 (§2) reports a small but growing proportion of R&D chemistry roles mentioning tools such as Chemputer, IBM RXN and the Schrödinger Suite, noting "the trajectory is upward" while "curriculum has not yet visibly responded." |
+| Multi-technique hyphenated analysis and electronic lab notebook/LIMS practice | **↑ Rising** | Signal 1 (§2) confirms pharmaceutical and CRO employers consistently require research-grade instrument experience (HPLC, GC-MS, NMR) and GMP documentation, and CI-6 (§5) flags ELN/LIMS as now an employer expectation the research project should embed. |
+| Experimental design and chemical intuition in synthesis and medicinal chemistry | **→ Stable, differentiating** | The job family map (§1) rates AI substitution pressure LOW for research and medicinal chemists because "physical lab experimentation and hypothesis design remain irreducible" even as AI-assisted screening tools are adopted alongside them. |
+| Manual bench titration for routine QC | **↓↓ Falling sharply** | Signal 1 (§2) and the job family map (§1) both note routine instrument operation and data processing are automating for analytical/QC chemists, with employers preferring graduates who can move beyond manual titration to multi-technique instrumentation. |
+| Single-instrument expertise (for example, UV-Vis only) | **↓ Falling** | The job family map (§1) rates analytical-chemist AI substitution pressure MEDIUM specifically because "routine instrument operation and data processing" is automating, pushing demand toward the multi-technique hyphenated skillset named as rising above. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

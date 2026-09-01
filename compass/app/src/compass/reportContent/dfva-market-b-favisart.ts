@@ -62,17 +62,14 @@ Standards from [Creative Australia](https://creative.gov.au/) confirm that autho
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Uninformed submission to non-consensual visual data scraping agreements
-- Generic derivative illustration lacking material authenticity or conceptual depth
-- Passive studio practice isolated from contemporary curatorial and theoretical discourse
-
-### Rising Demand
-- Distinctive material craft, physical installation, and tactile sculpture/painting technique
-- Spatial curation, site-specific public art proposals, and exhibition lighting/installation
-- Evaluative judgement in studio critique and documented creative process journaling
-- Knowledge of NAVA Code of Practice, moral rights, and artist contract negotiation
-- Community-engaged art co-design and participatory creative facilitation
+| Skill | Direction | Rationale |
+|---|---|---|
+| NAVA moral-rights literacy and AI-scraping/IP defense | **↑↑ Rising sharply** | Theme 1 (§3) reports artists must assert moral rights, defend against unauthorised style scraping, and document creative provenance; CI-1 (§5) confirms the core lacks formal training in AI visual ethics, copyright defense, and digital provenance. |
+| Evaluative judgement in studio critique and documented process journaling | **↑↑ Rising sharply** | Theme 2 (§3) describes rigorous group critique where students verbally defend material choices against professional gallery standards; CI-2 (§5) notes crits already occur but peer review is not yet formalised against criterion-referenced gallery standards. |
+| Spatial curation and self-scoped graduate exhibition authorship | **↑ Rising** | Theme 3 (§3) names an independent body of work with spatial installation defence and catalogue authorship as the professional-readiness hallmark; CI-5 (§5) confirms this is the program's strongest capstone evidence, reproducing gallery practice end-to-end. |
+| Distinctive material craft and tactile studio practice | **→ Stable, differentiating** | Signal 4 (§2) rates this VERY LOW substitution pressure (69.45 exposure) — tactile material manipulation, pigment chemistry and foundry casting stay fundamentally immune to automation. |
+| Generic derivative illustration lacking material authenticity or conceptual depth | **↓ Falling** | Signals 1–3 (§2) show the market premium moving to authentic signature craft, site-specificity and documented provenance, away from generic derivative work. |
+| Uninformed submission to non-consensual visual data scraping agreements | **↓↓ Falling sharply** | Theme 1 (§3) reports NAVA actively defending artists against exactly this practice, while CI-1 (§5) shows the curriculum offers no formal guard against it yet, making the old practice both declining and actively hazardous. |
 
 ---
 

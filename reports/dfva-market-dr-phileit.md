@@ -58,18 +58,15 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual literature review as a standalone skill | Fast | AI-augmented research literacy (using AI tools critically, verifying outputs) | Fast |
-| Routine data-wrangling/statistical scripting | Fast | AI/ML systems fluency (building, deploying, evaluating models) | Fast |
-| Boilerplate simulation/parameter-sweep execution | Medium | Original algorithmic/theoretical contribution | Steady |
-| Generic "PhD as credential" signalling without translational skill | Medium | Industry-translation and cross-disciplinary communication skill | Fast |
-| Siloed single-discipline technical depth alone | Slow | Combined technical depth + AI-systems fluency + domain specialisation | Fast |
-| Manual thesis/paper first-drafting | Fast | Research integrity/verification skill (auditing AI-assisted outputs) | Fast |
-| Traditional academic-only career framing | Medium | Deep-tech/startup translational pathways | Fast |
-| Narrow single-tool technical training | Slow | Physically-grounded experimental/fabrication skill (resistant to automation) | Steady |
-| Unstructured mentoring/supervision experience | Slow | Formalised research leadership and mentoring capability | Medium |
-| Passive destination outcomes (no tracking) | Slow | Demand for transparent, trackable graduate outcome data from institutions | Medium |
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI/ML systems fluency (building, deploying, evaluating models) | **↑↑ Rising sharply** | Signal 2 (§2) describes demand for PhD-level original ML research talent growing sharply through the AI boom, bifurcating the market between "original research" and "commoditised applied ML engineer" roles; CI-5 (§5) says candidates lack explicit positioning support to land in the higher tier. |
+| Research integrity and verification skill (auditing AI-assisted outputs) | **↑ Rising** | CI-6 (§5) flags that AI-assisted drafting tools "raise the risk of eroding the credential's originality signal" and recommends a mandatory disclosure statement, directly reflecting Signal 2's bifurcated ML labour market. |
+| Industry-translation and deep-tech founder-level technical judgment | **↑ Rising** | Signal 7 (§2) reports increasing venture-capital interest in "hard tech" and AI-adjacent hardware ventures structurally increasing founding-engineer roles seeking PhD-level original-research capability as a differentiator. |
+| Physically-grounded experimental and fabrication skill | **→ Stable, differentiating** | Signal 1 (§2) and Signal 3 (§2) both anchor semiconductor and energy-transition R&D demand in physical fabrication/validation constraints that AI-accelerated design tooling cannot remove — the bottleneck stays human. |
+| Boilerplate simulation and parameter-sweep execution | **↓ Falling** | Job Family Map (§1) rates computing and AI/ML systems research as carrying "the highest AI-substitution pressure of the six disciplines on routine coding subtasks," displacing boilerplate execution work specifically. |
+| Manual literature review and thesis first-drafting | **↓ Falling** | CI-1 (§5) states candidates need explicit AI-systems literacy "not incidental exposure" to close the productivity gap between AI-fluent and AI-naive researchers on drafting-adjacent tasks. |
+| Siloed single-discipline technical depth without AI-systems fluency | **↓↓ Falling sharply** | Signal 2 (§2) reports the market has bifurcated toward candidates who combine technical depth with AI-systems fluency and domain specialisation, leaving narrow single-discipline depth alone the fastest-declining positioning across all six job families. |
 
 ---
 

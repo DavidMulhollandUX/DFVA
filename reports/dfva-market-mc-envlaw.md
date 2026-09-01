@@ -76,18 +76,13 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| General environmental compliance auditing (rules-based, rote) | Fast | Climate disclosure law (ASRS/TCFD/ISSB alignment) | Very Fast |
-| Manual EIS document review and summarisation | Very Fast | AI-assisted EIA analysis and regulatory risk mapping | Fast |
-| Purely domestic environmental law practice (single-jurisdiction) | Medium | Cross-jurisdictional climate and nature law (Federal + State + International) | Fast |
-| Carbon credit document drafting without market context | Fast | Carbon market law (Safeguard Mechanism, ACCU scheme, voluntary markets) | Very Fast |
-| Generic environmental legal research (commodity service) | Fast | Strategic climate litigation (novel legal theory, scientific evidence marshalling) | Fast |
-| Water law as standalone practice area | Slow | Nature Positive law (biodiversity credits, Environment Protection Australia regime) | Very Fast |
-| Single-medium communication (written submissions only) | Slow | Science-law communication (translating ecological/climate science for courts and regulators) | Fast |
-| Traditional resource extraction regulatory advice | Medium | ESG and sustainability advisory (corporate, in-house, consulting) | Very Fast |
-| Reactive compliance advice post-breach | Medium | Proactive environmental risk governance and board-level ESG counsel | Fast |
-| International environmental law as academic specialisation only | Slow | Loss and damage finance law, BBNJ treaty implementation, carbon border mechanisms | Medium |
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-assisted EIS review and cross-jurisdictional regulatory-risk mapping | **↑↑ Rising sharply** | Theme 3 (§3): AI tools already replace junior document review and discovery, while manual EIS review and summarisation is declining "Very Fast" in this section's own prior table; C3 scores 1/3 — the only program-level technology statement is a Law Library IT-infrastructure claim, and the sole AI-governance unit (LAWS90248) is an elective. |
+| Auditing client ESG reports and marketing claims against actual environmental performance | **↑↑ Rising sharply** | Theme 1 (§3): environmental lawyers are increasingly asked to audit greenwashing risk following ASIC enforcement action; C2 scores 1/3 — no required unit assesses criterion-referenced appraisal of work quality against published standards. |
+| Advising on climate and nature-law doctrine still being made in the courts | **↑ Rising** | Themes 2 and 5 (§3) describe live, unsettled biodiversity-credit and private-law duty-of-care case law; C4 scores 1/3 — adaptability to "the rapidly evolving legal context" is claimed in outcomes but assessed in no required unit, since the degree carries no compulsory core. |
+| Science-law communication for courts and regulators | **↑ Rising** | Theme 7 (§3) names environmental-science literacy among lawyers as the most persistent skills gap Melbourne Law alumni report; C5 scores 1/3 — assessed research papers are secondary doctrinal scholarship with no empirical methodology or defended primary-evidence component. |
+| Generic, single-jurisdiction environmental legal research as a commodity service | **↓↓ Falling sharply** | This section's own prior Declining Demand table and Theme 3 (§3) both place generic research and purely domestic practice among the fastest-declining skills as AI absorbs routine research volume. |
 
 ---
 

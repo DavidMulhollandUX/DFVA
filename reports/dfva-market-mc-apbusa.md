@@ -58,16 +58,15 @@ Technical guidelines from [DSAA](https://www.dsaa.org.au/) highlight that data a
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual data cleaning and routine exploratory SQL/Python coding
-- Descriptive dashboard creation without causal inference
-- Standard regression reporting without model explainability
-
-### Rising Demand
-- Evaluative verification and audit of AI-generated analytics code and ML models
-- Enterprise AI governance, algorithmic fairness auditing, and regulatory compliance
-- Mixed-integer mathematical programming and supply chain optimization
-- Executive data storytelling and client advisory
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-augmented analytics supervision (catching errors, orchestrating Copilot outputs) | **↑↑ Rising sharply** | Signal 3 (§2): a growing share of ANZ postings use titles such as "AI-Augmented Business Analyst" and expect graduates to supervise AI outputs. Theme 2 (§3) confirms practitioner consensus is shifting toward critical interpretation and orchestration over from-scratch construction, yet D9 (curriculum currency) scores 1/3 — no visible advisory-panel-driven refresh mechanism keeps pace with the tooling shift. |
+| Applied bias auditing, model cards and fairness-metric literacy | **↑↑ Rising sharply** | Theme 4 (§3): practitioners report frustration that "AI ethics" appears in academic syllabi but rarely as a practical skill — a bias audit, a model card, a fairness metric. Signal 6 (§2) names emerging APRA model-risk guidance in regulated ANZ sectors. D5 (AI literacy and governance) scores 3/3 for tool-forward engagement with AI BI tools, but that evidence is about using such tools, not auditing them — the gap this rising demand exposes. |
+| Data storytelling and executive translation | **↑ Rising** | Theme 3 (§3): hiring managers consistently report this as the hardest skill to hire for. D8 (human and relational capability) scores only 1/3, because communication and stakeholder capability sit embedded in rubrics rather than as a formal assessed unit. |
+| Real-data, industry-partnered capstone experience | **↑ Rising** | Theme 7 (§3): the single most-cited differentiator for analytics master's graduates is a genuine industry-partnered capstone with real data and a real decision outcome; simulated case studies and Kaggle competitions are viewed as insufficient. |
+| Cloud-native analytics fluency (Snowflake, BigQuery, dbt) | **→ Stable, differentiating** | Signal 2 (§2): ANZ employers across banking, consulting and tech are standardising on cloud data warehouses as the baseline environment. D3 (technical and quantitative depth) scores 3/3 — a durable programme strength, though CI-2 flags the risk of curriculum drift toward on-premises tooling. |
+| Routine dashboard construction and descriptive reporting without insight | **↓↓ Falling sharply** | D1 (automation exposure) scores only 1/3: entry-level dashboard and analytics production is, in the program's own rationale, "precisely the layer being compressed by AI business-intelligence tools." The existing declining-demand finding names static PDF reports and manual Excel pivot tables as falling fast for the same reason. |
+| Manual Excel/SPSS/SAS-based statistical workflows | **↓↓ Falling sharply** | Existing declining-demand finding: displaced very fast by Python-native manipulation and cloud-native analytics. Signal 1 (§2) shows Python/SQL requirements moving from roughly 40% to above 70% of master's-targeted ANZ postings. |
 
 ---
 

@@ -63,16 +63,14 @@ The allied health sector is experiencing increased pressure from funding bodies 
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Unstructured, unmeasured music activities without clinical goals
-- Manual paper documentation without electronic health record integration
-- Isolated single-modality practice without interprofessional team coordination
-
-### Rising Demand
-- Standardised functional outcome measurement and goal-attainment scaling (GAS)
-- Trauma-informed, neurodiversity-affirming clinical improvisation
-- Digital audio technology and multitrack recording for client empowerment
-- Translation of neuroscientific and clinical evidence into multidisciplinary care plans
+| Skill | Direction | Rationale |
+|---|---|---|
+| Digital health governance and AI-audio capability/limitation literacy | **↑↑ Rising sharply** | Theme 2 (§3) documents rapid clinical adoption of digital audio workstations, electronic instruments and telehealth delivery alongside a need for "ethical digital data governance"; the companion v4 assessment scores C3 Digital & AI literacy at only 1/3, since core units teach digital-tool operation but no core subject addresses AI capabilities, limitations or ethics. |
+| Standardised functional outcome measurement and goal-attainment scaling (GAS) | **↑ Rising** | Theme 3 (§3) links funding-body pressure (Commonwealth Department of Health and Aged Care, NDIS) to a requirement for "mixed-methods evidence generation, translational clinical trials, and systematic outcome tracking"; CI-2 (§5) notes the research sequence emphasises proposals and synthesis over primary data collection, matching the companion assessment's C5 Inquiry & evidence generation score of 1/3. |
+| Translation of neuroscientific and clinical trial evidence into multidisciplinary care plans | **↑ Rising** | Theme 3 (§3) documents research commentary in the *Australian Journal of Music Therapy* (December 2024) stressing translational evidence generation to secure institutional funding and service integration. |
+| Human relational attunement and embodied co-presence as the therapeutic agent of change | **→ Stable, differentiating** | Theme 1 (§3) reports professional discourse across AMTA and the *Journal of Music Therapy* (2024/2025) affirming that "automated generative audio algorithms and AI music tools cannot perceive subtle autonomic, emotional, or non-verbal cues" in vulnerable patients — the credential's core, unmoved by AI adoption elsewhere. |
+| Unstructured, unmeasured music activities without clinical goals | **↓ Falling** | The existing skill-shift evidence (§4 baseline) and Theme 3's (§3) funding-accountability pressure together show health services and funding bodies "increasingly reject unmeasured recreation in favour of accredited, goal-directed allied health therapy." |
+| Manual paper documentation without electronic health record integration | **↓↓ Falling sharply** | Signal 3 (§2) states hospitals "require therapists to use enterprise EMR systems (Epic, Cerner) and telehealth audio streaming platforms," a hard requirement across the major public health networks and NDIS providers listed in Signal 1 (§2). |
 
 ---
 

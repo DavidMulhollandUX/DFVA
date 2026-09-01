@@ -62,18 +62,15 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual literature review compilation | FAST | AI-literate critical research synthesis (verify, don't just summarise) | FAST |
-| Manual GIS data preparation/cleaning | MEDIUM | AI-assisted spatial analytics with human interpretation | FAST |
-| Routine drafting/CAD-adjacent design production | FAST | Generative-design critical evaluation and evidence-based design guidelines | MEDIUM |
-| Basic transcription/qualitative coding | FAST | Fieldwork design and stakeholder/community engagement | SLOW (structurally durable, not shrinking) |
-| Traditional econometric modelling without ML fluency | MEDIUM | AI/ML forecasting model literacy in property/construction economics | FAST |
-| Generalist "research assistant" task execution | FAST | Research translation (academia-to-industry/policy bridging) | MEDIUM |
-| Standalone technical writing without AI tooling | MEDIUM | AI-augmented drafting paired with defensible original argument | FAST |
-| Static regulatory/policy document retrieval | FAST | Regulatory interpretation and reform-oriented policy judgment | SLOW (durable) |
-| Siloed single-discipline expertise | SLOW | Cross-disciplinary built-environment research (design + policy + economics) | MEDIUM |
-| Manual heritage/environmental record search | MEDIUM | AI-tool-supervised heritage/environmental significance judgment | SLOW (durable) |
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI/ML forecasting model literacy in property and construction economics | **↑↑ Rising sharply** | Signal 2 (§2) reports research-economist roles at property/construction advisory firms explicitly listing forecasting-model and data-science tool fluency as differentiators; the companion assessment's D5 AI Literacy score is only 1/3, with no dedicated AI governance content evident in the generic handbook description. |
+| Generative-design critical evaluation and evidence-based design guidelines | **↑ Rising** | Signal 4 (§2) describes larger architecture and landscape practices creating "design research" roles specifically to critically evaluate generative AI design tools — a role category CI-7 (§5) says the curriculum does not yet prepare candidates for. |
+| Research translation and academia-to-industry/policy bridging | **↑ Rising** | Signal 5 (§2) notes Tier-1 construction and infrastructure firms hiring PhD-qualified applied researchers to bridge academic findings and practice; CI-3 (§5) flags this as an emerging category the program does not yet make visible to employers. |
+| Fieldwork design and stakeholder/community engagement | **→ Stable, differentiating** | Signal 3 (§2) identifies heritage and statutory planning specialists as a durable, regulation-anchored niche largely insulated from AI substitution; CI-6 (§5) recommends surfacing this competency explicitly in program marketing. |
+| Manual literature review compilation | **↓ Falling** | Signal 7 (§2) reports contracting volume of generalist "Research Assistant" postings as AI tools absorb literature-review and basic GIS-prep work — the segment sitting below the PhD credential itself. |
+| Manual GIS data preparation and cleaning | **↓ Falling** | The same structural contraction (Signal 7, §2) applies to routine spatial data-prep tasks, while Signal 6 (§2) shows the surviving demand shifting toward hybrid urban-analytics/spatial-data-science roles that pair this work with AI-tool fluency. |
+| Traditional econometric modelling without ML fluency | **↓↓ Falling sharply** | Signal 2 (§2) states the property/construction economics stream "faces the highest tooling pressure of the six sub-disciplines" as AI/ML forecasting becomes standard in industry analytics practice, displacing econometrics-only technique. |
 
 ---
 

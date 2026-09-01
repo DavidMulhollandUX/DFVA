@@ -57,17 +57,13 @@ Reports from [DCCEEW](https://www.dcceew.gov.au/) (2024) and [DEECA](https://www
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine manual entry and tabular compilation of greenhouse gas inventory spreadsheets
-- Basic environmental compliance checklist compilation without strategic risk framing
-- Descriptive summarisation of published ecological literature without critical data synthesis
-
-### Rising Demand
-- Evaluative judgement and adversarial auditing of automated carbon accounting, climate risk models, and generative ESG disclosures
-- Interdisciplinary policy translation across corporate ESG, statutory approvals, and community advocacy
-- Nature-related financial risk assessment (TNFD) and biodiversity metric integration
-- Indigenous Caring for Country partnership facilitation and environmental data governance
-- Multi-stakeholder negotiation under high climate uncertainty and conflicting socio-economic imperatives
+| Skill | Direction | Rationale |
+|---|---|---|
+| Adversarial auditing of automated carbon accounting and generative ESG disclosures | **↑↑ Rising sharply** | Theme 1 (§3) warns AI-driven sustainability-reporting tools and automated scope 1–3 estimators risk systemic greenwashing without human validation; C3 scores 1/3 — computational tooling (EVSC90020, ENEN90031, BIOL90041) sits only in electives, never the compulsory core. |
+| Satellite remote sensing and AI-assisted biodiversity tracking, with mandatory field verification | **↑ Rising** | Theme 2 (§3): EIANZ and IUCN guidance holds that AI habitat surveillance accelerates monitoring but field verification and stakeholder consensus remain indispensable; C1 scores 2/3 — no core unit documents a human–AI workflow-allocation charter. |
+| Indigenous data sovereignty and CARE-principle co-management | **↑ Rising** | Theme 3 (§3): DCCEEW and DEECA guidance embeds Indigenous data sovereignty into environmental decision-making and infrastructure approvals; W1 scores 2/3 — professional communication is assessed but never judged by an external practitioner across the universal core. |
+| Multi-stakeholder negotiation under conflicting policy and community imperatives | **↑ Rising** | Theme 3 (§3) and the program's G2 PASS on scenario-based multi-stakeholder assessment (MULT90004/90005) both bear here; C5 scores 2/3 — the compulsory capstone menu permits a literature-review route (ENST90006), so a primary-evidence stakeholder inquiry is not guaranteed for every graduate. |
+| Routine manual entry and tabular compilation of greenhouse-gas inventory spreadsheets | **↓↓ Falling sharply** | Theme 1 (§3) and this section's own prior Declining Demand line identify baseline GHG data aggregation as the task automated first, freeing capacity for the adversarial-audit skill above. |
 
 ---
 

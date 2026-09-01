@@ -57,16 +57,15 @@ Guidance from [ASIC](https://asic.gov.au/) (2024) and [APRA](https://www.apra.go
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine spreadsheet data entry, manual financial statement spreading, and basic ratio calculations
-- Manual generation of boilerplate investment memorandums and commoditized equity research notes
-- Basic formulaic financial forecasting without rigorous scenario stress-testing
-
-### Rising Demand
-- Evaluative judgement and override auditing of AI-generated DCF models and valuation multiples
-- Quantitative algorithmic risk modeling, stress-testing under extreme macro shocks, and liquidity auditing
-- High-stakes investor communication, client advisory, M&A negotiation, and investment committee defense
-- Algorithmic financial governance, APRA/ASIC compliance, and ethical market conduct oversight
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative judgement and override auditing of AI-generated DCF and valuation models | **↑↑ Rising sharply** | C2 scores 2/3 — investment and corporate-finance tasks lack structured override and verification logs (CI-2). Theme 2 (§3) — CFA Institute and FINSIA (2024) — establish that human analysts retain "sole accountability for qualitative strategic diligence, deal negotiation, and governance sign-off" while AI performs initial DCF modelling. |
+| Routine spreadsheet data entry, manual financial-statement spreading and basic ratio calculations | **↓↓ Falling sharply** | Named directly in the Declining Demand list. Signal 3 (§2) reports 97.83 automation exposure across routine DCF spreadsheet construction and quantitative data cleaning. |
+| Quantitative algorithmic risk modelling, stress-testing and liquidity auditing | **↑↑ Rising sharply** | Theme 1 (§3) — *Journal of Financial Economics* (January 2025) and AFMA market surveys — warn that analysts must actively safeguard against "algorithmic herd behavior, flash crashes, and model over-fitting." Signal 2 (§2) ties this to ASIC/APRA/BIS/RBA algorithmic-governance mandates. |
+| Human-AI task division in valuation and M&A workflows | **↑ Rising** | C1 scores 2/3 — collaborative finance projects lack a formal human-AI task allocation protocol (CI-1). Theme 2 (§3) describes leading finance teams shifting toward workflows where AI performs screening while humans retain deal-negotiation accountability. |
+| Boilerplate investment memoranda and commoditized equity research notes | **↓ Falling** | Named directly in the Declining Demand list. |
+| High-stakes investor communication, M&A negotiation and investment-committee defense | **→ Stable, differentiating** | §1's Corporate Finance, M&A & Capital Markets family carries VERY HIGH substitution pressure on routine tasks, yet "bespoke deal structuring, multi-stakeholder negotiation" persists as the retained accountability layer per Theme 2's human-sign-off framing. |
+| Algorithmic financial governance, APRA/ASIC compliance and market-conduct oversight | **↑ Rising** | C3 scores 2/3 — algorithmic market governance and credit AI bias are unassessed across the core (CI-3). Theme 3 (§3) — ASIC and APRA's CPS 230 AI Governance framework — hold institutions legally responsible for algorithmic fairness and model explainability. |
 
 ---
 

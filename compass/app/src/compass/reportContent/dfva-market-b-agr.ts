@@ -62,16 +62,14 @@ Standards from [AIA](https://www.aginstitute.com.au/) confirm that authentic who
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Traditional calendar-based spraying schedules without precision sensor data
-- Paper farm record-keeping without spatial GIS and digital farm management software
-- Single-commodity farm advice without natural capital and carbon accounting context
-
-### Rising Demand
-- Precision agriculture, variable rate technology (VRT), and drone multispectral imaging
-- Soil carbon measurement, GHG emissions accounting, and sustainability reporting
-- Integrated pest and weed resistance management (IPM) under changing climates
-- AgTech data integration, IoT telemetry, and farm business financial modeling
+| Skill | Direction | Rationale |
+|---|---|---|
+| Precision agriculture and AI-generated prescription validation | **↑↑ Rising sharply** | Theme 1 (§3) reports agronomists retain liability for ground-truthing AI-generated variable-rate and weed-detection maps; C3 scores 1/3 — precision AgTech is only a Level 3 elective, and the core has no AI capabilities or limitations content. |
+| Soil carbon measurement and GHG/carbon credit auditing | **↑↑ Rising sharply** | Signal 3 (§2) and Theme 3 (§3) show pastoral companies and financial institutions now require ACCU methodologies and greenhouse-gas auditing; C5 scores only 1/3 — core field and soil work follows prescribed practicals with no documented independent methodology selection. |
+| Collaborative, client-facing farm advisory | **↑ Rising** | Theme 2 (§3) documents agronomists working across multidisciplinary grower and advisory teams; W1 scores 1/3 because the only spoken core assessment (ENVS10001's group presentation) has no documented audience beyond staff and peers. |
+| In-paddock physical judgment (crop scouting, livestock welfare, weather crisis response) | **→ Stable, differentiating** | Signal 4 (§2) rates this work VERY LOW substitution pressure (42.41 exposure) — fundamentally immune to automation, and unaffected by the AI-adoption trends driving the other rows. |
+| Calendar-based spraying without precision sensor data | **↓ Falling** | The Rising Demand evidence in Signal 2 (§2) and Theme 1 (§3) shows AI-generated variable-rate prescriptions displacing blanket, calendar-based spray scheduling. |
+| Paper farm record-keeping without GIS/digital farm management platforms | **↓↓ Falling sharply** | Signal 2 (§2) records farm enterprises now mandating spatial data platforms (John Deere Operations Center, DataFarming, PCT Agcloud) as baseline capability, leaving non-digital record-keeping close to obsolete. |
 
 ---
 

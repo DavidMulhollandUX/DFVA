@@ -57,16 +57,15 @@ Policy guidance from [ACCC](https://www.accc.gov.au/) (2024) and [OAIC](https://
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine copywriting, social media post drafting, and standard email newsletter generation
-- Basic search engine optimization (SEO) keyword stuffing and boilerplate blog writing
-- Manual performance data entry and static marketing dashboard compilation
-
-### Rising Demand
-- Evaluative judgement and override auditing of AI-generated marketing copy, personas, and campaign strategies
-- Advanced marketing analytics, customer data platform (CDP) governance, and econometric attribution modeling
-- High-level brand strategy, cross-functional stakeholder leadership, and executive agency pitch defense
-- Algorithmic advertising ethics, ACCC regulatory compliance, and consumer privacy protection
+| Skill | Direction | Rationale |
+|---|---|---|
+| Validation of AI-generated content and synthetic customer personas | **↑↑ Rising sharply** | C2 scores 1/3 — reflection appears in one core outcome (BUSA90480 Leadership) but no assessment applies criteria to the quality of work; Theme 1 (§3, *Journal of Marketing* 2024/*Marketing Science* January 2025) finds excessive reliance on synthetic personas and automated copy drives brand commoditization, requiring rigorous validation against authentic field research. |
+| Algorithmic advertising ethics and consumer-data governance | **↑↑ Rising sharply** | C3 scores 1/3 — the only documented digital content is Excel-based data-analysis tool operation, with no core unit jointly addressing AI capabilities and limitations/ethics; Theme 3 (§3, ACCC/OAIC 2024) enforces strict compliance against deceptive design patterns and unauthorised consumer data profiling. |
+| Human-AI task division in campaign strategy | **↑ Rising** | Theme 2 (§3, AMI/AANA 2024): teams must institute explicit division of labour between human strategists and automated AI agents; C1 scores 2/3, with assessed syndicate collaboration already in the core but no assessment documenting a human-AI task allocation. |
+| Client-facing professional pitch delivery and conduct | **↑ Rising** | W1 scores 1/3 — syndicate presentations reach peers and staff, but no core assessment is delivered to a real external audience or judged by a professional against practice criteria; Signal 1 (§2) already routes marketer value toward creative brand curation delivered under client scrutiny. |
+| Primary research design and applied field-project delivery | **→ Stable, differentiating** | C4, C5 and W2 all sit at 2/3 — the Marketing Research field project already carries a real research problem from definition through report and presentation, an existing durable strength, though it stops short of a self-scoped capstone or externally defended methodology. |
+| Manual performance data entry and static dashboard compilation | **↓↓ Falling sharply** | Signal 3 (§2): routine analytics dashboards and formulaic marketing reporting carry a documented 96.45 automation-exposure figure, yet C3's low score means no compulsory subject teaches students to govern the platforms replacing this work. |
+| Routine copywriting and boilerplate SEO content | **↓ Falling** | Signal 1 (§2): generative AI content pipelines already shift marketer value from manual copy drafting toward brand curation and ethical compliance, a shift W3's zero score (no work-integrated learning anywhere in the program) leaves entirely untaught in applied practice. |
 
 ---
 

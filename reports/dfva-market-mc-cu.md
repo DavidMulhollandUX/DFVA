@@ -57,13 +57,15 @@ As of September 2025, sonographers in Australia sit outside the Health Practitio
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual, keystroke-heavy console interaction during standard transthoracic echo acquisition | Medium | Interpreting and validating AI-assisted acquisition and automated-measurement outputs | Medium |
-| Purely manual probe navigation for standard cardiac views, as vendors pursue autonomous/robot-assisted scanning (development-stage, not yet deployed) | Slow | Oversight and validation of AI-guided or robotic-assisted image acquisition | Slow |
-| — (not evidenced in the supplied sources) | — | Workflow-tool literacy, positioned by imaging-industry commentary as a "capacity multiplier" against a rising sonography vacancy rate | Fast |
-| Reliance on the prior (2015/2022) ASA/ASAR conduct codes | Slow | Structured adherence to the July 2025 ASA/ASAR Code of Conduct's 21 standards | Slow |
-| — (not evidenced in the supplied sources) | — | AI-literacy framed as a workload-management and care-access-extension skill (AIUM 2026 keynote) | Slow |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Interpreting and validating AI-assisted acquisition and automated-measurement outputs | **↑↑ Rising sharply** | Theme 1 (§3) reports a peer-reviewed Australian crossover study finding an AI/automation-enabled transthoracic echo protocol cut scan time by 25% and console keystrokes by 54% (p<0.001), while CI-1 (§5) notes the program currently teaches zero AI content (C3 = 1/3). |
+| Workflow-tool literacy positioned as a "capacity multiplier" against workforce shortage | **↑ Rising** | Theme 2 (§3) reports imaging-industry commentary (Cardioserv, 13 April 2026; AIUM 2026 keynote) framing AI-assisted acquisition as a capacity multiplier against a reported sonography vacancy rate of 16.7% in 2023 and 12.4% in 2025. |
+| Structured adherence to the July 2025 ASA/ASAR Code of Conduct | **↑ Rising** | Theme 3 (§3) reports the ASA and Australian Sonographer Accreditation Registry jointly launched a new 21-standard Code of Conduct on 21 July 2025, while CI-2 (§5) flags W1 at 0/3 with no professional-communication task currently mapped to it. |
+| Oversight and validation of AI-guided or robotic-assisted image acquisition | **↑ Rising** | Theme 4 (§3) reports GE HealthCare and NVIDIA's expanded partnership pursuing AI-driven image understanding and robotic navigation to reduce sonographer physical strain, though the roadmap remains development-stage and not yet deployed. |
+| Doppler and valve-pathology clinical judgement, workplace-integrated scanning competency | **→ Stable, differentiating** | Theme 2 (§3) reports both the AIUM keynote and a 37-country European survey (79.9% agreement) framing AI as assistive rather than a replacement for sonographer judgement, consistent with the Job Family Map's (§1) LOW substitution-pressure rating for cardiac sonography. |
+| Manual, keystroke-heavy console interaction during standard echo acquisition | **↓ Falling** | Theme 1 (§3) reports the same crossover study measured a 54% reduction in console keystrokes (230.9 vs 502.8) under the AI-assisted acquisition protocol. |
+| Purely manual probe navigation for standard cardiac views | **↓ Falling** | Theme 4 (§3) reports vendor roadmaps (GE HealthCare/NVIDIA) pursuing autonomous and robot-assisted scanning aimed at reducing reliance on manual probe navigation, though this remains a stated development intent rather than a deployed product. |
 
 ---
 

@@ -58,16 +58,15 @@ Research presented across [BDPS](https://bdps.org.au/) and [SoCLA](https://www.s
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine clause-by-clause contract marking without strategic risk analysis
-- Manual document discovery easily automated by AI review platforms
-- Traditional rigid adversarial litigation positions lacking commercial pragmatism
-
-### Rising Demand
-- Collaborative contracting design (NEC4, Alliancing, ECI frameworks)
-- Evaluative verification of AI contract analysis and forensic schedule claims
-- Defended advocacy before adjudication panels and dispute avoidance boards
-- Complex technical-commercial-legal synthesis in major project disputes
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI contract analysis verification and schedule-claim audit | **↑↑ Rising sharply** | C2 scores 1/3 — no core assessment includes criterion-referenced appraisal of quality; Theme 2 (§3, *Building and Construction Law Journal* February 2025/SoCLA) warns that generative AI frequently misinterprets critical-path concurrency and fails to establish causation in delay claims. |
+| Legal-tech and AI governance in construction contracting | **↑↑ Rising sharply** | C3 scores 0/3 — no core subject or program-level outcome addresses AI or digital tools at all; Signal 3 (§2) documents AI contract review tools (Robin AI, Kira, Luminance) already accelerating initial risk mark-ups of standard forms, leaving graduates to identify what algorithms overlook unassisted. |
+| Collaborative contracting design (NEC4, alliancing, ECI) | **↑ Rising** | Theme 1 (§3, Australian Constructors Association 2024/2025/SoCLA): fixed-price adversarial risk transfer is failing on major infrastructure projects; C1 scores 1/3 — no core unit assesses collaborative practice as a graded group component, despite the program's professional orientation. |
+| Defended advocacy before adjudication panels and dispute avoidance boards | **↑ Rising** | Theme 3 (§3, BDPS/SoCLA 2024/2025): expedited adjudication and Dispute Avoidance Boards demand defended oral and written submissions under statutory deadlines; W1 scores 2/3, with professional-genre assessment already in the core but not yet judged by a real external practitioner. |
+| Technical-commercial-legal synthesis and applied risk allocation | **→ Stable, differentiating** | W2 sits at 2/3 — LAWS70270's contract drafting and LAWS70149's risk-allocation tasks already reproduce a professional artefact end to end, though the assessment spine stops short of a live external constraint. |
+| Traditional rigid adversarial litigation positions | **↓ Falling** | Theme 1 (§3): industry leaders now advocate collaborative procurement models over fixed-price adversarial risk transfer as the systemic failure mode of major infrastructure delivery. |
+| Manual document discovery and routine clause-by-clause marking | **↓↓ Falling sharply** | Signal 3 (§2): automated contract review platforms already accelerate initial risk mark-ups of standard forms (AS 4000, AS 2124, FIDIC), yet the compulsory core does not teach students to work with or audit these platforms (C3 scores 0/3). |
 
 ---
 

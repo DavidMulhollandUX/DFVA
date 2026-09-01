@@ -112,20 +112,19 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual CRUD web development | Very Fast | LLM integration and fine-tuning | Very Fast |
-| Routine SQL report generation | Very Fast | MLOps and model deployment pipelines | Fast |
-| Standalone data warehousing skills | Fast | AI-powered threat detection (cybersecurity) | Fast |
-| Traditional waterfall software project management | Fast | Cloud-native distributed systems design | Fast |
-| Pure prompt engineering as a standalone skill | Fast | Responsible AI / AI governance engineering | Fast |
-| Basic IT helpdesk and tier-1 support | Fast | Quantum computing algorithms and software | Medium |
-| Monolithic application development | Medium | Human-AI interaction design (HCI + AI) | Medium |
-| Static reporting and BI dashboards | Medium | Data mesh and streaming data architectures | Medium |
-| Legacy on-premises infrastructure management | Medium | Platform engineering and developer experience | Fast |
-| Basic scripting automation (RPA-style) | Fast | AI-assisted systems architecture and design | Very Fast |
+| Skill | Direction | Rationale |
+|---|---|---|
+| LLM integration and fine-tuning | **↑↑ Rising sharply** | Signal 1 records ANZ AI Research Scientist and ML Engineer ads increasingly requiring an MSc minimum, which the research-MSc structure directly targets; the prior skill-shift table recorded this rising at Very Fast velocity opposite an equally fast decline in manual CRUD development. |
+| Responsible AI and AI-governance engineering | **↑↑ Rising sharply** | Theme 5 (§3) and Signal 6 record regulatory pressure (EU AI Act, AU mandatory guardrails) driving 34+ new ANZ "AI Governance Analyst"/"Responsible AI Engineer" postings in Q1 2026, yet CI-1 notes the program has no compulsory governance unit — the Ethics of AI and Trustworthy ML content that underlies the companion assessment's 3/3 AI Literacy score is elective, not core. |
+| Cloud-native distributed systems design | **↑ Rising** | Signal 2 describes ANZ software-engineering ads splitting into a compressing "AI-augmented developer" tier and a growing "systems engineer" tier requiring architectural depth — territory the companion assessment's 3/3 Technical and Quantitative Depth score already targets. |
+| AI-powered threat detection and cybersecurity | **↑ Rising** | Signal 3 and Theme 4 (§3) record cybersecurity hiring up 18% YoY in ANZ despite broader tech contraction, driven partly by AI-powered attacks; CI-3 flags that the matching Web Security, Cryptography and Trustworthy ML electives are optional and risk under-uptake. |
+| ML platform and infrastructure engineering | **↑ Rising** | Signal 4 names "ML Platform Engineer" and "AI Infrastructure Engineer" as an emerging title cluster combining software engineering and ML knowledge; CI-4 notes the curriculum supports this structurally through Cluster/Cloud Computing and Statistical ML but publishes no explicit pathway. |
+| Systems-level architectural and trade-off judgment | **→ Stable, differentiating** | Theme 3 (§3) holds that AI tools accelerate implementation but do not replace architectural judgment or reliability engineering, and the companion assessment scores Decision-Making Under Uncertainty 3/3 on the year-long research project requiring exactly this independent judgment. |
+| Manual CRUD web development | **↓↓ Falling sharply** | The prior skill-shift table recorded this declining at Very Fast velocity, the same rate at which LLM-integration skills above were recorded rising. |
+| Routine SQL report generation and static BI dashboarding | **↓ Falling** | The prior skill-shift table recorded routine SQL reporting declining at Very Fast velocity and static dashboarding at Medium velocity, both being displaced by MLOps and data-mesh/streaming architectures. |
+| Prompt engineering as a standalone skill | **↓ Falling** | Theme 2 (§3) records growing consensus that prompt engineering is a transient skill being absorbed into broader engineering roles, with long-term value shifting to systems design, model evaluation and research methodology — all areas MC-CS already scores strongly (D3, D4, D7 each 3/3). |
 
 ---
 

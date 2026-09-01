@@ -61,18 +61,15 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Generic/commercial stock composition and library music | FAST | Original, distinctive artistic voice and authored creative practice | STEADY |
-| Routine post-production editing and colour grading (junior craft) | FAST | AI-assisted post-production tool fluency (as accelerant, not replacement) | FAST |
-| Generic commercial illustration/design execution | FAST | Creative direction and concept leadership in human-AI collaborative workflows | MEDIUM |
-| General-purpose music journalism and criticism | MEDIUM (declining pre-AI, compounded by AI) | Public-facing scholarly communication and original cultural criticism | SLOW |
-| Manual literature synthesis for musicological/exegesis writing | MEDIUM | Primary archival, ethnographic, and fieldwork research capability | STEADY |
-| Templated grant-application drafting | MEDIUM | Curatorial judgment and community-engaged programming, esp. First Nations-led practice | STEADY |
-| Standalone technical craft execution without creative-direction context | FAST | Real-time engine/virtual production skills (Unreal Engine, motion capture pipelines) | FAST |
-| Undifferentiated "creative generalist" positioning | MEDIUM | Registered/regulated clinical practice (music therapy, creative arts therapy) | STEADY |
-| Manual archival cataloguing and transcription | MEDIUM | Interdisciplinary allied-health collaboration skills (for therapy disciplines) | STEADY |
-| Passive AI-avoidance ("I don't use AI tools") | FAST (as a viable stance) | Explicit AI-positioning literacy — knowing where AI helps and where it must be resisted | FAST |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Real-time engine and virtual-production skills (Unreal Engine, motion capture) | **↑↑ Rising sharply** | Signal 2 (§2) reports Australian screen production studios increasingly listing "AI-assisted workflow" and generative-tool familiarity as preferred skills; CI-6 (§5) confirms this is a fast-rising requirement not systematically resourced. |
+| AI-positioning literacy — knowing where AI helps and where it must be resisted | **↑ Rising** | CI-1 (§5) identifies the technical/craft disciplines as facing "the fastest AI displacement pressure in the degree" with no differentiated preparation, echoing Signal 2's employer expectation of AI-tool-fluent, not AI-naive, graduates. |
+| Curatorial judgment and community-engaged (especially First Nations-led) programming | **↑ Rising** | Signal 5 (§2) reports growing demand for curatorial and programming roles "with increasing emphasis on First Nations-led and community-engaged programming," a growth area for the Indigenous Arts and Culture discipline specifically. |
+| Registered clinical practice (music therapy, creative arts therapy) | **→ Stable, differentiating** | Signal 1 (§2) states clinical-therapy postings "consistently specify 'registered' or 'board-eligible' status, effectively AI-proofing entry via regulatory gatekeeping"; CI-2 (§5) recommends publishing this pathway explicitly. |
+| Generic/commercial stock composition and library music | **↓ Falling** | Job Family Map (§1) rates professional creative practice as facing AI substitution pressure concentrated in "the low-end/commercial-generic segment," compressing stock and library-music income faster than the high-end original-practice market. |
+| General-purpose music journalism and criticism | **↓ Falling** | Job Family Map (§1) notes AI compresses generic music journalism, "compounding" a market already shrinking pre-AI, while original archival and fieldwork research capability remains durable. |
+| Routine post-production editing and colour grading (junior craft) | **↓↓ Falling sharply** | Job Family Map (§1) identifies Production, Design, and Film/Television as facing "the fastest-moving AI pressure of any job family in this map," with generative VFX and AI editing already reshaping entry-level screen-industry labour. |
 
 ---
 

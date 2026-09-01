@@ -60,18 +60,18 @@ Standards from the [APA](https://australian.physio/) confirm that a comprehensiv
 
 ---
 
-## 4. SKILL SHIFT SUMMARY
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-### Declining Demand
-- Generic outpatient physiotherapy without pelvic floor specialization
-- Paper-based bladder diaries and manual tracking logs
-- Single-sex pelvic framing without gender-inclusive care competencies
-
-### Rising Demand
-- Real-time ultrasound (RTUS) imaging and digital biofeedback integration
-- Men's health post-prostatectomy and chronic pelvic pain rehabilitation
-- Trauma-informed care protocols and biopsychosocial pain neuroscience
-- Interdisciplinary MDT case conferencing across surgical specialties
+| Skill | Direction | Rationale |
+|---|---|---|
+| Real-time ultrasound (RTUS)-guided assessment and biofeedback | **↑↑ Rising sharply** | CI-7 (§5) reports RTUS "becoming an expected core skill in specialist pelvic health positions," and Theme 3 (§3) notes early-career physiotherapists fluent in AI-guided biofeedback tools such as Elvie and Perifit are reported as more appealing to hiring practices. |
+| Telehealth-first service delivery and digital health literacy | **↑↑ Rising sharply** | Signal 5 (§2) records telehealth pelvic health roles now appearing regularly on national job boards, and Theme 5 (§3) identifies telehealth competence as the primary mechanism workforce planners see for closing the regional/rural service gap. |
+| Post-graduate pelvic health credentialling as a baseline hiring requirement | **↑ Rising** | Signal 1 and Signal 4 (§2) show private practices listing postgraduate pelvic training as a selection criterion and Continence Australia–linked roles elevating the credential "from a differentiator to a near-baseline expectation." |
+| Trauma-informed care competency | **↑ Rising** | Theme 2 (§3) reports APA Women's, Men's and Pelvic Health CPD discussions raising trauma-informed care as a persistent training gap, and CI-1 (§5) recommends a dedicated 12-hour module to close it. |
+| Men's pelvic health and post-prostatectomy oncology rehabilitation | **↑ Rising** | Signal 3 (§2) describes post-prostatectomy rehabilitation roles at institutions such as Peter MacCallum as "a structurally new job category as recently as 2022–2023," reinforced by Theme 4's (§3) growing advocacy discourse. |
+| Multidisciplinary team (MDT) fluency across urology, colorectal surgery, gynaecology, pain psychology and oncology | **→ Stable, differentiating** | The job family map (§1) lists MDT ward rounds and case conferencing as a recurring core task across the Continence & Bladder/Bowel Rehabilitation and Pain & Endometriosis job families alike, a constant expectation rather than a new or fading one. |
+| Generic outpatient physiotherapy without pelvic-floor specialisation | **↓↓ Falling sharply** | Signal 2 (§2) documents a 2024–2026 shift from pelvic health bundled into general outpatient roles toward dedicated pelvic health positions at major metropolitan health networks. |
+| Paper-based bladder and symptom diary administration | **↓ Falling** | The job family map (§1) still lists bladder diary analysis as a core task, but Theme 3 (§3) notes AI tools are entering urodynamic report summarisation and app-derived data is displacing manually kept diaries. |
 
 ---
 

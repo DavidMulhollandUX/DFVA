@@ -56,16 +56,14 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual literature review as a standalone credibility signal | Medium | AI-provenance literacy in research assessment panels | Fast |
-| Citation count alone as an originality proxy | Medium | Combined citation + AI-authorship-disclosure review | Fast |
-| Purely traditional (non-AI-assisted) manuscript drafting | Slow | Ability to direct/critique AI co-scientist tools while retaining original insight | Fast |
-| Static, one-time credential value (award-and-forget) | Slow | Ongoing evidentiary trail (ongoing impact, ongoing leadership) attached to prestige credentials | Medium |
-| Purely quantitative bibliometrics as sole panel input | Medium | Qualitative expert-panel judgment calibrated against AI-assisted publishing norms | Fast |
-| Discipline-siloed research recognition | Slow | Cross-disciplinary originality (harder for narrow AI tools to replicate) | Medium |
-| Institutional prestige alone as differentiator | Slow | Process-transparency (how rigorously was this examined) as differentiator | Medium |
-| Generic "distinguished scholar" framing | Slow | Explicit framing of what AI could/couldn't have produced in the body of work | Fast |
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-provenance literacy in research assessment panels | **↑↑ Rising sharply** | §3's "AI-assisted authorship disclosure requirements" theme rates HIGH signal strength, and Signal 2 (§2) reports Nature, Science, ARC and NIH publishing or updating AI-authorship disclosure policies since 2023–2024 — directly relevant to how a DH-SC panel interrogates a submitted body of work. |
+| Research-integrity and AI-detection tooling fluency for examiners | **↑↑ Rising sharply** | §3's "research integrity / fraud detection tooling adoption" theme rates HIGH signal strength, and Signal 4 (§2) shows bibliometric and AI-detection tooling vendors expanding academic offerings to verify human versus AI-assisted authorship at scale. |
+| Ability to direct and critique AI co-scientist tools while retaining original insight | **↑ Rising** | The Job Family Map (§1) rates AI-Assisted Scientific Production HIGH and rising substitution pressure upstream of the candidate population, and Signal 1 (§2) reports senior research-leadership roles increasingly listing AI-augmented research as a desirable skill. |
+| Expert-panel judgment on career-spanning scientific originality | **→ Stable, differentiating** | The Job Family Map (§1) rates Research Assessment & Credentialing Bodies LOW substitution pressure — expert-panel judgment on career-spanning originality remains a high-trust human function — and §3's "prestige of Higher Doctorates" theme rates LOW signal strength, a long-standing, slow-moving category. |
+| Citation count alone as an originality proxy | **↓ Falling** | The Job Family Map (§1) rates Research Analytics & Bibliometrics HIGH substitution pressure for the metrics-generation task itself, consistent with the existing evidence for this row. |
+| Manual literature review and purely quantitative bibliometrics as sole panel input | **↓↓ Falling sharply** | Signal 4 (§2) and the Job Family Map's bibliometrics row (§1) show this work already largely automated by tools such as Clarivate InCites, Elsevier SciVal and Google Scholar metrics. |
 
 ---
 

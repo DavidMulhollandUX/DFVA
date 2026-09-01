@@ -53,14 +53,16 @@ This supports a claim that one practitioner's personal experience and the occupa
 
 **Bearing:** C3 and C4. C3's cap at tool-operation level (Stata/R) sits against a market description that increasingly expects a broader data-science toolchain; C4 (application of skills to a novel problem, currently Level 1 pending capstone assessment evidence) bears on how broadly that applied skillset needs to extend beyond classical biostatistics.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual/entry-level statistical programming of standard analysis-plan output | Medium | AI-assisted code generation with statistician review and validation | Fast |
-| Primary data analysis as the whole of the professional role | Slow — rests on two named individuals' opinion, not a measured trend | Auditing and quality-controlling AI-produced statistical output | Slow — same basis |
-| "Statistician" as a standalone, unqualified professional identity label | Slow — single first-person essay, no volume data | Hybrid statistician/data-scientist framing in training and job titles | Slow — same basis |
-| Tool operation limited to Stata/R descriptive and data-manipulation skills | Medium | Applied machine learning for health/biomedical data | Medium — US-specific BLS projection (L2-1), not Australia-specific |
-| Junior CRO statistical-programmer headcount as the standard entry pathway | Medium — a stated industry concern, not measured attrition | Senior statistician oversight of automated statistical pipelines | Fast — matches Veristat's own described product model (expert review of validated engine output) |
+## 4. SKILL SHIFT SUMMARY
+
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-assisted code generation with statistician review and validation | **↑↑ Rising sharply** | Theme 1 (§3): Veristat's InStat platform (BusinessWire, 2026-05-13) claims cutting statistical-output turnaround from 4–6 weeks to under 5 days by having AI translate biostatisticians' specifications into code, with expert biostatistician review of the automated engine's output. C3 is capped at Level 1 in the program's own Panel C evidence because the compulsory core teaches Stata/R tool operation rather than AI capabilities, limitations or governance. |
+| Auditing and quality-controlling AI-produced statistical output | **↑ Rising** | Theme 2 (§3): a Harvard statistics professor and an AbbVie VP of Data Sciences argue, in a named 2025-08-29 interview, that the profession should reposition toward auditing and governing AI systems rather than performing primary analysis alone — opinion from two named senior practitioners, not a measured trend. C2 scores 0 — no core assessment requires students to appraise the quality of their own, a peer's, or a tool's work, precisely the capability this shift requires. |
+| Hybrid statistician/data-scientist toolchain fluency | **↑ Rising** | Theme 3 (§3): a mid-career ASA STATtrak essay (2025-02-01) describes a decade-long shift in job postings and graduate programs from "statistician" toward "data scientist" framing, mirrored in the destination occupation record listing "Data Scientist" as an alias of the same entry. C3's cap at Stata/R tool-operation level sits against this broadening expectation, and C4 (application to novel problems) is likewise capped at Level 1. |
+| Applied machine learning for health/biomedical data | **↑ Rising** | US BLS projects 33.5% employment growth for the data scientist occupation (2024–2034), partly attributed to AI-driven growth in data volumes needing interpretation (§1, L2-1) — a US-specific, not Australia-specific, directional signal. |
+| Interpretation of statistical uncertainty in medical-research judgement (Bayesian inference, causal framing) | **→ Stable, differentiating** | Job Family 4 (§1) rates this LOW substitution pressure as genuine judgement work, not routine computation. G2 (assessed interpretation of statistical uncertainty) PASSES, matching the profession's own accreditation floor — the Statistical Society of Australia's Code of Conduct — a durable core strength rather than a moving target. |
+| Manual, entry-level statistical programming of standard analysis-plan output | **↓ Falling** | Existing declining-demand finding, reinforced by Theme 1 (§3): CROs are already commercialising automated SAP-to-code translation, unsettling the traditional "pyramid" junior training pathway. W3 (work-integrated learning) scores 0 — no placement or practicum exists anywhere in the program, the exact hands-on pathway this theme describes as under pressure. |
 
 ## 5. CURRICULUM IMPLICATIONS
 | # | Implication | Dimension | Action |

@@ -50,15 +50,15 @@ This supports a claim about how entry-level editorial work and conservation prac
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual OCR/transcription of archival records | Fast | Reviewing and validating AI-generated transcriptions, sensitive-information review | Fast |
-| Manual pixel-level in-painting for damaged-artwork restoration | Medium | Operating AI-assisted restoration tools as "a tool in the toolbox" alongside conservator judgement | Medium |
-| Manual mechanical proofreading and copy-marking | Fast | Reviewing and validating AI-suggested edits rather than performing the correction manually | Fast |
-| Unassisted manuscript/copy editing with no AI-tool exposure | Medium | AI-literacy embedded in editorial workflow (per the 63%-adoption report and named peer-program coursework) | Medium |
-| Generalist documentation writing with no systems/API awareness | Slow | Documentation and API literacy (per real Adzuna technical-writer top-skills data) | Medium |
-| Copywriting without content-strategy or multi-channel range | Slow | Research-backed, multi-format content creation and journalism-adjacent writing (per real Adzuna writer top-skills data) | Medium |
-| Purely manual cataloguing with no AI-assisted documentation tools | Slow | Familiarity with behind-the-scenes cataloguing AI tools (one of three functional categories identified in the scoping review of 27 verified museum/gallery deployments) | Slow |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Reviewing and validating AI-generated transcriptions and AI-suggested edits | **↑↑ Rising sharply** | Theme 2 (§3) reports a Stanford-led audit classifying proofreaders and copy markers predominantly H1 (the lowest-human-involvement category) and B&O Railroad Museum archivists' role shifting toward reviewing AI-generated transcriptions, while CI-2 (§5) confirms C2 has no item requiring students to justify reliance on AI output. |
+| AI-literacy embedded in editorial workflow | **↑ Rising** | Theme 1 (§3) reports Publishers Weekly's finding that 63% of surveyed publishers use AI in some manner and that peer publishing-education programs (NYU Center for Publishing, Portland State University) have added AI-literacy coursework, while CI-1 (§5) confirms the program's AI content is confined to electives (MECM90048, JOUR90029). |
+| Documentation and API literacy | **↑ Rising** | Signal 1 (§2) reports real, live Adzuna AU data (82 postings, fetched 2026-08-31) ranking "documentation," "API" and "technical writing" as top skills for technical-writer roles, and CI-4 (§5) notes none of this is named in any compulsory curriculum item. |
+| Research-backed, multi-format content creation and journalism-adjacent writing | **↑ Rising** | Signal 2 (§2) reports real, live Adzuna AU data (301 postings, fetched 2026-08-31) ranking "writing," "research," "content creation" and "journalism" as top skills for writer/copywriter roles. |
+| Costed book proposals, list development, and commercial trade-off judgement | **→ Stable, differentiating** | §1's Job Family Map rates Publishing & Acquisitions LOW substitution pressure, describing this as client-facing commercial judgement work not documented as an AI deployment target in any reviewed source. |
+| Manual mechanical proofreading and copy-marking | **↓ Falling** | Theme 2 (§3) reports the same Stanford-led audit rating Proofreaders and Copy Markers predominantly H1, the category denoting the lowest required level of human involvement. |
+| Manual OCR and transcription of archival records | **↓↓ Falling sharply** | Theme 2 (§3) reports the B&O Railroad Museum's AI system performing OCR and demographic-data extraction across 16 million records, with archivists' role shifting entirely toward reviewing AI-generated transcriptions rather than performing manual transcription. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

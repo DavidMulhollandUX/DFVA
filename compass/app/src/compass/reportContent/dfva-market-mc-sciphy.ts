@@ -61,20 +61,18 @@ Standards from [AIP](https://aip.org.au/) confirm that a multi-semester 100-poin
 
 ---
 
-## 4. SKILL SHIFT SUMMARY
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-### Declining Demand
-- Standalone MATLAB scripting without Python / C++ interoperability
-- Unassisted manual data reduction without automated pipelines
-- Academic-only writing without reproducible computational repository documentation (Git)
-
-### Rising Demand
-- Evaluative verification of physics-informed neural networks (PINNs) and numerical emulators
-- Quantum computing algorithms and circuit simulation (Qiskit, PennyLane)
-- High-performance computing (GPU parallelization, MPI/OpenMP)
-- Monte Carlo radiation transport simulation (Geant4, EGSnrc) for medical physics
-
----
+| Skill | Direction | Rationale |
+|---|---|---|
+| Quantum computing skills (Qiskit, error correction, qubit characterisation) | **↑↑ Rising sharply** | Signal 1 (§2) counts 47 identified ANZ quantum postings in Q1 2026 spanning hardware, software and algorithms, with CI-3 (§5) noting the program "is well-positioned but lacks explicit quantum curriculum." |
+| Demonstrated coding portfolio (GitHub, preprints, open-source contributions) | **↑↑ Rising sharply** | Signal 3 (§2) reports Python, ML frameworks and SQL are now listed as required rather than preferred, and employers say physics rigour "no longer differentiates without demonstrated technical implementation skills." |
+| Python-based computational physics (NumPy, SciPy, JAX) | **↑ Rising** | Signal 1 (§2) notes entry-level quantum roles now require demonstrated coding proficiency alongside physics fundamentals, and CI-1 (§5) recommends replacing MATLAB-default units with a Python-first stream. |
+| Defence and security-cleared signals/sensing research | **↑ Rising** | Signal 2 (§2) attributes accelerated DSTG and Australian Signals Directorate hiring to AUKUS, describing an MSc-to-defence-research pipeline "well-established and expected to grow through 2028." |
+| AI/ML-for-science literacy (physics-informed neural networks, ML emulators) | **↑ Rising** | Signal 5 (§2) reports AI surrogate models emerging as workflow tools in atmospheric and climate research even as "physics-based understanding... remains essential," per CI-5 (§5). |
+| Conceptual and experimental physics design | **→ Stable, differentiating** | The job family map (§1) rates AI substitution pressure LOW for research physicists because "conceptual and experimental work" is largely irreducible, echoed in the §3 discussion signal that "AI tools augment but do not substitute core physics reasoning." |
+| MATLAB as the primary analysis tool | **↓ Falling** | CI-1 (§5) recommends replacing MATLAB-default units with Python equivalents as the discipline's computational default shifts, consistent with Signal 3's (§2) Python-first hiring expectation. |
+| Manual data reduction and pipeline scripting | **↓↓ Falling sharply** | Signal 5 (§2) documents AI surrogate models and ML-assisted data analysis displacing manual pipeline scripting across climate and quantum-adjacent research workflows. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

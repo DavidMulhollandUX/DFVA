@@ -55,18 +55,15 @@ Standards from the [IBO](https://www.ibo.org/) confirm that an independent, self
 
 ---
 
-## 4. SKILL SHIFT SUMMARY
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-### Declining Demand
-- Transmission-style didactic teaching without inquiry scaffolding
-- Paper-based unit documentation without digital platform integration
-- Generic, unreferenced assessment rubrics without IBO criterion alignment
-
-### Rising Demand
-- Concept-driven inquiry facilitation and Approaches to Learning (ATL) integration
-- Managebac / Toddle digital platform proficiency and curriculum mapping
-- AI assessment integrity policy design and process-focused oral checkpoints
-- Collaborative interdisciplinary unit planning across diverse school faculties
+| Skill | Direction | Rationale |
+|---|---|---|
+| Managebac and digital IBO platform proficiency | **↑↑ Rising sharply** | Signal 3 (§2) reports Managebac required or preferred in 60%+ of ANZ IB Coordinator job ads; C3 scores 1/3 — ICT appears only as generic participation-tool content, with no core unit addressing AI or digital-platform capability specifically. |
+| AI-specific academic-integrity design for IB assessment (Extended Essay, TOK, Internal Assessment) | **↑↑ Rising sharply** | Theme 1 (§3) documents IB educator communities actively debating inadequate integrity policy and unreliable AI-detection tools; C2 scores 2/3 on structured critique tasks (EDUC90871, EDUC90926), but no core assessment addresses AI-output judgement specifically. |
+| Statistical literacy for grade prediction and IBO moderation data | **↑ Rising** | Theme 2 (§3) reports intensifying discourse on IB grade-inflation and score-validity concerns since COVID-era adjustments; C5 scores only 1/3 — the compulsory capstone's data-collection half is explicitly negated, since students analyse pre-existing data sets rather than collect their own. |
+| Supervised work-integrated placement in an IB school or international-school network | **↑ Rising** | Signal 5 (§2) and Theme 3 (§3) describe IB-experienced leadership becoming a credentialising proxy as international-school groups consolidate under corporate ownership; W3 scores 0/3 — the degree is fully online with no placement, practicum or community-based project anywhere in its structure. |
+| Transmission-mode content delivery (lecture-style IB teaching) | **↓↓ Falling sharply** | This section's own prior Declining Demand list places transmission-mode delivery among the fastest-declining skills, superseded by inquiry-based and concept-driven facilitation. |
 
 ---
 

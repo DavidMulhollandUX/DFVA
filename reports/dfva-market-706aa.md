@@ -58,16 +58,13 @@ The [Australian Treasury Evaluation Toolkit](https://evaluation.treasury.gov.au/
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Uncritical, descriptive policy summaries without empirical evaluation
-- Manual cross-jurisdictional desk scanning without AI augmentation
-- Single-stakeholder policy formulation without structured co-design
-
-### Rising Demand
-- Algorithmic audit and ethical risk assessment of automated welfare systems
-- Evaluative critique and verification of AI-generated policy briefs
-- Mixed-methods causal evaluation (theory of change, quasi-experiments)
-- Stakeholder negotiation, Indigenous data sovereignty, and public advocacy delivery
+| Skill | Direction | Rationale |
+|---|---|---|
+| Algorithmic audit and ethical risk assessment of automated welfare systems | **↑↑ Rising sharply** | Theme 1 (§3) — the *Australian Journal of Public Administration* (March 2025) and Commonwealth Ombudsman reporting hold that post-Robodebt practitioners must evaluate algorithmic bias and uphold procedural fairness, yet C3 scores 0/3: core coursework carries no digital or AI literacy content despite this being the program's most active public-sector debate. |
+| Evaluative critique and verification of AI-generated policy briefs | **↑ Rising** | Theme 2 (§3) — the APSC's *APS Guidance on Generative AI* (November 2024) documents rapid adoption of AI for policy synthesis alongside hallucination risk, demanding robust evaluative judgement; CI-3 (§5) notes C2 is limited to personal reflection, since students never evaluate peer or tool outputs against published rubrics. |
+| Mixed-methods causal evaluation integrated with participatory stakeholder co-design | **→ Stable, differentiating** | Theme 3 (§3) — the Treasury Evaluation Toolkit and AIFS stress combining rigorous causal evaluation with lived-experience co-design, yet CI-2 (§5) notes C1 assesses collaborative practice only in an elective capstone, with the compulsory core assessing individual work alone. |
+| Manual cross-jurisdictional desk scanning without AI augmentation | **↓ Falling** | Signal 2 (§2) reports consultancies and departments increasingly using LLM tools for first-draft briefs and cross-jurisdictional environmental scanning, shifting the required human skill toward verification rather than manual scanning. |
+| Uncritical, descriptive policy summaries without empirical evaluation | **↓↓ Falling sharply** | Signal 1 (§2) reports Commonwealth and state agencies requiring program-evaluation and quasi-experimental design skills well beyond descriptive summaries, yet CI-4 (§5) notes substantial primary research and workplace accountability (C5/W3) remain elective, so the program has not yet made this rigour compulsory. |
 
 ---
 

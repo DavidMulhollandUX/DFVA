@@ -62,16 +62,13 @@ Standards from [APAC](https://psychologycouncil.org.au/) confirm that a compulso
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual calculation of psychometric norm tables without digital administration literacy
-- Isolated reporting without interprofessional medical team recommendations
-- Sole reliance on fixed test batteries without tailored qualitative diagnostic analysis
-
-### Rising Demand
-- Supervised digital and automated cognitive testing platforms (Q-interactive, CANTAB)
-- Performance validity testing (PVT) and forensic capacity evaluations
-- Cognitive rehabilitation and behavioral intervention planning in NDIS/TAC contexts
-- Multidisciplinary memory clinic and paediatric neurodevelopmental diagnostics
+| Skill | Direction | Rationale |
+|---|---|---|
+| Supervised digital and automated cognitive testing platforms (Q-interactive, CANTAB) | **↑↑ Rising sharply** | Theme 1 (§3) — APS CCN (November 2024) and *The Clinical Neuropsychologist* (December 2024) note AI-driven computerised testing expedites scoring while practitioners retain non-delegable liability for validity verification, yet C3 scores 0/3: digital and AI competencies are completely unevidenced in the core curriculum. |
+| Performance validity testing (PVT) and forensic capacity evaluations | **↑ Rising** | Signal 4 (§2) reports performance validity assessment and expert medico-legal testimony remaining resilient against automation, while C2 scores 1/3 — clinical assessment ability is stated in the program's learning outcomes but no core unit assesses it through criterion-referenced peer critique. |
+| Multidisciplinary memory clinic and paediatric neurodevelopmental diagnostic coordination | **→ Stable, differentiating** | Theme 2 (§3) — PsyBA and APAC reporting describes neuropsychologists working in high-stakes multidisciplinary hospital teams alongside neurologists and speech pathologists, yet C1 scores 2/3: interprofessional activity is assessed through reflection, but no task requires allocating work between clinicians and digital or AI tools. |
+| Isolated reporting without interprofessional medical team recommendations | **↓ Falling** | W1 scores 2/3 — case presentations and formulation reports are documented as addressed internally to faculty rather than external hospital teams, consistent with the market moving away from isolated, non-collaborative reporting. |
+| Manual calculation of psychometric norm tables without digital administration literacy | **↓↓ Falling sharply** | Signal 3 (§2) reports practices requiring practitioners to supervise and critique automated psychometric administration and detect algorithmic scoring anomalies; C3 scores 0/3, confirming this shift is an unaddressed curriculum gap rather than a covered transition. |
 
 ---
 

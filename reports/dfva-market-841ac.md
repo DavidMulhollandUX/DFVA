@@ -57,16 +57,13 @@ Standards from the [ADC](https://www.adc.org.au/) confirm that structured clinic
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual film radiography and chemical developing
-- Siloed hygienist practice restricted to paediatric scaling without full adult therapy scope
-- Paper dental charting without digital health record integration
-
-### Rising Demand
-- Digital intraoral scanning and CAD/CAM restorative workflows
-- Dual-scope adult and paediatric restorative care under DBA guidelines
-- AI-assisted digital radiograph interpretation and clinical diagnostic verification
-- Public health promotion, rural outreach, and teledentistry triage
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-assisted digital radiograph interpretation and clinical diagnostic verification | **↑↑ Rising sharply** | Theme 1 (§3) — the ADC (November 2024) and *Australian Dental Journal* (December 2024) note AI diagnostic software now highlights interproximal caries and bone loss on bitewing radiographs, while therapists retain personal statutory liability for diagnosis, yet C3 scores 1/3: digital and AI literacy is limited to general IT database skills, with no clinical AI module in the core. |
+| Dual-scope adult and paediatric restorative care under DBA guidelines | **↑ Rising** | Signal 3 (§2) reports Dental Board of Australia scope changes driving hiring demand for adult restorative therapy, while CI-3 (§5) notes C5 scores 1/3: inquiry terminates at a research proposal without the primary data collection needed to keep pace with an expanding evidence base. |
+| Interprofessional four-handed dentistry and operator-assistant collaboration | **→ Stable, differentiating** | Theme 2 (§3) — ADOHTA and DHAA reporting describes multi-operator clinical environments alongside dentists and dental assistants requiring advanced collaborative communication, yet C1 scores 2/3: collaborative practice recurs across the program but lacks a documented protocol allocating diagnostic tasks between clinicians and digital imaging AI. |
+| Paper dental charting without digital health record integration | **↓ Falling** | C2 scores 2/3 — formative portfolios exist across all years but lack documentation of clinical decisions to override AI-generated dental charting or radiographic caries flags. |
+| Manual film radiography and chemical developing | **↓↓ Falling sharply** | Signal 2 (§2) reports practices mandating digital impression systems, AI-assisted digital radiography and cloud dental software over legacy film; W2 scores 2/3, with authentic clinical tasks still bounded by standard university simulation rather than the real-time constraints a fully digital workflow requires. |
 
 ---
 

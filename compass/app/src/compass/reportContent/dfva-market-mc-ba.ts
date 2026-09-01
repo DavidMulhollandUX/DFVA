@@ -63,16 +63,15 @@ Executive education frameworks from [AACSB](https://www.aacsb.edu/) (2024/2025) 
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual slide formatting and descriptive desk research
-- Basic spreadsheet modeling without probabilistic scenario analysis
-- Generic change management frameworks applied by rote
-
-### Rising Demand
-- Evaluative verification and audit of AI-generated market and strategic models
-- Executive-level oral persuasion, boardroom storytelling, and client influence
-- Cross-functional team leadership integrating data science, engineering, and operations
-- Strategic decision-making and defended trade-offs under severe market ambiguity
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-augmented consulting and strategy fluency | **↑↑ Rising sharply** | Signal 1 (§2): major consulting firms now require AI/ML deployment fluency as a baseline in ANZ analyst and associate ads, up from fewer than 10% of postings in 2023. D5 (AI literacy and governance) already scores 3/3 — Generative AI for Business and Leading Data and AI Transformation directly answer Theme 2 (§3)'s normative pressure for AI-tool credibility in consulting cohorts. |
+| Sustainability and ESG strategy literacy (TCFD, ISSB, double materiality) | **↑↑ Rising sharply** | Signal 7 (§2): ESG strategy mentions in senior-track ANZ ads are up 40% since 2023. Theme 5 (§3) reports MBA graduates who cannot discuss ESG measurement frameworks are flagged as "behind" in finance, infrastructure and energy sectors. D3 (technical and quantitative depth) scores only 2/3, with sustainability currently elective rather than core (CI-3). |
+| Executive communication and strategic storytelling | **↑ Rising** | Theme 6 (§3): as analytical tasks automate, communication, persuasion and executive presence become the differentiating outcomes employers hire for. D8 (human and relational capability) scores 2/3 — substantial relational content exists (Leadership and Change, Negotiations), but not yet as a dedicated, panel-assessed track. |
+| Technical and data literacy for product-management pathways (SQL, API, analytics platforms) | **↑ Rising** | Signal 2 (§2): product manager ads increasingly require SQL proficiency and analytics-platform experience, and Theme 4 (§3) names a supply-demand mismatch where MBA candidates lack technical depth. D3 scores only 2/3 — a deliberately generalist core rather than deeply quantitative curriculum. |
+| Cohort network and leadership-identity development | **→ Stable, differentiating** | Theme 3 (§3): despite the "MBA is dead" debate (Theme 1, §3), alumni network effects from Group of Eight MBAs remain a powerful discourse theme. D10 and the irreplaceability bonus both score 3/3, reflecting a durable structural advantage — the cohort network and brand signal — rather than a fast-moving skill. |
+| Manual slide deck production and generic desk research | **↓↓ Falling sharply** | Existing declining-demand finding, reinforced by Signal 1 (§2): consulting firms openly deploy LLMs for research synthesis, displacing manual McKinsey-style slide production and literature-review desk research very fast. |
+| Routine status reporting and project scheduling | **↓ Falling** | Existing declining-demand finding, reinforced by Signal 4 (§2): AIPM 2025 workforce data shows entry-level PMO roles declining 12% in volume as AI tools absorb scheduling tasks, while ads shift language toward governance and executive escalation instead. |
 
 ---
 

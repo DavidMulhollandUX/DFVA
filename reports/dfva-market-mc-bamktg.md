@@ -207,20 +207,15 @@ evidence that graduates of this program hold those capabilities.
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Entry-level execution roles beneath the management tier, one in three employers having already replaced some with AI ([GMAC 2026](https://poetsandquants.com/2026/06/25/employers-still-want-mbas-but-1-in-3-are-replacing-entry-level-roles-with-ai-gmac-finds/))
-- Multi-touch attribution as the primary measure of media effect ([IAB Australia, September 2025](https://www.iabaustralia.com.au/resource/market-mix-modelling-landscape-report-2025/))
-- Unqualified environmental and sustainability claims ([AANA Environmental Claims Code](https://aana.com.au/self-regulation/environmental-claims-code/), effective 1 March 2025)
-- Undisclosed or vaguely disclosed paid endorsement ([ACCC, December 2023](https://www.accc.gov.au/about-us/publications/social-media-influencer-testimonials-and-endorsements))
-- Marketing budgets defended on activity and reach rather than commercial outcome
-
-### Rising Demand
-- Accountability for automated decisions, including disclosure of them from 10 December 2026 ([APP 1.7](https://www.legislation.gov.au/C2024A00128/asmade))
-- Board-level AI and data governance literacy ([AICD and HTI, June 2026](https://www.aicd.com.au/news-media/research-and-reports/a-directors-guide-to-ai-governance.html))
-- Marketing mix modelling, geo-experimentation and incrementality design ([IAB Australia, September 2025](https://www.iabaustralia.com.au/resource/market-mix-modelling-landscape-report-2025/))
-- Substantiation of claims at the time they are made, with evidence retained
-- Commerciality — arguing marketing investment in a CFO's terms ([Mi3, February 2026](https://www.mi-3.com.au/25-02-2026/commercial-marketing-distilled-asahi-growth-chiefs-five-point-plan-get-rapid-runs-board))
-- Communication, problem-solving and adaptability now; skill in using AI tools on the five-year view ([GMAC 2026](https://poetsandquants.com/2026/06/25/employers-still-want-mbas-but-1-in-3-are-replacing-entry-level-roles-with-ai-gmac-finds/))
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI governance and vendor evaluation for marketing ("AI strategist" role) | **↑↑ Rising sharply** | Theme 1 (§3): Australian Marketing Institute community discussion holds that mid-senior marketers must become "AI strategists" who set policy and evaluate vendor claims, not tool operators. D5 (AI literacy and governance) scores only 1/3 — no dedicated AI-for-marketing unit exists, despite this being a baseline hiring expectation. |
+| First-party data strategy, CDP architecture and MMM/incrementality measurement | **↑↑ Rising sharply** | Signal 2 (§2) shows "CDP implementation" up 61% YoY, and Theme 2 (§3) documents attribution's collapse driving adoption of media-mix modelling and incrementality testing. D3 (technical and quantitative depth) scores only 1/3 — no compulsory quantitative core covers this content, despite it now dominating ANZ digital-marketing job descriptions. |
+| Content strategy, governance and editorial architecture (over content production) | **↑ Rising** | Theme 6 (§3): with generative AI producing volume content at near-zero marginal cost, the premium has shifted decisively to strategy, audience architecture and editorial governance — determining what gets made and why. D7 (research methods rigour) scores only 1/3, and research currency lags the AI-marketing intersection this shift depends on. |
+| Purpose-led brand strategy and data-ethics/consent literacy | **↑ Rising** | Signal 5 (§2) and Theme 5 (§3): post-Optus/Medibank Privacy Act reform has elevated data ethics and consent architecture to strategic CMO priorities, and FMCG brand-manager job descriptions now require sustainability-reporting literacy. Existing curriculum implication CI-5 flags this content as elective-only rather than core. |
+| Commercial, P&L-fluent marketing leadership | **→ Stable, differentiating** | Signal 4 (§2): senior marketing postings increasingly require demonstrated revenue attribution and pipeline accountability. D2 (systems thinking) scores 2/3 — core MBA content builds cross-functional framing, a stable structural asset, though marketing-systems thinking specifically (attribution, media mix) is not yet a distinct assessed competency. |
+| Manual social content creation and vanity-metric reporting | **↓↓ Falling sharply** | Existing declining-demand finding: AI content governance is displacing manual content creation fast, and revenue attribution/incrementality/MMM is displacing vanity-metric reporting very fast. D1 (automation exposure) scores only 1/3 because entry-level campaign production and A/B testing sit "squarely in the automation-exposed executional layer." |
+| Third-party cookie-based and broad demographic targeting | **↓↓ Falling sharply** | Existing declining-demand finding, reinforced by Signal 2 (§2): finalised cookie deprecation and Google's Privacy Sandbox deployment are displacing broad demographic and third-party targeting very fast, in favour of first-party, consent-based segments. |
 
 ---
 

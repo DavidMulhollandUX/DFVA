@@ -121,19 +121,23 @@ finding — see §6.
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-The evidence base speaks directly to performer-facing AI adoption and only indirectly to design
-and production crew; rows below are marked accordingly. Rows without a direct citation are
-reasoned from the same sourced material applied one step removed (a production office that
-adopts AI casting tools is documented; a production office that adopts AI concept-art tools is
-not, in this evidence base, though it is the same general shift).
+As §3 notes, the sourced discourse evidence in this report concerns performers, not the design
+and production crew this program trains, and §2's job-ad scan was queried under "actor," not any
+design/production title. Rows below are therefore grounded primarily in §1's job-family AI
+substitution ratings (drawn from the program's own handbook overview and Panel C evidence) and
+§5's curriculum-implication findings; where a row draws on §3's performer-facing discourse, it is
+marked as adjacent-industry context rather than a direct measurement of design or production
+crew demand.
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual, unrouted self-tape and casting-submission handling in production offices | Fast | AI-assisted casting-submission and audition-routing platforms (sourced: practitioner blog account of "Cast Me Now," Backstage trade coverage) | Fast |
-| Ad hoc, undocumented practice for digitally scanning a performer or set for reuse | Medium | Documented consent, scanning-justification and "additional value" tests before any digital scan is taken (sourced: 2026 SAG-AFTRA contract terms; not yet documented for design/production crew — inferred extension) | Medium |
-| Unassisted manual 2D concept illustration and layout (graphic-design segment) | Medium | AI-directed concept visualisation, with a human editing and approving output against a creative brief | Fast — inferred from general generative-image tooling adoption, not sourced in this evidence base for theatre/screen design specifically |
-| Production teams sized to a pre-quota, purely commercial-commissioning baseline | Slow | Local production-crew demand tied to the 10% local-expenditure streaming quota (sourced: Communications Legislation Amendment Act 2025) | Medium |
-| Treating AI tool use as informal, undisclosed practice on a production | Slow | Formal AI-use disclosure and governance norms migrating from performer contracts (SAG-AFTRA) toward production-side crew agreements — inferred, not yet sourced for design/production crew | Slow |
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-directed 2D concept visualisation, with human editing and approval against a creative brief | **↑ Rising** | §1 rates Graphic/Communication Design HIGH substitution pressure because layout, illustration and image-processing tasks are "the segment of design work most exposed to current generative-image tooling," and CI-1 (§5) confirms C3 is capped at Level 1 with no AI-specific content taught. |
+| Digital-scan consent, justification, and "additional value" documentation practice | **↑ Rising** | Theme 2 (§3) reports the ratified 2026 SAG-AFTRA contract requiring producers to justify digital scanning and demonstrate "significant additional value" over a human performer — an adjacent-industry signal the same evidence base and CI-5 (§5) both flag as not yet documented for design/production crew specifically, an open question rather than a confirmed extension. |
+| Local production-crew demand tied to the streaming local-content quota | **↑ Rising** | Theme 1 (§3) reports the Communications Legislation Amendment Act 2025 (effective 2026-01-01) requiring large streaming platforms to spend at least 10% of local expenditure on new Australian drama, children's, documentary, arts and educational content, which CI-3 (§5) links to the program's existing G2 PASS on the "Design budgets & schedules" component. |
+| Budget- and schedule-constrained design decision-making under real production constraints | **→ Stable, differentiating** | §1 names this a rising-demand skill for Production/Set Design, and CI-3 (§5) confirms G2 already passes on graded, defended trade-off decisions — the right foundation to absorb Theme 1's quota-driven production-volume growth. |
+| Real-time human coordination and cueing under live production conditions | **→ Stable, differentiating** | §1 rates Stage Management LOW substitution pressure because "real-time human coordination under live conditions is not automatable with current tooling." |
+| Hands-on costume construction, fitting, and materials judgement | **→ Stable, differentiating** | §1 rates Costume Design LOW substitution pressure because "construction, fitting and materials judgement remain physical, hands-on craft." |
+| Unassisted manual 2D concept illustration and layout execution | **↓ Falling** | §1 and CI-1 (§5) both identify layout, illustration and image-processing as the graphic/communication design segment most exposed to generative-image tooling, consistent with the program's current graphic-software teaching being operation-only (C3). |
 
 ## 5. CURRICULUM IMPLICATIONS
 

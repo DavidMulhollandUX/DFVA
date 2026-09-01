@@ -62,16 +62,13 @@ Research in the [Journal of Financial Economics](https://doi.org/10.1016/j.jfine
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine 10-K spreading and manual spreadsheet financial statement adjustments
-- Basic DCF template population without dynamic scenario testing
-- Standard factor backtesting without model risk auditing or regime-shift checks
-
-### Rising Demand
-- Advanced forensic accounting adjustments and earnings quality audit
-- Model risk governance and explainability under APRA CPG 235 standards
-- Private markets, infrastructure, and sustainable transition asset valuation
-- Verbal investment committee pitching and executive client advocacy
+| Skill | Direction | Rationale |
+|---|---|---|
+| Model risk governance and explainability under APRA CPG 235 | **↑↑ Rising sharply** | Theme 2 (§3): APRA and ASIC require finance professionals to maintain human-in-the-loop oversight of algorithmic underwriting and trading, plus verbal adversarial defense before committees and regulators; C3 scores 1/3 — no core unit addresses AI/ML model-risk limitations or governance, only tool operation (ECON90033, FNCE90083/84). |
+| Forensic-accounting reliance and override judgement over automated DCF models | **↑↑ Rising sharply** | Theme 1 (§3): AI accelerates data extraction and factor backtesting, but judgement on regime shifts and valuation-multiple distortions is non-delegable; C2 was demoted to 1/3 on adversarial verification — no documented criterion-referenced appraisal task exists anywhere in the compulsory core. |
+| Private-markets and bespoke asset valuation requiring primary empirical investigation | **↑ Rising** | Theme 3 (§3): growing capital allocation to private credit and transition assets requires customised models rather than public-market templates; C5 scores only 1/3 — the guaranteed core path is set assignments and exams, not a required primary-evidence project. |
+| Verbal investment-committee pitching and executive client advocacy | **↑ Rising** | Theme 2 (§3) requires spoken adversarial defense before investment committees and regulators; W1 was demoted to 1/3 on adversarial verification — no core assessment documents a named professional genre or an audience beyond the teaching team. |
+| Routine 10-K spreading and standard DCF template population | **↓↓ Falling sharply** | This section's own prior Declining Demand list and the 97.04 automation-exposure figure (§2 Signal 3) together identify routine spreading and static DCF work as the first-automated task. |
 
 ---
 

@@ -61,18 +61,17 @@ Standards from the [MEAA](https://www.meaa.org/) highlight that high-impact jour
 
 ---
 
-## 4. SKILL SHIFT SUMMARY
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-### Declining Demand
-- Commodity wire rewriting and press release summarisation
-- Print-only page layout and traditional sub-editing
-- Isolated desk reporting without multimedia production capabilities
-
-### Rising Demand
-- Evaluative verification, synthetic media detection, and fact-checking
-- Data journalism, FOI tradecraft, and forensic open-source intelligence (OSINT)
-- Short-form vertical video (TikTok/Reels) and narrative podcast production
-- Strategic media advisory, policy translation, and stakeholder communication
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI verification, provenance and disclosure tradecraft | **↑↑ Rising sharply** | D5 and D9 each score 1/3 — no AI-specific journalism content, and no explicit AI-era curriculum adaptation, is documented. Theme 2 (§3) shows Australian journalist communities treating verification tradecraft — source-based verification, document authentication and OSINT — as the primary competitive moat against AI-generated content, reinforced by the MEAA's 2026 verification guidance. |
+| Commodity/wire-style news writing and content generation | **↓↓ Falling sharply** | D1 scores 1/3 — content generation, summarisation, translation and research synthesis are all flagged as highly automatable. Theme 1 (§3) names this directly: professional discourse holds that AI has "permanently automated the commodity news layer" — wire rewrites, sports briefs and meeting summaries. |
+| Data journalism (Python, R, SQL for editorial use) | **↑↑ Rising sharply** | D3 scores 1/3 — the program is "craft/profession, not deeply quantitative" with no analytical depth in statistics or computation. Theme 6 (§3) has working data journalists arguing coding-plus-narrative-craft is "the single highest-leverage combination for career differentiation," matching the doubling of SQL/Python/R mentions in ANZ journalism job ads (§2 Signal 2). |
+| AI ethics and editorial responsibility frameworks | **↑ Rising** | D9 scores 1/3 for limited evidence of AI-era curriculum adaptation. Theme 5 (§3) documents intensifying ANZ discourse on editorial responsibility when AI tools sit in the production chain, driven by the MEAA's AI in Journalism working group and the NYT v OpenAI litigation debate. |
+| Print sub-editing and linear broadcast package production | **↓ Falling** | Named directly in the report's own declining column — print-layout sub-editing and linear TV package production both move Fast — consistent with D1's finding that structured writing and production tasks are AI-vulnerable. |
+| Portfolio-career and freelance business literacy | **↑ Rising** | Theme 3 (§3) documents a structural shift from staff employment to portfolio careers among 2020–2023 graduates, mixing freelance, newsletter and consulting income; CI-5 flags that this is "not typically taught" despite being the dominant employment reality. |
+| Investigative-journalism domain depth and source relationships | **→ Stable, differentiating** | D6 and D8 each score 3/3 — the program already delivers a defined specialist identity built on interviewing, source cultivation and ethical engagement. Theme 3's "vibe shift" discourse and the B=2 bonus rationale both treat this human-trust core as durable rather than expanding or contracting on its own; the risk sits in the surrounding commodity work, not this differentiator. |
 
 ---
 

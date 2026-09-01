@@ -62,16 +62,13 @@ Standards from the [PIA](https://www.planning.org.au/) confirm that a rigorous, 
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Static 2D masterplans without micro-climate or financial feasibility variants
-- Generic community consultations without genuine First Nations co-design
-- Isolated aesthetic massing studies detached from statutory planning law
-
-### Rising Demand
-- AI-assisted parametric urban massing and solar/wind analysis (Forma, Grasshopper)
-- Climate-resilient public realm design (WSUD, urban heat mitigation, biodiversity net gain)
-- Statutory planning law fluency (VPP overlays, planning scheme amendments)
-- First Nations Caring for Country and cultural landscape integration
+| Skill | Direction | Rationale |
+|---|---|---|
+| Critical governance of AI-generated massing proposals against micro-climate, heritage and accessibility standards | **↑↑ Rising sharply** | Theme 1 (§3) finds generative AI algorithms (Forma, TestFit) rapidly optimise building envelopes, and urban designers must critically govern automated proposals; CI-2 notes C3 scores only 1/3, with no assessed module evaluating these tools. |
+| External-practitioner-judged studio jury review | **↑ Rising** | Theme 2 (§3) reports DTP and AILA guidance that precinct delivery requires cross-disciplinary synthesis and external stakeholder accountability; W1 currently scores 2/3 with internal academic panels only. |
+| Progressive studio-to-capstone design spine | **→ Stable, differentiating** | W2 already scores the maximum 3/3 across 150 points of core studios — the program's clearest non-automatable strength, grounded in Theme 3's (§3) evidence-based design-inquiry benchmark. |
+| Static 2D masterplans without micro-climate or feasibility variants | **↓↓ Falling sharply** | Theme 1 (§3) shows generative parametric tools now handling this task, shifting demand toward critical governance of the output. |
+| Isolated aesthetic massing studies detached from statutory planning law | **↓ Falling** | Declining per the program's own market signal, in favour of statutory-fluent, climate-resilient public-realm design. |
 
 ---
 

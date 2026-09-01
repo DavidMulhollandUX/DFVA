@@ -153,14 +153,14 @@ and on C4's transfer-of-learning construct — whether graduates are assessed on
 skills to problem contexts where AI now performs similarly.
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual, undelegated administrative and repetitive documentation | Medium | AI-assisted intake logistics and routine pre/post-test education delivery | Medium |
-| Fully manual pedigree drafting | Medium | AI-supported pedigree construction, human-reviewed | Medium |
-| Purely manual variant-interpretation triage | Medium | AI-accelerated variant interpretation and rare-disease diagnosis support, human sign-off retained | Fast |
-| Clinical-only practice scope | Slow | Multi-domain practice recognised by the certifying body — clinical, industry, academic, policy, research and education | Slow |
-| Writing skill development without AI-tool exposure | Slow | Assessed AI-tool literacy alongside governance and critical evaluation of AI output | Medium |
-| Sole reliance on the human counsellor for low-complexity cases | Medium | AI-extended patient access for straightforward needs, freeing counsellor time for complex and rare cases | Medium |
+
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-limitations, governance and critical-evaluation content in genetic-counselling training | **↑↑ Rising sharply** | Theme 3 (§3): NSGC's Perspectives newsletter frames AI as accelerating variant interpretation while warning reliance risks eroding critical-thinking skills absent institutional governance; C3 scores 1/3 — tool-operation content exists (GENE90025/26) but no assessed AI-limitations or ethics component. |
+| AI-assisted intake logistics and routine pre/post-test education, human retains complex cases | **↑ Rising** | Theme 2 (§3): the medRxiv survey (160 counselors) puts roughly 25% of work time in delegable administrative work, with practitioner Jordana Graifman proposing AI take pedigree drafting and routine education while counsellors retain high-stakes cases; C1 scores 2/3 — no core assessment coordinates work across people and AI systems. |
+| Multi-domain practice (clinical, industry, policy, research, education) | **↑ Rising** | Theme 1 (§3): HGSA's 2026 scope-of-practice revision formally widens recognised practice to six categories; C4 scores 1/3 — the core internship's cross-context evidence is reserved for W3, leaving no core-assessed transfer-of-learning task to a non-clinical scenario. |
+| High-exposure task-similarity in risk assessment and gene-panel interpretation | **↑ Rising** | Theme 4 (§3): a 2025 US think-tank report places genetic counsellors in AIOE's top exposure quintile for exactly the risk-assessment tasks this program teaches; C5 scores 1/3 — the compulsory research-methods unit requires designing but not conducting a study, and the stronger Health Research stream with primary data collection is optional. |
+| Manual, undelegated administrative and repetitive documentation | **↓ Falling** | This section's own prior Declining Demand list and Theme 2 (§3) together place manual administrative and repetitive documentation as the task AI is already reported absorbing, freeing capacity for complex-case counselling. |
 
 ## 5. CURRICULUM IMPLICATIONS
 | # | Implication | Dimension | Action |

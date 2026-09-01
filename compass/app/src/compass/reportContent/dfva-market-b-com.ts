@@ -62,16 +62,14 @@ Standards from [CPA](https://www.cpaaustralia.com.au/) confirm that authentic co
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual spreadsheet data entry and routine double-entry bookkeeping
-- Standard financial ratio calculation without AI predictive interpretation
-- Descriptive business case summaries without strategic trade-off modeling
-
-### Rising Demand
-- Algorithmic financial modeling, Python/SQL data analytics, and AI auditing
-- Multi-stakeholder strategic negotiation and executive board presentations
-- Complex capital allocation and risk management under macroeconomic uncertainty
-- Corporate sustainability reporting (ASRS) and carbon market accounting
+| Skill | Direction | Rationale |
+|---|---|---|
+| Algorithmic auditing and AI financial-integrity verification | **↑↑ Rising sharply** | Theme 1 (§3) reports accountants maintain statutory fiduciary liability for verifying algorithmic integrity and detecting misstatements even as AI automates audit sampling; C3 scores 1/3 — core digital competencies are limited to Excel and basic software tool operation. |
+| Multi-stakeholder strategic negotiation and executive advocacy | **↑↑ Rising sharply** | Theme 2 (§3) shows commerce graduates operating in cross-functional deal teams alongside legal counsel and executives, requiring persuasive oral advocacy; W1 scores 1/3 — spoken communication is restricted to tutorial participation with no external audience evaluation. |
+| Defended capital allocation under market uncertainty | **↑ Rising** | Theme 3 (§3) names authentic capital-allocation trade-offs under volatility as the graduate-readiness benchmark, yet CI-1 (§5) records the program failing Gate G2 for lack of assessed trade-off decisions on the guaranteed core path. |
+| Client advisory and trusted-relationship judgment | **→ Stable, differentiating** | Signal 3 (§2) rates entry-level spreadsheet preparation and routine reporting at 94.27 substitution exposure while naming client advisory as one of the functions that stays critical precisely because of that automation. |
+| Standard financial ratio calculation without AI predictive interpretation | **↓ Falling** | Signal 2 (§2) shows financial institutions now mandating AI-assisted analytics and automated reconciliation as the baseline, displacing unassisted ratio calculation. |
+| Manual spreadsheet data entry and routine double-entry bookkeeping | **↓↓ Falling sharply** | Signal 3 (§2) rates this exact work 94.27 substitution exposure — automated financial-analytics software and LLM report generators now perform standard ledger reconciliation and DCF modeling. |
 
 ---
 

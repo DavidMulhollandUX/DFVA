@@ -65,18 +65,15 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual literature review/synthesis | FAST | AI-literature-tool critical appraisal | FAST |
-| Hand-written first-draft manuscript/grant prose | FAST | Scientific storytelling & impact framing (AI-assisted draft, human-refined) | MEDIUM |
-| Manual routine statistical scripting | FAST | Causal inference & study design judgment | MEDIUM |
-| Basic bioinformatic pipeline execution (off-the-shelf) | MEDIUM | AI-pipeline supervision & validation | FAST |
-| Generic "PhD generalist" positioning | MEDIUM | Deep sub-specialisation (specific disease, platform, or method) | MEDIUM |
-| Manual figure/graphic generation for papers | FAST | Data visualisation strategy & interpretation | SLOW |
-| Routine regulatory/medical-writing drafting | FAST | Regulatory strategy & stakeholder judgment | MEDIUM |
-| Single-discipline technical training alone | SLOW | Cross-disciplinary AI + domain fluency (e.g. computational + wet-lab) | FAST |
-| Passive AI tool use without governance awareness | MEDIUM (declining trust) | AI governance/ethics literacy in human-subject research | FAST |
-| Purely descriptive/observational research design | SLOW | Translational/mechanistic research design with clinical relevance | MEDIUM |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Cross-disciplinary AI plus domain fluency (e.g. computational plus wet-lab) | **↑↑ Rising sharply** | CI-7 (§5) names this "the fastest-rising skill combination across all job families in this map," reinforced by Signal 1's (§2) postdoc postings now listing "experience with AI/ML-based analysis pipelines" alongside traditional wet-lab technique. |
+| AI-pipeline supervision and validation | **↑ Rising** | Signal 4 (§2) reports pharma R&D postings increasingly referencing "AI-assisted drug discovery" and expecting scientists to "direct and interpret AI-generated candidate compounds rather than solely generate them manually." |
+| AI governance and ethics literacy in human-subject research | **↑ Rising** | CI-1 (§5) states employers across postdoc, biotech and population-health families "increasingly expect explicit AI/ML tool fluency as baseline, not a differentiator," yet no compulsory AI-in-research module currently exists. |
+| Clinical trial methodology and patient-facing translational research | **→ Stable, differentiating** | Job Family Map (§1) rates clinical/translational researcher roles LOW automation pressure because "direct patient contact and clinical accountability cannot be automated," with a persistent national workforce shortage in this dual-track role. |
+| Routine regulatory and medical-writing drafting | **↓ Falling** | Signal 5 (§2) and the Job Family Map (§1) both rate regulatory/medical-affairs roles HIGH substitution pressure, describing "AI-tool-assisted drafting with human QA oversight" as already standard, making this the most AI-exposed sub-track in the map per CI-2 (§5). |
+| Manual routine statistical scripting | **↓ Falling** | Signal 2 (§2) reports population-health postings increasingly specifying AI-assisted analytics tools as differentiators, "reflecting employer expectation that routine statistical coding is now AI-augmented rather than manually scripted from scratch." |
+| Basic off-the-shelf bioinformatic pipeline execution without AI-pipeline oversight | **↓↓ Falling sharply** | Signal 1 (§2) documents this shift most sharply in oncology postdoc postings, where multi-omics/AI-pipeline experience has displaced purely bench-skill listings from five years earlier. |
 
 ---
 

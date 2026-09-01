@@ -62,16 +62,13 @@ Standards from the [ADC](https://www.adc.org.au/) confirm that a mandatory, thre
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Standalone 2D radiographic tracing without 3D CBCT integration
-- Unverified reliance on commercial CAD/CAM dental design algorithms
-- Solo practice management without digital multidisciplinary referral networks
-
-### Rising Demand
-- Evaluative verification of AI-assisted diagnostic imaging (CBCT, cephalometrics)
-- Guided surgical implant planning and microsurgical regenerative techniques
-- Medically complex and special-needs clinical care pathways
-- Independent primary clinical research and translational evidence generation
+| Skill | Direction | Rationale |
+|---|---|---|
+| Critical audit of AI-assisted diagnostic imaging (CBCT, cephalometrics, marginal bone-loss detection) | **↑↑ Rising sharply** | Theme 1 (§3) finds registered specialists retain exclusive medico-legal accountability for treatment planning even as AI software assists 3D cephalometrics and bone-loss detection; CI-3 notes C3 scores only 1/3, lacking an assessed module evaluating AI diagnostic software. |
+| Interdisciplinary clinical case coordination with individual accountability | **↑ Rising** | Theme 2 (§3) reports DBA and ADA guidance that specialist practice requires leading complex dental teams and communicating multidisciplinary plans; CI-2 notes C1 scores only 1/3, as core research subjects currently assess individual tasks only. |
+| Independent, self-scoped clinical research culminating in a defended minor thesis | **→ Stable, differentiating** | C4 and C5 already score the maximum 3/3 across the 75cp research core; Theme 3 (§3) confirms a mandatory three-year original-research sequence is the ADC's own benchmark for specialist credentialing. |
+| Standalone 2D radiographic tracing without 3D CBCT integration | **↓↓ Falling sharply** | Theme 1 (§3) documents AI software already assisting 3D cephalometrics and marginal bone-loss detection, superseding standalone 2D tracing. |
+| Unverified reliance on commercial CAD/CAM dental design algorithms | **↓ Falling** | Theme 1 (§3) grounds this in registered specialists' retained medico-legal accountability, which requires verified rather than unverified reliance on automated design output. |
 
 ---
 

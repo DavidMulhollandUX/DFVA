@@ -64,14 +64,14 @@ The article is authored by Boostlingo, a commercial AI-interpreting vendor with 
 **Bearing:** W1 and W3. If AI-interpreting tools are genuinely spreading through language-service integrators' workflows, professional-audience assessment beyond the single TRAN90010 internship route, and workplace exposure to how organisations actually deploy these tools, both become more material to graduate readiness — though the claim itself should be weighted as vendor-reported, not independently confirmed.
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Routine document translation without AI-output review skills | Fast | AI-output quality review and reliance-decision justification | Fast |
-| Freelance volume-rate translation work | Fast | Domain-specialist translation (legal, technical, clinical) commanding accreditation premium | Medium |
-| Unsupervised or uncertified interpreting for lower-stakes settings | Medium | NAATI-certified specialist legal/court interpreting under a regulator-stated human-supervision requirement | Slow |
-| Generalist AV/games localisation translation with no AI-tooling oversight | Medium | Localisation QA and human-AI collaboration in game and media translation | Medium |
-| General intercultural-communication practice without structured AI-ethics grounding | Medium | Applied critique of AI output and AI-ethics literacy | Fast |
-| AI interpreting treated as a distant or theoretical risk | Slow | Organisational evaluation and piloting of AI-interpreting tools among language-service integrators (vendor-reported, organisation-level claim) | Fast |
+
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-output quality review and reliance-decision justification | **↑↑ Rising sharply** | Theme 1 (§3) finds interpreters/translators had the highest AI-task-overlap score of 785 occupations studied, and a separate causal study links machine-translation adoption to reduced translator employment; C2 does not yet name this as a graded criterion. |
+| AI-ethics and governance literacy (bias, accountability, transparency, data governance) | **↑ Rising** | Theme 2 (§3) reports NAATI's position statement that AI must not be used in high-risk assignments without certified-practitioner supervision; the evidence file notes TRAN90011's graded items raise this only at overview level, not as assessed criteria. |
+| NAATI-certified specialist legal/court interpreting under human-supervision requirement | **→ Stable, differentiating** | The job family map rates this LOW substitution pressure, grounded directly in NAATI's own governance constraint specific to this family (Theme 2, §3). |
+| Routine document translation without AI-output review skills | **↓↓ Falling sharply** | Theme 1 (§3) task-overlap evidence identifies this as the part of the occupation most exposed to AI-applicable task content. |
+| Freelance volume-rate translation work | **↓ Falling** | Theme 3 (§3) reports practitioner and trade accounts of income and workload contraction attributed to generative-AI post-editing, though the evidence is thin and self-selected. |
 
 ## 5. CURRICULUM IMPLICATIONS
 | # | Implication | Dimension | Action |

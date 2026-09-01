@@ -61,18 +61,19 @@ Competency frameworks from [VLAB](https://www.lawlibrary.vic.gov.au/vlab) emphas
 
 ---
 
-## 4. SKILL SHIFT SUMMARY
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-### Declining Demand
-- Manual discovery and keyword-based document review
-- Templated first-draft contract and memorandum production
-- Pure rote memorisation of statutory rules without contextual application
+> This report has no "CURRENT DISCUSSION SIGNALS" section (§3 here is INDICATIVE SALARY BANDS); rows below are grounded in §1 JOB FAMILY MAP, §2 JOB AD SIGNALS, and the companion assessment's dimension scores instead.
 
-### Rising Demand
-- Evaluative verification, citation auditing, and synthetic error detection in legal AI outputs
-- Complex courtroom advocacy, client negotiation, and strategic settlement counselling
-- Enterprise AI governance, privacy law compliance, and legal technology operations
-- Interdisciplinary problem solving bridging law, data analytics, and corporate strategy
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-output review, risk triage and drafting supervision | **↑↑ Rising sharply** | D5 scores 2/3, but "the 200-credit compulsory core contains zero AI literacy." §1 notes Harvey AI, CoCounsel and Lexis+ AI are already deployed inside AU top-tier and mid-tier firms for first-pass drafting and review, and the report's own table names this FAST-rising. |
+| Manual document review, discovery and first-pass drafting | **↓↓ Falling sharply** | D1 scores 2/3 because "document review, due diligence and basic research are highly automatable." §1's litigation family notes e-discovery and predictive coding tools "have compressed document review headcount for a decade." |
+| Advocacy, negotiation and client-facing judgment | **→ Stable, differentiating** | D8 and D6 each score 3/3 — the VLAB ethical-competence requirement makes this "the least automatable capability." §1's barrister pathway calls advocacy "the most AI-resistant segment of legal practice," and CI-6 protects it as the JD's core differentiator rather than a skill still accelerating. |
+| Empirical/data-informed legal research and legal analytics | **↑ Rising** | D3 scores 1/3 — "no statistics, coding, or data-science requirement" exists in the compulsory core — and D7 scores 2/3 because most law-school research stays doctrinal rather than empirical. CI-4 calls for a quantitative/empirical legal methods requirement to close this. |
+| AI governance and regulatory/compliance legal specialisation | **↑ Rising** | §1's government/public-sector and legal-technology families flag this as a growth area the JD "barely serves." §2 Signal 6 notes regulatory/compliance roles growing in response to AI governance obligations, a demand pull the elective-only "AI and Justice" and "AI: Transforming Government" units serve only for the minority who select them (CI-3, D5). |
+| Generalist "any law" graduate positioning | **↓ Falling** | §2 Signal 7 reports reduced advertised salary premiums for generalist graduate solicitor roles relative to litigation, advisory or regulatory specialisation — an early commoditisation signal the report's own table also records as declining. |
+| Continuous AI-tool fluency across a changing toolset | **↑↑ Rising sharply** | D9 scores 2/3 because "at least 15 quota electives are 'not available in 2026,'" signalling curriculum instability at exactly the moment tech-forward content is most needed (CI-5). §1's legal-technology family and §2 Signal 2 ("AI-fluent" language now appearing in graduate ads) both mark this as a fast-rising expectation. |
 
 ---
 

@@ -61,20 +61,17 @@ Guidelines from [ADHA](https://www.digitalhealth.gov.au/) and [ACN](https://www.
 
 ---
 
-## 4. SKILL SHIFT SUMMARY
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-### Declining Demand
-- Paper-based clinical documentation and handwritten medication charts
-- Task-oriented nursing without holistic care formulation
-- Passive adherence to automated alerts without clinical validation
-
-### Rising Demand
-- Evaluative judgement and override of AI clinical decision support systems (CDSS)
-- Advanced patient assessment and rapid deterioration management
-- Interprofessional communication (ISBAR) and multidisciplinary team coordination
-- Digital health record governance and EMR workflow optimization
-
----
+| Skill | Direction | Rationale |
+|---|---|---|
+| Direct clinical care, physical assessment and therapeutic relationship | **→ Stable, differentiating** | D1 (Automation Exposure), D8 (Human & Relational) and B (Irreplaceability) each score 3/3 — "AI cannot substitute" physical patient care, clinical judgment or emotional support. §1 finds physical assessment and therapeutic relationship "irreducible" across almost every job family, and NMBA registration mandates human accountability at point of care. |
+| AI-assisted clinical decision support and medication-safety tooling (CDSS, pharmacogenomics alerts) | **↑ Rising** | D5 scores 1/3 — "no AI-specific nursing content" exists beyond a *Digital Transformation of Health* elective. Named directly in the report's own rising column at Medium velocity. |
+| EMR/health informatics proficiency and telehealth assessment | **↑↑ Rising sharply** | §2 Signal 3 shows "digital health literacy" now sits as a baseline requirement rather than a differentiator across all job families. The report's own table lists EMR proficiency and telehealth both rising at Fast velocity, and CI-1/CI-4 flag this as underemphasised in the curriculum. |
+| Manual/paper-based documentation and handwritten ward communication | **↓↓ Falling sharply** | Named directly in the report's own declining column, both moving at Fast velocity — consistent with structured digital handover tools (ISBAR) displacing paper-based ward communication. |
+| Autonomous advanced-practice and nurse-led models of care (NP prescribing) | **↑↑ Rising sharply** | §1 and §2 Signal 1 — Nurse Practitioner vacancies across primary, aged and emergency care sit open for 4–8 weeks with salary packages of $120,000–145,000 and rising. The report's own table lists this as Fast rising. |
+| General nursing without specialty certification | **↓ Falling** | Named directly in the report's own declining column at Medium velocity, displaced by "Advanced specialty certification (critical care, oncology, perioperative, mental health)" rising at Fast velocity in the same table. |
+| Clinical research nursing and GCP/data-trial coordination | **↑ Rising** | §2 Signal 5 — clinical trial sites (VCCC network, Royal Melbourne, Austin, Monash) are actively advertising Research Nurse and Research Coordinator roles requiring GCP certification. D7 scores 2/3, and CI-3 flags this as "currently underemphasised in nursing postgrad curricula nationally." |
 
 ## 5. CURRICULUM IMPLICATIONS
 

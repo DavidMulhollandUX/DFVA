@@ -62,16 +62,13 @@ Research in [New Media & Society](https://journals.sagepub.com/home/nms) (2024) 
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine media release writing and descriptive press summaries without strategic framing
-- Manual social media scheduling and descriptive content curation without data analytics
-- Basic video cutting and audio transcription without high-order narrative direction
-
-### Rising Demand
-- Synthetic media forensics, prompt auditing, and deepfake verification
-- Digital platform regulation, algorithmic transparency, and data governance (ACMA/EU AI Act)
-- Crisis communication and public affairs defense under extreme mis/disinformation
-- Cross-cultural media strategy and multi-stakeholder advocacy negotiation
+| Skill | Direction | Rationale |
+|---|---|---|
+| Synthetic-media forensics, source verification and deepfake identification | **↑↑ Rising sharply** | Theme 1 (§3): MEAA guidance and *Media, Culture & Society* research require media professionals to exercise non-delegable judgement in source verification and deepfake identification even as AI accelerates draft text and video production; C2 scores 2/3 — criterion-referenced appraisal is assessed (MECM90017 portfolios) but no reliance/override log for AI-generated copy exists. |
+| Digital platform regulation and algorithmic-transparency literacy (ACMA/AI Act) | **→ Stable, differentiating** | Theme 2 (§3): ACMA and the eSafety Commissioner require communicators fluent in platform-governance codes and multi-stakeholder negotiation; C3 scores 2/3 — MECM90002 already assesses platform/content regulation and AI-ethics content, one of the strongest scores in this profile. |
+| Coordinating human-AI production workflows in collaborative media teams | **↑ Rising** | Theme 1 (§3) bears on this gap; C1 scores only 1/3 — no assessment row in any core-pool subject is labelled group or team, despite workshop-mode teaching in MECM90031. |
+| Crisis communication and public-affairs defense under mis/disinformation pressure | **↑ Rising** | Theme 3 (§3): navigating coordinated disinformation and geopolitical crises requires primary empirical audience analysis rather than automated sentiment tools; W3 scores 1/3 — no compulsory placement or client-facing practicum exists, despite the extreme 94.80 automation exposure (§2 Signal 3). |
+| Routine media-release writing and descriptive press summaries | **↓↓ Falling sharply** | This section's own prior Declining Demand list and the 94.80 exposure figure (§2 Signal 3) together identify standard media releases and basic transcription as the fastest-automated tasks. |
 
 ---
 

@@ -48,14 +48,16 @@ The Inbound Logistics piece compiles qualitative predictions from named experts,
 **Bearing:** C2 and W1. Both items rest on the same optional Capstone-route evidence (BUSA90485's peer-review-then-revise cycle and host-company presentation), which the program's own evidence file already discounts for W3 on identical grounds — meaning no genuinely compulsory unit gives students assessed practice in critiquing AI or peer output, or in communicating to a real external audience, at precisely the moment named practitioners disagree sharply about the profession's own trajectory and executives describe judgement-heavy, case-by-case adoption decisions.
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual, entry-level supply chain and logistics coordination tasks (data entry, routine tracking) | Fast | AI-augmented planning and demand-forecasting judgement (system oversight, exception handling) | Fast |
-| Entry-level supply chain hiring volume (per Gartner-surveyed leader expectations) | Medium | Mid-to-senior, AI-fluent supply chain roles (per SCM Talent Group's Indeed-derived seniority mix) | Fast |
-| Traditional, standalone logistics-manager job titles | Slow | Hybrid AI-oversight titles — predictive logistics manager, AI forecast coach, warehouse AI specialist | Medium |
-| AI/digital-tools content treated as elective-only, outside the compulsory core (mirrors this program's own C3 finding) | Slow (structural, institution-level) | Baseline AI/IoT literacy expected of supply chain managers entering an occupation with a JSA-reported 5.9/10 exposure score | Fast |
-| Purely operational, execution-focused procurement work | Medium | Judgement-intensive AI-reliance defence and ethical sourcing decision-making (per CIPS-quoted practitioners) | Medium |
-| A uniform "AI as job destroyer" narrative | Slow | Cautious, incremental adoption framing among senior executives ("the juice has to be worth the squeeze") | Slow |
+
+| Skill | Direction | Rationale |
+|---|---|---|
+| Mid-to-senior, AI-fluent supply chain roles (vs. entry-level hiring volume) | **↑↑ Rising sharply** | Theme 2 (§3) — a Gartner survey of 509 global leaders (fielded Jul–Oct 2025) found 55% expect agentic AI to reduce entry-level hiring and 51% expect workforce reductions overall, while SCM Talent Group's Indeed-derived analysis found 85% of AI-related supply-chain openings in 2025 targeted mid-to-senior roles. Named directly in the report's own rising column at Fast velocity. |
+| Baseline AI/IoT literacy for supply chain managers entering a 5.9/10-exposure occupation | **↑↑ Rising sharply** | Theme 1 (§3) — a JSA-reported 5.9/10 Gen AI exposure score (53% automation, 74% augmentation) and a CMU-affiliated study finding over 90% of US logistics-manager tasks susceptible to AI, against C3 held at level 1 because AI/digital-tools content sits only in an elective (MGMT90267) — the one Discipline Core unit naming AI shows no confirmed AI-specific assessed content. |
+| AI-augmented planning and demand-forecasting judgement (system oversight, exception handling) | **↑ Rising** | Named directly in the report's own rising column at Fast velocity, consistent with JF-1's (§1) MEDIUM substitution pressure and "cross-functional systems thinking, exception-handling judgement" as its rising skill. |
+| Judgement over AI or peer output, and professional communication to a real external audience | **↑ Rising** | Theme 3 (§3, bearing C2 and W1) — both items rest on the same optional Capstone-route evidence, meaning "no genuinely compulsory unit gives students assessed practice in critiquing AI or peer output" at precisely the moment named CIPS practitioners diverge sharply on the profession's own trajectory (CI-2). |
+| Judgement-intensive AI-reliance defence and ethical sourcing decision-making | **↑ Rising** | Named directly in the report's own rising column at Medium velocity, grounded in Theme 3's (§3) CIPS-quoted practitioners debating AI-reliance judgement in procurement — from a predicted "lights out" function by 2028 to "different jobs demanding different skills." |
+| Manual, entry-level supply chain and logistics coordination tasks (data entry, routine tracking) | **↓ Falling** | Named directly in the report's own declining column at Fast velocity. Theme 1 (§3) — the CMU-affiliated study found over 90% of US logistics-manager tasks susceptible to AI-driven automation, "nearly all classified as core rather than peripheral activities." |
+| Traditional, standalone logistics-manager job titles | **↓ Falling** | Named directly in the report's own declining column. Theme 3 (§3) — Inbound Logistics (November 2025) — reports industry experts expecting roles to evolve toward hybrid titles such as "predictive logistics manager" and "warehouse AI specialist." |
 
 ## 5. CURRICULUM IMPLICATIONS
 | # | Implication | Dimension | Action |

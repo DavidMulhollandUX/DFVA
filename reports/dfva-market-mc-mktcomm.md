@@ -57,16 +57,15 @@ Regulatory reports from [ACMA](https://www.acma.gov.au/) (2024) and [OAIC](https
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine press release writing, standard blog drafting, and basic social media copywriting
-- Manual social media scheduling and static audience sentiment dashboard compilation
-- Basic media monitoring and formulaic clip-book generation
-
-### Rising Demand
-- Evaluative judgement and override auditing of AI-generated communications copy and synthetic audience insights
-- Real-time PR crisis management under generative misinformation and deepfake threats
-- High-level corporate communications strategy, media diplomacy, and executive briefing defense
-- Algorithmic media ethics, ACMA/ACCC regulatory compliance, and consumer privacy governance
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative judgement and override auditing of AI-generated comms copy and synthetic insights | **↑↑ Rising sharply** | C2 scores 2/3 — campaign redevelopment and PR crisis tasks lack structured override and verification logs (CI-2). Theme 1 (§3) — *Public Relations Review* (January 2025) and *Journal of Communication* (2024) — hold that communicators need "real-time provenance verification, strategic rebuttals, and trust restoration" against synthetic media. |
+| Routine press-release writing, blog drafting and social-media copywriting | **↓↓ Falling sharply** | Named directly in the Declining Demand list. Signal 3 (§2) reports 95.17 automation exposure across routine press releases, basic copywriting and social-media scheduling. |
+| Real-time PR crisis management under generative misinformation and deepfake threats | **↑↑ Rising sharply** | Signal 2 (§2) — organisations are actively recruiting leads equipped to manage "instantaneous reputational crises provoked by AI-generated misinformation, synthetic media, and volatile social algorithms," the same evidence underlying Theme 1 (§3). |
+| Human-AI task division in narrative strategy | **↑ Rising** | C1 scores 2/3 — collaborative campaign projects lack a formal human-AI task allocation protocol (CI-1). Theme 2 (§3) — CPRA and IABC (2024) — hold that humans "retain exclusive authority over ethical framing, empathetic messaging, and executive stakeholder alignment" while AI handles variant drafting. |
+| Manual social-media scheduling and static sentiment-dashboard compilation | **↓ Falling** | Named directly in the Declining Demand list. |
+| High-level corporate communications strategy, media diplomacy and executive briefing defense | **→ Stable, differentiating** | §1's Strategic Communications, PR & Corporate Affairs family carries HIGH substitution pressure on routine tasks, yet "human brand narrative framing" persists; Signal 1 (§2) frames the professional focus shifting "toward strategic curation, tone-of-voice alignment, and ethical oversight" — the enduring core rather than a newly emergent skill. |
+| Algorithmic media ethics, ACMA/OAIC/ACCC regulatory compliance | **↑ Rising** | C3 scores 2/3 — algorithmic media bias, deepfakes and surveillance-communications ethics are unassessed across the core (CI-3). Theme 3 (§3) — ACMA and OAIC (2024) — report rising compliance burdens on algorithmic profiling and dark patterns. |
 
 ---
 

@@ -58,16 +58,18 @@ Standards from the [Dental Board of Australia](https://www.dentalboard.gov.au/) 
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual unassisted visual-only radiographic screening
-- Manual appointment scheduling and paper clinical charting
-- Pure didactic biomedical memorisation without clinical application
-
-### Rising Demand
-- Evaluative verification and audit of AI-assisted diagnostic radiographs and 3D intraoral scans
-- Digital workflow integration (CAD/CAM chairside milling, guided implant surgery)
-- Complex multidisciplinary treatment planning for aging and medically compromised patients
-- Empathetic chairside communication and trauma-informed patient management
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-assisted diagnostic-imaging interpretation literacy | **↑↑ Rising sharply** | The prior skill-shift table recorded this rising at HIGH velocity, and Signal 2 (§2) confirms corporate dental groups now list AI-assisted diagnostics as a standard practice-technology feature, while CI-1 finds no explicit curriculum coverage — the companion assessment scores AI Literacy and Governance 1/3. |
+| AI governance and ethics literacy for supervising diagnostic and treatment-planning tools | **↑↑ Rising sharply** | The prior skill-shift table recorded this rising at HIGH velocity from a MEDIUM-declining baseline of no AI-governance exposure, matching the companion assessment's finding that "no explicit AI/governance curriculum content is evidenced in the handbook text" (D5, 1/3). |
+| Ambient-scribing tool supervision and accuracy review | **↑ Rising** | The prior skill-shift table recorded this rising at MEDIUM velocity as manual clinical-note transcription declines at HIGH velocity in its place. |
+| AI-cross-checked diagnostic confidence assessment as standard practice | **↑ Rising** | The prior skill-shift table recorded this rising at MEDIUM velocity, consistent with Signal 2's framing of AI diagnostic tools as an increasingly standard adjunct in general practice. |
+| Original clinical research design and defence | **↑ Rising** | The compulsory research project already scores 3/3 on Research Methods Rigour, but CI-4 notes it is not yet linked to the AI-evidence evaluation skills graduates will need to assess emerging dental AI tools. |
+| Demand for transparent, granular graduate outcome data | **→ Stable, differentiating** | The companion assessment scores Graduate Outcome Evidence 1/3 because the handbook text contains no destination or employment data, and CI-3 flags this as undermining the program's ability to demonstrate its otherwise strong labour-market durability. |
+| Rural and regional structural workforce demand as a positioning asset | **→ Stable, differentiating** | Signal 1 and Signal 7 (§2) describe chronic undersupply outside major metro centres sustained by relocation incentives and rural workforce schemes independent of AI trends, which CI-5 flags as an under-leveraged positioning asset. |
+| Manual clinical note transcription | **↓ Falling** | The prior skill-shift table recorded this declining at HIGH velocity, opposite the MEDIUM-rising ambient-scribing supervision skill above. |
+| Manual appointment scheduling and administration | **↓↓ Falling sharply** | The prior skill-shift table recorded this as one of the fastest-declining skills (HIGH velocity), and Signal 5 (§2) confirms the automatable layer sits in practice-admin roles, not clinical ones. |
+| Paper-based patient record management | **↓↓ Falling sharply** | The prior skill-shift table recorded this declining at HIGH velocity in favour of digital and AI-integrated record-system fluency. |
 
 ---
 

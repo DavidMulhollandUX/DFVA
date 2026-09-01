@@ -61,20 +61,18 @@ Accreditation reviews from the [HGSA Board of Censors](https://www.hgsa.org.au/g
 
 ---
 
-## 4. SKILL SHIFT SUMMARY
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-### Declining Demand
-- Standalone karyotype-only interpretation
-- Paper-based pedigree drawing without digital tools
-- Isolated single-gene testing paradigms without multi-gene panel context
+Note: §3 for this program is a salary/demand-trend table rather than sourced discussion
+themes, so rows below ground in §1/§2 signals and the companion Panel C v4.2 evidence instead.
 
-### Rising Demand
-- Whole-exome and whole-genome sequencing (WES/WGS) result interpretation and VUS communication
-- Evaluative verification and audit of AI-assisted variant classification platforms
-- Polygenic risk score communication and familial cascade testing management
-- Empathetic psychosocial counselling under complex reproductive and oncological distress
-
----
+| Skill | Direction | Rationale |
+|---|---|---|
+| Whole-genome and whole-exome sequencing / multi-gene panel interpretation | **↑↑ Rising sharply** | This section's own prior Rising Demand list and Signal 4 (§2, dual-skilled "genomics generalist" roles) both name broad sequencing literacy as the fastest-rising requirement; the companion evidence already shows C4 and C5 at 3/3 — the compulsory capstone trains a self-scoped, defended primary-research project. |
+| AI-assisted variant curation with mandatory human sign-off | **↑ Rising** | Signal 4 (§2) documents diagnostic labs adopting AI-assisted classification tools (Fabric Genomics, Emedgene, Franklin) while requiring human sign-off; C3 scores 0/3 — no digital or AI content appears in any core unit, so the program does not yet teach the governance layer already in clinical use. |
+| Telehealth and hybrid counselling delivery | **↑↑ Rising sharply** | Signal 2 (§2) reports telehealth specified as a required, not preferred, competency in post-COVID job ads, including remote-first rural roles; W3 scores 3/3 via the compulsory year-long Clinical Practice placement (PAED90020, 48 days), which already assesses this delivery mode under supervision. |
+| Criterion-referenced appraisal of AI-assisted variant classification | **→ Stable, differentiating** | C2 scores 2/3 on an existing structured-critique task (HLTH90014's paper critique) and a competency portfolio judged against HGSA standards; no core assessment yet extends that appraisal to AI-tool reliance decisions specifically, which Signal 4 identifies as increasingly required. |
+| Standalone karyotype interpretation (cytogenetics-only) | **↓↓ Falling sharply** | This section's own prior Declining Demand list places single-gene and cytogenetics-only focus among the fastest-declining skills, superseded by multi-gene panel and polygenic-risk interpretation. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

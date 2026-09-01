@@ -58,17 +58,17 @@ This supports the requirement for authentic, practice-based inquiry and evaluati
 
 **Bearing:** C1, C5, W2, and W3.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Paper-based and unintegrated clinical documentation | Fast | Electronic Medical Record (EMR) integration and digital workflow mastery | Fast |
-| Passive consumption of clinical research evidence | Medium | Critical appraisal, evidence synthesis, and structured clinical translation | Medium |
-| Isolated, siloed task execution within single nursing units | Medium | Interprofessional collaboration, clinical leadership, and systems thinking | Fast |
-| Uncritical reliance on standard protocols without local context evaluation | Slow | Clinical risk governance, root cause analysis, and quality improvement design | Medium |
-| Tool-level administrative data entry | Fast | Critical evaluation of Clinical Decision Support Systems (CDSS) and AI outputs | Fast |
-| Fragmented verbal handovers without structured protocols | Fast | Structured clinical communication (ISBAR), defended clinical proposals, and oral advocacy | Medium |
-| Prescriptive specialty care without patient-centred co-design | Medium | Advanced patient-centred care planning and chronic disease navigation | Fast |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Critical evaluation of Clinical Decision Support Systems (CDSS) and algorithmic bias | **↑↑ Rising sharply** | Theme 2 (§3): the ADHA national digital-health capability framework (March 2026) and the ACN AI position statement (2024) require advanced nurses to critique CDSS, data provenance and bias, not merely operate digital tools. C3 scores only 1/3 — digital tools appear as elective content or tool operation in NURS90120, and no core unit assesses AI capabilities and limitations. |
+| Non-delegable clinical accountability for AI-assisted decisions | **↑↑ Rising sharply** | Theme 1 (§3): the Ahpra and National Boards joint AI principles (August 2024) establish that practitioners remain legally accountable for every AI-assisted diagnosis or decision. C2 scores 2/3 — peer-review appraisal is assessed in NURS90069, but no unit requires students to document and justify reliance decisions against AI or CDSS outputs. |
+| Primary clinical inquiry and empirical evidence generation | **↑ Rising** | Theme 3 (§3): Woods et al. (2026) find durable practice change needs authentic, workflow-integrated inquiry, and Signal 5 (§2) shows expanding VCCC clinical-trial nurse roles requiring GCP compliance and structured evidence generation. C5 scores only 1/3, because primary data collection sits in the optional Research stream (NURS90164/165) rather than the compulsory core. |
+| Interprofessional leadership and coordinated clinical governance | **↑ Rising** | Signal 2 (§2): Nurse Unit Manager postings routinely require postgraduate leadership qualification and incident root-cause-analysis competence. C1 scores 2/3 — the NURS90069 group project assesses collaborative leadership, but stops short of assessing coordination across people AND automated systems, the exact gap Theme 3 (§3) names. |
+| Structured, defended clinical reporting (incident review, QI proposals) | **→ Stable, differentiating** | W1 and W2 both score 2/3: core units NURS90086 and NURS90070 already assess professional-genre reporting and oral defence, a durable programme baseline rather than a fast-moving target — though Level 3's external-practitioner judging is not yet reached. |
+| Tool-level administrative data entry and paper-based documentation | **↓ Falling** | Existing declining-demand finding, reinforced by Signal 3 (§2): EMR integration and digital-workflow mastery are now non-negotiable baseline requirements across every major Victorian health network, displacing manual and paper-based documentation. |
+| Isolated, siloed task execution within a single nursing unit | **↓↓ Falling sharply** | Existing declining-demand finding, echoed in Theme 3 (§3)'s call for workplace governance and multidisciplinary evidence translation: interprofessional collaboration and systems thinking are rising fast as clinical leadership expectations broaden beyond single-unit practice. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

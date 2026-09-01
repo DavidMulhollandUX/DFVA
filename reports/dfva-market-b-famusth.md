@@ -48,16 +48,14 @@
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Unassisted routine scheduling, sheet music collation, and basic rehearsal track transposition
-- Routine vocal warm-up track cutting and manual administrative distribution
-- Unreflective reliance on synthetic audition prep material
-
-### Rising Demand
-- Live, embodied Triple Threat vocal, dance, and dramatic performance under live audience conditions
-- Critical evaluation and taste judgement over AI-generated librettos, chord charts, and lyric iterations
-- Voice and likeness digital-replica rights awareness and contractual consent management
-- Collaborative interpersonal ensemble communication and rehearsal leadership
+| Skill | Direction | Rationale |
+|---|---|---|
+| Critical evaluation and taste judgement over AI-generated creative material | **↑↑ Rising sharply** | Theme 1 (§3) names evaluative judgement about AI-generated material — taste, originality, rights — as the resilient skill as task execution of drafts compresses; C2 scores 2/3 — creative development and cabaret projects use digital tools without assessed critical appraisal of AI-assisted output. |
+| Voice/likeness digital-replica rights awareness and consent management | **↑↑ Rising sharply** | Theme 3 (§3) frames digital replacement and rights as the contested frontier, citing training-pipeline collapse and explored on-stage digital replacement; C3 scores 1/3 — no assessed instruction on digital voice-cloning ethics or replica protections exists in the core. |
+| AI-assisted production/stage-management workflow tooling | **↑ Rising** | Theme 2 (§3) and Signal 2 (§2) report stage managers adopting AI to organise notes and streamline scheduling as a workflow aid rather than a creative replacement. |
+| Live, embodied Triple Threat vocal, dance, and dramatic performance | **→ Stable, differentiating** | The Job Family Map rates this LOW substitution pressure — live embodied performance is the product itself, with synthesis tools only assisting preparation. |
+| Unreflective reliance on synthetic audition prep material | **↓ Falling** | Theme 1 (§3) contrasts this against the rising evaluative-judgement skill: as taste and originality assessment become the differentiator, uncritical use of synthetic prep material loses value. |
+| Routine scheduling, sheet music collation, and rehearsal-track transposition | **↓↓ Falling sharply** | The Job Family Map notes admin work compresses for production/stage management while live show-calling stays human, and Signal 2 (§2) confirms stage managers already using AI for exactly this organisational work. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

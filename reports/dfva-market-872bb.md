@@ -57,16 +57,13 @@ Standards from [AVBC](https://avbc.org.au/) and [ANZCVS](https://www.anzcvs.org.
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual film radiography and chemical developing
-- Basic veterinary practice without diagnostic imaging AI verification literacy
-- Siloed clinical practice without multidisciplinary hospital team communication
-
-### Rising Demand
-- Advanced specialist clinical procedures and multi-modal anaesthetic monitoring
-- Supervised veterinary AI diagnostic imaging and digital cytology interpretation
-- Structured clinical research methodology and empirical scientific publication
-- Compassionate end-of-life and critical care communication with animal owners
+| Skill | Direction | Rationale |
+|---|---|---|
+| Supervised veterinary AI diagnostic imaging and digital cytology interpretation | **↑↑ Rising sharply** | Theme 1 (§3) — the AVA (November 2024) and *Australian Veterinary Journal* (December 2024) note AI tools now assist rapid pattern detection on thoracic radiographs and cytology while clinicians retain sole statutory liability for diagnostic accuracy, yet C3 scores 1/3: digital and AI competencies are limited to generic database searching. |
+| Structured clinical research methodology and empirical scientific publication | **↑ Rising** | Signal 3 (§2) and Theme 3 (§3) — ANZCVS residency standards demand structured clinical case logs and peer-reviewed publications, while CI-4 (§5) notes C4 scores 2/3: the thesis project is arranged by supervisors rather than independently self-scoped by the candidate. |
+| Multidisciplinary hospital team communication and emergency handover coordination | **→ Stable, differentiating** | Theme 2 (§3) — ANZCVS reporting describes residents and specialists operating in multidisciplinary hospital teams requiring collaborative communication, yet C1 scores 1/3: core assessments do not evaluate collaborative team practice anywhere in the extract. |
+| Siloed clinical practice without multidisciplinary hospital team communication | **↓ Falling** | W1 scores 1/3 — assessment is dominated by written exams and thesis work without external practitioner evaluation, leaving siloed academic performance without the externally judged, team-based practice the profession is moving toward. |
+| Manual film radiography and chemical developing | **↓↓ Falling sharply** | Signal 2 (§2) reports hospitals integrating AI imaging triage platforms (SignalPET, Vetology AI) in place of manual film reading, while W2 scores 1/3 — assessment remains dominated by written exams rather than authentic imaging-based case work judged by external practitioners. |
 
 ---
 

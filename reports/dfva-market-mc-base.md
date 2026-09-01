@@ -57,16 +57,15 @@ Standards from [SVA](https://www.socialventures.com.au/) confirm that a substant
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Input/output activity counting without outcome attribution
-- Narrative-only grant applications lacking verified impact metrics
-- Siloed charity management without commercial viability modeling
-
-### Rising Demand
-- SROI and mixed-methods impact measurement methodology
-- Blended finance structuring and outcomes-based contracting
-- Corporate ESG materiality and ISSB sustainability reporting
-- AI data analytics governance and ethical emerging-tech strategy
+| Skill | Direction | Rationale |
+|---|---|---|
+| Rigorous impact evaluation and attribution design | **↑↑ Rising sharply** | Theme 3 (§3): a vocal sector backlash against "measurement theatre" — SROI calculations without genuine attribution, or Theory of Change documents that satisfy funders without driving learning — means employers now want graduates who can distinguish rigorous evaluation from compliance performance. D7 (research methods rigour) scores only 1/3 — no compulsory minor thesis or empirical/causal-evaluation capstone exists. |
+| Blended finance and outcomes-contracting literacy | **↑↑ Rising sharply** | Theme 5 (§3): Impact Investing Australia, SVA and the Centre for Social Impact all run professional-development programs to close blended-finance literacy gaps, and Signal 6 (§2) shows hybrid "ventures lead" titles growing from near-zero in 2021 to a visible Melbourne/Sydney/Canberra cohort by 2025. D3 (technical and quantitative depth) scores only 1/3 — financial modelling and SROI/econometric methods are thin or absent from the compulsory core. |
+| AI-assisted grant writing and impact reporting, applied with funder-context judgement | **↑ Rising** | Theme 6 (§3): the use of LLMs in grant applications and acquittal reports is live and contested in Australian NFP networks, with funders actively updating guidelines on permitted use. Signal 7 (§2) records an estimated 3x YoY rise in ads specifying this from a low base. D5 (AI literacy and governance) scores only 1/3 — no dedicated AI-governance content exists. |
+| NDIS-literate, policy-aware social enterprise operating knowledge | **↑ Rising** | Theme 2 (§3): the 2025–26 NDIS review is reshaping disability social enterprise, and professionals who understand both the policy reform and the operating model are described as in scarce supply and high demand. |
+| Stakeholder engagement and community relationship capability | **→ Stable, differentiating** | D8 (human and relational capability) scores 3/3, described in the program's own rationale as "the least automatable capability in the sector" — a durable structural strength, though Theme 1 (§3)'s mission-drift tension means graduates must keep applying it under increasingly commercial mandates. |
+| Input/output reporting without outcome attribution | **↓↓ Falling sharply** | Existing declining-demand finding: displaced very fast by outcome and attribution-based evaluation design. D1 (automation exposure) scores only 1/3 because "research, reporting, grant writing, impact-report production" are exactly the tasks now absorbed by AI research and writing tools. |
+| Single-sector (NFP-only) career framing | **↓ Falling** | Existing declining-demand finding, reinforced by Theme 7 (§3): professional discourse increasingly frames social-enterprise careers as spanning NFP, government, corporate and startup contexts within a single arc, rather than a permanent sector commitment. |
 
 ---
 

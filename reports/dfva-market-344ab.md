@@ -58,16 +58,15 @@ Monographs from [ANZSOG](https://anzsog.edu.au/) (2024/2025) underline the neces
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine descriptive literature summaries without strategic synthesis
-- Passive administrative record collation without policy framing
-- Unchecked reliance on template policy briefing notes
-
-### Rising Demand
-- Evaluative verification and governance of AI-assisted policy drafts
-- Multi-agency collaborative negotiation and genuine community co-design
-- Authentic cabinet submission drafting and live ministerial briefing under time pressure
-- Defended program evaluation methodologies and econometric impact analysis
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative verification and governance of AI-assisted policy drafts | **↑↑ Rising sharply** | C2 and C3 both score 1/3 — evaluative judgement and digital policy content sit outside the compulsory core (digital policy is elective), while Theme 1 (§3, ANZSOG November 2024/*AJPA* February 2025) warns that uncritical LLM reliance risks statutory misinterpretation and automated bias under administrative law. |
+| Multi-agency collaborative negotiation and community co-design | **↑ Rising** | Theme 2 (§3, IPAA/APSC): political acumen and cross-sector negotiation are the discipline's most durable, automation-resilient capabilities; C1 scores 1/3, since core assessments remain individual academic papers with no assessed collaborative practice. |
+| Authentic cabinet submission drafting and ministerial briefing | **↑ Rising** | W1 and W2 both score 1/3 — core assessments produce academic essays rather than the authentic policy instruments (cabinet submissions, ministerial briefings) practitioners actually write. |
+| Defended primary policy research | **→ Stable, differentiating** | C4 and C5 both score 2/3 — the compulsory capstone structure already requires application beyond the taught case and assessed methodology selection with staged supervision, though the required, externally defended primary-evidence project is only one of three capstone routes. |
+| Live in-practice policy learning | **→ Stable, differentiating** | W3 scores 1/3 — the Executive Internship is a genuine placement with senior-manager supervision, but it is one of three electable capstone streams rather than a core requirement, and the cohort is not documented as already practising for the in-practice route to apply. |
+| Unchecked reliance on template policy briefing notes | **↓↓ Falling sharply** | Theme 1 (§3): generative AI already accelerates first-pass brief drafting across public sector agencies, raising expectations for officers who can audit algorithmic summaries against primary administrative data, a capability C3's 1/3 score shows is not yet compulsory. |
+| Routine descriptive literature summaries without strategic synthesis | **↓ Falling** | Signal 2 (§2): public sector agencies and consultancies already deploy generative AI for background literature scanning, a task the market report names as displaced by the evaluative, synthesis-driven capability C2's low score shows is not yet assessed in the core. |
 
 ---
 

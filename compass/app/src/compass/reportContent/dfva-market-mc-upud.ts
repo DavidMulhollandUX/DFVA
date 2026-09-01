@@ -61,13 +61,13 @@ Both are single-author opinion pieces — the first by a former program intern r
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-| --- | --- | --- | --- |
-| Routine permit-completeness / code-compliance checking | Fast | Human review and override judgment on automated screening decisions | Fast |
-| Manual meeting transcription and notetaking | Medium | AI-tool literacy for planning administrative workflows | Medium |
-| Wholly manual first-pass design-layout drafting | Medium | Critical evaluation and defence of AI-generated design proposals under jury review | Fast |
-| Manual tree-canopy / GIS measurement from imagery | Medium | Oversight of satellite-imagery and machine-learning measurement outputs | Medium |
-| Unreviewed, unquestioned reliance on generative-AI outputs in planning or design work | Slow | Documented critical-thinking safeguards against AI overreliance (as urged by APA commentary) | Slow |
+| Skill | Direction | Rationale |
+| --- | --- | --- |
+| Human review and override judgment on automated permit/zoning screening decisions | **↑↑ Rising sharply** | Theme 2 (§3) reports US cities deploying AI permit-completeness screening, but a Denver council member is quoted objecting that it cannot handle complex zoning judgment; W1 currently produces assessments from scratch rather than reviewing an automated one. |
+| Critical evaluation and defence of AI-generated design proposals under jury review | **↑ Rising** | Theme 4 (§3) reports APA and architect commentary warning generative-AI design proposals can look prematurely resolved; C2 currently credits peer/self-review without judging AI-assisted output quality. |
+| Discretionary statutory and zoning judgment | **→ Stable, differentiating** | Theme 2 (§3) quotes a Denver council member stating AI cannot handle complex zoning judgment — exactly the discretionary function that resists the administrative automation Themes 1–3 describe. |
+| Manual meeting transcription and notetaking | **↓↓ Falling sharply** | Theme 1 (§3) reports planning departments adopting AI tools for meeting transcription among other administrative tasks. |
+| Manual tree-canopy / GIS measurement from imagery | **↓ Falling** | Theme 1 (§3) reports AI tools already used for tree-canopy measurement from satellite imagery in named planning departments. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

@@ -58,16 +58,16 @@ Discourse across [ACFID](https://acfid.asn.au/) and regional climate networks em
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Top-down blueprint project planning without local community ownership
-- Manual survey data tallying without modern mobile digital platforms
-- Abstract theoretical development essays lacking operational policy application
-
-### Rising Demand
-- Participatory co-design, GEDSI integration, and decolonial power-sharing
-- Digital MERL tools (KoboToolbox), AI data auditing, and digital data sovereignty
-- Adaptive program management and anticipatory disaster financing
-- Authentic policy briefs and donor investment designs defended under scrutiny
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI data auditing and digital sovereignty governance in MERL | **↑↑ Rising sharply** | C3 scores 0/3 — no core unit, intended learning outcome or assessment in the extract mentions AI or digital tools at all; Theme 2 (§3, DSAA/*World Development* January 2025) warns against uncritical AI adoption in the Global South given training-data gaps and hallucinated beneficiary sentiment. |
+| Criterion-referenced evaluation of AI-assisted development outputs | **↑↑ Rising sharply** | C2 scores 1/3 — reflection and critique appear in outcomes (DEVT90009's Reflexive critique, 30%) but no core assessment applies published criteria to the quality of work; Theme 2 names sharp evaluative judgement as the discipline's response to LLM deployment in evaluation. |
+| Participatory co-design and decolonial power-sharing | **↑ Rising** | Theme 1 (§3, ACFID 2024/2025 Code of Conduct/Development Policy Centre): practitioners must shift from external expert to relational facilitator; C1 scores 2/3 — assessed group work with individual accountability exists in the core, but no assessment allocates work between people and tools, the level-3 requirement. |
+| Adaptive program management under climate and disaster uncertainty | **↑ Rising** | Theme 3 (§3, ACFID/regional climate networks): anticipatory climate finance and adaptive social protection demand navigating deep uncertainty; C4 scores 2/3, applying case variation to novel problems but falling short of the self-scoped-progression anchor since only one of three capstone streams is documented as self-scoped. |
+| Authentic donor project design and MERL framework delivery | **↑ Rising** | W2 was demoted to 1/3 on adversarial verification — the compulsory spine documents only essays and research papers, and the strongest project-proposal evidence (DEVT90001/DEVT90035) sits in an electable capstone stream a student may never enter. |
+| Policy brief and briefing paper writing to a professional genre | **→ Stable, differentiating** | W1 scores 2/3 — the compulsory DEVT90058 assesses a policy brief or briefing paper (40%) to a recognised professional genre, a durable skill already embedded in one entry point's core, though not yet judged by an external practitioner. |
+| Abstract theoretical essays lacking operational application | **↓ Falling** | C5 scores 1/3 — the program documents introductory research design (a research-design essay) but no assessed fieldwork or data collection, and the thesis route requires no viva or methodology defence, leaving inquiry capability at the introductory level even as the sector demands operational MERL evidence. |
+| Top-down blueprint planning without local ownership | **↓↓ Falling sharply** | Theme 1 (§3): the sector's Grand Bargain-era consensus has moved decisively to localization; W3 scores 1/3, since work-situated learning exists only as an electable internship stream, leaving no compulsory pathway that assesses local partner co-design in practice. |
 
 ---
 

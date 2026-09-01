@@ -50,18 +50,15 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual literature review/synthesis | FAST | AI-assisted synthesis + critical verification | FAST |
-| Generic content/curriculum drafting | FAST | Evidence-based learning design judgment | MEDIUM |
-| Routine qualitative coding (manual) | MEDIUM | AI-assisted coding with methodological oversight | MEDIUM |
-| Standalone theoretical/desk-based theses | MEDIUM | Applied, primary-data / intervention-based research | MEDIUM |
-| Generalist "education researcher" positioning | SLOW | Specialised methodological expertise (causal inference, learning analytics, M&E) | FAST |
-| Conference-paper-volume as a career signal | SLOW | Grant capture and policy/practice impact as career signal | MEDIUM |
-| Manual grant/report first-drafting | FAST | AI-augmented grant writing with strategic framing skill | FAST |
-| Siloed academic-only career pathway | SLOW | Practitioner-researcher / policy-researcher hybrid pathway | MEDIUM |
-| Basic statistical literacy | SLOW | Applied quantitative/data-science fluency (learning analytics, ML) | FAST |
-| Passive AI tool use | SLOW | AI governance and critical-evaluation literacy | FAST |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Applied quantitative/data-science fluency (causal inference, learning analytics) | **↑↑ Rising sharply** | Signal 6 (§2) names learning analytics as "a smaller but fast-growing niche" where "the generic education PhD often underprepares candidates," and CI-3 (§5) confirms no structured quantitative-methods stream currently exists. |
+| Evidence-based learning design judgment over content authoring | **↑ Rising** | Signal 3 (§2) reports EdTech postings increasingly listing "experience directing/evaluating AI-generated learning content" as a differentiator over content authoring itself, which CI-4 (§5) says the curriculum does not yet embed. |
+| Practitioner-researcher / policy-researcher hybrid pathways | **↑ Rising** | Signal 5 (§2) describes a growing "Head of Research and Innovation" role category for teacher-PhDs translating research into school-level practice change; CI-6 (§5) calls this a genuine, underleveraged differentiator. |
+| Program evaluation, causal inference and stakeholder communication for policy roles | **→ Stable, differentiating** | Signal 2 (§2) notes government education-policy roles continue recruiting research-doctorate holders with growing emphasis on program-evaluation and evidence-based-policy skill over generalist analysis. |
+| Generic content/curriculum drafting | **↓ Falling** | Signal 3 (§2): AI-generated learning content is displacing pure authoring work, shifting employer expectation toward tool evaluation and evidence-based design judgment instead. |
+| Manual literature review and synthesis | **↓ Falling** | The report's own confidence note (§2) is explicit that this section is structural reasoning, but the job-family map (§1) consistently pairs "AI-assisted-but-verified writing" with rising output expectations, implying the manual-only task is being absorbed. |
+| Conference-paper-volume as the primary academic career signal | **↓↓ Falling sharply** | Signal 1 (§2) reports hiring committees now requiring "evidence of external grant success or track record, not just thesis completion," as PhD output volume grows relative to open academic positions. |
 
 ---
 

@@ -57,16 +57,14 @@ Standards from [IPAA](https://www.ipaa.org.au/) confirm that authentic ministeri
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine essay writing and uncritical secondary literature summarisation
-- Basic press release and copywriting without generative AI fluency
-- Purely theoretical analysis without policy application or stakeholder context
-
-### Rising Demand
-- Generative AI prompt auditing, text verification, and ethical governance
-- Oral briefing, crisis communication, and stakeholder negotiation
-- Mixed-methods primary empirical research (interviews, field observations, surveys)
-- Public policy design, regulatory impact analysis, and Indigenous cultural safety
+| Skill | Direction | Rationale |
+|---|---|---|
+| Generative AI text verification and source-veracity auditing | **↑↑ Rising sharply** | Theme 1 (§3) reports policy officers retain accountability for verifying AI-generated brief veracity and consultation analysis; C3 scores 1/3 — AI appears only as subject-matter content in one elective Discovery option, never as assessed core content. |
+| Oral briefing and stakeholder-facing persuasion | **↑↑ Rising sharply** | Theme 2 (§3) and Signal 1 (§2) show Arts graduates working across cross-functional policy and comms teams requiring spoken negotiation; W1 scores 0/3 — every spoken deliverable in the extract sits in an elective work-integrated-learning subject, one of them marked unavailable in 2026, and no core Discovery subject assesses a presentation. |
+| Mixed-methods primary empirical research | **↑ Rising** | Theme 3 (§3) names primary social research as the employability benchmark for humanities graduates; C5 scores only 1/3 — just one of thirteen Discovery options (LING10002) documents students designing and collecting their own data. |
+| Critical argumentation and nuanced ethical/cultural analysis | **→ Stable, differentiating** | Signal 4 (§2) rates descriptive writing and secondary research near-total automation exposure (89.37) while naming critical argumentation, live stakeholder debate, and nuanced ethical analysis as the layer that stays essential precisely because of that automation. |
+| Basic press release and copywriting without generative AI fluency | **↓ Falling** | Signal 2 (§2) shows government agencies and PR consultancies now mandate critical generative-AI literacy as baseline, displacing unassisted drafting. |
+| Routine essay writing and uncritical secondary-literature summarisation | **↓↓ Falling sharply** | Signal 4 (§2) rates this exact work 89.37 substitution exposure, and C4 scores 1/3 — no core assessment requires application beyond the taught, summarised material. |
 
 ---
 

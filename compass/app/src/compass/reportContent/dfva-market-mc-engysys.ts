@@ -62,16 +62,13 @@ Research in [Energy Policy](https://www.sciencedirect.com/journal/energy-policy)
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Static thermal energy balance calculations without dynamic simulation
-- Basic single-asset financial models without stochastic market volatility
-- Single-discipline siloed engineering analysis without regulatory market awareness
-
-### Rising Demand
-- Inverter-based resource (IBR) grid stability modeling and dynamic voltage control
-- Techno-economic optimization of battery storage and hybrid renewable assets
-- Regulatory navigation of NEM transmission access rules and connection processes (Clause 5.3.4A)
-- Spoken presentation and defense of energy transition strategies to executive investment committees
+| Skill | Direction | Rationale |
+|---|---|---|
+| Inverter-based resource (IBR) grid stability modelling and dynamic voltage control | **↑↑ Rising sharply** | Theme 1 (§3) ties automated dispatch and power-flow tools directly to non-delegable human verification of grid inertia and voltage-collapse risk; C3 scores 1/3 — no core unit addresses AI dispatch or forecasting tool limits. |
+| Automated dispatch and forecasting model auditing (reliance/override judgement) | **↑↑ Rising sharply** | Theme 1 (§3) bears on C2, which scores 2/3 on criterion-referenced appraisal (ENGR90029, ENGR90028) but has no assessed reliance-and-override log for automated dispatch or renewable-forecasting models. |
+| NEM regulatory navigation and multi-stakeholder transition negotiation | **↑ Rising** | Theme 2 (§3) names interdisciplinary negotiation across landowners, TNSPs and regulators as central to transition delivery; W1 scores 2/3 — group and presentation work exists but no external market-authority panel judges it. |
+| Empirical microgrid and battery-degradation testing under low system strength | **↑ Rising** | Theme 3 (§3) requires primary empirical investigation of inverter-control interactions near 100% renewables; C5 scores only 1/3 — the guaranteed core path is set assignments, and the capstone that could close this (C4/C5) is WAM-gated and elective. |
+| Static thermal energy-balance calculation and basic single-asset financial modelling | **↓↓ Falling sharply** | Named directly in the existing Signal 3 (§2) as the routine arithmetic automated dispatch and generative analytics compress first, at 91.16 destination exposure. |
 
 ---
 

@@ -55,18 +55,17 @@ Guidance from [AIA](https://www.actuaries.asn.au/) highlights that the modern ac
 
 ---
 
-## 4. SKILL SHIFT SUMMARY
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-### Declining Demand
-- Manual chain-ladder claims reserving without automated pipeline validation
-- Deterministic spreadsheet mortality modeling without stochastic longevity analytics
-- Routine regulatory compliance filing without strategic capital interpretation
-
-### Rising Demand
-- Machine learning actuarial modeling (XGBoost/Neural Networks) with SHAP explainability
-- Climate risk modeling and physical catastrophe stress-testing under ASRS standards
-- Stochastic asset-liability management (ALM) and dynamic hedging algorithms
-- Executive risk communication and board-level fiduciary advocacy
+| Skill | Direction | Rationale |
+|---|---|---|
+| Python/R/SQL programming for actuarial modelling | **↑↑ Rising sharply** | Signal 3 (§2) reports over 60% of ANZ actuarial postings now require Python, R and SQL versus approximately 30% in 2023; CI-1 (§5) names this "the single largest employability gap" since the MC-ACTSC curriculum has no compulsory programming or data-science unit. |
+| Machine learning for predictive pricing and claims analytics | **↑ Rising** | Signal 2 (§2) shows "Data Scientist — Insurance" and "AI Specialist — Insurance" postings up 28% YoY in ANZ; Theme 2 (§3) frames the discussion as shifting from "should actuaries learn to code?" to "should actuarial degrees teach ML as a core subject?" |
+| AI governance and model-risk frameworks (APRA CPS 230) | **↑ Rising** | Theme 3 (§3) identifies APRA's CPS 230 and emerging AI-governance expectations as "the new regulatory frontier," while CI-4 (§5) confirms MC-ACTSC "has no dedicated governance or technology unit." |
+| Climate and ESG risk modelling | **↑ Rising** | Signal 4 (§2) links mandatory Australian climate-disclosure legislation (2025+) to net-new actuarial demand; CI-2 (§5) notes "no climate or sustainability content is present in the current MC-ACTSC curriculum." |
+| Professional regulatory judgment and capital-modelling sign-off | **→ Stable, differentiating** | The companion assessment's D6 Domain Depth score of 3/3 reflects the program's genuine strength here, and Signal 7 (§2) shows risk/compliance hiring "stable and increasingly technical" as APRA CPS 230 implementation sustains demand for accredited human sign-off. |
+| Manual spreadsheet-based reserving and routine pricing-model maintenance | **↓ Falling** | Signal 1 (§2) reports ANZ job ads for "Actuarial Analyst" and "Pricing Analyst" down approximately 12% YoY, consistent with the companion assessment's D1 Automation Exposure score of 1/3 — "the first 2-3 years of actuarial work are heavily procedural." |
+| Classic examination-technique-only actuarial training without a data-science elective | **↓↓ Falling sharply** | Theme 1 (§3) states "the traditional actuarial analyst role is compressing; the profession survives by moving up the value chain," and CI-3 (§5) warns the elective structure lets graduates "avoid data science pathways entirely," creating cohort-level employability variance at the point of market divergence. |
 
 ---
 

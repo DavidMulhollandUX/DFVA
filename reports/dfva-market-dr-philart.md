@@ -58,18 +58,15 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual literature summarisation | FAST | AI-output verification and fact-checking | FAST |
-| Routine transcription (clean typed sources) | FAST | Archival/paleographic judgment on ambiguous sources | SLOW |
-| Junior copyediting/proofreading | FAST | Senior editorial judgment on originality and integrity | MODERATE |
-| Entry-level research-assistant content drafting | MODERATE | AI literacy and critical AI-tool evaluation | FAST |
-| Generic literature-review writing | FAST | Original interpretive/theoretical contribution | STABLE |
-| Continuing academic positions (structural, pre-AI) | SLOW (long-term decline) | Policy and government research-analyst roles | MODERATE |
-| Print-first academic publishing pathways | MODERATE | Digital humanities / digital collections literacy | MODERATE |
-| Undifferentiated "general research skills" framing | MODERATE | Explicit skills-translation for non-academic careers | FAST |
-| Sessional teaching as sole career bridge | STABLE (persistently high reliance) | Corporate/strategy recruitment of PhD-qualified generalists | MODERATE |
-| Isolated, discipline-siloed research training | SLOW | Cross-disciplinary, public-facing research communication | MODERATE |
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-output verification and fact-checking | **↑↑ Rising sharply** | Signal 6 (§2) reports think tanks and NGOs "screening out AI-generated writing samples in application processes," and CI-4 (§5) names this the degree's underleveraged "verification layer" strength that current bridge roles do not yet convert into an explicit pathway. |
+| Explicit skills-translation and public-facing communication for non-academic careers | **↑ Rising** | Signal 5 (§2) describes strategy consulting and corporate communications employers increasingly listing a research doctorate as a differentiator for analyst roles; CI-5 (§5) notes graduates are not coached to market the credential this way. |
+| Digital collections and digital-humanities literacy | **↑ Rising** | Signal 4 (§2) shows museum, gallery and archive job ads increasingly pairing traditional curatorial training with digital-collections-management skills; CI-6 (§5) confirms this is not systematically taught. |
+| Original interpretive and theoretical contribution | **→ Stable, differentiating** | Job Family Map (§1) frames senior editorial judgment on originality and interpretive framing as the durable core across academic, editorial and think-tank pathways, unmoved by AI adoption in the surrounding drafting tasks. |
+| Manual literature summarisation | **↓ Falling** | Job Family Map (§1) records AI-assisted evidence synthesis with defensible sourcing rising across policy, NGO and academic families, displacing manual summarisation as a standalone billable skill. |
+| Junior copyediting and proofreading | **↓↓ Falling sharply** | Signal 3 (§2) describes "junior editorial and copyediting roles show declining ad volume consistent with AI copyediting tool adoption," while senior commissioning and editorial-judgment roles hold steady — a hollowing-out of the entry tier specifically. |
+| Continuing (tenure-track) academic positions as the default career framing | **↓ Falling** | Signal 1 (§2) documents a decade-long structural decline in continuing humanities academic appointments relative to PhD completions, independent of AI, with sessional/casual teaching absorbing the gap. |
 
 ---
 

@@ -46,13 +46,15 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Signal Value (Standalone) | Rising Signal Value |
-|---|---|
-| High-volume static asset production | Decision quality under ambiguity |
-| Template adaptation without rationale | Systems-level design and governance |
-| Tool operation without verification | AI workflow supervision and QA |
-| Surface-only portfolio polish | Evidence-backed research and impact metrics |
-| Isolated creative output | Cross-functional delivery and stakeholder alignment |
+
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI workflow verification and governance | **↑↑ Rising sharply** | The §3 theme "growing emphasis on verification and governance in AI-assisted creative workflows" is rated Increasing; D5 (AI Literacy and Governance) scores only 1/3 — governance and verification appear in market discourse but are not consistently embedded as a mandatory capability. |
+| Decision ownership and defended design choices under ambiguity | **↑↑ Rising sharply** | The §3 theme "designer as prompt operator vs designer as decision owner" is rated Strong and persistent; D4 (Decision-Making Under Uncertainty) scores only 2/3 — demand for defended trade-offs is rising while preparation remains partial and uneven. |
+| Hybrid design + data/systems technical literacy | **↑ Rising** | The §3 theme "interest in hybrid profiles (design + data + systems)" is rated Increasing; D3 (Technical and Quantitative Depth) scores only 1/3 — job-family signals increasingly favour hybrid technical literacy beyond current baseline undergraduate depth. |
+| Cross-functional stakeholder collaboration and critique | **→ Stable, differentiating** | D8 (Human and Relational Capability) scores 2/3, the scorecard's higher-scoring dimension, and the Service Design/CX row in §3's Market Evidence Snapshot names stakeholder-facing collaboration an established, not newly emerging, requirement. |
+| Isolated creative output without cross-functional alignment | **↓ Falling** | The §3 theme "concern about junior-role compression due to automation of repetitive tasks" is rated Frequent, consistent with employers favouring cross-functional delivery over isolated output. |
+| High-volume static asset production and template adaptation without rationale | **↓↓ Falling sharply** | D1 (Automation Exposure of Roles) scores only 1/3 — market signals show junior production tasks rapidly automated and bundled, the scorecard's most exposed dimension. |
 
 ## 5. CURRICULUM IMPLICATIONS
 1. Shift core assessment from artifact throughput to defended decision quality and trade-off reasoning.

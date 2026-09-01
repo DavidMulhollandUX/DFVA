@@ -58,16 +58,17 @@ Professional standards from [PsyBA](https://www.psychologyboard.gov.au/) (2024/2
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual pencil-and-paper norm calculation without digital platforms
-- Descriptive psychometric score reporting without qualitative cognitive analysis
-- Passive standalone testing without interprofessional medical team integration
-
-### Rising Demand
-- Evaluative critique and verification of digital cognitive test outputs and AI draft reports
-- Complex differential diagnosis in multi-pathology neurodegenerative cases
-- Medico-legal capacity assessment and cross-examination defensibility
-- Translational cognitive neuroscience trial design and multimodal data analysis
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-drafted report supervision and digital-artifact detection | **↑↑ Rising sharply** | C2 scores 1/3 — no core assessment includes criterion-referenced appraisal of quality; Theme 1 (§3, APS College of Clinical Neuropsychologists October 2024/ASSBI) names supervising automated report-drafting LLMs and detecting digital test artifacts as the discipline's rising defensibility skill. |
+| AI and digital governance literacy | **↑↑ Rising sharply** | C3 scores 1/3 — digital content in the compulsory core reaches tool-operation level only (virtual dissection, neuroimaging as a research method), with no assessed AI capabilities, limitations or governance content, against Theme 1's Q-interactive/automated-norming shift. |
+| Complex differential diagnosis in multimorbid neurodegenerative disease | **↑ Rising** | Theme 2 (§3, *Neuropsychological Rehabilitation* January 2025/APS CCN) names defended trade-off judgements differentiating pseudodementia, vascular impairment and neurodegenerative pathology; C4 already sits at the ceiling (3/3) on documented progression toward independent clinical reasoning. |
+| Interprofessional coordination across clinician and AI/digital system | **↑ Rising** | C1 scores 2/3 — assessed collaborative practice exists in two compulsory subjects, but no assessment allocates or appraises a division of work between people and tools, the step level 3 requires. |
+| Medico-legal report defensibility and cross-examination | **→ Stable, differentiating** | W1 sits at the ceiling (3/3) — professional communication assessed repeatedly and progressively, judged by field supervisors against practice standards; Theme 3 (§3, PsyBA 2024/2025) names authoritative, cross-examination-ready formulation as the discipline's core communication deliverable. |
+| Translational cognitive neuroscience research and thesis defence | **→ Stable, differentiating** | C5 sits at the ceiling (3/3) — a required, sole-basis-of-award thesis with methodology defended before a Thesis Advisory Committee, two external examiners and an oral viva. |
+| Supervised extended clinical placement | **→ Stable, differentiating** | W2 and W3 both sit at the ceiling (3/3) — the v4 report notes this is the only program in the twelve-program extension cohort to reach 9/9 on workplace practice. |
+| Descriptive psychometric score reporting without qualitative interpretation | **↓ Falling** | Theme 1 (§3): automated norms cannot replace clinical observation of qualitative problem-solving style or subtle symptom presentation — the descriptive-scoring layer digital batteries already absorb. |
+| Manual pencil-and-paper norm calculation | **↓↓ Falling sharply** | The C3 rationale documents manual test scoring and norm lookup declining Fast against AI-assisted report drafting rising Fast, and no compulsory subject currently teaches students to supervise the replacement tools. |
 
 ---
 

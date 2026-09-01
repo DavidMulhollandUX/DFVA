@@ -62,16 +62,13 @@ Standards from [AIPM](https://aipm.com.au/) confirm that authentic end-to-end pr
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual Gantt chart updates and routine administrative status reporting
-- Siloed technical project delivery without commercial and financial acumen
-- Static budgeting without predictive Monte Carlo risk simulation
-
-### Rising Demand
-- Predictive project management and AI-driven risk modeling (nPlan, Primavera AI)
-- Cross-functional agile team leadership and executive board communication
-- Sustainable engineering procurement, ESG frameworks, and circular economy analysis
-- Contract administration, claims management, and commercial risk mitigation
+| Skill | Direction | Rationale |
+|---|---|---|
+| Predictive project AI and algorithmic risk modeling | **↑↑ Rising sharply** | Theme 1 (§3) — PMI (November 2024) and *IEEE Transactions on Engineering Management* (December 2024) hold that engineering managers retain personal accountability for safety-critical stage gates even as machine-learning platforms forecast delay risk and optimise resource allocation, yet C3 scores 1/3: digital and AI literacy sits only in elective software assignments. |
+| Cross-functional agile team leadership and human-AI resource coordination | **↑ Rising** | Theme 2 (§3) — Engineers Australia reporting describes managers leading consortia requiring advanced human-AI resource management, while CI-2 (§5) notes C1 scores 2/3: assessed group work occurs in capstones but lacks a documented protocol allocating work across engineers and AI scheduling tools. |
+| Executive board communication and stakeholder pitching | **→ Stable, differentiating** | Signal 1 (§2) reports top infrastructure and tech employers recruiting for commercial acumen and cross-functional leadership, yet W1 scores 2/3: presentations and board reports are judged internally by teaching staff rather than external senior executives. |
+| Static budgeting without predictive Monte Carlo risk simulation | **↓ Falling** | C2 scores 1/3 — the program lacks criterion-referenced peer critique of project proposals, leaving students without the structured critique that would move planning practice beyond static budgeting toward audited, risk-adjusted models. |
+| Manual Gantt chart updates and routine administrative status reporting | **↓↓ Falling sharply** | Signal 4 (§2) reports rapid automation of administrative project coordination and status reporting (92.27 exposure), while C5 and W3 both score 0/3 — empirical inquiry and work-situated learning are completely absent, leaving no structured path beyond routine administrative tasks. |
 
 ---
 

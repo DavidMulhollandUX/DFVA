@@ -57,16 +57,15 @@ Policy reports from [ASIC](https://asic.gov.au/) (2024) and Safe Work Australia 
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine secondary market research and manual competitor profiling
-- Standard boilerplate strategic business memo and PowerPoint drafting
-- Basic manual operational reporting and non-automated spreadsheet tracking
-
-### Rising Demand
-- Evaluative judgement and override capability for AI strategic recommendations
-- Human-AI collaborative workflow design and agentic business process management
-- Board-level executive communication, client trust building, and high-stakes negotiation
-- Algorithmic workforce governance, ethical decision making, and ESG compliance
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative judgement and override of AI strategic recommendations | **↑↑ Rising sharply** | C2 scores 2/3 — strategic case analysis lacks structured override and hallucination-verification logs (CI-2). Theme 1 (§3) — AICD and *Harvard Business Review* (January 2025) — hold that executive judgement is essential to detect "hidden strategic blind spots, fabricated competitor data, and flawed assumptions" in AI-generated scenarios. |
+| Routine secondary market research and manual competitor profiling | **↓↓ Falling sharply** | Named directly in the Declining Demand list. Signal 3 (§2) reports 90.73 automation exposure across routine corporate reporting and market-research synthesis. |
+| Human-AI collaborative workflow design and agentic business-process management | **↑ Rising** | C1 scores 2/3 — collaborative board projects lack a formal human-AI task allocation protocol (CI-1). Theme 2 (§3) — AIM and CMI (2024) — call for managers to structure workflows dividing AI data extraction from human strategic governance. |
+| Algorithmic workforce governance and ethical/ESG compliance | **↑↑ Rising sharply** | C3 scores 2/3 — algorithmic governance is unassessed across the core (CI-3). Theme 3 (§3) — ASIC and Safe Work Australia (2024) — describe statutory obligations to audit automated performance tracking and prevent algorithmic discrimination. |
+| Cross-stakeholder negotiation and ethical leadership under ambiguity | **→ Stable, differentiating** | §1's General Management & Enterprise Leadership family carries only MODERATE substitution pressure, with "cross-stakeholder negotiation, ethical leadership, enterprise capital allocation under ambiguity" named as the enduring skill set rather than one newly accelerating. |
+| Standard boilerplate strategic memo/PowerPoint drafting and manual spreadsheet reporting | **↓ Falling** | Named directly in the Declining Demand list. |
+| External, industry-assessed capstone consulting practicum | **↑ Rising** | W1 scores 2/3 (Capstone Board Reports evaluated internally, without external corporate boards) and W3 scores 1/3 (Business Practicum is elective rather than universal). CI-4 and CI-5 call for external director panels and live client strategic-consulting briefs. |
 
 ---
 

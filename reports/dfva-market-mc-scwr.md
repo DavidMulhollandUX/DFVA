@@ -120,18 +120,16 @@ quantifies how many showrunner roles go unfilled.
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Unassisted script coverage writing (first-pass reading) | Fast | AI-tool direction and editorial review of AI-generated drafts | Fast |
-| Linear single-platform format expertise only | Medium | Multi-platform and transmedia narrative architecture | Fast |
-| Cold pitch without data-informed development | Slow | Pitch decks supported by audience/market data literacy | Medium |
-| Spec script as primary calling card | Medium | Produced credits supplemented by digital portfolio (web series, podcast, game writing) | Fast |
-| Manual continuity and breakdown documentation | Fast | Integrated production software literacy (Movie Magic, StudioBinder, Arc Studio) | Medium |
-| Sole reliance on broadcast commissioning pathway | Medium | Streaming co-production, independent platform, and hybrid commissioning literacy | Fast |
-| Monolingual and monocultural story competency | Slow | Cross-cultural narrative adaptation and First Nations cultural competency | Medium |
-| Writers' room avoidance (auteur-only model) | Medium | Writers' room collaboration, notes culture, and head-writer readiness | Medium |
-| Passive IP transfer (sell and step away) | Slow | IP ownership literacy, co-production treaty knowledge, rights retention strategies | Medium |
-| Feature film as default career aspiration | Slow | Series, limited series, and interactive narrative as primary career targets | Fast |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Narrative design and interactive story tools (Ink, Twine, Articy Draft 3) | **↑↑ Rising sharply** | Signal 1 (§2) reports "Narrative Designer" and "Game Writer" listings growing 18–22% year-on-year while traditional screenwriter listings stay flat, and CI-2 (§5) flags this as "the fastest-growing employer segment for screenwriting graduates in ANZ" that the curriculum does not yet address. |
+| AI-tool direction and editorial review of AI-generated drafts | **↑↑ Rising sharply** | Signal 2 (§2) finds a growing share of ANZ creative roles explicitly listing AI-tool experience (Runway, Sora, ChatGPT, Claude) as required, and Theme 1 (§3) notes graduates must navigate the two-tier norms created by AWG/WGA AI contract provisions. |
+| First Nations and cross-cultural narrative consultancy | **↑ Rising** | Signal 3 (§2) reports formal cultural-consultant credits are "now standard on mid-budget productions" at ABC, SBS and NITV, a gap CI-6 (§5) finds absent from the current curriculum. |
+| Writers'-room collaboration and notes culture | **↑ Rising** | Theme 3 (§3) records recurring feedback from production companies that graduates "arrive skilled at solo script development but unprepared for the discipline of writers'-room collaboration." |
+| Streaming co-production and dual international/local format literacy | **↑ Rising** | Signal 4 (§2) describes Netflix, Amazon Prime and Stan co-production partnerships creating development roles that require "dual competency" traditional drama-school training does not fully address. |
+| Distinctive authorial voice | **→ Stable, differentiating** | Theme 2 (§3) frames voice as "the primary defence against AI substitution," with practitioner discourse holding that AI tools "flatten voice rather than amplify it." |
+| Unassisted script coverage writing (first-pass reading) | **↓↓ Falling sharply** | Signal 5 (§2) reports ANZ production companies trialling AI-generated script coverage as a first-pass filter, with LinkedIn data showing a "modest decline" in Script Reader and Development Intern postings from 2023 to 2025. |
+| Spec script as the primary calling card | **↓ Falling** | The declining-skills evidence base shows produced credits supplemented by a digital portfolio (web series, podcast, game writing) displacing the spec script as the default entry credential. |
 
 ---
 

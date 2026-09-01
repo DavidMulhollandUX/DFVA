@@ -67,13 +67,15 @@ This is a prompted, self-selected RICS-membership survey response from a global 
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual quantity take-off from drawings | Fast | Reviewing and correcting automated take-off output | Fast |
-| Routine administrative QS tasks — document summarising, letter drafting | Fast | Contractual and communication skill/knowledge (the strongest reported predictor of AI adoption) | Medium |
-| Ad hoc, unstructured AI tool use ("AI as a search tool") | Medium | Disciplined "bookending" AI workflow practice — human control at start and end of a process | Medium |
-| Manual cost estimating without any automated cross-check | Medium | AI literacy, and data-privacy/IP risk awareness before adoption | Medium |
-| — | — | Negotiation and site-specific professional judgement (relative value rising as administrative tasks automate) | Slow |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Reviewing and correcting automated quantity take-off output | **↑↑ Rising sharply** | Theme 2 (§3) reports a 2026 peer-reviewed survey of 77 Sarawak QS professionals rating "improve quantity take-off from drawings" among the two most severe AI impacts on the role, and CI-3 (§5) notes W2's Bills-of-Quantities task is exactly this exposed task type. |
+| Contractual and communication skill/knowledge in AI-assisted practice | **↑ Rising** | Theme 2 (§3) reports the same Emerald survey found QS professionals' skill and knowledge for communication and contractual issues the strongest predictor of AI adoption. |
+| AI literacy, disciplined AI-workflow practice, and data-privacy/IP risk awareness | **↑ Rising** | Theme 3 (§3) reports an APM interview with James Garner (Gleeds) arguing firms should avoid using AI as "a simple search tool" and instead build genuine AI literacy and address data-privacy/IP risk before adopting a disciplined "bookending" workflow; CI-1 (§5) confirms C3 sits at Level 1 with no documented AI-capability or governance content. |
+| Negotiation and site-specific professional judgement | **→ Stable, differentiating** | Theme 2 (§3) reports a practicing chartered quantity surveyor's own account that professional judgement in negotiation and site-specific decisions "stays irreplaceable" even as administrative drafting automates. |
+| Manual quantity take-off and cost estimating without an automated cross-check | **↓ Falling** | Theme 2 (§3) reports the same 77-respondent survey and practitioner blog both identifying quantity calculation and take-off assistance as tasks AI increasingly automates. |
+| Ad hoc, unstructured AI tool use ("AI as a search tool") | **↓ Falling** | Theme 3 (§3) reports Garner's argument against treating AI as a simple search tool, in favour of a disciplined, bookended workflow with human control at the start and end of a process. |
+| Routine administrative QS tasks — document summarising and letter drafting | **↓↓ Falling sharply** | Theme 2 (§3) reports the practitioner blog identifying document summarising, quantity-calculation assistance, and letter drafting as the specific administrative tasks AI already automates in QS practice. |
 
 ---
 

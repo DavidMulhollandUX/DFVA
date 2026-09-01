@@ -57,17 +57,14 @@ Standards from [Screen Australia](https://www.screenaustralia.gov.au/) confirm t
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual frame-by-frame inbetweening and routine clean-up lines
-- Boilerplate 3D asset texturing and unassisted rotoscoping
-- Formulaic character movement lacking weight, timing, and personality
-
-### Rising Demand
-- High-level artistic direction, expressive character acting, and cinematic timing
-- Real-time engine animation (Unreal Engine 5, Unity) and virtual production
-- Evaluative judgement and override auditing of AI-generated storyboards and motion capture data
-- Ethical IP governance and transparent pipeline AI integration under MEAA guidelines
-- Independent short film authoring, project management, and festival pitching
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-assisted animation pipeline literacy and ethical governance | **↑↑ Rising sharply** | Theme 1 (§3) reports AI diffusion models rapidly generating concept-art variants, requiring directors trained against visual homogenisation and copyright disputes; C3 scores 1/3 — digital tools are used only at the operational level, with no AI capabilities or governance content in any core unit. |
+| High-level artistic direction and evaluative critique of AI-generated work | **↑↑ Rising sharply** | Signal 3 (§2) rates routine frame interpolation 73.00 substitution exposure and shifts artist value to high-level visual direction and timing; C2 scores 2/3 — peer critique is assessed, but no core task requires documenting or justifying reliance on AI-generated output. |
+| Real-time engine animation and virtual production pipeline integration | **↑ Rising** | Signal 2 (§2) shows studios requiring real-time camera tracking, motion-capture clean-up and shader programming in virtual-production volumes; W2 scores 2/3 — the capstone reproduces one professional production task end to end but this is not staged across the whole program. |
+| Collaborative studio pipeline coordination (dailies critique, handoffs) | **→ Stable, differentiating** | Theme 2 (§3) describes animation as an inherently collaborative studio discipline built on iterative dailies critique and pipeline handoffs; C1 already scores 2/3, the program's strongest-evidenced construct, reflecting sustained rather than newly emerging demand. |
+| Boilerplate 3D asset texturing without AI-pipeline awareness | **↓ Falling** | Signal 1 (§2) and the existing evidence show generative AI ideation tools displacing routine texturing and generic asset layout as commercial studios shift to AI-assisted pre-production. |
+| Manual frame-by-frame inbetweening and unassisted rotoscoping | **↓↓ Falling sharply** | Signal 3 (§2) rates this exact work 73.00 substitution exposure, commoditised by commercial machine-learning plugins for standard 2D inbetweening and auto-rotoscoping. |
 
 ---
 

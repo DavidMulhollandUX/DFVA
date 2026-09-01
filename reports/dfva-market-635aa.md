@@ -65,13 +65,13 @@ An r/auslaw thread (captured 2026-08-21) examined a damages award of $950,000 pa
 
 ## 4. SKILL SHIFT SUMMARY
 
-| Skill | Direction | Evidence |
+| Skill | Direction | Rationale |
 |---|---|---|
-| AI governance & verification literacy | Rising | Federal Court GPN-AI; joint professional-body statement (Theme 1) |
-| Cross-border / development-finance drafting | Rising | Sovereign-lending and investment-law listings (Signal 2) |
-| AI-assisted research & drafting fluency | Rising | Victorian Lawyer Census 36.7%; Actionstep 56% (Theme 2) |
-| Routine junior-task automation exposure | Falling demand for raw volume | MinterEllison / AFR graduate-cohort cuts (Theme 3) |
-| Defended trade-off & judgement under uncertainty | Stable / rising in value | Census shows AI use stays out of legal decision-making (Theme 2) |
+| AI governance and verification literacy | **↑↑ Rising sharply** | Theme 1 (§3) — the Federal Court's GPN-AI (as-at 16 April 2026) and the joint Law Society of NSW/LPBWA/VLSB+C statement (November 2024) set binding conduct expectations for AI use in legal practice, yet C3 scores 0/3: no captured subject addresses AI capabilities, limitations, ethics or governance, and the only technology reference is a graduate attribute describing IT infrastructure access. |
+| Cross-border and development-finance drafting | **↑ Rising** | Signal 2 (§2) reports World Bank, ADB and international-NGO listings recurrently requiring development-finance documentation and treaty-interpretation experience, while C4 scores 2/3 — research-paper assessment applies legal method to self-scoped problems, but no captured unit documents a structured capstone or staged progression. |
+| Defended judgement and trade-off reasoning under regulatory uncertainty | **→ Stable, differentiating** | Theme 2 (§3) — the 2025 Victorian Lawyer Census finds AI use concentrated in information-gathering and drafting rather than legal decision-making; CI-5 (§5) accordingly retains G2's unscripted legal-research-paper requirement as the construct this program should preserve rather than automate. |
+| Individually-authored legal analysis without collaborative accountability | **↓ Falling** | C1 scores 1/3 — every captured assessment is individually authored (research paper, take-home examination, reflective journal), with no core unit assessing collaborative practice, even as Theme 3 (§3) reports firms restructuring graduate intake around exactly this kind of routine, solo-authored work. |
+| Routine junior-task volume (first-pass drafting and document review) | **↓↓ Falling sharply** | Theme 3 (§3) — MinterEllison cut its 2025-26 graduate cohort by almost a third, explicitly linking the reduction to AI automating routine junior work, with Herbert Smith Freehills Kramer, Norton Rose Fulbright, Allens and King & Wood Mallesons also reducing cohorts. |
 
 ---
 

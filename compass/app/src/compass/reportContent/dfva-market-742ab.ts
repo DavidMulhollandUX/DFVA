@@ -62,16 +62,13 @@ Standards from the [TPB](https://www.tpb.gov.au/) confirm that authentic private
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine tax return preparation and mechanical capital gains calculations
-- Basic tax law lookup without international structural context
-- Purely domestic tax planning without OECD Pillar Two and GloBE fluency
-
-### Rising Demand
-- OECD Pillar Two / GloBE international tax structuring and transfer pricing
-- Tax controversy, ATO audit response, objection drafting, and AAT litigation
-- Generative AI tax research auditing, prompt engineering, and algorithmic compliance
-- Private wealth structuring, trust taxation, and Part IVA anti-avoidance risk management
+| Skill | Direction | Rationale |
+|---|---|---|
+| Generative AI tax-research auditing and algorithmic compliance verification | **↑↑ Rising sharply** | Theme 1 (§3) — The Tax Institute (November 2024) and the *Australian Tax Forum* (December 2024) hold that registered tax agents and lawyers retain personal statutory liability under TASA for reasonable care and anti-avoidance risk even as AI generates preliminary advice, yet C2 scores 0/3: the program has no criterion-referenced appraisal of work quality anywhere in the extract. |
+| OECD Pillar Two / GloBE international tax structuring and transfer pricing | **↑ Rising** | Signal 1 (§2) reports Big Four firms aggressively recruiting GloBE and transfer-pricing specialists, while C3 scores 1/3 — digital and AI literacy content sits only in non-core cryptoassets electives, not in any compulsory unit. |
+| Multi-disciplinary deal-team collaboration and stakeholder negotiation | **→ Stable, differentiating** | Theme 2 (§3) — ATO and LCA reporting describes senior tax advisors collaborating with corporate financiers, accountants and litigation counsel to structure transactions, yet C1 scores 0/3: the program relies entirely on elective choice with no guaranteed collaborative assessment anywhere in the core. |
+| Basic tax law lookup without international structural context | **↓ Falling** | W3 scores 0/3 — work-situated learning is entirely absent from the course structure, leaving the program without the practice-embedded route (audit response, ruling applications) into which basic lookup work is being displaced. |
+| Routine tax return preparation and mechanical capital gains calculations | **↓↓ Falling sharply** | Signal 4 (§2) reports near-total automation of routine tax compliance and statutory calculation (98.37 substitution pressure), while W2 scores 1/3 — assessment remains dominated by traditional take-home exams and assignments rather than the authentic advice-drafting tasks this shift demands. |
 
 ---
 

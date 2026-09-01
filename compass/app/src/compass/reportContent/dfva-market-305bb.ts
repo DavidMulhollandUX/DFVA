@@ -63,16 +63,15 @@ Discourse across [AudA](https://audiology.asn.au/) and academic research centres
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine standalone pure-tone air/bone audiometry without diagnostic contextualisation
-- Uncritical acceptance of automated manufacturer hearing aid programming
-- Isolated device sales disconnected from ongoing auditory rehabilitation
-
-### Rising Demand
-- REM probe-microphone verification and troubleshooting of AI noise-filtering algorithms
-- Specialized pediatric, electrophysiological (ABR/OAE), and vestibular assessment (vHIT/VEMP)
-- Cochlear implant candidacy evaluation and telemetry mapping
-- Empathetic auditory rehabilitation counseling and multidisciplinary medical team integration
+| Skill | Direction | Rationale |
+|---|---|---|
+| REM probe-microphone verification and AI algorithm troubleshooting | **↑↑ Rising sharply** | C3 scores 1/3 — hearing device operation is taught, but no assessed module addresses AI sound-processing algorithms or diagnostic machine learning; Theme 1 (§3, NAL 2024/2025/*International Journal of Audiology* February 2025) finds automated presets frequently mismatch individual auditory processing, requiring rigorous real-ear verification rather than uncritical acceptance of manufacturer software. |
+| Documented reliance-and-override judgement on automated fitting algorithms | **↑ Rising** | C2 scores 2/3 — the longitudinal E-portfolio compiles reflective practice and peer review is assessed in the capstone, but no assessment requires students to document and justify a decision to override an automated fitting or diagnostic threshold. |
+| Cochlear implant candidacy evaluation and telemetry mapping | **↑ Rising** | Signal 4 (§2): public health networks advertise persistent vacancies for senior audiologists in vestibular and cochlear implant rehabilitation; C4 scores 2/3 in the compulsory capstone, student-led but staff-supported rather than fully self-scoped. |
+| Clinical placement, patient counselling and multidisciplinary integration | **→ Stable, differentiating** | W1, W2 and W3 all sit at the instrument ceiling (3/3) — extensive hurdled clinical placements and progressive OSCE assessment already teach this at the highest documented level, and Theme 2 (§3, Audiology Australia November 2024/IAA) confirms high-touch relational counselling remains resilient against automated diagnostics. |
+| Primary translational research in auditory neuroscience | **→ Stable, differentiating** | C5 sits at the instrument ceiling (3/3) — the compulsory Audiology Research Project requires primary data collection defended under a hurdled oral defence, exactly the rigor Theme 3 (§3, AudA/academic research centres) demands of tinnitus and genetic hearing-loss research. |
+| Uncritical acceptance of automated manufacturer hearing aid programming | **↓↓ Falling sharply** | Theme 1 (§3): on-chip AI presets already mismatch individual auditory processing capabilities, yet C3's low score means the compulsory core does not yet teach students to critically evaluate the algorithms they must troubleshoot. |
+| Routine standalone pure-tone audiometry | **↓ Falling** | Signal 2 (§2): OTC hearing devices and self-administered automated tablet audiometry are already shifting demand toward complex differential diagnosis, a shift the compulsory core's near-ceiling clinical scores (W1–W3 all 3/3) already position graduates to meet. |
 
 ---
 

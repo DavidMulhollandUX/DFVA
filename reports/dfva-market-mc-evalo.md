@@ -196,21 +196,13 @@ a synthesis by named authors, not a survey.
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-
-- Routine indicator compilation and periodic monitoring reporting without outcome attribution
-- Manual transcription and first-pass coding of interview material
-- Descriptive literature summarising without appraisal against quality standards
-- Report production as the deliverable, where the report is the evaluator's only contribution
-
-### Rising Demand
-
-- Documented reliance decisions over assisted analysis — what was delegated, checked, overridden
-- Impact evaluation design and counterfactual reasoning, including randomised and quasi-experimental methods
-- Scoping and costing an evaluation with a commissioner, including value-for-money framing
-- Facilitation across conflicting stakeholder values, and evaluative judgement made explicit
-- Cultural safety in evaluation with First Nations communities, on the terms those communities set
-- Self-appraisal against published competency standards as a continuing professional obligation
+| Skill | Direction | Rationale |
+|---|---|---|
+| Documented reliance decisions over AI-assisted analysis — what was delegated, checked, overridden | **↑↑ Rising sharply** | Theme 2 (§3): UNEG, UKES and AES guidance converge on the evaluator's decision record as the assessable object; C3 scores 0/3 — no digital or AI content appears in any compulsory subject or program-level outcome. |
+| Structured self-appraisal against published competency standards | **↑ Rising** | Theme 3 (§3): the AES Evaluators' Professional Learning Competency Framework (95 competencies) is the profession's normal capability-development instrument, and program faculty co-authors its measurement research; C4 scores 3/3 at the ceiling via the compulsory self-scoped capstone, and C2 scores 2/3 on structured critique. |
+| Cultural safety in evaluation with First Nations communities, on their own terms | **↑ Rising** | Theme 4 (§3): the Productivity Commission's Indigenous Evaluation Strategy is the whole-of-government framework for Commonwealth evaluations affecting Aboriginal and Torres Strait Islander people; C1 scores 0/3 — no core assessment is documented as collaborative stakeholder or commissioner work at all. |
+| Commissioned, client-facing evaluation reporting as a professional genre | **↑ Rising** | Theme 1 (§3): the Australian Centre for Evaluation reports in-house units growing in advisory (89%) and capability-building (82%) roles; W1 scores 1/3 — the capstone's spoken synthesis is an internal cohort hurdle with no external commissioner audience. |
+| Report production as the sole deliverable, without a workplace outcome measure | **↓ Falling** | Named directly in this section's own prior Declining Demand list; W3 scores 1/3 — work-situated learning exists only as an elective real-project route inside the capstone, despite the cohort being documented as already practising evaluators. |
 
 ---
 

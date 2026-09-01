@@ -81,18 +81,13 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual time-and-motion study without digital tooling | Fast | Digital twin and discrete-event simulation (AnyLogic, Arena) | Fast |
-| Paper-based quality management system auditing | Fast | AI-augmented root-cause analysis (ML anomaly detection + classical IE methods) | Fast |
-| Standalone Gantt chart / MS Project scheduling | Medium | Integrated ERP scheduling (SAP S/4HANA, Oracle Cloud) | Very Fast |
-| Pure Lean/Six Sigma without digital augmentation | Medium | ESG engineering (LCA, Scope 1–3 accounting, ISO 14064) | Very Fast |
-| Physical inventory counting and manual demand forecasting | Fast | AI-assisted demand sensing and dynamic inventory optimisation | Fast |
-| Siloed functional expertise (pure manufacturing OR pure supply chain) | Slow | Cross-functional systems thinking (finance + operations + data + commercial) | Medium |
-| Waterfall-only project management | Medium | Agile-PM hybrid methods with AI-assisted scheduling and reporting | Fast |
-| Static Excel-based reporting and KPI dashboards | Fast | Power BI / Tableau operational dashboards with live ERP data feeds | Very Fast |
-| Carbon footprint as a compliance checkbox | Fast | Circular economy and net-zero pathway engineering as strategic capability | Very Fast |
-| Verbal-only stakeholder communication | Slow | Structured written and visual communication for board-level and non-technical audiences | Medium |
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-augmented workflow design (digital twin, ML anomaly detection) | **↑↑ Rising sharply** | Theme 1 (§3): WEF 2025 and IISE commentary hold that AI augments rather than replaces industrial engineers who retool for AI-augmented workflow design; C3 scores 1/3 — digital-systems content is substantial (MCEN90056/57, MAST90014) but no core unit assesses AI capabilities and limitations specifically. |
+| End-to-end authentic engineering task design under real constraints | **→ Stable, differentiating** | W2 scores 3/3 at the ceiling — practitioner-fidelity tasks (ENGR90051, MCEN90054, the year-long capstone) already form the program's assessment spine with genuine open-ended and industrial-client constraints, matching Theme 5 (§3)'s call for graduates who understand implementation, not just theory. |
+| Structured written and visual communication for non-technical, board-level audiences | **↑↑ Rising sharply** | Theme 4 (§3) names the "engineer who can communicate" gap as the single biggest complaint employer panels raise; W1 scores 2/3 — non-technical presentations exist (ENGR90037/38) but are not documented as judged by an external practitioner panel. |
+| Cross-functional systems thinking spanning finance, data and commercial reasoning | **↑ Rising** | Theme 3 (§3): ASCM APAC discourse holds supply-chain roles now require fluency in finance and data science, not just operations; C4 scores 2/3 — novel-problem application is assessed, but the capstone's client-supplied topics are not a self-scoped inquiry. |
+| Manual time-and-motion study without digital tooling | **↓↓ Falling sharply** | This section's own prior Declining Demand list places manual time-and-motion study among the fastest-declining skills, superseded by digital-twin and discrete-event simulation. |
 
 ---
 

@@ -49,16 +49,14 @@ Jobs and Skills Australia's [Gen AI Capacity Study](https://www.jobsandskills.go
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Purely take-home, unsupervised written assessment as a primary evidence-of-learning method | Medium | Supervised, oral and practical assessment of student learning | Medium |
-| Manually drafting first-pass lesson plans and resource sets from scratch | Fast | Critical evaluation and adaptation of AI-generated lesson/resource drafts before classroom use | Fast |
-| Informal, ungoverned classroom AI-tool adoption | Slow | Documented compliance with AI procurement/privacy due diligence before tool use | Medium |
-| Generic homework-help / tutoring-platform-mediated instruction (adjacent private-tutor market) | Fast | Verification and correction of AI-generated study material in tutoring and support roles | Medium |
-| Screen-based instructional time in primary classrooms (Victoria, from 2027) | Slow | In-person, real-time behaviour-management and relationship-based instruction | Slow |
-| Single-method (all take-home) assessment design as taught practice | Medium | Assessment-design justification that documents *why* a method was chosen, including AI-integrity safeguards | Medium |
-
-Grounded in §3 Themes 1-3 (regulatory framework, AI-cheating assessment redesign, JSA/Felten task-exposure banding) and 25-9041 claim bx-L2-1 (low-automation/medium-augmentation for the teacher-assistant band). Velocities are illustrative, drawn from the dated span of the sourced material (2025-06 to 2026-08), not from a quantitative trend study.
+| Skill | Direction | Rationale |
+|---|---|---|
+| Critique of AI-generated lesson/resource drafts against the Australian AI-in-Schools Framework | **↑↑ Rising sharply** | C3 scores Level 1 — no graded item requires critique of a digital tool's capabilities, limits or governance — while Theme 1 (§3) confirms a binding national AI-in-schools policy framework a graduate now enters. |
+| Supervised, oral and practical assessment design resistant to AI-enabled cheating | **↑↑ Rising sharply** | Theme 2 (§3) reports NSW proposing a ban on unsupervised take-home Years 11-12 assignments after 1,000+ recorded 2025 cheating cases, bearing on C2 and W2, both currently ambiguous at Level 2. |
+| Coordinating collaborative work across people and AI/digital tools | **↑ Rising** | Theme 3 (§3) identifies lesson planning, resource creation and assessment drafting as the most AI-augmentable primary-teacher tasks nationally, yet C1's evidence stops at "collaboration with people" and never documents coordinating with AI tools. |
+| In-person, real-time behaviour management and relationship-based instruction | **→ Stable, differentiating** | The program's own Gate 2 evidence requires defended, real-time judgement under unscripted classroom conditions that current generative-AI tools do not perform (job family map, LOW substitution). |
+| Manually drafting first-pass lesson plans and resource sets from scratch | **↓↓ Falling sharply** | Superseded by critical evaluation and adaptation of AI-generated lesson/resource drafts before classroom use, per the program's own market signal. |
+| Purely take-home, unsupervised written assessment as the primary evidence-of-learning method | **↓ Falling** | Theme 2 (§3) documents state systems shifting assessment toward supervised, oral and process-tracked evidence to counter AI-enabled cheating. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

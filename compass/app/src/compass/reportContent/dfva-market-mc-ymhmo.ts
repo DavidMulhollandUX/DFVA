@@ -63,14 +63,13 @@ This supports a claim about how a large, self-selected sample of Claude.ai conve
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual administrative and documentation burden for school- and public-health-based mental health staff | Medium | AI-assisted lesson-preparation and documentation tools freeing clinical time (Theme 1) | Medium |
-| Scripted, non-clinician-led triage as a standalone task within mental health service delivery | Fast | Licensed-clinician time reallocated toward complex or high-acuity client contact as scripted triage is offloaded (Theme 2) | Fast |
-| Unexamined or undisclosed AI use in youth-facing clinical practice | Slow | Practitioner and professional-body scrutiny of AI's fitness as a therapeutic tool, with emphasis on disclosure and client trust (Theme 3) | Medium |
-| Treating AI literacy as absent from clinical or program-coordination training | Slow | Field-level demand for practitioners able to articulate a position on AI's role in youth mental health care and program administration (Theme 3) | Slow |
-| Full-delegation or automation framing of AI use in community and social service work | Slow | Augmentation-oriented, human-led AI use as the dominant mode already observed in this occupational category (Theme 4) | Medium |
-| Ad hoc AI adoption in public-health and community-service agencies without staff training | Medium | Formal AI-skills training as agencies close the staff-skills gap ASTHO's own survey identifies (Theme 1) | Slow |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Augmentation-oriented AI literacy for documentation and program administration | **↑↑ Rising sharply** | C3 is scored 0 — no unit names AI, digital tools or technology beyond one unelaborated generic-skill label — while Theme 4 (§3) finds roughly 75% of Claude usage in this occupational category classified as augmentation, the highest share Anthropic's Economic Index measured. |
+| Judged fitness-for-purpose appraisal of clinical and AI tools (including chatbots) | **↑ Rising** | C2 is scored 0 — no assessment anywhere requires appraising the quality of a work product — while Theme 3 (§3) quotes NASW practitioner-scholars describing AI chatbots as unfit to serve as a therapist, framing this appraisal as a live open professional question. |
+| Supervised, registration-pathway clinical judgement with young people | **→ Stable, differentiating** | The job family map rates entry into this occupation LOW-MEDIUM substitution pressure because it requires full AHPRA, AASW or ACA/PACFA registration — direct client-facing judgement that limits substitution. |
+| Scripted, non-clinician-led triage as a standalone task | **↓↓ Falling sharply** | Theme 2 (§3) documents Kaiser Permanente reassigning a licensed clinical social worker away from triage after script-based, unlicensed-staff screening calls replaced clinician-led intake. |
+| Manual administrative and documentation burden for school- and public-health-based staff | **↓ Falling** | Theme 1 (§3) reports AI well-being-companion and lesson-generation tools cutting one school psychologist's group-curriculum preparation time from about 16 hours to roughly 90 minutes. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

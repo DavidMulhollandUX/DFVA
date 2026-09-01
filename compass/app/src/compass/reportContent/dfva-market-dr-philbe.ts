@@ -62,18 +62,15 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual literature review/summarisation | FAST | AI-augmented literature synthesis with critical gap-identification | FAST |
-| Routine data cleaning by hand | FAST | Data pipeline validation and measurement-error judgment | MEDIUM |
-| Standard/templated econometric estimation | MEDIUM | Causal identification strategy design and defence | MEDIUM |
-| Generic "data scientist" credentialing | MEDIUM | PhD-level experimentation design rigour | MEDIUM |
-| Solo, narrow specialist research (no translation skill) | SLOW | Research-to-decision translation for non-technical principals | FAST |
-| Unvalidated AI-generated market/consumer "insight" | FAST (as a risk) | Rigorous, ethically-governed behavioural research | MEDIUM |
-| Generalist MBA-style strategy hires | SLOW | Differentiated PhD "chief research officer" hires | MEDIUM |
-| Tenure-track academic-only career framing | MEDIUM | Cross-sector (academia/central bank/quant/consulting) portfolio careers | FAST |
-| Manual backtesting/signal coding | FAST | Defensible alpha-generation ideation and model risk validation | MEDIUM |
-| Narrow single-model expertise | SLOW | AI governance and model-risk oversight capability | FAST |
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI governance and model-risk oversight capability | **↑↑ Rising sharply** | Signal 3 (§2) reports academic hiring contraction pushing graduates toward industry, where Signal 5's (§2) hybrid "AI research scientist" roles and CI-1's (§5) gap analysis both show model-risk oversight demand outpacing the program's structured coverage. |
+| Research-to-decision translation for non-technical principals | **↑ Rising** | Signal 6 (§2) notes consulting firms introducing differentiated "PhD fellow" tracks valued for original-research capability applied to client problems; CI-3 (§5) confirms this translation skill is not explicitly assessed in current thesis/defence structure. |
+| Rigorous, ethically-governed behavioural research | **↑ Rising** | Signal 7 (§2) describes corporate behavioural-science teams expanding "partly as a counterweight to unvalidated AI-generated market research"; CI-7 (§5) names this an underleveraged positioning angle for the Management/Marketing streams. |
+| Causal identification strategy design and defence | **→ Stable, differentiating** | Signal 1 (§2) reports central banks (RBA, Federal Reserve regional banks, ECB, BIS) consistently emphasising "causal inference and policy-relevant modelling over generic data science skills" as a durable, non-automatable hiring channel. |
+| Standard or templated econometric estimation | **↓ Falling** | Signal 2 (§2) states quant employers increasingly specify "AI/ML-augmented research experience as a plus" alongside PhD-level theoretical grounding, shifting value away from routine estimation technique. |
+| Manual literature review and summarisation | **↓ Falling** | Job Family Map (§1) records AI-augmented literature synthesis rising across every listed job family, from academia to quant finance, displacing manual review as a standalone task. |
+| Tenure-track-only academic career framing | **↓↓ Falling sharply** | Signal 3 (§2) documents structural contraction in business-school tenure-track hiring ratios relative to PhD output, independent of AI and driven by university budget constraints — "the single largest employability risk factor for the academic-track cohort." |
 
 ---
 

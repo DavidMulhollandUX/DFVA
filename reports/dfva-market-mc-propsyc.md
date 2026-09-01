@@ -55,18 +55,18 @@ Standards from [APAC](https://www.psychologycouncil.org.au/) confirm that a prog
 
 ---
 
-## 4. SKILL SHIFT SUMMARY
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-### Declining Demand
-- Paper-and-pencil psychometric scoring without computerised norming
-- Siloed independent practice without interprofessional team coordination
-- Unstructured clinical intuition without empirical evidence-based formulation
-
-### Rising Demand
-- Telehealth video-therapy delivery and digital mental health governance
-- Neurodiversity-affirming assessment frameworks and trauma-informed care
-- Structured suicide and violence risk formulation referencing empirical literature
-- PsyBA National Psychology Examination competency alignment
+| Skill | Direction | Rationale |
+|---|---|---|
+| NDIS-specific clinical competency (functional capacity assessment, behaviour support plans) | **↑↑ Rising sharply** | Signal 3 (§2) identifies NDIS-funded services as "the fastest-growing source of graduate psychology positions in Australia," and CI-1 (§5) flags the absence of a mandatory NDIS-specific competency unit as a curriculum gap. |
+| Telehealth-native service delivery | **↑↑ Rising sharply** | Signal 2 (§2) reports telehealth proficiency shifting from "nice to have" to a baseline requirement since 2022, with named organisations (Beyond Blue, Headspace, Victorian CAMHS) requiring video-platform experience. |
+| Neurodiversity-affirming assessment and intervention frameworks | **↑↑ Rising sharply** | Theme 5 (§3) describes a rapid, community-driven shift away from deficit-model autism/ADHD frameworks, with programs that still teach older models "critiqued publicly by both practitioners and advocacy communities." |
+| AI-assisted clinical documentation with ethical-governance literacy | **↑ Rising** | Theme 2 (§3) records cautious professional openness to AI for case notes and psychoeducation content, paired with firm rejection of AI for therapeutic decisions — a distinction CI-3 (§5) recommends teaching explicitly. |
+| First Nations and multicultural cultural competency | **↑ Rising** | Signal 6 (§2) finds government-funded community mental health and hospital postings increasingly listing First Nations cultural competency as a required or strongly preferred criterion. |
+| Individual therapeutic relationship work | **→ Stable, differentiating** | The job family map (§1) rates AI substitution pressure LOW for provisional/registered clinical psychologists, and Theme 2 (§3) confirms AI is "firmly rejected as unsuitable for therapeutic decisions" even as administrative AI use grows. |
+| Purely private-practice / fee-for-service career orientation | **↓ Falling** | Theme 3 (§3) describes the Medicare bulk-billing gap as reshaping early-career trajectories toward salaried roles in NDIS, EAP and hospital settings, away from private practice. |
+| Paper-based psychometric test administration | **↓↓ Falling sharply** | The job family map (§1) lists computerised neuropsychological assessment among rising skills, and Signal 4 (§2) shows organisational-psychology roles now embedding quantitative data-analysis requirements once treated as purely soft-skills adjacent. |
 
 ---
 

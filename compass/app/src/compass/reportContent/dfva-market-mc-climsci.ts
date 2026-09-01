@@ -91,20 +91,16 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual climate data extraction and processing (spreadsheet-based) | Fast | Python/R for climate data analysis and model post-processing | Very Fast |
-| Static PDF-based emissions inventory reporting | Fast | Automated GHG disclosure pipelines (IFRS S2/ASRS-aligned) | Very Fast |
-| Generalist environmental science training without climate specialisation | Medium | Physical climate risk quantification (VaR, tail risk, scenario analysis) | Very Fast |
-| Siloed climate science with no policy translation skills | Fast | Science-policy communication and stakeholder briefing | Fast |
-| Descriptive carbon footprinting without strategic net-zero framing | Medium | SBTi-aligned net-zero strategy and supply chain decarbonisation | Fast |
-| Manual remote sensing analysis with proprietary software | Medium | Google Earth Engine, cloud-based geospatial analysis (Python) | Fast |
-| Single-model deterministic climate projections | Slow | Probabilistic ensemble forecasting and uncertainty quantification | Fast |
-| Traditional academic dissemination only (journal papers) | Medium | Multi-audience communication: policy briefs, board-level risk summaries, media | Medium |
-| Carbon offset quantity focus without integrity or permanence analysis | Medium | Carbon market integrity analysis (additionality, permanence, co-benefits) | Medium |
-| Generic sustainability reporting (GRI-only) | Fast | Integrated TCFD/TNFD/ISSB/ASRS disclosure with assurance readiness | Very Fast |
+| Skill | Direction | Rationale |
+|---|---|---|
+| ML/computational skills for downscaling, attribution and extremes analysis | **↑↑ Rising sharply** | Signal 5 (§2): a growing share of climate scientist and research analyst ads from CSIRO, BoM and private climate intelligence firms now list Python, machine learning and Google Earth Engine as required or preferred, a shift that has accelerated since 2024. D5 (AI literacy and governance) scores only 1/3 — no AI-specific units exist despite climate science increasingly using ML for downscaling and attribution. |
+| Physical climate risk quantification and disclosure (TCFD/TNFD/ASRS) | **↑↑ Rising sharply** | Signal 1 (§2): mandatory Australian climate disclosure (ASRS 1/2, effective January 2025) has generated a visible wave of Climate Risk Analyst and ESG roles, with Commonwealth Bank, AustralianSuper and Macquarie posting physical- and transition-risk specialist roles throughout 2025. CI-1 confirms the curriculum's bridge from climate-science outputs to financial materiality is currently only implicit. |
+| Multi-audience science communication (policy briefs, board-level summaries) | **↑ Rising** | Signal 3 (§2) and CI-6: consulting and government employers increasingly list stakeholder communication and net-zero strategy as core requirements, yet this is "rarely formally assessed in science master's programs." D8 (human and relational capability) scores only 2/3. |
+| Carbon-market integrity analysis (additionality, permanence, co-benefits) | **↑ Rising** | Signal 4 (§2): roles referencing ACCUs and Safeguard Mechanism compliance appeared in clusters following the 2024 reform, though many are short-term or contractor-based — an early-stage, real but volatile market, per CI-4's calibrated framing and the LOW-MEDIUM confidence rating in §6. |
+| Systems-level climate reasoning (atmosphere-ocean-biosphere coupling, feedback loops) | **→ Stable, differentiating** | D2 (systems thinking) scores 3/3, described in the program's own rationale as "the canonical systems discipline" — a durable structural strength rather than a moving target, and the foundation the program's other rising skills (risk quantification, ML downscaling) build on. |
+| Manual climate data extraction and static PDF-based emissions reporting | **↓↓ Falling sharply** | Existing declining-demand finding: displaced very fast by Python/R model post-processing and automated IFRS S2/ASRS-aligned GHG disclosure pipelines. |
 
 ---
 

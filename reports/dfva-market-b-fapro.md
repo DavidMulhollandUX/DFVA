@@ -48,16 +48,14 @@ A review of Reddit r/techtheatre surfaced practitioners asking about current and
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual cue sheet re-typing, routine call sheet formatting, and repetitive paperwork
-- Routine lighting patch transcription and manual equipment inventory counting
-- Disconnected CAD drafting without integrated show-control data linking
-
-### Rising Demand
-- Live, multi-system show control, network protocol management (sACN, Dante, OSC), and technical troubleshooting under show conditions
-- AI-assisted production planning, scheduling, and digital stage management tooling
-- Evaluative verification of generative design references against physical rigging, electrical load, and WHS limits
-- Cross-disciplinary production team leadership and safety risk governance
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative verification of generative design references against physical/safety constraints | **↑↑ Rising sharply** | Theme 1 (§3) names live technical and coordination judgement as the resilient skill as documentation, search and scheduling compress; C2 scores only 2/3 — design and stage-management subjects assess execution without requiring critical appraisal of generative design references. |
+| Performer/digital-replica rights and AI-workflow governance | **↑↑ Rising sharply** | Theme 2 (§3) frames digital replacement and rights as the live-production debate and says placement into a producing company should teach replica-consent as a workplace competency; C3 scores 1/3 — no assessed module on digital workflow tools or rights exists in the core. |
+| AI-assisted production planning, scheduling, and digital stage-management tooling | **↑ Rising** | Signal 2 (§2) and Theme 1 (§3) report stage managers adopting AI to organise notes and streamline scheduling, and Theme 3 (§3) flags rising tooling-literacy interest among early-career technicians. |
+| Live, multi-system show control and technical troubleshooting under show conditions | **→ Stable, differentiating** | The Job Family Map rates technical production LOW–MEDIUM substitution pressure specifically because live technical leadership under show conditions stays resilient while only planning and documentation assist. |
+| Routine lighting patch transcription and manual equipment inventory counting | **↓ Falling** | Theme 1 (§3) identifies documentation and search work as the compressible layer of technical production, consistent with the existing evidence for this row. |
+| Manual cue sheet re-typing, routine call sheet formatting, and repetitive paperwork | **↓↓ Falling sharply** | The Job Family Map rates stage/company-management note organisation and scheduling MEDIUM pressure precisely because it compresses via tooling, and Signal 2 (§2) confirms stage managers already using AI for exactly this. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

@@ -89,18 +89,15 @@ convergence claim itself carries no survey behind it and should not be read as o
 **Bearing:** C1 and C5.
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Short-read-only pipeline operation (Illumina) | Medium | Long-read sequencing analysis (ONT, PacBio) | Fast |
-| Manual variant annotation workflows | Fast | Automated variant interpretation with clinical validation | Fast |
-| Tool operation without pipeline development skills | Medium | Workflow orchestration (Nextflow, Snakemake, CWL) | Fast |
-| Standalone R programming (R-only profiles) | Medium | Python + R combined; data engineering integration | Fast |
-| Bulk RNA-seq as primary analysis modality | Medium | Single-cell and spatial transcriptomics (scRNA-seq, Visium) | Very Fast |
-| On-premise HPC cluster administration | Medium | Cloud-scale genomics (AWS Batch, Google Life Sciences, Terra) | Fast |
-| Siloed bioinformatics (tool operation only) | Fast | Cross-disciplinary ML+biology (protein LLMs, AlphaFold application) | Fast |
-| Excel/manual reporting for genomics outputs | Fast | Clinical reporting pipelines and LIMS integration | Medium |
-| Static reference genome alignment only | Slow | Pangenome and population-scale variant analysis | Medium |
-| Generic data science without biological domain depth | Fast | Domain-specific ML in life sciences (drug discovery, clinical genomics) | Fast |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Long-read sequencing analysis (ONT, PacBio) | **↑↑ Rising sharply** | Signal 2 (§2) reports 2025-onward job ads increasingly specifying Oxford Nanopore and PacBio experience for clinical structural-variant detection, with recruiters noting a gap between advertised need and available candidates; CI-1 (§5) flags the current short-read-only emphasis as leaving graduates underprepared. |
+| Workflow orchestration and cloud-scale genomics (Nextflow, Snakemake, AWS/GCP) | **↑↑ Rising sharply** | Signal 3 (§2) finds pipeline workflow tools appearing in the majority of production bioinformatics-engineering role descriptions, with cloud platform experience co-occurring in roles above $110K AUD and containerisation now a baseline expectation. |
+| Single-cell and spatial transcriptomics (scRNA-seq, Seurat/Scanpy) | **↑ Rising** | Signal 4 (§2) reports research and pharma roles increasingly requiring single-cell RNA-seq and spatial transcriptomics experience, reflecting the research pipeline's move into clinical translation, per CI-2 (§5). |
+| Cross-disciplinary ML and biology (protein language models, AlphaFold) | **↑ Rising** | Signal 5 (§2) records AlphaFold2/3 and ESMFold appearing in senior pharma and CRO role ads, and the §3 discussion signals note AI in genomics is "creating demand for bioinformaticians who understand both biology and ML." |
+| Biological interpretation and research-question formulation | **→ Stable, differentiating** | The job family map (§1) rates AI substitution pressure LOW for bioinformatics scientists because "research question formulation and biological interpretation are irreducible," consistent with the §3 discussion signal that "bioinformatics is becoming computational biology." |
+| Standalone R-only programming profiles | **↓↓ Falling sharply** | Signal 6 (§2) reports declining tolerance for R-only profiles as ads increasingly require Python fluency alongside R and integrate data-engineering tasks into the role. |
+| Manual variant annotation workflows | **↓ Falling** | The job family map (§1) rates AI substitution pressure MEDIUM for genomic data analysts because pipeline execution is automating, even as clinical variant interpretation and sign-off remain human. |
 
 ## 5. CURRICULUM IMPLICATIONS
 | # | Implication | Dimension | Action |

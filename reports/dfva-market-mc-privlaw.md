@@ -49,14 +49,15 @@ This reflects individual impressions gathered informally (Legal Cheek) or posted
 **Bearing:** W1 and W2. The program scores W1 at 2 (one professional-genre task — a banking-and-finance memorandum — with no documented external audience) and W2 at 0 (no end-to-end professional artefact judged by practitioner criteria; the memorandum is attributed to W1 alone under the record's "one construct, one home" rule). Because the program's elective menu weights heavily toward the transactional/commercial subjects this theme identifies as more AI-exposed (contract, banking and finance, commercial equity) relative to the litigation/dispute-resolution electives it identifies as comparatively insulated, and because G1 already fails on the lack of a compulsory sequence, a student's actual subject mix — and therefore their exposure to either side of this split — is unconstrained by the program structure.
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Unsupervised first-draft contract/document review as an entry-level differentiator | Fast | Verification and hallucination-risk judgment on AI-assisted drafts | Fast |
-| Generic business-services/support-function headcount at large firms | Fast | AI-governance advisory as a discrete solicitor competency (confidentiality, disclosure, billing) | Fast |
-| Written-application-only graduate recruitment screening | Medium | Aptitude-test and interview-based assessment of practitioner judgment | Medium |
-| CV claims of general "AI expertise" without demonstrated legal-domain application | Medium | Combined legal-expertise-plus-AI-fluency profile specifically sought by employers | Fast |
-| Undifferentiated transactional document-review capacity as a junior-hire selling point | Fast | Litigation and dispute-resolution advocacy skill as a comparatively AI-insulated specialisation | Medium |
-| Hours-based billing for document-heavy transactional work, unexamined | Slow | Firm-level scrutiny of billing models against AI-assisted task speed | Slow |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Verification and hallucination-risk judgment on AI-assisted drafts | **↑↑ Rising sharply** | Theme 2 (§3) reports the RCT found a RAG legal-AI tool matched no-AI hallucination rates while a reasoning model introduced *more* hallucinations than the no-AI control, and CI-2 (§5) confirms W2 scores 0 with no subject documenting a defended judgment task on AI output. |
+| AI-governance advisory as a discrete solicitor competency | **↑ Rising** | Theme 1 (§3) reports the Law Society of NSW's January 2026 AI guide and the Law Council's new AML/CTF Rule 12 now tie AI-use confidentiality, hallucination-risk and disclosure directly to solicitors' conduct obligations, while CI-1 (§5) confirms C3 scores 0 with no AI or digital-tool content anywhere in the extract. |
+| Combined legal-expertise-plus-AI-fluency hiring profile | **↑ Rising** | Signal 2 (§2) reports National Jurist's paraphrase of a Major, Lindsey & Africa hiring report describing employer demand for lawyers who combine legal expertise with AI fluency, at LOW-MEDIUM confidence since the source is US-focused trade press. |
+| Aptitude-test and interview-based assessment of practitioner judgment in recruitment | **↑ Rising** | Signal 4 (§2) reports Legal Cheek's LegalEdCon 2026 coverage of firms moving aptitude tests and video interviews ahead of written applications to reduce AI-assisted gaming of training-contract applications. |
+| Litigation and dispute-resolution advocacy under adversarial scrutiny | **→ Stable, differentiating** | Theme 3 (§3) reports Legal Cheek's account of junior lawyers describing litigation work as comparatively insulated relative to transactional and M&A practice, consistent with §1's LOW substitution-pressure rating for the Commercial Litigation / Dispute Resolution job family. |
+| Undifferentiated first-draft contract review and due diligence as an entry-level differentiator | **↓ Falling** | Theme 3 (§3) reports Legal Cheek's account of AI absorbing a large share of document review, due diligence and first-draft work in transactional and M&A practice, consistent with §1's MEDIUM substitution-pressure rating for the Commercial/Transactional Solicitor job family. |
+| Generic business-services/support-function headcount at large firms | **↓↓ Falling sharply** | Signal 3 (§2) reports Legal Cheek's account of Baker McKenzie cutting roughly 600 business-services roles in February 2026 citing AI use, following a smaller reduction reported earlier at Clifford Chance — support-function roles, not fee-earning solicitor positions. |
 
 ## 5. CURRICULUM IMPLICATIONS
 | # | Implication | Dimension | Action |

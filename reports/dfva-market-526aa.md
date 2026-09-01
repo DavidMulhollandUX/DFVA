@@ -57,16 +57,13 @@ Standards from the [LCA](https://lawcouncil.au/) confirm that authentic facility
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine loan documentation assembly and standardized covenant checks
-- Purely domestic banking analysis without cross-border capital market fluency
-- Siloed financial law without APRA operational resilience and tech understanding
-
-### Rising Demand
-- APRA CPS 230 operational risk, AML/CTF compliance, and financial crime auditing
-- FinTech regulatory frameworks, payment systems law, and tokenised securities
-- Complex syndicated lending negotiation, debt restructuring, and insolvency workouts
-- Algorithmic credit underwriting audits and digital asset regulatory compliance
+| Skill | Direction | Rationale |
+|---|---|---|
+| APRA CPS 230 operational risk, AML/CTF and financial-crime auditing | **↑↑ Rising sharply** | Theme 1 (§3) — APRA (November 2024) and the *Journal of Banking and Finance Law and Practice* (December 2024) hold that bankers and lawyers retain non-delegable statutory responsibility for model-risk validation and operational resilience under CPS 230 even as AI automates credit scoring and transaction surveillance, yet C3 scores 1/3: digital and FinTech content sits entirely in prescribed-list electives, and the captured extract contains no mention of AI or generative AI anywhere. |
+| FinTech regulatory frameworks, payment systems law and tokenised securities | **↑ Rising** | Signal 2 (§2) reports FinTech scale-ups and financial institutions requiring counsel fluent in RBA payment-system reforms and tokenised-asset compliance, while C4 scores 1/3 — the sole compulsory unit's assessed tasks (case analysis, research essay) stay within the taught method of reading and interpreting cases, with no documented application to novel or unfamiliar problems. |
+| Complex syndicated lending negotiation, debt restructuring and insolvency workouts | **→ Stable, differentiating** | Theme 2 (§3) — ABA and LCA reporting describes lawyers coordinating across lender syndicates, insolvency practitioners and regulators, yet C1 scores 1/3: the only compulsory unit assesses a case analysis, research essay and attendance hurdle with nothing collaborative, and the sole group-work tasks sit in prescribed-list electives, one marked 'Not available in 2026'. |
+| Siloed financial law without APRA operational-resilience and tech understanding | **↓ Falling** | W1 scores 0/3 — the only compulsory unit's full assessment table is a case analysis, a research essay and an attendance hurdle, with no presentation to peers or staff documented anywhere in required study, consistent with demand shifting away from siloed doctrinal output. |
+| Routine loan documentation assembly and standardized covenant checks | **↓↓ Falling sharply** | Signal 4 (§2) documents significant automated-tool adoption in standardised syndicated lending agreements and covenant checks; C5 scores 1/3 — the compulsory unit's Research Essay is secondary doctrinal synthesis with no methodology selection or data collection. |
 
 ---
 

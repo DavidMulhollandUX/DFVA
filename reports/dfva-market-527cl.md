@@ -58,16 +58,13 @@ Accreditation standards from [PsyBA](https://www.psychologyboard.gov.au/) requir
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Unstructured talk therapy without empirical formulation
-- Paper-based psychometric test administration without digital scoring platforms
-- Narrative clinical reports lacking validated outcome measurement metrics (DASS, K10, PHQ-9)
-
-### Rising Demand
-- Evaluative oversight and ethical governance of digital mental health tools
-- Telehealth-specific therapeutic alliance and remote crisis escalation protocols
-- Culturally safe and adapted psychological practice for First Nations and CALD populations
-- Psychosocial risk assessment and organizational mental health compliance
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-driven mental health triage/screening governance and evaluative oversight | **↑↑ Rising sharply** | Theme 1 (§3) — the APS (2024/2025) and *Australian Psychologist* (January 2025) note AI-driven triage and chatbot screening are increasingly deployed in primary mental health networks and require evaluative oversight to manage hallucinatory and ethical risk, yet C3 scores 1/3: the captured extract contains no mention of AI, generative AI or algorithms anywhere, with e-health named only once as a modality to consider. |
+| Telehealth-specific therapeutic alliance and remote crisis escalation protocols | **↑ Rising** | Signal 2 (§2) reports over 65% of clinical psychology postings mandating video-delivered psychotherapy and remote suicide-risk management; C1 scores 2/3 — core interprofessional collaboration is assessed (Ways of Knowing panel reflection), but no task assesses coordinating work across clinicians and digital or AI systems, which would be needed for a level-3 score. |
+| Therapeutic alliance, somatic attunement and interpersonal co-regulation | **→ Stable, differentiating** | Theme 2 (§3) — ACPA (November 2024) holds these relational mechanisms of change are completely resilient to digital automation; W1 and W2 both score 2/3, with core case-formulation and treatment-plan tasks reproducing the professional artefact end to end but judged by academic staff rather than an external practitioner audience. |
+| Paper-based psychometric test administration without digital scoring platforms | **↓ Falling** | Job Family 4 (§1) names digital psychometric assessment (Q-interactive) as a skill increasing in demand for clinical research and neuropsychology roles; C5 scores 2/3, with the required research proposal and thesis assessed on methodology and data collection rather than manual test administration alone. |
+| Narrative clinical reports lacking validated outcome measurement metrics (DASS, K10, PHQ-9) | **↓↓ Falling sharply** | Theme 3 (§3) — PsyBA accreditation standards require clinical psychologists to generate empirical evidence and select psychometrically validated assessment batteries, yet C2 scores 1/3: no core assessment task anywhere in the extract documents criterion-referenced appraisal of report quality against standards or exemplars. |
 
 ---
 

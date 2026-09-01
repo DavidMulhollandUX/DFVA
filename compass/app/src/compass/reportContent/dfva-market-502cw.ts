@@ -63,16 +63,13 @@ Scholarship in the *Melbourne University Law Review* (February 2025) argues that
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual clause-by-clause contract diligence without automated tooling
-- Routine boilerplate research memos and descriptive case summaries
-- Unverified reliance on secondary commercial legal commentaries
-
-### Rising Demand
-- Evaluative verification and audit of AI-drafted contracts and legal research
-- Advanced cross-border regulatory structuring and institutional AI governance
-- High-stakes oral advocacy, judicial cross-examination, and client dispute strategy
-- Multi-party commercial negotiation and collaborative dispute resolution
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative verification and audit of AI-drafted contracts and legal research | **↑↑ Rising sharply** | Theme 1 (§3) — Law Council of Australia (December 2024) and VLSB+C guidance hold that practitioners retain non-delegable duties to verify AI-generated case citations and contract drafting, yet C2 scores 1/3 with no core unit assessing criterion-referenced appraisal of AI-assisted work. |
+| Cross-border regulatory structuring and institutional AI governance advisory | **↑ Rising** | Job Family 5 (§1) rates Technology, Data Privacy & AI Governance Law at MEDIUM–HIGH substitution pressure with rising demand for algorithmic liability defence and AI regulatory-framework skills, while C3 scores 1/3 because governance content is documented only in elective subjects, never core. |
+| High-stakes oral advocacy and multi-party commercial negotiation | **→ Stable, differentiating** | Theme 2 (§3) — ACC Australia (2024/2025) sector reports show in-house general counsel prioritise empathetic stakeholder communication and consensus-building; C1 scores 1/3, with the only assessed group-collaboration task sitting in an elective subject listed 'Not available in 2026'. |
+| Routine boilerplate research memos and descriptive case summaries | **↓ Falling** | C5 scores 1/3 — the assessed research artefact is doctrinal synthesis on an approved topic with no documented data collection; Signal 2 (§2) notes legal AI platforms increasingly automate descriptive case-research synthesis. |
+| Manual clause-by-clause contract diligence without automated tooling | **↓↓ Falling sharply** | C3 scores 1/3 — AI and digital law appear only as electives, with the sole program-level digital claim being tool-operational ('Advanced working skills in the use of new technology'); Signal 2 (§2) documents Harvey AI, CoCounsel and Relativity accelerating first-pass document review and due diligence. |
 
 ---
 

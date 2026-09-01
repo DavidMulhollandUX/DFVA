@@ -40,16 +40,16 @@
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual doctrinal literature synthesis (as a scarce, differentiating skill) | Fast | Original legal theory and field-defining framing | Slow but structural |
-| Volume of publication as a proxy for scholarly standing | Medium | Demonstrable non-AI-substitutable insight / novel argument construction | Fast |
-| Reputation built primarily on breadth of case-law citation | Medium | Reputation built on judgment calls under genuine normative uncertainty | Slow but structural |
-| Static, unreviewed institutional examination criteria | N/A (risk factor, not a market skill) | Active AI-literacy in evaluating scholarly originality (for examiners) | Fast |
-| Prestige signals that rely on scarcity of competent legal writing | Fast | Prestige signals that rely on scarcity of demonstrated original contribution | Medium |
-| Passive institutional stewardship of legacy honorific credentials | Slow | Active, periodically recalibrated credentialing standards | Slow |
-| Undifferentiated "years of publication" as an LLD-eligibility heuristic | Medium | Explicit AI-disclosure and provenance standards in scholarly submission | Fast |
-| Assumption that credential prestige is self-sustaining | Medium | Visible institutional promotion/data to protect signal legibility | Medium |
+> This is a higher doctorate with no curriculum and no job family (§1); §3's salary-band framing is structurally inapplicable and carries no discussion themes for this credential, so the rows below ground instead in §2's Recent Job Ad Signals — the file's own sourced content on how AI is reshaping legal scholarship — plus the existing §5 curriculum implications.
+
+| Skill | Direction | Rationale |
+|---|---|---|
+| Examiner AI-literacy in evaluating scholarly originality | **↑↑ Rising sharply** | Signal 2 (§2) reports law school hiring committees increasingly probing whether writing reflects genuine original contribution versus AI-assisted drafting; CI-2 (§5) confirms LLD examiners currently lack explicit guidance for making that same distinction. |
+| Original legal theory and field-defining framing | **↑↑ Rising sharply** | Signal 1 and Signal 4 (§2) show elite legal AI tools (Harvey, Lexis+ AI, CoCounsel) compressing the cost of producing merely competent scholarship while law-review submission volume rises, raising the bar for what counts as substantial and original contribution. |
+| Institutional signal-legibility and transparent conferral data | **↑ Rising** | Signal 5 (§2) records peer higher doctorates conferred rarely and largely unpublicised; CI-3 (§5) attributes the credential's eroding prestige-signal value to low visibility, not disproof of merit. |
+| Reputation built on judgment calls under genuine normative uncertainty | **→ Stable, differentiating** | Signal 3 (§2) reports judicial and senior legal appointments still weighting authoritative standing, reputation and peer recognition heavily — the same currency the LLD certifies, undisrupted at the top of the field. |
+| Volume of publication and breadth of case-law citation as a standing proxy | **↓ Falling** | Signal 4 (§2) shows rising law-review submission volume making any single body of scholarship structurally harder to distinguish by volume alone. |
+| Manual doctrinal literature synthesis as a scarce, differentiating skill | **↓↓ Falling sharply** | Signal 1 (§2) reports elite legal AI tools now compressing the doctrinal synthesis and case-law review that once demonstrated this as a scarce skill. |
 
 ---
 

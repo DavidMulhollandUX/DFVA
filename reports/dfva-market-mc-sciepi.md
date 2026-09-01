@@ -127,27 +127,16 @@ inferred, not measured.
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-
-| Skill | Reason | Replacement |
+| Skill | Direction | Rationale |
 |---|---|---|
-| Manual data cleaning and preparation | AI-automated data pipelines and cleaning tools | Automated ETL and data quality systems |
-| Standard descriptive epidemiology reports | LLM-based report generation from surveillance data | Automated surveillance dashboards |
-| Routine systematic review and screening | AI-assisted screening and data extraction tools | LLM-powered review automation |
-| Basic statistical analysis execution | Auto-EDA tools and AI statistical assistants | Automated analysis pipelines |
-| Single-method (quantitative only) analysis | Mixed-methods increasingly expected | Integration of qualitative/quantitative |
-
-### Rising Demand
-
-| Skill | Reason | Curriculum Implication |
-|---|---|---|
-| AI health tool validation using epidemiological methods | Growing deployment of clinical AI requires methodological validation | Add AI validation methodology to core subjects |
-| Causal inference from observational data (advanced) | RWE regulatory acceptance expanding demand for causal methods | Strengthen causal inference teaching (DAGs, target trial emulation) |
-| Climate-health surveillance design | Climate adaptation creating new surveillance needs | Add climate-health elective or case studies |
-| Pandemic preparedness and rapid response | Institutionalised government investment post-COVID | Ensure Infectious Disease Epidemiology and Modelling are regularly available |
-| Data linkage study design | Population health data infrastructure expanding | Strengthen data management and linkage methods |
-| Health AI governance and algorithmic fairness | New job family emerging in health systems | Add AI governance module within epidemiological methods framework |
-| Communication of uncertainty to non-specialists | Policy makers and public need translated epidemiological evidence | Strengthen communication skills as compulsory |
+| AI health-tool validation using epidemiological methods | **↑↑ Rising sharply** | Signal 3 (§2) reports "AI validation epidemiologist" postings for a job family that "didn't exist 2 years ago," and Theme 5 (§3) positions epidemiologists as the natural auditors of algorithmic fairness in healthcare. |
+| Causal inference from observational data / real-world evidence study design | **↑↑ Rising sharply** | Signal 2 (§2) records pharmaceutical real-world-evidence demand growing 25–30% year-on-year, and Theme 4 (§3) states regulatory acceptance of RWE "is eating clinical trials," expanding observational epidemiology's role in drug development. |
+| Pandemic preparedness and rapid outbreak response | **↑ Rising** | Signal 1 (§2) links the 2024 Australian Centre for Disease Control and state pandemic-preparedness units to permanent epidemiologist positions, and Theme 3 (§3) finds the graduate pipeline undersupplied relative to this policy-driven demand. |
+| Climate-health surveillance design | **↑ Rising** | Signal 4 (§2) reports climate-adaptation agencies and health departments creating dedicated climate-health surveillance positions covering heat-mortality and vector-borne disease range shifts. |
+| Data linkage study design | **↑ Rising** | Signal 6 (§2) attributes rising demand to My Health Record expansion and state data-linkage infrastructure (SAIL, SURE) requiring epidemiologists who can design valid studies on linked administrative data. |
+| Study design and validity judgment | **→ Stable, differentiating** | Theme 1 (§3) summarises the profession's consensus that "AI can run your regression but can't design your study," and the job family map (§1) rates substitution pressure LOW for government and pharmaceutical epidemiology roles built on this judgment. |
+| Manual data cleaning and preparation | **↓↓ Falling sharply** | The declining-skills evidence base attributes this to AI-automated data pipelines and cleaning tools displacing manual ETL work as automated surveillance dashboards take over descriptive reporting. |
+| Basic statistical analysis execution | **↓ Falling** | Auto-EDA tools and AI statistical assistants are displacing routine analysis execution, consistent with Theme 1's (§3) framing of AI as accelerating workflow around, not replacing, the study-design skill named above. |
 
 ---
 

@@ -154,18 +154,17 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY
 
-| Declining demand | Velocity | Rising demand | Velocity |
-|---|---|---|---|
-| First-pass resume screening | Very fast | Governance of automated employment decisions (bias audit, logging, human oversight) | Very fast |
-| Interview scheduling and coordination | Very fast | Psychosocial risk assessment and control | Fast |
-| Candidate status communication | Very fast | Workplace relations under continuing reform | Fast |
-| Manual sourcing | Fast | Evaluating and interrogating HR vendor tools | Fast |
-| HR records administration and HRIS data entry | Fast | Interpreting people analytics rather than producing it | Fast |
-| Policy drafting from templates | Fast | Defending a people decision that a system recommended | Very fast |
-| First-line policy query handling | Fast | Advising executives on workforce strategy | Medium |
-| Benchmarking and survey collation | Medium | Change and capability work with contested stakeholders | Medium |
-| Trusting a screening tool's shortlist unexamined | Fast | Auditing a screening tool's consistency and adverse impact | Very fast |
-| Assuming candidates accept automated process | Medium | Designing and disclosing an AI-assisted process candidates will complete | Fast |
+> §3 of this report carries research-integrity/doctoral-training themes that do not pertain to HR practice (an evident content mismatch) — rows below draw on §1 JOB FAMILY MAP, §2 JOB AD SIGNALS, and §5's scored-item mapping instead.
+
+| Skill | Direction | Rationale |
+|---|---|---|
+| Governance of automated employment decisions (bias audit, logging, human oversight) | **↑↑ Rising sharply** | §5 marks C3 the "sharpest alignment failure in this assessment" at 1/3: the program states AI capability as a graduate outcome and assesses it in no compulsory subject. §2 Signal 1 (EU AI Act Annex III high-risk classification), Signal 2 (NYC Local Law 144 bias audits) and Signal 3 (Australia's WHS Digital Work Systems Act 2026) make this a binding HR obligation, not an IT one. |
+| First-pass resume screening, interview scheduling and candidate-status communication | **↓↓ Falling sharply** | JF-2 (§1) carries the "HIGHEST" substitution pressure of any destination family — sourcing, screening and scheduling are the specific tasks industry reports as already automated. Named directly in the report's own declining column at Very fast velocity. |
+| Interpreting people analytics and defending a system-recommended decision | **↑ Rising** | §5 scores C5 at 1/3 and C2 at 2/3: "interpreting people analytics is rising while producing it is automated... the durable act is deciding when to accept or override a system's recommendation." Named directly in the report's own rising column at Very fast velocity. |
+| HR records administration, HRIS data entry and policy drafting from templates | **↓ Falling** | JF-3 (§1) carries HIGH substitution pressure "compounded by the weakest growth" of any HR family (+5.0% HR Clerks to 2028). Named directly in the report's own declining column at Fast velocity. |
+| Psychosocial-risk assessment and workplace-relations advisory under continuing reform | **↑↑ Rising sharply** | JF-5 (§1) is "adversarial, consequential and now heavily regulated," with substitution pressure falling relative to the rest. §2 Signal 3 (WHS Digital Work Systems Act), Signal 4 (psychosocial hazard duties live in every state since December 2025) and Signal 5 (Closing Loopholes reforms) all point the same direction. |
+| HR management and workforce-strategy business partnering | **→ Stable, differentiating** | JF-4 (§1) carries only MEDIUM substitution pressure and is the fastest-growing HR family (+13.7% to 2028) — "this is where accountability for an automated decision now sits," a structurally protected destination rather than one newly accelerating from AI itself. |
+| Client relationship defence and change-management consulting | **↑ Rising** | JF-6 (§1) — analysis-and-deck work is HIGH exposure, but "the retained work is the client relationship and the defence of a recommendation," matching §5's C2 finding that the durable act is "being able to say why" a recommendation stands. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

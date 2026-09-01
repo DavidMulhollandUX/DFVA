@@ -63,16 +63,15 @@ Professional commentary from the Institute of Patent and Trade Mark Attorneys of
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Unassisted manual keyword prior art searching and trade mark clearance
-- Generic template-based patent drafting without deep claim boundary strategy
-- Routine office action responses that automated legal tech can produce
-
-### Rising Demand
-- Strategic freedom-to-operate (FTO) analysis under complex AI and synthetic biology landscapes
-- Evaluative critique and statutory verification of AI-assisted claim drafting
-- Algorithmic copyright auditing and training data provenance evaluation
-- Defended dispute advocacy before IP Australia hearings and the Federal Court
+| Skill | Direction | Rationale |
+|---|---|---|
+| Human-inventorship documentation and AI-assisted claim verification | **↑↑ Rising sharply** | C3 scores 1/3 — AI and digital content appears only in optional electives (e.g. LAWS90145 Artificial Intelligence and the Law), never in a required core unit; Theme 1 (§3, *Commissioner of Patents v Thaler*/IP Australia August 2024) demands rigorous documentation of human inventorship chains against autonomous machine output. |
+| Evaluative judgement of AI-drafted patent claims for statutory sufficiency | **↑↑ Rising sharply** | C2 scores 1/3 — assessments across the core are take-home exams and research papers, none requiring criterion-referenced appraisal of a tool's output; Theme 3 (§3, IPTA November 2024) warns generative drafting tools risk hallucinated prior art and failure to meet s 40 statutory sufficiency. |
+| Algorithmic copyright auditing and training-data provenance evaluation | **↑ Rising** | Theme 2 (§3, WIPO 2024/2025): whether LLM training on copyrighted datasets is infringement or fair dealing remains contested, demanding sophisticated risk assessment on synthetic outputs; C3's 1/3 score means this content sits only in elective subjects, not the compulsory core. |
+| Self-directed professional development and applied claim drafting under novel disclosures | **→ Stable, differentiating** | C4 and C5 both sit at 2/3 — LAWS70021 and LAWS70387 already assess application to novel fact patterns and substantial research papers, an existing durable capability, though not yet a required, externally defended capstone. |
+| Professional advocacy and authentic patent-specification drafting | **→ Stable, differentiating** | W1 and W2 both sit at 2/3 — LAWS70387's TTIPAB-standard drafting exam and LAWS70021's oral submissions already reproduce practitioner deliverables, but neither is judged by a real external practitioner panel. |
+| Routine office action responses and template-based drafting | **↓↓ Falling sharply** | Signal 3 (§2): enterprise legal-tech platforms and generative claim-drafting assistants already automate routine landscape searches and first-draft office-action responses, yet C3's low score means the compulsory core does not teach students to supervise these tools. |
+| Unassisted manual keyword prior art searching | **↓ Falling** | W3 scores 0/3 — no work-integrated learning or own-practice route exists anywhere in the compulsory structure, leaving no assessed pathway for students to practise the AI-augmented search workflow that is displacing manual searching (Signal 3, §2). |
 
 ---
 

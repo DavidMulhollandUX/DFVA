@@ -58,16 +58,18 @@ Standards from [AITSL](https://www.aitsl.edu.au/) highlight that educational adv
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Standardized transmission-based curriculum delivery
-- Low-level recall-based worksheet and test design
-- Isolated classroom teaching without collaborative data analysis
-
-### Rising Demand
-- Evaluative verification and critique of AI-generated educational content
-- Authentic, process-focused performance assessment design
-- Data-informed school improvement and mixed-methods program evaluation
-- First Nations culturally responsive pedagogy and trauma-informed practice
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-augmented lesson design and adaptive instruction | **↑↑ Rising sharply** | The prior skill-shift table recorded this rising at Fast velocity as standardised rote-transmission pedagogy declines at the same rate; Theme 1 (§3) describes AI tutoring platforms freeing teacher capacity for mentoring and complex facilitation, while CI-1 confirms no explicit AI-literacy or AI-augmented pedagogy strand currently exists in the program. |
+| Digital content curation and Learning Object authoring | **↑↑ Rising sharply** | The prior skill-shift table recorded this rising at Very Fast velocity, the fastest-moving pair in the set, as print-resource curation declines at the same rate; Signal 2 (§2) shows Instructional Designer postings up 18% YoY with authoring-tool and LMS competencies now mandatory, and CI-2 confirms these tool skills are absent from the program's advertised competencies. |
+| Authentic and performance-based assessment design for a GenAI context | **↑ Rising** | The prior skill-shift table recorded this rising at Fast velocity as low-cognitive paper-based assessment declines at the same rate; Theme 5 (§3) describes discourse shifting from "banning AI" to "designing assessment that GenAI cannot shortcut," and CI-1 names AI-era assessment design as underprepared territory in the current curriculum. |
+| Evidence-based coaching and instructional-coaching frameworks | **↑ Rising** | The prior skill-shift table recorded this rising at Fast velocity from a Medium-declining generic PD-facilitation baseline; Theme 4 (§3) cites AITSL's 2025 finding of 30–40% five-year early-career attrition driving demand for mentoring and wellbeing-focused leadership roles that an M.Ed leadership specialisation targets. |
+| Program evaluation using logic models and mixed methods | **↑ Rising** | The prior skill-shift table recorded this rising at Fast velocity from a Medium-declining "standalone delivery without evaluation" baseline; Signal 7 (§2) shows NFP and government evaluation roles (Smith Family, CESE NSW) paying $80,000–$100,000 for exactly these skills, a pathway CI-5 flags as under-marketed to students. |
+| First Nations education and cultural responsiveness | **→ Stable, differentiating** | Theme 3 (§3) describes the Closing the Gap Framework review and the Victorian DET's Marrung Aboriginal Education Plan making this a non-negotiable professional expectation rather than an elective concern, while CI-4 flags that it may not yet be substantively integrated across all specialisations. |
+| School-university partnership-grounded practicum credibility | **→ Stable, differentiating** | Theme 7 (§3) records the Melbourne Graduate School of Education's partnership-school network being discussed in professional networks as a quality and employability marker that differentiates this program from fully-online competitors. |
+| Standardised curriculum delivery (rote transmission pedagogy) | **↓↓ Falling sharply** | The prior skill-shift table recorded this declining at Fast velocity, the same rate as the AI-augmented lesson-design skill recorded rising in its place. |
+| Textbook selection and print resource curation | **↓↓ Falling sharply** | The prior skill-shift table recorded this as the fastest-declining pair in the set (Very Fast), directly opposite the Very Fast rise of digital content curation and Learning Object authoring. |
+| Generic professional development facilitation | **↓ Falling** | The prior skill-shift table recorded this declining at Medium velocity as evidence-based coaching and instructional-coaching frameworks rise at Fast velocity in its place. |
 
 ---
 

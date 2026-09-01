@@ -61,18 +61,17 @@ Publications from the [ACS](https://www.acs.org.au/) highlight that modern digit
 
 ---
 
-## 4. SKILL SHIFT SUMMARY
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-### Declining Demand
-- Manual drafting of static business requirements documents (BRDs)
-- Routine JIRA ticket creation, status reporting, and meeting transcription
-- Basic descriptive dashboard creation in Power BI / Tableau without data pipeline depth
-
-### Rising Demand
-- Evaluative verification and audit of AI-generated system architectures and requirements
-- Enterprise AI governance (ISO 42001, NIST AI RMF, EU AI Act compliance)
-- Cloud-native solutions architecture and API integration design
-- Strategic stakeholder communication, change leadership, and executive pitching
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI governance and risk assessment (NIST AI RMF, ISO 42001) | **↑↑ Rising sharply** | D5 scores 1/3 — no dedicated AI governance unit is visible in the core structure. Theme 3 (§3) shows practitioners reframing toward AI governance as "the new BA," matching the 34 new ANZ "AI Governance Analyst" postings and the tripling ISO 42001 demand cited in §2. |
+| Manual requirements documentation and BA reporting | **↓↓ Falling sharply** | D1 scores 1/3 because the first two career years are dominated by requirements writing, process mapping and status reporting — exactly the tasks Theme 1 (§3) frames as absorbed into AI workflow design ("Is the BA role dead?"). |
+| Process automation and workflow oversight (RPA, agentic tooling) | **↑ Rising** | Theme 2 (§3) — Atlassian Intelligence and equivalent tools are absorbing ticket writing and sprint summaries, pushing surviving roles toward supervising the automation rather than performing it, consistent with "Automation Analyst" postings up 47% YoY (§2 Signal 4). |
+| Data engineering and analytics-engineering depth (SQL, Python, dbt) | **↑ Rising** | D3 scores 2/3 — coding depth is "light unless electives selected deliberately." §2 Signal 4 shows "Analytics Engineer" postings up 31% YoY while "Reporting Analyst" fell 22%, the exact substitution the current core does not prepare graduates for. |
+| Sprint coordination and status reporting (JIRA/Confluence administration) | **↓ Falling** | Theme 2 (§3) names JIRA ticket writing and Confluence documentation as "a prompt away from elimination"; §2 Signal 2 shows entry-level IT PM coordination roles bifurcating away from this work. |
+| Enterprise/solutions architecture for AI platform integration | **↑ Rising** | Theme 4 (§3) — EA practitioners report renewed demand as organisations need principled guidance on AI platform integration and vendor lock-in, reflected in the cited 9% CAGR growth for the role even as its traditional TOGAF-artifact work declines (§1). |
+| Domain-specific regulatory and sector knowledge | **→ Stable, differentiating** | D6 scores 2/3 — the dual IT/non-IT stream design "dilutes depth," but the companion report's redesigned graduate profile treats sector specialisation (health, fintech, govtech) as the durable differentiator rather than a rising or declining skill in itself. |
 
 ---
 

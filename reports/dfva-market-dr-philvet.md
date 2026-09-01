@@ -56,18 +56,15 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual literature review/synthesis speed as a differentiator | FAST | AI-assisted literature triage + critical appraisal fluency | FAST |
-| Manual statistical scripting from scratch | MEDIUM | Applied bioinformatics/epidemiological modelling literacy | FAST |
-| Generic "PhD in biology" credentialing without specialisation | MEDIUM | Deep sub-specialisation (genomic epidemiology, toxicology, comparative pathology) | MEDIUM |
-| Routine diagnostic slide screening as core researcher time | MEDIUM | AI-assisted diagnostic triage oversight + complex-case interpretation | MEDIUM |
-| Single-discipline research framing | SLOW | One Health / cross-sector (human-animal-environment) systems framing | FAST |
-| Manuscript first-draft writing speed as a differentiator | FAST | Grant-writing strategy and funding-landscape navigation | MEDIUM |
-| Domestic-only research network reliance | SLOW | International collaboration/biosecurity network literacy | MEDIUM |
-| Purely academic-track career assumption | MEDIUM | Industry/government/academia tri-pathway career literacy | MEDIUM |
-| Manual regulatory dossier drafting | MEDIUM | AI-assisted regulatory science with expert oversight | MEDIUM |
-| Isolated technical expertise without commercial translation | SLOW | Technical-to-commercial translation literacy (agtech/biotech) | SLOW |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Applied bioinformatics and genomic-epidemiological modelling literacy | **↑↑ Rising sharply** | Signal 3 (§2) reports post-pandemic funding emphasis on One Health and zoonotic-spillover research "increased postdoctoral and research-fellow opportunities... a growth area for veterinary science PhD graduates with epidemiology/microbiology specialisation." |
+| AI-assisted diagnostic triage oversight plus complex-case interpretation | **↑ Rising** | Signal 6 (§2) states diagnostic laboratories "are adopting AI-assisted image triage for routine screening, shifting expected pathologist/researcher time toward complex-case interpretation and assay development rather than routine reads"; CI-4 (§5) confirms candidates need this fluency alongside expert interpretation training. |
+| One Health / cross-sector (human-animal-environment) systems framing | **↑ Rising** | Signal 3 (§2) identifies One Health research funding as a growth area, and CI-3 (§5) notes this framing is "a rising differentiator not systematically built into candidature structure." |
+| Government biosecurity risk assessment and regulatory judgment | **→ Stable, differentiating** | Signal 1 (§2) describes "sustained hiring pressure" for PhD-level veterinary epidemiologists at biosecurity agencies as "durable structural demand rather than a cyclical spike," tied to legislated animal-health mandates that resist generic AI substitution. |
+| Manual literature review and synthesis speed as a differentiator | **↓ Falling** | Signal 5 (§2) reports AI/computational skills are "increasingly listed as desirable" alongside core domain expertise, consistent with the job-family map's (§1) rising AI-assisted literature triage across every listed job family. |
+| Routine diagnostic slide screening as core researcher time | **↓ Falling** | Signal 6 (§2) directly documents this task shrinking as AI-assisted image triage absorbs routine screening in both research and commercial veterinary pathology labs. |
+| Manual regulatory dossier drafting without AI-assisted tooling | **↓↓ Falling sharply** | Signal 2 (§2) reports the global animal-health biotech sector expanding R&D pipelines with growing GLP/regulatory-science expectations layered on AI-assisted target discovery, shifting the regulatory-science task itself toward AI-assisted drafting with expert oversight per the job-family map (§1). |
 
 ---
 

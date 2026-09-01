@@ -63,16 +63,13 @@ Reports from [Engineers Australia](https://www.engineersaustralia.org.au/) (Nove
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- 2D AutoCAD drafting without 3D model integration
-- Routine manual member sizing without computational optimization
-- Prescriptive single-code compliance without performance-based structural analysis
-
-### Rising Demand
-- Evaluative verification and audit of automated finite element analysis (FEA) software
-- Performance-based earthquake and wind engineering for complex geometry
-- Low-carbon material design (mass timber, geopolymer concrete) and embodied carbon auditing
-- Interprofessional coordination across digital BIM and construction environments
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative verification and audit of automated finite element analysis (FEA) software | **↑↑ Rising sharply** | Theme 1 (§3) — Engineers Australia (2024/2025) and the *Journal of Structural Engineering* (February 2025) hold that black-box FEA and generative design tools obscure non-standard boundary conditions and require engineers to audit outputs with independent hand calculations, yet C2 scores 1/3: core assessments produce design reports and exams without assessed peer review or software-reliance logs. |
+| Performance-based earthquake/wind engineering and AI-driven parametric optimization | **↑ Rising** | Signal 2 (§2) reports 3D BIM and computational scripting becoming baseline over legacy drafting, while CI-1 (§5) notes C3 scores 1/3: core coursework covers finite-element software operation but has no assessed module on AI-driven parametric optimisation or algorithmic risk. |
+| Interprofessional coordination across digital BIM and construction environments | **→ Stable, differentiating** | Theme 2 (§3) — ASI and CIA (November 2024) hold that modern infrastructure design requires collaboration across structural, geotechnical and MEP consultants and contractors, and that human communication and contractual negotiation are completely insulated from automation, yet W1 scores 1/3: spoken presentations are not assessed in any core unit. |
+| Routine manual member sizing without computational optimization | **↓ Falling** | Signal 2 (§2) reports firms mandating computational modelling scripts over routine manual sizing, while W3 scores 0/3 — no work-situated placement exists in the course structure to transition students into current industry computational-design practice. |
+| 2D AutoCAD drafting without 3D model integration | **↓↓ Falling sharply** | Signal 2 (§2) reports firms mandating proficiency in Revit, Tekla and computational modelling over legacy 2D drafting; CI-4 (§5) reinforces the gap, since W3's absent placement route leaves no assessed bridge into current BIM-based practice. |
 
 ---
 

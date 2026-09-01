@@ -62,18 +62,15 @@ Consultation papers from [VLRC](https://www.lawreform.vic.gov.au/) (November 202
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine administrative case logging and descriptive reporting
-- Uncritical application of actuarial risk assessment checklists
-- Isolated quantitative analysis without policy or community context
-- Desk-based theoretical analysis lacking operational stakeholder awareness
-
-### Rising Demand
-- Algorithmic risk tool auditing and predictive policing governance
-- Participatory research and community co-design in crime prevention
-- Trauma-informed qualitative interviewing and evidence synthesis
-- Inter-agency communication and collaborative policy brief authorship
-- Defended program evaluation design across contested justice contexts
+| Skill | Direction | Rationale |
+|---|---|---|
+| Algorithmic risk-tool auditing and predictive-policing governance | **↑↑ Rising sharply** | C3 scores 0/3 — no mention of AI, algorithms, machine learning or data governance appears anywhere in the extract; Theme 1 (§3, AIC/ANZSOC February 2025) names independent criminological auditing of predictive policing and algorithmic sentencing risk models as the discipline's central emerging demand. |
+| Community co-design and inter-agency collaboration | **↑ Rising** | Theme 2 (§3, *Australian & New Zealand Journal of Criminology* March 2025): sustainable crime reduction depends on multi-sectoral partnerships; C1 scores 2/3, with collaborative evidence confined to one of three capstone routes rather than assessed across the compulsory core. |
+| Defended program evaluation design under institutional constraints | **↑ Rising** | Theme 3 (§3, VLRC November 2024): reform initiatives require rigorous mixed-methods evaluation to demonstrate effectiveness; C5 scores 2/3 in the compulsory core (CRIM90011's evaluability assessment), but the required primary-evidence project is available only via the minor thesis, one of three capstone routes. |
+| Reliance-and-override judgement in AI-assisted policy analysis | **↑ Rising** | C2 scores 2/3 — independent peer review of literature reviews is a compulsory hurdle, but no assessment requires students to document or justify a reliance decision on a tool or AI-generated output. |
+| Agency-facing professional communication and applied justice project delivery | **→ Stable, differentiating** | W1, W2 and W3 all sit at 2/3 — the Internship and Community Justice Project capstones already reproduce practitioner deliverables judged by real agencies, but this evidence is confined to one of three capstone routes rather than progressive across the compulsory core. |
+| Uncritical application of actuarial risk assessment checklists | **↓↓ Falling sharply** | Theme 1 (§3): predictive policing tools and algorithmic sentencing risk models are documented as amplifying historical disparities when applied without independent audit, yet C3's zero score means no compulsory subject teaches students to interrogate these tools. |
+| Routine administrative case logging and descriptive reporting | **↓ Falling** | Signal 1 (§2): public-sector employers increasingly recruit for evaluating interventions and interpreting recidivism statistics rather than descriptive case administration, a shift toward the evaluative capability C5 already documents at 2/3 in the compulsory core. |
 
 ---
 

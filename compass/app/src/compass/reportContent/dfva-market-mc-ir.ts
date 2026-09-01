@@ -62,16 +62,15 @@ Publications by [DFAT](https://www.dfat.gov.au/) (2024) and the [Australian Jour
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Descriptive country summaries and literature reviews without strategic policy recommendations
-- Unverified compilation of online news and raw open-source articles
-- Basic chronological event tracking without predictive geoeconomic modeling
-
-### Rising Demand
-- Verification and evaluative audit of automated geopolitical intelligence and synthetic media
-- High-level bilateral negotiation, multilateral coalition-building, and diplomatic drafting
-- Analysis of international AI governance, cyber conflict, and critical technology diplomacy
-- Strategic trade policy, sanctions compliance, and sovereign supply chain risk analysis
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-output verification and evaluative audit of automated OSINT / synthetic media | **↑↑ Rising sharply** | C2 and C3 each score 1/3 — no core unit assesses criterion-referenced appraisal of automated intelligence outputs, nor AI capabilities and governance. Theme 1 (§3) — ASPI (2024) and *International Affairs* (January 2025) — shows automated OSINT platforms require "rigorous evaluative judgement" to catch deepfakes, hallucinated citations and disinformation, matching the 95.97 automation exposure Signal 3 (§2) reports across raw OSINT aggregation and background drafting. |
+| Descriptive country summaries and unverified raw open-source compilation | **↓↓ Falling sharply** | Named directly in the Declining Demand list; C3 scores 1/3 for the same reason — no core AI-literacy content distinguishes verified analysis from unverified compilation. |
+| High-stakes bilateral negotiation and crisis diplomacy | **→ Stable, differentiating** | C1 scores 1/3 (group collaboration is not guaranteed across all capstone streams) yet Theme 2 (§3) — Lowy Institute and AIIA (2024) — frames this as relying on "interpersonal trust, cultural nuance, and face-to-face diplomatic engagement that cannot be automated": durably human regardless of curriculum coverage. |
+| International AI governance, cyber conflict and critical-technology diplomacy | **↑↑ Rising sharply** | C3 scores 1/3 — cyberpolitics content (POLS90065) exists only as an elective, not core. Theme 3 (§3) — DFAT (2024) and the *Australian Journal of International Affairs* — treats AI governance as "a core frontier of international diplomacy." |
+| Work-situated policy review with external diplomatic/NGO stakeholders | **↑ Rising** | W3 scores 1/3 — work-situated learning exists only via one optional capstone route (POLS90009 Internship) among three. CI-5 flags this as a gap given rising employer expectation for practical grounding. |
+| Strategic trade policy, sanctions compliance and supply-chain risk analysis | **↑ Rising** | §1's International Trade & Corporate Government Affairs family shows HIGH substitution pressure on routine tasks alongside rising demand for "supply-chain geoeconomic risk modeling, regulatory diplomacy, sanctions compliance"; Signal 2 (§2) documents expanding corporate recruitment into this area. |
+| Basic chronological event tracking without predictive modelling | **↓ Falling** | Named directly in the Declining Demand list. |
 
 ---
 

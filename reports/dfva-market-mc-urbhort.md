@@ -57,16 +57,13 @@ Reports from [PLA](https://www.parksleisure.com.au/) highlight that urban greeni
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual paper-based tree inventory surveying without GIS integration
-- Generic ornamental plant selection without climate adaptation modeling
-- Routine irrigation scheduling without soil moisture telemetry
-
-### Rising Demand
-- GIS/LiDAR urban canopy analytics and microclimate thermal simulation
-- Engineered soil microbiology, biochar application, and WSUD integration
-- Municipal urban forest policy formulation and tree protection bylaw enforcement
-- Multi-stakeholder community consultation and interdisciplinary infrastructure design
+| Skill | Direction | Rationale |
+|---|---|---|
+| GIS/LiDAR canopy analytics and soil-sensor diagnostic interpretation | **↑↑ Rising sharply** | Theme 2 (§3) finds automated sensor feeds require authentic diagnostic interpretation to rehabilitate compacted urban soils; CI-2 notes C3 lacks an assessed module on GIS canopy modelling, drone NDVI analytics and soil-sensor integration. |
+| Species-soil-microclimate trade-off judgement under severe heat stress | **↑ Rising** | Theme 1 (§3) reports AIH and ArbAus guidance that even as spatial modelling tools automate canopy shade projection, professionals must evaluate complex species-soil-microclimate interactions; CI-1 notes G2 currently lacks a mandated assessed trade-off task. |
+| Municipal policy advocacy and multi-stakeholder green-infrastructure governance | **→ Stable, differentiating** | Theme 3 (§3) grounds this in PLA reporting that urban greening initiatives require cross-disciplinary leadership navigating municipal bylaws and public-asset governance — coordination work that is not automatable. |
+| Manual paper-based tree inventory surveying without GIS integration | **↓↓ Falling sharply** | Declining per the program's own market signal, superseded by GIS/LiDAR canopy analytics named above. |
+| Routine irrigation scheduling without soil-moisture telemetry | **↓ Falling** | Theme 2 (§3) documents automated sensor feeds replacing routine scheduling, requiring diagnostic interpretation rather than manual scheduling. |
 
 ---
 

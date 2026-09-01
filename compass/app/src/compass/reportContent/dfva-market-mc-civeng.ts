@@ -62,16 +62,14 @@ Research in [Journal of Civil Engineering and Management](https://journals.vilni
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual structural hand calculations for standard static frames
-- 2D drafting and basic CAD line work without BIM parameterization
-- Isolated single-discipline design without life-cycle sustainability assessment
-
-### Rising Demand
-- Verification and override auditing of automated FEA and hydraulic simulation models
-- Geotechnical risk quantification and complex soil-structure interaction analysis
-- Low-carbon materials selection (geopolymer, timber-concrete composites) and circular economy design
-- Interdisciplinary systems engineering and spoken stakeholder defense
+| Skill | Direction | Rationale |
+|---|---|---|
+| Statutory audit of automated FEA and generative-design outputs | **↑↑ Rising sharply** | Theme 1 (§3): Engineers Australia (November 2024) confirms chartered engineers retain non-delegable legal liability for independently auditing algorithmic outputs against structural failure modes. C3 scores only 1/3 — core coursework uses simulation software without assessing AI capabilities and failure limits, and C2 scores 2/3 — design decisions are defended orally but lack structured override logs (CI-2). |
+| Geotechnical risk quantification and live-field telemetry interpretation | **↑↑ Rising sharply** | Theme 3 (§3): unscripted ground conditions, low-carbon geopolymer curing behaviour and sensor telemetry are named as durable, un-automatable core competencies. Signal 3 (§2) confirms 91.09 automation exposure on routine structural calculation specifically elevates the value of ground-uncertainty judgement. |
+| Interdisciplinary stakeholder negotiation and precinct co-design | **↑ Rising** | Theme 2 (§3): Engineers Australia and the Australian Water Association report infrastructure projects require civil engineers to lead complex multidisciplinary negotiations across transport, water-sensitive design and community groups. W1 scores 2/3 — capstone presentations go to internal academic panels rather than practising industry directors (CI-3). |
+| Self-designed primary empirical investigation (vs. recipe-based testing) | **↑ Rising** | C5 scores only 1/3 — core laboratory exercises follow recipe-based testing procedures rather than student-designed investigations (CI-5), while Theme 3 (§3) frames field telemetry and unscripted ground-condition assessment as core competencies that require exactly this kind of self-designed inquiry. |
+| Manual structural hand calculations for standard static frames | **↓↓ Falling sharply** | Existing declining-demand finding, consistent with Signal 2 (§2)'s mandated shift to Space Gass, Strand7, ETABS and Rhino/Grasshopper computational design over manual hand calculation, and Signal 3 (§2)'s 91.09 automation exposure on routine structural calculation and code-compliance checks. |
+| Isolated single-discipline design without life-cycle sustainability assessment | **↓ Falling** | Existing declining-demand finding, reinforced by Theme 3 (§3)'s framing of low-carbon material circularity (geopolymer, timber-concrete composites) as now a core, not optional, competency. |
 
 ---
 

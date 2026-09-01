@@ -63,16 +63,14 @@ Accreditation frameworks from [AACA](https://www.aaca.org.au/) highlight that ar
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual 2D CAD drafting without 3D BIM integration
-- Standalone conceptual rendering without constructability analysis
-- Unintegrated sustainability treated as an afterthought
-
-### Rising Demand
-- Evaluative verification of AI-assisted conceptual designs against NCC and DDA standards
-- Advanced BIM/Revit coordination, IFC interoperability, and computational scripting
-- Whole-of-life embodied carbon calculation (One Click LCA, Green Star 2.0)
-- Statutory contract administration, procurement risk management, and client communication
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI output evaluation, curation and governance in design practice | **↑↑ Rising sharply** | Theme 1 (§3): the AIA's 2025 dominant professional view is that AI shifts junior architects "from drawing to directing," requiring graduates who can evaluate, curate and contextualise AI outputs rather than simply produce drawings. D5 (AI literacy and governance) scores only 1/3 — no AI content is explicitly visible in the curriculum, despite parametric tools likely in studio use. |
+| Embodied carbon accounting and NCC 2025 Section J compliance | **↑↑ Rising sharply** | Signal 2 (§2) and Theme 4 (§3): NCC 2025's mandatory Section J provisions and Green Star Buildings 2.0's life-cycle-assessment requirements are now explicitly requested in ANZ job ads, with major developers (Lendlease, Mirvac) expecting embodied-carbon estimates during design development. D9 (curriculum currency) scores 2/3 — updated recently, but with no explicit sustainability-specific core content visible. |
+| Commercial and contract literacy (fee structures, risk allocation, AS4902/AS4300) | **↑ Rising** | Theme 5 (§3): principals in AIA practice forums persistently flag graduates' lack of foundational commercial literacy as a structural education gap, distinct from the program's design-focused core. |
+| BIM/Revit documentation and multi-platform digital coordination | **↑ Rising** | Signal 1 (§2): Revit is now a baseline requirement rather than a differentiator, and firms report graduates without functional BIM skills need 3–6 months of remediation before contributing to live projects. |
+| Regulated design synthesis and professional accountability | **→ Stable, differentiating** | D1, D2, D4, D6 and D7 each score 3/3: the Design Thesis capstone and ARBV/RAIA/CAA-accredited studio sequence give durable, non-automatable synthesis and accountability — the profession's structural defence against substitution, not a fast-moving target. |
+| Manual 2D CAD drafting and hand-rendered presentation drawings | **↓↓ Falling sharply** | Existing declining-demand finding, consistent with the companion assessment's "Documentation-Heavy Graduate of 2022" analogue: displaced by Revit/BIM 3D documentation and AI-assisted visualisation direction (Midjourney, Stable Diffusion prompting). |
 
 ---
 

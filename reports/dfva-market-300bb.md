@@ -61,17 +61,15 @@ Doctoral education reviews across the Group of Eight and [ACER](https://www.acer
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual literature review / annotated bibliographies | FAST | AI-augmented evidence synthesis with critical appraisal | FAST |
-| Static policy-brief drafting from templates | MEDIUM | AI-governance literacy for education systems | FAST |
-| Generic "satisfaction survey" program evaluation | MEDIUM | Mixed-methods/causal program evaluation design | MEDIUM |
-| Manual qualitative transcription and first-pass coding | FAST | AI-assisted qualitative analysis with human validation of themes | MEDIUM |
-| Standardised curriculum-document authoring | SLOW-MEDIUM | AI-in-curriculum policy design and oversight | FAST |
-| One-size-fits-all professional development delivery | MEDIUM | Personalised/coached professional learning design | MEDIUM |
-| Compliance-only accreditation review | SLOW | AI-assisted compliance monitoring with human accountability sign-off | MEDIUM |
-| Generalist "instructional leadership" without data fluency | MEDIUM | Data-informed instructional leadership (learning analytics literacy) | FAST |
-| Siloed policy writing disconnected from practice | SLOW | Research-practice partnership models (practice-embedded doctoral research) | MEDIUM |
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-governance literacy for education systems | **↑↑ Rising sharply** | C3 scores 1/3 — the extract's only digital content is reference-management tool training, with no AI or digital-literacy content anywhere; Theme 1 (§3, AITSL November 2024/ACARA) requires education leaders to formulate system-wide AI literacy frameworks and defend assessment validity against synthetic text generation. |
+| Collaborative peer critique and coached professional learning | **↑↑ Rising sharply** | C1 scores 0/3 — every core assessment is an individually authored artefact or oral defence, and no learning outcome even claims collaboration, despite Theme 2 (§3, *Journal of Educational Administration and History* February 2025/ACER) naming collaborative practitioner inquiry and psychological safety as what educational reform actually requires. |
+| AI-augmented evidence synthesis with critical appraisal | **↑ Rising** | C2 scores 2/3 — criterion-referenced critique of scholarly work is already assessed in the compulsory core (EDUC90867's Expanded Literature Review, EDUC90868's methodology critique), the durable half of the skill this program's own market table names as rising against declining manual literature review. |
+| Research-practice partnership models embedding doctoral research in the workplace | **↑ Rising** | W3 scores 0/3 — no placement, practicum or work-integrated learning occurs anywhere in the compulsory structure, and the v4.2 in-practice route fails on its own terms despite the cohort already practising; Theme 2 (§3) names research-practice partnerships as the reform model system leaders now require. |
+| Self-scoped doctoral inquiry with defended methodology | **→ Stable, differentiating** | C4 and C5 both sit at the instrument ceiling (3/3) — a required, staged, externally examined thesis with methodology defended at every stage, exactly the rigor Theme 3 (§3, Group of Eight/ACER 2024/2025) demands of practitioner doctoral research. |
+| Static, template-based policy-brief drafting | **↓↓ Falling sharply** | This program's own market table documents static policy-brief drafting being displaced by AI-governance literacy, and C3's low score means the compulsory core does not yet teach students to supervise the tools doing the displacing. |
+| Manual literature review and first-pass qualitative coding | **↓ Falling** | This program's own market table documents manual literature review and manual qualitative transcription/coding both declining Fast, while C2's compulsory critique tasks (2/3) already teach the durable, appraisal half of that work. |
 
 ---
 

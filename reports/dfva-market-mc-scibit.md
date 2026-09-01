@@ -58,16 +58,16 @@ Accreditation guidelines from [NPSMA](https://www.npsma.org/) stress that gradua
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual formatting and drafting of routine regulatory dossiers
-- Routine paper-based batch record review in GMP manufacturing
-- Basic unassisted keyword searching for patent landscapes
-
-### Rising Demand
-- Evaluative verification and audit of AI-generated regulatory submissions and clinical summaries
-- AI batch record anomaly screening and complex CAPA root-cause investigation
-- AI-assisted patent landscaping and freedom-to-operate commercial triage
-- Investor pitching and stakeholder translation for non-specialist decision makers
+| Skill | Direction | Rationale |
+|---|---|---|
+| Regulatory AI governance and TGA/FDA AI framework navigation | **↑↑ Rising sharply** | Signal 1 (§2) records TGA/FDA regulatory postings from CSL, Telix, Starpharma and Sigma Healthcare adding AI framework literacy, and Signal 6 counts nine new "AI Validation Scientist" and seven "Regulatory AI Specialist" ANZ postings in Q4 2025–Q1 2026. |
+| AI-generated submission validation and human sign-off | **↑↑ Rising sharply** | Theme 2 (§3) reports the Australian regulatory community framing regulatory affairs as "recession-proof, AI-proof" because TGA and FDA will not accept AI-generated submissions without human certification. |
+| Complex-modality regulatory strategy (CAR-T, gene editing, mRNA) | **↑ Rising** | Theme 5 (§3) identifies CRISPR and cell-therapy regulatory frontiers that "AI can't navigate alone," naming new-modality expertise as "the scarcest skill in ANZ biotech." |
+| AI IP assessment and inventorship analysis | **↑ Rising** | Signal 3 (§2) reports growing AusBiotech and university TTO postings for "AI-assisted IP landscape analysis," and Theme 3 (§3) notes unresolved AI-inventorship legal uncertainty is creating more work for commercialisation professionals, not less. |
+| Science communication and investor/government translation | **↑ Rising** | Theme 6 (§3) names the ability to communicate scientific expertise to investors, boards and government as "the career-limiting constraint" in Australian biotech, and Signal 5 (§2) confirms APS postings now require it explicitly. |
+| Complex QA deviation investigation and audit relationship management | **→ Stable, differentiating** | Signal 2 (§2) frames human QA value as "complex investigation and audit relationship management" even as AI-assisted batch-record review compresses routine QA documentation around it. |
+| Routine regulatory document drafting and formatting | **↓↓ Falling sharply** | Signal 1 (§2) and the job family map (§1) both attribute this decline to Veeva Vault AI, Regulatory Genome and similar tools compressing document production, with human accountability now the differentiator rather than drafting itself. |
+| Junior laboratory technician documentation | **↓ Falling** | Theme 4 (§3) quotes an ANZ biotech founder: "we hired two AI scientists instead of four lab technicians," pushing human value toward the QA, regulatory and commercial layer. |
 
 ---
 

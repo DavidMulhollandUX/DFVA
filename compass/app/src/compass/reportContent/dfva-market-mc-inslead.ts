@@ -62,16 +62,13 @@ Research by [ACARA](https://www.acara.edu.au/) and peer-reviewed studies in [Aus
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine administrative scheduling and manual timetable compilation
-- Generic lesson plan drafting and standard worksheet preparation without differentiation
-- Basic descriptive spreadsheet record-keeping without psychometric or longitudinal analysis
-
-### Rising Demand
-- Evaluative audit of generative AI educational tools and diagnostic learning platforms
-- High-impact instructional coaching, classroom observation, and relational feedback
-- System-wide assessment policy reform and student data privacy governance
-- Evidence-based intervention design and empirical school practitioner research
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative audit of generative-AI educational tools and diagnostic platforms | **↑↑ Rising sharply** | Theme 1 (§3): AITSL and AERO guidance requires instructional leaders to verify assessment validity and eliminate algorithmic grading bias; C3 scores 1/3 — the only digital content sits in electives (EDUC91331, EDUC91329), with no compulsory core unit addressing AI capabilities and limitations. |
+| High-impact instructional coaching and relational feedback | **→ Stable, differentiating** | Theme 2 (§3): ACEL and *Educational Management Administration & Leadership* research holds school improvement depends on empathetic face-to-face coaching that automation cannot reach; C4 scores 3/3 at the ceiling via the compulsory self-capability assessment and action-reflection capstone sequence. |
+| System-wide assessment-policy reform and longitudinal data modelling | **↑ Rising** | Theme 3 (§3): ACARA and *Australian Educational Researcher* findings require rigorous practitioner research design to evaluate what interventions work; C5 scores 2/3 — the required capstone generates primary evidence, but its oral presentation is recorded as an unaudienced hurdle, so defence under scrutiny is undocumented. |
+| Reliance/override documentation for automated lesson generators and diagnostic tools | **↑ Rising** | Theme 1 (§3) bears directly on C2, which scores 2/3 on documented criterion-referenced appraisal (self-capability and action-reflection assignments) but has no assessed reliance-and-override log for AI curriculum tools. |
+| Routine administrative scheduling and generic lesson-plan drafting | **↓↓ Falling sharply** | This section's own prior Declining Demand list and the 92.27 automation-exposure figure (§2 Signal 3) together identify routine scheduling and undifferentiated worksheet preparation as the fastest-automated tasks. |
 
 ---
 

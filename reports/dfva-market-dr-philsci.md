@@ -61,18 +61,15 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual literature review and citation management | Fast | AI-assisted literature synthesis with critical validation | Fast |
-| Routine statistical test execution (manual scripting of standard tests) | Fast | AI-augmented statistical workflow design and validation | Fast |
-| Basic data cleaning/wrangling as a standalone skill | Fast | Data pipeline architecture and quality assurance oversight | Medium |
-| Templated grant/report writing | Medium | AI-assisted grant writing paired with strategic framing | Medium |
-| Generalist "can code" as a differentiator | Fast | Domain-grounded ML model validation and interpretability | Fast |
-| Manual figure/plot generation | Fast | Data storytelling and scientific communication for non-specialist audiences | Medium |
-| Standalone bioinformatics scripting | Medium | Hybrid wet-lab + computational biology competence | Medium |
-| Single-discipline narrow specialisation without cross-disciplinary fluency | Slow | Cross-disciplinary collaboration (e.g., domain science + data science) | Fast |
-| Manual survey/monitoring data compilation | Medium | Remote sensing / sensor-network / AI-assisted environmental monitoring | Fast |
-| Passive AI tool use without governance awareness | N/A (emerging risk) | AI research-integrity and governance literacy | Fast |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Domain-grounded ML model validation and interpretability | **↑↑ Rising sharply** | Job Family Map (§1) rates data-science/quantitative-analyst roles HIGH substitution pressure precisely because "routine modelling work is increasingly AI-assisted," shifting value to validation and interpretability; Signal 5 (§2) confirms employers now "request ability to critically evaluate AI-generated modelling outputs." |
+| Cross-disciplinary collaboration (domain science plus data science) | **↑ Rising** | CI-5 (§5) identifies hybrid domain-plus-data-science skillsets as showing "the fastest-rising demand signal," reflected in Signal 2's (§2) climate-modelling postdoc listings emphasising large-scale data pipelines and machine-learning methods. |
+| AI research-integrity and governance literacy | **↑ Rising** | CI-1 (§5) states employers "increasingly expect AI-assisted workflow fluency as baseline, not differentiator, across all six schools," yet no mandatory AI-in-research module currently exists. |
+| Hands-on wet-lab synthesis and instrument-specific characterisation skill | **→ Stable, differentiating** | Signal 6 (§2) reports chemistry-sector postings "remain anchored in hands-on synthesis/characterisation skills and instrument-specific experience (NMR, mass spec), with minimal AI-related language," reinforcing wet-lab durability. |
+| Manual literature review and citation management | **↓ Falling** | Job Family Map (§1) records AI-assisted literature review rising across postdoctoral, government and biotech families alike, displacing manual citation management as a standalone task. |
+| Standalone bioinformatics scripting without computational-biology integration | **↓ Falling** | Signal 1 (§2) notes biotech postings now pair "PhD in relevant science" with AI/ML tool experience "as a stated preference rather than a bonus," pushing demand toward hybrid wet-lab plus computational competence over standalone scripting. |
+| Generalist "can code" positioning as a standalone differentiator | **↓↓ Falling sharply** | Signal 3 (§2) reports industry data-science postings increasingly expect candidates "to already be fluent with AI-coding-assistant workflows rather than teaching this on the job," the sharpest-moving shift identified for the most AI-exposed adjacent pathway in the map. |
 
 ---
 

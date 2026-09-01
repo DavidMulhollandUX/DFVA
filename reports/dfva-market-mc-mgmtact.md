@@ -57,16 +57,15 @@ Policy standards from [AASB](https://www.aasb.gov.au/) (2024) and [APESB](https:
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine transaction entry, manual bank reconciliation, and basic journal ledgering
-- Manual tax returns and standard formula-driven spreadsheet compilation
-- Boilerplate financial statement drafting without strategic commentary
-
-### Rising Demand
-- Evaluative judgement and override auditing of AI-generated accounting schedules and models
-- Continuous automated audit verification, forensic anomaly detection, and ESG assurance
-- High-level commercial communication, client tax advisory, and board-level financial synthesis
-- Algorithmic accounting governance, APESB ethical compliance, and corporate data integrity
+| Skill | Direction | Rationale |
+|---|---|---|
+| Evaluative judgement and override auditing of AI-generated accounting schedules | **↑↑ Rising sharply** | C2 scores 2/3 — financial-statement analysis and audit tasks lack structured override and verification logs (CI-2). Theme 1 (§3) — AUASB and *Auditing: A Journal of Practice & Theory* (January 2025) — hold that auditors must exercise "heightened professional skepticism to identify synthetic transactions, algorithmic hallucinations, and collusive fraud." |
+| Routine transaction entry, manual bank reconciliation and basic journal ledgering | **↓↓ Falling sharply** | Named directly in the Declining Demand list. Signal 3 (§2) reports 97.99 automation exposure across routine bookkeeping and standard tax filing. |
+| Continuous automated audit verification, forensic anomaly detection and ESG assurance | **↑↑ Rising sharply** | Theme 3 (§3) — AASB and APESB (2024) — describe an "urgent requirement" for accountants to audit decarbonisation data and enforce transparent ESG metrics; Signal 2 (§2) ties this to mandatory AASB S1/S2 climate-disclosure legislation. C3 scores 2/3, reflecting the same governance gap. |
+| Human-AI task division in accounting workflows | **↑ Rising** | C1 scores 2/3 — collaborative reporting projects lack a formal human-AI workflow charter (CI-1). Theme 2 (§3) — CPA Australia and CAANZ (2024) — call for structured division of labour between compliance-accountable professionals and automated forecasting agents. |
+| Manual tax returns and formula-driven spreadsheet compilation | **↓ Falling** | Named directly in the Declining Demand list. |
+| High-level commercial and tax advisory, board-level financial synthesis | **→ Stable, differentiating** | Named in the Rising Demand list, but reflects durable client-facing judgement rather than a newly emergent skill — §1's Management Accounting & Commercial Advisory family retains "strategic decision modeling... capital budgeting under market volatility" as its differentiator even at HIGH substitution pressure on the surrounding routine work. |
+| External, industry-assessed capstone and mandatory internship exposure | **↑ Rising** | W1 scores 2/3 (corporate reporting presentations evaluated internally, without external audit-partner panels) and W3 scores 1/3 (Accounting Internship elective, not universal). CI-4 and CI-5 call for external CA/CPA panels and live client audit briefs, matching Signal 1's (§2) Big 4 shift toward AI-tool proficiency expectations. |
 
 ---
 

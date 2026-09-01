@@ -152,34 +152,14 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-
-| Skill | Decline Driver | Velocity |
+| Skill | Direction | Rationale |
 |---|---|---|
-| Manual literature synthesis and systematic review | Elicit, Consensus, Perplexity, ChatGPT research tools | Very Fast |
-| Routine data entry and experimental documentation | Lab automation platforms, GenAI documentation tools | Fast |
-| Standard dashboard and report production | Power BI Copilot, Tableau AI, Julius AI | Fast |
-| Templated EIA and compliance report drafting | Environmental AI modelling platforms | Medium–Fast |
-| Manual geological map and core log production | Geolog AI, SLB Delfi | Medium |
-| Basic statistical analysis and SPSS/Excel reporting | AI data analysis tools | Fast |
-| Standard press release and science explainer drafting | GenAI content tools | Medium |
-| Junior protein structure prediction | AlphaFold 3 and successors | Very Fast |
-| Remote sensing manual image analysis | Esri AI, Google Earth Engine AI | Medium–Fast |
-
-### Rising Demand
-
-| Skill | Rise Driver | Velocity |
-|---|---|---|
-| AI tool evaluation and failure-mode analysis | Every scientific domain now deploying AI tools | Very Fast |
-| Research integrity in AI-assisted science (disclosure, reproducibility, validation) | ARC, NHMRC, TGA AI frameworks | Fast |
-| Domain science + ML integration (Cluster B primary signal) | CSIRO, ARC, university AI research hiring | Very Fast |
-| Regulatory AI governance (TGA, EPA, JORC AI frameworks) | Sector-specific AI regulation arriving | Fast |
-| Science communication for non-specialist audiences | APS, government science, industry demand | Fast |
-| Primary experimental design and method defence | Automation absorbing execution; judgment remaining human | Medium–Fast |
-| AI-generated evidence evaluation and fact-checking | APS and government science agencies explicit demand | Fast |
-| Data engineering depth (Python, dbt, SQL modelling) | Analytics engineering replacing data analyst | Fast |
-| Pre-registration and open science practices | Research reproducibility requirements increasing | Medium |
-| Stakeholder communication with accountability | As AI absorbs technical execution, communication becomes primary differentiator | Medium–Fast |
+| AI tool evaluation, validation, and failure-mode analysis | **↑↑ Rising sharply** | Theme 1 and Theme 3 (§3) report that surviving RA and structural-biology work is now validating and diagnosing where AI models are wrong; D5 (AI Literacy and Governance) scores only 1/3 — no mandatory AI literacy or governance unit exists across the degree. |
+| Domain science + ML/data-engineering integration (Cluster B) | **↑↑ Rising sharply** | Theme 5 (§3) reports CSIRO and ARC explicitly seeking domain science + AI evaluation competency ("pure ML is a commodity"), and CI-6 (§5) notes the degree does not signal which computational path — analytics engineer versus the declining data-analyst tier — students are prepared for. |
+| AI-generated evidence evaluation and stakeholder science communication | **↑ Rising** | Theme 6 (§3) records APS science managers naming fact-checking AI output as the most-cited graduate skill gap; D8 (Human and Relational Capability) in the assessment scores only 1/3 — historically under-invested and not assessed as a core competency. |
+| Third-year specialist domain and instrument depth (Cluster C) | **→ Stable, differentiating** | Theme 4 and Theme 7 (§3) both frame domain judgement about where the model is wrong as the surviving differentiator in environmental consulting and resources; D6 (Domain Depth) scores 3/3 in the assessment, the degree's strongest and most durable dimension. |
+| Standard dashboard/report production and templated SQL/EIA drafting | **↓ Falling** | Theme 2 (§3) reports "junior data analyst is a dead-end title" discourse, consistent with the Declining Demand evidence for Power BI Copilot and Julius AI absorbing this exact work. |
+| Manual literature synthesis and junior protein-structure prediction | **↓↓ Falling sharply** | The Declining Demand evidence rates both "Very Fast" decline velocity, and Theme 3 (§3) documents AlphaFold's already-realised displacement of junior structural-biology prediction work. |
 
 ---
 

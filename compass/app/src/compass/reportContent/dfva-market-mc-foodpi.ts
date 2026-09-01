@@ -52,14 +52,14 @@ Both sources are interested commentary rather than disinterested practitioner se
 **Bearing:** C2 and C4. C2's assessed peer-review task (FOOD90031's poster peer review) is the existing evaluative-judgement construct this theme's "co-scientist" framing bears on directly; C4 — demoted to a 1 on evidence-attribution review — is the cross-context-application construct that judging an AI-generated candidate in an unfamiliar scenario would exercise, were it taught.
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual, physical trial-and-error as the primary early-stage R&D method | Fast | AI-assisted computational screening and candidate generation in formulation R&D | Fast |
-| Reliance on a single legacy certification (IFT's Certified Food Scientist, now sunsetting to December 2029) as a career differentiator | Slow | AI-tool fluency as a stated professional skills-development priority (IFT 2026 survey) | Fast |
-| Manual, unassisted market and ingredient trendspotting | Medium | Autonomous R&D agents and trendspotting engines (IFT CoDeveloper, Turing Labs Luna, NotCo Giuseppe/Concept Quant, Shiru Flourish) | Fast |
-| Formulation iteration conducted purely by physical bench trials before any candidate screening | Fast | Directing and evaluating AI-generated formulation candidates before lab validation | Fast |
-| Unstructured, ungoverned individual use of AI tools in R&D | Medium | A structured "AI plus human intelligence" approach to R&D digital transformation | Medium |
-| Passive tool operation without critical evaluation of output | Medium | Practitioner judgement in evaluating, overriding or defending AI-generated candidates (the "co-scientist" framing) | Medium |
+
+| Skill | Direction | Rationale |
+|---|---|---|
+| Directing and critically evaluating AI-generated formulation or packaging-design candidates | **↑↑ Rising sharply** | Theme 1 (§3): the NotCo/Kraft Heinz case documents AI computational screening cutting an R&D timeline from two years to ten months, redirecting food scientists' effort toward directing and evaluating AI output before lab work begins; C3 scores 0/3 — no digital or AI content appears anywhere in the seven-subject compulsory core. |
+| AI-tool fluency as a stated professional skills-development priority | **↑ Rising** | Theme 2 (§3): IFT's 2026 member survey (5,000+ respondents) names AI the most-cited skills-development priority even though most respondents are not worried about job loss; C3 remains at 0/3 — the exact gap the theme identifies. |
+| Judging AI-generated candidates against classmates' work (the "co-scientist" framing) | **↑ Rising** | Theme 3 (§3): IFT's Leber and PepsiCo's Najjar both frame AI as a co-scientist whose value depends on the human judgement applied to it; C2 scores 2/3 on the existing FOOD90031 peer-review task, which is not yet extended to appraise an AI-generated concept. |
+| Cross-route practice directing or evaluating AI-assisted work in a live workplace | **↑ Rising** | Theme 2 (§3) names AI skills development as a stated industry priority; C4 was demoted to 1/3 on evidence-attribution review because the only self-scoped, cross-context capstone route (Minor Project) is one of two required alternatives, and the Internship alternative carries no comparable AI-judgement requirement. |
+| Manual, physical trial-and-error as the primary early-stage R&D method | **↓↓ Falling sharply** | This section's own prior Declining Demand list and Theme 1 (§3) together identify bench trial-and-error as the task AI computational screening compresses first. |
 
 ## 5. CURRICULUM IMPLICATIONS
 | # | Implication | Dimension | Action |

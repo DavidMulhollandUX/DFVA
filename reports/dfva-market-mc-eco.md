@@ -57,16 +57,15 @@ Research in [Economic Record](https://onlinelibrary.wiley.com/journal/14754932) 
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine OLS regressions and basic regression table generation without causal identification
-- Manual literature searches and descriptive summaries without critical econometric appraisal
-- Static economic equilibrium problem sets without computational or empirical implementation
-
-### Rising Demand
-- Rigorous causal inference (difference-in-differences, regression discontinuity, synthetic controls)
-- Algorithmic market design, auction theory, and digital platform economics
-- Machine learning econometrics (double machine learning, causal forests) with explicit error limits
-- Spoken economic policy advocacy and executive briefing under political uncertainty
+| Skill | Direction | Rationale |
+|---|---|---|
+| Machine learning econometrics (double machine learning, causal forests) with explicit error limits | **↑↑ Rising sharply** | Signal 3 (§2) reports 96.53 automation exposure across routine econometric regressions and literature reviews, and Theme 1 (§3) reports ESA/RBA guidance that AI tools now accelerate econometric coding while CI-1 (§5) confirms no assessed module covers ML econometrics or algorithmic error limits (C3: 1/3). |
+| Rigorous causal inference (difference-in-differences, regression discontinuity, synthetic controls) | **↑ Rising** | Signal 2 (§2) reports employers mandate R, Python, Stata and Matlab for empirical causal inference over basic spreadsheet statistics, and Theme 1 (§3) reports ESA and RBA guidance that professional economists must exercise non-delegable judgement identifying endogeneity and structural econometric identification. |
+| Algorithmic market design, auction theory, and digital platform economics | **↑ Rising** | Signal 4 (§2) reports growing regulator demand for economists skilled in auction design, two-sided platform economics and algorithmic pricing dynamics, and Theme 2 (§3) reports ACCC and ESA findings that competition litigation requires translating game-theoretic concepts into actionable policy decisions. |
+| Spoken economic policy advocacy and executive briefing under political uncertainty | **→ Stable, differentiating** | Theme 2 (§3) reports ACCC and ESA findings that regulatory determinations require economists to lead verbal adversarial defenses, while CI-3 (§5) notes core presentations remain internal without an external policy or regulatory panel (W1: 2/3). |
+| Independent primary empirical investigation under macroeconomic supply shocks | **→ Stable, differentiating** | Theme 3 (§3) reports peer-reviewed research in *Economic Record* (January 2025) finding unscripted global supply shocks and changing inflationary dynamics require economists to perform independent primary empirical investigation rather than relying mechanically on automated statistical forecasting. |
+| Routine OLS regressions and basic regression table generation without causal identification | **↓ Falling** | Signal 3 (§2) reports 96.53 automation exposure on routine econometric regressions, consistent with CI-2's finding (§5) that core research reproduction tasks lack structured override logs for automated scripts (C2: 2/3). |
+| Manual literature searches and descriptive summaries without critical econometric appraisal | **↓↓ Falling sharply** | Signal 3 (§2) reports that LLMs now rapidly summarise economic literature, concentrating human value on structuring novel market mechanisms and defending causal claims. |
 
 ---
 

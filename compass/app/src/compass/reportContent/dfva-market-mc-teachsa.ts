@@ -54,14 +54,14 @@ The Chegg cuts are the company's own corporate workforce (product, engineering, 
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Unsupervised, take-home written assessment as the primary evidence vehicle | Fast | In-class, oral and process-tracked assessment evidence | Fast |
-| Manual lesson-plan and resource drafting from a blank page | Medium | AI-assisted resource curation with documented teacher verification | Medium |
-| Generic ICT/tool-operation training content | Slow | Assessed AI capabilities, limits and ethics literacy (naming generative AI explicitly) | Medium |
-| Commodity homework-help / answer-lookup tutoring | Fast | Relationship-based, placement-verified differentiated instruction | Medium |
-| Unverified reliance on AI-drafted marking and reports | Medium | Human-in-the-loop judgement on AI-assisted marking and reporting | Medium |
-| Ad hoc, undocumented AI tool adoption in schools | Slow | Privacy-compliant, due-diligence-checked AI tool procurement practice | Slow |
+| Skill | Direction | Rationale |
+|---|---|---|
+| Assessed AI capabilities, limits and ethics literacy naming generative AI explicitly | **↑↑ Rising sharply** | C3 caps at Level 1 — ICT content never names generative AI — while Theme 2 (§3) scores secondary/related teaching among the most exposed occupations on both the AU crosswalk (91.99/100) and a related US index (95th percentile). |
+| In-class, oral and process-tracked assessment design resistant to unsupervised-AI misuse | **↑↑ Rising sharply** | Theme 1 (§3) reports NSW proposing a ban on unsupervised Years 11-12 take-home assignments after 1,000+ 2025 cheating cases, bearing directly on W2's Lesson Plan/report assessment pair. |
+| Justified reliance-or-override judgement on AI-generated planning and marking outputs | **↑ Rising** | C2 stops short of Level 3 — no assessed requirement to justify reliance-or-override decisions on a tool — even though the Capstone's reflective-portfolio structure (Theme 2, §3) could support it. |
+| Placement-verified, relationship-based differentiated instruction | **→ Stable, differentiating** | Theme 3 (§3) shows the program's 60 placement days plus hurdle-gated WIL Capstone (W3) sit structurally opposite the disintermediated tutoring pathway Chegg's collapse illustrates. |
+| Commodity homework-help / answer-lookup tutoring | **↓↓ Falling sharply** | Theme 3 (§3) documents Chegg's 22% then 45% (388-role) workforce cuts, attributed to AI Overviews and ChatGPT displacing student homework-help traffic. |
+| Unsupervised, take-home written assessment as the primary evidence vehicle | **↓ Falling** | Theme 1 (§3) documents state systems mandating oral/process-based assessment evidence to counter AI-enabled cheating. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

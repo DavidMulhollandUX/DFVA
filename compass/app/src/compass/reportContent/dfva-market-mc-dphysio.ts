@@ -63,16 +63,18 @@ Guidelines from the [APC](https://physiocouncil.com.au/) highlight that doctor-l
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual clinical note transcription and paper-based tracking
-- Static generic exercise-sheet handouts
-- Isolated solo practice without multidisciplinary team integration
-
-### Rising Demand
-- Evaluative verification of AI-generated clinical summaries and ambient notes
-- Complex comorbidity management and frailty rehabilitation in ageing populations
-- Objective biomechanical video analysis and digital outcome measurement
-- First Nations cultural safety and NDIS trauma-informed communication
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-scribe supervision and verification | **↑↑ Rising sharply** | The prior skill-shift table recorded this rising at FAST velocity as manual clinical-note transcription declines at the same rate; Signal 5 (§2) confirms rapid adoption of ambient-documentation tools like Heidi Health, and CI-1 recommends teaching graduates to supervise these tools, not just avoid them — the companion assessment scores AI Literacy and Governance 1/3, its weakest dimension. |
+| AI-tool governance literacy for clinicians | **↑↑ Rising sharply** | The prior skill-shift table recorded this rising at FAST velocity from a FAST-declining administrative-scheduling baseline; Signal 4 (§2) confirms private-practice consolidation is introducing standardised digital practice-management tooling, and CI-5 recommends familiarising students with this software during placements. |
+| Cross-modality and comorbidity management for the ageing population | **↑ Rising** | The prior skill-shift table recorded this rising at MODERATE velocity from a Slow-declining single-modality (MSK-only) baseline; Signal 2 (§2) confirms Commonwealth aged-care reform has expanded mandated allied-health hours, and CI-2 names this a structural demand driver involving complex relational management rather than routine technique (the companion assessment scores Human and Relational Capability 3/3). |
+| Hybrid telehealth and in-person care coordination | **↑ Rising** | The prior skill-shift table recorded this rising at MODERATE velocity from a Slow-declining in-clinic-only baseline; Signal 7 (§2) confirms telehealth normalisation post-COVID, and CI-3 flags this as the only segment showing real AI/tech substitution pressure. |
+| Applied evidence-to-patient translation under time pressure | **↑ Rising** | The prior skill-shift table recorded this rising at MODERATE velocity from a Slow-declining "generic literature-review skill alone"; CI-6 notes employers increasingly expect applied, time-pressured translation rather than appraisal skill alone, against a companion score of 2/3 on Research Methods Rigour. |
+| Physical, manual clinical skill and AHPRA-accountable real-time judgment | **→ Stable, differentiating** | The companion assessment scores Automation Exposure of Roles 3/3, describing "day-one physical/manual skill, real-time clinical judgment, and AHPRA-accountable decision-making — none of which is routine or templated" — the core of the program's 3/3 Irreplaceability Premium. |
+| Regional and rural shortage-driven demand | **→ Stable, differentiating** | Signal 6 (§2) records persistent regional and rural physiotherapist shortages commanding salary loadings, "a durable geographic demand signal" independent of automation, and CI-4 recommends tracking and publishing graduate placement geography against this. |
+| Manual clinical note transcription | **↓↓ Falling sharply** | The prior skill-shift table recorded this declining at FAST velocity, the same rate as the AI-scribe supervision skill recorded rising in its place. |
+| Administrative scheduling roles (support staff) | **↓↓ Falling sharply** | The prior skill-shift table recorded this declining at FAST velocity, and the Job Family Map's clinical-support row confirms AI scribe tools are "actively displacing this adjacent task cluster, not the registered clinician role." |
+| Generic exercise-sheet handouts | **↓ Falling** | The prior skill-shift table recorded this declining at MODERATE velocity as personalised app-based home-exercise programs rise at the same rate in its place. |
 
 ---
 

@@ -58,16 +58,15 @@ Economic analysis by [LPA](https://liveperformance.com.au/) (2024/2025) highligh
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Traditional passive box-office reporting without CRM data analytics
-- Generic grant applications lacking measurable community impact data
-- Rigid top-down hierarchical arts administration
-
-### Rising Demand
-- Data-driven audience development (Tessitura/Spektrix CRM) and AI marketing governance
-- First Nations co-governance and cultural safety protocols
-- Complex financial modeling, grant co-investment, and philanthropic cultivation
-- Multidisciplinary team producing and live industry project delivery
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI marketing governance and predictive CRM analytics | **↑↑ Rising sharply** | C3 scores 0/3 — no compulsory subject addresses AI or digital tools as core content; Theme 2 (§3, NAVA/*International Journal of Cultural Policy* February 2025) names organisational AI ethics policy as the tension arts managers must now resolve between marketing efficiency and artist copyright. |
+| First Nations co-governance and cultural safety protocols | **↑ Rising** | Theme 1 (§3, Creative Australia 2024/2025/LPA): the *Revive* policy mandates First Peoples-first shared decision-making; C1 scores 2/3, with assessed group work in the core but no assessment allocating work between people and tools, the level-3 requirement. |
+| AI reliance and override judgement in grant and financial drafting | **↑ Rising** | C2 scores 2/3 — structured peer feedback exists in the core (MULT90064's Peer Feedback, 10%), but no assessment requires students to document and justify a reliance or override decision on an AI-drafted output. |
+| Complex financial modelling and philanthropic co-investment | **↑ Rising** | Theme 3 (§3, LPA 2024/2025): inflationary cost pressures demand defended trade-offs between artistic ambition and commercial viability; C5 scores 2/3, with a compulsory research-design subject but no required, externally scrutinised primary-evidence project. |
+| Live industry placement and multidisciplinary project delivery | **→ Stable, differentiating** | W1, W2 and W3 all sit at 2/3 — a 150-hour placement (ARTS90024) and a team creative-enterprise project (MULT90064) already exist as capstone options, judged by workplace supervisors, but each is one of three electable streams rather than a required, progressive sequence. |
+| Rigid top-down hierarchical arts administration | **↓ Falling** | Theme 1 (§3): the *Revive*-era consensus displaces unilateral administrative decision-making with shared and co-leadership models across the sector. |
+| Passive box-office reporting without CRM analytics | **↓↓ Falling sharply** | Theme 2 (§3): enterprise ticketing platforms (Tessitura, Spektrix) already integrate AI predictive analytics for dynamic pricing and donor prospecting, yet C3's zero score means no compulsory subject teaches students to work with or govern these systems. |
 
 ---
 

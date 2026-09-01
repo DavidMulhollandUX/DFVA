@@ -57,16 +57,15 @@ Research in [Construction Management and Economics](https://www.tandfonline.com/
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual blueprint scaling and 2D quantity takeoff without software integration
-- Static spreadsheet cost estimating without automated sensitivity modeling
-- Paper-based site safety and quality checklist administration
-
-### Rising Demand
-- 5D BIM model auditing, automated clash resolution, and CostX digital measurement
-- Contractual dispute management, delay claim quantification, and Security of Payment compliance
-- Dynamic supply chain risk forecasting and embodied carbon life-cycle accounting
-- Complex multi-trade site coordination and stakeholder leadership
+| Skill | Direction | Rationale |
+|---|---|---|
+| 5D BIM model auditing and automated digital quantity takeoff | **↑↑ Rising sharply** | Signal 2 (§2) reports employers now mandate Procore, CostX, Navisworks and Autodesk Construction Cloud over manual estimating, and Signal 3 (§2) records 92.22 automation exposure on routine quantity measurement and cost estimation. |
+| AI-driven cost estimation and algorithmic BIM output auditing | **↑ Rising** | Theme 1 (§3) reports AIQS (November 2024) and AIB guidance that quantity surveyors retain statutory fiduciary liability to audit automated takeoff and estimation software against site conditions and supply-chain shocks; CI-1 (§5) confirms the core has no assessed module covering this (C3: 1/3). |
+| Contractual dispute administration, delay claims, and Security of Payment compliance | **↑ Rising** | Theme 2 (§3) reports MBA and AIB findings that rising material volatility and tight margins put a premium on contract administration and negotiation under AS 2124 / AS 4000; the Contract Administration job family (§1) carries HIGH substitution pressure alongside rising demand for delay and variation claims assessment. |
+| Embodied carbon auditing and sustainable procurement | **↑ Rising** | Signal 4 (§2) reports growing demand from commercial developers and government infrastructure agencies for carbon life-cycle assessment and Green Star certification skills. |
+| Live site constructability, EHS superintendence, and structural quality handover | **→ Stable, differentiating** | Theme 3 (§3) reports peer-reviewed research (*Construction Management and Economics*, January 2025) finding physical site superintendence, crane lift logistics, and concrete curing quality assurance cannot be automated, consistent with the companion assessment's G1 Disciplinary foundation gate PASS on the program's core technical and managerial depth. |
+| Manual blueprint scaling and static spreadsheet cost estimating without software integration | **↓ Falling** | Signal 3 (§2) puts automation exposure at 92.22 on routine quantity measurement and cost estimation, consistent with CI-1's finding (§5) that core coursework already assumes standard estimation software rather than manual measurement (C3: 1/3). |
+| Paper-based site safety and quality checklist administration | **↓↓ Falling sharply** | Signal 2 (§2) reports universal deployment of construction ERP platforms and digital construction technology across Tier 1 contractors, displacing paper-based checklist administration. |
 
 ---
 

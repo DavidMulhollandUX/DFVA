@@ -63,16 +63,17 @@ Accreditation standards from [AIG](https://www.aig.org.au/) confirm that an exte
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine manual 2D GIS digitizing without automated spatial feature extraction
-- Unassisted paper core logging without digital core scanning
-- Desktop-only interpretation without field ground-truthing
-
-### Rising Demand
-- Evaluative verification and audit of AI-generated geological logs and ML geophysical inversions
-- Advanced 3D implicit geological modeling (Leapfrog Geo) and geostatistical estimation
-- Climate model uncertainty quantification and policy risk communication
-- In-situ field hydrogeological sampling, bore testing, and contaminated site remediation
+| Skill | Direction | Rationale |
+|---|---|---|
+| Critical minerals exploration and geochemical interpretation | **↑↑ Rising sharply** | Signal 1 (§2) reports 35–45% year-on-year growth in critical-minerals postings for geologists, and Theme 5 (§3) links this to national sovereignty investment expanding Geoscience Australia and state surveys rather than contracting them. |
+| Field-based environmental assessment with regulatory sign-off | **↑↑ Rising sharply** | Signal 5 (§2) shows hydrogeology postings up 20–30% in 2025–2026 driven by drought adaptation and PFAS remediation, and Theme 6 (§3) states plainly that "AI cannot hold professional accreditation or legal liability." |
+| AI output validation and quality assurance for geological/climate interpretation | **↑ Rising** | Theme 1 and Theme 3 (§3) describe AI as accelerating desktop interpretation and core logging while leaving field validation and interpretive judgment human-owned, and Signal 2 (§2) confirms consultancies now require "familiarity with AI-assisted site assessment tools" alongside sign-off responsibility. |
+| Computational geology (Python, GIS, machine learning/geostatistics) | **↑ Rising** | Theme 4 (§3) frames the emerging consensus that "the geologist of 2030 is a data scientist who can swing a hammer," treating computational and field skills as complementary rather than substitutive. |
+| Climate model validation and uncertainty communication to non-scientists | **↑ Rising** | Theme 7 (§3) describes a "model operator vs model critic" bifurcation where running standard model configurations is commoditising while validating models against observations and communicating uncertainty to decision-makers remains human work. |
+| CCS subsurface characterisation | **↑ Rising** | Signal 6 (§2) documents active hiring for reservoir geology, seismic interpretation and CO2 plume monitoring across CCS projects including Gorgon, CarbonNet and Browse. |
+| JORC Competent Person pathway and regulatory sign-off in resource estimation | **→ Stable, differentiating** | Signal 4 (§2) notes major mining graduate programs still require minimum field hours and JORC pathway eligibility because, even as desktop estimation becomes AI-assisted, "legal sign-off remains human." |
+| Routine drill core logging and description | **↓↓ Falling sharply** | Theme 3 (§3) reports AI-powered core photography and ML-based lithology identification tools (Imago, DeepCore) are compressing junior geological logging workflows. |
+| Desktop-only resource estimation | **↓ Falling** | Signal 4 (§2) states "desktop resource estimation is increasingly AI-assisted," shifting graduate value toward the field-hours and sign-off requirements named above. |
 
 ---
 

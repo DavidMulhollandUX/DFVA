@@ -68,18 +68,15 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 **Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual psychometric scoring by hand | Fast | Digital/automated psychometric scoring platforms (Q-interactive, Pearson digital) | Fast |
-| Templated psychoeducational report drafting from scratch | Medium | AI-assisted report drafting with clinician review and sign-off | Fast |
-| Single-mode (in-person only) service delivery | Slow | Telehealth-integrated assessment and intervention delivery | Fast |
-| Generic literature review without synthesis tools | Fast | AI-assisted evidence synthesis (Elicit, Consensus) with critical appraisal skill | Fast |
-| Siloed clinical-only or research-only career tracks | Slow | Hybrid clinician-researcher career pathways (practice + program evaluation) | Medium |
-| Paper-based case file management | Fast | Digital case management and multidisciplinary data-sharing systems | Fast |
-| Undifferentiated general registration | Slow | Specialist endorsement (educational and developmental) as a hiring differentiator | Medium |
-| Domestic-only, single-jurisdiction regulatory knowledge | Slow | Cross-sector fluency (health, education, NDIS, justice systems) | Medium |
-| Individual-only assessment focus | Slow | Systems-level and program-evaluation capability alongside individual practice | Medium |
-| Passive supervision models | Slow | Structured, competency-based clinical supervision training | Slow |
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-assisted report drafting with clinician review and sign-off | **↑↑ Rising sharply** | Signal 5 (§2) confirms assessment-platform vendors are marketing AI-assisted scoring and report-drafting add-ons framed as clinician time-saving; CI-1 (§5) notes the handbook shows no explicit curriculum content teaching supervision or critique of these tools. |
+| Telehealth-integrated assessment and intervention delivery | **↑ Rising** | Signal 3 (§2) reports telehealth delivery competency is now a common job-ad requirement, particularly for regional and rural service delivery; CI-3 (§5) finds it is not confirmed as explicit placement content. |
+| Hybrid clinician-researcher career pathways (practice plus program evaluation) | **↑ Rising** | Signal 4 (§2) notes academic and senior policy roles increasingly list "PhD or equivalent research training" alongside clinical registration — precisely the DR-PHILEDP profile — but CI-2 (§5) finds this positioning is not visible or marketed. |
+| Registered, client-facing clinical practice and case formulation | **→ Stable, differentiating** | Job Family Map (§1) rates automation pressure LOW for registered practice roles because assessment interpretation and therapeutic alliance with minors require registration and human accountability that AI cannot substitute. |
+| Unstructured, single-mode (in-person only) service delivery | **↓ Falling** | Signal 3 (§2): telehealth has "expanded geographic reach" without displacing headcount, but job ads increasingly specify telehealth competency as a requirement rather than an optional extra. |
+| Manual psychometric scoring by hand | **↓ Falling** | The existing job-family evidence (§1) and Signal 5 (§2) together show digital/automated scoring platforms becoming standard practice-adjacent tooling across CAMHS and private-practice postings. |
+| Generic literature review without AI-assisted synthesis tools | **↓↓ Falling sharply** | Signal 4's (§2) hybrid clinician-researcher premium and CI-1's (§5) AI-literacy gap together indicate the manual-only version of evidence synthesis is the fastest-displaced sub-task, even as the research-training component itself remains durable. |
 
 ---
 

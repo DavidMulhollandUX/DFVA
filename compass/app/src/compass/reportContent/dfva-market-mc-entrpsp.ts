@@ -62,15 +62,14 @@ Scope: this is one executive's forward-looking prediction as reported by one out
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Building every business function manually before validating an idea | Fast | AI-agent-stack orchestration replacing early hires across marketing, support and operations (Theme 1) | Fast |
-| Larger founding teams as the default path into a venture | Medium | Flatter, AI-augmented founding-team structures with roughly 25% fewer employees at comparable valuation (Theme 1) | Medium |
-| Assuming AI reduces overall startup formation | Slow | AI-exposed industries recording about 20% higher startup-formation rates (Theme 2) | Medium |
-| Treating shipping or building speed as the founder's main constraint | Medium | Distribution and selling skill as the recognised real bottleneck once AI removes capital/skill/research excuses (Theme 3) | Medium |
-| Ad hoc, undocumented experimentation with AI tools | Slow | Deliberate wiring of AI automation into the weekly-recurring business processes practitioners say actually "compound" (Theme 3) | Medium |
-| Founding a company without engaging the Director ID regime | Slow | Founder awareness of the strengthened Director ID regime ahead of its 1 July 2027 linkage to the ASIC Companies Register | Slow |
-| Ad hoc valuation of unlisted shares issued to early employees | Slow | ATO safe-harbour valuation methods for start-up employee share schemes under LI 2025/19 (effective 2025-10-01) | Slow |
+| Skill | Direction | Rationale |
+|---|---|---|
+| AI-agent-stack orchestration replacing early functional hires | **↑↑ Rising sharply** | Theme 1 (§3): tooling costing $3,000–$12,000/yr is reported replacing $80,000–$120,000/month in payroll; C3 scores 1/3 — the program's only AI content (MGMT90267) sits in the single free elective, never the compulsory core. |
+| Distribution and selling skill as the founder's real bottleneck | **↑ Rising** | Theme 3 (§3): practitioners on Indie Hackers report AI removed capital/skill/research excuses but not the distribution bottleneck; C5 sits at 2/3 — the validation-plan hurdle gates progress but no defended review of methodology probes go-to-market assumptions. |
+| Self-scoped, end-to-end venture validation | **→ Stable, differentiating** | C4 scores 3/3 at the ceiling — the compulsory two-subject capstone already has students develop, formalise and validate their own venture concept end to end, the same lean format Theme 2 (§3) associates with AI-exposed-industry startup entry from smaller teams. |
+| Coordinating work across human collaborators and AI tools | **↑ Rising** | Theme 4 (§3) reports public discourse already anticipating single-operator, AI-orchestrated ventures; C1 scores 2/3 — group-assessed work recurs across the core but no unit documents an assessed human/AI-tool division of labour. |
+| Investor-pitch persuasion and relationship judgement over templated deck production | **→ Stable, differentiating** | The job-family map (§1) rates this LOW-MEDIUM substitution pressure — templated pitch-deck elements are AI-assistable but persuasion and investor-relationship judgement are not; W1 sits at 2/3, since the capstone's investor pitch is never documented as externally judged. |
+| Building every business function manually before validating an idea | **↓↓ Falling sharply** | Theme 1 (§3) documents AI-native startups running roughly 25% leaner at comparable valuation as agent-stack orchestration displaces early hires across marketing, support and operations. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

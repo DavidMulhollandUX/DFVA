@@ -63,16 +63,18 @@ Guidelines from [DSAA](https://www.dsaa.org.au/) underline that senior data scie
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual pandas data cleaning and basic exploratory scripting
-- Static dashboard generation without predictive modeling
-- Unverified black-box ML model deployment without explainability
-
-### Rising Demand
-- Evaluative verification of AI-generated code and statistical models
-- Production MLOps, containerization, and continuous model monitoring
-- Causal inference, A/B testing design, and Bayesian statistics
-- Algorithmic fairness auditing and enterprise AI governance
+| Skill | Direction | Rationale |
+|---|---|---|
+| LLM engineering (RAG pipelines, prompt evaluation, fine-tuning) | **↑↑ Rising sharply** | Signal 7 finds LLM-engineering skills now appear in 28% of senior data-scientist ads (LinkedIn AU, Q1 2026), while CI-5 confirms the curriculum predates the LLM era and carries no dedicated coverage. |
+| Cloud-native data stacks (Databricks, Snowflake, BigQuery) | **↑↑ Rising sharply** | The prior skill-shift table recorded this rising at Very Fast velocity, displacing on-premises infrastructure skills (Fast decline); the companion assessment's 3/3 Technical and Quantitative Depth score already credits the cloud-computing core this builds on. |
+| Causal inference and experiment design | **↑ Rising** | Signal 2 finds "causal inference" and "experiment design" appearing in senior data-scientist ads at three times the 2024 rate; CI-2 confirms these methods are not explicitly taught, even though the statistical core provides relevant grounding (D3 scores 3/3 but D2 Systems Thinking only 2/3). |
+| Domain-specialised data science (health, climate, finance) | **↑ Rising** | Signal 5 and Signal 1's title-splitting data both show domain-specialised roles outgrowing generic ones; CI-3 confirms the program enforces no specialisation pathway despite the companion assessment's 3/3 Domain Depth score resting on tracks that remain student-elected. |
+| ML system deployment and monitoring (MLOps) | **↑ Rising** | The prior skill-shift table recorded this rising at Very Fast velocity from Medium-declining manual Python wrangling; Signal 4 and CI-1 confirm containerisation, CI/CD and model-monitoring skills are increasingly listed while dedicated MLOps content is absent from the core. |
+| AI governance, model cards and responsible-AI documentation | **↑ Rising** | Signal 6 and CI-4 record "AI Governance Analyst" and "ML Compliance Specialist" as a growing role cluster, against a companion-assessment score of 2/3 on AI Literacy and Governance because "no dedicated AI ethics or governance unit" is visible in the curriculum. |
+| Domain knowledge and analytical judgment applied to real business problems | **→ Stable, differentiating** | Theme 3 (§3) holds that the durable differentiator for data professionals is domain knowledge plus analytical judgment rather than tool proficiency, and the companion assessment ties this to the capstone/research project — itself only 2/3 on Research Methods Rigour because the deeper research pathway is optional. |
+| Manual feature engineering for classical ML | **↓ Falling** | The prior skill-shift table recorded this declining at Medium velocity as AutoML evaluation and governance rises at Fast velocity in its place. |
+| Traditional BI and static dashboards (Tableau, SSRS) | **↓ Falling** | The prior skill-shift table recorded this declining at Fast velocity, consistent with Signal 1's finding that generic "Data Scientist" and reporting-oriented titles are giving way to specialised ones. |
+| Manual report generation and slide production | **↓↓ Falling sharply** | The prior skill-shift table recorded this as the fastest-declining skill of the set (Very Fast), opposite the Fast-rising AI governance and documentation skills that are replacing it. |
 
 ---
 

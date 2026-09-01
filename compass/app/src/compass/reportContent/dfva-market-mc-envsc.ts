@@ -61,20 +61,18 @@ Competency frameworks from [EIANZ](https://www.eianz.org/) highlight that enviro
 
 ---
 
-## 4. SKILL SHIFT SUMMARY
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
-### Declining Demand
-- Manual desktop GIS digitising and basic static map creation
-- Descriptive EIA reports without quantitative data integration
-- Isolated environmental sampling without automated sensor or remote sensing workflows
+Note: §3 for this program is a competitor-positioning table rather than sourced discussion
+themes, so rows below ground in §1/§2 signals and the companion Panel C v4.2 evidence instead.
 
-### Rising Demand
-- Evaluative verification of AI/ML spatial classifications and automated hydrological models
-- Cloud-native geospatial analytics (Google Earth Engine, Python geopandas, R spatial)
-- Mandatory climate and nature-related financial disclosure (TCFD, TNFD, AASB standards)
-- Interdisciplinary client consulting, statutory negotiation, and First Nations engagement
-
----
+| Skill | Direction | Rationale |
+|---|---|---|
+| Python/R spatial data science and cloud-native geospatial analysis (Google Earth Engine) | **↑↑ Rising sharply** | Signal 3 (§2) reports GIS and remote-sensing proficiency shifting from desirable to required in job ads; C3 scores 1/3 — digital/quantitative tooling sits only in the elective Professional Skills list, and no digital-tool or AI content appears in any core subject. |
+| Mandatory climate-disclosure and TCFD/TNFD reporting literacy | **↑↑ Rising sharply** | Signal 1 (§2) reports ESG/climate-disclosure postings growing materially since Australia's 2025–26 mandatory reporting legislation; C4 scores 2/3 — EVSC90014's real work-based report applies methods to unfamiliar problems, but no compulsory disclosure-framework module is documented. |
+| Industry-project stakeholder delivery and client accountability | **↑ Rising** | Signal 7 (§2) names the 25-point industry project as a tangible employer-facing differentiator against research-only competitor programs; W1 and W3 both score 2/3 — the industry-partner assessment exists, but professional-conduct criteria and placement duration are undocumented, capping the item short of level 3. |
+| Criterion-referenced appraisal of automated model or AI-tool output | **↑ Rising** | C2 scores 2/3 on a documented peer-review task (EVSC90017), but no core assessment requires justifying reliance on or overriding an automated model — the evaluative-judgement gap that Signal 3's shift toward automated remote-sensing tooling opens up. |
+| Manual desktop GIS operations (digitising, basic overlays) | **↓↓ Falling sharply** | This section's own prior Declining Demand table and Signal 3 (§2) together place manual desktop GIS work as the first task displaced by cloud-native and AI-assisted geospatial pipelines. |
 
 ## 5. CURRICULUM IMPLICATIONS
 

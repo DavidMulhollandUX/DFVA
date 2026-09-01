@@ -62,16 +62,17 @@ Standards from the [ADC](https://www.adc.org.au/) confirm that a rigorous clinic
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Analogue polyvinyl siloxane impressions and manual plaster articulations
-- Unverified reliance on dental laboratory milling algorithms without specialist review
-- Single-specialty isolated practice without multidisciplinary referral pathways
-
-### Rising Demand
-- Intraoral digital scanning (STL/PLY workflows) and CAD/CAM crown/bridge design
-- Cone-beam CT (CBCT) 3D interpretation and guided implant surgical planning
-- Interprofessional clinical team leadership and complex oncology rehabilitation
-- Evaluative verification of AI-assisted dental margin detection and diagnostic triage
+| Skill | Direction | Rationale |
+|---|---|---|
+| Digital CAD/CAM restorative design and intraoral scanning workflow (exocad, 3Shape, iTero) | **↑↑ Rising sharply** | Signal 2 finds 60–70% of prosthodontics-adjacent specialist ads explicitly require intraoral-scanning and CAD/CAM experience, and Theme 2 (§3) records specialist dentists reporting they had to self-teach this post-qualification because training did not cover it — the companion assessment scores Technical and Quantitative Depth only 2/3 on the same gap. |
+| CBCT acquisition and AI-adjunct radiographic interpretation | **↑↑ Rising sharply** | Theme 1 (§3) describes AI diagnostic tools (Pearl, Videa Health, Overjet) entering radiographic interpretation as adjuncts requiring specialist sign-off, against a companion-assessment score of 0/3 on AI Literacy and Governance — no AI-specific curriculum content exists despite this employer expectation (CI-2/P1). |
+| Interdisciplinary case conferencing and hospital-based complex-patient management | **↑ Rising** | Theme 5 (§3) records rising medically-compromised patient complexity (ageing, polypharmacy, cancer survivorship) driving specialist practice toward interdisciplinary hospital settings, against a companion score of 1/3 on Systems Thinking because cross-disciplinary framing is not an explicit assessed competency (CI-4/P3). |
+| Telehealth oral-health governance (indemnity, consent, jurisdictional scope) | **↑ Rising** | Signal 6 and Theme 7 (§3) describe RFDS and rural health services expanding specialist telehealth advisory roles even as practising specialists report being unclear about their own indemnity coverage — the curriculum carries no telehealth-governance content (CI-5/P5). |
+| Cultural safety and First Nations oral health competency | **→ Stable, differentiating** | Theme 4 (§3) records ACCHO dental staff and ADA Indigenous-health advocates calling for explicit cultural-safety training ahead of rural and remote specialist roles, a gap the curriculum has not yet closed (CI-3). |
+| Complex specialist clinical judgment and physical procedural skill | **→ Stable, differentiating** | The companion assessment scores Automation Exposure of Roles and Domain Depth and Specialisation 3/3 each, and Theme 1 (§3) confirms AI tools are positioned as adjuncts requiring specialist validation, not substitutes, for exactly this judgment. |
+| Analogue impression-taking (polyvinyl siloxane, plaster) | **↓↓ Falling sharply** | The prior skill-shift table recorded this shift at Fast velocity against an equally Fast-rising digital-scanning replacement, and Signal 2 shows that replacement already required in the majority of specialist ads. |
+| Film-based dental radiography interpretation | **↓↓ Falling sharply** | The prior skill-shift table recorded this shift at Very Fast velocity, opposite the Very Fast rise of CBCT-based digital reporting captured above. |
+| Manual laboratory communication (phone or manual articulator) | **↓ Falling** | Superseded by digital case design and STL-file lab communication through CAD/CAM portals, which Theme 2 (§3) and Signal 2 both describe as the new baseline in specialist practice. |
 
 ---
 

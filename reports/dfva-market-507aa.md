@@ -57,16 +57,13 @@ Standards from [AABHL](https://aabhl.org/) confirm that authentic clinical risk 
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Routine health compliance checklists and basic regulatory tracking
-- Siloed medico-legal analysis without clinical workflow understanding
-- Purely domestic health regulation without international pandemic/biotech context
-
-### Rising Demand
-- Clinical AI governance, algorithmic accountability, and SaMD regulatory law
-- Complex medical negligence litigation and coronial inquest representation
-- Health data privacy, genomic data governance, and My Health Record frameworks
-- Multidisciplinary bioethics committee advisory and clinical crisis decision-making
+| Skill | Direction | Rationale |
+|---|---|---|
+| Clinical AI governance, algorithmic accountability and SaMD regulatory law | **↑↑ Rising sharply** | Theme 1 (§3) — LCA (November 2024) and the *Journal of Law and Medicine* (December 2024) hold that practitioners retain non-delegable statutory liability for diagnostic-error verification and informed consent even as AI assists diagnostic screening, yet C3 scores 1/3: the AI-bearing subjects (Comparative Health Law, Law and Emerging Health Technologies, Health Data Governance) sit entirely in prescribed lists, three marked 'Not available in 2026', and no core unit exists. |
+| Health data privacy, genomic data governance and My Health Record compliance | **↑ Rising** | Signal 2 (§2) reports hospital networks and digital health providers requiring counsel fluent in genomic data protection and My Health Record frameworks, while C2 scores 1/3 — the two reflective assessments in the extract sit in prescribed-list subjects no student must take, and neither documents criterion-referenced appraisal against standards. |
+| Multidisciplinary bioethics panel advisory and clinical crisis decision-making | **→ Stable, differentiating** | Theme 2 (§3) — AABHL and AHPRA reporting describes health lawyers operating across interprofessional panels of clinicians, bioethicists and patient advocates, yet C1 scores 1/3: every assessment table in the extract is individual (research paper, take-home examination, class participation), with no documented group project or interprofessional task. |
+| Siloed medico-legal analysis without clinical workflow understanding | **↓ Falling** | Signal 3 (§2) shows demand shifting toward complex coronial-inquest advocacy and clinical risk frameworks over routine tracking, while C4 scores 1/3 — no core assessment requires application to novel or unfamiliar clinical-legal problems, since the course prescribes only a credit volume from elective lists. |
+| Routine health compliance checklists and basic regulatory tracking | **↓↓ Falling sharply** | Signal 4 (§2) documents significant automation of routine regulatory filing and preliminary case retrieval; C5 scores 1/3 — the documented research-paper artefact is doctrinal secondary synthesis with no methodology selection or primary data collection. |
 
 ---
 

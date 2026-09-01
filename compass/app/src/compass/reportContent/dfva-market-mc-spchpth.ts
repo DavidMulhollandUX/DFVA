@@ -62,16 +62,13 @@ Reports by [ACSQHC](https://www.safetyandquality.gov.au/) (2024) and [NDIA](http
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Manual phonetic transcription of routine speech recordings
-- Routine tallying of standardized language sample metrics without diagnostic synthesis
-- Formulaic intake reporting and manual mealtime management documentation
-
-### Rising Demand
-- Evaluative judgement and override auditing of AI-generated acoustic analysis and automatic speech recognition outputs
-- Complex bedside dysphagia decision-making, instrumental swallow evaluation (FEES/videofluoroscopy), and airway safety management
-- High-level paediatric neurodiversity-affirming communication intervention and family coaching
-- AI healthcare ethics, speech technology bias auditing, and patient privacy compliance
+| Skill | Direction | Rationale |
+|---|---|---|
+| Override auditing of AI-generated acoustic analysis and ASR output | **↑↑ Rising sharply** | Theme 1 (§3) finds AI acoustic-analysis and speech-recognition models exhibit severe bias against atypical speech, paediatric voices and non-standard dialects, requiring expert clinical override authority. |
+| AI healthcare ethics, speech-technology bias auditing and data-privacy compliance | **↑ Rising** | Theme 3 (§3) documents emerging ACSQHC/NDIA governance concern around generative communication assistants and AAC data privacy; CI-3 notes algorithmic bias and AI governance content is unassessed across the core (C3). |
+| Complex bedside dysphagia decision-making and instrumental swallow evaluation | **→ Stable, differentiating** | Signal 3 (§2) rates this LOW substitution pressure — live, physical oral-motor examination and tactile clinical reasoning remain fundamentally non-automatable. |
+| Manual phonetic transcription of routine speech recordings | **↓↓ Falling sharply** | Theme 2 (§3) describes automated speech-to-text case-note drafting streamlining exactly this administrative task, provided clinicians verify verbatim intent. |
+| Formulaic intake reporting and routine language-sample tallying | **↓ Falling** | Signal 2 (§2) notes AI-enhanced SALT/SUGAR-style tools automate routine language-sample profiling, shifting clinical effort toward differential diagnosis and perceptual validation. |
 
 ---
 

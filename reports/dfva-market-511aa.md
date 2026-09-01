@@ -57,16 +57,13 @@ Standards from the [LCA](https://lawcouncil.au/) and [AIIA](https://www.internat
 
 ## 4. SKILL SHIFT SUMMARY
 
-### Declining Demand
-- Standardized foreign legal research and routine comparative summaries
-- Purely domestic administrative analysis without digital governance context
-- Siloed doctrinal legal analysis without geopolitical treaty understanding
-
-### Rising Demand
-- Automated government decision-making audits and algorithmic administrative law
-- Bilateral treaty negotiation, autonomous systems law, and international sanctions
-- Constitutional litigation, judicial review, and parliamentary inquiry advisory
-- Multilateral diplomatic advocacy and international humanitarian law adjudication
+| Skill | Direction | Rationale |
+|---|---|---|
+| Automated government decision-making audits and algorithmic administrative law | **↑↑ Rising sharply** | Theme 1 (§3) — LCA (November 2024) and the *Australian Year Book of International Law* (December 2024) hold that lawyers retain non-delegable responsibility for automated public-administration oversight even as AI assists geospatial intelligence and treaty-database analysis, yet C3 scores 1/3: Artificial Intelligence and the Law, AI and Justice, and International Law and AI sit entirely on the elective options menu, with no core subject page captured. |
+| Bilateral treaty negotiation, autonomous systems law and international sanctions | **↑ Rising** | Signal 1 (§2) reports DFAT, AGD and Defence recruiting specialists for autonomous-weapons governance and sanctions, while C4 scores 1/3 — the extract documents word counts and due dates only, no feature establishing novel-problem application, and the self-scoped research paper is always Option 2 against a take-home examination. |
+| Multilateral diplomatic advocacy and cross-cultural consensus building | **→ Stable, differentiating** | Theme 2 (§3) — AIIA and ACFID reporting describes advisors operating across multinational working groups requiring collaborative consensus building, yet C1 scores 0/3: no group task, team assessment or stakeholder/client work appears in any of the 16 subject assessment tables, all of which list only a take-home examination or coordinator-approved research paper. |
+| Siloed doctrinal legal analysis without geopolitical treaty understanding | **↓ Falling** | W1 scores 0/3 — every written artefact across all 32 captured pages is a take-home examination or research paper addressed only to the marker, with no professional genre or audience beyond the teaching team, consistent with demand moving away from purely doctrinal output. |
+| Standardized foreign legal research and routine comparative summaries | **↓↓ Falling sharply** | Signal 4 (§2) documents automation pressure on standardised foreign-law research and preliminary administrative submissions; W2 scores 0/3 because the documented assessment is entirely decontextualised exams and essays, with case-study material appearing only as taught content, never as an assessed scenario-framed task. |
 
 ---
 
