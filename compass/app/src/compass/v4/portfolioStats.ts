@@ -18,7 +18,7 @@
  */
 import { V4_META, v4PanelCByCode, type V4PanelC } from "./data/v4PanelC";
 import { V4_RUBRIC } from "./data/v4Rubric";
-import { REPORT_INDEX } from "./reportIndex";
+import { REPORT_INDEX, type ReportIndexEntry } from "./reportIndex";
 import {
   V4_TIER_LABELS,
   basisFor,
@@ -395,4 +395,22 @@ export function sortRows(rows: Row[], key: SortKey, dir: SortDir): Row[] {
   const signed: (a: Row, b: Row) => number =
     dir === "asc" ? base : (a, b) => base(b, a);
   return [...rows].sort(tiebreak(signed));
+}
+
+/** The badge component reads a ReportIndexEntry; a portfolio row carries the
+ *  same fields it needs, so pass the narrow shape across. Shared by every
+ *  page that renders a V4StatusBadge from a V4PortfolioRow. */
+export function toIndexEntryShape(r: V4PortfolioRow): ReportIndexEntry {
+  return {
+    code: r.code,
+    name: r.name,
+    faculty: r.faculty,
+    status: r.unassessedReason ?? "current",
+    exposure: r.exposure,
+    exposureTier: (r.exposureTier ?? null) as ReportIndexEntry["exposureTier"],
+    adaptiveness: r.adaptiveness,
+    workplace: r.workplace,
+    position: r.position,
+    archived: { v1: false, v31: false },
+  };
 }

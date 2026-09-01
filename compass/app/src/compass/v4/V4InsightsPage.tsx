@@ -27,6 +27,7 @@ import {
   quickWins,
   sortRows,
   thresholdTieCount,
+  toIndexEntryShape,
   v4PortfolioRows,
   type SortDir,
   type SortKey,
@@ -35,7 +36,6 @@ import {
 import { V4_INSTRUMENT } from "./data/v4Rubric";
 import { V4_META } from "./data/v4PanelC";
 import { QUADRANTS, type QuadrantConfig } from "../v2/quadrants";
-import type { ReportIndexEntry } from "./reportIndex";
 
 /** Reading order for the four positions: strongest footing first. */
 const POSITION_ORDER = [
@@ -981,21 +981,4 @@ export default function V4InsightsPage() {
       </div>
     </InsightsGate>
   );
-}
-
-/** The badge component reads a ReportIndexEntry; a portfolio row carries the
- *  same three fields it needs, so pass the narrow shape across. */
-function toIndexEntryShape(r: V4PortfolioRow): ReportIndexEntry {
-  return {
-    code: r.code,
-    name: r.name,
-    faculty: r.faculty,
-    status: r.unassessedReason ?? "current",
-    exposure: r.exposure,
-    exposureTier: (r.exposureTier ?? null) as ReportIndexEntry["exposureTier"],
-    adaptiveness: r.adaptiveness,
-    workplace: r.workplace,
-    position: r.position,
-    archived: { v1: false, v31: false },
-  };
 }

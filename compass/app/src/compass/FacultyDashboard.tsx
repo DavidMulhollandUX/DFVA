@@ -1,9 +1,20 @@
 import { useMemo } from "react";
 import { Link, useParams } from "react-router";
-import { codeFromSlug, programReportPath } from "./reportLinks";
-import { PROGRAMS, type ProgramReport } from "./sharedProgramData";
-import { getFaculty, facultySlug } from "./faculty";
+import { programReportPath } from "./reportLinks";
+import { facultySlug } from "./faculty";
 import { FACULTY_OUTCOMES, type FacultyOutcome } from "./facultyOutcomes";
+import {
+  facultyRows,
+  itemAverages,
+  needsAttention,
+  quickWins,
+  toIndexEntryShape,
+  v4PortfolioRows,
+  type FacultyRow,
+  type V4PortfolioRow,
+} from "./v4/portfolioStats";
+import { QUADRANTS } from "./v2/quadrants";
+import { V4StatusBadge } from "./v4/V4StatusBadge";
 import {
   Building2,
   AlertTriangle,
@@ -22,126 +33,34 @@ import {
   CardTitle,
 } from "../client/components/ui/card";
 
-const DIM_LABELS = [
-  "Automation Exposure",
-  "Systems Thinking",
-  "Technical Depth",
-  "Decision-Making",
-  "AI Literacy",
-  "Domain Depth",
-  "Research Rigour",
-  "Human & Relational",
-  "Curriculum Currency",
-  "Outcome Evidence",
-  "Irreplaceability (bonus)",
-];
-
-interface FacultyStats {
-  name: string;
-  count: number;
-  avgScore: number;
-  minScore: number;
-  maxScore: number;
-  bands: Record<string, number>;
-  dimAvgs: Record<string, number>;
-  weakestDim: string;
-  weakestAvg: number;
-  strongestDim: string;
-  strongestAvg: number;
-  programs: ProgramReport[];
-}
-
-function computeFacultyStats(): FacultyStats[] {
-  const groups: Record<string, ProgramReport[]> = {};
-  for (const p of PROGRAMS) {
-    const f = getFaculty(p.program);
-    if (!groups[f]) groups[f] = [];
-    groups[f].push(p);
-  }
-
-  return Object.entries(groups)
-    .map(([name, programs]) => {
-      const avgScore =
-        programs.reduce((s, p) => s + p.score, 0) / programs.length;
-
-      const bands: Record<string, number> = {};
-      for (const p of programs) {
-        bands[p.riskBand] = (bands[p.riskBand] || 0) + 1;
-      }
-
-      const dimAvgs: Record<string, number> = {};
-      for (const dim of DIM_LABELS) {
-        // Exclude Not-Applicable dimensions (score === null) so they don't drag the average to 0.
-        const scores = programs
-          .map((p) => p.dimensions.find((d) => d.label === dim)?.score)
-          .filter((s): s is number => s !== null && s !== undefined);
-        dimAvgs[dim] =
-          scores.length > 0
-            ? scores.reduce((s, v) => s + v, 0) / scores.length
-            : 0;
-      }
-
-      const entries = Object.entries(dimAvgs);
-      const weakest = entries.reduce((a, b) => (a[1] < b[1] ? a : b));
-      const strongest = entries.reduce((a, b) => (a[1] > b[1] ? a : b));
-
-      return {
-        name,
-        programs,
-        count: programs.length,
-        avgScore,
-        minScore: Math.min(...programs.map((p) => p.score)),
-        maxScore: Math.max(...programs.map((p) => p.score)),
-        bands,
-        dimAvgs,
-        weakestDim: weakest[0],
-        weakestAvg: weakest[1],
-        strongestDim: strongest[0],
-        strongestAvg: strongest[1],
-      };
-    })
-    .sort((a, b) => b.avgScore - a.avgScore);
-}
-
-function scoreColor(score: number): string {
-  if (score >= 24) return "text-emerald-600 dark:text-emerald-400";
-  if (score >= 20) return "text-yellow-600 dark:text-yellow-400";
-  return "text-red-600 dark:text-red-400";
-}
-
-function scoreBg(score: number): string {
-  if (score >= 24) return "bg-emerald-50 dark:bg-emerald-900/20";
-  if (score >= 20) return "bg-yellow-50 dark:bg-yellow-900/20";
-  return "bg-red-50 dark:bg-red-900/20";
-}
-
-const riskBandStyles: Record<string, string> = {
-  RESILIENT:
-    "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300",
-  "MODERATE RISK":
-    "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300",
-  "HIGH RISK":
-    "bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-300",
-  CRITICAL: "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300",
-};
-function dimBar(avg: number): string {
-  const pct = avg / 3;
-  if (pct >= 0.83) return "bg-emerald-500";
-  if (pct >= 0.5) return "bg-yellow-500";
-  return "bg-red-500";
+function gateFails(r: V4PortfolioRow): boolean {
+  return r.gates?.G1 === "not-met" || r.gates?.G2 === "not-met";
 }
 
 // ---------------------------------------------------------------------------
 // Per-faculty detail view (rendered when /insights/faculty/:facultySlug matches)
 // ---------------------------------------------------------------------------
-function FacultyDetail({ f }: { f: FacultyStats }) {
-  const programs = [...f.programs].sort((a, b) => b.score - a.score);
-  const nearThreshold = programs.filter((p) => p.score >= 26 && p.score < 28);
-  const atRisk = programs.filter(
-    (p) => p.riskBand === "HIGH RISK" || p.riskBand === "CRITICAL",
+function FacultyDetail({
+  summary,
+  programs,
+}: {
+  summary: FacultyRow;
+  programs: V4PortfolioRow[];
+}) {
+  const assessed = programs.filter((p) => p.assessed);
+  const unassessed = programs.filter((p) => !p.assessed);
+  const sorted = [...assessed].sort(
+    (a, b) => (b.adaptiveness ?? -1) - (a.adaptiveness ?? -1),
   );
-  const dims = DIM_LABELS.map((l) => ({ label: l, avg: f.dimAvgs[l] })).sort(
-    (a, b) => a.avg - b.avg,
+  const wins = quickWins(programs);
+  const atRisk = programs.filter(
+    (p) => p.position === "attention" || gateFails(p),
+  );
+  const adaptiveAvgs = itemAverages(programs).filter(
+    (a) => a.subscale === "adaptive",
+  );
+  const workplaceAvgs = itemAverages(programs).filter(
+    (a) => a.subscale === "workplace",
   );
 
   return (
@@ -156,74 +75,74 @@ function FacultyDetail({ f }: { f: FacultyStats }) {
         <div>
           <h1 className="text-foreground flex items-center gap-3 text-3xl font-bold tracking-tight">
             <Building2 className="text-primary h-8 w-8" />
-            {f.name}
+            {summary.name}
           </h1>
           <p className="text-muted-foreground mt-2">
-            {f.count} program{f.count !== 1 ? "s" : ""} assessed · range{" "}
-            {f.minScore}–{f.maxScore}/36
+            {summary.total} program{summary.total !== 1 ? "s" : ""}
+            {summary.assessed < summary.total
+              ? ` — ${summary.assessed} assessed, ${
+                  summary.total - summary.assessed
+                } research (not scored)`
+              : " assessed"}
           </p>
         </div>
         <div className="text-right">
-          <div className={`text-3xl font-bold ${scoreColor(f.avgScore)}`}>
-            {f.avgScore.toFixed(1)}
+          <div className="text-3xl font-bold">
+            {summary.avgAdaptiveness === null
+              ? "—"
+              : summary.avgAdaptiveness.toFixed(1)}
             <span className="text-muted-foreground text-base font-normal">
-              /36
+              /15
             </span>
           </div>
-          <div className="text-muted-foreground text-xs">faculty average</div>
+          <div className="text-muted-foreground text-xs">avg. adaptiveness</div>
         </div>
       </div>
 
-      {/* band distribution + strength/gap */}
+      {/* position distribution + item profile */}
       <div className="mb-8 grid grid-cols-1 gap-6 md:grid-cols-2">
         <Card>
           <CardHeader>
-            <CardTitle className="text-base">Risk distribution</CardTitle>
+            <CardTitle className="text-base">Position distribution</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="space-y-3">
-              {[
-                {
-                  label: "RESILIENT",
-                  color: "bg-emerald-500",
-                  text: "text-emerald-700 dark:text-emerald-300",
-                },
-                {
-                  label: "MODERATE RISK",
-                  color: "bg-yellow-500",
-                  text: "text-yellow-700 dark:text-yellow-300",
-                },
-                {
-                  label: "HIGH RISK",
-                  color: "bg-orange-500",
-                  text: "text-orange-700 dark:text-orange-300",
-                },
-                {
-                  label: "CRITICAL",
-                  color: "bg-red-500",
-                  text: "text-red-700 dark:text-red-300",
-                },
-              ].map((b) => {
-                const c = f.bands[b.label] || 0;
+              {(
+                [
+                  "well-positioned",
+                  "comfortable",
+                  "sheltered",
+                  "attention",
+                ] as const
+              ).map((pos) => {
+                const c = summary.positions[pos];
+                const cfg = QUADRANTS[pos];
                 return (
-                  <div key={b.label}>
+                  <div key={pos}>
                     <div className="mb-1 flex justify-between text-sm">
-                      <span
-                        className={c > 0 ? b.text : "text-muted-foreground"}
-                      >
-                        {b.label}
+                      <span className={c > 0 ? "" : "text-muted-foreground"}>
+                        {cfg.desc}
                       </span>
                       <span className="font-medium">
                         {c}{" "}
                         <span className="text-muted-foreground text-xs">
-                          ({Math.round((c / f.count) * 100)}%)
+                          (
+                          {summary.assessed
+                            ? Math.round((c / summary.assessed) * 100)
+                            : 0}
+                          %)
                         </span>
                       </span>
                     </div>
                     <div className="bg-muted h-2 w-full overflow-hidden rounded-full">
                       <div
-                        className={`h-full rounded-full ${b.color}`}
-                        style={{ width: `${(c / f.count) * 100}%` }}
+                        className="h-full rounded-full"
+                        style={{
+                          width: `${
+                            summary.assessed ? (c / summary.assessed) * 100 : 0
+                          }%`,
+                          backgroundColor: cfg.hex,
+                        }}
                       />
                     </div>
                   </div>
@@ -234,54 +153,58 @@ function FacultyDetail({ f }: { f: FacultyStats }) {
         </Card>
         <Card>
           <CardHeader>
-            <CardTitle className="text-base">Dimension profile</CardTitle>
+            <CardTitle className="text-base">Curriculum profile</CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground mb-3 text-xs">
-              Strongest:{" "}
+              Weakest shared capability:{" "}
               <span className="text-foreground font-medium">
-                {f.strongestDim} ({f.strongestAvg.toFixed(1)})
-              </span>{" "}
-              · Weakest:{" "}
-              <span className="text-foreground font-medium">
-                {f.weakestDim} ({f.weakestAvg.toFixed(1)})
+                {summary.weakestItem ?? "—"}
               </span>
             </p>
-            <div className="space-y-1.5">
-              {dims.map((d) => (
-                <div key={d.label} className="flex items-center gap-2">
-                  <span className="text-muted-foreground w-32 shrink-0 truncate text-[11px]">
-                    {d.label}
-                  </span>
-                  <span className="bg-muted h-2 flex-1 overflow-hidden rounded-full">
-                    <span
-                      className={`block h-full rounded-full ${dimBar(d.avg)}`}
-                      style={{ width: `${(d.avg / 3) * 100}%` }}
-                    />
-                  </span>
-                  <span className="w-7 text-right text-[11px] font-semibold tabular-nums">
-                    {d.avg.toFixed(1)}
-                  </span>
+            {[
+              ["Adaptive items (/15)", adaptiveAvgs],
+              ["Workplace items (/9)", workplaceAvgs],
+            ].map(([groupLabel, bars]) => (
+              <div key={groupLabel as string} className="mt-3 first:mt-0">
+                <p className="text-muted-foreground mb-1.5 text-[10px] font-semibold tracking-[0.14em] uppercase">
+                  {groupLabel as string}
+                </p>
+                <div className="space-y-1.5">
+                  {(bars as ReturnType<typeof itemAverages>).map((d) => (
+                    <div key={d.id} className="flex items-center gap-2">
+                      <span className="text-muted-foreground w-32 shrink-0 truncate text-[11px]">
+                        {d.label}
+                      </span>
+                      <span className="bg-muted h-2 flex-1 overflow-hidden rounded-full">
+                        <span
+                          className="bg-secondary block h-full rounded-full"
+                          style={{ width: `${(d.avg / 3) * 100}%` }}
+                        />
+                      </span>
+                      <span className="w-7 text-right text-[11px] font-semibold tabular-nums">
+                        {d.avg.toFixed(1)}
+                      </span>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </CardContent>
         </Card>
       </div>
 
-      {/* near-threshold / at-risk callouts */}
-      {(nearThreshold.length > 0 || atRisk.length > 0) && (
+      {/* quick wins / at-risk callouts */}
+      {(wins.length > 0 || atRisk.length > 0) && (
         <div className="mb-8 grid grid-cols-1 gap-4 md:grid-cols-2">
-          {nearThreshold.length > 0 && (
+          {wins.length > 0 && (
             <div className="border-border rounded-lg border bg-emerald-50 p-4 dark:bg-emerald-900/10">
               <div className="mb-1 text-sm font-semibold text-emerald-800 dark:text-emerald-300">
-                Closest to RESILIENT
+                Highest-leverage changes
               </div>
               <div className="text-muted-foreground text-sm">
-                {nearThreshold
-                  .map(
-                    (p) => `${p.program} (${p.score}, ${28 - p.score} to go)`,
-                  )
+                {wins
+                  .map((p) => `${p.name} (${p.adaptiveness}/15)`)
                   .join(" · ")}
               </div>
             </div>
@@ -293,7 +216,9 @@ function FacultyDetail({ f }: { f: FacultyStats }) {
               </div>
               <div className="text-muted-foreground text-sm">
                 {atRisk
-                  .map((p) => `${p.program} (${p.score}, ${p.riskBand})`)
+                  .map(
+                    (p) => `${p.name}${gateFails(p) ? " (gate failure)" : ""}`,
+                  )
                   .join(" · ")}
               </div>
             </div>
@@ -308,67 +233,84 @@ function FacultyDetail({ f }: { f: FacultyStats }) {
             <thead>
               <tr className="border-border bg-muted/50 border-b">
                 <th className="px-4 py-3 text-left font-semibold">Program</th>
-                <th className="px-3 py-3 text-center font-semibold">Score</th>
-                <th className="px-3 py-3 text-center font-semibold">Band</th>
-                <th className="px-4 py-3 text-left font-semibold">
-                  Weakest dimensions
+                <th className="px-3 py-3 text-center font-semibold">
+                  Position
                 </th>
+                <th className="px-3 py-3 text-center font-semibold">
+                  Adaptiveness
+                </th>
+                <th className="px-3 py-3 text-center font-semibold">
+                  Workplace
+                </th>
+                <th className="px-3 py-3 text-center font-semibold">Gates</th>
                 <th className="px-3 py-3"></th>
               </tr>
             </thead>
             <tbody>
-              {programs.map((p) => {
-                const weak = p.dimensions
-                  .filter((d) => d.score !== null)
-                  .sort((a, b) => (a.score as number) - (b.score as number))
-                  .slice(0, 2)
-                  .map((d) => d.label)
-                  .join(", ");
-                return (
-                  <tr
-                    key={p.assessmentSlug}
-                    className="border-border hover:bg-muted/30 border-b transition-colors last:border-0"
-                  >
-                    <td className="px-4 py-3 font-medium">{p.program}</td>
-                    <td className="px-3 py-3 text-center">
-                      <span
-                        className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-bold ${scoreColor(
-                          p.score,
-                        )} ${scoreBg(p.score)}`}
-                      >
-                        {p.score}
+              {sorted.map((p) => (
+                <tr
+                  key={p.code}
+                  className="border-border hover:bg-muted/30 border-b transition-colors last:border-0"
+                >
+                  <td className="px-4 py-3 font-medium">{p.name}</td>
+                  <td className="px-3 py-3 text-center">
+                    <V4StatusBadge entry={toIndexEntryShape(p)} />
+                  </td>
+                  <td className="px-3 py-3 text-center tabular-nums">
+                    {p.adaptiveness}/15
+                  </td>
+                  <td className="px-3 py-3 text-center tabular-nums">
+                    {p.workplace}/9
+                  </td>
+                  <td className="px-3 py-3 text-center text-xs">
+                    {gateFails(p) ? (
+                      <span className="text-red-600 dark:text-red-400">
+                        {p.gates?.G1 === "not-met" ? "G1 " : ""}
+                        {p.gates?.G2 === "not-met" ? "G2 " : ""}
+                        failed
                       </span>
-                    </td>
-                    <td className="px-3 py-3 text-center">
-                      <span
-                        className={`inline-flex rounded-full px-2 py-0.5 text-xs font-semibold ${
-                          riskBandStyles[p.riskBand]
-                        }`}
-                      >
-                        {p.riskBand}
-                      </span>
-                    </td>
-                    <td className="text-muted-foreground px-4 py-3 text-xs">
-                      {weak}
-                    </td>
-                    <td className="px-3 py-3 text-right">
-                      <Link
-                        to={programReportPath(codeFromSlug(p.assessmentSlug))}
-                        className="text-primary inline-flex items-center gap-1 text-xs hover:underline"
-                      >
-                        Report <ArrowUpRight className="h-3 w-3" />
-                      </Link>
-                    </td>
-                  </tr>
-                );
-              })}
+                    ) : (
+                      <span className="text-muted-foreground">met</span>
+                    )}
+                  </td>
+                  <td className="px-3 py-3 text-right">
+                    <Link
+                      to={programReportPath(p.code)}
+                      className="text-primary inline-flex items-center gap-1 text-xs hover:underline"
+                    >
+                      Report <ArrowUpRight className="h-3 w-3" />
+                    </Link>
+                  </td>
+                </tr>
+              ))}
+              {unassessed.map((p) => (
+                <tr
+                  key={p.code}
+                  className="border-border hover:bg-muted/30 border-b opacity-70 transition-colors last:border-0"
+                >
+                  <td className="px-4 py-3 font-medium">{p.name}</td>
+                  <td className="px-3 py-3 text-center" colSpan={4}>
+                    <span className="text-muted-foreground text-xs italic">
+                      Not assessed — research degree
+                    </span>
+                  </td>
+                  <td className="px-3 py-3 text-right">
+                    <Link
+                      to={programReportPath(p.code)}
+                      className="text-primary inline-flex items-center gap-1 text-xs hover:underline"
+                    >
+                      Report <ArrowUpRight className="h-3 w-3" />
+                    </Link>
+                  </td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>
       </div>
 
-      {FACULTY_OUTCOMES[f.name] && (
-        <GraduateOutcomes outcome={FACULTY_OUTCOMES[f.name]} />
+      {FACULTY_OUTCOMES[summary.name] && (
+        <GraduateOutcomes outcome={FACULTY_OUTCOMES[summary.name]} />
       )}
     </div>
   );
@@ -510,7 +452,8 @@ function GraduateOutcomes({ outcome }: { outcome: FacultyOutcome }) {
               D10 Outcome Evidence
             </span>{" "}
             rose on the Job Insights destination evidence — applied to the
-            registry scores in the July 2026 re-scoring.
+            registry scores in the July 2026 re-scoring (v1 methodology,
+            archived).
           </p>
           <div className="space-y-1.5">
             {outcome.reclass.map((r) => (
@@ -561,7 +504,7 @@ function GraduateOutcomes({ outcome }: { outcome: FacultyOutcome }) {
   );
 }
 
-// Faculties with graduate-outcome data but no DFVA-scored programs (e.g. Fine Arts & Music)
+// Faculties with graduate-outcome data but no DFVA-scored programs
 function OutcomeOnlyDetail({
   name,
   outcome,
@@ -601,21 +544,39 @@ function OutcomeOnlyDetail({
 // ---------------------------------------------------------------------------
 export default function FacultyDashboard() {
   const { facultySlug: selectedSlug } = useParams<{ facultySlug: string }>();
-  const faculties = useMemo(() => computeFacultyStats(), []);
-  const aiLiteracyAvg = useMemo(() => {
-    const scores = PROGRAMS.map(
-      (p) => p.dimensions.find((d) => d.label === "AI Literacy")?.score ?? 0,
-    );
-    return scores.reduce((s, v) => s + v, 0) / scores.length;
-  }, []);
+
+  const rows = useMemo(() => v4PortfolioRows(), []);
+  const summaries = useMemo(() => facultyRows(rows), [rows]);
+  const byFaculty = useMemo(() => {
+    const m = new Map<string, V4PortfolioRow[]>();
+    for (const r of rows) {
+      const list = m.get(r.faculty) ?? [];
+      list.push(r);
+      m.set(r.faculty, list);
+    }
+    return m;
+  }, [rows]);
+  const c3Avg = useMemo(() => {
+    const assessed = rows.filter((r) => r.assessed);
+    const scores = assessed.map((r) => r.items?.C3 ?? 0);
+    return scores.length
+      ? scores.reduce((s, v) => s + v, 0) / scores.length
+      : 0;
+  }, [rows]);
 
   const selected = selectedSlug
-    ? faculties.find((f) => facultySlug(f.name) === selectedSlug)
+    ? summaries.find((f) => facultySlug(f.name) === selectedSlug)
     : undefined;
-  if (selected) return <FacultyDetail f={selected} />;
+  if (selected)
+    return (
+      <FacultyDetail
+        summary={selected}
+        programs={byFaculty.get(selected.name) ?? []}
+      />
+    );
 
-  // Outcome-only faculties: graduate-outcome data but no DFVA-scored programs (e.g. Fine Arts & Music)
-  const dfvaNames = new Set(faculties.map((f) => f.name));
+  // Outcome-only faculties: graduate-outcome data but no DFVA-scored programs
+  const dfvaNames = new Set(summaries.map((f) => f.name));
   const outcomeOnlyNames = Object.keys(FACULTY_OUTCOMES).filter(
     (n) => !dfvaNames.has(n),
   );
@@ -629,6 +590,11 @@ export default function FacultyDashboard() {
       );
   }
 
+  const totalAssessed = summaries.reduce((s, f) => s + f.assessed, 0);
+  const weightedAvg =
+    summaries.reduce((s, f) => s + (f.avgAdaptiveness ?? 0) * f.assessed, 0) /
+    Math.max(1, totalAssessed);
+
   return (
     <div className="mx-auto max-w-5xl px-4 py-16">
       <Link
@@ -640,11 +606,11 @@ export default function FacultyDashboard() {
       <div className="mb-10">
         <h1 className="text-foreground flex items-center gap-3 text-3xl font-bold tracking-tight">
           <Building2 className="text-primary h-8 w-8" />
-          Faculty Comparison
+          Faculty comparison
         </h1>
         <p className="text-muted-foreground mt-2">
-          DFVA performance across all faculties. Select a faculty to drill into
-          its programs.
+          DFVA v4 performance across all faculties. Select a faculty to drill
+          into its programs.
         </p>
       </div>
 
@@ -653,46 +619,46 @@ export default function FacultyDashboard() {
         <Card>
           <CardHeader className="pb-2">
             <CardTitle className="text-muted-foreground text-sm font-medium">
-              Faculties Assessed
+              Faculties represented
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">{faculties.length}</div>
+            <div className="text-2xl font-bold">{summaries.length}</div>
           </CardContent>
         </Card>
         <Card>
           <CardHeader className="pb-2">
             <CardTitle className="text-muted-foreground text-sm font-medium">
-              University Average
+              University average
             </CardTitle>
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">
-              {(
-                faculties.reduce((s, f) => s + f.avgScore * f.count, 0) /
-                faculties.reduce((s, f) => s + f.count, 0)
-              ).toFixed(1)}
+              {weightedAvg.toFixed(1)}
+              <span className="text-muted-foreground text-sm font-normal">
+                /15
+              </span>
             </div>
             <div className="text-muted-foreground text-xs">
-              weighted by program count
+              adaptiveness, weighted by assessed programs
             </div>
           </CardContent>
         </Card>
         <Card>
           <CardHeader className="pb-2">
             <CardTitle className="text-muted-foreground text-sm font-medium">
-              AI Literacy Gap
+              Digital & AI literacy
             </CardTitle>
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold text-red-600 dark:text-red-400">
-              {aiLiteracyAvg.toFixed(1)}{" "}
+              {c3Avg.toFixed(1)}{" "}
               <span className="text-muted-foreground text-sm font-normal">
                 / 3
               </span>
             </div>
             <div className="text-muted-foreground text-xs">
-              university-wide average
+              university-wide average, item C3
             </div>
           </CardContent>
         </Card>
@@ -709,25 +675,24 @@ export default function FacultyDashboard() {
                   Programs
                 </th>
                 <th className="px-3 py-3 text-center font-semibold">
-                  Avg Score
+                  Avg. exposure
                 </th>
                 <th className="px-3 py-3 text-center font-semibold">
-                  RESILIENT
+                  Avg. adaptiveness
                 </th>
                 <th className="px-3 py-3 text-center font-semibold">
-                  MODERATE
+                  Attention
                 </th>
-                <th className="px-3 py-3 text-center font-semibold">HIGH</th>
                 <th className="px-3 py-3 text-center font-semibold">
-                  CRITICAL
+                  Gate failures
                 </th>
                 <th className="px-4 py-3 text-left font-semibold">
-                  Weakest Dimension
+                  Weakest capability
                 </th>
               </tr>
             </thead>
             <tbody>
-              {faculties.map((f) => (
+              {summaries.map((f) => (
                 <tr
                   key={f.name}
                   className="border-border hover:bg-muted/30 border-b transition-colors"
@@ -741,61 +706,48 @@ export default function FacultyDashboard() {
                     </Link>
                   </td>
                   <td className="text-muted-foreground px-3 py-3 text-center">
-                    {f.count}
+                    {f.total}
+                    {f.assessed < f.total && (
+                      <span className="text-xs"> ({f.assessed} assessed)</span>
+                    )}
+                  </td>
+                  <td className="px-3 py-3 text-center tabular-nums">
+                    {f.avgExposure === null ? "—" : f.avgExposure.toFixed(1)}
+                  </td>
+                  <td className="px-3 py-3 text-center tabular-nums">
+                    {f.avgAdaptiveness === null
+                      ? "—"
+                      : `${f.avgAdaptiveness.toFixed(1)}/15`}
                   </td>
                   <td className="px-3 py-3 text-center">
-                    <span
-                      className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-bold ${scoreColor(
-                        f.avgScore,
-                      )} ${scoreBg(f.avgScore)}`}
-                    >
-                      {f.avgScore.toFixed(1)}
-                    </span>
-                  </td>
-                  <td className="px-3 py-3 text-center">
-                    {f.bands["RESILIENT"] ? (
-                      <span className="inline-flex rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-semibold text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300">
-                        {f.bands["RESILIENT"]}
+                    {f.positions.attention > 0 ? (
+                      <span
+                        className={`rounded-full px-2 py-0.5 text-xs font-medium ${QUADRANTS.attention.badgeClass}`}
+                      >
+                        {f.positions.attention}
                       </span>
                     ) : (
                       <span className="text-muted-foreground">—</span>
                     )}
                   </td>
                   <td className="px-3 py-3 text-center">
-                    {f.bands["MODERATE RISK"] ? (
-                      <span className="inline-flex rounded-full bg-yellow-100 px-2 py-0.5 text-xs font-semibold text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300">
-                        {f.bands["MODERATE RISK"]}
-                      </span>
-                    ) : (
-                      <span className="text-muted-foreground">—</span>
-                    )}
-                  </td>
-                  <td className="px-3 py-3 text-center">
-                    {f.bands["HIGH RISK"] ? (
-                      <span className="inline-flex rounded-full bg-orange-100 px-2 py-0.5 text-xs font-semibold text-orange-800 dark:bg-orange-900/30 dark:text-orange-300">
-                        {f.bands["HIGH RISK"]}
-                      </span>
-                    ) : (
-                      <span className="text-muted-foreground">—</span>
-                    )}
-                  </td>
-                  <td className="px-3 py-3 text-center">
-                    {f.bands["CRITICAL"] ? (
-                      <span className="inline-flex rounded-full bg-red-100 px-2 py-0.5 text-xs font-semibold text-red-800 dark:bg-red-900/30 dark:text-red-300">
-                        {f.bands["CRITICAL"]}
+                    {f.gateFailures > 0 ? (
+                      <span className="font-medium text-red-600 dark:text-red-400">
+                        {f.gateFailures}
                       </span>
                     ) : (
                       <span className="text-muted-foreground">—</span>
                     )}
                   </td>
                   <td className="px-4 py-3">
-                    <div className="flex items-center gap-1.5">
-                      <AlertTriangle className="h-3.5 w-3.5 text-red-500" />
-                      <span className="text-xs">{f.weakestDim}</span>
-                      <span className="text-muted-foreground text-xs">
-                        ({f.weakestAvg.toFixed(1)})
-                      </span>
-                    </div>
+                    {f.weakestItem ? (
+                      <div className="flex items-center gap-1.5">
+                        <AlertTriangle className="h-3.5 w-3.5 text-red-500" />
+                        <span className="text-xs">{f.weakestItem}</span>
+                      </div>
+                    ) : (
+                      <span className="text-muted-foreground">—</span>
+                    )}
                   </td>
                 </tr>
               ))}
