@@ -18,13 +18,21 @@
  *
  *   npx tsx check-capture-duplicates.ts
  */
-import { readdirSync, readFileSync } from 'node:fs'
+import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import { createHash } from 'node:crypto'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const RAW = path.join(ROOT, 'scrapes/v4/raw')
+
+// scrapes/v4/raw/ is a gitignored capture intermediate (CLAUDE.md: "capture
+// runs locally"). A CI checkout never has it, so there is nothing to check —
+// that is not a finding, it is the expected state of a fresh clone.
+if (!existsSync(RAW)) {
+  console.log('check-capture-duplicates: skipped — no local scrapes/v4/raw/ (gitignored, capture runs locally)')
+  process.exit(0)
+}
 
 // <code>__<slug>.json with a "text" field.
 interface RawPage {
