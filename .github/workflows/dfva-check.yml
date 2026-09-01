@@ -12,6 +12,8 @@ on:
       - 'compass/app/src/compass/data/**'
       - 'compass/app/src/compass/ReportDetailPage.tsx'
       - 'reports/**'
+      - 'scrapes/v4/**'
+      - '.github/workflows/dfva-check.yml'
   push:
     paths:
       - 'dfva/source/**'
@@ -23,6 +25,8 @@ on:
       - 'compass/app/src/compass/data/**'
       - 'compass/app/src/compass/ReportDetailPage.tsx'
       - 'reports/**'
+      - 'scrapes/v4/**'
+      - '.github/workflows/dfva-check.yml'
 
 permissions:
   contents: read

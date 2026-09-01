@@ -13,9 +13,9 @@ on:
   # itself; without it a broken or mis-triggered workflow edit ships unverified.
   push:
     branches: [main, dev]
-    paths: ['compass/app/**', 'compass/mcp/**', 'dfva/**', 'reports/**', 'scripts/**', '.github/workflows/**']
+    paths: ['compass/app/**', 'compass/mcp/**', 'dfva/**', 'reports/**', 'scripts/**', 'scrapes/v4/**', '.github/workflows/**']
   pull_request:
-    paths: ['compass/app/**', 'compass/mcp/**', 'dfva/**', 'reports/**', 'scripts/**', '.github/workflows/**']
+    paths: ['compass/app/**', 'compass/mcp/**', 'dfva/**', 'reports/**', 'scripts/**', 'scrapes/v4/**', '.github/workflows/**']
 
 permissions:
   contents: read
