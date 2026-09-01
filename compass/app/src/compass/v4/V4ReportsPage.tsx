@@ -11,6 +11,7 @@ import {
   V4_WORKPLACE_MAX,
 } from "./data/v4Rubric";
 import { REPORT_INDEX, type ReportIndexEntry } from "./reportIndex";
+import { V4StatusBadge } from "./V4StatusBadge";
 import { V4_QUADRANT_LABELS } from "./v4Position";
 import { V4_TIER_LABELS } from "./exposureBasis";
 
@@ -43,42 +44,6 @@ function Stat({
   );
 }
 
-function StatusBadge({ entry }: { entry: ReportIndexEntry }) {
-  if (entry.status === "research") {
-    return (
-      <span
-        className="bg-muted text-muted-foreground shrink-0 rounded px-2 py-0.5 text-[11px] font-semibold whitespace-nowrap"
-        title="Panel C v4 scores taught curriculum; research degrees have none to score"
-        data-testid="status-research"
-      >
-        Research degree · v4 n/a
-      </span>
-    );
-  }
-  if (entry.status === "archived") {
-    return (
-      <span
-        className="bg-muted text-muted-foreground shrink-0 rounded px-2 py-0.5 text-[11px] font-semibold whitespace-nowrap"
-        data-testid="status-archived"
-      >
-        v4 pending · v1 archived
-      </span>
-    );
-  }
-  const q = entry.position ? QUADRANTS[entry.position] : null;
-  return (
-    <span
-      className={`shrink-0 rounded px-2 py-0.5 text-[11px] font-semibold whitespace-nowrap ${
-        q ? q.badgeClass : "bg-muted text-muted-foreground"
-      }`}
-      title={entry.position ? V4_QUADRANT_LABELS[entry.position] : undefined}
-      data-testid="status-current"
-    >
-      {q ? q.short : "No exposure data"}
-    </span>
-  );
-}
-
 /** Research degrees have a report of their own (dfva-v4r-<code>) rather than
  *  only the archived v1 workspace. The card links it directly when it exists,
  *  and falls back to the v1 report for any research degree not yet authored. */
@@ -103,7 +68,7 @@ function ReportCard({ entry }: { entry: ReportIndexEntry }) {
               {entry.name}
             </h2>
           </div>
-          <StatusBadge entry={entry} />
+          <V4StatusBadge entry={entry} />
         </div>
 
         {current ? (
