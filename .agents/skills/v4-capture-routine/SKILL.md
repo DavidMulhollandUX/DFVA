@@ -131,9 +131,30 @@ Health flags worth surfacing even when green:
 
 - ox-alpha stall-watchdog kills (TimeoutError idle >600s) — note "model stalls" if a tick
   died that way, since it predicts retries.
-- Chrome absent / challenge pending / breaker open — always named, never silent.
+- Chrome absent / challenge pending / breaker open — always named on the tick that
+  **discovers** the condition, with the full CAPTURE line. Once reported, later ticks that
+  find the *same* unchanged cooloff (same reason, no new pages, no new assemblies) are a
+  routine skip and answer `[SILENT]` — otherwise a 29-minute cooloff delivers ~29 identical
+  reports. Re-report the moment anything changes: consecutive count rises, reason changes,
+  breaker closes, or `attend` replaces `cooloff`.
 - Any program stuck non-assembled with 0 pending pages (e.g. a handbook page gap like
   572at's missing assessment pages) — flag once per day, not per tick.
+
+### Pitfall: the gating `plan` call orphans a lease pair every tick (2026-08-27)
+
+The cron tick runs `v4-capture-queue.py plan 2` as its gate (to read
+`capture|attend|cooloff|idle`), then `v4-capture-antigravity.py 2` calls `plan` **again**
+internally. Those are two independent leases: the gate's pair is never captured and sits
+until `LEASE_SECONDS = 1200` (20 min) expires and returns it to pending.
+
+Consequence: `live` in `status` normally shows ~8–16 pages across several programs even
+though pacing is 2/tick. That is expected and self-healing — no page is lost, no `fail` is
+recorded. Do **not** try to "recover" them.
+
+The one real risk is end-of-queue starvation: when total pending drops below ~4, the gate can
+lease the last pages and the runner's own `plan` then reports `idle` while work is still
+outstanding. Near the end of the queue, treat `idle` as authoritative only if
+`status` also shows `live 0`; otherwise wait one lease TTL and re-check.
 
 ### Pitfall: "Executing JavaScript through AppleScript is turned off" (2026-08-26)
 

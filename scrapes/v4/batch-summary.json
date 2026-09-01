@@ -1,13 +1,13 @@
 {
-  "timestamp_utc": "2026-08-26T01:12:01Z",
-  "timestamp_local": "2026-08-26 11:12:01",
+  "timestamp_utc": "2026-09-01T02:49:35Z",
+  "timestamp_local": "2026-09-01 12:49:35",
   "action": "capture",
-  "attempted": 2,
-  "saved": 2,
+  "attempted": 1,
+  "saved": 1,
   "failed": 0,
   "assembled": [],
   "reason": "",
   "minutes_remaining": 0,
-  "details": "Batch finished: 2 saved, 0 failed. Latest: 635aa/subj-laws70161 (3815 chars).",
+  "details": "Batch finished: 1 saved, 0 failed. Latest: mc-musop/course (1509 chars).",
   "queue_summary": "57 program(s) prioritised — 1 still to assemble"
 }

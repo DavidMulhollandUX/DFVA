@@ -40,7 +40,7 @@ def load_crawler():
     if extra:
         sys.path.insert(0, os.path.expanduser(extra))
     try:
-        from crawl4ai import AsyncWebCrawler
+        from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode
     except ImportError as e:
         sys.exit(
             f"crawl4ai is not importable ({e}).\n"
@@ -50,7 +50,7 @@ def load_crawler():
             "or set CRAWL4AI_SITE_PACKAGES to its site-packages directory.\n"
             "Use --dry-run to inspect the work queue without crawl4ai."
         )
-    return AsyncWebCrawler
+    return AsyncWebCrawler, CrawlerRunConfig, CacheMode
 
 # ── University configs ──────────────────────────────────────────────────────
 UNI_CONFIGS = {
@@ -86,7 +86,7 @@ UNI_CONFIGS = {
 }
 
 
-async def scrape_one(config: dict, code: str, AsyncWebCrawler) -> dict | None:
+async def scrape_one(config: dict, code: str, AsyncWebCrawler, CrawlerRunConfig, CacheMode) -> dict | None:
     """Scrape overview (+ optionally structure) for one program. Returns None if blocked."""
     md = ""
 
@@ -94,7 +94,7 @@ async def scrape_one(config: dict, code: str, AsyncWebCrawler) -> dict | None:
     async with AsyncWebCrawler() as c:
         r = await c.arun(
             url=config["base_url"].format(code=code),
-            bypass_cache=True, timeout=30
+            config=CrawlerRunConfig(magic=True, cache_mode=CacheMode.BYPASS, page_timeout=30000, user_agent_mode="random")
         )
         if r.success:
             # Check for anti-bot block phrase
@@ -111,7 +111,7 @@ async def scrape_one(config: dict, code: str, AsyncWebCrawler) -> dict | None:
         async with AsyncWebCrawler() as c:
             r = await c.arun(
                 url=config["structure_url"].format(code=code),
-                bypass_cache=True, timeout=30
+                config=CrawlerRunConfig(magic=True, cache_mode=CacheMode.BYPASS, page_timeout=30000, user_agent_mode="random")
             )
             if r.success:
                 if config["anti_bot_phrase"] and config["anti_bot_phrase"] in (r.markdown or ""):
@@ -194,19 +194,20 @@ async def main(uni_key: str = "unimelb", dry_run: bool = False):
         print(f"  source           : {'queue ' + config['queue_file'] if using_queue else codes_file}")
         return "dry-run"
 
-    AsyncWebCrawler = load_crawler()
+    AsyncWebCrawler, CrawlerRunConfig, CacheMode = load_crawler()
 
     print(f"[{config['name']}] Scraping {len(batch)} of {len(pending)} pending "
           f"({len(scraped_codes)} already done)...")
 
     new_count = 0
     blocked_count = 0
+    rotated = False
 
     for i, code in enumerate(batch):
         await asyncio.sleep(config["request_delay"])
 
         print(f"  [{i+1}/{len(batch)}] {code}...", end=" ", flush=True)
-        result = await scrape_one(config, code, AsyncWebCrawler)
+        result = await scrape_one(config, code, AsyncWebCrawler, CrawlerRunConfig, CacheMode)
 
         if result:
             handbook = [h for h in handbook if h.get("code") != code]
@@ -216,9 +217,32 @@ async def main(uni_key: str = "unimelb", dry_run: bool = False):
         else:
             blocked_count += 1
             print("BLOCKED")
+            # Rotate the blocked code to the back of the queue so it does
+            # not sit at the front of `pending` on the next run and cause
+            # 2 consecutive blocks that halt all progress (queue poisoning).
+            if code in all_codes:
+                all_codes.append(all_codes.pop(all_codes.index(code)))
+                rotated = True
             if blocked_count >= 2:
                 print("  Block threshold reached — stopping batch")
                 break
+
+    # Persist any queue rotations so the reordering survives across runs.
+    if rotated:
+        src = queue_file if using_queue else codes_file
+        if using_queue:
+            try:
+                with open(src) as f:
+                    qd = json.load(f)
+                qd["codes"] = all_codes
+            except Exception:
+                qd = {"codes": all_codes}
+            with open(src, "w") as f:
+                json.dump(qd, f, indent=2)
+        else:
+            with open(src, "w") as f:
+                json.dump(all_codes, f, indent=2)
+        print(f"  Rotated blocked codes to back of queue -> {src}")
 
     # Save
     with open(handbook_file, "w") as f:
