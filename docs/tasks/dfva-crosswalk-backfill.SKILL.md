@@ -1968,3 +1968,28 @@ titles regardless, so mapping any of them unblocks nothing while creating a row 
 future program reporting the same string would inherit. They are filtered, not refused:
 they carry no adjudication, and if the crosswalk key ever carries the program they become
 live work again.
+
+## Twenty-third run, 2026-08-31 — 0 applied, 0 refused; the filter worked as designed
+
+`nextbatch 1` returned `[]` at the first command and the run exited without re-deriving the
+adjudication. This is the first run the twenty-second run's filter paid for itself: the 13
+parked programs and the titles holding them came back on stderr, so nothing was hidden and
+no verification pass was needed. Queue state is byte-identical to 2026-08-19 — `nextbatch
+60 --all` returns the same **40** titles across the same **13** programs, and `unmapped`
+still shows the four teaching titles as the only multi-program blockers. Nothing to map.
+
+### `status` moved, and it is not a mapping regression — do not chase it
+
+The twenty-second run recorded 168 Wave 1 / 53 measured / 115 needing a profile. It now
+reads **186 Wave 1 / 55 measured / 131 needing a profile**, and `ready` is **42** (42 ready
++ 13 parked = 55 measured, which reconciles). The Wave 1 cohort grew by 18; two of the
+additions carry measured JIR records and **both arrived fully mapped**, adding no blocking
+titles — that is why the blocked set did not move while the measured set did. If a future
+run sees `status` disagree with a recorded run log, check `ready` + parked against
+`measured` before concluding the crosswalk lost ground; the denominator changes on its own
+as Wave 1 is extended.
+
+The blocked count is therefore **not** the metric that will move next. The remaining 13
+programs are held by refused titles, so the next real increment is still the crosswalk key
+carrying the program alongside the title, exactly as the twenty-first run concluded. Two
+holdout programs were nevertheless gained this run at zero mapping cost.
