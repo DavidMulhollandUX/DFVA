@@ -2053,20 +2053,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "real estate brokers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "real estate broker",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 30,
+    "returned": 30,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "McCone Properties",
+      "CoStar Group",
+      "Mercor",
+      "Domain",
+      "Objective Pro Solutions",
+      "CoStar Realty Information, Inc.",
+      "New Town Real Estate LLC",
+      "JP Smith"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

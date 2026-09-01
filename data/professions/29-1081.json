@@ -2305,20 +2305,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "podiatrists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "podiatrist",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 950,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Mediix",
+      "Omega Medical Pty Ltd",
+      "Cornerstone Medical Recruitment",
+      "konnecting",
+      "Unite Recruitment",
+      "Stream Healthcare",
+      "SustainHealth Recruitment",
+      "Talaria Podiatrist of Thornbury"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

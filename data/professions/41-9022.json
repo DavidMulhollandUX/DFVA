@@ -1990,20 +1990,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "real estate sales agents",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "real estate agent",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 216,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "McCone Properties",
+      "Kaleidoscope Legal Recruitment",
+      "Belle Property",
+      "Macro Recruitment",
+      "Real Recruiters",
+      "Impact Properties Canberra",
+      "McGrath Estate Agents",
+      "Macarthur Real Estate Agency"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

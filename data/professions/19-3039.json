@@ -354,44 +354,26 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "psychologists, all other",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "psychologist",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 23347,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "SA Health",
+      "Skilled Nursing",
+      "Sharp & Carter",
+      "SA Health - Northern Adelaide Local Health Network",
+      "Northern Adelaide Local Health Network",
+      "Gidget Foundation",
+      "Queensland Government",
+      "Healthscope"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "psychologist",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
-      "count": 23347,
-      "returned": 50,
-      "topEmployers": [
-        "SA Health",
-        "Skilled Nursing",
-        "Sharp & Carter",
-        "SA Health - Northern Adelaide Local Health Network",
-        "Northern Adelaide Local Health Network",
-        "Gidget Foundation",
-        "Queensland Government",
-        "Healthscope"
-      ],
-      "topSkills": [
-        "counselling",
-        "research",
-        "clinical psychology",
-        "therapy"
-      ]
-    }
+      "counselling",
+      "research",
+      "clinical psychology",
+      "therapy"
+    ]
   },
   "corpus": {
     "platforms": [

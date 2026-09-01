@@ -1318,20 +1318,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "film and video editors",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "video editor",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 36,
+    "returned": 36,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "News Corp",
+      "Canva",
+      "Your Reformer",
+      "BrandComms.AI",
+      "Tracksuit Limited",
+      "MF Productions",
+      "Adelaide Development Corporation",
+      "NPE Operations LLC"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

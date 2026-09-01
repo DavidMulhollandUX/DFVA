@@ -1642,45 +1642,27 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "public relations specialists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "public relations",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 1024,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Burson",
+      "Stantec",
+      "Agency Iceberg",
+      "Tiffany & Co",
+      "GenesisCare",
+      "Mercor",
+      "Ogilvy Public Relations",
+      "MW Employment Solutions"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "public relations",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
-      "count": 1024,
-      "returned": 50,
-      "topEmployers": [
-        "Burson",
-        "Stantec",
-        "Agency Iceberg",
-        "Tiffany & Co",
-        "GenesisCare",
-        "Mercor",
-        "Ogilvy Public Relations",
-        "MW Employment Solutions"
-      ],
-      "topSkills": [
-        "public relations",
-        "communications",
-        "social media",
-        "media relations",
-        "stakeholder engagement"
-      ]
-    }
+      "public relations",
+      "communications",
+      "social media",
+      "media relations",
+      "stakeholder engagement"
+    ]
   },
   "corpus": {
     "platforms": [

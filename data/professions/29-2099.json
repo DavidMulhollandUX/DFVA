@@ -1424,20 +1424,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "health technologists and technicians, all other",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "health technician",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 60,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Geo Healthcare",
+      "Aidacare",
+      "GEO Healthcare",
+      "Amazon",
+      "Rockingham Harrisonburg SPCA",
+      "Slade Health",
+      "Eastern Health",
+      "JJ's Waste and Recycling"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

@@ -375,41 +375,23 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "anthropologists and archeologists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "archaeologist",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 6,
+    "returned": 6,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Jem Archaeology",
+      "Big Island Research",
+      "Jacobs",
+      "Data Sentry",
+      "SHORINGCO"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "archaeologist",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
-      "count": 6,
-      "returned": 6,
-      "topEmployers": [
-        "Jem Archaeology",
-        "Big Island Research",
-        "Jacobs",
-        "Data Sentry",
-        "SHORINGCO"
-      ],
-      "topSkills": [
-        "heritage",
-        "archaeology",
-        "fieldwork",
-        "research"
-      ]
-    }
+      "heritage",
+      "archaeology",
+      "fieldwork",
+      "research"
+    ]
   },
   "corpus": {
     "platforms": [

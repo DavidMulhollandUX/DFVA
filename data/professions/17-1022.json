@@ -1717,48 +1717,30 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "surveyors",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "surveyor",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 757,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Tetra Tech",
+      "Framework Search & Select Pty Ltd",
+      "Ertech",
+      "Rps Incorporated",
+      "Thiess",
+      "Bennett + Bennett",
+      "CPB",
+      "CPB Contractors"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "surveyor",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
-      "count": 757,
-      "returned": 50,
-      "topEmployers": [
-        "Tetra Tech",
-        "Framework Search & Select Pty Ltd",
-        "Ertech",
-        "Rps Incorporated",
-        "Thiess",
-        "Bennett + Bennett",
-        "CPB",
-        "CPB Contractors"
-      ],
-      "topSkills": [
-        "survey",
-        "construction",
-        "cadastral",
-        "gis",
-        "registration",
-        "mapping",
-        "boundary",
-        "gnss"
-      ]
-    }
+      "survey",
+      "construction",
+      "cadastral",
+      "gis",
+      "registration",
+      "mapping",
+      "boundary",
+      "gnss"
+    ]
   },
   "corpus": {
     "platforms": [

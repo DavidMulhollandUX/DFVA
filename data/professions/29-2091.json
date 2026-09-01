@@ -1801,20 +1801,21 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "orthotists and prosthetists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "orthotist prosthetist",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 8,
+    "returned": 8,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "SSS Prosthetics and Orthotics",
+      "Prostek",
+      "Tasmanian Government Jobs",
+      "NSW Government",
+      "Southern Prosthetics and Orthotics",
+      "SA Health - Flinders and Upper North Local Health Network",
+      "SA Health"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

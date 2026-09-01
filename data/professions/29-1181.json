@@ -1472,20 +1472,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "audiologists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "audiologist",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 142,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Amplifon",
+      "Hearing Australia",
+      "Bloom Hearing Specialists",
+      "OPSM",
+      "SA Health",
+      "Audika",
+      "Sunshine Hearing",
+      "Hearing Matters"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

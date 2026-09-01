@@ -1760,42 +1760,24 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "art directors",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "art director",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 45,
+    "returned": 45,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Cotton On Group",
+      "VML",
+      "The People Portal",
+      "twentysix",
+      "Kolbe Catholic College",
+      "Canva",
+      "Laser Clinics Australia",
+      "Eucalyptus"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "art director",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
-      "count": 45,
-      "returned": 45,
-      "topEmployers": [
-        "Cotton On Group",
-        "VML",
-        "The People Portal",
-        "twentysix",
-        "Kolbe Catholic College",
-        "Canva",
-        "Laser Clinics Australia",
-        "Eucalyptus"
-      ],
-      "topSkills": [
-        "creative direction",
-        "art direction"
-      ]
-    }
+      "creative direction",
+      "art direction"
+    ]
   },
   "corpus": {
     "platforms": [

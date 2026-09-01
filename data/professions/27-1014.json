@@ -2263,44 +2263,26 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "multi-media artists and animators",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "animator",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 249,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Flying Bark Productions",
+      "Flying Bark",
+      "KBR",
+      "Urban CGI",
+      "The Walt Disney Company",
+      "Industrial Light & Magic",
+      "Hooligan Animation",
+      "Mane Consulting"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "animator",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
-      "count": 249,
-      "returned": 50,
-      "topEmployers": [
-        "Flying Bark Productions",
-        "Flying Bark",
-        "KBR",
-        "Urban CGI",
-        "The Walt Disney Company",
-        "Industrial Light & Magic",
-        "Hooligan Animation",
-        "Mane Consulting"
-      ],
-      "topSkills": [
-        "animation",
-        "motion graphics",
-        "rigging",
-        "storyboard"
-      ]
-    }
+      "animation",
+      "motion graphics",
+      "rigging",
+      "storyboard"
+    ]
   },
   "corpus": {
     "platforms": [

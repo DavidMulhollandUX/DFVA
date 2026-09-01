@@ -1283,20 +1283,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "life, physical, and social science technicians, all other",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "science technician",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 71,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "pitt&sherry",
+      "Queensland Government",
+      "DRD Group",
+      "Cancer Care Associates Pty Limited",
+      "AWX Pty Ltd",
+      "Breathe Respiratory and Sleep",
+      "Coastal Respiratory and Sleep",
+      "EducationHQ"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

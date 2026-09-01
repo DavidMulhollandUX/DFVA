@@ -2599,45 +2599,27 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "loan officers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "loan officer",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 16,
+    "returned": 16,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Medtronic",
+      "Banner Bank",
+      "Fitzgerald Jenkins Recruitment",
+      "ACT Health",
+      "Chartline",
+      "Kaizen Recruitment",
+      "Motor Scout Australia",
+      "Barclays"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "loan officer",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
-      "count": 16,
-      "returned": 16,
-      "topEmployers": [
-        "Medtronic",
-        "Banner Bank",
-        "Fitzgerald Jenkins Recruitment",
-        "ACT Health",
-        "Chartline",
-        "Kaizen Recruitment",
-        "Motor Scout Australia",
-        "Barclays"
-      ],
-      "topSkills": [
-        "loan",
-        "mortgage",
-        "credit",
-        "broker",
-        "lending"
-      ]
-    }
+      "loan",
+      "mortgage",
+      "credit",
+      "broker",
+      "lending"
+    ]
   },
   "corpus": {
     "platforms": [

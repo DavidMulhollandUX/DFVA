@@ -1448,20 +1448,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "nursing instructors and teachers, postsecondary",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "nursing lecturer",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 16,
+    "returned": 16,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "University of Tasmania",
+      "Federation University Australia",
+      "Australian Catholic University",
+      "Jobs and Careers",
+      "The University of Notre Dame",
+      "The University of Notre Dame Australia",
+      "CQUniversity",
+      "Flinders University"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

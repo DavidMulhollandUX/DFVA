@@ -2957,45 +2957,27 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "office clerks, general",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "office clerk",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 122,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "NSW Government",
+      "NSW State Emergency Service",
+      "Amentum",
+      "Core Talent",
+      "Barry Nilsson",
+      "State Emergency Service",
+      "Andrew Evans Plumbing",
+      "INTERNATIONAL TAXATION SERVICES "
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "office clerk",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
-      "count": 122,
-      "returned": 50,
-      "topEmployers": [
-        "NSW Government",
-        "NSW State Emergency Service",
-        "Amentum",
-        "Core Talent",
-        "Barry Nilsson",
-        "State Emergency Service",
-        "Andrew Evans Plumbing",
-        "INTERNATIONAL TAXATION SERVICES "
-      ],
-      "topSkills": [
-        "administration",
-        "clerical",
-        "data entry",
-        "office administration",
-        "reception"
-      ]
-    }
+      "administration",
+      "clerical",
+      "data entry",
+      "office administration",
+      "reception"
+    ]
   },
   "corpus": {
     "platforms": [

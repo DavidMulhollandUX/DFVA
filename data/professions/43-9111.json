@@ -1654,20 +1654,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "statistical assistants",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "statistical assistant",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 15,
+    "returned": 15,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Burdekin Community Association Inc.",
+      "Benalla Health",
+      "Cdmguru",
+      "Vault Minerals",
+      "LivaNova",
+      "UTS",
+      "Marsh McLennan",
+      "MARS PARTNERSHIP PTY. LTD."
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

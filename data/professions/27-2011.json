@@ -1487,20 +1487,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "actors",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "actor",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 139,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Mercor",
+      "Jobgether",
+      "Screen Queensland Pty",
+      "Infinite Consulting",
+      "AusNet Services",
+      "Google",
+      "Palo Alto Networks",
+      "Accenture"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

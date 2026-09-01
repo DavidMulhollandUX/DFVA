@@ -1403,20 +1403,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "compliance officers, except agriculture, construction, health and safety, and transportation",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "compliance officer",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 722,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Henderson Recruitment Pty Ltd t/a Henderson Healthcare",
+      "City of Gosnells",
+      "Perigon Group",
+      "Toowoomba Regional Council",
+      "Majer Recruitment",
+      "FourQuarters",
+      "SB Recruitment Pty Ltd",
+      "Greater Shepparton City Council"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

@@ -2305,20 +2305,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "ushers, lobby attendants, and ticket takers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "usher",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 81,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Langham Hospitality Group",
+      "The Langham Gold Coast",
+      "Cyera",
+      "Snowflake",
+      "Victorian Government",
+      "Goulburn Mulwaree Council",
+      "Foundation Theatres",
+      "Blue Mountains City Council"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

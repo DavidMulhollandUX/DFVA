@@ -1402,20 +1402,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "camera operators, television, video, and motion picture",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "camera operator",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 101,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Encore",
+      "Encore Global",
+      "WIN Television",
+      "WIN TV",
+      "WIN Television Network Pty Ltd",
+      "G4S",
+      "Seven West Media",
+      "NBN Pty Ltd"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

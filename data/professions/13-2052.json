@@ -1342,20 +1342,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "personal financial advisors",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "financial advisor",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 782,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Link Group",
+      "Coastal Advisory Australia Pty",
+      "Australia Retirement Trust",
+      "PictureWealth",
+      "Viridian Financial Group Limited",
+      "Private Advertiser",
+      "RSM Australia",
+      "Mercer"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

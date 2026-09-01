@@ -1787,20 +1787,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "physical therapists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "physiotherapist",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 2995,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Mediix",
+      "Better Rehab",
+      "Frontline Recruitment Group",
+      "Royal Rehab",
+      "Cerebral Palsy Alliance",
+      "Lifecare",
+      "Northern Territory PHN",
+      "My Physio Perth"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

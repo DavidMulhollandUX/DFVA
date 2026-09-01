@@ -2746,42 +2746,24 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "police and sheriff's patrol officers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "police officer",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 133,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Victorian Government",
+      "Queensland Government",
+      "Victoria Police",
+      "South Australia Police",
+      "Department of Justice and Attorney General QLD",
+      "WA Police",
+      "Australian Federal Police",
+      "Victoria Police - Public Service Positions"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "police officer",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
-      "count": 133,
-      "returned": 50,
-      "topEmployers": [
-        "Victorian Government",
-        "Queensland Government",
-        "Victoria Police",
-        "South Australia Police",
-        "Department of Justice and Attorney General QLD",
-        "WA Police",
-        "Australian Federal Police",
-        "Victoria Police - Public Service Positions"
-      ],
-      "topSkills": [
-        "law enforcement",
-        "patrol"
-      ]
-    }
+      "law enforcement",
+      "patrol"
+    ]
   },
   "corpus": {
     "platforms": [

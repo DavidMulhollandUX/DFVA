@@ -1173,20 +1173,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "appraisers and assessors of real estate",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "property valuer",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 21,
+    "returned": 21,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Opteon Property Group",
+      "Knight Frank",
+      "Preston Rowe Paterson Dubbo We Have Property Covered",
+      "Naiman Clarke",
+      "Elders Rural Services",
+      "Elders Rural",
+      "Knight Frank Australia",
+      "Node Valuations"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

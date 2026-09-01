@@ -1596,20 +1596,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "tour guides and escorts",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "tour guide",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 128,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Journey Beyond",
+      "Voyages Tourism Australia",
+      "SeaLink Whitsundays",
+      "Voyages Indigenous Tourism Australia",
+      "Discovery Resorts",
+      "SeaLink K'gari ",
+      "G'day Group",
+      "SeaLink K’gari"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

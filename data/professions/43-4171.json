@@ -1360,20 +1360,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "receptionists and information clerks",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "receptionist",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 6155,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Marriott",
+      "Ausdocs GP Consulting",
+      "Candlewood Dental Centre",
+      "OrthoDent",
+      "My Guardian",
+      "Push Physiotherapy",
+      "Synergie Fresh Air",
+      "Launceston Dental"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

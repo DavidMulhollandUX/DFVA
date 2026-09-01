@@ -983,20 +983,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "first-line supervisors/managers of office and administrative support workers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "office supervisor",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 197,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Capital Radiology Pty Ltd",
+      "Oaks Hotels",
+      "Silk Hospitality",
+      "Integral Diagnostics",
+      "Accor",
+      "Shangri-La Hotels",
+      "Oaks Hotels, Resorts and Suites",
+      "PULLMAN"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

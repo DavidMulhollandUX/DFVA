@@ -1276,20 +1276,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "pharmacy aides",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "pharmacy aide",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 15,
+    "returned": 15,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Scaffidi Pharmacy Services",
+      "Geo Healthcare",
+      "NSW Government",
+      "Mackay Discount Drug Store",
+      "Bundaberg Plaza Discount Drug Store",
+      "Affinity Migration Group Pty Ltd",
+      "Affinity Migration Group Pty",
+      "Serco Plc"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

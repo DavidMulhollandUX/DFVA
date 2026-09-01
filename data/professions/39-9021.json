@@ -1276,20 +1276,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "personal and home care aides",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "personal care aide",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 47,
+    "returned": 47,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Newly by HealthcareLink Support",
+      "Newly Support",
+      "Australian Red Cross",
+      "Young Mindz Pty",
+      "FOCUS Connect",
+      "Apprenticeship Careers Australia",
+      "Way of Humanity",
+      "Mimosa Care"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

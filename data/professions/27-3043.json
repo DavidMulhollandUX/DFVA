@@ -1850,44 +1850,26 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "writers and authors",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "writer",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 301,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Lycopodium",
+      "RTX",
+      "RTX Corporation",
+      "Coras",
+      "Standards Australia",
+      "Alchemy Recruitment Consulting",
+      "ConsultANZ",
+      "Frontline Recruitment Group"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "writer",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
-      "count": 301,
-      "returned": 50,
-      "topEmployers": [
-        "Lycopodium",
-        "RTX",
-        "RTX Corporation",
-        "Coras",
-        "Standards Australia",
-        "Alchemy Recruitment Consulting",
-        "ConsultANZ",
-        "Frontline Recruitment Group"
-      ],
-      "topSkills": [
-        "writing",
-        "research",
-        "content creation",
-        "journalism"
-      ]
-    }
+      "writing",
+      "research",
+      "content creation",
+      "journalism"
+    ]
   },
   "corpus": {
     "platforms": [

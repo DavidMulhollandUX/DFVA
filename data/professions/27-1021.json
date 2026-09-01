@@ -2839,45 +2839,27 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "commercial and industrial designers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "industrial designer",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 1408,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Coates Group",
+      "Lenovo",
+      "Brisbane Catholic Education",
+      "private",
+      "Freighter Group",
+      "ICON Engineering Pty Ltd",
+      "MineARC Systems",
+      "Silver Yachts Australia"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "industrial designer",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
-      "count": 1408,
-      "returned": 50,
-      "topEmployers": [
-        "Coates Group",
-        "Lenovo",
-        "Brisbane Catholic Education",
-        "private",
-        "Freighter Group",
-        "ICON Engineering Pty Ltd",
-        "MineARC Systems",
-        "Silver Yachts Australia"
-      ],
-      "topSkills": [
-        "industrial design",
-        "CAD",
-        "manufacturing",
-        "product design",
-        "UX"
-      ]
-    }
+      "industrial design",
+      "CAD",
+      "manufacturing",
+      "product design",
+      "UX"
+    ]
   },
   "corpus": {
     "platforms": [

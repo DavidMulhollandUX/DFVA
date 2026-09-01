@@ -1577,42 +1577,24 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "executive secretaries and administrative assistants",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "administrative assistant",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 4601,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Frontline HR",
+      "Shine Lawyers",
+      "Sharp & Carter",
+      "Total Tools",
+      "Best and Less",
+      "MP Recruitment",
+      "TP Human Capital",
+      "Cootharinga North Queensland"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "administrative assistant",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
-      "count": 4601,
-      "returned": 50,
-      "topEmployers": [
-        "Frontline HR",
-        "Shine Lawyers",
-        "Sharp & Carter",
-        "Total Tools",
-        "Best and Less",
-        "MP Recruitment",
-        "TP Human Capital",
-        "Cootharinga North Queensland"
-      ],
-      "topSkills": [
-        "administration",
-        "scheduling"
-      ]
-    }
+      "administration",
+      "scheduling"
+    ]
   },
   "corpus": {
     "platforms": [

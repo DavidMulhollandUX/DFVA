@@ -1274,20 +1274,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "social scientists and related workers, all other",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "social scientist",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 953,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Queensland Government",
+      "Department of Education, Western Australia",
+      "Department of Education",
+      "University of New South Wales",
+      "Australian National University",
+      "Presbyterian Ladies College, Sydney & Armidale",
+      "Frederick Irwin Anglican School",
+      "Edith Cowan University"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

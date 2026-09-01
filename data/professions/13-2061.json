@@ -2160,45 +2160,27 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "financial examiners",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "financial examiner",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 45,
+    "returned": 45,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Grant Thornton",
+      "HealthcareLink",
+      "Atlas Talents",
+      "Grant Thornton Australia",
+      "SUCCESS TAX PROFESSIONALS JOONDALUP",
+      "Grant Thornton Australia Limited",
+      "Bellbird Brothers Pty Ltd ",
+      "Australian National University"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "financial examiner",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
-      "count": 45,
-      "returned": 45,
-      "topEmployers": [
-        "Grant Thornton",
-        "HealthcareLink",
-        "Atlas Talents",
-        "Grant Thornton Australia",
-        "SUCCESS TAX PROFESSIONALS JOONDALUP",
-        "Grant Thornton Australia Limited",
-        "Bellbird Brothers Pty Ltd ",
-        "Australian National University"
-      ],
-      "topSkills": [
-        "audit",
-        "assurance",
-        "risk",
-        "regulatory",
-        "governance"
-      ]
-    }
+      "audit",
+      "assurance",
+      "risk",
+      "regulatory",
+      "governance"
+    ]
   },
   "corpus": {
     "platforms": [

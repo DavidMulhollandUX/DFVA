@@ -2242,20 +2242,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "cashiers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "cashier",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 258,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Harvey Norman",
+      "The Salvation Army",
+      "Costco Wholesale",
+      "Jollibee Demo",
+      "Crown Perth",
+      "Crown Resorts",
+      "Hyatt Hotel Canberra",
+      "IIQAF"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

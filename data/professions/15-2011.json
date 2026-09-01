@@ -1591,20 +1591,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "actuaries",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "actuary",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 137,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "SKL Actuarial",
+      "Zurich Insurance Group",
+      "Mercor",
+      "Ember Advisors",
+      "Orion180 Insurance Services",
+      "PricewaterhouseCoopers",
+      "UNSW",
+      "University of New South Wales"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

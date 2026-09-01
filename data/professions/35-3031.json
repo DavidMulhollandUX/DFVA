@@ -1507,20 +1507,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "waiters and waitresses",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "waiter",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 2792,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Catering HQ Venues",
+      "TGI Fridays",
+      "SeaLink South Australia",
+      "Catering HQ Group",
+      "HBH Group Pty",
+      "Ray Rays",
+      "UNICORN BROADBEACH SEAFOOD RESTAURANT",
+      "Woi Yee Ng"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

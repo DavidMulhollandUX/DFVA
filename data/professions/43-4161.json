@@ -1783,20 +1783,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "human resources assistants, except payroll and timekeeping",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "human resources assistant",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 110,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Marriott Hotels Resorts",
+      "Marriott",
+      "Bernardi Group",
+      "Queensland Government",
+      "Digga Australia",
+      "West Recruitment",
+      "Coffs Harbour City Council",
+      "Coffs Harbour Careers"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

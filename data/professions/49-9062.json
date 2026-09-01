@@ -1395,20 +1395,19 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "medical equipment repairers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "medical equipment technician",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 8,
+    "returned": 8,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "GE Healthcare",
+      "GE HealthCare",
+      "Macro Recruitment",
+      "Calvary",
+      "Calvary Health Care"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

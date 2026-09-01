@@ -919,45 +919,27 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "hydrologists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "hydrologist",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 28,
+    "returned": 28,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "AECOM",
+      "AECOM Australia Pty Ltd",
+      "Hydro Tasmania",
+      "Entura",
+      "SYSTRA",
+      "Worley",
+      "Bureau of Meteorology",
+      "Glencore Australia"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "hydrologist",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
-      "count": 28,
-      "returned": 28,
-      "topEmployers": [
-        "AECOM",
-        "AECOM Australia Pty Ltd",
-        "Hydro Tasmania",
-        "Entura",
-        "SYSTRA",
-        "Worley",
-        "Bureau of Meteorology",
-        "Glencore Australia"
-      ],
-      "topSkills": [
-        "water",
-        "GIS",
-        "quality",
-        "flood",
-        "river"
-      ]
-    }
+      "water",
+      "GIS",
+      "quality",
+      "flood",
+      "river"
+    ]
   },
   "corpus": {
     "platforms": [

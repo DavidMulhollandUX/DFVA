@@ -1216,20 +1216,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "mining and geological engineers, including mining safety engineers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "mining engineer",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 2001,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "WSP USA",
+      "WSP",
+      "Thiess",
+      "AngloGold Ashanti",
+      "Harmony Australasia",
+      "29Metals",
+      "GRiP",
+      "Southern Cross Gold Consolidated LTD"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

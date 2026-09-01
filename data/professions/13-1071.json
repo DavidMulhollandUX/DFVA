@@ -2135,20 +2135,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "employment, recruitment, and placement specialists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "recruitment specialist",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 1731,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Staff 360",
+      "4 Healthcare Recruitment",
+      "Carejobz",
+      "PRA",
+      "Mader Group",
+      "Professional Recruitment Australia",
+      "BUSY Cloud HR",
+      "The BUSY Group"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

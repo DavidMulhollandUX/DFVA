@@ -1941,20 +1941,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "separating, filtering, clarifying, precipitating, and still machine setters, operators, and tenders",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "machine operator",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 1717,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Spectra Recruitment",
+      "Zoom Recruitment & Training",
+      "RPR Trades",
+      "Programmed",
+      "Transcend Managed Services",
+      "Workhorse Staffing",
+      "Synergie Australia",
+      "Drake International"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

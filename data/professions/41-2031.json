@@ -1109,20 +1109,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "retail salespersons",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "retail salesperson",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 41,
+    "returned": 41,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "ARB Australia",
+      "Sydney Tools",
+      "ARB Corporation",
+      "Freedom",
+      "Cyrus Rugs",
+      "ARB Corporation Ltd",
+      "KickAss Products",
+      "Frontline Retail Sydney"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

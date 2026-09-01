@@ -2201,48 +2201,30 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "architects, except landscape and naval",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "architect",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 4712,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Hassell Services",
+      "The HR Ally",
+      "Talenza",
+      "Infosys Singapore & Australia",
+      "Quality Design Solutions",
+      "Vivid Recruitment",
+      "Aspect Personnel",
+      "Unison Group"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "architect",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
-      "count": 4712,
-      "returned": 50,
-      "topEmployers": [
-        "Hassell Services",
-        "The HR Ally",
-        "Talenza",
-        "Infosys Singapore & Australia",
-        "Quality Design Solutions",
-        "Vivid Recruitment",
-        "Aspect Personnel",
-        "Unison Group"
-      ],
-      "topSkills": [
-        "design",
-        "project",
-        "client",
-        "documentation",
-        "building",
-        "revit",
-        "autocad",
-        "approval"
-      ]
-    }
+      "design",
+      "project",
+      "client",
+      "documentation",
+      "building",
+      "revit",
+      "autocad",
+      "approval"
+    ]
   },
   "corpus": {
     "platforms": [

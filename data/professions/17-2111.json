@@ -2035,46 +2035,28 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "health and safety engineers, except mining safety engineers and inspectors",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "health and safety engineer",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 109,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Amazon",
+      "Pacific National",
+      "WSP",
+      "Airswift",
+      "WSP USA",
+      "ResMed",
+      "Caterpillar",
+      "Aliaxis"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "health and safety engineer",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
-      "count": 109,
-      "returned": 50,
-      "topEmployers": [
-        "Amazon",
-        "Pacific National",
-        "WSP",
-        "Airswift",
-        "WSP USA",
-        "ResMed",
-        "Caterpillar",
-        "Aliaxis"
-      ],
-      "topSkills": [
-        "safety",
-        "risk",
-        "compliance",
-        "whs",
-        "hazard",
-        "iso 45001"
-      ]
-    }
+      "safety",
+      "risk",
+      "compliance",
+      "whs",
+      "hazard",
+      "iso 45001"
+    ]
   },
   "corpus": {
     "platforms": [

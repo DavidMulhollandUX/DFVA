@@ -1579,48 +1579,30 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "environmental scientists and specialists, including health",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "environmental scientist",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 1167,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Onterris Australia Pty",
+      "EHS Support",
+      "AECOM",
+      "Stantec",
+      "Allstar Recruitment Group",
+      "Beca",
+      "AECOM Australia Pty Ltd",
+      "Fyfe"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "environmental scientist",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
-      "count": 1167,
-      "returned": 50,
-      "topEmployers": [
-        "Onterris Australia Pty",
-        "EHS Support",
-        "AECOM",
-        "Stantec",
-        "Allstar Recruitment Group",
-        "Beca",
-        "AECOM Australia Pty Ltd",
-        "Fyfe"
-      ],
-      "topSkills": [
-        "field",
-        "assessment",
-        "environmental impact",
-        "compliance",
-        "remediation",
-        "monitoring",
-        "reporting",
-        "contamination"
-      ]
-    }
+      "field",
+      "assessment",
+      "environmental impact",
+      "compliance",
+      "remediation",
+      "monitoring",
+      "reporting",
+      "contamination"
+    ]
   },
   "corpus": {
     "platforms": [

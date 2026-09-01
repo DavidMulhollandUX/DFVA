@@ -3125,46 +3125,28 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "industrial engineers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "industrial engineer",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 3521,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Beca",
+      "Aurecon",
+      "Aurecon Australasia Pty Ltd",
+      "IFS",
+      "Interflow",
+      "Johnson Controls",
+      "Skilled Jobs Australia",
+      "Benchtop Express"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "industrial engineer",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
-      "count": 3521,
-      "returned": 50,
-      "topEmployers": [
-        "Beca",
-        "Aurecon",
-        "Aurecon Australasia Pty Ltd",
-        "IFS",
-        "Interflow",
-        "Johnson Controls",
-        "Skilled Jobs Australia",
-        "Benchtop Express"
-      ],
-      "topSkills": [
-        "manufacturing",
-        "process",
-        "supply chain",
-        "productivity",
-        "operations",
-        "continuous improvement"
-      ]
-    }
+      "manufacturing",
+      "process",
+      "supply chain",
+      "productivity",
+      "operations",
+      "continuous improvement"
+    ]
   },
   "corpus": {
     "platforms": [

@@ -1822,42 +1822,24 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "correctional officers and jailers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "correctional officer",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 109,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Department of Corrections NT",
+      "Queensland Corrective Services",
+      "NSW Department of Communities and Justice",
+      "Department of Justice",
+      "NSW Government",
+      "Department of Communities and Justice",
+      "Serco",
+      "Queensland Government"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "correctional officer",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
-      "count": 109,
-      "returned": 50,
-      "topEmployers": [
-        "Department of Corrections NT",
-        "Queensland Corrective Services",
-        "NSW Department of Communities and Justice",
-        "Department of Justice",
-        "NSW Government",
-        "Department of Communities and Justice",
-        "Serco",
-        "Queensland Government"
-      ],
-      "topSkills": [
-        "corrections",
-        "security"
-      ]
-    }
+      "corrections",
+      "security"
+    ]
   },
   "corpus": {
     "platforms": [

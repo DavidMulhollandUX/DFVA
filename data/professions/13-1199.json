@@ -1557,20 +1557,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "business operations specialists, all other",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "business operations specialist",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 57,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Silver Search",
+      "Amazon",
+      "Belgravia Health & Leisure Group Pty Ltd",
+      "L3Harris",
+      "Lenovo",
+      "Kennards Hire",
+      "Alcoa",
+      "Cleanaway"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

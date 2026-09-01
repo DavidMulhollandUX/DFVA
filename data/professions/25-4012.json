@@ -1515,20 +1515,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "curators",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "curator",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 2231,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "THE ICONIC",
+      "Culture Vitale",
+      "Super Retail Group",
+      "Cricket ACT",
+      "Botanic Gardens and State Herbarium",
+      "University of Newcastle",
+      "National Portrait Gallery",
+      "National Portrait Gallery of Australia"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

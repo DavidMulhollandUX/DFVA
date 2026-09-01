@@ -2287,20 +2287,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "musicians and singers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "musician",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 80,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "The Salvation Army",
+      "Gateways Support Services",
+      "Hepburn Shire Council",
+      "Canberra Grammar School",
+      "Northern Territory PHN",
+      "Stamford Hotels and Resorts",
+      "ISABELLA PLAINS, ACT",
+      "Southern Cross Care  Inc"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

@@ -397,43 +397,25 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "geographers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "geographer",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 2573,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Northern Territory Government",
+      "Geographe Enterprises",
+      "Calvary",
+      "RED OHMS Group",
+      "Power and Water Corporation",
+      "Geographe Underground Services",
+      "NSW Government",
+      "Australian Electoral Commission"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "geographer",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
-      "count": 2573,
-      "returned": 50,
-      "topEmployers": [
-        "Northern Territory Government",
-        "Geographe Enterprises",
-        "Calvary",
-        "RED OHMS Group",
-        "Power and Water Corporation",
-        "Geographe Underground Services",
-        "NSW Government",
-        "Australian Electoral Commission"
-      ],
-      "topSkills": [
-        "GIS",
-        "spatial analysis",
-        "research"
-      ]
-    }
+      "GIS",
+      "spatial analysis",
+      "research"
+    ]
   },
   "corpus": {
     "platforms": [

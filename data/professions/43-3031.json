@@ -2056,48 +2056,30 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "bookkeeping, accounting, and auditing clerks",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "bookkeeper",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 853,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Sharp & Carter",
+      "HAYS",
+      "Core Talent",
+      "AFM Services",
+      "Mech3D Group",
+      "Recruit Shop",
+      "AK Civil & Construction",
+      "HarperLloyd Recruitment"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "bookkeeper",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
-      "count": 853,
-      "returned": 50,
-      "topEmployers": [
-        "Sharp & Carter",
-        "HAYS",
-        "Core Talent",
-        "AFM Services",
-        "Mech3D Group",
-        "Recruit Shop",
-        "AK Civil & Construction",
-        "HarperLloyd Recruitment"
-      ],
-      "topSkills": [
-        "bookkeeping",
-        "BAS",
-        "payroll",
-        "accounts payable",
-        "reconciliation",
-        "Xero",
-        "MYOB",
-        "accounts receivable"
-      ]
-    }
+      "bookkeeping",
+      "BAS",
+      "payroll",
+      "accounts payable",
+      "reconciliation",
+      "Xero",
+      "MYOB",
+      "accounts receivable"
+    ]
   },
   "corpus": {
     "platforms": [

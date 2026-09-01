@@ -1423,44 +1423,26 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "aerospace engineers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "aerospace engineer",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 181,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Prolific Academic Ltd",
+      "PWR Advanced Cooling Technology",
+      "Gilmour Space Technologies Pty Ltd",
+      "Northrop Grumman",
+      "Nova Systems",
+      "Profound People",
+      "MP Recruitment",
+      "Monash University"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "aerospace engineer",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
-      "count": 181,
-      "returned": 50,
-      "topEmployers": [
-        "Prolific Academic Ltd",
-        "PWR Advanced Cooling Technology",
-        "Gilmour Space Technologies Pty Ltd",
-        "Northrop Grumman",
-        "Nova Systems",
-        "Profound People",
-        "MP Recruitment",
-        "Monash University"
-      ],
-      "topSkills": [
-        "systems",
-        "propulsion",
-        "testing",
-        "cad"
-      ]
-    }
+      "systems",
+      "propulsion",
+      "testing",
+      "cad"
+    ]
   },
   "corpus": {
     "platforms": [

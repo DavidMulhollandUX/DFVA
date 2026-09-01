@@ -1624,20 +1624,18 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "computer occupations, all other",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "computer occupations",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 9,
+    "returned": 9,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "WorkSafe Victoria",
+      "Arcare Aged Care",
+      "Derbarl Yerrigan Health Service Aboriginal Corporation",
+      "Derbarl Yerrigan Health Service"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

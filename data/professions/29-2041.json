@@ -1369,20 +1369,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "emergency medical technicians and paramedics",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "paramedic",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 254,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "ForHealth Medical Centres",
+      "ForHealth Group",
+      "SA Ambulance Service",
+      "MSS Security",
+      "Justice and Community Safety Directorate ACT",
+      "St John Ambulance NT",
+      "Grand Pacific Health",
+      "Ora Banda Mining"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

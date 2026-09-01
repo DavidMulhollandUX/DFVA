@@ -1297,20 +1297,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "diagnostic medical sonographers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "sonographer",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 634,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Integral Diagnostics ",
+      "Capital Radiology Pty Ltd",
+      "Unite Recruitment",
+      "Integral Diagnostics",
+      "Frontline Recruitment Group",
+      "Qscan Group",
+      "Murrumbidgee Local Health District",
+      "Frontline Recruitment"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

@@ -1719,20 +1719,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "engineering technicians, except drafters, all other",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "engineering technician",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 580,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Job2Go Pty Ltd",
+      "Marriott",
+      "Agri Talent Pty Ltd",
+      "Skilled Jobs Australia",
+      "Global Skilled Employment Services",
+      "Mytra",
+      "Capral",
+      "Coregas"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

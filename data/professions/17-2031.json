@@ -2012,48 +2012,30 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "biomedical engineers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "biomedical engineer",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 215,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "SA Health",
+      "S C Medical Pty Limited",
+      "St John of God Health Care",
+      "Cabrini Technology Group",
+      "Perth Scientific",
+      "Central Adelaide Local Health Network",
+      "Stryker",
+      "Atlas Talents"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "biomedical engineer",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
-      "count": 215,
-      "returned": 50,
-      "topEmployers": [
-        "SA Health",
-        "S C Medical Pty Limited",
-        "St John of God Health Care",
-        "Cabrini Technology Group",
-        "Perth Scientific",
-        "Central Adelaide Local Health Network",
-        "Stryker",
-        "Atlas Talents"
-      ],
-      "topSkills": [
-        "biomedical",
-        "clinical",
-        "quality",
-        "medical device",
-        "regulatory",
-        "design",
-        "manufacturing",
-        "validation"
-      ]
-    }
+      "biomedical",
+      "clinical",
+      "quality",
+      "medical device",
+      "regulatory",
+      "design",
+      "manufacturing",
+      "validation"
+    ]
   },
   "corpus": {
     "platforms": [

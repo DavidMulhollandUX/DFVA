@@ -9,7 +9,7 @@
     "Junior Graphic Designer",
     "Visual Identity Designer"
   ],
-  "anzsco": "220000",
+  "anzsco": "232411",
   "window": {
     "from": "2025-08-01",
     "to": "2026-08-24"
@@ -1214,24 +1214,432 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "27-1024-L1-01",
+      "text": "The Australian Government ruled out introducing a text-and-data-mining (TDM) copyright exemption for AI training; Attorney-General Michelle Rowland confirmed no weakening of copyright protections for AI, leaving Australian designers' works outside any free-training carve-out and AI-generated outputs in legal uncertainty.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "ITNews",
+          "title": "Government rules out AI training exemption in copyright laws",
+          "url": "https://www.itnews.com.au/news/government-rules-out-ai-training-exemption-in-copyright-laws-621309",
+          "date": "2025-10",
+          "whatItMeasured": "Federal Attorney-General's statement ruling out TDM/copyright exceptions for AI training."
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Proposal to allow use of Australian copyrighted material to train AI abandoned after backlash",
+          "url": "https://www.theguardian.com/australia-news/2025/dec/19/proposal-australian-copyrighted-material-train-ai-abandoned-after-backlash",
+          "date": "2025-12-19",
+          "whatItMeasured": "Reports Productivity Commission abandoned its TDM exemption proposal; AG Rowland killed it in Oct 2025."
+        }
+      ],
+      "scope": "Federal copyright policy, Australia-wide; binds all creative workers including graphic designers re: use of their works as AI training data and ownership of AI-assisted outputs. Not a quantitative employment claim.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3 skeptics: source real? Yes (ITNews + Guardian fetched). population = this AU occupation? Yes - federal policy binds AU graphic designers as a class of creators. in window 2025-08..2026-08? Yes (Oct 2025 / Dec 2025). 0/3 failed -> survives."
+    },
+    {
+      "id": "27-1024-L1-02",
+      "text": "The Design Institute of Australia (DIA) operates the DIA Accredited Designer program - the recognised voluntary national professional accreditation for designers including graphic/visual communication - requiring an AQF 7+ qualification plus at least 3 years' experience, adherence to the DIA Code of Conduct, and Professional Indemnity insurance.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Design Institute of Australia",
+          "title": "DIA Accredited Designer",
+          "url": "https://design.org.au/accreditation",
+          "date": "2026-08",
+          "whatItMeasured": "DIA accreditation eligibility framework (qualification, experience, Code of Conduct, PI insurance)."
+        }
+      ],
+      "scope": "Voluntary professional accreditation, not a statutory licence; does not legally 'bind' all practitioners but is the recognised professional-body standard for Australian designers. No employment-size claim.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3 skeptics: source real? Yes (design.org.au fetched). population = this AU occupation? Partial - DIA accredits designers across disciplines incl. graphic/visual communication; not exclusive to ANZSCO 232411. in window? Yes (page current 2026). 1/3 partially failed (population broad) -> survives, flagged as cross-discipline accreditation."
+    },
+    {
+      "id": "27-1024-L1-03",
+      "text": "Under the Copyright Act 1968 (Cth), Australian copyright requires a human author; IP Australia guidance and Federal Court case law (Telstra v Phone Directories; Acohs v Ucorp) hold that purely AI/computer-generated works without human creative input do not attract copyright, so AI-produced design outputs sit in legal uncertainty for graphic designers.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "IP Australia",
+          "title": "Considerations when using artificial intelligence to create IP",
+          "url": "https://ipfirstresponse.ipaustralia.gov.au/options/considerations-when-using-artificial-intelligence-create-ip-0",
+          "date": "2026",
+          "whatItMeasured": "IP Australia guidance: copyright for works requires a human author; AI tool use raises questions about whether protection applies."
+        },
+        {
+          "publisher": "International Review of Law, Computers & Technology",
+          "title": "Copyright law in the age of AI: analysing the AI-generated works and copyright challenges in Australia",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/13600869.2025.2486893",
+          "date": "2025",
+          "whatItMeasured": "Scholarly analysis that the Copyright Act 1968 requires human authorship; AI works raise unresolved questions."
+        }
+      ],
+      "scope": "Standing federal copyright law; binds ownership of AI-assisted design outputs in Australia. Not an employment or displacement claim.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3 skeptics: source real? Yes (IP Australia + Taylor & Francis article fetched). population = this AU occupation? Yes - applies to Australian designers as creators/owners of works. in window? Yes (guidance current 2025-2026). 0/3 failed -> survives."
+    },
+    {
+      "id": "27-1024-L2-01",
+      "text": "Jobs and Skills Australia records 27,500 Graphic Designers (ANZSCO 232411) employed in Australia (2021 Census), with a 37% part-time share, 59% female, and median age 37 - a mid-sized creative occupation concentrated in Professional/Scientific/Technical Services.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Graphic Designers (ANZSCO 232411) occupation profile",
+          "url": "https://www.jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations-anzsco/232411-graphic-designers",
+          "date": "2025",
+          "whatItMeasured": "Employment, demographic and industry composition for ANZSCO 232411 (ABS 2021 Census)."
+        }
+      ],
+      "scope": "AU population, ANZSCO 232411 specifically; 2021 Census basis (JSA will not refresh ANZSCO-based pages; OSCA profiles due mid-2026). Not an AI-exposure measure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3 skeptics: source real? Yes (JSA page fetched). population = this AU occupation? Yes - ANZSCO 232411, the exact mapping. in window? Yes (current JSA page). 0/3 failed -> survives."
+    },
+    {
+      "id": "27-1024-L2-02",
+      "text": "Jobs and Skills Australia's 'Our Gen AI Transition' (published 14 Aug 2025) - Australia's first whole-of-labour-market generative-AI study, reaffirmed by the Australian Government in March 2026 - finds GenAI is more likely to augment than replace work, estimating it can augment around 55% of tasks and automate on average 13% of tasks across the workforce; routine clerical roles concentrate exposure, not professional creative roles.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition - Final release",
+          "url": "https://www.jobsandskills.gov.au/publications/our-gen-ai-transition-final-release",
+          "date": "2025-09-30",
+          "whatItMeasured": "National GenAI capacity study across 358 occupations; augmentation vs automation exposure."
+        },
+        {
+          "publisher": "Australian Government (DEWR)",
+          "title": "Australian Government response to the House committee report: The Future of Work",
+          "url": "https://dewr.gov.au/download/17536/australian-government-response-house-representatives-standing-committee-employment-education-and/42441/australian-government-response-house-representatives-standing-committee-employment-education-and/pdf",
+          "date": "2026-03",
+          "whatItMeasured": "Government response quoting JSA key findings (augment ~55% of tasks, automate ~13% on average across workforce)."
+        }
+      ],
+      "scope": "AU workforce-wide (358 occupations); not specific to ANZSCO 232411 - no occupation-level exposure figure extracted for graphic designers from accessible material. Population = Australian workers generally.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3 skeptics: source real? Yes (JSA publication + DEWR response fetched). population = this AU occupation? No - workforce-wide, not 232411-specific. in window? Yes (Aug/Sep 2025 + Mar 2026). 1/3 failed (population not occupation-specific) -> survives, flagged."
+    },
+    {
+      "id": "27-1024-L2-03",
+      "text": "The World Economic Forum's Future of Jobs Report 2025 projects Graphic Designers just outside the top 10 fastest-declining job roles globally for 2025-2030 - a first-time decline prediction attributed largely to generative AI - even as UI/UX Design ranks among the fastest-growing.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "World Economic Forum",
+          "title": "The Future of Jobs Report 2025 (Chapter 2: Jobs outlook)",
+          "url": "https://jp.weforum.org/publications/the-future-of-jobs-report-2025/in-full/2-jobs-outlook",
+          "date": "2025-01-07",
+          "whatItMeasured": "Employer survey (1,000+ employers, ~14M workers, 55 economies) ranking fastest-declining job roles to 2030."
+        }
+      ],
+      "scope": "Global employer population (55 economies), NOT Australia; report published 7 Jan 2025, ~7 months before the 2025-08 window start. Indicates a directional global decline signal, not an AU employment figure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3 skeptics: source real? Yes (WEF report fetched). population = this AU occupation? No - global employers, not AU graphic designers. in window 2025-08..2026-08? No - published Jan 2025 (pre-window). 2/3 failed -> survives as foundational institutional study, flagged non-AU and pre-window."
+    },
+    {
+      "id": "27-1024-L3-01",
+      "text": "Design Week (Aug 2026) reports the CBI/Oliver Wyman 'The Adoption Decade' study (published 18 Aug 2026) found 63% of surveyed firms had moved to scaled or agentic AI in product design and R&D, and warns that automating routine drafting, concept imagery and layout 'threatens to collapse' entry-level design roles (citing a 50% drop in graduate vacancies).",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Design Week",
+          "title": "The CBI's latest AI report on how design businesses can bridge AI's execution divide",
+          "url": "https://www.designweek.co.uk/the-cbis-latest-ai-report-on-how-design-businesses-can-bridge-ais-execution-divide/",
+          "date": "2026-08",
+          "whatItMeasured": "Trade-press analysis of CBI/Oliver Wyman 'Adoption Decade' report: AI adoption in design, junior-talent-pipeline risk."
+        },
+        {
+          "publisher": "CBI (with Oliver Wyman)",
+          "title": "The adoption decade: making AI work for Britain",
+          "url": "https://cbi.org.uk/articles/the-adoption-decade-making-ai-work-for-britain",
+          "date": "2026-08-18",
+          "whatItMeasured": "Institutional report: 63% of firms scaling AI in product design/R&D; execution divide."
+        }
+      ],
+      "scope": "UK firms/design businesses; not an AU employment claim. Signals global diffusion of AI into design workflows and entry-level squeeze. Within window (Aug 2026).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3 skeptics: source real? Yes (Design Week + CBI fetched). population = this AU occupation? No - UK design businesses. in window? Yes (Aug 2026). 1/3 failed (population not AU) -> survives, flagged."
+    },
+    {
+      "id": "27-1024-L3-02",
+      "text": "Creative Bloq (Aug 2026) reports AI image generation is displacing 'folk' graphic design - small-business menus, signage and similar - with brands and customers rejecting low-quality 'AI slop', illustrating real-world erosion of low-end graphic-design tasks by generative tools.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Creative Bloq",
+          "title": "AI is killing folk graphic design, and the resulting 'Lovecraftian horrors' are making people want to never eat out again",
+          "url": "https://creativebloq.com/ai/ai-art/ai-is-killing-folk-graphic-design-and-the-resulting-lovecraftian-horrors-are-making-people-want-to-never-eat-out-again",
+          "date": "2026-08",
+          "whatItMeasured": "Trade-press reporting on AI image generation displacing amateur/small-business graphic design work."
+        }
+      ],
+      "scope": "Anecdotal trade-press observation (UK/US design discourse); not an AU quantitative claim. Within window (Aug 2026).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3 skeptics: source real? Yes (Creative Bloq fetched). population = this AU occupation? No - general/UK-US design discourse. in window? Yes (Aug 2026). 1/3 failed (population not AU) -> survives, flagged."
+    },
+    {
+      "id": "27-1024-L3-03",
+      "text": "At Adobe MAX 2025 (28 Oct 2025), Adobe launched conversational AI Assistants across Express, Firefly and Photoshop and 'Firefly Creative Production' (bulk-editing thousands of images at once), explicitly positioning non-designers to create brand content via natural-language prompts - a vendor move that lowers the skill barrier to producing design assets.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Adobe",
+          "title": "Adobe Expands Creative Possibility with AI for Every Creator at Adobe MAX 2025",
+          "url": "https://news.adobe.com/news/2025/10/adobe-max-2025-news",
+          "date": "2025-10-28",
+          "whatItMeasured": "Vendor announcement of conversational AI design assistants and bulk generative production tools."
+        }
+      ],
+      "scope": "Vendor product announcement (global); signals tooling shift toward non-designers but is not an AU employment figure. Within window (Oct 2025).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3 skeptics: source real? Yes (Adobe newsroom fetched). population = this AU occupation? No - global product launch. in window? Yes (Oct 2025). 1/3 failed (population not AU) -> survives, flagged."
+    },
+    {
+      "id": "l567",
+      "text": "Feature/paint round corners\n> ***Note added by @DNin01***\r\n>\r\n> This pull request incorporates code generated by Claude Sonnet.\r\n\r\n# Changes\r\n\r\nAdds a new [paint-round-corners] addon that lets you round the corners of vector shapes directly from the paint editor's **Reshape** tool - no separate mode or toolbar button.\r\n\r\n<img\n> @Joeclinton1 It works great! Passed (almost) all the tests I threw at it. Love the user experience, clearly well thought out. The isArcPair math is quite nice.\r\n> \r\n> The…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Feature/paint round corners\n> ***Note added by @DNin01***\r\n>\r\n> This pull reques…",
+          "url": "https://github.com/ScratchAddons/ScratchAddons/pull/8916",
+          "date": "2026-03-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "🧭 Daily content opportunities\n### 2026-07-14 — content opportunities\n\n#### Bizzal Games — YouTube + Instagram\n- **The One-Page Lazy Prep Trick That Kills 90% of Session Prep** — Sly Flourish's fresh 'Lazy Campaigns' piece is prime raw material for a rules-ruling short that either validates or pushes back on his method.\n  - 60-se\n### 2026-07-14 — content opportunities\n\n#### 🔗 Cross-channel plays\n- **Bonzo Lend loses $9M to an oracle-manipulation exploit on Hedera, reigniting debate over DeFi pric…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "🧭 Daily content opportunities\n### 2026-07-14 — content opportunities\n\n#### Bizza…",
+          "url": "https://github.com/bizzal70/Audit_User_Agent/issues/2",
+          "date": "2026-07-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "Why are Gamers so incredibly hostile to AI? Is it just a tiny vocal minority that spreads such toxic vitriol online?\nEdit: TL;DR response: Yes***********. ... It&#39;s more accurate to say that many highly engaged online gamers are hostile to AI, not that &quot;gamers&quot; as a whole are. Gaming is a huge community with hundreds of millions of people, and opinions vary widely. Several factors contribute to why AI discussions become especially heated in gaming communities: Fear of job displaceme…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Why are Gamers so incredibly hostile to AI? Is it just a tiny vocal minority tha…",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfcgrd/why_are_gamers_so_incredibly_hostile_to_ai_is_it/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "What if AI doesn’t just replace jobs, but makes human labor itself less economically valuable?\nI’ve been thinking about AI and automation, and I’m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "What if AI doesn’t just replace jobs, but makes human labor itself less economic…",
+          "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "Claude Design is a NIGHTMARE\nClaude Design is being hyped as the thing that replaces designers. I tested it myself to see if it actually lives up to the hype. Here are the results.\n\n✏️ SUBSCRIBE TO THE CREATIVE BRIEF NEWSLETTER!!!! https://magic.beehiiv.com/v1/50586ae8-8023-4091-80de-c19f5891fa24?email={{email}}\nOR START YOUR OWN NEWSLETTER WITH BEEHIIV! \nhttps://www.beehiiv.com/splash?utm_campaign=grayson-sands-2026-Partnership&utm_medium=youtube&utm_source=grayson-sands&utm_term=youtube-5&stri…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Claude Design is a NIGHTMARE\nClaude Design is being hyped as the thing that repl…",
+          "url": "https://www.youtube.com/watch?v=w6PJ45-FU_0",
+          "date": "2026-04-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "The Ugly Truth About AI (Why I'm Scared)\nIs AI making graphic design obsolete? As a graphic design student, I’ve been wrestling with the anxiety of a rapidly changing industry. In this video, I get vulnerable about why I’m scared, the real negative impact of AI on entry level jobs and the bigger consequences on our environment. And why I believe the future of design is needs to be more human than ever.\n\nChapters\n\n00:00 Intro\n00:58 The Disruption\n02:46 The Question We're All Asking \n05:15 The Hid…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Ugly Truth About AI (Why I'm Scared)\nIs AI making graphic design obsolete? A…",
+          "url": "https://www.youtube.com/watch?v=o9Rn917p0Ho",
+          "date": "2026-07-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "Claude Design Is INSANE, Designers Are COOKED [The Truth]\nClaude Design is the latest AI tool making waves in the design world, with many claiming it could replace traditional workflows and tools like Figma. The bigger question is whether it is truly a breakthrough or just another “good enough” AI product.\n\nIn this video, I’ll break down why tools like Claude Design matter right now, how AI is reshaping creative workflows, and what this shift means for the future of design.\n\nI’ve covered Claude …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Claude Design Is INSANE, Designers Are COOKED [The Truth]\nClaude Design is the l…",
+          "url": "https://www.youtube.com/watch?v=z0Awi3kS0NQ",
+          "date": "2026-04-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "Graphic Designers: How to Survive the AI Disruption\nIf you are a graphic designer right now, I need you to hear this. I have spent 28 years watching industries go through massive disruption, and I have seen who survives and who does not. The difference comes down to mindset.\n\nIn this video, we tackle the hard data. AI image and design tools are no longer just for hobbyists. Marketing teams are cutting junior design roles and handing execution work to AI, reducing asset production time by 60 to 7…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Graphic Designers: How to Survive the AI Disruption\nIf you are a graphic designe…",
+          "url": "https://www.youtube.com/watch?v=mpmmEGi50wE",
+          "date": "2026-03-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-31"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "graphic designers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "graphic designer",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 606,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Aspirante",
+      "Dyenamic Sublimation",
+      "Medical Symbiosis",
+      "private",
+      "Talenza",
+      "Flexi Personnel",
+      "Precruitment",
+      "Brandbank Steambrook pty ltd"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {
@@ -1269,9 +1677,25 @@
           "youtube": 4
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-31",
+        "added": 9,
+        "sources": {
+          "github": 10,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 2,
+          "x": 7,
+          "youtube": 4
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "anzsco corrected from placeholder '220000' to '232411' (Graphic Designer, ABS ANZSCO 2324 unit group) on 2026-08-31; verified via ABS ANZSCO and JSA occupation page."
+  ]
 }

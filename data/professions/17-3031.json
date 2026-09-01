@@ -1244,20 +1244,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "surveying and mapping technicians",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "surveying technician",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 34,
+    "returned": 34,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Shadforth",
+      "Framework Search & Select Pty Ltd",
+      "3020 Surveys",
+      "SEE Group",
+      "Shadforth Civil Contractors",
+      "Tracc Civil",
+      "BGE",
+      "Amey Australia"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

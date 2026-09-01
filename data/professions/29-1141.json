@@ -1437,20 +1437,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "registered nurses",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "registered nurse",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 9742,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Doctors&Co",
+      "Cornerstone Medical Recruitment",
+      "Skilled Nursing",
+      "Apollo Care Alliance",
+      "Myhealth Medical Centres",
+      "Advantaged Care Pty Ltd",
+      "Ausdocs GP Consulting",
+      "Redstone Recruitment"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

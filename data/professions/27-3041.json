@@ -1953,44 +1953,26 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "editors",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "editor",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 299,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "News Corp",
+      "Seven West Media",
+      "Australian National University",
+      "Standards Australia",
+      "Your Reformer",
+      "Prime Creative Media",
+      "Language Bear",
+      "Domain Group"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "editor",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
-      "count": 299,
-      "returned": 50,
-      "topEmployers": [
-        "News Corp",
-        "Seven West Media",
-        "Australian National University",
-        "Standards Australia",
-        "Your Reformer",
-        "Prime Creative Media",
-        "Language Bear",
-        "Domain Group"
-      ],
-      "topSkills": [
-        "content",
-        "editing",
-        "publishing",
-        "subediting"
-      ]
-    }
+      "content",
+      "editing",
+      "publishing",
+      "subediting"
+    ]
   },
   "corpus": {
     "platforms": [

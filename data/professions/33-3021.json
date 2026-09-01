@@ -2391,32 +2391,14 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "detectives and criminal investigators",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
+    "query": "detective criminal investigator",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 0,
+    "returned": 0,
+    "topEmployers": [],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "detective criminal investigator",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
-      "count": 0,
-      "returned": 0,
-      "topEmployers": [],
-      "topSkills": [
-        "(no skill keywords matched in sample)"
-      ]
-    }
+      "(no skill keywords matched in sample)"
+    ]
   },
   "corpus": {
     "platforms": [

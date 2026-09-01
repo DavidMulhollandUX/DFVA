@@ -1565,20 +1565,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "nurse practitioners",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "nurse practitioner",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 1024,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Queensland Government",
+      "Ensure Health Recruitment",
+      "Redstone Recruitment",
+      "Omega Medical Pty Ltd",
+      "Wesley Mission Queensland",
+      "Atticus Health",
+      "NSW Government",
+      "Murrumbidgee Local Health District "
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

@@ -1045,20 +1045,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "counter attendants, cafeteria, food concession, and coffee shop",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "counter attendant",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 19,
+    "returned": 19,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Hearing Australia",
+      "AFGRI Equipment",
+      "Hearing Aid Specialists SA",
+      "Genuine Parts Company",
+      "NAPA",
+      "NAPA Auto Parts",
+      "FWC",
+      "Victorian Government"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

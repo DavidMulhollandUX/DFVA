@@ -1703,46 +1703,28 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "chemical engineers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "chemical engineer",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 481,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Hire Resolve.com",
+      "Alcoa",
+      "Skilled Jobs Australia",
+      "University of New South Wales",
+      "Macro Recruitment",
+      "Premium Graduate Placements",
+      "Omnia Specialities Australia",
+      "Cleanaway"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "chemical engineer",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
-      "count": 481,
-      "returned": 50,
-      "topEmployers": [
-        "Hire Resolve.com",
-        "Alcoa",
-        "Skilled Jobs Australia",
-        "University of New South Wales",
-        "Macro Recruitment",
-        "Premium Graduate Placements",
-        "Omnia Specialities Australia",
-        "Cleanaway"
-      ],
-      "topSkills": [
-        "chemical",
-        "process",
-        "operations",
-        "plant",
-        "safety",
-        "production"
-      ]
-    }
+      "chemical",
+      "process",
+      "operations",
+      "plant",
+      "safety",
+      "production"
+    ]
   },
   "corpus": {
     "platforms": [

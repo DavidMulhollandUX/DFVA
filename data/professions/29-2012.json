@@ -1382,20 +1382,19 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "medical and clinical laboratory technicians",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "medical laboratory technician",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 15,
+    "returned": 15,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "NSW Government",
+      "NSW Health Pathology",
+      "Northern Health",
+      "NSW Health",
+      "PathWest"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

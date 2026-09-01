@@ -1634,20 +1634,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "training and development specialists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "training and development specialist",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 178,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Mediix",
+      "Gorilla Jobs",
+      "Queensland Government",
+      "Magnus Health",
+      "Sante Recruitment",
+      "Pacific National",
+      "Healthcare Professionals Group",
+      "Midcoast Trucks"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

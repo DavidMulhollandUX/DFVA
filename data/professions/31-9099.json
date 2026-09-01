@@ -1343,20 +1343,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "healthcare support workers, all other",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "healthcare support worker",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 52,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Anglicare NT",
+      "HealthcareLink Support",
+      "Healthcare Australia",
+      "Transform NDIS Support",
+      "NurseLink Healthcare",
+      "Newly by HealthcareLink Support",
+      "NHS Highland",
+      "Alfred Health"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

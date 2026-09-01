@@ -1677,20 +1677,19 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "health specialties teachers, postsecondary",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "health sciences lecturer",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 6,
+    "returned": 6,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "University of Newcastle",
+      "The University of Newcastle",
+      "The University of Notre Dame Australia",
+      "The University Of Notre Dame",
+      "University of Notre Dame"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {

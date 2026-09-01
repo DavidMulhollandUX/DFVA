@@ -1241,45 +1241,27 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "landscape architects",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "landscape architect",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+    "count": 122,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Urbis",
+      "Arcadia People",
+      "HASSELL",
+      "AECOM",
+      "Spiire",
+      "City of Rockingham",
+      "Hassell Services",
+      "Redbox Design Group "
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ],
-    "adzuna": {
-      "source": "adzuna-au",
-      "query": "landscape architect",
-      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
-      "count": 122,
-      "returned": 50,
-      "topEmployers": [
-        "Urbis",
-        "Arcadia People",
-        "HASSELL",
-        "AECOM",
-        "Spiire",
-        "City of Rockingham",
-        "Hassell Services",
-        "Redbox Design Group "
-      ],
-      "topSkills": [
-        "design",
-        "urban",
-        "client",
-        "construction",
-        "environmental"
-      ]
-    }
+      "design",
+      "urban",
+      "client",
+      "construction",
+      "environmental"
+    ]
   },
   "corpus": {
     "platforms": [

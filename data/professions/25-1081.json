@@ -1276,20 +1276,22 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "education teachers, postsecondary",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "education lecturer",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "count": 89,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "University of Sydney",
+      "The University of Western Australia",
+      "University of Newcastle",
+      "Victorian Institute of Technology",
+      "CQ University",
+      "University of New South Wales",
+      "Monash University",
+      "University of Tasmania"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "(no skill keywords matched in sample)"
     ]
   },
   "corpus": {
