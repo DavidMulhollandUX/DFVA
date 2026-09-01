@@ -571,6 +571,9 @@ import r564 from "./reportContent/dfva-v4r-dr-phillaw";
 import r565 from "./reportContent/dfva-v4r-dr-philmdh";
 import r566 from "./reportContent/dfva-v4r-dr-philsci";
 import r567 from "./reportContent/dfva-v4r-dr-philvet";
+import r568 from "./reportContent/dfva-market-mc-apling";
+import r569 from "./reportContent/dfva-v4-mc-apling";
+import r570 from "./reportContent/dfva-v4-recommend-mc-apling";
 
 export const REPORT_CONTENT: Record<
   string,
@@ -1144,4 +1147,7 @@ export const REPORT_CONTENT: Record<
   "dfva-v4r-dr-philmdh": r565,
   "dfva-v4r-dr-philsci": r566,
   "dfva-v4r-dr-philvet": r567,
+  "dfva-market-mc-apling": r568,
+  "dfva-v4-mc-apling": r569,
+  "dfva-v4-recommend-mc-apling": r570,
 };

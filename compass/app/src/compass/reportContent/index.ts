@@ -581,6 +581,9 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-v4r-dr-philmdh": () => import("./dfva-v4r-dr-philmdh"),
   "dfva-v4r-dr-philsci": () => import("./dfva-v4r-dr-philsci"),
   "dfva-v4r-dr-philvet": () => import("./dfva-v4r-dr-philvet"),
+  "dfva-market-mc-apling": () => import("./dfva-market-mc-apling"),
+  "dfva-v4-mc-apling": () => import("./dfva-v4-mc-apling"),
+  "dfva-v4-recommend-mc-apling": () => import("./dfva-v4-recommend-mc-apling"),
 };
 
 export function hasReportContent(slug: string): boolean {
