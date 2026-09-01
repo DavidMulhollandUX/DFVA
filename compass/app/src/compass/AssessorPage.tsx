@@ -230,11 +230,15 @@ export default function AssessorPage() {
 
       <div className="border-border bg-muted/30 mt-16 rounded-xl border p-6">
         <h2 className="text-foreground text-sm font-semibold">
-          Programs with a full assessment ({ASSESSABLE_PROGRAMS.length})
+          Programs with a full assessment ({ASSESSABLE_PROGRAMS.length} of 221
+          scored)
         </h2>
         <p className="text-muted-foreground mt-1 text-sm">
-          Pick one to fill the field above. Any other course page still works —
-          it just comes back as a provisional placeholder.
+          Pick one to fill the field above. 221 programs have been scored on
+          the current v4 instrument; the {ASSESSABLE_PROGRAMS.length} listed
+          here have handbook URLs and return a pre-written report. Any other
+          course page still works — it just comes back as a provisional
+          placeholder.
         </p>
         <div className="relative mt-4">
           <Search className="text-muted-foreground absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2" />
