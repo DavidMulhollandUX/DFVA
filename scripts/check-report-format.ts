@@ -50,12 +50,169 @@ const GRANDFATHERED = new Set<string>([])
 
 // Market reports — grandfathered until phases 1-2 backfill them.
 //
-// The 66 slugs below predate the §3 sourcing rule added 2026-08-14 (see the
-// "Discussion signals must be SOURCED" block). They warn rather than fail, so the
-// standard binds on every NEW market report without a 66-file rewrite blocking the
-// build. Remove a slug once its §3 declares its sources and attributes its themes;
-// the lint prints which ones are ready. End state: empty set.
-const MARKET_GRANDFATHERED = new Set<string>([])
+// §3 sourcing debt (added 2026-08-14) is fully backfilled — that grandfather
+// list is empty. The 150 slugs below carry a DIFFERENT, newer debt: the §4
+// SKILL SHIFT SUMMARY table-shape rule added 2026-09-01 (see the "canonical
+// Skill|Direction|Rationale table" check below). A 2026-08-24 mechanical
+// regeneration flattened most reports' §4 into a "### Declining Demand" /
+// "### Rising Demand" bullet list; these 150 still carry that shape (or a
+// non-canonical table). They warn rather than fail, so the rule binds on
+// every NEW market report (dfva-market-mc-apling is the first to conform)
+// without a 150-file rewrite blocking the build. Remove a slug once its §4
+// is rewritten to the canonical table; the lint prints which ones are ready.
+// End state: empty set. Restoring the rest is tracked as its own follow-up,
+// not bundled into any single session.
+const MARKET_GRANDFATHERED = new Set<string>([
+  'dfva-market-038ab',
+  'dfva-market-080cl',
+  'dfva-market-080cn',
+  'dfva-market-097ab',
+  'dfva-market-175aa',
+  'dfva-market-192aa',
+  'dfva-market-195aa',
+  'dfva-market-274ab',
+  'dfva-market-277aa',
+  'dfva-market-294be',
+  'dfva-market-300bb',
+  'dfva-market-305bb',
+  'dfva-market-342aa',
+  'dfva-market-344ab',
+  'dfva-market-439fs',
+  'dfva-market-502cw',
+  'dfva-market-504aa',
+  'dfva-market-507aa',
+  'dfva-market-510aa',
+  'dfva-market-511aa',
+  'dfva-market-526aa',
+  'dfva-market-527cl',
+  'dfva-market-527cn',
+  'dfva-market-635aa',
+  'dfva-market-706aa',
+  'dfva-market-742ab',
+  'dfva-market-746st',
+  'dfva-market-761em',
+  'dfva-market-841ac',
+  'dfva-market-872bb',
+  'dfva-market-991aa',
+  'dfva-market-b-agr',
+  'dfva-market-b-arts',
+  'dfva-market-b-bmed',
+  'dfva-market-b-com',
+  'dfva-market-b-des',
+  'dfva-market-b-faacting',
+  'dfva-market-b-faanim',
+  'dfva-market-b-fafilmtv',
+  'dfva-market-b-famusth',
+  'dfva-market-b-fapro',
+  'dfva-market-b-favisart',
+  'dfva-market-b-sci',
+  'dfva-market-dh-lld',
+  'dfva-market-dh-sc',
+  'dfva-market-dr-philabp',
+  'dfva-market-dr-philagr',
+  'dfva-market-dr-philart',
+  'dfva-market-dr-philbe',
+  'dfva-market-dr-philedp',
+  'dfva-market-dr-philedu',
+  'dfva-market-dr-phileit',
+  'dfva-market-dr-philfam',
+  'dfva-market-dr-philik',
+  'dfva-market-dr-phillaw',
+  'dfva-market-dr-philmdh',
+  'dfva-market-dr-philsci',
+  'dfva-market-dr-philvet',
+  'dfva-market-m04aa',
+  'dfva-market-mc-actsc',
+  'dfva-market-mc-aimo',
+  'dfva-market-mc-anp',
+  'dfva-market-mc-ap',
+  'dfva-market-mc-apbusa',
+  'dfva-market-mc-arch',
+  'dfva-market-mc-arclarc',
+  'dfva-market-mc-ba',
+  'dfva-market-mc-bamktg',
+  'dfva-market-mc-base',
+  'dfva-market-mc-biosenh',
+  'dfva-market-mc-bmedsc',
+  'dfva-market-mc-busana',
+  'dfva-market-mc-chemeng',
+  'dfva-market-mc-civeng',
+  'dfva-market-mc-climsci',
+  'dfva-market-mc-clind',
+  'dfva-market-mc-cm',
+  'dfva-market-mc-cmprop',
+  'dfva-market-mc-cs',
+  'dfva-market-mc-cu',
+  'dfva-market-mc-culmc',
+  'dfva-market-mc-datasc',
+  'dfva-market-mc-ddensur',
+  'dfva-market-mc-desprod',
+  'dfva-market-mc-dmed',
+  'dfva-market-mc-doptom',
+  'dfva-market-mc-dphysio',
+  'dfva-market-mc-dvetmed',
+  'dfva-market-mc-eco',
+  'dfva-market-mc-ed',
+  'dfva-market-mc-engysys',
+  'dfva-market-mc-entrpsp',
+  'dfva-market-mc-env',
+  'dfva-market-mc-envlaw',
+  'dfva-market-mc-envsc',
+  'dfva-market-mc-evalo',
+  'dfva-market-mc-finance',
+  'dfva-market-mc-foodpi',
+  'dfva-market-mc-gencoun',
+  'dfva-market-mc-genohlt',
+  'dfva-market-mc-gmcom',
+  'dfva-market-mc-ibl',
+  'dfva-market-mc-indeng',
+  'dfva-market-mc-inslead',
+  'dfva-market-mc-intedib',
+  'dfva-market-mc-ir',
+  'dfva-market-mc-is',
+  'dfva-market-mc-it',
+  'dfva-market-mc-journ',
+  'dfva-market-mc-jurisd',
+  'dfva-market-mc-mecheng',
+  'dfva-market-mc-mgmt',
+  'dfva-market-mc-mgmtact',
+  'dfva-market-mc-mgmtfin',
+  'dfva-market-mc-mgmthre',
+  'dfva-market-mc-mgmtmkt',
+  'dfva-market-mc-mgmtscm',
+  'dfva-market-mc-mktcomm',
+  'dfva-market-mc-mti',
+  'dfva-market-mc-nursc',
+  'dfva-market-mc-phtyph',
+  'dfva-market-mc-privlaw',
+  'dfva-market-mc-prop',
+  'dfva-market-mc-propsyc',
+  'dfva-market-mc-pubcom',
+  'dfva-market-mc-scibif',
+  'dfva-market-mc-scibio',
+  'dfva-market-mc-scibit',
+  'dfva-market-mc-sciche',
+  'dfva-market-mc-sciear',
+  'dfva-market-mc-sciepi',
+  'dfva-market-mc-sciphy',
+  'dfva-market-mc-scl',
+  'dfva-market-mc-scwr',
+  'dfva-market-mc-socw',
+  'dfva-market-mc-spchpth',
+  'dfva-market-mc-surged',
+  'dfva-market-mc-teachec',
+  'dfva-market-mc-teachpr',
+  'dfva-market-mc-teachsa',
+  'dfva-market-mc-tesol',
+  'dfva-market-mc-thtrwri',
+  'dfva-market-mc-tranint',
+  'dfva-market-mc-upud',
+  'dfva-market-mc-urbdes',
+  'dfva-market-mc-urbhort',
+  'dfva-market-mc-urpl',
+  'dfva-market-mc-ymhmo',
+  'dfva-market-me-dcd',
+])
 
 const RECOMMEND_GRANDFATHERED = new Set<string>([])
 
@@ -302,6 +459,22 @@ for (const file of MARKET_FILES) {
     // Claiming a platform sample is a specific, checkable claim.
     if (/\bwe (?:sampled|scraped|extracted)\b/i.test(body) && !/not (?:a )?(?:scrape|sampled)/i.test(body)) {
       issues.push('section 3 claims a platform sample — say which platform, over what window, and how many items')
+    }
+  }
+
+  // Section 4 (SKILL SHIFT SUMMARY) must be the canonical Skill|Direction|Rationale
+  // table (docs/report-template.md), not a bullet list. A 2026-08-24 mechanical
+  // regeneration flattened it to "### Declining Demand"/"### Rising Demand" bullets
+  // on many reports; this is what would have caught that regression at commit time.
+  const skillShift = content.split(/^#{2,3} (?:\d+\. )?SKILL SHIFT SUMMARY/m)[1]
+  if (skillShift) {
+    const body = skillShift.split(/^#{2,3} (?:\d+\. )?CURRICULUM IMPLICATIONS/m)[0] ?? ''
+    const hasCanonicalTable = /\|\s*Skill\s*\|\s*Direction\s*\|\s*Rationale\s*\|/i.test(body)
+    if (!hasCanonicalTable) {
+      issues.push(
+        'section 4 is not the canonical "| Skill | Direction | Rationale |" table ' +
+        '(docs/report-template.md) — a bullet list or a different column set was found instead',
+      )
     }
   }
 

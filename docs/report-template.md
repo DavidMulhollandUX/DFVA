@@ -110,6 +110,33 @@ All 6 sections are REQUIRED, using `##` (H2):
 | 5 | `## 5. CURRICULUM IMPLICATIONS` |
 | 6 | `## 6. EVIDENCE CONFIDENCE + GAPS` |
 
+### Section 4 (SKILL SHIFT SUMMARY) rules
+
+The body must be a 3-column table, not a bullet list:
+
+```markdown
+| Skill | Direction | Rationale |
+|---|---|---|
+| <skill name> | **↑↑ Rising sharply** | <one sourced sentence> |
+| <skill name> | **↑ Rising** | <one sourced sentence> |
+| <skill name> | **→ Stable, differentiating** | <one sourced sentence> |
+| <skill name> | **↓ Falling** | <one sourced sentence> |
+| <skill name> | **↓↓ Falling sharply** | <one sourced sentence> |
+```
+
+`Direction` is always one of the 5 bolded arrow-coded values above — no other
+wording, no unbolded arrows. `Rationale` is one sourced sentence per row,
+grounded in the report's own evidence (the profession records, the program's
+Panel C evidence file, or a §3 discussion signal), never invented. Include as
+many rows as the evidence genuinely supports; there is no fixed minimum or
+maximum, but a report with none in most positions from Rising to Falling is a
+sign the analysis is one-sided, not that the format doesn't apply.
+
+This table replaced a plain `### Declining Demand` / `### Rising Demand`
+bullet-list format that a 2026-08-24 mechanical regeneration introduced on
+some reports — that bullet format is no longer valid; `dfva:report-lint`
+rejects it.
+
 ---
 
 ## 3. Redesign / Improvement Plan (`reports/dfva-recommend-<code>.md`)
