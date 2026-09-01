@@ -250,7 +250,7 @@ export const faqs = [
   {
     id: 7,
     question: `Can we publish our own ${brand.signalName}?`,
-    answer: `Yes — on your terms. Once the independence structure is fully established, institutions can opt in to display their own assessment scores on program pages. Display is RESILIENT and MODERATE RISK bands only initially, and requires a current (within 12 months) assessment.`,
+    answer: `Yes — on your terms. Once the independence structure is fully established, institutions can opt in to display their own assessment scores on program pages. Display is limited to programs that pass both preconditions (disciplinary foundation and decision-making under uncertainty), and requires a current (within 12 months) assessment on the published instrument.`,
   },
 ];
 
