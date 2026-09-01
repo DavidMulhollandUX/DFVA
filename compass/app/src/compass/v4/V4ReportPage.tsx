@@ -1493,7 +1493,7 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
             slug={`dfva-v4-recommend-${program.code}`}
             label="Redesign Recommendations · v4"
             title="Improvement Plan (Panel C v4)"
-            subtitle="Anchor-referenced interventions derived from the v4 scoring and the market evidence — prioritised levers with gate guardrails and explicit score deltas"
+            subtitle="Recommended curriculum changes, each linked to a specific score and the market evidence behind it — with pass/fail preconditions noted where they apply"
           />
         </div>
 
