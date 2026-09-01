@@ -1,0 +1,111 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Master of Teaching (Primary) (MC-TEACHPR) — Market Intelligence",
+  institution: "University of Melbourne",
+  markdown: `# DFVA MARKET INTELLIGENCE: Master of Teaching (Primary) (MC-TEACHPR)
+**Assessment Date:** 2026-09-01 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-teachpr
+
+## 1. JOB FAMILY MAP
+
+| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+|---|---|---|---|---|---|
+| Classroom generalist teaching | Primary School Teacher, Teacher – Generalist, Teacher – Primary | Lesson planning, whole-class instruction, formative and summative assessment, classroom-behaviour management, parent/carer communication | LOW — the program's own Gate 2 evidence (clinical placement, capstone) requires defended, real-time judgement under unscripted classroom conditions that current gen-AI tools do not perform | Assessment-design justification, differentiated instruction, behaviour-management strategy, use of AI tools for planning and marking support | Grounded in 25-2021 (Elementary School Teachers) claims and Panel C evidence for W3 (60 placement days, supervised) |
+| Subject-area primary teaching (mathematics, science, humanities, literacy) | Primary Teacher – Mathematics/Science focus, Curriculum Coordinator (early-career) | Designing unit plans and assessment tasks, running inquiry-based sequences (e.g. the 5E model), analysing student data | LOW-MEDIUM — planning and marking-support tasks are increasingly assisted by gen-AI, but the program's core units require graded, justified curriculum-design artefacts (unit plans, lesson sequences) that stay teacher-authored | Curriculum-design justification, primary data analysis of student outcomes, disciplinary content expertise | C2/C5/W2 evidence: EDUC91087, EDUC91083, EDUC91084/86/89 graded artefacts |
+| Learning support and inclusion | Teacher Assistant, Learning Support Assistant, Inclusion Support Tutor | Working under a teacher's direction with individual students or small groups, implementing behaviour and learning plans | LOW-MEDIUM — Jobs and Skills Australia scores the adjacent Education Aides group at 0.31 automation / 0.65 augmentation, a low-automation/medium-augmentation band, meaning the role is expected to change in method more than headcount | Individualised support planning, collaboration with classroom teacher, use of AI-assisted resource generation | Grounded in 25-9041 (Teacher Assistants) claim bx-L2-1 |
+| Specialist / relief and non-standard teaching | Casual Relief Teacher, Talent Pool Teacher, Education Officer (corrective/youth settings) | Short-notice lesson delivery from existing plans, behaviour management in unfamiliar classes | LOW — still requires in-person, real-time supervision and judgement; not a task gen-AI performs | Rapid lesson-plan adaptation, classroom-management under uncertainty | L4 job-ad evidence (25-2021, 25-3099): Talent Pool Teacher – Maritime (QLD), Education Officer – Corrective Services (QLD) |
+| Private tutoring / supplementary instruction | Private Tutor, Learning Centre Instructor | One-to-one or small-group instruction outside the standard classroom, often subject- or exam-focused | MEDIUM-HIGH — the adjacent SOC 25-3099 catch-all scores 1.486 on the AIOE language-modelling exposure index (roughly the 95th percentile of 774 US occupations), and Chegg's 2025 workforce cuts show AI-driven substitution pressure on adjacent tutoring/homework-help business models | Verification and correction of AI-generated study material, exam-specific coaching, relationship-based motivation | 25-3099 claims bx-L2-1 (corrected scope) and bx-L3-1 (Chegg) |
+
+## 2. RECENT JOB AD SIGNALS
+
+**Correction (2026-09-01):** an earlier draft of this section reported the \`jobAds.count: 1200\` figure carried by all three destination-occupation records as a real, occupation-specific Adzuna count. It is not. Across the wider \`data/professions/\` corpus, exactly 1,200 with the identical employer set ("Victorian State Government", "Specialist National Employers", "Leading Australian Consultancies") and identical skill set recurs verbatim across **164 otherwise-unrelated occupation records** — every genuine Adzuna count in the corpus is unique or near-unique (15, 4, 7476, 271, ...), so a value repeated 164 times cannot be a real per-occupation measurement. The whole \`jobAds\` block on 25-2021, 25-9041 and 25-3099 is a templated placeholder, not live data, despite carrying \`source: "adzuna-au"\`. This section is rewritten below without treating any part of that block as real.
+
+1. **No genuine Adzuna job-ad volume, employer, or skill data exists for this program's destination occupations in the reviewed material.** The \`jobAds\` block on all three profession records (25-2021, 25-9041, 25-3099) is a templated placeholder shared with 161 other unrelated occupations, not a real per-occupation extraction. **LOW confidence — treat as absent, not as a demand measurement.**
+2. **Individual live postings sampled from LinkedIn (unofficial scrape provenance, L4 lane) corroborate the occupation categories directly relevant to the program's destinations**, for example: "Teacher – Primary" (Department of Education, Western Australia), "Teacher – Generalist" (Department of Education, Western Australia, Esperance), and "Primary School Teacher" (Department of Education and Training, Northern Territory). These are single postings only — real, but not volume evidence. **MEDIUM confidence** for "these specific roles exist and were advertised"; **LOW confidence** for anything about overall demand volume.
+3. **Adjacent roles the program's cohort also enters appear in the same L4 sample**, including "Inclusion Support Tutor" (Department of Education and Training, Northern Territory) and "TALENT POOL – Teacher – Maritime" (Queensland Government) — evidence that government employers run standing talent pools rather than only one-off postings. **LOW-MEDIUM confidence**, single-sample basis.
+4. **No trade-specific "AI is changing hiring for primary teachers" signal appears in any job-ad data reviewed.** Any claim about how AI is reshaping what primary-teacher job ads ask for is a §3 discussion-signal claim, not a §2 job-ad signal, and should not be conflated with it.
+
+## 3. CURRENT DISCUSSION SIGNALS — MODERATE CONFIDENCE
+
+**What these sources are.** Government and statutory-agency publications (AITSL, the Australian Government Department of Education, Jobs and Skills Australia), national trade and mainstream press (ABC News), and a private-sector regulatory-compliance brief (Responsible AI Australia). Direct extraction from X or LinkedIn was **not** performed and no professional forum was sampled for this section — "discourse" here draws on the profession records' L1-L3 sourced claims (regulatory filings, a national government task-exposure dataset, and dated trade-press reporting on state policy), not on a sampled social-media or forum corpus. The profession records separately carry a large volume of L5 "practitioner-discourse" items (GitHub, Hacker News, Reddit, X, YouTube) drawn from an automated last-30-days sweep; the great majority of these are off-topic noise (general AI-tooling posts unrelated to teaching) rather than genuine primary-education discourse, and none is used as a Theme source below — only items judged on-topic and corroborated in the L4/L1-L3 lanes are cited.
+
+### Theme 1 — Australian primary teachers now practise inside a binding national AI-in-schools policy framework, not an informal one
+
+The Australian Government Department of Education's [Australian Framework for Generative Artificial Intelligence (AI) in Schools](https://education.gov.au/schooling/resources/australian-framework-generative-artificial-intelligence-ai-schools) (endorsed by Education Ministers, reviewed June 2025) sets six governing principles — teaching and learning, human and social wellbeing, transparency, fairness, accountability, and privacy/security/safety — that state and territory systems then implement through binding policy rather than legislation. A 2026 practitioner-facing compliance brief from [Responsible AI Australia](https://responsibleaiaustralia.com.au/industries/education) states that schools must run privacy due diligence before procuring AI tools, must not enter student or staff personal information into public generative-AI tools, and must keep a human in the loop on judgements such as student-achievement marking and report writing. This supports a claim about the *regulatory environment* a graduating primary teacher enters — that AI use in the classroom is governed, not discretionary — and does not support a claim about how many schools currently comply, how enforcement operates, or teacher sentiment toward the rules.
+
+**Bearing:** C3 (currently scored Level 1 — no graded assessment item in the program requires critique of digital-tool capabilities, limitations, ethics or governance, despite ICT-ethics content appearing repeatedly as an unassessed learning outcome) and G2 (professional judgement under real conditions, already passing).
+
+### Theme 2 — State education systems are actively redesigning assessment to counter AI-enabled cheating, which reshapes what a beginning teacher must be able to design
+
+[ABC News reported in August 2026](https://abc.net.au/news/2026-08-25/how-education-departments-across-country-are-cracking-down-on-ai/107026976) that NSW proposed banning unsupervised take-home assignments for Years 11-12 after more than 1,000 recorded student AI-cheating cases in 2025, NESA's 2024 AI-in-schools policy treats unapproved student AI use as an academic-integrity breach, and Victoria will impose primary-school screen-time caps from Term 1 2027. The article states teachers must therefore collect evidence of learning through oral, practical or supervised means rather than relying solely on take-home written work. This is secondary-school-weighted reporting (the 1,000-case NSW figure and the take-home-assignment ban both concern Years 11-12) with one directly primary-relevant element — the Victorian primary-school screen-time cap from 2027 — so it should be read as evidence that assessment-design practice is shifting system-wide, not as a primary-school-specific study.
+
+**Bearing:** C2 (structured critique of a professional tool/assessment device — currently Level 2, ambiguous on whether reliance-adjustment evidence reaches Level 3) and W2 (design of practitioner assessment artefacts such as unit plans and assessment tasks — currently Level 2, ambiguous on whether judging criteria are drawn from professional practice).
+
+### Theme 3 — National task-exposure modelling places primary teaching in a moderate, not low, AI-exposure band, driven by planning and marking-adjacent tasks
+
+Jobs and Skills Australia's [Gen AI Capacity Study](https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/occupation-data-on-ai-exposure) (August 2025), scoring 358 ANZSCO occupations on a task-level augmentation/automation framework, finds education-professional occupations cluster toward the higher-exposure end of the Australian workforce because core tasks — lesson planning, resource creation, feedback, assessment drafting — are language- and knowledge-intensive and readily supported by generative AI. The profession record's own crosswalk (Felten-AIOE lineage, rescaled 0-100) places Elementary School Teachers at 84.74/100, with the school-teaching band ranging from 64.33 (preschool) to 94.25 (middle school) by task composition — explicitly a task-similarity/capability score, not an employment-change forecast. The adjacent Teacher Assistants occupation scores lower and differently — JSA's national dataset assigns Education Aides 0.31 automation exposure and 0.65 augmentation exposure on its 0-1 scale, a low-automation/medium-augmentation band — consistent with the assistant role being reshaped in method (more AI-assisted resource preparation) rather than replaced.
+
+**Bearing:** C3 (Technical Currency on AI/digital tooling — currently Level 1, the lowest-scoring dimension in the evidence file, and the dimension this exposure data bears on most directly) and W2 (the practitioner-artefact assessment spine — unit plans, lesson sequences, assessment-task design — is exactly the task category JSA identifies as most AI-augmentable).
+
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+
+| Declining Demand | Velocity | Rising Demand | Velocity |
+|---|---|---|---|
+| Purely take-home, unsupervised written assessment as a primary evidence-of-learning method | Medium | Supervised, oral and practical assessment of student learning | Medium |
+| Manually drafting first-pass lesson plans and resource sets from scratch | Fast | Critical evaluation and adaptation of AI-generated lesson/resource drafts before classroom use | Fast |
+| Informal, ungoverned classroom AI-tool adoption | Slow | Documented compliance with AI procurement/privacy due diligence before tool use | Medium |
+| Generic homework-help / tutoring-platform-mediated instruction (adjacent private-tutor market) | Fast | Verification and correction of AI-generated study material in tutoring and support roles | Medium |
+| Screen-based instructional time in primary classrooms (Victoria, from 2027) | Slow | In-person, real-time behaviour-management and relationship-based instruction | Slow |
+| Single-method (all take-home) assessment design as taught practice | Medium | Assessment-design justification that documents *why* a method was chosen, including AI-integrity safeguards | Medium |
+
+Grounded in §3 Themes 1-3 (regulatory framework, AI-cheating assessment redesign, JSA/Felten task-exposure banding) and 25-9041 claim bx-L2-1 (low-automation/medium-augmentation for the teacher-assistant band). Velocities are illustrative, drawn from the dated span of the sourced material (2025-06 to 2026-08), not from a quantitative trend study.
+
+## 5. CURRICULUM IMPLICATIONS
+
+| # | Implication | Dimension | Action |
+|---|---|---|---|
+| CI-1 | The program's own evidence file scores C3 (digital/AI-tool critique) at Level 1 — ICT-ethics content appears repeatedly as an unassessed learning outcome, with no graded item requiring critique of a generative-AI tool's capabilities, limitations or governance — while §3 Theme 1 shows graduates enter a binding national AI-in-schools compliance regime on day one. | C3 Technical Currency | Add a graded assessment item (even a modest one, alongside existing ICT-ethics outcome statements) requiring candidates to critique a specific generative-AI tool against the Australian Framework for Generative AI in Schools' six principles. |
+| CI-2 | §3 Theme 2 shows systems actively redesigning assessment away from unsupervised take-home work toward oral/practical evidence-of-learning, which is precisely the kind of "reliance-on/override-of a tool, justified" judgement the evidence file's C2 ambiguity note says is missing to reach Level 3. | C2 Reliance/Strategy Adjustment | In the Capstone's existing reflective/self-study assessment, explicitly require candidates to document a reasoned decision to rely on, adapt, or reject an AI-assisted planning or marking tool, closing the ambiguity noted against C2. |
+| CI-3 | §3 Theme 3 identifies lesson planning, resource creation and assessment drafting — exactly the task category behind W2's recurring practitioner-artefact assessments (unit plans, lesson sequences, assessment-task design) — as the most AI-augmentable primary-teacher tasks nationally, while W2's evidence-file ambiguity is precisely whether these artefacts are judged against a genuine practice constraint. | W2 Assessment-Spine / Practice Constraint | State explicitly, in at least one of the three core W2 subjects (EDUC91084/86/89), that judging criteria are drawn from professional practice standards, which would resolve the noted Level 2/3 ambiguity upward with no new content required. |
+| CI-4 | The adjacent teacher-assistant occupation (25-9041) sits in a low-automation/medium-augmentation exposure band, meaning primary-classroom teachers will increasingly work alongside AI-augmented support roles; the program's C1 (collaborative practice) evidence stops at "collaboration with people" and never documents coordinating work across people AND AI/digital tools together. | C1 Collaborative Practice | Extend the existing graded group Unit-of-work assessment (EDUC91091) to require documenting how the group coordinated its use of a shared digital or AI tool, not only how members coordinated with each other. |
+
+## 6. EVIDENCE CONFIDENCE + GAPS
+
+| Signal Area | Confidence | Gap / Caveat |
+|---|---|---|
+| Job-ad volume (§2) | GAP — not data | The \`jobAds\` block on all three records is a templated placeholder (count 1,200 recurs identically across 164 unrelated occupations in the corpus) despite carrying \`source: "adzuna-au"\`; treat as absent, not as a measurement. |
+| Individual live postings (§2, L4) | MEDIUM | Single-posting sample via unofficial LinkedIn scrape; real postings but no volume evidence — the Adzuna figure that would have corroborated volume is the templated placeholder above, not a real count. |
+| National AI-in-schools policy framework (§3 Theme 1) | HIGH | Primary government source (Department of Education) plus a secondary compliance brief; the compliance brief is a practitioner-facing summary, not itself a primary regulatory text. |
+| Assessment redesign against AI cheating (§3 Theme 2) | MEDIUM | Single outlet (ABC News); mostly secondary-school-weighted (the 1,000-case figure and take-home ban both concern Years 11-12) with only one directly primary-relevant data point (the Victorian screen-time cap). |
+| Task-exposure modelling (§3 Theme 3) | MEDIUM-HIGH | Government dataset (JSA/Felten-AIOE lineage) is a task-similarity capability score, explicitly not an employment-change forecast; the program's own DFVA crosswalk score (84.74/100) is a re-derivation of the same underlying methodology, not an independent second source. |
+| Adjacent occupation destinations (Teacher Assistants, Teachers/Instructors All Other) | MEDIUM | Both are US SOC classifications mapped to this Australian program; SOC 25-3099's AIOE claim was itself corrected in its source record (originally overstated as "similar in magnitude" to top postsecondary-humanities exposure, corrected to "meaningfully below") — a caution that these US-sourced task-exposure scores need care in framing, already applied above. |
+| Curriculum grounding (§5) | HIGH | Drawn directly from \`dfva/source/evidence/mc-teachpr.json\`, adversarially reviewed 2026-08-31, mechanical verification true. |
+
+### Critical evidence gaps to close before institutional use:
+
+1. **No Australia-specific, primary-classroom-focused AI-cheating or assessment-redesign study exists in the sourced material** — §3 Theme 2 rests on one outlet's reporting, weighted toward secondary schooling. A dedicated primary-sector source (e.g. a state department circular specific to primary assessment practice) would strengthen CI-2 and CI-3.
+2. **The Adzuna job-ad employer/skill breakdown is not usable at occupation-specific granularity** — the identical categories across three unrelated occupations indicate a template or aggregation artefact. A re-pull with occupation-disambiguated employer names would materially improve §2's specificity.
+3. **No direct evidence on Australian teacher-assistant or private-tutor employment trends was found** — the JSA exposure scores (Theme 3, Job Family Map) are task-level capability estimates, not observed employment or headcount data for either adjacent occupation.
+4. **The L1 AITSL/state-registration claim (25-2021-L1-01) and the JSA exposure claims were not independently corroborated by a second primary source** in this session; both were accepted as already adversarially checked per the profession record's disposition, per the no-fabrication contract's instruction not to re-verify sourced/scoped/corrected claims.
+
+---
+
+**Assessment Date:** 2026-09-01
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-teachpr
+**Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+## REAL GRADUATE DESTINATIONS (JSA HEO)
+
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **070103 Teacher Education: Primary** (n = 43,690 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 81.5% of them, and the 5 largest are shown at each stage.
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Primary School Teacher (66.9%) · School Teachers nfd (3.0%) · Secondary School Teacher (2.7%) · Early Childhood (Pre-primary School) Teacher (1.7%) · Middle School Teacher (Aus) \\ Intermediate School Teacher (NZ) (1.5%) |
+| Early (~3yr) | Primary School Teacher (71.3%) · Secondary School Teacher (3.0%) · School Teachers nfd (2.7%) · Early Childhood (Pre-primary School) Teacher (1.6%) · Middle School Teacher (Aus) \\ Intermediate School Teacher (NZ) (1.6%) |
+| Senior (~5yr) | Primary School Teacher (69.9%) · Secondary School Teacher (3.3%) · School Teachers nfd (2.4%) · Middle School Teacher (Aus) \\ Intermediate School Teacher (NZ) (1.5%) · Early Childhood (Pre-primary School) Teacher (1.5%) |
+
+**Field grain, not program grain.** These are graduates of the whole Teacher Education: Primary field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
+`,
+};
+
+export default content;

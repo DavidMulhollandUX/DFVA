@@ -1,0 +1,152 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Master of Urban Planning/Master of Urban Design (MC-UPUD) — Improvement Plan (v4 draft)",
+  institution: "University of Melbourne",
+  markdown: `# DFVA v4 IMPROVEMENT PLAN: Master of Urban Planning/Master of Urban Design (MC-UPUD)
+
+**Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
+**Assessment date:** 2026-08-31 · **Derived from:** the verified panelCv4 scoring + reports/dfva-market-mc-upud.md
+**Position basis:** Destination AI Exposure 92.85 (measured; partial basis — related-program grain, Master of Urban Planning, n=130) × Curriculum Adaptiveness 10/15 (v4.2 draft, sub-scale A) · Workplace practice 7/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite, no position label until the v4 migration cycle
+
+> Citation marks in the Sources columns refer to the numbered list in
+> [References](#references); full citations are given there and not repeated in
+> the body.
+
+## 1. DIAGNOSTIC SUMMARY — Basis: inferred
+
+*This plan argues from the scored evidence and market data above; it is
+interpretation, not observation.*
+
+The Master of Urban Planning/Master of Urban Design is a combined professional degree, with the Master of Urban Planning component accredited by the Planning Institute of Australia (PIA) over an all-compulsory specialist core and a staged studio/thesis prerequisite chain — Urban Design Studio A → B → C, and the Minor Thesis's explicit Part 1 → Part 2 sequence (gates G1 and G2 both PASS). On Sub-scale A (**10 / 15**), the curriculum's strongest item is a Level 3 self-scoped capstone (**C4: 3/3**) — the Minor Thesis is named directly as "a capstone option," and the Urban Design Thesis as "the culmination of each student's studies" — while its weakest is AI and digital literacy (**C3: 1/3**): the extract's only AI/machine-learning content sits in the elective Computational Design and Optimisation, and no core unit addresses AI capabilities together with limitations or ethics. Collaboration (**C1: 2/3**) and evaluative judgement (**C2: 2/3**) both clear the core-assessed-group-work bar but stop short of documented people-plus-tool coordination or reliance-justification assessment; inquiry (**C5: 2/3**) is held at Level 2 because the only candidate defence-under-scrutiny evidence does not describe panel questioning, an ambiguity resolved to the lower level per the scoring-direction rule.
+
+On the workplace sub-scale (**7 / 9**), task fidelity is the program's assessment spine (**W2: 3/3**) — the three Urban Design Studios, Planning Law and Strategic Plan Making all grade real, site-based or application-based professional tasks with genuine constraints of practice (documented work-hour requirements, a graded field-trip hurdle). Professional communication (**W1: 2/3**) reaches a recognised genre — Planning Law's statutory-assessment assignments, Strategic Plan Making's strategic plan — but no core assessment is documented as judged by an external practitioner. Work-situated learning (**W3: 2/3**) rests on a single ambiguous placement: the course-structure line ABPL90132 is titled "Urban Coding and Design," but the page reached via that code describes "Internship II (Semester Long) (MULT90019)," an assessed placement with practitioner supervision — taken at face value it clears Level 2 as a single subject, not a sequence. The market report's four curriculum implications (§5) name C3, C2, W1 and W3 as the items its evidence bears on directly; C1 and C5 carry no matching market signal in this report and are noted, not actioned, below.
+
+| Item | Sub-scale | Score | Levels below maximum | Market evidence for the gap | Priority |
+|---|---|---|---|---|---|
+| C3 Digital & AI literacy, including governance | Adaptive | 1 / 3 | 2 | Direct — Themes 1–3 (Planning Magazine 2026-06-18/2026-05-08; Stateline 2026-08-30) describe AI tools already touching permit assessment and design-layout drafting; CI-1 names C3 as the item to close, since its only content sits in the elective Computational Design and Optimisation | 1 |
+| W1 Professional communication & conduct | Workplace | 2 / 3 | 1 | Direct — Theme 2 (Stateline, 2026-08-30) describes automated permit-completeness screening in named US jurisdictions; CI-2 ties this to Planning Law's core statutory-assessment genre | 2 |
+| W3 Work-situated learning | Workplace | 2 / 3 | 1 | Direct — Themes 1–3 describe AI tools already in routine use inside the government and planning-adjacent workplaces the ABPL90132/MULT90019 placement is meant to expose students to; CI-4 flags this placement's ambiguous status directly | 3 |
+| C2 Hybrid metacognition & evaluative judgement | Adaptive | 2 / 3 | 1 | Direct — Theme 4 (APA blog 2026-05-18; Common Edge 2026-07-28) warns that AI-generated design output can look resolved before design judgment has actually been exercised; CI-3 ties this to studio jury-review criteria | 4 |
+| C1 Distributed cognition & relational capability | Adaptive | 2 / 3 | 1 | Indirect — no theme or curriculum implication in the market report names C1; Theme 1's note on generative layout-optimisation tools bears on design production (C3/W2), not on assessed people-plus-tool coordination | 5 |
+| C5 Inquiry & evidence generation | Adaptive | 2 / 3 | 1 | Indirect — no theme or curriculum implication addresses primary-inquiry methodology or thesis defence; the Minor Thesis's ambiguous defence evidence is a curriculum-evidence gap (see verified ambiguities), not a market one | 6 |
+| C4 Life-long learning & transfer | Adaptive | 3 / 3 | 0 | None — no intervention proposed and none needed | — |
+| W2 Authentic task design | Workplace | 3 / 3 | 0 | None — no intervention proposed and none needed | — |
+| **Adaptive capabilities** | **Adaptive** | **10 / 15** | **5** | — | — |
+| **Workplace practice** | **Workplace** | **7 / 9** | **2** | — | — |
+
+Priority orders items by size of gap. The P-numbers in the tables that follow are a
+different ordering — sequenced by effort and dependency — so an item's priority and its
+P-number do not correspond.
+
+## 2. SCORE-TO-ACTION MAP — Basis: inferred
+
+| Item | Now → target | Anchor requirement at the target level (verbatim) | Curriculum action | Sources |
+|---|---|---|---|---|
+| C3 Digital & AI literacy, including governance | 1 → 2 | "Core units address AI capabilities AND limitations/ethics; use with limits discussed and assessed." | Bring the AI/machine-learning capability-and-limitations content currently confined to the elective Computational Design and Optimisation into the core Urban Design Studio sequence (Studios A–C), where design-layout drafting already occurs | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
+| C3 Digital & AI literacy, including governance | 2 → 3 | "Core assessment requires critique or governance of AI systems in the discipline's own context — bias, accountability, transparency, regulation or data governance — beyond tool operation." | Once introduced, assess that content: add a governance-critique task to the Urban Design Studio sequence requiring students to critique the bias, accountability or transparency limits of AI-assisted generative layout tools within the discipline's own jury-review context | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
+| W1 Professional communication & conduct | 2 → 3 | "Professional communication is assessed repeatedly and progressively across the program AND at least one core assessment is delivered to, or judged by, a real external audience or practitioner (industry panel, client, patient or simulated patient, public exhibition), with professional conduct or accountability explicitly among the assessed criteria." | Add an external-practitioner judging component to Planning Law's statutory-assessment assignments, and require students to audit or critique an AI-generated permit assessment as part of that same genre, so the assessed genre both reaches a real practitioner audience and matches how completeness screening is increasingly performed | [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) |
+| W3 Work-situated learning | 2 → 3 | "Substantial required work-situated learning: an extended placement or practicum, or a sequence of them, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection on professional practice." | First confirm the ABPL90132/MULT90019 title mismatch so the placement's core status is unambiguous, then extend the single placement subject into a required sequence with structured reflection and documented accountability to the host, and confirm its learning outcomes name the AI-assisted software the host workplace already uses | [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) |
+| C2 Hybrid metacognition & evaluative judgement | 2 → 3 | "Assessment requires students to document and justify reliance decisions — when they relied on or overrode a tool, source or collaborator; defend judgements of AI-output quality; or evidence strategy adjustment over time (process-focused assessment)." | Add a jury-review rubric criterion to the Urban Design Studio sequence requiring students to identify and defend which of their design decisions would or would not survive AI-assisted premature resolution, extending the existing peer/self-review component already graded in Climate Change & Sustainability Planning into a documented reliance-and-override judgment | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) |
+
+C1 and C5 carry gaps (both 2/3) but no market signal in \`reports/dfva-market-mc-upud.md\`
+names either item; per the market-warranted rule, no action row is proposed for them here.
+
+## 3. MARKET ALIGNMENT — Basis: reported → inferred
+
+| Lever | Item | Market evidence | Location in market report | Confidence |
+|---|---|---|---|---|
+| P1 | C2 | Theme 4: practitioners warn generative AI can make design and planning judgment "look more finished than it is," risking cognitive offloading and overconfidence | Section 3, Theme 4 (APA blog 2026-05-18; Common Edge 2026-07-28); CI-3 | MEDIUM |
+| P2 | C3 | Theme 1: planning departments are piloting AI for meeting transcription, permit review, imagery analysis and generative building-layout optimisation | Section 3, Theme 1 (Planning Magazine, 2026-06-18); CI-1 | MEDIUM |
+| P3 | W1 | Theme 2: cities are automating permit-completeness screening, though officials say complex zoning judgment still resists it | Section 3, Theme 2 (Stateline, 2026-08-30); CI-2 | MEDIUM |
+| P4 | C3 | Same as P2 — CI-1 names bringing AI-capability/limitations content into a core unit as the action | Section 3, Theme 1; Section 5, CI-1 | MEDIUM |
+| P5 | W3 | Theme 3: deployed AI examples recur across planning-adjacent government functions as isolated case studies; CI-4 flags the placement's exposure to workplace AI tools | Section 3, Theme 3 (Planning Magazine, 2026-05-08); Section 5, CI-4 | MEDIUM |
+
+Confidence is restated from the market report's own §6 rating for "Current discussion
+signals" (MEDIUM) — no signal here is rated higher than the source report rates itself.
+
+## 4. PRIORITISED INTERVENTIONS — Basis: inferred
+
+| # | Item | Action | Anchor satisfied | Effort | Sequence | Sources |
+|---|---|---|---|---|---|---|
+| P1 | C2 | Add a jury-review rubric criterion in the Urban Design Studio sequence requiring students to defend which design decisions would or would not survive AI-assisted premature resolution | C2 Level 3 | Low | Term 1 (rubric addition to existing jury review) | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) |
+| P2 | C3 | Bring AI capability-and-limitations content from the elective Computational Design and Optimisation into the core Urban Design Studio sequence | C3 Level 2 (from Level 1) | Medium | Term 1 (content addition to existing studios) | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105) |
+| P3 | W1 | Recruit an external practitioner panel to co-judge Planning Law's statutory-assessment assignments, and add an AI-generated-assessment audit task to the same assignments | W1 Level 3 | Medium | Term 2 (panel recruitment; assignment redesign) | [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework) |
+| P4 | C3 | Add an assessed governance-critique task to the Urban Design Studio sequence covering bias, accountability and transparency limits of AI-assisted layout tools | C3 Level 3 (from Level 2) | Medium–High | Term 2 (assessment task redesign, follows P2) | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
+| P5 | W3 | Confirm the ABPL90132/MULT90019 title mismatch, then extend the placement into a required sequence with host accountability, structured reflection and AI-tool-exposure learning outcomes | W3 Level 3 | High | Term 3 (course-structure confirmation, then structural sequence change) | [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z) |
+
+## 5. GATE GUARDRAILS — Basis: scored
+
+| Gate | Status | Evidence carrying the gate | Constraint on redesign | Sources |
+|---|---|---|---|---|
+| G1 Disciplinary foundation | PASS | The Master of Urban Planning component is PIA-accredited, over an all-compulsory specialist core (the three core-subject tables sum exactly to the stated 237.5 core points) and a staged prerequisite chain — Urban Design Studio A → B → C of increasing complexity, and the Minor Thesis's explicit two-consecutive-semester Part 1 → Part 2 sequence | Any redesign must preserve PIA accreditation of the Master of Urban Planning component, the all-compulsory core, and the studio and thesis prerequisite chains — P1–P5 above add content and assessment to these existing units, none of them replace or elective-shift a core requirement | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[6]](https://doi.org/10.1093/qje/qjaa021) |
+| G2 Decision-making under uncertainty | PASS | The design studios require identifying an urban design problem, setting a research question, testing a design approach "with rigor" and drawing conclusions, on real, open-brief metropolitan sites with documented work-hour accountability; Strategic Plan Making requires a strategic plan from a real field-collected site with genuine policy trade-offs | The C2 rubric addition (P1) and C3 critique task (P2/P4) must be layered onto these existing open-brief, real-site tasks — converting them into scripted or fully-specified exercises to make room for the new content would break this gate regardless of any adaptiveness gain | [16] |
+
+## 6. WHAT WOULD CHANGE THE SCORE — Basis: inferred
+
+Each row assumes the rows above it have landed; the cumulative columns are the two
+sub-scales tracked separately, never summed.
+
+| Lever | Item | From | To | Change | Cumulative adaptive | Cumulative workplace |
+|---|---|---|---|---|---|---|
+| P1 | C2 | 2 | 3 | +1 adaptive | 11 / 15 | 7 / 9 |
+| P2 | C3 | 1 | 2 | +1 adaptive | 12 / 15 | 7 / 9 |
+| P3 | W1 | 2 | 3 | +1 workplace | 12 / 15 | 8 / 9 |
+| P4 | C3 | 2 | 3 | +1 adaptive | 13 / 15 | 8 / 9 |
+| P5 | W3 | 2 | 3 | +1 workplace | 13 / 15 | 9 / 9 |
+
+Landing all five levers reaches 13 / 15 adaptive and 9 / 9 workplace. The remaining
+adaptive gap (2 points) sits in C1 and C5, for which this report proposes no action —
+see §1 and §2.
+
+What does **not** move a score:
+
+| Change | Why it does not move a score | Governing rule | Sources |
+|---|---|---|---|
+| Rewriting a course or subject learning outcome to name a capability (e.g. adding "AI governance" to a graduate attribute) | An outcome statement is not assessment evidence; the item stays at the level its assessed evidence supports | R2 (level 2/3 needs assessment evidence); Barrie on stated attributes [33] | [33] |
+| Relabelling studio jury review or the strategic-plan task "authentic" or "industry-relevant" | W2 is scored from documented task features against the discipline's criterion situation, never from the label — and W2 is already at Level 3 on that documented basis | R4; Gulikers et al. [[22]](https://doi.org/10.1007/BF02504676); Fawns et al. on the label as a thought-terminating cliché [[24]](https://doi.org/10.1080/02602938.2024.2404634) | [[22]](https://doi.org/10.1007/BF02504676)[[24]](https://doi.org/10.1080/02602938.2024.2404634) |
+| Leaving AI capability-and-limitations content in the elective Computational Design and Optimisation rather than moving it into a core unit | Every C3 anchor above Level 1 requires CORE placement; an elective leaves the cohort's guaranteed curriculum unchanged | Anchor wording ("core unit"); the cohort-wide reading of HESF 1.4.3 [[19]](https://www.legislation.gov.au/F2021L00488) | [[19]](https://www.legislation.gov.au/F2021L00488) |
+| Treating the unresolved ABPL90132/MULT90019 title mismatch as already satisfying a required placement sequence | The current W3 score of 2 was reached by taking one ambiguous course-structure line at face value; a Level 3 sequence needs unambiguous, multi-subject assessment evidence, not the same single ambiguous line reused | R2 (level 3 needs unambiguous assessment evidence); HESF 5.4.1 on quality-assured WIL [[19]](https://www.legislation.gov.au/F2021L00488) | [[19]](https://www.legislation.gov.au/F2021L00488) |
+| Claiming the extended W3 placement (P5) will raise graduate employment rates | Jackson & Collings (2018) [[28]](https://doi.org/10.1007/s10734-017-0216-z) found WIL does not increase full-time employment rates; the warrant is skill development, employment relevance and professional identity [[29]](https://doi.org/10.1080/07294360.2016.1139551), with the equity cost of unpaid or relocation-dependent placements noted against it [[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) | Jackson & Collings [[28]](https://doi.org/10.1007/s10734-017-0216-z); Jackson [[29]](https://doi.org/10.1080/07294360.2016.1139551); Australian Universities Accord [[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) | [[28]](https://doi.org/10.1007/s10734-017-0216-z)[[29]](https://doi.org/10.1080/07294360.2016.1139551)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) |
+
+## REFERENCES
+
+1. Lodge JM, de Barba P, Ainscough L, et al. (2026). Assuring quality learning in a gen AI-integrated future: The role of adaptive capabilities. TEQSA. https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities
+2. Lodge JM, et al. (2025). Australian Framework for Artificial Intelligence in Higher Education. ACSES. (Principles 4 & 6.) https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/
+3. Lodge JM, Howard S, Bearman M, Dawson P & Associates (2023). Assessment reform for the age of artificial intelligence. TEQSA. https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf
+4. Tai J, Ajjawi R, Boud D, Dawson P, Panadero E (2018). Developing evaluative judgement: enabling students to make decisions about the quality of work. Higher Education 76:467–481. https://doi.org/10.1007/s10734-017-0220-3
+5. Deming DJ (2017). The growing importance of social skills in the labor market. Quarterly Journal of Economics 132(4):1593–1640. https://doi.org/10.1093/qje/qjx022
+6. Deming DJ, Noray K (2020). Earnings dynamics, changing job skills, and STEM careers. Quarterly Journal of Economics 135(4):1965–2005. https://doi.org/10.1093/qje/qjaa021
+7. Frey CB, Osborne MA (2017). The future of employment: how susceptible are jobs to computerisation? Technological Forecasting & Social Change 114:254–280. https://doi.org/10.1016/j.techfore.2016.08.019
+8. Brynjolfsson E, Mitchell T, Rock D (2018). What can machines learn, and what does it mean for occupations and the economy? AEA Papers & Proceedings 108:43–47. (The SML rubric — the declarative-anchor form R1 copies.) https://doi.org/10.1257/pandp.20181019
+9. Pellegrino JW, Hilton ML (eds) (2012). Education for Life and Work: Developing Transferable Knowledge and Skills in the 21st Century. National Research Council. https://www.nationalacademies.org/read/13398/chapter/2
+10. Measuring adaptive expertise and adaptive performance in (becoming) healthcare professionals: a scoping review of measurement instruments (2025). Advances in Health Sciences Education. https://doi.org/10.1007/s10459-025-10413-y
+11. Long D, Magerko B (2020). What is AI literacy? Competencies and design considerations. CHI 2020. https://doi.org/10.1145/3313831.3376727
+12. UNESCO (2024). AI competency framework for students. https://unesdoc.unesco.org/ark:/48223/pf0000391105
+13. European Commission JRC — DigComp (Digital Competence Framework for Citizens); basis of the Australian Digital Capability Framework (DEWR, 2022).
+14. Boyer EL (1990). Scholarship Reconsidered: Priorities of the Professoriate. Carnegie Foundation.
+15. Brew A (2006). Research and Teaching: Beyond the Divide. Palgrave Macmillan.
+16. Knight FH (1921). Risk, Uncertainty and Profit. Houghton Mifflin.
+17. Kane MT (2013). Validating the interpretations and uses of test scores. Journal of Educational Measurement 50(1):1–73. (The validity-argument frame for the v4 evidence plan.)
+18. Woods L, Lyons K, et al. (2026). Assessing the effectiveness of artificial intelligence education and training for healthcare workers: a systematic review. BMC Medical Education 26:549. (The construct-validity critique v4 answers.) https://doi.org/10.1186/s12909-026-08969-3
+19. Higher Education Standards Framework (Threshold Standards) 2021, F2021L00488. Clause 1.4.2(b)–(d) (generic and employment-related learning outcomes, applied in disciplinary context), 1.4.3 (assessment must confirm the outcomes), 5.4.1 (work-integrated learning and placements are quality assured, including supervision). https://www.legislation.gov.au/F2021L00488
+20. QILT Employer Satisfaction Survey (ESS) — national employer ratings across five graduate attribute domains: foundation, adaptive, collaborative, technical and employability skills. (2025 national results: technical 94.0%, foundation 93.3%, adaptive 90.7%, collaborative 88.6%, employability 86.2%.) https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29
+21. Core Skills for Work Developmental Framework (Australian Government, 2013). Three clusters — navigate the world of work, interact with others, get the work done — over ten skill areas and five performance stages. Anchor-content source; a VET framework, not a higher-education construct authority. https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework
+22. Gulikers JTM, Bastiaens TJ, Kirschner PA (2004). A five-dimensional framework for authentic assessment. Educational Technology Research and Development 52(3):67–86. (Task, physical context, social context, result/form, criteria; authenticity is a continuum defined against the criterion situation — design rule R4.) https://doi.org/10.1007/BF02504676
+23. Villarroel V, Bloxham S, Bruna D, Bruna C, Herrera-Seda C (2018). Authentic assessment: creating a blueprint for course design. Assessment & Evaluation in Higher Education 43(5):840–854. (Realism, cognitive challenge, evaluative judgement — the third dimension is DFVA C2, not W2.) https://doi.org/10.1080/02602938.2017.1412396
+24. Fawns T, Bearman M, Dawson P, Nieminen JH, Ashford-Rowe K, Willey K, Jensen LX, Damşa C, Press N (2024). Authentic assessment: from panacea to criticality. Assessment & Evaluation in Higher Education 50(3):396–408. (The label risks becoming a 'thought-terminating cliché' — the constraint behind R4.) https://doi.org/10.1080/02602938.2024.2404634
+25. Sokhanvar Z, Salehi K, Sokhanvar F (2021). Advantages of authentic assessment for improving the learning experience and employability skills of higher education students: a systematic literature review. Studies in Educational Evaluation 70:101030. (26 studies, 2010–2019; outcomes largely student self-report.) https://doi.org/10.1016/j.stueduc.2021.101030
+26. Gibbs G, Simpson C (2004). Conditions under which assessment supports students' learning. Learning and Teaching in Higher Education 1:3–31. (Assessment governs what and how students study — the mechanism warrant for scoring assessment design rather than curriculum statement.)
+27. Kuh GD (2008). High-Impact Educational Practices: What They Are, Who Has Access to Them, and Why They Matter. AAC&U. (Internships, capstones, undergraduate research, collaborative and community-based learning; shared features include sustained time and effort, feedback, and application in novel settings.)
+28. Jackson D, Collings D (2018). The influence of work-integrated learning and paid work during studies on graduate employment and underemployment. Higher Education 76:403–425. (WIL did NOT raise full-time employment rates; evidence for better relevance and quality of employment — the honest bound on the W3 claim.) https://doi.org/10.1007/s10734-017-0216-z
+29. Jackson D (2016). Re-conceptualising graduate employability: the importance of pre-professional identity. Higher Education Research & Development 35(5):925–939. (Identity formed through participation in communities of practice — the mechanism distinguishing W3 from W2.) https://doi.org/10.1080/07294360.2016.1139551
+30. Australian Universities Accord Final Report (2024), Department of Education. (WIL as national priority; placement poverty and the Commonwealth Prac Payment — the equity limitation declared against W3.) https://www.education.gov.au/australian-universities-accord/resources/final-report
+31. NACE Career Readiness Competencies (rev. April 2024). Eight competencies: career & self-development, communication, critical thinking, equity & inclusion, leadership, professionalism, teamwork, technology. https://www.naceweb.org/career-readiness/competencies/career-readiness-defined
+32. Heckman JJ, Stixrud J, Urzua S (2006). The effects of cognitive and noncognitive abilities on labor market outcomes and social behavior. Journal of Labor Economics 24(3):411–482. https://doi.org/10.1086/504455
+33. Barrie SC (2006). Understanding what we mean by the generic attributes of graduates. Higher Education 51:215–241; and Barrie SC (2007), A conceptual framework for the teaching and learning of generic graduate attributes, Studies in Higher Education 32(4):439–458. (Stated graduate attributes are not evidence of attainment — why R2 binds hardest on W1.)
+34. Tomlinson M (2017). Forms of graduate capital and their relationship to graduate employability. Education + Training 59(4):338–352. (Scoping source: social, cultural and psychological capital are student and network properties, not curriculum properties, and are therefore out of scope.)
+35. Lester S, Costley C (2010). Work-based learning at higher education level: value, practice and critique. Studies in Higher Education 35(5):561–575. (Work-based learning in the learner's own employment as an established higher-education mode for in-practice cohorts — the warrant for W3's own-practice route, added in v4.2.) https://doi.org/10.1080/03075070903216635
+`,
+};
+
+export default content;

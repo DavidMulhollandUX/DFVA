@@ -1,0 +1,125 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Master of Indigenous Business Leadership (MC-IBL) — Market Intelligence",
+  institution: "University of Melbourne",
+  markdown: `# DFVA MARKET INTELLIGENCE: Master of Indigenous Business Leadership (MC-IBL)
+**Assessment Date:** 2026-09-01 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-ibl
+
+## 1. JOB FAMILY MAP
+| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+|---|---|---|---|---|---|
+| Indigenous Business Leader / General Manager | General Manager, Business Leader, Indigenous Enterprise Director, Deputy CEO (Indigenous enterprise) | Strategic direction, resource allocation, senior decision-making, external representation of the organisation | **LOW** — a federal labour-market report lists chief executives and managing directors among occupations AI complements rather than substitutes, and named practitioners describe the role shifting toward overseeing AI agents rather than being replaced by them | AI-agent oversight and orchestration, judgement over AI-assisted recommendations, strategic resource reallocation | DEWR (L2-3); self-reported single-executive accounts (L5-1, L5-2), not a survey |
+| Indigenous Commercialisation / Venture Development Lead | Business Development Manager, Venture/Commercialisation Lead, Indigenous Startup Founder, Market Validation Analyst | Validating the commercial viability of Indigenous ventures, pitching to investors and funders, designing go-to-market approaches — matches MGMT90300's market-validation and pitch assessments | **LOW-MEDIUM** — a single, not-yet-completed startup experiment is testing whether an AI system can run the full CEO function for a small acquired business, with no operating results at time of reporting | AI-assisted market research and drafting support, paired with human judgement on venture viability and pitch delivery | Skyfall AI experiment (L3-2) — an unproven early-stage test, not established market practice |
+| Indigenous Procurement & Business Eligibility Specialist | Indigenous Procurement Officer, Supplier Diversity Manager, Aboriginal Business Liaison, ORIC Compliance Officer | Verifying and maintaining Indigenous-business certification status, managing government-contract set-aside eligibility, supplier relationship management | **MEDIUM** — the 2026 eligibility tightening raises compliance-documentation volume that tool-assisted verification could absorb, while supplier relationships and community trust-building stay human | IPP/ORIC compliance literacy, the Supply Nation Certified-versus-Registered distinction, government-contract navigation | NIAA and Supply Nation (L1-1) |
+| Indigenous People & Culture / HR Leader | Indigenous HR Manager, People & Culture Lead, Cultural Capability Manager | Workforce and HR management within an Indigenous-business framework — matches the compulsory Indigenising Human Resource Management subject | **LOW-MEDIUM** — a national modelling study projects the broader "business administration managers" occupation group among those with the largest Australian employment gains under generative-AI-augmented growth to 2050 | Culturally grounded people leadership, AI-literate HR process management | Jobs and Skills Australia (L2-1) — scoped to the broader occupation group, not HR leadership specifically; single-scenario 2050 projection |
+| Indigenous Markets and Marketing Specialist | Marketing Manager (Indigenous enterprise), Brand and Community Engagement Manager | Market positioning and marketing strategy for Indigenous enterprises — matches the compulsory Indigenous Markets and Marketing subject | **MEDIUM** — no profession-record or additional-search evidence targets this function specifically; this rating is an unsourced inference, flagged as a gap below rather than presented as measured | AI-assisted content and campaign drafting, paired with community-relationship judgement | No direct source found for this job family — see §6 gap 5 |
+| Community / Regional Business Development Officer | Community Business Development Officer, Economic Development Officer, Indigenous Business Support Officer | Workplace-based support of an Indigenous business or community organisation, reflecting the compulsory Indigenous Business Practicum placement | **LOW** — relationship-based, place-based community work; no displacement evidence found in the sourced material | Applied strategic-question framing, stakeholder communication under real placement conditions | Grounded in the program's own MGMT90303 practicum evidence; no market or discourse claim in the profession record targets this role specifically |
+
+## 2. RECENT JOB AD SIGNALS
+> **Confidence: LOW** — no live job-ad data exists for this occupation. The profession record's \`jobAds\` field carries \`source: "none"\` and \`count: 0\`; no Adzuna or equivalent pull was performed, and no L4 (job-ad-lane) claims exist in the record. The signals below are the closest available adjacent evidence — policy and labour-market reporting, not job-posting volume, employer names, or skill-tag counts — and should not be read as hiring-demand data.
+
+**Signal 1 — No job-ad data collected for this occupation (LOW confidence, stated plainly)**
+The profession record for this occupation carries zero job-ad records from any source. Nothing in this section should be read as a count of live vacancies, named employers, or extracted skill tags — those fields are empty in the underlying record.
+
+**Signal 2 — Indigenous-business eligibility criteria are tightening from 1 July 2026 (policy signal, not a hiring signal)**
+The Commonwealth's Indigenous Procurement Policy raises the bar for government-contract set-aside eligibility to 51%+ Aboriginal and/or Torres Strait Islander ownership *and* control (or ORIC registration), up from 50% ownership alone, per the [National Indigenous Australians Agency](https://www.niaa.gov.au/our-work/employment-and-economic-development/indigenous-procurement-policy-changing) (13 August 2026) and [Supply Nation's own certification FAQ](https://supplynation.org.au/resources/faqs/faqs-indigenous-business/). This governs who counts as an Indigenous business for procurement purposes; it carries no information about hiring volume or business-leadership market sentiment.
+
+**Signal 3 — A federal modelling study names a broader occupation group, not this one, as a gainer (long-run projection, not current demand)**
+Jobs and Skills Australia's CGE modelling of 998 occupations projects "business administration managers" among the Australian occupations with the largest employment gains under generative-AI-augmented growth through 2050 ([JSA](https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study), 14 August 2025). This is a single-scenario 2050 projection for a broader occupation group, not a current job-ad count for Indigenous business leadership specifically.
+
+**Signal 4 — Employment in AI-exposed occupations is growing, and chief executives are listed as beneficiaries (real-time monitoring, not a forecast)**
+The Department of Employment and Workplace Relations reports economy-wide employment in the occupations most exposed to AI grew 5.6% versus 9.5% for least-exposed occupations since November 2022, and separately lists "chief executives and managing directors" among occupations expected to benefit from AI adoption ([DEWR](https://www.dewr.gov.au/workplace-relations/resources/ai-and-employment-australia), 8 July 2026). The 5.6%/9.5% figure is economy-wide, not computed for this occupation specifically.
+
+**Signal 5 — A parallel compliance-burden signal in NSW work-health-and-safety law (regulatory, not labour-demand)**
+From 1 July 2026, NSW legislation converts roughly 30 previously advisory WHS Codes of Practice into legally binding benchmarks, raising the due-diligence bar for "officers" — a category that can include general managers depending on their actual decision-making authority ([Lockton](https://global.lockton.com/au/en/news-insights/enforceable-codes-of-practice-what-expanded-whs-obligations-mean-for-nsw-organisations), 17 June 2026). This is a compliance-obligation change confined to NSW, not evidence of hiring demand.
+
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
+
+**What these sources are.** Named Commonwealth and NSW government policy and legislative reporting, a federal CGE modelling study and a federal labour-market monitoring report, an NBER multi-country executive survey, trade press (CNBC, Forbes, IBTimes UK), and two practitioner podcast transcripts. Direct extraction from X or LinkedIn was **not** performed and no professional forum was sampled — the themes below rest on named government reporting, an academic working paper, dated trade-press articles and named practitioners speaking in their own words, not on inferred or scraped practitioner discourse. Dates are given where the source carries one.
+
+### Theme 1 — the regulatory definition of an "Indigenous business" is tightening, and getting it right now carries more at stake
+
+From 1 July 2026 the Commonwealth's Indigenous Procurement Policy raises the eligibility bar for government-contract set-asides to 51%+ Aboriginal and/or Torres Strait Islander ownership *and* control (or ORIC registration), up from the prior 50%-ownership-only test, with a transition period into 2026-27 ([National Indigenous Australians Agency](https://www.niaa.gov.au/our-work/employment-and-economic-development/indigenous-procurement-policy-changing), 13 August 2026). Supply Nation's own certification guidance distinguishes "Registered" (50%+ owned) from "Certified" (51%+ owned, managed and controlled) status, and notes unit trusts became ineligible for registration or certification from the same date ([Supply Nation](https://supplynation.org.au/resources/faqs/faqs-indigenous-business/)).
+
+This governs eligibility for Commonwealth procurement set-asides and Supply Nation certification specifically — it is not a general definition of "business leader," and it carries no information about business-leadership hiring demand, AI displacement, or market sentiment. What it does establish is that graduates advising or leading Indigenous enterprises will need working fluency in a compliance standard that changed materially within this reporting window.
+
+**Bearing:** C4 and W2. MGMT90300's market-validation and pitch work applies directly to assessing a venture's commercial position, and the Indigenous Business Practicum (MGMT90303) places students with real Indigenous organisations that now operate under the tightened threshold.
+
+### Theme 2 — senior leaders describe their own role shifting to "managing agents," not being replaced, while institutional data reads as complementary rather than substitutive
+
+Two named practitioners describe this shift in their own words. Box CEO Aaron Levie said his role moved from directing individual contributors to becoming "a manager of agents," calling it "a completely different level of work," and now reallocates budget from automated functions into areas AI cannot yet handle ([Every](https://every.to/podcast/transcript-box-ceo-aaron-levie-on-why-ai-agents-won-t-take-your-job), 8 October 2025). Solo founder Ryan Carson described his daily high-stakes decision volume rising from two or three per day to ten or twenty by lunchtime as he began orchestrating parallel AI agents ([The Startup Ideas Podcast, via podscripts.co](https://podscripts.co/podcasts/the-startup-ideas-podcast/how-i-run-a-team-of-ai-agents-247), 24 July 2026).
+
+Institutional data points the same direction without measuring the same thing. DEWR lists "chief executives and managing directors" among occupations expected to benefit from AI adoption because it complements rather than substitutes their work, within a report finding economy-wide employment in the most AI-exposed occupations grew 5.6% versus 9.5% for least-exposed occupations since November 2022 ([DEWR](https://www.dewr.gov.au/workplace-relations/resources/ai-and-employment-australia), 8 July 2026). A CNBC-reported executive panel found 89% of a small, self-selected group of senior HR and business leaders expected AI to reshape jobs in 2026, with 67% saying it was already affecting jobs at their own firms — though respondents attributed 2026 workforce reductions to general cost-cutting rather than AI efficiency gains ([CNBC](https://www.cnbc.com/2025/11/14/ai-to-impact-89percent-of-jobs-next-year-cnbc-survey-finds.html), 14 November 2025).
+
+None of this is displacement evidence for general managers or business leaders as a class: the practitioner accounts are two self-reported individuals at AI-native or software companies, not a representative sample, and the CNBC panel is a roughly 21-respondent, self-selected group. What the sources agree on is direction, not magnitude — leadership work is reported as reorganising around AI oversight rather than being eliminated by it.
+
+**Bearing:** C3 and C1. The program's only AI-related content sits in elective tool-operation subjects, and no compulsory assessment documents coordination of work across people *and* AI tools — the gap both themes point toward closing.
+
+### Theme 3 — AI governance roles are gaining real authority faster than earlier digital roles did, while claims of a fully AI-run business remain a single unproven experiment
+
+CNBC reported that Chief AI Officer positions have moved from largely symbolic to substantive, citing an IBM finding that 76% of firms now have a CAIO, up from 26% a year earlier ([CNBC](https://www.cnbc.com/2026/05/11/heres-how-artificial-intelligence-is-changing-boardrooms.html), 11 May 2026). CNBC's own framing — that this reached similar penetration in roughly half the time Chief Digital Officer roles took to spread in the 2010s — is the outlet's editorial analysis around that IBM statistic, not a finding IBM itself stated, and the article does not show CAIO adoption reducing headcount among incumbent general managers.
+
+Separately, Forbes and IBTimes UK reported in July 2026 that Skyfall AI, founded by former Microsoft AI executives, planned to spend up to USD 1 million acquiring a small SaaS or e-commerce company to run entirely with an AI system performing the full CEO function ([Forbes](https://www.forbes.com/sites/victordey/2026/07/20/former-microsoft-ai-leaders-are-spending-1m-to-prove-ai-can-replace-ceos/), 20 July 2026; [IBTimes UK](https://www.ibtimes.co.uk/skyfall-ai-can-ai-run-business-without-human-ceo-1809856), 21 July 2026). As of publication the acquisition had not closed and no operating results existed — this is a single, not-yet-completed experiment at the scale of one small company, not evidence that AI has replaced or can replace business leaders at established firms.
+
+**Bearing:** C3. Both the CAIO-authority trend and the Skyfall experiment argue for AI governance literacy as leadership content, but neither supports overstating current displacement risk in the curriculum-implications section below.
+
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+| Declining Demand | Velocity | Rising Demand | Velocity |
+|---|---|---|---|
+| Manual, checklist-style verification of Indigenous-business eligibility | Medium | AI-agent orchestration and "manager of agents" leadership skill | Fast |
+| Routine general-management administrative tasks (reporting, scheduling) | Medium | Formal AI-governance capability — budget- and authority-bearing oversight of AI systems | Fast |
+| Direct supervision of routine individual-contributor work | Fast | High-frequency strategic decision-making under AI-compressed work cycles | Medium |
+| Symbolic, advisory-only technology-oversight roles | Medium | Personal, hands-on AI tool fluency among senior executives | Medium |
+| Ownership-only (50%) self-certification as an Indigenous business | Fast | Certified/audited Indigenous-business governance (51% ownership and control, ORIC registration) | Fast |
+| Generalist, undocumented WHS awareness for senior managers | Medium | Documented officer due-diligence practice against binding WHS Codes of Practice (NSW) | Medium |
+
+## 5. CURRICULUM IMPLICATIONS
+| # | Implication | Dimension | Action |
+|---|---|---|---|
+| CI-1 | The program's only AI content is elective tool-operation (Excel Solver, generic Windows-software skills) — Panel C scores C3 at Level 1 — while sourced signals show AI reshaping senior leadership work: Chief AI Officer roles gaining real budget authority, and CEOs describing themselves as "managers of agents." | C3 Technical Currency | Add AI capabilities, limitations, and governance content to a compulsory Foundation or core subject (for example, within Indigenous Business Leadership or Indigenous Business Ecosystems), rather than leaving AI exposure to an elective. |
+| CI-2 | C1 credits assessed group collaboration across all four compulsory core units, but no evidence shows any assessment requiring students to coordinate work across people *and* AI or digital tools — the gap Level 3 requires. Sourced practitioner accounts describe senior leadership work increasingly organised around directing parallel AI agents alongside human teams. | C1 Coordination | Redesign one existing group assessment — for example MGMT90300's venture pitch and report — to require documented coordination of AI tools within the group task, rather than adding a new subject. |
+| CI-3 | W1's pitch assessment (MGMT90300) is a recognised professional genre but is not documented as judged by an external audience, while the IPP eligibility tightening raises the practical stakes of an Indigenous enterprise's positioning in front of real assessors such as certified-Indigenous-business panels or investors. | W1 External Accountability | Bring an external Indigenous-business or investor panel in as co-assessors for the MGMT90300 pitch assessment, giving W1 a documented external-audience component. |
+| CI-4 | The Indigenous Business Practicum (MGMT90303, W2/W3) places students with real Indigenous businesses or community organisations, but the evidence extract shows no content on the eligibility and certification landscape those host organisations now operate under — the IPP's move to 51% ownership and control, ORIC registration, and the Supply Nation Certified-versus-Registered distinction. | W2 Practicum Currency | Add a pre-placement briefing on the current Indigenous Procurement Policy and Supply Nation certification criteria, so students entering placements understand the compliance environment their host organisations face. |
+| CI-5 | C2 assesses personal reflection but not documented criterion-referenced appraisal of the quality of work — including AI-assisted output — even as sourced accounts describe senior AI-agent oversight increasingly consisting of judging when an AI's recommendation is unreliable. | C2 Evaluative Judgement | Add a criterion-referenced peer- or AI-output-review component to an existing reflective assessment (MGMT90287 or MGMT90302) rather than introducing a new subject. |
+
+## 6. EVIDENCE CONFIDENCE + GAPS
+| Signal Area | Confidence | Gap / Caveat |
+|---|---|---|
+| Regulatory/policy signals (IPP eligibility change, NSW WHS reform) | HIGH | Both sourced to primary government or legal-update publishers with dates; scope is narrow — procurement eligibility and NSW-only WHS officer duties, not a general market signal for business leadership. |
+| Institutional AI-exposure projections (JSA CGE study, DEWR monitoring report) | MEDIUM-HIGH | Both are real Australian government publications, but JSA's is a single-scenario projection to 2050 for a broader occupation group ("business administration managers"), and DEWR's headline growth statistic (5.6%/9.5%) is economy-wide, not computed for this occupation specifically. |
+| Executive AI-use survey (NBER working paper) | MEDIUM | A real, ~6,000-respondent multi-country survey, but the four countries (US, UK, Germany, Australia) are pooled — no Australia-specific breakdown was found in the cited sources. |
+| Trade-press CAIO and Skyfall AI signals | LOW-MEDIUM | Both are real, dated articles, but one blends a real IBM statistic with CNBC's own editorial framing (the "half the time" CDO comparison), and the other reports a single, not-yet-completed startup experiment with no operating results. |
+| Practitioner "manager of agents" accounts | LOW | Two self-reported, single-individual accounts (a software-company CEO and a solo AI-native-startup founder) — vivid, but not a survey and not representative of typical general managers in established organisations. |
+| Job-ad volume, employer, and skill signals | NONE | The profession record's \`jobAds\` field is empty (\`source: "none"\`, \`count: 0\`); §2 draws on adjacent policy and labour-market reporting only, not actual job-posting data. |
+| Occupation classification | LOW | No official ANZSCO, O*NET, or OSCA code was found for "Indigenous Business Leader" specifically across an extensive search; the General Manager / Business Administration Manager framing used throughout is the closest available proxy, not a confirmed classification. |
+| Indigenous Markets and Marketing job family | LOW | No profession-record or additional-search evidence targets marketing tasks specifically; the AI-substitution rating in §1 for this row is an unsourced inference, not a measured figure. |
+
+### Critical evidence gaps to close before institutional use:
+1. Run a live job-ad pull (Adzuna or equivalent) specifically for Indigenous-business-leadership-relevant titles — General Manager (Indigenous enterprise), Indigenous Business Development Manager, Aboriginal Business Liaison — since none exists in the current profession record.
+2. Confirm or establish an occupation classification for "Indigenous Business Leader" — the current search returned no ANZSCO/O*NET/OSCA code, so any cross-program benchmarking rests on the General Manager proxy rather than a confirmed classification.
+3. Obtain an Australia-specific breakdown of the NBER executive AI-use survey, or locate an Australia-only equivalent, since the current figure pools four countries.
+4. Check whether Supply Nation Certified organisations — the likely host pool for the Indigenous Business Practicum — have reported publicly on how the 51%-threshold IPP change is affecting their placement or partnership capacity.
+5. Source direct evidence for the Indigenous Markets and Marketing job family; no claim in the current profession record addresses marketing tasks specifically.
+
+---
+
+**Assessment Date:** 2026-09-01
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-ibl
+**Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+## REAL GRADUATE DESTINATIONS (JSA HEO)
+
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **080301 Business Management** (n = 23,210 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 31.1% of them, and the 5 largest are shown at each stage.
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Accountant (General) (4.7%) · Sales and Marketing Manager (4.3%) · Corporate General Manager (3.9%) · General Clerk (3.4%) · Management Consultant (3.3%) |
+| Early (~3yr) | Sales and Marketing Manager (4.7%) · Accountant (General) (4.4%) · Corporate General Manager (4.4%) · Management Consultant (3.4%) · Marketing Specialist (2.7%) |
+| Senior (~5yr) | Sales and Marketing Manager (4.9%) · Corporate General Manager (4.7%) · Accountant (General) (4.0%) · Management Consultant (3.0%) · Program or Project Administrator (2.8%) |
+
+**Field grain, not program grain.** These are graduates of the whole Business Management field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
+`,
+};
+
+export default content;

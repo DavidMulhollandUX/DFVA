@@ -1,0 +1,115 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Master of Biostatistics (Enhanced) (MC-BIOSENH) — Market Intelligence",
+  institution: "University of Melbourne",
+  markdown: `# DFVA MARKET INTELLIGENCE: Master of Biostatistics (Enhanced) (MC-BIOSENH)
+**Assessment Date:** 2026-09-01 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-biosenh
+
+## 1. JOB FAMILY MAP
+| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+|---|---|---|---|---|---|
+| Biostatistician (clinical trials / CRO) | Biostatistician, Statistical Programmer, Junior Biostatistician | Statistical analysis plan development, trial-data programming, regulatory-submission statistical output | **MEDIUM** — routine SAP-to-code translation is the part CROs are already commercialising as automated, but design and regulatory sign-off remain human | Reviewing and validating AI-generated statistical output; SAS/R programming alongside AI-tool oversight | Grounded in profession-record claims about CRO automation of entry-level programming (Clinical Trials Arena, 2026-06-15) and Veristat's InStat platform (BusinessWire, 2026-05-13) |
+| Statistician (government / general) | Statistician, Statistical Analyst, Data Analyst | General statistical modelling, official statistics, survey methodology | **LOW-MEDIUM** — VETASSESS's Group A skilled-migration classification for Statistician (ANZSCO 224113) keeps a degree-plus-experience credentialing floor in place, and Anthropic's Economic Index finds a large gap between theoretical AI task-exposure (94%) and observed automated usage (33%) for the aggregate Computer and Mathematical occupation group | Statistical reasoning under model-assisted workflows; R (the profession record's single most-cited job-ad skill) | Profession record L1-2 (VETASSESS) and L2-2 (Anthropic Economic Index) |
+| Data Scientist (health / biomedical) | Data Scientist, Biomedical Data Scientist | Predictive modelling, machine-learning application to health and clinical data | **MEDIUM** — US Bureau of Labor Statistics projections attribute part of a projected 33.5% employment growth for the *data scientist* occupation (2024–2034, US) to AI-driven growth in data volumes needing interpretation | Applied machine learning for health data; the profession record itself lists "Data Scientist" as an alias for this occupation | Profession record L2-1 (BLS); scope note: US, data-scientist-specific, not statistician-specific or Australian |
+| Epidemiology / biostatistics research officer | Research Officer (Biostatistics), Research Assistant, Epidemiology Analyst | Study design support, interpretation of statistical uncertainty (p-values, confidence intervals, Bayesian posteriors) in medical and scientific investigations | **LOW** — critical interpretation of statistical uncertainty in a medical-research context is judgement work, not routine computation | Bayesian inference, causal-inference framing, likelihood-based estimation | Grounded in the program's own compulsory-core content (Probability & Inference in Biostatistics; G2 gate PASS rationale in \`dfva/source/evidence/mc-biosenh.json\`), not the profession record — noted here as programmatic, not independently sourced market evidence |
+| Statistical / AI-systems auditor (emerging) | Not yet an established entry title | Auditing and quality-controlling AI-produced statistical output; co-leading interdisciplinary analysis teams | **LOW** for the auditing role itself — this is the reposition role two senior practitioners argue the profession should move toward, not one AI is substituting into | AI-model auditing and validation, interdisciplinary collaboration | Profession record L5-2 (ASA Biopharmaceutical Report interview, 2025-08-29) — a considered opinion from two named senior practitioners, not a measured hiring trend |
+
+## 2. RECENT JOB AD SIGNALS
+> **Confidence: mixed by signal — see individual notes.** \`data/professions/010103.json\` carries a real Adzuna AU snapshot (\`jobAds.source: "adzuna-au"\`), not an estimate — this is live job-ad data, stated plainly, though the sample is small.
+
+1. **Real, live data — not a desk estimate.** The profession record's job-ad figures come from a real Adzuna AU snapshot taken 2026-08-31 for the query "statistician," returning **15** current vacancies. This is genuine job-board data, not a modelled or extrapolated figure — but 15 is a small snapshot, and no historical baseline exists to compare it against.
+
+2. **Employers span government and biomedical/pharma, directly relevant to this program.** The top employers in the snapshot are Queensland Government, CSL Behring Pty Ltd, CSL Plasma, Department of Queensland Treasury, Murdoch University, Tomra, Commonwealth Bank of Australia and SAHMRI. CSL Behring, CSL Plasma and SAHMRI (South Australian Health and Medical Research Institute) are biomedical/health-research employers directly adjacent to this program's biostatistics specialisation; the government and finance employers reflect the broader "Statistician" ANZSCO code the query was run against, not a biostatistics-specific search.
+
+3. **R is the single skill the snapshot surfaces.** \`jobAds.topSkills\` lists only "r" — consistent with the program's compulsory Introduction to Statistical Computing unit, which teaches Stata and R as its two statistical-software packages.
+
+4. **Sample size is too small to support a trend or velocity claim.** With n = 15 and a single snapshot date, this signal cannot show whether biostatistics-adjacent hiring is rising, falling or flat — a claim of that kind would need a longitudinal pull, which does not exist in the supplied record. **LOW confidence** for anything beyond "these vacancies existed on this date."
+
+5. **The query itself was generic ("statistician"), not biostatistics-specific.** The profession record's \`jobAds.query\` field is "statistician," not "biostatistician." The CSL Behring/CSL Plasma/SAHMRI results suggest genuine overlap with biostatistics roles, but a query run specifically against "biostatistician" was not performed in this window. **LOW confidence** for reading this snapshot as a biostatistics-specific labour signal rather than a general-statistician one.
+
+6. **The BLS growth projection is a related but distinct US figure, not an Australian job-ad signal.** The profession record's L2-1 claim (BLS, 2026) projects 33.5% growth for the *data scientist* occupation in the United States between 2024 and 2034, with AI-driven data-volume growth cited as a contributing factor. This is not Australian, and not a "statistician" figure — it is included here only as directional context, **LOW confidence** for direct application to this program's Australian graduate market.
+
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
+
+**What these sources are.** Dated trade press (Clinical Trials Arena; BusinessWire and its BioXconomy republication) and named professional-body newsletters (the American Statistical Association's Biopharmaceutical Section newsletter and its STATtrak newsletter). Direct extraction from X or LinkedIn was **not** performed and no professional forum was sampled — the themes below rest on dated trade-press reporting and named individuals' published interviews and essays in professional-society newsletters, not on inferred or scraped practitioner discourse. All three sources are US/UK-oriented; no Australia-specific biostatistics discussion source was found in this window.
+
+### Theme 1 — commercial platforms already automate routine trial-programming turnaround, and this is unsettling the profession's junior training pipeline
+
+[Clinical Trials Arena](https://www.clinicaltrialsarena.com/ai/clinical-trial-statistics-gets-an-ai-era-overhaul/) reported (2026-06-15, citing an interview with Veristat's VP of AI and Innovation) that AI-driven automation of entry-level biostatistics programming is raising concern that the traditional "pyramid" training pathway — where junior statistical programmers build expertise through routine hands-on tasks before advancing — could be disrupted if AI absorbs that entry-level work. Separately, [BusinessWire](https://www.businesswire.com/news/home/20260513591002/en/Veristat-Launches-AI-Biostatistics-Platform-Cutting-Clinical-Trial-Data-Readout-Time-from-5-Weeks-to-5-Days-Without-Regulatory-Risks) reported (2026-05-13) that CRO Veristat launched "InStat," described as the industry's first zero-code, fully automated biostatistics platform, with a vendor claim of cutting statistical-output turnaround from four to six weeks to five days or less by having AI translate biostatisticians' analysis specifications into code, while keeping expert biostatistician review of the validated statistical engines' output.
+
+This supports a claim about entry-level programming turnaround and a stated industry concern about the junior training pathway. It does not support a claim about measured displacement, headcount reduction or accuracy — the BusinessWire item is a vendor's own marketing claim about its own new product and single named customer, and its BioXconomy republication discloses it was AI-rewritten from the release rather than independently verified.
+
+**Bearing:** C3 and W3. C3 is currently capped at Level 1 in \`dfva/source/evidence/mc-biosenh.json\` because the compulsory core teaches Stata/R tool operation rather than AI capabilities, limitations or governance; W3 is scored 0 because no work-integrated learning, placement or practicum appears anywhere in the program structure — the exact "hands-on junior pathway" this theme describes as under pressure.
+
+### Theme 2 — professional bodies are reframing the statistician's role toward auditing and governing AI systems, not being replaced by them
+
+In an interview published in the [ASA Biopharmaceutical Report](https://asabiopreport.substack.com/p/statistician-20-statistics-and-statistician) (2025-08-29), a Harvard statistics professor and an AbbVie VP of Data Sciences raised, unprompted, that statisticians face real competitive pressure from AI/ML, and argued the profession should reposition itself toward auditing and quality-controlling AI systems and co-leading interdisciplinary teams rather than performing primary data analysis alone. The same newsletter's [2025 Spring issue](https://asabiopreport.substack.com/p/2025-spring-issue) (2025-05-15) was devoted to "The Evolving Role of Statisticians in the Pharmaceutical Industry," including a piece framing generative AI as infrastructure-level change — "modern-day electricity" — for the profession rather than a passing tool.
+
+This supports a claim about how two senior, named practitioners and one themed newsletter issue are framing the profession's likely direction. It does not support a claim that this reframing is ASA policy or a surveyed membership consensus — both are opinion and editorial content, not a poll.
+
+**Bearing:** C1 and C2. C2 is scored 0 in the program's Panel C evidence — no assessment requires students to appraise the quality of work, their own, a peer's, or a tool's — which is precisely the "auditing" capability this theme argues the profession is moving toward. C1 is capped at Level 1 because collaborative/team-based work is assessed only in elective, not compulsory, subjects, bearing on the "co-leading interdisciplinary teams" framing.
+
+### Theme 3 — the professional identity boundary between "statistician" and "data scientist" is shifting in training and hiring language
+
+Writing in the ASA's [STATtrak newsletter](https://stattrak.amstat.org/2025/02/01/being-a-statistician-in-the-age-of-data-science-fleeting-advice-from-a-mid-career-card-carrying-statistician/) (2025-02-01), a mid-career statistician said that over the prior decade job postings and graduate programs had shifted from "statistician" toward "data scientist" framing, and described his own identity conflict about needing to sometimes act as a data scientist while keeping statistical rigor. This is consistent with the destination occupation's own profession record (\`data/professions/010103.json\`), which lists "Data Scientist" alongside "Biostatistician" as an alias of the same O*NET/occupation entry.
+
+This supports a claim that one practitioner's personal experience and the occupation taxonomy itself both register a blurring boundary. It does not support a claim about the scale or pace of that blurring across the workforce — the STATtrak piece is a single self-selected first-person essay, not an aggregated count of job postings or program names.
+
+**Bearing:** C3 and C4. C3's cap at tool-operation level (Stata/R) sits against a market description that increasingly expects a broader data-science toolchain; C4 (application of skills to a novel problem, currently Level 1 pending capstone assessment evidence) bears on how broadly that applied skillset needs to extend beyond classical biostatistics.
+
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+| Declining Demand | Velocity | Rising Demand | Velocity |
+|---|---|---|---|
+| Manual/entry-level statistical programming of standard analysis-plan output | Medium | AI-assisted code generation with statistician review and validation | Fast |
+| Primary data analysis as the whole of the professional role | Slow — rests on two named individuals' opinion, not a measured trend | Auditing and quality-controlling AI-produced statistical output | Slow — same basis |
+| "Statistician" as a standalone, unqualified professional identity label | Slow — single first-person essay, no volume data | Hybrid statistician/data-scientist framing in training and job titles | Slow — same basis |
+| Tool operation limited to Stata/R descriptive and data-manipulation skills | Medium | Applied machine learning for health/biomedical data | Medium — US-specific BLS projection (L2-1), not Australia-specific |
+| Junior CRO statistical-programmer headcount as the standard entry pathway | Medium — a stated industry concern, not measured attrition | Senior statistician oversight of automated statistical pipelines | Fast — matches Veristat's own described product model (expert review of validated engine output) |
+
+## 5. CURRICULUM IMPLICATIONS
+| # | Implication | Dimension | Action |
+|---|---|---|---|
+| CI-1 | C2 is scored 0 — no core assessment requires students to appraise the quality of work, their own, a peer's, or a tool's. Theme 2's professional-body framing argues the profession is moving toward exactly this appraisal capability, applied to AI output. | C2 Critical Appraisal | Options: introduce a structured critique task in a compulsory subject (for example, appraising an AI-generated statistical output against exemplar-marked criteria). Cost: would require redesigning an assessed task in an existing core unit and developing exemplar/marking criteria not currently evidenced as held. |
+| CI-2 | W3 is scored 0 — no work-integrated learning, placement or practicum appears anywhere in the program. Theme 1 describes exactly this "junior hands-on pathway" as the part CROs are already automating and the part the profession is worried about losing as a training route. | W3 Work-Integrated Learning | Options: add a placement or practicum subject, or embed a CRO/pharma-partnered project into the capstone. Cost: would require new industry placement agreements (potentially with the CRO sector named in Theme 1) outside the program's current control, plus additional supervision capacity. |
+| CI-3 | C3 is capped at Level 1 because the compulsory core teaches Stata/R tool operation only, not AI capabilities, limitations or governance. Themes 1 and 3 both point toward a market expecting oversight of AI-produced output and a broader data-science toolchain, not tool operation alone. | C3 Technical Currency | Options: extend the compulsory statistical-computing content (or add a unit) to cover AI-tool capabilities, limitations and governance rather than operation only, to reach Level 2/3. Cost: new teaching content beyond current Stata/R skills, and staff capability in AI-tool governance not evidenced as currently held in the captured extract. |
+| CI-4 | C4 and C5 are capped at Level 1 not because the capstone Research Project is weak, but because no assessment-task page for POPH90288/POPH90289/POPH90149 was captured in the Panel C evidence extract — the \`mc-biosenh.json\` file itself flags this as an evidence gap, not a design gap. | C4/C5 Application & Inquiry | This is an evidence-capture action, not a curriculum-redesign one: capture and verify the capstone subjects' assessment pages. Cost: capture effort only — the existing self-scoped Research Project structure plausibly already supports the Level 2/3 anchors per the evidence file's own ambiguity notes, so redesign should wait on that evidence. |
+| CI-5 | Both Panel C gates (G1: accredited, all-compulsory specialist core; G2: assessed interpretation of statistical uncertainty rather than recall) PASS, matching the profession's own accreditation floor — the Statistical Society of Australia's Code of Conduct binds its AStat/GStat holders (L1-1), and VETASSESS requires a highly relevant AQF Bachelor-or-higher plus experience for the Statistician skilled-migration pathway (L1-2). | G1/G2 Accreditation & Rigor | None — no intervention proposed and none needed. The compulsory-core, accredited-sequence structure already meets both gates as designed. |
+
+## 6. EVIDENCE CONFIDENCE + GAPS
+| Signal Area | Confidence | Gap / Caveat |
+|---|---|---|
+| Job family / AI substitution ratings (§1) | MEDIUM | Grounded in the profession record's sourced/scoped L1–L5 claims, but the substitution-pressure label itself is this report's own judgement call, not a figure taken directly from any source. |
+| Job ad signals (§2) | HIGH for the data's existence; LOW for any trend reading | The Adzuna snapshot (n = 15, 2026-08-31) is real, live data — not an estimate — but the sample is small, single-date, and run against the generic "statistician" query rather than "biostatistician" specifically. |
+| Discussion signals (§3) | MEDIUM | All three themes rest on dated, named, linked sources, but two of the three source items (L5-2, L5-3) are individual opinion/interview/essay pieces rather than surveys, and none of the sources is Australia-specific. |
+| Skill shift velocities (§4) | LOW-MEDIUM | Inferred from the same thin discussion-signal base as §3; no quantified adoption, hiring or displacement dataset exists in the supplied material, so velocity labels are directional judgement, not measurement. |
+| Curriculum implications (§5) | Interpretation, not observation | Two of five implications (CI-1, CI-2) argue for genuine curriculum action; CI-4 instead identifies an evidence-capture gap inside the program's own Panel C file that should be closed before any redesign is considered. |
+| Employer-action signals (L4 lane) | Not populated | No L4 claims (documented redundancies, hiring freezes or other employer actions attributable to AI) exist in the supplied profession record for this occupation — this is a declared gap, not a finding that no such actions are occurring. |
+
+### Critical evidence gaps to close before institutional use:
+1. No Australia-specific biostatistics discussion source was found — all three §3 themes rest on US/UK-oriented professional-body publications (ASA) or trade press covering a US CRO. A targeted search of Statistical Society of Australia member commentary on AI could close this.
+2. The compulsory capstone subjects (POPH90288, POPH90289, POPH90149) have no captured assessment-task evidence in \`dfva/source/evidence/mc-biosenh.json\`, which caps C4, C5 and the W2 capstone reading at Level 1. Closing this evidence gap could change three item scores before any curriculum action is warranted.
+3. The Adzuna job-ad sample (n = 15) is too small to support a trend or velocity claim, and was run against the generic "statistician" query rather than "biostatistician" specifically. A larger or longitudinal pull, queried against the biostatistics-specific title, would materially improve §2 and §4 confidence.
+4. No L4-lane evidence (documented redundancies, hiring freezes, or other employer actions attributable to AI) was found for this occupation in the research window; this is a declared gap, not a finding of stability.
+
+---
+
+**Assessment Date:** 2026-09-01
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-biosenh
+**Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+## REAL GRADUATE DESTINATIONS (JSA HEO)
+
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **010103 Statistics** (n = 690 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 39.1% of them, and the 5 largest are shown at each stage.
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Statistician (11.6%) · Management Consultant (7.2%) · University Tutor (4.3%) · Market Research Analyst (2.9%) · Corporate Treasurer (2.9%) |
+| Early (~3yr) | Statistician (11.6%) · Management Consultant (7.2%) · Market Research Analyst (2.9%) · University Tutor (2.9%) · Corporate Treasurer (2.9%) |
+| Senior (~5yr) | Statistician (13.0%) · Management Consultant (5.8%) · Market Research Analyst (2.9%) · Corporate Treasurer (2.9%) · Policy and Planning Manager (2.9%) |
+
+**Field grain, not program grain.** These are graduates of the whole Statistics field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
+`,
+};
+
+export default content;

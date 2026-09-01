@@ -1,0 +1,109 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Master of Food and Packaging Innovation (MC-FOODPI) — Market Intelligence",
+  institution: "University of Melbourne",
+  markdown: `# DFVA MARKET INTELLIGENCE: Master of Food and Packaging Innovation (MC-FOODPI)
+**Assessment Date:** 2026-09-01 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-foodpi
+
+## 1. JOB FAMILY MAP
+| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+|---|---|---|---|---|---|
+| Food Packaging Technologist / Packaging Engineer | Packaging Technologist, Packaging Engineer, Packaging Development Scientist | Packaging-material selection, shelf-life and preservation testing, sustainability/biopolymer evaluation, design-brief development | **MEDIUM** — packaging design-brief and product-launch artefacts are the genre of R&D output trade press reports AI tools now assisting with, though physical material trials and regulatory sign-off stay human | Sustainable and biopolymer packaging, active/modified-atmosphere packaging, directing and critiquing AI-generated concept drafts | Grounded in FOOD90031/FOOD90032 evidence lines; "Packaging Engineer" is a listed alias for this occupation in the profession record |
+| Food Scientist / Product Development Scientist (R&D) | Food Scientist, Product Development Scientist, R&D Food Technologist | Formulation trials, product-launch documentation, sensory/quality testing, cross-functional R&D coordination | **MEDIUM** — named trade-press case evidence documents AI computational screening measurably compressing R&D cycle time and redirecting effort toward directing/evaluating AI-generated candidates, while formulation judgement itself is not reported as automated | Directing and evaluating AI-generated formulation candidates, using AI co-scientist tools (IFT CoDeveloper, Turing Labs Luna), core food-science fundamentals to judge AI output | FOOD90007 processing/preservation core and FOOD90031's product-launch task; see §3 Theme 1 |
+| Food Technologist (Quality, Safety & Compliance) | Food Technologist, Quality Assurance Officer, Food Safety & Compliance Officer | Preservation/processing compliance, legal-requirement adherence, quality-system management | **LOW** — regulated food-safety sign-off and legal-requirement compliance require accountable human judgement; VETASSESS's Group A skilled-migration classification (ANZSCO 234212) gates entry on a qualification plus post-qualification experience, and no sourced claim documents automation of compliance sign-off | Regulatory and legal-requirement literacy, digital quality-management systems | FOOD90007's "including reference to legal requirements"; VETASSESS Group A criteria (L1-2) |
+| Innovation & New Product Development (business-facing) | NPD Manager, Innovation Coordinator, Category/Innovation Analyst | Cross-functional team coordination, business-case development, market and case-study analysis | **MEDIUM** — trade press documents autonomous trendspotting and R&D agents becoming "everyday infrastructure," compressing the market-scanning component of NPD work, while strategic decision-making and team coordination stay human | AI-tool literacy for trendspotting/formulation platforms, cross-disciplinary coordination | MGMT90030/MKTG90008/MKTG90037 group-assessed tasks; see §3 Theme 1 |
+| Food Science Research (Minor Project / Internship route) | Graduate Food Technologist (Internship pathway), Research Assistant (Minor Project pathway) | Supervised original investigation or workplace placement, hurdle-gated proposal, defended final report/oral presentation | **LOW** — this is supervised, accountable, human-assessed work (host supervisor or academic project supervisor); no sourced claim documents automation of the assessed research or placement itself | Applied research design; for the Minor Project route, AI-assisted literature/data screening as one input among several | AGRI90070/79/81 Minor Project; FOOD90036–38 Internship |
+
+## 2. RECENT JOB AD SIGNALS
+> **Confidence: LOW** — no live job-ad data exists for this occupation in the supplied profession record (\`jobAds.source = "none"\`, \`count = 0\`). The signals below are indirect and are marked accordingly; none should be read as a vacancy count, employer name, or salary figure.
+
+1. **No live job-ad scrape was conducted for this occupation.** The profession record's \`jobAds\` field is empty (source \`"none"\`, 0 postings, no employers, no skills list). This report does not estimate vacancy volume, named employers, or advertised salaries in its absence — a gap, not a finding. **(LOW confidence — absence of data, stated plainly.)**
+2. **Skilled-migration classification is an indirect demand proxy, not a vacancy count.** VETASSESS classifies Food Technologist (ANZSCO 234212) as a "Group A" occupation requiring an AQF bachelor's-or-higher qualification plus at least one year of highly relevant post-qualification experience — official recognition as a skilled occupation, but this measures visa-eligibility criteria, not current hiring volume. **(LOW confidence — proxy, not job-ad data.)**
+3. **Trade press documents active industry investment in AI R&D infrastructure at named companies**, including IFT's CoDeveloper platform, Turing Labs' Luna agent, NotCo's Giuseppe/Concept Quant tools and Shiru's Flourish — evidence that food and packaging innovation roles are being reshaped by tooling rather than eliminated, but this is a product-adoption roundup, not a labour-market measurement. **(LOW confidence — indirect signal.)**
+4. **No L4 (job-ad-lane) claims exist in the supplied profession record.** The record's five evidence lanes cover L1 (credentialing), L2 (exposure indices), L3 (trade press) and L5 (practitioner commentary) only; L4 is absent, consistent with the empty \`jobAds\` field above.
+
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
+
+**What these sources are.** Dated trade press covering food and beverage R&D ([DairyReporter](https://www.dairyreporter.com/), [FoodNavigator](https://www.foodnavigator.com/), both William Reed titles), a professional body's own member survey and blog ([Institute of Food Technologists](https://www.ift.org/)), and one further trade outlet ([FoodIngredientsFirst](https://www.foodingredientsfirst.com/)) carrying an interview with an IFT staff scientist. Direct extraction from X or LinkedIn was **not** performed and no professional forum was sampled — the themes below rest on named trade-press reporting and a professional body's own published survey and blog content, not on inferred practitioner discourse. Dates are given where the source carries one.
+
+### Theme 1 — AI is compressing food R&D timelines and redirecting food scientists' effort toward directing and evaluating AI-generated candidates rather than running physical trials
+
+[DairyReporter](https://www.dairyreporter.com/Article/2026/05/27/ai-reshapes-fb-jobs-as-automation-hits-product-rd/) (27 May 2026) reports a NotCo/Kraft Heinz case in which AI-driven computational screening cut an R&D timeline from two years to ten months, with named industry sources (NotCo's Alisia Heath, consultant Jonny Bingham) describing the shift as moving food scientists' time away from bench trial-and-error and toward directing and evaluating AI-generated formulation candidates before lab work begins. Separately, [FoodNavigator's](https://www.foodnavigator.com/Article/2025/12/22/this-years-wave-of-tools-from-trendspotting-engines-to-autonomous-rd-agents-turned-ai-into-everyday-infrastructure-for-food-and-beverage/) year-end roundup (22 December 2025) names a wave of 2025 tools adopted across the industry — IFT's CoDeveloper platform, Turing Labs' Luna agent, NotCo's Giuseppe/Concept Quant, and Shiru's Flourish — describing AI as having become "everyday infrastructure" for food and beverage R&D.
+
+Both articles document specific companies and named products, not an industry-wide quantified rate of change in food-scientist task composition; neither measures what share of Australian employers use these tools. DairyReporter's article separately cites a BSI survey that "more than half of industry leaders say AI is enabling headcount reductions" — that statistic is explicitly industry-wide across food-manufacturing operations generally, not specific to R&D or food-scientist roles, and is not attributed to food-scientist headcount here.
+
+**Bearing:** C3 and W2. The compulsory core carries no digital or AI content at all (C3 scores 0), while W2's authentic professional artefacts — the FOOD90031 product-launch announcement and FOOD90032 design brief — are exactly the genre of R&D output this theme describes AI tooling now assisting with.
+
+### Theme 2 — food-science professionals report confidence about AI job security but name AI skills development as their top priority
+
+[IFT's 2026 Compensation and Career Path Report](https://www.ift.org/about-us/press/press-releases/compensation-and-career-path-report-2026) (24 June 2026), based on a survey of more than 5,000 food-science professionals fielded in January 2026, found most respondents were not concerned about AI threatening their jobs, yet AI was the most frequently cited priority for skills development.
+
+This is a professional body's self-reported member survey capturing stated sentiment and self-identified priorities at one point in time — a global sample, not Australia-specific, and the release does not disclose the exact percentage behind "most respondents not concerned." It is not an independent or longitudinal measurement of actual task automation.
+
+**Bearing:** C3 and W3. The stated skills-development priority speaks directly to C3's current absence of any AI content in the core; W3's Internship route is the point in the program where students could be exposed to how employers are actually acting on that stated priority.
+
+### Theme 3 — practitioner commentary frames AI as a "co-scientist" whose value depends on the human judgement applied to its output
+
+[FoodIngredientsFirst](https://www.foodingredientsfirst.com/news/ift-ai-codeveloper-sous-tool-food-innovation.html) (2 October 2025) quotes IFT's Renee Leber saying AI itself won't take a food scientist's job, but a food scientist who uses AI well might take the job of one who doesn't — framing AI as a co-scientist that can roughly halve early-stage formulation iterations. On [IFT's own blog](https://www.ift.org/news-and-publications/blog/2025/ai-and-the-future-of-food-innovation) (20 August 2025), PepsiCo's Mohamed Badaoui Najjar writes that food science work is becoming "AI plus human intelligence" rather than AI versus human intelligence, contingent on people being upskilled to use it well.
+
+Both sources are interested commentary rather than disinterested practitioner sentiment: Leber speaks for the organisation that built and sells the CoDeveloper/Sous tool she is describing, and Najjar's post appears on IFT's own promotional blog, which curates toward constructive, adoption-positive narratives. Neither is survey evidence, and neither should be generalised to how food scientists broadly regard AI.
+
+**Bearing:** C2 and C4. C2's assessed peer-review task (FOOD90031's poster peer review) is the existing evaluative-judgement construct this theme's "co-scientist" framing bears on directly; C4 — demoted to a 1 on evidence-attribution review — is the cross-context-application construct that judging an AI-generated candidate in an unfamiliar scenario would exercise, were it taught.
+
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+| Declining Demand | Velocity | Rising Demand | Velocity |
+|---|---|---|---|
+| Manual, physical trial-and-error as the primary early-stage R&D method | Fast | AI-assisted computational screening and candidate generation in formulation R&D | Fast |
+| Reliance on a single legacy certification (IFT's Certified Food Scientist, now sunsetting to December 2029) as a career differentiator | Slow | AI-tool fluency as a stated professional skills-development priority (IFT 2026 survey) | Fast |
+| Manual, unassisted market and ingredient trendspotting | Medium | Autonomous R&D agents and trendspotting engines (IFT CoDeveloper, Turing Labs Luna, NotCo Giuseppe/Concept Quant, Shiru Flourish) | Fast |
+| Formulation iteration conducted purely by physical bench trials before any candidate screening | Fast | Directing and evaluating AI-generated formulation candidates before lab validation | Fast |
+| Unstructured, ungoverned individual use of AI tools in R&D | Medium | A structured "AI plus human intelligence" approach to R&D digital transformation | Medium |
+| Passive tool operation without critical evaluation of output | Medium | Practitioner judgement in evaluating, overriding or defending AI-generated candidates (the "co-scientist" framing) | Medium |
+
+## 5. CURRICULUM IMPLICATIONS
+| # | Implication | Dimension | Action |
+|---|---|---|---|
+| CI-1 | C3 scores 0: no digital or AI content appears anywhere in the compulsory seven-subject core, yet IFT's own 2026 member survey names AI the most-cited skills-development priority and trade press documents named AI R&D platforms now embedded in industry formulation and packaging workflows. | D3 Technical Currency | Introduce explicit AI-literacy content — teaching students to direct and critically evaluate AI-generated formulation or packaging-design candidates — within the existing FOOD90031/FOOD90032 subjects rather than as a bolt-on elective. |
+| CI-2 | W2's authentic professional artefacts (the FOOD90031 product-launch announcement and FOOD90032 design brief) are the genre of R&D output that named trade-press case evidence (NotCo/Kraft Heinz) describes AI compressing from a two-year to a ten-month cycle, but the current tasks give students no practice directing or defending judgement over an AI-generated draft. | D5 AI Readiness | Extend the design-brief and product-launch assessment tasks to require students to generate a first-pass AI output, then critique, revise and justify departures from it. |
+| CI-3 | C4 was demoted to a 1 partly because the program's only self-scoped, cross-context capstone sits in the Minor Project — one of two required alternative final-year routes, not a guaranteed program experience — and the Internship alternative carries no comparable requirement to direct or evaluate AI-assisted work in a live workplace setting. | D3 Technical Currency | Add a common cross-route task — for example a short AI-tool-evaluation exercise assessed identically whichever of Internship or Minor Project a student takes — so every graduate practises the judgement skill named across the sourced material regardless of route. |
+| CI-4 | C2's existing peer-review task (FOOD90031's assessed poster peer review) already trains criterion-referenced appraisal of a classmate's packaging concept, but does not extend that appraisal to an AI-generated concept, the specific evaluative skill practitioner commentary (IFT's Leber, PepsiCo's Najjar) frames as the differentiator in AI-assisted R&D. | D3 Technical Currency | Adapt the existing peer-review rubric in FOOD90031 to include an AI-generated concept alongside classmates' work, extending the appraisal skill already assessed to the judgement task the sourced commentary describes. |
+| CI-5 | Professional-recognition pathways (VETASSESS's Group A skilled-migration criteria and AIFST's MAIFST membership standard) both gate entry on a food-science-specific qualification plus post-qualification experience, and neither currently references AI competency — the program's G1-passing discipline-specific core remains the credentialing-relevant content even as IFT's own survey shows AI skills rising in professional priority. | D6 Professional Accreditation | Track AIFST and VETASSESS criteria for any future AI-competency requirement, and consider raising with AIFST whether an AI-literacy component should count toward Professional Member nomination. |
+
+## 6. EVIDENCE CONFIDENCE + GAPS
+| Signal Area | Confidence | Gap / Caveat |
+|---|---|---|
+| Job-family AI substitution ratings (§1) | LOW-MEDIUM | No occupation-specific 2025/26 automation-probability study exists. Ratings are reasoned from named trade-press case evidence plus two background indices in the profession record: the 2021 AIOE score (0.794, pre-generative-AI, US SOC-coded) and JSA's 2025 "Chemists, and Food and Wine Scientists" group score, which pools several ANZSCO occupations and is not Food Technologist-specific. |
+| Job-ad demand signals (§2) | LOW | No live Adzuna or other job-board data exists for this profession key (\`jobAds.source = "none"\`, \`count = 0\`); no vacancy counts, employer names or advertised salaries can be reported. |
+| R&D AI-tool adoption (CoDeveloper, Luna, Giuseppe, Flourish, etc.) | MEDIUM | Sourced from two dated trade-press articles (DairyReporter, FoodNavigator) documenting named companies and products; neither quantifies the share of Australian food or packaging employers actually using these tools. |
+| Professional sentiment on AI job risk | MEDIUM | IFT's 2026 survey (5,000+ respondents, fielded January 2026) is global and self-reported, not Australia-specific, and the press release used as the source does not disclose the exact percentage behind "most respondents not concerned." |
+| Practitioner "AI as co-scientist" framing | LOW | Both quoted sources (IFT's Leber, PepsiCo's Najjar) speak for organisations with a commercial or reputational interest in positive AI framing — IFT sells the CoDeveloper/Sous tool Leber describes, and Najjar's post appears on IFT's own promotional blog. Treated as interested commentary, not disinterested practitioner sentiment. |
+| Credentialing and accreditation signals (CFS retirement, VETASSESS, AIFST) | HIGH | Drawn from primary-source documents (IFT/IFSCC's own retirement FAQ and live certification page, VETASSESS's and AIFST's own published criteria pages). Scope is limited to voluntary, non-statutory credentialing and skilled-migration eligibility — none of these measure domestic labour-market demand, vacancy volume, or professional sentiment. |
+
+### Critical evidence gaps to close before institutional use:
+1. No live Australian job-ad data exists for Food Technologist or Packaging Engineer roles — a systematic Seek/Adzuna/LinkedIn scrape scoped to ANZSCO 234212 and packaging-specific titles is needed before any vacancy-volume or salary claim can be made.
+2. No Australia-specific measurement of AI adoption in food and packaging R&D exists; the sourced evidence is US/global trade press describing named multinational case studies (NotCo, Kraft Heinz, PepsiCo), not Australian employers.
+3. No graduate destination data specific to Master of Food and Packaging Innovation was reviewed in this pass; QILT or UoM Graduate Studies Office data would ground the job-family map in actual alumni outcomes rather than occupation-title inference.
+4. The IFT 2026 survey's exact percentage of respondents "not concerned" about AI job displacement is not disclosed in the press release used as the source; the primary survey report, if published, should be retrieved to replace the vague "most respondents" framing with a number.
+
+---
+
+**Assessment Date:** 2026-09-01
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-foodpi
+**Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+## REAL GRADUATE DESTINATIONS (JSA HEO)
+
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **019905 Food Science and Biotechnology** (n = 1,480 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 41.9% of them, and the 5 largest are shown at each stage.
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Food Technologist (13.5%) · Quality Assurance Manager (4.1%) · Sales Assistant (General) (4.1%) · Chemistry Technician (3.4%) · General Clerk (2.7%) |
+| Early (~3yr) | Food Technologist (15.5%) · Quality Assurance Manager (5.4%) · Chemistry Technician (3.4%) · Chemist (2.0%) · Organisation and Methods Analyst (2.0%) |
+| Senior (~5yr) | Food Technologist (14.9%) · Quality Assurance Manager (6.1%) · Chemistry Technician (2.7%) · Organisation and Methods Analyst (2.0%) · Wine Maker (2.0%) |
+
+**Field grain, not program grain.** These are graduates of the whole Food Science and Biotechnology field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
+`,
+};
+
+export default content;

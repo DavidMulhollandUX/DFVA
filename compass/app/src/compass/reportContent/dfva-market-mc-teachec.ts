@@ -1,0 +1,115 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Master of Teaching (Early Childhood) (MC-TEACHEC) — Market Intelligence",
+  institution: "University of Melbourne",
+  markdown: `# DFVA MARKET INTELLIGENCE: Master of Teaching (Early Childhood) (MC-TEACHEC)
+**Assessment Date:** 2026-09-01 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-teachec
+
+## 1. JOB FAMILY MAP
+
+| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+|---|---|---|---|---|---|
+| Early childhood teaching (centre/classroom-based) | Early Childhood Teacher, Kindergarten Teacher, Preschool Teacher | Play-based curriculum delivery against the EYLF/VEYLDF, individual and group learning-story documentation, family partnership | **LOW** — statutory qualified-teacher ratios and in-person child supervision are not delegable to software; a 2025 RAND survey found pre-K teachers already use generative AI at roughly half the rate of other school grade bands | Safe and ethical use of generative AI in documentation; the revised child-safety and incident-reporting obligations that commence 27 February 2026 | ACECQA sets the AQF level 7 qualification standard this program is accredited against; program evidence shows ICT content taught only as a generic tool, not with AI-specific capability/limits framing (Panel C item C3) |
+| In-centre leadership (Room Leader / Educational Leader) | Room Leader, Pedagogical Leader, Educational Leader | Mentoring less-experienced educators, coordinating room- or centre-level curriculum planning, leading professional-development conversations | **LOW–MEDIUM** — mentoring and staff development stay human-led, but AI-assisted planning tools could compress the administrative share of the role | Staff mentoring; judgment-based quality-checking of AI-assisted planning and observation drafts before they reach families | Sector career-pathway guidance (state-government and vocational-education sources) places this role after several years' experience as a qualified educator; the program's recurring assessed planning documents (Panel C item W2) build toward it |
+| Curriculum and program coordination | Curriculum Coordinator, Program Coordinator | Designing learning-experience plans across numeracy, literacy, wellbeing and sustainability domains for a room or service | **MEDIUM** — AI-assisted planning and documentation platforms are already in sector use, compressing first-draft time for routine planning artefacts | Directing and quality-checking AI-generated planning drafts against curriculum-framework criteria | Program evidence shows four separate assessed planning/professional-plan artefacts (numeracy, wellbeing, sustainability, general lesson planning) but no assessed constraint of practice independent of placement (Panel C item W2, scored at anchor level 2) |
+| Family and community engagement | Family Support Educator, Community Engagement Educator | Building and maintaining partnerships with families and carers, particularly around wellbeing and inclusion | **LOW** — relationship-based work with families is not a task generative AI performs | Culturally responsive family partnership practice | Program evidence includes an assessed wellbeing partnership plan as a core professional artefact |
+| Compliance and quality assurance | Quality Improvement Coordinator, Nominated Supervisor (pathway role) | Implementing and evidencing compliance with National Quality Framework obligations, including the incoming child-safety reforms | **LOW** — regulatory accountability sits with a named, qualified person and is not outsourceable | Working knowledge of the 27 February 2026 Strengthened NQF child-safety and protection reforms, including the shortened 24-hour incident-notification timeframe | Grounded in ACECQA's own regulatory instruments (see §3, Theme 1); program evidence documents "safe and ethical use of ICT" only as a learning-outcome statement, not as a graded assessment criterion (Panel C item C3) |
+
+## 2. RECENT JOB AD SIGNALS
+
+**Confidence: LOW.** No live job-ad corpus was collected for this profession record (ONET-SOC 070101) — \`jobAds.source\` is \`"none"\` with a count of 0. Nothing below substitutes for that gap; treat every signal in this section as demand-side context drawn from regulatory and trade-press sources, not as a measured advertising volume.
+
+1. **Occupation formally listed as in shortage (LOW–MEDIUM confidence).** [The Sector](https://thesector.com.au/article/navigating-early-childhood-workforce-shortages-in-south-australia-employer-sponsorship-and-2026-planning) (25 February 2026) reports that Early Childhood Teachers are formally recognised as an occupation in shortage, citing Jobs and Skills Australia data and describing recruitment pressure as "systemic rather than service-specific," with the qualified-teacher level, not entry-level staffing, named as the binding constraint. This is an occupation-level shortage classification, not a job-ad count, and the article does not quantify unfilled vacancies.
+2. **No program-specific job-ad data (LOW confidence).** The profession record's job-ad lane was not populated for this cycle. Any employer names, posting counts, or advertised-salary figures for this program must come from a future Adzuna or equivalent live pull — none exist to report here.
+3. **Regulatory environment employers are hiring into (contextual, not ad-volume).** ACECQA's [Strengthened NQF child-safety reforms](https://www.acecqa.gov.au/child-safety-changes-national-quality-framework-strengthening-safety-education-and-care) commence 27 February 2026, adding mandatory child-protection training for all educators and staff and a 24-hour incident-notification requirement. This describes the compliance environment a new graduate enters, not hiring volume or advertised titles.
+4. **No AI-specific hiring signal available.** Unlike some other professions in this program of research, no early-childhood-specific job-ad language around generative-AI tool fluency was found in this cycle's sourced material. This absence is a gap, not evidence that the signal does not exist.
+
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
+
+**What these sources are.** A national regulator's own reform instrument, dated trade press (The Sector), a US education-sector survey reported by education trade press (EdSurge, K-12 Dive), a peer-reviewed critical review in the *European Early Childhood Education Research Journal*, one UK practitioner-forum thread, and one professional-body blog post. Direct extraction from X or LinkedIn was **not** performed and no professional forum beyond the single UK thread cited below was sampled — "discourse" here means the claims and sources already verified in this program's profession record (070101), read together with the two additional sources found for this report. Dates are given where the source carries one.
+
+### Theme 1 — child-safety obligations for early childhood teachers are tightening on a fixed date, not gradually
+
+Australian Education Ministers agreed a package of "Strengthened NQF" child safety and protection reforms to the Education and Care Services National Law and Regulations, commencing **27 February 2026**: mandatory child-protection and national child-safety training for all educators and staff, and a cut in incident-notification timeframes from seven days to **24 hours** ([ACECQA](https://www.acecqa.gov.au/child-safety-changes-national-quality-framework-strengthening-safety-education-and-care), February 2026). Separately, ACECQA's qualification requirements for assessing early childhood teaching programs — covering age-focus, supervised professional experience and curriculum-content components — apply to all program assessment applications received from 1 July 2025 ([ACECQA PDF](https://www.acecqa.gov.au/sites/default/files/2025-08/ACECQA%20qualification%20requirements%20for%20early%20childhood%20teaching%20program%20assessments.pdf), August 2025).
+
+This establishes the binding legal obligations and their commencement date. It does not measure actual compliance, implementation quality across services, or how educators and providers have responded in practice.
+
+**Bearing:** C3 and W3. The program currently teaches "safe and ethical use of ICT" only as a learning-outcome statement, not as a graded criterion, and the placement sequence (W3) is where these obligations are actually enacted under supervision.
+
+### Theme 2 — generative AI has reached early-childhood documentation practice unevenly, and the discourse around it is concern-heavy where it exists
+
+A 2025 RAND survey of 1,586 US public-school pre-K teachers, reported by [EdSurge](https://www.edsurge.com/news/2026-01-05-1-in-3-pre-k-teachers-uses-generative-ai-at-school) and [K-12 Dive](https://www.k12dive.com/news/preschool-teacher-surveys-AI-edtech-instruction-pay-Rand/808287/) (both 5 January 2026), found about 29–30% of pre-K teachers used generative AI for job-related purposes in 2024–25 — markedly lower than the 42–69% reported for elementary through high-school grade bands. The same survey found 59% of pre-K teachers wanted additional professional-learning support, with behaviour-management training the most requested at 64%, though that figure spans educational-technology training broadly rather than generative-AI training specifically.
+
+Where practitioners and academics have engaged with generative AI in early-years documentation directly, the tone is cautious rather than enthusiastic. A 2026 peer-reviewed critical review in the *European Early Childhood Education Research Journal*, [Generative AI-supported reflective practice in early childhood education and care](https://www.tandfonline.com/doi/full/10.1080/1350293X.2026.2676841), finds that international literature and policy discussion raise recurring concerns about bias, transparency, privacy, educator preparedness and the risk of uncritical reliance on AI-generated output in reflective and documentation practice, and reports that the Early Childhood Australia statement on children and digital technologies gives little guidance on educators' own professional use of generative AI. On a UK early-years practitioner forum, a thread about a junior staff member using ChatGPT to write child observations drew replies raising safeguarding and data-protection risk, loss of each educator's individual voice in learning journals, and doubt that AI-lengthened text adds real analytic value ([Foundation Stage Forum](https://eyfs.info/forums/topic/56570-using-chat-gpt-to-write-observations/)). Early Childhood Australia's own blog, in a piece first published February 2025 and updated February 2026, quotes a contributor and colleague concerned that outsourcing observation analysis to generative AI "reduces professional decision making in a time when we are striving to raise the professionalism of the early childhood workforce," alongside a specific case of a parent doubting the authenticity of AI-touched observation language ([Early Childhood Australia, "The Spoke"](https://www.earlychildhoodaustralia.org.au/the-spoke/gen-ai-in-early-childhood-education-navigating-a-not-so-new-frontier/)).
+
+This supports a US-measured adoption-rate gap and an international, concern-heavy academic and practitioner literature on documentation use specifically. It does not measure Australian adoption rates, and none of the forum, blog or professional-body sources are a representative survey of the sector's opinion — each reflects self-selected posters or a small number of named individuals.
+
+**Bearing:** C3 and W1. C3 (currently anchor level 1: ICT content taught as a generic tool, with no AI-specific capability, limitation or ethics content assessed anywhere in the extract) is the item this theme bears on most directly. W1 (assessed communication genre and audience) bears on it too, since learning-story documentation is itself the professional genre these sources are debating.
+
+### Theme 3 — the occupation's own shortage status changes what a curriculum gap actually costs
+
+Early Childhood Teachers are formally recognised as an occupation in shortage, per Jobs and Skills Australia data reported by [The Sector](https://thesector.com.au/article/navigating-early-childhood-workforce-shortages-in-south-australia-employer-sponsorship-and-2026-planning) (25 February 2026), which frames recruitment pressure as systemic rather than confined to one service or region and identifies the qualified-teacher level specifically, not entry-level staffing, as the binding constraint.
+
+This supports a claim about occupational shortage status and its stated cause. It does not quantify how many unfilled positions exist, and it says nothing about whether this program's own graduates experience faster or slower placement than the field average — that would need program-specific destination data, which does not exist in the sourced material for this report.
+
+**Bearing:** C4 and W3. A confirmed shortage at the qualified-teacher level changes the framing of the Capstone's professional-standards content (C4) toward genuine leadership-track progression (Room Leader, Educational Leader) rather than only entry-level Graduate-standard compliance, and it affects how much placement capacity (W3) the sector can realistically absorb.
+
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+
+| Declining Demand | Velocity | Rising Demand | Velocity |
+|---|---|---|---|
+| Unassisted manual drafting of learning-story observations | Medium | AI-assisted drafting reviewed and edited under explicit professional judgment | Medium |
+| Generic "ICT as a tool" literacy with no AI-specific framing | Slow | AI-specific capability, limitation and ethics literacy, including child-data safeguarding | Medium |
+| Compliance against the seven-day incident-notification timeframe | Fast (mandated) | Compliance against the 24-hour incident-notification timeframe from 27 February 2026 | Fast |
+| Optional or ad hoc child-safety training | Fast (mandated) | Mandatory national child-protection and child-safety training for all educators and staff | Fast |
+| Treating educator supply as roughly matched to demand | Slow | Recognising Early Childhood Teacher as a formally listed shortage occupation, which reframes graduate destination planning | Medium |
+| General ed-tech professional learning as sufficient AI preparation | Slow | Targeted, AI-specific professional-development content distinct from general ed-tech training | Medium |
+
+## 5. CURRICULUM IMPLICATIONS
+
+| # | Implication | Dimension | Action |
+|---|---|---|---|
+| CI-1 | C3 currently teaches ICT only as a generic tool ("as a tool to support...", "implementation of ICT...to engage"), with no assessed content on AI capability, limitation or ethics — a gap the sourced academic and practitioner discourse in Theme 2 identifies as unresolved sector-wide, not specific to this program | D3 Technical Currency | Add a graded assessment item, in an existing digital-technologies-bearing unit, requiring students to critically evaluate an AI-assisted documentation draft against safeguarding and professional-judgment criteria — moving "safe and ethical use of ICT" from an outcome statement to an assessed criterion. |
+| CI-2 | The Feb 2026 Strengthened NQF reforms (24-hour incident notification, mandatory child-protection training) are now binding on every graduate entering the workforce, but the program's only relevant evidence is a learning-outcome statement, not a graded assessment | C3 / Regulatory Currency | Update placement-adjacent unit content (the Clinical Teaching Practicum ePortfolio or an equivalent core unit) to explicitly assess understanding of the current NQF child-safety obligations, rather than the general child-safety content the extract currently documents. |
+| CI-3 | The occupation's formal shortage status (Theme 3) means the Capstone's professional-standards content, currently scored at anchor level 1 because only outcome statements support it, could credibly extend toward Room Leader/Educational Leader progression evidence rather than only entry-level Graduate-standard compliance | C4 | Redesign the Capstone's professional-learning-needs assessment item to require students to map their own evidence against both the Graduate career stage and the next career stage (Proficient/leadership-track), using ACECQA's and Early Childhood Australia's own published leadership competencies as the assessed reference framework. |
+| CI-4 | C5's only assessment-table evidence is a Literature Review that develops a theoretical framing of diversity and inclusion — the rubric's own level-1 exemplar — when a professionally live, sourced debate (Theme 2's AI-documentation controversy) is available as a genuine inquiry topic | C5 | Redesign the Literature Review assessment into a small-scale practitioner inquiry — collecting and analysing evidence, not only theoretical framing — using the AI-documentation debate identified in Theme 2 as the live problem, subject to the usual research-ethics constraints of working with child-related data. |
+
+## 6. EVIDENCE CONFIDENCE + GAPS
+
+| Signal Area | Confidence | Gap / Caveat |
+|---|---|---|
+| ACECQA qualification standard and Strengthened NQF child-safety reforms | HIGH | Both are the regulator's own instruments with confirmed commencement dates; neither measures actual provider compliance or implementation quality once the reforms take effect. |
+| US pre-K generative-AI adoption and training-needs data (RAND survey via EdSurge/K-12 Dive) | MEDIUM | A real, sizeable survey (1,586 teachers), but US public-school pre-K, not Australian early childhood education and care — adoption rates and training gaps may not transfer directly. |
+| Practitioner and academic discourse on AI in documentation (UK forum, Medium post, ECA blog, EECERJ critical review) | MEDIUM | The peer-reviewed review is the strongest single source; the forum thread, blog post and professional-body article each reflect a small number of self-selected voices, not a workforce survey. |
+| Recent job-ad signals for this program | LOW | No live Adzuna or equivalent job-ad corpus exists for this profession record (\`jobAds.source: "none"\`, count 0). This is the single most significant gap in this report. |
+| Australian ECT workforce-shortage status | MEDIUM | One dated trade-press article citing Jobs and Skills Australia data confirms shortage-occupation status; it does not quantify unfilled positions or growth rate. |
+| Career-pathway detail (Room Leader / Educational Leader) | LOW–MEDIUM | Drawn from vocational-education and state-government careers guidance rather than a labour-market census; useful for job-family framing, not for a quantified pathway claim. |
+
+### Critical evidence gaps to close before institutional use:
+1. Commission a live job-ad pull (Adzuna or equivalent) for this profession record before citing any hiring volume, employer name, or advertised-salary figure for this program.
+2. Source an Australia-specific generative-AI adoption survey for early childhood educators if one exists — every adoption-rate figure in this report is drawn from a US study, which is the report's largest scope gap.
+3. Obtain program-specific (not field-of-education-level) graduate destination data for mc-teachec, to test whether this program's graduates experience the shortage-driven placement advantage Theme 3 implies for the occupation generally.
+4. Verify the Room Leader/Educational Leader career-pathway framing against Jobs and Skills Australia or ABS occupational data rather than vocational-training-provider advisory content, before using it in any scoring-adjacent decision.
+
+---
+
+**Assessment Date:** 2026-09-01
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-teachec
+**Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+## REAL GRADUATE DESTINATIONS (JSA HEO)
+
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **070101 Teacher Education: Early Childhood** (n = 17,750 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 82.4% of them, and the 5 largest are shown at each stage.
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Primary School Teacher (34.3%) · Early Childhood (Pre-primary School) Teacher (20.5%) · Child Care Worker (16.7%) · Child Care Centre Manager (3.4%) · School Teachers nfd (2.4%) |
+| Early (~3yr) | Primary School Teacher (37.5%) · Early Childhood (Pre-primary School) Teacher (21.8%) · Child Care Worker (13.7%) · Child Care Centre Manager (3.5%) · School Teachers nfd (2.1%) |
+| Senior (~5yr) | Primary School Teacher (38.1%) · Early Childhood (Pre-primary School) Teacher (21.1%) · Child Care Worker (11.7%) · Child Care Centre Manager (3.7%) · School Teachers nfd (2.0%) |
+
+**Field grain, not program grain.** These are graduates of the whole Teacher Education: Early Childhood field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
+`,
+};
+
+export default content;

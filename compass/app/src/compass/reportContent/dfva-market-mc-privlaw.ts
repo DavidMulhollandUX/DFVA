@@ -1,0 +1,111 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Master of Private Law (MC-PRIVLAW) — Market Intelligence",
+  institution: "University of Melbourne",
+  markdown: `# DFVA MARKET INTELLIGENCE: Master of Private Law (MC-PRIVLAW)
+**Assessment Date:** 2026-09-01 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-privlaw
+
+## 1. JOB FAMILY MAP
+| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+|---|---|---|---|---|---|
+| Commercial / Transactional Solicitor | Graduate Solicitor, Junior Commercial Lawyer, Commercial Associate | Contract drafting and negotiation, due diligence, transaction structuring | **MEDIUM** — trade press describes first-draft and due-diligence document work as increasingly AI-absorbed in transactional practice | Verifying AI-generated drafts against hallucination risk; contract-analytics tools | Program's own elective list is transactional-heavy: Contract Interpretation, Contract Termination, Core Principles of Contract, Advanced Commercial Law, Global Commercial Contract Law, Precontractual Liability, Remedies in Commercial Law |
+| Commercial Litigation / Dispute Resolution Solicitor | Litigation Solicitor, Dispute Resolution Associate | Pleadings, evidence and case strategy, advocacy, mediation and arbitration practice | **LOW** — trade press reporting on the same period describes litigation as comparatively insulated relative to transactional work | Case-strategy judgment under adversarial scrutiny; mediation/arbitration process skills | Curriculum: Negligence, International Commercial Litigation, Government Liability, Defamation Law, Mediation in Practice, Commercial Arbitration in Practice |
+| Banking & Finance Lawyer | Banking & Finance Associate, Finance Lawyer | Financing-transaction documentation, regulatory and AML/CTF compliance advice | **MEDIUM** — document-heavy transactional work, now paired with a new statutory disclosure duty | AML/CTF retainer-disclosure drafting; regulatory-change tracking | Curriculum: Principles of Banking and Finance Law, International Financial Transactions. Regulatory driver: Law Council of Australia's Rule 12 AML/CTF disclosure requirement |
+| Privacy, Cyber & IP Lawyer | Privacy/Data Protection Lawyer, IP Associate, Technology Counsel | Privacy-compliance advice, IP prosecution and licensing, cyber-incident advice | **LOW-MEDIUM** — specialist advisory work, but professional-body guidance now treats AI use itself as a discipline-specific competency here | AI-governance advisory (confidentiality, disclosure, hallucination risk in client-facing use) | Curriculum: Cyber Security and the Law, Privacy Law, Copyright Law, Patent Law |
+| Regulatory & Government-Liability Counsel | Compliance Counsel, Regulatory Affairs Lawyer | Conduct-rule compliance program design, statutory-liability advice, disclosure drafting | **LOW** — regulated-domain advisory work where sign-off responsibility is not delegable | Professional-conduct-rule literacy as AI use is folded into existing duties | Curriculum: Private Law and Government, Australian Consumer Law, Government Liability |
+
+## 2. RECENT JOB AD SIGNALS
+> **Confidence: LOW.** The supplied profession record (\`data/professions/0909.json\`) carries \`jobAds.source: "none"\` and \`jobAds.count: 0\` — no live Adzuna, Seek or job-board data was captured for this occupation. The signals below are not job-ad volume, employer-name, or salary data; they are trade-press reporting on hiring practice, offered at LOW confidence and clearly distinguished from a job-ad count.
+
+1. **No live job-ad data exists for this occupation record.** The profession record's \`jobAds\` block is empty (\`source: "none"\`, \`count: 0\`). Any claim about advertised-role volume, named employers hiring, or advertised salary bands for Australian private-law solicitors would be invented if stated here — none is stated. **LOW confidence, by construction.**
+2. **Employers reportedly want combined legal expertise and AI fluency, but say true AI competence is still scarce.** [National Jurist](https://nationaljurist.com/legal-hiring-in-2026-ai-skills-and-strategic-expertise-top-employer-demand/) (26 May 2026), paraphrasing a Major, Lindsey & Africa legal-hiring report, describes employer demand for lawyers who combine legal expertise with AI fluency. This is a US-focused hiring report summarised in trade press, not a primary-source survey and not Australian. **LOW-MEDIUM confidence.**
+3. **A major global firm cut roughly 600 business-services roles in February 2026, citing AI use as part of the rationale.** [Legal Cheek](https://www.legalcheek.com/2026/02/baker-mckenzie-to-cut-business-services-roles-as-ai-use-grows/) (6 February 2026) reported Baker McKenzie's reduction of business-services roles (marketing, secretarial and related support functions) — not fee-earning solicitor positions — following a smaller (~50-role) reduction reported earlier at Clifford Chance. This bears on the support-staff labour market around the profession, not on graduate solicitor hiring directly. **MEDIUM confidence in what was reported; not evidence about solicitor roles.**
+4. **Graduate recruitment processes are reportedly being redesigned around AI-assisted applications.** [Legal Cheek's LegalEdCon 2026 coverage](https://www.legalcheek.com/lc-careers-posts/legaledcon-2026-everything-you-need-to-know/) (15 May 2026) reported firms moving aptitude tests and video interviews ahead of written applications to reduce AI-assisted gaming of training-contract applications. This concerns graduate/training-contract recruitment process design at named UK firms, not Australian hiring volume. **LOW-MEDIUM confidence.**
+
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
+
+**What these sources are.** National professional-body rule and guidance documents (Law Council of Australia, Law Society of NSW), an ILO institutional exposure index, a peer-reviewed-track randomized controlled trial, and UK-focused trade press and practitioner-forum threads. Direct extraction from X or LinkedIn was **not** performed and no professional forum was systematically sampled — the RollOnFriday material below is two individual, self-selected forum threads read for content, not a scrape or survey, and none of it is Australian. Dates are given where the source carries one. Two claims are corrected from how they first appeared in the underlying profession record, both flagged where they occur.
+
+### Theme 1 — professional-conduct regulators are writing AI use directly into solicitors' duties, not leaving it to firm policy
+
+The [Law Society of NSW](https://www.lawsociety.com.au/AI-hub/solicitors-guide-responsible-use-artificial-intelligence) published *A Solicitor's Guide to Responsible Use of Artificial Intelligence* in January 2026, tying AI use — confidentiality, hallucination risk, billing, disclosure to clients — to solicitors' existing obligations under the Legal Profession Uniform Law and the Australian Solicitors' Conduct Rules. Separately, the [Law Council of Australia](https://lawcouncil.au/policy-agenda/regulation-of-the-profession-and-ethics/australian-solicitors-conduct-rules/consultation-on-solicitors-professional-rules) consulted (submissions closed 30 March 2026) on a new Legal Practice Rule 12 requiring solicitors to disclose statutory reporting obligations in retainer agreements, timed to the AML/CTF regime's extension to the legal profession from 1 July 2026. As of this report's assessment date the amended rules and new Rule 12 are in force, not pending.
+
+This is advisory practice-support guidance and a national-body rule change, not a measurement of actual AI adoption rates or practitioner sentiment among solicitors — it establishes what solicitors are now expected to do, not what they currently do. The NSW guide is state-specific; other state law societies have issued separate guidance not reviewed here.
+
+**Bearing:** C3. The panelCv4 record scores C3 at 0 ("no AI or digital-tool content appears anywhere in the extract"), the lowest possible reading — this theme is the clearest evidence that the gap is not merely a curriculum-design choice but now sits against an active professional-conduct duty.
+
+### Theme 2 — task-level AI productivity gains are measured for legal work, but judgment on AI output quality is the part that did not improve uniformly
+
+A [randomized controlled trial](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5162111) (University of Minnesota and University of Michigan law faculty, SSRN preprint, 2 March 2025) assigned upper-level US law students to six legal drafting and analysis tasks under three conditions — a RAG-powered legal-AI tool (Vincent AI), an AI reasoning model (OpenAI o1-preview), or no AI assistance. The RAG tool increased productivity by roughly 38–115% across five of six tasks with hallucination rates no worse than the no-AI control; the reasoning model increased productivity by roughly 34–140% and improved analytical depth, but introduced **more** hallucinations than the no-AI control — a distinction the underlying claim originally elided.
+
+Separately, the [ILO's 2025 refined Global Index of Occupational Exposure to Generative AI](https://www.ilo.org/sites/default/files/2025-05/WP140_web.pdf) (Working Paper 140, May 2025) places Lawyers (ISCO-08 2611) in its "Minimal Exposure" band with a mean task-automation-potential score of 0.36 (SD 0.09) — the second-lowest of the paper's six exposure bands, not the literal lowest as an earlier version of this claim stated; a distinct "Not Exposed" band beneath it contains occupations including Judges and Civil Engineers.
+
+Both sources measure task-level potential under experimental or survey conditions (US law students; a Poland-anchored global task survey), not observed outcomes for practising Australian solicitors, and neither measures employment or wage effects.
+
+**Bearing:** C4 and C5. Both score 1 in the panelCv4 record — "apply principles to new fact situations" is claimed but not paired with documented novel-problem assessment design (C4), and the dominant assessment mode is an approved-topic research paper with no methodology-selection or primary-evidence component (C5). The RCT's finding — that AI assistance narrows the productivity gap on exactly this kind of analytical writing task, but does so unevenly with respect to reliability — is a direct test of whether the curriculum currently builds the judgment skill (assessing AI-output quality) that the task-level index implies remains human.
+
+### Theme 3 — practitioner sentiment splits by practice area, and the split tracks this program's own subject mix
+
+[Legal Cheek](https://www.legalcheek.com/2026/07/junior-lawyers-divided-over-whether-ai-is-eating-their-jobs-or-just-cutting-the-boring-bits/) (8 July 2026) reported junior corporate lawyers split on AI's threat to their roles, with associates describing AI as absorbing a large share of document review, due diligence and first-draft work in transactional and M&A practice, while litigation work was seen as comparatively insulated. Two open, pseudonymous [RollOnFriday](https://www.rollonfriday.com/discussion/what-legal-ai-do-you-use) forum threads (23–27 March 2026 and [16 April 2026](https://www.rollonfriday.com/discussion/recently-had-deeper-look-capability-ai-platform)) show practitioners split between describing current AI output as exceeding a strong associate's work and warning this makes hours-based billing unsustainable, against others citing hallucinations and an unresolved "wrong step problem."
+
+This reflects individual impressions gathered informally (Legal Cheek) or posted anonymously and self-selected (RollOnFriday), not a structured survey, and both sources are UK-focused — they do not generalise to Australian solicitors or to smaller/regional practices.
+
+**Bearing:** W1 and W2. The program scores W1 at 2 (one professional-genre task — a banking-and-finance memorandum — with no documented external audience) and W2 at 0 (no end-to-end professional artefact judged by practitioner criteria; the memorandum is attributed to W1 alone under the record's "one construct, one home" rule). Because the program's elective menu weights heavily toward the transactional/commercial subjects this theme identifies as more AI-exposed (contract, banking and finance, commercial equity) relative to the litigation/dispute-resolution electives it identifies as comparatively insulated, and because G1 already fails on the lack of a compulsory sequence, a student's actual subject mix — and therefore their exposure to either side of this split — is unconstrained by the program structure.
+
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+| Declining Demand | Velocity | Rising Demand | Velocity |
+|---|---|---|---|
+| Unsupervised first-draft contract/document review as an entry-level differentiator | Fast | Verification and hallucination-risk judgment on AI-assisted drafts | Fast |
+| Generic business-services/support-function headcount at large firms | Fast | AI-governance advisory as a discrete solicitor competency (confidentiality, disclosure, billing) | Fast |
+| Written-application-only graduate recruitment screening | Medium | Aptitude-test and interview-based assessment of practitioner judgment | Medium |
+| CV claims of general "AI expertise" without demonstrated legal-domain application | Medium | Combined legal-expertise-plus-AI-fluency profile specifically sought by employers | Fast |
+| Undifferentiated transactional document-review capacity as a junior-hire selling point | Fast | Litigation and dispute-resolution advocacy skill as a comparatively AI-insulated specialisation | Medium |
+| Hours-based billing for document-heavy transactional work, unexamined | Slow | Firm-level scrutiny of billing models against AI-assisted task speed | Slow |
+
+## 5. CURRICULUM IMPLICATIONS
+| # | Implication | Dimension | Action |
+|---|---|---|---|
+| CI-1 | C3 scores 0 — no AI or digital-tool content appears anywhere in the extract — against a professional-conduct landscape where the Law Society of NSW's AI guide and the Law Council's new AML/CTF Rule 12 now tie AI use and disclosure duties directly to solicitors' existing conduct obligations. | D3 Technical Currency | Embedding AI-use professional-conduct content (confidentiality, hallucination risk, client disclosure) into an existing subject is one option; the cost is displaced content within whichever subject hosts it, since no subject currently carries spare assessed hours for it. |
+| CI-2 | W2 scores 0 and gate G2 fails — no subject documents a simulation, live matter, capstone or defended trade-off decision — while the RCT evidence shows AI-assisted output quality now varies materially by tool and task, making judgment about AI output itself a skill worth testing directly rather than assuming. | D2 Applied Judgment | Adding a defended practitioner-facing task (client memorandum, simulated matter) is a structural gate change, not a content tweak — it would require introducing assessment machinery the program does not currently have, at the cost of the exam/research-paper hours it would displace. |
+| CI-3 | Gate G1 fails — the program has no compulsory core beyond a conditional common-law-fundamentals subject — while trade press describes AI exposure diverging sharply between transactional/commercial practice (higher) and litigation/dispute-resolution practice (lower), and the prescribed elective list is weighted toward the former. | D1 Structural Coherence | Requiring a minimum spread across transactional and dispute-resolution electives is one option to keep any single student's practice-area exposure from being entirely unconstrained; the cost is reduced elective flexibility, which is the program's current selling point relative to a fixed-sequence degree. |
+| CI-4 | W1 scores 2 on a single instance — one banking-and-finance memorandum task, with no documented external audience or conduct criterion — and it is currently the only point in the curriculum resembling client-facing communication under professional-conduct constraint, the exact terrain the Law Society's AI guide addresses. | D7 Professional Formation | Extending the memorandum genre into one or two further subjects is an option; the cost is again displaced research-paper assessment weight, the program's dominant current assessment mode. |
+| CI-5 | C4 and C5 both score 1, and the approved-topic research paper is the dominant assessment instrument across nearly every subject, while the RCT evidence shows AI reasoning models already narrow the productivity gap on comparable analytical drafting tasks — with a documented reliability trade-off the program does not currently test for. | D5 Assessment Design | Diversifying assessment away from research-paper-only formats is an option; the cost is that research papers are also C5's primary evidence source, so any redesign has to satisfy both rubric items at once rather than trading one off against the other. |
+
+## 6. EVIDENCE CONFIDENCE + GAPS
+| Signal Area | Confidence | Gap / Caveat |
+|---|---|---|
+| Job family mapping (§1) | MEDIUM | Grounded in the program's own subject list and in claims about lawyers/solicitors generally; no source distinguishes private-law/commercial specialisation from general solicitor practice specifically. |
+| Job ad signals (§2) | LOW | \`jobAds.source\` is \`"none"\` in the supplied profession record — no live Adzuna, Seek or job-board data exists for this occupation key. §2 rests entirely on hiring-practice trade press, not ad volume, employer counts, or salary data. |
+| Professional-conduct regulatory signals (Theme 1) | HIGH | Primary-source documents from the Law Council of Australia and the Law Society of NSW, both directly sourced and dated. |
+| Occupational exposure index (Theme 2, ILO) | HIGH source / MEDIUM applicability | Published ILO working paper with a transparent methodology, but Poland-survey-anchored and global rather than Australia- or solicitor-specific; an earlier reading of its band structure was corrected here. |
+| AI productivity RCT (Theme 2) | MEDIUM-HIGH | A genuine randomized design on a peer-reviewed track, but conducted on US law students under experimental conditions, not practising Australian solicitors doing live client work. |
+| Practitioner sentiment / discourse (Theme 3) | LOW | Trade-press impressions (Legal Cheek, UK-focused) and two pseudonymous, self-selected UK forum threads (RollOnFriday) — not a structured survey, and not Australian. |
+
+### Critical evidence gaps to close before institutional use:
+1. No Australian solicitor-specific or private-law-specialisation labour-market data exists in the current record — the quantitative sources (ILO index, RCT) are global or US only. A Jobs and Skills Australia Generative AI Capacity Study figure for legal professionals was sought and not found (page fetch failures; no solicitor-specific figure surfaced).
+2. No live job-ad data has been captured for this occupation — a real Seek/LinkedIn/Adzuna pull for Australian private-law and commercial-solicitor roles has not been conducted.
+3. Practitioner-forum evidence is UK-skewed and pseudonymous — RollOnFriday and Legal Cheek both reflect the UK legal market; no equivalent Australian practitioner-forum source with verifiable credentials was located.
+4. QILT or internal Melbourne Law School graduate-destination data for MC-PRIVLAW specifically was not reviewed in this pass — which practice areas and firm sizes its graduates actually enter remains unverified against the job-family map in §1.
+
+---
+
+**Assessment Date:** 2026-09-01
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-privlaw
+**Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+## REAL GRADUATE DESTINATIONS (JSA HEO)
+
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **0909 Law** (n = 17,720 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 58.6% of them, and the 5 largest are shown at each stage.
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Solicitor (37.8%) · Law Clerk (6.1%) · Legal Executive (2.8%) · Accountant (General) (2.5%) · General Clerk (2.5%) |
+| Early (~3yr) | Solicitor (43.5%) · Law Clerk (3.4%) · Program or Project Administrator (2.4%) · Accountant (General) (2.3%) · General Clerk (1.5%) |
+| Senior (~5yr) | Solicitor (41.1%) · Program or Project Administrator (2.6%) · Law Clerk (2.2%) · Accountant (General) (2.0%) · Policy and Planning Manager (1.9%) |
+
+**Field grain, not program grain.** These are graduates of the whole Law field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
+`,
+};
+
+export default content;

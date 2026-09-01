@@ -1,0 +1,124 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Master of Youth Mental Health (MC-YMHMO) — Market Intelligence",
+  institution: "University of Melbourne",
+  markdown: `# DFVA MARKET INTELLIGENCE: Master of Youth Mental Health (MC-YMHMO)
+**Assessment Date:** 2026-09-01 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-ymhmo
+
+## 1. JOB FAMILY MAP
+| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+|---|---|---|---|---|---|
+| Youth Mental Health Practitioner (school- and community-based) | Mental Health Practitioner (Victorian DET schools), Youth Mental Health Clinician, headspace Clinician | Biopsychosocial assessment, building a collaborative assessment relationship with young people, formulation and case management | **LOW-MEDIUM** — entry requires full AHPRA, AASW or ACA/PACFA registration in a base profession, which limits direct substitution, but adjacent triage and documentation tasks are already being reallocated to scripted or AI-assisted workflows elsewhere in mental health service delivery (Theme 2) | Registration-pathway literacy across four separately regulated base professions, disclosure practice when AI tools are used in a client-facing setting | Registration pathway confirmed by Victorian DET policy (L1-1) and headspace's national glossary (L1-2); core assessment task grounded in evidence.json C1 ("collaborative relationship with young people") |
+| Early Psychosis / Youth Mental Health Services Clinician | Early Psychosis Clinician, Youth Mental Health Case Manager | Specialist case management and clinical work within the program's elective Youth Mental Health Services / Early Psychosis stream | **LOW** — specialist clinical judgment in early-psychosis case management is not a task any source reviewed here shows being automated | Specialist clinical literacy in early psychosis, alongside the general registration pathway above | The program's own G1 gate rationale names "Youth Mental Health Services / Early Psychosis" as one of two specialist elective options within an otherwise compulsory core (evidence.json G1) |
+| Mental Health Program Coordinator / Public Health Officer | Mental Health Program Coordinator, Public Health Officer, Program/Service Coordinator | Program administration, policy implementation, operational efficiency work within a health or community-service agency | **MEDIUM** — the profession record's own alias set uses these two titles, and public-health-agency administrative/operational tasks are the category most already touched by AI adoption in the sourced material (Theme 1) | AI-skills literacy for program administration, ability to select and govern AI tools used for documentation or operational efficiency | Aliases confirmed directly in the profession record (\`data/professions/061399.json\`); adoption pattern drawn from ASTHO's 2026 survey (Theme 1) |
+| Youth Mental Health Researcher / Evaluator | Research Officer, Program Evaluator, Research Assistant (youth mental health) | Formulating a research question, literature review, designing a grant application or systematic/scoping review protocol | **LOW-MEDIUM** — literature-review drafting is the most AI-assistable component of this family's core task, but research-design judgment and defending a proposal under questioning are not shown as substitutable in any source reviewed | Research-design literacy, ability to defend a proposal's methodology and, per Theme 3/4, to articulate a position on AI's role in one's own research and practice | Grounded directly in the compulsory Capstone (evidence.json C4, scored 3; C5, scored 1) |
+
+## 2. RECENT JOB AD SIGNALS
+
+No live job-ad dataset exists for this profession record. \`data/professions/061399.json\` carries \`jobAds.source: "none"\`, \`jobAds.count: 0\`, and empty \`topEmployers\` and \`topSkills\` arrays — no Adzuna or equivalent query was ever run against Youth Mental Health Practitioner, Mental Health Program Coordinator or Public Health Officer titles. This is an absence of data, not a negative labour-market signal, and every item below is marked accordingly.
+
+1. **No job-ad volume figure exists for this occupation at all.** Unlike profession records with a captured Adzuna snapshot, there is no count of live postings to report for this program's destination titles. **LOW confidence** — this reflects a genuine research gap, not measured low demand.
+2. **No employer names can be reported.** \`jobAds.topEmployers\` is an empty array in the source record — there is no basis to name who is currently hiring into this occupation. **LOW confidence.**
+3. **No skill-term data can be reported.** \`jobAds.topSkills\` is likewise empty — no keyword-frequency signal exists to inform curriculum planning from job-ad text. **LOW confidence.**
+4. **The nearest available real signal is a government funding/eligibility policy, not job-ad data.** Victoria's Department of Education funds the school-based Mental Health Practitioners initiative and specifies the registration pathway required to be employed in it (L1-1), which confirms a real, government-funded delivery channel exists for this program's core destination role — but a funding policy is not a measure of posting volume, growth, or employer demand. **LOW-MEDIUM confidence** (the underlying policy source is real and current; its bearing on job-ad-style demand signals is indirect).
+
+This gap is flagged again in §6 as the top priority for closing before institutional use.
+
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
+
+**What these sources are.** An AI-lab research report (Anthropic's Economic Index), education- and health-sector trade press (Edutopia, NPR), a professional body's own membership survey summary (ASTHO), and practitioner-authored commentary published in professional-body outlets (CYC-Online, the National Association of Social Workers' Social Work Blog). Direct extraction from X or LinkedIn was **not** performed and no professional forum was sampled — "discourse" here means positions and reporting publicly published by named organisations and individually bylined practitioners, not a sampled survey of youth mental health practitioner opinion. Dates are given where the source carries one.
+
+### Theme 1 — AI tools are already reaching school- and public-health-based mental health staff through administrative and operational tasks, not clinical ones
+
+[Edutopia](https://www.edutopia.org/article/ai-student-mental-health-new-frontier-care) reported on 2025-11-07 that US school districts adopted AI "well-being companion" and lesson-generation tools (naming Sonny and Lenny Learning, the latter used in 400+ schools across 19 states) to help school-based mental health staff manage rising caseloads; one school psychologist described group-curriculum preparation time falling from about 16 hours to roughly 90 minutes. Separately, a 2026 [ASTHO analysis](https://www.astho.org/topic/resource/2026/state-of-ai-in-public-health/) of its own 2025 membership survey found 30% of responding US state/territorial public health agencies already use AI for administrative or operational efficiency, while 55% cite a lack of staff AI skills as a barrier to further adoption and 32% report no AI use at all.
+
+This supports a claim about administrative and operational AI adoption reaching school- and public-health-based mental health work generally. It does not support a claim about clinical AI adoption, about Australian settings, or about the youth mental health practitioner occupation specifically — both sources are US-based, the Edutopia figure is one practitioner's self-reported estimate rather than an audited study, and the ASTHO figure describes public health agencies broadly, not youth mental health services.
+
+**Bearing:** C3. C3 is currently scored 0 — no core unit or program-level outcome in the extract names AI, digital tools, or technology beyond one unelaborated generic-skill label — against a backdrop where the adjacent public-health and school-based workforce this program feeds is already reporting AI adoption for the administrative work that accompanies clinical practice.
+
+### Theme 2 — a documented case shows AI-enabled scripting reallocating licensed clinical labour in mental health triage, unsettling the field
+
+[NPR reported](https://www.npr.org/2026/04/07/nx-s1-5771707/mental-health-care-workforce-artificial-intelligence-ai) on 2026-04-07 that Kaiser Permanente reassigned a licensed clinical social worker away from mental-health triage at its Oakland, California facility after screening calls that previously took a licensed clinician 10-15 minutes began being handled by unlicensed staff following a script; a separate clinician's account describes the triage team at Kaiser's Walnut Creek facility shrinking from nine providers to three.
+
+This supports a claim that AI-enabled or script-based triage has, in at least one documented US case, reallocated licensed clinical labour away from direct client contact. It does not support a claim about youth-specific practice, about Australian services, or about a sector-wide trend: the figures are self-reported by current or former staff during an active labour dispute (a 24-hour strike by 2,400 Kaiser mental health providers), the article could not be independently re-verified by direct fetch (WebFetch timed out on three attempts; this claim rests on a WebSearch-returned summary), and one detail required correction from an earlier draft — the Oakland/Walnut Creek facilities describe two different clinicians' accounts, not one.
+
+**Bearing:** C1 and W3. W3 is currently scored 0 — no placement, practicum, or community-based project appears anywhere in the 150-credit-point structure — at the same moment this theme shows the client-facing engagement and judgment tasks this program's own core outcomes name (a "collaborative relationship with young people," evidence.json C1) are the tasks reported to be shifting away from scripted delivery and toward licensed practitioners; a program with no work-integrated component gives students no supervised setting in which to practise exactly the judgment this shift is putting under pressure.
+
+### Theme 3 — the field's own professional discourse treats AI's role as an open, unresolved question rather than a settled one
+
+In a February 2026 editorial in [CYC-Online](https://cyc-net.org/CYC-Online/cyconline-feb2026-ed.html), the International Child and Youth Care Network's practitioner-editor Shemine Gulamhusein raised AI as a topic the child and youth care field has not yet addressed, asking unprompted what the practitioner's role should be now that young people and their families are already using AI tools. Separately, a September 2025 post on the [NASW Social Work Blog](https://www.socialworkblog.org/sw-practice/2025/09/social-workers-vs-ai-therapists/) quotes social work practitioner-scholars Dr. Lauri Goldkind and Dr. Karen Magruder describing AI chatbots as unfit to serve as a therapist ("a lot that can go wrong"), and characterising frontline resistance to AI adoption as rooted in care for client privacy and the human relationship rather than reflexive rejection.
+
+This supports a claim that individual practitioners and academics in adjacent fields (child and youth care, social work) have begun raising AI as an open professional question. It does not support a claim of surveyed or sampled sentiment across the youth mental health practitioner profession specifically, is not Australian, and the NASW piece was itself prompted by new US state legislation restricting AI mental-health services rather than by a workforce study.
+
+**Bearing:** C3 and W1. Neither item currently requires a student to articulate or defend a position on AI's fitness as a therapeutic tool or on disclosure to young people and families — precisely the open question this theme's sources raise unprompted, and precisely the kind of professional judgment W1's Capstone presentation-and-defence format (evidence.json W1, scored 1) could be extended to test.
+
+### Theme 4 — where AI already reaches this occupational category, it skews toward augmentation rather than automation
+
+Anthropic's [Economic Index](https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7) (2025-03-27) found that Community and Social Service occupations — the US O*NET major group covering mental health counsellors, social and human service assistants, and community health workers — showed roughly 75% of Claude usage classified as augmentation (collaborative, iterative use) rather than automation (full task delegation), the highest augmentation share of any occupational category the index measured.
+
+This supports a claim about how a large, self-selected sample of Claude.ai conversations mapped onto a broad US occupational major group during one 11-day window in early 2025. It does not support a claim about employment, wage, or displacement effects, about Australian workers, or about the youth mental health practitioner occupation specifically, which is not broken out from the major group — and it is Anthropic's own vendor research, not an independently conducted study.
+
+**Bearing:** C3. Where this program's eventual AI content is developed to close C3's current 0 score, this theme is a reason to frame it around augmentation literacy — how to use AI tools collaboratively and disclose that use — rather than around automation anxiety, since collaborative use is what the sourced evidence shows already happening in this occupational category.
+
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+
+| Declining Demand | Velocity | Rising Demand | Velocity |
+|---|---|---|---|
+| Manual administrative and documentation burden for school- and public-health-based mental health staff | Medium | AI-assisted lesson-preparation and documentation tools freeing clinical time (Theme 1) | Medium |
+| Scripted, non-clinician-led triage as a standalone task within mental health service delivery | Fast | Licensed-clinician time reallocated toward complex or high-acuity client contact as scripted triage is offloaded (Theme 2) | Fast |
+| Unexamined or undisclosed AI use in youth-facing clinical practice | Slow | Practitioner and professional-body scrutiny of AI's fitness as a therapeutic tool, with emphasis on disclosure and client trust (Theme 3) | Medium |
+| Treating AI literacy as absent from clinical or program-coordination training | Slow | Field-level demand for practitioners able to articulate a position on AI's role in youth mental health care and program administration (Theme 3) | Slow |
+| Full-delegation or automation framing of AI use in community and social service work | Slow | Augmentation-oriented, human-led AI use as the dominant mode already observed in this occupational category (Theme 4) | Medium |
+| Ad hoc AI adoption in public-health and community-service agencies without staff training | Medium | Formal AI-skills training as agencies close the staff-skills gap ASTHO's own survey identifies (Theme 1) | Slow |
+
+## 5. CURRICULUM IMPLICATIONS
+
+| # | Implication | Dimension | Action |
+|---|---|---|---|
+| CI-1 | C3 is scored 0 — no unit or program-level outcome documents AI capability, limitation, ethics or governance content beyond one unelaborated generic-skill label — while the sector's own discourse (Themes 1, 3 and 4) is already asking what AI adoption and disclosure mean for this workforce | D5 AI/Technology Ethics | Option: extend an existing compulsory unit to name AI-use disclosure and consent in youth-facing practice, framed around augmentation rather than automation per Theme 4's finding for this occupational category. Cost: content addition to an existing unit; no new subject required, but new teaching material must be developed from a zero base. |
+| CI-2 | W3 is scored 0 — no placement, practicum or community-based project appears anywhere in the 150-credit-point structure — while Theme 2 documents licensed clinical labour already being reallocated within mental health triage, putting pressure on exactly the supervised client-engagement judgment this program's outcomes name | D4 Industry Connection | Option: introduce a supervised placement or community-based project subject, potentially anchored to the Victorian DET Mental Health Practitioners initiative or the headspace network given the registration pathways both already require (L1-1, L1-2). Cost: substantial — new subject development, placement-agreement negotiation with an external service provider, and supervision capacity the program does not currently list. |
+| CI-3 | C2 is scored 0 — no assessment anywhere requires appraising the quality of a work product, one's own or a tool's — while Theme 3 frames a practitioner's judgment about whether a tool such as an AI chatbot is fit for a clinical purpose as exactly the professional skill now in question | D2 Critical Evaluation | Option: add a structured critique task to an existing unit — for example, judged appraisal of a case-management or documentation tool, including an AI-based one — drawing on the fitness-for-purpose framing reported in Theme 3. Cost: moderate — new assessment design and marking criteria; no new subject required. |
+| CI-4 | The program's elective Youth Mental Health Services / Early Psychosis specialisation (evidence.json G1) is its clearest link to Job Family 2, but the extract documents no AI or digital-tool content within it, while Theme 1 shows caseload-management and documentation tools already reaching adjacent public-health settings | D3 Technical Currency | Option: within the elective Youth Mental Health Services / Early Psychosis subject, add content on the AI-assisted caseload and documentation tools already being adopted in adjacent public-health settings (Theme 1). Cost: low — content addition to an existing elective; does not touch the compulsory core. |
+| CI-5 | W1 is held at Level 1 partly because the Capstone's oral presentation documents no audience beyond the teaching team, while Theme 3's CYC-Online editorial frames "what should the practitioner's role be" as a live, unresolved question the field itself has not answered | D4 Professional Readiness | Option: invite an external practitioner panel — for example, from a headspace service or the DET Mental Health Practitioners initiative — to the Capstone's oral presentation and question period, with an explicit brief to probe students' position on AI's role in youth mental health practice. Cost: low-moderate — coordination and possible honoraria; the assessment task itself is unchanged, only the audience is added. |
+
+## 6. EVIDENCE CONFIDENCE + GAPS
+
+| Signal Area | Confidence | Gap / Caveat |
+|---|---|---|
+| Job family / registration-pathway mapping (§1) | MEDIUM | The registration pathway is sourced from current Victorian government and headspace policy text (L1-1, L1-2), but no source shows the relative size of each job family among this program's actual graduates |
+| Job ad signals (§2) | NONE | \`jobAds.source: "none"\` in the underlying profession record — no live job-ad query has ever been run for this occupation; every figure in §2 beyond the DET policy reference is an acknowledged absence, not a measurement |
+| Administrative AI-adoption signals (Theme 1) | MEDIUM | Edutopia's figure is one school psychologist's self-reported estimate, not an audited study; ASTHO's is the professional body's own membership survey (n=44) with an internal prose/table inconsistency in the source itself, tracked here to the table figure (32%) |
+| AI-enabled triage/clinical-labour shift (Theme 2) | LOW-MEDIUM | The NPR article could not be independently re-verified by direct fetch (WebFetch timed out three times; this claim rests on a WebSearch-returned summary); the figures are self-reported during an active labour dispute; the setting is US, adult-focused, and one earlier version of this claim required a factual correction |
+| Practitioner discourse on AI (Theme 3) | LOW | A single editorial and two quoted academics, not a sampled survey; the framing is child-and-youth-care and social-work generally, not youth mental health practitioner-specific, and neither source is Australian |
+| Augmentation-vs-automation framing (Theme 4) | MEDIUM | Anthropic's own vendor research (its Clio conversation-classification tool), covering a single 11-day window in Feb-Mar 2025, for a broad US occupational major group not broken out to this specific occupation |
+| Curriculum evidence base (§5, from evidence.json) | HIGH | Panel C v4.2 scoring was adversarially reviewed and mechanically checked on 2026-08-31, but two source pages (PSYT90124/PSYT90125, "Engaging and Assessing Young People") returned unrelated content during capture and were excluded from scoring — see \`notScoreable\` in the evidence file |
+
+### Critical evidence gaps to close before institutional use:
+1. No job-ad dataset exists for this profession record at all — run a live query (Adzuna or equivalent) against "Youth Mental Health Practitioner," "Mental Health Program Coordinator" and "Public Health Officer" titles, ideally scoped to Victoria or Australia, before this report informs an institutional decision.
+2. No Australian- or youth-specific empirical source on AI's effect on this occupation was found in this research pass — every adoption or displacement claim in §3 is US-based, adjacent (adult mental health triage, K-12 education, public health broadly), or vendor-authored. A search targeted at Australian youth mental health services (headspace, the Victorian DET Mental Health Practitioners initiative) specifically would close this gap.
+3. The PSYT90124/PSYT90125 handbook pages returned unrelated content ("Writing for the Media," an unconnected on-campus subject) during Panel C capture and were excluded from scoring. Re-capture is needed to confirm or revise C1, W1, W2 and W3 for the "Engaging and Assessing Young People" subject, which plausibly bears on all four.
+4. No cohort registration-status data was captured — whether students typically enter this program already AHPRA/AASW/ACA-registered, or as career-entrants without prior registration — which bears directly on how W3's absent placement pathway should be interpreted and on which job family (§1) is most likely for a given graduate.
+5. NPR's Kaiser Permanente reporting (Theme 2) could not be independently re-verified via direct fetch; a successful direct retrieval, or an alternative corroborating source, would raise this theme's confidence from LOW-MEDIUM.
+
+---
+
+**Assessment Date:** 2026-09-01
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-ymhmo
+**Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+## REAL GRADUATE DESTINATIONS (JSA HEO)
+
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **061399 Public Health, n.e.c.** (n = 2,010 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 37.3% of them, and the 5 largest are shown at each stage.
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Registered Nurses nec (9.9%) · Occupational Health and Safety Adviser (4.5%) · Registered Nurse (Medical) (3.5%) · Registered Nurse (Community Health) (3.0%) · Program or Project Administrator (3.0%) |
+| Early (~3yr) | Registered Nurses nec (9.0%) · Occupational Health and Safety Adviser (5.5%) · Program or Project Administrator (4.0%) · Registered Nurse (Community Health) (3.5%) · Registered Nurse (Medical) (3.0%) |
+| Senior (~5yr) | Registered Nurses nec (8.5%) · Occupational Health and Safety Adviser (6.0%) · Program or Project Administrator (4.0%) · Registered Nurse (Community Health) (3.5%) · Social Worker (2.5%) |
+
+**Field grain, not program grain.** These are graduates of the whole Public Health, n.e.c. field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
+`,
+};
+
+export default content;

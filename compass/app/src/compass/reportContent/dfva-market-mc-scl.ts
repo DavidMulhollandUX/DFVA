@@ -1,0 +1,115 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Master of Social Change Leadership (MC-SCL) — Market Intelligence",
+  institution: "University of Melbourne",
+  markdown: `# DFVA MARKET INTELLIGENCE: Master of Social Change Leadership (MC-SCL)
+**Assessment Date:** 2026-09-01 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-scl
+
+## 1. JOB FAMILY MAP
+
+| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+|---|---|---|---|---|---|
+| Nonprofit / charity executive leadership | Executive Director, CEO (small–medium charity), Program Director | Governance and fiduciary duty, board relations, strategic planning, organisational accountability | **LOW** — the ACNC's Governance Standard 5 makes care-and-diligence and conflict-disclosure duties a statutory, personally-held obligation of the office-holder, not a task an AI system can discharge on a leader's behalf | Demonstrated (not just claimed) AI governance capability, per funder expectations reported in 2026 trade press | ACNC Governance Standard 5 binds Responsible Persons of registered charities; program's capstone (INDG90007) trains a self-scoped leadership project but the curriculum evidence contains no governance-compliance content |
+| Community and social-change program management | Program Manager, Project Lead – Social Change, Community Engagement Manager | Program design and delivery, stakeholder engagement, environmental scanning, communicating to decision-makers | **MEDIUM** — drafting and first-pass reporting tasks are already being automated in adjacent nonprofit roles, but stakeholder-facing judgment is not | Data-informed environmental scanning, cross-organisational partnership management | Directly matches the program's own W1/W2 evidence: INDG90002's Environmental scan report and Stakeholder analysis are assessed deliverables aimed at "decision-makers and partners" |
+| Indigenous-led social equity and policy advocacy | Policy Advisor (Indigenous Affairs), Social Equity Advisor, Indigenous Program Lead | Policy analysis, culturally-grounded facilitation, advocacy communication for government and institutional audiences | **LOW** — no source in this research pass identifies AI displacement pressure in this niche; the role depends on relational and cultural authority that resists automation | Culturally-grounded leadership facilitation, policy communication for government audiences | The program is the Atlantic Fellows for Social Equity (AFSE) Fellowship: a 100-point all-compulsory Indigenous-led sequence (Gate G1 PASS); its Yarning Circle assessment (C1) is a direct match to this family's facilitation task |
+| Fundraising, development and grantmaking | Development Manager, Grants Manager, Program Officer (Philanthropy) | Proposal drafting, donor relations, grant/proposal review, reporting | **MEDIUM-HIGH** — trade press reports AI already automating routine grantmaking tasks (data entry, copywriting, preliminary proposal review) at the operational level | Editorial review and direction of AI-drafted proposals and donor communications | Foundation Source (29 July 2026) reports AI freeing program-officer and grants-management staff for relationship-building; the curriculum evidence shows no fundraising- or development-specific unit |
+| Monitoring, evaluation and social-impact research | M&E Officer/Coordinator, Impact Evaluation Analyst, Research and Evaluation Lead | Evaluation design, literature synthesis, impact measurement, monitoring-and-evaluation planning | **MEDIUM** — literature synthesis and data summarisation are increasingly AI-assisted, but evaluation-design judgment and stakeholder validation remain human | Applied evaluation methods, fieldwork and data-collection capability | INDG90004 (C5) is capped at Level 1 on a Literature review essay only — its own outcomes claim fieldwork and data collection, but no assessed item requires it; INDG90007's "monitoring and evaluation plan" (W3) is an intended outcome, not an assessed deliverable |
+
+## 2. RECENT JOB AD SIGNALS
+
+**Confidence: LOW — no live job-ad data exists for this profession record.** The supplied profession record's \`jobAds\` object shows \`source: "none"\` and \`count: 0\`. No Adzuna, Seek or LinkedIn vacancy search was performed for Social Change Leader / Nonprofit Leader / Social Impact Manager titles in this research pass, and this is a genuine data gap, not an estimate standing in for one. The five signals below are the closest available substitutes — sector-level employment commentary drawn from the record's L3 and L5 evidence lanes — and should not be read as job-ad volume, title, or employer data.
+
+1. **No structured job-ad data exists for this profession key.** \`jobAds.topEmployers\` and \`jobAds.topSkills\` are both empty arrays in the source record. No named-employer or named-skill hiring pattern can be reported for graduates of this program without a fresh, dedicated job-ad search — LOW confidence by construction.
+2. **Sector-wide job losses are reported for the prior year, but not isolated to this role.** Alliance magazine (10 April 2026), corroborated by Chronicle of Philanthropy (13 November 2025), references over 20,000 nonprofit job losses in the prior year across the sector generally, attributed by that reporting to funding contraction rather than AI-driven automation. LOW confidence — sector-wide, not role-specific.
+3. **A trade-press claim that AI adoption is "a factor" in some sector layoffs could not be independently verified.** Foundation Source (29 July 2026) paraphrases a July 2025 Chronicle of Philanthropy report making this claim, but that underlying report was not independently retrieved in this research pass and the paraphrase does not specify which roles were affected. LOW confidence.
+4. **The 2026 Nonprofit AI Adoption Report is the most concrete labour-market-adjacent figure available, but it measures adoption, not vacancies.** Reported via NonProfit PRO (2026, exact publication day unconfirmed), the benchmark survey of 346 nonprofits (Virtuous / Fundraising.AI) found 92% AI usage but only 7% reporting major organisational impact and 47% with no AI governance policy. This speaks to what employers will expect leadership hires to bring, not to current hiring volume. LOW-MEDIUM confidence — real survey data, but organisational rather than vacancy-level, and the full report page could not be fetched directly.
+5. **No ANZSCO- or SOC-level occupation exposure figure was retrievable for this profession.** Every attempt in the supplied research pass to source a formal AI-exposure score (Jobs and Skills Australia, AIOE/Felten, Eloundou et al., ILO) for a nonprofit/social-service-manager occupation returned nothing usable — pages timed out or search snippets carried no occupation-specific figure. This is a stated gap, not a LOW-confidence estimate.
+
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
+
+**What these sources are.** A Commonwealth regulator's own governance guidance (the Australian Charities and Not-for-profits Commission), nonprofit- and philanthropy-sector trade press (Nonprofit Tech for Good, Foundation Source, NonProfit PRO), a syndicated business-advisory op-ed (The Westside Gazette, via Anthony Brunson P.A.), and two philanthropy-sector publications carrying named-practitioner commentary (Chronicle of Philanthropy, Alliance magazine). Direct extraction from X or LinkedIn was **not** performed and no professional forum was sampled — this section draws on regulatory documents, trade-press summaries of a named benchmark survey, and one disclosed-interest practitioner opinion column, not on a platform sample.
+
+### Theme 1 — nonprofit leaders carry a statutory accountability duty that sits with them personally, not with any tool they use
+
+The ACNC's [Governance Standard 5](https://www.acnc.gov.au/for-charities/manage-your-charity/governance-hub/5-duties-responsible-people) requires every Responsible Person of a registered charity — directors, committee members and CEOs alike — to act with care and diligence, act in good faith, avoid misusing their position, disclose conflicts of interest and avoid insolvent trading; [BDO Australia](https://www.bdo.com.au/en-au/insights/not-for-profit/acnc-2026-27-regulatory-focus-areas-what-directors-of-charities-need-to-know) (2026) confirms this duty extends explicitly to CEOs, not directors alone. For charities with overseas operations, the ACNC's [four External Conduct Standards](https://www.acnc.gov.au/for-charities/manage-your-charity/governance-hub/acnc-external-conduct-standards) add resourcing-control, record-keeping and safeguarding obligations on top, with non-compliance able to trigger deregistration. For directors of ACNC-registered charities specifically, these standards displace the general Corporations Act duties rather than sitting alongside them; the Corporations Act's ss180–183/191 duties (and s588G insolvent trading) apply in full only to NFP entities incorporated as companies that are *not* ACNC-registered charities, per [Directors Australia](https://directorsaustralia.com.au/not-for-profit-director-duties-the-same-or-different/) (2025).
+
+Scope: these duties bind office-holders of ACNC-registered charities specifically. They do not bind leaders of unregistered community groups, social enterprises, or informal "social change" initiatives outside the charity register, and they say nothing about how the wider profession or public regards the role.
+
+**Bearing:** W1. Governance Standard 5's disclosure-to-stakeholders logic is the same accountability relationship the program already assesses through INDG90002's Environmental scan report and Stakeholder analysis, aimed at "decision-makers and partners" — but no curriculum evidence line addresses the statutory duty itself.
+
+### Theme 2 — funders now expect nonprofit leaders to demonstrate AI governance capability, not merely use AI tools, and the curriculum has no content to build it from
+
+A syndicated business-advisory op-ed in [The Westside Gazette](https://thewestsidegazette.com/nonprofits-in-2026-navigating-workforce-pressures-ai-disruption-and-shifting-funding-realities/) (29 April 2026) argues funders increasingly expect nonprofit leaders to show AI governance, integration and scaling capability rather than mere AI use, while many nonprofits still lack the data-governance infrastructure to meet that bar. That gap is quantified by trade coverage of the [2026 Nonprofit AI Adoption Report](https://www.nonprofitpro.com/article/nonprofit-ai-adoption-hits-92-but-only-7-see-major-impact/) (NonProfit PRO, 2026), a benchmark of 346 nonprofits fielded by Virtuous and Fundraising.AI: 92% of nonprofits now use AI in some capacity, but only 7% report major organisational impact, 47% have no AI governance policy at all, and most use remains individual and reactive rather than embedded in leadership workflows, goals or budgets.
+
+Scope: this figure describes nonprofits generally, sourced from a fundraising-technology-platform sample — it is not specific to the Social Change Leader / nonprofit-executive role, and it does not measure task-level automation or headcount change.
+
+**Bearing:** C3. The program's own evidence file scores C3 at 0 — "no digital/AI content appears anywhere across the overview, outcomes, graduate attributes" of any core subject — which is the precise gap this theme names: graduates leave without a framework for the AI-governance judgment funders are reported to expect.
+
+### Theme 3 — AI is entering nonprofit workflows informally, without a strategic conversation, and one practitioner names a productivity-versus-burnout tension leaders will need to manage
+
+[Alliance magazine](https://www.alliancemagazine.org/blog/ai-came-into-the-nonprofit-workplace-through-the-side-door/) (10 April 2026) reports nonprofit staff internationally adopting AI tools informally and individually — drafting proposals, summarising reports, drafting social content — without their organisations having had a strategic conversation about the longer-term implications for how the work gets done. This is broadly consistent with [Foundation Source](https://foundationsource.com/blog/ai-in-philanthropy-series-2-how-ai-is-changing-the-work-of-philanthropy/) (29 July 2026), which frames the same shift as freeing program-officer and communications time for relationship-building. Writing in the [Chronicle of Philanthropy](https://www.philanthropy.com/opinion/ais-impact-on-fundraising-in-2026/) (13 November 2025), Nathan Chappell — founder of the fundraising-sector community Fundraising.AI, who also sells AI fundraising software, a relevant interest to disclose — names a "productivity paradox" as "one of the things I worry about the most with AI in our sector": AI raising output expectations while burnout among fundraising staff rises.
+
+Scope: neither source establishes what share of the nonprofit workforce has adopted AI this way, nor that the pattern is representative of leadership-tier roles specifically rather than frontline or communications staff; Chappell's reflection is one prominent practitioner's stated worry, not a measured prevalence.
+
+**Bearing:** C2 and C3. Leading the "strategic conversation" these sources say is missing requires criterion-referenced appraisal of organisational practice against an external standard — the capability C2 is capped at Level 1 for (graded self-reflection, not appraisal against criteria) — layered on the same C3 gap (no digital/AI content) named in Theme 2.
+
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+
+| Declining Demand | Velocity | Rising Demand | Velocity |
+|---|---|---|---|
+| Individual, unsanctioned and reactive staff use of AI tools | Fast | Organisation-wide AI strategy and staff AI-literacy leadership | Medium |
+| Manual, ungoverned grant and compliance reporting | Medium | AI governance policy design and adoption oversight (47% of surveyed nonprofits currently have none) | Fast |
+| Fully manual routine proposal drafting and preliminary review | Fast | Editorial review and direction of AI-drafted proposals and donor communications | Fast |
+| Compliance framed as a paperwork exercise | Slow | Demonstrated governance and conflict-of-interest disclosure practice under ACNC Governance Standard 5 | Slow |
+| Reflection-only self-assessment of leadership practice | Slow | Criterion-referenced appraisal of organisational and technology practice against an external standard | Medium |
+| Productivity measured by output volume alone | Medium | Monitoring and evaluation of staff wellbeing and burnout alongside AI-assisted output gains | Medium |
+
+## 5. CURRICULUM IMPLICATIONS
+
+| # | Implication | Dimension | Action |
+|---|---|---|---|
+| CI-1 | C3 scores 0 — no digital/AI content appears anywhere in the curriculum — against trade-press reporting that funders now expect demonstrated AI governance capability, not just AI use, and that 47% of surveyed nonprofits have no AI governance policy at all | AI Governance Literacy | Add an AI governance and ethics module covering funder expectations, organisational policy design, and the ACNC's own disclosure duties as they interact with AI-assisted decision-making. |
+| CI-2 | C2 is capped at Level 1 — reflective essays and journals are graded but not criterion-referenced appraisal — against sector discourse expecting leaders to evaluate organisational and technology practice against external standards | Critical Appraisal | Redesign one reflective assessment into a criterion-referenced appraisal task (peer review, exemplar comparison, or standards-based portfolio) rather than self-reflection alone. |
+| CI-3 | W3 was demoted to 0 on adversarial review — no placement, practicum or documented in-practice route appears anywhere in the extract — while the discourse in Theme 3 shows AI adoption realities are learned informally, on the job, inside real organisations | Work-Integrated Learning | Add a supervised placement or live-organisation attachment. Cost: this requires partner-charity relationships and supervision capacity that sit outside the AFSE Fellowship's current all-compulsory, six-subject structure, and may compete with the capstone's own time allocation. |
+| CI-4 | ACNC Governance Standard 5 statutorily binds every Responsible Person of a registered charity, including CEOs, yet no curriculum evidence line addresses governance or compliance content at any point in the six compulsory subjects | Governance & Compliance | Add a governance module covering Governance Standard 5, the External Conduct Standards, and how they interact with (and for ACNC-registered charities, displace) general Corporations Act director duties — directly relevant given Fellows go on to lead or sit on charity boards. |
+| CI-5 | C5 is capped at Level 1 on a literature-review-only deliverable, and W3's own "monitoring and evaluation plan" is an intended learning outcome rather than an assessed item — leaving the program's own evaluation capability under-assessed relative to the M&E job family named in §1 | Applied Research & Evaluation | Convert the existing monitoring-and-evaluation outcome into an assessed deliverable — an evaluation plan tested against the Fellow's own capstone project — rather than leaving it as an unassessed intended outcome. Cost: adds a marking and moderation load to an already year-long capstone subject. |
+
+## 6. EVIDENCE CONFIDENCE + GAPS
+
+| Signal Area | Confidence | Gap / Caveat |
+|---|---|---|
+| Job family / occupation framing (§1) | MEDIUM | No formal ANZSCO occupation code was matched for "Social Change Leader"; families are drawn from the program's own specialisation (AFSE Indigenous Fellowship) plus adjacent trade-press role titles, not a validated occupation crosswalk |
+| Job-ad signals (§2) | NONE / LOW | \`jobAds.source: "none"\`, \`count: 0\` in the source record — no live Adzuna, Seek or LinkedIn vacancy data was collected for this profession key in any research pass to date |
+| ACNC governance and conduct standards (§3 Theme 1) | HIGH | Sourced directly to the regulator's own guidance pages, corroborated by two independent legal/advisory summaries |
+| AI-adoption trade press and benchmark survey (§3 Themes 2–3) | MEDIUM | Trade press paraphrasing a named benchmark survey (346 organisations), not a peer-reviewed study; the NonProfit PRO article's full page could not be fetched directly, only a search-result snippet was observed, and its exact publication day is unconfirmed |
+| Practitioner opinion (Chappell / Fundraising.AI) | LOW-MEDIUM | Single practitioner's stated opinion with an undisclosed-until-now commercial interest in AI fundraising software; the exact quoted wording was not independently re-verified due to a blocked fetch |
+| Occupation-level AI exposure scoring | NONE | Every attempt to source a formal exposure figure (Jobs and Skills Australia, AIOE/Felten, Eloundou et al. "GPTs are GPTs", ILO) for a nonprofit/social-service-manager occupation returned nothing retrievable in this research pass |
+
+### Critical evidence gaps to close before institutional use:
+1. Run a live Adzuna AU (or Seek/LinkedIn) job-ad search for nonprofit and social-impact leadership titles matched to mc-scl's actual graduate destinations — no job-ad data exists for this program at any confidence level today.
+2. Retrieve an occupation-level AI exposure score (AIOE, JSA HEO, or Eloundou et al.) for the closest ANZSCO/SOC code to Social Change Leader — every attempt in this research pass failed to return a usable figure.
+3. Independently verify the NonProfit PRO summary of the 2026 Nonprofit AI Adoption Report against the primary Virtuous/Fundraising.AI report — the full article page was blocked on fetch and only a search snippet was observed.
+4. Source Australian-specific discourse on AI's effect on NFP and social-change leadership roles specifically — all §3 sources except the ACNC material are US philanthropy trade press, and none addresses the AFSE Fellowship's Indigenous-led leadership model directly.
+
+---
+
+**Assessment Date:** 2026-09-01
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-scl
+**Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+## REAL GRADUATE DESTINATIONS (JSA HEO)
+
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **099999 Society and Culture, n.e.c.** (n = 9,930 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 24.8% of them, and the 5 largest are shown at each stage.
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (5.0%) · General Clerk (4.2%) · Program or Project Administrator (2.6%) · Waiter (1.9%) · General Clerks nfd (1.8%) |
+| Early (~3yr) | General Clerk (3.8%) · Program or Project Administrator (3.6%) · Sales Assistant (General) (3.6%) · Police Officer (1.8%) · Office Manager (1.6%) |
+| Senior (~5yr) | Program or Project Administrator (4.6%) · General Clerk (3.2%) · Sales Assistant (General) (2.6%) · Police Officer (1.7%) · Office Manager (1.7%) |
+
+**Field grain, not program grain.** These are graduates of the whole Society and Culture, n.e.c. field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
+`,
+};
+
+export default content;
