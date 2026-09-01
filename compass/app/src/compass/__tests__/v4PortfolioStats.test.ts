@@ -29,9 +29,7 @@ function isPermutationOf<T>(out: T[], input: T[]): boolean {
   return (
     out.length === input.length &&
     [...out].sort((a, b) => String(a).localeCompare(String(b))).join("|") ===
-      [...input]
-        .sort((a, b) => String(a).localeCompare(String(b)))
-        .join("|")
+      [...input].sort((a, b) => String(a).localeCompare(String(b))).join("|")
   );
 }
 
@@ -73,9 +71,9 @@ describe("v4PortfolioRows — the spine", () => {
       if (typeof panelC.workplace === "number")
         expect(r.workplace).toBe(panelC.workplace);
       for (const id of ITEM_IDS) {
-        const result = (panelC as unknown as Record<string, { score?: number }>)[
-          id
-        ];
+        const result = (
+          panelC as unknown as Record<string, { score?: number }>
+        )[id];
         // W1–W3 are optional on pre-4.1 records; an absent item must surface
         // as NaN, never as a silent zero.
         expect(r.items?.[id]).toBe(result?.score ?? NaN);
@@ -92,7 +90,12 @@ describe("v4PortfolioRows — the spine", () => {
               r.exposure,
               r.adaptiveness,
               // A tier alone is enough: basisMedian only reads tier.
-              { tier: (r.exposureTier ?? "exact") as never, grain: "program", sources: [], indexVariant: "AIOE-2021" },
+              {
+                tier: (r.exposureTier ?? "exact") as never,
+                grain: "program",
+                sources: [],
+                indexVariant: "AIOE-2021",
+              },
             )
           : null;
       expect(r.position).toBe(expected);
@@ -160,7 +163,9 @@ describe("portfolio aggregates", () => {
     for (let i = 1; i < list.length; i++) {
       const prev = list[i - 1];
       const curr = list[i];
-      expect((prev.adaptiveness as number) <= (curr.adaptiveness as number)).toBe(true);
+      expect(
+        (prev.adaptiveness as number) <= (curr.adaptiveness as number),
+      ).toBe(true);
     }
   });
 
@@ -193,8 +198,7 @@ describe("portfolio aggregates", () => {
   it("reads the latest verification date off the rows", () => {
     const latest = lastVerifiedAt(rows);
     if (latest === null) return;
-    for (const r of assessed)
-      expect(latest >= (r.verifiedAt ?? "")).toBe(true);
+    for (const r of assessed) expect(latest >= (r.verifiedAt ?? "")).toBe(true);
   });
 });
 
@@ -202,9 +206,7 @@ describe("facultyRows — the chip invariant", () => {
   it("sums to the spine totals", () => {
     const faculties = facultyRows(rows);
     expect(faculties.reduce((s, f) => s + f.total, 0)).toBe(rows.length);
-    expect(faculties.reduce((s, f) => s + f.assessed, 0)).toBe(
-      assessed.length,
-    );
+    expect(faculties.reduce((s, f) => s + f.assessed, 0)).toBe(assessed.length);
   });
 
   it("never averages over an unassessed row", () => {
@@ -219,10 +221,7 @@ describe("facultyRows — the chip invariant", () => {
           (s, r) => s + (r.adaptiveness as number),
           0,
         );
-        expect(f.avgAdaptiveness).toBeCloseTo(
-          sum / facultyAssessed.length,
-          10,
-        );
+        expect(f.avgAdaptiveness).toBeCloseTo(sum / facultyAssessed.length, 10);
       } else {
         expect(facultyAssessed).toHaveLength(0);
       }

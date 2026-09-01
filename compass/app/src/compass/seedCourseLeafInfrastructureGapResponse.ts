@@ -57,7 +57,8 @@ export const INFRASTRUCTURE_GAP_SIGNALS: Prisma.MarketValidationSignalCreateInpu
     },
     {
       // Signal 2: four-project ecosystem breadth
-      source: "Cross-project ecosystem survey (research-loop GitHub intelligence)",
+      source:
+        "Cross-project ecosystem survey (research-loop GitHub intelligence)",
       excerpt:
         "Four independent infrastructure projects now exist around CourseLeaf's API gap: the University of Illinois built an Azure Function for basic data loading because no native export exists; APInception wraps the insufficient native API as a meta-API; cc-coursemap and UniPaith each maintain their own CourseLeaf scraper. Each project is a real institution solving the same problem by hand — a documented, public inventory of unmet analytics demand.",
       url: "https://github.com/unimelb-mdap/cc-coursemap",

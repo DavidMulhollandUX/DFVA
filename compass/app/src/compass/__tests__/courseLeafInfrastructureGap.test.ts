@@ -54,14 +54,16 @@ describe("INFRASTRUCTURE_GAP_SIGNALS", () => {
 
   it("uses two competitor_weakness and one market_gap category", () => {
     const categories = INFRASTRUCTURE_GAP_SIGNALS.map((s) => s.category);
-    expect(categories.filter((c) => c === "competitor_weakness")).toHaveLength(2);
+    expect(categories.filter((c) => c === "competitor_weakness")).toHaveLength(
+      2,
+    );
     expect(categories.filter((c) => c === "market_gap")).toHaveLength(1);
   });
 
   it("carries the specified credibility scores (5, 5, 4)", () => {
-    const scores = INFRASTRUCTURE_GAP_SIGNALS
-      .map((s) => s.credibilityScore)
-      .sort((a, b) => b - a);
+    const scores = INFRASTRUCTURE_GAP_SIGNALS.map(
+      (s) => s.credibilityScore,
+    ).sort((a, b) => b - a);
     expect(scores).toEqual([5, 5, 4]);
     for (const s of INFRASTRUCTURE_GAP_SIGNALS) {
       expect(s.credibilityScore).toBeGreaterThanOrEqual(1);

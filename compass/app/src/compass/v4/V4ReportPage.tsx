@@ -1559,9 +1559,7 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
         <MethodDetails
           summary={`${verificationSummary(panelC.verified)}; ${
             panelC.ambiguities.length
-          } recorded ambiguit${
-            panelC.ambiguities.length === 1 ? "y" : "ies"
-          }`}
+          } recorded ambiguit${panelC.ambiguities.length === 1 ? "y" : "ies"}`}
         >
           <Card className="border-0 shadow-none">
             <CardContent className="pt-4">

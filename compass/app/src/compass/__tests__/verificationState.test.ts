@@ -38,7 +38,9 @@ describe("verification copy is derived, not asserted", () => {
     const mech = { adversarial: false, mechanical: true, date: "2026-08-14" };
     expect(verificationSummary(adv)).toContain("not on record");
     expect(verificationSummary(mech)).toContain("not on record");
-    expect(verificationClause(adv)).not.toContain("verified against the source");
+    expect(verificationClause(adv)).not.toContain(
+      "verified against the source",
+    );
     expect(verificationClause(mech)).not.toContain("reviewed adversarially");
     expect(verificationBody(adv)).toContain("verbatim evidence check");
   });

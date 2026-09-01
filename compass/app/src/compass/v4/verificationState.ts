@@ -88,5 +88,7 @@ export function verificationBody(v: V4Verified): string {
             : "the verbatim evidence check"
         } — is not on record.`
       : "";
-  return `On ${v.date}, ${joinList(clauses)}.${missing} The judgements in which the evidence was consistent with two levels are recorded below:`;
+  return `On ${v.date}, ${joinList(
+    clauses,
+  )}.${missing} The judgements in which the evidence was consistent with two levels are recorded below:`;
 }

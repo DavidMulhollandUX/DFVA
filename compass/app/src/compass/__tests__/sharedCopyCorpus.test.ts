@@ -1,7 +1,12 @@
 import { describe, expect, it } from "vitest";
 import { V4_PANEL_C } from "../v4/data/v4PanelC";
 import { gateSummary } from "../v4/gateState";
-import { describeBasis, basisFor, basisMedian, V4_TIER_LABELS } from "../v4/exposureBasis";
+import {
+  describeBasis,
+  basisFor,
+  basisMedian,
+  V4_TIER_LABELS,
+} from "../v4/exposureBasis";
 import { v4Quadrant, V4_QUADRANT_LABELS } from "../v4/v4Position";
 
 /**
@@ -21,10 +26,7 @@ describe("gate copy is derived per program", () => {
       const s = gateSummary(V4_PANEL_C[code]);
       const gates = V4_PANEL_C[code].gates;
       const allPass =
-        gates &&
-        Object.values(gates).every(
-          (g) => !g || g.result === "PASS",
-        );
+        gates && Object.values(gates).every((g) => !g || g.result === "PASS");
       if (!allPass) {
         expect(s, code).not.toBe("every precondition met");
         expect(s, code).not.toMatch(/every precondition met/);
@@ -55,9 +57,7 @@ describe("basis copy is derived per program", () => {
   });
 
   it("labels every tier the registry can produce", () => {
-    const tiers = new Set(
-      CODES.map((c) => basisFor(c)?.tier).filter(Boolean),
-    );
+    const tiers = new Set(CODES.map((c) => basisFor(c)?.tier).filter(Boolean));
     for (const t of tiers) {
       expect(V4_TIER_LABELS[t as keyof typeof V4_TIER_LABELS], t).toBeTruthy();
     }

@@ -16,11 +16,7 @@
  *
  * Pure functions — no React, so the numbers on the page are unit-testable.
  */
-import {
-  V4_META,
-  v4PanelCByCode,
-  type V4PanelC,
-} from "./data/v4PanelC";
+import { V4_META, v4PanelCByCode, type V4PanelC } from "./data/v4PanelC";
 import { V4_RUBRIC } from "./data/v4Rubric";
 import { REPORT_INDEX } from "./reportIndex";
 import {
@@ -93,7 +89,9 @@ export function v4PortfolioRows(): V4PortfolioRow[] {
         unassessedReason: e.status === "research" ? "research" : "archived",
         exposure: e.exposure,
         exposureTier: e.exposureTier,
-        exposureTierLabel: e.exposureTier ? V4_TIER_LABELS[e.exposureTier] : null,
+        exposureTierLabel: e.exposureTier
+          ? V4_TIER_LABELS[e.exposureTier]
+          : null,
         ownRecord: e.exposureTier ? isOwnRecord(basisFor(e.code)) : null,
         exposureMedian: e.exposureTier ? basisMedian(basisFor(e.code)) : null,
         adaptiveness: e.adaptiveness,
@@ -135,7 +133,8 @@ export function v4PortfolioRows(): V4PortfolioRow[] {
         G2: gateState(panelC.gates?.G2),
       },
       position: e.position,
-      atThreshold: V4_META.adaptMedian !== null && e.adaptiveness === V4_META.adaptMedian,
+      atThreshold:
+        V4_META.adaptMedian !== null && e.adaptiveness === V4_META.adaptMedian,
       verifiedAt: panelC.verified?.date ?? null,
     };
   });
@@ -244,7 +243,8 @@ export function facultyRows(rows: V4PortfolioRow[]): FacultyRow[] {
         total: list.length,
         assessed: assessedList.length,
         avgExposure: placed.length
-          ? placed.reduce((s, r) => s + (r.exposure as number), 0) / placed.length
+          ? placed.reduce((s, r) => s + (r.exposure as number), 0) /
+            placed.length
           : null,
         avgAdaptiveness: assessedList.length
           ? assessedList.reduce((s, r) => s + (r.adaptiveness as number), 0) /
