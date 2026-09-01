@@ -48,7 +48,7 @@ The forum thread reflects only its own self-selected participants and the op-ed 
 
 ### Theme 3 — the profession has not settled what counts as acceptable everyday AI use
 
-A January 2026 [Archinect forum thread](https://archinect.com/forum/thread/150521508/i-feel-like-ai-use-is-unethical-for-architects) shows architects split sharply over whether using AI for reference tasks such as looking up building codes is a professional failing — one side calling it "lazy" and unprofessional, another accusing that framing of "shadowboxing his own anxieties."
+A January 2026 [Archinect forum thread](https://archinect.com/forum/thread/150521508/i-feel-like-ai-use-is-unethical-for-architects) records architects split sharply over whether using AI for reference tasks such as looking up building codes is a professional failing — one side calling it "lazy" and unprofessional, another accusing that framing of "shadowboxing his own anxieties."
 
 This is one open, self-selected thread with an unknown and likely small number of participants — it does not establish how common either view is across the profession. It supports only the narrower claim that, as of January 2026, no settled professional norm existed on this specific question among the participants who chose to weigh in.
 
