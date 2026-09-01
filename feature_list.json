@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-26T11:13:08Z",
+  "updated": "2026-08-31T08:30:00Z",
   "loops": {
     "spec_loop": {
-      "last_run": "2026-08-25",
+      "last_run": "2026-08-30",
       "features_generated": 23
     },
     "dev_loop": {
@@ -10,9 +10,9 @@
       "features_built": 16
     },
     "research_loop": {
-      "last_run": "2026-07-23",
-      "source": "reviews",
-      "signals_found": 6,
+      "last_run": "2026-08-31",
+      "source": "forums",
+      "signals_found": 7,
       "signals_promoted": 3
     }
   },
@@ -267,6 +267,39 @@
       "type": "pain_point",
       "source": "research-loop reviews",
       "detail": "Enterprise Modern Campus user (Mar 12, 2026 \u2014 freshest review in category): 'Clunky Learner UI and Restrictive Reporting, Integrations, and Staff Notifications' (2.5/5). Modern Campus at 25% market share cannot deliver adequate reporting. Combined with RFP.wiki sentiment ('reporting and analytics are adequate for standard registrar use but not best-in-class'), this creates a structural opening for DFVA's independent analytics layer. The March 2026 date confirms the gap is current, not legacy."
+    },
+    {
+      "id": "feat-022",
+      "name": "Lightcast Freshness + ANZ Closing DFVA's Data Edge - Counter-Position on Methodology",
+      "status": "planned",
+      "created": "2026-08-31",
+      "priority": "high",
+      "score": 9,
+      "type": "competitor_move",
+      "source": "research-loop forums (Lightcast changelog Aug 2026)",
+      "detail": "Lightcast August 2026 changelog: 'Stale Profile Removal' (Aug 7) directly answers the stale-data complaint that anchored DFVA's fresh-data differentiator (feat-005). 'Improved Geocoding for Australia and New Zealand Job Postings' (Aug 5) brings LMI into UoM's ANZ region. Plus Graduation Year Filter (Aug 12), Layoff Activity and H-1B LCA tables (Aug 3), and US 2026.3 datarun final (Jul 1). Lightcast is closing the freshness gap and localising to Australia. DFVA's 'fresher than Lightcast' wedge narrows. Response: double down on methodology depth (11-dimension durability scoring) and independence (third-party, not LMI-vendor-owned), the edges Lightcast cannot copy. Separately, Lightcast's third-party ecosystem is growing fast (112 repos; August 2026 MCP, mobile, and C# clients), so DFVA should consume Lightcast's API for raw LMI rather than compete on data coverage."
+    },
+    {
+      "id": "feat-023",
+      "name": "TechnologyOne 'Plus' Agentic AI Land-Grab - Defend DFVA Independence",
+      "status": "planned",
+      "created": "2026-08-31",
+      "priority": "high",
+      "score": 8,
+      "type": "competitor_move",
+      "source": "research-loop forums (TechnologyOne 2026A release notes)",
+      "detail": "TechnologyOne (owner of the Go8 SIS via CourseLoop) shipped 'Plus', described as next-generation agentic AI that proactively surfaces insights from enterprise data, across its 2026A release, with 26B launching Sep 9. AI-enabled capabilities and ECM Natural Language Search span the student and ERP suite. T1 owns the student-data layer at Go8 institutions, so agentic AI on that data is the platform's move toward embedded assessment and analytics. DFVA must stay independent and methodology-first: a platform that owns the data will not credibly provide unbiased third-party program-viability assessment. Position DFVA as the methodology standard T1's AI can call, not a feature T1 will build. High relevance because T1 is DFVA's most direct Go8-adjacent competitor."
+    },
+    {
+      "id": "feat-024",
+      "name": "VT-Catalog LLM-Ready Parse - Institutions Building AI-Ready Curriculum Layers Themselves",
+      "status": "planned",
+      "created": "2026-08-31",
+      "priority": "high",
+      "score": 9,
+      "type": "market_gap",
+      "source": "research-loop forums (GitHub: jonathanpilch/VT-Catalog-Repo, Aug 23 2026)",
+      "detail": "Virginia Tech's VT-Catalog-Repo (Aug 23, 2026) parses its CourseLeaf catalog into a machine-readable dataset for LLMs. This is the first explicit LLM-ready curriculum-data repo in the tracking set: institutions are doing AI preparation on vendor data because CourseLeaf does not provide it. Corroborated by RSCAV/uf-api (CourseLeaf catalog clients, May 30) and uillinoisorss/courseleaf_roles_app (Aug 21, still active). The pattern: every CourseLeaf customer wanting structured or AI-ready curriculum data must build it. This validates DFVA's structured, API-first, LLM-ready model as the missing layer and shows the vacuum is real and being filled ad hoc by universities. DFVA should ship the canonical structured-curriculum ingestion plus LLM-ready export that these one-off repos prove is needed. Differentiation 9: DFVA is the productised answer to what VT built by hand."
     }
   ]
 }

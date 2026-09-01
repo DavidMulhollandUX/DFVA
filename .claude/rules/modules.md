@@ -176,3 +176,27 @@
 - **Key files**:
   - `scraping/goo8_handbook_scrape_progress.txt`
 - **File count**: 1
+
+## logs
+- **Location**: `logs/`
+- **Purpose**: Project folder
+- **Key files**:
+  - (empty)
+- **File count**: 0
+
+
+## raw
+- **Location**: `raw/`
+- **Purpose**: Project folder
+- **Key files**:
+  - `raw/reddit_--help_comments.json`
+  - `raw/reddit_--help_posts.json`
+- **File count**: 2
+
+
+## scratchpad
+- **Location**: `scratchpad/`
+- **Purpose**: Project folder
+- **Key files**:
+  - (empty)
+- **File count**: 0

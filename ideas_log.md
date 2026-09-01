@@ -1,8 +1,8 @@
 ---
 project: DFVA
-last_source: competitor-privacy-research
-last_run: 2026-08-14
-signals_collected: 40
+last_source: forums
+last_run: 2026-08-31
+signals_collected: 47
 ---
 
 # DFVA Ideas Log
@@ -446,3 +446,59 @@ Synthesis of the two sections above (internal design + competitor privacy resear
 **ADM read (needs legal confirmation):** the December 2026 rules attach to *personal information* feeding decisions that significantly affect *a person's* rights. DFVA scores programs, not people, so they probably do not bite. But customers will ask, and there is an obvious second-order argument (a durability score feeding a restructure). Take a written position before December: programs not individuals, scores advisory to human governance, human review path exists. Cheap now, awkward if asked cold. Pair with an OAIC-style privacy impact assessment — AU universities recognise the framing and it doubles as HECVAT evidence.
 
 **Explicitly not doing:** IRAP or ISO 27001 chase (expensive, slow, largely moot once Tier 2 exists — SOC 2 Type 2 later, when a contract requires it); bundling benchmark consent into onboarding; claiming anything not yet built (the opening here is incumbent *opacity* — vagueness forfeits it); asserting competitors misuse data (their public policies are not their MSAs — the honest, stronger claim is that theirs is not verifiable from outside and ours is).
+---
+
+## [2026-08-31] Research: forums (GitHub intelligence + vendor changelog/product pages)
+
+Cycle: forums (next after reviews 2026-07-23; the 2026-08-13/14 privacy sprint was a one-off). Channels: (1) GitHub unauthenticated API repo search per competitor for migration/analytics/API repos, (2) Crawl4AI vendor changelog/product pages for Aug 2026 freshness. Operational note: Crawl4AI was broken at the start of this run by a stray `/tmp/inspect.py` that shadowed Python's stdlib `inspect` module (raising `AttributeError: module 'inspect' has no attribute 'signature'`). Renamed to `/tmp/dfva_assemble_report.py` to unblock. Tooling recovered and all 5 vendor pages + GitHub searches completed.
+
+### Signal A: Lightcast closing the freshness gap and entering ANZ (Aug 2026 changelog)
+- **Source:** Lightcast Analyst Platform Changelog (kb.lightcast.io, 213K chars). Aug 2026 entries: Stale Profile Removal (Aug 7), Improved Geocoding for Australia and New Zealand Job Postings (Aug 5), Graduation Year Filter (Aug 12), New Layoff Activity and H-1B LCA tables (Aug 3), US 2026.3 datarun final (Jul 1).
+- **Score:** Relevance 10 / Signal 8 / Differentiation 7 (composite 25)
+- **Type:** competitor_move
+- **Detail:** Lightcast is directly answering the "years behind" data-staleness complaint that anchored DFVA's fresh-data differentiator (feat-005), and localising LMI to Australia and New Zealand (UoM's region). The fresh-data wedge narrows. DFVA must lean on methodology depth (11-dimension durability scoring) and independence (third-party, not LMI-vendor-owned) as the edges Lightcast cannot copy. Separately, Lightcast's third-party ecosystem is growing fast so DFVA should consume Lightcast's API for raw LMI rather than compete on coverage.
+- **Promoted:** YES (feat-022)
+
+### Signal B: TechnologyOne "Plus" agentic AI land-grab (2026A release)
+- **Source:** TechnologyOne 2026A software release notes (technology1.com, 83K chars). "Plus" = next-generation agentic AI surfacing insights from enterprise data. 26B launches Sep 9. AI-enabled capabilities span the student and ERP suite; ECM Natural Language Search shipped.
+- **Score:** Relevance 9 / Signal 8 / Differentiation 7 (composite 24)
+- **Type:** competitor_move
+- **Detail:** TechnologyOne owns the Go8 SIS via CourseLoop. Agentic AI on the student-data layer is the platform's move toward embedded assessment and analytics. DFVA must stay independent and methodology-first: a platform that owns the data will not credibly provide unbiased third-party program-viability assessment. Position DFVA as the methodology standard T1's AI can call, not a feature T1 will build.
+- **Promoted:** YES (feat-023)
+
+### Signal C: VT-Catalog LLM-ready parse, institutions building AI-ready curriculum layers themselves
+- **Source:** GitHub jonathanpilch/VT-Catalog-Repo (Aug 23, 2026) parses CourseLeaf catalog into a "machine-readable dataset for LLMs." Corroborated by RSCAV/uf-api (CourseLeaf catalog clients, May 30) and uillinoisorss/courseleaf_roles_app (Aug 21, active).
+- **Score:** Relevance 9 / Signal 7 / Differentiation 9 (composite 25)
+- **Type:** market_gap
+- **Detail:** First explicit LLM-ready curriculum-data repo in the tracking set. Institutions are doing AI preparation on vendor data because CourseLeaf does not provide it. This validates DFVA's structured, API-first, LLM-ready model as the missing layer and shows the vacuum is real and being filled ad hoc by universities. DFVA should ship the canonical structured-curriculum ingestion plus LLM-ready export that these one-off repos prove is needed.
+- **Promoted:** YES (feat-024)
+
+### Signal D: Modern Campus "bring-your-own-OpenAI-key" AI and shallow authoring features (2026.2, Jul 30)
+- **Source:** Modern Campus CMS release notes 2026.2 (Jul 30) and 2026.2.1 (Aug 25). AI features require the institution to supply an Open API key. AI ships as Starter Alt Text and AI page-title and description generation (CMS authoring assist). Line 259: "While backend APIs exist, they've been intentionally removed from public documentation for now."
+- **Score:** Relevance 7 / Signal 7 / Differentiation 8 (composite 22)
+- **Type:** competitor_weakness
+- **Detail:** Confirms incumbents' AI is a thin wrapper over a customer-supplied OpenAI key, not proprietary methodology, and is scoped to content authoring, not curriculum assessment. Reinforces DFVA's methodology-first positioning. The undocumented backend-API note repeats the API-opacity pattern seen across CourseLeaf and Modern Campus.
+- **Promoted:** NO (ranked 4th; recorded for context)
+
+### Signal E: Lightcast LMI ecosystem becoming the substrate third parties build on
+- **Source:** GitHub search "lightcast mcp OR skills" returns 112 repos; api-evangelist/lightcast (Aug 30), api-bureau/emsi-api C# client (Aug 28), lightcast-mobile (Aug 30).
+- **Score:** Relevance 8 / Signal 7 / Differentiation 6 (composite 21)
+- **Type:** market_validation
+- **Detail:** Lightcast LMI is becoming the data substrate others build on (mobile, MCP, C# clients). DFVA should plan to consume the Lightcast API for raw LMI rather than compete on data coverage.
+- **Promoted:** NO
+
+### Signal F: Coursedog catalog data-loading still requires custom workflows
+- **Source:** GitHub MTECH-Coursedog (Aug 26, 2026), skennyfau/coursedog_updater (Jul 7, "workflow for adding course catalog data to coursedog"), FrankCoRa/Data_Migration_Project (Jun 27).
+- **Score:** Relevance 7 / Signal 7 / Differentiation 7 (composite 21)
+- **Type:** competitor_weakness
+- **Detail:** Three independent Coursedog data-loading and migration workarounds in the last 60 days confirm the catalog-data API gap persists. Consistent with prior migration-repo signals (feat-007, feat-010, feat-012).
+- **Promoted:** NO
+
+### Signal G: CourseLeaf extraction pain continues (uf-api, courseleaf_roles_app)
+- **Source:** GitHub RSCAV/uf-api (May 30, "Verified, public-only catalog + working clients for University of Florida web"), uillinoisorss/courseleaf_roles_app (Aug 21, active Azure Function).
+- **Score:** Relevance 7 / Signal 7 / Differentiation 7 (composite 21)
+- **Type:** competitor_weakness
+- **Detail:** Continued third-party CourseLeaf catalog extraction confirms the API-poverty pattern (feat-014). No new differentiator beyond prior findings.
+- **Promoted:** NO
+
+**Promotion summary:** Top 3 by composite score (A=25, C=25, B=24) promoted to feature_list.json as planned: feat-022 (Lightcast freshness + ANZ), feat-023 (T1 Plus agentic AI), feat-024 (VT-Catalog LLM-ready). Signals D-G recorded but not promoted (ranked 4-7).
