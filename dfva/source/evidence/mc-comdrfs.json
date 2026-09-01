@@ -100,12 +100,9 @@
       }
     },
     "ambiguities": [
-      "W3: two required lab rotations satisfy level 2's professional-community-setting-plus-assessment clause and could be read as level 3's 'sequence of them', but the extract lacks explicit evidence of practitioner supervision, host accountability, or structured reflection on the student's own professional practice (as distinct from describing the visited lab's research) — resolved to the lower level (2) per the scoring rule."
+      "W3: two required lab rotations satisfy level 2's professional-community-setting-plus-assessment clause and could be read as level 3's 'sequence of them', but the extract lacks explicit evidence of practitioner supervision, host accountability, or structured reflection on the student's own professional practice (as distinct from describing the visited lab's research) — resolved to the lower level (2) per the scoring rule. Recaptured on 2026-09-01: FNCE90093's own assessment page had been captured with unrelated content and was previously excluded (see remediated capture note below); its correct content is byte-identical in structure to FNCE90092's (already-cited) assessment — two written reports on the visited lab's research questions and methods, 40%/60%, no supervision or host-accountability language in either. This corroborates rather than resolves the ambiguity: both rotations are now directly evidenced, and neither documents practitioner supervision, so the level-2 resolution stands unchanged."
     ],
-    "notScoreable": [
-      "COMP90049 (Introduction to Machine Learning) assessment structure: the extract's 'comp90049/assessment' source (line 351) contains unrelated content — the assessment table for 'Neuroscience of Human Learning (EDUC90975)' — so COMP90049's actual assessment design could not be verified and was not used as evidence for any item.",
-      "FNCE90093 (Laboratory Rotation 2, Overseas) assessment structure: the extract's 'fnce90093/assessment' source (line 1503) contains unrelated content — the attributes/outcomes page for 'Master of Cyber Security (MC-CYBSCMO)' — so this subject's assessment design could not be verified and was not used as evidence for any item."
-    ],
+    "notScoreable": [],
     "verified": {
       "adversarial": {
         "reviewed": [
@@ -120,10 +117,10 @@
           "G1",
           "G2"
         ],
-        "date": "2026-08-30"
+        "date": "2026-09-01"
       },
       "mechanical": true,
-      "date": "2026-08-29"
+      "date": "2026-09-01"
     }
   }
 }

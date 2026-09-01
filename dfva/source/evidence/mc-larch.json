@@ -28,10 +28,14 @@
     },
     "C4": {
       "score": 2,
-      "rationale": "Level 2: ABPL90170's Assignment 1 (20%, Week 4) requires assessed application to 'real-world projects' that vary by site, meeting the Level 2 anchor. Ambiguity: ABPL90375 is labelled 'the capstone subject' with overview text suggesting a self-scoped research project (Level 3), but its assessment page returned an unrelated course's overview rather than an assessment table, so no ASSESSMENT evidence exists for it (R2). Resolved DOWN to Level 2.",
+      "rationale": "Level 2: ABPL90170's Assignment 1 (20%, Week 4) requires assessed application to 'real-world projects' that vary by site, meeting the Level 2 anchor. ABPL90375 (recaptured 2026-09-01; the previous extract had returned an unrelated course's overview instead of its own assessment table) is the program's compulsory capstone but does not lift the score to Level 3. Its overview states the DEFAULT delivery is a shared 'studio thematic' set by the program, not a student-chosen topic; a self-scoped 'individually supervised design investigation' exists only 'with course coordinator approval' for 'high-achieving students... under exceptional circumstances' — an approval-gated exception, not the documented structure most students experience. Its assessment (two staged design deliverables, 30%/70%) is consistent with either the thematic or the exceptional self-scoped route and does not itself establish self-scoping. Per R1 (score documented evidence, not plausible capability for some students) and R2, Level 3's anchor — a self-scoped capstone or research project as the program's structure — is not met; resolved to Level 2.",
       "evidenceLines": [
         "Students will apply their chosen focus to real-world projects, developing their ability to analyse, structure, and implement effective design solutions. Through this process, they will learn strategies that contribute to the creation of sustainable, adaptive landscape design that address ecological, social, and aesthetic considerations.",
-        "Assignment 1: A scientifically informed, multimedia exploration, created using methods from either geospatial technology, botany, ecology or horticulture that communicates planting or planning insights effectively"
+        "Assignment 1: A scientifically informed, multimedia exploration, created using methods from either geospatial technology, botany, ecology or horticulture that communicates planting or planning insights effectively",
+        "This subject is the culmination of each student's studies in Master of Landscape Architecture. Students will be offered a studio thematic which provides scope for an original approach to design synthesis in landscape architecture, which is based on research and critical thinking.",
+        "With course coordinator approval, high-achieving students may undertake the Landscape Architecture Design Thesis as an individually supervised design investigation. Similarly, under exceptional circumstances and with course coordinator approval, the Design Thesis may be undertaken as a written thesis.",
+        "Assignment 1: Written, graphic and verbal presentation of design concept, analytical work and design explorations",
+        "Assignment 2: Written, graphic and verbal presentation of final design proposal. This will include exhibition panels and an accompanying document"
       ]
     },
     "C5": {
@@ -99,10 +103,10 @@
           "G1",
           "G2"
         ],
-        "date": "2026-08-30"
+        "date": "2026-09-01"
       },
       "mechanical": true,
-      "date": "2026-08-30"
+      "date": "2026-09-01"
     },
     "ambiguities": []
   }

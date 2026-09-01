@@ -1026,7 +1026,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "b-fadance": {
     "code": "b-fadance",
     "name": "Bachelor of Fine Arts (Dance)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 68.44,
     "entryExposure": 68.44,
     "jirN": null,
@@ -12560,11 +12560,14 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       ]
     },
     "C3": {
-      "score": 0,
-      "rationale": "No AI, digital tools, or technology content appears in any core unit description or assessment. The course focuses on agricultural science fundamentals (physics, chemistry, biology, soil science). Precision farming is mentioned in the overview but not as core content.",
+      "score": 1,
+      "rationale": "Level 0 is falsified — digital content does exist: data management, data visualisation and statistics are taught and assessed in the Level 1 Degree Core, and precision farming is named in the program-level overview. But that content is exactly what level 1 describes: 'AI or digital tools appear only as electives or as tool operation/training'. Precision agriculture is available only as a Level 3 elective, and the core's digital content is operational data handling. Level 2 requires core units addressing AI capabilities AND limitations/ethics: the word AI, and any treatment of tool limitations, ethics, bias, governance or data governance, is absent from the entire extract, so 2 and 3 both fail.",
       "evidenceLines": [
-        "Concepts in physics, chemistry, mathematics and data management will be introduced in the context of the science of Earth and soil, water and climate, and plant and animal biology.",
-        "Students will develop an understanding of fundamental scientific concepts, and will learn to apply this understanding to a range of agricultural contexts, including precision farming."
+        "Students will develop an understanding of fundamental scientific concepts, and will learn to apply this understanding to a range of agricultural contexts, including precision farming.",
+        "Mathematics topics in this subject will include: data visualisation; data analyses, including population statistics and correlation; determination of key data parameters such as rate of change, maxima and minima.",
+        "Integrate the use of numerical data, graphical analysis, basic statistics, and mapping, to represent and interpret phenomena in the natural world, in particular as they operate in agricultural environments",
+        "Applications in Precision Agriculture",
+        "Level 3 electives"
       ]
     },
     "C4": {
@@ -12583,7 +12586,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
         "You will also conduct a small project in an area of Agriculture of your choosing"
       ]
     },
-    "adaptiveness": 5,
+    "adaptiveness": 6,
     "W1": {
       "score": 1,
       "rationale": "Communication appears in learning outcomes and generic skills. Some subjects include oral presentations (AGRI20003 group presentation, ENVS10001 group presentation). However, all communication is to peers/staff within academic genres. No professional genre (client brief, policy advice, pitch) or external audience is assessed.",
@@ -12635,13 +12638,17 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "C1: Group work recurs across core units but no evidence of coordinating across people AND tools/AI - scored at level 2",
       "C2: Peer review exists as hurdle but not as graded assessment - scored at level 1",
       "W2: Field trips provide authentic context but artefacts are academic reports - scored at level 1",
-      "W3: Industry Internship exists but is elective not core - scored at level 1"
+      "W3: Industry Internship exists but is elective not core - scored at level 1",
+      "C3 reverted to origin's score (1) on this review: the Level 1 Degree Core explicitly teaches and assesses data visualisation, data analysis (population statistics, correlation, key data parameters) as part of its mathematics content — this is program-level/core digital-data content, so the level-0 anchor ('No digital/AI content in any core unit or program-level outcome') is not met. The local rescoring's score of 0 quoted this same content as evidence while asserting no such content exists — an internal contradiction."
     ],
-    "notScoreable": [],
+    "notScoreable": [
+      "No Level 3 subject page appears in the extract — neither the required Capstone subject, nor AGRI30041 Industry Internship, nor AGRI30006 Industry Project, nor any Level 3 major subject. All eight items were scoreable from the Level 1/Level 2 core evidence present, but the level-3 routes for C4 and C5, the assessment-spine test for W2, and the capstone route for G2 could not be evaluated on this extract; a capture of the Level 3 core/capstone pages could change C4, C5, W2 and G2.",
+      "Assessment pages for the two remaining Level 2 Degree Core subjects are present, but no core subject page in the extract documents marking criteria or rubrics for any task, so the 'judged against criteria drawn from practice' conjunct in W1 level 2 and W2 level 2 could not be tested directly for any assessment — it was treated as undocumented, not as satisfied."
+    ],
     "verified": {
       "adversarial": true,
       "mechanical": true,
-      "date": "2026-08-27"
+      "date": "2026-09-01"
     }
   },
   "b-arts": {
@@ -12665,11 +12672,13 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       ]
     },
     "C3": {
-      "score": 0,
-      "rationale": "No AI, digital tools, or technology content appears in any core arts curriculum. The 'proficient in the use of appropriate information technologies' appears as a generic skill but is not assessed in any core subject. No core unit addresses AI capabilities, limitations, or ethics.",
+      "score": 1,
+      "rationale": "Level 1 anchor: digital tools appear as tool operation/training only — the operational level TEQSA identifies as non-durable. Digital capability is stated at program level as proficiency in 'appropriate information technologies' and communication 'on digital platforms', and the operational instances documented are database and web-tool searching. AI appears once, as subject-matter content in one Discovery option's overview paragraph, not as assessed treatment of capabilities and limits. Not level 0, because digital content is present in program-level generic skills. Not level 2: no core unit is documented as addressing AI capabilities AND limitations/ethics with use-with-limits assessed, and no assessment task in the extract names AI or digital tools.",
       "evidenceLines": [
-        "Effectively use information from diverse sources and be proficient in the use of appropriate information technologies",
-        "Demonstrate a detailed knowledge and understanding of selected fields of study in core disciplines in the humanities, social sciences and languages"
+        "Effectively use information from diverse sources and be proficient in the use of appropriate information technologies; and",
+        "Communicate effectively, in oral and written forms and on digital platforms",
+        "Demonstrate high level research skills, including the ability to extend their knowledge-base beyond subject materials using web-based research tools",
+        "learn to apply Buddhist thought to illuminate contemporary debates, from climate change and gender equality to financial regulation and AI"
       ]
     },
     "C4": {
@@ -12689,23 +12698,31 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
         "A minimum of 37.5 credit points of Level 3 Major subjects including a Capstone subject"
       ]
     },
-    "adaptiveness": 4,
+    "adaptiveness": 5,
     "W1": {
-      "score": 1,
-      "rationale": "Communication appears in learning outcomes and generic skills. Some discovery subjects include oral presentations or participation. However, all communication is to peers/staff within academic genres (essays, exams, tutorials). No professional genre or external audience is assessed in the common core.",
+      "score": 0,
+      "rationale": "Level 0 anchor (demoted from 1 on adversarial verification): every documented core assessment artefact is an academic genre addressed to the marker, and no core assessment task establishes a spoken deliverable. Level 1 requires BOTH that communication appear in outcomes AND that core assessment add presentation to peers/staff; the second clause is unsupported. Every named spoken/presentation task in the extract sits in an ELECTIVE Work Integrated Learning subject — ARTS30001's 'Linked Project Report and interactive orals', MULT20010's 'Personal/Professional Portfolio with a Student-led Interactive Oral Review', and MULT20014's team presentation (that subject is 'Not available in 2026'). No assessment table in any of the thirteen Arts Discovery subjects — the only compulsory subject category the extract documents — contains a presentation, oral, seminar or spoken deliverable. The three items previously cited as spoken work are participation marks, not presentations: 'Participation in class' (AHIS10001, 5%), 'Class participation' (HIST10015, 20%, sized '800 words (equivalent)') and 'In-class discussion questions' (ENGL10002, 10%, sized '400 words (equivalent)'); two of the three are quantified in WORD equivalents, so nothing establishes the mark is for oral contribution, and they appear in only 3 of the 13 substitutable Discovery options — the same minority-of-pool situation used to hold C2 and C5 down to 1. Holding W1 at 1 on the program-level generic skill 'Communicate effectively, in oral and written forms and on digital platforms' is barred twice over: by the scoring direction (resolve ambiguity to the LOWER level) and by W1's own migration note invoking Barrie (2006, 2007), which forbids scoring stated graduate attributes.",
       "evidenceLines": [
-        "Communicate effectively and, in the case of those students undertaking a language major, read, write, listen to and speak another language",
         "Communicate effectively, in oral and written forms and on digital platforms",
-        "Participation in class Throughout the semester 5%"
+        "Apply scholarly and ethical thinking to personal and academic conduct and engage in rigorous and respectful debate",
+        "Participation in class",
+        "Class participation",
+        "In-class discussion questions",
+        "Linked Project Report and interactive orals",
+        "Students may only complete one of the listed Work Integrated Learning subjects per semester, and students cannot complete the same Work Integrated Learning subject at different year levels."
       ]
     },
     "W2": {
-      "score": 0,
-      "rationale": "Assessment in discovery subjects is predominantly essays, exams, and tutorials with no situational framing. No core assessment reproduces a professional task end to end. The Bachelor of Arts has no common core with authentic assessment.",
+      "score": 1,
+      "rationale": "Level 1 anchor: contextualised or scenario-framed tasks appear, but the artefact produced and the criteria applied remain academic. Case-study framing recurs across the compulsory Discovery pool (art-history case studies, philosophy-of-science case studies, a historical argument built on one case study), yet every documented assessment artefact is an essay, exam, quiz, bibliography or academic report judged by the teaching team. Not level 0, because the framing is present. Not level 2: no core assessment reproduces a professional task end to end producing the artefact a practitioner would produce; the closest documented instance, ARTS30001's project report and interactive orals for an industry partner, is an elective, and R4 bars scoring up on its 'genuine professional setting' label.",
       "evidenceLines": [
-        "Essay 2000 words Hurdle requirement: Must be submitted. Week 11 50%",
+        "This subject will introduce you to the study of art history by focusing on case studies drawn from historical and contemporary contexts.",
+        "We will look at various case studies ranging from string theory to psychology, to acupuncture to climate change scepticism.",
+        "Build a historical argument on one case study, based on both primary and secondary sources, and communicate it clearly in a variety of media.",
         "A take-home exam",
-        "Essay 2000 words Hurdle requirement: Must be submitted. During the assessment period 50%"
+        "An invigilated exam",
+        "An essay plan with annotated bibliography",
+        "In this subject you will collaborate on a real project for an actual industry partner as part of a small consulting team."
       ]
     },
     "W3": {
@@ -12720,21 +12737,28 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 2,
     "gates": {
       "G1": {
-        "result": "PASS",
-        "rationale": "The program requires completion of a prescribed major (minimum 75 credit points of major subjects including a capstone). Each major provides a coherent disciplinary core with progressive depth. The structure ensures disciplinary identity through the major.",
+        "result": "FAIL",
+        "rationale": "FAIL condition: generic or interchangeable content without disciplinary identity. The extract documents no all-compulsory specialist core — the only compulsory subject requirement is one Arts Discovery subject chosen from thirteen unrelated options, plus 50 credit points of Breadth outside the discipline, plus an explicit diversity-of-study rule capping any single discipline at 125 of 300 points, with roughly thirty substitutable discipline lists offered. Neither of the other PASS routes is evidenced here: the accreditation named at course level is APAC, which the handbook itself refers to the Psychology major rather than the degree; and the progression rules quoted are credit-point thresholds by year level, not a prerequisite chain with technical or methodological depth. The majors-and-capstone rule is real counter-evidence, but the extract contains no major subject list, no prerequisite chain and no capstone page with which to test progressive depth.",
         "evidenceLines": [
+          "Diversity of study: a maximum of 125 points from any single discipline may be completed.",
+          "A minimum of 50 credit points of Breadth subjects including",
           "Completion of between one and two Majors",
-          "A minimum of 37.5 credit points of Level 2 Major subjects",
-          "A minimum of 37.5 credit points of Level 3 Major subjects including a Capstone subject"
+          "A minimum of 37.5 credit points of Level 3 Major subjects including a Capstone subject",
+          "Completion of at least 50 points of Level 1 study before proceeding to the next subject year level.",
+          "Australian Psychology Accreditation Council (APAC)",
+          "See the Handbook entry for the Psychology major for details of its accreditation.",
+          "Students will take an Arts Discovery subject within their first semester of study. Undertaking at least one Arts Discovery subject is a requirement of the Bachelor of Arts."
         ]
       },
       "G2": {
-        "result": "FAIL",
-        "rationale": "Assessments in discovery subjects are predominantly essays, exams, and tutorials. No evidence of defended trade-off decisions, simulations with real uncertainty, or live projects with accountability in the common core.",
+        "result": "PASS",
+        "rationale": "The FAIL condition — recall or scripted responses only — is not met. Documented core assessment requires students to weigh competing accounts and defend a conclusion: outcomes require evaluating competing explanations and drawing conclusions, creating well-reasoned arguments about a contested question, and evaluating the strengths and weaknesses of measurement techniques, and the corresponding tasks are argumentative essays and take-home exams rather than quizzes alone. This passes on the defended-judgement route only; the capstone and live-project route could not be assessed because no capstone subject or assessment page appears in the extract.",
         "evidenceLines": [
-          "Essay 2000 words Hurdle requirement: Must be submitted. Week 11 50%",
+          "Develop sociological arguments by using evidence, evaluating competing explanations, and drawing conclusions",
+          "Create well-reasoned arguments about the scientific status of a field of knowledge",
+          "Critically evaluate the strengths and weaknesses of techniques used to measure, classify and define crime and criminality.",
           "A take-home exam",
-          "An invigilated exam 1800 words (equivalent) During the examination period 45%"
+          "A written critique"
         ]
       }
     },
@@ -12742,13 +12766,18 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "C1: No common core - group work depends on chosen major - scored at level 1 based on outcomes",
       "C2: Peer review exists in some discovery subjects but not all - scored at level 1",
       "W2: No common core with authentic assessment - scored at level 0",
-      "W3: Internship/Industry Project exist but are elective - scored at level 1"
+      "W3: Internship/Industry Project exist but are elective - scored at level 1",
+      "C3, W1, W2, G1, G2 reverted to origin's scores on this review. C3: origin's AI mention (Buddhist Universe subject overview) and the IT-proficiency generic skill are program-level digital content, so level 0 ('no digital/AI content... anywhere') is not met; local's score of 0 quoted the same IT-proficiency line as evidence while scoring as if no content exists. W1: local's reversal to 1 relies on the same 'Participation in class' word-equivalent marks origin already considered and rejected (word-equivalents in only 3 of 13 substitutable Discovery options, no documented oral component) — it does not rebut that reasoning. W2: local's drop to 0 ignores origin's documented case-study framing evidence (art-history, philosophy-of-science, historical-argument case studies) without addressing it. G1: local's PASS does not engage the counter-evidence origin weighed — the 125-point single-discipline cap, the 'one to two Majors' language (undermining a single coherent core), and the absence of any actual major/capstone subject page in the extract — and the credit-point progression rules quoted are thresholds by year level, not the rubric's required 'staged prerequisite chain' between named subjects. G2: the rubric's FAIL condition is 'recall or scripted responses only'; the shared evidence (developing arguments, evaluating competing explanations, defending a contested-question position) is not recall/scripted, so the FAIL bar is not cleared — origin's PASS (on the defended-argument route, honestly flagged as arguable) is the better-supported reading; local's FAIL applies the strongest form of the PASS condition rather than testing the FAIL condition as written."
     ],
-    "notScoreable": [],
+    "notScoreable": [
+      "The Capstone subject required by the course structure ('A minimum of 37.5 credit points of Level 3 Major subjects including a Capstone subject') has no subject page and no assessment table in the extract. This makes the level-3 routes of C4 (self-scoped capstone), C5 (substantial required primary-evidence project), W2 (assessment spine) and the capstone route of G2 untestable; each was scored on the remaining evidence rather than inferred.",
+      "No major or minor subject list is present in the extract — only the discipline index pages are named. Level 2 and Level 3 major content, and any prerequisite chain, are therefore absent from the evidence base for C1-C5, W1-W2 and G1.",
+      "No AI-specific or digital-governance unit evidence exists anywhere in the extract, so C3 levels 2 and 3 could not be tested; C3 was scored on program-level generic skills and database/web-tool operation only."
+    ],
     "verified": {
       "adversarial": true,
       "mechanical": true,
-      "date": "2026-08-27"
+      "date": "2026-09-01"
     }
   },
   "b-bmed": {
@@ -12773,12 +12802,15 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       ]
     },
     "C3": {
-      "score": 0,
-      "rationale": "Level 0: no AI or digital-governance content appears in any core BIOM/BIOL/CHEM unit or program-level outcome. The only digital reference is the generic skill 'Demonstrates digital and scientific literacy skills' (not assessed in core). COMP10001 Foundations of Computing is a Foundation ELECTIVE, not core. A full-text search of the extract for artificial intelligence / generative AI / ChatGPT / machine learning / AI literacy returned no core matches. Per C3 migration, tool-operation content would cap at 1; here even that is absent from core.",
+      "score": 1,
+      "rationale": "Matches the level-1 anchor - AI and digital tools appear only as electives or as tool operation, the level TEQSA identifies as non-durable. Core subjects state digital literacy only as a generic skill, and the only digital content documented in a core unit is computer-aided learning and use of electronic databases/forms of communication (tool operation). Machine-learning, informatics and neural-network subjects sit in the discipline-elective list, not the compulsory core. This is above level 0 because digital literacy does appear in core-unit generic skills. Not level 2: no core unit is documented as addressing AI capabilities AND limitations/ethics with use-with-limits assessed, and no core assessment requires critique or governance of AI systems (level 3).",
       "evidenceLines": [
         "Demonstrates digital and scientific literacy skills",
-        "Foundation electives",
-        "COMP10001\tFoundations of Computing"
+        "the utilisation of computer-aided learning activities to enhance understanding.",
+        "the ability to interpret scientific literature and interpret data from electronic databases;",
+        "Effectively search for, critically evaluate, and discriminate reliable sources of information and apply that information in support of scientific investigation, scholarly debate, and/or social and professional settings;",
+        "Computer Science and Software Engineering",
+        "A full list of subjects available as credit (electives) for the Bachelor of Biomedicine (B-BMED) can be found via the link below."
       ]
     },
     "C4": {
@@ -12799,15 +12831,17 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
         "Understand why and how advances in Biomedical Science and Health knowledge are testable and contestable by evidence-based enquiry governed by research ethical standards"
       ]
     },
-    "adaptiveness": 6,
+    "adaptiveness": 7,
     "W1": {
-      "score": 2,
-      "rationale": "Level 2: a core assessment requires communication to an audience beyond the teaching team. BIOM30001 assesses 'Writing for your audience' (600 words, 10%); its ILO requires communicating 'to different audiences' and its generic skill is 'communicate scientific knowledge to an informed lay audience' (non-expert, beyond the teaching team). Course outcomes require advocating for evidence-based ideas in 'diverse expert, non-expert and inter-disciplinary settings'. NOT level 3: no assessment is delivered to or judged by a real external audience/practitioner.",
+      "score": 1,
+      "rationale": "Level 1 anchor (demoted from 2 on adversarial verification): communication appears in outcomes and core assessment adds presentation to peers/staff, but nothing clears level 2's conjunction. The level-2 anchor requires a recognised professional genre OR an audience beyond the teaching team, AND judgement against criteria drawn from professional practice; the second clause is undocumented everywhere in the extract. BIOM10002's 'Conference abstract' and 'Virtual conference ePoster + 2 minute video synopsis' are research-training genres staged as an in-class virtual conference, with no documented audience beyond the teaching team and no practice-drawn criteria. BIOM30001's 'Writing for your audience' names no audience, and its debate exercise and BIOM10001's group presentation are delivered to peers and staff — the level-1 anchor verbatim. The remaining line, 'communicate effectively to different audiences about the ethical implications and social and patient outcomes of medical research', is a BIOM30002 intended learning outcome, which R2 and Barrie (2006, 2007) exclude — R2 binds hardest on W1. Cohort precedent is consistent: 872bb scored W1=1 while treating faculty research-seminar presentation and an externally examined thesis as academic rather than professional genres; mc-sciear scored 1 with assessed in-class orals and an in-class negotiation simulation; 991aa scored 1 with an assessed tutorial oral. Every published W1=2 rests on a genre aimed outside the academy or judged by a practitioner (mc-phtyph's client-facing 'Poster, handout, or social media post'; mc-scibit's industry-partner-assessed presentation; mc-jurisd's 'Memorandum to a partner'; mc-clind's clinical case formulation). b-bmed documents no such line, and resolving upward on a conceded gap is barred by the scoring direction (never resolve ambiguity upward).",
       "evidenceLines": [
+        "Conference abstract",
+        "Virtual conference ePoster + 2 minute video synopsis",
         "Writing for your audience",
-        "communicate effectively to different audiences about the ethical implications and social and patient outcomes of medical research",
-        "an appreciation of the ability to communicate scientific knowledge to an informed lay audience",
-        "Communicate and advocate for evidence-based scientific ideas and knowledge in diverse expert, non-expert and inter-disciplinary settings"
+        "Debate/discussion exercise (15 min oral presentation across 6 students); (approx. 2.5 mins per student)",
+        "Group Presentation‐ Group project presentation (completed as a group of 4) 1600 words equivalent (400 words per student)",
+        "communicate effectively to different audiences about the ethical implications and social and patient outcomes of medical research."
       ]
     },
     "W2": {
@@ -12820,11 +12854,15 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       ]
     },
     "W3": {
-      "score": 0,
-      "rationale": "Level 0: no work-integrated learning, placement, practicum, internship or community-based project appears anywhere in the core. Collaboration is documented only in campus laboratories, tutorials, workshops and small-group activities. A full-text search for placement|practicum|internship|work-integrated|WIL|clinical|industry returned only 'clinically relevant case studies' (a case study, not a placement). Biomedicine is a pre-practice undergraduate degree, so the in-practice route does not apply.",
+      "score": 1,
+      "rationale": "Matches the level-1 anchor: work-situated learning exists only as an elective. The sole internship subject appears under the discipline-elective listing, not in the compulsory core, which comprises 50 points of Level 1, 50 points of Level 2 and 25 points of Level 3 discipline subjects with no placement, practicum, live-client or community-based project. Above level 0 because such an option does appear in the course structure. Not level 2: no core unit places students in a workplace or professional-community setting with practitioner supervision, and the cohort is not documented as already practising in the profession, so the v4.2 in-practice route does not apply.",
       "evidenceLines": [
-        "Collaborative learning is emphasised throughout the course as students work in laboratories, tutorials, workshops and small group activities, and undertake peer review",
-        "Work effectively and respectfully, both individually and in groups to meet a shared goal with people from diverse disciplinary, community and cultural backgrounds"
+        "Internship",
+        "A full list of subjects available as credit (electives) for the Bachelor of Biomedicine (B-BMED) can be found via the link below.",
+        "50 credit points of Compulsory Level 1 Discipline subjects",
+        "50 credit points of Compulsory Level 2 Discipline subjects",
+        "25 credit points of Compulsory Level 3 Discipline subjects",
+        "Compulsory Level 3 Discipline subjects"
       ]
     },
     "workplace": 3,
@@ -12853,13 +12891,16 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "C2: BIOM30001 peer assessment (anonymous, online, written, 5%) is peer review in a core unit, meeting the level-2 anchor; the specific rubric/criteria are not documented, capping at 2 (cannot reach 3). Prior run scored 1.",
       "C5: BIOM10001 group project written proposal is an introductory literature-review-style assessment (20%, hurdle) supporting level 1; it is a proposal, not methods-trained data collection, so it does not reach level 2. Ambiguous 0 vs 1; resolved to 1.",
       "W1: 'Writing for your audience' (10%) plus the ILO 'communicate scientific knowledge to an informed lay audience' indicate an audience beyond the teaching team (informed lay), supporting level 2; specific professional criteria not documented, capping at 2.",
-      "W3: full-text search for placement|practicum|internship|work-integrated|WIL|clinical|industry returned only 'clinically relevant case studies' (a case study, not a placement); scored 0."
+      "W3: full-text search for placement|practicum|internship|work-integrated|WIL|clinical|industry returned only 'clinically relevant case studies' (a case study, not a placement); scored 0.",
+      "C3 and W1, W3 reverted to origin's scores on this review. C3: the core generic skill 'Demonstrates digital and scientific literacy skills' is program-level digital content, so level 0 is not met; local's score of 0 quoted this same line as evidence while scoring as if no content exists. W1: local's score of 2 supports the 'audience beyond the teaching team' claim for 'Writing for your audience' using the generic-skill line 'communicate scientific knowledge to an informed lay audience' rather than any documented feature of that specific assessed task — origin already established the task itself 'names no audience'; the W1 item's migration note explicitly invokes Barrie (2006, 2007) to forbid exactly this move (scoring off stated graduate attributes rather than documented assessment). W3: the W3 anchor's level-0 condition is 'no WIL... appears anywhere in the COURSE STRUCTURE' (not 'anywhere in the core'); origin documents SCIE30002 Science and Technology Internship as an elective within the course structure, which local's search did not surface — satisfying level 1 ('exists only as an elective'), not level 0."
     ],
-    "notScoreable": [],
+    "notScoreable": [
+      "Coverage caveat rather than an unscored item: the extract carries the course pages, the eight compulsory core subjects and the Level 1 foundation electives, but no subject page for any Level 3 major (the 50-point depth component) or for SCIE30002 Science and Technology Internship. Any assessment evidence those pages carry could not be scored, so C4, C5, W2 and W3 rest on the compulsory core alone."
+    ],
     "verified": {
       "adversarial": true,
       "mechanical": true,
-      "date": "2026-08-27"
+      "date": "2026-09-01"
     }
   },
   "b-com": {
@@ -14141,87 +14182,91 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "b-favisart": {
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
-      "rationale": "Anchor L2: 'At least one core unit assesses collaborative practice.' FINA10026 assesses a 'Collaborative Presentation completed in groups of 2 to 3 students' (20%) and FINA20032 a 'Group presentation' (20%) with an individual essay reflecting on collaborative contribution — assessed collaborative practice with individual accountability. Not L3: no assessment requires coordinating work across people AND tools/AI systems; the extract documents no gen-AI or tool coordination, so the AI-systems prong fails.",
+      "rationale": "Level 2 (not 3): FINA10026 (Critical and Theoretical Studies 1) and FINA20032 (Critical and Theoretical Studies 4) each assess collaborative practice via a graded group presentation paired with individual accountability — an individual essay that extends or reflects on the group work — matching the Level-2 anchor 'group projects with individual accountability.' This recurs across two program years, which would support the recurrence clause of Level 3, but Level 3 additionally requires an assessment where 'the division of work between people and systems is itself assessed' (coordination across people AND tools/AI systems). No AI- or tool-coordination assessment appears anywhere in the extract, so the item is capped at 2.",
       "evidenceLines": [
-        "work collaboratively within a creative process to create professional exhibition outcomes;",
         "Collaborative Presentation completed in groups of 2 to 3 students",
+        "Individual essay that extends upon collaborative presentation",
         "Group presentation",
         "Individual essay that extends and reflects upon individual contribution to collaborative tutorial presentation"
       ]
     },
     "C2": {
       "score": 2,
-      "rationale": "Anchor L2: 'Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique...' FINA30025 documents 'group critiques' that 'assess course engagement, work development and studio use' and FINA30018 requires students to 'express critical responses in peer reviewing circumstances'. This is structured critique/appraisal of work quality. Not L3: no assessment requires documenting or justifying reliance on or override of a tool/AI, or evidence of strategy adjustment over time; appraisal is of artistic work, not tool output.",
+      "rationale": "Level 2: the Studio Studies folio (70% of the grade in every core Studio Studies subject) is assessed against explicit, published criteria — matching the anchor's own example, 'portfolio with standards.' No item requires students to document and justify a reliance decision, defend a judgement of tool/source/collaborator quality, or evidence strategy adjustment over time (Level 3's process-focused-assessment requirement); the work-in-progress-plus-final folio structure records semester activity but never asks students to justify why they changed direction, so it does not clear Level 3.",
       "evidenceLines": [
-        "give and receive constructive feedback;",
-        "express critical responses in peer reviewing circumstances and group discussion;",
-        "Ongoing feedback including a mid-semester review is provided via individual tutorials in the studio and group critiques. These regular activities assess course engagement, work development and studio use."
+        "Appropriate levels of finish and resolution;",
+        "Evidence of relevant artistic research;",
+        "Awareness and engagement with historical and contemporary art, and;",
+        "Students will be assessed on a presented body of art. This should demonstrate appropriate materials, skills and techniques consistent with their artistic interests."
       ]
     },
     "C3": {
-      "score": 1,
-      "rationale": "Anchor L1: 'AI or digital tools appear only as electives or as tool operation/training.' The only digital content in core is operational — CREA10002 ILO 'employ technological resources to present ideas about creative art practices' and the graduate attribute 'information and communication technologies' — the operational level TEQSA flags as non-durable. No gen-AI content, capabilities+limitations (L2), or governance critique (L3) appears anywhere in the extract.",
+      "score": 0,
+      "rationale": "Level 0: no core unit or program-level outcome documents AI or digital-tool content in a way that clearly satisfies even the Level-1 anchor. The only candidate evidence is CREA10002's outcome 'employ technological resources to present ideas about creative art practices' and the recurring generic-skill line 'communicate effectively... in digital forms,' both generic communication-medium language rather than documented digital-tool or AI content, capabilities, limitations, ethics or governance. This sits ambiguously between Level 0 (no digital/AI content) and Level 1 (tool-operation-level content appearing in outcomes); per the scoring-direction rule, the ambiguity is resolved to the lower level.",
       "evidenceLines": [
         "employ technological resources to present ideas about creative art practices.",
-        "be adept at learning in a range of ways, including through information and communication technologies."
+        "communicate effectively, in oral, written and digital forms;"
       ]
     },
     "C4": {
-      "score": 3,
-      "rationale": "Anchor L3: 'a self-scoped capstone or research project' within 'structured progression toward independent learning.' The handbook explicitly names 'the capstone experience of the Graduation Exhibition' and documents staged progression from 'begin to approach a self-directed studio practice' (Studio 1) to 'establish a consistent self-directed studio practice' (Studio 5), culminating in 'a resolved body of work for final assessment, inclusion in the Graduate Exhibition'. The student-scoped body of work is a self-scoped capstone. (Ambiguity vs L2 noted in ambiguities.)",
+      "score": 2,
+      "rationale": "Level 2 (not 3): core assessment requires transfer of studio practice to a novel, self-generated body of work every semester across the staged sequence Studio Studies 1 through 6 (each carrying a 70%-weighted folio), and the subject Overviews describe a progression toward 'a self-directed studio practice' (FINA10025) and 'a more consistent self-directed studio practice' (FINA10034), culminating in the Studio Studies 6 'resolved body of work.' But Level 3's 'self-scoped capstone' claim needs to rest on documented ASSESSMENT evidence (R2), not curriculum-overview narrative describing pedagogy, and every Studio Studies Assessment section grades the folio only on 'Appropriate levels of finish and resolution,' 'Evidence of relevant artistic research,' 'Awareness and engagement with historical and contemporary art,' and subject-specific engagement — none of which test self-scoping, knowledge-gap identification, or independent skill acquisition. The one criterion that is actually assessed and self-direction-adjacent, 'the final body of work should reflect their conceptual direction, experimentation and invention,' documents transfer of studio skills to novel or unfamiliar problems each semester, which is exactly the Level-2 anchor, not a self-scoped capstone.",
       "evidenceLines": [
-        "the capstone experience of the Graduation Exhibition, a professionally curated and installed showcase of student art work from all disciplines, visited by national industry professionals, patrons, collectors and members of the general public.",
-        "begin to approach a self-directed studio practice",
-        "establish a consistent self-directed studio practice",
-        "preparation of a resolved body of work for final assessment, inclusion in the Graduate Exhibition and entry into the Honours Year."
+        "students will begin to approach a self-directed studio practice.",
+        "Students will develop a higher degree of conceptual aesthetic and practical ability in their work and begin to establish a more consistent self-directed studio practice.",
+        "This subject builds on the studio practice components introduced in Studio Studies 5, with an emphasis on the consolidation of work practice and preparation of a resolved body of work for final assessment, inclusion in the Graduate Exhibition and entry into the Honours Year.",
+        "Folio and/or final body of work"
       ]
     },
     "C5": {
       "score": 1,
-      "rationale": "Anchor L1: 'Introductory methods unit; literature-review assessment.' Core critical/theoretical studies teach 'art-specific research methodologies' and assess a 'Critical review of one weekly reading OR local exhibition' (literature/review style) plus essays — i.e. secondary synthesis. Not L2: no assessed inquiry with methodology selection and primary data collection; studio 'research methods' are experimental work practices, not research-method inquiry with data collection. Not L3: no required primary-evidence project defended under scrutiny.",
+      "rationale": "Level 1: every Critical and Theoretical Studies subject documents introductory-level research-methods content ('undertake basic academic work using art-specific bibliographic tools' at CTS1; 'devise research methods for critically analysing contemporary visual art' at CTS5) and is assessed through essay-type writing and an oral discussion of that writing, matching Level 1's 'introductory methods unit; literature-review assessment' pattern. No documented task requires students to select a methodology and collect data (Level 2) — assessed items are quizzes, critical reviews/essays and oral discussion of existing artworks/theory, not empirical or practice-based inquiry design — and no substantial REQUIRED primary-evidence project with a defended methodology under scrutiny appears (Level 3). Ambiguity: the folio criterion 'Evidence of relevant artistic research,' recurring in every core studio subject, could be read as Level-2 methodology-selection/data-collection evidence if practice-based studio research counts as inquiry, but the extract never documents what that research methodology consists of or that it is separately assessed as such; resolved to the lower level.",
       "evidenceLines": [
-        "demonstrate appropriate skills in academic literacy and art-specific research methodologies.",
-        "Critical review of one weekly reading OR local exhibition selected in consultation with tutor.",
-        "research relevant aspects of the history and theory of the visual arts and implement this knowledge in the creation of new work;"
+        "undertake basic academic work using art-specific bibliographic tools.",
+        "devise research methods for critically analysing contemporary visual art;",
+        "Interactive Oral Assessment completed as an 800-word written outline with 12-minute discussion",
+        "Evidence of relevant artistic research;"
       ]
     },
-    "adaptiveness": 9,
+    "adaptiveness": 7,
     "W1": {
-      "score": 2,
-      "rationale": "Anchor L2: 'At least one core assessment requires a recognised professional genre or an audience beyond the teaching team... judged against criteria drawn from professional practice.' The Graduation Exhibition is a 'professionally curated and installed showcase... visited by national industry professionals, patrons, collectors and members of the general public' — a public-facing artefact with an audience beyond the teaching team — and Studio Studies 6 is judged on 'Evidence of the practical skills and attributes expected of a professional artist'. Presentations recur (FINA10026 collaborative, FINA30017 individual) but to peers/staff. Not L3: professional conduct/accountability is not explicitly an assessed criterion and the external audience views rather than grades; took the lower level.",
+      "score": 1,
+      "rationale": "Level 1: communication appears in outcomes/graduate attributes ('communicate effectively in oral, written and digital forms') and core assessment adds presentations to peers/staff — a Collaborative Presentation, a Group presentation, a 10-minute individual presentation. None is a recognised professional genre (client brief, consultancy/policy advice, pitch, public-facing artefact) and none is addressed to an audience beyond the teaching team; all presentations and the Interactive Oral Assessment are delivered within the subject's own teaching/assessment context. Ambiguity: Studio Studies 5's ILO 'produce written professional profile and business materials' and its folio criterion 'Evidence of professional support materials' gesture toward a professional genre, but the assessment table never describes a discrete, separately-criteria'd professional-genre task — it is folded into the general folio mark — so this is not distinct Level-2 evidence and is resolved to the lower level.",
       "evidenceLines": [
-        "the capstone experience of the Graduation Exhibition, a professionally curated and installed showcase of student art work from all disciplines, visited by national industry professionals, patrons, collectors and members of the general public.",
+        "communicate effectively, in oral, written and digital forms;",
         "Collaborative Presentation completed in groups of 2 to 3 students",
+        "Group presentation",
         "10-minute individual presentation",
-        "Evidence of the practical skills and attributes expected of a professional artist."
+        "Evidence of professional support materials."
       ]
     },
     "W2": {
-      "score": 3,
-      "rationale": "Anchor L3: such tasks are 'the program's assessment spine... AND at least one carries a genuine constraint of practice.' The 'Folio and/or final body of work' (70%) recurs across every studio subject (Studio 1–6 and Studio Options) — the assessment spine — reproducing the practitioner's artefact judged against practice criteria ('Appropriate levels of finish and resolution', engagement with contemporary art). The capstone Graduation Exhibition adds a 'consequential audience' (public, industry professionals, collectors).",
+      "score": 2,
+      "rationale": "Level 2 (not 3): the Studio Studies folio ('Folio and/or final body of work,' 70% of the grade in every core studio subject) is a real professional task end to end — students produce actual original artworks, exactly the artefact a professional visual artist produces, judged against practice-derived criteria ('Students will be assessed on a presented body of art. This should demonstrate appropriate materials, skills and techniques consistent with their artistic interests.'). This recurs at every stage of the program, Studio Studies 1 through 6, making it the assessment spine rather than a single instance, which satisfies the Level-2 anchor. Level 3 additionally requires the documented task to carry a genuine, assessed constraint of practice (R2). The candidate constraint — the Graduate Exhibition, 'a professionally curated and installed showcase of student art work... visited by national industry professionals, patrons, collectors and members of the general public' — appears only in the course-level Overview and in FINA30002's own subject-Overview narrative, never in FINA30002's Assessment section, which grades the folio on finish/resolution, artistic research, historical awareness, and the practical skills and attributes expected of a professional artist, with no mention of the exhibition or an external audience as a graded criterion. Without a documented, assessed constraint, the item clears Level 2 only.",
       "evidenceLines": [
         "Folio and/or final body of work",
         "Students will be assessed on a presented body of art. This should demonstrate appropriate materials, skills and techniques consistent with their artistic interests.",
-        "Appropriate levels of finish and resolution;",
-        "the capstone experience of the Graduation Exhibition, a professionally curated and installed showcase of student art work from all disciplines, visited by national industry professionals, patrons, collectors and members of the general public."
+        "a professionally curated and installed showcase of student art work from all disciplines, visited by national industry professionals, patrons, collectors and members of the general public.",
+        "preparation of a resolved body of work for final assessment, inclusion in the Graduate Exhibition and entry into the Honours Year."
       ]
     },
     "W3": {
       "score": 0,
-      "rationale": "Anchor L0: 'No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure.' The documented 'Professional Practice' components are introductions to museums/galaxies, 'industry related lectures and workshops', and 'industry-based activities in a real-life professional setting' — lectures/visits, not a supervised, assessed placement with host accountability. The public Graduation Exhibition is an authentic-task capstone (scored in W2), not a placement. (Ambiguity re elective Travelling Studios noted.)",
+      "rationale": "Level 0: no placement, practicum, live-client project or community-based project is documented anywhere in the extract, and there is no assessed own-practice route (the cohort is pre-professional, not already practising). The nearest candidate is the recurring 'Professional Practice component' in Studio Studies 2, 4 and 6, but it is described only as exposure to museums/galleries, practising artists, and industry lectures/workshops — content embedded in the studio subject's own teaching, not a documented placement structure with named host, practitioner supervision, host accountability, or its own separately assessed component. Ambiguity: FINA20030's 'industry-based activities in a real-life professional setting' could describe an actual placement (which would raise this to Level 1 or 2), but the extract gives no supervision, host, or separate-assessment detail; resolved to the lower level.",
       "evidenceLines": [
-        "introduces students to industry-based activities in a real-life professional setting",
-        "introduces students to the practical implementation of their artistic careers through a series of industry related lectures and workshops",
-        "introduce students to local museums and galleries and establish a familiarity with practicing professional artists in the field"
+        "The Professional Practice component introduces students to industry-based activities in a real-life professional setting.",
+        "The Professional Practice component will introduce students to local museums and galleries and establish a familiarity with practicing professional artists in the field.",
+        "The Professional Practice component introduces students to the practical implementation of their artistic careers through a series of industry related lectures and workshops."
       ]
     },
-    "workplace": 5,
+    "workplace": 3,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "Anchor: 'coherent specialist core with progressive technical or methodological depth... a staged prerequisite chain.' The program has 237.5 cp of Compulsory subjects with a staged prerequisite chain (all Level 1 before Level 2, all Level 2 before Level 3) and compulsory subjects carry prerequisites — a coherent specialist visual-art core with progressive depth.",
+        "rationale": "The program documents a staged, prerequisite-based compulsory core: 237.5 of 300 credit points are compulsory, organised into Level 1/2/3 Compulsory subject blocks with explicit progression rules, plus a general prerequisite note. The Studio Studies and Critical and Theoretical Studies sequences (1 through 6 each) each explicitly build on the prior subject, documenting progressive technical and methodological depth within a specialist studio-art core.",
         "evidenceLines": [
           "237.5 credit points of Compulsory subjects",
           "Completion of all Level 1 Compulsory subjects before proceeding to the next year level's Compulsory subjects",
@@ -14231,29 +14276,42 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       },
       "G2": {
         "result": "PASS",
-        "rationale": "Anchor: 'simulations/capstones/live projects with real uncertainty and accountability.' The Graduation Exhibition is a live capstone project with a consequential public/industry audience (accountability) and a self-scoped body of work (real uncertainty); 'Interactive Oral Assessment' components require defended discussion. Studio folios are open-ended creative inquiry, not recall/scripted responses.",
+        "rationale": "Assessment throughout the core rests on self-directed studio practice with no scripted or single-correct response: the folio (70% of every Studio Studies subject) requires students to resolve their own conceptual direction, experimentation and invention, with accountability escalating to the Studio Studies 6 capstone, where the resolved body of work is prepared for inclusion in a professionally curated public exhibition visited by industry professionals, patrons and collectors — real, consequential accountability rather than recall or scripted response.",
         "evidenceLines": [
-          "the capstone experience of the Graduation Exhibition, a professionally curated and installed showcase of student art work from all disciplines, visited by national industry professionals, patrons, collectors and members of the general public.",
-          "Interactive Oral Assessment completed as an 800-word written outline with 12-minute discussion",
-          "Folio and/or final body of work"
+          "The final body of work should reflect their conceptual direction, experimentation and invention, while demonstrating:",
+          "This subject builds on the studio practice components introduced in Studio Studies 5, with an emphasis on the consolidation of work practice and preparation of a resolved body of work for final assessment, inclusion in the Graduate Exhibition and entry into the Honours Year.",
+          "a professionally curated and installed showcase of student art work from all disciplines, visited by national industry professionals, patrons, collectors and members of the general public."
         ]
       }
     },
     "ambiguities": [
-      "Construct boundary — Graduation Exhibition capstone: considered under C4 (self-scoped capstone, scored there at L3), W1 (public exhibition as external audience, scored at L2), and W2 (consequential-audience constraint of practice, scored at L3). Explicitly NOT scored in W3 because it is a public showcase/capstone, not a supervised workplace placement.",
-      "C4 ambiguity: studio folios/self-directed practice also read as L2 (application to novel problems); took the self-scoped-capstone reading (L3) given the handbook's explicit 'capstone experience' language and staged self-directed progression from Studio 1 to Studio 5.",
-      "C1: collaboration is assessed (FINA10026, FINA20032) but no people+tools/AI coordination exists, so capped at L2 not L3.",
-      "W1: public exhibition supports L2; L3's explicit professional-conduct/accountability criterion is not clearly documented as an assessed criterion, so took the lower level (L2).",
-      "C2/W2 boundary: group critiques (FINA30025) appraise work quality → scored in C2 (evaluative judgement), not W2 (task fidelity), per one-construct-one-home.",
-      "W3: Professional Practice 'industry-based activities in a real-life professional setting' (FINA20030) and museum familiarisation considered as possible WIL but documented as lectures/visits, not supervised assessed placements → scored 0. Elective Travelling Studios (FINA30026/FINA30027, community-based, Not available in 2026) are field-study electives, not core WIL, so they do not raise the core score above 0."
+      "C3: 'employ technological resources' (CREA10002) and the recurring 'digital forms' communication language sit between Level 0 (no digital/AI content) and Level 1 (tool-operation-level content); resolved to the lower level, 0.",
+      "C5: the recurring folio criterion 'Evidence of relevant artistic research' could be read as Level-2 methodology-selection/data-collection evidence if practice-based studio research counts as inquiry, but the extract never documents the methodology or that it is separately assessed as such; resolved to the lower level, 1.",
+      "W1: Studio Studies 5's 'produce written professional profile and business materials' / 'Evidence of professional support materials' gestures toward a Level-2 professional genre but is folded into the general folio mark with no discrete assessed task or its own criteria; resolved to the lower level, 1.",
+      "W3: FINA20030's 'industry-based activities in a real-life professional setting' could describe an actual placement (Level 1 or 2), but the extract gives no host, supervision, or separate-assessment detail; resolved to the lower level, 0.",
+      "C4: the Level-3 'self-scoped capstone' claim rested on subject-Overview narrative describing pedagogy rather than on the Assessment sections' actual graded criteria (finish/resolution, artistic research, historical awareness), which do not test self-scoping or independent skill acquisition; demoted from 3 to 2 on adversarial review because R2 requires Level 3 to rest on documented assessment evidence, not curriculum-overview language.",
+      "W2: the Level-3 'consequential audience' claim rested on the Graduate Exhibition description drawn from the course-level Overview and FINA30002's own subject-Overview narrative, not from FINA30002's Assessment section, which never names the exhibition or an external audience as a graded criterion; demoted from 3 to 2 on adversarial review because R2 requires Level 3's constraint-of-practice clause to be carried by documented assessment evidence, and the scoring-direction rule forbids resolving an acknowledged ambiguity upward."
     ],
     "notScoreable": [],
     "verified": {
-      "adversarial": true,
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-29"
+      },
       "mechanical": true,
       "date": "2026-08-29"
-    },
-    "instrument": "4.2-draft"
+    }
   },
   "b-mus": {
     "instrument": "4.2-draft",
@@ -20950,12 +21008,9 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       }
     },
     "ambiguities": [
-      "W3: two required lab rotations satisfy level 2's professional-community-setting-plus-assessment clause and could be read as level 3's 'sequence of them', but the extract lacks explicit evidence of practitioner supervision, host accountability, or structured reflection on the student's own professional practice (as distinct from describing the visited lab's research) — resolved to the lower level (2) per the scoring rule."
+      "W3: two required lab rotations satisfy level 2's professional-community-setting-plus-assessment clause and could be read as level 3's 'sequence of them', but the extract lacks explicit evidence of practitioner supervision, host accountability, or structured reflection on the student's own professional practice (as distinct from describing the visited lab's research) — resolved to the lower level (2) per the scoring rule. Recaptured on 2026-09-01: FNCE90093's own assessment page had been captured with unrelated content and was previously excluded (see remediated capture note below); its correct content is byte-identical in structure to FNCE90092's (already-cited) assessment — two written reports on the visited lab's research questions and methods, 40%/60%, no supervision or host-accountability language in either. This corroborates rather than resolves the ambiguity: both rotations are now directly evidenced, and neither documents practitioner supervision, so the level-2 resolution stands unchanged."
     ],
-    "notScoreable": [
-      "COMP90049 (Introduction to Machine Learning) assessment structure: the extract's 'comp90049/assessment' source (line 351) contains unrelated content — the assessment table for 'Neuroscience of Human Learning (EDUC90975)' — so COMP90049's actual assessment design could not be verified and was not used as evidence for any item.",
-      "FNCE90093 (Laboratory Rotation 2, Overseas) assessment structure: the extract's 'fnce90093/assessment' source (line 1503) contains unrelated content — the attributes/outcomes page for 'Master of Cyber Security (MC-CYBSCMO)' — so this subject's assessment design could not be verified and was not used as evidence for any item."
-    ],
+    "notScoreable": [],
     "verified": {
       "adversarial": {
         "reviewed": [
@@ -20970,10 +21025,10 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
           "G1",
           "G2"
         ],
-        "date": "2026-08-30"
+        "date": "2026-09-01"
       },
       "mechanical": true,
-      "date": "2026-08-29"
+      "date": "2026-09-01"
     }
   },
   "mc-comeco": {
@@ -28465,10 +28520,14 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     },
     "C4": {
       "score": 2,
-      "rationale": "Level 2: ABPL90170's Assignment 1 (20%, Week 4) requires assessed application to 'real-world projects' that vary by site, meeting the Level 2 anchor. Ambiguity: ABPL90375 is labelled 'the capstone subject' with overview text suggesting a self-scoped research project (Level 3), but its assessment page returned an unrelated course's overview rather than an assessment table, so no ASSESSMENT evidence exists for it (R2). Resolved DOWN to Level 2.",
+      "rationale": "Level 2: ABPL90170's Assignment 1 (20%, Week 4) requires assessed application to 'real-world projects' that vary by site, meeting the Level 2 anchor. ABPL90375 (recaptured 2026-09-01; the previous extract had returned an unrelated course's overview instead of its own assessment table) is the program's compulsory capstone but does not lift the score to Level 3. Its overview states the DEFAULT delivery is a shared 'studio thematic' set by the program, not a student-chosen topic; a self-scoped 'individually supervised design investigation' exists only 'with course coordinator approval' for 'high-achieving students... under exceptional circumstances' — an approval-gated exception, not the documented structure most students experience. Its assessment (two staged design deliverables, 30%/70%) is consistent with either the thematic or the exceptional self-scoped route and does not itself establish self-scoping. Per R1 (score documented evidence, not plausible capability for some students) and R2, Level 3's anchor — a self-scoped capstone or research project as the program's structure — is not met; resolved to Level 2.",
       "evidenceLines": [
         "Students will apply their chosen focus to real-world projects, developing their ability to analyse, structure, and implement effective design solutions. Through this process, they will learn strategies that contribute to the creation of sustainable, adaptive landscape design that address ecological, social, and aesthetic considerations.",
-        "Assignment 1: A scientifically informed, multimedia exploration, created using methods from either geospatial technology, botany, ecology or horticulture that communicates planting or planning insights effectively"
+        "Assignment 1: A scientifically informed, multimedia exploration, created using methods from either geospatial technology, botany, ecology or horticulture that communicates planting or planning insights effectively",
+        "This subject is the culmination of each student's studies in Master of Landscape Architecture. Students will be offered a studio thematic which provides scope for an original approach to design synthesis in landscape architecture, which is based on research and critical thinking.",
+        "With course coordinator approval, high-achieving students may undertake the Landscape Architecture Design Thesis as an individually supervised design investigation. Similarly, under exceptional circumstances and with course coordinator approval, the Design Thesis may be undertaken as a written thesis.",
+        "Assignment 1: Written, graphic and verbal presentation of design concept, analytical work and design explorations (3000 words equivalent, Week 7, 30%)",
+        "Assignment 2: Written, graphic and verbal presentation of final design proposal. This will include exhibition panels and an accompanying document (7000 words equivalent, End of semester, 70%)"
       ]
     },
     "C5": {
@@ -28536,10 +28595,10 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
           "G1",
           "G2"
         ],
-        "date": "2026-08-30"
+        "date": "2026-09-01"
       },
       "mechanical": true,
-      "date": "2026-08-30"
+      "date": "2026-09-01"
     },
     "ambiguities": []
   },
