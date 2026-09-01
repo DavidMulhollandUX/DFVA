@@ -1743,7 +1743,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-apling": {
     "code": "mc-apling",
     "name": "Master of Applied Linguistics",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 88.72,
     "entryExposure": 88.72,
     "jirN": null,
@@ -8139,7 +8139,6 @@ export const v4OnlyProgramByCode = (code: string): V4OnlyProgram | undefined =>
 /** Research degrees excluded from Panel C v4 by scope (thesis PhDs, higher
  *  doctorates): no taught curriculum to score. Source: scripts/v4_cohort_ext_exclusions.json. */
 export const V4_RESEARCH_DEGREES: readonly string[] = [
-  "572at",
   "dh-lld",
   "dh-sc",
   "dr-philabp",
