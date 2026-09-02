@@ -11,6 +11,9 @@ import { defineConfig } from "vitest/config";
  * aliased here to a shim. Locally, keep using `wasp test client run`.
  */
 export default defineConfig({
+  // Component files use the automatic JSX runtime; without this, a test that
+  // renders a page fails with "React is not defined".
+  esbuild: { jsx: "automatic" },
   resolve: {
     alias: {
       "wasp/server": fileURLToPath(

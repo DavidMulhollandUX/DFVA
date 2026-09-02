@@ -149,7 +149,7 @@ export default app({
       // https://wasp.sh/docs/auth/social-auth/overview
     },
     onAuthFailedRedirectTo: "/login",
-    onAuthSucceededRedirectTo: "/assess",
+    onAuthSucceededRedirectTo: "/reports",
   },
 
   db: {
