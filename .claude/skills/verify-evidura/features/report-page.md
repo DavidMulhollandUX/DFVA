@@ -41,6 +41,7 @@ Test ids:
 - Market and plan: `data-testid="v4-no-market"`, `data-testid="v4-no-plan"`.
 - Footer: `data-testid="archived-reports"`.
 - Research and pending: `data-testid="v4-research-notice"`,
+  `data-testid="v4r-no-plan"` (research pages state that no v4 plan exists),
   `data-testid="v4-pending-notice"`, `data-testid="archived-v1-link"`.
 - Archived v1 page: `data-testid="archived-report-banner"`,
   `data-testid="source-references"`, `data-testid="method-glossary"`.
