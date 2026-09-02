@@ -1,6 +1,6 @@
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import { brand } from "../../branding/brandConfig";
-import { Link } from "react-router";
+import { Link, useSearchParams } from "react-router";
 import { ArrowRight, Search, X } from "lucide-react";
 import { Card, CardContent } from "../../client/components/ui/card";
 import { QUADRANTS } from "../v2/quadrants";
@@ -16,7 +16,10 @@ import { V4StatusBadge } from "./V4StatusBadge";
 import { V4_QUADRANT_LABELS } from "./v4Position";
 import { V4_TIER_LABELS } from "./exposureBasis";
 
-type StatusFilter = "all" | "current" | "archived" | "research";
+const STATUS_FILTERS = ["all", "current", "archived", "research"] as const;
+type StatusFilter = (typeof STATUS_FILTERS)[number];
+const isStatusFilter = (v: string | null): v is StatusFilter =>
+  (STATUS_FILTERS as readonly string[]).includes(v ?? "");
 
 function Stat({
   label,
@@ -136,10 +139,22 @@ function ReportCard({ entry }: { entry: ReportIndexEntry }) {
 }
 
 export default function V4ReportsPage() {
-  const [search, setSearch] = useState("");
-  const [faculty, setFaculty] = useState("all");
-  const [status, setStatus] = useState<StatusFilter>("all");
-  const [position, setPosition] = useState("all");
+  // Filters live in the URL (same pattern as /insights) so back-navigation,
+  // reload and shared links keep them. "all" and "" are the defaults and are
+  // not written, so the plain /reports URL stays clean.
+  const [params, setParams] = useSearchParams();
+  const search = params.get("q") ?? "";
+  const faculty = params.get("faculty") ?? "all";
+  const rawStatus = params.get("status");
+  const status: StatusFilter = isStatusFilter(rawStatus) ? rawStatus : "all";
+  const position = params.get("position") ?? "all";
+  const setParam = (key: string, value: string) => {
+    const next = new URLSearchParams(params);
+    if (!value || value === "all") next.delete(key);
+    else next.set(key, value);
+    setParams(next, { replace: true });
+  };
+  const clearParams = () => setParams({}, { replace: true });
 
   const faculties = useMemo(
     () =>
@@ -190,7 +205,7 @@ export default function V4ReportsPage() {
           <Search className="text-muted-foreground h-4 w-4" />
           <input
             value={search}
-            onChange={(e) => setSearch(e.target.value)}
+            onChange={(e) => setParam("q", e.target.value)}
             placeholder="Search program or code"
             className="text-foreground w-full bg-transparent outline-none"
             aria-label="Search programs"
@@ -198,7 +213,7 @@ export default function V4ReportsPage() {
         </label>
         <select
           value={status}
-          onChange={(e) => setStatus(e.target.value as StatusFilter)}
+          onChange={(e) => setParam("status", e.target.value)}
           className={selectClass}
           aria-label="Status"
         >
@@ -209,7 +224,7 @@ export default function V4ReportsPage() {
         </select>
         <select
           value={position}
-          onChange={(e) => setPosition(e.target.value)}
+          onChange={(e) => setParam("position", e.target.value)}
           className={selectClass}
           aria-label="Position"
         >
@@ -226,7 +241,7 @@ export default function V4ReportsPage() {
         </select>
         <select
           value={faculty}
-          onChange={(e) => setFaculty(e.target.value)}
+          onChange={(e) => setParam("faculty", e.target.value)}
           className={selectClass}
           aria-label="Faculty"
         >
@@ -239,12 +254,7 @@ export default function V4ReportsPage() {
         </select>
         {hasFilters && (
           <button
-            onClick={() => {
-              setSearch("");
-              setFaculty("all");
-              setStatus("all");
-              setPosition("all");
-            }}
+            onClick={clearParams}
             className="text-muted-foreground flex items-center gap-1 text-xs underline"
           >
             <X className="h-3 w-3" /> Clear
