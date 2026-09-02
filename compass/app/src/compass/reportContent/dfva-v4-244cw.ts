@@ -8,7 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-14 (adaptive sub-scale first scored 2026-08-13)
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/244cw (course, structure, attributes) plus the six compulsory-subject and two capstone subject/assessment pages
-**Course Director:** not recorded in this cycle's handbook capture
+**Course Director:** Kayley Lyons (Coordinator)
 **Coordinator:** Kayley Lyons (Melbourne School of Population and Global Health)
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
