@@ -8,6 +8,7 @@ import { MatrixAreaLabels } from "../matrixAreaLabels";
 // with the insights portfolio matrix so both figures plot on one scale.
 import { X_MAX, X_MIN, wRadius } from "./plotScale";
 import { ReportMarkdownCard } from "../v2/components/ReportMarkdownCard";
+import { V4_AUTHORED } from "./authoredSections";
 import { QUADRANTS } from "../v2/quadrants";
 import {
   V3_META,
@@ -1481,6 +1482,13 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
           </div>
         )}
 
+        <ReportMarkdownCard
+          slug={`dfva-v4-${program.code}`}
+          label="Assessor's reading · v4"
+          title="Market evidence and curriculum implications"
+          subtitle="The market report condensed against the scored items, then what it implies for this curriculum — interpretation, stated as such"
+          sectionFilter={V4_AUTHORED}
+        />
         <ReportMarkdownCard
           slug={`dfva-market-${program.code}`}
           label="Market Intelligence"

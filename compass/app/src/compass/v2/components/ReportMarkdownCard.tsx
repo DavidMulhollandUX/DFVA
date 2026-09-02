@@ -39,7 +39,7 @@ export function preserveLabelLineBreaks(markdown: string): string {
     .join("\n");
 }
 
-function splitSections(markdown: string): MarkdownSection[] {
+export function splitSections(markdown: string): MarkdownSection[] {
   const lines = markdown.split("\n");
   const sections: MarkdownSection[] = [];
   let current: MarkdownSection = { title: "", body: "" };
