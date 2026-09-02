@@ -5,6 +5,7 @@
  */
 import { promises as fs, existsSync, readFileSync } from 'node:fs'
 import * as path from 'node:path'
+import { fileURLToPath } from 'node:url'
 import {
   ALL_V4_ITEMS,
   GATES_V4,
@@ -497,7 +498,7 @@ function appRubricModule(): string {
  * label. The exposure median is unchanged by v4 — Panel A is untouched — so it
  * is inherited rather than recomputed.
  */
-async function appPanelCModule(): Promise<string> {
+export async function appPanelCModule(): Promise<string> {
   const evidenceDir = path.join(repoRoot, 'dfva', 'source', 'evidence')
   const results: Record<string, { adaptiveness?: number; workplace?: number }> = {}
   for (const f of (await fs.readdir(evidenceDir)).sort()) {
@@ -776,7 +777,9 @@ async function main(): Promise<void> {
   console.log(`\n${out.size} file(s) generated from dfva/source/rubricV4.ts.`)
 }
 
-main().catch((e) => {
-  console.error(e)
-  process.exit(1)
-})
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main().catch((e) => {
+    console.error(e)
+    process.exit(1)
+  })
+}

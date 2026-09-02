@@ -1445,7 +1445,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
         }
       ],
       "indexVariant": "AIOE-2021",
-      "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+      "note": "Actuarial discipline; the only actuarial alumni record (the alumni-record index names it for mc-actsc)."
     }
   },
   "mc-actscen": {
@@ -1467,7 +1467,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
         }
       ],
       "indexVariant": "AIOE-2021",
-      "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+      "note": "Actuarial discipline; the only actuarial alumni record (the alumni-record index names it for mc-actsc)."
     }
   },
   "mc-actscex": {
@@ -1489,7 +1489,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
         }
       ],
       "indexVariant": "AIOE-2021",
-      "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+      "note": "Actuarial discipline; the only actuarial alumni record (the alumni-record index names it for mc-actsc)."
     }
   },
   "mc-adolhw": {
@@ -2424,7 +2424,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
         }
       ],
       "indexVariant": "AIOE-2021",
-      "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+      "note": "Actuarial discipline; the only actuarial alumni record (the alumni-record index names it for mc-actsc)."
     }
   },
   "mc-comdrfs": {
@@ -5792,7 +5792,7 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
       }
     ],
     "indexVariant": "AIOE-2021",
-    "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+    "note": "Actuarial discipline; the only actuarial alumni record (the alumni-record index names it for mc-actsc)."
   },
   "mc-actscen": {
     "tier": "cognate",
@@ -5804,7 +5804,7 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
       }
     ],
     "indexVariant": "AIOE-2021",
-    "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+    "note": "Actuarial discipline; the only actuarial alumni record (the alumni-record index names it for mc-actsc)."
   },
   "mc-actscex": {
     "tier": "cognate",
@@ -5816,7 +5816,7 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
       }
     ],
     "indexVariant": "AIOE-2021",
-    "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+    "note": "Actuarial discipline; the only actuarial alumni record (the alumni-record index names it for mc-actsc)."
   },
   "mc-adolhw": {
     "tier": "field",
@@ -6471,7 +6471,7 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
       }
     ],
     "indexVariant": "AIOE-2021",
-    "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+    "note": "Actuarial discipline; the only actuarial alumni record (the alumni-record index names it for mc-actsc)."
   },
   "mc-comdrfs": {
     "tier": "cognate",

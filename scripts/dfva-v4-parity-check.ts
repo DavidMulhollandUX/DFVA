@@ -1,43 +1,30 @@
 /**
  * v4 Panel C content-parity guard (CI guard). dfva-v4-gen.ts's appPanelCModule()
- * spreads every dfva/source/evidence/*.json's `panelCv4` block into the generated
- * compass/app/src/compass/v4/data/v4PanelC.ts. dfva-v4-schema-check.ts validates the
- * JSON matches the V4PanelC TypeScript interface SHAPE, but not that the generated
- * file is in sync with the evidence source — so editing an evidence file without
- * running `npm --prefix scripts run dfva:gen-v4` leaves v4PanelC.ts stale, and the
- * insights pages (/insights, /insights/faculty, /insights/portfolio — all of which
- * read v4PanelC.ts via v4PortfolioRows()) silently show the old scores.
+ * renders the full compass/app/src/compass/v4/data/v4PanelC.ts module (banner,
+ * interfaces, V4_META, V4_ONLY_PROGRAMS, V4_PANEL_A_BASIS, V4_RESEARCH_DEGREES
+ * and V4_PANEL_C) from dfva/source/evidence/*.json + dfva/source/rubricV4.ts.
+ * dfva-v4-schema-check.ts validates the JSON matches the V4PanelC TypeScript
+ * interface SHAPE, but not that the generated file is in sync with the
+ * evidence source — so editing an evidence file without running
+ * `npm --prefix scripts run dfva:gen-v4` leaves v4PanelC.ts stale, and the
+ * insights pages (/insights, /insights/faculty, /insights/portfolio — all of
+ * which read v4PanelC.ts via v4PortfolioRows()) silently show the old scores.
  *
- * This catches that: it regenerates v4PanelC.ts's content in memory (by calling the
- * same appPanelCModule() from dfva-v4-gen.ts) and diffs it against the committed
- * file, failing if they differ — mirroring how dfva-content-check.ts compares
- * generated reportContent.ts against what dfva:gen-content would produce.
+ * This catches that by importing the real generator function — the same
+ * appPanelCModule() dfva-v4-gen.ts uses to write v4PanelC.ts — and diffing a
+ * fresh render against the committed file text, byte-for-byte. This mirrors
+ * how dfva-content-check.ts compares generated reportContent.ts against what
+ * dfva:gen-content would produce.
  *
  * Run: npm --prefix scripts run dfva:v4-parity-check  (also part of dfva:check)
  */
 import { readFileSync } from 'node:fs'
 import * as path from 'node:path'
+import { fileURLToPath } from 'node:url'
+import { appPanelCModule } from './dfva-v4-gen'
 
-const repoRoot = path.resolve(__dirname, '..')
+const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 
-// Import the generator function from dfva-v4-gen.ts at runtime.
-// We use a dynamic import because dfva-v4-gen.ts has side effects on import
-// (its main() runs at load time), so we can't static-import it.
-// Instead we read the source, extract appPanelCModule, and eval it in a
-// sandbox that provides the same dependencies. A cleaner approach: shell out
-// to `npx tsx dfva-v4-gen.ts` in a temp dir, but that regenerates ALL outputs
-// (prompt, rubric, template, v4PanelC.ts). Since appPanelCModule is the only
-// function we need, we replicate its logic here directly, reading the same
-// evidence files and producing the same JSON. If dfva-v4-gen.ts's
-// appPanelCModule changes, update this file too — they must produce identical
-// output.
-
-import { readdirSync } from 'node:fs'
-import {
-  PANEL_W_V4,
-} from '../dfva/source/rubricV4'
-
-const EVIDENCE_DIR = path.join(repoRoot, 'dfva', 'source', 'evidence')
 const V4_PANEL_C_PATH = path.join(
   repoRoot,
   'compass',
@@ -49,102 +36,74 @@ const V4_PANEL_C_PATH = path.join(
   'v4PanelC.ts',
 )
 
-// ---------------------------------------------------------------------------
-// Replicate appPanelCModule from dfva-v4-gen.ts.
-// This produces the exact same JSON that gets written into v4PanelC.ts.
-// If dfva-v4-gen.ts changes, update this function to match.
-// ---------------------------------------------------------------------------
+/**
+ * Pure comparison: given the committed file text and a freshly rendered
+ * version, return the guard's issues — [] when they match. Exported so the
+ * test file can assert on stale and identical inputs without touching disk
+ * or the real evidence data.
+ */
+export function parityIssues(committed: string, rendered: string): string[] {
+  if (committed === rendered) return []
 
-interface PanelCv4Entry {
-  instrument?: string
-  adaptiveness?: number
-  workplace?: number
-  [key: string]: unknown
-}
-
-function generateExpectedPanelC(): string {
-  const results: Record<string, PanelCv4Entry> = {}
-
-  for (const f of readdirSync(EVIDENCE_DIR).sort()) {
-    if (!f.endsWith('.json')) continue
-    const data = JSON.parse(
-      readFileSync(path.join(EVIDENCE_DIR, f), 'utf8'),
-    ) as { code?: string; panelCv4?: PanelCv4Entry }
-    if (!data.panelCv4 || !data.code) continue
-
-    // Instrument family derivation (same logic as dfva-v4-gen.ts)
-    const family = PANEL_W_V4.every(
-      (w) => data.panelCv4![w.id as keyof PanelCv4Entry] !== undefined,
-    )
-      ? ['4.1-draft', '4.2-draft']
-      : ['4.0-draft']
-    const stated = data.panelCv4.instrument
-    const instrument = stated && family.includes(stated) ? stated : family[0]
-
-    results[data.code] = { ...data.panelCv4, instrument }
-  }
-
-  // Build the same output string as appPanelCModule's return.
-  // The committed file has TS_BANNER + interfaces + `export const V4_PANEL_C: ...`
-  // We only need to compare the V4_PANEL_C data portion — the interfaces and
-  // banner are static and never drift. We extract just the `V4_PANEL_C` line
-  // from the committed file and compare its JSON value against our generated
-  // version.
-  return JSON.stringify(results, null, 2)
-}
-
-// ---------------------------------------------------------------------------
-// Extract the V4_PANEL_C JSON from the committed file.
-// The line looks like:  export const V4_PANEL_C: Record<string, V4PanelC> = { ... };
-// We parse the object literal after the `=` sign.
-// ---------------------------------------------------------------------------
-
-function extractCommittedPanelC(fileContent: string): string {
-  const match = fileContent.match(
-    /export const V4_PANEL_C:\s*Record<string,\s*V4PanelC>\s*=\s*([\s\S]*?);\s*\n/,
-  )
-  if (!match) {
-    throw new Error(
-      'Could not find `export const V4_PANEL_C` in the committed v4PanelC.ts — ' +
-        'the file may have been hand-edited or the generator output format changed.',
-    )
-  }
-  // The JSON is already valid JS object literal — eval it to get the object,
-  // then re-stringify with the same formatting for comparison.
-  // eslint-disable-next-line no-new-func
-  const obj = Function('return ' + match[1])() as Record<string, unknown>
-  return JSON.stringify(obj, null, 2)
-}
-
-// ---------------------------------------------------------------------------
-
-const committed = readFileSync(V4_PANEL_C_PATH, 'utf8')
-const committedJSON = extractCommittedPanelC(committed)
-const expectedJSON = generateExpectedPanelC()
-
-if (committedJSON !== expectedJSON) {
-  console.error(
-    'dfva:v4-parity-check FAILED — v4PanelC.ts is stale relative to dfva/source/evidence/*.json.\n' +
-      'The committed V4_PANEL_C does not match what the evidence files would produce.\n' +
-      'Fix: npm --prefix scripts run dfva:gen-v4  (regenerates v4PanelC.ts from evidence + rubricV4)',
-  )
-  // Show a short diff
-  const committedLines = committedJSON.split('\n')
-  const expectedLines = expectedJSON.split('\n')
-  const n = Math.max(committedLines.length, expectedLines.length)
+  const committedLines = committed.split('\n')
+  const renderedLines = rendered.split('\n')
+  const n = Math.max(committedLines.length, renderedLines.length)
   let firstDiff = -1
   for (let i = 0; i < n; i++) {
-    if (committedLines[i] !== expectedLines[i]) {
+    if (committedLines[i] !== renderedLines[i]) {
       firstDiff = i
       break
     }
   }
-  if (firstDiff >= 0) {
-    console.error(`    first diff at line ${firstDiff + 1}:`)
-    console.error(`      committed: ${JSON.stringify(committedLines[firstDiff] ?? '<end>')}`)
-    console.error(`      expected:  ${JSON.stringify(expectedLines[firstDiff] ?? '<end>')}`)
-  }
-  process.exit(1)
+  const detail =
+    firstDiff >= 0
+      ? [
+          `first diff at line ${firstDiff + 1}:`,
+          `      committed: ${JSON.stringify(committedLines[firstDiff] ?? '<end>')}`,
+          `      expected:  ${JSON.stringify(renderedLines[firstDiff] ?? '<end>')}`,
+        ].join('\n')
+      : `lengths differ (committed ${committedLines.length} lines, expected ${renderedLines.length} lines)`
+
+  return [
+    'v4PanelC.ts is stale relative to dfva/source/evidence/*.json.\n' +
+      '    The committed file does not match what dfva-v4-gen.ts would produce.\n' +
+      '    Fix: npm --prefix scripts run dfva:gen-v4\n    ' +
+      detail,
+  ]
 }
 
-console.log('dfva:v4-parity-check OK — v4PanelC.ts matches dfva/source/evidence/*.json')
+/** appPanelCModule() logs per-program diagnostics as it runs — useful for
+ *  `dfva:gen-v4`, noise for a parity check that runs it purely to diff. */
+async function renderSilently(): Promise<string> {
+  const log = console.log
+  const warn = console.warn
+  console.log = () => {}
+  console.warn = () => {}
+  try {
+    return await appPanelCModule()
+  } finally {
+    console.log = log
+    console.warn = warn
+  }
+}
+
+async function main(): Promise<void> {
+  const committed = readFileSync(V4_PANEL_C_PATH, 'utf8')
+  const rendered = await renderSilently()
+  const issues = parityIssues(committed, rendered)
+
+  if (issues.length) {
+    console.error('dfva:v4-parity-check FAILED —')
+    for (const issue of issues) console.error('  ' + issue)
+    process.exit(1)
+  }
+
+  console.log('dfva:v4-parity-check OK — v4PanelC.ts matches dfva/source/evidence/*.json')
+}
+
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main().catch((e) => {
+    console.error(e)
+    process.exit(1)
+  })
+}

@@ -63,16 +63,7 @@ const MARKET_GRANDFATHERED = new Set<string>([])
 
 const RECOMMEND_GRANDFATHERED = new Set<string>([])
 
-const errors: string[] = []
-const warnings: string[] = []
-const resolvable: string[] = []
-
 const V4_NAMES = loadV4Names()
-
-interface ReportIssue {
-  slug: string
-  issues: string[]
-}
 
 function readReport(filename: string): string {
   return readFileSync(path.join(reportsDir, filename), 'utf-8')
@@ -80,11 +71,8 @@ function readReport(filename: string): string {
 
 // ── Assessment report checks ──
 
-for (const file of REPORT_FILES) {
-  const slug = file.replace('.md', '')
-  const grandfathered = GRANDFATHERED.has(slug)
+function checkAssessmentReport(slug: string, content: string): string[] {
   const issues: string[] = []
-  const content = readReport(file)
   const lines = content.split('\n')
 
   // 1. Title: must be "## DFVA REPORT: <Name> (<CODE>)"
@@ -173,16 +161,7 @@ for (const file of REPORT_FILES) {
     issues.push('missing "### MARKET DATA" section')
   }
 
-  if (issues.length) {
-    if (grandfathered) {
-      warnings.push(...issues.map((i) => `${slug}: ${i} [grandfathered]`))
-    } else {
-      errors.push(...issues.map((i) => `${slug}: ${i}`))
-    }
-  }
-  if (grandfathered && issues.length === 0) {
-    resolvable.push(slug)
-  }
+  return issues
 }
 
 // ── Market report checks ──
@@ -254,11 +233,8 @@ const stripLabourBlock = (content: string): string =>
 // the market card, so its market report must carry the destinations footer.
 const SCORED_CODES = new Set(V4_FILES.map((f) => f.slice('dfva-v4-'.length, -'.md'.length)))
 
-for (const file of MARKET_FILES) {
-  const slug = file.replace('.md', '')
-  const grandfathered = MARKET_GRANDFATHERED.has(slug)
+export function checkMarketReport(slug: string, content: string): string[] {
   const issues: string[] = []
-  const content = readReport(file)
 
   // Title: "# DFVA MARKET INTELLIGENCE: <Name> (<CODE>)"
   const firstLine = content.split('\n')[0].trim()
@@ -399,24 +375,12 @@ for (const file of MARKET_FILES) {
     issues.push('missing the LABOUR-EVIDENCE destinations footer — run: python3 scripts/build-market-footer.py ' + code + ' --apply')
   }
 
-  if (issues.length) {
-    if (grandfathered) {
-      warnings.push(...issues.map((i) => `${slug}: ${i} [grandfathered]`))
-    } else {
-      errors.push(...issues.map((i) => `${slug}: ${i}`))
-    }
-  }
-  if (grandfathered && issues.length === 0) {
-    resolvable.push(slug)
-  }
+  return issues
 }
 
-// ── Recommend report checks ──
+// ── Recommend report checks (v1 family) ──
 
-for (const file of RECOMMEND_FILES) {
-  const slug = file.replace('.md', '')
-  const grandfathered = RECOMMEND_GRANDFATHERED.has(slug)
-  const content = readReport(file)
+export function checkRecommendReport(slug: string, content: string): string[] {
   const issues: string[] = []
 
   // Title: "## IMPROVEMENT PLAN: <Name>"
@@ -428,16 +392,7 @@ for (const file of RECOMMEND_FILES) {
   // No N/36 requirement: ReportMarkdownCard strips the v1 composite as a UX
   // defect, so demanding it here contradicted the renderer (review item 11).
 
-  if (issues.length) {
-    if (grandfathered) {
-      warnings.push(...issues.map((i) => `${slug}: ${i} [grandfathered]`))
-    } else {
-      errors.push(...issues.map((i) => `${slug}: ${i}`))
-    }
-  }
-  if (grandfathered && issues.length === 0) {
-    resolvable.push(slug)
-  }
+  return issues
 }
 
 // ── v4 report checks (rules 1–6 at the foot of dfva/dist/v4/report-template-v4.md) ──
@@ -457,9 +412,7 @@ const V4_INSTRUMENT_LINE = `**Instrument:** DFVA ${V4_INSTRUMENT_VERSION}`
 /** "4.1-draft" → "v4.1", the form the section-2 heading uses. */
 const V4_HEADING_VERSION = `v${V4_INSTRUMENT_VERSION.replace(/-draft$/, '')}`
 
-for (const file of V4_FILES) {
-  const slug = file.replace('.md', '')
-  const content = readReport(file)
+export function checkV4Report(slug: string, content: string): string[] {
   const lines = content.split('\n')
   const issues: string[] = []
 
@@ -566,16 +519,14 @@ for (const file of V4_FILES) {
     issues.push('carries unfilled scaffold markers — §4/§5 still need authoring (scripts/dfva-v4-report-scaffold.ts)')
   }
 
-  if (issues.length) errors.push(...issues.map((i) => `${slug}: ${i}`))
+  return issues
 }
 
 // ── v4 recommend checks (rules at the foot of dfva/dist/v4/recommend-template-v4.md) ──
 
 const V4_RECOMMEND_TEMPLATE = path.join(repoRoot, 'dfva', 'dist', 'v4', 'recommend-template-v4.md')
 
-for (const file of V4_RECOMMEND_FILES) {
-  const slug = file.replace('.md', '')
-  const content = readReport(file)
+function checkV4RecommendReport(slug: string, content: string): string[] {
   const lines = content.split('\n')
   const issues: string[] = []
 
@@ -645,10 +596,8 @@ for (const file of V4_RECOMMEND_FILES) {
     issues.push(`${bareUrls.length} bare URL(s) in the body — cite as [[n]](url) and keep full citations in REFERENCES`)
   }
 
-  if (issues.length) errors.push(...issues.map((i) => `${slug}: ${i}`))
+  return issues
 }
-
-// ── Output ──
 
 // ── v4r research-degree checks ─────────────────────────────────────────────
 // This family exists because a research degree can carry NO v4 score: Panel C
@@ -656,9 +605,7 @@ for (const file of V4_RECOMMEND_FILES) {
 // destination basis (an evidence gap). The report's whole job is to say both and
 // then carry the v1 assessment as narrative. So the rules enforce exactly that:
 // the two reasons are stated, and no score of any instrument appears.
-for (const file of V4R_FILES) {
-  const slug = file.replace('.md', '')
-  const content = readReport(file)
+function checkV4RResearchReport(slug: string, content: string): string[] {
   const lines = content.split('\n')
   const issues: string[] = []
 
@@ -707,52 +654,134 @@ for (const file of V4R_FILES) {
     issues.push(`${code} is not in V4_RESEARCH_DEGREES — only research degrees belong in this family`)
   }
 
-  if (issues.length) {
-    errors.push(...issues.map((i) => `${slug}: ${i}`))
+  return issues
+}
+
+// ── CLI ──────────────────────────────────────────────────────────────────
+
+function main(): void {
+  const errors: string[] = []
+  const warnings: string[] = []
+  const resolvable: string[] = []
+
+  for (const file of REPORT_FILES) {
+    const slug = file.replace('.md', '')
+    const grandfathered = GRANDFATHERED.has(slug)
+    const content = readReport(file)
+    const issues = checkAssessmentReport(slug, content)
+    if (issues.length) {
+      if (grandfathered) {
+        warnings.push(...issues.map((i) => `${slug}: ${i} [grandfathered]`))
+      } else {
+        errors.push(...issues.map((i) => `${slug}: ${i}`))
+      }
+    }
+    if (grandfathered && issues.length === 0) {
+      resolvable.push(slug)
+    }
   }
-}
 
-// ── Cross-family coverage: every scored coursework program ships all three v4 artefacts ──
-// V4ReportPage renders the market card and the improvement-plan card for every
-// program in the dfva-v4- family. A missing sibling renders as a silent blank
-// (b-famusth and b-fapro shipped that way on 2026-09-01), so the set identity
-// is asserted here rather than discovered on the page.
-{
-  const codesOf = (files: string[], prefix: string) =>
-    new Set(files.map((f) => f.slice(prefix.length, -'.md'.length)))
-  const v4 = codesOf(V4_FILES, 'dfva-v4-')
-  const market = codesOf(MARKET_FILES, 'dfva-market-')
-  const plans = codesOf(V4_RECOMMEND_FILES, 'dfva-v4-recommend-')
-  for (const code of v4) {
-    if (!market.has(code)) errors.push(`dfva-v4-${code}: no dfva-market-${code}.md — the report page renders an empty market card`)
-    if (!plans.has(code)) errors.push(`dfva-v4-${code}: no dfva-v4-recommend-${code}.md — the report page promises an improvement plan and renders none`)
+  for (const file of MARKET_FILES) {
+    const slug = file.replace('.md', '')
+    const grandfathered = MARKET_GRANDFATHERED.has(slug)
+    const content = readReport(file)
+    const issues = checkMarketReport(slug, content)
+    if (issues.length) {
+      if (grandfathered) {
+        warnings.push(...issues.map((i) => `${slug}: ${i} [grandfathered]`))
+      } else {
+        errors.push(...issues.map((i) => `${slug}: ${i}`))
+      }
+    }
+    if (grandfathered && issues.length === 0) {
+      resolvable.push(slug)
+    }
   }
-  for (const code of plans) {
-    if (!v4.has(code)) errors.push(`dfva-v4-recommend-${code}: no dfva-v4-${code}.md — a plan without a scored report`)
+
+  for (const file of RECOMMEND_FILES) {
+    const slug = file.replace('.md', '')
+    const grandfathered = RECOMMEND_GRANDFATHERED.has(slug)
+    const content = readReport(file)
+    const issues = checkRecommendReport(slug, content)
+    if (issues.length) {
+      if (grandfathered) {
+        warnings.push(...issues.map((i) => `${slug}: ${i} [grandfathered]`))
+      } else {
+        errors.push(...issues.map((i) => `${slug}: ${i}`))
+      }
+    }
+    if (grandfathered && issues.length === 0) {
+      resolvable.push(slug)
+    }
   }
+
+  for (const file of V4_FILES) {
+    const slug = file.replace('.md', '')
+    const content = readReport(file)
+    const issues = checkV4Report(slug, content)
+    if (issues.length) errors.push(...issues.map((i) => `${slug}: ${i}`))
+  }
+
+  for (const file of V4_RECOMMEND_FILES) {
+    const slug = file.replace('.md', '')
+    const content = readReport(file)
+    const issues = checkV4RecommendReport(slug, content)
+    if (issues.length) errors.push(...issues.map((i) => `${slug}: ${i}`))
+  }
+
+  for (const file of V4R_FILES) {
+    const slug = file.replace('.md', '')
+    const content = readReport(file)
+    const issues = checkV4RResearchReport(slug, content)
+    if (issues.length) errors.push(...issues.map((i) => `${slug}: ${i}`))
+  }
+
+  // ── Cross-family coverage: every scored coursework program ships all three v4 artefacts ──
+  // V4ReportPage renders the market card and the improvement-plan card for every
+  // program in the dfva-v4- family. A missing sibling renders as a silent blank
+  // (b-famusth and b-fapro shipped that way on 2026-09-01), so the set identity
+  // is asserted here rather than discovered on the page.
+  {
+    const codesOf = (files: string[], prefix: string) =>
+      new Set(files.map((f) => f.slice(prefix.length, -'.md'.length)))
+    const v4 = codesOf(V4_FILES, 'dfva-v4-')
+    const market = codesOf(MARKET_FILES, 'dfva-market-')
+    const plans = codesOf(V4_RECOMMEND_FILES, 'dfva-v4-recommend-')
+    for (const code of v4) {
+      if (!market.has(code)) errors.push(`dfva-v4-${code}: no dfva-market-${code}.md — the report page renders an empty market card`)
+      if (!plans.has(code)) errors.push(`dfva-v4-${code}: no dfva-v4-recommend-${code}.md — the report page promises an improvement plan and renders none`)
+    }
+    for (const code of plans) {
+      if (!v4.has(code)) errors.push(`dfva-v4-recommend-${code}: no dfva-v4-${code}.md — a plan without a scored report`)
+    }
+  }
+
+  const totalFiles =
+    REPORT_FILES.length + MARKET_FILES.length + RECOMMEND_FILES.length + V4_FILES.length + V4_RECOMMEND_FILES.length + V4R_FILES.length
+  console.log(
+    `Reports: ${REPORT_FILES.length} assessment + ${MARKET_FILES.length} market + ${RECOMMEND_FILES.length} recommend + ${V4_FILES.length} v4 + ${V4_RECOMMEND_FILES.length} v4-recommend + ${V4R_FILES.length} v4r-research = ${totalFiles} total`
+  )
+
+  if (warnings.length) {
+    console.log(`\n${warnings.length} grandfathered issue(s) (tracked debt, not a failure):`)
+    warnings.slice(0, 9999).forEach((w) => console.log('  · ' + w))
+    if (warnings.length > 9999) console.log(`  … and ${warnings.length - 50} more`)
+  }
+
+  if (resolvable.length) {
+    console.log(`\n🎉 ${resolvable.length} grandfathered file(s) are now aligned — remove from GRANDFATHERED:`)
+    resolvable.forEach((s) => console.log('  - ' + s))
+  }
+
+  if (errors.length) {
+    console.error(`\n❌ ${errors.length} report format error(s):`)
+    errors.forEach((e) => console.error('  - ' + e))
+    process.exit(1)
+  }
+
+  console.log('\n✅ Report format check passed.')
 }
 
-const totalFiles =
-  REPORT_FILES.length + MARKET_FILES.length + RECOMMEND_FILES.length + V4_FILES.length + V4_RECOMMEND_FILES.length + V4R_FILES.length
-console.log(
-  `Reports: ${REPORT_FILES.length} assessment + ${MARKET_FILES.length} market + ${RECOMMEND_FILES.length} recommend + ${V4_FILES.length} v4 + ${V4_RECOMMEND_FILES.length} v4-recommend + ${V4R_FILES.length} v4r-research = ${totalFiles} total`
-)
-
-if (warnings.length) {
-  console.log(`\n${warnings.length} grandfathered issue(s) (tracked debt, not a failure):`)
-  warnings.slice(0, 9999).forEach((w) => console.log('  · ' + w))
-  if (warnings.length > 9999) console.log(`  … and ${warnings.length - 50} more`)
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main()
 }
-
-if (resolvable.length) {
-  console.log(`\n🎉 ${resolvable.length} grandfathered file(s) are now aligned — remove from GRANDFATHERED:`)
-  resolvable.forEach((s) => console.log('  - ' + s))
-}
-
-if (errors.length) {
-  console.error(`\n❌ ${errors.length} report format error(s):`)
-  errors.forEach((e) => console.error('  - ' + e))
-  process.exit(1)
-}
-
-console.log('\n✅ Report format check passed.')
