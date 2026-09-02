@@ -2,18 +2,30 @@ import { Link as RouterLink } from "react-router";
 import { brand } from "../../branding/brandConfig";
 import { Button } from "../../client/components/ui/button";
 import { MatrixAreaLabels } from "../../compass/matrixAreaLabels";
-import { findingFor } from "../../compass/reportFindings";
+import { programReportPath } from "../../compass/reportLinks";
 import { QUADRANTS } from "../../compass/v2/quadrants";
+import { V4_META } from "../../compass/v4/data/v4PanelC";
+import { V4_ADAPTIVENESS_MAX } from "../../compass/v4/data/v4Rubric";
 import {
-  V3_META,
-  V3_PROGRAMS,
-  v3ProgramByCode,
-} from "../../compass/v3/data/v3Programs";
-import { v31StabilityByCode } from "../../compass/v31/data/v31Stability";
+  V4_ITEMS,
+  v4PortfolioRows,
+  type V4PortfolioRow,
+} from "../../compass/v4/portfolioStats";
+import { V4_QUADRANT_LABELS } from "../../compass/v4/v4Position";
 
 // Real sample assessment — the position is the hero asset. Honest, named,
-// addressable, and rendered exactly as the report renders it.
+// addressable, and computed on the same v4 rows the report page renders.
 const SAMPLE_CODE = "mc-jurisd";
+
+const ROWS = v4PortfolioRows();
+/** Rows that can be drawn: assessed on v4 with an exposure and a position. */
+const PLACED = ROWS.filter(
+  (r) =>
+    r.assessed &&
+    r.exposure !== null &&
+    r.adaptiveness !== null &&
+    r.position !== null,
+);
 
 export default function Hero() {
   return (
@@ -39,7 +51,7 @@ export default function Hero() {
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <Button size="lg" variant="default" asChild>
-              <RouterLink to={`/reports/${SAMPLE_CODE}`}>
+              <RouterLink to={programReportPath(SAMPLE_CODE)}>
                 View an example report <span aria-hidden="true">→</span>
               </RouterLink>
             </Button>
@@ -59,41 +71,44 @@ export default function Hero() {
   );
 }
 
+/** The weakest scored items, weakest first: where the highest-value changes sit. */
+function weakestItems(row: V4PortfolioRow, limit = 2): string[] {
+  if (!row.items) return [];
+  return V4_ITEMS.map((item) => ({ item, score: row.items?.[item.id] }))
+    .filter(
+      (s): s is { item: (typeof V4_ITEMS)[number]; score: number } =>
+        typeof s.score === "number" && !Number.isNaN(s.score) && s.score <= 1,
+    )
+    .sort((a, b) => a.score - b.score)
+    .slice(0, limit)
+    .map((s) => `${s.item.name} (${s.score} of 3)`);
+}
+
 function SamplePositionCard() {
-  const program = v3ProgramByCode(SAMPLE_CODE);
-  const stability = v31StabilityByCode(SAMPLE_CODE);
-  if (!program || !stability) return null;
-  const finding = findingFor(program);
-  const q = QUADRANTS[program.quadrant];
-  const confidenceLabel =
-    stability.stabilityClass === "boundary" ? "near a threshold" : "firm";
-  const confidenceChip =
-    stability.stabilityClass === "boundary"
-      ? "bg-[#FEF5E7] text-[#B97E26]"
-      : "bg-[#E8F5EE] text-[#1F9D6B]";
-  const measured =
-    program.quadrant === "well-positioned"
-      ? "High exposure · high adaptiveness"
-      : program.quadrant === "comfortable"
-        ? "Low exposure · high adaptiveness"
-        : program.quadrant === "attention"
-          ? "High exposure · low adaptiveness"
-          : "Low exposure · low adaptiveness";
+  const row = PLACED.find((r) => r.code === SAMPLE_CODE);
+  if (!row || row.position === null || row.exposure === null) return null;
+  const q = QUADRANTS[row.position];
+  const confidenceLabel = row.atThreshold ? "near a threshold" : "firm";
+  const confidenceChip = row.atThreshold
+    ? "bg-[#FEF5E7] text-[#B97E26]"
+    : "bg-[#E8F5EE] text-[#1F9D6B]";
+  const exposureMedian = row.exposureMedian ?? V4_META.expMedian;
+  const exposureMedianLabel =
+    row.exposureTier === "field" ? "field median" : "portfolio median";
+  const weakest = weakestItems(row);
 
   return (
     <div className="bg-card border-border shadow-card-2 hover:shadow-default mx-auto w-full max-w-md rounded-2xl border p-6 transition-shadow duration-300 sm:p-8">
       <p className="text-muted-foreground text-xs font-medium tracking-wide uppercase">
-        University of Melbourne
+        {brand.institution}
       </p>
-      <h2 className="text-foreground mt-1 text-lg font-semibold">
-        {program.name}
-      </h2>
+      <h2 className="text-foreground mt-1 text-lg font-semibold">{row.name}</h2>
 
       <div className="mt-4 flex flex-wrap items-center gap-2">
         <span
           className={`rounded-full px-3 py-1 text-xs font-semibold ${q.badgeClass}`}
         >
-          {measured}
+          {V4_QUADRANT_LABELS[row.position]}
         </span>
         <span
           className={`rounded-full px-3 py-1 text-xs font-semibold ${confidenceChip}`}
@@ -108,10 +123,10 @@ function SamplePositionCard() {
             Destination AI exposure
           </p>
           <p className="text-foreground font-mono text-3xl font-bold tabular-nums">
-            {program.exposure.toFixed(1)}
+            {row.exposure.toFixed(1)}
           </p>
           <p className="text-muted-foreground text-xs">
-            portfolio median {V3_META.expMedian}
+            {exposureMedianLabel} {exposureMedian}
           </p>
         </div>
         <div>
@@ -119,30 +134,38 @@ function SamplePositionCard() {
             Curriculum adaptiveness
           </p>
           <p className="text-foreground font-mono text-3xl font-bold tabular-nums">
-            {program.adaptiveness}
-            <span className="text-muted-foreground text-lg">/15</span>
+            {row.adaptiveness}
+            <span className="text-muted-foreground text-lg">
+              /{V4_ADAPTIVENESS_MAX}
+            </span>
           </p>
           <p className="text-muted-foreground text-xs">
-            portfolio median {V3_META.adaptMedian}
+            portfolio median {V4_META.adaptMedian ?? "—"}
           </p>
         </div>
       </div>
 
-      <HeroMiniMatrix code={SAMPLE_CODE} />
+      <HeroMiniMatrix row={row} />
 
       <div className="mt-4 space-y-2">
         <p className="text-muted-foreground text-xs font-medium tracking-wide uppercase">
-          The highest-value changes
+          Where the highest-value changes sit
         </p>
-        <ol className="text-foreground list-decimal space-y-1 pl-4 text-xs leading-relaxed">
-          {finding.actions.map((a) => (
-            <li key={a}>{a}</li>
-          ))}
-        </ol>
+        {weakest.length ? (
+          <ol className="text-foreground list-decimal space-y-1 pl-4 text-xs leading-relaxed">
+            {weakest.map((a) => (
+              <li key={a}>{a}</li>
+            ))}
+          </ol>
+        ) : (
+          <p className="text-foreground text-xs leading-relaxed">
+            No item sits below the level at which a capability is assessed.
+          </p>
+        )}
       </div>
 
       <RouterLink
-        to={`/reports/${SAMPLE_CODE}`}
+        to={programReportPath(SAMPLE_CODE)}
         className="text-secondary-muted-foreground mt-4 inline-block text-xs font-semibold underline"
       >
         Read the full report →
@@ -151,17 +174,20 @@ function SamplePositionCard() {
   );
 }
 
-function HeroMiniMatrix({ code }: { code: string }) {
+function HeroMiniMatrix({ row }: { row: V4PortfolioRow }) {
   const W = 340;
   const H = 190;
   const PAD = 26;
-  const X_MIN = 60;
   const X_MAX = 100;
+  const X_MIN = Math.min(
+    60,
+    Math.floor(Math.min(...PLACED.map((p) => p.exposure as number)) / 10) * 10,
+  );
   const x = (e: number) =>
     PAD + ((e - X_MIN) / (X_MAX - X_MIN)) * (W - 2 * PAD);
-  const y = (a: number) => H - PAD - (a / 15) * (H - 2 * PAD);
-  const program = v3ProgramByCode(code);
-  if (!program) return null;
+  const y = (a: number) => H - PAD - (a / V4_ADAPTIVENESS_MAX) * (H - 2 * PAD);
+  if (row.exposure === null || row.adaptiveness === null || !row.position)
+    return null;
   return (
     <svg
       viewBox={`0 0 ${W} ${H}`}
@@ -178,21 +204,23 @@ function HeroMiniMatrix({ code }: { code: string }) {
         stroke="var(--color-border)"
       />
       <line
-        x1={x(V3_META.expMedian)}
+        x1={x(V4_META.expMedian)}
         y1={PAD / 2}
-        x2={x(V3_META.expMedian)}
+        x2={x(V4_META.expMedian)}
         y2={H - PAD}
         stroke="var(--color-border)"
         strokeDasharray="4 3"
       />
-      <line
-        x1={PAD}
-        y1={y(V3_META.adaptMedian)}
-        x2={W - PAD}
-        y2={y(V3_META.adaptMedian)}
-        stroke="var(--color-border)"
-        strokeDasharray="4 3"
-      />
+      {V4_META.adaptMedian !== null && (
+        <line
+          x1={PAD}
+          y1={y(V4_META.adaptMedian)}
+          x2={W - PAD}
+          y2={y(V4_META.adaptMedian)}
+          stroke="var(--color-border)"
+          strokeDasharray="4 3"
+        />
+      )}
       <MatrixAreaLabels
         left={PAD}
         right={W - PAD}
@@ -200,21 +228,21 @@ function HeroMiniMatrix({ code }: { code: string }) {
         bottom={H - PAD}
         fontSize={8}
       />
-      {V3_PROGRAMS.filter((p) => p.code !== code).map((p) => (
+      {PLACED.filter((p) => p.code !== row.code).map((p) => (
         <circle
           key={p.code}
-          cx={x(p.exposure)}
-          cy={y(p.adaptiveness)}
+          cx={x(p.exposure as number)}
+          cy={y(p.adaptiveness as number)}
           r={3}
-          fill={QUADRANTS[p.quadrant].hex}
+          fill={QUADRANTS[p.position as keyof typeof QUADRANTS].hex}
           opacity={0.25}
         />
       ))}
       <circle
-        cx={x(program.exposure)}
-        cy={y(program.adaptiveness)}
+        cx={x(row.exposure)}
+        cy={y(row.adaptiveness)}
         r={6}
-        fill={QUADRANTS[program.quadrant].hex}
+        fill={QUADRANTS[row.position].hex}
         stroke="var(--color-background)"
         strokeWidth={2}
       />

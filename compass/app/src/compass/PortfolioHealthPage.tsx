@@ -1,5 +1,6 @@
 // compass/app/src/compass/PortfolioHealthPage.tsx
 import { Link } from "react-router";
+import { V4_ADAPTIVENESS_MAX } from "./v4/data/v4Rubric";
 import { programReportPath } from "./reportLinks";
 import { InsightsGate } from "./InsightsGate";
 import { useMemo } from "react";
@@ -100,7 +101,7 @@ export default function PortfolioHealthPage() {
                 <div className="text-3xl font-bold">
                   {stats.avgAdaptiveness.toFixed(1)}
                   <span className="text-muted-foreground text-lg font-normal">
-                    /15
+                    /{V4_ADAPTIVENESS_MAX}
                   </span>
                 </div>
               </div>
@@ -226,7 +227,7 @@ export default function PortfolioHealthPage() {
                     <div>
                       <div className="text-sm font-medium">{p.name}</div>
                       <div className="text-muted-foreground text-xs">
-                        {p.adaptiveness}/15 adaptiveness
+                        {p.adaptiveness}/{V4_ADAPTIVENESS_MAX} adaptiveness
                       </div>
                     </div>
                     <ArrowRight className="text-muted-foreground h-4 w-4" />

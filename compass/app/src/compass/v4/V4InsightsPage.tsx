@@ -34,7 +34,7 @@ import {
   type SortKey,
   type V4PortfolioRow,
 } from "./portfolioStats";
-import { V4_INSTRUMENT } from "./data/v4Rubric";
+import { V4_ADAPTIVENESS_MAX, V4_INSTRUMENT } from "./data/v4Rubric";
 import { V4_META } from "./data/v4PanelC";
 import { QUADRANTS, type QuadrantConfig } from "../v2/quadrants";
 
@@ -59,7 +59,11 @@ const COLUMNS: {
   { key: "faculty", label: "Faculty" },
   { key: "position", label: "Position" },
   { key: "exposure", label: "Exposure", numeric: true },
-  { key: "adaptiveness", label: "Adaptiveness /15", numeric: true },
+  {
+    key: "adaptiveness",
+    label: `Adaptiveness /${V4_ADAPTIVENESS_MAX}`,
+    numeric: true,
+  },
   { key: "workplace", label: "Workplace /9", numeric: true },
   { key: "g1", label: "G1 · Disciplinary foundation" },
   { key: "g2", label: "G2 · Decision-making" },
@@ -370,8 +374,8 @@ export default function V4InsightsPage() {
               <p className="text-muted-foreground mb-2 text-xs">
                 Average of each item, scored 0–3 from handbook evidence, in two
                 sub-scales that are never averaged across: the five adaptive
-                items (summing to /15) and the three workplace items (summing to
-                /9). Strongest adaptive:{" "}
+                items (summing to /{V4_ADAPTIVENESS_MAX}) and the three
+                workplace items (summing to /9). Strongest adaptive:{" "}
                 <span className="text-foreground font-medium">
                   {stats.strongestAdaptive.label} (
                   {stats.strongestAdaptive.avg.toFixed(1)})
@@ -383,7 +387,10 @@ export default function V4InsightsPage() {
                 </span>
               </p>
               {[
-                ["Adaptive items (/15)", stats.adaptiveBars],
+                [
+                  `Adaptive items (/${V4_ADAPTIVENESS_MAX})`,
+                  stats.adaptiveBars,
+                ],
                 ["Workplace items (/9)", stats.workplaceBars],
               ].map(([groupLabel, bars]) => (
                 <div key={groupLabel as string} className="mt-4 first:mt-2">
@@ -435,7 +442,7 @@ export default function V4InsightsPage() {
                       >
                         <ProgramLink row={r} />
                         <span className="text-muted-foreground shrink-0 text-xs tabular-nums">
-                          {r.adaptiveness}/15 · weakest:{" "}
+                          {r.adaptiveness}/{V4_ADAPTIVENESS_MAX} · weakest:{" "}
                           {itemAverages(stats.rows).find(
                             (a) =>
                               a.id ===
@@ -482,7 +489,7 @@ export default function V4InsightsPage() {
                     >
                       <ProgramLink row={r} />
                       <span className="text-muted-foreground shrink-0 text-xs tabular-nums">
-                        {r.adaptiveness}/15 · exposure{" "}
+                        {r.adaptiveness}/{V4_ADAPTIVENESS_MAX} · exposure{" "}
                         {(r.exposure ?? 0).toFixed(0)}
                       </span>
                     </li>
@@ -646,7 +653,9 @@ export default function V4InsightsPage() {
                       <td className="px-3 py-2 tabular-nums">
                         {f.avgAdaptiveness === null
                           ? "—"
-                          : `${f.avgAdaptiveness.toFixed(1)}/15`}
+                          : `${f.avgAdaptiveness.toFixed(
+                              1,
+                            )}/${V4_ADAPTIVENESS_MAX}`}
                       </td>
                       <td className="px-3 py-2">
                         {f.positions.attention > 0 ? (
@@ -823,7 +832,7 @@ export default function V4InsightsPage() {
                         )}
                       </td>
                       <td className="relative px-3 py-1.5 whitespace-nowrap tabular-nums">
-                        {r.adaptiveness}/15
+                        {r.adaptiveness}/{V4_ADAPTIVENESS_MAX}
                         {r.atThreshold && (
                           <span
                             aria-hidden="true"

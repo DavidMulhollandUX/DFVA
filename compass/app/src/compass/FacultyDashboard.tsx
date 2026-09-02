@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+import { V4_ADAPTIVENESS_MAX } from "./v4/data/v4Rubric";
 import { Link, useParams } from "react-router";
 import { programReportPath } from "./reportLinks";
 import { facultySlug } from "./faculty";
@@ -91,7 +92,7 @@ function FacultyDetail({
               ? "—"
               : summary.avgAdaptiveness.toFixed(1)}
             <span className="text-muted-foreground text-base font-normal">
-              /15
+              /{V4_ADAPTIVENESS_MAX}
             </span>
           </div>
           <div className="text-muted-foreground text-xs">avg. adaptiveness</div>
@@ -155,7 +156,7 @@ function FacultyDetail({
               </span>
             </p>
             {[
-              ["Adaptive items (/15)", adaptiveAvgs],
+              [`Adaptive items (/${V4_ADAPTIVENESS_MAX})`, adaptiveAvgs],
               ["Workplace items (/9)", workplaceAvgs],
             ].map(([groupLabel, bars]) => (
               <div key={groupLabel as string} className="mt-3 first:mt-0">
@@ -196,7 +197,10 @@ function FacultyDetail({
               </div>
               <div className="text-muted-foreground text-sm">
                 {wins
-                  .map((p) => `${p.name} (${p.adaptiveness}/15)`)
+                  .map(
+                    (p) =>
+                      `${p.name} (${p.adaptiveness}/${V4_ADAPTIVENESS_MAX})`,
+                  )
                   .join(" · ")}
               </div>
             </div>
@@ -249,7 +253,7 @@ function FacultyDetail({
                     <V4StatusBadge entry={toIndexEntryShape(p)} />
                   </td>
                   <td className="px-3 py-3 text-center tabular-nums">
-                    {p.adaptiveness}/15
+                    {p.adaptiveness}/{V4_ADAPTIVENESS_MAX}
                   </td>
                   <td className="px-3 py-3 text-center tabular-nums">
                     {p.workplace}/9
@@ -628,7 +632,7 @@ export default function FacultyDashboard() {
             <div className="text-2xl font-bold">
               {weightedAvg.toFixed(1)}
               <span className="text-muted-foreground text-sm font-normal">
-                /15
+                /{V4_ADAPTIVENESS_MAX}
               </span>
             </div>
             <div className="text-muted-foreground text-xs">
@@ -709,7 +713,9 @@ export default function FacultyDashboard() {
                   <td className="px-3 py-3 text-center tabular-nums">
                     {f.avgAdaptiveness === null
                       ? "—"
-                      : `${f.avgAdaptiveness.toFixed(1)}/15`}
+                      : `${f.avgAdaptiveness.toFixed(
+                          1,
+                        )}/${V4_ADAPTIVENESS_MAX}`}
                   </td>
                   <td className="px-3 py-3 text-center">
                     {f.positions.attention > 0 ? (

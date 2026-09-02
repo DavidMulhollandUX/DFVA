@@ -5,6 +5,9 @@ export const brand = {
   name: "Evidura",
   signalName: "Durability Assessment", // was "Durability Rating" — post-premortem reframe
   methodology: "DFVA", // internal only — never in marketing copy
+  /** The institution whose programs the reports assess. Names the program's
+   *  owner on report headers and sample cards; never describes Evidura. */
+  institution: "University of Melbourne",
   domain: "evidura.ai", // do NOT publish as canonical/OG pre trademark clearance
   tagline: "Durability, made visible.",
   legalNote:

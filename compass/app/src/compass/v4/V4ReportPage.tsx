@@ -500,7 +500,7 @@ function V4MiniMatrix({
           strokeWidth={1.25}
           opacity={0.5}
         >
-          <title>{`${peer.name} — adaptiveness ${r.adaptiveness}/15, workplace ${r.workplace}/9`}</title>
+          <title>{`${peer.name} — adaptiveness ${r.adaptiveness}/${V4_ADAPTIVENESS_MAX}, workplace ${r.workplace}/9`}</title>
         </circle>
       ))}
       <line
@@ -523,7 +523,9 @@ function V4MiniMatrix({
         data-testid="v4-program-point"
         data-basis={basis?.tier ?? "exact"}
       >
-        <title>{`${program.name} — adaptiveness ${adaptiveness}/15${
+        <title>{`${
+          program.name
+        } — adaptiveness ${adaptiveness}/${V4_ADAPTIVENESS_MAX}${
           typeof workplace === "number" ? `, workplace ${workplace}/9` : ""
         }`}</title>
       </circle>
@@ -561,7 +563,7 @@ function V4MiniMatrix({
         transform={`rotate(-90 10 ${H / 2})`}
         textAnchor="middle"
       >
-        Adaptiveness /15 (v4 draft)
+        Adaptiveness /{V4_ADAPTIVENESS_MAX} (v4 draft)
       </text>
       {/* Size legend — a size encoding is unreadable without one. */}
       <g transform={`translate(${W - PAD - 74} ${PAD + 10})`}>
@@ -1101,7 +1103,9 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                       data-testid="v4-adaptiveness"
                     >
                       {panelC.adaptiveness}
-                      <span className="text-muted-foreground text-lg">/15</span>
+                      <span className="text-muted-foreground text-lg">
+                        /{V4_ADAPTIVENESS_MAX}
+                      </span>
                     </p>
                     <p className="text-muted-foreground text-xs">
                       under ±1 rating error the score could reach {envelope[0]}–
