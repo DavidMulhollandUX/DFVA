@@ -47,8 +47,8 @@ export default function ApiKeyManager() {
       setRawKey(result.rawKey);
       setNewKeyName("");
       refetch();
-    } catch (e: any) {
-      setError(e.message || "Failed to generate key");
+    } catch (e: unknown) {
+      setError(e instanceof Error ? e.message : "Failed to generate key");
     } finally {
       setGenerating(false);
     }
@@ -60,8 +60,8 @@ export default function ApiKeyManager() {
     try {
       await revokeAction({ keyId });
       refetch();
-    } catch (e: any) {
-      setError(e.message || "Failed to revoke key");
+    } catch (e: unknown) {
+      setError(e instanceof Error ? e.message : "Failed to revoke key");
     } finally {
       setRevokingId(null);
     }
@@ -128,7 +128,7 @@ export default function ApiKeyManager() {
           </div>
         ) : keys && keys.length > 0 ? (
           <div className="space-y-2">
-            {keys.map((key: any) => (
+            {keys.map((key) => (
               <div
                 key={key.id}
                 className="flex items-center justify-between rounded-md border p-3"

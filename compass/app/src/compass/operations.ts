@@ -1,5 +1,12 @@
 import { HttpError } from "wasp/server";
-import type { AssessmentJob } from "wasp/entities";
+import type { Prisma } from "@prisma/client";
+import type {
+  AssessmentJob,
+  MarketValidationSignal,
+  CompetitiveEvent,
+  MarketWindowSnapshot,
+  CourseInterventionOwner,
+} from "wasp/entities";
 import type {
   AssessProgram,
   GetAssessmentJobs,
@@ -116,10 +123,10 @@ export const assessProgram: AssessProgram<
           score: result.score,
           maxScore: result.maxScore,
           riskBand: result.riskBand,
-          thresholds: result.thresholds as any,
-          dimensions: result.dimensions as any,
-          reportJson: result.reportJson as any,
-          syllabusJson: result.syllabusJson as any,
+          thresholds: result.thresholds as Prisma.InputJsonValue,
+          dimensions: result.dimensions as Prisma.InputJsonValue,
+          reportJson: result.reportJson as Prisma.InputJsonValue,
+          syllabusJson: result.syllabusJson as Prisma.InputJsonValue,
         },
       });
     })
@@ -270,10 +277,10 @@ export const getAssessmentJob: GetAssessmentJob<
 
 // Deliberately public (no auth check): backs the public /insights pages.
 // If non-public fields are ever added to MarketValidationSignal, add a select.
-export const getValidationSignals: GetValidationSignals<void, any[]> = async (
-  _args,
-  context,
-) => {
+export const getValidationSignals: GetValidationSignals<
+  void,
+  MarketValidationSignal[]
+> = async (_args, context) => {
   return context.entities.MarketValidationSignal.findMany({
     where: { isActive: true },
     orderBy: { credibilityScore: "desc" },
@@ -282,10 +289,10 @@ export const getValidationSignals: GetValidationSignals<void, any[]> = async (
 };
 
 // Deliberately public (no auth check): backs the public /insights pages.
-export const getCompetitiveEvents: GetCompetitiveEvents<void, any[]> = async (
-  _args,
-  context,
-) => {
+export const getCompetitiveEvents: GetCompetitiveEvents<
+  void,
+  CompetitiveEvent[]
+> = async (_args, context) => {
   return context.entities.CompetitiveEvent.findMany({
     where: { isActive: true },
     orderBy: { dateOccurred: "desc" },
@@ -296,7 +303,7 @@ export const getCompetitiveEvents: GetCompetitiveEvents<void, any[]> = async (
 // Deliberately public (no auth check): backs the public /insights pages.
 export const getMarketWindowStatus: GetMarketWindowStatus<
   void,
-  any | null
+  MarketWindowSnapshot | null
 > = async (_args, context) => {
   return context.entities.MarketWindowSnapshot.findFirst({
     orderBy: { createdAt: "desc" },
@@ -305,10 +312,10 @@ export const getMarketWindowStatus: GetMarketWindowStatus<
 
 const syllabusMapInputSchema = z.object({ jobId: z.string().min(1) });
 
-export const getSyllabusMap: GetSyllabusMap<{ jobId: string }, any> = async (
-  rawArgs,
-  context,
-) => {
+export const getSyllabusMap: GetSyllabusMap<
+  { jobId: string },
+  AssessmentJob["syllabusJson"]
+> = async (rawArgs, context) => {
   if (!context.user) throw new HttpError(401, "Authentication required");
   const { jobId } = ensureArgsSchemaOrThrowHttpError(
     syllabusMapInputSchema,
@@ -355,7 +362,7 @@ export const updateCourseIntervention: UpdateCourseIntervention<
     status: string;
     targetDate?: string;
   },
-  any
+  CourseInterventionOwner
 > = async (rawArgs, context) => {
   if (!context.user) throw new HttpError(401, "Authentication required");
   const args = ensureArgsSchemaOrThrowHttpError(
@@ -400,7 +407,7 @@ const courseInterventionsInputSchema = z.object({
 
 export const getCourseInterventions: GetCourseInterventions<
   { assessmentJobId: string },
-  any[]
+  CourseInterventionOwner[]
 > = async (rawArgs, context) => {
   if (!context.user) throw new HttpError(401, "Authentication required");
   const { assessmentJobId } = ensureArgsSchemaOrThrowHttpError(
@@ -443,7 +450,7 @@ export const uploadAlumniData: UploadAlumniData<
       industryCluster: string;
     }>;
   },
-  any
+  { count: number }
 > = async (rawArgs, context) => {
   if (!context.user) throw new HttpError(401, "Authentication required");
   const { programCode, alumni } = ensureArgsSchemaOrThrowHttpError(
@@ -637,7 +644,7 @@ type FragilityIncidentResult = {
   id: string;
   date: Date;
   platform: string;
-  statesAffected: any;
+  statesAffected: Prisma.JsonValue;
   blastRadius: number;
   sourceUrl: string;
   sourceDescription: string;

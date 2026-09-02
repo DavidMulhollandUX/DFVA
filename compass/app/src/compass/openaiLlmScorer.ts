@@ -3,6 +3,10 @@ import type { LlmScorer, HandbookPages } from "./llmScorer";
 import type { AssessmentResult } from "./assessmentService";
 import { buildDfvaPrompt } from "./dfvaPrompt";
 
+interface OpenAiChatCompletionResponse {
+  choices?: { message?: { content?: string } }[];
+}
+
 /**
  * OpenAI-based DFVA scorer.
  * Requires OPENAI_API_KEY in .env.server.
@@ -47,7 +51,7 @@ export class OpenAiLlmScorer implements LlmScorer {
       );
     }
 
-    const data = (await response.json()) as any;
+    const data = (await response.json()) as OpenAiChatCompletionResponse;
     const content = data.choices?.[0]?.message?.content;
 
     if (!content) {

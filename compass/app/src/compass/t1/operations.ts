@@ -5,6 +5,7 @@
 // Follows the fire-and-forget pattern from assessProgram.
 
 import { HttpError } from "wasp/server";
+import type { Prisma } from "@prisma/client";
 import type { Institution } from "wasp/entities";
 import type {
   ImportT1Data,
@@ -108,8 +109,9 @@ export const importT1Data: ImportT1Data = async (
   let fileType: T1FileType;
   try {
     fileType = detectT1FileType(buffer, fileName);
-  } catch (err: any) {
-    throw new HttpError(400, err.message);
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : String(err);
+    throw new HttpError(400, message);
   }
 
   // Resolve institution
@@ -134,12 +136,13 @@ export const importT1Data: ImportT1Data = async (
   let parseResult: T1ParseResult;
   try {
     parseResult = parseT1File(buffer, fileType, fileName);
-  } catch (err: any) {
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : String(err);
     await importJobs.update({
       where: { id: job.id },
-      data: { status: "failed", errorMessage: `Parse error: ${err.message}` },
+      data: { status: "failed", errorMessage: `Parse error: ${message}` },
     });
-    throw new HttpError(422, `Failed to parse ${fileName}: ${err.message}`);
+    throw new HttpError(422, `Failed to parse ${fileName}: ${message}`);
   }
 
   // Normalize
@@ -315,7 +318,9 @@ export const getT1EnrolmentTrends: GetT1EnrolmentTrends = async (
   if (!institution)
     throw new HttpError(404, `Institution "${institutionCode}" not found`);
 
-  const where: any = { institutionId: institution.id };
+  const where: Prisma.T1EnrolmentTrendWhereInput = {
+    institutionId: institution.id,
+  };
   if (programCode) {
     where.programCode = programCode;
   }
@@ -400,10 +405,10 @@ export const assessT1Programs: AssessT1Programs = async (
             score: result.score,
             maxScore: result.maxScore,
             riskBand: result.riskBand,
-            thresholds: result.thresholds as any,
-            dimensions: result.dimensions as any,
-            reportJson: result.reportJson as any,
-            syllabusJson: result.syllabusJson as any,
+            thresholds: result.thresholds as Prisma.InputJsonValue,
+            dimensions: result.dimensions as Prisma.InputJsonValue,
+            reportJson: result.reportJson as Prisma.InputJsonValue,
+            syllabusJson: result.syllabusJson as Prisma.InputJsonValue,
             t1ProgramSnapshotId: snap.id,
           },
         });
