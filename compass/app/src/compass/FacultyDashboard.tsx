@@ -8,7 +8,6 @@ import {
   facultyRows,
   failsAGate,
   itemAverages,
-  needsAttention,
   quickWins,
   toIndexEntryShape,
   v4PortfolioRows,
@@ -45,31 +44,23 @@ function FacultyDetail({
   summary: FacultyRow;
   programs: V4PortfolioRow[];
 }) {
-  const {
-    assessed,
-    unassessed,
-    sorted,
-    wins,
-    atRisk,
-    adaptiveAvgs,
-    workplaceAvgs,
-  } = useMemo(() => {
-    const assessed = programs.filter((p) => p.assessed);
-    const averages = itemAverages(programs);
-    return {
-      assessed,
-      unassessed: programs.filter((p) => !p.assessed),
-      sorted: [...assessed].sort(
-        (a, b) => (b.adaptiveness ?? -1) - (a.adaptiveness ?? -1),
-      ),
-      wins: quickWins(programs),
-      atRisk: programs.filter(
-        (p) => p.position === "attention" || failsAGate(p),
-      ),
-      adaptiveAvgs: averages.filter((a) => a.subscale === "adaptive"),
-      workplaceAvgs: averages.filter((a) => a.subscale === "workplace"),
-    };
-  }, [programs]);
+  const { unassessed, sorted, wins, atRisk, adaptiveAvgs, workplaceAvgs } =
+    useMemo(() => {
+      const assessed = programs.filter((p) => p.assessed);
+      const averages = itemAverages(programs);
+      return {
+        unassessed: programs.filter((p) => !p.assessed),
+        sorted: [...assessed].sort(
+          (a, b) => (b.adaptiveness ?? -1) - (a.adaptiveness ?? -1),
+        ),
+        wins: quickWins(programs),
+        atRisk: programs.filter(
+          (p) => p.position === "attention" || failsAGate(p),
+        ),
+        adaptiveAvgs: averages.filter((a) => a.subscale === "adaptive"),
+        workplaceAvgs: averages.filter((a) => a.subscale === "workplace"),
+      };
+    }, [programs]);
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16">

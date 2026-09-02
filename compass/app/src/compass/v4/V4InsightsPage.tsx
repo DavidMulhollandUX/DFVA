@@ -138,7 +138,6 @@ export default function V4InsightsPage() {
     const adaptive = averages.filter((a) => a.subscale === "adaptive");
     const workplace = averages.filter((a) => a.subscale === "workplace");
     const sortedAdaptive = [...adaptive].sort((a, b) => a.avg - b.avg);
-    const sortedWorkplace = [...workplace].sort((a, b) => a.avg - b.avg);
     return {
       rows,
       assessed,

@@ -468,7 +468,7 @@ export const uploadAlumniData: UploadAlumniData<
 
 // --- API Key Management (feat-009) ---
 
-import { generateApiKey as genKey, hashApiKey } from "./api/auth";
+import { generateApiKey as genKey } from "./api/auth";
 import type {
   GenerateApiKey,
   RevokeApiKey,

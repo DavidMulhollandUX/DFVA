@@ -1,4 +1,4 @@
-import { BookOpen, Code, Activity } from "lucide-react";
+import { BookOpen, Activity } from "lucide-react";
 import ApiKeyManager from "./components/ApiKeyManager";
 import CodeSnippetLibrary from "./components/CodeSnippetLibrary";
 

@@ -217,6 +217,7 @@ export async function seedCourseLeafAnalyticsResponse(prisma: PrismaClient) {
 // Standalone invocation (for npx tsx)
 // Run: cd compass/app && DATABASE_URL="postgresql://..." npx tsx src/compass/seedCourseLeafAnalyticsResponse.ts
 if (require.main === module) {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const { PrismaClient } = require("@prisma/client");
   const prisma = new PrismaClient();
   seedCourseLeafAnalyticsResponse(prisma)

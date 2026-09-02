@@ -16,7 +16,6 @@ import {
   PieChart,
   Pie,
   Cell,
-  Legend,
 } from "recharts";
 import {
   AlertTriangle,

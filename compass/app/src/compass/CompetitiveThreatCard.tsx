@@ -8,8 +8,6 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import type { CompetitiveEvent } from "wasp/entities";
-import { useQuery } from "wasp/client/operations";
-import { getCompetitiveEvents } from "wasp/client/operations";
 
 export interface CompetitiveThreatCardProps {
   event?: CompetitiveEvent | null;

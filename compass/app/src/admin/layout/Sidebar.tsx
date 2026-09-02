@@ -1,6 +1,6 @@
 import { LayoutDashboard, Settings, Sheet, X } from "lucide-react";
 import React, { useEffect, useRef, useState } from "react";
-import { NavLink, useLocation } from "react-router";
+import { NavLink } from "react-router";
 import Logo from "../../client/static/logo.webp";
 import { cn } from "../../client/utils";
 
@@ -10,14 +10,11 @@ interface SidebarProps {
 }
 
 const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
-  const location = useLocation();
-  const { pathname } = location;
-
   const trigger = useRef<any>(null);
   const sidebar = useRef<any>(null);
 
   const storedSidebarExpanded = localStorage.getItem("sidebar-expanded");
-  const [sidebarExpanded, setSidebarExpanded] = useState(
+  const [sidebarExpanded] = useState(
     storedSidebarExpanded === null ? false : storedSidebarExpanded === "true",
   );
 

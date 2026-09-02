@@ -76,7 +76,6 @@ export const scanMarketDrift: ScanMarketDrift<any, any> = async (
       if (!job.syllabusJson || !job.score) continue;
 
       const syllabus = job.syllabusJson as any;
-      const courses = syllabus.courses || [];
       const iraMatrix = syllabus.iraMatrix || [];
 
       // Determine primary cluster from course code prefix
@@ -88,8 +87,6 @@ export const scanMarketDrift: ScanMarketDrift<any, any> = async (
       // Fast, database-only recalculation:
       // We look at all "Assessed" (A) skills. If a modifier exists for that dimension,
       // we apply it to calculate a drifted score.
-      let driftedScore = 0;
-
       // Gather unique dimension IDs that are assessed
       const assessedDims = new Set<string>();
       iraMatrix.forEach((skill: any) => {

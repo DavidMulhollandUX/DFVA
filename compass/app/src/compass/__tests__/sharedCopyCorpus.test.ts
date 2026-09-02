@@ -44,7 +44,6 @@ describe("gate copy is derived per program", () => {
 describe("basis copy is derived per program", () => {
   it("renders for every scored program and never leaks an undefined", () => {
     for (const code of CODES) {
-      const p = V4_PANEL_C[code];
       const basis = basisFor(code);
       const s = describeBasis(basis, null, null);
       expect(s.length, code).toBeGreaterThan(0);

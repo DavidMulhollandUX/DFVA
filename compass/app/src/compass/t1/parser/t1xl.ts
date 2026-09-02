@@ -105,7 +105,7 @@ function mapField(
  */
 export function parseT1xl(
   buffer: ArrayBuffer,
-  filename: string,
+  _filename: string,
 ): T1ParseResult {
   const workbook = read(buffer, { type: "array" });
   const warnings: string[] = [];
@@ -141,7 +141,7 @@ export function parseT1xl(
   for (const row of rows) {
     const program: Partial<T1RawProgram> = { courses: [] };
 
-    for (const [header, value] of Object.entries(row)) {
+    for (const header of Object.keys(row)) {
       const lowerHeader = header.toLowerCase().trim();
       const targetField =
         COLUMN_MAP[lowerHeader] ||

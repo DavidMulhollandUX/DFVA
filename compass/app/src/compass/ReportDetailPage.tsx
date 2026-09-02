@@ -8,23 +8,16 @@ import {
   ClipboardList,
   TrendingUp,
   ShieldAlert,
-  Award,
   RefreshCw,
   X,
   Upload,
   Filter,
   Check,
-  AlertCircle,
-  Calendar,
   User,
-  Mail,
   Plus,
   Layers,
-  Settings,
-  ChevronRight,
   CheckCircle2,
   AlertTriangle,
-  HelpCircle,
   Clock,
 } from "lucide-react";
 import { useQuery, useAction } from "wasp/client/operations";
@@ -693,21 +686,6 @@ function parseStructured(
   }
 }
 
-const THRESHOLD_QUESTIONS: Record<string, string> = {
-  q1: "Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?",
-  q2: "Does this program train graduates to design systems, own decisions, or generate original insight?",
-  q3: "Will these graduates be more employable in 5 years than today, given AI trends?",
-};
-
-function dimScoreClasses(score: number, max: number): string {
-  const pct = score / max;
-  if (pct >= 0.83)
-    return "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300";
-  if (pct >= 0.5)
-    return "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300";
-  return "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300";
-}
-
 interface DimensionPopoverProps {
   dim: Dimension;
   score: number | null;
@@ -894,9 +872,7 @@ interface InteractiveRubricPanelProps {
 function InteractiveRubricPanel({
   dimensions,
   thresholds,
-  programName,
   baseScore,
-  maxScore,
   programSlug,
 }: InteractiveRubricPanelProps) {
   const [openPopover, setOpenPopover] = useState<{
@@ -1407,7 +1383,6 @@ function ReportDetailView({
 
   // 6. Careers Alumni Data Uploader State
   const [isUploadingAlumni, setIsUploadingAlumni] = useState(false);
-  const [alumniFile, setAlumniFile] = useState<File | null>(null);
   const [csvHeaders, setCsvHeaders] = useState<string[]>([]);
   const [csvRows, setCsvRows] = useState<any[]>([]);
   const [columnMapping, setColumnMapping] = useState<Record<string, string>>({
@@ -1416,7 +1391,6 @@ function ReportDetailView({
     graduationYear: "",
     industryCluster: "",
   });
-  const [isMappingAlumni, setIsMappingAlumni] = useState(false);
   const [mappingStep, setMappingStep] = useState<
     "idle" | "analyzing" | "mapping" | "success"
   >("idle");
@@ -1502,7 +1476,6 @@ function ReportDetailView({
   const handleAlumniFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
-    setAlumniFile(file);
     setMappingStep("analyzing");
 
     const reader = new FileReader();

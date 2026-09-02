@@ -134,7 +134,7 @@ async function main() {
   const start = Date.now();
 
   for (const code of COURSES) {
-    for (const [name, fn] of [
+    for (const [, fn] of [
       ["overview", fetchCourseOverview],
       ["structure", fetchCourseStructure],
       ["attributes", fetchCourseAttributes],
@@ -143,7 +143,7 @@ async function main() {
         const page = await fn(code);
         if (page.fromCache) cached++;
         else fetched++;
-      } catch (e: any) {
+      } catch {
         failed++;
       }
       await new Promise((r) => setTimeout(r, DELAY_MS));

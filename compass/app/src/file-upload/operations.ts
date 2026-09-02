@@ -58,12 +58,16 @@ const addFileToDbInputSchema = z.object({
 type AddFileToDbInput = z.infer<typeof addFileToDbInputSchema>;
 
 export const addFileToDb: AddFileToDb<AddFileToDbInput, File> = async (
-  args,
+  rawArgs,
   context,
 ) => {
   if (!context.user) {
     throw new HttpError(401);
   }
+  const args = ensureArgsSchemaOrThrowHttpError(
+    addFileToDbInputSchema,
+    rawArgs,
+  );
 
   // s3Keys are minted as `${userId}/${uuid}` — registering a key outside the
   // caller's namespace would let them download/delete another user's object.
@@ -146,12 +150,13 @@ const deleteFileInputSchema = z.object({
 type DeleteFileInput = z.infer<typeof deleteFileInputSchema>;
 
 export const deleteFile: DeleteFile<DeleteFileInput, File> = async (
-  args,
+  rawArgs,
   context,
 ) => {
   if (!context.user) {
     throw new HttpError(401);
   }
+  const args = ensureArgsSchemaOrThrowHttpError(deleteFileInputSchema, rawArgs);
 
   const deletedFile = await context.entities.File.delete({
     where: {

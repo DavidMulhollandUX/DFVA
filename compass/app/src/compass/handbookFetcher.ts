@@ -60,7 +60,9 @@ async function fetchPage(url: string): Promise<HandbookPage> {
       },
     });
     if (response.ok) html = await response.text();
-  } catch {}
+  } catch {
+    // Fall through to the Playwright path.
+  }
 
   // If direct fetch failed or got Cloudflare-blocked, try Playwright
   if (!html || isCloudflareBlock(html)) {

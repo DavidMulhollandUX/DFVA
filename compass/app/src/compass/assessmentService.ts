@@ -1,5 +1,3 @@
-import type { AssessmentJob } from "wasp/entities";
-
 export interface AssessmentResult {
   courseCode: string | null;
   programName: string;
@@ -15,7 +13,7 @@ export interface AssessmentResult {
   // score === null marks a Not-Applicable dimension (construct doesn't exist for this program).
   dimensions: { label: string; score: number | null; max: number }[];
   reportJson: Record<string, unknown>;
-  syllabusJson?: Record<string, any>;
+  syllabusJson?: Record<string, unknown>;
   validationErrors?: string[];
 }
 

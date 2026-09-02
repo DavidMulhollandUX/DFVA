@@ -107,6 +107,8 @@ jobs:
         run: npx vitest run --config vitest.ci.config.mts
       - name: Prettier check
         run: npx prettier --check src/
+      - name: ESLint
+        run: npx eslint src
 
   mcp:
     # Type-check + unit tests for the dfva MCP server (previously never in CI —

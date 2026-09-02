@@ -8,18 +8,12 @@ import {
   Database,
   FileCode2,
   Clock,
-  Globe,
   ArrowRight,
   Shield,
   Check,
   X,
 } from "lucide-react";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "../client/components/ui/card";
+import { Card, CardContent } from "../client/components/ui/card";
 import { useMemo } from "react";
 
 export default function WhyStructuredDataPage() {

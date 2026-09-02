@@ -10,15 +10,7 @@ import ReactFlow, {
 } from "reactflow";
 import "reactflow/dist/style.css";
 import dagre from "dagre";
-import {
-  Play,
-  Settings,
-  ShieldAlert,
-  Award,
-  RefreshCw,
-  X,
-  AlertTriangle,
-} from "lucide-react";
+import { Settings, ShieldAlert, X, AlertTriangle } from "lucide-react";
 
 interface CourseNodeData {
   code: string;
@@ -250,7 +242,7 @@ export function CurriculumMap({
   ) => {
     if (!selectedNode) return;
 
-    let updatedSkills = [...simulatedSkills];
+    const updatedSkills = [...simulatedSkills];
     const index = updatedSkills.findIndex(
       (s) =>
         s.courseCode === selectedNode.code && s.dimensionId === dimensionId,

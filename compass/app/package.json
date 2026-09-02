@@ -63,15 +63,20 @@
     "@types/node": "^24.0.0",
     "@types/react": "^19.2.7",
     "@wasp.sh/spec": "file:.wasp/spec",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.12.0",
     "playwright": "^1.60.0",
     "prisma": "5.19.1",
     "typescript": "5.9.3",
+    "typescript-eslint": "^8.69.0",
     "vite": "^7.0.6",
     "vitest": "^4.0.16"
   },
   "scripts": {
     "format": "prettier --write src/",
     "format:check": "prettier --check src/",
-    "check": "prettier --check src/ && tsc --noEmit && vitest run --config vitest.ci.config.mts"
+    "lint": "eslint src",
+    "check": "prettier --check src/ && eslint src && tsc --noEmit && vitest run --config vitest.ci.config.mts"
   }
 }

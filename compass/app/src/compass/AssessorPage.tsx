@@ -21,6 +21,7 @@ import {
   getAssessmentJob,
 } from "wasp/client/operations";
 import { useAuth } from "wasp/client/auth";
+import type { AssessmentJob } from "wasp/entities";
 import {
   checkHandbookUrl,
   ASSESSABLE_PROGRAMS,
@@ -79,9 +80,8 @@ export default function AssessorPage() {
     enabled: isSignedIn,
     // Poll while any job is still running so status badges flip to
     // Complete/Failed without a manual refresh (react-query v4 signature).
-    refetchInterval: (data: any) =>
-      Array.isArray(data) &&
-      data.some((j: any) => j.status !== "complete" && j.status !== "failed")
+    refetchInterval: (data) =>
+      Array.isArray(data) && data.some((j) => !isSettled(j.status))
         ? 1500
         : false,
   });
@@ -108,11 +108,13 @@ export default function AssessorPage() {
       if (!isSignedIn && job?.id) {
         setAnonJobIds((ids) => [job.id, ...ids]);
       }
-    } catch (err: any) {
+    } catch (err) {
       // A rejected submission never becomes a job, so nothing downstream would
       // show it. Surface it on the form instead.
       setSubmitError(
-        err?.message ?? "Could not queue that assessment. Try again.",
+        err instanceof Error && err.message
+          ? err.message
+          : "Could not queue that assessment. Try again.",
       );
     } finally {
       setSubmitting(false);
@@ -230,7 +232,7 @@ export default function AssessorPage() {
             {isSignedIn ? "Assessment History" : "This Session"}
           </p>
           {isSignedIn
-            ? jobs.map((job: any) => <JobRow key={job.id} job={job} />)
+            ? jobs.map((job) => <JobRow key={job.id} job={job} />)
             : anonJobIds.map((id) => <AnonymousJobRow key={id} jobId={id} />)}
         </div>
       )}
@@ -312,9 +314,37 @@ function statusBadge(status: string) {
   }
 }
 
+function isSettled(status: string): boolean {
+  return status === "complete" || status === "failed";
+}
+
+/** The fields a history row reads. The list query omits reportJson, so it is
+ *  optional here and the slug falls back to the column that was denormalised
+ *  for exactly this purpose. */
+type JobRowJob = Pick<
+  AssessmentJob,
+  | "id"
+  | "status"
+  | "createdAt"
+  | "handbookUrl"
+  | "programName"
+  | "errorMessage"
+  | "assessmentSlug"
+> & { reportJson?: AssessmentJob["reportJson"] };
+
+function reportSlug(job: JobRowJob): string | null {
+  const fromJson =
+    job.reportJson &&
+    typeof job.reportJson === "object" &&
+    !Array.isArray(job.reportJson)
+      ? job.reportJson["assessmentSlug"]
+      : undefined;
+  return typeof fromJson === "string" ? fromJson : job.assessmentSlug ?? null;
+}
+
 /** One row of history. Rendered from a list query or a single-job poll alike. */
-function JobRow({ job }: { job: any }) {
-  const slug = job.reportJson?.assessmentSlug ?? job.assessmentSlug;
+function JobRow({ job }: { job: JobRowJob }) {
+  const slug = reportSlug(job);
   return (
     <Card>
       <CardContent className="flex items-center gap-4 py-4">
@@ -361,10 +391,8 @@ function AnonymousJobRow({ jobId }: { jobId: string }) {
     getAssessmentJob,
     { id: jobId },
     {
-      refetchInterval: (data: any) =>
-        data && data.status !== "complete" && data.status !== "failed"
-          ? 1500
-          : false,
+      refetchInterval: (data) =>
+        data && !isSettled(data.status) ? 1500 : false,
     },
   );
 

@@ -73,7 +73,7 @@ function aggregateEnrolment(courses: T1RawCourse[]): number | null {
  */
 export function normalizePrograms(
   raw: T1RawProgram[],
-  institutionCode: string,
+  _institutionCode: string,
 ): NormalizationResult {
   const warnings: string[] = [];
   const programs: NormalizedT1Program[] = [];

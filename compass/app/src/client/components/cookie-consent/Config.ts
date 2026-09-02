@@ -66,6 +66,8 @@ const getConfig = () => {
                 }
                 window.dataLayer = window.dataLayer || [];
                 function gtag(..._args: unknown[]) {
+                  // gtag.js needs the Arguments object itself, not an array.
+                  // eslint-disable-next-line prefer-rest-params
                   (window.dataLayer as Array<any>).push(arguments);
                 }
                 gtag("js", new Date());

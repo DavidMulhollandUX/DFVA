@@ -5,13 +5,7 @@
 // Follows the fire-and-forget pattern from assessProgram.
 
 import { HttpError } from "wasp/server";
-import type {
-  T1ImportJob,
-  T1ProgramSnapshot,
-  T1EnrolmentTrend,
-  Institution,
-  AssessmentJob,
-} from "wasp/entities";
+import type { Institution } from "wasp/entities";
 import type {
   ImportT1Data,
   GetT1ImportJob,
@@ -22,7 +16,7 @@ import type {
 
 import { detectT1FileType } from "./detect";
 import { parseT1File } from "./parser";
-import type { T1FileType, T1RawProgram, T1ParseResult } from "./types";
+import type { T1FileType, T1ParseResult } from "./types";
 import { normalizePrograms } from "./normalizer";
 import { getAssessmentService } from "../assessmentService";
 
@@ -43,7 +37,14 @@ async function sha256(buffer: ArrayBuffer): Promise<string> {
  */
 async function findOrCreateInstitution(
   code: string,
-  institutions: { findUnique: Function; create: Function },
+  institutions: {
+    findUnique: (args: {
+      where: { code: string };
+    }) => Promise<Institution | null>;
+    create: (args: {
+      data: { code: string; name: string; country: string };
+    }) => Promise<Institution>;
+  },
 ): Promise<Institution> {
   let inst = await institutions.findUnique({ where: { code } });
   if (!inst) {

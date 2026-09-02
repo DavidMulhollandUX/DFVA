@@ -2,7 +2,6 @@ import { describe, it, expect } from "vitest";
 import {
   getValidationSources,
   getSourcesForTest,
-  type ValidationSource,
 } from "../../shared/validationSources";
 
 describe("validationSources", () => {
