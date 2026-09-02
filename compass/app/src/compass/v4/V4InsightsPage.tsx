@@ -177,12 +177,19 @@ export default function V4InsightsPage() {
   const showItems = params.get("items") === "1";
   const search = params.get("q") ?? "";
 
-  const setParam = (key: string, value: string | null) => {
+  // One update per interaction: two consecutive setParam calls both start
+  // from the same render's params, so the second silently drops the first
+  // (the sort header did exactly that and lost "sort" while setting "dir").
+  const patchParams = (patch: Record<string, string | null>) => {
     const next = new URLSearchParams(params);
-    if (value === null || value === "") next.delete(key);
-    else next.set(key, value);
+    for (const [key, value] of Object.entries(patch)) {
+      if (value === null || value === "") next.delete(key);
+      else next.set(key, value);
+    }
     setParams(next, { replace: true });
   };
+  const setParam = (key: string, value: string | null) =>
+    patchParams({ [key]: value });
   const clearParams = () => setParams({}, { replace: true });
 
   // ---- Filtering ---------------------------------------------------------
@@ -774,10 +781,7 @@ export default function V4InsightsPage() {
                                 "dir",
                                 sortDir === "asc" ? "desc" : "asc",
                               );
-                            else {
-                              setParam("sort", col.key);
-                              setParam("dir", "asc");
-                            }
+                            else patchParams({ sort: col.key, dir: "asc" });
                           }}
                           className="hover:text-foreground inline-flex items-center gap-1 tracking-[0.14em] uppercase"
                         >

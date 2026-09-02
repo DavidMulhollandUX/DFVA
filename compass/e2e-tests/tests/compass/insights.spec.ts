@@ -33,8 +33,10 @@ test.describe('/insights — v4 portfolio overview', () => {
 
   test('research rows stay last when sorting flips', async ({ page }) => {
     await page.goto('/insights');
-    const adaptivenessHeader = page.getByRole('button', { name: /Adaptiveness/ });
-    await adaptivenessHeader.click();
+    // aria-sort lives on the column header (th); the button inside it sorts.
+    const adaptivenessHeader = page.getByRole('columnheader', { name: /Adaptiveness/ });
+    const sortButton = adaptivenessHeader.getByRole('button');
+    await sortButton.click();
     await expect(adaptivenessHeader).toHaveAttribute('aria-sort', 'ascending');
 
     const firstAssessed = page
@@ -42,8 +44,8 @@ test.describe('/insights — v4 portfolio overview', () => {
       .first();
     await expect(firstAssessed).toBeVisible();
 
-    // Double-click flips the direction…
-    await adaptivenessHeader.click();
+    // A second click flips the direction…
+    await sortButton.click();
     await expect(adaptivenessHeader).toHaveAttribute('aria-sort', 'descending');
 
     // …and in BOTH directions every unassessed row sits below every assessed one.

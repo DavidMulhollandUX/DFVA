@@ -8,7 +8,7 @@ test.describe('COMPASS pages', () => {
 
   test('reports page loads without auth', async ({ page }) => {
     await page.goto('/reports');
-    await expect(page.locator('h1')).toContainText('Assessment Reports');
+    await expect(page.locator('h1')).toContainText('Program reports');
   });
 
   // /assess is public — a program can be assessed without an account.
