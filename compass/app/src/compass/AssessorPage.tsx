@@ -80,7 +80,7 @@ export default function AssessorPage() {
     enabled: isSignedIn,
     // Poll while any job is still running so status badges flip to
     // Complete/Failed without a manual refresh (react-query v4 signature).
-    refetchInterval: (data) =>
+    refetchInterval: (data: { status: string }[] | undefined) =>
       Array.isArray(data) && data.some((j) => !isSettled(j.status))
         ? 1500
         : false,
@@ -323,21 +323,18 @@ function isSettled(status: string): boolean {
  *  for exactly this purpose. */
 type JobRowJob = Pick<
   AssessmentJob,
-  | "id"
-  | "status"
-  | "createdAt"
-  | "handbookUrl"
-  | "programName"
-  | "errorMessage"
-  | "assessmentSlug"
-> & { reportJson?: AssessmentJob["reportJson"] };
+  "id" | "status" | "createdAt" | "handbookUrl" | "programName" | "errorMessage"
+> & {
+  /** Denormalised on the entity; the list query reads it out of reportJson. */
+  assessmentSlug?: string | null;
+  reportJson?: unknown;
+};
 
 function reportSlug(job: JobRowJob): string | null {
+  const j = job.reportJson;
   const fromJson =
-    job.reportJson &&
-    typeof job.reportJson === "object" &&
-    !Array.isArray(job.reportJson)
-      ? job.reportJson["assessmentSlug"]
+    j && typeof j === "object" && !Array.isArray(j)
+      ? (j as Record<string, unknown>)["assessmentSlug"]
       : undefined;
   return typeof fromJson === "string" ? fromJson : job.assessmentSlug ?? null;
 }
@@ -391,7 +388,7 @@ function AnonymousJobRow({ jobId }: { jobId: string }) {
     getAssessmentJob,
     { id: jobId },
     {
-      refetchInterval: (data) =>
+      refetchInterval: (data: { status: string } | null | undefined) =>
         data && !isSettled(data.status) ? 1500 : false,
     },
   );

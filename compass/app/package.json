@@ -77,6 +77,7 @@
     "format": "prettier --write src/",
     "format:check": "prettier --check src/",
     "lint": "eslint src",
-    "check": "prettier --check src/ && eslint src && tsc --noEmit && vitest run --config vitest.ci.config.mts"
+    "typecheck": "tsc -p tsconfig.src.json --noEmit",
+    "check": "prettier --check src/ && eslint src && tsc -p tsconfig.src.json --noEmit && vitest run --config vitest.ci.config.mts"
   }
 }

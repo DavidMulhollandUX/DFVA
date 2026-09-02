@@ -16,12 +16,16 @@
  *
  * Pure functions — no React, so the numbers on the page are unit-testable.
  */
-import { V4_META, v4PanelCByCode, type V4PanelC } from "./data/v4PanelC";
+import {
+  V4_META,
+  v4PanelCByCode,
+  type V4PanelATier,
+  type V4PanelC,
+} from "./data/v4PanelC";
 import { V4_RUBRIC } from "./data/v4Rubric";
 import { REPORT_INDEX, type ReportIndexEntry } from "./reportIndex";
 import {
   V4_TIER_LABELS,
-  type V4PanelATier,
   basisFor,
   basisMedian,
   isOwnRecord,

@@ -58,6 +58,16 @@ if [ ! -d .wasp/out/sdk ]; then
   exit 1
 fi
 
+# The frontend build reads the generated route table in .wasp/out/web-app, so
+# a route added or removed in main.wasp.ts only reaches the bundle once Wasp
+# regenerates it. Compile first when the CLI is available (needs Node 24).
+if command -v wasp >/dev/null 2>&1; then
+  echo "🧩 wasp compile (regenerating .wasp/out from main.wasp.ts)..."
+  wasp compile >/dev/null || { echo "❌ wasp compile failed — fix main.wasp.ts before deploying."; exit 1; }
+else
+  echo "⚠️  wasp CLI not on PATH — building from the existing .wasp/out; run \`wasp compile\` first if main.wasp.ts changed."
+fi
+
 API_URL="${REACT_APP_API_URL:-https://compass-server-sxd.fly.dev}"
 BUILD_DIR=".wasp/out/web-app/build"
 DEV_DIR=".wasp/out/web-app/build-dev"

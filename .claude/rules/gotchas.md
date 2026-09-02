@@ -39,6 +39,17 @@
   `deploy-dev.sh` can no longer build the frontend. Use `compass/app/wasp-build.sh`
   to test a production build (same flip, same trap, refuses on a dirty
   `main.wasp.ts`), or `wasp start` to put `.wasp/out` back.
+- **`npx tsc --noEmit` in `compass/app` checks nothing.** `tsconfig.json` is a solution file
+  (`files: []` plus project references), so a bare `tsc --noEmit` exits 0 without reading a
+  single source file. Type-check with `tsc -p tsconfig.src.json --noEmit` (what `npm run check`
+  and `npm run typecheck` run since 2026-09-02). `tsc -b` also checks `tsconfig.wasp.json`, which
+  carries pre-existing errors in the OpenSaaS admin template.
+- **After editing `main.wasp.ts`, run `wasp compile` before `deploy-dev.sh`.** The frontend build
+  reads the generated route table in `.wasp/out/web-app`, so a deleted or added route only takes
+  effect once Wasp regenerates it; the vite build otherwise fails with "Could not resolve
+  ./src/… from routes.tsx" (or, worse, ships the old routes). `wasp compile` needs Node 24 on PATH
+  (`export PATH="$HOME/.nvm/versions/node/v24.16.0/bin:$PATH"`); `nvm use` does not persist across
+  tool calls.
 - **A stale `.wasp/out/web-app/build` is NOT a stale-deploy risk.** `deploy-dev.sh`
   runs `npx vite build`, which reads `compass/app/src` directly and overwrites that
   directory — the build dir's date says nothing about what ships. What does matter
