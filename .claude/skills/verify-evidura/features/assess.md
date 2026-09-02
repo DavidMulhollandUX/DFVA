@@ -37,3 +37,6 @@ Nav bar → Assess. Public; no account needed.
   `refetchIntervalInBackground: true`, so the row settles even when the
   in-app Browser pane reports the tab hidden. If a row stays on "Processing"
   past 30 s, that is a real defect; prove it with `assessFlow.spec.ts`.
+- Below 640px wide the cookie banner blocks the page (`html.disable--interaction`)
+  until a choice is made; call `acceptAllCookies(page)` first in a phone-viewport
+  spec. On desktop the banner never overlaps the form.

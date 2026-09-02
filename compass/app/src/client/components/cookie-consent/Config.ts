@@ -12,7 +12,11 @@ const getConfig = () => {
     // Default configuration for the modal.
     root: "body",
     autoShow: true,
-    disablePageInteraction: false,
+    // On a phone the bottom-right box covers the lower third of the screen,
+    // including the /assess submit button, and a tap on it silently does
+    // nothing. Below 640px the page is dimmed until the visitor chooses, so
+    // the block is visible instead of silent. Desktop never overlaps.
+    disablePageInteraction: window.matchMedia("(max-width: 640px)").matches,
     hideFromBots: import.meta.env.PROD ? true : false, // Set this to false for dev/headless tests otherwise the modal will not be visible.
     mode: "opt-in",
     // Bump the revision field when you add new services
