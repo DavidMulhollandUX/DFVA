@@ -114,3 +114,6 @@ test id no longer exists in `compass/app/src` or a route is not declared in
 `main.wasp.ts`. When you add a page or rename a test id, update the feature
 file in the same commit. When you add a feature, add a file with the four
 sections and a row in `features/README.md`.
+
+After you edit this skill or a feature file, run `/regression-test` against
+[evals.md](evals.md): one cold subagent per task, scored on the task's checklist.

@@ -94,6 +94,8 @@ DFVA = Degree Future-Viability Assessment — the scoring methodology.
 - Use conventional commits (feat:, fix:, refactor:, docs:, chore:)
 - Test before committing. Lint before pushing.
 - For multi-step tasks, prefer inline Workflow scripts
+- A review comment you have made twice is a missing lint rule or test.
+  Add the gate instead of a third comment.
 
 ## Agent-First (MCP)
 
