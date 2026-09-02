@@ -14,6 +14,7 @@ import { Button } from "../client/components/ui/button";
 import { Input } from "../client/components/ui/input";
 import { Label } from "../client/components/ui/label";
 import { Card, CardContent } from "../client/components/ui/card";
+import { PageShell } from "../client/components/PageShell";
 import { useAction, useQuery } from "wasp/client/operations";
 import {
   assessProgram,
@@ -28,6 +29,7 @@ import {
   type HandbookUrlCheck,
 } from "./handbookUrlCheck";
 import { v4PortfolioRows } from "./v4/portfolioStats";
+import { formatDate } from "./formatDate";
 import {
   Alert,
   AlertDescription,
@@ -126,7 +128,7 @@ export default function AssessorPage() {
   const hasHistory = isSignedIn ? jobs.length > 0 : anonJobIds.length > 0;
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-16">
+    <PageShell width="narrow" className="py-16">
       <div className="mb-8">
         <h1 className="text-foreground text-3xl font-bold tracking-tight">
           Assess a Program
@@ -285,7 +287,7 @@ export default function AssessorPage() {
           )}
         </ul>
       </div>
-    </div>
+    </PageShell>
   );
 }
 
@@ -357,7 +359,7 @@ function JobRow({ job }: { job: JobRowJob }) {
             {job.programName ?? job.handbookUrl}
           </p>
           <p className="text-muted-foreground mt-0.5 text-xs">
-            {new Date(job.createdAt).toLocaleString()}
+            {formatDate(job.createdAt, "medium")}
             {job.status === "failed" && job.errorMessage && (
               <> · {job.errorMessage}</>
             )}

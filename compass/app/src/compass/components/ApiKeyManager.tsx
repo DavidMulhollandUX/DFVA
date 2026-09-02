@@ -25,6 +25,7 @@ import {
   DialogTitle,
 } from "../../client/components/ui/dialog";
 import { Key, Copy, Trash2, Check, AlertTriangle, Loader2 } from "lucide-react";
+import { formatDate } from "../formatDate";
 
 export default function ApiKeyManager() {
   const { data: keys, isLoading, refetch } = useQuery(listApiKeys);
@@ -138,7 +139,7 @@ export default function ApiKeyManager() {
                     {key.keyPrefix}...
                   </div>
                   <div className="text-muted-foreground text-xs">
-                    Created {new Date(key.createdAt).toLocaleDateString()}
+                    Created {formatDate(key.createdAt, "medium")}
                     {!key.isActive && (
                       <span className="ml-2 text-red-500">(Revoked)</span>
                     )}

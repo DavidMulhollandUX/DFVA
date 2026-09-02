@@ -59,6 +59,33 @@
   --color-band-high: #e0742f;
   --color-band-critical: #c7433a;
 
+  /* Evidura position badges (portfolio matrix / quadrant chips — see
+     v2/quadrants.ts). -tint is the badge background, -ink is the badge text;
+     ink is chosen for >=4.5:1 contrast against its own tint (review-backlog
+     Tier 2 item 18) and re-declared under .dark below for a dark-appropriate
+     pair. The bare position-* colour is the plot/SVG fill and does not vary
+     by theme. no-exposure reuses the existing muted tokens instead of a
+     bespoke pair, since it is already an accessible neutral. */
+  --color-position-well-positioned: var(--position-well-positioned);
+  --color-position-well-positioned-tint: var(--position-well-positioned-tint);
+  --color-position-well-positioned-ink: var(--position-well-positioned-ink);
+
+  --color-position-comfortable: var(--position-comfortable);
+  --color-position-comfortable-tint: var(--position-comfortable-tint);
+  --color-position-comfortable-ink: var(--position-comfortable-ink);
+
+  --color-position-attention: var(--position-attention);
+  --color-position-attention-tint: var(--position-attention-tint);
+  --color-position-attention-ink: var(--position-attention-ink);
+
+  --color-position-sheltered: var(--position-sheltered);
+  --color-position-sheltered-tint: var(--position-sheltered-tint);
+  --color-position-sheltered-ink: var(--position-sheltered-ink);
+
+  --color-position-no-exposure: var(--position-no-exposure);
+  --color-position-no-exposure-tint: hsl(var(--muted));
+  --color-position-no-exposure-ink: hsl(var(--muted-foreground));
+
   /* Evidura type. Mirrors brand/evidura/tokens.css. */
   --font-sans: "Inter", "SF Pro Display", -apple-system, "Segoe UI", system-ui,
     sans-serif;
@@ -254,9 +281,28 @@
     --input: 218 22% 89%;
     --ring: 211 57% 13%; /* Ink */
     --radius: 0.5rem;
+
+    /* Position badges (light). Fill matches v2/quadrants.ts QUADRANTS[*].hex;
+       ink darkened from the fill hue to clear 4.5:1 on its own tint — see
+       positionContrast.test.ts for the computed ratios. */
+    --position-well-positioned: #1f9d6b;
+    --position-well-positioned-tint: #e8f5ee;
+    --position-well-positioned-ink: #197c55;
+    --position-comfortable: #3b82c4;
+    --position-comfortable-tint: #e8f0fa;
+    --position-comfortable-ink: #326fa7;
+    --position-attention: #e9a23b;
+    --position-attention-tint: #fef5e7;
+    --position-attention-ink: #95661f;
+    --position-sheltered: #8b6fc0;
+    --position-sheltered-tint: #f0ecf8;
+    --position-sheltered-ink: #7959b6;
+    --position-no-exposure: #5c7088;
   }
 
-  /* Evidura tokens (dark). §2.1: bg → Ink, fg → Paper, muted-fg → 210 15% 65% */
+  /* Evidura tokens (dark). §2.1: bg → Ink, fg → Paper. muted-fg matches
+     brand/evidura/tokens.css's dark --evidura-muted (#8FA3B8); it had drifted
+     to 210 15% 65% (#A6ADB8) — see evideraTokenParity.test.ts. */
   .dark {
     --background: 211 57% 13%; /* Ink */
     --foreground: 45 27% 94%; /* Paper */
@@ -275,7 +321,7 @@
     --secondary-muted: 212 52% 22%;
     --secondary-muted-foreground: 45 27% 94%;
     --muted: 212 52% 22%; /* Ink-700 */
-    --muted-foreground: 210 15% 65%;
+    --muted-foreground: 211 22% 64%; /* #8FA3B8 — tokens.css dark evidura-muted */
     --accent: 36 80% 57%; /* Signal amber */
     --accent-foreground: 211 57% 13%;
     --destructive: 4 56% 50%; /* band: Critical */
@@ -287,6 +333,20 @@
     --border: 212 52% 22%; /* Ink-700 */
     --input: 212 52% 22%;
     --ring: 36 80% 57%; /* Signal */
+
+    /* Position badges (dark). Tint is the fill blended ~20% into Ink; ink-text
+       is lightened from the fill hue to clear 4.5:1 on that dark tint — see
+       positionContrast.test.ts. The bare fill colour is unchanged from light
+       mode (it is a plot fill, not a themed surface), so only tint/ink are
+       redeclared here. */
+    --position-well-positioned-tint: #123b41;
+    --position-well-positioned-ink: #24b57b;
+    --position-comfortable-tint: #183552;
+    --position-comfortable-ink: #6ca2d3;
+    --position-attention-tint: #3b3c37;
+    --position-attention-ink: #e9a23b;
+    --position-sheltered-tint: #283152;
+    --position-sheltered-ink: #a792cf;
   }
 }
 
@@ -296,6 +356,15 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* Baseline keyboard-focus ring for any element that doesn't set its own
+     (shadcn components override this with `focus-visible:ring-*`, which wins
+     regardless of selector order — Tailwind's `utilities` layer always beats
+     `base`). */
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
   }
 }
 

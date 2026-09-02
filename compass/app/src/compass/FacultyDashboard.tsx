@@ -3,6 +3,7 @@ import { V4_ADAPTIVENESS_MAX } from "./v4/data/v4Rubric";
 import { Link, useParams } from "react-router";
 import { programReportPath } from "./reportLinks";
 import { facultySlug } from "./faculty";
+import { PageShell } from "../client/components/PageShell";
 import { FACULTY_OUTCOMES, type FacultyOutcome } from "./facultyOutcomes";
 import {
   POSITION_ORDER,
@@ -64,7 +65,7 @@ function FacultyDetail({
     }, [programs]);
 
   return (
-    <div className="mx-auto max-w-5xl px-4 py-16">
+    <PageShell className="py-16">
       <Link
         to="/insights/faculty"
         className="text-muted-foreground hover:text-foreground mb-4 inline-flex items-center gap-2 text-sm"
@@ -308,7 +309,7 @@ function FacultyDetail({
       {FACULTY_OUTCOMES[summary.name] && (
         <GraduateOutcomes outcome={FACULTY_OUTCOMES[summary.name]} />
       )}
-    </div>
+    </PageShell>
   );
 }
 
@@ -509,7 +510,7 @@ function OutcomeOnlyDetail({
   outcome: FacultyOutcome;
 }) {
   return (
-    <div className="mx-auto max-w-5xl px-4 py-16">
+    <PageShell className="py-16">
       <Link
         to="/insights/faculty"
         className="text-muted-foreground hover:text-foreground mb-4 inline-flex items-center gap-2 text-sm"
@@ -530,7 +531,7 @@ function OutcomeOnlyDetail({
         that follows is the data the University currently holds for it.
       </p>
       <GraduateOutcomes outcome={outcome} />
-    </div>
+    </PageShell>
   );
 }
 
@@ -591,7 +592,7 @@ export default function FacultyDashboard() {
     Math.max(1, totalAssessed);
 
   return (
-    <div className="mx-auto max-w-5xl px-4 py-16">
+    <PageShell className="py-16">
       <Link
         to="/insights"
         className="text-muted-foreground hover:text-foreground mb-4 inline-flex items-center gap-2 text-sm"
@@ -775,6 +776,6 @@ export default function FacultyDashboard() {
           </div>
         </div>
       )}
-    </div>
+    </PageShell>
   );
 }

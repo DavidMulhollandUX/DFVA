@@ -1,4 +1,5 @@
 import { ExternalLink } from "lucide-react";
+import { formatDate } from "./formatDate";
 
 export interface CompetitiveTimelineEvent {
   competitor: string;
@@ -39,18 +40,6 @@ const EFFECT_BADGE: Record<string, { className: string; label: string }> = {
     label: "→ Closes window",
   },
 };
-
-function formatDate(iso: string): string {
-  try {
-    return new Date(iso).toLocaleDateString("en-AU", {
-      year: "numeric",
-      month: "short",
-      day: "numeric",
-    });
-  } catch {
-    return iso;
-  }
-}
 
 function truncateText(text: string, maxLines = 2): string {
   const lines = text.split("\n");
@@ -112,7 +101,7 @@ export default function CompetitiveTimeline({
               <div className="border-border bg-card min-w-0 flex-1 rounded-lg border p-4 text-sm">
                 {/* Date */}
                 <p className="text-muted-foreground mb-2 text-xs">
-                  {formatDate(event.dateOccurred)}
+                  {formatDate(event.dateOccurred, "medium")}
                 </p>
 
                 {/* Competitor + event type badge */}

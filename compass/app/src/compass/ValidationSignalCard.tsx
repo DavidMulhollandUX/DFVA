@@ -1,4 +1,5 @@
 import { ExternalLink } from "lucide-react";
+import { formatDate } from "./formatDate";
 
 export interface ValidationSignalCardProps {
   signal?: {
@@ -30,11 +31,7 @@ export default function ValidationSignalCard({
   const starsDisplay = filledStars + emptyStars;
 
   const formattedDate = dateDiscovered
-    ? new Date(dateDiscovered).toLocaleDateString("en-AU", {
-        year: "numeric",
-        month: "short",
-        day: "numeric",
-      })
+    ? formatDate(dateDiscovered, "medium")
     : null;
 
   return (

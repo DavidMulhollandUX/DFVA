@@ -15,6 +15,14 @@ const ITEM_SHORT: Record<string, string> = Object.fromEntries(
 
 const NEUTRAL_DOT = "#5C7088";
 
+/** Legend order matches the plot's quadrants, top-left to bottom-right. */
+const POSITION_LEGEND = [
+  "comfortable",
+  "well-positioned",
+  "sheltered",
+  "attention",
+] as const;
+
 /** Marker vocabulary by exposure basis, extending what V4MiniMatrix
  *  established on the report page:
  *  — own: filled dot; the exposure was measured on the program's OWN
@@ -185,12 +193,17 @@ export function PortfolioMatrixV4({
             },
             onMouseLeave: () => setTooltip(null),
           };
-          const basisTitle =
+          const basisLabel =
             kind === "own"
-              ? `${r.name} — measured`
+              ? "measured"
               : kind === "field"
-                ? `${r.name} — field-grain estimate`
-                : `${r.name} — ${r.exposureTierLabel ?? "estimated"}`;
+                ? "field-grain estimate"
+                : r.exposureTierLabel ?? "estimated";
+          // Position is spoken, not only coloured: the title reaches hover
+          // text and screen readers.
+          const positionLabel =
+            r.position !== null ? QUADRANTS[r.position].short : "not placed";
+          const basisTitle = `${r.name} — ${positionLabel} — ${basisLabel}`;
           return (
             <g key={r.code}>
               {kind === "own" ? (
@@ -296,6 +309,21 @@ export function PortfolioMatrixV4({
         Hollow dashed square — field-of-education grain, placed against its own
         faint line at 83.2 rather than the program-grain line at 90.9.
       </p>
+      <ul
+        className="text-muted-foreground mt-1 flex flex-wrap gap-x-4 gap-y-1 text-xs"
+        aria-label="Position colours"
+      >
+        {POSITION_LEGEND.map((key) => (
+          <li key={key} className="flex items-center gap-1.5">
+            <span
+              aria-hidden="true"
+              className="inline-block h-2.5 w-2.5 rounded-full"
+              style={{ backgroundColor: QUADRANTS[key].hex }}
+            />
+            {QUADRANTS[key].short}
+          </li>
+        ))}
+      </ul>
 
       {tooltip && (
         <div

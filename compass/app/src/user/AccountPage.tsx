@@ -9,6 +9,7 @@ import {
   CardTitle,
 } from "../client/components/ui/card";
 import { Separator } from "../client/components/ui/separator";
+import { formatDate } from "../compass/formatDate";
 import {
   PaymentPlanId,
   SubscriptionStatus,
@@ -154,7 +155,7 @@ function formatSubscriptionStatusMessage(
 function prettyPrintEndOfBillingPeriod(date: Date) {
   const oneMonthFromNow = new Date(date);
   oneMonthFromNow.setMonth(oneMonthFromNow.getMonth() + 1);
-  return oneMonthFromNow.toLocaleDateString();
+  return formatDate(oneMonthFromNow, "medium");
 }
 
 function CustomerPortalButton() {

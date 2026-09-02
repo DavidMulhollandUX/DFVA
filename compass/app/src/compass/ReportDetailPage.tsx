@@ -43,6 +43,7 @@ import { RUBRIC, Dimension } from "./data/rubric";
 import type { DimensionEvidence } from "./data/dimensionEvidence";
 import { getFieldForCourse } from "./marketData";
 import { assessmentSlugFor, parseSlug } from "./reportLinks";
+import { formatDate } from "./formatDate";
 
 // Lazy chunks: CurriculumMap drags in reactflow/dagre/d3/lodash (~180kB min)
 // and is only rendered on the Curriculum tab; the generated evidence map is
@@ -2256,8 +2257,7 @@ function ReportDetailView({
                             <span>Owner: {item.ownerName}</span>
                             {item.targetDate && (
                               <span className="text-muted-foreground text-[8px]">
-                                Due:{" "}
-                                {new Date(item.targetDate).toLocaleDateString()}
+                                Due: {formatDate(item.targetDate, "medium")}
                               </span>
                             )}
                           </div>

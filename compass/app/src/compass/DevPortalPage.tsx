@@ -1,13 +1,14 @@
 import { BookOpen, Activity } from "lucide-react";
 import ApiKeyManager from "./components/ApiKeyManager";
 import CodeSnippetLibrary from "./components/CodeSnippetLibrary";
+import { PageShell } from "../client/components/PageShell";
 
 export default function DevPortalPage() {
   return (
     <div className="bg-background min-h-screen">
       {/* Hero */}
       <section className="bg-muted/30 border-b">
-        <div className="mx-auto max-w-5xl px-6 py-16">
+        <PageShell className="px-6 py-16">
           <h1 className="text-4xl font-bold tracking-tight">
             Developer Portal
           </h1>
@@ -32,11 +33,11 @@ export default function DevPortalPage() {
               Get an API key
             </a>
           </div>
-        </div>
+        </PageShell>
       </section>
 
       {/* Quickstart */}
-      <section className="mx-auto max-w-5xl px-6 py-12">
+      <PageShell as="section" className="px-6 py-12">
         <h2 className="mb-6 text-2xl font-bold">Quickstart</h2>
         <div className="grid gap-6 md:grid-cols-3">
           <div className="rounded-lg border p-6">
@@ -72,23 +73,25 @@ export default function DevPortalPage() {
             </p>
           </div>
         </div>
-      </section>
+      </PageShell>
 
       {/* API Key Manager (auth-gated section) */}
-      <section
+      <PageShell
+        as="section"
         id="api-keys"
-        className="mx-auto max-w-5xl scroll-mt-6 px-6 pb-12"
+        className="scroll-mt-6 px-6 pt-0 pb-12"
       >
         <ApiKeyManager />
-      </section>
+      </PageShell>
 
       {/* Code Snippets */}
-      <section
+      <PageShell
+        as="section"
         id="code-snippets"
-        className="mx-auto max-w-5xl scroll-mt-6 px-6 pb-16"
+        className="scroll-mt-6 px-6 pt-0 pb-16"
       >
         <CodeSnippetLibrary />
-      </section>
+      </PageShell>
     </div>
   );
 }

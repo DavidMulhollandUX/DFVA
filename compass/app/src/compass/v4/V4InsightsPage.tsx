@@ -8,6 +8,7 @@ import {
   CardTitle,
 } from "../../client/components/ui/card";
 import { InsightsGate } from "../InsightsGate";
+import { PageShell } from "../../client/components/PageShell";
 import { MethodGlossary } from "../MethodGlossary";
 import { SourceReferences } from "../SourceReferences";
 import { facultySlug } from "../faculty";
@@ -216,7 +217,7 @@ export default function V4InsightsPage() {
 
   return (
     <InsightsGate>
-      <div className="mx-auto max-w-7xl px-4 py-10">
+      <PageShell>
         {/* ---------- Hero ---------- */}
         <div className="mb-8">
           <p className="text-muted-foreground mb-2 text-xs font-semibold tracking-[0.18em] uppercase">
@@ -986,7 +987,7 @@ export default function V4InsightsPage() {
             </Link>
           </span>
         </div>
-      </div>
+      </PageShell>
     </InsightsGate>
   );
 }

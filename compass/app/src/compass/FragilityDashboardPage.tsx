@@ -32,6 +32,7 @@ import {
 } from "../client/components/ui/card";
 import { useMemo } from "react";
 import { Link } from "react-router";
+import { formatDate } from "./formatDate";
 
 const COLORS = [
   "#ef4444",
@@ -80,10 +81,7 @@ export default function FragilityDashboardPage() {
     return sorted.map((i) => {
       cumulative += i.blastRadius;
       return {
-        date: new Date(i.date).toLocaleDateString("en-US", {
-          month: "short",
-          day: "numeric",
-        }),
+        date: formatDate(i.date, "dayMonth"),
         platform: i.platform,
         blastRadius: i.blastRadius,
         cumulative,
@@ -108,10 +106,7 @@ export default function FragilityDashboardPage() {
         platform:
           i.platform.length > 12 ? i.platform.slice(0, 12) + "…" : i.platform,
         hours: i.recoveryHours as number,
-        label: new Date(i.date).toLocaleDateString("en-US", {
-          month: "short",
-          year: "numeric",
-        }),
+        label: formatDate(i.date, "monthYear"),
       }));
   }, [incidents]);
 
@@ -323,11 +318,7 @@ export default function FragilityDashboardPage() {
                         {incident.platform}
                       </span>
                       <span className="text-muted-foreground text-xs">
-                        {new Date(incident.date).toLocaleDateString("en-US", {
-                          year: "numeric",
-                          month: "long",
-                          day: "numeric",
-                        })}
+                        {formatDate(incident.date, "long")}
                       </span>
                       {incident.recoveryHours != null && (
                         <span className="rounded bg-yellow-500/10 px-2 py-0.5 text-xs font-semibold text-yellow-600">

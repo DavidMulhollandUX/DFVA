@@ -4,6 +4,7 @@ import { brand } from "../branding/brandConfig";
 import { V4_ADAPTIVENESS_MAX } from "./v4/data/v4Rubric";
 import { programReportPath } from "./reportLinks";
 import { InsightsGate } from "./InsightsGate";
+import { PageShell } from "../client/components/PageShell";
 import { useMemo } from "react";
 import {
   ArrowLeft,
@@ -60,7 +61,7 @@ export default function PortfolioHealthPage() {
 
   return (
     <InsightsGate>
-      <div className="mx-auto max-w-5xl px-4 py-16">
+      <PageShell className="py-16">
         <div className="mb-8">
           <Link
             to="/insights"
@@ -115,7 +116,9 @@ export default function PortfolioHealthPage() {
         <div className="mb-8 grid grid-cols-1 gap-6 md:grid-cols-2">
           <Card>
             <CardHeader>
-              <CardTitle className="text-base">Position distribution</CardTitle>
+              <CardTitle as="h2" className="text-base">
+                Position distribution
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
@@ -155,7 +158,9 @@ export default function PortfolioHealthPage() {
 
           <Card>
             <CardHeader>
-              <CardTitle className="text-base">Key findings</CardTitle>
+              <CardTitle as="h2" className="text-base">
+                Key findings
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-3">
@@ -208,7 +213,7 @@ export default function PortfolioHealthPage() {
         {/* Quick wins */}
         <Card className="mb-8">
           <CardHeader>
-            <CardTitle className="flex items-center gap-2 text-base">
+            <CardTitle as="h2" className="flex items-center gap-2 text-base">
               <TrendingUp className="h-4 w-4" />
               Highest-leverage changes
             </CardTitle>
@@ -247,7 +252,7 @@ export default function PortfolioHealthPage() {
         {/* Faculty summary */}
         <Card>
           <CardHeader>
-            <CardTitle className="text-base">
+            <CardTitle as="h2" className="text-base">
               Faculties needing attention
             </CardTitle>
           </CardHeader>
@@ -291,7 +296,7 @@ export default function PortfolioHealthPage() {
             )}
           </CardContent>
         </Card>
-      </div>
+      </PageShell>
     </InsightsGate>
   );
 }

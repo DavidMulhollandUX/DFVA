@@ -3,6 +3,7 @@ import { brand } from "../../branding/brandConfig";
 import { Link, useSearchParams } from "react-router";
 import { ArrowRight, Search, X } from "lucide-react";
 import { Card, CardContent } from "../../client/components/ui/card";
+import { PageShell } from "../../client/components/PageShell";
 import { QUADRANTS } from "../v2/quadrants";
 import { programReportPath } from "../reportLinks";
 import { hasReportContent } from "../reportContent/index";
@@ -184,7 +185,7 @@ export default function V4ReportsPage() {
     "border-border bg-background text-foreground rounded-lg border px-3 py-2 text-sm";
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-10">
+    <PageShell>
       <div className="mb-8">
         <p className="text-muted-foreground mb-2 text-xs font-semibold tracking-[0.18em] uppercase">
           Durability Reports · Panel C {V4_INSTRUMENT}
@@ -278,6 +279,6 @@ export default function V4ReportsPage() {
           No programs match these filters.
         </p>
       )}
-    </div>
+    </PageShell>
   );
 }

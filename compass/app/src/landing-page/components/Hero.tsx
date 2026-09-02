@@ -90,8 +90,8 @@ function SamplePositionCard() {
   const q = QUADRANTS[row.position];
   const confidenceLabel = row.atThreshold ? "near a threshold" : "firm";
   const confidenceChip = row.atThreshold
-    ? "bg-[#FEF5E7] text-[#B97E26]"
-    : "bg-[#E8F5EE] text-[#1F9D6B]";
+    ? "bg-position-attention-tint text-position-attention-ink"
+    : "bg-position-well-positioned-tint text-position-well-positioned-ink";
   const exposureMedian = row.exposureMedian ?? V4_META.expMedian;
   const exposureMedianLabel =
     row.exposureTier === "field" ? "field median" : "portfolio median";
@@ -193,7 +193,9 @@ function HeroMiniMatrix({ row }: { row: V4PortfolioRow }) {
       viewBox={`0 0 ${W} ${H}`}
       className="mt-5 w-full"
       role="img"
-      aria-label="Portfolio matrix: destination AI exposure by curriculum adaptiveness, this program highlighted"
+      aria-label={`Portfolio matrix: destination AI exposure by curriculum adaptiveness. ${
+        row.name
+      } is ${V4_QUADRANT_LABELS[row.position]}.`}
     >
       <rect
         x={PAD}
@@ -245,7 +247,21 @@ function HeroMiniMatrix({ row }: { row: V4PortfolioRow }) {
         fill={QUADRANTS[row.position].hex}
         stroke="var(--color-background)"
         strokeWidth={2}
-      />
+      >
+        <title>
+          {row.name}: {V4_QUADRANT_LABELS[row.position]}
+        </title>
+      </circle>
+      <text
+        x={x(row.exposure) + (x(row.exposure) > W / 2 ? -9 : 9)}
+        y={y(row.adaptiveness) + 3}
+        fontSize={8}
+        fontWeight={600}
+        textAnchor={x(row.exposure) > W / 2 ? "end" : "start"}
+        fill="var(--color-foreground)"
+      >
+        {V4_QUADRANT_LABELS[row.position]}
+      </text>
       <text
         x={W / 2}
         y={H - 6}

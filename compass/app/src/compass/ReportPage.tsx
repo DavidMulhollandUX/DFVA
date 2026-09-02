@@ -19,6 +19,27 @@ const V4Report = lazy(() => import("./v4/V4ReportPage"));
  */
 const V4R_PREFIX = "dfva-v4r-";
 
+/** Placeholder shown while the report chunk (1,700–2,300 lines) downloads. */
+function ReportSkeleton() {
+  return (
+    <div
+      className="mx-auto max-w-6xl animate-pulse space-y-6 px-4 py-10"
+      role="status"
+      aria-label="Loading report"
+    >
+      <div className="bg-muted h-4 w-40 rounded" />
+      <div className="bg-muted h-10 w-3/4 rounded" />
+      <div className="bg-muted h-4 w-1/2 rounded" />
+      <div className="grid gap-4 sm:grid-cols-2">
+        <div className="bg-muted h-32 rounded-xl" />
+        <div className="bg-muted h-32 rounded-xl" />
+      </div>
+      <div className="bg-muted h-64 rounded-xl" />
+      <span className="sr-only">Loading report</span>
+    </div>
+  );
+}
+
 export default function ReportPage() {
   const { reportSlug = "" } = useParams<{ reportSlug: string }>();
   const code = reportSlug.startsWith(V4R_PREFIX)
@@ -27,7 +48,7 @@ export default function ReportPage() {
       ? null
       : reportSlug;
   return (
-    <Suspense fallback={null}>
+    <Suspense fallback={<ReportSkeleton />}>
       {code === null ? <LegacyReport /> : <V4Report key={code} code={code} />}
     </Suspense>
   );

@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { Card, CardContent } from "../client/components/ui/card";
 import { useMemo } from "react";
+import { formatDate } from "./formatDate";
 
 export default function WhyStructuredDataPage() {
   const { data: incidents, isLoading } = useQuery(getFragilityIncidents);
@@ -150,11 +151,7 @@ export default function WhyStructuredDataPage() {
                       {incident.platform}
                     </span>
                     <span className="text-muted-foreground text-xs">
-                      {new Date(incident.date).toLocaleDateString("en-US", {
-                        year: "numeric",
-                        month: "long",
-                        day: "numeric",
-                      })}
+                      {formatDate(incident.date, "long")}
                     </span>
                     {incident.recoveryHours != null && (
                       <span className="rounded bg-yellow-500/10 px-2 py-0.5 text-xs font-semibold text-yellow-600">
