@@ -596,6 +596,26 @@ for (const file of V4R_FILES) {
   }
 }
 
+// ── Cross-family coverage: every scored coursework program ships all three v4 artefacts ──
+// V4ReportPage renders the market card and the improvement-plan card for every
+// program in the dfva-v4- family. A missing sibling renders as a silent blank
+// (b-famusth and b-fapro shipped that way on 2026-09-01), so the set identity
+// is asserted here rather than discovered on the page.
+{
+  const codesOf = (files: string[], prefix: string) =>
+    new Set(files.map((f) => f.slice(prefix.length, -'.md'.length)))
+  const v4 = codesOf(V4_FILES, 'dfva-v4-')
+  const market = codesOf(MARKET_FILES, 'dfva-market-')
+  const plans = codesOf(V4_RECOMMEND_FILES, 'dfva-v4-recommend-')
+  for (const code of v4) {
+    if (!market.has(code)) errors.push(`dfva-v4-${code}: no dfva-market-${code}.md — the report page renders an empty market card`)
+    if (!plans.has(code)) errors.push(`dfva-v4-${code}: no dfva-v4-recommend-${code}.md — the report page promises an improvement plan and renders none`)
+  }
+  for (const code of plans) {
+    if (!v4.has(code)) errors.push(`dfva-v4-recommend-${code}: no dfva-v4-${code}.md — a plan without a scored report`)
+  }
+}
+
 const totalFiles =
   REPORT_FILES.length + MARKET_FILES.length + RECOMMEND_FILES.length + V4_FILES.length + V4_RECOMMEND_FILES.length + V4R_FILES.length
 console.log(

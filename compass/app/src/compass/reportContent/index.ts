@@ -478,6 +478,8 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-v4-recommend-b-faanim": () => import("./dfva-v4-recommend-b-faanim"),
   "dfva-v4-recommend-b-fadance": () => import("./dfva-v4-recommend-b-fadance"),
   "dfva-v4-recommend-b-fafilmtv": () => import("./dfva-v4-recommend-b-fafilmtv"),
+  "dfva-v4-recommend-b-famusth": () => import("./dfva-v4-recommend-b-famusth"),
+  "dfva-v4-recommend-b-fapro": () => import("./dfva-v4-recommend-b-fapro"),
   "dfva-v4-recommend-b-favisart": () => import("./dfva-v4-recommend-b-favisart"),
   "dfva-v4-recommend-b-sci": () => import("./dfva-v4-recommend-b-sci"),
   "dfva-v4-recommend-dr-philedp": () => import("./dfva-v4-recommend-dr-philedp"),
