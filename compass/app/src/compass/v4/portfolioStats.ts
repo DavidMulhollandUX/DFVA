@@ -21,12 +21,22 @@ import { V4_RUBRIC } from "./data/v4Rubric";
 import { REPORT_INDEX, type ReportIndexEntry } from "./reportIndex";
 import {
   V4_TIER_LABELS,
+  type V4PanelATier,
   basisFor,
   basisMedian,
   isOwnRecord,
 } from "./exposureBasis";
 import { gateState, type GateState } from "./gateState";
 import type { V4Quadrant } from "./v4Position";
+
+/** Reading order for the four positions: strongest footing first. Shared by
+ *  every page that lists positions so the order cannot drift between them. */
+export const POSITION_ORDER = [
+  "well-positioned",
+  "comfortable",
+  "sheltered",
+  "attention",
+] as const satisfies readonly V4Quadrant[];
 
 /** Rubric items in display order (adaptive C1–C5, then workplace W1–W3),
  *  carrying both the human label (`name`) and the column heading (`short`).
@@ -54,7 +64,7 @@ export interface V4PortfolioRow {
   /** Why a row carries no scores. Null for assessed rows. */
   unassessedReason: null | "research" | "archived";
   exposure: number | null;
-  exposureTier: string | null;
+  exposureTier: V4PanelATier | null;
   /** Human label for the tier ("measured", "program family", …). */
   exposureTierLabel: string | null;
   /** Whether the exposure was computed on the program's OWN graduates. Null
@@ -261,7 +271,9 @@ export function facultyRows(rows: V4PortfolioRow[]): FacultyRow[] {
     .sort((a, b) => (b.avgAdaptiveness ?? 0) - (a.avgAdaptiveness ?? 0));
 }
 
-function failsAGate(r: V4PortfolioRow): boolean {
+/** True when either precondition gate is not met. Null gates (unassessed
+ *  rows) never fail. */
+export function failsAGate(r: V4PortfolioRow): boolean {
   if (!r.gates) return false;
   return r.gates.G1 === "not-met" || r.gates.G2 === "not-met";
 }
@@ -407,10 +419,13 @@ export function toIndexEntryShape(r: V4PortfolioRow): ReportIndexEntry {
     faculty: r.faculty,
     status: r.unassessedReason ?? "current",
     exposure: r.exposure,
-    exposureTier: (r.exposureTier ?? null) as ReportIndexEntry["exposureTier"],
+    exposureTier: r.exposureTier,
     adaptiveness: r.adaptiveness,
     workplace: r.workplace,
     position: r.position,
-    archived: { v1: false, v31: false },
+    archived: REPORT_INDEX.find((e) => e.code === r.code)?.archived ?? {
+      v1: false,
+      v31: false,
+    },
   };
 }

@@ -18,6 +18,7 @@ import {
 } from "../client/components/ui/card";
 import { QUADRANTS } from "./v2/quadrants";
 import {
+  POSITION_ORDER,
   facultyRows,
   gateFailures,
   itemAverages,
@@ -26,13 +27,6 @@ import {
   quickWins,
   v4PortfolioRows,
 } from "./v4/portfolioStats";
-
-const POSITION_ORDER = [
-  "well-positioned",
-  "comfortable",
-  "sheltered",
-  "attention",
-] as const;
 
 export default function PortfolioHealthPage() {
   const stats = useMemo(() => {

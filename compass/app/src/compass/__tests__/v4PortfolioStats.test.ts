@@ -7,7 +7,9 @@ import {
   DEFAULT_SORT,
   ITEM_IDS,
   V4_ITEMS,
+  POSITION_ORDER,
   facultyRows,
+  failsAGate,
   gateFailures,
   itemAverages,
   lastVerifiedAt,
@@ -16,6 +18,7 @@ import {
   quickWins,
   sortRows,
   thresholdTieCount,
+  toIndexEntryShape,
   v4PortfolioRows,
 } from "../v4/portfolioStats";
 
@@ -301,5 +304,32 @@ describe("rubric alignment", () => {
       ...Array(5).fill("adaptive"),
       ...Array(3).fill("workplace"),
     ]);
+  });
+});
+
+describe("toIndexEntryShape", () => {
+  it("round-trips every row back to its REPORT_INDEX entry", () => {
+    for (const r of rows) {
+      const entry = REPORT_INDEX.find((e) => e.code === r.code);
+      expect(entry).toBeDefined();
+      expect(toIndexEntryShape(r)).toEqual(entry);
+    }
+  });
+});
+
+describe("failsAGate and POSITION_ORDER", () => {
+  it("agrees with gateFailures() row for row", () => {
+    const failing = new Set(gateFailures(rows).map((r) => r.code));
+    for (const r of rows) expect(failsAGate(r)).toBe(failing.has(r.code));
+  });
+
+  it("never fails an unassessed row", () => {
+    for (const r of unassessed) expect(failsAGate(r)).toBe(false);
+  });
+
+  it("lists each position exactly once and covers every placed row", () => {
+    expect(new Set(POSITION_ORDER).size).toBe(4);
+    const seen = new Set(rows.map((r) => r.position).filter(Boolean));
+    for (const pos of seen) expect(POSITION_ORDER).toContain(pos);
   });
 });

@@ -4,7 +4,9 @@ import { programReportPath } from "./reportLinks";
 import { facultySlug } from "./faculty";
 import { FACULTY_OUTCOMES, type FacultyOutcome } from "./facultyOutcomes";
 import {
+  POSITION_ORDER,
   facultyRows,
+  failsAGate,
   itemAverages,
   needsAttention,
   quickWins,
@@ -33,10 +35,6 @@ import {
   CardTitle,
 } from "../client/components/ui/card";
 
-function gateFails(r: V4PortfolioRow): boolean {
-  return r.gates?.G1 === "not-met" || r.gates?.G2 === "not-met";
-}
-
 // ---------------------------------------------------------------------------
 // Per-faculty detail view (rendered when /insights/faculty/:facultySlug matches)
 // ---------------------------------------------------------------------------
@@ -47,21 +45,31 @@ function FacultyDetail({
   summary: FacultyRow;
   programs: V4PortfolioRow[];
 }) {
-  const assessed = programs.filter((p) => p.assessed);
-  const unassessed = programs.filter((p) => !p.assessed);
-  const sorted = [...assessed].sort(
-    (a, b) => (b.adaptiveness ?? -1) - (a.adaptiveness ?? -1),
-  );
-  const wins = quickWins(programs);
-  const atRisk = programs.filter(
-    (p) => p.position === "attention" || gateFails(p),
-  );
-  const adaptiveAvgs = itemAverages(programs).filter(
-    (a) => a.subscale === "adaptive",
-  );
-  const workplaceAvgs = itemAverages(programs).filter(
-    (a) => a.subscale === "workplace",
-  );
+  const {
+    assessed,
+    unassessed,
+    sorted,
+    wins,
+    atRisk,
+    adaptiveAvgs,
+    workplaceAvgs,
+  } = useMemo(() => {
+    const assessed = programs.filter((p) => p.assessed);
+    const averages = itemAverages(programs);
+    return {
+      assessed,
+      unassessed: programs.filter((p) => !p.assessed),
+      sorted: [...assessed].sort(
+        (a, b) => (b.adaptiveness ?? -1) - (a.adaptiveness ?? -1),
+      ),
+      wins: quickWins(programs),
+      atRisk: programs.filter(
+        (p) => p.position === "attention" || failsAGate(p),
+      ),
+      adaptiveAvgs: averages.filter((a) => a.subscale === "adaptive"),
+      workplaceAvgs: averages.filter((a) => a.subscale === "workplace"),
+    };
+  }, [programs]);
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16">
@@ -107,14 +115,7 @@ function FacultyDetail({
           </CardHeader>
           <CardContent>
             <div className="space-y-3">
-              {(
-                [
-                  "well-positioned",
-                  "comfortable",
-                  "sheltered",
-                  "attention",
-                ] as const
-              ).map((pos) => {
+              {POSITION_ORDER.map((pos) => {
                 const c = summary.positions[pos];
                 const cfg = QUADRANTS[pos];
                 return (
@@ -217,7 +218,7 @@ function FacultyDetail({
               <div className="text-muted-foreground text-sm">
                 {atRisk
                   .map(
-                    (p) => `${p.name}${gateFails(p) ? " (gate failure)" : ""}`,
+                    (p) => `${p.name}${failsAGate(p) ? " (gate failure)" : ""}`,
                   )
                   .join(" · ")}
               </div>
@@ -263,7 +264,7 @@ function FacultyDetail({
                     {p.workplace}/9
                   </td>
                   <td className="px-3 py-3 text-center text-xs">
-                    {gateFails(p) ? (
+                    {failsAGate(p) ? (
                       <span className="text-red-600 dark:text-red-400">
                         {p.gates?.G1 === "not-met" ? "G1 " : ""}
                         {p.gates?.G2 === "not-met" ? "G2 " : ""}

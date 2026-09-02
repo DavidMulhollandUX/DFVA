@@ -17,6 +17,7 @@ import { PortfolioMatrixV4 } from "./components/PortfolioMatrixV4";
 import { V4StatusBadge } from "./V4StatusBadge";
 import {
   DEFAULT_SORT,
+  POSITION_ORDER,
   ITEM_IDS,
   facultyRows,
   gateFailures,
@@ -36,14 +37,6 @@ import {
 import { V4_INSTRUMENT } from "./data/v4Rubric";
 import { V4_META } from "./data/v4PanelC";
 import { QUADRANTS, type QuadrantConfig } from "../v2/quadrants";
-
-/** Reading order for the four positions: strongest footing first. */
-const POSITION_ORDER = [
-  "well-positioned",
-  "comfortable",
-  "sheltered",
-  "attention",
-] as const;
 
 const POSITION_MEANING: Record<string, string> = {
   "well-positioned":
