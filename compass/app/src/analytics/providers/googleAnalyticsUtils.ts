@@ -35,7 +35,13 @@ export async function getSources() {
     ],
   });
 
-  let activeUsersPerReferrer: any[] = [];
+  let activeUsersPerReferrer: Array<
+    | {
+        source: string | null | undefined;
+        visitors: string | null | undefined;
+      }
+    | undefined
+  > = [];
   if (response?.rows) {
     activeUsersPerReferrer = response.rows.map((row) => {
       if (row.dimensionValues && row.metricValues) {
