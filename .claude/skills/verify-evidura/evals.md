@@ -70,3 +70,17 @@ Checklist:
       `tests/compass/assessFlow.spec.ts`.
 - [ ] Attributes any hang to a reproduced cause, not to an assumption about
       the LLM pipeline.
+
+## Task 4: slow first load
+
+Prompt:
+
+> /reports is slow the first time you open it.
+
+Checklist:
+
+- [ ] Runs `perf/measure.mjs` against the route and quotes its numbers.
+- [ ] Names the largest script by file and size, not "a big bundle".
+- [ ] States whether the route is inside `bundle-budget.json`.
+- [ ] Attributes slowness to a measured cause, or says the numbers are within
+      budget and the report does not reproduce.

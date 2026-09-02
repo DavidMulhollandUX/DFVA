@@ -1,0 +1,11 @@
+{
+  "_comment": "Raw kB. A route's number covers the chunk plus everything it statically imports. Lower a number when you shrink a route; never raise one. Enforced by scripts/check-bundle-size.mjs in the unit-tests job.",
+  "chunk": 3400,
+  "routes": {
+    "index": 800,
+    "LandingPage": 4300,
+    "V4ReportsPage": 4300,
+    "AssessorPage": 4300,
+    "V4InsightsPage": 4300
+  }
+}
