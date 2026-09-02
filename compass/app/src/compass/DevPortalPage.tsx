@@ -13,22 +13,23 @@ export default function DevPortalPage() {
           </h1>
           <p className="text-muted-foreground mt-4 max-w-2xl text-lg">
             Integrate Evidura assessments into your university's curriculum
-            analytics pipeline. Clean API, typed SDKs, interactive playground.
+            analytics pipeline. Clean API, typed SDKs, ready-to-run code
+            examples.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="/developers/reference"
+              href="#code-snippets"
               className="bg-primary text-primary-foreground hover:bg-primary/90 inline-flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium"
             >
               <BookOpen className="h-4 w-4" />
-              API Reference
+              Code examples
             </a>
             <a
-              href="/developers/playground"
+              href="#api-keys"
               className="hover:bg-muted inline-flex items-center gap-2 rounded-md border px-4 py-2 text-sm font-medium"
             >
               <Activity className="h-4 w-4" />
-              API Playground
+              Get an API key
             </a>
           </div>
         </div>
@@ -64,22 +65,28 @@ export default function DevPortalPage() {
             <div className="bg-primary/10 mb-4 flex h-10 w-10 items-center justify-center rounded-md">
               <span className="text-primary text-lg font-bold">3</span>
             </div>
-            <h3 className="mb-2 font-semibold">Explore the docs</h3>
+            <h3 className="mb-2 font-semibold">Copy a working example</h3>
             <p className="text-muted-foreground text-sm">
-              Browse the interactive API reference, try the playground, or
-              download the OpenAPI 3.1 spec for your security review.
+              Copy a request from the code examples in the language you use;
+              each one shows the request and the response shape.
             </p>
           </div>
         </div>
       </section>
 
       {/* API Key Manager (auth-gated section) */}
-      <section className="mx-auto max-w-5xl px-6 pb-12">
+      <section
+        id="api-keys"
+        className="mx-auto max-w-5xl scroll-mt-6 px-6 pb-12"
+      >
         <ApiKeyManager />
       </section>
 
       {/* Code Snippets */}
-      <section className="mx-auto max-w-5xl px-6 pb-16">
+      <section
+        id="code-snippets"
+        className="mx-auto max-w-5xl scroll-mt-6 px-6 pb-16"
+      >
         <CodeSnippetLibrary />
       </section>
     </div>

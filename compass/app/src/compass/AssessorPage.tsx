@@ -26,10 +26,20 @@ import {
   ASSESSABLE_PROGRAMS,
   type HandbookUrlCheck,
 } from "./handbookUrlCheck";
+import { v4PortfolioRows } from "./v4/portfolioStats";
+import {
+  Alert,
+  AlertDescription,
+  AlertTitle,
+} from "../client/components/ui/alert";
 
 const EXAMPLE_URL =
   ASSESSABLE_PROGRAMS[0]?.handbookUrl ??
   "https://handbook.unimelb.edu.au/2026/courses/mc-cs";
+
+// Programs scored on the current v4 instrument, derived from the same rows
+// that drive /insights so the two pages cannot disagree.
+const scoredCount = v4PortfolioRows().filter((r) => r.assessed).length;
 
 export default function AssessorPage() {
   const [inputUrl, setInputUrl] = useState("");
@@ -62,6 +72,7 @@ export default function AssessorPage() {
   const {
     data: jobs = [],
     isLoading,
+    error: jobsError,
     refetch,
   } = useQuery(getAssessmentJobs, undefined, {
     // Signed-out callers get [] back, so skip the request entirely.
@@ -124,19 +135,6 @@ export default function AssessorPage() {
           sub-scales (adaptiveness and workplace practice), checks two
           preconditions, and places the program against the portfolio median.
         </p>
-      </div>
-
-      <div className="mb-6 flex items-start gap-3 rounded-lg border border-amber-300/60 bg-amber-50 px-4 py-3 text-sm text-amber-950 dark:border-amber-400/30 dark:bg-amber-950/40 dark:text-amber-100">
-        <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0" />
-        <div>
-          <p className="font-semibold">Prototype — not live.</p>
-          <p className="mt-0.5">
-            The assessment pipeline is a working prototype, not a production
-            system. Submitting a handbook URL will queue a job but the
-            automated scoring service is not currently connected. Sample
-            reports and scores on this site are illustrative and may change.
-          </p>
-        </div>
       </div>
 
       <form onSubmit={handleSubmit} className="mb-4">
@@ -208,6 +206,15 @@ export default function AssessorPage() {
         <div className="flex items-center justify-center py-24">
           <Loader2 className="text-muted-foreground h-6 w-6 animate-spin" />
         </div>
+      ) : jobsError ? (
+        <Alert variant="destructive" data-testid="assess-history-error">
+          <AlertTriangle className="h-4 w-4" />
+          <AlertTitle>Could not load your assessments</AlertTitle>
+          <AlertDescription>
+            {(jobsError as Error).message ??
+              "The request failed. Reload the page to try again."}
+          </AlertDescription>
+        </Alert>
       ) : !hasHistory ? (
         <div className="text-muted-foreground flex flex-col items-center justify-center py-24 text-center">
           <Link2 className="mb-4 h-10 w-10 opacity-20" />
@@ -230,14 +237,14 @@ export default function AssessorPage() {
 
       <div className="border-border bg-muted/30 mt-16 rounded-xl border p-6">
         <h2 className="text-foreground text-sm font-semibold">
-          Programs with a full assessment ({ASSESSABLE_PROGRAMS.length} of 221
-          scored)
+          Programs with a full assessment ({ASSESSABLE_PROGRAMS.length} of{" "}
+          {scoredCount} scored)
         </h2>
         <p className="text-muted-foreground mt-1 text-sm">
-          Pick one to fill the field above. 221 programs have been scored on
-          the current v4 instrument; the {ASSESSABLE_PROGRAMS.length} listed
-          here have handbook URLs and return a pre-written report. Any other
-          course page still works — it just comes back as a provisional
+          Pick one to fill the field above. {scoredCount} programs have been
+          scored on the current v4 instrument; the {ASSESSABLE_PROGRAMS.length}{" "}
+          listed here have handbook URLs and return a pre-written report. Any
+          other course page still works — it just comes back as a provisional
           placeholder.
         </p>
         <div className="relative mt-4">
@@ -350,7 +357,7 @@ function JobRow({ job }: { job: any }) {
  * time and polls until the assessment settles.
  */
 function AnonymousJobRow({ jobId }: { jobId: string }) {
-  const { data: job } = useQuery(
+  const { data: job, error } = useQuery(
     getAssessmentJob,
     { id: jobId },
     {
@@ -360,6 +367,20 @@ function AnonymousJobRow({ jobId }: { jobId: string }) {
           : false,
     },
   );
+
+  if (error) {
+    return (
+      <Card>
+        <CardContent className="flex items-center gap-4 py-4">
+          <XCircle className="text-destructive h-5 w-5 shrink-0" />
+          <p className="text-muted-foreground flex-1 text-sm">
+            Could not load this assessment.{" "}
+            {(error as Error).message ?? "Reload the page to try again."}
+          </p>
+        </CardContent>
+      </Card>
+    );
+  }
 
   if (!job) {
     return (

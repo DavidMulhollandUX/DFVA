@@ -33,5 +33,5 @@ cd compass/app && wasp start      # terminal 2 — server :3001, client :3000
 
 ## Rules
 - Use conventional commits (feat:, fix:, refactor:, docs:, chore:)
-- Test before committing. Lint before pushing.
+- Test before committing. Lint before pushing. `npm run check` (prettier, tsc, vitest) is what CI runs — run it before every commit.
 - For multi-step tasks, prefer inline Workflow scripts

@@ -1489,12 +1489,28 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
           subtitle="Job families, hiring signals, and skill shifts for this program's destinations — confidence level stated per section"
         />
         <div id="plan" className="scroll-mt-6">
-          <ReportMarkdownCard
-            slug={`dfva-v4-recommend-${program.code}`}
-            label="Redesign Recommendations · v4"
-            title="Improvement Plan (Panel C v4)"
-            subtitle="Recommended curriculum changes, each linked to a specific score and the market evidence behind it — with pass/fail preconditions noted where they apply"
-          />
+          {hasReportContent(`dfva-v4-recommend-${program.code}`) ? (
+            <ReportMarkdownCard
+              slug={`dfva-v4-recommend-${program.code}`}
+              label="Redesign Recommendations · v4"
+              title="Improvement Plan (Panel C v4)"
+              subtitle="Recommended curriculum changes, each linked to a specific score and the market evidence behind it — with pass/fail preconditions noted where they apply"
+            />
+          ) : (
+            <div
+              className="border-border text-muted-foreground mt-6 rounded-lg border border-dashed p-5 text-sm"
+              data-testid="v4-no-plan"
+            >
+              <p className="text-foreground mb-1 font-medium">
+                No improvement plan for this program yet
+              </p>
+              <p>
+                The scoring and market evidence exist, but the improvement plan
+                for {program.name} has not been authored. This section is empty
+                rather than populated from a related program.
+              </p>
+            </div>
+          )}
         </div>
 
         {/* ================= PART C — METHOD ================= */}

@@ -37,7 +37,8 @@ export default function PrototypeBanner() {
       <span className="font-semibold">Working prototype.</span>{" "}
       <span>
         {brand.name} is under active development; scores and reports are
-        illustrative and may change. Start with the{" "}
+        illustrative and may change, and the automated scoring service is not
+        yet connected. Start with the{" "}
         <ReactRouterLink
           to="/reports"
           className="font-medium underline underline-offset-2 hover:opacity-80"

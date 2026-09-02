@@ -162,12 +162,6 @@ export default function InsightsPage() {
                 <Swords className="text-primary h-5 w-5" />
                 Competitive Landscape
               </h2>
-              <Link
-                to="/insights/competitive"
-                className="text-primary inline-flex shrink-0 items-center gap-1.5 text-sm font-medium hover:underline"
-              >
-                View all events <ArrowRight className="h-4 w-4" />
-              </Link>
             </div>
             <div className="space-y-4">
               {topThreats.map((event: any) => (

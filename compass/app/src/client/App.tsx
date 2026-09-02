@@ -48,7 +48,9 @@ export default function App() {
     } else {
       window.scrollTo(0, 0);
     }
-  }, [location]);
+    // Depend on pathname and hash only: a search-param update (sort, filter,
+    // search on /insights) is not a navigation and must not scroll to top.
+  }, [location.pathname, location.hash]);
 
   return (
     <>

@@ -140,7 +140,7 @@ export function formatApiError(
     error: {
       code,
       message,
-      docs_url: docsUrl || "/developers/reference#errors",
+      docs_url: docsUrl || "/developers",
     },
   };
 }

@@ -182,18 +182,12 @@ export default function V4InsightsPage() {
   const search = params.get("q") ?? "";
 
   const setParam = (key: string, value: string | null) => {
-    // Preserve scroll position: updating search params (faculty filter, sort,
-    // search) should not snap the user back to the top of the page. React
-    // Router's scroll restoration fires on every location change, including
-    // replace-only query-param updates, so capture and restore the scroll
-    // position around the update.
-    const scrollTop = window.scrollY;
     const next = new URLSearchParams(params);
     if (value === null || value === "") next.delete(key);
     else next.set(key, value);
     setParams(next, { replace: true });
-    requestAnimationFrame(() => window.scrollTo(0, scrollTop));
   };
+  const clearParams = () => setParams({}, { replace: true });
 
   // ---- Filtering ---------------------------------------------------------
   const q = search.trim().toLowerCase();
@@ -229,23 +223,22 @@ export default function V4InsightsPage() {
             Portfolio overview
           </h1>
           <p className="text-muted-foreground mt-3 max-w-3xl text-sm leading-relaxed">
-            Each program sits on two axes: how much its graduates'
-            destination occupations overlap with what AI can do, and how well
-            its curriculum builds the capabilities that hold up under that
-            overlap.{" "}
+            Each program sits on two axes: how much its graduates' destination
+            occupations overlap with what AI can do, and how well its curriculum
+            builds the capabilities that hold up under that overlap.{" "}
             <strong className="text-foreground font-medium">
               Exposure is not risk
             </strong>{" "}
             — it measures task overlap, not replacement. A program whose
             graduates enter highly exposed occupations, and whose curriculum
-            already builds adaptive capability, is in the strongest position
-            on this page, not the weakest.
+            already builds adaptive capability, is in the strongest position on
+            this page, not the weakest.
           </p>
           <p className="text-muted-foreground mt-3 text-sm">
-            {totalAssessed} programs scored on the current instrument, every
-            one placed on the map. {stats.research.length} research degrees are
-            listed separately because Panel C scores taught curriculum, which
-            a research degree does not have.
+            {totalAssessed} programs scored on the current instrument, every one
+            placed on the map. {stats.research.length} research degrees are
+            listed separately because Panel C scores taught curriculum, which a
+            research degree does not have.
           </p>
         </div>
 
@@ -296,14 +289,14 @@ export default function V4InsightsPage() {
                 <Info className="text-muted-foreground mt-0.5 h-4 w-4 shrink-0" />
                 <p className="text-sm">
                   <span className="font-medium">
-                    {stats.atThreshold} of {totalAssessed} programs sit
-                    exactly on the adaptiveness median
+                    {stats.atThreshold} of {totalAssessed} programs sit exactly
+                    on the adaptiveness median
                   </span>{" "}
                   — their quadrant placement depends on a single curriculum
                   item, so treat those positions as approximate and read the
-                  actual scores. Exposure, by contrast, is a direct
-                  measurement, not a rating, so there is no equivalent "just
-                  over the line" caveat on that axis.
+                  actual scores. Exposure, by contrast, is a direct measurement,
+                  not a rating, so there is no equivalent "just over the line"
+                  caveat on that axis.
                 </p>
               </div>
               <div className="flex items-start gap-3">
@@ -732,11 +725,7 @@ export default function V4InsightsPage() {
               </button>
               {(search || facultyFilter || showItems) && (
                 <button
-                  onClick={() => {
-                    const scrollTop = window.scrollY;
-                    setParams({}, { replace: true });
-                    requestAnimationFrame(() => window.scrollTo(0, scrollTop));
-                  }}
+                  onClick={clearParams}
                   className="text-muted-foreground flex items-center gap-1 text-xs underline"
                 >
                   <X className="h-3 w-3" /> Clear
