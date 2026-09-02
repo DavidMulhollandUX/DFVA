@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Bachelor of Biomedicine (B-BMED) is a 300-point undergraduate specialist degree offered by the Faculty of Medicine, Dentistry and Health Sciences (MDHS) and the Faculty of Science, serving as the flagship pathway into medical, dental, and health-science careers. The program passes Gate G1 on an extensive compulsory specialist core (125 points across all year levels, from BIOM10001 through BIOM30001) with a strict prerequisite chain, but fails Gate G2 because core assessments are dominated by tests, quizzes, lab reports, and written exams lacking assessed trade-off decisions or live project accountability under clinical/diagnostic uncertainty.

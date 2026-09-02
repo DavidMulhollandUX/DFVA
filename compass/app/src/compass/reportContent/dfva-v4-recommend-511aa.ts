@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Public and International Law (511AA) is a 100-point postgraduate specialist law degree offered by Melbourne Law School for legal practitioners, diplomats, government legal officers, and NGO advocates. The program fails Gate G1 due to the absence of an all-compulsory specialist core, accredited sequence, or staged prerequisite chain (the 100 credit points are entirely elective choice across broad lists with zero compulsory core units), while Gate G2 passes on extended take-home examinations, contested constitutional problem-solving, and international legal treaty analyses under conditions of geopolitical and administrative uncertainty.

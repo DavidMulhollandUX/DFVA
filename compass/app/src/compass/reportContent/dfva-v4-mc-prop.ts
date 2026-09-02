@@ -18,7 +18,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 89.89.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 65). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 89.89.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 65). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 10 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -149,19 +149,19 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Commercial Valuation & Advisory | Graduate Valuer, Valuation Analyst | Certified Practising Valuer (CPV / API), Associate Director | MEDIUM | Multiple regression valuation, automated valuation model (AVM) critique, expert witness |
-| 2 | Property Development & Feasibility | Development Analyst, Assistant Development Manager | Development Manager, Project Director | LOW | ARGUS EstateMaster financial feasibility, planning scheme navigation, ESG / NABERS |
-| 3 | Real Estate Investment & Fund Management | Investment Analyst, Acquisitions Associate | Portfolio Manager, Real Estate Fund Director | LOW–MEDIUM | DCF financial modelling, capital markets analysis, securitisation portfolio construction |
-| 4 | Corporate Real Estate & Asset Management | Asset Management Analyst, Tenant Advisor | Head of Corporate Real Estate, General Manager (Assets) | LOW–MEDIUM | Lease structuring, workplace utilization analytics, facility capital budgeting |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Commercial Valuation & Advisory | Graduate Valuer, Valuation Analyst; later Certified Practising Valuer (CPV / API), Associate Director | MEDIUM | Multiple regression valuation, automated valuation model (AVM) critique, expert witness |
+| Property Development & Feasibility | Development Analyst, Assistant Development Manager; later Development Manager, Project Director | LOW | ARGUS EstateMaster financial feasibility, planning scheme navigation, ESG / NABERS |
+| Real Estate Investment & Fund Management | Investment Analyst, Acquisitions Associate; later Portfolio Manager, Real Estate Fund Director | LOW–MEDIUM | DCF financial modelling, capital markets analysis, securitisation portfolio construction |
+| Corporate Real Estate & Asset Management | Asset Management Analyst, Tenant Advisor; later Head of Corporate Real Estate, General Manager (Assets) | LOW–MEDIUM | Lease structuring, workplace utilization analytics, facility capital budgeting |
 
 **Exposure basis declaration.** Destination AI exposure is **83.74** (exact basis derived from Property / Valuation destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | API CPV registration and RICS chartership requirement | Fast | Tier-1 firms mandate accredited degrees for valuation analyst recruitment. — W1, G1 |
 | Adoption of automated valuation models (AVMs) and PropTech | Fast | Analysts must critically interrogate AVM outputs against physical market evidence. — C2, C3 |
 | Mandatory mock courtroom expert testimony standards | Stable | Statutory compensation valuations demand demonstrated expert witness defence. — C2, W1 |
@@ -173,7 +173,7 @@ The market intelligence gathered for this program indicates strong demand across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-prop.md); rows
@@ -192,7 +192,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 65. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 65. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (38 pages) and verified on 2026-08-15: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

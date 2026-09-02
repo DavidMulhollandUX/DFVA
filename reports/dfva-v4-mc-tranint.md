@@ -23,7 +23,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 89.57.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 0 of 5 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 091519 Translating and Interpreting; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **above** it.
+**Destination AI Exposure: 89.57.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 0 of 5 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 091519 Translating and Interpreting; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 10 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -134,7 +134,7 @@ The §1 exposure figure (Destination AI Exposure: 89.57) is not drawn from this 
 
 **Signals and skill shifts.**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Highest AI task-applicability score of 785 O*NET occupations studied (Microsoft Research Copilot-conversation analysis), and a negative relationship between local machine-translation adoption and translator/interpreter employment across 695 US labour markets, 2010–2023 (Oxford Martin/CEPR) — both US-only, and neither covers generative-AI chatbot translation specifically | Task overlap and adoption-linked employment pressure (US, pre-LLM for the Oxford Martin study) | C2 |
 | NAATI's 2025-03-31 position statement: AI must not be used in high-risk translation or interpreting assignments without expert supervision by a NAATI-certified practitioner; AUSIT's Code of Ethics review (its first since 2012) commenced August 2025, with revised content unreleased | Regulatory tightening around unsupervised AI use | C3 |
@@ -146,7 +146,7 @@ The §1 exposure figure (Destination AI Exposure: 89.57) is not drawn from this 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-tranint.md); rows
@@ -165,7 +165,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **field** (field grain), n = 0, 5 destination titles, 0 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
+**Panel A metadata.** Basis tier **field** (field grain), n = 0, 5 destination titles, 0 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
 
 **Panel C provenance.** Scored from the 2026 handbook capture (38 pages) and verified on 2026-08-31: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

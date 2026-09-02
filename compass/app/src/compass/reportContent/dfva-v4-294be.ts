@@ -28,7 +28,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 96.45.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Management (Marketing) (n = 66, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 96.45.** Destination titles are crosswalked to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Management (Marketing) (n = 66, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -100,28 +100,28 @@ combined total: the sub-scores are reported side by side and never added.
 
 Destination job families and exposure values for Master of Marketing (294BE), condensed from [the market intelligence report](dfva-market-294be.md):
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | AI Exposure |
-|---|---|---|---|---|---|
-| 1 | Brand Strategy & Product Marketing | Assistant Brand Manager, Product Marketing Associate | Senior Brand Manager, Marketing Director | HIGH | 96.45 |
-| 2 | Digital Marketing, MarTech & Growth Analytics | Digital Marketing Specialist, Growth Analyst | Head of Digital Marketing, Growth Marketing Director | VERY HIGH | 96.45 |
-| 3 | Market Research, Consumer Insights & UX Strategy | Market Research Analyst, Consumer Insights Associate | Lead Insights Strategist, Head of Market Research | HIGH | 96.45 |
-| 4 | B2B Marketing, Commercial Strategy & Key Accounts | B2B Marketing Coordinator, Channel Marketing Analyst | Commercial Marketing Director, VP of B2B Marketing | MEDIUM | 96.45 |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Brand Strategy & Product Marketing | Assistant Brand Manager, Product Marketing Associate; later Senior Brand Manager, Marketing Director | HIGH | AI brand voice alignment, strategic positioning under generative search, human creative direction |
+| Digital Marketing, MarTech & Growth Analytics | Digital Marketing Specialist, Growth Analyst; later Head of Digital Marketing, Growth Marketing Director | VERY HIGH | Algorithmic campaign optimisation, multi-touch attribution auditing, automated media budget governance |
+| Market Research, Consumer Insights & UX Strategy | Market Research Analyst, Consumer Insights Associate; later Lead Insights Strategist, Head of Market Research | HIGH | Human-AI survey design, synthetic customer persona validation, ethnographic anomaly detection |
+| B2B Marketing, Commercial Strategy & Key Accounts | B2B Marketing Coordinator, Channel Marketing Analyst; later Commercial Marketing Director, VP of B2B Marketing | MEDIUM | High-value client relationship management, multi-stakeholder commercial negotiation, B2B deal structuring |
 
 Signals and skill shifts mapped to scored Panel C and Workplace items:
 
-| Signal / Shift | Direction | Evidence | Bearing |
-|---|---|---|---|
-| Generative AI creative workflows & prompt governance | Rising | AMI and AANA guidelines on automated copywriting and brand voice curation | C3, C2, W2 |
-| Privacy-first analytics, CDP governance & MarTech | Rising | Australian Privacy Act (OAIC) reforms and cookie deprecation requiring first-party data strategies | C3, G1 |
-| Human-AI team division of labor in campaign design | Rising | Journal of Marketing studies on human strategic leadership vs machine execution | C1, W1, G2 |
-| Routine copywriting, basic SEO & formulaic reporting | Declining | Commodity commercial AI tools automating entry-level marketing tasks | C3, W2 |
-| Defended strategic brand positioning under uncertainty | Stable / Rising | High commercial value placed on authentic consumer empathy and brand equity | G2, C5 |
+| Signal or shift | Direction | Bearing on the scored items |
+| --- | --- | --- |
+| Generative AI creative workflows & prompt governance — AMI and AANA guidelines on automated copywriting and brand voice curation | Rising | C3, C2, W2 |
+| Privacy-first analytics, CDP governance & MarTech — Australian Privacy Act (OAIC) reforms and cookie deprecation requiring first-party data strategies | Rising | C3, G1 |
+| Human-AI team division of labor in campaign design — Journal of Marketing studies on human strategic leadership vs machine execution | Rising | C1, W1, G2 |
+| Routine copywriting, basic SEO & formulaic reporting — Commodity commercial AI tools automating entry-level marketing tasks | Declining | C3, W2 |
+| Defended strategic brand positioning under uncertainty — High commercial value placed on authentic consumer empathy and brand equity | Stable / Rising | G2, C5 |
 
 **Confidence:** High for industry bodies (AMI, AANA, ADIA) and statutory regulators (ACCC, OAIC); Medium for graduate destination profile (derived from Master of Management (Marketing) cognate record).
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-294be.md); rows

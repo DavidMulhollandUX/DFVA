@@ -15,14 +15,14 @@ const content = {
 >
 > The exposure value is an **estimate**: it rests on a partial basis (the Master
 > of Laws record, n=676, since Private Law is a Melbourne Law Masters
-> specialisation without its own JIR record) — not on this program's own
+> specialisation without its own Job Insights Report (JIR) record) — not on this program's own
 > graduates. It is sound enough to say the destinations are highly exposed and
 > not sound enough to rank this program against a peer on exposure alone — see
 > [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 MC-PRIVLAW fails both gates and scores 4/15 adaptive, 3/9 workplace, with every item at level 0 or 1 except W1 (2). **The course structure specifies no universally compulsory subject.** Students with a common-law degree have zero required subjects and 12.5 of 100 credit points open to the entire Master of Laws catalogue; the one conditional subject, Fundamentals of the Common Law, applies only to students without a common-law background and is linked to nothing else by a documented prerequisite chain. Because every level-2 and level-3 anchor in this instrument requires evidence in a *core* unit, this scoring reads "core unit" as any subject within the program's prescribed private-law list — the same reading that carries the G1 FAIL. G2 fails for an independent reason: every documented assessment format across the extract — take-home exam, approved-topic research paper, participation, short presentation, a 75%-attendance hurdle — resolves to recall or scripted response; no subject documents a simulation, live client matter, capstone, or a decision defended under scrutiny.

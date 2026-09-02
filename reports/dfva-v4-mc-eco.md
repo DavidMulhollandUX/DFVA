@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 96.53.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 30, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 96.53.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 30, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -133,16 +133,16 @@ The market context is condensed from [`reports/dfva-market-mc-eco.md`](dfva-mark
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Central Banking & Monetary Policy Analysis | Graduate Economist (RBA), Macroeconomic Analyst | Senior Economist, Manager (Economic Analysis) | 97.2 | VERY HIGH | Machine learning time-series filtering, nowcasting model audit, spoken monetary policy communication |
-| Treasury & Public Sector Economic Advisory | Policy Officer (Treasury), Economic Analyst (PC / PM&C) | Senior Policy Adviser, Principal Economic Analyst | 96.8 | VERY HIGH | Causal policy evaluation (DiD / synthetic controls), fiscal incidence modeling, ministerial briefing |
-| Microeconomic & Competition Consulting | Graduate Economist (Frontier / HoustonKemp), Regulatory Analyst (ACCC) | Senior Consultant, Associate Director (Competition) | 94.5 | HIGH | Market design, merger simulation, algorithmic collusion assessment, expert witness report drafting |
-| Quantitative Econometric & Financial Modeling | Quantitative Economic Researcher, Data Scientist (Economics) | Senior Econometrician, Head of Quantitative Research | 97.6 | VERY HIGH | High-dimensional econometric inference, microeconometric causal modeling, algorithmic model governance |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Central Banking & Monetary Policy Analysis | Graduate Economist (RBA), Macroeconomic Analyst; later Senior Economist, Manager (Economic Analysis) | VERY HIGH (exposure 97.2) | Machine learning time-series filtering, nowcasting model audit, spoken monetary policy communication |
+| Treasury & Public Sector Economic Advisory | Policy Officer (Treasury), Economic Analyst (PC / PM&C); later Senior Policy Adviser, Principal Economic Analyst | VERY HIGH (exposure 96.8) | Causal policy evaluation (DiD / synthetic controls), fiscal incidence modeling, ministerial briefing |
+| Microeconomic & Competition Consulting | Graduate Economist (Frontier / HoustonKemp), Regulatory Analyst (ACCC); later Senior Consultant, Associate Director (Competition) | HIGH (exposure 94.5) | Market design, merger simulation, algorithmic collusion assessment, expert witness report drafting |
+| Quantitative Econometric & Financial Modeling | Quantitative Economic Researcher, Data Scientist (Economics); later Senior Econometrician, Head of Quantitative Research | VERY HIGH (exposure 97.6) | High-dimensional econometric inference, microeconometric causal modeling, algorithmic model governance |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Universal deployment of automated econometric code generation, machine learning causal inference, and data munging pipelines | Rising | C3, W2 |
 | Critical necessity of auditing automated econometric regressions and variable selection models for endogeneity and omitted variable bias | Rising | C2, G2 |
@@ -154,7 +154,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-eco.md); rows
@@ -173,7 +173,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 30, 15 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 30, 15 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-24: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

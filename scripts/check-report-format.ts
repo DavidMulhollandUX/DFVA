@@ -67,6 +67,8 @@ const errors: string[] = []
 const warnings: string[] = []
 const resolvable: string[] = []
 
+const V4_NAMES = loadV4Names()
+
 interface ReportIssue {
   slug: string
   issues: string[]
@@ -91,6 +93,8 @@ for (const file of REPORT_FILES) {
     issues.push('missing H2 title "## DFVA REPORT: <Name> (<CODE>)"')
   } else if (!/^## DFVA REPORT: .+ \(.+\)$/.test(titleLine.trim())) {
     issues.push(`title missing program code in parentheses: "${titleLine.trim()}"`)
+  } else {
+    checkTitleName(slug, titleLine.trim(), issues)
   }
 
   // 2. Metadata: single-line pipe-separated
@@ -199,7 +203,6 @@ const countAttributions = (text: string): number =>
 // shipped titled "Master of Business Analytics" for an MBA/Master of Marketing
 // program. Compare the parsed name against the generated v4 registry; compare
 // only where the registry has a name for the code.
-const V4_NAMES = loadV4Names()
 function checkTitleName(slug: string, firstLine: string, issues: string[]): void {
   const m = firstLine.match(/\(([^)]+)\)\s*$/)
   const nameMatch = firstLine.match(/^[^:]+:\s*(.+?)\s*\([^)]*\)\s*$/)
@@ -211,6 +214,45 @@ function checkTitleName(slug: string, firstLine: string, issues: string[]): void
     issues.push(`title names "${nameMatch[1]}" but the registry has "${expected}" for ${m[1]}`)
   }
 }
+
+// ── Reader-facing vocabulary (review item 11, 2026-09-02) ──
+// Acronyms that must be expanded somewhere in any report a reader sees. The
+// check is order-insensitive so a generated block (the LABOUR-EVIDENCE footer)
+// can carry the expansion.
+const ACRONYM_EXPANSIONS: Array<[RegExp, RegExp, string]> = [
+  [/\bAIOE\b/, /AI Occupational Exposure/, 'AIOE → "AI Occupational Exposure (AIOE)"'],
+  [/\bJSA HEO\b/, /Jobs and Skills Australia/, 'JSA HEO → "Jobs and Skills Australia Higher Education Outcomes (JSA HEO)"'],
+  [/\bSOC\b/, /Standard Occupational Classification/, 'SOC → "Standard Occupational Classification (SOC)"'],
+  [/\bAQF\b/, /Australian Qualifications Framework/, 'AQF → "Australian Qualifications Framework (AQF)"'],
+  [/\bJIR\b/, /Job Insights Report/, 'JIR → "Job Insights Report (JIR)"'],
+  [/\bRHD\b/, /research higher degree/i, 'RHD → "research higher degree (RHD)"'],
+]
+function checkAcronyms(content: string, issues: string[]): void {
+  for (const [use, expansion, hint] of ACRONYM_EXPANSIONS) {
+    if (use.test(content) && !expansion.test(content)) issues.push(`uses an unexpanded acronym: ${hint}`)
+  }
+}
+
+// Internal pipeline vocabulary that must not reach a market report's reader.
+// "Adzuna" is a named source and is allowed; repo paths, field names and the
+// instrument's internal panel name are not.
+const MARKET_DENYLIST: Array<[RegExp, string]> = [
+  [/\bcrosswalk/i, '"crosswalk" (say "mapped to the exposure index")'],
+  [/\bjobAds\b/, '"jobAds" (say "the job-advertisement sample")'],
+  [/\btopSkills\b/, '"topSkills" (describe the skill-keyword extraction)'],
+  [/\btopEmployers\b/, '"topEmployers" (describe the named-employer list)'],
+  [/\bmechanical:\s*true\b/, '"mechanical: true" (say the evidence was checked mechanically)'],
+  [/\bdata\/(?:aioe|jsa|professions|labour|handbook)/, 'a data/ repository path'],
+  [/\bdfva\/source\b/, 'a dfva/source repository path'],
+  [/\bscratch\//, 'a scratch/ repository path'],
+  [/\bPanel C\b/, '"Panel C" (say "the durability report\'s curriculum evidence")'],
+]
+const stripLabourBlock = (content: string): string =>
+  content.replace(/<!-- LABOUR-EVIDENCE:START -->[\s\S]*?<!-- LABOUR-EVIDENCE:END -->/g, '')
+
+// The set of scored coursework programs: the family whose report page renders
+// the market card, so its market report must carry the destinations footer.
+const SCORED_CODES = new Set(V4_FILES.map((f) => f.slice('dfva-v4-'.length, -'.md'.length)))
 
 for (const file of MARKET_FILES) {
   const slug = file.replace('.md', '')
@@ -325,6 +367,38 @@ for (const file of MARKET_FILES) {
     }
   }
 
+  // §4 heading is anchored: no "(DECLINING vs RISING)" suffix or other decoration.
+  if (/^## 4\. SKILL SHIFT SUMMARY/m.test(content) && !/^## 4\. SKILL SHIFT SUMMARY$/m.test(content)) {
+    issues.push('section 4 heading must be exactly "## 4. SKILL SHIFT SUMMARY"')
+  }
+
+  // Confidence vocabulary is closed to HIGH / MEDIUM / LOW.
+  for (const m of content.matchAll(/\b([A-Z][A-Z-]*) CONFIDENCE\b/g)) {
+    if (!['HIGH', 'MEDIUM', 'LOW', 'EVIDENCE'].includes(m[1])) {
+      issues.push(`"${m[1]} CONFIDENCE" is outside the HIGH / MEDIUM / LOW vocabulary`)
+    }
+  }
+
+  // No stray H2 outside the six numbered sections (a "## Key Signals" shipped in mc-climsci).
+  for (const l of content.split('\n')) {
+    if (/^## /.test(l) && !/^## \d\. /.test(l) && !/^## REAL GRADUATE DESTINATIONS/.test(l)) {
+      issues.push(`stray H2 outside the numbered sections: "${l.trim()}"`)
+    }
+  }
+
+  // Reader-facing vocabulary.
+  const readerBody = stripLabourBlock(content)
+  for (const [re, what] of MARKET_DENYLIST) {
+    if (re.test(readerBody)) issues.push(`carries internal vocabulary: ${what}`)
+  }
+  checkAcronyms(content, issues)
+
+  // Destinations footer for every scored coursework program.
+  const code = slug.slice('dfva-market-'.length)
+  if (SCORED_CODES.has(code) && !(content.includes('<!-- LABOUR-EVIDENCE:START -->') && content.includes('<!-- LABOUR-EVIDENCE:END -->'))) {
+    issues.push('missing the LABOUR-EVIDENCE destinations footer — run: python3 scripts/build-market-footer.py ' + code + ' --apply')
+  }
+
   if (issues.length) {
     if (grandfathered) {
       warnings.push(...issues.map((i) => `${slug}: ${i} [grandfathered]`))
@@ -351,10 +425,8 @@ for (const file of RECOMMEND_FILES) {
     issues.push(`title mismatch: "${firstLine}"`)
   }
 
-  // Current/Target lines
-  if (!content.match(/\*\*Current:\*\* \d{1,2}\/36/)) {
-    issues.push('missing **Current:** N/36 line')
-  }
+  // No N/36 requirement: ReportMarkdownCard strips the v1 composite as a UX
+  // defect, so demanding it here contradicted the renderer (review item 11).
 
   if (issues.length) {
     if (grandfathered) {
@@ -391,9 +463,18 @@ for (const file of V4_FILES) {
   const lines = content.split('\n')
   const issues: string[] = []
 
-  // 1. Instrument line in the header
+  // 1. Instrument line in the header; title names the registry's program
   if (!content.includes(V4_INSTRUMENT_LINE)) {
     issues.push(`missing "${V4_INSTRUMENT_LINE}" header line`)
+  }
+  checkTitleName(slug, lines[0].trim(), issues)
+
+  // 1b. Frontmatter: a real assessment date and a director line (review item 11).
+  if (!/^\*\*Assessment date:\*\* \d{4}-\d{2}-\d{2}\b/m.test(content)) {
+    issues.push('header needs "**Assessment date:** YYYY-MM-DD" ("unrecorded" is not a date)')
+  }
+  if (!/^\*\*(?:Course|Program) Director:\*\* \S/m.test(content)) {
+    issues.push('header needs a "**Course Director:** …" line (state "not recorded in this cycle\'s handbook capture" when the capture has none)')
   }
 
   // 2. Six numbered sections, in order, each with a Basis: tag
@@ -410,7 +491,7 @@ for (const file of V4_FILES) {
 
   // 3. Section 5 opens with the mandatory interpretation sentence
   const s5 = content.split(/^## 5\. /m)[1] ?? ''
-  if (!s5.includes('This section argues from the evidence above; it is interpretation, not observation.')) {
+  if (!s5.includes('This section argues from the preceding evidence; it is interpretation, not observation.')) {
     issues.push('section 5 must open with the mandatory interpretation sentence')
   }
 
@@ -445,6 +526,34 @@ for (const file of V4_FILES) {
   // 6. No v1 composite, no Irreplaceability score, anywhere
   if (/\d{1,2}\/36/.test(content)) issues.push('carries a v1 composite ("N/36") — forbidden in the v4 family')
   if (/Irreplaceability.*\d\/3|\bB:\s*\d\/3/.test(content)) issues.push('carries an Irreplaceability score — retired in v4')
+
+  // 6b. §4 carries the two canonical tables (docs/dfva-report-section-authoring.md),
+  //     each exactly once, with well-formed rows. These sections are rendered on
+  //     the report page (review item 16), so a drifted header is a visible defect.
+  {
+    const s4 = (content.split(/^## 4\. /m)[1] ?? '').split(/^## \d\. /m)[0] ?? ''
+    const s4Lines = s4.split('\n')
+    const t1 = '| Job family | Entry titles | AI substitution pressure | Skills rising in that family |'
+    const t2 = '| Signal or shift | Direction | Bearing on the scored items |'
+    const count = (h: string) => s4Lines.filter((l) => l.trim() === h).length
+    if (count(t1) !== 1) issues.push(`section 4: expected exactly one canonical Table 1 header "${t1}", found ${count(t1)}`)
+    if (count(t2) !== 1) issues.push(`section 4: expected exactly one canonical Table 2 header "${t2}", found ${count(t2)}`)
+    const cellsOf = (l: string) => l.trim().split(/(?<!\\)\|/).slice(1, -1)
+    for (const header of [t1, t2]) {
+      const at = s4Lines.findIndex((l) => l.trim() === header)
+      if (at < 0) continue
+      const width = cellsOf(header).length
+      let rows = 0
+      for (let i = at + 2; i < s4Lines.length && s4Lines[i].trim().startsWith('|'); i++) {
+        rows++
+        const cells = cellsOf(s4Lines[i])
+        if (cells.length !== width) issues.push(`section 4 table row has ${cells.length} cells, expected ${width}: "${s4Lines[i].slice(0, 60)}…"`)
+        if (cells.some((c) => /^\s*(?:—|-|)\s*$/.test(c))) issues.push(`section 4 table row has an empty cell: "${s4Lines[i].slice(0, 60)}…"`)
+      }
+      if (rows === 0) issues.push(`section 4 table under "${header.slice(0, 30)}…" has no rows`)
+    }
+  }
+  checkAcronyms(content, issues)
 
   // 7. No unfilled scaffold left behind. dfva-v4-report-scaffold.ts derives the
   //    machine-checkable sections and marks §4/§5 for an author; a report still
@@ -487,9 +596,11 @@ for (const file of V4_RECOMMEND_FILES) {
     }
   })
   const s1 = content.split(/^## 1\. /m)[1] ?? ''
-  if (!s1.includes('This plan argues from the scored evidence and market data')) {
+  if (!s1.includes('This plan argues from the preceding scored evidence and market data')) {
     issues.push('section 1 must open with the mandatory interpretation sentence')
   }
+  checkTitleName(slug, lines[0].trim(), issues)
+  checkAcronyms(content, issues)
 
   // 3. At least one web-linked citation mark
   if (!/\[\[\d+\]\]\(http/.test(content)) {
@@ -551,6 +662,8 @@ for (const file of V4R_FILES) {
   if (!/^# DFVA RESEARCH DEGREE REPORT: .+ \(.+\)$/.test(lines[0].trim())) {
     issues.push(`title mismatch: "${lines[0].trim()}"`)
   }
+  checkTitleName(slug, lines[0].trim(), issues)
+  checkAcronyms(content, issues)
 
   // Four numbered sections, in order, each carrying a Basis: tag.
   const heads = lines.filter((l) => /^## \d\. /.test(l))

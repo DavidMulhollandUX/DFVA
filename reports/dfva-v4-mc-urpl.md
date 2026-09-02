@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 92.85.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 130, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 92.85.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 130, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 10 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -117,16 +117,16 @@ The market context is condensed from [`reports/dfva-market-mc-urpl.md`](dfva-mar
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Statutory & Development Assessment Planning | Statutory Planner, Development Assessment Officer | Senior Statutory Planner, Planning Appeals Coordinator (VCAT) | 92.85 | MEDIUM | High-level regulatory interpretation, permit negotiation, planning scheme amendments, contested VCAT advocacy |
-| Strategic & Regional Urban Planning | Strategic Planner, Spatial Policy Officer | Senior Strategic Planner, Precinct Planning Lead | 92.85 | LOW TO MEDIUM | Long-range structure planning, urban growth boundary modelling, housing density policy, inter-agency infrastructure sequencing |
-| Transport, Infrastructure & Environmental Planning | Transport Planner, Climate Resilience Planner | Senior Environmental Planner, Infrastructure Strategy Manager | 91.09 | LOW TO MEDIUM | Multi-modal transport network modelling, urban heat island mitigation, flood resilience planning, digital twin spatial analysis |
-| Urban Design, Heritage & Place-Making | Urban Designer, Heritage Planning Officer | Senior Urban Design Specialist, Place Strategy Manager | 92.85 | LOW | 3D urban form coding, masterplanning integration, heritage precinct conservation, community place-making facilitation |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Statutory & Development Assessment Planning | Statutory Planner, Development Assessment Officer; later Senior Statutory Planner, Planning Appeals Coordinator (VCAT) | MEDIUM (exposure 92.85) | High-level regulatory interpretation, permit negotiation, planning scheme amendments, contested VCAT advocacy |
+| Strategic & Regional Urban Planning | Strategic Planner, Spatial Policy Officer; later Senior Strategic Planner, Precinct Planning Lead | LOW TO MEDIUM (exposure 92.85) | Long-range structure planning, urban growth boundary modelling, housing density policy, inter-agency infrastructure sequencing |
+| Transport, Infrastructure & Environmental Planning | Transport Planner, Climate Resilience Planner; later Senior Environmental Planner, Infrastructure Strategy Manager | LOW TO MEDIUM (exposure 91.09) | Multi-modal transport network modelling, urban heat island mitigation, flood resilience planning, digital twin spatial analysis |
+| Urban Design, Heritage & Place-Making | Urban Designer, Heritage Planning Officer; later Senior Urban Design Specialist, Place Strategy Manager | LOW (exposure 92.85) | 3D urban form coding, masterplanning integration, heritage precinct conservation, community place-making facilitation |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Generative spatial AI auditing, parametric yield validation, and digital twin analysis | Rising | C2, C3 |
 | Human-AI collaborative statutory planning, policy drafting, and regulatory compliance | Rising | C1, W1, G1 |
@@ -138,7 +138,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-urpl.md); rows
@@ -155,7 +155,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 130, 15 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 130, 15 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-24: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

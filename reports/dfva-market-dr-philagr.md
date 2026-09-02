@@ -55,7 +55,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Hybrid agronomist-data-scientist profiles (remote sensing/ML plus field agronomy) | **↑↑ Rising sharply** | Signal 3 (§2) describes precision-agriculture data-scientist postings as "a distinct and growing category from a decade ago," and CI-1 (§5) flags this as a hiring preference the current curriculum has no explicit pathway for. |
@@ -94,7 +94,7 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 **Critical evidence gaps to close before institutional use:**
 1. No live job-ad scrape was available (handbook/job-market scraper blocked by anti-bot; ran in DFVA_MOCK mode) — a real Seek/LinkedIn/Indeed pull for Australian agricultural-science PhD roles is needed to validate Section 2.
 2. Salary bands are structural estimates from known public-sector enterprise agreements and general agribusiness market knowledge, not sourced from a live compensation database (e.g., Glassdoor, Payscale, Seek salary data).
-3. No direct survey or interview data from recent UoM Agricultural Sciences PhD graduates on actual placement sectors/roles exists in this assessment — should be cross-checked against the JIR/LiveAlumni graduate-outcomes layer referenced in this repo's data pipeline.
+3. No direct survey or interview data from recent UoM Agricultural Sciences PhD graduates on actual placement sectors/roles exists in this assessment — should be cross-checked against the Job Insights Report (JIR)/LiveAlumni graduate-outcomes layer referenced in this repo's data pipeline.
 4. Agtech/precision-agriculture sector is nascent and fast-moving in Australia; demand signals should be re-validated within 12 months given the sector's volatility.
 
 ---

@@ -12,7 +12,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Science (Earth Sciences) is a 200-point postgraduate research degree offering Atmospheric Science and Geology streams that prepare exploration geologists, hydrogeologists, meteorological scientists, and PhD researchers aligned with Australian Institute of Geoscientists (AIG) and JORC Code professional competencies. Both gates pass unconditionally: G1 passes on a coherent specialist core of 50 credit points tied to the research topic plus a 125-credit-point research project staged across Pt1–Pt5 with progression hurdles; G2 passes on an independent four-semester 25,000-word research thesis of publishable quality and simulated multi-party climate negotiation tasks under genuine physical, empirical, and policy uncertainty.

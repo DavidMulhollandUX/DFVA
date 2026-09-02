@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 95.97.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 9 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 161, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 95.97.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 9 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 161, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 7 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -109,16 +109,16 @@ The market context is condensed from [`reports/dfva-market-mc-ir.md`](dfva-marke
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Diplomatic & Foreign Policy Advisory | Policy Officer (DFAT / PM&C), Diplomatic Attache | First Secretary, Senior Policy Adviser | 96.50 | HIGH | Bilateral crisis negotiation, high-stakes political judgement, strategic multilateral alliance building |
-| Geopolitical Risk & Strategic Intelligence | Geopolitical Risk Analyst, Intelligence Analyst (ONI / ASPI) | Director of Risk & Strategy, Senior Strategic Assessor | 97.00 | VERY HIGH | Algorithmic OSINT verification, synthetic information audit, critical intelligence evaluation |
-| Multilateral Governance & NGO Advocacy | International Program Officer, Advocacy Coordinator | Country Director, Senior Humanitarian Affairs Officer | 95.00 | MODERATE | International treaty negotiation, multi-stakeholder advocacy, cross-cultural diplomacy |
-| International Trade & Corporate Government Affairs | Government Relations Associate, Trade Policy Analyst | Head of International Affairs, Global Public Policy Director | 95.50 | HIGH | Supply-chain geoeconomic risk modeling, regulatory diplomacy, sanctions compliance |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Diplomatic & Foreign Policy Advisory | Policy Officer (DFAT / PM&C), Diplomatic Attache; later First Secretary, Senior Policy Adviser | HIGH (exposure 96.50) | Bilateral crisis negotiation, high-stakes political judgement, strategic multilateral alliance building |
+| Geopolitical Risk & Strategic Intelligence | Geopolitical Risk Analyst, Intelligence Analyst (ONI / ASPI); later Director of Risk & Strategy, Senior Strategic Assessor | VERY HIGH (exposure 97.00) | Algorithmic OSINT verification, synthetic information audit, critical intelligence evaluation |
+| Multilateral Governance & NGO Advocacy | International Program Officer, Advocacy Coordinator; later Country Director, Senior Humanitarian Affairs Officer | MODERATE (exposure 95.00) | International treaty negotiation, multi-stakeholder advocacy, cross-cultural diplomacy |
+| International Trade & Corporate Government Affairs | Government Relations Associate, Trade Policy Analyst; later Head of International Affairs, Global Public Policy Director | HIGH (exposure 95.50) | Supply-chain geoeconomic risk modeling, regulatory diplomacy, sanctions compliance |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Proliferation of automated open-source intelligence (OSINT) and synthetic media in geopolitical reporting | Rising | C2, C3 |
 | Sovereign government mandates for international AI governance treaties and cyber conflict diplomacy (DFAT / ASPI) | Rising | C3, G1 |
@@ -130,7 +130,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-ir.md); rows
@@ -149,7 +149,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 161, 15 destination titles, 9 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 161, 15 destination titles, 9 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (39 pages) and verified on 2026-08-25: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

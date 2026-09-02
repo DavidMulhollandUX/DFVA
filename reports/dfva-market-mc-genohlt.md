@@ -14,7 +14,7 @@
 
 > **Confidence: LOW.** No live job-ad data exists for this profession in the supplied
 > profession record — no Adzuna data was collected, and both
-> `topEmployers` and `topSkills` are empty arrays. This is a genuine gap, not an estimate
+> the named-employer list was empty and the skill-keyword extraction from the job-ad sample returned nothing. This is a genuine gap, not an estimate
 > understated as one: **no Adzuna or other job-board data was collected for Genetic
 > Counsellor/Genomics Scientist**, and nothing below should be read as vacancy-count or
 > employer-name evidence. The signals that follow substitute the profession record's
@@ -139,7 +139,7 @@ measure's most-exposed occupations, in its top exposure quintile, reasoning that
 assessment from gene panels and family history aligns closely with current AI
 application capabilities ([Economic Innovation Group, 2025-08-10](https://eig.org/ai-and-jobs-the-final-word/)).
 **Correction to the underlying claim:** this source supports top-quintile placement, not
-the stronger claim that genetic counselors hold the single highest AIOE score of any
+the stronger claim that genetic counselors hold the single highest AI Occupational Exposure (AIOE) score of any
 occupation measured; that superlative is not supported and is dropped here.
 
 AIOE is a task-similarity exposure score, agnostic to whether AI substitutes for or
@@ -152,8 +152,7 @@ gene-panel-interpretation tasks this program teaches bears on C3's AI-limitation
 and on C4's transfer-of-learning construct — whether graduates are assessed on applying
 skills to problem contexts where AI now performs similarly.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI-limitations, governance and critical-evaluation content in genetic-counselling training | **↑↑ Rising sharply** | Theme 3 (§3): NSGC's Perspectives newsletter frames AI as accelerating variant interpretation while warning reliance risks eroding critical-thinking skills absent institutional governance; C3 scores 1/3 — tool-operation content exists (GENE90025/26) but no assessed AI-limitations or ethics component. |
@@ -180,7 +179,7 @@ skills to problem contexts where AI now performs similarly.
 | HGSA scope-of-practice widening (§3 Theme 1) | MEDIUM | The six-category expansion is sourced to a 2025 consultation draft; the current 2026 published policy confirms the expanded categories but the session could not independently verify a fully finalised final reissue text beyond what HGSA publishes |
 | AIOE exposure ranking (§3 Theme 4) | MEDIUM | US O*NET-derived measure; corrected here from an overstated "highest of any occupation" claim to the supported "top exposure quintile"; task-similarity exposure, not a displacement measurement |
 | Professional-body discourse (§3 Themes 2–3) | MEDIUM | NSGC newsletter and CGTlive/Substack commentary are US-context, dated and attributed, but are editorial/commentary rather than primary studies, and none address Australian genetic-counselling practice directly |
-| Curriculum-market alignment (§5) | MEDIUM | Grounded in the program's adversarially reviewed Panel C v4.2 evidence (`dfva/source/evidence/mc-genohlt.json`, verified 2026-08-31); implications are interpretation against that evidence, not new curriculum measurement |
+| Curriculum-market alignment (§5) | MEDIUM | Grounded in the program's adversarially reviewed curriculum evidence (durability report, v4.2, verified 2026-08-31); implications are interpretation against that evidence, not new curriculum measurement |
 
 ### Critical evidence gaps to close before institutional use:
 1. No Australian-specific job-ad or vacancy data exists for genetic counsellor or genomics-scientist roles — a live Australian job-board capture (Seek, government health-sector postings) would close this.
@@ -195,7 +194,7 @@ skills to problem contexts where AI now performs similarly.
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes (JSA HEO))
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **010909 Genetics** (n = 100 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 20.0% of them, and the 5 largest are shown at each stage.
 

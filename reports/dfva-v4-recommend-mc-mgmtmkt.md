@@ -10,10 +10,10 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
-The Master of Management (Marketing) is a professional postgraduate degree accredited by the Australian Marketing Institute (AMI), preparing graduates for careers across brand strategy, digital marketing, market research, and B2B commercial strategy (AIOE 96.45). The program provides rigorous training in consumer psychology, marketing research (8000-word empirical project in MKTG90011), managerial decision analytics in MGMT90280, and strategic simulations in MKTG90005 (C1: 2/3, C2: 2/3, C3: 2/3, C5: 2/3, G1 PASS, G2 PASS). However, marketing faces rapid automation across copywriting, programmatic bidding, and routine persona drafting. The degree's primary headroom lies in formalizing human-AI workflow allocation charters (C1), introducing assessed reliance and verification logs for AI-generated marketing strategies and synthetic personas (C2), embedding systemic AI advertising governance and OAIC privacy compliance (C3), and transitioning optional practicum and internship subjects into guaranteed core client projects (W1, W3).
+The Master of Management (Marketing) is a professional postgraduate degree accredited by the Australian Marketing Institute (AMI), preparing graduates for careers across brand strategy, digital marketing, market research, and B2B commercial strategy (AI Occupational Exposure (AIOE) 96.45). The program provides rigorous training in consumer psychology, marketing research (8000-word empirical project in MKTG90011), managerial decision analytics in MGMT90280, and strategic simulations in MKTG90005 (C1: 2/3, C2: 2/3, C3: 2/3, C5: 2/3, G1 PASS, G2 PASS). However, marketing faces rapid automation across copywriting, programmatic bidding, and routine persona drafting. The degree's primary headroom lies in formalizing human-AI workflow allocation charters (C1), introducing assessed reliance and verification logs for AI-generated marketing strategies and synthetic personas (C2), embedding systemic AI advertising governance and OAIC privacy compliance (C3), and transitioning optional practicum and internship subjects into guaranteed core client projects (W1, W3).
 
 | Item | Sub-scale | Score | Levels below maximum | Market evidence for the gap | Priority |
 |---|---|---|---|---|---|

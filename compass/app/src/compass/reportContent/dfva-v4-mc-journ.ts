@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-15
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-journ (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 39 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -17,7 +18,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 91.48.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 51). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 91.48.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 51). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -176,20 +177,20 @@ The market intelligence gathered for this program indicates sustained demand acr
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | News & Digital Reporting | Digital Reporter, Online News Writer | Senior Reporter, Bureau Chief | HIGH (commodity) / LOW (investigative) | Real-time source verification, live reporting, mobile vertical video |
-| 2 | Data Journalism & Investigations | Data Journalist, Investigative Reporter | Investigations Editor, Data Lead | LOW–MEDIUM | Python/R for public data scraping, FOI appeals, open-source intelligence (OSINT) |
-| 3 | Audio & Podcast Production | Podcast Producer, Broadcast Reporter | Senior Audio Producer, Executive Producer | MEDIUM | Long-form narrative scripting, multitrack audio engineering, distribution strategy |
-| 4 | Government & Strategic Communications | Media Adviser, Communications Officer | Senior Media Manager, Director of Public Affairs | LOW–MEDIUM | Crisis media management, policy translation, rapid rebuttal drafting |
-| 5 | Audience Development & Newsletter Strategy | Newsletter Editor, Audience Producer | Head of Audience, Subscription Growth Lead | HIGH (mechanical SEO) / LOW (strategy) | Subscriber analytics, Chartbeat/GA4 data storytelling, retention workflows |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| News & Digital Reporting | Digital Reporter, Online News Writer; later Senior Reporter, Bureau Chief | HIGH (commodity) / LOW (investigative) | Real-time source verification, live reporting, mobile vertical video |
+| Data Journalism & Investigations | Data Journalist, Investigative Reporter; later Investigations Editor, Data Lead | LOW–MEDIUM | Python/R for public data scraping, FOI appeals, open-source intelligence (OSINT) |
+| Audio & Podcast Production | Podcast Producer, Broadcast Reporter; later Senior Audio Producer, Executive Producer | MEDIUM | Long-form narrative scripting, multitrack audio engineering, distribution strategy |
+| Government & Strategic Communications | Media Adviser, Communications Officer; later Senior Media Manager, Director of Public Affairs | LOW–MEDIUM | Crisis media management, policy translation, rapid rebuttal drafting |
+| Audience Development & Newsletter Strategy | Newsletter Editor, Audience Producer; later Head of Audience, Subscription Growth Lead | HIGH (mechanical SEO) / LOW (strategy) | Subscriber analytics, Chartbeat/GA4 data storytelling, retention workflows |
 
 **Exposure basis declaration.** Destination AI exposure is **83.18** (exact basis derived from Journalism graduate destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Mobile vertical video production as baseline newsroom requirement | Fast | Major media outlets screen out applicants without mobile shooting and editing skills. — W2, G1 |
 | Data journalism, coding, and FOI skills creating premium hiring tier | Rising | Investigative desks actively recruit journalists with Python, SQL, and FOI dispute skills. — C5, G2 |
 | Public sector communications as highest-volume graduate employer | Sustained High | Government agencies value journalism graduates for rapid media cycle management. — W1, G1 |
@@ -201,7 +202,7 @@ The market intelligence gathered for this program indicates sustained demand acr
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-journ.md); rows
@@ -220,7 +221,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 51. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 51. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (39 pages) and verified on 2026-08-15: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

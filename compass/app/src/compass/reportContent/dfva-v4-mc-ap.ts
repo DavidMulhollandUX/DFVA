@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-23
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-ap (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 29 pages captured
+**Course Director:** Cassie Hayward
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -22,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 95.57.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 13 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 47, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 95.57.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 13 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 47, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -159,21 +160,21 @@ The market intelligence gathered for this program indicates a high and accelerat
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Behavioural Insights & Consulting | Behavioural Research Assistant, Junior Consultant, Applied Psychology Analyst | Behavioural Scientist, Behavioural Strategy Consultant, Senior Consultant | MEDIUM | Field experimentation (RCT design), intervention fidelity evaluation, choice architecture design |
-| 2 | Market & Consumer Research | Market Research Assistant, Customer Insights Analyst, Junior Research Executive | Research Executive, Consumer Insights Consultant, Senior Qualitative/Quantitative Researcher | HIGH | Advanced multivariate modelling, synthetic persona validation, real-time sentiment extraction |
-| 3 | User Experience (UX) & Product Research | Associate UX Researcher, Product Insights Analyst, Usability Specialist | UX Researcher, Senior Behavioural Product Strategist, Lead User Researcher | MEDIUM | Mixed-methods inquiry, algorithmic friction evaluation, human-AI interface interaction design |
-| 4 | Public Policy & Government Behaviour Change | Policy Research Assistant, Behavioural Insights Officer (State/Federal) | Senior Policy Advisor, Nudge Unit Project Lead, Evaluation Specialist | LOW–MEDIUM | Quasi-experimental evaluation, regulatory compliance, public-sector ethics and transparency |
-| 5 | Organisational Behaviour & People Analytics | People & Culture Analyst, Organisational Development Assistant | People Analytics Specialist, Behavioural Change Manager, OD Consultant | MEDIUM | Workforce data synthesis, psychometric analytics, change management framework execution |
-| 6 | Social Marketing & Health Behaviour Change | Health Promotion Officer, Campaign Research Coordinator | Social Marketing Strategist, Behaviour Change Program Lead | LOW–MEDIUM | Multi-stakeholder intervention co-design, health communication testing, qualitative field methods |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Behavioural Insights & Consulting | Behavioural Research Assistant, Junior Consultant, Applied Psychology Analyst; later Behavioural Scientist, Behavioural Strategy Consultant, Senior Consultant | MEDIUM | Field experimentation (RCT design), intervention fidelity evaluation, choice architecture design |
+| Market & Consumer Research | Market Research Assistant, Customer Insights Analyst, Junior Research Executive; later Research Executive, Consumer Insights Consultant, Senior Qualitative/Quantitative Researcher | HIGH | Advanced multivariate modelling, synthetic persona validation, real-time sentiment extraction |
+| User Experience (UX) & Product Research | Associate UX Researcher, Product Insights Analyst, Usability Specialist; later UX Researcher, Senior Behavioural Product Strategist, Lead User Researcher | MEDIUM | Mixed-methods inquiry, algorithmic friction evaluation, human-AI interface interaction design |
+| Public Policy & Government Behaviour Change | Policy Research Assistant, Behavioural Insights Officer (State/Federal); later Senior Policy Advisor, Nudge Unit Project Lead, Evaluation Specialist | LOW–MEDIUM | Quasi-experimental evaluation, regulatory compliance, public-sector ethics and transparency |
+| Organisational Behaviour & People Analytics | People & Culture Analyst, Organisational Development Assistant; later People Analytics Specialist, Behavioural Change Manager, OD Consultant | MEDIUM | Workforce data synthesis, psychometric analytics, change management framework execution |
+| Social Marketing & Health Behaviour Change | Health Promotion Officer, Campaign Research Coordinator; later Social Marketing Strategist, Behaviour Change Program Lead | LOW–MEDIUM | Multi-stakeholder intervention co-design, health communication testing, qualitative field methods |
 
 **Exposure basis declaration.** Destination AI exposure is **95.57** (measured basis on the program's own alumni destination record, n = 47, 15 titles), sitting **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Algorithmic choice architecture and ethical nudge governance | Rising | OECD (2024) Good Practice Principles and Australian Government (BETA) standards require ethical auditing of automated nudges, dark patterns, and algorithmic manipulation to preserve human autonomy. — C3, W1 |
 | Randomized controlled trials (RCTs) as causal evidentiary benchmark | Sustained High | BETA Evaluation Guidance and Australian Treasury evaluation toolkits re-affirm pre-registered field trials and causal inference as core human capabilities that automated models cannot replace. — C5, G2 |
 | Generative AI in consumer research and synthetic persona simulation | Rising / Volatile | Widespread adoption of LLM tools for qualitative coding and synthetic consumer personas (GRIT Report 2025); severe risks of hallucinated user motivations demand evaluative judgement and empirical ground-truthing. — C2, C5, W2 |
@@ -185,7 +186,7 @@ The market intelligence gathered for this program indicates a high and accelerat
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-ap.md); rows
@@ -204,7 +205,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 47, 15 destination titles, 13 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 47, 15 destination titles, 13 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (29 pages) and verified on 2026-08-23: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

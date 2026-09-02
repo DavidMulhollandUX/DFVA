@@ -24,7 +24,7 @@ const content = {
 2. **Sector-wide job losses are reported for the prior year, but not isolated to this role.** Alliance magazine (10 April 2026), corroborated by Chronicle of Philanthropy (13 November 2025), references over 20,000 nonprofit job losses in the prior year across the sector generally, attributed by that reporting to funding contraction rather than AI-driven automation. LOW confidence — sector-wide, not role-specific.
 3. **A trade-press claim that AI adoption is "a factor" in some sector layoffs could not be independently verified.** Foundation Source (29 July 2026) paraphrases a July 2025 Chronicle of Philanthropy report making this claim, but that underlying report was not independently retrieved in this research pass and the paraphrase does not specify which roles were affected. LOW confidence.
 4. **The 2026 Nonprofit AI Adoption Report is the most concrete labour-market-adjacent figure available, but it measures adoption, not vacancies.** Reported via NonProfit PRO (2026, exact publication day unconfirmed), the benchmark survey of 346 nonprofits (Virtuous / Fundraising.AI) found 92% AI usage but only 7% reporting major organisational impact and 47% with no AI governance policy. This speaks to what employers will expect leadership hires to bring, not to current hiring volume. LOW-MEDIUM confidence — real survey data, but organisational rather than vacancy-level, and the full report page could not be fetched directly.
-5. **No ANZSCO- or SOC-level occupation exposure figure was retrievable for this profession.** Every attempt in the supplied research pass to source a formal AI-exposure score (Jobs and Skills Australia, AIOE/Felten, Eloundou et al., ILO) for a nonprofit/social-service-manager occupation returned nothing usable — pages timed out or search snippets carried no occupation-specific figure. This is a stated gap, not a LOW-confidence estimate.
+5. **No ANZSCO- or Standard Occupational Classification (SOC)-level occupation exposure figure was retrievable for this profession.** Every attempt in the supplied research pass to source a formal AI-exposure score (Jobs and Skills Australia, AIOE/Felten, Eloundou et al., ILO) for a nonprofit/social-service-manager occupation returned nothing usable — pages timed out or search snippets carried no occupation-specific figure. This is a stated gap, not a LOW-confidence estimate.
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
@@ -54,8 +54,7 @@ Scope: neither source establishes what share of the nonprofit workforce has adop
 
 **Bearing:** C2 and C3. Leading the "strategic conversation" these sources say is missing requires criterion-referenced appraisal of organisational practice against an external standard — the capability C2 is capped at Level 1 for (graded self-reflection, not appraisal against criteria) — layered on the same C3 gap (no digital/AI content) named in Theme 2.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI governance policy design and adoption oversight | **↑↑ Rising sharply** | Theme 2 (§3) reports the 2026 Nonprofit AI Adoption Report found 92% of surveyed nonprofits now use AI but 47% have no AI governance policy at all, with funders reported to expect demonstrated AI governance capability rather than mere use, while CI-1 (§5) confirms C3 scores 0 — no digital/AI content appears anywhere in the curriculum. |
@@ -80,7 +79,7 @@ Scope: neither source establishes what share of the nonprofit workforce has adop
 
 | Signal Area | Confidence | Gap / Caveat |
 |---|---|---|
-| Job family / occupation framing (§1) | MEDIUM | No formal ANZSCO occupation code was matched for "Social Change Leader"; families are drawn from the program's own specialisation (AFSE Indigenous Fellowship) plus adjacent trade-press role titles, not a validated occupation crosswalk |
+| Job family / occupation framing (§1) | MEDIUM | No formal ANZSCO occupation code was matched for "Social Change Leader"; families are drawn from the program's own specialisation (AFSE Indigenous Fellowship) plus adjacent trade-press role titles, not a validated occupation mapping |
 | Job-ad signals (§2) | NONE / LOW | No Adzuna, Seek or LinkedIn vacancy data was collected for this profession — no live Adzuna, Seek or LinkedIn vacancy data was collected for this profession key in any research pass to date |
 | ACNC governance and conduct standards (§3 Theme 1) | HIGH | Sourced directly to the regulator's own guidance pages, corroborated by two independent legal/advisory summaries |
 | AI-adoption trade press and benchmark survey (§3 Themes 2–3) | MEDIUM | Trade press paraphrasing a named benchmark survey (346 organisations), not a peer-reviewed study; the NonProfit PRO article's full page could not be fetched directly, only a search-result snippet was observed, and its exact publication day is unconfirmed |
@@ -89,7 +88,7 @@ Scope: neither source establishes what share of the nonprofit workforce has adop
 
 ### Critical evidence gaps to close before institutional use:
 1. Run a live Adzuna AU (or Seek/LinkedIn) job-ad search for nonprofit and social-impact leadership titles matched to mc-scl's actual graduate destinations — no job-ad data exists for this program at any confidence level today.
-2. Retrieve an occupation-level AI exposure score (AIOE, JSA HEO, or Eloundou et al.) for the closest ANZSCO/SOC code to Social Change Leader — every attempt in this research pass failed to return a usable figure.
+2. Retrieve an occupation-level AI exposure score (AI Occupational Exposure (AIOE), JSA HEO, or Eloundou et al.) for the closest ANZSCO/SOC code to Social Change Leader — every attempt in this research pass failed to return a usable figure.
 3. Independently verify the NonProfit PRO summary of the 2026 Nonprofit AI Adoption Report against the primary Virtuous/Fundraising.AI report — the full article page was blocked on fetch and only a search snippet was observed.
 4. Source Australian-specific discourse on AI's effect on NFP and social-change leadership roles specifically — all §3 sources except the ACNC material are US philanthropy trade press, and none addresses the AFSE Fellowship's Indigenous-led leadership model directly.
 
@@ -99,7 +98,7 @@ Scope: neither source establishes what share of the nonprofit workforce has adop
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-scl
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **099999 Society and Culture, n.e.c.** (n = 9,930 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 24.8% of them, and the 5 largest are shown at each stage.
 

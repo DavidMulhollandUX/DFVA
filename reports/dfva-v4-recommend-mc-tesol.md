@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of TESOL is a 200-point postgraduate coursework degree preparing English language educators, curriculum designers, and academic coordinators for roles in school-based EAL/D programs, adult migrant education (AMES), and private/university ELICOS pathway colleges aligned with Australian Council of TESOL Associations (ACTA) and NEAS quality assurance frameworks. The program passes G2 on a compulsory final-semester self-scoped research inquiry capstone, but fails G1 (**FAIL**) because every TESOL-specialist subject (second language acquisition, language methodology, grammar pedagogy) sits in optional elective pools or specialisations, while the compulsory core consists largely of generic education subjects without sequenced prerequisite depth.

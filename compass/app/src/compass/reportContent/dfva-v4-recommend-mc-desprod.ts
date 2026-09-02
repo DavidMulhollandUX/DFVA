@@ -13,7 +13,7 @@ const content = {
 > [References](#references); full citations are given there and not repeated in
 > the body.
 >
-> The exposure value is an **estimate**: it rests on a field basis (JSA HEO ·
+> The exposure value is an **estimate**: it rests on a field basis (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) ·
 > 100103 Drama and Theatre Studies, 45.2% coverage), not on this program's own
 > graduates. It is sound enough to say the destinations carry meaningful AI
 > exposure and not sound enough to rank this program against a peer on
@@ -30,7 +30,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Design and Production (MC-DESPROD) scores 6 / 15 on curriculum

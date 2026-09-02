@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Music Therapy demonstrates exemplary workplace practice alignment, achieving a perfect **9 / 9 on sub-scale W**. Its 200-point curriculum embeds 640 hours (80 days) of accredited clinical practicum across hospitals, special education, and community facilities, supervised by registered music therapists and evaluated through dual industry-partner reports and strict accreditation hurdles. G1 passes on an AMTA-accredited 16-subject core, and G2 passes on extensive clinical decision-making under uncertainty with real patient populations.

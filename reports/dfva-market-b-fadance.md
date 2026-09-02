@@ -23,7 +23,7 @@ Job family 4 is drawn directly from the field's own destination data (§ below):
 Australia's visual effects market is forecast to grow from US$227.7 million in 2025 to US$395.8 million by 2034 as studios adopt LED-volume virtual production and real-time engine pipelines, driving demand for performers who can supply motion-capture-ready movement.
 
 **Signal 2 — Private-tuition teaching remains the largest single paid destination for the field.**
-JSA HEO administrative data (below) records Dance Teacher (Private Tuition) as the single largest occupation share at every career stage from entry through senior — ahead of performing roles themselves.
+Jobs and Skills Australia Higher Education Outcomes (JSA HEO) administrative data (below) records Dance Teacher (Private Tuition) as the single largest occupation share at every career stage from entry through senior — ahead of performing roles themselves.
 
 **Signal 3 — National standard-setting on pay, conduct and AI has just landed for the dance workforce.**
 The Dance Industry Code of Practice 2025–26 (MEAA and Dancers Australia, 8 July 2025) sets Australia's first national minimum pay rates and professional-conduct standards for dancers, choreographers and dance teachers, and explicitly addresses AI training use and "digital doubles" of performers' images.
@@ -94,7 +94,7 @@ Paul Henderson, co-founder of Tiffanydance Holdings, writing in [Dance Informa M
 | Evidence Category | Confidence | Notes |
 |---|---|---|
 | Dance Industry Code of Practice 2025–26 (MEAA / Dancers Australia) | HIGH | A binding-on-signatories national industry instrument with a specific, dated AI/consent clause |
-| JSA HEO field-level destination data (Dance, 100105) | HIGH | ATO tax-linked administrative data; field-of-education grain, not per-degree, and the "Dancer or Choreographer" title itself is excluded from the AIOE crosswalk used to compute exposure (see §1 of the v4 report) |
+| JSA HEO field-level destination data (Dance, 100105) | HIGH | ATO tax-linked administrative data; field-of-education grain, not per-degree, and the "Dancer or Choreographer" title itself is excluded from the AI Occupational Exposure (AIOE) mapping used to compute exposure (see §1 of the v4 report) |
 | QILT GOS-L 2025 employment and salary figures | MEDIUM | Reported at the broad Creative Arts field level, not dance-specific; scoped accordingly below |
 | Motion-capture / virtual-production market growth and SAG-AFTRA agreement terms | MEDIUM | Real, dated, and directly analogous to b-fadance's own mixed-reality content, but drawn from the adjacent screen/interactive-games sector and the US market, not the Australian live-dance sector directly |
 | AISOMA / Wayne McGregor as evidence of sector-wide AI adoption | LOW–MEDIUM | Documents that the tool category exists and is now public-facing in one choreographer's practice; not evidence of adoption rate across the profession |
@@ -118,5 +118,5 @@ Private-tuition dance teaching overtakes performing itself as the single largest
 
 **Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
 
-*Sources: JSA HEO Work & Occupation (Table_3), data/jsa/heo_field_destinations.json; QILT Graduate Outcomes Survey – Longitudinal 2025 National Report Tables, data/qilt/; IBISWorld P8102. Destinations and outcomes are field-of-education level (not per-degree), and QILT figures are reported at the broad Creative Arts field, not dance-specific.*
+*Sources: JSA HEO Work & Occupation (Table_3), the Jobs and Skills Australia field destinations table; QILT Graduate Outcomes Survey – Longitudinal 2025 National Report Tables; IBISWorld P8102. Destinations and outcomes are field-of-education level (not per-degree), and QILT figures are reported at the broad Creative Arts field, not dance-specific.*
 <!-- LABOUR-EVIDENCE:END -->

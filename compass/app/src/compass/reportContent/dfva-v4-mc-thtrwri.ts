@@ -28,7 +28,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 72.81.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 19 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 100103 Drama and Theatre Studies; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
+**Destination AI Exposure: 72.81.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 19 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 100103 Drama and Theatre Studies; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -159,7 +159,7 @@ Studies field at every completion level, not this program's own cohort.
 
 **Signals and skill shifts**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | AWG position paper (2023) names "theatre" explicitly among AI risks, setting out authorial control, fair remuneration and moral rights as headline principles | Advocacy against unregulated AI use in dramatic writing | C3, W1 |
 | Creative Australia's Delivery Partner: Playwriting Services stream (2026–2028, up to $250,000/year) funds career-sustainability and professional-pathway services for playwrights | New national investment in structured, professional-facing playwright pathways | C4, W1 |
@@ -187,7 +187,7 @@ time of assessment, so no outcomes data exists yet for that signal.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-thtrwri.md); rows
@@ -206,7 +206,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **field** (field grain), n = 0, 19 destination titles, 3 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
+**Panel A metadata.** Basis tier **field** (field grain), n = 0, 19 destination titles, 3 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
 
 **Panel C provenance.** Scored from the 2026 handbook capture (16 pages) and verified on 2026-08-31: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

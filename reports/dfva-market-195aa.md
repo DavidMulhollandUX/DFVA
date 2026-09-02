@@ -88,12 +88,12 @@ Research presented across [BDPS](https://bdps.org.au/) and [SoCLA](https://www.s
 | Tier 1 law firm & contractor hiring standards | HIGH | Clear recruitment benchmarks across Clayton Utz, HSF, CPB, John Holland |
 | Standard contract forms & SOPA statutory rules | HIGH | Established legislative and standard contracting frameworks (AS, FIDIC, SOPA) |
 | AI impact on legal document analysis | HIGH | Broad consensus across legal tech providers and construction law networks |
-| Program-specific graduate salary tracking | HIGH | Exact-name alumni destination record (n=88) crosswalked to JSA HEO legal benchmarks |
+| Program-specific graduate salary tracking | HIGH | Exact-name alumni destination record (n=88) matched to Jobs and Skills Australia Higher Education Outcomes (JSA HEO) legal benchmarks |
 
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **0909 Law** (n = 17,720 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 58.6% of them, and the 5 largest are shown at each stage.
 

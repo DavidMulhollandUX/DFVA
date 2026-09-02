@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 92.50.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 13 of 14 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 104, 14 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 92.50.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 13 of 14 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 104, 14 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -139,20 +139,20 @@ The market intelligence gathered for this program indicates consistent employer 
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Multilateral & Bilateral Aid Program Management | Development Program Assistant, DFAT Graduate Officer, UN Associate Officer | Development Program Manager, Senior Policy Officer, First Secretary (Development) | LOW–MEDIUM | Multilateral funding compliance, geopolitical risk analysis, local partner co-design |
-| 2 | NGO Monitoring, Evaluation, Research & Learning (MERL) | MERL Officer, Project M&E Assistant, Impact Analyst | MERL Manager, Senior Impact Evaluator, Head of Program Quality | MEDIUM | Real-time mobile data collection (Kobo, CommCare), mixed-methods impact evaluation, AI survey auditing |
-| 3 | Gender, Disability & Social Inclusion (GEDSI) Advisory | GEDSI Project Officer, Inclusion Analyst | Senior GEDSI Advisor, Regional Protection Lead | LOW | Intersectional vulnerability analysis, safeguarding compliance, First Nations community consultation |
-| 4 | Humanitarian Assistance & Disaster Risk Reduction | Emergency Response Officer, Disaster Risk Analyst | Humanitarian Operations Manager, Regional Emergency Coordinator | LOW–MEDIUM | Climate-adaptive disaster preparedness, cash transfer program design, humanitarian logistics |
-| 5 | Sustainable Development & ESG Consulting | Sustainability Analyst, Social Performance Consultant | ESG Manager, Principal Social Impact Consultant | MEDIUM | Corporate human rights due diligence, supply chain traceability, carbon offset social integrity |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Multilateral & Bilateral Aid Program Management | Development Program Assistant, DFAT Graduate Officer, UN Associate Officer; later Development Program Manager, Senior Policy Officer, First Secretary (Development) | LOW–MEDIUM | Multilateral funding compliance, geopolitical risk analysis, local partner co-design |
+| NGO Monitoring, Evaluation, Research & Learning (MERL) | MERL Officer, Project M&E Assistant, Impact Analyst; later MERL Manager, Senior Impact Evaluator, Head of Program Quality | MEDIUM | Real-time mobile data collection (Kobo, CommCare), mixed-methods impact evaluation, AI survey auditing |
+| Gender, Disability & Social Inclusion (GEDSI) Advisory | GEDSI Project Officer, Inclusion Analyst; later Senior GEDSI Advisor, Regional Protection Lead | LOW | Intersectional vulnerability analysis, safeguarding compliance, First Nations community consultation |
+| Humanitarian Assistance & Disaster Risk Reduction | Emergency Response Officer, Disaster Risk Analyst; later Humanitarian Operations Manager, Regional Emergency Coordinator | LOW–MEDIUM | Climate-adaptive disaster preparedness, cash transfer program design, humanitarian logistics |
+| Sustainable Development & ESG Consulting | Sustainability Analyst, Social Performance Consultant; later ESG Manager, Principal Social Impact Consultant | MEDIUM | Corporate human rights due diligence, supply chain traceability, carbon offset social integrity |
 
 **Exposure basis declaration.** Destination AI exposure is **92.50** (exact basis derived from Master of Development Studies graduate destinations), sitting **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Localization and decolonial development frameworks | Sustained High | ACFID Code of Conduct and donor standards require practitioners to shift leadership to local Southern partners through participatory co-design and power-sharing. — C1, W1, G2 |
 | AI in MERL and mobile survey data analysis | Rising / Volatile | Widespread use of mobile data platforms (Kobo) and AI survey tools accelerates analysis, but creates high risk of algorithmic exclusion and hallucinated community sentiment. — C2, C3, W2 |
 | Climate displacement and anticipatory disaster financing | Rising | Climate volatility demands development specialists skilled in loss-and-damage governance and anticipatory cash transfer mechanisms. — C4, W2, G2 |
@@ -164,7 +164,7 @@ The market intelligence gathered for this program indicates consistent employer 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-097ab.md); rows
@@ -183,7 +183,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 104, 14 destination titles, 13 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 104, 14 destination titles, 13 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (42 pages) and verified on 2026-08-19: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

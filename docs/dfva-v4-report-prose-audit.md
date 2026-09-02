@@ -115,8 +115,8 @@ reader users and in translation; Google asks for "preceding". The leverage here 
 unusual: **40 of the instances are two template strings**, shared verbatim across
 40 files —
 
-> This section argues from the evidence above; it is interpretation, not observation.
-> This plan argues from the scored evidence and market data above; it is interpretation, not observation.
+> This section argues from the preceding evidence; it is interpretation, not observation.
+> This plan argues from the preceding scored evidence and market data; it is interpretation, not observation.
 
 Both come from the v4 scaffolds — `dfva-v4-report-scaffold.ts:306` and
 `dfva-v4-recommend-scaffold.ts:123`. Note that `check-report-format.ts` asserts

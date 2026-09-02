@@ -23,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 91.09.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Master of Civil Engineering (n = 48); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 91.09.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Master of Civil Engineering (n = 48); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -150,20 +150,20 @@ The market intelligence gathered for this program indicates consistent, infrastr
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Structural Design & Consulting Engineering | Graduate Structural Engineer, Design Engineer | Senior Structural Engineer, Associate (Buildings / Bridges) | MEDIUM | Performance-based earthquake/wind design, automated FEA audit, mass timber structural design |
-| 2 | Infrastructure & Civil Asset Engineering | Infrastructure Project Engineer, Asset Inspection Engineer | Senior Bridge Engineer, Infrastructure Asset Lead | LOW–MEDIUM | Structural health monitoring (SHM), digital twin integration, extreme weather resilience |
-| 3 | Construction Engineering & Temporary Works | Site Engineer, Temporary Works Designer | Construction Project Manager, Senior Structural Site Lead | LOW | Prefabricated modular construction, crane load engineering, construction sequencing verification |
-| 4 | Building Façade & High-Rise Specialist Engineering | Façade Engineer, Tall Building Specialist | Technical Director (Tall Buildings), Principal Façade Consultant | MEDIUM | Nonlinear dynamic analysis, computational fluid dynamics (CFD) wind engineering, embodied carbon auditing |
-| 5 | Computational Structural Engineering & BIM | Computational Design Engineer, BIM Specialist | Lead Structural Parametric Modeler, Digital Engineering Director | MEDIUM–HIGH | Parametric structural optimization (Grasshopper/Dynamo), Speckle interoperability, Python FEA automation |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Structural Design & Consulting Engineering | Graduate Structural Engineer, Design Engineer; later Senior Structural Engineer, Associate (Buildings / Bridges) | MEDIUM | Performance-based earthquake/wind design, automated FEA audit, mass timber structural design |
+| Infrastructure & Civil Asset Engineering | Infrastructure Project Engineer, Asset Inspection Engineer; later Senior Bridge Engineer, Infrastructure Asset Lead | LOW–MEDIUM | Structural health monitoring (SHM), digital twin integration, extreme weather resilience |
+| Construction Engineering & Temporary Works | Site Engineer, Temporary Works Designer; later Construction Project Manager, Senior Structural Site Lead | LOW | Prefabricated modular construction, crane load engineering, construction sequencing verification |
+| Building Façade & High-Rise Specialist Engineering | Façade Engineer, Tall Building Specialist; later Technical Director (Tall Buildings), Principal Façade Consultant | MEDIUM | Nonlinear dynamic analysis, computational fluid dynamics (CFD) wind engineering, embodied carbon auditing |
+| Computational Structural Engineering & BIM | Computational Design Engineer, BIM Specialist; later Lead Structural Parametric Modeler, Digital Engineering Director | MEDIUM–HIGH | Parametric structural optimization (Grasshopper/Dynamo), Speckle interoperability, Python FEA automation |
 
 **Exposure basis declaration.** Destination AI exposure is **83.18** (exact basis derived from Structural Engineering graduate destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Infrastructure Big Build pipeline in Victoria and NSW | Sustained High | Government transport and rail projects drive steady demand for structural engineering specialists. — W2, G1, G2 |
 | BIM authoring (Revit/Tekla) and computational scripting mandatory | Rising / Volatile | Consultancies mandate 3D digital model authoring and parametric optimization over 2D drafting. — C3, W2 |
 | Embodied carbon and sustainable timber structures (CLT) | Rising | Client ESG mandates require structural engineers to conduct whole-of-life carbon lifecycle assessments. — C4, C5, G1 |
@@ -175,7 +175,7 @@ The market intelligence gathered for this program indicates consistent, infrastr
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-746st.md); rows
@@ -194,7 +194,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **partial** (related program), n = 48. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: Engineering Structures is a civil-engineering specialisation; reconciliation package tier partial.
+**Panel A metadata.** Basis tier **partial** (related program), n = 48. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Engineering Structures is a civil-engineering specialisation; reconciliation package tier partial.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (34 pages) and verified on 2026-08-14: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

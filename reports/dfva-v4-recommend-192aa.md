@@ -12,7 +12,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of International Tax provides a prestigious, globally recognized specialist legal qualification. G1 passes on a comprehensive specialist curriculum covering foundations, tax treaties, transfer pricing, and comparative international tax doctrine, and G2 passes on defended trade-off analysis under legal and economic uncertainty in take-home examinations and in-class policy debates.

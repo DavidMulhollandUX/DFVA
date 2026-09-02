@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Business Analytics prepares commercial business intelligence analysts, machine learning specialists, operations researchers, and analytics consultants for top financial institutions, consulting firms, retail leaders, and tech enterprises (CBA, ANZ, Macquarie, Woolworths, Quantium, Deloitte). Both gates pass: G1 passes on a coherent specialist core spanning 10 compulsory analytics subjects (statistical learning, optimization, causal analytics, ML & AI, NLP, forecasting) with progressive technical depth; G2 passes on mathematical decision-making under uncertainty, risk analytics trade-offs, and an assessed industry practicum under NDA.

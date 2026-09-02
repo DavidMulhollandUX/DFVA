@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Bachelor of Oral Health (841AC) is a fixed 3-year full-time undergraduate specialist degree accredited by the Australian Dental Council (ADC) and recognised by the Dental Board of Australia (DBA) for registration as an Oral Health Therapist (dental therapy and dental hygiene). Both gates pass unconditionally: Gate G1 on a staged, all-compulsory ADC-accredited sequence from simulation to full clinical scope, and Gate G2 on live clinical diagnosis, viva voce examinations, and patient treatment adaptation under acute clinical uncertainty.

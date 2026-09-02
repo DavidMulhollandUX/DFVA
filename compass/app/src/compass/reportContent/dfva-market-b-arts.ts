@@ -98,7 +98,7 @@ Standards from [IPAA](https://www.ipaa.org.au/) confirm that authentic ministeri
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS & DEMAND (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · QILT · Adzuna)
 
 **Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 090101 Political Science & Policy Studies / 090301 Sociology / 100701 Media & Communications):
 

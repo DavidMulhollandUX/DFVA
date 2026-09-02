@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Psychology (Clinical Neuropsychology) (527CN) is a 200-point postgraduate specialist professional degree accredited by APAC and recognized by the Psychology Board of Australia for specialist endorsement in clinical neuropsychology. Both gates pass unconditionally: Gate G1 on an all-compulsory specialist sequence accredited by APAC, and Gate G2 on clinical formulation under uncertainty, ethical dilemma resolution, and 126 days of live clinical practice with neurological patients.

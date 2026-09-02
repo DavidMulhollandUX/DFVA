@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Development Studies provides a coherent interdisciplinary foundation in development theory, political economy, gender, and disaster aid. G1 passes on structured discipline progression across core subjects and attainment-gated progression into the minor thesis, and G2 passes on defended trade-off assessments in compulsory linked interactive oral examinations (DEVT90009, DEVT90053, DEVT90058).

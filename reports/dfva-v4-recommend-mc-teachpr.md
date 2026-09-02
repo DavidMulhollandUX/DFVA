@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Teaching (Primary) has a strong professional-practice spine. G1 passes on a compulsory, fixed-sequence, VIT/AITSL-accredited 15-subject core, and G2 passes on the compulsory Clinical Teaching Practicum and self-scoped Capstone, both of which require defended judgement under real, unscripted classroom conditions. C4 (3/3) reaches the instrument ceiling on the self-scoped Capstone, and W3 (3/3) reaches the ceiling on 60 supervised placement days plus a further 60-hour Capstone WIL component.

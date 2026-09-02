@@ -72,3 +72,17 @@ Netflix's Q2 2025 earnings call (S&P Global Market Intelligence Kagan, July 2025
 | Global screen & streaming production AI trends | HIGH | Supported by McKinsey 2025 analysis and SAG-AFTRA contractual agreements |
 | Australian funding & governance policy | HIGH | Screen Australia AI Transparency Statement provides direct statutory/funding context |
 | Australian graduate hiring volumes | MEDIUM-LOW | Hiring volumes for Australian screen graduates are not independently scraped; global studio signals provide proxy |
+
+<!-- LABOUR-EVIDENCE:START -->
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
+
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **100701 Audio Visual Studies** (n = 3,400 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 31.2% of them, and the 5 largest are shown at each stage.
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (7.4%) · Film and Video Editor (4.4%) · Production Assistant (Film, Television, Radio or Stage) (3.5%) · Media Producer (excluding Video) (2.6%) · Camera Operator (Film, Television or Video) (2.4%) |
+| Early (~3yr) | Sales Assistant (General) (5.9%) · Film and Video Editor (5.6%) · Production Assistant (Film, Television, Radio or Stage) (4.1%) · Media Producer (excluding Video) (3.8%) · Camera Operator (Film, Television or Video) (2.1%) |
+| Senior (~5yr) | Film and Video Editor (5.9%) · Media Producer (excluding Video) (4.4%) · Sales Assistant (General) (4.4%) · Production Assistant (Film, Television, Radio or Stage) (3.5%) · Camera Operator (Film, Television or Video) (2.1%) |
+
+**Field grain, not program grain.** These are graduates of the whole Audio Visual Studies field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
+<!-- LABOUR-EVIDENCE:END -->

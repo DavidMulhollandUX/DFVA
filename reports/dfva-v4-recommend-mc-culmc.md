@@ -2,14 +2,14 @@
 
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-31 · **Derived from:** the verified panelCv4 scoring + [reports/dfva-market-mc-culmc.md](dfva-market-mc-culmc.md)
-**Position basis:** Destination AI Exposure 71.38 (field basis — JSA HEO · 100399 Visual Arts and Crafts, n.e.c., graduates of the whole field, not this program's own graduates) × Curriculum Adaptiveness 7/15 (v4.2 draft, sub-scale A) · Workplace practice 6/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite, and no position or quadrant label is stated here because v4 does not yet publish one
+**Position basis:** Destination AI Exposure 71.38 (field basis — Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · 100399 Visual Arts and Crafts, n.e.c., graduates of the whole field, not this program's own graduates) × Curriculum Adaptiveness 7/15 (v4.2 draft, sub-scale A) · Workplace practice 6/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite, and no position or quadrant label is stated here because v4 does not yet publish one
 
 Citation marks in the Sources columns refer to the numbered list in References; full
 citations are given there and not repeated in the body.
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is interpretation,
+*This plan argues from the preceding scored evidence and market data; it is interpretation,
 not observation.*
 
 The scored evidence splits along two lines: what is required of every student, and what

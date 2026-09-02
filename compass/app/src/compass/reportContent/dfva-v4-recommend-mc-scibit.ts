@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Biotechnology is a postgraduate professional science degree preparing regulatory affairs officers, biotechnology commercialisation analysts, QA validation scientists, and clinical project coordinators accredited by the National Professional Science Master's Association (NPSMA). Both gates pass unconditionally: G1 passes on an all-compulsory 100-credit-point disciplinary core plus a 25-point compulsory industry project with staged prerequisites (SKIL90004); G2 passes on a year-long capstone on an industry-identified commercial problem with live organizational uncertainty, client accountability, and explicit regulatory trade-off analyses.

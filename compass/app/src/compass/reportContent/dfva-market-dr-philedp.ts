@@ -66,8 +66,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI-assisted report drafting with clinician review and sign-off | **↑↑ Rising sharply** | Signal 5 (§2) confirms assessment-platform vendors are marketing AI-assisted scoring and report-drafting add-ons framed as clinician time-saving; CI-1 (§5) notes the handbook shows no explicit curriculum content teaching supervision or critique of these tools. |
@@ -116,6 +115,18 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 **Assessment Date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-philedp
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
+
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **090701 Psychology** (n = 24,170 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 36.6% of them, and the 5 largest are shown at each stage.
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Psychologists nec (11.3%) · Clinical Psychologist (7.9%) · General Clerk (3.4%) · Sales Assistant (General) (3.4%) · Social Worker (2.8%) |
+| Early (~3yr) | Psychologists nec (12.0%) · Clinical Psychologist (9.1%) · Social Worker (3.3%) · General Clerk (2.6%) · Program or Project Administrator (2.4%) |
+| Senior (~5yr) | Psychologists nec (12.1%) · Clinical Psychologist (9.3%) · Social Worker (3.4%) · Program or Project Administrator (2.7%) · General Clerk (2.1%) |
+
+**Field grain, not program grain.** These are graduates of the whole Psychology field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 `,
 };
 

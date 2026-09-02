@@ -3,6 +3,7 @@
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-15
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-propsyc (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 35 pages captured
+**Course Director:** Margaret Osborne
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -12,7 +13,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 97.19.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 66). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 97.19.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 66). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 10 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -183,19 +184,19 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Generalist Clinical Psychological Practice | Provisional Psychologist, Graduate Psychologist | Registered Generalist Psychologist, Practice Lead | LOW | Clinical case formulation, risk assessment, evidence-based CBT/ACT therapies |
-| 2 | Community Mental Health & NDIS Practice | Mental Health Clinician, NDIS Behaviour Support Practitioner | Senior Clinical Supervisor, NDIS Clinical Lead | LOW | Functional capacity assessment, behaviour support plans, trauma-informed care |
-| 3 | Telehealth & Digital Mental Health Delivery | Telehealth Psychologist, Digital Triage Clinician | Lead Telehealth Practitioner, Clinical Service Director | LOW–MEDIUM | Remote clinical assessment, digital therapeutic alliance, EHR data governance |
-| 4 | Organisational & School Psychological Support | School Psychologist, Wellbeing Consultant | Head of Student Wellbeing, Organisational Development Lead | LOW–MEDIUM | Psychoeducational assessment batteries, crisis de-escalation, interdisciplinary team care |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Generalist Clinical Psychological Practice | Provisional Psychologist, Graduate Psychologist; later Registered Generalist Psychologist, Practice Lead | LOW | Clinical case formulation, risk assessment, evidence-based CBT/ACT therapies |
+| Community Mental Health & NDIS Practice | Mental Health Clinician, NDIS Behaviour Support Practitioner; later Senior Clinical Supervisor, NDIS Clinical Lead | LOW | Functional capacity assessment, behaviour support plans, trauma-informed care |
+| Telehealth & Digital Mental Health Delivery | Telehealth Psychologist, Digital Triage Clinician; later Lead Telehealth Practitioner, Clinical Service Director | LOW–MEDIUM | Remote clinical assessment, digital therapeutic alliance, EHR data governance |
+| Organisational & School Psychological Support | School Psychologist, Wellbeing Consultant; later Head of Student Wellbeing, Organisational Development Lead | LOW–MEDIUM | Psychoeducational assessment batteries, crisis de-escalation, interdisciplinary team care |
 
 **Exposure basis declaration.** Destination AI exposure is **44.92** (exact basis derived from Psychology / Mental Health destinations), sitting well **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Demand for provisional psychologists under PsyBA 5+1 model | Sustained High | Community mental health and NDIS providers recruit accredited MPsych graduates. — W3, G1 |
 | Universal requirement for telehealth delivery and EHR tools | Fast | Job postings mandate demonstrated video-therapy and electronic records skills. — C3, W2 |
 | Mandatory hurdle clinical skills exams and PsyBA alignment | Stable | Employers and AHPRA require demonstrated competency in test administration. — W1, W2, G1 |
@@ -207,7 +208,7 @@ The market intelligence gathered for this program indicates strong demand across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-propsyc.md); rows
@@ -226,7 +227,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 66. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 66. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-15: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

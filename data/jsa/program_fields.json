@@ -1552,6 +1552,13 @@
       "fieldName": "Medical Science",
       "confidence": "medium",
       "rationale": "Clinical research methods coded 019901 Medical Science; alternative 060199 Medical Studies n.e.c."
+    },
+    "mc-mgmthre": {
+      "name": "Master of Management (Human Resources)",
+      "field": "080303",
+      "fieldName": "Human Resource Management",
+      "confidence": "high",
+      "rationale": "Human resources specialisation, 080303 Human Resource Management. Added 2026-09-02 so the market report can carry the generated destinations footer; the program also has its own alumni record, which the report body uses."
     }
   }
 }

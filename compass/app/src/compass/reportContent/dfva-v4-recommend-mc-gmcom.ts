@@ -15,10 +15,10 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
-The Master of Global Media Communication prepares graduates for high-exposure strategic communications, media management, and digital policy roles (AIOE 94.80). The program's strongest adaptive evidence is in AI literacy and data governance (C3: 2/3), carried by the assessed digital policy case studies in MECM90002. However, routine media drafting and basic content synthesis face pervasive automation across the media sector. The program's developmental headroom centers on establishing mandatory work-situated placements (W3), assessing collaborative practice at all rather than stating it in learning outcomes (C1), moving AI and platform governance from taught content into assessed critique (C3), introducing evaluative override logs for generative AI text production (C2), guaranteeing self-scoped transfer (C4), and integrating external industry panels for public affairs defense (W1, W2).
+The Master of Global Media Communication prepares graduates for high-exposure strategic communications, media management, and digital policy roles (AI Occupational Exposure (AIOE) 94.80). The program's strongest adaptive evidence is in AI literacy and data governance (C3: 2/3), carried by the assessed digital policy case studies in MECM90002. However, routine media drafting and basic content synthesis face pervasive automation across the media sector. The program's developmental headroom centers on establishing mandatory work-situated placements (W3), assessing collaborative practice at all rather than stating it in learning outcomes (C1), moving AI and platform governance from taught content into assessed critique (C3), introducing evaluative override logs for generative AI text production (C2), guaranteeing self-scoped transfer (C4), and integrating external industry panels for public affairs defense (W1, W2).
 
 | Item | Sub-scale | Score | Levels below maximum | Market evidence for the gap | Priority |
 |---|---|---|---|---|---|

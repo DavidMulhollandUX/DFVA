@@ -3,6 +3,7 @@
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-17
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/504aa (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 35 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -17,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 94.39.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 63, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 94.39.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 63, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 5 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -174,19 +175,19 @@ The market intelligence gathered for this program indicates intense transformati
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Corporate & Commercial Legal Practice | Commercial Associate, Corporate Lawyer | Special Counsel, Commercial Partner | HIGH | AI contract analysis, legal prompt engineering, complex multi-jurisdictional M&A |
-| 2 | In-House Counsel & Regulatory Compliance | Legal Counsel, Regulatory Compliance Specialist | General Counsel, Head of Legal & Governance | HIGH | Regulatory compliance automation, cross-border corporate governance, ESG law |
-| 3 | Banking & Financial Services Law | Banking & Finance Associate, Funds Lawyer | Lead Financial Services Counsel, Partner | HIGH | FinTech regulation, digital assets/blockchain law, prudential compliance (APRA) |
-| 4 | Commercial Litigation & Dispute Resolution | Litigation Associate, Dispute Resolution Lawyer | Senior Associate, Commercial Barrister | HIGH | AI e-discovery review, evidence synthesis, courtroom cross-examination, arbitration |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Corporate & Commercial Legal Practice | Commercial Associate, Corporate Lawyer; later Special Counsel, Commercial Partner | HIGH | AI contract analysis, legal prompt engineering, complex multi-jurisdictional M&A |
+| In-House Counsel & Regulatory Compliance | Legal Counsel, Regulatory Compliance Specialist; later General Counsel, Head of Legal & Governance | HIGH | Regulatory compliance automation, cross-border corporate governance, ESG law |
+| Banking & Financial Services Law | Banking & Finance Associate, Funds Lawyer; later Lead Financial Services Counsel, Partner | HIGH | FinTech regulation, digital assets/blockchain law, prudential compliance (APRA) |
+| Commercial Litigation & Dispute Resolution | Litigation Associate, Dispute Resolution Lawyer; later Senior Associate, Commercial Barrister | HIGH | AI e-discovery review, evidence synthesis, courtroom cross-examination, arbitration |
 
 **Exposure basis declaration.** Destination AI exposure is **94.27** (exact basis derived from Commercial / Corporate Legal destinations), sitting well **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Penetration of Gen-AI legal tech copilots (Harvey, CoCounsel) | Fast | Top-tier firms mandate proficiency in automated document review and drafting. — C2, C3 |
 | Escalating demand for cross-border M&A and regulatory specialists | Fast | Corporate transactions require foreign investment and FIRB compliance expertise. — C4, G1 |
 | Shift from passive doctrinal recall to strategic deal architecture | Fast | Employers seek commercial lawyers capable of structuring transactional risk. — W2, G2 |
@@ -198,7 +199,7 @@ The market intelligence gathered for this program indicates intense transformati
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-504aa.md); rows
@@ -217,7 +218,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 63, 15 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 63, 15 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-17: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

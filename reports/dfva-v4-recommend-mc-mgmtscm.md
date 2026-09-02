@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 MC-MGMTSCM scores 7/15 on adaptive capabilities and 3/9 on workplace practice, against a variant-basis destination exposure of 90.73 — one of the higher exposure figures reported for the v4 cohort. Both gates pass: G1 on the CIPS-accredited, 100-credit-point Core and Discipline Core specialist sequence, and G2 on the mandatory Capstone practicum's live, hurdle-assessed uncertainty. C1 and C4 reach level 2 on compulsory group and applied-project work inside the Capstone and Discipline Core. Everywhere else, the program is held down by one repeated structural pattern: the only qualifying evidence for C2, W1 and W2 sits inside the Capstone's optional, substitutable coursework-practicum route (BUSA90473/BUSA90485) — the same route the adversarial review already discounts for W3 on identical grounds, and two of its four alternatives (MGMT90295/MGMT90299) are marked "Not available in 2026."

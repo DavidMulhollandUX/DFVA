@@ -23,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 89.78.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 10 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 17, 10 titles). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 89.78.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 10 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 17, 10 titles). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 7 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -130,20 +130,20 @@ The market intelligence gathered for this program indicates strong, energy-trans
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Industrial Process Engineering & Plant Operations | Graduate Process Engineer, Operations Engineer | Senior Process Engineer, Plant Operations Superintendent | MEDIUM | Dynamic process simulation (Aspen HYSYS), real-time process control, energy integration |
-| 2 | Clean Energy Transition & Hydrogen Engineering | Hydrogen Project Engineer, Biofuels Process Analyst | Clean Energy Transition Lead, Carbon Capture Technology Specialist | LOW–MEDIUM | Hydrogen electrolyser design, carbon capture and storage (CCS), lifecycle emissions auditing |
-| 3 | Process Safety, HAZOP & Environmental Compliance | Safety Risk Engineer, Environmental Compliance Officer | Principal Process Safety Consultant, Lead HAZOP Facilitator | LOW | Layer of Protection Analysis (LOPA), Environmental Effects Statements, chemical disaster modeling |
-| 4 | Minerals Processing, Metallurgy & Battery Materials | Extractive Metallurgist, Battery Materials Engineer | Senior Hydrometallurgist, Critical Minerals Processing Manager | MEDIUM | Critical minerals leaching kinetics, lithium/nickel refining optimization, circular recycling |
-| 5 | Biochemical, Food & Pharmaceutical Engineering | Bioprocess Engineer, Pharmaceutical Validation Engineer | Senior Bioprocess Development Lead, Technical Operations Manager | LOW–MEDIUM | Bioreactor scale-up, Good Manufacturing Practice (GMP) validation, downstream sterile separation |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Industrial Process Engineering & Plant Operations | Graduate Process Engineer, Operations Engineer; later Senior Process Engineer, Plant Operations Superintendent | MEDIUM | Dynamic process simulation (Aspen HYSYS), real-time process control, energy integration |
+| Clean Energy Transition & Hydrogen Engineering | Hydrogen Project Engineer, Biofuels Process Analyst; later Clean Energy Transition Lead, Carbon Capture Technology Specialist | LOW–MEDIUM | Hydrogen electrolyser design, carbon capture and storage (CCS), lifecycle emissions auditing |
+| Process Safety, HAZOP & Environmental Compliance | Safety Risk Engineer, Environmental Compliance Officer; later Principal Process Safety Consultant, Lead HAZOP Facilitator | LOW | Layer of Protection Analysis (LOPA), Environmental Effects Statements, chemical disaster modeling |
+| Minerals Processing, Metallurgy & Battery Materials | Extractive Metallurgist, Battery Materials Engineer; later Senior Hydrometallurgist, Critical Minerals Processing Manager | MEDIUM | Critical minerals leaching kinetics, lithium/nickel refining optimization, circular recycling |
+| Biochemical, Food & Pharmaceutical Engineering | Bioprocess Engineer, Pharmaceutical Validation Engineer; later Senior Bioprocess Development Lead, Technical Operations Manager | LOW–MEDIUM | Bioreactor scale-up, Good Manufacturing Practice (GMP) validation, downstream sterile separation |
 
 **Exposure basis declaration.** Destination AI exposure is **89.78** (exact basis derived from Chemical Engineering graduate destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Clean energy transition and critical minerals refining demand | Sustained High | Decarbonization pilots and lithium processing drive recruitment across Australia. — W2, G1, G2 |
 | Commercial process simulation and digital twin modelling mandatory | Rising / Volatile | Chemical engineering employers mandate steady-state and dynamic plant simulation capabilities. — C3, W2 |
 | Major Hazard Facility statutory safety regulations and HAZOP | Sustained High | Non-delegable process safety liabilities require chemical engineers trained in HAZOP and LOPA. — C1, W1, W2 |
@@ -155,7 +155,7 @@ The market intelligence gathered for this program indicates strong, energy-trans
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-chemeng.md); rows
@@ -174,7 +174,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 17, 10 destination titles, 3 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 17, 10 destination titles, 3 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-23: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

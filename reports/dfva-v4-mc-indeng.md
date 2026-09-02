@@ -3,6 +3,7 @@
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-23
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-indeng (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 35 pages captured
+**Course Director:** Wen Li
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -22,7 +23,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 88.80.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 15 of 26 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Mechanical Engineering ∪ Master of Engineering Management (n = 113, 26 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 88.80.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 15 of 26 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Mechanical Engineering ∪ Master of Engineering Management (n = 113, 26 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -195,7 +196,7 @@ The §1 exposure value (88.80) stands on the Master of Mechanical Engineering an
 
 **Signals and skill shifts.**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Discrete-event simulation and "digital twin" moving from preferred to required; ~10–15% salary premium for building rather than running models | Rising | C3, C5 |
 | Supply chain resilience and dual-sourcing exposure; cluster postings up ~22% Jan 2024 – Mar 2026 | Rising | C4, C5 |
@@ -212,7 +213,7 @@ The §1 exposure value (88.80) stands on the Master of Mechanical Engineering an
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-indeng.md); rows
@@ -231,7 +232,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **partial** (related program), n = 113, 26 destination titles, 15 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: dfva_jir_map: mechanical engineering / engineering management family.
+**Panel A metadata.** Basis tier **partial** (related program), n = 113, 26 destination titles, 15 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: dfva_jir_map: mechanical engineering / engineering management family.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-23: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

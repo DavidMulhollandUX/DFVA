@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is interpretation, not observation.*
+*This plan argues from the preceding scored evidence and market data; it is interpretation, not observation.*
 
 The Bachelor of Fine Arts (Film and Television) is a 300-credit-point specialist production degree in the Faculty of Fine Arts and Music. Both gates pass: G1 on an all-compulsory specialist core with a staged Level 1→2→3 prerequisite chain, and G2 on a 3B capstone live-production project under real, staggered industry-protocol schedules. Operating in a moderately exposed audio-visual field (**73.61**, field basis, at or below the field median), the program shows strong authentic task design and good collaborative and communication practice, but carries workplace headroom (Workplace **5/9**) concentrated in the complete absence of work-integrated learning (W3 = 0), and adaptive headroom (Adaptiveness **9/15**) in AI literacy and governance (C3 = 1) and in extending evaluative and transfer judgement to AI-generated production material (C2, C4, C5 at 2).
 

@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Doctor of Dental Surgery is an entry-to-practice clinical doctorate preparing general dentists, public dental officers, and dental surgical specialists for registration with the Dental Board of Australia (DBA) via AHPRA and the Dental Council of New Zealand. Both gates pass unconditionally: G1 passes on a 400-point all-compulsory specialist core accredited by the Australian Dental Council (ADC) with strict yearly progression gating; G2 passes on viva examinations of unknown patients, standardised case-based discussions, and comprehensive person-centred treatment planning under real clinical uncertainty.

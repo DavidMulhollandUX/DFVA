@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-14
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-doptom (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 27 pages captured
+**Course Director:** Anthea Cochrane
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -17,7 +18,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 80.13.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 199). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 80.13.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 199). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -178,20 +179,20 @@ The market intelligence gathered for this program indicates robust demand across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Primary Care & Retail Optometry | Graduate Optometrist, Resident Optometrist | Senior Optometrist, Managing Optometrist | HIGH (screening) / LOW (clinical exam) | AI retinal image interpretation (LumineticsCore), patient communication, high-volume clinic workflow |
-| 2 | Ocular Disease & Therapeutics | Therapeutic Optometrist, Glaucoma Care Optometrist | Senior Clinical Optometrist, Hospital Clinic Lead | LOW–MEDIUM | Autonomous therapeutic prescribing, shared-care glaucoma protocols with ophthalmology |
-| 3 | Specialty Contact Lenses & Myopia Control | Contact Lens Specialist, Myopia Control Optometrist | Specialty Practice Partner, Lead Orthokeratologist | LOW | Scleral lens fitting, orthokeratology design, paediatric myopia management |
-| 4 | Hospital & Public Health Eye Care | Hospital Optometrist, Diabetic Retinopathy Screener | Senior Hospital Optometrist, Public Health Lead (ACO) | LOW | Complex ocular pathology assessment, low-vision rehabilitation, multidisciplinary triage |
-| 5 | Practice Ownership & Corporate Leadership | Associate Optometrist (Joint Venture Track) | Practice Principal, Franchise Partner (Specsavers/OPSM) | LOW (clinical) / MEDIUM (business) | Clinical governance, practice management software, AI tool procurement evaluation |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Primary Care & Retail Optometry | Graduate Optometrist, Resident Optometrist; later Senior Optometrist, Managing Optometrist | HIGH (screening) / LOW (clinical exam) | AI retinal image interpretation (LumineticsCore), patient communication, high-volume clinic workflow |
+| Ocular Disease & Therapeutics | Therapeutic Optometrist, Glaucoma Care Optometrist; later Senior Clinical Optometrist, Hospital Clinic Lead | LOW–MEDIUM | Autonomous therapeutic prescribing, shared-care glaucoma protocols with ophthalmology |
+| Specialty Contact Lenses & Myopia Control | Contact Lens Specialist, Myopia Control Optometrist; later Specialty Practice Partner, Lead Orthokeratologist | LOW | Scleral lens fitting, orthokeratology design, paediatric myopia management |
+| Hospital & Public Health Eye Care | Hospital Optometrist, Diabetic Retinopathy Screener; later Senior Hospital Optometrist, Public Health Lead (ACO) | LOW | Complex ocular pathology assessment, low-vision rehabilitation, multidisciplinary triage |
+| Practice Ownership & Corporate Leadership | Associate Optometrist (Joint Venture Track); later Practice Principal, Franchise Partner (Specsavers/OPSM) | LOW (clinical) / MEDIUM (business) | Clinical governance, practice management software, AI tool procurement evaluation |
 
 **Exposure basis declaration.** Destination AI exposure is **63.31** (exact basis derived from Optometry graduate destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Automation of routine subjective refraction and automated fundus grading | Fast | Optical retail chains deploy automated autorefractors and AI fundus screening. — C2, C3, W2 |
 | Scope-of-practice expansion into autonomous glaucoma therapeutics | Fast | Regulatory updates expand therapeutic prescribing and glaucoma shared-care scope. — W1, G1 |
 | Severe undersupply of optometrists in rural and regional Australia | Sustained High | Regional eye clinics offer relocation grants and signing bonuses for registered graduates. — W3, G1 |
@@ -203,7 +204,7 @@ The market intelligence gathered for this program indicates robust demand across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-doptom.md); rows
@@ -222,7 +223,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 199. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 199. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (27 pages) and verified on 2026-08-14: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

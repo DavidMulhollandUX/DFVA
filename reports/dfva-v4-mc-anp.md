@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 76.38.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 69, 15 titles). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 76.38.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 69, 15 titles). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -198,7 +198,7 @@ combined total: the sub-scores are reported side by side and never added.
 ## 4. MARKET EVIDENCE — Basis: reported
 
 | Job family | Entry titles | AI substitution pressure | Skills rising in that family |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Advanced Practice Nursing & Specialist Practice | Clinical Nurse Specialist, Clinical Nurse Consultant, Nurse Specialist, Psychiatric Registered Nurse | LOW — physical assessment, bedside clinical reasoning, and therapeutic relational capability are irreducible | Complex diagnostic reasoning, chronic disease management, digital health literacy, trauma-informed care |
 | Nurse Practitioner / Autonomous Practice | Nurse Practitioner, Candidate Nurse Practitioner, Specialty NP | LOW — autonomous statutory and clinical accountability cannot be delegated to automated systems | Prescribing pharmacology, advanced physical assessment, clinical diagnostic reasoning, interprofessional negotiation |
 | Clinical Nursing Leadership & Health Services Management | Nurse Unit Manager, Nurse Manager, National Manager Palliative Care | LOW — conflict resolution, operational risk governance, and team leadership are human-dependent | Clinical risk governance, healthcare data analytics, change management, workforce planning |
@@ -207,8 +207,8 @@ combined total: the sub-scores are reported side by side and never added.
 
 The **Destination AI Exposure of 76.38** sits at or below the portfolio median of 90.9. It is **measured** on this program's own alumni destination record (n = 69, 15 titles), where 5 of 15 titles carry medium mapping confidence. Titles such as Nurse Unit Manager and National Manager Palliative Care map to Medical and Health Services Managers (AIOE 93.63), while clinical and specialist nursing roles map to Registered Nurses (AIOE 69.07) and Nurse Practitioners (AIOE 68.13).
 
-| Signal or shift | Direction | Bears on |
-|---|---|---|
+| Signal or shift | Direction | Bearing on the scored items |
+| --- | --- | --- |
 | EMR integration, digital workflow mastery, and critical evaluation of Clinical Decision Support Systems (CDSS) | Rising | C3, C2 |
 | Non-delegable human practitioner clinical and legal accountability under Ahpra and NMBA regulatory guidance | Rising | C3, W1 |
 | Interprofessional collaboration, clinical leadership, and systems thinking across healthcare teams | Rising | C1 |
@@ -220,7 +220,7 @@ The **Destination AI Exposure of 76.38** sits at or below the portfolio median o
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-anp.md); rows
@@ -239,7 +239,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 69, 15 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 69, 15 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-23: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

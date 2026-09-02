@@ -64,8 +64,7 @@ Separately, Forbes and IBTimes UK reported in July 2026 that Skyfall AI, founded
 
 **Bearing:** C3. Both the CAIO-authority trend and the Skyfall experiment argue for AI governance literacy as leadership content, but neither supports overstating current displacement risk in the curriculum-implications section below.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI-agent orchestration and "manager of agents" leadership skill | **↑↑ Rising sharply** | Theme 2 (§3): Box CEO Aaron Levie and founder Ryan Carson both describe senior leadership shifting to directing parallel AI agents, and DEWR lists chief executives among occupations complemented rather than substituted by AI; C3 scores 1/3 — the program's only AI content is elective tool operation (Excel Solver, generic Windows software). |
@@ -77,7 +76,7 @@ Separately, Forbes and IBTimes UK reported in July 2026 that Skyfall AI, founded
 ## 5. CURRICULUM IMPLICATIONS
 | # | Implication | Dimension | Action |
 |---|---|---|---|
-| CI-1 | The program's only AI content is elective tool-operation (Excel Solver, generic Windows-software skills) — Panel C scores C3 at Level 1 — while sourced signals show AI reshaping senior leadership work: Chief AI Officer roles gaining real budget authority, and CEOs describing themselves as "managers of agents." | C3 Technical Currency | Add AI capabilities, limitations, and governance content to a compulsory Foundation or core subject (for example, within Indigenous Business Leadership or Indigenous Business Ecosystems), rather than leaving AI exposure to an elective. |
+| CI-1 | The program's only AI content is elective tool-operation (Excel Solver, generic Windows-software skills) — the durability report's curriculum evidence scores item C3 at Level 1 — while sourced signals show AI reshaping senior leadership work: Chief AI Officer roles gaining real budget authority, and CEOs describing themselves as "managers of agents." | C3 Technical Currency | Add AI capabilities, limitations, and governance content to a compulsory Foundation or core subject (for example, within Indigenous Business Leadership or Indigenous Business Ecosystems), rather than leaving AI exposure to an elective. |
 | CI-2 | C1 credits assessed group collaboration across all four compulsory core units, but no evidence shows any assessment requiring students to coordinate work across people *and* AI or digital tools — the gap Level 3 requires. Sourced practitioner accounts describe senior leadership work increasingly organised around directing parallel AI agents alongside human teams. | C1 Coordination | Redesign one existing group assessment — for example MGMT90300's venture pitch and report — to require documented coordination of AI tools within the group task, rather than adding a new subject. |
 | CI-3 | W1's pitch assessment (MGMT90300) is a recognised professional genre but is not documented as judged by an external audience, while the IPP eligibility tightening raises the practical stakes of an Indigenous enterprise's positioning in front of real assessors such as certified-Indigenous-business panels or investors. | W1 External Accountability | Bring an external Indigenous-business or investor panel in as co-assessors for the MGMT90300 pitch assessment, giving W1 a documented external-audience component. |
 | CI-4 | The Indigenous Business Practicum (MGMT90303, W2/W3) places students with real Indigenous businesses or community organisations, but the evidence extract shows no content on the eligibility and certification landscape those host organisations now operate under — the IPP's move to 51% ownership and control, ORIC registration, and the Supply Nation Certified-versus-Registered distinction. | W2 Practicum Currency | Add a pre-placement briefing on the current Indigenous Procurement Policy and Supply Nation certification criteria, so students entering placements understand the compliance environment their host organisations face. |
@@ -108,7 +107,7 @@ Separately, Forbes and IBTimes UK reported in July 2026 that Skyfall AI, founded
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-ibl
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **080301 Business Management** (n = 23,210 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 31.1% of them, and the 5 largest are shown at each stage.
 

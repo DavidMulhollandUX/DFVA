@@ -77,6 +77,18 @@ const content = {
 | Scholarly analysis of AI in music theatre | HIGH | Backed by peer-reviewed literature (Huang-Kokina 2024) |
 | Live performance workforce and union protections | HIGH | Grounded in MEAA and SAG-AFTRA live-performance bargaining frameworks |
 | Australian music theatre hiring volumes | MEDIUM-LOW | Local commercial casting data is not tracked via standard job boards |
+
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
+
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **100199 Performing Arts, n.e.c.** (n = 1,330 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 30.8% of them, and the 5 largest are shown at each stage.
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (6.8%) · Entertainer or Variety Artist (3.8%) · Arts Administrator or Manager (3.8%) · General Clerk (3.0%) · Film and Video Editor (3.0%) |
+| Early (~3yr) | Sales Assistant (General) (3.8%) · Film and Video Editor (3.8%) · Entertainer or Variety Artist (3.0%) · Arts Administrator or Manager (3.0%) · General Clerk (2.3%) |
+| Senior (~5yr) | Film and Video Editor (3.0%) · Entertainer or Variety Artist (3.0%) · Arts Administrator or Manager (3.0%) · Program or Project Administrator (2.3%) · General Clerk (2.3%) |
+
+**Field grain, not program grain.** These are graduates of the whole Performing Arts, n.e.c. field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 `,
 };
 

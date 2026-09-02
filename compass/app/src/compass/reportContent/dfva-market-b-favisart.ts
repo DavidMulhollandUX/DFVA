@@ -93,7 +93,7 @@ Standards from [Creative Australia](https://creative.gov.au/) confirm that autho
 | NAVA Code of Practice and Creative Australia data | HIGH | Authoritative national benchmarks for visual arts practice, fees, and ethical standards |
 | AMaGA and commercial gallery sector trends | HIGH | Direct standards on curatorial documentation, exhibition design, and artist representation |
 | Cultural sector employment surveys (Seek, ArtsHub) | MEDIUM-HIGH | Demand patterns for studio artists, exhibition technicians, and community facilitators |
-| Graduate destination tracking for B-FAVISART | MEDIUM | Derived from JSA HEO 100301 Fine Arts field-level tax-linked data |
+| Graduate destination tracking for B-FAVISART | MEDIUM | Derived from Jobs and Skills Australia Higher Education Outcomes (JSA HEO) 100301 Fine Arts field-level tax-linked data |
 
 ---
 

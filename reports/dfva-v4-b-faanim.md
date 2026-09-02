@@ -23,7 +23,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 73.61.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 2 of 18 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 100701 Audio Visual Studies; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
+**Destination AI Exposure: 73.61.** Destination titles are crosswalked to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 2 of 18 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 100701 Audio Visual Studies; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 7 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -102,28 +102,28 @@ combined total: the sub-scores are reported side by side and never added.
 
 Destination job families and exposure values for Bachelor of Fine Arts (Animation) (B-FAANIM), condensed from [the market intelligence report](dfva-market-b-faanim.md):
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | AI Exposure |
-|---|---|---|---|---|---|
-| 1 | 2D / 3D Character Animation & Rigging | Junior 2D/3D Animator, Character Rigger | Senior Character Animator, Lead Animator | HIGH | 73.00 |
-| 2 | Visual Effects (VFX) & Technical Direction | Junior VFX Artist, Layout / Compositing Artist | Technical Director (TD), Lead Compositor | HIGH | 73.00 |
-| 3 | Storyboarding, Previs & Concept Art | Junior Storyboard Artist, Visual Development Artist | Storyboard Supervisor, Art Director | VERY HIGH | 73.00 |
-| 4 | Game Animation, Real-Time Engines & Interactive Media | Gameplay Animator, Technical Animator | Lead Technical Animator, Animation Director | MEDIUM | 73.00 |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| 2D / 3D Character Animation & Rigging | Junior 2D/3D Animator, Character Rigger; later Senior Character Animator, Lead Animator | HIGH | Physics-informed kinetic nuance, character rigging under automated mocap, emotional storytelling |
+| Visual Effects (VFX) & Technical Direction | Junior VFX Artist, Layout / Compositing Artist; later Technical Director (TD), Lead Compositor | HIGH | Real-time virtual production pipelines, procedural generation (Houdini), AI render denoising |
+| Storyboarding, Previs & Concept Art | Junior Storyboard Artist, Visual Development Artist; later Storyboard Supervisor, Art Director | VERY HIGH | Hybrid human-AI visual ideation, dynamic cinematic staging, narrative pacing |
+| Game Animation, Real-Time Engines & Interactive Media | Gameplay Animator, Technical Animator; later Lead Technical Animator, Animation Director | MEDIUM | Unreal Engine / Unity state machine scripting, real-time avatar animation, interactive physics |
 
 Signals and skill shifts mapped to scored Panel C and Workplace items:
 
-| Signal / Shift | Direction | Evidence | Bearing |
-|---|---|---|---|
-| Generative AI storyboard tools & procedural workflows | Rising | Studio adoption (Flying Bark, Animal Logic) of AI ideation and Houdini generation | C3, C2, W2 |
-| Real-time virtual production & engine scripting | Rising | Screen Australia guidelines on Unreal Engine 5 and real-time animation pipelines | C3, C4, G1 |
-| Multidisciplinary pipeline collaboration & dailies critique | Stable / Rising | Industry standard dailies review and cross-functional technical problem-solving | C1, C2, W1 |
-| Training dataset provenance, copyright & artist credit | Rising | MEAA and guild enforcement of ethical AI disclosures and asset IP ownership | C3, G1 |
-| Manual inbetweening, rotoscoping & boilerplate clean-up | Declining | Automation of routine 2D clean-up lines and basic 3D texturing | C3, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+| --- | --- | --- |
+| Generative AI storyboard tools & procedural workflows — Studio adoption (Flying Bark, Animal Logic) of AI ideation and Houdini generation | Rising | C3, C2, W2 |
+| Real-time virtual production & engine scripting — Screen Australia guidelines on Unreal Engine 5 and real-time animation pipelines | Rising | C3, C4, G1 |
+| Multidisciplinary pipeline collaboration & dailies critique — Industry standard dailies review and cross-functional technical problem-solving | Stable / Rising | C1, C2, W1 |
+| Training dataset provenance, copyright & artist credit — MEAA and guild enforcement of ethical AI disclosures and asset IP ownership | Rising | C3, G1 |
+| Manual inbetweening, rotoscoping & boilerplate clean-up — Automation of routine 2D clean-up lines and basic 3D texturing | Declining | C3, W2 |
 
 **Confidence:** High for screen production standards (Screen Producers Australia, MEAA, Screen Australia); Medium for field-level graduate destinations (JSA HEO 100701 Audio Visual Studies).
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-b-faanim.md); rows

@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Commercial Law (504AA) is a 100-point postgraduate specialist law degree offered by Melbourne Law School for legally qualified and cognate professionals. The program fails Gate G1 due to the absence of an all-compulsory specialist core, accredited sequence, or staged prerequisite chain (87.5 of 100 credit points are chosen freely from a broad prescribed list spanning non-commercial electives with zero compulsory sequencing), while Gate G2 passes on take-home examinations and case-study assignments requiring defended regulatory trade-offs and corporate advice.

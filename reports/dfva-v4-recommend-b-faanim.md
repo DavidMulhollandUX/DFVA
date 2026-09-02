@@ -8,11 +8,11 @@
 > [References](#references); full citations are given there and not repeated in
 > the body.
 >
-> The exposure value is an **estimate**: it rests on a field basis (JSA HEO · 100701 Audio Visual Studies), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
+> The exposure value is an **estimate**: it rests on a field basis (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · 100701 Audio Visual Studies), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Bachelor of Fine Arts (Animation) (B-FAANIM) is a 300-point specialist degree offered by the Victorian College of the Arts (VCA). The program demonstrates significant authentic studio strengths in team production workflows (C1 = 2/3), structured dailies critique (C2 = 2/3), end-to-end animated short film authoring (W2 = 2/3), and public festival screening presentations (W1 = 2/3). Gate G1 passes decisively on 250 credit points of sequential compulsory animation subjects with clear progressive technical depth. Gate G2 fails only because core assessments consist of auteur folios and short films lacking explicit, assessed trade-off decisions under live production or commercial client uncertainty.

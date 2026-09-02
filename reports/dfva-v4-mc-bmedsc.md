@@ -23,7 +23,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 82.09.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 32 of 48 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Bachelor of Biomedicine (Human Structure and ∪ Bachelor of Biomedicine (Neuroscience) ∪ Bachelor of Biomedicine (Pathology) ∪ Bachelor of Biomedicine (Pharmacology) ∪ Bachelor of Biomedicine (Physiology) (n = 380, 48 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 82.09.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 32 of 48 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Bachelor of Biomedicine (Human Structure and ∪ Bachelor of Biomedicine (Neuroscience) ∪ Bachelor of Biomedicine (Pathology) ∪ Bachelor of Biomedicine (Pharmacology) ∪ Bachelor of Biomedicine (Physiology) (n = 380, 48 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 11 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -185,7 +185,7 @@ The §1 exposure value (82.09) is borrowed from the pooled Bachelor of Biomedici
 
 **Signals and skill shifts.**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Bioinformatics tools (R, Python, Galaxy, GATK) listed as required not preferred; wet-lab-only candidates screened out at shortlisting in genomics and precision medicine | Rising | C3 |
 | Clinical trial coordinator and CRA demand sustained through 2024–2026; GCP certification a near-universal prerequisite | Stable, credential-gated | W3 |
@@ -202,7 +202,7 @@ The §1 exposure value (82.09) is borrowed from the pooled Bachelor of Biomedici
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-bmedsc.md); rows
@@ -221,7 +221,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **cognate** (cognate program), n = 380, 48 destination titles, 32 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: dfva_jir_map 'Bachelor of Biomedicine majors': union of the seven major records.
+**Panel A metadata.** Basis tier **cognate** (cognate program), n = 380, 48 destination titles, 32 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: dfva_jir_map 'Bachelor of Biomedicine majors': union of the seven major records.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-23: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

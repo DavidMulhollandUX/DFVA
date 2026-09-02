@@ -8,7 +8,7 @@
 | Conference & Community Interpreter | Conference Interpreter, Community Interpreter, NAATI Certified Interpreter | Live simultaneous and consecutive interpreting, cultural mediation | **MEDIUM** — a vendor-reported industry survey claims rising AI-interpreting evaluation and adoption among language-service integrators, but this measures organisational status, not interpreter job loss | Human-AI collaboration paradigms, real-time critical assessment of AI-generated interpretation | Slator/Boostlingo (L3-1, scoped) |
 | Legal & Court Interpreter (NAATI Specialist Legal accreditation) | Court Interpreter, Legal Interpreter | Certified interpreting in judicial and tribunal settings, adherence to procedural-fairness standards | **LOW** — NAATI's own position statement holds that AI must not be used in high-risk assignments without the expert supervision of a certified practitioner, a governance constraint specific to this family | NAATI-standards-referenced ethical practice, AI-governance literacy | NAATI position statement (L1-1) |
 | Localisation & Media Translator (games / AV) | Localisation Translator, Game Translator, Subtitler | Creative and contextual translation for games, film and marketing content | **HIGH** — a single verified case shows one AAA-studio translator's role described by his employer as being made obsolete by AI translation; one case, not a demonstrated sector pattern | AI-output review for tone, register and cultural fit; negotiating scope with AI-adopting studios | Kotaku (L5-2) |
-| AI-Augmented Language Services / Intercultural Communication Specialist | Localisation Project Coordinator, Intercultural Communication Consultant | Coordinating human-AI translation workflows, advising on AI use in cross-cultural and marketing communication | **LOW** — an emerging role built around the AI-literacy-plus-ethical-judgement function that the strongest evidence identifies as the part of the task set that has not moved to AI | AI-ethics literacy, human-AI collaboration strategy design | `dfva/source/evidence/mc-tranint.json` (TRAN90011); Microsoft Research/arXiv scoping note (L2-1) |
+| AI-Augmented Language Services / Intercultural Communication Specialist | Localisation Project Coordinator, Intercultural Communication Consultant | Coordinating human-AI translation workflows, advising on AI use in cross-cultural and marketing communication | **LOW** — an emerging role built around the AI-literacy-plus-ethical-judgement function that the strongest evidence identifies as the part of the task set that has not moved to AI | AI-ethics literacy, human-AI collaboration strategy design | the program's verified curriculum evidence (TRAN90011); Microsoft Research/arXiv scoping note (L2-1) |
 
 ## 2. RECENT JOB AD SIGNALS
 > **Confidence: LOW** — no live job-ad pull exists for this occupation. No Adzuna or equivalent job-ad data was collected for this occupation, and the record carries no L4 (job-ad evidence) lane claims either. The signals below are stated as gaps, not findings, and none of them substitute for real vacancy data.
@@ -58,8 +58,7 @@ The article is authored by Boostlingo, a commercial AI-interpreting vendor with 
 
 **Bearing:** W1 and W3. If AI-interpreting tools are genuinely spreading through language-service integrators' workflows, professional-audience assessment beyond the single TRAN90010 internship route, and workplace exposure to how organisations actually deploy these tools, both become more material to graduate readiness — though the claim itself should be weighted as vendor-reported, not independently confirmed.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI-output quality review and reliance-decision justification | **↑↑ Rising sharply** | Theme 1 (§3) finds interpreters/translators had the highest AI-task-overlap score of 785 occupations studied, and a separate causal study links machine-translation adoption to reduced translator employment; C2 does not yet name this as a graded criterion. |
@@ -100,7 +99,7 @@ The article is authored by Boostlingo, a commercial AI-interpreting vendor with 
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes (JSA HEO))
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **091519 Translating and Interpreting** (n = 630 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 27.0% of them, and the 5 largest are shown at each stage.
 

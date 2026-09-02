@@ -2,7 +2,7 @@
 
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-31 · **Derived from:** the verified panelCv4 scoring + reports/dfva-market-mc-mti.md
-**Position basis:** Destination AI Exposure 87.13 (field basis — JSA HEO · 039903 Biomedical Engineering, graduates of the whole field of education, not this program's own graduates) × Curriculum Adaptiveness 7/15 (v4.2 draft, sub-scale A) · Workplace practice 4/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite, no position label until the v4 migration cycle
+**Position basis:** Destination AI Exposure 87.13 (field basis — Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · 039903 Biomedical Engineering, graduates of the whole field of education, not this program's own graduates) × Curriculum Adaptiveness 7/15 (v4.2 draft, sub-scale A) · Workplace practice 4/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite, no position label until the v4 migration cycle
 
 > Citation marks in the Sources columns refer to the numbered list in
 > [References](#references); full citations are given there and not repeated in
@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Medical Technology Innovation (MC-MTI) is built around four compulsory
@@ -76,7 +76,7 @@ re-derived here.
 | Lever | Item | Market evidence | Location in market report | Confidence |
 |---|---|---|---|---|
 | P1 | W2 | Australia's UDI mandate is a binding legal amendment (effective 2025-03-24), with Class IIb/III sponsors and manufacturers required to meet AusUDID data-submission requirements from 2026-07-01; BMEN90039 already assesses regulatory-pathway evaluation but not this specific regime | §3 Theme 1; §5 CI-3 | HIGH (regulatory driver — a national regulator's own notice, corroborated independently) |
-| P2 | C1 | The occupation carries documented GPT-4-class task exposure of roughly 26–54% (up to 82%); the tools/AI-systems coordination clause is the one anchor gap remaining at C1's current level | §3 Theme 2; §5 CI-5 | HIGH for source quality, MEDIUM for Australian applicability (AIOE and Eloundou et al. are US O*NET studies, not Australia-adjusted) |
+| P2 | C1 | The occupation carries documented GPT-4-class task exposure of roughly 26–54% (up to 82%); the tools/AI-systems coordination clause is the one anchor gap remaining at C1's current level | §3 Theme 2; §5 CI-5 | HIGH for source quality, MEDIUM for Australian applicability (AI Occupational Exposure (AIOE) and Eloundou et al. are US O*NET studies, not Australia-adjusted) |
 | P3 | C3 | Same task-exposure figures; AI content in the program sits only in a 25-point elective basket | §3 Theme 2; §5 CI-1 | HIGH for source quality, MEDIUM for Australian applicability |
 | P4 | C2 | A named J&J MedTech principal engineer's op-ed frames AI as removing drafting friction across regulatory documentation and literature review, explicitly "not about replacing engineers, regulatory specialists, or clinical teams" — the retained work is the judgement layer no compulsory assessment currently appraises | §3 Theme 2; §5 CI-4 | MEDIUM (a genuine named trade-press source; the McKinsey figure cited inside it is a secondary citation, not independently verified) |
 | P5 · P6 | W3 | Trade press documents 2025 generative-AI adoption in clinical/healthcare technology management (device-behaviour simulation, maintenance-protocol drafting) and manufacturing quality (a reported 68% labour-shortage figure, 47% planning AI implementation); the program gives students no supervised exposure to either function | §3 Theme 3; §5 CI-2 | LOW-MEDIUM (only 2 of 4 quoted HTM speakers were on-topic for generative AI and none are design engineers; the ETQ survey's 752 respondents describe manufacturing quality broadly, not MC-MTI's destination titles, and the primary instrument was not independently retrieved) |

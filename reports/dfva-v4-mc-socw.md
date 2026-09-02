@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 86.73.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 12 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 203, 15 titles). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 86.73.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 12 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 203, 15 titles). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -119,16 +119,16 @@ The market context is condensed from [`reports/dfva-market-mc-socw.md`](dfva-mar
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Health & Mental Health Social Work | Hospital Social Worker, Mental Health Clinician | Senior Social Work Clinician, Clinical Lead | 84.59 | LOW | High-acuity crisis de-escalation, interprofessional discharge advocacy, trauma-informed clinical formulation |
-| Child, Youth & Family Welfare | Child Protection Practitioner, Family Services Worker | Senior Child Protection Team Leader, Family Violence Specialist | 84.59 | LOW | Complex statutory risk appraisal, child-centred safety planning, family court testimony and advocacy |
-| Community Development & Social Policy | Community Development Officer, Policy Project Officer | Senior Policy Advisor, Social Planning Manager | 89.20 | MEDIUM | Evaluative judgement on automated welfare algorithms, community co-design, human rights policy advocacy |
-| Disability, Aged Care & Complex Case Management | NDIS Support Coordinator, Aged Care Care Manager | Complex Case Management Specialist, Service Operations Lead | 86.73 | LOW TO MEDIUM | Multi-agency service navigation, vulnerable client safeguarding, ethical oversight of automated care triage |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Health & Mental Health Social Work | Hospital Social Worker, Mental Health Clinician; later Senior Social Work Clinician, Clinical Lead | LOW (exposure 84.59) | High-acuity crisis de-escalation, interprofessional discharge advocacy, trauma-informed clinical formulation |
+| Child, Youth & Family Welfare | Child Protection Practitioner, Family Services Worker; later Senior Child Protection Team Leader, Family Violence Specialist | LOW (exposure 84.59) | Complex statutory risk appraisal, child-centred safety planning, family court testimony and advocacy |
+| Community Development & Social Policy | Community Development Officer, Policy Project Officer; later Senior Policy Advisor, Social Planning Manager | MEDIUM (exposure 89.20) | Evaluative judgement on automated welfare algorithms, community co-design, human rights policy advocacy |
+| Disability, Aged Care & Complex Case Management | NDIS Support Coordinator, Aged Care Care Manager; later Complex Case Management Specialist, Service Operations Lead | LOW TO MEDIUM (exposure 86.73) | Multi-agency service navigation, vulnerable client safeguarding, ethical oversight of automated care triage |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Algorithmic risk prediction auditing, child protection equity, and clinical override justification | Rising | C2, C3 |
 | Human-AI collaborative case documentation and confidential transcription governance | Rising | C1, W1, G1 |
@@ -140,7 +140,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-socw.md); rows
@@ -156,7 +156,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 203, 15 destination titles, 12 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 203, 15 destination titles, 12 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-25: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

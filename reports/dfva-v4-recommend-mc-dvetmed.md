@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Doctor of Veterinary Medicine is an entry-to-practice clinical doctorate preparing registered veterinary surgeons, production animal consultants, equine practitioners, and biosecurity officers for registration with the Australasian Veterinary Boards Council (AVBC) and state veterinary boards. Both gates pass unconditionally: G1 passes on an all-compulsory sequence accredited across multiple international jurisdictions (AVBC, RCVS London, AVMA); G2 passes on extensive hurdle-assessed extramural placements, live teaching hospital clinical immersion at U-Vet Werribee, and case-study decision trade-offs across welfare, ethics, and economic factors under genuine clinical uncertainty.

@@ -79,8 +79,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI-augmented workflow design (digital twin, ML anomaly detection) | **↑↑ Rising sharply** | Theme 1 (§3): WEF 2025 and IISE commentary hold that AI augments rather than replaces industrial engineers who retool for AI-augmented workflow design; C3 scores 1/3 — digital-systems content is substantial (MCEN90056/57, MAST90014) but no core unit assesses AI capabilities and limitations specifically. |

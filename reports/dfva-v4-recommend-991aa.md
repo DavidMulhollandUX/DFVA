@@ -8,11 +8,11 @@
 > [References](#references); full citations are given there and not repeated in
 > the body.
 >
-> The exposure value is an **estimate**: it rests on a field basis (JSA HEO · 010103 Statistics), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
+> The exposure value is an **estimate**: it rests on a field basis (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · 010103 Statistics), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Biostatistics provides advanced specialist mathematical and epidemiological training accredited by the Statistical Society of Australia (SSA). G1 passes on an accredited, staged progression from regression foundations to advanced non-linear modeling and inference, and G2 passes on defended parametric model validation and causal effect estimation under sampling uncertainty in a compulsory capstone Research Project.

@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 97.01.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 23 of 71 titles carry medium mapping confidence. Basis: union of the program family's 6 alumni records — Bachelor of Commerce (Accounting) ∪ Bachelor of Commerce (Actuarial Studies) ∪ Bachelor of Commerce (Economics) ∪ Bachelor of Commerce (Finance) ∪ Bachelor of Commerce (Management) ∪ Bachelor of Commerce (Marketing) (n = 8738, 71 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 97.01.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 23 of 71 titles carry medium mapping confidence. Basis: union of the program family's 6 alumni records — Bachelor of Commerce (Accounting) ∪ Bachelor of Commerce (Actuarial Studies) ∪ Bachelor of Commerce (Economics) ∪ Bachelor of Commerce (Finance) ∪ Bachelor of Commerce (Management) ∪ Bachelor of Commerce (Marketing) (n = 8738, 71 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -191,19 +191,19 @@ The market intelligence gathered for this program indicates massive recruitment 
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Investment Banking & Corporate Finance | Investment Banking Analyst, Corporate Finance Associate | Vice President (M&A / DCM), Private Equity Associate | VERY HIGH | Financial model AI auditing, deal structuring under market volatility, M&A negotiation |
-| 2 | Management Consulting & Strategy | Strategy Analyst, Management Consultant | Engagement Manager, Strategy Principal | VERY HIGH | AI strategy synthesis verification, executive framing, business model transformation |
-| 3 | Professional Accounting, Audit & Advisory | Graduate Auditor / Accountant (Big 4), Tax Consultant | Audit Manager, Corporate Controller | VERY HIGH | Automated ledger auditing, algorithmic fraud detection, ESG assurance |
-| 4 | Actuarial Analytics & Quantitative Risk | Actuarial Analyst, Quantitative Risk Modeler | Qualified Actuary (FIAA), Chief Risk Officer | HIGH | Machine learning risk pricing, climate risk modeling, algorithmic governance |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Investment Banking & Corporate Finance | Investment Banking Analyst, Corporate Finance Associate; later Vice President (M&A / DCM), Private Equity Associate | VERY HIGH | Financial model AI auditing, deal structuring under market volatility, M&A negotiation |
+| Management Consulting & Strategy | Strategy Analyst, Management Consultant; later Engagement Manager, Strategy Principal | VERY HIGH | AI strategy synthesis verification, executive framing, business model transformation |
+| Professional Accounting, Audit & Advisory | Graduate Auditor / Accountant (Big 4), Tax Consultant; later Audit Manager, Corporate Controller | VERY HIGH | Automated ledger auditing, algorithmic fraud detection, ESG assurance |
+| Actuarial Analytics & Quantitative Risk | Actuarial Analyst, Quantitative Risk Modeler; later Qualified Actuary (FIAA), Chief Risk Officer | HIGH | Machine learning risk pricing, climate risk modeling, algorithmic governance |
 
 **Exposure basis declaration.** Destination AI exposure is **94.27** (exact basis derived from Financial & Investment Analysis / Professional Accounting / Management Consulting destinations), sitting substantially **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Massive recruitment across Big 4, investment banks, and consulting firms | Fast | Major financial institutions recruit Commerce graduates at scale. — C4, W3 |
 | Pervasive deployment of AI financial modeling and automated audit tools | Fast | Employers mandate capabilities in validating AI financial forecasts. — C3, G1 |
 | Severe substitution pressure on spreadsheet prep and routine valuation | Accelerating | Routine valuation is automated; strategic advisory is paramount. — W1, G2 |
@@ -215,7 +215,7 @@ The market intelligence gathered for this program indicates massive recruitment 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-b-com.md); rows
@@ -234,7 +234,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **pooled** (program family), n = 8738, 71 destination titles, 23 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: union of 6 "Bachelor of Commerce (…)" records
+**Panel A metadata.** Basis tier **pooled** (program family), n = 8738, 71 destination titles, 23 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: union of 6 "Bachelor of Commerce (…)" records
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-18: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

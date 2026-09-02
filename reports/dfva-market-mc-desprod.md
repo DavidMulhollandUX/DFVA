@@ -4,7 +4,7 @@
 ---
 
 > **Evidence base note — read first.** The profession record backing this report
-> (`data/professions/100103.json`) is anchored on the O*NET occupation **Actor**, shared
+> (the occupation profile record for Actor, O*NET 100103) is anchored on the O*NET occupation **Actor**, shared
 > across two programs (mc-desprod and mc-thtrwri). Master of Design and Production graduates
 > work behind the camera and behind the curtain — production, costume and graphic design for
 > film, television, theatre, dance, music and the visual arts, per the program's own handbook
@@ -19,11 +19,11 @@
 
 | Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
 |---|---|---|---|---|---|
-| Production/Set Design | Junior Production Designer, Assistant Art Director, Set Designer | Translating a script or creative brief into a built, dressed physical world; scenic drawing and CAD documentation; coordinating construction, props and scenic elements against a schedule | **MEDIUM** — 2D concept visualisation is exposed to generative image tools industry-wide, but on-set fabrication, spatial problem-solving and construction supervision are not | Budget- and schedule-constrained design decision-making; CAD and visualisation software fluency | Program teaches "model making, concept drawing, perspective drawing, technical drawing, image processing, layout, illustration, and CAD drafting" (`dfva/source/evidence/mc-desprod.json`, C3); the graded "Design budgets & schedules" component evidences real cost/time constraint practice (G2 PASS) |
+| Production/Set Design | Junior Production Designer, Assistant Art Director, Set Designer | Translating a script or creative brief into a built, dressed physical world; scenic drawing and CAD documentation; coordinating construction, props and scenic elements against a schedule | **MEDIUM** — 2D concept visualisation is exposed to generative image tools industry-wide, but on-set fabrication, spatial problem-solving and construction supervision are not | Budget- and schedule-constrained design decision-making; CAD and visualisation software fluency | Program teaches "model making, concept drawing, perspective drawing, technical drawing, image processing, layout, illustration, and CAD drafting" (curriculum evidence, item C3); the graded "Design budgets & schedules" component evidences real cost/time constraint practice (G2 PASS) |
 | Costume Design | Assistant Costume Designer, Wardrobe Coordinator, Costume Design Assistant | Costume concept development, period/character research, garment specification and construction liaison | **LOW** — construction, fitting and materials judgement remain physical, hands-on craft | Sustainable/materials sourcing literacy; digital costume rendering for pitch decks | Handbook overview names costume design for "film, television, theatre, dance, music and the visual arts" as a program specialisation |
 | Graphic/Communication Design (creative-arts context) | Junior Graphic Designer, Design Assistant | Visual identity, campaign and promotional material, layout and illustration for arts organisations and productions | **HIGH** — layout, illustration and image-processing tasks are the segment of design work most exposed to current generative-image tooling | Directing and editing AI-generated visual output against a creative brief, rather than manual execution alone | Handbook overview names "graphic ... design for film, television, theatre, dance, music and the visual arts" as a program specialisation; program's own C3 evidence shows "a particular emphasis on the use of graphic software" with no AI-specific content taught |
-| Stage Management | Assistant Stage Manager, Production Assistant, Stage Manager | Rehearsal and performance coordination, cueing, cast/crew liaison, on-book tracking | **LOW** — real-time human coordination under live conditions is not automatable with current tooling | Digital cueing and production-management software; cross-team coordination under AI-tool-mediated casting/scheduling workflows | "Stage Manager" is a named alias in the shared profession record (`data/professions/100103.json`); program's Industry Practice placements require "a professional production environment" (W3) |
-| Production Coordination / Industry Practice (placement-based) | Production Assistant, Industry Placement Trainee | 200-hour supervised placements in a live production environment, with a written host-partner report | **LOW-MEDIUM** — placement roles are typically broad production-support functions, not any single automatable task | Placement-partner project literacy; documented reflective practice | W3 scored Level 3 — core, compulsory, host-supervised, host-reported (`dfva/source/evidence/mc-desprod.json`) |
+| Stage Management | Assistant Stage Manager, Production Assistant, Stage Manager | Rehearsal and performance coordination, cueing, cast/crew liaison, on-book tracking | **LOW** — real-time human coordination under live conditions is not automatable with current tooling | Digital cueing and production-management software; cross-team coordination under AI-tool-mediated casting/scheduling workflows | "Stage Manager" is a named alias in the shared profession record (the occupation profile record for Actor, O*NET 100103); program's Industry Practice placements require "a professional production environment" (W3) |
+| Production Coordination / Industry Practice (placement-based) | Production Assistant, Industry Placement Trainee | 200-hour supervised placements in a live production environment, with a written host-partner report | **LOW-MEDIUM** — placement roles are typically broad production-support functions, not any single automatable task | Placement-partner project literacy; documented reflective practice | W3 scored Level 3 — core, compulsory, host-supervised, host-reported (the program's verified curriculum evidence) |
 
 ## 2. RECENT JOB AD SIGNALS
 
@@ -115,12 +115,11 @@ finding — see §6.
 
 **Bearing:** C1, C3.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 As §3 notes, the sourced discourse evidence in this report concerns performers, not the design
 and production crew this program trains, and §2's job-ad scan was queried under "actor," not any
 design/production title. Rows below are therefore grounded primarily in §1's job-family AI
-substitution ratings (drawn from the program's own handbook overview and Panel C evidence) and
+substitution ratings (drawn from the program's own handbook overview and curriculum evidence) and
 §5's curriculum-implication findings; where a row draws on §3's performer-facing discourse, it is
 marked as adjacent-industry context rather than a direct measurement of design or production
 crew demand.
@@ -149,11 +148,11 @@ crew demand.
 
 | Signal Area | Confidence | Gap / Caveat |
 |---|---|---|
-| §1 Job family map | MEDIUM | Titles and core tasks are grounded in the program's own handbook overview and Panel C evidence; AI-substitution-pressure labels are reasoned judgement, not individually sourced per family |
+| §1 Job family map | MEDIUM | Titles and core tasks are grounded in the program's own handbook overview and curriculum evidence; AI-substitution-pressure labels are reasoned judgement, not individually sourced per family |
 | §2 Job ad signals | Data authenticity HIGH; relevance to this program LOW | 137-count Adzuna-AU snapshot is real, live data, but was queried under "actor," not any design/production title — see gap 2 below |
 | §3 Discussion signals | Source quality HIGH; relevance to this program LOW | Every theme is independently sourced and dated, but concerns performers, not design/production crew — see gap 1 below |
 | §4 Skill shift summary | LOW-MEDIUM | Two of five rows are one-step inferences from performer-facing sourced material, not direct evidence for design/production roles; labelled as such in the table |
-| §5 Curriculum evidence (Panel C v4.2) | HIGH | Mechanically and adversarially verified 2026-08-31 (`dfva/source/evidence/mc-desprod.json`); the strongest evidence layer in this report |
+| §5 Curriculum evidence (durability report, v4.2) | HIGH | The evidence was checked mechanically and reviewed adversarially on 2026-08-31; the strongest evidence layer in this report |
 | Graduate destination data (QILT/JSA/labour-evidence) | NOT ASSESSED | No graduate-outcomes data for mc-desprod was consulted for this report; not in scope of the supplied grounding material |
 
 ### Critical evidence gaps to close before institutional use:
@@ -165,8 +164,8 @@ crew demand.
 2. The Adzuna job-ad scan needs re-running against design/production job titles. The current
    137-count "actor" query result should not be cited as design/production labour-market evidence
    beyond confirming the retrieval pipeline works.
-3. No graduate destination data (QILT, JSA HEO, or `data/labour-evidence.json`) for mc-desprod was
-   checked as part of this report — a follow-up pass should confirm whether a JIR or JSA record
+3. No graduate destination data (QILT, Jobs and Skills Australia Higher Education Outcomes (JSA HEO), or the graduate outcomes record) for mc-desprod was
+   checked as part of this report — a follow-up pass should confirm whether a Job Insights Report (JIR) or JSA record
    exists for this program before this report is used for Panel A or portfolio-level decisions.
 4. The AI-and-digital-scanning discourse in §3 Theme 2 concerns performers only; no source in this
    window addresses whether SAG-AFTRA-style consent/compensation frameworks are being discussed
@@ -181,7 +180,7 @@ crew demand.
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **100103 Drama and Theatre Studies** (n = 1,770 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 45.2% of them, and the 5 largest are shown at each stage.
 

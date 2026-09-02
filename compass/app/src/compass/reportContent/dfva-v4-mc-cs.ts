@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-14
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-cs (course, structure, attributes) plus the compulsory subject, Foundational-band and elective subject/assessment pages captured for this cycle
+**Course Director:** Ling Luo
 **Faculty:** Engineering & IT
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
@@ -36,7 +37,7 @@ const content = {
 
 **Destination AI Exposure: 92.80.** Measured on the program's own exact-name alumni
 destination record (n = 41, 15 titles, exact match tier), crosswalked to the published
-Felten AIOE index and rescaled 0–100 (v3.1 Panel A, reference cohort; v3.1 portfolio
+Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 (v3.1 Panel A, reference cohort; v3.1 portfolio
 median 90.9). Entry-stage exposure is higher again at 93.33.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.1 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026
@@ -251,19 +252,19 @@ confidence levels are stated per section.
 **Destination job families** (program's own alumni record, n = 41, exact match tier).
 Program mean exposure 92.80.
 
-| Job family | AI substitution pressure | Note |
-|---|---|---|
-| ML Engineer / AI Scientist | LOW | Research component irreducible; MSc is the entry credential |
-| Cybersecurity Analyst / Engineer | LOW | Adversarial domain resists automation |
-| HCI / UX Researcher | LOW | Human-centred research irreducible |
-| Data / Analytics Engineer | LOW–MEDIUM | Pipeline automation advancing; design requires judgement |
-| Software Engineer (Systems/Platform) | MEDIUM | Routine development compressing; systems design growing |
-| DevOps / Cloud Engineer | MEDIUM | Routine operations automating; architecture remains human |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| ML Engineer / AI Scientist | ML Engineer, AI Research Scientist, Applied Scientist | LOW — research component irreducible; MSc is the entry credential | LLM fine-tuning, RLHF, model evaluation, MLOps, multi-modal systems |
+| Cybersecurity Analyst / Engineer | Security Engineer, Application Security Analyst, Cloud Security Engineer | LOW — adversarial domain resists automation | Cloud security, AI-powered threat detection, zero-trust architecture, supply chain security |
+| HCI / UX Researcher | UX Researcher, HCI Specialist, AI Interaction Designer | LOW — human-centred research irreducible | AI interaction design, conversational UX, responsible AI design, accessibility |
+| Data / Analytics Engineer | Data Engineer, Analytics Engineer, ML Platform Engineer | LOW–MEDIUM — pipeline automation advancing; design requires judgement | dbt, Apache Spark/Flink, data mesh architecture, streaming systems |
+| Software Engineer (Systems/Platform) | Software Engineer, Platform Engineer, Infrastructure Engineer | MEDIUM — routine development compressing; systems design growing | Distributed systems, cloud-native (K8s), Rust/Go, system reliability engineering |
+| DevOps / Cloud Engineer | DevOps Engineer, Cloud Engineer, SRE | MEDIUM — routine operations automating; architecture remains human | Kubernetes, Terraform, observability engineering, platform engineering |
 
 **Signals and skill shifts** (directional synthesis).
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | AI-assisted systems architecture and design | Rising very fast | C1, C3 — the human–AI division of labour is the work itself |
 | Responsible AI / AI governance engineering | Rising fast | C3 — "moving from ethics elective to core requirement" is the market's phrasing, and this program's structure is the opposite |
 | LLM integration and fine-tuning | Rising very fast | C3 — elective-band content |
@@ -277,7 +278,7 @@ core requirement"* — is a direct market statement about the structural fact C3
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-*This section argues from the evidence above; it is interpretation, not observation.*
+*This section argues from the preceding evidence; it is interpretation, not observation.*
 
 | Item | Score | Implication | Cost | Sources |
 |---|---|---|---|---|
@@ -292,7 +293,7 @@ core requirement"* — is a direct market statement about the structural fact C3
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel D metadata.** Exact-name JIR alumni match, n = 41, 15 destination titles, all 15
+**Panel D metadata.** Exact-name Job Insights Report (JIR) alumni match, n = 41, 15 destination titles, all 15
 inherited from the prior crosswalk vintage (0 newly mapped). n = 41 is a small sample;
 the exposure value should be read with that in mind.
 

@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Bachelor of Arts (B-ARTS) is the University of Melbourne's flagship 300-point undergraduate liberal arts degree encompassing over thirty disciplines across the humanities, social sciences, and languages. The program passes Gate G2 on contested essay argumentation and take-home exams weighing competing sociological and philosophical claims, but fails Gate G1 due to the absence of an all-compulsory specialist core, a 125-point cap on any single discipline, 50 points of compulsory Breadth, and thirty substitutable major options without a shared methodological spine.

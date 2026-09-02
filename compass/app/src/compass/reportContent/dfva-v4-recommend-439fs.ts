@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Food Science prepares graduates for technical and leadership careers in food technology, quality assurance, product development, and food regulatory affairs across Australia's major FMCG and agricultural processing sectors. G1 passes on a coherent specialist core spanning eight compulsory subjects (100 credit points) in food chemistry, processing, microbiology, and safety, supported by an assessed research capstone. G2 passes on defended food processing choices, HACCP risk identification, and gated capstone research proposals under uncertainty.

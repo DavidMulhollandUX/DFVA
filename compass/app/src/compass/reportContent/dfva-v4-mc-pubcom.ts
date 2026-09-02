@@ -28,7 +28,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 84.04.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 0 of 11 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 100705 Written Communication; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **above** it.
+**Destination AI Exposure: 84.04.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 0 of 11 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 100705 Written Communication; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -147,11 +147,11 @@ combined total: the sub-scores are reported side by side and never added.
 | Content writer / copywriter / communications | Copywriter, Content Specialist, Growth Content Writer | MEDIUM — JSA's Gen AI Capacity Study places the broader media/communications group among the more exposed occupation clusters, alongside clerical roles | Content strategy, research-backed writing, journalism-adjacent skills |
 | Publishing & acquisitions | Publishing Assistant, Acquisitions/Commissioning Editor | LOW — client-facing commercial judgement work, not documented as an AI deployment target in any source reviewed | Costing and proposal literacy (program-specific; no external source claims AI substitution here) |
 
-The §1 exposure value, 84.04, is not measured from this program's own graduates. It is a field-basis estimate: destination titles for the JSA Higher Education Outcomes field of education 100705 Written Communication (n = 2,700 completions across every completion level in the field, not a per-degree distribution) are crosswalked to the published Felten AIOE index and rescaled 0–100 by the standard Panel A procedure. Read alongside the job-family table above, that field-level result sits above the field-basis median (83.21) but describes the whole Written Communication field's graduates — a mix dominated by sales, marketing, PR and general-clerical destinations (§1 REAL GRADUATE DESTINATIONS in the market report) — not specifically MC-PUBCOM's own alumni pathway into editorial, technical-writing or publishing-acquisitions roles.
+The §1 exposure value, 84.04, is not measured from this program's own graduates. It is a field-basis estimate: destination titles for the JSA Higher Education Outcomes field of education 100705 Written Communication (n = 2,700 completions across every completion level in the field, not a per-degree distribution) are mapped to the published Felten AIOE index and rescaled 0–100 by the standard Panel A procedure. Read alongside the job-family table above, that field-level result sits above the field-basis median (83.21) but describes the whole Written Communication field's graduates — a mix dominated by sales, marketing, PR and general-clerical destinations (§1 REAL GRADUATE DESTINATIONS in the market report) — not specifically MC-PUBCOM's own alumni pathway into editorial, technical-writing or publishing-acquisitions roles.
 
 **Signals and skill shifts**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | 63% of surveyed publishers report some AI use in editorial workflow; peer publishing-education programs (NYU Center for Publishing, Portland State University) have added AI-literacy coursework for copy editors and developmental editors | Rising | C3 — direct evidence that leaving AI treatment elective-only is a real curricular gap relative to what comparable publishing programs elsewhere are already doing |
 | Proofreading rated predominantly H1 (lowest human-involvement) by a Stanford-led occupation audit; B&O Railroad Museum archivists now review AI-generated transcriptions rather than transcribing manually | Rising (review/validation over manual production) | C2, C3 — together these sources make the empirical case that judging and validating AI output, not just producing text without it, is where the destination occupations are already moving |
@@ -165,7 +165,7 @@ The §1 exposure value, 84.04, is not measured from this program's own graduates
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-pubcom.md); rows
@@ -184,7 +184,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **field** (field grain), n = 0, 11 destination titles, 0 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
+**Panel A metadata.** Basis tier **field** (field grain), n = 0, 11 destination titles, 0 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
 
 **Panel C provenance.** Scored from the 2026 handbook capture (39 pages) and verified on 2026-08-31: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

@@ -88,7 +88,7 @@ Standards from [Screen Australia](https://www.screenaustralia.gov.au/) confirm t
 | Screen Producers Australia and Screen Australia industry data | HIGH | Authoritative national benchmarks for Australian screen and animation production |
 | MEAA and studio collective guidelines | HIGH | Direct standards on animator credit, digital rights, and production workflow ethics |
 | Australian and international animation job ads (Flying Bark, Animal Logic, ILM) | HIGH | Strong industry consensus on the transition to real-time engines and AI pipeline integration |
-| Graduate destination tracking for B-FAANIM | MEDIUM | Derived from JSA HEO 100701 Audio Visual Studies field-level tax-linked data |
+| Graduate destination tracking for B-FAANIM | MEDIUM | Derived from Jobs and Skills Australia Higher Education Outcomes (JSA HEO) 100701 Audio Visual Studies field-level tax-linked data |
 
 ---
 

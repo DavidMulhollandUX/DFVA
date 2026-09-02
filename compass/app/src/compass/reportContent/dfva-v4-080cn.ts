@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-23
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/080cn (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 41 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -27,7 +28,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 95.57.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 13 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Applied Psychology (n = 47, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 95.57.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 13 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Applied Psychology (n = 47, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 10 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -179,7 +180,7 @@ Condensed from [the market intelligence report](dfva-market-080cn.md).
 
 **Signals and skill shifts.**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Ageing population and TBI/stroke incidence driving hospital and rehabilitation caseload | Structural tailwind | W3 |
 | Long national wait-lists for neuropsychological assessment | Sustained demand | W2, W3 |
@@ -198,7 +199,7 @@ Condensed from [the market intelligence report](dfva-market-080cn.md).
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-080cn.md); rows
@@ -217,7 +218,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **partial** (related program), n = 47, 15 destination titles, 13 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: Professional psychology stream; same program-family record the reconciliation package used for 527cl.
+**Panel A metadata.** Basis tier **partial** (related program), n = 47, 15 destination titles, 13 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Professional psychology stream; same program-family record the reconciliation package used for 527cl.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (41 pages) and verified on 2026-08-23: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 
@@ -229,7 +230,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 - One construct, one home — placement evidence was split by line so that nothing scores twice. The immersion facts (day counts, 1000-hour accreditation floor, AHPRA-registered supervisors, conjoint pass determination, logbook endorsement, discussion of observed cases with supervisors) score in W3. The professional-communication facts inside the same subjects (the hurdle covering written summaries of all assessments and interventions judged by field supervisors, and the case-conference presentation hurdle) score in W1, whose construct names communication to audiences beyond the teaching team and assessed accountability. The case book against College of Clinical Neuropsychologists guidelines scores in W2 as the profession's own standard of performance, not in C2 as a 'portfolio with standards' and not in W3.
 - W2's 'genuine constraint of practice' had two candidate routes. The patient-facing route in PSYC90033 is hedged in the handbook ('students may be required to make observations regarding a patient's recovery'), so the score does not rest on it; it rests on the unhedged case-book hurdle, which is a quotable assessment requirement judged against the profession's published guidelines.
 - C4 and C5 both had a claim on the doctoral research. The thesis examination, viva, external examiners and Confirmation defence score in C5, whose construct names methodology defended under scrutiny. C4 is scored on the distinct assessed coursework progression toward independent learning (PSYC90003 gap identification, PSYC90029 research proposal, PSYC80004's stated independent-research purpose).
-- The award is a combined coursework masters and research doctorate (AQF level 10, 'Doctorate by Research', five years), so the coursework-program framing of several anchors sits awkwardly on it; the two sub-scales were nonetheless scored from documented curriculum evidence only, with no adjustment for award type.
+- The award is a combined coursework masters and research doctorate (Australian Qualifications Framework (AQF) level 10, 'Doctorate by Research', five years), so the coursework-program framing of several anchors sits awkwardly on it; the two sub-scales were nonetheless scored from documented curriculum evidence only, with no adjustment for award type.
 
 **Not scoreable from the handbook** (1):
 

@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Tax (742AB) is a 100-point postgraduate specialist law and commerce degree offered by Melbourne Law School for tax lawyers, corporate tax advisors, ATO professionals, and Big Four accountants. Both gates pass: Gate G1 passes on the accredited Tax Practitioners Board (TPB) introductory/advanced structure and staged foundation progression, while Gate G2 passes on extended take-home examinations, contested anti-avoidance evaluations, and policy trade-off analyses under conditions of legal and fiscal uncertainty.

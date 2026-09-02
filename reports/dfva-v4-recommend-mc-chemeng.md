@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Chemical Engineering is an EA- and IChemE-accredited professional degree preparing chemical process engineers, plant safety specialists, clean energy transition engineers, and extractive metallurgists for top-tier energy, resources, and biopharma corporations (Woodside, BHP, Rio Tinto, Orica, CSL, Viva Energy). Both gates pass cleanly: G1 passes across an extensive 225-point compulsory core covering transport phenomena, reactor design, separation, process control, and plant design; G2 passes on defended multi-variable optimization, HAZOP failure trade-offs, and Environmental Effects Statements.

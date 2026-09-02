@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Melbourne Business School Master of Business Administration (MBA) prepares executive leaders, management consultants, and general managers across ASX100 corporates, global consultancies, and high-growth ventures. Both gates pass cleanly: G1 passes on an all-compulsory 150-credit-point specialist core (67% of 225 points) staged across foundational economics, quantitative analytics, and functional disciplines; G2 passes on live client problem-solving and trade-off analysis under market uncertainty in the core Immersive Business Experience and Data Analytics units.

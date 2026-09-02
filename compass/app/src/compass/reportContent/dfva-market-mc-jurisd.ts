@@ -61,8 +61,7 @@ Competency frameworks from [VLAB](https://www.lawlibrary.vic.gov.au/vlab) emphas
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 > This report has no "CURRENT DISCUSSION SIGNALS" section (§3 here is INDICATIVE SALARY BANDS); rows below are grounded in §1 JOB FAMILY MAP, §2 JOB AD SIGNALS, and the companion assessment's dimension scores instead.
 
 | Skill | Direction | Rationale |
@@ -99,7 +98,7 @@ Competency frameworks from [VLAB](https://www.lawlibrary.vic.gov.au/vlab) emphas
 
 ---
 
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes (JSA HEO))
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **0909 Law** (n = 17,720 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 58.6% of them, and the 5 largest are shown at each stage.
 

@@ -23,7 +23,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 79.43.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 13 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Food Science (n = 50, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 79.43.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 13 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Food Science (n = 50, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 7 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -155,7 +155,7 @@ a related program's alumni pattern, not sampled from this program's graduates.
 
 **Signals and skill shifts.**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | NotCo/Kraft Heinz case: AI-driven computational screening cut an R&D timeline from two years to ten months, redirecting food scientists' effort toward directing and evaluating AI-generated candidates rather than running physical trials | Rising fast | C3, W2 |
 | Named AI R&D tools (IFT CoDeveloper, Turing Labs Luna, NotCo Giuseppe/Concept Quant, Shiru Flourish) described as "everyday infrastructure" for food and beverage R&D | Rising fast | C3, W2 |
@@ -179,7 +179,7 @@ the press release used as the source.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-foodpi.md); rows
@@ -198,7 +198,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **cognate** (cognate program), n = 50, 15 destination titles, 13 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: Discipline-matched record.
+**Panel A metadata.** Basis tier **cognate** (cognate program), n = 50, 15 destination titles, 13 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Discipline-matched record.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (36 pages) and verified on 2026-08-31: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

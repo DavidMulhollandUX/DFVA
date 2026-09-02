@@ -53,8 +53,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Applied quantitative/data-science fluency (causal inference, learning analytics) | **↑↑ Rising sharply** | Signal 6 (§2) names learning analytics as "a smaller but fast-growing niche" where "the generic education PhD often underprepares candidates," and CI-3 (§5) confirms no structured quantitative-methods stream currently exists. |

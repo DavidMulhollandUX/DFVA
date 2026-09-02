@@ -28,7 +28,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 77.63.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 2 of 13 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 070101 Teacher Education: Early Childhood; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
+**Destination AI Exposure: 77.63.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 2 of 13 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 070101 Teacher Education: Early Childhood; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -163,7 +163,7 @@ have landed, because no program-specific destination data exists for mc-teachec.
 
 **Signals and skill shifts**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Strengthened NQF child-safety reforms — mandatory national child-protection training and a cut in incident-notification timeframes from seven days to 24 hours — commence 27 February 2026 | Fixed-date, mandated tightening | C3, W3 |
 | Generative AI has reached early-childhood documentation practice unevenly (RAND survey: ~29–30% of US pre-K teachers use generative AI for job-related purposes, below other grade bands), and the discourse around it — an EECERJ peer-reviewed review, a UK practitioner-forum thread, an ECA blog post — is concern-heavy where it exists | Rising adoption, cautious discourse | C3, W1 |
@@ -194,7 +194,7 @@ volume, employer name or advertised-salary figure can be cited for this program.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-teachec.md); rows
@@ -213,7 +213,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **field** (field grain), n = 0, 13 destination titles, 2 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
+**Panel A metadata.** Basis tier **field** (field grain), n = 0, 13 destination titles, 2 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
 
 **Panel C provenance.** Scored from the 2026 handbook capture (38 pages) and verified on 2026-08-31: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

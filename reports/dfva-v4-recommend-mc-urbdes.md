@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Urban Design is a 200-point postgraduate professional coursework degree accredited by the Planning Institute of Australia (PIA) and designed for architects, landscape architects, and urban planners seeking advanced specialist expertise in urban morphology, precinct design, and statutory frameworks. Both gates pass unconditionally: G1 passes on an all-compulsory specialist core of 125 points plus a 25-point capstone carrying a sequenced studio progression (Studio A → Studio B → Studio C → Thesis) meeting PIA accreditation standards; G2 passes on studio jury reviews requiring defended trade-off design decisions and statutory policy analyses under genuine urban development uncertainty.

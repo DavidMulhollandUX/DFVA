@@ -13,11 +13,11 @@ const content = {
 > [References](#references); full citations are given there and not repeated in
 > the body.
 >
-> The exposure value is an **estimate**: it rests on a field basis (JSA HEO · 100301 Fine Arts), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
+> The exposure value is an **estimate**: it rests on a field basis (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · 100301 Fine Arts), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Bachelor of Fine Arts (Visual Art) (B-FAVISART) is a 300-point intensive studio program offered by the Faculty of Fine Arts and Music at the Victorian College of the Arts (VCA). The degree demonstrates high authentic capability in independent artistic self-direction (C4 = 3/3), authentic studio and exhibition spine (W2 = 3/3), structured studio critique (C2 = 2/3), collaborative studio practice (C1 = 2/3), and public exhibition delivery (W1 = 2/3). Both gates pass decisively: G1 on 237.5 credit points of sequential compulsory studio subjects across all three years with strict prerequisite chains, and G2 on the Graduation Exhibition capstone featuring real public audience accountability and interactive oral defenses under artistic uncertainty.

@@ -23,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 92.22.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 161, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 92.22.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 161, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -151,16 +151,16 @@ The market context is condensed from [\`reports/dfva-market-mc-cm.md\`](dfva-mar
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Commercial Construction Project Management | Graduate Site Coordinator, Assistant Project Manager | Construction Project Manager, Senior Project Director | 91.5 | HIGH | Live site constructability coordination, subcontractor negotiation, EHS risk governance |
-| Quantity Surveying & Commercial Cost Management | Graduate Quantity Surveyor, Cost Estimator | Senior Cost Manager, Commercial Director | 94.8 | VERY HIGH | Automated 5D BIM quantity takeoff audit, dynamic cost escalation modeling, cashflow forecasting |
-| Contract Administration & Commercial Dispute Advisory | Contracts Administrator, Assistant Commercial Manager | Senior Commercial Manager, Claims Consultant | 92.1 | HIGH | Security of Payment Act compliance, delay and variation claims assessment, dispute resolution |
-| Digital Engineering & 5D BIM Coordination | BIM Coordinator, Digital Construction Specialist | Digital Engineering Manager, Head of Construction Technology | 90.4 | VERY HIGH | Federated BIM model validation, automated clash detection auditing, generative constructability simulation |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Commercial Construction Project Management | Graduate Site Coordinator, Assistant Project Manager; later Construction Project Manager, Senior Project Director | HIGH (exposure 91.5) | Live site constructability coordination, subcontractor negotiation, EHS risk governance |
+| Quantity Surveying & Commercial Cost Management | Graduate Quantity Surveyor, Cost Estimator; later Senior Cost Manager, Commercial Director | VERY HIGH (exposure 94.8) | Automated 5D BIM quantity takeoff audit, dynamic cost escalation modeling, cashflow forecasting |
+| Contract Administration & Commercial Dispute Advisory | Contracts Administrator, Assistant Commercial Manager; later Senior Commercial Manager, Claims Consultant | HIGH (exposure 92.1) | Security of Payment Act compliance, delay and variation claims assessment, dispute resolution |
+| Digital Engineering & 5D BIM Coordination | BIM Coordinator, Digital Construction Specialist; later Digital Engineering Manager, Head of Construction Technology | VERY HIGH (exposure 90.4) | Federated BIM model validation, automated clash detection auditing, generative constructability simulation |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Universal deployment of 5D BIM, automated digital quantity takeoff, and construction ERP platforms | Rising | C3, W2 |
 | Statutory fiduciary liability requiring quantity surveyors to audit automated cost estimations and algorithmic takeoff | Rising | C2, G2 |
@@ -172,7 +172,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-cm.md); rows
@@ -191,7 +191,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 161, 15 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 161, 15 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (22 pages) and verified on 2026-08-24: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 70.67.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 9 of 12 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 43, 12 titles). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 70.67.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 9 of 12 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 43, 12 titles). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -183,20 +183,20 @@ The market intelligence gathered for this program indicates strong, recession-re
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Clinical Music Therapy (Hospitals & Health Networks) | Registered Music Therapist (RMT), Paediatric Music Therapist, Neuro-rehab Music Therapist | Senior Music Therapist, Allied Health Clinical Lead, Specialist Practitioner | LOW | Neurologic music therapy protocols, multidisciplinary clinical documentation, trauma-informed care |
-| 2 | Disability & NDIS Allied Health Practice | NDIS Behavioural Support Music Therapist, Early Childhood Early Intervention (ECEI) Therapist | Allied Health Practice Lead, Clinical Supervisor, Independent NDIS Provider | LOW | Goal-directed NDIS reporting, standardised functional outcome measures, family-centred co-design |
-| 3 | Aged Care, Palliative Care & Dementia Services | Aged Care Music Therapist, Palliative Care Arts Therapist | Dementia Care Program Manager, Lifestyle & Wellbeing Clinical Lead | LOW | Non-pharmacological agitation management, end-of-life legacy projects, sensory modulation |
-| 4 | Mental Health & Community Arts | Youth Mental Health Music Therapist, Community Health Practitioner | Mental Health Clinical Specialist, Program Development Lead | LOW–MEDIUM | Group improvisation facilitation, emotion regulation therapy, community health partnership building |
-| 5 | Special Education & Developmental Support | School Music Therapist (Special Developmental Schools) | Senior Allied Health Education Consultant, Therapy Team Lead | LOW | Individualised education plan (IEP) alignment, augmentative communication integration |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Clinical Music Therapy (Hospitals & Health Networks) | Registered Music Therapist (RMT), Paediatric Music Therapist, Neuro-rehab Music Therapist; later Senior Music Therapist, Allied Health Clinical Lead, Specialist Practitioner | LOW | Neurologic music therapy protocols, multidisciplinary clinical documentation, trauma-informed care |
+| Disability & NDIS Allied Health Practice | NDIS Behavioural Support Music Therapist, Early Childhood Early Intervention (ECEI) Therapist; later Allied Health Practice Lead, Clinical Supervisor, Independent NDIS Provider | LOW | Goal-directed NDIS reporting, standardised functional outcome measures, family-centred co-design |
+| Aged Care, Palliative Care & Dementia Services | Aged Care Music Therapist, Palliative Care Arts Therapist; later Dementia Care Program Manager, Lifestyle & Wellbeing Clinical Lead | LOW | Non-pharmacological agitation management, end-of-life legacy projects, sensory modulation |
+| Mental Health & Community Arts | Youth Mental Health Music Therapist, Community Health Practitioner; later Mental Health Clinical Specialist, Program Development Lead | LOW–MEDIUM | Group improvisation facilitation, emotion regulation therapy, community health partnership building |
+| Special Education & Developmental Support | School Music Therapist (Special Developmental Schools); later Senior Allied Health Education Consultant, Therapy Team Lead | LOW | Individualised education plan (IEP) alignment, augmentative communication integration |
 
 **Exposure basis declaration.** Destination AI exposure is **70.67** (measured basis on the program's own alumni destination record, n = 43, 12 titles), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Human relational attunement as irreplaceable therapeutic agent | Sustained High | AMTA professional standards and international clinical literature emphasize that therapeutic efficacy is mediated by embodied acoustic co-presence and live non-verbal attunement, which automated AI algorithms cannot replicate. — C1, W1, W3 |
 | NDIS and public health functional outcome measurement | Rising | NDIS Quality and Safeguards Commission and health networks require standardised goal-attainment scaling (GAS) and objective functional metrics to maintain therapy funding. — C5, G1 |
 | Digital audio technology, DAWs, and telehealth in creative arts therapy | Rising | Integration of digital audio workstations, mobile multitrack recording apps, and telehealth streaming platforms in youth mental health and neuro-rehabilitation requires clinical data privacy and digital ethics governance. — C3, W2 |
@@ -207,7 +207,7 @@ The market intelligence gathered for this program indicates strong, recession-re
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-m04aa.md); rows
@@ -226,7 +226,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 43, 12 destination titles, 9 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 43, 12 destination titles, 9 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-23: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

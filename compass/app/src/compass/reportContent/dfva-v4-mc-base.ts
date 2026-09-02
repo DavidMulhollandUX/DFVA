@@ -23,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 96.05.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Master of Social Policy (n = 66); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 96.05.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Master of Social Policy (n = 66); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -168,19 +168,19 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Social Enterprise Leadership & Strategy | Social Enterprise CEO, Executive Director | Chief Commercial & Impact Officer, Board Chair | LOW | Dual-mission business models, blended finance structuring, B Corp governance |
-| 2 | Social Impact Advisory & Consulting | Senior Impact Consultant, ESG Strategy Manager | Partner (Impact Advisory), Director of Social Impact | LOW–MEDIUM | SROI methodology, Theory of Change design, corporate sustainability disclosures (ISSB) |
-| 3 | Corporate Social Responsibility & Sustainability | Head of ESG, Corporate Sustainability Lead | Chief Sustainability Officer (CSO), VP Corporate Affairs | LOW–MEDIUM | Double materiality assessment, social procurement compliance, supply chain ethics |
-| 4 | Impact Investing & Social Finance | Social Investment Manager, Outcomes Fund Director | Managing Director (Impact Funds), Chief Investment Officer | LOW | Social impact bond (SIB) structuring, outcomes-based contracting, blended capital |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Social Enterprise Leadership & Strategy | Social Enterprise CEO, Executive Director; later Chief Commercial & Impact Officer, Board Chair | LOW | Dual-mission business models, blended finance structuring, B Corp governance |
+| Social Impact Advisory & Consulting | Senior Impact Consultant, ESG Strategy Manager; later Partner (Impact Advisory), Director of Social Impact | LOW–MEDIUM | SROI methodology, Theory of Change design, corporate sustainability disclosures (ISSB) |
+| Corporate Social Responsibility & Sustainability | Head of ESG, Corporate Sustainability Lead; later Chief Sustainability Officer (CSO), VP Corporate Affairs | LOW–MEDIUM | Double materiality assessment, social procurement compliance, supply chain ethics |
+| Impact Investing & Social Finance | Social Investment Manager, Outcomes Fund Director; later Managing Director (Impact Funds), Chief Investment Officer | LOW | Social impact bond (SIB) structuring, outcomes-based contracting, blended capital |
 
 **Exposure basis declaration.** Destination AI exposure is **80.08** (exact basis derived from Executive Management / Social Enterprise destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | SROI and rigorous impact measurement mandate | Fast | Intermediaries and philanthropies mandate SROI frameworks for leadership roles. — C5, W2 |
 | Corporate ESG disclosure and cross-sector executive mobility | Fast | ASX-listed firms hire senior social enterprise leaders for ESG director appointments. — W1, G1 |
 | Government social procurement expansion | Sustained High | Public social procurement creates demand for managers executing certified contracts. — W2, W3 |
@@ -192,7 +192,7 @@ The market intelligence gathered for this program indicates strong demand across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-base.md); rows
@@ -211,7 +211,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **partial** (related program), n = 66. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: Reconciliation package tier partial.
+**Panel A metadata.** Basis tier **partial** (related program), n = 66. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Reconciliation package tier partial.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (23 pages) and verified on 2026-08-14: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

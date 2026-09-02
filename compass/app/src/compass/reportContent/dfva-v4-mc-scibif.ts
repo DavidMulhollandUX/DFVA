@@ -28,7 +28,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 78.62.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 0 of 13 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 010999 Biological Sciences, n.e.c.; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
+**Destination AI Exposure: 78.62.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 0 of 13 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 010999 Biological Sciences, n.e.c.; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -205,7 +205,7 @@ specific to MC-SCIBIF.
 
 **Signals and skill shifts.**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Funded clinical genomics expanding — Medicare cancer-biomarker claims up ~5× 2010–2024 (5,130 → 25,374), with bioinformatics capability named as a system constraint | Rising | C4, C5, W1 |
 | Under 40% of eligible patients receive exome/genome sequencing within two years of item creation — capacity-limited, not demand-satisfied | Rising, gated | W3, C4 |
@@ -229,7 +229,7 @@ roles.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-scibif.md); rows
@@ -248,7 +248,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **field** (field grain), n = 0, 13 destination titles, 0 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
+**Panel A metadata.** Basis tier **field** (field grain), n = 0, 13 destination titles, 0 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-23: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

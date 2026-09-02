@@ -54,8 +54,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI-provenance literacy in research assessment panels | **↑↑ Rising sharply** | §3's "AI-assisted authorship disclosure requirements" theme rates HIGH signal strength, and Signal 2 (§2) reports Nature, Science, ARC and NIH publishing or updating AI-authorship disclosure policies since 2023–2024 — directly relevant to how a DH-SC panel interrogates a submitted body of work. |

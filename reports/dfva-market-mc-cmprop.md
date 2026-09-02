@@ -8,10 +8,10 @@
 
 | # | Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
 |---|---|---|---|---|---|---|
-| 1 | Construction Project Management | Assistant Project Manager, Project Coordinator | Site scheduling, budget tracking, subcontractor coordination, quality and handover management | MEDIUM — Brookings places "construction managers" in the higher-exposure group of 33 built-environment occupations (of 148 assessed), a categorical finding, not a numeric score for this exact occupation | AI-output verification for scheduling and cost tools; site-specific judgement | Program teaches this task set in Management of Construction and Construction of Buildings (evidence.json W2, C4) |
-| 2 | Quantity Surveying & Cost Management | Quantity Surveyor, Cost Estimator | Bills of quantities, take-off from drawings, cost planning against the Australian Standard Method of Measurement | HIGH — a 2026 survey of 77 Sarawak QS professionals rated "improve quantity take-off from drawings" among the two most severe AI impacts on the role | Reviewing and correcting automated take-off output; contractual/communication skill, the survey's strongest predictor of AI adoption | Program teaches ASMM-based BoQ preparation directly in Cost Management (evidence.json W2) |
-| 3 | Contract Administration & Superintendence | Contract Administrator, Assistant Commercial Manager | Certifying contract timing, quality and cost as superintendent; managing variations and delay claims | LOW-MEDIUM — a practicing QS's own account holds that negotiation and site-specific decisions stay irreplaceable even as administrative drafting is automated | Structured critique of contracts and process, negotiation under uncertainty | Program's planning-application critical review and project-plan critique sit in this family (evidence.json C2) |
-| 4 | Property Valuation & Market Analysis | Graduate Valuer, Property Analyst | Market analysis and valuation reporting, client presentation of findings | Not directly evidenced for this sub-role in the profession record — see §6 gap 3 | Client-facing communication of analysis (see §3 Theme 4) | Property Markets and Valuations and Property Resources and Management are core subjects (evidence.json W1) |
+| 1 | Construction Project Management | Assistant Project Manager, Project Coordinator | Site scheduling, budget tracking, subcontractor coordination, quality and handover management | MEDIUM — Brookings places "construction managers" in the higher-exposure group of 33 built-environment occupations (of 148 assessed), a categorical finding, not a numeric score for this exact occupation | AI-output verification for scheduling and cost tools; site-specific judgement | Program teaches this task set in Management of Construction and Construction of Buildings (curriculum evidence, items W2 and C4) |
+| 2 | Quantity Surveying & Cost Management | Quantity Surveyor, Cost Estimator | Bills of quantities, take-off from drawings, cost planning against the Australian Standard Method of Measurement | HIGH — a 2026 survey of 77 Sarawak QS professionals rated "improve quantity take-off from drawings" among the two most severe AI impacts on the role | Reviewing and correcting automated take-off output; contractual/communication skill, the survey's strongest predictor of AI adoption | Program teaches ASMM-based BoQ preparation directly in Cost Management (curriculum evidence, item W2) |
+| 3 | Contract Administration & Superintendence | Contract Administrator, Assistant Commercial Manager | Certifying contract timing, quality and cost as superintendent; managing variations and delay claims | LOW-MEDIUM — a practicing QS's own account holds that negotiation and site-specific decisions stay irreplaceable even as administrative drafting is automated | Structured critique of contracts and process, negotiation under uncertainty | Program's planning-application critical review and project-plan critique sit in this family (curriculum evidence, item C2) |
+| 4 | Property Valuation & Market Analysis | Graduate Valuer, Property Analyst | Market analysis and valuation reporting, client presentation of findings | Not directly evidenced for this sub-role in the profession record — see §6 gap 3 | Client-facing communication of analysis (see §3 Theme 4) | Property Markets and Valuations and Property Resources and Management are core subjects (curriculum evidence, item W1) |
 
 ---
 
@@ -23,7 +23,7 @@
 2. **Reported top employers mix direct employers with recruitment intermediaries.** Kaura Homes and Equinix appear as direct hirers; Michael Page, HAYS, Workpac, Amicus and TMX are staffing and recruitment firms, indicating that a substantial share of advertised roles in this occupation are placed through agencies rather than posted directly.
 3. **Top skill terms in the snapshot — quality, site, budget, schedule, subcontractor, tender, handover** — track the core project-delivery and commercial-administration tasks in Job Family 1 and 3 above, and align with the program's Management of Construction and Cost Management core subjects.
 4. **The snapshot query was "construction project manager" only; it does not disaggregate quantity surveying or contract administration as separate roles.** §3 identifies quantity take-off specifically as the most AI-exposed sub-task in this occupation family, but no separate Adzuna count exists for that narrower role in the profession record — mark this disaggregation LOW confidence.
-5. **No Adzuna data exists for the property-valuation job family** (Job Family 4). The jobAds query covers only the construction-management side of this double degree.
+5. **No Adzuna data exists for the property-valuation job family** (Job Family 4). The job-advertisement sample covers only the construction-management side of this double degree.
 
 ---
 
@@ -51,7 +51,7 @@ The survey is a self-reported sample of 77 Malaysian professionals, not Australi
 
 [Brookings Metro](https://www.brookings.edu/articles/the-ai-durability-of-built-environment-careers/) (2026-03-12) applied the Felten-Raj-Seamans AI Occupational Exposure index and the IMF's AI-complementarity (theta) score to 148 US built-environment occupations and placed "construction managers" in the higher-exposure group of 33 occupations. In an [interview with the Association for Project Management](https://www.apm.org.uk/news/the-big-interview-james-garner/) (2026-03-17), James Garner — a RICS-qualified quantity surveyor now Gleeds' Global Head of Data and Insights & Analytics — argued firms should not use AI as a simple search tool, and that a disciplined "bookending" approach, keeping human control at the start and end of a process, could produce 20-50% efficiency gains provided firms build genuine AI literacy and address data-privacy and IP risk first.
 
-Brookings' finding is a US SOC-based categorical placement, not a numeric score for the Australian ANZSCO occupation, and Garner's efficiency-gain figures are his own projection for his own firm's method, not a measured or cross-sectional result.
+Brookings' finding is a US Standard Occupational Classification (SOC)-based categorical placement, not a numeric score for the Australian ANZSCO occupation, and Garner's efficiency-gain figures are his own projection for his own firm's method, not a measured or cross-sectional result.
 
 **Bearing:** C2 and G2.
 
@@ -65,8 +65,7 @@ This is a prompted, self-selected RICS-membership survey response from a global 
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Reviewing and correcting automated quantity take-off output | **↑↑ Rising sharply** | Theme 2 (§3) reports a 2026 peer-reviewed survey of 77 Sarawak QS professionals rating "improve quantity take-off from drawings" among the two most severe AI impacts on the role, and CI-3 (§5) notes W2's Bills-of-Quantities task is exactly this exposed task type. |
@@ -116,7 +115,7 @@ This is a prompted, self-selected RICS-membership survey response from a global 
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **040303 Building Construction Management** (n = 3,390 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 66.7% of them, and the 5 largest are shown at each stage.
 

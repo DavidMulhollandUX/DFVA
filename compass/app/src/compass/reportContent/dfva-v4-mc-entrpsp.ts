@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-31
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-entrpsp (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 36 pages captured
+**Course Director:** Gerda Gemser
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -27,7 +28,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 90.73.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 7 of 13 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Management (n = 655, 13 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 90.73.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 7 of 13 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Management (n = 655, 13 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -161,14 +162,14 @@ Condensed from [the market intelligence report](dfva-market-mc-entrpsp.md).
 is borrowed from a related program's alumni record — Master of Management (n = 655, 13
 destination titles, 7 at medium mapping confidence) — a partial basis, per [the
 estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md). It is
-not a curated cognate/partial override and not a JSA HEO field-list fallback. The
+not a curated cognate/partial override and not a Jobs and Skills Australia Higher Education Outcomes (JSA HEO) field-list fallback. The
 market report separately carries a JSA Higher Education Outcomes table at the level of
 the whole "Business and Management, n.e.c." field of education (n = 27,400
 completions) — field grain, not program grain, and not the basis §1 uses.
 
 **Signals and skill shifts.**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | AI-agent-stack orchestration reportedly replacing entire hired functions in comparable ventures ($3,000–$12,000/yr tooling replacing $80,000–$120,000/month payroll) | Rising fast | C3, W2 |
 | AI-native startups carrying about 25% fewer employees than comparable non-AI startups at comparable valuation, flatter hierarchies | Rising, medium velocity | C3, W2 |
@@ -195,7 +196,7 @@ recorded as gaps, not as zero-signal findings.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-entrpsp.md); rows
@@ -214,7 +215,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **partial** (related program), n = 655, 13 destination titles, 7 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: Business-school master without its own record.
+**Panel A metadata.** Basis tier **partial** (related program), n = 655, 13 destination titles, 7 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Business-school master without its own record.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (36 pages) and verified on 2026-08-31: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

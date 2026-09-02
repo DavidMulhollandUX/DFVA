@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Doctor of Optometry is a 400-point entry-to-practice clinical doctorate preparing registered optometrists, therapeutic prescribers, contact lens specialists, and hospital eye care clinicians for registration with the Optometry Board of Australia (OBA) via AHPRA and the Optometry Council of Australia and New Zealand (OCANZ). Both gates pass unconditionally: G1 passes on an all-compulsory 400-point clinical sequence accredited by OCANZ with strict progressive year-level prerequisites; G2 passes on authentic diagnostic and therapeutic decision-making under real clinical uncertainty with live patient accountability and required justification of disease management plans.

@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Applied Psychology possesses a well-structured 125-point specialist coursework core bridging psychological sciences, decision making, applied research methods, and business/consulting frameworks, anchored by a mandatory 25-point capstone requirement (PSYC90106 Research Project or PSYC90107 Internship). G1 passes on the compulsory prerequisite sequence (PSYC40005 and PSYC90100 leading to the capstone), and G2 passes on extensive assessed decision-making under behavioural uncertainty across PSYC90104, PSYC90124, and the capstone. C4 sits at the instrument maximum (3/3) due to documented progression toward independent inquiry and transfer.

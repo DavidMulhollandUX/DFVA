@@ -3,6 +3,7 @@
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-18
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/511aa (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 35 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -17,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 95.80.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 12 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 39, 12 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 95.80.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 12 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 39, 12 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 4 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -139,7 +140,7 @@ combined total: the sub-scores are reported side by side and never added.
 
 ## 3. GATES — Basis: scored
 
-- **G1 Disciplinary foundation:** FAIL — PASS requires a documented coherent specialist core with progressive depth — an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain. The course structure documents none of the three. The 100 credit points are free choice ('The remaining credit points may be taken from all subjects listed below'), and the only near-compulsory subjects are conditional entry remediation that is contingent on prior study and expressly waivable ('Students can obtain a waiver for this requirement from the Director of Studies'), with International Law required only of those who have not studied it before. No prerequisite chain, staging or capstone is documented, and the permitted menu is deemed relevant en bloc while spanning tax, construction, entertainment, communications and dispute-resolution subjects — i.e. interchangeable choice rather than a specialist core. The disciplinary identity of the individual subjects (all graduate-level LAWS, AQF level 9) is not in doubt; what is missing is the documented core and progression the gate requires, so it fails on the PASS condition.
+- **G1 Disciplinary foundation:** FAIL — PASS requires a documented coherent specialist core with progressive depth — an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain. The course structure documents none of the three. The 100 credit points are free choice ('The remaining credit points may be taken from all subjects listed below'), and the only near-compulsory subjects are conditional entry remediation that is contingent on prior study and expressly waivable ('Students can obtain a waiver for this requirement from the Director of Studies'), with International Law required only of those who have not studied it before. No prerequisite chain, staging or capstone is documented, and the permitted menu is deemed relevant en bloc while spanning tax, construction, entertainment, communications and dispute-resolution subjects — i.e. interchangeable choice rather than a specialist core. The disciplinary identity of the individual subjects (all graduate-level LAWS, Australian Qualifications Framework (AQF) level 9) is not in doubt; what is missing is the documented core and progression the gate requires, so it fails on the PASS condition.
 - **G2 Decision-making under uncertainty:** PASS — PASS on the defended-trade-off route, not the simulation route. The handbook ties argued choice among competing solutions directly to assessment: 'Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.' Subject ILOs require the same at doctrinal level — 'Be aware of, and able to critically choose between, substantive constitutional mechanisms to meet particular goals and resolve particular problems' — and the documented tasks are 5,000–10,000-word take-home examinations and research papers expected to show 'creativity, originality and discovery', which is not the FAIL condition of recall or scripted responses. No simulation, capstone or live project with real uncertainty and accountability is documented, so the PASS rests solely on defended judgement in extended written work.
 
 **G1 FAILS.** A disciplinary-foundation failure is reported regardless of the adaptiveness score: the adaptive capabilities are scored on top of a foundation this program is not documented to establish.
@@ -150,19 +151,19 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Public & Constitutional Law Practice | Crown Law Associate, Government Solicitor | Senior State / AGS Counsel, Special Counsel (Constitutional) | HIGH | Administrative decision review, statutory interpretation, constitutional litigation |
-| 2 | International Law & Treaty Advisory | Treaty Officer, International Legal Policy Officer | Senior Legal Officer (DFAT / AGD), Legal Advisor (UN / NGO) | HIGH | Bilateral treaty negotiation, international humanitarian law, sanctions compliance |
-| 3 | Regulatory & Administrative Law Advisory | Administrative Law Associate, In-House Counsel (Regulator) | Principal Regulatory Counsel, General Counsel (Statutory Body) | HIGH | AI administrative decision-making auditing, automated tribunal review, judicial review |
-| 4 | International Human Rights & Humanitarian Law | Human Rights Advocate, International Justice Lawyer | Legal Director (ACFID Member / NGO), International Tribunal Counsel | MEDIUM | Inter-state dispute settlement, international criminal law, universal jurisdiction |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Public & Constitutional Law Practice | Crown Law Associate, Government Solicitor; later Senior State / AGS Counsel, Special Counsel (Constitutional) | HIGH | Administrative decision review, statutory interpretation, constitutional litigation |
+| International Law & Treaty Advisory | Treaty Officer, International Legal Policy Officer; later Senior Legal Officer (DFAT / AGD), Legal Advisor (UN / NGO) | HIGH | Bilateral treaty negotiation, international humanitarian law, sanctions compliance |
+| Regulatory & Administrative Law Advisory | Administrative Law Associate, In-House Counsel (Regulator); later Principal Regulatory Counsel, General Counsel (Statutory Body) | HIGH | AI administrative decision-making auditing, automated tribunal review, judicial review |
+| International Human Rights & Humanitarian Law | Human Rights Advocate, International Justice Lawyer; later Legal Director (ACFID Member / NGO), International Tribunal Counsel | MEDIUM | Inter-state dispute settlement, international criminal law, universal jurisdiction |
 
 **Exposure basis declaration.** Destination AI exposure is **94.27** (exact basis derived from Public / International Legal destinations), sitting well **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | DFAT and AGD recruitment for treaty and sanctions specialists | Fast | Commonwealth agencies hire lawyers for supply chain treaties and sanctions. — C4, G1 |
 | AI governance in public administration and automated decisions | Fast | Public lawyers evaluate algorithmic transparency and Robodebt reform compliance. — C3, G1 |
 | International arbitration and bilateral dispute settlement | Stable | International bodies seek practitioners skilled in treaty interpretation. — W2, G2 |
@@ -174,7 +175,7 @@ The market intelligence gathered for this program indicates strong demand across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-511aa.md); rows
@@ -193,7 +194,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 39, 12 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 39, 12 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-18: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

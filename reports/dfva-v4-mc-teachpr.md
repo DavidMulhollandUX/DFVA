@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 87.71.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 7 of 11 titles carry medium mapping confidence. Basis: union of the program family's 1 alumni records — Master of Teaching (Secondary) (n = 242, 11 titles). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 87.71.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 7 of 11 titles carry medium mapping confidence. Basis: union of the program family's 1 alumni records — Master of Teaching (Secondary) (n = 242, 11 titles). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 10 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -140,7 +140,7 @@ every career stage sampled.
 
 **Signals and skill shifts.**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | A binding national AI-in-schools policy framework (six governing principles, Education Ministers-endorsed) sets the regulatory environment every graduating teacher enters, rather than leaving AI use in the classroom discretionary | Established | C3, G2 |
 | State education systems are redesigning assessment away from unsupervised take-home work toward oral, practical and supervised evidence-of-learning | Rising (Medium velocity) | C2, W2 |
@@ -162,12 +162,12 @@ The report separately flags that no genuine Adzuna job-ad volume, employer or sk
 exists for this program's destination occupations — the templated job-ad count recurring
 identically across 164 unrelated occupation records is treated as absent, not as a demand
 measurement — and that the Teacher Assistants and Teachers/Instructors All Other adjacent
-occupations are US SOC classifications mapped onto this Australian program, which needs
+occupations are US Standard Occupational Classification (SOC) classifications mapped onto this Australian program, which needs
 care in framing.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-teachpr.md); rows
@@ -186,7 +186,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **pooled** (program family), n = 242, 11 destination titles, 7 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: union of 2 "Master of Teaching (…)" records
+**Panel A metadata.** Basis tier **pooled** (program family), n = 242, 11 destination titles, 7 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: union of 2 "Master of Teaching (…)" records
 
 **Panel C provenance.** Scored from the 2026 handbook capture (39 pages) and verified on 2026-08-31: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

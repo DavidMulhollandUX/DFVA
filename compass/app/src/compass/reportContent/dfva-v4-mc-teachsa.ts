@@ -23,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 89.03.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 7 of 11 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 242, 11 titles). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 89.03.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 7 of 11 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 242, 11 titles). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -136,14 +136,14 @@ combined total: the sub-scores are reported side by side and never added.
 
 The **89.03** exposure value in §1 is measured on this program's own alumni destination
 record (n = 242, 11 titles, 7 at medium mapping confidence) — it is not a cognate-cohort
-borrow or a JSA HEO field-list fallback. Separately, the field-grain JSA Higher Education
+borrow or a Jobs and Skills Australia Higher Education Outcomes (JSA HEO) field-list fallback. Separately, the field-grain JSA Higher Education
 Outcomes data show Secondary School Teacher as the dominant entry, early- and senior-career
 occupation (57–61% of Teacher Education: Secondary graduates), consistent with the
 classroom-teacher family carrying most of the exposure weight.
 
 **Table 2 — signals and skill shifts**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Australian state systems (NSW, Victoria) are moving from AI-use principles to binding, in-class, process-tracked assessment redesign to counter AI-enabled cheating | Rising, fast | W2 (assessment spine is a Lesson Plan/report pair, not yet documented as resisting unsupervised-AI misuse); C5 (Capstone inquiry is the existing vehicle for process-tracked, non-take-home evidence) |
 | Secondary teaching scores 91.99/100 on the AU crosswalk (94.25 for middle-school specifically), concentrated in planning and admin tasks rather than in-class relational work | High and concentrated | C3 (governance gap this exposure profile leaves unaddressed); C2 (reflective appraisal of AI-tool reliance not documented as assessed) |
@@ -171,7 +171,7 @@ indices and dated trade press only.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-teachsa.md); rows
@@ -190,7 +190,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 242, 11 destination titles, 7 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 242, 11 destination titles, 7 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (41 pages) and verified on 2026-08-31: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

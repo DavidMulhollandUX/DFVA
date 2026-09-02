@@ -10,10 +10,10 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
-The Master of Information Technology prepares graduates for high-level software engineering, machine learning engineering, cybersecurity analysis, and enterprise cloud architecture careers (AIOE 92.91). The program demonstrates solid technical and collaborative foundations across the core (C1: 2/3, C2: 2/3, C3: 2/3, C5: 2/3, G1 PASS) via full-stack team software delivery in SWEN90016, mobile computing vivas in COMP90018, and machine learning projects in COMP90051. However, routine coding, unit testing, and boilerplate system setup face pervasive automation from generative AI developer tools (Copilot, Cursor). The program's developmental headroom lies in formalizing human-AI developer workflow allocation charters (C1), introducing assessed reliance and hallucination verification logs for AI code generation (C2), establishing universal AI safety and governance compliance across all tracks (C3), and transitioning optional industry internships into guaranteed work-situated placements or live client briefs (W1, W3).
+The Master of Information Technology prepares graduates for high-level software engineering, machine learning engineering, cybersecurity analysis, and enterprise cloud architecture careers (AI Occupational Exposure (AIOE) 92.91). The program demonstrates solid technical and collaborative foundations across the core (C1: 2/3, C2: 2/3, C3: 2/3, C5: 2/3, G1 PASS) via full-stack team software delivery in SWEN90016, mobile computing vivas in COMP90018, and machine learning projects in COMP90051. However, routine coding, unit testing, and boilerplate system setup face pervasive automation from generative AI developer tools (Copilot, Cursor). The program's developmental headroom lies in formalizing human-AI developer workflow allocation charters (C1), introducing assessed reliance and hallucination verification logs for AI code generation (C2), establishing universal AI safety and governance compliance across all tracks (C3), and transitioning optional industry internships into guaranteed work-situated placements or live client briefs (W1, W3).
 
 | Item | Sub-scale | Score | Levels below maximum | Market evidence for the gap | Priority |
 |---|---|---|---|---|---|

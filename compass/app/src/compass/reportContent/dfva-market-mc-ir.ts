@@ -97,7 +97,7 @@ Publications by [DFAT](https://www.dfat.gov.au/) (2024) and the [Australian Jour
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS & DEMAND (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · QILT · Adzuna)
 
 **Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 090101 Political Science and Policy Studies):
 

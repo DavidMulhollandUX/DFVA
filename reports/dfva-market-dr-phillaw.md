@@ -55,7 +55,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI governance and algorithmic accountability legal expertise | **↑↑ Rising sharply** | Signal 4 (§2) reports both government (Department of Industry, Science and Resources; Attorney-General's Department) and private-sector advisory roles referencing "AI governance" and "algorithmic accountability" have increased in visibility; CI-3 (§5) says candidates are not currently steered toward this niche. |

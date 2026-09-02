@@ -79,8 +79,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI-assisted EIS review and cross-jurisdictional regulatory-risk mapping | **↑↑ Rising sharply** | Theme 3 (§3): AI tools already replace junior document review and discovery, while manual EIS review and summarisation is declining "Very Fast" in this section's own prior table; C3 scores 1/3 — the only program-level technology statement is a Law Library IT-infrastructure claim, and the sole AI-governance unit (LAWS90248) is an elective. |
@@ -146,7 +145,7 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 
 **Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
 
-*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+*Sources: Jobs and Skills Australia Higher Education Outcomes (JSA HEO) Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 `,
 };
 

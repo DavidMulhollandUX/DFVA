@@ -23,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 97.04.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 7 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 148, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 97.04.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 7 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 148, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 7 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -142,16 +142,16 @@ The market context is condensed from [\`reports/dfva-market-mc-finance.md\`](dfv
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Investment Banking & Corporate Valuation | Analyst (M&A / ECM), Valuation Analyst | Associate, Vice President (Corporate Advisory) | 96.50 | VERY HIGH | Deal structuring under regulatory uncertainty, forensic accounting audit, client advisory, board presentation |
-| Quantitative Finance & Asset Management | Quantitative Analyst, Junior Portfolio Analyst | Senior Portfolio Manager, Quantitative Strategist | 96.50 | HIGH | Machine learning risk attribution, non-stationary regime modeling, algorithmic governance, liquidity risk |
-| Financial Risk Management & Regulatory Advisory | Risk Analyst, Regulatory Compliance Analyst | Senior Manager (Market / Credit Risk) | 97.04 | HIGH | APRA CPG 235 model risk auditing, macroeconomic stress-testing, systemic counterparty exposure modeling |
-| Private Wealth & Financial Advisory | Investment Advisor, Associate Wealth Planner | Senior Wealth Manager, Family Office Director | 96.98 | MODERATE | Fiduciary relationship management, bespoke private asset structuring, behavioural finance coaching |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Investment Banking & Corporate Valuation | Analyst (M&A / ECM), Valuation Analyst; later Associate, Vice President (Corporate Advisory) | VERY HIGH (exposure 96.50) | Deal structuring under regulatory uncertainty, forensic accounting audit, client advisory, board presentation |
+| Quantitative Finance & Asset Management | Quantitative Analyst, Junior Portfolio Analyst; later Senior Portfolio Manager, Quantitative Strategist | HIGH (exposure 96.50) | Machine learning risk attribution, non-stationary regime modeling, algorithmic governance, liquidity risk |
+| Financial Risk Management & Regulatory Advisory | Risk Analyst, Regulatory Compliance Analyst; later Senior Manager (Market / Credit Risk) | HIGH (exposure 97.04) | APRA CPG 235 model risk auditing, macroeconomic stress-testing, systemic counterparty exposure modeling |
+| Private Wealth & Financial Advisory | Investment Advisor, Associate Wealth Planner; later Senior Wealth Manager, Family Office Director | MODERATE (exposure 96.98) | Fiduciary relationship management, bespoke private asset structuring, behavioural finance coaching |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Universal deployment of AI tools in financial statement spreading, DCF calculation, and equity draft research | Rising | C3, W2 |
 | Critical necessity of auditing machine learning models and quantitative trading scripts for overfitting and regime shifts | Rising | C2, G2 |
@@ -163,7 +163,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-finance.md); rows
@@ -182,7 +182,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 148, 15 destination titles, 7 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 148, 15 destination titles, 7 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-24: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

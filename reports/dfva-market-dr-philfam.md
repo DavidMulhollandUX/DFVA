@@ -59,8 +59,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Real-time engine and virtual-production skills (Unreal Engine, motion capture) | **↑↑ Rising sharply** | Signal 2 (§2) reports Australian screen production studios increasingly listing "AI-assisted workflow" and generative-tool familiarity as preferred skills; CI-6 (§5) confirms this is a fast-rising requirement not systematically resourced. |

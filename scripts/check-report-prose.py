@@ -317,10 +317,9 @@ RULES = [
                r"roles?|signals?)\s+(above|below)\b",
                r"\bas (shown|described|noted|set out) (above|below)\b",
                r"\bsee (above|below)\b", r"\b(above|below)[,.]"]),
-    dict(id="heading-not-sentence-case", sev="style", genres=None,
-         desc="Google asks for sentence case in titles and headings",
-         fix="sentence case, keeping proper nouns and program codes",
-         scope="headings", pats=[]),
+    # No heading-case rule: the report families' ALL-CAPS numbered headings
+    # ("## 4. MARKET EVIDENCE") are house form (DJ, 2026-09-02), so the Google
+    # sentence-case rule does not apply to reports/ headings.
     dict(id="question-heading", sev="style", genres=None,
          desc="question-format section title in long-form prose",
          fix="use a statement heading",
@@ -378,7 +377,7 @@ def genre_of(name: str):
 
 
 def heading_findings(headings):
-    """Sentence-case and question-heading checks, acronym-aware."""
+    """Question-heading check. Heading case is house form and not checked."""
     out = []
     for h in headings:
         m = re.match(r"^#+\s+(.*)$", h)
@@ -388,17 +387,6 @@ def heading_findings(headings):
         core = re.sub(r"^\d+(\.\d+)*\.?\s*", "", strip_markup(raw)).strip()
         if core.rstrip().endswith("?"):
             out.append(("question-heading", raw))
-        toks = [w for w in WORD.findall(core) if len(w) > 2]
-        if not toks:
-            continue
-        # An all-caps run of 2+ real words is house shouting, not an acronym.
-        if len([w for w in toks if w.isupper()]) >= 2:
-            out.append(("heading-not-sentence-case", raw))
-            continue
-        rest = toks[1:]
-        tc = [w for w in rest if w[0].isupper() and not w.isupper()]
-        if len(rest) >= 3 and len(tc) / len(rest) >= 0.6:
-            out.append(("heading-not-sentence-case", raw))
     return out
 
 

@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 94.40.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Bachelor of Science (Physics) (n = 189); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 94.40.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Bachelor of Science (Physics) (n = 189); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -157,20 +157,20 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Quantum Computing & Hardware R&D | Quantum Software Engineer, Quantum Algorithms Researcher | Senior Quantum Physicist, Quantum Architecture Lead | LOW | Qiskit/Cirq programming, qubit characterization, quantum error correction |
-| 2 | Defence & Sensing Systems Science | Research Scientist (DSTG), Optical Sensing Specialist | Senior Defence Scientist, Systems Radar Lead | LOW | Signal processing, radar cross-section modeling, security-cleared experimentation |
-| 3 | Quantitative Finance & Scientific ML | Quantitative Analyst, Data Scientist | Senior Quantitative Researcher, Algorithmic Risk Lead | MEDIUM | Physics-informed neural networks (PINNs), high-performance computing, stochastic calculus |
-| 4 | Medical Physics & Radiation Oncology | Clinical Medical Physics Registrar, Radiation Physicist | Certified Medical Physicist (ACPSEM), Radiation Safety Officer | LOW | Monte Carlo radiation transport modeling (Geant4), linac quality assurance |
-| 5 | Higher Degree by Research (PhD Track) | PhD Candidate, Graduate Research Assistant | Postdoctoral Fellow, Senior Research Scientist | LOW | Original theoretical derivation, synchrotron experimental design, peer-reviewed publication |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Quantum Computing & Hardware R&D | Quantum Software Engineer, Quantum Algorithms Researcher; later Senior Quantum Physicist, Quantum Architecture Lead | LOW | Qiskit/Cirq programming, qubit characterization, quantum error correction |
+| Defence & Sensing Systems Science | Research Scientist (DSTG), Optical Sensing Specialist; later Senior Defence Scientist, Systems Radar Lead | LOW | Signal processing, radar cross-section modeling, security-cleared experimentation |
+| Quantitative Finance & Scientific ML | Quantitative Analyst, Data Scientist; later Senior Quantitative Researcher, Algorithmic Risk Lead | MEDIUM | Physics-informed neural networks (PINNs), high-performance computing, stochastic calculus |
+| Medical Physics & Radiation Oncology | Clinical Medical Physics Registrar, Radiation Physicist; later Certified Medical Physicist (ACPSEM), Radiation Safety Officer | LOW | Monte Carlo radiation transport modeling (Geant4), linac quality assurance |
+| Higher Degree by Research (PhD Track) | PhD Candidate, Graduate Research Assistant; later Postdoctoral Fellow, Senior Research Scientist | LOW | Original theoretical derivation, synchrotron experimental design, peer-reviewed publication |
 
 **Exposure basis declaration.** Destination AI exposure is **80.08** (exact basis derived from Physics graduate destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Quantum technology and hardware hiring surge across ANZ | Fast | Commercial quantum firms recruit physicists with Qiskit and HPC skills. — C3, G1 |
 | Defence science (DSTG and ASD) expansion under AUKUS | Sustained High | Defense R&D expands signals, sensing, and electromagnetic modeling roles. — W1, G1 |
 | Quantitative finance and risk analytics demand computational skills | Sustained High | Trading firms require mathematical modeling with verified Python/C++ skills. — C2, G1 |
@@ -182,7 +182,7 @@ The market intelligence gathered for this program indicates strong demand across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-sciphy.md); rows
@@ -201,7 +201,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **cognate** (cognate program), n = 189. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: Reconciliation package tier cognate.
+**Panel A metadata.** Basis tier **cognate** (cognate program), n = 189. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Reconciliation package tier cognate.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (33 pages) and verified on 2026-08-15: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

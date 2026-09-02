@@ -13,11 +13,11 @@ const content = {
 > [References](#references); full citations are given there and not repeated in
 > the body.
 >
-> The exposure value is an **estimate**: it rests on a field basis (JSA HEO · 100103 Drama and Theatre Studies), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
+> The exposure value is an **estimate**: it rests on a field basis (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · 100103 Drama and Theatre Studies), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Bachelor of Fine Arts (Acting) (B-FAACTING) is a 300-point intensive conservatory program offered by the Faculty of Fine Arts and Music at the Victorian College of the Arts (VCA). The degree demonstrates strong authentic studio practice (W2 = 2/3), industry-facing showcase presentations (W1 = 2/3), and recurring ensemble collaboration (C1 = 2/3). Both gates pass decisively: G1 on a rigid 250-point sequential specialist acting core across all three years, and G2 on live public theatre performances under professional guest directors with real artistic and audience accountability.

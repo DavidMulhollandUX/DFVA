@@ -8,11 +8,11 @@
 > [References](#references); full citations are given there and not repeated in
 > the body.
 >
-> The exposure value is an **estimate**: it rests on a field basis (JSA HEO · 099903 Criminology), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
+> The exposure value is an **estimate**: it rests on a field basis (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · 099903 Criminology), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Criminology (274AB) presents a solid workplace practice sub-score (6 / 9) alongside moderate curriculum adaptiveness (8 / 15) against an AI exposure index of 71.07. The program's strength lies in its capstone architecture, which offers three distinct pathways: a research thesis, an agency-situated Criminology Internship (W3 = 2/3), and a collaborative Community Justice Project (C1 = 2/3, W1 = 2/3, W2 = 2/3). In the Community Justice Project and Internship, students tackle real socio-legal challenges identified by justice agencies (such as the Victorian Aboriginal Legal Service, Fitzroy Legal Service, and WEstjustice), producing authentic deliverables and presenting directly to external agency partners. Both gates pass cleanly: G1 on a coherent 37.5cp compulsory criminology core with progressive research depth, and G2 on CRIM90011's requirement to design and defend an effectiveness evaluation for a real criminal justice intervention.

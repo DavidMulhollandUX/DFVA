@@ -88,7 +88,7 @@ convergence claim itself carries no survey behind it and should not be read as o
 
 **Bearing:** C1 and C5.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Long-read sequencing analysis (ONT, PacBio) | **↑↑ Rising sharply** | Signal 2 (§2) reports 2025-onward job ads increasingly specifying Oxford Nanopore and PacBio experience for clinical structural-variant detection, with recruiters noting a gap between advertised need and available candidates; CI-1 (§5) flags the current short-read-only emphasis as leaving graduates underprepared. |
@@ -151,5 +151,5 @@ convergence claim itself carries no survey behind it and should not be read as o
 
 **Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
 
-*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+*Sources: Jobs and Skills Australia Higher Education Outcomes (JSA HEO) Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 <!-- LABOUR-EVIDENCE:END -->

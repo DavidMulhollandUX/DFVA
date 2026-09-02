@@ -99,7 +99,7 @@ Accreditation standards from [AIG](https://www.aig.org.au/) confirm that an exte
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS & DEMAND (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · QILT · Adzuna)
 
 **Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 010701 Earth Sciences / Geology):
 

@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Architecture is an ARBV- and RAIA-accredited professional degree leading to statutory registration as an architect, preparing design architects, project architects, urban designers, and sustainability specialists for prominent practices (Woods Bagot, HASSELL, Architectus, Cox Architecture, BVN). Both gates pass decisively: G1 passes on an extensive 250-point accredited specialist core structured as a lettered design-studio spine terminating in the Design Thesis capstone; G2 passes on ill-defined site briefs with cultural, environmental, and regulatory complexity, contractual risk assessments, and defended design crits.

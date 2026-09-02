@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Engineering Management (761EM) is a 100-point postgraduate degree offered jointly by the Faculty of Engineering and Information Technology and Melbourne Business School for engineering professionals transitioning into project leadership, capital delivery management, and executive operations. The program fails Gate G1 due to the absence of an all-compulsory specialist core, accredited sequence, or staged prerequisite chain (only 25 points are compulsory, while 75 points are drawn from broad elective menus and undefined specialisations), while Gate G2 passes on competitive business strategy simulations and complex engineering project trade-off evaluations under market uncertainty.

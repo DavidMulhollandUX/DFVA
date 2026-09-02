@@ -55,8 +55,7 @@ Standards from the [API](https://www.api.org.au/) confirm that an independent, s
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Critical review and professional override of AVM outputs | **↑↑ Rising sharply** | Signal 1 (§2) reports graduate valuers are now expected to interrogate automated valuation model outputs rather than simply replicate them, and Theme 1 (§3) records early-career valuers being asked to "sign off" on AVM outputs with minimal independent verification, raising professional-liability concerns. |
@@ -95,7 +94,7 @@ Standards from the [API](https://www.api.org.au/) confirm that an independent, s
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS & DEMAND (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · QILT · Adzuna)
 
 **Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 080501 Valuation / Property):
 

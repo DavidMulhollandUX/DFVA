@@ -18,7 +18,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 94.94.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 96). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 94.94.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 96). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -135,20 +135,20 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Applied Machine Learning & Predictive Modeling | Junior Data Scientist, Applied ML Specialist | Senior Data Scientist, Staff ML Engineer | HIGH | LLM fine-tuning, RAG architecture, ML evaluation, statistical assumption auditing |
-| 2 | Machine Learning Operations & Data Platforms | MLOps Engineer, Analytics Engineer | Lead MLOps Architect, Principal Data Platform Engineer | LOW–MEDIUM | Streaming data pipelines (Kafka/Flink), model monitoring, CI/CD for ML, dbt |
-| 3 | Statistical Computing & Causal Inference | Statistical Modeler, Biostatistical Analyst | Lead Statistician, Principal Causal Inference Scientist | LOW | Causal DAGs, A/B trial design, Bayesian modeling (PyMC/Stan), counterfactual analysis |
-| 4 | Enterprise AI Governance & Model Risk Auditing | AI Assurance Analyst, Model Risk Specialist | Head of AI Ethics, Director of Algorithmic Governance | LOW–MEDIUM | Model cards, algorithmic fairness auditing, EU AI Act compliance, APRA CPS 234/230 |
-| 5 | Decision Science & Quantitative Strategy | Decision Scientist, Quantitative Insights Consultant | Strategy Analytics Director, Principal Decision Scientist | LOW | Behavioral economics, executive decision framing, mathematical optimization |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Applied Machine Learning & Predictive Modeling | Junior Data Scientist, Applied ML Specialist; later Senior Data Scientist, Staff ML Engineer | HIGH | LLM fine-tuning, RAG architecture, ML evaluation, statistical assumption auditing |
+| Machine Learning Operations & Data Platforms | MLOps Engineer, Analytics Engineer; later Lead MLOps Architect, Principal Data Platform Engineer | LOW–MEDIUM | Streaming data pipelines (Kafka/Flink), model monitoring, CI/CD for ML, dbt |
+| Statistical Computing & Causal Inference | Statistical Modeler, Biostatistical Analyst; later Lead Statistician, Principal Causal Inference Scientist | LOW | Causal DAGs, A/B trial design, Bayesian modeling (PyMC/Stan), counterfactual analysis |
+| Enterprise AI Governance & Model Risk Auditing | AI Assurance Analyst, Model Risk Specialist; later Head of AI Ethics, Director of Algorithmic Governance | LOW–MEDIUM | Model cards, algorithmic fairness auditing, EU AI Act compliance, APRA CPS 234/230 |
+| Decision Science & Quantitative Strategy | Decision Scientist, Quantitative Insights Consultant; later Strategy Analytics Director, Principal Decision Scientist | LOW | Behavioral economics, executive decision framing, mathematical optimization |
 
 **Exposure basis declaration.** Destination AI exposure is **95.64** (exact basis derived from Data Science graduate destinations), sitting **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Production MLOps and containerized deployment skills dominant | Rising / Volatile | Employers mandate Docker, Kubernetes, and continuous model monitoring over exploratory notebooks. — C3, W2 |
 | Causal inference and experimental design as key differentiators | Sustained High | Tech and financial firms screen candidates on A/B testing, potential outcomes, and causal DAGs. — C4, C5, G1 |
 | AI code synthesis automating routine data manipulation | Rising / Volatile | Automated Python code generators handle basic pandas tasks, raising the premium on code audit skills. — C2, C3 |
@@ -160,7 +160,7 @@ The market intelligence gathered for this program indicates strong demand across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-datasc.md); rows
@@ -179,7 +179,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 96. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 96. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (23 pages) and verified on 2026-08-14: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

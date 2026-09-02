@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Bachelor of Agriculture (B-AGR) is a 300-point undergraduate specialist degree offered by the Faculty of Science providing scientific, economic, and practical training in agricultural production systems, agronomy, and land management. The program passes Gate G1 on a staged, all-compulsory specialist foundation (100 points Level 1 core, 37.5 points Level 2 core, terminating in a prescribed major), but fails Gate G2 because core assessments consist of exams, tests, quizzes, and prescribed practical reports lacking assessed trade-off decisions or live project accountability under climate and market uncertainty.

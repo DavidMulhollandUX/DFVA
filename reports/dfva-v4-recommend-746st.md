@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Engineering Structures prepares specialized structural design engineers, bridge engineers, and temporary works consultants across Australia's major infrastructure builders (Arup, WSP, Aurecon, CPB Contractors). Both gates pass: G1 passes on a coherent structural engineering core constrained by 62.5 points of compulsory and selective structural units; G2 passes on defended conceptual structural choices under lateral wind/earthquake loads and code-compliant design reports.

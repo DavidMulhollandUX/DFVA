@@ -23,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 94.80.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 67, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 94.80.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 67, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -128,16 +128,16 @@ The market context is condensed from [\`reports/dfva-market-mc-gmcom.md\`](dfva-
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Strategic Communication & Public Affairs Advisory | Communications Advisor, Media Relations Officer | Senior Media Manager, Head of Public Affairs | 95.00 | VERY HIGH | Crisis communication under mis/disinformation, cross-platform stakeholder negotiation, executive message framing |
-| Digital Platform Policy & Trust Governance | Media Policy Analyst, Content Policy Specialist | Senior Policy Lead, Director of Trust & Safety | 95.80 | HIGH | Algorithmic transparency compliance, EU AI Act & ACMA digital platform codes, online harms regulation |
-| Global Journalism & Multimedia Production | Multimedia Journalist, Digital Content Producer | Senior Investigative Reporter, Editorial Lead | 94.20 | VERY HIGH | Verification of synthetic/deepfake media, data-driven investigative journalism, multi-format storytelling |
-| Corporate Media Strategy & Brand Advocacy | Digital Campaign Strategist, Public Relations Specialist | Communications Director, Vice President (Corporate Communications) | 94.20 | HIGH | Algorithmic SEO & social distribution audit, corporate ESG narrative framing, brand reputation defense |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Strategic Communication & Public Affairs Advisory | Communications Advisor, Media Relations Officer; later Senior Media Manager, Head of Public Affairs | VERY HIGH (exposure 95.00) | Crisis communication under mis/disinformation, cross-platform stakeholder negotiation, executive message framing |
+| Digital Platform Policy & Trust Governance | Media Policy Analyst, Content Policy Specialist; later Senior Policy Lead, Director of Trust & Safety | HIGH (exposure 95.80) | Algorithmic transparency compliance, EU AI Act & ACMA digital platform codes, online harms regulation |
+| Global Journalism & Multimedia Production | Multimedia Journalist, Digital Content Producer; later Senior Investigative Reporter, Editorial Lead | VERY HIGH (exposure 94.20) | Verification of synthetic/deepfake media, data-driven investigative journalism, multi-format storytelling |
+| Corporate Media Strategy & Brand Advocacy | Digital Campaign Strategist, Public Relations Specialist; later Communications Director, Vice President (Corporate Communications) | HIGH (exposure 94.20) | Algorithmic SEO & social distribution audit, corporate ESG narrative framing, brand reputation defense |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Pervasive automation of routine press release drafting, transcript summaries, and basic video editing | Rising | C2, W2 |
 | Stringent platform governance, synthetic media detection, and regulatory compliance (ACMA, eSafety) | Rising | C3, G2 |
@@ -149,7 +149,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-gmcom.md); rows
@@ -168,7 +168,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 67, 15 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 67, 15 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (39 pages) and verified on 2026-08-25: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

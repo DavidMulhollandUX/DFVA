@@ -13,7 +13,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 91.69.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 257). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 91.69.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 257). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -150,20 +150,20 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | ICT Business Analysis & Systems Design | Junior Business Analyst, Systems Analyst | Senior Business Analyst, Lead Requirements Architect | HIGH | AI workflow mapping, automation opportunity auditing, BABOK v3 digital integration |
-| 2 | Enterprise Architecture & IT Strategy | Associate Solutions Architect, EA Analyst | Enterprise Architect, Technology Strategist | LOW–MEDIUM | Cloud-native patterns, AI system integration governance, ISO 42001 compliance |
-| 3 | Technology Consulting & Advisory | Technology Consultant (Big 4 / Boutique), IT Advisor | Senior Technology Strategy Manager, Practice Lead | MEDIUM | AI transformation advisory, executive stakeholder framing, business case quantification |
-| 4 | IT Project Management & Agile Delivery | Delivery Coordinator, Scrum Master, PMO Analyst | Technical Project Manager, Agile Transformation Lead | HIGH (admin) / LOW (governance) | AI-assisted project tracking, risk governance, multidisciplinary stakeholder alignment |
-| 5 | IT Governance, Risk & Compliance (GRC) | GRC Analyst, IT Risk Analyst | IT Governance Lead, Chief Information Security Officer (CISO) Advisor | LOW | NIST AI RMF, ISO 42001 certification, vendor AI risk auditing, data ethics |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| ICT Business Analysis & Systems Design | Junior Business Analyst, Systems Analyst; later Senior Business Analyst, Lead Requirements Architect | HIGH | AI workflow mapping, automation opportunity auditing, BABOK v3 digital integration |
+| Enterprise Architecture & IT Strategy | Associate Solutions Architect, EA Analyst; later Enterprise Architect, Technology Strategist | LOW–MEDIUM | Cloud-native patterns, AI system integration governance, ISO 42001 compliance |
+| Technology Consulting & Advisory | Technology Consultant (Big 4 / Boutique), IT Advisor; later Senior Technology Strategy Manager, Practice Lead | MEDIUM | AI transformation advisory, executive stakeholder framing, business case quantification |
+| IT Project Management & Agile Delivery | Delivery Coordinator, Scrum Master, PMO Analyst; later Technical Project Manager, Agile Transformation Lead | HIGH (admin) / LOW (governance) | AI-assisted project tracking, risk governance, multidisciplinary stakeholder alignment |
+| IT Governance, Risk & Compliance (GRC) | GRC Analyst, IT Risk Analyst; later IT Governance Lead, Chief Information Security Officer (CISO) Advisor | LOW | NIST AI RMF, ISO 42001 certification, vendor AI risk auditing, data ethics |
 
 **Exposure basis declaration.** Destination AI exposure is **95.64** (exact basis derived from Information Systems graduate destinations), sitting **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Transformation of BA role into automation & AI workflow architect | Fast | Consultancies and banks replace manual requirements drafting with LLM-assisted workflow tools. — C2, C3, W2 |
 | Escalating demand for enterprise AI governance (ISO 42001 / NIST) | Rising / Rapid | Enterprises scaling GenAI pilots require certified governance frameworks to manage risk. — C3, G1 |
 | Resurgence of enterprise architecture driven by hybrid cloud/AI | Rising | Complex multi-vendor AI integrations require principled enterprise architectural governance. — C1, G1 |
@@ -175,7 +175,7 @@ The market intelligence gathered for this program indicates strong demand across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-is.md); rows
@@ -194,7 +194,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 257. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 257. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-15: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

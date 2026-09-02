@@ -12,7 +12,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Marketing (294BE) exhibits extreme destination AI exposure (96.45, cognate basis derived from Master of Management (Marketing)) against a moderate curriculum adaptiveness score (8 / 15) and a low workplace practice sub-score (3 / 9). The program's core demonstrates strengths in collaborative syndicate work (C1 = 2/3), unscripted marketing research problem formulation (C4 = 2/3, C5 = 2/3), and end-to-end task simulation (W2 = 2/3) across units such as Marketing Research and Marketing Strategy. Both gates pass: G1 on a 13-subject specialist marketing and general management sequence, and G2 on strategic marketing simulation decisions under dynamic market uncertainty.

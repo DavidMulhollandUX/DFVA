@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-14
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-clind (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 13 pages captured
+**Course Director:** Roy Judge
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -17,7 +18,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 60.96.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 40). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 60.96.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 40). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 7 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -148,19 +149,19 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Specialist Prosthodontic Practice | Prosthodontist, Specialist Dental Associate | Practice Partner, Specialist Clinic Director | LOW | Advanced fixed/removable implant rehabilitation, full-arch reconstruction, CAD/CAM |
-| 2 | Hospital Specialist & Medically Compromised Dentistry | Hospital Dental Specialist, Clinical Fellow | Head of Prosthodontic Unit, Director of Oral Health | LOW | Head/neck oncology rehabilitation, cleft palate prosthetics, multidisciplinary trauma care |
-| 3 | Clinical Dental Education & Supervision | Clinical Dental Educator, Tutor (Prosthodontics) | Senior Clinical Lecturer, Director of Pre-Clinical Skills | LOW–MEDIUM | Objective structured clinical exams (OSCEs), haptic simulation, clinical case debriefing |
-| 4 | Dental Research & Biomaterials Innovation | Clinical Dental Researcher, Materials Consultant | Principal Investigator (Biomaterials), Academic Lead | LOW | Clinical trial design, dental implant biomechanics, translational prosthodontics |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Specialist Prosthodontic Practice | Prosthodontist, Specialist Dental Associate; later Practice Partner, Specialist Clinic Director | LOW | Advanced fixed/removable implant rehabilitation, full-arch reconstruction, CAD/CAM |
+| Hospital Specialist & Medically Compromised Dentistry | Hospital Dental Specialist, Clinical Fellow; later Head of Prosthodontic Unit, Director of Oral Health | LOW | Head/neck oncology rehabilitation, cleft palate prosthetics, multidisciplinary trauma care |
+| Clinical Dental Education & Supervision | Clinical Dental Educator, Tutor (Prosthodontics); later Senior Clinical Lecturer, Director of Pre-Clinical Skills | LOW–MEDIUM | Objective structured clinical exams (OSCEs), haptic simulation, clinical case debriefing |
+| Dental Research & Biomaterials Innovation | Clinical Dental Researcher, Materials Consultant; later Principal Investigator (Biomaterials), Academic Lead | LOW | Clinical trial design, dental implant biomechanics, translational prosthodontics |
 
 **Exposure basis declaration.** Destination AI exposure is **44.92** (exact basis derived from Medical / Specialist Dental destinations), sitting well **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Acute nationwide shortage of registered specialist prosthodontists | Sustained High | ADC and DBA registers confirm prosthodontics is severely undersupplied across ANZ. — W3, G1 |
 | Rapid adoption of digital CAD/CAM restorative workflows | Fast | Specialist clinics mandate intraoral digital scanning and CAD/CAM design. — C3, W2 |
 | 540+ hours of compulsory clinical hospital residency | Stable | Hospital specialist roles require extensive residency at Royal Dental Hospital. — W2, W3, G1 |
@@ -172,7 +173,7 @@ The market intelligence gathered for this program indicates strong demand across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-clind.md); rows
@@ -191,7 +192,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 40. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: Same course under its former award title; the JIR record is titled Doctor of Clinical Dentistry.
+**Panel A metadata.** Basis tier **exact** (measured), n = 40. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Same course under its former award title; the Job Insights Report (JIR) record is titled Doctor of Clinical Dentistry.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (13 pages) and verified on 2026-08-14: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

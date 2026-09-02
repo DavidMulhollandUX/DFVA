@@ -23,7 +23,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 80.60.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 2 of 14 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 099999 Society and Culture, n.e.c.; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
+**Destination AI Exposure: 80.60.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 2 of 14 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 099999 Society and Culture, n.e.c.; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 7 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -148,14 +148,14 @@ Condensed from [the market intelligence report](dfva-market-mc-scl.md).
 
 **Signals and skill shifts.**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | ACNC Governance Standard 5 statutorily binds every Responsible Person of a registered charity — including CEOs — to personal care, diligence and disclosure duties | Sustained, regulatory | W1 |
 | Funders expect nonprofit leaders to demonstrate AI governance capability, not merely use AI tools | Rising | C3 |
 | 47% of 346 surveyed nonprofits have no AI governance policy at all, against 92% AI usage | Sustained gap | C3 |
 | Individual, unsanctioned and reactive staff use of AI tools | Declining fast | C3, C2 |
 | Organisation-wide AI strategy and staff AI-literacy leadership | Rising, medium velocity | C3 |
-| Fully manual routine proposal drafting and preliminary review | Declining fast | — |
+| Fully manual routine proposal drafting and preliminary review | Declining fast | No scored item — entry-role output, not curriculum |
 | Editorial review and direction of AI-drafted proposals and donor communications | Rising fast | C3 |
 | Reflection-only self-assessment of leadership practice | Declining, slow | C2 |
 | Criterion-referenced appraisal of organisational and technology practice against an external standard | Rising, medium velocity | C2, C3 |
@@ -165,7 +165,7 @@ Condensed from [the market intelligence report](dfva-market-mc-scl.md).
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-scl.md); rows
@@ -184,7 +184,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **field** (field grain), n = 0, 14 destination titles, 2 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
+**Panel A metadata.** Basis tier **field** (field grain), n = 0, 14 destination titles, 2 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
 
 **Panel C provenance.** Scored from the 2026 handbook capture (16 pages) and verified on 2026-08-31: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

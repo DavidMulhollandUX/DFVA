@@ -23,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 89.88.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 9 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 408, 15 titles). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 89.88.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 9 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 408, 15 titles). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -124,16 +124,16 @@ The market context is condensed from [\`reports/dfva-market-mc-env.md\`](dfva-ma
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Environmental Policy, Governance & ESG Strategy | Sustainability Consultant, ESG Analyst, Environmental Policy Officer | Senior ESG Strategist, Sustainability Director, Environmental Policy Lead | 89.88 | LOW TO MEDIUM | Mandatory climate reporting (AASB/IFRS), corporate decarbonisation strategy, supply chain circularity, policy governance |
-| Climate Adaptation, Carbon Accounting & Energy Transition | Climate Risk Specialist, Carbon Accounting Analyst | Senior Climate Resilience Manager, Energy Transition Advisor | 89.88 | MEDIUM | Remote sensing climate hazard modelling, carbon offset integrity verification, net-zero pathway development, transition finance |
-| Conservation, Biodiversity & Ecosystem Management | Ecology Consultant, Biodiversity Officer, Catchment Planner | Senior Conservation Scientist, Nature-Positive Program Director | 83.13 | LOW | Nature-related financial disclosures (TNFD), habitat connectivity modelling, biodiversity credit valuation, Indigenous land management |
-| Environmental Impact Assessment & Compliance | Environmental Impact Assessment (EIA) Specialist, Statutory Environmental Auditor | Senior Environmental Approvals Manager, Principal Regulatory Consultant | 89.88 | LOW TO MEDIUM | Statutory approvals negotiation (EPBC Act/EPA Victoria), contamination risk assessment, cumulative impact synthesis |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Environmental Policy, Governance & ESG Strategy | Sustainability Consultant, ESG Analyst, Environmental Policy Officer; later Senior ESG Strategist, Sustainability Director, Environmental Policy Lead | LOW TO MEDIUM (exposure 89.88) | Mandatory climate reporting (AASB/IFRS), corporate decarbonisation strategy, supply chain circularity, policy governance |
+| Climate Adaptation, Carbon Accounting & Energy Transition | Climate Risk Specialist, Carbon Accounting Analyst; later Senior Climate Resilience Manager, Energy Transition Advisor | MEDIUM (exposure 89.88) | Remote sensing climate hazard modelling, carbon offset integrity verification, net-zero pathway development, transition finance |
+| Conservation, Biodiversity & Ecosystem Management | Ecology Consultant, Biodiversity Officer, Catchment Planner; later Senior Conservation Scientist, Nature-Positive Program Director | LOW (exposure 83.13) | Nature-related financial disclosures (TNFD), habitat connectivity modelling, biodiversity credit valuation, Indigenous land management |
+| Environmental Impact Assessment & Compliance | Environmental Impact Assessment (EIA) Specialist, Statutory Environmental Auditor; later Senior Environmental Approvals Manager, Principal Regulatory Consultant | LOW TO MEDIUM (exposure 89.88) | Statutory approvals negotiation (EPBC Act/EPA Victoria), contamination risk assessment, cumulative impact synthesis |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Mandatory climate reporting, ESG disclosure auditing, and anti-greenwashing critique | Rising | C2, C3, G2 |
 | Satellite remote sensing, digital twins, and AI in biodiversity tracking | Rising | C1, C3, W2 |
@@ -145,7 +145,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-env.md); rows
@@ -164,7 +164,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 408, 15 destination titles, 9 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 408, 15 destination titles, 9 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (42 pages) and verified on 2026-08-25: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

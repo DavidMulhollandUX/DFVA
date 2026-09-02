@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-14
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/527cl (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 35 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -22,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 95.57.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Master of Applied Psychology (n = 47); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 95.57.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Master of Applied Psychology (n = 47); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -197,20 +198,20 @@ The market intelligence gathered for this program indicates exceptional, non-cyc
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Clinical Psychological Assessment & Individual Psychotherapy | Provisional Psychologist, Registrar in Clinical Psychology | Endorsed Clinical Psychologist, Senior Clinical Psychologist | VERY LOW | Trauma-informed CBT/DBT/ACT modalities, clinical risk formulation, culturally safe practice |
-| 2 | Public Mental Health & Multidisciplinary Hospital Services | Mental Health Clinician, CAMHS / CYMHS Clinician | Senior Allied Health Team Leader, Clinical Psychology Coordinator | VERY LOW | Complex psychiatric comorbidity triage, interprofessional handover, acute risk mitigation |
-| 3 | Digital Mental Health & Blended Telehealth Delivery | Telehealth Clinician, Digital Program Reviewer | Clinical Director (Digital Health), Platform Governance Lead | LOW | Telehealth therapeutic alliance, clinical governance of AI triage tools, remote crisis escalation |
-| 4 | Clinical Research, Neuropsychology & Psychometrics | Clinical Research Officer, Psychometrist | Senior Research Fellow, Director of Clinical Trials | LOW | Digital psychometric assessment (Q-interactive), clinical trial analytics, systematic review synthesis |
-| 5 | Occupational Mental Health & Psychosocial Risk Consulting | Workplace Wellbeing Advisor, EAP Clinician | Principal Psychosocial Safety Consultant, Organisational Wellbeing Lead | LOW–MEDIUM | Psychosocial hazard auditing (Safe Work Australia), brief structured interventions, critical incident response |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Clinical Psychological Assessment & Individual Psychotherapy | Provisional Psychologist, Registrar in Clinical Psychology; later Endorsed Clinical Psychologist, Senior Clinical Psychologist | VERY LOW | Trauma-informed CBT/DBT/ACT modalities, clinical risk formulation, culturally safe practice |
+| Public Mental Health & Multidisciplinary Hospital Services | Mental Health Clinician, CAMHS / CYMHS Clinician; later Senior Allied Health Team Leader, Clinical Psychology Coordinator | VERY LOW | Complex psychiatric comorbidity triage, interprofessional handover, acute risk mitigation |
+| Digital Mental Health & Blended Telehealth Delivery | Telehealth Clinician, Digital Program Reviewer; later Clinical Director (Digital Health), Platform Governance Lead | LOW | Telehealth therapeutic alliance, clinical governance of AI triage tools, remote crisis escalation |
+| Clinical Research, Neuropsychology & Psychometrics | Clinical Research Officer, Psychometrist; later Senior Research Fellow, Director of Clinical Trials | LOW | Digital psychometric assessment (Q-interactive), clinical trial analytics, systematic review synthesis |
+| Occupational Mental Health & Psychosocial Risk Consulting | Workplace Wellbeing Advisor, EAP Clinician; later Principal Psychosocial Safety Consultant, Organisational Wellbeing Lead | LOW–MEDIUM | Psychosocial hazard auditing (Safe Work Australia), brief structured interventions, critical incident response |
 
 **Exposure basis declaration.** Destination AI exposure is **45.02** (exact basis derived from Clinical Psychology graduate destinations), sitting **far below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Acute workforce shortage and AHPRA statutory registration | Sustained High | APAC-accredited graduates enter high-demand vacancies across hospitals and private practice, insulated by licensing. — W3, G1, G2 |
 | Telehealth and digital delivery as standard practice | Sustained High | Over 65% of psychology postings require video psychotherapy and remote risk management capabilities. — C3, W1, W2 |
 | NDIS Functional Capacity and digital psychometric testing demand | Sustained High | Demand for comprehensive cognitive and developmental assessments drives recruitment for provisionals. — W2, C2, C5 |
@@ -222,7 +223,7 @@ The market intelligence gathered for this program indicates exceptional, non-cyc
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-527cl.md); rows
@@ -241,7 +242,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **partial** (related program), n = 47. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: Clinical Psychology stream; the Applied Psychology record is the program-family record used by the reconciliation package (tier partial).
+**Panel A metadata.** Basis tier **partial** (related program), n = 47. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Clinical Psychology stream; the Applied Psychology record is the program-family record used by the reconciliation package (tier partial).
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-14: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

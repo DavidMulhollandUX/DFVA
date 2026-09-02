@@ -57,7 +57,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI/ML systems fluency (building, deploying, evaluating models) | **↑↑ Rising sharply** | Signal 2 (§2) describes demand for PhD-level original ML research talent growing sharply through the AI boom, bifurcating the market between "original research" and "commoditised applied ML engineer" roles; CI-5 (§5) says candidates lack explicit positioning support to land in the higher tier. |

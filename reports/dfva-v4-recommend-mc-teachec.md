@@ -9,7 +9,7 @@
 > the body.
 >
 > The exposure value is an **estimate**: it rests on a field basis (JSA HEO ·
-> 070101 Teacher Education: Early Childhood, AIOE-2021 variant, 82.4% title
+> 070101 Teacher Education: Early Childhood, AI Occupational Exposure (AIOE)-2021 variant, 82.4% title
 > coverage), not on this program's own graduates. It is sound enough to say the
 > destinations are highly exposed and not sound enough to rank this program
 > against a peer on exposure alone — see [the estimated-basis methods
@@ -17,7 +17,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 Both gates pass cleanly. G1 rests on a 15-subject compulsory core taken in a

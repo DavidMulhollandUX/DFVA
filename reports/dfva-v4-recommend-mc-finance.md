@@ -10,10 +10,10 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
-The Master of Finance prepares graduates for high-exposure analytical and advisory destinations in investment banking, asset management, risk management, and quantitative finance (AIOE 97.04). While the curriculum delivers rigorous quantitative foundations and authentic corporate valuation problem sets, routine financial spreading and basic valuation tasks face rapid automation from generative AI and machine learning tools. The program's primary developmental headroom lies in formalizing digital and AI model governance (C3), establishing guaranteed empirical inquiry and viva defense (C5), embedding assessed work-situated placements (W3), and institutionalizing human-AI collaborative workflows and reliance/override defense (C1, C2).
+The Master of Finance prepares graduates for high-exposure analytical and advisory destinations in investment banking, asset management, risk management, and quantitative finance (AI Occupational Exposure (AIOE) 97.04). While the curriculum delivers rigorous quantitative foundations and authentic corporate valuation problem sets, routine financial spreading and basic valuation tasks face rapid automation from generative AI and machine learning tools. The program's primary developmental headroom lies in formalizing digital and AI model governance (C3), establishing guaranteed empirical inquiry and viva defense (C5), embedding assessed work-situated placements (W3), and institutionalizing human-AI collaborative workflows and reliance/override defense (C1, C2).
 
 | Item | Sub-scale | Score | Levels below maximum | Market evidence for the gap | Priority |
 |---|---|---|---|---|---|

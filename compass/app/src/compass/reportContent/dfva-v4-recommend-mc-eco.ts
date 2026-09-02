@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Economics establishes exceptional theoretical and mathematical depth with Adaptiveness **8 / 15** and Workplace practice **5 / 9**, passing Gate G1 (specialist core sequence in advanced microeconomics, macroeconomics, and econometrics) and Gate G2 (rigorous decision-making under uncertainty, game-theoretic strategic interactions, and econometric identification). However, facing extremely high destination automation exposure (**96.53** on routine OLS regression, mathematical derivation, and literature summarisation), substantial curriculum headroom exists in digital AI literacy and algorithmic model governance (C3: 1/3), student-designed primary empirical inquiry across core coursework (C5: 1/3), and core work-situated placements (W3: 1/3).

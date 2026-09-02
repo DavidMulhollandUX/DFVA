@@ -18,7 +18,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 93.99.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 26). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 93.99.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 26). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -143,19 +143,19 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | English Language Teaching (ELICOS & EAL/D) | EAL Teacher, ELICOS Instructor | Senior EAL Specialist, Lead Teacher (Languages) | MEDIUM | Culturally responsive pedagogy, differentiated language scaffolding, trauma-informed teaching |
-| 2 | ELICOS Academic Coordination & Management | Academic Coordinator, Assistant Director of Studies | Director of Studies, ELICOS Principal | LOW–MEDIUM | NEAS quality standards, CRICOS/ESOS regulatory compliance, teacher performance appraisal |
-| 3 | Language Curriculum & Digital Learning Design | ELT Materials Developer, Learning Designer | Senior Curriculum Lead, Educational Media Director | MEDIUM | Multimodal digital authoring (H5P, Articulate), AI prompt calibration, corpus-informed design |
-| 4 | International Education Consulting & Pathways | International Student Advisor, Pathway Coordinator | Academic Pathway Manager, Head of Language Programs | LOW–MEDIUM | Cross-cultural counseling, IELTS/PTE diagnostic interpretation, ESOS student support |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| English Language Teaching (ELICOS & EAL/D) | EAL Teacher, ELICOS Instructor; later Senior EAL Specialist, Lead Teacher (Languages) | MEDIUM | Culturally responsive pedagogy, differentiated language scaffolding, trauma-informed teaching |
+| ELICOS Academic Coordination & Management | Academic Coordinator, Assistant Director of Studies; later Director of Studies, ELICOS Principal | LOW–MEDIUM | NEAS quality standards, CRICOS/ESOS regulatory compliance, teacher performance appraisal |
+| Language Curriculum & Digital Learning Design | ELT Materials Developer, Learning Designer; later Senior Curriculum Lead, Educational Media Director | MEDIUM | Multimodal digital authoring (H5P, Articulate), AI prompt calibration, corpus-informed design |
+| International Education Consulting & Pathways | International Student Advisor, Pathway Coordinator; later Academic Pathway Manager, Head of Language Programs | LOW–MEDIUM | Cross-cultural counseling, IELTS/PTE diagnostic interpretation, ESOS student support |
 
 **Exposure basis declaration.** Destination AI exposure is **92.44** (partial basis derived from Master of Education / Teacher Education destinations), sitting slightly **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | ELICOS and pathway provider academic coordination shortage | Fast | Rebuilding language centres hire coordinators with NEAS and CRICOS skills. — W1, G1 |
 | EAL/D specialist teacher shortages in Victorian schools | Sustained High | State schools actively recruit qualified language teachers under VIT standards. — W3, G1 |
 | Digital learning design and multimodal authoring tools | Fast | Private language colleges seek developers skilled in H5P and digital platforms. — C3, W2 |
@@ -167,7 +167,7 @@ The market intelligence gathered for this program indicates strong demand across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-tesol.md); rows
@@ -186,7 +186,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 26. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 26. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (37 pages) and verified on 2026-08-15: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

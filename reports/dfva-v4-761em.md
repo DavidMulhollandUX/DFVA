@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 91.05.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 10 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 89, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 91.05.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 10 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 89, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -145,19 +145,19 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Infrastructure & Capital Project Management | Project Engineer, Assistant Project Manager | Senior Project Manager, Project Director | HIGH | Critical path scheduling automation, FIDIC contract admin, ESG procurement |
-| 2 | Engineering Operations & Transformation Lead | Operations Engineer, Continuous Improvement Lead | Head of Engineering Operations, VP Operations | HIGH | Digital twin deployment, predictive maintenance AI, agile transformation |
-| 3 | Technology Product & Systems Delivery | Technical Product Manager, Systems Delivery Lead | Director of Product / Program Management | VERY HIGH | Generative AI product roadmapping, cross-functional squad leadership, CI/CD |
-| 4 | Engineering Advisory & Management Consulting | Management Consultant (Operations/Infra), Senior Analyst | Engagement Manager, Partner (Operations Practice) | HIGH | Techno-economic feasibility modeling, cost-benefit optimization, board pitching |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Infrastructure & Capital Project Management | Project Engineer, Assistant Project Manager; later Senior Project Manager, Project Director | HIGH | Critical path scheduling automation, FIDIC contract admin, ESG procurement |
+| Engineering Operations & Transformation Lead | Operations Engineer, Continuous Improvement Lead; later Head of Engineering Operations, VP Operations | HIGH | Digital twin deployment, predictive maintenance AI, agile transformation |
+| Technology Product & Systems Delivery | Technical Product Manager, Systems Delivery Lead; later Director of Product / Program Management | VERY HIGH | Generative AI product roadmapping, cross-functional squad leadership, CI/CD |
+| Engineering Advisory & Management Consulting | Management Consultant (Operations/Infra), Senior Analyst; later Engagement Manager, Partner (Operations Practice) | HIGH | Techno-economic feasibility modeling, cost-benefit optimization, board pitching |
 
 **Exposure basis declaration.** Destination AI exposure is **92.27** (exact basis derived from Engineering Management / Project Management destinations), sitting **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Demand for engineering leaders bridging technical delivery and strategy | Fast | Top infrastructure and tech employers recruit commercial engineering managers. — C1, W1 |
 | Integration of AI-driven project scheduling and risk modeling | Very Fast | Capital delivery teams mandate proficiency in predictive tools (nPlan, Primavera). — C3, G1 |
 | Escalating requirement for ESG compliance and sustainable procurement | Fast | Asset owners require carbon accounting and circular procurement integration. — C4, W2 |
@@ -169,7 +169,7 @@ The market intelligence gathered for this program indicates strong demand across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-761em.md); rows
@@ -188,7 +188,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 89, 15 destination titles, 10 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 89, 15 destination titles, 10 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (23 pages) and verified on 2026-08-16: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

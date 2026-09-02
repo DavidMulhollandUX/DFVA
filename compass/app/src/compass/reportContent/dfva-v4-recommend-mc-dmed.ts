@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Doctor of Medicine is an AMC-accredited, AHPRA-registered professional entry medical degree leading to provisional medical registration and intern placement across Australian public healthcare networks. Both gates pass decisively: G1 passes on an accredited 312.5-point compulsory specialist medical core across biomedical science, clinical skills, and professional practice; G2 passes on situational judgement tests, unscripted clinical encounters under diagnostic uncertainty, and the Year 4 junior doctor capstone.

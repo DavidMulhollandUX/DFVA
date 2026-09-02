@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Journalism is a professional coursework program preparing digital reporters, investigative journalists, audio producers, and government media advisers for major media publishers (ABC, Nine Entertainment, News Corp Australia, Guardian Australia, Schwartz Media) and public sector communications agencies (Victorian Government, DFAT). Both gates pass: G1 passes on a compulsory 25-point foundational reporting unit (JOUR90001) that gates entry via a staged prerequisite chain into audio, video, long-form, investigative, and business specialisations, culminating in a required capstone; G2 passes on self-initiated investigative reporting with uncertain empirical outcomes, newsroom editorial debates under deadline pressure, and ethical and legal risk analyses.

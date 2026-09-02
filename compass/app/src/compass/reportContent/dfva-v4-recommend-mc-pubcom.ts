@@ -13,11 +13,11 @@ const content = {
 > [References](#references); full citations are given there and not repeated in
 > the body.
 >
-> The exposure value is an **estimate**: it rests on a field basis (JSA HEO · 100705 Written Communication, coverage 30% of the field's graduates), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
+> The exposure value is an **estimate**: it rests on a field basis (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · 100705 Written Communication, coverage 30% of the field's graduates), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Publishing and Communications (MC-PUBCOM) scores 6/15 on adaptive capabilities and 4/9 on workplace practice. Both gates pass: G1 on a discipline-specific compulsory core (Structural Editing, Introduction to Copyediting, The Contemporary Publishing Industry) and three publishing-specific capstone streams, and G2 on PUBL90020's costed book proposal and PUBL90025's live team publishing project. Every adaptive and workplace item that scores above Level 1 does so on evidence confined to one of three mutually exclusive capstone streams — Minor Thesis, Industry Project, or WIL — rather than on the two captured compulsory subjects (PUBL90001 Structural Editing, PUBL90002 Copyediting); five items (C1, C4, C5, W1, W3) were demoted from a provisional Level 2 to Level 1 for exactly this reason.

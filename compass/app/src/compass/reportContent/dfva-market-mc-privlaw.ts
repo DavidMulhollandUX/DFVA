@@ -53,7 +53,7 @@ This reflects individual impressions gathered informally (Legal Cheek) or posted
 
 **Bearing:** W1 and W2. The program scores W1 at 2 (one professional-genre task — a banking-and-finance memorandum — with no documented external audience) and W2 at 0 (no end-to-end professional artefact judged by practitioner criteria; the memorandum is attributed to W1 alone under the record's "one construct, one home" rule). Because the program's elective menu weights heavily toward the transactional/commercial subjects this theme identifies as more AI-exposed (contract, banking and finance, commercial equity) relative to the litigation/dispute-resolution electives it identifies as comparatively insulated, and because G1 already fails on the lack of a compulsory sequence, a student's actual subject mix — and therefore their exposure to either side of this split — is unconstrained by the program structure.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Verification and hallucination-risk judgment on AI-assisted drafts | **↑↑ Rising sharply** | Theme 2 (§3) reports the RCT found a RAG legal-AI tool matched no-AI hallucination rates while a reasoning model introduced *more* hallucinations than the no-AI control, and CI-2 (§5) confirms W2 scores 0 with no subject documenting a defended judgment task on AI output. |
@@ -95,7 +95,7 @@ This reflects individual impressions gathered informally (Legal Cheek) or posted
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-privlaw
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **0909 Law** (n = 17,720 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 58.6% of them, and the 5 largest are shown at each stage.
 

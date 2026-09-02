@@ -23,7 +23,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 71.19.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 15 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 100301 Fine Arts; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
+**Destination AI Exposure: 71.19.** Destination titles are crosswalked to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 15 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 100301 Fine Arts; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -125,28 +125,28 @@ combined total: the sub-scores are reported side by side and never added.
 
 Destination job families and exposure values for Bachelor of Fine Arts (Visual Art) (B-FAVISART), condensed from [the market intelligence report](dfva-market-b-favisart.md):
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | AI Exposure |
-|---|---|---|---|---|---|
-| 1 | Contemporary Studio Practice & Exhibitions | Practising Visual Artist, Studio Assistant | Represented Artist, Public Art Lead | VERY LOW | 69.45 |
-| 2 | Gallery, Museum & Curatorial Management | Curatorial Assistant, Gallery Registrar | Assistant Curator, Commercial Gallery Director | LOW | 69.45 |
-| 3 | Arts Education, Community Arts & Cultural Facilitation | Teaching Artist, Community Arts Project Officer | Creative Producer, Cultural Program Manager | VERY LOW | 69.45 |
-| 4 | Commercial Art Direction & Spatial Design | Junior Art Director, Exhibition / Set Assistant | Creative Director, Senior Spatial Designer | MEDIUM | 69.45 |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Contemporary Studio Practice & Exhibitions | Practising Visual Artist, Studio Assistant; later Represented Artist, Public Art Lead | VERY LOW | Material experimentation, conceptual rigor, bespoke installation craft |
+| Gallery, Museum & Curatorial Management | Curatorial Assistant, Gallery Registrar; later Assistant Curator, Commercial Gallery Director | LOW | Exhibition design, archival documentation, provenance research |
+| Arts Education, Community Arts & Cultural Facilitation | Teaching Artist, Community Arts Project Officer; later Creative Producer, Cultural Program Manager | VERY LOW | Community co-design, workshop facilitation, public engagement |
+| Commercial Art Direction & Spatial Design | Junior Art Director, Exhibition / Set Assistant; later Creative Director, Senior Spatial Designer | MEDIUM | Spatial installation, digital-physical fabrication, material storytelling |
 
 Signals and skill shifts mapped to scored Panel C and Workplace items:
 
-| Signal / Shift | Direction | Evidence | Bearing |
-|---|---|---|---|
-| Visual artist moral rights, AI scraping defense & provenance | Rising | NAVA Code of Practice benchmarks on copyright defense and training transparency | C3, W1, G1 |
-| Material craft, physical making & spatial installation | Stable / Rising | Institutional demand (NGV, ACCA) for tactile sculpture, painting, and public art | W2, G2 |
-| Studio critique dialogics & evaluative judgement | Rising | Group critique ("crits") standards for evaluating aesthetic and conceptual rigor | C2, C1, W1 |
-| Self-scoped exhibition authoring & spatial curation | Rising | Creative Australia benchmarks for independent graduate exhibition and defense | C4, C5, W2 |
-| Derivative generic digital illustration & uncredited scraping | Declining | Commercial machine learning models devaluing superficial digital styles | C3, W2 |
+| Signal or shift | Direction | Bearing on the scored items |
+| --- | --- | --- |
+| Visual artist moral rights, AI scraping defense & provenance — NAVA Code of Practice benchmarks on copyright defense and training transparency | Rising | C3, W1, G1 |
+| Material craft, physical making & spatial installation — Institutional demand (NGV, ACCA) for tactile sculpture, painting, and public art | Stable / Rising | W2, G2 |
+| Studio critique dialogics & evaluative judgement — Group critique ("crits") standards for evaluating aesthetic and conceptual rigor | Rising | C2, C1, W1 |
+| Self-scoped exhibition authoring & spatial curation — Creative Australia benchmarks for independent graduate exhibition and defense | Rising | C4, C5, W2 |
+| Derivative generic digital illustration & uncredited scraping — Commercial machine learning models devaluing superficial digital styles | Declining | C3, W2 |
 
 **Confidence:** High for visual arts standards (NAVA, Creative Australia, AMaGA); Medium for field-level graduate destinations (JSA HEO 100301 Fine Arts).
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-b-favisart.md); rows

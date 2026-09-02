@@ -64,8 +64,7 @@ Doctoral education reviews across the Group of Eight and [ACER](https://www.acer
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI-governance literacy for education systems | **↑↑ Rising sharply** | C3 scores 1/3 — the extract's only digital content is reference-management tool training, with no AI or digital-literacy content anywhere; Theme 1 (§3, AITSL November 2024/ACARA) requires education leaders to formulate system-wide AI literacy frameworks and defend assessment validity against synthetic text generation. |
@@ -113,6 +112,18 @@ Doctoral education reviews across the Group of Eight and [ACER](https://www.acer
 **Assessment Date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/300bb
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
+
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **070303 Education Studies** (n = 6,180 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 66.5% of them, and the 5 largest are shown at each stage.
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Secondary School Teacher (21.8%) · Primary School Teacher (18.4%) · University Lecturer (7.0%) · School Teachers nfd (5.8%) · School Principal (3.2%) |
+| Early (~3yr) | Secondary School Teacher (21.5%) · Primary School Teacher (17.2%) · University Lecturer (7.1%) · School Teachers nfd (5.0%) · School Principal (4.2%) |
+| Senior (~5yr) | Secondary School Teacher (20.6%) · Primary School Teacher (16.0%) · University Lecturer (7.0%) · School Principal (4.5%) · School Teachers nfd (4.2%) |
+
+**Field grain, not program grain.** These are graduates of the whole Education Studies field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 `,
 };
 

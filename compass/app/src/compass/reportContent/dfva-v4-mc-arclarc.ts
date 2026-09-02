@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-31
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-arclarc (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 70 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -27,7 +28,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 84.75.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 1 of 15 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 040101 Architecture; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **above** it.
+**Destination AI Exposure: 84.75.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 1 of 15 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 040101 Architecture; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -129,7 +130,7 @@ combined total: the sub-scores are reported side by side and never added.
 | Job family | Entry titles | AI substitution pressure | Skills rising in that family |
 | --- | --- | --- | --- |
 | Architectural Design & Documentation | Graduate Architect, Architectural Graduate, Architectural Assistant | MEDIUM — RIBA-reported UK practice AI use rose from about 41% (2024) to near 59–60% (2025), concentrated in production and documentation tasks | BIM/Revit-integrated documentation, generative-design tool evaluation |
-| Landscape Architecture & Public Realm Design | Landscape Architect, Landscape Architectural Graduate, Landscape Designer | LOW–MEDIUM — AIOE scores SOC 17-1012 Landscape Architects at 1.034, close to architects' 1.047, on a pre-ChatGPT theoretical measure, not an adoption figure | Site-analytic modelling, climate-adaptive planting and public-realm design |
+| Landscape Architecture & Public Realm Design | Landscape Architect, Landscape Architectural Graduate, Landscape Designer | LOW–MEDIUM — AIOE scores Standard Occupational Classification (SOC) 17-1012 Landscape Architects at 1.034, close to architects' 1.047, on a pre-ChatGPT theoretical measure, not an adoption figure | Site-analytic modelling, climate-adaptive planting and public-realm design |
 | Architectural & Landscape Practice Administration | Graduate of Record, Project Coordinator, Practice Administrator | LOW — an AIA/Deltek firm-leader survey (June 2026) found 88% of US respondents reported no staffing impact from AI, versus 3% reporting reductions | Contract and procurement literacy, risk-allocation reporting |
 | Computational & AI-Assisted Design | Design Technologist, Computational Designer | HIGH — the direct site of AI adoption inside the profession; practitioner forums show unresolved disagreement over how much of this work should be delegated to AI tools without supervision | Machine-learning-assisted optimisation, critical evaluation of AI-generated design output |
 
@@ -142,7 +143,7 @@ Draftsperson (13–18%), consistent with the Architectural Design & Documentatio
 
 **Signals and skill shifts**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | RIBA-reported UK practice AI use rose from ~41% (2024) to ~59–60% (2025); AIA/Deltek finds 88% of US firm leaders report no staffing impact | Rising adoption, staffing largely unaffected | C3 |
 | Practitioners liken unsupervised AI design output to an unlicensed intern's work requiring verification; an op-ed warns routine delegation can erode design judgement absent deliberate practice | Rising need for supervised, critical evaluation | C2, C5 |
@@ -171,7 +172,7 @@ of the profession.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-arclarc.md); rows
@@ -190,7 +191,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **field** (field grain), n = 0, 15 destination titles, 1 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
+**Panel A metadata.** Basis tier **field** (field grain), n = 0, 15 destination titles, 1 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
 
 **Panel C provenance.** Scored from the 2026 handbook capture (70 pages) and verified on 2026-08-31: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

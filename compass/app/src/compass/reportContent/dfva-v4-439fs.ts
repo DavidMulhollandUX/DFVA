@@ -18,7 +18,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 79.43.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 50). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 79.43.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 50). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -131,20 +131,20 @@ The market intelligence gathered for this program indicates steady, regulation-d
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Food Safety, Quality Assurance & HACCP Auditing | QA Officer, Food Safety Coordinator, HACCP Auditor | QA Manager, Food Quality Systems Director | LOW–MEDIUM | FSANZ statutory compliance, digital QMS (eQMS) auditing, supplier verification protocols |
-| 2 | Food Processing Technology & Manufacturing Operations | Process Technologist, Food Technologist | Senior Food Technologist, Manufacturing Operations Lead | MEDIUM | Advanced continuous processing, NIR inline spectroscopic monitoring, automation auditing |
-| 3 | New Product Development (NPD) & Sensory Science | NPD Technologist, Product Formulation Scientist | Senior Innovation Scientist, R&D Manager (FMCG) | LOW | Precision fermentation, plant-based matrix formulation, AI-assisted sensory profiling |
-| 4 | Food Regulatory Affairs & Export Compliance | Regulatory Compliance Analyst, Food Labelling Specialist | Regulatory Affairs Manager, International Trade Compliance Lead | LOW | Novel food statutory applications, international export standards (GACC, US FDA, EU), claims substantiation |
-| 5 | Food Systems Research & Nutritional Innovation | Graduate Research Assistant, Food Innovation Scientist | Senior Research Scientist (CSIRO / Industry R&D), R&D Director | LOW | Experimental design, bioactive nutrient encapsulation, sustainable packaging lifecycle analysis |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Food Safety, Quality Assurance & HACCP Auditing | QA Officer, Food Safety Coordinator, HACCP Auditor; later QA Manager, Food Quality Systems Director | LOW–MEDIUM | FSANZ statutory compliance, digital QMS (eQMS) auditing, supplier verification protocols |
+| Food Processing Technology & Manufacturing Operations | Process Technologist, Food Technologist; later Senior Food Technologist, Manufacturing Operations Lead | MEDIUM | Advanced continuous processing, NIR inline spectroscopic monitoring, automation auditing |
+| New Product Development (NPD) & Sensory Science | NPD Technologist, Product Formulation Scientist; later Senior Innovation Scientist, R&D Manager (FMCG) | LOW | Precision fermentation, plant-based matrix formulation, AI-assisted sensory profiling |
+| Food Regulatory Affairs & Export Compliance | Regulatory Compliance Analyst, Food Labelling Specialist; later Regulatory Affairs Manager, International Trade Compliance Lead | LOW | Novel food statutory applications, international export standards (GACC, US FDA, EU), claims substantiation |
+| Food Systems Research & Nutritional Innovation | Graduate Research Assistant, Food Innovation Scientist; later Senior Research Scientist (CSIRO / Industry R&D), R&D Director | LOW | Experimental design, bioactive nutrient encapsulation, sustainable packaging lifecycle analysis |
 
 **Exposure basis declaration.** Destination AI exposure is **79.43** (exact basis derived from Master of Food Science graduate destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Mandatory HACCP and FSANZ food safety compliance as hiring floor | Sustained High | Mandatory statutory food standards protect food safety officers and auditors from automated replacement. — W2, G1, G2 |
 | Transition from manual compliance to digital Quality Management Systems (eQMS) | Rising / Volatile | FMCG manufacturers deploy eQMS and inline spectroscopic monitoring, requiring food scientists who can audit digital sensor data. — C2, C3, W2 |
 | Alternative proteins, precision fermentation, and novel food regulations | Rising | Expanding alternative protein sectors require graduates capable of navigating novel food regulatory pathways and complex extrusion matrices. — C4, C5, G1 |
@@ -156,7 +156,7 @@ The market intelligence gathered for this program indicates steady, regulation-d
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-439fs.md); rows
@@ -175,7 +175,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 50. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 50. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-14: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

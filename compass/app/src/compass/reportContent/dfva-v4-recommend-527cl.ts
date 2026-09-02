@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Clinical Psychology is an APAC-accredited professional degree leading to general registration and clinical psychology endorsement with the Psychology Board of Australia (AHPRA). G1 passes on an all-compulsory 200-credit-point accredited sequence with systematic progression across diagnostic assessment, advanced psychopathology, and minor thesis research. G2 passes decisively on live clinical decision-making, ethical dilemma resolution, and suicide/self-harm risk management under real patient uncertainty.

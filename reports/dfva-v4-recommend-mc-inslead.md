@@ -10,10 +10,10 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
-The Master of Instructional Leadership prepares practicing and aspiring school leaders for principalship, curriculum direction, and systemic quality assurance (AIOE 92.27). The program demonstrates outstanding strength in independent self-directed learning (C4: 3/3) and work-situated practitioner inquiry (W3: 2/3), anchored by self-capability assessments in EDUC90753 and in-school research projects in EDUC90752. However, routine lesson preparation, rubric drafting, and administrative reporting face pervasive automation from generative AI tools. The program's developmental headroom lies in formalizing educational AI governance and diagnostic platform auditing (C3), embedding human-AI collaborative workflows (C1), introducing evaluative override logs for automated learning analytics (C2), establishing external viva defense for practitioner inquiries (C5), and formalizing accountability to school governing bodies (W1, W3).
+The Master of Instructional Leadership prepares practicing and aspiring school leaders for principalship, curriculum direction, and systemic quality assurance (AI Occupational Exposure (AIOE) 92.27). The program demonstrates outstanding strength in independent self-directed learning (C4: 3/3) and work-situated practitioner inquiry (W3: 2/3), anchored by self-capability assessments in EDUC90753 and in-school research projects in EDUC90752. However, routine lesson preparation, rubric drafting, and administrative reporting face pervasive automation from generative AI tools. The program's developmental headroom lies in formalizing educational AI governance and diagnostic platform auditing (C3), embedding human-AI collaborative workflows (C1), introducing evaluative override logs for automated learning analytics (C2), establishing external viva defense for practitioner inquiries (C5), and formalizing accountability to school governing bodies (W1, W3).
 
 | Item | Sub-scale | Score | Levels below maximum | Market evidence for the gap | Priority |
 |---|---|---|---|---|---|

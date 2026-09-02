@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 97.83.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 14 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 72, 14 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 97.83.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 14 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 72, 14 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -119,16 +119,16 @@ The market context is condensed from [`reports/dfva-market-mc-mgmtfin.md`](dfva-
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Corporate Finance, M&A & Capital Markets | Investment Banking Analyst, Corporate Finance Associate | M&A Vice President, Corporate Development Director | 98.10 | VERY HIGH | AI valuation model stress-testing, bespoke deal structuring, multi-stakeholder negotiation |
-| Investment Management & Portfolio Strategy | Equity Research Associate, Portfolio Analyst | Senior Fund Manager, Chief Investment Officer | 97.40 | HIGH | Human-AI quantitative portfolio construction, alternative data synthesis, dynamic factor hedging |
-| Commercial Banking & Credit Risk Analytics | Commercial Credit Analyst, Risk Associate | Senior Risk Director, Head of Credit Assessment | 97.60 | HIGH | Algorithmic credit model governance, systemic liquidity risk audit, stress-testing under market shocks |
-| Treasury, Derivatives & Financial Engineering | Treasury Analyst, Derivatives Structurer | Head of Group Treasury, Lead Quantitative Strategist | 98.20 | VERY HIGH | Algorithmic hedging verification, real-time liquidity risk auditing, statutory APRA/ASIC compliance |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Corporate Finance, M&A & Capital Markets | Investment Banking Analyst, Corporate Finance Associate; later M&A Vice President, Corporate Development Director | VERY HIGH (exposure 98.10) | AI valuation model stress-testing, bespoke deal structuring, multi-stakeholder negotiation |
+| Investment Management & Portfolio Strategy | Equity Research Associate, Portfolio Analyst; later Senior Fund Manager, Chief Investment Officer | HIGH (exposure 97.40) | Human-AI quantitative portfolio construction, alternative data synthesis, dynamic factor hedging |
+| Commercial Banking & Credit Risk Analytics | Commercial Credit Analyst, Risk Associate; later Senior Risk Director, Head of Credit Assessment | HIGH (exposure 97.60) | Algorithmic credit model governance, systemic liquidity risk audit, stress-testing under market shocks |
+| Treasury, Derivatives & Financial Engineering | Treasury Analyst, Derivatives Structurer; later Head of Group Treasury, Lead Quantitative Strategist | VERY HIGH (exposure 98.20) | Algorithmic hedging verification, real-time liquidity risk auditing, statutory APRA/ASIC compliance |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Automated financial statement spreading, DCF modeling, and algorithmic earnings synthesis | Rising | C2, C5 |
 | Statutory AI credit underwriting governance (APRA CPS 230) and algorithmic market integrity | Rising | C3, G1 |
@@ -140,7 +140,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-mgmtfin.md); rows
@@ -159,7 +159,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 72, 14 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 72, 14 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-24: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

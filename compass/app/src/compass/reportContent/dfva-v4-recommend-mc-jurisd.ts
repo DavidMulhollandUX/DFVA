@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Juris Doctor is an elite professional graduate-entry law degree preparing solicitors, barristers, judicial associates, and corporate counsel for top-tier law firms (Allens, KWM, HSF, Ashurst, Clayton Utz), government solicitors (VGSO, Commonwealth AGD), and corporate enterprises. Both gates pass: G1 passes on an all-compulsory 200-point core accredited by the Victorian Legal Admissions Board (VLAB) for admission to the legal profession under Priestley 11 requirements; G2 passes on complex statutory and common law trade-off reasoning in civil disputes, advice on remedies, and constitutional litigation.

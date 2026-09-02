@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-14 (adaptive sub-scale first scored 2026-08-13)
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/244cw (course, structure, attributes) plus the six compulsory-subject and two capstone subject/assessment pages
+**Course Director:** not recorded in this cycle's handbook capture
 **Coordinator:** Kayley Lyons (Melbourne School of Population and Global Health)
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
@@ -33,7 +34,7 @@ const content = {
 ## 1. POSITION — Basis: measured × scored
 
 **Destination AI Exposure: 89.46.** Measured on the program's own exact-name alumni
-destination record (n = 562, 15 titles), crosswalked to the published Felten AIOE
+destination record (n = 562, 15 titles), crosswalked to the published Felten AI Occupational Exposure (AIOE)
 index and rescaled 0–100 (v3.1 Panel A, extension cohort; v3.1 portfolio median 90.9).
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.1 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook
@@ -244,21 +245,21 @@ confidence levels are stated per section.
 **Destination job families** (exposure values HIGH confidence; program's own alumni
 record, n = 562). Program mean exposure 89.46.
 
-| Job family | Exposure | Position in the set |
-|---|---|---|
-| Policy and government | 97.41 | Highest |
-| Health economics and evaluation | 95–97 | — |
-| Program and health services management | 93.63 | — |
-| Epidemiology and biostatistics | 74–98 | Widest range |
-| Health promotion and community practice | 80.08 | — |
-| Communicable disease and field response | 64.49 | Lowest |
-| Global and planetary health | — | Not separately crosswalked |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Policy and government | Health Policy Officer, Briefing Analyst; later Senior Policy Advisor, Principal Health Strategist | HIGH — exposure 97.41, highest in the set | Ministerial brief verification, regulatory impact analysis, multi-agency stakeholder negotiation |
+| Health economics and evaluation | Health Economist, Program Evaluator; later Principal Health Economist, Head of Evaluation | HIGH — exposure 95–97 | Causal attribution modelling, cost-effectiveness analysis, economic evaluation under constraint |
+| Program and health services management | Not stated in the market report | Exposure 93.63; not separately rated in the market report's job family map | Not stated in the market report |
+| Epidemiology and biostatistics | Epidemiology Support Officer, Data Analyst; later Senior Epidemiologist, Surveillance Lead | HIGH — exposure 74–98, the widest range in the set | Causal inference modelling, target trial emulation, reproducible analysis pipelines |
+| Health promotion and community practice | Health Promotion Officer, Community Engagement Lead; later Head of Prevention / Health Promotion Director | LOW — exposure 80.08 | Co-design facilitation, Indigenous cultural safety, participatory intervention evaluation |
+| Communicable disease and field response | Outbreak Response Officer, Field Epidemiologist; later Incident Controller, Regional Public Health Director | LOW — exposure 64.49, the lowest in the set | Field logistics, outbreak interview techniques, emergency surge coordination |
+| Global and planetary health | Not stated in the market report | Not separately crosswalked; not rated in the market report | Not stated in the market report |
 
 **Signals and skill shifts** (MEDIUM confidence; directional synthesis, not a dated
 extraction).
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | AI verification, provenance and disclosure | Rising sharply | C3 — absent from the compulsory core |
 | Causal inference and confounder reasoning | Rising sharply | C5 — the retained task once descriptive analysis is automated |
 | Evaluation and economic evaluation design | Rising | C4 — named as a scarce capability in advertisements |
@@ -283,7 +284,7 @@ exercised on C2 judgement. Neither sub-scale sees that on its own.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-*This section argues from the evidence above; it is interpretation, not observation.*
+*This section argues from the preceding evidence; it is interpretation, not observation.*
 
 The prioritised plan, with anchor text, sequencing and score deltas, is in the
 [v4 improvement plan](dfva-v4-recommend-244cw.md). In summary:
@@ -301,7 +302,7 @@ The prioritised plan, with anchor text, sequencing and score deltas, is in the
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel D metadata.** Exact-name JIR alumni match, n = 562 (the second-largest sample
+**Panel D metadata.** Exact-name Job Insights Report (JIR) alumni match, n = 562 (the second-largest sample
 in the faculty), 15 destination titles; 8 of 15 titles were crosswalked in the v3.1
 extension pass (a third crosswalk vintage, so limitation L-v3-1 applies). QILT figures
 are field-level ("Health") and are dominated by registration-gated clinical graduates;

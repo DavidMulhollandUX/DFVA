@@ -3,6 +3,7 @@
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-19
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/038ab (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 39 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -17,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 76.58.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 10 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 94, 15 titles). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 76.58.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 10 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 94, 15 titles). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -186,20 +187,20 @@ The market intelligence gathered for this program indicates healthy, specialized
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Museum & Gallery Curatorship | Assistant Curator, Curatorial Researcher, Collections Assistant | Curator, Senior Curator, Head of Curatorial / Artistic Director | LOW | Provenance research, decolonial curatorial frameworks, spatial narrative design |
-| 2 | Collections Management & Registrarial Practice | Assistant Registrar, Collections Officer, Documentation Assistant | Senior Registrar, Collections Manager, Head of Collection Care | MEDIUM | Digital asset management (DAM), TMS/EMu cataloguing, condition reporting protocols |
-| 3 | Exhibition Management & Touring Operations | Exhibition Project Coordinator, Gallery Assistant | Senior Exhibition Manager, Head of Production / Touring | LOW–MEDIUM | Multidisciplinary freight logistics, venue risk management, sustainable exhibition staging |
-| 4 | Commercial Art Market & Advisory | Commercial Gallery Assistant, Auction Specialist Assistant | Gallery Director, Senior Art Advisor, Art Consultant | MEDIUM | Primary/secondary market valuation, client relationship management, digital provenance |
-| 5 | Public Programs & Community Engagement | Public Programs Officer, Education Coordinator | Head of Learning & Engagement, Community Arts Lead | LOW | Participatory exhibition co-design, accessibility design, First Nations consultation |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Museum & Gallery Curatorship | Assistant Curator, Curatorial Researcher, Collections Assistant; later Curator, Senior Curator, Head of Curatorial / Artistic Director | LOW | Provenance research, decolonial curatorial frameworks, spatial narrative design |
+| Collections Management & Registrarial Practice | Assistant Registrar, Collections Officer, Documentation Assistant; later Senior Registrar, Collections Manager, Head of Collection Care | MEDIUM | Digital asset management (DAM), TMS/EMu cataloguing, condition reporting protocols |
+| Exhibition Management & Touring Operations | Exhibition Project Coordinator, Gallery Assistant; later Senior Exhibition Manager, Head of Production / Touring | LOW–MEDIUM | Multidisciplinary freight logistics, venue risk management, sustainable exhibition staging |
+| Commercial Art Market & Advisory | Commercial Gallery Assistant, Auction Specialist Assistant; later Gallery Director, Senior Art Advisor, Art Consultant | MEDIUM | Primary/secondary market valuation, client relationship management, digital provenance |
+| Public Programs & Community Engagement | Public Programs Officer, Education Coordinator; later Head of Learning & Engagement, Community Arts Lead | LOW | Participatory exhibition co-design, accessibility design, First Nations consultation |
 
 **Exposure basis declaration.** Destination AI exposure is **76.58** (exact basis derived from Master of Art Curatorship graduate destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | First Nations co-curation and Indigenous Cultural Intellectual Property (ICIP) | Sustained High | AMaGA standards require curators to navigate Indigenous data sovereignty, provenance auditing, and respectful co-curation with source communities. — C1, W1, G2 |
 | AI in museum cataloguing and digital collection management | Rising / Volatile | Adoption of automated image tagging and AI metadata generation requires curators to audit and override colonial taxonomy bias and hallucinated provenance. — C2, C3, W2 |
 | Climate-adaptive conservation and disaster risk mitigation | Rising | Growing environmental risks demand curators and registrars skilled in flood/fire disaster recovery and low-carbon exhibition touring logistics. — C4, W2, G2 |
@@ -211,7 +212,7 @@ The market intelligence gathered for this program indicates healthy, specialized
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-038ab.md); rows
@@ -230,7 +231,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 94, 15 destination titles, 10 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 94, 15 destination titles, 10 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (39 pages) and verified on 2026-08-19: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

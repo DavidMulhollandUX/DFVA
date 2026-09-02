@@ -9,7 +9,7 @@ in the body.
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is interpretation,
+*This plan argues from the preceding scored evidence and market data; it is interpretation,
 not observation.*
 
 Two facts frame everything below. The destination set averages **94.14 exposure with no

@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Property is a 200–300 point professionally accredited postgraduate degree recognized by the Australian Property Institute (API) for Certified Practising Valuer (CPV) status and the Royal Institution of Chartered Surveyors (RICS). Both gates pass unconditionally: G1 passes on a comprehensive specialist core (125–225cp) spanning statutory valuation, property development, securitisation, and property economics, with a structured prerequisite sequence connecting Property Research and Analysis into the research thesis; G2 passes on defended trade-off decisions under genuine market uncertainty, evaluated across successive investment case decisions (portfolio repositioning, development appraisals, financing selections) and statutory compensation valuation reports.

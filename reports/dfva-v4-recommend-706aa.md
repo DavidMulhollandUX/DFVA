@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Social Policy provides a rigorous academic grounding in comparative social policy, stakeholder analysis, and policy research design. G1 passes on a coherent discipline core (SOCI90003, SOCI90005, SOCI90011) with clear WAM progression thresholds, and G2 passes on extensive evaluated policy advocacy and stakeholder trade-off analysis under uncertainty.

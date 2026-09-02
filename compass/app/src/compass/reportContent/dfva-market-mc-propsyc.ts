@@ -60,8 +60,7 @@ Standards from [APAC](https://www.psychologycouncil.org.au/) confirm that a prog
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | NDIS-specific clinical competency (functional capacity assessment, behaviour support plans) | **↑↑ Rising sharply** | Signal 3 (§2) identifies NDIS-funded services as "the fastest-growing source of graduate psychology positions in Australia," and CI-1 (§5) flags the absence of a mandatory NDIS-specific competency unit as a curriculum gap. |
@@ -100,7 +99,7 @@ Standards from [APAC](https://www.psychologycouncil.org.au/) confirm that a prog
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS & DEMAND (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · QILT · Adzuna)
 
 **Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 090701 Psychology):
 

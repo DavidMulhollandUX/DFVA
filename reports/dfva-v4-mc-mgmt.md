@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 90.73.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 7 of 13 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 655, 13 titles). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 90.73.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 7 of 13 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 655, 13 titles). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -119,16 +119,16 @@ The market context is condensed from [`reports/dfva-market-mc-mgmt.md`](dfva-mar
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Strategic Management & Corporate Advisory | Management Consultant, Strategy Analyst | Engagement Manager, Director of Strategic Planning | 92.50 | VERY HIGH | AI-augmented market intelligence synthesis, executive scenario modeling, change governance |
-| Operations, Supply Chain & Digital Transformation | Operations Analyst, Process Improvement Specialist | Head of Operations, Supply Chain Transformation Lead | 89.50 | HIGH | Digital twin process optimization, algorithmic workflow design, cross-functional orchestration |
-| General Management & Enterprise Leadership | Business Operations Lead, Project Manager | General Manager, Chief Operating Officer (COO) | 91.00 | MODERATE | Cross-stakeholder negotiation, ethical leadership, enterprise capital allocation under ambiguity |
-| Human Capital & Organisational Development | People & Culture Analyst, Change Management Consultant | Head of People & Culture, Transformation Director | 89.50 | MODERATE | Algorithmic workforce governance, employee experience design, hybrid workplace leadership |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Strategic Management & Corporate Advisory | Management Consultant, Strategy Analyst; later Engagement Manager, Director of Strategic Planning | VERY HIGH (exposure 92.50) | AI-augmented market intelligence synthesis, executive scenario modeling, change governance |
+| Operations, Supply Chain & Digital Transformation | Operations Analyst, Process Improvement Specialist; later Head of Operations, Supply Chain Transformation Lead | HIGH (exposure 89.50) | Digital twin process optimization, algorithmic workflow design, cross-functional orchestration |
+| General Management & Enterprise Leadership | Business Operations Lead, Project Manager; later General Manager, Chief Operating Officer (COO) | MODERATE (exposure 91.00) | Cross-stakeholder negotiation, ethical leadership, enterprise capital allocation under ambiguity |
+| Human Capital & Organisational Development | People & Culture Analyst, Change Management Consultant; later Head of People & Culture, Transformation Director | MODERATE (exposure 89.50) | Algorithmic workforce governance, employee experience design, hybrid workplace leadership |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Widespread integration of generative AI in strategic market research and competitor benchmarking | Rising | C2, C5 |
 | Corporate governance mandates on algorithmic accountability, privacy, and AI workforce ethics | Rising | C3, G1 |
@@ -140,7 +140,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-mgmt.md); rows
@@ -159,7 +159,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 655, 13 destination titles, 7 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 655, 13 destination titles, 7 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-25: adversarial refutation of every score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

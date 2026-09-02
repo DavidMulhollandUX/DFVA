@@ -28,7 +28,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 92.80.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 11 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Computer Science (n = 41, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 92.80.** Destination titles are crosswalked to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 11 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Computer Science (n = 41, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 12 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -198,28 +198,28 @@ combined total: the sub-scores are reported side by side and never added.
 
 Destination job families and exposure values for Master of Artificial Intelligence (MC-AIMO), condensed from [the market intelligence report](dfva-market-mc-aimo.md):
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | AI Exposure |
-|---|---|---|---|---|---|
-| 1 | AI Systems & Foundation Model Engineering | AI Engineer, Foundation Model Specialist | Principal AI Architect, Head of AI Engineering | LOW | 92.80 |
-| 2 | Autonomous Systems & Decision Intelligence | Autonomous Systems Engineer, Planning Algorithms Specialist | Lead Robotics/Autonomy Engineer, Principal Decision Scientist | LOW | 92.80 |
-| 3 | AI Safety, Assurance & Governance | AI Governance Analyst, Responsible AI Specialist | AI Safety Officer, Head of Algorithmic Assurance | LOW | 92.80 |
-| 4 | Enterprise ML Solutions & Applied Data Science | Machine Learning Engineer, Applied AI Scientist | Staff ML Engineer, VP Applied AI | LOW–MODERATE | 92.80 |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| AI Systems & Foundation Model Engineering | AI Engineer, Foundation Model Specialist; later Principal AI Architect, Head of AI Engineering | LOW | Multimodal architecture, fine-tuning, latency optimisation, distributed inference |
+| Autonomous Systems & Decision Intelligence | Autonomous Systems Engineer, Planning Algorithms Specialist; later Lead Robotics/Autonomy Engineer, Principal Decision Scientist | LOW | Sequential decision-making, reinforcement learning, multi-agent coordination |
+| AI Safety, Assurance & Governance | AI Governance Analyst, Responsible AI Specialist; later AI Safety Officer, Head of Algorithmic Assurance | LOW | Adversarial robustness, algorithmic bias mitigation, EU AI Act / AU guardrail compliance |
+| Enterprise ML Solutions & Applied Data Science | Machine Learning Engineer, Applied AI Scientist; later Staff ML Engineer, VP Applied AI | LOW–MODERATE | MLOps pipelines, model deployment, API integration, business problem translation |
 
 Signals and skill shifts mapped to scored Panel C and Workplace items:
 
-| Signal / Shift | Direction | Evidence | Bearing |
-|---|---|---|---|
-| Foundation model adaptation & multimodal inference | Rising | IEEE Computer Society guidelines and ACM TIIS studies (2025) on cross-modal attention and real-time deployment | C3, C4, W2 |
-| AI assurance, adversarial robustness & compliance | Rising | CSIRO / NAIC frameworks (Nov 2024) on ethical governance, bias detection, and EU AI Act / AU guardrails | C2, C3, G1 |
-| Autonomous planning & multi-agent systems | Rising | ACS industry standards (2025) emphasizing sequential decision-making and multi-agent coordination | C1, C5, W1 |
-| Production MLOps & cloud deployment telemetry | Rising | Enterprise employer demand across Atlassian, Canva, NAB, CSIRO for scalable API pipelines | W2, G2 |
-| Routine scripted feature engineering & manual tuning | Declining | Automated ML pipelines and foundation models replacing manual heuristics | C3, C4 |
+| Signal or shift | Direction | Bearing on the scored items |
+| --- | --- | --- |
+| Foundation model adaptation & multimodal inference — IEEE Computer Society guidelines and ACM TIIS studies (2025) on cross-modal attention and real-time deployment | Rising | C3, C4, W2 |
+| AI assurance, adversarial robustness & compliance — CSIRO / NAIC frameworks (Nov 2024) on ethical governance, bias detection, and EU AI Act / AU guardrails | Rising | C2, C3, G1 |
+| Autonomous planning & multi-agent systems — ACS industry standards (2025) emphasizing sequential decision-making and multi-agent coordination | Rising | C1, C5, W1 |
+| Production MLOps & cloud deployment telemetry — Enterprise employer demand across Atlassian, Canva, NAB, CSIRO for scalable API pipelines | Rising | W2, G2 |
+| Routine scripted feature engineering & manual tuning — Automated ML pipelines and foundation models replacing manual heuristics | Declining | C3, C4 |
 
 **Confidence:** High for technical literature (IEEE, ACM) and national standards (ACS, CSIRO NAIC); Medium for graduate destination tracking (online cohort mapped via Master of Computer Science cognate record).
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-aimo.md); rows

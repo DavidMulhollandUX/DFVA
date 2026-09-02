@@ -98,7 +98,7 @@ Reports from [PLA](https://www.parksleisure.com.au/) highlight that urban greeni
 
 ## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
 
-**Where graduates of this field actually work** — not available for this program. The JSA HEO destination cut for Agriculture & Environment (field of education broad 05, where urban horticulture sits) has not been extracted into this repository, so no destination table is published here rather than one borrowed from another field. The QILT outcomes below are field-level and are sourced.
+**Where graduates of this field actually work** — not available for this program. The Jobs and Skills Australia Higher Education Outcomes (JSA HEO) destination cut for Agriculture & Environment (field of education broad 05, where urban horticulture sits) has not been extracted into this repository, so no destination table is published here rather than one borrowed from another field. The QILT outcomes below are field-level and are sourced.
 
 **Graduate outcomes** (QILT GOS 2024, postgraduate): 80% full-time employment · median salary $94,000 · 3-year employment 94% · JSA occupation demand: **Shortage**.
 

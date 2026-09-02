@@ -23,7 +23,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 97.99.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Bachelor of Commerce (Actuarial Studies) (n = 101, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 97.99.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Bachelor of Commerce (Actuarial Studies) (n = 101, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 5 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -192,7 +192,7 @@ The exposure figure in §1 stands on the Bachelor of Commerce (Actuarial Studies
 
 **Signals and skill shifts.**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Traditional "Actuarial Analyst"/"Pricing Analyst" ad volume down ~12% YoY (Q1 2026, Seek) | Declining | W2, C4 |
 | "Data Scientist — Insurance" and "AI Specialist — Insurance" postings up 28% YoY | Rising | C3, C4, C5 |
@@ -207,7 +207,7 @@ The exposure figure in §1 stands on the Bachelor of Commerce (Actuarial Studies
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-actsc.md); rows
@@ -226,7 +226,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **cognate** (cognate program), n = 101, 15 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc).
+**Panel A metadata.** Basis tier **cognate** (cognate program), n = 101, 15 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Actuarial discipline; the only actuarial alumni record (the alumni-record index names it for mc-actsc).
 
 **Panel C provenance.** Scored from the 2026 handbook capture (29 pages) and verified on 2026-08-23: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

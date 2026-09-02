@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Banking and Finance Law (526AA) is a 100-point postgraduate specialist law degree offered by Melbourne Law School for lawyers, financial regulatory specialists, and investment banking counsel. The program fails Gate G1 due to the absence of an all-compulsory specialist core, accredited sequence, or staged prerequisite chain (87.5 of 100 credit points are drawn from elective prescribed lists with zero compulsory specialist units for common-law entrants), while Gate G2 passes on take-home examinations, case analyses, and contested banking dispute evaluations under conditions of regulatory and market uncertainty.

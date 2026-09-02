@@ -60,8 +60,7 @@ Standards from the [IBO](https://www.ibo.org/) confirm that an independent, self
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Managebac and digital IBO platform proficiency | **↑↑ Rising sharply** | Signal 3 (§2) reports Managebac required or preferred in 60%+ of ANZ IB Coordinator job ads; C3 scores 1/3 — ICT appears only as generic participation-tool content, with no core unit addressing AI or digital-platform capability specifically. |
@@ -96,7 +95,7 @@ Standards from the [IBO](https://www.ibo.org/) confirm that an independent, self
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS & DEMAND (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · QILT · Adzuna)
 
 **Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 070101 Teacher Education):
 

@@ -12,7 +12,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 MC-ENVLAW scores 1 on all eight items — 5/15 adaptive, 3/9 workplace — and fails G1. That uniformity is the diagnosis, not a coincidence. **The course structure specifies no compulsory core unit taken by every student.** Every level-2 and level-3 anchor in this instrument requires evidence in a *core* unit, so a program without a core cannot reach level 2 on anything, however good its individual subjects are. The scores measure a structural fact about the course rules, not the quality of the teaching inside them.

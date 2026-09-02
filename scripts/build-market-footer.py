@@ -65,7 +65,7 @@ def build_block(code):
     cov = fd.get('entryCoverage')
     lines = [
         START,
-        '## REAL GRADUATE DESTINATIONS (JSA HEO)',
+        '## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)',
         '',
         f'**Where graduates of this field actually work** — '
         f'[JSA Higher Education Outcomes]({SOURCE_URL}) '
@@ -111,8 +111,12 @@ def apply(code, block):
     p = report_path(code)
     src = p.read_text()
     if START not in src or END not in src:
-        print(f'{code}: no LABOUR-EVIDENCE block — skipped')
-        return False
+        # A scored coursework program's market report must carry the block
+        # (check-report-format.ts requires it), so append one at the foot.
+        new = src.rstrip('\n') + '\n\n' + block + '\n'
+        p.write_text(new)
+        print(f'{code}: no LABOUR-EVIDENCE block — appended')
+        return True
     new = re.sub(re.escape(START) + r'.*?' + re.escape(END), lambda _: block, src, flags=re.S)
     if new == src:
         print(f'{code}: unchanged')

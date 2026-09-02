@@ -3,6 +3,7 @@
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-22
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/195aa (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 35 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -17,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 95.64.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 2 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 88, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 95.64.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 2 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 88, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -120,20 +121,20 @@ The market intelligence gathered for this program indicates strong, highly speci
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Construction Disputes, Arbitration & Litigation | Construction Lawyer / Associate | Special Counsel, Partner (Construction Litigation), Construction Barrister | MEDIUM | Complex delay/disruption causality modeling, witness examination under scrutiny, statutory adjudication advocacy |
-| 2 | Front-End Infrastructure Procurement & Contracting | Project Legal Counsel, Procurement Solicitor | Senior Legal Counsel (Major Projects), General Counsel (Tier 1 Contractor) | HIGH | Multi-party risk allocation drafting, AI contract clause verification, collaborative contracting models (alliancing/NEC4) |
-| 3 | Commercial Claims, Quantum & Delay Advisory | Delay Claims Analyst, Quantum Consultant | Director (Construction Claims & Expert Witness), Commercial Arbitrator | MEDIUM | Time-impact delay analysis, forensic accounting integration, expert witness cross-examination defence |
-| 4 | In-House Construction & Engineering Risk Management | Commercial Manager, Contract Administrator | Head of Commercial & Risk, Commercial Director (Infrastructure) | HIGH | Security of Payment statutory compliance, automated variation tracking audit, dispute avoidance board management |
-| 5 | Government Infrastructure Advisory & Regulation | Senior Policy Officer (Major Transport), Statutory Counsel | Executive Director (Infrastructure Delivery), Adjudication Registrar | MEDIUM | Procurement reform policy, decarbonisation contracting frameworks, statutory building safety enforcement |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Construction Disputes, Arbitration & Litigation | Construction Lawyer / Associate; later Special Counsel, Partner (Construction Litigation), Construction Barrister | MEDIUM | Complex delay/disruption causality modeling, witness examination under scrutiny, statutory adjudication advocacy |
+| Front-End Infrastructure Procurement & Contracting | Project Legal Counsel, Procurement Solicitor; later Senior Legal Counsel (Major Projects), General Counsel (Tier 1 Contractor) | HIGH | Multi-party risk allocation drafting, AI contract clause verification, collaborative contracting models (alliancing/NEC4) |
+| Commercial Claims, Quantum & Delay Advisory | Delay Claims Analyst, Quantum Consultant; later Director (Construction Claims & Expert Witness), Commercial Arbitrator | MEDIUM | Time-impact delay analysis, forensic accounting integration, expert witness cross-examination defence |
+| In-House Construction & Engineering Risk Management | Commercial Manager, Contract Administrator; later Head of Commercial & Risk, Commercial Director (Infrastructure) | HIGH | Security of Payment statutory compliance, automated variation tracking audit, dispute avoidance board management |
+| Government Infrastructure Advisory & Regulation | Senior Policy Officer (Major Transport), Statutory Counsel; later Executive Director (Infrastructure Delivery), Adjudication Registrar | MEDIUM | Procurement reform policy, decarbonisation contracting frameworks, statutory building safety enforcement |
 
 **Exposure basis declaration.** Destination AI exposure is **95.64** (exact basis derived from Master of Construction Law graduate destinations), sitting **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Collaborative contracting (Alliancing, ECI, NEC4) vs fixed-price risk transfer | Sustained High | Australian Constructors Association and public infrastructure authorities mandate collaborative contracting frameworks to mitigate supply-chain insolvencies. — C1, W1, G2 |
 | AI disruption in automated contract review and schedule analytics | Rising / Volatile | Adoption of platforms like Kira and Robin AI accelerates contract diligence, shifting demand toward lawyers who can audit algorithmic risk allocations and critical path concurrency. — C2, C3, W2 |
 | Statutory adjudication velocity under Security of Payment regimes | Sustained High | Tight statutory timeframes require practitioners to produce legally and technically robust submissions under extreme time pressure. — C4, W2, G2 |
@@ -145,7 +146,7 @@ The market intelligence gathered for this program indicates strong, highly speci
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-195aa.md); rows
@@ -164,7 +165,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 88, 15 destination titles, 2 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 88, 15 destination titles, 2 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-22: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

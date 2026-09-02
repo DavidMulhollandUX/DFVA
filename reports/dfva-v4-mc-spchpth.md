@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 89.56.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 2 of 14 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 98, 14 titles). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 89.56.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 2 of 14 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 98, 14 titles). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -123,16 +123,16 @@ The market context is condensed from [`reports/dfva-market-mc-spchpth.md`](dfva-
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Paediatric Speech & Language Pathology | Paediatric Speech Pathologist, Early Intervention Clinician | Senior Paediatric Specialist, Clinical Lead — Child Development | 91.37 | LOW | High-engagement play-based diagnostics, neurodiversity-affirming language intervention, caregiver coaching |
-| Adult Neurogenic & Acute Hospital Care | Hospital Speech Pathologist, Stroke Rehabilitation Clinician | Senior Neurogenic Specialist, Clinical Lead — Acute Care | 89.56 | LOW | High-acuity videofluoroscopy/FEES swallowing appraisal, aphasia rehabilitation, tracheostomy management |
-| Swallowing & Dysphagia Management | Dysphagia Clinician, Aged Care Speech Pathologist | Senior Dysphagia Specialist, Head of Clinical Nutrition & Swallowing | 87.20 | LOW | Instrumental dysphagia assessment interpretation, aspiration risk mitigation, multidisciplinary care coordination |
-| Voice, Fluency & Complex Communication / AAC | Voice & Fluency Clinician, AAC Consultant | Senior Voice Specialist, Assistive Technology Lead | 89.56 | LOW TO MEDIUM | Complex AAC system integration, automated acoustic voice biomarker auditing, psychogenic voice intervention |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Paediatric Speech & Language Pathology | Paediatric Speech Pathologist, Early Intervention Clinician; later Senior Paediatric Specialist, Clinical Lead — Child Development | LOW (exposure 91.37) | High-engagement play-based diagnostics, neurodiversity-affirming language intervention, caregiver coaching |
+| Adult Neurogenic & Acute Hospital Care | Hospital Speech Pathologist, Stroke Rehabilitation Clinician; later Senior Neurogenic Specialist, Clinical Lead — Acute Care | LOW (exposure 89.56) | High-acuity videofluoroscopy/FEES swallowing appraisal, aphasia rehabilitation, tracheostomy management |
+| Swallowing & Dysphagia Management | Dysphagia Clinician, Aged Care Speech Pathologist; later Senior Dysphagia Specialist, Head of Clinical Nutrition & Swallowing | LOW (exposure 87.20) | Instrumental dysphagia assessment interpretation, aspiration risk mitigation, multidisciplinary care coordination |
+| Voice, Fluency & Complex Communication / AAC | Voice & Fluency Clinician, AAC Consultant; later Senior Voice Specialist, Assistive Technology Lead | LOW TO MEDIUM (exposure 89.56) | Complex AAC system integration, automated acoustic voice biomarker auditing, psychogenic voice intervention |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Automatic speech recognition auditing, acoustic biomarker validation, and dialectal bias critique | Rising | C2, C3 |
 | Human-AI collaborative clinical documentation and confidential transcription governance | Rising | C1, W1, G1 |
@@ -144,7 +144,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-spchpth.md); rows
@@ -160,7 +160,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 98, 14 destination titles, 2 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 98, 14 destination titles, 2 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-25: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

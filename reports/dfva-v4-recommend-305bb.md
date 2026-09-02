@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Clinical Audiology represents a benchmark clinical training degree with exemplary workplace integration. Both gates pass cleanly: G1 passes across an all-compulsory 200-credit-point accredited clinical sequence built to Audiology Australia registration standards; G2 passes on defended diagnostic trade-offs and live clinical decision-making under uncertainty in simulated patient exams and hurdled research defences. Workplace practice achieves the maximum possible score (**9 / 9 on Workplace**: W1: 3/3, W2: 3/3, W3: 3/3), driven by longitudinal OSCE spines, clinical simulation patient examinations, 85%-hurdled clinical placements commencing in Year 1, and reflective E-portfolios.

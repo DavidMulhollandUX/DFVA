@@ -123,8 +123,7 @@ quantifies how many showrunner roles go unfilled.
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Narrative design and interactive story tools (Ink, Twine, Articy Draft 3) | **↑↑ Rising sharply** | Signal 1 (§2) reports "Narrative Designer" and "Game Writer" listings growing 18–22% year-on-year while traditional screenwriter listings stay flat, and CI-2 (§5) flags this as "the fastest-growing employer segment for screenwriting graduates in ANZ" that the curriculum does not yet address. |
@@ -193,7 +192,7 @@ quantifies how many showrunner roles go unfilled.
 
 **Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
 
-*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+*Sources: Jobs and Skills Australia Higher Education Outcomes (JSA HEO) Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 `,
 };
 

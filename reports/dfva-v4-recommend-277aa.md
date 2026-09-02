@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Intellectual Property Law provides exceptional specialist legal grounding accredited by the Trans-Tasman IP Attorneys Board (TTIPAB). G1 passes on a comprehensive specialist curriculum covering all TTIPAB Topic Groups (Patents, Trade Marks, Designs, and Drafting), and G2 passes on extensive authentic dispute advocacy and patent claim drafting under real-world ambiguity and prior-art constraints.

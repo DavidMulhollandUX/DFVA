@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Professional Psychology is a 100-point APAC-accredited postgraduate professional degree structured around the 5+1 provisional psychologist registration pathway governed by the Psychology Board of Australia (PsyBA / AHPRA). Both gates pass unconditionally: G1 passes on an all-compulsory specialist core taken in a mandated sequence with staged progression hurdles and APAC professional accreditation; G2 passes on defended trade-off decisions under genuine clinical uncertainty, evaluated across clinical case formulations, suicide risk assessment rationales referencing empirical literature, and real patient case-work management.

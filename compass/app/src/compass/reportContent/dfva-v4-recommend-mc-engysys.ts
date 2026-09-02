@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Energy Systems demonstrates strong interdisciplinary and technical foundation with Adaptiveness **8 / 15** and Workplace practice **5 / 9**, passing Gate G1 (compulsory 100-point core spanning thermodynamics, electrical power systems, energy economics, and low-carbon futures) and Gate G2 (complex trade-off decisions under technological and energy market uncertainty). However, against high destination automation exposure (**91.16** on routine financial spreadsheet modeling and basic energy calculations), significant curriculum headroom exists in digital AI literacy and algorithmic dispatch governance (C3: 1/3), guaranteed student-designed primary empirical inquiry (C5: 1/3, currently GPA-restricted in an elective capstone), and core credit-bearing work placements (W3: 1/3).

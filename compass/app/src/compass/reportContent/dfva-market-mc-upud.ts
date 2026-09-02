@@ -59,8 +59,7 @@ Both are single-author opinion pieces — the first by a former program intern r
 
 **Bearing:** C2 and W2.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 | --- | --- | --- |
 | Human review and override judgment on automated permit/zoning screening decisions | **↑↑ Rising sharply** | Theme 2 (§3) reports US cities deploying AI permit-completeness screening, but a Denver council member is quoted objecting that it cannot handle complex zoning judgment; W1 currently produces assessments from scratch rather than reviewing an automated one. |
@@ -86,7 +85,7 @@ Both are single-author opinion pieces — the first by a former program intern r
 | Recent job-ad signals (§2) | NONE / LOW | No Adzuna data was collected for this profession — no real job-ad pull exists for this profession key |
 | Current discussion signals (§3) | MEDIUM | Matches the profession record's own stated confidence ("medium"); rests on named trade press with dates, not on an independent survey, platform sampling, or Factiva (unavailable — no interactive OpenAthens session this run) |
 | Skill shift summary (§4) | LOW–MEDIUM | Inferred from the same trade-press sources as §3; no quantitative measurement of skill-demand change |
-| Curriculum implications (§5) | Inferred, not measured | Interpretation against the program's Panel C v4.2 evidence, not a new empirical claim |
+| Curriculum implications (§5) | Inferred, not measured | Interpretation against the program's curriculum evidence (durability report, v4.2), not a new empirical claim |
 
 ### Critical evidence gaps to close before institutional use:
 
@@ -102,7 +101,7 @@ Both are single-author opinion pieces — the first by a former program intern r
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-upud
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes (JSA HEO))
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **040103 Urban Design and Regional Planning** (n = 4,780 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 58.2% of them, and the 5 largest are shown at each stage.
 

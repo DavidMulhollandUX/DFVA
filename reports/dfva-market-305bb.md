@@ -93,7 +93,7 @@ Discourse across [AudA](https://audiology.asn.au/) and academic research centres
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes (JSA HEO))
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **061709 Audiology** (n = 660 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 84.8% of them, and the 5 largest are shown at each stage.
 

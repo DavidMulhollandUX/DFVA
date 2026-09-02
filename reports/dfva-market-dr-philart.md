@@ -57,7 +57,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI-output verification and fact-checking | **↑↑ Rising sharply** | Signal 6 (§2) reports think tanks and NGOs "screening out AI-generated writing samples in application processes," and CI-4 (§5) names this the degree's underleveraged "verification layer" strength that current bridge roles do not yet convert into an explicit pathway. |
@@ -92,7 +92,7 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 | Specific salary bands | LOW | Structural estimates, not sourced from QILT/JSA/Adzuna for this specific program |
 | AI substitution pressure on junior editorial/RA roles | MEDIUM | Consistent with broader publishing/media-sector AI adoption trends; not DR-PHILART-specific job-ad data |
 | Cultural-sector digital skill uplift | LOW-MEDIUM | Directionally plausible from general sector observation, not a scraped dataset |
-| Graduate destination data for this program | NONE | No QILT, JSA HEO, or Adzuna data currently integrated for this assessment |
+| Graduate destination data for this program | NONE | No QILT, Jobs and Skills Australia Higher Education Outcomes (JSA HEO), or Adzuna data currently integrated for this assessment |
 
 **Critical evidence gaps to close before institutional use:**
 1. No QILT Graduate Outcomes Survey data, JSA Higher Education Outcomes data, or Adzuna live vacancy data has been integrated for DR-PHILART specifically — this report should be treated as structural/directional only until that data is appended (see the `<!-- LABOUR-EVIDENCE:START -->` block pattern used in other DFVA reports, e.g. `reports/dfva-439fs.md`).

@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Computer Science (MC-CS) is a 200-point postgraduate research training degree offered by the School of Computing and Information Systems (CIS) within the Faculty of Engineering and Information Technology (FEIT). Both gates pass unconditionally: Gate G1 on a staged specialist progression structure featuring a 100-credit-point compulsory four-part research project sequenced after COMP90044 Research Methods, and Gate G2 on unscripted empirical research design, critical evaluation of research findings, and live project execution.

@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Education is an advanced professional coursework degree preparing leading teachers, curriculum designers, education policy analysts, and school executive leaders across Victorian and national education sectors (Victorian DET, Catholic Education Melbourne, independent schools, higher education institutions). Both gates pass: G1 passes on a staged prerequisite chain with an all-compulsory 50-point First 50-point core gating entry into Foundations, followed by 10 dedicated 50-point specialisations and a required Capstone or Research pathway; G2 passes on iterative problem definition of ill-defined educational challenges, defended trade-off strategies, and research inquiry under real complexity.

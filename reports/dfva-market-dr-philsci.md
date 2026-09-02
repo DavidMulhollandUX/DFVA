@@ -60,7 +60,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Domain-grounded ML model validation and interpretability | **↑↑ Rising sharply** | Job Family Map (§1) rates data-science/quantitative-analyst roles HIGH substitution pressure precisely because "routine modelling work is increasingly AI-assisted," shifting value to validation and interpretability; Signal 5 (§2) confirms employers now "request ability to critically evaluate AI-generated modelling outputs." |

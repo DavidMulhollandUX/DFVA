@@ -16,9 +16,9 @@ program, not a gap in the evidence: capturing more handbook pages would not prod
 score.
 
 **Panel A has no destination basis.** Panel A exposure is computed from where a program's
-graduates actually go, crosswalked to the published Felten AIOE index. The Panel A resolver
+graduates actually go, crosswalked to the published Felten AI Occupational Exposure (AIOE) index. The Panel A resolver
 returns no basis for this program at any tier — no own alumni record, no variant, no pooled
-or combined cohort, no curated cognate or partial borrow, and no JSA HEO field list. Unlike
+or combined cohort, no curated cognate or partial borrow, and no Jobs and Skills Australia Higher Education Outcomes (JSA HEO) field list. Unlike
 the Panel C exclusion this one is an evidence gap rather than a category error, and it could
 in principle be closed by data. It has not been, so no exposure figure is published here.
 

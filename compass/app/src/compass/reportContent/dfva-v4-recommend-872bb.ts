@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Veterinary Science (Clinical) (872BB) is a postgraduate clinical specialist research degree offered by the Faculty of Science for qualified veterinarians seeking advanced clinical training and ANZCVS specialist board eligibility. Both gates pass unconditionally: Gate G1 on a mutually tied, all-compulsory specialist core (30,000-word empirical research thesis plus clinical practicum in the Veterinary Hospital), and Gate G2 on live clinical case investigations and unscripted experimental research defended under external examination.

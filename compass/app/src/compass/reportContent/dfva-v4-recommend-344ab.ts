@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Public Policy and Management prepares public servants, policy analysts, and public managers for leadership across government departments, statutory authorities, and public sector advisory consultancies. G2 passes on defended trade-offs in policy dilemma strategy papers and scenario analyses. However, G1 fails on evidence because the compulsory core comprises only 37.5 of 200 points (19%) with no formal prerequisite sequencing or accreditation documented, surrounded by extensive elective options.

@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Advanced Social Enterprise / Senior Executive MBA is a 225-point postgraduate executive program designed for senior leaders with extensive management experience leading cross-sector enterprises, social ventures, and corporate sustainability initiatives aligned with Social Ventures Australia (SVA) and Centre for Social Impact (CSI) quality frameworks. Both gates pass unconditionally: G1 passes on an all-compulsory specialist core of ten subjects staged from decision foundations through uncertainty modules to an integrated consolidation subject, reinforced by the Leading with Influence and Senior Executive Project strands; G2 passes on high-stakes leadership under uncertainty, competitive tender strategy design, and live action-learning consulting projects requiring defended trade-off decisions under real organisational constraints.

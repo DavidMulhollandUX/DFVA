@@ -61,10 +61,9 @@ Accreditation reviews from the [HGSA Board of Censors](https://www.hgsa.org.au/g
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 Note: §3 for this program is a salary/demand-trend table rather than sourced discussion
-themes, so rows below ground in §1/§2 signals and the companion Panel C v4.2 evidence instead.
+themes, so rows below ground in §1/§2 signals and the companion durability report's curriculum evidence (v4.2) instead.
 
 | Skill | Direction | Rationale |
 |---|---|---|
@@ -96,7 +95,7 @@ themes, so rows below ground in §1/§2 signals and the companion Panel C v4.2 e
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS & DEMAND (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · QILT · Adzuna)
 
 **Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 010999 Biological Sciences nec / Medical Genetics):
 

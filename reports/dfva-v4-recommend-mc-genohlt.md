@@ -2,7 +2,7 @@
 
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-09-01 · **Derived from:** the verified panelCv4 scoring + reports/dfva-market-mc-genohlt.md
-**Position basis:** Destination AI Exposure 87.67 (field-of-education basis, JSA HEO 010909 Genetics, 20% graduate coverage) × Curriculum Adaptiveness 7/15 (v4.2 draft, sub-scale A) · Workplace practice 7/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite, no position label until the v4 migration cycle
+**Position basis:** Destination AI Exposure 87.67 (field-of-education basis, Jobs and Skills Australia Higher Education Outcomes (JSA HEO) 010909 Genetics, 20% graduate coverage) × Curriculum Adaptiveness 7/15 (v4.2 draft, sub-scale A) · Workplace practice 7/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite, no position label until the v4 migration cycle
 
 > Citation marks in the Sources columns refer to the numbered list in
 > [References](#references); full citations are given there and not repeated in
@@ -20,7 +20,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 Both gates pass, and the adaptive sub-scale is closer to its floor than its
@@ -41,7 +41,7 @@ handbook evidence.
 
 | Item | Sub-scale | Score | Levels below maximum | Market evidence for the gap | Priority |
 |---|---|---|---|---|---|
-| C3 Digital & AI literacy, incl. governance | Adaptive | 1 / 3 | 2 | Direct — CI-1: professional-body sources frame AI governance and limitation-awareness as now expected in genetic-counselling training; Theme 3 (NSGC governance-gap warning); Theme 4 (top-quintile AIOE exposure in exactly the risk-assessment tasks the program teaches) | 1 |
+| C3 Digital & AI literacy, incl. governance | Adaptive | 1 / 3 | 2 | Direct — CI-1: professional-body sources frame AI governance and limitation-awareness as now expected in genetic-counselling training; Theme 3 (NSGC governance-gap warning); Theme 4 (top-quintile AI Occupational Exposure (AIOE) exposure in exactly the risk-assessment tasks the program teaches) | 1 |
 | C5 Inquiry & evidence generation | Adaptive | 1 / 3 | 2 | Direct — CI-5: HGSA's widened scope of practice formally names research as a recognised area, and the compulsory-evidence ceiling is set by an optional stream | 2 |
 | C4 Life-long learning & transfer | Adaptive | 1 / 3 | 2 | Direct — CI-3: HGSA's widened scope (industry, policy, education, research) implies graduates need assessed transfer to non-clinical contexts, which C4 does not currently assess | 3 |
 | W1 Professional communication & conduct | Workplace | 2 / 3 | 1 | Direct — CI-4: HGSA names education as a recognised practice area, and the existing HLTH90012 interview panel is Program staff, not a confirmed external audience | 4 |

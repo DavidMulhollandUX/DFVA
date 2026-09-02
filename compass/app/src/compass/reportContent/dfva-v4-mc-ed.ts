@@ -18,7 +18,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 92.44.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 611). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 92.44.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 611). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 10 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -155,20 +155,20 @@ The market intelligence gathered for this program indicates strong, ongoing recr
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | School Leadership & Instructional Coaching | Leading Teacher, Curriculum Coordinator | Assistant Principal, Principal, Head of School | LOW | Distributed leadership, data-informed school improvement, teacher mentoring |
-| 2 | Curriculum Design & Digital Learning | Instructional Designer, Learning Designer | Senior Learning Designer, Head of Digital Learning | MEDIUM | Universal Design for Learning (UDL), LMS course authoring, generative AI pedagogical integration |
-| 3 | Education Policy & System Evaluation | Education Policy Officer, Project Officer | Senior Policy Analyst, Evaluation Manager (DET / ACARA / AITSL) | LOW–MEDIUM | Mixed-methods program evaluation, logic modelling, regulatory compliance |
-| 4 | Corporate Learning & Development | L&D Specialist, Training Coordinator | Head of Organisational Development, Capability Lead | MEDIUM | Competency frameworks, workforce upskilling analytics, microcredential architecture |
-| 5 | Educational Research & Higher Education | Research Assistant, Sessional Academic | Research Fellow, Lecturer in Education | LOW | Systematic review methodologies, qualitative NVivo coding, grant writing |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| School Leadership & Instructional Coaching | Leading Teacher, Curriculum Coordinator; later Assistant Principal, Principal, Head of School | LOW | Distributed leadership, data-informed school improvement, teacher mentoring |
+| Curriculum Design & Digital Learning | Instructional Designer, Learning Designer; later Senior Learning Designer, Head of Digital Learning | MEDIUM | Universal Design for Learning (UDL), LMS course authoring, generative AI pedagogical integration |
+| Education Policy & System Evaluation | Education Policy Officer, Project Officer; later Senior Policy Analyst, Evaluation Manager (DET / ACARA / AITSL) | LOW–MEDIUM | Mixed-methods program evaluation, logic modelling, regulatory compliance |
+| Corporate Learning & Development | L&D Specialist, Training Coordinator; later Head of Organisational Development, Capability Lead | MEDIUM | Competency frameworks, workforce upskilling analytics, microcredential architecture |
+| Educational Research & Higher Education | Research Assistant, Sessional Academic; later Research Fellow, Lecturer in Education | LOW | Systematic review methodologies, qualitative NVivo coding, grant writing |
 
 **Exposure basis declaration.** Destination AI exposure is **89.51** (exact basis derived from Education and Teaching graduate destinations), sitting **near** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Demand for data-literate school leaders and instructional coaches | Sustained High | School systems seek leading teachers capable of interpreting student data to drive curriculum improvement. — C4, G1 |
 | Surge in Instructional Designer roles across HE and corporate sectors | Rising | Employers require learning designers proficient in LMS authoring and authentic assessment design. — W2, G2 |
 | School leadership succession gap across Australian states | Sustained High | AITSL data shows impending principal retirements driving demand for Master-qualified leaders. — C4, W1 |
@@ -180,7 +180,7 @@ The market intelligence gathered for this program indicates strong, ongoing recr
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-ed.md); rows
@@ -199,7 +199,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 611. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 611. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (42 pages) and verified on 2026-08-14: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

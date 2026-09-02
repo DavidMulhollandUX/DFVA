@@ -110,6 +110,11 @@ Two tables and a confidence paragraph.
 **Table 1 — destination job families.**
 `| Job family | Entry titles | AI substitution pressure | Skills rising in that family |`
 
+Both headers are byte-exact and `dfva:report-lint` requires each exactly once in §4 (since
+2026-09-02). Other tables may sit alongside them. Growth-stage titles go in the `Entry titles`
+cell after a semicolon ("Graduate Engineer; later Senior Engineer"). No cell may be empty or `—`:
+write "not stated in the market report" when the source has nothing.
+
 Three or so families, drawn from the market report's destinations and the LABOUR-EVIDENCE
 footer. Substitution pressure is a *reported* judgement with its reason stated, not a score.
 
@@ -128,9 +133,9 @@ medium mapping confidence"), and say whether the program sits above or below the
 median — field-basis values are compared against the field median, not the portfolio median.
 
 **Table 2 — signals and skill shifts.**
-`| Signal or shift | Direction | Bears on |`
+`| Signal or shift | Direction | Bearing on the scored items |`
 
-`Bears on` maps each row to scored items (C1–C5, W1–W3). This is the join between market
+`Bearing on the scored items` maps each row to scored items (C1–C5, W1–W3). This is the join between market
 evidence and the instrument, and it is what makes §5 arguable.
 
 **Confidence, restated from the market report.** Restate the source's own confidence and its

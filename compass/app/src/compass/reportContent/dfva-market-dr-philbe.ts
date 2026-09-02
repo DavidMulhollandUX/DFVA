@@ -61,7 +61,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI governance and model-risk oversight capability | **↑↑ Rising sharply** | Signal 3 (§2) reports academic hiring contraction pushing graduates toward industry, where Signal 5's (§2) hybrid "AI research scientist" roles and CI-1's (§5) gap analysis both show model-risk oversight demand outpacing the program's structured coverage. |

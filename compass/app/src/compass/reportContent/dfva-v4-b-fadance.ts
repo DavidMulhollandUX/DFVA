@@ -28,7 +28,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 68.44.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 2 of 5 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 100105 Dance; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
+**Destination AI Exposure: 68.44.** Destination titles are crosswalked to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 2 of 5 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 100105 Dance; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -125,31 +125,31 @@ combined total: the sub-scores are reported side by side and never added.
 
 Destination job families and exposure values for Bachelor of Fine Arts (Dance) (B-FADANCE), condensed from [the market intelligence report](dfva-market-b-fadance.md):
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | AI Exposure |
-|---|---|---|---|---|---|
-| 1 | Contemporary Performance & Choreographic Practice | Company / Ensemble Dancer, Freelance Performer | Choreographer, Rehearsal Director | VERY LOW | 68.44 |
-| 2 | Dance Education & Community Facilitation | Private-Tuition Dance Teacher, Studio Instructor | Secondary School Dance/Drama Teacher, Community Arts Program Coordinator | VERY LOW | 68.44 |
-| 3 | Digital & Mixed-Reality Performance | Motion-Capture Performer, Digital/XR Dance Artist | Virtual-Production Movement Director, Immersive-Experience Choreographer | MEDIUM | 68.44 |
-| 4 | Arts Production, Administration & Allied Creative Work | Production Assistant, Front-of-House / Box Office, casual retail or hospitality alongside freelance practice | Company Manager, Creative Producer | LOW–MEDIUM | 68.44 |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Contemporary Performance & Choreographic Practice | Company / Ensemble Dancer, Freelance Performer; later Choreographer, Rehearsal Director | VERY LOW | Embodied technique, ensemble collaboration, defended creative decision-making |
+| Dance Education & Community Facilitation | Private-Tuition Dance Teacher, Studio Instructor; later Secondary School Dance/Drama Teacher, Community Arts Program Coordinator | VERY LOW | Pedagogical sequencing, community co-design, workshop facilitation |
+| Digital & Mixed-Reality Performance | Motion-Capture Performer, Digital/XR Dance Artist; later Virtual-Production Movement Director, Immersive-Experience Choreographer | MEDIUM | Motion-capture literacy, real-time engine collaboration, AI-tool evaluative judgement |
+| Arts Production, Administration & Allied Creative Work | Production Assistant, Front-of-House / Box Office, casual retail or hospitality alongside freelance practice; later Company Manager, Creative Producer | LOW–MEDIUM | Event and production coordination, portfolio and grant-writing, digital audience engagement |
 
 Job family 4 reflects the field's own destination data directly: after private-tuition teaching and performing, the largest recorded shares of Dance (100105) graduates work in Sales Assistant and Waiter roles rather than dance-specific occupations — a portfolio/freelance-practice career pattern, not a gap in the field map.
 
 Signals and skill shifts mapped to scored Panel C and Workplace items:
 
-| Signal / Shift | Direction | Evidence | Bearing |
-|---|---|---|---|
-| Consent and AI-training governance for a dancer's own recorded image and movement data | Rising sharply | Dance Industry Code of Practice 2025–26 (MEAA / Dancers Australia, 8 July 2025) first-time national ban on non-consensual AI training use and "digital doubles" | C3, W1 |
-| Motion-capture and real-time-engine collaboration literacy | Rising | AU visual effects market US$227.7M (2025) → US$395.8M (2034) forecast; SAG-AFTRA's 2025 Interactive Media Video Game Agreement bargained digital-replica consent terms for motion-capture performers | C3, W3 |
-| Evaluative judgement of AI-generated or AI-extended choreographic material | Rising | Wayne McGregor's AISOMA tool (Google Arts & Culture Lab) moved from internal studio use (2019) to public release (Oct 2025) | C2, C4 |
-| Structured critique and self/peer evaluative practice in group creative process | Stable, differentiating | b-fadance's own C2 evidence: peer/self-assessment recurs in the core (DNCE20037, DNCE30027) but AI-output judgement specifically is not yet assessed | C1, C2 |
-| Formal inquiry and research-methodology skills applied to studio practice | Stable, differentiating | b-fadance's own C5 evidence: no research-methods training or inquiry-based assessment in the compulsory core | C5 |
-| Embodied, live, in-person performance and teaching practice | Falling substitution pressure | Field exposure 68.44, below the field median (83.21); sector commentary (Dance Informa Magazine, Feb 2026) argues embodied delivery resists AI substitution | G1, G2 |
+| Signal or shift | Direction | Bearing on the scored items |
+| --- | --- | --- |
+| Consent and AI-training governance for a dancer's own recorded image and movement data — Dance Industry Code of Practice 2025–26 (MEAA / Dancers Australia, 8 July 2025) first-time national ban on non-consensual AI training use and "digital doubles" | Rising sharply | C3, W1 |
+| Motion-capture and real-time-engine collaboration literacy — AU visual effects market US$227.7M (2025) → US$395.8M (2034) forecast; SAG-AFTRA's 2025 Interactive Media Video Game Agreement bargained digital-replica consent terms for motion-capture performers | Rising | C3, W3 |
+| Evaluative judgement of AI-generated or AI-extended choreographic material — Wayne McGregor's AISOMA tool (Google Arts & Culture Lab) moved from internal studio use (2019) to public release (Oct 2025) | Rising | C2, C4 |
+| Structured critique and self/peer evaluative practice in group creative process — b-fadance's own C2 evidence: peer/self-assessment recurs in the core (DNCE20037, DNCE30027) but AI-output judgement specifically is not yet assessed | Stable, differentiating | C1, C2 |
+| Formal inquiry and research-methodology skills applied to studio practice — b-fadance's own C5 evidence: no research-methods training or inquiry-based assessment in the compulsory core | Stable, differentiating | C5 |
+| Embodied, live, in-person performance and teaching practice — Field exposure 68.44, below the field median (83.21); sector commentary (Dance Informa Magazine, Feb 2026) argues embodied delivery resists AI substitution | Falling substitution pressure | G1, G2 |
 
 **Confidence:** High for the Dance Industry Code of Practice and JSA HEO destination data; Medium for QILT graduate outcomes (reported at the broad Creative Arts field, not dance-specific) and for the motion-capture/virtual-production evidence (drawn from the adjacent screen/interactive-games sector, not Australian live dance directly); Low–Medium for AISOMA as evidence of profession-wide AI adoption (it documents one choreographer's public practice, not an adoption rate).
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-b-fadance.md); rows

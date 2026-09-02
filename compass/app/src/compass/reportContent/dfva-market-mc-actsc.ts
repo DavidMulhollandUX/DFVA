@@ -60,8 +60,7 @@ Guidance from [AIA](https://www.actuaries.asn.au/) highlights that the modern ac
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Python/R/SQL programming for actuarial modelling | **↑↑ Rising sharply** | Signal 3 (§2) reports over 60% of ANZ actuarial postings now require Python, R and SQL versus approximately 30% in 2023; CI-1 (§5) names this "the single largest employability gap" since the MC-ACTSC curriculum has no compulsory programming or data-science unit. |
@@ -113,7 +112,7 @@ Guidance from [AIA](https://www.actuaries.asn.au/) highlights that the modern ac
 
 **Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
 
-*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+*Sources: Jobs and Skills Australia Higher Education Outcomes (JSA HEO) Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 `,
 };
 

@@ -3,6 +3,7 @@
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-15
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-jurisd (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 35 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -12,7 +13,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 94.43.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 1277). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 94.43.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 1277). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -157,20 +158,20 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Corporate & Commercial Law | Graduate Solicitor, Associate | Senior Associate, Special Counsel, Partner | HIGH (first drafts) / LOW (client advisory) | AI-assisted drafting supervision, transactional risk triage, commercial deal structuring |
-| 2 | Litigation & Dispute Resolution | Litigation Lawyer, Judge's Associate | Senior Litigation Associate, Barrister | HIGH (document review) / LOW (advocacy) | Courtroom advocacy, witness cross-examination, settlement negotiation, ethical judgment |
-| 3 | Government & Public Sector Legal | Legal Officer, Policy Lawyer | Senior Legal Counsel, Principal Solicitor (AGD / VGSO) | LOW–MEDIUM | Administrative law review, statutory interpretation, AI regulatory compliance |
-| 4 | In-House Corporate Counsel | Junior Legal Counsel, Compliance Analyst | Corporate Counsel, General Counsel | MEDIUM–HIGH | AI contract lifecycle management, cross-functional risk governance, commercial negotiation |
-| 5 | Legal Operations & Tech Governance | Legal Technologist, Legal Ops Analyst | Head of Legal Operations, AI Governance Counsel | LOW (Growth area) | ISO 42001 / NIST AI RMF compliance, legal workflow automation, vendor AI evaluation |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Corporate & Commercial Law | Graduate Solicitor, Associate; later Senior Associate, Special Counsel, Partner | HIGH (first drafts) / LOW (client advisory) | AI-assisted drafting supervision, transactional risk triage, commercial deal structuring |
+| Litigation & Dispute Resolution | Litigation Lawyer, Judge's Associate; later Senior Litigation Associate, Barrister | HIGH (document review) / LOW (advocacy) | Courtroom advocacy, witness cross-examination, settlement negotiation, ethical judgment |
+| Government & Public Sector Legal | Legal Officer, Policy Lawyer; later Senior Legal Counsel, Principal Solicitor (AGD / VGSO) | LOW–MEDIUM | Administrative law review, statutory interpretation, AI regulatory compliance |
+| In-House Corporate Counsel | Junior Legal Counsel, Compliance Analyst; later Corporate Counsel, General Counsel | MEDIUM–HIGH | AI contract lifecycle management, cross-functional risk governance, commercial negotiation |
+| Legal Operations & Tech Governance | Legal Technologist, Legal Ops Analyst; later Head of Legal Operations, AI Governance Counsel | LOW (Growth area) | ISO 42001 / NIST AI RMF compliance, legal workflow automation, vendor AI evaluation |
 
 **Exposure basis declaration.** Destination AI exposure is **94.75** (exact basis derived from Law graduate destinations), sitting **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Automation of junior document review and first-pass drafting | Fast | Top-tier law firms deploy legal LLMs, reducing routine paralegal document review. — C2, C3, W2 |
 | "AI-fluent" selection criteria in graduate solicitor recruitment | Rising | Law firms expect graduates to supervise AI copilots and audit synthetic citations. — C3, G1 |
 | Resilient premium on oral advocacy and relational client skills | Sustained High | Courtroom litigation and dispute resolution remain highly resistant to AI automation. — W1, G2 |
@@ -182,7 +183,7 @@ The market intelligence gathered for this program indicates strong demand across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-jurisd.md); rows
@@ -201,7 +202,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 1277. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 1277. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-15: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

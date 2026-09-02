@@ -3,6 +3,7 @@
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-31
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-apling (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 45 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -22,7 +23,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 88.72.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 2 of 7 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 091521 Linguistics; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **above** it.
+**Destination AI Exposure: 88.72.** Destination titles are crosswalked to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 2 of 7 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 091521 Linguistics; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -159,12 +160,12 @@ combined total: the sub-scores are reported side by side and never added.
 
 **Destination job families**
 
-| Job family | Entry titles | Exposure | Skills rising in that family |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
 | --- | --- | --- | --- |
-| Curriculum & Instructional Coordination | Curriculum Coordinator, Assessment Specialist, Academic Consultant, Education Training Consultant | AIOE 94.62 (medium mapping confidence) | Evaluating and overseeing AI-assisted content and lesson-generation tools rather than authoring from scratch |
-| Adult & ESL Literacy Teaching | Academic Skills Adviser, TESOL/ESL Teacher, Occupational English Test Assessor | AIOE 95.74 (medium mapping confidence) | AI-assisted essay/feedback tool literacy while retaining marking control |
-| Postsecondary Language/Linguistics Teaching | Lecturer in Language Learning and Assessment | AIOE 92.03 (medium mapping confidence) | General institutional GenAI-classroom literacy |
-| Postsecondary & ELICOS Academic Administration | ELICOS Academic Manager, Academic Manager, Director of Studies | AIOE 98.42 (high mapping confidence) | Institutional AI-governance literacy (TEQSA Threshold Standard 1.4.4), GenAI-adoption oversight |
+| Curriculum & Instructional Coordination | Curriculum Coordinator, Assessment Specialist, Academic Consultant, Education Training Consultant | HIGH — curriculum and assessment-design tasks score high on the Felten AIOE index (94.62), above the field median of 83.21 (medium mapping confidence) | Evaluating and overseeing AI-assisted content and lesson-generation tools rather than authoring from scratch |
+| Adult & ESL Literacy Teaching | Academic Skills Adviser, TESOL/ESL Teacher, Occupational English Test Assessor | HIGH — adult-literacy and ESL teaching tasks score high on the Felten AIOE index (95.74), above the field median (medium mapping confidence) | AI-assisted essay/feedback tool literacy while retaining marking control |
+| Postsecondary Language/Linguistics Teaching | Lecturer in Language Learning and Assessment | HIGH — postsecondary language-teaching tasks score high on the Felten AIOE index (92.03), above the field median (medium mapping confidence) | General institutional GenAI-classroom literacy |
+| Postsecondary & ELICOS Academic Administration | ELICOS Academic Manager, Academic Manager, Director of Studies | HIGH — academic-administration tasks score highest of the four on the Felten AIOE index (98.42), above the field median (high mapping confidence, the only family with verifiable regulatory and scholarly sourcing) | Institutional AI-governance literacy (TEQSA Threshold Standard 1.4.4), GenAI-adoption oversight |
 
 All four families sit above the field-basis median (83.21). The §1 Destination AI
 Exposure value (88.72) is not this program's own graduates: it rests on the JSA Higher
@@ -178,7 +179,7 @@ AU job-ad counts and dated practitioner-discourse items, not L1–L3 claims.
 
 **Signals and skill shifts**
 
-| Skill or signal | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Institution-wide AI adoption in postsecondary administration workflows | ↑↑ Rising sharply | C3 |
 | Regulatory AI-governance and academic-integrity literacy | ↑↑ Rising sharply | C3 |
@@ -198,7 +199,7 @@ alongside a practitioner-discourse corpus dominated by non-education content.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-apling.md); rows
@@ -217,7 +218,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **field** (field grain), n = 0, 7 destination titles, 2 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
+**Panel A metadata.** Basis tier **field** (field grain), n = 0, 7 destination titles, 2 at medium mapping confidence. The seven destination titles were mapped to the published Felten AI Occupational Exposure index (AIOE-2021 variant). Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
 
 **Panel C provenance.** Scored from the 2026 handbook capture (45 pages) and verified on 2026-08-31: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

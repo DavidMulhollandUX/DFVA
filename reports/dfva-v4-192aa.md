@@ -3,6 +3,7 @@
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-22
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/192aa (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 35 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -22,7 +23,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 94.83.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Laws (n = 676, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 94.83.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Laws (n = 676, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -121,20 +122,20 @@ The market intelligence gathered for this program indicates strong, high-compens
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | International Corporate Tax Advisory | Senior Tax Consultant, International Tax Associate, Transfer Pricing Specialist | Tax Manager, Senior Manager, International Tax Director / Partner | HIGH | Cross-border transfer pricing benchmarking, Pillar Two global minimum tax compliance, AI tax modeling |
-| 2 | In-House Corporate Tax Management | Corporate Tax Analyst, In-House Tax Counsel | Head of Tax, International Tax Director, VP Group Tax | MEDIUM | Global supply chain restructuring, tax risk governance, automated tax provision auditing |
-| 3 | Revenue Authority & Government Tax Policy | ATO Senior Reviewer, Treasury Policy Analyst | Assistant Commissioner (ATO), Principal Tax Policy Advisor | LOW–MEDIUM | Multilateral treaty negotiation, anti-tax avoidance litigation, digital services tax policy |
-| 4 | Tax Controversy & Litigation | Junior Tax Litigation Associate, Tax Dispute Specialist | Special Counsel (Tax Controversy), Senior Tax Barrister | MEDIUM | ATO audit defense, transfer pricing economic evidence defence, treaty dispute arbitration (MAP) |
-| 5 | Private Client Cross-Border Wealth Advisory | Private Client Tax Lawyer, International Estate Advisor | Family Office Tax Director, Cross-Border Wealth Partner | LOW–MEDIUM | Multi-jurisdictional residency planning, foreign trust taxation, automated tax reporting compliance |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| International Corporate Tax Advisory | Senior Tax Consultant, International Tax Associate, Transfer Pricing Specialist; later Tax Manager, Senior Manager, International Tax Director / Partner | HIGH | Cross-border transfer pricing benchmarking, Pillar Two global minimum tax compliance, AI tax modeling |
+| In-House Corporate Tax Management | Corporate Tax Analyst, In-House Tax Counsel; later Head of Tax, International Tax Director, VP Group Tax | MEDIUM | Global supply chain restructuring, tax risk governance, automated tax provision auditing |
+| Revenue Authority & Government Tax Policy | ATO Senior Reviewer, Treasury Policy Analyst; later Assistant Commissioner (ATO), Principal Tax Policy Advisor | LOW–MEDIUM | Multilateral treaty negotiation, anti-tax avoidance litigation, digital services tax policy |
+| Tax Controversy & Litigation | Junior Tax Litigation Associate, Tax Dispute Specialist; later Special Counsel (Tax Controversy), Senior Tax Barrister | MEDIUM | ATO audit defense, transfer pricing economic evidence defence, treaty dispute arbitration (MAP) |
+| Private Client Cross-Border Wealth Advisory | Private Client Tax Lawyer, International Estate Advisor; later Family Office Tax Director, Cross-Border Wealth Partner | LOW–MEDIUM | Multi-jurisdictional residency planning, foreign trust taxation, automated tax reporting compliance |
 
 **Exposure basis declaration.** Destination AI exposure is **94.83** (estimated basis derived from Master of Laws destinations), sitting **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | OECD BEPS 2.0 (Pillar One / Pillar Two) global minimum tax implementation | Sustained High | Multinationals and Big 4 advisors require tax specialists to audit multinational data feeds, calculate Qualified Domestic Minimum Top-Up Taxes (QDMTT), and resolve complex GloBE rules. — C3, W1, G1 |
 | Generative AI in tax advice drafting and treaty lookup | Rising / Volatile | Widespread use of tax LLMs accelerates preliminary research, but risks severe malpractice and promoter penalties if unverified against bilateral protocols and anti-avoidance rules (Part IVA). — C2, C3, W2 |
 | ATO multinational audit scrutiny and transfer pricing controversy | Rising | Australian Taxation Office Tax Avoidance Taskforce heavily scrutinises cross-border IP transfers and financing, demanding defensible transfer pricing economics. — C5, G2 |
@@ -146,7 +147,7 @@ The market intelligence gathered for this program indicates strong, high-compens
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-192aa.md); rows
@@ -165,7 +166,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **partial** (related program), n = 676, 15 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: International Tax is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams.
+**Panel A metadata.** Basis tier **partial** (related program), n = 676, 15 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: International Tax is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-22: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

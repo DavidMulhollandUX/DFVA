@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Psychiatry serves as a premier academic qualification for medical practitioners and psychiatric trainees completing RANZCP Fellowship training. G1 passes on a coherent specialist sequence aligned to the RANZCP Competency-Based Fellowship across six compulsory core subjects and four selectives. G2 passes on defended diagnostic formulations under uncertainty in Consultation-Liaison case studies and workplace-based clinical assessments.

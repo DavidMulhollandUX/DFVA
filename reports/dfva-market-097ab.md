@@ -89,12 +89,12 @@ Discourse across [ACFID](https://acfid.asn.au/) and regional climate networks em
 | Aid sector and NGO hiring demand | HIGH | ACFID workforce reports and DFAT procurement standards provide clear requirements |
 | Localization & decolonial policy standards | HIGH | ACFID Code of Conduct and international humanitarian agreements establish definitive benchmarks |
 | Digital & AI disruption in MERL | HIGH | Broad consensus across DSAA, DevPolicy, and international development evaluation literature |
-| Program-specific granular graduate salary tracking | MEDIUM | Derived from JSA HEO / ATO tax-linked administrative datasets for development studies |
+| Program-specific granular graduate salary tracking | MEDIUM | Derived from Jobs and Skills Australia Higher Education Outcomes (JSA HEO) / ATO tax-linked administrative datasets for development studies |
 
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **0903 Studies in Human Society** (n = 8,720 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 26.6% of them, and the 5 largest are shown at each stage.
 

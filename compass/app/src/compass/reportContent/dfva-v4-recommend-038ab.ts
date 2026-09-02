@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Art Curatorship provides strong disciplinary and professional grounding for museum and gallery practice. G1 passes on a coherent specialist sequence across art conservation, exhibition management, and museum history, and G2 passes on authentic curatorial trade-offs under real-world exhibition constraints and unwaiverable capstones. C4 (3/3) reaches the instrument ceiling through mandatory self-scoped research capstones across all three completion streams (minor thesis, practical exhibition project, or industry placement).

@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Doctor of Clinical Dentistry is a 300-point professional doctorate accredited by the Australian Dental Council (ADC) for specialist registration with the Dental Board of Australia (AHPRA) across seven specialist fields (Endodontics, Oral Medicine, Orthodontics, Paediatric Dentistry, Periodontics, Prosthodontics, Special Needs Dentistry). Both gates pass unconditionally: G1 passes on an all-compulsory specialist curriculum with progressive depth (a 75cp 3-year research sequence plus 225cp of clinical specialisation subjects in dental hospital clinics accredited by ADC with zero generic elective space); G2 passes on a mandatory 3-year self-scoped research sequence under experimental and ethical uncertainty, assessed through staged oral defences and a 13,000-word Minor Thesis, alongside high-stakes clinical decision-making on complex patients.

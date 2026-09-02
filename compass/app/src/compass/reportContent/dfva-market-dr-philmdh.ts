@@ -68,8 +68,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Cross-disciplinary AI plus domain fluency (e.g. computational plus wet-lab) | **↑↑ Rising sharply** | CI-7 (§5) names this "the fastest-rising skill combination across all job families in this map," reinforced by Signal 1's (§2) postdoc postings now listing "experience with AI/ML-based analysis pipelines" alongside traditional wet-lab technique. |

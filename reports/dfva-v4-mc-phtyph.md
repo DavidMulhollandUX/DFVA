@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 71.03.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Doctor of Physiotherapy (n = 448); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 71.03.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Doctor of Physiotherapy (n = 448); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -173,19 +173,19 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Specialist Pelvic Floor Physiotherapy | Pelvic Health Physiotherapist, Women's Health Physio | Titled Pelvic Health Physio (APA), Practice Director | LOW | Real-time ultrasound biofeedback, trauma-informed pelvic care, prolapse management |
-| 2 | Continence & Bladder / Bowel Rehabilitation | Continence Advisor, Pelvic Rehabilitation Physio | Senior Hospital Continence Lead, Clinical Specialist | LOW | Urodynamic analysis, anorectal manometry, interdisciplinary team case conferencing |
-| 3 | Men's Pelvic Health & Oncology Rehab | Men's Health Physiotherapist, Oncology Physio | Lead Clinician (Prostate Cancer Rehab), Clinic Partner | LOW | Post-prostatectomy rehabilitation, male chronic pelvic pain, erectile dysfunction care |
-| 4 | Clinical Physiotherapy Education & Research | Clinical Educator (Pelvic Health), Tutor | Clinical Associate Professor, Director of Clinical Training | LOW | Objective structured clinical exams, clinical supervision, translational clinical trials |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Specialist Pelvic Floor Physiotherapy | Pelvic Health Physiotherapist, Women's Health Physio; later Titled Pelvic Health Physio (APA), Practice Director | LOW | Real-time ultrasound biofeedback, trauma-informed pelvic care, prolapse management |
+| Continence & Bladder / Bowel Rehabilitation | Continence Advisor, Pelvic Rehabilitation Physio; later Senior Hospital Continence Lead, Clinical Specialist | LOW | Urodynamic analysis, anorectal manometry, interdisciplinary team case conferencing |
+| Men's Pelvic Health & Oncology Rehab | Men's Health Physiotherapist, Oncology Physio; later Lead Clinician (Prostate Cancer Rehab), Clinic Partner | LOW | Post-prostatectomy rehabilitation, male chronic pelvic pain, erectile dysfunction care |
+| Clinical Physiotherapy Education & Research | Clinical Educator (Pelvic Health), Tutor; later Clinical Associate Professor, Director of Clinical Training | LOW | Objective structured clinical exams, clinical supervision, translational clinical trials |
 
 **Exposure basis declaration.** Destination AI exposure is **44.92** (exact basis derived from Medical / Specialist Physiotherapy destinations), sitting well **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Acute nationwide shortage of titled pelvic health physiotherapists | Sustained High | APA and Continence Foundation confirm severe shortages in private and public networks. — W3, G1 |
 | Integration of digital biofeedback, RTUS, and telehealth triage | Fast | Specialist clinics mandate RTUS imaging and digital app-based biofeedback tools. — C3, W2 |
 | Mandatory hurdle practical clinical exams and placements | Stable | Hospital departments and private clinics require verified clinical hurdle exams. — W2, W3, G1 |
@@ -197,7 +197,7 @@ The market intelligence gathered for this program indicates strong demand across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-phtyph.md); rows
@@ -216,7 +216,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **cognate** (cognate program), n = 448. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: Reconciliation package tier cognate.
+**Panel A metadata.** Basis tier **cognate** (cognate program), n = 448. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Reconciliation package tier cognate.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-15: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

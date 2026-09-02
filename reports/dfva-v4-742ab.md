@@ -3,6 +3,7 @@
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-18
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/742ab (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 35 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -17,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 98.37.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 13 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 57, 13 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 98.37.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 13 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 57, 13 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 3 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -156,19 +157,19 @@ The market intelligence gathered for this program indicates massive structural s
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Corporate & International Tax Advisory | Tax Associate, Senior Tax Consultant | Tax Manager, International Tax Partner | VERY HIGH | Pillar Two global minimum tax, transfer pricing automation, M&A restructuring |
-| 2 | Revenue Authority & Public Policy Advisory | ATO Review Officer, Treasury Policy Analyst | Assistant Commissioner (ATO), Principal Policy Advisor | HIGH | AI tax audit surveillance, Part IVA general anti-avoidance litigation, tax reform |
-| 3 | Private Client, Wealth & SMSF Advisory | Private Wealth Tax Advisor, SMSF Specialist | Senior Tax Counsel, Family Office Tax Director | HIGH | Division 7A structuring, CGT concessions, trust estate planning, succession law |
-| 4 | Tax Dispute Resolution & Litigation Practice | Tax Controversy Associate, Litigation Solicitor | Special Counsel (Controversy), Tax Barrister | HIGH | ATO audit negotiation, AAT / Federal Court advocacy, settlement deed drafting |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Corporate & International Tax Advisory | Tax Associate, Senior Tax Consultant; later Tax Manager, International Tax Partner | VERY HIGH | Pillar Two global minimum tax, transfer pricing automation, M&A restructuring |
+| Revenue Authority & Public Policy Advisory | ATO Review Officer, Treasury Policy Analyst; later Assistant Commissioner (ATO), Principal Policy Advisor | HIGH | AI tax audit surveillance, Part IVA general anti-avoidance litigation, tax reform |
+| Private Client, Wealth & SMSF Advisory | Private Wealth Tax Advisor, SMSF Specialist; later Senior Tax Counsel, Family Office Tax Director | HIGH | Division 7A structuring, CGT concessions, trust estate planning, succession law |
+| Tax Dispute Resolution & Litigation Practice | Tax Controversy Associate, Litigation Solicitor; later Special Counsel (Controversy), Tax Barrister | HIGH | ATO audit negotiation, AAT / Federal Court advocacy, settlement deed drafting |
 
 **Exposure basis declaration.** Destination AI exposure is **98.37** (exact basis derived from Taxation / Revenue Law destinations), sitting as the **highest exposure level in the entire portfolio**, far above the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | OECD Pillar Two and global minimum tax implementation | Fast | Big Four and corporate tax teams hire specialists in GloBE rules. — C4, G1 |
 | AI tax compliance copilots and automated return preparation | Very Fast | Corporate divisions mandate proficiency in automated transfer pricing tools. — C3, G1 |
 | ATO compliance enforcement on private groups and Part IVA | Fast | Hiring surges for tax controversy specialists skilled in ATO audit defense. — W2, G2 |
@@ -180,7 +181,7 @@ The market intelligence gathered for this program indicates massive structural s
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-742ab.md); rows
@@ -199,7 +200,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 57, 13 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 57, 13 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-18: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

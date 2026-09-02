@@ -12,7 +12,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 MC-INDENG is the strongest program in this cohort of twelve and the diagnosis is correspondingly narrow. It scores 9/15 on adaptive capabilities — at the v4 cohort median — and 6/9 on workplace practice, including the only W2 = 3 in the twelve: authentic practitioner tasks are the assessment spine of a 175-of-200-credit-point compulsory core, not a single capstone flourish. Both gates pass on substantive evidence. Six of the eight items are at level 2 or above.

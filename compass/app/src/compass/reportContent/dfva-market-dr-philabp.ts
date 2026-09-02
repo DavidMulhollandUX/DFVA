@@ -60,8 +60,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI/ML forecasting model literacy in property and construction economics | **↑↑ Rising sharply** | Signal 2 (§2) reports research-economist roles at property/construction advisory firms explicitly listing forecasting-model and data-science tool fluency as differentiators; the companion assessment's D5 AI Literacy score is only 1/3, with no dedicated AI governance content evident in the generic handbook description. |

@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evidura · System Flow Map · MEC Discover</title>
+<style>
+:root {
+  --bg: #ffffff;
+  --surface: #f7f8fa;
+  --surface-2: #eef0f4;
+  --ink: #0a0a0a;
+  --muted: #5c6470;
+  --muted-2: #8b92a0;
+  --border: #dde1e8;
+  --border-light: #eaecef;
+  --accent: #003e7e;
+  --accent-light: #e6eef7;
+  --accent-2: #0078d4;
+  --green: #0d7a4f;
+  --green-light: #e3f2ed;
+  --amber: #b7580a;
+  --amber-light: #fbf0e6;
+  --red: #b3261e;
+  --red-light: #f7e3e1;
+  --purple: #5b2d8c;
+  --purple-light: #ece4f5;
+  --teal: #006a6a;
+  --teal-light: #e0f0f0;
+  --gold: #8a6d00;
+  --gold-light: #f5f0e0;
+  --radius: 6px;
+  --radius-sm: 4px;
+  --radius-lg: 12px;
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --mono: 'SF Mono', 'Fira Code', 'Menlo', monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== Nav ===== */
+.nav-bar {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+.nav-bar a {
+  padding: 10px 24px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+  border-right: 1px solid var(--border);
+  transition: all 0.15s;
+}
+.nav-bar a:hover { color: var(--ink); background: var(--bg); }
+.nav-bar a.active { color: var(--accent); font-weight: 600; }
+
+/* ===== Header ===== */
+header {
+  padding: 36px 48px 24px;
+  border-bottom: 1px solid var(--border);
+}
+.header-top {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.header-top h1 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.header-tag {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+.header-sub {
+  margin-top: 8px;
+  font-size: 15px;
+  color: var(--muted);
+  max-width: 720px;
+}
+
+/* ===== Section ===== */
+section {
+  padding: 32px 48px;
+}
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 6px;
+}
+.section-desc {
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+
+/* ===== Flow type legend ===== */
+.flow-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+.flow-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+}
+.flow-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ===== System flow diagram ===== */
+.flow-diagram {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0;
+  align-items: stretch;
+}
+.flow-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.flow-column-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted-2);
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+/* Central node */
+.flow-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+}
+.center-node {
+  background: var(--ink);
+  color: #fff;
+  border-radius: var(--radius-lg);
+  padding: 28px 24px;
+  text-align: center;
+  min-width: 180px;
+  box-shadow: 0 4px 24px rgba(0,62,126,0.12);
+}
+.center-node .name {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.center-node .tag {
+  font-size: 11px;
+  color: var(--muted-2);
+  margin-top: 6px;
+  font-family: var(--mono);
+}
+.center-node .desc {
+  font-size: 12px;
+  color: rgba(255,255,255,0.7);
+  margin-top: 12px;
+  line-height: 1.4;
+}
+
+/* Flow cards */
+.flow-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  transition: box-shadow 0.15s, transform 0.15s;
+  cursor: default;
+}
+.flow-card:hover {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  transform: translateY(-1px);
+}
+.flow-card-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.flow-card-body { flex: 1; }
+.flow-card-title {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.flow-card-desc {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 3px;
+  line-height: 1.4;
+}
+.flow-card-from {
+  font-size: 11px;
+  color: var(--muted-2);
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+/* Flow type colours */
+.ft-money .flow-card-icon { background: var(--green-light); color: var(--green); }
+.ft-data .flow-card-icon { background: var(--teal-light); color: var(--teal); }
+.ft-knowledge .flow-card-icon { background: var(--purple-light); color: var(--purple); }
+.ft-time .flow-card-icon { background: var(--gold-light); color: var(--gold); }
+.ft-influence .flow-card-icon { background: var(--amber-light); color: var(--amber); }
+.ft-output .flow-card-icon { background: var(--accent-light); color: var(--accent); }
+
+/* Arrow between columns */
+.arrow-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: var(--border);
+  font-weight: 300;
+  padding: 0 4px;
+}
+
+/* ===== Externalities ===== */
+.ext-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.ext-column {
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.ext-column.pos { border: 1px solid var(--green-light); }
+.ext-column.neg { border: 1px solid var(--red-light); }
+.ext-header {
+  padding: 14px 18px;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ext-column.pos .ext-header { background: var(--green-light); color: var(--green); }
+.ext-column.neg .ext-header { background: var(--red-light); color: var(--red); }
+.ext-list {
+  padding: 8px 18px 18px;
+}
+.ext-item {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border-light);
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.ext-item:last-child { border-bottom: none; }
+.ext-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.ext-column.pos .ext-icon { background: var(--green); color: #fff; }
+.ext-column.neg .ext-icon { background: var(--red); color: #fff; }
+.ext-text {
+  font-size: 13px;
+  line-height: 1.5;
+}
+.ext-text .title { font-weight: 600; }
+.ext-text .desc { color: var(--muted); margin-top: 2px; }
+
+/* ===== Flow register table ===== */
+.table-wrap { overflow-x: auto; }
+table.flow-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+table.flow-table thead th {
+  text-align: left;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted-2);
+  padding: 10px 12px;
+  border-bottom: 2px solid var(--border);
+  white-space: nowrap;
+}
+table.flow-table tbody td {
+  padding: 12px;
+  border-bottom: 1px solid var(--border-light);
+  vertical-align: top;
+}
+table.flow-table tbody tr { transition: background 0.1s; }
+table.flow-table tbody tr:hover { background: var(--surface); }
+table.flow-table tbody tr:last-child td { border-bottom: none; }
+
+.ft-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 8px;
+  border-radius: 100px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.ft-badge .dot { width: 6px; height: 6px; border-radius: 50%; }
+
+.ft-badge.money { background: var(--green-light); color: var(--green); }
+.ft-badge.money .dot { background: var(--green); }
+.ft-badge.data { background: var(--teal-light); color: var(--teal); }
+.ft-badge.data .dot { background: var(--teal); }
+.ft-badge.knowledge { background: var(--purple-light); color: var(--purple); }
+.ft-badge.knowledge .dot { background: var(--purple); }
+.ft-badge.time { background: var(--gold-light); color: var(--gold); }
+.ft-badge.time .dot { background: var(--gold); }
+.ft-badge.influence { background: var(--amber-light); color: var(--amber); }
+.ft-badge.influence .dot { background: var(--amber); }
+.ft-badge.output { background: var(--accent-light); color: var(--accent); }
+.ft-badge.output .dot { background: var(--accent); }
+.ft-badge.positive { background: var(--green-light); color: var(--green); }
+.ft-badge.positive .dot { background: var(--green); }
+.ft-badge.negative { background: var(--red-light); color: var(--red); }
+.ft-badge.negative .dot { background: var(--red); }
+
+.from-cell, .to-cell { font-weight: 500; }
+.what-cell { color: var(--muted); }
+.direction-cell { text-align: center; font-size: 16px; color: var(--muted); }
+
+/* Magnitude */
+.mag {
+  display: inline-flex;
+  gap: 2px;
+}
+.mag .mag-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--border);
+}
+.mag .mag-dot.active { background: var(--accent); }
+
+/* ===== Filter bar ===== */
+.filter-bar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.filter-btn {
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  background: var(--bg);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  color: var(--muted);
+}
+.filter-btn:hover { border-color: var(--muted-2); }
+.filter-btn.active {
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+}
+
+/* ===== Stats ===== */
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.stat-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  text-align: center;
+}
+.stat-num { font-size: 26px; font-weight: 700; letter-spacing: -0.03em; line-height: 1; }
+.stat-label { font-size: 11px; color: var(--muted); margin-top: 6px; }
+
+/* ===== Footer ===== */
+footer {
+  padding: 24px 48px 40px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--muted-2);
+}
+
+/* ===== Problem statement ===== */
+.problem-statement {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 0 48px;
+  padding: 16px 22px;
+}
+.problem-statement .label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted-2);
+  margin-bottom: 6px;
+}
+.problem-statement p { font-size: 14px; color: var(--ink); line-height: 1.5; }
+.problem-statement .venture { font-weight: 600; color: var(--accent); }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .flow-diagram { grid-template-columns: 1fr; }
+  .arrow-col { transform: rotate(90deg); padding: 8px 0; }
+  .ext-grid { grid-template-columns: 1fr; }
+  header, section, footer { padding-left: 20px; padding-right: 20px; }
+  .problem-statement { margin: 0 20px; }
+}
+</style>
+</head>
+<body>
+
+<!-- Nav -->
+<div class="nav-bar">
+  <a href="stakeholder-map.html">Stakeholder Map</a>
+  <a href="stakeholder-flow-map.html" class="active">System Flow Map</a>
+</div>
+
+<!-- Header -->
+<header>
+  <div class="header-top">
+    <h1>System Flow Map</h1>
+    <span class="header-tag">Evidura · MEC Discover</span>
+  </div>
+  <p class="header-sub">
+    Mapping the flows of money, data, knowledge, time and influence through
+    the Evidura system — and the positive and negative externalities that
+    spill over to non-users.
+  </p>
+</header>
+
+<!-- Problem statement -->
+<div class="problem-statement">
+  <div class="label">System boundary</div>
+  <p>
+    <span class="venture">Evidura (DFVA)</span> sits at the intersection of
+    university governance, labour-market data, and AI disruption analysis.
+    Flows show what moves INTO the system (inputs), what moves OUT (outputs),
+    and what spills beyond the system boundary (externalities).
+  </p>
+</div>
+
+<!-- Flow legend -->
+<section style="padding-bottom: 0;">
+  <div class="flow-legend">
+    <div class="flow-legend-item"><span class="flow-dot" style="background:var(--green)"></span>Money</div>
+    <div class="flow-legend-item"><span class="flow-dot" style="background:var(--teal)"></span>Data</div>
+    <div class="flow-legend-item"><span class="flow-dot" style="background:var(--purple)"></span>Knowledge / IP</div>
+    <div class="flow-legend-item"><span class="flow-dot" style="background:var(--gold)"></span>Time</div>
+    <div class="flow-legend-item"><span class="flow-dot" style="background:var(--amber)"></span>Influence</div>
+    <div class="flow-legend-item"><span class="flow-dot" style="background:var(--accent)"></span>Output (reports, signals)</div>
+  </div>
+</section>
+
+<!-- System flow diagram -->
+<section>
+  <div class="section-title">Inflows &amp; Outflows</div>
+  <p class="section-desc">
+    What flows into the Evidura system from stakeholders, and what flows back out.
+    Hover any card for emphasis.
+  </p>
+
+  <div class="flow-diagram">
+    <!-- INFLOWS -->
+    <div class="flow-column">
+      <div class="flow-column-label">Inflows &rarr;</div>
+
+      <div class="flow-card ft-money">
+        <div class="flow-card-icon">$</div>
+        <div class="flow-card-body">
+          <div class="flow-card-title">R&amp;D &amp; license funding</div>
+          <div class="flow-card-desc">Seed funding for tool development, licensing fees if adopted</div>
+          <div class="flow-card-from">From: DVCR Office &middot; Provost</div>
+        </div>
+      </div>
+
+      <div class="flow-card ft-money">
+        <div class="flow-card-icon">$</div>
+        <div class="flow-card-body">
+          <div class="flow-card-title">In-kind program support</div>
+          <div class="flow-card-desc">Workspace, mentorship hours, demo venues, cohort access</div>
+          <div class="flow-card-from">From: MEC Discover &middot; Melbourne Connect</div>
+        </div>
+      </div>
+
+      <div class="flow-card ft-data">
+        <div class="flow-card-icon">D</div>
+        <div class="flow-card-body">
+          <div class="flow-card-title">Labour-market data</div>
+          <div class="flow-card-desc">Job postings, skills taxonomies, occupation projections, AI-task exposure indices</div>
+          <div class="flow-card-from">From: LinkedIn, Lightcast, ABS, Dept of Employment</div>
+        </div>
+      </div>
+
+      <div class="flow-card ft-data">
+        <div class="flow-card-icon">D</div>
+        <div class="flow-card-body">
+          <div class="flow-card-title">Graduate outcome data</div>
+          <div class="flow-card-desc">Career trajectories, employment rates, salary bands, role transitions post-graduation</div>
+          <div class="flow-card-from">From: Alumni Networks &middot; Career Services</div>
+        </div>
+      </div>
+
+      <div class="flow-card ft-data">
+        <div class="flow-card-icon">D</div>
+        <div class="flow-card-body">
+          <div class="flow-card-title">Employer competency signals</div>
+          <div class="flow-card-desc">What skills employers are hiring for, AI-literacy expectations, role evolution patterns</div>
+          <div class="flow-card-from">From: Employers &middot; Industry Advisory Boards</div>
+        </div>
+      </div>
+
+      <div class="flow-card ft-knowledge">
+        <div class="flow-card-icon">K</div>
+        <div class="flow-card-body">
+          <div class="flow-card-title">Methodology validation &amp; peer review</div>
+          <div class="flow-card-desc">Academic legitimacy, assessment framework critique, statistical rigour checks</div>
+          <div class="flow-card-from">From: Academic Board &middot; MEC Mentors/EIRs</div>
+        </div>
+      </div>
+
+      <div class="flow-card ft-knowledge">
+        <div class="flow-card-icon">K</div>
+        <div class="flow-card-body">
+          <div class="flow-card-title">Commercialisation know-how</div>
+          <div class="flow-card-desc">Pricing models, go-to-market strategy, customer discovery, IP protection guidance</div>
+          <div class="flow-card-from">From: MEC Discover mentors &middot; Wade Institute</div>
+        </div>
+      </div>
+
+      <div class="flow-card ft-time">
+        <div class="flow-card-icon">T</div>
+        <div class="flow-card-body">
+          <div class="flow-card-title">7-week program engagement</div>
+          <div class="flow-card-desc">Mentor time, workshop facilitation, pitch coaching, network introductions</div>
+          <div class="flow-card-from">From: MEC Discover team</div>
+        </div>
+      </div>
+
+      <div class="flow-card ft-time">
+        <div class="flow-card-icon">T</div>
+        <div class="flow-card-body">
+          <div class="flow-card-title">Faculty assessment time</div>
+          <div class="flow-card-desc">Deans and coordinators investing time in the assessment process, data collection, review sessions</div>
+          <div class="flow-card-from">From: Deans &middot; Course Coordinators</div>
+        </div>
+      </div>
+
+      <div class="flow-card ft-influence">
+        <div class="flow-card-icon">I</div>
+        <div class="flow-card-body">
+          <div class="flow-card-title">Regulatory mandates</div>
+          <div class="flow-card-desc">Compliance requirements, qualification standards, reporting obligations that shape what the tool must measure</div>
+          <div class="flow-card-from">From: TEQSA &middot; AQF Council &middot; Dept of Education</div>
+        </div>
+      </div>
+
+      <div class="flow-card ft-influence">
+        <div class="flow-card-icon">I</div>
+        <div class="flow-card-body">
+          <div class="flow-card-title">Strategic direction</div>
+          <div class="flow-card-desc">Institutional priorities, AI strategy directives, portfolio review mandates</div>
+          <div class="flow-card-from">From: DVCR &middot; Provost &middot; Chancellery</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ARROW -->
+    <div class="arrow-col">&rarr;</div>
+
+    <!-- CENTER -->
+    <div class="flow-column" style="justify-content: center;">
+      <div class="flow-center">
+        <div class="center-node">
+          <div class="name">Evidura</div>
+          <div class="tag">DFVA Engine</div>
+          <div class="desc">
+            Ingests labour-market data + AI disruption signals, applies the
+            8-item DFVA methodology (5 adaptive + 3 workplace items + 2 preconditions),
+            outputs degree-program viability assessments
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OUTFLOWS -->
+  <div style="margin-top: 28px;">
+    <div class="flow-column-label" style="text-align: left;">Outflows &rarr;</div>
+    <div class="flow-diagram" style="grid-template-columns: 1fr;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+        <div class="flow-card ft-output">
+          <div class="flow-card-icon">R</div>
+          <div class="flow-card-body">
+            <div class="flow-card-title">Viability assessment reports</div>
+            <div class="flow-card-desc">Per-program disruption risk scores, evidence-based redesign or sunset recommendations</div>
+            <div class="flow-card-from">To: Deans &middot; DVCR &middot; Provost</div>
+          </div>
+        </div>
+
+        <div class="flow-card ft-output">
+          <div class="flow-card-icon">R</div>
+          <div class="flow-card-body">
+            <div class="flow-card-title">Curriculum gap analysis</div>
+            <div class="flow-card-desc">Where current program outcomes diverge from emerging job profiles, specific skill gaps flagged</div>
+            <div class="flow-card-from">To: Course Coordinators &middot; Deputy Deans (L&amp;T)</div>
+          </div>
+        </div>
+
+        <div class="flow-card ft-output">
+          <div class="flow-card-icon">R</div>
+          <div class="flow-card-body">
+            <div class="flow-card-title">Labour-market intelligence</div>
+            <div class="flow-card-desc">Aggregated skills trends, AI-exposure data, career pathway signals for advising</div>
+            <div class="flow-card-from">To: Career Services &middot; Program Managers</div>
+          </div>
+        </div>
+
+        <div class="flow-card ft-output">
+          <div class="flow-card-icon">R</div>
+          <div class="flow-card-body">
+            <div class="flow-card-title">Decision framework</div>
+            <div class="flow-card-desc">Structured evidence base for portfolio review meetings, budget allocation, program sunset decisions</div>
+            <div class="flow-card-from">To: DVCR &middot; Provost &middot; Academic Committee</div>
+          </div>
+        </div>
+
+        <div class="flow-card ft-knowledge">
+          <div class="flow-card-icon">K</div>
+          <div class="flow-card-body">
+            <div class="flow-card-title">Methodology IP</div>
+            <div class="flow-card-desc">The DFVA assessment framework itself — 8-item methodology, scoring rubric, data sourcing pipeline</div>
+            <div class="flow-card-from">To: Go8 peers &middot; Universities Australia (potential licensing)</div>
+          </div>
+        </div>
+
+        <div class="flow-card ft-output">
+          <div class="flow-card-icon">R</div>
+          <div class="flow-card-body">
+            <div class="flow-card-title">Program quality signal</div>
+            <div class="flow-card-desc">Public-facing indicator that a program has been assessed for AI-readiness (trust signal for prospective students)</div>
+            <div class="flow-card-from">To: Prospective Students &middot; Student Rep Bodies</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Externalities -->
+<section>
+  <div class="section-title">Externalities</div>
+  <p class="section-desc">
+    Costs and benefits that spill beyond the system boundary to actors who
+    did not directly participate in or pay for the assessment.
+  </p>
+
+  <div class="ext-grid">
+    <!-- POSITIVE -->
+    <div class="ext-column pos">
+      <div class="ext-header">
+        <span>+</span> Positive externalities
+      </div>
+      <div class="ext-list">
+        <div class="ext-item">
+          <div class="ext-icon">&#10003;</div>
+          <div class="ext-text">
+            <div class="title">Improved graduate employability</div>
+            <div class="desc">Students benefit from curriculum that better aligns with labour-market needs, even if they never interact with Evidura directly</div>
+          </div>
+        </div>
+        <div class="ext-item">
+          <div class="ext-icon">&#10003;</div>
+          <div class="ext-text">
+            <div class="title">Reduced public education waste</div>
+            <div class="desc">Taxpayers fund fewer programs producing graduates for shrinking occupations; capital reallocates to growth areas</div>
+          </div>
+        </div>
+        <div class="ext-item">
+          <div class="ext-icon">&#10003;</div>
+          <div class="ext-text">
+            <div class="title">Employers receive AI-ready graduates</div>
+            <div class="desc">Industry partners get hires with current, AI-aware skill sets without investing in assessment infrastructure themselves</div>
+          </div>
+        </div>
+        <div class="ext-item">
+          <div class="ext-icon">&#10003;</div>
+          <div class="ext-text">
+            <div class="title">Sector methodology benchmark</div>
+            <div class="desc">Go8 peer universities gain a reference framework for their own AI-disruption assessments, raising the whole sector's standard</div>
+          </div>
+        </div>
+        <div class="ext-item">
+          <div class="ext-icon">&#10003;</div>
+          <div class="ext-text">
+            <div class="title">Reusable data infrastructure</div>
+            <div class="desc">The labour-market data pipeline built for DFVA can be repurposed for institutional analytics, strategic planning, research</div>
+          </div>
+        </div>
+        <div class="ext-item">
+          <div class="ext-icon">&#10003;</div>
+          <div class="ext-text">
+            <div class="title">Policy evidence base</div>
+            <div class="desc">Dept of Education and TEQSA gain aggregated evidence on AI disruption patterns to inform sector-wide policy</div>
+          </div>
+        </div>
+        <div class="ext-item">
+          <div class="ext-icon">&#10003;</div>
+          <div class="ext-text">
+            <div class="title">Australian HE leadership signal</div>
+            <div class="desc">University of Melbourne demonstrates sector-leading AI-readiness methodology, strengthening brand and international positioning</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEGATIVE -->
+    <div class="ext-column neg">
+      <div class="ext-header">
+        <span>&#8722;</span> Negative externalities
+      </div>
+      <div class="ext-list">
+        <div class="ext-item">
+          <div class="ext-icon">&#8722;</div>
+          <div class="ext-text">
+            <div class="title">Faculty job insecurity</div>
+            <div class="desc">Programs flagged as "not viable" create pressure for departmental restructuring, redundancies, and morale erosion among academic staff</div>
+          </div>
+        </div>
+        <div class="ext-item">
+          <div class="ext-icon">&#8722;</div>
+          <div class="ext-text">
+            <div class="title">Self-fulfilling enrolment prophecy</div>
+            <div class="desc">"At-risk" program perception can drive enrolment drops independent of actual viability, accelerating the decline the tool predicted</div>
+          </div>
+        </div>
+        <div class="ext-item">
+          <div class="ext-icon">&#8722;</div>
+          <div class="ext-text">
+            <div class="title">Humanities / arts devaluation risk</div>
+            <div class="desc">A narrow AI-lens may systematically undervalue programs whose value is not captured by labour-market data alone (critical thinking, civic engagement, culture)</div>
+          </div>
+        </div>
+        <div class="ext-item">
+          <div class="ext-icon">&#8722;</div>
+          <div class="ext-text">
+            <div class="title">Budget diversion</div>
+            <div class="desc">Assessment tool costs divert funding from other academic initiatives, teaching support, or student services</div>
+          </div>
+        </div>
+        <div class="ext-item">
+          <div class="ext-icon">&#8722;</div>
+          <div class="ext-text">
+            <div class="title">Data gaming &amp; Goodhart's Law</div>
+            <div class="desc">Once programs are measured against specific metrics, curriculum design optimises for the metric rather than genuine learning outcomes</div>
+          </div>
+        </div>
+        <div class="ext-item">
+          <div class="ext-icon">&#8722;</div>
+          <div class="ext-text">
+            <div class="title">Reputational risk if methodology is contested</div>
+            <div class="desc">Published assessments invite public scrutiny; if the methodology or data is challenged, institutional credibility is damaged</div>
+          </div>
+        </div>
+        <div class="ext-item">
+          <div class="ext-icon">&#8722;</div>
+          <div class="ext-text">
+            <div class="title">Competitive disadvantage from transparency</div>
+            <div class="desc">If one university openly flags weak programs while competitors do not, it may lose prospective students to opacity</div>
+          </div>
+        </div>
+        <div class="ext-item">
+          <div class="ext-icon">&#8722;</div>
+          <div class="ext-text">
+            <div class="title">Privacy &amp; data dependency risk</div>
+            <div class="desc">Reliance on external labour-market data (LinkedIn, Lightcast) creates a dependency; if data quality degrades or access is revoked, assessments lose credibility</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Flow register -->
+<section>
+  <div class="section-title">Flow Register</div>
+  <p class="section-desc">
+    Detailed inventory of every mapped flow, filterable by type.
+  </p>
+
+  <div class="stats-row">
+    <div class="stat-card"><div class="stat-num" id="stat-total">31</div><div class="stat-label">Total flows</div></div>
+    <div class="stat-card"><div class="stat-num" style="color:var(--green)">2</div><div class="stat-label">Money</div></div>
+    <div class="stat-card"><div class="stat-num" style="color:var(--teal)">3</div><div class="stat-label">Data</div></div>
+    <div class="stat-card"><div class="stat-num" style="color:var(--purple)">2</div><div class="stat-label">Knowledge</div></div>
+    <div class="stat-card"><div class="stat-num" style="color:var(--gold)">2</div><div class="stat-label">Time</div></div>
+    <div class="stat-card"><div class="stat-num" style="color:var(--amber)">2</div><div class="stat-label">Influence</div></div>
+    <div class="stat-card"><div class="stat-num" style="color:var(--accent)">4</div><div class="stat-label">Outputs</div></div>
+    <div class="stat-card"><div class="stat-num" style="color:var(--green)">7</div><div class="stat-label">Positive ext.</div></div>
+    <div class="stat-card"><div class="stat-num" style="color:var(--red)">8</div><div class="stat-label">Negative ext.</div></div>
+  </div>
+
+  <div class="filter-bar" id="filter-bar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="money">Money</button>
+    <button class="filter-btn" data-filter="data">Data</button>
+    <button class="filter-btn" data-filter="knowledge">Knowledge</button>
+    <button class="filter-btn" data-filter="time">Time</button>
+    <button class="filter-btn" data-filter="influence">Influence</button>
+    <button class="filter-btn" data-filter="output">Outputs</button>
+    <button class="filter-btn" data-filter="positive">Positive ext.</button>
+    <button class="filter-btn" data-filter="negative">Negative ext.</button>
+  </div>
+
+  <div class="table-wrap">
+    <table class="flow-table" id="flow-table">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>From</th>
+          <th>To</th>
+          <th>What flows</th>
+          <th>Dir</th>
+          <th>Mag</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- MONEY -->
+        <tr data-cat="money">
+          <td><span class="ft-badge money"><span class="dot"></span>Money</span></td>
+          <td class="from-cell">DVCR Office</td>
+          <td class="to-cell">Evidura</td>
+          <td class="what-cell">R&amp;D funding, tool development budget, license fees</td>
+          <td class="direction-cell">&rarr;</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot active"></span></span></td>
+        </tr>
+        <tr data-cat="money">
+          <td><span class="ft-badge money"><span class="dot"></span>Money</span></td>
+          <td class="from-cell">MEC Discover</td>
+          <td class="to-cell">Evidura</td>
+          <td class="what-cell">In-kind program support (workspace, mentorship, venue)</td>
+          <td class="direction-cell">&rarr;</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <!-- DATA -->
+        <tr data-cat="data">
+          <td><span class="ft-badge data"><span class="dot"></span>Data</span></td>
+          <td class="from-cell">LinkedIn, Lightcast, ABS</td>
+          <td class="to-cell">Evidura</td>
+          <td class="what-cell">Job postings, skills taxonomies, occupation projections, AI-task exposure data</td>
+          <td class="direction-cell">&rarr;</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot active"></span></span></td>
+        </tr>
+        <tr data-cat="data">
+          <td><span class="ft-badge data"><span class="dot"></span>Data</span></td>
+          <td class="from-cell">Alumni Networks</td>
+          <td class="to-cell">Evidura</td>
+          <td class="what-cell">Graduate outcome data, career trajectories, salary bands</td>
+          <td class="direction-cell">&rarr;</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <tr data-cat="data">
+          <td><span class="ft-badge data"><span class="dot"></span>Data</span></td>
+          <td class="from-cell">Employers &amp; Industry</td>
+          <td class="to-cell">Evidura</td>
+          <td class="what-cell">Competency requirements, AI-literacy expectations, role evolution signals</td>
+          <td class="direction-cell">&rarr;</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <!-- KNOWLEDGE -->
+        <tr data-cat="knowledge">
+          <td><span class="ft-badge knowledge"><span class="dot"></span>Knowledge</span></td>
+          <td class="from-cell">Academic Board &amp; Mentors</td>
+          <td class="to-cell">Evidura</td>
+          <td class="what-cell">Methodology validation, peer review, statistical rigour checks</td>
+          <td class="direction-cell">&rarr;</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <tr data-cat="knowledge">
+          <td><span class="ft-badge knowledge"><span class="dot"></span>Knowledge</span></td>
+          <td class="from-cell">Wade Institute</td>
+          <td class="to-cell">Evidura</td>
+          <td class="what-cell">Commercialisation know-how, pricing models, IP protection guidance</td>
+          <td class="direction-cell">&rarr;</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <!-- TIME -->
+        <tr data-cat="time">
+          <td><span class="ft-badge time"><span class="dot"></span>Time</span></td>
+          <td class="from-cell">MEC Discover team</td>
+          <td class="to-cell">Evidura</td>
+          <td class="what-cell">7 weeks of mentorship, workshops, pitch coaching, network intros</td>
+          <td class="direction-cell">&rarr;</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot active"></span></span></td>
+        </tr>
+        <tr data-cat="time">
+          <td><span class="ft-badge time"><span class="dot"></span>Time</span></td>
+          <td class="from-cell">Deans &amp; Coordinators</td>
+          <td class="to-cell">Evidura</td>
+          <td class="what-cell">Time invested in assessment process, data collection, review sessions</td>
+          <td class="direction-cell">&rarr;</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <!-- INFLUENCE -->
+        <tr data-cat="influence">
+          <td><span class="ft-badge influence"><span class="dot"></span>Influence</span></td>
+          <td class="from-cell">TEQSA &amp; AQF Council</td>
+          <td class="to-cell">Evidura</td>
+          <td class="what-cell">Compliance requirements, qualification standards, reporting obligations</td>
+          <td class="direction-cell">&rarr;</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot active"></span></span></td>
+        </tr>
+        <tr data-cat="influence">
+          <td><span class="ft-badge influence"><span class="dot"></span>Influence</span></td>
+          <td class="from-cell">DVCR &amp; Provost</td>
+          <td class="to-cell">Evidura</td>
+          <td class="what-cell">Strategic direction, AI strategy mandates, portfolio review directives</td>
+          <td class="direction-cell">&rarr;</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot active"></span></span></td>
+        </tr>
+        <!-- OUTPUTS -->
+        <tr data-cat="output">
+          <td><span class="ft-badge output"><span class="dot"></span>Output</span></td>
+          <td class="from-cell">Evidura</td>
+          <td class="to-cell">Deans &amp; DVCR</td>
+          <td class="what-cell">Viability assessment reports, disruption risk scores, redesign/sunset recommendations</td>
+          <td class="direction-cell">&rarr;</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot active"></span></span></td>
+        </tr>
+        <tr data-cat="output">
+          <td><span class="ft-badge output"><span class="dot"></span>Output</span></td>
+          <td class="from-cell">Evidura</td>
+          <td class="to-cell">Course Coordinators</td>
+          <td class="what-cell">Curriculum gap analysis, specific skill-gap flags, redesign signals</td>
+          <td class="direction-cell">&rarr;</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <tr data-cat="output">
+          <td><span class="ft-badge output"><span class="dot"></span>Output</span></td>
+          <td class="from-cell">Evidura</td>
+          <td class="to-cell">Career Services</td>
+          <td class="what-cell">Aggregated labour-market intelligence, AI-exposure data, career pathway signals</td>
+          <td class="direction-cell">&rarr;</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <tr data-cat="output">
+          <td><span class="ft-badge output"><span class="dot"></span>Output</span></td>
+          <td class="from-cell">Evidura</td>
+          <td class="to-cell">Prospective Students</td>
+          <td class="what-cell">Program quality signal, AI-readiness indicator (trust signal for course selection)</td>
+          <td class="direction-cell">&rarr;</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <!-- POSITIVE EXTERNALITIES -->
+        <tr data-cat="positive">
+          <td><span class="ft-badge positive"><span class="dot"></span>+ Externality</span></td>
+          <td class="from-cell">Evidura (spillover)</td>
+          <td class="to-cell">Current Students</td>
+          <td class="what-cell">Improved graduate employability from curriculum that better aligns with labour-market needs</td>
+          <td class="direction-cell">~</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot active"></span></span></td>
+        </tr>
+        <tr data-cat="positive">
+          <td><span class="ft-badge positive"><span class="dot"></span>+ Externality</span></td>
+          <td class="from-cell">Evidura (spillover)</td>
+          <td class="to-cell">Taxpayers / Public</td>
+          <td class="what-cell">Reduced public education waste; capital reallocates from shrinking occupations to growth areas</td>
+          <td class="direction-cell">~</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <tr data-cat="positive">
+          <td><span class="ft-badge positive"><span class="dot"></span>+ Externality</span></td>
+          <td class="from-cell">Evidura (spillover)</td>
+          <td class="to-cell">Employers</td>
+          <td class="what-cell">Industry receives AI-ready graduates without investing in assessment infrastructure themselves</td>
+          <td class="direction-cell">~</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <tr data-cat="positive">
+          <td><span class="ft-badge positive"><span class="dot"></span>+ Externality</span></td>
+          <td class="from-cell">Evidura (spillover)</td>
+          <td class="to-cell">Go8 Peer Universities</td>
+          <td class="what-cell">Reference framework for their own AI-disruption assessments, raising sector standard</td>
+          <td class="direction-cell">~</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <tr data-cat="positive">
+          <td><span class="ft-badge positive"><span class="dot"></span>+ Externality</span></td>
+          <td class="from-cell">Evidura (spillover)</td>
+          <td class="to-cell">Dept of Education / TEQSA</td>
+          <td class="what-cell">Aggregated evidence on AI disruption patterns to inform sector-wide policy</td>
+          <td class="direction-cell">~</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <tr data-cat="positive">
+          <td><span class="ft-badge positive"><span class="dot"></span>+ Externality</span></td>
+          <td class="from-cell">Evidura (spillover)</td>
+          <td class="to-cell">University of Melbourne</td>
+          <td class="what-cell">Sector leadership signal; strengthens brand and international positioning</td>
+          <td class="direction-cell">~</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot active"></span></span></td>
+        </tr>
+        <tr data-cat="positive">
+          <td><span class="ft-badge positive"><span class="dot"></span>+ Externality</span></td>
+          <td class="from-cell">Evidura (spillover)</td>
+          <td class="to-cell">Institutional Analytics</td>
+          <td class="what-cell">Reusable data infrastructure built for DFVA repurposable for strategic planning and research</td>
+          <td class="direction-cell">~</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <!-- NEGATIVE EXTERNALITIES -->
+        <tr data-cat="negative">
+          <td><span class="ft-badge negative"><span class="dot"></span>&minus; Externality</span></td>
+          <td class="from-cell">Evidura (spillover)</td>
+          <td class="to-cell">Academic Staff</td>
+          <td class="what-cell">Job insecurity: programs flagged "not viable" create pressure for restructuring and redundancies</td>
+          <td class="direction-cell">~</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot active"></span></span></td>
+        </tr>
+        <tr data-cat="negative">
+          <td><span class="ft-badge negative"><span class="dot"></span>&minus; Externality</span></td>
+          <td class="from-cell">Evidura (spillover)</td>
+          <td class="to-cell">Flagged Programs</td>
+          <td class="what-cell">Self-fulfilling prophecy: "at-risk" perception drives enrolment drops independent of actual viability</td>
+          <td class="direction-cell">~</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot active"></span></span></td>
+        </tr>
+        <tr data-cat="negative">
+          <td><span class="ft-badge negative"><span class="dot"></span>&minus; Externality</span></td>
+          <td class="from-cell">Evidura (spillover)</td>
+          <td class="to-cell">Humanities / Arts</td>
+          <td class="what-cell">Systematic undervaluation: AI-lens may miss value not captured by labour-market data (critical thinking, civic, culture)</td>
+          <td class="direction-cell">~</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot active"></span></span></td>
+        </tr>
+        <tr data-cat="negative">
+          <td><span class="ft-badge negative"><span class="dot"></span>&minus; Externality</span></td>
+          <td class="from-cell">Evidura (spillover)</td>
+          <td class="to-cell">Other Academic Initiatives</td>
+          <td class="what-cell">Budget diversion: assessment tool costs pull funding from teaching support, student services, other projects</td>
+          <td class="direction-cell">~</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <tr data-cat="negative">
+          <td><span class="ft-badge negative"><span class="dot"></span>&minus; Externality</span></td>
+          <td class="from-cell">Evidura (spillover)</td>
+          <td class="to-cell">Curriculum Design</td>
+          <td class="what-cell">Goodhart's Law: once programs are measured against specific metrics, curriculum optimises for the metric, not genuine learning</td>
+          <td class="direction-cell">~</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot active"></span></span></td>
+        </tr>
+        <tr data-cat="negative">
+          <td><span class="ft-badge negative"><span class="dot"></span>&minus; Externality</span></td>
+          <td class="from-cell">Evidura (spillover)</td>
+          <td class="to-cell">University Reputation</td>
+          <td class="what-cell">If methodology or data is publicly contested, institutional credibility is damaged by association</td>
+          <td class="direction-cell">~</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <tr data-cat="negative">
+          <td><span class="ft-badge negative"><span class="dot"></span>&minus; Externality</span></td>
+          <td class="from-cell">Evidura (spillover)</td>
+          <td class="to-cell">Competitive Position</td>
+          <td class="what-cell">Transparency risk: openly flagging weak programs while competitors stay opaque may lose prospective students</td>
+          <td class="direction-cell">~</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot"></span><span class="mag-dot"></span></span></td>
+        </tr>
+        <tr data-cat="negative">
+          <td><span class="ft-badge negative"><span class="dot"></span>&minus; Externality</span></td>
+          <td class="from-cell">Evidura (spillover)</td>
+          <td class="to-cell">Data Dependency</td>
+          <td class="what-cell">Reliance on external data (LinkedIn, Lightcast) creates vulnerability; if access degrades, assessments lose credibility</td>
+          <td class="direction-cell">~</td>
+          <td><span class="mag"><span class="mag-dot active"></span><span class="mag-dot active"></span><span class="mag-dot"></span></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <p>Evidura (DFVA) — Degree Future-Viability Assessment · MEC Discover Pre-accelerator · University of Melbourne</p>
+  <p>Flow map for program deliverable. Magnitude ratings are indicative, based on stakeholder role analysis. ~ = spillover externality (non-transactional).</p>
+</footer>
+
+<script>
+(function() {
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const rows = document.querySelectorAll('#flow-table tbody tr');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      let count = 0;
+      rows.forEach(row => {
+        if (filter === 'all' || row.dataset.cat === filter) {
+          row.style.display = '';
+          count++;
+        } else {
+          row.style.display = 'none';
+        }
+      });
+      document.getElementById('stat-total').textContent = count;
+    });
+  });
+})();
+</script>
+
+</body>
+</html>

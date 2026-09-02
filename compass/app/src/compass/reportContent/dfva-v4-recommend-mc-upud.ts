@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Urban Planning/Master of Urban Design is a combined professional degree, with the Master of Urban Planning component accredited by the Planning Institute of Australia (PIA) over an all-compulsory specialist core and a staged studio/thesis prerequisite chain — Urban Design Studio A → B → C, and the Minor Thesis's explicit Part 1 → Part 2 sequence (gates G1 and G2 both PASS). On Sub-scale A (**10 / 15**), the curriculum's strongest item is a Level 3 self-scoped capstone (**C4: 3/3**) — the Minor Thesis is named directly as "a capstone option," and the Urban Design Thesis as "the culmination of each student's studies" — while its weakest is AI and digital literacy (**C3: 1/3**): the extract's only AI/machine-learning content sits in the elective Computational Design and Optimisation, and no core unit addresses AI capabilities together with limitations or ethics. Collaboration (**C1: 2/3**) and evaluative judgement (**C2: 2/3**) both clear the core-assessed-group-work bar but stop short of documented people-plus-tool coordination or reliance-justification assessment; inquiry (**C5: 2/3**) is held at Level 2 because the only candidate defence-under-scrutiny evidence does not describe panel questioning, an ambiguity resolved to the lower level per the scoring-direction rule.

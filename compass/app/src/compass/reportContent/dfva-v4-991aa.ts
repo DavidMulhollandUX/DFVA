@@ -28,7 +28,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 93.92.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 1 of 11 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 010103 Statistics; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **above** it.
+**Destination AI Exposure: 93.92.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 1 of 11 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 010103 Statistics; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -195,20 +195,20 @@ The market intelligence gathered for this program indicates strong, recession-re
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Clinical Trial & Medical Biostatistics | Biostatistician, Clinical Trial Statistician | Senior Biostatistician, Biometrics Lead, Principal Statistician | LOW–MEDIUM | Causal inference modeling, adaptive clinical trial design, target trial emulation |
-| 2 | Epidemiological & Public Health Modeling | Epidemiological Modeller, Health Data Analyst | Senior Epidemiologist, Public Health Modeling Lead | LOW–MEDIUM | Longitudinal survival analysis, Bayesian spatio-temporal modeling, infectious disease simulation |
-| 3 | Pharmaceutical & Biotech Quantitative Analytics | Quantitative Biometrics Analyst, RWE Data Analyst | Associate Director (Biometrics), Regulatory Statistician | MEDIUM | Real-world evidence (RWE) synthesis, synthetic control arms, automated FDA/TGA CDISC compliance |
-| 4 | Government Health Data & Registry Analytics | AIHW Statistical Analyst, Registry Biostatistician | Principal Statistical Officer, Health Registry Director | LOW–MEDIUM | Multi-jurisdictional health data linkage, privacy-preserving record linkage (PPRL), administrative data cleaning |
-| 5 | Statistical Consulting & Interprofessional Health Research | Biostatistical Consultant, Research Fellow | Senior Consulting Biostatistician, Head of Statistical Consulting Platform | LOW | Clinical investigator co-design, interdisciplinary translation of statistical output, statistical protocol review |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Clinical Trial & Medical Biostatistics | Biostatistician, Clinical Trial Statistician; later Senior Biostatistician, Biometrics Lead, Principal Statistician | LOW–MEDIUM | Causal inference modeling, adaptive clinical trial design, target trial emulation |
+| Epidemiological & Public Health Modeling | Epidemiological Modeller, Health Data Analyst; later Senior Epidemiologist, Public Health Modeling Lead | LOW–MEDIUM | Longitudinal survival analysis, Bayesian spatio-temporal modeling, infectious disease simulation |
+| Pharmaceutical & Biotech Quantitative Analytics | Quantitative Biometrics Analyst, RWE Data Analyst; later Associate Director (Biometrics), Regulatory Statistician | MEDIUM | Real-world evidence (RWE) synthesis, synthetic control arms, automated FDA/TGA CDISC compliance |
+| Government Health Data & Registry Analytics | AIHW Statistical Analyst, Registry Biostatistician; later Principal Statistical Officer, Health Registry Director | LOW–MEDIUM | Multi-jurisdictional health data linkage, privacy-preserving record linkage (PPRL), administrative data cleaning |
+| Statistical Consulting & Interprofessional Health Research | Biostatistical Consultant, Research Fellow; later Senior Consulting Biostatistician, Head of Statistical Consulting Platform | LOW | Clinical investigator co-design, interdisciplinary translation of statistical output, statistical protocol review |
 
 **Exposure basis declaration.** Destination AI exposure is **93.92** (estimated basis derived from JSA HEO · 010103 Statistics), sitting **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | SSA accreditation and GCP clinical trial statistical compliance | Sustained High | Medical research institutes and contract research organisations require Statistical Society of Australia accreditation and GCP-compliant Statistical Analysis Plans (SAPs). — G1, W1, W2 |
 | Generative AI coding assistants in statistical programming | Rising / Volatile | AI coding tools accelerate routine data management, but produce subtle errors in complex survey designs; biostatisticians must audit and override AI-generated scripts. — C2, C3, W2 |
 | Target trial emulation and causal inference in observational health data | Rising | Leading medical journals and regulators require formal directed acyclic graph (DAG) modeling to eliminate confounding in linked health datasets. — C5, C2, G2 |
@@ -220,7 +220,7 @@ The market intelligence gathered for this program indicates strong, recession-re
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-991aa.md); rows
@@ -239,7 +239,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **field** (field grain), n = 0, 11 destination titles, 1 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
+**Panel A metadata.** Basis tier **field** (field grain), n = 0, 11 destination titles, 1 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-16: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

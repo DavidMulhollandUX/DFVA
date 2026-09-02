@@ -77,6 +77,18 @@ A review of Reddit r/techtheatre surfaced practitioners asking about current and
 | Scholarly analysis of AI in theatre production | HIGH | Backed by peer-reviewed literature (Horváth 2025) |
 | Production workforce and trade practice | HIGH | Derived from US/UK/Aus trade publications (American Theatre, Live Design) |
 | Australian live production workforce volumes | MEDIUM | Industry body data provides macro context; entry-level vacancies are informal |
+
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
+
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **100103 Drama and Theatre Studies** (n = 1,770 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 45.2% of them, and the 5 largest are shown at each stage.
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Actor (10.2%) · Sales Assistant (General) (7.9%) · Entertainer or Variety Artist (6.2%) · Waiter (4.5%) · General Clerk (3.4%) |
+| Early (~3yr) | Actor (10.2%) · Sales Assistant (General) (6.8%) · Entertainer or Variety Artist (5.1%) · General Clerk (2.8%) · Waiter (2.8%) |
+| Senior (~5yr) | Actor (8.5%) · Entertainer or Variety Artist (5.1%) · Sales Assistant (General) (4.5%) · General Clerk (2.3%) · Waiter (1.7%) |
+
+**Field grain, not program grain.** These are graduates of the whole Drama and Theatre Studies field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 `,
 };
 

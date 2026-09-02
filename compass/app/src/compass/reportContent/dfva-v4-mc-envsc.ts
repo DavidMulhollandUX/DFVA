@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-14
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-envsc (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 35 pages captured
+**Course Director:** Jay Black
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -17,7 +18,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 83.13.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 32). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 83.13.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 32). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -156,20 +157,20 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Environmental Consulting & Impact Assessment | Environmental Consultant, EIA Graduate | Senior Environmental Consultant, CEnvP Specialist | MEDIUM | EPBC Act / Nature Positive approvals, contamination risk assessment, client liaison |
-| 2 | Corporate Sustainability & ESG Disclosure | ESG Analyst, Sustainability Advisor | Senior ESG Manager, Head of Sustainability | LOW | Mandatory climate reporting (AASB/TCFD/TNFD), scope 1-3 carbon accounting, life cycle analysis |
-| 3 | Environmental Policy & Public Sector Regulation | Policy Officer, Regulatory Officer (DCCEEW / EPA) | Senior Policy Analyst, Regulatory Program Manager | LOW–MEDIUM | Statutory environmental compliance, environmental risk frameworks, stakeholder negotiation |
-| 4 | Catchment Hydrology & Water Resource Management | Graduate Hydrologist, Water Quality Officer | Senior Water Scientist, Catchment Modeller | LOW | Integrated catchment modelling, remote sensing hydrology, flood resilience planning |
-| 5 | Environmental Data Science & Remote Sensing | Spatial Data Analyst, Geospatial Officer | Senior Environmental Data Scientist, Earth Observation Lead | MEDIUM | Python/R spatial analysis (geopandas), Google Earth Engine, automated satellite processing |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Environmental Consulting & Impact Assessment | Environmental Consultant, EIA Graduate; later Senior Environmental Consultant, CEnvP Specialist | MEDIUM | EPBC Act / Nature Positive approvals, contamination risk assessment, client liaison |
+| Corporate Sustainability & ESG Disclosure | ESG Analyst, Sustainability Advisor; later Senior ESG Manager, Head of Sustainability | LOW | Mandatory climate reporting (AASB/TCFD/TNFD), scope 1-3 carbon accounting, life cycle analysis |
+| Environmental Policy & Public Sector Regulation | Policy Officer, Regulatory Officer (DCCEEW / EPA); later Senior Policy Analyst, Regulatory Program Manager | LOW–MEDIUM | Statutory environmental compliance, environmental risk frameworks, stakeholder negotiation |
+| Catchment Hydrology & Water Resource Management | Graduate Hydrologist, Water Quality Officer; later Senior Water Scientist, Catchment Modeller | LOW | Integrated catchment modelling, remote sensing hydrology, flood resilience planning |
+| Environmental Data Science & Remote Sensing | Spatial Data Analyst, Geospatial Officer; later Senior Environmental Data Scientist, Earth Observation Lead | MEDIUM | Python/R spatial analysis (geopandas), Google Earth Engine, automated satellite processing |
 
 **Exposure basis declaration.** Destination AI exposure is **83.18** (exact basis derived from Environmental Science graduate destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Surge in mandatory ESG and climate disclosure compliance | Rising | Consultancies recruit environmental scientists skilled in carbon accounting and TNFD reporting. — C2, C4, G2 |
 | Sustained infrastructure EIA and statutory approvals pipeline | Sustained High | Federal and Victorian major projects require EPBC Act and environmental risk assessment. — W2, G1 |
 | Spatial data science and Google Earth Engine upskilling | Rising | Employers require proficiency in Python/R spatial analysis to process satellite and drone data. — C3, W2 |
@@ -181,7 +182,7 @@ The market intelligence gathered for this program indicates strong demand across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-envsc.md); rows
@@ -200,7 +201,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 32. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 32. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-14: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

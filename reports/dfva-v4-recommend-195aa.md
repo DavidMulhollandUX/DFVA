@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Construction Law provides an elite, highly specialised postgraduate qualification in construction procurement, risk allocation, contract administration, and dispute resolution. G1 passes on a coherent specialist core structured across foundation, contracting, project delivery, dispute avoidance, and capstone streams (LAWS70128). G2 passes on defended risk-allocation decisions under real contractual and commercial uncertainty across drafting tasks (LAWS70270), risk analysis (LAWS70149), and reform contemplation (LAWS90229).

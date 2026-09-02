@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Data Science prepares specialist data scientists, machine learning engineers, quantitative researchers, and statistical modelers for leading technology companies, financial institutions, research agencies, and health organizations (Atlassian, Canva, CSIRO, Macquarie Group, Cochlear, Optiver). Both gates pass cleanly: G1 passes on a 200-point rigorous core comprising 75 points of compulsory statistics and computer science units plus a compulsory 25-point capstone project; G2 passes on defended machine learning evaluations, statistical assumption handling under incomplete data, and open-ended practical problem solving.

@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Arts and Cultural Management provides a comprehensive professional qualification in arts leadership, cultural policy, and creative enterprise operations. G1 passes on a staged progression across 62.5 credit points of compulsory subjects (principles, policy, operations, cultural economics, and applied research methods) culminating in a required capstone stream. G2 passes on defended trade-offs and live project management under incomplete information across capstone streams (ARTS90024, MULT90064, AMGT90027/28) and authentic grant proposals (AMGT90013).

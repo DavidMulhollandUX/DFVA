@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Doctor of Physiotherapy is an APC-accredited, AHPRA-registered professional entry degree leading to registration as a physiotherapist in Australia, preparing musculoskeletal, hospital cardiorespiratory, neurological, paediatric, and aged-care practitioners. Both gates pass decisively: G1 passes on an all-compulsory 300-point accredited sequence with clear staging from foundation biomedical sciences to condition-specific streams and clinical placements; G2 passes on live patient treatment decisions under uncertainty with continuous clinical assessment, differential diagnosis in complex scenarios, and timed hurdle OSCEs.

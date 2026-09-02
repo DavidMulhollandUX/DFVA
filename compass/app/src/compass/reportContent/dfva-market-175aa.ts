@@ -93,11 +93,11 @@ Economic analysis by [LPA](https://liveperformance.com.au/) (2024/2025) highligh
 | Performing arts & festival sector hiring | HIGH | Creative Australia workforce reports and LPA industrial surveys provide clear benchmarks |
 | National Cultural Policy standards | HIGH | *Revive* policy documentation and Creative Australia funding guidelines |
 | AI impact on arts marketing & CRM | HIGH | Broad consensus across ticketing platforms (Tessitura, Spektrix) and arts marketing networks |
-| Program-specific granular graduate salary tracking | MEDIUM | Derived from JSA HEO / ATO tax-linked administrative datasets for arts management |
+| Program-specific granular graduate salary tracking | MEDIUM | Derived from Jobs and Skills Australia Higher Education Outcomes (JSA HEO) / ATO tax-linked administrative datasets for arts management |
 
 ---
 
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **080399 Business and Management, n.e.c.** (n = 27,400 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 33.3% of them, and the 5 largest are shown at each stage.
 

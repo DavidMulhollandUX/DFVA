@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Employment and Labour Relations Law (510AA) is a 100-point postgraduate specialist law degree offered by Melbourne Law School for lawyers, workplace relations specialists, and trade union/employer advocates. The program fails Gate G1 due to the lack of an all-compulsory specialist core, accredited sequence, or staged prerequisite chain (entrants choose across elective lists with zero compulsory sequencing), while Gate G2 passes on take-home examinations, contested industrial relations problems, and discriminatory standard of proof applications under conditions of legal and policy uncertainty.

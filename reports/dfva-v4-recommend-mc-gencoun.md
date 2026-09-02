@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Genetic Counselling is a 200-point entry-to-practice postgraduate degree preparing associate genetic counsellors, familial cancer counsellors, and genomic variant curation specialists for certification with the Human Genetics Society of Australasia (HGSA) Board of Censors in Genetic Counselling. Both gates pass unconditionally: G1 passes on an all-compulsory 200-point curriculum accredited by HGSA with a 70% progression requirement gating Year 2 entry; G2 passes on live clinical placement management of complex genomic uncertainties, variant interpretation trade-offs, and emotionally charged multi-party counselling sessions.

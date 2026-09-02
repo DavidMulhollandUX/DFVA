@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Urban Horticulture achieves a solid baseline with Adaptiveness **8 / 15** and Workplace practice **5 / 9**, comfortably satisfying both Gate G1 (100-point specialist core sequence across plant science, soil substrates, green infrastructure, and capstone) and Gate G2 (diagnostic problem-solving under environmental and biological uncertainty). However, significant gaps exist in digital AI literacy and spatial telemetry (C3: 1/3), student-designed primary empirical inquiry (C5: 1/3), and core work-situated learning (W3: 1/3, currently confined to elective internships).

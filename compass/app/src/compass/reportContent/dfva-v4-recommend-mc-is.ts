@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Information Systems is an advanced professional coursework degree preparing ICT business analysts, enterprise architects, technology consultants, and IT governance leads for major consultancies (Deloitte, PwC, Accenture), tech enterprises (Atlassian, Canva, AWS, Microsoft), and financial institutions (ANZ Bank). Both gates pass: G1 passes on an accredited Australian Computer Society sequence with 125 credit points of compulsory IS subjects (foundations in Year 1 through strategy, governance, and architecture in Year 2) plus a 25-point capstone; G2 passes on diagnosing case organisations' governance gaps, defending multi-stage implementation plans, and evaluating project risks under real uncertainty.

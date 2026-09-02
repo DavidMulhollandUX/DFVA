@@ -28,7 +28,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 72.79.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 13 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 099903 Criminology; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
+**Destination AI Exposure: 72.79.** Destination titles are crosswalked to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 13 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 099903 Criminology; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -122,28 +122,28 @@ combined total: the sub-scores are reported side by side and never added.
 
 Destination job families and exposure values for Master of Criminology (274AB), condensed from [the market intelligence report](dfva-market-274ab.md):
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | AI Exposure |
-|---|---|---|---|---|---|
-| 1 | Justice Policy & Program Evaluation | Policy Officer, Justice Research Analyst | Senior Policy Advisor, Justice Program Lead | LOW–MODERATE | 71.07 |
-| 2 | Crime Prevention & Community Safety | Crime Prevention Officer, Project Officer | Community Safety Coordinator, Senior Project Manager | LOW | 71.07 |
-| 3 | Regulatory Compliance & Integrity | Compliance Analyst, Integrity Officer | Senior Investigator, Head of Regulatory Compliance | LOW | 71.07 |
-| 4 | Corrections & Reintegration Services | Case Manager, Reintegration Officer | Senior Operations Specialist, Corrections Policy Advisor | LOW | 71.07 |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Justice Policy & Program Evaluation | Policy Officer, Justice Research Analyst; later Senior Policy Advisor, Justice Program Lead | LOW–MODERATE | Program evaluation, qualitative synthesis, stakeholder engagement |
+| Crime Prevention & Community Safety | Crime Prevention Officer, Project Officer; later Community Safety Coordinator, Senior Project Manager | LOW | Trauma-informed practice, community co-design, inter-agency coordination |
+| Regulatory Compliance & Integrity | Compliance Analyst, Integrity Officer; later Senior Investigator, Head of Regulatory Compliance | LOW | Automated pattern recognition oversight, investigative auditing |
+| Corrections & Reintegration Services | Case Manager, Reintegration Officer; later Senior Operations Specialist, Corrections Policy Advisor | LOW | Risk assessment tool critique, desistance frameworks, client advocacy |
 
 Signals and skill shifts mapped to scored Panel C and Workplace items:
 
-| Signal / Shift | Direction | Evidence | Bearing |
-|---|---|---|---|
-| Algorithmic risk auditing & predictive policing governance | Rising | AIC and ANZSOC guidance (2025) requiring critical oversight of automated risk tools | C3, C2, G1 |
-| Place-based prevention & multi-agency co-design | Rising | Community safety partnerships across local councils and legal centres | C1, W1, W3 |
-| Trauma-informed practice & mixed-methods evaluation | Rising | VLRC inquiry frameworks and coronial review standards | C5, W2, G2 |
-| Routine administrative case logging & reporting | Declining | Automation of standard compliance tracking and registry filings | C3, W2 |
-| Defended policy formulation under institutional ambiguity | Stable / Rising | High demand for qualitative synthesis and policy translation | G2, C4, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+| --- | --- | --- |
+| Algorithmic risk auditing & predictive policing governance — AIC and ANZSOC guidance (2025) requiring critical oversight of automated risk tools | Rising | C3, C2, G1 |
+| Place-based prevention & multi-agency co-design — Community safety partnerships across local councils and legal centres | Rising | C1, W1, W3 |
+| Trauma-informed practice & mixed-methods evaluation — VLRC inquiry frameworks and coronial review standards | Rising | C5, W2, G2 |
+| Routine administrative case logging & reporting — Automation of standard compliance tracking and registry filings | Declining | C3, W2 |
+| Defended policy formulation under institutional ambiguity — High demand for qualitative synthesis and policy translation | Stable / Rising | G2, C4, W1 |
 
 **Confidence:** High for national research and law reform frameworks (AIC, ANZSOC, VLRC); Medium for graduate destination profile (derived from JSA HEO 099903 Criminology field data).
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-274ab.md); rows

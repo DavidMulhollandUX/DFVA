@@ -23,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 92.27.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 13 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 64, 13 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 92.27.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 13 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 64, 13 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 10 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -120,16 +120,16 @@ The market context is condensed from [\`reports/dfva-market-mc-inslead.md\`](dfv
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| School Executive Leadership & Principalship | Assistant Principal, Leading Teacher | Principal, Executive Director (School Networks) | 91.50 | MODERATE | High-stakes community negotiation, crisis management, staff development & relational coaching |
-| Instructional Coaching & Pedagogy Leadership | Instructional Coach, Learning Specialist | Director of Teaching & Learning, Head of Curriculum | 92.50 | HIGH | Neuro-informed pedagogy design, generative AI lesson review audit, teacher coaching & evaluation |
-| Systemic Educational Policy & Quality Assurance | Senior Education Officer, Curriculum Policy Adviser | Regional Quality Director, Senior Policy Lead (ACARA / Dept of Ed) | 93.00 | HIGH | Algorithmic assessment policy compliance, system-wide data governance, evidence-based program evaluation |
-| Educational Measurement & Diagnostic Analytics | Assessment Coordinator, Data Strategist | Director of Assessment, Senior Psychometrician | 92.00 | VERY HIGH | Machine learning learning-analytics validation, diagnostic test audit, longitudinal progress modeling |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| School Executive Leadership & Principalship | Assistant Principal, Leading Teacher; later Principal, Executive Director (School Networks) | MODERATE (exposure 91.50) | High-stakes community negotiation, crisis management, staff development & relational coaching |
+| Instructional Coaching & Pedagogy Leadership | Instructional Coach, Learning Specialist; later Director of Teaching & Learning, Head of Curriculum | HIGH (exposure 92.50) | Neuro-informed pedagogy design, generative AI lesson review audit, teacher coaching & evaluation |
+| Systemic Educational Policy & Quality Assurance | Senior Education Officer, Curriculum Policy Adviser; later Regional Quality Director, Senior Policy Lead (ACARA / Dept of Ed) | HIGH (exposure 93.00) | Algorithmic assessment policy compliance, system-wide data governance, evidence-based program evaluation |
+| Educational Measurement & Diagnostic Analytics | Assessment Coordinator, Data Strategist; later Director of Assessment, Senior Psychometrician | VERY HIGH (exposure 92.00) | Machine learning learning-analytics validation, diagnostic test audit, longitudinal progress modeling |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Proliferation of generative AI lesson planners and automated diagnostic assessment software | Rising | C2, C3 |
 | Statutory national mandates for evidence-based teaching and ethical student AI data governance (AITSL / AERO) | Rising | C3, G1 |
@@ -141,7 +141,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-inslead.md); rows
@@ -159,7 +159,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 64, 13 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 64, 13 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-25: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

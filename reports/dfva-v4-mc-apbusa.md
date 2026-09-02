@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 90.73.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Master of Management (n = 655); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 90.73.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Master of Management (n = 655); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -161,20 +161,20 @@ The market intelligence gathered for this program indicates strong commercial de
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Commercial Data Analytics & Business Intelligence | Business Analytics Associate, Commercial Insights Analyst | Senior Business Analytics Manager, Head of Commercial Analytics | HIGH | Automated BI dashboard audit, causal impact inference, executive narrative framing |
-| 2 | Machine Learning Engineering & Predictive Modeling | Applied ML Analyst, Predictive Modeller | Lead ML Engineer, Data Science Delivery Manager | HIGH | LLM pipeline orchestration (LangChain, LlamaIndex), feature store governance, MLOps monitoring |
-| 3 | Marketing & Customer Lifetime Analytics | Customer Analytics Specialist, Growth Analyst | Director of Customer Intelligence, Marketing Analytics Lead | MEDIUM–HIGH | Algorithmic attribution modeling, churn prediction, personalization engine governance |
-| 4 | Supply Chain, Operations & Revenue Optimization | Operations Analytics Specialist, Pricing Analyst | Supply Chain Optimization Director, Revenue Management Lead | MEDIUM | Mathematical integer programming (Gurobi/CPLEX), dynamic pricing auditing, simulation |
-| 5 | Enterprise AI Governance & Algorithmic Risk Auditing | AI Governance Analyst, Algorithmic Risk Consultant | Head of Responsible AI, Model Risk Director (Banking/APRA) | LOW–MEDIUM | Algorithmic bias mitigation, CPS 234/230 prudential compliance, AI transparency verification |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Commercial Data Analytics & Business Intelligence | Business Analytics Associate, Commercial Insights Analyst; later Senior Business Analytics Manager, Head of Commercial Analytics | HIGH | Automated BI dashboard audit, causal impact inference, executive narrative framing |
+| Machine Learning Engineering & Predictive Modeling | Applied ML Analyst, Predictive Modeller; later Lead ML Engineer, Data Science Delivery Manager | HIGH | LLM pipeline orchestration (LangChain, LlamaIndex), feature store governance, MLOps monitoring |
+| Marketing & Customer Lifetime Analytics | Customer Analytics Specialist, Growth Analyst; later Director of Customer Intelligence, Marketing Analytics Lead | MEDIUM–HIGH | Algorithmic attribution modeling, churn prediction, personalization engine governance |
+| Supply Chain, Operations & Revenue Optimization | Operations Analytics Specialist, Pricing Analyst; later Supply Chain Optimization Director, Revenue Management Lead | MEDIUM | Mathematical integer programming (Gurobi/CPLEX), dynamic pricing auditing, simulation |
+| Enterprise AI Governance & Algorithmic Risk Auditing | AI Governance Analyst, Algorithmic Risk Consultant; later Head of Responsible AI, Model Risk Director (Banking/APRA) | LOW–MEDIUM | Algorithmic bias mitigation, CPS 234/230 prudential compliance, AI transparency verification |
 
 **Exposure basis declaration.** Destination AI exposure is **95.64** (exact basis derived from Business Analytics graduate destinations), sitting **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Enterprise adoption of automated analytics and AI coding assistants | Rising / Volatile | Routine Python/SQL script generation is automated, raising the demand for analysts who can audit and validate algorithmic outputs. — C2, C3, W2 |
 | Financial services demand for AI governance and model risk auditors | Sustained High | Banks recruit analytics graduates to audit algorithmic bias and comply with APRA model risk standards. — C3, G1 |
 | Supply chain optimization and integer programming demand | Rising | Enterprise retailers seek analysts skilled in mixed-integer programming and simulation under supply chain volatility. — C4, C5, G2 |
@@ -186,7 +186,7 @@ The market intelligence gathered for this program indicates strong commercial de
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-apbusa.md); rows
@@ -205,7 +205,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **partial** (related program), n = 655. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: Reconciliation package tier partial.
+**Panel A metadata.** Basis tier **partial** (related program), n = 655. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Reconciliation package tier partial.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-14: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

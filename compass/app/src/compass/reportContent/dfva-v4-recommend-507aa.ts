@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Health and Medical Law (507AA) is a 100-point postgraduate specialist law degree offered by Melbourne Law School for lawyers, clinicians, and healthcare administrators. The program fails Gate G1 due to the absence of an all-compulsory specialist core sequence, accredited sequence, or staged prerequisite chain (87.5 of 100 credit points are drawn from elective prescribed lists with zero compulsory core subjects for common-law entrants), while Gate G2 passes on take-home examinations, contested medical ethics debates, and regulatory evaluations under conditions of clinical and legal uncertainty.

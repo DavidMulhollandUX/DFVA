@@ -12,7 +12,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Law and Development (635AA) exhibits high exposure (94.83, partial basis derived from Master of Laws) and low curriculum adaptiveness (6 / 15), alongside a workplace practice sub-score of 3 / 9. The program's adaptiveness profile rests heavily on individual legal inquiry (C4 = 2/3, C5 = 2/3), where substantial supervised research papers (4,000–8,000 words) across elective units demonstrate student capacity to apply legal methodology to novel questions. Both gates pass: G1 on a coherent specialist disciplinary sequence in Law and Development, and G2 on defended legal analysis under institutional and regulatory uncertainty.

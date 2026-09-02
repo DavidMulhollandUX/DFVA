@@ -67,7 +67,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Indigenous data sovereignty and CARE principles literacy | **↑↑ Rising sharply** | CI-1 (§5) states rising demand for AI-literate research leaders who can govern AI use around community data "is not currently matched by explicit curriculum content," while Signal 2 (§2) documents ACCOs actively reducing reliance on external research intermediaries. |

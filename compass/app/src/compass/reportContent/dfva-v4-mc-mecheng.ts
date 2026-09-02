@@ -23,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 85.55.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 13 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 24, 13 titles). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 85.55.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 13 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 24, 13 titles). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -122,16 +122,16 @@ The market context is condensed from [\`reports/dfva-market-mc-mecheng.md\`](dfv
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Mechanical Systems Design & Thermal/Fluids | Mechanical Engineer, Thermal Systems Analyst | Lead Mechanical Architect, Principal Design Engineer | 86.50 | HIGH | AI-driven topology optimization, generative CAD design, multi-physics CFD/FEA validation |
-| Mechatronics, Robotics & Automation Systems | Robotics Engineer, Automation Systems Specialist | Lead Robotics Architect, Head of Autonomous Systems | 84.50 | MODERATE | ROS2 autonomy pipelines, sensor fusion, cyber-physical safety verification |
-| Manufacturing, Materials & Production Operations | Manufacturing Engineer, Materials Quality Specialist | Production Operations Manager, Advanced Manufacturing Lead | 85.00 | MODERATE | Additive manufacturing qualification, digital twin monitoring, sustainable material lifecycle audit |
-| Energy Transition & Heavy Infrastructure | Energy Systems Engineer, Plant Operations Specialist | Chief Mechanical Engineer, Infrastructure Project Director | 86.00 | MODERATE | Clean energy integration, green hydrogen systems, physical asset reliability modeling |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Mechanical Systems Design & Thermal/Fluids | Mechanical Engineer, Thermal Systems Analyst; later Lead Mechanical Architect, Principal Design Engineer | HIGH (exposure 86.50) | AI-driven topology optimization, generative CAD design, multi-physics CFD/FEA validation |
+| Mechatronics, Robotics & Automation Systems | Robotics Engineer, Automation Systems Specialist; later Lead Robotics Architect, Head of Autonomous Systems | MODERATE (exposure 84.50) | ROS2 autonomy pipelines, sensor fusion, cyber-physical safety verification |
+| Manufacturing, Materials & Production Operations | Manufacturing Engineer, Materials Quality Specialist; later Production Operations Manager, Advanced Manufacturing Lead | MODERATE (exposure 85.00) | Additive manufacturing qualification, digital twin monitoring, sustainable material lifecycle audit |
+| Energy Transition & Heavy Infrastructure | Energy Systems Engineer, Plant Operations Specialist; later Chief Mechanical Engineer, Infrastructure Project Director | MODERATE (exposure 86.00) | Clean energy integration, green hydrogen systems, physical asset reliability modeling |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Rapid deployment of generative CAD, AI topology optimization, and automated multi-physics FEA | Rising | C2, C5 |
 | Statutory national cyber-physical safety governance and AS/NZS regulatory compliance | Rising | C3, G1 |
@@ -143,7 +143,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-mecheng.md); rows
@@ -162,7 +162,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 24, 13 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 24, 13 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-24: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

@@ -3,7 +3,7 @@
 **Institution:** University of Melbourne
 **Assessment date:** 2026-08-14
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-mgmthre
-**Destination basis:** the program's own exact-name JIR/LiveAlumni alumni record (n = 28, 15 titles, three career stages), crosswalked to the published Felten AIOE index. Program mean exposure **94.14**; entry-stage mean 91.75.
+**Destination basis:** the program's own exact-name Job Insights Report (JIR)/LiveAlumni alumni record (n = 28, 15 titles, three career stages), mapped to the published Felten AI Occupational Exposure (AIOE) index. Program mean exposure **94.14**; entry-stage mean 91.75.
 
 > **What this report is and is not.** Section 1 rests on the program's own alumni record
 > and the published Felten index. Section 2 rests on named regulatory instruments.
@@ -221,3 +221,17 @@ indicative, not as primary statistics.
 7. **Regulatory reach.** The EU AI Act and NYC LL144 do not bind an Australian employer
    directly. They are included because they set the compliance template multinationals
    apply globally, and because signal 3 is the Australian instrument that does bind.
+
+<!-- LABOUR-EVIDENCE:START -->
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
+
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **080303 Human Resource Management** (n = 4,750 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 56.0% of them, and the 5 largest are shown at each stage.
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Human Resource Adviser (22.5%) · Human Resource Manager (10.7%) · General Clerk (4.6%) · Human Resource Clerk (3.8%) · Recruitment Consultant (3.4%) |
+| Early (~3yr) | Human Resource Adviser (24.0%) · Human Resource Manager (13.3%) · General Clerk (3.8%) · Human Resource Clerk (3.4%) · Recruitment Consultant (3.4%) |
+| Senior (~5yr) | Human Resource Adviser (23.2%) · Human Resource Manager (15.8%) · General Clerk (3.2%) · Recruitment Consultant (3.2%) · Program or Project Administrator (2.7%) |
+
+**Field grain, not program grain.** These are graduates of the whole Human Resource Management field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
+<!-- LABOUR-EVIDENCE:END -->

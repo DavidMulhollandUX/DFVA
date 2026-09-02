@@ -16,7 +16,8 @@ const content = {
 | Sustainability Consultant | **MEDIUM** — reporting automating; strategy durable | Big 4 and boutique consultancies building climate practices |
 | Renewable Energy Analyst | **MEDIUM** — data analysis automating | Energy transition creating net-new analytical roles |
 
-## Key Signals
+**Key signals**
+
 - Climate risk assessment is among the fastest-growing professional services segments globally. Australian mandatory climate disclosure (2025+) is a structural demand driver.
 - Insurance and banking sectors building internal climate risk teams — actuarial-adjacent opportunity
 - Climate Science for Decision-Making subject is well-targeted at the science-policy interface
@@ -161,7 +162,7 @@ Research in [Higher Education Research & Development](https://www.tandfonline.co
 
 **Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
 
-*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+*Sources: Jobs and Skills Australia Higher Education Outcomes (JSA HEO) Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 `,
 };
 

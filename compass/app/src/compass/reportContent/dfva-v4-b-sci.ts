@@ -18,7 +18,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 82.72.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: union of the program family's 23 alumni records — Bachelor of Science (Animal Health And Disease) ∪ Bachelor of Science (Biochemistry and Molecular ∪ Bachelor of Science (Biotechnology) ∪ Bachelor of Science (Chemistry) ∪ Bachelor of Science (Computing And Software ∪ Bachelor of Science (Data Science) ∪ Bachelor of Science (Ecology And Evolutionary ∪ Bachelor of Science (Environmental Science) ∪ Bachelor of Science (Food Science) ∪ Bachelor of Science (Genetics) ∪ Bachelor of Science (Geology) ∪ Bachelor of Science (Human Structure and ∪ Bachelor of Science (Mathematical Physics) ∪ Bachelor of Science (Mathematics and Statistics) ∪ Bachelor of Science (Microbiology) ∪ Bachelor of Science (Neuroscience) ∪ Bachelor of Science (Pathology) ∪ Bachelor of Science (Pharmacology) ∪ Bachelor of Science (Physics) ∪ Bachelor of Science (Physiology) ∪ Bachelor of Science (Psychology) ∪ Bachelor of Science (Veterinary Bioscience) ∪ Bachelor of Science (Zoology) (n = 3650). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 82.72.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: union of the program family's 23 alumni records — Bachelor of Science (Animal Health And Disease) ∪ Bachelor of Science (Biochemistry and Molecular ∪ Bachelor of Science (Biotechnology) ∪ Bachelor of Science (Chemistry) ∪ Bachelor of Science (Computing And Software ∪ Bachelor of Science (Data Science) ∪ Bachelor of Science (Ecology And Evolutionary ∪ Bachelor of Science (Environmental Science) ∪ Bachelor of Science (Food Science) ∪ Bachelor of Science (Genetics) ∪ Bachelor of Science (Geology) ∪ Bachelor of Science (Human Structure and ∪ Bachelor of Science (Mathematical Physics) ∪ Bachelor of Science (Mathematics and Statistics) ∪ Bachelor of Science (Microbiology) ∪ Bachelor of Science (Neuroscience) ∪ Bachelor of Science (Pathology) ∪ Bachelor of Science (Pharmacology) ∪ Bachelor of Science (Physics) ∪ Bachelor of Science (Physiology) ∪ Bachelor of Science (Psychology) ∪ Bachelor of Science (Veterinary Bioscience) ∪ Bachelor of Science (Zoology) (n = 3650). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -170,7 +170,7 @@ The §1 exposure value (82.72) is the union of the 23 Bachelor of Science major 
 
 **Signals and skill shifts.**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Manual literature synthesis and systematic review (Elicit, Consensus, Perplexity absorbing the task) | Declining very fast | C2, C5 |
 | Junior protein structure prediction (AlphaFold 3 and successors) | Declining very fast | C5 |
@@ -189,7 +189,7 @@ The §1 exposure value (82.72) is the union of the 23 Bachelor of Science major 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-b-sci.md); rows
@@ -208,7 +208,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **pooled** (program family), n = 3650. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: union of 23 "Bachelor of Science (…)" records
+**Panel A metadata.** Basis tier **pooled** (program family), n = 3650. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: union of 23 "Bachelor of Science (…)" records
 
 **Panel C provenance.** Scored from the 2026 handbook capture (34 pages) and verified on 2026-08-23: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

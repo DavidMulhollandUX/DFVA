@@ -8,11 +8,11 @@
 > [References](#references); full citations are given there and not repeated in
 > the body.
 >
-> The exposure value is an **estimate**: it rests on a field basis (JSA HEO · 040101 Architecture), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
+> The exposure value is an **estimate**: it rests on a field basis (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · 040101 Architecture), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Architecture/Master of Landscape Architecture (MC-ARCLARC) carries a moderate adaptive score (9 / 15) alongside a mid-range workplace score (6 / 9) against a field-estimated AI exposure of 84.75. Both gates pass: G1 on an ARBV-accredited, staged specialist core running Landscape Studio 1 through 5 and Design Studio A through Design Thesis, and G2 on repeated defended trade-off decisions in Design Studio B and Landscape Practice plus hurdle-gated crit presentations. The program's clearest strengths are C4 (3/3), where the required Design Thesis and Landscape Architecture Design Thesis capstones deliver a self-directed research project as a core, hurdle-gated feature, and W2 (3/3), where studio-based assessment is the program's spine end to end and Design Studio D ties a hurdle-gated booklet to named National Standard of Competency for Architects (NSCA) performance criteria.

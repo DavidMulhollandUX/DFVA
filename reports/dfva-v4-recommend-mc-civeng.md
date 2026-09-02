@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Civil Engineering demonstrates robust disciplinary depth with Adaptiveness **8 / 15** and Workplace practice **5 / 9**, passing Gate G1 (extensive core covering structural, geotechnical, hydraulic, transport, and environmental systems) and Gate G2 (complex trade-off decisions under structural load and environmental uncertainty). However, against high destination automation exposure (**91.09** on routine FEA drafting and code-checking), significant curriculum headroom exists in digital AI literacy and generative design governance (C3: 1/3), student-designed primary empirical inquiry (C5: 1/3), and core credit-bearing work placements (W3: 1/3, currently non-credit or elective).

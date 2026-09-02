@@ -13,11 +13,11 @@ const content = {
 > [References](#references); full citations are given there and not repeated in
 > the body.
 >
-> The exposure value is an **estimate**: it rests on a field basis (JSA HEO · 091519 Translating and Interpreting, 27% occupation coverage), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
+> The exposure value is an **estimate**: it rests on a field basis (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · 091519 Translating and Interpreting, 27% occupation coverage), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Translation and Interpreting scores evenly across both sub-scales: every one of the eight Panel C v4 items sits at level 2 of 3, giving 10/15 on curriculum adaptiveness and 6/9 on workplace practice. Both gates pass: G1 on a coherent, NAATI-endorsed specialist core, and G2 on capstone routes (TRAN90022's client project, TRAN90010's placement) that carry real client or workplace accountability. The program's compulsory core already reaches into AI-adjacent territory that few comparators attempt — TRAN90011 is a dedicated compulsory unit on AI and intercultural communication, and TRAN90007 grades translation review against the NAATI "Certified Translator" standards — but in every item the graded assessment criteria stop short of the level-3 anchor's specific requirement, most often because the qualifying capability is documented at course-overview level rather than named as an assessed criterion, or because it depends on which of the program's several capstone routes a student selects.

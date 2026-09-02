@@ -61,8 +61,7 @@ Standards from the [MEAA](https://www.meaa.org/) highlight that high-impact jour
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI verification, provenance and disclosure tradecraft | **↑↑ Rising sharply** | D5 and D9 each score 1/3 — no AI-specific journalism content, and no explicit AI-era curriculum adaptation, is documented. Theme 2 (§3) shows Australian journalist communities treating verification tradecraft — source-based verification, document authentication and OSINT — as the primary competitive moat against AI-generated content, reinforced by the MEAA's 2026 verification guidance. |
@@ -97,7 +96,7 @@ Standards from the [MEAA](https://www.meaa.org/) highlight that high-impact jour
 
 ---
 
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes (JSA HEO))
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **100703 Journalism** (n = 5,660 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 46.6% of them, and the 5 largest are shown at each stage.
 

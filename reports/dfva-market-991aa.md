@@ -87,12 +87,12 @@ Commentary from medical research institute leads and [ACTA](https://clinicaltria
 | SSA accreditation standards | HIGH | Statistical Society of Australia professional accreditation schedules provide definitive evidence |
 | Medical research institute & clinical trial hiring | HIGH | High, documented demand across Melbourne Biomedical Precinct institutes (WEHI, Peter Mac, MCRI) |
 | Causal inference & AI disruption in biostatistics | HIGH | Broad consensus across international biostatistical literature and ACTA guidelines |
-| Granular graduate salary tracking | MEDIUM | Derived from JSA HEO (010103 Statistics) ATO tax-linked administrative datasets |
+| Granular graduate salary tracking | MEDIUM | Derived from Jobs and Skills Australia Higher Education Outcomes (JSA HEO) (010103 Statistics) ATO tax-linked administrative datasets |
 
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **010103 Statistics** (n = 690 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 39.1% of them, and the 5 largest are shown at each stage.
 

@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Clinical Dentistry is a 100-point advanced postgraduate clinical degree designed for qualified dental practitioners undertaking specialized training in prosthodontics aligned with Australian Dental Council (ADC) and Dental Board of Australia (AHPRA) specialist accreditation standards. Both gates pass unconditionally: G1 passes on an all-compulsory specialist core of 100 points (a 75cp advanced clinical prosthodontics subject plus a 25cp research methods subject) with an internal pre-clinical practical assessment gating live patient care; G2 passes on defended clinical case presentations across in-progress and completed patient treatments and 542.5 hours of clinical practice under genuine clinical accountability.

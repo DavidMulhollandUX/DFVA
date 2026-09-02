@@ -28,7 +28,7 @@ const content = {
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-**What these sources are.** A binding regulatory instrument (Australia's Therapeutic Goods Administration), a national professional body's credentialing publication (Engineers Australia), two peer-reviewed occupational-exposure studies with public primary datasets (Felten, Raj and Seamans in *Strategic Management Journal*, 2021; Eloundou, Manning, Mishkin and Rock in *Science*, 2024), medtech trade press (MedCity News, MD+DI/mddionline.com), a healthcare-technology-management trade publication (24x7 Magazine), and one practitioner podcast episode (The BME Grad Podcast). Direct extraction from X or LinkedIn was **not** performed and no professional forum was sampled — "discourse" here means these named regulator, academic and trade-press sources, not a survey of practitioner sentiment. Every claim below is carried forward from \`data/professions/039903.json\`, where it is already marked sourced or scoped; none required correction or removal for this report.
+**What these sources are.** A binding regulatory instrument (Australia's Therapeutic Goods Administration), a national professional body's credentialing publication (Engineers Australia), two peer-reviewed occupational-exposure studies with public primary datasets (Felten, Raj and Seamans in *Strategic Management Journal*, 2021; Eloundou, Manning, Mishkin and Rock in *Science*, 2024), medtech trade press (MedCity News, MD+DI/mddionline.com), a healthcare-technology-management trade publication (24x7 Magazine), and one practitioner podcast episode (The BME Grad Podcast). Direct extraction from X or LinkedIn was **not** performed and no professional forum was sampled — "discourse" here means these named regulator, academic and trade-press sources, not a survey of practitioner sentiment. Every claim below is carried forward from the occupation profile record (039903), where it is already marked sourced or scoped; none required correction or removal for this report.
 
 ### Theme 1 — a binding compliance deadline is a firmer signal than anything the profession itself has said about hiring
 
@@ -54,8 +54,7 @@ The 24x7 Magazine quotes were solicited by a journalist for a year-in-review rou
 
 **Bearing:** W3. The compulsory subject list (75 of 100 credit points) and the full elective list contain no placement, practicum, internship or community-based-project subject — the clinician engagement documented in BMEN90042/BMEN90044 is coursework informed by external stakeholder input on campus, not supervised participation in a workplace. The two operational functions where this record's sourced material documents real 2025 AI adoption — clinical/healthcare technology management and manufacturing quality — are functions this program gives students no supervised exposure to.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AusUDID data-submission and structured device-traceability compliance workflows | **↑↑ Rising sharply** | Theme 1 (§3) — Australia's UDI mandate is "a legal amendment to the Therapeutic Goods (Medical Devices) Regulations 2002," binding on Class IIb/III sponsors from 2026-07-01, and is "a firmer signal than anything the profession itself has said about hiring." Named directly in the report's own rising column at Fast velocity. |
@@ -84,7 +83,7 @@ The 24x7 Magazine quotes were solicited by a journalist for a year-in-review rou
 | Live job-ad data (§2) | NONE — not conducted this cycle | No Adzuna data was collected; no employer names, vacancy counts or skill-tag frequencies exist for this window. |
 | Trade-press discussion (MedCity News, MD+DI x2, 24x7 Magazine) | MEDIUM | Genuine named outlets with dates, but MD+DI's "future of medtech jobs" piece returned HTTP 403 on direct fetch (confirmed via search instead) and its salary-comparison detail is unconfirmed; the McKinsey regulatory-documentation figure inside the MedCity News op-ed is a secondary citation, not independently verified here. |
 | Practitioner-level discourse (podcast, HTM year-in-review quotes) | LOW | One podcast episode (a single practitioner, career-advice framing) and 4 solicited HTM quotes (only 2 on-topic for generative AI); neither is a survey, and neither represents device-design R&D engineers, the program's core destination. |
-| Program curriculum evidence (dfva/source/evidence/mc-mti.json) | HIGH, mechanically verified | \`panelCv4.verified.mechanical\` is true and adversarially reviewed 2026-08-31; the evidence file itself flags 2 data-quality issues (a course-level graduate-attributes page and one elective subject's overview both returned mismatched, wrong-subject content), which were excluded from scoring, not from this report's use of the remaining scores. |
+| Program curriculum evidence (durability report) | HIGH, mechanically verified | The evidence was checked mechanically and reviewed adversarially on 2026-08-31; the evidence record itself flags 2 data-quality issues (a course-level graduate-attributes page and one elective subject's overview both returned mismatched, wrong-subject content), which were excluded from scoring, not from this report's use of the remaining scores. |
 
 ### Critical evidence gaps to close before institutional use:
 1. No live job-ad data exists for this profession record — commission a Seek/Adzuna/LinkedIn pull against MC-MTI's actual destination titles before using §2 for hiring-volume or employer claims.
@@ -98,7 +97,7 @@ The 24x7 Magazine quotes were solicited by a journalist for a year-in-review rou
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-mti
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **039903 Biomedical Engineering** (n = 360 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 25.0% of them, and the 5 largest are shown at each stage.
 

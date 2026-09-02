@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 95.04.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 13 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 165, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 95.04.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 13 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 165, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 7 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -207,20 +207,20 @@ The market intelligence gathered for this program indicates strong, broad-based 
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Public Sector Policy Development, Analysis & Evaluation | Graduate Policy Officer, Policy Analyst | Senior Policy Advisor, Director of Strategic Policy | MEDIUM | Complex multi-stakeholder policy formulation, causal impact evaluation, cabinet submission drafting |
-| 2 | Public Sector Governance, Integrity & Statutory Regulation | Governance Officer, Regulatory Compliance Advisor | Assistant Secretary (Governance & Integrity), Statutory Director | HIGH | Algorithmic governance frameworks, public integrity compliance, automated administrative decision audit |
-| 3 | Government Relations & Public Affairs | Government Affairs Advisor, Policy & Advocacy Officer | Head of Government Relations, Director of Public Affairs | MEDIUM | Cross-sector negotiation, political economy analysis, regulatory reform advocacy |
-| 4 | Management Consulting & Public Sector Advisory | Consultant (Government Practice), Policy Consultant | Senior Manager, Partner (Public Sector Advisory) | HIGH | Program evaluation modeling, digital transformation strategy, generative AI policy diligence |
-| 5 | Non-Government, Think Tank & Multilateral Policy | Research & Policy Officer (NGO), Think Tank Fellow | Director of Policy & Research, Multilateral Policy Lead | MEDIUM | Mixed-methods policy inquiry, public-facing policy brief authoring, civic engagement co-design |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Public Sector Policy Development, Analysis & Evaluation | Graduate Policy Officer, Policy Analyst; later Senior Policy Advisor, Director of Strategic Policy | MEDIUM | Complex multi-stakeholder policy formulation, causal impact evaluation, cabinet submission drafting |
+| Public Sector Governance, Integrity & Statutory Regulation | Governance Officer, Regulatory Compliance Advisor; later Assistant Secretary (Governance & Integrity), Statutory Director | HIGH | Algorithmic governance frameworks, public integrity compliance, automated administrative decision audit |
+| Government Relations & Public Affairs | Government Affairs Advisor, Policy & Advocacy Officer; later Head of Government Relations, Director of Public Affairs | MEDIUM | Cross-sector negotiation, political economy analysis, regulatory reform advocacy |
+| Management Consulting & Public Sector Advisory | Consultant (Government Practice), Policy Consultant; later Senior Manager, Partner (Public Sector Advisory) | HIGH | Program evaluation modeling, digital transformation strategy, generative AI policy diligence |
+| Non-Government, Think Tank & Multilateral Policy | Research & Policy Officer (NGO), Think Tank Fellow; later Director of Policy & Research, Multilateral Policy Lead | MEDIUM | Mixed-methods policy inquiry, public-facing policy brief authoring, civic engagement co-design |
 
 **Exposure basis declaration.** Destination AI exposure is **93.28** (exact basis derived from Master of Public Policy and Management graduate destinations), sitting **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Victorian and Commonwealth Public Service demand for strategic policy advisors | Sustained High | Government departments seek policy analysts with robust briefing, Cabinet Submission drafting, and statutory reform skills. — W1, W2, G2 |
 | Adoption of AI in policy research synthesis and automated drafting | Rising / Volatile | Agencies deploy LLMs for literature scanning, increasing demand for analysts who can audit machine summaries against administrative law and data integrity. — C2, C3, W2 |
 | Algorithmic decision-making and public sector AI governance mandates | Sustained High | DTA and state integrity bodies enforce stringent AI governance rules for automated government service delivery. — C3, G1 |
@@ -232,7 +232,7 @@ The market intelligence gathered for this program indicates strong, broad-based 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-344ab.md); rows
@@ -251,7 +251,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 165, 15 destination titles, 13 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 165, 15 destination titles, 13 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (39 pages) and verified on 2026-08-17: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

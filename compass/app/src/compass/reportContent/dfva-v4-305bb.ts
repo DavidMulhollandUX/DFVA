@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-17
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/305bb (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 27 pages captured
+**Course Director:** Kelley Graydon
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -22,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 81.09.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 156, 15 titles). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 81.09.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 5 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 156, 15 titles). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 10 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -167,20 +168,20 @@ The market intelligence gathered for this program indicates robust, highly prote
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Diagnostic & Rehabilitative Clinical Audiology | Clinical Audiology Intern, Certified Practising Audiologist (CPAud) | Senior Clinical Audiologist, Clinical Specialist (Vestibular / Tinnitus) | LOW | Complex electrophysiological testing (ABR/OAE), vestibular assessment (VNG/vHIT), multidisciplinary ENT liaison |
-| 2 | Paediatric Audiology & Newborn Hearing Screening | Paediatric Audiologist, Victorian Infant Hearing Screener | Senior Paediatric Specialist, Lead Cochlear Implant Paediatric Audiologist | LOW | Visual Reinforcement Orientation Audiometry (VROA), parent counseling, early intervention coordination |
-| 3 | Hearing Device Fitting, Tele-Audiology & Auditory Rehabilitation | Hearing Care Consultant, Tele-Audiologist | Clinical Practice Manager, Audiology Technical Lead | LOW–MEDIUM | Advanced digital signal processing fitting, OTC hearing aid triage, remote tele-audiology verification |
-| 4 | Implantable Auditory Devices & Neural Engineering | Cochlear Implant Audiologist | Lead Implant Specialist, Clinical Research Fellow (Neural Prosthetics) | LOW | Intraoperative neural response telemetry (NRT), cochlear mapping, bimodal fitting protocols |
-| 5 | Public Health Audiology & Indigenous Ear Health | Hearing Health Project Officer, Remote Outreach Audiologist | Hearing Australia Regional Manager, Indigenous Ear Health Policy Lead | LOW | Outreach mobile diagnostics, community co-design, otitis media intervention governance |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Diagnostic & Rehabilitative Clinical Audiology | Clinical Audiology Intern, Certified Practising Audiologist (CPAud); later Senior Clinical Audiologist, Clinical Specialist (Vestibular / Tinnitus) | LOW | Complex electrophysiological testing (ABR/OAE), vestibular assessment (VNG/vHIT), multidisciplinary ENT liaison |
+| Paediatric Audiology & Newborn Hearing Screening | Paediatric Audiologist, Victorian Infant Hearing Screener; later Senior Paediatric Specialist, Lead Cochlear Implant Paediatric Audiologist | LOW | Visual Reinforcement Orientation Audiometry (VROA), parent counseling, early intervention coordination |
+| Hearing Device Fitting, Tele-Audiology & Auditory Rehabilitation | Hearing Care Consultant, Tele-Audiologist; later Clinical Practice Manager, Audiology Technical Lead | LOW–MEDIUM | Advanced digital signal processing fitting, OTC hearing aid triage, remote tele-audiology verification |
+| Implantable Auditory Devices & Neural Engineering | Cochlear Implant Audiologist; later Lead Implant Specialist, Clinical Research Fellow (Neural Prosthetics) | LOW | Intraoperative neural response telemetry (NRT), cochlear mapping, bimodal fitting protocols |
+| Public Health Audiology & Indigenous Ear Health | Hearing Health Project Officer, Remote Outreach Audiologist; later Hearing Australia Regional Manager, Indigenous Ear Health Policy Lead | LOW | Outreach mobile diagnostics, community co-design, otitis media intervention governance |
 
 **Exposure basis declaration.** Destination AI exposure is **81.09** (exact basis derived from Master of Clinical Audiology graduate destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Audiology Australia (AudA) professional accreditation and CCP certification | Sustained High | Mandatory professional certification protects registered clinical audiologists from algorithmic substitution. — W1, W2, G1 |
 | Deep neural networks (DNNs) in hearing prosthetics and automated audiometry | Rising / Volatile | Hearing aid manufacturers deploy on-chip machine learning for noise reduction, requiring clinicians to audit acoustic algorithms against real-ear measurements. — C2, C3, W2 |
 | Expanding public hospital cochlear implant and vestibular diagnostic caseloads | Sustained High | Public health networks face persistent shortages for audiologists skilled in vestibular diagnostic batteries (vHIT, VEMP) and cochlear implant mapping. — C4, C5, G2 |
@@ -192,7 +193,7 @@ The market intelligence gathered for this program indicates robust, highly prote
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-305bb.md); rows
@@ -211,7 +212,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 156, 15 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 156, 15 destination titles, 5 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (27 pages) and verified on 2026-08-17: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

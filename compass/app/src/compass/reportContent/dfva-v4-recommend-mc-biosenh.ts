@@ -13,7 +13,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-This plan argues from the scored evidence and market data above; it is interpretation, not observation.
+This plan argues from the preceding scored evidence and market data; it is interpretation, not observation.
 
 The program reaches 4/15 on the adaptive sub-scale and 2/9 on the workplace sub-scale. The two widest gaps are both zero scores: C2 (no core assessment anywhere requires appraising the quality of work, a student's own, a peer's, or a tool's) and W3 (no work-integrated learning, placement or practicum appears anywhere in the course structure).
 

@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Advanced Nursing Practice (MC-ANP) demonstrates strong core authenticity, evaluative appraisal, and progressive capability development across its 50 credit points of compulsory specialist coursework (NURS90069 Clinical Leadership in Context, NURS90086 Quality and Safety in Healthcare, NURS90120 Evidence in Practice, and NURS90070 Implementing Evidence for Practice). Both gates pass decisively: G1 on the staged prerequisite sequence leading into capstone NURS90070, and G2 on defended clinical incident investigation, root cause analysis, and organizational risk management under genuine uncertainty. C4 Life-long learning & transfer sits at the instrument ceiling (3/3) due to structured metacognitive leadership goal-setting and a self-scoped evidence implementation capstone.

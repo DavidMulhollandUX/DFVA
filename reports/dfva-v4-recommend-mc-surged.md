@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Surgical Education is a 150-point postgraduate specialist degree designed for practicing surgeons and clinical proceduralists preparing for leadership in surgical training, simulation education, and curriculum governance aligned with Royal Australasian College of Surgeons (RACS) and Australian Medical Council (AMC) specialist accreditation frameworks. Both gates pass unconditionally: G1 passes on a coherent specialist core of four compulsory subjects plus research methods tied to surgical training followed by a staged prerequisite chain leading to a minor thesis or capstone curriculum design; G2 passes on high-stakes curriculum design and research proposal tasks requiring justified educational trade-offs in high-risk intraoperative training environments where trainee assessment carries direct patient safety consequences.

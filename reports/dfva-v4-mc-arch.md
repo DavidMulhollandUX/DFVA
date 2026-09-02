@@ -13,7 +13,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 87.99.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 621). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 87.99.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 621). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 10 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -148,20 +148,20 @@ The market intelligence gathered for this program indicates sustained demand acr
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Registered Architectural Practice & Project Delivery | Graduate Architect, Architectural Assistant | Registered Architect, Project Architect | MEDIUM | BIM/Revit coordination, National Construction Code (NCC 2025), contract administration |
-| 2 | Sustainable Building Design & Climate Resilience | ESD Graduate Consultant, Building Performance Analyst | Senior Sustainability Architect, Green Star / Passivhaus Lead | LOW–MEDIUM | Embodied carbon lifecycle assessment (One Click LCA), thermal modeling, Section J |
-| 3 | Heritage Architecture & Adaptive Reuse | Heritage Graduate Advisor, Conservation Assistant | Senior Heritage Architect, Conservation Consultant | LOW | Victorian Heritage Act statutory compliance, archival fabric analysis, adaptive detailing |
-| 4 | Urban Design, Masterplanning & Public Realm | Junior Urban Designer, Precinct Planner | Senior Urban Designer, Masterplanning Associate | LOW | Transit-oriented development (TOD), spatial GIS analysis, community consultation |
-| 5 | Computational Design & Digital Practice | Computational Design Specialist, Parametric Modeler | BIM Manager, Head of Digital Practice | LOW | Grasshopper/Rhino scripting, generative AI design curation, digital twin integration |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Registered Architectural Practice & Project Delivery | Graduate Architect, Architectural Assistant; later Registered Architect, Project Architect | MEDIUM | BIM/Revit coordination, National Construction Code (NCC 2025), contract administration |
+| Sustainable Building Design & Climate Resilience | ESD Graduate Consultant, Building Performance Analyst; later Senior Sustainability Architect, Green Star / Passivhaus Lead | LOW–MEDIUM | Embodied carbon lifecycle assessment (One Click LCA), thermal modeling, Section J |
+| Heritage Architecture & Adaptive Reuse | Heritage Graduate Advisor, Conservation Assistant; later Senior Heritage Architect, Conservation Consultant | LOW | Victorian Heritage Act statutory compliance, archival fabric analysis, adaptive detailing |
+| Urban Design, Masterplanning & Public Realm | Junior Urban Designer, Precinct Planner; later Senior Urban Designer, Masterplanning Associate | LOW | Transit-oriented development (TOD), spatial GIS analysis, community consultation |
+| Computational Design & Digital Practice | Computational Design Specialist, Parametric Modeler; later BIM Manager, Head of Digital Practice | LOW | Grasshopper/Rhino scripting, generative AI design curation, digital twin integration |
 
 **Exposure basis declaration.** Destination AI exposure is **83.18** (exact basis derived from Architecture graduate destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Mandatory BIM and Revit documentation proficiency | Sustained High | Practices expect graduates to coordinate 3D BIM models and OpenBIM/IFC data from day one. — W2, G1 |
 | NCC 2025 Section J compliance and embodied carbon accounting | Rising | Regulatory changes mandate architects capable of whole-of-life embodied carbon calculations. — C2, C4, G2 |
 | Heritage and adaptive reuse specialist scarcity | Sustained High | Urban renewal drives recruitment for architects skilled in adaptive reuse and statutory conservation. — C4, W2 |
@@ -173,7 +173,7 @@ The market intelligence gathered for this program indicates sustained demand acr
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-arch.md); rows
@@ -192,7 +192,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 621. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 621. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (38 pages) and verified on 2026-08-14: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

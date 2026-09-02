@@ -13,7 +13,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 80.58.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 762). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 80.58.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 762). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -148,20 +148,20 @@ The market intelligence gathered for this program indicates near-universal gradu
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Prevocational Hospital Practice & Emergency Medicine | Intern, Resident Medical Officer (RMO) | Emergency Medicine Registrar, Medical Registrar | LOW | Ambient clinical scribe auditing, acute resuscitation protocols, clinical escalation |
-| 2 | General Practice & Primary Care | GP Registrar, Primary Care Resident | Specialist General Practitioner (FRACGP/FACRRM), Practice Partner | LOW | Chronic disease management, AI-assisted diagnostic triaging, First Nations health |
-| 3 | Physician Specialties & Adult Medicine | Basic Physician Trainee | Advanced Trainee (Cardiology, Oncology, Neurology, Nephrology), Consultant Physician | LOW | Multidisciplinary tumour board coordination, genomic interpretation, pharmacogenomics |
-| 4 | Surgical Specialties & Procedural Medicine | Surgical Resident, Unaccredited Registrar | SET Surgical Trainee (General, Orthopaedic, Vascular, Neurosurgery), Consultant Surgeon | LOW | Minimally invasive robotic surgery, intraoperative navigation, patient consent communication |
-| 5 | Diagnostic Specialties (Radiology, Pathology) | Radiology Registrar, Pathology Registrar | Consultant Radiologist, Consultant Anatomical Pathologist | MEDIUM | AI computer-aided detection (CAD) auditing, multimodal diagnostic integration, quality assurance |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Prevocational Hospital Practice & Emergency Medicine | Intern, Resident Medical Officer (RMO); later Emergency Medicine Registrar, Medical Registrar | LOW | Ambient clinical scribe auditing, acute resuscitation protocols, clinical escalation |
+| General Practice & Primary Care | GP Registrar, Primary Care Resident; later Specialist General Practitioner (FRACGP/FACRRM), Practice Partner | LOW | Chronic disease management, AI-assisted diagnostic triaging, First Nations health |
+| Physician Specialties & Adult Medicine | Basic Physician Trainee; later Advanced Trainee (Cardiology, Oncology, Neurology, Nephrology), Consultant Physician | LOW | Multidisciplinary tumour board coordination, genomic interpretation, pharmacogenomics |
+| Surgical Specialties & Procedural Medicine | Surgical Resident, Unaccredited Registrar; later SET Surgical Trainee (General, Orthopaedic, Vascular, Neurosurgery), Consultant Surgeon | LOW | Minimally invasive robotic surgery, intraoperative navigation, patient consent communication |
+| Diagnostic Specialties (Radiology, Pathology) | Radiology Registrar, Pathology Registrar; later Consultant Radiologist, Consultant Anatomical Pathologist | MEDIUM | AI computer-aided detection (CAD) auditing, multimodal diagnostic integration, quality assurance |
 
 **Exposure basis declaration.** Destination AI exposure is **45.02** (exact basis derived from Medical Practitioner graduate destinations), sitting **far below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Centralised statutory intern matching and AHPRA registration | Sustained High | Medical graduates enter guaranteed hospital internship posts upon graduation. — W3, G1 |
 | Critical nationwide shortage of GPs and Rural Generalists | Sustained High | Strong federal incentives and high workforce demand across regional healthcare networks. — W3, G1 |
 | Hospital adoption of ambient clinical AI documentation | Rising / Volatile | Ward documentation shifts from manual typing to AI scribe verification and sign-off. — C2, C3, W1 |
@@ -173,7 +173,7 @@ The market intelligence gathered for this program indicates near-universal gradu
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-dmed.md); rows
@@ -192,7 +192,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 762. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 762. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-14: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

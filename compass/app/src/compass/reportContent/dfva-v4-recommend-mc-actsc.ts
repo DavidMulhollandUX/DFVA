@@ -17,7 +17,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 MC-ACTSC scores 5/15 on adaptive capabilities and 1/9 on workplace practice — the lowest workplace sub-score in the v4 extension cohort — against the highest destination exposure in it (97.99). The cause is not a weak curriculum. It is a curriculum that is excellent at the thing the market is automating and silent on the thing the market is hiring for. Six compulsory ACTL subjects plus two capstones deliver a staged technical chain (Mathematics of Finance I→II→III, Life Insurance Models I→II) that carries both gates comfortably; every one of them is assessed by individual written assignments and hurdle examinations, and nothing else.

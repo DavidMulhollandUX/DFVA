@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 96.05.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 13 of 13 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 66, 13 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 96.05.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 13 of 13 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 66, 13 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -211,20 +211,20 @@ The market intelligence gathered for this program indicates consistent public se
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Social Policy Analysis & Government Advisory | Policy Officer, Social Policy Analyst, Graduate Policy Advisor | Senior Policy Advisor, Principal Policy Officer, Policy Manager | MEDIUM | Quasi-experimental policy evaluation, regulatory impact assessment, cross-portfolio synthesis |
-| 2 | Social Impact & Program Evaluation Consulting | Junior Evaluation Consultant, Social Impact Analyst, Research Associate | Evaluation Project Lead, Senior Consultant, Social Strategy Director | MEDIUM | Mixed-methods evaluation (theory of change, cost-benefit analysis), ethical data governance |
-| 3 | Non-Government (NGO) & Peak Body Advocacy | Policy & Advocacy Officer, Campaign Coordinator, Research Officer | Head of Policy & Advocacy, Senior Campaigner, Sector Strategy Lead | LOW–MEDIUM | Stakeholder coalition co-design, evidence-informed legislative submission writing, public campaigning |
-| 4 | Community & Human Services Planning | Human Services Planner, Community Development Officer | Service Design Lead, Regional Program Coordinator, Operations Manager | LOW–MEDIUM | Place-based service co-design, participatory research methods, trauma-informed policy design |
-| 5 | Applied Social Research & Public Data Analysis | Social Research Assistant, Policy Data Analyst | Senior Social Researcher, Research Fellow, Public Data Specialist | HIGH | Automated policy text synthesis, causal inference modelling, longitudinal dataset evaluation |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Social Policy Analysis & Government Advisory | Policy Officer, Social Policy Analyst, Graduate Policy Advisor; later Senior Policy Advisor, Principal Policy Officer, Policy Manager | MEDIUM | Quasi-experimental policy evaluation, regulatory impact assessment, cross-portfolio synthesis |
+| Social Impact & Program Evaluation Consulting | Junior Evaluation Consultant, Social Impact Analyst, Research Associate; later Evaluation Project Lead, Senior Consultant, Social Strategy Director | MEDIUM | Mixed-methods evaluation (theory of change, cost-benefit analysis), ethical data governance |
+| Non-Government (NGO) & Peak Body Advocacy | Policy & Advocacy Officer, Campaign Coordinator, Research Officer; later Head of Policy & Advocacy, Senior Campaigner, Sector Strategy Lead | LOW–MEDIUM | Stakeholder coalition co-design, evidence-informed legislative submission writing, public campaigning |
+| Community & Human Services Planning | Human Services Planner, Community Development Officer; later Service Design Lead, Regional Program Coordinator, Operations Manager | LOW–MEDIUM | Place-based service co-design, participatory research methods, trauma-informed policy design |
+| Applied Social Research & Public Data Analysis | Social Research Assistant, Policy Data Analyst; later Senior Social Researcher, Research Fellow, Public Data Specialist | HIGH | Automated policy text synthesis, causal inference modelling, longitudinal dataset evaluation |
 
 **Exposure basis declaration.** Destination AI exposure is **96.05** (measured basis on the program's own alumni destination record, n = 66, 13 titles), sitting **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Algorithmic welfare governance and administrative fairness | Rising | Following the Robodebt Royal Commission, Australian Public Service agencies mandate rigorous ethical scrutiny of automated compliance, predictive allocation, and administrative decision-making. — C3, W1, G2 |
 | Generative AI in policy briefing and consultation synthesis | Rising / Volatile | Widespread adoption of LLM tools across government departments for rapid policy scanning and consultation synthesis; requires evaluative judgement to detect hallucinations, factual errors, and subtle bias. — C2, C3, W2 |
 | Causal program evaluation and quasi-experimental methods | Rising | Australian Treasury Evaluation Toolkit and AIFS mandate pre-registered field trials, difference-in-differences, and empirical causal attribution to justify social spending. — C5, G2 |
@@ -236,7 +236,7 @@ The market intelligence gathered for this program indicates consistent public se
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-706aa.md); rows
@@ -255,7 +255,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 66, 13 destination titles, 13 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 66, 13 destination titles, 13 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (39 pages) and verified on 2026-08-23: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

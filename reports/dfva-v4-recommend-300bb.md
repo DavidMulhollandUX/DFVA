@@ -9,7 +9,7 @@ citations are given there and not repeated in the body.
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is interpretation,
+*This plan argues from the preceding scored evidence and market data; it is interpretation,
 not observation.*
 
 The scored evidence divides sharply. On the two items that measure independent inquiry —

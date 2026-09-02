@@ -3,6 +3,7 @@
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-31
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-privlaw (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 36 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -22,7 +23,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 94.83.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Laws (n = 676, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 94.83.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Laws (n = 676, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 4 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -115,11 +116,11 @@ combined total: the sub-scores are reported side by side and never added.
 | Privacy, cyber & IP lawyer | Privacy/Data Protection Lawyer, IP Associate, Technology Counsel | LOW-MEDIUM — specialist advisory work, but professional-body guidance now treats AI use itself as a discipline-specific competency here | AI-governance advisory (confidentiality, disclosure, hallucination risk in client-facing use) |
 | Regulatory & government-liability counsel | Compliance Counsel, Regulatory Affairs Lawyer | LOW — regulated-domain advisory work where sign-off responsibility is not delegable | Professional-conduct-rule literacy as AI use is folded into existing duties |
 
-**What the §1 exposure number is.** The Destination AI Exposure value reported in §1 (94.83) is not this program's own graduate-destination measurement. It is a **related-program (partial) basis**: destination titles are borrowed from the Master of Laws alumni record (n = 676, 15 titles, 6 at medium mapping confidence), since Master of Private Law is a Melbourne Law Masters specialisation without its own JIR alumni record. It is neither an own-alumni-record value nor a JSA Higher Education Outcomes field-level fallback — the JSA HEO Law field-of-education data appears separately in the market report's labour-evidence footer, at field grain (all Law completions, n = 17,720), and was not used as the Panel A basis here.
+**What the §1 exposure number is.** The Destination AI Exposure value reported in §1 (94.83) is not this program's own graduate-destination measurement. It is a **related-program (partial) basis**: destination titles are borrowed from the Master of Laws alumni record (n = 676, 15 titles, 6 at medium mapping confidence), since Master of Private Law is a Melbourne Law Masters specialisation without its own Job Insights Report (JIR) alumni record. It is neither an own-alumni-record value nor a JSA Higher Education Outcomes field-level fallback — the Jobs and Skills Australia Higher Education Outcomes (JSA HEO) Law field-of-education data appears separately in the market report's labour-evidence footer, at field grain (all Law completions, n = 17,720), and was not used as the Panel A basis here.
 
 **Signals and skill shifts**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Professional-conduct regulators writing AI use directly into solicitors' duties — Law Society of NSW's January 2026 AI guide, and the Law Council's Rule 12 AML/CTF disclosure duty, in force from 1 July 2026 | Rising — now a binding conduct obligation, not draft guidance | C3. The clearest evidence that the C3 gap is not merely a curriculum-design choice but now sits against an active professional-conduct duty. |
 | AI-assisted legal drafting narrows the productivity gap on analytical tasks (34–140%), but the reasoning-model condition produced more hallucinations than no-AI assistance (RCT, US law students) | Rising importance of output-quality judgment, unevenly distributed by tool | C4 and C5. A direct test of whether the curriculum builds the judgment skill — assessing AI-output quality — that the task-level exposure index implies remains human. |
@@ -132,7 +133,7 @@ combined total: the sub-scores are reported side by side and never added.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-privlaw.md); rows
@@ -151,7 +152,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **partial** (related program), n = 676, 15 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: Private Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams.
+**Panel A metadata.** Basis tier **partial** (related program), n = 676, 15 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Private Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (36 pages) and verified on 2026-08-31: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

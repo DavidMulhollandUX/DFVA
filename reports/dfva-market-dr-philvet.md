@@ -55,7 +55,7 @@ Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that m
 Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
 **Bearing:** C1, W3, and G1.
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Applied bioinformatics and genomic-epidemiological modelling literacy | **↑↑ Rising sharply** | Signal 3 (§2) reports post-pandemic funding emphasis on One Health and zoonotic-spillover research "increased postdoctoral and research-fellow opportunities... a growth area for veterinary science PhD graduates with epidemiology/microbiology specialisation." |

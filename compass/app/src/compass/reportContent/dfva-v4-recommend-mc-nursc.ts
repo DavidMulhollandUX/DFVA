@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Nursing Science is an ANMAC-accredited, NMBA-approved professional entry-to-practice degree preparing registered nurses for acute public hospital networks (Royal Melbourne, The Alfred, Austin Health), intensive care units, emergency departments, mental health facilities, and community health services. Both gates pass with exceptional rigor: G1 passes across all three routes (13 compulsory subjects, ANMAC accreditation, and staged prerequisite progressions); G2 passes on defended clinical decision-making frameworks, open-book complex case analyses, and supervised practice under real clinical uncertainty.

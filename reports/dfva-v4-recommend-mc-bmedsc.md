@@ -12,7 +12,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 MC-BMEDSC has the strongest adaptive profile in this cohort — 11/15, with C4, C5 and W2 all at the ceiling — and the weakest single item in it: W3 at 0. Both facts have the same cause. The degree is 200 credit points of which 125 are a compulsory research project spanning all four semesters, in which students identify their own supervisor, design and run experiments, collect and analyse primary data, and defend the methodology through semester hurdles, a Conversational Questions oral defence and a final oral examination. That structure is why transfer, inquiry and authentic task design score at 3, and it is also the reason there is no room, and no felt need, for a placement.

@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-15
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-nursc (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 35 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -17,7 +18,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 72.69.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 129). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 72.69.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 129). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -166,20 +167,20 @@ The market intelligence gathered for this program indicates acute, structural wo
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Acute Care & Medical-Surgical Hospital Nursing | Registered Nurse (Medical/Surgical), Graduate Nurse (Rotations) | Clinical Nurse Specialist (CNS), Associate Nurse Unit Manager (ANUM) | VERY LOW | Acute clinical deterioration recognition (ISBAR), sepsis protocols, clinical handover |
-| 2 | Critical Care, Intensive Care & Emergency Nursing | ED / ICU Registered Nurse, Trauma Resuscitation Nurse | Clinical Nurse Consultant (Critical Care), Retrieval Nurse | VERY LOW | Advanced life support (ALS), mechanical ventilation management, invasive hemodynamic monitoring |
-| 3 | Mental Health & Psychosocial Nursing | Mental Health Inpatient Nurse, Psychiatric Liaison Nurse | Clinical Nurse Consultant (Mental Health), Community Crisis Lead | VERY LOW | Trauma-informed de-escalation, Mental Health and Wellbeing Act compliance, risk triage |
-| 4 | Primary Health, Community Care & Aged Care Nursing | Community Health Nurse, Residential Aged Care RN | Care Coordinator, Nurse Practitioner Candidate (Primary Care) | VERY LOW | Chronic disease management plans, aged care quality standards, home telehealth monitoring |
-| 5 | Clinical Nurse Education, Informatics & Trial Coordination | Clinical Nurse Educator, Research Nurse Coordinator | Hospital Nurse Education Manager, Health Informatics Lead (EMR) | LOW | Electronic Medical Record (Epic/Cerner) governance, clinical trial ethics (GCP), simulation debriefing |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Acute Care & Medical-Surgical Hospital Nursing | Registered Nurse (Medical/Surgical), Graduate Nurse (Rotations); later Clinical Nurse Specialist (CNS), Associate Nurse Unit Manager (ANUM) | VERY LOW | Acute clinical deterioration recognition (ISBAR), sepsis protocols, clinical handover |
+| Critical Care, Intensive Care & Emergency Nursing | ED / ICU Registered Nurse, Trauma Resuscitation Nurse; later Clinical Nurse Consultant (Critical Care), Retrieval Nurse | VERY LOW | Advanced life support (ALS), mechanical ventilation management, invasive hemodynamic monitoring |
+| Mental Health & Psychosocial Nursing | Mental Health Inpatient Nurse, Psychiatric Liaison Nurse; later Clinical Nurse Consultant (Mental Health), Community Crisis Lead | VERY LOW | Trauma-informed de-escalation, Mental Health and Wellbeing Act compliance, risk triage |
+| Primary Health, Community Care & Aged Care Nursing | Community Health Nurse, Residential Aged Care RN; later Care Coordinator, Nurse Practitioner Candidate (Primary Care) | VERY LOW | Chronic disease management plans, aged care quality standards, home telehealth monitoring |
+| Clinical Nurse Education, Informatics & Trial Coordination | Clinical Nurse Educator, Research Nurse Coordinator; later Hospital Nurse Education Manager, Health Informatics Lead (EMR) | LOW | Electronic Medical Record (Epic/Cerner) governance, clinical trial ethics (GCP), simulation debriefing |
 
 **Exposure basis declaration.** Destination AI exposure is **45.02** (exact basis derived from Registered Nursing graduate destinations), sitting **far below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Acute nursing workforce shortages across all public health networks | Sustained High | ANMAC-accredited graduates enter high-demand hospital vacancies, heavily protected by statutory registration. — W3, G1, G2 |
 | Electronic Medical Record (Epic/Cerner) adoption across health networks | Sustained High | Over 90% of hospital postings mandate digital documentation and automated medication safety compliance. — C3, W1, W2 |
 | Statutory 24/7 RN mandates in residential aged care | Sustained High | Regulatory mandates drive rapid promotion to clinical leadership and care coordination roles. — C1, W3, G1 |
@@ -191,7 +192,7 @@ The market intelligence gathered for this program indicates acute, structural wo
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-nursc.md); rows
@@ -210,7 +211,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 129. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 129. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-15: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

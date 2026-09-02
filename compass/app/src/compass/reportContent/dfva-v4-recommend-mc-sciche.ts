@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Science (Chemistry) is a 200-point postgraduate research-track degree preparing synthetic research chemists, analytical QC scientists, materials technologists, and PhD candidates aligned with Royal Australian Chemical Institute (RACI) chartered chemist standards. Both gates pass unconditionally: G1 passes on a compulsory 125-credit-point research project staged across four semesters plus advanced discipline coursework; G2 passes on an independent, self-scoped four-semester research thesis requiring original synthesis design, spectroscopic interpretation, and chemical hazard risk assessments under genuine empirical uncertainty.

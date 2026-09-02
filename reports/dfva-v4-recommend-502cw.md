@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Laws (LLM) is Melbourne Law School's flagship postgraduate law degree, attracting practicing solicitors, barristers, in-house counsel, and international legal scholars across 150+ specialized subject offerings. G2 passes decisively across the elective inventory: assessments require defended legal reform proposals, complex corporate governance analyses, and non-scripted advice under uncertainty. However, G1 fails because the degree has 100% elective flexibility (100 credit points chosen from any MLM offering) with zero compulsory core subjects, no accredited sequence, and no prerequisite progression.

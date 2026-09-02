@@ -13,7 +13,7 @@ const content = {
 | Objects and materials conservation | Conservator, Assistant Conservator | Condition assessment, treatment planning and hands-on treatment execution, technical and scientific analysis of collection materials | LOW — treatment decisions on irreplaceable objects require defended judgement under real uncertainty; the program's own G2 gate confirms core assessment already demands this, and no sourced evidence shows AI performing physical treatment | Digital documentation practice, ethical and sustainable decision-making frameworks | Grounded in program specialisations (CUMC90030 Conservation Practice, CUMC90032/90033) and 25-4013 alias list |
 | Documentation and digitisation | Collections Officer, Technical Examination Officer | Technical examination, imaging, record digitisation, cataloguing | MEDIUM — a peer-reviewed scoping review counts documented generative-AI deployments in museums concentrated partly in "behind-the-scenes tools that read and catalog" collections, and one archive already uses AI-assisted OCR at scale | Reviewing and validating AI-generated transcription or catalogue output, structured metadata practice | Sourced via bx-L2-1 and bx-L3-1 in 25-4013.json |
 | Book, paper and paintings conservation | Book and Paper Conservator | Paper and painting treatment, in-painting and retouching, condition reporting | MEDIUM — a single demonstrated AI in-painting tool cut manual restoration time on one heavily damaged painting, though its developer frames it as an adjunct, not a replacement | Digital-mask and imaging-assisted restoration workflows alongside hands-on execution | Sourced via bx-L3-2 in 25-4013.json |
-| Collections management | Collections Manager, Archivist | Registration, storage and risk management, professional-standard reporting | LOW-MEDIUM — the profession's one binding ethics instrument (AICCM) has no AI-specific provisions on record, and demand skews toward stakeholder communication and governance over technical automation | Stakeholder communication, project governance, ethical reasoning | Sourced via bx-L1-1 and jobAds.topSkills in 25-4013.json |
+| Collections management | Collections Manager, Archivist | Registration, storage and risk management, professional-standard reporting | LOW-MEDIUM — the profession's one binding ethics instrument (AICCM) has no AI-specific provisions on record, and demand skews toward stakeholder communication and governance over technical automation | Stakeholder communication, project governance, ethical reasoning | Sourced via bx-L1-1 and the job-advertisement top-skills list in 25-4013.json |
 | Industry placement and applied research pathway | Conservation Technician | Supervised workplace practicum, applied conservation research project | LOW — the capstone/internship route is built around practitioner-supervised, hands-on practice and defended research judgement | Applied research design, workplace professional conduct | Grounded in CUMC90006 Conservation Industry Internship and the Minor Thesis/Treatment Research/Industry Research capstone options in mc-culmc.json |
 
 ## 2. RECENT JOB AD SIGNALS
@@ -45,7 +45,7 @@ is live labour-market data, not a modelled estimate, and it is stated plainly as
    single postings, not a corroborated volume figure, and an unofficial scrape rather than an
    official LinkedIn data feed.
 5. **Gap, not a null result.** No occupation-specific AI-exposure or task-automation score
-   exists for SOC 25-4013 in any of the institutional sources the profession record's research
+   exists for Standard Occupational Classification (SOC) 25-4013 in any of the institutional sources the profession record's research
    checked — Jobs and Skills Australia, O*NET, the Anthropic Economic Index, the Global
    Automation Atlas, or ILO Working Paper 140 — per that record's documented search log. The
    only figure located (a willrobotstakemyjob.com estimate built on 2013 Frey–Osborne
@@ -130,8 +130,7 @@ that it changes conservator staffing or task allocation industry-wide.
 
 **Bearing:** C4 and W2.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 | --- | --- | --- |
 | Reviewing and validating AI-generated transcription and cataloguing output | **↑↑ Rising sharply** | Theme 3 (§3) reports B&O Railroad Museum archivists' role shifted toward reviewing AI-generated OCR transcriptions across 16 million records, and CI-1 (§5) notes the program's sole digital-content elective is not even offered in 2026 (C3 scores 1). |
@@ -162,7 +161,7 @@ that it changes conservator staffing or task allocation industry-wide.
 | AI deployment in conservation/museum practice | MEDIUM | Grounded in one peer-reviewed scoping review (27 global deployments as of Aug 2026) and two single-institution/single-demonstration case reports; this is genuinely thin literature, not a search-effort gap. |
 | AI-specific professional governance | MEDIUM | The AICCM Code's current text is confirmed; whether it has been updated with AI-specific provisions since its founding text was not directly confirmed — absence of evidence, not confirmed absence. |
 | Occupation-level AI exposure/automation score | NONE | No institutional source (JSA, O*NET, Anthropic Economic Index, Global Automation Atlas, ILO WP140) publishes an occupation-specific figure for SOC 25-4013, per the profession record's documented search log. |
-| Curriculum evidence (Panel C v4.2) | HIGH | Adversarially verified 2026-08-31, \`mechanical: true\`. |
+| Curriculum evidence (durability report, v4.2) | HIGH | The evidence was checked mechanically and reviewed adversarially on 2026-08-31. |
 
 ### Critical evidence gaps to close before institutional use:
 
@@ -184,7 +183,7 @@ that it changes conservator staffing or task allocation industry-wide.
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-culmc
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **100399 Visual Arts and Crafts, n.e.c.** (n = 2,200 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 29.1% of them, and the 5 largest are shown at each stage.
 

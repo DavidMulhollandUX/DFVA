@@ -21,7 +21,7 @@
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-**What these sources are.** An institutional/scholarly AI-exposure study (Carnegie Mellon-affiliated, published via the Washington Center for Equitable Growth), an Australian government occupational exposure study reported through a third-party aggregator (Jobs and Skills Australia's Gen AI Capacity Study), trade press covering an analyst-firm survey (Material Handling & Logistics covering Gartner) and a recruiting-research firm's own synthesis (SCM Talent Group), a trade-magazine feature compiling named industry experts' predictions (Inbound Logistics), and two professional-body/trade-press pieces quoting named practitioners directly (CIPS; Supply Chain Dive). Direct extraction from X or LinkedIn was **not** performed and no professional forum was sampled — "discourse" here means these named institutional, trade-press and quoted-practitioner sources, not a survey of practitioner sentiment. Every claim below is carried forward from `data/professions/0803.json`, where it is already marked sourced, scoped or corrected; none required removal for this report.
+**What these sources are.** An institutional/scholarly AI-exposure study (Carnegie Mellon-affiliated, published via the Washington Center for Equitable Growth), an Australian government occupational exposure study reported through a third-party aggregator (Jobs and Skills Australia's Gen AI Capacity Study), trade press covering an analyst-firm survey (Material Handling & Logistics covering Gartner) and a recruiting-research firm's own synthesis (SCM Talent Group), a trade-magazine feature compiling named industry experts' predictions (Inbound Logistics), and two professional-body/trade-press pieces quoting named practitioners directly (CIPS; Supply Chain Dive). Direct extraction from X or LinkedIn was **not** performed and no professional forum was sampled — "discourse" here means these named institutional, trade-press and quoted-practitioner sources, not a survey of practitioner sentiment. Every claim below is carried forward from the occupation profile record (0803), where it is already marked sourced, scoped or corrected; none required removal for this report.
 
 ### Theme 1 — the occupation carries substantial measured AI task exposure by two independent measures, though neither is a direct, current-Australian, program-specific figure
 
@@ -47,8 +47,7 @@ The Inbound Logistics piece compiles qualitative predictions from named experts,
 
 **Bearing:** C2 and W1. Both items rest on the same optional Capstone-route evidence (BUSA90485's peer-review-then-revise cycle and host-company presentation), which the program's own evidence file already discounts for W3 on identical grounds — meaning no genuinely compulsory unit gives students assessed practice in critiquing AI or peer output, or in communicating to a real external audience, at precisely the moment named practitioners disagree sharply about the profession's own trajectory and executives describe judgement-heavy, case-by-case adoption decisions.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Mid-to-senior, AI-fluent supply chain roles (vs. entry-level hiring volume) | **↑↑ Rising sharply** | Theme 2 (§3) — a Gartner survey of 509 global leaders (fielded Jul–Oct 2025) found 55% expect agentic AI to reduce entry-level hiring and 51% expect workforce reductions overall, while SCM Talent Group's Indeed-derived analysis found 85% of AI-related supply-chain openings in 2025 targeted mid-to-senior roles. Named directly in the report's own rising column at Fast velocity. |
@@ -76,7 +75,7 @@ The Inbound Logistics piece compiles qualitative predictions from named experts,
 | Live job-ad data (§2) | NONE — not conducted this cycle | No Adzuna data was collected; no employer names, vacancy counts or skill-tag frequencies exist for this window. |
 | Hiring-intention and seniority-mix signals (Gartner via MHL News; SCM Talent Group via Indeed) | MEDIUM | Both are stated expectations or a recruiting firm's own data synthesis, not observed outcomes verified against a primary dataset; both samples are global/US rather than Australian. |
 | Named-practitioner discourse (CIPS; Supply Chain Dive) | LOW-MEDIUM | Four named individuals across two pieces, not a survey; only one of the two CIPS speakers is confirmed Australian (the other is South African, despite a same-named Australian retailer), and the Supply Chain Dive speakers are large US-enterprise procurement executives at an industry event. |
-| Program curriculum evidence (dfva/source/evidence/mc-mgmtscm.json) | HIGH, mechanically verified | `panelCv4.verified.mechanical` is true and adversarially reviewed 2026-08-31; the adversarial pass itself demoted C2 and W1 from level 2 to level 1 for resting on the same optional-route evidence already used to hold W3 down, a correction carried into this report's §3 and §5. |
+| Program curriculum evidence (durability report) | HIGH, mechanically verified | The evidence was checked mechanically and reviewed adversarially on 2026-08-31; the adversarial pass itself demoted C2 and W1 from level 2 to level 1 for resting on the same optional-route evidence already used to hold W3 down, a correction carried into this report's §3 and §5. |
 
 ### Critical evidence gaps to close before institutional use:
 1. No live job-ad data exists for this profession record — commission a Seek/Adzuna/LinkedIn pull against MC-MGMTSCM's actual destination titles before using §2 for hiring-volume or employer claims.
@@ -91,7 +90,7 @@ The Inbound Logistics piece compiles qualitative predictions from named experts,
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes, JSA HEO)
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **0803 Business and Management** (n = 40,750 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 34.6% of them, and the 5 largest are shown at each stage.
 

@@ -56,8 +56,7 @@ Publications from the [ACS](https://www.acs.org.au/) highlight that modern digit
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI governance and risk assessment (NIST AI RMF, ISO 42001) | **↑↑ Rising sharply** | D5 scores 1/3 — no dedicated AI governance unit is visible in the core structure. Theme 3 (§3) shows practitioners reframing toward AI governance as "the new BA," matching the 34 new ANZ "AI Governance Analyst" postings and the tripling ISO 42001 demand cited in §2. |
@@ -93,7 +92,7 @@ Publications from the [ACS](https://www.acs.org.au/) highlight that modern digit
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes (JSA HEO))
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **0203 Information Systems** (n = 4,950 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 43.6% of them, and the 5 largest are shown at each stage.
 

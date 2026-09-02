@@ -18,7 +18,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 71.03.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 448). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 71.03.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 448). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -191,20 +191,20 @@ The market intelligence gathered for this program indicates high, sustained empl
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Musculoskeletal & Sports Physiotherapy | Graduate MSK Physiotherapist, Sports Physio | Senior MSK Physiotherapist, APA Titled Sports Physiotherapist | LOW | Manual joint mobilization, biomechanical video analysis, return-to-sport testing |
-| 2 | Acute Hospital & Cardiorespiratory Care | Rotational Hospital Physiotherapist | Senior ICU/Cardiorespiratory Physiotherapist, Clinical Lead | LOW | Post-operative mobilization, non-invasive ventilation, acute clinical escalation |
-| 3 | Neurological Rehabilitation & Paediatrics | Neurological Rehab Physiotherapist, Paediatric Physio | Senior Neuro Specialist, NDIS Complex Case Lead | LOW | Neuroplasticity motor retraining, gait lab analysis, family-centred NDIS care |
-| 4 | Aged Care & Community Health | Aged Care Physiotherapist, Community Physio | Aged Care Clinical Manager, Fall Prevention Program Lead | LOW | Complex multi-morbidity management, assistive mobility prescription, frailty rehab |
-| 5 | Digital Health & Hybrid Telerehabilitation | Telerehab Physiotherapist, Hybrid Clinician | Digital Health Delivery Lead, Clinical Tech Consultant | LOW–MEDIUM | Remote movement sensor tracking, ambient clinical scribe auditing, telehealth triage |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Musculoskeletal & Sports Physiotherapy | Graduate MSK Physiotherapist, Sports Physio; later Senior MSK Physiotherapist, APA Titled Sports Physiotherapist | LOW | Manual joint mobilization, biomechanical video analysis, return-to-sport testing |
+| Acute Hospital & Cardiorespiratory Care | Rotational Hospital Physiotherapist; later Senior ICU/Cardiorespiratory Physiotherapist, Clinical Lead | LOW | Post-operative mobilization, non-invasive ventilation, acute clinical escalation |
+| Neurological Rehabilitation & Paediatrics | Neurological Rehab Physiotherapist, Paediatric Physio; later Senior Neuro Specialist, NDIS Complex Case Lead | LOW | Neuroplasticity motor retraining, gait lab analysis, family-centred NDIS care |
+| Aged Care & Community Health | Aged Care Physiotherapist, Community Physio; later Aged Care Clinical Manager, Fall Prevention Program Lead | LOW | Complex multi-morbidity management, assistive mobility prescription, frailty rehab |
+| Digital Health & Hybrid Telerehabilitation | Telerehab Physiotherapist, Hybrid Clinician; later Digital Health Delivery Lead, Clinical Tech Consultant | LOW–MEDIUM | Remote movement sensor tracking, ambient clinical scribe auditing, telehealth triage |
 
 **Exposure basis declaration.** Destination AI exposure is **45.02** (exact basis derived from Physiotherapist graduate destinations), sitting **far below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Structured public hospital graduate rotational intakes | Sustained High | Health services maintain annual intakes for registered graduate physiotherapists. — W3, G1 |
 | Mandated aged care minutes and NDIS funding growth | Sustained High | Structural policy tailwinds drive severe physiotherapist shortages in residential and disability care. — W3, G1 |
 | Rapid adoption of ambient AI clinical scribes (Heidi Health) | Rising | Allied health clinics adopt ambient documentation, freeing time for manual therapy and exercise prescription. — C2, C3, W1 |
@@ -216,7 +216,7 @@ The market intelligence gathered for this program indicates high, sustained empl
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-dphysio.md); rows
@@ -235,7 +235,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 448. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 448. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-14: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

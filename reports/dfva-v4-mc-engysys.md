@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 91.16.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 10 of 14 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 61, 14 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 91.16.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 10 of 14 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 61, 14 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -131,16 +131,16 @@ The market context is condensed from [`reports/dfva-market-mc-engysys.md`](dfva-
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Renewable Grid Integration & Power Engineering | Graduate Energy Systems Engineer, Grid Connection Analyst | Senior Power Systems Engineer, Principal Grid Modeler | 88.5 | HIGH | Dynamic power flow modeling (PSS/E, PowerFactory), inverter-based resource stability, system strength design |
-| Energy Market Policy & Regulatory Analysis | Regulatory Analyst (AER / ESC), Market Analyst (AEMO) | Senior Policy Adviser, Manager (Market Reform) | 94.2 | HIGH | National Electricity Market (NEM) rule analysis, capacity mechanism design, transmission pricing policy |
-| Clean Energy Project Finance & Commercial Advisory | Renewable Energy Investment Analyst, Commercial Modeler | Associate Director (Energy Infrastructure), Project Development Manager | 95.8 | VERY HIGH | Project finance modeling under merchant risk, PPA contract structuring, battery revenue stack optimization |
-| Corporate Decarbonisation & Energy Management | Sustainability & Energy Analyst, Carbon Operations Officer | Energy Transition Lead, Head of Decarbonisation | 86.4 | MODERATE | Scope 1–3 emissions auditing, industrial electrification feasibility, microgrid techno-economic design |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Renewable Grid Integration & Power Engineering | Graduate Energy Systems Engineer, Grid Connection Analyst; later Senior Power Systems Engineer, Principal Grid Modeler | HIGH (exposure 88.5) | Dynamic power flow modeling (PSS/E, PowerFactory), inverter-based resource stability, system strength design |
+| Energy Market Policy & Regulatory Analysis | Regulatory Analyst (AER / ESC), Market Analyst (AEMO); later Senior Policy Adviser, Manager (Market Reform) | HIGH (exposure 94.2) | National Electricity Market (NEM) rule analysis, capacity mechanism design, transmission pricing policy |
+| Clean Energy Project Finance & Commercial Advisory | Renewable Energy Investment Analyst, Commercial Modeler; later Associate Director (Energy Infrastructure), Project Development Manager | VERY HIGH (exposure 95.8) | Project finance modeling under merchant risk, PPA contract structuring, battery revenue stack optimization |
+| Corporate Decarbonisation & Energy Management | Sustainability & Energy Analyst, Carbon Operations Officer; later Energy Transition Lead, Head of Decarbonisation | MODERATE (exposure 86.4) | Scope 1–3 emissions auditing, industrial electrification feasibility, microgrid techno-economic design |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Universal deployment of power system simulation, market dispatch software, and techno-economic optimization tools | Rising | C3, W2 |
 | Critical necessity of auditing automated power dispatch and machine learning forecasting tools for grid stability and voltage collapse limits | Rising | C2, G2 |
@@ -152,7 +152,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-engysys.md); rows
@@ -171,7 +171,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 61, 14 destination titles, 10 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 61, 14 destination titles, 10 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-24: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

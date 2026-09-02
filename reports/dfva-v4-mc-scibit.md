@@ -13,7 +13,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 86.37.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 151). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 86.37.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 151). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -152,20 +152,20 @@ The market intelligence gathered for this program indicates strong hiring across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Regulatory Affairs & Clinical Governance | Graduate Regulatory Affairs Associate, Submissions Officer | Senior Regulatory Affairs Manager, TGA/FDA Submissions Lead | MEDIUM (drafting) / LOW (statutory accountability) | TGA AI guidance navigation, AI regulatory submission audit, GCP compliance validation |
-| 2 | Biotechnology Commercialisation & TTO | Technology Transfer Associate, IP Analyst | Commercialisation Manager, Biotech Investment Analyst | LOW | AI-assisted patent landscaping, technology scouting, term sheet structuring |
-| 3 | Quality Assurance & GMP Manufacturing | QA Associate, Validation Scientist | Quality Assurance Manager, GMP Compliance Lead | MEDIUM | AI batch record review verification, CAPA root-cause investigation, sterile fill-finish QA |
-| 4 | Clinical Trials Coordination & Operations | Clinical Trials Coordinator, CRA | Senior Clinical Project Manager, Decentralised Trial Lead | LOW–MEDIUM | Adaptive trial protocol design, e-consent governance, clinical trial site management |
-| 5 | Translational Research & Drug Discovery | Research Scientist (Assay Development), Bioinformatician | Senior Translational Scientist, Platform Lead | MEDIUM | AlphaFold 3 validation, high-throughput screening data science, assay development |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Regulatory Affairs & Clinical Governance | Graduate Regulatory Affairs Associate, Submissions Officer; later Senior Regulatory Affairs Manager, TGA/FDA Submissions Lead | MEDIUM (drafting) / LOW (statutory accountability) | TGA AI guidance navigation, AI regulatory submission audit, GCP compliance validation |
+| Biotechnology Commercialisation & TTO | Technology Transfer Associate, IP Analyst; later Commercialisation Manager, Biotech Investment Analyst | LOW | AI-assisted patent landscaping, technology scouting, term sheet structuring |
+| Quality Assurance & GMP Manufacturing | QA Associate, Validation Scientist; later Quality Assurance Manager, GMP Compliance Lead | MEDIUM | AI batch record review verification, CAPA root-cause investigation, sterile fill-finish QA |
+| Clinical Trials Coordination & Operations | Clinical Trials Coordinator, CRA; later Senior Clinical Project Manager, Decentralised Trial Lead | LOW–MEDIUM | Adaptive trial protocol design, e-consent governance, clinical trial site management |
+| Translational Research & Drug Discovery | Research Scientist (Assay Development), Bioinformatician; later Senior Translational Scientist, Platform Lead | MEDIUM | AlphaFold 3 validation, high-throughput screening data science, assay development |
 
 **Exposure basis declaration.** Destination AI exposure is **80.08** (exact basis derived from Biotechnology graduate destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | TGA/FDA regulatory submission automation drives demand for compliance auditors | Fast | Pharma manufacturers deploy AI dossier drafting tools, requiring human audit. — C2, C3, W2 |
 | Commercialisation deal flow surges in oncology and cell therapies | Sustained High | Tech transfer offices recruit analysts for licensing and patent due diligence. — C1, W1, G1 |
 | QA batch record automation and human sign-off mandate | Fast | GMP facilities automate routine review, but TGA requires human QA release. — C2, W2, G2 |
@@ -177,7 +177,7 @@ The market intelligence gathered for this program indicates strong hiring across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-scibit.md); rows
@@ -196,7 +196,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 151. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 151. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-15: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

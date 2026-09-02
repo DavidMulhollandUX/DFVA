@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Applied Business Analytics prepares commercial data analysts, machine learning specialists, and operations analytics consultants for major financial institutions, consulting firms, retail leaders, and tech enterprises. Both gates pass cleanly: G1 passes on a coherent specialist core spanning 100 credit points in mathematics, probability, predictive modelling, machine learning, and optimisation, closed by a 25-point capstone project; G2 passes on mathematical decision-modelling under ambiguity, bias detection, and algorithmic trade-offs.

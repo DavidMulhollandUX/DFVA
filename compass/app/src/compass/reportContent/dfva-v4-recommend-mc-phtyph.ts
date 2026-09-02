@@ -15,7 +15,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Physiotherapy (Pelvic Health) is a 150-point postgraduate specialist degree designed for qualified physiotherapists seeking advanced clinical titling with the Australian Physiotherapy Association (APA) and Physiotherapy Board of Australia (AHPRA). Both gates pass unconditionally: G1 passes on an all-compulsory specialist core of six subjects (75cp) in pelvic health and rehabilitation research methods gated ahead of the capstone and aligned to national professional titling frameworks; G2 passes on high-stakes clinical trade-off decisions under genuine clinical uncertainty, evaluated through hurdle practical examinations, differential diagnosis case studies, and real-service evaluation projects.

@@ -12,7 +12,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 MC-CLIMSCI sits at the v4 cohort median on adaptive capabilities (9/15) with a low workplace sub-score (3/9), and one structural feature explains most of both: the degree ends in a 25-point project that a student takes as **either** ATOC90019 (an on-campus academic research project) **or** ATOC90018 (a Climate Science Industry Project with an industry partner charter). Two items turn on that single fork. C5 cannot reach 3 because primary-evidence generation is not unconditionally required of everyone; W3 cannot reach 2 because a student can complete the degree without ever entering a workplace. Neither is a gap in provision — the program *has* both the research training and the industry placement — it is a gap in what is guaranteed.

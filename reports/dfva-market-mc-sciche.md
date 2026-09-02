@@ -56,8 +56,7 @@ Standards from [RACI](https://raci.org.au/) confirm that a substantial multi-sem
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Materials characterisation and battery/critical-minerals process chemistry | **↑↑ Rising sharply** | Signal 2 (§2) describes Australia's critical minerals and battery manufacturing ambitions as generating "a net-new demand signal absent from the market five years ago," which CI-4 (§5) recommends addressing through a materials and energy chemistry elective pathway. |
@@ -91,7 +90,7 @@ Standards from [RACI](https://raci.org.au/) confirm that a substantial multi-sem
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS & DEMAND (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · QILT · Adzuna)
 
 **Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 010501 Chemistry / Chemical Sciences):
 

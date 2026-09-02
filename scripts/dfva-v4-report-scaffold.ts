@@ -262,7 +262,7 @@ function scaffold(code: string): string {
   // ── 1 ──
   parts.push(`## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: ${exposure.toFixed(2)}.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program${nMedium !== null ? `; ${nMedium} of ${nTitles} titles carry medium mapping confidence` : ''}. Basis: ${describeBasis(basis, jirN, nTitles)}. The ${basis?.tier === 'field' ? 'field-basis' : 'portfolio'} median is ${median}, so this program sits **${exposure > median ? 'above' : 'at or below'}** it.
+**Destination AI Exposure: ${exposure.toFixed(2)}.** Destination titles are mapped to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program${nMedium !== null ? `; ${nMedium} of ${nTitles} titles carry medium mapping confidence` : ''}. Basis: ${describeBasis(basis, jirN, nTitles)}. The ${basis?.tier === 'field' ? 'field-basis' : 'portfolio'} median is ${median}, so this program sits **${exposure > median ? 'above' : 'at or below'}** it.
 
 **Curriculum Adaptiveness: ${pc.adaptiveness} / 15.** Scored on Panel C ${heading} sub-scale A ${mdCiteByN([1])} from ${cap.vintage} handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -303,7 +303,7 @@ ${AUTHOR_MARK}`)
   // ── 5 ──
   parts.push(`## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-${code}.md); rows
@@ -321,7 +321,7 @@ ${implicationRows(pc)}`)
   const notScoreable: string[] = pc.notScoreable ?? []
   parts.push(`## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **${basis?.tier ?? 'none'}** (${TIER_LABEL[basis?.tier ?? ''] ?? 'unrecorded'})${jirN !== null ? `, n = ${jirN}` : ''}${nTitles !== null ? `, ${nTitles} destination titles` : ''}${nMedium !== null ? `, ${nMedium} at medium mapping confidence` : ''}. Index variant ${basis?.indexVariant ?? 'AIOE-2021'}; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.${basis?.note ? ` Basis note: ${basis.note}` : ''}
+**Panel A metadata.** Basis tier **${basis?.tier ?? 'none'}** (${TIER_LABEL[basis?.tier ?? ''] ?? 'unrecorded'})${jirN !== null ? `, n = ${jirN}` : ''}${nTitles !== null ? `, ${nTitles} destination titles` : ''}${nMedium !== null ? `, ${nMedium} at medium mapping confidence` : ''}. Index variant ${basis?.indexVariant ?? 'AIOE-2021'}; destination titles mapped to the published Felten index.${basis?.note ? ` Basis note: ${basis.note}` : ''}
 
 **Panel C provenance.** Scored from the ${cap.vintage} handbook capture (${cap.pages} pages) and verified on ${pc.verified?.date ?? 'an unrecorded date'}: adversarial refutation of every level-3 score and every gate PASS (${pc.verified?.adversarial ? 'run' : 'NOT run'}), verbatim evidence check (${pc.verified?.mechanical ? 'run' : 'NOT run'}), and the construct-boundary pass.
 

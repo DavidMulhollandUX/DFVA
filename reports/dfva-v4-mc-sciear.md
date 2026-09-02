@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 85.44.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Bachelor of Science (Geology) (n = 46); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 85.44.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Bachelor of Science (Geology) (n = 46); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 10 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2025 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -163,20 +163,20 @@ The market intelligence gathered for this program indicates active hiring across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Mineral Exploration & Structural Geology | Exploration Geologist, Field Geologist | Senior Exploration Geologist, Exploration Project Manager | LOW | Field structural mapping, drill core logging, ML-assisted geochemical anomaly detection |
-| 2 | Environmental Geoscience & Hydrogeology | Hydrogeologist, Environmental Geoscientist | Senior Contaminated Land Consultant, Hydrogeology Lead | LOW–MEDIUM | Groundwater numerical modeling, PFAS remediation, field bore sampling |
-| 3 | Atmospheric Science & Climate Modeling | Climate Data Analyst, Meteorological Officer (BoM) | Senior Climate Scientist, Atmospheric Research Specialist | MEDIUM | Climate model evaluation, numerical weather prediction, uncertainty quantification |
-| 4 | Mining Geology & Resource Estimation | Mine Geologist, Resource Analyst | Senior Resource Geologist, JORC Competent Person | LOW | Geostatistical block modeling, grade control, 3D implicit structural modeling (Leapfrog) |
-| 5 | Carbon Capture & Geothermal Energy | Subsurface Geologist, CCS Geoscientist | Carbon Storage Project Lead, Geothermal Specialist | LOW | Reservoir seismic characterization, caprock integrity assessment, CO2 plume monitoring |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Mineral Exploration & Structural Geology | Exploration Geologist, Field Geologist; later Senior Exploration Geologist, Exploration Project Manager | LOW | Field structural mapping, drill core logging, ML-assisted geochemical anomaly detection |
+| Environmental Geoscience & Hydrogeology | Hydrogeologist, Environmental Geoscientist; later Senior Contaminated Land Consultant, Hydrogeology Lead | LOW–MEDIUM | Groundwater numerical modeling, PFAS remediation, field bore sampling |
+| Atmospheric Science & Climate Modeling | Climate Data Analyst, Meteorological Officer (BoM); later Senior Climate Scientist, Atmospheric Research Specialist | MEDIUM | Climate model evaluation, numerical weather prediction, uncertainty quantification |
+| Mining Geology & Resource Estimation | Mine Geologist, Resource Analyst; later Senior Resource Geologist, JORC Competent Person | LOW | Geostatistical block modeling, grade control, 3D implicit structural modeling (Leapfrog) |
+| Carbon Capture & Geothermal Energy | Subsurface Geologist, CCS Geoscientist; later Carbon Storage Project Lead, Geothermal Specialist | LOW | Reservoir seismic characterization, caprock integrity assessment, CO2 plume monitoring |
 
 **Exposure basis declaration.** Destination AI exposure is **78.95** (cognate basis derived from Geology / Earth Sciences destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Critical minerals exploration and field mapping expansion | Sustained High | National sovereign supply chain investments drive geologist recruitment. — W2, G1 |
 | Atmospheric science bifurcation: model runners vs model evaluators | Fast | BoM and CSIRO automate standard runs; demand shifts to observational validation. — C2, C3, G2 |
 | JORC Code statutory sign-off and physical core verification | Stable | JORC legal accountability insulates resource modeling from complete automation. — C2, W2, G1 |
@@ -188,7 +188,7 @@ The market intelligence gathered for this program indicates active hiring across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-sciear.md); rows
@@ -207,7 +207,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **cognate** (cognate program), n = 46. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: Reconciliation package tier cognate.
+**Panel A metadata.** Basis tier **cognate** (cognate program), n = 46. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Reconciliation package tier cognate.
 
 **Panel C provenance.** Scored from the 2025 handbook capture (31 pages) and verified on 2026-08-15: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

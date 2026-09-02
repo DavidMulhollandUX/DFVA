@@ -23,7 +23,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 72.81.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 19 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 100103 Drama and Theatre Studies; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
+**Destination AI Exposure: 72.81.** Destination titles are crosswalked to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 19 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 100103 Drama and Theatre Studies; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 4 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -116,28 +116,28 @@ combined total: the sub-scores are reported side by side and never added.
 
 Destination job families and exposure values for Bachelor of Fine Arts (Acting) (B-FAACTING), condensed from [the market intelligence report](dfva-market-b-faacting.md):
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | AI Exposure |
-|---|---|---|---|---|---|
-| 1 | Stage & Theatre Performance | Ensemble Actor, Resident Theatre Performer | Lead Actor, Associate Theatre Director | VERY LOW | 68.55 |
-| 2 | Screen, Film & Television Acting | Screen Actor, Supporting Cast Member | Lead Screen Actor, Co-Producer / Director | LOW | 68.55 |
-| 3 | Voiceover, Audio Drama & Interactive Gaming | Voice Actor, Audio Drama Narrator | Senior Voice Director, Dialogue Specialist | MEDIUM | 68.55 |
-| 4 | Applied Performance, Teaching & Facilitation | Teaching Artist, Drama Facilitator | Creative Producer, Applied Theatre Director | VERY LOW | 68.55 |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Stage & Theatre Performance | Ensemble Actor, Resident Theatre Performer; later Lead Actor, Associate Theatre Director | VERY LOW | Live physical embodiment, vocal resonance, ensemble improvisation |
+| Screen, Film & Television Acting | Screen Actor, Supporting Cast Member; later Lead Screen Actor, Co-Producer / Director | LOW | Motion capture (mocap) performance, performance capture, on-camera authenticity |
+| Voiceover, Audio Drama & Interactive Gaming | Voice Actor, Audio Drama Narrator; later Senior Voice Director, Dialogue Specialist | MEDIUM | Interactive voice performance, dialect versatility, vocal AI licensing governance |
+| Applied Performance, Teaching & Facilitation | Teaching Artist, Drama Facilitator; later Creative Producer, Applied Theatre Director | VERY LOW | Community co-design, trauma-informed facilitation, creative leadership |
 
 Signals and skill shifts mapped to scored Panel C and Workplace items:
 
-| Signal / Shift | Direction | Evidence | Bearing |
-|---|---|---|---|
-| Performer digital rights, likeness scanning & synthetic voice | Rising | MEAA union agreements and Screen Australia guidelines on digital twin licensing | C3, W1, G1 |
-| Motion capture (mocap) & virtual production performance | Rising | Interactive gaming and virtual studio adoption of mocap performers | C3, W2 |
-| Relational ensemble collaboration & director communication | Stable / Rising | Mainstage theatre casting demand for ensemble adaptability and live responsiveness | C1, W2, G2 |
-| Self-taping evaluative judgement & portfolio autonomy | Rising | APAM and casting director requirements for self-directed audition curation | C2, C4 |
-| Formulaic text recitation & unprotected voice licensing | Declining | Generative synthetic voice models commoditising basic voiceover tracks | C3, W1 |
+| Signal or shift | Direction | Bearing on the scored items |
+| --- | --- | --- |
+| Performer digital rights, likeness scanning & synthetic voice — MEAA union agreements and Screen Australia guidelines on digital twin licensing | Rising | C3, W1, G1 |
+| Motion capture (mocap) & virtual production performance — Interactive gaming and virtual studio adoption of mocap performers | Rising | C3, W2 |
+| Relational ensemble collaboration & director communication — Mainstage theatre casting demand for ensemble adaptability and live responsiveness | Stable / Rising | C1, W2, G2 |
+| Self-taping evaluative judgement & portfolio autonomy — APAM and casting director requirements for self-directed audition curation | Rising | C2, C4 |
+| Formulaic text recitation & unprotected voice licensing — Generative synthetic voice models commoditising basic voiceover tracks | Declining | C3, W1 |
 
 **Confidence:** High for industry standards and union protections (MEAA, Screen Australia, Creative Australia); Medium for field-level graduate destinations (JSA HEO 100103 Drama and Theatre Studies).
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-b-faacting.md); rows

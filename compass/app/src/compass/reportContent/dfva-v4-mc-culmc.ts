@@ -28,7 +28,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 71.38.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 20 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 100399 Visual Arts and Crafts, n.e.c.; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
+**Destination AI Exposure: 71.38.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 20 titles carry medium mapping confidence. Basis: field-of-education occupation list, Jobs and Skills Australia Higher Education Outcomes — JSA HEO · 100399 Visual Arts and Crafts, n.e.c.; graduates of the whole field, not this program. The field-basis median is 83.21, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 7 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -152,7 +152,7 @@ account for only 29.1% of its graduates.
 
 **Table 2 — signals and skill shifts**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | The profession's governing ethics code (AICCM, 1987) has no AI-specific provisions on record | Static — no located update | C3, W1 |
 | A peer-reviewed scoping review verified 27 distinct generative-AI systems deployed in working museums worldwide, one functional category being cataloguing-adjacent "behind-the-scenes tools" | Rising, but a small literature-indexed count | C3, W2 |
@@ -167,7 +167,7 @@ overall: the four themes above draw on a peer-reviewed scoping review, a profess
 trade publication, specialist arts trade press, and the profession's own ethics
 instrument — no direct extraction from X or LinkedIn was performed for that section, and
 no professional forum was sampled. The report declares five specific gaps: no
-occupation-specific AI-exposure or task-automation score exists for SOC 25-4013 in any
+occupation-specific AI-exposure or task-automation score exists for Standard Occupational Classification (SOC) 25-4013 in any
 checked institutional source (JSA, O*NET, the Anthropic Economic Index, the Global
 Automation Atlas or ILO Working Paper 140); AI-deployment evidence in conservation and
 museums rests on one scoping review plus two single-institution or single-demonstration
@@ -180,7 +180,7 @@ corroborated volume figure.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-culmc.md); rows
@@ -199,7 +199,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **field** (field grain), n = 0, 20 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
+**Panel A metadata.** Basis tier **field** (field grain), n = 0, 20 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: field-of-education occupation list (ATO-linked), not this program's own graduates
 
 **Panel C provenance.** Scored from the 2026 handbook capture (39 pages) and verified on 2026-08-31: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

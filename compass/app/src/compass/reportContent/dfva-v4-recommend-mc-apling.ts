@@ -13,7 +13,7 @@ const content = {
 > [References](#references); full citations are given there and not repeated in
 > the body.
 >
-> The exposure value is an **estimate**: it rests on a field basis (JSA HEO ·
+> The exposure value is an **estimate**: it rests on a field basis (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) ·
 > 091521 Linguistics, 32.9% coverage), not on this program's own graduates —
 > 2 of the 7 crosswalked titles carry only medium mapping confidence. It is
 > sound enough to say the destinations carry high AI exposure, above the
@@ -23,7 +23,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Applied Linguistics (MC-APLING) carries a low adaptive score (6 / 15) and a low workplace score (3 / 9) against a field-estimated AI exposure of 88.72, above the field-basis median of 83.21. Gate G2 passes on the capstone's design-and-defend structure (Minor Thesis or LING90041 team project), but Gate G1 fails: the compulsory core is only two subjects, and 75–90% of the 100–200 point program is drawn from a shared elective pool that differs across the English Language, TESOL and Language Testing specialisations only in which single subject is compulsory. Every documented core-assessed activity — collaboration, the Reflective paper, and the "real-life project" framing — sits inside a single unit, LING90041 Projects in Applied Linguistics, one of two alternative capstone streams; nothing recurs across the program, and the alternative Minor Thesis stream carries none of it.

@@ -45,7 +45,7 @@ const content = {
 
 **Destination AI Exposure: 94.14.** Measured on the program's own exact-name alumni
 destination record (n = 28, 15 destination titles across three career stages),
-crosswalked to the published Felten AIOE index and rescaled 0–100 by the identical
+crosswalked to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the identical
 Panel A procedure used for every other program (v3.1 portfolio median 90.9;
 entry-stage mean 91.75). All 15 titles are mapped: 12 were added to the shared
 crosswalk for this assessment, 3 of the 15 at medium mapping confidence.
@@ -304,6 +304,18 @@ confidence is stated per section. Destinations and exposure values are HIGH conf
 synthesis of named regulatory instruments and public reporting, not a dated job-ad
 extraction.
 
+**Destination job families**, condensed from [the market intelligence report's job family
+map](dfva-market-mc-mgmthre.md), five of the seven destination families in the alumni
+record:
+
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Recruitment and talent acquisition | Recruitment Consultant, Technical Recruiter, Talent Acquisition Coordinator | HIGH — exposure 96.01, the highest of the seven families; manual sourcing, first-pass screening and interview scheduling are reported as already automated | Not stated in the market report — the reported pattern is contraction of headcount per team, not a rising skill within the family |
+| HR administration and support | Human Resources Administrator, Human Resources Assistant, Recruitment Administrator | HIGH — exposure 95.84, compounded by the slowest-growing HR family (+5.0% to 2028) | Not stated in the market report |
+| HR management and business partnering | Human Resources Manager, Senior Human Resources Business Partner | MEDIUM — exposure 95.06; still highly exposed on the index, but this is the fastest-growing HR family (+13.7% to 2028) and where accountability for an automated decision now sits | Workforce strategy, organisational design, capability planning, executive advice, accountability for automated people decisions |
+| Workplace and employee relations | Workplace Relations Advisor | LOW–MEDIUM and falling relative to the rest — exposure 95.41; adversarial and consequential work, now heavily regulated | Psychosocial-risk assessment and workplace-relations advisory under continuing regulatory reform (enterprise bargaining, disciplinary process, award compliance, union engagement) |
+| Human capital consulting | Human Capital Graduate Consultant | HIGH on the analysis-and-deck layer — exposure 96.01; the retained work is the client relationship and the defence of a recommendation | Client relationship defence and change-management consulting |
+
 **Destinations** (JIR/LiveAlumni exact-name record, n = 28; AIOE via the published Felten
 index, rescaled 0–100).
 
@@ -338,7 +350,7 @@ tail to fall back on, and the single destination below 90 is one title.
 **Signals and skill shifts** (MEDIUM confidence).
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | EU AI Act Annex III — employment classed high-risk, obligations landing through Aug 2026 | Rising sharply | C3 — absent from the compulsory core |
 | NYC Local Law 144 — annual independent bias audits of hiring tools, USD 1,500/day penalties | Rising sharply | C3 — the governance limb of level 3 |
 | **WHS Amendment (Digital Work Systems) Act 2026 (AU)** — first statutory duty over monitoring and performance-tracking tools | Rising sharply | C3 — and it binds in Australia, unlike the two above |
@@ -368,7 +380,7 @@ The full prioritised plan is in the
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-*This section argues from the evidence above; it is interpretation, not observation.*
+*This section argues from the preceding evidence; it is interpretation, not observation.*
 The prioritised plan, with anchor text, sequencing and score deltas, is in the
 [v4.1 improvement plan](dfva-v4-recommend-mc-mgmthre.md).
 
@@ -390,7 +402,7 @@ which is itself the finding.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel D metadata.** Exact-name JIR alumni match, n = 28, 15 destination titles across
+**Panel D metadata.** Exact-name Job Insights Report (JIR) alumni match, n = 28, 15 destination titles across
 three career stages, coverage 1.0. n = 28 is a small sample and the exposure value should
 be read with that in mind. Twelve of the fifteen titles were crosswalked for this
 assessment and committed to the shared extension crosswalk; three of the fifteen carry

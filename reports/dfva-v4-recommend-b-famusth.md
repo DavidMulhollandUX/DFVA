@@ -12,7 +12,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Bachelor of Fine Arts (Music Theatre) (B-FAMUSTH) is a 300-point conservatory program in which 237.5 credit points are compulsory, sequenced through Studio 1–6 and Production Studio 1–2 under a staged prerequisite chain. Its strongest evidence is the production spine: the Studio sequence scaffolds technique toward Production Studio's Main Stage Musical and Showcase, mounted with industry professionals (W2 = 3/3). Graded group performance recurs across Studio 1–6, Combination Skills 1–2 and Production Studio 1–2 (C1 = 2/3), and the compulsory Music Theatre Industry Skills subject (MUST30016) places every student before an Industry Audition Panel (W1 = 2/3). Both gates pass: G1 on the almost-entirely-compulsory core, G2 on live, public, full-scale productions with real accountability. The exposure estimate of 81.81 rests on the Jobs and Skills Australia Higher Education Outcomes (JSA HEO) field list for Performing Arts, n.e.c., scored on the AI Occupational Exposure (AIOE) index, and sits at or below the field median of 83.21.

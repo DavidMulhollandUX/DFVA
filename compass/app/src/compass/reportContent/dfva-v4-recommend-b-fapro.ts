@@ -17,7 +17,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Bachelor of Fine Arts (Production) (B-FAPRO) is a 300-credit-point specialist production degree in the Faculty of Fine Arts and Music, of which 237.5 credit points are compulsory production subjects chained by level-1 to level-2 to level-3 prerequisites. Its strength is where the work is real: the core Production Practice 1 to 3 sequence places every student in design, technical and management roles on live VCA productions, closes with a required 120-hour industry internship supervised by a host manager or mentor and reports back to the placement coordinator through the workplace supervisor (W3 = 3/3). Both gates pass on that same spine — G1 on the compulsory core, G2 on the senior-role live-production and negotiated-independent-project routes of the Production Practice 3 capstone. The destination field is exposed at **72.81** on the AI Occupational Exposure (AIOE) index, a field basis drawn from the Jobs and Skills Australia Higher Education Outcomes (JSA HEO) occupation list for Drama and Theatre Studies rather than from this program's own graduates, and sits at or below the field median of 83.21.

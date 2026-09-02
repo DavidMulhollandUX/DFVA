@@ -60,8 +60,7 @@ Standards from the [APA](https://australian.physio/) confirm that a comprehensiv
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Real-time ultrasound (RTUS)-guided assessment and biofeedback | **↑↑ Rising sharply** | CI-7 (§5) reports RTUS "becoming an expected core skill in specialist pelvic health positions," and Theme 3 (§3) notes early-career physiotherapists fluent in AI-guided biofeedback tools such as Elvie and Perifit are reported as more appealing to hiring practices. |
@@ -99,7 +98,7 @@ Standards from the [APA](https://australian.physio/) confirm that a comprehensiv
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS & DEMAND (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · QILT · Adzuna)
 
 **Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 061701 Physiotherapy):
 

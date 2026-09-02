@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-26
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/635aa (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 35 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -27,7 +28,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 94.83.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Laws (n = 676, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 94.83.** Destination titles are crosswalked to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Laws (n = 676, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -109,29 +110,29 @@ combined total: the sub-scores are reported side by side and never added.
 
 Destination job families and exposure values for Master of Law and Development (635AA), condensed from [the market intelligence report](dfva-market-635aa.md):
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | AI Exposure |
-|---|---|---|---|---|---|
-| 1 | Multilateral Development Legal Counsel | Legal Officer (ADB/World Bank), Project Associate (UN) | Senior Counsel (Sovereign Finance), Lead Policy Counsel | LOW | 94.83 |
-| 2 | International NGO & Human Rights Advocacy | Program Officer (Rule of Law), Human Rights Lawyer | Director of Legal Strategy, Regional Advocacy Lead | LOW | 94.83 |
-| 3 | Sovereign Debt & Infrastructure Finance Advisory | Associate (Project Finance), Sovereign Advisory Analyst | Partner / Special Counsel (Emerging Markets Infrastructure) | LOW–MODERATE | 94.83 |
-| 4 | Law Reform & Institutional Capacity Building | Law Reform Officer, Governance Specialist (DFAT/UNDP) | Chief Technical Advisor (Justice Sector Reform) | LOW | 94.83 |
-| 5 | Cross-Border Trade & Investment Regulation | Trade Policy Officer, ESG Legal Analyst | Senior Regulatory Counsel (Cross-Border Investment) | LOW–MODERATE | 94.83 |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Multilateral Development Legal Counsel | Legal Officer (ADB/World Bank), Project Associate (UN); later Senior Counsel (Sovereign Finance), Lead Policy Counsel | LOW | Development-finance documentation, sovereign-lending negotiation, public-international-law drafting |
+| International NGO & Human Rights Advocacy | Program Officer (Rule of Law), Human Rights Lawyer; later Director of Legal Strategy, Regional Advocacy Lead | LOW | Trauma-informed practice, international litigation strategy, UN mechanism navigation |
+| Sovereign Debt & Infrastructure Finance Advisory | Associate (Project Finance), Sovereign Advisory Analyst; later Partner / Special Counsel (Emerging Markets Infrastructure) | LOW–MODERATE | Development-finance documentation, sovereign-lending negotiation, public-international-law drafting |
+| Law Reform & Institutional Capacity Building | Law Reform Officer, Governance Specialist (DFAT/UNDP); later Chief Technical Advisor (Justice Sector Reform) | LOW | Regulatory-design judgement, inter-agency coordination, rule-of-law program design |
+| Cross-Border Trade & Investment Regulation | Trade Policy Officer, ESG Legal Analyst; later Senior Regulatory Counsel (Cross-Border Investment) | LOW–MODERATE | Cross-border transaction structuring, sanctions and AML fluency, ESG and sustainable-finance law |
 
 Signals and skill shifts mapped to scored Panel C and Workplace items:
 
-| Signal / Shift | Direction | Evidence | Bearing |
-|---|---|---|---|
-| AI governance, statutory verification & court compliance | Rising | Federal Court GPN-AI guidelines and LPBWA statements requiring verification of machine-assisted legal research | C3, C2, G1 |
-| Multilateral negotiation & cross-border drafting | Rising | Sovereign-lending and development-finance job listings requiring multi-stakeholder consensus building | C1, W1, W2 |
-| AI-assisted drafting & research automation | Rising | 2025 Victorian Lawyer Census (36.7% AI adoption) showing rapid uptake for document drafting | C3, C2 |
-| Routine junior legal research & document discovery | Declining | Automation of standard statutory search and initial memorandum drafting across major firms | C3, C4 |
-| Complex legal problem solving under institutional ambiguity | Stable / Rising | High demand for contextual legal analysis in unstable regulatory environments | G2, C5 |
+| Signal or shift | Direction | Bearing on the scored items |
+| --- | --- | --- |
+| AI governance, statutory verification & court compliance — Federal Court GPN-AI guidelines and LPBWA statements requiring verification of machine-assisted legal research | Rising | C3, C2, G1 |
+| Multilateral negotiation & cross-border drafting — Sovereign-lending and development-finance job listings requiring multi-stakeholder consensus building | Rising | C1, W1, W2 |
+| AI-assisted drafting & research automation — 2025 Victorian Lawyer Census (36.7% AI adoption) showing rapid uptake for document drafting | Rising | C3, C2 |
+| Routine junior legal research & document discovery — Automation of standard statutory search and initial memorandum drafting across major firms | Declining | C3, C4 |
+| Complex legal problem solving under institutional ambiguity — High demand for contextual legal analysis in unstable regulatory environments | Stable / Rising | G2, C5 |
 
 **Confidence:** High for statutory court frameworks (Federal Court GPN-AI) and regulatory surveys (VLSB+C Census); Medium for graduate destination profile (derived from Master of Laws cognate record).
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-635aa.md); rows

@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 92.91.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 10 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 373, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 92.91.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 10 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 373, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 10 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -119,16 +119,16 @@ The market context is condensed from [`reports/dfva-market-mc-it.md`](dfva-marke
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Software Engineering & Cloud Systems Architecture | Software Engineer, Cloud Developer | Lead Architect, Principal Systems Engineer | 93.50 | VERY HIGH | AI-assisted code review audit, fault-tolerant distributed systems, multi-cloud orchestration |
-| Machine Learning & AI Engineering | ML Engineer, Data Systems Specialist | Principal AI Engineer, Head of Machine Learning | 94.00 | HIGH | Foundation model fine-tuning, ML-Ops pipeline governance, algorithmic safety audit |
-| Cyber Security & Threat Operations | Cyber Security Analyst, Penetration Tester | Lead Security Architect, Chief Information Security Officer (CISO) | 91.50 | MODERATE | Automated vulnerability triage, zero-trust architecture, AI-driven threat detection |
-| Enterprise Solutions & Digital Systems Strategy | IT Consultant, Solutions Specialist | Enterprise Architect, Technology Strategy Director | 92.50 | HIGH | Enterprise legacy modernization, API ecosystem integration, technical debt management |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Software Engineering & Cloud Systems Architecture | Software Engineer, Cloud Developer; later Lead Architect, Principal Systems Engineer | VERY HIGH (exposure 93.50) | AI-assisted code review audit, fault-tolerant distributed systems, multi-cloud orchestration |
+| Machine Learning & AI Engineering | ML Engineer, Data Systems Specialist; later Principal AI Engineer, Head of Machine Learning | HIGH (exposure 94.00) | Foundation model fine-tuning, ML-Ops pipeline governance, algorithmic safety audit |
+| Cyber Security & Threat Operations | Cyber Security Analyst, Penetration Tester; later Lead Security Architect, Chief Information Security Officer (CISO) | MODERATE (exposure 91.50) | Automated vulnerability triage, zero-trust architecture, AI-driven threat detection |
+| Enterprise Solutions & Digital Systems Strategy | IT Consultant, Solutions Specialist; later Enterprise Architect, Technology Strategy Director | HIGH (exposure 92.50) | Enterprise legacy modernization, API ecosystem integration, technical debt management |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Universal adoption of generative AI developer agents (Copilot, Cursor) requiring evaluative code review | Rising | C2, C3 |
 | Statutory national cyber security and AI safety governance compliance (ACSC / CSIRO Data61) | Rising | C3, G1 |
@@ -140,7 +140,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-it.md); rows
@@ -159,7 +159,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 373, 15 destination titles, 10 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 373, 15 destination titles, 10 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (47 pages) and verified on 2026-08-24: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

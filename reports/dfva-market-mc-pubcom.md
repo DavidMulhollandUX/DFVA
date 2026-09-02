@@ -48,8 +48,7 @@ This supports a claim about how entry-level editorial work and conservation prac
 
 **Bearing:** G1 (discipline-specificity gate, currently PASS — compulsory subjects and all three capstone streams are publishing-specific, not generic) and C1 (collaboration is currently capstone-only, Level 1). These instruments describe the human-labour framing the program's compulsory subjects are training graduates toward, which is the backdrop against which G1's pass and C1's gap should be read.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Reviewing and validating AI-generated transcriptions and AI-suggested edits | **↑↑ Rising sharply** | Theme 2 (§3) reports a Stanford-led audit classifying proofreaders and copy markers predominantly H1 (the lowest-human-involvement category) and B&O Railroad Museum archivists' role shifting toward reviewing AI-generated transcriptions, while CI-2 (§5) confirms C2 has no item requiring students to justify reliance on AI output. |
@@ -81,7 +80,7 @@ This supports a claim about how entry-level editorial work and conservation prac
 | AI adoption reporting in publishing (Theme 1) | MEDIUM | Single trade-press article citing a company survey with undisclosed methodology and sample size. |
 | Automation potential for proofreaders (Theme 2, Stanford H1 rating) | MEDIUM | US-only expert-panel classification, not Australia-specific, and a categorical label rather than a numeric displacement estimate. |
 | Museum/archive AI deployment scale (MDPI scoping review) | MEDIUM | International in scope; does not isolate the cataloguing-specific deployment count from the other two functional categories, and does not distinguish museum technicians/conservators from curators or archivists. |
-| Curriculum evidence (mc-pubcom Panel C v4.2) | HIGH | Adversarially reviewed 2026-08-31, mechanical:true; PUBL90003 (The Contemporary Publishing Industry, compulsory for the 150- and 200-point program variants) has no captured subject/assessment page in the underlying extract, so several C/W scores rest only on PUBL90001 and PUBL90002. |
+| Curriculum evidence (mc-pubcom durability report, v4.2) | HIGH | The evidence was reviewed adversarially and checked mechanically on 2026-08-31; PUBL90003 (The Contemporary Publishing Industry, compulsory for the 150- and 200-point program variants) has no captured subject/assessment page in the underlying extract, so several C/W scores rest only on PUBL90001 and PUBL90002. |
 
 ### Critical evidence gaps to close before institutional use:
 
@@ -97,7 +96,7 @@ This supports a claim about how entry-level editorial work and conservation prac
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes (JSA HEO))
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **100705 Written Communication** (n = 2,700 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 30.0% of them, and the 5 largest are shown at each stage.
 

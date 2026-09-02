@@ -8,11 +8,11 @@
 > [References](#references); full citations are given there and not repeated in
 > the body.
 >
-> The exposure value is an **estimate**: it rests on a field basis (JSA HEO · 061399 Public Health, n.e.c.), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
+> The exposure value is an **estimate**: it rests on a field basis (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · 061399 Public Health, n.e.c.), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Youth Mental Health (MC-YMHMO) is a 150-credit-point postgraduate degree combining a compulsory specialist youth-mental-health core with a substantial capstone research project (G1 PASS: 100 compulsory credit points plus a 25-point capstone). The capstone's hurdle-gated presentation and final written project carry real accountability, so G2 also passes. C4 sits at the ceiling (3/3): the compulsory capstone requires a self-scoped research question, formulated by the student and completed under supervision.

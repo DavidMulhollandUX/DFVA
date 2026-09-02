@@ -211,8 +211,8 @@ a synthesis by named authors, not a survey.
 Subject codes below are this program's own: EDUC90847 Practice of Evaluation, EDUC90848
 Applied Research Methodology, EDUC90850 Foundations of Evaluation and EDUC90747 Evaluation
 Capstone are the compulsory core; the seven electives are EDUC90715, EDUC90716, EDUC90717,
-EDUC90719, EDUC90849, EDUC90851 and MAST90078. Elective placement does not move a Panel C
-item above level 1, so every implication below is stated against the core.
+EDUC90719, EDUC90849, EDUC90851 and MAST90078. Elective placement does not move a curriculum
+evidence item above level 1, so every implication below is stated against the core.
 
 | # | Implication | Dimension | Option |
 |---|---|---|---|
@@ -240,7 +240,7 @@ item above level 1, so every implication below is stated against the core.
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes (JSA HEO))
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **090103 Policy Studies** (n = 1,210 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 49.6% of them, and the 5 largest are shown at each stage.
 

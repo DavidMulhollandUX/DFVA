@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 95.17.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 86, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 95.17.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 15 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 86, 15 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 10 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -119,16 +119,16 @@ The market context is condensed from [`reports/dfva-market-mc-mktcomm.md`](dfva-
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Strategic Communications, PR & Corporate Affairs | Communications Officer, PR Coordinator, Media Relations Associate | Communications Lead, Corporate Affairs Manager, Head of PR | 94.22 | HIGH | AI-assisted crisis simulation, stakeholder reputation defense, human brand narrative framing |
-| Integrated Marketing Communications & Brand Strategy | Marketing Communications Coordinator, Content Specialist | MarComms Director, Integrated Brand Strategy Lead | 97.60 | VERY HIGH | Multi-channel narrative architecture, generative content governance, omnichannel audience alignment |
-| Digital Media Strategy, Content & Social Channels | Social Media Specialist, Digital Content Producer | Head of Social & Community, Digital Media Director | 97.60 | VERY HIGH | Algorithmic feed adaptation, automated media asset auditing, deepfake and misinformation verification |
-| Media Planning, Audience Insights & Campaign Analytics | Media Planner, Campaign Insights Analyst | Strategic Media Director, Head of Audience Intelligence | 95.80 | HIGH | Synthetic audience testing validation, cross-platform attribution modeling, MarTech data privacy compliance |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Strategic Communications, PR & Corporate Affairs | Communications Officer, PR Coordinator, Media Relations Associate; later Communications Lead, Corporate Affairs Manager, Head of PR | HIGH (exposure 94.22) | AI-assisted crisis simulation, stakeholder reputation defense, human brand narrative framing |
+| Integrated Marketing Communications & Brand Strategy | Marketing Communications Coordinator, Content Specialist; later MarComms Director, Integrated Brand Strategy Lead | VERY HIGH (exposure 97.60) | Multi-channel narrative architecture, generative content governance, omnichannel audience alignment |
+| Digital Media Strategy, Content & Social Channels | Social Media Specialist, Digital Content Producer; later Head of Social & Community, Digital Media Director | VERY HIGH (exposure 97.60) | Algorithmic feed adaptation, automated media asset auditing, deepfake and misinformation verification |
+| Media Planning, Audience Insights & Campaign Analytics | Media Planner, Campaign Insights Analyst; later Strategic Media Director, Head of Audience Intelligence | HIGH (exposure 95.80) | Synthetic audience testing validation, cross-platform attribution modeling, MarTech data privacy compliance |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Generative AI content pipelines, synthetic sentiment analysis, and automated media production | Rising | C2, C5 |
 | Deepfake verification, misinformation management, and statutory privacy governance (OAIC/ACMA) | Rising | C3, G1 |
@@ -140,7 +140,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-mktcomm.md); rows
@@ -159,7 +159,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 86, 15 destination titles, 3 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 86, 15 destination titles, 3 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (38 pages) and verified on 2026-08-25: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

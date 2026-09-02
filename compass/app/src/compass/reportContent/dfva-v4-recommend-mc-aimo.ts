@@ -17,7 +17,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Artificial Intelligence (MC-AIMO) is an online postgraduate program demonstrating strong curriculum adaptiveness (12 / 15), anchored by maximum scores across AI literacy/governance (C3 = 3/3), lifelong transfer (C4 = 3/3), and primary inquiry (C5 = 3/3). As a dedicated AI degree, the curriculum avoids the common pitfall of treating AI as mere tool operation: compulsory units COMP90104 (Deep Learning and Foundation Models) and COMP90106 (AI in Society) rigorously assess model limitations, philosophical ethics, and regulatory governance. Furthermore, both the Coursework and Research Capstone pathways require a substantial, self-scoped 25-credit-point empirical project with staged progress milestones and oral examination.

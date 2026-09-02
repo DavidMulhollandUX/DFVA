@@ -10,10 +10,10 @@ const content = {
 
 | Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
 |---|---|---|---|---|---|
-| Startup Founder / New Venture Creator | Founder, Co-Founder, Startup Founder, Managing Director (own venture) | Idea generation and validation, MVP development, fundraising pitch, team leadership | **LOW** — bearing risk, ownership and capital-raising judgement is not what current sources show AI substituting; industries with higher AI task-exposure record about 20% more startup formation, not fewer founders | AI-agent-stack orchestration in place of early functional hires; lean-startup validation methodology | Grounded in the compulsory two-subject capstone, where students "Create a usable entrepreneur venture concept" and progress toward launch (evidence.json C4, scored 3) |
+| Startup Founder / New Venture Creator | Founder, Co-Founder, Startup Founder, Managing Director (own venture) | Idea generation and validation, MVP development, fundraising pitch, team leadership | **LOW** — bearing risk, ownership and capital-raising judgement is not what current sources show AI substituting; industries with higher AI task-exposure record about 20% more startup formation, not fewer founders | AI-agent-stack orchestration in place of early functional hires; lean-startup validation methodology | Grounded in the compulsory two-subject capstone, where students "Create a usable entrepreneur venture concept" and progress toward launch (curriculum evidence, item C4, scored 3) |
 | Solo / AI-Native Founder | Solo Founder, Independent Founder, One-Person Company Director | Running most business functions personally, directing AI tools instead of hiring staff, automating weekly-recurring tasks | **MEDIUM** — not to the founder role itself, but to the functional hires a founder would otherwise make; AI-native startups in a Y Combinator-adjacent sample run with roughly 25% fewer employees and flatter hierarchies | Multi-function AI-tool fluency; distribution and selling skill, which practitioner-forum commenters identify as the persistent bottleneck once building speed is no longer scarce | No core unit yet documents AI-tool coordination — C3 (AI content) is scored 1 and confined to the single free elective; C1 (collaborative practice) is scored 2, capped below Level 3 because no unit assesses coordinating work across people *and* AI systems |
-| Innovation Manager / Corporate Entrepreneurship Lead | Innovation Manager, Corporate Venture Lead, Intrapreneurship Manager | Incubating new business lines inside an existing organisation, business-model design and refinement, stakeholder and investor pitching | **LOW** — same founder-role rationale as above; this occupation is an explicit alias in the underlying profession record | Lean-startup / design-thinking methodology application (already a documented program outcome); pitch-document craft | Program outcome "Critically apply and evaluate lean start-up and design thinking methodologies," and the capstone's authentic venture-creation and pitching tasks (evidence.json W2, scored 2) |
-| Venture / Investor-Pitch Specialist | Founder (fundraising-stage), Venture Development Associate, Pitch/Deck Specialist | Building and presenting investor pitch decks, persuading investors and acquiring resources for growth | **LOW-MEDIUM** — templated pitch-deck elements are AI-assistable, but the persuasion and investor-relationship judgement the program assesses is not | Professional-genre pitch craft judged against practice-drawn criteria | The capstone sequence assesses a graded investor-style pitch in both subjects (evidence.json W1, scored 2); no source found documents who externally judges these pitches, which is what caps W1 below Level 3 |
+| Innovation Manager / Corporate Entrepreneurship Lead | Innovation Manager, Corporate Venture Lead, Intrapreneurship Manager | Incubating new business lines inside an existing organisation, business-model design and refinement, stakeholder and investor pitching | **LOW** — same founder-role rationale as above; this occupation is an explicit alias in the underlying profession record | Lean-startup / design-thinking methodology application (already a documented program outcome); pitch-document craft | Program outcome "Critically apply and evaluate lean start-up and design thinking methodologies," and the capstone's authentic venture-creation and pitching tasks (curriculum evidence, item W2, scored 2) |
+| Venture / Investor-Pitch Specialist | Founder (fundraising-stage), Venture Development Associate, Pitch/Deck Specialist | Building and presenting investor pitch decks, persuading investors and acquiring resources for growth | **LOW-MEDIUM** — templated pitch-deck elements are AI-assistable, but the persuasion and investor-relationship judgement the program assesses is not | Professional-genre pitch craft judged against practice-drawn criteria | The capstone sequence assesses a graded investor-style pitch in both subjects (curriculum evidence, item W1, scored 2); no source found documents who externally judges these pitches, which is what caps W1 below Level 3 |
 
 ## 2. RECENT JOB AD SIGNALS
 
@@ -60,8 +60,7 @@ Scope: this is one executive's forward-looking prediction as reported by one out
 
 **Bearing:** C1. C1 (collaborative practice) is scored 2 — group-assessed work with individual accountability recurs across the core, but no unit documents coordinating work across people *and* tools/AI systems, which is exactly the division-of-labour skill a founder would need to approach the scenario this prediction describes.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | AI-agent-stack orchestration replacing early functional hires | **↑↑ Rising sharply** | Theme 1 (§3): tooling costing $3,000–$12,000/yr is reported replacing $80,000–$120,000/month in payroll; C3 scores 1/3 — the program's only AI content (MGMT90267) sits in the single free elective, never the compulsory core. |
@@ -92,7 +91,7 @@ Scope: this is one executive's forward-looking prediction as reported by one out
 | Indie Hackers practitioner-forum threads (Theme 3) | LOW | Two small, self-selected threads (17 upvotes/41 comments; 1 like/6 comments); not survey-representative of the founder population, and specific engagement counts could not be independently re-confirmed |
 | Recent job-ad signals (§2) | NONE | No Adzuna data was collected — no live job-ad data of any kind exists for this profession in the material reviewed |
 | L4-lane (professional-body / accreditation) discourse | NONE | No L4 claims exist in the supplied profession record for this occupation |
-| Program-specific curriculum evidence (Panel C v4.2) | HIGH | Adversarially reviewed across all ten scored items and marked \`mechanical: true\` in the evidence record (2026-08-31) |
+| Program-specific curriculum evidence (durability report, v4.2) | HIGH | Adversarially reviewed across all ten scored items; the evidence was checked mechanically and reviewed on 2026-08-31 |
 
 ### Critical evidence gaps to close before institutional use:
 1. Run a job-ad query (Adzuna or equivalent) specifically against "founder," "startup founder," "innovation manager" and "entrepreneur in residence" titles — no live job-ad data exists for this profession key at all.
@@ -107,7 +106,7 @@ Scope: this is one executive's forward-looking prediction as reported by one out
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-entrpsp
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes (JSA HEO))
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **080399 Business and Management, n.e.c.** (n = 27,400 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 33.3% of them, and the 5 largest are shown at each stage.
 

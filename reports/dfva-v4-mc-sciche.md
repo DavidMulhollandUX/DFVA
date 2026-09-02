@@ -18,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 78.95.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Bachelor of Science (Chemistry) (n = 318); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 78.95.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Bachelor of Science (Chemistry) (n = 318); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 7 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -179,20 +179,20 @@ The market intelligence gathered for this program indicates consistent hiring ac
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Synthetic & Medicinal Chemistry R&D | Research Chemist, Synthetic Chemist | Senior R&D Scientist, Discovery Chemistry Lead | LOW | ML-assisted synthesis prediction, automated flow chemistry, lead optimisation |
-| 2 | Analytical & QC Chemistry | Analytical Chemist, Quality Control Chemist | Senior Method Development Chemist, QC Manager | MEDIUM | Hyphenated chromatography (LC-MS/MS, GC-MS), chemometrics, data integrity |
-| 3 | Advanced Materials & Energy Storage | Materials Chemist, Formulation Scientist | Battery Materials Lead, Senior Materials Scientist | LOW | Electrochemical impedance spectroscopy, solid-state battery formulation |
-| 4 | Chemical Regulatory & Safety Affairs | Regulatory Chemist, Chemical Safety Analyst | Senior Regulatory Affairs Specialist (AICIS/TGA Lead) | LOW–MEDIUM | AICIS chemical notification, REACH compliance, ESG toxicological profiling |
-| 5 | Higher Degree by Research (PhD Track) | PhD Candidate, Graduate Research Assistant | Postdoctoral Fellow, Senior Research Scientist | LOW | Original grant design, synchrotron data analysis, peer-reviewed manuscript defence |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Synthetic & Medicinal Chemistry R&D | Research Chemist, Synthetic Chemist; later Senior R&D Scientist, Discovery Chemistry Lead | LOW | ML-assisted synthesis prediction, automated flow chemistry, lead optimisation |
+| Analytical & QC Chemistry | Analytical Chemist, Quality Control Chemist; later Senior Method Development Chemist, QC Manager | MEDIUM | Hyphenated chromatography (LC-MS/MS, GC-MS), chemometrics, data integrity |
+| Advanced Materials & Energy Storage | Materials Chemist, Formulation Scientist; later Battery Materials Lead, Senior Materials Scientist | LOW | Electrochemical impedance spectroscopy, solid-state battery formulation |
+| Chemical Regulatory & Safety Affairs | Regulatory Chemist, Chemical Safety Analyst; later Senior Regulatory Affairs Specialist (AICIS/TGA Lead) | LOW–MEDIUM | AICIS chemical notification, REACH compliance, ESG toxicological profiling |
+| Higher Degree by Research (PhD Track) | PhD Candidate, Graduate Research Assistant; later Postdoctoral Fellow, Senior Research Scientist | LOW | Original grant design, synchrotron data analysis, peer-reviewed manuscript defence |
 
 **Exposure basis declaration.** Destination AI exposure is **80.08** (exact basis derived from Chemistry graduate destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Pharmaceutical QC and analytical method development sustain demand | Sustained High | Contract testing laboratories and pharma manufacturers actively hire LC-MS/NMR chemists. — W2, G1 |
 | Battery materials and critical minerals drive materials chemistry hiring | Fast | National critical minerals investments generate demand for materials chemists. — W2, G2 |
 | Chemical safety and environmental regulation expansion | Fast | AICIS notification requirements and PFAS remediation create compliance roles. — W1, G1 |
@@ -204,7 +204,7 @@ The market intelligence gathered for this program indicates consistent hiring ac
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-sciche.md); rows
@@ -223,7 +223,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **cognate** (cognate program), n = 318. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: Reconciliation package tier cognate (discipline-matched bachelor major).
+**Panel A metadata.** Basis tier **cognate** (cognate program), n = 318. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Reconciliation package tier cognate (discipline-matched bachelor major).
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-15: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

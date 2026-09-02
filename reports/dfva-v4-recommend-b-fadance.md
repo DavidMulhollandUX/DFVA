@@ -8,11 +8,11 @@
 > [References](#references); full citations are given there and not repeated in
 > the body.
 >
-> The exposure value is an **estimate**: it rests on a field basis (JSA HEO · 100105 Dance), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
+> The exposure value is an **estimate**: it rests on a field basis (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · 100105 Dance), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Bachelor of Fine Arts (Dance) (B-FADANCE) is an intensive studio program with 75 credit points of Level 1 Compulsory subjects, 75 credit points of Level 2 Compulsory subjects, and a structured Level 3 Compulsory sequence under strict prerequisite chains. The degree carries a solid mid-range profile on collaborative and evaluative practice — assessed group performance and self/peer critique recur across DNCE20037 Digital Dance and DNCE30027 Inter-disciplinary Project (C1 = 2/3, C2 = 2/3) — and a genuine, if single-instance, professional presence in DNCE30030 Professional Practice and DNCE30028 Choreographic Production (W1 = 2/3, W2 = 2/3). Both gates pass decisively: G1 on the all-compulsory, prerequisite-chained specialist core, and G2 on Digital Dance's interactive oral defence and the real-uncertainty accountability of public performance under guest choreographers.

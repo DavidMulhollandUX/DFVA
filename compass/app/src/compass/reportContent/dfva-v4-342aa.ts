@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-17
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/342aa (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 33 pages captured
+**Course Director:** Mahesh Jayaram
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -22,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 90.74.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 7 of 14 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 54, 14 titles). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 90.74.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 7 of 14 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 54, 14 titles). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 5 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -161,20 +162,20 @@ The market intelligence gathered for this program indicates acute, highly protec
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Public Hospital & Inpatient Acute Psychiatry | Psychiatry Registrar (Advanced Trainee) | Staff Specialist Psychiatrist, Inpatient Unit Clinical Director | LOW | Complex psychopharmacology, acute risk de-escalation, interdisciplinary team leadership |
-| 2 | Consultation-Liaison & General Hospital Psychiatry | C-L Psychiatry Registrar, Medical Liaison Fellow | Lead Consultation-Liaison Psychiatrist, Head of Psychosomatic Medicine | LOW | Medical comorbidity psychiatric management, capacity assessment, ICU/transplant liaison |
-| 3 | Community Mental Health & Crisis Assessment | Crisis Assessment & Treatment (CATT) Registrar | Community Mental Health Service Director, Consultant Psychiatrist | LOW | Complex trauma formulation, recovery-oriented care, Mental Health Act statutory compliance |
-| 4 | Forensic & Medico-Legal Psychiatry | Forensic Psychiatry Advanced Trainee | Consultant Forensic Psychiatrist, Expert Court Witness, Tribunal Member | VERY LOW | Structured professional risk assessment, cross-examination defence, criminal responsibility evaluation |
-| 5 | Academic Psychiatry & Clinical Neurobiology | Psychiatric Research Fellow, Clinical Lecturer | Associate Professor, Principal Investigator (Psychiatric Trials) | LOW | Generative AI literature synthesis audit, neuroimaging biomarker trials, translational clinical research |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Public Hospital & Inpatient Acute Psychiatry | Psychiatry Registrar (Advanced Trainee); later Staff Specialist Psychiatrist, Inpatient Unit Clinical Director | LOW | Complex psychopharmacology, acute risk de-escalation, interdisciplinary team leadership |
+| Consultation-Liaison & General Hospital Psychiatry | C-L Psychiatry Registrar, Medical Liaison Fellow; later Lead Consultation-Liaison Psychiatrist, Head of Psychosomatic Medicine | LOW | Medical comorbidity psychiatric management, capacity assessment, ICU/transplant liaison |
+| Community Mental Health & Crisis Assessment | Crisis Assessment & Treatment (CATT) Registrar; later Community Mental Health Service Director, Consultant Psychiatrist | LOW | Complex trauma formulation, recovery-oriented care, Mental Health Act statutory compliance |
+| Forensic & Medico-Legal Psychiatry | Forensic Psychiatry Advanced Trainee; later Consultant Forensic Psychiatrist, Expert Court Witness, Tribunal Member | VERY LOW | Structured professional risk assessment, cross-examination defence, criminal responsibility evaluation |
+| Academic Psychiatry & Clinical Neurobiology | Psychiatric Research Fellow, Clinical Lecturer; later Associate Professor, Principal Investigator (Psychiatric Trials) | LOW | Generative AI literature synthesis audit, neuroimaging biomarker trials, translational clinical research |
 
 **Exposure basis declaration.** Destination AI exposure is **90.74** (exact basis derived from Master of Psychiatry graduate destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | RANZCP Fellowship accreditation and medical registration | Sustained High | Specialist medical qualification provides a non-negotiable regulatory barrier against algorithmic substitution. — W1, W2, G1 |
 | Ambient clinical AI documentation platforms (Heidi Health, Lyrebird) | Rising / Volatile | Ambient transcription tools enter psychiatric intakes, requiring psychiatrists to audit machine notes against diagnostic nuance and statutory risk criteria. — C2, C3, W2 |
 | Severe regional and subspecialty consultant psychiatrist shortages | Sustained High | Victorian Mental Health Royal Commission implementation sustains high demand for academically credentialed psychiatric registrars. — C4, W3, G2 |
@@ -186,7 +187,7 @@ The market intelligence gathered for this program indicates acute, highly protec
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-342aa.md); rows
@@ -205,7 +206,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 54, 14 destination titles, 7 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 54, 14 destination titles, 7 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (33 pages) and verified on 2026-08-17: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

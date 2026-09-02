@@ -56,8 +56,7 @@ Standards from [AIP](https://aip.org.au/) confirm that a multi-semester 100-poin
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Quantum computing skills (Qiskit, error correction, qubit characterisation) | **↑↑ Rising sharply** | Signal 1 (§2) counts 47 identified ANZ quantum postings in Q1 2026 spanning hardware, software and algorithms, with CI-3 (§5) noting the program "is well-positioned but lacks explicit quantum curriculum." |
@@ -92,7 +91,7 @@ Standards from [AIP](https://aip.org.au/) confirm that a multi-semester 100-poin
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS & DEMAND (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · QILT · Adzuna)
 
 **Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 010301 Physics / Physical Sciences):
 

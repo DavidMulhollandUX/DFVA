@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Science (Physics) is a 200-point postgraduate research degree designed to prepare quantum technology researchers, defense systems scientists, quantitative analysts, and PhD candidates aligned with Australian Institute of Physics (AIP) professional standards. Both gates pass unconditionally: G1 passes on a coherent specialist core of 87.5 credit points in advanced graduate physics with prerequisite progression rules plus a 100-credit-point research thesis; G2 passes on an independent, self-scoped four-semester research thesis requiring original theoretical derivations, numerical modeling, and empirical experimental analysis under genuine physical uncertainty.

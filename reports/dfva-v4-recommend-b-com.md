@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Bachelor of Commerce (B-COM) is a 300-point undergraduate specialist degree offered by the Faculty of Business and Economics (FBE), offering majors across Accounting, Actuarial Studies, Economics, Finance, Management, and Marketing. The program passes Gate G1 on accredited professional sequences (CPA, CAANZ, Actuaries Institute) and a staged prerequisite progression chain terminating in a prescribed major and capstone, but fails Gate G2 because core assessments on guaranteed paths are dominated by tests, quizzes, and written exams lacking assessed trade-off decisions or live project accountability under macroeconomic uncertainty.

@@ -10,10 +10,10 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
-The Master of International Relations prepares graduates for diplomatic, national security intelligence, multilateral governance, and corporate foreign affairs careers (AIOE 95.97). The curriculum exhibits rigorous theoretical and empirical foundations (G1 PASS, C5: 2/3) and authentic policy drafting capabilities (W1: 2/3, W2: 2/3) via policy briefs in POLS90034 and research essays in POLS90028. However, raw diplomatic intelligence scanning, basic background synthesis, and country profiles face extreme automation pressure from large language models and automated open-source intelligence (OSINT) platforms. The program's developmental headroom stems from non-guaranteed cohort collaboration (C1: 1/3 due to individual minor thesis streams), elective placement constraints (W3: 1/3), unassessed AI technology and information warfare governance in the core (C3: 1/3), the absence of any assessed criterion-referenced appraisal of work, and of OSINT reliance/override audits, in the core (C2: 1/3), and lack of external diplomatic panel scrutiny (W1, C5).
+The Master of International Relations prepares graduates for diplomatic, national security intelligence, multilateral governance, and corporate foreign affairs careers (AI Occupational Exposure (AIOE) 95.97). The curriculum exhibits rigorous theoretical and empirical foundations (G1 PASS, C5: 2/3) and authentic policy drafting capabilities (W1: 2/3, W2: 2/3) via policy briefs in POLS90034 and research essays in POLS90028. However, raw diplomatic intelligence scanning, basic background synthesis, and country profiles face extreme automation pressure from large language models and automated open-source intelligence (OSINT) platforms. The program's developmental headroom stems from non-guaranteed cohort collaboration (C1: 1/3 due to individual minor thesis streams), elective placement constraints (W3: 1/3), unassessed AI technology and information warfare governance in the core (C3: 1/3), the absence of any assessed criterion-referenced appraisal of work, and of OSINT reliance/override audits, in the core (C2: 1/3), and lack of external diplomatic panel scrutiny (W1, C5).
 
 | Item | Sub-scale | Score | Levels below maximum | Market evidence for the gap | Priority |
 |---|---|---|---|---|---|

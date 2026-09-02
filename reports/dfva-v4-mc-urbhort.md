@@ -13,7 +13,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 79.91.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 44). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 79.91.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: measured on the program's own alumni destination record (n = 44). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -192,16 +192,16 @@ The market context is condensed from [`reports/dfva-market-mc-urbhort.md`](dfva-
 
 Destination titles map to four primary employment streams:
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Urban Forest & Green Infrastructure Planning | Urban Forester, Green Infrastructure Coordinator | Principal Urban Forest Planner, Municipal Open Space Director | 78.4 | MODERATE | Canopy cover LiDAR analytics, microclimate thermal modeling, heat-island mitigation |
-| Horticultural Consultancy & Technical Agronomy | Horticultural Consultant, Technical Agronomist | Senior Agronomic Advisor, Principal Horticultural Consultant | 72.1 | MODERATE | Soil microbiome analytics, climate-resilient taxa selection, precision irrigation telemetry |
-| Public Botanic Gardens & Living Collections Curation | Collections Horticulturist, Living Collections Officer | Curator of Living Collections, Head of Horticulture | 64.8 | LOW | Biosecurity risk management, accession provenance tracking, rare taxa propagation |
-| Commercial Landscape Project Management | Landscape Project Manager, Contract Administrator | Senior Commercial Landscape Manager, Construction Director | 82.3 | HIGH | Green star building integration, specification compliance, subcontractor site coordination |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Urban Forest & Green Infrastructure Planning | Urban Forester, Green Infrastructure Coordinator; later Principal Urban Forest Planner, Municipal Open Space Director | MODERATE (exposure 78.4) | Canopy cover LiDAR analytics, microclimate thermal modeling, heat-island mitigation |
+| Horticultural Consultancy & Technical Agronomy | Horticultural Consultant, Technical Agronomist; later Senior Agronomic Advisor, Principal Horticultural Consultant | MODERATE (exposure 72.1) | Soil microbiome analytics, climate-resilient taxa selection, precision irrigation telemetry |
+| Public Botanic Gardens & Living Collections Curation | Collections Horticulturist, Living Collections Officer; later Curator of Living Collections, Head of Horticulture | LOW (exposure 64.8) | Biosecurity risk management, accession provenance tracking, rare taxa propagation |
+| Commercial Landscape Project Management | Landscape Project Manager, Contract Administrator; later Senior Commercial Landscape Manager, Construction Director | HIGH (exposure 82.3) | Green star building integration, specification compliance, subcontractor site coordination |
 
 The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
 
-| Signal / skill shift | Direction | Bearing |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | Expansion of LiDAR canopy cover analytics, drone NDVI imaging, and GIS microclimate simulation across municipal open space management | Rising | C3, W2 |
 | Growing necessity of auditing automated water-budget models and species-selection algorithms against field-based ground truth and root biology | Rising | C2, G2 |
@@ -213,7 +213,7 @@ The signals and skill shifts identified in the market intelligence map directly 
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-urbhort.md); rows
@@ -232,7 +232,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 44. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 44. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-23: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

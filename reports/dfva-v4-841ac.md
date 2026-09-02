@@ -3,6 +3,7 @@
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-16
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/841ac (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 19 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -17,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 64.60.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 12 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 61, 12 titles). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 64.60.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 12 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 61, 12 titles). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -196,19 +197,19 @@ The market intelligence gathered for this program indicates acute workforce shor
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Public Sector Oral Health & Community Therapy | Oral Health Therapist (Dental Health Services Vic), Community Clinic OHT | Senior Clinician (Community Dental), Outreach Team Leader | VERY LOW | Teledentistry triage, paediatric restorative care, geriatric oral health |
-| 2 | Private Dental Practice Therapy & Hygiene | Oral Health Therapist (Private Practice), Dental Hygienist | Lead OHT / Practice Partner, Periodontal Care Specialist | VERY LOW | Guided biofilm therapy, digital intraoral scanning, chairside diagnostics |
-| 3 | Orthodontic & Specialist Dental Support | Orthodontic Oral Health Therapist, Paediatric Dental Therapist | Senior Orthodontic Auxiliary, Clinical Coordinator | LOW | Clear aligner digital workflows, 3D cephalometric analysis, myofunctional therapy |
-| 4 | Dental Public Health, Policy & Promotion Lead | Oral Health Promotion Officer, School Dental Program Lead | Dental Health Policy Advisor, Clinical Educator / Tutor | LOW | Population oral health epidemiology, water fluoridation policy, Indigenous health |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Public Sector Oral Health & Community Therapy | Oral Health Therapist (Dental Health Services Vic), Community Clinic OHT; later Senior Clinician (Community Dental), Outreach Team Leader | VERY LOW | Teledentistry triage, paediatric restorative care, geriatric oral health |
+| Private Dental Practice Therapy & Hygiene | Oral Health Therapist (Private Practice), Dental Hygienist; later Lead OHT / Practice Partner, Periodontal Care Specialist | VERY LOW | Guided biofilm therapy, digital intraoral scanning, chairside diagnostics |
+| Orthodontic & Specialist Dental Support | Orthodontic Oral Health Therapist, Paediatric Dental Therapist; later Senior Orthodontic Auxiliary, Clinical Coordinator | LOW | Clear aligner digital workflows, 3D cephalometric analysis, myofunctional therapy |
+| Dental Public Health, Policy & Promotion Lead | Oral Health Promotion Officer, School Dental Program Lead; later Dental Health Policy Advisor, Clinical Educator / Tutor | LOW | Population oral health epidemiology, water fluoridation policy, Indigenous health |
 
 **Exposure basis declaration.** Destination AI exposure is **40.23** (exact basis derived from Dental / Oral Health Therapy destinations), sitting substantially **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Critical workforce shortages in public and rural community clinics | Fast | Health services recruit oral health therapists to address treatment waitlists. — C4, W3 |
 | Rapid adoption of digital intraoral scanning and chairside imaging | Fast | Dental practices mandate proficiency in digital scanners (iTero, TRIOS). — C3, G1 |
 | Dual-scope adult and paediatric restorative therapy expansion | Fast | Scope changes allow trained therapists to provide full restorative care. — W2, G1 |
@@ -220,7 +221,7 @@ The market intelligence gathered for this program indicates acute workforce shor
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-841ac.md); rows
@@ -239,7 +240,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 61, 12 destination titles, 3 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 61, 12 destination titles, 3 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (19 pages) and verified on 2026-08-16: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

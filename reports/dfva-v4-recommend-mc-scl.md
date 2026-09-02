@@ -2,7 +2,7 @@
 
 **Instrument:** DFVA 4.2-draft — Panel C v4 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)
 **Assessment date:** 2026-09-01 · **Derived from:** the verified panelCv4 scoring + reports/dfva-market-mc-scl.md
-**Position basis:** Destination AI Exposure 80.60 (field basis — JSA HEO · 099999 Society and Culture, n.e.c., graduates of the whole field, not this program's own graduates) × Curriculum Adaptiveness 7/15 (v4.2 draft, sub-scale A) · Workplace practice 4/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite, no position label until the v4 migration cycle
+**Position basis:** Destination AI Exposure 80.60 (field basis — Jobs and Skills Australia Higher Education Outcomes (JSA HEO) · 099999 Society and Culture, n.e.c., graduates of the whole field, not this program's own graduates) × Curriculum Adaptiveness 7/15 (v4.2 draft, sub-scale A) · Workplace practice 4/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite, no position label until the v4 migration cycle
 
 > Citation marks in the Sources columns refer to the numbered list in
 > [References](#references); full citations are given there and not repeated in
@@ -16,7 +16,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 Two items sit at the floor and one at the ceiling. C3 (digital and AI literacy)

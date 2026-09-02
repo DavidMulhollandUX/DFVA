@@ -3,6 +3,7 @@
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-31
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-cmprop (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 36 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -17,7 +18,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 91.21.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 13 of 29 titles carry medium mapping confidence. Basis: union of both components' alumni records — Master of Construction Management ∪ Master of Property (n = 226, 29 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 91.21.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 13 of 29 titles carry medium mapping confidence. Basis: union of both components' alumni records — Master of Construction Management ∪ Master of Property (n = 226, 29 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 7 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -119,11 +120,11 @@ combined total: the sub-scores are reported side by side and never added.
 | Contract Administration & Superintendence | Contract Administrator, Assistant Commercial Manager | LOW-MEDIUM — a practising QS's own account holds that negotiation and site-specific decisions stay irreplaceable even as administrative drafting is automated | Structured critique of contracts and process, negotiation under uncertainty |
 | Property Valuation & Market Analysis | Graduate Valuer, Property Analyst | Not directly evidenced for this sub-role in the profession record | Client-facing communication of analysis |
 
-The destination AI exposure figure reported in §1 (91.21) is drawn from this program's own alumni destination records — the union of both component programs, Master of Construction Management and Master of Property (n = 226, 29 titles) — not a cognate/partial borrow from another program and not the JSA HEO field-list fallback. The property-valuation job family above carries no sourced AI-exposure evidence of its own; only the construction-management side of this double degree is covered by the discussion signals and job-ad data below.
+The destination AI exposure figure reported in §1 (91.21) is drawn from this program's own alumni destination records — the union of both component programs, Master of Construction Management and Master of Property (n = 226, 29 titles) — not a cognate/partial borrow from another program and not the Jobs and Skills Australia Higher Education Outcomes (JSA HEO) field-list fallback. The property-valuation job family above carries no sourced AI-exposure evidence of its own; only the construction-management side of this double degree is covered by the discussion signals and job-ad data below.
 
 **Signals and skill shifts**
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | AI adoption in construction is accelerating industry-wide but remains uneven and largely pilot-stage: regular AI use rose from 12% (2025) to 19% (2026), alongside a rise in security/privacy concern from 22% to 30% | Rising (adoption and the risk concern that accompanies it) | C3, W2 |
 | Quantity take-off and cost-estimating tasks are the parts of quantity-surveying practice most exposed to AI | Rising exposure | C2, C3, W2 |
@@ -132,11 +133,11 @@ The destination AI exposure figure reported in §1 (91.21) is drawn from this pr
 | Manual quantity take-off from drawings (declining, fast) vs reviewing and correcting automated take-off output (rising, fast) | Declining → rising | C2, C3, W2 |
 | Ad hoc, unstructured AI tool use ("AI as a search tool") (declining, medium) vs disciplined bookending workflow practice and AI literacy/data-privacy awareness (rising, medium) | Declining → rising | C3, C2 |
 
-**Confidence.** The market report rates its discussion-signal evidence MEDIUM confidence overall. Its own declared gaps: no Australia-specific AI-exposure or task-automation study for the ANZSCO construction-project-manager or quantity-surveyor occupations was retrievable in this research window; the Brookings finding is a US SOC-based categorical group placement, not a numeric exposure score for the Australian occupation; no claim in the profession record covers the property-valuation job family; the Adzuna job-ad snapshot (n = 3,118) does not disaggregate quantity surveying or contract administration from the broader "construction project manager" query; and no Australian trade press, forum or social-media discussion of AI's effect on this occupation was found despite repeated searches — every discourse signal above is global, UK or Malaysian in origin, drawn from named, dated publications, not a scrape of social platforms.
+**Confidence.** The market report rates its discussion-signal evidence MEDIUM confidence overall. Its own declared gaps: no Australia-specific AI-exposure or task-automation study for the ANZSCO construction-project-manager or quantity-surveyor occupations was retrievable in this research window; the Brookings finding is a US Standard Occupational Classification (SOC)-based categorical group placement, not a numeric exposure score for the Australian occupation; no claim in the profession record covers the property-valuation job family; the Adzuna job-ad snapshot (n = 3,118) does not disaggregate quantity surveying or contract administration from the broader "construction project manager" query; and no Australian trade press, forum or social-media discussion of AI's effect on this occupation was found despite repeated searches — every discourse signal above is global, UK or Malaysian in origin, drawn from named, dated publications, not a scrape of social platforms.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-cmprop.md); rows
@@ -155,7 +156,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **combined** (both components), n = 226, 29 destination titles, 13 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: components: Master of Construction Management (exact) ∪ Master of Property (exact)
+**Panel A metadata.** Basis tier **combined** (both components), n = 226, 29 destination titles, 13 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: components: Master of Construction Management (exact) ∪ Master of Property (exact)
 
 **Panel C provenance.** Scored from the 2026 handbook capture (36 pages) and verified on 2026-08-31: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

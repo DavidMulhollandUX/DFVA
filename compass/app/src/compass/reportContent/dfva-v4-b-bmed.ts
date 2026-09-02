@@ -23,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 82.09.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 32 of 48 titles carry medium mapping confidence. Basis: union of the program family's 5 alumni records — Bachelor of Biomedicine (Human Structure and ∪ Bachelor of Biomedicine (Neuroscience) ∪ Bachelor of Biomedicine (Pathology) ∪ Bachelor of Biomedicine (Pharmacology) ∪ Bachelor of Biomedicine (Physiology) (n = 380, 48 titles). The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 82.09.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 32 of 48 titles carry medium mapping confidence. Basis: union of the program family's 5 alumni records — Bachelor of Biomedicine (Human Structure and ∪ Bachelor of Biomedicine (Neuroscience) ∪ Bachelor of Biomedicine (Pathology) ∪ Bachelor of Biomedicine (Pharmacology) ∪ Bachelor of Biomedicine (Physiology) (n = 380, 48 titles). The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 7 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -144,19 +144,19 @@ The market intelligence gathered for this program indicates exceptional demand a
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Medical & Health Professional Pathways | Medical Student / Graduate Entry Candidate, Clinical Assistant | Resident Medical Officer, Specialist Registrar | VERY LOW | Bedside diagnostic reasoning, patient empathy, clinical crisis mgmt |
-| 2 | Translational Biomedical & Clinical Research | Research Assistant (WEHI / Doherty / Peter Mac), Lab Tech | Postdoctoral Fellow, Senior Research Scientist | LOW | Single-cell multi-omics, CRISPR screen analysis, AI biomarker discovery |
-| 3 | Biotechnology, Pharma & Diagnostics Industry | Medical Science Liaison (MSL), Clinical Trial Coordinator | Product Development Manager, Regulatory Affairs Lead | LOW | Clinical trial design, GMP biomanufacturing, FDA/TGA regulatory dossiers |
-| 4 | Health Data Science & Bioinformatics | Bioinformatics Analyst, Health Data Specialist | Lead Bioinformatician, Digital Health Strategist | MEDIUM | Python/R pipeline dev, genomics AI models, clinical EHR data mining |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Medical & Health Professional Pathways | Medical Student / Graduate Entry Candidate, Clinical Assistant; later Resident Medical Officer, Specialist Registrar | VERY LOW | Bedside diagnostic reasoning, patient empathy, clinical crisis mgmt |
+| Translational Biomedical & Clinical Research | Research Assistant (WEHI / Doherty / Peter Mac), Lab Tech; later Postdoctoral Fellow, Senior Research Scientist | LOW | Single-cell multi-omics, CRISPR screen analysis, AI biomarker discovery |
+| Biotechnology, Pharma & Diagnostics Industry | Medical Science Liaison (MSL), Clinical Trial Coordinator; later Product Development Manager, Regulatory Affairs Lead | LOW | Clinical trial design, GMP biomanufacturing, FDA/TGA regulatory dossiers |
+| Health Data Science & Bioinformatics | Bioinformatics Analyst, Health Data Specialist; later Lead Bioinformatician, Digital Health Strategist | MEDIUM | Python/R pipeline dev, genomics AI models, clinical EHR data mining |
 
 **Exposure basis declaration.** Destination AI exposure is **44.92** (exact basis derived from Medical Research / Biotechnology / Clinical Science destinations), sitting substantially **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | High demand across Melbourne Biomedical Precinct institutes and hospitals | Fast | Research institutes recruit Biomedicine graduates for lab research. — C4, W3 |
 | Rapid integration of AI in genomics, protein folding, and diagnostics | Fast | Labs mandate capability in computational biology tools (AlphaFold). — C3, G1 |
 | Strong cohort progression into postgrad medicine, dentistry, and health | Fast | High transition into MD/DDS programs requiring rigorous clinical acumen. — W1, G2 |
@@ -168,7 +168,7 @@ The market intelligence gathered for this program indicates exceptional demand a
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-b-bmed.md); rows
@@ -187,7 +187,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **pooled** (program family), n = 380, 48 destination titles, 32 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: union of 7 "Bachelor of Biomedicine (…)" records
+**Panel A metadata.** Basis tier **pooled** (program family), n = 380, 48 destination titles, 32 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: union of 7 "Bachelor of Biomedicine (…)" records
 
 **Panel C provenance.** Scored from the 2026 handbook capture (36 pages) and verified on 2026-09-01: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

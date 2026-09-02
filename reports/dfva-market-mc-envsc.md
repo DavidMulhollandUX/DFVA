@@ -56,10 +56,9 @@ Competency frameworks from [EIANZ](https://www.eianz.org/) highlight that enviro
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 Note: §3 for this program is a competitor-positioning table rather than sourced discussion
-themes, so rows below ground in §1/§2 signals and the companion Panel C v4.2 evidence instead.
+themes, so rows below ground in §1/§2 signals and the companion durability report's curriculum evidence (v4.2) instead.
 
 | Skill | Direction | Rationale |
 |---|---|---|
@@ -92,7 +91,7 @@ themes, so rows below ground in §1/§2 signals and the companion Panel C v4.2 e
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes (JSA HEO))
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **050999 Environmental Studies, n.e.c.** (n = 4,130 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 38.5% of them, and the 5 largest are shown at each stage.
 

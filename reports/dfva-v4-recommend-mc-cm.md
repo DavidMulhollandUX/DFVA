@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Construction Management demonstrates solid professional alignment with Adaptiveness **8 / 15** and Workplace practice **5 / 9**, passing Gate G1 (100-point compulsory core covering construction technology, cost management, contract law, structural systems, and environmental systems) and Gate G2 (complex trade-off decisions across delay claims, variable trade pricing, and structural constructability). However, facing high destination automation exposure (**92.22** on routine quantity takeoff and cost scheduling), significant curriculum headroom exists in digital AI literacy and 5D BIM governance (C3: 1/3), student-designed primary empirical inquiry (C5: 1/3), and core work-situated placements (W3: 1/3).

@@ -8,7 +8,7 @@
 > [References](#references); full citations are given there and not repeated in
 > the body.
 >
-> The exposure value is an **estimate**: it rests on a field basis (JSA HEO ·
+> The exposure value is an **estimate**: it rests on a field basis (Jobs and Skills Australia Higher Education Outcomes (JSA HEO) ·
 > 100103 Drama and Theatre Studies), not on this program's own graduates. It is
 > sound enough to say the destinations are moderately-to-highly exposed and not
 > sound enough to rank this program against a peer on exposure alone — see
@@ -16,7 +16,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Theatre (Writing) (MC-THTRWRI) is a one-year, 100-point program of

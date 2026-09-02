@@ -10,7 +10,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY — Basis: inferred
 
-*This plan argues from the scored evidence and market data above; it is
+*This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
 The Master of Environmental Science is an advanced professional coursework degree preparing environmental consultants, ESG and sustainability advisors, environmental policy officers, and catchment hydrologists for leading consultancies (GHD, AECOM, Jacobs, WSP, Aurecon) and statutory environmental agencies (DCCEEW, EPA Victoria, Melbourne Water). Both gates pass: G1 passes on a compulsory 62.5-point specialist core with a staged sequence (Global Environmental Change and Environmental Risk Assessment in Year 1, followed by Graduate Seminar and a two-part Capstone in Year 2); G2 passes on real work-based environmental risk assessments and live client project deliverables with external partner accountability.

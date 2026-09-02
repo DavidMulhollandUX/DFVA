@@ -23,7 +23,7 @@
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 90.73.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 7 of 13 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Management (n = 655, 13 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
+**Destination AI Exposure: 90.73.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 7 of 13 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Master of Management (n = 655, 13 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **at or below** it.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -140,9 +140,9 @@ combined total: the sub-scores are reported side by side and never added.
 
 A sixth job family in the market report's §1 — Indigenous Markets and Marketing Specialist — is left out of this table: the market report itself flags that row's AI-substitution rating as an unsourced inference, not a measured figure (its own §6 gap 5).
 
-**What the §1 exposure number is.** The Destination AI Exposure value (90.73) is not computed from this program's own graduates. It is borrowed from a related program's alumni destination record — Master of Management (n = 655, 13 titles) — crosswalked to the published Felten AIOE index by the same Panel A procedure used for every other program, with 7 of the 13 titles at medium mapping confidence. On the Panel A basis ladder (own record → variant → pooled majors → combined → curated cognate/partial → JSA HEO field list), this is a cognate-partial borrow, one tier below a program's own record. It is distinct from the market report's JSA Higher Education Outcomes data (field of education 080301 Business Management, n = 23,210 completions), which describes where the whole field's graduates work at three career stages — contextual evidence, not an input to the exposure computation.
+**What the §1 exposure number is.** The Destination AI Exposure value (90.73) is not computed from this program's own graduates. It is borrowed from a related program's alumni destination record — Master of Management (n = 655, 13 titles) — crosswalked to the published Felten AIOE index by the same Panel A procedure used for every other program, with 7 of the 13 titles at medium mapping confidence. On the Panel A basis ladder (own record → variant → pooled majors → combined → curated cognate/partial → Jobs and Skills Australia Higher Education Outcomes (JSA HEO) field list), this is a cognate-partial borrow, one tier below a program's own record. It is distinct from the market report's JSA Higher Education Outcomes data (field of education 080301 Business Management, n = 23,210 completions), which describes where the whole field's graduates work at three career stages — contextual evidence, not an input to the exposure computation.
 
-| Signal or shift | Direction | Bears on |
+| Signal or shift | Direction | Bearing on the scored items |
 | --- | --- | --- |
 | IPP eligibility tightens to 51%+ Aboriginal and/or Torres Strait Islander ownership and control (or ORIC registration) from 2026-07-01; Supply Nation sharpens its Certified-versus-Registered distinction | Rising compliance stakes | C4, W2 |
 | Senior leaders (Box CEO Aaron Levie; solo founder Ryan Carson) describe their own role shifting from directing people to "managing agents"; DEWR data lists chief executives and managing directors among occupations AI complements rather than substitutes | Rising | C3, C1 |
@@ -155,7 +155,7 @@ A sixth job family in the market report's §1 — Indigenous Markets and Marketi
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-ibl.md); rows
@@ -174,7 +174,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **partial** (related program), n = 655, 13 destination titles, 7 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: Business-school leadership master without its own record.
+**Panel A metadata.** Basis tier **partial** (related program), n = 655, 13 destination titles, 7 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Business-school leadership master without its own record.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (36 pages) and verified on 2026-08-31: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

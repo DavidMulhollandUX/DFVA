@@ -14,7 +14,7 @@
 > **Confidence: LOW** — no live job-ad data exists for this occupation. No Adzuna or equivalent job-ad data was collected. The signals below are indirect and are marked accordingly; none should be read as a vacancy count, employer name, or salary figure.
 
 1. **No live job-ad scrape was conducted for this occupation.** No Adzuna or equivalent job-ad data was collected — 0 postings, no employers, no skills list. This report does not estimate vacancy volume, named employers, or advertised salaries in its absence — a gap, not a finding. **(LOW confidence — absence of data, stated plainly.)**
-2. **Skilled-migration classification is an indirect demand proxy, not a vacancy count.** VETASSESS classifies Food Technologist (ANZSCO 234212) as a "Group A" occupation requiring an AQF bachelor's-or-higher qualification plus at least one year of highly relevant post-qualification experience — official recognition as a skilled occupation, but this measures visa-eligibility criteria, not current hiring volume. **(LOW confidence — proxy, not job-ad data.)**
+2. **Skilled-migration classification is an indirect demand proxy, not a vacancy count.** VETASSESS classifies Food Technologist (ANZSCO 234212) as a "Group A" occupation requiring an Australian Qualifications Framework (AQF) bachelor's-or-higher qualification plus at least one year of highly relevant post-qualification experience — official recognition as a skilled occupation, but this measures visa-eligibility criteria, not current hiring volume. **(LOW confidence — proxy, not job-ad data.)**
 3. **Trade press documents active industry investment in AI R&D infrastructure at named companies**, including IFT's CoDeveloper platform, Turing Labs' Luna agent, NotCo's Giuseppe/Concept Quant tools and Shiru's Flourish — evidence that food and packaging innovation roles are being reshaped by tooling rather than eliminated, but this is a product-adoption roundup, not a labour-market measurement. **(LOW confidence — indirect signal.)**
 4. **No L4 (job-ad-lane) claims exist in the supplied profession record.** The record's five evidence lanes cover L1 (credentialing), L2 (exposure indices), L3 (trade press) and L5 (practitioner commentary) only; L4 is absent, consistent with the absence of job-ad data above.
 
@@ -46,8 +46,7 @@ Both sources are interested commentary rather than disinterested practitioner se
 
 **Bearing:** C2 and C4. C2's assessed peer-review task (FOOD90031's poster peer review) is the existing evaluative-judgement construct this theme's "co-scientist" framing bears on directly; C4 — demoted to a 1 on evidence-attribution review — is the cross-context-application construct that judging an AI-generated candidate in an unfamiliar scenario would exercise, were it taught.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-
+## 4. SKILL SHIFT SUMMARY
 | Skill | Direction | Rationale |
 |---|---|---|
 | Directing and critically evaluating AI-generated formulation or packaging-design candidates | **↑↑ Rising sharply** | Theme 1 (§3): the NotCo/Kraft Heinz case documents AI computational screening cutting an R&D timeline from two years to ten months, redirecting food scientists' effort toward directing and evaluating AI output before lab work begins; C3 scores 0/3 — no digital or AI content appears anywhere in the seven-subject compulsory core. |
@@ -68,7 +67,7 @@ Both sources are interested commentary rather than disinterested practitioner se
 ## 6. EVIDENCE CONFIDENCE + GAPS
 | Signal Area | Confidence | Gap / Caveat |
 |---|---|---|
-| Job-family AI substitution ratings (§1) | LOW-MEDIUM | No occupation-specific 2025/26 automation-probability study exists. Ratings are reasoned from named trade-press case evidence plus two background indices in the profession record: the 2021 AIOE score (0.794, pre-generative-AI, US SOC-coded) and JSA's 2025 "Chemists, and Food and Wine Scientists" group score, which pools several ANZSCO occupations and is not Food Technologist-specific. |
+| Job-family AI substitution ratings (§1) | LOW-MEDIUM | No occupation-specific 2025/26 automation-probability study exists. Ratings are reasoned from named trade-press case evidence plus two background indices in the profession record: the 2021 AI Occupational Exposure (AIOE) score (0.794, pre-generative-AI, US Standard Occupational Classification (SOC)-coded) and JSA's 2025 "Chemists, and Food and Wine Scientists" group score, which pools several ANZSCO occupations and is not Food Technologist-specific. |
 | Job-ad demand signals (§2) | LOW | No live Adzuna or other job-board data exists for this profession; no vacancy counts, employer names or advertised salaries can be reported. |
 | R&D AI-tool adoption (CoDeveloper, Luna, Giuseppe, Flourish, etc.) | MEDIUM | Sourced from two dated trade-press articles (DairyReporter, FoodNavigator) documenting named companies and products; neither quantifies the share of Australian food or packaging employers actually using these tools. |
 | Professional sentiment on AI job risk | MEDIUM | IFT's 2026 survey (5,000+ respondents, fielded January 2026) is global and self-reported, not Australia-specific, and the press release used as the source does not disclose the exact percentage behind "most respondents not concerned." |
@@ -88,7 +87,7 @@ Both sources are interested commentary rather than disinterested practitioner se
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS (JSA HEO)
+## REAL GRADUATE DESTINATIONS (Jobs and Skills Australia Higher Education Outcomes (JSA HEO))
 
 **Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **019905 Food Science and Biotechnology** (n = 1,480 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 41.9% of them, and the 5 largest are shown at each stage.
 

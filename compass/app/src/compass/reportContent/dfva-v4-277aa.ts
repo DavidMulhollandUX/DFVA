@@ -8,6 +8,7 @@ const content = {
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-23
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/277aa (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 35 pages captured
+**Course Director:** not recorded in this cycle's handbook capture
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -22,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 95.26.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 12 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 36, 12 titles). The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 95.26.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 3 of 12 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 36, 12 titles). The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 7 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -149,20 +150,20 @@ The market intelligence gathered for this program indicates strong, recession-re
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Patent & Trade Marks Attorney Practice | Trainee Patent Attorney, Registered Trade Marks Attorney, Patent Examiner | Senior Associate Patent Attorney, Partner / Principal, IP Practice Leader | HIGH | AI-augmented prior art search, prompt engineering for patent claims, inventorship governance |
-| 2 | IP & Technology Litigation | Junior IP Litigation Lawyer, Technology Disputes Associate | Senior Associate (IP Litigation), Special Counsel, IP Barrister | MEDIUM | Automated e-discovery synthesis, trade secret forensic litigation, AI copyright infringement analysis |
-| 3 | Corporate IP Management & Commercialisation | IP Portfolio Specialist, Technology Transfer Officer, Commercialisation Analyst | Head of IP, General Counsel (IP/Tech), Commercialisation Director | MEDIUM | Patent valuation, cross-border technology licensing, open-source compliance auditing |
-| 4 | Regulatory & Government IP Advisory | IP Australia Policy Officer, Patent Hearings Officer | Director of Patents & Designs, Senior Legal Advisor (DFAT / DISR) | LOW–MEDIUM | International IP treaty negotiation (WIPO, WTO), standard essential patent (SEP) regulation |
-| 5 | Brand Protection & Digital Anti-Counterfeiting | Brand Protection Specialist, Online Enforcement Counsel | Global Brand Protection Manager, Head of Digital Integrity | HIGH | Automated marketplace infringement detection, domain name arbitration (UDRP), AI deepfake IP defence |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Patent & Trade Marks Attorney Practice | Trainee Patent Attorney, Registered Trade Marks Attorney, Patent Examiner; later Senior Associate Patent Attorney, Partner / Principal, IP Practice Leader | HIGH | AI-augmented prior art search, prompt engineering for patent claims, inventorship governance |
+| IP & Technology Litigation | Junior IP Litigation Lawyer, Technology Disputes Associate; later Senior Associate (IP Litigation), Special Counsel, IP Barrister | MEDIUM | Automated e-discovery synthesis, trade secret forensic litigation, AI copyright infringement analysis |
+| Corporate IP Management & Commercialisation | IP Portfolio Specialist, Technology Transfer Officer, Commercialisation Analyst; later Head of IP, General Counsel (IP/Tech), Commercialisation Director | MEDIUM | Patent valuation, cross-border technology licensing, open-source compliance auditing |
+| Regulatory & Government IP Advisory | IP Australia Policy Officer, Patent Hearings Officer; later Director of Patents & Designs, Senior Legal Advisor (DFAT / DISR) | LOW–MEDIUM | International IP treaty negotiation (WIPO, WTO), standard essential patent (SEP) regulation |
+| Brand Protection & Digital Anti-Counterfeiting | Brand Protection Specialist, Online Enforcement Counsel; later Global Brand Protection Manager, Head of Digital Integrity | HIGH | Automated marketplace infringement detection, domain name arbitration (UDRP), AI deepfake IP defence |
 
 **Exposure basis declaration.** Destination AI exposure is **95.26** (measured basis on the program's own alumni destination record, n = 36, 12 titles), sitting **above** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | TTIPAB accreditation for trans-Tasman patent and trademark registration | Sustained High | Mandatory statutory qualification for practice as a registered patent attorney and trade marks attorney in Australia and New Zealand. — G1, W1, W2 |
 | Non-human inventorship (*Thaler*) and AI-generated invention governance | Rising | Judicial rulings affirm inventors must be human; patent attorneys must audit human contribution vs machine output and manage AI training copyright risk. — C3, W1, G2 |
 | Generative AI in patent claim drafting and prior art search | Rising / Volatile | AI drafting assistants accelerate background claims, but risk public disclosure under s 24 and fail statutory sufficiency/support under s 40 if unverified. — C2, C3, W2 |
@@ -174,7 +175,7 @@ The market intelligence gathered for this program indicates strong, recession-re
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-277aa.md); rows
@@ -193,7 +194,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **exact** (measured), n = 36, 12 destination titles, 3 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`.
+**Panel A metadata.** Basis tier **exact** (measured), n = 36, 12 destination titles, 3 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-23: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 

@@ -23,7 +23,7 @@ const content = {
 
 ## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: 92.85.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Master of Urban Planning (n = 130); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
+**Destination AI Exposure: 92.85.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program. Basis: borrowed from a related program's alumni record — Master of Urban Planning (n = 130); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
 
 **Curriculum Adaptiveness: 9 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -156,19 +156,19 @@ The market intelligence gathered for this program indicates strong demand across
 
 ### Destination Job Families
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
-|---|---|---|---|---|---|
-| 1 | Urban Design & Masterplanning | Graduate Urban Designer, Design Officer | Senior Urban Designer, Masterplanning Associate | MEDIUM | AI-assisted parametric massing (Forma, Delve), climate-adaptive public realm design |
-| 2 | Statutory & Strategic Planning | Town Planner, Strategic Planning Officer | Senior Strategic Planner, Precinct Lead | LOW–MEDIUM | Victorian Planning Provisions (VPP), housing statement rezoning, infrastructure sequencing |
-| 3 | Place-Making & Urban Activation | Place Consultant, Community Design Facilitator | Director of Place & Urban Strategy | LOW | Co-design facilitation, First Nations cultural landscape recognition, social impact metrics |
-| 4 | Digital Urban Analytics & Spatial Strategy | Spatial Analyst, GIS Urban Modeller | Senior Spatial Strategist, Digital Twin Lead | MEDIUM–HIGH | Urban analytics (Python/GIS), micro-climate modelling (UHI/WSUD), predictive transport data |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Urban Design & Masterplanning | Graduate Urban Designer, Design Officer; later Senior Urban Designer, Masterplanning Associate | MEDIUM | AI-assisted parametric massing (Forma, Delve), climate-adaptive public realm design |
+| Statutory & Strategic Planning | Town Planner, Strategic Planning Officer; later Senior Strategic Planner, Precinct Lead | LOW–MEDIUM | Victorian Planning Provisions (VPP), housing statement rezoning, infrastructure sequencing |
+| Place-Making & Urban Activation | Place Consultant, Community Design Facilitator; later Director of Place & Urban Strategy | LOW | Co-design facilitation, First Nations cultural landscape recognition, social impact metrics |
+| Digital Urban Analytics & Spatial Strategy | Spatial Analyst, GIS Urban Modeller; later Senior Spatial Strategist, Digital Twin Lead | MEDIUM–HIGH | Urban analytics (Python/GIS), micro-climate modelling (UHI/WSUD), predictive transport data |
 
 **Exposure basis declaration.** Destination AI exposure is **83.74** (exact basis derived from Architecture & Urban Design destinations), sitting **below** the portfolio median of 90.9.
 
 ### Market Signals and Skill Shifts
 
 | Signal or shift | Direction | Bearing on the scored items |
-|---|---|---|
+| --- | --- | --- |
 | Victorian public sector and council precinct design demand | Sustained High | DTP and councils hire urban designers for housing statement precinct renewals. — W1, G1 |
 | Multidisciplinary consultancies require digital & parametric fluency | Fast | Consultancies mandate 3D modelling (Rhino, Forma) and GIS spatial analytics. — C3, W2 |
 | Climate resilience and water-sensitive urban design (WSUD) | Fast | Masterplanning tenders require micro-climate and urban heat mitigation. — W2, G2 |
@@ -180,7 +180,7 @@ The market intelligence gathered for this program indicates strong demand across
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
-This section argues from the evidence above; it is interpretation, not observation.
+This section argues from the preceding evidence; it is interpretation, not observation.
 
 Each row states an option and what it costs, not a directive. Anchor text, sequencing
 and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-urbdes.md); rows
@@ -199,7 +199,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **partial** (related program), n = 130. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: Reconciliation package tier partial.
+**Panel A metadata.** Basis tier **partial** (related program), n = 130. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Reconciliation package tier partial.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-15: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 
