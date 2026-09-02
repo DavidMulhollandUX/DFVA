@@ -193,3 +193,14 @@
 - **Key files**:
   - (empty)
 - **File count**: 0
+
+## archive
+- **Location**: `archive/`
+- **Purpose**: Project folder
+- **Key files**:
+  - `archive/design-system/.DS_Store`
+  - `archive/design-system/README.md`
+  - `archive/design-system/react/.claude/hooks/session-end.sh`
+  - `archive/design-system/react/.claude/hooks/track-changes.sh`
+  - `archive/design-system/react/.claude/logs/changelog.md`
+- **File count**: 93

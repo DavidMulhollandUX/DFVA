@@ -13,7 +13,7 @@ Cold Sonnet subagents, dev app running, 2026-09-02 and 2026-09-03.
 | --- | --- | --- |
 | 1 | 5/5 | none (dry run, 2026-09-02) |
 | 2 | 3/4 | never loaded the skill; found test ids by reading page source |
-| 3 | 2/4 | never loaded the skill; poll paused in the hidden pane, so it reported a hang instead of the expected outcome |
+| 3 | 2/4 | never loaded the skill; read a paused poll as a hang |
 
 Fixes from this baseline: the `CLAUDE.md` rule that routes bug reports to the
 skill, and the hidden-tab gotcha in `features/assess.md`. Re-run after the

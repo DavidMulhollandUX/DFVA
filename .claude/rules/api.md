@@ -300,3 +300,11 @@ Tools: `get_assessment`, `query_assessments`, `cross_program_analysis`, `get_met
 - `.claude/worktrees/goal-3items/design-system/react/ds-bundle/_preview/ScoreDisplay.js`
 - `.claude/worktrees/goal-3items/design-system/react/ds-bundle/_preview/StrataMark.js`
 - `.claude/worktrees/goal-3items/design-system/react/ds-bundle/_preview/ValidationSignalCard.js`
+
+## New Routes (added 2026-09-02)
+- `archive/design-system/react/ds-bundle/_preview/BandBadge.js`
+- `archive/design-system/react/ds-bundle/_preview/Button.js`
+- `archive/design-system/react/ds-bundle/_preview/Card.js`
+- `archive/design-system/react/ds-bundle/_preview/ScoreDisplay.js`
+- `archive/design-system/react/ds-bundle/_preview/StrataMark.js`
+- `archive/design-system/react/ds-bundle/_preview/ValidationSignalCard.js`
