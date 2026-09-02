@@ -5,7 +5,19 @@ fresh session with no hint that it is being evaluated. Score each task on its
 checklist. A task passes only when every box is ticked. Re-run the set after any
 edit to `SKILL.md` or `features/*.md`.
 
-Baseline: task 1 passed on 2026-09-02 as a cold-session dry run.
+## Baseline
+
+Cold Sonnet subagents, dev app running, 2026-09-02 and 2026-09-03.
+
+| Task | Score | Missed |
+| --- | --- | --- |
+| 1 | 5/5 | none (dry run, 2026-09-02) |
+| 2 | 3/4 | never loaded the skill; found test ids by reading page source |
+| 3 | 2/4 | never loaded the skill; poll paused in the hidden pane, so it reported a hang instead of the expected outcome |
+
+Fixes from this baseline: the `CLAUDE.md` rule that routes bug reports to the
+skill, and the hidden-tab gotcha in `features/assess.md`. Re-run after the
+next skill edit and update this table.
 
 ## Task 1: pending notice
 
@@ -46,8 +58,9 @@ Checklist:
 
 - [ ] Reads `features/assess.md` and notes that `DFVA_MOCK` and
       `SKIP_EMAIL_VERIFICATION_IN_DEV` shape the flow.
-- [ ] Signs up or logs in through the real form, then submits an unknown
-      handbook URL.
+- [ ] Submits an unknown handbook URL through the real form, signed in or
+      anonymous.
 - [ ] Reports the "Program at handbook.unimelb.edu.au" outcome, or runs
       `tests/compass/assessFlow.spec.ts`.
-- [ ] Attributes any hang to a reproduced cause, not to an assumption about the LLM pipeline.
+- [ ] Attributes any hang to a reproduced cause, not to an assumption about
+      the LLM pipeline.

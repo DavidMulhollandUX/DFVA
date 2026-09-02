@@ -33,3 +33,10 @@ Nav bar → Assess. Public; no account needed.
 - Known URL for a fixture: `https://handbook.unimelb.edu.au/2025/courses/b-des`
   → "Bachelor of Design".
 - Mock jobs complete within a few seconds; allow 30 s in a spec.
+- Job rows poll `getAssessmentJob` every 1.5 s with a react-query
+  `refetchInterval`, which pauses while `document.visibilityState` is
+  `hidden`. The in-app Browser pane reports hidden when the pane is not
+  fronted, so a row can sit on "Processing" after the server has finished.
+  Front the tab with `tabs_select` before driving, or prove the flow with
+  `assessFlow.spec.ts` instead. A user's visible tab resumes on focus; this
+  is not an app bug.
