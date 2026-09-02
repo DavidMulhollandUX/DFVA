@@ -1,3 +1,5 @@
+import { readFileSync, readdirSync } from "node:fs";
+import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { V4_PANEL_C } from "../v4/data/v4PanelC";
 import { gateSummary } from "../v4/gateState";
@@ -8,6 +10,7 @@ import {
   V4_TIER_LABELS,
 } from "../v4/exposureBasis";
 import { v4Quadrant, V4_QUADRANT_LABELS } from "../v4/v4Position";
+import * as reportCopy from "../v4/report/copy";
 
 /**
  * H8: shared page copy is written against the program in front of the author
@@ -86,5 +89,76 @@ describe("quadrant labelling is derived per program", () => {
     // With a complete migration cycle most programs get a label; zero would
     // mean the helper is silently refusing everything.
     expect(labelled).toBeGreaterThan(CODES.length / 2);
+  });
+});
+
+/**
+ * Item 17 (2026-09-02) split V4ReportPage.tsx into one file per visual part
+ * with its prose in v4/report/copy.ts. Two things the corpus must keep true
+ * of that directory: a reader is never shown a path into the repository (Part
+ * C printed one for months), and every record-derived block still renders for
+ * every scored program rather than only the one it was written against.
+ */
+const REPORT_DIR = join(__dirname, "..", "v4", "report");
+const REPORT_FILES = readdirSync(REPORT_DIR).filter((f) => /\.tsx?$/.test(f));
+
+/** A repository path — a directory segment plus a source-file extension.
+ *  Routes ("/reports/dfva-v4-mc-cs") carry no extension and are not matched. */
+const REPO_PATH = /[\w-]+\/[\w.-]+\.(md|ts|tsx|json|py|csv)\b/;
+
+/** Read what a reader can see: comments are not copy. */
+const stripComments = (s: string) =>
+  s.replace(/\/\*[\s\S]*?\*\//g, "").replace(/^\s*\/\/.*$/gm, "");
+
+describe("the v4 report copy corpus", () => {
+  it("covers every part file", () => {
+    expect(REPORT_FILES).toContain("copy.ts");
+    expect(REPORT_FILES.length).toBeGreaterThan(8);
+  });
+
+  for (const file of REPORT_FILES) {
+    it(`${file} shows no repository path to a reader`, () => {
+      const body = stripComments(readFileSync(join(REPORT_DIR, file), "utf8"));
+      const match = body.match(REPO_PATH);
+      expect(
+        match,
+        `${file}: "${match?.[0]}" is a path into the repo`,
+      ).toBeNull();
+    });
+  }
+
+  it("exports no empty or leaking string constant", () => {
+    const strings: Array<[string, string]> = [];
+    for (const [name, value] of Object.entries(reportCopy)) {
+      if (typeof value === "string") strings.push([name, value]);
+    }
+    expect(strings.length).toBeGreaterThan(40);
+    for (const [name, value] of strings) {
+      expect(value.length, name).toBeGreaterThan(0);
+      expect(value, name).not.toMatch(/undefined|NaN/);
+      expect(value, name).not.toMatch(REPO_PATH);
+    }
+  });
+
+  it("derives the strength and gap sentences for every scored program", () => {
+    for (const code of CODES) {
+      const record = V4_PANEL_C[code];
+      for (const [label, s] of [
+        ["strength", reportCopy.strengthSummary(record)],
+        ["gap", reportCopy.gapSummary(record)],
+      ] as const) {
+        expect(s.length, `${code} ${label}`).toBeGreaterThan(0);
+        expect(s, `${code} ${label}`).not.toMatch(/undefined|NaN/);
+        expect(s.endsWith("."), `${code} ${label}`).toBe(true);
+      }
+    }
+  });
+
+  it("never hardcodes a gate outcome in the finding sentence", () => {
+    for (const [name, value] of Object.entries(reportCopy)) {
+      if (typeof value !== "string") continue;
+      expect(value, name).not.toMatch(/both (gates|preconditions)/i);
+      expect(value, name).not.toMatch(/every precondition met/);
+    }
   });
 });
