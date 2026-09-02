@@ -380,6 +380,11 @@ export const ARCHIVED_ASSESSMENT_BODY =
 
 export const LINK_ARCHIVED_V1_ASSESSMENT = "Archived v1 assessment";
 export const LINK_ARCHIVED_V1_PLAN = "Archived v1 improvement plan";
+
+export const LABEL_RESEARCH_NO_PLAN = "Improvement plan";
+export const TITLE_RESEARCH_NO_PLAN = "No v4 improvement plan for this program";
+export const researchNoPlanBody = (programName: string): string =>
+  `An improvement plan is derived from a Panel C v4 score and a market report. ${programName} carries neither by design: Part A explains why no rating exists, and no plan is authored against the earlier instrument. Where an archived v1 plan exists it is linked under Earlier instrument as history, not as a recommendation.`;
 export const LINK_MARKET_INTELLIGENCE = "Market intelligence";
 
 /* --------------------------------------------------------- pending report */

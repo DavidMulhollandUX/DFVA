@@ -28,6 +28,9 @@ import {
   LABEL_EARLIER_INSTRUMENT,
   LINK_ARCHIVED_V1_ASSESSMENT,
   LINK_ARCHIVED_V1_PLAN,
+  LABEL_RESEARCH_NO_PLAN,
+  TITLE_RESEARCH_NO_PLAN,
+  researchNoPlanBody,
   LABEL_POSITION_AXIS,
   LINK_BACK_TO_REPORTS,
   NAV_PART_A,
@@ -164,6 +167,15 @@ export function V4ResearchReport({
           subtitle={CARD_RESEARCH_LIMITS_SUBTITLE}
           sectionFilter={V4R_LIMITS}
         />
+        <Card className="mt-6" data-testid="v4r-no-plan">
+          <CardContent className="pt-6">
+            <CardLabel>{LABEL_RESEARCH_NO_PLAN}</CardLabel>
+            <CardTitle className="text-lg">{TITLE_RESEARCH_NO_PLAN}</CardTitle>
+            <p className="text-muted-foreground mt-1 text-sm">
+              {researchNoPlanBody(name)}
+            </p>
+          </CardContent>
+        </Card>
         {v1 && (
           <Card className="mt-6">
             <CardContent className="pt-6">
