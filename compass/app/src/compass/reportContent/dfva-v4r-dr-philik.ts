@@ -52,7 +52,7 @@ The most exposed analogue graduate of ~2021-2022 is a **generalist research assi
 
 ### Verdict
 
-The Doctor of Philosophy – Indigenous Knowledge sits at the boundary of MODERATE RISK and RESILIENT, held back not by any weakness in its core value proposition — which is genuinely and structurally durable — but by two addressable evidence and curriculum gaps: the absence of explicit AI literacy/governance content (D5) and the absence of published granular graduate outcome data (D10). The degree's structural moat (community-controlled, relationally-accountable, dual-specialisation research training) is about as close to AI-proof as a research doctorate can be; closing the D5 and D10 gaps would very plausibly tip this into the RESILIENT band without altering anything else about the program's identity.
+The Doctor of Philosophy – Indigenous Knowledge sits at the boundary between the middle and the top of the v1 range, held back not by any weakness in its core value proposition — which is genuinely and structurally durable — but by two addressable evidence and curriculum gaps: the absence of explicit AI literacy/governance content (D5) and the absence of published granular graduate outcome data (D10). The degree's structural moat (community-controlled, relationally-accountable, dual-specialisation research training) is about as close to AI-proof as a research doctorate can be; closing the D5 and D10 gaps would very plausibly tip this into the top of that range without altering anything else about the program's identity.
 
 ## 3. MARKET EVIDENCE — Basis: reported
 

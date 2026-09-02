@@ -52,7 +52,7 @@ The most exposed archetype circa 2021-2022: a computationally-oriented PhD gradu
 
 ### Verdict
 
-The Doctor of Philosophy – Science sits at the v1 composite, MODERATE RISK: its research-training core (D2, D3, D4, D6, D7, bonus B) is genuinely strong and durable — a PhD by definition trains original judgment, deep specialisation, and defended methodology that AI cannot yet replicate end-to-end — but the program is exposed on the "meta-curriculum" dimensions (D5 AI literacy/governance, D8 relational capability, D9 currency, D10 outcome evidence) that the handbook simply does not evidence as designed, taught, or tracked. This is not a program facing structural displacement; it is a strong research pathway that has not yet formalised the AI-fluency and outcome-transparency layer graduates will need to fully capture the "AI-augmented scientist" premium rather than quietly cede routine analytical labour to it.
+The Doctor of Philosophy – Science sat in the middle of the v1 range: its research-training core (D2, D3, D4, D6, D7, bonus B) is genuinely strong and durable — a PhD by definition trains original judgment, deep specialisation, and defended methodology that AI cannot yet replicate end-to-end — but the program is exposed on the "meta-curriculum" dimensions (D5 AI literacy/governance, D8 relational capability, D9 currency, D10 outcome evidence) that the handbook simply does not evidence as designed, taught, or tracked. This is not a program facing structural displacement; it is a strong research pathway that has not yet formalised the AI-fluency and outcome-transparency layer graduates will need to fully capture the "AI-augmented scientist" premium rather than quietly cede routine analytical labour to it.
 
 ## 3. MARKET EVIDENCE — Basis: reported
 

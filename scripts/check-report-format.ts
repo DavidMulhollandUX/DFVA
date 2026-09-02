@@ -391,6 +391,9 @@ export function checkRecommendReport(slug: string, content: string): string[] {
 
   // No N/36 requirement: ReportMarkdownCard strips the v1 composite as a UX
   // defect, so demanding it here contradicted the renderer (review item 11).
+  // No N/36 ban either: this family renders only on the archived v1 page
+  // (ReportDetailPage). compass/app renderedV4Bodies.test.ts guarantees the v4
+  // page never loads a dfva-recommend-* body, which is what keeps that safe.
 
   return issues
 }
@@ -605,7 +608,7 @@ function checkV4RecommendReport(slug: string, content: string): string[] {
 // destination basis (an evidence gap). The report's whole job is to say both and
 // then carry the v1 assessment as narrative. So the rules enforce exactly that:
 // the two reasons are stated, and no score of any instrument appears.
-function checkV4RResearchReport(slug: string, content: string): string[] {
+export function checkV4RResearchReport(slug: string, content: string): string[] {
   const lines = content.split('\n')
   const issues: string[] = []
 
@@ -647,6 +650,11 @@ function checkV4RResearchReport(slug: string, content: string): string[] {
   if (/\b\d{1,2}\/36\b/.test(content)) issues.push('carries a v1 composite ("N/36") — this family is narrative only')
   if (/\b\d\/3\b/.test(content)) issues.push('carries a dimension or Panel C score ("d/3") — this family is narrative only')
   if (/Irreplaceability[^.]*\b\d\b/.test(content)) issues.push('carries an Irreplaceability score — retired, and this family is narrative only')
+  // Band words are a score in disguise, and §2 "CARRIED FORWARD" renders on the
+  // v4 page (ResearchReport.tsx V4R_FINDING), where no v1 vocabulary may appear.
+  if (/\b(MODERATE|HIGH|LOW) RISK\b|\bRESILIENT\b/.test(content)) {
+    issues.push('carries v1 band vocabulary (RISK / RESILIENT) — this family is narrative only and renders on the v4 page')
+  }
 
   // A scored program must not be in this family, and vice versa.
   const code = slug.replace(/^dfva-v4r-/, '')

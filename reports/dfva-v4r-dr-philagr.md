@@ -47,7 +47,7 @@ The most exposed 2021-2022 archetype is the "data-processing agricultural scient
 
 ### Verdict
 
-Doctor of Philosophy – Agricultural Sciences is MODERATE RISK at the v1 composite, sitting just below the RESILIENT threshold — its core research-training value (field-situated experimental design, physical/biological judgment, defensible original contribution) is structurally durable against AI displacement, but the program's institutional infrastructure has not caught up: there is no explicit AI-literacy/governance training and no visible curriculum currency loop or granular graduate outcome tracking, leaving genuine risk not in what graduates can do but in whether the program equips and evidences it for a 2027+ labour market.
+The Doctor of Philosophy – Agricultural Sciences sat in the middle of the v1 range, just short of its top band — its core research-training value (field-situated experimental design, physical/biological judgment, defensible original contribution) is structurally durable against AI displacement, but the program's institutional infrastructure has not caught up: there is no explicit AI-literacy/governance training and no visible curriculum currency loop or granular graduate outcome tracking, leaving genuine risk not in what graduates can do but in whether the program equips and evidences it for a 2027+ labour market.
 
 ## 3. MARKET EVIDENCE — Basis: reported
 
