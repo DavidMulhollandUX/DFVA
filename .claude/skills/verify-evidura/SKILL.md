@@ -81,6 +81,22 @@ Match the existing style: one `describe` per feature, test ids from the feature
 file, `{ timeout: 15_000 }` on the first assertion of a report page, and
 `expect.poll` rather than a bare `count()`.
 
+## Profile
+
+Never reason from a screenshot of a flame graph. Take the numbers yourself:
+
+```bash
+cd compass/e2e-tests && PW_CHANNEL=chrome node perf/measure.mjs /reports
+```
+
+It opens the route in Chrome with the cache disabled through the DevTools
+protocol and prints load, LCP, long tasks, script time, heap, DOM nodes and
+the transfer size of every script, largest first. Pass an absolute URL to
+measure dev.evidura.ai. Add `--trace` to write a DevTools trace file, and
+`--json` to keep the raw numbers. Compare against the budgets in
+`compass/app/bundle-budget.json`; a route over budget fails CI through
+`scripts/check-bundle-size.mjs`.
+
 ## Evidence
 
 - Spec output pasted into the report, or `--trace on` with the trace under

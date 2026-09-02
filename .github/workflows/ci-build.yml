@@ -118,6 +118,12 @@ jobs:
       - name: Typecheck
         # tsconfig.json is a solution file; a bare `tsc --noEmit` checks nothing.
         run: npm run typecheck
+      - name: Client bundle within budget
+        # Builds the client the way deploy-dev.sh does and fails when a chunk
+        # or a budgeted route exceeds compass/app/bundle-budget.json.
+        run: |
+          REACT_APP_API_URL=https://example.invalid npx vite build --manifest
+          node ../../scripts/check-bundle-size.mjs .wasp/out/web-app/build
 
   mcp:
     # Type-check + unit tests for the dfva MCP server (previously never in CI —
