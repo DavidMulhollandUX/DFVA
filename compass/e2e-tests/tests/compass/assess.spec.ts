@@ -12,7 +12,7 @@ test.describe('COMPASS pages', () => {
   });
 
   // /assess is public — a program can be assessed without an account.
-  // The authenticated assess+submit flow is covered by smoke-run.mjs.
+  // The authenticated assess+submit flow is covered by assessFlow.spec.ts.
   test('/assess loads without auth', async ({ page }) => {
     await page.goto('/assess');
     await expect(page).toHaveURL(/\/assess/);
