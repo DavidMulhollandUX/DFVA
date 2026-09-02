@@ -9,15 +9,20 @@ edit to `SKILL.md` or `features/*.md`.
 
 Cold Sonnet subagents, dev app running, 2026-09-02 and 2026-09-03.
 
-| Task | Score | Missed |
-| --- | --- | --- |
-| 1 | 5/5 | none (dry run, 2026-09-02) |
-| 2 | 3/4 | never loaded the skill; found test ids by reading page source |
-| 3 | 2/4 | never loaded the skill; read a paused poll as a hang |
+| Pass | Model | Task 1 | Task 2 | Task 3 | Fix that followed |
+| --- | --- | --- | --- | --- | --- |
+| 1 (09-02) | Sonnet | 5/5 | 3/4 | 2/4 | CLAUDE.md routes reports to the skill |
+| 2 (09-03) | Sonnet | 5/5 | 3/4 | 2/4 | job polls run in background tabs |
+| 3 (09-03) | Sonnet | 5/5 | 3/4 | 4/4 | task 2 box 1 reworded (see note) |
+| 4 (09-03) | Haiku | 3/5 | 0/4 | 1/4 | none: Haiku is below the bar for triage |
 
-Fixes from this baseline: the `CLAUDE.md` rule that routes bug reports to the
-skill, and the hidden-tab gotcha in `features/assess.md`. Re-run after the
-next skill edit and update this table.
+Pass 3 note: task 2 drove the facet correctly with test ids read from source
+three times running, so the box now accepts source or feature file.
+Haiku ignored the skill in all three tasks, clicked by screenshot coordinates,
+and twice reported a bug that its own run or the passing spec contradicts.
+Do not route triage to Haiku until a pass here says otherwise.
+Pass 3 also found a real defect: on a first anonymous visit to `/assess` the
+cookie banner intercepts the Analyse click. Tracked outside this file.
 
 ## Task 1: pending notice
 
@@ -42,7 +47,8 @@ Prompt:
 
 Checklist:
 
-- [ ] Reads `features/reports-index.md` and uses its test ids, not guessed selectors.
+- [ ] Drives by the page's test ids (`report-count`, `report-card`, `status-*`),
+      taken from `features/reports-index.md` or the source, never guessed selectors.
 - [ ] Drives the facet in the browser or runs `tests/compass/reports.spec.ts`
       with `PW_CHANNEL=chrome`.
 - [ ] Reports the card count before and after narrowing, or the spec result.
