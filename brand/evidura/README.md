@@ -1,6 +1,6 @@
 # Evidura — Brand Assets
 
-> **Superseded:** the canonical design system now lives at [`design-system/`](../../design-system/design.md) — full design.md, extended tokens (CSS + JSON), the complete logo kit, and a visual preview. This folder is the frozen v1 asset drop; new work should reference `design-system/`.
+> **Source of truth.** Tokens here are what `compass/app/src/client/Main.css` derives from. The React component bundle that once lived at `design-system/` is archived at [`archive/design-system/`](../../archive/design-system/README.md); it was never imported by the app.
 
 The visual identity for **Evidura** — *the independent durability assessment for university degrees.* Confidential benchmarking, institutional consent required for any public display. "Durability, made visible."
 

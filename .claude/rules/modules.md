@@ -129,16 +129,9 @@
 - **File count**: 2
 
 
-## design-system
-- **Location**: `design-system/`
-- **Purpose**: Project folder
-- **Key files**:
-  - `design-system/design.md`
-  - `design-system/logos/evidura-favicon.svg`
-  - `design-system/logos/evidura-lockup-horizontal-ondark.svg`
-  - `design-system/logos/evidura-lockup-horizontal.svg`
-  - `design-system/logos/evidura-lockup-stacked.svg`
-- **File count**: 140
+## archive/design-system
+- **Location**: `archive/design-system/`
+- **Purpose**: Archived 2026-09-02 — generated `@evidura/ui` React bundle, never imported by the app. Tokens live in `brand/evidura/`.
 
 
 ## libriscribe_book
