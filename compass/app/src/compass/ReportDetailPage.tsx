@@ -38,7 +38,7 @@ import {
 import { PROGRAMS } from "./sharedProgramData";
 import { ProgramRadar } from "../client/components/ProgramRadar";
 import { WhyThisMatters } from "./WhyThisMatters";
-import { generateMockSyllabus } from "./mockSyllabusData";
+import { generateMockSyllabus, type SyllabusData } from "./mockSyllabusData";
 import { RUBRIC, Dimension } from "./data/rubric";
 import type { DimensionEvidence } from "./data/dimensionEvidence";
 import { getFieldForCourse } from "./marketData";
@@ -509,6 +509,17 @@ const FIELD_CAREERS: Record<
   ],
 };
 
+// Ownership assignments for anonymous (non-signed-in) visitors, kept in
+// localStorage instead of the CourseInterventionOwner table.
+interface LocalIntervention {
+  courseCode: string;
+  dimensionId: number;
+  ownerName: string;
+  ownerEmail: string;
+  status: string;
+  targetDate?: string;
+}
+
 function dimensionStringToId(dimStr: string): number {
   if (dimStr === "B") return 11;
   return parseInt(dimStr.replace("D", ""), 10);
@@ -863,7 +874,7 @@ interface InteractiveRubricPanelProps {
     max: number;
     rationale?: string;
   }[];
-  thresholds?: Record<string, string>;
+  thresholds?: Record<string, string> | { q1: string; q2: string; q3: string };
   programName?: string;
   baseScore: number;
   maxScore: number;
@@ -1202,9 +1213,19 @@ export default function ReportDetailPage() {
     Record<string, ReportContent>
   >({});
   const [contentReady, setContentReady] = useState(false);
+
+  // Mark content not-ready the instant the requested report changes, so a
+  // stale report never flashes while the new one's chunks are still loading.
+  // Adjusted during render rather than in the effect below — see
+  // https://react.dev/learn/you-might-not-need-an-effect.
+  const [contentKey, setContentKey] = useState({ code, family });
+  if (contentKey.code !== code || contentKey.family !== family) {
+    setContentKey({ code, family });
+    setContentReady(false);
+  }
+
   useEffect(() => {
     let alive = true;
-    setContentReady(false);
     const slugs = [
       assessmentSlugFor({ code, family }),
       "dfva-market-" + code,
@@ -1303,12 +1324,16 @@ function ReportDetailView({
     "overview" | "map" | "market" | "redesign"
   >("overview");
 
-  // Keep state synced with the legacy URL routing type
-  useEffect(() => {
+  // Keep state synced with the legacy URL routing type. Adjusted during
+  // render (rather than in an effect) so a route change lands on the right
+  // tab in the same render — see https://react.dev/learn/you-might-not-need-an-effect.
+  const [prevType, setPrevType] = useState(currentType);
+  if (currentType !== prevType) {
+    setPrevType(currentType);
     if (currentType === "assessment") setActiveTab("overview");
     else if (currentType === "market") setActiveTab("market");
     else if (currentType === "recommend") setActiveTab("redesign");
-  }, [currentType]);
+  }
 
   // 2. Load Assessment Jobs from DB
   const { data: jobs = [] } = useQuery(getAssessmentJobs, undefined, {
@@ -1317,7 +1342,7 @@ function ReportDetailView({
 
   const matchingJob = useMemo(() => {
     return jobs.find(
-      (j: any) =>
+      (j) =>
         j.courseCode?.toLowerCase() === code ||
         j.programName?.toLowerCase().includes(code) ||
         j.handbookUrl?.toLowerCase().includes(code),
@@ -1326,7 +1351,7 @@ function ReportDetailView({
 
   // Load syllabus data state. Fetched per-job via getSyllabusMap (which selects
   // only syllabusJson) — the job list no longer carries the heavy Json columns.
-  const [syllabusData, setSyllabusData] = useState(() =>
+  const [syllabusData, setSyllabusData] = useState<SyllabusData>(() =>
     generateMockSyllabus(slugsByType.assessment),
   );
 
@@ -1336,13 +1361,25 @@ function ReportDetailView({
     { enabled: !!user && !!matchingJob?.id },
   );
 
-  useEffect(() => {
-    if (syllabusMap) {
-      setSyllabusData(syllabusMap as any);
-    } else {
-      setSyllabusData(generateMockSyllabus(slugsByType.assessment));
-    }
-  }, [syllabusMap, slugsByType.assessment]);
+  // Re-seed syllabusData (an otherwise independently-editable sandbox state —
+  // see the CSV flow upload handler below) whenever the query result or the
+  // fallback slug changes. Adjusted during render rather than in an effect —
+  // see https://react.dev/learn/you-might-not-need-an-effect.
+  const [syllabusSource, setSyllabusSource] = useState({
+    syllabusMap,
+    assessmentSlug: slugsByType.assessment,
+  });
+  if (
+    syllabusMap !== syllabusSource.syllabusMap ||
+    slugsByType.assessment !== syllabusSource.assessmentSlug
+  ) {
+    setSyllabusSource({ syllabusMap, assessmentSlug: slugsByType.assessment });
+    setSyllabusData(
+      syllabusMap
+        ? (syllabusMap as unknown as SyllabusData)
+        : generateMockSyllabus(slugsByType.assessment),
+    );
+  }
 
   // 3. Simulated/What-If Sandbox State
   const [simulatedScore, setSimulatedScore] = useState<number | null>(null);
@@ -1355,7 +1392,9 @@ function ReportDetailView({
       { enabled: !!user && !!matchingJob?.id },
     );
 
-  const [localInterventions, setLocalInterventions] = useState<any[]>(() => {
+  const [localInterventions, setLocalInterventions] = useState<
+    LocalIntervention[]
+  >(() => {
     try {
       const saved = localStorage.getItem(`compass-interventions-${code}`);
       return saved ? JSON.parse(saved) : [];
@@ -1385,7 +1424,7 @@ function ReportDetailView({
   // 6. Careers Alumni Data Uploader State
   const [isUploadingAlumni, setIsUploadingAlumni] = useState(false);
   const [csvHeaders, setCsvHeaders] = useState<string[]>([]);
-  const [csvRows, setCsvRows] = useState<any[]>([]);
+  const [csvRows, setCsvRows] = useState<Record<string, string>[]>([]);
   const [columnMapping, setColumnMapping] = useState<Record<string, string>>({
     jobTitle: "",
     employer: "",
@@ -1449,8 +1488,9 @@ function ReportDetailView({
           targetDate: newIntervention.targetDate,
         });
         refetchInterventions();
-      } catch (err: any) {
-        alert("Failed to update database intervention: " + err.message);
+      } catch (err: unknown) {
+        const message = err instanceof Error ? err.message : String(err);
+        alert("Failed to update database intervention: " + message);
       }
     } else {
       // Local fallback
@@ -1557,8 +1597,9 @@ function ReportDetailView({
       }
       setSuccessCount(mappedRecords.length);
       setMappingStep("success");
-    } catch (err: any) {
-      alert("Alumni upload failed: " + err.message);
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : String(err);
+      alert("Alumni upload failed: " + message);
     } finally {
       setIsUploadingAlumni(false);
     }
@@ -1779,7 +1820,7 @@ function ReportDetailView({
                     {program && (
                       <InteractiveRubricPanel
                         dimensions={program.dimensions}
-                        thresholds={program.thresholds as any}
+                        thresholds={program.thresholds}
                         programName={program.program}
                         baseScore={program.score}
                         maxScore={program.maxScore}
