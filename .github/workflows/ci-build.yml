@@ -108,7 +108,9 @@ jobs:
       - name: Prettier check
         run: npx prettier --check src/
       - name: ESLint
-        run: npx eslint src
+        # Warning ceiling. Lower the number when you clear warnings; never
+        # raise it. Mirrors the lint and check scripts in package.json.
+        run: npx eslint src --max-warnings 71
       - name: Generate the Wasp SDK
         # `wasp install` does not produce .wasp/out/sdk, which is what resolves
         # the `wasp/*` imports for tsc. vitest does not need it (shimmed).
