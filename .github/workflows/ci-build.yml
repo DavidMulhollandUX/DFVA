@@ -109,6 +109,9 @@ jobs:
         run: npx prettier --check src/
       - name: ESLint
         run: npx eslint src
+      - name: Typecheck
+        # tsconfig.json is a solution file; a bare `tsc --noEmit` checks nothing.
+        run: npm run typecheck
 
   mcp:
     # Type-check + unit tests for the dfva MCP server (previously never in CI —

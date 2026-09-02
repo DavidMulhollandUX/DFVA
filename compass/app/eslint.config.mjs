@@ -32,6 +32,25 @@ const legacyAny = [
   "src/shared/utils.ts",
 ];
 
+// Relative forms only: `**/operations` would also match the legitimate
+// `wasp/client/operations` import.
+const serverOnlyImports = [
+  {
+    group: ["wasp/server", "wasp/server/*", "@prisma/client"],
+    message: "server-only; use wasp/client/operations",
+  },
+  {
+    group: [
+      "./operations",
+      "../**/operations",
+      "**/*Service",
+      "**/openaiLlmScorer",
+      "**/handbookFetcher",
+    ],
+    message: "server-only; use wasp/client/operations",
+  },
+];
+
 export default tseslint.config(
   {
     ignores: [
@@ -61,6 +80,35 @@ export default tseslint.config(
           argsIgnorePattern: "^_",
           varsIgnorePattern: "^_",
           caughtErrors: "none",
+        },
+      ],
+    },
+  },
+  {
+    // Import boundary 1 (2026-09-02): client pages must not pull server-only
+    // modules into the browser bundle. Trips zero files today, so it starts
+    // at "error" with no ratchet list; add one only for a real hit.
+    files: ["src/compass/*.tsx", "src/client/**", "src/landing-page/**"],
+    rules: {
+      "no-restricted-imports": ["error", { patterns: serverOnlyImports }],
+    },
+  },
+  {
+    // Import boundary 2: the v4 page family links to the archived v1
+    // renderers, never imports them. Flat config replaces rule options rather
+    // than merging them, so this block restates boundary 1 for v4 files.
+    files: ["src/compass/v4/**"],
+    rules: {
+      "no-restricted-imports": [
+        "error",
+        {
+          patterns: [
+            ...serverOnlyImports,
+            {
+              group: ["**/ReportDetailPage", "**/ReportsPage"],
+              message: "archived v1 renderer; v4 links to it, never imports it",
+            },
+          ],
         },
       ],
     },
