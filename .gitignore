@@ -41,6 +41,7 @@ docs/workflow-sop.md
 /.claude/*
 !/.claude/rules/
 !/.claude/skills/
+!/.claude/launch.json
 # Nested per-subproject .claude/ dirs hold auto-generated stubs — keep them out.
 */.claude/
 */*/.claude/
