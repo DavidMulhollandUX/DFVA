@@ -96,6 +96,8 @@ DFVA = Degree Future-Viability Assessment — the scoring methodology.
 - For multi-step tasks, prefer inline Workflow scripts
 - A review comment you have made twice is a missing lint rule or test.
   Add the gate instead of a third comment.
+- To reproduce a bug report or check a page in the app, load the
+  `verify-evidura` skill before reading page source.
 
 ## Agent-First (MCP)
 
