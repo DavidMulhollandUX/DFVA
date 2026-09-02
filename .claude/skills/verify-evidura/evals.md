@@ -14,7 +14,7 @@ Cold Sonnet subagents, dev app running, 2026-09-02 and 2026-09-03.
 | 1 (09-02) | Sonnet | 5/5 | 3/4 | 2/4 | CLAUDE.md routes reports to the skill |
 | 2 (09-03) | Sonnet | 5/5 | 3/4 | 2/4 | job polls run in background tabs |
 | 3 (09-03) | Sonnet | 5/5 | 3/4 | 4/4 | task 2 box 1 reworded (see note) |
-| 4 (09-03) | Haiku | 3/5 | 0/4 | 1/4 | none: Haiku is below the bar for triage |
+| 4 (09-03) | Haiku | 3/5 | 0/4 | 1/4 | none: Haiku is below the triage bar |
 
 Pass 3 note: task 2 drove the facet correctly with test ids read from source
 three times running, so the box now accepts source or feature file.
