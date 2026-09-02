@@ -1,5 +1,5 @@
 import { ApexOptions } from "apexcharts";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 import ReactApexChart from "react-apexcharts";
 import { type DailyStatsProps } from "../../../analytics/stats";
 
@@ -109,6 +109,10 @@ interface ChartOneState {
   }[];
 }
 
+const BASE_SERIES: ChartOneState["series"] = [
+  { name: "Profit", data: [4, 7, 10, 11, 13, 14, 17] },
+];
+
 const RevenueAndProfitChart = ({ weeklyStats }: DailyStatsProps) => {
   const dailyRevenueArray = useMemo(() => {
     if (!!weeklyStats && weeklyStats?.length > 0) {
@@ -130,73 +134,43 @@ const RevenueAndProfitChart = ({ weeklyStats }: DailyStatsProps) => {
     }
   }, [weeklyStats]);
 
-  const [state, setState] = useState<ChartOneState>({
-    series: [
-      {
-        name: "Profit",
-        data: [4, 7, 10, 11, 13, 14, 17],
-      },
-    ],
-  });
-  const [chartOptions, setChartOptions] = useState<ApexOptions>(options);
-
-  useEffect(() => {
-    if (dailyRevenueArray && dailyRevenueArray.length > 0) {
-      setState((prevState) => {
-        // Check if a "Revenue" series already exists
-        const existingSeriesIndex = prevState.series.findIndex(
-          (series) => series.name === "Revenue",
-        );
-
-        if (existingSeriesIndex >= 0) {
-          // Update existing "Revenue" series data
-          return {
-            ...prevState,
-            series: prevState.series.map((serie, index) => {
-              if (index === existingSeriesIndex) {
-                return { ...serie, data: dailyRevenueArray };
-              }
-              return serie;
-            }),
-          };
-        } else {
-          // Add "Revenue" series as it does not exist yet
-          return {
-            ...prevState,
-            series: [
-              ...prevState.series,
-              {
-                name: "Revenue",
-                data: dailyRevenueArray,
-              },
-            ],
-          };
-        }
-      });
+  // Derived directly from props — no need to mirror it into its own state
+  // and sync it via an effect.
+  const series = useMemo<ChartOneState["series"]>(() => {
+    if (!dailyRevenueArray || dailyRevenueArray.length === 0) {
+      return BASE_SERIES;
     }
+    const existingIndex = BASE_SERIES.findIndex((s) => s.name === "Revenue");
+    if (existingIndex >= 0) {
+      return BASE_SERIES.map((s, i) =>
+        i === existingIndex ? { ...s, data: dailyRevenueArray } : s,
+      );
+    }
+    return [...BASE_SERIES, { name: "Revenue", data: dailyRevenueArray }];
   }, [dailyRevenueArray]);
 
-  useEffect(() => {
+  const chartOptions = useMemo<ApexOptions>(() => {
     if (
-      !!daysOfWeekArr &&
-      daysOfWeekArr?.length > 0 &&
-      !!dailyRevenueArray &&
-      dailyRevenueArray?.length > 0
+      !daysOfWeekArr ||
+      daysOfWeekArr.length === 0 ||
+      !dailyRevenueArray ||
+      dailyRevenueArray.length === 0
     ) {
-      setChartOptions({
-        ...options,
-        xaxis: {
-          ...options.xaxis,
-          categories: daysOfWeekArr,
-        },
-        yaxis: {
-          ...options.yaxis,
-          // get the min & max values to the neareast hundred
-          max: Math.ceil(Math.max(...dailyRevenueArray) / 100) * 100,
-          min: Math.floor(Math.min(...dailyRevenueArray) / 100) * 100,
-        },
-      });
+      return options;
     }
+    return {
+      ...options,
+      xaxis: {
+        ...options.xaxis,
+        categories: daysOfWeekArr,
+      },
+      yaxis: {
+        ...options.yaxis,
+        // get the min & max values to the nearest hundred
+        max: Math.ceil(Math.max(...dailyRevenueArray) / 100) * 100,
+        min: Math.floor(Math.min(...dailyRevenueArray) / 100) * 100,
+      },
+    };
   }, [daysOfWeekArr, dailyRevenueArray]);
 
   return (
@@ -245,7 +219,7 @@ const RevenueAndProfitChart = ({ weeklyStats }: DailyStatsProps) => {
         <div id="chartOne" className="-ml-5">
           <ReactApexChart
             options={chartOptions}
-            series={state.series}
+            series={series}
             type="area"
             height={350}
           />

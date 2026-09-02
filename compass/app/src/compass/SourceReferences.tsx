@@ -385,7 +385,14 @@ const GROUP_ORDER: SourceGroup[] = [
 ];
 
 export function SourceReferences({ sources }: { sources: SourceKey[] }) {
-  let n = 0;
+  // Continuous numbering across groups, in the same order the list below
+  // renders them — computed as a lookup rather than a counter mutated
+  // during render.
+  const orderedKeys = GROUP_ORDER.flatMap((g) =>
+    sources.filter((k) => SOURCES[k].group === g),
+  );
+  const numberByKey = new Map(orderedKeys.map((k, i) => [k, i + 1]));
+
   return (
     <details
       className="border-border mb-4 rounded-lg border"
@@ -420,7 +427,6 @@ export function SourceReferences({ sources }: { sources: SourceKey[] }) {
                 .filter((k) => SOURCES[k].group === g)
                 .map((k) => {
                   const s = SOURCES[k];
-                  n += 1;
                   return (
                     <li
                       key={k}
@@ -428,7 +434,7 @@ export function SourceReferences({ sources }: { sources: SourceKey[] }) {
                       data-testid={`source-${k}`}
                     >
                       <span className="text-muted-foreground shrink-0 font-mono text-xs leading-6">
-                        [{n}]
+                        [{numberByKey.get(k)}]
                       </span>
                       <div>
                         <p className="text-foreground leading-relaxed">
