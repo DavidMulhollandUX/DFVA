@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs'
 import * as path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { test } from 'node:test'
-import { checkV4Report, checkMarketReport, checkRecommendReport } from './check-report-format'
+import { checkV4Report, checkMarketReport, checkRecommendReport, checkV4RResearchReport } from './check-report-format'
 
 // Fixtures: mutate a real, currently-passing report one thing at a time
 // rather than hand-authoring a synthetic report — the 2026-09-02 rules key
@@ -200,4 +200,25 @@ test('a v1 recommend report with the right title passes', () => {
 test('a v1 recommend report with the wrong title fails', () => {
   const issues = checkRecommendReport('dfva-recommend-x', '## PLAN: Master of X\n\nBody.\n')
   assert.ok(issues.some((i) => i.includes('title mismatch')))
+})
+
+// ── v4r research family: narrative only, no band vocabulary ──
+
+const v4rBase = read('dfva-v4r-dr-philsci.md')
+
+test('the unmodified v4r base report carries no issues', () => {
+  assert.deepEqual(checkV4RResearchReport('dfva-v4r-dr-philsci', v4rBase), [])
+})
+
+test('a v4r report that names a v1 band fails', () => {
+  for (const band of ['MODERATE RISK', 'HIGH RISK', 'LOW RISK', 'RESILIENT']) {
+    const mutated = v4rBase.replace('### Verdict', `### Verdict\n\nThe program is ${band}.`)
+    const issues = checkV4RResearchReport('dfva-v4r-dr-philsci', mutated)
+    assert.ok(issues.some((i) => i.includes('band vocabulary')), band)
+  }
+})
+
+test('lowercase "resilient" as an ordinary word does not fail', () => {
+  const mutated = v4rBase.replace('### Verdict', '### Verdict\n\nA structurally resilient credential.')
+  assert.deepEqual(checkV4RResearchReport('dfva-v4r-dr-philsci', mutated), [])
 })

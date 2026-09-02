@@ -47,7 +47,7 @@ The most exposed graduate archetype of ~2021-2022 vintage is the **"generalist b
 
 ### Verdict
 
-The PhD-MDHS is a fundamentally durable, high-value research training pathway sitting one point below RESILIENT — its core strength is that the degree trains graduates to generate original evidence and exercise accountable judgment in domains (clinical, physical, ethical) that AI structurally cannot replace, but it is being held back from a clear RESILIENT rating by two fixable, faculty-level gaps: no structured AI literacy/governance training for a cohort that increasingly needs to supervise rather than be replaced by AI research tools, and no granular graduate outcome tracking to prove the durability claim with evidence. Closing these two gaps would likely lift the program to 29-the v1 composite without touching its already-strong research core.
+The PhD-MDHS is a fundamentally durable, high-value research training pathway sitting one point below the top of the v1 range — its core strength is that the degree trains graduates to generate original evidence and exercise accountable judgment in domains (clinical, physical, ethical) that AI structurally cannot replace, but it is being held back from the top of that range by two fixable, faculty-level gaps: no structured AI literacy/governance training for a cohort that increasingly needs to supervise rather than be replaced by AI research tools, and no granular graduate outcome tracking to prove the durability claim with evidence. Closing these two gaps would likely lift the program into the top of that range without touching its already-strong research core.
 
 ## 3. MARKET EVIDENCE — Basis: reported
 

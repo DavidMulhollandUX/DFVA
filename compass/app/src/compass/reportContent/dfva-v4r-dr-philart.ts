@@ -61,7 +61,7 @@ None of these tools threaten the core thesis-production capability the degree tr
 
 ### Verdict
 
-The Doctor of Philosophy – Arts is judgment-durable at its core — the capacity to construct and defend an original argument from contested evidence is close to AI-proof — but scores MODERATE RISK overall because the degree does nothing structurally to address AI literacy, curriculum currency, or graduate outcome evidence, and because the labour market absorbing its graduates was already thin and non-transparent before AI entered the picture. The risk here is not displacement of the PhD graduate's core capability; it is the absence of institutional scaffolding connecting a genuinely durable skillset to a legible career pathway.
+The Doctor of Philosophy – Arts is judgment-durable at its core — the capacity to construct and defend an original argument from contested evidence is close to AI-proof — but sat in the middle of the v1 range because the degree does nothing structurally to address AI literacy, curriculum currency, or graduate outcome evidence, and because the labour market absorbing its graduates was already thin and non-transparent before AI entered the picture. The risk here is not displacement of the PhD graduate's core capability; it is the absence of institutional scaffolding connecting a genuinely durable skillset to a legible career pathway.
 
 ## 3. MARKET EVIDENCE — Basis: reported
 

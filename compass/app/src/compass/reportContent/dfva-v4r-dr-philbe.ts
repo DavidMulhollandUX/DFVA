@@ -52,7 +52,7 @@ The most exposed analogue graduate of ~2021-2022 is the "research assistant / ea
 
 ### Verdict
 
-The Doctor of Philosophy – Business and Economics is structurally well-positioned against AI disruption — its defining mechanisms (defended original contribution, independent examination, deep discipline-specific specialisation across eight distinct fields) are close to AI-proof by design — but it currently scores MODERATE RISK rather than RESILIENT because of thin, generic-handbook-driven weaknesses in AI governance training (D5), graduate outcome transparency (D10), and curriculum currency evidence (D9); closing these three specific gaps, rather than restructuring the research training model itself, is the fastest path to RESILIENT.
+The Doctor of Philosophy – Business and Economics is structurally well-positioned against AI disruption — its defining mechanisms (defended original contribution, independent examination, deep discipline-specific specialisation across eight distinct fields) are close to AI-proof by design — but the v1 assessment placed it in the middle of the range rather than the top because of thin, generic-handbook-driven weaknesses in AI governance training (D5), graduate outcome transparency (D10), and curriculum currency evidence (D9); closing these three specific gaps, rather than restructuring the research training model itself, is the fastest path to the top of that range.
 
 ## 3. MARKET EVIDENCE — Basis: reported
 

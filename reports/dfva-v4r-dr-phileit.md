@@ -47,7 +47,7 @@ The most exposed graduate archetype of ~2021-2022 is the **PhD candidate whose p
 
 ### Verdict
 
-The Doctor of Philosophy – Engineering and IT is structurally well-positioned against AI disruption at its core (original technical contribution, defended under expert scrutiny, frequently physically grounded) but scores MODERATE RISK overall because the University has not formalised the supporting infrastructure — explicit AI literacy/governance training, structured relational/mentoring capability-building, and transparent graduate outcome tracking — that would convert its strong intrinsic resilience into a fully future-proofed credential; closing these three gaps would move the program decisively into the RESILIENT band without altering its fundamental research training model.
+The Doctor of Philosophy – Engineering and IT is structurally well-positioned against AI disruption at its core (original technical contribution, defended under expert scrutiny, frequently physically grounded) but the v1 assessment placed it in the middle of the range because the University has not formalised the supporting infrastructure — explicit AI literacy/governance training, structured relational/mentoring capability-building, and transparent graduate outcome tracking — that would convert its strong intrinsic resilience into a fully future-proofed credential; closing these three gaps would move the program decisively to the top of that range without altering its fundamental research training model.
 
 ## 3. MARKET EVIDENCE — Basis: reported
 
