@@ -1,6 +1,6 @@
 ---
 name: verify-evidura
-description: Launch, drive and prove a change in the Evidura web app (compass/app) as a user would. Use when asked to run the app, reproduce a bug report, check that a fix works on a page, or take a screenshot of a route. Carries the feature map (features/*.md) that says how to reach every feature and which test ids to drive.
+description: Launch, drive and prove a change in the Evidura web app (compass/app) as a user would. Use first, before reading page source, for any user report about /reports, /assess, /insights or a report page, and when asked to run the app, reproduce a bug, check that a fix works on a page, or take a screenshot of a route. Carries the feature map (features/*.md) that says how to reach every feature and which test ids to drive.
 ---
 
 # Verify Evidura
