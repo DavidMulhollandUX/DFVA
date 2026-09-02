@@ -29,7 +29,7 @@ OpenSaaS template (user/payment/files/analytics):
 
 ## Pages / Routes (client)
 
-- Public: `/` landing, `/assess` (also the post-login redirect), `/reports` (v4-first index, `v4/V4ReportsPage.tsx`), `/reports/:reportSlug` (dispatcher `ReportPage.tsx`: program code → v4 Durability Report, `dfva-*` slug → archived v1 workspace), `/reports/archive` (old v1 index; retired v2/v3/v3.1/v4 `/insights/...` report routes still resolve but nothing links to them — use `reportLinks.programReportPath`), `/insights`, `/insights/portfolio`, `/insights/faculty[/:facultySlug]`, `/pricing`, `/developers`, `/developers/compare`
+- Public: `/` landing, `/assess` (also the post-login redirect), `/reports` (v4-first index, `v4/V4ReportsPage.tsx`), `/reports/:reportSlug` (dispatcher `ReportPage.tsx`: program code → v4 Durability Report, `dfva-*` slug → archived v1 workspace), `/reports/archive` (old v1 index; the v2/v3/v3.1 report routes and `/insights/v1` were deleted 2026-09-02 — link with `reportLinks.programReportPath`), `/insights`, `/insights/portfolio`, `/insights/faculty[/:facultySlug]`, `/pricing`, `/developers`, `/developers/compare`
 - Auth-required: `/account`, `/checkout`, `/file-upload`, `/admin/*`
 - Auth pages: `/login`, `/signup`, password-reset + email-verification routes
 

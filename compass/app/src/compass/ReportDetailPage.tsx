@@ -203,7 +203,7 @@ const reportMeta: Record<
   "dfva-v4-244cw": { score: null, riskBand: null },
   "dfva-v4-recommend-244cw": { score: null, riskBand: null },
   "dfva-v4-mc-cs": { score: null, riskBand: null },
-  // mc-mgmthre has no v3 Panel A record, so /insights/v4/mc-mgmthre cannot render it.
+  // mc-mgmthre has no v3 Panel A record.
   // The markdown report is its only surface until the program is placed.
   "dfva-v4-mc-mgmthre": { score: null, riskBand: null },
   // v4 extension cohort — Panel C v4.2, drafted 2026-08-23. No v1 composite for

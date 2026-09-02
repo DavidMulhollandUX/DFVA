@@ -979,14 +979,9 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                 .{" "}
                 {v3 ? (
                   <>
-                    The earlier v3.1 assessment is kept as an archived report:{" "}
-                    <Link
-                      to={`/insights/v31/${program.code}`}
-                      className="underline"
-                    >
-                      same program on v3.1 (archived)
-                    </Link>
-                    .
+                    The earlier v3.1 assessment is retained in the archive data;
+                    the v3.1 report format was retired, so it has no page of its
+                    own.
                   </>
                 ) : (
                   <>
@@ -1717,14 +1712,6 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                     className="underline"
                   >
                     v1 improvement plan
-                  </Link>
-                )}
-                {v3 && (
-                  <Link
-                    to={`/insights/v31/${program.code}`}
-                    className="underline"
-                  >
-                    v3.1 assessment
                   </Link>
                 )}
               </span>

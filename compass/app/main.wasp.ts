@@ -21,13 +21,6 @@ import ReportsPage from "./src/compass/ReportsPage" with { type: "ref" };
 import ReportPage from "./src/compass/ReportPage" with { type: "ref" };
 import V4ReportsPage from "./src/compass/v4/V4ReportsPage" with { type: "ref" };
 import V4InsightsPage from "./src/compass/v4/V4InsightsPage" with { type: "ref" };
-import InsightsPage from "./src/compass/InsightsPage" with { type: "ref" };
-// MatrixDashboardPage (v2) retired with the v4 insights rebase: /insights now
-// routes to V4InsightsPage. The v2 and v3 report pages remain routed and
-// untouched — only the superseded portfolio derivations went.
-import V2ReportPage from "./src/compass/v2/V2ReportPage" with { type: "ref" };
-import V3ReportPage from "./src/compass/v3/V3ReportPage" with { type: "ref" };
-import V31ReportPage from "./src/compass/v31/V31ReportPage" with { type: "ref" };
 import V4ReportPage from "./src/compass/v4/V4ReportPage" with { type: "ref" };
 import PortfolioHealthPage from "./src/compass/PortfolioHealthPage" with { type: "ref" };
 import FacultyDashboard from "./src/compass/FacultyDashboard" with { type: "ref" };
@@ -35,7 +28,6 @@ import DevPortalPage from "./src/compass/DevPortalPage" with { type: "ref" };
 import FragilityDashboardPage from "./src/compass/FragilityDashboardPage" with { type: "ref" };
 import WhyStructuredDataPage from "./src/compass/WhyStructuredDataPage" with { type: "ref" };
 import TrustPage from "./src/compass/TrustPage" with { type: "ref" };
-import ImpactReportDetail from "./src/compass/ImpactReportDetail" with { type: "ref" };
 import PrivacyPolicyPage from "./src/legal/PrivacyPolicyPage" with { type: "ref" };
 import TermsOfServicePage from "./src/legal/TermsOfServicePage" with { type: "ref" };
 
@@ -277,29 +269,12 @@ export default app({
     // v4 is the main report format: /reports is the v4-first index and
     // /reports/:code the Durability Report. Legacy dfva-* slugs still resolve
     // (archived v1 workspace) via the ReportPage dispatcher; the old v1 index
-    // stays reachable at /reports/archive. Nothing user-facing links to the
-    // retired v1/v2/v3/v3.1 routes any more, but they all keep working.
+    // stays reachable at /reports/archive. The v2, v3 and v3.1 report routes
+    // and the v1 insights hub were retired on 2026-09-02 (review item 12).
     route("ReportsRoute", "/reports", page(V4ReportsPage)),
     route("ReportsArchiveRoute", "/reports/archive", page(ReportsPage)),
     route("ReportDetailRoute", "/reports/:reportSlug", page(ReportPage)),
-    // /insights is the v4 portfolio overview; the v1 hub moves to /insights/v1
     route("InsightsRoute", "/insights", page(V4InsightsPage)),
-    // InsightsPage renders CompetitiveThreatCard and ImpactReportCard, which
-    // carry internal competitive-strategy commentary written in the first
-    // person about the methodology ("validates DFVA's thesis", "DFVA should
-    // establish its independent assessment category"). That is investor-deck
-    // material, and this route showed it to the institutions being assessed.
-    // Nothing links to /insights/v1, so requiring sign-in costs nothing.
-    // See docs/dfva-copy-audit.md.
-    route(
-      "InsightsV1Route",
-      "/insights/v1",
-      page(InsightsPage, { authRequired: true }),
-    ),
-    route("V2ReportRoute", "/insights/program/:code", page(V2ReportPage)),
-    route("V3ReportRoute", "/insights/v3/:code", page(V3ReportPage)),
-    route("V31ReportRoute", "/insights/v31/:code", page(V31ReportPage)),
-    route("V4ReportRoute", "/insights/v4/:code", page(V4ReportPage)),
     route(
       "PortfolioHealthRoute",
       "/insights/portfolio",
@@ -362,11 +337,6 @@ export default app({
       "WhyStructuredDataRoute",
       "/why-structured-data",
       page(WhyStructuredDataPage),
-    ),
-    route(
-      "ImpactReportDetailRoute",
-      "/insights/validation/:slug",
-      page(ImpactReportDetail),
     ),
     action(addFragilityIncident, { entities: ["FragilityIncident", "User"] }),
     query(getFragilityIncidents, { entities: ["FragilityIncident"] }),

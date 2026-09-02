@@ -27,7 +27,7 @@ import {
 import type { ProgramReport } from "./sharedProgramData";
 import { useReportsData } from "./useReportsData";
 import { getFaculty } from "./faculty";
-import { v3ProgramByCode } from "./v3/data/v3Programs";
+import { codeFromSlug, hasV4, programReportPath } from "./reportLinks";
 
 function ScoreGauge({
   score,
@@ -367,12 +367,9 @@ export default function ReportsPage() {
 
                 {/* Current durability report — position, confidence & plan —
                     for programs with a destination-exposure measurement */}
-                {v3ProgramByCode(p.assessmentSlug.replace(/^dfva-/, "")) && (
+                {hasV4(codeFromSlug(p.assessmentSlug)) && (
                   <Link
-                    to={`/insights/v31/${p.assessmentSlug.replace(
-                      /^dfva-/,
-                      "",
-                    )}`}
+                    to={programReportPath(codeFromSlug(p.assessmentSlug))}
                     className="bg-secondary/10 hover:bg-secondary/20 border-secondary/40 text-foreground mb-2 flex items-center justify-center gap-1.5 rounded-lg border py-2.5 text-xs font-semibold transition-colors"
                     data-testid="durability-report-link"
                   >
