@@ -5,6 +5,7 @@
   "description": "DFVA batch pipeline validation and tooling",
   "scripts": {
     "dfva:gen": "npx tsx dfva-generate.ts",
+    "test": "node --import tsx --test *.test.ts",
     "dfva:gen-v4": "npx tsx dfva-v4-schema-check.ts && npx tsx dfva-v4-gen.ts",
     "dfva:gen-content": "npx tsx dfva-content-generate.ts",
     "dfva:gen-assessments": "npx tsx dfva-build-assessments.ts",

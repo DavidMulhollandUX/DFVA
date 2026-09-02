@@ -110,6 +110,18 @@ structure pages and **at least two assessment pages**. Without assessment
 evidence R2 caps every item at level 1, so the extract would score low for a
 reason that is about the capture, not the curriculum.
 
+The report header's `**Course Director:**` value comes from the assembled
+extract, not from a separate capture: `scripts/dfva-v4-director.ts` reads the
+course page's contact block (`Program Director`, `Director of Studies`, `Course
+Coordinators`, `Principal Coordinator`, `Course Convenor`, `Associate Dean (…)`,
+or an unlabelled `Contact` block) and `dfva-v4-report-scaffold.ts` prints the
+result. Six course pages name no person (`080cl`, `080cn`, `mc-indeng` print an
+email address; `300bb`, `j17re` print a role title with no holder;
+`mc-mgmthre`'s course page is truncated). Those reports carry `not listed on the
+handbook course page`; re-capturing returns the same text. Run
+`npx tsx scripts/dfva-v4-director.ts --diff` to list reports that disagree with
+their capture.
+
 ## Pacing
 
 One page every 20–30 seconds, one agent at a time, 30 pages per batch. Access was

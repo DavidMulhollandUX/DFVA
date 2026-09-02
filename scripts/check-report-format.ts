@@ -474,7 +474,10 @@ for (const file of V4_FILES) {
     issues.push('header needs "**Assessment date:** YYYY-MM-DD" ("unrecorded" is not a date)')
   }
   if (!/^\*\*(?:Course|Program) Director:\*\* \S/m.test(content)) {
-    issues.push('header needs a "**Course Director:** …" line (state "not recorded in this cycle\'s handbook capture" when the capture has none)')
+    issues.push('header needs a "**Course Director:** …" line (scripts/dfva-v4-director.ts reads it from the capture; "not listed on the handbook course page" when the page names nobody)')
+  }
+  if (content.includes("not recorded in this cycle's handbook capture")) {
+    issues.push('director line carries the retired fallback text; run `npx tsx scripts/dfva-v4-director.ts --apply`')
   }
 
   // 2. Six numbered sections, in order, each with a Basis: tag

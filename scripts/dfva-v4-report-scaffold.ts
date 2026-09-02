@@ -16,6 +16,7 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { extractDirector, renderDirector } from './dfva-v4-director'
 import {
   ALL_V4_ITEMS,
   GATES_V4,
@@ -96,7 +97,7 @@ interface Capture {
   urls: string[]
   courseUrl: string | null
   pages: number
-  director: string | null
+  director: string
   vintage: string
 }
 
@@ -106,10 +107,8 @@ function readCapture(code: string): Capture {
   const text = existsSync(p) ? readFileSync(p, 'utf8') : ''
   const urls = [...text.matchAll(/^===== SOURCE: (\S+) =====$/gm)].map((m) => m[1])
   const courseUrl = urls.find((u) => /\/courses\//.test(u)) ?? urls[0] ?? null
-  // The course page prints "Director" (or "Coordinator") on its own line, then
-  // a blank line, then the name.
-  const dm = text.match(/^(?:Course )?(?:Director|Coordinator)\s*\n+([A-Z][^\n]{2,60})$/m)
-  const director = dm ? dm[1].trim() : null
+  // Rendered header value: the course page's named person(s), or the absent wording.
+  const director = renderDirector(extractDirector(text, code))
   const vm = courseUrl?.match(/handbook\.unimelb\.edu\.au\/(\d{4})\//)
   return { urls, courseUrl, pages: urls.length, director, vintage: vm ? vm[1] : '2026' }
 }
@@ -237,7 +236,8 @@ function scaffold(code: string): string {
 
 **Instrument:** DFVA ${V4_VERSION} — Panel C ${heading} on the TEQSA adaptive capabilities ${mdCiteByN([1])} and the HESF generic and employment-related learning outcomes ${mdCiteByN([19])}
 **Assessment date:** ${pc.verified?.date ?? 'unrecorded'}
-**Handbook vintage:** ${cap.vintage} · **Source URL(s):** ${sourceLine}${cap.director ? `\n**Course Director:** ${cap.director}` : ''}
+**Handbook vintage:** ${cap.vintage} · **Source URL(s):** ${sourceLine}
+**Course Director:** ${cap.director}
 
 > **Draft-instrument notice.** Panel C ${heading} is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;

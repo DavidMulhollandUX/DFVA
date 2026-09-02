@@ -50,4 +50,5 @@ jobs:
         with:
           node-version: 24
       - run: npm --prefix scripts install
+      - run: npm --prefix scripts test
       - run: npm --prefix scripts run dfva:check
