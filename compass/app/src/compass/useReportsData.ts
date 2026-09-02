@@ -60,8 +60,10 @@ export function useReportsData(): {
     },
   );
 
-  // Init from memory → localStorage (version-checked) → PROGRAMS fallback
-  const [cachedReports, setCachedReports] = useState<ProgramReport[]>(() => {
+  // Init from memory → localStorage (version-checked) → PROGRAMS fallback.
+  // This seed value never needs updating after mount — once jobs load,
+  // mergedReports (below) becomes the reports this hook returns.
+  const [cachedReports] = useState<ProgramReport[]>(() => {
     if (memoryCache) return memoryCache;
     const fromLs = readCache();
     if (fromLs) {
@@ -74,7 +76,7 @@ export function useReportsData(): {
   const mergedReports = useMemo(() => {
     const fromDb: ProgramReport[] = [];
     const dbSlugs = new Set<string>();
-    for (const j of jobs as any[]) {
+    for (const j of jobs) {
       if (j.status !== "complete" || !j.reportJson) continue;
       const r = jobToReport(j);
       if (dbSlugs.has(r.assessmentSlug)) continue;
@@ -88,12 +90,13 @@ export function useReportsData(): {
     ];
   }, [jobs]);
 
-  // Sync to memory + localStorage whenever merged data changes
+  // Persist to memory + localStorage whenever merged data changes. Once jobs
+  // have loaded, mergedReports (not the cached seed value) is the reports
+  // this hook returns — see below — so no React state needs syncing here.
   useEffect(() => {
     if (jobs.length > 0) {
       memoryCache = mergedReports;
       writeCache(mergedReports);
-      setCachedReports(mergedReports);
     }
   }, [mergedReports, jobs]);
 
@@ -101,7 +104,7 @@ export function useReportsData(): {
   const isLoading = (isUserLoading || (!!user && isJobsLoading)) && !hasData;
 
   return {
-    reports: hasData ? cachedReports : mergedReports,
+    reports: jobs.length > 0 ? mergedReports : cachedReports,
     isLoading,
   };
 }

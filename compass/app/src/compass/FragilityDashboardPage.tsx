@@ -308,7 +308,7 @@ export default function FragilityDashboardPage() {
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
-                {incidents.map((incident: any) => (
+                {incidents.map((incident) => (
                   <div
                     key={incident.id}
                     className="border-muted rounded-lg border p-4"

@@ -201,11 +201,11 @@ export async function seedCourseLeafAnalyticsResponse(prisma: PrismaClient) {
         keyThreats: [
           "Coursedog Assessment Cloud — third product pillar directly competing in assessment",
           "OPPORTUNITY: CourseLeaf analytics expansion — validates market, exposes API poverty",
-        ] as any,
+        ],
         recommendedActions: [
           "Ship counter-positioning against Coursedog Assessment Cloud",
           "Position DFVA as complementary analytics layer for CourseLeaf campuses",
-        ] as any,
+        ],
       },
     });
     console.log(
@@ -225,7 +225,7 @@ if (require.main === module) {
       console.log("[seed] CourseLeaf analytics response seed complete.");
       return prisma.$disconnect();
     })
-    .catch((e: any) => {
+    .catch((e: unknown) => {
       console.error("[seed] Error seeding CourseLeaf analytics response:", e);
       return prisma.$disconnect().then(() => process.exit(1));
     });

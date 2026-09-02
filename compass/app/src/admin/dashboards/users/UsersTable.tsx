@@ -1,5 +1,5 @@
 import { X } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useAuth } from "wasp/client/auth";
 import {
   getPaginatedUsers,
@@ -64,12 +64,26 @@ const UsersTable = () => {
     },
   });
 
-  useEffect(
-    function backToPageOne() {
-      setCurrentPage(1);
-    },
-    [debouncedEmailFilter, subscriptionStatusFilter, isAdminFilter],
-  );
+  // Jump back to page one whenever a filter changes. Adjusted during render
+  // (rather than in an effect) so the stale page never flashes — see
+  // https://react.dev/learn/you-might-not-need-an-effect.
+  const [prevFilters, setPrevFilters] = useState({
+    debouncedEmailFilter,
+    subscriptionStatusFilter,
+    isAdminFilter,
+  });
+  if (
+    prevFilters.debouncedEmailFilter !== debouncedEmailFilter ||
+    prevFilters.subscriptionStatusFilter !== subscriptionStatusFilter ||
+    prevFilters.isAdminFilter !== isAdminFilter
+  ) {
+    setPrevFilters({
+      debouncedEmailFilter,
+      subscriptionStatusFilter,
+      isAdminFilter,
+    });
+    setCurrentPage(1);
+  }
 
   const handleStatusToggle = (status: SubscriptionStatus | null) => {
     setSubscriptionStatusFilter((prev) => {

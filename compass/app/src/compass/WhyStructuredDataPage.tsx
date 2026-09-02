@@ -143,7 +143,7 @@ export default function WhyStructuredDataPage() {
 
         {incidents && incidents.length > 0 && (
           <div className="space-y-4">
-            {incidents.map((incident: any) => (
+            {incidents.map((incident) => (
               <Card key={incident.id}>
                 <CardContent className="pt-6">
                   <div className="mb-3 flex flex-wrap items-center gap-2">

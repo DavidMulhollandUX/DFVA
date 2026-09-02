@@ -1,5 +1,6 @@
 import type { ScanMarketDrift } from "wasp/server/jobs";
 import { logger } from "../server/logger";
+import type { SyllabusData, IraSkill } from "./mockSyllabusData";
 
 /**
  * Explicit course-code-prefix → industry-cluster map. Substring matching
@@ -30,7 +31,7 @@ function clusterForCourseCode(courseCode: string | null): string {
  * Iterates through all completed assessment jobs, simulates industry cluster score drift,
  * and logs warning flags if any program's future-durability score drops.
  */
-export const scanMarketDrift: ScanMarketDrift<any, any> = async (
+export const scanMarketDrift: ScanMarketDrift<never, void> = async (
   _args,
   context,
 ) => {
@@ -75,7 +76,7 @@ export const scanMarketDrift: ScanMarketDrift<any, any> = async (
     for (const job of jobs) {
       if (!job.syllabusJson || !job.score) continue;
 
-      const syllabus = job.syllabusJson as any;
+      const syllabus = job.syllabusJson as unknown as SyllabusData;
       const iraMatrix = syllabus.iraMatrix || [];
 
       // Determine primary cluster from course code prefix
@@ -89,7 +90,7 @@ export const scanMarketDrift: ScanMarketDrift<any, any> = async (
       // we apply it to calculate a drifted score.
       // Gather unique dimension IDs that are assessed
       const assessedDims = new Set<string>();
-      iraMatrix.forEach((skill: any) => {
+      iraMatrix.forEach((skill: IraSkill) => {
         if (skill.level === "A") {
           assessedDims.add(skill.dimensionId);
         }

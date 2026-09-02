@@ -28,7 +28,7 @@ export class MockAssessmentService implements AssessmentService {
         riskBand: match.riskBand,
         thresholds: match.thresholds,
         dimensions: match.dimensions,
-        syllabusJson: syllabusJson as any,
+        syllabusJson,
         reportJson: {
           assessmentMarkdown: assessmentContent?.markdown ?? "",
           assessmentSlug: match.assessmentSlug,
@@ -66,7 +66,7 @@ export class MockAssessmentService implements AssessmentService {
         { label: "Outcome Evidence", score: 1, max: 3 },
         { label: "Irreplaceability (bonus)", score: 1, max: 3 },
       ],
-      syllabusJson: syllabusJson as any,
+      syllabusJson,
       reportJson: {
         assessmentMarkdown: `## DFVA Assessment: Pending\n\n**Source URL:** ${handbookUrl}\n\n_Automated assessment not yet available for this program. A detailed analysis will be generated soon._`,
         assessmentSlug: `dfva-${courseCode.toLowerCase()}`,

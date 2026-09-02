@@ -1,5 +1,5 @@
 // compass/app/src/client/components/CurriculumMap.tsx
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useMemo, useEffect, useCallback } from "react";
 import { brand } from "../../branding/brandConfig";
 import ReactFlow, {
   MiniMap,
@@ -8,6 +8,8 @@ import ReactFlow, {
   useNodesState,
   useEdgesState,
   MarkerType,
+  type Node,
+  type Edge,
 } from "reactflow";
 import "reactflow/dist/style.css";
 import dagre from "dagre";
@@ -74,152 +76,161 @@ export function CurriculumMap({
     syllabusData.csvFlow || syllabusData.theoreticalFlow,
   );
 
-  // Synchronize initial state
-  useEffect(() => {
+  // Re-seed the sandbox state whenever a new syllabusData object arrives
+  // (e.g. switching programs). Adjusted during render rather than in an
+  // effect so the first render with new data is already consistent —
+  // see https://react.dev/learn/you-might-not-need-an-effect.
+  const [prevSyllabusData, setPrevSyllabusData] = useState(syllabusData);
+  if (syllabusData !== prevSyllabusData) {
+    setPrevSyllabusData(syllabusData);
     setSimulatedSkills(syllabusData.iraMatrix);
     setSimulatedFlow(syllabusData.csvFlow || syllabusData.theoreticalFlow);
-  }, [syllabusData]);
+  }
 
   // Dagre layout configuration
-  const getLayoutedElements = (
-    courses: CourseNodeData[],
-    skills: IraSkill[],
-    flow: Record<string, number>,
-  ) => {
-    const dagreGraph = new dagre.graphlib.Graph();
-    dagreGraph.setDefaultEdgeLabel(() => ({}));
-    dagreGraph.setGraph({ rankdir: "TB", nodesep: 70, ranksep: 80 });
+  const getLayoutedElements = useCallback(
+    (
+      courses: CourseNodeData[],
+      skills: IraSkill[],
+      flow: Record<string, number>,
+    ) => {
+      const dagreGraph = new dagre.graphlib.Graph();
+      dagreGraph.setDefaultEdgeLabel(() => ({}));
+      dagreGraph.setGraph({ rankdir: "TB", nodesep: 70, ranksep: 80 });
 
-    courses.forEach((c) => {
-      dagreGraph.setNode(c.code, { width: 180, height: 90 });
-    });
-
-    courses.forEach((c) => {
-      c.prereqs.forEach((prereq) => {
-        dagreGraph.setEdge(prereq, c.code);
+      courses.forEach((c) => {
+        dagreGraph.setNode(c.code, { width: 180, height: 90 });
       });
-    });
 
-    dagre.layout(dagreGraph);
-
-    // Build React Flow Nodes
-    const flowNodes = courses.map((c) => {
-      const nodeWithPosition = dagreGraph.node(c.code);
-      const isCore = c.core;
-
-      // Determine node styling based on viewMode
-      let bgColor = "bg-card";
-      let borderStyle = isCore ? "border-primary border-2" : "border-border";
-      let subText = `Level ${c.level}`;
-      let badge: React.ReactNode = null;
-
-      if (viewMode === "flow") {
-        const traffic = flow[c.code] || 0;
-        // Interpolate colors based on traffic
-        if (traffic >= 90) {
-          bgColor = "bg-red-500/10 text-red-900 dark:text-red-200";
-          borderStyle = "border-red-500/50";
-          subText = `${traffic}% Traffic (Core Bottleneck)`;
-        } else if (traffic >= 50) {
-          bgColor = "bg-amber-500/10 text-amber-900 dark:text-amber-200";
-          borderStyle = "border-amber-500/50";
-          subText = `${traffic}% Traffic`;
-        } else {
-          bgColor = "bg-blue-500/5 text-blue-900 dark:text-blue-200";
-          borderStyle = "border-blue-500/30";
-          subText = `${traffic}% Traffic`;
-        }
-      } else if (viewMode === "ira") {
-        const skill = skills.find(
-          (s) => s.courseCode === c.code && s.dimensionId === selectedDimension,
-        );
-        if (skill) {
-          bgColor = "bg-primary/10 text-foreground";
-          borderStyle = "border-primary";
-          subText =
-            skill.rationale.length > 30
-              ? skill.rationale.slice(0, 27) + "..."
-              : skill.rationale;
-
-          const levelLabels = { I: "Intro", R: "Reinforce", A: "Assess" };
-          const levelColors = {
-            I: "bg-blue-500",
-            R: "bg-purple-500",
-            A: "bg-red-500",
-          };
-
-          badge = (
-            <span
-              className={`absolute -top-2 -right-2 ${
-                levelColors[skill.level]
-              } rounded-full px-1.5 py-0.5 text-[10px] font-bold text-white shadow-md`}
-            >
-              {levelLabels[skill.level]}
-            </span>
-          );
-        } else {
-          // Fade out non-relevant courses in IRA mode
-          bgColor = "bg-card/40 opacity-40";
-          borderStyle = "border-border/30";
-        }
-      }
-
-      return {
-        id: c.code,
-        position: {
-          x: nodeWithPosition.x - 90,
-          y: nodeWithPosition.y - 45,
-        },
-        data: {
-          label: (
-            <div className="relative flex h-full flex-col justify-between p-3 text-left text-xs">
-              {badge}
-              <div className="truncate font-bold" title={c.code}>
-                {c.code}: {c.title}
-              </div>
-              <div className="text-muted-foreground mt-2 flex items-center justify-between text-[10px]">
-                <span>{subText}</span>
-                {isCore && (
-                  <span className="bg-primary/20 text-primary rounded-sm px-1 text-[8px] font-bold">
-                    CORE
-                  </span>
-                )}
-              </div>
-            </div>
-          ),
-        },
-        className: `rounded-xl border shadow-sm ${bgColor} ${borderStyle} transition-all duration-300 w-[180px] h-[90px] cursor-pointer hover:shadow-md`,
-      };
-    });
-
-    // Build React Flow Edges
-    const flowEdges: any[] = [];
-    courses.forEach((c) => {
-      c.prereqs.forEach((prereq) => {
-        flowEdges.push({
-          id: `e-${prereq}-${c.code}`,
-          source: prereq,
-          target: c.code,
-          animated: viewMode === "flow",
-          style: {
-            stroke: viewMode === "flow" ? "#3b82f6" : "#94a3b8",
-            strokeWidth: 1.5,
-          },
-          markerEnd: {
-            type: MarkerType.ArrowClosed,
-            color: viewMode === "flow" ? "#3b82f6" : "#94a3b8",
-          },
+      courses.forEach((c) => {
+        c.prereqs.forEach((prereq) => {
+          dagreGraph.setEdge(prereq, c.code);
         });
       });
-    });
 
-    return { nodes: flowNodes, edges: flowEdges };
-  };
+      dagre.layout(dagreGraph);
+
+      // Build React Flow Nodes
+      const flowNodes = courses.map((c) => {
+        const nodeWithPosition = dagreGraph.node(c.code);
+        const isCore = c.core;
+
+        // Determine node styling based on viewMode
+        let bgColor = "bg-card";
+        let borderStyle = isCore ? "border-primary border-2" : "border-border";
+        let subText = `Level ${c.level}`;
+        let badge: React.ReactNode = null;
+
+        if (viewMode === "flow") {
+          const traffic = flow[c.code] || 0;
+          // Interpolate colors based on traffic
+          if (traffic >= 90) {
+            bgColor = "bg-red-500/10 text-red-900 dark:text-red-200";
+            borderStyle = "border-red-500/50";
+            subText = `${traffic}% Traffic (Core Bottleneck)`;
+          } else if (traffic >= 50) {
+            bgColor = "bg-amber-500/10 text-amber-900 dark:text-amber-200";
+            borderStyle = "border-amber-500/50";
+            subText = `${traffic}% Traffic`;
+          } else {
+            bgColor = "bg-blue-500/5 text-blue-900 dark:text-blue-200";
+            borderStyle = "border-blue-500/30";
+            subText = `${traffic}% Traffic`;
+          }
+        } else if (viewMode === "ira") {
+          const skill = skills.find(
+            (s) =>
+              s.courseCode === c.code && s.dimensionId === selectedDimension,
+          );
+          if (skill) {
+            bgColor = "bg-primary/10 text-foreground";
+            borderStyle = "border-primary";
+            subText =
+              skill.rationale.length > 30
+                ? skill.rationale.slice(0, 27) + "..."
+                : skill.rationale;
+
+            const levelLabels = { I: "Intro", R: "Reinforce", A: "Assess" };
+            const levelColors = {
+              I: "bg-blue-500",
+              R: "bg-purple-500",
+              A: "bg-red-500",
+            };
+
+            badge = (
+              <span
+                className={`absolute -top-2 -right-2 ${
+                  levelColors[skill.level]
+                } rounded-full px-1.5 py-0.5 text-[10px] font-bold text-white shadow-md`}
+              >
+                {levelLabels[skill.level]}
+              </span>
+            );
+          } else {
+            // Fade out non-relevant courses in IRA mode
+            bgColor = "bg-card/40 opacity-40";
+            borderStyle = "border-border/30";
+          }
+        }
+
+        return {
+          id: c.code,
+          position: {
+            x: nodeWithPosition.x - 90,
+            y: nodeWithPosition.y - 45,
+          },
+          data: {
+            label: (
+              <div className="relative flex h-full flex-col justify-between p-3 text-left text-xs">
+                {badge}
+                <div className="truncate font-bold" title={c.code}>
+                  {c.code}: {c.title}
+                </div>
+                <div className="text-muted-foreground mt-2 flex items-center justify-between text-[10px]">
+                  <span>{subText}</span>
+                  {isCore && (
+                    <span className="bg-primary/20 text-primary rounded-sm px-1 text-[8px] font-bold">
+                      CORE
+                    </span>
+                  )}
+                </div>
+              </div>
+            ),
+          },
+          className: `rounded-xl border shadow-sm ${bgColor} ${borderStyle} transition-all duration-300 w-[180px] h-[90px] cursor-pointer hover:shadow-md`,
+        };
+      });
+
+      // Build React Flow Edges
+      const flowEdges: Edge[] = [];
+      courses.forEach((c) => {
+        c.prereqs.forEach((prereq) => {
+          flowEdges.push({
+            id: `e-${prereq}-${c.code}`,
+            source: prereq,
+            target: c.code,
+            animated: viewMode === "flow",
+            style: {
+              stroke: viewMode === "flow" ? "#3b82f6" : "#94a3b8",
+              strokeWidth: 1.5,
+            },
+            markerEnd: {
+              type: MarkerType.ArrowClosed,
+              color: viewMode === "flow" ? "#3b82f6" : "#94a3b8",
+            },
+          });
+        });
+      });
+
+      return { nodes: flowNodes, edges: flowEdges };
+    },
+    [viewMode, selectedDimension],
+  );
 
   const { nodes, edges } = useMemo(
     () =>
       getLayoutedElements(syllabusData.courses, simulatedSkills, simulatedFlow),
-    [syllabusData, viewMode, selectedDimension, simulatedSkills, simulatedFlow],
+    [getLayoutedElements, syllabusData, simulatedSkills, simulatedFlow],
   );
 
   const [rfNodes, setNodes, onNodesChange] = useNodesState(nodes);
@@ -228,10 +239,10 @@ export function CurriculumMap({
   useEffect(() => {
     setNodes(nodes);
     setEdges(edges);
-  }, [nodes, edges]);
+  }, [nodes, edges, setNodes, setEdges]);
 
   // Handle node selection
-  const onNodeClick = (_event: React.MouseEvent, node: any) => {
+  const onNodeClick = (_event: React.MouseEvent, node: Node) => {
     const course = syllabusData.courses.find((c) => c.code === node.id);
     if (course) setSelectedNode(course);
   };
@@ -461,11 +472,11 @@ export function CurriculumMap({
                           </span>
 
                           <div className="flex gap-1">
-                            {["I", "R", "A"].map((lvl) => (
+                            {(["I", "R", "A"] as const).map((lvl) => (
                               <button
                                 key={lvl}
                                 onClick={() =>
-                                  handleToggleSimulation(dim.id, lvl as any)
+                                  handleToggleSimulation(dim.id, lvl)
                                 }
                                 className={`h-6 w-6 rounded text-[10px] font-bold transition-all ${
                                   currentVal?.level === lvl

@@ -2,7 +2,7 @@ import type { CookieConsentConfig } from "vanilla-cookieconsent";
 
 declare global {
   interface Window {
-    dataLayer: any;
+    dataLayer: unknown[];
   }
 }
 
@@ -68,7 +68,7 @@ const getConfig = () => {
                 function gtag(..._args: unknown[]) {
                   // gtag.js needs the Arguments object itself, not an array.
                   // eslint-disable-next-line prefer-rest-params
-                  (window.dataLayer as Array<any>).push(arguments);
+                  window.dataLayer.push(arguments);
                 }
                 gtag("js", new Date());
                 gtag("config", GA_ANALYTICS_ID);

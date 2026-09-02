@@ -68,8 +68,9 @@ async function fetchPage(url: string): Promise<HandbookPage> {
   if (!html || isCloudflareBlock(html)) {
     try {
       html = await fetchViaPlaywright(url);
-    } catch (e: any) {
-      throw new Error(`Handbook fetch failed for ${url}: ${e.message}`);
+    } catch (e: unknown) {
+      const message = e instanceof Error ? e.message : String(e);
+      throw new Error(`Handbook fetch failed for ${url}: ${message}`);
     }
   }
 

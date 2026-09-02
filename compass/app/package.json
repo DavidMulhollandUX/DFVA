@@ -76,8 +76,8 @@
   "scripts": {
     "format": "prettier --write src/",
     "format:check": "prettier --check src/",
-    "lint": "eslint src --max-warnings 71",
+    "lint": "eslint src --max-warnings 0",
     "typecheck": "tsc -p tsconfig.src.json --noEmit",
-    "check": "prettier --check src/ && eslint src --max-warnings 71 && tsc -p tsconfig.src.json --noEmit && vitest run --config vitest.ci.config.mts"
+    "check": "prettier --check src/ && eslint src --max-warnings 0 && tsc -p tsconfig.src.json --noEmit && vitest run --config vitest.ci.config.mts"
   }
 }

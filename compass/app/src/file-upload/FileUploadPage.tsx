@@ -42,6 +42,7 @@ export default function FileUploadPage() {
     // which happens before the file is actually fully uploaded. Instead, we manually (re)fetch on mount and after the upload is complete.
     enabled: false,
   });
+  const { refetch: refetchAllUserFiles } = allUserFiles;
   const { isLoading: isDownloadUrlLoading, refetch: refetchDownloadUrl } =
     useQuery(
       getDownloadFileSignedURL,
@@ -50,8 +51,8 @@ export default function FileUploadPage() {
     );
 
   useEffect(() => {
-    allUserFiles.refetch();
-  }, []);
+    refetchAllUserFiles();
+  }, [refetchAllUserFiles]);
 
   useEffect(() => {
     if (fileKeyForS3.length > 0) {
@@ -75,7 +76,7 @@ export default function FileUploadPage() {
           setFileKeyForS3("");
         });
     }
-  }, [fileKeyForS3]);
+  }, [fileKeyForS3, refetchDownloadUrl]);
 
   const handleUpload = async (e: FormEvent<HTMLFormElement>) => {
     try {

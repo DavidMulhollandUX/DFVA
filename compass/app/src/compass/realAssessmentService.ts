@@ -21,7 +21,7 @@ export class RealAssessmentService implements AssessmentService {
         riskBand: match.riskBand,
         thresholds: match.thresholds,
         dimensions: match.dimensions,
-        syllabusJson: syllabusJson as any,
+        syllabusJson,
         reportJson: {
           assessmentSlug: match.assessmentSlug,
           marketSlug: match.marketSlug,
@@ -37,10 +37,14 @@ export class RealAssessmentService implements AssessmentService {
     try {
       const scorer = new StubLlmScorer();
       return await runAssessmentPipeline(handbookUrl, scorer);
-    } catch (pipelineError: any) {
+    } catch (pipelineError: unknown) {
       // Pipeline not available (e.g., LLM scorer not configured).
       // Return a placeholder assessment.
-      console.warn("[DFVA] LLM assessment skipped:", pipelineError.message);
+      const message =
+        pipelineError instanceof Error
+          ? pipelineError.message
+          : String(pipelineError);
+      console.warn("[DFVA] LLM assessment skipped:", message);
 
       const courseCode = extractCourseCode(normalized);
       return {

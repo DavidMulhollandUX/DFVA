@@ -16,13 +16,15 @@ export default function Reveal({
   as?: React.ElementType;
 }) {
   const ref = useRef<HTMLElement>(null);
-  const [shown, setShown] = useState(false);
+  // Reduced-motion visitors start already "shown" — computed synchronously
+  // during the initial render instead of an effect, since it never changes
+  // after mount.
+  const [shown, setShown] = useState(
+    () => window.matchMedia?.("(prefers-reduced-motion: reduce)").matches,
+  );
 
   useEffect(() => {
-    if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
-      setShown(true);
-      return;
-    }
+    if (shown) return;
     const el = ref.current;
     if (!el) return;
     const io = new IntersectionObserver(
@@ -36,7 +38,7 @@ export default function Reveal({
     );
     io.observe(el);
     return () => io.disconnect();
-  }, []);
+  }, [shown]);
 
   return (
     <Tag
