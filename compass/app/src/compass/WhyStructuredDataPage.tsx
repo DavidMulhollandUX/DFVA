@@ -1,6 +1,7 @@
 // compass/app/src/compass/WhyStructuredDataPage.tsx
 // Public evidence page — feat-012
 import { getFragilityIncidents } from "wasp/client/operations";
+import { brand } from "../branding/brandConfig";
 import { useQuery } from "wasp/client/operations";
 import { Link } from "react-router";
 import {
@@ -65,13 +66,13 @@ export default function WhyStructuredDataPage() {
             <p className="text-muted-foreground mx-auto mb-4 max-w-2xl text-lg">
               Curriculum platforms store degree requirements as unstructured
               HTML blocks. When the HTML changes — and it always does — the data
-              becomes inaccessible. DFVA takes a different approach.
+              becomes inaccessible. {brand.name} takes a different approach.
             </p>
           )}
           <p className="text-muted-foreground mx-auto mb-8 max-w-2xl">
-            DFVA uses a structured, API-first data model. No scraping. No HTML
-            parsing. Just clean, queryable, machine-readable degree data that
-            stays accessible no matter what changes upstream.
+            {brand.name} uses a structured, API-first data model. No scraping.
+            No HTML parsing. Just clean, queryable, machine-readable degree data
+            that stays accessible no matter what changes upstream.
           </p>
           <Link
             to="/assess"
@@ -198,7 +199,7 @@ export default function WhyStructuredDataPage() {
                   <th className="py-3 text-left font-semibold">Capability</th>
                   <th className="bg-primary/5 py-3 text-center font-semibold text-green-600">
                     <Shield className="mx-auto mb-1 h-5 w-5" />
-                    DFVA (Structured)
+                    {brand.name} (Structured)
                   </th>
                   <th className="py-3 text-center font-semibold text-red-500">
                     <FileCode2 className="mx-auto mb-1 h-5 w-5" />
@@ -257,7 +258,7 @@ export default function WhyStructuredDataPage() {
           Ready to assess your programs?
         </h2>
         <p className="text-muted-foreground mx-auto mb-8 max-w-xl">
-          See how DFVA's structured assessment model evaluates degree
+          See how {brand.name}'s structured assessment model evaluates degree
           future-viability against AI-driven labour market change — no HTML
           scraping required.
         </p>

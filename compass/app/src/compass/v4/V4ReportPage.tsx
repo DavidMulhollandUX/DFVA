@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router";
+import { brand } from "../../branding/brandConfig";
 import { Card, CardContent, CardTitle } from "../../client/components/ui/card";
 import { InsightsGate } from "../InsightsGate";
 import { hasReportContent } from "../reportContent/index";
@@ -663,7 +664,7 @@ function V4ResearchReport({
               <span>
                 Research degrees are examined on an original contribution rather
                 than a taught curriculum, and no graduate destination data is
-                published for them, so a Durability Rating does not apply to
+                published for them, so a {brand.signalName} does not apply to
                 this program. Part A sets out both reasons in full. The
                 assessment that follows is carried from an earlier instrument
                 and is narrative only — it produces no score, and none should be
@@ -838,7 +839,7 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
               >
                 Research degrees are examined on an original contribution rather
                 than a taught curriculum, and no graduate destination data is
-                published for them, so a Durability Rating does not apply. Its
+                published for them, so a {brand.signalName} does not apply. Its
                 earlier assessment and market intelligence stand as its report.
               </p>
             ) : (
@@ -1184,9 +1185,8 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                       No destination basis could be resolved for this program —
                       no alumni record, no program-family or related record, and
                       no field-of-education list. What is on this page is the
-                      Panel C half of a DFVA assessment — the curriculum half —
-                      and the position axis stays empty until a basis is
-                      recorded.{" "}
+                      curriculum half of a durability assessment — and the
+                      position axis stays empty until a basis is recorded.{" "}
                     </>
                   )}
                   {position ? (

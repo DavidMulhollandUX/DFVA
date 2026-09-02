@@ -107,7 +107,7 @@ export default app({
     "<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Source+Code+Pro:wght@400;500;600&display=swap' />",
 
     "<meta name='description' content='Degree Future-Viability Assessor — evaluate university program resilience against AI-driven labour market change.' />",
-    "<meta name='author' content='University of Melbourne SXD' />",
+    "<meta name='author' content='Evidura' />",
     "<meta name='keywords' content='degree viability, program assessment, curriculum design, AI readiness, university, future of work' />",
 
     "<meta property='og:type' content='website' />",
@@ -119,7 +119,7 @@ export default app({
     "<meta property='og:image' content='https://dev.evidura.ai/og-evidura.png' />",
     "<meta property='og:image:width' content='1200' />",
     "<meta property='og:image:height' content='630' />",
-    "<meta property='og:image:alt' content='Evidura — the independent durability rating for university degrees' />",
+    "<meta property='og:image:alt' content='Evidura — the independent durability assessment for university degrees' />",
     "<meta name='twitter:image' content='https://dev.evidura.ai/og-evidura.png' />",
     "<meta name='twitter:image:width' content='1200' />",
     "<meta name='twitter:image:height' content='630' />",
@@ -132,8 +132,8 @@ export default app({
     methods: {
       email: {
         fromField: {
-          name: "COMPASS",
-          email: "compass@unimelb.edu.au",
+          name: "Evidura",
+          email: "noreply@evidura.ai",
         },
         emailVerification: {
           clientRoute: "EmailVerificationRoute",
@@ -172,8 +172,8 @@ export default app({
     //   flip this to SMTP for production builds.
     provider: "Dummy",
     defaultFrom: {
-      name: "COMPASS",
-      email: "compass@unimelb.edu.au",
+      name: "Evidura",
+      email: "noreply@evidura.ai",
     },
   },
 

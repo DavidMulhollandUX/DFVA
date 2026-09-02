@@ -18,12 +18,11 @@ export default function PrivacyPolicyPage() {
 
         <div className="text-foreground mt-10 space-y-8 text-base leading-7">
           <p>
-            {brand.name} is a University of Melbourne research project that
-            assesses the future viability of university degree programs. This
-            policy explains what personal information we collect through this
-            website, why we collect it, and how we handle it. We aim to comply
-            with the Australian Privacy Principles under the Privacy Act 1988
-            (Cth).
+            {brand.name} is an independent assessment service that assesses the
+            future viability of university degree programs. This policy explains
+            what personal information we collect through this website, why we
+            collect it, and how we handle it. We aim to comply with the
+            Australian Privacy Principles under the Privacy Act 1988 (Cth).
           </p>
 
           <section>

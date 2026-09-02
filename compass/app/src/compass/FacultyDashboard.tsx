@@ -526,9 +526,8 @@ function OutcomeOnlyDetail({
         </span>
       </div>
       <p className="text-muted-foreground">
-        No DFVA-assessed programmes in this faculty — the graduate-outcome
-        evidence below is the DFVA-relevant data the University currently holds
-        for it.
+        No assessed programs in this faculty — the graduate-outcome evidence
+        that follows is the data the University currently holds for it.
       </p>
       <GraduateOutcomes outcome={outcome} />
     </div>
@@ -605,8 +604,8 @@ export default function FacultyDashboard() {
           Faculty comparison
         </h1>
         <p className="text-muted-foreground mt-2">
-          DFVA v4 performance across all faculties. Select a faculty to drill
-          into its programs.
+          Durability assessment results across all faculties. Select a faculty
+          to drill into its programs.
         </p>
       </div>
 
@@ -757,7 +756,7 @@ export default function FacultyDashboard() {
       {outcomeOnlyNames.length > 0 && (
         <div className="mt-6">
           <p className="text-muted-foreground mb-2 text-xs">
-            Graduate-outcome data only (no DFVA-assessed programmes):
+            Graduate-outcome data only (no assessed programs):
           </p>
           <div className="flex flex-wrap gap-2">
             {outcomeOnlyNames.map((n) => (

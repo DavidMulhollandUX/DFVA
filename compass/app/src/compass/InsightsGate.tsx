@@ -1,3 +1,5 @@
+import { brand } from "../branding/brandConfig";
+
 // compass/app/src/compass/InsightsGate.tsx
 
 // BACKLOG: Implement Wasp role-based permissions for Insights access.
@@ -37,8 +39,7 @@ export function InsightsGate({ children }: { children: React.ReactNode }) {
           Request Access
         </button>
         <p className="text-muted-foreground mt-4 text-xs">
-          Contact the Service Experience & Design team for licensing
-          information.
+          Contact {brand.name} for licensing information.
         </p>
       </div>
     </div>

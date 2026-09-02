@@ -1,5 +1,6 @@
 // compass/app/src/client/components/CurriculumMap.tsx
 import React, { useState, useMemo, useEffect } from "react";
+import { brand } from "../../branding/brandConfig";
 import ReactFlow, {
   MiniMap,
   Controls,
@@ -434,9 +435,9 @@ export function CurriculumMap({
                   </h4>
                   <p className="text-muted-foreground mb-3 text-[10px]">
                     Assign a new Assess-level mapping to a dimension — this adds
-                    +1 to the simulated DFVA score (capped at 36). Sandbox only;
-                    resets on page reload. See the Redesign Workspace tab for
-                    persistent interventions.
+                    +1 to the simulated {brand.name} score (capped at 36).
+                    Sandbox only; resets on page reload. See the Redesign
+                    Workspace tab for persistent interventions.
                   </p>
 
                   <div className="max-h-[220px] space-y-3 overflow-y-auto pr-1">

@@ -1,4 +1,5 @@
 import { ExternalLink } from "lucide-react";
+import { brand } from "../branding/brandConfig";
 import {
   type ValidationSource,
   getValidationSources,
@@ -59,9 +60,10 @@ export function WhyThisMatters({
         {title}
       </h2>
       <p className="text-muted-foreground mb-4 text-sm">
-        DFVA's methodology is grounded in independent, third-party research.
-        These sources validate the premise that AI-readiness and workforce
-        durability must be core concerns for higher education programs.
+        {brand.name}'s methodology is grounded in independent, third-party
+        research. These sources validate the premise that AI-readiness and
+        workforce durability must be core concerns for higher education
+        programs.
       </p>
       <div className="space-y-3">
         {sources.map((s) => (

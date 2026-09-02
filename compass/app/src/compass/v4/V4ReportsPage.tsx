@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { brand } from "../../branding/brandConfig";
 import { Link } from "react-router";
 import { ArrowRight, Search, X } from "lucide-react";
 import { Card, CardContent } from "../../client/components/ui/card";
@@ -99,7 +100,7 @@ function ReportCard({ entry }: { entry: ReportIndexEntry }) {
           <p className="text-muted-foreground text-sm">
             Research degrees are examined on an original contribution rather
             than a taught curriculum, and no graduate destination data is
-            published for them, so a Durability Rating does not apply.{" "}
+            published for them, so a {brand.signalName} does not apply.{" "}
             {research
               ? "The report explains why and carries the earlier assessment in full."
               : "Its earlier assessment and market intelligence stand as its report."}

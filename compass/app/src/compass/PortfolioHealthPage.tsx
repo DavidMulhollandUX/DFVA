@@ -1,5 +1,6 @@
 // compass/app/src/compass/PortfolioHealthPage.tsx
 import { Link } from "react-router";
+import { brand } from "../branding/brandConfig";
 import { V4_ADAPTIVENESS_MAX } from "./v4/data/v4Rubric";
 import { programReportPath } from "./reportLinks";
 import { InsightsGate } from "./InsightsGate";
@@ -77,7 +78,8 @@ export default function PortfolioHealthPage() {
             </span>
           </div>
           <p className="text-muted-foreground">
-            University-wide DFVA v4 portfolio analysis for senior leadership.
+            University-wide {brand.signalName} portfolio analysis for senior
+            leadership.
           </p>
         </div>
 
@@ -91,7 +93,7 @@ export default function PortfolioHealthPage() {
                 </div>
                 <div className="text-4xl font-bold">{stats.count}</div>
                 <div className="text-muted-foreground mt-1 text-xs">
-                  on the current Panel C v4.2 instrument
+                  on the current {brand.instrumentLabel} instrument
                 </div>
               </div>
               <div className="text-right">

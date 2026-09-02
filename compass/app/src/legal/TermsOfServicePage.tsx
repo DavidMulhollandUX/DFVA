@@ -18,10 +18,10 @@ export default function TermsOfServicePage() {
 
         <div className="text-foreground mt-10 space-y-8 text-base leading-7">
           <p>
-            These terms govern your use of {brand.name} ({brand.domain}), a
-            University of Melbourne research project that assesses the future
-            viability of university degree programs. By creating an account or
-            using the site you agree to these terms.
+            These terms govern your use of {brand.name} ({brand.domain}), an
+            independent assessment service that assesses the future viability of
+            university degree programs. By creating an account or using the site
+            you agree to these terms.
           </p>
 
           <section>
@@ -29,8 +29,8 @@ export default function TermsOfServicePage() {
             <p className="mt-4">
               {brand.name} produces evidence-based assessments of degree
               programs against AI-driven labour-market change. It is currently
-              operated as a research project; features, availability, and
-              methodology may change as the research evolves.
+              operated as a pilot; features, availability, and methodology may
+              change as the work evolves.
             </p>
           </section>
 

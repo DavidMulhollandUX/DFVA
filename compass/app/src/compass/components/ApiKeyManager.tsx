@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { brand } from "../../branding/brandConfig";
 import { useAction, useQuery } from "wasp/client/operations";
 import {
   generateApiKey,
@@ -79,8 +80,8 @@ export default function ApiKeyManager() {
           API Keys
         </CardTitle>
         <CardDescription>
-          Generate and manage API keys for programmatic access to DFVA. Keys are
-          shown once — copy them immediately.
+          Generate and manage API keys for programmatic access to {brand.name}.
+          Keys are shown once — copy them immediately.
         </CardDescription>
       </CardHeader>
       <CardContent className="space-y-4">
