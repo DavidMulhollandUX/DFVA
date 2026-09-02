@@ -109,6 +109,10 @@ jobs:
         run: npx prettier --check src/
       - name: ESLint
         run: npx eslint src
+      - name: Generate the Wasp SDK
+        # `wasp install` does not produce .wasp/out/sdk, which is what resolves
+        # the `wasp/*` imports for tsc. vitest does not need it (shimmed).
+        run: wasp compile
       - name: Typecheck
         # tsconfig.json is a solution file; a bare `tsc --noEmit` checks nothing.
         run: npm run typecheck

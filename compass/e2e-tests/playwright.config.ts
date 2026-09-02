@@ -22,6 +22,10 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: "on-first-retry",
+
+    /* PW_CHANNEL=chrome runs on the installed Google Chrome when Playwright's
+       own headless-shell download hangs on a dev machine. Unset in CI. */
+    ...(process.env.PW_CHANNEL ? { channel: process.env.PW_CHANNEL } : {}),
   },
 
   /* Configure projects for major browsers */
