@@ -6,6 +6,10 @@ name: E2E tests
 on:
   pull_request:
     paths: ['compass/**']
+  # dev advances by push, not by PR, so the suite must also run there.
+  push:
+    branches: [dev]
+    paths: ['compass/**']
 
 permissions:
   contents: read
