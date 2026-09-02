@@ -86,6 +86,9 @@ export default function AssessorPage() {
       Array.isArray(data) && data.some((j) => !isSettled(j.status))
         ? 1500
         : false,
+    // Keep polling in a hidden tab: the job finishes in about a second and a
+    // backgrounded or embedded tab otherwise shows Processing until a reload.
+    refetchIntervalInBackground: true,
   });
   const submitAction = useAction(assessProgram);
 
@@ -392,6 +395,7 @@ function AnonymousJobRow({ jobId }: { jobId: string }) {
     {
       refetchInterval: (data: { status: string } | null | undefined) =>
         data && !isSettled(data.status) ? 1500 : false,
+      refetchIntervalInBackground: true,
     },
   );
 
