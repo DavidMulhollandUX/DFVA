@@ -25,9 +25,9 @@ Dispatcher rules, by slug:
 
 | Slug | Renders | Example |
 | --- | --- | --- |
-| a program code | v4 report, research report or pending state | `/reports/mc-cs`, `/reports/dr-philsci` |
-| `dfva-v4r-<code>` | v4 research report for `<code>` | `/reports/dfva-v4r-dr-philsci` |
-| any other `dfva-*` | archived v1 page | `/reports/dfva-b-des`, `/reports/dfva-recommend-b-des` |
+| a program code | v4, research or pending report | `/reports/mc-cs` |
+| `dfva-v4r-<code>` | v4 research report | `/reports/dfva-v4r-dr-philsci` |
+| any other `dfva-*` | archived v1 page | `/reports/dfva-recommend-b-des` |
 
 Test ids:
 
