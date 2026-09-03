@@ -53,7 +53,9 @@ const v4Src = readFileSync(path.join(ROOT, 'compass/app/src/compass/v4/data/v4Pa
 const v4OnlyBlock = v4Src.match(/export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = (\{[\s\S]*?\n\});/)
 interface V4Only { code: string; name: string; exposure: number | null; nTitles: number | null; exposureBasis: PanelABasis | null }
 const v4Only: Record<string, V4Only> = v4OnlyBlock ? JSON.parse(v4OnlyBlock[1]) : {}
-const metaBlock = v4Src.match(/export const V4_META: V4Meta = (\{[\s\S]*?\n\});/)
+// V4_META moved to the light v4Meta.ts module in the v4PanelC.ts/v4Meta.ts split.
+const v4MetaSrc = readFileSync(path.join(ROOT, 'compass/app/src/compass/v4/data/v4Meta.ts'), 'utf8')
+const metaBlock = v4MetaSrc.match(/export const V4_META: V4Meta = (\{[\s\S]*?\n\});/)
 const meta = metaBlock ? (JSON.parse(metaBlock[1]) as { expMedianField: number | null }) : { expMedianField: null }
 
 // --- every program carrying a v4 score --------------------------------------

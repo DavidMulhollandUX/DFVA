@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { V4_META } from "../v4/data/v4PanelC";
+import { V4_META } from "../v4/data/v4Meta";
 
 /**
  * The v4 migration cycle publishes an adaptiveness median only when every

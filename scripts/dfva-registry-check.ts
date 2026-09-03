@@ -14,7 +14,8 @@ import * as path from 'node:path'
 import { RISK_BANDS } from '../dfva/source/rubric'
 import { PROGRAMS as APP_PROGRAMS } from '../compass/app/src/compass/sharedProgramData'
 import { REPORT_CONTENT } from '../compass/app/src/compass/reportContent'
-import { V4_ONLY_PROGRAMS, V4_RESEARCH_DEGREES } from '../compass/app/src/compass/v4/data/v4PanelC'
+import { V4_ONLY_PROGRAMS } from '../compass/app/src/compass/v4/data/v4PanelC'
+import { V4_RESEARCH_DEGREES } from '../compass/app/src/compass/v4/data/v4Meta'
 
 export const repoRoot = path.resolve(__dirname, '..')
 

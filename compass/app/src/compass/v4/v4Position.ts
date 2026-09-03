@@ -1,4 +1,4 @@
-import { V4_META, type V4PanelABasis } from "./data/v4PanelC";
+import { V4_META, type V4PanelATier } from "./data/v4Meta";
 import { basisMedian } from "./exposureBasis";
 
 export const V4_QUADRANT_LABELS = {
@@ -22,7 +22,7 @@ export type V4Quadrant = keyof typeof V4_QUADRANT_LABELS;
 export function v4Quadrant(
   exposure: number,
   adaptiveness: number,
-  basis?: V4PanelABasis,
+  basis?: { tier: V4PanelATier },
 ): V4Quadrant | null {
   if (!V4_META.complete || V4_META.adaptMedian === null) return null;
   const expMedian = basisMedian(basis);

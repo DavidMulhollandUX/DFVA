@@ -5,8 +5,8 @@ import { PROGRAMS } from "../sharedProgramData";
 import { getFaculty } from "../faculty";
 import { v3ProgramByCode, type V3Program } from "../v3/data/v3Programs";
 import { V4_INSTRUMENT } from "./data/v4Rubric";
+import { V4_RESEARCH_DEGREES } from "./data/v4Meta";
 import {
-  V4_RESEARCH_DEGREES,
   v4OnlyProgramByCode,
   v4PanelABasisByCode,
   v4PanelCByCode,

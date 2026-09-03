@@ -1,7 +1,8 @@
 import { Card, CardContent } from "../../../client/components/ui/card";
 import { QUADRANTS } from "../../v2/quadrants";
 import { V4_ADAPTIVENESS_MAX } from "../data/v4Rubric";
-import { V4_META, type V4PanelABasis, type V4PanelC } from "../data/v4PanelC";
+import { V4_META } from "../data/v4Meta";
+import type { V4PanelABasis, V4PanelC } from "../data/v4PanelC";
 import { V4_TIER_LABELS, describeBasis, isOwnRecord } from "../exposureBasis";
 import { V4_QUADRANT_LABELS as QUADRANT_LABELS } from "../v4Position";
 import { CardLabel } from "./ReportChrome";

@@ -21,7 +21,7 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { V4_RESEARCH_DEGREES } from '../compass/app/src/compass/v4/data/v4PanelC'
+import { V4_RESEARCH_DEGREES } from '../compass/app/src/compass/v4/data/v4Meta'
 import { PROGRAMS } from '../compass/app/src/compass/sharedProgramData'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')

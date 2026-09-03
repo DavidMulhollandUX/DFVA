@@ -3,7 +3,8 @@ import { Cite } from "../HowThisRubricWorksDialog";
 import { gateSummary } from "../gateState";
 import { verificationClause } from "../verificationState";
 import { V4_ADAPTIVENESS_MAX, V4_WORKPLACE_MAX } from "../data/v4Rubric";
-import { V4_META, type V4PanelC } from "../data/v4PanelC";
+import { V4_META } from "../data/v4Meta";
+import type { V4PanelC } from "../data/v4PanelC";
 import { CardLabel } from "./ReportChrome";
 import {
   DRAFT_NOTICE_HAS_V31,

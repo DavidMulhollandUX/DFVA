@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { V4_META, V4_PANEL_C } from "../v4/data/v4PanelC";
+import { V4_META } from "../v4/data/v4Meta";
+import { V4_PANEL_C } from "../v4/data/v4PanelC";
 import { V4_RUBRIC } from "../v4/data/v4Rubric";
 import { REPORT_INDEX } from "../v4/reportIndex";
 import { v4Quadrant } from "../v4/v4Position";
@@ -93,12 +94,7 @@ describe("v4PortfolioRows — the spine", () => {
               r.exposure,
               r.adaptiveness,
               // A tier alone is enough: basisMedian only reads tier.
-              {
-                tier: (r.exposureTier ?? "exact") as never,
-                grain: "program",
-                sources: [],
-                indexVariant: "AIOE-2021",
-              },
+              { tier: r.exposureTier ?? "exact" },
             )
           : null;
       expect(r.position).toBe(expected);

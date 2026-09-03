@@ -2,12 +2,11 @@ import { PROGRAMS } from "../sharedProgramData";
 import { getFaculty } from "../faculty";
 import { v3ProgramByCode } from "../v3/data/v3Programs";
 import {
-  V4_ONLY_PROGRAMS,
+  V4_INDEX,
   V4_RESEARCH_DEGREES,
-  v4PanelABasisByCode,
-  v4PanelCByCode,
+  v4IndexByCode,
   type V4PanelATier,
-} from "./data/v4PanelC";
+} from "./data/v4Meta";
 import { v4Quadrant, type V4Quadrant } from "./v4Position";
 
 /** One row of the /reports index: every program the site knows about, on v4
@@ -37,26 +36,30 @@ function entry(
   v1: boolean,
 ): ReportIndexEntry {
   const v3 = v3ProgramByCode(code);
-  const panelC = v4PanelCByCode(code);
-  const exposure = v3?.exposure ?? V4_ONLY_PROGRAMS[code]?.exposure ?? null;
-  const basis = v4PanelABasisByCode(code);
-  const adaptiveness = panelC?.adaptiveness ?? null;
+  const idx = v4IndexByCode(code);
+  const exposure = v3?.exposure ?? idx?.exposure ?? null;
+  const exposureTier: V4PanelATier | null = idx?.exposureTier ?? null;
+  const adaptiveness = idx?.adaptiveness ?? null;
   return {
     code,
     name,
     faculty: v3?.faculty || faculty,
-    status: panelC
+    status: idx
       ? "current"
       : V4_RESEARCH_DEGREES.includes(code)
         ? "research"
         : "archived",
     exposure,
-    exposureTier: basis?.tier ?? null,
+    exposureTier,
     adaptiveness,
-    workplace: typeof panelC?.workplace === "number" ? panelC.workplace : null,
+    workplace: typeof idx?.workplace === "number" ? idx.workplace : null,
     position:
       exposure !== null && adaptiveness !== null
-        ? v4Quadrant(exposure, adaptiveness, basis)
+        ? v4Quadrant(
+            exposure,
+            adaptiveness,
+            exposureTier ? { tier: exposureTier } : undefined,
+          )
         : null,
     archived: { v1, v31: Boolean(v3) },
   };
@@ -72,7 +75,7 @@ export const REPORT_INDEX: ReportIndexEntry[] = [
       true,
     ),
   ),
-  ...Object.values(V4_ONLY_PROGRAMS)
+  ...Object.values(V4_INDEX)
     .filter((p) => !PROGRAMS.some((q) => q.assessmentSlug === `dfva-${p.code}`))
     .map((p) => entry(p.code, p.name, getFaculty(p.name), false)),
 ]
