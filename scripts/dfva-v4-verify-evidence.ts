@@ -33,6 +33,12 @@
  *   npx tsx dfva-v4-verify-evidence.ts --code mc-it
  *   npx tsx dfva-v4-verify-evidence.ts --suggest              # nearest capture text
  *   npx tsx dfva-v4-verify-evidence.ts --suggest --kind tail-drift
+ *   npx tsx dfva-v4-verify-evidence.ts --scored ../scrapes/v4/pending/mc-it.scored.json --json
+ *
+ * --scored checks a block that is not on disk yet (the Score stage's output),
+ * so the scoring workflow can hand the reviewer the computed unmatched list
+ * instead of asking it to grep. --json prints one object per program and
+ * always exits 0: the caller decides. --scored refuses --stamp.
  *
  * CAPTURE IDENTITY. Matching every line against a capture proves nothing if the
  * capture is the wrong program. mc-evalo was scored on the Master of
@@ -59,6 +65,16 @@ const STAMP = argv.includes('--stamp')
 const SUGGEST = argv.includes('--suggest')
 const ONLY = argv.includes('--code') ? argv[argv.indexOf('--code') + 1] : null
 const KIND = argv.includes('--kind') ? argv[argv.indexOf('--kind') + 1] : null
+const SCORED = argv.includes('--scored') ? argv[argv.indexOf('--scored') + 1] : null
+const JSON_OUT = argv.includes('--json')
+if (SCORED && STAMP) {
+  console.error('--scored is report-only; --stamp writes the evidence record and needs the committed block')
+  process.exit(2)
+}
+/** Human output; silent under --json so stdout is one parseable object. */
+const say = (...a: unknown[]): void => {
+  if (!JSON_OUT) console.log(...a)
+}
 
 const ITEMS = ['C1', 'C2', 'C3', 'C4', 'C5', 'W1', 'W2', 'W3'] as const
 
@@ -184,18 +200,31 @@ interface Row {
   suggestions: Suggestion[]
 }
 
-const rows: Row[] = []
-for (const f of readdirSync(EVIDENCE).sort()) {
-  if (!f.endsWith('.json')) continue
-  const doc = JSON.parse(readFileSync(path.join(EVIDENCE, f), 'utf8')) as {
-    code?: string; panelCv4?: PanelC
+/** The blocks under test: one pending block under --scored, else every
+ *  committed record (narrowed by --code). Every later pass reads from here
+ *  rather than re-opening the evidence file, so --scored sees the same block. */
+const panels = new Map<string, PanelC>()
+if (SCORED) {
+  const doc = JSON.parse(readFileSync(path.resolve(SCORED), 'utf8')) as { code?: string; panelCv4?: PanelC }
+  if (!doc.code || !doc.panelCv4) {
+    console.error(`${SCORED}: expected {code, panelCv4}`)
+    process.exit(2)
   }
-  if (!doc.panelCv4 || !doc.code) continue
-  if (ONLY && doc.code !== ONLY) continue
-  const p = doc.panelCv4
-  const capturePath = path.join(CAPTURE, `${doc.code}.txt`)
+  panels.set(doc.code, doc.panelCv4)
+} else {
+  for (const f of readdirSync(EVIDENCE).sort()) {
+    if (!f.endsWith('.json')) continue
+    const doc = JSON.parse(readFileSync(path.join(EVIDENCE, f), 'utf8')) as { code?: string; panelCv4?: PanelC }
+    if (!doc.panelCv4 || !doc.code) continue
+    if (ONLY && doc.code !== ONLY) continue
+    panels.set(doc.code, doc.panelCv4)
+  }
+}
+
+function checkProgram(code: string, p: PanelC): Row {
+  const capturePath = path.join(CAPTURE, `${code}.txt`)
   const row: Row = {
-    code: doc.code,
+    code,
     verbatim: 0,
     elided: 0,
     unmatched: [],
@@ -245,12 +274,14 @@ for (const f of readdirSync(EVIDENCE).sort()) {
       }
     }
   }
-  rows.push(row)
+  return row
 }
+
+const rows: Row[] = [...panels].map(([code, p]) => checkProgram(code, p))
 
 const pad = (s: string, n: number) => s.padEnd(n)
 let tv = 0, te = 0, tu = 0
-console.log(`${pad('program', 14)}${'verbatim'.padStart(9)}${'elided'.padStart(8)}${'unmatched'.padStart(11)}${'gate ev'.padStart(9)}  notes`)
+say(`${pad('program', 14)}${'verbatim'.padStart(9)}${'elided'.padStart(8)}${'unmatched'.padStart(11)}${'gate ev'.padStart(9)}  notes`)
 for (const r of rows) {
   tv += r.verbatim; te += r.elided; tu += r.unmatched.length
   const notes: string[] = []
@@ -258,19 +289,19 @@ for (const r of rows) {
   if (r.gateLines === 0) notes.push('gates carry no evidence')
   if (r.missingSubjects.length) notes.push(`uncaptured subject: ${r.missingSubjects.join(', ')}`)
   if (r.claimsMechanical && r.unmatched.length) notes.push('CLAIMS mechanical:true with unmatched lines')
-  console.log(
+  say(
     pad(r.code, 14) + String(r.verbatim).padStart(9) + String(r.elided).padStart(8) +
     String(r.unmatched.length).padStart(11) + String(r.gateLines).padStart(9) +
     (notes.length ? `  ${notes.join('; ')}` : ''),
   )
 }
 const total = tv + te + tu
-console.log(`\n${rows.length} scored program(s); ${total} evidence line(s)`)
-console.log(`  present in capture : ${tv + te} (${((100 * (tv + te)) / total).toFixed(1)}%) — ${tv} verbatim, ${te} elided`)
-console.log(`  unmatched          : ${tu}`)
+say(`\n${rows.length} scored program(s); ${total} evidence line(s)`)
+say(`  present in capture : ${tv + te} (${((100 * (tv + te)) / total).toFixed(1)}%) — ${tv} verbatim, ${te} elided`)
+say(`  unmatched          : ${tu}`)
 
 const gapless = rows.filter((r) => !r.noCapture && r.unmatched.length === 0)
-console.log(`  programs fully confirmed: ${gapless.length}/${rows.length}`)
+say(`  programs fully confirmed: ${gapless.length}/${rows.length}`)
 
 const falseClaims = rows.filter((r) => r.claimsMechanical && (r.unmatched.length > 0 || r.noCapture))
 // Bidirectional: an UNDER-claim is also a defect. Seven records demoted during
@@ -281,15 +312,12 @@ const underClaims = rows.filter(
   (r) => !r.claimsMechanical && !r.noCapture && r.unmatched.length === 0 && pHasVerified(r.code),
 )
 function pHasVerified(code: string): boolean {
-  const doc = JSON.parse(readFileSync(path.join(EVIDENCE, `${code}.json`), 'utf8')) as {
-    panelCv4?: PanelC
-  }
-  return Boolean(doc.panelCv4?.verified)
+  return Boolean(panels.get(code)?.verified)
 }
 if (falseClaims.length || underClaims.length) {
-  console.log(`\n❌ ${falseClaims.length + underClaims.length} record(s) disagree with the computed result:`)
-  for (const r of falseClaims) console.log(`   ${r.code}: claims mechanical:true, ${r.unmatched.length} unmatched`)
-  for (const r of underClaims) console.log(`   ${r.code}: passes every line but stamps mechanical:false — run --stamp`)
+  say(`\n❌ ${falseClaims.length + underClaims.length} record(s) disagree with the computed result:`)
+  for (const r of falseClaims) say(`   ${r.code}: claims mechanical:true, ${r.unmatched.length} unmatched`)
+  for (const r of underClaims) say(`   ${r.code}: passes every line but stamps mechanical:false — run --stamp`)
 }
 if (STAMP) {
   const today = new Date().toISOString().slice(0, 10)
@@ -309,7 +337,7 @@ if (STAMP) {
     writeFileSync(fp, `${JSON.stringify(doc, null, 2)}\n`)
     stamped++
   }
-  console.log(`\nStamped mechanical from the computed result on ${stamped} record(s).`)
+  say(`\nStamped mechanical from the computed result on ${stamped} record(s).`)
 }
 
 if (SUGGEST) {
@@ -317,27 +345,27 @@ if (SUGGEST) {
   const shown = KIND ? all.filter((s) => s.kind === KIND) : all
   const tally = new Map<Kind, number>()
   for (const s of all) tally.set(s.kind, (tally.get(s.kind) ?? 0) + 1)
-  console.log('\nUnmatched lines by kind:')
+  say('\nUnmatched lines by kind:')
   for (const k of ['tail-drift', 'paraphrase', 'no-source'] as Kind[]) {
-    console.log(`  ${k.padEnd(12)} ${tally.get(k) ?? 0}`)
+    say(`  ${k.padEnd(12)} ${tally.get(k) ?? 0}`)
   }
-  console.log(
+  say(
     `\n${shown.length} suggestion(s)${KIND ? ` of kind ${KIND}` : ''} — ` +
       'accept a tail-drift by replacing the recorded text with the capture text; ' +
       'a paraphrase and a no-source are rater decisions, not transcription fixes.',
   )
   let current = ''
   for (const s of shown) {
-    if (s.code !== current) { current = s.code; console.log(`\n${s.code}`) }
-    console.log(`  ${s.item}  ${s.kind}  ${s.ratio.toFixed(2)}`)
-    console.log(`    recorded: ${s.recorded.slice(0, 160)}`)
-    console.log(`    capture : ${s.capture ? s.capture.slice(0, 160) : '— no near passage in this capture —'}`)
+    if (s.code !== current) { current = s.code; say(`\n${s.code}`) }
+    say(`  ${s.item}  ${s.kind}  ${s.ratio.toFixed(2)}`)
+    say(`    recorded: ${s.recorded.slice(0, 160)}`)
+    say(`    capture : ${s.capture ? s.capture.slice(0, 160) : '— no near passage in this capture —'}`)
   }
 } else if (tu > 0 && !STRICT) {
-  console.log('\nUnmatched lines (first 3 per program). Run --suggest for the nearest capture text.')
+  say('\nUnmatched lines (first 3 per program). Run --suggest for the nearest capture text.')
   for (const r of rows.filter((x) => x.unmatched.length)) {
-    console.log(`  ${r.code}`)
-    for (const l of r.unmatched.slice(0, 3)) console.log(`    ${l.slice(0, 150)}`)
+    say(`  ${r.code}`)
+    for (const l of r.unmatched.slice(0, 3)) say(`    ${l.slice(0, 150)}`)
   }
 }
 // --- capture identity ------------------------------------------------------
@@ -368,18 +396,18 @@ for (const r of rows) {
   }
 }
 if (misidentified.length) {
-  console.log(
+  say(
     `\n❌ ${misidentified.length} capture(s) hold a page that is not the program's:`,
   )
   for (const m of misidentified) {
-    console.log(`   ${m.code} (${m.name}) — ${m.url} names neither the program nor its code`)
+    say(`   ${m.code} (${m.name}) — ${m.url} names neither the program nor its code`)
   }
-  console.log(
+  say(
     '   A capture that is the wrong program makes every matched line meaningless.\n' +
       '   Fix by recapturing and re-scoring, never by editing the evidence.',
   )
 } else {
-  console.log('\n✓ capture identity: every own-course page names its program')
+  say('\n✓ capture identity: every own-course page names its program')
 }
 
 // --- subject scope -----------------------------------------------------------
@@ -409,10 +437,7 @@ for (const r of rows) {
     }
   }
   const course = coursePages.join(' | ')
-  const doc = JSON.parse(
-    readFileSync(path.join(EVIDENCE, `${r.code}.json`), 'utf8'),
-  ) as { panelCv4?: PanelC }
-  for (const [, line] of linesOf(doc.panelCv4 ?? {})) {
+  for (const [, line] of linesOf(panels.get(r.code) ?? {})) {
     const frags = line.split(/\s*(?:\.\.\.|…)\s*/).map((f) => f.trim()).filter(Boolean)
     const named = frags[0]?.match(/^([A-Z]{4}\d{5})\b/)?.[1]
     if (!named || !bySubject.has(named)) continue
@@ -421,16 +446,16 @@ for (const r of rows) {
       if (scope.includes(norm(f))) continue
       const a = atoms(f)
       if (a.length > 0 && a.every((x) => scope.includes(x))) continue
-      outOfScope.push({ code: r.code, line: line.slice(0, 80), fragment: f.slice(0, 70) })
+      outOfScope.push({ code: r.code, line, fragment: f })
       break
     }
   }
 }
 if (outOfScope.length) {
-  console.log(`\n❌ ${outOfScope.length} evidence line(s) quote text that is not on the subject they name:`)
-  for (const o of outOfScope) console.log(`   ${o.code}: ${o.line}\n      off-subject: ${o.fragment}`)
+  say(`\n❌ ${outOfScope.length} evidence line(s) quote text that is not on the subject they name:`)
+  for (const o of outOfScope) say(`   ${o.code}: ${o.line.slice(0, 80)}\n      off-subject: ${o.fragment.slice(0, 70)}`)
 } else {
-  console.log('✓ subject scope: every quoted fragment sits on the subject it names')
+  say('✓ subject scope: every quoted fragment sits on the subject it names')
 }
 
 // --- rationale subject codes --------------------------------------------------
@@ -443,10 +468,7 @@ const phantomCodes: Array<{ code: string; item: string; subject: string }> = []
 for (const r of rows) {
   if (r.noCapture) continue
   const cap = norm(readFileSync(path.join(CAPTURE, `${r.code}.txt`), 'utf8'))
-  const doc = JSON.parse(
-    readFileSync(path.join(EVIDENCE, `${r.code}.json`), 'utf8'),
-  ) as { panelCv4?: PanelC }
-  const p = doc.panelCv4 ?? {}
+  const p = panels.get(r.code) ?? {}
   const prose: Array<[string, string]> = []
   for (const id of [...ITEMS, 'G1', 'G2']) {
     const holder = (id === 'G1' || id === 'G2' ? p.gates?.[id] : p[id]) as
@@ -466,10 +488,10 @@ for (const r of rows) {
   }
 }
 if (phantomCodes.length) {
-  console.log(`\n❌ ${phantomCodes.length} subject code(s) named in rationale prose but absent from the capture:`)
-  for (const c of phantomCodes) console.log(`   ${c.code} ${c.item}: ${c.subject}`)
+  say(`\n❌ ${phantomCodes.length} subject code(s) named in rationale prose but absent from the capture:`)
+  for (const c of phantomCodes) say(`   ${c.code} ${c.item}: ${c.subject}`)
 } else {
-  console.log('✓ rationale subjects: every code named in prose appears in its capture')
+  say('✓ rationale subjects: every code named in prose appears in its capture')
 }
 
 // --- report block quotes ---------------------------------------------------
@@ -481,7 +503,7 @@ if (phantomCodes.length) {
 // This checks the published copy, not just the record.
 const staleQuotes: Array<{ code: string; quote: string }> = []
 for (const r of rows) {
-  if (r.noCapture) continue
+  if (r.noCapture || SCORED) continue // a pending block has no published report yet
   // A capture that is the wrong program fails identity below; its quotes are
   // stale for that reason and are not a separate, fixable defect.
   if (badCapture.has(r.code)) continue
@@ -498,10 +520,27 @@ for (const r of rows) {
   }
 }
 if (staleQuotes.length) {
-  console.log(`\n❌ ${staleQuotes.length} published report quote(s) not in the capture:`)
-  for (const q of staleQuotes) console.log(`   ${q.code}: ${q.quote}`)
+  say(`\n❌ ${staleQuotes.length} published report quote(s) not in the capture:`)
+  for (const q of staleQuotes) say(`   ${q.code}: ${q.quote}`)
 } else {
-  console.log('✓ report quotes: every published block quote is in its capture')
+  say('✓ report quotes: every published block quote is in its capture')
+}
+
+if (JSON_OUT) {
+  const out = rows.map((r) => ({
+    code: r.code,
+    verbatim: r.verbatim,
+    elided: r.elided,
+    unmatched: r.unmatched,
+    noCapture: r.noCapture,
+    missingSubjects: r.missingSubjects,
+    suggestions: r.suggestions,
+    outOfScope: outOfScope.filter((o) => o.code === r.code).map(({ line, fragment }) => ({ line, fragment })),
+    phantomCodes: phantomCodes.filter((c) => c.code === r.code).map(({ item, subject }) => ({ item, subject })),
+    misidentified: badCapture.has(r.code),
+  }))
+  console.log(JSON.stringify(rows.length === 1 ? out[0] : out))
+  process.exit(0)
 }
 
 if (

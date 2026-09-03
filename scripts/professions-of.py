@@ -36,7 +36,9 @@ def load_crosswalk():
     return glob_map, scoped
 
 
-def main(code, as_json=False):
+def resolve(code):
+    """The program's professions as data — what --json prints. Shared with
+    dfva-market-scaffold.py so the market report and this view cannot disagree."""
     fields = json.loads((ROOT / 'data/jsa/program_fields.json').read_text())['programs']
     meta = fields.get(code, {})
     name = meta.get('name')
@@ -45,14 +47,10 @@ def main(code, as_json=False):
     glob_map, scoped = load_crosswalk()
 
     if not records:
-        out = {'code': code, 'name': name, 'grain': 'field',
-               'field': meta.get('field'), 'fieldName': meta.get('fieldName'),
-               'note': 'no exact JIR record — read destinations from '
-                       'data/jsa/heo_field_destinations.json at field grain'}
-        print(json.dumps(out, indent=2) if as_json else
-              f"{code} ({name}): field grain — {meta.get('field')} {meta.get('fieldName')}\n"
-              f"  destinations: data/jsa/heo_field_destinations.json")
-        return
+        return {'code': code, 'name': name, 'grain': 'field',
+                'field': meta.get('field'), 'fieldName': meta.get('fieldName'),
+                'note': 'no exact JIR record — read destinations from '
+                        'data/jsa/heo_field_destinations.json at field grain'}
 
     counts, unmapped = collections.Counter(), collections.Counter()
     for rec in records:
@@ -60,19 +58,27 @@ def main(code, as_json=False):
             key = title.strip().lower()
             hit = scoped.get((code, key)) or glob_map.get(key)
             (counts if hit else unmapped)[hit or title] += 1
+    return {'code': code, 'name': name, 'grain': 'exact',
+            'n': sum(r.get('n', 0) for r in records),
+            'professions': [{'onet_soc_code': s, 'title': t, 'titles': n}
+                            for (s, t), n in counts.most_common()],
+            'unmapped': list(unmapped)}
 
+
+def main(code, as_json=False):
+    out = resolve(code)
     if as_json:
-        print(json.dumps({'code': code, 'name': name, 'grain': 'exact',
-                          'n': sum(r.get('n', 0) for r in records),
-                          'professions': [{'onet_soc_code': s, 'title': t, 'titles': n}
-                                          for (s, t), n in counts.most_common()],
-                          'unmapped': list(unmapped)}, indent=2))
+        print(json.dumps(out, indent=2))
         return
-    print(f"{code} ({name}) — exact JIR grain, n={sum(r.get('n', 0) for r in records)}")
-    for (soc, title), n in counts.most_common():
-        print(f"  {soc:12} {title[:44]:46} {n}")
-    if unmapped:
-        print(f"  UNMAPPED ({len(unmapped)}): {', '.join(list(unmapped)[:8])}")
+    if out['grain'] == 'field':
+        print(f"{code} ({out['name']}): field grain — {out['field']} {out['fieldName']}\n"
+              f"  destinations: data/jsa/heo_field_destinations.json")
+        return
+    print(f"{code} ({out['name']}) — exact JIR grain, n={out['n']}")
+    for p in out['professions']:
+        print(f"  {p['onet_soc_code']:12} {p['title'][:44]:46} {p['titles']}")
+    if out['unmapped']:
+        print(f"  UNMAPPED ({len(out['unmapped'])}): {', '.join(out['unmapped'][:8])}")
         print("  -> map with scripts/crosswalk-add.py before researching them")
 
 

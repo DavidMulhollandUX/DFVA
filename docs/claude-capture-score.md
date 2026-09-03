@@ -53,7 +53,11 @@ across two jobs; Antigravity does capture only.
    `python3 scripts/llm-usage-register.py log --harness claude --model <your-model> --job-id claude-score --note "score stage begin: <codes>"`.
 2. Score + verify + persist:
    `Workflow({ scriptPath: "scripts/workflows/v4-score-cohort.js", args: [<codes>] })`.
-   Both sub-scales required; a C-only response is a failed run.
+   Both sub-scales required; a C-only response is a failed run. The verbatim check
+   (`dfva-v4-verify-evidence.ts --scored`) and the persist step (`dfva-v4-persist.ts`)
+   are scripts run through low-effort runner agents; no agent writes
+   `dfva/source/evidence/` directly. In-flight blocks live in `scrapes/v4/pending/`
+   (gitignored).
 3. Exposure gate (stage 4a): `cd scripts && npx tsx dfva-panela-audit.ts | grep <code>`.
    Must resolve with 0 unmapped titles before REPORT. If not, fix the DATA per
    `docs/tasks/dfva-panela-scoring.SKILL.md`. Never type an exposure figure.
@@ -63,10 +67,19 @@ across two jobs; Antigravity does capture only.
 5. Market §3: re-source per `docs/dfva-report-section-authoring.md` (sourced /
    scoped / corrected / removed), then remove the slug from `MARKET_GRANDFATHERED`
    in `scripts/check-report-format.ts` when aligned.
-6. Scaffold: `npx tsx scripts/dfva-v4-report-scaffold.ts <code>`, author §4
-   (condenses §3), then §5 (interpretation, no directives). §3 before §4, always.
+6. Scaffold the report: `npx tsx scripts/dfva-v4-report-scaffold.ts <code>`. §1–§3 and §6
+   are derived; §4 is seeded from the market report (job-family table, exposure-basis
+   sentence, signal table, restated confidence). Only §4's Bearing column and §5 stay
+   unfilled. §3 before §4, always.
 7. Improvement plans:
    `Workflow({ scriptPath: "scripts/workflows/v4-recommend-cohort.js", args: [<codes>] })`.
+   The agent fills a JSON from `dfva-v4-recommend-scaffold.ts <code> --fill-template` and
+   renders it with `--fill`; it never writes the report file.
+7b. Author §4 Bearing and §5 from the improvement plan (§5 is sourced from the plan's
+   diagnostic table, so the plan must exist first):
+   `npx tsx scripts/dfva-v4-report-scaffold.ts <code> --fill-template` → fill →
+   `npx tsx scripts/dfva-v4-report-scaffold.ts <code> --fill <json>` →
+   `npx tsx scripts/check-report-format.ts --code <code>`.
 8. Gate: `npm --prefix scripts run dfva:check`.
    - pass: stage + commit in ONE invocation:
      `git add -A && git commit -m "feat(v4): score and author <codes>"`

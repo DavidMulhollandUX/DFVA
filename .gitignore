@@ -100,3 +100,7 @@ data/factiva_failures.jsonl
 
 # LinkedIn L4 backfill runtime state (gitignored, like factiva_backlog)
 data/professions/linkedin_backlog.json
+
+# In-flight scoring blocks and fill JSON written by the v4 workflows; the
+# persisted evidence file and the scaffolded report are the records.
+scrapes/v4/pending/

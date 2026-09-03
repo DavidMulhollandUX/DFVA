@@ -233,6 +233,18 @@ const stripLabourBlock = (content: string): string =>
 // the market card, so its market report must carry the destinations footer.
 const SCORED_CODES = new Set(V4_FILES.map((f) => f.slice('dfva-v4-'.length, -'.md'.length)))
 
+/**
+ * No unfilled scaffold left behind. Each family has a scaffold that derives
+ * the machine-checkable sections and marks the judgement cells for an author;
+ * a report still carrying those marks would publish an empty section that
+ * every other rule here would happily pass. One rule, three families.
+ */
+function checkUnfilled(content: string, issues: string[], hint: string): void {
+  if (content.includes('TO BE AUTHORED') || /<!-- AUTHOR:S\d/.test(content)) {
+    issues.push(`carries unfilled scaffold markers — ${hint}`)
+  }
+}
+
 export function checkMarketReport(slug: string, content: string): string[] {
   const issues: string[] = []
 
@@ -374,6 +386,7 @@ export function checkMarketReport(slug: string, content: string): string[] {
   if (SCORED_CODES.has(code) && !(content.includes('<!-- LABOUR-EVIDENCE:START -->') && content.includes('<!-- LABOUR-EVIDENCE:END -->'))) {
     issues.push('missing the LABOUR-EVIDENCE destinations footer — run: python3 scripts/build-market-footer.py ' + code + ' --apply')
   }
+  checkUnfilled(content, issues, '§4 direction / §5 still need authoring (scripts/dfva-market-scaffold.py)')
 
   return issues
 }
@@ -518,9 +531,7 @@ export function checkV4Report(slug: string, content: string): string[] {
   //    machine-checkable sections and marks §4/§5 for an author; a report still
   //    carrying those marks would publish an empty market and implications
   //    section that every other rule here would happily pass.
-  if (content.includes('TO BE AUTHORED') || /<!-- AUTHOR:S\d/.test(content)) {
-    issues.push('carries unfilled scaffold markers — §4/§5 still need authoring (scripts/dfva-v4-report-scaffold.ts)')
-  }
+  checkUnfilled(content, issues, '§4/§5 still need authoring (scripts/dfva-v4-report-scaffold.ts --fill)')
 
   return issues
 }
@@ -598,6 +609,7 @@ function checkV4RecommendReport(slug: string, content: string): string[] {
   if (bareUrls.length) {
     issues.push(`${bareUrls.length} bare URL(s) in the body — cite as [[n]](url) and keep full citations in REFERENCES`)
   }
+  checkUnfilled(content, issues, 'fill cells still need authoring (scripts/dfva-v4-recommend-scaffold.ts --fill)')
 
   return issues
 }
@@ -672,7 +684,20 @@ function main(): void {
   const warnings: string[] = []
   const resolvable: string[] = []
 
-  for (const file of REPORT_FILES) {
+  // --code <code> / --file <name>: lint one program's family or one file. The
+  // module-level lists stay whole (checkMarketReport needs the full scored set
+  // for the footer rule); only the loops below are narrowed. A filtered run is
+  // labelled as such so a clean result is not mistaken for a corpus pass.
+  const argv = process.argv.slice(2)
+  const flag = (k: string): string | null => (argv.includes(k) ? argv[argv.indexOf(k) + 1] ?? null : null)
+  const onlyCode = flag('--code')
+  const onlyFile = flag('--file')
+  const filtered = Boolean(onlyCode || onlyFile)
+  const wanted = (f: string): boolean =>
+    !filtered || f === onlyFile || f === `${onlyFile}.md` || (onlyCode !== null && f.endsWith(`-${onlyCode}.md`))
+  const inScope = (code: string): boolean => !onlyCode || code === onlyCode
+
+  for (const file of REPORT_FILES.filter(wanted)) {
     const slug = file.replace('.md', '')
     const grandfathered = GRANDFATHERED.has(slug)
     const content = readReport(file)
@@ -689,7 +714,7 @@ function main(): void {
     }
   }
 
-  for (const file of MARKET_FILES) {
+  for (const file of MARKET_FILES.filter(wanted)) {
     const slug = file.replace('.md', '')
     const grandfathered = MARKET_GRANDFATHERED.has(slug)
     const content = readReport(file)
@@ -706,7 +731,7 @@ function main(): void {
     }
   }
 
-  for (const file of RECOMMEND_FILES) {
+  for (const file of RECOMMEND_FILES.filter(wanted)) {
     const slug = file.replace('.md', '')
     const grandfathered = RECOMMEND_GRANDFATHERED.has(slug)
     const content = readReport(file)
@@ -723,21 +748,21 @@ function main(): void {
     }
   }
 
-  for (const file of V4_FILES) {
+  for (const file of V4_FILES.filter(wanted)) {
     const slug = file.replace('.md', '')
     const content = readReport(file)
     const issues = checkV4Report(slug, content)
     if (issues.length) errors.push(...issues.map((i) => `${slug}: ${i}`))
   }
 
-  for (const file of V4_RECOMMEND_FILES) {
+  for (const file of V4_RECOMMEND_FILES.filter(wanted)) {
     const slug = file.replace('.md', '')
     const content = readReport(file)
     const issues = checkV4RecommendReport(slug, content)
     if (issues.length) errors.push(...issues.map((i) => `${slug}: ${i}`))
   }
 
-  for (const file of V4R_FILES) {
+  for (const file of V4R_FILES.filter(wanted)) {
     const slug = file.replace('.md', '')
     const content = readReport(file)
     const issues = checkV4RResearchReport(slug, content)
@@ -756,16 +781,19 @@ function main(): void {
     const market = codesOf(MARKET_FILES, 'dfva-market-')
     const plans = codesOf(V4_RECOMMEND_FILES, 'dfva-v4-recommend-')
     for (const code of v4) {
+      if (!inScope(code)) continue
       if (!market.has(code)) errors.push(`dfva-v4-${code}: no dfva-market-${code}.md — the report page renders an empty market card`)
       if (!plans.has(code)) errors.push(`dfva-v4-${code}: no dfva-v4-recommend-${code}.md — the report page promises an improvement plan and renders none`)
     }
     for (const code of plans) {
+      if (!inScope(code)) continue
       if (!v4.has(code)) errors.push(`dfva-v4-recommend-${code}: no dfva-v4-${code}.md — a plan without a scored report`)
     }
   }
 
   const totalFiles =
     REPORT_FILES.length + MARKET_FILES.length + RECOMMEND_FILES.length + V4_FILES.length + V4_RECOMMEND_FILES.length + V4R_FILES.length
+  if (filtered) console.log(`(filtered to ${onlyFile ?? `--code ${onlyCode}`}; not a corpus pass)`)
   console.log(
     `Reports: ${REPORT_FILES.length} assessment + ${MARKET_FILES.length} market + ${RECOMMEND_FILES.length} recommend + ${V4_FILES.length} v4 + ${V4_RECOMMEND_FILES.length} v4-recommend + ${V4R_FILES.length} v4r-research = ${totalFiles} total`
   )
@@ -787,7 +815,7 @@ function main(): void {
     process.exit(1)
   }
 
-  console.log('\n✅ Report format check passed.')
+  console.log(filtered ? '\n✅ Report format check passed for the filtered set.' : '\n✅ Report format check passed.')
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

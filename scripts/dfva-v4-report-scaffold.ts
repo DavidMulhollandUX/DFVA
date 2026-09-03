@@ -8,10 +8,16 @@
  * All of that is derivable, so it is derived here — the author writes only
  * §4 (market evidence) and §5 (implications), which are judgement.
  *
- *   npx tsx dfva-v4-report-scaffold.ts <code> [<code> …]
+ *   npx tsx dfva-v4-report-scaffold.ts <code> [<code> …]       # seeded scaffold
+ *   npx tsx dfva-v4-report-scaffold.ts <code> --fill-template   # JSON skeleton for the author
+ *   npx tsx dfva-v4-report-scaffold.ts <code> --fill <json>     # render with the author's cells
  *
- * Sections 4 and 5 are emitted as AUTHOR blocks. `dfva:report-lint` fails
- * while a block is unfilled, so an unauthored report cannot reach the site.
+ * §4 is seeded from reports/dfva-market-<code>.md (job-family table, the
+ * exposure-basis sentence, the signal table, the restated confidence); only
+ * its Bearing column and §5's Implication/Cost cells are the author's, and
+ * they arrive as a fill JSON, not as edits to this file's output. A missing
+ * cell renders as TO BE AUTHORED and `dfva:report-lint` fails while any
+ * marker survives, so an unauthored report cannot reach the site.
  */
 import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
@@ -122,6 +128,109 @@ function canonicalReferences(): string {
   return lines.join('\n')
 }
 
+// ── Market report (input to §4) ────────────────────────────────────────────
+
+/** The author's cells for §4 Table 2 and §5. A missing key renders as TO BE AUTHORED. */
+export interface ReportFill {
+  /** §4 Table 1 rows, used when the market report's §1 carries no table to seed from
+   *  (legacy reports write §1 as prose). Ignored when the market report seeds rows. */
+  jobFamilies?: Array<{ family: string; titles: string; pressure: string; skills: string }>
+  /** §4 Table 2 "Bearing on the scored items", keyed by the signal text as seeded. */
+  bearing?: Record<string, string>
+  /** §5 Implication and Cost, keyed by item id (C1 … W3). */
+  implications?: Record<string, { implication?: string; cost?: string }>
+}
+
+export interface MarketRead {
+  jobFamilies: Array<{ family: string; titles: string; pressure: string; skills: string }>
+  confidence: string | null
+  skillShifts: Array<{ skill: string; direction: string }>
+  gaps: Array<{ area: string; confidence: string; caveat: string }>
+}
+
+const NOT_STATED = 'not stated in the market report'
+
+/** Split a markdown table row into trimmed cells. */
+const cellsOf = (line: string): string[] =>
+  line.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map((c) => c.trim())
+
+/** The first table under a "## N. HEADING" section: header cells and body rows. */
+function tableUnder(content: string, heading: RegExp): { header: string[]; rows: string[][] } | null {
+  const section = content.split(heading)[1]
+  if (!section) return null
+  const body = section.split(/^## /m)[0]
+  const lines = body.split('\n')
+  const at = lines.findIndex((l) => l.trim().startsWith('|'))
+  if (at < 0) return null
+  const header = cellsOf(lines[at])
+  const rows: string[][] = []
+  for (let i = at + 2; i < lines.length && lines[i].trim().startsWith('|'); i++) rows.push(cellsOf(lines[i]))
+  return { header, rows }
+}
+
+/** Index of the first header cell matching `re`, or -1. */
+const col = (header: string[], re: RegExp): number => header.findIndex((h) => re.test(h))
+const pick = (row: string[], i: number): string => (i >= 0 && row[i] && !/^(?:—|-|)$/.test(row[i].trim()) ? row[i] : NOT_STATED)
+
+/**
+ * Read what §4 copies from reports/dfva-market-<code>.md. Column matching is
+ * by header text because legacy market reports carry a six-column §1 while
+ * the scaffolded ones carry the canonical four.
+ */
+export function readMarket(content: string): MarketRead {
+  const s1 = tableUnder(content, /^## 1\. JOB FAMILY MAP.*$/m)
+  const jobFamilies = (s1?.rows ?? []).map((r) => ({
+    family: pick(r, col(s1!.header, /job family/i)),
+    titles: pick(r, col(s1!.header, /entry titles/i)),
+    pressure: pick(r, col(s1!.header, /substitution/i)),
+    skills: pick(r, col(s1!.header, /skills (?:rising|increasing)/i)),
+  }))
+  const confidence = content.match(/CURRENT DISCUSSION SIGNALS — (HIGH|MEDIUM|LOW) CONFIDENCE/)?.[1] ?? null
+  const s4 = tableUnder(content, /^## 4\. SKILL SHIFT SUMMARY.*$/m)
+  const skillShifts = (s4?.rows ?? []).map((r) => ({
+    skill: pick(r, col(s4!.header, /skill/i)),
+    direction: pick(r, col(s4!.header, /direction/i)),
+  }))
+  const s6 = tableUnder(content, /^## 6\. EVIDENCE CONFIDENCE.*$/m)
+  const gaps = (s6?.rows ?? []).map((r) => ({
+    area: pick(r, col(s6!.header, /signal|area/i)),
+    confidence: pick(r, col(s6!.header, /confidence/i)),
+    caveat: pick(r, col(s6!.header, /gap|caveat/i)),
+  }))
+  return { jobFamilies, confidence, skillShifts, gaps }
+}
+
+/** The house phrasing for what the §1 exposure number is (docs/dfva-report-section-authoring.md). */
+export function exposureBasisSentence(
+  b: V4PanelABasis | undefined,
+  exposure: number,
+  median: number,
+  nTitles: number | null,
+  nMedium: number | null,
+): string {
+  const names = b?.sources?.map((s) => s.name).join(' ∪ ') ?? 'no recorded source'
+  const n = b?.sources?.reduce((t, s) => t + ((s as { n?: number }).n ?? 0), 0) ?? 0
+  const counts = [n ? `n = ${n}` : null, nTitles !== null ? `${nTitles} titles` : null].filter(Boolean).join(', ')
+  let basisClause: string
+  switch (b?.tier) {
+    case 'cognate':
+    case 'partial':
+      basisClause = `**Borrowed** from ${names}${counts ? ` (${counts})` : ''} — an estimate for a related population, not a measurement of this cohort.`
+      break
+    case 'field':
+      basisClause = `Rests on a **field-of-education** basis (${names}) — graduates of the whole field, not this program.`
+      break
+    case undefined:
+      basisClause = 'No basis is recorded.'
+      break
+    default:
+      basisClause = `This program's own graduates${counts ? ` (${counts})` : ''}${b.tier === 'exact' ? '' : ` — ${names}`}.`
+  }
+  const caveat = nMedium !== null && nTitles !== null && nMedium > 0 ? ` ${nMedium} of ${nTitles} titles carry only medium mapping confidence.` : ''
+  const which = b?.tier === 'field' ? 'field' : 'portfolio'
+  return `**What the §1 exposure value is.** ${exposure.toFixed(2)}. ${basisClause}${caveat} It sits **${exposure > median ? 'above' : 'at or below'}** the ${which} median of ${median}.`
+}
+
 // ── Rendering ──────────────────────────────────────────────────────────────
 
 const esc = (s: string) => s.replace(/\|/g, '\\|').replace(/\s*\n\s*/g, ' ').trim()
@@ -166,16 +275,59 @@ function gatesBlock(pc: Record<string, any>): string {
   }).join('\n')
 }
 
-/** §5's table is ordered by headroom — the gap to the item's ceiling. */
-function implicationRows(pc: Record<string, any>): string {
+const NO_COST = 'None — no intervention proposed and none needed.'
+const fillCell = (v: string | undefined): string => (v && v.trim() ? esc(v) : AUTHOR_MARK)
+
+/** §5's table is ordered by headroom — the gap to the item's ceiling. A row at
+ *  the instrument maximum takes the fixed Cost string when the fill leaves it empty. */
+function implicationRows(pc: Record<string, any>, fill: ReportFill): string {
   return [...ALL_V4_ITEMS]
     .map((item) => ({ item, score: pc[item.id].score as number }))
     .sort((a, b) => a.score - b.score || a.item.id.localeCompare(b.item.id))
-    .map(
-      ({ item, score }) =>
-        `| ${item.id} ${item.name} | ${score}/3 | ${AUTHOR_MARK} | ${AUTHOR_MARK} | ${mdCite(item.evidenceBase)} |`,
-    )
+    .map(({ item, score }) => {
+      const f = fill.implications?.[item.id]
+      const cost = score === 3 && !f?.cost?.trim() ? NO_COST : fillCell(f?.cost)
+      return `| ${item.id} ${item.name} | ${score}/3 | ${fillCell(f?.implication)} | ${cost} | ${mdCite(item.evidenceBase)} |`
+    })
     .join('\n')
+}
+
+/** §4, seeded from the market report; only the Bearing column is the author's. */
+function marketEvidenceSection(code: string, fill: ReportFill, basisSentence: string): string {
+  const p = path.join(repoRoot, 'reports', `dfva-market-${code}.md`)
+  if (!existsSync(p)) {
+    return `## 4. MARKET EVIDENCE — Basis: reported
+
+<!-- AUTHOR:S4 — reports/dfva-market-${code}.md does not exist yet. Write it first
+     (scripts/dfva-market-scaffold.py ${code}), then re-run this scaffold. -->
+${AUTHOR_MARK}`
+  }
+  const m = readMarket(readFileSync(p, 'utf8'))
+  const families = m.jobFamilies.length ? m.jobFamilies : (fill.jobFamilies ?? [])
+  const t1 = families.length
+    ? families.map((f) => `| ${fillCell(f.family)} | ${fillCell(f.titles)} | ${fillCell(f.pressure)} | ${fillCell(f.skills)} |`).join('\n')
+    : `| ${AUTHOR_MARK} | ${AUTHOR_MARK} | ${AUTHOR_MARK} | ${AUTHOR_MARK} |`
+  const t2 = m.skillShifts.length
+    ? m.skillShifts.map((s) => `| ${esc(s.skill)} | ${esc(s.direction)} | ${fillCell(fill.bearing?.[s.skill])} |`).join('\n')
+    : `| ${AUTHOR_MARK} | ${AUTHOR_MARK} | ${AUTHOR_MARK} |`
+  const gaps = m.gaps.length
+    ? ` Its declared gaps: ${m.gaps.map((g) => `${esc(g.area)} (${esc(g.confidence)} — ${esc(g.caveat)})`).join('; ')}.`
+    : ''
+  return `## 4. MARKET EVIDENCE — Basis: reported
+
+The tables condense [the market report](dfva-market-${code}.md); they report what the market says and do not argue a score.
+
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+${t1}
+
+${basisSentence}
+
+| Signal or shift | Direction | Bearing on the scored items |
+| --- | --- | --- |
+${t2}
+
+**Confidence, restated from the market report.** Its discussion signals are stated at ${m.confidence ? `${m.confidence} confidence` : 'a confidence level the report does not state in its §3 heading'}.${gaps}`
 }
 
 const STANDING_LIMITATIONS = `- Scores describe **documented curriculum intent**, not demonstrated graduate
@@ -201,7 +353,7 @@ const STANDING_LIMITATIONS = `- Scores describe **documented curriculum intent**
 
 // ── Main ───────────────────────────────────────────────────────────────────
 
-function scaffold(code: string): string {
+function scaffold(code: string, fill: ReportFill = {}): string {
   const evPath = path.join(repoRoot, 'dfva', 'source', 'evidence', `${code}.json`)
   const ev = JSON.parse(readFileSync(evPath, 'utf8'))
   const pc = ev.panelCv4
@@ -262,7 +414,7 @@ function scaffold(code: string): string {
   // ── 1 ──
   parts.push(`## 1. POSITION — Basis: measured × scored
 
-**Destination AI Exposure: ${exposure.toFixed(2)}.** Destination titles are mapped to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program${nMedium !== null ? `; ${nMedium} of ${nTitles} titles carry medium mapping confidence` : ''}. Basis: ${describeBasis(basis, jirN, nTitles)}. The ${basis?.tier === 'field' ? 'field-basis' : 'portfolio'} median is ${median}, so this program sits **${exposure > median ? 'above' : 'at or below'}** it.
+**Destination AI Exposure: ${exposure.toFixed(2)}.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program${nMedium !== null ? `; ${nMedium} of ${nTitles} titles carry medium mapping confidence` : ''}. Basis: ${describeBasis(basis, jirN, nTitles)}. The ${basis?.tier === 'field' ? 'field-basis' : 'portfolio'} median is ${median}, so this program sits **${exposure > median ? 'above' : 'at or below'}** it.
 
 **Curriculum Adaptiveness: ${pc.adaptiveness} / 15.** Scored on Panel C ${heading} sub-scale A ${mdCiteByN([1])} from ${cap.vintage} handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
@@ -291,14 +443,8 @@ ${evidenceParagraphs(pc)}`)
 
 ${gatesBlock(pc)}${pc.gates?.G1?.result === 'FAIL' ? '\n\n**G1 FAILS.** A disciplinary-foundation failure is reported regardless of the adaptiveness score: the adaptive capabilities are scored on top of a foundation this program is not documented to establish.' : ''}`)
 
-  // ── 4 ──
-  parts.push(`## 4. MARKET EVIDENCE — Basis: reported
-
-<!-- AUTHOR:S4 — condense reports/dfva-market-${code}.md into two tables: destination
-     job families with exposure values, and signals/skill shifts with direction and the
-     scored item each bears on. Restate the market report's confidence. No scoring
-     language. -->
-${AUTHOR_MARK}`)
+  // ── 4 ── seeded from the market report; the author fills Bearing only.
+  parts.push(marketEvidenceSection(code, fill, exposureBasisSentence(basis, exposure, median, nTitles, nMedium)))
 
   // ── 5 ──
   parts.push(`## 5. CURRICULUM IMPLICATIONS — Basis: inferred
@@ -309,12 +455,12 @@ Each row states an option and what it costs, not a directive. Anchor text, seque
 and the score deltas are in the [improvement plan](dfva-v4-recommend-${code}.md); rows
 below are ordered by headroom, which is not the plan's P-lever order.
 
-<!-- AUTHOR:S5 — fill Implication and Cost per row from
-     reports/dfva-v4-recommend-${code}.md. Options with costs, never directives. -->
+${fill.implications ? '' : `<!-- AUTHOR:S5 — fill Implication and Cost per row from
+     reports/dfva-v4-recommend-${code}.md via --fill. Options with costs, never directives. -->
 
-| Item | Score | Implication | Cost | Sources |
+`}| Item | Score | Implication | Cost | Sources |
 | --- | --- | --- | --- | --- |
-${implicationRows(pc)}`)
+${implicationRows(pc, fill)}`)
 
   // ── 6 ──
   const amb: string[] = pc.ambiguities ?? []
@@ -346,13 +492,53 @@ ${canonicalReferences()}`)
   return parts.join('\n\n') + '\n'
 }
 
-const codes = process.argv.slice(2)
-if (!codes.length) {
-  console.error('usage: npx tsx dfva-v4-report-scaffold.ts <code> [<code> …]')
-  process.exit(1)
+/** What the author needs for --fill: the seeded signals and the §5 rows. */
+function fillTemplate(code: string): Record<string, unknown> {
+  const ev = JSON.parse(readFileSync(path.join(repoRoot, 'dfva', 'source', 'evidence', `${code}.json`), 'utf8'))
+  const pc = ev.panelCv4
+  const mp = path.join(repoRoot, 'reports', `dfva-market-${code}.md`)
+  const m = existsSync(mp) ? readMarket(readFileSync(mp, 'utf8')) : null
+  return {
+    code,
+    // Only when the market report's §1 has no table: otherwise the seeded rows win.
+    ...(m && m.jobFamilies.length === 0 ? { jobFamilies: [{ family: '', titles: '', pressure: '', skills: '' }] } : {}),
+    bearing: Object.fromEntries((m?.skillShifts ?? []).map((s) => [s.skill, ''])),
+    implications: Object.fromEntries(ALL_V4_ITEMS.map((i) => [i.id, { implication: '', cost: '' }])),
+    context: {
+      items: ALL_V4_ITEMS.map((i) => ({ id: i.id, name: i.name, score: pc[i.id].score, rationale: pc[i.id].rationale })),
+      skillShifts: m?.skillShifts ?? [],
+      recommendPlan: `reports/dfva-v4-recommend-${code}.md`,
+      rules: [
+        'jobFamilies (present only when the market §1 has no table): three or so families from the market report and the destinations footer; no empty cell — write "not stated in the market report".',
+        'Bearing maps each signal to the scored items it bears on (C1–C5, W1–W3) — the join between market and instrument.',
+        'Implication: what the score means given §4, falsifiable against it; if it would read the same for any program it is too generic.',
+        'Cost: what acting would take (displaced subjects, staff capability, placement capacity, marking load). Options with costs, never directives.',
+        'Source both §5 columns from the improvement plan; §5 must not contradict it. A level-3 row with an empty cost gets the fixed "none needed" string.',
+      ],
+    },
+  }
 }
-for (const code of codes) {
-  const out = path.join(repoRoot, 'reports', `dfva-v4-${code}.md`)
-  writeFileSync(out, scaffold(code), 'utf8')
-  console.log(`wrote reports/dfva-v4-${code}.md`)
+
+function main(): void {
+  const argv = process.argv.slice(2)
+  const fillPath = argv.includes('--fill') ? argv[argv.indexOf('--fill') + 1] : null
+  const TEMPLATE = argv.includes('--fill-template')
+  const codes = argv.filter((a) => !a.startsWith('--') && a !== fillPath)
+  if (!codes.length) {
+    console.error('usage: npx tsx dfva-v4-report-scaffold.ts <code> [<code> …] [--fill-template | --fill <json>]')
+    process.exit(1)
+  }
+  if (TEMPLATE) {
+    console.log(JSON.stringify(fillTemplate(codes[0]), null, 2))
+    return
+  }
+  const fill: ReportFill = fillPath ? (JSON.parse(readFileSync(path.resolve(fillPath), 'utf8')) as ReportFill) : {}
+  if (fillPath && codes.length !== 1) throw new Error('--fill takes exactly one code')
+  for (const code of codes) {
+    const out = path.join(repoRoot, 'reports', `dfva-v4-${code}.md`)
+    writeFileSync(out, scaffold(code, fill), 'utf8')
+    console.log(`wrote reports/dfva-v4-${code}.md${fillPath ? ` from ${fillPath}` : ''}`)
+  }
 }
+
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main()
