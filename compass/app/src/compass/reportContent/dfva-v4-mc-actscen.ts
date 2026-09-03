@@ -1,0 +1,232 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Master of Actuarial Science (Enhanced) (MC-ACTSCEN) — Durability Report (v4 draft)",
+  institution: "University of Melbourne",
+  markdown: `# DFVA v4 DURABILITY REPORT: Master of Actuarial Science (Enhanced) (MC-ACTSCEN)
+
+**Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
+**Assessment date:** 2026-08-29
+**Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-actscen (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 33 pages captured
+**Course Director:** Xueyuan Wu
+
+> **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
+> ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
+> [v4.1 recommendation](../docs/dfva-panelc-v41-recommendation.md), 2026-08-14;
+> [v4.2 amendment](../docs/dfva-rubric-evolution.md), 2026-08-16).
+> Neither sub-score is comparable with any v3.1 value.
+
+> **This program is outside the v3.1 registry, but not outside Panel A.** Master of Actuarial Science (Enhanced)
+> has never been assessed on v3.1, so it has no adaptiveness score on the published
+> instrument. Exposure does not depend on the scoring instrument, so §1 reports a value
+> computed by the identical Panel A procedure, on the basis stated there.
+
+> **The exposure value is an estimate, not this program's own graduates.** It rests on
+> a cognate program basis (Bachelor of Commerce (Actuarial Studies)). What such a
+> value may and may not be used for is set out in
+> [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).
+
+## 1. POSITION — Basis: measured × scored
+
+**Destination AI Exposure: 97.99.** Destination titles are mapped to the published Felten AI Occupational Exposure (AIOE) index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 15 titles carry medium mapping confidence. Basis: borrowed from a related program's alumni record — Bachelor of Commerce (Actuarial Studies) (n = 101, 15 titles); an estimate, not this program's own graduates. The portfolio median is 90.9, so this program sits **above** it.
+
+**Curriculum Adaptiveness: 2 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
+
+**Workplace Practice: 1 / 9.** Scored on sub-scale W [[19]](https://www.legislation.gov.au/F2021L00488) in the same pass, from the same extract. The position axis remains adaptiveness alone; the workplace sub-score is reported beside it, not folded into the axis, and the two are never added together.
+
+**Position: High exposure · low adaptiveness.** Assigned against the v4 medians (exposure 90.9, adaptiveness 9), computed from all 34 reference-cohort programs re-scored on this instrument. This is the deterministic median rule the site applies, not a probabilistic stability class.
+
+## 2. PANEL C v4.2 SCORECARD — Basis: scored
+
+The two sub-scales are kept separate and carry their own subtotals. Panel C has no
+combined total: the sub-scores are reported side by side and never added.
+
+| Item | Score | Rationale (anchor-referenced) |
+| --- | --- | --- |
+| C1 Distributed cognition & relational capability [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 0 | DEMOTED from 1 to 0 on adversarial verification. The only collaboration/teamwork claim in the extract ('Able to collaborate and be effective in team work') sits under the handbook's 'Graduate attributes' heading, not 'Intended learning outcomes.' The rubric's own W1 anchor treats 'learning outcomes' and 'graduate attributes' as two distinct categories it names separately, while C1's Level 1 anchor names only 'learning outcomes.' Under the strict reading the rubric's own drafting distinction implies, this claim does not satisfy C1 Level 1's literal condition, making Level 0 ('No collaborative, stakeholder or team-based work is assessed anywhere in the core' plus no qualifying outcomes claim) the defensible score. The item's own ambiguities note concedes 'this is a broader reading than a core-unit-specific claim would be' -- i.e. it flags the ambiguity and then resolves it UPWARD (to Level 1) rather than downward, contradicting the explicit rule 'Never resolve ambiguity upward.' This is a plausible, not certain, misapplication -- a reasonable scorer could read 'learning outcomes' loosely enough to include graduate attributes -- but on the rubric's own tie-break rule the lower level should have won. |
+| C2 Hybrid metacognition & evaluative judgement [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) | 0 | Matches Level 0 ('No assessment requires students to appraise the quality of work — their own, peers', or a tool's'). The closest program-level claim, critically evaluating literature, is evaluation of external sources rather than appraisal of student/peer/tool-produced work, and it is not tied to any identified core assessment task. No core or capstone subject's assessment table shows peer review, structured critique, portfolio-against-standards, or reliance-justification. |
+| C3 Digital & AI literacy, including governance [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 1 | Matches Level 1 ('AI or digital tools appear only as electives or as tool operation/training'). The core subject ACTL90007 introduces machine learning as an applied forecasting technique, and 'Use of computer software' recurs as a generic-skill outcome across core subjects, but this stays at the operational tool-use level TEQSA flags as non-durable; nowhere in the core does the extract address AI limitations, ethics, bias or governance, which Level 2 requires. |
+| C4 Life-long learning & transfer [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 1 | Ambiguous between Level 1 ('Transfer is claimed in outcomes... but not assessed') and Level 2 ('at least one core assessment requires application to novel or unfamiliar problems'); resolved to the lower level per the scoring-direction rule. 'Application of theory to practice' recurs as a generic-skill outcome across nearly every core subject, and the program ILOs claim a research/real-world project, but no core assessment is documented with case variation, unseen datasets, or explicitly novel/unfamiliar problems — the practical-problems language stays generic. |
+| C5 Inquiry & evidence generation [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 0 | Ambiguous between Level 0 ('Secondary synthesis only; no research-methods training') and Level 1 ('Introductory methods unit; literature-review assessment'); resolved to the lower level per the scoring-direction rule. The program ILOs claim literature critique and a research/real-world project, which is Level-1-shaped language, but the extract identifies no specific core or capstone unit whose assessment operationalises either claim — no literature-review assignment or research-methods unit appears among the eight compulsory/capstone subjects. |
+| **Adaptive capabilities** | **2 / 15** | |
+| W1 Professional communication & conduct [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) | 0 | Matches Level 0 ('All core assessment is in academic genres addressed to the marker (exams, essays, lab reports); no professional-genre or spoken communication is assessed'). Every compulsory and capstone subject's assessment table (e.g. ACTL90005) lists only individual written assignments and exams; the only presentations anywhere in the program ('Group Presentation') sit in elective subjects ACTL90010/ACTL90011, not core. |
+| W2 Authentic task design [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) | 1 | Matches Level 1 ('Contextualised or scenario-framed tasks appear... but the artefact produced and the criteria applied remain academic'), not Level 2 (task reproduces a professional task end to end, artefact and criteria drawn from practice). Core subjects are consistently framed around insurance/finance scenarios (reserving, reinsurance, ruin theory, run-off triangles, premiums and reserves for assurance/annuity contracts), but the assessed artefact in every case is an exam answer or written assignment marked on technical correctness, not a practitioner deliverable judged against practice-drawn criteria. |
+| W3 Work-situated learning [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) | 0 | Matches Level 0 ('No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure'). The full 16-subject structure (6 compulsory core, 2 capstones, 8 electives) contains no placement, practicum, internship, or community-based subject, and no cohort in the extract is documented as already practising in the profession. |
+| **Workplace practice** | **1 / 9** | |
+
+**C1 Distributed cognition & relational capability — 0/3**
+
+> Able to collaborate and be effective in team work.
+>
+> Group project (4000 words equivalent, in groups of 3-4 students)
+>
+> Group Assignment, Groups of 4, 5 page limit (2000 words per group, 500 words per student)
+
+**C2 Hybrid metacognition & evaluative judgement — 0/3**
+
+> Interpret and critically evaluate articles in the actuarial research literature.
+
+**C3 Digital & AI literacy, including governance — 1/3**
+
+> Explain and apply elementary principles of machine learning.
+>
+> Use of computer software
+
+**C4 Life-long learning & transfer — 1/3**
+
+> Application of theory to practice
+>
+> Execute a project requiring research or a real-world application;
+
+**C5 Inquiry & evidence generation — 0/3**
+
+> Interpret and critically evaluate articles in the actuarial research literature.
+>
+> Execute a project requiring research or a real-world application;
+
+**W1 Professional communication & conduct — 0/3**
+
+> Individual Assignment 1
+>
+> Mid-semester exam (Week 7‐8)
+>
+> End-of-semester exam
+>
+> Group Presentation
+
+**W2 Authentic task design — 1/3**
+
+> Topics include distributions of accumulations and present values; stochastic interest rate models; time series models; an introduction to ruin theory; claim run-off triangles; stochastic simulation.
+>
+> Define the gross random future loss and calculate gross premiums and reserves of assurance and annuity contracts.
+
+**W3 Work-situated learning — 0/3**
+
+> The degree consists of 16 semester-length subjects comprising 6 compulsory core subjects, 2 capstone subjects and 8 elective subjects.
+
+## 3. GATES — Basis: scored
+
+- **G1 Disciplinary foundation:** PASS — Meets the PASS criterion: 'an accredited sequence' with 'progressive technical or methodological depth.' The course carries Actuaries Institute Australia (AIA) professional accreditation with exam exemptions tied to core-subject performance, and the compulsory core forms explicit prerequisite chains (Mathematics of Finance I → II → III across three semesters; Life Insurance Models I → 2 feeding the Life Contingencies capstone), giving a coherent specialist actuarial identity rather than generic or interchangeable content.
+- **G2 Decision-making under uncertainty:** PASS — Meets the PASS criterion's 'simulations/capstones... with real uncertainty and accountability' clause, though this is a closer call than G1. Both capstones require quantifying and managing genuine actuarial uncertainty under hurdle-assessed exams — Life Contingencies covers mortality profit, reserving and 'zeroising' future negative cashflows; General Insurance Modelling covers loss distributions with and without reinsurance, extreme value theory and aggregate-claims recursion. The assessed work is individual technical calculation rather than an explicitly defended trade-off argument or a live external-accountability project, which is why this gate is flagged as more marginal than G1.
+
+## 4. MARKET EVIDENCE — Basis: reported
+
+The tables condense [the market report](dfva-market-mc-actscen.md); they report what the market says and do not argue a score.
+
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Actuaries | Actuarial Analyst; Actuarial Consultant; Actuarial Manager; Actuary; Graduate Actuarial Analyst; Pricing Analyst | not stated in the market report | not stated in the market report |
+| Accountants and Auditors | Chartered Accountant; Accountant; Business Services Accountant; Audit Manager; Audit Graduate; Accountant (General); External Auditor; Assistant Accountant; Certified Practising Accountant; Management Accountant; Forensic Accountant | not stated in the market report | recurring keywords in the advertisement sample: Audit sampling, Financial statement analysis, ASRS sustainability assurance, Tax compliance |
+| Personal Financial Advisors | Financial Consultant; Financial Investment Adviser | not stated in the market report | not stated in the market report |
+| Financial Managers | Corporate Treasurer; Director - Tax Services; Financial Controller; Financial Institution Branch Manager; Group Tax Manager; Senior Tax Manager | not stated in the market report | recurring keywords in the advertisement sample: compliance, budget, stakeholder, risk |
+| Computer Systems Analysts | Business Intelligence Analyst; Clinical Informatics Analyst (Outpatients); Data and Integration Analyst; ICT Business Analyst; IT Graduate; Technical Business Analyst | not stated in the market report | recurring keywords in the advertisement sample: Requirements analysis, System specification, Stakeholder engagement, AI-tooling literacy |
+
+**What the §1 exposure value is.** 97.99. **Borrowed** from Bachelor of Commerce (Actuarial Studies) (n = 101, 15 titles) — an estimate for a related population, not a measurement of this cohort. 6 of 15 titles carry only medium mapping confidence. It sits **above** the portfolio median of 90.9.
+
+| Signal or shift | Direction | Bearing on the scored items |
+| --- | --- | --- |
+| Audit sampling | **↑ Rising** | Bears on W2 (authentic task design): audit sampling is the practitioner artefact the core does not yet assess end to end; and C2 (evaluative judgement): sampling adequacy is itself a criterion-referenced quality judgement. |
+| Financial statement analysis | **↑ Rising** | Bears on C5 (inquiry & evidence generation): analysis is the evidence-generation skill the item scores; and C4 (life-long learning & transfer): the analysis method must transfer across novel reporting contexts, not stay fixed. |
+| ASRS sustainability assurance | **↑↑ Rising sharply** | Bears on C4 (life-long learning & transfer): the Australian Sustainability Reporting Standards are a still-evolving standard, so assurance competence here is a transfer capability, not fixed content; and W2 (authentic task design): a defensible ASRS engagement is the practitioner artefact the item requires. |
+| Tax compliance | **→ Stable** | Bears on W2 (authentic task design) only indirectly: tax compliance is procedural work already framed by scenario-based core content, so it carries less headroom pressure than the other Accountants and Auditors skills above. |
+| Internal controls | **↑ Rising** | Bears on C3 (digital & AI literacy, including governance): internal controls over AI-generated estimates is a governance skill beyond tool operation; and C2 (evaluative judgement): verifying automated anomaly-detection output is itself a reliance-judgement task. |
+| compliance | **→ Stable** | Bears on W1 (professional communication & conduct): compliance work sits inside a regulatory conduct frame comparable to the CPD regimes governing the program's other named professions; and C1 (distributed cognition & relational capability): the Financial Managers signal pairs compliance with stakeholder coordination. |
+
+**Confidence, restated from the market report.** Its discussion signals are stated at HIGH confidence. Its declared gaps: Destination basis (LOW — Field-of-education grain (081103 Insurance and Actuarial Studies): the destinations are the field's, not this program's.); Actuaries — regulatory and statutory instruments (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Actuaries — scholarly and grey-literature studies (HIGH — 2 recorded claim(s); retrieved 2026-08-24.); Actuaries — trade and professional press (HIGH — 2 recorded claim(s); retrieved 2026-08-24.); Actuaries — job-advertisement signals (HIGH — 10 recorded claim(s); retrieved 2026-08-24.); Actuaries — practitioner discourse (HIGH — 59 recorded claim(s); retrieved 2026-08-24.); Actuaries — L3 via factiva (LOW — Search returned nothing (, 2026-08-30): OpenAthens session expired 2026-08-30; Factiva L3 trade-press lane unavailable. Gap logged, not evidence of quiet. Re-run factiva_reauth.py then factiva_backfill.py.); Actuaries — record caveat (HIGH — L3 Factiva trade-press lane unavailable this run (OpenAthens auth expired 2026-08-30; logged to factiva_backlog.json). L3 covered by web trade press / professional-body publications instead. L1/L2 sources are Australian regulatory/scholarly (ACS, Actuaries Institute, AMSI, JSA Gen AI Capacity Study) plus international scholarly (arXiv/Nature) scoped as such. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); last30days --hiring-signals not run separately. L5 practitioner corpus (last30days) was already present from a prior run and was verified, not re-swept. Confidence now rests on >=2 L1/L2 claims plus the declared L5 corpus.); Accountants and Auditors — regulatory and statutory instruments (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Accountants and Auditors — scholarly and grey-literature studies (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Accountants and Auditors — trade and professional press (LOW — No claim recorded in this lane.); Accountants and Auditors — job-advertisement signals (HIGH — 9 recorded claim(s); retrieved 2026-08-24.); Accountants and Auditors — practitioner discourse (HIGH — 59 recorded claim(s); retrieved 2026-08-24.); Personal Financial Advisors — regulatory and statutory instruments (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Personal Financial Advisors — scholarly and grey-literature studies (HIGH — 1 recorded claim(s); retrieved 2026-08-24.); Personal Financial Advisors — trade and professional press (LOW — No claim recorded in this lane.); Personal Financial Advisors — job-advertisement signals (HIGH — 10 recorded claim(s); retrieved 2026-08-24.); Personal Financial Advisors — practitioner discourse (HIGH — 51 recorded claim(s); retrieved 2026-08-24.); Personal Financial Advisors — L3 via factiva (LOW — Search returned nothing (auth_expired, 2026-08-30): OpenAthens session expired (re-run factiva_reauth.py). Logged to factiva_backlog.json; L3 trade-press lane pending re-auth backfill.); Personal Financial Advisors — record caveat (HIGH — L3 Factiva trade-press lane pending re-auth (auth_expired 2026-08-30); backfill via factiva_backlog.json.); Personal Financial Advisors — record caveat (HIGH — L5 corpus is a broad AI-discourse sample (Hacker News / GitHub), not occupation-specific practitioner communities; treat as indicative, not representative.); Financial Managers — regulatory and statutory instruments (HIGH — 2 recorded claim(s); retrieved 2026-08-24.); Financial Managers — scholarly and grey-literature studies (HIGH — 3 recorded claim(s); retrieved 2026-08-24.); Financial Managers — trade and professional press (LOW — No claim recorded in this lane.); Financial Managers — job-advertisement signals (HIGH — 15 recorded claim(s); retrieved 2026-08-24.); Financial Managers — practitioner discourse (HIGH — 59 recorded claim(s); retrieved 2026-08-24.); Financial Managers — L3 via factiva (LOW — Search returned nothing (auth_expired, 2026-08-29): Factiva/OpenAthens session expired; L3 trade-press lane omitted this pass. Backfill after re-auth.); Financial Managers — record caveat (HIGH — L3 (Factiva trade-press) omitted this pass: OpenAthens session expired 2026-08-29; backfill pending re-auth.); Computer Systems Analysts — regulatory and statutory instruments (HIGH — 2 recorded claim(s); retrieved 2026-08-27.); Computer Systems Analysts — scholarly and grey-literature studies (HIGH — 2 recorded claim(s); retrieved 2026-08-27.); Computer Systems Analysts — trade and professional press (HIGH — 2 recorded claim(s); retrieved 2026-08-27.); Computer Systems Analysts — job-advertisement signals (HIGH — 11 recorded claim(s); retrieved 2026-08-27.); Computer Systems Analysts — practitioner discourse (HIGH — 58 recorded claim(s); retrieved 2026-08-27.); Computer Systems Analysts — search (LOW — Search returned nothing: Factiva L3: OpenAthens session expired 2026-08-27 (auth_expired) — L3 rests on web trade press (ACS Digital Pulse, JSA study, TCA, Adaca).); Computer Systems Analysts — search (LOW — Search returned nothing: L5 grounding source unreachable (keyless web search unavailable); reddit, x, youtube, hackernews sampled.); Computer Systems Analysts — search (LOW — Search returned nothing: L5 TikTok and Instagram unavailable (has_scrapecreators: false) — coverage gap, not evidence of quiet.); Computer Systems Analysts — record caveat (HIGH — L3 Factiva lane unavailable this run (OpenAthens auth expired); L3 claims drawn from web trade press only.); Computer Systems Analysts — record caveat (HIGH — ANZSCO set by best-effort mapping; no authoritative O*NET->ANZSCO occupation mapping in repo.); Computer Systems Analysts — record caveat (HIGH — L2 studies are US/enterprise samples; treated as indicative for Australian analysts, not direct local measurement.); Computer Systems Analysts — record caveat (HIGH — 2026-08-29: restored from the genuine 2026-08-27 research (git rev bf79597) after a concurrent session's broad commit (4a6cbae) accidentally overwrote it with pre-existing fabricated content. See the profession record, 'Fabrication incident 2026-08-24'.); Statistical Assistants (LOW — record is not empirical-five-lane-v1; no claim from this occupation is used in this report.); Insurance Sales Agents (LOW — record is not empirical-five-lane-v1; no claim from this occupation is used in this report.); Tellers (LOW — record is not empirical-five-lane-v1; no claim from this occupation is used in this report.).
+
+## 5. CURRICULUM IMPLICATIONS — Basis: inferred
+
+This section argues from the preceding evidence; it is interpretation, not observation.
+
+Each row states an option and what it costs, not a directive. Anchor text, sequencing
+and the score deltas are in the [improvement plan](dfva-v4-recommend-mc-actscen.md); rows
+below are ordered by headroom, which is not the plan's P-lever order.
+
+| Item | Score | Implication | Cost | Sources |
+| --- | --- | --- | --- | --- |
+| C1 Distributed cognition & relational capability | 0/3 | Level 0 means no core unit assesses collaborative, stakeholder or team-based work, while the 'compliance' skill row (§4) shows Financial Managers postings pairing compliance work with stakeholder coordination — a destination this program's cognate exposure basis reaches rewards a capability the core does not test. | The plan's first step is an outcome-statement redraft only (recommend plan P1, low effort); reaching Level 3, documented human/AI role allocation in a capstone, is a heavier capstone redesign (recommend plan C1:3). | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| C2 Hybrid metacognition & evaluative judgement | 0/3 | Level 0 means no assessment appraises the quality of student, peer or tool-produced work, while 'internal controls' and 'audit sampling' (§4, both Rising) are recurring advertisement keywords tied to the audit-trail requirement that auditors document verification of automated anomaly detection — a reliance-judgement skill this program's core does not assess. | The plan's first step is an outcome-statement redraft only (recommend plan P2, low effort); reaching Level 3, documented and justified reliance decisions on AI-flagged output, needs new rubric design and added marking load (recommend plan C2:3). | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) |
+| C5 Inquiry & evidence generation | 0/3 | Level 0 means no research-methods training beyond secondary synthesis, while 'financial statement analysis' (§4, Rising) is the second-highest-volume skill row in this program's market report — the program has not built the evidence-generation practice the market rewards. | The plan's first step is one new or repurposed core subject (recommend plan P3, medium effort); reaching Level 3 needs viva or defence scheduling and added supervision load (recommend plan C5:3). | [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| W1 Professional communication & conduct | 0/3 | Level 0 means every core assessment is in academic genres addressed to the marker, while 'compliance' (§4) sits inside the CPD-governed professions in this program's destinations, each carrying a conduct dimension the exam- and essay-only core does not test. | The plan's first step pairs an outcome-statement redraft with one staff-audience presentation (recommend plan P4, low effort); reaching Level 3 needs an external practitioner panel, sourced and briefed each offering (recommend plan W1:3). | [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) |
+| W3 Work-situated learning | 0/3 | Level 0 means no placement, practicum or community-based project appears anywhere in the 16-subject structure, while 'compliance' (§4) sits inside the same CPD-governed professions whose new entrants — personal financial advisers — must complete a supervised professional year, a statutory work-situated requirement this program's elective-only structure does not prepare graduates to enter. | The plan's first step is placement-partner sourcing with no core-unit change (recommend plan P5, medium effort); reaching Level 3 needs sustained placement-partner capacity and supervision funding (recommend plan W3:3). | [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) |
+| C3 Digital & AI literacy, including governance | 1/3 | Level 1 means AI and digital tools stay at operational tool-use, while 'internal controls' (§4, Rising) ties directly to the audit-trail governance requirement behind it — the program teaches machine-learning tool operation but not the governance the market rewards. | Reaching Level 2 is a medium-effort curriculum-hours reallocation and staff development in AI-ethics content (recommend plan P6); Level 3 adds case-study and governance-assessment design (recommend plan C3:3). | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
+| C4 Life-long learning & transfer | 1/3 | Level 1 means transfer is claimed in outcomes but not assessed, while 'ASRS sustainability assurance' (§4, Rising sharply) is the single sharpest-moving skill on this program's own market report — the program has not built the case-variation practice that transfer skill requires. | Reaching Level 2 needs case development and instructor familiarisation with the ASRS standard (recommend plan P7, medium effort); Level 3 adds a capstone redesign for self-scoped transfer work (recommend plan C4:3). | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
+| W2 Authentic task design | 1/3 | Level 1 means the core's insurance and finance scenarios stay academic in artefact and criteria, while 'audit sampling' and 'internal controls' (§4, both Rising) recur at the highest advertisement volume in this program's market report — the scenario framing is already present but the assessed output is not the practitioner artefact the market names. | Reaching Level 2 is a medium-effort task redesign and moderator training against practice standards (recommend plan P8); Level 3 needs sequenced redesign across multiple core subjects (recommend plan W2:3). | [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) |
+
+## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
+
+**Panel A metadata.** Basis tier **cognate** (cognate program), n = 101, 15 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; destination titles mapped to the published Felten index. Basis note: Actuarial discipline; the only actuarial alumni record (the alumni-record index names it for mc-actsc).
+
+**Panel C provenance.** Scored from the 2026 handbook capture (33 pages) and verified on 2026-08-29: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
+
+**Ambiguities and construct-boundary notes** (4):
+
+- C1: collaboration appears only as a program-level graduate attribute, not within any single core subject's own learning outcomes; treated as satisfying the 'learning outcomes' clause of Level 1, but this is a broader reading than a core-unit-specific claim would be.
+- C4: 'application of theory to practice' and 'solution of a range of practical problems' recur across nearly all core subjects and could be read as Level 2's novel/unfamiliar-problem application; resolved to Level 1 because no core assessment explicitly documents case variation, unseen data, or cross-context framing.
+- C5: program-level ILOs ('critically evaluate articles in the actuarial research literature'; 'execute a project requiring research or a real-world application') are Level-1-shaped claims, but no identified core unit's assessment operationalises them; resolved to Level 0 per the lower-level rule.
+- G2: capstone assessment quantifies genuine actuarial uncertainty (mortality risk, claims severity, reinsurance, reserving) but is individual exam-based calculation rather than an explicitly defended trade-off decision or live/external-accountability project; resolved PASS on the reading that stochastic capstone modelling of real actuarial uncertainty satisfies the gate's 'capstones... with real uncertainty' clause.
+
+**Standing v4 limitations.**
+
+- Scores describe **documented curriculum intent**, not demonstrated graduate
+  capability; the extrapolation warrant is constructive alignment, stated as an
+  assumption (Kane [17]).
+- Indigenous data governance is not scored as a distinct construct; C3 level 3
+  counts it where taught (CARE Principles; Lodge et al. 2025 Principle 4 [[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/)).
+- Perception/manipulation (Frey & Osborne's third bottleneck [[7]](https://doi.org/10.1016/j.techfore.2016.08.019)) is unscored.
+- A high W3 score describes curriculum design, not student welfare: required
+  placements can disadvantage students who cannot afford unpaid work or
+  relocation (Accord [[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report); Fawns et al. [[24]](https://doi.org/10.1080/02602938.2024.2404634) on ableism and elitism).
+- W2 is scored against each discipline's own criterion situation [[22]](https://doi.org/10.1007/BF02504676), so
+  cross-disciplinary W2 comparison is weaker than within-discipline comparison.
+- W3 excludes simulation by design (simulation scores in W2), so programs whose
+  professional norm is high-fidelity simulation may score low on W3 for a
+  defensible pedagogic choice. Read the two sub-scores together.
+- The authentic-assessment employability evidence rests largely on student
+  self-report [[25]](https://doi.org/10.1016/j.stueduc.2021.101030); W2's warrant is documented design fidelity plus the
+  assessment-drives-learning mechanism [26], not demonstrated employment effects.
+- Work-integrated learning is NOT claimed to raise employment rates — Jackson &
+  Collings [[28]](https://doi.org/10.1007/s10734-017-0216-z) found it does not. W3's warrant is skill development, employment
+  relevance and professional identity formation [[29]](https://doi.org/10.1080/07294360.2016.1139551).
+
+## REFERENCES
+
+1. Lodge JM, de Barba P, Ainscough L, et al. (2026). Assuring quality learning in a gen AI-integrated future: The role of adaptive capabilities. TEQSA. https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities
+2. Lodge JM, et al. (2025). Australian Framework for Artificial Intelligence in Higher Education. ACSES. (Principles 4 & 6.) https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/
+3. Lodge JM, Howard S, Bearman M, Dawson P & Associates (2023). Assessment reform for the age of artificial intelligence. TEQSA. https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf
+4. Tai J, Ajjawi R, Boud D, Dawson P, Panadero E (2018). Developing evaluative judgement: enabling students to make decisions about the quality of work. Higher Education 76:467–481. https://doi.org/10.1007/s10734-017-0220-3
+5. Deming DJ (2017). The growing importance of social skills in the labor market. Quarterly Journal of Economics 132(4):1593–1640. https://doi.org/10.1093/qje/qjx022
+6. Deming DJ, Noray K (2020). Earnings dynamics, changing job skills, and STEM careers. Quarterly Journal of Economics 135(4):1965–2005. https://doi.org/10.1093/qje/qjaa021
+7. Frey CB, Osborne MA (2017). The future of employment: how susceptible are jobs to computerisation? Technological Forecasting & Social Change 114:254–280. https://doi.org/10.1016/j.techfore.2016.08.019
+8. Brynjolfsson E, Mitchell T, Rock D (2018). What can machines learn, and what does it mean for occupations and the economy? AEA Papers & Proceedings 108:43–47. (The SML rubric — the declarative-anchor form R1 copies.) https://doi.org/10.1257/pandp.20181019
+9. Pellegrino JW, Hilton ML (eds) (2012). Education for Life and Work: Developing Transferable Knowledge and Skills in the 21st Century. National Research Council. https://www.nationalacademies.org/read/13398/chapter/2
+10. Measuring adaptive expertise and adaptive performance in (becoming) healthcare professionals: a scoping review of measurement instruments (2025). Advances in Health Sciences Education. https://doi.org/10.1007/s10459-025-10413-y
+11. Long D, Magerko B (2020). What is AI literacy? Competencies and design considerations. CHI 2020. https://doi.org/10.1145/3313831.3376727
+12. UNESCO (2024). AI competency framework for students. https://unesdoc.unesco.org/ark:/48223/pf0000391105
+13. European Commission JRC — DigComp (Digital Competence Framework for Citizens); basis of the Australian Digital Capability Framework (DEWR, 2022).
+14. Boyer EL (1990). Scholarship Reconsidered: Priorities of the Professoriate. Carnegie Foundation.
+15. Brew A (2006). Research and Teaching: Beyond the Divide. Palgrave Macmillan.
+16. Knight FH (1921). Risk, Uncertainty and Profit. Houghton Mifflin.
+17. Kane MT (2013). Validating the interpretations and uses of test scores. Journal of Educational Measurement 50(1):1–73. (The validity-argument frame for the v4 evidence plan.)
+18. Woods L, Lyons K, et al. (2026). Assessing the effectiveness of artificial intelligence education and training for healthcare workers: a systematic review. BMC Medical Education 26:549. (The construct-validity critique v4 answers.) https://doi.org/10.1186/s12909-026-08969-3
+19. Higher Education Standards Framework (Threshold Standards) 2021, F2021L00488. Clause 1.4.2(b)–(d) (generic and employment-related learning outcomes, applied in disciplinary context), 1.4.3 (assessment must confirm the outcomes), 5.4.1 (work-integrated learning and placements are quality assured, including supervision). https://www.legislation.gov.au/F2021L00488
+20. QILT Employer Satisfaction Survey (ESS) — national employer ratings across five graduate attribute domains: foundation, adaptive, collaborative, technical and employability skills. (2025 national results: technical 94.0%, foundation 93.3%, adaptive 90.7%, collaborative 88.6%, employability 86.2%.) https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29
+21. Core Skills for Work Developmental Framework (Australian Government, 2013). Three clusters — navigate the world of work, interact with others, get the work done — over ten skill areas and five performance stages. Anchor-content source; a VET framework, not a higher-education construct authority. https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework
+22. Gulikers JTM, Bastiaens TJ, Kirschner PA (2004). A five-dimensional framework for authentic assessment. Educational Technology Research and Development 52(3):67–86. (Task, physical context, social context, result/form, criteria; authenticity is a continuum defined against the criterion situation — design rule R4.) https://doi.org/10.1007/BF02504676
+23. Villarroel V, Bloxham S, Bruna D, Bruna C, Herrera-Seda C (2018). Authentic assessment: creating a blueprint for course design. Assessment & Evaluation in Higher Education 43(5):840–854. (Realism, cognitive challenge, evaluative judgement — the third dimension is DFVA C2, not W2.) https://doi.org/10.1080/02602938.2017.1412396
+24. Fawns T, Bearman M, Dawson P, Nieminen JH, Ashford-Rowe K, Willey K, Jensen LX, Damşa C, Press N (2024). Authentic assessment: from panacea to criticality. Assessment & Evaluation in Higher Education 50(3):396–408. (The label risks becoming a 'thought-terminating cliché' — the constraint behind R4.) https://doi.org/10.1080/02602938.2024.2404634
+25. Sokhanvar Z, Salehi K, Sokhanvar F (2021). Advantages of authentic assessment for improving the learning experience and employability skills of higher education students: a systematic literature review. Studies in Educational Evaluation 70:101030. (26 studies, 2010–2019; outcomes largely student self-report.) https://doi.org/10.1016/j.stueduc.2021.101030
+26. Gibbs G, Simpson C (2004). Conditions under which assessment supports students' learning. Learning and Teaching in Higher Education 1:3–31. (Assessment governs what and how students study — the mechanism warrant for scoring assessment design rather than curriculum statement.)
+27. Kuh GD (2008). High-Impact Educational Practices: What They Are, Who Has Access to Them, and Why They Matter. AAC&U. (Internships, capstones, undergraduate research, collaborative and community-based learning; shared features include sustained time and effort, feedback, and application in novel settings.)
+28. Jackson D, Collings D (2018). The influence of work-integrated learning and paid work during studies on graduate employment and underemployment. Higher Education 76:403–425. (WIL did NOT raise full-time employment rates; evidence for better relevance and quality of employment — the honest bound on the W3 claim.) https://doi.org/10.1007/s10734-017-0216-z
+29. Jackson D (2016). Re-conceptualising graduate employability: the importance of pre-professional identity. Higher Education Research & Development 35(5):925–939. (Identity formed through participation in communities of practice — the mechanism distinguishing W3 from W2.) https://doi.org/10.1080/07294360.2016.1139551
+30. Australian Universities Accord Final Report (2024), Department of Education. (WIL as national priority; placement poverty and the Commonwealth Prac Payment — the equity limitation declared against W3.) https://www.education.gov.au/australian-universities-accord/resources/final-report
+31. NACE Career Readiness Competencies (rev. April 2024). Eight competencies: career & self-development, communication, critical thinking, equity & inclusion, leadership, professionalism, teamwork, technology. https://www.naceweb.org/career-readiness/competencies/career-readiness-defined
+32. Heckman JJ, Stixrud J, Urzua S (2006). The effects of cognitive and noncognitive abilities on labor market outcomes and social behavior. Journal of Labor Economics 24(3):411–482. https://doi.org/10.1086/504455
+33. Barrie SC (2006). Understanding what we mean by the generic attributes of graduates. Higher Education 51:215–241; and Barrie SC (2007), A conceptual framework for the teaching and learning of generic graduate attributes, Studies in Higher Education 32(4):439–458. (Stated graduate attributes are not evidence of attainment — why R2 binds hardest on W1.)
+34. Tomlinson M (2017). Forms of graduate capital and their relationship to graduate employability. Education + Training 59(4):338–352. (Scoping source: social, cultural and psychological capital are student and network properties, not curriculum properties, and are therefore out of scope.)
+35. Lester S, Costley C (2010). Work-based learning at higher education level: value, practice and critique. Studies in Higher Education 35(5):561–575. (Work-based learning in the learner's own employment as an established higher-education mode for in-practice cohorts — the warrant for W3's own-practice route, added in v4.2.) https://doi.org/10.1080/03075070903216635
+`,
+};
+
+export default content;

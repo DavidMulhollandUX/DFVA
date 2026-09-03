@@ -218,7 +218,7 @@ function scaffold(code: string, fill: RecommendFill = {}): string {
 
   const basisNote = estimated
     ? `\n>\n> The exposure value is an **estimate**: it rests on a ${basis!.tier} basis (${basis!.sources
-        .map((s: any) => s.name)
+        .map((s: any) => String(s.name).replace(/^JSA HEO · /, 'Jobs and Skills Australia Higher Education Outcomes (JSA HEO) field '))
         .join(' ∪ ')}), not on this program's own graduates. It is sound enough to say the destinations are highly exposed and not sound enough to rank this program against a peer on exposure alone — see [the estimated-basis methods note](../docs/dfva-panela-estimated-basis-methods.md).`
     : ''
 

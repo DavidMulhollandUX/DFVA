@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { test } from 'node:test'
-import { exposureBasisSentence, readMarket, readRecommendPlan } from './dfva-v4-report-scaffold'
+import { expandAcronyms, exposureBasisSentence, readMarket, readRecommendPlan } from './dfva-v4-report-scaffold'
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const market = readFileSync(path.join(repoRoot, 'reports', 'dfva-market-mc-cs.md'), 'utf8')
@@ -80,4 +80,10 @@ test('readRecommendPlan lifts the §1 diagnostic and §4 intervention rows with 
   assert.ok(r.interventions.length >= 1)
   assert.equal(r.interventions[0].n, 'P1')
   assert.ok(!JSON.stringify(r).includes(']('), 'citation URLs are dropped from the context')
+})
+
+test('expandAcronyms expands a copied acronym once and leaves an expanded one alone', () => {
+  assert.equal(expandAcronyms('sub-set of this SOC; SOC again'), 'sub-set of this Standard Occupational Classification (SOC); SOC again')
+  assert.equal(expandAcronyms('Standard Occupational Classification (SOC) then SOC'), 'Standard Occupational Classification (SOC) then SOC')
+  assert.equal(expandAcronyms('JSA HEO field'), 'Jobs and Skills Australia Higher Education Outcomes (JSA HEO) field')
 })
