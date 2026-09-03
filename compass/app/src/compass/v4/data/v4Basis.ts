@@ -1027,7 +1027,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "b-fascwri": {
     "code": "b-fascwri",
     "name": "Bachelor of Fine Arts (Screenwriting)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 73.61,
     "entryExposure": 68.98,
     "jirN": null,
@@ -1052,7 +1052,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "b-fath": {
     "code": "b-fath",
     "name": "Bachelor of Fine Arts (Theatre)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 72.81,
     "entryExposure": 71.75,
     "jirN": null,
@@ -1102,7 +1102,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "b-mus": {
     "code": "b-mus",
     "name": "Bachelor of Music",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 80.63,
     "entryExposure": 80.91,
     "jirN": 87,
@@ -1124,7 +1124,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "b-sciextd": {
     "code": "b-sciextd",
     "name": "Bachelor of Science (Extended)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 82.72,
     "entryExposure": 78.11,
     "jirN": 3650,
@@ -1234,7 +1234,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "d01lf": {
     "code": "d01lf",
     "name": "Master of Creative Writing, Publishing and Editing",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 84.04,
     "entryExposure": 83.73,
     "jirN": null,
@@ -1281,7 +1281,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "j17re": {
     "code": "j17re",
     "name": "Master of Advanced Social Work",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 86.73,
     "entryExposure": 84.59,
     "jirN": 203,
@@ -1346,7 +1346,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-actscen": {
     "code": "mc-actscen",
     "name": "Master of Actuarial Science (Enhanced)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 97.99,
     "entryExposure": 97.94,
     "jirN": 101,
@@ -1368,7 +1368,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-actscex": {
     "code": "mc-actscex",
     "name": "Master of Actuarial Science (Extended)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 97.99,
     "entryExposure": 97.94,
     "jirN": 101,
@@ -1390,7 +1390,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-adolhw": {
     "code": "mc-adolhw",
     "name": "Master of Adolescent Health and Wellbeing",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 76.74,
     "entryExposure": 76.43,
     "jirN": null,
@@ -1421,7 +1421,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-advnpph": {
     "code": "mc-advnpph",
     "name": "Master of Advanced Nursing Practice/Master of Public Health",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 82.6,
     "entryExposure": 78.33,
     "jirN": 631,
@@ -1451,7 +1451,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-aecoenh": {
     "code": "mc-aecoenh",
     "name": "Master of Applied Econometrics (Enhanced)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 96.53,
     "entryExposure": 95.84,
     "jirN": 30,
@@ -1473,7 +1473,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-aemtrcs": {
     "code": "mc-aemtrcs",
     "name": "Master of Applied Econometrics",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 96.53,
     "entryExposure": 95.84,
     "jirN": 30,
@@ -1495,7 +1495,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-agsc": {
     "code": "mc-agsc",
     "name": "Master of Agricultural Sciences",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 73,
     "entryExposure": 67.44,
     "jirN": null,
@@ -1552,7 +1552,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-anamgt": {
     "code": "mc-anamgt",
     "name": "Master of Analytics Management",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 90.73,
     "entryExposure": 89.56,
     "jirN": 655,
@@ -1595,7 +1595,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-anpnp": {
     "code": "mc-anpnp",
     "name": "Master of Advanced Nursing Practice (Nurse Practitioner)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 76.38,
     "entryExposure": 70.05,
     "jirN": 69,
@@ -1669,7 +1669,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-app": {
     "code": "mc-app",
     "name": "Master of Applied Positive Psychology",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 89.85,
     "entryExposure": 88.29,
     "jirN": null,
@@ -1694,7 +1694,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-archcm": {
     "code": "mc-archcm",
     "name": "Master of Architecture/Master of Construction Management",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 90.11,
     "entryExposure": 89.75,
     "jirN": 782,
@@ -1724,7 +1724,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-archeng": {
     "code": "mc-archeng",
     "name": "Master of Architectural Engineering",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 89.54,
     "entryExposure": 89.53,
     "jirN": 669,
@@ -1754,7 +1754,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-archuch": {
     "code": "mc-archuch",
     "name": "Master of Architecture/Master of Urban Cultural Heritage",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 90.34,
     "entryExposure": 89.7,
     "jirN": 751,
@@ -1784,7 +1784,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-archud": {
     "code": "mc-archud",
     "name": "Master of Architecture/Master of Urban Design",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 90.34,
     "entryExposure": 89.7,
     "jirN": 751,
@@ -1814,7 +1814,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-archup": {
     "code": "mc-archup",
     "name": "Master of Architecture/Master of Urban Planning",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 90.34,
     "entryExposure": 89.7,
     "jirN": 751,
@@ -1869,7 +1869,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-arcprop": {
     "code": "mc-arcprop",
     "name": "Master of Architecture/Master of Property",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 88.94,
     "entryExposure": 88.29,
     "jirN": 686,
@@ -1924,7 +1924,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-biomeng": {
     "code": "mc-biomeng",
     "name": "Master of Biomedical Engineering",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 87.13,
     "entryExposure": 87.13,
     "jirN": null,
@@ -2026,7 +2026,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-bus": {
     "code": "mc-bus",
     "name": "Master of Business",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 90.73,
     "entryExposure": 89.56,
     "jirN": 655,
@@ -2048,7 +2048,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-cat": {
     "code": "mc-cat",
     "name": "Master of Creative Arts Therapy",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 76.66,
     "entryExposure": 72.12,
     "jirN": null,
@@ -2143,7 +2143,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-clined": {
     "code": "mc-clined",
     "name": "Master of Clinical Education",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 81.63,
     "entryExposure": 81.63,
     "jirN": null,
@@ -2174,7 +2174,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-clinrhb": {
     "code": "mc-clinrhb",
     "name": "Master of Clinical Rehabilitation",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 69.41,
     "entryExposure": 69.41,
     "jirN": null,
@@ -2256,7 +2256,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-cncrsc": {
     "code": "mc-cncrsc",
     "name": "Master of Cancer Sciences",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 75.8,
     "entryExposure": 73.61,
     "jirN": null,
@@ -2281,7 +2281,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-comact": {
     "code": "mc-comact",
     "name": "Master of Commerce (Accounting)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 97.99,
     "entryExposure": 95.4,
     "jirN": 73,
@@ -2303,7 +2303,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-comacts": {
     "code": "mc-comacts",
     "name": "Master of Commerce (Actuarial Science)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 97.99,
     "entryExposure": 97.94,
     "jirN": 101,
@@ -2325,7 +2325,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-comdrfs": {
     "code": "mc-comdrfs",
     "name": "Master of Commerce (Decision, Risk and Financial Sciences)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 97.83,
     "entryExposure": 97.66,
     "jirN": 72,
@@ -2347,7 +2347,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-comeco": {
     "code": "mc-comeco",
     "name": "Master of Commerce (Economics)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 96.53,
     "entryExposure": 95.84,
     "jirN": 30,
@@ -2369,7 +2369,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-comfin": {
     "code": "mc-comfin",
     "name": "Master of Commerce (Finance)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 97.04,
     "entryExposure": 96.99,
     "jirN": 148,
@@ -2391,7 +2391,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-commgmt": {
     "code": "mc-commgmt",
     "name": "Master of Commerce (Management)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 90.73,
     "entryExposure": 89.56,
     "jirN": 655,
@@ -2413,7 +2413,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-commktg": {
     "code": "mc-commktg",
     "name": "Master of Commerce (Marketing)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 96.45,
     "entryExposure": 97.6,
     "jirN": 66,
@@ -2435,7 +2435,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-contcs": {
     "code": "mc-contcs",
     "name": "Master of Contemporary Chinese Studies",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 80.6,
     "entryExposure": 77.79,
     "jirN": null,
@@ -2460,7 +2460,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-counsmo": {
     "code": "mc-counsmo",
     "name": "Master of Counselling",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 87,
     "entryExposure": 87,
     "jirN": null,
@@ -2491,7 +2491,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-ctpyart": {
     "code": "mc-ctpyart",
     "name": "Master of Contemporary Art",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 71.19,
     "entryExposure": 63.73,
     "jirN": null,
@@ -2566,7 +2566,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-cybscmo": {
     "code": "mc-cybscmo",
     "name": "Master of Cyber Security",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 92.91,
     "entryExposure": 93.46,
     "jirN": 373,
@@ -2613,7 +2613,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-dinfeng": {
     "code": "mc-dinfeng",
     "name": "Master of Digital Infrastructure Engineering",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 91.09,
     "entryExposure": 91.98,
     "jirN": 48,
@@ -2635,7 +2635,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-dmktg": {
     "code": "mc-dmktg",
     "name": "Master of Digital Marketing",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 96.45,
     "entryExposure": 97.6,
     "jirN": 66,
@@ -2657,7 +2657,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-dnce": {
     "code": "mc-dnce",
     "name": "Master of Dance",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 68.44,
     "entryExposure": 68.44,
     "jirN": null,
@@ -2709,7 +2709,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-ecosmc": {
     "code": "mc-ecosmc",
     "name": "Master of Ecosystem Management and Conservation",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 89.88,
     "entryExposure": 89.79,
     "jirN": 408,
@@ -2731,7 +2731,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-edebt": {
     "code": "mc-edebt",
     "name": "Master of Education in Evidence-Based Teaching",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 92.44,
     "entryExposure": 94.16,
     "jirN": 611,
@@ -2753,7 +2753,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-eleceng": {
     "code": "mc-eleceng",
     "name": "Master of Electrical Engineering",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 82.73,
     "entryExposure": 84.36,
     "jirN": null,
@@ -2805,7 +2805,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-enrslaw": {
     "code": "mc-enrslaw",
     "name": "Master of Energy and Resources Law",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 94.83,
     "entryExposure": 94.15,
     "jirN": 676,
@@ -2827,7 +2827,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-ensysen": {
     "code": "mc-ensysen",
     "name": "Master of Environmental Systems Engineering",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 91.09,
     "entryExposure": 91.98,
     "jirN": 48,
@@ -2892,7 +2892,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-enveng": {
     "code": "mc-enveng",
     "name": "Master of Environmental Engineering",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 91.09,
     "entryExposure": 91.98,
     "jirN": 48,
@@ -2957,7 +2957,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-filmtv": {
     "code": "mc-filmtv",
     "name": "Master of Film and Television",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 73.61,
     "entryExposure": 68.98,
     "jirN": null,
@@ -3003,7 +3003,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-finenh": {
     "code": "mc-finenh",
     "name": "Master of Finance (Enhanced)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 97.04,
     "entryExposure": 96.99,
     "jirN": 148,
@@ -3047,7 +3047,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-gcclaw": {
     "code": "mc-gcclaw",
     "name": "Master of Global Competition and Consumer Law",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 94.83,
     "entryExposure": 94.15,
     "jirN": 676,
@@ -3094,7 +3094,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-geog": {
     "code": "mc-geog",
     "name": "Master of Geography",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 91.75,
     "entryExposure": 92.61,
     "jirN": 108,
@@ -3116,7 +3116,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-geosc": {
     "code": "mc-geosc",
     "name": "Master of Geoscience",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 85.44,
     "entryExposure": 81.91,
     "jirN": 46,
@@ -3159,7 +3159,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-hrmmo": {
     "code": "mc-hrmmo",
     "name": "Master of Human Resource Management",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 94.14,
     "entryExposure": 91.75,
     "jirN": 28,
@@ -3181,7 +3181,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-humrlaw": {
     "code": "mc-humrlaw",
     "name": "Master of Human Rights Law",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 94.83,
     "entryExposure": 94.15,
     "jirN": 676,
@@ -3203,7 +3203,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-ib": {
     "code": "mc-ib",
     "name": "Master of International Business",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 87.44,
     "entryExposure": 86.65,
     "jirN": null,
@@ -3301,7 +3301,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-intjour": {
     "code": "mc-intjour",
     "name": "Master of International Journalism",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 91.48,
     "entryExposure": 92.18,
     "jirN": 51,
@@ -3365,7 +3365,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-larch": {
     "code": "mc-larch",
     "name": "Master of Landscape Architecture",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 88.03,
     "entryExposure": 86.66,
     "jirN": 38,
@@ -3386,7 +3386,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-larchud": {
     "code": "mc-larchud",
     "name": "Master of Landscape Architecture/Master of Urban Design",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 92.85,
     "entryExposure": 92.85,
     "jirN": 130,
@@ -3416,7 +3416,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-larchup": {
     "code": "mc-larchup",
     "name": "Master of Landscape Architecture/Master of Urban Planning",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 92.85,
     "entryExposure": 92.85,
     "jirN": 130,
@@ -3534,7 +3534,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-mgmtafn": {
     "code": "mc-mgmtafn",
     "name": "Master of Management (Accounting and Finance)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 90.73,
     "entryExposure": 89.56,
     "jirN": 655,
@@ -3556,7 +3556,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-mgmtein": {
     "code": "mc-mgmtein",
     "name": "Master of Management (Entrepreneurship and Innovation)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 90.73,
     "entryExposure": 89.56,
     "jirN": 655,
@@ -3684,7 +3684,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-mled": {
     "code": "mc-mled",
     "name": "Master of Modern Languages Education",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 93.99,
     "entryExposure": 95.74,
     "jirN": 26,
@@ -3731,7 +3731,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-mtrneng": {
     "code": "mc-mtrneng",
     "name": "Master of Mechatronics Engineering",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 83.23,
     "entryExposure": 82.37,
     "jirN": 18,
@@ -3752,7 +3752,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-musop": {
     "code": "mc-musop",
     "name": "Master of Music (Opera Performance)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 70.7,
     "entryExposure": 67.8,
     "jirN": null,
@@ -3783,7 +3783,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-musorp": {
     "code": "mc-musorp",
     "name": "Master of Music (Orchestral Performance)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 70.7,
     "entryExposure": 67.8,
     "jirN": null,
@@ -3814,7 +3814,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-muspt": {
     "code": "mc-muspt",
     "name": "Master of Music (Performance Teaching)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 70.7,
     "entryExposure": 67.8,
     "jirN": null,
@@ -3845,7 +3845,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-ntcw": {
     "code": "mc-ntcw",
     "name": "Master of Narrative Therapy and Community Work",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 87,
     "entryExposure": 87,
     "jirN": null,
@@ -3876,7 +3876,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-phtypae": {
     "code": "mc-phtypae",
     "name": "Master of Physiotherapy (Paediatrics)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 71.03,
     "entryExposure": 72.66,
     "jirN": 448,
@@ -3920,7 +3920,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-propup": {
     "code": "mc-propup",
     "name": "Master of Property/Master of Urban Planning",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 91.37,
     "entryExposure": 91.03,
     "jirN": 195,
@@ -3950,7 +3950,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-psyched": {
     "code": "mc-psyched",
     "name": "Master of Psychology (Educational and Developmental)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 95.57,
     "entryExposure": 93.63,
     "jirN": 47,
@@ -4082,7 +4082,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-scimat": {
     "code": "mc-scimat",
     "name": "Master of Science (Mathematics and Statistics)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 95.71,
     "entryExposure": 95.18,
     "jirN": 122,
@@ -4175,7 +4175,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-softeng": {
     "code": "mc-softeng",
     "name": "Master of Software Engineering",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 83.3,
     "entryExposure": 81.63,
     "jirN": null,
@@ -4221,7 +4221,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-spmed": {
     "code": "mc-spmed",
     "name": "Master of Sports Medicine",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 76.03,
     "entryExposure": 76.03,
     "jirN": null,
@@ -4252,7 +4252,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-tchecp": {
     "code": "mc-tchecp",
     "name": "Master of Teaching (Early Childhood and Primary)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 77.63,
     "entryExposure": 74.55,
     "jirN": null,
@@ -4353,7 +4353,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-teachsi": {
     "code": "mc-teachsi",
     "name": "Master of Teaching (Secondary) Internship",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 81.05,
     "entryExposure": 80.93,
     "jirN": null,
@@ -4378,7 +4378,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-thtr": {
     "code": "mc-thtr",
     "name": "Master of Theatre",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 72.81,
     "entryExposure": 71.75,
     "jirN": null,
@@ -4403,7 +4403,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-thtrdir": {
     "code": "mc-thtrdir",
     "name": "Master of Theatre (Directing)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 72.81,
     "entryExposure": 71.75,
     "jirN": null,
@@ -4428,7 +4428,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-thtrdra": {
     "code": "mc-thtrdra",
     "name": "Master of Theatre (Dramaturgy)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 72.81,
     "entryExposure": 71.75,
     "jirN": null,
@@ -4503,7 +4503,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-uch": {
     "code": "mc-uch",
     "name": "Master of Urban and Cultural Heritage",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 92.85,
     "entryExposure": 92.85,
     "jirN": 130,
@@ -4568,7 +4568,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-vetstdr": {
     "code": "mc-vetstdr",
     "name": "Master of Veterinary Studies",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 62.4,
     "entryExposure": 63.57,
     "jirN": 275,
@@ -4642,7 +4642,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "n01aa": {
     "code": "n01aa",
     "name": "Master of Clinical Research",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 75.8,
     "entryExposure": 73.61,
     "jirN": null,

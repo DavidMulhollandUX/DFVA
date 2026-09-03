@@ -311,7 +311,7 @@ ${AUTHOR_MARK}`
     ? m.skillShifts.map((s) => `| ${esc(s.skill)} | ${esc(s.direction)} | ${fillCell(fill.bearing?.[s.skill])} |`).join('\n')
     : `| ${AUTHOR_MARK} | ${AUTHOR_MARK} | ${AUTHOR_MARK} |`
   const gaps = m.gaps.length
-    ? ` Its declared gaps: ${m.gaps.map((g) => `${esc(g.area)} (${esc(g.confidence)} — ${esc(g.caveat)})`).join('; ')}.`
+    ? expandAcronyms(` Its declared gaps: ${m.gaps.map((g) => `${esc(g.area)} (${esc(g.confidence)} — ${esc(g.caveat)})`).join('; ')}.`)
     : ''
   return `## 4. MARKET EVIDENCE — Basis: reported
 
@@ -495,6 +495,22 @@ ${canonicalReferences()}`)
 /** The improvement plan's §1 diagnostic and §4 intervention rows, as the §5 author
  *  needs them. Parsed from the rendered report so the author reads this context
  *  instead of the 30 KB plan; citations collapse to [n]. */
+/** Text copied from the market report expanded its acronyms in sections this
+ *  report does not copy; expand them again on first use here. */
+const ACRONYMS: Array<[string, string]> = [
+  ['JSA HEO', 'Jobs and Skills Australia Higher Education Outcomes'],
+  ['SOC', 'Standard Occupational Classification'],
+  ['JIR', 'Job Insights Report'],
+  ['AQF', 'Australian Qualifications Framework'],
+]
+export function expandAcronyms(text: string): string {
+  for (const [acr, full] of ACRONYMS) {
+    if (text.includes(full)) continue
+    text = text.replace(new RegExp(`(?<![\\w(])${acr}(?![\\w)])`), `${full} (${acr})`)
+  }
+  return text
+}
+
 export function readRecommendPlan(content: string): {
   diagnostic: { item: string; score: string; headroom: string; marketEvidence: string; priority: string }[]
   interventions: { n: string; item: string; action: string; anchor: string; effort: string; sequence: string }[]

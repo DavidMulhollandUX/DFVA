@@ -141,7 +141,10 @@ def select_claims(ledgers, max_themes=6, per_ledger=2):
         # self-citation would let the report quote itself.
         own = re.search(r'\bDFVA\b', c.get('text', '')) or any(
             'handbook.unimelb' in (src.get('url') or '') for src in c.get('sources', []))
-        return (c.get('lane') in lanes and not c.get('refuted') and _has_url(c) and not own
+        # A claim phrased as a question is a forum prompt, not a finding; it would render
+        # as a question heading.
+        question = c.get('text', '').strip().endswith('?')
+        return (c.get('lane') in lanes and not c.get('refuted') and _has_url(c) and not own and not question
                 and c.get('disposition', 'sourced') in KEEP_DISPOSITIONS and c.get('text', '').strip())
 
     def take(lanes, cap_total):
@@ -202,7 +205,7 @@ def render_s1(res, ledgers, skipped):
     if res['grain'] == 'exact':
         lines.append(f"Job families are the occupations this program's own Job Insights Report (JIR) destination "
                      f"titles resolve to (n = {res['n']}), mapped to the Standard Occupational Classification (SOC) "
-                     f"and joined to the profession records below.")
+                     f"and joined to the profession records in this report.")
     else:
         lines.append(f"This program has no destination record of its own, so job families rest on a "
                      f"**field-of-education** basis: the Jobs and Skills Australia Higher Education Outcomes "
@@ -383,12 +386,15 @@ def render_s6(res, ledgers, skipped):
             else:
                 lines.append(f"| {_esc(led['title'])} — {LANE_LABELS[lane]} | LOW | No claim recorded in this lane. |")
         for s in (led.get('corpus') or {}).get('searchesReturningNothing', []) or []:
+            if isinstance(s, str):  # older ledgers record the search as one sentence
+                lines.append(f"| {_esc(led['title'])} — search | LOW | Search returned nothing: {_esc(s)} |")
+                continue
             lines.append(f"| {_esc(led['title'])} — {_esc(s.get('lane', '?'))} via {_esc(s.get('source', '?'))} | LOW | "
                          f"Search returned nothing ({_esc(s.get('status', ''))}{', ' + _esc(s.get('date')) if s.get('date') else ''}): {_esc(s.get('detail') or s.get('note') or '')} |")
         for cv in led.get('caveats', []) or []:
             lines.append(f"| {_esc(led['title'])} — record caveat | {_conf(led)} | {_esc(cv)} |")
     for s, why in skipped:
-        lines.append(f"| {_esc(s['title'])} | LOW | {why}; no claim from this occupation is used above. |")
+        lines.append(f"| {_esc(s['title'])} | LOW | {why}; no claim from this occupation is used in this report. |")
     return '\n'.join(lines) + '\n'
 
 
@@ -435,6 +441,12 @@ def sanitise(text):
     for word in ('jobAds', 'topSkills', 'topEmployers'):
         text = text.replace(word, 'the advertisement sample')
     text = text.replace('Panel C', "the durability report's curriculum evidence")
+    # Ledger caveats point at repository files; a reader has no repository.
+    text = re.sub(r'\s*\((?:see|in)\s+(?:data|scripts|docs)/[^)]*\)', '', text)
+    text = re.sub(r'\b(?:data|scripts|docs)/[\w./-]+', 'the profession record', text)
+    for acr, full in (('AQF', 'Australian Qualifications Framework'),):
+        if re.search(rf'\b{acr}\b', text) and full not in text:
+            text = re.sub(rf'\b{acr}\b', f'{full} ({acr})', text, count=1)
     return text
 
 

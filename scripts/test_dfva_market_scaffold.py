@@ -1,6 +1,7 @@
 """Tests for dfva-market-scaffold.py: claim selection, the §3 house form, ledger refusal,
 field-grain resolution. Run: python3 -m pytest scripts/test_dfva_market_scaffold.py -q"""
 import importlib
+import json
 import sys
 from pathlib import Path
 
@@ -135,3 +136,23 @@ def test_render_s4_and_s5_take_reused_content():
     assert ms.A in s4  # no ledgers → the placeholder row
     s5 = ms.render_s5('| # | Implication | Dimension | Action |\n|---|---|---|---|\n| CI-1 | x | C1 | y |')
     assert ms.A not in s5 and 'AUTHOR:S5' not in s5
+
+
+def test_render_s6_accepts_string_search_entries():
+    led = {'title': 'Actuary', 'claims': [], 'corpus': {'searchesReturningNothing': ['no L3 hits for actuarial AI adoption']}}
+    res = {'grain': 'exact', 'n': 12}
+    out = ms.render_s6(res, [led], [])
+    assert 'Actuary — search | LOW | Search returned nothing: no L3 hits' in out
+
+
+def test_sanitise_drops_repository_paths_and_expands_aqf():
+    out = ms.sanitise('L3 omitted (see data/professions/factiva_backlog.json); backfill in data/x.json. AQF level 9.')
+    assert 'data/' not in out
+    assert 'Australian Qualifications Framework (AQF)' in out
+
+
+def test_select_claims_skips_question_claims():
+    led = {'title': 'X', 'claims': [claim('q', 'L1', "what's your go to browser other than chrome ?"),
+                                    claim('s', 'L1', 'Employers list Python in most postings.')]}
+    texts = [d['text'] for pair in ms.select_claims([led]) for d in pair if isinstance(d, dict) and 'lane' in d]
+    assert texts == ['Employers list Python in most postings.']
