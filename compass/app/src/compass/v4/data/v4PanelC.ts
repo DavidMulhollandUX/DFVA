@@ -1,130 +1,25 @@
 // GENERATED FILE — DO NOT EDIT.
 // Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
 // Regenerate: npm --prefix scripts run dfva:gen-v4
-/** Present when adversarial verification moved a score. Recorded rather than
- *  overwritten: which anchor clause failed on scrutiny is response-process
- *  evidence, and the IRR study reads it. */
-export interface V4Adjudication {
-  originalScore: number;
-  demotedTo?: number;
-  promotedTo?: number;
-  reason: string;
-}
+// Types are canonical in v4Meta.ts (the light module every route may import);
+// re-exported here so a heavy-path file can import both a type and a value
+// from this one specifier without also naming v4Meta.ts.
+export type {
+  V4Adjudication,
+  V4ItemResult,
+  V4GateResult,
+  V4PanelC,
+  V4PanelATier,
+  V4PanelAGrain,
+  V4PanelABasis,
+  V4OnlyProgram,
+} from "./v4Meta";
+import type { V4PanelABasis, V4OnlyProgram, V4PanelC } from "./v4Meta";
 
-/** `evidenceLines` is optional for the same reason as on a gate: a record can
- *  carry none, and absent is not empty. The report names the omission on the
- *  page — an uncited score stays visible as uncited. */
-export interface V4ItemResult {
-  score: number;
-  rationale: string;
-  evidenceLines?: string[];
-  adjudication?: V4Adjudication;
-}
-
-/** `evidenceLines` is optional because a gate record can carry none. Absent
- *  is not the same as empty: the report says so on the page rather than
- *  rendering a silent gap, so a precondition decided without verbatim
- *  handbook lines is visible as such. */
-export interface V4GateResult {
-  result: "PASS" | "FAIL";
-  rationale: string;
-  evidenceLines?: string[];
-}
-
-/** W1–W3 and `workplace` are optional: programs scored before v4.1 carry
- *  only the adaptive sub-scale and must be re-scored, not back-filled. */
-export interface V4PanelC {
-  instrument: string;
-  C1: V4ItemResult;
-  C2: V4ItemResult;
-  C3: V4ItemResult;
-  C4: V4ItemResult;
-  C5: V4ItemResult;
-  adaptiveness: number;
-  W1?: V4ItemResult;
-  W2?: V4ItemResult;
-  W3?: V4ItemResult;
-  workplace?: number;
-  gates: { G1: V4GateResult; G2: V4GateResult };
-  ambiguities: string[];
-  /** Optional: a record that lists no coverage limits omits the key rather than
-   *  asserting the empty list, which would read as "nothing was unscoreable". */
-  notScoreable?: string[];
-  verified?: { /** `true` on records written before the coverage contract (2026-08-25); the object form names the items actually attacked. */ adversarial: boolean | { reviewed: string[]; date: string }; mechanical: boolean; date: string };
-}
-
-/** Migration-cycle status. `adaptMedian` is null until every reference-cohort
- *  program is scored on v4; position labels stay withheld while it is null. */
-export interface V4Meta {
-  cohortSize: number;
-  scored: number;
-  workplaceScored: number;
-  workplaceComplete: boolean;
-  complete: boolean;
-  adaptMedian: number | null;
-  /** Program-grain exposure median (alumni-title basis). */
-  expMedian: number;
-  /** Field-grain exposure median (JSA HEO basis) over the same reference cohort; null until every reference program has a field. Field-tier programs are placed against this, never against expMedian. */
-  expMedianField: number | null;
-  panelABasisVersion: string;
-  pending: string[];
-}
-
-export const V4_META: V4Meta = {
-  "cohortSize": 34,
-  "scored": 34,
-  "workplaceScored": 34,
-  "workplaceComplete": true,
-  "complete": true,
-  "adaptMedian": 9,
-  "expMedian": 90.9,
-  "expMedianField": 83.21,
-  "panelABasisVersion": "1.0",
-  "pending": []
-};
-
-/** Which destination distribution stands for the program (docs/dfva-v4-panela-basis.md).
- *  exact/variant = own alumni record; pooled/combined = own program family;
- *  cognate/partial = a related program's record (an assumption, labelled);
- *  field = JSA HEO field-of-education occupation list (placed against expMedianField). */
-export type V4PanelATier = "exact" | "variant" | "pooled" | "combined" | "cognate" | "partial" | "field";
-export type V4PanelAGrain = "program" | "program-family" | "related-program" | "field";
-export interface V4PanelABasis {
-  tier: V4PanelATier;
-  grain: V4PanelAGrain;
-  sources: { name: string; n: number | null }[];
-  field?: string;
-  dominantShare?: { name: string; share: number };
-  /** Multi-record tiers: records set aside because they carry a refused title. */
-  excludedSources?: { name: string; refusedTitles: string[] }[];
-  /** Field tier: share-weighted mean (Felten aggregation rule). */
-  exposureWeighted?: number;
-  /** Field tier: ANZSCO occupations set aside as unmappable, with the share they carried. */
-  excludedTitles?: { title: string; share: number | null }[];
-  /** Field tier: summed entry-stage share (%) the value stands on. */
-  coverage?: number;
-  indexVariant: "AIOE-2021";
-  note?: string;
-}
-
-/** A program scored on v4 that is not in the v3 registry.
- *
- *  Exposure is instrument-independent and is computed by the identical Panel A
- *  procedure for every program; `exposureBasis` records WHICH destination
- *  distribution it was computed on, so an estimate from a related program or
- *  a field-of-education list never reads as the program's own measurement. */
-export interface V4OnlyProgram {
-  code: string;
-  name: string;
-  hasMarketReport: boolean;
-  exposure: number | null;
-  entryExposure: number | null;
-  jirN: number | null;
-  nTitles: number | null;
-  nMedium: number | null;
-  exposureBasis: V4PanelABasis | null;
-}
-
+/** Panel A basis and exposure data for programs scored on v4 but absent from
+ *  the v3 registry (docs: no taught curriculum, or scored ahead of a v1
+ *  report). Read only by the report page — /reports and /insights use the
+ *  light V4_INDEX in v4Meta.ts instead. */
 export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "038ab": {
     "code": "038ab",
@@ -4772,7 +4667,9 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
 };
 
 /** Panel A basis for every program scored on v4, reference cohort included
- *  (their exposure VALUE still comes from v3Programs.ts; this is the label). */
+ *  (their exposure VALUE still comes from v3Programs.ts; this is the label).
+ *  The bare tier (no sources/grain) is also carried on V4_INDEX in
+ *  v4Meta.ts for the light routes; this full object is for the report page. */
 export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
   "038ab": {
     "tier": "exact",
@@ -8136,25 +8033,12 @@ export const v4PanelABasisByCode = (code: string): V4PanelABasis | undefined =>
 export const v4OnlyProgramByCode = (code: string): V4OnlyProgram | undefined =>
   V4_ONLY_PROGRAMS[code.toLowerCase()];
 
-/** Research degrees excluded from Panel C v4 by scope (thesis PhDs, higher
- *  doctorates): no taught curriculum to score. Source: scripts/v4_cohort_ext_exclusions.json. */
-export const V4_RESEARCH_DEGREES: readonly string[] = [
-  "dh-lld",
-  "dh-sc",
-  "dr-philabp",
-  "dr-philagr",
-  "dr-philart",
-  "dr-philbe",
-  "dr-philedu",
-  "dr-phileit",
-  "dr-philfam",
-  "dr-philik",
-  "dr-phillaw",
-  "dr-philmdh",
-  "dr-philsci",
-  "dr-philvet"
-];
-
+/** Full per-program Panel C v4 results — every item's rationale and evidence
+ *  lines, ambiguities, verification. This is the 28,000-line body that made
+ *  this module a 3.3 MB chunk on every route; only the report page
+ *  (V4ReportPage.tsx and v4/report/*) may import it. /reports and /insights
+ *  use V4_INDEX in v4Meta.ts, which carries the bare scores this map holds
+ *  with the rationale and evidence stripped out. */
 export const V4_PANEL_C: Record<string, V4PanelC> = {
   "038ab": {
     "C1": {

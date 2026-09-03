@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
-import { V4_PANEL_C } from "../v4/data/v4PanelC";
+import { V4_PANEL_C, v4PanelABasisByCode } from "../v4/data/v4PanelC";
 import { gateSummary } from "../v4/gateState";
 import {
   describeBasis,
@@ -47,7 +47,10 @@ describe("gate copy is derived per program", () => {
 describe("basis copy is derived per program", () => {
   it("renders for every scored program and never leaks an undefined", () => {
     for (const code of CODES) {
-      const basis = basisFor(code);
+      // describeBasis needs the full basis (source names) — the heavy,
+      // report-page lookup, not the light basisFor() the /reports and
+      // /insights routes use for isOwnRecord/basisMedian.
+      const basis = v4PanelABasisByCode(code);
       const s = describeBasis(basis, null, null);
       expect(s.length, code).toBeGreaterThan(0);
       expect(s, code).not.toMatch(/undefined|null|NaN/);

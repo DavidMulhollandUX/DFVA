@@ -26,8 +26,8 @@ import {
   mdCite,
   mdCiteByN,
 } from '../dfva/source/rubricV4'
+import { V4_META } from '../compass/app/src/compass/v4/data/v4Meta'
 import {
-  V4_META,
   V4_ONLY_PROGRAMS,
   V4_PANEL_A_BASIS,
   type V4PanelABasis,

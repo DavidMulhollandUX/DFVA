@@ -12,7 +12,7 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs'
 import * as path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { V4_RESEARCH_DEGREES } from '../compass/app/src/compass/v4/data/v4PanelC'
+import { V4_RESEARCH_DEGREES } from '../compass/app/src/compass/v4/data/v4Meta'
 import { loadV4Names, normaliseDegreeName } from './lib-v4-names'
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')

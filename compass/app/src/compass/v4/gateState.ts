@@ -9,12 +9,17 @@ import type { V4GateResult, V4PanelC } from "./data/v4PanelC";
  */
 export type GateState = "met" | "not-met" | "unrecorded";
 
+/** The light form: just the PASS/FAIL outcome, no rationale or evidence
+ *  lines. Used by the /reports and /insights routes, which read gate results
+ *  off V4_INDEX (v4Meta.ts) rather than the full V4GateResult on V4_PANEL_C
+ *  (v4PanelC.ts) — importing that heavy module here would defeat the split. */
+export const gateStateFromResult = (
+  outcome: "PASS" | "FAIL" | null | undefined,
+): GateState =>
+  outcome === "PASS" ? "met" : outcome === "FAIL" ? "not-met" : "unrecorded";
+
 export const gateState = (result: V4GateResult | undefined): GateState =>
-  result?.result === "PASS"
-    ? "met"
-    : result?.result === "FAIL"
-      ? "not-met"
-      : "unrecorded";
+  gateStateFromResult(result?.result);
 
 /** "Digital & AI literacy" → "digital & AI literacy" — only the first
  * character, so an acronym inside the name survives. */

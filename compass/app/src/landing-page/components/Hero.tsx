@@ -4,7 +4,7 @@ import { Button } from "../../client/components/ui/button";
 import { MatrixAreaLabels } from "../../compass/matrixAreaLabels";
 import { programReportPath } from "../../compass/reportLinks";
 import { QUADRANTS } from "../../compass/v2/quadrants";
-import { V4_META } from "../../compass/v4/data/v4PanelC";
+import { V4_META } from "../../compass/v4/data/v4Meta";
 import { V4_ADAPTIVENESS_MAX } from "../../compass/v4/data/v4Rubric";
 import {
   V4_ITEMS,

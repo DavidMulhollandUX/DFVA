@@ -2,7 +2,8 @@ import { Card, CardContent } from "../../../client/components/ui/card";
 import { Cite } from "../HowThisRubricWorksDialog";
 import { verificationBody, verificationSummary } from "../verificationState";
 import { V4_REFERENCES } from "../data/v4Rubric";
-import { V4_META, type V4PanelC } from "../data/v4PanelC";
+import { V4_META } from "../data/v4Meta";
+import type { V4PanelC } from "../data/v4PanelC";
 import { MethodDetails } from "./ReportChrome";
 import {
   ANCHOR_DERIVATION_TAIL,

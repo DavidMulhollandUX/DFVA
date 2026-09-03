@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { V4_META } from "../v4/data/v4Meta";
 import {
-  V4_META,
   V4_ONLY_PROGRAMS,
   V4_PANEL_A_BASIS,
   V4_PANEL_C,

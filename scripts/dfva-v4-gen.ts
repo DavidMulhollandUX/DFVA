@@ -497,8 +497,14 @@ function appRubricModule(): string {
  * is complete `adaptMedian` is null and the report pages withhold the position
  * label. The exposure median is unchanged by v4 — Panel A is untouched — so it
  * is inherited rather than recomputed.
+ *
+ * Renders TWO modules, not one: `v4Meta.ts` (light — types, V4_META,
+ * V4_RESEARCH_DEGREES, and the new V4_INDEX bare-score spine) and
+ * `v4PanelC.ts` (heavy — V4_ONLY_PROGRAMS, V4_PANEL_A_BASIS and the 28,000-line
+ * V4_PANEL_C rationale/evidence map). The landing page, /reports and /insights
+ * import only the former; only the report page imports the latter.
  */
-export async function appPanelCModule(): Promise<string> {
+export async function appV4DataModules(): Promise<{ meta: string; panelC: string }> {
   const evidenceDir = path.join(repoRoot, 'dfva', 'source', 'evidence')
   const results: Record<string, { adaptiveness?: number; workplace?: number }> = {}
   for (const f of (await fs.readdir(evidenceDir)).sort()) {
@@ -655,13 +661,26 @@ export async function appPanelCModule(): Promise<string> {
   const v3Src = readFileSync(path.join(repoRoot, 'compass/app/src/compass/v3/data/v3Programs.ts'), 'utf8')
   for (const m of v3Src.matchAll(/code: "([a-z0-9-]+)",\s*name: "([^"]+)"/g)) if (!refNames.has(m[1])) refNames.set(m[1], m[2])
   const panelABasis: Record<string, PanelABasis> = {}
+  // Exposure/entryExposure for every scored program (reference cohort included),
+  // computed by the identical resolver call the basis loop already makes. The
+  // reference cohort's PUBLISHED value stays v3Programs.ts's own (the resolver
+  // is only asserted to reproduce it, elsewhere); this map exists so the light
+  // V4_INDEX can carry a number for every code without a second resolver pass.
+  const indexExposure: Record<string, { exposure: number | null; entryExposure: number | null }> = {}
   for (const code of Object.keys(results).sort()) {
-    if (v4Only[code]?.exposureBasis) { panelABasis[code] = v4Only[code].exposureBasis!; continue }
+    if (v4Only[code]?.exposureBasis) {
+      panelABasis[code] = v4Only[code].exposureBasis!
+      indexExposure[code] = { exposure: v4Only[code].exposure, entryExposure: v4Only[code].entryExposure }
+      continue
+    }
     const name = refNames.get(code) ?? cohortNames.get(code)
     if (!name) continue
     try {
       const r = resolvePanelA(code, name, ctx)
-      if (r) panelABasis[code] = r.basis
+      if (r) {
+        panelABasis[code] = r.basis
+        indexExposure[code] = { exposure: r.exposure, entryExposure: r.entryExposure }
+      }
     } catch (e) {
       if (e instanceof UnmappedTitlesError) unmapped.push(e)
       else throw e
@@ -709,8 +728,65 @@ export async function appPanelCModule(): Promise<string> {
     pending: referenceCodes.filter((c) => typeof results[c]?.adaptiveness !== 'number'),
   }
 
-  return (
-    TS_BANNER +
+  // ---------------------------------------------------------------------------
+  // V4_INDEX — the light per-program spine for /reports and /insights. Carries
+  // only what those pages read: identity, exposure, position inputs (tier,
+  // adaptiveness, workplace, the eight item scores as bare numbers), gate
+  // outcomes and the verification date. No rationale, no evidence lines, no
+  // Panel A source list — that stays in the heavy v4PanelC.ts module, which
+  // only the report page imports.
+  // ---------------------------------------------------------------------------
+  interface V4IndexOut {
+    code: string
+    name: string
+    exposure: number | null
+    entryExposure: number | null
+    exposureTier: PanelABasis['tier'] | null
+    adaptiveness: number
+    workplace: number | null
+    C1: number
+    C2: number
+    C3: number
+    C4: number
+    C5: number
+    W1: number | null
+    W2: number | null
+    W3: number | null
+    gates: { G1: 'PASS' | 'FAIL' | null; G2: 'PASS' | 'FAIL' | null }
+    verifiedAt: string | null
+  }
+  const v4Index: Record<string, V4IndexOut> = {}
+  for (const code of Object.keys(results).sort()) {
+    const r = results[code]
+    const name = v4Only[code]?.name ?? refNames.get(code) ?? cohortNames.get(code) ?? code.toUpperCase()
+    const exp = v4Only[code]
+      ? { exposure: v4Only[code].exposure, entryExposure: v4Only[code].entryExposure }
+      : (indexExposure[code] ?? { exposure: null, entryExposure: null })
+    v4Index[code] = {
+      code,
+      name,
+      exposure: exp.exposure,
+      entryExposure: exp.entryExposure,
+      exposureTier: panelABasis[code]?.tier ?? null,
+      adaptiveness: r.adaptiveness,
+      workplace: typeof r.workplace === 'number' ? r.workplace : null,
+      C1: r.C1.score,
+      C2: r.C2.score,
+      C3: r.C3.score,
+      C4: r.C4.score,
+      C5: r.C5.score,
+      W1: r.W1 ? r.W1.score : null,
+      W2: r.W2 ? r.W2.score : null,
+      W3: r.W3 ? r.W3.score : null,
+      gates: {
+        G1: r.gates?.G1?.result ?? null,
+        G2: r.gates?.G2?.result ?? null,
+      },
+      verifiedAt: r.verified?.date ?? null,
+    }
+  }
+
+  const TYPE_DEFS =
     '/** Present when adversarial verification moved a score. Recorded rather than\n' +
     ' *  overwritten: which anchor clause failed on scrutiny is response-process\n' +
     ' *  evidence, and the IRR study reads it. */\n' +
@@ -727,10 +803,6 @@ export async function appPanelCModule(): Promise<string> {
     '/** W1–W3 and `workplace` are optional: programs scored before v4.1 carry\n' +
     ' *  only the adaptive sub-scale and must be re-scored, not back-filled. */\n' +
     'export interface V4PanelC {\n  instrument: string;\n  C1: V4ItemResult;\n  C2: V4ItemResult;\n  C3: V4ItemResult;\n  C4: V4ItemResult;\n  C5: V4ItemResult;\n  adaptiveness: number;\n  W1?: V4ItemResult;\n  W2?: V4ItemResult;\n  W3?: V4ItemResult;\n  workplace?: number;\n  gates: { G1: V4GateResult; G2: V4GateResult };\n  ambiguities: string[];\n  /** Optional: a record that lists no coverage limits omits the key rather than\n   *  asserting the empty list, which would read as \"nothing was unscoreable\". */\n  notScoreable?: string[];\n  verified?: { /** `true` on records written before the coverage contract (2026-08-25); the object form names the items actually attacked. */ adversarial: boolean | { reviewed: string[]; date: string }; mechanical: boolean; date: string };\n}\n\n' +
-    '/** Migration-cycle status. `adaptMedian` is null until every reference-cohort\n' +
-    ' *  program is scored on v4; position labels stay withheld while it is null. */\n' +
-    'export interface V4Meta {\n  cohortSize: number;\n  scored: number;\n  workplaceScored: number;\n  workplaceComplete: boolean;\n  complete: boolean;\n  adaptMedian: number | null;\n  /** Program-grain exposure median (alumni-title basis). */\n  expMedian: number;\n  /** Field-grain exposure median (JSA HEO basis) over the same reference cohort; null until every reference program has a field. Field-tier programs are placed against this, never against expMedian. */\n  expMedianField: number | null;\n  panelABasisVersion: string;\n  pending: string[];\n}\n\n' +
-    `export const V4_META: V4Meta = ${JSON.stringify(meta, null, 2)};\n\n` +
     '/** Which destination distribution stands for the program (docs/dfva-v4-panela-basis.md).\n' +
     ' *  exact/variant = own alumni record; pooled/combined = own program family;\n' +
     ' *  cognate/partial = a related program\'s record (an assumption, labelled);\n' +
@@ -744,29 +816,71 @@ export async function appPanelCModule(): Promise<string> {
     ' *  procedure for every program; `exposureBasis` records WHICH destination\n' +
     ' *  distribution it was computed on, so an estimate from a related program or\n' +
     ' *  a field-of-education list never reads as the program\'s own measurement. */\n' +
-    'export interface V4OnlyProgram {\n  code: string;\n  name: string;\n  hasMarketReport: boolean;\n  exposure: number | null;\n  entryExposure: number | null;\n  jirN: number | null;\n  nTitles: number | null;\n  nMedium: number | null;\n  exposureBasis: V4PanelABasis | null;\n}\n\n' +
-    `export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = ${JSON.stringify(v4Only, null, 2)};\n\n` +
-    '/** Panel A basis for every program scored on v4, reference cohort included\n' +
-    ' *  (their exposure VALUE still comes from v3Programs.ts; this is the label). */\n' +
-    `export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = ${JSON.stringify(panelABasis, null, 2)};\n\n` +
-    'export const v4PanelABasisByCode = (code: string): V4PanelABasis | undefined =>\n  V4_PANEL_A_BASIS[code.toLowerCase()];\n\n' +
-    'export const v4OnlyProgramByCode = (code: string): V4OnlyProgram | undefined =>\n  V4_ONLY_PROGRAMS[code.toLowerCase()];\n\n' +
+    'export interface V4OnlyProgram {\n  code: string;\n  name: string;\n  hasMarketReport: boolean;\n  exposure: number | null;\n  entryExposure: number | null;\n  jirN: number | null;\n  nTitles: number | null;\n  nMedium: number | null;\n  exposureBasis: V4PanelABasis | null;\n}\n\n'
+
+  const metaSource =
+    TS_BANNER +
+    TYPE_DEFS +
+    '/** Migration-cycle status. `adaptMedian` is null until every reference-cohort\n' +
+    ' *  program is scored on v4; position labels stay withheld while it is null. */\n' +
+    'export interface V4Meta {\n  cohortSize: number;\n  scored: number;\n  workplaceScored: number;\n  workplaceComplete: boolean;\n  complete: boolean;\n  adaptMedian: number | null;\n  /** Program-grain exposure median (alumni-title basis). */\n  expMedian: number;\n  /** Field-grain exposure median (JSA HEO basis) over the same reference cohort; null until every reference program has a field. Field-tier programs are placed against this, never against expMedian. */\n  expMedianField: number | null;\n  panelABasisVersion: string;\n  pending: string[];\n}\n\n' +
+    `export const V4_META: V4Meta = ${JSON.stringify(meta, null, 2)};\n\n` +
     '/** Research degrees excluded from Panel C v4 by scope (thesis PhDs, higher\n' +
     ' *  doctorates): no taught curriculum to score. Source: scripts/v4_cohort_ext_exclusions.json. */\n' +
     `export const V4_RESEARCH_DEGREES: readonly string[] = ${JSON.stringify(researchDegrees, null, 2)};\n\n` +
+    '/** The light per-program spine for /reports and /insights (docs: this file is\n' +
+    ' *  half of the split that keeps the landing page and reports index off the\n' +
+    ' *  28,000-line Panel C rationale/evidence text in v4PanelC.ts). One entry per\n' +
+    ' *  program carrying a panelCv4 score — the same domain as V4_PANEL_C. Item\n' +
+    ' *  scores are bare numbers (no rationale, no evidence lines); W1–W3 are null\n' +
+    ' *  for the handful of programs scored before v4.1 added the workplace\n' +
+    ' *  sub-scale. `gates` carries PASS/FAIL only, null when unrecorded — pair with\n' +
+    ' *  gateState()/gateStateFromResult() in v4/gateState.ts for display states. */\n' +
+    'export interface V4IndexEntry {\n  code: string;\n  name: string;\n  exposure: number | null;\n  entryExposure: number | null;\n  exposureTier: V4PanelATier | null;\n  adaptiveness: number;\n  workplace: number | null;\n  C1: number;\n  C2: number;\n  C3: number;\n  C4: number;\n  C5: number;\n  W1: number | null;\n  W2: number | null;\n  W3: number | null;\n  gates: { G1: "PASS" | "FAIL" | null; G2: "PASS" | "FAIL" | null };\n  verifiedAt: string | null;\n}\n\n' +
+    `export const V4_INDEX: Record<string, V4IndexEntry> = ${JSON.stringify(v4Index, null, 2)};\n\n` +
+    'export const v4IndexByCode = (code: string): V4IndexEntry | undefined =>\n  V4_INDEX[code.toLowerCase()];\n'
+
+  const panelCSource =
+    TS_BANNER +
+    '// Types are canonical in v4Meta.ts (the light module every route may import);\n' +
+    '// re-exported here so a heavy-path file can import both a type and a value\n' +
+    '// from this one specifier without also naming v4Meta.ts.\n' +
+    'export type {\n  V4Adjudication,\n  V4ItemResult,\n  V4GateResult,\n  V4PanelC,\n  V4PanelATier,\n  V4PanelAGrain,\n  V4PanelABasis,\n  V4OnlyProgram,\n} from "./v4Meta";\n' +
+    'import type { V4PanelABasis, V4OnlyProgram, V4PanelC } from "./v4Meta";\n\n' +
+    '/** Panel A basis and exposure data for programs scored on v4 but absent from\n' +
+    ' *  the v3 registry (docs: no taught curriculum, or scored ahead of a v1\n' +
+    ' *  report). Read only by the report page — /reports and /insights use the\n' +
+    ' *  light V4_INDEX in v4Meta.ts instead. */\n' +
+    `export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = ${JSON.stringify(v4Only, null, 2)};\n\n` +
+    '/** Panel A basis for every program scored on v4, reference cohort included\n' +
+    ' *  (their exposure VALUE still comes from v3Programs.ts; this is the label).\n' +
+    ' *  The bare tier (no sources/grain) is also carried on V4_INDEX in\n' +
+    ' *  v4Meta.ts for the light routes; this full object is for the report page. */\n' +
+    `export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = ${JSON.stringify(panelABasis, null, 2)};\n\n` +
+    'export const v4PanelABasisByCode = (code: string): V4PanelABasis | undefined =>\n  V4_PANEL_A_BASIS[code.toLowerCase()];\n\n' +
+    'export const v4OnlyProgramByCode = (code: string): V4OnlyProgram | undefined =>\n  V4_ONLY_PROGRAMS[code.toLowerCase()];\n\n' +
+    '/** Full per-program Panel C v4 results — every item\'s rationale and evidence\n' +
+    ' *  lines, ambiguities, verification. This is the 28,000-line body that made\n' +
+    ' *  this module a 3.3 MB chunk on every route; only the report page\n' +
+    ' *  (V4ReportPage.tsx and v4/report/*) may import it. /reports and /insights\n' +
+    ' *  use V4_INDEX in v4Meta.ts, which carries the bare scores this map holds\n' +
+    ' *  with the rationale and evidence stripped out. */\n' +
     `export const V4_PANEL_C: Record<string, V4PanelC> = ${JSON.stringify(results, null, 2)};\n\n` +
     'export const v4PanelCByCode = (code: string): V4PanelC | undefined =>\n  V4_PANEL_C[code.toLowerCase()];\n'
-  )
+
+  return { meta: metaSource, panelC: panelCSource }
 }
 
 async function main(): Promise<void> {
+  const v4Data = await appV4DataModules()
   const out = new Map<string, string>([
     ['dfva/dist/v4/DFVA-V4-SCORING-PROMPT.md', scoringPrompt()],
     ['dfva/dist/v4/DFVA-V4-RECOMMEND-PROMPT.md', recommendPrompt()],
     ['dfva/dist/v4/report-template-v4.md', reportTemplate()],
     ['dfva/dist/v4/recommend-template-v4.md', recommendTemplate()],
     ['compass/app/src/compass/v4/data/v4Rubric.ts', appRubricModule()],
-    ['compass/app/src/compass/v4/data/v4PanelC.ts', await appPanelCModule()],
+    ['compass/app/src/compass/v4/data/v4Meta.ts', v4Data.meta],
+    ['compass/app/src/compass/v4/data/v4PanelC.ts', v4Data.panelC],
   ])
   for (const [rel, content] of out) {
     const abs = path.join(repoRoot, rel)

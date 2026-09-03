@@ -7,7 +7,8 @@ import {
   splitSections,
 } from "../v2/components/ReportMarkdownCard";
 import { V4_AUTHORED } from "../v4/authoredSections";
-import { V4_PANEL_C, V4_RESEARCH_DEGREES } from "../v4/data/v4PanelC";
+import { V4_PANEL_C } from "../v4/data/v4PanelC";
+import { V4_RESEARCH_DEGREES } from "../v4/data/v4Meta";
 import {
   V4R_FINDING,
   V4R_LIMITS,

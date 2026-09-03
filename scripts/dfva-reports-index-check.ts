@@ -35,7 +35,8 @@
 import { readdirSync, readFileSync, existsSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { V4_PANEL_C, V4_RESEARCH_DEGREES } from '../compass/app/src/compass/v4/data/v4PanelC'
+import { V4_PANEL_C } from '../compass/app/src/compass/v4/data/v4PanelC'
+import { V4_RESEARCH_DEGREES } from '../compass/app/src/compass/v4/data/v4Meta'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const evidenceDir = path.join(ROOT, 'dfva/source/evidence')

@@ -36,7 +36,7 @@ import {
   type V4PortfolioRow,
 } from "./portfolioStats";
 import { V4_ADAPTIVENESS_MAX, V4_INSTRUMENT } from "./data/v4Rubric";
-import { V4_META } from "./data/v4PanelC";
+import { V4_META } from "./data/v4Meta";
 import { QUADRANTS, type QuadrantConfig } from "../v2/quadrants";
 
 const POSITION_MEANING: Record<string, string> = {

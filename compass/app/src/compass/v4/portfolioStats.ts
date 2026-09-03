@@ -16,12 +16,7 @@
  *
  * Pure functions — no React, so the numbers on the page are unit-testable.
  */
-import {
-  V4_META,
-  v4PanelCByCode,
-  type V4PanelATier,
-  type V4PanelC,
-} from "./data/v4PanelC";
+import { V4_META, v4IndexByCode, type V4PanelATier } from "./data/v4Meta";
 import { V4_RUBRIC } from "./data/v4Rubric";
 import { REPORT_INDEX, type ReportIndexEntry } from "./reportIndex";
 import {
@@ -30,7 +25,7 @@ import {
   basisMedian,
   isOwnRecord,
 } from "./exposureBasis";
-import { gateState, type GateState } from "./gateState";
+import { gateStateFromResult, type GateState } from "./gateState";
 import type { V4Quadrant } from "./v4Position";
 
 /** Reading order for the four positions: strongest footing first. Shared by
@@ -117,16 +112,14 @@ export function v4PortfolioRows(): V4PortfolioRow[] {
         verifiedAt: null,
       };
     }
-    // status === "current" is set iff v4PanelCByCode finds a record.
-    const panelC = v4PanelCByCode(e.code) as V4PanelC;
+    // status === "current" is set iff v4IndexByCode finds a record.
+    const idx = v4IndexByCode(e.code)!;
     const basis = basisFor(e.code);
     const items: Record<string, number> = {};
     for (const item of V4_ITEMS) {
-      const result = panelC[item.id as keyof V4PanelC];
-      items[item.id] =
-        result && typeof result === "object" && "score" in result
-          ? result.score
-          : NaN;
+      const score =
+        idx[item.id as "C1" | "C2" | "C3" | "C4" | "C5" | "W1" | "W2" | "W3"];
+      items[item.id] = typeof score === "number" ? score : NaN;
     }
     return {
       code: e.code,
@@ -143,13 +136,13 @@ export function v4PortfolioRows(): V4PortfolioRow[] {
       workplace: e.workplace,
       items,
       gates: {
-        G1: gateState(panelC.gates?.G1),
-        G2: gateState(panelC.gates?.G2),
+        G1: gateStateFromResult(idx.gates.G1),
+        G2: gateStateFromResult(idx.gates.G2),
       },
       position: e.position,
       atThreshold:
         V4_META.adaptMedian !== null && e.adaptiveness === V4_META.adaptMedian,
-      verifiedAt: panelC.verified?.date ?? null,
+      verifiedAt: idx.verifiedAt,
     };
   });
 }

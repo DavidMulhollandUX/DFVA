@@ -7,8 +7,8 @@ import {
   type V3Program,
 } from "../../v3/data/v3Programs";
 import { V4_ADAPTIVENESS_MAX } from "../data/v4Rubric";
+import { V4_META } from "../data/v4Meta";
 import {
-  V4_META,
   V4_PANEL_C,
   type V4PanelABasis,
   type V4PanelC,

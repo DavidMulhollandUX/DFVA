@@ -1,10 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { PROGRAMS } from "../sharedProgramData";
-import {
-  V4_ONLY_PROGRAMS,
-  V4_PANEL_C,
-  V4_RESEARCH_DEGREES,
-} from "../v4/data/v4PanelC";
+import { V4_ONLY_PROGRAMS, V4_PANEL_C } from "../v4/data/v4PanelC";
+import { V4_RESEARCH_DEGREES } from "../v4/data/v4Meta";
 import { REPORT_INDEX } from "../v4/reportIndex";
 import {
   assessmentSlugFor,
