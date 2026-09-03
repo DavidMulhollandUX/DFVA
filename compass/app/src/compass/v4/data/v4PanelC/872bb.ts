@@ -1,0 +1,135 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1 anchor exactly: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' Teamwork appears only as a generic-skills statement in both core subjects ('Developing interpersonal skills to work as part of a team'), and R2 caps outcome-only capabilities at 1. The two documented core assessments are an individual 3-hour written examination (VETS70002, 100%) and an individually authored 30,000-word thesis (VETS90027) — neither assesses collaborative practice, so the level 2 anchor ('at least one core unit assesses collaborative practice') is not met. Clinical-rounds and hospital participation is workplace immersion, which under one-construct-one-home is housed in W3, not C1. Nothing anywhere allocates or assesses work across people AND tools/AI systems, so level 3 is out of reach.",
+    "evidenceLines": [
+      "Developing interpersonal skills to work as part of a team;",
+      "developing interpersonal skills to work as part of a team;",
+      "Written examination",
+      "3 hours",
+      "Candidates will be required to undertake research culminating in the production of a thesis of no more than 30,000 words to be submitted for examination by two external examiners. The format of the thesis, including a statement on authorship, must follow prescriptions laid down by the University and found in the Masters by Research Generic Guidelines."
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: appraisal language appears in stated outcomes and generic skills ('Approaching scientific research in a critical, perceptive and constructive way', research ethics and integrity) but no core unit assesses appraisal against criteria. The level 2 anchor requires criterion-referenced appraisal of quality in CORE assessment — peer review, structured critique, portfolio with standards, marking against exemplars. The extract's two assessment tables document only 'Written examination / 3 hours / 100%' with no content description, and a 30,000-word thesis examined by two external examiners. External examination is appraisal OF the student's work by others, not appraisal BY the student, so it does not satisfy the construct. Level 3 (documented and justified reliance decisions on a tool, source or collaborator, or defended judgements of AI-output quality) has no evidence of any kind.",
+    "evidenceLines": [
+      "Approaching scientific research in a critical, perceptive and constructive way;",
+      "demonstrate an understanding of, and commitment to, research ethics and integrity.",
+      "Written examination",
+      "Theses are examined by the Melbourne School of Graduate Research. Three months prior to the submission date of the thesis, the candidate is required to submit an 80-word summary of the thesis argument to the Melbourne School of Graduate Research. The summary activates the process of nominating potential examiners for the thesis."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: digital content appears only as tool operation — 'Acquiring skills in the searching and manipulation of scientific literature and other relevant data bases', stated as a generic skill of both core subjects. That contradicts level 0 ('No digital/AI content in any core unit or program-level outcome'), but it is precisely the operational level TEQSA identifies as non-durable, and it is not assessed in either assessment table. Level 2 requires core units to address AI capabilities AND limitations/ethics: the extract contains no mention of artificial intelligence, generative AI, machine learning or any digital tool beyond literature/database searching, so neither level 2 nor the level-3 governance/critique route can be reached.",
+    "evidenceLines": [
+      "Acquiring skills in the searching and manipulation of scientific literature and other relevant data bases; and",
+      "acquiring skills in the searching and manipulation of scientific literature and other relevant data bases;",
+      "Written examination",
+      "3 hours"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2 anchor is met: a required core assessment applies method to novel problems — the thesis 'should demonstrate a critical application of specialist knowledge and make an independent contribution to existing scholarship', and it is required (75% of the degree, 'A pass is required in both components'). Level 3 requires documented structured progression toward independent learning instantiated as a SELF-SCOPED research project, or assessed identification of one's own knowledge gaps with a plan to close them. The extract documents the opposite of self-scoping: the project is arranged by the supervisors and Advisory Committee 'in consultation with the candidate'. The self-direction claim ('independently design and execute a substantial piece of research') is an intended learning outcome, which R2 never accepts as sufficient, and no assessed knowledge-gap identification appears. The candidature-progression evidence (probationary period, confirmation report and seminar) is scored once, in C5's staged-supervised-review route, per one-construct-one-home. Ambiguity between 2 and 3 resolved to the lower level.",
+    "evidenceLines": [
+      "A thesis is submitted in partial fulfillment of the degree. The thesis should demonstrate a critical application of specialist knowledge and make an independent contribution to existing scholarship in the area of research.",
+      "Assessment will be weighted 75% to the research thesis and 25% to the practicum component. A pass is required in both components.",
+      "A candidate will have appropriately experienced supervisors and an Advisory Committee who, in consultation with the candidate, will arrange a course of supervised research designed to suit the individual requirements and interests of the candidate. A candidate may be required to supplement their research program by attendance at, or enrolment in, additional subjects if considered necessary by the supervisors.",
+      "independently design and execute a substantial piece of research that makes a contribution to knowledge within their field;"
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3 anchor is met on all three conjuncts, with assessment evidence as R2 demands. (a) Substantial project generating primary evidence: 'Research training based on the conduct of experiments, or analysis of clinical cases, under appropriate supervision', culminating in a 30,000-word thesis. (b) REQUIRED, not one route among several: the thesis carries 75% of the degree and 'A pass is required in both components'; there is no non-empirical alternative route in the structure — the only other component is the practicum. (c) Methodology defended under scrutiny: the thesis is 'submitted for examination by two external examiners', and candidature runs a staged supervised review — 'a probationary period, confirmation report and seminar, and completion seminar'. Level 2 is exceeded because the inquiry is not merely designed and conducted but externally examined and staged-reviewed.",
+    "evidenceLines": [
+      "The Master of Veterinary Science is a graduate research degree that can be undertaken in any of the Faculty of Science clinical research programs. Research training based on the conduct of experiments, or analysis of clinical cases, under appropriate supervision, is given in a selected field of veterinary science.",
+      "Candidates will be required to undertake research culminating in the production of a thesis of no more than 30,000 words to be submitted for examination by two external examiners. The format of the thesis, including a statement on authorship, must follow prescriptions laid down by the University and found in the Masters by Research Generic Guidelines.",
+      "Assessment will be weighted 75% to the research thesis and 25% to the practicum component. A pass is required in both components.",
+      "Regular progress reporting requirements apply, such as a probationary period, confirmation report and seminar, and completion seminar.",
+      "apply scientific methods to the definition and solution of problems by research;"
+    ]
+  },
+  "adaptiveness": 8,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: communication appears in the program's intended learning outcomes and in both core subjects' generic skills ('disseminate research findings effectively in the professional arena'; 'Communicating effectively through both the spoken and written medium and to both professional colleagues and the wider community') — outcome statements Barrie forbids scoring and R2 caps at 1 — and the program adds required spoken communication to staff and research peers: candidates 'present their work in the Faculty's research seminar program', with a confirmation seminar and completion seminar as regular progress requirements. Level 2 requires a recognised professional genre or an audience beyond the teaching team judged against criteria drawn from professional practice. The two documented assessed artefacts are a 3-hour written examination and a research thesis, both academic genres; the two external examiners are academic markers appointed through the Melbourne School of Graduate Research, not a professional audience, and the thesis format follows the University's own 'Masters by Research Generic Guidelines' rather than criteria drawn from practice. Ambiguity 1 vs 2 resolved down.",
+    "evidenceLines": [
+      "disseminate research findings effectively in the professional arena;",
+      "Communicating effectively through both the spoken and written medium and to both professional colleagues and the wider community.",
+      "Candidates are expected to meet regularly with their research supervisor(s) and present their work in the Faculty’s research seminar program. They are assisted to participate in relevant national or international conferences.",
+      "Regular progress reporting requirements apply, such as a probationary period, confirmation report and seminar, and completion seminar.",
+      "Theses are examined by the Melbourne School of Graduate Research. Three months prior to the submission date of the thesis, the candidate is required to submit an 80-word summary of the thesis argument to the Melbourne School of Graduate Research. The summary activates the process of nominating potential examiners for the thesis."
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic.' The practicum 'will consist primarily of case studies in the Veterinary Hospital', so the tasks are situated — but the assessed artefacts are a three-hour written examination (100% of VETS70002) and a 30,000-word thesis whose format 'must follow prescriptions laid down by the University and found in the Masters by Research Generic Guidelines', i.e. academic criteria. Level 2 requires at least one core assessment to reproduce a professional task end to end — the artefact a practitioner would produce, judged against criteria drawn from practice. Neither documented assessment does: a timed written exam is not a veterinary practitioner's deliverable, and the thesis is judged against the University's own research guidelines by academic examiners. Per R4 no credit is taken from the 'advanced clinical training' framing — only documented task features are scored — and the hospital immersion itself is housed in W3. Ambiguity 1 vs 2 (the thesis as a clinical researcher's own artefact, drawn from real clinical cases) resolved to the lower level.",
+    "evidenceLines": [
+      "This is a subject for the practicum component of the Master of Veterinary Science (Clinical). For most students, the practicum will consist primarily of case studies in the Veterinary Hospital. Students will be provided with advanced clinical training in diagnostic, therapeutic, and technical skills associated with veterinary clinical sciences.",
+      "Written examination",
+      "3 hours",
+      "Candidates will be required to undertake research culminating in the production of a thesis of no more than 30,000 words to be submitted for examination by two external examiners. The format of the thesis, including a statement on authorship, must follow prescriptions laid down by the University and found in the Masters by Research Generic Guidelines."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Level 2 anchor is met squarely: a core unit places students in a real workplace with practitioner supervision and assessment — VETS70002 is a compulsory practicum subject ('Practicum subjects (37.5 points)') in the Veterinary Hospital, where students take part in 'the clinical investigation and management of clinical cases under supervision of senior staff', assessed by a three-hour written examination contributing 25% of the degree, with a pass required. Level 3 requires, on top of an extended core practicum supervised by a practitioner and assessed, BOTH accountability to the host AND structured reflection on professional practice; neither is documented anywhere in the extract — the only assessment line is 'Written examination / 3 hours / 100%', with no reflective component, no logbook, no supervisor report and no host sign-off. The own-practice route for an already-practising cohort (Clinical Residency Training Program candidates) fails at level 3 on the same two missing conjuncts. Ambiguity 2 vs 3 — the practicum is extended and required rather than 'short or stands alone' — resolved to the lower level because the level-3 conjuncts are absent.",
+    "evidenceLines": [
+      "Practicum subjects (37.5 points)",
+      "In addition to research and publication of a thesis, students will obtain advanced professional training through participation in the clinical investigation and management of clinical cases under supervision of senior staff (Clinical Practicum). This portion of the Masters is assessed by a 3 hour examination held in the final year of candidacy.",
+      "The practicum component of this program will be undertaken during enrolment in the MVSc. It will involve participation in clinical rounds, tutorials, seminars, and other similar activities, according to the candidate’s area of interest. The practicum component must be clearly related to the research project and will be in an area such as small animal medicine and surgery, anaesthesia, equine medicine and surgery, diagnostic imaging, dairy medicine, and pathology. The practicum component will be assessed by a three-hour written examination at the end of the candidacy and will contribute 25% to the final assessment for the degree.",
+      "Students who enroll in this course as part of the Clinical Residency Training Program will be enrolled on a part-time basis. The expected duration of part-time candidature is three years, with the possibility of two six-month extensions. For local students, RTP is available for a maximum of two years full-time equivalent (four years part-time).",
+      "Written examination"
+    ]
+  },
+  "workplace": 4,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS on the 'coherent specialist core with progressive technical or methodological depth' condition. Both components are compulsory and mutually tied ('A pass is required in both components'; the practicum 'must be clearly related to the research project'), the practicum is located in a named veterinary clinical specialty (small animal medicine and surgery, anaesthesia, equine medicine and surgery, diagnostic imaging, dairy medicine, pathology), and depth is staged through candidature milestones — probationary period, confirmation report and seminar, completion seminar — ending in external examination of a 30,000-word thesis. This is not generic or interchangeable content.",
+      "evidenceLines": [
+        "The Master of Veterinary Science is a graduate research degree that can be undertaken in any of the Faculty of Science clinical research programs. Research training based on the conduct of experiments, or analysis of clinical cases, under appropriate supervision, is given in a selected field of veterinary science.",
+        "Assessment will be weighted 75% to the research thesis and 25% to the practicum component. A pass is required in both components.",
+        "The practicum component of this program will be undertaken during enrolment in the MVSc. It will involve participation in clinical rounds, tutorials, seminars, and other similar activities, according to the candidate’s area of interest. The practicum component must be clearly related to the research project and will be in an area such as small animal medicine and surgery, anaesthesia, equine medicine and surgery, diagnostic imaging, dairy medicine, and pathology. The practicum component will be assessed by a three-hour written examination at the end of the candidacy and will contribute 25% to the final assessment for the degree.",
+        "Regular progress reporting requirements apply, such as a probationary period, confirmation report and seminar, and completion seminar."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS on the 'live projects with real uncertainty and accountability' condition rather than the trade-off-decision condition. The required thesis is a live research project whose outcome is not known in advance — it must 'make an independent contribution to existing scholarship' — conducted through experiments or analysis of clinical cases and held accountable by examination by two external examiners plus staged candidature review. The practicum places candidates in the clinical investigation and management of real cases under senior supervision. This is not recall or scripted response, although the practicum's own assessment instrument (an unspecified three-hour written examination) carries no documented uncertainty of its own.",
+      "evidenceLines": [
+        "A thesis is submitted in partial fulfillment of the degree. The thesis should demonstrate a critical application of specialist knowledge and make an independent contribution to existing scholarship in the area of research.",
+        "The Master of Veterinary Science is a graduate research degree that can be undertaken in any of the Faculty of Science clinical research programs. Research training based on the conduct of experiments, or analysis of clinical cases, under appropriate supervision, is given in a selected field of veterinary science.",
+        "Candidates will be required to undertake research culminating in the production of a thesis of no more than 30,000 words to be submitted for examination by two external examiners. The format of the thesis, including a statement on authorship, must follow prescriptions laid down by the University and found in the Masters by Research Generic Guidelines.",
+        "In addition to research and publication of a thesis, students will obtain advanced professional training through participation in the clinical investigation and management of clinical cases under supervision of senior staff (Clinical Practicum). This portion of the Masters is assessed by a 3 hour examination held in the final year of candidacy."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1 straddled 1 and 2: clinical rounds and hospital case management are inherently collaborative work, but neither documented assessment (3-hour written exam; individually authored thesis) assesses collaboration, and the immersion itself is housed in W3 under one-construct-one-home. Resolved down to 1.",
+    "C2 straddled 0 and 1: no assessment requires appraisal of quality (the level-0 condition holds), while critical-appraisal and research-integrity language does appear in outcomes and generic skills (the level-1 condition). Scored 1 because the level-1 distinguishing feature — the outcome statement — is present on its face, and R2 caps outcome-only capabilities at exactly 1; level 2 was never in reach.",
+    "C3 straddled 0 and 1: the extract contains no AI content at all, but 'searching and manipulation of ... data bases' is digital tool-operation content in a core subject's stated skills, which contradicts level 0. Held at the operational level 1.",
+    "C4 straddled 2 and 3: a required, individually oriented research thesis with staged candidature milestones reads toward level 3, but the level-3 anchor's route is a SELF-SCOPED project and the course structure states the research course is arranged by supervisors and an Advisory Committee 'in consultation with the candidate'. The self-direction claim is an ILO, which R2 excludes. Resolved down to 2, consistent with the same wording holding 439fs at 2.",
+    "C5's scrutiny conjunct: the thesis is examined by two external examiners on written report — there is no documented viva or oral defence. Level 3 is carried by the alternative 'staged supervised review' route (probationary period, confirmation report and seminar, completion seminar), which is documented explicitly.",
+    "W1 straddled 0 and 1: all assessed artefacts are academic genres addressed to markers (level 0), but required spoken communication exists as the Faculty research seminar program plus confirmation and completion seminars, and communication appears in outcomes (level 1). Scored 1; the seminars are documented as candidature progress requirements rather than lines in either assessment table, which is why level 2 was not tested on them.",
+    "W2 straddled 1 and 2: the thesis could be read as the artefact a clinical-research practitioner produces, drawn from real clinical cases, which would reach 2. Resolved down to 1 because the criteria applied are explicitly the University's 'Masters by Research Generic Guidelines' and academic examiners, not criteria drawn from professional practice, and the practicum's own assessment is an undescribed timed written exam.",
+    "W3 straddled 2 and 3: the practicum is core, extended across candidature (37.5 points, Semesters 1 and 2), practitioner-supervised and assessed at 25% — it is neither short nor optional, which argues against the level-2 qualifier. Resolved down to 2 because both level-3 conjuncts — documented accountability to the host and structured reflection on professional practice — are absent from the extract on either the placement route or the already-practising own-practice route.",
+    "Assessment-table detail is thin: VETS70002 documents only 'Written examination / 3 hours / 100%' with no content description, and VETS90027 documents only the 30,000-word thesis. Several items (C2, W1, W2) would move if the exam's content were specified; on the evidence as captured they cannot."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-16"
+  }
+};
+
+export default record;

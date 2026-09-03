@@ -1,0 +1,107 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1 is met: collaboration/teamwork appears in the program-level graduate attributes ('Capacity to value and participate in teamwork'), and the attribute narrative describes 'Small classes, a discussion-based environment... in which knowledge is exchanged, critically examined and adapted to current circumstances'. No captured core or elective unit assesses collaborative practice — every captured assessment is individually authored (research paper, take-home exam, individual presentation, reflective journal). The compulsory subject International Law and Development (LAWS70093) was not captured, so its assessment cannot be scored; the score rests on the elective subjects that make up 87.5 of 100 credit points and are representative of the program's individually-assessed mode. Level 2 would require a core unit assessing group work with individual accountability — none is documented in the extract.",
+    "evidenceLines": [
+      "Capacity to value and participate in teamwork",
+      "Small classes, a discussion-based environment and the emphasis on quality teaching and learning create an environment in which knowledge is exchanged, critically examined and adapted to current circumstances."
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 is met: reflection and self-directed analysis appear in graduate attributes ('Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative') and one captured elective (LAWS90021 Advanced Negotiations) assesses a 'Reflective journal' (2000-2500 words, 50%). No captured unit assesses criterion-referenced appraisal of the quality of work — there is no peer review, structured critique against exemplars, or portfolio-with-standards assessment visible in the extract. Level 2 (peer review, structured critique) is not met. The compulsory subject was not captured. R2 binds: reflection appears in outcomes and one elective's assessment, but no core assessment requires appraisal of quality against criteria.",
+    "evidenceLines": [
+      "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+      "Reflective journal"
+    ]
+  },
+  "C3": {
+    "score": 0,
+    "rationale": "Level 0 is met: no core unit or program-level outcome carries digital or AI literacy content. The only technology reference is the graduate attribute 'Advanced working skills in the use of new technology', whose body documents IT infrastructure availability ('The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study') — this is about access to computers, not AI/digital literacy curriculum. No captured subject addresses AI capabilities, limitations, ethics or governance. The blockchain elective (LAWS90169) concerns blockchain law/regulation, not AI literacy, and is not available in 2026. R1: score what is documented; the documented technology statement is infrastructure, not literacy.",
+    "evidenceLines": [
+      "Advanced working skills in the use of new technology",
+      "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study."
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2 is met: the intended learning outcomes require students to 'research and apply such information, concepts and theories to the relevant body of knowledge and practice', and the dominant assessment mode across captured electives is a research paper on a student-approved topic (e.g. LAWS70110 'Research paper on a topic approved by the subject coordinator', LAWS70293 'Research paper on a topic approved by the subject coordinator', LAWS90144 'Research paper on a topic approved by the subject coordinator'). Each requires applying legal method to a novel, self-scoped problem. Level 3 is not met: no captured unit documents a self-scoped capstone or structured progression toward independent learning with staged supervised review as a required element; the research papers are per-subject, not a capstone requiring defended identification of knowledge gaps. The compulsory subject was not captured.",
+    "evidenceLines": [
+      "research and apply such information, concepts and theories to the relevant body of knowledge and practice; and",
+      "Research paper on a topic approved by the subject coordinator"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 is met: 'Advanced competencies in legal research and analysis' is a graduate attribute, and 'All graduates of an LLM will have demonstrated, through subject assessment, the ability to use their research skills to plan, develop and execute substantial research-based project(s)'. The captured assessments confirm this — every available elective assesses a research paper (4000-8000 words) requiring design and conduct of a legal inquiry with methodology selection, assessed. Level 3 is not met: no captured unit requires a substantial project generating primary evidence as a required element with methodology defended under scrutiny (viva/defence/staged review); the research papers are doctrinal/legal analysis, not primary-evidence generation, and are per-subject rather than a required capstone.",
+    "evidenceLines": [
+      "Advanced competencies in legal research and analysis",
+      "All graduates of an LLM will have demonstrated, through subject assessment, the ability to use their research skills to plan, develop and execute substantial research-based project(s) and/or piece(s) of scholarship.",
+      "Research paper on a topic approved by the subject coordinator"
+    ]
+  },
+  "adaptiveness": 6,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1 is met: communication appears in graduate attributes ('Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences') and one captured elective assesses presentation to peers/staff (LAWS70293 Climate Change Law 'In-class presentation (maximum 8 mins)' 10%). No captured assessment requires a recognised professional genre (client brief, consultancy, policy advice) or an audience beyond the teaching team — the presentations are to peers/staff, and the dominant assessment is the academic research paper. The International Legal Internship (LAWS70067) would carry professional communication but is an elective and was not captured in detail. R2 binds: communication is in outcomes and a peer/staff presentation is assessed, but no professional-genre or external-audience assessment is documented.",
+    "evidenceLines": [
+      "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+      "In-class presentation (maximum 8 mins)"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 is met: scenario-framed tasks appear — LAWS90144 International Sustainable Finance assesses a 'Case study activity' (2000 words equivalent, 40%) and describes students engaging 'through term sheet negotiations, and pitches'. But the artefact produced and criteria applied remain academic: the subject's other assessments are a research paper and class participation, and the case study is graded on academic criteria, not against a practitioner's performance standard. No captured assessment reproduces a professional task end to end (real problem → practitioner artefact → practice criteria) as the spine. Level 2 is not met in the captured extract. The compulsory subject was not captured.",
+    "evidenceLines": [
+      "Case study activity",
+      "2000 words (equivalent)"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1 is met: work-situated learning exists only as an elective. LAWS70067 International Legal Internship is listed among 'Further subjects related to course' with multiple study periods and 12.5 credit points, but it is an optional elective, not a required capstone or core placement. No compulsory practicum, placement or community-based project appears in the course structure. The program therefore scores the elective-internship limb of level 1, not the core-placement limb of level 2.",
+    "evidenceLines": [
+      "LAWS70067 International Legal Internship",
+      "January (On Campus - Parkville)"
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents a coherent specialist core with disciplinary identity: 'The specialisation in law and development offers a choice of subjects examining the legalisation of development and the role of international and regional actors in law reform projects', and 'All students must complete the compulsory subject International Law and Development'. The Law and Development subject grouping (LAWS70093, LAWS90018, LAWS90042, LAWS70122, LAWS90179, LAWS90155, LAWS90253, LAWS90272, LAWS90326, LAWS90307) forms a recognisable disciplinary cluster. G1 PASS.",
+      "evidenceLines": [
+        "The specialisation in law and development offers a choice of subjects examining the legalisation of development and the role of international and regional actors in law reform projects.",
+        "All students must complete the compulsory subject International Law and Development."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Assessments require defended analysis of complex, open problems rather than recall. The graduate attributes state 'Well-developed problem solving abilities, characterised by flexibility of approach' and 'Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks'. The research-paper assessment mode requires students to select, frame and defend a legal argument on a novel question. G2 PASS.",
+      "evidenceLines": [
+        "Well-developed problem solving abilities, characterised by flexibility of approach",
+        "Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks."
+      ]
+    }
+  },
+  "ambiguities": [
+    "Capture gap: the compulsory subject International Law and Development (LAWS70093, 12.5cp) was not captured — only elective subject pages were. The score rests on the 87.5cp of electives that dominate the program and are representative of its individually-assessed research-paper mode. A re-capture of LAWS70093 could raise or lower C1/C2/C4/C5, but the elective evidence is consistent and the directional reading (low collaboration, no AI, individual assessment) is unlikely to reverse.",
+    "Construct-boundary check (appraisal of quality): the Advanced Negotiations 'Reflective journal' is homed in C2 (self-reflection) and was not counted again as W1 communication or W2 task fidelity.",
+    "Construct-boundary check (group work): no group-work assessment was found in the captured extract, so C1's evidence rests on the graduate-attribute statement alone; this was not reused in W1.",
+    "C4/C5 both turn on the research-paper assessment spine, which is one structural fact (per-subject inquiry) rather than two independent observations — noted for the IRR study."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-26"
+  }
+};
+
+export default record;

@@ -1,0 +1,118 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "At least one core unit assesses collaborative practice — multiple Category 1/3 subjects carry syndicate (group) assignments with individual accountability (Data Analysis, Finance, Operations, Marketing, Supply Chain Analytics). Level 3 requires an assessment that coordinates work across people AND tools/AI systems; no core assessment documents that division of labour, so resolves to 2.",
+    "evidenceLines": [
+      "Syndicate assignment (equivalent of individual 500 words) (4 - 5 students per group)",
+      "Syndicate case assignments; (4 - 5 students in each group)"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Evaluation and critical thinking appear in outcomes and graduate attributes ('evaluation of data and other information'; 'critical thinking') but no core unit assesses appraisal of the quality of work — own, peer's or a tool's — against criteria (no peer review, critique against exemplars, or portfolio-with-standards assessment documented). Resolves to 1, not 2.",
+    "evidenceLines": [
+      "High level of development: problem solving; statistical reasoning; application of theory to practice; interpretation and analysis; synthesis of data and other information; evaluation of data and other information; use of computer software; accessing data and other information from a range of sources.",
+      "Moderate level of development: written communication; critical thinking; receptiveness to alternative ideas."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "A core Category 2 subject (MGMT90244 Leading Data and AI Transformation) addresses AI/analytics capabilities AND an ethical framework for deployment, and the analytics subjects address tool use with limits; assessed via exam/quizzes. Not level 3 — no core assessment requires critique or governance of AI systems in the discipline context (bias, accountability, transparency, regulation, data governance beyond tool operation).",
+    "evidenceLines": [
+      "Develop an organisation's vision, goals and ethical framework for how to use business analytics more effectively",
+      "Drive change processes under the ethical framework that will facilitate the implementation of the vision and goals in an organisation"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "The Applied Analytics Lab capstone (Category 4) requires application of analytics to a real, unfamiliar business problem using real industry data — a core assessment applying methods outside the taught context. Not level 3: the project is industry-scoped rather than self-scoped, and there is no assessed identification of the student's own knowledge gaps with a closure plan.",
+    "evidenceLines": [
+      "This subject involves completion of a 10-week project using real data from an industry setting.",
+      "Clearly articulate the business problem to be solved and the data & tools required to solve the problem."
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "The only research framing is at graduate-attribute level ('Able to conduct basic research…'); the capstone analyses provided industry data rather than requiring students to generate primary evidence with methodology defended under scrutiny (viva/defence). No required substantial primary-evidence project. Resolves to 1, not 2.",
+    "evidenceLines": [
+      "Able to conduct basic research and to retrieve business and information technology information from a variety of sources."
+    ]
+  },
+  "adaptiveness": 8,
+  "W1": {
+    "score": 2,
+    "rationale": "The Applied Analytics Lab requires a professional report and presentation connecting analysis to an organisation's business issues — a recognised professional genre with an audience beyond the teaching team. Not level 3: professional communication is not assessed progressively across the program, and the handbook does not confirm a real external audience or practitioner judges the presentation (the industry setting supplies the data, not a documented external assessor).",
+    "evidenceLines": [
+      "This subject involves completion of a 10-week project using real data from an industry setting.",
+      "Present their work professionally in a way that makes the connections between the results of their analysis and business issues for an organisation."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "The Applied Analytics Lab reproduces the professional analytics task end-to-end: a real business problem, real industry data, an original practitioner-format report judged against practice. Most other core subjects are exam-weighted (academic genres), so authentic tasks are not the assessment spine — resolves to 2, not 3.",
+    "evidenceLines": [
+      "This subject involves completion of a 10-week project using real data from an industry setting.",
+      "Produce original work in an appropriate format which demonstrates analytical, research and problem-solving skills;"
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "The course structure lists no placement, practicum or community-based project, and the only industry-situated element (Applied Analytics Lab) is an industry-data project documented as 'in a workplace context' but with no practitioner supervision or accountability to a host. Per the instrument, an industry-data project without documented supervision is W2 (authentic task), not W3. The cohort is not documented as already-practising, so the in-practice route does not apply. Resolves to 0.",
+    "evidenceLines": [
+      "This subject involves completion of a 10-week project using real data from an industry setting.",
+      "Category 4: Applied Analytics Lab Capstone"
+    ]
+  },
+  "workplace": 4,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents a coherent specialist core with progressive technical/methodological depth: foundation management → analytics foundations → specialised analytics → applied capstone, AACSB-accredited, explicitly 'designed to develop an analytics generalist'.",
+      "evidenceLines": [
+        "The course is designed to develop an analytics generalist.",
+        "Category 4: Applied Analytics Lab Capstone"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The Applied Analytics Lab is a live project with real industry data and accountability (report + presentation, 80% hurdle), requiring defended analytic decisions under real uncertainty; syndicate case assignments in Operations/Marketing also address business problems.",
+      "evidenceLines": [
+        "This subject involves completion of a 10-week project using real data from an industry setting."
+      ]
+    }
+  },
+  "ambiguities": [
+    "Shared-evidence dependency (not independent observations): the Applied Analytics Lab capstone (BUSA90522) is the single evidence source for C4 (application to an unfamiliar problem), W1 (professional communication to an organisation) and W2 (end-to-end authentic task). All three items turn on the one 10-week industry project; the IRR analysis cannot treat them as independent.",
+    "C3 / MGMT90244 boundary: the subject's 'ethical framework' ILO is organisational deployment ethics (how to lead analytics adoption), not technical AI-governance critique (bias/accountability/transparency/regulation). Scored C3=2 on core-unit AI capabilities + ethics content, not level 3.",
+    "Group/syndicate work across Data Analysis, Finance, Operations, Marketing and Supply Chain Analytics evidences C1 (collaborative practice). The peer presentations within those syndicates are NOT scored in W1 because their audience is the teaching team, not an external professional audience; W1's evidence is the Applied Analytics Lab's organisation-facing presentation.",
+    "W3 considered the capstone's industry setting but scored 0: handbook documents no placement/practicum or practitioner supervision/accountability, so the evidence carries W2 (task fidelity), not W3."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-29"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

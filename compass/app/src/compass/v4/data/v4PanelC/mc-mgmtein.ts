@@ -1,0 +1,136 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 (‘at least one core unit assesses collaborative practice — group projects with individual accountability’): group assessment recurs across nearly every Foundation and Core subject, and several pair group work with an individually-marked component in the same subject (e.g. MGMT90227 combines a group report with an individual case analysis). Level 3 additionally requires an assessment that requires coordinating work across people AND tools/AI systems; no core subject documents this — the one AI-named subject (MGMT90267) is an Elective, not core — so level 3 is not reached.",
+    "evidenceLines": [
+      "Group report (groups of 4-5 students)",
+      "Individual case analysis",
+      "Group business plan (usually in groups of 3-4)",
+      "Group assignment (groups of 4-6)"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 (‘criterion-referenced appraisal of quality: peer review, structured critique...’): BUSA90529's assessed 'Peer-review of business model canvas' is explicit peer review, matching the anchor's own named example. Level 3 (documenting/justifying a reliance decision on a tool, source or collaborator, or evidencing strategy adjustment over time) is not documented anywhere in the extract.",
+    "evidenceLines": [
+      "Peer-review of business model canvas",
+      "500 words (equivalent)",
+      "Not available in 2026"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 (‘AI or digital tools appear only as electives or as tool operation/training’): the only AI-specific subject documented in the extract, MGMT90267 'Artificial Intelligence in Organisations', is listed solely under Elective subjects in both the 200pt and 150pt structures. No Foundation, Core or Capstone subject addresses AI capabilities and limitations/ethics as required for level 2.",
+    "evidenceLines": [
+      "MGMT90267\tArtificial Intelligence in Organisations",
+      "Term 2 (Online)"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2 (‘at least one core assessment requires application to novel or unfamiliar problems’): MGMT90141's assessed group assignments apply decision-making models to 'real and hypothetical situations' across varied business domains, and MGMT90201 requires each group to develop and defend a business plan for 'their own innovation (a solution to a real world problem)'. MGMT90201's self-directed venture concept gestures toward level 3's 'self-scoped capstone or research project', but the extract does not document a program-wide structured progression toward independent learning (only one subject's own-innovation task), so per the ambiguity-resolution rule the score is taken at the lower level.",
+    "evidenceLines": [
+      "Apply different models to real and hypothetical situations.",
+      "Group assignment (usually in groups of 3-5)",
+      "Students are expected to demonstrate entrepreneurial skills and use these to take their own innovation (a solution to a real world problem) to the pre-implementation stage.",
+      "Group business plan (usually in groups of 3-4)"
+    ]
+  },
+  "C5": {
+    "score": 0,
+    "rationale": "Level 0 (‘secondary synthesis only; no research-methods training’): no Foundation, Core or Capstone subject documents an assessed methodology-selection-and-data-collection task or a dedicated research-methods unit. Recurring generic-skills language such as 'research skills including the retrieval of information from a variety of sources' describes secondary synthesis, not primary inquiry. MGMT90280's 'Research skills through the search and review of literature and preparation of the written exercises' gestures toward level 1's literature-review criterion, but does not clearly document a distinct, assessed literature-review task, so per the ambiguity-resolution rule the score is taken at the lower level.",
+    "evidenceLines": [
+      "Research skills including the retrieval of information from a variety of sources.",
+      "Research skills through the search and review of literature and preparation of the written exercises"
+    ]
+  },
+  "adaptiveness": 7,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2 (‘at least one core assessment requires a recognised professional genre... judged against criteria drawn from professional practice’): MGMT90201's assessed 'Group business plan' is a recognised professional genre in the entrepreneurship discipline. Level 3 requires professional communication assessed repeatedly and progressively across the program AND at least one core assessment judged by a real external audience/practitioner with conduct explicitly among the criteria; MGMT90165's assessed panel presentation pitched to a 'Shark Tank panel of experts' is level-3-shaped evidence, but that subject is one route among five Capstone options and is marked 'Not available in 2026', so it does not establish assessed, progressive, program-wide practice. Per the ambiguity-resolution rule the score is taken at the lower level.",
+    "evidenceLines": [
+      "Group business plan (usually in groups of 3-4)",
+      "Present a persuasive business plan including the business model for commercialisation to potential investors or to internal stakeholders and effectively answer probing questions on the substance of the plan;",
+      "In the subject students will develop an idea for a startup social enterprise and develop a business plan which they will pitch to a Shark Tank panel of experts.",
+      "Group panel presentation (groups of 3-4)",
+      "Not available in 2026"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2 (‘at least one core assessment reproduces a professional task end to end... judged against criteria drawn from practice’): MGMT90201 has students take 'their own innovation (a solution to a real world problem) to the pre-implementation stage' inside a documented 'incubator' teaching format, assessed via a Group business plan — the artefact a practitioner would produce. Level 3 requires such tasks to form the program's assessment spine with a genuine, assessed constraint of practice; only one core subject documents this pattern, and its 'high uncertainty' language appears in the subject overview/outcomes rather than as an explicitly assessed constraint (R2), so per the ambiguity-resolution rule the score is taken at the lower level.",
+    "evidenceLines": [
+      "A significant part of the course is designed around hands-on experience in an ‘incubator’ environment, where ideas are generated and refined through collaboration and iteration between all participants.",
+      "Group business plan (usually in groups of 3-4)",
+      "often requiring novel solutions to these matters, under conditions of high uncertainty."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1 (‘work-situated learning exists only as an elective, an optional internship...’): the only work-integrated-learning subjects documented — Business and Economics Internship (BUSA90525), Business Practicum (BUSA90473) and Global Business Practicum (BUSA90485) — appear solely under Elective subjects in both the 200pt and 150pt course structures. No Foundation, Core or Capstone unit places students in a real workplace or professional-community setting with practitioner supervision, so level 2 is not reached.",
+    "evidenceLines": [
+      "BUSA90525\tBusiness and Economics Internship",
+      "BUSA90473\tBusiness Practicum",
+      "BUSA90485\tGlobal Business Practicum"
+    ]
+  },
+  "workplace": 5,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The course documents a staged, all-compulsory specialist sequence: Foundation subjects taken 'in their first semester of study', a 75-credit-point Core of entrepreneurship/innovation/finance-specific subjects, and Capstone subjects required 'in their final year of study'. This is progressive disciplinary depth within a named specialisation (entrepreneurship and innovation management), not generic or interchangeable content.",
+      "evidenceLines": [
+        "Students must complete the following subjects in their first semester of study:",
+        "75 credit points of Core subjects",
+        "Students must complete the following Capstone subjects in their final year of study."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Multiple core subjects require defended trade-off decisions under real uncertainty rather than recall or scripted responses: MGMT90227 includes an assessed 'Group presentation and oral defence', MGMT90201 develops student ventures 'under conditions of high uncertainty' with a defended business plan, and FNCE90089 requires students to 'Estimate risks and expected returns of financial claims' for venture financing decisions.",
+      "evidenceLines": [
+        "Group presentation and oral defence (groups of 4-5 students)",
+        "often requiring novel solutions to these matters, under conditions of high uncertainty.",
+        "Estimate risks and expected returns of financial claims"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2: the level-2 peer-review evidence (BUSA90529, 'Peer-review of business model canvas') comes from a Core-option subject the handbook marks 'Not available in 2026'; scored per R1 as documented curriculum, flagged as currently unoffered.",
+    "C4: MGMT90201's self-directed 'own innovation' venture task is level-3-shaped ('self-scoped... project') but is a single subject, not a documented program-wide progression toward independent learning; resolved to the lower level (2).",
+    "C5: MGMT90280's 'search and review of literature' generic-skill language gestures toward level 1's literature-review criterion but does not clearly document a discrete assessed literature-review task; resolved to the lower level (0).",
+    "W1: MGMT90165's assessed 'Shark Tank panel of experts' pitch is level-3-shaped external-audience evidence, but that subject is one of five Capstone options and is marked 'Not available in 2026', so it does not establish assessed, progressive, program-wide practice; resolved to the lower level (2).",
+    "W2: MGMT90201's overview describes venture development 'under conditions of high uncertainty' (level-3-shaped 'genuine constraint of practice'), but this language sits in the subject overview/outcomes rather than tied to an explicitly assessed constraint (R2); resolved to the lower level (2).",
+    "Data-quality note (not a level ambiguity): the scraped page at the MGMT90228 URL duplicates MGMT90227's content rather than showing distinct 'Managing Growth' material, so no Managing Growth-specific evidence could be used for scoring."
+  ],
+  "notScoreable": [
+    "MGMT90228 (Managing Growth) — its captured page duplicates MGMT90227's content rather than its own; a capture error, not evidence about this subject. Excluded from scoring; fix by recapturing, not by editing the evidence."
+  ],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-30"
+  }
+};
+
+export default record;

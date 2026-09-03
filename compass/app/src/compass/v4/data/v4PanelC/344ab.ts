@@ -1,0 +1,178 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: collaboration appears in outcomes but no core unit assesses it. Teamwork is claimed at program and subject-outcome level, but the compulsory core (PPMN90006 The Principles of Public Management, PPMN90007 Theories of Policy Process) assesses only individually written case analyses, observed written exercises and papers — no collaborative task. Level 2 ('at least one core unit assesses collaborative practice') is not reached because the only assessed group work sits in PPMN90010, one of three alternative capstone streams, so a student can complete the program without any assessed collaboration; per the downward-resolution rule the 1/2 straddle takes 1. Level 3 fails outright — nothing in the extract assesses coordination of work across people AND tools/AI systems.",
+    "evidenceLines": [
+      "Demonstrate organisational skills and ability to work collaboratively;",
+      "Demonstrate organisational skills and ability to work collaboratively.",
+      "Case Analysis",
+      "Observed 2-hour written scenario-analysis exercise",
+      "Strategy Design Paper",
+      "Descriptive outline of a policy problem",
+      "Observed 1.5-hour written exercise",
+      "Policy analysis paper",
+      "Group presentation (groups of 4-5 students assessed collectively, 20 minutes in length)",
+      "Collectively written component of group project",
+      "Capstone Stream 3: PPMN90010 Professional Practice in Policy Research (25 points)"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: reflection and evaluative judgement appear in generic skills/outcomes, but no core unit assesses appraisal of quality against criteria. 'Display evaluative judgement' and 'Exercise reflection skills' are stated at program level and repeated in PPMN90006's generic skills, yet neither compulsory subject's assessment table contains peer review, structured critique of work, a portfolio with standards, or marking against exemplars — the level-2 anchor's named forms. R2 binds: an unassessed outcome scores 1. The reflective essay in the Executive Internship is assessed but is (a) route-optional and (b) not documented as criterion-referenced appraisal of quality of work, so it cannot lift this to 2. No documented reliance/override or AI-output-quality justification, so level 3 is not in play.",
+    "evidenceLines": [
+      "Exercise reflection skills;",
+      "Display evaluative judgement;",
+      "Apply evaluative judgment",
+      "Exercise reflection skills",
+      "Case Analysis",
+      "Observed 2-hour written scenario-analysis exercise",
+      "Strategy Design Paper",
+      "Policy analysis paper",
+      "Reflective Essay"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: digital/AI appears only as electives or as declared capability, not in core units addressing capabilities AND limitations/ethics. 'Display digital literacy skills.' is a program-level generic skill, which rules out level 0. The only unit engaging AI and algorithmic harms — PPMN90065 Public Policy in the Digital Age, covering data privacy, algorithmic bias and digital exclusion — sits in the elective pool, not the compulsory core, which is exactly the level-1 condition. Level 2 requires core units to address AI capabilities and limits; neither compulsory subject mentions AI or digital tools in its outcomes or assessment. Level 3 (assessed critique or governance of AI systems in core assessment) has no evidence at all.",
+    "evidenceLines": [
+      "Display digital literacy skills.",
+      "Public Policy in the Digital Age (PPMN90065)",
+      "Elective Subjects (112.5-137.5 points)",
+      "Apply suitable analysis, implementation and consultation methods to interrogate public management problems and evaluate viable solutions and outcomes"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2 anchor: at least one core assessment requires application to novel or unfamiliar problems. The capstone requirement is universal and every stream requires assessed application beyond the taught case — an original thesis research question, a real-time contemporary project, or research exercises framed by a host organisation — and the compulsory core adds observed scenario-analysis exercises. Level 3 ('structured progression toward independent learning: a self-scoped capstone or research project') is genuinely close: compulsory subjects are timetabled into the first 100 points and the thesis into the final 100, and Streams 1 and 3 are self-scoped scholarship with assessment evidence (15,000-word thesis; 5,000-word research report and recommendations). It is withheld because the self-scoped-project route is one of three alternatives, and the third route's self-direction is placement evidence that the one-construct-one-home rule assigns to W3 — so no self-scoped research project is required of every student. Ambiguous between 2 and 3, resolved down.",
+    "evidenceLines": [
+      "All students are required to meet the Capstone Requirement for the program. There are 3 Capstone streams offered in this course which satisfy the capstone requirements:",
+      "Observed 2-hour written scenario-analysis exercise",
+      "Observed 1.5-hour written exercise",
+      "Apply appropriate theories and methods to scrutinise real-world public policy and management case studies",
+      "Design a research project within a clearly formulated scope to answer an original and relevant research question within a realm of public or social policy",
+      "Purpose: An opportunity to apply and integrate policy knowledge and research skills to solve problems that arise in political and public sector contexts through a sustained piece of scholarship.",
+      "Research report and recommendations",
+      "The following three compulsory subjects must be taken in the first 100 points of study.",
+      "Students admitted into the 200 and 150 point programs must complete the thesis in their final 100 points of study and have an average mark of H1 (80%) prior to enrolment in the thesis"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 anchor: students design and conduct an inquiry with methodology selection and data collection, assessed. Every capstone route documents this — the thesis requires collecting and analysing data and is assessed as a 15,000-word supervised thesis; PPMN90010 requires appropriately selected research methods assessed via a research report; the internship has students carry out research exercises, with ethics approval contemplated for primary research. Level 3 is explicitly barred by its own anchor: a substantial primary-evidence project must be REQUIRED and 'not one route among several', and the thesis is one of three capstone streams. The staged supervision (progress report, full draft, regular supervision meetings) would otherwise supply the 'staged supervised review' clause, which makes the route-optionality the sole binding failure.",
+    "evidenceLines": [
+      "Apply appropriate research methods and analytical skills to collect and analyse data relevant to a specific research question relating to public or social policy",
+      "This subject involves a supervised thesis of 15,000 words, embodying the results of the student's own research.",
+      "Apply key concepts of policy analysis and appropriately selected research methods within the framework of a specific policy issue, developing a coherent analytical approach",
+      "Research report and recommendations",
+      "Students will carry out research or analytical exercises of relevance to the organisation that will be involved in high-level and complex policy making.",
+      "If primary research is carried out during the internship, ethics approval is the responsibility of the host organisation.",
+      "Capstone Stream 1: PPMN90049 Public/Social Policy Thesis Part 1 and PPMN90050 Public/Social Policy Thesis Part 2 and PPMN90058 The Research Policy Nexus (50 points total)",
+      "Capstone Stream 2: PPMN90039 Executive Internship (25 points)",
+      "Hurdle requirement: Students are required to attend regular supervision meetings."
+    ]
+  },
+  "adaptiveness": 7,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: communication appears in outcomes and graduate attributes, and core assessment adds spoken presentation, but no professional genre judged against practice criteria and no audience beyond the teaching team. Program outcomes claim effective communication of complex ideas; spoken assessment exists inside the capstone block (a 20-minute group presentation in PPMN90010, an oral presentation hurdle in the internship), which rules out level 0. Level 2 fails on the anchor's criterion clause: the compulsory core produces only marker-addressed academic artefacts, and where a nearer-professional artefact exists it is not documented as judged against criteria drawn from professional practice, nor delivered to any audience beyond the teaching team. Under R4 the 'professional' in 'Professional portfolio / report' is a label, not a documented task feature.",
+    "evidenceLines": [
+      "Communicate complex ideas effectively in the context of public policy and management",
+      "Demonstrate effective oral, written and non-verbal communication skills;",
+      "Policy analysis paper",
+      "Strategy Design Paper",
+      "Case Analysis",
+      "Group presentation (groups of 4-5 students assessed collectively, 20 minutes in length)",
+      "Oral presentation",
+      "Communicate social or public policy research in writing to an academic audience."
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: contextualised and scenario-framed tasks appear, but the artefact produced and the criteria applied remain academic. The compulsory core is built on case analysis, observed scenario-analysis exercises and analytical papers — situationally framed, but the products are marker-facing papers with no criteria drawn from practice documented anywhere in the extract. Level 2 requires a core assessment reproducing a professional task end to end with practice-drawn criteria: PPMN90010's research report and recommendations comes closest and satisfies two of the three clauses, but the judging criteria are undocumented and the subject is one of three capstone routes. R4 forbids upgrading on the 'real-world' framing in the outcome statements. Ambiguous between 1 and 2, resolved down. Level 3 (an assessment spine of such tasks plus a genuine constraint of practice) is not reached.",
+    "evidenceLines": [
+      "Case Analysis",
+      "Observed 2-hour written scenario-analysis exercise",
+      "Strategy Design Paper",
+      "Descriptive outline of a policy problem",
+      "Policy analysis paper",
+      "Apply appropriate theories and methods to scrutinise real-world public policy and management case studies",
+      "Research report and recommendations",
+      "Design robust, theoretically-informed solutions to public policy and management dilemmas"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: work-situated learning exists as an optional internship. The Executive Internship is a real placement with senior-manager supervision, an academic supervisor and substantial assessment — but it is offered as 'Option 2 Internship (25 points)', one of three capstone streams a student may choose instead of a thesis or a coursework project, which is precisely the 'optional internship' wording at level 1. Level 2 requires a CORE unit that places students; no placement is required of every student, so the 1/2 straddle resolves down. The v4.2 in-practice route does not open either: the cohort is documented as 'working professionals (both current and aspiring)', so it is not a cohort documented as already practising, and no core unit assesses activity conducted in a student's own professional practice.",
+    "evidenceLines": [
+      "Option 2 Internship (25 points)",
+      "Capstone Stream 2: PPMN90039 Executive Internship (25 points)",
+      "In this subject students will be placed in an organisation which either has governmental responsibilities or deals with government, where they will work under the supervision and guidance of a senior manager in the organisation.",
+      "Students will be required to use their own networks to make an initial contact with a potential organisation.",
+      "Organisational analysis",
+      "Reflective Essay",
+      "Professional portfolio / report",
+      "The course is structured around working professionals (both current and aspiring) and therefore emphasises flexibility and tailored options.",
+      "All students are required to meet the Capstone Requirement for the program. There are 3 Capstone streams offered in this course which satisfy the capstone requirements:"
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "FAIL",
+      "rationale": "FAIL (demoted from PASS on adversarial verification). The PASS rationale rested on a misreading of the extract: it asserted a universal capstone taken in the final 100 points with an H1 eligibility threshold, but both the final-100-points rule and the H1 (80%) threshold appear ONLY under 'Option 1 Minor Thesis (50 points)', introduced by 'Please note the following prior to enrolling in the minor thesis'. They bind the thesis route alone; the Executive Internship and Professional Practice routes carry no timing or progression rule. The capstone requirement is universal, but its placement in the final 100 points is not. With that misattribution removed, none of the PASS anchor's three limbs is documented: (a) NOT an all-compulsory specialist core — 37.5 of 200 points compulsory (19%), against 112.5–137.5 points of electives spanning eleven thematic clusters including 'The Politics of Food', 'Politics and Business in post-Mao China', 'Health Program Design & Implementation', 'Social Enterprise Incubator' and 'Migration and Development'; (b) NO accredited sequence anywhere in the extract; (c) NO staged prerequisite chain — zero prerequisites are documented (every subject's 'Eligibility and requirements' page appears as a navigation label only, never as captured content), and 'The following three compulsory subjects must be taken in the first 100 points of study.' is a placement rule among three same-level subjects with no dependency between them, not a chain. The one genuinely methodological subject, PPMN90058 The Research Policy Nexus, is compulsory only for thesis-route students and otherwise sits in the elective pool, so documented methodological depth is itself route-optional. Acknowledged counter-argument, recorded rather than suppressed: the FAIL condition as worded ('Generic or interchangeable content without disciplinary identity') is not literally met, since the three compulsory subjects are unmistakably PPMN-coded discipline content and the graduate attributes name 'the various disciplinary foundations of public policy making'. The gate is genuinely underdetermined between its two conditions; resolved to FAIL under the never-resolve-upward rule and because the affirmative PASS case as written is factually unsupported by the extract. Coverage limit: if the uncaptured 'Eligibility and requirements' pages document prerequisites, or if PPMN90059 Foundations of Government sequences the other two, G1 could return to PASS on re-capture.",
+      "evidenceLines": [
+        "Compulsory subjects (37.5 points)",
+        "The following three compulsory subjects must be taken in the first 100 points of study.",
+        "All students are required to meet the Capstone Requirement for the program.",
+        "Option 1 Minor Thesis (50 points)",
+        "Please note the following prior to enrolling in the minor thesis",
+        "Students admitted into the 200 and 150 point programs must complete the thesis in their final 100 points of study and have an average mark of H1 (80%) prior to enrolment in the thesis",
+        "An extensive knowledge of the various disciplinary foundations of public policy making and their relationship to a range of contemporary policy environments and challenges;",
+        "Elective subjects (coursework option 137.5 points, minor thesis option 112.5 points)"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS: assessments require defended trade-off decisions, and the required capstone is a project carrying real uncertainty. The compulsory core assesses an observed timed scenario-analysis exercise and a strategy design paper against outcomes framed as designing strategies for public management dilemmas; the capstone project explicitly requires developing alternatives, evaluating them against criteria and recognising the trade-offs between them. This is well beyond recall or scripted response.",
+      "evidenceLines": [
+        "Observed 2-hour written scenario-analysis exercise",
+        "Strategy Design Paper",
+        "Plan strategies informed by theoretical awareness and a practical skillset in public management to address public management dilemmas and routine challenges of public managers",
+        "Design robust, theoretically-informed solutions to public policy and management dilemmas",
+        "Working both in teams as well as independently, students will identify and formulate key problems, develop a set of alternatives to address them, evaluate the alternatives against a set of criteria and recognise the trade-offs between them.",
+        "Observed 1.5-hour written exercise"
+      ]
+    }
+  },
+  "ambiguities": [
+    "Structural ambiguity affecting C1, C2, C4, C5, W1, W2 and W3 alike: the capstone requirement is universal but is met by any one of three streams (thesis / Executive Internship / Professional Practice in Policy Research). Evidence appearing in only one stream is therefore not required of every graduate. Wherever an anchor turns on 'core', I treated the capstone REQUIREMENT as core but a single stream's distinctive features as route-optional, and resolved the resulting straddle downward.",
+    "C1, straddle 1 vs 2: PPMN90010 carries genuinely assessed collaboration ('Group presentation (groups of 4-5 students assessed collectively, 20 minutes in length)' and 'Collectively written component of group project'), which would meet level 2's 'at least one core unit assesses collaborative practice'. Resolved to 1 because that subject is one of three capstone routes and neither compulsory subject assesses teamwork, so collaboration remains an outcome claim for a thesis-route or internship-route student.",
+    "C2, straddle 0 vs 1: no core assessment appraises the quality of work, which reads as level 0; level 1 is reached only because 'Display evaluative judgement;' and 'Exercise reflection skills;' are stated program-level generic skills. Resolved up to 1 on that outcome evidence, which level 1 explicitly contemplates. Separately, the internship's assessed 'Reflective Essay' was considered for level 2 and rejected — it is route-optional and not documented as criterion-referenced appraisal of quality.",
+    "C4, straddle 2 vs 3: level 3's 'self-scoped capstone or research project' is documented for Streams 1 and 3 with assessment evidence (15,000-word thesis; research report and recommendations), and the first-100-points/final-100-points sequencing supplies 'structured progression'. Resolved down to 2 because the self-scoped-project route is one of three, and the remaining route's self-direction (finding one's own host organisation, scoping work for it) is placement evidence that the one-construct-one-home rule assigns to W3 and may not be re-used here. Note: the adversarial pass established that the final-100-points rule binds only the thesis route, which weakens the 'structured progression' limb further and confirms the downward resolution.",
+    "C5, straddle 1 vs 2: PPMN90058's assessments are a 'Research rationale' and a 'Research plan' — design without data collection, which is level-1 shaped — and PPMN90007 is explicitly retrospective engagement with existing data sources and policy documents, i.e. secondary synthesis. Resolved to 2 because all three capstone routes, not merely the thesis, document an assessed inquiry with methodology selection and data collection or analysis, so the level-2 anchor holds whichever route a student takes.",
+    "C5, level 3 considered and rejected on the anchor's own words: the staged supervised review clause is arguably met (progress report, full draft five weeks before submission, required regular supervision meetings), but 'REQUIRED (not one route among several)' fails because the thesis is one of three capstone streams.",
+    "W1, straddle 0 vs 1 and 1 vs 2: level 0 was rejected because spoken communication is assessed within the capstone block (a 20-minute group presentation; an oral presentation hurdle in the internship). Level 2 was rejected because no assessment is documented as addressed to an audience beyond the teaching team or judged against criteria drawn from professional practice — 'Professional portfolio / report' is a title, and R4 bars scoring the label rather than the documented task features.",
+    "W2, straddle 1 vs 2: PPMN90010 satisfies two of level 2's three clauses (a real contemporary problem worked in real time; a research report with recommendations, which is the artefact a policy analyst produces) but not the third — the criteria applied are nowhere documented as drawn from practice — and it is route-optional. Resolved to 1. The outcome phrases 'real-world' and 'authentic day-to-day scenarios' were disregarded under R4.",
+    "W3, straddle 1 vs 2: the Executive Internship substantively matches level 2's mechanism — placement in a real organisation, supervision by a senior manager in that organisation, an academic supervisor, and 100 points' worth of assessment including a progress-report hurdle. It scores 1 because it is elected as one of three capstone streams, which is level 1's 'optional internship' wording verbatim in construct. The v4.2 in-practice route was tested and does not apply: 'working professionals (both current and aspiring)' does not document a cohort as already practising, and no core unit assesses own-practice activity with real recipients.",
+    "G1, PASS vs FAIL, demoted to FAIL on adversarial verification. The original PASS rested on a staged-sequence reading that misattributed the thesis-route timing and H1 rules ('Option 1 Minor Thesis (50 points)') to the whole program; with that removed no limb of the PASS anchor is documented — 19% compulsory core, no accreditation, and zero prerequisites captured anywhere in the extract. The counter-argument is preserved: the FAIL condition ('generic or interchangeable content without disciplinary identity') is not literally met, since the compulsory subjects are PPMN-coded discipline content and the graduate attributes name the field's own disciplinary foundations. Genuinely underdetermined; resolved to FAIL under the never-resolve-upward rule. Re-capture of the uncaptured 'Eligibility and requirements' pages could return this to PASS."
+  ],
+  "notScoreable": [
+    "PPMN90059 Foundations of Government is a compulsory subject in the 200-point program ('PPMN90059\tFoundations of Government'), but the extract contains no subject overview or assessment page for it. One third of the 200-point compulsory core is therefore unobserved, and C1, C2, C3, C4, W1 and W2 are all scored on incomplete core-assessment coverage; any of them could move if that page documents collaboration, criterion-referenced appraisal, AI content, or a professional-genre task.",
+    "No assessment page in the extract mentions generative AI, AI tools, or rules on their use, in any core or capstone subject. C3's ceiling is therefore set by absence of evidence rather than by documented absence of practice.",
+    "W1 level 2/3 and W2 level 2/3 both turn on the criteria used to judge assessments; the handbook's assessment tables give description, timing and percentage only, and never state marking criteria. Neither item can be scored above the level its documented task features support, and no external-audience or practitioner-judging evidence exists anywhere in the extract.",
+    "No prerequisite or co-requisite information was captured for any subject: every 'Eligibility and requirements' page appears as a navigation label only. G1's staged-chain limb is therefore unobserved rather than disproven, and the gate could change on re-capture."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-17"
+  }
+};
+
+export default record;

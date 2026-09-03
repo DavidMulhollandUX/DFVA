@@ -1,0 +1,153 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor: at least one core unit assesses collaborative practice. Compulsory core subject ATOC90004 Current Topics in Climate Science assesses a '20 minute - Group presentation' (20%) and cohort paper discussion workshops (10%), and compulsory core subject ATOC90002 Climate Science for Decision-Making assesses 'Participation in a negotiation session and submitted written assessment' (20%) where students role-play state representatives in a simulated UNFCCC negotiation session. In addition, the core industry project option ATOC90018 assesses an industry charter and presentation. Level 3 is not met: while collaboration recurs across the core, no assessment requires coordinating work across people AND tools/AI systems, no role-and-tool allocation is documented, and no task assesses the division of labour between people and AI systems.",
+    "evidenceLines": [
+      "20 minute - Group presentation",
+      "Participation in weekly two-hour workshops to discuss papers identified by the cohort. Students are assessed on active participation (e.g. taking part in discussions, asking and answering questions) in workshops",
+      "Participation in a negotiation session and submitted written assessment",
+      "The course culminates in a negotiation session where students take on the role of a state representative within the United Nations Framework Convention on Climate Change.",
+      "Leading and participating in teams and managing, persuading and influencing others;"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: reflection or appraisal of work appears in generic skills and learning outcomes, but no core unit assesses it against criteria. The course generic skills claim 'demonstrate advanced independent critical enquiry, analysis and reflection' and course ILOs claim 'Critically evaluate and communicate complex climate science information', while core subjects ATOC90004 and ERTH90026 claim judging conflicting arguments and assessing model uncertainties. However, core assessment tables document no criterion-referenced appraisal of quality — no peer review, structured critique, portfolio against standards, or marking against exemplars. Level 3 is completely unevidenced as no reliance or override decisions on tools/AI or process-focused adjustments are documented.",
+    "evidenceLines": [
+      "demonstrate advanced independent critical enquiry, analysis and reflection;",
+      "Critically evaluate and communicate complex climate science information using written reports and oral presentations to specialists and non‐specialists.",
+      "Judge and assess scientific evidence in cases of ambiguity or conflicting arguments;",
+      "Assess different climate models currently in use, including quantification of uncertainty and its implications for future projections; and",
+      "Research proposal and literature review"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: digital tools and programming appear at the tool-operation level, or AI appears only as electives. Graduate attributes list 'Scientific programming in widely used languages such as Python', and core subjects ERTH90026 and ATOC30008 require writing computer code and building simple numerical models, assessed through programming assignments in ERTH90026. However, this is operational tool use. No core unit addresses AI capabilities and limitations or ethics with use-with-limits assessed (level 2). The only AI subject in the extract is LAWS90203 Science & AI: Legal & Ethical Challenges, which is an elective under Professional Skills (and marked 'Not available in 2026'). Level 3 governance is entirely absent.",
+    "evidenceLines": [
+      "Scientific programming in widely used languages such as Python.",
+      "Implement appropriate numerical methods and write computer code to analyse and understand real-world atmospheric data.",
+      "Students will build a simple climate model and run numerical experiments with different greenhouse gases. Existing knowledge in python programming is recommended but can be acquired throughout the course.",
+      "3 Assignments (Written task plus programming), in weeks 3, 6, and 9.",
+      "LAWS90203\tScience & AI: Legal & Ethical Challenges\tNot available in 2026\t12.5",
+      "COMP90059\tIntroduction to Programming"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3 anchor: the program documents structured progression toward independent learning through a self-scoped capstone or research project. The degree is structured progressively: 25 points of foundational core, 50 points of discipline core, terminating in capstone ATOC90004 alongside a compulsory 25-point Climate Science Project (ATOC90018 or ATOC90019) taken in the final two semesters, with a documented progression prerequisite requiring completion of at least 75 points (including 25 core points). Both 25-point options require self-scoping: ATOC90019 requires developing an independent research focus in discussion with an academic supervisor, submitting an assessed hurdle research proposal and literature review (10%), and presenting progress before producing an 8000-word thesis (75%); ATOC90018 requires negotiating a project charter (5%) and plan (10%) with an industry partner leading to a 5000-word final report (60%).",
+    "evidenceLines": [
+      "Discipline Core Subjects (75 points)",
+      "Note: ATOC90004 is a capstone subject and should be taken towards the end of the course with either ATOC90018 or ATOC90019.",
+      "Students are expected to have sucessfully completed at least 75 points of the Master of Climate Science, including at least 25 points of core.",
+      "This subject allows students to conduct an independent, original research project in a specified area of climate science. The project comprises a review of a body of literature, a review and discussion of prior research, development of a research plan, followed by some original research. The specific focus of the research project will be developed through discussion with an academic supervisor on a topic that is aligned with the student and supervisor’s interests, taking into account the necessary and available expertise, data, and facilities.",
+      "Research proposal and literature review",
+      "Research report, concise thesis. A thesis is the main component of the subject. Theses are expected to be 20-30 pages in length, excluding references, appendices, figures and tables.",
+      "Charter – one-page agreement with the industry partner as to project specifications (approx. 500 words)"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 anchor: students design and conduct an inquiry with methodology selection and data collection, assessed. In foundational core ATOC30008, students complete a Field-data report (25%) based on observational techniques and monitoring equipment at Creswick; in ERTH90026, students run numerical modeling experiments; and in the compulsory 25-point project (ATOC90019 or ATOC90018), students plan data acquisition/modelling, conduct the investigation, and report findings in an 8000-word thesis or 5000-word report. Level 3 is not met: a primary-evidence research project is not unconditionally required for all students because ATOC90018 (Industry Project) is an alternative route focused on an applied industry problem, and no formal methodology defence under scrutiny (viva or formal defence) is documented. Lower level taken per the ambiguity rule.",
+    "evidenceLines": [
+      "Field-data report",
+      "This subject will involve a face-to-face or virtual field trip to the Creswick campus in week 5 of semester to observe the atmospheric boundary layer state and chemical composition using state of the art monitoring equipment.",
+      "Plan an appropriate program of data acquisition, analysis or generation (eg, modeling) in order to answer the questions being addressed;",
+      "5 minute - oral presentation as part of cohort workshop",
+      "15 minute - Oral Presentation",
+      "Research report, concise thesis. A thesis is the main component of the subject. Theses are expected to be 20-30 pages in length, excluding references, appendices, figures and tables.",
+      "ATOC90018\tClimate Science Industry Project",
+      "ATOC90019\tClimate Science Research Project"
+    ]
+  },
+  "adaptiveness": 9,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: communication appears in outcomes and core assessment includes presentations to peers and staff, but no professional genre and no audience beyond the teaching team is documented in the compulsory units. Assessed oral presentations recur across the core: ATOC30006 (assessed practical presentations, 25%), ATOC90016 (oral presentation, 20%), ATOC90004 (group presentation, 20%), and ATOC90019 (two presentations, 15%). ATOC90002 assesses a negotiation session where students role-play UNFCCC state representatives, but this is an in-class simulation assessed by the teaching team without documented external audience or criteria drawn from practice. ATOC90018 assesses communication to industry representatives, but it is one project option of two. Level 2's requirement of a recognised professional genre judged against criteria drawn from professional practice in the compulsory core is unmet.",
+    "evidenceLines": [
+      "Assessed Practical - written work and presentation",
+      "Oral presentation",
+      "20 minute - Group presentation",
+      "Participation in a negotiation session and submitted written assessment",
+      "Communicate complex climate science information using written reports and oral presentations to their peers, academic staff and industry representatives.",
+      "Critically evaluate and communicate complex climate science information using written reports and oral presentations to specialists and non‐specialists."
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: contextualised or scenario-framed tasks appear, but the artefacts produced and criteria applied remain academic. Core assessment features rich situational context: ATOC30008 includes a field-data report based on Creswick atmospheric observation instruments; ERTH90026 features programming assignments building climate models and running greenhouse gas experiments; ATOC90002 features a simulated UNFCCC negotiation session and policy analysis; and ATOC90016 assesses extreme weather reports. However, the artefacts produced (reports, problem sheets, essays, presentations, thesis, examinations) and criteria applied remain academic. Level 2 requires reproducing a professional task end to end judged against criteria drawn from professional practice, which is not documented in the core.",
+    "evidenceLines": [
+      "Field-data report",
+      "3 Assignments (Written task plus programming), in weeks 3, 6, and 9.",
+      "Participation in a negotiation session and submitted written assessment",
+      "Report 2",
+      "Essay",
+      "Written examination"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: work-situated learning exists only as an elective or optional pathway. SCIE90017 Science and Technology Internship is listed as an elective in the Professional Skills list. The 25-point Climate Science Industry Project (ATOC90018) provides work-situated learning in an industry setting with an industry partner charter, but it is one elective pathway alongside the on-campus academic Research Project (ATOC90019), so workplace placement is not mandatory for all students. Level 2 requires a core unit placing students in a workplace setting; because students may complete the degree through ATOC90019 without any workplace immersion, level 1 applies. The in-practice route does not apply as the cohort is not documented as already practising professionals.",
+    "evidenceLines": [
+      "SCIE90017\tScience and Technology Internship",
+      "ATOC90018\tClimate Science Industry Project",
+      "ATOC90019\tClimate Science Research Project",
+      "This subject will provide practical insights into the role of science and scientific thinking within a genuine workplace context.  Students will be assigned a real world climate science problem identified by an industry partner, allowing the student to develop skills in project management, problem solving and planning, technical reporting, and/or applied science.",
+      "On commencement of the project, students will be required to spend a specific time in the industry setting and to then maintain regular contact with the partner, as well as the project supervisor, across the duration of the subject."
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS condition: a coherent specialist core with progressive technical and methodological depth. The 200-point structure mandates 25 points of foundational core (ATOC30006, ATOC30008), 75 points of discipline core (ERTH90026, ATOC90002, ATOC90016, capstone ATOC90004, and a 25-point Climate Science Project), structured elective streams with explicit prerequisites (e.g. Calculus 2 prerequisite for Climate Dynamics stream), and a staged prerequisite chain requiring at least 75 points completed prior to capstone project enrolment. This is specialist, cumulative discipline content rather than generic or interchangeable subjects.",
+      "evidenceLines": [
+        "Foundational core (25 points)",
+        "Discipline core (75 points)",
+        "Discipline electives (75 points)",
+        "ATOC30006\tModern and Future Climate",
+        "ATOC30008\tAtmospheric Processes and Composition",
+        "ERTH90026\tClimate Modelling and Climate Change",
+        "ATOC90002\tClimate Science for Decision-Making",
+        "ATOC90016\tWeather and Climate Extremes",
+        "ATOC90004\tCurrent Topics in Climate Science",
+        "Students are expected to have sucessfully completed at least 75 points of the Master of Climate Science, including at least 25 points of core."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS condition: assessments require defended trade-off decisions and projects with real uncertainty and accountability. Core subject ATOC90002 requires students to debate policy options, analyse trade-offs, and participate in a UNFCCC negotiation session; ERTH90026 requires assessing climate model uncertainties and chaos; ATOC90004 requires students to judge scientific evidence in cases of ambiguity or conflicting arguments; and every student must complete a 25-point project (either ATOC90019 research thesis or ATOC90018 industry project) addressing open-ended questions under genuine uncertainty. This goes well beyond recall or scripted responses.",
+      "evidenceLines": [
+        "Discuss the relevance of climate data, scenarios and uncertainties to decision-making;",
+        "Debate differing international perspectives and policy options pertaining to climate issues; and",
+        "Analyse and differentiate between climate policy positions based on varying understandings and uses of climate science.",
+        "Participation in a negotiation session and submitted written assessment",
+        "Assess different climate models currently in use, including quantification of uncertainty and its implications for future projections; and",
+        "Judge and assess scientific evidence in cases of ambiguity or conflicting arguments;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1 straddled 1 and 2: assessed group work appears in ATOC90004 (20-min group presentation) and ATOC90002 (negotiation session), satisfying level 2. It cannot reach level 3 because human-AI or tool coordination is undocumented.",
+    "C2 straddled 1 and 2: paper discussions are assessed in ATOC90004 workshops, but no criterion-referenced peer review, structured critique rubric, or portfolio against standards is documented in assessment tables. Resolved DOWN to 1 per the scoring-direction rule.",
+    "C3 straddled 1 and 2: scientific programming and numerical modeling are assessed in ERTH90026 and ATOC30008, but only at the tool-operation level; AI ethics/governance appears only as an unavailable elective (LAWS90203). Resolved at 1.",
+    "C4 and C5 cross-reference the 25-point project: C4 scores 3 because structured progression toward an independent self-scoped project is documented and required for all students; C5 resolves DOWN to 2 because a primary research project is one route among two (Research vs Industry) and no formal viva/defence under scrutiny is documented.",
+    "W1 straddled 1 and 2: ATOC90002's UNFCCC simulation is a professional role-play, but assessed by internal examiners without documented criteria drawn from practice; ATOC90018 (industry presentation) is an elective project option. Resolved DOWN to 1.",
+    "W2 straddled 1 and 2: field data, climate modeling experiments, and policy negotiations provide authentic scenario framing, but the artefacts and criteria remain academic. Resolved at 1.",
+    "W3 straddled 1 and 2: ATOC90018 is a 25-point industry project in an industry setting, but it is one elective pathway alongside the on-campus Research Project ATOC90019, so workplace immersion is not mandatory. Resolved DOWN to 1 per the lower-level rule."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-23"
+  }
+};
+
+export default record;

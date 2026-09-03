@@ -1,0 +1,143 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity' — is met by assessed interprofessional work in two compulsory subjects: a marked group oral presentation in PSYC90033 that explicitly requires positioning neuropsychology against other disciplines, and a 25%-weighted assessment on the interdisciplinary Ways of Knowing activity in PSYC90125. Level 3 is not reached: it additionally requires 'at least one assessment requires coordinating work across people AND tools/AI systems', and no assessment anywhere in the extract allocates or appraises a division of work between people and tools or systems — the extract contains no gen-AI or tool-coordination assessment at all. Per the v4.1 migration note the placement evidence is held in W3 and is not counted here.",
+    "evidenceLines": [
+      "A 20 minute group oral presentation on a neuropsychological rehabilitation plan, including recognition of the role of neuropsychology versus other disciplines",
+      "Written reflection on interprofessional learning and culturally safe practices following the interdisciplinary panel discussion component of Ways of Knowing program",
+      "Develop an understanding of 'collaborative practice' in interprofessional contexts",
+      "Formulate culturally relevant, patient-centred SMART (Specific, Measurable, Attainable, Relevant, Timely) goals for neuropsychological rehabilitation in conjunction with the patient, their family, and the broader rehabilitation team"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Demoted from 2 to 1 on adversarial verification. The level-2 anchor requires core ASSESSMENT with criterion-referenced appraisal of quality. PSYC90030's assessment table lists only 'A written report' (40%) and 'A written examination' (60%) — all four of its quoted evaluation-against-criteria phrases ('Demonstrate mastery of the principal criteria practicing psychologists use to evaluate the quality of psychological data', 'Apply criteria for evaluation of psychological test reliability and validity', 'Ability to evaluate the quality of data against formal criteria') are intended learning outcomes or generic-skills bullets, which R2 caps at 1. The fallback, PSYC90003's 'Prepare literature review.' (2000 words, 0%, hurdle), names no criteria, no standards, no exemplars and no peer review; its critical-appraisal character is imported from the ILO 'Demonstrate the ability to critically evaluate the existing literature', again an outcome statement. The only documented 'portfolio with standards' in the program — the case book completed to the guidelines of the College of Clinical Neuropsychologists — is housed in W2 under one-construct-one-home, and cannot be excluded from C2 while still sustaining C2 at level 2. What remains is exactly level 1: appraisal appears throughout the outcomes, but no core unit assesses it against criteria. The scoring-direction rule (resolve ambiguity to the LOWER level) forces this down.",
+    "evidenceLines": [
+      "Demonstrate mastery of the principal criteria practicing psychologists use to evaluate the quality of psychological data, as they relate to the clinical assessment of individuals.",
+      "Apply criteria for evaluation of psychological test reliability and validity to enhance the accuracy of psychological classification decisions.",
+      "Ability to evaluate the quality of data against formal criteria",
+      "Demonstrate the ability to critically evaluate the existing literature relevant to their research project.",
+      "Prepare literature review.",
+      "Evaluate the effectiveness of their professional practice (in conjunction with clinical supervisors), identifying areas for improvement and implementing changes where needed."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1's anchor — digital tools appearing 'as tool operation/training — the operational level TEQSA identifies as non-durable' — is the highest level the extract supports. Digital content is present but wholly operational or instrumental: virtual brain dissection and 'interactive virtual technologies' as a delivery modality, and neuroimaging as something to recognise findings on or to appraise as a research method. Level 0 ('No digital/AI content in any core unit or program-level outcome') was considered and rejected because that content does exist. Level 2 requires core units to address 'AI capabilities AND limitations/ethics' and level 3 requires assessed critique or governance of AI systems; a full-text search of the extract returns no occurrence of AI, artificial intelligence, generative tools, algorithms or data governance anywhere, so neither is available.",
+    "evidenceLines": [
+      "Learning by multiple converging modalities, through conventional texts, photographic records, interactive virtual technologies",
+      "The content will be delivered through 12 lectures, accompanied by virtual brain dissection.",
+      "Recognise manifestations of developmental and acquired disorders on structural and functional neuroimaging;",
+      "Identify the strengths and weakness of cognitive neuroscience methods, including MRI, EEG and TMS, to be a better consumer of clinical research where such methods are applied;"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3's anchor — 'The program documents structured progression toward independent learning: a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them' — is documented as a staged coursework sequence, not merely asserted: PSYC90003 assesses the student in locating a gap in the literature and converting it into their own research question, and PSYC90029 assesses the resulting self-scoped research proposal twice (20-minute oral, 40%; 3000-word report, 60%), feeding PSYC80004 whose stated purpose is the capacity to carry out independent research. Level 2's floor is independently met by case-based assessments applied to externally supplied, previously unseen case material. Placement evidence is excluded from this item by the v4.1 migration rule and scores in W3 instead; the thesis examination and viva are held in C5 so no evidence is counted twice.",
+    "evidenceLines": [
+      "This review of the literature will enable them to determine a pertinent research question by identifying a gap in the literature.",
+      "Develop and complete a research proposal of relevance to a research question in clinical psychology or clinical neuropsychology.",
+      "Report of a research proposal (including brief literature review, rationale, and proposed methodology and analysis)",
+      "Students will acquire the capacity to carry out independent research, and will demonstrate the ability to make an original contribution to knowledge in the discipline of psychology.",
+      "Case Formulation: Development of a clinical case formulation, based on case material provided."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3's anchor — 'A substantial project generating primary evidence is REQUIRED (not one route among several), with methodology defended under scrutiny (viva, defence, or staged supervised review)' — is met on both limbs by assessment evidence rather than outcome statements. The thesis is the sole basis of the award, not an optional route, and the scrutiny is triple: a written proposal defended before a Thesis Advisory Committee at Confirmation, examination by two external examiners one of whom is overseas, and an oral deliberation (viva), with a Completion Seminar in addition. This is the level-3 requirement satisfied literally rather than by inference.",
+    "evidenceLines": [
+      "Probationary candidates are required to submit a written thesis proposal and to successfully defend it before a Thesis Advisory Committee for Confirmation.",
+      "Award of the PhD degree is based on examination of the thesis and an oral deliberation (viva).",
+      "A thesis of no more than 100,000 words must be submitted for examination by two external examiners, one of whom will be overseas.",
+      "All candidates must present their findings in a Completion Seminar."
+    ]
+  },
+  "adaptiveness": 10,
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3's anchor has two limbs and both are documented. 'Professional communication is assessed repeatedly and progressively across the program' — marked oral and professional-genre assessment recurs in every coursework year (year 1: PSYC90125 oral demonstration of interviewing and Mental State Examination, 30%; PSYC90082 formal psychological report writing; year 2 onward: weekly case-conference presentations as a hurdle; year 3: PSYC90042 individual oral presentation with question time, 50%). 'At least one core assessment is delivered to, or judged by, a real external audience or practitioner ... with professional conduct or accountability explicitly among the assessed criteria' — the placement hurdle has written summaries of all assessments and interventions judged by field supervisors against requirements approved by the Professional Programs Committee, and professional conduct is explicitly in scope through the assessed requirement to apply professional practice policies including referral management and record-keeping. The course-level outcome about reporting to referral sources is listed for context only; per R2 and Barrie it carries no weight on its own.",
+    "evidenceLines": [
+      "Oral presentation - demonstration of basic interview techniques, including Mental State Examination",
+      "Communicate findings in oral and written formats, including formal psychological reports, using culturally appropriate language.",
+      "Individual oral presentation with interactive question time",
+      "Hurdle requirement: Attendance at a minimum of 80% of university-based case conferences, and presentation of at least 3 cases to the satisfaction of attending teaching staff",
+      "Hurdle requirement: Performance on placement to the satisfaction of field supervisors and the Convenor of Clinical Neuropsychology, formally evaluated against requirements specified approved by the Professional Programs Committee of the School of Psychological Science, a completed logbook of daily placement activities, and written summaries of all assessments/interventions conducted",
+      "Rigorously apply professional practice policies and procedures, including as they relate to referral management and record-keeping, across a range of workplace settings and with recognition of different organisational and cultural practices;",
+      "Graduates will be able to employ advanced communication skills in reporting to and consulting with referral sources."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3's anchor — 'Such tasks are the program's assessment spine rather than a single instance (a capstone plus earlier scaffolding, or at least one per stage) AND at least one carries a genuine constraint of practice' — is met on documented task features, not on any 'authentic' label (R4). The artefact a practising clinical neuropsychologist produces is what is marked at every stage: written clinical case formulation and written treatment plan in year 1 (50%/50%, both hurdles), diagnostic work-up of a case study in year 1 (30%), a rehabilitation report and plan in year 2 (60%/40%), and case formulation plus intervention plan in year 3 (40%/60%). The genuine constraint of practice is the profession's own standard of performance: the case book must be completed to the guidelines of the College of Clinical Neuropsychologists, and PSYC90033 places students in front of patients and families. Level 1 is excluded because the artefacts and criteria are practitioner ones, not academic ones.",
+    "evidenceLines": [
+      "Written clinical case formulation",
+      "A written treatment plan",
+      "Written report - diagnostic work up of case study",
+      "Intervention Plan (written): Development of a clinical case formulation and an ensuing intervention plan, based on case material provided.",
+      "Hurdle requirement: Completion of a case book according to the guidelines of the College of Clinical Neuropsychologists of the Australian Psychological Society",
+      "During the semester students may be required to make observations regarding a patient's recovery, practice how to design and implement an intervention, or provide psychoeducation and feedback to patients and families, as they explore the various roles of clinical neuropsychologists in rehabilitation settings."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3's anchor — 'Substantial required work-situated learning: an extended placement or practicum, or a sequence of them, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection on professional practice' — is met on every clause via the placement route (the in-practice route added in v4.2 is not needed and not used, as this is a pre-registration cohort). Sequence and extent: a 43-day placement in year 1 followed by two 48-day external field placements of 24 weeks each, against an accreditation floor of 1000 placement hours. Practitioner supervision: all principal field supervisors are AHPRA-registered and College Members. Assessed with accountability to the host: university and field supervisors conjointly determine the pass, and log books must be endorsed every 30 hours or fortnightly. Structured reflection on practice: satisfactory completion is demonstrated through active discussion of individually observed cases with supervisors. Simulation evidence has been held in W2 as the construct requires.",
+    "evidenceLines": [
+      "This field placement and clinical skills subject, extending over forty-three days, introduces students to clinical neuropsychology services in a variety of settings",
+      "A 48 day external field placement concentrating on neuropsychological services in adult neurology/neurosurgery and adult psychiatry. Placement in each setting will extend over 12 weeks. Students will be expected to commit 2 days per week for a total of 24 weeks.",
+      "It is a requirement of the Australian Accreditation Council and the Australian Psychological Society College of Clinical Neuropsychologists that students complete a minimum of 1000 hours of placement training during the two-year Master of Psychology (Clinical Neuropsychology) course.",
+      "All principal field supervisors are registered supervisors with AHPRA, and Members (or eligible for Membership) of the College of Clinical Neuropsychologists of the Australian Psychological Society.",
+      "University and field supervisors will conjointly determine whether the student has passed the placements.",
+      "Hurdle requirement: Students must provide evidence that log books are checked and endorsed every 30 hours of placement or fortnightly, whichever occurs first.",
+      "Hurdle requirement: Satisfactory completion of placement activities is demonstrated through active participation in group discussions of case presentations and active discussion of individually observed cases with supervisors"
+    ]
+  },
+  "workplace": 9,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The G1 PASS condition — 'a coherent specialist core with progressive technical or methodological depth: an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain' — is satisfied on all three routes at once. The handbook states outright that all subjects are compulsory; the sequence is the one APAC accredits for registration; and the 13 classroom-based subjects are staged across the first three years with placements escalating from observational in year 1 to supervised independent in years 2 and 3. Nothing in the extract is generic or interchangeable — every core subject is neuropsychology-specific or its methodological support.",
+      "evidenceLines": [
+        "The course is comprised of coursework subjects, practical experience through clinical placements and a major research thesis in an area relevant to clinical neuropsychology. All subjects are compulsory.",
+        "providing the required sequence of subjects for graduates wishing to attain generalist registration as a psychologist in Australia",
+        "Accredited by the Australian Psychology Accreditation Council (APAC) and recognised by the Australian Health Practitioner Regulation Agency (AHPRA)",
+        "Coursework consists of 13 classroom-based subjects taken over the first three years of this four-year course (see below).",
+        "In their first year, all students undertake a number of coursework subjects and attend observational placements in a range of healthcare settings."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The G2 PASS condition — 'Assessments require defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability' — is met rather than the FAIL condition of 'recall or scripted responses only'. Assessed work requires students to justify a chosen therapeutic approach among alternatives, to resolve an ethical dilemma in a marked report, and to confront and manage unfamiliar problems in live clinical settings across varied services. Exams and quizzes exist in the core but are not the whole assessment picture.",
+      "evidenceLines": [
+        "Justify their formulation of and therapeutic approach to a patient's proposed neuropsychological rehabilitation program taking into account appropriate cultural factors",
+        "Report addressing case study of ethical dilemma",
+        "to develop a capacity to work collaboratively, to confront and manage unfamiliar problems",
+        "Students undertake clinical placements in a wide variety of services that cover acute care neurology and neurosurgery, psychiatry, geriatrics, rehabilitation, and paediatrics."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2 straddled 1 and 2 and was resolved DOWN to 1 on adversarial verification: the assessment tables for PSYC90030 name only 'A written report' and 'A written examination' without stating that criterion-referenced appraisal is what is marked, and PSYC90003's 'Prepare literature review.' hurdle names no criteria, standards, exemplars or peer review — its critical-appraisal character comes from an intended learning outcome, which R2 caps at 1.",
+    "C2 straddled 2 and 3: 'Evaluate the effectiveness of their professional practice (in conjunction with clinical supervisors), identifying areas for improvement and implementing changes where needed' would be the level-3 'strategy adjustment over time' route. R2 and the prompt's rule that a level-3 score requires quoting the assessment task resolved it downward — the line is an intended learning outcome of PSYC90079, and the placement's own hurdle text never names self-evaluation as an assessed product.",
+    "C3 straddled 0 and 1. Level 0 was considered because the program has no digital-literacy curriculum in any recognisable sense; it was rejected because level 0 asserts no digital content exists at all, and virtual brain dissection, 'interactive virtual technologies' and assessed neuroimaging interpretation falsify that. The item therefore sits at 1 with nothing above it available.",
+    "One construct, one home — placement evidence was split by line so that nothing scores twice. The immersion facts (day counts, 1000-hour accreditation floor, AHPRA-registered supervisors, conjoint pass determination, logbook endorsement, discussion of observed cases with supervisors) score in W3. The professional-communication facts inside the same subjects (the hurdle covering written summaries of all assessments and interventions judged by field supervisors, and the case-conference presentation hurdle) score in W1, whose construct names communication to audiences beyond the teaching team and assessed accountability. The case book against College of Clinical Neuropsychologists guidelines scores in W2 as the profession's own standard of performance, not in C2 as a 'portfolio with standards' and not in W3.",
+    "W2's 'genuine constraint of practice' had two candidate routes. The patient-facing route in PSYC90033 is hedged in the handbook ('students may be required to make observations regarding a patient's recovery'), so the score does not rest on it; it rests on the unhedged case-book hurdle, which is a quotable assessment requirement judged against the profession's published guidelines.",
+    "C4 and C5 both had a claim on the doctoral research. The thesis examination, viva, external examiners and Confirmation defence score in C5, whose construct names methodology defended under scrutiny. C4 is scored on the distinct assessed coursework progression toward independent learning (PSYC90003 gap identification, PSYC90029 research proposal, PSYC80004's stated independent-research purpose).",
+    "The award is a combined coursework masters and research doctorate (AQF level 10, 'Doctorate by Research', five years), so the coursework-program framing of several anchors sits awkwardly on it; the two sub-scales were nonetheless scored from documented curriculum evidence only, with no adjustment for award type."
+  ],
+  "notScoreable": [
+    "C3's AI half has no evidence in the extract at all: a full-text search returns no occurrence of 'AI', 'artificial intelligence', 'generative', 'algorithm', 'machine learning', 'software' or 'data governance' anywhere in the course pages or the 14 subject and assessment pages. The score of 1 therefore rests entirely on the digital-tool half of the item; the AI-literacy and AI-governance dimensions are not scoreable from this evidence rather than scored as absent-and-therefore-low."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-23"
+  }
+};
+
+export default record;

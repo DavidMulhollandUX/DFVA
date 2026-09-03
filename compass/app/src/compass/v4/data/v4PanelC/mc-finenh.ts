@@ -1,0 +1,145 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2: multiple core/compulsory subjects assess collaborative practice with individual accountability -- ACCT90002's group assignment specifies an individual word count within the group task, and FNCE90047, FNCE90080, FNCE90082 and FNCE90083 (all in the 'at least four core' pool) each carry graded group projects. This clears 'At least one core unit assesses collaborative practice -- group projects with individual accountability.' No item documents an assessment that requires coordinating work across people AND tools/AI systems, so Level 3 is not reached.",
+    "evidenceLines": [
+      "Group assignment (4000 words, in groups of 4-5 students)",
+      "800-1000 words (each)",
+      "Group assignment (normally groups of 5-6 students).",
+      "Major Group Project (3-5 students)",
+      "Group Project (usual group size 3-5 students)"
+    ]
+  },
+  "C2": {
+    "score": 0,
+    "rationale": "Level 0: across the four compulsory subjects and the 'at least four core' pool, every assessed item captured is a test, exam, individual/group assignment or presentation -- none is a peer review, structured critique, portfolio-against-standards, or documented reliance-decision task. The seven graduate attributes contain no reflection/self-assessment statement either, so even Level 1's outcome-only bar is not cleared.",
+    "evidenceLines": [
+      "Knowledgeable across a variety of finance specialisations including financial markets, corporate finance, investment management, quantitative finance and financial technology.",
+      "Effective communicators of financial concepts and ideas to both specialist and non-specialist audiences.",
+      "Aware of the importance of applying high ethical standards in professional practice.",
+      "Oral and written communication\nProblem solving\nApplication of theory to practice\nTeam work\nCritical thinking\nEvaluation of data"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "FNCE90084 sits in the handbook's own 'core finance subjects' pool but its outcomes emphasise technique application ('Acquire skills to solve practical financial problems using Machine Learning', 'Demonstrate basic knowledge of techniques') -- the tool-operation content the instrument caps at Level 1. Limitations/ethics content is not confirmed as assessed. Ambiguous between Level 1 and 2; took the lower level.",
+    "evidenceLines": [
+      "Students must complete at least four of the following finance subjects:",
+      "FNCE90084\tApplied Machine Learning in Finance",
+      "Machine learning has been revolutionizing the financial industry, offering the potential to disrupt traditional structures and practices.",
+      "Determine how major advances in artificial intelligence and machine learning are applicable to finance problems",
+      "Demonstrate basic knowledge of techniques in artificial intelligence and machine learning",
+      "Distinguish disruption from mere computerisation",
+      "Acquire skills to solve practical financial problems using Machine Learning"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "DEMOTED from 3 to 2 on verify-pass review. Original Level-3 evidence rested entirely on FNCE90081 Pathway B (Research pathway), but the Research pathway is one of two alternative capstone routes (Industry Project pathway is the other), and FNCE90081 is itself skippable via the 'at least four of the following finance subjects' pool (six other options exist) -- the same optionality fact pattern used to demote C5 from 3 to 2 under its 'not one route among several' clause. Per default-to-refuting-when-uncertain, held at Level 2: 'assessment requires application to novel or unfamiliar problems' is safely supported program-wide regardless of capstone route.",
+    "evidenceLines": [
+      "The Applied Research Project is an ideal subject to further develop and strengthen students’ research skills by working on a semester-long independent research project.",
+      "Pathway B - Academic Research, is recommended for students in the Master of Finance (Enhanced).",
+      "Students in Pathway B are encouraged to select a research topic which aligns with their previous and/or future career activities or interests.",
+      "For Pathway B, students must discuss possible proposals with the subject coordinator and then submit a detailed research proposal at least three weeks before the start of semester, and approval of the proposal must be finalised before the start of the semester.",
+      "Undertake a substantial applied research project (academic or industry focus) requiring and independent investigation on an approved topic in finance."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: FNCE90081 has students devise a methodology and collect/analyse data, assessed. Level 3 is excluded by its own 'not one route among several' clause since the Research pathway is one of two alternative capstone routes (Industry Project pathway is the other).",
+    "evidenceLines": [
+      "Research pathway option - students completing this option must complete the following two capstone subjects:",
+      "Industry Project pathway option - students completing this option must complete the following two capstone subjects:",
+      "Devise a method of investigation to improve knowledge or understanding the topic identified",
+      "Collect and analyse a range of data (both qualitative and/or quantitative) to improve our collective understanding of the chosen topic",
+      "Write a project report that documents the issue, synthesises the data and recommends solutions to the issue identified"
+    ]
+  },
+  "adaptiveness": 7,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1: presentation-based assessment recurs across core subjects, clearing 'core assessment adds presentation to peers/staff.' FNCE90081's outcome mentions an audience of 'academics or industry experts', but this is not confirmed in the assessment-table item itself, and R2 holds an outcome statement is never sufficient. Took the lower level.",
+    "evidenceLines": [
+      "Present the findings orally to an audience of academics or industry experts.",
+      "Individual Presentation (or equivalent)",
+      "Choice of: an Individual Industry Paper OR an Individual Academic Research Paper",
+      "Video presentation (10 mins, including slides and calculations), or equivalent (normally in groups of 3-4 students)",
+      "Video presentation (individual)"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "DEMOTED from 2 to 1 on verify-pass review. The Level-2 evidence rested primarily on FNCE90049 (Property Development and Investment), which the handbook's own course-structure text places in the 'up to six... elective subjects' pool, not the compulsory or 'at least four core finance subjects' pool -- and the W2 anchor requires core assessment to reproduce a professional task end to end, which an elective subject cannot satisfy. The remaining core-pool evidence (FNCE90080's group project, FNCE90081 Pathway A) is either deprioritised in the underlying rationale or too thin on task/artefact/criteria detail to independently clear Level 2 on its own. Held at Level 1: core assessments are contextualised/scenario-framed -- e.g. FNCE90012's valuation and M&A case discussion -- but a full professional-artefact match is not established from core evidence alone.",
+    "evidenceLines": [
+      "This subject presents the principles, concepts and methods needed to analyse an investment in an existing property, to analyse a potential property development and to raise private and public debt or capital for property investment.",
+      "Perform an investment analysis for an income producing property;",
+      "Perform a financial analysis of a single use and multiple use development project;",
+      "Video presentation (10 mins, including slides and calculations), or equivalent (normally in groups of 3-4 students)",
+      "Students use investment software to solve practical problems.",
+      "In the industry pathway students will be working on real-world projects. As such, this subject offers an ideal path to secure a job in the finance industry if students perform well on their project.",
+      "For Pathway A, a list of industry projects will be advertised on Canvas and students can apply indicating their interest in specific topics. Students will be selected following an interview with the subject coordinator.",
+      "Pathway A - Industry, is recommended for students in the Master of Finance."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: the only placement/internship-named subjects (BUSA90473, BUSA90485, BUSA90525) sit in the optional elective pool with no subject-level detail captured. FNCE90081's industry engagement is scored in W2, not W3, per the 'one construct, one home' rule, and is also not the pathway recommended for this program.",
+    "evidenceLines": [
+      "Students may choose up to six of the following elective subjects:",
+      "BUSA90473\tBusiness Practicum",
+      "BUSA90485\tGlobal Business Practicum",
+      "BUSA90525\tBusiness and Economics Internship"
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS: four compulsory subjects plus at least four core finance subjects plus a two-subject capstone, with a documented prerequisite chain into FNCE90094 -- a coherent, staged, all-finance specialist core.",
+      "evidenceLines": [
+        "The Master of Finance (Enhanced) requires successful completion of 200 points which includes four compulsory subjects, at least four core subjects and two capstone subjects.",
+        "Students must complete the following four compulsory subjects:",
+        "Students must complete at least four of the following finance subjects:",
+        "**To enrol in FNCE90094 Advanced Applied Research Project, students must have completed FNCE90081 Applied Research Project (Pathway B)."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS: FNCE90082 uses real-world risk-management cases and assesses critical evaluation of risk; FNCE90012 assesses class participation on a firm valuation exercise and M&A cases requiring defended judgements -- live-case work with real uncertainty and accountability, not recall alone.",
+      "evidenceLines": [
+        "There will be an extensive use of real-world cases throughout the course to illustrate both successful and unsuccessful risk management practices.",
+        "Critically evaluate the risk in managing risk.",
+        "Class participation (based on the students in class discussion of both a firm valuation exercise developed over weeks 2 through 4; and three small merger and acquisition cases discussed in weeks, 6, 8 and 9)"
+      ]
+    }
+  },
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  },
+  "ambiguities": []
+};
+
+export default record;

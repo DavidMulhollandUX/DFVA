@@ -1,0 +1,153 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor is met: at least one core unit assesses collaborative practice — group projects with individual accountability. In the compulsory practice subjects (MUSI90038, MUSI90039, MUSI90040, MUSI90187), students complete a 'Group presentation - 5 minutes per student' (20%, 25 hours of work required), which assesses collaborative presentation with explicit individual accountability (individual duration per student). In MUSI90263 Theory for Music Therapists 4, students complete an individually assessed reflection following a group discussion (25%). Furthermore, MUSI90035 assesses group facilitation ('Facilitation of 3 to 5-minute group improvisation' and 'Facilitation of 10 to 20-minute therapeutic group experience'). Not Level 3: the anchor additionally requires at least one assessment that requires coordinating work across people AND tools/AI systems (e.g. team capstone with documented role and tool allocation, or where the division of work between people and systems is itself assessed); nothing in the extract documents any collaborative task coordinating work across people and AI/systems with role allocation. Per the one-construct-one-home rule, multidisciplinary clinical placement teamwork is homed in W3.",
+    "evidenceLines": [
+      "Group presentation - 5 minutes per student",
+      "Group presentation – 5 minutes per student",
+      "Group presentation – 5 minutes per student.",
+      "10-minute individual reflection following group discussion analysing the ecological/systemic factors related to a set scenario.",
+      "Facilitation of 3 to 5-minute group improvisation",
+      "Facilitation of 10 to 20-minute therapeutic group experience",
+      "work collaboratively and professionally in a group or team environment;"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 anchor is satisfied: 'Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars.' In the compulsory core subject MUSI90037 Research in Music Therapy, students are assessed on a 'Written report on two research articles using appropriate assessment criteria' (20%), supported by the intended learning outcome to 'delineate criteria for assessing the quality of music therapy research across objectivist and interpretivist approaches'. This is a structured, criterion-referenced critique assessing research quality against explicit criteria. Not Level 3: that anchor requires assessment where students document and justify reliance decisions (when they relied on or overrode a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time. No assessment in the extract requires documenting or defending reliance decisions or AI output quality.",
+    "evidenceLines": [
+      "Written report on two research articles using appropriate assessment criteria.",
+      "Assessment will include: an interactive oral assessment evaluating the quality of two research articles using appropriate assessment criteria, a written research proposal for a specified music therapy program, as well as completing a combined written/oral assessment reflecting on ethical considerations for the proposed project.",
+      "delineate criteria for assessing the quality of music therapy research across objectivist and interpretivist approaches;",
+      "critically appraise research literature using IT resources and print journals;",
+      "Short answer responses to a series of music therapy practice scenarios including goal writing and personal reflection."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor is met: 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable.' In compulsory core subjects MUSI90033 and MUSI90035, students are taught and assessed on digital audio creation and recording tools ('creating and producing electronic music tracks', 'skills in creating a multitrack recording', 'electronic media', 'multi-track recording of known songs', and '3 to 5-minute multi-track recorded original song responding to individual clinical scenario'). Digital communication and internet search also appear across generic skills. Level 0 is excluded because digital tool operation and production are explicitly taught and assessed in core units. Not Level 2: that anchor requires core units to address AI capabilities AND limitations/ethics with use-with-limits discussed and assessed; no core subject mentions AI, generative AI, or machine learning, and no assessment covers AI ethics or limitations. Level 3 AI governance/critique is entirely absent.",
+    "evidenceLines": [
+      "Skill development is focused on creating and producing electronic music tracks in order to extend known and original songs using musical and lyrical strategies.",
+      "create and produce electronic music tracks for use with existing and original musical material;",
+      "3 to 5-minute audio recording of an original song composition demonstrating skills in creating a multitrack recording.",
+      "use expert and sensitive improvisational skills (vocal, instrumental, and electronic media) to facilitate transformative therapeutic experiences;",
+      "apply skills in music arrangement to multi-track recording of known songs.",
+      "3 to 5-minute multi-track recorded original song responding to individual clinical scenario",
+      "communicate effectively in oral, written and digital forms;"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2 anchor is met: 'At least one core assessment requires application to novel or unfamiliar problems — case variation, unseen datasets, cross-context projects.' In MUSI90033 Methods 2, students are assessed on a live performance of 10 songs 'including 1 provided with 48 hours to prepare' (50%), requiring rapid application to unfamiliar assigned material. In MUSI90041, MUSI90042, and MUSI90263, core assessments require creating practice plans and theoretical rationales in response to varied unseen practice scenarios ('Create a practice plan in response to a given scenario, including a theoretical rationale', 'Short answer responses to a series of music therapy practice scenarios'). In MUSI90035, students compose an original song responding to an individual clinical scenario. Not Level 3: that anchor requires 'The program documents structured progression toward independent learning: a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them.' While the core contains four research units (MUSI90036, MUSI90037, MUSI90044, MUSI90045), students produce literature reviews, pitches, and research proposals for specified programs rather than executing a self-scoped research project or thesis; MUSI90044's ILO references identifying knowledge gaps in the published literature to inform protocol design, not assessing the student's own personal learning gaps with a plan to close them. Although MUSI90187 is a capstone clinical placement where students establish novel programs, placement evidence is homed in W3 per the one-construct-one-home rule and v4.1 migration rule ('the level-3 work-integrated-learning route moves to W3, leaving transfer and self-directed learning'). Ambiguity resolved downward to 2.",
+    "evidenceLines": [
+      "30 to 40-minute video of a live performance of 10 songs including 2 originals and 8 assigned songs, including 1 provided with 48 hours to prepare",
+      "demonstrate musical skills in analysing and playing repertoire with short preparation times.",
+      "Create a practice plan in response to a given scenario, including a theoretical rationale.",
+      "Short answer responses to a series of music therapy practice scenarios including goal writing and personal reflection.",
+      "3 to 5-minute multi-track recorded original song responding to individual clinical scenario",
+      "10-minute reflection and rationale for taking a theoretical stance in response to a music therapy practice scenario."
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1 anchor fits positively: 'Introductory methods unit; literature-review assessment.' The program contains four compulsory research subjects (50 credit points total): MUSI90036 Music Psychology Research, MUSI90037 Research in Music Therapy, MUSI90044 Objectivist Research in Music Therapy, and MUSI90045 Interpretivist Research in Music Therapy. Assessed tasks across this sequence include a 'Literature review' (2000 words, 40% in MUSI90044), 'Written report of a thematic analysis of an interview transcript' (30% in MUSI90045), 'Results of critical interpretive synthesis' (50% in MUSI90045), 'Research pitch' (10% in MUSI90044), and 'Written research proposal within a specified therapy program' (30% in MUSI90037). Level 2 requires that 'Students design and conduct an inquiry with methodology selection and data collection, assessed.' While students design research protocols/proposals (MUSI90037, MUSI90044) and analyze an interview transcript and synthesize literature (MUSI90045), no core subject requires students to conduct primary data collection or carry out an empirical inquiry. Level 3 fails a fortiori as no substantial required project generating primary evidence is assessed or defended under scrutiny (viva/defence).",
+    "evidenceLines": [
+      "This subject will provide students with an overview of research methods used in music therapy.",
+      "Literature review",
+      "Written research proposal within a specified therapy program.",
+      "Research proposal for an objectivist project, completed as a 15-minute interactive oral assessment plus a 1500-word written response.",
+      "Written report of a thematic analysis of an interview transcript, and open questions related to the qualitative method and interpretation of findings, completed as a 15-minute interview plus a 750-word precis.",
+      "Results of critical interpretive synthesis",
+      "Research pitch"
+    ]
+  },
+  "adaptiveness": 8,
+  "W1": {
+    "score": 3,
+    "rationale": "All three conjunctive conditions of Level 3 are documented in core assessment evidence. (1) 'Professional communication is assessed repeatedly and progressively across the program': Professional clinical genres and spoken communication recur across all four semesters in core subjects, including Practicum Plans (1500 words in MUSI90038, MUSI90039, MUSI90040, MUSI90187), interactive oral assessments and interviews (MUSI90037, MUSI90041, MUSI90044, MUSI90045), therapeutic group facilitations (MUSI90034, MUSI90035), live song performances and relaxations (MUSI90032, MUSI90033), and group presentations. (2) 'At least one core assessment is delivered to, or judged by, a real external audience or practitioner': In the core placement subjects MUSI90039, MUSI90040, and MUSI90187, students practice in real hospital/community settings where 'The placement industry partner provides two written reports (mid placement and on conclusion) to both the student and the placement coordinator', and MUSI90038 includes a simulated placement experience. (3) 'Professional conduct or accountability explicitly among the assessed criteria': In MUSI90038, MUSI90039, MUSI90040, and MUSI90187, passing the 160-hour placement experience is a strict hurdle requirement ('Students must pass this placement assessment to pass the subject') evaluated against professional workplace standards and the Australian Music Therapy Association (AMTA) ethical code of practice.",
+    "evidenceLines": [
+      "Practicum Plan",
+      "Practicum Placement Experience (160 accreditation hours)",
+      "Hurdle requirement: Students must pass this placement assessment to pass the subject.",
+      "The placement industry partner provides two written reports (mid placement and on conclusion) to both the student and the placement coordinator.",
+      "follow the Australian Music Therapy Association (AMTA) ethical code of practice.",
+      "Simulated Practicum Placement Experience (160 accreditation hours)",
+      "Facilitation of 10 to 20-minute therapeutic group experience",
+      "Report of key ethical considerations for a proposed project, and open questions related to human ethics processes, completed as a 15-minute interactive oral assessment and a 1500-word written response."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3 anchor is met: authentic tasks form the program's assessment spine across all semesters rather than a single instance, AND core assessments carry genuine constraints of practice. The core assessment spine consists of practitioner-authentic tasks in every stage: simulated placement and clinical plan (MUSI90038), graded clinical practicum plans and 160-hour placements (MUSI90039, MUSI90040, MUSI90187), relaxation induction exercises and music listening facilitation (MUSI90033, MUSI90034), songwriting and group improvisation facilitation for clinical scenarios (MUSI90034, MUSI90035), and clinical practice plans (MUSI90041, MUSI90042). Genuine constraints of practice are documented: real time limits in MUSI90033 (performing 10 songs including 1 provided with only 48 hours to prepare), externally supplied ambiguous clinical cases in hospital and community facilities where students must independently conceive and deliver programs (MUSI90187), and professional performance standards tied to AMTA accreditation hurdles (640 total hours). Simulation is scored here per the rubric.",
+    "evidenceLines": [
+      "30 to 40-minute video of a live performance of 10 songs including 2 originals and 8 assigned songs, including 1 provided with 48 hours to prepare",
+      "10 to 15-minute video recording of a relaxation induction exercise followed by an instrumental improvisation designed for relaxation",
+      "3 to 5-minute multi-track recorded original song responding to individual clinical scenario",
+      "Facilitation of 10 to 20-minute therapeutic group experience",
+      "Simulated Practicum Plan",
+      "In hospital or community settings, students will design a program that is suitable to the context of the placement. Students will then deliver the program, taking responsibility for sessions where appropriate and will evaluate and measure the benefit of the intervention.",
+      "Australian Music Therapy Association (AMTA)"
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3 anchor is fully satisfied: 'Substantial required work-situated learning: an extended placement or practicum, or a sequence of them, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection on professional practice'. In this 100% compulsory 200-point program, students are required to complete a minimum of 80 days / 640 hours of placement across four core subjects (MUSI90038, MUSI90039, MUSI90040, MUSI90187), including 480 hours of practical placements in hospitals and community settings supervised by qualified music therapists and local professional staff. Each placement subject is formally assessed (50% placement experience with a strict pass/fail hurdle), involves documented host accountability via two written industry partner reports per placement, and incorporates structured reflection on professional practice through tutorials, peer group supervision, and practicum plans.",
+    "evidenceLines": [
+      "Students undertake clinical placements of a minimum 80 days in total across the two years with an approved provider.",
+      "You will also participate regularly in placements, amounting to a minimum of 640 hours across the two years.",
+      "This subject provides students with practical placement experience in music therapy under the guidance of a qualified music therapist.",
+      "Students are required to complete 20 days (160-hours) of practical placement, which will have both observational and participatory experiences of working with clients and evaluating benefit from the intervention.",
+      "The placement industry partner provides two written reports (mid placement and on conclusion) to both the student and the placement coordinator.",
+      "Practicum Placement Experience (160 accreditation hours)",
+      "Hurdle requirement: Students must pass this placement assessment to pass the subject.",
+      "Placements will be supervised by a local professional staff member as well as peer group supervision.",
+      "Practical placement experience (160 accreditation hours)"
+    ]
+  },
+  "workplace": 9,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents an all-compulsory 200-credit-point specialist core across 16 subjects with staged technical and methodological progression in music therapy methods (1–4), theory (1–4), practice and clinical placement (1–4), and research methods (1–4). The entire sequence is accredited by the Australian Music Therapy Association (AMTA) leading to Registration as Music Therapists (RMT).",
+      "evidenceLines": [
+        "200-point program of compulsory subjects",
+        "100 points compulsory subjects",
+        "100 points compulsory subjects",
+        "Australian Music Therapy Association (AMTA)",
+        "Master of Music Therapy graduates are eligible for registration as Music Therapists (RMT) with the Australian Music Therapy Association (Inc.)."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The program features 480 hours of live clinical placement with real patients in hospital and community settings (MUSI90039, MUSI90040, MUSI90187) plus a simulated clinical practicum (MUSI90038), where students must independently design, deliver, and evaluate music therapy interventions under real-world clinical uncertainty with accountability to clients and host facilities. Live performance assessments with short preparation time (48 hours in MUSI90033) and group improvisation facilitations (MUSI90035) further assess real-time decision-making under uncertainty.",
+      "evidenceLines": [
+        "Students undertake clinical placements of a minimum 80 days in total across the two years with an approved provider.",
+        "In hospital or community settings, students will design a program that is suitable to the context of the placement. Students will then deliver the program, taking responsibility for sessions where appropriate and will evaluate and measure the benefit of the intervention.",
+        "Hurdle requirement: Students must pass this placement assessment to pass the subject.",
+        "30 to 40-minute video of a live performance of 10 songs including 2 originals and 8 assigned songs, including 1 provided with 48 hours to prepare"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1 vs W3: Collaborative teamwork in clinical placement settings (interprofessional multidisciplinary team practice) could be read as distributed cognition under C1, but per the one-construct-one-home rule, all placement-situated evidence is homed in W3. C1 is supported by assessed group presentations with individual accountability in core subjects (MUSI90038, MUSI90039, MUSI90040, MUSI90187) and group facilitation tasks (MUSI90035, MUSI90263).",
+    "C4 straddled 2 and 3: The capstone subject MUSI90187 is an independent placement where students initiate and establish novel music therapy programs in clinical facilities, and students also complete four research units. However, per the v4.1 migration rule and one-construct-one-home rule, placement evidence scores in W3 rather than C4. In the research sequence, students complete proposals, pitches, literature reviews, and thematic analyses of provided transcripts rather than an executed self-scoped research project or thesis, and no assessed personal knowledge-gap plan is documented. Ambiguity resolved DOWN to 2 per the never-resolve-upward rule.",
+    "C5 straddled 1 and 2: The course documents a substantial four-subject (50 credit points) research sequence covering both objectivist and interpretivist traditions (MUSI90036, MUSI90037, MUSI90044, MUSI90045) and includes thematic qualitative analysis of an interview transcript and critical interpretive synthesis. However, level 2 requires that students design and conduct an inquiry with primary data collection; all assessed artefacts in the extract are proposals, literature reviews, pitches, synthesis, and analysis of supplied transcripts, with no student primary data collection. Resolved at 1.",
+    "W2 vs W3: Simulated placement experience in MUSI90038 (160 hours) provides high task fidelity but is simulated rather than immersion in a real workplace; per rubric instructions, simulation evidence is homed in W2, while the 480 hours of real-workplace placements in MUSI90039, MUSI90040, and MUSI90187 are homed in W3."
+  ],
+  "notScoreable": [
+    "No item was left unscored. Marking rubrics with explicit criteria are not published in the handbook extract, so criterion-referenced appraisal in C2 was evaluated against documented assessment tasks and subject intended learning outcomes. The extract contains no mention of generative AI or artificial intelligence systems, so C3's level 2 and 3 anchors had no evidence to be tested against."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-23"
+  }
+};
+
+export default record;

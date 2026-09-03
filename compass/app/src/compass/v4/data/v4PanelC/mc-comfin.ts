@@ -1,0 +1,127 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1: 'Collaborative learning' and 'Team work' appear in the generic-skills lists of FNCE90042 and ECOM90002 (a choose-one compulsory econometrics option), matching 'appears in learning outcomes, but no core unit assesses it.' Neither subject's Assessment table has a group-based or stakeholder-facing item.",
+    "evidenceLines": [
+      "Collaborative learning",
+      "Team work",
+      "Moderate level of development: written communication; collaborative learning; team work; critical thinking; synthesis of data and other information.",
+      "A mid-semester examination (weeks 5-9)",
+      "An end-of-semester examination"
+    ]
+  },
+  "C2": {
+    "score": 0,
+    "rationale": "Level 0: the program's only candidate citation for reflection/feedback is unquotable against the source extract (the source reads 'give and receive constructive feedback;' with a semicolon, not the comma-terminated phrase originally quoted), so it cannot stand as evidence. With that citation struck, the remaining evidence is limited to generic Assessment-table labels (exam, assignment, exam) that show no reflection, self-assessment, peer review or structured critique anywhere in the core.",
+    "evidenceLines": [
+      "Mid-semester examination",
+      "Assignment",
+      "End-of-semester examination"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1: digital-tool content is present in the core (FNCE90009 requires 'Access and manipulate common financial databases using SAS and R'; 'Using computer software' appears as a generic skill in FNCE90042), matching 'AI or digital tools appear only as electives or as tool operation/training.' No unit discusses AI capabilities, limitations, ethics or governance.",
+    "evidenceLines": [
+      "Access and manipulate common financial databases using SAS and R;",
+      "Using computer software"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2: ECOM90002's Capstone requires 'hypothesis-formation, real-world data collection, and writing-up the results in a formal report,' assessed across Proposal/Progress Report/Submission stages, matching 'application to novel or unfamiliar problems.' No captured evidence documents a self-scoped capstone or assessed knowledge-gap identification (level 3).",
+    "evidenceLines": [
+      "Methods are consolidated through a Capstone project involving hypothesis-formation, real-world data collection, and writing-up the results in a formal report.",
+      "Capstone Project Proposal (report)",
+      "Capstone Project Progress Report (report)",
+      "Capstone Project Submission (report)"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: FNCE90009's '4 programming and database assignments' (30%) require methodology selection and real data collection, matching 'design and conduct an inquiry with methodology selection and data collection, assessed.' Level 3 fails: ECOM90002's Capstone is one of two choose-one econometrics options ('not one route among several' is explicit in the level-3 anchor), and no viva/defence/staged supervised review is documented for any compulsory subject.",
+    "evidenceLines": [
+      "Develop a research question to address a financial issue;",
+      "Determine the data necessary data to conduct the research;",
+      "Undertake a research project;",
+      "4 programming and database assignments",
+      "Literature review paper (due final exam period)"
+    ]
+  },
+  "adaptiveness": 6,
+  "W1": {
+    "score": 0,
+    "rationale": "Level 0: every compulsory subject's Assessment table is exams/individually authored assignments/reports addressed to the marker. 'communicate effectively, in oral and written forms' is only a program-level outcome — no assessed presentation-to-peers/staff item exists anywhere in the core, so even level 1's second condition fails.",
+    "evidenceLines": [
+      "communicate effectively, in oral and written forms;",
+      "Mid-semester examination",
+      "Assignment",
+      "End-of-semester examination"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1: ECOM90002's Capstone and FNCE90009's database work contextualise assessment beyond pure decontextualised problem sets, ruling out level 0. The artefacts produced remain academic — a 'Literature review paper' and a 'Capstone Project Submission (report)' — not a practitioner-style deliverable judged against practice criteria (level 2).",
+    "evidenceLines": [
+      "The subject involves the development of students’ skills in accessing large financial databases, computer programming to manipulate and analyse, critical thinking, and writing skills.",
+      "Literature review paper (due final exam period)",
+      "Capstone Project Submission (report)"
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0: the course structure describes the program in full as compulsory Finance/Economics/Econometrics/Mathematics subjects plus constrained-choice electives — no placement, practicum, internship or own-practice route appears anywhere in this extract.",
+    "evidenceLines": [
+      "The Master of Commerce (Finance) consists of 16 subjects comprising 9 compulsory Finance subjects, 1 Economics subject, 1 Econometrics subject, 1 Mathematics subject and either 3 or 4 constrained choice electives."
+    ]
+  },
+  "workplace": 1,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Documents an all/near-all-compulsory specialist Finance core with a staged prerequisite chain — GPA-gated progression Year 1 to Year 2, and Year 2 to the PhD.",
+      "evidenceLines": [
+        "The Master of Commerce (Finance) consists of 16 subjects comprising 9 compulsory Finance subjects, 1 Economics subject, 1 Econometrics subject, 1 Mathematics subject and either 3 or 4 constrained choice electives.",
+        "A minimum average of 75% overall in the subjects taken during Year 1; and",
+        "a minimum average of 75% for the compulsory Finance subjects taken in Year 1."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "FNCE90009 and ECOM90002's Capstone both require students to formulate a research question and select data/methodology under genuine uncertainty, not the FAIL anchor's 'Recall or scripted responses only.'",
+      "evidenceLines": [
+        "Develop a research question to address a financial issue;",
+        "Determine the data necessary data to conduct the research;",
+        "Methods are consolidated through a Capstone project involving hypothesis-formation, real-world data collection, and writing-up the results in a formal report."
+      ]
+    }
+  },
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  },
+  "ambiguities": []
+};
+
+export default record;

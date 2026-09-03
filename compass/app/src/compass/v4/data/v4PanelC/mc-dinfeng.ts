@@ -1,0 +1,140 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor: 'At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity.' Core units (Applying Digital Infrastructure, the Digital Infrastructure Systems Capstone, Integrating Digital Infrastructure) assess group projects with individual accountability components (vivas, individual oral assessments). Level 3 additionally requires coordinating work across people AND tools/AI systems, with role/tool allocation itself documented and assessed; the extract shows recurring assessed group work but no unit documents this tool/AI coordination element, so the ambiguity is resolved to the lower level per the scoring-direction rule.",
+    "evidenceLines": [
+      "Group Assessment / Project: A group report on designing an application of digital infrastructure in a project of about 700 words per team member, in groups of about 4 students. ILOs 2-5 are addressed in this assessment",
+      "Individual Assessment: A 5-minute viva on the individual contributions or reflections on the project design (in-class). ILOs 2, 4, and 5 are addressed in this assessment.",
+      "Group scoping report with a workload equivalent to 1200 words per student. Intended Learning Outcomes (ILOs) 1, 4 and 5 are addressed in this assessment.",
+      "Group Major Project: Group report accompanied by a joint team presentation (10 minutes) and a mandatory individual 5-minute oral assessment (maximum 4 students per group)."
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: 'Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria.' The course-level intended learning outcomes state graduates will 'reflect critically on theory and professional practice or scholarship,' satisfying this. Level 2 requires criterion-referenced appraisal of quality assessed in a core unit; the closest evidence (a written commentary critiquing a programming solution) sits in a Year 1 selective (a choice of one of two subjects), not a guaranteed core unit, and no other core unit documents criterion-referenced appraisal of quality — scored at the lower level per the ambiguity rule.",
+    "evidenceLines": [
+      "Demonstrate the cognitive skills to master theoretical knowledge and to reflect critically on theory and professional practice or scholarship;",
+      "Written commentary on student's own or a staff-written solution to each of the two programming assignments, held as closed book timed assessments within the Week 8 (5.0%) and Week 11 (7.5%) tutorial classes respectively 30 minutes of writing time for each assignment"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable.' Core digital-tools content in the extract (BIM modelling/visualisation, positioning-technology hardware/software, spatial-analytics scripting in Python/R) reads predominantly as tool operation, and the dedicated AI-ethics content sits only in the Year 2 selectives list. A core unit's outcomes list machine learning as one of several risk-analysis techniques, but the extract does not show this paired with assessed discussion of AI limitations or ethics as level 2 requires ('Core units address AI capabilities AND limitations/ethics; use with limits discussed and assessed') — scored at level 1.",
+    "evidenceLines": [
+      "In this subject, students will learn how BIM is used to model, store and visualise architectural, structural, and facilities components of an infrastructure in 3D.",
+      "The Ethics of Artificial Intelligence",
+      "Science & AI: Legal & Ethical Challenges",
+      "ILO4 - Conduct comprehensive risk analysis using statistical methods, engineering reliability analysis and advanced simulation techniques, such as Monte Carlo simulation and machine learning, to predict the occurrence of failures of engineering projects",
+      "acquire technical software skills in a high-level scripting language (such as Python and R)"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2 anchor: 'At least one core assessment requires application to novel or unfamiliar problems — case variation, unseen datasets, cross-context projects.' The Digital Infrastructure Systems Capstone's real-world project and Applying Digital Infrastructure's climate-adaptation/urban-sustainability planning task ('or similar') both apply skills to novel, cross-context problems, assessed. Level 3 requires a documented self-scoped capstone or assessed identification of one's own knowledge gaps with a plan to close them; the capstone's 'Formulate a project' outcome gestures toward self-scoping, but the subject is explicitly framed as 'real-world, client-driven,' suggesting an externally supplied brief rather than student-determined scope — scored at the lower level per the ambiguity rule.",
+    "evidenceLines": [
+      "This subject provides a basis for students in the Digital Infrastructure Systems major to integrate and apply the knowledge they have gained throughout their studies to solve real-world problems.",
+      "ILO 1.Formulate a project on digital systems for infrastructures that applies recent developments in spatial engineering fundamentals and practice;",
+      "You will apply these new skills in a project on data integration, analysis, and cartographic representation to support multi-criteria decision making in a planning task relating to climate adaptation, urban sustainability, or similar.",
+      "Plan and execute a substantial research-based project, capstone experience and/or piece of scholarship."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 anchor: 'Students design and conduct an inquiry with methodology selection and data collection, assessed.' A core fieldwork major assignment, a core field-survey group assessment, and a core project-proposal VIVA all show assessed primary-data-collection inquiry with methodology selection. Level 3 requires this be the REQUIRED single/central primary-evidence project with methodology 'defended under scrutiny (viva, defence, or staged supervised review)'; while the fieldwork assignment pairs with a separate Oral Exam, its stated ILO coverage does not clearly tie that oral exam to defending the fieldwork methodology specifically, and no unit is framed as the program's required central inquiry project — scored at the lower level.",
+    "evidenceLines": [
+      "Major assignment: Fieldwork for collecting, processing and analysing positioning solutions (arrangements for on-campus students; alternatives for online students), with a scientific report.",
+      "Group project proposal presentation (5 min) and VIVA style oral exam (15 min), individually assessed. ILOs 2, 3 and 4 are addressed in this proposal presentation.",
+      "Group Assessment/Project- Two group reports (10% each) ( 1600 words equivalent per report) and one group final report (20%) (2000 words equivalent) and a survey plan showing progress through the fieldwork tasks.",
+      "Design and acquire field sensing and measurements using modern technologies in a team;"
+    ]
+  },
+  "adaptiveness": 8,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2 anchor: 'At least one core assessment requires a recognised professional genre or an audience beyond the teaching team... judged against criteria drawn from professional practice.' A core unit's 'BIM Execution Plan' assessment reproduces a genuine AEC-industry professional-genre artefact. Level 3 additionally requires delivery to, or judgement by, a real external audience or practitioner (industry panel, client, patient, public exhibition) with conduct/accountability assessed; two core units frame work as 'client-driven'/'to a client,' but the extract never confirms this is a genuine external party rather than a simulated framing, and no industry panel or practitioner assessor is named — scored at the lower level.",
+    "evidenceLines": [
+      "Group Assessment/Project: Development of a BIM Execution Plan with a workload equivalent of 400 words per student ,which will be the basis of an oral examination in Week 12).",
+      "Communicate the analysis and interpretation of remotely sensed data to a client.",
+      "gain experience and skills in how to conduct a real-world, client-driven, interdisciplinary project, including important communication and organizational skills."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2 anchor: 'At least one core assessment reproduces a professional task end to end... producing the artefact a practitioner would produce, judged against criteria drawn from practice.' A core BIM unit's individual and group BIM-file assessments, and a core capstone's development demonstration, reproduce practitioner artefacts. Level 3 requires such tasks to be 'the program's assessment spine' AND at least one to carry a genuine constraint of practice; professional-artefact tasks do recur across Year 1-3 core units, but the extract does not explicitly document a genuine practice constraint (ambiguous/externally supplied problem, real resource/time limits, consequential audience, professional performance standards) for any single task — scored at the lower level.",
+    "evidenceLines": [
+      "Individual Assessment / Project- Assignment 1, 1200 word report and a BIM file on designing and communicating an infrastructure.",
+      "Group Assessment / Project- Assignment 2, Group BIM file on analysing an infrastructure with a workload equivalent to 800 words per student; individual oral exam on the submission.",
+      "Individual demonstration on development (equivalent 1200 words, due in week 10, 30%) and report (equivalent 400 words, draft due in week 8, 10%) per student. ILOs 1-5 are addressed in this assessment."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: 'Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular... activity.' The Engineering Practice Hurdle is a compulsory graduation gate, but its three satisfying routes are STEP (not documented in the extract as a workplace placement), an internship subject that is itself listed among the Year 3 general elective pool rather than core, and an employer-agreed internship explicitly held 'without receiving University credit' (outside formal University assessment). None of the three routes is documented as a core unit placing all students in a supervised, assessed workplace setting as level 2 requires — scored at the lower level per the ambiguity rule.",
+    "evidenceLines": [
+      "Skills Towards Employment Program (STEP)",
+      "ENGR90033 Internship subject",
+      "An agreed level of internship at an approved engineering form (without receiving University credit)",
+      "Students will be introduced early in their degree to the online e-portfolio system as a way of documenting their attainment of graduate attributes which accord with University and professional accreditation standards."
+    ]
+  },
+  "workplace": 5,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents an accredited, largely compulsory specialist core with staged progression across three years and cross-year prerequisite dependencies.",
+      "evidenceLines": [
+        "The Master of Digital Infrastructure Engineering has provisional accreditation from Engineers Australia.",
+        "The Master of Digital Infrastructure Engineering is fully accredited by EUR-ACE (EURopean- ACcredited Engineer).",
+        "87.5 credit points of Year 1 compulsory subjects",
+        "There may be, however, be some flexibility between Year 2 and 3 core subjects, depending on the requisites set between them."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "A core unit is dedicated to risk analysis and management under uncertainty, assessed via exam and assignments, and another core unit's assessment explicitly addresses trade-off decision-making.",
+      "evidenceLines": [
+        "This subject will focus on how risk analysis and management principles and techniques can be applied to engineering projects.",
+        "ILO3 - Develop a plan for managing risks and opportunities by implementing AS ISO 31000:2018 risk management standards",
+        "students will gain a holistic understanding of the complexities of – and potential trade-offs in – decision-making, including considerations of social equity, quality of life and wellbeing."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1: recurring assessed group projects with individual accountability satisfy level 3's first clause, but no assessment documents coordinating work across people AND tools/AI systems as level 3's second clause requires — scored at the lower level 2.",
+    "C2: reflection appears in course-level outcomes (level 1 clause met); a structured-critique-style assessment exists only in a Year 1 selective (not a guaranteed core unit) — scored at the lower level 1.",
+    "C3: a core unit's outcomes list machine learning as a risk-analysis technique, which could suggest core AI-capability content (level 2), but it is not shown paired with assessed AI limitations/ethics discussion — scored at the lower level 1.",
+    "C4: the capstone's 'Formulate a project' outcome and group scoping report could indicate a self-scoped capstone (level 3), but the subject is framed as 'real-world, client-driven,' suggesting an externally supplied brief — scored at the lower level 2.",
+    "C5: a core fieldwork assignment pairs with a separate Oral Exam, which could be read as methodology defended under scrutiny (level 3), but the oral exam's stated ILO coverage is not clearly tied to defending that fieldwork's methodology — scored at the lower level 2.",
+    "W1: two core units frame assessed work as 'client-driven'/'to a client,' which could indicate a real external audience (level 3), but the extract never confirms this is a genuine external party or names an external practitioner/industry panel — scored at the lower level 2.",
+    "W2: professional-artefact tasks recur across Year 1-3 core units, which could constitute an assessment spine (level 3's first clause), but no task is documented with a genuine constraint of practice (level 3's second clause) — scored at the lower level 2.",
+    "W3: the compulsory Engineering Practice Hurdle could indicate a required work-situated-learning route (level 2), but each of its three satisfying routes is individually either not documented as placement, listed as an elective subject, or explicitly non-credit/unassessed by the University — scored at the lower level 1."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

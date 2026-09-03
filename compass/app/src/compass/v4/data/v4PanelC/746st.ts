@@ -1,0 +1,138 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor 'at least one core unit assesses collaborative practice — group projects with individual accountability': the core unit CVEN90035 assesses two group design reports in groups of five with a per-student workload equivalence (1500 and 500 words per student), i.e. group work with individual accounting. It does not reach level 3, which requires that assessed collaborative practice RECURS across the program AND that at least one assessment requires coordinating work across people AND tools/AI systems: the other core unit (CVEN90024) assesses only individual assignments and an exam, so collaboration sits in one of two core units, and nothing in the extract documents assessed role or tool allocation, or a division of work between people and systems. The teamwork statements in the CVEN90024 generic-skills list are outcome-level claims, which R2 caps at level 1 on their own.",
+    "evidenceLines": [
+      "One group design report in groups of 5 students. Equivalent to 1500 words per student, 35 hours. Intended Learning outcomes (ILOs) 2, 3, 4 and 5 are addressed in this assessment.",
+      "ILOs 3and 5 are addressed in this assessment.",
+      "A 2500 word assignment. ILOs 2 to 5 and 9 to 12 are addressed in this assignment.",
+      "One written examination. ILOs 1 to 12 are addressed in this examination.",
+      "Ability to function effectively as an individual and in multidisciplinary and multicultural teams, as a team leader or manager as well as an effective team member."
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Matches the level-1 anchor exactly: 'Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria.' The program outcome claims critical reflection on theory and professional practice, but the two core units' assessment schedules (CVEN90035: two group design reports plus a written exam; CVEN90024: two assignments plus a written exam) contain no peer review, structured critique, portfolio against standards or marking against exemplars, so the level-2 requirement of criterion-referenced appraisal of quality in CORE assessment is not documented. Level 3 (documented and justified reliance decisions on a tool, source or collaborator) is not met anywhere in the core; the nearest evidence — independent hand-check of software output — sits in a selective, not the core.",
+    "evidenceLines": [
+      "Cognitive skills to demonstrate mastery of theoretical knowledge and to reflect critically on theory and professional practice of structural engineering;",
+      "One written three hour end-of-semester examination. ILOS 1 to 5 are addressed in this assessment.",
+      "One written examination. ILOs 1 to 12 are addressed in this examination.",
+      "ILO 9. Undertake independent checks of analysis results by hand calculations in support of structural engineering practice."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Matches the level-1 anchor 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable.' Both core units document digital-tool operation only: computer/finite-element modelling and structural analysis using a commercial package. The level-2 requirement that core units address AI capabilities AND limitations/ethics, with use-with-limits discussed and assessed, is absent — the extract contains no gen-AI or AI-ethics content in either core unit or in any program-level outcome, and therefore no level-3 critique or governance of AI systems (bias, accountability, transparency, regulation, data governance) either.",
+    "evidenceLines": [
+      "Develop computer models for analysing structural systems in buildings",
+      "Undertake structural analyses of different types of structures using commercial package",
+      "Application of finite element analysis and design methods for modular and prefabricated buildings and steel structures under fires are also introduced to provide students with comprehensive knowledge of modern construction methods.",
+      "Skills acquired from the above topics will be integrated and applied to the assignment which consists of a detailed analysis of a typical high rise building."
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Matches the level-1 anchor 'Transfer is claimed in outcomes (\"apply knowledge in new settings\") but not assessed': the course outcomes claim application of established theories to different bodies of knowledge or practice, creativity and initiative in new situations, and planning and executing a substantial piece of scholarship. Level 2 requires at least one CORE assessment to require application to novel or unfamiliar problems (case variation, unseen datasets, cross-context projects); the documented core tasks are a detailed analysis of a typical high rise building and design reports within the taught content, which the extract does not document as novel or unfamiliar. Level 3 fails outright: the 746ST structure contains no self-scoped capstone or research project in the core (its core is two taught subjects) and no assessed identification of one's own knowledge gaps with a plan to close them.",
+    "evidenceLines": [
+      "Cognitive, technical and creative skills to investigate, analyse and synthesise complex information, problems, concepts and theories and to apply established theories to different bodies of knowledge or practice in structural engineering;",
+      "With creativity and initiative to new situations in professional practice and/or for further learning;",
+      "To plan and execute a substantial piece of scholarship.",
+      "Skills acquired from the above topics will be integrated and applied to the assignment which consists of a detailed analysis of a typical high rise building.",
+      "Students must complete 100 points. This consists of a 2 subjects (25 points) which are selected from the Core Subjects, a minimum of 3 subjects (37.5 points) from Structural Engineering selectives and up to 3 subjects are selected from the Infrastructure Engineering electives."
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Matches the level-1 anchor 'Introductory methods unit; literature-review assessment' — research training exists but only off the core: the outcome states students will have HAD THE OPPORTUNITY to develop research principles and methods, research subjects are available only by approval among electives, and the only documented research-genre assessment in the extract (a 2000-word critical literature review) sits in an Infrastructure Engineering elective. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; neither core unit does this — both are taught design subjects assessed by design reports, assignments and exams. Level 3 fails because no substantial primary-evidence project is REQUIRED and no methodology defence (viva, defence, staged supervised review) is documented.",
+    "evidenceLines": [
+      "Had the opportunity to develop research principles and methods in the field of structural engineering;",
+      "Students may also choose one Infrastructure Engineering elective subject not in the list below. Research subjects are subject to approval.",
+      "One critical literature review of approximately 2000 words. ILOs 1, 2 and 5 are addressed in the review",
+      "Must complete both of the core subjects. Total of 25 points."
+    ]
+  },
+  "adaptiveness": 6,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1's first clause is squarely met — communication to engineering and non-engineering audiences appears in the course outcomes, and communicating effectively appears in the subjects' generic-skills lists, which under R2/Barrie cannot themselves lift the score. Level 2 requires at least one core assessment in a recognised professional genre OR to an audience beyond the teaching team, judged against criteria drawn from professional practice; the core assessment stock is group design reports, written assignments and closed examinations submitted to the marker, and while the design reports are code-based, the extract documents no audience beyond the teaching team, no assessed professional-conduct criteria and no spoken or oral assessment in either core unit. Level 3 (repeated, progressive professional communication with a real external audience or practitioner judge) is not documented at all.",
+    "evidenceLines": [
+      "Communication and technical research skills to justify and interpret theoretical propositions, methodologies, conclusions and professional decisions to engineering and non-engineering audiences;",
+      "One group design report in groups of 5 students. Equivalent to 1500 words per student, 35 hours. Intended Learning outcomes (ILOs) 2, 3, 4 and 5 are addressed in this assessment.",
+      "A 500 word assignment. Intended Learning Outcomes (ILOs) 2 to 5 and 9 to 12 are addressed in this assignment.",
+      "One written three hour end-of-semester examination. ILOS 1 to 5 are addressed in this assessment."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor 'at least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice.' The core unit CVEN90035 assesses a group design report against outcomes that include applying Australian design codes and undertaking preliminary and detailed design — a design report judged against the profession's own codes is the artefact a structural engineer produces. Per R4 the phrase 'real-world structures' is not itself scored; the documented features (design report, code compliance, detailed design) carry the score. Level 3 is not reached: such tasks are not the assessment spine — both core units are weighted 60% and 70% to closed written examinations, with design tasks as a minority component and no documented scaffolded sequence or stage-by-stage recurrence, and no genuine constraint of practice (ambiguous or externally supplied problem, real resource/time limit, consequential audience) is documented.",
+    "evidenceLines": [
+      "One group design report in groups of 5 students. Equivalent to 1500 words per student, 35 hours. Intended Learning outcomes (ILOs) 2, 3, 4 and 5 are addressed in this assessment.",
+      "Apply Australian design codes to design steel and composite structures",
+      "Undertake preliminary and detailed design of real-world structures",
+      "Students will also experience design exercises of real-world structures from senior experienced practising engineers, which will place them at the forefront of both theory and practice.",
+      "One written three hour end-of-semester examination. ILOS 1 to 5 are addressed in this assessment.",
+      "One written examination. ILOs 1 to 12 are addressed in this examination."
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Matches the level-0 anchor 'No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure.' The 746ST course structure is 25 points of two taught core subjects, a minimum of 37.5 points of Structural Engineering selectives and up to 37.5 points of Infrastructure Engineering electives; none of the listed subjects is a placement, practicum, internship or community-based project, and no practitioner supervision in a workplace setting is documented anywhere for this course. Level 1 would require work-situated learning to exist at least as an elective or optional internship, which the 746ST subject lists do not contain.",
+    "evidenceLines": [
+      "Students must complete 100 points. This consists of a 2 subjects (25 points) which are selected from the Core Subjects, a minimum of 3 subjects (37.5 points) from Structural Engineering selectives and up to 3 subjects are selected from the Infrastructure Engineering electives.",
+      "Must complete both of the core subjects. Total of 25 points.",
+      "Select a minimum of 3 subjects from the following list. Total of 37.5 points.",
+      "Select up to 3 subjects from the following list. Total of 37.5 points.",
+      "Students may also choose one Infrastructure Engineering elective subject not in the list below. Research subjects are subject to approval."
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The gate PASSES on the 'coherent specialist core' route rather than the all-compulsory route: content is unmistakably structural-engineering-specific, not the generic or interchangeable content the FAIL condition names. Two compulsory structural subjects (25 points) plus a mandatory minimum of three subjects (37.5 points) drawn from a closed Structural Engineering selectives list constrain 62.5 of 100 points to the discipline, the stated major themes are structural, and the core documents build-on-prior-knowledge progression. Noted weakness against the anchor: only 25 of 100 points are all-compulsory and no staged prerequisite chain within the course is documented, so this is a PASS at the lower end.",
+      "evidenceLines": [
+        "The major themes of this course are: structural systems, conceptual design, sustainable design, extreme loading and advanced analysis techniques.",
+        "Must complete both of the core subjects. Total of 25 points.",
+        "Select a minimum of 3 subjects from the following list. Total of 37.5 points.",
+        "The subject builds on fundamental structural engineering knowledge and when learnt together with other structural engineering electives will provide students who successfully complete the subjects a well-rounded knowledge of a range of structural engineering design skills."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The gate PASSES on the 'assessments require defended trade-off decisions' route and clearly avoids the FAIL condition of recall or scripted responses only. Core assessment in CVEN90024 (a 500-word and a 2500-word assignment addressing ILOs 2 to 5) requires developing conceptual designs of floor systems and of lateral load resisting systems — selection among competing structural systems under wind and earthquake loading — and the core CVEN90035 group design report requires preliminary and detailed design against Australian codes. The course frames its outcomes on complex, open-ended engineering tasks and problems. Noted limit: no viva, defence or documented adversarial scrutiny of the trade-offs appears in the extract, so the 'defended' element rests on the design-decision content of the assignments rather than on a documented defence event.",
+      "evidenceLines": [
+        "The Master of Engineering Structures aims to produce graduates who are both skilled in structural engineering principles and have the ability to apply them to complex, open-ended engineering tasks and problems.",
+        "Develop conceptual designs of floors using different floor systems",
+        "Develop conceptual designs of lateral load resisting systems for buildings",
+        "A 2500 word assignment. ILOs 2 to 5 and 9 to 12 are addressed in this assignment.",
+        "Undertake preliminary and detailed design of real-world structures"
+      ]
+    }
+  },
+  "ambiguities": [
+    "Scope of 'core'. The extract also contains the course-structure page for a DIFFERENT course, the Master of Engineering Structural specialisation (mc-eng-spec-17, 300 points), whose core includes ENGR90037/ENGR90038 Engineering Capstone Project and whose elective list includes ENGR90033 Internship, and it contains the subject and assessment pages for that course's core (CVEN30008, CVEN30009, ENEN20002, ENGR20004, ENGR30002, MAST20029). 746ST's own structure page defines its core as exactly two subjects, CVEN90024 and CVEN90035. R1 (score what the handbook documents for this program) resolved this: only CVEN90024 and CVEN90035 were treated as core for 746ST, and the capstone and internship of the other course were NOT scored in C4, C5 or W3. Had the mc-eng-spec-17 core been treated as 746ST's, C4/C5 (capstone) and W3 (elective internship) would score higher.",
+    "C4 straddled levels 1 and 2. The core CVEN90035 group design report addresses 'Undertake preliminary and detailed design of real-world structures', which could be read as application to a novel problem (level 2), but the extract documents no feature establishing the problem as novel or unfamiliar, and the CVEN90024 assignment is explicitly an integration of the taught topics onto a typical high rise building. Scoring direction (never resolve ambiguity upward) fixed it at 1.",
+    "C5 straddled levels 0 and 1. Level 0 asserts 'no research-methods training', which is too strong given the outcome 'Had the opportunity to develop research principles and methods' and the availability of approved research subjects and an elective critical literature review; level 1's anchor ('introductory methods unit; literature-review assessment') is the better fit even though none of it is core. Scored 1, the lower of the two levels that could describe an inquiry-capable program, with the note that nothing in the core assesses inquiry.",
+    "W1 straddled levels 1 and 2. A code-compliant structural design report is arguably a recognised professional genre judged against criteria drawn from practice (level 2), but no audience beyond the teaching team, no assessed conduct criteria and no oral or spoken assessment appear in either core unit. Scoring direction fixed it at 1; the report's task fidelity was scored in W2 instead, per 'one construct, one home'.",
+    "W2 straddled levels 2 and 3. Design-report tasks appear in both core units, which could be read as a spine, and 'Apply Australian design codes' is the profession's own standard of performance. But examinations carry 60% and 70% of the two core units and no scaffolded progression or capstone is documented, so the tasks are not the assessment spine. Scored 2.",
+    "C2 versus C3 boundary. CVEN90018 ILO 9 ('Undertake independent checks of analysis results by hand calculations') is the strongest reliance-on-a-tool evidence in the extract and would be C2 rather than C3 material, but CVEN90018 is a Structural Engineering selective, not core, so it could not satisfy C2 level 2 or 3, both of which require core assessment.",
+    "Selectives are not core. Students must take a minimum of three from the five Structural Engineering selectives but no individual selective is required of every student, so selective evidence (e.g. the CVEN90016 group laboratory experiment, the CVEN90017 group assignments) was not used to satisfy anchors worded 'core unit' or 'core assessment'."
+  ],
+  "notScoreable": [
+    "W1 level-1's second clause (whether core assessment adds a presentation to peers or staff) could not be verified positively or negatively for professional CONDUCT criteria: the extract's core assessment tables list description, timing and percentage only, and carry no marking criteria, so no statement about assessed standards of reliability, ethics or accountability is available for either core unit.",
+    "C3's AI dimension has no evidence of any kind in the 746ST core: the extract documents no gen-AI content, AI ethics, or AI governance in CVEN90024 or CVEN90035 or in the course-level outcomes. The level-1 score rests on documented digital-tool operation, not on any AI evidence; a program-level AI statement, if one exists, is absent from this extract."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-14"
+  }
+};
+
+export default record;

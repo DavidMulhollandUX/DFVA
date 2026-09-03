@@ -498,13 +498,24 @@ function appRubricModule(): string {
  * label. The exposure median is unchanged by v4 — Panel A is untouched — so it
  * is inherited rather than recomputed.
  *
- * Renders TWO modules, not one: `v4Meta.ts` (light — types, V4_META,
- * V4_RESEARCH_DEGREES, and the new V4_INDEX bare-score spine) and
- * `v4PanelC.ts` (heavy — V4_ONLY_PROGRAMS, V4_PANEL_A_BASIS and the 28,000-line
- * V4_PANEL_C rationale/evidence map). The landing page, /reports and /insights
- * import only the former; only the report page imports the latter.
+ * Renders a family of modules under compass/app/src/compass/v4/data/:
+ *   - `v4Meta.ts` (light — types, V4_META, V4_RESEARCH_DEGREES and the
+ *     V4_INDEX bare-score spine) — every route may import it.
+ *   - `v4Basis.ts` (V4_ONLY_PROGRAMS and V4_PANEL_A_BASIS) — the report page.
+ *   - `v4PanelC/<code>.ts` — one program's full Panel C record, its own Vite
+ *     chunk; `v4PanelC/index.ts` holds the lazy loaders the report page uses.
+ *   - `v4PanelC.ts` — the eager map over every per-program module, for
+ *     scripts and tests only. A client import of it would put the whole
+ *     3.4 MB of rationale text back on the report route; the bundle budget
+ *     (V4ReportPage) fails CI if that happens.
  */
-export async function appV4DataModules(): Promise<{ meta: string; panelC: string }> {
+export async function appV4DataModules(): Promise<{
+  meta: string
+  basis: string
+  panelC: string
+  programs: Record<string, string>
+  loaders: string
+}> {
   const evidenceDir = path.join(repoRoot, 'dfva', 'source', 'evidence')
   const results: Record<string, { adaptiveness?: number; workplace?: number }> = {}
   for (const f of (await fs.readdir(evidenceDir)).sort()) {
@@ -840,13 +851,16 @@ export async function appV4DataModules(): Promise<{ meta: string; panelC: string
     `export const V4_INDEX: Record<string, V4IndexEntry> = ${JSON.stringify(v4Index, null, 2)};\n\n` +
     'export const v4IndexByCode = (code: string): V4IndexEntry | undefined =>\n  V4_INDEX[code.toLowerCase()];\n'
 
-  const panelCSource =
-    TS_BANNER +
+  const TYPE_REEXPORT =
     '// Types are canonical in v4Meta.ts (the light module every route may import);\n' +
-    '// re-exported here so a heavy-path file can import both a type and a value\n' +
-    '// from this one specifier without also naming v4Meta.ts.\n' +
-    'export type {\n  V4Adjudication,\n  V4ItemResult,\n  V4GateResult,\n  V4PanelC,\n  V4PanelATier,\n  V4PanelAGrain,\n  V4PanelABasis,\n  V4OnlyProgram,\n} from "./v4Meta";\n' +
-    'import type { V4PanelABasis, V4OnlyProgram, V4PanelC } from "./v4Meta";\n\n' +
+    '// re-exported here so a file can import both a type and a value from this\n' +
+    '// one specifier without also naming v4Meta.ts.\n' +
+    'export type {\n  V4Adjudication,\n  V4ItemResult,\n  V4GateResult,\n  V4PanelC,\n  V4PanelATier,\n  V4PanelAGrain,\n  V4PanelABasis,\n  V4OnlyProgram,\n} from "./v4Meta";\n'
+
+  const basisSource =
+    TS_BANNER +
+    TYPE_REEXPORT +
+    'import type { V4PanelABasis, V4OnlyProgram } from "./v4Meta";\n\n' +
     '/** Panel A basis and exposure data for programs scored on v4 but absent from\n' +
     ' *  the v3 registry (docs: no taught curriculum, or scored ahead of a v1\n' +
     ' *  report). Read only by the report page — /reports and /insights use the\n' +
@@ -858,17 +872,51 @@ export async function appV4DataModules(): Promise<{ meta: string; panelC: string
     ' *  v4Meta.ts for the light routes; this full object is for the report page. */\n' +
     `export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = ${JSON.stringify(panelABasis, null, 2)};\n\n` +
     'export const v4PanelABasisByCode = (code: string): V4PanelABasis | undefined =>\n  V4_PANEL_A_BASIS[code.toLowerCase()];\n\n' +
-    'export const v4OnlyProgramByCode = (code: string): V4OnlyProgram | undefined =>\n  V4_ONLY_PROGRAMS[code.toLowerCase()];\n\n' +
-    '/** Full per-program Panel C v4 results — every item\'s rationale and evidence\n' +
-    ' *  lines, ambiguities, verification. This is the 28,000-line body that made\n' +
-    ' *  this module a 3.3 MB chunk on every route; only the report page\n' +
-    ' *  (V4ReportPage.tsx and v4/report/*) may import it. /reports and /insights\n' +
-    ' *  use V4_INDEX in v4Meta.ts, which carries the bare scores this map holds\n' +
-    ' *  with the rationale and evidence stripped out. */\n' +
-    `export const V4_PANEL_C: Record<string, V4PanelC> = ${JSON.stringify(results, null, 2)};\n\n` +
+    'export const v4OnlyProgramByCode = (code: string): V4OnlyProgram | undefined =>\n  V4_ONLY_PROGRAMS[code.toLowerCase()];\n'
+
+  // One module per program: the full Panel C record (every item's rationale
+  // and evidence lines, ambiguities, verification). Each is its own Vite chunk,
+  // so a report page downloads one program's ~100 kB instead of the 3.4 MB map.
+  const codes = Object.keys(results)
+  const programs: Record<string, string> = {}
+  for (const code of codes) {
+    programs[code] =
+      TS_BANNER +
+      'import type { V4PanelC } from "../v4Meta";\n\n' +
+      `const record: V4PanelC = ${JSON.stringify(results[code], null, 2)};\n\n` +
+      'export default record;\n'
+  }
+  const ident = (code: string): string => 'p_' + code.replace(/-/g, '_')
+
+  const loadersSource =
+    TS_BANNER +
+    'import type { V4PanelC } from "../v4Meta";\n\n' +
+    '// Lazy per-program loaders: the report page imports these, never the eager\n' +
+    '// ../v4PanelC.ts map, so the browser fetches only the record it renders.\n' +
+    'export const V4_PANEL_C_LOADERS: Record<\n  string,\n  () => Promise<{ default: V4PanelC }>\n> = {\n' +
+    codes.map((c) => `  ${JSON.stringify(c)}: () => import(${JSON.stringify('./' + c)}),`).join('\n') +
+    '\n};\n\n' +
+    'export const hasV4PanelC = (code: string): boolean =>\n  code.toLowerCase() in V4_PANEL_C_LOADERS;\n\n' +
+    'export async function loadV4PanelC(code: string): Promise<V4PanelC | undefined> {\n' +
+    '  const loader = V4_PANEL_C_LOADERS[code.toLowerCase()];\n' +
+    '  return loader ? (await loader()).default : undefined;\n}\n'
+
+  const panelCSource =
+    TS_BANNER +
+    '// Eager map over every per-program module, for scripts and tests. The client\n' +
+    '// never imports this file: the report page loads one record through\n' +
+    '// ./v4PanelC/index, and the V4ReportPage bundle budget fails CI if this map\n' +
+    '// reaches the browser.\n' +
+    TYPE_REEXPORT +
+    'export {\n  V4_ONLY_PROGRAMS,\n  V4_PANEL_A_BASIS,\n  v4OnlyProgramByCode,\n  v4PanelABasisByCode,\n} from "./v4Basis";\n' +
+    'import type { V4PanelC } from "./v4Meta";\n' +
+    codes.map((c) => `import ${ident(c)} from ${JSON.stringify('./v4PanelC/' + c)};`).join('\n') +
+    '\n\nexport const V4_PANEL_C: Record<string, V4PanelC> = {\n' +
+    codes.map((c) => `  ${JSON.stringify(c)}: ${ident(c)},`).join('\n') +
+    '\n};\n\n' +
     'export const v4PanelCByCode = (code: string): V4PanelC | undefined =>\n  V4_PANEL_C[code.toLowerCase()];\n'
 
-  return { meta: metaSource, panelC: panelCSource }
+  return { meta: metaSource, basis: basisSource, panelC: panelCSource, programs, loaders: loadersSource }
 }
 
 async function main(): Promise<void> {
@@ -880,8 +928,24 @@ async function main(): Promise<void> {
     ['dfva/dist/v4/recommend-template-v4.md', recommendTemplate()],
     ['compass/app/src/compass/v4/data/v4Rubric.ts', appRubricModule()],
     ['compass/app/src/compass/v4/data/v4Meta.ts', v4Data.meta],
+    ['compass/app/src/compass/v4/data/v4Basis.ts', v4Data.basis],
     ['compass/app/src/compass/v4/data/v4PanelC.ts', v4Data.panelC],
+    ['compass/app/src/compass/v4/data/v4PanelC/index.ts', v4Data.loaders],
   ])
+  for (const [code, content] of Object.entries(v4Data.programs)) {
+    out.set(`compass/app/src/compass/v4/data/v4PanelC/${code}.ts`, content)
+  }
+  // A program removed from the evidence set must lose its module too, or the
+  // eager map and the loaders would disagree with what is on disk.
+  const programDir = path.join(repoRoot, 'compass/app/src/compass/v4/data/v4PanelC')
+  await fs.mkdir(programDir, { recursive: true })
+  for (const f of await fs.readdir(programDir)) {
+    const rel = `compass/app/src/compass/v4/data/v4PanelC/${f}`
+    if (f.endsWith('.ts') && !out.has(rel)) {
+      await fs.rm(path.join(programDir, f))
+      console.log('removed', rel)
+    }
+  }
   for (const [rel, content] of out) {
     const abs = path.join(repoRoot, rel)
     await fs.mkdir(path.dirname(abs), { recursive: true })

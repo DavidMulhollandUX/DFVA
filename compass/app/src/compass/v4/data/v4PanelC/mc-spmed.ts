@@ -1,0 +1,141 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 requires 'At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity.' SMED90002 (core) documents an assessed 'Simulated Case Conference(s) - Discussion Report and Reflective Analysis' (30%, Week 3) built on interdisciplinary case conferences with expert feedback — an assessed interprofessional activity. Level 3 additionally requires this to recur across the program AND at least one assessment to require coordinating work across people AND tools/AI systems; no assessed division of work between people and AI/digital tools appears anywhere in the extract, so level 3 is not met.",
+    "evidenceLines": [
+      "Interdisciplinary Case Conferences are simulated, including contribution and feedback from Experts in relevant fields.",
+      "This provides opportunity for interdisciplinary scrutiny, contribution and reflection on best practice in sports and exercise case-management.",
+      "Simulated Case Conference(s) - Discussion Report and Reflective Analysis",
+      "1500 words",
+      "Week 3\t30%"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 requires 'Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars.' REHB90010 (core) assesses a 'Critical Appraisal of Research' task (30%), a structured-critique form. Level 3 requires assessment that documents and justifies reliance decisions on a tool/source/collaborator, defends AI-output judgements, or evidences strategy adjustment over time; none of this appears anywhere in the extract. REHB90007's mention of a peer-review opportunity is not among its graded assessment items, so per R2 it does not independently support the level.",
+    "evidenceLines": [
+      "Critical Appraisal of Research",
+      "1500 words",
+      "Week 5\t30%",
+      "There is structured opportunity for peer review of the rehabilitation program design, critical review of the context and reflection on practice."
+    ]
+  },
+  "C3": {
+    "score": 0,
+    "rationale": "Level 0: 'No digital/AI content in any core unit or program-level outcome.' No subject — core or elective — mentions artificial intelligence, machine learning, or any digital-literacy/governance content anywhere in the extract. REHB90009 (elective, not core) discusses 'innovative and contemporary technology' for measurement/diagnosis/prescription generically, without AI framing, and as an elective would not satisfy level 2's 'Core units' requirement regardless.",
+    "evidenceLines": [
+      "This subject will introduce students to innovative and contemporary technology that has been recently developed and is currently used in clinical practice and research for the purposes of measurement, diagnosis and prescription."
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Demoted from level 3 on verification: the only assessment evidence cited for level 3's 'assessed identification of one's own knowledge gaps together with the plan to close them' — MEDI90092's (core) graded 'Life-long Learning & Professional Development – Reflective Analysis Report' (20%, Week 4) — was inferred to satisfy that anchor purely by title correspondence with the paired outcome 'Critically appraise self-knowledge and construct an individual learning plan', without the extract capturing the task's actual instructions; per R2 this is a thin outcome-to-assessment bridge, not documented assessment evidence, and the ambiguity rule defaults to the lower level. Level 2 is independently well supported by case-variation/cross-context tasks assessed across MEDI90092, SMED90001, PSYC90108 and MEDI90089. The program overview's compulsory capstone ('plan and execute a substantial research-based project, OR capstone experience OR piece of scholarship') gestures at the anchor's self-scoped-capstone route for level 3, but the capstone's own assessment tasks were not captured in this extract, so it cannot independently support level 3 either.",
+    "evidenceLines": [
+      "Critically appraise self- knowledge and construct an individual learning plan to extending theory & practice in the context of managing the modern athlete",
+      "Life-long Learning & Professional Development – Reflective Analysis Report",
+      "1000 words",
+      "Week 4\t20%",
+      "The capstone component is designed to demonstrate the application of knowledge and skills to: plan and execute a substantial research-based project, OR capstone experience OR piece of scholarship, in the area of sports medicine, ensuring that this program meets AQF level 9 requirements."
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1: 'Introductory methods unit; literature-review assessment.' Level 2 additionally requires students to 'design and conduct an inquiry with methodology selection and data collection, assessed' — both design and execution. REHB90010 (core) assesses a 'Research proposal' (2000 words, 40%) requiring 'development of PICO questions, selection of appropriate research methodology and measurement tools,' satisfying the design/methodology-selection half, but the extract shows no assessed conduct of the proposed inquiry or actual data collection, so the ambiguity between levels 1 and 2 is resolved to the lower level.",
+    "evidenceLines": [
+      "Research and evidence informs best practice and innovation in health care. This subject will provide graduates with an opportunity to extend their understanding of evidence based practice and research methodology, including research ethics.",
+      "Write a research proposal, including development of PICO questions, selection of appropriate research methodology and measurement tools and demonstrate advanced knowledge of the ethical requirements for research implementation.",
+      "Research proposal",
+      "2000 words",
+      "Week 9\t40%"
+    ]
+  },
+  "adaptiveness": 7,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1: 'core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team.' Presentations are assessed across multiple core units (SMED90001's 'Digital Presentation - Injury Prevention & Performance Enhancement (STREAM)', 20%; PSYC90108's 'Presentation', 15%), but nothing in the extract documents these being judged by, or delivered to, a real external audience or practitioner panel as level 2 requires ('client brief, consultancy or policy advice, clinical handover, pitch, public-facing artefact — judged against criteria drawn from professional practice').",
+    "evidenceLines": [
+      "Digital Presentation - Injury Prevention & Performance Enhancement (STREAM)",
+      "10 minutes",
+      "Week 7\t20%",
+      "Presentation",
+      "10 minutes",
+      "Week 7\t15%"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1: 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic.' Every core unit's graded work is built on case studies (e.g. MEDI90089's 'Case Study - Diagnosis in Practice', 30%) marked as written reports/essays rather than the artefact a practitioner would actually produce. No assessed task in the extract documents reproducing 'a professional task end to end ... judged against criteria drawn from practice' as level 2 requires.",
+    "evidenceLines": [
+      "Case Study - Diagnosis in Practice",
+      "1500 words",
+      "Week 4\t30%"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1: 'Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity.' REHB90005 (listed under 'Elective subjects', not core) assesses students to 'design and evaluate a rehabilitation program in their own context' — work-situated application confined to an elective. No core unit in the extract documents placement, practicum, or (per the v4.2 in-practice route, relevant since the program is 'designed for practicing clinicians') assessed own-practice activity with real recipients and a documented outcome measure, so level 2 is not reached.",
+    "evidenceLines": [
+      "Students will design and evaluate a rehabilitation program in their own context and will contribute to the learning of other students via discussion board and an online presentation.",
+      "It is designed for practicing clinicians as it can be studied part time or full time and has several exit points within its nested structure."
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS anchor: 'an all-compulsory specialist core ... or a staged prerequisite chain.' The program documents 7 compulsory core subjects (87.5 of 150 points) spanning the discipline (diagnosis, injury pathophysiology, biomechanics, psychology, research methods) with core completion required before the capstone — a staged, all-compulsory specialist core.",
+      "evidenceLines": [
+        "Students complete 7 core subjects (87.5 points), 3 elective subjects (37.5 points), and a Capstone Requirement (25 points).",
+        "Successful completion of the core subjects is pre-requisite to undertaking the Capstone."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS anchor: 'Assessments require defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability.' Core units repeatedly assess justified clinical decision-making under case uncertainty, e.g. SMED90002's outcome to justify the management plan in an interdisciplinary forum and MEDI90089's differential-diagnosis clinical reasoning, both tied to graded case-based assessment tasks.",
+      "evidenceLines": [
+        "Articulate, discuss and justify decisions defining the sports medicine management plan in an interdisciplinary professional forum",
+        "Critically apply clinical reasoning models including hypothetico-deductive and clinical pattern recognition to differential diagnosis in sports medicine contexts"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1: 'Contribution to online discussions' is assessed in nearly every subject (10-20%) but is individual forum participation, not team-based collaborative practice with individual accountability, so it is not counted as C1 evidence; the score instead rests on SMED90002's assessed 'Simulated Case Conference(s)'. Recurrence and tool/AI coordination required for level 3 are absent, so scored at level 2.",
+    "C2: REHB90010's assessed 'Critical Appraisal of Research' is scored as C2's 'structured critique' (level 2), though it concerns critique of published research/evidence quality rather than appraisal of a produced work (own, peer, or tool output) as C2's construct more narrowly implies; read the other way this could belong to a general evidence-literacy construct outside the eight items, in which case C2 would score 1.",
+    "C4: verified demotion from level 3 to level 2 — the level-3 reading rested on MEDI90092's assessed 'Life-long Learning & Professional Development – Reflective Analysis Report' satisfying the anchor's 'assessed identification of one's own knowledge gaps together with the plan to close them' purely by title correspondence with the paired outcome, not documented assessment instructions; the ambiguity rule defaults to the lower level, which case-variation/cross-context tasks in MEDI90092, SMED90001, PSYC90108 and MEDI90089 independently support.",
+    "C5: REHB90010's 'Research proposal' documents methodology selection (including PICO question development) but the extract shows no evidence students actually conduct the inquiry or collect data, which level 2 requires alongside design; resolved to the lower level 1.",
+    "W1: SMED90002's Simulated Case Conference(s) involves 'contribution and feedback from Experts in relevant fields', gesturing toward an audience beyond the teaching team, but the module and its graded artefact (a written discussion report/reflective analysis) are explicitly described as 'simulated'; resolved to level 1 rather than 2.",
+    "W2: case-based assessments recur through every core subject and are contextualised/scenario-framed, but the graded artefacts are written reports/essays rather than the artefact a practitioner would actually produce judged against practice criteria; resolved to level 1.",
+    "W3: work-situated learning evidence is confined to REHB90005, an elective, matching level 1's 'exists only as an elective' clause; the program's description as designed 'for practicing clinicians' could support an in-practice route at level 2-3 if a core unit assessed own-practice activity with real recipients and a documented outcome measure, but no such core-unit evidence appears in the extract."
+  ],
+  "notScoreable": [
+    "The compulsory Capstone Requirement (MEDI90091 Sports Medicine Research Project, MEDI90090 Sports Medicine Professional Project — 25 points) is described only at the program-overview level; the subjects' own handbook pages (learning outcomes, assessment tasks) were not captured in this extract. This limits confidence in C1 level 3's team-capstone route, C5 level 3 (even if MEDI90091 involves primary data collection, it is one of two elective capstone routes rather than a required one, so would not itself satisfy level 3's 'required, not one route among several' condition), and W2/W3's capstone-as-spine or in-practice evidence.",
+    "Three elective subjects on the course-structure list (PHRM90022 Sports Pharmacotherapeutics, PHTY90114 Physiotherapy Advanced Clinical Practice, PHTY90126 Podiatry Advanced Clinical Practice) have no subject-level pages in the extract; as electives they would not affect the core-unit-gated items regardless."
+  ],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-30"
+  }
+};
+
+export default record;

@@ -1,6 +1,6 @@
 /**
  * Shared name resolution from the GENERATED v4 registry
- * (compass/app/src/compass/v4/data/v4PanelC.ts). One parse, three consumers:
+ * (compass/app/src/compass/v4/data/v4Basis.ts). One parse, three consumers:
  * capture identity and subject scope in dfva-v4-verify-evidence.ts, and the
  * report-title guard in check-report-format.ts.
  *
@@ -15,7 +15,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 
 export function loadV4Names(): Map<string, string> {
   const panelSrc = readFileSync(
-    path.join(ROOT, 'compass/app/src/compass/v4/data/v4PanelC.ts'),
+    path.join(ROOT, 'compass/app/src/compass/v4/data/v4Basis.ts'),
     'utf8',
   )
   const names = new Map<string, string>()

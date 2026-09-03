@@ -1,0 +1,126 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Anchor L1: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' Teamwork appears only as a program-level generic-skill/graduate-attribute claim; every assessment item in the extract is individual (assignments, presentations) or plain 'class participation' — no group project, client work, or interprofessional activity is assessed anywhere, so L2 is not reached.",
+    "evidenceLines": [
+      "Teamwork through collaborative exercises in workshops and assessment.",
+      "Collaborate and be effective in teams;"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Anchor L1: reflection/self-assessment appears without documented criterion-referenced appraisal. 'Research reflection assignments' (30%) is a graded task, but the extract never states it is judged against quality criteria (peer review, structured critique, marking against exemplars) as L2 requires. Ambiguous between L1 and L2 (graded but criteria-undocumented) — resolved to the lower level per the direction rule.",
+    "evidenceLines": [
+      "Research reflection assignments",
+      "Receptive to alternative ideas through a review of the literature and through class participation and assessment;"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Anchor L1: digital tools appear as 'tool operation/training — the operational level.' No AI content of any kind appears anywhere in the extract. The only digital-tool evidence is STATA use in the required-choice Advanced Quantitative Research Methods subject, which is instruction in operating specialised software, not capabilities-and-limitations content (L2).",
+    "evidenceLines": [
+      "This subject will include opportunities to apply one or more of these techniques in a research project using specialised computer software called STATA.",
+      "Some level of development: use of computer software."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Anchor L3: 'a self-scoped capstone or research project.' Research Report Parts 1–2 is a student-chosen research topic (approved by the program coordinator), supervised, and assessed as a 12,000-word individual research report worth 100% of the subject — a documented, assessed structured progression toward independent research, satisfying R2's assessment requirement.",
+    "evidenceLines": [
+      "Students are required to undertake research into a topic of their choice, subject to approval by the program coordinator, under the supervision of a member of the Department of Management and Marketing.",
+      "Individual research report.",
+      "12,000 words"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Anchor L2: 'design and conduct an inquiry with methodology selection and data collection, assessed.' Research Report requires original research with testable hypotheses and appropriate methods, assessed at 100%. L3 additionally requires methodology 'defended under scrutiny (viva, defence, or staged supervised review)' — the extract documents supervision but never a defence/viva event, so the evidence is ambiguous between L2 and L3; resolved to the lower level.",
+    "evidenceLines": [
+      "A research question or questions that incorporate testable hypotheses or research propositions; and",
+      "Findings based on original research that deploys rigorous and appropriate research methods."
+    ]
+  },
+  "adaptiveness": 8,
+  "W1": {
+    "score": 1,
+    "rationale": "Anchor L1: 'core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team.' Individual presentations recur across the core and elective-discipline subjects, but nothing in the extract names a client, practitioner, or external panel as audience, and no professional genre (brief, pitch, consultancy report) is assessed anywhere.",
+    "evidenceLines": [
+      "Individual presentation",
+      "Independent and effective in communication of ideas;",
+      "Communication of management ideas, theories and solutions to peers and the wider community;"
+    ]
+  },
+  "W2": {
+    "score": 0,
+    "rationale": "Anchor L0: assessment is 'entirely decontextualised — exams, problem sets and essays with no situational framing.' Every graded item in the extract is an essay, individual assignment, presentation, or exam, judged in academic form. Outcome-level claims of 'real-world' or 'real and hypothetical problems' application are R4-excluded labels, not documented task features, so they cannot lift the score.",
+    "evidenceLines": [
+      "Apply knowledge of theory to analyse real and hypothetical problems in different domestic and global contexts",
+      "Final Essay",
+      "4000 words"
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Anchor L0: 'No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure.' The full compulsory-plus-elective structure names foundation subjects, discipline electives, methods subjects, special topics, and the research report only — no placement/practicum component. The only WIL-shaped text in the raw extract belongs to a different, misattributed program page and was excluded (see notScoreable).",
+    "evidenceLines": [
+      "The program consists of five compulsory foundation subjects, two core discipline electives, one advanced methods subject and one additional methods subject that must be approved by the Program Director, two special topics subjects, three electives that must be approved by the Program Director and a research report (completed over two consecutive semesters)."
+    ]
+  },
+  "workplace": 1,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "A staged, discipline-specific methods sequence (Foundations in Qualitative/Quantitative Methods to Research Design to Advanced Qualitative/Quantitative Research Methods to Research Report) plus a Year 1 to Year 2 progression gate keyed specifically to Management/Marketing-coded subjects constitutes a coherent specialist core with progressive depth.",
+      "evidenceLines": [
+        "The program consists of five compulsory foundation subjects, two core discipline electives, one advanced methods subject and one additional methods subject that must be approved by the Program Director, two special topics subjects, three electives that must be approved by the Program Director and a research report (completed over two consecutive semesters).",
+        "An average of no less than 80% in all the subjects that are offered by the Department of Management and Marketing (subject codes beginning with MKTG, MGMT, and IBUS)."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Research Design explicitly assesses identifying strengths/limitations of alternative research strategies (a defended trade-off decision), feeding into the Research Report's required original-research findings, whose outcome is genuinely undetermined at the point of design — real uncertainty with accountability to a supervisor and the program coordinator.",
+      "evidenceLines": [
+        "Identify the potential strengths and limitations associated with alternative research strategies and methods used in marketing and management research",
+        "Findings based on original research that deploys rigorous and appropriate research methods."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2: 'Research reflection assignments' (MGMT90197, 30%) is graded, which exceeds a pure L1 outcome-claim, but the extract does not state it is judged against explicit quality criteria (peer review, structured critique, exemplars) as L2 requires; scored at the lower level (1) per the direction rule. MGMT90197 is also a Core Discipline elective chosen from a list of seven, not a universally compulsory subject, adding a second layer of uncertainty about whether it should count as 'core' for this item.",
+    "C5: the Research Report clearly clears L2 (assessed primary-evidence inquiry with methodology selection) but the extract never documents a viva, defence, or staged supervised review, so L3's scrutiny requirement is unconfirmed; scored at the lower level (2).",
+    "W2: program-level outcomes and MGMT90200's overview text ('case study analysis') gesture at real-world/contextualised application, but no assessment-table item is itself described in scenario or case terms; per R4 the label claims were not scored, and the item was held at 0 rather than 1."
+  ],
+  "notScoreable": [
+    "C3 beyond the L1 tool-operation finding: no AI content (capabilities, limitations, ethics, governance) appears anywhere in the extract for this program, so L2/L3 cannot be evaluated at all, only ruled out.",
+    "MGMT90203's actual assessment breakdown is absent — the page captured under its assessment URL returned unrelated ECON90062 content instead.",
+    "MGMT90238's actual assessment breakdown is absent — the page captured under its assessment URL returned an unrelated program's structure page instead. Its overview page states 'Refer to MGMT90237 Research Report Part 1 for details,' which was used as the basis for scoring MGMT90238 by inference from MGMT90237's own data.",
+    "MGMT90197's overview page returned unrelated REHB90001 ('Foundations of Rehabilitation') content instead of Advanced Organisational Behaviour's own overview; only its (correctly attributed) assessment page was used."
+  ],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

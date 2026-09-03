@@ -1,0 +1,163 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1 is met: collaboration and teamwork are stated in the course generic skills and graduate attributes ('a versatile set of transferable skills, including effective communication, leadership, project management and collaboration, enabling success in diverse professional roles'). Level 2 is not met: every captured compulsory and capstone subject assesses students individually (COMP90100 individual programming and problem-solving; COMP90101 individual problem solving, experimental report, oral exam; COMP90102 individual reports; COMP90104 individual model design and evaluation; COMP90105 individual case study and reflection; INFO90015 individual coding and peer review reflection; COMP90106 individual essay and presentation; COMP90110/COMP90111 individual project proposal, presentation, and final report; COMP90112/COMP90113 individual draft proposal, presentation, and project report). No core assessment requires group work or collaborative practice with individual accountability.",
+    "evidenceLines": [
+      "a versatile set of transferable skills, including effective communication, leadership, project management and collaboration, enabling success in diverse professional roles.",
+      "Programming task: individual programming-based task.",
+      "Individual written problem-solving scenario (30%) plus 5-min oral presentation (10%).",
+      "Individual written problem-solving assignment.",
+      "Individual experimental report including algorithm implementation.",
+      "Individual written report on machine learning modelling project",
+      "Individual written report on machine learning prediction problem",
+      "Individual design and implementation of a toy model.",
+      "Individual evaluation and analysis of LLM models plus associated coding.",
+      "Individual case study to a foundational discrete sequential problem.",
+      "Individual project proposal",
+      "Individual draft research proposal. Due in week 3 of Part A."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 is met: multiple compulsory core units assess criterion-referenced appraisal of quality via structured peer review. In COMP90102 Machine Learning, students complete 'Peer review and individual reflection of machine learning prediction problem (1000 words, 20%) plus 5-min Q&A session (500 words, 10%)' (30% of total grade). In INFO90015 Learning in Multiple Modalities, students complete 'Peer review reflection (1000 words) plus 10-min Q&A session' (40% of total grade). Level 3 is not met: while COMP90104 requires 'Individual evaluation and analysis of LLM models plus associated coding' and COMP90100 ILOs include applying generative AI techniques, the assessments do not require students to explicitly document and justify reliance decisions (defending when they relied on or overrode a tool) or evidence strategic process-level adjustment over time under an assessed reliance rubric.",
+    "evidenceLines": [
+      "Peer review and individual reflection of machine learning prediction problem (1000 words, 20%) plus 5-min Q&A session (500 words, 10%).",
+      "Peer review reflection (1000 words) plus 10-min Q&A session.",
+      "evaluate the performance and capabilities of AI models and algorithms using standard metrics and interpret results in real-world contexts",
+      "Individual evaluation and analysis of LLM models plus associated coding.",
+      "Individual critical evaluation of safety aspects in current practice"
+    ]
+  },
+  "C3": {
+    "score": 3,
+    "rationale": "Level 3 is met: as a dedicated Master of Artificial Intelligence, core assessment extensively requires critique, evaluation, and governance of AI systems in their societal, ethical, and technical context beyond mere tool operation. Compulsory core subject COMP90106 AI in Society is dedicated wholly to AI governance and ethics, requiring students to 'examine and describe a range of philosophical issues, theories, and positions relating to the role of AI in society', 'critically evaluate arguments in the contemporary literature on AI', and assess real-world challenges through an 'Individual critical reflection essay' (20%) and 'Individual final research essay' (50%). Furthermore, compulsory COMP90104 Deep Learning and Foundation Models assesses 'capabilities and limitations of different models' with 'Individual evaluation and analysis of LLM models plus associated coding' (50%), and COMP90109 AI Assurance and Trust addresses adversarial attacks, bias, robustness, interpretability, and AI regulatory frameworks.",
+    "evidenceLines": [
+      "apply ethical frameworks to assess and address the societal implications of AI technologies in diverse settings",
+      "AI in Society explores the complex interplay between Artificial Intelligence (AI) and society, equipping students with the critical thinking skills necessary to navigate the ethical and social implications of AI technologies.",
+      "articulate and defend written arguments for and against theses about the ethics of AI using rationally persuasive argumentation",
+      "Individual critical reflection essay",
+      "Individual final research essay",
+      "Deep Learning and Foundation Models explores the theoretical foundations and practical applications of deep learning and foundation models.",
+      "compare and contrast the models to assess the capabilities and limitations of different models.",
+      "Individual evaluation and analysis of LLM models plus associated coding.",
+      "demonstrate awareness of AI regulatory frameworks, governance mechanisms, and emerging standards that impact model deployment."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3 is met: the program structure enforces documented, structured progression toward independent learning through a mandatory 25-credit-point two-subject capstone experience. Students must choose either the Coursework Capstone (COMP90110 AI Research and Development + COMP90111 AI Implementation and Deployment) or the Research Capstone (COMP90112 AI Research Project Part A + COMP90113 AI Research Project Part B). Both pathways require students to identify unscripted research/development problems, design and execute self-scoped methodologies, iteratively build and test AI solutions, and synthesize findings across multi-stage project milestones.",
+    "evidenceLines": [
+      "For the final 25 credit points of the Master of AI students are required to complete a Capstone or Research experience.",
+      "Capstone Coursework Pathway (25 credit points)",
+      "COMP90110 AI Research and Development",
+      "COMP90111 AI Implementation and Deployment",
+      "Capstone Research Pathway (25 credit points)",
+      "COMP90112 AI Research Project Part A",
+      "COMP90113 AI Research Project Part B",
+      "identify and critically analyse complex problems related to AI in a research or development context",
+      "design, validate, and critically assess an implementation plan for a proposed AI project",
+      "Individual project proposal and scoping report (1000 words – 20%) +5-min oral presentation (500 words – 10%)"
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3 is met: a substantial project generating primary evidence is required of all students through the mandatory 25-credit-point capstone sequence, with methodology defended under staged review and oral examination. In the coursework pathway, COMP90110 requires an 'Individual project proposal' (Week 3), an 'Individual 15 minute audio-visual presentation' (Week 5), and an 'Individual project report' (Exam period), followed by COMP90111's scoping report, presentation, progress report, and final deployment evaluation report. In the research pathway, COMP90112/COMP90113 requires an individual draft research proposal, a 10-minute presentation, a literature review hurdle, and a 7,000-word final research report presenting empirical findings. Oral defense of technical methodologies is additionally embedded across core subjects (COMP90101 15-minute oral exam; COMP90105 15-minute oral exam hurdle).",
+    "evidenceLines": [
+      "Individual 15 minute audio-visual presentation.",
+      "Individual project report",
+      "Individual project proposal and scoping report (1000 words – 20%) +5-min oral presentation (500 words – 10%)",
+      "Individual final project report.",
+      "Individual 10-min presentation. Due during the assessment period in part A.",
+      "Individual project report. Due during the assessment period in Part B. 7000 words",
+      "Individual 15-minutes oral exam",
+      "Individual reflection on an industrial scale application with 15-minute oral examination"
+    ]
+  },
+  "adaptiveness": 12,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2 is met: core assessment requires recognised professional genres and spoken defense beyond academic test formats. In COMP90111 AI Implementation and Deployment, students produce an 'Individual project proposal and scoping report' communicating project goals to technical and non-technical stakeholders, evaluated against professional implementation feasibility. Spoken defense is examined extensively in core units: COMP90100 (5-min oral presentation), COMP90101 (15-min oral exam), COMP90105 (15-min oral exam hurdle), COMP90106 (5-min oral presentation), COMP90110 (15-min audio-visual presentation), and COMP90111 (5-min oral presentation). Level 3 is not met: as a wholly online degree, presentations and project reports are delivered to internal academic examiners and online cohort peers; there is no documented requirement that assessments are judged by live external client or industry practitioner panels.",
+    "evidenceLines": [
+      "communicate complex AI concepts and solutions effectively to both specialist and non-specialist audiences",
+      "Individual project proposal and scoping report (1000 words – 20%) +5-min oral presentation (500 words – 10%)",
+      "design and scope an AI-based solution for a real-world problem, grounded in technical feasibility, ethical standards, and stakeholder needs",
+      "Individual 15 minute audio-visual presentation.",
+      "Individual 15-minutes oral exam",
+      "Individual reflection on an industrial scale application with 15-minute oral examination"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2 is met: core assessment reproduces end-to-end professional engineering and data science tasks. The 25-credit-point capstone sequence (COMP90110/COMP90111) requires students to take an AI solution from problem identification, stakeholder requirement analysis, and research design through to iterative implementation, testing, performance evaluation, and deployment reporting. Core subjects further reinforce realistic problem solving (COMP90102 ML prediction modeling and peer review; COMP90105 industrial-scale application reflection). Level 3 is not met: the constraints, data sources, and problem scopes are simulated within the online curriculum rather than carrying live external constraints (e.g. externally contracted client deliverables or regulatory compliance audits with external liability).",
+    "evidenceLines": [
+      "design, implement, and evaluate efficient AI systems and solutions for complex real-world problems, considering technical feasibility and ethical implications",
+      "AI Implementation and Deployment challenges students to apply their comprehensive AI knowledge to real-world implementation and deployment scenarios.",
+      "independently implement and iteratively improve an AI-based system using sound engineering and data science principles",
+      "evaluate AI systems with appropriate validation, testing, and performance metrics relevant to the problem domain",
+      "Individual written report on machine learning prediction problem",
+      "Individual reflection on an industrial scale application with 15-minute oral examination"
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0 is met: no work-situated learning, clinical placement, industry internship, or community-based project appears in the course structure. The degree is delivered wholly online and consists of 100 credit points of compulsory subjects, 25 credit points of electives, and a 25-credit-point project capstone (Coursework or Research pathway). No workplace-embedded or host-supervised placement is offered in the curriculum.",
+    "evidenceLines": [
+      "The Master of Artificial Intelligence requires the successful completion of 150 credit points",
+      "100 credit points of Compulsory subjects",
+      "25 credit points of Elective subjects",
+      "25 credit points of Capstone subjects",
+      "This course is delivered and assessed wholly online."
+    ]
+  },
+  "workplace": 4,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents a rigorous, coherent specialist core in Artificial Intelligence comprising 100 credit points of compulsory units covering AI programming, algorithmic thinking, machine learning, deep learning and foundation models, AI planning for autonomy, multimodal learning, and AI ethics/society, followed by advanced electives and a 25-credit-point capstone sequence.",
+      "evidenceLines": [
+        "The Master of Artificial Intelligence requires the successful completion of 150 credit points",
+        "100 credit points of Compulsory subjects",
+        "COMP90100 AI Programming Fundamentals",
+        "COMP90101 Algorithmic Thinking",
+        "COMP90102 Machine Learning",
+        "COMP90104 Deep Learning and Foundation Models",
+        "COMP90105 AI Planning for Autonomy",
+        "INFO90015 Learning in Multiple Modalities",
+        "COMP90106 AI in Society"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Assessments across the curriculum require defended trade-off analysis under uncertainty, including algorithmic complexity trade-offs (COMP90101), model architecture and hyperparameter evaluation (COMP90102, COMP90104), probabilistic decision processes and planning under uncertainty (COMP90105), ethical and societal trade-offs (COMP90106), and unscripted capstone project scoping (COMP90110/COMP90111).",
+      "evidenceLines": [
+        "compare benefits and drawbacks of competing models for specific machine learning tasks",
+        "compare and contrast the models to assess the capabilities and limitations of different models.",
+        "apply advanced theoretical concepts of reasoning about actions to formulate and solve sequential decision problems in both single-agent and multi-agent autonomous systems",
+        "Individual solution to learning and acting in real-time over a probabilistic sequential problem.",
+        "design, validate, and critically assess an implementation plan for a proposed AI project"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1 straddled 1 and 2: although graduate attributes and generic skills explicitly list collaboration and teamwork, all captured compulsory subject assessments specify 'individual' tasks. Under the conservative scoring rule, C1 resolves to 1.",
+    "C2 straddled 2 and 3: peer review is strongly evidenced in COMP90102 and INFO90015 (satisfying Level 2), but specific rubric-driven reliance tracking on AI tools as a process-level assessment is not documented, capping C2 at 2.",
+    "W1 straddled 2 and 3: oral examinations and scoping reports are prominent across multiple core subjects, but external industry panel judging is not documented for this wholly online program, so W1 resolves to 2.",
+    "W2 straddled 2 and 3: capstone R&D and deployment tasks simulate end-to-end industry practice, but genuine external client constraints are not documented, so W2 resolves to 2."
+  ],
+  "notScoreable": [
+    "Several subjects (COMP90103, COMP90106, COMP90107, COMP90108, INFO90016, COMP90109, COMP90110, COMP90111, COMP90112, COMP90113) are marked 'Not available in 2026' in the initial rollout table, though their handbook syllabus and assessment details are fully documented and scoreable as published curriculum."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

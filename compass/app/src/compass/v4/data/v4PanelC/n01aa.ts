@@ -1,0 +1,123 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor: at least one core unit assesses collaborative practice — CLRS90011's group presentation (40% of the subject) and CLRS90029's assessed in-class group task. Level 3 requires recurring assessed collaboration AND an assessment where coordinating work across people AND tools/AI systems is itself assessed; no core evidence documents this (AI content lives only in the COMP90094 elective, scored under C3), so level 3 is not reached.",
+    "evidenceLines": [
+      "2 x 10min group presentation during the intensive teaching period, describing a critical evaluation of a selection of published clinical research trials (equivalent to 2000 words)",
+      "A reflective assignment on an in-class group task involving an analysis of a management activity (due 2 weeks after Intensive Teaching Period 2)"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor (criterion-referenced appraisal of quality): CLRS90029 assesses students on 'the quality of feedback provided to peer' (structured peer review), and CLRS90027 requires a graded 'quality assessment' of published articles. Level 3 requires assessment that documents and justifies reliance decisions on a tool, source or collaborator, or defends AI-output quality judgements — no core evidence requires this, so level 3 is not reached.",
+    "evidenceLines": [
+      "Peer review of research proposal - student is assessed on the quality of feedback provided to peer (due 5 weeks after Intensive Teaching Period 1)",
+      "Quality assessment of two published research articles identified through the systemic search of the medical literature"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Matches the level-1 anchor precisely: AI content appears only in an elective (COMP90094, 'Transforming Healthcare with Data and AI'), not in any of the 5 compulsory core subjects or either required pathway (Thesis / Industry Project). None of CLRS90011, CLRS90013, CLRS90010, CLRS90027, CLRS90029, CLRS90004, CLRS90028 or MEED90002 mention AI. Per the anchor, AI appearing 'only as electives' caps the item at level 1 regardless of that elective's own depth.",
+    "evidenceLines": [
+      "Students must complete an equivalent of 25 credit points of elective subjects.",
+      "COMP90094\tTransforming Healthcare with Data and AI"
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Demoted to level 1 on review: both evidence lines are outcome-statement text, not assessment-table entries — MEED90002's course Overview paragraph and a line under its 'Intended learning outcomes' heading, not its Assessment table. A capability documented only in outcomes and never assessed scores 1, matching C4's own level-1 anchor. MEED90002's Assessment table does contain a genuine capstone deliverable ('Project Report', 5000 words, 50%) that could plausibly support the level-2 anchor's 'assessed application to novel/unfamiliar problems' requirement, but that line was not cited. C4 is scored at 1 as currently evidenced; a re-score at 2 needs re-citation against the Project Report assessment entry.",
+    "evidenceLines": [
+      "This capstone subject will provide students with an opportunity to consolidate their learning for further intellectual and professional growth through an advanced industry placement in a healthcare setting. As part of this subject, students will undertake a supervised internship placement which will be organised by the student, the host organisation, and the Subject Coordinator. Students will apply their academic knowledge to real-world challenges associated with clinical research and gain professional skills by undertaking an industry placed project. Engagement in this subject will enable students to bridge the gap between the classroom and clinical research setting. Moreover, it will enable students to develop contacts with experts working in their preferred research settings and will facilitate them to achieve a range of transferable skills including developing an employment/work portfolio.",
+      "Apply and integrate relevant skills to solve practical issues whilst working with unstructured/semi-structured research projects to inform industry practices;"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor: CLRS90004 (Research Thesis Pathway) has students 'design and conduct, under supervision, an independent clinical research project' with data collection and analysis, assessed via a hurdle-graded minor thesis. Level 3 requires this to be REQUIRED, 'not one route among several' — but the thesis is only one of two alternative pathways, and the Industry Project pathway (CLRS90028 + MEED90002) does not document a primary-evidence-generating project defended under scrutiny, so the anchor's explicit exclusion applies and level 3 is not met.",
+    "evidenceLines": [
+      "This subject provides students with the opportunity to design and conduct, under supervision, an independent clinical research project. Students will take responsibility for all aspects of the research project including the experimental design and collection of research data;, appropriate statistical analysis, and interpretation of data; and oral and written presentations of the results. Upon completion of this subject, participants will produce an original research demonstrating an effective writing style and reflecting sound reasoning, clarity of thinking and compliance with style requirements. Undertaking this subject provides an opportunity for students to define a research question and identify an appropriate methodology, conduct research independently, and demonstrate critical thinking reflecting breadth and depth of knowledge in clinical research.",
+      "Minor research thesis - Students will receive regular feedback via consultation with the Subject Coordinator over the teaching period",
+      "Hurdle requirement: Student must achieve 50% in order to pass this assessment and to pass the subject.\tEnd of the assessment period\t50%"
+    ]
+  },
+  "adaptiveness": 8,
+  "W1": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor (a recognised professional genre judged against professional-practice criteria): CLRS90013 has students produce advice on an ethics application — a professional review/advisory genre. Level 3 requires progressive, repeated professional-communication assessment across the program AND at least one core assessment delivered to a real external audience/practitioner with conduct or accountability explicitly assessed. MEED90002's industry Charter and stakeholder-communication outcome would support this, but MEED90002 only applies to the Industry Project pathway, one of two alternatives, with no equivalent external-audience deliverable documented for the Thesis pathway; the evidence is ambiguous and the lower level is taken.",
+    "evidenceLines": [
+      "Students will review an ethics application and provide advice on how the research could be improved with respect to ethics and responsible research",
+      "Charter - an agreement with Industry Partner as to project specifications",
+      "Demonstrate appropriate communication in industry and projects to a range of stakeholders in a professional health research context."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor: at least one core/pathway assessment reproduces a professional task end to end — CLRS90013's ethics-application review, and CLRS90028's requirement to 'design a protocol, including relevant PLS and consent forms, for an RCT using a standard ethics application template' (the artefact and criteria a clinical-trial researcher would actually use). Level 3 requires such tasks to be the program's assessment spine AND at least one to carry a genuine constraint of practice. MEED90002's industry placement would supply that constraint, but it belongs only to the Industry Project pathway, one of two alternatives; the evidence is ambiguous and the lower level is taken.",
+    "evidenceLines": [
+      "Students will review an ethics application and provide advice on how the research could be improved with respect to ethics and responsible research",
+      "Design a protocol, including relevant PLS and consent forms, for an RCT using a standard ethics application template (due 4 weeks after completion of Intensive Teaching Period 3)."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor: MEED90002 places students in a real workplace setting ('a supervised internship placement... organised by the student, the host organisation, and the Subject Coordinator') with assessment and host accountability (the Charter). Level 3 requires this to be 'extended,' or a 'sequence,' with structured reflection and documented host accountability — the extract does not state the placement's duration, it is a single subject rather than a documented sequence, and it applies only to the Industry Project pathway (one of two alternatives; the Thesis pathway has no placement), so the item is scored at the lower level per the ambiguity rule.",
+    "evidenceLines": [
+      "As part of this subject, students will undertake a supervised internship placement which will be organised by the student, the host organisation, and the Subject Coordinator.",
+      "Charter - an agreement with Industry Partner as to project specifications"
+    ]
+  },
+  "workplace": 6,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents a coherent, all-compulsory specialist core (5 core subjects, 75 credit points, all clinical-research-specific: study design, responsibilities/ethics, data analysis, principles, and research development/translation), plus a compulsory specialist thesis or industry-project pathway, with progressive depth referenced explicitly across the Graduate Certificate → Graduate Diploma → Master sequence.",
+      "evidenceLines": [
+        "Students must complete the following 5 core subjects (75 credit points)",
+        "This subject provides individuals from medical and allied health professions (such as nurses, pharmacists, physiotherapists etc) and others with a biomedical science-based background with a conceptual framework in research which is undertaken in clinical and medical settings. This subject serves as a basis for advanced study in the Graduate Certificate in Clinical Research, the Graduate Diploma in Clinical Research and the Master of Clinical Research."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Multiple core/pathway assessments require defended trade-off decisions or live projects with real uncertainty and accountability: CLRS90011's negotiated-scenario study design with critical justification, and MEED90002's industry placement requiring students to solve practical issues within 'unstructured/semi-structured research projects.' This is not recall or scripted response.",
+      "evidenceLines": [
+        "Design and critical discussion/justification of a clinical research study using a scenario selected by negotiation with the Subject Co-ordinators",
+        "Apply and integrate relevant skills to solve practical issues whilst working with unstructured/semi-structured research projects to inform industry practices;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C4: CLRS90004's independent, supervised research thesis reads as a possible self-scoped capstone (level-3 anchor), but the extract does not state the topic is student-scoped and the thesis is only one of two required alternative pathways (Thesis vs Industry Project) rather than documented program-wide; resolved to level 2.",
+    "W1: MEED90002 documents delivery to a real external audience (the Industry Partner) with a Charter and an assessed stakeholder-communication outcome, which would support level 3, but MEED90002 belongs only to the Industry Project pathway — one of two required alternatives, with no equivalent external-audience deliverable documented for the Thesis pathway; resolved to level 2.",
+    "W2: MEED90002's industry placement would supply the 'genuine constraint of practice' needed for level 3, but again this depends on the optional Industry Project pathway rather than being documented for the whole cohort; resolved to level 2.",
+    "W3: MEED90002 is a single subject, and the extract does not specify placement duration or a sequence of placements, leaving it ambiguous between the level-2 'short or stands alone' anchor and the level-3 'extended... or a sequence' anchor; resolved to level 2. It is also, again, only one of two required pathways.",
+    "C4 (demotion note): MEED90002's Assessment table contains an uncited 'Project Report' (5000 words, 50%) line that could plausibly support C4 at level 2 if re-cited against it — flagged as a re-scoring opportunity, not applied here; both cited evidenceLines are outcome-statement text (Overview/ILO), not assessment-table entries, so C4 was demoted to level 1."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-30"
+  }
+};
+
+export default record;

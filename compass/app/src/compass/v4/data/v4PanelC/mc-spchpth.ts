@@ -1,0 +1,121 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor is satisfied: assessed collaborative practice recurs across the program: group presentations in AUDI90028, and simulated clinical partner interactions in AUDI90027/AUDI90032. Level 3 is not met: formal assessed division-of-labor charters allocating tasks between human speech pathologists and AI systems (e.g. AI-assisted acoustic speech-to-phoneme parsing vs human phonological diagnostic formulation) are unevidenced.",
+    "evidenceLines": [
+      "AUDI90028\tSwallowing and Voice ... Group presentation (20 minutes, 20%)",
+      "AUDI90027 Clinical Processes A ... Completion of written reflections and required tasks for two pre-clinical experiences",
+      "AUDI90032\tSpeech Pathology Practice 1 ... Completion of one Simulated Clinical Practice Assessment (SCPA) ... Assessment during one clinical placement"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 anchor is satisfied: core assessment requires criterion-referenced clinical evaluative judgement across multiple OSCE hurdles, live clinical examinations, video observation tasks, and complex paediatric/adult diagnostic formulations (AUDI90027, AUDI90029, AUDI90036, AUDI90041). Level 3 is not met: no core assessment requires students to systematically audit, verify, and document reliance and override decisions regarding AI acoustic analysis software, automated language sample analysis, or automated dysfluency measurement tools over time.",
+    "evidenceLines": [
+      "AUDI90027 Clinical Processes A ... Clinical Examination ... Hurdle requirement: Students must pass the clinical examination",
+      "AUDI90029\tClinical Processes B ... Either an Objective Structured Clinical Examination (OSCE) or video observation examination ... Hurdle requirement",
+      "AUDI90036\tDisorders of Fluency ... OSCE - Paediatric focused ... OSCE - Adult focused ... Hurdle requirement: OSCE examination must be passed",
+      "AUDI90041 Complex Case Models in Speech Pathology ... 3 case studies ... 2 Objective Structured Clinical Exams (Hurdle)"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor is satisfied: AI or digital tools appear only as tool operation or as unassessed intended learning outcomes — computer-based statistical practical assignments in AUDI90002 Research in Speech Pathology, an AUDI90028 intended learning outcome on understanding in assessment tools including voice, video and digital recordings, and AAC named once, in an AUDI90035 intended learning outcome and in no assessment task. Level 2 is not met: its anchor is conjunctive — core units must address AI capabilities AND limitations/ethics, with use and limits discussed and assessed — and the capture contains no artificial-intelligence, machine-learning, algorithmic or automation content of any kind, so the first conjunct fails before the second is reached. R2 is decisive: a capability that appears in learning outcomes but is never assessed scores 1. Not 0, because digital content does appear in core-unit outcomes.",
+    "evidenceLines": [
+      "AUDI90002\tResearch in Speech Pathology ... Written reports on two computer-based practical assignments not exceeding 500 words each",
+      "AUDI90028 ... understanding in assessment tools e.g., voice, video and digital recordings",
+      "AUDI90035 ... Determine diagnostic and intervention strategies suitable to complex speech and language disorders across the lifespan, including high and low technology resources (AAC)"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2 anchor is satisfied: core assessment requires transfer of anatomical, neurological, phonological, and behavioural intervention frameworks across diverse clinical populations (developmental, syndromic/genetic, neurodegenerative/movement and acquired speech and language disorders across the lifespan, and voice and swallowing disorders, across AUDI90030, AUDI90031, AUDI90034, AUDI90035, AUDI90041). Level 3 is not met: while students submit structured clinical portfolios and pre-clinical reflection tasks across AUDI90027, AUDI90032, AUDI90033, and AUDI90039, explicit identification of one's own clinical capability gaps with an assessed plan to close them across the entire cohort is unevidenced.",
+    "evidenceLines": [
+      "AUDI90030\tLanguage Disorders Across the Lifespan ... Written assignment (1500 words) ... Written assignment (1500 words)",
+      "AUDI90031\tSpeech Disorders Across the Lifespan ... Written report (1500 words) ... Written report (1500 words)",
+      "AUDI90034\tPlanning and Integrating Intervention ... Written Assignment ... Case based written exam",
+      "AUDI90041 Complex Case Models in Speech Pathology ... 3 case studies (1x oral, 1x written and 1x video)"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 anchor is satisfied: research design and statistical analysis are taught and assessed in AUDI90002 Research in Speech Pathology, and the required core AUDI90040 Speech Pathology Research Project carries the program's inquiry work. Level 3 is not met: AUDI90040 Speech Pathology Research Project (25 points, year-long) is a required core subject, but its subject and assessment pages are absent from the capture, so neither primary evidence generation nor methodology defended under scrutiny is documented.",
+    "evidenceLines": [
+      "Understand key research and statistical approaches, and plan and conduct a research project with relevance to speech pathology",
+      "Demonstrate the implementation of evidence-based practice, including the ability to integrate critical evaluation of literature, client perspectives and circumstances and clinical knowledge and reasoning",
+      "AUDI90040\tSpeech Pathology Research Project ... Year Long (On Campus - Parkville) ... 25"
+    ]
+  },
+  "adaptiveness": 9,
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3 anchor is satisfied: professional communication is assessed repeatedly and progressively across the program (multiple OSCE hurdles in AUDI90029 (OSCE or video observation examination), AUDI90033, AUDI90036, AUDI90039, AUDI90041, oral case presentations, clinical portfolios) AND delivered to and judged by clinical supervisors at health-care and educational facilities across mandatory workplace placements (AUDI90032, AUDI90033, AUDI90039), using the COMPASS® (Competency Assessment in Speech Pathology) instrument, with professional conduct, ethics, and therapeutic communication directly graded.",
+    "evidenceLines": [
+      "AUDI90032\tSpeech Pathology Practice 1 ... Passing end Placement COMPASS® (Competency assessment in Speech Pathology) at Novice Level ... 100% attendance and participation",
+      "AUDI90033\tSpeech Pathology Practice 2 ... Assessment of two clinical placements. Students' clinical performance during each placement will be assessed via the Competency Assessment in Speech Pathology (COMPASS®) and the completion of a Clinical Portfolio.",
+      "AUDI90039\tSpeech Pathology Practice 3 ... The COMPASS® Assessments and the Clinical Portfolio are to be submitted"
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3 anchor is satisfied: authentic tasks form the program's assessment spine across every semester (Objective Structured Clinical Examinations [OSCEs] in AUDI90029/AUDI90033/AUDI90036/AUDI90039/AUDI90041, Simulated Clinical Practice Assessments [SCPA] in AUDI90032, complex adult/paediatric case formulations) AND carry genuine constraints of practice — timed OSCEs (45 minutes each in AUDI90036, one hour each in AUDI90041) judged against the profession's own standards of performance (CBOS 2011 and COMPASS® Novice Level descriptors).",
+    "evidenceLines": [
+      "AUDI90032\tSpeech Pathology Practice 1 ... Completion of one Simulated Clinical Practice Assessment (SCPA) ... Assessment during one clinical placement",
+      "AUDI90036\tDisorders of Fluency ... OSCE - Paediatric focused (45 minutes, 40%) ... OSCE - Adult focused (45 minutes, 40%)",
+      "AUDI90041 Complex Case Models in Speech Pathology ... 3 case studies (1x oral, 1x written and 1x video) ... 2 Objective Structured Clinical Exams"
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3 anchor is satisfied: substantial required work-situated learning: multiple extended clinical placement blocks (AUDI90032, AUDI90033, AUDI90039) in the compulsory core, supervised at health-care and educational facilities (approximately 400 hours across the two years), assessed via the COMPASS® competency assessment, with direct accountability to healthcare/educational host organisations and structured clinical portfolios.",
+    "evidenceLines": [
+      "AUDI90032\tSpeech Pathology Practice 1 ... Assessment during one clinical placement ... Passing end Placement COMPASS®",
+      "AUDI90033\tSpeech Pathology Practice 2 ... Assessment of two clinical placements ... The COMPASS® Assessments and the Clinical Portfolio are to be submitted one week after the final day of the clinical placement.",
+      "AUDI90039\tSpeech Pathology Practice 3 ... Assessment of two clinical placements ... The COMPASS® Assessments and the Clinical Portfolio are to be submitted within one (1) week after the final day of the clinical placement."
+    ]
+  },
+  "workplace": 9,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS condition is met: accredited by Speech Pathology Australia (SPA) as a 200-point entry-level professional master's degree meeting all national competency standards. Comprehensive foundation spanning speech anatomy/physiology, acoustics, phonetics, linguistics, child language development, dysphagia, adult neurogenic disorders, voice/fluency, and clinical practice.",
+      "evidenceLines": [
+        "The course is accredited with Speech Pathology Australia.",
+        "The first year of the course provides the scientific background in anatomy and physiology, articulatory and acoustic phonetics, linguistics, speech and language disorders, clinical practice and processes. The second year builds on the specialised knowledge acquired in first year, develops clinical skills and introduces students to research methods in the field.",
+        "This subject builds on the knowledge obtained in the prerequisite subject AUDI90032 Speech Pathology Practice 1."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS condition is met: assessment explicitly requires high-stakes diagnostic and clinical decision-making on complex, multifaceted clinical cases assessed under hurdle conditions — including live OSCE hurdles across AUDI90029 (OSCE or video observation examination), AUDI90033, AUDI90036, AUDI90039, and AUDI90041 and direct clinical decision-making during COMPASS®-assessed placements.",
+      "evidenceLines": [
+        "AUDI90027\tClinical Processes A ... Clinical Examination: A clinical examination designed to evaluate students' ability to apply theoretical knowledge to a practical task relevant to real-world scenarios. Students will need to demonstrate effective communication and clinical reasoning skills and showcase their proficiency in various aspects of speech pathology practice relevant to the subject intending learning outcomes.",
+        "AUDI90032\tSpeech Pathology Practice 1 ... Hurdle requirement: Successfully participating and completing a simulated learning experience at Novice Level (as per COMPASS© descriptors)",
+        "AUDI90041\tComplex Case Models in Speech Pathology ... 3 case studies (1x oral, 1x written and 1x video) ... 2 Objective Structured Clinical Exams (1 hour each, equivalent to 1000 words)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1 straddled 2 and 3: group presentations in AUDI90028 and simulated clinical partner interactions in AUDI90027/AUDI90032 satisfy level 2. Level 3 is unmet because explicit human-AI clinical workflow allocation charters are unevidenced.",
+    "C2 straddled 2 and 3: clinical evaluative judgement in OSCE hurdles satisfies level 2. Level 3 is unmet because AI diagnostic tool auditing and override logs are unevidenced.",
+    "C3 straddled 1 and 2: digital content appears in core units as computer-based statistical practicals in AUDI90002 and as intended learning outcomes on assessment-tool recordings (AUDI90028) and AAC (AUDI90035). Level 2 is unmet because its conjunctive anchor requires core units to address AI capabilities AND limitations/ethics, and no AI content of any kind appears in the capture; R2 caps outcome-only capability at 1. Scored at 1.",
+    "C4 straddled 2 and 3: lifespan transfer is assessed across the core (level 2), but self-capability gap tracking is unevidenced. Scored at 2.",
+    "C5 straddled 2 and 3: research design and statistical analysis assessed in AUDI90002 satisfy level 2. Level 3 is unmet because the required core AUDI90040 Speech Pathology Research Project has no subject or assessment page in the capture, so primary evidence generation and defended methodology are undocumented. Scored at 2.",
+    "W1 satisfies level 3: external evaluation by clinical supervisors at health-care and educational facilities, using the COMPASS® instrument across multiple placement blocks.",
+    "W2 satisfies level 3: authentic tasks spine with simulated and placement-based OSCEs under documented time limits and the profession's own performance standards across all stages.",
+    "W3 satisfies level 3: substantial required clinical placements in hospitals, community clinics, early intervention and specialist centres, schools, private practices, university clinics and residential aged care facilities with COMPASS® competency assessments."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-25"
+  }
+};
+
+export default record;

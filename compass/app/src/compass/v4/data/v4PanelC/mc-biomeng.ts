@@ -1,0 +1,135 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor ('At least one core unit assesses collaborative practice — group projects with individual accountability... interprofessional activity'): multiple core units assess group-based work with individually attributable components. Does not reach level 3 ('coordinating work across people AND tools/AI systems... the division of work between people and systems is itself assessed') — no core assessment documents students coordinating labour between people and tools/AI systems; the program's only named AI content is an elective (see C3).",
+    "evidenceLines": [
+      "One team-based programming project (in teams of 3 - 4) 25 hours per student. ILOs 1 - 5 are addressed in this assessment.",
+      "Team design specification report (Teams of 3-5 students; 400 words each student). Intended Learning Outcomes (ILOs) 1 -8 are addressed in this assessment.",
+      "Group-based project (2 - 4 students per group) in implant design and construction. 15 hours per student. ILOs 1 - 3, 5 and 6 are addressed in this assessment."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor ('Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique...') via ENGR90051's assessed peer feedback and evaluation component. Ambiguous toward level 3 ('document and justify reliance decisions... or evidence strategy adjustment over time (process-focused assessment)'): BMEN90033's weekly 'Design History' log is process-focused and assessed, but the extract does not confirm it is graded for documented reliance/override decisions or strategy adjustment specifically — resolved to the lower level per the ambiguity rule.",
+    "evidenceLines": [
+      "Peer feedback + evaluation (individual). Feedback: Approx. 8 hours of work per student. Evaluation: Approx. 12 hours of work, including teamwork documentation, team discussion + personal reflection",
+      "Individual project ePortfolio comprising 1) Design proposal (500 words; weighing 10%; due Week 4) 2) Design History (50 -200 words per week; 20%; due Week 6-12) 3) Results Summary (800 words; weighing 15%; due during Exam Period) Intended Learning Outcomes (ILOs) 1-4 are addressed in this assessment."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Matches the level-1 anchor exactly ('AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable'). The program's only AI-named subject, Artificial Intelligence for Engineers, is an elective, not core; the compulsory core's digital content (MATLAB, general programming languages) is tool operation. No core unit addresses AI capabilities and limitations/ethics (level 2) or AI governance/critique (level 3).",
+    "evidenceLines": [
+      "MCEN90048\tArtificial Intelligence for Engineers",
+      "This material is complemented using software tools (e.g., MATLAB) for computation and simulation, and practical experience with circuits and systems in the laboratory.",
+      "It introduces students to the fundamentals of software programming and computational methods via the use of programming languages."
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor ('At least one core assessment requires application to novel or unfamiliar problems... cross-context projects') via BMEN30008's and ENGR90051's assessed open-ended design work. Ambiguous toward level 3 ('a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them'): the course Overview names 'a major design and/or research project subject' as the degree's culmination, but no dedicated subject page for that capstone (BMEN90018/BMEN90030) appears in the extract to confirm self-scoping or structured progression toward independent learning — resolved to the lower level.",
+    "evidenceLines": [
+      "Integrate and apply prior knowledge from across the bioengineering curriculum to address complex, open-ended biomedical design challenges.",
+      "In this subject, students will actively engage in an interdisciplinary, collaborative and project-based learning environment, offering insights into the professional nature of engineering work. Through a real-world project, students will gain hands-on design experience addressing a complex challenge.",
+      "The degree culminates in a major design and/or research project subject. Students have the opportunity to participate in overseas study, industry-based projects and supervised research."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor ('Students design and conduct an inquiry with methodology selection and data collection, assessed'): BMEN90033 (core) has students design, build and test bioinstrumentation systems that measure real biological signals, documented via a Design proposal, Design History and Results Summary. Ambiguous toward level 3 ('A substantial project generating primary evidence is REQUIRED... with methodology defended under scrutiny (viva...)'): BMEN90033's required oral viva satisfies the defence element, but it is a single 12.5-point subject and the extract cannot confirm it (or the course's actual capstone, whose own page is absent) constitutes 'a substantial project' — resolved to the lower level.",
+    "evidenceLines": [
+      "The subject provides theory and practical exposure to understanding the basis of physiological signals and analysing biomedical signals, including hands-on experience in designing and building bioinstrumentation systems that can measure biological signals.",
+      "Individual project ePortfolio comprising 1) Design proposal (500 words; weighing 10%; due Week 4) 2) Design History (50 -200 words per week; 20%; due Week 6-12) 3) Results Summary (800 words; weighing 15%; due during Exam Period) Intended Learning Outcomes (ILOs) 1-4 are addressed in this assessment.",
+      "Oral examination (Viva Voce): 15 minutes. ILOs 1-4 are addressed in this assessment."
+    ]
+  },
+  "adaptiveness": 9,
+  "W1": {
+    "score": 1,
+    "rationale": "Matches the level-1 anchor ('core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team'): core units assess oral presentations and written reports (BMEN30009, BMEN90039) and ENGR90051 names stakeholder interaction and cites interview-transcript evidence, but the extract never states these are judged by, or delivered to, an audience beyond the teaching team, nor that a recognised professional genre (client brief, consultancy/policy advice, clinical handover, pitch, public artefact) is used. Ambiguous toward level 2 via ENGR90051's stakeholder engagement — resolved to the lower level since the assessed audience/criteria are not documented as extending beyond subject staff.",
+    "evidenceLines": [
+      "Oral presentation on Group Assignment (groups of three or four students; 5-minute presentation per student). ILOs 1 - 4 and 6 are addressed in this assessment.",
+      "Written report in groups of 3 or 4 . ILOs 1-8 are addressed in this assessment.",
+      "Demonstrate effective engineering communication skills, including the ability to articulate design concepts and technical information to achieve specific outcomes, and to purposefully interact with a range of stakeholders.",
+      "Mid-semester project review (conducted as a team, marked individually). 10-minute interactive discussion supported by 2-page written submission + evidence (e.g. interview transcripts, photographs)"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor ('At least one core assessment reproduces a professional task end to end... producing the artefact a practitioner would produce, judged against criteria drawn from practice'): BMEN30008 runs a full design cycle (specification report → design journal → verification report → oral defence) in a medical-technology context, and BMEN90039 assesses application of real regulatory/quality standards (ISO 9000 series, medical-device regulation) to a written report. Ambiguous toward level 3 ('the program's assessment spine... AND a genuine constraint of practice'): such design tasks recur across Year 1–3 (BMEN30008, BMEN30010, ENGR90051, BMEN90033, the Year-3 capstone), but the extract does not explicitly state that grading criteria for these tasks are drawn from codified professional-practice standards — resolved to the lower level.",
+    "evidenceLines": [
+      "Biosystems Design is the capstone experience for the Bioengineering Systems major, bringing together learning, skills, and biosystems knowledge from across the degree and apply it in a team-based design project. Students work collaboratively and independently from concept development to prototype implementation, engaging with real-world, complex, and open-ended projects that reflect professional health and medical technology contexts.",
+      "Team final design verification report (Teams of 3-5 students; 400 words per student). Intended Learning Outcomes (ILOs) 1, 2, 3, 6 and 7 are addressed in this assessment.",
+      "It will focus on Biomedical Engineering Management, including the engineer and professional practice, the functions of professional societies; systems engineering and management processes of planning, organisation, leadership and control of human, physical and financial resources, biomedical engineering and quality management systems including ISO 9000 series requirements.",
+      "Apply appropriate standards used in the design and maintenance of biomedical devices and the appropriate schedules in the distribution of therapeutic agents."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Matches the level-1 anchor ('Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity'): work-situated learning is not embedded as a core, practitioner-supervised, graded unit. It appears only as one of three routes to clear the Engineering Practice Hurdle — an extracurricular careers program (STEP), an elective subject (ENGR90033 Internship), or an unpaid, non-credit-bearing internship. No core placement/practicum with practitioner supervision and assessment is documented in the extract.",
+    "evidenceLines": [
+      "Skills Towards Employment Program (STEP)",
+      "ENGR90033 Internship subject",
+      "An agreed level of internship at an approved engineering form (without receiving University credit)",
+      "Completion of the degree will not be approved until this requirement has been met.",
+      "ENGR90033\tInternship"
+    ]
+  },
+  "workplace": 4,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Matches the PASS anchor ('an accredited sequence, or a staged prerequisite chain'): the program is professionally accredited by both EUR-ACE and Engineers Australia, runs a large all-compulsory biomedical-engineering-specific core (162.5 of 300 credit points compulsory, plus a further staged Year 2 compulsory list), and documents an explicit prerequisite chain from core to advanced core subjects.",
+      "evidenceLines": [
+        "The Master of Biomedical Engineering is fully accredited by EUR-ACE® (EURopean- ACcredited Engineer)",
+        "The Master of Biomedical Engineering is fully accredited by Engineers Australia",
+        "This subject is one of the subjects that define the Biomedical Engineering Systems Major in the Bachelor of Science and Bachelor of Biomedicine, and it is a core requirement for the Master of Biomedical Engineering. It provides a foundation for various subsequent subjects, including BMEN90002 Neural Information Processing and BMEN90021 Medical Imaging.",
+        "162.5 credit points of compulsory subjects"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Matches the PASS anchor ('assessments require defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability'): BMEN30008's ILO 5 explicitly names 'making decisions under uncertainty' and is assessed through the graded Team written design journal, and the subject overview documents 'uncertain and evolving design scenarios'.",
+      "evidenceLines": [
+        "Demonstrate independence, initiative and accountability in managing project tasks, time management, making decisions under uncertainty, and reflecting on individual and team performance.",
+        "Team written design journal (Teams of 3-5 students; 1200 words per student). Intended Learning Outcomes (ILOs) 2-6 and 8 are addressed in this assessment.",
+        "Working through uncertain and evolving design scenarios fosters resilience, reflective practice, and a deeper understanding of interdisciplinary collaboration."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2: BMEN90033's weekly-graded 'Design History' log could evidence level-3 process-focused strategy adjustment, but the extract does not confirm it is graded for documented reliance/override decisions or strategy adjustment specifically; resolved to level 2 per R (take the lower level).",
+    "C4: the course Overview names 'a major design and/or research project subject' as the degree's culminating capstone, but no dedicated subject page for it (BMEN90018/BMEN90030) appears in the extract to confirm self-scoping or a structured-progression-toward-independent-learning design required for level 3; resolved to level 2.",
+    "C5: BMEN90033's required design-build project with a hurdle viva satisfies 'methodology defended under scrutiny', but it is a single 12.5-point subject and the extract cannot confirm it (or the actual course capstone, whose page is absent from the extract) constitutes 'a substantial project generating primary evidence'; resolved to level 2.",
+    "W1: ENGR90051's ILO names stakeholder interaction and its assessment cites interview-transcript evidence, gesturing toward level 2's 'audience beyond the teaching team', but the assessment table does not document that submissions are judged by, or delivered to, anyone beyond the subject's own staff; resolved to level 1.",
+    "W2: design/build tasks recur across Year 1-3 (BMEN30008, BMEN30010, ENGR90051, BMEN90033, the Year-3 capstone) and could form a level-3 assessment spine with a genuine constraint of practice, but the extract does not explicitly state that grading criteria for these tasks are drawn from codified professional-practice standards; resolved to level 2."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

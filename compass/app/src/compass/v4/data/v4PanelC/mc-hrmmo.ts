@@ -1,0 +1,129 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Collaboration and leadership appear only as a course-level generic skill ('collaborate effectively and demonstrate leadership in diverse settings'); no core-subject assessment item names group work, team-based practice, client/stakeholder work, or coordination of people plus tools/AI systems. Matches Level 1, not Level 2, which needs an assessed collaborative-practice task.",
+    "evidenceLines": [
+      "collaborate effectively and demonstrate leadership in diverse settings;"
+    ]
+  },
+  "C2": {
+    "score": 0,
+    "rationale": "No assessment item in any compulsory subject requires appraising the quality of work — own, peer, or tool-generated. Every core subject's assessment table repeats the same individual-submission pattern with no peer review, structured critique, portfolio-against-exemplars, or documented reliance decisions. Matches Level 0.",
+    "evidenceLines": [
+      "Written assessment",
+      "20-minute presentation and 10-minute Q&A",
+      "Online quiz"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "The only explicit AI content in the core is Gen AI as an operational tool in Change and Transformation, presented as topic content and an outcome, not as an assessed critique of AI limitations, ethics, bias or governance. Matches Level 1, not Level 2, which requires limitations/ethics discussed AND assessed.",
+    "evidenceLines": [
+      "the use of Gen AI to identify change issues and leveraging Gen AI to engage stakeholders.",
+      "use technology to identify issues and create evidence-based recommendations;"
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Demoted on evidence check: C4=3 requires assessment evidence of a self-scoped capstone. All three originally cited lines are non-assessment text (enrolment-points structure and subject-overview ILOs, not assessment-table items), so as cited the score caps at Level 1 ('Transfer is claimed in outcomes ... but not assessed'). Genuine assessment evidence for self-scoping exists in the extract ('Draft problem identification and research question and objectives. Due in week 3 of part 1', Industry Pathway; 'Draft problem identification and research question. Due in week 3 of Part 1.', Research Pathway) but was not cited in this pass — a re-scored C4 citing those items could legitimately land at 2 or 3, but requires a fresh scoring pass, not an increase here.",
+    "evidenceLines": [
+      "Students are required to enrol in MGMT90317 HRM Industry Project (Part 1) (12.5 points) and MGMT90318 HRM Industry Project (Part 2) (12.5 points), for a total enrolment of 25 points.",
+      "define a substantially complex HRM problem or issue related to professional practice;",
+      "students will design and complete an individually negotiated, HR management research project."
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Only the elective Research Pathway documents methodology selection and data collection; the equally available Industry Pathway does not. Because that evidence sits in one route among two, and Level 3 explicitly excludes 'one route among several' while Level 2 credit is not guaranteed program-wide, the ambiguity is resolved down to Level 1, supported by the literature-review evidence common to both routes.",
+    "evidenceLines": [
+      "25 credit point capstone experience comprised of an industry project or research project pathway.",
+      "Draft literature review. Due in week 5 of part 1",
+      "critically evaluate and apply an appropriate research design to investigate an HRM issue;",
+      "collecting and analysing data;"
+    ]
+  },
+  "adaptiveness": 4,
+  "W1": {
+    "score": 2,
+    "rationale": "Law and Human Resource Management assesses a memo to management and a submission to the Fair Work Commission — recognised professional genres — and the Industry Project capstone assesses an audiovisual presentation of recommendations with a stakeholder-facing support document. Matches Level 2. Level 3 is not supported: no line confirms judging by a real external panel/practitioner or explicit assessed conduct/accountability criteria.",
+    "evidenceLines": [
+      "Memo to management: students are provided with a case study concerning compliance with minimum employment standards and will develop a memo to management using legal arguments.",
+      "Submission to Fair Work Commission",
+      "Audiovisual presentation of recommendations and action plan: video submission (15 minutes) plus audiovisual presentation including support document (2000 words equivalent)."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "The memo/FWC-submission tasks and the Industry Project capstone each reproduce a professional artefact end to end, judged against practice-drawn criteria. Matches Level 2. Level 3 is ambiguous — only two documented instances exist, not confirmed as a scaffolded spine, and no genuine constraint of practice beyond the student-defined problem is confirmed — so the lower Level 2 is taken.",
+    "evidenceLines": [
+      "This subject involves students undertaking a substantial project related to human resource management professional practice.",
+      "define a substantially complex HRM problem or issue related to professional practice;",
+      "Memo to management: students are provided with a case study concerning compliance with minimum employment standards and will develop a memo to management using legal arguments.",
+      "Submission to Fair Work Commission"
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "No placement, practicum, internship, live-client immersion, or community-based project with practitioner supervision is documented anywhere in the extract. The Industry Project's stakeholder-engagement language falls short of a documented real-workplace setting, practitioner supervision, or host accountability. Matches Level 0.",
+    "evidenceLines": [
+      "125 credit points of Compulsory subjects",
+      "25 credit points of Capstone subjects",
+      "engage diverse stakeholders to validate HRM issues, synthesize research findings, and evaluating alternative solutions;"
+    ]
+  },
+  "workplace": 4,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program is an accredited sequence with the Australian Human Resources Institute (AHRI), built on an all-compulsory core plus the compulsory capstone, with no elective content documented. Matches PASS.",
+      "evidenceLines": [
+        "This program is accredited with the Australian Human Resources Institute (AHRI).",
+        "The Australian Human Resources Institute (AHRI) is the professional body that supports HR in Australia. AHRI sets standards and certifies HR professionals across Australia.",
+        "125 credit points of Compulsory subjects"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The Industry Project capstone requires investigating three alternatives supported by industry evidence and proposing evidence-based recommendations while evaluating alternative solutions — a defended trade-off decision task with real organisational stakes. Matches PASS.",
+      "evidenceLines": [
+        "Draft investigation of alternatives: using the information from Assessments 1 and 2 students will investigate three different alternatives for addressing the research question. Each will be supported by evidence and examples from Industry.",
+        "critically analyse industry challenges and propose evidence-based recommendations by engaging with diverse stakeholders, synthesising research findings, and evaluating alternative solutions;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C5: the Research Pathway (one of two elective capstone routes) meets Level 2's methodology-selection-and-data-collection anchor, but the equally available Industry Pathway does not; because Level 3 explicitly excludes 'one route among several' and Level 2 credit is not guaranteed program-wide, the score is resolved down to Level 1, anchored on the literature-review evidence common to both routes.",
+    "W2: Level 2 vs Level 3 — the memo-to-management/Fair-Work-Commission tasks (Law and HRM) plus the capstone could be read as scaffolding toward an assessment 'spine' (Level 3), but only two authentic instances are documented and no line confirms a genuine constraint of practice beyond the student-defined problem; resolved to Level 2.",
+    "C1: the course-level generic skill 'collaborate effectively and demonstrate leadership in diverse settings' names collaboration only at the outcomes level; no assessment item explicitly assesses group/team/stakeholder-coordination work, so this was NOT read up to Level 2.",
+    "W3: the Industry Project's 'engage diverse stakeholders to validate HRM issues' could suggest a live-client or workplace element (potential Level 2), but no placement, practitioner-supervision, or host-accountability language appears in the extract, so this was scored at Level 0 rather than inferred upward.",
+    "C4: demoted from Level 3 to Level 1 on evidence-quality review — the originally cited lines were structural/outcomes text, not assessment-table items. Two genuinely assessed self-scoping items exist in the extract (draft problem-identification/research-question deliverables in both capstone pathways) but were not cited in this pass, so the score was not raised on their basis; a fresh scoring pass citing them could legitimately land C4 at 2 or 3."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

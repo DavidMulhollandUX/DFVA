@@ -1,0 +1,144 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor is satisfied several times over: core units assess collaborative practice through graded group tasks (Professional Practice 1 group presentation, Professional Practice 2 group presentation, both Dental Research Project subjects' group oral presentations, and an assessed collaborative online discussion in Diseases and Dentistry), and teamwork is documented as taught content in the operatory. Level 3 is not reached: the anchor requires, in addition to recurrence, at least one assessment where coordinating work across people AND tools/AI systems is itself assessed — no assessment task in the extract documents allocation of work between people and tools or systems, and no gen-AI system appears anywhere. Placement/clinical-team evidence is deliberately not counted here (it scores in W3), per the one-construct-one-home rule.",
+    "evidenceLines": [
+      "Collaborative online discussion",
+      "Group presentation (4-6 student per group)",
+      "Group Presentation - 20 minutes",
+      "Group oral presentation (4 – 5 students per group)",
+      "Group oral presentation 4-5 members per group",
+      "Students will learn about correct posture, safety, and working as a team (assistant and operator) in the dental operatory during the provision of these procedures.",
+      "Discuss interprofessional collaborative practice in healthcare"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 is documented: criterion-referenced appraisal of quality is embedded in core assessment as a programmatic portfolio system — student-curated portfolios responding to prescribed tasks, carrying 20–50% of the mark in every year, with regular milestone assessment and feedback against coordinator standards, plus a reflective-practice portfolio worth 50% in Professional Practice 1. Level 3 is not reached: the anchor requires assessment that makes students document and justify reliance decisions (relying on or overriding a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time. The handbook names reflection and self-evaluation as portfolio content but never documents a task requiring a justified reliance decision or a recorded change of strategy; the peer-reflection outcome in Dental Practice 3 is an outcome statement, not an assessment specification (R2). Ambiguity between 2 and 3 resolved downward.",
+    "evidenceLines": [
+      "Portfolio incorporating reflective practice",
+      "Portfolio: A student curated compilation that responds to prescribed tasks submitted regularly throughout the year.",
+      "The Portfolio assessment forms part of the programmatic approach to assessment being taken at MDS.",
+      "Apply the principles of reflective practice personally and with peers, to critically reflect on their clinical experience, knowledge, skills and the application of these in the provision of evidence-based dental care."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "No generative-AI content of any kind appears in the extract. Digital content is present in core units, but at the operational level the anchor caps at 1 — describing how digital technologies manage health information, and using contemporary information technology for documentation. The single line that reaches beyond operation, the Dental Practice 3 outcome on critically evaluating digital technologies including ethical implications and system limitations, is an intended learning outcome; no assessment task in that subject (portfolio, ongoing clinical practice, case-based discussions, OSCE, written exam) is documented as requiring appraisal of digital-tool limits, so R2 forbids crediting it at level 2 ('discussed and assessed'). Ambiguity between 1 and 2 resolved downward per the scoring-direction rule.",
+    "evidenceLines": [
+      "Describe how digital technologies are used to manage health information and inform person-centred care",
+      "Describe how digital health technologies are used across the health system to manage care.",
+      "use contemporary information technology for documentation, management of information and applications related to health care;",
+      "Critically evaluate the use of digital technologies in delivering person-centred care, considering patient digital literacy, ethical implications, and health system limitations."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3's first route — documented structured progression toward independent learning via a self-scoped research project — is met with assessment evidence, not outcome statements. The research strand is required of every student and runs across two core year-long subjects: students scope a proposal in an area of their own interest, are individually assessed on research design and on formulating their own research questions, then complete and report the project under a research mentor. That is a self-scoped project with staged assessment, which is more than the level-2 floor of applying methods to unfamiliar problems (itself independently met by the unknown-case and unknown-patient assessments, though those lines are scored in W2 as the practice constraint). Placement/WIL routes are excluded here by construction in v4.1.",
+    "evidenceLines": [
+      "Students will conduct a research-based project as a required component of the degree.",
+      "Students will have the opportunity to develop a research proposal in an area of interest related to dental, oral, and craniofacial research.",
+      "Research Design (Individual)",
+      "Develop rigorous, feasible research questions based on their knowledge of study design and analysis of trends in information/data",
+      "Critically reflect on their knowledge and skills as a dental practitioner and develop a plan for continued learning"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 is documented: students design and conduct an inquiry with methodology selection and data collection, and it is assessed — an individually assessed research design, a proposal poster and literature review in year 2, then a progress report and a 3000-word research report in year 3, with an outcome requiring justification of data-collection methods. Level 3 is not reached: the anchor requires a substantial project generating primary evidence that is REQUIRED rather than one route among several, with methodology defended under scrutiny. The subject description permits 'a small research-based or professionally focused project', so primary evidence generation is one route rather than the requirement, the project is described as small, and no viva, defence or staged supervised review of methodology is specified as an assessment task (mentor supervision and a group oral presentation are documented, but the extract does not describe methodology being defended under scrutiny). Ambiguity between 2 and 3 resolved downward.",
+    "evidenceLines": [
+      "Justify data collection methods to address a research question or project need.",
+      "Research Report",
+      "Literature Review",
+      "Under supervision of a research mentor, students will extend their knowledge and skills in the research domain.",
+      "complete a small research-based or professionally focused project"
+    ]
+  },
+  "adaptiveness": 10,
+  "W1": {
+    "score": 3,
+    "rationale": "Both level-3 conditions are documented. Progressive, repeated assessment of professional communication: an oral presentation and a group presentation in Professional Practice 1, a group presentation in Professional Practice 2, portfolio strands in Professional Practice 3, then case presentation and viva assessments in the final year, with clinical communication with patients and colleagues an assessed outcome of the year-2 and year-3 clinical subjects. Real external audience: assessment is delivered to and about real patients — a case presentation of a known patient and a viva of an unknown patient, both hurdles or heavily weighted, plus multi-source feedback drawn from beyond the teaching team. Professional conduct is explicitly among the assessed criteria as a standalone pass/fail hurdle, 'Satisfactory Professional Behaviour', so this is not a stated graduate attribute being credited (R2/Barrie satisfied).",
+    "evidenceLines": [
+      "Satisfactory Professional Behaviour (Pass/Fail)",
+      "Multi-source feedback (Pass/Fail)",
+      "Case presentation of a known patient (4000 word count equivalence)",
+      "Oral Exam (Viva Voce)- of an unknown patient (3000 word count equivalence)",
+      "Group presentation (4-6 student per group)",
+      "Demonstrate active listening and empathy and engage in respectful verbal and non-verbal communication with the person receiving care and colleagues;"
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Tasks reproducing the criterion situation of dental practice are the assessment spine, not a single instance: ongoing assessment of simulation practice and an OSCE in year 1, an OSCE plus ongoing assessment of clinical practice and a portfolio of patient case reports in year 2, mini-clinical evaluation exercises across specialist activities and case-based discussions in year 3, and an OSCE, portfolio of ongoing patient care and case presentation in the year-4 capstone — at least one per stage, with the capstone on top. The genuine constraint of practice is documented rather than labelled (R4): standardised case-based discussions and a viva on an UNKNOWN case/patient supply an externally set, ambiguous problem under time limits, and the assessed requirement to comply with national standards for safety, quality and clinical care is the profession's own standard of performance. Scored on task fidelity only — appraisal of quality is left to C2 and workplace immersion to W3.",
+    "evidenceLines": [
+      "Objective Structured Clinical Examination (OSCE) 3 Hours (3000 words equivalent)",
+      "Ongoing Assessment of Simulation Practice",
+      "Mini-Clinical Evaluation Exercises (up to 5 specialist practice activities)",
+      "Portfolio: a student curated compilation of patient case reports from general dental practice, periodontics and removable prosthodontics clinics",
+      "Standardised case-based discussion (Unknown case)",
+      "Standardised Case-Based Discussion (Unknown Case)",
+      "Comply with national standards for safety, quality and clinical care, and explain their responsibilities for the safe and effective management of persons under their care;",
+      "This year-long subject is developed as a capstone experience with a practice based learning approach."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3 on every clause. Extended and required: clinical placement is core from year 2 and becomes the whole of the 100-credit-point final-year subject, spanning the Royal Dental Hospital of Melbourne, the Melbourne Dental Clinic, urban and rural community health centres and hospital rotations. Practitioner supervision is documented ('Under supervision, students apply knowledge in real-world settings'). It is assessed and carries accountability to the host: attendance at all clinical placements, hospital rotations, on-call and emergency service is a pass/fail hurdle, as is a portfolio of ongoing patient care, and the rural rotation carries its own presentation and report. Structured reflection on professional practice is explicit in the placement design. Simulation evidence is excluded here and scored in W2.",
+    "evidenceLines": [
+      "Clinical placement occurs at the Royal Dental Hospital of Melbourne and other metropolitan and rural sites.",
+      "This subject comprises clinical learning (general dentistry) in the Melbourne Dental Clinic (MDC), the Royal Dental Hospital of Melbourne, urban community health centres, specialist practice/hospital clinics and rural community health clinics.",
+      "Clinical experiences: Under supervision, students apply knowledge in real-world settings, focusing on general practice, periodontics and removable prosthodontics.",
+      "Attendance at all Back-to-Base sessions & Clinical Placements (including hospital rotations, On-Call, Emergency Service & Field visits) (Pass/Fail)",
+      "Portfolio of ongoing patient care (Pass/Fail)",
+      "Rural Placement Presentation and Report",
+      "The clinical practice sessions, especially at the community health centres, will allow students to reflect on emotional and practical issues of transition from the university learning environment to the world of independent clinical practice.",
+      "Ongoing assessment of clinical practice*"
+    ]
+  },
+  "workplace": 9,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "An all-compulsory specialist core with an enforced staged progression chain and external accreditation: 400 credit points of compulsory subjects, every subject in a year required before progression to the next, and the sequence externally accredited by the Australian Dental Council. Technical depth is progressive across the named subject chain (preclinical practice, then Dental Practice 2, 3 and Comprehensive Dental Practice). Nothing generic or interchangeable.",
+      "evidenceLines": [
+        "The Doctor of Dental Surgery requires the successful completion of 400 credit points of compulsory subjects.",
+        "All subjects in each year of study (100 credit points) must be successfully completed for progression to the next year of study.",
+        "Australian Dental Council (ADC)"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Assessments require defended trade-off decisions under real uncertainty and accountability: a viva of an unknown patient and standardised case-based discussions on unknown cases in years 2, 3 and 4, plus assessed treatment planning that requires proposing options and arriving with the patient at a treatment of choice for simple and complex conditions, and comprehensive planning that weighs prognosis and individual patient context. This is not recall or scripted response.",
+      "evidenceLines": [
+        "Oral Exam (Viva Voce)- of an unknown patient (3000 word count equivalence)",
+        "Standardised Case-Based Discussion (Unknown Case)",
+        "demonstrate skills in formulating appropriate treatment plans to suit the patient (for simple and complex general dental conditions), be able to propose treatment options (based on sound oral health care philosophies) and discuss with the patient to arrive at the treatment of choice;",
+        "Formulate and record a person-centred comprehensive treatment plan considering prognosis and individual patient context, incorporating specialist and other health and care professionals."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2 straddled 2 and 3: the four-year programmatic portfolio with milestone feedback could be read as process-focused assessment evidencing strategy adjustment over time (level 3), but no task specification requires a documented and justified reliance decision or a recorded change of strategy. Scoring-direction rule (never resolve upward) held it at 2.",
+    "C3 straddled 1 and 2: 'Critically evaluate the use of digital technologies ... considering ... ethical implications, and health system limitations' addresses limits, which reads toward level 2, but it is an outcome statement with no matching assessment task, and there is no AI content at all. R2 plus the downward rule held it at 1.",
+    "C5 straddled 2 and 3: the research project is required of every student and supervised by a mentor with staged deliverables, which reads toward level 3, but the project is described as 'small' and may be 'professionally focused' rather than generating primary evidence, and no viva or defence of methodology is specified. Downward rule held it at 2.",
+    "Unknown-case and unknown-patient assessments evidence both C4 level 2 (application to unfamiliar problems) and W2 level 3 (an externally supplied, ambiguous problem). Under one-construct-one-home they are cited in W2, since W2's anchor names the practice constraint; C4 is scored 3 on separate research-project evidence.",
+    "The final-year clinical subject supplies evidence that could be read into C1 (interprofessional team coordination) and C4 (work-integrated learning). Per the v4.1 migration notes both routes moved to W3, so all placement evidence is scored there and nowhere else.",
+    "Group presentations in the two research subjects support both C1 (assessed collaboration) and C5/W1 (communicating findings). They are cited for C1's collaboration anchor; W1's score rests on patient-facing and professional-conduct assessments instead."
+  ],
+  "notScoreable": [
+    "C3 — the AI half of the construct is unevidenced rather than scored: the extract contains no mention of artificial intelligence, generative AI or AI governance in any course page, subject overview, learning outcome or assessment. The score of 1 rests entirely on digital-health evidence, so a future capture that includes any AI content should re-score this item rather than assume 1 is stable."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-14"
+  }
+};
+
+export default record;

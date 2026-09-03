@@ -49,7 +49,7 @@ const v3Exposure = new Map(
 )
 
 // --- the v4-only programs and the exposure the generator gave them -----------
-const v4Src = readFileSync(path.join(ROOT, 'compass/app/src/compass/v4/data/v4PanelC.ts'), 'utf8')
+const v4Src = readFileSync(path.join(ROOT, 'compass/app/src/compass/v4/data/v4Basis.ts'), 'utf8')
 const v4OnlyBlock = v4Src.match(/export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = (\{[\s\S]*?\n\});/)
 interface V4Only { code: string; name: string; exposure: number | null; nTitles: number | null; exposureBasis: PanelABasis | null }
 const v4Only: Record<string, V4Only> = v4OnlyBlock ? JSON.parse(v4OnlyBlock[1]) : {}

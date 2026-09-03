@@ -1,0 +1,114 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1 anchor is met: teamwork appears in the program's generic skills ('Team work and professional networking') but no universally required subject assesses it. Level 2 is unmet across the whole cohort under the common denominator rule (R1): while capstone option POLS90034 International Policymaking in Practice assesses a group capstone project (6000 words, 40%) and group presentation (10%), students in alternative capstone options (POLS90066 Minor Thesis or POLS90009 Internship) complete solely individual assessments, leaving group collaboration non-guaranteed for the entire graduating cohort.",
+    "evidenceLines": [
+      "Team work and professional networking",
+      "POLS90034 International Policymaking in Practice ... Capstone project (Group) (6000 words (total), 40%)",
+      "POLS90028 International Relations Theory ... A 2 hour mid-semester written exam (40%) ... A research essay (60%)"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor is met: reflection appears in outcomes without any core unit assessing appraisal against criteria — POLS90066 lists the intended learning outcome 'Reflect on the methodological, analytical and organisational skills required in social science research', and capstone option POLS90009 assesses a 3000-word reflective essay (30%). Level 2 is not met: the anchor requires criterion-referenced appraisal of the quality of work — peer review, structured critique, portfolio with standards, or marking against exemplars — and none of those mechanisms appears anywhere in the capture. In compulsory core POLS90028 International Relations Theory, students relate theoretical debates about world politics to practical problems and issues in a 2-hour exam (40%) and a 3000-word research essay (60%); appraising rival theories is appraisal of ideas, not criterion-referenced appraisal of work. In capstone POLS90034 International Policymaking in Practice, students produce an assessed 3500-word policy brief (35%) and 1500-word editorial (15%) — artefacts a marker grades, requiring no appraisal by the student of anyone's work. Level 3 is not met either: no core assessment requires students to document and justify reliance decisions regarding automated open-source intelligence (OSINT) tools or AI diplomatic synthesis models, defend judgements of AI foreign policy briefs, or evidence strategy adjustment over time.",
+    "evidenceLines": [
+      "Reflect on the methodological, analytical and organisational skills required in social science research",
+      "International Relations Theory (POLS90028) ... A 2 hour mid-semester written exam (2000 words, 40%) ... A research essay (3000 words, 60%)",
+      "International Policymaking in Practice (POLS90034) ... Policy brief (3500 words, 35%) ... Editorial (1500 words, 15%)"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor is met: engagement with electronic databases appears in one elective subject (ASIA90001 Human Rights in Southeast Asia). Level 2 is unmet: no compulsory core unit addresses AI capabilities AND limitations/ethics in international affairs (such as automated influence operations, algorithmic open-source intelligence analysis, or synthetic media in foreign policy) with use limits discussed and assessed. Specialised cyberpolitics subjects (e.g. POLS90065 Cyberpolitics in International Relations) exist only as optional electives.",
+    "evidenceLines": [
+      "ASIA90001 Human Rights in Southeast Asia (elective) ... Become skilled in information management and information literacy through the practice of library and archival research and engagement with electronic databases",
+      "POLS90065 Cyberpolitics in International Relations ... Elective offering"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2 anchor is satisfied: core assessment requires students to relate theoretical debates about world politics to practical problems and issues (POLS90028). Level 3 is not met: the program does not mandate a universal self-scoped capstone or assessed identification of one's own knowledge gaps with a plan to close them across all graduation streams (the minor thesis is one capstone route among three).",
+    "evidenceLines": [
+      "Apply key concepts and theories of international relations to many important global issues",
+      "Apply relevant conceptual and empirical knowledge to specialised subfields of International Relations",
+      "International Relations Theory (POLS90028) ... A research essay (3000 words, 60%)"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 anchor is satisfied: students design and conduct an assessed inquiry in whichever capstone route they take. In compulsory core POLS90028 International Relations Theory, students complete an assessed 3000-word research essay (60%). In capstone POLS90034 students develop a research, policy or campaign project, and on the thesis route POLS90054/POLS90055 students write a 12,000-word thesis under supervision. Level 3 is not met: an empirical project with formal viva defense under external academic or diplomatic scrutiny is not required across the core.",
+    "evidenceLines": [
+      "International Relations Theory (POLS90028) ... A research essay (3000 words, 60%)",
+      "International Policymaking in Practice (POLS90034) ... Capstone project (6000 words, 40%)"
+    ]
+  },
+  "adaptiveness": 7,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2 anchor is satisfied: at least one core assessment requires a recognised professional genre judged against criteria drawn from professional practice. In capstone POLS90034 International Policymaking in Practice, students author a formal 3500-word policy brief (35%) and 1500-word editorial (15%), and the subject documents that students 'develop professional writing and oral presentation skills relevant to communicating project goals and outcomes to different stakeholders'. Level 3 is not met: no core assessment is documented as delivered to, or judged by, a real external diplomatic mission, government department, or multilateral agency panel with professional conduct explicitly among the assessed criteria.",
+    "evidenceLines": [
+      "International Policymaking in Practice (POLS90034) ... Policy brief (3500 words, 35%) ... Editorial (1500 words, 15%)",
+      "Develop practical skills relevant to an internationally-oriented career in government, business, international organisations, non-government organisations"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2 anchor is satisfied: core assessment reproduces a professional policy task end to end: a policy brief (3500 words, 35%), an editorial (1500 words, 15%) and a group capstone project (6000 words, 40%). Resolved downward from level 3 on adversarial verification: tasks are submitted to academic instructors without externally supplied live diplomatic briefs or consequential external stakeholders documented in the assessment tables (R4).",
+    "evidenceLines": [
+      "International Policymaking in Practice (POLS90034) ... Policy brief (3500 words, 35%) ... Capstone project (6000 words, 40%)"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1 anchor is met: work-situated learning exists only as an optional internship. While POLS90009 International Relations Internship offers a 25-point workplace placement, it is one optional capstone route among three (competing with POLS90034 and POLS90066 Minor Thesis). Work-situated learning is therefore not a guaranteed core requirement for every graduating student in the cohort.",
+    "evidenceLines": [
+      "POLS90009 International Relations Internship (25 points) ... Capstone Option 1",
+      "POLS90034 International Policymaking in Practice (25 points) ... Capstone Option 2",
+      "POLS90066 Writing a Social Science Minor Thesis (12.5 points) ... Capstone Option 3"
+    ]
+  },
+  "workplace": 5,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS condition is met: the program documents a compulsory core of International Relations Theory — with Asia and the World and International History in the 150 and 200 point streams — plus a required capstone and an IR-focused elective pool, offered jointly by several Schools within the Faculty of Arts. Coherent, rigorous disciplinary curriculum.",
+      "evidenceLines": [
+        "The Master of International Relations combines advanced study in the field of international relations, with relevant professional skills development, and an electives program that is specifically designed to offer breadth and depth of expertise.",
+        "Compulsory subject (12.5 points): ... POLS90028 International Relations Theory",
+        "Offered jointly by several Schools within the Faculty of Arts"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS condition is met: assessment requires complex strategic trade-off decisions under international uncertainty — in capstone POLS90034 International Policymaking in Practice, students identify pressing political issues, analyse their key drivers, and develop a research, policy or campaign project to address them, working in teams on 'practical, real world problems in international relations'.",
+      "evidenceLines": [
+        "students work in teams to transfer their knowledge of global politics gained in the Master's degree to practical, real world problems in international relations",
+        "students will identify pressing political issues, analyse their key drivers, and develop a research, policy, or campaign project to address them",
+        "International Policymaking in Practice (POLS90034) ... Capstone project (Group) (6000 words (total), 40%)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1 straddled 1 and 2: POLS90034 assesses group project work (40%), but because students can choose the minor thesis option (POLS90066/54) which is entirely individual, group collaboration is not guaranteed across all graduation routes. Scored at 1 per R1.",
+    "C2 straddled 1 and 2: reflection appears in outcomes (POLS90066) and in one capstone option's assessment (POLS90009), but no core unit assesses appraisal of work against criteria — no peer review, exemplar, rubric or portfolio appears anywhere in the capture. Scored at 1 per R3.",
+    "C3 straddled 1 and 2: engagement with electronic databases appears in an elective (ASIA90001), and specialised AI and cyberpolitics subjects (POLS90065) are also electives. Scored at level 1 per R1.",
+    "C4 straddled 2 and 3: transfer of theoretical debates to practical problems and issues is assessed in the core (level 2), but self-capability gap tracking is unevidenced. Scored at 2.",
+    "C5 straddled 2 and 3: the 3000-word research essay in POLS90028 and the required capstone inquiry satisfy level 2, but oral viva defense under external scrutiny is unevidenced. Scored at 2.",
+    "W1 straddled 2 and 3: policy briefs and editorials in POLS90034 satisfy level 2 professional genres, but assessment by real external diplomatic panels is unevidenced. Scored at 2.",
+    "W2 straddled 2 and 3: authentic foreign policy tasks are assessed, but tasks are submitted to academic instructors without externally supplied live briefs. Resolved downward to 2 per R4.",
+    "W3 straddled 1 and 2: POLS90009 Internship is an elective capstone option rather than a universal requirement across all streams. Scored at 1 per R1."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-25"
+  }
+};
+
+export default record;

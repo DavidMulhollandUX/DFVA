@@ -1,0 +1,129 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2: a compulsory core unit assesses collaborative practice via a graded group project — EDUC91091's group Unit of work is 30% of a core subject, matching the Level 2 anchor for assessed collaborative practice. Level 3 is not reached: only this one core unit documents an assessed collaborative task (no recurrence), and no assessment documents coordinating work across people AND tools/AI systems.",
+    "evidenceLines": [
+      "Unit of work: Inquiry-based unit of work (group assignment) focusing on the Humanities curriculum",
+      "Teamwork and professional collaboration."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: EDUC91087's core, graded 'Analytical paper: Trialing and critiquing a literacy assessment device' (30%) is a structured critique of a professional tool. The Capstone's graded reflective assessment gestures toward Level 3's reliance/strategy-adjustment evidence, but the extract never documents justified reliance-on/override-of a tool, source or collaborator, or a staged evidenced strategy adjustment — ambiguous, resolved to the lower level.",
+    "evidenceLines": [
+      "Analytical paper: Trialing and critiquing a literacy assessment device",
+      "Interactive oral analysis and written reflection*",
+      "Reflect critically on theory, scholarship and professional practice and feedback to identify, evaluate and act on opportunities for learning about educational issues and associated theories in existing research."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1: digital/ICT content and its ethical use appear repeatedly as learning-outcome statements across core units. No generative-AI content appears anywhere in the extract, and no graded assessment item requires critique of digital-tool capabilities, limitations, ethics or governance — per R2, an outcome that is never assessed scores 1.",
+    "evidenceLines": [
+      "Select and integrate a range of resources, including safe, responsible and ethical use of ICT, into learning sequences and plans to expand science learning opportunities for students.",
+      "Use effective teaching strategies informed by curriculum and/ or approved learning frameworks for content in the areas of Health and Physical Education, and for the safe, responsible and ethical use of ICT.",
+      "Demonstrate an understanding of issues and strategies to support the safe and ethical use of ICT."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: the compulsory, year-long Professional Learning Capstone is explicitly self-scoped — candidates make 'all critical decisions about the nature of the work that is undertaken' — and is assessed via the graded Capstone project proposal (15%), matching the self-scoped capstone/research-project anchor.",
+    "evidenceLines": [
+      "In the Capstone, Teacher Candidates/ Interns work in a process of critical inquiry to define and resolve complex problems in depth, making all critical decisions about the nature of the work that is undertaken and outcomes that might unfold as a self-study of teaching practice.",
+      "Capstone project proposal",
+      "Informed by a work-integrated-learning experience, identify and research a complex or challenging problem and propose solutions for improving teaching practice."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: EDUC91083's core, graded 'Literature review: Analysis of student data (4 survey samples) collected during placement' (50%) requires collecting and analysing primary data. Level 3 is not reached: the Capstone gestures toward a substantial primary-evidence project but the extract never states the methodology is 'defended under scrutiny' — ambiguous, resolved to the lower level.",
+    "evidenceLines": [
+      "Literature review: Analysis of student data (4 survey samples) collected during placement"
+    ]
+  },
+  "adaptiveness": 10,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1: communication/conduct appear as outcome statements, and core assessment adds presentations to peers/staff (EDUC91090, 20%), but no assessment item is a recognised professional genre or documented as reaching an audience beyond the teaching team. The Capstone's 'Professional Learning Conference presentation' is suggestively named but audience is never confirmed — ambiguous, resolved to the lower level.",
+    "evidenceLines": [
+      "Establish and maintain ethical and respectful relationships with students, colleagues and parents/carers, working independently and collaboratively across the school/centre community",
+      "Presentation: 10-minute presentation of a series of learning activities and collection of peer feedback following presentation",
+      "Professional Learning Conference presentation**",
+      "Hurdle requirement: Teacher Candidates/Interns must deliver a presentation and participate in the conference."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2: core content-area units repeatedly require producing the artefact a practising teacher would produce — EDUC91084 (25%), EDUC91086 (50%), EDUC91089 (40%). This recurrence could support Level 3's 'assessment spine,' but the extract never states judging criteria are drawn from professional practice nor documents a genuine constraint of practice on these tasks — ambiguous, resolved to the lower level.",
+    "evidenceLines": [
+      "Report: Design and justify a set of assessment tasks for a Measurement topic",
+      "Unit Plan: A unit of work for a Statistics or Probability topic",
+      "Lesson Sequence: Planning and justification of a primary science lesson sequence using the 5E inquiry model"
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: three core, compulsory subjects each carry a 20-day Clinical Teaching Practicum (60 placement days total), supervised by Clinical Educators and Mentor Teachers, graded as pass/fail hurdles plus a documented ePortfolio, plus a further 60-hour WIL hurdle in the Capstone — matching substantial, required, supervised, assessed work-situated learning with structured reflection.",
+    "evidenceLines": [
+      "3 x Engaging and Assessing Learners subjects (which incorporate 60 placement days in primary schools); and",
+      "Clinical Teaching Practicum (placement): Demonstration of clinical teaching practice against Australian Professional Standards for Teachers at the Graduate level",
+      "Hurdle requirement: The Clinical Teaching Practicum (placement) must be passed and 100% attendance is required on all placement days.",
+      "Teacher Candidates are supported by experienced Clinical Educators and Mentor Teachers.",
+      "Hurdle requirement: Teacher Candidates/Interns must complete this practical component of the subject."
+    ]
+  },
+  "workplace": 6,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "All-compulsory, VIT/AITSL-accredited 15-subject core taken in a fixed sequence with progressive depth (e.g. Mathematics Education: Primary 1 to 3).",
+      "evidenceLines": [
+        "The Master of Teaching (Primary) requires completion of 15 compulsory subjects, which must be taken in the sequence outlined in the Standard mode, or the Extended mode.",
+        "The Master of Teaching (Primary) is accredited by the Victorian Institute of Teaching (VIT) according to the Australian Institute of Teaching and School Leadership (AITSL) Graduate Standards and Initial Teacher Education Program Standards."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Compulsory live-classroom placements and a self-directed capstone both require defended decisions under real, unscripted conditions with graded, supervised accountability, beyond recall or scripted response.",
+      "evidenceLines": [
+        "This subject includes a Clinical Teaching Practicum (placement) in a Primary school. During the placement, Teacher Candidates will begin to demonstrate the nexus between theory and the practice of teaching, drawing on a range of theoretical perspectives and contemporary research to support their teaching practice.",
+        "Demonstrate the capacity to effectively implement classroom rules, organise classroom routines, provide clear directions and apply practical approaches to manage disruptive and challenging behaviour using a range of proportional verbal and non-verbal communication strategies.",
+        "In the Capstone, Teacher Candidates/ Interns work in a process of critical inquiry to define and resolve complex problems in depth, making all critical decisions about the nature of the work that is undertaken and outcomes that might unfold as a self-study of teaching practice."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2: whether the Capstone's assessed reflective/self-study components (Interactive oral analysis and written reflection, 25%) document justified reliance decisions or evidenced strategy adjustment sufficient for Level 3 — the extract does not use that language, so resolved to Level 2.",
+    "C5: whether the Capstone's 'ethical evidence-based inquiry' and oral-analysis assessment constitute a substantial primary-evidence project with methodology 'defended under scrutiny' (Level 3) — not stated explicitly, so resolved to Level 2 using EDUC91083's data-analysis assessment as the anchor.",
+    "W1: whether the Capstone's 'Professional Learning Conference presentation' reaches a real audience beyond the teaching team (Level 2) — the extract names it a 'conference' but never states who attends, so resolved to Level 1.",
+    "W2: whether the recurring practitioner-artefact assessments across the mathematics and science core subjects (unit plans, lesson sequences, assessment-task design) constitute the program's assessment 'spine' with a genuine constraint of practice (Level 3) — the extract does not state the judging criteria are drawn from professional practice, so resolved to Level 2."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-31"
+    },
+    "mechanical": true,
+    "date": "2026-08-31"
+  }
+};
+
+export default record;

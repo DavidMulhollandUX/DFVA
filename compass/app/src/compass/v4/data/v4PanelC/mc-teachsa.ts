@@ -1,0 +1,131 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Teamwork/collaboration is named as a generic-skill outcome (course-level and repeated at subject level) and in the course-level graduate-attribute statement, but no assessment item anywhere in the extract grades collaborative practice — no group project with individual accountability, client/stakeholder work, or interprofessional activity appears in any assessment table. Matches Level 1: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.'",
+    "evidenceLines": [
+      "Teamwork and professional collaboration",
+      "Establish and maintain ethical and respectful relationships with students, colleagues and parents/carers, working independently and collaboratively across the school/centre community"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "The Professional Learning Capstone assesses criterion-referenced reflective appraisal at substantial weight ('Interactive oral analysis and written reflection*' 25% and 'WIL reflection digital portfolio' 25%), tied to an ILO requiring students to 'identify, evaluate and act on opportunities for learning' from feedback and practice — criterion-referenced appraisal of quality, matching Level 2. The extract does not document an assessed requirement to justify specific reliance/override decisions on a tool, source or collaborator, nor an explicit process-tracked strategy-adjustment brief, so Level 3 is not reached (see ambiguities).",
+    "evidenceLines": [
+      "Interactive oral analysis and written reflection*",
+      "WIL reflection digital portfolio",
+      "Reflect critically on theory, scholarship and professional practice and feedback to identify, evaluate and act on opportunities for learning about educational issues and associated theories in existing research."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Digital/ICT content appears repeatedly at tool-operation level in course- and subject-level outcomes and in the Capstone's 'safe and ethical use of ICT' outcome, but no assessment item in the extract grades AI capabilities and limitations/ethics, and generative AI is never named anywhere in the extract. Matches Level 1: content capped at tool-operation/training.",
+    "evidenceLines": [
+      "Interpret, design and implement relevant curriculum and pedagogy, integrating digital technologies and differentiating teaching to promote participation and inclusion of all students in their learning",
+      "Teacher Candidates are supported to develop knowledge and skills related to curriculum content, best practice pedagogy and assessment, as well as the application and management of these activities. Framed through the Clinical Teaching Model, they are supported to adapt and apply this knowledge in lesson planning, including the selection and integration of teaching strategies and resources, including the effective and appropriate use of ICT, to meet the specific needs of students from diverse backgrounds, and to engage students in their learning.",
+      "Demonstrate an understanding of issues and strategies to support the safe and ethical use of ICT."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3 is met on the second route: the core Leadership in Schools subject assesses a 'Professional Learning Plan: Professional learning plan to broaden professional knowledge and skills in teaching' at 50%, directly tied to an ILO to 'critically reflect on feedback from supervisors and teachers to improve professional knowledge and practices through a professional learning plan' — assessed identification of one's own learning needs together with a plan to close them. Reinforced by the required, self-scoped Professional Learning Capstone, whose overview documents candidates 'making all critical decisions about the nature of the work that is undertaken' in a 'self-study of teaching practice.'",
+    "evidenceLines": [
+      "Professional Learning Plan: Professional learning plan to broaden professional knowledge and skills in teaching.",
+      "Critically reflect on feedback from supervisors and teachers to improve professional knowledge and practices through a professional learning plan.",
+      "In the Capstone, Teacher Candidates/ Interns work in a process of critical inquiry to define and resolve complex problems in depth, making all critical decisions about the nature of the work that is undertaken and outcomes that might unfold as a self-study of teaching practice."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "The Professional Learning Capstone requires students to 'design and develop an ethical evidence-based inquiry that informs professional learning to improve teaching practices,' assessed via a 'Capstone project proposal' (15%) plus reflection/portfolio components — methodology selection and data collection, assessed, matching Level 2. It is a required core subject with no alternative non-inquiry route documented in the current (post-2022) course structure, suggestive of Level 3, but the extract does not document the inquiry's methodology being defended under adversarial or staged supervised scrutiny — resolved at the lower level (see ambiguities).",
+    "evidenceLines": [
+      "Design and develop an ethical evidence-based inquiry that informs professional learning to improve teaching practices.",
+      "Capstone project proposal",
+      "Interactive oral analysis and written reflection*"
+    ]
+  },
+  "adaptiveness": 9,
+  "W1": {
+    "score": 1,
+    "rationale": "Professional conduct/ethics is named in outcomes and graduate attributes, and core assessment includes presentation-style artefacts (a 15-minute podcast/video position statement; a script of a professional conversation), but the extract does not document any assessment judged by, or delivered to, an audience beyond the teaching team against criteria drawn from professional practice. Matches Level 1: communication/conduct in outcomes plus teaching-team-facing artefacts, no documented professional-genre/external-audience assessment.",
+    "evidenceLines": [
+      "Establish and maintain ethical and respectful relationships with students, colleagues and parents/carers, working independently and collaboratively across the school/centre community",
+      "Position statement on educational purposes (15-minute podcast or video)",
+      "Script: Annotated script of a conversation for a student wellbeing issue"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "'Planning document: Lesson plan' (60% of subject weight) and its companion 'Report: Written report on pedagogical content knowledge' (40%) recur as the assessment spine across essentially every Learning Area subject — the lesson plan is the artefact a practitioner produces, judged against curriculum-framework criteria: matches Level 2. The Assessment for Graduate Teaching (AfGT), explicitly framed as 'demonstrating readiness for the profession' and hurdle-gated, could support Level 3's 'profession's own standards of performance' clause, but it is entangled with Clinical Teaching Practicum placement evidence, whose construct home under the one-construct-one-home rule is W3 — resolved at the lower level.",
+    "evidenceLines": [
+      "Planning document: Lesson plan",
+      "Report: Written report on pedagogical content knowledge",
+      "As part of this subject, Teacher Candidates will complete the Assessment for Graduate Teaching (AfGT), demonstrating their readiness for the profession."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Work-situated learning is substantial, required, and recurring in the core: the course structure documents '3 x Engaging and Assessing Learners subjects (which incorporate 60 placement days in secondary schools)'; each placement is a pass/fail hurdle with 100% attendance required, supervised by Clinical Educators and Mentor Teachers, and assessed via an ePortfolio requiring documented lesson plans, observations, reflections and evaluations. The Professional Learning Capstone adds a further hurdle-gated 60-hour Work Integrated Learning Experience with an assessed reflective portfolio. Matches Level 3.",
+    "evidenceLines": [
+      "3 x Engaging and Assessing Learners subjects (which incorporate 60 placement days in secondary schools);",
+      "Clinical Teaching Practicum (placement): Demonstration of clinical teaching practice against Australian Professional Standards for Teachers at the Graduate level",
+      "Hurdle requirement: The Clinical Teaching Practicum (placement) must be passed and 100% attendance is required on all placement days.",
+      "Hurdle requirement: A satisfactory Clinical Teaching Practicum ePortfolio must be developed and maintained with fully documented lesson plans, lesson observations, reflections and evaluations and relevant curriculum documents.",
+      "Work Integrated Learning Experience",
+      "Hurdle requirement: Teacher Candidates/Interns must complete this practical component of the subject."
+    ]
+  },
+  "workplace": 6,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents a VIT/AITSL-accredited, professionally staged specialist core: two progressive three-subject Learning Area sequences, three sequenced Engaging and Assessing Learners subjects carrying increasing placement responsibility, and a capstone — a coherent, accredited, sequenced professional core, not generic or interchangeable content.",
+      "evidenceLines": [
+        "The Master of Teaching (Secondary) is accredited by the Victorian Institute of Teaching (VIT) according to the Australian Institute of Teaching and School Leadership (AITSL) Graduate Standards and Initial Teacher Education Program Standards.",
+        "6 x Learning Area subjects (taken in 2 x Learning Area study sequences, or in a double sequence);"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Core assessment requires managing real, unscripted classroom situations under uncertainty, plus a hurdle-gated, scenario-based Assessment for Graduate Teaching component, combined with the Capstone's self-directed, high-stakes inquiry in which candidates make 'all critical decisions about the nature of the work.' This is accountable, real-uncertainty work, not recall or scripted response.",
+      "evidenceLines": [
+        "Demonstrate the capacity to effectively implement classroom rules, organise classroom routines, provide clear directions and apply practical approaches to manage disruptive and challenging behaviour using a range of proportional verbal and non-verbal communication strategies.",
+        "Assessment for Graduate Teaching (AfGT) Element 4 Response to Scenarios",
+        "In the Capstone, Teacher Candidates/ Interns work in a process of critical inquiry to define and resolve complex problems in depth, making all critical decisions about the nature of the work that is undertaken and outcomes that might unfold as a self-study of teaching practice."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2: the Capstone's year-long self-study inquiry with reflective portfolio and oral analysis could approach Level 3's 'evidence strategy adjustment over time,' but the extract does not document an assessed requirement to justify specific reliance/override decisions on a tool, source or collaborator — resolved at Level 2.",
+    "C5: the Capstone inquiry is a required, single-route project in the current (post-2022) structure, which could support Level 3, but the extract does not document the methodology being defended under adversarial or staged supervised scrutiny — resolved at Level 2.",
+    "W1: the wellbeing-conversation script and the podcast/video position statement are plausibly 'recognised professional genre' artefacts (Level 2), but no audience beyond the teaching team, nor explicit professional-practice-derived assessment criteria, is documented — resolved at Level 1.",
+    "W2: the Assessment for Graduate Teaching (AfGT), hurdle-gated and explicitly framed as demonstrating readiness against the Australian Professional Standards for Teachers, could satisfy Level 3's 'profession's own standards of performance' clause, but it is entangled with Clinical Teaching Practicum placement evidence (construct home W3 per the one-construct-one-home rule) — resolved at Level 2 for W2."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-31"
+    },
+    "mechanical": true,
+    "date": "2026-08-31"
+  }
+};
+
+export default record;

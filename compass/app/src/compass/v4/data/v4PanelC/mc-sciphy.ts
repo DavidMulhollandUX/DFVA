@@ -1,0 +1,148 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: collaboration appears in learning outcomes but no core unit assesses it. Group work in MC-SCIPHY is stated only as a generic skill repeated across the discipline subjects ('participate as an effective member of a group in discussions and collaborative assignments'), while every documented assessment in those subjects is an individual written assignment or written examination. The one genuinely collaborative assessment in the extract, BUSA90403's syndicate group assessments, sits inside the Professional Skills slot where students take only one of twelve listed subjects, so no student is required to encounter it — it is not core. Not level 2, which needs at least one CORE unit assessing collaborative practice; and nothing anywhere assesses coordination of work across people AND tools/AI systems, which level 3 additionally requires.",
+    "evidenceLines": [
+      "participate as an effective member of a group in discussions and collaborative assignments;",
+      "Participating as an effective member of a group in discussions and collaborative assignments;",
+      "Assignment totalling up to 18 pages of written work (due at the end of week 5)",
+      "One written examination",
+      "Students must take one of the following subjects:",
+      "Syndicate group assessments totalling 3,000 words or equivalent"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: reflection appears in graduate attributes but no core unit assesses appraisal of quality against criteria. The course-level attribute 'advanced independent critical enquiry, analysis and reflection' is a stated attribute, which R2 and Barrie forbid scoring above 1. The only criterion-referenced appraisal tasks in the extract — SCIE90013's peer-review hurdle, SCIE90005's authorship essay paired with peer review, MAST90007's 'Assess published research from a statistical point of view' — all sit in the choose-one Professional Skills list, so none is core. Not level 2, which requires core assessment to include peer review, structured critique or marking against exemplars. No assessment anywhere documents reliance decisions on a tool, source or collaborator, so level 3 is not reached.",
+    "evidenceLines": [
+      "have the ability to demonstrate advanced independent critical enquiry, analysis and reflection;",
+      "Students must take one of the following subjects:",
+      "Third written task: 1000 word Nature/Science news article. As part of the task, students will peer review each others' work. Initial submission for peer review due week 7 (hurdle requirement), final submission due week 10",
+      "Assess published research from a statistical point of view."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: digital tools appear only as electives or as tool operation/training. Every digital or computational element in the extract is optional and operational — MAST90007's 'skills in the use of statistical software' assessed through software quizzes, PHYC90006's MATLAB-based computational methods (a subject not available in 2026), and the Professional Skills options in scientific computation and quantum computing, all inside the choose-one list. Not level 2, which requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed: the one subject in the extract that names AI, LAWS90203 Science & AI: Legal & Ethical Challenges, is both an option and not available in 2026, and no page for it was captured. No AI governance or critique appears in any assessment, so level 3 fails.",
+    "evidenceLines": [
+      "Demonstrate skills in the use of statistical software;",
+      "Up to 8 online quizzes, including the use of statistical software (continuous assessment), equivalent to approximately 1000 words.",
+      "Students will develop both analytic and computational problem-solving methods, the latter using standard tools such as MATLAB.",
+      "Students must take one of the following subjects:"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3 anchor: the program documents structured progression toward independent learning through a self-scoped research project. The research project is not one route among several — it is 100 of the 200 points, required of every student, in a field of the student's own choosing, sequenced across up to four consecutive semesters as staged subjects (Pt 1 to Pt 4) with a supervisor-negotiated study plan. The assessment evidence R2 demands is the thesis submitted for examination at the end of the final semester, not merely the outcome statement about self-directed learning. This exceeds level 2, which needs only one core assessment applying methods to a novel problem.",
+    "evidenceLines": [
+      "The Master of Science (Physics) is a coursework masters degree incorporating a substantial research project.",
+      "The Master of Science (Physics) gives students the opportunity to undertake a substantive research project in a field of choice as well as a broad range of coursework subjects including a professional skills component, as a pathway to PhD study or to the workforce",
+      "Research Project (100 points).",
+      "Students will gain research experience in Physics by completing a 100 point Research Project.",
+      "The research project can be sequenced according to one of the following streams:",
+      "The thesis will be due for submission at the end of the formal examination period of the final semester of research project enrolment (usually fourth semester) if an earlier date is not specified.",
+      "You must consult your supervisor to discuss an appropriate study plan prior to enrolling in your subjects online through the Student Portal."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 anchor: students design and conduct an inquiry with methodology selection and data collection, assessed. The required 100-point research project, taken over consecutive semesters under a supervisor and submitted as a thesis for examination, documents exactly that, and it is required rather than one route among several. Level 3 additionally requires the methodology to be defended under scrutiny — a viva, defence or staged supervised review — and the extract documents no such event: the research-project subject pages (PHYC90029/90030/90033/90034/90035/90038/90040/90044) were not captured, so the only assessment fact available is thesis submission. Reading the four-part enrolment sequence as 'staged supervised review' would be an inference, so the lower level is taken.",
+    "evidenceLines": [
+      "Research Project (100 points).",
+      "Students will gain research experience in Physics by completing a 100 point Research Project.",
+      "The research project will be taken over consecutive semesters (to a maximum of four) and will begin on the Monday of the first semester of research project enrolment (semesters 1 or 2) and continue until the end of the final semester of research project enrolment. The research project work continues over summer and winter breaks, minus recreation leave of 4 weeks per year",
+      "The thesis will be due for submission at the end of the formal examination period of the final semester of research project enrolment (usually fourth semester) if an earlier date is not specified.",
+      "For how long and at what time within the enrolment the actual period of leave is to be taken needs to be negotiated with a student's supervisor."
+    ]
+  },
+  "adaptiveness": 8,
+  "W1": {
+    "score": 0,
+    "rationale": "Level 0 anchor: all core assessment is in academic genres addressed to the marker, and no professional-genre or spoken communication is assessed. Every captured discipline subject assesses only written assignments and a written examination, and the required research project culminates in a thesis submitted to examiners. Communication appears in the graduate attributes, which Barrie and R2 bar from scoring. Level 1 would additionally require core assessment to add presentation to peers or staff; there is none — the conference-style spoken presentation and journal-genre writing tasks are in SCIE90013, one of twelve Professional Skills options, and the oral presentation in SCIE90005 is likewise optional and not available in 2026.",
+    "evidenceLines": [
+      "reach a high level of achievement in writing, research or project activities, problem-solving and communication;",
+      "Two assignments totalling up to 36 pages of written work, spaced equally",
+      "One written examination",
+      "4 hour written examination (open book)",
+      "The thesis will be due for submission at the end of the formal examination period of the final semester of research project enrolment (usually fourth semester) if an earlier date is not specified.",
+      "Students must take one of the following subjects:",
+      "8 minute conference-style spoken presentation, due week 11 or 12"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: contextualised tasks appear, but the artefact produced and the criteria applied remain academic. The coursework half of the program is problem-set assignments and long written examinations, which is level 0 territory; what lifts it to 1 is the required research project on a live physics problem, whose artefact is a thesis examined by academics against academic standards. Level 2 would require at least one core assessment to reproduce a professional task end to end with criteria drawn from practice, and the extract documents no criteria for the research project at all — the research-project subject pages were not captured. Per R4, the course statement about preparing 'a career as a professional physicist' is a label, not a documented feature of any task, and does not raise the score.",
+    "evidenceLines": [
+      "Two assignments totalling up to 36 pages of written work, one due early-semester and the other late-semester",
+      "One written examination",
+      "The Master of Science (Physics) is a coursework masters degree incorporating a substantial research project.",
+      "Students will gain research experience in Physics by completing a 100 point Research Project.",
+      "The thesis will be due for submission at the end of the formal examination period of the final semester of research project enrolment (usually fourth semester) if an earlier date is not specified."
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0 anchor: no work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure. The 200 points decompose exhaustively into discipline subjects, one professional-skills subject and the research project, all delivered on campus at Parkville; no internship, practicum or host organisation is named anywhere in the extract, so not even the elective route at level 1 is documented. The research project is supervised university research, not participation in an external workplace or professional community, and its scoring home is C5 and C4.",
+    "evidenceLines": [
+      "Masters (Coursework)Year: 2026Delivered: On Campus (Parkville)",
+      "Students must complete 200 pts comprising:",
+      "Discipline Component subjects (87.5 points);",
+      "Professional Skills subject (12.5 points);",
+      "Research Project (100 points)."
+    ]
+  },
+  "workplace": 1,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The specialist core is coherent and disciplinary even though it is chosen rather than fixed: all ten Discipline Component options are graduate physics subjects, seven of which must be taken, and the 100-point research project is physics research. Progressive technical depth is documented both as a backward prerequisite condition (compulsory 300-level Statistical Physics or Electrodynamics where not previously taken) and as a forward sequence within the pool, Quantum Field Theory explicitly providing the foundation for the advanced subject that follows it. This is not generic or interchangeable content.",
+      "evidenceLines": [
+        "Discipline Component subjects (87.5 points);",
+        "Students must select seven of the following subjects:",
+        "*Students may substitute at most two approved subjects at 300 level or higher. It will be compulsory to take 300-level Statistical Physics or 300-level Electrodynamics if the student did not take these subjects (or their equivalent at another institution) during undergraduate studies. Please contact course coordinator for approval.",
+        "to provide the foundation for more advanced studies in quantum field theory.",
+        "This subject develops an advanced understanding of the quantum properties of non-Abelian gauge theory via the use of modern field-theoretical methods.",
+        "Research Project (100 points)."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The gate's capstone route is met: half the degree is a required, multi-semester research project in a field of the student's choice, carrying the genuine uncertainty of an unresolved research question and accountability to a supervisor and to thesis examination. This is not recall or scripted response. The pass rests on the project, not on the coursework, which is assignments and closed examinations.",
+      "evidenceLines": [
+        "The Master of Science (Physics) is a coursework masters degree incorporating a substantial research project.",
+        "Students will gain research experience in Physics by completing a 100 point Research Project.",
+        "The research project can be sequenced according to one of the following streams:",
+        "The thesis will be due for submission at the end of the formal examination period of the final semester of research project enrolment (usually fourth semester) if an earlier date is not specified.",
+        "You must consult your supervisor to discuss an appropriate study plan prior to enrolling in your subjects online through the Student Portal."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1 straddled 1 and 2: BUSA90403 assesses 'Syndicate group assessments totalling 3,000 words or equivalent', which would satisfy level 2 if it were core, but it is one of twelve Professional Skills options ('Students must take one of the following subjects:'), so no student is required to take it. Resolved down to 1 under the lower-level rule and R1 (score documented curriculum, not the plausible path a student takes).",
+    "C2 straddled 1 and 2: SCIE90013's peer-review hurdle and SCIE90005's authorship essay paired with peer review are criterion-referenced appraisal, but both are Professional Skills options rather than core units. Resolved down to 1.",
+    "C3 straddled 1 and 2: LAWS90203 'Science & AI: Legal & Ethical Challenges' would bear on AI ethics and governance, but it is an option, is marked 'Not available in 2026', and no subject page for it was captured. Resolved down to 1.",
+    "C5 straddled 2 and 3: the project is required and substantial, satisfying the first half of level 3, but 'methodology defended under scrutiny' is undocumented — the four-part staged enrolment plus supervisor negotiation could be read as staged supervised review, which would be an inference rather than quotable evidence. Resolved down to 2 under the lower-level rule.",
+    "W1 straddled 0 and 1: communication is named in the graduate attributes (level 1's first clause) but level 1 also requires core assessment to add presentation to peers or staff, and every core assessment captured is written. Resolved down to 0; R2/Barrie bar scoring the stated attribute.",
+    "W2 straddled 1 and 2: in a research discipline a thesis is arguably the practitioner's own artefact, which would support level 2, but the criteria applied are academic examination criteria and no assessment criteria for the research project are documented in the extract. Resolved down to 1, reinforced by R4 (the course's 'professional physicist' framing is a label, not a task feature).",
+    "C4 vs C5 division: the same 100-point research project supports C4 level 3 and C5 level 2. It is scored at different levels because the two anchors demand different additional evidence — C4 level 3 needs self-scoped structured progression (documented) and C5 level 3 needs a methodology defence (not documented). No evidence was reused to lift both.",
+    "C4/C5 vs W3 division: the research project is supervised university research, so it scores as inquiry and independent learning, never as work-situated learning (W3), per 'one construct, one home'."
+  ],
+  "notScoreable": [
+    "The assessment pages for the research-project subjects (PHYC90029, PHYC90030, PHYC90033, PHYC90034, PHYC90035, PHYC90038, PHYC90040, PHYC90044) are absent from the extract. Since these subjects carry 100 of the program's 200 points, the assessment design of the largest required component — task type, criteria, any milestone review or defence — is unevidenced. This bounded C5 at 2 and W2 at 1; a captured assessment page could move either.",
+    "No subject pages were captured for seven of the twelve Professional Skills options (MAST90045, MULT90063, LAWS90203, SCIE90026, COMP90072, HPSC40016, SCIE90012), so their content and assessment could not be examined. This did not change any score, because the choose-one structure keeps all of them outside the core regardless.",
+    "No entry-requirements page was captured, so any prerequisite chain beyond the 300-level substitution note could not be verified; G1 passes on the evidence that was captured."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-15"
+  }
+};
+
+export default record;

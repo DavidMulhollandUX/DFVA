@@ -1,0 +1,166 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor is met: a core unit assesses collaborative practice in the 'interprofessional activity' form the anchor names. PSYC90111 Well-being in Practice (compulsory, Year 1 Sem 1) carries a listed assessment component requiring completion of the 'Ways of Knowing' interprofessional learning program with two submitted reflective activities under a hurdle requirement, so level 1 ('no core unit assesses it') is factually false. Not level 3: no assessment anywhere in the extract requires coordinating work across people AND tools/AI systems — there is no documented role-and-tool allocation task and no assessment of the division of work between people and systems. Placement/patient work is excluded from C1 by the one-construct-one-home rule and scores in W3/W1.",
+    "evidenceLines": [
+      "Demonstrate the ability to consult and collaborate with colleagues, including those from other professions across the range of setting in which psychologists work",
+      "Students will also participate in “Ways of Knowing”: an Indigenous and interprofessional learning journey in cultural safety and collaborative practice.",
+      "Completion of interprofessional learning program in cultural safety and collaborative practice: Two reflective activities from the Ways of Knowing program: 1. Artifact and 150-word reflection on the cultural walk; 2. Submission of 500-word reflection on interprofessional learning and culturally safe practices following the interdisciplinary panel discussion. Minimum 1 hour for both activities.",
+      "Apply 'cultural safety practice' and 'collaborative practice' in interprofessional contexts to support wellbeing."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 anchor is met: core assessment includes criterion-referenced appraisal of the quality of work. PSYC90110's 'Evidence-based practice written assignment' (35%, hurdle) sits against the assessed outcome of evaluating the scientific evidence base underlying efficacy claims; PSYC90031 assesses critical evaluation of the empirical status of competing models; PSYC90009 assesses appraisal of one's own knowledge and its impact on clinical effectiveness. Not level 3: no assessment description in the extract requires students to document and justify reliance decisions — nothing about relying on or overriding a tool, source or collaborator, and no AI-output quality judgement anywhere. The eJournal and the case-study 'outcome monitoring' are the only candidates for the process-focused route and neither assessment description states that strategy adjustment over time is what is assessed, so the ambiguity resolves down.",
+    "evidenceLines": [
+      "Evidence-based practice written assignment",
+      "Evaluate the scientific evidence base underlying claims of efficacy for psychological assessment tools and psychological intervention techniques;",
+      "Critically evaluate the empirical status of the dominant psychological models explaining the aetiology and maintenance of the major mental disorders.",
+      "Appraisal of their own knowledge of diversity and reflect on its impact on their clinical effectiveness.",
+      "Oral presentation: Role play interview task and short written self‐reflection (5 minute presentation and 300 word report)",
+      "eJournal, short diary entries (150 words each)",
+      "Written report of an independent single case study relevant to professional practice including assessment, case formulation, literature review, tailored intervention, and outcome monitoring"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Not level 0 — digital content is present in core units: statistical software for model-fitting in PSYC40005, and telehealth service delivery training in PSYC90116 with an assessed written report (15%). But every instance is tool operation/training, the operational level the anchor caps at 1. Not level 2: no core unit in the extract addresses AI capabilities AND limitations/ethics — the word 'AI' and any generative-AI content are absent from the whole extract, and the telehealth report's description says only that it addresses 'aspects of' delivery, with no documented treatment of limits. The Ethics subject's privacy and legal-framework content attaches to research and professional conduct, not to digital or AI systems, so it does not lift the item.",
+    "evidenceLines": [
+      "the use of statistical software for model-fitting",
+      "They will also receive training in the delivery of psychology services via telehealth modalities.",
+      "Written report- addressing aspects of telehealth delivery of psychological services",
+      "Identify the principles underlying the delivery of psychology services via telehealth modalities;",
+      "Ethical and appropriate behaviour in research and professional contexts with reference to the Australian Psychological Society Code of Ethics, NHMRC National Statement on Ethical Conduct in Human Research and current legal frameworks relating to privacy and human rights;"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3 anchor is met by the self-scoped research-project route, with assessment evidence as R2 requires: PSYC90112 is a compulsory 25-point year-long subject in which the student investigates a substantive individual research question of their own choosing, and the assessment sequence opens with a student-written proposal (pass/fail hurdle) before the 6000-word report. The course structure documents the progression requirement explicitly (compulsory sequence, first-year achievement gating second year). Level 2 is independently satisfied by assessments on unseen case material, so the level-3 finding rests on the required self-scoped project rather than on transfer alone. Placement evidence is excluded from C4 by the one-construct-one-home rule.",
+    "evidenceLines": [
+      "Investigate a substantive individual research question relevant to the discipline of psychology",
+      "Written research proposal (Pass/fail)",
+      "Written research report",
+      "The research thesis provides students the opportunity to explore a question that is relevant to contemporary psychological practice.",
+      "All subjects are compulsory and must be taken in sequence as the knowledge gained in one group of subjects will enable satisfactory completion of the next group of subjects.",
+      "Case Formulation: Development of a clinical case formulation, based on case material provided.",
+      "Problem-identification and problem-solving in novel contexts",
+      "The ability to work independently to organise time effectively to meet complex task demands and deadlines"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 anchor is met: students design and conduct an inquiry with methodology selection and data collection, assessed — 'Written literature review and research method' (25%) assesses methodology selection, and the project is executed and its findings analysed and reported. Not level 3: the anchor requires a substantial project GENERATING PRIMARY EVIDENCE, and the extract does not document that primary data collection is required — the subject states only that the project 'can draw from a range of methodologies', which leaves a secondary-data or review project open. The staged proposal → method → oral presentation → report sequence under academic supervision would satisfy the 'defended under scrutiny' half, so the item straddles 2 and 3 on the primary-evidence condition alone and resolves down.",
+    "evidenceLines": [
+      "This course consists of coursework, placement and a minor research thesis (6,000 words).",
+      "The project can draw from a range of methodologies relevant to developing evidence-based research literacy in generalised psychological practice.",
+      "Students will investigate a substantive individual research question under appropriate academic supervision and submit the results of the research in the form of an oral presentation and written report.",
+      "Written literature review and research method",
+      "Oral presentation of research findings; 15‐Minutes (1,500 words equivalent)",
+      "Employ relevant techniques to analyse and interpret the findings.",
+      "Design research studies requiring complex quantitative observations;"
+    ]
+  },
+  "adaptiveness": 10,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2 anchor is squarely met and level 3 is not. Core assessment requires recognised professional genres and audiences beyond the teaching team: PSYC90113 (20-minute interview demonstration, hurdle, 30%; diagnostic work-up report), PSYC90114 (mental state examination oral demonstration plus written report; risk-assessment presentation plus report, 35%), PSYC90115 (test-administration demonstration to the standard of the PsyBA National Psychology Exam, hurdle) and PSYC90116 (simulated and actual patient case work under registered-psychologist supervision). The level-3 anchor is conjunctive and its third condition — professional conduct or accountability explicitly among the assessed criteria — is not documented: the extract publishes no marking criteria for any subject, and the 80-hour and 220-hour hurdles are volume-of-activity accrual requirements carrying UoM boilerplate hurdle text that attaches to nearly every assessment in the extract, including quizzes and the telehealth essay. Conditions (a) repeated, progressive professional communication and (b) a real external audience (simulated and actual patients) are documented, so the item does not fall below 2.",
+    "evidenceLines": [
+      "Oral presentation - demonstration of basic interview techniques (20 Minutes; 2,000 words equivalent)",
+      "Hurdle requirement: Must participate in role play as interviewer",
+      "10 minute oral demonstration, and 750 word written report of mental state examination.",
+      "Oral presentation (10 minute demonstration) and 1500 word written report of risk assessment and rationale referencing established literature",
+      "A small-group oral presentation focusing on clinical communication skills",
+      "Interpreting and communicating assessment findings in oral and written formats, including formal psychological reports, using culturally appropriate language.",
+      "Oral presentation - demonstration of competency in test administration",
+      "Hurdle requirement: Submission of case work commensurate with 80 hours of client-related activity.",
+      "Completion of simulated and actual patient case work - assessment, diagnosis and intervention planning (Pass/fail)",
+      "they will also be given the opportunity to practice their skills with patients in a variety of clinical contexts under the supervision of a registered psychologist",
+      "Ethical behaviour written assignment"
+    ],
+    "adjudication": {
+      "originalScore": 3,
+      "demotedTo": 2,
+      "reason": "The W1 level-3 anchor is conjunctive and its third condition is not documented anywhere in the extract: 'with professional conduct or accountability explicitly among the assessed criteria.' A case-insensitive search of the full 2,289-line extract for 'criteria', 'professional conduct', 'professional behaviour', 'professionalism' and 'accountab' returns zero matches — the handbook publishes no marking criteria for any subject. The scorer substituted the hurdle text of the 80-hour and 220-hour case-work items, but those hurdles are UoM boilerplate ('For the purposes of meeting this hurdle requirement, each submitted assessment must be complete and constitute a genuine attempt to address the requirements of the task') attached to nearly every assessment in the extract, including online quizzes and a telehealth essay; the 80/220 hours are a volume-of-activity accrual requirement, not an assessed conduct or accountability criterion. The scorer itself recorded this gap in notScoreable and then scored 3, which resolves an acknowledged ambiguity upward against the stated rule and fails R3 for a level-3 claim. Conditions (a) and (b) are genuinely documented in assessment tables, so the item does not fall below 2."
+    }
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3 anchor is met on both limbs, scored on documented task features only (R4 — no 'authentic'/'real-world' label was relied on). Spine: the practitioner artefact — a case formulation and the intervention or treatment plan that follows from it — is assessed in at least one core subject per stage: PSYC90110 (behaviour-change and assessment-skills assignment) in Year 1 Sem 1; PSYC90113 (diagnostic work-up of case study) in Sem 2; PSYC90011 and PSYC90114 (mental state examination report; diagnosis and case formulation report) in the Year 2 summer/January block; PSYC90023, PSYC90007, PSYC90010 and PSYC90009 (case formulation plus intervention plan, clinical case formulation plus treatment plan, case-based assignment) in Year 2 Sem 1; and the single-case-study report in Sem 2. Genuine constraint of practice: the problems are externally supplied ('based on case material provided'), and the standard applied is the profession's own — the course trains to the PsyBA core competencies and PSYC90115 requires demonstrated competency in administering and scoring the tests covered in the PsyBA National Psychology Exam. Workplace immersion itself is not counted here; it scores in W3.",
+    "evidenceLines": [
+      "Case Formulation: Development of a clinical case formulation, based on case material provided.",
+      "Intervention Plan (written): Development of a clinical case formulation and an ensuing intervention plan, based on case material provided.",
+      "Written clinical case formulation",
+      "A written treatment plan",
+      "Written report - diagnostic work up of case study",
+      "Written report demonstrating determination of psychological diagnosis and case formulation",
+      "A written case-based assignment",
+      "A written protocol of techniques to enhance wellbeing when working therapeutically with a client",
+      "The Master of Professional Psychology provides selected psychology graduates with training in the skills required to meet the core competencies outlined by the Psychology Board of Australia (PsyBA) as necessary to practice as a generalist psychologist.",
+      "They will demonstrate competency in administration and scoring of key psychological tests covered in the Psychology Board of Australia National Psychology Exam."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Level 2 anchor is met: PSYC90116 is a core 25-point subject in which students practise with patients in clinical contexts under the supervision of a registered psychologist, assessed as a 60% pass/fail component. Not level 3: the construct excludes simulation, and the extract's own description of the 300 hours is 'a mix of simulation, role-play and direct client work' without quantifying the direct-client share — PSYC90115's 80 hours are stated to be simulated patient work outright, and PSYC90116's 220 hours are 'simulated and actual' undivided, so the extent of genuine work-situated learning is not documented as extended. The remaining level-3 elements are also thin: accountability appears as hours-of-case-work hurdles rather than accountability to a host, and structured reflection on professional practice appears only as a subject learning outcome, never as an assessed reflective task in either placement subject. Ambiguity between 2 and 3 resolves down.",
+    "evidenceLines": [
+      "Students will also complete 300 hours of practical placement over the duration of the course.",
+      "The placement experience will constitute a mix of simulation, role-play and direct client work, giving students the opportunity to consolidate their specialist training and apply the knowledge gained in the course to real world scenarios.",
+      "Students will accrue placement hours by engaging in simulated patient work.",
+      "they will also be given the opportunity to practice their skills with patients in a variety of clinical contexts under the supervision of a registered psychologist",
+      "Completion of simulated and actual patient case work - assessment, diagnosis and intervention planning (Pass/fail)",
+      "Principal Supervisor: Lisa Catania",
+      "Evaluate the effectiveness of their professional practice, identifying areas for improvement and implementing changes where needed."
+    ]
+  },
+  "workplace": 7,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "An all-compulsory specialist core taken in a mandated sequence with a staged progression rule, plus an accredited pathway — every one of the three PASS routes the gate names. No generic or interchangeable content.",
+      "evidenceLines": [
+        "All subjects are compulsory and must be taken in sequence as the knowledge gained in one group of subjects will enable satisfactory completion of the next group of subjects.",
+        "This program is accredited by Australian Psychology Accreditation Council (APAC).",
+        "All subjects are compulsory and satisfactory achievement of subjects in the first year of the course is required prior to progression to the second year.",
+        "This subject builds upon content and skills learned in PSYC90113 Professional Psychology Skills 1."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Assessment requires defended trade-off decisions rather than recall or scripted response: intervention and treatment plans must be justified from a case formulation, the risk-assessment task requires a written rationale referenced to established literature, and the patient case-work component requires assessment, diagnosis and intervention planning under real clinical uncertainty. The assessed outcomes make the trade-off explicit — determining when more complex interventions are appropriate, and modifying interventions as the formulation evolves.",
+      "evidenceLines": [
+        "Oral presentation (10 minute demonstration) and 1500 word written report of risk assessment and rationale referencing established literature",
+        "Intervention Plan (written): Development of a clinical case formulation and an ensuing intervention plan, based on case material provided.",
+        "Describe brief interventions that are appropriate to particular clients' needs and determine when more complex interventions are appropriate.",
+        "Apply knowledge to monitor client outcomes, identify barriers to treatment progress and modify interventions on the basis of an evolving case formulation and inter and intrapersonal changes.",
+        "Completion of simulated and actual patient case work - assessment, diagnosis and intervention planning (Pass/fail)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1 straddled 1 and 2: the Ways of Knowing component is weighted 0% and what is submitted is a reflection on interprofessional learning rather than an appraisal of collaborative work itself. Resolved to 2 rather than down because level 1's anchor ('no core unit assesses it') is falsified by the component appearing in the assessment table under a hurdle requirement — the levels are not both consistent with the evidence.",
+    "C2 straddled 2 and 3 on the process-focused route: PSYC90111's eJournal runs throughout the semester alongside a subject description about using techniques and evaluating their efficacy, and PSYC90116's case-study report includes outcome monitoring. Resolved DOWN to 2 under the never-resolve-upward rule, because neither assessment description states that documenting reliance decisions or strategy adjustment over time is what is assessed; the supporting text is subject description, not assessment specification.",
+    "C3 straddled 1 and 2: the assessed telehealth report might in practice cover the limits and ethics of the modality, but its description says only 'aspects of telehealth delivery'. Resolved DOWN to 1 — the anchor requires limitations/ethics to be addressed and assessed, and that is not documented.",
+    "C5 straddled 2 and 3: the staged proposal → method → oral presentation → supervised report sequence would satisfy 'methodology defended under scrutiny', but whether primary evidence is generated is not documented ('can draw from a range of methodologies'). Resolved DOWN to 2 on the primary-evidence condition.",
+    "W1 was scored 3 at first pass and demoted to 2 on adversarial review: the level-3 anchor's third condition — professional conduct or accountability explicitly among the assessed criteria — rests on marking criteria the handbook never publishes, and the 80/220-hour hurdles are volume-of-activity accruals carrying boilerplate hurdle text found across the whole extract. Resolved DOWN per the scoring-direction rule.",
+    "W3 straddled 2 and 3: 300 required placement hours across two compulsory core subjects with a registered-psychologist supervisor looks extended, but simulation is excluded from W3 by construct and the extract never separates simulated from actual client hours. Resolved DOWN to 2.",
+    "W1 and W3 both draw on the two placement subjects. This is not double counting under the one-construct-one-home rule, which bars placement evidence from C1 and C4 only: W1 scores the patient/simulated-patient audience and the professional genres, W3 scores the immersion itself. The W1 anchors name 'patient or simulated patient' as a qualifying audience, so the anchors license the split.",
+    "W2 and W3 were kept separate as the construct requires: the simulated case work and role-plays score as task fidelity in W2 and are explicitly excluded from W3."
+  ],
+  "notScoreable": [
+    "C3 — AI-specific evidence is entirely absent from the extract. No core subject description, learning outcome, assessment task or program-level outcome mentions artificial intelligence or generative AI, so C3 was scored on the digital-tools half of the anchor only. The item is scoreable at level 1 on that basis, but the AI-governance content the level-3 anchor asks for cannot be confirmed present or absent from a handbook extract of this scope.",
+    "W1 level-3 condition (c) — the extract never states the marking criteria of any assessment. A case-insensitive search of the full extract for 'criteria', 'professional conduct', 'professional behaviour', 'professionalism' and 'accountab' returns nothing, so whether professional conduct sits among the assessed criteria cannot be established from a handbook extract of this scope. The item was held at 2 rather than credited at 3 on undocumented grounds."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-15"
+  }
+};
+
+export default record;

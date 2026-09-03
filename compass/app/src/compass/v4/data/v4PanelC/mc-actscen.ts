@@ -1,0 +1,125 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 0,
+    "rationale": "DEMOTED from 1 to 0 on adversarial verification. The only collaboration/teamwork claim in the extract ('Able to collaborate and be effective in team work') sits under the handbook's 'Graduate attributes' heading, not 'Intended learning outcomes.' The rubric's own W1 anchor treats 'learning outcomes' and 'graduate attributes' as two distinct categories it names separately, while C1's Level 1 anchor names only 'learning outcomes.' Under the strict reading the rubric's own drafting distinction implies, this claim does not satisfy C1 Level 1's literal condition, making Level 0 ('No collaborative, stakeholder or team-based work is assessed anywhere in the core' plus no qualifying outcomes claim) the defensible score. The item's own ambiguities note concedes 'this is a broader reading than a core-unit-specific claim would be' -- i.e. it flags the ambiguity and then resolves it UPWARD (to Level 1) rather than downward, contradicting the explicit rule 'Never resolve ambiguity upward.' This is a plausible, not certain, misapplication -- a reasonable scorer could read 'learning outcomes' loosely enough to include graduate attributes -- but on the rubric's own tie-break rule the lower level should have won.",
+    "evidenceLines": [
+      "Able to collaborate and be effective in team work.",
+      "Group project (4000 words equivalent, in groups of 3-4 students)",
+      "Group Assignment, Groups of 4, 5 page limit (2000 words per group, 500 words per student)"
+    ]
+  },
+  "C2": {
+    "score": 0,
+    "rationale": "Matches Level 0 ('No assessment requires students to appraise the quality of work — their own, peers', or a tool's'). The closest program-level claim, critically evaluating literature, is evaluation of external sources rather than appraisal of student/peer/tool-produced work, and it is not tied to any identified core assessment task. No core or capstone subject's assessment table shows peer review, structured critique, portfolio-against-standards, or reliance-justification.",
+    "evidenceLines": [
+      "Interpret and critically evaluate articles in the actuarial research literature."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Matches Level 1 ('AI or digital tools appear only as electives or as tool operation/training'). The core subject ACTL90007 introduces machine learning as an applied forecasting technique, and 'Use of computer software' recurs as a generic-skill outcome across core subjects, but this stays at the operational tool-use level TEQSA flags as non-durable; nowhere in the core does the extract address AI limitations, ethics, bias or governance, which Level 2 requires.",
+    "evidenceLines": [
+      "Explain and apply elementary principles of machine learning.",
+      "Use of computer software"
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Ambiguous between Level 1 ('Transfer is claimed in outcomes... but not assessed') and Level 2 ('at least one core assessment requires application to novel or unfamiliar problems'); resolved to the lower level per the scoring-direction rule. 'Application of theory to practice' recurs as a generic-skill outcome across nearly every core subject, and the program ILOs claim a research/real-world project, but no core assessment is documented with case variation, unseen datasets, or explicitly novel/unfamiliar problems — the practical-problems language stays generic.",
+    "evidenceLines": [
+      "Application of theory to practice",
+      "Execute a project requiring research or a real-world application;"
+    ]
+  },
+  "C5": {
+    "score": 0,
+    "rationale": "Ambiguous between Level 0 ('Secondary synthesis only; no research-methods training') and Level 1 ('Introductory methods unit; literature-review assessment'); resolved to the lower level per the scoring-direction rule. The program ILOs claim literature critique and a research/real-world project, which is Level-1-shaped language, but the extract identifies no specific core or capstone unit whose assessment operationalises either claim — no literature-review assignment or research-methods unit appears among the eight compulsory/capstone subjects.",
+    "evidenceLines": [
+      "Interpret and critically evaluate articles in the actuarial research literature.",
+      "Execute a project requiring research or a real-world application;"
+    ]
+  },
+  "adaptiveness": 2,
+  "W1": {
+    "score": 0,
+    "rationale": "Matches Level 0 ('All core assessment is in academic genres addressed to the marker (exams, essays, lab reports); no professional-genre or spoken communication is assessed'). Every compulsory and capstone subject's assessment table (e.g. ACTL90005) lists only individual written assignments and exams; the only presentations anywhere in the program ('Group Presentation') sit in elective subjects ACTL90010/ACTL90011, not core.",
+    "evidenceLines": [
+      "Individual Assignment 1",
+      "Mid-semester exam (Week 7‐8)",
+      "End-of-semester exam",
+      "Group Presentation"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Matches Level 1 ('Contextualised or scenario-framed tasks appear... but the artefact produced and the criteria applied remain academic'), not Level 2 (task reproduces a professional task end to end, artefact and criteria drawn from practice). Core subjects are consistently framed around insurance/finance scenarios (reserving, reinsurance, ruin theory, run-off triangles, premiums and reserves for assurance/annuity contracts), but the assessed artefact in every case is an exam answer or written assignment marked on technical correctness, not a practitioner deliverable judged against practice-drawn criteria.",
+    "evidenceLines": [
+      "Topics include distributions of accumulations and present values; stochastic interest rate models; time series models; an introduction to ruin theory; claim run-off triangles; stochastic simulation.",
+      "Define the gross random future loss and calculate gross premiums and reserves of assurance and annuity contracts."
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Matches Level 0 ('No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure'). The full 16-subject structure (6 compulsory core, 2 capstones, 8 electives) contains no placement, practicum, internship, or community-based subject, and no cohort in the extract is documented as already practising in the profession.",
+    "evidenceLines": [
+      "The degree consists of 16 semester-length subjects comprising 6 compulsory core subjects, 2 capstone subjects and 8 elective subjects."
+    ]
+  },
+  "workplace": 1,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Meets the PASS criterion: 'an accredited sequence' with 'progressive technical or methodological depth.' The course carries Actuaries Institute Australia (AIA) professional accreditation with exam exemptions tied to core-subject performance, and the compulsory core forms explicit prerequisite chains (Mathematics of Finance I → II → III across three semesters; Life Insurance Models I → 2 feeding the Life Contingencies capstone), giving a coherent specialist actuarial identity rather than generic or interchangeable content.",
+      "evidenceLines": [
+        "Actuaries Institute Australia (AIA)",
+        "enables students to gain exemptions from Part I (Foundation) and half of the Part II (Associateship) professional exams with sufficiently good performance in subjects taken in the degree.",
+        "Mathematics of Finance I",
+        "Mathematics of Finance II",
+        "Mathematics of Finance III"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Meets the PASS criterion's 'simulations/capstones... with real uncertainty and accountability' clause, though this is a closer call than G1. Both capstones require quantifying and managing genuine actuarial uncertainty under hurdle-assessed exams — Life Contingencies covers mortality profit, reserving and 'zeroising' future negative cashflows; General Insurance Modelling covers loss distributions with and without reinsurance, extreme value theory and aggregate-claims recursion. The assessed work is individual technical calculation rather than an explicitly defended trade-off argument or a live external-accountability project, which is why this gate is flagged as more marginal than G1.",
+      "evidenceLines": [
+        "Establish non-unit reserves to eliminate (“zeroise”) future negative cashflows for unit-linked contracts.",
+        "Topics include loss distribution with and without risk sharing; collective risk model, calculation of moments and moment generating function of aggregate claims, recursion formulae, effect of reinsurance; individual risk model, recursion formulae and approximations; copulas; extreme value theorems; time series.",
+        "Hurdle requirement: Final exam must be passed"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1: collaboration appears only as a program-level graduate attribute, not within any single core subject's own learning outcomes; treated as satisfying the 'learning outcomes' clause of Level 1, but this is a broader reading than a core-unit-specific claim would be.",
+    "C4: 'application of theory to practice' and 'solution of a range of practical problems' recur across nearly all core subjects and could be read as Level 2's novel/unfamiliar-problem application; resolved to Level 1 because no core assessment explicitly documents case variation, unseen data, or cross-context framing.",
+    "C5: program-level ILOs ('critically evaluate articles in the actuarial research literature'; 'execute a project requiring research or a real-world application') are Level-1-shaped claims, but no identified core unit's assessment operationalises them; resolved to Level 0 per the lower-level rule.",
+    "G2: capstone assessment quantifies genuine actuarial uncertainty (mortality risk, claims severity, reinsurance, reserving) but is individual exam-based calculation rather than an explicitly defended trade-off decision or live/external-accountability project; resolved PASS on the reading that stochastic capstone modelling of real actuarial uncertainty satisfies the gate's 'capstones... with real uncertainty' clause."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-29"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

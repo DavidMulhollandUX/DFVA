@@ -1,0 +1,140 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Teamwork appears only in course- and subject-level generic-skills statements, never as an assessed criterion. No core/capstone unit assesses collaborative practice with individual accountability or coordination across people and tools/AI systems.",
+    "evidenceLines": [
+      "Teamwork: The ability to work effectively with others as part of a team.",
+      "Ability to communicate effectively in a professional workplace and to work with and interact with a wide range of people inside and outside the host organisations, including working in teams",
+      "Ability to participate effectively as a member of a team"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "The internship's assessed reflective journal is general self-reflection, not criterion-referenced appraisal of quality (peer review, structured critique, marking against exemplars) as level 2 requires. Ambiguous between level 1 and 2; lower level taken.",
+    "evidenceLines": [
+      "Reflective journal including a log of hours worked",
+      "Analyse and synthesise salient features and important theoretical, methodological and empirical trends in published literature and data"
+    ]
+  },
+  "C3": {
+    "score": 0,
+    "rationale": "No AI content appears anywhere in the extract. Only generic, unassessed digital-tool statements appear in two elective subjects' generic-skills lists, falling short of even level 1.",
+    "evidenceLines": [
+      "Awareness of and ability to utilise appropriate communication technology and methods for the storage, management and analysis of data",
+      "Highly developed computer-based skills to allow for effective online learning and communication"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Verification review found the level-3 claim unsupported: two of the four evidence lines are course-level Intended Learning Outcomes, which do not count as assessment evidence for a level score; the self-scoping language appears in the subject Overview, not the assessment page, and is hedged as encouragement rather than a requirement - the same paragraph states the project's content and extent are supervisor-determined; and the fourth line is only an assessment-table timing note. None of the capstone's actual assessed items (Research proposal / Final Report / Oral Presentation) are documented as requiring a self-scoped topic. The evidence supports level 2 - assessed application to an independently generated but supervisor-shaped research question - not level 3's self-scoped bar.",
+    "evidenceLines": [
+      "Undertake a minor original research project as a capstone learning activity on a topic in a Faculty-supported disciplinary area",
+      "Integration and application of disciplinary knowledge and skills to an independently generated research question and investigation",
+      "Students are strongly encouraged to initiate project ideas within existing networks or to identify a project topic of keen interest, through discussion with Faculty staff, prior to subject commencement.",
+      "Final Report due immediately after the SWOTVAC period"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "The Research Project requires designing and conducting an inquiry with methodology selection, assessed via proposal, report and presentation - level 2. Level 3's 'REQUIRED, not one route among several' is not met because the research project is one of three capstone options.",
+    "evidenceLines": [
+      "The project represents a capstone subject and comprises a review of a body of relevant literature, together with a critical evaluation of research or experimental protocols, a modest original experiment, or limited exploration of a scientific problem, or an investigation into a problem using an approved methodology.",
+      "Students select one of:",
+      "Minor research project",
+      "Major research project",
+      "Internship"
+    ]
+  },
+  "adaptiveness": 6,
+  "W1": {
+    "score": 2,
+    "rationale": "The internship's professional portfolio plus host-supervisor-assessed oral presentation, and the research project's stakeholder mini-symposium, each satisfy level 2's professional-genre/external-audience test, but neither recurs progressively across the program, so level 3 is not met.",
+    "evidenceLines": [
+      "Report or professional portfolio due 3 weeks after the completion of the project",
+      "Oral presentation on the internship placement (equivalent to approximately 2000 words) and host supervisor assessment report due late in the teaching period.",
+      "Final reports and oral presentations will occur at the end of semester and orals will involve a mini-symposium where findings will be presented to project stakeholders and the student cohort."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "The internship reproduces a professional task end to end (real placement, professional portfolio, host-supervisor judgement) - level 2 - but is a single capstone option, not the program's assessment spine, so level 3 is not met.",
+    "evidenceLines": [
+      "This subject involves completion of an 200 hours of work placement, integrating academic learning, employability skills and attributes and an improved knowledge of organisations, workplace culture and career pathways.",
+      "On completion of the subject, students will have completed and reported on a course-related project in a workplace.",
+      "Report or professional portfolio due 3 weeks after the completion of the project"
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "The Internship for Agricultural Sciences is a capstone-level, practitioner-supervised, assessed placement with structured reflection - level 2 - but it is one of three capstone options rather than compulsory required WIL, and no sequence of placements is documented, so level 3 is not met.",
+    "evidenceLines": [
+      "This subject involves completion of an 200 hours of work placement, integrating academic learning, employability skills and attributes and an improved knowledge of organisations, workplace culture and career pathways.",
+      "Hurdle requirement: 200 hours of satisfactory work placement",
+      "Students select one of:",
+      "Minor research project",
+      "Major research project",
+      "Internship"
+    ]
+  },
+  "workplace": 6,
+  "gates": {
+    "G1": {
+      "result": "FAIL",
+      "rationale": "Verification review found PASS unsupported by the extract's own scope. The Course structure page states the actual Degree Core/Selective and Specialisation subject lists were not captured ('Please refer to the relevant Entry Point Program and Specialisation pages for respective Degree Core/Selective and Specialisation subjects'), and the only quoted evidence (one specialisation required; five named specialisations exist) shows breadth of choice, not documented progressive technical or methodological depth, an accredited sequence, or a staged prerequisite chain as G1 requires. The visible Elective subjects table is a flat list of codes/points with no prerequisite chain shown. Insufficient evidence in this extract to support PASS; demoted to FAIL.",
+      "evidenceLines": [
+        "Completion of one specialisation is required.",
+        "The course combines a strong core of agricultural science knowledge with the opportunity for students to focus their learning via selection of one of five Specialisations: Agribusiness, Animal Science, Crop & Soil Sciences, Food Sustainability or Agricultural Extension & Innovation.",
+        "Please refer to the relevant Entry Point Program and Specialisation pages for respective Degree Core/Selective and Specialisation subjects"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The internship's satisfactory-placement hurdle with host-supervisor assessment, and the research project's supervised original experiment/investigation, both involve genuine uncertainty and accountability rather than recall or scripted responses.",
+      "evidenceLines": [
+        "Hurdle requirement: 200 hours of satisfactory work placement",
+        "The project represents a capstone subject and comprises a review of a body of relevant literature, together with a critical evaluation of research or experimental protocols, a modest original experiment, or limited exploration of a scientific problem, or an investigation into a problem using an approved methodology."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1: AGRI90076's 'Individual or team presentation' is ambiguous and elective, not core; lower level taken.",
+    "C2: reflective journal ambiguous between level 1 and 2; lower level taken.",
+    "C3: generic tech-skill statements in electives are unassessed and not AI-specific; lower level (0) taken.",
+    "C4: verification review demoted the level-3 claim to level 2 - the self-scoping evidence rests on ILOs and hedged Overview text, not documented assessed self-scoping.",
+    "C5: research project is one of several capstone routes, not required; level 3 not met.",
+    "G1: verification review demoted PASS to FAIL - the specialisation subject lists that would evidence progressive depth are explicitly not in this extract.",
+    "W1: neither professional-communication instance recurs progressively across the program.",
+    "W3: internship is one of three capstone options, not compulsory; lower level taken."
+  ],
+  "notScoreable": [
+    "Degree Core/Selective and Specialisation subjects are referenced but not captured in this extract.",
+    "The AGRI90084 assessment page contains mismatched content (Materials and Structures ABPL90324) and was excluded."
+  ],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-29"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

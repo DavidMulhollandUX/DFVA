@@ -1,0 +1,139 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 (not 3): FINA10026 (Critical and Theoretical Studies 1) and FINA20032 (Critical and Theoretical Studies 4) each assess collaborative practice via a graded group presentation paired with individual accountability — an individual essay that extends or reflects on the group work — matching the Level-2 anchor 'group projects with individual accountability.' This recurs across two program years, which would support the recurrence clause of Level 3, but Level 3 additionally requires an assessment where 'the division of work between people and systems is itself assessed' (coordination across people AND tools/AI systems). No AI- or tool-coordination assessment appears anywhere in the extract, so the item is capped at 2.",
+    "evidenceLines": [
+      "Collaborative Presentation completed in groups of 2 to 3 students",
+      "Individual essay that extends upon collaborative presentation",
+      "Group presentation",
+      "Individual essay that extends and reflects upon individual contribution to collaborative tutorial presentation"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: the Studio Studies folio (70% of the grade in every core Studio Studies subject) is assessed against explicit, published criteria — matching the anchor's own example, 'portfolio with standards.' No item requires students to document and justify a reliance decision, defend a judgement of tool/source/collaborator quality, or evidence strategy adjustment over time (Level 3's process-focused-assessment requirement); the work-in-progress-plus-final folio structure records semester activity but never asks students to justify why they changed direction, so it does not clear Level 3.",
+    "evidenceLines": [
+      "Appropriate levels of finish and resolution;",
+      "Evidence of relevant artistic research;",
+      "Awareness and engagement with historical and contemporary art, and;",
+      "Students will be assessed on a presented body of art. This should demonstrate appropriate materials, skills and techniques consistent with their artistic interests."
+    ]
+  },
+  "C3": {
+    "score": 0,
+    "rationale": "Level 0: no core unit or program-level outcome documents AI or digital-tool content in a way that clearly satisfies even the Level-1 anchor. The only candidate evidence is CREA10002's outcome 'employ technological resources to present ideas about creative art practices' and the recurring generic-skill line 'communicate effectively... in digital forms,' both generic communication-medium language rather than documented digital-tool or AI content, capabilities, limitations, ethics or governance. This sits ambiguously between Level 0 (no digital/AI content) and Level 1 (tool-operation-level content appearing in outcomes); per the scoring-direction rule, the ambiguity is resolved to the lower level.",
+    "evidenceLines": [
+      "employ technological resources to present ideas about creative art practices.",
+      "communicate effectively, in oral, written and digital forms;"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2 (not 3): core assessment requires transfer of studio practice to a novel, self-generated body of work every semester across the staged sequence Studio Studies 1 through 6 (each carrying a 70%-weighted folio), and the subject Overviews describe a progression toward 'a self-directed studio practice' (FINA10025) and 'a more consistent self-directed studio practice' (FINA10034), culminating in the Studio Studies 6 'resolved body of work.' But Level 3's 'self-scoped capstone' claim needs to rest on documented ASSESSMENT evidence (R2), not curriculum-overview narrative describing pedagogy, and every Studio Studies Assessment section grades the folio only on 'Appropriate levels of finish and resolution,' 'Evidence of relevant artistic research,' 'Awareness and engagement with historical and contemporary art,' and subject-specific engagement — none of which test self-scoping, knowledge-gap identification, or independent skill acquisition. The one criterion that is actually assessed and self-direction-adjacent, 'the final body of work should reflect their conceptual direction, experimentation and invention,' documents transfer of studio skills to novel or unfamiliar problems each semester, which is exactly the Level-2 anchor, not a self-scoped capstone.",
+    "evidenceLines": [
+      "students will begin to approach a self-directed studio practice.",
+      "Students will develop a higher degree of conceptual aesthetic and practical ability in their work and begin to establish a more consistent self-directed studio practice.",
+      "This subject builds on the studio practice components introduced in Studio Studies 5, with an emphasis on the consolidation of work practice and preparation of a resolved body of work for final assessment, inclusion in the Graduate Exhibition and entry into the Honours Year.",
+      "Folio and/or final body of work"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1: every Critical and Theoretical Studies subject documents introductory-level research-methods content ('undertake basic academic work using art-specific bibliographic tools' at CTS1; 'devise research methods for critically analysing contemporary visual art' at CTS5) and is assessed through essay-type writing and an oral discussion of that writing, matching Level 1's 'introductory methods unit; literature-review assessment' pattern. No documented task requires students to select a methodology and collect data (Level 2) — assessed items are quizzes, critical reviews/essays and oral discussion of existing artworks/theory, not empirical or practice-based inquiry design — and no substantial REQUIRED primary-evidence project with a defended methodology under scrutiny appears (Level 3). Ambiguity: the folio criterion 'Evidence of relevant artistic research,' recurring in every core studio subject, could be read as Level-2 methodology-selection/data-collection evidence if practice-based studio research counts as inquiry, but the extract never documents what that research methodology consists of or that it is separately assessed as such; resolved to the lower level.",
+    "evidenceLines": [
+      "undertake basic academic work using art-specific bibliographic tools.",
+      "devise research methods for critically analysing contemporary visual art;",
+      "Interactive Oral Assessment completed as an 800-word written outline with 12-minute discussion",
+      "Evidence of relevant artistic research;"
+    ]
+  },
+  "adaptiveness": 7,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1: communication appears in outcomes/graduate attributes ('communicate effectively in oral, written and digital forms') and core assessment adds presentations to peers/staff — a Collaborative Presentation, a Group presentation, a 10-minute individual presentation. None is a recognised professional genre (client brief, consultancy/policy advice, pitch, public-facing artefact) and none is addressed to an audience beyond the teaching team; all presentations and the Interactive Oral Assessment are delivered within the subject's own teaching/assessment context. Ambiguity: Studio Studies 5's ILO 'produce written professional profile and business materials' and its folio criterion 'Evidence of professional support materials' gesture toward a professional genre, but the assessment table never describes a discrete, separately-criteria'd professional-genre task — it is folded into the general folio mark — so this is not distinct Level-2 evidence and is resolved to the lower level.",
+    "evidenceLines": [
+      "communicate effectively, in oral, written and digital forms;",
+      "Collaborative Presentation completed in groups of 2 to 3 students",
+      "Group presentation",
+      "10-minute individual presentation",
+      "Evidence of professional support materials."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2 (not 3): the Studio Studies folio ('Folio and/or final body of work,' 70% of the grade in every core studio subject) is a real professional task end to end — students produce actual original artworks, exactly the artefact a professional visual artist produces, judged against practice-derived criteria ('Students will be assessed on a presented body of art. This should demonstrate appropriate materials, skills and techniques consistent with their artistic interests.'). This recurs at every stage of the program, Studio Studies 1 through 6, making it the assessment spine rather than a single instance, which satisfies the Level-2 anchor. Level 3 additionally requires the documented task to carry a genuine, assessed constraint of practice (R2). The candidate constraint — the Graduate Exhibition, 'a professionally curated and installed showcase of student art work... visited by national industry professionals, patrons, collectors and members of the general public' — appears only in the course-level Overview and in FINA30002's own subject-Overview narrative, never in FINA30002's Assessment section, which grades the folio on finish/resolution, artistic research, historical awareness, and the practical skills and attributes expected of a professional artist, with no mention of the exhibition or an external audience as a graded criterion. Without a documented, assessed constraint, the item clears Level 2 only.",
+    "evidenceLines": [
+      "Folio and/or final body of work",
+      "Students will be assessed on a presented body of art. This should demonstrate appropriate materials, skills and techniques consistent with their artistic interests.",
+      "a professionally curated and installed showcase of student art work from all disciplines, visited by national industry professionals, patrons, collectors and members of the general public.",
+      "preparation of a resolved body of work for final assessment, inclusion in the Graduate Exhibition and entry into the Honours Year."
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0: no placement, practicum, live-client project or community-based project is documented anywhere in the extract, and there is no assessed own-practice route (the cohort is pre-professional, not already practising). The nearest candidate is the recurring 'Professional Practice component' in Studio Studies 2, 4 and 6, but it is described only as exposure to museums/galleries, practising artists, and industry lectures/workshops — content embedded in the studio subject's own teaching, not a documented placement structure with named host, practitioner supervision, host accountability, or its own separately assessed component. Ambiguity: FINA20030's 'industry-based activities in a real-life professional setting' could describe an actual placement (which would raise this to Level 1 or 2), but the extract gives no supervision, host, or separate-assessment detail; resolved to the lower level.",
+    "evidenceLines": [
+      "The Professional Practice component introduces students to industry-based activities in a real-life professional setting.",
+      "The Professional Practice component will introduce students to local museums and galleries and establish a familiarity with practicing professional artists in the field.",
+      "The Professional Practice component introduces students to the practical implementation of their artistic careers through a series of industry related lectures and workshops."
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents a staged, prerequisite-based compulsory core: 237.5 of 300 credit points are compulsory, organised into Level 1/2/3 Compulsory subject blocks with explicit progression rules, plus a general prerequisite note. The Studio Studies and Critical and Theoretical Studies sequences (1 through 6 each) each explicitly build on the prior subject, documenting progressive technical and methodological depth within a specialist studio-art core.",
+      "evidenceLines": [
+        "237.5 credit points of Compulsory subjects",
+        "Completion of all Level 1 Compulsory subjects before proceeding to the next year level's Compulsory subjects",
+        "Completion of all Level 2 Compulsory subjects before proceeding to the next year level's Compulsory subjects",
+        "Note: Compulsory subjects in this program have prerequisites. Refer to individual subject entries."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Assessment throughout the core rests on self-directed studio practice with no scripted or single-correct response: the folio (70% of every Studio Studies subject) requires students to resolve their own conceptual direction, experimentation and invention, with accountability escalating to the Studio Studies 6 capstone, where the resolved body of work is prepared for inclusion in a professionally curated public exhibition visited by industry professionals, patrons and collectors — real, consequential accountability rather than recall or scripted response.",
+      "evidenceLines": [
+        "The final body of work should reflect their conceptual direction, experimentation and invention, while demonstrating:",
+        "This subject builds on the studio practice components introduced in Studio Studies 5, with an emphasis on the consolidation of work practice and preparation of a resolved body of work for final assessment, inclusion in the Graduate Exhibition and entry into the Honours Year.",
+        "a professionally curated and installed showcase of student art work from all disciplines, visited by national industry professionals, patrons, collectors and members of the general public."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: 'employ technological resources' (CREA10002) and the recurring 'digital forms' communication language sit between Level 0 (no digital/AI content) and Level 1 (tool-operation-level content); resolved to the lower level, 0.",
+    "C5: the recurring folio criterion 'Evidence of relevant artistic research' could be read as Level-2 methodology-selection/data-collection evidence if practice-based studio research counts as inquiry, but the extract never documents the methodology or that it is separately assessed as such; resolved to the lower level, 1.",
+    "W1: Studio Studies 5's 'produce written professional profile and business materials' / 'Evidence of professional support materials' gestures toward a Level-2 professional genre but is folded into the general folio mark with no discrete assessed task or its own criteria; resolved to the lower level, 1.",
+    "W3: FINA20030's 'industry-based activities in a real-life professional setting' could describe an actual placement (Level 1 or 2), but the extract gives no host, supervision, or separate-assessment detail; resolved to the lower level, 0.",
+    "C4: the Level-3 'self-scoped capstone' claim rested on subject-Overview narrative describing pedagogy rather than on the Assessment sections' actual graded criteria (finish/resolution, artistic research, historical awareness), which do not test self-scoping or independent skill acquisition; demoted from 3 to 2 on adversarial review because R2 requires Level 3 to rest on documented assessment evidence, not curriculum-overview language.",
+    "W2: the Level-3 'consequential audience' claim rested on the Graduate Exhibition description drawn from the course-level Overview and FINA30002's own subject-Overview narrative, not from FINA30002's Assessment section, which never names the exhibition or an external audience as a graded criterion; demoted from 3 to 2 on adversarial review because R2 requires Level 3's constraint-of-practice clause to be carried by documented assessment evidence, and the scoring-direction rule forbids resolving an acknowledged ambiguity upward."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-29"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

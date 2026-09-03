@@ -1,0 +1,120 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1: collaboration/teamwork appears in graduate attributes — 'Capacity to value and participate in teamwork' and 'Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork' — but no core unit assesses collaborative practice as a graded group component. LAWS70112 assessment is 'Written assessment' (15%) plus 'Take-home examination' (85%) or 'Research paper' — no group project. LAWS70270 (Construction Contract Analysis, Drafting) has 'Interim written assessment' (15%) and 'Take-home examination' (85%) — individual work. LAWS70329 (Residential Construction Law) includes 'Class Participation (including group research exercise)' (20%) but this is participation, not a graded group project with individual accountability. Not level 2: no core unit assesses collaborative practice with group projects, individual accountability, or interprofessional activity.",
+    "evidenceLines": [
+      "Capacity to value and participate in teamwork",
+      "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+      "Class Participation (including group research exercise)",
+      "Throughout the teaching period\t20%"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1: reflection and self-assessment appear in graduate attributes — 'Ability to investigate, evaluate, synthesise and apply existing knowledge' and 'Well-developed problem solving abilities, characterised by flexibility of approach' — but no core unit assesses criterion-referenced appraisal of quality (peer review, structured critique, portfolio with standards). Not level 2: no core assessment includes structured peer review or marking against exemplars. The 'Class participation' components in some subjects involve discussion but not criterion-referenced quality appraisal.",
+    "evidenceLines": [
+      "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+      "Well-developed problem solving abilities, characterised by flexibility of approach"
+    ]
+  },
+  "C3": {
+    "score": 0,
+    "rationale": "Level 0: no digital/AI content in any core unit or program-level outcome. The program is Master of Construction Law — all core subjects address construction law, contracting, risk, project delivery, dispute resolution. No AI or digital tool content appears in any subject's learning outcomes, overview, or assessment. The graduate attribute 'Advanced working skills in the use of new technology' refers to IT infrastructure in the Law Library and Moot Court, not AI or digital tools as curricular content.",
+    "evidenceLines": [
+      "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study."
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2 requires at least one core assessment requiring application to novel or unfamiliar problems. LAWS70314 (Principles of Construction Law) includes an 'In-class test' (1 hour, 20%) applying law to unseen hypothetical scenarios. LAWS70112 (Remedies in the Construction Context) requires a 'Take-home examination' (4500 words, 85%) applying remedies law to novel construction disputes. LAWS70149 (Construction Risk) requires 'Take-home examination' (4000 words, 100%) applying risk allocation to unseen scenarios. LAWS70176 (Construction Law) includes 'construction site visits and detailed case studies' and requires analysis of 'the interaction between the technical, commercial and legal aspects'. Not level 3: no self-scoped capstone or research project with identification of knowledge gaps is required (the research paper is one of two options, not required).",
+    "evidenceLines": [
+      "In addition to classroom discussion, students have the opportunity to see principles put into practice through construction site visits and detailed case studies.",
+      "In-class test",
+      "1 hours",
+      "During the teaching period\t20%",
+      "Be familiar with, be able to critically reflect on, and be confident in working across, the interaction points between the technical, commercial and legal aspects of construction procurement"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed. LAWS70270 (Construction Contract Analysis, Drafting) requires analysis and drafting of construction contracts — an applied inquiry. Multiple subjects offer 'Research paper on a topic approved by the subject coordinator' (e.g., LAWS70176: 6000 words, 100%; LAWS70112: 6000 words, 85%; LAWS70149: 5000 words, 100%; LAWS70239: 6000 words, 100%) — independent research with methodology selection. Not level 3: the anchor requires a substantial project generating primary evidence to be REQUIRED with methodology defended under scrutiny (viva, defence). The research paper is always one of two options, not required, and no viva or defence is documented.",
+    "evidenceLines": [
+      "Option 2: Research paper on a topic approved by the subject coordinator",
+      "6000 words",
+      "16 September 2026\t100%",
+      "Independently investigate, examine and analyse existing and emerging legal issues relating to construction projects."
+    ]
+  },
+  "adaptiveness": 6,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2 requires at least one core assessment using a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice. LAWS70270 (Construction Contract Analysis, Drafting) requires 'Interim written assessment' (500 words, 15%) and 'Take-home examination' (4500 words, 85%) — the take-home exam involves drafting and analysing construction contracts, a professional legal genre. LAWS70176 (Construction Law) involves 'construction site visits' and assessment of 'the interaction between the technical, commercial and legal aspects' — judged against professional practice criteria. LAWS70329 (Residential Construction Law) is taught by 'Judge Suzanne Kirton' and 'Dr Matthew Bell (whose PhD was on residential construction regulation)' — assessment criteria drawn from professional practice. Not level 3: the anchor requires professional communication assessed repeatedly and progressively AND at least one core assessment delivered to a real external audience or practitioner. No assessment is delivered to an external audience.",
+    "evidenceLines": [
+      "This subject is designed to develop and enhance students' abilities to draft, analyse and administer construction contracts at an advanced level.",
+      "In addition to classroom discussion, students have the opportunity to see principles put into practice through construction site visits and detailed case studies.",
+      "The subject lecturers are Dr Matthew Bell (whose PhD was on residential construction regulation) and Suzanne Kirton (Judge of the County Court and Vice President of VCAT, with extensive practising experience in residential construction law)."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2 requires at least one core assessment to reproduce a professional task end to end — a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice. LAWS70270 (Construction Contract Analysis, Drafting) requires students to 'analyse and draft construction contracts' and 'take a critical approach to the drafting and risk allocation of each contract' — reproducing the professional task of contract drafting and analysis. LAWS70112 (Remedies in the Construction Context) addresses 'remedies available under many causes of action' — practical legal advice for construction disputes. LAWS70149 (Construction Risk) addresses 'risk and insurance' management — a core professional task. Not level 3: the anchor requires such tasks to be the program's assessment spine (capstone plus earlier scaffolding) AND at least one to carry a genuine constraint of practice. While the subjects are professionally oriented, the assessments are take-home exams and research papers, not live professional deliverables with external constraints.",
+    "evidenceLines": [
+      "This subject is designed to develop and enhance students' abilities to draft, analyse and administer construction contracts at an advanced level.",
+      "Students will be expected to take a critical approach to the drafting and risk allocation of each contract.",
+      "analyse and draft construction contracts",
+      "Practitioners need to be confident in their understanding of the remedies available under many causes of action."
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0: no work-integrated learning, placement, practicum, or community-based project appears anywhere in the course structure. The program is 100 credit points of construction law subjects. LAWS70067 (International Legal Internship) appears in the 'Further subjects related to course' list but is not a core unit and is not required. The program structure is entirely classroom/examination-based with no placement component.",
+    "evidenceLines": [
+      "Students must complete 100 credit points in total.",
+      "LAWS70067\tInternational Legal Internship"
+    ]
+  },
+  "workplace": 4,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents a coherent specialist core with progressive depth: foundation subjects (LAWS70176 Construction Law or LAWS70314 Principles of Construction Law), contracting subjects (LAWS70270 Construction Contract Analysis Drafting, LAWS70149 Construction Risk, LAWS70239 Payment Matters), project delivery subjects, dispute avoidance subjects, and a capstone (LAWS70128 Advanced Construction Law). The structure requires 'at least 62.5 credit points from the Construction Law list' — a coherent specialist core with progressive depth from foundations through contracting to capstone.",
+      "evidenceLines": [
+        "Students must complete 100 credit points in total.",
+        "Students with a law degree from a common law jurisdiction must complete at least 87.5 credit points from the prescribed lists. Of those, at least 62.5 credit points must be from the Construction Law list.",
+        "Construction Law - Foundation subjects",
+        "Construction Law - Contracting subjects",
+        "Construction Law - Project delivery subjects",
+        "Construction Law - Dispute avoidance and resolution subjects",
+        "Construction Law - Capstone subject"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "G2 requires assessments with defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability. LAWS70270 (Construction Contract Analysis, Drafting) requires 'a critical approach to the drafting and risk allocation of each contract' — defended trade-off decisions on risk allocation. LAWS70149 (Construction Risk) addresses 'risk allocation in construction contracts and consultancy agreements, and how these are reflected in standard forms' — trade-off analysis. LAWS90229 (Rethinking Construction Contracting Risk) requires students to 'contemplate reform' and 'interrogate whether current construction law, construction contracts and habits and behaviours are adequate and appropriate' — defending positions on reform. The take-home examinations require analysis of hypothetical scenarios with real uncertainty.",
+      "evidenceLines": [
+        "Students will be expected to take a critical approach to the drafting and risk allocation of each contract.",
+        "Philosophies and commercial drivers affecting risk allocation in construction contracts and consultancy agreements, and how these are reflected in standard forms",
+        "The subject encourages students to contemplate reform in the way that the construction industry approaches risk by interrogating whether current construction law, construction contracts and habits and behaviours are adequate and appropriate for the efficient and cost-effective management of risks."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1: 'Class Participation (including group research exercise)' (LAWS70329, 20%) could be level 2 collaborative practice, but a 'group research exercise' within class participation is not a graded group project with individual accountability — level 1 taken.",
+    "W1: Construction site visits (LAWS70176) bring professional context into assessment, but no assessment is delivered to an external audience — level 2 taken, not 3.",
+    "W2: Contract drafting (LAWS70270) reproduces a professional task, but the assessment is a take-home exam, not a live professional deliverable — level 2 taken, not 3."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-22"
+  }
+};
+
+export default record;

@@ -1,11 +1,12 @@
 {
-  "_comment": "Raw kB. A route's number covers the chunk plus everything it statically imports. Lower a number when you shrink a route; never raise one. Enforced by scripts/check-bundle-size.mjs in the unit-tests job. Tightened 2026-09-03 after splitting v4PanelC.ts into v4Meta.ts (light: types, V4_META, V4_RESEARCH_DEGREES, V4_INDEX) + v4PanelC.ts (heavy: V4_ONLY_PROGRAMS, V4_PANEL_A_BASIS, V4_PANEL_C rationale/evidence) — only the report page still imports the heavy module, so it alone now owns the ~3.3 MB chunk. Route numbers are achieved-plus-~10%; achieved was index 667, LandingPage 989, V4ReportsPage 997, AssessorPage 961, V4InsightsPage 999 (all kB).",
-  "chunk": 3400,
+  "_comment": "Raw kB. A route's number covers the chunk plus everything it statically imports. Lower a number when you shrink a route; never raise one. Enforced by scripts/check-bundle-size.mjs in the unit-tests job. Tightened 2026-09-03 twice: first after splitting v4PanelC.ts into v4Meta.ts (light) + v4PanelC.ts (heavy), then after the heavy map became one lazy chunk per program under v4/data/v4PanelC/ (6-32 kB each) with V4_ONLY_PROGRAMS and V4_PANEL_A_BASIS in v4Basis.ts. No route now carries the eager map; the largest chunk is the 662 kB React/router vendor chunk. Route numbers are achieved-plus-~10%; achieved was index 662, LandingPage 984, V4ReportsPage 992, AssessorPage 956, V4InsightsPage 994, V4ReportPage 1333 (all kB).",
+  "chunk": 730,
   "routes": {
     "index": 734,
     "LandingPage": 1090,
     "V4ReportsPage": 1100,
     "AssessorPage": 1060,
-    "V4InsightsPage": 1100
+    "V4InsightsPage": 1100,
+    "V4ReportPage": 1470
   }
 }

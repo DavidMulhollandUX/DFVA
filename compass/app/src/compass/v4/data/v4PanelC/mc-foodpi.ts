@@ -1,0 +1,135 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 met: assessed collaborative practice recurs across multiple core units — group-assessed written work in FOOD90007, group assignments and a group video presentation in MGMT90030, a group assignment and team case presentation in MKTG90008, and group presentations/assignments in MKTG90037. Level 3 not met: no assessment anywhere in the extract requires coordinating work across people AND tools/AI systems (no core unit documents AI content or tool-allocation coordination), so the item stays at 2 rather than crediting the recurs-across-program clause of level 3 in isolation.",
+    "evidenceLines": [
+      "Group written assignment",
+      "Group assignment (groups of 4-6)",
+      "Group video presentation (groups of 4-6)",
+      "Group assignment (groups of 3-5)",
+      "Team case presentation (groups of 3-5)",
+      "Group presentation (groups of 3-4)"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 met via FOOD90031's assessed peer review: 'Poster Design and Peer Review- Innovative food packaging material' is a criterion-referenced appraisal task worth 20% of the subject, matching the anchor's own 'peer review' example directly. Level 3 not met: no core assessment documents students justifying reliance on, or overriding, a tool/source/collaborator, defending AI-output judgements, or evidencing strategy adjustment over time — no AI or tool-reliance content appears anywhere in the extract.",
+    "evidenceLines": [
+      "Poster Design and Peer Review- Innovative food packaging material."
+    ]
+  },
+  "C3": {
+    "score": 0,
+    "rationale": "No digital or AI content appears in any of the seven core units (FOOD90007, FOOD90008, MGMT90030, MKTG90008, FOOD90031, MKTG90037, FOOD90032) or in the program-level intended learning outcomes and generic skills. The core is entirely food-science, packaging-technology and business-management content with no reference to AI, gen AI, or digital tools anywhere read in the extract, matching Level 0 exactly ('No digital/AI content in any core unit or program-level outcome').",
+    "evidenceLines": [
+      "The following seven 12.5 point subjects are core to this degree:",
+      "Preservation techniques (physical, chemical and biological) and applications, including reference to legal requirements, and processing operations",
+      "This subject provides an overview of food packaging materials, processes and secondary packaging which has important roles in product preservation and safety, extended shelf life, consumer protection, sustainability and reduced carbon footprint, logistics and tracking, active packaging, modified atmosphere, marketing and other contemporary issues such as polymer and biopolymer technologies."
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Level 2 met: FOOD90031's 'Product launch announcement of an innovative food packaging material' and FOOD90032's 'Design brief and design proposal for an innovative food package' both require applying taught methods to a self-generated, unfamiliar product/design scenario rather than a fixed taught case — cross-context application, assessed. Level 3 (self-scoped capstone) is documented for the Minor Project route ('an independently generated research question and investigation'), but Minor Project is only one of two required alternatives (Internship being the other, which is placement- not research-focused) — the scoring-direction rule resolves this down to Level 2 rather than crediting the capstone route as guaranteed program evidence. REVIEW NOTE (2026-08-31, evidence-attribution guard): Demoted 2 -> 1 by evidence-attribution review 2026-08-31 (see dfva-v4-verify-evidence guard run notes): the design-brief/product-launch lines cited here are also cited verbatim in W1 and W2, and the rubric's non-negotiable rule assigns evidence to exactly one item — the construct these lines name most directly is W2's authentic-artefact / W1's professional-genre claim, not C4's cross-context-application claim. With those lines discounted, the remaining C4 support is a single non-core Minor Project ILO sentence (Minor Project being one of two required alternative routes), which does not clear a Level 2 bar requiring documented CORE assessment of transfer. Score not raised without a fresh capture and scoring pass; flagged here per review instructions rather than re-scored upward.",
+    "evidenceLines": [
+      "Written Assignment - Product launch announcement of an innovative food packaging material",
+      "Written Assignment - Design brief and design proposal for an innovative food package",
+      "Integration and application of disciplinary knowledge and skills to an independently generated research question and investigation",
+      "Students are required to complete 25 points of Internship subjects OR 25 points of Minor Project subjects"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "The Minor Project (AGRI90070/79/81) documents genuine primary-evidence generation with methodology selection, data collection and a defended oral presentation — 'an investigation into a problem using an approved methodology' assessed via a hurdle-gated research proposal, a final report and an oral presentation — satisfying Level 2's 'design and conduct an inquiry with methodology selection and data collection, assessed.' Level 3 is explicitly disqualified by the anchor's own text: a substantial primary-evidence project must be 'REQUIRED (not one route among several)', but here it is one of two required alternatives (Internship or Minor Project), so the item is capped at 2.",
+    "evidenceLines": [
+      "Students are required to complete 25 points of Internship subjects OR 25 points of Minor Project subjects",
+      "This subject enables students to conduct an original research topic under supervision, as approved by an academic project supervisor.",
+      "Research proposal",
+      "Hurdle requirement: Students must pass the project proposal",
+      "Final Report due immediately after the SWOTVAC period"
+    ]
+  },
+  "adaptiveness": 7,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2 met: FOOD90031's 'Product launch announcement' and FOOD90032's 'Design brief and design proposal' are recognised professional genres (not academic essays/exams), assessed within core units. Level 3 requires professional communication assessed repeatedly and progressively AND at least one core assessment judged by a real external audience/practitioner with conduct/accountability explicit; the Internship route's 'host supervisor assessment report' would satisfy the practitioner-judged clause, but Internship is only one of two required alternatives (Minor Project has no comparable external-audience component) — the scoring-direction rule holds the item at the lower level.",
+    "evidenceLines": [
+      "Written Assignment - Product launch announcement of an innovative food packaging material",
+      "Written Assignment - Design brief and design proposal for an innovative food package",
+      "Oral presentation on the internship placement (equivalent to approximately 2000 words) and host supervisor assessment report due late in teaching period"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2 met: FOOD90032's 'Design brief and design proposal for an innovative food package', FOOD90031's 'Product launch announcement', and FOOD90031's 'Poster Design and Peer Review' reproduce end-to-end professional artefacts (a design brief, a launch announcement, a poster) of the kind a packaging or product-development practitioner would actually produce. Level 3 not met: these authentic-artefact tasks appear in two core units, not as a documented assessment spine across program stages, and no task documents a genuine constraint of practice (externally supplied problem, real resource/time limit, consequential external audience, or a professional performance standard) — FOOD90007's 'Assignments may be industry-based' is too indefinite under R1 to raise the score further.",
+    "evidenceLines": [
+      "Written Assignment - Design brief and design proposal for an innovative food package",
+      "Written Assignment - Product launch announcement of an innovative food packaging material",
+      "Poster Design and Peer Review- Innovative food packaging material.",
+      "Assignments may be industry-based."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Level 2 met via the Internship route: FOOD90036/FOOD90037-38 place students in a real workplace ('Students will be responsible for identifying a suitable work placement'), with a 200-hour hurdle requirement and an assessed host supervisor report — practitioner supervision and assessment. Level 3 ('substantial required work-situated learning... supervised by a practitioner, assessed, with accountability to the host and structured reflection') is arguably reached by the recommended two-semester Internship route (host supervisor assessment report plus a reflective journal), but Internship is only one of two required alternatives — the Minor Project route carries no placement at all — so the program does not universally document Level-3 work-situated learning, and the scoring-direction rule holds the item at the lower level.",
+    "evidenceLines": [
+      "Students are required to complete 25 points of Internship subjects OR 25 points of Minor Project subjects",
+      "Students will be responsible for identifying a suitable work placement prior to the semester.",
+      "Hurdle requirement: 200 hours of satisfactory work placement",
+      "Oral presentation on the internship placement (equivalent to approximately 2000 words) and host supervisor assessment report due late in teaching period",
+      "It is recommended that the internship is completed across two semesters (FOOD90037 MFPI Internship Part 1 and FOOD90038 MFPI Internship Part 2)."
+    ]
+  },
+  "workplace": 6,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents an all-compulsory seven-subject specialist core (87.5 points) spanning food processing technology, food safety and quality, food packaging materials/processes and design, plus innovation and value-creation management — a coherent, discipline-specific core rather than generic or interchangeable content.",
+      "evidenceLines": [
+        "87.5 points of core subjects co‐taught across Faculties and Schools",
+        "The following seven 12.5 point subjects are core to this degree:"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The required Minor Project documents genuine open-ended inquiry with real uncertainty, gated by a pass/fail hurdle proposal and defended via final report and oral presentation. The alternative Internship route similarly documents real workplace decision-making under uncertainty, with accountability via a 200-hour hurdle and a host supervisor assessment report.",
+      "evidenceLines": [
+        "a modest original experiment, or limited exploration of a scientific problem, or an investigation into a problem using an approved methodology",
+        "Hurdle requirement: Students must pass the project proposal",
+        "students will experience 'real-life' situations that are associated with food innovation, the key components driving innovation in this industry and major hurdles that need to be addressed."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C4, C5, W1 and W3 all touch the course's mandatory 'Internship (FOOD90036/37/38) OR Minor Project (AGRI90070/79/81)' requirement. Each alternative supplies the stronger evidence for a different subset of items (Minor Project → self-scoped primary-research capstone for C4/C5; Internship → practitioner-supervised, host-assessed placement for W1/W3), but neither is guaranteed to every student. Per the scoring-direction rule, each item was resolved to the lower of the two levels the alternatives would otherwise support, rather than crediting the stronger route as universal program evidence.",
+    "C5 specifically: the anchor text requires a Level-3 primary-evidence project to be 'REQUIRED (not one route among several)'. The Minor Project route alone reads as Level 3, but because it is explicitly one of two required alternatives, the anchor's own caveat caps the item at 2.",
+    "C4 was demoted from 2 to 1 by review: its two design-brief/product-launch evidence lines are shared verbatim with W1 and W2, and under the single-attribution rule belong to those constructs rather than to C4's cross-context-application claim; see C4.reviewNote."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-31"
+    },
+    "mechanical": true,
+    "date": "2026-08-31"
+  }
+};
+
+export default record;
