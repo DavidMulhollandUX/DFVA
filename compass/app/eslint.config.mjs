@@ -28,7 +28,6 @@ const legacyAny = [
   "src/compass/seedCourseLeafAnalyticsResponse.ts",
   "src/compass/t1/operations.ts",
   "src/compass/useReportsData.ts",
-  "src/compass/v4/data/v4PanelC.ts",
   "src/shared/utils.ts",
 ];
 
@@ -58,6 +57,7 @@ export default tseslint.config(
       "node_modules/**",
       "src/compass/reportContent.ts",
       "src/compass/reportContent/**",
+      "src/compass/v4/data/v4PanelC/**",
       "src/compass/data/dimensionEvidence.ts",
     ],
   },

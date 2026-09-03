@@ -1,0 +1,123 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor is satisfied: core units assess collaborative practice across multiple group projects with documented individual accountability. In the 25-point capstone CHEN90022 Chemical Engineering Design Project, students complete team design tasks alongside individual project journals and individual reflections on teamwork, with a mandatory hurdle requiring a pass mark on both individual and team components. In CHEN90013 and CHEN90032, team oral presentations and group project submissions assess collaborative problem solving. Not level 3: although collaboration recurs across all three stages of the program, no assessment task requires students to coordinate work across people AND AI/automated systems, or assesses the explicit allocation of tasks between human engineers and automated agents.",
+    "evidenceLines": [
+      "Several assessment tasks combine to form a capstone project based on authentic practice activities, with input from industry.",
+      "One team-based oral presentation with 3 to 4 team members of approximately 15 to 20 minutes. Students receive an individual assessment.",
+      "One pair-prepared oral presentation of 20 minutes on a chemical process modification and its conceptual design and feasibility.",
+      "Reflection (based on the project logs and the rest of the subject) (individual). Approx. 10 hours of work per student.",
+      "Students must achieve an overall pass mark for each of the individual and team components, i.e., the total score for the project journal, oral presentation x 2 and reflection (individual) must be a pass mark; and the total score for the project progress submission and final project submission (team) must be a pass mark."
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor fits: reflection appears in capstone assessment (an individual reflection based on project logs and teamwork), but the core assessment schedule contains no criterion-referenced peer review, structured critique against exemplars, or portfolio evaluated against professional standards. Level 2's criterion-referenced appraisal requirement is not documented in any core assessment. Level 3 is not approached: no core task requires students to document and defend reliance decisions on automated process simulation outputs or AI tools.",
+    "evidenceLines": [
+      "Reflection (based on the project logs and the rest of the subject) (individual). Approx. 10 hours of work per student.",
+      "Peer feedback + evaluation (individual). Feedback: Approx. 8 hours of work per student. Evaluation: Approx. 12 hours of work, including teamwork documentation, team discussion + personal reflection"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Matches the level-1 anchor: digital tools appear as commercial software operation and training. Core subjects (CHEN90032 Process Simulation and Control, CHEN90022 Chemical Engineering Design Project) train students in steady-state and dynamic process simulation packages, equations of state modeling, and numerical process optimization. The level-2 requirement that core units address AI capabilities AND limitations/ethics is absent — the extract contains zero occurrences of artificial intelligence or machine learning in core subject descriptions or assessment schedules, and no AI governance or algorithmic auditing is assessed.",
+    "evidenceLines": [
+      "Students are introduced to steady-state and unsteady-state process simulations using tools including simple spreadsheet packages, commercial-scale simulation packages widely used in the chemical process industry and basic programming.",
+      "Apply chemical engineering process simulation software to model thermodynamic properties, real gas behaviour using equations of state models and physical property estimation of pure components and mixtures",
+      "CHEN90032 Process Simulation and Control"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2 anchor is met: the required 25-point capstone CHEN90022 Chemical Engineering Design Project requires students to apply knowledge from prior units (thermodynamics, transport processes, separation, reactor design, safety, and economics) to the complete design of a complex chemical processing facility and the production of an Environmental Effects Statement on a novel industrial problem. Not level 3: the capstone is an industry-advisor-guided team plant design rather than a self-scoped independent research project, and no core assessment requires students to formally identify their own knowledge gaps with an assessed plan to close them.",
+    "evidenceLines": [
+      "Within this project students, in teams of three or four, perform design tasks related to the development of a Chemical Process Engineering facility. This capstone project culminates in an Environmental Effects Statement assignment.",
+      "Several industry advisors from the process engineering and environmental areas, provide content to aid students with their capstone project.",
+      "Students will conduct chemical plant feasibility and design studies through a series of assignments that analyse process plant feasibility, the sensitivity of process economics to external influences and consider the technological, market, environmental and other effects on project viability. Students will learn how to design chemical plants, including the necessary documentation, and consider control strategies for safe operation."
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Matches level 1: introductory inquiry and research principles are embedded in the curriculum, but the core design sequence utilizes literature benchmarks, industry guidelines, and process simulation models rather than primary empirical laboratory inquiry. Level 2 requires students to design and conduct an inquiry with methodology selection and primary data collection, assessed; while research pathway selectives exist, the core capstone is a design synthesis task rather than an empirical experimental study. Level 3 (a required substantial primary-evidence research project with viva defence) is not part of the standard coursework core.",
+    "evidenceLines": [
+      "CHEN90023 Chemical Engineering Research Project",
+      "Students have the opportunity to participate in overseas study, industry-based internships and supervised research placements.",
+      "Be able to evaluate data from a range of sources to allow a coherent professional engineering technical report to be prepared"
+    ]
+  },
+  "adaptiveness": 7,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2 anchor is squarely satisfied: core assessment requires multiple recognized professional engineering genres — an Environmental Effects Statement, pair-prepared technical feasibility presentations, safety and HAZOP reviews, and comprehensive plant design reports — judged against professional engineering practice standards with input from industry advisors. Level 3 is not reached: while industry advisors provide content and input, the extract does not document that external practitioners formally assess student presentations or grade professional conduct criteria on a dedicated rubric.",
+    "evidenceLines": [
+      "This capstone project culminates in an Environmental Effects Statement assignment. Several industry advisors from the process engineering and environmental areas, provide content to aid students with their capstone project.",
+      "One team-based oral presentation with 3 to 4 team members of approximately 15 to 20 minutes. Students receive an individual assessment.",
+      "One pair-prepared oral presentation of 20 minutes on a chemical process modification and its conceptual design and feasibility.",
+      "Professional-quality technical reports and oral presentations delivered throughout the semester."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor: the 25-point capstone CHEN90022 reproduces the professional chemical engineering task end-to-end — preliminary process synthesis, flowsheeting, equipment sizing, process control loops, HAZOP safety review, CAPEX/OPEX estimation, and environmental impact assessment — producing the authentic deliverables (EES, P&ID, plant specification) an engineering consultant produces. Not level 3: written examinations carry significant weight across the prerequisite spine (CHEN90042, CHEN90013, CHEN90032), so authentic deliverables are concentrated in the capstone rather than forming the exclusive assessment spine across all years.",
+    "evidenceLines": [
+      "Several assessment tasks combine to form a capstone project based on authentic practice activities, with input from industry.",
+      "Within this project students, in teams of three or four, perform design tasks related to the development of a Chemical Process Engineering facility.",
+      "One written schematic developing a Piping and Instrumentation Diagram and an oral defence of the schematic. 45-50 hours to complete within four weeks."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1 anchor is met: work-situated learning exists as an elective/selective — CHEN90028 Chemical Engineering Internship (12.5 points) is available as a selective subject, alongside the Skills Towards Employment Program (STEP) and approved external industry placements. Level 2 is not reachable because an internship or workplace placement is not a compulsory core requirement for all students in the degree.",
+    "evidenceLines": [
+      "CHEN90028 Chemical Engineering Internship Summer Term (On Campus - Parkville) Semester 1 (On Campus - Parkville) Semester 2 (Early-Start)",
+      "Students have the opportunity to participate in overseas study, industry-based internships and supervised research placements.",
+      "1. Skills Towards Employment Program (STEP) 2. CHEN90028 Industry Project subject 3. An agreed level of internship at an approved engineering form (without receiving University credit)"
+    ]
+  },
+  "workplace": 5,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents a fully accredited professional engineering core: 225 credit points of compulsory chemical engineering subjects accredited by Engineers Australia, the Institution of Chemical Engineers (IChemE), and EUR-ACE, with progressive technical prerequisites running from fundamentals through transport processes, thermodynamics, and reaction kinetics to plant design.",
+      "evidenceLines": [
+        "225 credit points of compulsory subjects",
+        "Professional accreditation ... Engineers Australia",
+        "CHEN20012 Fundamentals of Chemical Engineering",
+        "CHEN30016 Momentum, Mass and Heat Transfer",
+        "CHEN90022 Chemical Engineering Design Project"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Assessment requires defended trade-off decisions under real industrial uncertainty: students model chemical plants under varying feedstocks, optimize energy recovery versus capital equipment cost, conduct HAZOP risk analyses under process failure scenarios, and defend chemical process feasibility in oral presentations and environmental impact submissions.",
+      "evidenceLines": [
+        "Analyse and evaluate competing economic, environmental and social impacts criteria in generating feasibility studies for new projects and re-developments",
+        "One pair-prepared oral presentation of 20 minutes on a chemical process modification and its conceptual design and feasibility.",
+        "Perform design tasks related to the development of a Chemical Process Engineering facility. This capstone project culminates in an Environmental Effects Statement assignment."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2 straddled levels 1 and 2: capstone includes individual reflections on teamwork and project logs, but no criterion-referenced peer review is assessed. Resolved down to 1 per R1/R2.",
+    "C3 straddled levels 1 and 2: extensive commercial simulation software is used, but AI capabilities and ethics are not assessed in the core. Resolved to 1.",
+    "W1 straddled levels 2 and 3: multiple professional genres and industry advisor input exist, but external practitioner grading of conduct is not documented. Resolved to 2.",
+    "W3 straddled levels 0, 1, and 2: an internship subject is offered as a selective, satisfying level 1, but is not required in the core."
+  ],
+  "notScoreable": [
+    "Elective subjects outside the core were not scored for mandatory degree thresholds per R1/R2.",
+    "Industry advisor rubrics in CHEN90022 were not fully enumerated in the handbook extract."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-25"
+  }
+};
+
+export default record;

@@ -1,0 +1,129 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Teamwork appears only as a program-level generic-skill descriptor and in GEOG90029's generic-skills list; no core-unit assessment item requires collaborative or team-based work — the assessment tables for GEOG90018, GEOG90029, GEOG90028 and the Research Project are entirely individual tasks. This matches the Level 1 anchor: collaboration/teamwork appears in learning outcomes, but no core unit assesses it. No evidence anywhere of coordinating work across people and tools/AI systems, so Level 2-3 do not apply.",
+    "evidenceLines": [
+      "team work and engagement skills, particularly as they relate to the enhancing of the intellectual relationship between student and supervisor, and between student, his/her peers and the wider academic environment.",
+      "This subject will significantly help students develop skills in the areas of problem solving, research philosophies and design, data analysis, written and oral communication, group work, human ethics, and project management.",
+      "All assessment pieces are individual tasks:"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Reflection appears as a program-level graduate attribute but no core-unit assessment requires criterion-referenced appraisal of the quality of one's own, a peer's, or a tool's work — no peer review, structured critique, or portfolio-against-standards was found in any core assessment table. This matches the Level 1 anchor: reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria.",
+    "evidenceLines": [
+      "have the ability to demonstrate advanced independent critical enquiry, analysis and reflection;"
+    ]
+  },
+  "C3": {
+    "score": 0,
+    "rationale": "No core unit's overview, learning outcomes or generic-skills list (GEOG90018, GEOG90029, GEOG90028, Research Project) mentions digital tools, AI or gen AI anywhere; the program-level generic skills and graduate attributes are silent on digital/AI content too. This matches the Level 0 anchor: no digital/AI content in any core unit or program-level outcome.",
+    "evidenceLines": [
+      "To demonstrate advanced literature research skills.",
+      "To demonstrate advanced oral and written communication skills.",
+      "To demonstrate the ability and self-confidence to comprehend complex contemporary geographical debates and concepts."
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "The thesis-pathway capstone documents a self-scoped research project chosen 'in a field of their choice under the supervision of one or more academic supervisors', which would satisfy Level 3's self-scoped-capstone anchor. But coursework-only students instead complete Geography Practical, choosing a project 'from a list provided by School of Geography academic staff' — constrained rather than self-scoped — while still requiring design, method selection and analysis of a chosen topic, satisfying Level 2's application to novel or unfamiliar problems. Per the ambiguity rule, scored at the lower Level 2.",
+    "evidenceLines": [
+      "Students opting for coursework plus research project choose a topic in a field of their choice under the supervision of one or more academic supervisors.",
+      "Students will choose a topic area/project from a list provided by School of Geography academic staff."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Geography Practical documents students designing and conducting an inquiry — composing a research proposal, selecting methods, and analysing data on a chosen topic, assessed via staged Rationale/Methods/Results reports — satisfying Level 2 (design and conduct an inquiry with methodology selection and data collection, assessed). The minor/major Research Project's staged, seminar-defended proposal would otherwise support Level 3's 'methodology defended under scrutiny', but Level 3 also requires the substantial primary-evidence project be REQUIRED (not one route among several), and the handbook states explicitly that coursework-only students have no research project at all. Since the defended project is not required program-wide, scored at the lower Level 2 per the ambiguity rule.",
+    "evidenceLines": [
+      "Compose a research proposal and evaluate and select suitable methods of investigation.",
+      "Assemble, analyse and interpet data appropriate to the chosen topic.",
+      "Project Rationale report (1000 words) due one third of the way through semester (20%)",
+      "Methods report (1500 words) due half-way through semester (30%)",
+      "Final Results report (2500 words) due at the end of semester (50%)",
+      "A 20 minute research results seminar due week 11 of the final (fourth) semester of research project enrolment. 12.5% of final project mark.",
+      "There is no research project for students taking the coursework-only option"
+    ]
+  },
+  "adaptiveness": 6,
+  "W1": {
+    "score": 1,
+    "rationale": "Communication is named among program-level generic skills, and the Research Project core structure adds a spoken results seminar to the research community, matching Level 1's 'core assessment adds presentation to peers/staff'. No core assessment reaches a recognised professional genre (client brief, consultancy advice, clinical handover) or an audience beyond the teaching team/research community, so Level 2's professional-genre-or-external-audience requirement is not met.",
+    "evidenceLines": [
+      "communication skills, particularly: the oral and written defence of a research proposal (including the intellectual basis of the research design, justification of the methods to be used, and potential shortcomings); oral communication of research results; written communication of entire research via the thesis; and development of presentation skills at conferences and workshops where such opportunities are made available to the student.",
+      "A 20 minute research results seminar due week 11 of the final (fourth) semester of research project enrolment. 12.5% of final project mark."
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Geography Practical and the major-thesis proposal frame tasks around a chosen real topic and a proposal 'modelled on a research grant application style' — contextualised rather than decontextualised. But the artefacts produced (rationale/methods/results reports, a grant-style proposal, a thesis) and the criteria applied remain academic, not a professional practitioner's artefact judged against practice criteria. This matches the Level 1 anchor: contextualised or scenario-framed tasks appear, but the artefact and criteria remain academic.",
+    "evidenceLines": [
+      "A research 4,000 word proposal modelled on a research grant application style, and research proposal seminar, due by week 4 and week 11 respectively of the second semester of research: value 12.5% of final project mark",
+      "Effectively present research results in a written form in a way appropriate to the nature of the data."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "The only placement-type subject documented, International Internship in Environment (GEOG90022), is explicitly described as an elective subject — not part of the compulsory discipline core taken by all students. No core unit places students in a real workplace or professional-community setting. This matches the Level 1 anchor: work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular activity.",
+    "evidenceLines": [
+      "International Internship in the Environment is an elective subject available to students in the Master of Geography, Master of Environment or Master of Ecosystem Management and Conservation."
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents a compulsory two-subject Discipline Core (GEOG90018, GEOG90029) plus, depending on pathway, Geography Practical or a Research Project, with substantial Discipline Electives (100-137.5 pt) drawn from one of three named geography streams — a coherent, discipline-specific specialist structure, not generic or interchangeable content.",
+      "evidenceLines": [
+        "All students must take both of the following:",
+        "Students must complete Discipline Electives subject from within one of three geography streams:",
+        "Physical Geography;",
+        "Human Geography;",
+        "Integrated Geography."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The Research Project pathway requires a defended proposal (grant-application-style, with a proposal seminar) and a results seminar, each independently marked, and Geography Practical requires staged Rationale/Methods/Results reports on an independently chosen topic with real, undetermined outcomes — both represent live projects with real uncertainty and accountability to a supervisor, matching the PASS condition rather than recall or scripted responses.",
+      "evidenceLines": [
+        "A research 4,000 word proposal modelled on a research grant application style, and research proposal seminar, due by week 4 and week 11 respectively of the second semester of research: value 12.5% of final project mark",
+        "A 20 minute research results seminar due week 11 of the final (fourth) semester of research project enrolment. 12.5% of final project mark.",
+        "Project Rationale report (1000 words) due one third of the way through semester (20%)",
+        "Methods report (1500 words) due half-way through semester (30%)",
+        "Final Results report (2500 words) due at the end of semester (50%)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C4 (life-long learning & transfer): the thesis-pathway Research Project documents a genuinely self-scoped capstone ('choose a topic in a field of their choice under the supervision of one or more academic supervisors'), matching the Level-3 anchor, but coursework-only students instead take Geography Practical, whose topic is chosen 'from a list provided by School of Geography academic staff' rather than self-scoped. Scored at the lower Level 2 per the ambiguity-resolution rule (R: take the lower level, record the ambiguity).",
+    "C5 (inquiry & evidence generation): the minor/major Research Project's staged, seminar-defended proposal and results seminar would otherwise satisfy Level 3's 'methodology defended under scrutiny', but Level 3 also requires this be REQUIRED (not one route among several), and the handbook states explicitly 'There is no research project for students taking the coursework-only option'. Since the substantial defended project is not required program-wide, scored at the lower Level 2 via Geography Practical's design-conduct-analyse structure."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

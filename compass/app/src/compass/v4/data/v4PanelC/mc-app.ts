@@ -1,0 +1,121 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2, not 3: EDUC91044's ePortfolio task requires a team-based artefact plus individual personal reflection, meeting the Level 2 bar for a core unit that assesses collaborative practice with individual accountability. Level 3 needs assessed collaborative practice to recur across the program AND at least one assessment to require coordinating work across people AND tools/AI systems; only this one core unit shows assessed teamwork in the extract, and the AI-tool-use clause in the same sentence is scored under C3 per 'one construct, one home' rather than credited here, so neither the recurrence bar nor the people+tools coordination bar is independently evidenced. Ambiguity resolved to the lower level per the scoring-direction rule.",
+    "evidenceLines": [
+      "ePortfolio: application and evaluation of AI tool use in the analysis of positive organizational scholarship, through team-based artefact creation and personal reflection."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: EDUC91045's two core written assessments require structured critique of the quality of published wellbeing-science research, matching the anchor's 'structured critique' example of criterion-referenced appraisal. Level 3 requires assessment to document and justify reliance/override decisions on a tool, source or collaborator, or to evidence strategy adjustment over time; nothing in the extract shows that for EDUC91045, and the only item that names AI-tool evaluation (EDUC91044) is scored under C3 per 'one construct, one home' rather than credited here.",
+    "evidenceLines": [
+      "Written paper: Evaluating research in wellbeing science",
+      "Written essay: Critical analysis of wellbeing science"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Demoted from 2 to 1 on review: the sole evidence line ('ePortfolio: application and evaluation of AI tool use in the analysis of positive organizational scholarship, through team-based artefact creation and personal reflection') documents tool application and evaluation-of-use, but never explicitly documents that AI limitations, ethics, bias, or governance were discussed and assessed -- the specific bar the Level 2 anchor sets ('capabilities AND limitations/ethics... discussed and assessed') to distinguish it from Level 1's 'tool operation/training -- the operational level TEQSA identifies as non-durable.' 'Evaluation of AI tool use' is consistent with either reading, and the instrument's own scoring-direction rule requires resolving that ambiguity to the lower level, which the original Level-2 rationale did not do (it only checked C3 against Level 3, not against Level 1). No other core unit's overview or assessment table mentions AI or digital-tool content at all.",
+    "evidenceLines": [
+      "ePortfolio: application and evaluation of AI tool use in the analysis of positive organizational scholarship, through team-based artefact creation and personal reflection."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: both alternative capstone routes require a self-scoped project 'within the context of their choice' / 'in a context of their choice', assessed as the program's heaviest-weighted core item (Final capstone project 60%, or Major research project report 90%), and the Research Capstone route documents explicit progression from the EDUC90419 research proposal to the supervised EDUC91379 study — a structured progression toward independent learning matching the Level 3 anchor directly.",
+    "evidenceLines": [
+      "Applied to the Capstone project, students design a project grounded in the science of positive psychology or wellbeing science, within the context of their choice.",
+      "In this research subject, students will design and undertake an individual research project grounded in positive psychology or wellbeing science, in a context of their choice. Under the guidance of an academic supervisor, students will expand upon the research proposal developed in EDUC90419 and conduct their study.",
+      "Major research project report"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: the Research Capstone route requires students to design and conduct an inquiry with methodology selection (a Data analysis plan hurdle requirement) and data collection, culminating in a Major research project report (90%). Level 3 requires a substantial primary-evidence project to be REQUIRED, 'not one route among several' — but MC-APP offers it as only one of two alternative capstone options (Professional vs Research), so the requirement is not universal across the cohort. Ambiguity resolved to the lower level per both the scoring-direction rule and the anchor's explicit caveat.",
+    "evidenceLines": [
+      "Design a feasible research project for independent research",
+      "Define an appropriate methodology for investigating the topic",
+      "Students must submit a data analysis plan",
+      "Major research project report"
+    ]
+  },
+  "adaptiveness": 10,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1: presentation assessment recurs across multiple core units (EDUC91042, EDUC91044, EDUC90790) but every description reads as presentation to the teaching team/peers, with no recognised professional genre (client brief, consultancy or policy advice, clinical handover, pitch) and no confirmed audience beyond the teaching team. EDUC90790's intended-learning-outcome phrase 'for a professional audience' is a graduate-outcome statement, which R2/Barrie forbids crediting as assessment evidence, and the subject's own assessment table gives no description of an actual external or practitioner audience — so Level 2 is not reached.",
+    "evidenceLines": [
+      "Presentation on positive psychological approaches (5 minutes)",
+      "Interactive Oral Assessment: Organisation Culture Presentation (10 minutes each ,including 8 minutes presentation and 2 minutes discussion/defense per person)",
+      "15-minute Capstone oral presentation (1500 words equivalent) and accompanying slides/visual (500 words equivalent)",
+      "Demonstrate a capacity to communicate positive psychology and wellbeing-related research clearly, critically and persuasively, for a professional audience"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1: case-study-framed core assessments (EDUC91043, EDUC91046) provide scenario framing, but the artefacts produced are written/video reports graded academically, not the artefact a practitioner would produce. EDUC90790's Professional Capstone gestures toward a real professional task ('apply this knowledge to a professional context of their choice'), but the extract never states that the deliverable's form or the marking criteria are drawn from professional practice rather than academic report standards — so Level 2's 'reproduces a professional task end to end... judged against criteria drawn from practice' bar is not confirmed. Ambiguity resolved to the lower level per the scoring-direction rule.",
+    "evidenceLines": [
+      "Written report: Case study",
+      "Case study report applying positive interventions",
+      "Applied to the Capstone project, students design a project grounded in the science of positive psychology or wellbeing science, within the context of their choice."
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0: the extract contains the complete MC-APP course structure — all 5 compulsory subjects plus both alternative capstone options — and no placement, practicum, live client project, community-based project, or own-practice work-based assessment appears anywhere in it. This is a confirmed absence from a complete structure (not a gap in capture), so Level 0 is scored with confidence rather than being flagged notScoreable.",
+    "evidenceLines": [
+      "5 compulsory subjects (62.5 points); and either:",
+      "Professional Capstone Option",
+      "Research Capstone Option"
+    ]
+  },
+  "workplace": 2,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS: MC-APP requires an all-compulsory, discipline-specific core (5 compulsory subjects, 62.5 points, all EDUC-coded positive-psychology/wellbeing-science content) with a documented sequencing rule (Principles of Positive Psychology must be completed first) and a staged prerequisite chain into the Research Capstone (EDUC90419 research proposal expanded into the EDUC91379 supervised study) — a coherent specialist core with progressive methodological depth.",
+      "evidenceLines": [
+        "5 compulsory subjects (62.5 points); and either:",
+        "Principles of Positive Psychology must be completed in the first semester and:",
+        "In this research subject, students will design and undertake an individual research project grounded in positive psychology or wellbeing science, in a context of their choice. Under the guidance of an academic supervisor, students will expand upon the research proposal developed in EDUC90419 and conduct their study."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS: EDUC91044's Interactive Oral Assessment requires an individually defended 2-minute discussion/defense component, and both the Professional and Research Capstones require students to design and apply a project 'within the context of their choice' with real-world implications and (for the Research route) a defended methodology and data analysis plan — going beyond recall or scripted responses to defended, accountable decision-making.",
+      "evidenceLines": [
+        "Interactive Oral Assessment: Organisation Culture Presentation (10 minutes each ,including 8 minutes presentation and 2 minutes discussion/defense per person)",
+        "Applied to the Capstone project, students design a project grounded in the science of positive psychology or wellbeing science, within the context of their choice.",
+        "In this research subject, students will design and undertake an individual research project grounded in positive psychology or wellbeing science, in a context of their choice. Under the guidance of an academic supervisor, students will expand upon the research proposal developed in EDUC90419 and conduct their study."
+      ]
+    }
+  },
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-29"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  },
+  "ambiguities": []
+};
+
+export default record;

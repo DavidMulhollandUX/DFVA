@@ -1,0 +1,129 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' The graduate-attributes paragraph claims graduates 'work effectively, both independently and as a member of a group,' but the course is a 100cp elective list with only the 25cp capstone (LAWS90073 + a research-paper-option subject) and, conditionally, Fundamentals of the Common Law genuinely compulsory, and neither documents assessed teamwork. The one subject with a documented assessed group task (LAWS90289, 'an in-course group presentation') is an elective marked 'Not available in 2026' whose assessment-table capture is corrupted, so it cannot stand as core-unit evidence. Ambiguous toward level 2; resolved to the lower level per R1's 'core unit' requirement.",
+    "evidenceLines": [
+      "will ensure that they are able to set goals, manage time and priorities and work effectively, both independently and as a member of a group.",
+      "There will be a participation component and an in-course group presentation."
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1: reflection appears only as a program-level generic-skills outcome, with no core unit assessing appraisal of quality against criteria. The one reflective-essay assessment in the extract (Cartels, LAWS90064) is an elective, not core, and gives no criteria establishing criterion-referenced appraisal of the quality of a piece of work (own, peer's, or a tool's).",
+    "evidenceLines": [
+      "Substantial capacity for critical and independent thought and reflection;",
+      "Final assessment task (reflective essay)"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1: substantial AI-governance content exists ('Regulating AI'; 'Competition in Digital Markets' on algorithmic decision-making and big-data market power) that reads close to level-3 governance depth, but both subjects are electives from the prescribed list. The level-1 anchor explicitly covers this case: 'AI or digital tools appear only as electives... the operational level TEQSA identifies as non-durable.' Resolved to level 1.",
+    "evidenceLines": [
+      "This subject investigates the challenges raised by this transformation for existing law and proposals for legislative regimes aimed specifically at AI.",
+      "Exploring advancements in algorithmic decision-making, including machine learning and deep learning"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2: the mandatory 25cp capstone requires a subject with a 'research paper option,' an independently chosen, assessed application of learning to a novel problem. The capstone also names a dedicated research subject (LAWS90073), which could satisfy level 3's 'self-scoped capstone or research project,' but no subject-level page for LAWS90073 was captured, so there is no citable assessment evidence (R2/R3) that the project is self-scoped. Resolved to the lower level.",
+    "evidenceLines": [
+      "Students must complete 100 credit points of study from the prescribed list of subjects, of which 25 credit points will represent a capstone experience in the course. The capstone will comprise of Research in Competition & Consumer Law (LAWS90073) along with one other subject that has a research paper option.",
+      "Assessment 2, Option 2: Research paper on a topic approved by the subject coordinator"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "DEMOTED from 2 to 1 on adversarial verification. Level 2's anchor requires 'design and conduct an inquiry with methodology selection and data collection, assessed.' The only assessment evidence cited is 'Assessment 2, Option 2: Research paper on a topic approved by the subject coordinator' (verbatim, e.g. Privacy Law LAWS70082) plus the compulsory-capstone structural passage. Neither documents methodology selection or data collection -- a coordinator-approved research paper on a chosen legal topic is standard doctrinal/library research, which matches Level 1's anchor ('literature-review assessment') far more closely than Level 2's. The second evidenceLine originally quoted for C5 ('research principles and methods... demonstrated the capacity to apply them in planning and executing at least two substantial research-based projects') is drawn from the program-level 'Have advanced knowledge of and skills in' outcomes list, not from any assessment description -- an outcome statement, which the instrument's general instruction to score documented assessment rather than outcome claims should have excluded from level-2-justifying evidence. No subject page for LAWS90073 (the dedicated research capstone component) was captured, so there is no assessment-level evidence anywhere in the extract that methodology selection or data collection is required and assessed. Per the ambiguity-resolves-downward rule, this drops to level 1.",
+    "evidenceLines": [
+      "Students must complete 100 credit points of study from the prescribed list of subjects, of which 25 credit points will represent a capstone experience in the course. The capstone will comprise of Research in Competition & Consumer Law (LAWS90073) along with one other subject that has a research paper option.",
+      "research principles and methods applicable to this field of learning and professional practice and demonstrated the capacity to apply them in planning and executing at least two substantial research-based projects."
+    ]
+  },
+  "adaptiveness": 6,
+  "W1": {
+    "score": 0,
+    "rationale": "DEMOTED from 1 to 0 on adversarial verification. W1's anchors are explicitly core-scoped at every level (Level 0: 'All core assessment...'; Level 1: '...core assessment adds presentation to peers/staff...'; Level 2: 'At least one core assessment requires a recognised professional genre...'). The two class-presentation instances cited (Trade Marks and Unfair Competition LAWS70046 and Australian Consumer Law LAWS70380) are both electives from the prescribed list, not core units -- the capstone (LAWS90073 + a research-paper-option subject) and conditional Fundamentals of the Common Law are the only compulsory units, and no assessment detail for either was captured. The original rationale itself conceded 'no core unit is specified,' meaning the level-1 anchor's core-assessment clause was not actually satisfied by the cited evidence -- only the outcome/graduate-attribute claim was. Given the standing rule to resolve ambiguity to the lower level, the absence of any core-unit assessment evidence at all defaults this to level 0.",
+    "evidenceLines": [
+      "Have the communication skills to clearly articulate and convey complex information regarding legal issues in trade marks law to relevant specialist and non-specialist audiences, including clients",
+      "Class presentation on an agreed topic with PPT slides submitted as a PDF documentation after the presentation. (No more than 500 words)"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1: assessment across the extract is dominated by exam and research-paper formats -- decontextualised, academic in artefact and criteria. The only scenario framing documented is 'a choice of hypothetical problem and essay options' in a take-home exam, matching level 1 ('the artefact produced and the criteria applied remain academic') rather than level 2's practitioner artefact judged against practice criteria.",
+    "evidenceLines": [
+      "Take-home exam – with a choice of hypothetical problem and essay options",
+      "Assessment 2, Option 1: Take-home examination"
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0: no placement, practicum, internship, or community-based project appears anywhere in the extract. The course-structure subject list is organised into only two categories -- an on-campus intensive teaching period and an online extended teaching period -- neither containing work-integrated learning. The overview's description of the cohort as 'professionals... aspiring to build or advance a career' describes the target applicant profile, not an assessed own-practice activity, so the v4.2 in-practice route is not established either.",
+    "evidenceLines": [
+      "Intensive teaching period (mix of delivery modes)",
+      "Extended teaching period (online learning)",
+      "It is designed for professionals in the private and public sectors who are aspiring to build or advance a career in this field."
+    ]
+  },
+  "workplace": 1,
+  "gates": {
+    "G1": {
+      "result": "FAIL",
+      "rationale": "Content is unambiguously discipline-specific (competition and consumer law throughout), arguing against the FAIL condition's 'generic or interchangeable content.' But PASS requires documented evidence of an all-compulsory specialist core, an accredited program-wide sequence, or a staged prerequisite chain, and none is clearly established: only 25 of 100 credit points (the capstone) are compulsory; Fundamentals of the Common Law is conditional and merely 'strongly recommended' to be taken first, not a formal prerequisite chain; the one accreditation reference (TTIPAB 'Topic Group C') attaches to a single elective subject, not the program. A close call, resolved to FAIL on the documented structure.",
+      "evidenceLines": [
+        "Students must complete 100 credit points of study from the prescribed list of subjects, of which 25 credit points will represent a capstone experience in the course.",
+        "Students who do not have a law degree from a common law jurisdiction must complete Fundamentals of the Common Law (LAWS70217). It is strongly recommended this subject be taken at the start of the course.",
+        "This subject meets the Trans-Tasman IP Attorneys Board (TTIPAB) requirements for ‘Topic Group C’."
+      ]
+    },
+    "G2": {
+      "result": "FAIL",
+      "rationale": "DEMOTED from PASS to FAIL on adversarial verification. PASS rested entirely on a 'take-home exam – with a choice of hypothetical problem and essay options' (LAWS90165) plus generic 'critically examine, analyse, interpret and assess the effectiveness of these legal principles' outcome language and a coordinator-approved research-paper option -- none of which is a simulation, capstone, or live project, and the gate's PASS anchor lists those as its concrete exemplars alongside 'defended trade-off decisions.' This exact assessment shape (participation + take-home exam with a choice of hypothetical-problem or essay + optional research paper) is the default format used by essentially every elective subject in this program, not a distinguishing feature of it -- treating it as satisfying 'real uncertainty and accountability' risks the gate passing on the strength of an unremarkable, universal law-exam format rather than documented decision-making under genuine stakes. No assessment rubric or task description in the extract documents that trade-offs must be defended, or that the hypothetical carries real (non-academic) uncertainty or accountability. Per the instrument's ambiguity-resolves-downward convention this defaults to FAIL.",
+      "evidenceLines": [
+        "Take-home exam – with a choice of hypothetical problem and essay options",
+        "Be able to critically examine, analyse, interpret and assess the effectiveness of these legal principles",
+        "Assessment 2, Option 2: Research paper on a topic approved by the subject coordinator"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1: graduate-attribute language ('work effectively... as a member of a group') plus LAWS90289's documented 'in-course group presentation' suggest level 2, but LAWS90289 is an elective marked 'Not available in 2026' with a corrupted assessment-table capture, and no core unit documents assessed collaborative practice -- resolved to level 1 (R1's 'core unit' requirement).",
+    "C3: 'Regulating AI' and 'Competition in Digital Markets' document AI-governance content (bias, accountability, algorithmic market power) that reads close to level 3, but both are electives from the prescribed list; the level-1 anchor explicitly caps 'AI or digital tools [that] appear only as electives' at level 1 -- resolved to level 1.",
+    "C4 and C5: the mandatory 25cp capstone names a dedicated research subject (LAWS90073, 'Research in Competition & Consumer Law'), which could satisfy C4's 'self-scoped capstone' and C5's 'REQUIRED... primary evidence' at level 3, but no subject-level page for LAWS90073 was captured in the extract, so there is no assessment evidence of self-scoping, data collection, or a defence/viva component (R2/R3) -- both resolved to level 2 as submitted; C5 was further demoted to level 1 on adversarial verification (see C5 rationale).",
+    "G1: subject content is unambiguously discipline-specific (competition and consumer law throughout), arguing against the FAIL condition's 'generic or interchangeable content,' but none of the three PASS structural forms (all-compulsory core, accredited program-wide sequence, staged prerequisite chain) is clearly documented beyond the 25cp capstone -- resolved to FAIL as the closer reading of the documented structure.",
+    "C5 (post-verification): the submitted score of 2 was DEMOTED to 1. The evidence cited (a coordinator-approved research paper option, plus a program-level outcomes-list statement) documents doctrinal/library research, not methodology selection and data collection under supervision -- see C5 rationale.",
+    "W1 (post-verification): the submitted score of 1 was DEMOTED to 0. Both cited class-presentation instances are electives, not core units, and the original rationale conceded no core unit was specified -- see W1 rationale.",
+    "G2 (post-verification): the submitted result of PASS was DEMOTED to FAIL. The cited take-home exam and research-paper-option format is the default shape of nearly every elective subject in this program, not documented evidence of defended trade-offs under real uncertainty and accountability -- see G2 rationale."
+  ],
+  "notScoreable": [
+    "The page captured at the LAWS70046/assessment URL contains mismatched content ('Research Foundations (MGMT90249)'), and the page captured at the LAWS90289/assessment URL contains mismatched content ('Investment Management (FNCE90056)') -- both are capture errors, not evidence about these subjects, and were excluded from scoring.",
+    "LAWS90073 (Research in Competition & Consumer Law, the mandatory capstone research subject), LAWS90066 (Abuse of Market Power), LAWS90072 (Mergers), and LAWS70217 (Fundamentals of the Common Law) have no dedicated subject overview or assessment page in the extract -- only their titles appear in the course-structure table -- limiting the evidence available for C4/C5 level-3 determination and for G1's prerequisite-chain question."
+  ],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

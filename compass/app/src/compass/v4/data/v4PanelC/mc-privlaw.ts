@@ -1,0 +1,124 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "L1: teamwork named only as a program-level graduate attribute; no subject assessment table documents a group project, client/stakeholder task, or interprofessional activity — every assessment item found is individual (exam, research paper, participation, presentation).",
+    "evidenceLines": [
+      "Capacity to value and participate in teamwork",
+      "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork."
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "L1: reflective/evaluative capacity claimed only at program-outcome level; one elective subject assesses a 'Written reflective assignment' (30%) but no criteria/exemplars are documented for it, so it does not clearly meet L2's criterion-referenced appraisal. Ambiguous between L1/L2 — resolved to the lower level.",
+    "evidenceLines": [
+      "analyse, critically reflect on and synthesise complex information, concepts and theories in the field of private law",
+      "Written reflective assignment"
+    ]
+  },
+  "C3": {
+    "score": 0,
+    "rationale": "L0: no AI or digital-tool content appears anywhere in the extract; the only technology-adjacent graduate attribute concerns physical IT infrastructure access, not digital/AI content taught or assessed — does not reach even L1's tool-operation floor.",
+    "evidenceLines": [
+      "Advanced working skills in the use of new technology",
+      "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study."
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "L1: 'apply ... to new fact situations' is claimed in several subject outcomes but the paired assessment descriptions (exam/research paper) don't themselves document novel-problem design; no capstone or self-scoped project exists (Minor Thesis explicitly excluded from the program).",
+    "evidenceLines": [
+      "Apply the principles of contract interpretation to new fact situations and provide advice as to the rights and obligations of contracting parties",
+      "may choose the remaining 12.5 credit points from the subjects available in the Master of Laws (excluding Fundamentals of the Common Law and the Minor Thesis)."
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "L1: 'Research paper on a topic approved by the subject coordinator' recurs as a major (70-100%) assessment across almost every subject — substantial secondary/doctrinal research functioning as literature-review assessment. No methodology-selection/data-collection design (L2) or required defended primary-evidence project (L3; thesis excluded) is documented.",
+    "evidenceLines": [
+      "Research paper on a topic approved by the subject coordinator",
+      "6000 words"
+    ]
+  },
+  "adaptiveness": 4,
+  "W1": {
+    "score": 2,
+    "rationale": "L2: Principles of Banking and Finance Law assesses 'A brief memorandum on a topic or transaction of your choice, identifying the key legal issues' (20%) — a recognised practitioner genre distinct from the essay/exam forms used elsewhere. Single instance only, no documented external-practitioner audience or explicit conduct criterion, so L3 is not met.",
+    "evidenceLines": [
+      "A brief memorandum on a topic or transaction of your choice, identifying the key legal issues",
+      "400 words"
+    ]
+  },
+  "W2": {
+    "score": 0,
+    "rationale": "L0: assessment across the extract reduces to take-home exams, approved-topic research papers, participation and presentations — academic artefacts judged by academic criteria. The one memorandum task is attributed to W1 under the 'one construct, one home' rule, leaving no remaining evidence of a professional task reproduced end to end.",
+    "evidenceLines": [
+      "Option 1: Take-home examination",
+      "Research paper on a topic approved by the subject coordinator"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "L1: 'International Legal Internship' (LAWS70067) appears only as one elective choice among many in the course-structure subject-options table, not compulsory. No overview or assessment page for it appears in the extract, so supervision/accountability/reflection design cannot be verified beyond its documented optional-elective status.",
+    "evidenceLines": [
+      "LAWS70067",
+      "International Legal Internship"
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "FAIL",
+      "rationale": "PASS requires an all-compulsory core, accredited sequence, or staged prerequisite chain. The program is an elective menu: at least 87.5/100 credit points from a prescribed list, with the remaining 12.5 open to the wider Master of Laws catalogue. Only a conditional 'Fundamentals of the Common Law' is compulsory (for non-common-law-background students), and its link to other subjects is stated as a recommendation, not a documented prerequisite chain.",
+      "evidenceLines": [
+        "Students who do not have a law degree from a common law jurisdiction must complete Fundamentals of the Common Law, as well as 87.5 credit points from the prescribed list.",
+        "Students with a law degree from a common law jurisdiction must complete at least 87.5 credit points from the prescribed list and may choose the remaining 12.5 credit points from the subjects available in the Master of Laws",
+        "We recommend Masters students needing an introduction to the common law enrol in this subject when they first start their program of study."
+      ]
+    },
+    "G2": {
+      "result": "FAIL",
+      "rationale": "PASS requires defended trade-off decisions or simulations/capstones/live projects with real uncertainty and accountability. Every assessment table resolves to take-home exams, approved-topic research papers, participation, short presentations and a 75%-attendance hurdle; no subject documents a simulation, live client matter, capstone, or scrutinised defended decision.",
+      "evidenceLines": [
+        "Option 1: Take-home examination",
+        "Research paper on a topic approved by the subject coordinator",
+        "Hurdle requirement: A minimum of 75% attendance is required."
+      ]
+    }
+  },
+  "ambiguities": [
+    "Structural: mc-privlaw has no universally compulsory subject — only a conditional 'Fundamentals of the Common Law' for students without a common law degree. Every C1-C5/W1-W3 anchor uses 'core unit' language; this scoring reads 'core unit' as any subject within the program's prescribed private-law specialisation list, since no subject is guaranteed for every student. This affects every item and is the same basis on which G1 was scored FAIL (no compulsory sequence is documented).",
+    "C2: the 'Written reflective assignment' (Cyber Security and the Law, 30%) is assessed but the extract does not state it is judged against explicit criteria or exemplars, leaving it ambiguous between L1 ('appears in outcomes ... not assessed against criteria') and L2 ('criterion-referenced appraisal'). Resolved to L1, the lower level.",
+    "C5: 'Research paper on a topic approved by the subject coordinator' recurs as a major graded component across most subjects; ambiguous between L0 ('secondary synthesis only') and L1 ('literature-review assessment'). Resolved to L1 since these are substantial, formally examined literature/doctrine-based research tasks rather than mere synthesis.",
+    "W1/W2: the LAWS70206 'brief memorandum on a topic or transaction of your choice, identifying the key legal issues' satisfies both W1's professional-genre anchor and could be read as W2's practitioner-artefact anchor. Per the 'one construct, one home' rule it is scored once, under W1 (its defining construct is the communication genre), and excluded from W2."
+  ],
+  "notScoreable": [
+    "W3: 'International Legal Internship' (LAWS70067) is listed as an elective in the course-structure subject-options table, but the extract contains no subject-overview or assessment page for it, so its supervision arrangements, assessment design, host accountability and reflection requirements cannot be verified beyond its documented status as an optional elective."
+  ],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-31"
+    },
+    "mechanical": true,
+    "date": "2026-08-31"
+  }
+};
+
+export default record;

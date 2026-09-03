@@ -7,12 +7,12 @@ import {
   type V3Program,
 } from "../../v3/data/v3Programs";
 import { V4_ADAPTIVENESS_MAX } from "../data/v4Rubric";
-import { V4_META } from "../data/v4Meta";
 import {
-  V4_PANEL_C,
+  V4_INDEX,
+  V4_META,
+  type V4IndexEntry,
   type V4PanelABasis,
-  type V4PanelC,
-} from "../data/v4PanelC";
+} from "../data/v4Meta";
 import { basisMedian, isOwnRecord } from "../exposureBasis";
 // Scale bounds and the workplace-sizing rule come from plotScale.ts, shared
 // with the insights portfolio matrix so both figures plot on one scale.
@@ -50,10 +50,14 @@ export function V4MiniMatrix({
   // Peers re-scored on v4.1: plotted on their v4 adaptiveness (not their v3.1
   // value, which is a different instrument) and sized by W. Programs without a
   // W score are omitted rather than drawn at an implied zero.
-  const v4Peers = Object.entries(V4_PANEL_C)
+  // Read from the light V4_INDEX (bare scores), never the per-program chunks:
+  // the plane needs every peer's two numbers, not their rationale text.
+  const v4Peers = Object.entries(V4_INDEX)
     .filter(([c, r]) => c !== program.code && typeof r.workplace === "number")
     .map(([c, r]) => ({ peer: v3ProgramByCode(c), r }))
-    .filter((e): e is { peer: V3Program; r: V4PanelC } => e.peer !== undefined);
+    .filter(
+      (e): e is { peer: V3Program; r: V4IndexEntry } => e.peer !== undefined,
+    );
   // Landscape plane: spans the full report column at a readable height.
   const W = 720,
     H = 300,

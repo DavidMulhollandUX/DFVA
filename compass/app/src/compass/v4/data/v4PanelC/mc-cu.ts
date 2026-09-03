@@ -1,0 +1,124 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 0,
+    "rationale": "No core assessment involves collaborative, team-based, or stakeholder work; the course-level Application-of-knowledge ILO describes individual practice with 'high level personal autonomy and accountability' (Level 0 anchor). The only mention of collaboration anywhere in the extract is a generic Melbourne Experience graduate attribute ('capacity to participate fully in collaborative learning'), which is university-wide boilerplate rather than this program's own intended learning outcome, and is never tied to any assessed task (R2). Ambiguous between Level 0 and Level 1; resolved to the lower Level 0 per the scoring-direction rule.",
+    "evidenceLines": [
+      "with high level personal autonomy and accountability",
+      "have the capacity to participate fully in collaborative learning and to confront unfamiliar problems"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Reflection and critical appraisal appear in course- and subject-level intended learning outcomes ('reflect critically on theory and professional practice', 'Develop cognitive skills to reflect critically on clinical ultrasound literature') but are not assessed against criteria - Level 1. The closest candidate for Level 2, MEDI90048's comparison of the student's own case report to the tutor's report, is explicitly described as a feedback/reinforcement step, with 'the structured MCQ' stated as the actual graded assessment component, not the appraisal itself. Ambiguous between Level 1 and Level 2; resolved to the lower Level 1.",
+    "evidenceLines": [
+      "cognitive skills to demonstrate mastery of theoretical knowledge of clinical ultrasound and to reflect critically on theory and professional practice or scholarship",
+      "Develop cognitive skills to reflect critically on clinical ultrasound literature",
+      "After review of materials the student completes a report form and then compares that to the tutor report. This is reinforced by a summary of key findings and learning points, which is available after completion of their initial report.",
+      "The structured MCQ relates to the case and forms the assessment component."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "No AI content appears anywhere in the extract. Digital-tool content is present in the core but stays at the operational level TEQSA identifies as non-durable: students must have a Windows-capable computer, and MEDI90059 teaches reporting 'using a custom designed database reporting system' - tool operation/training, matching Level 1. No core unit addresses digital/AI limitations, ethics, or governance (Level 2/3 anchors unmet).",
+    "evidenceLines": [
+      "All students are expected to have access to a computer that can operate a Windows platform or simulation.",
+      "This subject will outline how formally report diagnostic echocardiography studies, using a custom designed database reporting system."
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Multiple core subjects require interpreting varied and unfamiliar case presentations beyond the taught examples - e.g. MEDI90048's '50 advanced and rare clinical ultrasound case studies' and MEDI90056's 'Review 20 echocardiography studies' - satisfying Level 2 (case variation, assessed). The course-level ILO phrase 'a substantial capstone experience to new situations in professional scientific practice' gestures toward Level 3, but no subject in the compulsory or elective lists is documented as a self-scoped capstone or independent-learning-gap project (R2: an outcome claim without assessment evidence is insufficient). Ambiguous between Level 2 and Level 3; resolved to the lower Level 2.",
+    "evidenceLines": [
+      "Students are required to submit 50 clinical ultrasound patient scans done in the workplace using the online logbook provided. In addition, 50 advanced and rare clinical ultrasound case studies will be provided for interpretation and reporting.",
+      "Review 20 echocardiography studies",
+      "to plan and execute a substantial capstone experience to new situations in professional scientific practice and/or for further learning"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "MEDI90083 (Research Methods & Ultrasound Literature) is an introductory methods unit assessed through literature-critique assignments ('Completion of structured assignment of critical analysis of ultrasound literature. Candidates will review and analyse literature and answer structured questions using a MCQ format') - the Level 1 anchor. Students critique existing literature rather than design and conduct their own inquiry with data collection (Level 2), and there is no substantial primary-evidence project with defended methodology (Level 3).",
+    "evidenceLines": [
+      "This subject will work through research methods applicable to understanding echocardiography and clinical ultrasound literature. Learning will be reinforced by completing a series of assignments focused on evaluating echocardiography and clinical ultrasound publications.",
+      "Completion of structured assignment of critical analysis of ultrasound literature. Candidates will review and analyse literature and answer structured questions using a MCQ format."
+    ]
+  },
+  "adaptiveness": 5,
+  "W1": {
+    "score": 0,
+    "rationale": "Core assessment across the program is overwhelmingly academic-genre MCQ examinations and tutorial quizzes addressed to the marker (e.g. 'One open-book multiple-choice examination of 50 questions, during exam week', repeated near-identically across every core subject) - the Level 0 anchor. The course-level ILO 'communication ... skills to justify and interpret theoretical propositions ... to specialist and non-specialist audiences' names a non-specialist audience but is never operationalised as an assessed presentation or professional genre in any subject (Level 1 requires at minimum a presentation to peers/staff). Ambiguous between Level 0 and Level 1; resolved to the lower Level 0.",
+    "evidenceLines": [
+      "One open-book multiple-choice examination of 50 questions, during exam week",
+      "communication and technical research skills to justify and interpret theoretical propositions, methodologies, conclusions and professional decisions to specialist and non-specialist audiences"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Most core subjects present scenario-framed case studies but assess them through MCQ, keeping the graded artefact academic (Level 1). MEDI90048 (core) requires students to 'submit 50 clinical ultrasound patient scans done in the workplace using the online logbook provided,' with a formal 'Hurdle requirement: Submission of logbook of 50 clinical ultrasound cases performed in the students' workplace' - a real professional task performed end-to-end in the student's actual clinical setting. However, the hurdle is recorded as pass/fail with no documented criteria drawn from practice ('N/A' percentage, no rubric text anywhere in the extract), so it does not meet Level 2's requirement of being judged against criteria. Per the rubric's scoring-direction rule, ambiguity between Level 1 and Level 2 resolves to the lower level. Demoted from 2 to 1 on verification (2026-08-29): the original scoring resolved this ambiguity upward, contradicting the rule it applied correctly elsewhere in this same submission.",
+    "evidenceLines": [
+      "Students are required to submit 50 clinical ultrasound patient scans done in the workplace using the online logbook provided.",
+      "Hurdle requirement: Submission of logbook of 50 clinical ultrasound cases performed in the students' workplace."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "The program is documented as being 'offered to practicing medical professionals who wish to obtain further expertise in medical ultrasound for clinical practice' - a cohort already practising, engaging the v4.2 in-practice route. MEDI90048 (core) assesses activity in the student's own professional practice with real recipients (patients) and a documented outcome measure (the logbook hurdle plus reported/interpreted cases), matching Level 2. It stands alone as a single 12.5-point core subject with no documented structured reflection or accountability to workplace stakeholders and no documented sequence of such subjects in the compulsory core, so Level 3 ('required sequence ... with structured reflection and documented accountability') is not met.",
+    "evidenceLines": [
+      "This online program will be offered to practicing medical professionals who wish to obtain further expertise in medical ultrasound for clinical practice.",
+      "Students are required to submit 50 clinical ultrasound patient scans done in the workplace using the online logbook provided.",
+      "Hurdle requirement: Submission of logbook of 50 clinical ultrasound cases performed in the students' workplace."
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Nine compulsory subjects (112.5 of 150 points) form an all-compulsory specialist core in clinical ultrasound/echocardiography with progressive depth - from 'Principles of Ultrasound Heart Scan' and 'Advanced Anatomy and Doppler Analysis' through 'Advanced Valve and Aortic Pathology', 'Applications of Echocardiography' and 'Advanced Echocardiography Interpretation' to '3-D Echocardiography & New Technologies' - a coherent disciplinary sequence, satisfying PASS.",
+      "evidenceLines": [
+        "Nine compulsory subjects (112.5 points – 12.5 points each subject)",
+        "MEDI90049\tPrinciples of Ultrasound Heart Scan",
+        "MEDI90056\tAdvanced Anatomy and Doppler Analysis",
+        "MEDI90059\tAdvanced Echocardiography Interpretation"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Most subjects are assessed through MCQ examinations, which read as scripted/recall unless read alongside the practicum. MEDI90048 (core) requires students to perform and report on '50 advanced and rare clinical ultrasound case studies' and submit 50 real patient scans performed 'in the workplace' - a live clinical project with real diagnostic uncertainty (unscripted patient presentations) and real accountability (patient care, professional obligations), satisfying the 'live projects with real uncertainty and accountability' PASS route even though the graded instrument for the same subject is MCQ. This is a close call: the dominant assessed format program-wide is scripted MCQ, so PASS rests on this single core subject's live-practice component rather than a broadly distributed pattern.",
+      "evidenceLines": [
+        "Students are required to submit 50 clinical ultrasound patient scans done in the workplace using the online logbook provided. In addition, 50 advanced and rare clinical ultrasound case studies will be provided for interpretation and reporting.",
+        "One open-book multiple-choice examination of 50 questions, during exam week"
+      ]
+    }
+  },
+  "ambiguities": [
+    "W2 remains a genuine judgment call even after demotion: MEDI90048's logbook hurdle is a real end-to-end professional task performed in the student's own clinical workplace, but it's graded pass/fail with no documented criteria drawn from practice, and it's a single 12.5-point subject rather than the program's assessment spine. Level 1 was applied per the ambiguity-resolves-down rule; a different reader weighting the task's authenticity over its grading scale could still argue Level 2 — that would need a fresh capture/scoring pass to raise, not this verification pass.",
+    "No prior v1 byDimension evidence existed for mc-cu, so the written file contains only the panelCv4 block — flagging in case a v1 record exists elsewhere and was expected to be preserved but wasn't found under this path."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-31"
+    },
+    "mechanical": true,
+    "date": "2026-08-31"
+  }
+};
+
+export default record;

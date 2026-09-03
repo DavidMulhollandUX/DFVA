@@ -1,0 +1,156 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: a compulsory core subject assesses collaborative practice with individual accountability. EDUC90333 Introduction to the IB is listed under 'Compulsory subjects' and its first assessment is a paired presentation weighted 10%, with the word allocation specified per student — the anchor's 'group projects with individual accountability' exemplar. Not level 3: no other core assessment is collaborative (all remaining core tasks are individual essays, planning documents, presentations and research reports), so assessed collaboration does not recur across the program; and nothing in the extract requires coordinating work across people AND tools/AI systems, or makes the division of work between people and systems itself assessable. Not level 1, because the collaboration is assessed rather than only stated in outcomes.",
+    "evidenceLines": [
+      "Critical reading presentation (in pairs, 500 words per student; 1000 words equivalent for the subject)",
+      "10 minutes",
+      "Compulsory subjects",
+      "Understand the importance of purposeful, collaborative planning within the PYP",
+      "Graduates are also aware of the social and cultural diversity in communities and can work collaboratively with people from diverse linguistic and cultural backgrounds."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: core assessment includes structured critique of the quality of work. The compulsory capstone EDUC90871 assesses a 'Research Review' at 25% and documents that students critically analyse a prior research project; the core capstone prerequisite EDUC90926 assesses a literature review at 40% against the stated skill of evaluating the quality of research and research papers. Not level 3: no core assessment requires students to document and justify reliance decisions (when they relied on or overrode a tool, source or collaborator), to defend judgements of AI-output quality, or to evidence strategy adjustment over time — the repeated generic-skill claim about using constructive criticism of their own work is an outcome statement only, and R2 bars scoring it. Not level 1, because the appraisal is carried by weighted assessment tasks, not only outcomes.",
+    "evidenceLines": [
+      "Research Review",
+      "Students undertake a critical analysis of the original project and then design their own research using the original data.",
+      "Literature review",
+      "Analyse and evaluate the quality of research and research papers",
+      "Evaluate and use constructive criticism of their own work and of the institutions/ communities in which they teach;",
+      "Evaluate a range of assessment tools and styles and reporting strategies including rubrics, teacher and school self-evaluation, and the rationale for them in the area of teaching and learning;"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor met and no higher: digital tools appear only at the operational level TEQSA identifies as non-durable. ICT appears in the program-level generic skills and again in EDUC90330's generic skills as using ICT to participate in learning communities — tool participation, not capability critique — and the only other digital reference is undertaking data management and analysis on pre-existing data sets. Not level 0, because that operational digital content does appear in a program-level outcome. Not level 2: no core unit in the extract addresses AI capabilities AND limitations or ethics of AI; generative AI is not mentioned anywhere in the extract. Not level 3: no core assessment requires critique or governance of AI systems — bias, accountability, transparency, regulation or data governance — in the education context. Research ethics is addressed (EDUC90926, EDUC90871), but research ethics is not AI or digital governance.",
+    "evidenceLines": [
+      "Effectively use ICT to participate in learning communities as a source of professional learning;",
+      "Effectively use ICT to participate in learning communities as a source of professional learning.",
+      "Undertake data management, analysis and report writing using pre-existing small-scale qualitative and quantitative data sets;",
+      "Identify ethical issues in education research and evaluate responses",
+      "Conduct education research in an ethical manner;"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3 anchor met: the program documents structured progression toward independent learning via a self-scoped required research project, and R2's assessment requirement is satisfied by weighted tasks, not an outcome statement. The course structure mandates 25 points of capstone subjects taken at the end of the degree, with EDUC90926 a prerequisite or corequisite for EDUC90871; EDUC90871 is the compulsory AQF capstone, in which students complete an independent research project, design their own research, and are expected to plan and execute that project — assessed by a Research Review (25%), Research Poster (25%) and Final research report (50%). That is the staged prerequisite chain plus self-scoped project the level-3 anchor names, which is more than the level-2 requirement of a single application to novel problems.",
+    "evidenceLines": [
+      "capstone subjects totalling 25 points",
+      "The capstone subjects are taken at the end of the degree.",
+      "EDUC90926 Researching Education Practice is a prerequisite or corequisite for EDUC90871 International Baccalaureate Capstone",
+      "Drawing on theory, knowledge and skills developed throughout the Master of International Education (International Baccalaureate), students will complete an independent research project.",
+      "Plan and execute their capstone research project",
+      "Final research report",
+      "Investigate systematically a matter of concern in an IB context; or conduct a constructively critical literature review."
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1 anchor matches the documented evidence exactly: an introductory methods unit with literature-review assessment. EDUC90926 is described as the first part of the capstone experience covering methodologies, research ethics and data management, and assesses a Literature review at 40%. Level 2 requires students to 'design and conduct an inquiry with methodology selection and data collection, assessed' — the data-collection half is explicitly negated by the extract: the capstone has students access data from a prior research project and the program generic skills specify pre-existing small-scale qualitative and quantitative data sets. Methodology selection is assessed (Research design report, 40%), so the evidence straddles levels 1 and 2; the rule to resolve ambiguity downward applies. Level 3 is clearly not met: no substantial project generating primary evidence is required, the capstone ILO permits a critical literature review as an alternative route ('one route among several'), and no viva, defence or staged supervised review of methodology is documented.",
+    "evidenceLines": [
+      "In this subject, students will develop an understanding of research in education, as the first part of their capstone experience, and advanced skills to analyse complex educational problems and the bodies of knowledge associated with them.",
+      "Literature review",
+      "Research design report",
+      "In this subject, students access data from a prior research project about teaching and learning strategies in IB classrooms.",
+      "Undertake data management, analysis and report writing using pre-existing small-scale qualitative and quantitative data sets",
+      "Investigate systematically a matter of concern in an IB context; or conduct a constructively critical literature review."
+    ]
+  },
+  "adaptiveness": 9,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1 anchor met: communication appears in outcomes and core assessment adds spoken presentation, but no professional genre of communication and no audience beyond the teaching team is documented. Outcomes claim graduates can articulate research in written and oral presentations and are effective oral and written communicators; core assessment delivers on the spoken half repeatedly — a learner profile presentation (30%) in the compulsory EDUC90333, an oral presentation (20%) in the core capstone EDUC90926, and 20-minute presentations in the specialisation core subjects. Not level 2: no core assessment names a recognised professional communication genre judged against practice-drawn criteria, and no assessment is addressed to an audience beyond the teaching team — the delivery mode is online class and no client, panel, practitioner or public audience is named. The practitioner artefacts (unit planner, planning document, assessment framework) score in W2 under one-construct-one-home, not here. Not level 3 for the same reasons, and because professional conduct is nowhere among stated assessment criteria.",
+    "evidenceLines": [
+      "Be able to articulate research in written and oral presentations.",
+      "Learner profile presentation (1500 words equivalent)",
+      "Oral presentation (equivalent to 1000 words)",
+      "Oral Presentation: IB Diploma Programme (20 minutes)",
+      "Presentation: interdisciplinary learning (20 minutes)",
+      "Online exhibition related to the PYP Exhibition",
+      "Research Poster",
+      "Communicate research results clearly and persuasively."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: at least one core assessment produces the artefact a practitioner would produce, judged against criteria drawn from practice. The compulsory EDUC90331 assesses a 'Scaffolded assessment framework' at 40% within a subject whose outcomes are the IB's own assessment and reporting requirements; the specialisation core subjects assess a Planning document (50%), an Annotated Unit of Inquiry (45%), an MYP unit planner (45%) and an Annotated subject timeline (45%) — curriculum planning documents are the education profession's own artefact — with the stated criterion being curriculum that incorporates and balances the IB's standards and practices, and the course itself accredited by the IB. Not level 3: such tasks are not documented as the assessment spine. The compulsory entry subject EDUC90333 assesses a presentation, a presentation and a 3000-word essay, and the entire 25-point capstone stage assesses academic research genres (research review, poster, research report), so the anchor's 'capstone plus earlier scaffolding, or at least one per stage' is not satisfied. Evidence straddles 2 and 3 (the IB standards-and-practices criterion would supply the level-3 'profession's own standards of performance'), resolved downward. Per R4, nothing was scored up on a 'real-world' or 'authentic' label; only documented task features were used.",
+    "evidenceLines": [
+      "Scaffolded assessment framework",
+      "Planning document",
+      "Demonstrate the ability to design and critique curriculum that incorporates and balances PYP standards and practices;",
+      "Annotated Unit of Inquiry",
+      "Written task: MYP unit planner",
+      "Annotated subject timeline",
+      "Demonstrate the ability to design and critique curriculum that incorporates DP standards and practices and addresses the objectives of subject specific content and common core learning.",
+      "The course is accredited by the International Baccalaureate®",
+      "International education essay"
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0 anchor met: no work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure. The degree is a fully online program and its four structural components are exhaustively enumerated as 25 points of compulsory subjects, one 25-point specialisation, 25 points of electives and 25 points of capstone subjects — none is a placement or practicum, and every named subject is delivered Online with written, presentation and research assessment only. The capstone is explicitly desk-based on a prior project's data rather than sited in a workplace. Not level 1: work-situated learning does not even appear as an elective, optional internship or unassessed careers activity in the extract. The cohort is described as teachers already working in education and several outcomes refer to the institutions or communities in which they teach, but no supervised, assessed participation in a workplace is documented in the course structure — under R1 the graduate's own employment is not curriculum evidence.",
+    "evidenceLines": [
+      "Masters (Coursework)Year: 2026Delivered: Online",
+      "25 points of compulsory subjects",
+      "at least one specialisation, each consisting of 25 points of study",
+      "electives totalling 25 points",
+      "capstone subjects totalling 25 points",
+      "Please note that this program will not provide graduates with initial teacher education qualifications to teach in Australia.",
+      "In this subject, students access data from a prior research project about teaching and learning strategies in IB classrooms.",
+      "Evaluate and reflect upon their teaching and on the work of the institutions/ communities in which they teach;"
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents a coherent specialist core with progressive depth by two of the three routes the gate names: an accredited sequence (the course carries International Baccalaureate professional accreditation) and a staged prerequisite chain (Introduction to the IB gates the Curriculum Frameworks subject in every specialisation, Assessment & Reporting gates each Advanced subject, and Researching Education Practice gates the capstone). Content is disciplinarily specific rather than interchangeable — it is described as a specialist degree, and subject content is IB curriculum, assessment and pedagogy throughout.",
+      "evidenceLines": [
+        "Professional accreditation",
+        "The course is accredited by the International Baccalaureate®",
+        "It offers a specialist degree for teachers and administrators working at all levels of education.",
+        "EDUC90333 Introduction to the IB is a prerequisite for EDUC90261 Curriculum Frameworks in the IB PYP",
+        "EDUC90331 Assessment & Reporting in the IB is a prerequisite for EDUC90260 IB PYP Advanced",
+        "EDUC90926 Researching Education Practice is a prerequisite or corequisite for EDUC90871 International Baccalaureate Capstone"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The gate's capstone route is satisfied: the compulsory AQF capstone requires students to design their own research and plan and execute the project, with the design itself assessed (Research design report, 40% in the prerequisite subject) and the outcome assessed (Final research report, 50%) — defended methodological trade-offs under genuine uncertainty rather than recall or scripted response. The specialisation core adds designed-and-critiqued curriculum judged against IB standards. Noted as a bound: the capstone's data are supplied rather than collected, which narrows the uncertainty, and the ILO permits a literature-review route; the gate is nonetheless met on the research-design evidence.",
+      "evidenceLines": [
+        "This subject comprises the compulsory [AQF] Capstone experience for this course.",
+        "Students undertake a critical analysis of the original project and then design their own research using the original data.",
+        "Research design report",
+        "Understand and apply a range of methodologies for evaluating behaviour in a classroom context;",
+        "Demonstrate the ability to design and critique curriculum that incorporates and balances PYP standards and practices;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1: the sole collaborative core assessment is a 10%-weighted paired presentation. Ambiguous between level 1 (token, effectively outcome-level) and level 2; resolved UP to 2 only because the anchor's bar is explicit ('at least one core unit assesses collaborative practice') and the pairing plus per-student word allocation is documented in the assessment table, not the outcomes. Its slightness is why level 3's 'recurs across the program' fails.",
+    "C2: the level-2 anchor requires criterion-referenced appraisal. The critique tasks (Research Review, the recurring Critical Reading Tasks, critical analysis of the prior project) are assessed and weighted, but no rubric, exemplar or explicit criterion set is quoted in the extract. Straddles 1 and 2; scored 2 because the critique is carried by weighted assessment rather than outcomes, with the criterion-referencing left undocumented.",
+    "C5: the strongest straddle. Methodology selection and a designed, conducted inquiry are assessed (Research design report 40%; Final research report 50%), which reads as level 2, but level 2 conjoins methodology selection AND data collection, and data collection is explicitly absent (pre-existing supplied data). Resolved DOWN to 1 per the ambiguity rule.",
+    "C4: the capstone is self-scoped in its question but not in its data (the dataset is supplied), and the ILO permits a critical literature review as an alternative route. Scored 3 because the level-3 anchor asks for structured progression toward independent learning via a self-scoped capstone or research project, which the prerequisite chain plus independent project documents; the supplied data constrain C5, not C4.",
+    "W1: 'Online exhibition related to the PYP Exhibition' (45%) and 'Research Poster' (25%) could be read as public-facing artefacts qualifying for level 2, but neither names an audience beyond the teaching team nor criteria drawn from professional practice. Resolved DOWN to 1.",
+    "W2: practitioner-artefact tasks appear in three or more core subjects and the IB's own standards and practices supply the level-3 'profession's own standards of performance', but the compulsory entry subject and the whole 25-point capstone stage assess academic genres, so 'assessment spine' / 'at least one per stage' is not documented. Resolved DOWN to 2.",
+    "W1 vs W2 boundary: the unit planner, planning document and scaffolded assessment framework are professional artefacts. Under one-construct-one-home they are scored as task fidelity in W2, not as professional communication in W1.",
+    "Scope limitation affecting C1, C2, W1 and W2: the 'Majors, minors and specialisations' page was not captured. The six specialisation subjects are known only from the electives table plus the prerequisite lines that call them 'the core subjects in the ... specialisation'. They were treated as core on that basis; if any is in fact optional, W2's level-2 evidence still stands on the compulsory EDUC90331 'Scaffolded assessment framework' alone.",
+    "G2: the capstone's supplied dataset and the permitted literature-review route reduce the uncertainty the gate contemplates; PASS rests on the assessed research-design decisions, not on live-project accountability, of which there is none."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-15"
+  }
+};
+
+export default record;

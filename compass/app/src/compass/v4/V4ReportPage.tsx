@@ -6,12 +6,8 @@ import { getFaculty } from "../faculty";
 import { v3ProgramByCode, type V3Program } from "../v3/data/v3Programs";
 import { V4_INSTRUMENT } from "./data/v4Rubric";
 import { V4_RESEARCH_DEGREES } from "./data/v4Meta";
-import {
-  v4OnlyProgramByCode,
-  v4PanelABasisByCode,
-  v4PanelCByCode,
-  type V4PanelC,
-} from "./data/v4PanelC";
+import { v4OnlyProgramByCode, v4PanelABasisByCode } from "./data/v4Basis";
+import { useV4PanelC } from "./useV4PanelC";
 import { basisMedian } from "./exposureBasis";
 import { v4Quadrant } from "./v4Position";
 import { FindingPanel } from "./report/FindingPanel";
@@ -51,7 +47,8 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
     ? PROGRAMS.find((p) => p.assessmentSlug === `dfva-${code}`)
     : undefined;
   const v3 = code ? v3ProgramByCode(code) : undefined;
-  const panelC: V4PanelC | undefined = code ? v4PanelCByCode(code) : undefined;
+  // The record is its own chunk; `ready` is false until it has arrived.
+  const { panelC, ready } = useV4PanelC(code);
   // A program can be scored on Panel C without being in the assessed portfolio:
   // no exposure, no alumni destinations, no market report. That is half a
   // position, and the page says so rather than pretending the assessment does
@@ -82,6 +79,16 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
         v1={v1}
       />
     );
+
+  if (!ready) {
+    return (
+      <div
+        role="status"
+        aria-label="Loading report"
+        className="mx-auto max-w-5xl px-4 py-10"
+      />
+    );
+  }
 
   if (!program || !panelC) {
     return (

@@ -1,0 +1,128 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 ('at least one core unit assesses collaborative practice - group projects with individual accountability') is met repeatedly: COMP90024, COMP90050 and COMP90051 each carry a compulsory group assessment, and the capstone assesses team work with individual accountability via a peer assessment factor. Level 3 fails on its second conjunct: recurrence holds, but no assessment documents coordinating work across people AND tools/AI systems - no role-and-tool allocation, no task where the human/system division of labour is itself assessed.",
+    "evidenceLines": [
+      "Group-based Cloud programming assignment system, requiring approximately 50-55 hours programming and 5000 word report",
+      "Project- Group project.",
+      "Students will work in teams under only general guidance from staff members.",
+      "Individual's contribution to the project measured by a peer assessment factor. (e.g. 0.5 for ½ contribution, 1 for full contribution)."
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 ('Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria') matches: reflection appears only in generic skills and graduate attributes. Level 2 needs criterion-referenced appraisal of the QUALITY of work; the nearest candidate, the capstone portfolio containing 'an assessment of the roles of others in the group', appraises CONTRIBUTION against a mark-scaling factor, not quality against criteria, and exists only in the capstone route. Level 3 (documented reliance/override decisions) is absent entirely.",
+    "evidenceLines": [
+      "Have the ability to demonstrate advanced independent critical enquiry, analysis and reflection",
+      "To justify the factor students will be expected to compile an individual portfolio including a journal, meeting summaries/minutes, their assigned role, and evidence of their contribution through draft reports and an assessment of the roles of others in the group."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Above level 1, because AI/ML is not elective or tool-operation content: COMP90051 is compulsory and assessed on algorithmic basis and critical evaluation, not tool training. Level 2 ('Core units address AI capabilities AND limitations/ethics; use with limits discussed and assessed') is met on the limitations side - model limitations and assumption checking are core ILOs carried by examined subjects. Level 3 fails: no core assessment requires critique or governance of AI systems (bias, accountability, transparency, regulation, data governance); the only ethics evidence is an unassessed course-level ILO, which R2 caps at 1 on its own.",
+    "evidenceLines": [
+      "Critically analyse and evaluate different solutions for a machine learning problem",
+      "Understand the underlying statistical modelling framework and the limitations of such models.",
+      "Understand the statistical underpinnings of the methods used in multivariate data and be able to check when assumptions may or may not hold.",
+      "Demonstrate a sophisticated awareness of ethical implications relevant to the use of data, and particularly “big data”;"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Demoted from 3 on adversarial verification. Level 3 ('structured progression toward independent learning: a self-scoped capstone or research project') is refuted: the research pathway is merit-gated (open only to students maintaining a WAM of 80 in Data Science subjects), so it is not a route every student takes; its one explicit self-scoping line ('Students must propose a research topic and confirm the name of project supervisor') is an ENROLMENT PRECONDITION, not assessment evidence, and so fails R2. For the route every student actually takes (MAST90106/07) the extract never documents where the problem comes from - only that the project applies degree skills to 'a practical problem'. Writing a plan for a project you did not scope is not self-scoping, and a literature review is not assessed identification of one's own knowledge gaps. Level 2 ('At least one core assessment requires application to novel or unfamiliar problems') is documented: the compulsory 25-point project applies course methods to an unfamiliar practical problem, with a hurdle-assessed literature review and project plan and a 6,000-word report.",
+    "evidenceLines": [
+      "25 credit point project option of:",
+      "It will apply the skills developed during the degree to a practical problem of relevance to science, industry, commerce or society in general.",
+      "In the first part of the project students will complete a literature review and a plan for their project.",
+      "A literature review and project plan completed by the research group",
+      "Students who maintain a WAM of 80 in Data Science subjects will be eligible to undertake a 25-point individual research project in Data Science as the capstone project, to replace MAST90106 and MAST90107."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 ('Students design and conduct an inquiry with methodology selection and data collection, assessed') is met by the compulsory 25-point project: a planned inquiry into a practical problem reported in a 6,000-word report, or a supervised research program reported as a 30-40 page thesis. Level 3 additionally requires methodology defended under scrutiny - viva, defence, or staged supervised review. The capstone runs under 'only general guidance' and its oral presentation is a group report-out; the research presentation is assessed on communication to a general audience. No defence of methodology is documented, so the lower level stands.",
+    "evidenceLines": [
+      "A written report totaling 6,000 words, or equivalent completed by the research group",
+      "In this subject, students undertake a substantial research program in the area of Data Science. The research will be conducted under the supervision of a member of the School of Mathematics and Statistics or the Computing and Information Systems academic staff. The results will be reported in the form of a thesis and an oral presentation.",
+      "A thesis is the main requirement. Theses are expected to be 30-40 pages in length, excluding references, appendices, figures, and tables.",
+      "Students will give a presentation on their research projects where they will be assessed on their presentation skills and their ability to communicate their research to a general audience in a concise manner"
+    ]
+  },
+  "adaptiveness": 9,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1 fits exactly: communication appears in course ILOs and graduate attributes, and core assessment adds oral presentation to peers and staff (COMP90050 to the class; the capstone group presentation), but no recognised professional genre and no documented audience beyond the teaching team. Level 2 would need a professional genre or external audience judged against criteria drawn from practice; the only practice-flavoured wording is the subject overview expectation about industry clients and the 'career-ready level' ILO, which R4/R2 forbid scoring as documented task features. Ambiguity resolved downward.",
+    "evidenceLines": [
+      "Communicate findings from analyses clearly and effectively, including to an audience with a diverse background in science and/or industry;",
+      "requires an oral presentation of 25-30 minutes to the class, worth 15%",
+      "Group oral presentation",
+      "They are expected to present technically correct results in a fashion acceptable to industry-based and other clients."
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 ('Contextualised or scenario-framed tasks appear, but the artefact produced and the criteria applied remain academic') matches. Core assessment is dominated by written assignments and hurdle examinations; the capstone frames a realistic practical problem but produces a literature review, a 6,000-word report and a presentation - academic artefacts - and the documented criteria are marks, hurdles and a peer contribution factor, not criteria drawn from practice. Level 2 requires all three of realistic problem, practitioner artefact and practice-derived criteria; the third is undocumented, so per R4 the label 'industry-based' cannot lift the score.",
+    "evidenceLines": [
+      "It will apply the skills developed during the degree to a practical problem of relevance to science, industry, commerce or society in general.",
+      "A written report totaling 6,000 words, or equivalent completed by the research group",
+      "Up to 20 pages of written assignments (equivalent to approx. 20 hours)",
+      "Written examination"
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0 ('No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure'). The course structure page enumerates the whole 200 points - one specialisation, 75 points of compulsory subjects and a 25-point project option - and none is a placement, practicum or community-based project. The capstone is a university team project under staff guidance, which is W2 territory, not membership in a workplace or professional community with practitioner supervision.",
+    "evidenceLines": [
+      "The Master of Data Science requires the successful completion of 200 credit points.",
+      "Completion of one formal Specialisation (100 credit points)",
+      "75 credit points of Compulsory subjects",
+      "25 credit points of Capstone Project",
+      "25 credit points of Research Pathway Project"
+    ]
+  },
+  "workplace": 2,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "A coherent all-compulsory specialist core with staged depth: 75 points of named compulsory statistics and computing subjects plus a compulsory 25-point project, with entry streams and specialisations determined by prior foundation subjects - progressive technical and methodological depth, not generic interchangeable content.",
+      "evidenceLines": [
+        "Completion of one formal Specialisation (100 credit points)",
+        "75 credit points of Compulsory subjects",
+        "COMP90051\tStatistical Machine Learning",
+        "On admission Students are placed into streams based on their background. These will help inform the Foundation subjects students need to take and which specialisations are available to them."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Assessment goes beyond recall or scripted response: a compulsory capstone or research project on a practical problem carries real uncertainty and accountability (team diaries, peer assessment factor, general-guidance supervision), and core statistical subjects require justified handling of incomplete data and critical evaluation of competing solutions.",
+      "evidenceLines": [
+        "It will apply the skills developed during the degree to a practical problem of relevance to science, industry, commerce or society in general.",
+        "Appropriately handle data related issues such as missing and incomplete data in a rigorous and justifiable manner.",
+        "Critically analyse and evaluate different solutions for a machine learning problem"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1: assessed collaboration clearly recurs across the core, which is the level-3 recurrence conjunct, but the tools/AI-coordination conjunct is undocumented; the conjunctive anchor plus the lower-level rule held it at 2.",
+    "C2: the capstone peer assessment factor and individual portfolio could be read as level-2 'portfolio with standards / peer review'. It appraises contribution for mark scaling rather than quality against criteria, and only exists in one of the two project routes, so the lower level was taken.",
+    "C3: level 2 rests on limitations rather than ethics - ethics of data appears only as an unassessed course ILO. The limitations/ethics disjunction in the anchor allowed 2; had the anchor required assessed ethics this would be 1.",
+    "C4: resolved to 2 on adversarial verification. Self-scoping is explicit only for the merit-gated research pathway (WAM 80), and only as an enrolment precondition rather than assessment evidence; for the capstone every student takes, the source of the problem is undocumented, so the level-3 'self-scoped' conjunct is unmet and the hurdle-assessed plan supports level 2 only.",
+    "C5: the compulsory project is substantial and generates evidence, but whether the group oral presentation and the hurdle plan constitute 'staged supervised review' of methodology is unclear; resolved down to 2.",
+    "W1: 'acceptable to industry-based and other clients' and 'career-ready level' straddle levels 1 and 2. Both are expectation/outcome statements rather than documented audiences or criteria, so R4 and the lower-level rule fixed it at 1.",
+    "W2: the COMP90024 group cloud system and the capstone report are practitioner-shaped artefacts, but no criteria drawn from practice are documented for either, so the level-2 three-part anchor was not satisfied."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-14"
+  }
+};
+
+export default record;

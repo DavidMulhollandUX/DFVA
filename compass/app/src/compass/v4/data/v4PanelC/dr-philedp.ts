@@ -1,0 +1,150 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor is met: a core unit assesses collaborative practice with individual accountability — Working with Groups carries a group oral presentation weighted per student plus an individual reflection, and Consultation in Educational Settings assesses a consultation package produced for an organisation with 'Deliver a consultation in a team' among its outcomes. Not level 3: the level-3 anchor additionally requires at least one assessment where work is coordinated across people AND tools/AI systems (documented role and tool allocation, or the human/system division of labour itself assessed) and nothing in the extract assesses tool or system allocation. Interprofessional collaboration also appears in the course outcomes and in the practicum overviews, but outcome statements cannot lift the level (R2) and the practicum evidence is homed in W3 per the one-construct-one-home rule.",
+    "evidenceLines": [
+      "Group oral presentation demonstrating basic group management skills (15 minutes in total; weighted at 15% per student), and individual written reflection (250 words; 5%)",
+      "A consultation package to an organisation in the form of a program that addresses contemporary issues of concern to the educational system",
+      "Deliver a consultation in a team;",
+      "Consult and collaborate with colleagues, including those from other professions, and coordinate programs for meeting developmental needs, in keeping with principles of inter-professional learning and practice",
+      "Apply an interdisciplinary collaborative approach in working with people with exceptional needs;"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 anchor is met: core assessment includes criterion-referenced appraisal of the quality of work — Counselling Skills assesses a transcript-and-analysis essay and a taped interview judged for 'competence in the counselling skills taught in the program' with a 500-word reflective analysis attached, and Learning Processes and Supports assesses an 'Evaluation of Intervention' against the unit's stated requirement to critically assess effectiveness and limitations. Not level 3: the level-3 anchor requires assessment that documents and justifies reliance decisions (when a tool, source or collaborator was relied on or overridden), defends judgements of AI-output quality, or evidences strategy adjustment over time. The nearest candidate — selecting and evaluating assessment instruments and integrating diverse data sources in clinical decision-making — is a Psychological Tests learning outcome, and the matching assessment lines ('Written report', 'Learning tasks') do not document a reliance-justification requirement, so R2 bars the ceiling.",
+    "evidenceLines": [
+      "Taped counselling interview demonstrating competence in the counselling skills taught in the program (30-40 minutes; 2500 word equivalent) and a 500 word reflective analysis",
+      "Essay incorporating transcript and analysis of a recorded interview",
+      "Written Assignment: Evaluation of Intervention",
+      "Employ a variety of diagnostic methods to identify specific learning disorders and critically assess the effectiveness and limitations of each approach.",
+      "Select and evaluate appropriate assessment instruments for particular presenting issues, integrate diverse sources of psychological data for diagnostic and assessment purposes in the process of clinical decision-making.",
+      "observe and evaluate the contribution of group members in therapy groups;"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Not level 0 — digital content exists in a core unit: Learning Processes and Supports states a digital-literacy outcome covering critical evaluation and ethical use of technology tools. But that unit's two assessment lines are 'Written Assignment: Evaluation of Intervention' and 'Written Assignment: Report', neither of which documents digital or AI content, so under R2 a capability that appears in outcomes but is never assessed scores 1 uniformly. The only other digital evidence is tool operation — data management and analysis using computer software in the Research Methods laboratory component — which the level-1 anchor names explicitly as the non-durable operational level. Level 2 would require core units addressing AI capabilities AND limitations/ethics with use-with-limits assessed; no AI content of any kind appears in the extract.",
+    "evidenceLines": [
+      "Demonstrate digital literacy by critically evaluating and ethically utilising technology tools for diagnosing, reporting, and communicating about learning differences, ensuring responsible and effective practice.",
+      "Written Assignment: Evaluation of Intervention",
+      "Written Assignment: Report",
+      "Practical aspects of data management and data analysis using computer software are included in the laboratory component.",
+      "Datasets relevant to the practice of educational and developmental psychology are analysed in exercises where students practice statistical and qualitative analysis and interpretation."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3 anchor is met with assessment evidence, not an outcome statement: the program documents a structured progression toward independent learning across three assessed stages — Research Methods requires students to plan an independent enquiry and assesses a 2500-word Research Proposal at 50%; the year-2 Research Proposal subject is assessed 100% on a 5000-word student-scoped thesis proposal prepared under supervision that must state its own research questions and justify the topic; and the PhD thesis follows. That is the 'self-scoped capstone or research project' route, documented and assessed rather than claimed. Level 2 (application to novel problems) is also satisfied but is subsumed. Placement evidence was deliberately excluded here per the one-construct-one-home rule.",
+    "evidenceLines": [
+      "Plan an independent enquiry in psychology and education.",
+      "The student will prepare under supervision a thesis proposal, providing a clear indication of the nature and purpose of the research to be undertaken in the thesis. The proposal should contain:",
+      "a justification of why the chosen topic is a worthwhile one to research;",
+      "Research proposal",
+      "5000 words",
+      "Extend their capacity to evaluate research literature in educational psychology in order to make informed decisions about the conduct of independent enquiries in psychology and education."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3 anchor is met: a substantial primary-evidence project is REQUIRED rather than one route among several — the course structure states the combined degree requires the coursework plus a PhD thesis, and the course lists the thesis in years 2 through 5. Methodology is defended under staged supervised review: the Research Proposal subject is assessed 100% on a proposal that must contain a critical discussion of the proposed methodology and its appropriateness for the research questions, prepared under supervision, with Research Methods assessing methodology selection and data analysis beforehand. Level 2 (design and conduct an inquiry, assessed) is cleared by Research Methods alone; the required thesis plus the supervised methodology defence lifts it to 3.",
+    "evidenceLines": [
+      "The Master of Psychology (Educational and Developmental)/Doctor of Philosophy requires the successful completion of 162.5 credit points of coursework, and a PhD thesis.",
+      "a critical discussion of the research methodology proposed, showing its appropriateness for answering the research question(s); and",
+      "Select and use appropriate data analysis techniques to address specific research questions.",
+      "An integrated approach to research in the field of educational and developmental psychology. The interdependence of quantitative and qualitative methods, measurement, design, and analysis is emphasised.",
+      "Report"
+    ]
+  },
+  "adaptiveness": 11,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2 anchor is met: core assessment requires recognised professional genres — Psychological Tests assesses a written report against the outcome of creating client-focused psycho-educational psychological reports on contemporary frameworks, and Consultation in Educational Settings assesses a consultation package written for an organisation, both practitioner genres rather than academic ones. Held at 2, not 3, because the level-3 anchor requires at least one core assessment delivered to or judged by a real external audience or practitioner with professional conduct explicitly among the assessed criteria; the only evidence that would satisfy that is the field-placement host-supervisor judgement, which is placement evidence and is homed in W3 under the one-construct-one-home rule. Every non-placement communication task in the extract is marked by the teaching team or presented to peers (group oral presentation, live test-administration demonstration, taped interview). Conduct language ('Demonstrate professional conduct as a psychologist') appears in generic-skills lists, which Barrie forbids scoring (R2).",
+    "evidenceLines": [
+      "Create client focused psycho-educational psychological reports that are based on contemporary frameworks.",
+      "Written report",
+      "A consultation package to an organisation in the form of a program that addresses contemporary issues of concern to the educational system",
+      "Compose reports to other professionals, parents, and organisations",
+      "Group oral presentation demonstrating basic group management skills (15 minutes in total; weighted at 15% per student), and individual written reflection (250 words; 5%)",
+      "Demonstrate professional, effective written and oral communication."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3 anchor is met on documented task features, not on any 'authentic' or 'work-ready' label (R4). Professional-fidelity tasks are the assessment spine rather than a single instance: Psychological Tests assesses a 20-minute live demonstration of test administration plus the psycho-educational report a practitioner would write; Counselling Skills assesses a 30-40 minute taped counselling interview; Consultation assesses a consultation package for an organisation; and case presentations recur in year 2 and year 3. At least one carries a genuine constraint of practice in the anchor's 'profession's own standards of performance' sense: the OSCE must reach a satisfactory standard in each component consistent with APAC Level 3 competencies, and the case presentation must address APAC Level 4 competencies. Simulation is scored here, not in W3, per the W3 construct note; the field-placement hours and supervisor sign-off are excluded from this item and scored in W3.",
+    "evidenceLines": [
+      "20-minute Live demonstration of test administration",
+      "Taped counselling interview demonstrating competence in the counselling skills taught in the program (30-40 minutes; 2500 word equivalent) and a 500 word reflective analysis",
+      "Objective Structured Clinical Examination (OSCE)",
+      "To pass, students must achieve a satisfactory standard in each component of the Observed Structured Clinical Exam consistent with the competencies expected at Level 3 of the APAC standards.",
+      "To pass, students must present a case study during a group supervision case conference. The case study must address competencies expected at Level 4 of the APAC standards.",
+      "A consultation package to an organisation in the form of a program that addresses contemporary issues of concern to the educational system"
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3 anchor is met on the placement route: four field practicums totalling 50 credit points are compulsory core across years 1 to 3 (180, 220, 300 and 300 hours), each a real workplace setting with practitioner supervision. They are assessed — the host supervisor judges attainment of APAC professional competencies as a pass/fail hurdle — and accountability to the host is documented through fortnightly logbook endorsement, a placement proposal, a mid-placement review and an end-of-placement student evaluation, with 100% placement attendance as a hurdle. Structured reflection on professional practice is assessed through the supervision requirement in Practicum 1. This is a required sequence, not a single short placement, so level 2's 'short or stands alone' qualifier does not apply.",
+    "evidenceLines": [
+      "Four field practicums (totalling 50 points of coursework); and",
+      "Field placement: The assessment is undertaken by the host supervisor, in consultation with the Placement Coordinator, based on satisfactory attainment of professional graduate Level 3 competencies against Australian Psychology Accreditation Council standards. Completion of placement goals are assessed on a pass/fail basis.",
+      "300 hours",
+      "220 hours",
+      "180 hours",
+      "Student logbooks are checked and endorsed by the host supervisor AT LEAST every fortnight. Formative feedback is provided by the host supervisor in the logbook.",
+      "Students are required to complete a placement proposal at the commencement of placement; a mid-placement review where formative feedback is provided in consultation with the host supervisor; and a student evaluation of placement at the conclusion.",
+      "Hurdle requirement: 100% attendance on all placement days.",
+      "Demonstrate preparedness for supervision sessions and apply reflective practice during the process of supervision;"
+    ]
+  },
+  "workplace": 8,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "An all-compulsory specialist core in a fixed sequence, externally accredited: ten core subjects plus four field practicums plus a thesis are mandatory, the handbook fixes the order of study, and the sequence is accredited by APAC and recognised by the Psychology Board of Australia. Content is disciplinary throughout (psychological tests, exceptionality, counselling, intervention, development, consultation), not generic or interchangeable, and depth progresses from Practicum 1 to Practicum 4 and from Research Methods to the Research Proposal and thesis.",
+      "evidenceLines": [
+        "To obtain the combined degree, candidates must complete:",
+        "Ten core subjects (totalling 112.5 credit points of coursework);",
+        "Four field practicums (totalling 50 points of coursework); and",
+        "Students undertake the following subjects in this order:",
+        "This course is accredited by the Australian Psychology Accreditation Council (APAC), and recognised by the Australian Health Practitioner Regulation Agency, Psychology Board of Australia (PsyBA)."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Assessment requires defended judgement under real uncertainty rather than recall or scripted response: the OSCE and live test-administration demonstration are performance assessments judged against APAC competency standards; Working with Groups assesses a written analysis of a selected problem interpreting its genesis, maintenance and possible solution; Psychological Tests requires selecting and evaluating instruments and integrating diverse data sources in clinical decision-making; and the Research Proposal must justify the chosen methodology's appropriateness. Placements add live accountability with real clients and a pass/fail supervisor judgement.",
+      "evidenceLines": [
+        "Written analysis of a selected problem and an interpretation of its genesis, maintenance and possible solution in systemic terms",
+        "Select and evaluate appropriate assessment instruments for particular presenting issues, integrate diverse sources of psychological data for diagnostic and assessment purposes in the process of clinical decision-making.",
+        "To pass, students must achieve a satisfactory standard in each component of the Observed Structured Clinical Exam consistent with the competencies expected at Level 3 of the APAC standards.",
+        "a critical discussion of the research methodology proposed, showing its appropriateness for answering the research question(s); and",
+        "apply an intervention (while on field practicum) in a systematic manner to a major problem of childhood and adolescence;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "W1 straddled 2 and 3. The level-3 route (an assessment judged by a real practitioner, with conduct among the criteria) is satisfied only by the field-placement host-supervisor judgement and the practicum conduct requirement ('Students are required to conduct themselves in an autonomous professional manner'). One-construct-one-home puts placement evidence in W3, and the ambiguity rule resolves downward, so W1 stands at 2 on non-placement professional genres alone.",
+    "C1 straddled 2 and 3 only if practicum interprofessional work were counted ('Consult and collaborate with colleagues, including those from other professions'). Placement evidence is barred from C1 explicitly, and no tool/AI coordination is assessed anywhere, so 2 stands.",
+    "C2 straddled 2 and 3. 'Select and evaluate appropriate assessment instruments for particular presenting issues, integrate diverse sources of psychological data for diagnostic and assessment purposes in the process of clinical decision-making.' is a reliance-decision construct, but it is a learning outcome and the matching Psychological Tests assessment lines do not require the decision to be documented and justified. R2 and the downward rule resolved it to 2.",
+    "C3 straddled 1 and 2. The digital-literacy outcome in Learning Processes and Supports names critical evaluation and ethical use, which is level-2 content, but that unit's assessment lines are two generic written assignments with no documented digital component. R2 caps it at 1.",
+    "W2's case presentations sit inside practicum subjects. They were scored in W2 as professional-genre task fidelity, distinct from the field-placement hours and supervisor sign-off scored in W3; the OSCE is simulation and the instrument assigns simulation to W2 explicitly.",
+    "C4 and C5 both draw on the research sequence. They were separated by construct: C4 scores the documented progression to self-scoped independent work (Research Methods proposal to the 5000-word supervised thesis proposal), C5 scores the required primary-evidence project and its methodology defence.",
+    "W3's 300-hour figures appear as bare lines in the assessment tables ('300 hours', '220 hours', '180 hours') adjacent to the field-placement descriptions; they were read as the hours requirement of those placements, which the additional-details note ('attendance for the required number of hours') supports."
+  ],
+  "notScoreable": [
+    "The PhD thesis component itself carries no assessment description in the extract — the structure pages show 'EDUC80001' with 'No longer available' for years 2 to 5 and point offsite ('Detailed information on the thesis is available at Graduate Research Hub'). C5's level-3 'defended under scrutiny' was therefore scored on the assessed Research Proposal as a staged supervised review, not on any thesis examination or viva, which the extract does not document.",
+    "No AI content of any kind (capabilities, limitations, governance, ethics of gen AI) appears anywhere in the extract, so C3's level-2 and level-3 anchors had no evidence to test beyond the single digital-literacy outcome."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-23"
+  }
+};
+
+export default record;

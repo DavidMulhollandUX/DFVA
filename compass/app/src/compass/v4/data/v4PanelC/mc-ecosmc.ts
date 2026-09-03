@@ -1,0 +1,132 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 — 'At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity.' FRST90025 (compulsory Discipline Core) assesses a group presentation task. EVSC30007 (Foundational Core elective) corroborates with a group project whose grade includes an individually-marked evaluation report, showing individual accountability within group work. No evidence anywhere in the extract of an assessment requiring coordination between people AND tools/AI systems (Level 3's added requirement), so the score does not advance to 3.",
+    "evidenceLines": [
+      "A short group presentation of a scientific paper (equivalent to 250 words) – 5% during the intensive period.",
+      "Group final project report (1500 words per group member)",
+      "Individual evaluation report (500 words)"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 — 'Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria.' The only reflection/self-directed-learning language found is a course-level graduate attribute, not an assessed criterion. ECOL20003's assessed peer-review tasks would satisfy Level 2 ('criterion-referenced appraisal of quality: peer review... marking against exemplars'), but ECOL20003 sits in the Foundational Core elective pool (25 pts chosen from roughly 13 subjects), not the fully compulsory Discipline Core; the lower level is taken per the ambiguity rule (see ambiguities).",
+    "evidenceLines": [
+      "Be critical and creative thinkers, with an aptitude for continued self directed learning",
+      "In-class peer review of practical worksheets",
+      "Peer review of project methods"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 — 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable.' FRST90015 (compulsory) documents GIS/mechanistic-model tool operation, and the course-level outcomes reference spatial-science and remote-sensing tools, but no text anywhere in the extract addresses AI capabilities, limitations, ethics or governance, so Level 2 is not reached. No mention of artificial intelligence or generative AI appears anywhere in the extract.",
+    "evidenceLines": [
+      "Use geographic information systems (GIS) and mechanistic models to investigate and identify spatial patterns and ecological processes at variety of spatial extents.",
+      "Develop and demonstrate skills in assessing, monitoring and analysing ecosystems, land‐uses, flora and fauna through innovative uses of spatial science and remotely sensed technologies and techniques."
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Level 1 — 'Transfer is claimed in outcomes or graduate attributes, but not assessed.' FRST90015's (compulsory) 'Recognise and apply pattern-process relationships...' and case-study-breadth language come from its overview/intended-learning-outcomes text, not from its assessment page; FRST90015's actual assessment table (Long essay 30%, individual oral presentation 10%, Landscape Ecology Project 60%) documents no task tied to novel or unfamiliar case variation. R2 and the Level-2 anchor require assessment-level evidence for this claim, so an outcome/content-description sentence alone caps the item at Level 1. The course-structure note documenting a compulsory capstone (ENST90046 + NRMT90007) in the final 100 points is relevant to a possible future Level 3, but neither subject's assessment page is in the extract, so that cannot be confirmed either (see notScoreable).",
+    "evidenceLines": [
+      "Recognise and apply pattern-process relationships in a wide diversity of landscape types and geographical locations;",
+      "Case studies will be drawn from international and domestic examples from urban, agricultural, and forested landscapes.",
+      "Students are expected to complete ENST90046 Landscape Governance and Policy and NRMT90007 Communities and Ecosystem Management during the final 100 points of their study as part of a capstone experience."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 — 'Students design and conduct an inquiry with methodology selection and data collection, assessed.' ENST90044 (compulsory) requires students to design an ecosystem-assessment methodology and collect/analyse data for a case-study scenario, assessed at 40% via the Ecosystem Assessment and Monitoring Project. No evidence anywhere of a REQUIRED substantial primary-evidence project with methodology defended under scrutiny (viva/defence/staged review), so Level 3 is not reached.",
+    "evidenceLines": [
+      "Develop a robust design for quantitative and qualitative assessment of ecosystem values and related social values and practices for a case-study scenario;",
+      "Ecosystem Assessment and Monitoring Project (semester-long, submitted during examination period) (2000 words) (40%)"
+    ]
+  },
+  "adaptiveness": 7,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1 — 'Communication or professional conduct appears in learning outcomes or graduate attributes; core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team.' The generic 'Engagement' skill statement is course-level, not an assessed criterion. EVSC30007's industry-collaboration and 'external stakeholders' language would suggest Level 2 ('a recognised professional genre or an audience beyond the teaching team... judged against criteria drawn from professional practice'), but its assessment breakdown (group proposal, seminar, report, individual evaluation report) never states industry representatives judge the work, and EVSC30007 is a Foundational Core elective rather than confirmed compulsory core; the lower level is taken per the ambiguity rule (see ambiguities).",
+    "evidenceLines": [
+      "Engagement: The ability to conduct dialogue and liaison with individuals and groups from industry, government and the community;",
+      "In collaboration with industry representatives and academic staff, this subject enables students to explore projects based on real world problems through a work integrated learning and relevant capstone experience.",
+      "Communicate key elements of the project outcomes effectively to a target audience, including external stakeholders."
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 — 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic.' ENST30004's site-assessment report and ENST90044's (compulsory) ecosystem-values report are scenario-framed tasks resembling professional outputs, but neither assessment description states the artefact is judged against criteria drawn from practice, so Level 2's 'judged against criteria drawn from practice' requirement is not documented (see ambiguities).",
+    "evidenceLines": [
+      "Report - site assessment, identifying social dimensions of site conservation",
+      "Produce a basic report assessing a range of values for a specific ecosystem and its stakeholders and describing the uncertainties associated with their measurement; and"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1 — 'Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity.' The course overview explicitly frames placement-based internships as 'options,' and the internship subjects sit within the Professional Skills category (12.5–25 pts), which can instead be satisfied with non-placement subjects (e.g. Leadership in Science, Science Communication). No core (compulsory) unit places students in a supervised real workplace or professional-community setting, so Level 2 is not reached.",
+    "evidenceLines": [
+      "Incorporates professional skills subjects including options for a placement based internships to develop industry experience and establish key networks with future employers nationally and internationally.",
+      "International Internship in Environment",
+      "Ecosystem Internship"
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS — 'The program documents a coherent specialist core with progressive technical or methodological depth.' The course carries professional accreditation (Institute of Foresters Australia, with a pathway to Registered Professional Forester status), a fully compulsory 100-point Discipline Core ('Students must complete all of the following'), and a documented staged structure placing capstone-labelled subjects in the final 100 points.",
+      "evidenceLines": [
+        "Graduates of the Master of Ecosystem Conservation and Management will be eligible for membership of the Institute of Foresters Australia and with further professional and practical experience to qualify as Registered Professional Foresters.",
+        "Students must complete all of the following:",
+        "Students are expected to complete ENST90046 Landscape Governance and Policy and NRMT90007 Communities and Ecosystem Management during the final 100 points of their study as part of a capstone experience."
+      ]
+    },
+    "G2": {
+      "result": "FAIL",
+      "rationale": "FAIL — 'Assessments require defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability.' The primary evidence (EVSC30003's assessed risk/trade-off task) comes from a Foundational Core ELECTIVE (1 of roughly 13 options), not a subject every student takes. The corroborating 'compulsory' evidence (ENST90044's 'describing the uncertainties associated with their measurement') is an intended-learning-outcome list line, not documented as part of the 40% Ecosystem Assessment and Monitoring Project's actual assessed criteria, and only concerns measurement uncertainty, not a defended trade-off decision. No compulsory Discipline Core subject in the extract documents an assessed, defended trade-off decision or accountability-bearing simulation/capstone. Unverifiable pending the missing Discipline Core subject pages (FRST90022, ENST90043, ENST90045, ENST90046, NRMT90007); scored FAIL on the evidence in hand rather than left as an unsupported PASS.",
+      "evidenceLines": [
+        "decision-making under risk and uncertainty",
+        "evaluate and critique how acceptable risk and trade-offs are dealt with in environmental problems.",
+        "describing the uncertainties associated with their measurement"
+      ]
+    }
+  },
+  "ambiguities": [
+    "Whether 'Foundational Core' (25 pts chosen from a list of roughly 13 subjects) counts as 'core' for the R2/anchor purposes is unclear — it is a compulsory category but the specific subject taken is elective. Evidence from Foundational Core subjects (e.g. ECOL20003's peer review, EVSC30003's group tasks, FRST30001's group assignment) was treated as corroborating, not decisive; item scores rely on the fully compulsory Discipline Core (100 pts, 'Students must complete all of the following') where its page content is present in the extract, per R2's lower-level-when-ambiguous rule.",
+    "C2: ECOL20003's assessed 'In-class peer review of practical worksheets' and 'Peer review of project methods' (Foundational Core elective) would satisfy C2 Level 2 ('criterion-referenced appraisal of quality: peer review') if Foundational Core counted as core; scored at Level 1 (lower) because no compulsory Discipline Core subject in the extract shows assessed peer/critique appraisal.",
+    "C4: the course-structure note that ENST90046 and NRMT90007 form a compulsory 'capstone experience' in the final 100 points is documented, but neither subject's overview/assessment page is in the extract, so whether it meets Level 3's self-scoped/knowledge-gap-identification requirement is unverifiable; scored at Level 1 pending that evidence and pending confirmed assessment-level (not outcome-level) support for transfer.",
+    "W1: EVSC30007's 'In collaboration with industry representatives' and 'target audience, including external stakeholders' language suggests possible Level 2 (professional audience), but EVSC30007 is a Foundational Core elective and its assessment breakdown does not state that industry representatives judge the work; scored at Level 1 (lower level).",
+    "W2: ENST90044's compulsory 'Produce a basic report assessing a range of values for a specific ecosystem and its stakeholders' resembles a professional ecosystem-assessment artefact (potential Level 2), but the assessment description never states the report is judged against practitioner-derived criteria; scored at Level 1 (lower level).",
+    "G2: demoted from PASS to FAIL — the risk/trade-off evidence anchoring the original PASS sits in a Foundational Core elective, not a compulsory subject, and the compulsory-subject corroboration is outcome-level, not assessment-level. Treat as unverifiable/FAIL pending the missing Discipline Core subject pages rather than a confirmed PASS."
+  ],
+  "notScoreable": [
+    "ENST90045 (Spatial Tools for Ecosystem Management), ENST90046 (Landscape Governance and Policy), NRMT90007 (Communities and Ecosystem Management), FRST90022 (Ecosystem Processes of Water and Soil) and ENST90043 (Sustainable Landscapes) — five of the eight compulsory Discipline Core subjects — have no overview or assessment page in this extract, only their titles in the course-structure table. Relevant to C1 (collaborative practice), C3 (spatial-tools content), C4/G1 (capstone structure) and G2 (trade-off/uncertainty assessment).",
+    "GEOG90022 (International Internship in Environment), SCIE90017 (Science and Technology Internship) and SCIE90027 (Ecosystem Internship) — the Professional Skills internship options — have no overview or assessment page in this extract, only their titles in the course-structure table, so supervision/assessment/duration details relevant to W3 could not be verified."
+  ],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

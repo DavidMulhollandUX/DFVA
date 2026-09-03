@@ -1,0 +1,145 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor: multiple core units assess collaborative practice as syndicate work in groups of 4-5 with a per-student word allocation, i.e. group tasks with individual accountability, and 'Collaborate with real business partners' sits in the program outcomes. Level 3 is not reached because no assessment in the extract requires coordinating work across people AND tools/AI systems — there is no documented role-and-tool allocation, and nothing where the division of work between people and systems is itself assessed. Under v4.1 the placement/live-project route to C1 level 3 has moved to W3, so the Senior Executive Project's workplace character is not scored here.",
+    "evidenceLines": [
+      "Data Driven Decision-Making: Syndicate assignment. 800-words each student with 4-5 students in each group.",
+      "Developing Strategy: Strategic challenge presentation (group of 4 - 5 students)",
+      "Organisational Behaviour: Syndicate Assignment (group of 4-5 students)",
+      "Ethical Leadership: Case preparation and syndicate case discussion (group of 4 – 5 students)",
+      "Work effectively in diverse teams",
+      "Collaborate with real business partners to apply knowledge in projects"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Reflection is named in component outcomes and appears as assessed tasks, but the extract nowhere documents criterion-referenced appraisal of the quality of work — no peer review against criteria, no structured critique, no portfolio judged against standards, no marking against exemplars. The assessed reflection pieces are reflection on ethical dilemmas and on a field study, not appraisal of work quality, so the level-2 anchor is not satisfied on documented evidence (R1). Level 3 is far off: nothing requires students to document or justify reliance decisions on a tool, source or collaborator. Evidence straddles 1 and 2; resolved down per the lower-level rule.",
+    "evidenceLines": [
+      "Ethical Leadership: Written Reflection Assignment",
+      "Individual reflection piece",
+      "Develop reflection and influencing skills to leverage advanced leadership models and analytical tools for addressing complex organisational issues",
+      "You will undertake a leadership diagnostic to understand your areas of strength and areas for leadership capability development for you to focus upon throughout the program.",
+      "In this final module, students will present the outcomes of their project to faculty, industry mentors and peers, receiving feedback on the process and findings of their work."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Digital content in the core is strategic and analytic rather than governance-focused: data analysis technique and modelling in Foundations of Decision-Making, and emerging-technology strategy in Technology & Innovation. Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed; the extract documents ethics of 'emerging technologies' generically and never documents AI capabilities or limitations, and AI appears only as one possible cohort theme ('such as ESG or AI'). Scoring the strategic-technology content up to 2 would infer AI treatment the handbook does not document (R1). Level 3 (critique or governance of AI systems in the discipline's context) has no assessment evidence at all.",
+    "evidenceLines": [
+      "It delves into key concepts such as disruptive innovation, digital transformation, and competitive advantage in the context of emerging technologies.",
+      "Apply data analysis techniques and computational frameworks to evaluate business situations and support effective decision making.",
+      "Critically evaluate the ethical responsibilities of organisations, including those related to social responsibility, supply chains, modern slavery and emerging technologies, in order to integrate ethical priorities into organisational purpose, strategic goals, and governance.",
+      "Each cohort will focus on a specific, high-impact theme—such as ESG or AI—ensuring a deep, interdisciplinary exploration of a strategic challenge.",
+      "Technology & Innovation: Individual assignment"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Meets the level-3 anchor's self-scoped-project route with assessment evidence (R2): the Senior Executive Project is a student-scoped consulting/research project on an organisation of the student's own choosing, staged across five core subjects (I to V) with scoping, a viability pitch, budgeting, and a final individual assignment carrying a hurdle. The Leading with Influence strand additionally documents assessed identification of one's own development gaps and a plan to close them — a leadership diagnostic at entry and a career action plan presented at exit. This is structured progression toward independent learning, not merely application to novel problems (level 2). Only the self-scoping and gap-identification features are scored here; the project's workplace-participation features are scored in W3 and its task fidelity in W2.",
+    "evidenceLines": [
+      "This subject offers an action-learning opportunity where senior executive MBA students conduct research and provide consulting for their own or another organisation, addressing a current global issue.",
+      "In this module, we set the foundation for the project by addressing topics essential for project delivery including project scoping, diagnosing organisational problems through data and insights, assessing organisational readiness for change and presentation skills.",
+      "In this module, students will pitch their proposed projects for feedback from faculty, industry advisors and peers.",
+      "Senior Executive Project: Individual Assignment",
+      "2500 words (equivalent)",
+      "Hurdle requirement: Students must pass this assessment in order to pass the subject.",
+      "You will undertake a leadership diagnostic to understand your areas of strength and areas for leadership capability development for you to focus upon throughout the program.",
+      "Working with industry mentors, you will refine your leadership brand and narrative for your future leadership roadmap, culminating in a presentation on your leadership journey to-date and action plan for your career."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Meets level 2: a compulsory field-study subject requires students to design and conduct an inquiry — an industry consulting study in a developing Asian market — with primary research named in the outcomes and the inquiry assessed through a staged briefing, presentation and final report. Level 3 is not reached because the extract does not document that a substantial project generating PRIMARY evidence is required (the Asia outcomes pair primary with secondary research skills, and the Senior Executive Project is described as research-and-consulting without specifying primary data generation), and no methodology defence under scrutiny is documented — the project presentations are described as receiving feedback, not as a viva, defence or staged supervised methodological review. Ambiguity resolved downward.",
+    "evidenceLines": [
+      "The main deliverable in the subject is a detailed, highly-integrated research report describing a consulting study in one of the developing markets of Asia.",
+      "Developed primary research skills as a basis for identifying challenges and opportunities confronting selected industries in diverse contexts",
+      "Developed secondary research skills as a basis for identifying challenges and opportunities confronting selected industries in diverse contexts",
+      "Syndicate initial project briefing",
+      "Syndicate final report",
+      "Apply data analysis techniques and computational frameworks to evaluate business situations and support effective decision making."
+    ]
+  },
+  "adaptiveness": 9,
+  "W1": {
+    "score": 2,
+    "rationale": "Meets level 2: core assessment requires recognised professional genres rather than only academic genres addressed to the marker — a syndicate project briefing, a consulting study report, and assessed syndicate presentations, plus a 15-minute interactive oral exam. Level 3 fails on both of its conjuncts: the appearances before industry advisors and mentors are documented as occasions for feedback, not as assessment items delivered to or judged by an external audience, and professional conduct or accountability is nowhere documented among assessed criteria — 'Communicate effectively, in oral, written and digital forms' is a stated generic skill, which Barrie forbids scoring (R2). Resolved down.",
+    "evidenceLines": [
+      "Syndicate initial project briefing",
+      "Syndicate presentation (equivalent to individual 1000 word assessment)",
+      "The main deliverable in the subject is a detailed, highly-integrated research report describing a consulting study in one of the developing markets of Asia.",
+      "Data Driven Decision-Making: 15 minute interactive oral exam",
+      "In this final module, students will present the outcomes of their project to faculty, industry mentors and peers, receiving feedback on the process and findings of their work.",
+      "Communicate effectively, in oral, written and digital forms"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2 holds and level 3 does not (demoted on adversarial review). Level 2: core assessment requires students to produce the artefact a practitioner would produce on a real problem — the Industry Studies in Asia deliverable is a consulting study report on a real industry in a developing Asian market, and the Senior Executive Project is an action-learning consulting engagement in a real organisation, assessed through syndicate briefing, presentation and report. Level 3 fails on its second conjunct, a genuine constraint of practice documented in the assessment task itself (R4). The problem is student-selected rather than externally supplied ('their own or another organisation'; 'students will pitch their proposed projects'). The '7-day field study' descriptor is documented only for Industry Studies in America and Industry Studies in Europe, is absent for the Asia subject, and in any case describes the subject's delivery format rather than a constraint carried by an assessment task. The industry-advisor and mentor appearances are documented as feedback occasions, not as judged external assessment — the same reading applied in W1 and W3, so it cannot be read the other way here. Budgeting, financing and 'project viability and feasibility' appear only in module-description prose and in no assessment row. With the level-2 'criteria drawn from practice' element already read charitably (no assessment criteria are published anywhere in the extract), the extra level-3 conjunct cannot also be read charitably; ambiguity between 2 and 3 resolves down. Scored on task fidelity only — workplace participation is scored in W3 and appraisal of quality is excluded to C2.",
+    "evidenceLines": [
+      "The main deliverable in the subject is a detailed, highly-integrated research report describing a consulting study in one of the developing markets of Asia.",
+      "This subject offers an action-learning opportunity where senior executive MBA students conduct research and provide consulting for their own or another organisation, addressing a current global issue.",
+      "Syndicate initial project briefing",
+      "Syndicate final report",
+      "Syndicate project presentation (equivalent to individual 1000 word assessment)"
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Meets level 2 via the level-2 anchor's named 'live client project' exemplar: the Senior Executive Project is core and compulsory, sited in a real organisation, supported by industry partners and project mentors, and assessed with hurdle requirements. Level 3 is not reached: the extract documents no extended placement or practicum and no sequence of them, no accountability to a host organisation, and no structured reflection on professional practice attached to the project (the 5,000-word reflection hurdle belongs to the Asia field study, not to the project). The field studies are 7-day visit-based subjects, not supervised participation in a workplace. Resolved down.",
+    "evidenceLines": [
+      "This subject offers an action-learning opportunity where senior executive MBA students conduct research and provide consulting for their own or another organisation, addressing a current global issue.",
+      "Emphasising collaboration with alumni and industry partners, students will engage with guest speakers and project mentors, enriching the learning experience and fostering connections to enhance the project’s impact.",
+      "Senior Executive Project: Individual Assignment",
+      "Hurdle requirement: Students must pass this assessment in order to pass the subject.",
+      "In this final module, students will present the outcomes of their project to faculty, industry mentors and peers, receiving feedback on the process and findings of their work."
+    ]
+  },
+  "workplace": 6,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "An all-compulsory specialist core: every one of the ten subjects is core, and the sequence is staged from Foundations of Decision-Making through leadership, value creation and uncertainty modules to a named consolidation subject, with the Leading with Influence and Senior Executive Project strands running I to V across it. This is a coherent core with progressive depth, not generic interchangeable content.",
+      "evidenceLines": [
+        "The total number of credit points is 225 and all subjects are compulsory core subjects.",
+        "This program is specifically designed for senior executives with a minimum 10 years of management experience.",
+        "In order to pass the subject, students are required to pass each component.",
+        "In this module, we set the foundation for the project by addressing topics essential for project delivery including project scoping, diagnosing organisational problems through data and insights, assessing organisational readiness for change and presentation skills."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Assessment goes well beyond recall or scripted response: a whole core subject is built on leading through uncertainty, component outcomes require decision-making under uncertainty, ambiguity and time pressure and the design of strategy for high-stakes auction and tender settings, and the live consulting project requires defended trade-off decisions about project viability, feasibility and financing under real organisational conditions. These sit behind hurdle-weighted individual assignments.",
+      "evidenceLines": [
+        "Apply insights from neuroscience and behavioural science to improve executive decision-making under uncertainty, ambiguity, and time pressure, particularly in high-stake environments.",
+        "Design strategic approaches for high-stakes competitive environments, including auction and tender processes, to maximise value capture and strengthen the firm's market performance.",
+        "The focus will be on assessing project viability and feasibility as well as how to improve on their presentation skills.",
+        "Developing Strategy: Strategic challenge write-up",
+        "Technology & Innovation: Individual assignment"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2 straddled levels 1 and 2: assessed reflection tasks exist and carry hurdles (Ethical Leadership written reflection; 5,000-word individual reflection piece), but the extract never documents criterion-referenced appraisal of the quality of work — no criteria, exemplars, peer-review structure or standards are described anywhere in the handbook text. Resolved to 1 by the lower-level rule and R1.",
+    "C3 straddled levels 1 and 2: core units do treat digital transformation, emerging technologies and the ethics of emerging technologies, which is more than the 'electives or tool operation' picture of level 1, but no AI capabilities or limitations content is documented, and AI appears only as one illustrative cohort theme. Resolved to 1 by the lower-level rule.",
+    "C5 straddled levels 2 and 3: a required field-study inquiry with primary research skills in its outcomes and staged assessed deliverables would reach 3 if primary evidence generation were required and methodology were defended, but the outcomes pair primary with secondary research and the project presentations are described only as receiving feedback. Resolved to 2.",
+    "W1 straddled levels 2 and 3: professional genres recur (briefing, consulting report, presentations, oral exam) and industry advisors and mentors are present, but their role is documented as feedback rather than assessment, and no conduct or accountability criterion is documented. Resolved to 2.",
+    "W2 straddled levels 2 and 3 and was resolved to 2 on adversarial review (initially scored 3): no genuine constraint of practice is documented in an assessment task. The problem is student-selected rather than externally supplied; the '7-day field study' descriptor attaches only to the America and Europe subjects (not Asia) and describes delivery format, not an assessed constraint; the industry-mentor appearances are feedback rather than judged external assessment, consistent with the readings used in W1 and W3; and budgeting, financing and viability appear only in module prose, never in an assessment row.",
+    "W3 straddled levels 2 and 3: the Senior Executive Project runs across five core subjects, which reads as extended, but it is a live client project rather than a placement or practicum, and neither accountability to a host nor structured reflection on professional practice is documented for it. Resolved to 2.",
+    "One-construct-one-home applied to the Senior Executive Project, which is a single program feature with three separable documented aspects: its student-scoped, staged, gap-closing design scored in C4 (the self-scoped-project route that v4.1 leaves in C4); its task fidelity and practice constraints scored in W2; its siting in a real organisation with industry mentors scored in W3. No aspect was counted twice, and the project's collaborative-syndicate character was deliberately not used to lift C1 above the level it reaches on syndicate assessment alone.",
+    "Assessment criteria are never published anywhere in this extract — every assessment row gives description, timing and percentage only. W1 level 2 and W2 level 2 each require criteria 'drawn from practice'; these were scored on the documented genre and task features instead, which is the most the handbook supports, and this charitable reading is one reason W2 could not also be read charitably at level 3."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-14"
+  }
+};
+
+export default record;

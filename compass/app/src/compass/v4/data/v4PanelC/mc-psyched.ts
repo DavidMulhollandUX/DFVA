@@ -1,0 +1,121 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor ('At least one core unit assesses collaborative practice — group projects with individual accountability'): EDUC90227 Working with Groups assesses a group oral presentation weighted per student alongside an individual written reflection. No other core unit shows an assessed team task, and nothing shows an assessment where the division of work between people and tools/AI systems is itself assessed, so level 3's recurrence-plus-tool-coordination requirement is not cleared.",
+    "evidenceLines": [
+      "Group oral presentation demonstrating basic group management skills (15 minutes in total; weighted at 15% per student), and individual written reflection (250 words; 5%)"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Meets the level-2 anchor (criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars): EDUC90226 assesses an explicit 'Evaluation of Intervention,' and EDUC90224 pairs a taped counselling interview with a reflective analysis of the student's own recorded performance against taught skill criteria. No item documents students having to document and justify reliance decisions or defend judgements of AI-output quality, so level 3 is not supported.",
+    "evidenceLines": [
+      "Written Assignment: Evaluation of Intervention",
+      "Taped counselling interview demonstrating competence in the counselling skills taught in the program (30-40 minutes; 2500 word equivalent) and a 500 word reflective analysis"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "The clearest digital-content evidence sits at level 1 (tool operation/training — the operational level TEQSA identifies as non-durable): Research Methods teaches data management and data analysis using computer software as a laboratory-component skill. EDUC90226's outcome names critical, ethical use of technology tools, reading toward level 2's 'capabilities AND limitations/ethics ... discussed and assessed,' but that subject's assessment table (Evaluation of Intervention, Report) does not show the outcome tied to an assessed criterion (R2). Ambiguous between level 1 and 2 — resolved to the lower level.",
+    "evidenceLines": [
+      "Practical aspects of data management and data analysis using computer software are included in the laboratory component.",
+      "Demonstrate digital literacy by critically evaluating and ethically utilising technology tools for diagnosing, reporting, and communicating about learning differences, ensuring responsible and effective practice."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Meets level 3 (structured progression toward independent learning: a self-scoped capstone or research project): the required, year-long 50-point Research Project lets students study themes discussed in previous subjects and apply them to their own area of interest, assessed through a staged proposal, literature review, oral presentation and final report.",
+    "evidenceLines": [
+      "The project offers students the opportunity to study in more depth themes discussed in previous subjects, and to apply these to an area of particular interest.",
+      "A research project (50 points)."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Meets level 2 (students design and conduct an inquiry with methodology selection and data collection, assessed) via the Research Project's assessed proposal, which carries a mandatory ethics-application hurdle. Level 3 requires a primary-evidence project to be REQUIRED (not one route among several), but the Research Project overview explicitly offers alternative, non-primary-data routes (formulating a construct, or making a theoretical contribution). Ambiguous between level 2 and 3 — resolved to the lower level.",
+    "evidenceLines": [
+      "The work should be a new study or development of an already existing study, which may involve collecting primary data from the field, evaluating or formulating a construct, or making a theoretical contribution.",
+      "Hurdle requirement: Submission of a successful ethics application (with external review) or statement (with internal review)"
+    ]
+  },
+  "adaptiveness": 10,
+  "W1": {
+    "score": 2,
+    "rationale": "Demoted from 3 to 2 on adversarial verify. Level 3 requires professional communication assessed repeatedly/progressively AND professional conduct/accountability explicitly among assessed criteria. The 'Communicate effectively with diverse client groups and other professionals' evidence line is an Intended Learning Outcome (EDUC90217 overview), never shown tied to an assessed criterion — the pattern R2 caps at level 1 (a capability that appears in learning outcomes but is never assessed scores 1, everywhere, uniformly). The field-placement assessment text that is genuine assessment evidence only names a generic 'professional graduate ... competencies against APAC standards' bucket, never breaking out communication or conduct as explicit graded sub-criteria; the '100% attendance' hurdle is administrative, not a conduct judgment. What is solidly documented — practitioner-judged assessment, a real audience beyond the teaching team — supports level 2, not the incremental level-3 requirement.",
+    "evidenceLines": [
+      "Field placement: The assessment is undertaken by the host supervisor, in consultation with the Placement Coordinator, based on satisfactory attainment of professional graduate Level 3 competencies against Australian Psychology Accreditation Council standards.",
+      "Hurdle requirement: 100% attendance on all placement days.",
+      "Communicate effectively with diverse client groups and other professionals;"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Meets level 2 (at least one core assessment reproduces a professional task end to end, producing the artefact a practitioner would produce, judged against criteria drawn from practice) via the consultation package delivered as a professional artefact and the live psychological-test-administration demonstration. Level 3 requires such tasks to form the program's assessment spine AND at least one to carry a genuine constraint of practice; the extract does not establish whether the consultation package goes to a genuinely external, consequential audience or is assessed as an academic artefact. Ambiguous between level 2 and 3 — resolved to the lower level.",
+    "evidenceLines": [
+      "A consultation package to an organisation in the form of a program that addresses contemporary issues of concern to the educational system",
+      "20-minute Live demonstration of test administration"
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Directly meets level 3 (substantial required work-situated learning: an extended placement or practicum, or a sequence of them, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection on professional practice): four core, year-long field practica (180-300 hours each per the assessment tables) are supervised by a host supervisor, assessed via hurdle requirements, and structured around a placement-proposal / mid-placement-review / student-evaluation cycle plus a fortnightly host-endorsed logbook.",
+    "evidenceLines": [
+      "In this placement the supervisor, in conjunction with the Placement Coordinator, offers a designed set of training experiences which are undertaken with the supervisor.",
+      "Students are required to complete a placement proposal at the commencement of placement; a mid-placement review where formative feedback is provided in consultation with the host supervisor; and a student evaluation of placement at the conclusion.",
+      "Student logbooks are checked and endorsed by the host supervisor AT LEAST every fortnight. Formative feedback is provided by the host supervisor in the logbook."
+    ]
+  },
+  "workplace": 7,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Meets the PASS criterion of an all-compulsory specialist core or accredited sequence: the course is an APAC-accredited fifth-and-sixth-year sequence in psychology, built from nine compulsory core subjects, four compulsory field practica, and a compulsory research project.",
+      "evidenceLines": [
+        "The Master of Psychology (Educational and Developmental) is an Australian Psychology Accreditation Council (APAC) accredited fifth and sixth-year sequence in psychology.",
+        "Nine core subjects (totalling 100 points);"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Meets the PASS criterion of simulations/capstones/live projects with real uncertainty and accountability: field placements require students to conduct themselves professionally and report independently on real client work under a host-supervisor hurdle, and Intervention in Problems of Young People assesses students on determining the appropriate intervention approach for varying, real childhood/adolescent presentations.",
+      "evidenceLines": [
+        "During this placement students are required to conduct themselves in a professional manner with an appropriate degree of autonomy; undertake psycho-educational assessments independently and effectively report on their findings to a range of audiences",
+        "determine the appropriateness of a particular intervention approach to the assessment and treatment of common problems of childhood such as depression, developmental delays, under achievement, and allied concerns;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: EDUC90226's outcome on critically/ethically evaluating technology tools reads toward level 2 but is not shown tied to an assessed criterion in that subject's own assessment table (R2) — resolved to level 1 (tool-operation content only, per Research Methods' computer-software use).",
+    "C5: the Research Project explicitly names non-primary-data routes ('formulating a construct, or making a theoretical contribution') as alternatives to collecting primary data, so it cannot be confirmed as the 'REQUIRED' primary-evidence route level 3 demands — resolved to level 2.",
+    "W2: the consultation package (EDUC90221) and comparable practice tasks recur across the program, close to level 3's 'assessment spine,' but the extract does not establish that any carries a 'genuine constraint of practice' (a real, consequential external audience) rather than an academically-graded simulation — resolved to level 2.",
+    "W1: demoted on adversarial verify from 3 to 2 — the level-3 communication/conduct claim relied on an unassessed learning outcome; see W1.rationale."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-30"
+  }
+};
+
+export default record;

@@ -52,6 +52,10 @@ Test ids:
 - Report bodies are lazy chunks. On a dev server first paint can exceed the
   default 5 s expect timeout; pass `{ timeout: 15_000 }`.
 - The loading skeleton has `role="status"` and `aria-label="Loading report"`.
+- A v4 report page also fetches its program's Panel C record as its own
+  chunk (`v4/data/v4PanelC/<code>.ts`, 6–32 kB) after the route chunk. Until
+  it arrives the page renders an empty `role="status"` shell; a missing chunk
+  in the network log, not the pending card, is the sign of a broken record.
 - v1 vocabulary (`N/36`, `MODERATE RISK`, `RESILIENT`) is allowed only on the
   archived v1 page. `renderedV4Bodies.test.ts` pins the markdown and
   `reports.spec.ts` pins the DOM for the research page.

@@ -1,0 +1,148 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: a compulsory core unit (EDUC90930 Literacies in Local and Global Contexts, one of the four compulsory First 50-point subjects) assesses collaborative practice through a 30% multimodal group presentation, and teamwork appears in both the course generic skills and that subject's generic skills. Not level 3: nothing in the extract documents assessed collaborative practice recurring across the program, and no assessment requires coordinating work across people AND tools/AI systems — the Capstone's stakeholder map is an individually produced portfolio artefact about stakeholders, not assessed coordination with them. Not level 1 because the collaboration is actually assessed, not merely claimed in outcomes.",
+    "evidenceLines": [
+      "Multimodal group presentation reflecting on academic literacies (10 min per group)",
+      "Teamwork and professional collaboration.",
+      "Digital Portfolio Part A: A portfolio including reflections on learning, annotated references and a stakeholder map",
+      "Mobilise knowledge through a partnership model, involving and giving voice to direct and indirect stakeholders"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: core assessment includes structured critique of the quality of others' work — a 40% critical review of key readings in the compulsory EDUC90929 and a 60% annotated bibliography plus a written reflection on the use of research in the compulsory EDUC91316, supported by that subject's ILO to critically read, evaluate and debate educational research. Not level 3: no assessment in the extract requires students to document and justify reliance decisions (when they relied on or overrode a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time; the Capstone's staged Digital Portfolio contains 'reflections on learning' but the extract does not document appraisal of the student's own reliance decisions or strategy change, and the Capstone is one of two exit routes. Programme-level 'good quality evidence' language is an outcome only (R2).",
+    "evidenceLines": [
+      "Written report providing a critical review of key readings",
+      "Written report: Annotated bibliography",
+      "Written reflection: Use of research for critical thinking",
+      "Demonstrate the analytical skills required to critically read, discuss, evaluate and debate educational research, including research based on First Nations knowledge",
+      "Mobilise knowledge in action, examining what constitutes good quality evidence in contextually relevant ways"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor met exactly: AI and digital tools appear only as an elective (Generative AI in Education) and as tool familiarisation. The only digital-focused subject with any critique, Foundations: Digital Futures, is one of six Foundations subjects from which only four (50 credit points) are taken, so it is not core; and its documented digital content is a 'playful introduction'/'light-touch introduction' to familiarity with generative AI tools — the operational level the anchor caps at 1. Not level 2: no compulsory core unit addresses AI capabilities AND limitations/ethics with assessment, and the four compulsory subjects and the course-level intended learning outcomes contain no digital or AI content at all. Not level 0 because digital/AI content does exist in the structure.",
+    "evidenceLines": [
+      "Generative AI in Education",
+      "This subject will provide a playful introduction to ways of working with digital and physical technology, which will be at the heart of the pedagogical approach of the Specialisation. For example, students will develop familiarity with collaborative environments and generative AI tools and will be given a light-touch introduction to the hands-on activities that will take place in some of the subjects.",
+      "Critically reflect on the relevance of technology and design for an inclusive, sustainable and decolonial education.",
+      "Digital literacy.",
+      "50 credit points of foundations subjects",
+      "Critical Reflection: Completion of an interview with a teacher, student or industry representative about the problems and opportunities of technology/space in education"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3 anchor met on its own terms: the program documents structured progression toward independent learning, and both of the two possible final-100-point routes terminate in a self-scoped project — the Capstone is a substantial project students scope from their own professional practice or specialisation, and the Research option is a supervised research project the student designs. Progression is documented and gated (students cannot enter Foundations until all four compulsory subjects are passed). R2 satisfied by assessment evidence, not outcomes alone: the Capstone is assessed via a staged Digital Portfolio (Parts A and B), presentation and report, and the Research route via a 13500-word research project. The self-scoping is universal because it holds under either pathway, so this is not a level-3 route-among-several problem.",
+    "evidenceLines": [
+      "In the final-semester Capstone subject, students undertake a research-based inquiry project directly related to their own professional practice and/or within their area of specialisation.",
+      "The Research subjects are taken at the end of the course and are designed for students intending to later pursue a graduate research degree, such as a PhD. They provide a grounding in educational research methodology and include the design and completion of a supervised research project in education.",
+      "Students can only progress to enrol in the Foundations subjects (second 50 points) if they have passed all four compulsory First 50 point subjects.",
+      "Digital Portfolio Part B: A portfolio including reflections on learning, annotated references, and a methodological note",
+      "Define a substantially complex educational problem or issue directly related to their own professional practice and/or within their area of specialisation"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: under the Research option students design and conduct an inquiry with methodology selection and data collection, assessed — EDUC90419 produces a 70% research proposal with a defined methodology, and EDUC91197 requires them to undertake the project and submit a 13500-word research project at 90%. Level 3 explicitly fails its own qualifier 'REQUIRED (not one route among several)': the Research subjects are one of two pathway options and are additionally gated on a WAM of 75% or above, so most of the cohort can complete the degree via the Capstone, which produces a research-informed plan rather than primary evidence. The level-3 defence element does exist (a hurdle oral presentation with questions), but the route condition is decisive, so the score is held at 2.",
+    "evidenceLines": [
+      "Undertake a research project in education.",
+      "Oral presentation (includes presentation and questions) summarising research undertaken in the subject",
+      "Hurdle requirement: Oral presentation must be presented",
+      "Eligibility for the Research subjects requires achievement of a Weighted Average Mark (WAM) of 75% or above in completed MC-ED studies, calculated at the point of enrolment in the Research subjects.",
+      "Select one Pathway option from below:",
+      "Research proposal"
+    ]
+  },
+  "adaptiveness": 10,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1 anchor met exactly: communication appears in the course generic skills and graduate attributes and in course-level outcomes (communicating to the 'wider educational community'), and core assessment adds spoken work addressed to peers and staff — a 10-minute oral discussion of a written reflection in the compulsory EDUC91316, and the Capstone conference presentation, whose documented audience is the subject's own cohort ('facilitates peer learning'). Not level 2: no core assessment in the extract requires a recognised professional genre (client brief, policy advice, clinical handover, pitch, public-facing artefact) or an audience beyond the teaching team, and no criteria drawn from professional practice are documented for any of these tasks. Per R2 and Barrie, the stated attributes and the outcome about communicating to diverse stakeholders cannot lift the score.",
+    "evidenceLines": [
+      "Oral discussion of written reflection (10 minutes)",
+      "Capstone Conference Presentation: A presentation sharing research-informed strategies for investigating an identified problem",
+      "Students will present their KMS in a conference presentation format that facilitates peer learning and fosters professional alliances and networks.",
+      "Communicate their strategies effectively to diverse stakeholders and audiences.",
+      "Evaluate and communicate contemporary educational research ideas and findings to the wider educational community",
+      "Oral and written communication skills"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 anchor met: contextualised and scenario-framed tasks are common — analysis of a learning scenario, a case-study multimodal plan, a research/action/reflection project, and a Capstone framed on the student's own professional context — but the artefacts assessed and the criteria applied remain academic: essays, written analyses, reflections, annotated bibliographies, portfolios and written reports. Not level 2: no core assessment in the extract reproduces a professional task end to end producing the artefact a practitioner would produce judged against criteria drawn from practice. The Capstone's Knowledge Mobilisation Strategy is the nearest candidate, but the assessed items are a reflective portfolio, a conference presentation and a written report, its context may be 'a more generic future context' rather than a real one, no practice-derived criteria are documented, and per R4 the professional framing alone cannot be scored.",
+    "evidenceLines": [
+      "Written Analysis: Analysis of a learning scenario",
+      "Case Study Analysis : Multimodal plan for addressing a wellbeing challenge",
+      "Produce a research, action and reflection project",
+      "Reflective essay on transformed understanding of literacy, relating local and global contexts",
+      "The Capstone project will entail a gradual process of problem definition and mapping, and it will produce a research-informed plan (a Knowledge Mobilisation Strategy or KMS) to inform action.",
+      "Identification of a context - this can be an existing context of professional practice or a more generic future context."
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0 anchor holds literally: no work-integrated learning, placement, practicum or community-based project appears anywhere in the documented course structure — the compulsory, Foundations, Capstone, Research and elective lists contain none, and the course explicitly states it is not an initial teacher education qualification. The only practice-site element is the quota-limited Disciplined Inquiry Capstone (Travel), whose engagement is 'structured visits' to organisations with an attendance hurdle — observation, not extended supervised participation in a workplace with practitioner supervision and accountability to a host, which is the construct W3 names. Nothing in the extract documents practitioner supervision of students in a workplace.",
+    "evidenceLines": [
+      "A practical engagement with educational problems through structured visits to a number of government and non-government organisations and educational institutions in selected countries and jurisdictions.",
+      "Hurdle requirement: Participation in the overseas component, with attendance at a minimum of 75% of all scheduled visitation and activities",
+      "Identification of a context - this can be an existing context of professional practice or a more generic future context.",
+      "Please note that this course is not an initial teacher education qualification and does not provide eligibility for registration to teach in Australian schools."
+    ]
+  },
+  "workplace": 2,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents a staged prerequisite chain with disciplinary identity: 50 credit points of four compulsory education subjects that must all be passed before progression into the 50 credit points of Foundations subjects, then a required final 100 points via a Capstone or Research pathway; each of the ten specialisations is additionally an all-compulsory 50-credit-point specialist core. That satisfies the PASS condition (staged prerequisite chain / compulsory specialist core) rather than generic interchangeable content, notwithstanding the large elective component in the Capstone pathway.",
+      "evidenceLines": [
+        "50 credit points of compulsory subjects",
+        "Students can only progress to enrol in the Foundations subjects (second 50 points) if they have passed all four compulsory First 50 point subjects.",
+        "50 credit points of specialisation core subjects",
+        "Engaging with Research in Education",
+        "75 credit points of Elective subjects"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The PASS condition is met via the capstone route with real uncertainty and accountability: the Capstone requires iterative problem definition and redefinition of a substantially complex, ill-defined educational problem, explicitly problematising assumptions and considering counterarguments and competing disciplinary perspectives, and requires students to plan and evaluate — i.e. choose between — research-informed strategies, assessed through a portfolio, a presentation with a participation hurdle and a written report. The Research pathway equally requires designing and defending a project. Assessment is not recall or scripted response.",
+      "evidenceLines": [
+        "Iterative, reflective and dialogic cycles of problem definition, redefinition and expansion.",
+        "Define a substantially complex educational problem or issue directly related to their own professional practice and/or within their area of specialisation",
+        "Plan and evaluate research-informed strategies to explore and address their problems in their area of professional expertise",
+        "Design a research project to investigate a significant issue in education.",
+        "Capstone Conference Presentation: A presentation sharing research-informed strategies for investigating an identified problem"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1 straddled 1 and 2: the compulsory group presentation is assessed collaborative practice, but the extract does not document individual accountability within the group, one of the level-2 exemplars. Resolved to 2 because the level-1 anchor ('no core unit assesses it') is factually false — a compulsory subject assesses group work at 30%.",
+    "C2 straddled 2 and 3: the Capstone's two-part staged Digital Portfolio with 'reflections on learning' could be read as process-focused assessment evidencing strategy adjustment over time. Resolved DOWN to 2 under the lower-level rule — the extract documents no reliance/override decisions, no appraisal of tool or AI output, and no documented strategy change; and the Capstone is one of two pathways.",
+    "C3 straddled 1 and 2: Foundations: Digital Futures carries genuine critique-flavoured ILOs about technology imaginaries and decolonial education, which would look like level 2. Resolved DOWN to 1 because only four of the six Foundations subjects are taken (50 credit points), so no individual Foundations subject is core, and the subject's documented digital content is explicitly introductory tool familiarity — the operational level the anchor caps at 1.",
+    "C4 straddled 2 and 3 on universality: the level-3 self-scoped project exists in both pathways (Capstone project scoped from the student's own practice; supervised Research Project), so unlike C5 no route-among-several problem arises, and the score is 3. Recorded because the Research route alone would not have justified it.",
+    "C5 straddled 2 and 3: EDUC91197 does generate primary evidence and its hurdle oral presentation with questions resembles the level-3 defence. Resolved DOWN to 2 by the level-3 qualifier 'REQUIRED (not one route among several)' — the Research pathway is optional and WAM-gated at 75%.",
+    "W1 straddled 1 and 2: the Capstone Conference Presentation and the Knowledge Mobilisation Strategy could be read as a professional genre. Resolved DOWN to 1 under the lower-level rule — the documented audience is the subject cohort ('facilitates peer learning'), no external or practitioner audience is documented, and no criteria drawn from professional practice are stated for any core assessment.",
+    "W2 straddled 1 and 2: the Capstone KMS is arguably the artefact an education practitioner would produce. Resolved DOWN to 1 — the assessed items are a reflective portfolio, a conference presentation and a written report; the context may be 'a more generic future context'; and no practice-derived criteria are documented. R4 forbids crediting the professional framing itself.",
+    "W3 straddled 0 and 1: the Travel Capstone's 'structured visits' to government, non-government and educational organisations, with an attendance hurdle, could be read as work-situated learning offered as an elective (level 1). Resolved DOWN to 0 under the lower-level rule — visits are not a placement, practicum, internship or community-based project, and no practitioner supervision of student work is documented.",
+    "C1 vs W1 one-construct-one-home: the compulsory multimodal group presentation could be read either as assessed collaboration (C1) or as spoken communication (W1). Scored in C1, whose construct names collaborative practice; W1 rests on the separate oral-discussion and conference-presentation evidence.",
+    "C4 vs C5 one-construct-one-home: the Capstone/Research self-scoped project supports both independent-learning progression (C4) and inquiry (C5). The self-scoping and progression evidence is scored in C4; the design-and-conduct-with-data evidence in C5."
+  ],
+  "notScoreable": [
+    "No item was wholly unscoreable, but the extract contains no subject or assessment pages for any Elective or Specialisation subject (e.g. EDUC91331 Generative AI in Education, EDUC90938 Quality Assessment Design, EDUC91324 Evaluating Educational Interventions). C3 in particular is therefore scored on the subject title and on Foundations: Digital Futures alone; if the elective's assessment page documented assessed AI critique or governance it would still cap at level 1 by the anchor's elective clause, but the evidence base for C3 is thinner than for the other items.",
+    "Assessment rubrics and marking criteria are not published in the handbook extract for any subject, so the 'judged against criteria drawn from practice' clause in W1 level 2 and W2 level 2 could only be evaluated as absent-from-evidence rather than affirmatively refuted.",
+    "EDUC91199 Research Project in Education Part 2 carries no independent content in the extract ('Refer to EDUC91198 Research Project in Education Part 1 for details.'), so Parts 1 and 2 were treated as the single assessment statement the handbook says they share."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-14"
+  }
+};
+
+export default record;

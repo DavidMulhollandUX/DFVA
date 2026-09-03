@@ -1,0 +1,162 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1's anchor — 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it' — is what the handbook documents. Teamwork appears only as a graduate attribute, and the handbook attributes it to class size and teaching format rather than to any assessment. Level 2 requires 'At least one core unit assesses collaborative practice', and the structure documents no compulsory unit at all beyond Fundamentals of the Common Law (required only of students without a common-law degree, and its subject page is absent from the extract): 87.5 of 100 credit points are chosen by the student from a prescribed list. The assessed team tasks that can be quoted sit in prescribed-list options, one of which is not available in 2026, and the one group project described in a subject overview is not among that subject's listed assessments. Level 3 is unreachable independently of the core question: no assessment anywhere in the extract requires coordinating work across people AND tools/AI systems.",
+    "evidenceLines": [
+      "Capacity to value and participate in teamwork",
+      "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+      "Assessment 1: Team presentation/exercise (in class)",
+      "Group presentations",
+      "culminating in a group project that synthesises these elements",
+      "Students with a law degree from a common law jurisdiction must complete at least 87.5 credit points from the prescribed list and may choose",
+      "Graduate courseworkPoints: 12.5Not available in 2026"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1's anchor — reflection appearing in outcomes or graduate attributes with 'no core unit assesses it against criteria' — is the documented state: the course intended learning outcomes claim students 'critically reflect on' complex information, a graduate attribute claims an ability to evaluate existing knowledge, and prescribed-list subjects repeat a reflection claim in their generic skills. Level 2 requires 'criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars' — none of these appears anywhere in the extract; a full-text search finds no peer review, portfolio, exemplar or self-assessment task. The one appraisal-of-work-quality claim (assessing the effectiveness of legal documentation) is an elective learning outcome, never an assessment criterion, and the closest critique task ('Reviewing and critiquing impact funds') appears in a topic list rather than in that subject's assessment. Level 3's documented reliance or tool-quality justification is entirely absent.",
+    "evidenceLines": [
+      "analyse, critically reflect on and synthesise complex information, concepts and theories in the field of commercial law",
+      "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+      "expert, specialised cognitive and technical skills for critical and independent thought and reflection in the context of blockchain technology",
+      "critically examine, analyse, interpret and assess the effectiveness of such documentation",
+      "Reviewing and critiquing impact funds in practical case studies, lessons learnt from recent failures, and the toolbox of the responsible investor."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1's anchor — 'AI or digital tools appear only as electives or as tool operation/training' — describes this program exactly. Every AI and digital subject in the extract is a prescribed-list option (an 'Artificial Intelligence and the Law' subject, a 'Regulating AI' subject marked not available in 2026, an 'AI and Justice' subject, and a whole 'Digital Law and Technological Innovation' grouping), so none is core. The only program-level digital claim is a graduate attribute about technology skills whose supporting text is IT infrastructure availability — the operational, non-durable level TEQSA identifies. Level 2 requires 'Core units address AI capabilities AND limitations/ethics; use with limits discussed and assessed', and there are no core units in which that could be documented; level 3's core assessment of AI critique or governance is likewise absent.",
+    "evidenceLines": [
+      "Advanced working skills in the use of new technology",
+      "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study.",
+      "Digital Law and Technological Innovation",
+      "Artificial Intelligence and the Law",
+      "AI and Justice",
+      "Regulating AI"
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Level 1's anchor — transfer claimed in outcomes but not assessed — is met: the course outcomes claim application of knowledge and skills 'as a practitioner and learner' with 'adaptability and responsibility', and a graduate attribute claims knowledge is 'adapted to current circumstances'. Level 2 requires 'At least one core assessment requires application to novel or unfamiliar problems', and no compulsory unit is documented, so no core assessment can be cited. Level 3 requires 'structured progression toward independent learning: a self-scoped capstone or research project' — the self-scoped research papers here are explicitly one route among several, each offered as an alternative to a take-home examination under a note that students must choose between options, and the structure expressly excludes the Minor Thesis. No progression, no assessed identification of one's own knowledge gaps with a plan to close them.",
+    "evidenceLines": [
+      "Apply their knowledge and skills, as a practitioner and learner in the field of commercial law, to:",
+      "adaptability and responsibility.",
+      "Small classes, a discussion-based environment and the emphasis on quality teaching and learning create an environment in which knowledge is exchanged, critically examined and adapted to current circumstances.",
+      "Option 1: Take-home examination",
+      "Research paper on a topic approved by the subject coordinator",
+      "Note: Students must choose assessment from the options listed above. If an option contains parts, all parts must be completed if that option is chosen.",
+      "the remaining 12.5 credit points from the subjects available in the Master of Laws (excluding Fundamentals of the Common Law and the Minor Thesis)."
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1's anchor — 'Introductory methods unit; literature-review assessment' — is the closest true description: research-paper assessment is documented across subjects and the graduate attributes claim research skills are tested through subject assessment, but what is described is doctrinal and comparative scholarship, i.e. secondary synthesis of statutes, cases and secondary materials. Level 2 requires students to 'design and conduct an inquiry with methodology selection and data collection, assessed' — no methodology-selection or data-collection component is documented for any research paper in the extract. Level 3 requires a substantial primary-evidence project 'REQUIRED (not one route among several), with methodology defended under scrutiny': every research paper here is an option against a take-home examination, and no viva, defence or staged supervised review appears anywhere.",
+    "evidenceLines": [
+      "Advanced competencies in legal research and analysis",
+      "Class preparation and class discussions are designed to enhance these skills, which are tested in all forms of assessment. All graduates of an LLM will have demonstrated, through subject assessment, the ability to use their research skills to plan, develop and execute substantial research-based project(s) and/or piece(s) of scholarship.",
+      "Appreciation of the design, conduct and reporting of original research",
+      "Research papers and other research tasks are expected to attain a degree of creativity, originality and discovery that befits a postgraduate program of the highest quality",
+      "Research paper on a topic approved by the subject coordinator",
+      "Option 1: Take-home examination"
+    ]
+  },
+  "adaptiveness": 5,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1's anchor is met on both clauses: communication and professional conduct appear as graduate attributes and course outcomes, and the assessed spoken tasks documented are class presentations and participation — presentation to peers and staff, with no audience beyond the teaching team. Level 2 requires 'At least one core assessment requires a recognised professional genre or an audience beyond the teaching team ... judged against criteria drawn from professional practice'. The one professional-genre artefact quotable in the extract is a 400-word legal memorandum worth 20% in a prescribed-list subject, not a core unit, and no practice-derived criteria are documented for it. Per R2 and Barrie, the 'variety of audiences' claim in the graduate attributes cannot be scored: the handbook's own supporting sentence resolves it to classroom discussion and written tasks graded on communication skills. Level 3's repeated, progressive assessment judged by a real external practitioner is absent.",
+    "evidenceLines": [
+      "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+      "Classroom discussion and formal presentations provide an opportunity to hone oral communication skills, and written assessment tasks are graded in part on written communication skills.",
+      "interpret and transmit their knowledge, skills and ideas to specialist and non-specialist audiences",
+      "Profound respect for truth and intellectual integrity, including the ethics of scholarship",
+      "Oral presentation",
+      "Participation and leading class discussions.",
+      "A brief memorandum on a topic or transaction of your choice, identifying the key legal issues"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1's anchor — 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic' — matches precisely. Case-study assessments are documented, but the dominant assessed artefacts across every subject page in the extract are 4000-6000 word take-home examinations, research papers and class participation, all academic in form. Level 2 requires a core assessment that 'reproduces a professional task end to end ... judged against criteria drawn from practice'. The strongest candidate describes students acting as lawyers who draft contractual documents, negotiate and close a deal — but its listed assessments are class participation and a take-home examination, so the assessed artefact is academic; it is also a prescribed-list option marked not available in 2026, not a core unit. Applying R4, the 'distinctly practical approach' label in another subject is not scored, only documented task features.",
+    "evidenceLines": [
+      "Case study activity",
+      "Corporate governance case studies x 2 (2,500 words each)",
+      "In this subject, students will act as lawyers advising an international investor in a hypothetical investment project in a developing Asian jurisdiction (based on real life experience of the subject coordinator).",
+      "Students will study relevant laws, draft contractual documents, analyse legal issues, give advice, negotiate with the local government, project finance lenders and other parties and bring the deal to closure.",
+      "Class participation",
+      "Take-home examination",
+      "The subject has a distinctly practical approach and is designed to assist students in developing the skills to assess, prioritise and negotiate impact transactions.",
+      "Graduate courseworkPoints: 12.5Not available in 2026"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1's anchor — 'Work-situated learning exists only as an elective, an optional internship' — is exactly what the course structure shows: the sole work-situated item anywhere in the structure is an International Legal Internship subject, listed among optional 'Further subjects related to course'. A full-text search of the extract finds no placement, practicum, live client project or community-based project. Level 2's placement route requires a core unit, which the structure does not document. Level 2's v4.2 in-practice route requires 'a core unit assesses activity conducted in the student's own professional practice with real recipients and a documented outcome measure': the cohort is described as lawyers and other professionals, but no assessment in the extract is situated in a student's own practice with real recipients or an outcome measure — the nearest, a memorandum on 'a transaction of your choice', is an elective task with neither, and the only hurdle attached to subjects is class attendance.",
+    "evidenceLines": [
+      "International Legal Internship",
+      "Further subjects related to course",
+      "Lawyers and other professionals will deepen their understanding of many aspects of commercial law from both a domestic and international perspective.",
+      "A brief memorandum on a topic or transaction of your choice, identifying the key legal issues",
+      "Hurdle requirement: A minimum of 75% attendance is required."
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "FAIL",
+      "rationale": "The PASS condition requires a documented 'coherent specialist core with progressive technical or methodological depth: an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain'. The structure documents none of the three. Of 100 credit points, 87.5 are chosen by the student from a prescribed list; the only compulsory subject applies to one subgroup (students without a common-law degree); and the remaining 12.5 points may be drawn from any Master of Laws subject. No prerequisite chain, staged sequence or accreditation is documented anywhere in the extract, and the prescribed list itself ranges well beyond commercial law into human rights, health and medical, environmental and comparative criminal justice subjects — so the specialist depth is elective-contingent and the units are substitutable for one another.",
+      "evidenceLines": [
+        "Students must complete 100 credit points in total.",
+        "Students who do not have a law degree from a common law jurisdiction must complete Fundamentals of the Common Law, as well as",
+        "87.5 credit points from the prescribed list.",
+        "the remaining 12.5 credit points from the subjects available in the Master of Laws (excluding Fundamentals of the Common Law and the Minor Thesis).",
+        "Note: Most subjects in the MLM program are 12.5 credit points each. Check individual subject handbook entries for confirmation.",
+        "Human Rights Law",
+        "Health and Medical Law",
+        "Medical Litigation",
+        "Water Law & Natural Resources Management",
+        "Comparative Criminal Justice in Asia"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The FAIL condition, 'Recall or scripted responses only', is contradicted by the documented assessment: 4000-6000 word take-home examinations and case-study assessments on regulatory-policy questions, with outcomes that require designing and justifying reform proposals, weighing the strengths and weaknesses of competing regulatory approaches, and applying principles to practical scenarios. The program-level graduate attributes likewise document assessment tasks requiring students to develop a range of appropriate solutions to problems, i.e. defended trade-off decisions rather than recall. Caveat recorded against the gate: every assessment instance cited sits in a prescribed-list option rather than a verifiable core, so the gate passes on the units the extract samples, not on a compulsory sequence.",
+      "evidenceLines": [
+        "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+        "Design and justify evidence-based reform proposals for criminal justice regimes by evaluating foreign models, regulatory choices and institutional constraints across selected jurisdictions.",
+        "Identify the strengths and weaknesses of different regulatory approaches to protecting the interests of consumers of financial services.",
+        "Critically analyse the principles governing bank regulation and apply them to practical scenarios;",
+        "Corporate governance case studies x 2 (2,500 words each)",
+        "Advise multinational companies seeking to engage in foreign direct investment in Asia (whether by way of a Greenfield investment, Mergers & Acquisitions arrangement, or joint venture project) on the practical corporate governance issues involved;"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1 straddled 1 and 2: assessed collaborative practice is quotable ('Assessment 1: Team presentation/exercise (in class)' at 20%; 'Group presentations' at 15%), which would satisfy level 2 if prescribed-list subjects counted as core. The structure documents them as student-chosen options against 87.5 of 100 credit points of free choice, and one of the two is 'Not available in 2026'. Resolved down to 1 by the level-2 anchor's 'core unit' requirement plus the scoring-direction rule.",
+    "C2 sat on the 0/1 boundary: the level-1 trigger is satisfied only on the anchor's literal terms — the word 'reflect' appears in the course outcomes, but it is directed at 'complex information, concepts and theories', not at appraising the quality of the student's own, a peer's or a tool's work, which is what the C2 construct means. A level-0 reading ('No assessment requires students to appraise the quality of work') is also literally true of this extract. Scored 1 because level 0 would deny that any such claim appears in the outcomes, when it does; no upward move past 1 is available because no appraisal-against-criteria assessment exists anywhere.",
+    "C4 straddled 1 and 3: self-scoped research papers on a topic approved by the coordinator resemble level 3's 'self-scoped ... research project'. Resolved down to 1 because level 3 requires documented structured progression and because every such paper is presented as one option against a take-home examination ('Note: Students must choose assessment from the options listed above'), which is the same 'one route among several' disqualifier level 3 states for C5.",
+    "C5 straddled 1 and 3 on the same research-paper evidence, and the graduate attributes claim LLM graduates demonstrate 'substantial research-based project(s)'. Resolved down to 1: that sentence is about graduates of an LLM rather than this award, the structure excludes the Minor Thesis, the papers are optional alternatives to examinations, and no methodology defence under scrutiny is documented.",
+    "W1 straddled 1 and 2: a 400-word legal memorandum identifying key legal issues is a recognised professional genre, which would carry level 2 if it were core-assessed. Resolved down to 1 — it is a prescribed-list subject's task at 20%, and no criteria drawn from professional practice and no audience beyond the teaching team are documented for it.",
+    "W2 straddled 1 and 2: one subject describes an end-to-end professional simulation (drafting contractual documents, negotiating with government and lenders, closing the deal). Resolved down to 1 because that subject's assessed artefacts are class participation and a take-home examination — the simulation is taught activity, not the assessed task — and the subject is an option marked 'Not available in 2026'.",
+    "W3 straddled 1 and 2 on the v4.2 in-practice route: the cohort is documented as 'Lawyers and other professionals', which opens the own-practice route, and one elective memorandum is on 'a transaction of your choice' that could come from a student's own practice. Resolved down to 1 because the route additionally requires a core unit, real recipients and a documented outcome measure, none of which appear.",
+    "G1's FAIL wording ('Generic or interchangeable content without disciplinary identity') fits imperfectly: the subject matter is unmistakably legal and commercial-law-specific. The gate fails on the absence of any documented compulsory sequence or progressive depth — the PASS condition — not on vagueness of disciplinary identity. Recorded so the flag is read correctly downstream."
+  ],
+  "notScoreable": [
+    "Core assessment evidence for all eight items. The structure documents only one compulsory subject, Fundamentals of the Common Law, and only for students without a common-law degree — and the extract contains no subject or assessment page for it (no handbook.unimelb.edu.au/2026/subjects/laws70217 source block). Consequently no level-2 or level-3 anchor that requires 'core assessment' or a 'core unit' could be tested for any of C1, C2, C3, C4, W1, W2 or W3. All eight items are held at 1 by the absence of a verifiable core, not by an observed level-1 ceiling in the units that were captured.",
+    "Assessment-spine coverage. The extract carries 16 subject pages, all prescribed-list options and 12 of them marked 'Not available in 2026', out of roughly 200 subjects listed across some 20 subject groupings. The anchors that ask whether practice reproduces or recurs 'across the program' (C1 level 3, W2 level 3, W1 level 3) therefore cannot be evaluated on evidence; they were scored down rather than inferred.",
+    "C2's level-2 and level-3 evidence types are wholly absent from the extract: no peer review, portfolio with standards, marking against exemplars, structured critique task, or documented reliance/override or AI-output-quality justification appears anywhere in the 2,519 lines captured. The C2 score therefore rests entirely on outcome-statement evidence.",
+    "C5's methodology evidence. No subject page in the extract describes methodology selection, data collection, supervision arrangements or a defence/viva for any research paper, so the distinction between level 1 and level 2 rests on the absence of that documentation rather than on a positive finding about the papers' design."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-17"
+  }
+};
+
+export default record;

@@ -1,0 +1,150 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: collaboration/teamwork appears in outcomes and graduate attributes, but no core unit assesses it. The only compulsory unit in the course structure (Fundamentals of the Common Law, required for non-common-law graduates) assesses a case analysis, a research essay and an attendance-and-participation hurdle - nothing collaborative. Assessed group work exists only in prescribed-list subjects a student may never take (team presentation in LAWS70106, itself 'Not available in 2026'; group presentations in LAWS90216), so level 2's 'at least one core unit assesses collaborative practice' is not met - the instrument treats elective-only appearance as level 1 (cf. the C3 level-1 anchor). Nothing anywhere documents coordinating work across people AND tools/AI systems, so level 3 is unreachable.",
+    "evidenceLines": [
+      "Capacity to value and participate in teamwork",
+      "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+      "work effectively as a team member to resolve dispute resolution challenges as future legal professionals; and",
+      "Assessment 1: Team presentation/exercise (in class)",
+      "Group presentations",
+      "Students with a law degree from a common law jurisdiction must complete 87.5 credit points of study from the prescribed list and may choose 12.5 credit points from the subjects"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: reflection/self-assessment appears in the program ILOs and graduate attributes but no core unit assesses it against criteria. The compulsory unit's tasks are a case analysis and a research essay graded pass/fail - no peer review, structured critique, portfolio against standards or marking against exemplars, so level 2's criterion-referenced appraisal of the quality of work is absent from required study. The one documented instance of appraising one's own and others' work is the LAWS90062 role-play component, a prescribed-list elective, which cannot lift a 'core assessment' anchor. No assessment requires documenting or justifying reliance on a tool, source or collaborator, so level 3 fails on its own terms.",
+    "evidenceLines": [
+      "analyse, critically reflect on and synthesise complex information, concepts and theories in the field of banking and finance law;",
+      "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+      "Participation in class exercises (15%), and role plays (15%), including the constructive assessment of one's own progress and actions as well as those of others",
+      "Case analysis",
+      "Research Essay",
+      "The case analysis and essay are graded on a pass/fail basis."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: digital content appears only as electives, not in any required unit. Digital subject matter is real but sits entirely in the prescribed-list subjects (blockchain, cryptoassets, FinTech and payments), several marked 'Not available in 2026', and the program-level technology claims are a graduate-attribute heading, 'Advanced working skills in the use of new technology', whose only supporting sentence describes IT infrastructure in the Law Library, Moot Court Room and classrooms - facilities, not curriculum. Level 2 requires core units addressing capabilities AND limitations/ethics assessed; no unit is core and no assessment task in the extract is directed at technology capability or limits. Level 0 does not hold because a program-level outcome names e-commerce and the overview names FinTech and blockchain regulation. The AI half of the construct is unevidenced: the extract contains no mention of AI or generative AI anywhere (see notScoreable).",
+    "evidenceLines": [
+      "the impact of globalisation, e-commerce and regulatory reform on the provision of financial services in Australia and internationally.",
+      "financial technology (FinTech) and the regulation of blockchain.",
+      "Advanced working skills in the use of new technology",
+      "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study.",
+      "This subject is designed to introduce students to the emerging social, economic and legal issues associated with blockchain and cryptocurrencies."
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Level 1 anchor: transfer and adaptability are claimed in outcomes ('apply their knowledge and skills as a practitioner and learner ... adaptability and responsibility', 'flexibility of approach') but not assessed in any required unit. The compulsory unit's assessed tasks are a 1500-word case analysis and a 3500-word research essay, both within the taught method - the subject 'teaches students how to read, use and interpret reported cases and legislation' and lists 'How to read and analyse a case' as its first topic - so level 2's application to novel or unfamiliar problems is not documented for required study. Level 3 needs structured progression to independent learning: no capstone appears, the Minor Thesis is expressly excluded from this course, and the self-selected research paper is only one of two options inside prescribed-list subjects, never required.",
+    "evidenceLines": [
+      "Apply their knowledge and skills as a practitioner and learner in the field of banking and finance law to demonstrate:",
+      "adaptability and responsibility.",
+      "Well-developed problem solving abilities, characterised by flexibility of approach",
+      "research and apply such information, concepts and theories to the relevant body of knowledge and practice; and",
+      "Construct a written legal argument in response to a topic, with appropriate referencing using the Australian Guide to Legal Citation (4th ed.).",
+      "Research paper on a topic approved by the subject coordinator"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1 anchor: foundational method training plus literature/doctrinal research assessment. The compulsory unit teaches how to read, use and interpret cases and legislation and assesses a 3500-word Research Essay; legal research skills are claimed to be tested in all forms of assessment. This is secondary doctrinal synthesis - level 2 requires students to design and conduct an inquiry with methodology selection and data collection, and no task in the extract involves data collection or defended methodology. The graduate attribute claiming design, conduct and reporting of original research is an attribute statement, not assessment evidence (R2), and is scoped to 'graduates of an LLM'. Level 3 fails outright: the research paper is one route among several and the Minor Thesis is excluded from this course.",
+    "evidenceLines": [
+      "Advanced competencies in legal research and analysis",
+      "Class preparation and class discussions are designed to enhance these skills, which are tested in all forms of assessment. All graduates of an LLM will have demonstrated, through subject assessment, the ability to use their research skills to plan, develop and execute substantial research-based project(s) and/or piece(s) of scholarship.",
+      "Appreciation of the design, conduct and reporting of original research",
+      "Research Essay",
+      "3500 words",
+      "Research paper on a topic approved by the subject coordinator"
+    ]
+  },
+  "adaptiveness": 5,
+  "W1": {
+    "score": 0,
+    "rationale": "Demoted from 1 to 0 on adversarial review. Level 1 requires positively that core assessment adds presentation to peers/staff. The only compulsory unit is LAWS70217, whose full assessment table is Case analysis 1500w, Research Essay 3500w and an Attendance and Participation hurdle documented solely as 'A minimum of 75% attendance is required' - no presentation exists in required study. Level 0's first clause ('All core assessment is in academic genres addressed to the marker') is literally satisfied, and that clause's 'core' qualifier governs the unqualified second clause (as C1 level 0's 'anywhere in the core' does). The original level-1 hold rested on pervasive assessed class participation across the prescribed list, but that reasoning is unavailable to a scoring that defines 'core' as required study and refuses elective evidence at C1, C2, W2 and W3; the scoring-direction rule also forbids resolving straddled levels upward. The pervasiveness premise does not rescue level 1 in any case, and the sampled counts run against the original wording rather than for it: assessed participation appears on 10 of the 16 sampled subject pages (the literal phrase 'Class participation' on 7), and assessment evidence exists for 16 of the 38 prescribed subjects - every one of them an elective. Every presentation cited (LAWS70106, 'Not available in 2026'; LAWS70380; LAWS90216) is an elective a student can complete the degree without touching.",
+    "evidenceLines": [
+      "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+      "Classroom discussion and formal presentations provide an opportunity to hone oral communication skills, and written assessment tasks are graded in part on written communication skills.",
+      "interpret and transmit their knowledge, skills and ideas to specialist and non-specialist audiences.",
+      "Case analysis",
+      "Research Essay",
+      "A minimum of 75% attendance is required",
+      "Class presentation on an agreed topic with PPT slides submitted as a PDF documentation after the presentation. (No more than 500 words)"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: contextualised, problem-framed tasks appear, but the artefact produced and the criteria applied remain academic. The program documents that most subjects work from issues or problems and that students develop a range of solutions through assessment tasks; the assessed artefacts across the extract are take-home examinations (3000-6000 words), research papers, a case analysis and a case study activity - academic forms marked by the teaching team. Level 2 requires at least one core assessment reproducing a professional task end to end and producing the artefact a practitioner would produce, judged against practice-derived criteria; the nearest instances (negotiation role plays, an impact-investing case study activity) are prescribed-list electives and the extract documents no practice-derived criteria for them. Per R4 the overview's 'practical focus' label is not scored.",
+    "evidenceLines": [
+      "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+      "Take-home examination",
+      "Research paper on a topic approved by the subject coordinator",
+      "Case analysis",
+      "Case study activity",
+      "actively participate in a series of useful, interesting and challenging negotiation concepts, strategies, and simulation negotiation scenarios helpful in the field of law;"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1 anchor exactly: work-situated learning exists only as an optional internship. The course structure lists International Legal Internship as one entry among the prescribed subject options, from which students choose; no placement, practicum, live client project or community-based project is required, and the words placement, practicum and supervision (in the WIL sense) appear nowhere in the extract. Level 2 needs a core unit placing students in a real workplace with practitioner supervision and assessment. The v4.2 in-practice route does not open: the overview describes a mixed intake of 'students, practitioners and other professionals' rather than a cohort documented as already practising, and no unit assesses activity conducted in a student's own practice with real recipients.",
+    "evidenceLines": [
+      "International Legal Internship",
+      "Subject options",
+      "Students with a law degree from a common law jurisdiction must complete 87.5 credit points of study from the prescribed list and may choose 12.5 credit points from the subjects",
+      "The specialisation in banking and finance law is designed to provide students, practitioners and other professionals with a sophisticated understanding of the legal and regulatory framework for the Australian and international financial sector."
+    ]
+  },
+  "workplace": 2,
+  "gates": {
+    "G1": {
+      "result": "FAIL",
+      "rationale": "Demoted from PASS to FAIL on adversarial review. The gate's PASS condition is exhaustive and enumerated - a coherent specialist core with progressive technical or methodological depth, evidenced by an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain - and the extract positively refutes all three routes. (a) No all-compulsory specialist core: common-law graduates have zero compulsory subjects and 12.5cp of unrestricted choice 'from the subjects available in the Master of Laws', so an eighth of the degree is by construction interchangeable; the one compulsory subject, LAWS70217, is compulsory only for the other cohort and is a generic MLM foundational-skills unit shared across eight unrelated masters, not banking-and-finance content. (b) No accredited sequence: 'accredit' appears nowhere in the extract. (c) No staged prerequisite chain: 'prerequisite' and 'co-requisite' appear nowhere; all 38 prescribed subjects are listed at 12.5 credit points and every subject page in the extract is graduate coursework offered as a standalone intensive in an arbitrary month, with no ordering. The LAWS70217 staging lines say 'We recommend' and 'strongly recommended' - a recommendation is not a documented prerequisite chain, and R1 binds the score to what the handbook documents. A flat, unordered menu of which half is unavailable (19 of 38 marked 'Not available in 2026') from which students self-assemble 87.5cp evidences disciplinary breadth but no documented progression or depth staging. The original PASS inverted the gate by testing only whether the FAIL sentence fired.",
+      "evidenceLines": [
+        "as well as 87.5 credit points of study from the prescribed list of subjects.",
+        "Students with a law degree from a common law jurisdiction must complete 87.5 credit points of study from the prescribed list and may choose 12.5 credit points from the subjects available in the Master of Laws",
+        "This is a foundational subject in the Melbourne Law Masters (MLM) which is compulsory for graduates of disciplines other than law and for law graduates from countries with a non-common law system.",
+        "This subject is an important foundational skills-based subject for many common-law focussed subjects in the Melbourne Law Masters. We recommend Masters students needing an introduction to the common law enrol in this subject when they first start their program of study.",
+        "Not available in 2026"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The FAIL condition (recall or scripted responses only) is contradicted even on core evidence alone: the compulsory unit assesses a 1500-word case analysis plus a 3500-word research essay, and the program documents that assessment is problem-based, requiring students to analyse problems and develop a range of appropriate solutions through assessment tasks. The dominant assessed forms across the prescribed list are 3000-6000 word take-home examinations and research papers requiring critical evaluation. Note that the most probative-sounding line, 'Devise advise to companies and investors when assessing insolvency risks...', sits on LAWS90112's overview page as an intended learning outcome, not assessment, so it carries no weight under R2; the gate holds on the take-home-examination and research-paper evidence only.",
+      "evidenceLines": [
+        "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+        "Take-home examination",
+        "Case analysis",
+        "Research Essay",
+        "expert judgment; and"
+      ]
+    }
+  },
+  "ambiguities": [
+    "What counts as 'core' is the governing ambiguity for every item. This course has essentially no compulsory core: only Fundamentals of the Common Law is required, and only for students without a common-law degree; the remaining 87.5 of 100 credit points are chosen from a prescribed list. 'Core' was scored as required study, and prescribed-list subjects treated as electives, which is what the instrument itself implies at the C3 level-1 anchor ('appear only as electives'). Reading the prescribed list as core would lift C1 and C2 to 2 (team presentation and group presentations; assessed appraisal of one's own and others' work in role plays). Resolved down per the scoring-direction rule.",
+    "C1 straddled 1 and 2: assessed group work is documented in two prescribed-list subjects, one of them 'Not available in 2026'. Because a student can complete the degree without ever taking either, level 2's 'at least one core unit assesses collaborative practice' fails; scored 1.",
+    "W1 straddled 0 and 1 and was resolved DOWN to 0 on adversarial review. The original scoring held it at 1 on the ground that assessed class participation is pervasive across the prescribed list; that reasoning is unavailable to a scoring that treats prescribed-list subjects as electives everywhere else, and the scoring-direction rule forbids upward resolution. Level 1's positive condition (core assessment adds presentation to peers/staff) fails on the only compulsory unit, whose tasks are a case analysis, a research essay and a 75% attendance hurdle.",
+    "W2 straddled 1 and 2: an impact-investing 'Case study activity' (40%) and assessed negotiation role plays are the nearest professional-task instances, but both are prescribed-list electives and the extract documents no criteria drawn from practice for either. Resolved down to 1. Per R4 the overview's 'Most subjects have a practical focus' was excluded from scoring as a label rather than a documented task feature.",
+    "C4 straddled 1 and 2: the compulsory unit's case analysis could be read as application to a novel case, but the taught content is precisely how to read and analyse a case, so the task is within the taught context. Resolved down to 1.",
+    "C5 straddled 1 and 2 on the graduate attribute claiming design, conduct and reporting of original research; that is an attribute statement, not assessment evidence (R2), and the research paper is one option among two. Resolved down to 1.",
+    "G1 was the least secure judgement and was demoted to FAIL. The original PASS rested on the prescribed-list envelope rather than any of the three enumerated PASS routes; on review none of the three is documented, and 'progressive technical or methodological depth' is the operative substance of the gate. The residual ambiguity runs the other way: a lenient reading that counts a discipline-confined prescribed list plus a recommended foundational subject as a 'coherent specialist core' would PASS.",
+    "G2 holds, but its evidence base is thinner than it first appears: the clearest simulation and trade-off language sits in prescribed-list electives and in intended-learning-outcome text excluded under R2. The compulsory unit alone (a 1500w case analysis plus a 3500w research essay, both pass/fail) is what carries the gate.",
+    "Several quoted assessment pages carry dates from 2023-2025 for subjects marked 'Not available in 2026' (for example LAWS70106, LAWS70110, LAWS70125, LAWS90112). Their content was scored as documented, but their unavailability reinforces that they cannot be required study."
+  ],
+  "notScoreable": [
+    "C3 (AI half of the construct): the extract contains no occurrence of 'AI', 'artificial intelligence' or 'generative' anywhere - not in the course pages, not in any subject page. The C3 score of 1 rests entirely on the digital/FinTech/blockchain route; the AI capability, limitation, ethics and governance evidence the item asks for is absent rather than negative, and no AI-related level was inferred.",
+    "Assessment evidence is present for 16 of the 38 subjects in the prescribed list; the remaining subject pages are not in the extract. C1, C2, W1 and W2 are therefore scored on a partial sample of the list, which bounds any upward revision more than any downward one."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-25"
+  }
+};
+
+export default record;

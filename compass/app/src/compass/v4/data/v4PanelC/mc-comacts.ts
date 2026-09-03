@@ -1,0 +1,121 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "ACTL90010 (core, both pathways) assesses a group project with individual accountability — matching the level-2 anchor 'At least one core unit assesses collaborative practice — group projects with individual accountability' — via a per-student word allocation within a group deliverable. The same pattern recurs in ACTL90018 (constrained-choice core). No evidence documents an assessment where, per the level-3 anchor, 'the division of work between people and tools/AI systems is itself assessed' — ACTL90019's analytics techniques are assessed individually, never alongside team-tool coordination. Scored level 2, not level 3.",
+    "evidenceLines": [
+      "Group Assignment, Groups of 4, 5 page limit (2000 words per group, 500 words per student)",
+      "Group assignment (4 students per group, 4000 words)"
+    ]
+  },
+  "C2": {
+    "score": 0,
+    "rationale": "The assessment tables for every core and constrained-choice-core subject in the extract (ACTL90003, ACTL90004, ACTL90010, ACTL90011, ACTL90013, ACTL90016/17, ACTL90018, ACTL90019) consist of individual assignments, group assignments/presentations, and hurdle exams. None describes peer review, structured critique, marking against exemplars, or a portfolio with standards — the forms the level-2 anchor names for 'criterion-referenced appraisal of quality.' This matches the level-0 anchor precisely: 'No assessment requires students to appraise the quality of work — their own, peers', or a tool's.'",
+    "evidenceLines": [
+      "End-of-semester exam",
+      "Individual assignment"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "ACTL90019 (Data Analytics in Insurance 2, compulsory capstone in the practice pathway) is the only AI-adjacent core content: modern analytical techniques including neural networks. This is technique application with no documented treatment of AI limitations, ethics, bias, accountability, or governance. Per the level-1 anchor — 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable' — and the rubric's migration note that tool-operation content caps at level 1 regardless of whether the unit is core, scored level 1.",
+    "evidenceLines": [
+      "This subject aims to further develop students’ knowledge of modern analytical tools and techniques, including GLM, shrinkage techniques (e.g., LASSO and ridge regression), tree-based methods (e.g., random forests and GBM) and neural networks."
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "ACTL90013 (constrained-choice core, practice pathway) has students carrying out independent research on lecturer-set topics, assessed via a 3,000-word assignment — application to novel/unfamiliar problems, matching the level-2 anchor. ACTL90016/17 (compulsory capstone in the research pathway only) documents more self-scoped language — students 'Identify and develop a suitable and feasible topic' for a research essay 'on a topic approved by the Head of Department' — consistent with the level-3 anchor's 'self-scoped capstone or research project.' Because that route is compulsory only in the research pathway (a practice-pathway student can satisfy the constrained-choice requirement without it), the evidence is ambiguous between level 2 and level 3 for the program as a whole. AMBIGUITY, resolved to the lower level per the scoring-direction rule: scored level 2, anchored on ACTL90013's novel-problem, lecturer-set independent research.",
+    "evidenceLines": [
+      "This subject provides students with the experience of carrying out research independently on each of three topics chosen by the subject’s lecturers.",
+      "Identify and develop a suitable and feasible topic;",
+      "A research essay not exceeding 10,000 words on a topic approved by the Head of Department."
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "ACTL90013/90016/90017 have students 'Identify the bibliographic and data sources relevant to the topics' and 'Apply appropriate actuarial and quantitative methods of analysis' for an assessed research essay/report — beyond a bare introductory unit, but the extract never documents a data-collection step; the essays read as literature/analysis-based, closer to the level-1 anchor's 'literature-review assessment' than level 2's 'design and conduct an inquiry with methodology selection and data collection.' AMBIGUITY between level 1 and level 2, resolved to the lower level 1. Level 3 is excluded regardless: this research route is one of several constrained-choice options in the practice pathway, not 'REQUIRED (not one route among several)' as level 3 demands, and no viva/defence of methodology is documented.",
+    "evidenceLines": [
+      "Identify the bibliographic and data sources relevant to the topics;",
+      "Apply appropriate actuarial and quantitative methods of analysis;"
+    ]
+  },
+  "adaptiveness": 6,
+  "W1": {
+    "score": 1,
+    "rationale": "ACTL90010/90011 (core) list 'Apply the tests of professionalism' among intended learning outcomes — professional conduct named in outcomes, matching the level-1 clause 'Communication or professional conduct appears in learning outcomes or graduate attributes.' The same subjects assess a 'Group Presentation,' satisfying level 1's second clause ('core assessment adds presentation to peers/staff'), but no evidence documents a recognised professional genre (client brief, consultancy/policy advice, pitch) or an audience beyond the teaching team, which level 2 requires. Scored level 1.",
+    "evidenceLines": [
+      "Apply the tests of professionalism",
+      "Group Presentation"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Core-subject outcomes are scenario-framed around practice — ACTL90010's 'Discuss and apply an actuarial control cycle in a variety of practical commercial situations' and 'Select an appropriate model to solve client problems' — matching the level-1 anchor 'Contextualised or scenario-framed tasks appear ... but the artefact produced and the criteria applied remain academic.' The assessed artefacts stay academic throughout (written assignments, a 3-hour 'End-of-semester examination'); no core assessment is documented as reproducing 'a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice' (level 2). Scored level 1.",
+    "evidenceLines": [
+      "Discuss and apply an actuarial control cycle in a variety of practical commercial situations",
+      "Select an appropriate model to solve client problems",
+      "End-of-semester examination"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "The only work-situated learning documented is the practicum route: 'Eligible students may complete one of the following competitive-entry practicum subjects in place of one 12.5 point elective,' listing Business Practicum and Global Business Practicum. This is optional, competitive-entry, and substitutes for an elective — matching the level-1 anchor 'Work-situated learning exists only as an elective, an optional internship.' No core unit places students in a supervised, assessed workplace or professional-practice setting. Scored level 1.",
+    "evidenceLines": [
+      "Eligible students may complete one of the following competitive-entry practicum subjects in place of one 12.5 point elective:",
+      "Business Practicum",
+      "Global Business Practicum"
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program overview describes a coherent specialist core — 'It focuses on actuarial theory and practice, specialising in quantitative techniques for insurance, superannuation and financial risk modelling' — and carries external professional accreditation: 'The course provides the possibility of exemptions from modules necessary to complete the associateship of the Actuaries Institute Australia.' Compulsory core (ACTL90003, ACTL90010) plus a constrained-choice specialist list (ACTL90004, ACTL90013, ACTL90016/17, ACTL90018) give progressive technical depth, matching the G1 PASS condition of 'an accredited sequence' with 'progressive technical or methodological depth.'",
+      "evidenceLines": [
+        "It focuses on actuarial theory and practice, specialising in quantitative techniques for insurance, superannuation and financial risk modelling.",
+        "The course provides the possibility of exemptions from modules necessary to complete the associateship of the Actuaries Institute Australia."
+      ]
+    },
+    "G2": {
+      "result": "FAIL",
+      "rationale": "FAIL (demoted from PASS on adversarial verification). G2's PASS condition explicitly names 'Assessments' ('Assessments require defended trade-off decisions'), but both cited evidenceLines ('Design the optimal reinsurance for the insurer and the reinsurer under different optimality criterion' and 'Apply a risk assessment framework to identify and assess the risks in a range of commercial situations') are drawn from the Intended learning outcomes sections of ACTL90004 and ACTL90010, not from either subject's Assessment table. The extract's actual assessment descriptions for those subjects ('Individual assignment', 'Group Assignment', 'End-of-semester exam') carry no task detail confirming a trade-off decision is what is being assessed. This is the same outcome-vs-assessment conflation R2 explicitly forbids for C-item level-3 claims, applied here to a gate whose own wording demands assessment evidence. Per the instrument's R1 ('score what the handbook documents, never what a graduate plausibly can do'), PASS is not supported by the evidence actually cited; recommend re-sourcing from assessment-task text or holding the gate as unresolved.",
+      "evidenceLines": [
+        "Design the optimal reinsurance for the insurer and the reinsurer under different optimality criterion",
+        "Apply a risk assessment framework to identify and assess the risks in a range of commercial situations"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C4: ACTL90016/17's self-scoped research capstone ('Identify and develop a suitable and feasible topic') satisfies the level-3 anchor's self-scoped-capstone language, but is compulsory only in the research pathway, not the practice pathway. Resolved to the lower level 2, anchored instead on ACTL90013's lecturer-set novel-topic independent research.",
+    "C5: ACTL90013/90016/90017's bibliographic-sourcing-and-analysis language is consistent with a methodology-selection inquiry (level 2) but never documents a data-collection step, reading closer to a literature-review assessment (level 1). Resolved to the lower level 1.",
+    "C3: ACTL90019 is a compulsory capstone (not merely elective) covering AI-adjacent techniques (neural networks, tree-based methods), which could argue for the level-2 threshold on 'core' grounds alone, but the content is documented only as tool operation/technique application with no limitations/ethics/governance treatment, so it is held at level 1 per the tool-operation cap rather than the core/elective distinction."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

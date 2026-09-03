@@ -1,0 +1,136 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "No core unit's documented assessment includes a graded collaborative or group task — every assessment item across the core (mid-semester tests, end-of-semester exams, individual assignments, individual presentations, the Thesis Workshop's individually-authored paper) is individual. 'Collaborative learning and teamwork' and 'team work' appear only inside generic-skills outcome lists for ECON90014, ECON90053 and ECON90056, never tied to an assessed group deliverable — matching the Level 1 anchor 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' No task requiring coordination across people AND tools/AI systems is documented, so Level 3 is not reached.",
+    "evidenceLines": [
+      "Collaborative learning and teamwork;",
+      "collaborative learning;",
+      "team work;",
+      "Moderate level of development: oral communication, collaborative learning, problem solving, team work, statistical reasoning."
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Core-unit ILOs for ECOM90005 and ECOM90014 both state 'Critically evaluate current econometric research published in the top ranking international economic and econometric journals,' echoing the course-level generic skill 'Critical evaluation of ideas, views and evidence' — evaluative-judgement language appears in outcomes, but no core unit's documented assessment (weekly assignments, exams) is described as criterion-referenced appraisal of quality (no peer review, structured critique, portfolio-against-standards or marking-against-exemplars task is named anywhere in the extract). This matches Level 1 ('appears in outcomes ... but no core unit assesses it against criteria') rather than a higher level. No reliance-decision or AI-output-judgement task is documented, so Level 3 is not reached.",
+    "evidenceLines": [
+      "Critically evaluate current econometric research published in the top ranking international economic and econometric journals;",
+      "Critical evaluation of ideas, views and evidence in support of an argument or proposition;"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "The only digital-tool content documented anywhere in the genuine core curriculum is Matlab, introduced in the core unit ECOM90005 Advanced Econometric Techniques purely as programming/tool-operation training, and echoed in ECOM90005's and ECOM90014's generic-skills lists as 'application of software to write computer programs.' This is tool-operation content, which the anchor caps at Level 1 even though it sits inside a core unit. No AI-specific content — capabilities, limitations, ethics or governance — is documented anywhere in this program's own course-structure or subject descriptions, so Levels 2-3 are not reached. The extract's mislabeled 'Artificial Intelligence in Organisations' block (a since-corrected capture mismatch, see ambiguities) was excluded entirely and was not used to support this score.",
+    "evidenceLines": [
+      "you will also be introduced to a high-level matrix and programming language, Matlab, to provide you with a basis to solve problems which have no closed-form solutions.",
+      "Application of software to write computer programs to perform a series of steps",
+      "Application of software to write computer programs to perform econometric tasks"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "DEMOTED from 3 to 2 (verify-evidence audit, applied 2026-08-30): all evidenceLines are ILO/Overview text ('Identify and develop a suitable and feasible topic', 'unsupervised... advisor', enrolment note), not assessment-page evidence. R2 requires level-3 to quote assessment evidence, and an outcome statement is never sufficient. The genuine assessment-page evidence for this subject (60% paper, presentations, hurdle) is already homed to C5 under one-construct-one-home, so it cannot also underwrite C4's level 3. Remaining evidence (required, unsupervised, self-topicked capstone paper) supports Level 2 (application to novel/unfamiliar problems), not Level 3. Original rationale: ECON90073/ECON90074 Economics Thesis Workshop Part 1 and 2 are compulsory Year 2 core subjects requiring students to 'Identify and develop a suitable and feasible topic suitable for confirmation' and to complete the research largely independently — 'unsupervised ... each student will be allocated an advisor to whom they can address questions.'",
+    "evidenceLines": [
+      "Identify and develop a suitable and feasible topic suitable for confirmation;",
+      "The preparation of the academic research paper is unsupervised but each student will be allocated an advisor to whom they can address questions.",
+      "Students in the second year of their Master of Commerce (Economics) Degree will be enrolled in this annual subject."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "DEMOTED from 3 to 2 (verify-evidence audit, applied 2026-08-30): the rationale's own ambiguities entry admits the extract does not establish whether the thesis involves primary/empirical evidence generation versus a purely theoretical contribution — a fact that gates both the Level 2 and Level 3 anchors (both require primary evidence/data collection). The instrument's non-negotiable rule states ambiguity must resolve to the LOWER level and never upward; the original rationale registered the ambiguity but kept Level 3 anyway, a direct rule violation. Level 2 is the defensible score given the self-acknowledged uncertainty. Original rationale: the compulsory Thesis Workshop requires a REQUIRED substantial project — a 'Written academic research paper' of '10,000 words' worth 60% of the combined subject mark, defended under staged scrutiny (seminar participation, two presentations, a 75% attendance hurdle).",
+    "evidenceLines": [
+      "Written academic research paper",
+      "10,000 words",
+      "Apply and interpret appropriate economic and econometric methods of analysis;",
+      "Seminar participation and individual 10 minute presentations with one presentation in the first semester and at least two presentations in the second semester.",
+      "Individual presentation.",
+      "Hurdle requirement: attendance at a minimum of 75% of the subject's workshop sessions."
+    ]
+  },
+  "adaptiveness": 7,
+  "W1": {
+    "score": 1,
+    "rationale": "Oral communication is directly assessed in the core unit ECON90056 World Economic History via review-article class presentations and an oral exam — presentations to the teaching team/examiner, matching Level 1's 'core assessment adds presentation to peers/staff.' The course-level generic skill 'Written and oral communication of economic related ideas, theories and solutions to peers and the wider community' gestures toward an audience beyond the teaching team, but no specific core-unit assessment item is documented as delivered to, or judged by, a real external audience or practitioner, nor is any recognised professional genre (client brief, consultancy or policy advice, pitch) named anywhere in the extract, so Level 2 is not reached. The Thesis Workshop's own presentation evidence is homed to C5 (defence under scrutiny) rather than reused here, per the one-construct-one-home rule.",
+    "evidenceLines": [
+      "Written and oral communication of economic related ideas, theories and solutions to peers and the wider community;",
+      "Oral exam"
+    ]
+  },
+  "W2": {
+    "score": 0,
+    "rationale": "Every documented core-unit assessment item is an academic-genre task — mid-semester tests, end-of-semester examinations, class assignments/problem sets, and the Thesis Workshop's 'Written academic research paper' — with no situational or scenario framing (client brief, policy brief, consultancy report, business case) described anywhere in the extract's assessment tables. This matches Level 0's 'Core assessment is entirely decontextualised — exams, problem sets and essays with no situational framing' precisely; no contextualised/scenario-framed task is documented anywhere, so Level 1 is not reached.",
+    "evidenceLines": [
+      "Mid-semester test (equivalent to 1500 words)",
+      "Four class assignments, due every 3rd week (250 words each)",
+      "End-of-semester examination (equivalent to 2000 words)",
+      "Written academic research paper"
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "No placement, practicum, internship, live client project, community-based project, or own-practice work-based route is named anywhere in the course structure. Year 1's core is confined to Microeconomics, Macroeconomics, Advanced Econometric Techniques (and their sequels), Mathematics for Economists and World Economic History; Year 2's core is the Thesis Workshop plus six electives drawn from a closed list — none of which is a workplace placement. This matches Level 0: 'No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure.'",
+    "evidenceLines": [
+      "The first year of the Master of Commerce (Economics) consists of two core economics subjects and an econometrics subject in each semester."
+    ]
+  },
+  "workplace": 1,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The course structure documents a coherent, progressively sequenced economics/econometrics core: Year 1 is 'two core economics subjects and an econometrics subject in each semester,' with explicit prerequisite chaining — ECOM90014 states its aim is 'to take the skills developed in ECOM90005 Advanced Econometric Techniques and use them to explore the main techniques for analysing a variety of econometric problems' — and Microeconomics/Macroeconomics both continue into dedicated 'II' sequels, plus a compulsory Year 2 thesis sequence. This is an all-compulsory-core, staged-prerequisite specialist program.",
+      "evidenceLines": [
+        "The first year of the Master of Commerce (Economics) consists of two core economics subjects and an econometrics subject in each semester.",
+        "The aim of this subject is to take the skills developed in ECOM90005 Advanced Econometric Techniques and use them to explore the main techniques for analysing a variety of econometric problems.",
+        "Microeconomics II (ECON90012)",
+        "Macroeconomics II (ECON90014)"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The compulsory Thesis Workshop requires students to identify their own topic and complete an unsupervised piece of independent research under staged, accountable scrutiny — 'The preparation of the academic research paper is unsupervised but each student will be allocated an advisor to whom they can address questions' — assessed via a written paper, staged presentations and a hurdle requirement, involving real research uncertainty with accountability to the advisor and seminar audience.",
+      "evidenceLines": [
+        "The preparation of the academic research paper is unsupervised but each student will be allocated an advisor to whom they can address questions.",
+        "Identify and develop a suitable and feasible topic suitable for confirmation;",
+        "Hurdle requirement: attendance at a minimum of 75% of the subject's workshop sessions."
+      ]
+    }
+  },
+  "ambiguities": [
+    "The extract's first source block, nominally https://handbook.unimelb.edu.au/2026/courses/mc-comeco (the course's own Assessment page), instead returns content headed 'Artificial Intelligence in Organisations (MGMT 90267)Assessment' with an unrelated assessment table. That subject does not appear anywhere in the course-structure page's compulsory or elective subject lists for MC-COMECO. This looks like a capture/caching mismatch rather than genuine program content and was excluded entirely from scoring, including C3. RESOLVED 2026-09-01: the page was recaptured and now correctly names Master of Commerce (Economics); this note is retained as historical context.",
+    "C2 (Level 0 vs 1): 'Critically evaluate current econometric research' appears in ECOM90005/ECOM90014 outcomes without a documented assessment task that specifically requires appraisal of quality against criteria. Resolved to Level 1 because the outcome language is present as documented; either way the score would not exceed 1.",
+    "W1: the course-level generic skill naming an audience 'to peers and the wider community' gestures toward Level 2, but no specific core-unit assessment item is documented as delivered to or judged by an external audience/practitioner in a recognised professional genre, so the lower Level 1 was taken.",
+    "The Thesis Workshop's staged presentations could plausibly support both C5 (methodology defended under scrutiny) and W1 (professional communication to an audience). Scored in C5 alone per its viva/defence-specific anchor language, per the one-construct-one-home rule; W1 relies instead on ECON90056's independent oral-exam/class-presentation evidence.",
+    "C4 and C5 were demoted from 3 to 2 on 2026-08-30 verify-evidence review — see each item's rationale for the specific rule violation (C4: outcome-only evidence cannot underwrite Level 3; C5: unresolved ambiguity must resolve to the lower level).",
+    "Two evidenceLines were dropped during the 2026-08-30 verify-evidence review because they could not be quoted verbatim from source (the source text uses non-breaking spaces where the captured line uses regular spaces): W1's 'Review articles and class presentations due once during semester' and W3's 'Students must complete six elective subjects (three electives in semester 1 and three electives in semester 2) from the following list or graduate level subjects as approved by the Program Director:'. Neither item's score changed as a result — W1 and W3 both retain independent supporting evidence."
+  ],
+  "notScoreable": [
+    "mc-comeco course-overview/assessment page: the extract's source headed 'courses/mc-comeco' contains unrelated content — the assessment table for Artificial Intelligence in Organisations (MGMT90267) — so the program-level overview could not be verified and was not used as evidence for any item."
+  ],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

@@ -1,0 +1,135 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Meets level 2: DRAM90022 (Collaboration in Action) is a core unit assessing collaborative practice across disciplines via a graded group performance, and DRAM90012 (Collaborative Dramaturgies Project) assesses a graded group performance — 'a group project... interprofessional activity' per the level-2 anchor. Level 3 additionally requires assessed coordination across people AND tools/AI systems; no unit in the extract assesses coordination with digital or AI tools, so level 3 is not met.",
+    "evidenceLines": [
+      "The subject is delivered through a variety of practical workshops, intensives and collaborative projects with students from other theatre courses (e.g. actors, writers, dramaturgs, etc.) or from other disciplines such as dance, film, music theatre or production.",
+      "work constructively and flexibly with actors, writers, designers, dramaturgs and choreographers in the conception, creation, presentation and evaluation of new performance material;",
+      "Development and presentation of a 15 minute small group performance.",
+      "20-minute group performance"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Verification demoted this item from level 2 to level 1: the rationale attributed a 'Critical reflective journal (40%)' assessment to DRAM90012, but that item belongs to DRAM90022 ('Collaboration in Action'), whose own outcome is 'critically reflect on your own processes and outputs as a director' — not DRAM90012's 'evaluate the effectiveness of a collaborative dramaturgy'. With that misattribution corrected, no evidenceLine documents a criterion-referenced appraisal mechanism (peer review, structured critique, marking against exemplars, portfolio with standards) as the level-2 anchor requires — every quoted item is a reflective/process journal or self-critique outcome, matching the level-1 anchor's own language ('reflection or self-assessment'). The scoring-direction rule resolves this to the lower level.",
+    "evidenceLines": [
+      "engage in rigorous self-critique and self-reflection, confidently evaluating their own and others' creative processes and outcomes.",
+      "10-minute Scene Study Presentation and accompanying Process Journal (3000 words equivalent)",
+      "Rehearsed Reading Presentation (2000 words equivalent) and accompanying Process Journal (2000 words equivalent)"
+    ]
+  },
+  "C3": {
+    "score": 0,
+    "rationale": "Level 0: no AI or digital-tool content appears in any core unit outcome, generic-skills list, or assessment description across the full compulsory core. The closest adjacent terms — a 'digital work journal' and 'digital media' named as one of several script forms — are not AI/digital-literacy content and do not meet even the level-1 threshold of AI/digital tools as an elective or tool-operation topic.",
+    "evidenceLines": [
+      "200-point program of compulsory subjects",
+      "the ability to engage in independent and contextually-informed artistic research"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Meets level 3: DRAM90017 (Independent Directing Project) is the compulsory capstone in which 'each student will identify a performance project they will direct' and set up their own research question through creative practice — a self-scoped capstone/research project per the level-3 anchor, positioned by the course overview as the culmination of the program's independent second year.",
+    "evidenceLines": [
+      "The Independent Project is a major practice and research subject, drawing on and applying the knowledge and skills of directing gained throughout the course.",
+      "Through discussions in advance of the subject, each student will identify a performance project they will direct.",
+      "The course offers a balance of theory and practice organised to allow for a progression from the intensively-taught, skills-based, first year to a more independent, project-orientated second year which culminates in an independent, practice-led research performance project or written dissertation.",
+      "The student is asked to set up a research question to investigate and analyse through creative practice and through the identification and application of appropriate critical and theoretical frameworks."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Meets level 2: DRAM90010 (Performing Arts Research Methodologies) is a core methods unit whose graded 'Written assignment 2: Identifying research questions and methodologies appropriate to own practice' (40%) requires methodology selection, per the level-2 anchor. Level 3 requires a required substantial primary-evidence project with methodology 'defended under scrutiny (viva, defence, or staged supervised review)'; DRAM90017's proposal-thesis-presentation structure with ongoing supervision approaches this but the extract does not document a distinct scrutiny/defence mechanism beyond routine supervision, so — per the ambiguity/lower-level rule — scored at 2, not 3.",
+    "evidenceLines": [
+      "Written assignment 2: Identifying research questions and methodologies appropriate to own practice",
+      "enable students to develop a research methodology appropriate to their discipline and project.",
+      "The student is asked to set up a research question to investigate and analyse through creative practice and through the identification and application of appropriate critical and theoretical frameworks. Supervision will take place throughout the project.",
+      "Thesis, comprised of written dissertation and practice (including performance outcome if applicable). Written work/final thesis due: in the assessment period. Performance due: throughout the teaching period."
+    ]
+  },
+  "adaptiveness": 8,
+  "W1": {
+    "score": 2,
+    "rationale": "Meets level 2: DRAM90019's graded 'Industry Pitch Document' (30%) and DRAM90018's graded 'Project pitch presentation' and 'Written project management plan' (30% each) are recognised professional genres per the level-2 anchor. Level 3 requires at least one core assessment delivered to or judged by a real external audience or practitioner with conduct/accountability explicitly among the assessed criteria; DRAM90016's industry-partner interface points that way but the extract does not make conduct or accountability an explicit assessed criterion, so — per the ambiguity/lower-level rule — scored at 2, not 3.",
+    "evidenceLines": [
+      "Industry Pitch Document",
+      "15-minute Project pitch presentation",
+      "Written project management plan and journal workbook",
+      "Meetings, in person or virtually, with the industry partner;"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Verification demoted this item from level 3 to level 2: the level-3 'genuine constraint of practice' leg rested chiefly on DRAM90016 placement-overview lines ('direct opportunity ... industry setting', '72-hours of placement'), but workplace immersion is the W3 construct per the rubric's migration note ('actual workplace immersion scores in W3') and the 'one construct, one home' rule — DRAM90016 is already the sole evidentiary basis for this program's W3 score, and the overlap was not flagged as an ambiguity. Removing that leg leaves only DRAM90017's real-venue clause (La Mama or an external company) as constraint evidence — genuine but singular — which the scoring-direction rule resolves to the lower level. Authentic, practice-based tasks (pitch documents/presentations, capstone production) still form the assessment spine, satisfying level 2.",
+    "evidenceLines": [
+      "Industry Pitch Document",
+      "15-minute Project pitch presentation",
+      "The performance outcome can take place on campus with undergraduate actors, for a season of graduate work at La Mama, for a company that engages you to direct for them, or for an independent production.",
+      "Practical project task"
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Meets level 2: DRAM90016 (Industry Internships and Placements) is a compulsory core unit placing students in a real workplace setting with practitioner supervision and graded assessment (proposal, oral presentation, documentation, critical essay), per the level-2 anchor. Level 3 requires 'an extended placement or practicum, or a sequence of them'; at 72 hours and as the program's only placement subject, DRAM90016 also matches level 2's description of a placement that 'is short or stands alone,' so — per the ambiguity/lower-level rule — scored at 2, not 3.",
+    "evidenceLines": [
+      "Each student will have a supervisor who will support them through planning, preparation, and the writing-up phase following the placement.",
+      "An intensive placement within the performing arts industry;",
+      "Documentation of this placement through journal writing and archiving of relevant materials;"
+    ]
+  },
+  "workplace": 6,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program is an entirely compulsory, staged specialist core ('200-point program of compulsory subjects') with progressive disciplinary depth, moving from foundational directing methodologies and dramaturgy in year 1 (with explicit subject-to-subject progression) to independent capstone practice in year 2, per the G1 anchor.",
+      "evidenceLines": [
+        "200-point program of compulsory subjects",
+        "Directing Methodologies in semester 1 leads directly onto Applied Directing in semester 2."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "DRAM90017 (Independent Directing Project) and DRAM90016 (Industry Internships and Placements) are live, real-world capstone/placement subjects with genuine uncertainty and accountability, per the G2 anchor.",
+      "evidenceLines": [
+        "The Independent Project is a major practice and research subject, drawing on and applying the knowledge and skills of directing gained throughout the course."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2: DRAM90021's two Process Journals (accompanying the Scene Study Presentation and the Rehearsed Reading Presentation) could evidence 'strategy adjustment over time' (level 3), but the extract does not document comparison or justification of reliance decisions across them.",
+    "C5: DRAM90017's proposal-thesis-presentation structure with ongoing supervision could satisfy level 3's 'staged supervised review' route, but no distinct scrutiny/defence mechanism is documented beyond routine supervision — resolved to the lower level (2).",
+    "W1: DRAM90017's public-performance venues (e.g. La Mama, an engaging company) and DRAM90016's industry-partner written report could satisfy level 3's 'real external audience or practitioner,' but professional conduct/accountability is not documented as an explicit assessed criterion — resolved to the lower level (2).",
+    "W3: DRAM90016 is compulsory, supervised and assessed (level 2), but at 72 hours and as the program's sole placement subject it also matches level 2's description of a placement that 'is short or stands alone' rather than level 3's 'extended placement... or a sequence' — resolved to the lower level (2).",
+    "C2: verification demoted this item from level 2 to level 1 — the 'Critical reflective journal (40%)' evidence was misattributed to DRAM90012 when it belongs to DRAM90022; with that corrected, no evidenceLine documents a criterion-referenced appraisal mechanism, so resolved to level 1.",
+    "W2: verification demoted this item from level 3 to level 2 — the placement-derived 'genuine constraint of practice' evidence (DRAM90016) is the W3 construct under the 'one construct, one home' rule and is already the sole basis for this program's W3 score; with that evidence removed, only a single real-venue clause (DRAM90017) remains, resolved to the lower level.",
+    "W3: one evidenceLine ('The placement industry partner will provide a written report on conclusion to both the student and the placement coordinator.') was flagged non-verbatim during verification (the source extract has a non-breaking space where a plain space was quoted) and removed; the remaining three lines are verbatim and sufficient for the level-2 score.",
+    "G2: one evidenceLine ('The emphasis of the subject will be the entrepreneurial aspect of a director's craft.') was flagged non-verbatim during verification (the source extract uses a curly apostrophe) and removed; the remaining line is verbatim and sufficient for the PASS result."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-30"
+  }
+};
+
+export default record;

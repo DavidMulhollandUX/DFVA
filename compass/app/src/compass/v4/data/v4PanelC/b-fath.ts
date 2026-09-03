@@ -1,0 +1,141 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Meets Level 2: multiple core units assess collaborative/ensemble practice recurring across all three years (Studio Process participation, group performance and presentation tasks), satisfying 'At least one core unit assesses collaborative practice — group projects with individual accountability.' Level 3 additionally requires an assessment where coordination is required across people AND tools/AI systems (e.g. documented role and tool allocation); no such evidence appears anywhere in the extract, so the item is capped at Level 2.",
+    "evidenceLines": [
+      "Studio Process: Participation in and contribution to devising and rehearsals of directed performance outcomes",
+      "Season of ensemble devised public performances",
+      "3-minute group performance task",
+      "Group Presentation equivalent to 1600 words",
+      "20-minute Group Presentation",
+      "Group composition task incorporating prescribed text"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Reflective assessment recurs across core units and is graded for marks, going beyond Level 1's literal 'appears in outcomes... but no core unit assesses it.' However Level 2 requires specifically criterion-referenced appraisal of quality — peer review, structured critique, portfolio with standards, or marking against exemplars — none of which is documented; the reflections evidence developmental self-reflection on process and practice, not appraisal against stated criteria. Ambiguous between Level 1 and Level 2; resolved to the lower Level 1 per the scoring-direction rule.",
+    "evidenceLines": [
+      "Summative statement contextualising historical and personal artistic development",
+      "critically reflect on the development of performance and theatre-making skills.",
+      "1200-word reflection on the development of performance skills",
+      "reflect and evaluate personal artistic practice to international trends in devised theatre."
+    ]
+  },
+  "C3": {
+    "score": 0,
+    "rationale": "The only technology-related mention in the entire extract is the CREA10002 generic-skills line 'employ technological resources to present ideas about creative art practices' — vague, non-AI, and appears only in an unassessed generic-skills list rather than in an assessed core-unit outcome. No other digital or AI content appears anywhere in the program. Ambiguous between Level 0 ('No digital/AI content in any core unit or program-level outcome') and Level 1 ('AI or digital tools appear only... as tool operation/training'); resolved to the lower Level 0.",
+    "evidenceLines": [
+      "employ technological resources to present ideas about creative art practices."
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Demoted from Level 3 to Level 2 on verification. The Level 3 evidence originally cited — DRAM30034's intended-learning-outcome line 'adapt and apply theatre-making skills to autonomous creative tasks,' DRAM30036's intended-learning-outcome line 'research, conceive, develop, rehearse and present a new work for public performance,' and subject/course overview narrative ('the final extension of students as... independent artists,' 'encouraged to identify their own autonomous creative process') — are outcome and overview statements, not assessment-item descriptions, so they cannot support Level 3, which requires assessment evidence of a documented self-scoped capstone or an assessed identification of knowledge gaps plus a plan to close them. The program's actual graded items in these units — 'Public performance' (DRAM30036, 80 hrs, 30%), 'Performance task' (DRAM30034, 40%), and 'Workshop design' (DRAM30037) — do support Level 2's 'at least one core assessment requires application to novel or unfamiliar problems.'",
+    "evidenceLines": [
+      "Public performance",
+      "Performance task",
+      "Workshop design"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1's 'introductory methods unit; literature-review assessment' is documented: DRAM10032 and DRAM10034 both assess 'Academic literacy – using research materials' (10% each), and DRAM10032 requires completion of a 'library research skills module.' No core unit anywhere in the program requires methodology selection, primary data collection, or a defended methodology (viva/staged review) — the Level 2/3 anchors, which target empirical inquiry design, are not documented in this creative-practice program's extract.",
+    "evidenceLines": [
+      "Academic literacy – using research materials",
+      "Students must complete library research skills module by Week 6.",
+      "Academic literacy - using research materials"
+    ]
+  },
+  "adaptiveness": 6,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2 is clearly met: DRAM30038 requires an 'Individual or Group Pitch Presentation' where students 'develop and present a project pitch to industry standard,' plus 'Promotion and Production Tasks (Media release and Budget submission)'; DRAM30035 requires students to 'develop a project or residency proposal to industry standards' — recognised professional genres judged against practice-derived criteria. Public performances (DRAM20032, DRAM20034, DRAM30036) are delivered to a real external audience ('showcased to invited industry guests and a general public audience'), which would support Level 3's 'delivered to... a real external audience' clause, but Level 3 also requires 'professional conduct or accountability explicitly among the assessed criteria,' which the extract never documents for these performance assessments. Ambiguous between Level 2 and Level 3; resolved to the lower Level 2.",
+    "evidenceLines": [
+      "develop and present a project pitch to industry standard;",
+      "Individual or Group Pitch Presentation",
+      "Promotion and Production Tasks (Media release and Budget submission)",
+      "develop a project or residency proposal to industry standards;",
+      "These works are showcased to invited industry guests and a general public audience.",
+      "1-hour public performance"
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Authentic performance-making tasks form the program's assessment spine at every stage — DRAM20032's 'Season of ensemble devised public performances,' DRAM20034's public-festival '1-hour public performance,' and DRAM30036's culminating 'Public performance,' all reproducing the profession's own task (devise, rehearse, present original work) end to end, judged as the criterion situation demands. Genuine constraints of practice are also documented: DRAM30033's industry residency requires students to 'develop new performance work for specific audiences' with a real theatre-company host, and the course overview states the culminating works are 'showcased to invited industry guests and a general public audience' — a consequential external audience, satisfying Level 3.",
+    "evidenceLines": [
+      "The program culminates in the creation and performance of fully produced devised works in which students collaborate in pre-professional companies to conceive, develop, rehearse and present original works. These works are showcased to invited industry guests and a general public audience.",
+      "Season of ensemble devised public performances",
+      "In collaboration with a director(s), students will create an original work as part of a local festival for a general public audience.",
+      "1-hour public performance",
+      "Public performance",
+      "Students will complete 50-hours of industry residency, working with a local theatre company to develop new performance work for specific audiences."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Level 2 is met via DRAM30033's 'Professional Placement' (25% of the subject): 'Students will complete 50-hours of industry residency, working with a local theatre company,' with practitioner supervision ('The placement coordinator will monitor the student's progress... which may involve site visits, discussions with the industry partner') and accountability to the host ('The placement industry partner will provide a written report on conclusion'), plus a structured 'Reflective Essay' (25%). This is a single, standalone 50-hour placement appearing in only one core subject rather than 'an extended placement... or a sequence of them,' matching Level 2's 'short or stands alone' rather than Level 3's 'substantial required work-situated learning.'",
+    "evidenceLines": [
+      "Professional Placement",
+      "Students will complete 50-hours of industry residency, working with a local theatre company to develop new performance work for specific audiences.",
+      "Prior to undertaking the placement students are made aware of all placement details and expectations. The placement coordinator will monitor the student's progress during the placement which may involve site visits, discussions with the industry partner, verbal and/or written progress reports.",
+      "The placement industry partner will provide a written report on conclusion to both the student and the placement coordinator. All assessment is conducted by the subject coordinator.",
+      "Reflective Essay"
+    ]
+  },
+  "workplace": 7,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The core is an almost-entirely compulsory specialist sequence ('250 credit points of Compulsory subjects' of 300 total) with a staged prerequisite chain: 'Completion of all Level 1 Compulsory subjects before proceeding to the next year level's Compulsory subjects,' 'Completion of all Level 2 Compulsory subjects before proceeding to the next year level's Compulsory subjects,' and a note that 'Compulsory subjects in this program have prerequisites.' Technical/methodological depth progresses explicitly across Theatre Practice 1→4 and Theatre Skills 1→4.",
+      "evidenceLines": [
+        "250 credit points of Compulsory subjects",
+        "Note: Compulsory subjects in this program have prerequisites. Refer to individual subject entries.",
+        "Completion of all Level 1 Compulsory subjects before proceeding to the next year level's Compulsory subjects",
+        "Completion of all Level 2 Compulsory subjects before proceeding to the next year level's Compulsory subjects"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Core assessment includes live, self-originated work with real uncertainty and accountability: DRAM30036 requires students to 'research, conceive, develop, rehearse and present a new work for public performance,' and DRAM30033's industry residency requires students to 'develop new performance work for specific audiences' for a real theatre-company host, with works subsequently 'showcased to invited industry guests and a general public audience' — live, consequential outcomes rather than recall or scripted responses.",
+      "evidenceLines": [
+        "research, conceive, develop, rehearse and present a new work for public performance;",
+        "Students will complete 50-hours of industry residency, working with a local theatre company to develop new performance work for specific audiences.",
+        "These works are showcased to invited industry guests and a general public audience."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2: reflective self-assessment is assessed for marks across multiple core units, which exceeds Level 1's literal unassessed framing, but no peer review, structured critique, portfolio-with-standards or exemplar-marking is documented, so Level 2's criterion-referenced-appraisal anchor is not clearly met; resolved to the lower Level 1.",
+    "C3: the single 'employ technological resources to present ideas about creative art practices' line (CREA10002 generic skills) sits ambiguously between Level 0 ('no digital/AI content') and Level 1 ('tool operation/training'), being vague, non-AI and unassessed; resolved to the lower Level 0.",
+    "C4: demoted on verification from Level 3 to Level 2 — the originally cited evidence (DRAM30034 and DRAM30036 intended-learning-outcome lines, plus course/subject overview narrative) is outcome and overview text, not assessment-item description, and does not satisfy Level 3's requirement for a documented self-scoped capstone or assessed knowledge-gap plan in the assessment itself. The unit's actual graded items ('Public performance,' 'Performance task,' 'Workshop design') support Level 2's application-to-novel-problems anchor instead.",
+    "W1: public performances are delivered to 'invited industry guests and a general public audience' (matching Level 3's external-audience clause), but the extract never documents that professional conduct or accountability is explicitly among the assessed criteria for those performances; resolved to the lower Level 2."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-29"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

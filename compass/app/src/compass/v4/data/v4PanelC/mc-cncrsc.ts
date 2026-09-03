@@ -1,0 +1,132 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' The course-level outcome names collaboration explicitly, and every core subject repeats the same generic-skills line, but no core assessment item (short answer, presentation, hurdle written assignment, discussion-board participation) is described as a group project with individual accountability, client/stakeholder work, or interprofessional activity — the Level 2 anchor's own named examples. Ambiguity: discussion-board participation is graded (10% in MEDI90084 and elsewhere) and borders on collaborative practice, but the extract documents only discourse contribution, not team accountability, so the lower level is taken.",
+    "evidenceLines": [
+      "Demonstrate the importance of communicating and working collaboratively with other cancer care professionals in multidisciplinary teams",
+      "Skills in working collaboratively with individuals, groups and organisations",
+      "Participation in Discussion Board discourse; Week to week"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: 'Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars.' The core subject Cancer Research (MEDI90086) assesses a 'Presentation via web platform (1000 word equivalent), with peer review' (20% weighting), matching the anchor's own named example directly. No Level 3 evidence — a documented reliance decision on a tool, source or collaborator, or evidenced strategy adjustment — appears anywhere in the extract.",
+    "evidenceLines": [
+      "Presentation via web platform (1000 word equivalent), with peer review"
+    ]
+  },
+  "C3": {
+    "score": 0,
+    "rationale": "Level 0: 'No digital/AI content in any core unit or program-level outcome.' The extract contains no mention of AI, artificial intelligence, or digital tools anywhere in any subject. The nearest phrase, the course-level outcome naming 'emerging technologies and techniques', names clinical/diagnostic technology (imaging, molecular/genomic tests, per the Cancer Diagnostics elective), not digital or AI tools, so per R1 it does not raise the score above 0.",
+    "evidenceLines": [
+      "Identify and evaluate the emerging technologies and techniques in research and clinical care"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: 'a self-scoped capstone or research project.' The core Research Capstone sequence is exactly this: Cancer Research (MEDI90086, core) has students develop 'their own hypothetical cancer research project', explicitly framed as 'an opportunity to explore a research topic of their choosing' that feeds the capstone; MEDI90098 then supports 'the research, design and presentation of a project proposal and substantial literature review that will form the basis of their research project', assessed via a graded literature review (80%) and a hurdle supervisory agreement ('Must be completed'); MEDI90099 assesses the completed project via a 'Final monograph' (80%). This is core, required, staged, and assessment-backed, satisfying R2.",
+    "evidenceLines": [
+      "For students undertaking the full Masters course, this is an opportunity to explore a research topic of their choosing, which may inform their Research Thesis Capstone (MEDI90098/MEDI90099) project.",
+      "In conjunction with Research Capstone Part 2 (MEDI90099), this subject builds on the Cancer Research subject (MEDI90086) by supporting students with the research, design and presentation of a project proposal and substantial literature review that will form the basis of their research project.",
+      "Independently manage a research project",
+      "Supervisory agreement and project summary",
+      "Hurdle requirement: Must be completed.",
+      "Final monograph"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "DEMOTED from 2 to 1 on adversarial verification. The Level 2 rejection reasoning equally disqualifies Level 2 itself: the original rationale ruled out Level 3 by observing that the extract never documents students collecting primary data anywhere, but Level 2's own anchor also requires 'design and conduct an inquiry with methodology selection and data collection, assessed' — and data collection is exactly what is undocumented. The only cited core assessment evidence, Cancer Research's (MEDI90086) hurdle-gated 'Application style written proposal', documents design of a project explicitly framed as 'hypothetical', not conduct or data collection. The graded deliverable that does exist for the capstone stage — a 'Structured literature review' (80%, MEDI90098) — matches the Level 1 anchor verbatim ('literature-review assessment'). Per the ambiguity rule (take the lower level when the same evidence fails to clear the level claimed), this resolves to Level 1: an introductory methods component (methodology and study-design coverage in MEDI90086) plus literature-review assessment (MEDI90098's 80% structured literature review), with no documented data collection.",
+    "evidenceLines": [
+      "The Cancer Research subject will provide students with an ability to apply research methodologies in the context of cancer.",
+      "There will be an introduction to a variety of methods for investigation including experimental and clinical trial design, methodology for population-based studies, ethical considerations, and statistical analyses.",
+      "In the Cancer Research subject, students will be tasked with developing their own hypothetical cancer research project as part of the assessment portfolio.",
+      "Application style written proposal",
+      "Hurdle requirement: Students much achieve a mark of at least 50% for this task to pass the hurdle requirement.",
+      "Conduct research within a translational/clinical environment",
+      "This subject enables students to engage in the implementation, analysis and communication of a research project that demonstrates their advanced theoretical knowledge and critical reflection skills."
+    ]
+  },
+  "adaptiveness": 7,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1: 'core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team.' The course outcome 'Demonstrate mastery in written and oral communication' names the capability; core units MEDI90084 and MEDI90099 each assess a spoken presentation ('Presentation via web platform', 'Oral Presentation - Project update'), but neither is described as a recognised professional genre (client brief, clinical handover, pitch) or as judged by an audience beyond the teaching team. Ambiguity: MEDI90099's project-update presentation occurs while students are 'closely trained and supervised by leading experts in oncology', which could constitute a practitioner audience (Level 2), but the extract never states those experts judge the presentation against professional criteria, so the lower level is taken.",
+    "evidenceLines": [
+      "Demonstrate mastery in written and oral communication",
+      "Presentation via web platform (1000 word equivalent); Due end of week 6",
+      "Oral Presentation - Project update",
+      "During this project, students will have the unique opportunity to be closely trained and supervised by leading experts in oncology."
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1: 'Contextualised or scenario-framed tasks appear..., but the artefact produced and the criteria applied remain academic.' Core assessment in MEDI90084 (short answer, hurdle written assignment) and MEDI90086 (an 'Application style written proposal' for a project explicitly framed as 'hypothetical') is scenario-framed but graded in academic form (word-count based, hurdle-marked) with no documented practice-derived criteria. Ambiguity: the 'Application style' proposal genre resembles a real grant/ethics-application artefact — the Level 2 anchor's 'artefact a practitioner would produce' — but its explicit 'hypothetical' framing and undocumented judging criteria keep the score at the lower level. One evidence line below carries a non-breaking space that fails a byte-exact verbatim match; the remaining three lines still support Level 1, so the score is unaffected.",
+    "evidenceLines": [
+      "Short answer assessment; Due end of week 5",
+      "Written assignment",
+      "Hurdle requirement: Students must achieve a minimum mark of 50% for this assignment to pass the subject.",
+      "Application style written proposal"
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0: 'No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure.' No core or elective subject is described as a placement, practicum, live client project, or community-based project, and no core assessment documents activity in a student's own professional practice with real recipients and a documented outcome measure (the in-practice route). The Research Capstone's 'translational/clinical environment' language and supervision by 'leading experts in oncology' were considered for W3, but per 'one construct, one home' that evidence is already scored under C4 (self-scoped capstone) and C5 (inquiry methodology): it names a research environment, not a workplace placement with host accountability, so it does not additionally support W3.",
+    "evidenceLines": [
+      "Conduct research within a translational/clinical environment",
+      "During this project, students will have the unique opportunity to be closely trained and supervised by leading experts in oncology."
+    ]
+  },
+  "workplace": 2,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS: 'an all-compulsory specialist core...or a staged prerequisite chain.' All 4 core subjects are cancer-science-specific (Foundations of Cancer, Cancer Research, Research Capstone Part 1 and 2), and the handbook documents an explicit prerequisite chain — 'MEDI90086 Must be taken before Research Thesis Capstone subjects' — giving foundations-then-methodology-then-capstone progressive depth.",
+      "evidenceLines": [
+        "Students undertaking the Master of Cancer Sciences must complete the following 4 mandatory (core) subjects:",
+        "Note: MEDI90086 Must be taken before Research Thesis Capstone subjects"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS: 'capstones...with real uncertainty and accountability.' The core Research Capstone requires students to 'Formulate testable hypotheses, aims and experimental design' and 'Independently manage a research project', gated by a hurdle 'Supervisory agreement and project summary' that 'Must be completed' — a capstone with genuine uncertainty and accountability rather than recall or scripted responses.",
+      "evidenceLines": [
+        "Formulate testable hypotheses, aims and experimental design",
+        "Independently manage a research project",
+        "Supervisory agreement and project summary",
+        "Hurdle requirement: Must be completed."
+      ]
+    }
+  },
+  "ambiguities": [
+    "C5 (post-verification): the submitted score of 2 was DEMOTED to 1. The original rationale's own reasoning for rejecting Level 3 — that data collection is never documented in the extract — equally disqualifies Level 2, which also requires assessed data collection. The only core deliverable actually named for the capstone stage is a 'Structured literature review', matching the Level 1 anchor verbatim. Resolved to Level 1 under the never-resolve-upward rule.",
+    "W2: one evidence line ('Short answer assessment; Due end of week 5') contains a non-breaking space (U+00A0) between 'week' and '5' in the source extract rather than a plain space, so it fails a byte-exact verbatim match. This does not change the score — the remaining three evidence lines still support Level 1 — so the item was kept, not dropped."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

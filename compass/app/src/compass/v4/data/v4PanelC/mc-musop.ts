@@ -1,0 +1,132 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1, not 2: collaboration/teamwork appears in the course-level generic skill 'work as part of a team to achieve a common goal', but no assessed item explicitly grades collaborative practice as such — the graded 'Final performance' and 'Respond to and apply set tasks during performance rehearsal as directed' assess the individual student's performance within an 'opera production' whose overview describes 'ensemble work', without naming a group-project, client/stakeholder, or interprofessional structure as the assessed criterion. Ambiguous between level 1 ('appears in learning outcomes, but no core unit assesses it') and level 2 ('at least one core unit assesses collaborative practice'); resolved at the lower level per the ambiguity rule. Level 3 (coordinating people AND tools/AI systems) has no supporting evidence anywhere in the extract.",
+    "evidenceLines": [
+      "work as part of a team to achieve a common goal;",
+      "vocal students will strengthen and consolidate a breadth of skills and knowledge regarding stylistic vocal delivery, stagecraft and movement training, role development and characterisation, and ensemble work.",
+      "Final performance",
+      "75 hours (of work required)"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: 'Core assessment includes criterion-referenced appraisal of quality: peer review'. MUSI90234 (Core Skills in Opera 3, compulsory) assesses 'Constructive contributions to peer-review discussion of student workshops... Minimum of 3 posts' worth 10% of the unit — a genuinely assessed peer-review item, satisfying R2's assessment-evidence requirement (the parallel ILO language 'constructive contribution to peer-review of student work' alone would not have been enough). Not level 3: no assessment anywhere requires students to document or justify reliance on, or override of, a tool, source or collaborator, or to evidence strategy adjustment over time.",
+    "evidenceLines": [
+      "Constructive contributions to peer- review discussion of student workshops in an online discussion board. Minimum of 3 posts.",
+      "1000 words (total)"
+    ]
+  },
+  "C3": {
+    "score": 0,
+    "rationale": "Level 0: 'No digital/AI content in any core unit or program-level outcome.' The only digital-adjacent text in the whole extract is the generic skill 'communicate effectively in oral, written and digital forms', which names a communication modality, not a digital tool, AI capability, limitation, ethics or governance topic — it does not even clear level 1's 'tool operation/training' floor. None of the seven compulsory subjects' overviews, ILOs, generic skills or assessment items reference digital tools or AI.",
+    "evidenceLines": [
+      "communicate effectively in oral, written and digital forms;"
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Demoted from 2 to 1 on verification: the case-variation argument for level 2 depends on 'Final performance' recurring across differently-contexted Practicums, but that quote is absent from this item's own evidenceLines. As documented, the array shows only unassessed Overview prose, an unassessed intended-learning-outcome, and one unrelated assessed item (the MUSI90234 workshop plan, which doesn't itself vary by production or language). As cited, the evidence does not establish assessed case-variation, so it supports only level 1. Not level 3: no core assessment is documented as a self-scoped capstone or as requiring students to identify their own knowledge gaps with a plan to close them.",
+    "evidenceLines": [
+      "This practicum is the second of a suite of four subjects that focus on different productions, in different languages, which take place in a range of contexts.",
+      "develop and facilitate knowledge transfer in the form of a workshop intended for an educational and/or outreach context;",
+      "Submission of plan for a 20-minute opera workshop"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Demoted from 0 to 1 on verification: rule R2 states that a capability appearing only in learning outcomes, and never assessed, scores 1 uniformly, not 0. This item's only supporting text — the program-level outcome 'appraise and implement research principles and methods applicable to performing arts research...' — is outcome-level and is never assessed in any compulsory unit, which is exactly the fact pattern R2 assigns to level 1.",
+    "evidenceLines": [
+      "appraise and implement research principles and methods applicable to performing arts research as well as skills in critical reflection, writing and artistic communication;"
+    ]
+  },
+  "adaptiveness": 5,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2: 'At least one core assessment requires a recognised professional genre... judged against criteria drawn from professional practice.' The 'Final performance' item, repeated across all four compulsory Practicum subjects at 40% weight each, is a staged operatic performance — precisely the professional genre named in the course ILO 'prepare for, and perform in, staged operatic productions at a professional level'. Not level 3: the extract does not establish a real external audience or practitioner panel beyond the teaching team (Practicums 1-2 name only 'in-house University production'), nor does any assessment description name professional conduct or accountability as a judged criterion.",
+    "evidenceLines": [
+      "prepare for, and perform in, staged operatic productions at a professional level;",
+      "Final performance",
+      "communicate effectively in oral, written and digital forms;"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Demoted from 3 to 2 on verification: the level-3 'genuine constraint of practice' claim partly rested on subject-hour figures, which are standard workload accounting, not a professional resource/time limit as the anchor intends. The remaining leg — 'Respond to and apply set tasks during performance rehearsal as directed' as evidence of the profession's own performance standards — is plausible but contestable, since live-rehearsal responsiveness is standard supervised-performance pedagogy generally, not a documented marker unique to professional practice. Per the scoring-direction rule, this genuine ambiguity between level 2 and level 3 resolves to level 2. The recurring assessment spine — each of the four compulsory Practicums grading 'Respond to and apply set tasks during performance rehearsal as directed' (20%), 'Final studio run-through of opera production' (25%) and 'Final performance' (40%) — still clears level 2.",
+    "evidenceLines": [
+      "Respond to and apply set tasks during performance rehearsal as directed",
+      "Final performance",
+      "Through either vocational placement in a professional opera company or an in-house University production, vocal students will strengthen and consolidate a breadth of skills and knowledge regarding stylistic vocal delivery, stagecraft and movement training, role development and characterisation, and ensemble work.",
+      "Students undertaking this subject will work on a large-scale capstone project, through rehearsals and culminating in a performance, in order to develop, consolidate and apply the individual skills required of principal in an opera production."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1, not 2: real-workplace work-situated learning is named only for Practicums 3-4, and only as one of two alternative delivery modes — 'Through either vocational placement in a professional opera company or an in-house University production' — not confirmed as a required route, and no assessment item separately documents practitioner supervision or accountability to the host distinct from the in-house route (the graded items are identical either way). Ambiguous between level 1 ('exists only as an... elective... route') and level 2 ('a core unit places students in a real workplace... but it is short or stands alone'); resolved at the lower level. Simulation/in-house production is explicitly out of scope for W3 per the construct definition.",
+    "evidenceLines": [
+      "Through either vocational placement in a professional opera company or an in-house University production, vocal students will strengthen and consolidate a breadth of skills and knowledge regarding stylistic vocal delivery, stagecraft and movement training, role development and characterisation, and ensemble work.",
+      "Through either vocational placement in a professional opera company or an in-house University production, repetiteur students will strengthen and consolidate their skills in conducting, coaching and managing, as well as their knowledge and understandings of the rehearsal process, as applicable to all aspects of the repetiteurs' craft."
+    ]
+  },
+  "workplace": 5,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS: 'an all-compulsory specialist core... or staged prerequisite chain.' 150 of 200 points are compulsory, all specialist opera-performance subjects, and the Practicum ILOs document explicit staged progression in depth — 'foundational' (Practicum 1) -> 'confident and competent' (Practicum 2) -> 'professional' (Practicum 3) -> 'professional and industry ready level' (Practicum 4) — mirrored by the Core Skills in Opera 1-3 sequence.",
+      "evidenceLines": [
+        "150 points of compulsory subjects",
+        "demonstrate foundational understanding of appropriate stylistic vocal performance;",
+        "demonstrate confident and competent understanding of appropriate stylistic vocal performance;",
+        "demonstrate professional understanding of appropriate stylistic vocal performance;",
+        "demonstrate professional and industry ready level understanding of appropriate stylistic vocal performance;"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS: 'simulations/capstones/live projects with real uncertainty and accountability.' Every core Practicum requires students to 'Respond to and apply set tasks during performance rehearsal as directed' and culminates in a graded live 'Final performance'; Practicum 4 is explicitly framed as 'a large-scale capstone project... skills required of principal in an opera production'. These are live performance productions carrying real performance uncertainty and accountability, not recall or scripted responses.",
+      "evidenceLines": [
+        "Respond to and apply set tasks during performance rehearsal as directed",
+        "Students undertaking this subject will work on a large-scale capstone project, through rehearsals and culminating in a performance, in order to develop, consolidate and apply the individual skills required of principal in an opera production.",
+        "Final performance"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1 (1 vs 2): 'ensemble work' and participation in an 'opera production' are described in subject overviews, but the graded assessment items (Final performance, studio run-through, respond to set tasks) do not explicitly name collaborative practice, group-project structure, or client/stakeholder work as an assessed criterion. Resolved at the lower level, C1=1.",
+    "C4 (1 vs 2, on verification): MUSI90234's 'Submission of plan for a 20-minute opera workshop' plus 'Delivery of 20-minute opera workshop in class to peers', and MUSI90172's framing as a 'capstone', gesture toward level 2's case-variation route, but the 'Final performance' quote establishing cross-Practicum case variation was found absent from this item's own cited evidence. As documented the evidence supports only level 1; demoted from 2 to 1.",
+    "W1 (2 vs 3): the assessed 'Final performance' is a staged operatic production, but the extract does not state whether the Practicum 1-2 performances (explicitly 'in-house University production') reach a real external/practitioner audience, nor does any assessment description name professional conduct or accountability as a judged criterion. Resolved at the lower level, W1=2.",
+    "W2 (2 vs 3, on verification): the level-3 constraint-of-practice claim partly rested on subject-hour workload figures (not a professional resource/time constraint) and partly on live-rehearsal responsiveness, which is plausible but contestable as a marker unique to professional practice rather than supervised-performance pedagogy generally. Per the scoring-direction rule, resolved at the lower level; demoted from 3 to 2.",
+    "W3 (1 vs 2): 'vocational placement in a professional opera company' appears only for Practicum 3-4 and only as one of two alternative delivery modes ('either... or an in-house University production'), with no assessment items distinguishing the placement route from the in-house route. Resolved at the lower level, W3=1."
+  ],
+  "notScoreable": [
+    "The 50 elective credit points per specialisation (Singer or Repetiteur, named on the course-structure page) are not detailed in the extract — the elective subjects themselves and their overviews/assessment are absent. Any AI/digital-literacy (C3) or research-methods (C5) content that might exist among the electives could not be scored and was not assumed; C3 and C5 are scored on the fully-documented 150-point compulsory core alone.",
+    "The extract's first SOURCE block (course-overview page) contains content for an unrelated program, Master of Medical Technology Innovation (MC-MTI) — a capture mismatch. Excluded from scoring; only the correctly-labelled Master of Music (Opera Performance) content was used. Fix by recapturing, not by editing the evidence."
+  ],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-30"
+    },
+    "mechanical": true,
+    "date": "2026-08-30"
+  }
+};
+
+export default record;

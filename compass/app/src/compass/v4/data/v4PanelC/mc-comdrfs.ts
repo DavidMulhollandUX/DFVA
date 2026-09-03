@@ -1,0 +1,130 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Exceeds level 1 (teamwork appears only in outcomes) because a core unit, COMP90051, assesses collaborative practice with individual accountability (a hurdle-graded group project), and FNCE90070 adds recurring assessed group presentations and peer review — satisfying level 2's 'at least one core unit assesses collaborative practice.' Does not reach level 3: no evidence anywhere in the extract of an assessment requiring coordination across people AND tools/AI systems (documented role/tool allocation, or division of work between people and systems being itself assessed) — that clause of the level-3 anchor is entirely absent, not merely weak.",
+    "evidenceLines": [
+      "Project- Group project.",
+      "Hurdle requirement: Yes, To pass the subject, students must obtain a combined mark of at least 25/50 for the projects.",
+      "Article presentations (in groups, 20 minutes, fortnightly)",
+      "Learning matrix assignment (in groups, 10 minutes, fortnightly)"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Exceeds level 1 because FNCE90070, a core subject, assesses criterion-referenced peer review directly ('Reviews of peers' draft research proposal', weighted 10%, plus a graded peer-feedback survey) — matching level 2's 'structured critique.' Does not reach level 3: no evidence of assessment requiring students to document and justify reliance/override decisions on a tool, source or collaborator, or to defend judgements of AI-output quality — the extract contains no AI-reliance content at all.",
+    "evidenceLines": [
+      "Reviews of peers' draft research proposal (2 x 400 words reviews)",
+      "Peer-feedback on research proposal ( 2 x 200 word feedback survey)"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Two core subjects (COMP90049, COMP90051) carry substantial machine-learning content, so this exceeds level 0. But per the instrument's own migration note for this item ('tool-operation content caps at level 1... per Lodge et al. Principle 6 warning against skills of limited future utility'), and because the extract documents technique/implementation only (algorithms, models, hands-on application) with no discussion anywhere of AI limitations, ethics, bias, accountability or governance, this caps at level 1 regardless of the subjects being core rather than elective. Level 2 requires limitations/ethics content to be addressed and assessed, which is entirely absent.",
+    "evidenceLines": [
+      "Machine Learning is the study of making accurate, computationally efficient, interpretable and robust inferences from data, often drawing on principles from statistics.",
+      "This subject is intended to introduce graduate students to machine learning though a mixture of theoretical methods and hands-on practical experience in applying those methods to real-world problems."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Exceeds level 2 (novel-problem application, already satisfied by e.g. the Econometrics capstone) because the program documents structured progression toward independent learning via the required, supervised, two-part DRFS Research Report, in which students develop their own research question under an allocated adviser — matching level 3's anchor 'a self-scoped capstone or research project' precisely, and it is assessed (proposal, progress report, final report), satisfying R2.",
+    "evidenceLines": [
+      "Students will be required to conduct and present the results of an independent piece of research in decision, risk and financial sciences.",
+      "Develop a research question in the area of decision-making in the face of uncertainty and complexity;",
+      "Submission of an electronic copy of the Research Report by 4 pm, Friday in Week 12."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "The DRFS Research Report is a required (not optional) primary-evidence-generating project — course structure lists '2-part research report (25 points)' as a fixed compulsory component, not an elective route. Methodology is defended under staged supervised review: a written proposal, an oral progress report (Part 1) and a seminar presentation (Part 2), with the final Research Report itself examined. This matches level 3's anchor directly; FNCE90070's peer-reviewed, hurdle-graded research proposal is corroborating evidence of the same construct.",
+    "evidenceLines": [
+      "Students will be required to conduct and present the results of an independent piece of research in decision, risk and financial sciences.",
+      "Progress report (oral presentation)",
+      "A seminar presentation",
+      "The Research Report itself is examined. The Research Report involves a two-semester program of study (completed over two semesters). The Research Report is supervised and each student will be allocated an adviser.",
+      "Hurdle requirement: Students need to achieve a passing grade (of 50%) on the final research proposal to pass the subject."
+    ]
+  },
+  "adaptiveness": 11,
+  "W1": {
+    "score": 1,
+    "rationale": "Exceeds level 0 because spoken communication is assessed (oral progress report, seminar presentation, group article presentations), matching level 1's 'core assessment adds presentation to peers/staff.' Does not reach level 2: every documented audience is the teaching team, adviser or peer group — no client brief, consultancy/policy advice, practitioner panel or public-facing artefact appears anywhere, and course-level outcomes describe communication as scholarly rather than professional-genre, consistent with Barrie's warning (R2/R33) against crediting stated attributes.",
+    "evidenceLines": [
+      "Progress report (oral presentation)",
+      "A seminar presentation",
+      "Communicate the results of their research in scholarly fashion.",
+      "Effectively communicate the results both orally and in writing."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Demoted from level 3 to level 2 on verification. The level-3 'genuine constraint of practice' clause originally rested on two citations that do not survive scrutiny: the lab-rotation 'day-to-day operation of a laboratory' quote is reserved to W3 by the instrument's own migration note and is identically cited as W3's core evidence, a direct violation of the one-construct-one-home rule; and 'human research ethics approval' is a course-level learning-outcomes-page bullet never tied to a graded assessment criterion in the extract, i.e. outcome-only evidence that R2 caps below level 3. With both discounted, the remaining evidence — the Econometrics capstone (real-world data collection, formal write-up) and the required design and implementation of an experimental protocol with human participants — supports level 2's authentic, criterion-matched end-to-end tasks recurring as the program's assessment spine, but not level 3's added constraint-of-practice requirement.",
+    "evidenceLines": [
+      "Methods are consolidated through a Capstone project involving hypothesis-formation, real-world data collection, and writing-up the results in a formal report.",
+      "Design and implement an appropriate experimental protocol with human participants;"
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Exceeds level 1 because the two lab rotations are a required core component (not elective/extracurricular) and are assessed via graded written reports, matching level 2's 'core unit places students in a real... professional-community setting... assessment.' AMBIGUOUS between level 2 and level 3: two required rotations could be read as level 3's 'a sequence of them,' but the extract never states practitioner supervision of the rotation itself (unlike the Research Report, which explicitly names an allocated adviser), never documents accountability to the host lab, and the assessed reports describe the visited lab's own research questions/methods rather than the student's structured reflection on their own professional practice. Per the scoring rule, ambiguity is resolved to the lower level.",
+    "evidenceLines": [
+      "Students are to participate in the day-to-day operation of a laboratory working on experiments related to human decision-making, actively engaging in its tasks and projects, in order to acquire on-the-job experience with the practical aspects of designing, managing and analysing experiments, become accustomed with team work, and to help create science.",
+      "Written report on the research questions currently being investigated in the lab that is being visited, and positioning of the research questions within the relevant literature.",
+      "Written report on the research methods being used by the lab being visited to address the research questions described in the first report (see above).",
+      "2 lab rotations (25 points)"
+    ]
+  },
+  "workplace": 5,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Documents an all-compulsory, coherent specialist core (6 core subjects spanning decision science, ML, econometrics, microeconomics and psychology/neuroscience) with progressive depth: Year 1 core, Year 2 restricted electives/lab rotations, culminating in a supervised research report, gated by explicit progression thresholds — satisfying the 'staged prerequisite chain' / 'all-compulsory specialist core' PASS condition.",
+      "evidenceLines": [
+        "The Master of Commerce (Decision, Risk and Financial Sciences) consists of 16 subjects:",
+        "6 core subjects (75 points)",
+        "An average of no less than 75% overall for the course overall; and",
+        "an average of no less than 80% in FNCE90071 DRFS Research Report Part 1 and FNCE90072 DRFS Research Report Part 2."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Multiple core assessments require defended decisions under real uncertainty with accountability: the Econometrics capstone requires real-world data collection and a defended written report; FNCE90070 requires a peer-reviewed, hurdle-graded research proposal; and the DRFS Research Report requires an independent, supervised, examined research project — none are recall or scripted-response tasks.",
+      "evidenceLines": [
+        "Methods are consolidated through a Capstone project involving hypothesis-formation, real-world data collection, and writing-up the results in a formal report.",
+        "Hurdle requirement: Students need to achieve a passing grade (of 50%) on the final research proposal to pass the subject.",
+        "Students will be required to conduct and present the results of an independent piece of research in decision, risk and financial sciences."
+      ]
+    }
+  },
+  "ambiguities": [
+    "W3: two required lab rotations satisfy level 2's professional-community-setting-plus-assessment clause and could be read as level 3's 'sequence of them', but the extract lacks explicit evidence of practitioner supervision, host accountability, or structured reflection on the student's own professional practice (as distinct from describing the visited lab's research) — resolved to the lower level (2) per the scoring rule. Recaptured on 2026-09-01: FNCE90093's own assessment page had been captured with unrelated content and was previously excluded (see remediated capture note below); its correct content is byte-identical in structure to FNCE90092's (already-cited) assessment — two written reports on the visited lab's research questions and methods, 40%/60%, no supervision or host-accountability language in either. This corroborates rather than resolves the ambiguity: both rotations are now directly evidenced, and neither documents practitioner supervision, so the level-2 resolution stands unchanged."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-09-01"
+    },
+    "mechanical": true,
+    "date": "2026-09-01"
+  }
+};
+
+export default record;

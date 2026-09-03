@@ -1,0 +1,117 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 is met: the Community Justice Project capstone route assesses collaborative practice with community agencies - group presentation assessed at 10%, an outcome requiring collaborative responses, and a generic skill naming team work with partners. Level 3 is not met: no assessment coordinates work across people AND tools/AI systems, and collaboration does not recur across the compulsory core (CRIM90011/18/19 are individually assessed). Ambiguity: all collaborative evidence sits in one of three capstone routes rather than a subject every student takes; resolved to the level its evidence supports and noted as route-dependent.",
+    "evidenceLines": [
+      "Develop collaborative and practical responses to community justice problems",
+      "Group presentation",
+      "Ability to work in teams and collaboratively with partners"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 is met: CRIM90043 carries 'Independent peer review of literature review' as a hurdle requirement - criterion-referenced appraisal of peers' work - and both the Internship (Reflective Essay, hurdle-must-pass) and the Community Justice Project (Reflexive essay, 20%) assess structured reflection. Level 3 is not met: no assessment asks students to document or justify reliance decisions on tools, sources or collaborators; nothing in the extract names AI output quality or strategy adjustment.",
+    "evidenceLines": [
+      "Hurdle requirement: Independent peer review of literature review",
+      "Reflexive essay",
+      "Reflective Essay"
+    ]
+  },
+  "C3": {
+    "score": 0,
+    "rationale": "Level 0 anchor affirmatively satisfied: across the course overview, the attributes/outcomes page, the full elective list and every captured core-subject page there is no mention of artificial intelligence, algorithms, machine learning, digital tools, cybercrime or data governance. The only 'data' mentions are generic research skills ('collect and analyse suitable data' as a stated generic skill, and the internship's data collection), which are neither digital nor AI content. The closest named offerings are theory/critical subjects with no technology component.",
+    "evidenceLines": [
+      "The Master of Criminology provides an advanced understanding of crime, harm and best-practice justice innovation.",
+      "Demonstrate an advanced understanding of contemporary criminological theory, research and industry practice",
+      "Critically analyse criminological theory, research and industry practice"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2 is met: the Community Justice Project requires applying criminological knowledge to real-life socio-legal problems posed by partner agencies, and that application is what its assessments test (the week-5 research plan and the week-10 literature review lead to a response delivered back to the agency); the Internship route similarly assesses project work negotiated in a professional context. Level 3 is straddled and resolved DOWN: the minor thesis route is a self-scoped research project with staged independent-learning structure (300-word proposal approved by the coordinator, supervision meetings as hurdle, progress report, draft), but it is one of three capstone options gated on an H1 weighted average, so the program does not document that progression for all graduates.",
+    "evidenceLines": [
+      "Research plan",
+      "Literature review",
+      "To be eligible to enrol in the thesis, students must submit a 300 word thesis proposal for approval by the course coordinator prior to the semester of enrolment in the thesis"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 is met in the COMPULSORY core: CRIM90011 Criminal Justice Knowledge Production requires students to identify a real criminal justice intervention and design an approach to evaluating whether it works (methodology selection, assessed at 80%), and the Internship route assesses an inquiry conducted with data collection in a host agency (Organisational Analysis, Professional Portfolio/Report). Level 3 is excluded by the anchor's own words: a substantial primary-evidence project is available only as the minor thesis, 'not one route among several' being exactly the case here, so the required limb fails.",
+    "evidenceLines": [
+      "Students will be asked to identify a particular criminal justice program or intervention, and to design an approach to discover whether or not it ‘works’ - its effectiveness - thinking about how, why and for whom.",
+      "It provides students with the opportunity to employ formal research skills such as reviewing literature, collecting and analysing data and writing reports or portfolios."
+    ]
+  },
+  "adaptiveness": 8,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2 is met: the Community Justice Project presents the finished research response to the partner agency in conversation with them - an audience beyond the teaching team - with a group presentation assessed, and the Internship assesses professional writing genres inside a working agency plus an outcome on operating professionally in the workplace. Level 3 is not met: professional communication is not assessed repeatedly across the program (the compulsory trio assesses essays and one class presentation to peers/staff), and no external practitioner judges conduct criteria. Ambiguity: the strongest audience evidence is again route-dependent (one capstone option).",
+    "evidenceLines": [
+      "preparing a response and presenting this to the agency in conversation with them",
+      "Practice and appreciate how to operate professionally in the workplace (e.g. improve one's employability and communication skills).",
+      "Individual photo essay and presentation"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2 is met: the Internship reproduces a practitioner task end to end - hands-on professional writing and research inside the everyday operations of a justice/community agency, assessed through Organisational Analysis (during placement hours) and a 5000-word Professional Portfolio/Report, both hurdle requirements - and the Community Justice Project carries a real agency-supplied problem through to a delivered response. R4 discipline: scored from these documented task features, never from any authenticity label. Level 3 fails because such tasks are not the assessment spine: the compulsory core remains essays plus one presentation.",
+    "evidenceLines": [
+      "This subject is designed to provide students with hands-on professional writing and research experience in the context of the everyday operations of a social/criminal justice or community-based agency.",
+      "Organisational Analysis",
+      "Professional Portfolio/Report"
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Placement route (the in-practice route is NOT applied): the cohort is documented as mixed - the course serves 'students and working professionals', so community-of-practice membership cannot be presumed as it can for MC-SURGED. Level 2 is met: the Criminology Internship places students in a real agency for a semester within the REQUIRED capstone band, supervised and assessed (three hurdle-must-pass pieces including work during placement hours and a progress report). It stands above level 1 because it is credit-bearing, assessed and sits inside the compulsory capstone structure, not as an unassessed extracurricular add-on. Level 3 is resolved DOWN on the required/optional distinction, exactly as MPH's W3 was: the internship is one route among three, so no placement is required of every student, and the extract documents no sequence, no structured reflection spine beyond single reflective pieces, and no accountability-to-host mechanism beyond the progress report.",
+    "evidenceLines": [
+      "Capstone option 2: Internship (25 points)",
+      "The internship takes place in one semester and constitutes a structured and supervised student research consultancy rather than work experience.",
+      "Hurdle requirement: Must be passed"
+    ]
+  },
+  "workplace": 6,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents a coherent specialist core with progressive depth: up to three compulsory criminology subjects (CRIM90011 Criminal Justice Knowledge Production, CRIM90018 Making Sense of Crime and Justice, CRIM90019 Advances in Criminological Research) common to all entry points, a foundation core restricted to the first 50 points in the 200-point program, and a required capstone band; graduation requires all compulsory, core and capstone subjects. Disciplinary identity is explicit throughout.",
+      "evidenceLines": [
+        "All compulsory, core and capstone subjects must be completed to be eligible to graduate from the program.",
+        "Three compulsory subjects (37.5 points)",
+        "One foundation core subject (12.5 points) (must be taken in the first 50 points of the program)"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Assessments require defended decisions under real uncertainty, not recall: CRIM90011 requires designing and defending an effectiveness-evaluation approach for a self-chosen real intervention (how, why and for whom it works); the capstone routes are live projects with real accountability - an agency-identified problem delivered back to the agency (Community Justice Project) and a supervised consultancy inside a working agency (Internship).",
+      "evidenceLines": [
+        "and to design an approach to discover whether or not it ‘works’ – thinking about how, why and for whom.",
+        "Too often government, social and criminal justice policy focuses on the symptoms rather than the causes of ongoing injustice in society.",
+        "Past agency partners have included the Human Rights Law Centre, Fitzroy Legal Service, WEstjustice, Victorian Aboriginal Legal Service, Consumer Action Law Centre, Australian African Foundation for Retention and Opportunity (AAFRO) and Banksia Gardens Community Service."
+      ]
+    }
+  },
+  "ambiguities": [
+    "Route-dependency (stated dependency for the IRR study): C1, C4, C5 (partly), W1, W2 and W3 all rest substantially on evidence carried by ONE of the three capstone routes (thesis, internship, community justice project) rather than on a subject every student completes. Each item scores the level its documented evidence supports; the same structural fact recurs across items, so the eight items are not fully independent observations.",
+    "C4 straddled levels 2 and 3: the thesis route documents a self-scoped research project with staged independent-learning scaffolding (proposal approval, supervision hurdle, progress report, draft), but it is GPA-gated (H1 80%) and optional among three capstones, so the program-wide reading of level 3 fails. Resolved DOWN to 2 under the ambiguity rule.",
+    "W3 straddled levels 1 and 2: the internship is literally 'an optional internship' for any individual student, but it is a credit-bearing, supervised, hurdle-assessed subject inside the required capstone band, which is more than the level-1 anchor's 'unassessed extracurricular or careers activity'. Resolved UP would violate nothing here because the anchors distinguish assessed core-band WIL from optional extracurricular activity; the score takes 2 on the placement-route limb while noting the option dependence. Level 3 was rejected on the required limb (MPH precedent).",
+    "Construct-boundary check (placement/practicum/WIL): the Criminology Internship's placement immersion is homed in W3 only. It was NOT reused in C1 (coordination) or C4 (transfer); C4's evidence comes from the Community Justice Project's application outcome and the thesis route instead.",
+    "Construct-boundary check (appraisal of quality): the CRIM90043 independent peer-review hurdle and the reflective/reflexive essays are homed in C2 (appraisal of quality) only, and were not counted again as W1 communication or W2 task fidelity.",
+    "Construct-boundary check (group work): the CRIM90043 group presentation is homed in C1 (coordination of collaborative work). W1 rests on the agency-facing delivery of the response and the internship's professional-conduct outcome, not on the group-work fact itself."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-26"
+  }
+};
+
+export default record;

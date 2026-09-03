@@ -1,14 +1,19 @@
 /**
  * v4 data-module content-parity guard (CI guard). dfva-v4-gen.ts's
- * appV4DataModules() renders TWO generated modules from
- * dfva/source/evidence/*.json + dfva/source/rubricV4.ts:
+ * appV4DataModules() renders a family of generated modules from
+ * dfva/source/evidence/*.json + dfva/source/rubricV4.ts, all under
+ * compass/app/src/compass/v4/data/:
  *
- *   - compass/app/src/compass/v4/data/v4Meta.ts (light — types, V4_META,
- *     V4_RESEARCH_DEGREES, V4_INDEX) — imported by the landing page, /reports
- *     and /insights.
- *   - compass/app/src/compass/v4/data/v4PanelC.ts (heavy — V4_ONLY_PROGRAMS,
- *     V4_PANEL_A_BASIS, and the 28,000-line V4_PANEL_C rationale/evidence map)
- *     — imported only by the report page.
+ *   - v4Meta.ts (light — types, V4_META, V4_RESEARCH_DEGREES, V4_INDEX) —
+ *     imported by the landing page, /reports and /insights.
+ *   - v4Basis.ts (V4_ONLY_PROGRAMS, V4_PANEL_A_BASIS) — the report page.
+ *   - v4PanelC/<code>.ts — one program's Panel C record per lazy chunk, plus
+ *     v4PanelC/index.ts with the loaders the report page uses.
+ *   - v4PanelC.ts — the eager map over the per-program modules (scripts and
+ *     tests only).
+ *
+ * A stray file in v4PanelC/ that the generator would not write (a program
+ * removed from the evidence set) is also an error.
  *
  * dfva-v4-schema-check.ts validates the JSON matches the V4PanelC TypeScript
  * interface SHAPE, but not that the generated files are in sync with the
@@ -25,7 +30,7 @@
  *
  * Run: npm --prefix scripts run dfva:v4-parity-check  (also part of dfva:check)
  */
-import { readFileSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import * as path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { appV4DataModules } from './dfva-v4-gen'
@@ -33,8 +38,7 @@ import { appV4DataModules } from './dfva-v4-gen'
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 
 const DATA_DIR = path.join(repoRoot, 'compass', 'app', 'src', 'compass', 'v4', 'data')
-const V4_META_PATH = path.join(DATA_DIR, 'v4Meta.ts')
-const V4_PANEL_C_PATH = path.join(DATA_DIR, 'v4PanelC.ts')
+const PROGRAM_DIR = path.join(DATA_DIR, 'v4PanelC')
 
 /**
  * Pure comparison: given the committed file text and a freshly rendered
@@ -79,7 +83,7 @@ export function parityIssues(
 
 /** appV4DataModules() logs per-program diagnostics as it runs — useful for
  *  `dfva:gen-v4`, noise for a parity check that runs it purely to diff. */
-async function renderSilently(): Promise<{ meta: string; panelC: string }> {
+async function renderSilently(): Promise<Awaited<ReturnType<typeof appV4DataModules>>> {
   const log = console.log
   const warn = console.warn
   console.log = () => {}
@@ -93,13 +97,32 @@ async function renderSilently(): Promise<{ meta: string; panelC: string }> {
 }
 
 async function main(): Promise<void> {
-  const committedMeta = readFileSync(V4_META_PATH, 'utf8')
-  const committedPanelC = readFileSync(V4_PANEL_C_PATH, 'utf8')
   const rendered = await renderSilently()
-  const issues = [
-    ...parityIssues(committedMeta, rendered.meta, 'v4Meta.ts'),
-    ...parityIssues(committedPanelC, rendered.panelC, 'v4PanelC.ts'),
-  ]
+  const expected = new Map<string, string>([
+    ['v4Meta.ts', rendered.meta],
+    ['v4Basis.ts', rendered.basis],
+    ['v4PanelC.ts', rendered.panelC],
+    ['v4PanelC/index.ts', rendered.loaders],
+    ...Object.entries(rendered.programs).map(
+      ([code, text]) => [`v4PanelC/${code}.ts`, text] as [string, string],
+    ),
+  ])
+  const issues: string[] = []
+  for (const [rel, text] of expected) {
+    const abs = path.join(DATA_DIR, rel)
+    if (!existsSync(abs)) {
+      issues.push(`${rel} is missing. Fix: npm --prefix scripts run dfva:gen-v4`)
+      continue
+    }
+    issues.push(...parityIssues(readFileSync(abs, 'utf8'), text, rel))
+  }
+  for (const f of existsSync(PROGRAM_DIR) ? readdirSync(PROGRAM_DIR) : []) {
+    if (f.endsWith('.ts') && !expected.has(`v4PanelC/${f}`)) {
+      issues.push(
+        `v4PanelC/${f} has no program in dfva/source/evidence/*.json. Fix: npm --prefix scripts run dfva:gen-v4`,
+      )
+    }
+  }
 
   if (issues.length) {
     console.error('dfva:v4-parity-check FAILED —')
@@ -107,7 +130,7 @@ async function main(): Promise<void> {
     process.exit(1)
   }
 
-  console.log('dfva:v4-parity-check OK — v4Meta.ts and v4PanelC.ts match dfva/source/evidence/*.json')
+  console.log(`dfva:v4-parity-check OK — ${expected.size} v4 data modules match dfva/source/evidence/*.json`)
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

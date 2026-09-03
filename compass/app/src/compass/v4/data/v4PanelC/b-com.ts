@@ -1,0 +1,172 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: at least one required unit assesses collaborative practice with individual accountability. The compulsory Foundation requirement forces 4 subjects out of a list of 7, and 5 of those 7 carry a marked group assignment (ACCT10001, ECON10003, MKTG10001, MGMT10002, CMCE10002) while only FNCE10002 and ACTL10001 do not — so no completion path avoids assessed group work; ACCT10001's per-student word allocation documents individual accountability, and the standard quantitative path adds two more group written assignments in ECON10005. Not level 3: level 3 additionally requires an assessment coordinating work across people AND tools/AI systems, and the extract contains no mention of AI, gen AI or machine learning anywhere, and no assessment where the division of work between people and systems is itself assessed.",
+    "evidenceLines": [
+      "A minimum of 50 credit points of Foundation subjects",
+      "Complete a minimum of 50 credit points of subjects from the following list of introductory Commerce subjects:",
+      "Group assignment (3000 words, in groups of 3-4 students)",
+      "750-1000 words (each)",
+      "Written group assignment (groups of up to 3)",
+      "Group assignment (groups of 3-5 students)",
+      "Group assignment (usually in groups of 2-4)",
+      "Group assignment (4,000 words equivalent, in groups of 3-4 students)",
+      "Group written assignment 1 (3 - 4 students per group)",
+      "Work collaboratively and productively in groups with others from diverse backgrounds and perspectives, and demonstrate an understanding of and respect for cultural and interpersonal differences"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: critical evaluation and self-directed appraisal appear in the program's intended learning outcomes and generic skills, but no unit that every student must complete assesses appraisal of the quality of work against criteria. The only criterion-referenced appraisal task in the extract is FNCE10002's peer-review sets, and FNCE10002 is one of seven substitutable Foundation-pool subjects — a student can complete the degree without it, so the pigeonhole test that carries C1 fails here. Not level 2: no core assessment documents peer review, structured critique, portfolio against standards or marking against exemplars. Level 3 is out under R2 — nothing requires documenting or justifying reliance decisions on a tool, source or collaborator.",
+    "evidenceLines": [
+      "Four short sets of peer-review tasks (750 words equivalent)",
+      "Adopt a critical approach to evaluate the access, analysis and use of evidence from diverse sources to enable robust evidence-based decision-making",
+      "Critically evaluate new ideas, research findings, methodologies and theoretical frameworks in a specialised field of study",
+      "Complete a minimum of 50 credit points of subjects from the following list of introductory Commerce subjects:",
+      "Analyse and interpret major financial statements and the accounting policy choices that influence their preparation;"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor exactly: the digital content documented across the required spine is tool operation — Excel, Excel Solver, statistical packages, 'use of computer software' — the operational level the anchor caps at 1, and the one subject that goes beyond it (CMCE10002, data governance and the ethical implications of analytics) sits in the substitutable Foundation pool, i.e. 'appear only as electives'. Not level 2: no unit every student must complete addresses capabilities AND limitations/ethics of AI; the extract contains no occurrence of AI, artificial intelligence, generative AI or machine learning at all. Level 3 is unreachable for the same reason.",
+    "evidenceLines": [
+      "Be proficient in the use of appropriate information technologies",
+      "Skilled in the use of computer systems and software used in commerce and business through practical assignments, exercises and demonstrations.",
+      "Students will gain experience in the use of Excel to visualise and communicate key features of data, and in the use of data to inform decisions made in business and economics.",
+      "Apply Excel Solver to solve the optimisation models",
+      "Use statistical program to estimate econometric models, test hypotheses, and undertake forecasting exercises.; and",
+      "Relate ethical principles to the collection, storage, and use of data by business and government organisations;",
+      "Complete a minimum of 50 credit points of subjects from the following list of introductory Commerce subjects:"
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Level 1 anchor: transfer and self-directed learning are claimed in the program's generic skills and intended learning outcomes but are not assessed in any unit every student must take. Not level 2: the case-based and novel-problem assessments in the extract (MGMT10002's case-study assignments, MKTG20004's project) belong to substitutable pool subjects, and the assessments on the guaranteed path are tests, exams and written assignments whose descriptions document no novel or unfamiliar application. Not level 3: R2 blocks it — the course structure requires a capstone subject, but no capstone subject page is in the extract, so there is no assessment evidence that it is self-scoped or that students identify and plan to close their own knowledge gaps.",
+    "evidenceLines": [
+      "Engage confidently in self-directed study and research",
+      "Analyse business and economic issues in different international cultural, societal and institutional settings",
+      "Develop new ideas, insights and solutions through creative applications of disciplinary knowledge that address complex business and economic problems",
+      "A minimum of 37.5 credit points of Level 3 major subjects including a capstone subject.",
+      "Apply major theories and models from the field of management to analyse organisational problems and generate realistic solutions and recommendations, as presented in case studies;"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1 anchor: an introductory methods requirement is compulsory on both pathways — ECON10005 Quantitative Methods 1 (or MAST20005 Statistics) plus a level-2 quantitative subject — teaching estimation, hypothesis testing and regression, assessed by written assignments and examinations. Not level 2: no assessment that every student must complete documents students designing and conducting an inquiry with methodology selection and data collection. The single subject that does describe conducting a research project (MKTG20004) is one of four options within the standard pathway only and is unavailable to mathematics-pathway students. Not level 3: nothing in the extract makes a primary-evidence project required, and no viva, defence or staged supervised review of methodology is documented.",
+    "evidenceLines": [
+      "Completion of one of the two quantitative requirements (i.e., the standard or mathematics pathway)",
+      "This subject develops skills in descriptive and inferential statistical analysis that underpin data-informed decision-making in the various specializations within the faculty.",
+      "Conduct simple regression analysis to model the relationship between variables and draw inferences about relationships.",
+      "Fit statistical models to data by both estimating and testing hypotheses about model parameters.",
+      "Three written assignments due at regular intervals amounting to a total of up to 50 pages",
+      "A written examination",
+      "Apply market and business research principles by conducting an in-depth market research project for a real management problem.",
+      "Research skills including the retrieval of information from a variety of business, commerce and economics sources"
+    ]
+  },
+  "adaptiveness": 6,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: communication and professional conduct appear in the intended learning outcomes, generic skills and graduate attributes, and assessed spoken communication to peers and staff does exist — tutorial participation is marked in the compulsory ECON10004 and across the quantitative spine, and presentation tasks appear in ACTL10001 and ECON10003 — but there is no professional genre and no audience beyond the teaching team. Level 0 is defeated because spoken communication is assessed. Not level 2: no assessment description in the extract documents a client brief, consultancy or policy advice, pitch or public-facing artefact judged against criteria drawn from professional practice; the assessment tables name only essays, individual and group written assignments, quizzes, tests and 2-hour examinations. Per R2 and Barrie, the stated graduate attributes cannot lift this.",
+    "evidenceLines": [
+      "Effectively communicate an understanding of disciplinary knowledge, concepts, theoretical models and frameworks, and modes of analysis in the major(s) to diverse groups, using a range of approaches, media and information modes",
+      "Communicate ideas effectively and professionally using a diverse range of alternative formats, information, and media",
+      "Effective communicators on matters related to economics and commerce",
+      "Ethical and collegial in professional practice.",
+      "Tutorial attendance and participation",
+      "Tutorial preparation, participation and contribution to group discussions",
+      "Assignment 2 - Oral presentation",
+      "In-tutorial presentation task (groups up to 3)",
+      "Individual essay",
+      "End-of-semester examination"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 anchor exactly: contextualised and scenario-framed tasks are pervasive — management and marketing case studies, business-analytics case contexts, decision models motivated by business applications — but the artefact produced and the criteria applied remain academic in every documented assessment: individual essays and assignments, group written assignments, quizzes, mid-semester tests and 2-hour examinations. Not level 2: nothing documents an assessment reproducing a professional task end to end, producing the artefact a practitioner would produce, judged against criteria drawn from practice. Per R4 the handbook's 'real-world business problems' and 'real management problem' phrasing is not scored as authenticity — only documented task features are, and none are given.",
+    "evidenceLines": [
+      "Students will be introduced to management theory, research and case studies that will develop their ability to manage complex real-world business problems, and to create a workplace where people can thrive.",
+      "Apply creativity and knowledge of major theories and models to marketing problems presented in case studies and assignments; and",
+      "Theoretical models discussed are motivated by real-life business applications and decision problems.",
+      "Individual essay",
+      "Individual assignment",
+      "Group assignment 1 (groups of 4 students)",
+      "End of semester examination",
+      "Individual written assignment"
+    ]
+  },
+  "W3": {
+    "score": 0,
+    "rationale": "Level 0 anchor met literally: no work-integrated learning, placement, practicum, internship or community-based project appears anywhere in the course structure. The course-structure page enumerates the full 300 credit points — commerce discipline subjects by level, the foundation pool, the quantitative requirement, breadth and free subjects, the majors and the capstone — and contains no work-situated component, and no subject page in the extract mentions placement, practicum, internship, supervision by a practitioner or a live client. The cohort is not documented as already practising, so the v4.2 in-practice route does not apply.",
+    "evidenceLines": [
+      "The Bachelor of Commerce requires the successful completion of 300 credit points.",
+      "237.5 credit points of Commerce discipline subjects including",
+      "A minimum of 50 credit points of Foundation subjects",
+      "A minimum of 62.5 credit points of Level 2 Commerce discipline subjects including",
+      "A minimum of 37.5 credit points of Level 3 major subjects including a capstone subject.",
+      "50 credit points of Breadth subjects including",
+      "Completion of between one and two prescribed majors"
+    ]
+  },
+  "workplace": 2,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program documents a coherent specialist core with progressive depth on two of the three routes the gate names: accredited sequences (the Accounting major accredited by CPA and CAANZ, the Actuarial Studies major by AIA) and a staged prerequisite chain enforced by progression rules that gate each year level on completed credit at the level below, running from a compulsory first-semester degree core subject through required level-2 and level-3 commerce discipline loads to a required level-3 capstone within a prescribed major. Content is specialist commerce, not generic or interchangeable — breadth is explicitly excluded from the faculty's own disciplines.",
+      "evidenceLines": [
+        "The Accounting major is accredited by Certified Practising Accountant Australia (CPA).",
+        "Chartered Accountants Australia and New Zealand (CAANZ)",
+        "The Actuarial Studies major is accredited by Actuaries Institute Australia (AIA).",
+        "12.5 credit points of degree core subjects",
+        "Completion of ECON10004 Introductory Microeconomics and the compulsory Joining Melbourne Modules within the first semester of commencement in the course.",
+        "Completion of at least 50 points of Level 1 study before proceeding to the next subject year level.",
+        "A minimum of 62.5 credit points of Level 2 Commerce discipline subjects including",
+        "A minimum of 37.5 credit points of Level 3 major subjects including a capstone subject.",
+        "Completion of between one and two prescribed majors"
+      ]
+    },
+    "G2": {
+      "result": "FAIL",
+      "rationale": "Resolved downward on missing evidence, not on a judgement that the program is recall-only. The gate PASSES on defended trade-off decisions, or on capstones/simulations/live projects with real uncertainty and accountability. The strongest candidate — MGMT20005 Business Decision Analysis, whose outcomes require formulating decision problems with decision trees, optimisation and simulation and developing an optimal strategy across decision alternatives — is one of four substitutable options within the standard quantitative pathway only, so no completion path is guaranteed to include it. The required capstone subject would be the other route, but its subject and assessment pages are absent from the extract, so neither uncertainty nor accountability is documented for it. On the guaranteed path the documented assessments are tests, examinations, written individual assignments and group written assignments whose descriptions record no defended trade-off, and the decision-making claims sit in graduate attributes, which R2 excludes.",
+      "evidenceLines": [
+        "Formulate and analyse business decision problems using advanced decision making/modelling techniques such as decision trees, optimisation and simulation",
+        "Adopt the decision analysis approach with perfect and sample information to develop an optimal strategy and to quantitively analyse decision alternatives using spreadsheets",
+        "Completion of one of the two quantitative requirements (i.e., the standard or mathematics pathway)",
+        "A minimum of 37.5 credit points of Level 3 major subjects including a capstone subject.",
+        "Effective decision makers in business and commerce",
+        "Mid-semester test",
+        "Individual written assignment",
+        "End-of-semester examination"
+      ]
+    }
+  },
+  "ambiguities": [
+    "Definition of 'core' governs five items. B-COM names only 12.5 credit points of 'degree core subjects' (ECON10004); the Foundation requirement (50 cp chosen from seven listed subjects) and the quantitative requirement (one of two pathways) are compulsory components with substitutable members. I applied one rule consistently: evidence counts as core only when every completion path must include it. C1 survives that test by pigeonhole (only 2 of the 7 Foundation subjects lack a group assignment, and 4 must be taken, so at least 2 group-assessed subjects are unavoidable); C2, C3, C4, C5, W1 and W2 do not.",
+    "C1: strictly reading 'core unit' as the single named degree core subject ECON10004 — whose assessment is a mid-semester test, an individual written assignment, tutorial participation and an examination, with no group task — would give level 1. Scored 2 because the pigeonhole over the compulsory Foundation pool makes assessed group work unavoidable on every path; this is the one item where the ambiguity was not resolved downward, and it rests on structure rather than on a single quotable core assessment.",
+    "C2: straddles 1 and 2. FNCE10002's four sets of peer-review tasks are criterion-referenced appraisal of quality and would satisfy level 2 if any single Foundation-pool subject counted as core. Resolved to 1 under the lower-level rule because FNCE10002 is avoidable.",
+    "C3: straddles 1 and 2. CMCE10002 addresses data governance and the ethical implications of analytics and assesses it through case-based group work, which would satisfy level 2 if it were compulsory. Resolved to 1 because it is one of seven substitutable Foundation subjects, and because the anchor's level-2 wording is about AI capabilities and limitations specifically, which the extract never mentions.",
+    "C4: straddles 1 and 2. MGMT10002 assesses case-study application and MKTG20004 documents a market research project on a real management problem; either would support level 2 as a core assessment. Resolved to 1 because both are substitutable. The required capstone is the natural level-3 route and was blocked by R2 for want of an assessment page.",
+    "C5: straddles 1 and 2 on the same MKTG20004 evidence (conducting an in-depth market research project), which documents inquiry design and data collection. Resolved to 1 because MKTG20004 is one of four level-2 options on the standard pathway and is not open to mathematics-pathway students.",
+    "W1: straddles 1 and 2. CMCE10002's learning outcome about communicating analytics results to a non-technical audience of decision-makers and stakeholders, and ECON20003's outcome about communicating professionally to a variety of audiences, both point at a professional genre and a wider audience. Resolved to 1 because both are outcome statements in substitutable subjects and R2/Barrie forbid scoring stated outcomes, and because their assessment tables describe only generic group and individual assignments.",
+    "W2: straddles 1 and 2 on MKTG20004's 'real management problem' project. Resolved to 1 under R4 — the phrase is a label, and no documented feature of the task (its artefact, its context, or criteria drawn from practice) is given in the assessment description, which reads only as two 3000-word group assignments.",
+    "G2: straddles PASS and FAIL. The required capstone subject and MGMT20005's decision-analysis assignments each point at PASS. Resolved to FAIL under the downward rule because neither is evidenced on a guaranteed path with documented uncertainty and accountability. Adding the capstone subject page to the extract is the single change most likely to flip this gate."
+  ],
+  "notScoreable": [
+    "The capstone subject required by the course structure ('A minimum of 37.5 credit points of Level 3 major subjects including a capstone subject.') has no subject or assessment page in the extract. Its absence directly limits C4 (level-3 self-scoped project route), C5 (level-3 required primary-evidence project), W1 and W2 (a capstone is where professional genre and end-to-end professional task design would most likely appear) and G2 (the capstone route to PASS). All five were scored on the evidence present rather than inferred from the capstone's existence.",
+    "No Level 2 or Level 3 major subject pages are in the extract at all — only the degree core subject, the seven Foundation-pool subjects and the quantitative-requirement subjects. Panel C evidence that lives in the majors (which carry 25 cp at level 2 and 37.5 cp at level 3 for every student) could not be assessed.",
+    "W3 was scored 0 rather than marked unscoreable because the course-structure page — which is present and enumerates all 300 credit points — documents no work-situated component, and the level-0 anchor is a statement about the course structure. The caveat above about missing major subject pages still applies."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-18"
+  }
+};
+
+export default record;

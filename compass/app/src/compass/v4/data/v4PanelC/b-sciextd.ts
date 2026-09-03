@@ -1,0 +1,127 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor: 'At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity.' Assessed group work recurs across MAST10015, SCIE10005 and SCIE10007, and SCIE10007's team-based presentation pairs the group artefact with individual reflection (individual accountability). Level 3 additionally requires 'coordinating work across people AND tools/AI systems' — no assessment task in the extract has students' division of work between people and systems itself assessed, so the score does not advance to 3.",
+    "evidenceLines": [
+      "One group assignment (2-4 students per group) 500 word equivalent",
+      "Group project - students present project based on chosen modules (project presentation may be in variety of forms, poster video, performance etc.)",
+      "A team-based presentation report including individual reflection onand annotation of the drafting process"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: 'Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria.' 'Reflect on personal progress and engage in self-directed learning' recurs as a generic-skill outcome. SCIE10007's 'annotated drafting process' assessment items could be read as criterion-referenced appraisal of quality (Level 2), but the extract never states the annotation is judged against quality criteria or exemplars, so per the ambiguity rule the lower level is taken.",
+    "evidenceLines": [
+      "Reflect on personal progress and engage in self-directed learning",
+      "A team-based presentation report including individual reflection onand annotation of the drafting process",
+      "One individual written report on a chosen case study with an annoted drafting process"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "No AI content appears anywhere in the extract. The only relevant material is basic software use as a generic-skill outcome, matching the Level 1 anchor for 'tool operation/training — the operational level TEQSA identifies as non-durable.' No core content addresses AI capabilities, limitations or ethics (Level 2) or governance/critique (Level 3).",
+    "evidenceLines": [
+      "Familiarity with basic software used in science for research, data management and analysis",
+      "Ue of basic software to support scientific inquiry such as for data analysis and mapping"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "SCIE10007 explicitly 'challenges them to extend and apply this to multidisciplinary case studies,' assessed through an individual written report on a chosen case study and a team-based presentation — matching the Level 2 anchor 'At least one core assessment requires application to novel or unfamiliar problems... cross-context projects.' No self-scoped capstone or assessed identification of one's own knowledge gaps appears in this first-year extract (the course defers specialisation to the BSc handbook from year 2), so the score does not advance to 3.",
+    "evidenceLines": [
+      "This subject builds upon the knowledge and skills developed by students in their first semester of the Bachelor of Science (Extended) and challenges them to extend and apply this to multidisciplinary case studies.",
+      "One individual written report on a chosen case study with an annoted drafting process"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "SCIE10010 ('Science Skills Foundations') and SCIE10007 document experiential, hands-on investigation — hypothesis formulation, data collection, practical exams — which could support Level 2 ('design and conduct an inquiry with methodology selection and data collection, assessed'). But SCIE10010 is described as foundational/introductory without the extract stating students select their own methodology, matching the Level 1 anchor 'Introductory methods unit.' Per the ambiguity rule the lower level is taken.",
+    "evidenceLines": [
+      "Students engage in experiential learning, conducting experiments, and applying theoretical knowledge to tangible scenarios.",
+      "Recognise and be able to ask valid scientific questions and formulate hypotheses",
+      "3 written scientific reports due weeks 5, 7 and 11",
+      "A 3-hr practical exam"
+    ]
+  },
+  "adaptiveness": 7,
+  "W1": {
+    "score": 1,
+    "rationale": "SCIE10007 states communication and conduct are expected 'to a range of stakeholders,' and assessed items include a team-based presentation and an oral examination of the learning journal — matching Level 1: communication/conduct named in course description, presentation assessed, but no documented professional genre and no audience beyond the teaching team (no client, panel or practitioner is named as assessor). Per R2/Barrie's caution against stated graduate attributes, the course-description claim is not itself evidence the audience extended past markers, so the score is not advanced to 2.",
+    "evidenceLines": [
+      "This will also require students to demonstrate professional conduct and communicate effectively to a range of stakeholders.",
+      "A team-based presentation report including individual reflection onand annotation of the drafting process",
+      "Oral Examination of the learning journal"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "SCIE10007's place-based, multidisciplinary case-study assessment is scenario-framed, but the artefact (a written report, a learning journal) and its criteria remain academic genres — matching Level 1: 'Contextualised or scenario-framed tasks appear... but the artefact produced and the criteria applied remain academic.' No assessment is documented as reproducing a professional artefact judged against practice-derived criteria (Level 2).",
+    "evidenceLines": [
+      "Students will engage in place-based learning at locations around Narrm (Melbourne) that will develop their professional skills and understanding of science practice in their discipline of choice.",
+      "One individual written report on a chosen case study with an annoted drafting process",
+      "This subject builds upon the knowledge and skills developed by students in their first semester of the Bachelor of Science (Extended) and challenges them to extend and apply this to multidisciplinary case studies."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "SCIE10007 documents 'field trips and visits to scientific workplaces,' but this appears only inside the subject's attendance hurdle requirement, with no documented practitioner supervision or graded assessment of the workplace component itself — the extract does not support the Level 2 anchor's 'practitioner supervision and assessment.' Given the ambiguity between an unassessed/hurdle-only activity (nearest Level 1) and a supervised, assessed placement (Level 2), the lower level is taken.",
+    "evidenceLines": [
+      "Hurdle requirement: Participation in 80% of classes. Satisfactory participation requires engagement in group tasks in class as well as completion of place-based learning sessions (field trips and visits to scientific workplaces).",
+      "Students will engage in place-based learning at locations around Narrm (Melbourne) that will develop their professional skills and understanding of science practice in their discipline of choice."
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "FAIL",
+      "rationale": "The course structure documents a broad, shared science foundation year (common mathematics and science-skills subjects plus a choice of one of three 'Science Knowledge Foundations' subjects) rather than a coherent specialist core with progressive technical depth. The specialist/major sequence that would establish disciplinary depth is explicitly deferred to a different handbook entry not included here, so G1 fails on the evidence available in this extract.",
+      "evidenceLines": [
+        "In the second year of the course students transition to the Bachelor of Science (B-SCI) completion requirements. Students refer to the BSc Handbook entry for these course completion requirements.",
+        "students will engage with additional foundation subjects in mathematics and the science discipline/s of their choice, developing their theoretical knowledge and technical skills."
+      ]
+    },
+    "G2": {
+      "result": "FAIL",
+      "rationale": "No assessment task in the extract requires a defended trade-off decision or involves a simulation, capstone or live project with real uncertainty and accountability; assessment across all documented core subjects consists of tests, examinations, structured assignments/reports and prescribed practicals/presentations — recall or scripted responses per the FAIL anchor.",
+      "evidenceLines": [
+        "2 hour written examination",
+        "5 x in-class progress tests held weeks 3, 5, 7, 9 and 11, with the results based upon the best four test results",
+        "An examination"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2: SCIE10007's 'annotated drafting process' assessment items are ambiguous between unassessed reflection (Level 1) and criterion-referenced appraisal of quality (Level 2); scored at the lower level, 1.",
+    "C5: SCIE10010's and SCIE10007's hypothesis-formulation and data-collection content is ambiguous between an introductory methods unit (Level 1) and an assessed, methodology-selecting inquiry (Level 2); scored at the lower level, 1.",
+    "W1: SCIE10007's claim to communicate 'effectively to a range of stakeholders' is ambiguous between Level 1 (claim unevidenced in the graded artefacts, which are addressed to the teaching team) and Level 2 (a genuine external/professional audience); scored at the lower level, 1.",
+    "W3: SCIE10007's 'visits to scientific workplaces' inside the attendance hurdle is ambiguous between an unassessed activity (nearest Level 1) and a supervised, assessed placement (Level 2); scored at the lower level, 1."
+  ],
+  "notScoreable": [],
+  "verified": {
+    "adversarial": {
+      "reviewed": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "W1",
+        "W2",
+        "W3",
+        "G1",
+        "G2"
+      ],
+      "date": "2026-08-29"
+    },
+    "mechanical": true,
+    "date": "2026-08-29"
+  }
+};
+
+export default record;

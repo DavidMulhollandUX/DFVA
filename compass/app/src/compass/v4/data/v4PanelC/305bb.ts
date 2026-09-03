@@ -1,0 +1,148 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2's anchor ('At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity') is satisfied many times over: group presentations are assessed components in five compulsory subjects and the year-long capstone is run by a student-led team with teamwork as an assessed outcome. Level 3 is NOT reached because its second, conjunctive condition — 'at least one assessment requires coordinating work across people AND tools/AI systems ... a team capstone with documented role and tool allocation, or a task where the division of work between people and systems is itself assessed' — has no counterpart anywhere in the extract: no assessment documents role/tool allocation, and no tool or system is named as a party to the division of work. Recurrence alone does not lift the item. Per the one-construct-one-home rule, the clinical placement evidence is scored in W3, not here.",
+    "evidenceLines": [
+      "Group presentation",
+      "Group case study presentation",
+      "Group oral presentation (approx. 3 students per group)",
+      "Demonstrate teamwork, project planning/management and leadership skills to investigate a problem, issue or intervention related to the field.",
+      "The project is run by a student-led team and is supported by a teaching staff member.",
+      "Collaborate with other health professionals to ensure patient safety and to enhance the quality of care;"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2's anchor ('Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars') is met by assessment, not outcome statements: a marked Peer review component in the capstone, a Portfolio hurdle in Professionalism and Clinical Processes B, and a compulsory Evidence-Based Practice subject whose assessed outcome is critical appraisal of evidence. Level 3 requires assessment that makes students 'document and justify reliance decisions — when they relied on or overrode a tool, source or collaborator; defend judgements of AI-output quality; or evidence strategy adjustment over time'. The E-portfolio is longitudinal and compiles self-reflection, but the extract describes it as documenting reflective practice and skill development, never as documenting or justifying a decision to rely on or override a source, tool or collaborator, and never as recording an adjusted strategy. Evidence straddles 2 and 3 on that last route; resolved DOWN per the ambiguity rule.",
+    "evidenceLines": [
+      "Peer review",
+      "Portfolio",
+      "Hurdle requirement: Portfolio must be passed",
+      "Evaluate and critically appraise available evidence to inform intervention options/strategies and education programs related to screenings, referral guidelines and pathways.",
+      "Hurdle requirement: Students must obtain satisfactory mark in E-portfolio to pass. Successful completion of the E-portfolio includes evidence compiled throughout the year. The E-Portfolio must include (but is not limited to): documentation of reflective practice through self-reflection of clinical placements and Objective Structured Clinical Exams (OSCEs); evidence of clinical skill development through OSCEs case reports, clinical feedback of clinical placements, and evidence of clinical placement attendance."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 0 ('No digital/AI content in any core unit or program-level outcome') is falsified: core subjects carry outcomes about how hearing devices function, how they are fitted, adjusted and monitored, and the limitations of industry tools. But that is exactly the level-1 anchor — digital tools appearing 'as tool operation/training — the operational level TEQSA identifies as non-durable'. Level 2 requires core units to 'address AI capabilities AND limitations/ethics', and level 3 requires assessed critique or governance of AI systems (bias, accountability, transparency, regulation, data governance). Neither is reachable: artificial intelligence, gen AI, machine learning and algorithmic systems are absent from the extract entirely, so the technology-limitation outcomes cannot be read onto the AI anchors. The ethics content present is clinical/professional ethics, not the ethics of digital or AI systems.",
+    "evidenceLines": [
+      "Describe how hearing devices function including how the function of hearing devices can be influenced by extrinsic and intrinsic factors.",
+      "Discuss using plain and inclusive language how hearing devices function and how they can be fitted, adjusted and monitored.",
+      "Evaluate and understand the limitations of technologies and interventions related to hearing needs."
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2's anchor ('At least one core assessment requires application to novel or unfamiliar problems — case variation, unseen datasets, cross-context projects') is clearly met: a compulsory year-long subject built on complex, multifaceted cases, assessed by case-based written work, a group case study presentation and an oral exam, plus case-based assessments in other core subjects. Level 3 requires 'structured progression toward independent learning: a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them'. Neither route is documented cleanly. The capstone is student-led and staff-supported but the extract never says students scope the problem themselves; and the only knowledge-gap-plus-plan language is a generic-skills list item repeated identically in twelve places, which R2 and Barrie forbid scoring as attainment. The capstone's inquiry evidence is additionally homed in C5 under the one-construct-one-home rule. Ambiguity between 2 and 3 resolved DOWN.",
+    "evidenceLines": [
+      "This subject uses case studies to build student competencies in working with complex, multifaceted clinical cases.",
+      "Case based written assignment",
+      "Adapt to solve problems in complex case management, considering all external and internal factors that impact on client care (e.g., disability, cultural, financial, time, resources, other health providers).",
+      "Reflect upon and identify deficiencies in knowledge, skills and attitudes and consider strategies to address those deficiencies."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3's anchor requires 'A substantial project generating primary evidence ... REQUIRED (not one route among several), with methodology defended under scrutiny (viva, defence, or staged supervised review)'. All three elements are documented in assessment, not outcome, terms. Required: the 25-credit-point Audiology Research Project is one of four compulsory Year 2 subjects in an all-compulsory 200-point structure, with no alternative route offered. Primary evidence: students develop a research proposal and data analysis plan and perform data collection and analysis. Defence under scrutiny: a hurdle manuscript plus a separately hurdled oral defence of that manuscript. This exceeds level 2 ('design and conduct an inquiry with methodology selection and data collection, assessed'), which lacks the required-and-defended conditions.",
+    "evidenceLines": [
+      "This capstone subject provides students with a research opportunity that allows investigation of a problem, intervention or issue related to the field.",
+      "Students will develop a research proposal and data analysis plan, write a narrative literature review and perform data collection and analysis of the data/outcomes of the project.",
+      "Hurdle requirement: Student must achieve pass mark for manuscript",
+      "Oral defence of written manuscript",
+      "Hurdle requirement: Oral presentation must be passed",
+      "100 credit points of Year 2 compulsory subjects"
+    ]
+  },
+  "adaptiveness": 10,
+  "W1": {
+    "score": 3,
+    "rationale": "All three of level 3's conjunctive conditions have quotable assessment evidence. Assessed 'repeatedly and progressively across the program': OSCEs, roleplay OSCEs, group presentations, a clinical exam, an oral exam, a three-minute thesis and an oral defence appear as graded or hurdle components in both years, escalating from simple to complex clinical information. 'Delivered to, or judged by, a real external audience or practitioner ... patient or simulated patient': the hurdled Clinical simulation patient exam, backed by an outcome that places diagnostic assessment in simulation settings, and by clinical feedback from placements compiled into the E-portfolio. 'Professional conduct or accountability explicitly among the assessed criteria': a 15% assessment component literally named Research Professionalism, plus a pass/fail Clinical passport hurdle inside a subject whose assessed outcome is performing clinical duties professionally. Level 2 would understate this, since it caps at a single professional-genre instance with no repetition and no external or simulated audience.",
+    "evidenceLines": [
+      "Clinical simulation patient exam",
+      "Apply diagnostic assessments to adult and paediatric client groups in simulation settings.",
+      "Roleplay OSCE",
+      "OSCE: comprising 2 x 10 minute stations.",
+      "Research Professionalism",
+      "Clinical passport",
+      "Hurdle requirement: Pass/Fail hurdle",
+      "Accurately and professionally perform routine audiological clinical duties in a timely manner using a client-centred approach.",
+      "Communicate simple clinical information professionally using verbal, non-verbal, and written formats.",
+      "Three-minute thesis"
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Scored on documented task features only (R4) — no weight given to any 'authentic' or 'real-world' label. Level 2 is met because timed OSCEs and clinical exams reproduce the audiologist's own criterion situation end to end: taking a history, selecting and performing the assessment, interpreting it and forming a management plan, producing the practitioner's own artefact. Level 3's first condition, 'the program's assessment spine rather than a single instance ... at least one per stage', holds: an OSCE, roleplay OSCE, clinical simulation patient exam or clinical exam is a graded or hurdle component in eight of the twelve compulsory subjects, across both years. Its second condition, 'a genuine constraint of practice — an ambiguous or externally supplied problem, real resource/time limits ... or the profession's own standards of performance', is met by the fixed clinical station times, by a compulsory subject requiring problem-solving under stated external constraints including time and resources, and by a course explicitly built to the registration requirements of the profession's regulator. Simulation is scored here rather than in W3 as the instrument directs.",
+    "evidenceLines": [
+      "OSCE: comprising 2 x 10 minute stations.",
+      "Clinical simulation patient exam",
+      "Clinical exam",
+      "Roleplay OSCE",
+      "Three-part case study assignment",
+      "Adapt to solve problems in complex case management, considering all external and internal factors that impact on client care (e.g., disability, cultural, financial, time, resources, other health providers).",
+      "This course prepares students to meet the registration requirements of Audiology Australia.",
+      "Use evidence-based practice to develop and justify an appropriate management plan, considering the best available research evidence, clinical expertise, the individual patient and the practice context;"
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 2's qualifier — 'but it is short or stands alone' — is directly contradicted by the course overview, which documents placements beginning in Year 1 and increasing through the course; they are therefore a sequence, not a single instance. Level 3's remaining elements are each documented on the placement route: 'in the core' (Clinic placements is a hurdle in a compulsory Year 1 subject, placement attendance a hurdle in a compulsory Year 2 subject); 'assessed' and 'accountability to the host' (85% attendance hurdles in both years, plus clinical feedback from placements as required E-portfolio evidence); and 'structured reflection on professional practice' (the E-portfolio hurdle requires documented reflective practice through self-reflection of clinical placements). Simulation and OSCE work is excluded from this item and scored in W2, as the anchor directs.",
+    "evidenceLines": [
+      "The two year full time clinical degree consists of a combination of on-campus teaching and clinical placements. Clinical placements commence in the first year and gradually increase throughout the course. In the final year of the course, students are also involved in a research project related to the field.",
+      "Clinic placements",
+      "Hurdle requirement: Attendance at 85% of placements",
+      "Hurdle requirement: Students must obtain satisfactory mark in E-portfolio to pass. Successful completion of the E-portfolio includes evidence compiled throughout the year. The E-Portfolio must include (but is not limited to): documentation of reflective practice through self-reflection of clinical placements and Objective Structured Clinical Exams (OSCEs); evidence of clinical skill development through OSCEs case reports, clinical feedback of clinical placements, and evidence of clinical placement attendance."
+    ]
+  },
+  "workplace": 9,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The gate's PASS condition — 'a coherent specialist core with progressive technical or methodological depth: an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain' — is satisfied on all three routes simultaneously. Every one of the 200 credit points is compulsory, all twelve subjects carry the single AUDI discipline prefix, the paired A/B subjects and Year 2 advanced subjects form a staged depth chain, progression from Year 1 to Year 2 is gated on completing all first-year subjects, and the course is built to a named regulator's registration requirements with professional accreditation. Nothing here is generic or interchangeable.",
+      "evidenceLines": [
+        "100 credit points of Year 1 compulsory subjects",
+        "100 credit points of Year 2 compulsory subjects",
+        "* To progress from Year 1 to Year 2, students must complete all first-year subjects.",
+        "This course prepares students to meet the registration requirements of Audiology Australia.",
+        "Audiological Society of Australia (ASA)"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "The gate's PASS condition — 'Assessments require defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability' — is met on both routes. Defended trade-offs: a compulsory subject requires weighing evidence-based methodology to differentially diagnose and plan, and another requires justifying a management plan against competing considerations (research evidence, clinical expertise, the individual patient, the practice context). Uncertainty with accountability: hurdle-gated OSCEs and a clinical simulation patient exam, a year-long complex-case subject explicitly framed around external and internal constraints, and a capstone research project whose methodology is defended orally under a hurdle. This is not recall or scripted response.",
+      "evidenceLines": [
+        "Weigh-up evidence-based methodology to differentially diagnose, plan, consult on, and implement intervention and education plans.",
+        "Use evidence-based practice to develop and justify an appropriate management plan, considering the best available research evidence, clinical expertise, the individual patient and the practice context;",
+        "Adapt to solve problems in complex case management, considering all external and internal factors that impact on client care (e.g., disability, cultural, financial, time, resources, other health providers).",
+        "Clinical simulation patient exam",
+        "Oral defence of written manuscript"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2 (2 vs 3): the hurdled E-portfolio is longitudinal and compiles self-reflection plus clinical feedback, which could be read as level 3's 'evidence strategy adjustment over time (process-focused assessment)'. But the extract describes only documentation of reflective practice and of skill development — never a documented or justified reliance/override decision, and never a recorded adjustment of strategy. Resolved DOWN to 2 by the never-resolve-upward rule.",
+    "C4 (2 vs 3): the Audiology Research Project is labelled a capstone, is student-led and requires students to develop their own research proposal, which is close to level 3's 'self-scoped capstone or research project'. The extract does not, however, document that students scope the problem themselves (it is 'supported by a teaching staff member'), and the alternative level-3 route — assessed identification of one's own knowledge gaps with a plan to close them — rests only on a generic-skills line repeated verbatim in twelve subjects, which R2 excludes. Resolved DOWN to 2; the capstone's inquiry evidence is homed in C5 under one-construct-one-home.",
+    "C3 (0 vs 1): whether clinical hearing devices count as 'digital tools' is arguable. Resolved at 1 rather than 0 because level 0's anchor ('No digital/AI content in any core unit or program-level outcome') is affirmatively falsified by core outcomes on device function, fitting, adjustment, monitoring and the limitations of industry tools — this is a determination that level 0 fails, not an upward resolution of ambiguity between 1 and 2.",
+    "W3 (supervision wording): level 3 names supervision 'by a practitioner'. The extract never uses the word supervision or supervisor; practitioner involvement is documented indirectly, as 'clinical feedback of clinical placements' required as E-portfolio evidence. This did not change the level, because level 2's own qualifier ('short or stands alone') is contradicted by placements that commence in Year 1 and increase across the course, so 2 is not available.",
+    "W1 vs C1 boundary: the group presentations assessed in five core subjects could be read as either collaborative practice (C1) or spoken communication (W1). Scored in C1 for the collaboration construct and in W1 only via the distinct simulated-patient, OSCE and named-professionalism evidence, so no single assessment carries both items.",
+    "W1 vs W3 boundary: clinical placement feedback is an external-practitioner judgement that could support W1 level 3's external-audience condition. W1's level 3 is carried instead by the Clinical simulation patient exam and the named Research Professionalism component, leaving the placement evidence in W3."
+  ],
+  "notScoreable": [
+    "C3, AI-specific anchors: no mention of artificial intelligence, generative AI, machine learning, algorithms or automated decision tools appears anywhere in the extract. The level-2 condition ('Core units address AI capabilities AND limitations/ethics') and the level-3 condition (assessed critique or governance of AI systems) therefore have no evidence to be tested against, and the item was scored on digital-device evidence alone. This is an absence of evidence in the captured pages, not a finding that the program excludes AI content.",
+    "C1 level-3 tool-allocation condition: nothing in the extract describes how work is divided between people and systems in any assessment, so the human-plus-tool coordination half of the level-3 anchor could not be evaluated on evidence either way.",
+    "Assessment criteria and rubrics: the handbook publishes assessment descriptions, timings, weights and hurdle conditions but no marking criteria for any task. Anchors phrased as 'judged against criteria drawn from practice' (W1 level 2, W2 level 2) were therefore evaluated from the documented task form and the program's stated registration/accreditation standards, not from criteria text."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-17"
+  }
+};
+
+export default record;

@@ -1,0 +1,121 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: core BIOL90040 assesses collaborative practice with individual accountability (group presentation then individual presentations, 35%; group-prepared written artefact, 15%). Not level 3: assessed collaboration does not recur elsewhere in the core, and no assessment requires coordinating work across people AND tools/AI systems.",
+    "evidenceLines": [
+      "Seminar presentations: each week on a single topic, comprising a group (2-3 students) presentation (20-30 mins), then individual presentations (15 mins)",
+      "Written work: 'wiki-style' summary of the oral presentation, prepared by the group"
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: core assessment includes criterion-referenced appraisal of quality - three assessed written peer reviews (30%) in BIOL90040. Not level 3: no core assessment requires documenting and justifying reliance decisions on a tool, source or collaborator, defending AI-output quality, or evidencing strategy adjustment over time.",
+    "evidenceLines": [
+      "Written work: three peer reviews",
+      "Critically evaluate oral and written presentations of peers.",
+      "conduct critical appraisals of draft documents; and"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: digital content in the core is tool operation only - basic R coding assessed as two coding assignments in computer-based workshops, plus platform use in a participation task. Not level 2: no core unit addresses AI capabilities AND limitations/ethics; the only AI-titled subject in the extract is a non-core Professional Skills option marked not available in 2026.",
+    "evidenceLines": [
+      "use basic coding within the R statistical environment;",
+      "Two coding assignments (equivalent to 600 words each) associated with computer-based workshops",
+      "Participation: social annotation of published papers using the Perusall platform, 50-100 words each week"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3 anchor met: the program documents structured progression toward independent learning via a required 125-point research project taken in sequence, with enrolment advancing Part 1 to Part 4 only on successful completion of the earlier component, and with goal-setting and experiment design named as what the project develops. Assessment evidence is quoted per R2 (committee assessment; Part 1 requirements govern the whole 125 points), though the BIOL90004 subject page itself is absent.",
+    "evidenceLines": [
+      "Research Project, undertaken consecutively in sequence (125 pts)",
+      "Students may only progress through BioScience Research Project subjects upon successful completion of the earlier project component.",
+      "The research project aims to develop a range of experimental and technical skills, a capacity to set goals and to design and plan experiments.",
+      "The assessment requirements detailed in BIOL90004 Research Project Part 1 are applicable to the entire 125 point Research Project."
+    ]
+  },
+  "C5": {
+    "score": 3,
+    "rationale": "Level 3 anchor met: a substantial primary-evidence project is REQUIRED of every student (125 of 200 points, laboratory or field-based experimental research), not one route among several, and it is subject to staged supervised review - a committee responsible for its assessment plus gated progression through four sequential parts. No viva or defence is named; the level-3 route relied on is the staged supervised review.",
+    "evidenceLines": [
+      "The Research Project involves laboratory or field-based experimental research in an area of Ecology and Evolutionary Biology, Genetics, Genomics and Developmental Biology, and Plant Biology.",
+      "Apart from the help and guidance from their supervisor(s) each student also has a committee, which provides additional help and expertise. This committee is responsible for assessment of the research project subject.",
+      "skills in planning, conducting and managing a laboratory or field-based research project, including effective skills in data collection, analysis and interpretation;"
+    ]
+  },
+  "adaptiveness": 11,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1 anchor matches exactly: communication appears in program outcomes and subject generic skills, and core assessment adds presentation to peers and staff (BIOL90040 seminars, oral commentary), but the audience is the class and teaching team. Not level 2: no core assessment documents a recognised professional genre judged against criteria drawn from practice, or an audience beyond the teaching team.",
+    "evidenceLines": [
+      "the ability to communicate scientific concepts and results in oral and written form to specialist and non-specialist audiences.",
+      "employ professional level oral and written communication and presentation skills;",
+      "Participation: quantity and quality of oral commentary during class"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: the required Research Project reproduces the discipline's criterion task end to end - a real laboratory or field research problem, sited in a working research laboratory under a supervisor, assessed by an academic committee. Not level 3: such tasks are not the assessment spine across stages - the coursework core's assessed artefacts are academic genres (quizzes, coding assignments, critical review, synthesis report, seminar), so the project stands as the single instance.",
+    "evidenceLines": [
+      "The project will be based in the laboratory of an academic staff member in the School of BioSciences or an approved external supervisor, depending on the particular research project.",
+      "For full-time students, the project will be taken over four consecutive semesters and will begin on the Monday of the first semester (students can start either semester 1 or semester 2 for mid-year intake) and continue for up to 88 weeks until the end of the fourth semester, minus recreation leave of between 4 and 8 weeks (22 weeks per semester over the four semesters).",
+      "A final synthesis report"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1 anchor matches exactly: work-situated learning exists only as an option - an off-campus internship subject offered among the Professional Skills electives a student 'may also complete'. Not level 2: no core unit places students in a real workplace or professional-community setting with practitioner supervision, and the cohort is not documented as already practising, so the v4.2 in-practice route does not apply.",
+    "evidenceLines": [
+      "And may also complete one of:",
+      "SCIE90017\tScience and Technology Internship",
+      "Semester 2 (Early-Start) (Off Campus)"
+    ]
+  },
+  "workplace": 4,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "A coherent specialist bioscience core with progressive depth: compulsory discipline core plus a 125-point sequenced research project whose parts are gated on completion of the prior component - a staged prerequisite chain, not interchangeable generic content.",
+      "evidenceLines": [
+        "Students must complete 200 points including:",
+        "Discipline Core subjects (25 pts)",
+        "Students may only progress through BioScience Research Project subjects upon successful completion of the earlier project component."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Assessment goes beyond recall or scripted response: a live 88-week laboratory or field research project with genuine methodological uncertainty and accountability to a supervisory committee, and a core statistics option requiring students to justify their own statistical and experimental design decisions.",
+      "evidenceLines": [
+        "The research project aims to develop a range of experimental and technical skills, a capacity to set goals and to design and plan experiments.",
+        "justify their own statistical decisions and experimental designs.",
+        "evaluate a research design and statistical methodology published in scientific literature; and"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C2 straddled 2 and 3: BIOL90002's outcome 'justify their own statistical decisions and experimental designs' plus its assessed 'A critical review' could be read as process/reliance justification, but no assessed task documents reliance on or overriding of a tool, source or collaborator, and BIOL90002 is only one of two core options. Lower-level rule applied - scored 2.",
+    "C5 straddled 2 and 3: the extract states a committee assesses the project and that progression is gated, but never states the student defends methodology to that committee, and the BIOL90004 assessment page is absent. Scored 3 on the anchor's explicit 'staged supervised review' route rather than the viva/defence route; recorded here because the defence element is inferred from the review structure, not quoted directly.",
+    "W1 straddled 1 and 2: the core BIOL90040 peer reviews and seminars are arguably research science's own professional genres, which would reach level 2. But the anchor for level 1 explicitly covers presentation to peers/staff, no audience beyond the teaching team is documented, and no criteria drawn from professional practice are stated. Lower-level rule applied - scored 1.",
+    "W2 straddled 2 and 3: the 125-point project is 62.5% of the degree and could be read as the assessment spine with real time constraints (88 weeks, sequential parts). But level 3 requires the pattern across stages and the coursework core's assessed artefacts are academic genres, so the professional-task instance is singular. Lower-level rule applied - scored 2. No 'authentic'/'real-world' label was relied on (R4).",
+    "W3 straddled 1 and 2: the research project is sited in a working laboratory and may use 'an approved external supervisor', which could be read as a professional-community placement. But it is a university research subject rather than a documented workplace placement with practitioner supervision, and the external-supervisor route is conditional. Lower-level rule applied - scored 1.",
+    "One construct, one home: BIOL90040's seminar presentation carries both collaboration (scored in C1) and communication (W1). The group/individual accountability structure was scored in C1 only; W1 was scored on the presentation-to-peers audience. The Research Project's task fidelity was scored in W2 and its inquiry/primary-evidence character in C5, with no double count in C1 or C4."
+  ],
+  "notScoreable": [
+    "SCIE90013 Communication for Research Scientists is compulsory ('Students must complete:' under Professional Skills subjects) but neither its subject page nor its assessment page is in the extract. The core communication assessment evidence W1 most needs is therefore absent; W1 was scored only on BIOL90040 and program-level outcomes, and would need re-scoring if that page were captured.",
+    "The BIOL90004 BioSciences Research Project Part 1 subject and assessment pages are absent, although the course-structure page states its assessment requirements govern the whole 125-point project. C4, C5, W2 and G2 were scored from course-structure text alone; the actual assessed artefacts, criteria and any defence or hurdle are not documented in this extract."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-08-23"
+  }
+};
+
+export default record;

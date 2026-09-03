@@ -1,0 +1,121 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "C1": {
+    "score": 2,
+    "rationale": "Group work is assessed in multiple core units: AGRI10045 has a group practical report (15%), AGRI10046 has a group practical report (15%), AGRI10050 has a group report (15%), ENVS10001 has a group oral presentation (20%). Collaboration is also stated in learning outcomes. However, no evidence of coordinating work across people AND tools/AI systems (level 3 requires this).",
+    "evidenceLines": [
+      "Group Assessment / Project- Group practical report (3-4 students per group) 1500 words Week 11 or 12 15%",
+      "Group practical report (3-4 students per group) 1500 words Week 10 or 11 15%",
+      "Group report based on activities from module 2 1000 words Week 8 15%",
+      "Assignment 3: Oral presentation of site visit findings (group task) 15 minutes Week 10 20%",
+      "Collaborate effectively in a team and demonstrate leadership skills"
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Reflection and self-assessment appear in learning outcomes and as hurdle requirements (AGRI10047 has two written self-reflections as hurdle; ANSC10001 has peer review as hurdle). However, no core graded assessment requires criterion-referenced appraisal of quality. The peer review in ANSC10001 is a hurdle, not a graded assessment.",
+    "evidenceLines": [
+      "Two written self-reflections 200 words (each) Hurdle requirement",
+      "Peer review of two other student presentations 300 words (equivalent) Hurdle requirement",
+      "Critically evaluate options, and formulate plans that will ensure long term industry and environmental sustainability"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 0 is falsified — digital content does exist: data management, data visualisation and statistics are taught and assessed in the Level 1 Degree Core, and precision farming is named in the program-level overview. But that content is exactly what level 1 describes: 'AI or digital tools appear only as electives or as tool operation/training'. Precision agriculture is available only as a Level 3 elective, and the core's digital content is operational data handling. Level 2 requires core units addressing AI capabilities AND limitations/ethics: the word AI, and any treatment of tool limitations, ethics, bias, governance or data governance, is absent from the entire extract, so 2 and 3 both fail.",
+    "evidenceLines": [
+      "Students will develop an understanding of fundamental scientific concepts, and will learn to apply this understanding to a range of agricultural contexts, including precision farming.",
+      "Mathematics topics in this subject will include: data visualisation; data analyses, including population statistics and correlation; determination of key data parameters such as rate of change, maxima and minima.",
+      "Integrate the use of numerical data, graphical analysis, basic statistics, and mapping, to represent and interpret phenomena in the natural world, in particular as they operate in agricultural environments",
+      "Applications in Precision Agriculture",
+      "Level 3 electives"
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Transfer and application to novel situations appear in learning outcomes. AGRI10047 includes a small self-directed project. However, no core assessment explicitly requires application to novel or unfamiliar problems, and there is no structured progression toward independent learning documented in the core.",
+    "evidenceLines": [
+      "You will also conduct a small project in an area of Agriculture of your choosing",
+      "Apply principles in physics and chemistry using logical reasoning, together with appropriate mathematical reasoning, to a variety of familiar and novel situations"
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Research methodologies appear in learning outcomes. AGRI10047 includes a small self-directed project. However, no core assessment requires designing and conducting an inquiry with methodology selection and data collection. The capstone subject exists but details are not extracted.",
+    "evidenceLines": [
+      "Choose and apply research methodologies necessary to design, conduct and interpret small scientific research projects",
+      "You will also conduct a small project in an area of Agriculture of your choosing"
+    ]
+  },
+  "adaptiveness": 6,
+  "W1": {
+    "score": 1,
+    "rationale": "Communication appears in learning outcomes and generic skills. Some subjects include oral presentations (AGRI20003 group presentation, ENVS10001 group presentation). However, all communication is to peers/staff within academic genres. No professional genre (client brief, policy advice, pitch) or external audience is assessed.",
+    "evidenceLines": [
+      "Communicate and discuss scientific and industry information with relevant stakeholders in a variety of media and settings",
+      "Group activity - oral presentation 15 minutes During intensive week 20%",
+      "Assignment 3: Oral presentation of site visit findings (group task) 15 minutes Week 10 20%"
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Field trips and practicals provide real-world context (AGRI20038 field trips, AGRI10047 Dookie Discovery Week). However, the artefacts produced are academic reports, and the criteria applied remain academic. No core assessment reproduces a professional task end to end with practice-derived criteria.",
+    "evidenceLines": [
+      "field trips will be used to enable students to understand the relationship between landscapes, soils and land use",
+      "Report 1 based on field trips, practicals or workshops",
+      "Attendance and completion of Agriculture Discovery Week at Dookie Campus"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "AGRI30041 Industry Internship exists as a Level 3 elective (12.5 credit points). It is not a core requirement. The overview mentions 'opportunity to undertake industry placements' but these are optional.",
+    "evidenceLines": [
+      "The exception to this is AGRI30041 / Industry Internship, which students in the Bachelor of Agriculture are permitted to undertake after the completion of Year 1.",
+      "Students will also have an opportunity to undertake industry placements"
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "The program has a coherent specialist core with progressive depth: AGRI10045/10046 (Foundations), AGRI10048/10049 (Production Systems), AGRI10050/10051 (Biology/Genetics), AGRI20038/20042/20043 (Level 2 core). This is an all-compulsory specialist core with clear agricultural science identity.",
+      "evidenceLines": [
+        "100 credit points of Level 1 Degree Core subjects",
+        "37.5 credit points of Level 2 Degree Core subjects",
+        "Completion of one prescribed major (consisting of a total of 87.5 credit points)"
+      ]
+    },
+    "G2": {
+      "result": "FAIL",
+      "rationale": "Assessments are predominantly examinations, reports, and tests. No evidence of defended trade-off decisions, simulations with real uncertainty, or live projects with accountability. The learning outcomes mention critical evaluation but the assessment formats do not require defended decisions under uncertainty.",
+      "evidenceLines": [
+        "Examination 2 hours During the examination period 45%",
+        "Written examination paper 2 hours During the examination period 50%",
+        "Written examination 2 hours End of semester 50%"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C1: Group work recurs across core units but no evidence of coordinating across people AND tools/AI - scored at level 2",
+    "C2: Peer review exists as hurdle but not as graded assessment - scored at level 1",
+    "W2: Field trips provide authentic context but artefacts are academic reports - scored at level 1",
+    "W3: Industry Internship exists but is elective not core - scored at level 1",
+    "C3 reverted to origin's score (1) on this review: the Level 1 Degree Core explicitly teaches and assesses data visualisation, data analysis (population statistics, correlation, key data parameters) as part of its mathematics content — this is program-level/core digital-data content, so the level-0 anchor ('No digital/AI content in any core unit or program-level outcome') is not met. The local rescoring's score of 0 quoted this same content as evidence while asserting no such content exists — an internal contradiction."
+  ],
+  "notScoreable": [
+    "No Level 3 subject page appears in the extract — neither the required Capstone subject, nor AGRI30041 Industry Internship, nor AGRI30006 Industry Project, nor any Level 3 major subject. All eight items were scoreable from the Level 1/Level 2 core evidence present, but the level-3 routes for C4 and C5, the assessment-spine test for W2, and the capstone route for G2 could not be evaluated on this extract; a capture of the Level 3 core/capstone pages could change C4, C5, W2 and G2.",
+    "Assessment pages for the two remaining Level 2 Degree Core subjects are present, but no core subject page in the extract documents marking criteria or rubrics for any task, so the 'judged against criteria drawn from practice' conjunct in W1 level 2 and W2 level 2 could not be tested directly for any assessment — it was treated as undocumented, not as satisfied."
+  ],
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-01"
+  }
+};
+
+export default record;
