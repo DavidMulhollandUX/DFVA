@@ -90,3 +90,48 @@ def test_field_grain_resolution_reaches_an_empirical_ledger_for_a_backlog_code()
 def test_render_refuses_a_program_with_no_field():
     with pytest.raises(SystemExit):
         ms.render('no-such-code', '2026-09-03', 6)
+
+
+SIBLING = """# DFVA MARKET INTELLIGENCE: X (X)
+
+## 4. SKILL SHIFT SUMMARY
+
+| Skill | Direction | Rationale |
+|---|---|---|
+| python | Rising | Recurring keyword. |
+| sql | TO BE AUTHORED | Recurring keyword. |
+
+## 5. CURRICULUM IMPLICATIONS
+
+| # | Implication | Dimension | Action |
+|---|---|---|---|
+| CI-1 | Modelling work is assessed individually. | C1 | Add a group task (cost: marking load). |
+
+## 6. EVIDENCE CONFIDENCE + GAPS
+"""
+
+
+def test_parse_sibling_lifts_filled_directions_and_the_s5_block():
+    directions, s5 = ms.parse_sibling(SIBLING)
+    assert directions == {'python': 'Rising'}
+    assert s5.startswith('| # | Implication') and 'CI-1' in s5
+
+
+def test_parse_sibling_returns_no_s5_when_unfilled():
+    _d, s5 = ms.parse_sibling(SIBLING.replace('Modelling work is assessed individually.', ms.A))
+    assert s5 is None
+
+
+def test_same_professions_compares_soc_sets_only():
+    a = {'socs': [{'soc': '15-1252', 'weight': 1}, {'soc': '13-2011', 'weight': 2}]}
+    b = {'socs': [{'soc': '13-2011', 'weight': 9}, {'soc': '15-1252', 'weight': 0}]}
+    assert ms.same_professions(a, b)
+    assert not ms.same_professions(a, {'socs': [{'soc': '15-1252'}]})
+    assert not ms.same_professions({'socs': []}, {'socs': []})
+
+
+def test_render_s4_and_s5_take_reused_content():
+    s4 = ms.render_s4([], {'python': 'Rising'})
+    assert ms.A in s4  # no ledgers → the placeholder row
+    s5 = ms.render_s5('| # | Implication | Dimension | Action |\n|---|---|---|---|\n| CI-1 | x | C1 | y |')
+    assert ms.A not in s5 and 'AUTHOR:S5' not in s5

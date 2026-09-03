@@ -171,7 +171,7 @@ const results = await pipeline(
   // ── Score ──────────────────────────────────────────────────────────────
   (code) =>
     agent(
-      `Read dfva/dist/v4/DFVA-V4-SCORING-PROMPT.md and follow it EXACTLY to score program ` +
+      `Read dfva/dist/v4/DFVA-V4-SCORING-PROMPT.agent.md and follow it EXACTLY to score program ` +
         `"${code}" on Panel C (the instrument version the prompt states) — BOTH sub-scales: the adaptive capabilities C1-C5 ` +
         `(/15) and workplace practice W1-W3 (/9). Report them separately and never sum ` +
         `them into one figure. The handbook evidence is the file scrapes/v4/${code}.txt — ` +
@@ -193,7 +193,7 @@ const results = await pipeline(
         `Return its stdout parsed as JSON. Do not read, edit or create any file. If the command ` +
         `exits non-zero, return {"code":"${code}","unmatched":[],"noCapture":true,"misidentified":false,` +
         `"outOfScope":[],"phantomCodes":[],"missingSubjects":[]} and put the first stderr line in "error".`,
-      { label: `mechanical:${code}`, phase: 'Verify', effort: 'low', schema: MECH_SCHEMA },
+      { label: `mechanical:${code}`, phase: 'Verify', effort: 'low', model: 'haiku', schema: MECH_SCHEMA },
     ).then((mech) => {
       if (mech.noCapture) throw new Error(`mechanical:${code} no capture file or the check failed to run`)
       if (mech.misidentified)
@@ -206,7 +206,7 @@ const results = await pipeline(
       `Adversarially verify this Panel C scoring for "${code}" — the C1-C5 items ` +
         `AND the W1-W3 workplace items: ` +
         `${JSON.stringify(scored.panelCv4)}. Read the anchors in ` +
-        `dfva/dist/v4/DFVA-V4-SCORING-PROMPT.md and the evidence in scrapes/v4/${code}.txt. ` +
+        `dfva/dist/v4/DFVA-V4-SCORING-PROMPT.agent.md and the evidence in scrapes/v4/${code}.txt. ` +
         `The mechanical verbatim check has ALREADY run. These recorded lines are NOT in the ` +
         `extract and WILL be deleted before the record is written: ${JSON.stringify(mech.unmatched)}. ` +
         `These lines quote text that is not on the subject they name: ${JSON.stringify(mech.outOfScope)}. ` +
@@ -243,7 +243,7 @@ const results = await pipeline(
         `If it exits 0, return {"ok":true,"report":<its stdout parsed as JSON>}. If it exits ` +
         `non-zero, return {"ok":false,"error":"<first stderr line>"}. Do not edit any other file, ` +
         `and do not touch dfva/source/evidence/ yourself — the script is the only writer.`,
-      { label: `persist:${r.code}`, phase: 'Persist', effort: 'low', schema: PERSIST_RESULT },
+      { label: `persist:${r.code}`, phase: 'Persist', effort: 'low', model: 'haiku', schema: PERSIST_RESULT },
     ).then((res) => {
       if (!res.ok || !res.report) throw new Error(`persist:${r.code} refused — ${res.error ?? 'no report'}`)
       const persisted = res.report

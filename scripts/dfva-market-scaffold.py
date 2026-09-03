@@ -294,7 +294,53 @@ def render_s3(chosen, ledgers):
     return '\n'.join(lines).rstrip('\n') + '\n'
 
 
-def render_s4(ledgers):
+def parse_sibling(text):
+    """An authored sibling report's §4 Direction cells (by skill) and its §5 block.
+    Returns (directions, s5) with s5 None when the sibling's §5 is itself unfilled."""
+    m4 = re.search(r'^## 4\..*?\n(.*?)(?=^## |\Z)', text, re.M | re.S)
+    directions = {}
+    for line in (m4.group(1) if m4 else '').split('\n'):
+        if not line.startswith('| ') or line.startswith('| Skill') or line.startswith('|---'):
+            continue
+        cells = [c.strip() for c in re.split(r'(?<!\\)\|', line)[1:-1]]
+        if len(cells) >= 2 and cells[1] and cells[1] != A:
+            directions[cells[0]] = cells[1]
+    m5 = re.search(r'^## 5\..*?$\n(.*?)(?=^## 6)', text, re.M | re.S)
+    s5 = m5.group(1).strip('\n') if m5 else ''
+    if not s5 or A in s5 or 'AUTHOR:S5' in s5:
+        s5 = None
+    return directions, s5
+
+
+def same_professions(a, b):
+    """Two resolutions share a profession set when their SOC codes are identical."""
+    return {x['soc'] for x in a['socs']} == {x['soc'] for x in b['socs']} and bool(a['socs'])
+
+
+def siblings(code):
+    """Scored programs whose profession set equals this one's, with their market-report state."""
+    me = resolve_professions(code)
+    out = []
+    for f in sorted((ROOT / 'dfva/source/evidence').glob('*.json')):
+        other = f.stem
+        if other == code or 'panelCv4' not in f.read_text():
+            continue
+        try:
+            res = resolve_professions(other)
+        except SystemExit:
+            continue
+        if not same_professions(me, res):
+            continue
+        rp = ROOT / 'reports' / f'dfva-market-{other}.md'
+        state = 'no market report'
+        if rp.exists():
+            _d, s5 = parse_sibling(rp.read_text())
+            state = 'authored — reusable' if s5 else 'scaffolded, §5 unfilled'
+        out.append((other, state))
+    return out
+
+
+def render_s4(ledgers, directions=None):
     counts = collections.Counter()
     where = {}
     for led in ledgers:
@@ -305,14 +351,16 @@ def render_s4(ledgers):
     for k, _n in counts.most_common(6):
         led = where[k]
         cnt = (led.get('jobAds') or {}).get('count')
-        lines.append(f"| {_esc(k)} | {A} | Recurring keyword in the advertisement sample for {_esc(led['title'])}"
+        lines.append(f"| {_esc(k)} | {(directions or {}).get(k, A)} | Recurring keyword in the advertisement sample for {_esc(led['title'])}"
                      f" (§2{f', {cnt:,} postings' if cnt else ''}). |")
     if not counts:
         lines.append(f"| {A} | {A} | {A} |")
     return '\n'.join(lines) + '\n'
 
 
-def render_s5():
+def render_s5(block=None):
+    if block:
+        return '## 5. CURRICULUM IMPLICATIONS\n\n' + block + '\n'
     return ('## 5. CURRICULUM IMPLICATIONS\n\n'
             '<!-- AUTHOR:S5 — one row per implication; Dimension names the scored items (C1–C5, W1–W3)\n'
             '     the implication bears on; Action is an option with its cost, never a directive. -->\n\n'
@@ -344,8 +392,20 @@ def render_s6(res, ledgers, skipped):
     return '\n'.join(lines) + '\n'
 
 
-def render(code, date, max_themes):
+def render(code, date, max_themes, reuse=None):
     res = resolve_professions(code)
+    directions, s5 = {}, None
+    if reuse:
+        # Same profession set → same market evidence, so the sibling's authored §4
+        # Direction and §5 carry over. The author still checks §5 for program fit.
+        if not same_professions(res, resolve_professions(reuse)):
+            raise SystemExit(f"{code}: profession set differs from {reuse}; nothing to reuse (see --siblings)")
+        rp = ROOT / 'reports' / f'dfva-market-{reuse}.md'
+        if not rp.exists():
+            raise SystemExit(f"{reuse}: no market report to reuse")
+        directions, s5 = parse_sibling(rp.read_text())
+        if s5 is None:
+            raise SystemExit(f"{reuse}: its §5 is not authored yet; nothing to reuse")
     if not res['name']:
         raise SystemExit(f"{code}: no entry in data/jsa/program_fields.json — assign a field and name first")
     ledgers, skipped = load_ledgers(res['socs'])
@@ -358,8 +418,8 @@ def render(code, date, max_themes):
         render_s1(res, ledgers, skipped),
         render_s2(ledgers),
         render_s3(chosen, ledgers),
-        render_s4(ledgers),
-        render_s5(),
+        render_s4(ledgers, directions),
+        render_s5(s5),
         render_s6(res, ledgers, skipped),
     ])
     return sanitise(body).rstrip('\n') + '\n\n' + footer.build_block(code) + '\n'
@@ -385,8 +445,14 @@ def main():
     ap.add_argument('--stdout', action='store_true', help='print the report; write nothing')
     ap.add_argument('--date', default=dt.date.today().isoformat())
     ap.add_argument('--max-themes', type=int, default=6)
+    ap.add_argument('--reuse-from', metavar='CODE', help='copy §4 Direction and §5 from an authored sibling with the same profession set')
+    ap.add_argument('--siblings', action='store_true', help='list scored programs sharing this profession set, then exit')
     a = ap.parse_args()
-    text = render(a.code, a.date, a.max_themes)
+    if a.siblings:
+        rows = siblings(a.code)
+        print('\n'.join(f"{c}: {state}" for c, state in rows) if rows else f"{a.code}: no sibling shares its profession set")
+        return
+    text = render(a.code, a.date, a.max_themes, reuse=a.reuse_from)
     if a.stdout:
         sys.stdout.write(text)
         return
@@ -394,7 +460,8 @@ def main():
     if out.exists() and not a.force:
         raise SystemExit(f"{out.relative_to(ROOT)} exists — pass --force to overwrite")
     out.write_text(text)
-    print(f"wrote {out.relative_to(ROOT)} — author §4 Direction and §5, then: "
+    todo = 'review the reused §5 rows for program fit' if a.reuse_from else 'author §4 Direction and §5'
+    print(f"wrote {out.relative_to(ROOT)} — {todo}, then: "
           f"cd scripts && npx tsx check-report-format.ts --code {a.code}")
 
 

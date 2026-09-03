@@ -634,6 +634,28 @@ def cmd_requeue(codes: list[str]) -> None:
         print("nothing to requeue")
 
 
+# Page chrome the handbook repeats on every page and no rubric item can quote:
+# the year picker, the timetable and fees links, the site navigation. Exact-line
+# matches only — section headings stay because they mark structure, and every
+# evidence line already stamped must survive (dfva:verify-evidence --strict).
+CHROME_LINES = {"Timetable (login required)", "(opens in new window)", "Fees\tLook up fees",
+                "Look up fees", "Handbook", "Courses", "Subjects", "Search", "//"}
+YEAR_LINE = re.compile(r"^20[12]\d$")
+
+
+def strip_chrome(text: str) -> str:
+    out, blank = [], 0
+    for line in text.split("\n"):
+        s = line.strip()
+        if s in CHROME_LINES or YEAR_LINE.match(s):
+            continue
+        blank = blank + 1 if not s else 0
+        if blank > 1:
+            continue
+        out.append(line)
+    return "\n".join(out)
+
+
 def assemble_one(code: str, prog: dict) -> str:
     pending = [p for p in prog["pages"].values() if p["status"] in ("pending", "inflight")]
     if pending:
@@ -655,7 +677,7 @@ def assemble_one(code: str, prog: dict) -> str:
     for _, page in ordered:
         path = os.path.join(PAGES, f"{code}__{page['slot']}.txt")
         if os.path.exists(path):
-            body.append(open(path).read().rstrip())
+            body.append(strip_chrome(open(path).read()).rstrip())
     with open(os.path.join(OUT, f"{code}.txt"), "w") as fh:
         fh.write("\n\n".join(body) + "\n")
     prog["assembled"] = True

@@ -14,7 +14,6 @@ DFVA batch pipeline validation and tooling
 ## Memory files (read these, not source files)
 - @.claude/rules/architecture.md — folder map, entry points, data flow
 - @.claude/rules/stack.md — tech stack, versions, all commands
-- @.claude/rules/modules.md — every module and what it does
 - @.claude/rules/models.md — DB schemas and data types
 - @.claude/rules/api.md — all routes and endpoints
 - @.claude/rules/conventions.md — naming, patterns, testing approach

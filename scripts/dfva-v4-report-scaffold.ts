@@ -492,12 +492,42 @@ ${canonicalReferences()}`)
   return parts.join('\n\n') + '\n'
 }
 
+/** The improvement plan's §1 diagnostic and §4 intervention rows, as the §5 author
+ *  needs them. Parsed from the rendered report so the author reads this context
+ *  instead of the 30 KB plan; citations collapse to [n]. */
+export function readRecommendPlan(content: string): {
+  diagnostic: { item: string; score: string; headroom: string; marketEvidence: string; priority: string }[]
+  interventions: { n: string; item: string; action: string; anchor: string; effort: string; sequence: string }[]
+} {
+  const section = (n: number) => {
+    const m = content.match(new RegExp(`^## ${n}\\.[^\\n]*\\n([\\s\\S]*?)(?=^## |\\Z)`, 'm'))
+    return m ? m[1] : ''
+  }
+  const cells = (line: string) =>
+    line
+      .replace(/\[\[(\d+)\]\]\([^)]*\)/g, '[$1]')
+      .split(/(?<!\\)\|/)
+      .slice(1, -1)
+      .map((c) => c.trim())
+  const rows = (text: string, first: RegExp) =>
+    text.split('\n').filter((l) => first.test(l)).map(cells)
+  return {
+    diagnostic: rows(section(1), /^\| [CW]\d /).map((c) => ({
+      item: c[0], score: c[2], headroom: c[3], marketEvidence: c[4], priority: c[5],
+    })),
+    interventions: rows(section(4), /^\| P\d+ /).map((c) => ({
+      n: c[0], item: c[1], action: c[2], anchor: c[3], effort: c[4], sequence: c[5],
+    })),
+  }
+}
+
 /** What the author needs for --fill: the seeded signals and the §5 rows. */
 function fillTemplate(code: string): Record<string, unknown> {
   const ev = JSON.parse(readFileSync(path.join(repoRoot, 'dfva', 'source', 'evidence', `${code}.json`), 'utf8'))
   const pc = ev.panelCv4
   const mp = path.join(repoRoot, 'reports', `dfva-market-${code}.md`)
   const m = existsSync(mp) ? readMarket(readFileSync(mp, 'utf8')) : null
+  const rp = path.join(repoRoot, 'reports', `dfva-v4-recommend-${code}.md`)
   return {
     code,
     // Only when the market report's §1 has no table: otherwise the seeded rows win.
@@ -507,13 +537,15 @@ function fillTemplate(code: string): Record<string, unknown> {
     context: {
       items: ALL_V4_ITEMS.map((i) => ({ id: i.id, name: i.name, score: pc[i.id].score, rationale: pc[i.id].rationale })),
       skillShifts: m?.skillShifts ?? [],
-      recommendPlan: `reports/dfva-v4-recommend-${code}.md`,
+      recommendPlan: existsSync(rp)
+        ? { path: path.relative(repoRoot, rp), ...readRecommendPlan(readFileSync(rp, 'utf8')) }
+        : { path: path.relative(repoRoot, rp), missing: true },
       rules: [
         'jobFamilies (present only when the market §1 has no table): three or so families from the market report and the destinations footer; no empty cell — write "not stated in the market report".',
         'Bearing maps each signal to the scored items it bears on (C1–C5, W1–W3) — the join between market and instrument.',
         'Implication: what the score means given §4, falsifiable against it; if it would read the same for any program it is too generic.',
         'Cost: what acting would take (displaced subjects, staff capability, placement capacity, marking load). Options with costs, never directives.',
-        'Source both §5 columns from the improvement plan; §5 must not contradict it. A level-3 row with an empty cost gets the fixed "none needed" string.',
+        'Source both §5 columns from context.recommendPlan (the improvement plan\'s diagnostic and intervention rows); §5 must not contradict it. Do not open the report files — this context is complete. A level-3 row with an empty cost gets the fixed "none needed" string.',
       ],
     },
   }
