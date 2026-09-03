@@ -27,10 +27,17 @@ keeps the old market report legal does not make its content a sound input for a 
 Source §3 first, then scaffold, then author.
 
 ```
-market §3 sourced  →  dfva-v4-report-scaffold.ts <code>  →  author §4  →  author §5
-                                                              ↑
-                                        (§4 must already exist to write §5 honestly)
+market §3 sourced  →  dfva-v4-report-scaffold.ts <code>  →  recommend plan  →  §4 Bearing + §5 (--fill)
+                      (§4 seeded from the market report)     (v4-recommend-cohort.js)   ↑
+                                                              §5 is sourced from the plan's diagnostic
+                                                              table, so the plan must exist first
 ```
+
+The scaffold seeds §4's job-family table, the exposure-basis sentence, the signal
+table and the restated confidence from the market report; the author supplies only
+§4's `Bearing on the scored items` column and §5's Implication and Cost cells, as a
+fill JSON (`--fill-template` prints the skeleton, `--fill <json>` renders it). The
+scaffold is the only writer of the report file.
 
 ---
 

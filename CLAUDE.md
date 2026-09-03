@@ -132,6 +132,17 @@ cd compass/mcp && npm run dev
 Read `.claude/.session_context.txt` before exploring. Do not `ls`/`find`/`grep` — the overview script already captured the project structure.
 
 ## Model tiering
-- **Opus (deepseek-v4-pro)**: MCP design, scoring methodology, complex analysis
-- **Sonnet (deepseek-chat)**: feature builds, UI fixes, test writing, lint fixes
+- **Opus**: MCP design, scoring methodology, complex analysis, the Score and Verify
+  stages of `v4-score-cohort.js`
+- **Sonnet**: feature builds, UI fixes, test writing, lint fixes, fill-cell authoring
 - Default to Sonnet unless the task requires architectural reasoning
+- Workflow runner agents (one command, return stdout) use `effort: 'low'`; the deterministic
+  work is in the script they call, never in the agent
+
+## Token discipline for report work
+- A step that is arithmetic on files is a script, not an agent: persist
+  (`scripts/dfva-v4-persist.ts`), the verbatim check
+  (`dfva-v4-verify-evidence.ts --scored --json`), scaffolds (`dfva-v4-report-scaffold.ts`,
+  `dfva-v4-recommend-scaffold.ts`, `dfva-market-scaffold.py`).
+- Authors write fill JSON, never report files. Lint one file: `check-report-format.ts --code <code>`.
+- Measure before and after: `npx tsx scripts/dfva-token-audit.ts <code> --both`.

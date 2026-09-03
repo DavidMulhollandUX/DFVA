@@ -222,3 +222,17 @@ test('lowercase "resilient" as an ordinary word does not fail', () => {
   const mutated = v4rBase.replace('### Verdict', '### Verdict\n\nA structurally resilient credential.')
   assert.deepEqual(checkV4RResearchReport('dfva-v4r-dr-philsci', mutated), [])
 })
+
+// ── unfilled scaffold markers fail in every family ──
+
+test('a market report carrying TO BE AUTHORED fails', () => {
+  const mutated = marketBase.replace('## 5.', 'TO BE AUTHORED\n\n## 5.')
+  const issues = checkMarketReport('dfva-market-mc-cs', mutated)
+  assert.ok(issues.some((i) => i.includes('unfilled scaffold markers')))
+})
+
+test('a v4 report carrying an AUTHOR comment fails', () => {
+  const mutated = v4Base.replace('## 5.', '<!-- AUTHOR:S5 -->\n## 5.')
+  const issues = checkV4Report('x', mutated)
+  assert.ok(issues.some((i) => i.includes('unfilled scaffold markers')))
+})

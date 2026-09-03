@@ -187,6 +187,28 @@ ls scrapes/v4/*.txt | xargs -n1 basename | sed 's/.txt//'
 The scoring prompt is read from dist at run time, so the workflow never embeds a
 copy of the rubric.
 
+### Deterministic steps are scripts, not agents (2026-09-03)
+
+Two stages of `v4-score-cohort.js` used to be LLM work on data that never needed a
+model: the verbatim evidence check and the persist step. Both are scripts now, and the
+workflow runs them through low-effort **runner agents** — an agent whose whole prompt is
+one command and "return its stdout" — because the Workflow API has no shell primitive.
+
+| Step | Script | What the agent no longer does |
+| --- | --- | --- |
+| Verbatim check | `dfva-v4-verify-evidence.ts --scored <pending> --json` | grep the extract; the computed `unmatched` list is injected into the reviewer's prompt and unioned into the verdict in code |
+| Persist | `dfva-v4-persist.ts <code>` | apply demotions, delete lines, re-sum, merge; no LLM writes `dfva/source/evidence/` in the workflow |
+| Improvement plan | `dfva-v4-recommend-scaffold.ts <code> --fill <json>` | write the report file; the agent writes a fill JSON of judgement cells |
+| Report §4/§5 | `dfva-v4-report-scaffold.ts <code> --fill <json>` | write §4's tables and basis sentence; the agent fills Bearing, Implication and Cost |
+| Market report | `dfva-market-scaffold.py <code>` | write §1–§3 and §6; the agent fills §4 Direction and §5 |
+
+In-flight blocks and fill JSON live in `scrapes/v4/pending/` (gitignored). The reviewer
+still reads the prompt and the extract in full — refutation needs the source — and it
+must now state, for every item that loses a line, the level its remaining evidence
+supports; `dfva-v4-persist.ts` refuses a loss with no stated level rather than inferring
+one. Lint one file with `check-report-format.ts --code <code>`; measure a program's
+mandated reads with `dfva-token-audit.ts <code> --both`.
+
 ### Three rules for running a batch
 
 These are disciplines, not mechanisms — nothing enforces them mechanically. Each

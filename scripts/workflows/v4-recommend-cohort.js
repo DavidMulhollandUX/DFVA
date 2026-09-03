@@ -2,9 +2,9 @@ export const meta = {
   name: 'v4-recommend-cohort',
   description: 'Write v4 improvement plans (reports/dfva-v4-recommend-<code>.md) for scored programs',
   whenToUse:
-    'After v4-score-cohort has persisted verified panelCv4 blocks. One agent per program, from disk only; the plan is what completes Part B of the v4 Durability Report page.',
+    'After v4-score-cohort has persisted verified panelCv4 blocks and the market report exists. One agent per program, from disk only; the plan is what completes Part B of the v4 Durability Report page.',
   phases: [
-    { title: 'Recommend', detail: 'DFVA-V4-RECOMMEND-PROMPT.md per program, lint, fix' },
+    { title: 'Recommend', detail: 'author the fill cells, render with dfva-v4-recommend-scaffold.ts --fill, lint one file' },
   ],
 }
 
@@ -38,6 +38,11 @@ const RESULT = {
   },
 }
 
+// The agent never writes the report. The scaffold derives every rule-bound
+// section (header, scores, headroom, anchors, gate rows, cumulative ladder,
+// REFERENCES) and the agent supplies only the judgement cells as a fill JSON.
+// A missing cell renders as TO BE AUTHORED and the lint refuses the file, so a
+// half-authored plan cannot reach the site. Lint runs on one file, not 576.
 log(`Writing improvement plans for ${codes.length} program(s) from disk; no network access in this workflow.`)
 
 const results = await parallel(
@@ -46,20 +51,21 @@ const results = await parallel(
       `First check two inputs exist: dfva/source/evidence/${code}.json must carry a ` +
         `"panelCv4" block with "verified" stamped, and reports/dfva-market-${code}.md must exist. ` +
         `If either is missing, return status "skipped" with the reason and write nothing. ` +
-        `Otherwise read dfva/dist/v4/DFVA-V4-RECOMMEND-PROMPT.md and follow it EXACTLY to write ` +
-        `the improvement plan for ${code}. Inputs: the verified panelCv4 block and the market ` +
-        `report. Write reports/dfva-v4-recommend-${code}.md per ` +
-        `dfva/dist/v4/recommend-template-v4.md — every intervention targets a named item's ` +
-        `NEXT anchor level and cites a named market signal; inline citations use the ` +
-        `web-linked [[n]](url) form; REFERENCES must match the template verbatim. ` +
-        `Do NOT state a position/quadrant label or any exposure figure unless the program has a ` +
-        `measured exposure in compass/app/src/compass/v3/data/v3Programs.ts or ` +
-        `compass/app/src/compass/v4/data/v4PanelC.ts (V4_ONLY_PROGRAMS); for a Panel-C-only ` +
-        `program the Position basis line carries adaptiveness and workplace only and says ` +
-        `exposure is not measured. Use only the handbook evidence and the market report — no ` +
-        `prior knowledge of the program. Then run ` +
-        `"npm --prefix scripts run dfva:report-lint" and fix every error that names ` +
-        `dfva-v4-recommend-${code}.md. Return {code, status, levers, recommendPath, lintClean}.`,
+        `Otherwise, from the repository root run: cd scripts && npx tsx dfva-v4-recommend-scaffold.ts ${code} --fill-template ` +
+        `— it prints the JSON you must fill (preamble, marketEvidence per item, actions per step, ` +
+        `alignment rows, interventions rows, constraints per gate) plus a "context" object with each ` +
+        `item's score, rationale and anchor text. Read dfva/dist/v4/DFVA-V4-RECOMMEND-PROMPT.md for ` +
+        `the rules, dfva/source/evidence/${code}.json for the scored rationales, and ` +
+        `reports/dfva-market-${code}.md for the market signals. Fill EVERY key: each action targets ` +
+        `the named item's NEXT anchor level and cites a named market signal; inline citations use ` +
+        `the web-linked [[n]](url) form with n from the canonical REFERENCES list; options with ` +
+        `costs, never directives; no exposure figure or position label beyond what "context" states. ` +
+        `Use only the handbook evidence and the market report — no prior knowledge of the program. ` +
+        `Write the filled JSON to scrapes/v4/pending/${code}.recommend-fill.json (drop the "context" ` +
+        `key), then run: cd scripts && npx tsx dfva-v4-recommend-scaffold.ts ${code} --fill ../scrapes/v4/pending/${code}.recommend-fill.json ` +
+        `&& npx tsx check-report-format.ts --code ${code}. On a lint error, edit the fill JSON — never ` +
+        `the report file — and rerun both commands. Return {code, status, levers (the number of ` +
+        `interventions), recommendPath, lintClean}.`,
       { label: `recommend:${code}`, phase: 'Recommend', schema: RESULT },
     ),
   ),
@@ -72,8 +78,8 @@ const lost = codes.length - done.length
 if (skipped.length) log(`Skipped: ${skipped.map((s) => `${s.code} (${s.reason ?? 'missing input'})`).join(', ')}`)
 if (lost) log(`${lost} program(s) produced no result.`)
 log(
-  `Wrote ${written.length}/${codes.length}. Next: add "dfva-v4-recommend-<code>" keys to ` +
-    `compass/app/src/compass/reportContent.ts, then npm --prefix scripts run dfva:gen-content && dfva:check.`,
+  `Wrote ${written.length}/${codes.length}. Next: author the v4 report's §4 bearing and §5 ` +
+    `(scripts/dfva-v4-report-scaffold.ts <code> --fill …), then npm --prefix scripts run dfva:gen-content && dfva:check.`,
 )
 
 return {

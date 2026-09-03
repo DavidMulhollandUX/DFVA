@@ -6,9 +6,16 @@
  * anchor text at each target level, §5's gate guardrails, §6's cumulative
  * arithmetic and the three standing "this does not move a score" rules, and
  * the byte-exact REFERENCES list. The author supplies the market columns, the
- * curriculum actions and the prose.
+ * curriculum actions and the prose — as a fill object, never as the file.
  *
- *   npx tsx dfva-v4-recommend-scaffold.ts <code> [<code> …]
+ *   npx tsx dfva-v4-recommend-scaffold.ts <code> [<code> …]      # unfilled scaffold (skips an existing file)
+ *   npx tsx dfva-v4-recommend-scaffold.ts <code> --fill-template  # JSON skeleton + context for the author, to stdout
+ *   npx tsx dfva-v4-recommend-scaffold.ts <code> --fill <json>    # render the scaffold with the author's cells (overwrites)
+ *
+ * A fill key that is missing renders as TO BE AUTHORED, and dfva:report-lint
+ * refuses the file while any marker survives — so a partial fill cannot ship.
+ * The scaffold is the only writer of the report; an authoring agent writes the
+ * fill JSON and runs this script.
  */
 import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
@@ -20,11 +27,28 @@ import { V3_PROGRAMS } from '../compass/app/src/compass/v3/data/v3Programs'
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const A = 'TO BE AUTHORED'
 
+/** The author's cells. Every field is optional; a missing one renders as TO BE AUTHORED. */
+export interface RecommendFill {
+  /** §1 opening paragraph. */
+  preamble?: string
+  /** §1 "Market evidence for the gap", keyed by item id (C1 … W3). */
+  marketEvidence?: Record<string, string>
+  /** §2 "Curriculum action", keyed by "<item>:<to>" (e.g. "C3:2"). */
+  actions?: Record<string, string>
+  /** §3 rows. */
+  alignment?: Array<{ lever: string; item: string; evidence: string; location: string; confidence: string }>
+  /** §4 rows, numbered P1..Pn in array order. */
+  interventions?: Array<{ item: string; action: string; anchor: string; effort: string; sequence: string; sources: string }>
+  /** §5 "Constraint on redesign", keyed by gate id (G1, G2). */
+  constraints?: Record<string, string>
+}
+
 /** Reference number for a citation key. */
 const refN = (key: string): number => V4_REFERENCES[key].n
 
 const esc = (s: string) => s.replace(/\|/g, '\\|').replace(/\s*\n\s*/g, ' ').trim()
 const isAdaptive = (id: string) => id.startsWith('C')
+const cell = (v: string | undefined): string => (v && v.trim() ? esc(v) : A)
 
 function canonicalReferences(): string {
   const tmpl = readFileSync(path.join(repoRoot, 'dfva', 'dist', 'v4', 'recommend-template-v4.md'), 'utf8')
@@ -34,7 +58,18 @@ function canonicalReferences(): string {
   return lines.join('\n')
 }
 
-function scaffold(code: string): string {
+interface Program {
+  code: string
+  name: string
+  pc: any
+  exposure: number
+  basis: any
+  estimated: boolean
+  ranked: Array<{ it: (typeof ALL_V4_ITEMS)[number]; score: number; gap: number }>
+  steps: Array<{ id: string; name: string; from: number; to: number; anchor: string }>
+}
+
+function load(code: string): Program {
   const ev = JSON.parse(readFileSync(path.join(repoRoot, 'dfva', 'source', 'evidence', `${code}.json`), 'utf8'))
   const pc = ev.panelCv4
   if (!pc) throw new Error(`${code}: no panelCv4 block`)
@@ -46,20 +81,78 @@ function scaffold(code: string): string {
   const name: string = only?.name ?? v3?.name ?? code.toUpperCase()
   const exposure: number | null = v3?.exposure ?? only?.exposure ?? null
   if (exposure === null) throw new Error(`${code}: no exposure`)
-  const heading = `v${V4_VERSION.replace(/-draft$/, '')}`
-  const estimated = basis && ['cognate', 'partial', 'field'].includes(basis.tier)
+  const estimated = Boolean(basis && ['cognate', 'partial', 'field'].includes(basis.tier))
 
   // Items ranked by headroom, biggest gap first — §1's Priority column.
   const ranked = [...ALL_V4_ITEMS]
     .map((it) => ({ it, score: pc[it.id].score as number, gap: 3 - (pc[it.id].score as number) }))
     .sort((a, b) => b.gap - a.gap || a.it.id.localeCompare(b.it.id))
 
-  const diagRow = (r: (typeof ranked)[number], priority: number) =>
-    `| ${r.it.id} ${r.it.name} | ${isAdaptive(r.it.id) ? 'Adaptive' : 'Workplace'} | ${r.score} / 3 | ${r.gap} | ${A} | ${priority} |`
+  // §2: one row per level step still available on each item, anchor verbatim.
+  const steps: Program['steps'] = []
+  for (const { it, score } of ranked) {
+    for (let to = score + 1; to <= 3; to++) {
+      steps.push({ id: it.id, name: it.name, from: to - 1, to, anchor: it.levels[to] })
+    }
+  }
+  return { code, name, pc, exposure, basis, estimated, ranked, steps }
+}
+
+/** What the author needs to fill the cells, without reading the 12 KB template. */
+export function fillTemplate(code: string): Record<string, unknown> {
+  const p = load(code)
+  const priorityOf = new Map(p.ranked.map((r, i) => [r.it.id, i + 1]))
+  return {
+    code,
+    preamble: '',
+    marketEvidence: Object.fromEntries(p.ranked.map((r) => [r.it.id, ''])),
+    actions: Object.fromEntries(p.steps.map((s) => [`${s.id}:${s.to}`, ''])),
+    alignment: [],
+    interventions: [],
+    constraints: Object.fromEntries(GATES_V4.map((g) => [g.id, ''])),
+    context: {
+      name: p.name,
+      exposure: p.exposure,
+      basisTier: p.basis?.tier ?? null,
+      exposureEstimated: p.estimated,
+      adaptiveness: p.pc.adaptiveness,
+      workplace: p.pc.workplace,
+      items: p.ranked.map((r) => ({
+        id: r.it.id,
+        name: r.it.name,
+        score: r.score,
+        headroom: r.gap,
+        priority: priorityOf.get(r.it.id),
+        rationale: p.pc[r.it.id].rationale,
+        sources: mdCiteByN(r.it.evidenceBase.map((k) => refN(k))),
+      })),
+      steps: p.steps.map((s) => ({ key: `${s.id}:${s.to}`, item: s.id, from: s.from, to: s.to, anchor: s.anchor })),
+      gates: GATES_V4.map((g) => ({
+        id: g.id,
+        name: g.name,
+        result: p.pc.gates?.[g.id]?.result ?? 'not recorded',
+        rationale: p.pc.gates?.[g.id]?.rationale ?? '',
+      })),
+      rules: [
+        'Every action targets a named item\'s NEXT anchor level and cites a named market signal from reports/dfva-market-<code>.md.',
+        'Inline citations use the [[n]](url) form; n is the number in the canonical REFERENCES list.',
+        'Options with costs, never directives. No exposure figure unless it is the measured one stated in context.',
+        'Number §4 interventions in the order they should land; the # column is assigned by the scaffold.',
+      ],
+    },
+  }
+}
+
+function scaffold(code: string, fill: RecommendFill = {}): string {
+  const { name, pc, exposure, basis, estimated, ranked, steps } = load(code)
+  const heading = `v${V4_VERSION.replace(/-draft$/, '')}`
+  const priorityOf = new Map(ranked.map((r, i) => [r.it.id, i + 1]))
+
+  const diagRow = (r: Program['ranked'][number], priority: number) =>
+    `| ${r.it.id} ${r.it.name} | ${isAdaptive(r.it.id) ? 'Adaptive' : 'Workplace'} | ${r.score} / 3 | ${r.gap} | ${cell(fill.marketEvidence?.[r.it.id])} | ${priority} |`
 
   const adaptiveRanked = ranked.filter((r) => isAdaptive(r.it.id))
   const workplaceRanked = ranked.filter((r) => !isAdaptive(r.it.id))
-  const priorityOf = new Map(ranked.map((r, i) => [r.it.id, i + 1]))
 
   const diagnostic = [
     ...adaptiveRanked.map((r) => diagRow(r, priorityOf.get(r.it.id)!)),
@@ -68,24 +161,38 @@ function scaffold(code: string): string {
     `| **Workplace practice** | **Workplace** | **${pc.workplace} / 9** | **${9 - pc.workplace}** | — | — |`,
   ].join('\n')
 
-  // §2: one row per level step still available on each item, anchor verbatim.
-  const steps: Array<{ id: string; name: string; from: number; to: number; anchor: string; refs: number[] }> = []
-  for (const { it, score } of ranked) {
-    for (let to = score + 1; to <= 3; to++) {
-      steps.push({ id: it.id, name: it.name, from: to - 1, to, anchor: it.levels[to], refs: [] })
-    }
-  }
   const stepRows = steps
     .map((s) => {
       const item = ALL_V4_ITEMS.find((i) => i.id === s.id)!
-      return `| ${s.id} ${s.name} | ${s.from} → ${s.to} | "${esc(s.anchor)}" | ${A} | ${mdCiteByN(item.evidenceBase.map((k) => refN(k)))} |`
+      return `| ${s.id} ${s.name} | ${s.from} → ${s.to} | "${esc(s.anchor)}" | ${cell(fill.actions?.[`${s.id}:${s.to}`])} | ${mdCiteByN(item.evidenceBase.map((k) => refN(k)))} |`
     })
     .join('\n')
 
   const gateRows = GATES_V4.map((g) => {
     const rec = pc.gates?.[g.id]
-    return `| ${g.id} ${g.name} | ${rec?.result ?? 'not recorded'} | ${esc(rec?.rationale ?? '—')} | ${A} | ${mdCiteByN(g.evidenceBase.map((k) => refN(k)))} |`
+    return `| ${g.id} ${g.name} | ${rec?.result ?? 'not recorded'} | ${esc(rec?.rationale ?? '—')} | ${cell(fill.constraints?.[g.id])} | ${mdCiteByN(g.evidenceBase.map((k) => refN(k)))} |`
   }).join('\n')
+
+  const alignmentRows = fill.alignment?.length
+    ? fill.alignment.map((r) => `| ${cell(r.lever)} | ${cell(r.item)} | ${cell(r.evidence)} | ${cell(r.location)} | ${cell(r.confidence)} |`).join('\n')
+    : `| ${A} | ${A} | ${A} | ${A} | ${A} |`
+  const alignmentNote = fill.alignment?.length
+    ? ''
+    : `<!-- AUTHOR:S3 — one row per lever, evidence drawn from reports/dfva-market-${code}.md.
+     Confidence is RESTATED from the market report, never re-derived. -->
+
+`
+  const interventionRows = fill.interventions?.length
+    ? fill.interventions
+        .map((r, i) => `| P${i + 1} | ${cell(r.item)} | ${cell(r.action)} | ${cell(r.anchor)} | ${cell(r.effort)} | ${cell(r.sequence)} | ${cell(r.sources)} |`)
+        .join('\n')
+    : `| ${A} | ${A} | ${A} | ${A} | ${A} | ${A} | ${A} |`
+  const interventionNote = fill.interventions?.length
+    ? ''
+    : `<!-- AUTHOR:S4 — P1..Pn, documentation-only fixes first. Effort ∈ low/medium/high;
+     Sequence is a term-level ordering. -->
+
+`
 
   // §6 table 1: cumulative sub-scale totals as each step lands, in §1 priority order.
   let cumA = pc.adaptiveness
@@ -123,7 +230,7 @@ function scaffold(code: string): string {
 *This plan argues from the preceding scored evidence and market data; it is
 interpretation, not observation.*
 
-${A}
+${fill.preamble?.trim() ? fill.preamble.trim() : A}
 
 | Item | Sub-scale | Score | Levels below maximum | Market evidence for the gap | Priority |
 |---|---|---|---|---|---|
@@ -141,21 +248,15 @@ ${stepRows}
 
 ## 3. MARKET ALIGNMENT — Basis: reported → inferred
 
-<!-- AUTHOR:S3 — one row per lever, evidence drawn from reports/dfva-market-${code}.md.
-     Confidence is RESTATED from the market report, never re-derived. -->
-
-| Lever | Item | Market evidence | Location in market report | Confidence |
+${alignmentNote}| Lever | Item | Market evidence | Location in market report | Confidence |
 |---|---|---|---|---|
-| ${A} | ${A} | ${A} | ${A} | ${A} |
+${alignmentRows}
 
 ## 4. PRIORITISED INTERVENTIONS — Basis: inferred
 
-<!-- AUTHOR:S4 — P1..Pn, documentation-only fixes first. Effort ∈ low/medium/high;
-     Sequence is a term-level ordering. -->
-
-| # | Item | Action | Anchor satisfied | Effort | Sequence | Sources |
+${interventionNote}| # | Item | Action | Anchor satisfied | Effort | Sequence | Sources |
 |---|---|---|---|---|---|---|
-| ${A} | ${A} | ${A} | ${A} | ${A} | ${A} | ${A} |
+${interventionRows}
 
 ## 5. GATE GUARDRAILS — Basis: scored
 
@@ -184,17 +285,36 @@ ${canonicalReferences()}
 `
 }
 
-const codes = process.argv.slice(2)
-if (!codes.length) {
-  console.error('usage: npx tsx dfva-v4-recommend-scaffold.ts <code> [<code> …]')
-  process.exit(1)
-}
-for (const code of codes) {
-  const out = path.join(repoRoot, 'reports', `dfva-v4-recommend-${code}.md`)
-  if (existsSync(out)) {
-    console.log(`skip reports/dfva-v4-recommend-${code}.md — already authored`)
-    continue
+function main(): void {
+  const argv = process.argv.slice(2)
+  const fillPath = argv.includes('--fill') ? argv[argv.indexOf('--fill') + 1] : null
+  const codes = argv.filter((a) => !a.startsWith('--') && a !== fillPath)
+  const TEMPLATE = argv.includes('--fill-template')
+  if (!codes.length) {
+    console.error('usage: npx tsx dfva-v4-recommend-scaffold.ts <code> [<code> …] [--fill-template | --fill <json>]')
+    process.exit(1)
   }
-  writeFileSync(out, scaffold(code), 'utf8')
-  console.log(`wrote reports/dfva-v4-recommend-${code}.md`)
+  if (TEMPLATE) {
+    console.log(JSON.stringify(fillTemplate(codes[0]), null, 2))
+    return
+  }
+  if (fillPath) {
+    if (codes.length !== 1) throw new Error('--fill takes exactly one code')
+    const fill = JSON.parse(readFileSync(path.resolve(fillPath), 'utf8')) as RecommendFill
+    const out = path.join(repoRoot, 'reports', `dfva-v4-recommend-${codes[0]}.md`)
+    writeFileSync(out, scaffold(codes[0], fill), 'utf8')
+    console.log(`wrote reports/dfva-v4-recommend-${codes[0]}.md from ${fillPath}`)
+    return
+  }
+  for (const code of codes) {
+    const out = path.join(repoRoot, 'reports', `dfva-v4-recommend-${code}.md`)
+    if (existsSync(out)) {
+      console.log(`skip reports/dfva-v4-recommend-${code}.md — already authored (use --fill to re-render)`)
+      continue
+    }
+    writeFileSync(out, scaffold(code), 'utf8')
+    console.log(`wrote reports/dfva-v4-recommend-${code}.md`)
+  }
 }
+
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main()
