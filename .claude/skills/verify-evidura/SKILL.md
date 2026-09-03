@@ -97,6 +97,13 @@ measure dev.evidura.ai. Add `--trace` to write a DevTools trace file, and
 `compass/app/bundle-budget.json`; a route over budget fails CI through
 `scripts/check-bundle-size.mjs`.
 
+A fast LCP with a long "wall to network idle" is not the app. On 2026-09-03
+that pattern (LCP under 1 s, idle at 13 s) was this Mac's link dropping: the
+`/auth/me` fetch hung until `ERR_NETWORK_CHANGED`, Google Fonts failed too,
+and `scutil --nwi` reported the network not reachable. Confirm with
+`curl -w '%{time_total}'` against the backend before reading anything into
+the wall number; the backend answered in under 150 ms throughout.
+
 ## Evidence
 
 - Spec output pasted into the report, or `--trace on` with the trace under
