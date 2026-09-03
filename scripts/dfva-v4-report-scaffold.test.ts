@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { test } from 'node:test'
-import { exposureBasisSentence, readMarket } from './dfva-v4-report-scaffold'
+import { exposureBasisSentence, readMarket, readRecommendPlan } from './dfva-v4-report-scaffold'
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const market = readFileSync(path.join(repoRoot, 'reports', 'dfva-market-mc-cs.md'), 'utf8')
@@ -70,4 +70,14 @@ test('exposure sentence: field basis is compared against the field median', () =
   const s = exposureBasisSentence({ tier: 'field', sources: [{ name: '0803 Business and Management' }] } as never, 85, 84, null, null)
   assert.match(s, /\*\*field-of-education\*\* basis \(0803 Business and Management\)/)
   assert.match(s, /the field median of 84/)
+})
+
+test('readRecommendPlan lifts the §1 diagnostic and §4 intervention rows with citations collapsed', () => {
+  const plan = readFileSync(path.join(repoRoot, "reports", "dfva-v4-recommend-mc-cs.md"), 'utf8')
+  const r = readRecommendPlan(plan)
+  assert.equal(r.diagnostic.length, 8)
+  assert.ok(r.diagnostic.every((d) => /^[CW]\d /.test(d.item) && /\/ 3$/.test(d.score)))
+  assert.ok(r.interventions.length >= 1)
+  assert.equal(r.interventions[0].n, 'P1')
+  assert.ok(!JSON.stringify(r).includes(']('), 'citation URLs are dropped from the context')
 })

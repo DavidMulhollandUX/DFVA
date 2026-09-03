@@ -101,6 +101,11 @@ function load(code: string): Program {
 /** What the author needs to fill the cells, without reading the 12 KB template. */
 export function fillTemplate(code: string): Record<string, unknown> {
   const p = load(code)
+  // The workflow agent used to open the evidence file and the market report to
+  // check these; the script refuses instead, so the agent reads neither.
+  if (!p.pc.verified) throw new Error(`${code}: panelCv4 is not verified — run dfva-v4-verify-evidence.ts --stamp first`)
+  if (!existsSync(path.join(repoRoot, 'reports', `dfva-market-${code}.md`)))
+    throw new Error(`${code}: reports/dfva-market-${code}.md does not exist — author the market report first`)
   const priorityOf = new Map(p.ranked.map((r, i) => [r.it.id, i + 1]))
   return {
     code,
@@ -133,9 +138,11 @@ export function fillTemplate(code: string): Record<string, unknown> {
         result: p.pc.gates?.[g.id]?.result ?? 'not recorded',
         rationale: p.pc.gates?.[g.id]?.rationale ?? '',
       })),
+      references: Object.values(V4_REFERENCES).map((r) => ({ n: r.n, url: r.url ?? null })),
       rules: [
         'Every action targets a named item\'s NEXT anchor level and cites a named market signal from reports/dfva-market-<code>.md.',
-        'Inline citations use the [[n]](url) form; n is the number in the canonical REFERENCES list.',
+        'Inline citations use the [[n]](url) form with n and url from context.references; plain [n] when there is no url.',
+        'This context replaces the evidence file: do not open dfva/source/evidence/. Read only the recommend prompt and the market report.',
         'Options with costs, never directives. No exposure figure unless it is the measured one stated in context.',
         'Number §4 interventions in the order they should land; the # column is assigned by the scaffold.',
       ],
@@ -295,7 +302,12 @@ function main(): void {
     process.exit(1)
   }
   if (TEMPLATE) {
-    console.log(JSON.stringify(fillTemplate(codes[0]), null, 2))
+    try {
+      console.log(JSON.stringify(fillTemplate(codes[0]), null, 2))
+    } catch (e) {
+      console.error(`skipped: ${(e as Error).message}`)
+      process.exit(2)
+    }
     return
   }
   if (fillPath) {

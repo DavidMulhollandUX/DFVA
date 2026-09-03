@@ -209,6 +209,30 @@ supports; `dfva-v4-persist.ts` refuses a loss with no stated level rather than i
 one. Lint one file with `check-report-format.ts --code <code>`; measure a program's
 mandated reads with `dfva-token-audit.ts <code> --both`.
 
+#### Read budgets (2026-09-03, second pass)
+
+The remaining agent input was mostly reads of files the agent did not need in full:
+
+- **Prompts.** Agents read `dfva/dist/v4/DFVA-V4-SCORING-PROMPT.agent.md` and
+  `DFVA-V4-RECOMMEND-PROMPT.agent.md` — the same prompts with the 9 KB bibliography
+  replaced by a pointer. Citations still resolve by number; the canonical prompts are
+  unchanged and `dfva:gen-v4` writes both copies.
+- **Fill context replaces file reads.** The recommend agent reads the fill template, the
+  agent prompt and the market report, and nothing else: the template refuses an
+  unverified score or a missing market report itself, and its `context` carries the
+  rationales and the reference URLs. The §4/§5 author reads only the report scaffold's
+  fill template, whose `context.recommendPlan` carries the plan's §1 and §4 rows.
+  Neither agent opens `dfva/source/evidence/` or a rendered report.
+- **Extracts.** `v4-capture-queue.py` assembles extracts without page chrome (year
+  picker, timetable and fees links, site navigation; exact-line matches only). Headings
+  stay. Every stamped evidence line survived the corpus re-assembly
+  (`dfva:verify-evidence --strict`).
+- **Models.** Runner agents carry `model: 'haiku'`; the recommend fill carries
+  `model: 'sonnet'`. Score and Verify inherit the session model.
+- **Backlog sharing.** `dfva-market-scaffold.py <code> --siblings` lists scored programs
+  with the same profession set; `--reuse-from <code>` copies an authored sibling's §4
+  Direction cells and §5 block. The author still checks §5 for program fit.
+
 ### Three rules for running a batch
 
 These are disciplines, not mechanisms — nothing enforces them mechanically. Each

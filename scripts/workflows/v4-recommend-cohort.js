@@ -48,25 +48,25 @@ log(`Writing improvement plans for ${codes.length} program(s) from disk; no netw
 const results = await parallel(
   codes.map((code) => () =>
     agent(
-      `First check two inputs exist: dfva/source/evidence/${code}.json must carry a ` +
-        `"panelCv4" block with "verified" stamped, and reports/dfva-market-${code}.md must exist. ` +
-        `If either is missing, return status "skipped" with the reason and write nothing. ` +
-        `Otherwise, from the repository root run: cd scripts && npx tsx dfva-v4-recommend-scaffold.ts ${code} --fill-template ` +
-        `— it prints the JSON you must fill (preamble, marketEvidence per item, actions per step, ` +
-        `alignment rows, interventions rows, constraints per gate) plus a "context" object with each ` +
-        `item's score, rationale and anchor text. Read dfva/dist/v4/DFVA-V4-RECOMMEND-PROMPT.md for ` +
-        `the rules, dfva/source/evidence/${code}.json for the scored rationales, and ` +
-        `reports/dfva-market-${code}.md for the market signals. Fill EVERY key: each action targets ` +
-        `the named item's NEXT anchor level and cites a named market signal; inline citations use ` +
-        `the web-linked [[n]](url) form with n from the canonical REFERENCES list; options with ` +
-        `costs, never directives; no exposure figure or position label beyond what "context" states. ` +
-        `Use only the handbook evidence and the market report — no prior knowledge of the program. ` +
-        `Write the filled JSON to scrapes/v4/pending/${code}.recommend-fill.json (drop the "context" ` +
-        `key), then run: cd scripts && npx tsx dfva-v4-recommend-scaffold.ts ${code} --fill ../scrapes/v4/pending/${code}.recommend-fill.json ` +
+      `From the repository root run: cd scripts && npx tsx dfva-v4-recommend-scaffold.ts ${code} --fill-template ` +
+        `. If it exits non-zero, return status "skipped" with its stderr line as the reason and write nothing ` +
+        `(it refuses an unverified score or a missing market report). Otherwise it prints the JSON you must ` +
+        `fill (preamble, marketEvidence per item, actions per step, alignment rows, interventions rows, ` +
+        `constraints per gate) plus a "context" object with each item's score, rationale and anchor text, ` +
+        `the gates, and the reference numbers with their URLs. Read exactly two more files: ` +
+        `dfva/dist/v4/DFVA-V4-RECOMMEND-PROMPT.agent.md for the rules and reports/dfva-market-${code}.md ` +
+        `for the market signals. Do not open dfva/source/evidence/ or any report file — the context is ` +
+        `complete. Fill EVERY key: each action targets the named item's NEXT anchor level and cites a ` +
+        `named market signal; inline citations use the web-linked [[n]](url) form with n and url from ` +
+        `context.references; options with costs, never directives; no exposure figure or position label ` +
+        `beyond what "context" states. Use only the handbook evidence in the context and the market ` +
+        `report — no prior knowledge of the program. Write the filled JSON to ` +
+        `scrapes/v4/pending/${code}.recommend-fill.json (drop the "context" key), then run: ` +
+        `cd scripts && npx tsx dfva-v4-recommend-scaffold.ts ${code} --fill ../scrapes/v4/pending/${code}.recommend-fill.json ` +
         `&& npx tsx check-report-format.ts --code ${code}. On a lint error, edit the fill JSON — never ` +
         `the report file — and rerun both commands. Return {code, status, levers (the number of ` +
-        `interventions), recommendPath, lintClean}.`,
-      { label: `recommend:${code}`, phase: 'Recommend', schema: RESULT },
+        `interventions), recommendPlan path, lintClean}.`,
+      { label: `recommend:${code}`, phase: 'Recommend', model: 'sonnet', schema: RESULT },
     ),
   ),
 )

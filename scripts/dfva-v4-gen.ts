@@ -919,11 +919,26 @@ export async function appV4DataModules(): Promise<{
   return { meta: metaSource, basis: basisSource, panelC: panelCSource, programs, loaders: loadersSource }
 }
 
+/** The same prompt with the bibliography replaced by a pointer. Agents read this
+ *  copy: the numbered citations still resolve, and the 9 KB of references is
+ *  not needed to score or to plan. */
+function agentCopy(prompt: string, canonical: string): string {
+  const i = prompt.indexOf('\n## REFERENCES\n')
+  if (i < 0) throw new Error('agentCopy: no REFERENCES section')
+  return (
+    prompt.slice(0, i) +
+    `\n## REFERENCES\n\nOmitted from this agent-facing copy. The numbered citations resolve in ${canonical}; ` +
+    `cite by [n] exactly as the anchors do.\n`
+  )
+}
+
 async function main(): Promise<void> {
   const v4Data = await appV4DataModules()
   const out = new Map<string, string>([
     ['dfva/dist/v4/DFVA-V4-SCORING-PROMPT.md', scoringPrompt()],
     ['dfva/dist/v4/DFVA-V4-RECOMMEND-PROMPT.md', recommendPrompt()],
+    ['dfva/dist/v4/DFVA-V4-SCORING-PROMPT.agent.md', agentCopy(scoringPrompt(), 'dfva/dist/v4/DFVA-V4-SCORING-PROMPT.md')],
+    ['dfva/dist/v4/DFVA-V4-RECOMMEND-PROMPT.agent.md', agentCopy(recommendPrompt(), 'dfva/dist/v4/DFVA-V4-RECOMMEND-PROMPT.md')],
     ['dfva/dist/v4/report-template-v4.md', reportTemplate()],
     ['dfva/dist/v4/recommend-template-v4.md', recommendTemplate()],
     ['compass/app/src/compass/v4/data/v4Rubric.ts', appRubricModule()],

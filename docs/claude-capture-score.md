@@ -67,6 +67,8 @@ across two jobs; Antigravity does capture only.
 5. Market §3: re-source per `docs/dfva-report-section-authoring.md` (sourced /
    scoped / corrected / removed), then remove the slug from `MARKET_GRANDFATHERED`
    in `scripts/check-report-format.ts` when aligned.
+5b. Market report from the profession ledgers: `python3 scripts/dfva-market-scaffold.py <code>`
+   (`--siblings` first; `--reuse-from <code>` when an authored sibling shares the set).
 6. Scaffold the report: `npx tsx scripts/dfva-v4-report-scaffold.ts <code>`. §1–§3 and §6
    are derived; §4 is seeded from the market report (job-family table, exposure-basis
    sentence, signal table, restated confidence). Only §4's Bearing column and §5 stay
@@ -77,7 +79,8 @@ across two jobs; Antigravity does capture only.
    renders it with `--fill`; it never writes the report file.
 7b. Author §4 Bearing and §5 from the improvement plan (§5 is sourced from the plan's
    diagnostic table, so the plan must exist first):
-   `npx tsx scripts/dfva-v4-report-scaffold.ts <code> --fill-template` → fill →
+   `npx tsx scripts/dfva-v4-report-scaffold.ts <code> --fill-template` (its `context` carries the
+   plan's diagnostic and intervention rows — read nothing else) → fill →
    `npx tsx scripts/dfva-v4-report-scaffold.ts <code> --fill <json>` →
    `npx tsx scripts/check-report-format.ts --code <code>`.
 8. Gate: `npm --prefix scripts run dfva:check`.

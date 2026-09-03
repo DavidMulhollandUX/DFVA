@@ -47,6 +47,9 @@ const est = (label: string, bytes: number): Read => ({ label, bytes, estimated: 
 const PROMPT = 'dfva/dist/v4/DFVA-V4-SCORING-PROMPT.md'
 const REC_PROMPT = 'dfva/dist/v4/DFVA-V4-RECOMMEND-PROMPT.md'
 const REC_TEMPLATE = 'dfva/dist/v4/recommend-template-v4.md'
+// Agent-facing copies: the same prompts with the 9 KB bibliography replaced by a pointer.
+const PROMPT_AGENT = 'dfva/dist/v4/DFVA-V4-SCORING-PROMPT.agent.md'
+const REC_PROMPT_AGENT = 'dfva/dist/v4/DFVA-V4-RECOMMEND-PROMPT.agent.md'
 
 /** The chain as scripts/workflows/*.js and docs/claude-capture-score.md ran it before 2026-09-03. */
 function before(code: string): Stage[] {
@@ -76,21 +79,19 @@ function after(code: string): Stage[] {
   const extract = file(`scrapes/v4/${code}.txt`, 'extract')
   const evidence = file(`dfva/source/evidence/${code}.json`, 'evidence')
   const market = file(`reports/dfva-market-${code}.md`, 'market')
-  const v4 = file(`reports/dfva-v4-${code}.md`, 'v4')
-  const recommend = file(`reports/dfva-v4-recommend-${code}.md`, 'recommend')
   const lintOne = est('dfva:report-lint --code, per fix pass (x2)', 600)
   return [
-    { stage: 'Score', reads: [file(PROMPT), extract], inlined: 0, writes: [est('panelCv4 JSON (returned + pending file)', evidence.bytes * 2)] },
+    { stage: 'Score', reads: [file(PROMPT_AGENT), extract], inlined: 0, writes: [est('panelCv4 JSON (returned + pending file)', evidence.bytes * 2)] },
     { stage: 'Mechanical (runner)', reads: [], inlined: 200, writes: [est('mechanical JSON', 500)] },
-    { stage: 'Verify', reads: [file(PROMPT), extract], inlined: evidence.bytes + 500, writes: [est('verdict JSON', 2_000)] },
+    { stage: 'Verify', reads: [file(PROMPT_AGENT), extract], inlined: evidence.bytes + 500, writes: [est('verdict JSON', 2_000)] },
     { stage: 'Persist (runner)', reads: [], inlined: 2_000, writes: [est('verdict file + stdout', 2_500)] },
     {
       stage: 'Recommend (fill)',
-      reads: [file(REC_PROMPT), est('--fill-template skeleton', 3_000), evidence, market, lintOne],
+      reads: [file(REC_PROMPT_AGENT), est('--fill-template skeleton + context (replaces the evidence file)', 19_500), market, lintOne],
       inlined: 0,
       writes: [est('fill JSON', MEDIAN.fill)],
     },
-    { stage: 'Author §4 bearing + §5 (fill)', reads: [v4, recommend, lintOne], inlined: 0, writes: [est('fill JSON', 4_000)] },
+    { stage: 'Author §4 bearing + §5 (fill)', reads: [est('--fill-template context (plan tables + signals; replaces the report reads)', 15_000), lintOne], inlined: 0, writes: [est('fill JSON', 4_000)] },
     { stage: 'Market (scaffold + §4 direction/§5)', reads: [market, lintOne], inlined: 0, writes: [est('§4 direction + §5 rows', 1_500)] },
     // Persist and Verify no longer involve the agent writing the evidence file;
     // the scaffolds are the only writers of the three report files.
