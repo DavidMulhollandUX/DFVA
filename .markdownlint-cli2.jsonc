@@ -1,0 +1,7 @@
+{
+  // Repo-wide markdownlint settings. Tables cannot wrap, so the 80-column
+  // limit does not apply to them; every other line keeps the default.
+  "config": {
+    "MD013": { "tables": false }
+  }
+}
