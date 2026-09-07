@@ -41,7 +41,10 @@ export const V4_PANEL_C_LOADERS: Record<
   "841ac": () => import("./841ac"),
   "872bb": () => import("./872bb"),
   "991aa": () => import("./991aa"),
+  "adelaide-barts_bart": () => import("./adelaide-barts_bart"),
+  "adelaide-bsc_bsci": () => import("./adelaide-bsc_bsci"),
   "anu-barts": () => import("./anu-barts"),
+  "anu-bsc": () => import("./anu-bsc"),
   "b-agr": () => import("./b-agr"),
   "b-arts": () => import("./b-arts"),
   "b-bmed": () => import("./b-bmed"),
@@ -230,7 +233,9 @@ export const V4_PANEL_C_LOADERS: Record<
   "mc-vetstdr": () => import("./mc-vetstdr"),
   "mc-ymhmo": () => import("./mc-ymhmo"),
   "me-dcd": () => import("./me-dcd"),
+  "monash-s2000": () => import("./monash-s2000"),
   "n01aa": () => import("./n01aa"),
+  "unsw-3970": () => import("./unsw-3970"),
   "unsw-4461": () => import("./unsw-4461"),
   "uq-2000": () => import("./uq-2000"),
   "usyd-advanced-computing-commerce": () => import("./usyd-advanced-computing-commerce"),
@@ -238,6 +243,7 @@ export const V4_PANEL_C_LOADERS: Record<
   "usyd-education": () => import("./usyd-education"),
   "usyd-juris-doctor": () => import("./usyd-juris-doctor"),
   "usyd-psychology-coaching": () => import("./usyd-psychology-coaching"),
+  "usyd-science-extended": () => import("./usyd-science-extended"),
   "uwa-bp001": () => import("./uwa-bp001"),
 };
 

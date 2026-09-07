@@ -110,7 +110,7 @@ const MECH_SCHEMA = {
 }
 const VERDICT = {
   type: 'object',
-  required: ['upheld', 'demotions', 'unquotable', 'reviewed'],
+  required: ['upheld', 'demotions', 'unquotable', 'reviewed', 'gateRefutations'],
   properties: {
     upheld: { type: 'boolean' },
     reviewed: {
@@ -127,7 +127,21 @@ const VERDICT = {
       items: {
         type: 'object',
         required: ['item', 'to', 'why'],
-        properties: { item: { type: 'string' }, to: { type: 'integer' }, why: { type: 'string' } },
+        // Scored items only. A gate is PASS/FAIL, so "demote G2 to 1" has no
+        // meaning; dfva-v4-persist.ts refuses it, and before this enum three of
+        // the first twenty-one programs died at persist because the reviewer
+        // expressed a genuine gate refutation as a demotion.
+        properties: { item: { enum: SCORED_ITEMS }, to: { type: 'integer' }, why: { type: 'string' } },
+      },
+    },
+    // A refuted gate is not a demotion — it means the record needs a fresh
+    // scoring pass, which this pipeline reports rather than performs.
+    gateRefutations: {
+      type: 'array',
+      items: {
+        type: 'object',
+        required: ['gate', 'why'],
+        properties: { gate: { enum: ['G1', 'G2'] }, why: { type: 'string' } },
       },
     },
     unquotable: { type: 'array', items: { type: 'string' } },
@@ -213,7 +227,10 @@ const results = await pipeline(
         `These subject codes appear in rationale prose but nowhere in the capture: ${JSON.stringify(mech.phantomCodes)}. ` +
         `(1) Try to REFUTE every level-3 score: does the quoted ASSESSMENT evidence really ` +
         `exist, or is it an outcome statement (which rule R2 caps at level 1)? ` +
-        `(2) Try to refute every gate PASS. ` +
+        `(2) Try to refute every gate PASS. A gate is PASS/FAIL, never a level: if you refute ` +
+        `one, record it in "gateRefutations" and NOT in "demotions" — a demotion naming G1 or G2 ` +
+        `is rejected, and a refuted gate means this record needs a fresh scoring pass rather ` +
+        `than an edit. ` +
         `(3) For EVERY item that loses a line above, state in "demotions" the level its ` +
         `remaining evidence supports — "to" equal to the current score is a valid answer and ` +
         `means the level holds. An item that loses a line with no demotion naming it is rejected. ` +
@@ -229,6 +246,16 @@ const results = await pipeline(
       // incompletely reviewed program is never written.
       const missing = REVIEWABLE.filter((i) => !verdict.reviewed.includes(i))
       if (missing.length) throw new Error(`verify:${code} missing ${missing.join(', ')}`)
+      // A refuted gate is a real finding the pipeline cannot apply: persist may
+      // not flip a gate, and inferring one from a refutation is exactly the
+      // judgement this stage exists to keep human-reviewable. Stop the program
+      // here with a message that says what to do next.
+      if (verdict.gateRefutations?.length)
+        throw new Error(
+          `verify:${code} refuted ${verdict.gateRefutations.map((g) => g.gate).join(', ')} — ` +
+            `re-score this program from the Score stage; a gate cannot be flipped at persist. ` +
+            `Reason: ${verdict.gateRefutations.map((g) => g.why).join(' | ')}`,
+        )
       // The computed unmatched list is unioned here, in code, so the reviewer
       // cannot omit it; the persist script then enforces demotion-per-loss.
       verdict.unquotable = [...new Set([...(verdict.unquotable ?? []), ...mech.unmatched])]

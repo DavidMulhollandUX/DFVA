@@ -978,6 +978,56 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-08-16"
   },
+  "adelaide-barts_bart": {
+    "code": "adelaide-barts_bart",
+    "name": "Bachelor of Arts",
+    "institution": "The University of Adelaide",
+    "institutionSlug": "adelaide",
+    "level": "bachelor",
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "exposureTier": "pooled",
+    "adaptiveness": 5,
+    "workplace": 3,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "adelaide-bsc_bsci": {
+    "code": "adelaide-bsc_bsci",
+    "name": "Bachelor of Science",
+    "institution": "The University of Adelaide",
+    "institutionSlug": "adelaide",
+    "level": "bachelor",
+    "exposure": 82.72,
+    "entryExposure": 78.11,
+    "exposureTier": "pooled",
+    "adaptiveness": 5,
+    "workplace": 2,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 0,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "FAIL"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "anu-barts": {
     "code": "anu-barts",
     "name": "Bachelor of Arts",
@@ -986,6 +1036,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "level": "bachelor",
     "exposure": 91.96,
     "entryExposure": 90.43,
+    "exposureTier": "pooled",
+    "adaptiveness": 5,
+    "workplace": 3,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 1,
+    "gates": {
+      "G1": "FAIL",
+      "G2": "FAIL"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "anu-bsc": {
+    "code": "anu-bsc",
+    "name": "Bachelor of Science",
+    "institution": "The Australian National University",
+    "institutionSlug": "anu",
+    "level": "bachelor",
+    "exposure": 82.72,
+    "entryExposure": 78.11,
     "exposureTier": "pooled",
     "adaptiveness": 5,
     "workplace": 3,
@@ -5703,6 +5778,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-08-23"
   },
+  "monash-s2000": {
+    "code": "monash-s2000",
+    "name": "Bachelor of Science",
+    "institution": "Monash University",
+    "institutionSlug": "monash",
+    "level": "bachelor",
+    "exposure": 82.72,
+    "entryExposure": 78.11,
+    "exposureTier": "pooled",
+    "adaptiveness": 6,
+    "workplace": 4,
+    "C1": 2,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 2,
+    "W2": 1,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "n01aa": {
     "code": "n01aa",
     "name": "Master of Clinical Research",
@@ -5727,6 +5827,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
       "G2": "PASS"
     },
     "verifiedAt": "2026-08-30"
+  },
+  "unsw-3970": {
+    "code": "unsw-3970",
+    "name": "Science",
+    "institution": "UNSW Sydney",
+    "institutionSlug": "unsw",
+    "level": "other",
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "exposureTier": "field",
+    "adaptiveness": 5,
+    "workplace": 3,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "FAIL"
+    },
+    "verifiedAt": "2026-09-07"
   },
   "unsw-4461": {
     "code": "unsw-4461",
@@ -5896,6 +6021,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "C5": 1,
     "W1": 1,
     "W2": 2,
+    "W3": 0,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "usyd-science-extended": {
+    "code": "usyd-science-extended",
+    "name": "Bachelor of Science",
+    "institution": "The University of Sydney",
+    "institutionSlug": "usyd",
+    "level": "bachelor",
+    "exposure": 82.72,
+    "entryExposure": 78.11,
+    "exposureTier": "pooled",
+    "adaptiveness": 6,
+    "workplace": 2,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 2,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
     "W3": 0,
     "gates": {
       "G1": "PASS",
