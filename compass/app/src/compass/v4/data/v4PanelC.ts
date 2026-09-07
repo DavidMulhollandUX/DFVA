@@ -64,6 +64,7 @@ import p_adelaide_bengh_behcivs1 from "./v4PanelC/adelaide-bengh_behcivs1";
 import p_adelaide_blaws_llb from "./v4PanelC/adelaide-blaws_llb";
 import p_adelaide_bsc_bsci from "./v4PanelC/adelaide-bsc_bsci";
 import p_adelaide_mbusa_mbusad from "./v4PanelC/adelaide-mbusa_mbusad";
+import p_adelaide_mdsci_mdatasci from "./v4PanelC/adelaide-mdsci_mdatasci";
 import p_adelaide_mph_mpubhlt from "./v4PanelC/adelaide-mph_mpubhlt";
 import p_anu_aengi from "./v4PanelC/anu-aengi";
 import p_anu_allb from "./v4PanelC/anu-allb";
@@ -72,6 +73,7 @@ import p_anu_bcomm from "./v4PanelC/anu-bcomm";
 import p_anu_bit from "./v4PanelC/anu-bit";
 import p_anu_bsc from "./v4PanelC/anu-bsc";
 import p_anu_mbusa from "./v4PanelC/anu-mbusa";
+import p_anu_mpubh from "./v4PanelC/anu-mpubh";
 import p_b_agr from "./v4PanelC/b-agr";
 import p_b_arts from "./v4PanelC/b-arts";
 import p_b_bmed from "./v4PanelC/b-bmed";
@@ -263,6 +265,7 @@ import p_me_dcd from "./v4PanelC/me-dcd";
 import p_monash_a2000 from "./v4PanelC/monash-a2000";
 import p_monash_b2001 from "./v4PanelC/monash-b2001";
 import p_monash_c2004 from "./v4PanelC/monash-c2004";
+import p_monash_c6009 from "./v4PanelC/monash-c6009";
 import p_monash_e3001 from "./v4PanelC/monash-e3001";
 import p_monash_l3001 from "./v4PanelC/monash-l3001";
 import p_monash_m6024 from "./v4PanelC/monash-m6024";
@@ -282,6 +285,7 @@ import p_uq_2455 from "./v4PanelC/uq-2455";
 import p_uq_2461 from "./v4PanelC/uq-2461";
 import p_uq_2471 from "./v4PanelC/uq-2471";
 import p_uq_2559 from "./v4PanelC/uq-2559";
+import p_uq_5660 from "./v4PanelC/uq-5660";
 import p_uq_5760 from "./v4PanelC/uq-5760";
 import p_uq_5770 from "./v4PanelC/uq-5770";
 import p_usyd_advanced_computing_commerce from "./v4PanelC/usyd-advanced-computing-commerce";
@@ -292,6 +296,8 @@ import p_usyd_mba_technology_digital_strategy from "./v4PanelC/usyd-mba-technolo
 import p_usyd_psychology_coaching from "./v4PanelC/usyd-psychology-coaching";
 import p_usyd_science_extended from "./v4PanelC/usyd-science-extended";
 import p_uwa_42520 from "./v4PanelC/uwa-42520";
+import p_uwa_62530 from "./v4PanelC/uwa-62530";
+import p_uwa_92550 from "./v4PanelC/uwa-92550";
 import p_uwa_bh011 from "./v4PanelC/uwa-bh011";
 import p_uwa_bp001 from "./v4PanelC/uwa-bp001";
 import p_uwa_bp002 from "./v4PanelC/uwa-bp002";
@@ -337,6 +343,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "adelaide-blaws_llb": p_adelaide_blaws_llb,
   "adelaide-bsc_bsci": p_adelaide_bsc_bsci,
   "adelaide-mbusa_mbusad": p_adelaide_mbusa_mbusad,
+  "adelaide-mdsci_mdatasci": p_adelaide_mdsci_mdatasci,
   "adelaide-mph_mpubhlt": p_adelaide_mph_mpubhlt,
   "anu-aengi": p_anu_aengi,
   "anu-allb": p_anu_allb,
@@ -345,6 +352,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "anu-bit": p_anu_bit,
   "anu-bsc": p_anu_bsc,
   "anu-mbusa": p_anu_mbusa,
+  "anu-mpubh": p_anu_mpubh,
   "b-agr": p_b_agr,
   "b-arts": p_b_arts,
   "b-bmed": p_b_bmed,
@@ -536,6 +544,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "monash-a2000": p_monash_a2000,
   "monash-b2001": p_monash_b2001,
   "monash-c2004": p_monash_c2004,
+  "monash-c6009": p_monash_c6009,
   "monash-e3001": p_monash_e3001,
   "monash-l3001": p_monash_l3001,
   "monash-m6024": p_monash_m6024,
@@ -555,6 +564,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "uq-2461": p_uq_2461,
   "uq-2471": p_uq_2471,
   "uq-2559": p_uq_2559,
+  "uq-5660": p_uq_5660,
   "uq-5760": p_uq_5760,
   "uq-5770": p_uq_5770,
   "usyd-advanced-computing-commerce": p_usyd_advanced_computing_commerce,
@@ -565,6 +575,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "usyd-psychology-coaching": p_usyd_psychology_coaching,
   "usyd-science-extended": p_usyd_science_extended,
   "uwa-42520": p_uwa_42520,
+  "uwa-62530": p_uwa_62530,
+  "uwa-92550": p_uwa_92550,
   "uwa-bh011": p_uwa_bh011,
   "uwa-bp001": p_uwa_bp001,
   "uwa-bp002": p_uwa_bp002,

@@ -58,6 +58,7 @@ import b_adelaide_bengh_behcivs1 from "./v4Basis/adelaide-bengh_behcivs1";
 import b_adelaide_blaws_llb from "./v4Basis/adelaide-blaws_llb";
 import b_adelaide_bsc_bsci from "./v4Basis/adelaide-bsc_bsci";
 import b_adelaide_mbusa_mbusad from "./v4Basis/adelaide-mbusa_mbusad";
+import b_adelaide_mdsci_mdatasci from "./v4Basis/adelaide-mdsci_mdatasci";
 import b_adelaide_mph_mpubhlt from "./v4Basis/adelaide-mph_mpubhlt";
 import b_anu_aengi from "./v4Basis/anu-aengi";
 import b_anu_allb from "./v4Basis/anu-allb";
@@ -66,6 +67,7 @@ import b_anu_bcomm from "./v4Basis/anu-bcomm";
 import b_anu_bit from "./v4Basis/anu-bit";
 import b_anu_bsc from "./v4Basis/anu-bsc";
 import b_anu_mbusa from "./v4Basis/anu-mbusa";
+import b_anu_mpubh from "./v4Basis/anu-mpubh";
 import b_b_agr from "./v4Basis/b-agr";
 import b_b_arts from "./v4Basis/b-arts";
 import b_b_bmed from "./v4Basis/b-bmed";
@@ -257,6 +259,7 @@ import b_me_dcd from "./v4Basis/me-dcd";
 import b_monash_a2000 from "./v4Basis/monash-a2000";
 import b_monash_b2001 from "./v4Basis/monash-b2001";
 import b_monash_c2004 from "./v4Basis/monash-c2004";
+import b_monash_c6009 from "./v4Basis/monash-c6009";
 import b_monash_e3001 from "./v4Basis/monash-e3001";
 import b_monash_l3001 from "./v4Basis/monash-l3001";
 import b_monash_m6024 from "./v4Basis/monash-m6024";
@@ -276,6 +279,7 @@ import b_uq_2455 from "./v4Basis/uq-2455";
 import b_uq_2461 from "./v4Basis/uq-2461";
 import b_uq_2471 from "./v4Basis/uq-2471";
 import b_uq_2559 from "./v4Basis/uq-2559";
+import b_uq_5660 from "./v4Basis/uq-5660";
 import b_uq_5760 from "./v4Basis/uq-5760";
 import b_uq_5770 from "./v4Basis/uq-5770";
 import b_usyd_advanced_computing_commerce from "./v4Basis/usyd-advanced-computing-commerce";
@@ -286,6 +290,8 @@ import b_usyd_mba_technology_digital_strategy from "./v4Basis/usyd-mba-technolog
 import b_usyd_psychology_coaching from "./v4Basis/usyd-psychology-coaching";
 import b_usyd_science_extended from "./v4Basis/usyd-science-extended";
 import b_uwa_42520 from "./v4Basis/uwa-42520";
+import b_uwa_62530 from "./v4Basis/uwa-62530";
+import b_uwa_92550 from "./v4Basis/uwa-92550";
 import b_uwa_bh011 from "./v4Basis/uwa-bh011";
 import b_uwa_bp001 from "./v4Basis/uwa-bp001";
 import b_uwa_bp002 from "./v4Basis/uwa-bp002";
@@ -335,6 +341,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = Object.fromEntrie
     ["adelaide-blaws_llb", b_adelaide_blaws_llb.onlyProgram],
     ["adelaide-bsc_bsci", b_adelaide_bsc_bsci.onlyProgram],
     ["adelaide-mbusa_mbusad", b_adelaide_mbusa_mbusad.onlyProgram],
+    ["adelaide-mdsci_mdatasci", b_adelaide_mdsci_mdatasci.onlyProgram],
     ["adelaide-mph_mpubhlt", b_adelaide_mph_mpubhlt.onlyProgram],
     ["anu-aengi", b_anu_aengi.onlyProgram],
     ["anu-allb", b_anu_allb.onlyProgram],
@@ -343,6 +350,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = Object.fromEntrie
     ["anu-bit", b_anu_bit.onlyProgram],
     ["anu-bsc", b_anu_bsc.onlyProgram],
     ["anu-mbusa", b_anu_mbusa.onlyProgram],
+    ["anu-mpubh", b_anu_mpubh.onlyProgram],
     ["b-agr", b_b_agr.onlyProgram],
     ["b-arts", b_b_arts.onlyProgram],
     ["b-bmed", b_b_bmed.onlyProgram],
@@ -534,6 +542,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = Object.fromEntrie
     ["monash-a2000", b_monash_a2000.onlyProgram],
     ["monash-b2001", b_monash_b2001.onlyProgram],
     ["monash-c2004", b_monash_c2004.onlyProgram],
+    ["monash-c6009", b_monash_c6009.onlyProgram],
     ["monash-e3001", b_monash_e3001.onlyProgram],
     ["monash-l3001", b_monash_l3001.onlyProgram],
     ["monash-m6024", b_monash_m6024.onlyProgram],
@@ -553,6 +562,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = Object.fromEntrie
     ["uq-2461", b_uq_2461.onlyProgram],
     ["uq-2471", b_uq_2471.onlyProgram],
     ["uq-2559", b_uq_2559.onlyProgram],
+    ["uq-5660", b_uq_5660.onlyProgram],
     ["uq-5760", b_uq_5760.onlyProgram],
     ["uq-5770", b_uq_5770.onlyProgram],
     ["usyd-advanced-computing-commerce", b_usyd_advanced_computing_commerce.onlyProgram],
@@ -563,6 +573,8 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = Object.fromEntrie
     ["usyd-psychology-coaching", b_usyd_psychology_coaching.onlyProgram],
     ["usyd-science-extended", b_usyd_science_extended.onlyProgram],
     ["uwa-42520", b_uwa_42520.onlyProgram],
+    ["uwa-62530", b_uwa_62530.onlyProgram],
+    ["uwa-92550", b_uwa_92550.onlyProgram],
     ["uwa-bh011", b_uwa_bh011.onlyProgram],
     ["uwa-bp001", b_uwa_bp001.onlyProgram],
     ["uwa-bp002", b_uwa_bp002.onlyProgram],
@@ -615,6 +627,7 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = Object.fromEntrie
     ["adelaide-blaws_llb", b_adelaide_blaws_llb.panelABasis],
     ["adelaide-bsc_bsci", b_adelaide_bsc_bsci.panelABasis],
     ["adelaide-mbusa_mbusad", b_adelaide_mbusa_mbusad.panelABasis],
+    ["adelaide-mdsci_mdatasci", b_adelaide_mdsci_mdatasci.panelABasis],
     ["adelaide-mph_mpubhlt", b_adelaide_mph_mpubhlt.panelABasis],
     ["anu-aengi", b_anu_aengi.panelABasis],
     ["anu-allb", b_anu_allb.panelABasis],
@@ -623,6 +636,7 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = Object.fromEntrie
     ["anu-bit", b_anu_bit.panelABasis],
     ["anu-bsc", b_anu_bsc.panelABasis],
     ["anu-mbusa", b_anu_mbusa.panelABasis],
+    ["anu-mpubh", b_anu_mpubh.panelABasis],
     ["b-agr", b_b_agr.panelABasis],
     ["b-arts", b_b_arts.panelABasis],
     ["b-bmed", b_b_bmed.panelABasis],
@@ -814,6 +828,7 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = Object.fromEntrie
     ["monash-a2000", b_monash_a2000.panelABasis],
     ["monash-b2001", b_monash_b2001.panelABasis],
     ["monash-c2004", b_monash_c2004.panelABasis],
+    ["monash-c6009", b_monash_c6009.panelABasis],
     ["monash-e3001", b_monash_e3001.panelABasis],
     ["monash-l3001", b_monash_l3001.panelABasis],
     ["monash-m6024", b_monash_m6024.panelABasis],
@@ -833,6 +848,7 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = Object.fromEntrie
     ["uq-2461", b_uq_2461.panelABasis],
     ["uq-2471", b_uq_2471.panelABasis],
     ["uq-2559", b_uq_2559.panelABasis],
+    ["uq-5660", b_uq_5660.panelABasis],
     ["uq-5760", b_uq_5760.panelABasis],
     ["uq-5770", b_uq_5770.panelABasis],
     ["usyd-advanced-computing-commerce", b_usyd_advanced_computing_commerce.panelABasis],
@@ -843,6 +859,8 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = Object.fromEntrie
     ["usyd-psychology-coaching", b_usyd_psychology_coaching.panelABasis],
     ["usyd-science-extended", b_usyd_science_extended.panelABasis],
     ["uwa-42520", b_uwa_42520.panelABasis],
+    ["uwa-62530", b_uwa_62530.panelABasis],
+    ["uwa-92550", b_uwa_92550.panelABasis],
     ["uwa-bh011", b_uwa_bh011.panelABasis],
     ["uwa-bp001", b_uwa_bp001.panelABasis],
     ["uwa-bp002", b_uwa_bp002.panelABasis],

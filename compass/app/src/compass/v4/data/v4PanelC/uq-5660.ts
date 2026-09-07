@@ -1,0 +1,131 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor ('at least one core unit assesses collaborative practice - group projects with individual accountability'): among the prescribed units, several assess team work with an individual component - BINF6000's hurdle group project, DATA7002's group presentation, and COMP3820's team FHIR project paired with an individually assessed portfolio and course review. Level 3 fails on its second conjunct: no assessment in the extract requires coordinating work across people AND tools or AI systems, and no task allocates roles between people and systems or assesses that division. The learning outcome quoted names team goals and individual responsibilities only. Placement and client-site evidence is held out of this item and scored in W3 per the one-construct-one-home rule.",
+    "evidenceLines": [
+      "- Team FHIR Project Team or group-based: 55% (Team)% (Hurdle: False)",
+      "- Individual Portfolio Hurdle: 30% (Individual)% (Hurdle: True)",
+      "- Demonstrate an ability to collaborate effectively within a team to achieve shared project goals, while managing individual responsibilities."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2 anchor ('criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards'): FINM7403 assesses a peer-assessed portfolio task, DECO7110 assesses an ideation portfolio and a reflective design workbook as hurdles, and BSAN7209 assesses a reflective report. Level 3 requires assessment that documents and justifies reliance decisions or defends judgements of AI-output quality. The nearest candidate is INFS7205's five AI-assisted reflective inquiry submissions across a semester, but the extract records only the task title and weighting - nothing documenting that students must state when they relied on or overrode the tool, or defend the quality of its output. R4 forbids scoring the label alone, so the ambiguity between 2 and 3 resolves downward.",
+    "evidenceLines": [
+      "- Simulated Portfolio - Part A - Pitch Deck, Presentation and Peer Assessment Identity Verified Team or group-based In-person: 23%% (Hurdle: False)",
+      "- Ideation Portfolio Hurdle: 10%% (Hurdle: True)",
+      "- Reflective Design Workbook Hurdle Identity Verified: 30%% (Hurdle: True)",
+      "- Reflective Report: 20%% (Hurdle: False)",
+      "- Reflective Inquiry (AI-Assisted) Online: 25% Five short reflective inquiry submissions across the semester% (Hurdle: False)"
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2 anchor ('units address AI capabilities AND limitations/ethics; use with limits discussed and assessed'): DATA7002 Responsible Data Science covers the ethical and legal foundations of data science governance and is assessed by a group presentation and a final essay; STAT7306 assesses an ethics presentation; INFS7203 and STAT3006 carry limitations outcomes. Level 3 requires core ASSESSMENT that itself requires critique or governance of AI systems in the discipline's context. The DATA7002 assessment tasks are recorded only as generic titles and weightings, and the extract nowhere designates DATA7002 as compulsory, so the governance-critique conjunct is documented at course-content level rather than at assessment level. Ambiguity between 2 and 3 resolved downward per the scoring-direction rule and R2.",
+    "evidenceLines": [
+      "In this course students will critically analyse the ethical and legal foundations of data science governance that are relevant to the technical processes of data collection, storage, exchange and access.",
+      "- Group Presentation Team or group-based In-person: 40%% (Hurdle: False)",
+      "- Final Essay: 30%% (Hurdle: False)",
+      "- Ethics Presentation In-person: 20% ,10% each% (Hurdle: False)",
+      "- Examine the limitations of data mining and KDD algorithms"
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3 anchor ('the program documents structured progression toward independent learning: a self-scoped capstone or research project'): the extract documents a two-part capstone in which students scope their own project - DATA7901 assesses a project proposal at 60% against an outcome requiring project design and scoping techniques, and DATA7903 is documented as implementing and concluding the project proposed in DATA7901, assessed by a hurdle final report at 60% with weekly supervision. That is assessment evidence of a self-scoped project with documented progression, not an outcome claim, so R2 is satisfied and the item clears level 2, whose anchor stops at application to novel problems. The capstone's methodology and evidence-generation features are held out of this item and scored in C5.",
+    "evidenceLines": [
+      "- Apply project design and scoping techniques to write a detailed project proposal suitable for professionals and stakeholders.",
+      "- Proposal In-person Online: 60%% (Hurdle: False)",
+      "This course represents the second part of the capstone project and is focussed on the implementation and conclusion of the project proposed during DATA7901.",
+      "- Final Report Hurdle Online: 60%% (Hurdle: True)",
+      "Workload: Contact 1 Hour/ Week Student is expected to meet supervisor on a weekly basis"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 anchor ('students design and conduct an inquiry with methodology selection and data collection, assessed'): DECO7110 requires conducting primary research, observation and analysis and assesses a research-for-design report as a hurdle; ECON7310 assesses two research projects applying econometric methods to real-world data; COMP4703 requires creating end-to-end research experiments. Level 3 requires a substantial primary-evidence project that is REQUIRED rather than one route among several, with methodology defended under scrutiny. The capstone is staged and supervised, but the extract documents two alternative routes at DATA7901 (industry project or academic research project), does not designate the capstone as compulsory, and does not document primary data generation, so the level-3 conjuncts are not met. Ambiguity resolved downward.",
+    "evidenceLines": [
+      "- Conduct primary research, observation and analysis to identify and critique design opportunities",
+      "- Research for design report Hurdle Identity Verified: 30%% (Hurdle: True)",
+      "- Research Project 1: 15%% (Hurdle: False)",
+      "For those students who intend to complete an academic research project, you do not need to complete this six-step process."
+    ]
+  },
+  "adaptiveness": 11,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2 anchor ('at least one assessment requires a recognised professional genre or an audience beyond the teaching team - client brief, consultancy or policy advice, pitch'): BSAN7209 assesses a business case with a pitch at 40% against an outcome about appraising, judging and defending analytic projects for a range of stakeholders, and DATA7901 assesses a proposal written for professionals and stakeholders plus a hurdle seminar. Level 3 requires repeated, progressive assessment across the program AND delivery to, or judgement by, a real external audience or practitioner with professional conduct explicitly among the assessed criteria. The extract documents neither an external judge for any assessment nor conduct or accountability as an assessed criterion, so level 3 fails on both conjuncts.",
+    "evidenceLines": [
+      "- Business Case with Pitch Team or group-based: 40%% (Hurdle: False)",
+      "- Effectively appraise, judge and defend analytic projects and champion organisational change for a range of stakeholders.",
+      "- Apply effective communication skills to explain data science problems to key stakeholders.",
+      "- The Seminar Hurdle Identity Verified In-person: 30%% (Hurdle: True)"
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2 anchor ('at least one assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce'): BSAN7209 assesses a business case built through the practitioner artefacts of business case, project plan and test strategy; BSAN7214 assesses a digital transformation roadmap at 60%; COMP3820 assesses a team-built FHIR application for a clinical setting with real-world clients. Level 3 requires such tasks to be the assessment spine rather than instances. The recorded assessment pattern across the prescribed units is dominated by identity-verified hurdle final examinations at 30-60% alongside assignments, so a spine of practice-fidelity tasks is not documented. Scored on documented task features only, never on real-world or industry labels (R4).",
+    "evidenceLines": [
+      "- Design analytic projects aimed at high velocity industries and environments through practical approaches such as the business case, project plan, and test strategy.",
+      "- Digital Transformation Roadmap Online: 60%% (Hurdle: False)",
+      "A major part of the course is composed of a group software development project building a FHIR app for use in a clinical (or clinical education) setting, with real-world clients.",
+      "- Final Exam Hurdle Identity Verified In-person: 50%% (Hurdle: True)",
+      "- End of Semester Exam Hurdle Identity Verified In-person: 55%% (Hurdle: True)"
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1 anchor ('work-situated learning exists only as an elective, an optional internship'): the only workplace-situated route in the extract is the DATA7901 industry capstone, documented as available to eligible students, requiring a separate six-step enrolment process, and expressly optional because students intending an academic research project do not complete that process. Level 2 requires a core unit that places students in a real workplace or professional-community setting with practitioner supervision and assessment; the industry route is one option within a course whose compulsory status the extract does not document, and no practitioner supervision or host accountability is recorded. The in-practice route does not apply: nothing documents this cohort as already practising in the profession. Ambiguity between 1 and 2 resolved downward.",
+    "evidenceLines": [
+      "Industry capstone projects are available to students who are eligible to complete DATA7901.",
+      "Industry capstone projects are an opportunity for students to work on a project in collaboration and onsite with industry through their course.",
+      "For those students who intend to complete an academic research project, you do not need to complete this six-step process."
+    ]
+  },
+  "workplace": 5,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS on the staged-sequence route: the program documents a prescribed unit list with disciplinary identity in mathematics, statistics and computing for data science, and staged chains within it - Mathematics for Data Science 1 into 2, and Data Science Capstone Project 1 into the capstone part that implements the project proposed in it. Admission itself requires prior depth of three mathematics, two statistics or probability and four computer science courses, so the sequence builds on a technical base rather than substituting for it. This is not the FAIL condition of generic or interchangeable content without disciplinary identity, though the extract does not mark which prescribed units are compulsory.",
+      "evidenceLines": [
+        "The following 44 units of study are prescribed for this academic program:",
+        "MATH7501 Mathematics for Data Science 1",
+        "MATH7502 Mathematics for Data Science 2",
+        "DATA7903 Data Science Capstone Project 2B"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS: assessment goes beyond recall or scripted response. Students defend design and implementation decisions under scrutiny - COSC7502's major project carries a pass/fail identity-verified interview hurdle, INFS7203 assesses a project presentation and code interview as a hurdle, and the capstone assesses a hurdle presentation. Outcomes assessed by those tasks require selecting and justifying method choices and justifying an organisational roadmap under competing short, medium and long term options, which is a defended trade-off rather than a scripted response.",
+      "evidenceLines": [
+        "- Major Project : Milestone 2 (Parallel) [Interview] Hurdle Identity Verified In-person: Pass/fail% (Hurdle: True)",
+        "- Project Presentation and Code Interview Hurdle Identity Verified In-person: 15%% (Hurdle: True)",
+        "- Presentation Hurdle Identity Verified In-person: 30%% (Hurdle: True)",
+        "- Select and justify appropriate combinations of data structures and algorithms to solve software engineering problems.",
+        "- Design and justify an organisational roadmap to elevate digital maturity and gain competitive advantage by identifying short, medium, and long term opportunities."
+      ]
+    }
+  },
+  "ambiguities": [
+    "Structural: the extract lists 44 prescribed units for a 32-unit program but nowhere marks which are compulsory core and which are elective, so every anchor phrased as 'core unit' or 'core assessment' is evaluated against prescribed units. Where that distinction could move a score, the lower level was taken (C3, C5, W3).",
+    "C2 straddled 2 and 3: INFS7205's 'Reflective Inquiry (AI-Assisted)', five submissions across a semester at 25%, is process-focused and tool-related, but the extract documents no requirement to justify reliance on or override of the tool. R4 (do not score a label) and the scoring-direction rule resolved it to 2.",
+    "C3 straddled 2 and 3: DATA7002 is entirely about data-science governance, ethics and law, but its assessment tasks are recorded only as titles and weightings and the unit is not documented as compulsory, so R2's requirement for assessment evidence resolved it to 2.",
+    "C4 and C5 both draw on the DATA7901/DATA7903 capstone. Under one-construct-one-home the self-scoping and documented progression score in C4; the methodology and evidence-generation features score in C5, where they reach level 2 only.",
+    "W3 straddled 1 and 2: COMP3820's team FHIR project is documented as built for a clinical setting 'with real-world clients', which reads toward the level-2 'live client project' route, but the unit is not documented as core, no practitioner supervision or host accountability is recorded, and its client contact is not documented as a workplace setting. Resolved to 1; the task's fidelity is scored in W2 instead.",
+    "G1 rests on staged sequences and admission-level depth rather than a documented all-compulsory specialist core, because the extract does not designate compulsory units."
+  ],
+  "notScoreable": [],
+  "instrument": "4.2-draft",
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-07"
+  }
+};
+
+export default record;

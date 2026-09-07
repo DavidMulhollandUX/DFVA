@@ -1153,6 +1153,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "adelaide-mdsci_mdatasci": {
+    "code": "adelaide-mdsci_mdatasci",
+    "name": "Master of Data Science",
+    "institution": "The University of Adelaide",
+    "institutionSlug": "adelaide",
+    "level": "master",
+    "exposure": 94.94,
+    "entryExposure": 96.08,
+    "exposureTier": "exact",
+    "adaptiveness": 11,
+    "workplace": 3,
+    "C1": 1,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 3,
+    "W1": 1,
+    "W2": 1,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "adelaide-mph_mpubhlt": {
     "code": "adelaide-mph_mpubhlt",
     "name": "Master of Public Health",
@@ -1347,6 +1372,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W1": 2,
     "W2": 2,
     "W3": 2,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "anu-mpubh": {
+    "code": "anu-mpubh",
+    "name": "Master of Public Health",
+    "institution": "The Australian National University",
+    "institutionSlug": "anu",
+    "level": "master",
+    "exposure": 89.46,
+    "entryExposure": 84.77,
+    "exposureTier": "exact",
+    "adaptiveness": 5,
+    "workplace": 0,
+    "C1": 0,
+    "C2": 2,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 0,
+    "W2": 0,
+    "W3": 0,
     "gates": {
       "G1": "PASS",
       "G2": "PASS"
@@ -6128,6 +6178,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "monash-c6009": {
+    "code": "monash-c6009",
+    "name": "Master of Data Science",
+    "institution": "Monash University",
+    "institutionSlug": "monash",
+    "level": "master",
+    "exposure": 94.94,
+    "entryExposure": 96.08,
+    "exposureTier": "exact",
+    "adaptiveness": 11,
+    "workplace": 5,
+    "C1": 2,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "monash-e3001": {
     "code": "monash-e3001",
     "name": "Bachelor of Engineering (Honours)",
@@ -6603,6 +6678,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "uq-5660": {
+    "code": "uq-5660",
+    "name": "Master of Data Science",
+    "institution": "The University of Queensland",
+    "institutionSlug": "uq",
+    "level": "master",
+    "exposure": 94.94,
+    "entryExposure": 96.08,
+    "exposureTier": "exact",
+    "adaptiveness": 11,
+    "workplace": 5,
+    "C1": 2,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "uq-5760": {
     "code": "uq-5760",
     "name": "Master of Public Health",
@@ -6847,6 +6947,56 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W1": 0,
     "W2": 1,
     "W3": 0,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "uwa-62530": {
+    "code": "uwa-62530",
+    "name": "Master of Data Science",
+    "institution": "The University of Western Australia",
+    "institutionSlug": "uwa",
+    "level": "master",
+    "exposure": 94.94,
+    "entryExposure": 96.08,
+    "exposureTier": "exact",
+    "adaptiveness": 8,
+    "workplace": 4,
+    "C1": 2,
+    "C2": 1,
+    "C3": 1,
+    "C4": 2,
+    "C5": 2,
+    "W1": 1,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "uwa-92550": {
+    "code": "uwa-92550",
+    "name": "Master of Public Health",
+    "institution": "The University of Western Australia",
+    "institutionSlug": "uwa",
+    "level": "master",
+    "exposure": 89.46,
+    "entryExposure": 84.77,
+    "exposureTier": "exact",
+    "adaptiveness": 8,
+    "workplace": 4,
+    "C1": 1,
+    "C2": 2,
+    "C3": 1,
+    "C4": 2,
+    "C5": 2,
+    "W1": 1,
+    "W2": 1,
+    "W3": 2,
     "gates": {
       "G1": "PASS",
       "G2": "PASS"
