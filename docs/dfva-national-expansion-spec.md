@@ -109,9 +109,54 @@ tests above before committing to the rest.
 | 7 | UNSW | 486 | 40.4 KB |
 | 8 | La Trobe | 637 | 24.3 KB |
 
-Per institution: re-score, `dfva:gen-v4`, add the slug to `PUBLISHED_INSTITUTIONS` in
-`scripts/lib-institution.ts`, `dfva:check`, merge. A published institution is one that passed the
-guards, not one that has been scored.
+Per institution, in this order:
+
+1. `Workflow({ scriptPath: "scripts/workflows/v4-score-cohort.js", args: [<codes>] })`
+2. `npx tsx scripts/dfva-v4-verify-evidence.ts --stamp --adversarial --code <codes>`, naming
+   every program the workflow just took through its refutation stage.
+   **This step is easy to miss and blocks publication.** `dfva-v4-persist.ts` copies an existing
+   `verified` block through but never creates one, and the templated records had none, so a
+   freshly re-scored program lands with no `verified` block at all and
+   `dfva-reports-index-check.ts` refuses to publish it. Plain `--stamp` does not help: it
+   corrects an existing stamp and never invents a record. `--adversarial` is the one path that
+   opens a new one, and it refuses to run without an explicit code list, so nothing can vouch
+   for an institution in bulk. `mechanical` still comes from the script's own computed result;
+   `adversarial: true` records the caller's assertion that the refutation stage ran.
+3. `npm --prefix scripts run dfva:gen-v4`
+4. Add the slug to `PUBLISHED_INSTITUTIONS` in `scripts/lib-institution.ts`
+5. `npm --prefix scripts run dfva:check` (which now includes the distinctness guard)
+6. Merge
+
+A published institution is one that passed the guards, not one that has been scored.
+
+### What the Sydney pilot showed (2026-09-07)
+
+Five programs re-scored through the real workflow, against their templated predecessors:
+
+| Program | adaptiveness | workplace | rationale chars | ambiguities |
+| --- | --- | --- | --- | --- |
+| `usyd-clinical-epidemiology` | 13 → **2** | 9 → **0** | 987 → 6,360 | 2 → 6 |
+| `usyd-advanced-computing-commerce` | 15 → **3** | 6 → **1** | 992 → 5,198 | 2 → 6 |
+| `usyd-psychology-coaching` | 12 → **5** | — → 3 | ~990 → 5,319 | 2 → 7 |
+| `usyd-education` | 15 → **7** | 6 → **1** | ~1,000 → 5,400 | 2 → 9 |
+| `usyd-juris-doctor` | 12 → **6** | 6 → **3** | ~1,000 → 4,900 | 2 → 6 |
+
+Four of the five persisted. `usyd-clinical-epidemiology` was refused by `dfva-v4-persist.ts`
+because its adversarial verdict demoted gate G2, and gates are not demotable through the persist
+path — the reviewer must return a gate as a re-scored result, not a demotion. That file still
+carries its templated block.
+
+The re-scored records match the Melbourne profile (5,890 chars, 5.86 ambiguities) and land
+**below** the reference median, in the half the templated data could never reach.
+
+The clearest single failure: the templated `usyd-clinical-epidemiology` scored W3 at 3 —
+"compulsory work-integrated learning or clinical placement" — for a program where the re-score
+found none exists (W3 = 0). Mechanical verification does not catch this, because the templated
+records quote real handbook lines; they just quote them under the wrong construct. That is why
+`dfva-v4-distinctness-check.ts` reads cohort shape rather than individual records.
+
+Verification of a re-scored record is clean: `usyd-advanced-computing-commerce` returns 36 of 36
+evidence lines verbatim, 0 unmatched.
 
 ## Profession ledgers
 

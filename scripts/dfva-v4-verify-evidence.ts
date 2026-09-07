@@ -27,10 +27,19 @@
  * program (and refreshes `date`). It never touches `adversarial`: this script
  * has no view on whether an adversarial review happened.
  *
+ * A freshly re-scored program has no `verified` block at all — dfva-v4-persist.ts
+ * carries an existing one through but never creates one — so plain `--stamp`
+ * skips it and it can never publish. `--stamp --adversarial --code <codes>` is
+ * how the scoring workflow opens that record after its refutation stage runs:
+ * `mechanical` comes from this script's computed result, `adversarial: true`
+ * from the caller's assertion about a stage this script cannot observe. It
+ * refuses to run without an explicit code list, so it can never vouch in bulk.
+ *
  *   npx tsx dfva-v4-verify-evidence.ts            # report, always exit 0
  *   npx tsx dfva-v4-verify-evidence.ts --strict   # fail on either direction of disagreement
  *   npx tsx dfva-v4-verify-evidence.ts --stamp    # write mechanical from the computed result
- *   npx tsx dfva-v4-verify-evidence.ts --code mc-it
+ *   npx tsx dfva-v4-verify-evidence.ts --code mc-it,mc-cs
+ *   npx tsx dfva-v4-verify-evidence.ts --stamp --adversarial --code usyd-education
  *   npx tsx dfva-v4-verify-evidence.ts --suggest              # nearest capture text
  *   npx tsx dfva-v4-verify-evidence.ts --suggest --kind tail-drift
  *   npx tsx dfva-v4-verify-evidence.ts --scored ../scrapes/v4/pending/mc-it.scored.json --json
@@ -63,12 +72,19 @@ const argv = process.argv.slice(2)
 const STRICT = argv.includes('--strict')
 const STAMP = argv.includes('--stamp')
 const SUGGEST = argv.includes('--suggest')
-const ONLY = argv.includes('--code') ? argv[argv.indexOf('--code') + 1] : null
+const ONLY = argv.includes('--code')
+  ? new Set(argv[argv.indexOf('--code') + 1].split(',').map((c) => c.trim()).filter(Boolean))
+  : null
 const KIND = argv.includes('--kind') ? argv[argv.indexOf('--kind') + 1] : null
 const SCORED = argv.includes('--scored') ? argv[argv.indexOf('--scored') + 1] : null
+const ADVERSARIAL = argv.includes('--adversarial')
 const JSON_OUT = argv.includes('--json')
 if (SCORED && STAMP) {
   console.error('--scored is report-only; --stamp writes the evidence record and needs the committed block')
+  process.exit(2)
+}
+if (ADVERSARIAL && !(STAMP && ONLY)) {
+  console.error('--adversarial creates a verification record and must name the programs it vouches for: use it with --stamp --code <code>[,<code>…]')
   process.exit(2)
 }
 /** Human output; silent under --json so stdout is one parseable object. */
@@ -216,7 +232,7 @@ if (SCORED) {
     if (!f.endsWith('.json')) continue
     const doc = JSON.parse(readFileSync(path.join(EVIDENCE, f), 'utf8')) as { code?: string; panelCv4?: PanelC }
     if (!doc.panelCv4 || !doc.code) continue
-    if (ONLY && doc.code !== ONLY) continue
+    if (ONLY && !ONLY.has(doc.code)) continue
     panels.set(doc.code, doc.panelCv4)
   }
 }
@@ -330,8 +346,18 @@ if (STAMP) {
     const row = rows.find((r) => r.code === doc.code)
     if (!row) continue
     const verified = doc.panelCv4.verified
-    if (!verified) continue // --stamp corrects an existing stamp; it never invents a record
+    // --stamp corrects an existing stamp; it never invents a record. --adversarial
+    // is the one exception: the caller has just run the refutation stage on these
+    // named programs, so it may open the record. `adversarial` still comes from
+    // the caller's assertion — this script never computes it.
+    if (!verified && !ADVERSARIAL) continue
     const computed = !row.noCapture && row.unmatched.length === 0
+    if (!verified) {
+      doc.panelCv4.verified = { adversarial: true, mechanical: computed, date: today }
+      writeFileSync(fp, `${JSON.stringify(doc, null, 2)}\n`)
+      stamped++
+      continue
+    }
     if (verified.mechanical === computed) continue
     doc.panelCv4.verified = { ...verified, mechanical: computed, date: today }
     writeFileSync(fp, `${JSON.stringify(doc, null, 2)}\n`)
