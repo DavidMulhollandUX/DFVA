@@ -60,10 +60,13 @@ import p_991aa from "./v4PanelC/991aa";
 import p_adelaide_barts_bart from "./v4PanelC/adelaide-barts_bart";
 import p_adelaide_bcom_bcombcomacctbcomacctosbcomcorfin from "./v4PanelC/adelaide-bcom_bcombcomacctbcomacctosbcomcorfin";
 import p_adelaide_bengh_behcivs1 from "./v4PanelC/adelaide-bengh_behcivs1";
+import p_adelaide_blaws_llb from "./v4PanelC/adelaide-blaws_llb";
 import p_adelaide_bsc_bsci from "./v4PanelC/adelaide-bsc_bsci";
 import p_anu_aengi from "./v4PanelC/anu-aengi";
+import p_anu_allb from "./v4PanelC/anu-allb";
 import p_anu_barts from "./v4PanelC/anu-barts";
 import p_anu_bcomm from "./v4PanelC/anu-bcomm";
+import p_anu_bit from "./v4PanelC/anu-bit";
 import p_anu_bsc from "./v4PanelC/anu-bsc";
 import p_b_agr from "./v4PanelC/b-agr";
 import p_b_arts from "./v4PanelC/b-arts";
@@ -255,6 +258,7 @@ import p_mc_ymhmo from "./v4PanelC/mc-ymhmo";
 import p_me_dcd from "./v4PanelC/me-dcd";
 import p_monash_a2000 from "./v4PanelC/monash-a2000";
 import p_monash_b2001 from "./v4PanelC/monash-b2001";
+import p_monash_c2004 from "./v4PanelC/monash-c2004";
 import p_monash_e3001 from "./v4PanelC/monash-e3001";
 import p_monash_l3001 from "./v4PanelC/monash-l3001";
 import p_monash_s2000 from "./v4PanelC/monash-s2000";
@@ -264,15 +268,19 @@ import p_unsw_3970 from "./v4PanelC/unsw-3970";
 import p_unsw_4461 from "./v4PanelC/unsw-4461";
 import p_unsw_4701 from "./v4PanelC/unsw-4701";
 import p_unsw_7002 from "./v4PanelC/unsw-7002";
+import p_unsw_7003 from "./v4PanelC/unsw-7003";
+import p_unsw_8351 from "./v4PanelC/unsw-8351";
 import p_uq_2000 from "./v4PanelC/uq-2000";
 import p_uq_2336 from "./v4PanelC/uq-2336";
 import p_uq_2455 from "./v4PanelC/uq-2455";
 import p_uq_2461 from "./v4PanelC/uq-2461";
 import p_uq_2471 from "./v4PanelC/uq-2471";
+import p_uq_2559 from "./v4PanelC/uq-2559";
 import p_usyd_advanced_computing_commerce from "./v4PanelC/usyd-advanced-computing-commerce";
 import p_usyd_arts_extended from "./v4PanelC/usyd-arts-extended";
 import p_usyd_education from "./v4PanelC/usyd-education";
 import p_usyd_juris_doctor from "./v4PanelC/usyd-juris-doctor";
+import p_usyd_mba_technology_digital_strategy from "./v4PanelC/usyd-mba-technology-digital-strategy";
 import p_usyd_psychology_coaching from "./v4PanelC/usyd-psychology-coaching";
 import p_usyd_science_extended from "./v4PanelC/usyd-science-extended";
 import p_uwa_bh011 from "./v4PanelC/uwa-bh011";
@@ -316,10 +324,13 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "adelaide-barts_bart": p_adelaide_barts_bart,
   "adelaide-bcom_bcombcomacctbcomacctosbcomcorfin": p_adelaide_bcom_bcombcomacctbcomacctosbcomcorfin,
   "adelaide-bengh_behcivs1": p_adelaide_bengh_behcivs1,
+  "adelaide-blaws_llb": p_adelaide_blaws_llb,
   "adelaide-bsc_bsci": p_adelaide_bsc_bsci,
   "anu-aengi": p_anu_aengi,
+  "anu-allb": p_anu_allb,
   "anu-barts": p_anu_barts,
   "anu-bcomm": p_anu_bcomm,
+  "anu-bit": p_anu_bit,
   "anu-bsc": p_anu_bsc,
   "b-agr": p_b_agr,
   "b-arts": p_b_arts,
@@ -511,6 +522,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "me-dcd": p_me_dcd,
   "monash-a2000": p_monash_a2000,
   "monash-b2001": p_monash_b2001,
+  "monash-c2004": p_monash_c2004,
   "monash-e3001": p_monash_e3001,
   "monash-l3001": p_monash_l3001,
   "monash-s2000": p_monash_s2000,
@@ -520,15 +532,19 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-4461": p_unsw_4461,
   "unsw-4701": p_unsw_4701,
   "unsw-7002": p_unsw_7002,
+  "unsw-7003": p_unsw_7003,
+  "unsw-8351": p_unsw_8351,
   "uq-2000": p_uq_2000,
   "uq-2336": p_uq_2336,
   "uq-2455": p_uq_2455,
   "uq-2461": p_uq_2461,
   "uq-2471": p_uq_2471,
+  "uq-2559": p_uq_2559,
   "usyd-advanced-computing-commerce": p_usyd_advanced_computing_commerce,
   "usyd-arts-extended": p_usyd_arts_extended,
   "usyd-education": p_usyd_education,
   "usyd-juris-doctor": p_usyd_juris_doctor,
+  "usyd-mba-technology-digital-strategy": p_usyd_mba_technology_digital_strategy,
   "usyd-psychology-coaching": p_usyd_psychology_coaching,
   "usyd-science-extended": p_usyd_science_extended,
   "uwa-bh011": p_uwa_bh011,

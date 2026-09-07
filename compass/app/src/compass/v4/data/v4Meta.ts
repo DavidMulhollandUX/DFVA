@@ -1053,6 +1053,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "adelaide-blaws_llb": {
+    "code": "adelaide-blaws_llb",
+    "name": "Bachelor of Laws",
+    "institution": "The University of Adelaide",
+    "institutionSlug": "adelaide",
+    "level": "bachelor",
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "exposureTier": "field",
+    "adaptiveness": 5,
+    "workplace": 3,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "FAIL"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "adelaide-bsc_bsci": {
     "code": "adelaide-bsc_bsci",
     "name": "Bachelor of Science",
@@ -1097,6 +1122,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W1": 2,
     "W2": 3,
     "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "anu-allb": {
+    "code": "anu-allb",
+    "name": "Bachelor of Laws (Honours)",
+    "institution": "The Australian National University",
+    "institutionSlug": "anu",
+    "level": "bachelor",
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "exposureTier": "field",
+    "adaptiveness": 5,
+    "workplace": 2,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 0,
     "gates": {
       "G1": "PASS",
       "G2": "PASS"
@@ -1150,6 +1200,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "gates": {
       "G1": "PASS",
       "G2": "FAIL"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "anu-bit": {
+    "code": "anu-bit",
+    "name": "Bachelor of Information Technology",
+    "institution": "The Australian National University",
+    "institutionSlug": "anu",
+    "level": "bachelor",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 4,
+    "workplace": 1,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 0,
+    "W1": 0,
+    "W2": 1,
+    "W3": 0,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
     },
     "verifiedAt": "2026-09-07"
   },
@@ -5928,6 +6003,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "monash-c2004": {
+    "code": "monash-c2004",
+    "name": "Bachelor of Information Technology",
+    "institution": "Monash University",
+    "institutionSlug": "monash",
+    "level": "bachelor",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 9,
+    "workplace": 6,
+    "C1": 2,
+    "C2": 2,
+    "C3": 1,
+    "C4": 2,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 2,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "monash-e3001": {
     "code": "monash-e3001",
     "name": "Bachelor of Engineering (Honours)",
@@ -6153,6 +6253,56 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "unsw-7003": {
+    "code": "unsw-7003",
+    "name": "Computer Science",
+    "institution": "UNSW Sydney",
+    "institutionSlug": "unsw",
+    "level": "other",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 5,
+    "workplace": 2,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 1,
+    "W1": 1,
+    "W2": 1,
+    "W3": 0,
+    "gates": {
+      "G1": "PASS",
+      "G2": "FAIL"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "unsw-8351": {
+    "code": "unsw-8351",
+    "name": "Business Administration",
+    "institution": "UNSW Sydney",
+    "institutionSlug": "unsw",
+    "level": "other",
+    "exposure": 88.71,
+    "entryExposure": 88.85,
+    "exposureTier": "field",
+    "adaptiveness": 4,
+    "workplace": 3,
+    "C1": 1,
+    "C2": 1,
+    "C3": 1,
+    "C4": 1,
+    "C5": 0,
+    "W1": 1,
+    "W2": 1,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "uq-2000": {
     "code": "uq-2000",
     "name": "Bachelor of Arts",
@@ -6278,6 +6428,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": "2026-09-07"
   },
+  "uq-2559": {
+    "code": "uq-2559",
+    "name": "Bachelor of Computer Science",
+    "institution": "The University of Queensland",
+    "institutionSlug": "uq",
+    "level": "bachelor",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 10,
+    "workplace": 5,
+    "C1": 2,
+    "C2": 2,
+    "C3": 2,
+    "C4": 2,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
   "usyd-advanced-computing-commerce": {
     "code": "usyd-advanced-computing-commerce",
     "name": "Bachelor of Advanced Computing and Bachelor of Commerce",
@@ -6375,6 +6550,31 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "gates": {
       "G1": "PASS",
       "G2": "PASS"
+    },
+    "verifiedAt": "2026-09-07"
+  },
+  "usyd-mba-technology-digital-strategy": {
+    "code": "usyd-mba-technology-digital-strategy",
+    "name": "Master of Business Administration",
+    "institution": "The University of Sydney",
+    "institutionSlug": "usyd",
+    "level": "master",
+    "exposure": 91.73,
+    "entryExposure": 95.09,
+    "exposureTier": "exact",
+    "adaptiveness": 2,
+    "workplace": 1,
+    "C1": 0,
+    "C2": 0,
+    "C3": 1,
+    "C4": 1,
+    "C5": 0,
+    "W1": 1,
+    "W2": 0,
+    "W3": 0,
+    "gates": {
+      "G1": "PASS",
+      "G2": "FAIL"
     },
     "verifiedAt": "2026-09-07"
   },
