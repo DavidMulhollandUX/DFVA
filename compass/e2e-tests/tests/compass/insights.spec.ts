@@ -35,6 +35,25 @@ test.describe('/insights — v4 portfolio overview', () => {
     expect(nAssessed).toBeGreaterThanOrEqual(221);
   });
 
+  test('compares universities, and keeps the faculty table Melbourne-only', async ({ page }) => {
+    // Publishing the first non-Melbourne programs put a nameless row in the
+    // faculty table linking to /insights/faculty/, because faculty grouping
+    // keyed on a field those programs do not have.
+    await page.goto('/insights');
+    const institutions = page.locator('[data-testid="institution-row"]');
+    await expect(institutions.first()).toBeVisible({ timeout: 15_000 });
+
+    // Melbourne is always present; any other university appears only once one
+    // of its programs is re-scored and verified, so this is a floor.
+    await expect(institutions).not.toHaveCount(0);
+    await expect(
+      institutions.filter({ hasText: 'The University of Melbourne' }),
+    ).toHaveCount(1);
+
+    // No group renders without a name, in either table.
+    await expect(page.locator('a[href="/insights/faculty/"]')).toHaveCount(0);
+  });
+
   test('never labels an assessed row as pending', async ({ page }) => {
     await page.goto('/insights');
     // The old page's lie: 15 of the 29 rows showing it had a resolvable basis.
