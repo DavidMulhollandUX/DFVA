@@ -31,12 +31,23 @@ test.describe('COMPASS pages', () => {
   });
 
   test('key programs appear on reports page', async ({ page }) => {
-    await page.goto('/reports');
-    await expect(page.locator('text=Bachelor of Design')).toBeVisible();
-    await expect(page.locator('text=Master of Information Systems')).toBeVisible();
-    await expect(page.locator('text=Master of Computer Science')).toBeVisible();
-    await expect(page.locator('text=Master of Data Science')).toBeVisible();
-    await expect(page.locator('text=Master of Climate Science')).toBeVisible();
+    // Search for each program rather than scanning the whole list. Two reasons:
+    // the index virtualises above 80 matches, so an un-searched card may not be
+    // in the DOM; and a program name is not unique once more than one
+    // university is published — a bare `text=Bachelor of Design` locator
+    // resolved to 3,073 elements on 2026-09-07 and failed on strict mode.
+    for (const name of [
+      'Bachelor of Design',
+      'Master of Information Systems',
+      'Master of Computer Science',
+      'Master of Data Science',
+      'Master of Climate Science',
+    ]) {
+      await page.goto(`/reports?q=${encodeURIComponent(name)}`);
+      await expect(
+        page.locator('[data-testid="report-card"]', { hasText: name }).first(),
+      ).toBeVisible({ timeout: 15_000 });
+    }
   });
 });
 

@@ -11,12 +11,28 @@ import { test, expect } from '@playwright/test';
  * this spec pins what the page actually renders.
  */
 test.describe('/insights — v4 portfolio overview', () => {
-  test('renders 235 rows: 221 assessed and 14 research degrees', async ({ page }) => {
+  test('renders every published program plus the research degrees', async ({ page }) => {
+    // Counts are asserted as invariants, not as pinned totals. The published
+    // cohort grows an institution at a time (docs/dfva-national-expansion-spec.md),
+    // and a hardcoded 235/221/14 went stale the moment it did — three of these
+    // assertions failed on 2026-09-07 for that reason alone.
     await page.goto('/insights');
     const rows = page.locator('[data-testid="program-row"]');
-    await expect(rows).toHaveCount(235);
-    await expect(page.locator('[data-assessed="true"]')).toHaveCount(221);
-    await expect(page.locator('[data-assessed="false"]')).toHaveCount(14);
+    const assessed = page.locator('[data-assessed="true"]');
+    const unassessed = page.locator('[data-assessed="false"]');
+    await expect(assessed.first()).toBeVisible({ timeout: 15_000 });
+
+    const total = await rows.count();
+    const nAssessed = await assessed.count();
+    const nUnassessed = await unassessed.count();
+
+    // Every row is one or the other; nothing is unclassified.
+    expect(nAssessed + nUnassessed).toBe(total);
+    // The research degrees are a fixed, named set — they never gain members
+    // from a scoring run, because there is no taught curriculum to score.
+    expect(nUnassessed).toBe(14);
+    // The Melbourne cohort alone is 221, so this is a floor, not a ceiling.
+    expect(nAssessed).toBeGreaterThanOrEqual(221);
   });
 
   test('never labels an assessed row as pending', async ({ page }) => {
@@ -53,7 +69,8 @@ test.describe('/insights — v4 portfolio overview', () => {
     const unassessedRows = page.locator('[data-testid="program-row"][data-assessed="false"]');
     const assessedCount = await assessedRows.count();
     const unassessedCount = await unassessedRows.count();
-    expect(assessedCount).toBe(221);
+    // Floors, not pins — the published cohort grows an institution at a time.
+    expect(assessedCount).toBeGreaterThanOrEqual(221);
     expect(unassessedCount).toBe(14);
 
     const lastIndex = await rowsInOrder(page);

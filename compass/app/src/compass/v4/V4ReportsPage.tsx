@@ -22,6 +22,29 @@ type StatusFilter = (typeof STATUS_FILTERS)[number];
 const isStatusFilter = (v: string | null): v is StatusFilter =>
   (STATUS_FILTERS as readonly string[]).includes(v ?? "");
 
+const LEVEL_LABELS: Record<string, string> = {
+  bachelor: "Bachelor",
+  master: "Master",
+  "graduate-certificate": "Graduate certificate",
+  "graduate-diploma": "Graduate diploma",
+  doctorate: "Doctorate",
+  other: "Other",
+};
+
+/** Sort keys the index offers. The vocabulary deliberately matches
+ *  `portfolioStats.SortKey` so /reports and /insights name the same orderings,
+ *  but the comparator is local: that module sorts `V4PortfolioRow`, and
+ *  adapting rows into that shape and back costs more than the comparator. */
+type SortKey = "name" | "exposure" | "adaptiveness" | "workplace";
+const SORT_LABELS: Record<SortKey, string> = {
+  name: "Name (A–Z)",
+  exposure: "Exposure (highest first)",
+  adaptiveness: "Adaptiveness (lowest first)",
+  workplace: "Workplace (lowest first)",
+};
+const isSortKey = (v: string | null): v is SortKey =>
+  Object.keys(SORT_LABELS).includes(v ?? "");
+
 function Stat({
   label,
   value,
@@ -72,6 +95,12 @@ function ReportCard({ entry }: { entry: ReportIndexEntry }) {
             <h2 className="text-foreground font-serif text-lg leading-snug tracking-tight">
               {entry.name}
             </h2>
+            <p
+              className="text-muted-foreground mt-0.5 text-[11px]"
+              data-testid="card-institution"
+            >
+              {entry.institution}
+            </p>
           </div>
           <V4StatusBadge entry={entry} />
         </div>
@@ -139,50 +168,138 @@ function ReportCard({ entry }: { entry: ReportIndexEntry }) {
   );
 }
 
+/** A removable chip for one active filter. */
+function FilterChip({
+  label,
+  onClear,
+}: {
+  label: string;
+  onClear: () => void;
+}) {
+  return (
+    <button
+      onClick={onClear}
+      className="border-border bg-card-accent text-muted-foreground hover:text-foreground flex items-center gap-1 rounded-full border px-2.5 py-1 text-[11px] font-semibold"
+      data-testid="filter-chip"
+    >
+      {label}
+      <X className="h-3 w-3" />
+    </button>
+  );
+}
+
 export default function V4ReportsPage() {
   // Filters live in the URL (same pattern as /insights) so back-navigation,
   // reload and shared links keep them. "all" and "" are the defaults and are
   // not written, so the plain /reports URL stays clean.
   const [params, setParams] = useSearchParams();
   const search = params.get("q") ?? "";
+  const university = params.get("university") ?? "all";
   const faculty = params.get("faculty") ?? "all";
+  const level = params.get("level") ?? "all";
   const rawStatus = params.get("status");
   const status: StatusFilter = isStatusFilter(rawStatus) ? rawStatus : "all";
   const position = params.get("position") ?? "all";
+  const rawSort = params.get("sort");
+  const sort: SortKey = isSortKey(rawSort) ? rawSort : "name";
   const setParam = (key: string, value: string) => {
     const next = new URLSearchParams(params);
     if (!value || value === "all") next.delete(key);
     else next.set(key, value);
+    // Changing a filter changes what the list means, so start from the top.
+    window.scrollTo({ top: 0 });
     setParams(next, { replace: true });
   };
   const clearParams = () => setParams({}, { replace: true });
 
+  // Facet options are counted over the whole index so a reader can see how much
+  // sits behind an option before choosing it.
+  const universities = useMemo(() => {
+    const counts = new Map<string, { slug: string; n: number }>();
+    for (const e of REPORT_INDEX) {
+      const c = counts.get(e.institution) ?? { slug: e.institutionSlug, n: 0 };
+      c.n += 1;
+      counts.set(e.institution, c);
+    }
+    return [...counts.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+  }, []);
+
+  // Faculty is a University of Melbourne concept (faculty.ts maps names onto
+  // UoM's nine official faculties), so the facet only appears when the view is
+  // Melbourne — either explicitly, or because Melbourne is all there is.
+  const melbourneOnly = useMemo(
+    () => REPORT_INDEX.every((e) => e.institutionSlug === "unimelb"),
+    [],
+  );
+  const showFaculty = melbourneOnly || university === "unimelb";
+
   const faculties = useMemo(
     () =>
-      [...new Set(REPORT_INDEX.map((e) => e.faculty).filter(Boolean))].sort(),
+      [
+        ...new Set(
+          REPORT_INDEX.filter(
+            (e) => e.institutionSlug === "unimelb" && e.faculty,
+          ).map((e) => e.faculty),
+        ),
+      ].sort(),
+    [],
+  );
+
+  const levels = useMemo(
+    () => [...new Set(REPORT_INDEX.map((e) => e.level))].sort(),
     [],
   );
 
   const rows = useMemo(() => {
     const q = search.trim().toLowerCase();
-    return REPORT_INDEX.filter(
+    const matched = REPORT_INDEX.filter(
       (e) =>
         (!q ||
           e.name.toLowerCase().includes(q) ||
           e.code.toLowerCase().includes(q)) &&
-        (faculty === "all" || e.faculty === faculty) &&
+        (university === "all" || e.institutionSlug === university) &&
+        (!showFaculty || faculty === "all" || e.faculty === faculty) &&
+        (level === "all" || e.level === level) &&
         (status === "all" || e.status === status) &&
         (position === "all" || e.position === position),
     );
-  }, [search, faculty, status, position]);
+    // A program with no score must never lead a numeric sort: an unscored
+    // program is not a zero, and "least adaptive first" would otherwise open
+    // with the programs that have no adaptiveness at all.
+    const missingLast = (a: number | null, b: number | null) =>
+      Number(a === null) - Number(b === null);
+    const sorted = [...matched];
+    if (sort === "exposure")
+      // Highest first: most exposed is the one worth reading about.
+      sorted.sort(
+        (a, b) =>
+          missingLast(a.exposure, b.exposure) ||
+          (b.exposure ?? 0) - (a.exposure ?? 0),
+      );
+    else if (sort === "adaptiveness" || sort === "workplace")
+      // Lowest first: least adaptive is the one needing attention.
+      sorted.sort(
+        (a, b) =>
+          missingLast(a[sort], b[sort]) || (a[sort] ?? 0) - (b[sort] ?? 0),
+      );
+    return sorted;
+  }, [search, university, faculty, level, status, position, sort, showFaculty]);
 
   const currentCount = REPORT_INDEX.filter(
     (e) => e.status === "current",
   ).length;
   const hasFilters =
-    search || faculty !== "all" || status !== "all" || position !== "all";
+    search ||
+    university !== "all" ||
+    faculty !== "all" ||
+    level !== "all" ||
+    status !== "all" ||
+    position !== "all";
   const selectClass =
     "border-border bg-background text-foreground rounded-lg border px-3 py-2 text-sm";
+
+  const institutionLabel = (slug: string) =>
+    universities.find(([, v]) => v.slug === slug)?.[0] ?? slug;
 
   return (
     <PageShell>
@@ -194,14 +311,17 @@ export default function V4ReportsPage() {
           Program reports
         </h1>
         <p className="text-muted-foreground mt-3 max-w-3xl text-sm">
-          {currentCount} of {REPORT_INDEX.length} University of Melbourne
-          programs carry a current Durability Report on the v4 instrument. The
-          rest hold an archived earlier assessment until they are scored on v4;
-          every archived report stays linked from its program page.
+          {currentCount} of {REPORT_INDEX.length} programs
+          {universities.length > 1
+            ? ` across ${universities.length} universities`
+            : ""}{" "}
+          carry a current Durability Report on the v4 instrument. The rest hold
+          an archived earlier assessment until they are scored on v4; every
+          archived report stays linked from its program page.
         </p>
       </div>
 
-      <div className="mb-6 flex flex-wrap items-center gap-3">
+      <div className="mb-4 flex flex-wrap items-center gap-3">
         <label className="border-border bg-background flex min-w-[240px] flex-1 items-center gap-2 rounded-lg border px-3 py-2 text-sm">
           <Search className="text-muted-foreground h-4 w-4" />
           <input
@@ -212,6 +332,21 @@ export default function V4ReportsPage() {
             aria-label="Search programs"
           />
         </label>
+        {universities.length > 1 && (
+          <select
+            value={university}
+            onChange={(e) => setParam("university", e.target.value)}
+            className={selectClass}
+            aria-label="University"
+          >
+            <option value="all">All universities</option>
+            {universities.map(([name, { slug, n }]) => (
+              <option key={slug} value={slug}>
+                {name} ({n})
+              </option>
+            ))}
+          </select>
+        )}
         <select
           value={status}
           onChange={(e) => setParam("status", e.target.value)}
@@ -241,26 +376,45 @@ export default function V4ReportsPage() {
           ))}
         </select>
         <select
-          value={faculty}
-          onChange={(e) => setParam("faculty", e.target.value)}
+          value={level}
+          onChange={(e) => setParam("level", e.target.value)}
           className={selectClass}
-          aria-label="Faculty"
+          aria-label="Level"
         >
-          <option value="all">All faculties</option>
-          {faculties.map((f) => (
-            <option key={f} value={f}>
-              {f}
+          <option value="all">All levels</option>
+          {levels.map((l) => (
+            <option key={l} value={l}>
+              {LEVEL_LABELS[l] ?? l}
             </option>
           ))}
         </select>
-        {hasFilters && (
-          <button
-            onClick={clearParams}
-            className="text-muted-foreground flex items-center gap-1 text-xs underline"
+        {showFaculty && (
+          <select
+            value={faculty}
+            onChange={(e) => setParam("faculty", e.target.value)}
+            className={selectClass}
+            aria-label="Faculty"
           >
-            <X className="h-3 w-3" /> Clear
-          </button>
+            <option value="all">All faculties</option>
+            {faculties.map((f) => (
+              <option key={f} value={f}>
+                {f}
+              </option>
+            ))}
+          </select>
         )}
+        <select
+          value={sort}
+          onChange={(e) => setParam("sort", e.target.value)}
+          className={selectClass}
+          aria-label="Sort by"
+        >
+          {(Object.keys(SORT_LABELS) as SortKey[]).map((k) => (
+            <option key={k} value={k}>
+              {SORT_LABELS[k]}
+            </option>
+          ))}
+        </select>
         <span
           className="text-muted-foreground ml-auto text-xs"
           data-testid="report-count"
@@ -269,15 +423,68 @@ export default function V4ReportsPage() {
         </span>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
-        {rows.map((e) => (
-          <ReportCard key={e.code} entry={e} />
-        ))}
-      </div>
-      {rows.length === 0 && (
+      {hasFilters && (
+        <div className="mb-6 flex flex-wrap items-center gap-2">
+          {search && (
+            <FilterChip
+              label={`Search: ${search}`}
+              onClear={() => setParam("q", "")}
+            />
+          )}
+          {university !== "all" && (
+            <FilterChip
+              label={institutionLabel(university)}
+              onClear={() => setParam("university", "all")}
+            />
+          )}
+          {status !== "all" && (
+            <FilterChip
+              label={`Status: ${status}`}
+              onClear={() => setParam("status", "all")}
+            />
+          )}
+          {position !== "all" && (
+            <FilterChip
+              label={
+                QUADRANTS[position as keyof typeof QUADRANTS]?.short ?? position
+              }
+              onClear={() => setParam("position", "all")}
+            />
+          )}
+          {level !== "all" && (
+            <FilterChip
+              label={LEVEL_LABELS[level] ?? level}
+              onClear={() => setParam("level", "all")}
+            />
+          )}
+          {showFaculty && faculty !== "all" && (
+            <FilterChip
+              label={faculty}
+              onClear={() => setParam("faculty", "all")}
+            />
+          )}
+          <button
+            onClick={clearParams}
+            className="text-muted-foreground hover:text-foreground flex items-center gap-1 text-xs underline"
+          >
+            Clear all
+          </button>
+        </div>
+      )}
+
+      {rows.length === 0 ? (
         <p className="text-muted-foreground py-16 text-center text-sm">
-          No programs match these filters.
+          No programs match these filters.{" "}
+          {search
+            ? `Try clearing the search term "${search}".`
+            : "Try widening the university or status filter."}
         </p>
+      ) : (
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
+          {rows.map((e) => (
+            <ReportCard key={e.code} entry={e} />
+          ))}
+        </div>
       )}
     </PageShell>
   );
