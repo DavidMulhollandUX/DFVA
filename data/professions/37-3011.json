@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1209,26 +1209,94 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Landscaping and groundskeeping workers in Australia adhere to state Work Health and Safety regulations governing plant and machinery operation (AS 2550) and state environmental chemical applicator licensing.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Safe Work Australia",
+          "title": "Work Health and Safety in Landscaping and Grounds Maintenance",
+          "url": "https://www.safeworkaustralia.gov.au/safety-topic/industry-safety/agriculture",
+          "date": "2024-10-01",
+          "whatItMeasured": "WHS standards governing heavy mower operation, power equipment, and chemical spray safety"
+        }
+      ],
+      "scope": "Australian grounds maintenance and landscaping workforce; statutory safety standards.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (safeworkaustralia.gov.au); measures groundskeeping safety compliance; in window.",
+      "id": "37-3011-empi58"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) rates landscaping and groundskeeping workers as possessing near-zero substitution risk: physical terrain navigation, manual weeding, shrub pruning, and outdoor weather adaptation are non-automatable.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and physical substitution resistance across Australian service and personal care occupations"
+        }
+      ],
+      "scope": "Landscaping workforce; outdoor physical manual labour.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "37-3011-empi59"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 7493 active job advertisements for landscaper across Australia, demonstrating frontline workforce demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: landscaper, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=landscaper&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 7493 postings for landscaper"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "37-3011-empi60"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "groundskeeper",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 174,
+    "query": "landscaper",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 7493,
     "returned": 50,
     "topEmployers": [
-      "Journey Beyond",
-      "Palm Lake Group",
-      "Civeo",
-      "Eureka Group Holdings Limited",
-      "Green by Nature",
-      "HAYS",
-      "The Salvation Army",
-      "Pepperdemo"
+      "Select People",
+      "Select People / Apprentice Recruit",
+      "Buildability Group",
+      "Job2Go Pty Ltd",
+      "AWX Pty Ltd",
+      "Tetra Tech",
+      "Apprentice Recruit",
+      "Frontline Recruitment Group"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "turf",
+      "mowing",
+      "horticulture",
+      "irrigation",
+      "gardening",
+      "weed control"
     ]
   },
   "corpus": {
@@ -1240,7 +1308,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1290,5 +1366,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Landscaping requires physical outdoor manual labour in variable weather."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

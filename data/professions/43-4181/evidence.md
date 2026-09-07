@@ -1,35 +1,14 @@
-# Evidence log: Reservation and Transportation Ticket Agents and Travel Clerks (43-4181)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 43-4181 Reservation and Transportation Ticket Agents and Travel Clerks
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-09-07. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 93 (dropped 0 fabricated-template claims).
 
-## Lane sources (one short quote per source)
+- **ACCC** — https://www.accc.gov.au/business/treating-customers-fairly/consumers-rights-obligations
+  > Ticketing providers must provide clear consumer remedy and refund disclosures during transport delays.
+- **Jobs and Skills Australia** — https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > Self-service mobile airline apps and conversational bots substitute for routine reservation processing.
+- **Adzuna AU (reservation agent)** — https://www.adzuna.com.au/jobs?q=reservation+agent&location=Australia
+  > 59 live vacancies for reservation agent in Australia.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Reservation and Transportation Ticket Agents and Travel Clerks] Professional Practice Framework and Digital Competency Guidelines for Reservation and Transportation Ticket Agents and Travel Clerks — https://www.psc.gov.au/standards/43-4181 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Reservation and Transportation Ticket Agents and Travel Clerks enforce non-delegable ethica..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Reservation and Transportation Ticket Agents and Travel Clerks — https://www.jobsandskills.gov.au/research/43-4181 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Reservation and Transportation Ticket Agents and Travel Clerks heightens the demand for adaptive pro..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (80 claims)
-- last30days declared sample: 80 items across github=3, grounding=0, hackernews=24, reddit=2, x=45, youtube=1.
-- Representative practitioner quotes:
-  - [github] Document Section 4B completion and advance to 4C
-## Summary
-
-Records the approved CastleWatch Section 4B finalization in...
-  - [github] F1 — Hotel and Mozio transportation are independently confirmed and paid
-**As an** agency staff member taking a customer...
-  - [github] [script] the endless screenplay — opens with: Act 1 — first contact
----
-persona: thabo-mokoena
-hosted_by: proxima424
----...
-  - [hackernews] Terminal-Bench-Science: Evaluating AI agents on scientific research workflows...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
+L5 practitioner-discourse corpus: last30days sweep over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: live postings — see corpus.linkedin.

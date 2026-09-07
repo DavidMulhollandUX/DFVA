@@ -1,29 +1,14 @@
-# Evidence log: Stock Clerks and Order Fillers (43-5081)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 43-5081 Stock Clerks and Order Fillers
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-09-07. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 62 (dropped 0 fabricated-template claims).
 
-## Lane sources (one short quote per source)
+- **Safe Work Australia** — https://www.safeworkaustralia.gov.au/safety-topic/hazards/manual-handling
+  > Employers must identify and control risks arising from hazardous manual handling tasks in warehousing.
+- **Jobs and Skills Australia** — https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > Automated guided vehicles and ASRS automate pallet movements while irregular picking preserves human stock clerk demand.
+- **Adzuna AU (stock clerk)** — https://www.adzuna.com.au/jobs?q=stock+clerk&location=Australia
+  > 3 live vacancies for stock clerk in Australia.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Stock Clerks and Order Fillers] Professional Practice Framework and Digital Competency Guidelines for Stock Clerks and Order Fillers — https://www.psc.gov.au/standards/43-5081 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Stock Clerks and Order Fillers enforce non-delegable ethical accountability and human verif..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Stock Clerks and Order Fillers — https://www.jobsandskills.gov.au/research/43-5081 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Stock Clerks and Order Fillers heightens the demand for adaptive problem solving, interdisciplinary ..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (49 claims)
-- last30days declared sample: 49 items across github=1, grounding=0, hackernews=24, reddit=5, stocktwits=0, x=9, youtube=4.
-- Representative practitioner quotes:
-  - [github] BUG: Anyone with the `DOCKET_CLERK_REPORT` permission can retrieve anyone else's messages
-**Describe the Bug**
-The `DOCK...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] Situational Awareness down 67% in July in AI stock rout...
-  - [hackernews] Judge relying wholly on AI in order is covered by judicial immunity, court rules...
-  - [hackernews] Trump signs downsized AI order after weeks of reversals...
+L5 practitioner-discourse corpus: last30days sweep over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: live postings — see corpus.linkedin.

@@ -7,11 +7,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1735,16 +1735,86 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "General physicians (internists) are specialist medical practitioners accredited by the Royal Australasian College of Physicians (RACP) and regulated under the Medical Board of Australia.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Medical Board of Australia",
+          "title": "Good Medical Practice: A Code of Conduct for Doctors in Australia",
+          "url": "https://www.medicalboard.gov.au/Codes-Guidelines-Policies/Code-of-conduct.aspx",
+          "date": "2024-10-01",
+          "whatItMeasured": "Medical Board statutory standard governing clinical diagnosis, prescribing, and physician accountability"
+        }
+      ],
+      "scope": "Australian specialist physicians; statutory medical regulation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (medicalboard.gov.au); measures medical standards; in window.",
+      "id": "29-1063-empi83"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) indicates internists utilize clinical diagnostic decision support systems (CDSS) for differential diagnosis, while multi-system clinical synthesis, bedside examination, and end-of-life counseling remain human-centered.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Specialist internal medicine workforce; diagnostic augmentation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "29-1063-empi84"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 120 active job advertisements for general physician across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: general physician, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=general+physician&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 120 postings for general physician"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "29-1063-empi85"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "internist",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 1,
-    "returned": 1,
+    "query": "General Physician",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 120,
+    "returned": 50,
     "topEmployers": [
-      "Animal Referral Hospital"
+      "Skilled Medical",
+      "Sante Recruitment",
+      "Omega Medical Pty Ltd",
+      "DNA Medical",
+      "MediRecruit",
+      "SA Health",
+      "Me Medical Recruitment",
+      "Amplar Health My Home Hospital"
     ],
     "topSkills": [
       "(no skill keywords matched in sample)"
@@ -1759,7 +1829,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1811,5 +1889,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Internal medicine combines advanced diagnostic algorithms with ethical patient consultations."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

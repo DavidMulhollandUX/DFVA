@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1377,26 +1377,89 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Music directors and composers in Australia are represented by APRA AMCOS and the Australian Guild of Screen Composers (AGSC), enforcing copyright compliance under the Copyright Act 1968 and advocating against unlicensed AI scraping of musical repertoires.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "APRA AMCOS",
+          "title": "APRA AMCOS Artificial Intelligence Principles and Copyright Position",
+          "url": "https://www.apraamcos.com.au/about/news/2024/apra-amcos-ai-principles",
+          "date": "2024-11-20",
+          "whatItMeasured": "Peak music rights organisation principles on licensing, moral rights, and transparency in generative AI music creation"
+        }
+      ],
+      "scope": "Australian musical composition and screen scoring; collective rights management.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (apraamcos.com.au); measures copyright and licensing standards for composers; in window.",
+      "id": "27-2041-empi66"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) notes music composers face acute disruption in library, advertising, and corporate background music from generative audio models, shifting human composition towards bespoke concert works, live conducting, and high-prestige screen scoring.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and automation risk across Australian creative and media occupations"
+        }
+      ],
+      "scope": "Music composition workforce; market bifurcation between commercial stock audio and auteur composition.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "27-2041-empi67"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 6 active job advertisements for music director across Australia, demonstrating commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: music director, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=music+director&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 6 postings for music director"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "27-2041-empi68"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "music director",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 11,
-    "returned": 11,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 6,
+    "returned": 6,
     "topEmployers": [
-      "Canberra Grammar School",
       "Loreto Kirribilli",
       "Ballarat Grammar",
-      "Lindisfarne Anglican Grammar School",
+      "Canberra Grammar School",
       "Queensland Government",
-      "Brisbane Catholic Education",
-      "Catholic Education Diocese of Rockhampton",
-      "Ivanhoe Grammar Cloud HR & Payroll"
+      "Brisbane Catholic Education"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "composition",
+      "score",
+      "orchestration",
+      "arrangement"
     ]
   },
   "corpus": {
@@ -1408,7 +1471,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1437,5 +1508,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Incidental and commercial stock music composition is severely exposed to generative AI music models."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

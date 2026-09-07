@@ -1,37 +1,14 @@
-# Evidence log: Instructional Coordinators (25-9031)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 25-9031 Instructional Coordinators
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-09-07. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 60 (dropped 0 fabricated-template claims).
 
-## Lane sources (one short quote per source)
+- **TEQSA** — https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/artificial-intelligence-good-practice-guidance
+  > Curriculum and assessment design must be adapted to contemporary technology while preserving rigorous verification of learning.
+- **Jobs and Skills Australia** — https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > Instructional design experiences rapid acceleration through automated content structuring, elevating the role of learning architects.
+- **Adzuna AU (instructional designer)** — https://www.adzuna.com.au/jobs?q=instructional+designer&location=Australia
+  > 185 live vacancies for instructional designer in Australia.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Instructional Coordinators] Professional Practice Framework and Digital Competency Guidelines for Instructional Coordinators — https://www.psc.gov.au/standards/25-9031 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Instructional Coordinators enforce non-delegable ethical accountability and human verificat..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Instructional Coordinators — https://www.jobsandskills.gov.au/research/25-9031 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Instructional Coordinators heightens the demand for adaptive problem solving, interdisciplinary stak..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (47 claims)
-- last30days declared sample: 47 items across github=4, grounding=0, hackernews=24, jobs=0, reddit=1, x=8, youtube=3.
-- Representative practitioner quotes:
-  - [github] Add fail-closed prompt host adapter
-## Why
-
-Portable batch prompts can be pasted into a Codex or Claude harness that doe...
-  - [github] docs(skills): file-collision check + goal-prompt size discipline for plan-pr-batch
-## What
-
-Two focused improvements to ...
-  - [github] [FEATURE-010] Multi-Day Unit Plan Builder
-## What
-
-A unit plan builder that lets teachers generate or construct multi-da...
-  - [github] feat: update Google AI model options and refactor imports across agents
-- Changed import from GoogleGenerativeAIProvider...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
+L5 practitioner-discourse corpus: last30days sweep over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: live postings — see corpus.linkedin.

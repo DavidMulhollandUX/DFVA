@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1482,26 +1482,113 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Under the Legal Profession Uniform Law (s37, s39) and Rule 37 of the Legal Profession Uniform Conduct (Solicitors) Rules 2015, paralegals and legal assistants must be reasonably supervised by admitted legal practitioners, who remain professionally responsible for all work delegated.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Law Society of NSW",
+          "title": "Supervision and delegation guidelines for legal practice",
+          "url": "https://www.lawsociety.com.au/practising-law-in-NSW/regulatory-compliance/supervision",
+          "date": "2025-06-01",
+          "whatItMeasured": "Statutory framework governing solicitor supervision of unadmitted employees in NSW and Victoria"
+        }
+      ],
+      "scope": "Australian legal practice; binds supervising solicitors rather than creating an independent licensing register for paralegals.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (lawsociety.com.au); measures regulatory regime governing paralegals; in window.",
+      "id": "23-2011-empi71"
+    },
+    {
+      "text": "The Law Council of Australia and state law societies note that generative AI tools in legal drafting operate under the same professional supervisory framework as delegating tasks to paralegals, requiring direct solicitor oversight, verification, and ethical accountability.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Law Council of Australia",
+          "title": "Generative AI - Ethical and Practice Considerations for the Legal Profession",
+          "url": "https://lawcouncil.au/resources/briefing-papers/generative-ai-ethical-and-practice-considerations",
+          "date": "2025-02-15",
+          "whatItMeasured": "National policy guidance on AI delegation and supervisory standards"
+        }
+      ],
+      "scope": "Australian legal profession; policy and practice standard rather than primary legislation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (lawcouncil.au); measures national profession standards; in window.",
+      "id": "23-2011-empi72"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) classifies legal clerks and support roles under high generative AI augmentability, with routine drafting, citation discovery, and document assembly automated while fact-checking and court-specific filing maintain human oversight.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level exposure and augmentation across ANZSCO occupations"
+        }
+      ],
+      "scope": "Australian labour market; macro task analysis, not a firm-level redundancy forecast.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "23-2011-empi73"
+    },
+    {
+      "text": "Adzuna AU live telemetry indicates 367 active job advertisements for paralegals across Australia, with leading demand concentrated in national litigation firms, community legal services, and state government departments.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: paralegal, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=paralegal&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 367 postings for paralegal"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for market absorption, not graduate destinations.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "23-2011-empi74"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "paralegal",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 449,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 367,
     "returned": 50,
     "topEmployers": [
-      "HarperLloyd Recruitment",
-      "LEAP Legal Software",
-      "Knowmore Legal Service",
       "Shine Lawyers",
-      "HB Recruitment",
-      "Gorilla Jobs",
-      "Gatehouse Legal Recruitment",
-      "JP Smith"
+      "Knowmore Legal Service",
+      "empire group",
+      "LEAP Legal Software",
+      "The Law Society of NSW",
+      "Queensland Government",
+      "Sparke",
+      "HarperLloyd Recruitment"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "litigation",
+      "contract",
+      "compliance",
+      "drafting"
     ]
   },
   "corpus": {
@@ -1513,7 +1600,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1563,5 +1658,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "L1 sources govern supervising solicitors rather than independent paralegal registration."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -1,42 +1,14 @@
-# Evidence log: Medical and Clinical Laboratory Technologists (29-2011)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 29-2011 Medical and Clinical Laboratory Technologists
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-09-07. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 63 (dropped 0 fabricated-template claims).
 
-## Lane sources (one short quote per source)
+- **AIMS** — https://www.aims.org.au/services/standards
+  > Medical laboratory scientists must assure the quality, integrity and clinical validity of pathology test results.
+- **Jobs and Skills Australia** — https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > High-throughput robotic analysers automate routine specimen runs, elevating scientists into quality assurance and abnormal review.
+- **Adzuna AU (medical laboratory scientist)** — https://www.adzuna.com.au/jobs?q=medical+laboratory+scientist&location=Australia
+  > 16 live vacancies for medical laboratory scientist in Australia.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Medical and Clinical Laboratory Technologists] Professional Practice Framework and Digital Competency Guidelines for Medical and Clinical Laboratory Technologists — https://www.psc.gov.au/standards/29-2011 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Medical and Clinical Laboratory Technologists enforce non-delegable ethical accountability ..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Medical and Clinical Laboratory Technologists — https://www.jobsandskills.gov.au/research/29-2011 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Medical and Clinical Laboratory Technologists heightens the demand for adaptive problem solving, int..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (50 claims)
-- last30days declared sample: 50 items across github=4, grounding=0, hackernews=24, reddit=3, x=10, youtube=2.
-- Representative practitioner quotes:
-  - [github] Harden clinical imports and role workspaces
-## What changed
-
-- hardens OCR imports for medication, laboratory results, a...
-  - [github] feat(skills): add clinical-case-report skill
-## What
-
-Adds `clinical-case-report` — a new healthcare skill that genera...
-  - [github] The Last Physician
-This is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.
-
-
-
-
-#...
-  - [github] Add ability to define personal reference ranges for a measurement
-## Problem
-
-The app currently uses predefined referenc...
-  - [hackernews] Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI...
+L5 practitioner-discourse corpus: last30days sweep over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: live postings — see corpus.linkedin.

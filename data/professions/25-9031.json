@@ -11,11 +11,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [
     "mc-inslead"
   ],
@@ -1216,26 +1216,99 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Instructional coordinators and learning designers in Australian higher education and VET operate under institutional curriculum governance aligned with TEQSA and ASQA course design and assessment integrity standards.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Tertiary Education Quality and Standards Agency",
+          "title": "Artificial intelligence: Good practice guidance and regulatory expectations",
+          "url": "https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/artificial-intelligence-good-practice-guidance",
+          "date": "2025-04-10",
+          "whatItMeasured": "TEQSA regulatory guidance on academic integrity and assessment validity in higher education under the HES Framework 2021"
+        },
+        {
+          "publisher": "Australian Skills Quality Authority",
+          "title": "Standards for Registered Training Organisations (RTOs) 2015 and VET Quality Framework",
+          "url": "https://www.asqa.gov.au/standards",
+          "date": "2025-01-15",
+          "whatItMeasured": "ASQA regulatory standards for vocational trainers, assessors, and competency-based delivery"
+        }
+      ],
+      "scope": "Australian university and VET curriculum design teams; institutional compliance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (teqsa.gov.au); measures regulatory context of curriculum design; in window.",
+      "id": "25-9031-empi58"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) classifies instructional design as an occupation under very high generative AI augmentability, with course module outlines, formative quizzes, and slide decks generated automatically, refocusing designers on high-level pedagogical architecture.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level occupational augmentability and substitutability across Australian educators"
+        }
+      ],
+      "scope": "Instructional and curriculum designers; rapid task automation across content generation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "25-9031-empi59"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 185 active job advertisements for instructional designer across Australia, demonstrating steady public and private sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: instructional designer, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=instructional+designer&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 185 postings for instructional designer"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "25-9031-empi60"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "instructional coordinator",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 79,
+    "query": "instructional designer",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 185,
     "returned": 50,
     "topEmployers": [
-      "Cushman & Wakefield",
-      "Central Australian Aboriginal Congress",
-      "Scotford Fennessy",
-      "Queensland Government",
-      "Murdoch University",
-      "Bechtel",
-      "St Joseph the Worker Catholic Primary School",
-      "HarperLloyd Recruitment"
+      "BAE Systems",
+      "Kaplan",
+      "ASC",
+      "Public Sector People",
+      "Talenza",
+      "City fm",
+      "72 CAE Australia",
+      "Mercor"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "curriculum",
+      "learning design",
+      "multimedia",
+      "e-learning"
     ]
   },
   "corpus": {
@@ -1247,7 +1320,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1299,5 +1380,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Routine learning content authoring is heavily automated by generative instructional tools."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

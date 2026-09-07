@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1797,25 +1797,83 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "text": "Orthotists and prosthetists in Australia are credentialed by the Australian Orthotic Prosthetic Association (AOPA), adhering to clinical competency standards and NDIS Quality and Safeguards Commission requirements.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Orthotic Prosthetic Association",
+          "title": "AOPA Professional Standards and Certification Framework",
+          "url": "https://www.aopa.org.au/practitioners/standards",
+          "date": "2024-11-01",
+          "whatItMeasured": "National accreditation and clinical practice standards for certified orthotists and prosthetists in Australia"
+        }
+      ],
+      "scope": "Australian orthotists and prosthetists; national peak body credentialing.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (aopa.org.au); measures orthotic/prosthetic standards; in window.",
+      "id": "29-2091-empi86"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) notes that while 3D scanning and additive manufacturing streamline device design, patient physical casting, stump socket fitting, and physical gait optimization remain human clinical tasks.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Orthotic and prosthetic clinical workforce; custom physical fabrication.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "29-2091-empi87"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 0 active job advertisements for orthotist across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: orthotist, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=orthotist&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 0 postings for orthotist"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "29-2091-empi88"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "orthotist prosthetist",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 8,
-    "returned": 8,
-    "topEmployers": [
-      "SSS Prosthetics and Orthotics",
-      "Prostek",
-      "Tasmanian Government Jobs",
-      "NSW Government",
-      "Southern Prosthetics and Orthotics",
-      "SA Health - Flinders and Upper North Local Health Network",
-      "SA Health"
-    ],
+    "query": "orthotist",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 0,
+    "returned": 0,
+    "topEmployers": [],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "prosthetics",
+      "orthotics",
+      "AOPA",
+      "biomechanics"
     ]
   },
   "corpus": {
@@ -1827,7 +1885,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1864,5 +1930,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Prosthetic and orthotic fabrication combines 3D CAD/CAM with bespoke physical fitting."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1272,26 +1272,90 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Personal and home care aides adhere to the Strengthened Aged Care Quality Standards and the NDIS Code of Conduct, delivering personal hygiene, mobility transfers, and domestic assistance under Commonwealth statutory oversight.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "NDIS Quality and Safeguards Commission",
+          "title": "NDIS Practice Standards and Quality Indicators",
+          "url": "https://www.ndiscommission.gov.au/providers/ndis-practice-standards",
+          "date": "2024-10-15",
+          "whatItMeasured": "Commonwealth standards governing personal care, disability support worker conduct, and participant dignity"
+        }
+      ],
+      "scope": "Australian home care and disability support personnel; statutory quality standards.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ndiscommission.gov.au); measures personal care standards; in window.",
+      "id": "39-9021-empi61"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) notes massive, sustained labour demand for personal and home care aides driven by demographic ageing, with the occupation having near-zero automation vulnerability due to intimate physical assistance in home environments.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and physical substitution resistance across Australian service and personal care occupations"
+        }
+      ],
+      "scope": "Personal care and home support workforce; massive structural demand and zero substitution.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "39-9021-empi62"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 868 active job advertisements for aged care worker across Australia, demonstrating frontline workforce demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: aged care worker, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=aged+care+worker&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 868 postings for aged care worker"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "39-9021-empi63"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "personal care aide",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 47,
-    "returned": 47,
+    "query": "aged care worker",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 868,
+    "returned": 50,
     "topEmployers": [
-      "Newly by HealthcareLink Support",
-      "Newly Support",
-      "Australian Red Cross",
-      "Young Mindz Pty",
-      "FOCUS Connect",
-      "Apprenticeship Careers Australia",
-      "Way of Humanity",
-      "Mimosa Care"
+      "Ternary",
+      "Benevolent Society",
+      "St Basil’s NSW/ACT",
+      "Dovida",
+      "The Benevolent Society",
+      "Marna Care Pty",
+      "PTAC",
+      "Offshore Staff Assist"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "home care",
+      "personal care worker"
     ]
   },
   "corpus": {
@@ -1303,7 +1367,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1353,5 +1425,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Home care requires direct physical assistance with activities of daily living (ADLs)."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

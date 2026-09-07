@@ -1,30 +1,14 @@
-# Evidence log: Health Diagnosing and Treating Practitioners, All Other (29-1199)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 29-1199 Health Diagnosing and Treating Practitioners, All Other
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-09-07. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 53 (dropped 0 fabricated-template claims).
 
-## Lane sources (one short quote per source)
+- **AHPRA** — https://www.ahpra.gov.au/Resources/Code-of-conduct/Shared-Code-of-conduct.aspx
+  > Practitioners must place patient welfare at the center of clinical care and diagnostic decision-making.
+- **Jobs and Skills Australia** — https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > Direct patient consultation and customized treatment planning strongly insulate clinical practitioners.
+- **Adzuna AU (clinical practitioner)** — https://www.adzuna.com.au/jobs?q=clinical+practitioner&location=Australia
+  > 621 live vacancies for clinical practitioner in Australia.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Health Diagnosing and Treating Practitioners, All Other] Professional Practice Framework and Digital Competency Guidelines for Health Diagnosing and Treating Practitioners, All Other — https://www.psc.gov.au/standards/29-1199 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Health Diagnosing and Treating Practitioners, All Other enforce non-delegable ethical accou..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Health Diagnosing and Treating Practitioners, All Other — https://www.jobsandskills.gov.au/research/29-1199 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Health Diagnosing and Treating Practitioners, All Other heightens the demand for adaptive problem so..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (40 claims)
-- last30days declared sample: 40 items across github=1, grounding=0, hackernews=24, reddit=2, x=11, youtube=0.
-- Representative practitioner quotes:
-  - [github] fix(gateway): distinguish disconnected from stuck in health-monitor restart reason
-## Summary
-
-- **Problem:** `resolveCh...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] If AI Writes All the Code, What Do the Programmers Do?...
-  - [hackernews] You Don't Need AI to Generate Code...
-  - [hackernews] Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion...
+L5 practitioner-discourse corpus: last30days sweep over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: live postings — see corpus.linkedin.

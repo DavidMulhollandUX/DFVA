@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1650,26 +1650,92 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Statistical assistants in Australian government agencies and private research organizations adhere to the Census and Statistics Act 1905 and the Australian Bureau of Statistics (ABS) Data Quality Framework.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Bureau of Statistics",
+          "title": "ABS Data Quality Framework",
+          "url": "https://www.abs.gov.au/methodology/data-quality-framework",
+          "date": "2024-10-01",
+          "whatItMeasured": "National statistical quality standard ensuring integrity, accuracy, and confidentiality of government data collections"
+        }
+      ],
+      "scope": "Australian statistical and data processing personnel; statutory data quality standard.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (abs.gov.au); measures statistical data standards; in window.",
+      "id": "43-9111-empi79"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) documents statistical assistants as experiencing high automation from automated data pipelines, ETL tools, and automated outlier detection scripts, shifting technician roles toward validating anomalies and cleaning messy survey returns.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clerical/sales automation exposure across Australian administrative and commercial roles"
+        }
+      ],
+      "scope": "Statistical support workforce; data pipeline automation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "43-9111-empi80"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 10 active job advertisements for statistical assistant across Australia, reflecting commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: statistical assistant, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=statistical+assistant&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 10 postings for statistical assistant"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "43-9111-empi81"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "statistical assistant",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 15,
-    "returned": 15,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 10,
+    "returned": 10,
     "topEmployers": [
-      "Burdekin Community Association Inc.",
+      "LivaNova",
+      "Marsh McLennan",
       "Benalla Health",
       "Cdmguru",
       "Vault Minerals",
-      "LivaNova",
-      "UTS",
-      "Marsh McLennan",
-      "MARS PARTNERSHIP PTY. LTD."
+      "MARS PARTNERSHIP PTY. LTD.",
+      "Rockingham Harrisonburg SPCA",
+      "GWA"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "data assistant",
+      "data entry",
+      "data validation",
+      "ABS"
     ]
   },
   "corpus": {
@@ -1681,7 +1747,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1733,5 +1807,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Routine manual data entry is automated by optical recognition and automated ETL ingestion."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

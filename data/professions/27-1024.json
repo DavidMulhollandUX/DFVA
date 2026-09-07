@@ -11,11 +11,11 @@
   ],
   "anzsco": "232411",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1620,17 +1620,80 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Graphic designers in Australia are guided by the Design Institute of Australia (DIA) Code of Ethics and the Australian Copyright Act 1968, requiring client disclosure when generative AI image tools are used for commercial IP creation.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Design Institute of Australia",
+          "title": "DIA Code of Ethics and Professional Conduct for Designers",
+          "url": "https://www.design.org.au/resources/code-of-ethics",
+          "date": "2024-10-15",
+          "whatItMeasured": "National professional ethics and intellectual property standards for Australian designers"
+        }
+      ],
+      "scope": "Australian design profession; professional self-regulation and copyright compliance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (design.org.au); measures graphic design professional standards; in window.",
+      "id": "27-1024-empi76"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) rates graphic designers among the highest in generative AI task transformation: automated concept generation and layout iteration compress production cycles, elevating designers into strategic creative directors and brand curators.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and automation risk across Australian creative and media occupations"
+        }
+      ],
+      "scope": "Australian design workforce; structural task shift rather than outright headcount elimination.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "27-1024-empi77"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 637 active job advertisements for graphic designer across Australia, demonstrating commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: graphic designer, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=graphic+designer&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 637 postings for graphic designer"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "27-1024-empi78"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "graphic designer",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 606,
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 637,
     "returned": 50,
     "topEmployers": [
       "Aspirante",
-      "Dyenamic Sublimation",
+      "Grounded Construction Group",
       "Medical Symbiosis",
       "private",
       "Talenza",
@@ -1639,7 +1702,7 @@
       "Brandbank Steambrook pty ltd"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "branding"
     ]
   },
   "corpus": {
@@ -1651,7 +1714,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1696,6 +1767,9 @@
   },
   "confidence": "high",
   "caveats": [
-    "anzsco corrected from placeholder '220000' to '232411' (Graphic Designer, ABS ANZSCO 2324 unit group) on 2026-08-31; verified via ABS ANZSCO and JSA occupation page."
-  ]
+    "anzsco corrected from placeholder '220000' to '232411' (Graphic Designer, ABS ANZSCO 2324 unit group) on 2026-08-31; verified via ABS ANZSCO and JSA occupation page.",
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Routine illustration and stock graphic production face severe deflationary pressure."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

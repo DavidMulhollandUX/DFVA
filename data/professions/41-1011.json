@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -978,26 +978,91 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Retail sales supervisors operate under the General Retail Industry Award 2020 and comply with Australian Consumer Law requirements governing store customer refunds and pricing accuracy.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Competition and Consumer Commission",
+          "title": "Australian Consumer Law and Misleading Conduct Guidelines",
+          "url": "https://www.accc.gov.au/business/treating-customers-fairly/consumers-rights-obligations",
+          "date": "2024-11-01",
+          "whatItMeasured": "Commonwealth statutory regulations governing fair trading, consumer guarantees, and advertising accuracy"
+        }
+      ],
+      "scope": "Australian retail store supervision; industrial award and consumer law compliance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (accc.gov.au); measures retail supervisory standards; in window.",
+      "id": "41-1011-empi47"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds retail store supervisors face partial automation in automated shift scheduling and automated stock replenishment, while physical shopfloor team leadership, loss prevention, and customer conflict resolution preserve high demand.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clerical/sales automation exposure across Australian administrative and commercial roles"
+        }
+      ],
+      "scope": "Retail supervisory workforce; operational management balance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "41-1011-empi48"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 264 active job advertisements for retail supervisor across Australia, reflecting commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: retail supervisor, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=retail+supervisor&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 264 postings for retail supervisor"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "41-1011-empi49"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "retail sales supervisor",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 50,
+    "query": "retail supervisor",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 264,
     "returned": 50,
     "topEmployers": [
-      "Universal Store",
-      "PUMA",
-      "lululemon",
-      "NSW Government",
-      "SMCP",
-      "Umart Online",
-      "Ferjus",
-      "adidas"
+      "Bunnings",
+      "Bunnings Group",
+      "Hungry Jack's",
+      "Family and Disability Services",
+      "SEHGAL & SEHGAL PTY LTD T/A CONGUPNA STORE",
+      "The Trustee for MANAGEMENT UNIT TRUST",
+      "Atlas Talents",
+      "Next Gen Talent"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "POS",
+      "roster",
+      "customer service"
     ]
   },
   "corpus": {
@@ -1009,7 +1074,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1059,5 +1132,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Retail rostering and inventory forecasting are heavily automated by enterprise ERP."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

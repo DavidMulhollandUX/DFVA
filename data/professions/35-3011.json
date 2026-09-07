@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1482,26 +1482,93 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Bartenders in Australia must hold a statutory Responsible Service of Alcohol (RSA) competency card issued by state liquor authorities (e.g. Liquor & Gaming NSW, VGCCC) and adhere to FSANZ food safety hygiene standards.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Food Standards Australia New Zealand",
+          "title": "Standard 3.2.2A Food Safety Management Tools",
+          "url": "https://www.foodstandards.gov.au/food-safety/standards/3.2.2A",
+          "date": "2024-09-01",
+          "whatItMeasured": "National statutory food safety management standards for food service and hospitality workers"
+        }
+      ],
+      "scope": "Australian hospitality workforce; statutory RSA compliance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (foodstandards.gov.au); measures beverage service regulatory standards; in window.",
+      "id": "35-3011-empi71"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds bartenders possess high resilience to automation, as bespoke beverage mixing, social engagement, intoxication risk assessment, and dynamic hospitality presence require physical execution.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and physical substitution resistance across Australian service and personal care occupations"
+        }
+      ],
+      "scope": "Hospitality beverage workforce; physical manual dexterity.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "35-3011-empi72"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 385 active job advertisements for bartender across Australia, demonstrating frontline workforce demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: bartender, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=bartender&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 385 postings for bartender"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "35-3011-empi73"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "bartender",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 468,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 385,
     "returned": 50,
     "topEmployers": [
+      "Marriott Hotels Resorts",
+      "The Sporting Globe",
+      "Marriott",
       "TGI Fridays",
+      "TFE Hotels",
       "Tfe Hotels",
       "Accor",
-      "Marriott",
-      "SOFITEL",
-      "Rockpool Bar & Grill",
-      "Shangri-La Hotels",
-      "TFE Hotels"
+      "Rockpool Bar & Grill"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "cocktail",
+      "hospitality",
+      "customer service",
+      "beverage service",
+      "bar service"
     ]
   },
   "corpus": {
@@ -1513,7 +1580,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1565,5 +1640,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Bartending requires statutory RSA licensing and real-time patron behavioral assessment."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

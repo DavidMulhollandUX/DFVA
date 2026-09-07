@@ -11,11 +11,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [
     "175aa"
   ],
@@ -1216,26 +1216,86 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Producers and directors in Australian film and television adhere to Screen Australia funding guidelines, ACMA broadcasting codes, and Australian Directors' Guild (ADG) standards ensuring cultural provenance and editorial accountability.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Screen Australia",
+          "title": "Generative AI Principles and Industry Guidance",
+          "url": "https://www.screenaustralia.gov.au/funding-and-support/industry-development/ai-principles",
+          "date": "2025-02-01",
+          "whatItMeasured": "National principles for AI usage in Australian screen production, intellectual property, and moral rights"
+        }
+      ],
+      "scope": "Australian film and television production; national screen funding and governance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (screenaustralia.gov.au); measures industry governance for screen directors; in window.",
+      "id": "27-2012-empi58"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds producers and directors utilize generative AI extensively for visual previz, script coverage, and budget scheduling, while authorial vision, actor leadership, and set management remain fundamentally human.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and automation risk across Australian creative and media occupations"
+        }
+      ],
+      "scope": "Screen directors and producers; executive creative leadership.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "27-2012-empi59"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 2 active job advertisements for film director across Australia, demonstrating commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: film director, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=film+director&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 2 postings for film director"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "27-2012-empi60"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "producer",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 14287,
-    "returned": 50,
+    "query": "film director",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 2,
+    "returned": 2,
     "topEmployers": [
-      "Apex Event Recruitment",
-      "Australian News Channel Pty",
-      "Load Link Australia",
-      "Jivaro",
-      "ExperTech",
-      "SMAART Recruitment",
-      "The Standard Market Company",
-      "Nine Entertainment"
+      "Gybe Consulting",
+      "The People Portal"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "screen production",
+      "directing",
+      "pre-production",
+      "casting"
     ]
   },
   "corpus": {
@@ -1247,7 +1307,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1276,5 +1344,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Pre-production visualization and pitch generation are heavily accelerated by generative multimodal tools."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

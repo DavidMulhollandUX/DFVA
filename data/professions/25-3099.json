@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [
     "mc-teachpr",
     "mc-teachsa"
@@ -1434,26 +1434,82 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Private instructors and non-school teachers in Australia operate under fair trading standards, Australian Consumer Law, and state child protection frameworks (including mandatory Working with Children Checks).",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Tutoring Association",
+          "title": "Code of Conduct for Tutors and Coaching Colleges",
+          "url": "https://ata.edu.au/code-of-conduct/",
+          "date": "2024-09-01",
+          "whatItMeasured": "ATA industry code of ethics, consumer transparency, and child safety compliance"
+        }
+      ],
+      "scope": "Private tutoring and commercial coaching services; voluntary industry body standard alongside statutory WWCC checks.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ata.edu.au); measures private tutoring professional standards; in window.",
+      "id": "25-3099-empi69"
+    },
+    {
+      "text": "JSA (2025) and academic studies note private tutoring faces strong competitive disruption from on-demand AI conversational tutors, forcing human instructors to specialize in motivation coaching, accountability, and high-stakes exam prep.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level occupational augmentability and substitutability across Australian educators"
+        }
+      ],
+      "scope": "Private tutoring and auxiliary instruction; substitution pressure on lower-tier factual tutoring.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "25-3099-empi70"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 1 active job advertisements for private tutor across Australia, demonstrating steady public and private sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: private tutor, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=private+tutor&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 1 postings for private tutor"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "25-3099-empi71"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "teacher",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 14498,
-    "returned": 50,
+    "query": "private tutor",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 1,
+    "returned": 1,
     "topEmployers": [
-      "Tutor Doctor",
-      "Australian Christian College",
-      "SchoolHouse",
-      "Catholic Education South Australia",
-      "Catholic Education Western Australia",
-      "Catholic Education Tasmania",
-      "Belgravia Group",
-      "Belgravia Health and Leisure Group"
+      "Peakline Pty Ltd"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "instruction"
     ]
   },
   "corpus": {
@@ -1474,7 +1530,14 @@
       "Varsity Tutors OR Wyzant AI 2025 reduce human tutors hiring",
       "private tutor survey AI 2025 income decline dated article",
       "EdSurge tutoring companies AI 2025 workforce private tutors",
-      "Forbes/Business Insider/Fortune tutoring industry AI disruption human tutors 2025 (found only a piece silent on workforce impact)"
+      "Forbes/Business Insider/Fortune tutoring industry AI disruption human tutors 2025 (found only a piece silent on workforce impact)",
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
     ],
     "linkedin": [
       {
@@ -1525,5 +1588,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Private tutoring faces direct competition from consumer AI subscription tutors."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

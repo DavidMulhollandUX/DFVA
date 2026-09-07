@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1398,19 +1398,90 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Physical therapist aides in Australia operate under Australian Physiotherapy Association (APA) guidelines and the National Allied Health Assistant Framework, supporting patient mobilization under clinical delegation.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Physiotherapy Association",
+          "title": "APA Guidelines for Allied Health Assistants in Physiotherapy",
+          "url": "https://australian.physio/advocacy/allied-health-assistants",
+          "date": "2024-10-15",
+          "whatItMeasured": "Professional guidance on delegation, safety, and scope of practice for physiotherapy aides"
+        }
+      ],
+      "scope": "Australian physiotherapy support staff; professional delegation guidelines.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (australian.physio); measures physiotherapy aide standards; in window.",
+      "id": "31-2022-empi67"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds physiotherapy aides possess near-zero substitution risk, as physical patient transfer, exercise spotting, hydrotherapy pool support, and equipment sanitization require physical presence.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Physiotherapy support workforce; embodied physical support.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "31-2022-empi68"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 9 active job advertisements for physiotherapy aide across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: physiotherapy aide, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=physiotherapy+aide&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 9 postings for physiotherapy aide"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "31-2022-empi69"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "physical therapy aide",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 1,
-    "returned": 1,
+    "query": "physiotherapy aide",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 9,
+    "returned": 9,
     "topEmployers": [
-      "ScionHealth"
+      "HealthcareLink Support",
+      "Anglicare",
+      "Optimum Allied Health",
+      "Healthcare Professionals Group",
+      "HealthcareLink",
+      "AquaPhys"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "physiotherapy assistant",
+      "exercise therapy",
+      "gait training",
+      "hydrotherapy"
     ]
   },
   "corpus": {
@@ -1422,7 +1493,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1472,5 +1551,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Physiotherapy aide roles require physical spotting and mobility assistance."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

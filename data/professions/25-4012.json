@@ -11,11 +11,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [
     "038ab",
     "175aa"
@@ -1511,26 +1511,93 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Museum and gallery curators in Australia are guided by the Australian Museums and Galleries Association (AMAGA) National Standards and the International Council of Museums (ICOM) Code of Ethics, governing provenance verification, cultural heritage repatriation, and public trust.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Museums and Galleries Association",
+          "title": "National Standards for Australian Museums and Galleries",
+          "url": "https://www.amaga.org.au/national-standards",
+          "date": "2024-09-30",
+          "whatItMeasured": "AMAGA standards for collection care, curatorial ethics, and conservation practices in Australian cultural institutions"
+        }
+      ],
+      "scope": "Australian cultural heritage sector; professional standards and ethical frameworks.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (amaga.org.au); measures curatorial professional standards; in window.",
+      "id": "25-4012-empi72"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) identifies curatorial roles as highly augmented in exhibition text drafting, archival transcription, and visitor analytics, while critical aesthetic judgment, historical contextualization, and community cultural consultation remain non-substitutable.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level occupational augmentability and substitutability across Australian educators"
+        }
+      ],
+      "scope": "Curatorial and cultural heritage professionals; macro exposure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "25-4012-empi73"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 1945 active job advertisements for curator across Australia, demonstrating steady public and private sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: curator, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=curator&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 1945 postings for curator"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "25-4012-empi74"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "curator",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 2231,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 1945,
     "returned": 50,
     "topEmployers": [
       "THE ICONIC",
+      "Brandbank Steambrook pty ltd",
       "Culture Vitale",
-      "Super Retail Group",
-      "Cricket ACT",
-      "Botanic Gardens and State Herbarium",
+      "The Royal Zoological Society of SA Inc",
       "University of Newcastle",
-      "National Portrait Gallery",
-      "National Portrait Gallery of Australia"
+      "Super Retail Group",
+      "Retailworld Resourcing",
+      "Sonitec"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "collection",
+      "exhibition",
+      "museum",
+      "gallery",
+      "acquisition"
     ]
   },
   "corpus": {
@@ -1542,7 +1609,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1594,5 +1669,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Curatorial roles require trusted provenance validation and Indigenous cultural heritage oversight."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

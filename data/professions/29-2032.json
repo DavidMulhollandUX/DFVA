@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1293,26 +1293,90 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Diagnostic medical sonographers in Australia must be accredited on the Australian Sonographers Accreditation Registry (ASAR), meeting mandatory clinical scan quotas, continuing professional development, and radiation/acoustic safety standards.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Sonographers Accreditation Registry",
+          "title": "ASAR Accreditation Standards and Requirements",
+          "url": "https://www.asar.com.au/accreditation/",
+          "date": "2024-10-01",
+          "whatItMeasured": "National statutory accreditation standard for diagnostic medical sonographers in Australia"
+        }
+      ],
+      "scope": "Australian diagnostic sonographers; mandatory national registry accreditation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (asar.com.au); measures sonographer accreditation standards; in window.",
+      "id": "29-2032-empi62"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) highlights that while AI tools assist in fetal biometry measurement and organ segmentation, real-time transducer manipulation, acoustic window optimization, and patient positioning require irreplaceable human sonographic technique.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Diagnostic medical sonography workforce; high manual scanning technique insulation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "29-2032-empi63"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 533 active job advertisements for sonographer across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: sonographer, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=sonographer&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 533 postings for sonographer"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "29-2032-empi64"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "sonographer",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 634,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 533,
     "returned": 50,
     "topEmployers": [
-      "Integral Diagnostics ",
       "Capital Radiology Pty Ltd",
       "Unite Recruitment",
+      "Qscan Group",
       "Integral Diagnostics",
       "Frontline Recruitment Group",
-      "Qscan Group",
+      "Integral Diagnostics ",
       "Murrumbidgee Local Health District",
-      "Frontline Recruitment"
+      "People First Workforce Pty"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "imaging",
+      "ultrasound"
     ]
   },
   "corpus": {
@@ -1324,7 +1388,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1374,5 +1446,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Sonography is an operator-dependent physical imaging discipline."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

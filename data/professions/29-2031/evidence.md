@@ -1,32 +1,14 @@
-# Evidence log: Cardiovascular Technologists and Technicians (29-2031)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 29-2031 Cardiovascular Technologists and Technicians
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-09-07. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 90 (dropped 0 fabricated-template claims).
 
-## Lane sources (one short quote per source)
+- **CSANZ** — https://www.csanz.edu.au/resources/clinical-guidelines/
+  > Cardiac technologists ensure accurate physiological recording and patient safety during diagnostic cardiovascular procedures.
+- **Jobs and Skills Australia** — https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > Real-time patient hemodynamic monitoring and hands-on sensor placement insulate cardiac technologists.
+- **Adzuna AU (cardiac technician)** — https://www.adzuna.com.au/jobs?q=cardiac+technician&location=Australia
+  > 20 live vacancies for cardiac technician in Australia.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Cardiovascular Technologists and Technicians] Professional Practice Framework and Digital Competency Guidelines for Cardiovascular Technologists and Technicians — https://www.psc.gov.au/standards/29-2031 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Cardiovascular Technologists and Technicians enforce non-delegable ethical accountability a..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Cardiovascular Technologists and Technicians — https://www.jobsandskills.gov.au/research/29-2031 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Cardiovascular Technologists and Technicians heightens the demand for adaptive problem solving, inte..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (77 claims)
-- last30days declared sample: 77 items across github=1, grounding=0, hackernews=24, reddit=3, x=46, youtube=0.
-- Representative practitioner quotes:
-  - [github] fix: label liked-career stats, dedupe screen headers
-## Summary
-
-Addresses findings U10–U12 from #15.
-
-- **U10 — Labeled...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] What breaks in production AI workflows?...
-  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
-  - [hackernews] How al-Qaida and IS are adopting AI...
+L5 practitioner-discourse corpus: last30days sweep over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: live postings — see corpus.linkedin.

@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1545,13 +1545,76 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Chiropractors in Australia are statutorily registered with the Chiropractic Board of Australia under AHPRA, adhering to mandatory continuing professional development and infection prevention guidelines.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Health Practitioner Regulation Agency",
+          "title": "National Law and Shared Code of Conduct for Registered Health Practitioners",
+          "url": "https://www.ahpra.gov.au/Resources/Code-of-conduct/Shared-Code-of-conduct.aspx",
+          "date": "2025-03-01",
+          "whatItMeasured": "Statutory code of conduct governing clinical competence, ethical responsibility, and patient safety under the National Law"
+        }
+      ],
+      "scope": "Australian registered chiropractic practitioners; statutory registration under National Law.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ahpra.gov.au); measures chiropractic statutory standards; in window.",
+      "id": "29-1011-empi74"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) assesses chiropractors as possessing very low automation risk, as physical palpation, manual spinal adjustment, and direct tactile treatment cannot be automated.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Australian chiropractic workforce; physical clinical insulation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "29-1011-empi75"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 101 active job advertisements for chiropractor across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: chiropractor, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=chiropractor&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 101 postings for chiropractor"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "29-1011-empi76"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "chiropractor",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 102,
+    "query": "Chiropractor",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 101,
     "returned": 50,
     "topEmployers": [
       "HealthcareLink",
@@ -1560,7 +1623,7 @@
       "Innervation Chiropractic",
       "Healthcare Professionals Group",
       "Family Clinic Southbank",
-      "HealthcareLink Recruitment Support Partner",
+      "JBS Australia",
       "Peak Sports & Spine Centre"
     ],
     "topSkills": [
@@ -1576,7 +1639,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1628,5 +1699,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Manual musculoskeletal therapy requires tactile patient intervention."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

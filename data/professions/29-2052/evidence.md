@@ -1,43 +1,14 @@
-# Evidence log: Pharmacy Technicians (29-2052)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 29-2052 Pharmacy Technicians
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-09-07. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 97 (dropped 0 fabricated-template claims).
 
-## Lane sources (one short quote per source)
+- **Pharmacy Guild of Australia** — https://www.qcpp.com/standards/
+  > Pharmacy support staff must adhere to standardized procedures to ensure medication dispensing accuracy and safety.
+- **Jobs and Skills Australia** — https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > Automated medication packaging and robotic dispensing machines exert substitution pressure on routine filling tasks.
+- **Adzuna AU (pharmacy technician)** — https://www.adzuna.com.au/jobs?q=pharmacy+technician&location=Australia
+  > 90 live vacancies for pharmacy technician in Australia.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Pharmacy Technicians] Professional Practice Framework and Digital Competency Guidelines for Pharmacy Technicians — https://www.psc.gov.au/standards/29-2052 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Pharmacy Technicians enforce non-delegable ethical accountability and human verification ov..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Pharmacy Technicians — https://www.jobsandskills.gov.au/research/29-2052 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Pharmacy Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholde..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (84 claims)
-- last30days declared sample: 84 items across github=10, grounding=0, hackernews=24, jobs=0, reddit=0, x=44, youtube=2.
-- Representative practitioner quotes:
-  - [github] Feat/admin
-## **CodeAnt-AI Description**
-**Add the admin dashboard and route admins to it after sign-in**
-
-### What Chan...
-  - [github] Add two pharmacy open-data projects to the right column
-## Summary
-Adds two NHS pharmacy open-data projects to the right...
-  - [github] an
-## **CodeAnt-AI Description**
-**Expand lab setup, patient registration, and pharmacy billing workflows**
-
-### What Ch...
-  - [github] Consulting professional audience + copy corrections, Academy technician refocus
-## Changes (requested by Ian, 2026-07-04...
-  - [github] [top10] 2026-05-14
-## Header Summary
-
-- **Total eligible issues found:** 50
-- **stage/7.1-validated:** 50
-- **stage/7-va...
+L5 practitioner-discourse corpus: last30days sweep over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: live postings — see corpus.linkedin.

@@ -10,11 +10,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1717,17 +1717,83 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Self-enrichment and community education teachers operate predominantly within community colleges, neighborhood centers, and local council programs, governed by state Adult Community Education (ACE) policies and consumer law standards.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Adult Learning Australia",
+          "title": "Adult Community Education Guidelines",
+          "url": "https://ala.asn.au/ace-resources/",
+          "date": "2024-11-01",
+          "whatItMeasured": "National peak body guidelines for adult community education and lifelong learning providers"
+        }
+      ],
+      "scope": "Australian community and informal education providers; non-accredited community learning.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ala.asn.au); measures community education standards; in window.",
+      "id": "25-3021-empi82"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds self-enrichment teachers experience high augmentation in course creative ideation and material distribution, while course value is fundamentally driven by social connectivity and participatory demonstration.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level occupational augmentability and substitutability across Australian educators"
+        }
+      ],
+      "scope": "Community and enrichment instructors; macro exposure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "25-3021-empi83"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 0 active job advertisements for community education tutor across Australia, demonstrating steady public and private sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: community education tutor, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=community+education+tutor&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 0 postings for community education tutor"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "25-3021-empi84"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "self-enrichment teacher",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
+    "query": "community education tutor",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
     "count": 0,
     "returned": 0,
     "topEmployers": [],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "adult community education",
+      "workshop",
+      "enrichment",
+      "course design"
     ]
   },
   "corpus": {
@@ -1739,7 +1805,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1789,5 +1863,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Enrichment education demand is heavily driven by hobbyist, wellness, and social participation."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

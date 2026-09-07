@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -999,26 +999,92 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Radiologic technologists (diagnostic radiographers) are regulated under AHPRA by the Medical Radiation Practice Board of Australia, adhering to the ALARA (As Low As Reasonably Achievable) radiation safety principle.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Medical Radiation Practice Board of Australia",
+          "title": "Professional Capabilities and Code of Conduct for Medical Radiation Practitioners",
+          "url": "https://www.medicalradiationpracticeboard.gov.au/Registration-Standards.aspx",
+          "date": "2024-09-01",
+          "whatItMeasured": "Statutory standards for diagnostic radiographers, radiation therapists, and nuclear medicine technologists"
+        }
+      ],
+      "scope": "Australian diagnostic radiographers; statutory registration under National Law.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (medicalradiationpracticeboard.gov.au); measures radiography standards; in window.",
+      "id": "29-2034-empi48"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) assesses radiographers as experiencing rapid AI augmentation in scan reconstruction and triage flagging, but physical patient immobilization, emergency trauma positioning, and hardware operation prevent replacement.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Diagnostic radiography workforce; physical scanner operation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "29-2034-empi49"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 639 active job advertisements for radiographer across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: radiographer, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=radiographer&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 639 postings for radiographer"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "29-2034-empi50"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "radiographer",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 850,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 639,
     "returned": 50,
     "topEmployers": [
-      "Qscan Group",
       "Integral Diagnostics",
-      "Integral Diagnostics ",
-      "I-Med Radiology Network",
+      "Qscan Group",
       "Capital Radiology Pty Ltd",
-      "Private Advertiser",
-      "I-MED",
-      "IDX Employer 1 Pty Ltd"
+      "IDX Employer 1 Pty Ltd",
+      "I-Med Radiology Network",
+      "Integral Diagnostics ",
+      "MMT Recruitment",
+      "Gorilla Jobs"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "CT",
+      "MRI",
+      "X-ray",
+      "AHPRA"
     ]
   },
   "corpus": {
@@ -1030,7 +1096,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1080,5 +1154,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Radiography requires direct physical patient positioning and radiation safety controls."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

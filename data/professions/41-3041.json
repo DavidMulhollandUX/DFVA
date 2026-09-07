@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -2007,26 +2007,92 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Travel agents in Australia operate under Australian Consumer Law and the Australian Travel Accreditation Scheme (ATAS) administered by the Australian Travel Industry Association (ATIA).",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Travel Industry Association",
+          "title": "ATAS Australian Travel Accreditation Scheme Standards",
+          "url": "https://atia.travel/atas/",
+          "date": "2024-10-01",
+          "whatItMeasured": "National industry accreditation standard governing consumer protection, financial integrity, and travel advisory services"
+        }
+      ],
+      "scope": "Australian travel consultants; industry accreditation and consumer protection.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (atia.travel); measures travel agent standards; in window.",
+      "id": "41-3041-empi96"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) notes travel agents experienced massive structural contraction from online travel agencies (OTAs), stabilizing around high-end bespoke luxury travel, complex multi-destination itineraries, and corporate risk travel management.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clerical/sales automation exposure across Australian administrative and commercial roles"
+        }
+      ],
+      "scope": "Travel consulting workforce; OTA displacement vs luxury/corporate advisory.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "41-3041-empi97"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 140 active job advertisements for travel agent across Australia, reflecting commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: travel agent, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=travel+agent&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 140 postings for travel agent"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "41-3041-empi98"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "travel agent",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 154,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 140,
     "returned": 50,
     "topEmployers": [
+      "Penny's Adventures",
       "Komatsu Australia Pty Ltd",
-      "Komatsu",
-      "TFE Hotels",
-      "Flight Centre",
-      "Komatsu Australia",
       "Luxury Escapes",
-      "Travel Trade Recruitment",
-      "Accor"
+      "TFE Hotels",
+      "Travel Trade Recruitment ",
+      "Flight Centre",
+      "Accor",
+      "Travel Trade Recruitment"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "booking",
+      "travel consultant",
+      "tourism",
+      "flights"
     ]
   },
   "corpus": {
@@ -2038,7 +2104,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -2090,5 +2164,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Point-to-point flights and hotel bookings are almost entirely booked through consumer web portals."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

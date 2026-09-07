@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -2301,26 +2301,93 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Podiatrists in Australia are regulated by the Podiatry Board of Australia under AHPRA, adhering to statutory standards in infection prevention, podiatric surgery, and prescription of scheduled medicines.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Health Practitioner Regulation Agency",
+          "title": "National Law and Shared Code of Conduct for Registered Health Practitioners",
+          "url": "https://www.ahpra.gov.au/Resources/Code-of-conduct/Shared-Code-of-conduct.aspx",
+          "date": "2025-03-01",
+          "whatItMeasured": "Statutory code of conduct governing clinical competence, ethical responsibility, and patient safety under the National Law"
+        }
+      ],
+      "scope": "Australian registered podiatrists; statutory registration.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ahpra.gov.au); measures podiatry standards; in window.",
+      "id": "29-1081-empi110"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) identifies podiatrists as highly insulated from automation due to hands-on sharp debridement, biomechanical gait manipulation, physical orthotic molding, and tactile diabetic wound care.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Podiatry clinical workforce; hands-on surgical/tactile insulation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "29-1081-empi111"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 811 active job advertisements for podiatrist across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: podiatrist, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=podiatrist&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 811 postings for podiatrist"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "29-1081-empi112"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "podiatrist",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 950,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 811,
     "returned": 50,
     "topEmployers": [
       "Mediix",
       "Omega Medical Pty Ltd",
       "Cornerstone Medical Recruitment",
-      "konnecting",
+      "Health X",
+      "HealthX",
       "Unite Recruitment",
-      "Stream Healthcare",
-      "SustainHealth Recruitment",
-      "Talaria Podiatrist of Thornbury"
+      "konnecting",
+      "2coms"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "podiatry",
+      "AHPRA",
+      "diabetic foot",
+      "gait analysis",
+      "wound care"
     ]
   },
   "corpus": {
@@ -2332,7 +2399,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -2384,5 +2459,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Podiatric care requires physical surgical debridement and lower-limb manipulation."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

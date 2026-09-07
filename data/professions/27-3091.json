@@ -7,11 +7,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1294,26 +1294,87 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Interpreters and translators in Australia are certified through NAATI and bound by the AUSIT Code of Ethics, enforcing strict standards of accuracy, impartiality, and confidentiality across court, healthcare, and immigration proceedings.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "National Accreditation Authority for Translators and Interpreters",
+          "title": "NAATI Certification Standards and AUSIT Code of Ethics",
+          "url": "https://www.naati.com.au/practitioners/standards-and-ethics/",
+          "date": "2024-09-15",
+          "whatItMeasured": "National certification framework and ethical standards for Australian interpreters and translators"
+        }
+      ],
+      "scope": "Australian certified translation and interpreting; statutory credentialing.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (naati.com.au); measures professional certification standards; in window.",
+      "id": "27-3091-empi62"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) documents profound divergence between written translation and spoken interpreting: commercial written translation has largely transitioned into neural machine post-editing (MTPE), whereas live consecutive/simultaneous interpreting in legal and healthcare settings remains resilient.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and automation risk across Australian creative and media occupations"
+        }
+      ],
+      "scope": "Language services workforce; rapid commoditization of text translation alongside high demand for certified spoken interpreters.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "27-3091-empi63"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 9834 active job advertisements for translator across Australia, demonstrating commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: translator, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=translator&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 9834 postings for translator"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "27-3091-empi64"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "interpreter",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 12848,
+    "query": "translator",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 9834,
     "returned": 50,
     "topEmployers": [
-      "Burson",
-      "Truckline",
-      "One World Global Services",
-      "Brevard Public Schools",
-      "Aston Advantage",
-      "2XM Recruit",
-      "Freighter Group",
-      "Bapcor"
+      "IQVIA",
+      "Oncall Interpreters and Translators",
+      "Noumi",
+      "Ethnolink",
+      "Department of Justice and Community Safety",
+      "Victorian Government"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "translation"
     ]
   },
   "corpus": {
@@ -1325,7 +1386,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1354,5 +1423,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Commercial document translation has transitioned almost entirely into AI post-editing (MTPE)."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

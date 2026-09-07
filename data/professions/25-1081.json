@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1272,26 +1272,97 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Postsecondary education teachers delivering Initial Teacher Education (ITE) programs are regulated under AITSL Accreditation of Initial Teacher Education Programs in Australia Standards and Procedures and TEQSA threshold standards.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Institute for Teaching and School Leadership",
+          "title": "Australian Framework for Generative AI in Schools and Professional Standards for Teachers",
+          "url": "https://www.aitsl.edu.au/teach/standards",
+          "date": "2024-11-20",
+          "whatItMeasured": "National teaching standards and AI deployment framework across Australian schooling systems"
+        },
+        {
+          "publisher": "Tertiary Education Quality and Standards Agency",
+          "title": "Artificial intelligence: Good practice guidance and regulatory expectations",
+          "url": "https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/artificial-intelligence-good-practice-guidance",
+          "date": "2025-04-10",
+          "whatItMeasured": "TEQSA regulatory guidance on academic integrity and assessment validity in higher education under the HES Framework 2021"
+        }
+      ],
+      "scope": "Australian university education faculties; applies to accredited teacher training programs.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (aitsl.edu.au); measures statutory standards for teacher educators; in window.",
+      "id": "25-1081-empi61"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds education academics utilize generative AI heavily for lesson-plan modeling and syllabus scaffolding, while professional practicum assessment and relational mentoring remain human-led.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level occupational augmentability and substitutability across Australian educators"
+        }
+      ],
+      "scope": "Australian university education workforce; macro occupational exposure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "25-1081-empi62"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 74 active job advertisements for education lecturer across Australia, demonstrating steady public and private sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: education lecturer, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=education+lecturer&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 74 postings for education lecturer"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "25-1081-empi63"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "education lecturer",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 89,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 74,
     "returned": 50,
     "topEmployers": [
       "University of Sydney",
-      "The University of Western Australia",
-      "University of Newcastle",
-      "Victorian Institute of Technology",
-      "CQ University",
       "University of New South Wales",
       "Monash University",
-      "University of Tasmania"
+      "University of Newcastle",
+      "CQ University",
+      "The University of Western Australia",
+      "University Of Western Australia",
+      "University of Melbourne"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "curriculum",
+      "assessment"
     ]
   },
   "corpus": {
@@ -1303,7 +1374,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1340,5 +1419,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "ITE programs face strict AITSL compliance audits regarding graduate readiness."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

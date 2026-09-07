@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1272,26 +1272,91 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Pharmacy aides in Australia operate under Quality Care Pharmacy Program (QCPP) rules, supporting pharmacy dispensary stock control and customer OTC retail service under direct pharmacist supervision.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Pharmacy Guild of Australia",
+          "title": "Community Pharmacy Assistant Standards",
+          "url": "https://www.guild.org.au/resources/pharmacy-assistants",
+          "date": "2024-10-01",
+          "whatItMeasured": "Industry standards governing frontline customer service and dispensary assistance in community pharmacies"
+        }
+      ],
+      "scope": "Australian community pharmacy retail personnel; industry standard.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (guild.org.au); measures pharmacy assistant retail standards; in window.",
+      "id": "31-9095-empi61"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds pharmacy aides face moderate exposure to electronic shelf labeling, automated inventory replenishment, and self-checkout systems, with roles pivoting toward customer health product consultation.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Pharmacy retail support workforce; retail automation exposure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "31-9095-empi62"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 259 active job advertisements for pharmacy assistant across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: pharmacy assistant, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=pharmacy+assistant&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 259 postings for pharmacy assistant"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "31-9095-empi63"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "pharmacy aide",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 15,
-    "returned": 15,
+    "query": "pharmacy assistant",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 259,
+    "returned": 50,
     "topEmployers": [
+      "United Chemists",
+      "Douglas Chemists Group",
+      "Queensland Government",
+      "Priceline & Priceline Pharmacy",
       "Scaffidi Pharmacy Services",
-      "Geo Healthcare",
-      "NSW Government",
-      "Mackay Discount Drug Store",
-      "Bundaberg Plaza Discount Drug Store",
-      "Affinity Migration Group Pty Ltd",
-      "Affinity Migration Group Pty",
-      "Serco Plc"
+      "Pharmacy Assistant L1 - Area 1",
+      "Pharmacy Assistant L1 - Area 2",
+      "TerryWhite Chemmart Chester Pass Albany"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "pharmacy assistant",
+      "stock",
+      "dispensary"
     ]
   },
   "corpus": {
@@ -1303,7 +1368,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1355,5 +1428,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Retail pharmacy tasks face self-checkout and automated inventory replenishment."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

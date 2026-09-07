@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1902,17 +1902,90 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Reservation and transportation ticket agents comply with Australian Consumer Law ticketing refund standards, airline passenger carriage conditions, and ATAS travel standards.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Competition and Consumer Commission",
+          "title": "Australian Consumer Law and Misleading Conduct Guidelines",
+          "url": "https://www.accc.gov.au/business/treating-customers-fairly/consumers-rights-obligations",
+          "date": "2024-11-01",
+          "whatItMeasured": "Commonwealth statutory regulations governing fair trading, consumer guarantees, and advertising accuracy"
+        }
+      ],
+      "scope": "Australian travel ticketing and reservation workforce; consumer compliance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (accc.gov.au); measures reservation standards; in window.",
+      "id": "43-4181-empi91"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) assesses reservation agents as facing intense automation from airline and hotel direct web engines and conversational rebooking bots, with human agents reserved for disrupted flights, complex re-routings, and VIP travelers.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clerical/sales automation exposure across Australian administrative and commercial roles"
+        }
+      ],
+      "scope": "Travel reservation workforce; airline direct booking automation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "43-4181-empi92"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 59 active job advertisements for reservation agent across Australia, reflecting commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: reservation agent, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=reservation+agent&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 59 postings for reservation agent"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "43-4181-empi93"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "travel booking clerk",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 0,
-    "returned": 0,
-    "topEmployers": [],
+    "query": "reservation agent",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 59,
+    "returned": 50,
+    "topEmployers": [
+      "IHG",
+      "AccorHotel",
+      "Accor",
+      "Shangri-La Hotels",
+      "Marriott",
+      "Marriott Hotels Resorts",
+      "Intercontinental Hotel Group",
+      "InterContinental"
+    ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "customer service",
+      "call centre"
     ]
   },
   "corpus": {
@@ -1924,7 +1997,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1974,5 +2055,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Routine airline and hotel bookings have shifted almost entirely to self-service digital channels."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

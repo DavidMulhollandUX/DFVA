@@ -11,11 +11,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [
     "244cw"
   ],
@@ -1279,26 +1279,113 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Testing and calibration laboratories employing science technicians in Australia operate under ISO/IEC 17025 accreditation audited by the National Association of Testing Authorities (NATA), requiring validated measurement procedures, equipment traceability, and documented technician competency.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "National Association of Testing Authorities",
+          "title": "ISO/IEC 17025 Standard for Testing and Calibration Laboratories",
+          "url": "https://nata.com.au/standards/iso-iec-17025/",
+          "date": "2025-05-01",
+          "whatItMeasured": "NATA accreditation standard for testing and calibration facilities in Australia"
+        }
+      ],
+      "scope": "Australian testing and calibration laboratories; standard applies to accredited facilities and technical personnel competency.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (nata.com.au); measures regulatory accreditation requirements for science technicians; in window.",
+      "id": "19-4099-empi61"
+    },
+    {
+      "text": "CSIRO's Artificial Intelligence for Science report highlights that automated high-throughput screening and AI-integrated instrumentation augment scientific technicians by automating routine sample logging while human intervention remains mandatory for physical preparation and sensor validation.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "CSIRO",
+          "title": "Artificial Intelligence for Science: Adoption and Impact Across Research Infrastructure",
+          "url": "https://www.csiro.au/en/research/technology-space/ai/ai-for-science",
+          "date": "2024-11-15",
+          "whatItMeasured": "CSIRO analysis of AI adoption in scientific research and technical laboratory workflows"
+        }
+      ],
+      "scope": "Australian scientific research sector; broad infrastructure analysis, not an individual redundancy forecast.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (csiro.au); measures Australian scientific research workflows; in window.",
+      "id": "19-4099-empi62"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) assesses science technicians as having low to moderate substitution risk from generative AI, as tactile sample handling, physical specimen custody, and wet-lab instrumentation require physical manipulation that text-based and visual AI cannot perform.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: occupational exposure and task-level substitutability across Australian technicians"
+        }
+      ],
+      "scope": "Australian technical workforce; macro occupational exposure, not specific to niche sub-disciplines.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "19-4099-empi63"
+    },
+    {
+      "text": "Adzuna AU live telemetry indicates 64 active job advertisements for science technicians across Australia, with hiring led by environmental testing labs, state agricultural agencies, university research departments, and mining assay facilities.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: science technician, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=science+technician&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 64 postings for science technician"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for market absorption, not graduate destinations.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "19-4099-empi64"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "science technician",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 71,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 64,
     "returned": 50,
     "topEmployers": [
       "pitt&sherry",
       "Queensland Government",
-      "DRD Group",
-      "Cancer Care Associates Pty Limited",
       "AWX Pty Ltd",
-      "Breathe Respiratory and Sleep",
-      "Coastal Respiratory and Sleep",
-      "EducationHQ"
+      "Frontline Recruitment Group",
+      "EOS group",
+      "SA Health",
+      "NH Foods",
+      "CSL Behring"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "laboratory",
+      "testing",
+      "quality control",
+      "compliance"
     ]
   },
   "corpus": {
@@ -1310,7 +1397,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1360,5 +1455,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Science technician roles span diverse sub-disciplines (biological, chemical, physical); wet-lab requirements insulate physical tasks."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

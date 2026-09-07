@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1167,17 +1167,85 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Medical records and health information technicians operate under the Health Information Management Association of Australia (HIMAA) standards and comply with the Australian Privacy Principles and Healthcare Identifiers Act 2010.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Health Information Management Association of Australia",
+          "title": "HIMAA Professional Standards and Code of Ethics",
+          "url": "https://www.himaa.org.au/professional-practice/standards/",
+          "date": "2024-09-15",
+          "whatItMeasured": "National standards governing clinical classification, electronic medical record management, and health data integrity"
+        }
+      ],
+      "scope": "Australian health information management professionals; professional standard.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (himaa.org.au); measures health information standards; in window.",
+      "id": "29-2071-empi56"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) identifies health information technicians as having elevated exposure to automated clinical coding (ICD-10-AM) and NLP extraction, shifting technician roles toward auditing automated chart extraction and data governance.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Health information workforce; clinical coding NLP automation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "29-2071-empi57"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 1 active job advertisements for medical records clerk across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: medical records clerk, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=medical+records+clerk&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 1 postings for medical records clerk"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "29-2071-empi58"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "health information technician",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 0,
-    "returned": 0,
-    "topEmployers": [],
+    "query": "medical records clerk",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 1,
+    "returned": 1,
+    "topEmployers": [
+      "St Vincent’s Health Australia"
+    ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "health information",
+      "clinical coding",
+      "ICD-10-AM",
+      "HIMAA"
     ]
   },
   "corpus": {
@@ -1189,7 +1257,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1239,5 +1315,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Routine ICD-10 medical coding is heavily targeted by automated clinical NLP models."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

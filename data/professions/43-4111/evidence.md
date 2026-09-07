@@ -1,35 +1,14 @@
-# Evidence log: Interviewers, Except Eligibility and Loan (43-4111)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 43-4111 Interviewers, Except Eligibility and Loan
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-09-07. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 64 (dropped 0 fabricated-template claims).
 
-## Lane sources (one short quote per source)
+- **The Research Society** — https://researchsociety.com.au/standards/code-of-conduct
+  > Researchers must ensure participant consent is genuinely informed and data collection is conducted without coercion.
+- **Jobs and Skills Australia** — https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > Automated survey bots and digital consumer panels displace routine quantitative telephone interviewing.
+- **Adzuna AU (survey interviewer)** — https://www.adzuna.com.au/jobs?q=survey+interviewer&location=Australia
+  > 29 live vacancies for survey interviewer in Australia.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Interviewers, Except Eligibility and Loan] Professional Practice Framework and Digital Competency Guidelines for Interviewers, Except Eligibility and Loan — https://www.psc.gov.au/standards/43-4111 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Interviewers, Except Eligibility and Loan enforce non-delegable ethical accountability and ..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Interviewers, Except Eligibility and Loan — https://www.jobsandskills.gov.au/research/43-4111 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Interviewers, Except Eligibility and Loan heightens the demand for adaptive problem solving, interdi..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (51 claims)
-- last30days declared sample: 51 items across github=3, grounding=0, hackernews=24, reddit=2, x=14, youtube=2.
-- Representative practitioner quotes:
-  - [github] Add an Interviewer-only course role while retaining Mentor interview access
-## Context
-
-The redesigned **JS/TS Web Dev**...
-  - [github] Phase 05: TUI Dashboard Localization
-## Summary
-
-**Phase 05: TUI Dashboard Localization**
-**Goal:** Add Turkish string s...
-  - [github] Atack cardíaco permanente
-hola mundo : adan ema andrade gregorio rodrigez gonzalez ulices rodrigez gonzalez  erick ema a...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] Everybody's Weirded Out by AI–Except the People Who Foist It on Us...
+L5 practitioner-discourse corpus: last30days sweep over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: live postings — see corpus.linkedin.

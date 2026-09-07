@@ -8,11 +8,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [
     "mc-anp"
   ],
@@ -1444,26 +1444,89 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Nursing instructors in Australia operate under Australian Nursing and Midwifery Accreditation Council (ANMAC) Registered Nurse Accreditation Standards and the Nursing and Midwifery Board of Australia (NMBA) professional standards, requiring direct supervised clinical placement hours.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Nursing and Midwifery Accreditation Council",
+          "title": "Registered Nurse Accreditation Standards",
+          "url": "https://www.anmac.org.au/standards-and-accreditation/registered-nurse",
+          "date": "2024-10-01",
+          "whatItMeasured": "ANMAC standards governing nursing education curriculum, clinical simulation, and educator qualifications"
+        }
+      ],
+      "scope": "Australian nursing education; binds accredited university and TAFE nursing programs.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (anmac.org.au); measures regulatory standards governing nursing instructors; in window.",
+      "id": "25-1072-empi69"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) assesses nursing educators as highly insulated from AI substitution due to mandatory hands-on clinical simulation, patient safety ethics instruction, and direct workplace preceptorship.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level occupational augmentability and substitutability across Australian educators"
+        }
+      ],
+      "scope": "Australian nursing academic workforce; macro exposure analysis.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "25-1072-empi70"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 535 active job advertisements for nursing educator across Australia, demonstrating steady public and private sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: nursing educator, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=nursing+educator&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 535 postings for nursing educator"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "25-1072-empi71"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "nursing lecturer",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 16,
-    "returned": 16,
+    "query": "nursing educator",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 535,
+    "returned": 50,
     "topEmployers": [
-      "University of Tasmania",
-      "Federation University Australia",
-      "Australian Catholic University",
-      "Jobs and Careers",
-      "The University of Notre Dame",
-      "The University of Notre Dame Australia",
-      "CQUniversity",
-      "Flinders University"
+      "Healthscope",
+      "Queensland Government",
+      "St Vincent's Hospital Sydney",
+      "St Vincent’s Health Australia",
+      "Northern Territory Government",
+      "Mercy Health Australia",
+      "Central Australian Aboriginal Congress",
+      "Northern Health"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "assessment"
     ]
   },
   "corpus": {
@@ -1475,7 +1538,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1525,5 +1596,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Nursing education is constrained by mandatory clinical placement accreditation hours."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1419,26 +1419,91 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Occupational therapist assistants work under the delegated clinical supervision of registered occupational therapists, complying with Allied Health Professions Australia (AHPA) delegation frameworks.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Allied Health Professions Australia",
+          "title": "Allied Health Assistant Framework",
+          "url": "https://ahpa.com.au/allied-health-assistants/",
+          "date": "2024-09-01",
+          "whatItMeasured": "National governance framework for the supervision and delegation of allied health assistant duties"
+        }
+      ],
+      "scope": "Australian allied health assistant workforce; clinical delegation standards.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ahpa.com.au); measures allied health assistant standards; in window.",
+      "id": "31-2011-empi68"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) identifies occupational therapist assistants as heavily protected from automation due to hands-on assistance with activities of daily living (ADL), physical exercise guidance, and adaptive equipment setup.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Allied health assistant workforce; physical rehabilitation insulation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "31-2011-empi69"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 65 active job advertisements for occupational therapy assistant across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: occupational therapy assistant, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=occupational+therapy+assistant&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 65 postings for occupational therapy assistant"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "31-2011-empi70"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "occupational therapy assistant",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 98,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 65,
     "returned": 50,
     "topEmployers": [
       "HealthcareLink",
       "Gorilla Jobs",
       "Queensland Government",
-      "LaunchPod",
       "Sharp & Carter",
+      "Hanrahan Health",
       "ScionHealth",
-      "Potion Occupational Therapy",
-      "CatholicCare Tasmania"
+      "HealthcareLink Support",
+      "Alfred Health"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "allied health assistant",
+      "OTA",
+      "rehabilitation"
     ]
   },
   "corpus": {
@@ -1450,7 +1515,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1500,5 +1573,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Allied health assistants operate under statutory professional supervision."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

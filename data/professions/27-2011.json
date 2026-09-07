@@ -7,11 +7,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1483,26 +1483,90 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Actors in Australia operate under MEAA Equity collective agreements and the Screen Australia AI Principles, which mandate informed consent, compensation, and contractual restrictions regarding digital likeness and voice cloning.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Screen Australia",
+          "title": "Generative AI Principles and Industry Guidance",
+          "url": "https://www.screenaustralia.gov.au/funding-and-support/industry-development/ai-principles",
+          "date": "2025-02-01",
+          "whatItMeasured": "National principles for AI usage in Australian screen production, intellectual property, and moral rights"
+        }
+      ],
+      "scope": "Australian screen and live performance sector; industry bargaining and performer rights.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (screenaustralia.gov.au); measures performer rights and AI likeness regulation; in window.",
+      "id": "27-2011-empi71"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) identifies live theatre and physical on-camera acting as strongly insulated from substitution, though synthetic voiceover and digital crowd extra generation exert competitive pressure on entry-level commercial performance.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and automation risk across Australian creative and media occupations"
+        }
+      ],
+      "scope": "Australian performing arts workforce; divergence between live/feature performance and commercial voiceover.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "27-2011-empi72"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 135 active job advertisements for actor across Australia, demonstrating commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: actor, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=actor&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 135 postings for actor"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "27-2011-empi73"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "actor",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 139,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 135,
     "returned": 50,
     "topEmployers": [
       "Mercor",
-      "Jobgether",
-      "Screen Queensland Pty",
+      "Teamified",
+      "Atmos Legal Pty",
+      "Proofpoint",
       "Infinite Consulting",
       "AusNet Services",
       "Google",
-      "Palo Alto Networks",
       "Accenture"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "script",
+      "performance"
     ]
   },
   "corpus": {
@@ -1514,7 +1578,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1544,5 +1616,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Voiceover and background extra work face direct competition from generative audio and digital double synthesis."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1986,26 +1986,90 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Pharmacy technicians in Australia operate under the direct supervision of registered pharmacists as defined by the Pharmacy Board of Australia, adhering to the Quality Care Pharmacy Program (QCPP) standards.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Pharmacy Guild of Australia",
+          "title": "Quality Care Pharmacy Program (QCPP) Standards",
+          "url": "https://www.qcpp.com/standards/",
+          "date": "2024-11-01",
+          "whatItMeasured": "National quality assurance standards governing community pharmacy dispensing and support personnel"
+        }
+      ],
+      "scope": "Australian community and hospital pharmacy support staff; quality assurance standard.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (qcpp.com); measures pharmacy technician standards; in window.",
+      "id": "29-2052-empi95"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds pharmacy technicians face high exposure to automated robotic dispensing systems in hospital and large community pharmacies, shifting technician duties toward inventory logistics and patient OTC counter triage.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Pharmacy technical workforce; robotic dispensing automation exposure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "29-2052-empi96"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 90 active job advertisements for pharmacy technician across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: pharmacy technician, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=pharmacy+technician&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 90 postings for pharmacy technician"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "29-2052-empi97"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "pharmacy technician",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 178,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 90,
     "returned": 50,
     "topEmployers": [
       "Slade Pharmacy",
+      "Raven's Recruitment",
+      "Northeast Health Wangaratta",
       "Geo Healthcare",
-      "Icon Group",
-      "GEO Healthcare",
-      "NSW Government",
       "Eastern Health",
-      "Hunter New England Local Health District",
-      "ScionHealth"
+      "Healthcare Professionals Group",
+      "Alfred Health",
+      "SA Health"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "dispensing",
+      "inventory"
     ]
   },
   "corpus": {
@@ -2017,7 +2081,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -2069,5 +2141,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Robotic dispensing systems automate routine medication packaging."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1986,26 +1986,91 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Real estate sales agents in Australia must hold a certificate of registration or real estate licence from state regulatory authorities, complying with strict statutory underquoting and disclosure laws.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Real Estate Institute of Australia",
+          "title": "REIA Best Practice Principles and State Real Estate Licensing Acts",
+          "url": "https://reia.com.au/advocacy/best-practice/",
+          "date": "2024-10-01",
+          "whatItMeasured": "National ethical principles and state statutory licensing standards for real estate agents and brokers"
+        }
+      ],
+      "scope": "Australian residential real estate agents; statutory licensing and underquoting laws.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (reia.com.au); measures residential sales standards; in window.",
+      "id": "41-9022-empi95"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) identifies real estate agents as having high software augmentation in property listing copy generation and virtual staging, while vendor relationship management, physical open home inspections, and live competitive auctions remain completely human.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clerical/sales automation exposure across Australian administrative and commercial roles"
+        }
+      ],
+      "scope": "Residential real estate sales workforce; high embodied negotiation resilience.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "41-9022-empi96"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 131 active job advertisements for real estate agent across Australia, reflecting commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: real estate agent, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=real+estate+agent&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 131 postings for real estate agent"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "41-9022-empi97"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "real estate agent",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 216,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 131,
     "returned": 50,
     "topEmployers": [
-      "McCone Properties",
-      "Kaleidoscope Legal Recruitment",
       "Belle Property",
+      "Maid to Clean",
       "Macro Recruitment",
       "Real Recruiters",
-      "Impact Properties Canberra",
-      "McGrath Estate Agents",
-      "Macarthur Real Estate Agency"
+      "Acworth Recruitment",
+      "RateMyAgent",
+      "Gough Recruitment AU",
+      "Kaleidoscope Legal Recruitment"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "vendor",
+      "listing",
+      "residential sales"
     ]
   },
   "corpus": {
@@ -2017,7 +2082,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -2067,5 +2140,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Listing descriptions and virtual staging are automated, while open home inspections require physical presence."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -8,11 +8,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [
     "038ab",
     "175aa"
@@ -1592,26 +1592,92 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Tour guides in Australia adhere to the Tour Guides Australia (TGA) Code of Conduct, state national park commercial operator licensing regulations, and mandatory wilderness first aid credentials.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Tour Guides Australia",
+          "title": "TGA National Code of Conduct and Accreditation Standards",
+          "url": "https://www.tourguidesaustralia.com/about-us/code-of-conduct/",
+          "date": "2024-11-01",
+          "whatItMeasured": "National professional standards for interpretive guiding, environmental ethics, and tourist safety"
+        }
+      ],
+      "scope": "Australian commercial tourism guides; industry accreditation and park licensing.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (tourguidesaustralia.com); measures tour guide professional standards; in window.",
+      "id": "39-7011-empi76"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds that while mobile audio guides and AR apps offer digital interpretation, in-person tour guides provide group pacing, dynamic hazard management, authentic storytelling, and interactive charisma that digital apps cannot replicate.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and physical substitution resistance across Australian service and personal care occupations"
+        }
+      ],
+      "scope": "Tourism guiding workforce; interpretive human engagement.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "39-7011-empi77"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 75 active job advertisements for tour guide across Australia, demonstrating frontline workforce demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: tour guide, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=tour+guide&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 75 postings for tour guide"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "39-7011-empi78"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "tour guide",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 128,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 75,
     "returned": 50,
     "topEmployers": [
       "Journey Beyond",
-      "Voyages Tourism Australia",
+      "ServiceRocket",
+      "G'day Group",
       "SeaLink Whitsundays",
       "Voyages Indigenous Tourism Australia",
       "Discovery Resorts",
       "SeaLink K'gari ",
-      "G'day Group",
-      "SeaLink K’gari"
+      "Drivers & Guides"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "tourism",
+      "heritage",
+      "visitor experience",
+      "interpretation"
     ]
   },
   "corpus": {
@@ -1623,7 +1689,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1673,5 +1747,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Pre-recorded mobile audio apps substitute for basic museum and bus tour commentary."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

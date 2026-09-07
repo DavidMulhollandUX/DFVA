@@ -8,11 +8,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1358,26 +1358,90 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Reporters and correspondents in Australia are bound by the MEAA Journalist Code of Ethics and Australian Press Council Statement of Principles, requiring rigorous independent verification of facts, source protection, and full disclosure of AI-generated content.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Media, Entertainment & Arts Alliance",
+          "title": "MEAA Journalist Code of Ethics and Artificial Intelligence Guidelines",
+          "url": "https://www.meaa.org/meaa-code-of-ethics/",
+          "date": "2025-03-01",
+          "whatItMeasured": "MEAA journalism standards on truthfulness, verification, transparency of AI generation, and source confidentiality"
+        }
+      ],
+      "scope": "Australian journalism and news media; professional ethical self-regulation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (meaa.org); measures standards of professional journalism; in window.",
+      "id": "27-3022-empi65"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) and media research indicate routine reporting (financial earnings releases, sports wire summaries, SEO rewrite) is heavily automated by LLM pipelines, driving human journalism toward on-the-ground investigative reporting and verified interviews.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and automation risk across Australian creative and media occupations"
+        }
+      ],
+      "scope": "Journalism and news media workforce; sharp bifurcation between automated desk reporting and investigative journalism.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "27-3022-empi66"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 1355 active job advertisements for journalist across Australia, demonstrating commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: journalist, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=journalist&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 1355 postings for journalist"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "27-3022-empi67"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "reporter",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 72175,
+    "query": "journalist",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 1355,
     "returned": 50,
     "topEmployers": [
-      "News Corp",
-      "Australian News Channel Pty",
+      "Australian Community Media",
       "Seven West Media",
-      "ABC",
-      "News Corp Australia",
-      "Professional Search Group",
-      "Mirvac",
-      "Australian Payments Plus"
+      "WIN TV",
+      "Domain Group",
+      "WIN Television Network Pty Ltd",
+      "NBN Pty Ltd",
+      "Domain",
+      "Prime Creative Media"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "news",
+      "editorial"
     ]
   },
   "corpus": {
@@ -1389,7 +1453,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1418,5 +1490,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Routine wire-service rewrite and SEO content aggregation are heavily automated."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

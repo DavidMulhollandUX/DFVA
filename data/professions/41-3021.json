@@ -8,11 +8,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1736,19 +1736,90 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Insurance sales agents and brokers in Australia operate under the Corporations Act 2001 (holding or operating as an authorized representative of an AFSL) supervised by ASIC and adhering to the General Insurance Code of Practice.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Securities and Investments Commission",
+          "title": "Regulatory Guide 104: Licensing - Meeting the general obligations",
+          "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-licensing-meeting-the-general-obligations/",
+          "date": "2024-10-15",
+          "whatItMeasured": "ASIC regulatory standards governing financial services licensees, insurance brokers, and banking representatives"
+        }
+      ],
+      "scope": "Australian insurance brokers and agents; statutory AFSL licensing.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (asic.gov.au); measures insurance statutory obligations; in window.",
+      "id": "41-3021-empi83"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds routine consumer insurance (auto, home) is heavily automated via digital comparison aggregators and algorithmic underwriting, while commercial risk brokering, complex liability structuring, and contentious claims advocacy maintain strong human demand.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clerical/sales automation exposure across Australian administrative and commercial roles"
+        }
+      ],
+      "scope": "Insurance advisory workforce; retail digital underwriting vs commercial brokerage.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "41-3021-empi84"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 204 active job advertisements for insurance broker across Australia, reflecting commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: insurance broker, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=insurance+broker&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 204 postings for insurance broker"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "41-3021-empi85"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "insurance sales agent",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 3,
-    "returned": 3,
+    "query": "insurance broker",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 204,
+    "returned": 50,
     "topEmployers": [
-      "Compare Club"
+      "Crawford",
+      "Marsh McLennan",
+      "Haylo People",
+      "Morgan Consulting",
+      "Kennedy Reid",
+      "Succession Partners",
+      "Sonder",
+      "Abacus Human Capital"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "claims",
+      "underwriting"
     ]
   },
   "corpus": {
@@ -1760,7 +1831,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1816,5 +1895,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Retail personal lines insurance is largely direct-to-consumer digital, concentrating broker demand in commercial lines."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

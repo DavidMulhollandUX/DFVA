@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1398,26 +1398,92 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Camera operators in Australia adhere to Australian Cinematographers Society (ACS) professional standards, CASA drone cinematography regulations (Part 101 of CASR), and MEAA screen crew award terms.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Civil Aviation Safety Authority",
+          "title": "Remotely Piloted Aircraft Operations (CASA Part 101)",
+          "url": "https://www.casa.gov.au/drones",
+          "date": "2024-11-15",
+          "whatItMeasured": "CASA statutory safety regulations for commercial aerial drone filming in Australia"
+        }
+      ],
+      "scope": "Australian screen cinematography and camera operation; statutory flight and industrial safety.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (casa.gov.au); measures statutory drone and camera safety standards; in window.",
+      "id": "27-4031-empi67"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds camera operators are highly insulated from software displacement during live broadcast and on-location shooting, where dynamic physical framing, physical camera movement, and real-time response to unpredictable action are required.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and automation risk across Australian creative and media occupations"
+        }
+      ],
+      "scope": "Screen and broadcast camera workforce; physical embodiment on location.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "27-4031-empi68"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 90 active job advertisements for camera operator across Australia, demonstrating commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: camera operator, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=camera+operator&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 90 postings for camera operator"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "27-4031-empi69"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "camera operator",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 101,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 90,
     "returned": 50,
     "topEmployers": [
-      "Encore",
       "Encore Global",
+      "Encore",
+      "Seven West Media",
       "WIN Television",
       "WIN TV",
       "WIN Television Network Pty Ltd",
-      "G4S",
-      "Seven West Media",
+      "Tfc Afl Limited",
       "NBN Pty Ltd"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "cinematography",
+      "camera operation",
+      "lighting",
+      "framing"
     ]
   },
   "corpus": {
@@ -1429,7 +1495,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1458,5 +1532,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Virtual studio production and automated pan-tilt-zoom (PTZ) cameras reduce camera operator counts in studio newsrooms."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

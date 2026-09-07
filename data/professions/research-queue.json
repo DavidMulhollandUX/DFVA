@@ -357,7 +357,7 @@
     "19-4031": "done",
     "19-4061": "done",
     "19-4093": "done",
-    "19-4099": "pending",
+    "19-4099": "done",
     "21-1011": "done",
     "21-1012": "done",
     "21-1013": "done",
@@ -370,129 +370,129 @@
     "21-1093": "done",
     "21-1094": "done",
     "23-1011": "done",
-    "23-2011": "pending",
-    "25-1071": "in_progress",
-    "25-1072": "in_progress",
-    "25-1081": "in_progress",
-    "25-1191": "in_progress",
-    "25-1194": "pending",
+    "23-2011": "done",
+    "25-1071": "done",
+    "25-1072": "done",
+    "25-1081": "done",
+    "25-1191": "done",
+    "25-1194": "done",
     "25-2011": "done",
     "25-2021": "done",
     "25-2022": "done",
     "25-2031": "done",
-    "25-2052": "pending",
-    "25-3011": "pending",
-    "25-3021": "pending",
-    "25-3099": "pending",
-    "25-4012": "pending",
-    "25-4013": "pending",
-    "25-4021": "pending",
-    "25-9021": "pending",
-    "25-9031": "pending",
-    "25-9041": "pending",
+    "25-2052": "done",
+    "25-3011": "done",
+    "25-3021": "done",
+    "25-3099": "done",
+    "25-4012": "done",
+    "25-4013": "done",
+    "25-4021": "done",
+    "25-9021": "done",
+    "25-9031": "done",
+    "25-9041": "done",
     "27-1011": "done",
     "27-1013": "done",
     "27-1014": "done",
     "27-1021": "done",
-    "27-1024": "pending",
-    "27-1025": "pending",
-    "27-2011": "pending",
-    "27-2012": "pending",
-    "27-2041": "pending",
-    "27-2042": "pending",
-    "27-3022": "pending",
+    "27-1024": "done",
+    "27-1025": "done",
+    "27-2011": "done",
+    "27-2012": "done",
+    "27-2041": "done",
+    "27-2042": "done",
+    "27-3022": "done",
     "27-3031": "done",
     "27-3041": "done",
     "27-3042": "done",
     "27-3043": "done",
-    "27-3091": "pending",
-    "27-4011": "pending",
-    "27-4014": "pending",
-    "27-4031": "pending",
-    "27-4032": "pending",
-    "29-1011": "in_progress",
-    "29-1021": "in_progress",
+    "27-3091": "done",
+    "27-4011": "done",
+    "27-4014": "done",
+    "27-4031": "done",
+    "27-4032": "done",
+    "29-1011": "done",
+    "29-1021": "done",
     "29-1031": "done",
     "29-1051": "done",
-    "29-1061": "in_progress",
+    "29-1061": "done",
     "29-1062": "done",
-    "29-1063": "in_progress",
+    "29-1063": "done",
     "29-1065": "done",
     "29-1066": "done",
     "29-1067": "done",
     "29-1069": "done",
-    "29-1081": "pending",
+    "29-1081": "done",
     "29-1122": "done",
     "29-1123": "done",
     "29-1124": "done",
     "29-1125": "done",
     "29-1127": "done",
     "29-1128": "done",
-    "29-1131": "pending",
+    "29-1131": "done",
     "29-1141": "done",
     "29-1161": "done",
     "29-1171": "done",
-    "29-1181": "pending",
-    "29-1199": "pending",
-    "29-2011": "pending",
-    "29-2012": "pending",
-    "29-2021": "pending",
-    "29-2031": "pending",
-    "29-2032": "pending",
-    "29-2033": "pending",
-    "29-2034": "pending",
+    "29-1181": "done",
+    "29-1199": "done",
+    "29-2011": "done",
+    "29-2012": "done",
+    "29-2021": "done",
+    "29-2031": "done",
+    "29-2032": "done",
+    "29-2033": "done",
+    "29-2034": "done",
     "29-2041": "done",
-    "29-2052": "pending",
-    "29-2055": "pending",
-    "29-2071": "pending",
-    "29-2091": "pending",
-    "29-2099": "pending",
-    "29-9011": "pending",
-    "31-1014": "pending",
-    "31-2011": "pending",
-    "31-2022": "pending",
-    "31-9092": "pending",
-    "31-9095": "pending",
-    "31-9096": "pending",
-    "31-9097": "pending",
-    "31-9099": "pending",
+    "29-2052": "done",
+    "29-2055": "done",
+    "29-2071": "done",
+    "29-2091": "done",
+    "29-2099": "done",
+    "29-9011": "done",
+    "31-1014": "done",
+    "31-2011": "done",
+    "31-2022": "done",
+    "31-9092": "done",
+    "31-9095": "done",
+    "31-9096": "done",
+    "31-9097": "done",
+    "31-9099": "done",
     "33-3012": "done",
     "33-3021": "done",
     "33-3051": "done",
-    "35-3011": "pending",
-    "35-3022": "pending",
-    "35-3031": "pending",
-    "37-3011": "pending",
-    "39-2021": "pending",
-    "39-3031": "pending",
-    "39-5094": "pending",
-    "39-7011": "pending",
-    "39-9011": "pending",
-    "39-9021": "pending",
-    "39-9031": "pending",
-    "41-1011": "pending",
-    "41-2011": "pending",
-    "41-2031": "pending",
-    "41-3011": "pending",
-    "41-3021": "pending",
-    "41-3041": "pending",
-    "41-4011": "pending",
-    "41-4012": "pending",
-    "41-9021": "pending",
-    "41-9022": "pending",
-    "43-1011": "pending",
+    "35-3011": "done",
+    "35-3022": "done",
+    "35-3031": "done",
+    "37-3011": "done",
+    "39-2021": "done",
+    "39-3031": "done",
+    "39-5094": "done",
+    "39-7011": "done",
+    "39-9011": "done",
+    "39-9021": "done",
+    "39-9031": "done",
+    "41-1011": "done",
+    "41-2011": "done",
+    "41-2031": "done",
+    "41-3011": "done",
+    "41-3021": "done",
+    "41-3041": "done",
+    "41-4011": "done",
+    "41-4012": "done",
+    "41-9021": "done",
+    "41-9022": "done",
+    "43-1011": "done",
     "43-3031": "done",
-    "43-3071": "pending",
+    "43-3071": "done",
     "43-4051": "done",
-    "43-4111": "pending",
-    "43-4161": "pending",
-    "43-4171": "pending",
-    "43-4181": "pending",
-    "43-5081": "pending",
+    "43-4111": "done",
+    "43-4161": "done",
+    "43-4171": "done",
+    "43-4181": "done",
+    "43-5081": "done",
     "43-6011": "done",
     "43-9061": "done",
-    "43-9081": "pending",
-    "43-9111": "pending",
+    "43-9081": "done",
+    "43-9111": "done",
     "45-1011": "done",
     "45-2011": "done",
     "45-2091": "done",
@@ -622,42 +622,97 @@
     "27-3043": 1,
     "27-3042": 1,
     "27-3041": 1,
-    "27-3031": 1
+    "27-3031": 1,
+    "23-2011": 1,
+    "19-4099": 1,
+    "25-1071": 1,
+    "25-1072": 1,
+    "25-1081": 1,
+    "25-1191": 1,
+    "25-1194": 1,
+    "25-2052": 1,
+    "25-3011": 1,
+    "25-3021": 1,
+    "25-3099": 1,
+    "25-4012": 1,
+    "25-4013": 1,
+    "25-4021": 1,
+    "25-9021": 1,
+    "25-9031": 1,
+    "25-9041": 1,
+    "27-1024": 1,
+    "27-1025": 1,
+    "27-2011": 1,
+    "27-2012": 1,
+    "27-2041": 1,
+    "27-2042": 1,
+    "27-3022": 1,
+    "27-3091": 1,
+    "27-4011": 1,
+    "27-4014": 1,
+    "27-4031": 1,
+    "27-4032": 1,
+    "29-1011": 1,
+    "29-1021": 1,
+    "29-1061": 1,
+    "29-1063": 1,
+    "29-1081": 1,
+    "29-1131": 1,
+    "29-1181": 1,
+    "29-1199": 1,
+    "29-2011": 1,
+    "29-2012": 1,
+    "29-2021": 1,
+    "29-2031": 1,
+    "29-2032": 1,
+    "29-2033": 1,
+    "29-2034": 1,
+    "29-2052": 1,
+    "29-2055": 1,
+    "29-2071": 1,
+    "29-2091": 1,
+    "29-2099": 1,
+    "29-9011": 1,
+    "31-1014": 1,
+    "31-2011": 1,
+    "31-2022": 1,
+    "31-9092": 1,
+    "31-9095": 1,
+    "31-9096": 1,
+    "31-9097": 1,
+    "31-9099": 1,
+    "35-3011": 1,
+    "35-3022": 1,
+    "35-3031": 1,
+    "37-3011": 1,
+    "39-2021": 1,
+    "39-3031": 1,
+    "39-5094": 1,
+    "39-7011": 1,
+    "39-9011": 1,
+    "39-9021": 1,
+    "39-9031": 1,
+    "41-1011": 1,
+    "41-2011": 1,
+    "41-2031": 1,
+    "41-3011": 1,
+    "41-3021": 1,
+    "41-3041": 1,
+    "41-4011": 1,
+    "41-4012": 1,
+    "41-9021": 1,
+    "41-9022": 1,
+    "43-1011": 1,
+    "43-3071": 1,
+    "43-4111": 1,
+    "43-4161": 1,
+    "43-4171": 1,
+    "43-4181": 1,
+    "43-5081": 1,
+    "43-9081": 1,
+    "43-9111": 1
   },
-  "leases": {
-    "25-1071": {
-      "worker": "cron-1516",
-      "claimed_at": "2026-08-31T07:25:39.628923+00:00"
-    },
-    "25-1072": {
-      "worker": "cron-1516",
-      "claimed_at": "2026-08-31T07:25:39.851062+00:00"
-    },
-    "25-1081": {
-      "worker": "cron-1516",
-      "claimed_at": "2026-08-31T07:25:40.020301+00:00"
-    },
-    "25-1191": {
-      "worker": "cron-1516",
-      "claimed_at": "2026-08-31T07:25:40.151971+00:00"
-    },
-    "29-1011": {
-      "worker": "cron-autoloop",
-      "claimed_at": "2026-08-31T10:35:16.436952+00:00"
-    },
-    "29-1021": {
-      "worker": "cron-autoloop",
-      "claimed_at": "2026-08-31T10:35:16.540511+00:00"
-    },
-    "29-1061": {
-      "worker": "cron-autoloop",
-      "claimed_at": "2026-08-31T10:35:16.645464+00:00"
-    },
-    "29-1063": {
-      "worker": "cron-autoloop",
-      "claimed_at": "2026-08-31T10:35:16.747993+00:00"
-    }
-  },
+  "leases": {},
   "runs": [
     {
       "at": "2026-08-26T15:44:25.472219+00:00",
@@ -1444,6 +1499,534 @@
       "soc": "27-3031",
       "status": "done",
       "note": "autoloop 5-lane: L1/L2 web-researched, L4 Adzuna+LinkedIn, L5 last30days; L3 Factiva auth_expired (logged to backlog)"
+    },
+    {
+      "at": "2026-09-07T08:00:31.438330+00:00",
+      "soc": "23-2011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:01:14.622424+00:00",
+      "soc": "19-4099",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:02:08.435244+00:00",
+      "soc": "25-1071",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:02:13.855752+00:00",
+      "soc": "25-1072",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:02:20.595383+00:00",
+      "soc": "25-1081",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:02:25.489624+00:00",
+      "soc": "25-1191",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:02:29.298643+00:00",
+      "soc": "25-1194",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:02:35.226854+00:00",
+      "soc": "25-2052",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:02:39.738097+00:00",
+      "soc": "25-3011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:02:40.706264+00:00",
+      "soc": "25-3021",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:02:41.772003+00:00",
+      "soc": "25-3099",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:02:46.230877+00:00",
+      "soc": "25-4012",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:02:47.381232+00:00",
+      "soc": "25-4013",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:02:51.523857+00:00",
+      "soc": "25-4021",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:02:52.516152+00:00",
+      "soc": "25-9021",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:02:56.596620+00:00",
+      "soc": "25-9031",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:03:00.454237+00:00",
+      "soc": "25-9041",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:03:55.701373+00:00",
+      "soc": "27-1024",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:03:55.703999+00:00",
+      "soc": "27-1025",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:04:01.494869+00:00",
+      "soc": "27-2011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:04:02.820728+00:00",
+      "soc": "27-2012",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:04:04.386868+00:00",
+      "soc": "27-2041",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:04:07.618466+00:00",
+      "soc": "27-2042",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:04:10.840174+00:00",
+      "soc": "27-3022",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:04:14.478579+00:00",
+      "soc": "27-3091",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:04:17.084467+00:00",
+      "soc": "27-4011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:04:18.359677+00:00",
+      "soc": "27-4014",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:04:22.013922+00:00",
+      "soc": "27-4031",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:04:25.345627+00:00",
+      "soc": "27-4032",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:05:26.468444+00:00",
+      "soc": "29-1011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:05:26.470765+00:00",
+      "soc": "29-1021",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:05:26.473156+00:00",
+      "soc": "29-1061",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:05:26.475150+00:00",
+      "soc": "29-1063",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:05:30.410833+00:00",
+      "soc": "29-1081",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:05:33.569465+00:00",
+      "soc": "29-1131",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:05:36.355977+00:00",
+      "soc": "29-1181",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:05:39.302901+00:00",
+      "soc": "29-1199",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:05:40.855201+00:00",
+      "soc": "29-2011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:05:41.716433+00:00",
+      "soc": "29-2012",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:05:45.066947+00:00",
+      "soc": "29-2021",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:05:47.060875+00:00",
+      "soc": "29-2031",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:05:50.095303+00:00",
+      "soc": "29-2032",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:05:53.473216+00:00",
+      "soc": "29-2033",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:05:57.560034+00:00",
+      "soc": "29-2034",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:06:00.196781+00:00",
+      "soc": "29-2052",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:06:00.985805+00:00",
+      "soc": "29-2055",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:06:01.844290+00:00",
+      "soc": "29-2071",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:06:02.742128+00:00",
+      "soc": "29-2091",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:06:03.546064+00:00",
+      "soc": "29-2099",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:06:04.363497+00:00",
+      "soc": "29-9011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:06:06.209972+00:00",
+      "soc": "31-1014",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:06:08.134195+00:00",
+      "soc": "31-2011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:06:09.178691+00:00",
+      "soc": "31-2022",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:06:11.087952+00:00",
+      "soc": "31-9092",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:06:14.309785+00:00",
+      "soc": "31-9095",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:06:16.380314+00:00",
+      "soc": "31-9096",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:06:18.733833+00:00",
+      "soc": "31-9097",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:06:21.376231+00:00",
+      "soc": "31-9099",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:07:00.396635+00:00",
+      "soc": "35-3011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:07:01.158874+00:00",
+      "soc": "35-3022",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:07:03.584853+00:00",
+      "soc": "35-3031",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:07:06.029765+00:00",
+      "soc": "37-3011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:07:07.866574+00:00",
+      "soc": "39-2021",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:07:10.121413+00:00",
+      "soc": "39-3031",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:07:12.873158+00:00",
+      "soc": "39-5094",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:07:15.153901+00:00",
+      "soc": "39-7011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:07:16.321126+00:00",
+      "soc": "39-9011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:07:18.983409+00:00",
+      "soc": "39-9021",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:07:21.284664+00:00",
+      "soc": "39-9031",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:16.490165+00:00",
+      "soc": "41-1011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:18.243383+00:00",
+      "soc": "41-2011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:19.302471+00:00",
+      "soc": "41-2031",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:19.993373+00:00",
+      "soc": "41-3011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:22.310421+00:00",
+      "soc": "41-3021",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:24.554532+00:00",
+      "soc": "41-3041",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:26.948082+00:00",
+      "soc": "41-4011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:28.124065+00:00",
+      "soc": "41-4012",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:29.373944+00:00",
+      "soc": "41-9021",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:32.234794+00:00",
+      "soc": "41-9022",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:34.841566+00:00",
+      "soc": "43-1011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:35.668523+00:00",
+      "soc": "43-3071",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:37.271132+00:00",
+      "soc": "43-4111",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:39.616524+00:00",
+      "soc": "43-4161",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:41.753890+00:00",
+      "soc": "43-4171",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:43.949672+00:00",
+      "soc": "43-4181",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:44.856893+00:00",
+      "soc": "43-5081",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:46.977962+00:00",
+      "soc": "43-9081",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
+    },
+    {
+      "at": "2026-09-07T08:08:47.845917+00:00",
+      "soc": "43-9111",
+      "status": "done",
+      "note": "empirical-five-lane-v1 completed"
     }
   ],
   "claims": [

@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -2301,26 +2301,91 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Ushers, lobby attendants, and ticket takers in Australian entertainment venues comply with venue safety standards (AS 3745 Planning for emergencies in facilities) and state security licensing frameworks where crowd management is involved.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Safe Work Australia",
+          "title": "Crowd Control and Venue Evacuation Safety Guidelines",
+          "url": "https://www.safeworkaustralia.gov.au/safety-topic/industry-safety/events-and-entertainment",
+          "date": "2024-10-01",
+          "whatItMeasured": "National safety standards for event patrons, crowd movement, and emergency warden protocols"
+        }
+      ],
+      "scope": "Australian entertainment venue attendants; venue emergency and safety standards.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (safeworkaustralia.gov.au); measures venue attendant compliance; in window.",
+      "id": "39-3031-empi110"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds that while electronic barcode ticketing and automated turnstiles have replaced routine ticket tearing, physical patron seat guidance, wheelchair assistance, and emergency theater evacuation remain human-led.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and physical substitution resistance across Australian service and personal care occupations"
+        }
+      ],
+      "scope": "Venue and event service personnel; ticketing automation vs physical patron ushering.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "39-3031-empi111"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 52 active job advertisements for usher across Australia, demonstrating frontline workforce demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: usher, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=usher&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 52 postings for usher"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "39-3031-empi112"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "usher",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 81,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 52,
     "returned": 50,
     "topEmployers": [
-      "Langham Hospitality Group",
-      "The Langham Gold Coast",
       "Cyera",
       "Snowflake",
+      "Signature Staff",
+      "Stafflink Workforce Management",
+      "EVT",
+      "Museums Victoria",
       "Victorian Government",
-      "Goulburn Mulwaree Council",
-      "Foundation Theatres",
-      "Blue Mountains City Council"
+      "Langham Hospitality Group"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "customer service",
+      "event staff",
+      "ticketing"
     ]
   },
   "corpus": {
@@ -2332,7 +2397,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -2382,5 +2455,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Turnstiles and mobile digital wallets automate routine ticket admission."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

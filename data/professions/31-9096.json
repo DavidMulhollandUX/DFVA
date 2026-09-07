@@ -7,11 +7,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1861,26 +1861,90 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Veterinary assistants and veterinary nurses in Australia adhere to the Veterinary Nurses Council of Australia (VNCA) Code of Professional Conduct, supporting animal surgery, medication administration, and patient restraint.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Veterinary Nurses Council of Australia",
+          "title": "VNCA Code of Professional Conduct",
+          "url": "https://www.vnca.net.au/about-us/code-of-professional-conduct/",
+          "date": "2024-11-01",
+          "whatItMeasured": "National professional standard governing veterinary nursing competence, animal welfare, and surgical support"
+        }
+      ],
+      "scope": "Australian veterinary nursing and animal care assistants; national professional standard.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (vnca.net.au); measures veterinary nursing standards; in window.",
+      "id": "31-9096-empi89"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) assesses veterinary assistants as highly protected from automation: physical animal handling, catheterization, surgical prep, and emergency resuscitation require hands-on physical dexterity.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Veterinary support workforce; manual animal handling insulation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "31-9096-empi90"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 212 active job advertisements for veterinary nurse across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: veterinary nurse, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=veterinary+nurse&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 212 postings for veterinary nurse"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "31-9096-empi91"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "veterinary assistant",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 66,
+    "query": "veterinary nurse",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 212,
     "returned": 50,
     "topEmployers": [
       "VetPartners",
-      "Australian Pesticides and Veterinary Medicines Authority",
       "Greencross Vets",
-      "Animal Referral Hospital",
-      "Shelters",
-      "University of Sydney",
-      "Clinics",
-      "AWQLD Animal Welfare League Queensland"
+      "NQ Veterinary Group Pty Ltd",
+      "Apiam Animal Health",
+      "Murdoch University",
+      "Brisbane Veterinary Specialist Centre",
+      "Lort Smith Animal Hospital",
+      "Seven Corp on behalf of Allambie Vet Pty Ltd"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "veterinary nursing",
+      "animal care"
     ]
   },
   "corpus": {
@@ -1892,7 +1956,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1942,5 +2014,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Veterinary nursing requires hands-on animal restraint and physical surgical prep."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

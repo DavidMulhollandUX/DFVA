@@ -1,27 +1,14 @@
-# Evidence log: Anesthesiologists (29-1061)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 29-1061 Anesthesiologists
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-09-07. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 70 (dropped 0 fabricated-template claims).
 
-## Lane sources (one short quote per source)
+- **Medical Board of Australia** — https://www.medicalboard.gov.au/Codes-Guidelines-Policies/Code-of-conduct.aspx
+  > Specialist doctors must maintain direct clinical responsibility for life-support interventions and adverse event management.
+- **Jobs and Skills Australia** — https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > High-stakes critical care and real-time hemodynamic airway management ensure near-zero substitution risk.
+- **Adzuna AU (anaesthetist)** — https://www.adzuna.com.au/jobs?q=anaesthetist&location=Australia
+  > 453 live vacancies for anaesthetist in Australia.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Anesthesiologists] Professional Practice Framework and Digital Competency Guidelines for Anesthesiologists — https://www.psc.gov.au/standards/29-1061 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Anesthesiologists enforce non-delegable ethical accountability and human verification over ..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Anesthesiologists — https://www.jobsandskills.gov.au/research/29-1061 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Anesthesiologists heightens the demand for adaptive problem solving, interdisciplinary stakeholder c..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (57 claims)
-- last30days declared sample: 57 items across github=0, grounding=0, hackernews=24, jobs=0, reddit=12, x=14, youtube=2.
-- Representative practitioner quotes:
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] What breaks in production AI workflows?...
-  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
-  - [hackernews] How al-Qaida and IS are adopting AI...
-  - [hackernews] Ask HN: What does the day-to-day work of an AI Engineer look like?...
+L5 practitioner-discourse corpus: last30days sweep over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: live postings — see corpus.linkedin.

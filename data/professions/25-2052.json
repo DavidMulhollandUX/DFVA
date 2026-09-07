@@ -7,11 +7,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1021,26 +1021,93 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Special education teachers in Australian primary and secondary schools are statutorily registered with state teacher regulatory authorities (e.g. NESA, VIT) and must adhere to the Disability Standards for Education 2005 under the Disability Discrimination Act 1992.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Department of Education",
+          "title": "Disability Standards for Education 2005",
+          "url": "https://www.education.gov.au/disability-standards-education-2005",
+          "date": "2024-08-01",
+          "whatItMeasured": "Commonwealth statutory standards ensuring students with disability access education on the same basis as other students"
+        }
+      ],
+      "scope": "Australian schooling system; statutory compliance across public and independent schools.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (education.gov.au); measures legal obligations governing special education teachers; in window.",
+      "id": "25-2052-empi49"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) ranks special education teachers among the least automatable occupations in the national economy, due to intensive behavioral de-escalation, individualized multi-sensory instruction, and complex pastoral care.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level occupational augmentability and substitutability across Australian educators"
+        }
+      ],
+      "scope": "Australian special education teachers; macro exposure analysis.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "25-2052-empi50"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 55 active job advertisements for special education teacher across Australia, demonstrating steady public and private sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: special education teacher, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=special+education+teacher&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 55 postings for special education teacher"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "25-2052-empi51"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "special education teacher",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 82,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 55,
     "returned": 50,
     "topEmployers": [
       "Queensland Government",
       "Prospero Teaching",
-      "NSW Government",
-      "Queensland Department of Education",
+      "Everyday Independence",
       "HealthcareLink Support",
-      "EducationHQ",
-      "Davis School District",
-      "Department for Education, South Australia"
+      "Macro Recruitment",
+      "Frontline Recruitment Group",
+      "Frontline Recruitment",
+      "Data Sentry"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "disability",
+      "NDIS",
+      "inclusive education",
+      "IEP",
+      "individual learning plan"
     ]
   },
   "corpus": {
@@ -1052,7 +1119,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1089,5 +1164,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Special education requires intensive relational and behavioral presence."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

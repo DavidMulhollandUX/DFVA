@@ -8,11 +8,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [
     "mc-teachpr",
     "mc-teachsa"
@@ -1531,26 +1531,89 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Teacher assistants (education aides) in Australian state and non-government schools are regulated under state education department employment awards and child safety legislation, requiring mandatory Working with Children Checks (WWCC).",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Education Union",
+          "title": "Education Support Personnel Guidelines",
+          "url": "https://www.aeufederal.org.au/our-work/education-support-personnel",
+          "date": "2024-11-10",
+          "whatItMeasured": "National professional guidelines and safety standards for education support staff"
+        }
+      ],
+      "scope": "Australian school education support personnel; employment and child safety compliance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (aeufederal.org.au); measures employment standards governing teacher assistants; in window.",
+      "id": "25-9041-empi73"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds teacher assistants possess exceptionally low automation vulnerability, as physical classroom assistance, pupil safety monitoring, and emotional regulation support are entirely non-automatable.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level occupational augmentability and substitutability across Australian educators"
+        }
+      ],
+      "scope": "Education support workforce; physical and relational tasks insulate from automation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "25-9041-empi74"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 123 active job advertisements for teacher aide across Australia, demonstrating steady public and private sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: teacher aide, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=teacher+aide&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 123 postings for teacher aide"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "25-9041-empi75"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "teacher assistant",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 547,
+    "query": "teacher aide",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 123,
     "returned": 50,
     "topEmployers": [
-      "EducationHQ",
-      "SchoolHouse",
-      "Catholic Education Western Australia",
-      "Trinity Christian School",
-      "Catholic Education Tasmania",
-      "Belgravia Group",
-      "Belgravia Health and Leisure Group",
-      "Davis School District"
+      "Queensland Government",
+      "Solo Ready Pty Ltd",
+      "AGA",
+      "Autism Queensland",
+      "Helping Hands",
+      "Aspect",
+      "Australian Industry Trade College",
+      "Prospero Teaching"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "inclusion"
     ]
   },
   "corpus": {
@@ -1577,7 +1640,14 @@
       "\"special education aide\" OR \"instructional assistant\" AI tools burden workload news",
       "k12dive.com paraprofessional AI",
       "districtadministration.com OR thejournal.com teacher aide AI automation 2025",
-      "\"teacher aide\" OR \"teacher's aide\" AI displacement automation risk occupation news 2025"
+      "\"teacher aide\" OR \"teacher's aide\" AI displacement automation risk occupation news 2025",
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
     ],
     "linkedin": [
       {
@@ -1630,5 +1700,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Teacher aide roles require physical classroom presence and behavioral guidance."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

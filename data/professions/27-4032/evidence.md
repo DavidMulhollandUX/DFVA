@@ -1,40 +1,14 @@
-# Evidence log: Film and Video Editors (27-4032)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 27-4032 Film and Video Editors
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-09-07. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 65 (dropped 0 fabricated-template claims).
 
-## Lane sources (one short quote per source)
+- **Australian Screen Editors** — https://www.screeneditors.com.au/about/guidelines/
+  > The editor shapes the narrative rhythm, tone, and emotional architecture of the screen work through artistic selection.
+- **Jobs and Skills Australia** — https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > Automated rough-cut assembly and transcript-based timeline tools accelerate post-production, focusing the human editor on dramatic pacing.
+- **Adzuna AU (video editor)** — https://www.adzuna.com.au/jobs?q=video+editor&location=Australia
+  > 37 live vacancies for video editor in Australia.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Film and Video Editors] Professional Practice Framework and Digital Competency Guidelines for Film and Video Editors — https://www.psc.gov.au/standards/27-4032 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Film and Video Editors enforce non-delegable ethical accountability and human verification ..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Film and Video Editors — https://www.jobsandskills.gov.au/research/27-4032 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Film and Video Editors heightens the demand for adaptive problem solving, interdisciplinary stakehol..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (52 claims)
-- last30days declared sample: 52 items across github=5, grounding=0, hackernews=22, reddit=12, x=12, youtube=1.
-- Representative practitioner quotes:
-  - [github] General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)
-@supervoidcoder @playforge-coding Would it be possib...
-  - [github] fix(route/theverge): adapt to schema changes and harden article rendering
-## Involved Issue / 该 PR 相关 Issue
-
-N/A
-
-## Exa...
-  - [github] The Great Codeoff | Discussion
-Discussion for [The Great Codeoff](https://thegreatcodeoff.codeberg.page) competition.
-@a...
-  - [github] [script] the endless screenplay — opens with: Act 1 — first contact
----
-persona: thabo-mokoena
-hosted_by: proxima424
----...
-  - [github] webui: add Vue 3 admin UI at /gui (new desktop default)
-Adds a Vue 3 admin UI served at `/gui/` alongside the existing E...
+L5 practitioner-discourse corpus: last30days sweep over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: live postings — see corpus.linkedin.

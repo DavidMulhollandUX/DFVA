@@ -7,11 +7,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1399,26 +1399,90 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Interior designers in Australia must comply with the National Construction Code (NCC), Australian Standards for accessibility (AS 1428), and DIA professional standards governing material flammability and public safety.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Building Codes Board",
+          "title": "National Construction Code (NCC) Standards",
+          "url": "https://www.abcb.gov.au/ncc-online",
+          "date": "2024-11-01",
+          "whatItMeasured": "Statutory building code requirements governing commercial and residential interior architecture and fitouts"
+        }
+      ],
+      "scope": "Australian built environment; statutory building regulations.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (abcb.gov.au); measures compliance mandates for interior designers; in window.",
+      "id": "27-1025-empi67"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds interior design balances AI rendering acceleration with physical insulation: 3D spatial diffusion tools speed aesthetic client presentations, but tactile finishes, on-site contractor coordination, and building code compliance require human execution.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and automation risk across Australian creative and media occupations"
+        }
+      ],
+      "scope": "Interior design and architecture support; macro exposure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "27-1025-empi68"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 467 active job advertisements for interior designer across Australia, demonstrating commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: interior designer, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=interior+designer&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 467 postings for interior designer"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "27-1025-empi69"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "interior designer",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 451,
+    "window": "Adzuna AU live all-time index (fetched 2026-08-31)",
+    "count": 467,
     "returned": 50,
     "topEmployers": [
       "Bloomfield Tremayne",
       "ACRWORLD",
       "Henley Properties Group",
       "Atlas Talents",
-      "GV People&Culture",
       "ROUSSOS Recruitment",
       "Amicus",
-      "Skilled Jobs Australia"
+      "Skilled Jobs Australia",
+      "Aspect Personnel"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "specification",
+      "space planning"
     ]
   },
   "corpus": {
@@ -1430,7 +1494,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1460,5 +1532,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Interior designers face AI automation in 3D visualisations but remain anchored by site inspections and building regulations."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

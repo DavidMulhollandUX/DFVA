@@ -7,11 +7,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1420,26 +1420,87 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Health technologists and technicians (including biomedical technicians) operate under TGA medical device regulations and Australian Standards (AS/NZS 3551) for the safety inspection of medical electrical equipment.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Therapeutic Goods Administration",
+          "title": "Medical Device Regulations and Standards",
+          "url": "https://www.tga.gov.au/how-we-regulate/manufacturing/medical-devices",
+          "date": "2024-10-01",
+          "whatItMeasured": "Commonwealth statutory requirements for the ongoing maintenance and compliance of medical devices in clinical use"
+        }
+      ],
+      "scope": "Australian biomedical technical workforce; statutory equipment regulation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (tga.gov.au); measures biomedical technician compliance; in window.",
+      "id": "29-2099-empi68"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) assesses biomedical and health technologists as highly resilient to automation, as physical electrical safety testing, transducer repair, and clinical calibration require on-site manual work.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Biomedical engineering technical support; hands-on physical calibration.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "29-2099-empi69"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 3 active job advertisements for health technologist across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: health technologist, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=health+technologist&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 3 postings for health technologist"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "29-2099-empi70"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "health technician",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 60,
-    "returned": 50,
+    "query": "health technologist",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 3,
+    "returned": 3,
     "topEmployers": [
-      "Geo Healthcare",
-      "Aidacare",
-      "GEO Healthcare",
-      "Amazon",
-      "Rockingham Harrisonburg SPCA",
-      "Slade Health",
-      "Eastern Health",
-      "JJ's Waste and Recycling"
+      "Mosh",
+      "Alfred Health",
+      "Bendigo Health"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "biomedical",
+      "medical equipment",
+      "calibration",
+      "TGA"
     ]
   },
   "corpus": {
@@ -1451,7 +1512,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1501,5 +1570,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Biomedical equipment maintenance requires physical hardware testing and TGA compliance."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

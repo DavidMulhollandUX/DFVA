@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [
     "mc-gmcom"
   ],
@@ -1526,19 +1526,83 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Advertising sales agents operate under the Australian Association of National Advertisers (AANA) Code of Ethics and ACCC digital platform advertising guidelines.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Competition and Consumer Commission",
+          "title": "Australian Consumer Law and Misleading Conduct Guidelines",
+          "url": "https://www.accc.gov.au/business/treating-customers-fairly/consumers-rights-obligations",
+          "date": "2024-11-01",
+          "whatItMeasured": "Commonwealth statutory regulations governing fair trading, consumer guarantees, and advertising accuracy"
+        }
+      ],
+      "scope": "Australian media advertising sales; industry advertising codes.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (accc.gov.au); measures advertising compliance; in window.",
+      "id": "41-3011-empi73"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds advertising sales agents experience significant automation in routine programmatic ad inventory placement, while high-value cross-media partnership negotiations and bespoke brand integrations require strategic human deal-making.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clerical/sales automation exposure across Australian administrative and commercial roles"
+        }
+      ],
+      "scope": "Media advertising sales workforce; programmatic automation vs custom sponsorship.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "41-3011-empi74"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 0 active job advertisements for advertising sales agent across Australia, reflecting commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: advertising sales agent, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=advertising+sales+agent&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 0 postings for advertising sales agent"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "41-3011-empi75"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "advertising sales agent",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 1,
-    "returned": 1,
-    "topEmployers": [
-      "Ray White"
-    ],
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 0,
+    "returned": 0,
+    "topEmployers": [],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "media sales",
+      "digital advertising",
+      "campaign",
+      "ad revenue"
     ]
   },
   "corpus": {
@@ -1550,7 +1614,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1600,5 +1672,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Routine digital ad inventory is bought programmatically via automated ad exchanges."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1146,26 +1146,90 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Professional librarians in Australia are accredited by the Australian Library and Information Association (ALIA), adhering to ALIA's Core Knowledge, Skills and Attributes and policies on digital equity, freedom of information, and copyright compliance under the Copyright Act 1968.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Library and Information Association",
+          "title": "ALIA Core Knowledge, Skills and Attributes for Information Professionals",
+          "url": "https://www.alia.org.au/about-alia/policies-standards-and-guidelines/core-knowledge-skills-and-attributes",
+          "date": "2025-02-15",
+          "whatItMeasured": "ALIA professional competency framework and standards for librarians and information managers"
+        }
+      ],
+      "scope": "Australian library and information management professionals; national peak body standards.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (alia.org.au); measures professional competencies and ethical standards for librarians; in window.",
+      "id": "25-4021-empi55"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) highlights significant task transformation for librarians: traditional cataloguing, bibliographic verification, and reference search are heavily automated by LLM metadata systems, shifting librarianship towards research data management and critical digital literacy.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level occupational augmentability and substitutability across Australian educators"
+        }
+      ],
+      "scope": "Library and information management workforce; task reallocation towards advanced research support.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "25-4021-empi56"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 62 active job advertisements for librarian across Australia, demonstrating steady public and private sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: librarian, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=librarian&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 62 postings for librarian"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "25-4021-empi57"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "librarian",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 110,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 62,
     "returned": 50,
     "topEmployers": [
-      "Bishop Tyrrell Anglican College",
+      "City of Newcastle",
+      "JoVE",
       "Griffith University",
-      "EducationHQ",
-      "James Cook University",
-      "NSW Government",
-      "Curtin University",
-      "Australian National University",
-      "City of Stirling"
+      "CQ University",
+      "Whitefriars College",
+      "Bishop Tyrrell Anglican College",
+      "SchoolHouse",
+      "Mercor"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "ALIA",
+      "research support"
     ]
   },
   "corpus": {
@@ -1177,7 +1241,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1215,5 +1287,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Librarians face widespread automation of traditional cataloguing and standard reference lookups."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

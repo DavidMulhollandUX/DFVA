@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1230,26 +1230,93 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Audio and video equipment technicians in Australia operate under WHS construction and entertainment rigging standards, electrical safety regulations, and MEAA Entertainment Crew collective agreements.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Safe Work Australia",
+          "title": "Work Health and Safety in the Events Industry",
+          "url": "https://www.safeworkaustralia.gov.au/safety-topic/industry-safety/events-and-entertainment",
+          "date": "2024-10-01",
+          "whatItMeasured": "WHS safety standards governing electrical distribution, rigging, and staging equipment in Australian venues"
+        }
+      ],
+      "scope": "Australian live entertainment and corporate events industry; statutory safety compliance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (safeworkaustralia.gov.au); measures physical safety standards for AV technicians; in window.",
+      "id": "27-4011-empi59"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds AV technicians enjoy high resilience to automation, as physical equipment rigging, cable management, hardware troubleshooting under live show pressure, and acoustic site adjustment are entirely physical.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and automation risk across Australian creative and media occupations"
+        }
+      ],
+      "scope": "Live events technical workforce; physical hardware insulation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "27-4011-empi60"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 24 active job advertisements for AV technician across Australia, demonstrating commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: AV technician, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=AV+technician&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 24 postings for AV technician"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "27-4011-empi61"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "audio visual technician",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 34,
-    "returned": 34,
+    "query": "AV technician",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 24,
+    "returned": 24,
     "topEmployers": [
-      "Encore",
       "Encore Global",
-      "Cognizant",
-      "Dreamedia Events",
-      "SKS Technologies",
-      "Christ Fellowship",
-      "Asm Global",
-      "Star Group"
+      "Encore",
+      "Pro AV Solutions",
+      "Programmed Maintenance Services",
+      "HOTA Services Gold Coast",
+      "Apex Event Recruitment",
+      "GCCEC myHUB",
+      "Pro Av Solutions"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "audio visual",
+      "staging",
+      "lighting",
+      "live production",
+      "cabling"
     ]
   },
   "corpus": {
@@ -1261,7 +1328,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1290,5 +1365,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "AV technician work is anchored in physical hardware rigging and live event execution."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

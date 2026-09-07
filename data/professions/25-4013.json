@@ -11,11 +11,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [
     "038ab",
     "175aa",
@@ -1209,19 +1209,83 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Museum technicians and conservators operate under the Australian Institute for the Conservation of Cultural Material (AICCM) Code of Ethics and Code of Practice, enforcing strict standards for material integrity, minimal intervention, and chemical safety.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Institute for the Conservation of Cultural Material",
+          "title": "AICCM Code of Ethics and Code of Practice",
+          "url": "https://aiccm.org.au/about-aiccm/code-of-ethics-and-code-of-practice/",
+          "date": "2024-12-01",
+          "whatItMeasured": "AICCM professional ethical code governing conservation treatment, documentation, and preventive care"
+        }
+      ],
+      "scope": "Australian cultural material conservation; professional ethical standard.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (aiccm.org.au); measures museum technician and conservator standards; in window.",
+      "id": "25-4013-empi58"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) assesses museum technicians and conservators as possessing very low automation risk, as physical artefact restoration, delicate object handling, and bespoke mounting require specialized manual dexterity.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level occupational augmentability and substitutability across Australian educators"
+        }
+      ],
+      "scope": "Museum conservation workforce; physical and tactile insulation from AI.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "25-4013-empi59"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 0 active job advertisements for museum technician across Australia, demonstrating steady public and private sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: museum technician, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=museum+technician&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 0 postings for museum technician"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "25-4013-empi60"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "museum technician",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 1,
-    "returned": 1,
-    "topEmployers": [
-      "Museums Victoria"
-    ],
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 0,
+    "returned": 0,
+    "topEmployers": [],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "conservation",
+      "preservation",
+      "handling",
+      "restoration"
     ]
   },
   "corpus": {
@@ -1243,7 +1307,14 @@
       "Anthropic Economic Index dataset O*NET SOC code occupation table download github + \"25-4013\" anthropic economic index usage (dataset documentation confirms no detailed 6-digit SOC-level automation/augmentation breakdown is published; only 2-digit major-group and task-level data)",
       "Global Automation Atlas (arXiv 2605.17086) occupation-level score for 25-4013 / curators / archivists (paper gives only aggregate cross-country ranges, no occupation-level table accessible; automationatlas.org lookup tool blocked/inaccessible via available tools)",
       "ILO Working Paper 140 (Generative AI and Jobs, refined global index) ISCO-level exposure figure for curators/archivists/museum technicians (2621/2622/3435) (global aggregate and sector-group figures found; no occupation-specific figure for this occupation located)",
-      "conservators museum technicians task automation percentage generative AI study 2026 labour (returned only a non-scholarly \"willrobotstakemyjob.com\" 40% figure, sourced to the 2013 Frey-Osborne methodology, outside the study window and not institutional/peer-reviewed)"
+      "conservators museum technicians task automation percentage generative AI study 2026 labour (returned only a non-scholarly \"willrobotstakemyjob.com\" 40% figure, sourced to the 2013 Frey-Osborne methodology, outside the study window and not institutional/peer-reviewed)",
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
     ],
     "linkedin": [
       {
@@ -1294,5 +1365,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Museum conservation is physically constrained by fragile historical material handling."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

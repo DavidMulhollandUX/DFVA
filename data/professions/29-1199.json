@@ -8,11 +8,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1064,26 +1064,92 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Health diagnosing and treating practitioners across allied disciplines operate under AHPRA registration standards or National Alliance of Self-Regulating Health Professions (NASRHP) quality benchmarks.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Health Practitioner Regulation Agency",
+          "title": "National Law and Shared Code of Conduct for Registered Health Practitioners",
+          "url": "https://www.ahpra.gov.au/Resources/Code-of-conduct/Shared-Code-of-conduct.aspx",
+          "date": "2025-03-01",
+          "whatItMeasured": "Statutory code of conduct governing clinical competence, ethical responsibility, and patient safety under the National Law"
+        }
+      ],
+      "scope": "Australian diagnosing and treating practitioners; national regulatory frameworks.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ahpra.gov.au); measures clinical standards; in window.",
+      "id": "29-1199-empi51"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) classifies residual clinical practitioners as having low automation risk due to direct patient diagnostic consultations, tailored therapeutic interventions, and clinical governance duties.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Allied health diagnostic practitioners; macro exposure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "29-1199-empi52"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 621 active job advertisements for clinical practitioner across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: clinical practitioner, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=clinical+practitioner&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 621 postings for clinical practitioner"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "29-1199-empi53"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "health practitioner",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 3170,
+    "query": "clinical practitioner",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 621,
     "returned": 50,
     "topEmployers": [
-      "Queensland Government",
+      "HealthcareLink",
+      "Forhealth Group",
       "SA Health",
-      "The Busy Group",
-      "Workskil Australia Ltd",
-      "Danila Dilba Health Service",
-      "2b Inclusive",
-      "Central Australian Aboriginal Congress",
-      "The BUSY Group"
+      "ForHealth Group",
+      "Better Medical",
+      "Northern Territory PHN",
+      "Queensland Government",
+      "Gorilla Jobs"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "allied health",
+      "patient care",
+      "therapy",
+      "AHPRA"
     ]
   },
   "corpus": {
@@ -1095,7 +1161,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1145,5 +1219,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Clinical diagnosing roles require direct physical evaluation and patient communication."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

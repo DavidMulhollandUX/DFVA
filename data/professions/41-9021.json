@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -2049,26 +2049,89 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Real estate brokers in Australia are licensed under state property legislation (e.g. Property and Stock Agents Act NSW, Estate Agents Act Vic), holding statutory trust account obligations under state Fair Trading oversight.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Real Estate Institute of Australia",
+          "title": "REIA Best Practice Principles and State Real Estate Licensing Acts",
+          "url": "https://reia.com.au/advocacy/best-practice/",
+          "date": "2024-10-01",
+          "whatItMeasured": "National ethical principles and state statutory licensing standards for real estate agents and brokers"
+        }
+      ],
+      "scope": "Australian licensed commercial real estate brokers; statutory licensing.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (reia.com.au); measures real estate statutory standards; in window.",
+      "id": "41-9021-empi98"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) notes that while commercial real estate analytics and lease document generation are augmented by AI, high-value commercial leasing negotiations, tenant covenant assessment, and on-site asset walkthroughs require human brokers.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clerical/sales automation exposure across Australian administrative and commercial roles"
+        }
+      ],
+      "scope": "Commercial real estate brokerage; transaction advisory.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "41-9021-empi99"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 11 active job advertisements for real estate broker across Australia, reflecting commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: real estate broker, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=real+estate+broker&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 11 postings for real estate broker"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "41-9021-empi100"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "real estate broker",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 30,
-    "returned": 30,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 11,
+    "returned": 11,
     "topEmployers": [
-      "McCone Properties",
-      "CoStar Group",
-      "Mercor",
       "Domain",
-      "Objective Pro Solutions",
+      "CoStar Group",
       "CoStar Realty Information, Inc.",
-      "New Town Real Estate LLC",
-      "JP Smith"
+      "Mercor",
+      "JP Smith",
+      "JP Smith Recruitment",
+      "empire group",
+      "ANZ"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "commercial real estate"
     ]
   },
   "corpus": {
@@ -2080,7 +2143,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -2130,5 +2201,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Real estate brokerage requires statutory state agent licensing and trust accounting."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

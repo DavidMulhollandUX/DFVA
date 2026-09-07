@@ -9,11 +9,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -2283,26 +2283,91 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Professional musicians and singers in Australia operate under MEAA Musicians Section collective award conditions and state live music performance guidelines, protecting workplace conditions across orchestral and commercial music venues.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Media, Entertainment & Arts Alliance",
+          "title": "MEAA Musicians Section Standards and Minimum Rates",
+          "url": "https://www.meaa.org/campaigns/musicians/",
+          "date": "2024-11-01",
+          "whatItMeasured": "MEAA industrial standards, performance fees, and live recording protections for musicians"
+        }
+      ],
+      "scope": "Australian live music sector; industrial award conditions.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (meaa.org); measures industrial protections for performing musicians; in window.",
+      "id": "27-2042-empi109"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) highlights that instrumentalists and singers performing live enjoy almost complete insulation from AI substitution, as the economic value of live concerts and festival performances centers entirely on communal human presence.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and automation risk across Australian creative and media occupations"
+        }
+      ],
+      "scope": "Live musical performance sector; high embodied resilience.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "27-2042-empi110"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 46 active job advertisements for musician across Australia, demonstrating commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: musician, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=musician&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 46 postings for musician"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "27-2042-empi111"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "musician",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 80,
-    "returned": 50,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 46,
+    "returned": 46,
     "topEmployers": [
       "The Salvation Army",
+      "Stamford Hotels and Resorts",
+      "Quad Lock",
       "Gateways Support Services",
-      "Hepburn Shire Council",
+      "University of Sydney",
       "Canberra Grammar School",
       "Northern Territory PHN",
-      "Stamford Hotels and Resorts",
-      "ISABELLA PLAINS, ACT",
-      "Southern Cross Care  Inc"
+      "JMC Pty"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "performance",
+      "vocalist",
+      "rehearsal"
     ]
   },
   "corpus": {
@@ -2314,7 +2379,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -2343,5 +2416,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Studio session musicians face displacement by synthesized virtual instruments, while live performers remain resilient."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

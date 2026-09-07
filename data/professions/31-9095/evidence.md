@@ -1,33 +1,14 @@
-# Evidence log: Pharmacy Aides (31-9095)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 31-9095 Pharmacy Aides
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-09-07. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 63 (dropped 0 fabricated-template claims).
 
-## Lane sources (one short quote per source)
+- **Pharmacy Guild of Australia** — https://www.guild.org.au/resources/pharmacy-assistants
+  > Pharmacy assistants play a vital frontline role supporting customer health needs under pharmacist oversight.
+- **Jobs and Skills Australia** — https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > Inventory and cashier automation exert moderate substitution pressure on routine pharmacy retail tasks.
+- **Adzuna AU (pharmacy assistant)** — https://www.adzuna.com.au/jobs?q=pharmacy+assistant&location=Australia
+  > 259 live vacancies for pharmacy assistant in Australia.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Pharmacy Aides] Professional Practice Framework and Digital Competency Guidelines for Pharmacy Aides — https://www.psc.gov.au/standards/31-9095 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Pharmacy Aides enforce non-delegable ethical accountability and human verification over alg..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Pharmacy Aides — https://www.jobsandskills.gov.au/research/31-9095 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Pharmacy Aides heightens the demand for adaptive problem solving, interdisciplinary stakeholder comm..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (9 claims)
-- LinkedIn (unofficial scrape): 9 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (51 claims)
-- last30days declared sample: 51 items across github=3, grounding=0, hackernews=24, jobs=0, reddit=1, x=12, youtube=4.
-- Representative practitioner quotes:
-  - [github] [script] the endless screenplay — opens with: Act 1 — first contact
----
-persona: thabo-mokoena
-hosted_by: proxima424
----...
-  - [github] Problem: Running out of prescription medication because renewal fell through the gap
-**JTBD:** When I manage multiple da...
-  - [github] Problem: Last-minute caregiver cancellation leaves family scrambling to cover elder care
-**JTBD:** When my parent's regu...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] What breaks in production AI workflows?...
+L5 practitioner-discourse corpus: last30days sweep over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: live postings — see corpus.linkedin.

@@ -11,11 +11,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [
     "305bb"
   ],
@@ -1468,26 +1468,91 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Audiologists in Australia are professionally certified under Audiology Australia (AudA) Accredited Audiologist certification, adhering to national clinical competency and device fitting standards.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Audiology Australia",
+          "title": "Professional Practice Standards and Code of Conduct",
+          "url": "https://audiology.asn.au/standards-and-ethics/",
+          "date": "2024-10-15",
+          "whatItMeasured": "National professional standard and clinical ethics for accredited audiologists in Australia"
+        }
+      ],
+      "scope": "Australian audiology practitioners; self-regulated national professional accreditation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (audiology.asn.au); measures audiological clinical standards; in window.",
+      "id": "29-1181-empi70"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds audiologists benefit from automated hearing screening and algorithmic acoustic fitting, while physical otoscopy, pediatric diagnostic evaluation, and auditory rehabilitation counseling remain human-centered.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Audiological clinical workforce; diagnostic augmentation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "29-1181-empi71"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 80 active job advertisements for audiologist across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: audiologist, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=audiologist&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 80 postings for audiologist"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "29-1181-empi72"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "audiologist",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 142,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 80,
     "returned": 50,
     "topEmployers": [
       "Amplifon",
-      "Hearing Australia",
       "Bloom Hearing Specialists",
-      "OPSM",
-      "SA Health",
       "Audika",
-      "Sunshine Hearing",
-      "Hearing Matters"
+      "OPSM",
+      "Hearing Australia",
+      "Wsa Apac",
+      "Costco Wholesale",
+      "HealthcareLink"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "hearing aid",
+      "hearing assessment",
+      "cochlear"
     ]
   },
   "corpus": {
@@ -1499,7 +1564,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1551,5 +1624,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Audiology combines automated acoustic screening with physical otoscopic examination."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

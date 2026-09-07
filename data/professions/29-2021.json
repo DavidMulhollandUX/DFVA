@@ -11,11 +11,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [
     "841ac"
   ],
@@ -1552,26 +1552,90 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Dental hygienists in Australia are statutorily registered with the Dental Board of Australia under AHPRA, practicing within a structured dental scope of practice adhering to national infection prevention protocols.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Dental Board of Australia",
+          "title": "Dental Guidelines and Scope of Practice Registration Standard",
+          "url": "https://www.dentalboard.gov.au/Registration-Standards.aspx",
+          "date": "2024-11-15",
+          "whatItMeasured": "Statutory scope of practice and clinical infection control standards for dental practitioners and hygienists"
+        }
+      ],
+      "scope": "Australian registered dental hygienists; statutory registration.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (dentalboard.gov.au); measures dental hygienist regulation; in window.",
+      "id": "29-2021-empi74"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) identifies dental hygienists as among the least automatable occupations: ultrasonic scaling, subgingival plaque removal, and physical clinical oral health education require delicate manual instrumentation in the mouth.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Dental hygiene workforce; manual intraoral insulation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "29-2021-empi75"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 96 active job advertisements for dental hygienist across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: dental hygienist, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=dental+hygienist&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 96 postings for dental hygienist"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "29-2021-empi76"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "dental hygienist",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 180,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 96,
     "returned": 50,
     "topEmployers": [
+      "HealthcareLink Support",
       "Gorilla Jobs",
-      "Bupa",
-      "National Dental Care",
-      "Bupa Dental",
-      "Private Advertiser",
+      "Distinctive Dental Mareeba",
       "GoodSmile",
-      "Morphett Vale Dental Care",
-      "FB Dental"
+      "Bupa",
+      "Connolly Dental",
+      "FB Dental",
+      "Frontline HR"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "periodontal",
+      "AHPRA"
     ]
   },
   "corpus": {
@@ -1583,7 +1647,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1635,5 +1707,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Dental hygiene requires physical intraoral scaling and periodontal treatment."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

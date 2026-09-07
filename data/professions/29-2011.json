@@ -7,11 +7,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1273,26 +1273,89 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Medical laboratory technologists (scientists) operate in pathology laboratories accredited by NATA under ISO 15189 and the National Pathology Accreditation Advisory Council (NPAAC) standards, requiring validated test accuracy and certified scientific oversight.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Institute of Medical and Clinical Scientists",
+          "title": "Professional Standards for Medical Science Laboratory Practice",
+          "url": "https://www.aims.org.au/services/standards",
+          "date": "2024-11-01",
+          "whatItMeasured": "National professional standards for diagnostic medical laboratory scientists and technicians"
+        }
+      ],
+      "scope": "Australian pathology laboratories; statutory and accreditation standards.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (aims.org.au); measures pathology laboratory standards; in window.",
+      "id": "29-2011-empi61"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds medical laboratory scientists increasingly supervise automated diagnostic assay lines and digital pathology AI algorithms, while complex morphology evaluation, abnormal smear review, and assay validation maintain high scientific demand.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clinical substitution resistance across Australian health occupations"
+        }
+      ],
+      "scope": "Medical pathology science workforce; automated testing augmentation.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "29-2011-empi62"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 16 active job advertisements for medical laboratory scientist across Australia, demonstrating strong healthcare sector demand.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: medical laboratory scientist, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=medical+laboratory+scientist&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 16 postings for medical laboratory scientist"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "29-2011-empi63"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "medical laboratory scientist",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 57,
-    "returned": 50,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 16,
+    "returned": 16,
     "topEmployers": [
-      "NSW Health Pathology",
-      "NSW Government",
-      "Alfred Health",
-      "Lead Group",
+      "Queensland Government",
+      "Royal Melbourne Institute of Technology",
       "abacus dx",
-      "NSW Health",
-      "SA Health",
-      "Envoi"
+      "Envoi",
+      "RMIT University",
+      "Griffith University",
+      "Monash Health",
+      "UniSC"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "pathology"
     ]
   },
   "corpus": {
@@ -1304,7 +1367,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1354,5 +1425,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Medical pathology testing is constrained by NPAAC accreditation and quality controls."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

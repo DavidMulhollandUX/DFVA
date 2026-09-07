@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1356,26 +1356,92 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Receptionists and front desk personnel in Australia manage visitor compliance under state workplace health and safety emergency protocols and the Australian Privacy Principles for client logbooks.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Office of the Australian Information Commissioner",
+          "title": "Australian Privacy Principles (APPs) Guidelines",
+          "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines",
+          "date": "2024-09-01",
+          "whatItMeasured": "Statutory principles governing personal information handling, confidentiality, and data protection in administrative roles"
+        }
+      ],
+      "scope": "Australian front desk and reception workforce; WHS and privacy standards.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (oaic.gov.au); measures reception compliance; in window.",
+      "id": "43-4171-empi65"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) notes that while automated iPad visitor check-in kiosks and AI phone receptionists automate call routing, physical executive concierge, on-site courier receipt, and empathetic corporate welcoming maintain demand.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clerical/sales automation exposure across Australian administrative and commercial roles"
+        }
+      ],
+      "scope": "Corporate reception workforce; kiosk automation vs physical concierge.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "43-4171-empi66"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 4116 active job advertisements for receptionist across Australia, reflecting commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: receptionist, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=receptionist&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 4116 postings for receptionist"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "43-4171-empi67"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "receptionist",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 6155,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 4116,
     "returned": 50,
     "topEmployers": [
-      "Marriott",
-      "Ausdocs GP Consulting",
-      "Candlewood Dental Centre",
-      "OrthoDent",
       "My Guardian",
-      "Push Physiotherapy",
       "Synergie Fresh Air",
-      "Launceston Dental"
+      "Whitsunday Foodservice",
+      "OrthoDent",
+      "IHG",
+      "SOFITEL",
+      "Marriott",
+      "Marriott Hotels Resorts"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "front desk",
+      "customer service",
+      "office support",
+      "scheduling"
     ]
   },
   "corpus": {
@@ -1387,7 +1453,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1437,5 +1511,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Tablet visitor sign-in and AI phone receptionists automate routine check-ins."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

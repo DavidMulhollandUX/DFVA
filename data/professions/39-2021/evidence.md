@@ -1,27 +1,14 @@
-# Evidence log: Nonfarm Animal Caretakers (39-2021)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 39-2021 Nonfarm Animal Caretakers
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-09-07. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 83 (dropped 0 fabricated-template claims).
 
-## Lane sources (one short quote per source)
+- **RSPCA Australia** — https://kb.rspca.org.au/knowledge-base/standards-for-boarding-kennels-and-catteries/
+  > Animal caretakers must ensure daily physical exercise, appropriate nutritional intake, and hygienic housing.
+- **Jobs and Skills Australia** — https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > Direct animal husbandry, manual grooming, and physical habitat cleaning protect animal caretakers from technology displacement.
+- **Adzuna AU (animal attendant)** — https://www.adzuna.com.au/jobs?q=animal+attendant&location=Australia
+  > 50 live vacancies for animal attendant in Australia.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Nonfarm Animal Caretakers] Professional Practice Framework and Digital Competency Guidelines for Nonfarm Animal Caretakers — https://www.psc.gov.au/standards/39-2021 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Nonfarm Animal Caretakers enforce non-delegable ethical accountability and human verificati..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Nonfarm Animal Caretakers — https://www.jobsandskills.gov.au/research/39-2021 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Nonfarm Animal Caretakers heightens the demand for adaptive problem solving, interdisciplinary stake..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (11 claims)
-- LinkedIn (unofficial scrape): 11 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (69 claims)
-- last30days declared sample: 69 items across github=0, grounding=0, hackernews=24, reddit=2, x=41, youtube=0.
-- Representative practitioner quotes:
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] What breaks in production AI workflows?...
-  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
-  - [hackernews] How al-Qaida and IS are adopting AI...
-  - [hackernews] Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion...
+L5 practitioner-discourse corpus: last30days sweep over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: live postings — see corpus.linkedin.

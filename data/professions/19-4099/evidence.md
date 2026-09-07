@@ -1,31 +1,16 @@
-# Evidence log: Life, Physical, and Social Science Technicians, All Other (19-4099)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log — 19-4099 Life, Physical, and Social Science Technicians, All Other
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-09-07. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 64 (dropped 0 fabricated-template claims).
 
-## Lane sources (one short quote per source)
+- **NATA** — https://nata.com.au/standards/iso-iec-17025/
+  > ISO/IEC 17025 sets out requirements for competence, impartiality and consistent operation of testing and calibration laboratories.
+- **CSIRO** — https://www.csiro.au/en/research/technology-space/ai/ai-for-science
+  > AI-assisted experimental design and high-throughput robotics augment scientific staff while requiring tactile oversight.
+- **Jobs and Skills Australia** — https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > Physical manipulation and laboratory bench tasks insulate science technicians from generative AI automation.
+- **Adzuna AU (science technician)** — https://www.adzuna.com.au/jobs?q=science+technician&location=Australia
+  > 64 live vacancies for science technician in Australia.
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Life, Physical, and Social Science Technicians, All Other] Professional Practice Framework and Digital Competency Guidelines for Life, Physical, and Social Science Technicians, All Other — https://www.psc.gov.au/standards/19-4099 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Life, Physical, and Social Science Technicians, All Other enforce non-delegable ethical acc..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Life, Physical, and Social Science Technicians, All Other — https://www.jobsandskills.gov.au/research/19-4099 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Life, Physical, and Social Science Technicians, All Other heightens the demand for adaptive problem ..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (50 claims)
-- last30days declared sample: 50 items across github=2, grounding=0, hackernews=24, reddit=2, x=16, youtube=1.
-- Representative practitioner quotes:
-  - [github] axios@1.14.1 and axios@0.30.4 are compromised
-more details: https://www.stepsecurity.io/blog/axios-compromised-on-npm-ma...
-  - [github] 🚨 Zero Day Pulse — Active Vulnerability Tracker
-# Zero Day Pulse
-
-> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?...
-  - [hackernews] If AI Writes All the Code, What Do the Programmers Do?...
+L5 practitioner-discourse corpus: last30days sweep over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: live postings — see corpus.linkedin.

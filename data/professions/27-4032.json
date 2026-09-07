@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1314,26 +1314,93 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Film and video editors in Australia are represented by the Australian Screen Editors (ASE) guild, adhering to industry technical delivery standards (AS 4933) and ACMA broadcasting compliance regarding captioning and audio loudness.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Screen Editors",
+          "title": "ASE Guidelines and Post-Production Best Practice",
+          "url": "https://www.screeneditors.com.au/about/guidelines/",
+          "date": "2024-10-01",
+          "whatItMeasured": "National peak body standards for film and television editing, editorial workflows, and post-production credits"
+        }
+      ],
+      "scope": "Australian film and television post-production; professional guild standards.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (screeneditors.com.au); measures professional editing standards; in window.",
+      "id": "27-4032-empi63"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) classifies video editing under intense generative AI augmentability: automatic transcript-based cutting, AI b-roll insertion, and automated colour matching dramatically compress assembly time, elevating editors into pacing architects and emotional sculptors.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and automation risk across Australian creative and media occupations"
+        }
+      ],
+      "scope": "Post-production and video editing workforce; structural compression of rough assembly timelines.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures Australian occupational exposure; in window.",
+      "id": "27-4032-empi64"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 37 active job advertisements for video editor across Australia, demonstrating commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: video editor, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=video+editor&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 37 postings for video editor"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "27-4032-empi65"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
     "query": "video editor",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 36,
-    "returned": 36,
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 37,
+    "returned": 37,
     "topEmployers": [
-      "News Corp",
+      "Bjak",
       "Canva",
-      "Your Reformer",
+      "News Corp",
+      "PWR",
       "BrandComms.AI",
-      "Tracksuit Limited",
-      "MF Productions",
-      "Adelaide Development Corporation",
+      "Mamamia",
+      "Your Reformer",
       "NPE Operations LLC"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "editing",
+      "timeline",
+      "Premiere Pro",
+      "DaVinci Resolve",
+      "post-production"
     ]
   },
   "corpus": {
@@ -1345,7 +1412,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1374,5 +1449,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Entry-level assistant editing (syncing, logging, transcription) is almost completely automated."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

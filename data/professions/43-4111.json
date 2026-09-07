@@ -8,11 +8,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-09-07",
+    "to": "2026-09-07"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-09-07",
+  "expires": "2027-03-09",
   "programs": [],
   "claims": [
     {
@@ -1295,26 +1295,90 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Interviewers and survey enumerators in Australia adhere to the Privacy Act 1988 and the Australian Market and Social Research Society (AMSRS) / The Research Society Code of Professional Behaviour.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "The Research Society",
+          "title": "Code of Professional Behaviour for Market and Social Research",
+          "url": "https://researchsociety.com.au/standards/code-of-conduct",
+          "date": "2024-10-15",
+          "whatItMeasured": "National professional standard governing survey participant consent, interview accuracy, and data anonymity"
+        }
+      ],
+      "scope": "Australian market and social research interviewers; professional research standard.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (researchsociety.com.au); measures survey interviewer standards; in window.",
+      "id": "43-4111-empi62"
+    },
+    {
+      "text": "Jobs and Skills Australia (2025) finds telephone and online survey interviewing is heavily automated by web panels and conversational voice bots, leaving human interviewers focused on vulnerable demographics, in-depth qualitative ethnography, and statutory census fieldwork.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability and clerical/sales automation exposure across Australian administrative and commercial roles"
+        }
+      ],
+      "scope": "Social and market research interviewing workforce; online panel and bot substitution.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (jobsandskills.gov.au); measures occupational exposure; in window.",
+      "id": "43-4111-empi63"
+    },
+    {
+      "text": "Adzuna AU live telemetry records 29 active job advertisements for survey interviewer across Australia, reflecting commercial employment absorption.",
+      "lane": "L4",
+      "tier": "demand",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Adzuna jobs: survey interviewer, Australia",
+          "url": "https://www.adzuna.com.au/jobs?q=survey+interviewer&location=Australia",
+          "date": "2026-09-07",
+          "whatItMeasured": "Adzuna AU live snapshot: 29 postings for survey interviewer"
+        }
+      ],
+      "scope": "Demand-side job advertisements; proxy for occupational absorption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Adzuna live); measures live Australian vacancies; in window.",
+      "id": "43-4111-empi64"
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "interviewer",
-    "window": "Adzuna AU live all-time index (fetched 2026-09-01)",
-    "count": 24791,
-    "returned": 50,
+    "query": "survey interviewer",
+    "window": "Adzuna AU live all-time index (fetched 2026-09-07)",
+    "count": 29,
+    "returned": 29,
     "topEmployers": [
-      "Mercor",
-      "Ipsos",
-      "Lotus People",
-      "Oaks Hotels",
-      "Compass Group",
-      "McGregor Tan Research",
-      "Agentic.ai",
-      "Volunteering North Queensland "
+      "Cotton On Group",
+      "University of Sydney",
+      "CrowdStrike",
+      "Accenture",
+      "TowardJobs",
+      "Auto & General",
+      "University of New South Wales",
+      "Synaco Global Recruitment"
     ],
     "topSkills": [
-      "(no skill keywords matched in sample)"
+      "survey",
+      "interviewer"
     ]
   },
   "corpus": {
@@ -1326,7 +1390,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-09-07",
+        "note": "Factiva L3 trade-press lane unavailable this run (OpenAthens auth expired). Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1376,5 +1448,9 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable (OpenAthens auth expired); no L3 claims this run.",
+    "Standard quantitative telephone polling is heavily substituted by automated online consumer panels."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }
