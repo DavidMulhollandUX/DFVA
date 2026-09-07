@@ -1,103 +1,125 @@
 {
   "code": "usyd-advanced-computing-commerce",
   "panelCv4": {
-    "instrument": "4.2-draft",
-    "adaptiveness": 15,
-    "workplace": 6,
     "C1": {
-      "score": 3,
-      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in computer science.",
+      "score": 0,
+      "rationale": "Level 0's anchor holds: no collaborative, stakeholder or team-based work is assessed anywhere in the documented core. The six listed units carry an identical templated outcome set with no mention of teamwork, group work or coordinating work across people and tools, and every 'Assessment Tasks:' field in the extract is empty, so nothing is assessed at all. The only 'stakeholder' wording is an outcome about communicating findings to stakeholders, which is W1's construct (audience-directed communication), not C1's coordination construct, so it cannot lift this item to level 1's 'collaboration/teamwork appears in learning outcomes'.",
       "evidenceLines": [
-        "**Institution**: The University of Sydney (USYD)",
-        "**Course / Program Identifier**: advanced-computing-commerce",
-        "- **Institution**: The University of Sydney (USYD)"
+        "- Communicate evidence-based findings effectively to technical and professional stakeholders.",
+        "- Synthesise disciplinary knowledge to resolve complex real-world challenges.",
+        "Assessment Tasks:"
       ]
     },
     "C2": {
-      "score": 3,
-      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in computer science.",
+      "score": 0,
+      "rationale": "Level 0's anchor holds: no assessment in the extract requires students to appraise the quality of work — their own, peers' or a tool's. The templated outcome 'Critically evaluate foundational principles, evidence bases, and contemporary methodologies' is critical evaluation of disciplinary knowledge, not criterion-referenced appraisal of work quality, and no reflection, self-assessment, peer review or portfolio wording appears anywhere, so level 1's 'reflection or self-assessment appears in outcomes' is not met. Every 'Assessment Tasks:' field is empty, so level 2 and level 3 both fail for want of assessment evidence (R2).",
       "evidenceLines": [
-        "**Academic Year**: 2026",
-        "**Faculty**: business-school",
-        "- **Course / Program Identifier**: advanced-computing-commerce"
+        "- Critically evaluate foundational principles, evidence bases, and contemporary methodologies in data structures and algorithms.",
+        "Assessment Tasks:"
       ]
     },
     "C3": {
-      "score": 3,
-      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within computer science.",
+      "score": 1,
+      "rationale": "Level 1's anchor fits: digital content appears at the operational, tool/technique level — introduction to programming, data structures and algorithms, models of computation — with no documented treatment of AI capabilities together with limitations or ethics. Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed; the only ethics wording is the generic templated outcome 'Apply ethical frameworks and professional standards in practice', which is not AI-specific and is never assessed (every 'Assessment Tasks:' field is empty), so per R2 it cannot rise above 1. Level 0 is excluded because computing content is documented in the unit tables.",
       "evidenceLines": [
-        "Subject: INFO1110 - or INFO1910 or INFO1113 or ENGG1810 or MATH1064 or MATH1964",
-        "Subject: COMP2123 - or COMP2823",
-        "**Handbook URL**: https://www.sydney.edu.au/handbooks/business-school/coursework/advanced-computing-commerce.html"
+        "- Critically evaluate foundational principles, evidence bases, and contemporary methodologies in introduction to programming.",
+        "- Critically evaluate foundational principles, evidence bases, and contemporary methodologies in models of computation (adv).",
+        "- Apply ethical frameworks and professional standards in practice.",
+        "Assessment Tasks:"
       ]
     },
     "C4": {
-      "score": 3,
-      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in computer science.",
+      "score": 1,
+      "rationale": "Level 1's anchor fits exactly: transfer is claimed in outcomes ('Synthesise disciplinary knowledge to resolve complex real-world challenges') but no assessment of it is documented — the 'Assessment Tasks:' field is empty for all six units — so R2's uniform rule puts this at 1. Level 2 needs a core assessment applying methods to novel problems, which is unevidenced. Level 3's self-scoped route is not met: the research units in the extract are reachable only through 4000-level electives or the merit-gated Honours pathway, not documented as required progression.",
       "evidenceLines": [
-        "Critically evaluate foundational principles, evidence bases, and contemporary methodologies in introduction to programming.",
-        "Synthesise disciplinary knowledge to resolve complex real-world challenges.",
-        "- **Handbook URL**: https://www.sydney.edu.au/handbooks/business-school/coursework/advanced-computing-commerce.html"
+        "- Synthesise disciplinary knowledge to resolve complex real-world challenges.",
+        "(c) At least 24 credit points of 4000-level or higher IT electives from Table A for the Bachelor of Computing; Bachelor of Advanced Computing;",
+        "(b) Honours is awarded in the Bachelor of Advanced Computing to meritorious candidates who complete the Honours pathway comprising 24 credit points of research-related units listed in Table A.",
+        "Assessment Tasks:"
       ]
     },
     "C5": {
-      "score": 3,
-      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in computer science.",
+      "score": 1,
+      "rationale": "Research-related units exist in the documented tables (a CS research thesis and a major industrial research project) and an Honours research pathway is described, so the program is not level 0's 'secondary synthesis only'. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed: no assessment is documented for any unit, and the research units sit in the 4000-level elective pool or the Honours pathway rather than the compulsory core. Level 3's 'REQUIRED (not one route among several)' fails outright because Honours is merit-gated and optional. Scored at 1 as the highest level the documented evidence supports.",
       "evidenceLines": [
-        "Subject: COMP2922 - amended to",
-        "Subject: INFO4914 - amended to",
-        "Communicate evidence-based findings effectively to technical and professional stakeholders."
+        "- Critically evaluate foundational principles, evidence bases, and contemporary methodologies in cs research thesis c.",
+        "- Critically evaluate foundational principles, evidence bases, and contemporary methodologies in major industrial research project.",
+        "(b) Honours is awarded in the Bachelor of Advanced Computing to meritorious candidates who complete the Honours pathway comprising 24 credit points of research-related units listed in Table A.",
+        "(c) At least 24 credit points of 4000-level or higher IT electives from Table A for the Bachelor of Computing; Bachelor of Advanced Computing;",
+        "Assessment Tasks:"
       ]
     },
+    "adaptiveness": 3,
     "W1": {
-      "score": 2,
-      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in computer science.",
+      "score": 1,
+      "rationale": "Communication and professional conduct appear in the learning outcomes of every listed unit — communicating findings to technical and professional stakeholders, and applying ethical frameworks and professional standards — but the 'Assessment Tasks:' field is empty for all six units, so nothing is assessed. R2's uniform rule ('a capability that appears in learning outcomes but is never assessed scores 1, everywhere') fixes this at 1. Level 2 would need a documented core assessment in a professional genre or to an audience beyond the teaching team, judged against practice-drawn criteria; the extract documents no such task. Barrie's warning against scoring stated attributes applies directly here.",
       "evidenceLines": [
-        "Apply ethical frameworks and professional standards in practice.",
-        "- **Institution**: The University of Sydney (USYD)",
-        "- **Course / Program Identifier**: advanced-computing-commerce"
+        "- Communicate evidence-based findings effectively to technical and professional stakeholders.",
+        "- Apply ethical frameworks and professional standards in practice.",
+        "Assessment Tasks:"
       ]
     },
     "W2": {
-      "score": 3,
-      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in computer science.",
+      "score": 0,
+      "rationale": "No assessment task of any kind is documented: the 'Assessment Tasks:' heading is followed immediately by 'Workload: 150 hours' for all six units, so there is no evidence of a contextualised or scenario-framed task, let alone one reproducing a professional task end to end. The outcome phrase 'resolve complex real-world challenges' is an outcome label, and R4 forbids scoring a program up because the handbook says 'real-world' — only documented features of a task count, and none are documented. Ambiguity between level 0 and level 1 is resolved down per the scoring-direction rule.",
       "evidenceLines": [
-        "Subject: INFO4999 - amended to",
-        "Critically evaluate foundational principles, evidence bases, and contemporary methodologies in data structures and algorithms.",
-        "- **Faculty**: business-school"
+        "Assessment Tasks:",
+        "Workload: 150 hours",
+        "- Synthesise disciplinary knowledge to resolve complex real-world challenges."
       ]
     },
     "W3": {
-      "score": 1,
-      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "score": 0,
+      "rationale": "No placement, practicum, internship or community-based project appears anywhere in the documented course structure: the award requirements list core units, a major, 4000-level IT electives, Commerce core and a Commerce major, with the only external-participation mention being encouragement of international exchange, which is not work-situated learning. The single industry-adjacent item is a unit titled 'major industrial research project', which the extract places in the 4000-level elective/Honours pool with no documented workplace setting, practitioner supervision, host accountability or assessment. That leaves the evidence straddling level 0 and level 1, and the scoring-direction rule takes the lower.",
       "evidenceLines": [
-        "Commerce degree core",
-        "Commerce and Advanced Computing",
-        "Subject: COMP2123 - or COMP2823"
+        "- Critically evaluate foundational principles, evidence bases, and contemporary methodologies in major industrial research project.",
+        "(c) At least 24 credit points of 4000-level or higher IT electives from Table A for the Bachelor of Computing; Bachelor of Advanced Computing;",
+        "(1) The faculties of Engineering, Science and Commerce encourage candidates in these degrees to participate in international exchange programs subject to the terms set out in the Resolutions of the Faculty of Engineering.",
+        "Assessment Tasks:"
       ]
     },
+    "workplace": 1,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Advanced Computing and Bachelor of Commerce.",
+        "rationale": "The award requirements document a coherent specialist core with progressive technical depth: 84 credit points of compulsory computing core units, a required 48-credit-point computing major from a named specialist list (Computer Science, Software Development, Information Systems, Computational Data Science, Cybersecurity), at least 24 credit points of 4000-level or higher IT electives, plus 24 credit points of Commerce core and a Commerce major. A staged prerequisite chain is stated as a progression rule requiring all units at a given level to be passed or concurrently taken before enrolling at a higher level, which is the anchor's 'staged prerequisite chain' route to PASS.",
         "evidenceLines": [
-          "- **Institution**: The University of Sydney (USYD)",
-          "- **Faculty**: business-school"
+          "(a) 84 credit points of core units as specified in Table A for the Bachelor of Computing; Bachelor of Advanced Computing;",
+          "(b) A major (48 credit points) from Table A for the Bachelor of Computing; Bachelor of Advanced Computing and as defined in clause 7 below;",
+          "(c) At least 24 credit points of 4000-level or higher IT electives from Table A for the Bachelor of Computing; Bachelor of Advanced Computing;",
+          "(d) 24 credit points of core units of study as set out in Table A for the Bachelor of Commerce;",
+          "Except with the permission of the relevant program, major or minor coordinator, candidates must have passed, or be concurrently enrolled in, all units of study at a given level before enrolling in any units at a higher level."
         ]
       },
       "G2": {
-        "result": "PASS",
-        "rationale": "Specialist academic program structured through sequential study in computer science.",
+        "result": "FAIL",
+        "rationale": "The gate PASSes only on assessments requiring defended trade-off decisions, or simulations, capstones or live projects with real uncertainty and accountability. The extract documents no assessment at all: every unit's 'Assessment Tasks:' field is empty, and the unit entries carry only a templated four-line outcome set. With no assessment evidence in the extract, the PASS condition cannot be satisfied, so the gate is recorded FAIL; see notScoreable for the caveat that this reflects an extract with no assessment data rather than documented recall-only assessment.",
         "evidenceLines": [
-          "- **Course / Program Identifier**: advanced-computing-commerce",
-          "Subject: INFO1110 - or INFO1910 or INFO1113 or ENGG1810 or MATH1064 or MATH1964"
+          "Assessment Tasks:",
+          "Workload: 150 hours",
+          "- Critically evaluate foundational principles, evidence bases, and contemporary methodologies in introduction to programming."
         ]
       }
     },
     "ambiguities": [
-      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
-      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+      "C1 0 vs 1: the outcome 'Communicate evidence-based findings effectively to technical and professional stakeholders' mentions stakeholders, which could be read as stakeholder work in the outcomes (level 1). Resolved to 0 by the one-construct-one-home rule — audience-directed communication is W1's construct — and by the scoring-direction rule.",
+      "C3 1 vs 2: 'Apply ethical frameworks and professional standards in practice' appears in every unit's outcomes and could be read as ethics content. Resolved down to 1 because it is generic rather than AI-specific, and R2 bars an unassessed outcome from reaching level 2.",
+      "C4 1 vs 3: the Honours pathway's 24 credit points of research-related units resembles level 3's self-scoped research project. Resolved to 1 because Honours is optional and merit-gated (WAM of at least 70), so it is not documented structured progression for the cohort, and no assessment evidence exists (R2).",
+      "C5 1 vs 2: research thesis and industrial research project units are documented, which could suggest an assessed designed inquiry. Resolved down to 1 because those units sit in the 4000-level elective pool or the Honours pathway rather than the compulsory core, and no assessment task is documented for any unit.",
+      "W2 0 vs 1: 'resolve complex real-world challenges' could be read as scenario framing. Resolved to 0 under R4 (never score up on a 'real-world' label) and the scoring-direction rule, since no task features are documented.",
+      "W3 0 vs 1: the unit titled 'major industrial research project' could be read as elective work-situated learning (level 1). Resolved to 0 by the scoring-direction rule because nothing documents a workplace setting, practitioner supervision, host accountability or assessment for it."
     ],
-    "notScoreable": []
+    "notScoreable": [
+      "Assessment evidence is absent from the entire extract: all six units in the unit-of-study tables show an empty 'Assessment Tasks:' field followed by 'Workload: 150 hours'. Every level-2 and level-3 anchor across C1-C5 and W1-W3 requires assessment evidence, so no item in this record could be scored above 1, and the scores reflect documented absence of assessment data rather than positive evidence of decontextualised assessment.",
+      "The compulsory core is not enumerated: the resolutions reference '84 credit points of core units as specified in Table A' and '24 credit points of core units of study as set out in Table A for the Bachelor of Commerce', but Table A itself is not included in the extract. The six units shown (INFO1110, COMP2123, COMP2922, INFO4914, INFO4999, INFO4913) are a partial list weighted toward Honours and research units, and their learning outcomes are identical boilerplate with the unit title substituted, so they carry no unit-specific curriculum evidence.",
+      "G2 could not be positively evidenced. With no assessment tasks documented anywhere in the extract, neither the PASS condition (defended trade-off decisions, simulations, capstones or live projects with real uncertainty) nor the FAIL condition (recall or scripted responses only) is directly observable; it is recorded FAIL because the gate's PASS requires documented assessment evidence that the extract does not contain.",
+      "No Commerce-side unit or assessment evidence appears in the extract at all, despite the Commerce degree contributing 24 credit points of core units and a 48-credit-point major to the award; the Commerce professional accreditation page is listed in the site navigation but its content is not captured."
+    ],
+    "instrument": "4.2-draft",
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-09-07"
+    }
   }
 }
