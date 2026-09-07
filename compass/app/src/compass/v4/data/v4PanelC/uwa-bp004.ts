@@ -1,0 +1,134 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "C1": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: at least one core unit assesses collaborative practice. SCOM1101 Communicating Science is documented as a Level 1 core unit across 19 major sequences including BP004's Conservation Biology, Zoology, Botany, Agricultural Science, Geology and Environmental Science majors, and its assessment list carries a group project; SCIE3304 Field Techniques in Marine Science is a Level 3 core unit in the Marine Science, Marine Biology and Marine and Coastal Processes sequences and assesses a group project alongside a team-work outcome. Not level 3: nothing in the extract requires coordinating work across people AND tools or AI systems, and no assessed task documents role and tool allocation, so the level-3 conjunction fails.",
+    "evidenceLines": [
+      "Level 1 core unit in the Conservation Biology; Zoology; Botany; Agricultural Science; Geology; Environmental Science; Anatomy and Human Biology",
+      "Assessment Indicative assessments in this unit are as follows: (1) oral presentation; (2) scientific report; and (3) group project.",
+      "Level 3 core unit in the Integrated Earth and Marine Sciences; Marine Science; Marine Biology; Marine and Coastal Processes major sequences",
+      "(4) demonstrate effective team work skills; including the delegation and timely completion of tasks, effective communication, respect for diversity and safe work practices, including field trip planning and risk management.",
+      "Assessment Indicative assessments in this unit are as follows: (1) critical analysis; (2) group project; and (3) project report."
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: reflection and peer feedback appear in learning outcomes, but no core unit assesses appraisal of quality against criteria. SCOM1101's outcome names giving peer feedback and SCIE2205's outcome names reflection on skill transfer, yet neither unit's assessment list contains peer review, structured critique, a portfolio with standards or marking against exemplars — the assessed items are an oral presentation, a scientific report and a group project. Across the 312 prescribed unit pages no assessment item names peer review or peer assessment, so the level-2 requirement for criterion-referenced appraisal in core assessment is unmet, and nothing approaches documenting or justifying reliance decisions on a tool, source or collaborator.",
+    "evidenceLines": [
+      "(4) reflect on working collaboratively with others, and support peer learning by giving feedback.",
+      "Assessment Indicative assessments in this unit are as follows: (1) oral presentation; (2) scientific report; and (3) group project.",
+      "(2) identify personal skills gained through the placement experience and reflect on the transference of those skills to future workplace settings;"
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor: the digital content documented in BP004 major cores is tool operation, which this item caps at level 1 — CITS1401 Computational Thinking with Python and CITS1402 Relational Database Management Systems are core only in the computing-facing sequences, and CITS1003 supplies professional ethics for cybersecurity rather than AI. PHIL1001 Ethics for the Digital Age is a Level 1 core unit in the Data Science and Cybersecurity sequences and assesses ethics of digital technologies, but its named AI content sits in the unit description rather than in an assessed outcome, and no core unit of any of BP004's 28 degree-specific majors addresses AI capabilities together with their limitations. The evidence therefore straddles levels 1 and 2 on the level-2 conjunction; resolved down per the scoring direction rule. CITS3011 Intelligent Agents is core only in the Artificial Intelligence and Automation and Robotics Engineering sequences, neither of which is a BP004 degree-specific major.",
+    "evidenceLines": [
+      "Level 1 core unit in the Data Science; International Cybersecurity; Computing and Data Science; Artificial Intelligence; Cybersecurity; Quantum Computing major sequences",
+      "(9) apply the ethical theories studied to the problems arising out of the development of digital technologies; and (10) apply ethical theories to, and reason effectively about, new ethical questions.",
+      "Assessment Indicative assessments in this unit are as follows: (1) Written assessment; (2) online quizzes; and (3) exam.",
+      "(3) define the legal and ethical responsibilities of a cybersecurity professional.",
+      "Level 3 core unit in the Artificial Intelligence; Automation and Robotics Engineering major sequences"
+    ]
+  },
+  "C4": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: at least one core assessment requires application to an unfamiliar, externally supplied problem. SCIE3314 Crops and Cropping Systems is a Level 3 core unit in the Agricultural Science, Agricultural Science and Technology and Agricultural Technology sequences and assesses a Farm Interview and Agronomic Package report against an outcome requiring construction of a management package for a particular WA grain crop; CITS3001 Advanced Algorithms is a Level 3 core unit in the Computer Science sequence with an outcome of creating algorithms for novel problems, assessed through labs and project. Not level 3: no self-scoped capstone or research project is required of BP004 students, and no assessment documented in the extract requires students to identify their own knowledge gaps together with a plan to close them.",
+    "evidenceLines": [
+      "Level 3 core unit in the Agricultural Science; Agricultural Science and Technology; Agricultural Technology; Agribusiness and Agricultural Science major sequences",
+      "(6) synthesise agronomic, environmental, financial, and crop protection knowledge to construct a professional agronomic management package for a major WA grain crop, including a gross margin analysis and a quantitative nitrogen management strategy.",
+      "Assessment Indicative assessments in this unit are as follows: (1) agronomy report - Farm Interview and Agronomic Package report; (2) glasshouse trial - Cereal Derby; and (3) computer practicals and online learning.",
+      "(1) create computer algorithms for novel problems;",
+      "Assessment Indicative assessments in this unit are as follows: (1) mid-semester test; (2) labs and project; and (3) final examination."
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: students design and conduct an inquiry with methodology selection and data collection, assessed. ENVT2220 The Climate System is a Level 2 core unit in the Environmental Science, Geographical Sciences and Marine and Coastal Processes sequences and assesses a research report structured as a scientific paper on real climate data; SCIE3304 pairs a sampling-design outcome with an assessed project report off a five-day residential field trip; EART3343 Structural Geology and Tectonics, a Level 3 core unit in the Geology sequence, assesses a research project. Not level 3: no substantial primary-evidence project is REQUIRED of BP004 students — the course rules require only a major plus level spread, with no thesis or capstone — and no viva, defence or staged supervised review of methodology appears anywhere in the extract.",
+    "evidenceLines": [
+      "Level 2 core unit in the Environmental Science; Geographical Sciences; Environmental Science and Management; Marine and Coastal Processes; Environmental Science and Ecology; Geographical and Spatial Science major sequences",
+      "(2) a research report based on interpreting land surface data from a key Australian ecosystem. To be written as scientific paper including abstract, introduction, methods, results, discussion and conclusion using real life climate data (2500 words)",
+      "(2) demonstrate an understanding of sampling design and statistical analysis;",
+      "Level 3 core unit in the Geology; Integrated Earth and Marine Sciences; Geochemistry major sequences",
+      "Assessment Indicative assessments in this unit are as follows: (1) progressive assessment during semester; (2) field trip practical exercises and a report; and (3) research project."
+    ]
+  },
+  "adaptiveness": 8,
+  "W1": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: at least one core assessment requires a recognised professional genre addressed beyond the teaching team. ENVT2236 Soil Science is a Level 2 core unit in the Agricultural Science, Environmental Science and Environmental Science and Management sequences and its assessment list carries a letter to client, matched to an outcome about professional scientific communication; SCOM1101 adds an assessed oral presentation in a Level 1 core unit. This rules out level 1, whose anchor requires that no professional genre and no audience beyond the teaching team appear. Not level 3: professional communication is not documented as assessed repeatedly and progressively across the program, no core assessment is delivered to or judged by a real external audience or practitioner, and no assessed criteria of professional conduct or accountability are stated. Per R4, no score is taken from the words professional or real-world themselves — only from the named genre.",
+    "evidenceLines": [
+      "Level 2 core unit in the Agricultural Science; Environmental Science; Agricultural Science and Technology; Environmental Science and Management; Molecular Life Sciences; Environmental Science and Ecology major sequences",
+      "Assessment Indicative assessments in this unit are as follows: (1) scientific report; (2) tests; and (3) letter to client.",
+      "(5) apply professional skills in scientific communication in the context of soils and soil environments.",
+      "(1) prepare and deliver an oral presentation on a specific scientific topic, communicating technical ideas succinctly and effectively."
+    ]
+  },
+  "W2": {
+    "score": 2,
+    "rationale": "Level 2 anchor met: at least one core assessment reproduces a professional task end to end. SCIE3314's agronomy report is built from a farm interview and produces an agronomic management package with a gross margin analysis and a nitrogen strategy — the artefact a practising agronomist would produce; ENVT2236's letter to client is the second instance. Not level 3: such tasks are not the program's assessment spine — across the 312 prescribed unit pages the dominant assessed forms are final examinations, quizzes and laboratory reports, and no earlier scaffolding sequence or per-stage instance is documented. Scored on the documented features of the task, not on any authenticity label (R4).",
+    "evidenceLines": [
+      "Assessment Indicative assessments in this unit are as follows: (1) agronomy report - Farm Interview and Agronomic Package report; (2) glasshouse trial - Cereal Derby; and (3) computer practicals and online learning.",
+      "(6) synthesise agronomic, environmental, financial, and crop protection knowledge to construct a professional agronomic management package for a major WA grain crop, including a gross margin analysis and a quantitative nitrogen management strategy.",
+      "Assessment Indicative assessments in this unit are as follows: (1) scientific report; (2) tests; and (3) letter to client.",
+      "Assessment Indicative assessments in this unit are as follows: (1) laboratory reports and worksheets; (2) quizzes; and (3) a final examination."
+    ]
+  },
+  "W3": {
+    "score": 2,
+    "rationale": "Level 2 anchor met on the placement route: SCIE2205 Science Work Placement is documented as a Level 2 core unit in the Agricultural Technology and Agribusiness sequences (both BP004 degree-specific majors), places students in a business setting outside the University for 100 hours, carries an outcome of planning and reporting on a supervised project conducted during the placement, and is assessed on the placement, a written assessment and presentation seminars. It is short and stands alone, which is exactly the level-2 qualifier. Not level 3: no sequence of placements is required, the unit is a Level 2 elective for the other 26 majors, entry depends on a competitive application to the WIL Placement Program, and no accountability to the host is documented as assessed. The other work-situated units are weaker still — CITS3009 is a Level 3 option and WILG2201/WILG3001 are restricted by prerequisite to Commerce, Business and Economics enrolments.",
+    "evidenceLines": [
+      "Level 2 core unit in the Agricultural Science and Technology; Agricultural Technology; Agribusiness and Agricultural Science; Agribusiness major sequences",
+      "Students undertake a work placement, usually in a business setting outside the University sector, of 100 hours.",
+      "(3) plan, participate and report on a supervised project (or series of projects) conducted during the placement;",
+      "Assessment Indicative assessments in this unit are as follows: (1) work placement in industry; (2) written assessment; and (3) presentation seminars.",
+      "Successful completion of 48 credit points in your chosen degree and a successful application into the WIL Placement Program"
+    ]
+  },
+  "workplace": 6,
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "PASS on the staged prerequisite chain and the specialist-core route. The course rules make a degree-specific major compulsory, the handbook labels core units per major sequence, the level rule forces progression into Level 2 and Level 3 study, and unit pages document explicit prerequisite chains (CITS3001 requires CITS2200; SCIE3304 requires 72 points plus SCIE2204). Content is therefore not generic or interchangeable, despite the comprehensive framing of the degree; the specialist depth is delivered inside the chosen major rather than by a program-wide core.",
+      "evidenceLines": [
+        "a degree-specific major chosen from the list below:",
+        "at least 72 credit points (normally 12 units) of Level 2 or Level 3 units, including at least 18 credit points (normally 3 units) of Level 3 units; and",
+        "Prerequisites Successful completion of CITS2200 Data Structures and Algorithms",
+        "Prerequisites Successful completion of 72 points and one Unit(s) SCIE2204 Marine Systems or ENSC3012 Data Collection and Analysis or equivalent"
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "PASS: core assessment requires defended trade-off decisions under real uncertainty. SCIE3314's outcomes require formulating integrated management strategies that trade off resistance mechanisms, economic thresholds and environmental conditions, and critically evaluating simulation-model outputs to inform agronomic decisions, assessed through the agronomy report; CITS3200 Professional Computing, a Level 3 core unit in the Computer Science and Data Science sequences, assesses a project against outcomes of justifying professional responsibility and assessing social impacts; SCIE3304 assesses a field project whose team-work outcome includes field trip planning and risk management. This is more than recall or scripted response.",
+      "evidenceLines": [
+        "(4) assess the biological and economic impact of weeds, fungal diseases, insect pests, and soil-borne pathogens on grain production in WA, and formulate integrated management strategies that account for resistance mechanisms, economic thresholds, and environmental conditions.",
+        "(5) demonstrate competence in using a process-based crop simulation model to predict crop growth, water use, and nitrogen response under varying management and climate scenarios, and critically evaluate model outputs to inform agronomic decision-making.",
+        "(4) justify the professional responsibility to produce reliable software; (5) assess the social impacts of computing projects; and (6) perform effectively as part of a multidisciplinary and multicultural team.",
+        "Assessment Indicative assessments in this unit are as follows: (1) project and (2) professional development portfolio."
+      ]
+    }
+  },
+  "ambiguities": [
+    "Definition of 'core'. BP004 is a comprehensive degree: the rules require 'a degree-specific major chosen from the list below' of 28 majors, and the course page lists 'The following 312 units of study are prescribed for this academic program' as a union across all of them. No unit is compulsory for every BP004 student, so the program has no program-wide core. Per R1 (score what the handbook documents) I read 'core' as the handbook's own label — a unit designated 'Level n core unit in the <X> major sequence' where X is one of BP004's 28 degree-specific majors — and applied that reading uniformly to C1, C3, C4, C5, W1, W2 and W3. Under the stricter reading that only a unit taken by every student counts as core, C1, C4, C5, W1, W2 and W3 would each fall to 1.",
+    "C3 straddled levels 1 and 2 and was resolved down. PHIL1001 supplies assessed ethics of digital technologies in the Data Science and Cybersecurity cores, but the AI-capabilities half of the level-2 conjunction is not documented in any BP004 major core; the computing content that is core (CITS1401 Python, CITS1402 databases) is tool operation, which the item caps at level 1.",
+    "C1 and C2 both have a claim on SCOM1101's outcome '(4) reflect on working collaboratively with others, and support peer learning by giving feedback.' Per one construct, one home, the assessed group project scores in C1 (coordination) and the peer-feedback clause is treated in C2 (appraisal of quality) — where it stays at level 1 because it is an outcome, not an assessed criterion-referenced task (R2).",
+    "C4 and W2 both have a claim on SCIE3314's Farm Interview and Agronomic Package report. It scores in C4 as application to an externally supplied case and in W2 as the fidelity of the artefact; the two items name different features of the same task, and neither score depends on the other.",
+    "W3 straddled levels 1 and 2 on whether SCIE2205 is core. It is labelled a Level 2 core unit in four major sequences, two of which (Agricultural Technology, Agribusiness) are BP004 degree-specific majors, and a Level 2 elective otherwise; entry also requires a competitive application to the WIL Placement Program. Resolved to 2 on the handbook's own core label, consistent with the reading applied to the other items; under the stricter program-wide reading it is 1."
+  ],
+  "notScoreable": [
+    "Per-unit assessment weightings, hurdle percentages and marking criteria. Every unit page in the extract carries an empty 'Assessment Tasks:' field, and the assessment text embedded in the Overview lists only 'Indicative assessments' by name — so no item could be scored on the criteria used to judge a task (relevant to the level-2 clauses of W1 and W2, and to C2 level 2 throughout).",
+    "Which units each of the 28 majors actually compels. Only the union list of 312 prescribed units and the per-unit core/option/elective labels were captured; no major structure page is in the extract, so the recurrence tests in C1 level 3, W1 level 3 and W2 level 3 could not be evaluated against an actual required sequence for any single pathway."
+  ],
+  "instrument": "4.2-draft",
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-07"
+  }
+};
+
+export default record;

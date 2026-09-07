@@ -1,0 +1,133 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "C1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: collaboration appears in a program-level outcome but no core unit assesses it. Course intended learning outcome 3 names collaborative professional practice, yet the course page states no unit is compulsory anywhere in the degree, so the level-2 anchor ('At least one core unit assesses collaborative practice') cannot be satisfied: every unit that assesses group work in this extract sits in the optional Professional Futures menu or the free electives. Nothing in the extract assesses coordination of work across people AND tools or AI systems, so level 3 is not in reach either.",
+    "evidenceLines": [
+      "engage in scholarship or professional practice collaboratively and respectfully;",
+      "You will not be required to do any single specific unit across these domains.",
+      "Instead, you can build your own suite of experiences and attributes to create a graduate profile that is unique to you:",
+      "You must complete 24 credit points from the units in the following Professional Futures domains."
+    ]
+  },
+  "C2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: reflection and appraisal appear in unit learning outcomes and in optional units' assessment, but no core unit assesses appraisal against criteria. The level-0 anchor is falsified because assessment requiring appraisal of others' work does appear in the extract (a peer-assessment task in ATS2199), and the level-2 anchor requires that appraisal to sit in core assessment, which this course does not have. No task in the extract asks students to document or justify reliance decisions about a tool, source or collaborator, so level 3 is absent.",
+    "evidenceLines": [
+      "critically reflect on the relationship between writer and reader in effective communication.",
+      "- Peer assessment: 10% (Hurdle: None)",
+      "You will not be required to do any single specific unit across these domains."
+    ]
+  },
+  "C3": {
+    "score": 1,
+    "rationale": "Level 1 anchor read literally: AI and digital content appear only as electives. ATS2292 The ethics of artificial intelligence and ATS1119 Communicating in the digital era both sit in the optional Professional Futures menu, and none of the six course intended learning outcomes names digital tools, data or AI. The level-2 anchor requires core units addressing AI capabilities and limits, and the level-3 anchor requires core assessment of AI critique or governance; with no compulsory unit in the degree neither is reachable. Note that ATS2292's own outcome would meet the substance of level 3 were the unit required.",
+    "evidenceLines": [
+      "ATS2292 The ethics of artificial intelligence",
+      "Demonstrate understanding of major ethical concepts linked to various uses of artificial intelligence, such as accountability, transparency, and 'algorithmic injustice'",
+      "communicate an argument through the use of critical, evaluative and analytical skills;",
+      "You will not be required to do any single specific unit across these domains."
+    ]
+  },
+  "C4": {
+    "score": 1,
+    "rationale": "Level 1 anchor: transfer and independent learning are claimed in the course intended learning outcomes but are not assessed anywhere the program requires. The level-0 anchor's 'fixed content sequence' is plainly false for a degree built on choice, and the level-2 anchor needs a core assessment on novel problems, which does not exist. Outcome 5 names an independent research project, which reads toward level 3, but R2 bars scoring a level 3 from an outcome statement and no required unit carries such a project; the only depth requirement documented is a credit-point rule about unit levels, not an assessed progression toward self-directed work.",
+    "evidenceLines": [
+      "design, conduct, and communicate an independent research project;",
+      "critically analyse and apply the content, methods of investigation and theoretical frameworks that constitute the knowledge base of at least one area of study;",
+      "You must complete one Arts listed major including:",
+      "a minimum of 18 credit points at level 3."
+    ]
+  },
+  "C5": {
+    "score": 1,
+    "rationale": "Level 1 anchor: methods units and literature-review style assessment are present in the extract, in ATS3222 Developing research literacy and ATS3248 Field methods in anthropology and international development. The level-2 anchor requires that students design and conduct an assessed inquiry with methodology selection and data collection; those units do exactly that, but they are two options among roughly eighty in an elective menu, so the anchor's claim about the program is not met. The level-3 anchor states the substantial primary-evidence project must be REQUIRED and not one route among several, which rules it out explicitly.",
+    "evidenceLines": [
+      "ATS3222 Developing research literacy",
+      "- Research proposal: 40% (Hurdle: None)",
+      "- Literature review: 20% (Hurdle: None)",
+      "You must complete 24 credit points from the units in the following Professional Futures domains."
+    ]
+  },
+  "adaptiveness": 5,
+  "W1": {
+    "score": 1,
+    "rationale": "Level 1 anchor: communication for varied formats and audiences appears in the course intended learning outcomes, and presentation tasks are common across the units listed, but the level-2 anchor requires at least one CORE assessment in a recognised professional genre or before an audience beyond the teaching team. Professional-genre tasks do appear in the extract, including a pitch judged by an expert panel in ATS3173, but that unit is one option in the Innovation Capability menu, so it cannot carry the program to level 2. Barrie's warning applies directly here: the stated outcome is not the score.",
+    "evidenceLines": [
+      "develop and communicate creative and innovative solutions in at least one area of study in a range of formats, and for various audiences;",
+      "You will pitch your final project concept to an expert panel.",
+      "You will not be required to do any single specific unit across these domains."
+    ]
+  },
+  "W2": {
+    "score": 1,
+    "rationale": "Level 1 anchor: contextualised and scenario-framed tasks appear across the listed units as case studies, while the artefacts assessed and the criteria applied stay academic, being essays, analytical exercises and quizzes. Level 2 requires at least one core assessment reproducing a professional task end to end; tasks of that shape exist in the extract, notably the stakeholder-brief project in ATS3173, but they are elective, so the program's assessment does not document them. Following R4, the word 'authentic' in that unit's own description carries no weight; only the documented features of the task were considered, and they are not required of the cohort.",
+    "evidenceLines": [
+      "- Case study: 50% (Hurdle: None)",
+      "- Analytical Exercise: 25% (Hurdle: None)",
+      "You will work in interdisciplinary project-based teams to gain practical experience in developing solutions to an authentic stakeholder brief.",
+      "These units will expose you to several arts disciplines contributing breadth to your knowledge of the arts, humanities and social sciences."
+    ]
+  },
+  "W3": {
+    "score": 1,
+    "rationale": "Level 1 anchor, matched almost word for word: work-situated learning exists only as an elective or optional internship. The extract carries a full set of placement units, including Arts internship, Arts international internship, Journalism professional placement, Victorian parliamentary internship, Professional practice and Volunteering in practice, each with a host organisation and a field supervisor, but all sit in the optional Professional Experience domain and the course page states no unit in those domains is required. Level 2 needs the placement in a CORE unit. The in-practice route added in v4.2 does not apply: nothing documents this undergraduate cohort as already practising in a profession.",
+    "evidenceLines": [
+      "ATS3129 Arts internship (12 points)",
+      "You will be placed as an intern with a host partner organisation.",
+      "You will undertake a professional placement with a host partner organisation.",
+      "- Volunteer hours log: N/A% (Hurdle: Competency)",
+      "You will not be required to do any single specific unit across these domains."
+    ]
+  },
+  "workplace": 3,
+  "gates": {
+    "G1": {
+      "result": "FAIL",
+      "rationale": "The PASS condition names three forms of evidence: an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain. The extract documents none of the three. No single unit is compulsory anywhere in the 144 points; the degree is framed around maximum flexibility and choice; half of the 96 arts-listed points are Part B, which the handbook itself describes as breadth across several disciplines plus a free choice from the Professional Futures menu. Part A does require 48 points in one named Arts major with a level-based depth floor, which points toward PASS, but no major's unit list, prerequisite chain or assessment appears in the capture, so progressive technical or methodological depth cannot be evidenced. Per R1 the gate is scored on what the handbook documents here, and the accredited sequence that does appear (APAC-accredited Psychology) is one optional major among twenty-eight.",
+      "evidenceLines": [
+        "The Monash Bachelor of Arts is designed to give you maximum flexibility and choice.",
+        "The course is structured in three parts: Part A. Major studies, Part B. Specified studies and Part C. Free elective studies.",
+        "These units will expose you to several arts disciplines contributing breadth to your knowledge of the arts, humanities and social sciences.",
+        "You will not be required to do any single specific unit across these domains.",
+        "These units will provide you with a focused program of study that will develop your practical and theoretical skills and knowledge in one Faculty of Arts listed major area of study."
+      ]
+    },
+    "G2": {
+      "result": "FAIL",
+      "rationale": "The PASS condition requires assessments that demand defended trade-off decisions, or simulations, capstones or live projects with real uncertainty and accountability. Live projects of exactly that kind appear in the extract, in the Monash Innovation Guarantee and in the Workplace innovation project, but every one of them is an option in an elective menu, so no student is required to meet such an assessment and the program documents none. The course intended learning outcome naming an independent research project is an outcome statement, which R2 excludes from carrying a gate or a level 3. The gate is recorded FAIL because the PASS condition is not evidenced, not because the assessment on offer is limited to recall; the extract's essays and research tasks are plainly more than scripted response, which is why this call is listed under ambiguities.",
+      "evidenceLines": [
+        "You will work on a purpose-driven solution to a real-world challenge facing a commercial or social enterprise, a government or UN agency, or a start-up.",
+        "You will pitch your final project concept to an expert panel.",
+        "You will not be required to do any single specific unit across these domains.",
+        "design, conduct, and communicate an independent research project;",
+        "- Quizzes: 15% (Hurdle: None)"
+      ]
+    }
+  },
+  "ambiguities": [
+    "Whole-panel ambiguity between levels 1 and 2 on C1, C2, C3, C5, W1, W2 and W3. Each item's level-2 anchor requires assessment in a CORE unit, and units in the extract would satisfy several of those anchors if they were required: ATS3173 for C1, W1 and W2, ATS2292 for C3, ATS3222 and ATS3248 for C5, ATS3129 and ATS3919 for W3. The course page states no unit in the Professional Futures domains is required and no compulsory unit appears anywhere in the 144 points, so each was resolved DOWN to level 1 under the never-resolve-upward rule.",
+    "C2 straddled levels 0 and 1. Level 0 asserts no assessment requires appraisal of the quality of work, which is falsified by the peer-assessment task in ATS2199, so level 1 was taken; this is the one place the ambiguity resolved upward from 0, on the ground that the level-0 declarative is false rather than on an inference.",
+    "C4 straddled levels 1 and 3. Course intended learning outcome 5 names designing and conducting an independent research project, which is the substance of the level-3 anchor, but R2 forbids a level 3 from an outcome statement and no required unit carries such a project, so level 1 was taken.",
+    "G1 straddled PASS and FAIL. Part A requires 48 points in one named Arts major with a maximum of 12 points at level 1 and a minimum of 18 at level 3, a documented depth requirement with disciplinary identity, and the FAIL wording 'generic or interchangeable content without disciplinary identity' does not describe a History or Philosophy major. FAIL was recorded because none of the three PASS exemplars is documented in the extract and no major's unit sequence was captured.",
+    "G2 straddled PASS and FAIL. Neither condition fits cleanly: the PASS condition is unevidenced because every live-project unit is optional, while the FAIL condition ('recall or scripted responses only') is false of a degree assessed largely by research essays. FAIL was recorded on the absence of evidence for PASS, per the never-resolve-upward rule.",
+    "W3 in-practice route considered and rejected. The v4.2 alternative at levels 2 and 3 needs a cohort documented as already practising in the profession; nothing in the extract documents that for this undergraduate cohort, so only the placement route was applied.",
+    "C1 versus W1 boundary. The collaborative and team evidence in ATS2170, ATS2910 and ATS3173 was read as coordination and scored under C1; the pitch-to-panel and professional-genre evidence in the same units was read as audience and scored under W1. Placement evidence was scored only in W3, never in C1 or C4."
+  ],
+  "notScoreable": [
+    "Part A major content is absent from the extract. The capture holds the course page plus the Professional Futures and quantitative-prerequisite unit pages; it contains no unit page, unit list, prerequisite chain or assessment table for any of the twenty-eight Arts majors, which are 48 of the 144 points. No item could therefore be scored on assessment evidence from inside a student's chosen major, and G1's 'progressive technical or methodological depth' could not be verified. All eight scores and both gates rest on the course-level structure and on the optional Professional Futures menu.",
+    "No item reached level 2 or above on the ordinary route, because the anchors at those levels require a CORE unit and this course documents no compulsory unit at all. This is a documented property of A2000, not a gap in the capture, but it means the instrument is discriminating here on programme architecture rather than on the content of what students are assessed on."
+  ],
+  "instrument": "4.2-draft",
+  "verified": {
+    "adversarial": true,
+    "mechanical": true,
+    "date": "2026-09-07"
+  }
+};
+
+export default record;

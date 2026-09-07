@@ -741,6 +741,48 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       ]
     }
   },
+  "adelaide-bcom_bcombcomacctbcomacctosbcomcorfin": {
+    "code": "adelaide-bcom_bcombcomacctbcomacctosbcomcorfin",
+    "name": "Bachelor of Commerce",
+    "hasMarketReport": false,
+    "exposure": 97.01,
+    "entryExposure": 96.82,
+    "jirN": 8738,
+    "nTitles": 71,
+    "nMedium": 23,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Commerce (Accounting)",
+          "n": 1693
+        },
+        {
+          "name": "Bachelor of Commerce (Actuarial Studies)",
+          "n": 101
+        },
+        {
+          "name": "Bachelor of Commerce (Economics)",
+          "n": 1549
+        },
+        {
+          "name": "Bachelor of Commerce (Finance)",
+          "n": 3546
+        },
+        {
+          "name": "Bachelor of Commerce (Management)",
+          "n": 928
+        },
+        {
+          "name": "Bachelor of Commerce (Marketing)",
+          "n": 921
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+    }
+  },
   "adelaide-bsc_bsci": {
     "code": "adelaide-bsc_bsci",
     "name": "Bachelor of Science",
@@ -962,6 +1004,48 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
           ]
         }
       ]
+    }
+  },
+  "anu-bcomm": {
+    "code": "anu-bcomm",
+    "name": "Bachelor of Commerce",
+    "hasMarketReport": false,
+    "exposure": 97.01,
+    "entryExposure": 96.82,
+    "jirN": 8738,
+    "nTitles": 71,
+    "nMedium": 23,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Commerce (Accounting)",
+          "n": 1693
+        },
+        {
+          "name": "Bachelor of Commerce (Actuarial Studies)",
+          "n": 101
+        },
+        {
+          "name": "Bachelor of Commerce (Economics)",
+          "n": 1549
+        },
+        {
+          "name": "Bachelor of Commerce (Finance)",
+          "n": 3546
+        },
+        {
+          "name": "Bachelor of Commerce (Management)",
+          "n": 928
+        },
+        {
+          "name": "Bachelor of Commerce (Marketing)",
+          "n": 921
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 6 \"Bachelor of Commerce (…)\" records"
     }
   },
   "anu-bsc": {
@@ -5081,6 +5165,161 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "indexVariant": "AIOE-2021"
     }
   },
+  "monash-a2000": {
+    "code": "monash-a2000",
+    "name": "Bachelor of Arts",
+    "hasMarketReport": false,
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "jirN": 2381,
+    "nTitles": 97,
+    "nMedium": 48,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Arts (Anthropology)",
+          "n": 153
+        },
+        {
+          "name": "Bachelor of Arts (Asian Studies)",
+          "n": 43
+        },
+        {
+          "name": "Bachelor of Arts (Economics)",
+          "n": 196
+        },
+        {
+          "name": "Bachelor of Arts (Gender Studies)",
+          "n": 100
+        },
+        {
+          "name": "Bachelor of Arts (Geography)",
+          "n": 108
+        },
+        {
+          "name": "Bachelor of Arts (History)",
+          "n": 524
+        },
+        {
+          "name": "Bachelor of Arts (Politics and International",
+          "n": 339
+        },
+        {
+          "name": "Bachelor of Arts (Psychology)",
+          "n": 859
+        },
+        {
+          "name": "Bachelor of Arts (Screen And Cultural Studies)",
+          "n": 59
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 18 \"Bachelor of Arts (…)\" records",
+      "excludedSources": [
+        {
+          "name": "Bachelor of Arts (Ancient World Studies)",
+          "refusedTitles": [
+            "Collections Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Art History)",
+          "refusedTitles": [
+            "Gallery Attendant",
+            "Researcher",
+            "Art Consultant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Creative Writing)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Criminology)",
+          "refusedTitles": [
+            "Justice Officer",
+            "Senior Intelligence Analyst Team Leader"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (English and Theatre Studies)",
+          "refusedTitles": [
+            "Publishing Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Indigenous Studies)",
+          "refusedTitles": [
+            "Indigenous Education Officer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Media and Communications)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Philosophy)",
+          "refusedTitles": [
+            "University Lecturer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Sociology)",
+          "refusedTitles": [
+            "Youth Advisor"
+          ]
+        }
+      ]
+    }
+  },
+  "monash-b2001": {
+    "code": "monash-b2001",
+    "name": "Bachelor of Commerce",
+    "hasMarketReport": false,
+    "exposure": 97.01,
+    "entryExposure": 96.82,
+    "jirN": 8738,
+    "nTitles": 71,
+    "nMedium": 23,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Commerce (Accounting)",
+          "n": 1693
+        },
+        {
+          "name": "Bachelor of Commerce (Actuarial Studies)",
+          "n": 101
+        },
+        {
+          "name": "Bachelor of Commerce (Economics)",
+          "n": 1549
+        },
+        {
+          "name": "Bachelor of Commerce (Finance)",
+          "n": 3546
+        },
+        {
+          "name": "Bachelor of Commerce (Management)",
+          "n": 928
+        },
+        {
+          "name": "Bachelor of Commerce (Marketing)",
+          "n": 921
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+    }
+  },
   "monash-s2000": {
     "code": "monash-s2000",
     "name": "Bachelor of Science",
@@ -5214,6 +5453,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 38,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 71.99
+    }
+  },
+  "unsw-3502": {
+    "code": "unsw-3502",
+    "name": "Commerce",
+    "hasMarketReport": false,
+    "exposure": 88.71,
+    "entryExposure": 88.85,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0803 Business and Management",
+          "n": null
+        }
+      ],
+      "field": "0803",
+      "indexVariant": "AIOE-2021",
+      "coverage": 34.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 89.99
     }
   },
   "unsw-3970": {
@@ -5377,6 +5641,158 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
           ]
         }
       ]
+    }
+  },
+  "uq-2336": {
+    "code": "uq-2336",
+    "name": "Bachelor of Commerce",
+    "hasMarketReport": false,
+    "exposure": 97.01,
+    "entryExposure": 96.82,
+    "jirN": 8738,
+    "nTitles": 71,
+    "nMedium": 23,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Commerce (Accounting)",
+          "n": 1693
+        },
+        {
+          "name": "Bachelor of Commerce (Actuarial Studies)",
+          "n": 101
+        },
+        {
+          "name": "Bachelor of Commerce (Economics)",
+          "n": 1549
+        },
+        {
+          "name": "Bachelor of Commerce (Finance)",
+          "n": 3546
+        },
+        {
+          "name": "Bachelor of Commerce (Management)",
+          "n": 928
+        },
+        {
+          "name": "Bachelor of Commerce (Marketing)",
+          "n": 921
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+    }
+  },
+  "uq-2461": {
+    "code": "uq-2461",
+    "name": "Bachelor of Science",
+    "hasMarketReport": false,
+    "exposure": 82.72,
+    "entryExposure": 78.11,
+    "jirN": 3650,
+    "nTitles": 215,
+    "nMedium": 112,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Science (Animal Health And Disease)",
+          "n": 68
+        },
+        {
+          "name": "Bachelor of Science (Biochemistry and Molecular",
+          "n": 141
+        },
+        {
+          "name": "Bachelor of Science (Biotechnology)",
+          "n": 113
+        },
+        {
+          "name": "Bachelor of Science (Chemistry)",
+          "n": 318
+        },
+        {
+          "name": "Bachelor of Science (Computing And Software",
+          "n": 328
+        },
+        {
+          "name": "Bachelor of Science (Data Science)",
+          "n": 212
+        },
+        {
+          "name": "Bachelor of Science (Ecology And Evolutionary",
+          "n": 48
+        },
+        {
+          "name": "Bachelor of Science (Environmental Science)",
+          "n": 90
+        },
+        {
+          "name": "Bachelor of Science (Food Science)",
+          "n": 99
+        },
+        {
+          "name": "Bachelor of Science (Genetics)",
+          "n": 112
+        },
+        {
+          "name": "Bachelor of Science (Geology)",
+          "n": 46
+        },
+        {
+          "name": "Bachelor of Science (Human Structure and",
+          "n": 154
+        },
+        {
+          "name": "Bachelor of Science (Mathematical Physics)",
+          "n": 56
+        },
+        {
+          "name": "Bachelor of Science (Mathematics and Statistics)",
+          "n": 122
+        },
+        {
+          "name": "Bachelor of Science (Microbiology)",
+          "n": 54
+        },
+        {
+          "name": "Bachelor of Science (Neuroscience)",
+          "n": 373
+        },
+        {
+          "name": "Bachelor of Science (Pathology)",
+          "n": 57
+        },
+        {
+          "name": "Bachelor of Science (Pharmacology)",
+          "n": 154
+        },
+        {
+          "name": "Bachelor of Science (Physics)",
+          "n": 189
+        },
+        {
+          "name": "Bachelor of Science (Physiology)",
+          "n": 439
+        },
+        {
+          "name": "Bachelor of Science (Psychology)",
+          "n": 351
+        },
+        {
+          "name": "Bachelor of Science (Veterinary Bioscience)",
+          "n": 34
+        },
+        {
+          "name": "Bachelor of Science (Zoology)",
+          "n": 92
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 23 \"Bachelor of Science (…)\" records"
     }
   },
   "usyd-advanced-computing-commerce": {
@@ -5819,6 +6235,158 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
           ]
         }
       ]
+    }
+  },
+  "uwa-bp002": {
+    "code": "uwa-bp002",
+    "name": "Bachelor of Commerce",
+    "hasMarketReport": false,
+    "exposure": 97.01,
+    "entryExposure": 96.82,
+    "jirN": 8738,
+    "nTitles": 71,
+    "nMedium": 23,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Commerce (Accounting)",
+          "n": 1693
+        },
+        {
+          "name": "Bachelor of Commerce (Actuarial Studies)",
+          "n": 101
+        },
+        {
+          "name": "Bachelor of Commerce (Economics)",
+          "n": 1549
+        },
+        {
+          "name": "Bachelor of Commerce (Finance)",
+          "n": 3546
+        },
+        {
+          "name": "Bachelor of Commerce (Management)",
+          "n": 928
+        },
+        {
+          "name": "Bachelor of Commerce (Marketing)",
+          "n": 921
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+    }
+  },
+  "uwa-bp004": {
+    "code": "uwa-bp004",
+    "name": "Bachelor of Science",
+    "hasMarketReport": false,
+    "exposure": 82.72,
+    "entryExposure": 78.11,
+    "jirN": 3650,
+    "nTitles": 215,
+    "nMedium": 112,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Science (Animal Health And Disease)",
+          "n": 68
+        },
+        {
+          "name": "Bachelor of Science (Biochemistry and Molecular",
+          "n": 141
+        },
+        {
+          "name": "Bachelor of Science (Biotechnology)",
+          "n": 113
+        },
+        {
+          "name": "Bachelor of Science (Chemistry)",
+          "n": 318
+        },
+        {
+          "name": "Bachelor of Science (Computing And Software",
+          "n": 328
+        },
+        {
+          "name": "Bachelor of Science (Data Science)",
+          "n": 212
+        },
+        {
+          "name": "Bachelor of Science (Ecology And Evolutionary",
+          "n": 48
+        },
+        {
+          "name": "Bachelor of Science (Environmental Science)",
+          "n": 90
+        },
+        {
+          "name": "Bachelor of Science (Food Science)",
+          "n": 99
+        },
+        {
+          "name": "Bachelor of Science (Genetics)",
+          "n": 112
+        },
+        {
+          "name": "Bachelor of Science (Geology)",
+          "n": 46
+        },
+        {
+          "name": "Bachelor of Science (Human Structure and",
+          "n": 154
+        },
+        {
+          "name": "Bachelor of Science (Mathematical Physics)",
+          "n": 56
+        },
+        {
+          "name": "Bachelor of Science (Mathematics and Statistics)",
+          "n": 122
+        },
+        {
+          "name": "Bachelor of Science (Microbiology)",
+          "n": 54
+        },
+        {
+          "name": "Bachelor of Science (Neuroscience)",
+          "n": 373
+        },
+        {
+          "name": "Bachelor of Science (Pathology)",
+          "n": 57
+        },
+        {
+          "name": "Bachelor of Science (Pharmacology)",
+          "n": 154
+        },
+        {
+          "name": "Bachelor of Science (Physics)",
+          "n": 189
+        },
+        {
+          "name": "Bachelor of Science (Physiology)",
+          "n": 439
+        },
+        {
+          "name": "Bachelor of Science (Psychology)",
+          "n": 351
+        },
+        {
+          "name": "Bachelor of Science (Veterinary Bioscience)",
+          "n": 34
+        },
+        {
+          "name": "Bachelor of Science (Zoology)",
+          "n": 92
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 23 \"Bachelor of Science (…)\" records"
     }
   }
 };
@@ -6304,6 +6872,38 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
       }
     ]
   },
+  "adelaide-bcom_bcombcomacctbcomacctosbcomcorfin": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Commerce (Accounting)",
+        "n": 1693
+      },
+      {
+        "name": "Bachelor of Commerce (Actuarial Studies)",
+        "n": 101
+      },
+      {
+        "name": "Bachelor of Commerce (Economics)",
+        "n": 1549
+      },
+      {
+        "name": "Bachelor of Commerce (Finance)",
+        "n": 3546
+      },
+      {
+        "name": "Bachelor of Commerce (Management)",
+        "n": 928
+      },
+      {
+        "name": "Bachelor of Commerce (Marketing)",
+        "n": 921
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+  },
   "adelaide-bsc_bsci": {
     "tier": "pooled",
     "grain": "program-family",
@@ -6506,6 +7106,38 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
         ]
       }
     ]
+  },
+  "anu-bcomm": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Commerce (Accounting)",
+        "n": 1693
+      },
+      {
+        "name": "Bachelor of Commerce (Actuarial Studies)",
+        "n": 101
+      },
+      {
+        "name": "Bachelor of Commerce (Economics)",
+        "n": 1549
+      },
+      {
+        "name": "Bachelor of Commerce (Finance)",
+        "n": 3546
+      },
+      {
+        "name": "Bachelor of Commerce (Management)",
+        "n": 928
+      },
+      {
+        "name": "Bachelor of Commerce (Marketing)",
+        "n": 921
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 6 \"Bachelor of Commerce (…)\" records"
   },
   "anu-bsc": {
     "tier": "pooled",
@@ -9569,6 +10201,141 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021"
   },
+  "monash-a2000": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Arts (Anthropology)",
+        "n": 153
+      },
+      {
+        "name": "Bachelor of Arts (Asian Studies)",
+        "n": 43
+      },
+      {
+        "name": "Bachelor of Arts (Economics)",
+        "n": 196
+      },
+      {
+        "name": "Bachelor of Arts (Gender Studies)",
+        "n": 100
+      },
+      {
+        "name": "Bachelor of Arts (Geography)",
+        "n": 108
+      },
+      {
+        "name": "Bachelor of Arts (History)",
+        "n": 524
+      },
+      {
+        "name": "Bachelor of Arts (Politics and International",
+        "n": 339
+      },
+      {
+        "name": "Bachelor of Arts (Psychology)",
+        "n": 859
+      },
+      {
+        "name": "Bachelor of Arts (Screen And Cultural Studies)",
+        "n": 59
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 18 \"Bachelor of Arts (…)\" records",
+    "excludedSources": [
+      {
+        "name": "Bachelor of Arts (Ancient World Studies)",
+        "refusedTitles": [
+          "Collections Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Art History)",
+        "refusedTitles": [
+          "Gallery Attendant",
+          "Researcher",
+          "Art Consultant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Creative Writing)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Criminology)",
+        "refusedTitles": [
+          "Justice Officer",
+          "Senior Intelligence Analyst Team Leader"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (English and Theatre Studies)",
+        "refusedTitles": [
+          "Publishing Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Indigenous Studies)",
+        "refusedTitles": [
+          "Indigenous Education Officer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Media and Communications)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Philosophy)",
+        "refusedTitles": [
+          "University Lecturer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Sociology)",
+        "refusedTitles": [
+          "Youth Advisor"
+        ]
+      }
+    ]
+  },
+  "monash-b2001": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Commerce (Accounting)",
+        "n": 1693
+      },
+      {
+        "name": "Bachelor of Commerce (Actuarial Studies)",
+        "n": 101
+      },
+      {
+        "name": "Bachelor of Commerce (Economics)",
+        "n": 1549
+      },
+      {
+        "name": "Bachelor of Commerce (Finance)",
+        "n": 3546
+      },
+      {
+        "name": "Bachelor of Commerce (Management)",
+        "n": 928
+      },
+      {
+        "name": "Bachelor of Commerce (Marketing)",
+        "n": 921
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+  },
   "monash-s2000": {
     "tier": "pooled",
     "grain": "program-family",
@@ -9683,6 +10450,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 38,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 71.99
+  },
+  "unsw-3502": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0803 Business and Management",
+        "n": null
+      }
+    ],
+    "field": "0803",
+    "indexVariant": "AIOE-2021",
+    "coverage": 34.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 89.99
   },
   "unsw-3970": {
     "tier": "field",
@@ -9816,6 +10598,138 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
         ]
       }
     ]
+  },
+  "uq-2336": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Commerce (Accounting)",
+        "n": 1693
+      },
+      {
+        "name": "Bachelor of Commerce (Actuarial Studies)",
+        "n": 101
+      },
+      {
+        "name": "Bachelor of Commerce (Economics)",
+        "n": 1549
+      },
+      {
+        "name": "Bachelor of Commerce (Finance)",
+        "n": 3546
+      },
+      {
+        "name": "Bachelor of Commerce (Management)",
+        "n": 928
+      },
+      {
+        "name": "Bachelor of Commerce (Marketing)",
+        "n": 921
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+  },
+  "uq-2461": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Science (Animal Health And Disease)",
+        "n": 68
+      },
+      {
+        "name": "Bachelor of Science (Biochemistry and Molecular",
+        "n": 141
+      },
+      {
+        "name": "Bachelor of Science (Biotechnology)",
+        "n": 113
+      },
+      {
+        "name": "Bachelor of Science (Chemistry)",
+        "n": 318
+      },
+      {
+        "name": "Bachelor of Science (Computing And Software",
+        "n": 328
+      },
+      {
+        "name": "Bachelor of Science (Data Science)",
+        "n": 212
+      },
+      {
+        "name": "Bachelor of Science (Ecology And Evolutionary",
+        "n": 48
+      },
+      {
+        "name": "Bachelor of Science (Environmental Science)",
+        "n": 90
+      },
+      {
+        "name": "Bachelor of Science (Food Science)",
+        "n": 99
+      },
+      {
+        "name": "Bachelor of Science (Genetics)",
+        "n": 112
+      },
+      {
+        "name": "Bachelor of Science (Geology)",
+        "n": 46
+      },
+      {
+        "name": "Bachelor of Science (Human Structure and",
+        "n": 154
+      },
+      {
+        "name": "Bachelor of Science (Mathematical Physics)",
+        "n": 56
+      },
+      {
+        "name": "Bachelor of Science (Mathematics and Statistics)",
+        "n": 122
+      },
+      {
+        "name": "Bachelor of Science (Microbiology)",
+        "n": 54
+      },
+      {
+        "name": "Bachelor of Science (Neuroscience)",
+        "n": 373
+      },
+      {
+        "name": "Bachelor of Science (Pathology)",
+        "n": 57
+      },
+      {
+        "name": "Bachelor of Science (Pharmacology)",
+        "n": 154
+      },
+      {
+        "name": "Bachelor of Science (Physics)",
+        "n": 189
+      },
+      {
+        "name": "Bachelor of Science (Physiology)",
+        "n": 439
+      },
+      {
+        "name": "Bachelor of Science (Psychology)",
+        "n": 351
+      },
+      {
+        "name": "Bachelor of Science (Veterinary Bioscience)",
+        "n": 34
+      },
+      {
+        "name": "Bachelor of Science (Zoology)",
+        "n": 92
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 23 \"Bachelor of Science (…)\" records"
   },
   "usyd-advanced-computing-commerce": {
     "tier": "field",
@@ -10188,6 +11102,138 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
         ]
       }
     ]
+  },
+  "uwa-bp002": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Commerce (Accounting)",
+        "n": 1693
+      },
+      {
+        "name": "Bachelor of Commerce (Actuarial Studies)",
+        "n": 101
+      },
+      {
+        "name": "Bachelor of Commerce (Economics)",
+        "n": 1549
+      },
+      {
+        "name": "Bachelor of Commerce (Finance)",
+        "n": 3546
+      },
+      {
+        "name": "Bachelor of Commerce (Management)",
+        "n": 928
+      },
+      {
+        "name": "Bachelor of Commerce (Marketing)",
+        "n": 921
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+  },
+  "uwa-bp004": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Science (Animal Health And Disease)",
+        "n": 68
+      },
+      {
+        "name": "Bachelor of Science (Biochemistry and Molecular",
+        "n": 141
+      },
+      {
+        "name": "Bachelor of Science (Biotechnology)",
+        "n": 113
+      },
+      {
+        "name": "Bachelor of Science (Chemistry)",
+        "n": 318
+      },
+      {
+        "name": "Bachelor of Science (Computing And Software",
+        "n": 328
+      },
+      {
+        "name": "Bachelor of Science (Data Science)",
+        "n": 212
+      },
+      {
+        "name": "Bachelor of Science (Ecology And Evolutionary",
+        "n": 48
+      },
+      {
+        "name": "Bachelor of Science (Environmental Science)",
+        "n": 90
+      },
+      {
+        "name": "Bachelor of Science (Food Science)",
+        "n": 99
+      },
+      {
+        "name": "Bachelor of Science (Genetics)",
+        "n": 112
+      },
+      {
+        "name": "Bachelor of Science (Geology)",
+        "n": 46
+      },
+      {
+        "name": "Bachelor of Science (Human Structure and",
+        "n": 154
+      },
+      {
+        "name": "Bachelor of Science (Mathematical Physics)",
+        "n": 56
+      },
+      {
+        "name": "Bachelor of Science (Mathematics and Statistics)",
+        "n": 122
+      },
+      {
+        "name": "Bachelor of Science (Microbiology)",
+        "n": 54
+      },
+      {
+        "name": "Bachelor of Science (Neuroscience)",
+        "n": 373
+      },
+      {
+        "name": "Bachelor of Science (Pathology)",
+        "n": 57
+      },
+      {
+        "name": "Bachelor of Science (Pharmacology)",
+        "n": 154
+      },
+      {
+        "name": "Bachelor of Science (Physics)",
+        "n": 189
+      },
+      {
+        "name": "Bachelor of Science (Physiology)",
+        "n": 439
+      },
+      {
+        "name": "Bachelor of Science (Psychology)",
+        "n": 351
+      },
+      {
+        "name": "Bachelor of Science (Veterinary Bioscience)",
+        "n": 34
+      },
+      {
+        "name": "Bachelor of Science (Zoology)",
+        "n": 92
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 23 \"Bachelor of Science (…)\" records"
   }
 };
 

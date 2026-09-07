@@ -1,102 +1,121 @@
 {
   "code": "uq-2336",
   "panelCv4": {
-    "instrument": "4.2-draft",
-    "adaptiveness": 12,
-    "workplace": 5,
     "C1": {
-      "score": 3,
-      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+      "score": 0,
+      "rationale": "Level 0's anchor — no collaborative, stakeholder or team-based work is assessed anywhere in the core — holds for everything the extract documents. The single collaboration statement is program prose describing what two capstone courses 'enable', not a learning outcome and not an assessment, so level 1 ('Collaboration/teamwork appears in learning outcomes') is not met either; the only course page captured (RBUS3999) lists individually assessed reflection and planning tasks with no collaborative component. Per one construct, one home, the placement itself is scored in W3, not here.",
       "evidenceLines": [
-        "**Institution**: The University of Queensland (UQ)",
-        "**Program Code**: 2336",
-        "- **Institution**: The University of Queensland (UQ)"
+        "These courses enable you to either collaborate with industry partners on live projects, addressing genuine business challenges, or undertake a professional placement to gain practical workplace experience.",
+        "- A2. Workplace reflection Identity Verified Online: 50%% (Hurdle: False)",
+        "- A3. Professional Development Plan: 50%% (Hurdle: False)"
       ]
     },
     "C2": {
-      "score": 2,
-      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+      "score": 1,
+      "rationale": "Level 1's anchor — reflection or self-assessment appears in outcomes but no core unit assesses it against criteria — is what the extract documents: RBUS3999 states an appraisal outcome and carries an assessed reflection, but no criteria, standards, exemplars, peer review or structured critique are documented, and no reliance or override decision is required, so level 2 and level 3 both fail. R2 also bites: RBUS3999 is not documented as a core requirement, so its assessment cannot lift the item.",
       "evidenceLines": [
-        "**Academic Year**: 2026",
-        "**Program Level**: Undergraduate",
-        "- **Program Level**: Undergraduate"
+        "- Reflect on and evaluate your employability skillset and attributes.",
+        "- A2. Workplace reflection Identity Verified Online: 50%% (Hurdle: False)"
       ]
     },
     "C3": {
-      "score": 2,
-      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+      "score": 0,
+      "rationale": "Level 0's anchor — no digital/AI content in any core unit or program-level outcome — is what the extract supports. Digital subject matter appears only as the titles of optional majors and as a list of career fields; no core unit content, no program-level outcome and no assessment addressing AI capabilities, limitations, ethics or governance is captured. The major titles make level 1 ('AI or digital tools appear only as electives') arguable, so the ambiguity is resolved down.",
       "evidenceLines": [
-        "Subject: Business Industry Placement (RBUS3999)",
-        "Subject: Business Industry Placement (RBUS3999)",
-        "**AQF Level**: AQF level 7"
+        "The Bachelor of Commerce program prepares you for a career in accounting, banking, financial management, information systems, business analytics and management.",
+        "Business Analytics Major",
+        "Business Information Systems Major"
       ]
     },
     "C4": {
-      "score": 3,
-      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+      "score": 1,
+      "rationale": "Level 1's anchor — transfer is claimed in outcomes but not assessed — matches the program's own claim that core skills plus specialist knowledge will let graduates adapt to a changing environment, with no assessed novel-problem task documented in any core unit. RBUS3999's assessed Professional Development Plan is the substance of level 3's own-gap route, but level 3 additionally requires the program to document structured progression toward independent learning, and level 2 and level 3 both require core assessment: the extract documents an application process for RBUS3999 and a choice between two routes, never that it is required. Resolved down under the lower-level rule.",
       "evidenceLines": [
-        "**Duration**: Not specified",
-        "**Faculty**: of Business, Economics and Law",
-        "- **Faculty**: of Business, Economics and Law"
+        "- Create a professional development plan to further build upon your employability skills.",
+        "- A3. Professional Development Plan: 50%% (Hurdle: False)",
+        "Further information about how to apply for RBUS3999 can be found on the BEL Faculty's work-integrated learning website ."
       ]
     },
     "C5": {
-      "score": 2,
-      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+      "score": 0,
+      "rationale": "Level 0's anchor — secondary synthesis only, no research-methods training — is what the extract supports. Nothing in the program pages or the one captured course page names a research-methods unit, an inquiry design task, data collection, or a project generating primary evidence; the captured assessment set is a placement hurdle, a reflection and a development plan.",
       "evidenceLines": [
-        "Subject: Business Industry Placement (RBUS3999)",
-        "Subject: Business Industry Placement (RBUS3999)",
-        "**Teaching Location**: St Lucia"
+        "Compulsory courses will build a solid foundation of business skills that you will apply to many decisions and issues in the contemporary business environment. These core skills are further developed in your second and third years as you specialise by undertaking one or two majors.",
+        "- A1: Internship Hurdle: Pass/Fail% (Hurdle: True)",
+        "- A2. Workplace reflection Identity Verified Online: 50%% (Hurdle: False)"
       ]
     },
+    "adaptiveness": 2,
     "W1": {
-      "score": 2,
-      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+      "score": 1,
+      "rationale": "Communication appears as a learning outcome in the one captured course and is never assessed in a professional genre, which R2 fixes at 1 uniformly. The captured assessments — a workplace reflection and a development plan — are marker-addressed artefacts; no client brief, consultancy or policy advice, pitch or public-facing artefact is documented, and no audience beyond the teaching team is named, so level 2 fails. Level 0 is arguable because no presentation to peers or staff is documented either; the outcome-only rule in R2 resolves it at 1.",
       "evidenceLines": [
-        "**Attendance Mode**: Internal",
-        "- **Institution**: The University of Queensland (UQ)",
-        "- **Program Level**: Undergraduate"
+        "- Communicate your employability skillset and attributes.",
+        "- A2. Workplace reflection Identity Verified Online: 50%% (Hurdle: False)",
+        "- A3. Professional Development Plan: 50%% (Hurdle: False)"
       ]
     },
     "W2": {
-      "score": 2,
-      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+      "score": 1,
+      "rationale": "Level 1's anchor — contextualised tasks appear, but the artefact produced and the criteria applied remain academic — describes what is documented: the tasks are situated in a workplace, yet what the student produces is a reflection and a development plan about their own employability, not the artefact a practitioner would produce, and no criteria drawn from practice are stated. Level 2 would need a core assessment reproducing a professional task end to end; the live-project route is described in prose only, with no assessment captured. R4 bars scoring up on the 'real world' and 'genuine business challenges' wording.",
       "evidenceLines": [
-        "**Handbook URL**: https://my.uq.edu.au/programs-courses/program.html?acad_prog=2336",
-        "Subject: Business Industry Placement (RBUS3999)",
-        "- **Faculty**: of Business, Economics and Law"
+        "Overview: This course aims to provide final year students with the opportunity to apply conceptual knowledge to the real world via a professional placement.",
+        "- A2. Workplace reflection Identity Verified Online: 50%% (Hurdle: False)",
+        "- A3. Professional Development Plan: 50%% (Hurdle: False)"
       ]
     },
     "W3": {
       "score": 1,
-      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "rationale": "Level 1's anchor — work-situated learning exists only as an elective or an optional internship — is what the extract documents: a placement course students apply for, described as one of two things the capstone courses 'offer students the chance' to do. Level 2 requires a core unit that places students in a real workplace with practitioner supervision and assessment; the extract establishes assessment (an internship hurdle plus two assessed tasks) but neither core status nor practitioner supervision, so the 1/2 ambiguity resolves down. The cohort is not documented as already practising, so the in-practice route does not apply.",
       "evidenceLines": [
-        "- **Duration**: Not specified",
-        "- **Institution**: The University of Queensland (UQ)"
+        "Subject: Business Industry Placement (RBUS3999)",
+        "Further information about how to apply for RBUS3999 can be found on the BEL Faculty's work-integrated learning website .",
+        "- A1: Internship Hurdle: Pass/Fail% (Hurdle: True)",
+        "These courses enable you to either collaborate with industry partners on live projects, addressing genuine business challenges, or undertake a professional placement to gain practical workplace experience."
       ]
     },
+    "workplace": 3,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Commerce.",
+        "rationale": "The program documents a compulsory core that is deepened across years and then specialised through one or two majors, and an accredited pathway: completion of the accounting major carries eligibility for associate membership of the professional accounting bodies. That is a coherent specialist core with documented progression, not generic interchangeable content, so the gate passes on the prose even though the course list and prerequisite chain were not captured.",
         "evidenceLines": [
-          "- **Duration**: Not specified",
-          "To graduate with a Bachelor of Commerce a student must have successfully completed all requirements of the program as"
+          "Compulsory courses will build a solid foundation of business skills that you will apply to many decisions and issues in the contemporary business environment. These core skills are further developed in your second and third years as you specialise by undertaking one or two majors.",
+          "Completing the accounting major allows students to apply for associate membership of the professional accounting bodies.",
+          "Chartered Accountants Australia & New Zealand"
         ]
       },
       "G2": {
-        "result": "PASS",
-        "rationale": "Specialist academic program structured through sequential study in business and management.",
+        "result": "FAIL",
+        "rationale": "No assessment in the extract requires defended trade-off decisions, and no simulation, capstone or live project with real uncertainty and accountability is documented as assessed: the only captured assessment set is an internship hurdle, a workplace reflection and a professional development plan, all about the student's own employability. The live industry-project capstone route appears in program prose as an option students may take, with no assessment page captured, so the gate cannot pass on it.",
         "evidenceLines": [
-          "Subject: Business Industry Placement (RBUS3999)",
-          "**Institution**: The University of Queensland (UQ)"
+          "- A1: Internship Hurdle: Pass/Fail% (Hurdle: True)",
+          "- A2. Workplace reflection Identity Verified Online: 50%% (Hurdle: False)",
+          "- A3. Professional Development Plan: 50%% (Hurdle: False)",
+          "These courses enable you to either collaborate with industry partners on live projects, addressing genuine business challenges, or undertake a professional placement to gain practical workplace experience."
         ]
       }
     },
     "ambiguities": [
-      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
-      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+      "C1 straddled 0 and 1: collaboration with industry partners is named in program prose about the capstone courses, but not in a learning outcome and not as an assessment, so the lower level was taken.",
+      "C3 straddled 0 and 1: a Business Analytics major and a Business Information Systems major are listed as optional specialisations, which could read as digital tools appearing as electives; with no unit content or outcome captured, the lower level was taken.",
+      "C4 straddled 1 and 3: the assessed Professional Development Plan is exactly level 3's assessed identification of one's own gaps with a plan to close them, but level 3 also requires documented structured progression toward independent learning and both levels 2 and 3 require core assessment, which the extract does not establish for RBUS3999 ('how to apply'), so it resolved to 1.",
+      "W1 straddled 0 and 1: no presentation to peers or staff is documented, which would put it at 0, but communication is a stated learning outcome and never assessed in a professional genre, and R2 fixes outcome-only presence at 1 uniformly.",
+      "W3 straddled 1 and 2: the placement is assessed and carries a hurdle, but core status and practitioner supervision are not documented, so the lower level was taken.",
+      "RBUS3999 evidence could be read into C1 (collaboration) and C4 (work-integrated route). Under one construct, one home, the placement itself is scored only in W3; only the Professional Development Plan was weighed in C4, and it did not lift the score."
     ],
-    "notScoreable": []
+    "notScoreable": [
+      "Course structure: the extract contains no course list, no compulsory-course codes and no prerequisite chain for the 48-unit program, so 'core' status could not be established for any course, including RBUS3999.",
+      "C1: no core unit assessment evidence of collaborative practice is present in the extract — RBUS3888, named alongside RBUS3999 as a capstone with an industry live-project route, was not captured.",
+      "C3: no unit content or program-level outcome touching digital tools, AI capabilities, limitations, ethics or governance appears in the extract; the analytics and information-systems majors are titles only.",
+      "C5: no research-methods or inquiry unit, and no assessment involving methodology selection or data collection, appears in the extract.",
+      "W2: only one course page was captured, and it is the placement course, so the assessment design of the compulsory core is absent and the item was scored on that single course plus program prose."
+    ],
+    "instrument": "4.2-draft",
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-09-07"
+    }
   }
 }

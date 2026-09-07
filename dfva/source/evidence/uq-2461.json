@@ -1,102 +1,135 @@
 {
   "code": "uq-2461",
   "panelCv4": {
-    "instrument": "4.2-draft",
-    "adaptiveness": 12,
-    "workplace": 5,
     "C1": {
-      "score": 3,
-      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in natural and physical sciences.",
+      "score": 2,
+      "rationale": "Meets the level-2 anchor: prescribed units assess collaborative practice as team- or group-based tasks with marks attached (AGRC1040 oral group presentation 30%, AGRC3042 stakeholder communication 35%, ERTH3120 voyage proposal 45%, GEOS2103 group oral presentation 30%), and collaboration also appears in outcomes, so it is above level 1. Not level 3: the level-3 anchor additionally requires at least one assessment in which work is coordinated across people AND tools/AI systems, with the division of work between people and systems itself assessed; no prescribed unit documents a role-and-tool allocation as an assessed object, and the extract documents no compulsory core in which assessed collaboration provably recurs for every student.",
       "evidenceLines": [
-        "**Institution**: The University of Queensland (UQ)",
-        "**Program Code**: 2461",
-        "- **Institution**: The University of Queensland (UQ)"
+        "- Collaborate effectively with peers and experts.",
+        "- Oral Group Presentation Team or group-based: 30%% (Hurdle: False)",
+        "- Biosecurity Stakeholder Communication Identity Verified Team or group-based In-person: 35%% (Hurdle: False)",
+        "- Voyage proposal Identity Verified Team or group-based: 45%% (Hurdle: False)",
+        "- Group oral presentation on biogeography Identity Verified Team or group-based In-person: 30%% (Hurdle: False)"
       ]
     },
     "C2": {
       "score": 2,
-      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in natural and physical sciences.",
+      "rationale": "Meets the level-2 anchor of criterion-referenced appraisal of quality in assessment: STAT1201 assesses a paper review, NEUR1020 assesses a research-claim essay against an outcome requiring evaluation of the validity of research claims, VETS2033 outcomes require critical appraisal of model strengths and weaknesses, and INDH1005 assesses a reflexive portfolio. Not level 3: the anchor requires students to document and justify reliance decisions on a tool, source or collaborator, defend judgements of AI-output quality, or evidence strategy adjustment over time; nothing in the extract documents an assessed reliance or override decision.",
       "evidenceLines": [
-        "**Academic Year**: 2026",
-        "**Program Level**: Undergraduate",
-        "- **Program Level**: Undergraduate"
+        "- Paper Review: 14%% (Hurdle: False)",
+        "- Evaluate and explain the validity of research claims in experimental psychology",
+        "- Research Claim Essay: 34%% (Hurdle: False)",
+        "- Cultural Safety Reflexive Portfolio 1 Identity Verified In-person: 15%% (Hurdle: False)"
       ]
     },
     "C3": {
-      "score": 2,
-      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within natural and physical sciences.",
+      "score": 1,
+      "rationale": "Level 1 fits: digital and AI content is present but confined to stream-specific optional courses rather than a documented core, and the bulk of it is tool operation and training (Python programming in SCIE1000, GIS software, database SQL). The level-2 anchor requires CORE units to address AI capabilities AND limitations/ethics with use-with-limits assessed; the extract documents no compulsory unit, and the two AI-bearing courses sit inside particular pathways (STAT3007 Deep Learning within statistics; BIOL1000 within biology). BIOL1000 names ethical AI use in one outcome and carries an assessment titled for the AI era, but neither documents AI capabilities and limitations as the assessed object, so it does not carry level 2 on its own. Far from level 3, which requires assessed critique or governance of AI systems (bias, accountability, transparency, regulation, data governance) in the discipline's own context.",
       "evidenceLines": [
-        "Subject: Biological Concepts & Plant Science (AGRC1021)",
-        "Subject: Ecology of Agricultural Systems (AGRC1032)",
-        "**AQF Level**: AQF level 7"
+        "- Critically analyse and interpret biological data using digital and visual tools, including the ethical use of Artificial Intelligence (AI), to evaluate scientific evidence.",
+        "- Inquiry and Synthesis in the AI Era - Part 1: Written In-person: (Part 1: worth 18% of 30%)% (Hurdle: False)",
+        "- Assess whether a deep learning algorithm is effective and appropriate for an application",
+        "- Explain key introductory concepts in computer science, design and write simple computer programs in the language Python, and interpret the output of these programs."
       ]
     },
     "C4": {
-      "score": 3,
-      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in natural and physical sciences.",
+      "score": 2,
+      "rationale": "Meets the level-2 anchor that at least one assessment requires application to novel or unfamiliar problems: MATH1061 outcomes require solving both familiar and novel problems, VETS1030 requires applying One Health concepts to different contexts and assesses tutorial case studies, and GEOM2001 requires selecting, designing and integrating GIS methods to solve geographical problems in an assessed project report. Not level 3: that anchor needs documented structured progression toward independent learning; the self-scoped research project (SCIE3122) is entered only by supervisor approval and permission to enrol, so it is an optional route rather than a documented progression, and no assessed identification of one's own knowledge gaps with a plan to close them appears in the extract.",
       "evidenceLines": [
-        "**Duration**: Not specified",
-        "**Faculty**: of Science",
-        "- **Teaching Location**: St Lucia"
+        "- Demonstrate an understanding and well-founded knowledge of the mathematics presented in this course and thus be able to apply techniques from this course to solve both familiar and novel problems.",
+        "- Apply One Health concepts and skills to different contexts (e.g. societal, geographic), recognising the global importance and approaches to control for One Health problems.",
+        "- Tutorial Case Studies: 20% 10% each% (Hurdle: False)",
+        "- Select, design and integrate GIS methods to solve geographical problems",
+        "- GIS Project Report: 30%% (Hurdle: False)",
+        "To obtain permission to enrol in this course, students must discuss their project with, and obtain approval from, an appropriate supervisor."
       ]
     },
     "C5": {
       "score": 2,
-      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in natural and physical sciences.",
+      "rationale": "Meets the level-2 anchor that students design and conduct an inquiry with methodology selection and data collection, assessed: STAT1201 and STAT1301 assess a research project against an outcome to plan and carry out a research project, PSYC1040 requires designing and conducting a research study, AGRC1032 requires designing an ecological study and collecting field data with assessed prac reports, and MARS3012 assesses a group research project. Not level 3: that anchor requires a substantial primary-evidence project to be REQUIRED rather than one route among several, with methodology defended under scrutiny. The research-project courses carrying a defended seminar (SCIE3122) are entered by supervisor approval and permission to enrol, and honours is documented as an additional year, so the substantial project is one route, not a requirement.",
       "evidenceLines": [
-        "Subject: Food for a Healthy Planet (AGRC1040)",
-        "Subject: Cell & Tissue Biology for Agriculture & Veterinary Science (AGRC1041)",
-        "**Teaching Location**: St Lucia"
+        "- Plan and carry out a research project, and analyse and communicate the results.",
+        "- Research Project: 20%% (Hurdle: False)",
+        "- Design and conduct a simple research study.",
+        "- Design a simple ecological study, collect and analyse appropriate field data and discuss the results and implications of the study in the context of relevant literature.",
+        "- Research Project Team or group-based In-person: 35%% (Hurdle: False)",
+        "- Seminar Presentation Hurdle Identity Verified In-person: 20%% (Hurdle: True)"
       ]
     },
+    "adaptiveness": 9,
     "W1": {
       "score": 2,
-      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in natural and physical sciences.",
+      "rationale": "Meets the level-2 anchor that at least one assessment requires a recognised professional genre or an audience beyond the teaching team: INDH1005 assesses an article written for The Conversation, a public-facing publication genre, and SCIE3010 assesses delivery of an engagement strategy to a community audience, with an assessed final presentation; AGRC1032 outcomes name production of professional-standard reports. Not level 3: that anchor requires professional communication to be assessed repeatedly and progressively across the program AND at least one assessment delivered to or judged by a real external audience or practitioner with professional conduct or accountability explicitly among the assessed criteria. The extract documents no compulsory sequence of communication assessment, the units carrying external audiences are optional (SCIE3010 is documented as a recommended elective), and no assessment criteria naming professional conduct or accountability are documented.",
       "evidenceLines": [
-        "**Attendance Mode**: Internal",
-        "- **Institution**: The University of Queensland (UQ)",
-        "- **Program Level**: Undergraduate"
+        "- Article for The Conversation: 35%% (Hurdle: False)",
+        "- Develop and deliver a meaningful engagement strategy or activity that facilitates audience participation with science.",
+        "- Final presentation Identity Verified In-person: 20%% (Hurdle: False)",
+        "- Display scientific writing skills, including the production of professional standard reports.",
+        "SCIE3010 is a compulsory course in the Science Communication minor, but a recommended elective course for any student interested in science communication and education."
       ]
     },
     "W2": {
       "score": 2,
-      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in natural and physical sciences.",
+      "rationale": "Meets the level-2 anchor that at least one assessment reproduces a professional task end to end, producing the artefact a practitioner would produce: ERTH2050 assesses a field-mapping report and group map compiled from data collected over an extended field trip, with the outcome specifying a geological map, stratigraphic column and cross-sections; BIOL3227 assesses a plant collection and identification key as a hurdle; MARS3012 assesses a field trip plan and risk assessment. Scored on the documented features of the task, not on any authenticity label (R4). Not level 3: that anchor requires such tasks to be the program's assessment spine rather than single instances, and the prescribed set is dominated by hurdle end-of-semester examinations, with no documented per-stage sequence of practice-fidelity tasks.",
       "evidenceLines": [
-        "**Handbook URL**: https://my.uq.edu.au/programs-courses/program.html?acad_prog=2461",
-        "Subject: Animal & Plant Biosecurity (AGRC3042)",
-        "- **Teaching Location**: St Lucia"
+        "- Compile a simple geological map, stratigraphic column, and cross-sections from information gathered in the field. Particular emphasis will be placed on the correlation between different geological units, and on the geological evolution of eastern Queensland.",
+        "- Rockhampton Final Report - group map Team or group-based In-person: 30%% (Hurdle: False)",
+        "- Plant collection and key to collection Hurdle Identity Verified In-person: 40%% (Hurdle: True)",
+        "- Field Trip Plan and Risk assessment Team or group-based: 15%% (Hurdle: False)",
+        "- End of Semester Examination Hurdle Identity Verified In-person: 50%% (Hurdle: True)"
       ]
     },
     "W3": {
       "score": 1,
-      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "rationale": "Level 1 is the exact fit: work-situated learning exists only as an elective or optional internship. The program page states the WIL placement is an option taken through an elective placement course, and the placement course itself (SCIE3050) documents a real supervised workplace with a supervisor report confirming 120 hours - a genuine placement, but not a core unit. Level 2 requires a CORE unit placing students in a real workplace or professional-community setting; the community-based alternative in the extract (SCIE3010) is likewise documented as a recommended elective. The in-practice route does not apply: nothing documents this cohort as already practising in a profession.",
       "evidenceLines": [
-        "- **Duration**: Not specified",
-        "- **Institution**: The University of Queensland (UQ)"
+        "You'll have the option to complete up to 160 hours of Work Integrated Learning (WIL) through an elective placement course as part of your program. You can undertake an elective placement during the Winter or Summer break in an approved workplace related to your studies.",
+        "Subject: Science Industry Placement (SCIE3050)",
+        "- Placement Supervisor Report Hurdle: Pass/Fail. Confirmation of 120 hours and at least 8/20 marks for a Pass.% (Hurdle: True)",
+        "- Learning Contract and Risk Assessment Hurdle: Pass/Fail% (Hurdle: True)"
       ]
     },
+    "workplace": 5,
     "gates": {
       "G1": {
-        "result": "PASS",
-        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Bachelor of Science.",
+        "result": "FAIL",
+        "rationale": "The FAIL condition - generic or interchangeable content without disciplinary identity - is what the extract documents at program grain. The program describes itself as a versatile degree balancing a defined sequence against flexible course options, and its structure section lists 57 prescribed units spanning unrelated disciplines (archaeology, philosophy, psychology, mathematics, chemistry, geology, public health) with no unit documented as compulsory for every student. No all-compulsory specialist core, no accredited sequence and no program-level staged prerequisite chain appears; prerequisite statements exist only inside individual course descriptions. The specialist depth would sit in the extended majors and majors named on the program page, but the extract carries none of their structures, so a PASS cannot be evidenced from this capture.",
         "evidenceLines": [
-          "- **Duration**: Not specified",
-          "To graduate with a Bachelor of Science a student must have successfully completed all requirements of the program as"
+          "The Bachelor of Science is a versatile degree that provides students with the optimal balance between a defined sequence of study and flexible course options. This innovative program has been redesigned to develop graduates with the key practical skills and interdisciplinary knowledge required to address today's global challenges.",
+          "The following 57 units of study are prescribed for this academic program:",
+          "  * [ ARCS1001 Doing Archaeology ](https://my.uq.edu.au/programs-courses/course.html?course_code=ARCS1001)",
+          "  * [ PHIL2090 Why Trust Science? ](https://my.uq.edu.au/programs-courses/course.html?course_code=PHIL2090)"
         ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "Specialist academic program structured through sequential study in natural and physical sciences.",
+        "rationale": "Meets the PASS condition through live and field projects carrying real uncertainty and accountability, and through assessed proposals that defend a course of action: ERTH2050 requires teams and individuals to prioritise tasks, manage time and resources and generate geological models from real field data in a non-conventional environment; ERTH3120 requires groups to design a research voyage against equipment constraints, assessed as a voyage proposal; SCIE3010 requires students to develop, deliver and evaluate their own engagement strategy with a community audience, assessed as a hurdle portfolio; PUBH1103 requires proposing an evidence-based policy response. This is more than recall or scripted response.",
         "evidenceLines": [
-          "Subject: Biological Concepts & Plant Science (AGRC1021)",
-          "**Institution**: The University of Queensland (UQ)"
+          "- Organise field work, prioritise tasks, and manage time and resources effectively. Teams and individuals will need to generate geological models and ideas using real field data, in a non-conventional environment.",
+          "- Work in groups to develop a research voyage proposal using a range of different technical equipment available on ships, to answer a multidisciplinary research question.",
+          "- Project Portfolio Hurdle: 60%% (Hurdle: True)",
+          "- Propose an evidence-based policy response that advocates for population groups experiencing social exclusion and marginalisation in Australia."
         ]
       }
     },
     "ambiguities": [
-      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
-      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+      "Whole-panel: the extract documents no compulsory course. The structure section calls all 57 units 'prescribed for this academic program', but the program text also describes 'flexible course options' and 48 units of study, so no unit is provably taken by every student. Resolved by the lower-level rule at two grains: assessment evidence in prescribed units is accepted for level 2 where the feature recurs across many pathways (C1 collaboration, C4 transfer, C5 inquiry, W1 communication, W2 task fidelity), but every level-3 anchor requiring a feature to recur across the program, to be required, or to be the assessment spine is refused for the same reason.",
+      "C3 straddled levels 1 and 2. BIOL1000 names the ethical use of AI in an outcome and carries an assessment sequence titled 'Inquiry and Synthesis in the AI Era', and STAT3007 assesses whether a deep learning algorithm is appropriate for an application - both read toward level 2. Neither is a documented core unit, and neither documents AI capabilities and limitations as the assessed object, so the lower level (AI appearing only in elective/stream courses and as tool operation) was taken.",
+      "C4 straddled levels 2 and 3. SCIE3122 is a self-scoped supervised research project assessed by proposal, seminar and report, which reads as the level-3 exemplar, but it is entered by supervisor approval and permission to enrol, so it is a route rather than documented progression; the lower level was taken.",
+      "C5 straddled levels 2 and 3. SCIE3122 and SCIE3221 assess a supervised project with a hurdle seminar presentation, which approaches defence under scrutiny, but the level-3 anchor requires the project to be REQUIRED and not one route among several; the lower level was taken.",
+      "W1 straddled levels 2 and 3. AGRC3042 carries an 'Industry Expert Panel Discussion - Participation' task and SCIE3010 delivers to a community audience, which point at level 3's external practitioner audience, but participation is pass/fail, no assessed criteria name professional conduct or accountability, and no progressive sequence of communication assessment is documented; the lower level was taken.",
+      "One-construct-one-home: SCIE3050's placement evidence was scored only in W3, never in C1 or C4; AGRC3042's stakeholder-communication task was scored in C1 as assessed collaborative/stakeholder practice rather than in W1, and W1 rests on separate evidence (The Conversation article, SCIE3010 community delivery)."
     ],
-    "notScoreable": []
+    "notScoreable": [
+      "G1: the extract omits the structure of every extended major, major and minor named on the program page. A coherent specialist core with progressive depth, if it exists, would be documented there. The gate has no third state, so it is recorded as FAIL on the evidence captured, but a recapture that includes at least one major's structure could change the result.",
+      "C3 governance route: no evidence about AI bias, accountability, transparency, regulation or data governance appears anywhere in the extract, so the level-3 anchor could not be tested rather than merely failing.",
+      "Two prescribed units carry no learning outcomes and only an aggregate assessment line in the extract (BIOL3016 'Final exam, essay, field report: 100%'; GEOS3004; UQLD3000; SCIE3040), and three of those are marked as not currently offered, so they contributed no item evidence."
+    ],
+    "instrument": "4.2-draft",
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-09-07"
+    }
   }
 }
