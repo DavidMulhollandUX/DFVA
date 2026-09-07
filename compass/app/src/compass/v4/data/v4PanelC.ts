@@ -1827,6 +1827,11 @@ import p_monash_s6006 from "./v4PanelC/monash-s6006";
 import p_monash_s6007 from "./v4PanelC/monash-s6007";
 import p_monash_s6010 from "./v4PanelC/monash-s6010";
 import p_monash_s6011 from "./v4PanelC/monash-s6011";
+import p_monash_u0601 from "./v4PanelC/monash-u0601";
+import p_monash_u0602 from "./v4PanelC/monash-u0602";
+import p_monash_u0603 from "./v4PanelC/monash-u0603";
+import p_monash_u0604 from "./v4PanelC/monash-u0604";
+import p_monash_u0605 from "./v4PanelC/monash-u0605";
 import p_n01aa from "./v4PanelC/n01aa";
 import p_unsw_1120 from "./v4PanelC/unsw-1120";
 import p_unsw_1122 from "./v4PanelC/unsw-1122";
@@ -2190,10 +2195,12 @@ import p_unsw_8203 from "./v4PanelC/unsw-8203";
 import p_unsw_8204 from "./v4PanelC/unsw-8204";
 import p_unsw_8224 from "./v4PanelC/unsw-8224";
 import p_unsw_8232 from "./v4PanelC/unsw-8232";
+import p_unsw_8233 from "./v4PanelC/unsw-8233";
 import p_unsw_8234 from "./v4PanelC/unsw-8234";
 import p_unsw_8236 from "./v4PanelC/unsw-8236";
 import p_unsw_8256 from "./v4PanelC/unsw-8256";
 import p_unsw_8257 from "./v4PanelC/unsw-8257";
+import p_unsw_8259 from "./v4PanelC/unsw-8259";
 import p_unsw_8266 from "./v4PanelC/unsw-8266";
 import p_unsw_8271 from "./v4PanelC/unsw-8271";
 import p_unsw_8281 from "./v4PanelC/unsw-8281";
@@ -2266,6 +2273,7 @@ import p_unsw_8913 from "./v4PanelC/unsw-8913";
 import p_unsw_8925 from "./v4PanelC/unsw-8925";
 import p_unsw_8926 from "./v4PanelC/unsw-8926";
 import p_unsw_8930 from "./v4PanelC/unsw-8930";
+import p_unsw_8942 from "./v4PanelC/unsw-8942";
 import p_unsw_8959 from "./v4PanelC/unsw-8959";
 import p_unsw_8963 from "./v4PanelC/unsw-8963";
 import p_unsw_8970 from "./v4PanelC/unsw-8970";
@@ -4859,6 +4867,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "monash-s6007": p_monash_s6007,
   "monash-s6010": p_monash_s6010,
   "monash-s6011": p_monash_s6011,
+  "monash-u0601": p_monash_u0601,
+  "monash-u0602": p_monash_u0602,
+  "monash-u0603": p_monash_u0603,
+  "monash-u0604": p_monash_u0604,
+  "monash-u0605": p_monash_u0605,
   "n01aa": p_n01aa,
   "unsw-1120": p_unsw_1120,
   "unsw-1122": p_unsw_1122,
@@ -5222,10 +5235,12 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-8204": p_unsw_8204,
   "unsw-8224": p_unsw_8224,
   "unsw-8232": p_unsw_8232,
+  "unsw-8233": p_unsw_8233,
   "unsw-8234": p_unsw_8234,
   "unsw-8236": p_unsw_8236,
   "unsw-8256": p_unsw_8256,
   "unsw-8257": p_unsw_8257,
+  "unsw-8259": p_unsw_8259,
   "unsw-8266": p_unsw_8266,
   "unsw-8271": p_unsw_8271,
   "unsw-8281": p_unsw_8281,
@@ -5298,6 +5313,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-8925": p_unsw_8925,
   "unsw-8926": p_unsw_8926,
   "unsw-8930": p_unsw_8930,
+  "unsw-8942": p_unsw_8942,
   "unsw-8959": p_unsw_8959,
   "unsw-8963": p_unsw_8963,
   "unsw-8970": p_unsw_8970,

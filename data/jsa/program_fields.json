@@ -21222,6 +21222,62 @@
       "fieldName": "Medical Studies",
       "confidence": "high",
       "rationale": "Surgery -> ASCED 0601 Medical Studies"
+    },
+    "monash-u0601": {
+      "name": "Diploma of Arts",
+      "field": "0009",
+      "fieldName": "Society and Culture",
+      "confidence": "high",
+      "rationale": "Diploma of Arts -> ASCED 0009 Society and Culture"
+    },
+    "monash-u0602": {
+      "name": "Diploma of Art and Design",
+      "field": "1005",
+      "fieldName": "Graphic and Design Studies",
+      "confidence": "high",
+      "rationale": "Diploma of Art and Design -> ASCED 1005 Graphic and Design Studies"
+    },
+    "monash-u0603": {
+      "name": "Diploma of Business",
+      "field": "0803",
+      "fieldName": "Business and Management",
+      "confidence": "high",
+      "rationale": "Diploma of Business -> ASCED 0803 Business and Management"
+    },
+    "monash-u0604": {
+      "name": "Diploma of Engineering",
+      "field": "039999",
+      "fieldName": "Engineering and Related Technologies, n.e.c.",
+      "confidence": "high",
+      "rationale": "Diploma of Engineering -> ASCED 039999 Engineering and Related Technologies, n.e.c."
+    },
+    "monash-u0605": {
+      "name": "Diploma of Information Technology",
+      "field": "0201",
+      "fieldName": "Computer Science",
+      "confidence": "high",
+      "rationale": "Diploma of Information Technology -> ASCED 0201 Computer Science"
+    },
+    "unsw-8233": {
+      "name": "Master of International Relations",
+      "field": "0901",
+      "fieldName": "Political Science and Policy Studies",
+      "confidence": "high",
+      "rationale": "Master of International Relations -> ASCED 0901 Political Science and Policy Studies"
+    },
+    "unsw-8259": {
+      "name": "Master of Public Policy and Governance",
+      "field": "0901",
+      "fieldName": "Political Science and Policy Studies",
+      "confidence": "high",
+      "rationale": "Master of Public Policy and Governance -> ASCED 0901 Political Science and Policy Studies"
+    },
+    "unsw-8942": {
+      "name": "Master of Development Studies",
+      "field": "0008",
+      "fieldName": "Management and Commerce",
+      "confidence": "high",
+      "rationale": "Master of Development Studies -> ASCED 0008 Management and Commerce"
     }
   }
 }

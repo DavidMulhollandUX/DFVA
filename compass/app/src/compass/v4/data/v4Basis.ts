@@ -49779,6 +49779,131 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 93.16
     }
   },
+  "monash-u0601": {
+    "code": "monash-u0601",
+    "name": "Diploma of Arts",
+    "hasMarketReport": false,
+    "exposure": 81.93,
+    "entryExposure": 77.94,
+    "jirN": null,
+    "nTitles": 15,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0009 Society and Culture",
+          "n": null
+        }
+      ],
+      "field": "0009",
+      "indexVariant": "AIOE-2021",
+      "coverage": 26.8,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 80.97
+    }
+  },
+  "monash-u0602": {
+    "code": "monash-u0602",
+    "name": "Diploma of Art and Design",
+    "hasMarketReport": false,
+    "exposure": 74.96,
+    "entryExposure": 73.3,
+    "jirN": null,
+    "nTitles": 17,
+    "nMedium": 5,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 1005 Graphic and Design Studies",
+          "n": null
+        }
+      ],
+      "field": "1005",
+      "indexVariant": "AIOE-2021",
+      "coverage": 51.4,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 75.96
+    }
+  },
+  "monash-u0603": {
+    "code": "monash-u0603",
+    "name": "Diploma of Business",
+    "hasMarketReport": false,
+    "exposure": 88.71,
+    "entryExposure": 88.85,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0803 Business and Management",
+          "n": null
+        }
+      ],
+      "field": "0803",
+      "indexVariant": "AIOE-2021",
+      "coverage": 34.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 89.99
+    }
+  },
+  "monash-u0604": {
+    "code": "monash-u0604",
+    "name": "Diploma of Engineering",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
+    }
+  },
+  "monash-u0605": {
+    "code": "monash-u0605",
+    "name": "Diploma of Information Technology",
+    "hasMarketReport": false,
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0201 Computer Science",
+          "n": null
+        }
+      ],
+      "field": "0201",
+      "indexVariant": "AIOE-2021",
+      "coverage": 52.1,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 87.21
+    }
+  },
   "n01aa": {
     "code": "n01aa",
     "name": "Master of Clinical Research",
@@ -59122,6 +59247,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 89.06
     }
   },
+  "unsw-8233": {
+    "code": "unsw-8233",
+    "name": "Master of International Relations",
+    "hasMarketReport": false,
+    "exposure": 95.97,
+    "entryExposure": 95.57,
+    "jirN": 161,
+    "nTitles": 15,
+    "nMedium": 9,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of International Relations",
+          "n": 161
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
+  },
   "unsw-8234": {
     "code": "unsw-8234",
     "name": "PR and Advertising / Design",
@@ -59226,6 +59372,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 36.6,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 91.5
+    }
+  },
+  "unsw-8259": {
+    "code": "unsw-8259",
+    "name": "Master of Public Policy and Governance",
+    "hasMarketReport": false,
+    "exposure": 86.89,
+    "entryExposure": 89.93,
+    "jirN": null,
+    "nTitles": 15,
+    "nMedium": 4,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0901 Political Science and Policy Studies",
+          "n": null
+        }
+      ],
+      "field": "0901",
+      "indexVariant": "AIOE-2021",
+      "coverage": 33.2,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 87.53
     }
   },
   "unsw-8266": {
@@ -61074,6 +61245,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 70.4,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 86.81
+    }
+  },
+  "unsw-8942": {
+    "code": "unsw-8942",
+    "name": "Master of Development Studies",
+    "hasMarketReport": false,
+    "exposure": 92.5,
+    "entryExposure": 92.94,
+    "jirN": 104,
+    "nTitles": 14,
+    "nMedium": 13,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Development Studies",
+          "n": 104
+        }
+      ],
+      "indexVariant": "AIOE-2021"
     }
   },
   "unsw-8959": {
@@ -115066,6 +115258,81 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 93.16
   },
+  "monash-u0601": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0009 Society and Culture",
+        "n": null
+      }
+    ],
+    "field": "0009",
+    "indexVariant": "AIOE-2021",
+    "coverage": 26.8,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 80.97
+  },
+  "monash-u0602": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 1005 Graphic and Design Studies",
+        "n": null
+      }
+    ],
+    "field": "1005",
+    "indexVariant": "AIOE-2021",
+    "coverage": 51.4,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 75.96
+  },
+  "monash-u0603": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0803 Business and Management",
+        "n": null
+      }
+    ],
+    "field": "0803",
+    "indexVariant": "AIOE-2021",
+    "coverage": 34.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 89.99
+  },
+  "monash-u0604": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
+  },
+  "monash-u0605": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0201 Computer Science",
+        "n": null
+      }
+    ],
+    "field": "0201",
+    "indexVariant": "AIOE-2021",
+    "coverage": 52.1,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 87.21
+  },
   "n01aa": {
     "tier": "field",
     "grain": "field",
@@ -120779,6 +121046,17 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 89.06
   },
+  "unsw-8233": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of International Relations",
+        "n": 161
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
   "unsw-8234": {
     "tier": "field",
     "grain": "field",
@@ -120844,6 +121122,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 36.6,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 91.5
+  },
+  "unsw-8259": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0901 Political Science and Policy Studies",
+        "n": null
+      }
+    ],
+    "field": "0901",
+    "indexVariant": "AIOE-2021",
+    "coverage": 33.2,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 87.53
   },
   "unsw-8266": {
     "tier": "field",
@@ -121972,6 +122265,17 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 70.4,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 86.81
+  },
+  "unsw-8942": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Development Studies",
+        "n": 104
+      }
+    ],
+    "indexVariant": "AIOE-2021"
   },
   "unsw-8959": {
     "tier": "field",

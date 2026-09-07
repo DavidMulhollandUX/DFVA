@@ -39817,6 +39817,116 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "monash-u0601": {
+    "code": "monash-u0601",
+    "name": "Diploma of Arts",
+    "exposure": 81.93,
+    "entryExposure": 77.94,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "monash-u0602": {
+    "code": "monash-u0602",
+    "name": "Diploma of Art and Design",
+    "exposure": 74.96,
+    "entryExposure": 73.3,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "monash-u0603": {
+    "code": "monash-u0603",
+    "name": "Diploma of Business",
+    "exposure": 88.71,
+    "entryExposure": 88.85,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "monash-u0604": {
+    "code": "monash-u0604",
+    "name": "Diploma of Engineering",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 2,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "monash-u0605": {
+    "code": "monash-u0605",
+    "name": "Diploma of Information Technology",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 3,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "n01aa": {
     "code": "n01aa",
     "name": "Master of Clinical Research",
@@ -47803,6 +47913,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "unsw-8233": {
+    "code": "unsw-8233",
+    "name": "Master of International Relations",
+    "exposure": 95.97,
+    "entryExposure": 95.57,
+    "exposureTier": "exact",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "unsw-8234": {
     "code": "unsw-8234",
     "name": "PR and Advertising / Design",
@@ -47874,6 +48006,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "name": "Psychology",
     "exposure": 89.85,
     "entryExposure": 88.29,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-8259": {
+    "code": "unsw-8259",
+    "name": "Master of Public Policy and Governance",
+    "exposure": 86.89,
+    "entryExposure": 89.93,
     "exposureTier": "field",
     "adaptiveness": 12,
     "workplace": 5,
@@ -49459,6 +49613,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "exposure": 79.44,
     "entryExposure": 77.6,
     "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-8942": {
+    "code": "unsw-8942",
+    "name": "Master of Development Studies",
+    "exposure": 92.5,
+    "entryExposure": 92.94,
+    "exposureTier": "exact",
     "adaptiveness": 12,
     "workplace": 5,
     "C1": 3,

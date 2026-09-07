@@ -1,0 +1,103 @@
+{
+  "code": "monash-u0604",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Demonstrate foundational knowledge and key principles in introductory engineering computing.",
+        "Apply analytical problem solving and professional methods in introductory engineering computing.",
+        "The Diploma of Engineering will prepare you for success in your Monash Engineering degree."
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Communicate academic concepts and project findings clearly in written and oral formats.",
+        "Coursework Project: 50%",
+        "In the first year of this course you will learn about the maths and science theory\u00a0and skills you will need for University."
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: MCD1160 - Introductory Engineering Computing",
+        "Subject: MCD1180 - Introductory Physics",
+        "Demonstrate foundational knowledge and key principles in introductory physics."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Apply analytical problem solving and professional methods in introductory physics.",
+        "Communicate academic concepts and project findings clearly in written and oral formats.",
+        "In the second year, you will study the same subjects as first-year University students and develop your specialist knowledge of engineering and the practical skills you will need for University."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: MCD1700 - Introductory Mathematics",
+        "Subject: MCD1170 - Introductory Chemistry",
+        "Coursework Project: 50%"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Demonstrate foundational knowledge and key principles in introductory mathematics.",
+        "The Diploma of Engineering will prepare you for success in your Monash Engineering degree.",
+        "In the first year of this course you will learn about the maths and science theory\u00a0and skills you will need for University."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in engineering and related technologies, n.e.c..",
+      "evidenceLines": [
+        "Subject: MCD1190 - Chemistry A",
+        "Apply analytical problem solving and professional methods in introductory mathematics.",
+        "102 credit points"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "**Part 2. Discipline knowledge** **48 credit points**",
+        "Students will be able to select from one of the following specialisations:",
+        "Subject: MCD1180 - Introductory Physics"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Diploma of Engineering.",
+        "evidenceLines": [
+          "The Diploma of Engineering will prepare you for success in your Monash Engineering degree.",
+          "102 credit points"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in engineering and related technologies, n.e.c..",
+        "evidenceLines": [
+          "In the first year of this course you will learn about the maths and science theory\u00a0and skills you will need for University.",
+          "Subject: MCD1160 - Introductory Engineering Computing"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 3 due to advanced analytical, mathematical, or computational curriculum content.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

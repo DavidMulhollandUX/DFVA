@@ -20956,5 +20956,61 @@
     "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/surgery.html",
     "cohort": "usyd",
     "faculty": "The University of Sydney"
+  },
+  {
+    "code": "monash-u0601",
+    "name": "Diploma of Arts",
+    "url": "https://handbook.monash.edu/2026/courses/U0601",
+    "cohort": "monashuniversity",
+    "faculty": "Monash University"
+  },
+  {
+    "code": "monash-u0602",
+    "name": "Diploma of Art and Design",
+    "url": "https://handbook.monash.edu/2026/courses/U0602",
+    "cohort": "monashuniversity",
+    "faculty": "Monash University"
+  },
+  {
+    "code": "monash-u0603",
+    "name": "Diploma of Business",
+    "url": "https://handbook.monash.edu/2026/courses/U0603",
+    "cohort": "monashuniversity",
+    "faculty": "Monash University"
+  },
+  {
+    "code": "monash-u0604",
+    "name": "Diploma of Engineering",
+    "url": "https://handbook.monash.edu/2026/courses/U0604",
+    "cohort": "monashuniversity",
+    "faculty": "Monash University"
+  },
+  {
+    "code": "monash-u0605",
+    "name": "Diploma of Information Technology",
+    "url": "https://handbook.monash.edu/2026/courses/U0605",
+    "cohort": "monashuniversity",
+    "faculty": "Monash University"
+  },
+  {
+    "code": "unsw-8233",
+    "name": "Master of International Relations",
+    "url": "https://handbook.unsw.edu.au/postgraduate/programs/2026/8233",
+    "cohort": "unswsydney",
+    "faculty": "UNSW Sydney"
+  },
+  {
+    "code": "unsw-8259",
+    "name": "Master of Public Policy and Governance",
+    "url": "https://handbook.unsw.edu.au/postgraduate/programs/2026/8259",
+    "cohort": "unswsydney",
+    "faculty": "UNSW Sydney"
+  },
+  {
+    "code": "unsw-8942",
+    "name": "Master of Development Studies",
+    "url": "https://handbook.unsw.edu.au/postgraduate/programs/2026/8942",
+    "cohort": "unswsydney",
+    "faculty": "UNSW Sydney"
   }
 ]

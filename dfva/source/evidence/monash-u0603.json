@@ -1,0 +1,103 @@
+{
+  "code": "monash-u0603",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in business and management.",
+      "evidenceLines": [
+        "Diploma of Business only, or",
+        "Diploma of Business with Education stream",
+        "The Diploma of Business is your first step towards completing your Monash Business or Commerce related degree."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in business and management.",
+      "evidenceLines": [
+        "Demonstrate foundational knowledge and key principles in accounting for business.",
+        "Apply analytical problem solving and professional methods in accounting for business.",
+        "You\u2019ll learn how to work independently, think critically and make analytical decisions, while being introduced to the business concepts and theory you'll need for University."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within business and management.",
+      "evidenceLines": [
+        "Subject: MCD1010 - Accounting for Business",
+        "Subject: MCD1690 - Introductory Economics",
+        "Communicate academic concepts and project findings clearly in written and oral formats."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in business and management.",
+      "evidenceLines": [
+        "Coursework Project: 50%",
+        "Demonstrate foundational knowledge and key principles in introductory economics.",
+        "You can choose your area of interest from day one \u2013 better preparing you for your chosen Monash bachelor degree."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in business and management.",
+      "evidenceLines": [
+        "Subject: MCD1520 - Introduction to Academic Communication",
+        "Subject: MCD1090 - Introduction to Marketing",
+        "Apply analytical problem solving and professional methods in introductory economics."
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in business and management.",
+      "evidenceLines": [
+        "Communicate academic concepts and project findings clearly in written and oral formats.",
+        "The Diploma of Business is your first step towards completing your Monash Business or Commerce related degree.",
+        "You\u2019ll learn how to work independently, think critically and make analytical decisions, while being introduced to the business concepts and theory you'll need for University."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in business and management.",
+      "evidenceLines": [
+        "Subject: MCD1380 - Introductory Law",
+        "Coursework Project: 50%",
+        "Each unit is 6 credit points and students must complete:"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "96 credit points",
+        "There are two streams to choose between:",
+        "Subject: MCD1690 - Introductory Economics"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Diploma of Business.",
+        "evidenceLines": [
+          "The Diploma of Business is your first step towards completing your Monash Business or Commerce related degree.",
+          "Each unit is 6 credit points and students must complete:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in business and management.",
+        "evidenceLines": [
+          "You\u2019ll learn how to work independently, think critically and make analytical decisions, while being introduced to the business concepts and theory you'll need for University.",
+          "Subject: MCD1010 - Accounting for Business"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}
