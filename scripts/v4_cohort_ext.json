@@ -20816,5 +20816,145 @@
     "url": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies.html",
     "cohort": "usyd",
     "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-arts-extended",
+    "name": "Bachelor of Arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-extended.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-social-justice",
+    "name": "Social Justice",
+    "url": "https://www.sydney.edu.au/handbooks/arts-pg/coursework-areas/social-justice.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-b-interaction-design-advanced-studies",
+    "name": "Bachelor of Design; Bachelor of Design and Bachelor of Advanced Studies",
+    "url": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-arts-nursing",
+    "name": "Bachelor of Arts and Master of Nursing",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-nursing.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-arts-laws",
+    "name": "Bachelor of Arts and Bachelor of Laws",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-laws.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-commerce-arts",
+    "name": "Bachelor of Commerce and Bachelor of Arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/commerce-arts.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-science-arts",
+    "name": "Bachelor of Science and Bachelor of Arts",
+    "url": "https://www.sydney.edu.au/handbooks/arts/coursework/science-arts.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-engineering-commerce",
+    "name": "Bachelor of Engineering Honours and Bachelor of Commerce",
+    "url": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-engineering-honours",
+    "name": "Bachelor of Engineering Honours",
+    "url": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-commerce-laws",
+    "name": "Bachelor of Commerce and Bachelor of Laws",
+    "url": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce-laws.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-biomedical-science",
+    "name": "Biomedical Science",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/biomedical-science.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-electives-p2-jurisprudence-unit-of-study-table",
+    "name": "Bachelor of Laws",
+    "url": "https://www.sydney.edu.au/handbooks/law/undergraduate/electives-p2-jurisprudence-unit-of-study-table.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-nursing-master",
+    "name": "Nursing",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/nursing-master.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-juris-doctor",
+    "name": "Juris Doctor",
+    "url": "https://www.sydney.edu.au/handbooks/law/postgraduate/juris-doctor.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-clinical-dentistry",
+    "name": "Clinical Dentistry",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/clinical-dentistry.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-speech-pathology",
+    "name": "Speech Language Pathology",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/speech-pathology.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-science-nursing",
+    "name": "Bachelor of Science and Master of Nursing",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/science-nursing.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-sexual-reproductive-health",
+    "name": "Sexual and Reproductive Health",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/sexual-reproductive-health.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-psychology-honours",
+    "name": "Bachelor of Psychology Honours",
+    "url": "https://www.sydney.edu.au/handbooks/science/coursework/psychology-honours.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
+  },
+  {
+    "code": "usyd-surgery",
+    "name": "Surgery",
+    "url": "https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/surgery.html",
+    "cohort": "usyd",
+    "faculty": "The University of Sydney"
   }
 ]

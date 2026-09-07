@@ -57703,11 +57703,77 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "usyd-arts-extended": {
+    "code": "usyd-arts-extended",
+    "name": "Bachelor of Arts",
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "exposureTier": "pooled",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "usyd-arts-laws": {
+    "code": "usyd-arts-laws",
+    "name": "Bachelor of Arts and Bachelor of Laws",
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "usyd-arts-medicine": {
     "code": "usyd-arts-medicine",
     "name": "Bachelor of Arts and Doctor of Medicine",
     "exposure": 83.73,
     "entryExposure": 80.51,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "usyd-arts-nursing": {
+    "code": "usyd-arts-nursing",
+    "name": "Bachelor of Arts and Master of Nursing",
+    "exposure": 66.46,
+    "entryExposure": 66.2,
     "exposureTier": "field",
     "adaptiveness": 13,
     "workplace": 9,
@@ -57848,6 +57914,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "C3": 2,
     "C4": 3,
     "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "usyd-b-interaction-design-advanced-studies": {
+    "code": "usyd-b-interaction-design-advanced-studies",
+    "name": "Bachelor of Design; Bachelor of Design and Bachelor of Advanced Studies",
+    "exposure": 74.96,
+    "entryExposure": 73.3,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 3,
     "W1": 2,
     "W2": 2,
     "W3": 1,
@@ -58055,6 +58143,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "usyd-biomedical-science": {
+    "code": "usyd-biomedical-science",
+    "name": "Biomedical Science",
+    "exposure": 83.73,
+    "entryExposure": 80.51,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "usyd-biomedicine-and-health": {
     "code": "usyd-biomedicine-and-health",
     "name": "Bachelor of Biomedicine and Health",
@@ -58187,6 +58297,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "usyd-clinical-dentistry": {
+    "code": "usyd-clinical-dentistry",
+    "name": "Clinical Dentistry",
+    "exposure": 60.44,
+    "entryExposure": 60.44,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "usyd-clinical-epidemiology": {
     "code": "usyd-clinical-epidemiology",
     "name": "Clinical Epidemiology",
@@ -58275,6 +58407,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "usyd-commerce-arts": {
+    "code": "usyd-commerce-arts",
+    "name": "Bachelor of Commerce and Bachelor of Arts",
+    "exposure": 88.71,
+    "entryExposure": 88.85,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "usyd-commerce-extension": {
     "code": "usyd-commerce-extension",
     "name": "Commerce",
@@ -58285,6 +58439,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "workplace": 5,
     "C1": 3,
     "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "usyd-commerce-laws": {
+    "code": "usyd-commerce-laws",
+    "name": "Bachelor of Commerce and Bachelor of Laws",
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 3,
     "C3": 2,
     "C4": 3,
     "C5": 2,
@@ -59001,6 +59177,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "usyd-electives-p2-jurisprudence-unit-of-study-table": {
+    "code": "usyd-electives-p2-jurisprudence-unit-of-study-table",
+    "name": "Bachelor of Laws",
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "usyd-emba": {
     "code": "usyd-emba",
     "name": "Executive Business Administration",
@@ -59026,6 +59224,50 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
   "usyd-engineering": {
     "code": "usyd-engineering",
     "name": "Master of Engineering",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 2,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "usyd-engineering-commerce": {
+    "code": "usyd-engineering-commerce",
+    "name": "Bachelor of Engineering Honours and Bachelor of Commerce",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 2,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "usyd-engineering-honours": {
+    "code": "usyd-engineering-honours",
+    "name": "Bachelor of Engineering Honours",
     "exposure": 83.48,
     "entryExposure": 82.67,
     "exposureTier": "field",
@@ -59705,6 +59947,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "usyd-juris-doctor": {
+    "code": "usyd-juris-doctor",
+    "name": "Juris Doctor",
+    "exposure": 94.43,
+    "entryExposure": 93.12,
+    "exposureTier": "exact",
+    "adaptiveness": 13,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "usyd-labour-law-relations": {
     "code": "usyd-labour-law-relations",
     "name": "Master of Labour Law and Relations",
@@ -60167,6 +60431,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "usyd-nursing-master": {
+    "code": "usyd-nursing-master",
+    "name": "Nursing",
+    "exposure": 66.46,
+    "entryExposure": 66.2,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "usyd-nursing-nurse-practitioner": {
     "code": "usyd-nursing-nurse-practitioner",
     "name": "Nursing",
@@ -60519,6 +60805,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "usyd-psychology-honours": {
+    "code": "usyd-psychology-honours",
+    "name": "Bachelor of Psychology Honours",
+    "exposure": 89.85,
+    "entryExposure": 88.29,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "usyd-public-administration-executive-master": {
     "code": "usyd-public-administration-executive-master",
     "name": "Executive Master of Public Administration",
@@ -60576,6 +60884,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "C3": 2,
     "C4": 3,
     "C5": 3,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "usyd-science-arts": {
+    "code": "usyd-science-arts",
+    "name": "Bachelor of Science and Bachelor of Arts",
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
     "W1": 2,
     "W2": 2,
     "W3": 1,
@@ -60651,6 +60981,50 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "usyd-science-nursing": {
+    "code": "usyd-science-nursing",
+    "name": "Bachelor of Science and Master of Nursing",
+    "exposure": 66.46,
+    "entryExposure": 66.2,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "usyd-sexual-reproductive-health": {
+    "code": "usyd-sexual-reproductive-health",
+    "name": "Sexual and Reproductive Health",
+    "exposure": 76.66,
+    "entryExposure": 72.12,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "usyd-sleep-medicine": {
     "code": "usyd-sleep-medicine",
     "name": "Sleep Medicine",
@@ -60667,6 +61041,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W1": 3,
     "W2": 3,
     "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "usyd-social-justice": {
+    "code": "usyd-social-justice",
+    "name": "Social Justice",
+    "exposure": 86.89,
+    "entryExposure": 89.93,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
     "gates": {
       "G1": "PASS",
       "G2": "PASS"
@@ -60783,6 +61179,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "usyd-speech-pathology": {
+    "code": "usyd-speech-pathology",
+    "name": "Speech Language Pathology",
+    "exposure": 89.14,
+    "entryExposure": 88.69,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "usyd-strategic-public-relations": {
     "code": "usyd-strategic-public-relations",
     "name": "Strategic Public Relations",
@@ -60799,6 +61217,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W1": 2,
     "W2": 2,
     "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "usyd-surgery": {
+    "code": "usyd-surgery",
+    "name": "Surgery",
+    "exposure": 83.73,
+    "entryExposure": 80.51,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
     "gates": {
       "G1": "PASS",
       "G2": "PASS"

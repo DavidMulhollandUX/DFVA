@@ -71076,6 +71076,144 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 80.97
     }
   },
+  "usyd-arts-extended": {
+    "code": "usyd-arts-extended",
+    "name": "Bachelor of Arts",
+    "hasMarketReport": false,
+    "exposure": 91.96,
+    "entryExposure": 90.43,
+    "jirN": 2381,
+    "nTitles": 97,
+    "nMedium": 48,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Arts (Anthropology)",
+          "n": 153
+        },
+        {
+          "name": "Bachelor of Arts (Asian Studies)",
+          "n": 43
+        },
+        {
+          "name": "Bachelor of Arts (Economics)",
+          "n": 196
+        },
+        {
+          "name": "Bachelor of Arts (Gender Studies)",
+          "n": 100
+        },
+        {
+          "name": "Bachelor of Arts (Geography)",
+          "n": 108
+        },
+        {
+          "name": "Bachelor of Arts (History)",
+          "n": 524
+        },
+        {
+          "name": "Bachelor of Arts (Politics and International",
+          "n": 339
+        },
+        {
+          "name": "Bachelor of Arts (Psychology)",
+          "n": 859
+        },
+        {
+          "name": "Bachelor of Arts (Screen And Cultural Studies)",
+          "n": 59
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 18 \"Bachelor of Arts (…)\" records",
+      "excludedSources": [
+        {
+          "name": "Bachelor of Arts (Ancient World Studies)",
+          "refusedTitles": [
+            "Collections Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Art History)",
+          "refusedTitles": [
+            "Gallery Attendant",
+            "Researcher",
+            "Art Consultant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Creative Writing)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Criminology)",
+          "refusedTitles": [
+            "Justice Officer",
+            "Senior Intelligence Analyst Team Leader"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (English and Theatre Studies)",
+          "refusedTitles": [
+            "Publishing Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Indigenous Studies)",
+          "refusedTitles": [
+            "Indigenous Education Officer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Media and Communications)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Philosophy)",
+          "refusedTitles": [
+            "University Lecturer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Sociology)",
+          "refusedTitles": [
+            "Youth Advisor"
+          ]
+        }
+      ]
+    }
+  },
+  "usyd-arts-laws": {
+    "code": "usyd-arts-laws",
+    "name": "Bachelor of Arts and Bachelor of Laws",
+    "hasMarketReport": false,
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 4,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0909 Law",
+          "n": null
+        }
+      ],
+      "field": "0909",
+      "indexVariant": "AIOE-2021",
+      "coverage": 58.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 93.74
+    }
+  },
   "usyd-arts-medicine": {
     "code": "usyd-arts-medicine",
     "name": "Bachelor of Arts and Doctor of Medicine",
@@ -71099,6 +71237,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 79.3,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 82.07
+    }
+  },
+  "usyd-arts-nursing": {
+    "code": "usyd-arts-nursing",
+    "name": "Bachelor of Arts and Master of Nursing",
+    "hasMarketReport": false,
+    "exposure": 66.46,
+    "entryExposure": 66.2,
+    "jirN": null,
+    "nTitles": 11,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 060301 General Nursing",
+          "n": null
+        }
+      ],
+      "field": "060301",
+      "indexVariant": "AIOE-2021",
+      "coverage": 75.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 68.22
     }
   },
   "usyd-arts-social-work": {
@@ -71300,6 +71463,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 35.6,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 90.69
+    }
+  },
+  "usyd-b-interaction-design-advanced-studies": {
+    "code": "usyd-b-interaction-design-advanced-studies",
+    "name": "Bachelor of Design; Bachelor of Design and Bachelor of Advanced Studies",
+    "hasMarketReport": false,
+    "exposure": 74.96,
+    "entryExposure": 73.3,
+    "jirN": null,
+    "nTitles": 17,
+    "nMedium": 5,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 1005 Graphic and Design Studies",
+          "n": null
+        }
+      ],
+      "field": "1005",
+      "indexVariant": "AIOE-2021",
+      "coverage": 51.4,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 75.96
     }
   },
   "usyd-b-international-studies": {
@@ -71536,6 +71724,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 93.16
     }
   },
+  "usyd-biomedical-science": {
+    "code": "usyd-biomedical-science",
+    "name": "Biomedical Science",
+    "hasMarketReport": false,
+    "exposure": 83.73,
+    "entryExposure": 80.51,
+    "jirN": null,
+    "nTitles": 18,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0601 Medical Studies",
+          "n": null
+        }
+      ],
+      "field": "0601",
+      "indexVariant": "AIOE-2021",
+      "coverage": 79.3,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 82.07
+    }
+  },
   "usyd-biomedicine-and-health": {
     "code": "usyd-biomedicine-and-health",
     "name": "Bachelor of Biomedicine and Health",
@@ -71698,6 +71911,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 75.56
     }
   },
+  "usyd-clinical-dentistry": {
+    "code": "usyd-clinical-dentistry",
+    "name": "Clinical Dentistry",
+    "hasMarketReport": false,
+    "exposure": 60.44,
+    "entryExposure": 60.44,
+    "jirN": null,
+    "nTitles": 6,
+    "nMedium": 2,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 060701 Dentistry",
+          "n": null
+        }
+      ],
+      "field": "060701",
+      "indexVariant": "AIOE-2021",
+      "coverage": 72.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 58.35
+    }
+  },
   "usyd-clinical-epidemiology": {
     "code": "usyd-clinical-epidemiology",
     "name": "Clinical Epidemiology",
@@ -71773,6 +72011,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 82.07
     }
   },
+  "usyd-commerce-arts": {
+    "code": "usyd-commerce-arts",
+    "name": "Bachelor of Commerce and Bachelor of Arts",
+    "hasMarketReport": false,
+    "exposure": 88.71,
+    "entryExposure": 88.85,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0803 Business and Management",
+          "n": null
+        }
+      ],
+      "field": "0803",
+      "indexVariant": "AIOE-2021",
+      "coverage": 34.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 89.99
+    }
+  },
   "usyd-commerce-extension": {
     "code": "usyd-commerce-extension",
     "name": "Commerce",
@@ -71796,6 +72059,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 34.6,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 89.99
+    }
+  },
+  "usyd-commerce-laws": {
+    "code": "usyd-commerce-laws",
+    "name": "Bachelor of Commerce and Bachelor of Laws",
+    "hasMarketReport": false,
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 4,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0909 Law",
+          "n": null
+        }
+      ],
+      "field": "0909",
+      "indexVariant": "AIOE-2021",
+      "coverage": 58.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 93.74
     }
   },
   "usyd-commerce-science": {
@@ -72741,6 +73029,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 93.74
     }
   },
+  "usyd-electives-p2-jurisprudence-unit-of-study-table": {
+    "code": "usyd-electives-p2-jurisprudence-unit-of-study-table",
+    "name": "Bachelor of Laws",
+    "hasMarketReport": false,
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 4,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0909 Law",
+          "n": null
+        }
+      ],
+      "field": "0909",
+      "indexVariant": "AIOE-2021",
+      "coverage": 58.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 93.74
+    }
+  },
   "usyd-emba": {
     "code": "usyd-emba",
     "name": "Executive Business Administration",
@@ -72764,6 +73077,56 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 34.6,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 89.99
+    }
+  },
+  "usyd-engineering-commerce": {
+    "code": "usyd-engineering-commerce",
+    "name": "Bachelor of Engineering Honours and Bachelor of Commerce",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
+    }
+  },
+  "usyd-engineering-honours": {
+    "code": "usyd-engineering-honours",
+    "name": "Bachelor of Engineering Honours",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
     }
   },
   "usyd-engineering": {
@@ -73575,6 +73938,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 87.53
     }
   },
+  "usyd-juris-doctor": {
+    "code": "usyd-juris-doctor",
+    "name": "Juris Doctor",
+    "hasMarketReport": false,
+    "exposure": 94.43,
+    "entryExposure": 93.12,
+    "jirN": 1277,
+    "nTitles": 15,
+    "nMedium": 7,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Juris Doctor",
+          "n": 1277
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
+  },
   "usyd-labour-law-relations": {
     "code": "usyd-labour-law-relations",
     "name": "Master of Labour Law and Relations",
@@ -74104,6 +74488,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 68.22
     }
   },
+  "usyd-nursing-master": {
+    "code": "usyd-nursing-master",
+    "name": "Nursing",
+    "hasMarketReport": false,
+    "exposure": 66.46,
+    "entryExposure": 66.2,
+    "jirN": null,
+    "nTitles": 11,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 060301 General Nursing",
+          "n": null
+        }
+      ],
+      "field": "060301",
+      "indexVariant": "AIOE-2021",
+      "coverage": 75.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 68.22
+    }
+  },
   "usyd-nursing-nurse-practitioner": {
     "code": "usyd-nursing-nurse-practitioner",
     "name": "Nursing",
@@ -74509,6 +74918,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 91.5
     }
   },
+  "usyd-psychology-honours": {
+    "code": "usyd-psychology-honours",
+    "name": "Bachelor of Psychology Honours",
+    "hasMarketReport": false,
+    "exposure": 89.85,
+    "entryExposure": 88.29,
+    "jirN": null,
+    "nTitles": 12,
+    "nMedium": 2,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 090701 Psychology",
+          "n": null
+        }
+      ],
+      "field": "090701",
+      "indexVariant": "AIOE-2021",
+      "coverage": 36.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 91.5
+    }
+  },
   "usyd-psychology": {
     "code": "usyd-psychology",
     "name": "Bachelor of Psychology",
@@ -74613,6 +75047,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 30,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 83.69
+    }
+  },
+  "usyd-science-arts": {
+    "code": "usyd-science-arts",
+    "name": "Bachelor of Science and Bachelor of Arts",
+    "hasMarketReport": false,
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0001 Natural and Physical Sciences",
+          "n": null
+        }
+      ],
+      "field": "0001",
+      "indexVariant": "AIOE-2021",
+      "coverage": 21.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 76.38
     }
   },
   "usyd-science-dental": {
@@ -74775,6 +75234,62 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 82.07
     }
   },
+  "usyd-science-nursing": {
+    "code": "usyd-science-nursing",
+    "name": "Bachelor of Science and Master of Nursing",
+    "hasMarketReport": false,
+    "exposure": 66.46,
+    "entryExposure": 66.2,
+    "jirN": null,
+    "nTitles": 11,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 060301 General Nursing",
+          "n": null
+        }
+      ],
+      "field": "060301",
+      "indexVariant": "AIOE-2021",
+      "coverage": 75.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 68.22
+    }
+  },
+  "usyd-sexual-reproductive-health": {
+    "code": "usyd-sexual-reproductive-health",
+    "name": "Sexual and Reproductive Health",
+    "hasMarketReport": false,
+    "exposure": 76.66,
+    "entryExposure": 72.12,
+    "jirN": null,
+    "nTitles": 12,
+    "nMedium": 4,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 069999 Health, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "069999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 23.9,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "Health Information Manager",
+          "share": 3.448
+        }
+      ],
+      "exposureWeighted": 75.56
+    }
+  },
   "usyd-sleep-medicine": {
     "code": "usyd-sleep-medicine",
     "name": "Sleep Medicine",
@@ -74875,6 +75390,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 87.53
     }
   },
+  "usyd-social-justice": {
+    "code": "usyd-social-justice",
+    "name": "Social Justice",
+    "hasMarketReport": false,
+    "exposure": 86.89,
+    "entryExposure": 89.93,
+    "jirN": null,
+    "nTitles": 15,
+    "nMedium": 4,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0901 Political Science and Policy Studies",
+          "n": null
+        }
+      ],
+      "field": "0901",
+      "indexVariant": "AIOE-2021",
+      "coverage": 33.2,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 87.53
+    }
+  },
   "usyd-social-work-qualifying": {
     "code": "usyd-social-work-qualifying",
     "name": "Social Work",
@@ -74925,6 +75465,37 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 86.81
     }
   },
+  "usyd-speech-pathology": {
+    "code": "usyd-speech-pathology",
+    "name": "Speech Language Pathology",
+    "hasMarketReport": false,
+    "exposure": 89.14,
+    "entryExposure": 88.69,
+    "jirN": null,
+    "nTitles": 16,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0915 Language and Literature",
+          "n": null
+        }
+      ],
+      "field": "0915",
+      "indexVariant": "AIOE-2021",
+      "coverage": 27,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "University Lecturer",
+          "share": 1.258
+        }
+      ],
+      "exposureWeighted": 87.75
+    }
+  },
   "usyd-strategic-public-relations": {
     "code": "usyd-strategic-public-relations",
     "name": "Strategic Public Relations",
@@ -74948,6 +75519,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 55.2,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 88.31
+    }
+  },
+  "usyd-surgery": {
+    "code": "usyd-surgery",
+    "name": "Surgery",
+    "hasMarketReport": false,
+    "exposure": 83.73,
+    "entryExposure": 80.51,
+    "jirN": null,
+    "nTitles": 18,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0601 Medical Studies",
+          "n": null
+        }
+      ],
+      "field": "0601",
+      "indexVariant": "AIOE-2021",
+      "coverage": 79.3,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 82.07
     }
   },
   "usyd-sustainability": {
@@ -127637,6 +128233,124 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 80.97
   },
+  "usyd-arts-extended": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Arts (Anthropology)",
+        "n": 153
+      },
+      {
+        "name": "Bachelor of Arts (Asian Studies)",
+        "n": 43
+      },
+      {
+        "name": "Bachelor of Arts (Economics)",
+        "n": 196
+      },
+      {
+        "name": "Bachelor of Arts (Gender Studies)",
+        "n": 100
+      },
+      {
+        "name": "Bachelor of Arts (Geography)",
+        "n": 108
+      },
+      {
+        "name": "Bachelor of Arts (History)",
+        "n": 524
+      },
+      {
+        "name": "Bachelor of Arts (Politics and International",
+        "n": 339
+      },
+      {
+        "name": "Bachelor of Arts (Psychology)",
+        "n": 859
+      },
+      {
+        "name": "Bachelor of Arts (Screen And Cultural Studies)",
+        "n": 59
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 18 \"Bachelor of Arts (…)\" records",
+    "excludedSources": [
+      {
+        "name": "Bachelor of Arts (Ancient World Studies)",
+        "refusedTitles": [
+          "Collections Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Art History)",
+        "refusedTitles": [
+          "Gallery Attendant",
+          "Researcher",
+          "Art Consultant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Creative Writing)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Criminology)",
+        "refusedTitles": [
+          "Justice Officer",
+          "Senior Intelligence Analyst Team Leader"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (English and Theatre Studies)",
+        "refusedTitles": [
+          "Publishing Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Indigenous Studies)",
+        "refusedTitles": [
+          "Indigenous Education Officer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Media and Communications)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Philosophy)",
+        "refusedTitles": [
+          "University Lecturer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Sociology)",
+        "refusedTitles": [
+          "Youth Advisor"
+        ]
+      }
+    ]
+  },
+  "usyd-arts-laws": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0909 Law",
+        "n": null
+      }
+    ],
+    "field": "0909",
+    "indexVariant": "AIOE-2021",
+    "coverage": 58.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 93.74
+  },
   "usyd-arts-medicine": {
     "tier": "field",
     "grain": "field",
@@ -127651,6 +128365,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 79.3,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 82.07
+  },
+  "usyd-arts-nursing": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 060301 General Nursing",
+        "n": null
+      }
+    ],
+    "field": "060301",
+    "indexVariant": "AIOE-2021",
+    "coverage": 75.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 68.22
   },
   "usyd-arts-social-work": {
     "tier": "field",
@@ -127792,6 +128521,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 35.6,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 90.69
+  },
+  "usyd-b-interaction-design-advanced-studies": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 1005 Graphic and Design Studies",
+        "n": null
+      }
+    ],
+    "field": "1005",
+    "indexVariant": "AIOE-2021",
+    "coverage": 51.4,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 75.96
   },
   "usyd-b-international-studies": {
     "tier": "field",
@@ -127937,6 +128681,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 93.16
   },
+  "usyd-biomedical-science": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0601 Medical Studies",
+        "n": null
+      }
+    ],
+    "field": "0601",
+    "indexVariant": "AIOE-2021",
+    "coverage": 79.3,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 82.07
+  },
   "usyd-biomedicine-and-health": {
     "tier": "field",
     "grain": "field",
@@ -128039,6 +128798,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "exposureWeighted": 75.56
   },
+  "usyd-clinical-dentistry": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 060701 Dentistry",
+        "n": null
+      }
+    ],
+    "field": "060701",
+    "indexVariant": "AIOE-2021",
+    "coverage": 72.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 58.35
+  },
   "usyd-clinical-epidemiology": {
     "tier": "field",
     "grain": "field",
@@ -128099,6 +128873,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 89.99
   },
+  "usyd-commerce-arts": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0803 Business and Management",
+        "n": null
+      }
+    ],
+    "field": "0803",
+    "indexVariant": "AIOE-2021",
+    "coverage": 34.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 89.99
+  },
   "usyd-commerce-extension": {
     "tier": "field",
     "grain": "field",
@@ -128113,6 +128902,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 34.6,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 89.99
+  },
+  "usyd-commerce-laws": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0909 Law",
+        "n": null
+      }
+    ],
+    "field": "0909",
+    "indexVariant": "AIOE-2021",
+    "coverage": 58.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 93.74
   },
   "usyd-commerce-science": {
     "tier": "field",
@@ -128712,6 +129516,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 93.74
   },
+  "usyd-electives-p2-jurisprudence-unit-of-study-table": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0909 Law",
+        "n": null
+      }
+    ],
+    "field": "0909",
+    "indexVariant": "AIOE-2021",
+    "coverage": 58.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 93.74
+  },
   "usyd-emba": {
     "tier": "field",
     "grain": "field",
@@ -128728,6 +129547,36 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "exposureWeighted": 89.99
   },
   "usyd-engineering": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
+  },
+  "usyd-engineering-commerce": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
+  },
+  "usyd-engineering-honours": {
     "tier": "field",
     "grain": "field",
     "sources": [
@@ -129226,6 +130075,17 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 87.53
   },
+  "usyd-juris-doctor": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Juris Doctor",
+        "n": 1277
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
   "usyd-labour-law-relations": {
     "tier": "field",
     "grain": "field",
@@ -129545,6 +130405,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 68.22
   },
+  "usyd-nursing-master": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 060301 General Nursing",
+        "n": null
+      }
+    ],
+    "field": "060301",
+    "indexVariant": "AIOE-2021",
+    "coverage": 75.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 68.22
+  },
   "usyd-nursing-nurse-practitioner": {
     "tier": "field",
     "grain": "field",
@@ -129815,6 +130690,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 91.5
   },
+  "usyd-psychology-honours": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 090701 Psychology",
+        "n": null
+      }
+    ],
+    "field": "090701",
+    "indexVariant": "AIOE-2021",
+    "coverage": 36.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 91.5
+  },
   "usyd-public-administration-executive-master": {
     "tier": "field",
     "grain": "field",
@@ -129865,6 +130755,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 30,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 83.69
+  },
+  "usyd-science-arts": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0001 Natural and Physical Sciences",
+        "n": null
+      }
+    ],
+    "field": "0001",
+    "indexVariant": "AIOE-2021",
+    "coverage": 21.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 76.38
   },
   "usyd-science-dental": {
     "tier": "field",
@@ -129996,6 +130901,42 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 82.07
   },
+  "usyd-science-nursing": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 060301 General Nursing",
+        "n": null
+      }
+    ],
+    "field": "060301",
+    "indexVariant": "AIOE-2021",
+    "coverage": 75.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 68.22
+  },
+  "usyd-sexual-reproductive-health": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 069999 Health, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "069999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 23.9,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "Health Information Manager",
+        "share": 3.448
+      }
+    ],
+    "exposureWeighted": 75.56
+  },
   "usyd-sleep-medicine": {
     "tier": "field",
     "grain": "field",
@@ -130010,6 +130951,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 79.3,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 82.07
+  },
+  "usyd-social-justice": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0901 Political Science and Policy Studies",
+        "n": null
+      }
+    ],
+    "field": "0901",
+    "indexVariant": "AIOE-2021",
+    "coverage": 33.2,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 87.53
   },
   "usyd-social-justice-development-studies": {
     "tier": "field",
@@ -130086,6 +131042,27 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 86.81
   },
+  "usyd-speech-pathology": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0915 Language and Literature",
+        "n": null
+      }
+    ],
+    "field": "0915",
+    "indexVariant": "AIOE-2021",
+    "coverage": 27,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "University Lecturer",
+        "share": 1.258
+      }
+    ],
+    "exposureWeighted": 87.75
+  },
   "usyd-strategic-public-relations": {
     "tier": "field",
     "grain": "field",
@@ -130100,6 +131077,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 55.2,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 88.31
+  },
+  "usyd-surgery": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0601 Medical Studies",
+        "n": null
+      }
+    ],
+    "field": "0601",
+    "indexVariant": "AIOE-2021",
+    "coverage": 79.3,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 82.07
   },
   "usyd-sustainability": {
     "tier": "field",

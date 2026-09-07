@@ -1,0 +1,103 @@
+{
+  "code": "usyd-biomedical-science",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in medical studies.",
+      "evidenceLines": [
+        "**Institution**: The University of Sydney (USYD)",
+        "**Course / Program Identifier**: biomedical-science",
+        "- **Institution**: The University of Sydney (USYD)"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in medical studies.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Faculty**: medicine-health-pg",
+        "- **Course / Program Identifier**: biomedical-science"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within medical studies.",
+      "evidenceLines": [
+        "Subject: BMSC5001 - Clinical Laboratory Science",
+        "Subject: BMSC5901 - Clinical Laboratory Science (Advanced)",
+        "**Handbook URL**: https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/biomedical-science.html"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in medical studies.",
+      "evidenceLines": [
+        "Demonstrate comprehensive knowledge of core concepts and methodological frameworks in clinical laboratory science.",
+        "Apply critical problem solving and rigorous evaluation to complex issues in clinical laboratory science.",
+        "- **Faculty**: medicine-health-pg"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in medical studies.",
+      "evidenceLines": [
+        "Subject: GMED5002 - Genomics, Omics and Medical Applications",
+        "Subject: BMSC5002 - Advances in Disease Diagnosis and Treatment",
+        "Communicate findings, technical arguments, and solutions clearly in academic and professional contexts."
+      ]
+    },
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in medical studies.",
+      "evidenceLines": [
+        "Major Assignment: 50%",
+        "- **Institution**: The University of Sydney (USYD)",
+        "- **Course / Program Identifier**: biomedical-science"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in medical studies.",
+      "evidenceLines": [
+        "Subject: GMED5001 - Genomics in Clinical Practice",
+        "Final Assessment: 50%",
+        "- **Faculty**: medicine-health-pg"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+      "evidenceLines": [
+        "Course resolutions",
+        "- **Handbook URL**: https://www.sydney.edu.au/handbooks/medicine-health-pg/coursework/biomedical-science.html",
+        "Subject: BMSC5901 - Clinical Laboratory Science (Advanced)"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Biomedical Science.",
+        "evidenceLines": [
+          "- **Institution**: The University of Sydney (USYD)",
+          "- **Faculty**: medicine-health-pg"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in medical studies.",
+        "evidenceLines": [
+          "- **Course / Program Identifier**: biomedical-science",
+          "Subject: BMSC5001 - Clinical Laboratory Science"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+    ],
+    "notScoreable": []
+  }
+}

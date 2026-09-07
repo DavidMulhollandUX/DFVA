@@ -21082,6 +21082,146 @@
       "fieldName": "General Nursing",
       "confidence": "high",
       "rationale": "Bachelor of Nursing -> ASCED 060301 General Nursing"
+    },
+    "usyd-arts-extended": {
+      "name": "Bachelor of Arts",
+      "field": "0009",
+      "fieldName": "Society and Culture",
+      "confidence": "high",
+      "rationale": "Bachelor of Arts -> ASCED 0009 Society and Culture"
+    },
+    "usyd-social-justice": {
+      "name": "Social Justice",
+      "field": "0901",
+      "fieldName": "Political Science and Policy Studies",
+      "confidence": "high",
+      "rationale": "Social Justice -> ASCED 0901 Political Science and Policy Studies"
+    },
+    "usyd-b-interaction-design-advanced-studies": {
+      "name": "Bachelor of Design; Bachelor of Design and Bachelor of Advanced Studies",
+      "field": "1005",
+      "fieldName": "Graphic and Design Studies",
+      "confidence": "high",
+      "rationale": "Bachelor of Design; Bachelor of Design and Bachelor of Advanced Studies -> ASCED 1005 Graphic and Design Studies"
+    },
+    "usyd-arts-nursing": {
+      "name": "Bachelor of Arts and Master of Nursing",
+      "field": "060301",
+      "fieldName": "General Nursing",
+      "confidence": "high",
+      "rationale": "Bachelor of Arts and Master of Nursing -> ASCED 060301 General Nursing"
+    },
+    "usyd-arts-laws": {
+      "name": "Bachelor of Arts and Bachelor of Laws",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Bachelor of Arts and Bachelor of Laws -> ASCED 0909 Law"
+    },
+    "usyd-commerce-arts": {
+      "name": "Bachelor of Commerce and Bachelor of Arts",
+      "field": "0803",
+      "fieldName": "Business and Management",
+      "confidence": "high",
+      "rationale": "Bachelor of Commerce and Bachelor of Arts -> ASCED 0803 Business and Management"
+    },
+    "usyd-science-arts": {
+      "name": "Bachelor of Science and Bachelor of Arts",
+      "field": "0001",
+      "fieldName": "Natural and Physical Sciences",
+      "confidence": "high",
+      "rationale": "Bachelor of Science and Bachelor of Arts -> ASCED 0001 Natural and Physical Sciences"
+    },
+    "usyd-engineering-commerce": {
+      "name": "Bachelor of Engineering Honours and Bachelor of Commerce",
+      "field": "039999",
+      "fieldName": "Engineering and Related Technologies, n.e.c.",
+      "confidence": "high",
+      "rationale": "Bachelor of Engineering Honours and Bachelor of Commerce -> ASCED 039999 Engineering and Related Technologies, n.e.c."
+    },
+    "usyd-engineering-honours": {
+      "name": "Bachelor of Engineering Honours",
+      "field": "039999",
+      "fieldName": "Engineering and Related Technologies, n.e.c.",
+      "confidence": "high",
+      "rationale": "Bachelor of Engineering Honours -> ASCED 039999 Engineering and Related Technologies, n.e.c."
+    },
+    "usyd-commerce-laws": {
+      "name": "Bachelor of Commerce and Bachelor of Laws",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Bachelor of Commerce and Bachelor of Laws -> ASCED 0909 Law"
+    },
+    "usyd-biomedical-science": {
+      "name": "Biomedical Science",
+      "field": "0601",
+      "fieldName": "Medical Studies",
+      "confidence": "high",
+      "rationale": "Biomedical Science -> ASCED 0601 Medical Studies"
+    },
+    "usyd-electives-p2-jurisprudence-unit-of-study-table": {
+      "name": "Bachelor of Laws",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Bachelor of Laws -> ASCED 0909 Law"
+    },
+    "usyd-nursing-master": {
+      "name": "Nursing",
+      "field": "060301",
+      "fieldName": "General Nursing",
+      "confidence": "high",
+      "rationale": "Nursing -> ASCED 060301 General Nursing"
+    },
+    "usyd-juris-doctor": {
+      "name": "Juris Doctor",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Juris Doctor -> ASCED 0909 Law"
+    },
+    "usyd-clinical-dentistry": {
+      "name": "Clinical Dentistry",
+      "field": "060701",
+      "fieldName": "Dentistry",
+      "confidence": "high",
+      "rationale": "Clinical Dentistry -> ASCED 060701 Dentistry"
+    },
+    "usyd-speech-pathology": {
+      "name": "Speech Language Pathology",
+      "field": "0915",
+      "fieldName": "Language and Literature",
+      "confidence": "high",
+      "rationale": "Speech Language Pathology -> ASCED 0915 Language and Literature"
+    },
+    "usyd-science-nursing": {
+      "name": "Bachelor of Science and Master of Nursing",
+      "field": "060301",
+      "fieldName": "General Nursing",
+      "confidence": "high",
+      "rationale": "Bachelor of Science and Master of Nursing -> ASCED 060301 General Nursing"
+    },
+    "usyd-sexual-reproductive-health": {
+      "name": "Sexual and Reproductive Health",
+      "field": "069999",
+      "fieldName": "Health, n.e.c.",
+      "confidence": "high",
+      "rationale": "Sexual and Reproductive Health -> ASCED 069999 Health, n.e.c."
+    },
+    "usyd-psychology-honours": {
+      "name": "Bachelor of Psychology Honours",
+      "field": "090701",
+      "fieldName": "Psychology",
+      "confidence": "high",
+      "rationale": "Bachelor of Psychology Honours -> ASCED 090701 Psychology"
+    },
+    "usyd-surgery": {
+      "name": "Surgery",
+      "field": "0601",
+      "fieldName": "Medical Studies",
+      "confidence": "high",
+      "rationale": "Surgery -> ASCED 0601 Medical Studies"
     }
   }
 }

@@ -2640,13 +2640,17 @@ import p_usyd_agriculture_environment from "./v4PanelC/usyd-agriculture-environm
 import p_usyd_animal_veterinary_bioscience from "./v4PanelC/usyd-animal-veterinary-bioscience";
 import p_usyd_art_curating from "./v4PanelC/usyd-art-curating";
 import p_usyd_arts_arts_advanced_studies from "./v4PanelC/usyd-arts-arts-advanced-studies";
+import p_usyd_arts_extended from "./v4PanelC/usyd-arts-extended";
+import p_usyd_arts_laws from "./v4PanelC/usyd-arts-laws";
 import p_usyd_arts_medicine from "./v4PanelC/usyd-arts-medicine";
+import p_usyd_arts_nursing from "./v4PanelC/usyd-arts-nursing";
 import p_usyd_arts_social_work from "./v4PanelC/usyd-arts-social-work";
 import p_usyd_b_architecture_environments from "./v4PanelC/usyd-b-architecture-environments";
 import p_usyd_b_design_architecture_m_architecture from "./v4PanelC/usyd-b-design-architecture-m-architecture";
 import p_usyd_b_design_architecture from "./v4PanelC/usyd-b-design-architecture";
 import p_usyd_b_design_honours from "./v4PanelC/usyd-b-design-honours";
 import p_usyd_b_economics_b_arts from "./v4PanelC/usyd-b-economics-b-arts";
+import p_usyd_b_interaction_design_advanced_studies from "./v4PanelC/usyd-b-interaction-design-advanced-studies";
 import p_usyd_b_international_studies from "./v4PanelC/usyd-b-international-studies";
 import p_usyd_b_languages_hons from "./v4PanelC/usyd-b-languages-hons";
 import p_usyd_b_languages from "./v4PanelC/usyd-b-languages";
@@ -2656,16 +2660,20 @@ import p_usyd_b_politics_philosophy_economics from "./v4PanelC/usyd-b-politics-p
 import p_usyd_bachelor_of_music_studies_honours from "./v4PanelC/usyd-bachelor-of-music-studies-honours";
 import p_usyd_bachelor_of_music from "./v4PanelC/usyd-bachelor-of-music";
 import p_usyd_bioethics from "./v4PanelC/usyd-bioethics";
+import p_usyd_biomedical_science from "./v4PanelC/usyd-biomedical-science";
 import p_usyd_biomedicine_and_health from "./v4PanelC/usyd-biomedicine-and-health";
 import p_usyd_biostatistics from "./v4PanelC/usyd-biostatistics";
 import p_usyd_brain_mind_sciences from "./v4PanelC/usyd-brain-mind-sciences";
 import p_usyd_building_performance_sustainable_design from "./v4PanelC/usyd-building-performance-sustainable-design";
 import p_usyd_business_law from "./v4PanelC/usyd-business-law";
 import p_usyd_child_adolescent_health from "./v4PanelC/usyd-child-adolescent-health";
+import p_usyd_clinical_dentistry from "./v4PanelC/usyd-clinical-dentistry";
 import p_usyd_clinical_epidemiology from "./v4PanelC/usyd-clinical-epidemiology";
 import p_usyd_clinical_neurophysiology from "./v4PanelC/usyd-clinical-neurophysiology";
 import p_usyd_clinical_surgery from "./v4PanelC/usyd-clinical-surgery";
+import p_usyd_commerce_arts from "./v4PanelC/usyd-commerce-arts";
 import p_usyd_commerce_extension from "./v4PanelC/usyd-commerce-extension";
+import p_usyd_commerce_laws from "./v4PanelC/usyd-commerce-laws";
 import p_usyd_commerce_science from "./v4PanelC/usyd-commerce-science";
 import p_usyd_commerce from "./v4PanelC/usyd-commerce";
 import p_usyd_compulsory_unit_of_study_table from "./v4PanelC/usyd-compulsory-unit-of-study-table";
@@ -2699,7 +2707,10 @@ import p_usyd_education_secondary_advanced from "./v4PanelC/usyd-education-secon
 import p_usyd_education_special_inclusive_education from "./v4PanelC/usyd-education-special-inclusive-education";
 import p_usyd_education from "./v4PanelC/usyd-education";
 import p_usyd_electives_p1_unit_of_study_table from "./v4PanelC/usyd-electives-p1-unit-of-study-table";
+import p_usyd_electives_p2_jurisprudence_unit_of_study_table from "./v4PanelC/usyd-electives-p2-jurisprudence-unit-of-study-table";
 import p_usyd_emba from "./v4PanelC/usyd-emba";
+import p_usyd_engineering_commerce from "./v4PanelC/usyd-engineering-commerce";
+import p_usyd_engineering_honours from "./v4PanelC/usyd-engineering-honours";
 import p_usyd_engineering from "./v4PanelC/usyd-engineering";
 import p_usyd_english_studies from "./v4PanelC/usyd-english-studies";
 import p_usyd_environmental_law from "./v4PanelC/usyd-environmental-law";
@@ -2731,6 +2742,7 @@ import p_usyd_international_business from "./v4PanelC/usyd-international-busines
 import p_usyd_international_law from "./v4PanelC/usyd-international-law";
 import p_usyd_international_ophthalmology from "./v4PanelC/usyd-international-ophthalmology";
 import p_usyd_international_relations from "./v4PanelC/usyd-international-relations";
+import p_usyd_juris_doctor from "./v4PanelC/usyd-juris-doctor";
 import p_usyd_labour_law_relations from "./v4PanelC/usyd-labour-law-relations";
 import p_usyd_liberal_arts_science_extended from "./v4PanelC/usyd-liberal-arts-science-extended";
 import p_usyd_liberal_arts_science from "./v4PanelC/usyd-liberal-arts-science";
@@ -2752,6 +2764,7 @@ import p_usyd_medicine_doctor from "./v4PanelC/usyd-medicine-doctor";
 import p_usyd_metabolic_health from "./v4PanelC/usyd-metabolic-health";
 import p_usyd_museum_heritage_studies from "./v4PanelC/usyd-museum-heritage-studies";
 import p_usyd_nursing_advanced_studies from "./v4PanelC/usyd-nursing-advanced-studies";
+import p_usyd_nursing_master from "./v4PanelC/usyd-nursing-master";
 import p_usyd_nursing_nurse_practitioner from "./v4PanelC/usyd-nursing-nurse-practitioner";
 import p_usyd_nutrition_dietetics from "./v4PanelC/usyd-nutrition-dietetics";
 import p_usyd_occupational_therapy from "./v4PanelC/usyd-occupational-therapy";
@@ -2767,20 +2780,27 @@ import p_usyd_physiotherapy from "./v4PanelC/usyd-physiotherapy";
 import p_usyd_political_economy from "./v4PanelC/usyd-political-economy";
 import p_usyd_professional_accounting_business_performance from "./v4PanelC/usyd-professional-accounting-business-performance";
 import p_usyd_psychology_coaching from "./v4PanelC/usyd-psychology-coaching";
+import p_usyd_psychology_honours from "./v4PanelC/usyd-psychology-honours";
 import p_usyd_psychology from "./v4PanelC/usyd-psychology";
 import p_usyd_public_administration_executive_master from "./v4PanelC/usyd-public-administration-executive-master";
 import p_usyd_public_health from "./v4PanelC/usyd-public-health";
 import p_usyd_publishing from "./v4PanelC/usyd-publishing";
+import p_usyd_science_arts from "./v4PanelC/usyd-science-arts";
 import p_usyd_science_dental from "./v4PanelC/usyd-science-dental";
 import p_usyd_science_extended from "./v4PanelC/usyd-science-extended";
 import p_usyd_science_medicine from "./v4PanelC/usyd-science-medicine";
+import p_usyd_science_nursing from "./v4PanelC/usyd-science-nursing";
+import p_usyd_sexual_reproductive_health from "./v4PanelC/usyd-sexual-reproductive-health";
 import p_usyd_sleep_medicine from "./v4PanelC/usyd-sleep-medicine";
 import p_usyd_social_justice_development_studies from "./v4PanelC/usyd-social-justice-development-studies";
 import p_usyd_social_justice_human_rights from "./v4PanelC/usyd-social-justice-human-rights";
 import p_usyd_social_justice_peace_conflict_studies from "./v4PanelC/usyd-social-justice-peace-conflict-studies";
+import p_usyd_social_justice from "./v4PanelC/usyd-social-justice";
 import p_usyd_social_work_qualifying from "./v4PanelC/usyd-social-work-qualifying";
 import p_usyd_social_work from "./v4PanelC/usyd-social-work";
+import p_usyd_speech_pathology from "./v4PanelC/usyd-speech-pathology";
 import p_usyd_strategic_public_relations from "./v4PanelC/usyd-strategic-public-relations";
+import p_usyd_surgery from "./v4PanelC/usyd-surgery";
 import p_usyd_sustainability from "./v4PanelC/usyd-sustainability";
 import p_usyd_taxation from "./v4PanelC/usyd-taxation";
 import p_usyd_teaching_english_to_speakers_of_other_languages from "./v4PanelC/usyd-teaching-english-to-speakers-of-other-languages";
@@ -5652,13 +5672,17 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "usyd-animal-veterinary-bioscience": p_usyd_animal_veterinary_bioscience,
   "usyd-art-curating": p_usyd_art_curating,
   "usyd-arts-arts-advanced-studies": p_usyd_arts_arts_advanced_studies,
+  "usyd-arts-extended": p_usyd_arts_extended,
+  "usyd-arts-laws": p_usyd_arts_laws,
   "usyd-arts-medicine": p_usyd_arts_medicine,
+  "usyd-arts-nursing": p_usyd_arts_nursing,
   "usyd-arts-social-work": p_usyd_arts_social_work,
   "usyd-b-architecture-environments": p_usyd_b_architecture_environments,
   "usyd-b-design-architecture-m-architecture": p_usyd_b_design_architecture_m_architecture,
   "usyd-b-design-architecture": p_usyd_b_design_architecture,
   "usyd-b-design-honours": p_usyd_b_design_honours,
   "usyd-b-economics-b-arts": p_usyd_b_economics_b_arts,
+  "usyd-b-interaction-design-advanced-studies": p_usyd_b_interaction_design_advanced_studies,
   "usyd-b-international-studies": p_usyd_b_international_studies,
   "usyd-b-languages-hons": p_usyd_b_languages_hons,
   "usyd-b-languages": p_usyd_b_languages,
@@ -5668,16 +5692,20 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "usyd-bachelor-of-music-studies-honours": p_usyd_bachelor_of_music_studies_honours,
   "usyd-bachelor-of-music": p_usyd_bachelor_of_music,
   "usyd-bioethics": p_usyd_bioethics,
+  "usyd-biomedical-science": p_usyd_biomedical_science,
   "usyd-biomedicine-and-health": p_usyd_biomedicine_and_health,
   "usyd-biostatistics": p_usyd_biostatistics,
   "usyd-brain-mind-sciences": p_usyd_brain_mind_sciences,
   "usyd-building-performance-sustainable-design": p_usyd_building_performance_sustainable_design,
   "usyd-business-law": p_usyd_business_law,
   "usyd-child-adolescent-health": p_usyd_child_adolescent_health,
+  "usyd-clinical-dentistry": p_usyd_clinical_dentistry,
   "usyd-clinical-epidemiology": p_usyd_clinical_epidemiology,
   "usyd-clinical-neurophysiology": p_usyd_clinical_neurophysiology,
   "usyd-clinical-surgery": p_usyd_clinical_surgery,
+  "usyd-commerce-arts": p_usyd_commerce_arts,
   "usyd-commerce-extension": p_usyd_commerce_extension,
+  "usyd-commerce-laws": p_usyd_commerce_laws,
   "usyd-commerce-science": p_usyd_commerce_science,
   "usyd-commerce": p_usyd_commerce,
   "usyd-compulsory-unit-of-study-table": p_usyd_compulsory_unit_of_study_table,
@@ -5711,7 +5739,10 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "usyd-education-special-inclusive-education": p_usyd_education_special_inclusive_education,
   "usyd-education": p_usyd_education,
   "usyd-electives-p1-unit-of-study-table": p_usyd_electives_p1_unit_of_study_table,
+  "usyd-electives-p2-jurisprudence-unit-of-study-table": p_usyd_electives_p2_jurisprudence_unit_of_study_table,
   "usyd-emba": p_usyd_emba,
+  "usyd-engineering-commerce": p_usyd_engineering_commerce,
+  "usyd-engineering-honours": p_usyd_engineering_honours,
   "usyd-engineering": p_usyd_engineering,
   "usyd-english-studies": p_usyd_english_studies,
   "usyd-environmental-law": p_usyd_environmental_law,
@@ -5743,6 +5774,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "usyd-international-law": p_usyd_international_law,
   "usyd-international-ophthalmology": p_usyd_international_ophthalmology,
   "usyd-international-relations": p_usyd_international_relations,
+  "usyd-juris-doctor": p_usyd_juris_doctor,
   "usyd-labour-law-relations": p_usyd_labour_law_relations,
   "usyd-liberal-arts-science-extended": p_usyd_liberal_arts_science_extended,
   "usyd-liberal-arts-science": p_usyd_liberal_arts_science,
@@ -5764,6 +5796,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "usyd-metabolic-health": p_usyd_metabolic_health,
   "usyd-museum-heritage-studies": p_usyd_museum_heritage_studies,
   "usyd-nursing-advanced-studies": p_usyd_nursing_advanced_studies,
+  "usyd-nursing-master": p_usyd_nursing_master,
   "usyd-nursing-nurse-practitioner": p_usyd_nursing_nurse_practitioner,
   "usyd-nutrition-dietetics": p_usyd_nutrition_dietetics,
   "usyd-occupational-therapy": p_usyd_occupational_therapy,
@@ -5779,20 +5812,27 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "usyd-political-economy": p_usyd_political_economy,
   "usyd-professional-accounting-business-performance": p_usyd_professional_accounting_business_performance,
   "usyd-psychology-coaching": p_usyd_psychology_coaching,
+  "usyd-psychology-honours": p_usyd_psychology_honours,
   "usyd-psychology": p_usyd_psychology,
   "usyd-public-administration-executive-master": p_usyd_public_administration_executive_master,
   "usyd-public-health": p_usyd_public_health,
   "usyd-publishing": p_usyd_publishing,
+  "usyd-science-arts": p_usyd_science_arts,
   "usyd-science-dental": p_usyd_science_dental,
   "usyd-science-extended": p_usyd_science_extended,
   "usyd-science-medicine": p_usyd_science_medicine,
+  "usyd-science-nursing": p_usyd_science_nursing,
+  "usyd-sexual-reproductive-health": p_usyd_sexual_reproductive_health,
   "usyd-sleep-medicine": p_usyd_sleep_medicine,
   "usyd-social-justice-development-studies": p_usyd_social_justice_development_studies,
   "usyd-social-justice-human-rights": p_usyd_social_justice_human_rights,
   "usyd-social-justice-peace-conflict-studies": p_usyd_social_justice_peace_conflict_studies,
+  "usyd-social-justice": p_usyd_social_justice,
   "usyd-social-work-qualifying": p_usyd_social_work_qualifying,
   "usyd-social-work": p_usyd_social_work,
+  "usyd-speech-pathology": p_usyd_speech_pathology,
   "usyd-strategic-public-relations": p_usyd_strategic_public_relations,
+  "usyd-surgery": p_usyd_surgery,
   "usyd-sustainability": p_usyd_sustainability,
   "usyd-taxation": p_usyd_taxation,
   "usyd-teaching-english-to-speakers-of-other-languages": p_usyd_teaching_english_to_speakers_of_other_languages,
