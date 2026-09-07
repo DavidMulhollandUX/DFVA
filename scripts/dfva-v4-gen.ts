@@ -6,6 +6,7 @@
 import { promises as fs, existsSync, readFileSync } from 'node:fs'
 import * as path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { institutionOf, isPublished, levelOf, type V4Level } from './lib-institution'
 import {
   ALL_V4_ITEMS,
   GATES_V4,
@@ -518,6 +519,7 @@ export async function appV4DataModules(): Promise<{
 }> {
   const evidenceDir = path.join(repoRoot, 'dfva', 'source', 'evidence')
   const results: Record<string, { adaptiveness?: number; workplace?: number }> = {}
+  const quarantined: string[] = []
   for (const f of (await fs.readdir(evidenceDir)).sort()) {
     if (!f.endsWith('.json')) continue
     const data = JSON.parse(await fs.readFile(path.join(evidenceDir, f), 'utf8')) as {
@@ -525,6 +527,15 @@ export async function appV4DataModules(): Promise<{
       panelCv4?: { instrument?: string; adaptiveness?: number; workplace?: number }
     }
     if (!data.panelCv4 || !data.code) continue
+
+    // Quarantine: an institution that has not cleared the re-score guards does
+    // not reach the generated app data. The evidence file stays on disk — this
+    // narrows what is published, it does not discard anything. See
+    // scripts/lib-institution.ts for why, and which institutions are published.
+    if (!isPublished(data.code)) {
+      quarantined.push(data.code)
+      continue
+    }
 
     // Every score record must state which instrument produced it — the v4 §4
     // migration cycle compares scores across a version boundary, so an
@@ -547,6 +558,21 @@ export async function appV4DataModules(): Promise<{
       console.warn(`  warn: ${f} states no instrument — derived ${instrument} from its item set.`)
     }
     results[data.code] = { ...data.panelCv4, instrument }
+  }
+
+  if (quarantined.length) {
+    const byInst: Record<string, number> = {}
+    for (const c of quarantined) {
+      const n = institutionOf(c).name
+      byInst[n] = (byInst[n] ?? 0) + 1
+    }
+    const summary = Object.entries(byInst)
+      .sort((a, b) => b[1] - a[1])
+      .map(([n, k]) => `${n} ${k}`)
+      .join(', ')
+    console.warn(
+      `  quarantined ${quarantined.length} scored program(s) from unpublished institutions: ${summary}`,
+    )
   }
 
   // The reference cohort is the basis for the median (v3.1 §10a rule 2: the
@@ -750,6 +776,9 @@ export async function appV4DataModules(): Promise<{
   interface V4IndexOut {
     code: string
     name: string
+    institution: string
+    institutionSlug: string
+    level: V4Level
     exposure: number | null
     entryExposure: number | null
     exposureTier: PanelABasis['tier'] | null
@@ -773,9 +802,13 @@ export async function appV4DataModules(): Promise<{
     const exp = v4Only[code]
       ? { exposure: v4Only[code].exposure, entryExposure: v4Only[code].entryExposure }
       : (indexExposure[code] ?? { exposure: null, entryExposure: null })
+    const inst = institutionOf(code)
     v4Index[code] = {
       code,
       name,
+      institution: inst.name,
+      institutionSlug: inst.slug,
+      level: levelOf(name),
       exposure: exp.exposure,
       entryExposure: exp.entryExposure,
       exposureTier: panelABasis[code]?.tier ?? null,
@@ -847,7 +880,8 @@ export async function appV4DataModules(): Promise<{
     ' *  for the handful of programs scored before v4.1 added the workplace\n' +
     ' *  sub-scale. `gates` carries PASS/FAIL only, null when unrecorded — pair with\n' +
     ' *  gateState()/gateStateFromResult() in v4/gateState.ts for display states. */\n' +
-    'export interface V4IndexEntry {\n  code: string;\n  name: string;\n  exposure: number | null;\n  entryExposure: number | null;\n  exposureTier: V4PanelATier | null;\n  adaptiveness: number;\n  workplace: number | null;\n  C1: number;\n  C2: number;\n  C3: number;\n  C4: number;\n  C5: number;\n  W1: number | null;\n  W2: number | null;\n  W3: number | null;\n  gates: { G1: "PASS" | "FAIL" | null; G2: "PASS" | "FAIL" | null };\n  verifiedAt: string | null;\n}\n\n' +
+    'export type V4Level = "bachelor" | "master" | "graduate-certificate" | "graduate-diploma" | "doctorate" | "other";\n\n' +
+    'export interface V4IndexEntry {\n  code: string;\n  name: string;\n  institution: string;\n  institutionSlug: string;\n  level: V4Level;\n  exposure: number | null;\n  entryExposure: number | null;\n  exposureTier: V4PanelATier | null;\n  adaptiveness: number;\n  workplace: number | null;\n  C1: number;\n  C2: number;\n  C3: number;\n  C4: number;\n  C5: number;\n  W1: number | null;\n  W2: number | null;\n  W3: number | null;\n  gates: { G1: "PASS" | "FAIL" | null; G2: "PASS" | "FAIL" | null };\n  verifiedAt: string | null;\n}\n\n' +
     `export const V4_INDEX: Record<string, V4IndexEntry> = ${JSON.stringify(v4Index, null, 2)};\n\n` +
     'export const v4IndexByCode = (code: string): V4IndexEntry | undefined =>\n  V4_INDEX[code.toLowerCase()];\n'
 

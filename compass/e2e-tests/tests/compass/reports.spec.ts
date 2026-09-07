@@ -21,15 +21,31 @@ const cardsOn = async (page: Page) => {
   return cards;
 };
 
+/**
+ * How many programs matched the current filters.
+ *
+ * Read this, never a `report-card` node count. The label is the page's own
+ * contract for the total, so a future windowing or paging change cannot break
+ * the suite. See .claude/skills/verify-evidura/features/reports-index.md.
+ */
+const matchCount = async (page: Page): Promise<number> => {
+  const label = page.locator('[data-testid="report-count"]');
+  await expect(label).toBeVisible(LOAD);
+  const text = (await label.textContent()) ?? "";
+  const n = Number(text.replace(/[^0-9]/g, ""));
+  expect(Number.isFinite(n)).toBe(true);
+  return n;
+};
+
 test.describe("/reports — v4-first index", () => {
   test("lists every program with one report link each", async ({ page }) => {
     await page.goto("/reports");
     const cards = await cardsOn(page);
-    const count = await cards.count();
-    expect(count).toBeGreaterThanOrEqual(90);
+    expect(await matchCount(page)).toBeGreaterThanOrEqual(90);
+    // Every rendered card carries exactly one report link.
     await expect(
       page.locator('[data-testid="durability-report-link"]'),
-    ).toHaveCount(count);
+    ).toHaveCount(await cards.count());
     // No card links to a legacy dfva-* slug; those are reached from the report page.
     await expect(
       page.locator('[data-testid="report-card"] a[href^="/reports/dfva-"]'),
@@ -37,23 +53,91 @@ test.describe("/reports — v4-first index", () => {
   });
 
   test("shows current and research statuses", async ({ page }) => {
-    await page.goto("/reports");
+    // Filter to each status so the count label answers, rather than counting
+    // badges in a virtualised DOM.
+    await page.goto("/reports?status=current");
     await cardsOn(page);
-    expect(
-      await page.locator('[data-testid="status-current"]').count(),
-    ).toBeGreaterThanOrEqual(60);
-    expect(
-      await page.locator('[data-testid="status-research"]').count(),
-    ).toBeGreaterThan(0);
+    expect(await matchCount(page)).toBeGreaterThanOrEqual(60);
+
+    await page.goto("/reports?status=research");
+    await cardsOn(page);
+    expect(await matchCount(page)).toBeGreaterThan(0);
+    await expect(
+      page.locator('[data-testid="status-research"]').first(),
+    ).toBeVisible(LOAD);
   });
 
   test("the Status facet narrows the list", async ({ page }) => {
     await page.goto("/reports");
-    const cards = await cardsOn(page);
-    const all = await cards.count();
+    await cardsOn(page);
+    const all = await matchCount(page);
     await page.getByLabel("Status").selectOption("research");
-    await expect.poll(() => cards.count()).toBeLessThan(all);
-    expect(await cards.count()).toBeGreaterThan(0);
+    await expect.poll(() => matchCount(page)).toBeLessThan(all);
+    expect(await matchCount(page)).toBeGreaterThan(0);
+  });
+
+  test("every card names the university that awards the program", async ({
+    page,
+  }) => {
+    await page.goto("/reports");
+    await cardsOn(page);
+    const institutions = page.locator('[data-testid="card-institution"]');
+    expect(await institutions.count()).toBeGreaterThan(0);
+    // An empty institution line would mean a program listed under no awarding
+    // body, which is what the pre-quarantine index effectively did by giving
+    // every program a University of Melbourne faculty.
+    for (const text of await institutions.allTextContents()) {
+      expect(text.trim().length).toBeGreaterThan(0);
+    }
+  });
+
+  test("the Level facet narrows the list and clears from its chip", async ({
+    page,
+  }) => {
+    await page.goto("/reports");
+    await cardsOn(page);
+    const all = await matchCount(page);
+
+    await page.getByLabel("Level").selectOption("bachelor");
+    await expect.poll(() => matchCount(page)).toBeLessThan(all);
+
+    // The active filter shows as a chip, and clicking it restores the list.
+    const chip = page.locator('[data-testid="filter-chip"]').first();
+    await expect(chip).toBeVisible(LOAD);
+    await chip.click();
+    await expect.poll(() => matchCount(page)).toBe(all);
+  });
+
+  test("the Sort control reorders without changing the match count", async ({
+    page,
+  }) => {
+    await page.goto("/reports?status=current");
+    await cardsOn(page);
+    const before = await matchCount(page);
+    const firstByName = await page
+      .locator('[data-testid="report-card"] h2')
+      .first()
+      .textContent();
+
+    await page.getByLabel("Sort by").selectOption("exposure");
+    // Poll the heading, not the count: the count is unchanged by a re-sort, so
+    // polling it succeeds before the reorder has rendered.
+    await expect
+      .poll(() =>
+        page.locator('[data-testid="report-card"] h2').first().textContent(),
+      )
+      .not.toBe(firstByName);
+    expect(await matchCount(page)).toBe(before);
+  });
+
+  test("a search term deep-links and survives reload", async ({ page }) => {
+    await page.goto("/reports?q=computer");
+    await cardsOn(page);
+    const n = await matchCount(page);
+    expect(n).toBeGreaterThan(0);
+    await page.reload();
+    await cardsOn(page);
+    expect(await matchCount(page)).toBe(n);
   });
 });
 

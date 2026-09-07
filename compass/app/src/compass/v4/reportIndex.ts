@@ -5,6 +5,7 @@ import {
   V4_INDEX,
   V4_RESEARCH_DEGREES,
   v4IndexByCode,
+  type V4Level,
   type V4PanelATier,
 } from "./data/v4Meta";
 import { v4Quadrant, type V4Quadrant } from "./v4Position";
@@ -17,6 +18,15 @@ import { v4Quadrant, type V4Quadrant } from "./v4Position";
 export interface ReportIndexEntry {
   code: string;
   name: string;
+  /** Owning university, e.g. "The University of Melbourne". */
+  institution: string;
+  /** URL-safe institution key, used as the /reports?university= value. */
+  institutionSlug: string;
+  /** Award level, derived in the generator so this file never parses a title. */
+  level: V4Level;
+  /** Faculty is a University of Melbourne concept: `faculty.ts` maps names onto
+   *  UoM's nine official faculties. Empty for every other institution rather
+   *  than a plausible-looking UoM faculty the program does not belong to. */
   faculty: string;
   status: "current" | "archived" | "research";
   exposure: number | null;
@@ -37,13 +47,17 @@ function entry(
 ): ReportIndexEntry {
   const v3 = v3ProgramByCode(code);
   const idx = v4IndexByCode(code);
+  const melbourne = !idx || idx.institutionSlug === "unimelb";
   const exposure = v3?.exposure ?? idx?.exposure ?? null;
   const exposureTier: V4PanelATier | null = idx?.exposureTier ?? null;
   const adaptiveness = idx?.adaptiveness ?? null;
   return {
     code,
     name,
-    faculty: v3?.faculty || faculty,
+    institution: idx?.institution ?? "The University of Melbourne",
+    institutionSlug: idx?.institutionSlug ?? "unimelb",
+    level: idx?.level ?? "other",
+    faculty: melbourne ? v3?.faculty || faculty : "",
     status: idx
       ? "current"
       : V4_RESEARCH_DEGREES.includes(code)

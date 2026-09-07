@@ -410,9 +410,13 @@ export function sortRows(rows: Row[], key: SortKey, dir: SortDir): Row[] {
  *  same fields it needs, so pass the narrow shape across. Shared by every
  *  page that renders a V4StatusBadge from a V4PortfolioRow. */
 export function toIndexEntryShape(r: V4PortfolioRow): ReportIndexEntry {
+  const idx = REPORT_INDEX.find((e) => e.code === r.code);
   return {
     code: r.code,
     name: r.name,
+    institution: idx?.institution ?? "The University of Melbourne",
+    institutionSlug: idx?.institutionSlug ?? "unimelb",
+    level: idx?.level ?? "other",
     faculty: r.faculty,
     status: r.unassessedReason ?? "current",
     exposure: r.exposure,
@@ -420,7 +424,7 @@ export function toIndexEntryShape(r: V4PortfolioRow): ReportIndexEntry {
     adaptiveness: r.adaptiveness,
     workplace: r.workplace,
     position: r.position,
-    archived: REPORT_INDEX.find((e) => e.code === r.code)?.archived ?? {
+    archived: idx?.archived ?? {
       v1: false,
       v31: false,
     },

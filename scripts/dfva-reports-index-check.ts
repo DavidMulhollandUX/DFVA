@@ -37,6 +37,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { V4_PANEL_C } from '../compass/app/src/compass/v4/data/v4PanelC'
 import { V4_RESEARCH_DEGREES } from '../compass/app/src/compass/v4/data/v4Meta'
+import { institutionOf, isPublished } from './lib-institution'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const evidenceDir = path.join(ROOT, 'dfva/source/evidence')
@@ -148,3 +149,80 @@ for (const f of readdirSync(evidenceDir)) {
   }
   if (d.panelCv4 && d.code) scored.push(d.code)
 }
+
+const errors: string[] = []
+const published = new Set(Object.keys(V4_PANEL_C))
+
+// A quarantined institution is absent from the generated map on purpose, so it
+// is not a drift error. Report it as a separate count instead of failing: the
+// state is "scored, not yet publishable", and lib-institution.ts owns the list.
+const quarantined = scored.filter((c) => !isPublished(c))
+const publishable = scored.filter((c) => isPublished(c))
+
+// 1. Scored but absent from the generated map: /reports still calls it archived.
+const stale = publishable.filter((c) => !published.has(c)).sort()
+for (const code of stale) {
+  errors.push(
+    `${code}: scored (panelCv4 block present) but missing from V4_PANEL_C, so /reports ` +
+      `still shows it as archived — run \`npm --prefix scripts run dfva:gen-v4\` and commit the result`,
+  )
+}
+
+// 2. The inverse: a published block with no evidence behind it would put a
+//    program on /reports as "current" on data that no longer exists.
+const orphaned = [...published].filter((c) => !publishable.includes(c)).sort()
+for (const code of orphaned) {
+  errors.push(
+    `${code}: in V4_PANEL_C but has no panelCv4 block in dfva/source/evidence — ` +
+      `/reports would present a score with no evidence behind it`,
+  )
+}
+
+// 3. A research degree is out of Panel C's scope; scoring one is a data error,
+//    and the index would show it as "current" rather than "research".
+const research = publishable.filter((c) => V4_RESEARCH_DEGREES.includes(c)).sort()
+for (const code of research) {
+  errors.push(
+    `${code}: is in V4_RESEARCH_DEGREES but carries a panelCv4 block — a research degree ` +
+      `has no taught curriculum to score, and /reports cannot show it as both`,
+  )
+}
+
+// 4. Nothing reaches /reports unverified. The quarantine exists because 2,838
+//    records were published with verifiedAt null; this is the guard that makes
+//    that state impossible rather than merely undone.
+for (const code of [...published].sort()) {
+  const rec = (V4_PANEL_C as Record<string, { verified?: { date?: string } }>)[code]
+  if (!rec?.verified?.date) {
+    errors.push(
+      `${code}: published in V4_PANEL_C with no verification date — a score reaches ` +
+        `/reports only after adversarial and mechanical verification have been stamped`,
+    )
+  }
+}
+
+if (quarantined.length) {
+  const byInst: Record<string, number> = {}
+  for (const c of quarantined) {
+    const n = institutionOf(c).name
+    byInst[n] = (byInst[n] ?? 0) + 1
+  }
+  console.log(
+    `Quarantined (scored, not publishable): ${quarantined.length} — ` +
+      Object.entries(byInst)
+        .sort((a, b) => b[1] - a[1])
+        .map(([n, k]) => `${n} ${k}`)
+        .join(', '),
+  )
+}
+
+console.log(
+  `Scored programs: ${scored.length} | publishable: ${publishable.length} | on /reports as current: ${published.size} | research degrees excluded: ${V4_RESEARCH_DEGREES.length}`,
+)
+
+if (errors.length) {
+  console.error(`\n❌ /reports index check: ${errors.length} problem(s)\n`)
+  for (const e of errors) console.error(`  - ${e}`)
+  process.exit(1)
+}
+console.log('✓ dfva-reports-index: every scored program is published on /reports.')

@@ -72,3 +72,24 @@
 - **Wasp in CI installs via npm only**: `npm install -g @wasp.sh/wasp-cli@0.24.0 @wasp.sh/wasp-cli-linux-x64-glibc@0.24.0` (curl installer rejects ≥0.21; the platform optionalDep is skipped without the explicit second package). Needs **node 24+** (wasp 0.24 requires >=24.14).
 - **`wasp test client run` breaks on Linux runners** — vitest externalizes the generated SDK and node fails on its internal imports ("Cannot find package 'wasp/server'"); works on macOS only because the node_modules/wasp symlink realpath escapes node_modules. CI runs `npx vitest run --config vitest.ci.config.mts` instead (aliases wasp/server → `src/test/waspServerShim.ts`). Locally keep using `wasp test client run`.
 - **`npm ci` fails in compass/app on a fresh checkout** (lockfile references the generated `.wasp/out/*` workspaces) — use `npm install`.
+
+- **`markdownlint-cli2` is configured but deliberately not wired into CI.**
+  `.markdownlint-cli2.jsonc` exists at the repo root, but a repo-wide run
+  reports **153,138 findings** — almost all in generated or archived files
+  (`docs/archive/claude-rules-changelog-2026-07.md` alone has 4,293,
+  `data/professions/**/evidence.md` thousands more). Wiring it without a
+  baseline would fail CI on the first push and teach everyone to ignore it.
+  Report prose is already guarded by `check-report-prose.py`, which runs in
+  ratchet mode against `scripts/report-prose-baseline.json`. If markdown ever
+  needs a gate, give markdownlint the same ratchet treatment first.
+
+- **`check-capture-provenance.ts` (`dfva:capture-check`) is still unwired, and
+  for a real reason.** It reads `PROGRAMS` from `sharedProgramData.ts` (67
+  entries) and looks for captures under `data/` — the v1-era store. The v4
+  corpus captures live in `scrapes/v4/<code>.txt`, so the check reports a false
+  error for any v4-era program: on 2026-09-07 it failed on `244cw`, which has a
+  67 KB capture in `scrapes/v4/` and is verified on both passes. Teaching it the
+  v4 store is worth doing; wiring it before that would only add a red CI step.
+  The verbatim half of the capture contract IS enforced —
+  `dfva-v4-verify-evidence.ts --strict` runs in `dfva:check` and checks every
+  evidence line against `scrapes/v4/`.

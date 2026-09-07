@@ -11,7 +11,7 @@
     "dfva:gen-assessments": "npx tsx dfva-build-assessments.ts",
     "dfva:v4-schema-check": "npx tsx dfva-v4-schema-check.ts",
     "dfva:v4-parity-check": "npx tsx dfva-v4-parity-check.ts",
-    "dfva:check": "npx tsx dfva-check.ts && npx tsx check-report-format.ts && npx tsx dfva-v4-schema-check.ts && npx tsx dfva-v4-parity-check.ts && npx tsx dfva-content-check.ts && npx tsx dfva-registry-check.ts && npx tsx dfva-assessments-check.ts && npx tsx dfva-panela-coverage-check.ts && npx tsx dfva-reports-index-check.ts && npx tsx dfva-instrument-purity-check.ts && npx tsx dfva-v4-verify-evidence.ts --strict && npx tsx check-capture-duplicates.ts && python3 check-report-prose.py",
+    "dfva:check": "npx tsx dfva-check.ts && npx tsx check-report-format.ts && npx tsx dfva-v4-schema-check.ts && npx tsx dfva-v4-parity-check.ts && npx tsx dfva-content-check.ts && npx tsx dfva-registry-check.ts && npx tsx dfva-assessments-check.ts && npx tsx dfva-panela-coverage-check.ts && npx tsx dfva-reports-index-check.ts && npx tsx dfva-v4-distinctness-check.ts && npx tsx dfva-instrument-purity-check.ts && npx tsx dfva-v4-verify-evidence.ts --strict && npx tsx check-capture-duplicates.ts && python3 check-report-prose.py",
     "dfva:assessments-check": "npx tsx dfva-assessments-check.ts",
     "dfva:check-registry": "npx tsx dfva-registry-check.ts",
     "dfva:content-check": "npx tsx dfva-content-check.ts",
@@ -45,7 +45,8 @@
     "dfva:go8-status": "python3 go8-handbook-status.py",
     "dfva:subjects-discover": "python3 national-subject-scrape.py --discover --institution all",
     "dfva:subjects-scrape": "python3 national-subject-scrape.py --scrape --wave 1 --workers 10",
-    "dfva:subjects-status": "python3 national-subject-status.py"
+    "dfva:subjects-status": "python3 national-subject-status.py",
+    "dfva:distinctness": "npx tsx dfva-v4-distinctness-check.ts"
   },
   "devDependencies": {
     "@types/node": "^25.9.3",
