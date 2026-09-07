@@ -1,0 +1,329 @@
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/programs/2026/3778 =====
+# Computer Science (3778)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 3778
+- **Academic Year**: 2026
+- **Study Level**: Undergraduate
+- **AQF Level**: Level 7
+- **Total Units / Units of Credit (UOC)**: 144
+- **Delivery Mode**: Face-to-face (includes blended)
+- **CRICOS Code**: 015784F
+- **Academic Organisation**: School of Computer Science and Engineering
+- **Handbook URL**: https://handbook.unsw.edu.au/undergraduate/programs/2026/3778
+
+## Description
+Computer Science involves the study of the design, construction and uses of computer systems. It is concerned with the representation of data and data structures in computer systems and the design of algorithms for automatic manipulation of this information by programming languages and machine systems. It is very much concerned with the design and development of hardware and software tools by which computer applications may be developed, but not so much with the applications themselves. It is, however, noted that non-computing elements (such as human interface or psychological aspects) can often dictate the level of success of computing systems. At UNSW, particular emphasis is given to comprehension of the basic principles behind computing tools, operating systems, compilers and translators, and computer hardware.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+7. Act professionally and ethically in all of their work.
+9. Contribute to professional communities of practice.
+1. Design and build correct, efficient and robust software systems.
+5. Manage time effectively, and make reasoned trade-offs over competing demands.
+8. Seek feedback, reflect and act to continually improve knowledge and skills.
+3. Effectively, persistently and creatively problem-solve, and produce well-crafted solutions.
+4. Critically analyse risk and assure the quality of software solutions.
+6. Effectively work in project teams, and lead teams when required.
+2. Analyse software and computer systems across a range of criteria.
+
+## Career Opportunities & Employment Areas
+Software engineer/developer, consultant, chief technology officer, database developer, game programmer, systems analyst, systems engineer.
+
+## Professional Recognition & Accreditation
+This program is accredited with the Australian Computer Society at the level of Professional.
+
+## Program Structure & Degree Requirements
+Students must complete 144 Units of Credit (UOC) structured across the following academic components:
+
+### Disciplinary Component (96 UOC)
+Students must complete 96 UOC of the following to satisfy the core requirements of this degree
+
+#### Majors
+COMPA1 is the default specialisation, and will be used if no other specialisation is selected.
+
+- **COMPA1**: Computer Science [96 UOC]
+- **COMPD1**: Computer Science (Database Systems) [96 UOC]
+- **COMPI1**: Computer Science (Artificial Intelligence) [96 UOC]
+- **COMPJ1**: Computer Science (Programming Languages) [96 UOC]
+- **COMPN1**: Computer Science (Computer Networks) [96 UOC]
+- **COMPS1**: Computer Science (Embedded Systems) [96 UOC]
+- **COMPY1**: Computer Science (Security Engineering) [96 UOC]
+
+### Free Electives (36 UOC)
+Students take 36 UOC of free electives. These free electives can be used to complete an optional minor.
+
+#### Optional Minor (0 UOC)
+Optional minors available include the following. If you complete a minor of 30 UOC, you will also need to take 6 UOC of free electives.
+
+- **ACCTA2**: Accounting [30 UOC]
+- **FINSA2**: Finance [30 UOC]
+- **INFSA2**: Information Systems [30 UOC]
+- **MARKA2**: Marketing [30 UOC]
+- **MATHC2**: Mathematics [36 UOC]
+- **PSYCM2**: Psychology [36 UOC]
+- ****: 
+
+### General Education (12 UOC)
+Students must take 12 UOC of any General Education course.
+
+NOTE: MATH and DATA courses do not meet the requirements of General Education for this program.
+
+===== SPECIALISATION / AREA OF STUDY =====
+### Computer Science (COMPA1)
+Computers are now ubiquitous, and critical to the functioning of all enterprises in modern industrial societies, from commerce to health and education. They now also play an important social role, opening new avenues for people to connect and to engage in public discourse. The demand for computing professionals capable of managing existing computing infrastructure or, more importantly, creating the next generation of computing applications, will continue to grow into the future.<br />
+<br />
+This stream provides a solid grounding in the fundamentals of the computing discipline (programs, algorithms, design, systems, software engineering) and then allows students to choose from a wide range of electives in later years. The flexibility of the stream allows students to take a broad range of courses, or to focus on one particular area of computing.<br />
+<br />
+This is the default plan for students in the 3778 BSc in Computer Science program or in dual degrees involving Computer Science.
+
+===== PRESCRIBED UNITS / SUBJECTS =====
+Subject: COMP1511 - Programming Fundamentals
+### COMP1511 - Programming Fundamentals
+Learning Outcomes:
+- Read and understand coding solutions.
+- Apply basic data structures, such as arrays and linked lists, to solve complex problems.
+- Apply C programming language to solve simple decision, looping, array, and linked list problems programmatically.
+- Review the produced code against specification criteria by applying testing techniques.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: MATH1131 - Mathematics 1A
+### MATH1131 - Mathematics 1A
+Learning Outcomes:
+- Communicate mathematical ideas in written form using correct terminology and using technology.
+- Use technology as an aid to solve appropriate problems in Algebra and Calculus.
+- Apply concepts in Algebra and Calculus to unexpected contexts.
+- Apply concepts and techniques from Algebra and Calculus to solve problems.
+- Identify and construct valid mathematical arguments.
+- Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP2111 - Foundations of Formal Methods
+### COMP2111 - Foundations of Formal Methods
+Learning Outcomes:
+- Analyse the relationship between proofs in formal logics and computer programs.
+- Explain the relevance of logical reasoning to Computer Science.
+- Reason rigorously about computer programs and demonstrate this reasoning.
+- Design and verify logically rigorous mathematical models of computational systems.
+- Employ a formal methods to software verification and system design.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP3900 - Computer Science Project
+### COMP3900 - Computer Science Project
+Learning Outcomes:
+- apply software development and software project management tools proficiently
+- analyse a set of requirements, elaborate them, and produce a detailed specification
+- optimise time management skills and make reasoned trade-offs over competing demands
+- articulate technical information clearly through both spoken and written communication
+- collaborate efficiently within a project team, assuming leadership responsibilities when necessary
+- verify the correctness and robustness of software
+- design and develop a correct, efficient and robust software system from specification
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP1521 - Computer Systems Fundamentals
+### COMP1521 - Computer Systems Fundamentals
+Learning Outcomes:
+- Design, implement, and analyse small programs at the assembly/machine level.
+- Describe the components comprising, and the services offered by, an operating system.
+- Explain how the major components of a CPU work together, including how data and instructions are represented in a computer.
+- Implement simple programs involving communication and concurrency.
+- Describe the relationship between a high-level procedural language (C) and assembly (machine language) which implements it, including how a compiled program is executed in a classical von Neumann machine.
+- Describe the architectural layers (fundamental parts) of a modern computer system from hardware device (chip) levels upwards.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: ENGG4600 - Engineering Vertically Integrated Project
+### ENGG4600 - Engineering Vertically Integrated Project
+Learning Outcomes:
+- (Teamwork) Students will be able to demonstrate the application of the elements of effective teamwork, and an ability to evaluate and positively influence a team’s effectiveness.
+- (Leadership) Students will exhibit significant influence on the effective functioning of a diverse team.
+- (Management) Students will be able to apply and critically evaluate their project, self, and people management skills, in the context of a diverse engineering project team.
+- (Technical) Students will be able to apply and critically reflect on advanced specialist knowledge related to their project work and the various facets and practical issues encountered.
+- (Communications) Students will be adept at effective oral and written communication in the context of the engineering project, to a variety of stakeholders, via presentation, written reports, and contribution to team and mentor meetings.
+- Students will be able to help others identify gaps in their capability and how to fill those gaps.
+- (Research/Enquiry) Students will be able to apply and critically evaluate engineering and enquiry-based methods in the pursuit of solving a team-based multidisciplinary engineering problem.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP2511 - Software Design and Architecture
+### COMP2511 - Software Design and Architecture
+Learning Outcomes:
+- Analyse characteristics of elegantly written software.
+- Create software solutions using an enterprise programming language within an integrated development environment (IDE).
+- Evaluate different design and architectural paradigms and methodologies based on their origins and suitability for specific software development scenarios.
+- Apply widely used Design and Architectural Patterns to create extensible designs.
+- Create medium-scale systems from scratch, and work on existing systems as part of the Software Development Life Cycle.
+- Apply the principles of Object-Oriented Design to solve problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP2041 - Software Construction: Techniques and Tools
+### COMP2041 - Software Construction: Techniques and Tools
+Learning Outcomes:
+- Solve problems by writing Unix shell scripts and Python programs
+- Understand when to use of specific technologies and strategies during software development
+- Build software systems using a range of techniques and strategies
+- Use tools for version control, system configuration, debugging, and performance improvement
+- Articulate and communicate effectively concepts related to programming and systems
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP1531 - Software Engineering Fundamentals
+### COMP1531 - Software Engineering Fundamentals
+Learning Outcomes:
+- Demonstrate effective use of static testing, dynamic testing, and user testing to validate and verify software systems.
+- Demonstrate effective use of software development tools to build full-stack end-user applications.
+- Follow the software engineering life cycle in the context of modern and iterative software development practices in order to elicit requirements, design systems thoughtfully, and implement software correctly.
+- Work in a well-functioning team, following professional expectations, maintaining healthy relationships, and managing conflict.
+- Demonstrate an ability to analyse complex software systems in terms of their data model, state model, and more.
+- Demonstrate an understanding of how to use version control, continuous integration, and deployment tooling to sustainably integrate code from multiple parties.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: MATH1231 - Mathematics 1B
+### MATH1231 - Mathematics 1B
+Learning Outcomes:
+- Apply concepts in Algebra and Calculus to unexpected contexts.
+- Apply concepts and techniques from Algebra and Calculus to solve problems.
+- Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems.
+- Communicate mathematical ideas in written and oral form using correct terminology and using technology.
+- Identify and construct valid mathematical arguments in the context of Algebra and Calculus.
+- Use technology as an aid to solve appropriate problems in Algebra and Calculus.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: MATH1081 - Discrete Mathematics
+### MATH1081 - Discrete Mathematics
+Learning Outcomes:
+- Use technology as an aid to communicate mathematical ideas by properly typesetting mathematical proofs.
+- Apply the concepts and proof techniques taught to solve problems requiring rigorous logical and mathematical arguments.
+- Communicate mathematical ideas effectively in written and oral form using correct terminology.
+- State the definitions and theorems of the Discrete Mathematics topics taught and recognise how they can be applied to standard numeric problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: MATH1241 - Higher Mathematics 1B
+### MATH1241 - Higher Mathematics 1B
+Learning Outcomes:
+- Communicate mathematical ideas in written and oral form using correct terminology and using technology.
+- Apply concepts and techniques from Algebra and Calculus to solve problems.
+- Apply concepts in Algebra and Calculus to unexpected contexts.
+- Identify and construct valid mathematical arguments and proofs of theorems in the context of Algebra and Calculus.
+- Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems.
+- Use technology as an aid to solve appropriate problems in Algebra and Calculus.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP3121 - Algorithm Design and Analysis
+### COMP3121 - Algorithm Design and Analysis
+Learning Outcomes:
+- Evaluate the efficiency of algorithms and justify their correctness.
+- Explain how standard design techniques are used to develop algorithms.
+- Apply the LaTeX typesetting system to produce high-quality technical documents.
+- Communicate algorithmic ideas at different levels of abstraction.
+- Solve problems by creatively applying algorithm design techniques.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: MATH1141 - Higher Mathematics 1A
+### MATH1141 - Higher Mathematics 1A
+Learning Outcomes:
+- Communicate mathematical ideas in written and oral form using correct terminology and using technology.
+- Use technology as an aid to solve appropriate problems in Algebra and Calculus.
+- Apply concepts in Algebra and Calculus to unexpected contexts.
+- Identify and construct valid mathematical arguments and proofs of theorems.
+- Apply concepts and techniques from Algebra and Calculus to solve problems.
+- Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP4920 - Professional Issues and Ethics in Information Technology
+### COMP4920 - Professional Issues and Ethics in Information Technology
+Learning Outcomes:
+- Articulate the major normative and meta-ethical theories that underpin real, research-level moral debates in both academic and professional contexts.
+- Recognise ethical issues and pitfalls in the professional practice of developing novel technologies, including AI (e.g. fairness, transparency, accountability), and learn about existing efforts to mitigate these issues.
+- Discuss ethical dilemmas around specific technological case studies.
+- Build, articulate, and justify their own moral arguments - as well as how to analyse moral judgements and moral arguments in general.
+- Define and employ ethical values, principles, and practices for responsible research and innovation of technological and computing advances.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: ENGG3600 - Engineering Vertically Integrated Project
+### ENGG3600 - Engineering Vertically Integrated Project
+Learning Outcomes:
+- (Communications) Students will exhibit competence in oral and written communication in the context of the engineering project, to a variety of stakeholders, via presentation, written reports, and contribution to team and mentor meetings.
+- Students will be able to independently identify a gap in their own capability and how to fill this gap.
+- (Technical) Students will be able to critically reflect on a specialist body of knowledge related to their project work and the various facets and practical issues encountered.
+- (Teamwork) Students will be able to apply the elements of effective teamwork and articulate a team’s strengths and weaknesses.
+- (Management) Students will be able to apply and critically evaluate their project and self-management skills in the context of a diverse engineering project team, and demonstrate an awareness of the principles and challenges of people/team management.
+- (Research/Enquiry) Students will be able to apply engineering and enquiry-based methods in the pursuit of solving a team-based multidisciplinary engineering problem.
+- (Leadership) Students will be able to provide able and effective aid in leading a diverse team.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP2521 - Data Structures and Algorithms
+### COMP2521 - Data Structures and Algorithms
+Learning Outcomes:
+- Choose/develop an appropriate data structure for a given problem
+- Measure the performance behaviour of programs
+- Package a set of data structures and algorithms as an abstract data type
+- Analyse the performance characteristics of algorithms
+- Describe and analyse fundamental data structures and algorithms
+- Choose/develop appropriate algorithms to manipulate chosen data structures
+- Reason about the effectiveness of data structures and algorithms for solving a given problem
+- Develop and maintain software systems in C that contain thousands of lines of code
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: ENGG2600 - Engineering Vertically Integrated Project
+### ENGG2600 - Engineering Vertically Integrated Project
+Learning Outcomes:
+- Students will be able to independently work towards filling an identified gap in their capability.
+- (Teamwork) Students will be able to demonstrate an awareness and application of the elements of effective teamwork, including constructive participation, respect, group decision-making, active listening, questioning and debate, and collaboration.
+- (Technical) Students will be able to apply a fundamental disciplinary body of knowledge related to their project work and the various facets and practical issues encountered.
+- (Research/Enquiry) Students will be able to demonstrate an understanding and fundamental application of engineering enquiry-based methods in the pursuit of solving an engineering problem.
+- (Management) Students will be able to apply effective engineering project management and self-management principles. Self-management principles include, but are not limited to, time and priority management, ability for critical self-review, commitment to self-directed learning and professional development, and presenting a professional image.
+- (Communication) Students will be exhibit competence in oral and written communication in the context of the engineering project, to a variety of stakeholders, via presentation, written reports, and contribution to team and mentor meetings.
+- (Leadership) Students will be able to demonstrate an awareness of the role leadership plays in a diverse team.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP3821 - Extended Algorithm Design and Analysis
+### COMP3821 - Extended Algorithm Design and Analysis
+Learning Outcomes:
+- Solve problems by creatively applying algorithm design techniques.
+- Determine limitations of algorithms by proving complexity lower bounds.
+- Apply the LaTeX typesetting system to produce high-quality technical documents.
+- Explain how standard design techniques are used to develop algorithms.
+- Communicate algorithmic ideas at different abstraction levels.
+- Formulate real-life scenarios as algorithmic problems.
+- Evaluate the efficiency of algorithms and justify their correctness.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+

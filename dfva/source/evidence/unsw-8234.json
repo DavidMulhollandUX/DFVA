@@ -1,0 +1,103 @@
+{
+  "code": "unsw-8234",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "adaptiveness": 14,
+    "workplace": 5,
+    "C1": {
+      "score": 3,
+      "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in graphic and design studies.",
+      "evidenceLines": [
+        "**Institution**: University of New South Wales (UNSW Sydney)",
+        "**Course Code**: 8234",
+        "- **Institution**: University of New South Wales (UNSW Sydney)"
+      ]
+    },
+    "C2": {
+      "score": 3,
+      "rationale": "Level 3: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in graphic and design studies.",
+      "evidenceLines": [
+        "**Academic Year**: 2026",
+        "**Study Level**: Postgraduate",
+        "- **Study Level**: Postgraduate"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within graphic and design studies.",
+      "evidenceLines": [
+        "Subject: IEST5005 - Environmental Communication: Culture and Transformation",
+        "Subject: MDIA5021 - Advertising and Creativity",
+        "**AQF Level**: Not specified"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in graphic and design studies.",
+      "evidenceLines": [
+        "**Total Units / Units of Credit (UOC)**: 144",
+        "**Delivery Mode**: On Campus",
+        "- **Total Units / Units of Credit (UOC)**: 144"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3: Applied investigation and empirical project work addressing real-world challenges in graphic and design studies.",
+      "evidenceLines": [
+        "Subject: ADAD9311 - Designing the Experience: Exhibitions and Beyond",
+        "Subject: MDIA5000 - Understanding Contemporary Media",
+        "**CRICOS Code**: 094951G"
+      ]
+    },
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: Professional conduct, ethical practice, and regulatory compliance aligned with standards in graphic and design studies.",
+      "evidenceLines": [
+        "**Academic Organisation**: School of the Arts and Media",
+        "- **Institution**: University of New South Wales (UNSW Sydney)",
+        "- **Study Level**: Postgraduate"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in graphic and design studies.",
+      "evidenceLines": [
+        "Subject: DDES9124 - Hybrid Crafting: New Technologies, Traditional Techniques",
+        "**Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/8234",
+        "- **Total Units / Units of Credit (UOC)**: 144"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: Academic coursework curriculum with elective industry engagements and experiential learning.",
+      "evidenceLines": [
+        "This dual award provides graduates or those seeking to change careers a professionally relevant, rigorous education in public relations and advertising and an industry-engaged, and professionally relevant education in design knowledge and skills. Increasingly PR and Advertising works with designers and design thinking, and designers are often working in the context of marketing and advertising.",
+        "- **Academic Organisation**: School of the Arts and Media",
+        "Subject: MDIA5021 - Advertising and Creativity"
+      ]
+    },
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in PR and Advertising / Design.",
+        "evidenceLines": [
+          "- **Institution**: University of New South Wales (UNSW Sydney)",
+          "- **Total Units / Units of Credit (UOC)**: 144"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Specialist academic program structured through sequential study in graphic and design studies.",
+        "evidenceLines": [
+          "- **Study Level**: Postgraduate",
+          "Subject: IEST5005 - Environmental Communication: Culture and Transformation"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+      "W3: Scored at Level 1 as external placement is an elective rather than a universal requirement."
+    ],
+    "notScoreable": []
+  }
+}

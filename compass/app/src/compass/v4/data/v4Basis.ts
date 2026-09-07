@@ -1334,6 +1334,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 75.96
     }
   },
+  "adelaide-bds_bds": {
+    "code": "adelaide-bds_bds",
+    "name": "Bachelor of Dental Surgery",
+    "hasMarketReport": false,
+    "exposure": 60.44,
+    "entryExposure": 60.44,
+    "jirN": null,
+    "nTitles": 6,
+    "nMedium": 2,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 060701 Dentistry",
+          "n": null
+        }
+      ],
+      "field": "060701",
+      "indexVariant": "AIOE-2021",
+      "coverage": 72.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 58.35
+    }
+  },
   "adelaide-bdvst_bdevstud": {
     "code": "adelaide-bdvst_bdevstud",
     "name": "Bachelor of International Development",
@@ -2143,6 +2168,37 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "adelaide-bhmsa_bhlthmsca": {
     "code": "adelaide-bhmsa_bhlthmsca",
     "name": "Bachelor of Health and Medical Sciences",
+    "hasMarketReport": false,
+    "exposure": 76.66,
+    "entryExposure": 72.12,
+    "jirN": null,
+    "nTitles": 12,
+    "nMedium": 4,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 069999 Health, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "069999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 23.9,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "Health Information Manager",
+          "share": 3.448
+        }
+      ],
+      "exposureWeighted": 75.56
+    }
+  },
+  "adelaide-bhsm_bhsmoua": {
+    "code": "adelaide-bhsm_bhsmoua",
+    "name": "Bachelor of Health Service Management [online]",
     "hasMarketReport": false,
     "exposure": 76.66,
     "entryExposure": 72.12,
@@ -39836,6 +39892,62 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 93.16
     }
   },
+  "monash-a0501": {
+    "code": "monash-a0501",
+    "name": "Diploma of Languages",
+    "hasMarketReport": false,
+    "exposure": 89.14,
+    "entryExposure": 88.69,
+    "jirN": null,
+    "nTitles": 16,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0915 Language and Literature",
+          "n": null
+        }
+      ],
+      "field": "0915",
+      "indexVariant": "AIOE-2021",
+      "coverage": 27,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "University Lecturer",
+          "share": 1.258
+        }
+      ],
+      "exposureWeighted": 87.75
+    }
+  },
+  "monash-a0502": {
+    "code": "monash-a0502",
+    "name": "Diploma of Liberal Arts",
+    "hasMarketReport": false,
+    "exposure": 81.93,
+    "entryExposure": 77.94,
+    "jirN": null,
+    "nTitles": 15,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0009 Society and Culture",
+          "n": null
+        }
+      ],
+      "field": "0009",
+      "indexVariant": "AIOE-2021",
+      "coverage": 26.8,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 80.97
+    }
+  },
   "monash-a0503": {
     "code": "monash-a0503",
     "name": "Diploma of Higher Education Studies",
@@ -40054,6 +40166,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       ],
       "indexVariant": "AIOE-2021",
       "note": "union of 1 \"Bachelor of Music (…)\" records"
+    }
+  },
+  "monash-a2006": {
+    "code": "monash-a2006",
+    "name": "Bachelor of Arts and Social Sciences",
+    "hasMarketReport": false,
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0001 Natural and Physical Sciences",
+          "n": null
+        }
+      ],
+      "field": "0001",
+      "indexVariant": "AIOE-2021",
+      "coverage": 21.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 76.38
     }
   },
   "monash-a2008": {
@@ -42150,6 +42287,48 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 89.99
     }
   },
+  "monash-b3701": {
+    "code": "monash-b3701",
+    "name": "Bachelor of Commerce",
+    "hasMarketReport": false,
+    "exposure": 97.01,
+    "entryExposure": 96.82,
+    "jirN": 8738,
+    "nTitles": 71,
+    "nMedium": 23,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Commerce (Accounting)",
+          "n": 1693
+        },
+        {
+          "name": "Bachelor of Commerce (Actuarial Studies)",
+          "n": 101
+        },
+        {
+          "name": "Bachelor of Commerce (Economics)",
+          "n": 1549
+        },
+        {
+          "name": "Bachelor of Commerce (Finance)",
+          "n": 3546
+        },
+        {
+          "name": "Bachelor of Commerce (Management)",
+          "n": 928
+        },
+        {
+          "name": "Bachelor of Commerce (Marketing)",
+          "n": 921
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+    }
+  },
   "monash-b3702": {
     "code": "monash-b3702",
     "name": "Bachelor of Business and Commerce",
@@ -42648,6 +42827,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 46.4,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 85.44
+    }
+  },
+  "monash-b6023": {
+    "code": "monash-b6023",
+    "name": "Master of Commerce",
+    "hasMarketReport": false,
+    "exposure": 88.71,
+    "entryExposure": 88.85,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0803 Business and Management",
+          "n": null
+        }
+      ],
+      "field": "0803",
+      "indexVariant": "AIOE-2021",
+      "coverage": 34.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 89.99
     }
   },
   "monash-b6024": {
@@ -44083,6 +44287,181 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 75.96
     }
   },
+  "monash-d3001": {
+    "code": "monash-d3001",
+    "name": "Bachelor of Education",
+    "hasMarketReport": false,
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "jirN": null,
+    "nTitles": 10,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0701 Teacher Education",
+          "n": null
+        }
+      ],
+      "field": "0701",
+      "indexVariant": "AIOE-2021",
+      "coverage": 71.9,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "School Teachers nfd",
+          "share": 3.74
+        },
+        {
+          "title": "University Lecturer",
+          "share": 0.631
+        }
+      ],
+      "exposureWeighted": 85.86
+    }
+  },
+  "monash-d3002": {
+    "code": "monash-d3002",
+    "name": "Bachelor of Education (Honours) and Bachelor of Arts",
+    "hasMarketReport": false,
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "jirN": null,
+    "nTitles": 10,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0701 Teacher Education",
+          "n": null
+        }
+      ],
+      "field": "0701",
+      "indexVariant": "AIOE-2021",
+      "coverage": 71.9,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "School Teachers nfd",
+          "share": 3.74
+        },
+        {
+          "title": "University Lecturer",
+          "share": 0.631
+        }
+      ],
+      "exposureWeighted": 85.86
+    }
+  },
+  "monash-d3004": {
+    "code": "monash-d3004",
+    "name": "Bachelor of Education (Honours) and Bachelor of Music",
+    "hasMarketReport": false,
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "jirN": null,
+    "nTitles": 10,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0701 Teacher Education",
+          "n": null
+        }
+      ],
+      "field": "0701",
+      "indexVariant": "AIOE-2021",
+      "coverage": 71.9,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "School Teachers nfd",
+          "share": 3.74
+        },
+        {
+          "title": "University Lecturer",
+          "share": 0.631
+        }
+      ],
+      "exposureWeighted": 85.86
+    }
+  },
+  "monash-d3005": {
+    "code": "monash-d3005",
+    "name": "Bachelor of Education (Honours) and Bachelor of Science",
+    "hasMarketReport": false,
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "jirN": null,
+    "nTitles": 10,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0701 Teacher Education",
+          "n": null
+        }
+      ],
+      "field": "0701",
+      "indexVariant": "AIOE-2021",
+      "coverage": 71.9,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "School Teachers nfd",
+          "share": 3.74
+        },
+        {
+          "title": "University Lecturer",
+          "share": 0.631
+        }
+      ],
+      "exposureWeighted": 85.86
+    }
+  },
+  "monash-d3006": {
+    "code": "monash-d3006",
+    "name": "Bachelor of Education (Honours) and Bachelor of Fine Art",
+    "hasMarketReport": false,
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "jirN": null,
+    "nTitles": 10,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0701 Teacher Education",
+          "n": null
+        }
+      ],
+      "field": "0701",
+      "indexVariant": "AIOE-2021",
+      "coverage": 71.9,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "School Teachers nfd",
+          "share": 3.74
+        },
+        {
+          "title": "University Lecturer",
+          "share": 0.631
+        }
+      ],
+      "exposureWeighted": 85.86
+    }
+  },
   "monash-d3007": {
     "code": "monash-d3007",
     "name": "Bachelor of Education",
@@ -44277,6 +44656,41 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 36.6,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 91.5
+    }
+  },
+  "monash-d6001": {
+    "code": "monash-d6001",
+    "name": "Master of Teaching",
+    "hasMarketReport": false,
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "jirN": null,
+    "nTitles": 10,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0701 Teacher Education",
+          "n": null
+        }
+      ],
+      "field": "0701",
+      "indexVariant": "AIOE-2021",
+      "coverage": 71.9,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "School Teachers nfd",
+          "share": 3.74
+        },
+        {
+          "title": "University Lecturer",
+          "share": 0.631
+        }
+      ],
+      "exposureWeighted": 85.86
     }
   },
   "monash-d6002": {
@@ -49109,6 +49523,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 93.16
     }
   },
+  "monash-s6000": {
+    "code": "monash-s6000",
+    "name": "Master of Science",
+    "hasMarketReport": false,
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0001 Natural and Physical Sciences",
+          "n": null
+        }
+      ],
+      "field": "0001",
+      "indexVariant": "AIOE-2021",
+      "coverage": 21.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 76.38
+    }
+  },
   "monash-s6001": {
     "code": "monash-s6001",
     "name": "Master of Financial Mathematics",
@@ -49700,6 +50139,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 81.58
     }
   },
+  "unsw-3061": {
+    "code": "unsw-3061",
+    "name": "Food Science",
+    "hasMarketReport": false,
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0001 Natural and Physical Sciences",
+          "n": null
+        }
+      ],
+      "field": "0001",
+      "indexVariant": "AIOE-2021",
+      "coverage": 21.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 76.38
+    }
+  },
   "unsw-3131": {
     "code": "unsw-3131",
     "name": "Materials Science and Engineering",
@@ -50229,6 +50693,37 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 26.8,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 80.97
+    }
+  },
+  "unsw-3417": {
+    "code": "unsw-3417",
+    "name": "Language Studies",
+    "hasMarketReport": false,
+    "exposure": 89.14,
+    "entryExposure": 88.69,
+    "jirN": null,
+    "nTitles": 16,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0915 Language and Literature",
+          "n": null
+        }
+      ],
+      "field": "0915",
+      "indexVariant": "AIOE-2021",
+      "coverage": 27,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "University Lecturer",
+          "share": 1.258
+        }
+      ],
+      "exposureWeighted": 87.75
     }
   },
   "unsw-3422": {
@@ -51022,6 +51517,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 96.87
     }
   },
+  "unsw-3706": {
+    "code": "unsw-3706",
+    "name": "Engineering Science",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
+    }
+  },
   "unsw-3707": {
     "code": "unsw-3707",
     "name": "Engineering",
@@ -51170,6 +51690,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 21.5,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 76.38
+    }
+  },
+  "unsw-3738": {
+    "code": "unsw-3738",
+    "name": "Engineering Science / Computer Science",
+    "hasMarketReport": false,
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0201 Computer Science",
+          "n": null
+        }
+      ],
+      "field": "0201",
+      "indexVariant": "AIOE-2021",
+      "coverage": 52.1,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 87.21
     }
   },
   "unsw-3739": {
@@ -51384,6 +51929,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 86.88
     }
   },
+  "unsw-3774": {
+    "code": "unsw-3774",
+    "name": "Computer Science",
+    "hasMarketReport": false,
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0201 Computer Science",
+          "n": null
+        }
+      ],
+      "field": "0201",
+      "indexVariant": "AIOE-2021",
+      "coverage": 52.1,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 87.21
+    }
+  },
   "unsw-3775": {
     "code": "unsw-3775",
     "name": "Surveying",
@@ -51437,6 +52007,56 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "unsw-3777": {
     "code": "unsw-3777",
     "name": "Cyber Security",
+    "hasMarketReport": false,
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0201 Computer Science",
+          "n": null
+        }
+      ],
+      "field": "0201",
+      "indexVariant": "AIOE-2021",
+      "coverage": 52.1,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 87.21
+    }
+  },
+  "unsw-3778": {
+    "code": "unsw-3778",
+    "name": "Computer Science",
+    "hasMarketReport": false,
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0201 Computer Science",
+          "n": null
+        }
+      ],
+      "field": "0201",
+      "indexVariant": "AIOE-2021",
+      "coverage": 52.1,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 87.21
+    }
+  },
+  "unsw-3779": {
+    "code": "unsw-3779",
+    "name": "Advanced Computer Science",
     "hasMarketReport": false,
     "exposure": 83.3,
     "entryExposure": 81.63,
@@ -51618,6 +52238,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "unsw-3789": {
     "code": "unsw-3789",
     "name": "Science / Computer Science",
+    "hasMarketReport": false,
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0201 Computer Science",
+          "n": null
+        }
+      ],
+      "field": "0201",
+      "indexVariant": "AIOE-2021",
+      "coverage": 52.1,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 87.21
+    }
+  },
+  "unsw-3792": {
+    "code": "unsw-3792",
+    "name": "Computer Science / Fine Arts",
     "hasMarketReport": false,
     "exposure": 83.3,
     "entryExposure": 81.63,
@@ -53565,6 +54210,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 87.21
     }
   },
+  "unsw-4501": {
+    "code": "unsw-4501",
+    "name": "Commerce",
+    "hasMarketReport": false,
+    "exposure": 88.71,
+    "entryExposure": 88.85,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0803 Business and Management",
+          "n": null
+        }
+      ],
+      "field": "0803",
+      "indexVariant": "AIOE-2021",
+      "coverage": 34.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 89.99
+    }
+  },
   "unsw-4502": {
     "code": "unsw-4502",
     "name": "Economics",
@@ -53675,6 +54345,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 85.86
     }
   },
+  "unsw-4511": {
+    "code": "unsw-4511",
+    "name": "Arts",
+    "hasMarketReport": false,
+    "exposure": 81.93,
+    "entryExposure": 77.94,
+    "jirN": null,
+    "nTitles": 15,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0009 Society and Culture",
+          "n": null
+        }
+      ],
+      "field": "0009",
+      "indexVariant": "AIOE-2021",
+      "coverage": 26.8,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 80.97
+    }
+  },
   "unsw-4512": {
     "code": "unsw-4512",
     "name": "Business",
@@ -53698,6 +54393,56 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 34.6,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 89.99
+    }
+  },
+  "unsw-4513": {
+    "code": "unsw-4513",
+    "name": "Science",
+    "hasMarketReport": false,
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0001 Natural and Physical Sciences",
+          "n": null
+        }
+      ],
+      "field": "0001",
+      "indexVariant": "AIOE-2021",
+      "coverage": 21.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 76.38
+    }
+  },
+  "unsw-4515": {
+    "code": "unsw-4515",
+    "name": "Computer Science & Engineering",
+    "hasMarketReport": false,
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0201 Computer Science",
+          "n": null
+        }
+      ],
+      "field": "0201",
+      "indexVariant": "AIOE-2021",
+      "coverage": 52.1,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 87.21
     }
   },
   "unsw-4516": {
@@ -53773,6 +54518,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 36.6,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 91.5
+    }
+  },
+  "unsw-4519": {
+    "code": "unsw-4519",
+    "name": "Arts",
+    "hasMarketReport": false,
+    "exposure": 81.93,
+    "entryExposure": 77.94,
+    "jirN": null,
+    "nTitles": 15,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0009 Society and Culture",
+          "n": null
+        }
+      ],
+      "field": "0009",
+      "indexVariant": "AIOE-2021",
+      "coverage": 26.8,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 80.97
     }
   },
   "unsw-4520": {
@@ -54400,6 +55170,56 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 90.69
     }
   },
+  "unsw-4825": {
+    "code": "unsw-4825",
+    "name": "Design",
+    "hasMarketReport": false,
+    "exposure": 74.96,
+    "entryExposure": 73.3,
+    "jirN": null,
+    "nTitles": 17,
+    "nMedium": 5,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 1005 Graphic and Design Studies",
+          "n": null
+        }
+      ],
+      "field": "1005",
+      "indexVariant": "AIOE-2021",
+      "coverage": 51.4,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 75.96
+    }
+  },
+  "unsw-4830": {
+    "code": "unsw-4830",
+    "name": "Fine Arts",
+    "hasMarketReport": false,
+    "exposure": 71.19,
+    "entryExposure": 63.73,
+    "jirN": null,
+    "nTitles": 15,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 100301 Fine Arts",
+          "n": null
+        }
+      ],
+      "field": "100301",
+      "indexVariant": "AIOE-2021",
+      "coverage": 25.7,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 69.45
+    }
+  },
   "unsw-4831": {
     "code": "unsw-4831",
     "name": "Fine Arts / Arts",
@@ -54498,6 +55318,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 58.6,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 93.74
+    }
+  },
+  "unsw-5036": {
+    "code": "unsw-5036",
+    "name": "Food Science",
+    "hasMarketReport": false,
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0001 Natural and Physical Sciences",
+          "n": null
+        }
+      ],
+      "field": "0001",
+      "indexVariant": "AIOE-2021",
+      "coverage": 21.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 76.38
     }
   },
   "unsw-5046": {
@@ -54873,6 +55718,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 46.4,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 85.44
+    }
+  },
+  "unsw-5373": {
+    "code": "unsw-5373",
+    "name": "Engineering Science",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
     }
   },
   "unsw-5405": {
@@ -55293,6 +56163,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 93.16
     }
   },
+  "unsw-5546": {
+    "code": "unsw-5546",
+    "name": "Information Technology",
+    "hasMarketReport": false,
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0201 Computer Science",
+          "n": null
+        }
+      ],
+      "field": "0201",
+      "indexVariant": "AIOE-2021",
+      "coverage": 52.1,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 87.21
+    }
+  },
   "unsw-5567": {
     "code": "unsw-5567",
     "name": "Global Health",
@@ -55711,6 +56606,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 75.56
     }
   },
+  "unsw-7016": {
+    "code": "unsw-7016",
+    "name": "Humanities",
+    "hasMarketReport": false,
+    "exposure": 81.93,
+    "entryExposure": 77.94,
+    "jirN": null,
+    "nTitles": 15,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0009 Society and Culture",
+          "n": null
+        }
+      ],
+      "field": "0009",
+      "indexVariant": "AIOE-2021",
+      "coverage": 26.8,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 80.97
+    }
+  },
   "unsw-7019": {
     "code": "unsw-7019",
     "name": "Indigenous Preparatory Program",
@@ -55784,6 +56704,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 52.1,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 87.21
+    }
+  },
+  "unsw-7037": {
+    "code": "unsw-7037",
+    "name": "Food Science",
+    "hasMarketReport": false,
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0001 Natural and Physical Sciences",
+          "n": null
+        }
+      ],
+      "field": "0001",
+      "indexVariant": "AIOE-2021",
+      "coverage": 21.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 76.38
     }
   },
   "unsw-7123": {
@@ -56624,6 +57569,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 46.4,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 85.44
+    }
+  },
+  "unsw-7373": {
+    "code": "unsw-7373",
+    "name": "Engineering Science",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
     }
   },
   "unsw-7379": {
@@ -57777,6 +58747,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 87.93
     }
   },
+  "unsw-8037": {
+    "code": "unsw-8037",
+    "name": "Food Science",
+    "hasMarketReport": false,
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0001 Natural and Physical Sciences",
+          "n": null
+        }
+      ],
+      "field": "0001",
+      "indexVariant": "AIOE-2021",
+      "coverage": 21.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 76.38
+    }
+  },
   "unsw-8059": {
     "code": "unsw-8059",
     "name": "Mine Geotechnical Engineering",
@@ -57875,6 +58870,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 41.7,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 93.16
+    }
+  },
+  "unsw-8136": {
+    "code": "unsw-8136",
+    "name": "Landscape Architecture",
+    "hasMarketReport": false,
+    "exposure": 82.16,
+    "entryExposure": 81.74,
+    "jirN": null,
+    "nTitles": 16,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0401 Architecture and Urban Environment",
+          "n": null
+        }
+      ],
+      "field": "0401",
+      "indexVariant": "AIOE-2021",
+      "coverage": 56.8,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 85.13
     }
   },
   "unsw-8143": {
@@ -58052,6 +59072,112 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 93.16
     }
   },
+  "unsw-8224": {
+    "code": "unsw-8224",
+    "name": "Combined Arts/Social Sciences",
+    "hasMarketReport": false,
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0001 Natural and Physical Sciences",
+          "n": null
+        }
+      ],
+      "field": "0001",
+      "indexVariant": "AIOE-2021",
+      "coverage": 21.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 76.38
+    }
+  },
+  "unsw-8232": {
+    "code": "unsw-8232",
+    "name": "Journalism and Communication",
+    "hasMarketReport": false,
+    "exposure": 89.25,
+    "entryExposure": 88.87,
+    "jirN": null,
+    "nTitles": 12,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 100703 Journalism",
+          "n": null
+        }
+      ],
+      "field": "100703",
+      "indexVariant": "AIOE-2021",
+      "coverage": 46.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 89.06
+    }
+  },
+  "unsw-8234": {
+    "code": "unsw-8234",
+    "name": "PR and Advertising / Design",
+    "hasMarketReport": false,
+    "exposure": 74.96,
+    "entryExposure": 73.3,
+    "jirN": null,
+    "nTitles": 17,
+    "nMedium": 5,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 1005 Graphic and Design Studies",
+          "n": null
+        }
+      ],
+      "field": "1005",
+      "indexVariant": "AIOE-2021",
+      "coverage": 51.4,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 75.96
+    }
+  },
+  "unsw-8236": {
+    "code": "unsw-8236",
+    "name": "Applied Linguistics",
+    "hasMarketReport": false,
+    "exposure": 88.72,
+    "entryExposure": 88.72,
+    "jirN": null,
+    "nTitles": 7,
+    "nMedium": 2,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 091521 Linguistics",
+          "n": null
+        }
+      ],
+      "field": "091521",
+      "indexVariant": "AIOE-2021",
+      "coverage": 32.9,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "School Teachers nfd",
+          "share": 2.857
+        }
+      ],
+      "exposureWeighted": 91.11
+    }
+  },
   "unsw-8256": {
     "code": "unsw-8256",
     "name": "Psychology",
@@ -58152,6 +59278,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 76.38
     }
   },
+  "unsw-8281": {
+    "code": "unsw-8281",
+    "name": "PR and Advertising",
+    "hasMarketReport": false,
+    "exposure": 91.34,
+    "entryExposure": 90.05,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0008 Management and Commerce",
+          "n": null
+        }
+      ],
+      "field": "0008",
+      "indexVariant": "AIOE-2021",
+      "coverage": 41.7,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 93.16
+    }
+  },
   "unsw-8318": {
     "code": "unsw-8318",
     "name": "Construction Project Management / Property and Development",
@@ -58180,6 +59331,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "unsw-8335": {
     "code": "unsw-8335",
     "name": "Mining Engineering",
+    "hasMarketReport": false,
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "039999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 45.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 86.88
+    }
+  },
+  "unsw-8338": {
+    "code": "unsw-8338",
+    "name": "Engineering Science",
     "hasMarketReport": false,
     "exposure": 83.48,
     "entryExposure": 82.67,
@@ -58902,6 +60078,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 93.16
     }
   },
+  "unsw-8543": {
+    "code": "unsw-8543",
+    "name": "Information Technology",
+    "hasMarketReport": false,
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0201 Computer Science",
+          "n": null
+        }
+      ],
+      "field": "0201",
+      "indexVariant": "AIOE-2021",
+      "coverage": 52.1,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 87.21
+    }
+  },
   "unsw-8544": {
     "code": "unsw-8544",
     "name": "Information Technology / Commerce",
@@ -59202,6 +60403,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 86.88
     }
   },
+  "unsw-8623": {
+    "code": "unsw-8623",
+    "name": "Environmental Management",
+    "hasMarketReport": false,
+    "exposure": 80.55,
+    "entryExposure": 80.71,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0509 Environmental Studies",
+          "n": null
+        }
+      ],
+      "field": "0509",
+      "indexVariant": "AIOE-2021",
+      "coverage": 34.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 82.87
+    }
+  },
   "unsw-8624": {
     "code": "unsw-8624",
     "name": "Space Operations",
@@ -59500,6 +60726,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "coverage": 52.1,
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 87.21
+    }
+  },
+  "unsw-8660": {
+    "code": "unsw-8660",
+    "name": "Biomedical Engineering",
+    "hasMarketReport": false,
+    "exposure": 87.13,
+    "entryExposure": 87.13,
+    "jirN": null,
+    "nTitles": 1,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 039903 Biomedical Engineering",
+          "n": null
+        }
+      ],
+      "field": "039903",
+      "indexVariant": "AIOE-2021",
+      "coverage": 25,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 87.13
     }
   },
   "unsw-8717": {
@@ -69600,6 +70851,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "indexVariant": "AIOE-2021"
     }
   },
+  "usyd-advanced-computing-commerce": {
+    "code": "usyd-advanced-computing-commerce",
+    "name": "Bachelor of Advanced Computing and Bachelor of Commerce",
+    "hasMarketReport": false,
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "jirN": null,
+    "nTitles": 14,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0201 Computer Science",
+          "n": null
+        }
+      ],
+      "field": "0201",
+      "indexVariant": "AIOE-2021",
+      "coverage": 52.1,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 87.21
+    }
+  },
   "usyd-advanced-computing": {
     "code": "usyd-advanced-computing",
     "name": "Bachelor of Advanced Computing",
@@ -71440,6 +72716,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 85.86
     }
   },
+  "usyd-electives-p1-unit-of-study-table": {
+    "code": "usyd-electives-p1-unit-of-study-table",
+    "name": "Bachelor of Laws",
+    "hasMarketReport": false,
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 4,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0909 Law",
+          "n": null
+        }
+      ],
+      "field": "0909",
+      "indexVariant": "AIOE-2021",
+      "coverage": 58.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 93.74
+    }
+  },
   "usyd-emba": {
     "code": "usyd-emba",
     "name": "Executive Business Administration",
@@ -72778,6 +74079,31 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "exposureWeighted": 69.45
     }
   },
+  "usyd-nursing-advanced-studies": {
+    "code": "usyd-nursing-advanced-studies",
+    "name": "Bachelor of Nursing",
+    "hasMarketReport": false,
+    "exposure": 66.46,
+    "entryExposure": 66.2,
+    "jirN": null,
+    "nTitles": 11,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 060301 General Nursing",
+          "n": null
+        }
+      ],
+      "field": "060301",
+      "indexVariant": "AIOE-2021",
+      "coverage": 75.6,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 68.22
+    }
+  },
   "usyd-nursing-nurse-practitioner": {
     "code": "usyd-nursing-nurse-practitioner",
     "name": "Nursing",
@@ -73677,6 +75003,41 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "usyd-teaching-english-to-speakers-of-other-languages": {
     "code": "usyd-teaching-english-to-speakers-of-other-languages",
     "name": "Teaching English to Speakers of Other Languages",
+    "hasMarketReport": false,
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "jirN": null,
+    "nTitles": 10,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 0701 Teacher Education",
+          "n": null
+        }
+      ],
+      "field": "0701",
+      "indexVariant": "AIOE-2021",
+      "coverage": 71.9,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "School Teachers nfd",
+          "share": 3.74
+        },
+        {
+          "title": "University Lecturer",
+          "share": 0.631
+        }
+      ],
+      "exposureWeighted": 85.86
+    }
+  },
+  "usyd-teaching": {
+    "code": "usyd-teaching",
+    "name": "Teaching",
     "hasMarketReport": false,
     "exposure": 76.56,
     "entryExposure": 77.57,
@@ -81359,6 +82720,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 75.96
   },
+  "adelaide-bds_bds": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 060701 Dentistry",
+        "n": null
+      }
+    ],
+    "field": "060701",
+    "indexVariant": "AIOE-2021",
+    "coverage": 72.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 58.35
+  },
   "adelaide-bdvst_bdevstud": {
     "tier": "field",
     "grain": "field",
@@ -81846,6 +83222,27 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "exposureWeighted": 75.56
   },
   "adelaide-bhmsa_bhlthmsca": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 069999 Health, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "069999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 23.9,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "Health Information Manager",
+        "share": 3.448
+      }
+    ],
+    "exposureWeighted": 75.56
+  },
+  "adelaide-bhsm_bhsmoua": {
     "tier": "field",
     "grain": "field",
     "sources": [
@@ -106896,6 +108293,42 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 93.16
   },
+  "monash-a0501": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0915 Language and Literature",
+        "n": null
+      }
+    ],
+    "field": "0915",
+    "indexVariant": "AIOE-2021",
+    "coverage": 27,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "University Lecturer",
+        "share": 1.258
+      }
+    ],
+    "exposureWeighted": 87.75
+  },
+  "monash-a0502": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0009 Society and Culture",
+        "n": null
+      }
+    ],
+    "field": "0009",
+    "indexVariant": "AIOE-2021",
+    "coverage": 26.8,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 80.97
+  },
   "monash-a0503": {
     "tier": "field",
     "grain": "field",
@@ -107065,6 +108498,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021",
     "note": "union of 1 \"Bachelor of Music (…)\" records"
+  },
+  "monash-a2006": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0001 Natural and Physical Sciences",
+        "n": null
+      }
+    ],
+    "field": "0001",
+    "indexVariant": "AIOE-2021",
+    "coverage": 21.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 76.38
   },
   "monash-a2008": {
     "tier": "field",
@@ -108360,6 +109808,38 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 89.99
   },
+  "monash-b3701": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Commerce (Accounting)",
+        "n": 1693
+      },
+      {
+        "name": "Bachelor of Commerce (Actuarial Studies)",
+        "n": 101
+      },
+      {
+        "name": "Bachelor of Commerce (Economics)",
+        "n": 1549
+      },
+      {
+        "name": "Bachelor of Commerce (Finance)",
+        "n": 3546
+      },
+      {
+        "name": "Bachelor of Commerce (Management)",
+        "n": 928
+      },
+      {
+        "name": "Bachelor of Commerce (Marketing)",
+        "n": 921
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+  },
   "monash-b3702": {
     "tier": "field",
     "grain": "field",
@@ -108659,6 +110139,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 46.4,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 85.44
+  },
+  "monash-b6023": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0803 Business and Management",
+        "n": null
+      }
+    ],
+    "field": "0803",
+    "indexVariant": "AIOE-2021",
+    "coverage": 34.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 89.99
   },
   "monash-b6024": {
     "tier": "field",
@@ -109513,6 +111008,131 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 75.96
   },
+  "monash-d3001": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0701 Teacher Education",
+        "n": null
+      }
+    ],
+    "field": "0701",
+    "indexVariant": "AIOE-2021",
+    "coverage": 71.9,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "School Teachers nfd",
+        "share": 3.74
+      },
+      {
+        "title": "University Lecturer",
+        "share": 0.631
+      }
+    ],
+    "exposureWeighted": 85.86
+  },
+  "monash-d3002": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0701 Teacher Education",
+        "n": null
+      }
+    ],
+    "field": "0701",
+    "indexVariant": "AIOE-2021",
+    "coverage": 71.9,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "School Teachers nfd",
+        "share": 3.74
+      },
+      {
+        "title": "University Lecturer",
+        "share": 0.631
+      }
+    ],
+    "exposureWeighted": 85.86
+  },
+  "monash-d3004": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0701 Teacher Education",
+        "n": null
+      }
+    ],
+    "field": "0701",
+    "indexVariant": "AIOE-2021",
+    "coverage": 71.9,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "School Teachers nfd",
+        "share": 3.74
+      },
+      {
+        "title": "University Lecturer",
+        "share": 0.631
+      }
+    ],
+    "exposureWeighted": 85.86
+  },
+  "monash-d3005": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0701 Teacher Education",
+        "n": null
+      }
+    ],
+    "field": "0701",
+    "indexVariant": "AIOE-2021",
+    "coverage": 71.9,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "School Teachers nfd",
+        "share": 3.74
+      },
+      {
+        "title": "University Lecturer",
+        "share": 0.631
+      }
+    ],
+    "exposureWeighted": 85.86
+  },
+  "monash-d3006": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0701 Teacher Education",
+        "n": null
+      }
+    ],
+    "field": "0701",
+    "indexVariant": "AIOE-2021",
+    "coverage": 71.9,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "School Teachers nfd",
+        "share": 3.74
+      },
+      {
+        "title": "University Lecturer",
+        "share": 0.631
+      }
+    ],
+    "exposureWeighted": 85.86
+  },
   "monash-d3007": {
     "tier": "field",
     "grain": "field",
@@ -109648,6 +111268,31 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 36.6,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 91.5
+  },
+  "monash-d6001": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0701 Teacher Education",
+        "n": null
+      }
+    ],
+    "field": "0701",
+    "indexVariant": "AIOE-2021",
+    "coverage": 71.9,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "School Teachers nfd",
+        "share": 3.74
+      },
+      {
+        "title": "University Lecturer",
+        "share": 0.631
+      }
+    ],
+    "exposureWeighted": 85.86
   },
   "monash-d6002": {
     "tier": "exact",
@@ -112669,6 +114314,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 93.16
   },
+  "monash-s6000": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0001 Natural and Physical Sciences",
+        "n": null
+      }
+    ],
+    "field": "0001",
+    "indexVariant": "AIOE-2021",
+    "coverage": 21.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 76.38
+  },
   "monash-s6001": {
     "tier": "field",
     "grain": "field",
@@ -113030,6 +114690,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 81.58
   },
+  "unsw-3061": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0001 Natural and Physical Sciences",
+        "n": null
+      }
+    ],
+    "field": "0001",
+    "indexVariant": "AIOE-2021",
+    "coverage": 21.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 76.38
+  },
   "unsw-3131": {
     "tier": "field",
     "grain": "field",
@@ -113350,6 +115025,27 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 26.8,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 80.97
+  },
+  "unsw-3417": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0915 Language and Literature",
+        "n": null
+      }
+    ],
+    "field": "0915",
+    "indexVariant": "AIOE-2021",
+    "coverage": 27,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "University Lecturer",
+        "share": 1.258
+      }
+    ],
+    "exposureWeighted": 87.75
   },
   "unsw-3422": {
     "tier": "field",
@@ -113832,6 +115528,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 96.87
   },
+  "unsw-3706": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
+  },
   "unsw-3707": {
     "tier": "field",
     "grain": "field",
@@ -113921,6 +115632,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 21.5,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 76.38
+  },
+  "unsw-3738": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0201 Computer Science",
+        "n": null
+      }
+    ],
+    "field": "0201",
+    "indexVariant": "AIOE-2021",
+    "coverage": 52.1,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 87.21
   },
   "unsw-3739": {
     "tier": "field",
@@ -114054,6 +115780,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 86.88
   },
+  "unsw-3774": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0201 Computer Science",
+        "n": null
+      }
+    ],
+    "field": "0201",
+    "indexVariant": "AIOE-2021",
+    "coverage": 52.1,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 87.21
+  },
   "unsw-3775": {
     "tier": "field",
     "grain": "field",
@@ -114085,6 +115826,36 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "exposureWeighted": 86.88
   },
   "unsw-3777": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0201 Computer Science",
+        "n": null
+      }
+    ],
+    "field": "0201",
+    "indexVariant": "AIOE-2021",
+    "coverage": 52.1,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 87.21
+  },
+  "unsw-3778": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0201 Computer Science",
+        "n": null
+      }
+    ],
+    "field": "0201",
+    "indexVariant": "AIOE-2021",
+    "coverage": 52.1,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 87.21
+  },
+  "unsw-3779": {
     "tier": "field",
     "grain": "field",
     "sources": [
@@ -114196,6 +115967,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "exposureWeighted": 87.21
   },
   "unsw-3789": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0201 Computer Science",
+        "n": null
+      }
+    ],
+    "field": "0201",
+    "indexVariant": "AIOE-2021",
+    "coverage": 52.1,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 87.21
+  },
+  "unsw-3792": {
     "tier": "field",
     "grain": "field",
     "sources": [
@@ -115405,6 +117191,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 87.21
   },
+  "unsw-4501": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0803 Business and Management",
+        "n": null
+      }
+    ],
+    "field": "0803",
+    "indexVariant": "AIOE-2021",
+    "coverage": 34.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 89.99
+  },
   "unsw-4502": {
     "tier": "field",
     "grain": "field",
@@ -115475,6 +117276,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "exposureWeighted": 85.86
   },
+  "unsw-4511": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0009 Society and Culture",
+        "n": null
+      }
+    ],
+    "field": "0009",
+    "indexVariant": "AIOE-2021",
+    "coverage": 26.8,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 80.97
+  },
   "unsw-4512": {
     "tier": "field",
     "grain": "field",
@@ -115489,6 +117305,36 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 34.6,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 89.99
+  },
+  "unsw-4513": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0001 Natural and Physical Sciences",
+        "n": null
+      }
+    ],
+    "field": "0001",
+    "indexVariant": "AIOE-2021",
+    "coverage": 21.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 76.38
+  },
+  "unsw-4515": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0201 Computer Science",
+        "n": null
+      }
+    ],
+    "field": "0201",
+    "indexVariant": "AIOE-2021",
+    "coverage": 52.1,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 87.21
   },
   "unsw-4516": {
     "tier": "field",
@@ -115534,6 +117380,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 36.6,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 91.5
+  },
+  "unsw-4519": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0009 Society and Culture",
+        "n": null
+      }
+    ],
+    "field": "0009",
+    "indexVariant": "AIOE-2021",
+    "coverage": 26.8,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 80.97
   },
   "unsw-4520": {
     "tier": "field",
@@ -115910,6 +117771,36 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 90.69
   },
+  "unsw-4825": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 1005 Graphic and Design Studies",
+        "n": null
+      }
+    ],
+    "field": "1005",
+    "indexVariant": "AIOE-2021",
+    "coverage": 51.4,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 75.96
+  },
+  "unsw-4830": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 100301 Fine Arts",
+        "n": null
+      }
+    ],
+    "field": "100301",
+    "indexVariant": "AIOE-2021",
+    "coverage": 25.7,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 69.45
+  },
   "unsw-4831": {
     "tier": "field",
     "grain": "field",
@@ -115969,6 +117860,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 58.6,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 93.74
+  },
+  "unsw-5036": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0001 Natural and Physical Sciences",
+        "n": null
+      }
+    ],
+    "field": "0001",
+    "indexVariant": "AIOE-2021",
+    "coverage": 21.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 76.38
   },
   "unsw-5046": {
     "tier": "field",
@@ -116194,6 +118100,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 46.4,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 85.44
+  },
+  "unsw-5373": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
   },
   "unsw-5405": {
     "tier": "field",
@@ -116453,6 +118374,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 93.16
   },
+  "unsw-5546": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0201 Computer Science",
+        "n": null
+      }
+    ],
+    "field": "0201",
+    "indexVariant": "AIOE-2021",
+    "coverage": 52.1,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 87.21
+  },
   "unsw-5567": {
     "tier": "field",
     "grain": "field",
@@ -116711,6 +118647,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "exposureWeighted": 75.56
   },
+  "unsw-7016": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0009 Society and Culture",
+        "n": null
+      }
+    ],
+    "field": "0009",
+    "indexVariant": "AIOE-2021",
+    "coverage": 26.8,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 80.97
+  },
   "unsw-7019": {
     "tier": "field",
     "grain": "field",
@@ -116755,6 +118706,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 52.1,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 87.21
+  },
+  "unsw-7037": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0001 Natural and Physical Sciences",
+        "n": null
+      }
+    ],
+    "field": "0001",
+    "indexVariant": "AIOE-2021",
+    "coverage": 21.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 76.38
   },
   "unsw-7123": {
     "tier": "field",
@@ -117275,6 +119241,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 46.4,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 85.44
+  },
+  "unsw-7373": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
   },
   "unsw-7379": {
     "tier": "field",
@@ -117977,6 +119958,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "exposureWeighted": 87.93
   },
+  "unsw-8037": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0001 Natural and Physical Sciences",
+        "n": null
+      }
+    ],
+    "field": "0001",
+    "indexVariant": "AIOE-2021",
+    "coverage": 21.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 76.38
+  },
   "unsw-8059": {
     "tier": "field",
     "grain": "field",
@@ -118036,6 +120032,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 41.7,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 93.16
+  },
+  "unsw-8136": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0401 Architecture and Urban Environment",
+        "n": null
+      }
+    ],
+    "field": "0401",
+    "indexVariant": "AIOE-2021",
+    "coverage": 56.8,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 85.13
   },
   "unsw-8143": {
     "tier": "field",
@@ -118142,6 +120153,72 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 93.16
   },
+  "unsw-8224": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0001 Natural and Physical Sciences",
+        "n": null
+      }
+    ],
+    "field": "0001",
+    "indexVariant": "AIOE-2021",
+    "coverage": 21.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 76.38
+  },
+  "unsw-8232": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 100703 Journalism",
+        "n": null
+      }
+    ],
+    "field": "100703",
+    "indexVariant": "AIOE-2021",
+    "coverage": 46.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 89.06
+  },
+  "unsw-8234": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 1005 Graphic and Design Studies",
+        "n": null
+      }
+    ],
+    "field": "1005",
+    "indexVariant": "AIOE-2021",
+    "coverage": 51.4,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 75.96
+  },
+  "unsw-8236": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 091521 Linguistics",
+        "n": null
+      }
+    ],
+    "field": "091521",
+    "indexVariant": "AIOE-2021",
+    "coverage": 32.9,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "School Teachers nfd",
+        "share": 2.857
+      }
+    ],
+    "exposureWeighted": 91.11
+  },
   "unsw-8256": {
     "tier": "field",
     "grain": "field",
@@ -118202,6 +120279,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 76.38
   },
+  "unsw-8281": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0008 Management and Commerce",
+        "n": null
+      }
+    ],
+    "field": "0008",
+    "indexVariant": "AIOE-2021",
+    "coverage": 41.7,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 93.16
+  },
   "unsw-8318": {
     "tier": "field",
     "grain": "field",
@@ -118218,6 +120310,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "exposureWeighted": 89.99
   },
   "unsw-8335": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039999 Engineering and Related Technologies, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "039999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 45.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 86.88
+  },
+  "unsw-8338": {
     "tier": "field",
     "grain": "field",
     "sources": [
@@ -118652,6 +120759,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 93.16
   },
+  "unsw-8543": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0201 Computer Science",
+        "n": null
+      }
+    ],
+    "field": "0201",
+    "indexVariant": "AIOE-2021",
+    "coverage": 52.1,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 87.21
+  },
   "unsw-8544": {
     "tier": "field",
     "grain": "field",
@@ -118832,6 +120954,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 86.88
   },
+  "unsw-8623": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0509 Environmental Studies",
+        "n": null
+      }
+    ],
+    "field": "0509",
+    "indexVariant": "AIOE-2021",
+    "coverage": 34.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 82.87
+  },
   "unsw-8624": {
     "tier": "field",
     "grain": "field",
@@ -119011,6 +121148,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 52.1,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 87.21
+  },
+  "unsw-8660": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 039903 Biomedical Engineering",
+        "n": null
+      }
+    ],
+    "field": "039903",
+    "indexVariant": "AIOE-2021",
+    "coverage": 25,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 87.13
   },
   "unsw-8717": {
     "tier": "field",
@@ -125365,6 +127517,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 87.21
   },
+  "usyd-advanced-computing-commerce": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0201 Computer Science",
+        "n": null
+      }
+    ],
+    "field": "0201",
+    "indexVariant": "AIOE-2021",
+    "coverage": 52.1,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 87.21
+  },
   "usyd-advanced-surgery": {
     "tier": "field",
     "grain": "field",
@@ -126530,6 +128697,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "exposureWeighted": 85.86
   },
+  "usyd-electives-p1-unit-of-study-table": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0909 Law",
+        "n": null
+      }
+    ],
+    "field": "0909",
+    "indexVariant": "AIOE-2021",
+    "coverage": 58.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 93.74
+  },
   "usyd-emba": {
     "tier": "field",
     "grain": "field",
@@ -127348,6 +129530,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 69.45
   },
+  "usyd-nursing-advanced-studies": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 060301 General Nursing",
+        "n": null
+      }
+    ],
+    "field": "060301",
+    "indexVariant": "AIOE-2021",
+    "coverage": 75.6,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 68.22
+  },
   "usyd-nursing-nurse-practitioner": {
     "tier": "field",
     "grain": "field",
@@ -127933,6 +130130,31 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "coverage": 59.8,
     "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
     "exposureWeighted": 95.46
+  },
+  "usyd-teaching": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 0701 Teacher Education",
+        "n": null
+      }
+    ],
+    "field": "0701",
+    "indexVariant": "AIOE-2021",
+    "coverage": 71.9,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "School Teachers nfd",
+        "share": 3.74
+      },
+      {
+        "title": "University Lecturer",
+        "share": 0.631
+      }
+    ],
+    "exposureWeighted": 85.86
   },
   "usyd-teaching-english-to-speakers-of-other-languages": {
     "tier": "field",

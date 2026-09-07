@@ -1,0 +1,107 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
+// Regenerate: npm --prefix scripts run dfva:gen-v4
+import type { V4PanelC } from "../v4Meta";
+
+const record: V4PanelC = {
+  "instrument": "4.2-draft",
+  "adaptiveness": 12,
+  "workplace": 9,
+  "C1": {
+    "score": 3,
+    "rationale": "Level 3: Structured communication of complex disciplinary concepts and technical arguments to diverse stakeholders in teacher education.",
+    "evidenceLines": [
+      "apply knowledge of and critically assess teaching strategies that support differentiation across the full range of abilities",
+      "compare and critique theories, models and frameworks used to inform inclusive teaching approaches",
+      "This course prepares you for a career as a skilled, critical and effective educator in the early childhood sector, primary schools, secondary schools, or a combination of these."
+    ]
+  },
+  "C2": {
+    "score": 2,
+    "rationale": "Level 2: Critical evaluation of methodological assumptions, disciplinary arguments, and professional evidence in teacher education.",
+    "evidenceLines": [
+      "identify legislative and policy requirements relating to inclusion in educational settings (including requirements relating to learners with disabilities) and outline how these influence teaching approaches",
+      "identify the learning needs of a diverse range of learners, with a focus on learners with disabilities",
+      "This course is designed for those with an undergraduate degree in any relevant discipline who want to gain a teaching qualification."
+    ]
+  },
+  "C3": {
+    "score": 2,
+    "rationale": "Level 2: Disciplinary problem solving applying quantitative, computational, or analytical frameworks within teacher education.",
+    "evidenceLines": [
+      "Subject: EDF5842 - Diversity and inclusive education",
+      "Subject: EDF5818 - Primary English 2",
+      "outline a range of teaching and learning practices and partnerships that can assist in managing challenging behaviour (applicable to semester 1 students only)."
+    ]
+  },
+  "C4": {
+    "score": 3,
+    "rationale": "Level 3: Interdisciplinary integration connecting core principles, professional practices, and evolving industry standards in teacher education.",
+    "evidenceLines": [
+      "Diversity and inclusion in education settings literature appraisal (2000 words or equivalent): 50%",
+      "Diversity and inclusion in education settings literature review (2000 words or equivalent): 50%",
+      "You will build a high level of expertise in one of five specialisations:"
+    ]
+  },
+  "C5": {
+    "score": 2,
+    "rationale": "Level 2: Applied investigation and empirical project work addressing real-world challenges in teacher education.",
+    "evidenceLines": [
+      "Subject: EDF5893 - Primary professional experience 2C",
+      "Subject: EDF5855 - The teaching profession and the professional teacher",
+      "Analysis of a lesson plan (2000 words or equivalent): 50%"
+    ]
+  },
+  "W1": {
+    "score": 3,
+    "rationale": "Level 3: Professional conduct, ethical practice, and regulatory compliance aligned with standards in teacher education.",
+    "evidenceLines": [
+      "Analysis of a lesson plan (2000 words or equivalent): 50%",
+      "This course prepares you for a career as a skilled, critical and effective educator in the early childhood sector, primary schools, secondary schools, or a combination of these.",
+      "This course is designed for those with an undergraduate degree in any relevant discipline who want to gain a teaching qualification."
+    ]
+  },
+  "W2": {
+    "score": 3,
+    "rationale": "Level 3: Authentic tasks, applied case studies, and industry-aligned scenarios reflecting workplace practice in teacher education.",
+    "evidenceLines": [
+      "Subject: EDF5829 - Mathematics in the early years",
+      "recognise, identify and respond to the literacy needs of children with a wide range of backgrounds, experiences and abilities to plan and develop differentiated learning experiences.",
+      "The Master of Teaching in Early Childhood Education is an award of a postgraduate degree course taught and assessed in English. Graduates are prepared for careers as educators and carers of children from birth to five years of age in child care and pre-school settings. The curriculum spans birth to five years of age and graduates have completed units comprising curriculum, education, early childhood education and professional studies, incorporating supervised professional practice. Graduates have an understanding of the national and international field of early childhood education, and of inclusive teaching and learning practices enabling them to engage with diverse learners. Graduates can demonstrate proficiency as early career teachers who have attained the professional knowledge, skills and values to progress to future leadership and management positions. The course usually takes two years of full-time study, or part-time equivalent, to complete. The Master of Teaching in Early Childhood Education is a Level 9 Australian Qualifications Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations."
+    ]
+  },
+  "W3": {
+    "score": 3,
+    "rationale": "Level 3: Academic coursework curriculum with compulsory work-integrated learning or clinical placement.",
+    "evidenceLines": [
+      "The Master of Teaching in Early Childhood and Primary Education is an award of a postgraduate degree course taught and assessed in English. Graduates are prepared to teach children from birth to twelve years of age across early childhood and primary school settings. Graduates have completed units comprising curriculum, education, specialist studies in early childhood and primary education and professional studies, incorporating supervised professional practice. Graduates have an understanding of the national and international field of early childhood and primary education, and of inclusive teaching and learning practices enabling them to engage with diverse learners. Graduates can demonstrate proficiency as early career teachers who have attained the professional knowledge, skills and values to progress to future leadership and management positions. The course usually takes two years of full-time study, or part-time equivalent, to complete. The Master of Teaching in Early Childhood and Primary Education is a Level 9 Australian Qualifications Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations.",
+      "Please note that the Primary education specialisation will be offered only at the Clayton campus in 2025.",
+      "Subject: EDF5818 - Primary English 2"
+    ]
+  },
+  "gates": {
+    "G1": {
+      "result": "PASS",
+      "rationale": "Postgraduate or undergraduate degree delivering comprehensive education in Master of Teaching.",
+      "evidenceLines": [
+        "This course prepares you for a career as a skilled, critical and effective educator in the early childhood sector, primary schools, secondary schools, or a combination of these.",
+        "The Master of Teaching in Early Childhood Education is an award of a postgraduate degree course taught and assessed in English. Graduates are prepared for careers as educators and carers of children from birth to five years of age in child care and pre-school settings. The curriculum spans birth to five years of age and graduates have completed units comprising curriculum, education, early childhood education and professional studies, incorporating supervised professional practice. Graduates have an understanding of the national and international field of early childhood education, and of inclusive teaching and learning practices enabling them to engage with diverse learners. Graduates can demonstrate proficiency as early career teachers who have attained the professional knowledge, skills and values to progress to future leadership and management positions. The course usually takes two years of full-time study, or part-time equivalent, to complete. The Master of Teaching in Early Childhood Education is a Level 9 Australian Qualifications Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations."
+      ]
+    },
+    "G2": {
+      "result": "PASS",
+      "rationale": "Specialist academic program structured through sequential study in teacher education.",
+      "evidenceLines": [
+        "This course is designed for those with an undergraduate degree in any relevant discipline who want to gain a teaching qualification.",
+        "Subject: EDF5842 - Diversity and inclusive education"
+      ]
+    }
+  },
+  "ambiguities": [
+    "C3: Scored at Level 2 for applied analytical problem solving without advanced algorithmic abstraction.",
+    "W3: Scored at Level 2 or 3 due to compulsory embedded workplace or clinical practicum."
+  ],
+  "notScoreable": []
+};
+
+export default record;

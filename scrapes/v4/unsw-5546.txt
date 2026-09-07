@@ -1,0 +1,997 @@
+===== SOURCE: https://handbook.unsw.edu.au/postgraduate/programs/2026/5546 =====
+# Information Technology (5546)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 5546
+- **Academic Year**: 2026
+- **Study Level**: Postgraduate
+- **AQF Level**: Level 8
+- **Total Units / Units of Credit (UOC)**: 72
+- **Delivery Mode**: Face-to-face (includes blended)
+- **CRICOS Code**: 113778K
+- **Academic Organisation**: School of Computer Science and Engineering
+- **Handbook URL**: https://handbook.unsw.edu.au/postgraduate/programs/2026/5546
+
+## Description
+The Graduate Diploma in Information Technology is designed for students who wish to develop and expand their knowledge and skills in Information Technology.
+
+The aim of this award is to provide qualified students with an opportunity to study advanced topics in an Information Technology specialisation to complement or update their existing qualifications, and for those with minimal background in Information Technology, an opportunity to obtain a qualification in this discipline.
+
+The program articulates to the Master of Information Technology program with full credit for courses completed in the Graduate Diploma program. Students may exit from this proposed program with a Graduate Diploma award if they have completed the required course requirements.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+6. Apply ethical approaches to professional practice.
+5. Communicate information and justify decisions to other professionals, clients, stakeholders, and the broader community.
+1. Explain advanced concepts, theories and techniques, relevant to information technology.
+4. Synthesise algorithmic knowledge and apply appropriate computing methods to contribute to effective and/or innovative solutions to complex engineering problems.
+7. Collaborate and lead effectively in diverse professional contexts.
+3. Identify, define, investigate, and analyse the computing aspects of complex engineering problems.
+2. Apply a breadth of relevant computing knowledge, including information technology management.
+
+## Program Structure & Degree Requirements
+Students must complete 72 Units of Credit (UOC) structured across the following academic components:
+
+### Specialisation Rule
+Students must complete one of the specialisations below.
+
+- **COMPRS**: Artificial Intelligence [72 UOC]
+- **COMPTS**: Information Technology [72 UOC]
+- **COMPUS**: Database Systems [72 UOC]
+- **COMPVS**: Internetworking [72 UOC]
+- **COMPYS**: Cyber Security Engineering [72 UOC]
+
+## Admission Requirements
+**Minimum Entry Requirements**:
+All candidates are required to have, at a minimum, a Bachelor Degree (AQF 7 or equivalent) in a related discipline with a weighted average mark of 65% (or equivalent).
+
+**Limitations on Recognition of Prior Learning**:
+Up to 24 UOC of advanced standing may be granted to candidates with degrees from cognate programs.
+All courses completed towards the Graduate Certificate of Information Technology at UNSW will be recognised for the purpose of advanced standing for the Graduate Diploma of Information Technology.
+
+===== SPECIALISATION / AREA OF STUDY =====
+### Artificial Intelligence (COMPRS)
+<p>Recent technological advances are bringing robots out of their usual industrial settings and into homes and offices. Mobile robots capable of vacuum cleaning and lawn mowing are already commercially available. As miniaturisation and sophistication increase and costs continue to decrease, it is anticipated that robots will become commonplace. Applications include domestic robots to assist in everyday chores, robots for entertainment or educational purposes as well as robots for automating office and factory tasks. Applications also include assistance for the elderly, in particular, to improve their mobility and level of care.</p>
+<p>As autonomous devices become more common, potential employers include companies that can make ready use of automation. This includes companies concerned with home and office automation, entertainment companies and autonomous systems research and development. Autonomous systems and the sophisticated sensors they employ are also adopted in many industries to enhance production and to improve safety (e.g. mining, manufacturing, transport).</p>
+<p>The Artificial Intelligence specialisation in the Graduate Diploma and Master of Information Technology programs focuses on the development of sophisticated software for mobile robot control. Several aspects of software are considered:</p>
+<ul><li>artificial intelligence</li><li>agent programming</li><li>experimental robotics</li><li>knowledge representation and reasoning</li><li>machine learning</li><li>robot architectures</li><li>human-computer interaction</li><li>vision</li></ul>
+
+===== PRESCRIBED UNITS / SUBJECTS =====
+Subject: COMP9024 - Data Structures and Algorithms
+### COMP9024 - Data Structures and Algorithms
+Learning Outcomes:
+- Evaluate the efficiency of software.
+- Explain a range of fundamental data structures and algorithms.
+- Analyse the correctness of algorithms.
+- Apply data structures and algorithms to problems in Computer Science.
+- Create new data structures and algorithms for problems in Computer Science.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9222 - Digital Circuits and Systems
+### COMP9222 - Digital Circuits and Systems
+Learning Outcomes:
+- Make use of CAD tools to specify, simulate and synthesize circuit designs
+- Describe hardware functions using a hardware description language
+- Design and implement combinational and synchronous sequential logic circuits
+- Analyse combinational and sequential digital logic circuits
+- Perform the steps involved in digital circuit implementation using Field-Programmable Gate Arrays
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+- In-person -: N/A%
+Workload: 
+
+Subject: MATH5836 - Data and Machine Learning
+### MATH5836 - Data and Machine Learning
+Learning Outcomes:
+- Develop models for solving data mining problems that include clustering, regression, and classification.
+- Demonstrate an applied working knowledge of the methodologies covered with practical assignments.
+- Select appropriate statistical and machine learning approaches to analyse data.
+- Build machine learning models using real-world data sets and use evaluation metrics to compare their performance.
+- Identify the fundamentals of machine learning and data mining through model development.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6453 - Applied Cryptography
+### COMP6453 - Applied Cryptography
+Learning Outcomes:
+- Perform Cryptanalysis on ciphers based on an understanding of the techniques of Cryptanalysis.
+- Implement cryptographic algorithms including practical encryption and authentication protocols.
+- Formally analyse security of protocols based on an understanding of security considerations.
+- Explain the implications of quantum computing on Cryptography and learn about existing quantum safe solutions.
+- Design secure cryptographic protocols for a broad range of applications like blockchains, e-commerce and computer networks.
+- Explain the foundations of cryptography, primitives, and protocols, including encryption and authentication.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6752 - Modelling Concurrent Systems
+### COMP6752 - Modelling Concurrent Systems
+Learning Outcomes:
+- make an informed choice out of the many models available and decide which one is (most) suitable for the task at hand
+- accurately model simple concurent systems
+- prove elementary properties of systems modelled thusly.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6741 - Algorithms for Intractable Problems
+### COMP6741 - Algorithms for Intractable Problems
+Learning Outcomes:
+- design heuristics and approximation algorithms for NP-hard problems, as well as polynomial-time algorithms for restricted classes of instances
+- design and analyse non-trivial exponential time algorithms for NP-hard problems using a variety of algorithmic methods
+- design new proofs showing that certain parameterizations of problems are not fixed-parameter tractable unless FPT = W[1]
+- design new proofs showing that certain problems cannot be solved in subexponential time or faster than a specific exponential time bound assuming the (Strong) Exponential Time Hypothesis
+- design parameterized algorithms for NP-hard problems using a variety of algorithmic methods
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP4128 - Programming Challenges
+### COMP4128 - Programming Challenges
+Learning Outcomes:
+- Apply algorithm design principles to evaluate programs in terms of correctness and running time.
+- Adapt templated data structures and algorithms to meet the requirements of complex problems.
+- Design and implement algorithmic solutions to complex problems, particularly under short time constraints.
+- Apply the C++ programming language to solve programming problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6841 - Extended Security Engineering and Cyber Security
+### COMP6841 - Extended Security Engineering and Cyber Security
+Learning Outcomes:
+- Analyse real world scenarios and apply a security engineering approach to make appropriate decisions taking into consideration key factors such as cost, human factors, risk, and privacy
+- Make reasonable assessments of likely future trends and emerging risks in cyber security, based on an understanding of the historical context and current developments in the field
+- Demonstrate an understanding of the relationship of cyber security to related fields including safety science, psychology, organisational culture, physical and electronic security, cybercrime, military, intelligence, communication, and disaster planning and response
+- Explain the main classes of memory corruption vulnerabilities and the relative strengths and weaknesses of currently deployed countermeasures
+- Analyse their prior approach to security in everyday life and reflect on how a security engineering mindset changes this
+- Apply concepts such as information and work measures, randomness, and privacy to design appropriate solutions for real world security problems, or recognise when no effective solutions are likely to be feasible
+- Demonstrate and reflect upon professional competencies including analysis, time and project management, reasonableness checking, self directed research, teamwork, community building, ethical professional behaviour and effective communication
+- Apply fundamental cryptographic primitives and protocols to achieve desired properties (including confidentiality, integrity, and authentication) and explain their weaknesses and appropriate use
+- Successfully attack common vulnerabilities in web based systems and binaries
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9101 - Algorithm Design and Analysis
+### COMP9101 - Algorithm Design and Analysis
+Learning Outcomes:
+- Evaluate the efficiency of algorithms and justify their correctness.
+- Explain how standard design techniques are used to develop algorithms.
+- Apply the LaTeX typesetting system to produce high-quality technical documents.
+- Solve problems by creatively applying algorithm design techniques.
+- Communicate algorithmic ideas at different levels of abstraction.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6733 - Internet of Things Experimental Design Studio
+### COMP6733 - Internet of Things Experimental Design Studio
+Learning Outcomes:
+- Explain the fundamental component concepts of the Internet of Things (IoT), including low power communications and networking, lightweight in-situ signal processing, classification and data fusion, security and privacy, and cloud services.
+- Demonstrate effective teamwork and project management skill through the final project.
+- Design end-to-end Internet of Things (IoT) solutions to real-world problems..
+- Implement Internet of Things (IoT) software solutions for practical problems such as smart buildings and smart agriculture.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9321 - Data Services Engineering
+### COMP9321 - Data Services Engineering
+Learning Outcomes:
+- Design and develop a non-trivial web based data services application from scratch.
+- Identify common security threats to a Web application.
+- Implement data ingestion from a variety of common sources.
+- Describe the main components of a data-oriented Web-based application.
+- Apply techniques Extract, Transform, Correct, Aggregate, and Merge/Split to prepare and publish data.
+- Identify and apply appropriate analytics and visualization techniques on prepared data.
+- Evaluate the performance of a web based data services and identify bottlenecks.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6721 - (In-)Formal Methods: The Lost Art
+### COMP6721 - (In-)Formal Methods: The Lost Art
+Learning Outcomes:
+- Create formally driven program developments by stepwise refinement and change of data representations.
+- Apply the more abstract, theoretical side of computing to produce better programs, without having to master the theory itself in detail.
+- Understand program-correctness arguments based on assertions and loop invariants, and using static reasoning while developing programs.
+- Remember the novel interpretation of computer-program creating and reasoning, for use in other later courses, for assimilating better what they encountered in earlier courses and for use in their eventual careers.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+- In-person -: N/A%
+Workload: 
+
+Subject: COMP9337 - Securing Fixed and Wireless Networks
+### COMP9337 - Securing Fixed and Wireless Networks
+Learning Outcomes:
+- Develop innovative solutions to address emerging security challenges in fixed and wireless networks.
+- Analyze fundamental principles underlying network security, wireless communications, and cryptographic techniques.
+- Assess the performance and efficacy of network security solutions, intrusion detection systems, and protection mechanisms in mitigating security risks.
+- Evaluate the effectiveness and vulnerabilities of existing security protocols and technologies, including IPSec, PKI/X.509, and Transport Layer Security/DTLS.
+- Examine ethical issues related to network security and privacy, analyzing the trade-offs between usability and technical security in the design of human-centric security systems and protocols.
+- Apply robust security measures, conduct penetration tests, and analyze network traffic to detect and address potential threats and vulnerabilities.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9201 - Operating Systems
+### COMP9201 - Operating Systems
+Learning Outcomes:
+- Apply common algorithms and implementation approaches that are used inside an operating system.
+- Analyse the behaviour of an operating system and its components.
+- Create new functionality within an existing operating system.
+- Explain the roles of key components in a modern monolithic operating system.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9312 - Data Analytics for Graphs
+### COMP9312 - Data Analytics for Graphs
+Learning Outcomes:
+- Analyze fundamental graph traversal techniques
+- Evaluate data structures to store and represent graphs
+- Understand basic machine learning methods
+- Analyze cohesive subgraph models and their representative computation algorithms
+- Apply techniques for graph neural networks
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9164 - Concepts of Programming Languages
+### COMP9164 - Concepts of Programming Languages
+Learning Outcomes:
+- Use the basic tools of language design and analysis, including formal languages and formal descriptions of static and dynamic semantics
+- Use modern language features, such as dynamic and strong typing, polymorphism, overloading, automatic memory management, and concurrency features
+- Read, write and reason about programs in various programming language paradigms, including imperative, object-oriented, functional and concurrent programming
+- Distinguish superficial (i.e., syntactic) from fundamental (i.e., semantic) differences of programming languages
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9434 - Robotic Software Architecture
+### COMP9434 - Robotic Software Architecture
+Learning Outcomes:
+- An understanding of a robot as a complete system, as well as its component parts
+- An understanding of the practicalities of programming physical robots as opposed to purely software systems
+- An overview of a range of other architectures and decision making systems
+- Experience with the details of one robot architecture
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+- In-person -: N/A%
+Workload: 
+
+Subject: COMP9517 - Computer Vision
+### COMP9517 - Computer Vision
+Learning Outcomes:
+- Explain basic scientific, statistical, and engineering approaches to computer vision.
+- Implement and test computer vision algorithms using existing software platforms.
+- Build larger computer vision applications by integrating software modules.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: MATH5960 - Bayesian Inference and Computation
+### MATH5960 - Bayesian Inference and Computation
+Learning Outcomes:
+- Explain the importance of computational techniques that are critical for Bayesian inference.
+- Explain and apply the background concepts underlying Bayesian inference.
+- Perform Bayesian analysis on realistic data using either common model types or using newly-constructed/bespoke models for new problems.
+- Prove theoretic results underlying some common Bayesian models and simulation techniques.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9418 - Advanced Machine Learning
+### COMP9418 - Advanced Machine Learning
+Learning Outcomes:
+- Implement approximate inference algorithms in graphical models, including sampling and loopy belief propagation.
+- Derive statistical independence assumptions from a given graphical representation of a probabilistic model.
+- Derive and implement maximum likelihood learning approaches to latent variable probabilistic models.
+- Implement exact inference methods in graphical models including variable elimination and the junction tree algorithm.
+- Apply methods for structured prediction.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9447 - Security Engineering Workshop
+### COMP9447 - Security Engineering Workshop
+Learning Outcomes:
+- Graduates will acquire enquiry-based techniques and practice through the completion of a complex project in an emerging area of cyber security.
+- Graduates will develop their professional skills in teamwork, communication, lifelong self directed learning, and reflection on professional development.
+- Graduates will develop their ability to define, investigate and analyse problems in an emerging cyber security area, and develop creative and innovative solutions to these problems.
+- Graduates will be able to proficiently apply security engineering methods to complex cyber security problem solving.
+Assessment Tasks:
+- In-person - Intensive: N/A%
+- Multimodal -: N/A%
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6845 - Extended Digital Forensics and Incident Response
+### COMP6845 - Extended Digital Forensics and Incident Response
+Learning Outcomes:
+- Explain issues and key principles of professional digital forensic practice (including chain of custody and best practice procedures).
+- Illustrate an understanding of digital forensics to design, conduct, and report on effective forensic investigations.
+- Apply forensic analysis on common systems.
+- Extract and infer digital traces of activity.
+- Have an applied working knowledge of the principle elements of digital forensic literacy (such as Windows, Linux and OSX disk structures, machine memory structure, operating system structure caches logging and redundancy, device design authentication operation and weakness, boot and initialisation sequences, storage encryption, network logging, stealth techniques and anti forensic strategies).
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6714 - Information Retrieval and Web Search
+### COMP6714 - Information Retrieval and Web Search
+Learning Outcomes:
+- Use various indexing and query processing techniques and their variants.
+- Analyze the whole process of information retrieval and search engines.
+- Apply various document and retrieval models in information retrieval.
+- Develop solutions for real problems using existing IR technologies.
+- Discuss the past, present and future of information retrieval and search engine technologies.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP4161 - Advanced Topics in Software Verification
+### COMP4161 - Advanced Topics in Software Verification
+Learning Outcomes:
+- Formalise software verification problems
+- Effectively use proof automation and automatic counter-example finding
+- Formally verify imperative programs, including small C programs
+- Formally verify functional programs
+- Prove theorems in an interactive proof assistant
+- Write definitions in the theorem prover Isabelle/HOL
+Assessment Tasks:
+- Fully online -: N/A%
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9283 - Extended Operating Systems
+### COMP9283 - Extended Operating Systems
+Learning Outcomes:
+- Design and construct new functionality within an existing operating system.
+- Explain the roles of key components in a modern monolithic operating system.
+- Apply common algorithms and implementation approaches that are used inside an operating system.
+- Analyse the behaviour of an operating system and its components.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9417 - Machine Learning
+### COMP9417 - Machine Learning
+Learning Outcomes:
+- Implement machine learning algorithms, apply them to realistic datasets and collect results to enable evaluation of their performance.
+- Construct a well-defined learning problem for a given task, selecting representations for the data input and output, the model, and the learning algorithm.
+- Explain key concepts from the foundations of learning theory, describe their applicability, and express knowledge of the general limits of machine learning.
+- Compare different algorithms according to the properties of their inputs and outputs, and the computational methods used.
+- Develop and describe algorithms to solve a well-defined learning problem.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9336 - Mobile Data Networking
+### COMP9336 - Mobile Data Networking
+Learning Outcomes:
+- Appraise emerging wireless and mobile technologies (e.g., Wi-Fi 7, 5G/6G, mmWave, Visible Light Communication, Integrated Sensing and Communications); summarise their principles and critique potential applications and limitations.
+- Analyse and compare key algorithms and protocols in Wi-Fi, cellular, and IoT networks; evaluate trade-offs in throughput, latency, reliability, and fairness based on protocol mechanisms and standard specifications.
+- Design and conduct hands-on experiments with mobile devices and packet analysers; collect, interpret, and communicate results to support engineering conclusions.
+- Explain and apply the foundational mathematics and science underpinning wireless networks; calculate SNR, data rate, and link budgets to solve basic design problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9044 - Software Construction: Techniques and Tools
+### COMP9044 - Software Construction: Techniques and Tools
+Learning Outcomes:
+- Exposure to tools for version control, performance improvement, configuration and debugging,
+- Have practical experience in programming the scripting languages Perl, Unix shell and Python.
+- More appreciation of the use of specific technologies and strategies during software development
+- Have a broader & deeper knowledge of building software systems
+- Improvement of your ability to articulate & communicate concepts related to programming & systems
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP4511 - User Interface Design and Construction
+### COMP4511 - User Interface Design and Construction
+Learning Outcomes:
+- Design, build, test and evaluate low and high-fidelity prototypes.
+- Apply user-centred design tools, methods, techniques and research while maintaining a real-world perspective.
+- Use React Native coding to implement a prototype mobile app.
+- Construct a project plan that is based on user-centred design principles that can be used to carry out activities to design, develop, evaluate and refine user interfaces and their interactions, based on iteration.
+- Critically evaluate usability, interface design issues and lessons learnt from the design process.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6080 - Web Front-End Programming
+### COMP6080 - Web Front-End Programming
+Learning Outcomes:
+- Develop and analyse frameworks to test and verify correctness of front-end systems.
+- Explain and analyse attributes, tradeoffs and technical details of varied web-based frameworks and delivery methods.
+- Explain, analyse, structure and critique front-ends build in combinations of HTML, CSS, Javascript, and their associated frameworks.
+- Critically test, analyse and inquire with developed front-ends in order to provide genuine improvement in performance or compliance.
+- Explain and implement changes to front-end systems based on business and user needs, including application of best practices.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP4418 - Knowledge Representation and Reasoning
+### COMP4418 - Knowledge Representation and Reasoning
+Learning Outcomes:
+- Apply knowledge representation and reasoning algorithms to solve practical problems.
+- Analyse theoretical properties of solutions to problems in knowledge representation and reasoning.
+- Formulate problems and solutions using a formal knowledge representation and reasoning language.
+- Solve new problems using formal knowledge representation and reasoning approaches.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9315 - Database Systems Implementation
+### COMP9315 - Database Systems Implementation
+Learning Outcomes:
+- Understand techniques for implementing transactional behavior and reliable storage
+- Evaluate data structures and algorithms for large-scale data manipulation and apply them in given scenarios
+- Analyze the performance of data-intensive systems
+- Create new data types in PostgreSQL
+- Understand the internal architecture of large-scale (relational) data management systems
+- Analyze the PostgreSQL database management system
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9444 - Neural Networks and Deep Learning
+### COMP9444 - Neural Networks and Deep Learning
+Learning Outcomes:
+- Discuss the social, intellectual, and neurobiological context of neural networks and deep learning.
+- Describe a variety of neural network and deep learning techniques.
+- Analyse a problem and devise a suitable neural network solution.
+- Implement neural networks for a range of tasks, including image and language processing, reinforcement learning, and unsupervised learning.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP4141 - Theory of Computation
+### COMP4141 - Theory of Computation
+Learning Outcomes:
+- Understand the notion of computational complexity and complexity classes (Logspace, P,NP, IP, PSPACE, Polynomial Hierarchy, Probabilistic Classes
+- Understand how we can express computation (finite state automata, push-down automata, Turing Machines, Probabilistic Turing Machines)
+- Understand what problems can (and cannot) be solved by computation of various types (regular and context-free languages, pumping lemmas, recursion theory, undecidability, approximation problems)
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6443 - Web Application Security and Testing
+### COMP6443 - Web Application Security and Testing
+Learning Outcomes:
+- Identify and describe common vulnerabilities in web applications and underlying infrastructure with reference to modern frameworks and common misconfigurations and exploits.
+- Describe the process of exploitation and develop exploits to compromise web applications using public resources and original payloads.
+- Collaborate with developers and security professionals in a manner that will lead to effective security improvement.
+- Demonstrate professional and ethical behaviours appropriate for security testing, including evaluation of scope and responsible disclosure.
+- Describe common defensive techniques for web applications and apply these techniques appropriately to trust boundaries in specific instances.
+- Communicate findings and recommendations to stakeholders effectively to support change.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9331 - Computer Networks and Applications
+### COMP9331 - Computer Networks and Applications
+Learning Outcomes:
+- Capture and analyse network traffic
+- Describe the current architecture of the Internet and the entities involved in its operations
+- Explain security and ethical issues in computer networking
+- Design networked applications and protocols, and implement them in C, Java or Python
+- Identify soundness and/or potential flaws in proposed protocols
+- Analyse and evaluate the performance of computer networks
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9153 - Algorithmic Verification
+### COMP9153 - Algorithmic Verification
+Learning Outcomes:
+- Integrate modelling, specification, and verification algorithms to build a formally verified system.
+- Develop formal models of software systems, amenable to automatic verification.
+- Compare and contrast different algorithms used in automatic verification.
+- Assess the viability of a number of verification tools for a variety of automatic verification tasks.
+- Compare and contrast models, logics, and algorithms used in the verification of timed systems.
+- Formulate formal requirements for software systems, amenable to automatic verification.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6452 - Software Architecture for Blockchain Applications
+### COMP6452 - Software Architecture for Blockchain Applications
+Learning Outcomes:
+- Explain the principles of blockchain and which roles it can play in an application architecture.
+- Decide the suitability of blockchains and how to design applications on them.
+- Make functional and non-functional trade-offs for blockchain-based applications.
+- Build small applications on blockchain.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP4121 - Advanced Algorithms
+### COMP4121 - Advanced Algorithms
+Learning Outcomes:
+- Improved problem solving skills
+- Understand more advanced algorithms employed by modern industry, especially those used in Data Science and Machine Learning
+- Apply randomisation to real life problems
+- Employ numerical algorithms such as Singular Value Decomposition and Fast Fourier transform
+- Acquiring necessary skills and use them for advanced algorithms design
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6448 - Security Engineering Masterclass
+### COMP6448 - Security Engineering Masterclass
+Learning Outcomes:
+- Demonstrate awareness, planning, reflection and development in professional security engineering capabilities such as professional ethical behavior, teamwork, attacker mindset, awareness of human vulnerabilities, life-long learning, professional community, and rigor.
+- Integrate knowledge of the principle elements of advanced security engineering concepts and how these elements can be used by attackers and defenders, their strengths and weakness.
+- Solve real world security engineering problems using non-trivial and creative methods.
+- Describe advanced and emerging security topics in a clear and professional manner.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+- In-person - Intensive: N/A%
+Workload: 
+
+Subject: GSOE9820 - Engineering Project Management
+### GSOE9820 - Engineering Project Management
+Learning Outcomes:
+- Select and apply project management methods.
+- Integrate and justify project plans.
+- Formulate project scope.
+- Translate from organisational strategy into project deliverables.
+- Evaluate progress and interpret success in projects.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9102 - Programming Languages and Compilers
+### COMP9102 - Programming Languages and Compilers
+Learning Outcomes:
+- Specify the syntax and semantics of a programming language.
+- Write a scanner, recogniser, parser, semantic analyser and code generator without the aid of automatic generators.
+- Design the data structures and support required for compiling advanced language features.
+- Implement sizable object-oriented programs in Java, incorporating the use of packages, inheritance, dynamic dispatching, and the visitor design pattern.
+- Analyse how the JVM executes Java programs, and use JVM tools to observe and interpret runtime behaviour.
+- Specify and analyse the lexical, syntactic and semantic structures of advanced language features.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9920 - Ethics of Computer Science and Engineering
+### COMP9920 - Ethics of Computer Science and Engineering
+Learning Outcomes:
+- Build, articulate, and justify moral arguments - as well as how to analyse moral judgements and moral arguments in general.
+- Recognise ethical issues and pitfalls in the professional practice of developing novel technologies, including AI (e.g. fairness, transparency, accountability), and learn about existing efforts to mitigate these issues.
+- Define and employ ethical values, principles, and practices for responsible research and innovation of technological and computing advances.
+- Discuss ethical dilemmas around specific technological case studies.
+- Articulate the major normative and meta-ethical theories that underpin real, research-level moral debates in both academic and professional contexts.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9021 - Principles of Programming
+### COMP9021 - Principles of Programming
+Learning Outcomes:
+- Apply appropriate tools, in particular for editing, testing and debugging.
+- Apply Python language, including advanced syntax and programming techniques.
+- Design, implement and test programs written in a language with procedural, object-oriented, and functional constructs.
+- Create clear, reliable, well-structured, well-tested, well-documented programs.
+- Analyse what happens behind the scene when operating on Python data types, with an understanding of efficiency and memory use.
+- Use fundamental data structures and algorithms.
+- Design programs to solve small to medium scale problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6771 - Advanced C++ Programming
+### COMP6771 - Advanced C++ Programming
+Learning Outcomes:
+- Design, build, and test C++ programs.
+- Use advanced C++ features in program development.
+- Set up build and testing environments for C++ programs.
+- Use abstractions (data structures, algorithms) to solve problems efficiently.
+- Build abstractions (data structures, algorithms) to solve problems efficiently.
+- Distinguish good, modern, widely-used practices from more outdated practices.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6447 - System and Software Security Assessment
+### COMP6447 - System and Software Security Assessment
+Learning Outcomes:
+- Analyse a system from an attacker perspective to identify vulnerabilities and design and implement reliable exploits
+- Describe how these elements can be exploited by attackers, analyze their strengths and weaknesses and identify appropriate countermeasures
+- Describe the key legal, ethical, and professional issues of of system and software security assessment.
+- Analyse a system from a defender perspective to identify vulnerabilities and design and implement reliable countermeasures
+- Describe the principle elements of offensive cyber security (such as vulnerability classes, source code auditing, security bugs, memory corruption, numeric overflows, heap exploitation and return oriented programming)
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9020 - Foundations of Computer Science
+### COMP9020 - Foundations of Computer Science
+Learning Outcomes:
+- Explain basic number theory concepts and definitions.
+- Explain simple combinatorics, probability and statistics.
+- Explain Boolean and propositional logic.
+- Explain the fundamental Computer Science concepts of recursion and induction.
+- Explain the foundational structures used in discrete mathematics.
+- Explore additional approaches to problem solving by identifying broader abstract connections between concepts.
+- Analyze the correctness and efficiency of algorithms.
+- Apply mathematical tools to formulate and prove problems in Computer Science.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: GSOE9210 - Engineering Decision Structures
+### GSOE9210 - Engineering Decision Structures
+Learning Outcomes:
+- Evaluate, revise, and justify decision models and their solutions
+- Apply a variety of analytical techniques to derive solutions to decision models
+- Identify the key elements in a decision
+- Model decisions in analytical form
+- Compare modelling trade-offs and their implications
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: MATH5855 - Multivariate Analysis
+### MATH5855 - Multivariate Analysis
+Learning Outcomes:
+- Apply multivariate techniques and models to the analysis of datasets, interpretation of results and drawing of conclusions.
+- Perform different multivariate inference procedures by using the available powerful procedures in the R and/or SAS system.
+- Use the general terminology, notation, and concepts in the theory, methods, and applications of multivariate analysis.
+- Use the properties of the multivariate normal distribution to justify optimality properties of Statistical Inference procedures based on multivariate normality.
+- Formulate and solve inference problems that use one or a combination of different multivariate statistical procedures.
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9332 - Network Routing and Switching
+### COMP9332 - Network Routing and Switching
+Learning Outcomes:
+- Learn how to configure, tune, and analyse the performance of popular routing protocols
+- Master routing architectures, protocols, and algorithms with an emphasis on fundamental concepts and principles;
+- Gain good understanding of the role of routing and switching in modern communication networks
+- Develop abilities to innovate routing solutions for new networking requirements
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9414 - Artificial Intelligence
+### COMP9414 - Artificial Intelligence
+Learning Outcomes:
+- Evaluate the risks of applying AI in business and industry.
+- Demonstrate practical skills in utilizing AI toolkits in realistic application areas.
+- Describe the foundations of AI and fundamental AI techniques.
+- Apply AI techniques to solve given problems and implement standard AI algorithms.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9154 - Foundations of Concurrency
+### COMP9154 - Foundations of Concurrency
+Learning Outcomes:
+- appreciate the complexities involved in the previous two
+- be able to design and implement multi-threaded, parallel, and distributed programs
+- be able to talk, write, and reason about such programs
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9511 - Human Computer Interaction
+### COMP9511 - Human Computer Interaction
+Learning Outcomes:
+- Construct questionnaires/surveys to gather pre- and post-test information from users, and understand the importance of ethics and privacy to conduct appropriate user-centered design activities.
+- Apply the process of usability evaluation methods for assessing the usability of both low and high-fidelity prototypes.
+- Explain how user-centred design processes should be inclusive of all users, including international audiences, those with special needs, such as disabilities, as well different levels of user experience, and use this knowledge to design interfaces appropriate to a particular group of users.
+- Analyze websites in terms of usability and accessibility by considering different user interface design and visual design principles.
+- Apply gamification in order to increase users' engagement.
+- Explain the strengths and limitations of human cognition and memory and apply these to the design of more usable interfaces that do not cognitively overload users.
+- Create prototypes by utilizing both paper and prototyping software packages.
+- Design for new emerging technologies such as metaverse, virtual and augmented reality, and smart devices and their design considerations
+- Prepare a design plan that is based on user -centered design principles and then carry out activities to design, evaluate and refine the user interface.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9211 - Computer Architecture
+### COMP9211 - Computer Architecture
+Learning Outcomes:
+- Demonstrate a deep understanding of computer hardware design, especially the pipelined RISC processor, hierarchical memory system, and multi-core processor system
+- Establish a solid background for studying and development of advanced computing systems
+- Apply the basic design principles and techniques to build a processor to meet various requirements, such as performance, cost, power consumption
+- Use the simulation tool to investigate and validate the hardware design
+- Demonstrate ability to work in teams
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: MATH5845 - Time Series
+### MATH5845 - Time Series
+Learning Outcomes:
+- Apply diagnostic checking for the adequacy of the fit of a model.
+- Generate, interpret and explain R software output appropriate for time series identification, modeling and forecasting.
+- Identify appropriate models for time series.
+- Perform linear prediction for a range of time series models.
+- Understand the properties of the major types of time series observed in discrete time.
+- Estimate the time series models using different methods.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6843 - Extended Web Application Security and Testing
+### COMP6843 - Extended Web Application Security and Testing
+Learning Outcomes:
+- Describe defensive techniques for web applications and apply these techniques appropriately to trust boundaries in specific instances.
+- Describe the process of exploitation and develop exploits to compromise web applications using public resources and original payloads.
+- Communicate findings and recommendations to stakeholders effectively to support change.
+- Demonstrate professional and ethical behaviours appropriate for security testing, including evaluation of scope and responsible disclosure.
+- Collaborate with developers and security professionals in a manner that will lead to effective security improvement.
+- Identify and describe vulnerabilities in web applications and underlying infrastructure with reference to modern frameworks and common misconfigurations and exploits.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9491 - Applied Artificial Intelligence
+### COMP9491 - Applied Artificial Intelligence
+Learning Outcomes:
+- Analyse and evaluate the solution quantitatively and qualitatively providing a clear understanding of how the solution utilises or progresses the current state-of-the-art; and
+- Analyse a complex practical problem and develop a solution that exploits and integrates the advantages of several advanced AI techniques;
+- Develop an implementation of a solution using AI techniques;
+- Explain clearly the problem, solution and implementation with critical analysis of the results and findings.
+Assessment Tasks:
+- In-person -: N/A%
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9311 - Database Systems
+### COMP9311 - Database Systems
+Learning Outcomes:
+- Formulate efficient and effective queries via the full range of SQL constructs
+- Understand the concepts behind transactions and concurrency control
+- Appreciate the past, present, and future of database technology
+- Realise data models as relational database schemas
+- Use stored procedures and triggers to extend DBMS capabilities
+- Understand the overall architecture of relational DBMSs
+- Develop accurate, non-redundant data models
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9727 - Recommender Systems
+### COMP9727 - Recommender Systems
+Learning Outcomes:
+- Implement a prototype recommender system that addresses a realistic problem
+- Evaluate a recommender system from multiple perspectives using appropriate metrics
+- Explain the basic types of recommender system and the main recommendation algorithms
+- Design a suitable recommender system for a specific application
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6441 - Security Engineering and Cyber Security
+### COMP6441 - Security Engineering and Cyber Security
+Learning Outcomes:
+- Demonstrate and reflect upon professional competencies including analysis, time and project management, reasonableness checking, self directed research, teamwork, community building, ethical professional behaviour and effective communication
+- Apply fundamental cryptographic primitives and protocols to achieve desired properties (including confidentiality, integrity, and authentication) and explain their weaknesses and appropriate use
+- Demonstrate an understanding of the relationship of cyber security to related fields including safety science, psychology, organisational culture, physical and electronic security, cybercrime, military, intelligence, communication, and disaster planning and response
+- Analyse real world scenarios and apply a security engineering approach to make appropriate decisions taking into consideration key factors such as cost, human factors, risk, and privacy
+- Apply concepts such as information and work measures, randomness, and privacy to design appropriate solutions for real world security problems, or recognise when no effective solutions are likely to be feasible
+- Make reasonable assessments of likely future trends and emerging risks in cyber security, based on an understanding of the historical context and current developments in the field
+- Analyse their prior approach to security in everyday life and reflect on how a security engineering mindset changes this
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6131 - Software Security Analysis
+### COMP6131 - Software Security Analysis
+Learning Outcomes:
+- Explain basic compiler intermediate representation and its importance for precise software vulnerability detection
+- Explain source code vulnerabilities in system software and motivations for software analysis and verification
+- Develop source code verification techniques including constraint solving and assertion-based verification using automated theorem provers.
+- Implement source code analysis techniques including control- and data-flow analysis
+- Design and implement well-considered, high performance, static analysis algorithm to solve problems
+- Create effective and minimum unit tests and documentation to validate the correctness of the code analysis tools
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6451 - Cryptocurrency and Distributed Ledger Technologies
+### COMP6451 - Cryptocurrency and Distributed Ledger Technologies
+Learning Outcomes:
+- Understand the concept of decentralisation and the functional and security requirements for cryptocurrency and distributed ledger applications
+- Be able to program and deploy simple smart contracts on the Ethereum platform
+- Be aware of the range of design dimensions of distributed ledger technologies, including in consensus protocol design, open versus closed blockchains, levels of privacy, transactional expressiveness, and governance structure
+- Have an awareness of key aspects of the ethical, socio-economic and legal dimensions of cryptocurrency and distributed ledger technologies, including their positive and negative repercussions and challenges for regulatory authorities
+- Understand the functioning of the proof of work protocol, cryptographic mechanisms and transactional structures underpinning the design of cryptocurrencies including Bitcoin and Ethereum
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9032 - Microprocessors and Interfacing
+### COMP9032 - Microprocessors and Interfacing
+Learning Outcomes:
+- Critically analyse microprocessor architectures and evaluate the interaction between hardware and software components in embedded systems.
+- Design and implement efficient programs in AVR assembly language to meet specified system requirements.
+- Collaborate effectively in teams to design, implement, and critically evaluate embedded system projects.
+- Evaluate communication mechanisms between microprocessors and I/O devices, including timing, protocols, and performance considerations.
+- Analyse and evaluate the compilation and translation process from C code to AVR machine instructions.
+- Analyse and assess analog-to-digital and digital-to-analog conversion processes in embedded systems.
+- Apply microcontroller-based solutions to solve complex engineering problems and justify design decisions.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: GSOE9220 - Launching a Startup
+### GSOE9220 - Launching a Startup
+Learning Outcomes:
+- Develop entrepreneurial skills to assess business opportunities with limited resources through experiential-learning
+- Clearly and concisely communicate a persuasive startup pitch detailing the value proposition of the startup to various stakeholders including investors and customers
+- Identify and systematically evaluate business opportunities
+- Identify and critically analyse business ideas to determine a startup idea's viability and scalability
+- Develop interpersonal and project management skills by working in small teams to develop and manage a startup idea
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6713 - Natural Language Processing
+### COMP6713 - Natural Language Processing
+Learning Outcomes:
+- Train NLP models using NLP libraries (e.g. NLTK, scikit-learn, Transformers).
+- Explain typical NLP strategies based on statistical and neural approaches.
+- Design an NLP solution by selecting the NLP problem formulation, approach and evaluation strategy, by analysing the requirements of a specific application.
+- Describe NLP problems such as POS tagging, sentiment analysis, information extraction and machine translation along with their challenges in terms of ambiguity resolution
+Assessment Tasks:
+- Assessments: N/A%
+Workload: 
+
+Subject: COMP9319 - Web Data Compression and Search
+### COMP9319 - Web Data Compression and Search
+Learning Outcomes:
+- Discuss the past, present, and future of data compression and Web data optimization
+- Write computer programs for Web data compression and search with optimization
+- Apply basic techniques from XML distributed query processing
+- Apply advanced data compression techniques such as those based on Burrows Wheeler Transform
+- Use selected XML processing and optimization techniques
+- Apply the fundamentals of text compression
+- Analyze the advantages and disadvantages of data compression for Web search
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6991 - Solving Modern Programming Problems with Rust
+### COMP6991 - Solving Modern Programming Problems with Rust
+Learning Outcomes:
+- Create well-considered, high performance, low cost abstractions to solve problems
+- Explain Rust's primary goals (safety, efficiency, productivity) and their motivations
+- Produce effective program designs, and write unit tests and documentation tests to validate Rust programs
+- Manage Rust projects using the Rustup toolchain and Cargo package manager
+- Reason about software through static guarantees to create robust interfaces and produce correct behaviour
+- Develop programming solutions to substantial problems using Rust
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9313 - Big Data Management
+### COMP9313 - Big Data Management
+Learning Outcomes:
+- Use a high-level query language to manipulate Big Data
+- Utilise the map/reduce paradigm and the Spark platform to manipulate Big Data
+- Develop efficient solutions for analytical problems involving Big Data
+- Describe the important characteristics of Big Data
+- Develop an appropriate storage structure for a Big Data repository
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+- In-person -: N/A%
+Workload: 
+
+Subject: COMP9334 - Capacity Planning of Computer Systems and Networks
+### COMP9334 - Capacity Planning of Computer Systems and Networks
+Learning Outcomes:
+- Use queueing theory to analyse the performance of computer systems
+- Develop discrete event simulation programs for computer systems and networks
+- Use statistical methods to analyse simulation data
+- Use queueing networks to model computer systems
+- Formulate integer programming optimisation problems for computer and network problems
+Assessment Tasks:
+- Multimodal - Standard (usually weekly or fortnightly): N/A%
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9820 - Software Project Management
+### COMP9820 - Software Project Management
+Learning Outcomes:
+- Apply software project management principles and techniques to effectively plan, execute, monitor, and deliver software applications.
+- Collaborate effectively in software development teams by managing version control, issue tracking, and configuration management, while fulfilling Agile roles and applying best practices in team dynamics and leadership.
+- Examine ethical, legal, and professional responsibilities in software project management to ensure compliance, integrity, and responsible decision-making.
+- Implement software quality assurance, cloud deployment, and release management strategies to ensure software reliability and scalability.
+- Design scalable software architectures, including microservices and API-driven systems, to support modern software development practices.
+- Critically reflect on project management strategies and lessons learned from real-world software projects to improve future practices.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9415 - Computer Graphics
+### COMP9415 - Computer Graphics
+Learning Outcomes:
+- Analyse computer graphics concepts, such as graphical objects, the hierarchical model of objects, lighting, shadow, reflection, surface, texture maps, and their practical implementation.
+- Describe the programmable graphics pipeline, including the flow of data between the CPU and GPU and the fundamental mechanics of a rendering framework.
+- Develop functional graphics code to solve common rendering challenges based on mathematical concepts.
+- Design interactive 2D and 3D environments by mathematically defining and manipulating geometric primitives, hierarchical object models, and perspective projections.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP6445 - Digital Forensics
+### COMP6445 - Digital Forensics
+Learning Outcomes:
+- Apply working knowledge of the principle elements of digital forensic literacy (such as Windows, Linux and OSX disk structures, machine memory structure, operating system structure caches logging and redundancy, device design authentication operation and weakness, boot and initialisation sequences, storage encryption, network logging, stealth techniques and anti forensic strategies).
+- Apply forensic analysis on common systems.
+- Extract and infer digital traces of activity.
+- Illustrate an understanding of digital forensics to design, conduct, and report on effective forensic investigations.
+- Explain issues and key principles of professional digital forensic practice (including chain of custody and best practice procedures).
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9333 - Advanced Computer Networks
+### COMP9333 - Advanced Computer Networks
+Learning Outcomes:
+- Give effective written and oral presentations on advanced networking topics
+- Conduct network performance measurements and develop network simulations
+- Devise and carry out group-based research projects in computer networks
+- Analyse and critique research papers on computer network topics
+- Analyse and evaluate state-of-the-art advances in network protocol design, based on a sound background in current network implementation methods
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: COMP9242 - Advanced Operating Systems
+### COMP9242 - Advanced Operating Systems
+Learning Outcomes:
+- Create benchmarks to evaluate the performance of OSs and application stacks.
+- Analyse the performance trade-offs in developing high-performance low-level OS code.
+- Design and construct low-level operating system code.
+- Evaluate research published in the field of operating systems at a level commensurate with their experience.
+- Develop OS code inside a variety of OS environments, including monolithic, microkernels, and virtual machines, including device drivers.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: MATH5905 - Statistical Inference
+### MATH5905 - Statistical Inference
+Learning Outcomes:
+- Use computer packages to generate output for common Inference procedures and for computer-intensive calculations such as bootstrapping and robust estimation.
+- Apply concepts of finite-sample and asymptotic efficiency of inference procedure to appropriate problems.
+- Explain how statistical inference arises from the first principles of probability theory.
+- Use parametric, nonparametric, Bayes and robust inference methods.
+- Apply the fundamental principles of inference: sufficiency, likelihood, ancillarity, and equivariance.
+- Estimate key population parameters of interest, test hypotheses about them and construct confidence regions.
+- Apply the parametric and non-parametric delta method, asymptotic normality, Edgeworth expansions and saddlepoint method to solve appropriate problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+

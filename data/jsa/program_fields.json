@@ -20732,6 +20732,356 @@
       "fieldName": "Philosophy",
       "confidence": "high",
       "rationale": "Master of Philosophy, Regulation and Governance -> ASCED 091701 Philosophy"
+    },
+    "unsw-3738": {
+      "name": "Engineering Science / Computer Science",
+      "field": "0201",
+      "fieldName": "Computer Science",
+      "confidence": "high",
+      "rationale": "Engineering Science / Computer Science -> ASCED 0201 Computer Science"
+    },
+    "unsw-3778": {
+      "name": "Computer Science",
+      "field": "0201",
+      "fieldName": "Computer Science",
+      "confidence": "high",
+      "rationale": "Computer Science -> ASCED 0201 Computer Science"
+    },
+    "unsw-3792": {
+      "name": "Computer Science / Fine Arts",
+      "field": "0201",
+      "fieldName": "Computer Science",
+      "confidence": "high",
+      "rationale": "Computer Science / Fine Arts -> ASCED 0201 Computer Science"
+    },
+    "unsw-3706": {
+      "name": "Engineering Science",
+      "field": "039999",
+      "fieldName": "Engineering and Related Technologies, n.e.c.",
+      "confidence": "high",
+      "rationale": "Engineering Science -> ASCED 039999 Engineering and Related Technologies, n.e.c."
+    },
+    "unsw-3779": {
+      "name": "Advanced Computer Science",
+      "field": "0201",
+      "fieldName": "Computer Science",
+      "confidence": "high",
+      "rationale": "Advanced Computer Science -> ASCED 0201 Computer Science"
+    },
+    "unsw-3417": {
+      "name": "Language Studies",
+      "field": "0915",
+      "fieldName": "Language and Literature",
+      "confidence": "high",
+      "rationale": "Language Studies -> ASCED 0915 Language and Literature"
+    },
+    "unsw-3774": {
+      "name": "Computer Science",
+      "field": "0201",
+      "fieldName": "Computer Science",
+      "confidence": "high",
+      "rationale": "Computer Science -> ASCED 0201 Computer Science"
+    },
+    "unsw-3061": {
+      "name": "Food Science",
+      "field": "0001",
+      "fieldName": "Natural and Physical Sciences",
+      "confidence": "high",
+      "rationale": "Food Science -> ASCED 0001 Natural and Physical Sciences"
+    },
+    "unsw-4501": {
+      "name": "Commerce",
+      "field": "0803",
+      "fieldName": "Business and Management",
+      "confidence": "high",
+      "rationale": "Commerce -> ASCED 0803 Business and Management"
+    },
+    "unsw-4515": {
+      "name": "Computer Science & Engineering",
+      "field": "0201",
+      "fieldName": "Computer Science",
+      "confidence": "high",
+      "rationale": "Computer Science & Engineering -> ASCED 0201 Computer Science"
+    },
+    "unsw-4511": {
+      "name": "Arts",
+      "field": "0009",
+      "fieldName": "Society and Culture",
+      "confidence": "high",
+      "rationale": "Arts -> ASCED 0009 Society and Culture"
+    },
+    "unsw-4513": {
+      "name": "Science",
+      "field": "0001",
+      "fieldName": "Natural and Physical Sciences",
+      "confidence": "high",
+      "rationale": "Science -> ASCED 0001 Natural and Physical Sciences"
+    },
+    "unsw-4519": {
+      "name": "Arts",
+      "field": "0009",
+      "fieldName": "Society and Culture",
+      "confidence": "high",
+      "rationale": "Arts -> ASCED 0009 Society and Culture"
+    },
+    "unsw-4825": {
+      "name": "Design",
+      "field": "1005",
+      "fieldName": "Graphic and Design Studies",
+      "confidence": "high",
+      "rationale": "Design -> ASCED 1005 Graphic and Design Studies"
+    },
+    "unsw-4830": {
+      "name": "Fine Arts",
+      "field": "100301",
+      "fieldName": "Fine Arts",
+      "confidence": "high",
+      "rationale": "Fine Arts -> ASCED 100301 Fine Arts"
+    },
+    "unsw-5036": {
+      "name": "Food Science",
+      "field": "0001",
+      "fieldName": "Natural and Physical Sciences",
+      "confidence": "high",
+      "rationale": "Food Science -> ASCED 0001 Natural and Physical Sciences"
+    },
+    "unsw-8136": {
+      "name": "Landscape Architecture",
+      "field": "0401",
+      "fieldName": "Architecture and Urban Environment",
+      "confidence": "high",
+      "rationale": "Landscape Architecture -> ASCED 0401 Architecture and Urban Environment"
+    },
+    "unsw-5373": {
+      "name": "Engineering Science",
+      "field": "039999",
+      "fieldName": "Engineering and Related Technologies, n.e.c.",
+      "confidence": "high",
+      "rationale": "Engineering Science -> ASCED 039999 Engineering and Related Technologies, n.e.c."
+    },
+    "unsw-5546": {
+      "name": "Information Technology",
+      "field": "0201",
+      "fieldName": "Computer Science",
+      "confidence": "high",
+      "rationale": "Information Technology -> ASCED 0201 Computer Science"
+    },
+    "unsw-7037": {
+      "name": "Food Science",
+      "field": "0001",
+      "fieldName": "Natural and Physical Sciences",
+      "confidence": "high",
+      "rationale": "Food Science -> ASCED 0001 Natural and Physical Sciences"
+    },
+    "unsw-7016": {
+      "name": "Humanities",
+      "field": "0009",
+      "fieldName": "Society and Culture",
+      "confidence": "high",
+      "rationale": "Humanities -> ASCED 0009 Society and Culture"
+    },
+    "unsw-8037": {
+      "name": "Food Science",
+      "field": "0001",
+      "fieldName": "Natural and Physical Sciences",
+      "confidence": "high",
+      "rationale": "Food Science -> ASCED 0001 Natural and Physical Sciences"
+    },
+    "unsw-7373": {
+      "name": "Engineering Science",
+      "field": "039999",
+      "fieldName": "Engineering and Related Technologies, n.e.c.",
+      "confidence": "high",
+      "rationale": "Engineering Science -> ASCED 039999 Engineering and Related Technologies, n.e.c."
+    },
+    "unsw-8232": {
+      "name": "Journalism and Communication",
+      "field": "100703",
+      "fieldName": "Journalism",
+      "confidence": "high",
+      "rationale": "Journalism and Communication -> ASCED 100703 Journalism"
+    },
+    "unsw-8224": {
+      "name": "Combined Arts/Social Sciences",
+      "field": "0001",
+      "fieldName": "Natural and Physical Sciences",
+      "confidence": "high",
+      "rationale": "Combined Arts/Social Sciences -> ASCED 0001 Natural and Physical Sciences"
+    },
+    "unsw-8543": {
+      "name": "Information Technology",
+      "field": "0201",
+      "fieldName": "Computer Science",
+      "confidence": "high",
+      "rationale": "Information Technology -> ASCED 0201 Computer Science"
+    },
+    "unsw-8660": {
+      "name": "Biomedical Engineering",
+      "field": "039903",
+      "fieldName": "Biomedical Engineering",
+      "confidence": "high",
+      "rationale": "Biomedical Engineering -> ASCED 039903 Biomedical Engineering"
+    },
+    "unsw-8236": {
+      "name": "Applied Linguistics",
+      "field": "091521",
+      "fieldName": "Linguistics",
+      "confidence": "high",
+      "rationale": "Applied Linguistics -> ASCED 091521 Linguistics"
+    },
+    "unsw-8338": {
+      "name": "Engineering Science",
+      "field": "039999",
+      "fieldName": "Engineering and Related Technologies, n.e.c.",
+      "confidence": "high",
+      "rationale": "Engineering Science -> ASCED 039999 Engineering and Related Technologies, n.e.c."
+    },
+    "unsw-8234": {
+      "name": "PR and Advertising / Design",
+      "field": "1005",
+      "fieldName": "Graphic and Design Studies",
+      "confidence": "high",
+      "rationale": "PR and Advertising / Design -> ASCED 1005 Graphic and Design Studies"
+    },
+    "unsw-8281": {
+      "name": "PR and Advertising",
+      "field": "0008",
+      "fieldName": "Management and Commerce",
+      "confidence": "high",
+      "rationale": "PR and Advertising -> ASCED 0008 Management and Commerce"
+    },
+    "unsw-8623": {
+      "name": "Environmental Management",
+      "field": "0509",
+      "fieldName": "Environmental Studies",
+      "confidence": "high",
+      "rationale": "Environmental Management -> ASCED 0509 Environmental Studies"
+    },
+    "monash-a2006": {
+      "name": "Bachelor of Arts and Social Sciences",
+      "field": "0001",
+      "fieldName": "Natural and Physical Sciences",
+      "confidence": "high",
+      "rationale": "Bachelor of Arts and Social Sciences -> ASCED 0001 Natural and Physical Sciences"
+    },
+    "monash-a0502": {
+      "name": "Diploma of Liberal Arts",
+      "field": "0009",
+      "fieldName": "Society and Culture",
+      "confidence": "high",
+      "rationale": "Diploma of Liberal Arts -> ASCED 0009 Society and Culture"
+    },
+    "monash-d3001": {
+      "name": "Bachelor of Education",
+      "field": "0701",
+      "fieldName": "Teacher Education",
+      "confidence": "high",
+      "rationale": "Bachelor of Education -> ASCED 0701 Teacher Education"
+    },
+    "monash-a0501": {
+      "name": "Diploma of Languages",
+      "field": "0915",
+      "fieldName": "Language and Literature",
+      "confidence": "high",
+      "rationale": "Diploma of Languages -> ASCED 0915 Language and Literature"
+    },
+    "monash-b3701": {
+      "name": "Bachelor of Commerce",
+      "field": "0803",
+      "fieldName": "Business and Management",
+      "confidence": "high",
+      "rationale": "Bachelor of Commerce -> ASCED 0803 Business and Management"
+    },
+    "monash-d3004": {
+      "name": "Bachelor of Education (Honours) and Bachelor of Music",
+      "field": "0701",
+      "fieldName": "Teacher Education",
+      "confidence": "high",
+      "rationale": "Bachelor of Education (Honours) and Bachelor of Music -> ASCED 0701 Teacher Education"
+    },
+    "monash-d3005": {
+      "name": "Bachelor of Education (Honours) and Bachelor of Science",
+      "field": "0701",
+      "fieldName": "Teacher Education",
+      "confidence": "high",
+      "rationale": "Bachelor of Education (Honours) and Bachelor of Science -> ASCED 0701 Teacher Education"
+    },
+    "monash-d3006": {
+      "name": "Bachelor of Education (Honours) and Bachelor of Fine Art",
+      "field": "0701",
+      "fieldName": "Teacher Education",
+      "confidence": "high",
+      "rationale": "Bachelor of Education (Honours) and Bachelor of Fine Art -> ASCED 0701 Teacher Education"
+    },
+    "monash-d6001": {
+      "name": "Master of Teaching",
+      "field": "0701",
+      "fieldName": "Teacher Education",
+      "confidence": "high",
+      "rationale": "Master of Teaching -> ASCED 0701 Teacher Education"
+    },
+    "monash-b6023": {
+      "name": "Master of Commerce",
+      "field": "0803",
+      "fieldName": "Business and Management",
+      "confidence": "high",
+      "rationale": "Master of Commerce -> ASCED 0803 Business and Management"
+    },
+    "monash-d3002": {
+      "name": "Bachelor of Education (Honours) and Bachelor of Arts",
+      "field": "0701",
+      "fieldName": "Teacher Education",
+      "confidence": "high",
+      "rationale": "Bachelor of Education (Honours) and Bachelor of Arts -> ASCED 0701 Teacher Education"
+    },
+    "monash-s6000": {
+      "name": "Master of Science",
+      "field": "0001",
+      "fieldName": "Natural and Physical Sciences",
+      "confidence": "high",
+      "rationale": "Master of Science -> ASCED 0001 Natural and Physical Sciences"
+    },
+    "adelaide-bds_bds": {
+      "name": "Bachelor of Dental Surgery",
+      "field": "060701",
+      "fieldName": "Dentistry",
+      "confidence": "high",
+      "rationale": "Bachelor of Dental Surgery -> ASCED 060701 Dentistry"
+    },
+    "adelaide-bhsm_bhsmoua": {
+      "name": "Bachelor of Health Service Management [online]",
+      "field": "069999",
+      "fieldName": "Health, n.e.c.",
+      "confidence": "high",
+      "rationale": "Bachelor of Health Service Management [online] -> ASCED 069999 Health, n.e.c."
+    },
+    "usyd-teaching": {
+      "name": "Teaching",
+      "field": "0701",
+      "fieldName": "Teacher Education",
+      "confidence": "high",
+      "rationale": "Teaching -> ASCED 0701 Teacher Education"
+    },
+    "usyd-advanced-computing-commerce": {
+      "name": "Bachelor of Advanced Computing and Bachelor of Commerce",
+      "field": "0201",
+      "fieldName": "Computer Science",
+      "confidence": "high",
+      "rationale": "Bachelor of Advanced Computing and Bachelor of Commerce -> ASCED 0201 Computer Science"
+    },
+    "usyd-electives-p1-unit-of-study-table": {
+      "name": "Bachelor of Laws",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Bachelor of Laws -> ASCED 0909 Law"
+    },
+    "usyd-nursing-advanced-studies": {
+      "name": "Bachelor of Nursing",
+      "field": "060301",
+      "fieldName": "General Nursing",
+      "confidence": "high",
+      "rationale": "Bachelor of Nursing -> ASCED 060301 General Nursing"
     }
   }
 }

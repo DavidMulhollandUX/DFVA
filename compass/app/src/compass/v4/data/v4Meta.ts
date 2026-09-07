@@ -1251,6 +1251,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "adelaide-bds_bds": {
+    "code": "adelaide-bds_bds",
+    "name": "Bachelor of Dental Surgery",
+    "exposure": 60.44,
+    "entryExposure": 60.44,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "adelaide-bdvst_bdevstud": {
     "code": "adelaide-bdvst_bdevstud",
     "name": "Bachelor of International Development",
@@ -1958,6 +1980,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
   "adelaide-bhmsa_bhlthmsca": {
     "code": "adelaide-bhmsa_bhlthmsca",
     "name": "Bachelor of Health and Medical Sciences",
+    "exposure": 76.66,
+    "entryExposure": 72.12,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "adelaide-bhsm_bhsmoua": {
+    "code": "adelaide-bhsm_bhsmoua",
+    "name": "Bachelor of Health Service Management [online]",
     "exposure": 76.66,
     "entryExposure": 72.12,
     "exposureTier": "field",
@@ -31611,6 +31655,50 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "monash-a0501": {
+    "code": "monash-a0501",
+    "name": "Diploma of Languages",
+    "exposure": 89.14,
+    "entryExposure": 88.69,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "monash-a0502": {
+    "code": "monash-a0502",
+    "name": "Diploma of Liberal Arts",
+    "exposure": 81.93,
+    "entryExposure": 77.94,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "monash-a0503": {
     "code": "monash-a0503",
     "name": "Diploma of Higher Education Studies",
@@ -31715,6 +31803,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W1": 2,
     "W2": 3,
     "W3": 2,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "monash-a2006": {
+    "code": "monash-a2006",
+    "name": "Bachelor of Arts and Social Sciences",
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
     "gates": {
       "G1": "PASS",
       "G2": "PASS"
@@ -33481,6 +33591,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "monash-b3701": {
+    "code": "monash-b3701",
+    "name": "Bachelor of Commerce",
+    "exposure": 97.01,
+    "entryExposure": 96.82,
+    "exposureTier": "pooled",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "monash-b3702": {
     "code": "monash-b3702",
     "name": "Bachelor of Business and Commerce",
@@ -33914,6 +34046,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "C5": 3,
     "W1": 2,
     "W2": 3,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "monash-b6023": {
+    "code": "monash-b6023",
+    "name": "Master of Commerce",
+    "exposure": 88.71,
+    "entryExposure": 88.85,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
     "W3": 1,
     "gates": {
       "G1": "PASS",
@@ -35197,6 +35351,116 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "monash-d3001": {
+    "code": "monash-d3001",
+    "name": "Bachelor of Education",
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "monash-d3002": {
+    "code": "monash-d3002",
+    "name": "Bachelor of Education (Honours) and Bachelor of Arts",
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "monash-d3004": {
+    "code": "monash-d3004",
+    "name": "Bachelor of Education (Honours) and Bachelor of Music",
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "monash-d3005": {
+    "code": "monash-d3005",
+    "name": "Bachelor of Education (Honours) and Bachelor of Science",
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "monash-d3006": {
+    "code": "monash-d3006",
+    "name": "Bachelor of Education (Honours) and Bachelor of Fine Art",
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "monash-d3007": {
     "code": "monash-d3007",
     "name": "Bachelor of Education",
@@ -35323,6 +35587,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W1": 2,
     "W2": 2,
     "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "monash-d6001": {
+    "code": "monash-d6001",
+    "name": "Master of Teaching",
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
     "gates": {
       "G1": "PASS",
       "G2": "PASS"
@@ -39311,6 +39597,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "monash-s6000": {
+    "code": "monash-s6000",
+    "name": "Master of Science",
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "monash-s6001": {
     "code": "monash-s6001",
     "name": "Master of Financial Mathematics",
@@ -39817,6 +40125,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "unsw-3061": {
+    "code": "unsw-3061",
+    "name": "Food Science",
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "unsw-3131": {
     "code": "unsw-3131",
     "name": "Materials Science and Engineering",
@@ -40262,6 +40592,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "name": "Arts",
     "exposure": 81.93,
     "entryExposure": 77.94,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-3417": {
+    "code": "unsw-3417",
+    "name": "Language Studies",
+    "exposure": 89.14,
+    "entryExposure": 88.69,
     "exposureTier": "field",
     "adaptiveness": 12,
     "workplace": 5,
@@ -40961,6 +41313,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "unsw-3706": {
+    "code": "unsw-3706",
+    "name": "Engineering Science",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 2,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "unsw-3707": {
     "code": "unsw-3707",
     "name": "Engineering",
@@ -41086,6 +41460,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "C5": 2,
     "W1": 2,
     "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-3738": {
+    "code": "unsw-3738",
+    "name": "Engineering Science / Computer Science",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 3,
     "W3": 1,
     "gates": {
       "G1": "PASS",
@@ -41269,6 +41665,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "unsw-3774": {
+    "code": "unsw-3774",
+    "name": "Computer Science",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 3,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "unsw-3775": {
     "code": "unsw-3775",
     "name": "Surveying",
@@ -41316,6 +41734,50 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
   "unsw-3777": {
     "code": "unsw-3777",
     "name": "Cyber Security",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 3,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-3778": {
+    "code": "unsw-3778",
+    "name": "Computer Science",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 3,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-3779": {
+    "code": "unsw-3779",
+    "name": "Advanced Computer Science",
     "exposure": 83.3,
     "entryExposure": 81.63,
     "exposureTier": "field",
@@ -41470,6 +41932,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
   "unsw-3789": {
     "code": "unsw-3789",
     "name": "Science / Computer Science",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 3,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-3792": {
+    "code": "unsw-3792",
+    "name": "Computer Science / Fine Arts",
     "exposure": 83.3,
     "entryExposure": 81.63,
     "exposureTier": "field",
@@ -43095,6 +43579,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "unsw-4501": {
+    "code": "unsw-4501",
+    "name": "Commerce",
+    "exposure": 88.71,
+    "entryExposure": 88.85,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "unsw-4502": {
     "code": "unsw-4502",
     "name": "Economics",
@@ -43183,6 +43689,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "unsw-4511": {
+    "code": "unsw-4511",
+    "name": "Arts",
+    "exposure": 81.93,
+    "entryExposure": 77.94,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "unsw-4512": {
     "code": "unsw-4512",
     "name": "Business",
@@ -43198,6 +43726,50 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "C5": 2,
     "W1": 2,
     "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-4513": {
+    "code": "unsw-4513",
+    "name": "Science",
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-4515": {
+    "code": "unsw-4515",
+    "name": "Computer Science & Engineering",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 3,
     "W3": 1,
     "gates": {
       "G1": "PASS",
@@ -43254,6 +43826,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "name": "Psychological Science",
     "exposure": 89.85,
     "entryExposure": 88.29,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-4519": {
+    "code": "unsw-4519",
+    "name": "Arts",
+    "exposure": 81.93,
+    "entryExposure": 77.94,
     "exposureTier": "field",
     "adaptiveness": 12,
     "workplace": 5,
@@ -43821,6 +44415,50 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "unsw-4825": {
+    "code": "unsw-4825",
+    "name": "Design",
+    "exposure": 74.96,
+    "entryExposure": 73.3,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-4830": {
+    "code": "unsw-4830",
+    "name": "Fine Arts",
+    "exposure": 71.19,
+    "entryExposure": 63.73,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "unsw-4831": {
     "code": "unsw-4831",
     "name": "Fine Arts / Arts",
@@ -43897,6 +44535,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "workplace": 5,
     "C1": 3,
     "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-5036": {
+    "code": "unsw-5036",
+    "name": "Food Science",
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
     "C3": 2,
     "C4": 3,
     "C5": 2,
@@ -44233,6 +44893,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W1": 2,
     "W2": 3,
     "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-5373": {
+    "code": "unsw-5373",
+    "name": "Engineering Science",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 2,
     "gates": {
       "G1": "PASS",
       "G2": "PASS"
@@ -44584,6 +45266,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "C5": 2,
     "W1": 2,
     "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-5546": {
+    "code": "unsw-5546",
+    "name": "Information Technology",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 3,
     "W3": 1,
     "gates": {
       "G1": "PASS",
@@ -44943,6 +45647,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "unsw-7016": {
+    "code": "unsw-7016",
+    "name": "Humanities",
+    "exposure": 81.93,
+    "entryExposure": 77.94,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "unsw-7019": {
     "code": "unsw-7019",
     "name": "Indigenous Preparatory Program",
@@ -45002,6 +45728,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "C5": 3,
     "W1": 2,
     "W2": 3,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-7037": {
+    "code": "unsw-7037",
+    "name": "Food Science",
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
     "W3": 1,
     "gates": {
       "G1": "PASS",
@@ -45707,6 +46455,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W1": 2,
     "W2": 3,
     "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-7373": {
+    "code": "unsw-7373",
+    "name": "Engineering Science",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 2,
     "gates": {
       "G1": "PASS",
       "G2": "PASS"
@@ -46703,6 +47473,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "unsw-8037": {
+    "code": "unsw-8037",
+    "name": "Food Science",
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "unsw-8059": {
     "code": "unsw-8059",
     "name": "Mine Geotechnical Engineering",
@@ -46774,6 +47566,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "name": "Property and Development",
     "exposure": 91.34,
     "entryExposure": 90.05,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-8136": {
+    "code": "unsw-8136",
+    "name": "Landscape Architecture",
+    "exposure": 82.16,
+    "entryExposure": 81.74,
     "exposureTier": "field",
     "adaptiveness": 12,
     "workplace": 5,
@@ -46945,6 +47759,94 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "unsw-8224": {
+    "code": "unsw-8224",
+    "name": "Combined Arts/Social Sciences",
+    "exposure": 76.63,
+    "entryExposure": 75.06,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-8232": {
+    "code": "unsw-8232",
+    "name": "Journalism and Communication",
+    "exposure": 89.25,
+    "entryExposure": 88.87,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-8234": {
+    "code": "unsw-8234",
+    "name": "PR and Advertising / Design",
+    "exposure": 74.96,
+    "entryExposure": 73.3,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-8236": {
+    "code": "unsw-8236",
+    "name": "Applied Linguistics",
+    "exposure": 88.72,
+    "entryExposure": 88.72,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "unsw-8256": {
     "code": "unsw-8256",
     "name": "Psychology",
@@ -47033,6 +47935,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "unsw-8281": {
+    "code": "unsw-8281",
+    "name": "PR and Advertising",
+    "exposure": 91.34,
+    "entryExposure": 90.05,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "unsw-8318": {
     "code": "unsw-8318",
     "name": "Construction Project Management / Property and Development",
@@ -47058,6 +47982,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
   "unsw-8335": {
     "code": "unsw-8335",
     "name": "Mining Engineering",
+    "exposure": 83.48,
+    "entryExposure": 82.67,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 2,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-8338": {
+    "code": "unsw-8338",
+    "name": "Engineering Science",
     "exposure": 83.48,
     "entryExposure": 82.67,
     "exposureTier": "field",
@@ -47693,6 +48639,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "unsw-8543": {
+    "code": "unsw-8543",
+    "name": "Information Technology",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 3,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "unsw-8544": {
     "code": "unsw-8544",
     "name": "Information Technology / Commerce",
@@ -47957,6 +48925,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "unsw-8623": {
+    "code": "unsw-8623",
+    "name": "Environmental Management",
+    "exposure": 80.55,
+    "entryExposure": 80.71,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "unsw-8624": {
     "code": "unsw-8624",
     "name": "Space Operations",
@@ -48215,6 +49205,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W1": 2,
     "W2": 3,
     "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "unsw-8660": {
+    "code": "unsw-8660",
+    "name": "Biomedical Engineering",
+    "exposure": 87.13,
+    "entryExposure": 87.13,
+    "exposureTier": "field",
+    "adaptiveness": 14,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 2,
     "gates": {
       "G1": "PASS",
       "G2": "PASS"
@@ -56515,6 +57527,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "usyd-advanced-computing-commerce": {
+    "code": "usyd-advanced-computing-commerce",
+    "name": "Bachelor of Advanced Computing and Bachelor of Commerce",
+    "exposure": 83.3,
+    "entryExposure": 81.63,
+    "exposureTier": "field",
+    "adaptiveness": 15,
+    "workplace": 6,
+    "C1": 3,
+    "C2": 3,
+    "C3": 3,
+    "C4": 3,
+    "C5": 3,
+    "W1": 2,
+    "W2": 3,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "usyd-advanced-surgery": {
     "code": "usyd-advanced-surgery",
     "name": "Advanced Surgery",
@@ -57945,6 +58979,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "usyd-electives-p1-unit-of-study-table": {
+    "code": "usyd-electives-p1-unit-of-study-table",
+    "name": "Bachelor of Laws",
+    "exposure": 90.52,
+    "entryExposure": 90.67,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 5,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 2,
+    "W2": 2,
+    "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "usyd-emba": {
     "code": "usyd-emba",
     "name": "Executive Business Administration",
@@ -59089,6 +60145,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     },
     "verifiedAt": null
   },
+  "usyd-nursing-advanced-studies": {
+    "code": "usyd-nursing-advanced-studies",
+    "name": "Bachelor of Nursing",
+    "exposure": 66.46,
+    "entryExposure": 66.2,
+    "exposureTier": "field",
+    "adaptiveness": 13,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 3,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
   "usyd-nursing-nurse-practitioner": {
     "code": "usyd-nursing-nurse-practitioner",
     "name": "Nursing",
@@ -59765,6 +60843,28 @@ export const V4_INDEX: Record<string, V4IndexEntry> = {
     "W1": 2,
     "W2": 2,
     "W3": 1,
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS"
+    },
+    "verifiedAt": null
+  },
+  "usyd-teaching": {
+    "code": "usyd-teaching",
+    "name": "Teaching",
+    "exposure": 76.56,
+    "entryExposure": 77.57,
+    "exposureTier": "field",
+    "adaptiveness": 12,
+    "workplace": 9,
+    "C1": 3,
+    "C2": 2,
+    "C3": 2,
+    "C4": 3,
+    "C5": 2,
+    "W1": 3,
+    "W2": 3,
+    "W3": 3,
     "gates": {
       "G1": "PASS",
       "G2": "PASS"

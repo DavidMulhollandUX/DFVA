@@ -74,6 +74,7 @@ import p_adelaide_bcom_bcombcomacctbcomacctosbcomcorfin from "./v4PanelC/adelaid
 import p_adelaide_bcomp_bcmpsci from "./v4PanelC/adelaide-bcomp_bcmpsci";
 import p_adelaide_bcrim_bcrim from "./v4PanelC/adelaide-bcrim_bcrim";
 import p_adelaide_bdest_bdesignst from "./v4PanelC/adelaide-bdest_bdesignst";
+import p_adelaide_bds_bds from "./v4PanelC/adelaide-bds_bds";
 import p_adelaide_bdvst_bdevstud from "./v4PanelC/adelaide-bdvst_bdevstud";
 import p_adelaide_bebfb_beconbfbd1 from "./v4PanelC/adelaide-bebfb_beconbfbd1";
 import p_adelaide_bec_becon from "./v4PanelC/adelaide-bec_becon";
@@ -107,6 +108,7 @@ import p_adelaide_bfbbm_bfbbmd1 from "./v4PanelC/adelaide-bfbbm_bfbbmd1";
 import p_adelaide_bfsct_bfoodsct from "./v4PanelC/adelaide-bfsct_bfoodsct";
 import p_adelaide_bhms_bhlthmsc from "./v4PanelC/adelaide-bhms_bhlthmsc";
 import p_adelaide_bhmsa_bhlthmsca from "./v4PanelC/adelaide-bhmsa_bhlthmsca";
+import p_adelaide_bhsm_bhsmoua from "./v4PanelC/adelaide-bhsm_bhsmoua";
 import p_adelaide_bib_bintbusoua from "./v4PanelC/adelaide-bib_bintbusoua";
 import p_adelaide_bintr_bintlrel from "./v4PanelC/adelaide-bintr_bintlrel";
 import p_adelaide_birbm_bintrebmed from "./v4PanelC/adelaide-birbm_bintrebmed";
@@ -1454,11 +1456,14 @@ import p_monash_3736 from "./v4PanelC/monash-3736";
 import p_monash_4585 from "./v4PanelC/monash-4585";
 import p_monash_4586 from "./v4PanelC/monash-4586";
 import p_monash_a0001 from "./v4PanelC/monash-a0001";
+import p_monash_a0501 from "./v4PanelC/monash-a0501";
+import p_monash_a0502 from "./v4PanelC/monash-a0502";
 import p_monash_a0503 from "./v4PanelC/monash-a0503";
 import p_monash_a2000 from "./v4PanelC/monash-a2000";
 import p_monash_a2001 from "./v4PanelC/monash-a2001";
 import p_monash_a2002 from "./v4PanelC/monash-a2002";
 import p_monash_a2003 from "./v4PanelC/monash-a2003";
+import p_monash_a2006 from "./v4PanelC/monash-a2006";
 import p_monash_a2008 from "./v4PanelC/monash-a2008";
 import p_monash_a2010 from "./v4PanelC/monash-a2010";
 import p_monash_a2011 from "./v4PanelC/monash-a2011";
@@ -1539,6 +1544,7 @@ import p_monash_b2051 from "./v4PanelC/monash-b2051";
 import p_monash_b2052 from "./v4PanelC/monash-b2052";
 import p_monash_b2056 from "./v4PanelC/monash-b2056";
 import p_monash_b2057 from "./v4PanelC/monash-b2057";
+import p_monash_b3701 from "./v4PanelC/monash-b3701";
 import p_monash_b3702 from "./v4PanelC/monash-b3702";
 import p_monash_b4002 from "./v4PanelC/monash-b4002";
 import p_monash_b4005 from "./v4PanelC/monash-b4005";
@@ -1559,6 +1565,7 @@ import p_monash_b6008 from "./v4PanelC/monash-b6008";
 import p_monash_b6011 from "./v4PanelC/monash-b6011";
 import p_monash_b6014 from "./v4PanelC/monash-b6014";
 import p_monash_b6022 from "./v4PanelC/monash-b6022";
+import p_monash_b6023 from "./v4PanelC/monash-b6023";
 import p_monash_b6024 from "./v4PanelC/monash-b6024";
 import p_monash_b6025 from "./v4PanelC/monash-b6025";
 import p_monash_b6026 from "./v4PanelC/monash-b6026";
@@ -1617,12 +1624,18 @@ import p_monash_d0501 from "./v4PanelC/monash-d0501";
 import p_monash_d0502 from "./v4PanelC/monash-d0502";
 import p_monash_d2002 from "./v4PanelC/monash-d2002";
 import p_monash_d2003 from "./v4PanelC/monash-d2003";
+import p_monash_d3001 from "./v4PanelC/monash-d3001";
+import p_monash_d3002 from "./v4PanelC/monash-d3002";
+import p_monash_d3004 from "./v4PanelC/monash-d3004";
+import p_monash_d3005 from "./v4PanelC/monash-d3005";
+import p_monash_d3006 from "./v4PanelC/monash-d3006";
 import p_monash_d3007 from "./v4PanelC/monash-d3007";
 import p_monash_d4001 from "./v4PanelC/monash-d4001";
 import p_monash_d4002 from "./v4PanelC/monash-d4002";
 import p_monash_d4004 from "./v4PanelC/monash-d4004";
 import p_monash_d4008 from "./v4PanelC/monash-d4008";
 import p_monash_d5002 from "./v4PanelC/monash-d5002";
+import p_monash_d6001 from "./v4PanelC/monash-d6001";
 import p_monash_d6002 from "./v4PanelC/monash-d6002";
 import p_monash_d6003 from "./v4PanelC/monash-d6003";
 import p_monash_d6005 from "./v4PanelC/monash-d6005";
@@ -1804,6 +1817,7 @@ import p_monash_s4007 from "./v4PanelC/monash-s4007";
 import p_monash_s4009 from "./v4PanelC/monash-s4009";
 import p_monash_s4010 from "./v4PanelC/monash-s4010";
 import p_monash_s5008 from "./v4PanelC/monash-s5008";
+import p_monash_s6000 from "./v4PanelC/monash-s6000";
 import p_monash_s6001 from "./v4PanelC/monash-s6001";
 import p_monash_s6002 from "./v4PanelC/monash-s6002";
 import p_monash_s6003 from "./v4PanelC/monash-s6003";
@@ -1827,6 +1841,7 @@ import p_unsw_2645 from "./v4PanelC/unsw-2645";
 import p_unsw_2647 from "./v4PanelC/unsw-2647";
 import p_unsw_2912 from "./v4PanelC/unsw-2912";
 import p_unsw_3053 from "./v4PanelC/unsw-3053";
+import p_unsw_3061 from "./v4PanelC/unsw-3061";
 import p_unsw_3131 from "./v4PanelC/unsw-3131";
 import p_unsw_3132 from "./v4PanelC/unsw-3132";
 import p_unsw_3133 from "./v4PanelC/unsw-3133";
@@ -1848,6 +1863,7 @@ import p_unsw_3346 from "./v4PanelC/unsw-3346";
 import p_unsw_3362 from "./v4PanelC/unsw-3362";
 import p_unsw_3381 from "./v4PanelC/unsw-3381";
 import p_unsw_3409 from "./v4PanelC/unsw-3409";
+import p_unsw_3417 from "./v4PanelC/unsw-3417";
 import p_unsw_3422 from "./v4PanelC/unsw-3422";
 import p_unsw_3435 from "./v4PanelC/unsw-3435";
 import p_unsw_3462 from "./v4PanelC/unsw-3462";
@@ -1879,12 +1895,14 @@ import p_unsw_3635 from "./v4PanelC/unsw-3635";
 import p_unsw_3671 from "./v4PanelC/unsw-3671";
 import p_unsw_3673 from "./v4PanelC/unsw-3673";
 import p_unsw_3674 from "./v4PanelC/unsw-3674";
+import p_unsw_3706 from "./v4PanelC/unsw-3706";
 import p_unsw_3707 from "./v4PanelC/unsw-3707";
 import p_unsw_3732 from "./v4PanelC/unsw-3732";
 import p_unsw_3733 from "./v4PanelC/unsw-3733";
 import p_unsw_3734 from "./v4PanelC/unsw-3734";
 import p_unsw_3736 from "./v4PanelC/unsw-3736";
 import p_unsw_3737 from "./v4PanelC/unsw-3737";
+import p_unsw_3738 from "./v4PanelC/unsw-3738";
 import p_unsw_3739 from "./v4PanelC/unsw-3739";
 import p_unsw_3761 from "./v4PanelC/unsw-3761";
 import p_unsw_3762 from "./v4PanelC/unsw-3762";
@@ -1893,9 +1911,12 @@ import p_unsw_3765 from "./v4PanelC/unsw-3765";
 import p_unsw_3767 from "./v4PanelC/unsw-3767";
 import p_unsw_3768 from "./v4PanelC/unsw-3768";
 import p_unsw_3773 from "./v4PanelC/unsw-3773";
+import p_unsw_3774 from "./v4PanelC/unsw-3774";
 import p_unsw_3775 from "./v4PanelC/unsw-3775";
 import p_unsw_3776 from "./v4PanelC/unsw-3776";
 import p_unsw_3777 from "./v4PanelC/unsw-3777";
+import p_unsw_3778 from "./v4PanelC/unsw-3778";
+import p_unsw_3779 from "./v4PanelC/unsw-3779";
 import p_unsw_3781 from "./v4PanelC/unsw-3781";
 import p_unsw_3782 from "./v4PanelC/unsw-3782";
 import p_unsw_3783 from "./v4PanelC/unsw-3783";
@@ -1903,6 +1924,7 @@ import p_unsw_3784 from "./v4PanelC/unsw-3784";
 import p_unsw_3785 from "./v4PanelC/unsw-3785";
 import p_unsw_3786 from "./v4PanelC/unsw-3786";
 import p_unsw_3789 from "./v4PanelC/unsw-3789";
+import p_unsw_3792 from "./v4PanelC/unsw-3792";
 import p_unsw_3793 from "./v4PanelC/unsw-3793";
 import p_unsw_3795 from "./v4PanelC/unsw-3795";
 import p_unsw_3798 from "./v4PanelC/unsw-3798";
@@ -1976,14 +1998,19 @@ import p_unsw_4478 from "./v4PanelC/unsw-4478";
 import p_unsw_4484 from "./v4PanelC/unsw-4484";
 import p_unsw_4485 from "./v4PanelC/unsw-4485";
 import p_unsw_4490 from "./v4PanelC/unsw-4490";
+import p_unsw_4501 from "./v4PanelC/unsw-4501";
 import p_unsw_4502 from "./v4PanelC/unsw-4502";
 import p_unsw_4505 from "./v4PanelC/unsw-4505";
 import p_unsw_4508 from "./v4PanelC/unsw-4508";
 import p_unsw_4509 from "./v4PanelC/unsw-4509";
+import p_unsw_4511 from "./v4PanelC/unsw-4511";
 import p_unsw_4512 from "./v4PanelC/unsw-4512";
+import p_unsw_4513 from "./v4PanelC/unsw-4513";
+import p_unsw_4515 from "./v4PanelC/unsw-4515";
 import p_unsw_4516 from "./v4PanelC/unsw-4516";
 import p_unsw_4517 from "./v4PanelC/unsw-4517";
 import p_unsw_4518 from "./v4PanelC/unsw-4518";
+import p_unsw_4519 from "./v4PanelC/unsw-4519";
 import p_unsw_4520 from "./v4PanelC/unsw-4520";
 import p_unsw_4521 from "./v4PanelC/unsw-4521";
 import p_unsw_4522 from "./v4PanelC/unsw-4522";
@@ -2009,10 +2036,13 @@ import p_unsw_4782 from "./v4PanelC/unsw-4782";
 import p_unsw_4787 from "./v4PanelC/unsw-4787";
 import p_unsw_4795 from "./v4PanelC/unsw-4795";
 import p_unsw_4797 from "./v4PanelC/unsw-4797";
+import p_unsw_4825 from "./v4PanelC/unsw-4825";
+import p_unsw_4830 from "./v4PanelC/unsw-4830";
 import p_unsw_4831 from "./v4PanelC/unsw-4831";
 import p_unsw_4873 from "./v4PanelC/unsw-4873";
 import p_unsw_4875 from "./v4PanelC/unsw-4875";
 import p_unsw_4877 from "./v4PanelC/unsw-4877";
+import p_unsw_5036 from "./v4PanelC/unsw-5036";
 import p_unsw_5046 from "./v4PanelC/unsw-5046";
 import p_unsw_5059 from "./v4PanelC/unsw-5059";
 import p_unsw_5148 from "./v4PanelC/unsw-5148";
@@ -2028,6 +2058,7 @@ import p_unsw_5335 from "./v4PanelC/unsw-5335";
 import p_unsw_5357 from "./v4PanelC/unsw-5357";
 import p_unsw_5362 from "./v4PanelC/unsw-5362";
 import p_unsw_5372 from "./v4PanelC/unsw-5372";
+import p_unsw_5373 from "./v4PanelC/unsw-5373";
 import p_unsw_5405 from "./v4PanelC/unsw-5405";
 import p_unsw_5415 from "./v4PanelC/unsw-5415";
 import p_unsw_5420 from "./v4PanelC/unsw-5420";
@@ -2044,6 +2075,7 @@ import p_unsw_5513 from "./v4PanelC/unsw-5513";
 import p_unsw_5518 from "./v4PanelC/unsw-5518";
 import p_unsw_5536 from "./v4PanelC/unsw-5536";
 import p_unsw_5545 from "./v4PanelC/unsw-5545";
+import p_unsw_5546 from "./v4PanelC/unsw-5546";
 import p_unsw_5567 from "./v4PanelC/unsw-5567";
 import p_unsw_5646 from "./v4PanelC/unsw-5646";
 import p_unsw_5649 from "./v4PanelC/unsw-5649";
@@ -2060,9 +2092,11 @@ import p_unsw_7004 from "./v4PanelC/unsw-7004";
 import p_unsw_7005 from "./v4PanelC/unsw-7005";
 import p_unsw_7006 from "./v4PanelC/unsw-7006";
 import p_unsw_7014 from "./v4PanelC/unsw-7014";
+import p_unsw_7016 from "./v4PanelC/unsw-7016";
 import p_unsw_7019 from "./v4PanelC/unsw-7019";
 import p_unsw_7021 from "./v4PanelC/unsw-7021";
 import p_unsw_7022 from "./v4PanelC/unsw-7022";
+import p_unsw_7037 from "./v4PanelC/unsw-7037";
 import p_unsw_7123 from "./v4PanelC/unsw-7123";
 import p_unsw_7127 from "./v4PanelC/unsw-7127";
 import p_unsw_7148 from "./v4PanelC/unsw-7148";
@@ -2095,6 +2129,7 @@ import p_unsw_7365 from "./v4PanelC/unsw-7365";
 import p_unsw_7367 from "./v4PanelC/unsw-7367";
 import p_unsw_7368 from "./v4PanelC/unsw-7368";
 import p_unsw_7372 from "./v4PanelC/unsw-7372";
+import p_unsw_7373 from "./v4PanelC/unsw-7373";
 import p_unsw_7379 from "./v4PanelC/unsw-7379";
 import p_unsw_7401 from "./v4PanelC/unsw-7401";
 import p_unsw_7412 from "./v4PanelC/unsw-7412";
@@ -2140,10 +2175,12 @@ import p_unsw_7876 from "./v4PanelC/unsw-7876";
 import p_unsw_7959 from "./v4PanelC/unsw-7959";
 import p_unsw_7960 from "./v4PanelC/unsw-7960";
 import p_unsw_7970 from "./v4PanelC/unsw-7970";
+import p_unsw_8037 from "./v4PanelC/unsw-8037";
 import p_unsw_8059 from "./v4PanelC/unsw-8059";
 import p_unsw_8095 from "./v4PanelC/unsw-8095";
 import p_unsw_8121 from "./v4PanelC/unsw-8121";
 import p_unsw_8127 from "./v4PanelC/unsw-8127";
+import p_unsw_8136 from "./v4PanelC/unsw-8136";
 import p_unsw_8143 from "./v4PanelC/unsw-8143";
 import p_unsw_8144 from "./v4PanelC/unsw-8144";
 import p_unsw_8148 from "./v4PanelC/unsw-8148";
@@ -2151,12 +2188,18 @@ import p_unsw_8161 from "./v4PanelC/unsw-8161";
 import p_unsw_8202 from "./v4PanelC/unsw-8202";
 import p_unsw_8203 from "./v4PanelC/unsw-8203";
 import p_unsw_8204 from "./v4PanelC/unsw-8204";
+import p_unsw_8224 from "./v4PanelC/unsw-8224";
+import p_unsw_8232 from "./v4PanelC/unsw-8232";
+import p_unsw_8234 from "./v4PanelC/unsw-8234";
+import p_unsw_8236 from "./v4PanelC/unsw-8236";
 import p_unsw_8256 from "./v4PanelC/unsw-8256";
 import p_unsw_8257 from "./v4PanelC/unsw-8257";
 import p_unsw_8266 from "./v4PanelC/unsw-8266";
 import p_unsw_8271 from "./v4PanelC/unsw-8271";
+import p_unsw_8281 from "./v4PanelC/unsw-8281";
 import p_unsw_8318 from "./v4PanelC/unsw-8318";
 import p_unsw_8335 from "./v4PanelC/unsw-8335";
+import p_unsw_8338 from "./v4PanelC/unsw-8338";
 import p_unsw_8339 from "./v4PanelC/unsw-8339";
 import p_unsw_8351 from "./v4PanelC/unsw-8351";
 import p_unsw_8356 from "./v4PanelC/unsw-8356";
@@ -2185,6 +2228,7 @@ import p_unsw_8478 from "./v4PanelC/unsw-8478";
 import p_unsw_8494 from "./v4PanelC/unsw-8494";
 import p_unsw_8513 from "./v4PanelC/unsw-8513";
 import p_unsw_8518 from "./v4PanelC/unsw-8518";
+import p_unsw_8543 from "./v4PanelC/unsw-8543";
 import p_unsw_8544 from "./v4PanelC/unsw-8544";
 import p_unsw_8561 from "./v4PanelC/unsw-8561";
 import p_unsw_8563 from "./v4PanelC/unsw-8563";
@@ -2197,6 +2241,7 @@ import p_unsw_8573 from "./v4PanelC/unsw-8573";
 import p_unsw_8595 from "./v4PanelC/unsw-8595";
 import p_unsw_8621 from "./v4PanelC/unsw-8621";
 import p_unsw_8622 from "./v4PanelC/unsw-8622";
+import p_unsw_8623 from "./v4PanelC/unsw-8623";
 import p_unsw_8624 from "./v4PanelC/unsw-8624";
 import p_unsw_8625 from "./v4PanelC/unsw-8625";
 import p_unsw_8628 from "./v4PanelC/unsw-8628";
@@ -2209,6 +2254,7 @@ import p_unsw_8637 from "./v4PanelC/unsw-8637";
 import p_unsw_8638 from "./v4PanelC/unsw-8638";
 import p_unsw_8646 from "./v4PanelC/unsw-8646";
 import p_unsw_8649 from "./v4PanelC/unsw-8649";
+import p_unsw_8660 from "./v4PanelC/unsw-8660";
 import p_unsw_8717 from "./v4PanelC/unsw-8717";
 import p_unsw_8719 from "./v4PanelC/unsw-8719";
 import p_unsw_8741 from "./v4PanelC/unsw-8741";
@@ -2585,6 +2631,7 @@ import p_uq_5779 from "./v4PanelC/uq-5779";
 import p_uq_5780 from "./v4PanelC/uq-5780";
 import p_uq_5781 from "./v4PanelC/uq-5781";
 import p_uq_5782 from "./v4PanelC/uq-5782";
+import p_usyd_advanced_computing_commerce from "./v4PanelC/usyd-advanced-computing-commerce";
 import p_usyd_advanced_computing from "./v4PanelC/usyd-advanced-computing";
 import p_usyd_advanced_surgery from "./v4PanelC/usyd-advanced-surgery";
 import p_usyd_agricultural_science_honours from "./v4PanelC/usyd-agricultural-science-honours";
@@ -2651,6 +2698,7 @@ import p_usyd_education_primary from "./v4PanelC/usyd-education-primary";
 import p_usyd_education_secondary_advanced from "./v4PanelC/usyd-education-secondary-advanced";
 import p_usyd_education_special_inclusive_education from "./v4PanelC/usyd-education-special-inclusive-education";
 import p_usyd_education from "./v4PanelC/usyd-education";
+import p_usyd_electives_p1_unit_of_study_table from "./v4PanelC/usyd-electives-p1-unit-of-study-table";
 import p_usyd_emba from "./v4PanelC/usyd-emba";
 import p_usyd_engineering from "./v4PanelC/usyd-engineering";
 import p_usyd_english_studies from "./v4PanelC/usyd-english-studies";
@@ -2703,6 +2751,7 @@ import p_usyd_medical_physics from "./v4PanelC/usyd-medical-physics";
 import p_usyd_medicine_doctor from "./v4PanelC/usyd-medicine-doctor";
 import p_usyd_metabolic_health from "./v4PanelC/usyd-metabolic-health";
 import p_usyd_museum_heritage_studies from "./v4PanelC/usyd-museum-heritage-studies";
+import p_usyd_nursing_advanced_studies from "./v4PanelC/usyd-nursing-advanced-studies";
 import p_usyd_nursing_nurse_practitioner from "./v4PanelC/usyd-nursing-nurse-practitioner";
 import p_usyd_nutrition_dietetics from "./v4PanelC/usyd-nutrition-dietetics";
 import p_usyd_occupational_therapy from "./v4PanelC/usyd-occupational-therapy";
@@ -2735,6 +2784,7 @@ import p_usyd_strategic_public_relations from "./v4PanelC/usyd-strategic-public-
 import p_usyd_sustainability from "./v4PanelC/usyd-sustainability";
 import p_usyd_taxation from "./v4PanelC/usyd-taxation";
 import p_usyd_teaching_english_to_speakers_of_other_languages from "./v4PanelC/usyd-teaching-english-to-speakers-of-other-languages";
+import p_usyd_teaching from "./v4PanelC/usyd-teaching";
 import p_usyd_transport from "./v4PanelC/usyd-transport";
 import p_usyd_trauma_informed_psychotherapy from "./v4PanelC/usyd-trauma-informed-psychotherapy";
 import p_usyd_urban_design from "./v4PanelC/usyd-urban-design";
@@ -3036,6 +3086,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "adelaide-bcomp_bcmpsci": p_adelaide_bcomp_bcmpsci,
   "adelaide-bcrim_bcrim": p_adelaide_bcrim_bcrim,
   "adelaide-bdest_bdesignst": p_adelaide_bdest_bdesignst,
+  "adelaide-bds_bds": p_adelaide_bds_bds,
   "adelaide-bdvst_bdevstud": p_adelaide_bdvst_bdevstud,
   "adelaide-bebfb_beconbfbd1": p_adelaide_bebfb_beconbfbd1,
   "adelaide-bec_becon": p_adelaide_bec_becon,
@@ -3069,6 +3120,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "adelaide-bfsct_bfoodsct": p_adelaide_bfsct_bfoodsct,
   "adelaide-bhms_bhlthmsc": p_adelaide_bhms_bhlthmsc,
   "adelaide-bhmsa_bhlthmsca": p_adelaide_bhmsa_bhlthmsca,
+  "adelaide-bhsm_bhsmoua": p_adelaide_bhsm_bhsmoua,
   "adelaide-bib_bintbusoua": p_adelaide_bib_bintbusoua,
   "adelaide-bintr_bintlrel": p_adelaide_bintr_bintlrel,
   "adelaide-birbm_bintrebmed": p_adelaide_birbm_bintrebmed,
@@ -4416,11 +4468,14 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "monash-4585": p_monash_4585,
   "monash-4586": p_monash_4586,
   "monash-a0001": p_monash_a0001,
+  "monash-a0501": p_monash_a0501,
+  "monash-a0502": p_monash_a0502,
   "monash-a0503": p_monash_a0503,
   "monash-a2000": p_monash_a2000,
   "monash-a2001": p_monash_a2001,
   "monash-a2002": p_monash_a2002,
   "monash-a2003": p_monash_a2003,
+  "monash-a2006": p_monash_a2006,
   "monash-a2008": p_monash_a2008,
   "monash-a2010": p_monash_a2010,
   "monash-a2011": p_monash_a2011,
@@ -4501,6 +4556,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "monash-b2052": p_monash_b2052,
   "monash-b2056": p_monash_b2056,
   "monash-b2057": p_monash_b2057,
+  "monash-b3701": p_monash_b3701,
   "monash-b3702": p_monash_b3702,
   "monash-b4002": p_monash_b4002,
   "monash-b4005": p_monash_b4005,
@@ -4521,6 +4577,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "monash-b6011": p_monash_b6011,
   "monash-b6014": p_monash_b6014,
   "monash-b6022": p_monash_b6022,
+  "monash-b6023": p_monash_b6023,
   "monash-b6024": p_monash_b6024,
   "monash-b6025": p_monash_b6025,
   "monash-b6026": p_monash_b6026,
@@ -4579,12 +4636,18 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "monash-d0502": p_monash_d0502,
   "monash-d2002": p_monash_d2002,
   "monash-d2003": p_monash_d2003,
+  "monash-d3001": p_monash_d3001,
+  "monash-d3002": p_monash_d3002,
+  "monash-d3004": p_monash_d3004,
+  "monash-d3005": p_monash_d3005,
+  "monash-d3006": p_monash_d3006,
   "monash-d3007": p_monash_d3007,
   "monash-d4001": p_monash_d4001,
   "monash-d4002": p_monash_d4002,
   "monash-d4004": p_monash_d4004,
   "monash-d4008": p_monash_d4008,
   "monash-d5002": p_monash_d5002,
+  "monash-d6001": p_monash_d6001,
   "monash-d6002": p_monash_d6002,
   "monash-d6003": p_monash_d6003,
   "monash-d6005": p_monash_d6005,
@@ -4766,6 +4829,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "monash-s4009": p_monash_s4009,
   "monash-s4010": p_monash_s4010,
   "monash-s5008": p_monash_s5008,
+  "monash-s6000": p_monash_s6000,
   "monash-s6001": p_monash_s6001,
   "monash-s6002": p_monash_s6002,
   "monash-s6003": p_monash_s6003,
@@ -4789,6 +4853,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-2647": p_unsw_2647,
   "unsw-2912": p_unsw_2912,
   "unsw-3053": p_unsw_3053,
+  "unsw-3061": p_unsw_3061,
   "unsw-3131": p_unsw_3131,
   "unsw-3132": p_unsw_3132,
   "unsw-3133": p_unsw_3133,
@@ -4810,6 +4875,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-3362": p_unsw_3362,
   "unsw-3381": p_unsw_3381,
   "unsw-3409": p_unsw_3409,
+  "unsw-3417": p_unsw_3417,
   "unsw-3422": p_unsw_3422,
   "unsw-3435": p_unsw_3435,
   "unsw-3462": p_unsw_3462,
@@ -4841,12 +4907,14 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-3671": p_unsw_3671,
   "unsw-3673": p_unsw_3673,
   "unsw-3674": p_unsw_3674,
+  "unsw-3706": p_unsw_3706,
   "unsw-3707": p_unsw_3707,
   "unsw-3732": p_unsw_3732,
   "unsw-3733": p_unsw_3733,
   "unsw-3734": p_unsw_3734,
   "unsw-3736": p_unsw_3736,
   "unsw-3737": p_unsw_3737,
+  "unsw-3738": p_unsw_3738,
   "unsw-3739": p_unsw_3739,
   "unsw-3761": p_unsw_3761,
   "unsw-3762": p_unsw_3762,
@@ -4855,9 +4923,12 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-3767": p_unsw_3767,
   "unsw-3768": p_unsw_3768,
   "unsw-3773": p_unsw_3773,
+  "unsw-3774": p_unsw_3774,
   "unsw-3775": p_unsw_3775,
   "unsw-3776": p_unsw_3776,
   "unsw-3777": p_unsw_3777,
+  "unsw-3778": p_unsw_3778,
+  "unsw-3779": p_unsw_3779,
   "unsw-3781": p_unsw_3781,
   "unsw-3782": p_unsw_3782,
   "unsw-3783": p_unsw_3783,
@@ -4865,6 +4936,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-3785": p_unsw_3785,
   "unsw-3786": p_unsw_3786,
   "unsw-3789": p_unsw_3789,
+  "unsw-3792": p_unsw_3792,
   "unsw-3793": p_unsw_3793,
   "unsw-3795": p_unsw_3795,
   "unsw-3798": p_unsw_3798,
@@ -4938,14 +5010,19 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-4484": p_unsw_4484,
   "unsw-4485": p_unsw_4485,
   "unsw-4490": p_unsw_4490,
+  "unsw-4501": p_unsw_4501,
   "unsw-4502": p_unsw_4502,
   "unsw-4505": p_unsw_4505,
   "unsw-4508": p_unsw_4508,
   "unsw-4509": p_unsw_4509,
+  "unsw-4511": p_unsw_4511,
   "unsw-4512": p_unsw_4512,
+  "unsw-4513": p_unsw_4513,
+  "unsw-4515": p_unsw_4515,
   "unsw-4516": p_unsw_4516,
   "unsw-4517": p_unsw_4517,
   "unsw-4518": p_unsw_4518,
+  "unsw-4519": p_unsw_4519,
   "unsw-4520": p_unsw_4520,
   "unsw-4521": p_unsw_4521,
   "unsw-4522": p_unsw_4522,
@@ -4971,10 +5048,13 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-4787": p_unsw_4787,
   "unsw-4795": p_unsw_4795,
   "unsw-4797": p_unsw_4797,
+  "unsw-4825": p_unsw_4825,
+  "unsw-4830": p_unsw_4830,
   "unsw-4831": p_unsw_4831,
   "unsw-4873": p_unsw_4873,
   "unsw-4875": p_unsw_4875,
   "unsw-4877": p_unsw_4877,
+  "unsw-5036": p_unsw_5036,
   "unsw-5046": p_unsw_5046,
   "unsw-5059": p_unsw_5059,
   "unsw-5148": p_unsw_5148,
@@ -4990,6 +5070,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-5357": p_unsw_5357,
   "unsw-5362": p_unsw_5362,
   "unsw-5372": p_unsw_5372,
+  "unsw-5373": p_unsw_5373,
   "unsw-5405": p_unsw_5405,
   "unsw-5415": p_unsw_5415,
   "unsw-5420": p_unsw_5420,
@@ -5006,6 +5087,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-5518": p_unsw_5518,
   "unsw-5536": p_unsw_5536,
   "unsw-5545": p_unsw_5545,
+  "unsw-5546": p_unsw_5546,
   "unsw-5567": p_unsw_5567,
   "unsw-5646": p_unsw_5646,
   "unsw-5649": p_unsw_5649,
@@ -5022,9 +5104,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-7005": p_unsw_7005,
   "unsw-7006": p_unsw_7006,
   "unsw-7014": p_unsw_7014,
+  "unsw-7016": p_unsw_7016,
   "unsw-7019": p_unsw_7019,
   "unsw-7021": p_unsw_7021,
   "unsw-7022": p_unsw_7022,
+  "unsw-7037": p_unsw_7037,
   "unsw-7123": p_unsw_7123,
   "unsw-7127": p_unsw_7127,
   "unsw-7148": p_unsw_7148,
@@ -5057,6 +5141,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-7367": p_unsw_7367,
   "unsw-7368": p_unsw_7368,
   "unsw-7372": p_unsw_7372,
+  "unsw-7373": p_unsw_7373,
   "unsw-7379": p_unsw_7379,
   "unsw-7401": p_unsw_7401,
   "unsw-7412": p_unsw_7412,
@@ -5102,10 +5187,12 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-7959": p_unsw_7959,
   "unsw-7960": p_unsw_7960,
   "unsw-7970": p_unsw_7970,
+  "unsw-8037": p_unsw_8037,
   "unsw-8059": p_unsw_8059,
   "unsw-8095": p_unsw_8095,
   "unsw-8121": p_unsw_8121,
   "unsw-8127": p_unsw_8127,
+  "unsw-8136": p_unsw_8136,
   "unsw-8143": p_unsw_8143,
   "unsw-8144": p_unsw_8144,
   "unsw-8148": p_unsw_8148,
@@ -5113,12 +5200,18 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-8202": p_unsw_8202,
   "unsw-8203": p_unsw_8203,
   "unsw-8204": p_unsw_8204,
+  "unsw-8224": p_unsw_8224,
+  "unsw-8232": p_unsw_8232,
+  "unsw-8234": p_unsw_8234,
+  "unsw-8236": p_unsw_8236,
   "unsw-8256": p_unsw_8256,
   "unsw-8257": p_unsw_8257,
   "unsw-8266": p_unsw_8266,
   "unsw-8271": p_unsw_8271,
+  "unsw-8281": p_unsw_8281,
   "unsw-8318": p_unsw_8318,
   "unsw-8335": p_unsw_8335,
+  "unsw-8338": p_unsw_8338,
   "unsw-8339": p_unsw_8339,
   "unsw-8351": p_unsw_8351,
   "unsw-8356": p_unsw_8356,
@@ -5147,6 +5240,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-8494": p_unsw_8494,
   "unsw-8513": p_unsw_8513,
   "unsw-8518": p_unsw_8518,
+  "unsw-8543": p_unsw_8543,
   "unsw-8544": p_unsw_8544,
   "unsw-8561": p_unsw_8561,
   "unsw-8563": p_unsw_8563,
@@ -5159,6 +5253,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-8595": p_unsw_8595,
   "unsw-8621": p_unsw_8621,
   "unsw-8622": p_unsw_8622,
+  "unsw-8623": p_unsw_8623,
   "unsw-8624": p_unsw_8624,
   "unsw-8625": p_unsw_8625,
   "unsw-8628": p_unsw_8628,
@@ -5171,6 +5266,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "unsw-8638": p_unsw_8638,
   "unsw-8646": p_unsw_8646,
   "unsw-8649": p_unsw_8649,
+  "unsw-8660": p_unsw_8660,
   "unsw-8717": p_unsw_8717,
   "unsw-8719": p_unsw_8719,
   "unsw-8741": p_unsw_8741,
@@ -5547,6 +5643,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "uq-5780": p_uq_5780,
   "uq-5781": p_uq_5781,
   "uq-5782": p_uq_5782,
+  "usyd-advanced-computing-commerce": p_usyd_advanced_computing_commerce,
   "usyd-advanced-computing": p_usyd_advanced_computing,
   "usyd-advanced-surgery": p_usyd_advanced_surgery,
   "usyd-agricultural-science-honours": p_usyd_agricultural_science_honours,
@@ -5613,6 +5710,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "usyd-education-secondary-advanced": p_usyd_education_secondary_advanced,
   "usyd-education-special-inclusive-education": p_usyd_education_special_inclusive_education,
   "usyd-education": p_usyd_education,
+  "usyd-electives-p1-unit-of-study-table": p_usyd_electives_p1_unit_of_study_table,
   "usyd-emba": p_usyd_emba,
   "usyd-engineering": p_usyd_engineering,
   "usyd-english-studies": p_usyd_english_studies,
@@ -5665,6 +5763,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "usyd-medicine-doctor": p_usyd_medicine_doctor,
   "usyd-metabolic-health": p_usyd_metabolic_health,
   "usyd-museum-heritage-studies": p_usyd_museum_heritage_studies,
+  "usyd-nursing-advanced-studies": p_usyd_nursing_advanced_studies,
   "usyd-nursing-nurse-practitioner": p_usyd_nursing_nurse_practitioner,
   "usyd-nutrition-dietetics": p_usyd_nutrition_dietetics,
   "usyd-occupational-therapy": p_usyd_occupational_therapy,
@@ -5697,6 +5796,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
   "usyd-sustainability": p_usyd_sustainability,
   "usyd-taxation": p_usyd_taxation,
   "usyd-teaching-english-to-speakers-of-other-languages": p_usyd_teaching_english_to_speakers_of_other_languages,
+  "usyd-teaching": p_usyd_teaching,
   "usyd-transport": p_usyd_transport,
   "usyd-trauma-informed-psychotherapy": p_usyd_trauma_informed_psychotherapy,
   "usyd-urban-design": p_usyd_urban_design,

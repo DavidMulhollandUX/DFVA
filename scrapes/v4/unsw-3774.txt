@@ -1,0 +1,274 @@
+===== SOURCE: https://handbook.unsw.edu.au/undergraduate/programs/2026/3774 =====
+# Computer Science (Bengaluru) (3774)
+
+## Program Overview
+- **Institution**: University of New South Wales (UNSW Sydney)
+- **Course Code**: 3774
+- **Academic Year**: 2026
+- **Study Level**: Undergraduate
+- **AQF Level**: Level 7
+- **Total Units / Units of Credit (UOC)**: 144
+- **Delivery Mode**: Face-to-face (includes blended)
+- **CRICOS Code**: Not specified
+- **Academic Organisation**: School of Computer Science and Engineering
+- **Handbook URL**: https://handbook.unsw.edu.au/undergraduate/programs/2026/3774
+
+## Description
+The first intake for this program will be in UNSW Bengaluru Semester 1, with teaching commencing in August 2026.
+
+Computer Science involves the study of the design, construction and uses of computer systems. It is concerned with the representation of data and data structures in computer systems and the design of algorithms for automatic manipulation of this information by programming languages and machine systems. It is very much concerned with the design and development of hardware and software tools by which computer applications may be developed, but not so much with the applications themselves. It is, however, noted that non-computing elements (such as human interface or psychological aspects) can often dictate the level of success of computing systems. Particular emphasis is given to comprehension of the basic principles behind computing tools, operating systems, compilers and translators, and computer hardware.
+
+This UNSW program is delivered at UNSW Bengaluru by UNSW Bengaluru Private Limited. UNSW Bengaluru Pvt Ltd is a joint venture between UNSW & Eruditus. Please visit the UNSW Bengaluru website for more information.
+
+## Program Learning Outcomes (CILOs)
+On successful completion of this program, students will be able to:
+
+2. Analyse software and computer systems across a range of criteria.
+1. Design and build correct, efficient and robust software systems.
+6. Effectively work in project teams, and lead teams when required.
+9. Contribute to professional communities of practice.
+8. Seek feedback, reflect and act to continually improve knowledge and skills.
+7. Act professionally and ethically in all of their work.
+4. Critically analyse risk and assure the quality of software solutions.
+5. Manage time effectively, and make reasoned trade-offs over competing demands.
+3. Effectively, persistently and creatively problem-solve, and produce well-crafted solutions.
+
+## Career Opportunities & Employment Areas
+Software engineer/developer, consultant, chief technology officer, database developer, game programmer, systems analyst, systems engineer.
+
+## Program Structure & Degree Requirements
+Students must complete 144 Units of Credit (UOC) structured across the following academic components:
+
+### Disciplinary Component (96 UOC)
+Students must complete 96 UOC of the following to satisfy the core requirements of this degree.
+
+#### Majors 
+Students must complete the specialisation below.
+
+- **WENGA1**: Computer Science (Bengaluru) [96 UOC]
+
+### Free Electives (36 UOC)
+Students must complete 36 UOC of Free Electives. They may select any undergraduate course offered by UNSW Bengaluru, where the enrolment requirements are met.
+
+### General Education (12 UOC)
+Students must complete 12 UOC of General Education courses. General Education courses for this program are any undergraduate courses offered by UNSW Bengaluru that do not contain the subject areas: WENG, WSCI
+
+===== SPECIALISATION / AREA OF STUDY =====
+### Computer Science (Bengaluru) (WENGA1)
+<p><strong>This specialisation is delivered by UNSW Bengaluru Private Limited. UNSW Bengaluru Pvt Ltd is a joint venture between UNSW &amp; Emeritus. Please visit <a target="_blank" href="https://www.unsw.edu.au/bengaluru" rel="nofollow">the UNSW Bengaluru website</a> for more information.</strong></p>
+<p>Computers are now ubiquitous, and critical to the functioning of all enterprises in modern industrial societies, from commerce to health and education. They now also play an important social role, opening new avenues for people to connect and to engage in public discourse. The demand for computing professionals capable of managing existing computing infrastructure or, more importantly, creating the next generation of computing applications, will continue to grow into the future.<br /><br />This specialisation provides a solid grounding in the fundamentals of the computing discipline (programs, algorithms, design, systems, software engineering) and then allows students to choose from a wide range of electives in later years. </p>
+
+===== PRESCRIBED UNITS / SUBJECTS =====
+Subject: WENG3005 - Computer Science Project (Bengaluru)
+### WENG3005 - Computer Science Project (Bengaluru)
+Learning Outcomes:
+- Design and develop a correct, efficient and robust software system from specification.
+- Articulate technical information clearly through both spoken and written communication.
+- Optimise time management skills and make reasoned trade-offs over competing demands.
+- Verify the correctness and robustness of software.
+- Apply software development and software project management tools proficiently.
+- Analyse a set of requirements, elaborate them, and produce a detailed specification.
+- Collaborate efficiently within a project team, assuming leadership responsibilities when necessary.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: WENG2000 - Software Construction: Techniques and Tools (Bengaluru)
+### WENG2000 - Software Construction: Techniques and Tools (Bengaluru)
+Learning Outcomes:
+- Understand when to use of specific technologies and strategies during software development.
+- Build software systems using a range of techniques and strategies.
+- Use tools for version control, system configuration, debugging, and performance improvement.
+- Solve problems by writing Unix shell scripts and Python programs.
+- Articulate and communicate effectively concepts related to programming and systems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: WENG2002 - Data Structures and Algorithms (Bengaluru)
+### WENG2002 - Data Structures and Algorithms (Bengaluru)
+Learning Outcomes:
+- Develop and maintain software systems in C that contain thousands of lines of code.
+- Choose/develop an appropriate data structure for a given problem.
+- Choose/develop appropriate algorithms to manipulate chosen data structures.
+- Analyse the performance characteristics of algorithms.
+- Package a set of data structures and algorithms as an abstract data type.
+- Measure the performance behaviour of programs.
+- Describe and analyse fundamental data structures and algorithms.
+- Reason about the effectiveness of data structures and algorithms for solving a given problem.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: WENG4000 - Professional Issues and Ethics in Information Technology (Bengaluru)
+### WENG4000 - Professional Issues and Ethics in Information Technology (Bengaluru)
+Learning Outcomes:
+- Articulate the major normative and meta-ethical theories that underpin real, research-level moral debates in both academic and professional contexts.
+- Recognise ethical issues and pitfalls in the professional practice of developing novel technologies, including AI (e.g. fairness, transparency, accountability), and learn about existing efforts to mitigate these issues.
+- Define and employ ethical values, principles, and practices for responsible research and innovation of technological and computing advances.
+- Discuss ethical dilemmas around specific technological case studies.
+- Build, articulate, and justify their own moral arguments - as well as how to analyse moral judgements and moral arguments in general.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: WENG3002 - Database Systems (Bengaluru)
+### WENG3002 - Database Systems (Bengaluru)
+Learning Outcomes:
+- Realise data models as relational database schemas.
+- Write stored procedures and triggers to extend DBMS capabilities.
+- Write applications in Python that interact effectively with databases.
+- Develop accurate, non-redundant data models.
+- Formulate queries via the full range of SQL constructs.
+- Analyse performance issues in relational database applications.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: WSCI1000 - Discrete Mathematics (Bengaluru)
+### WSCI1000 - Discrete Mathematics (Bengaluru)
+Learning Outcomes:
+- Communicate mathematical ideas effectively in written and oral form using correct terminology.
+- Use technology as an aid to communicate mathematical ideas by properly typesetting mathematical proofs.
+- Apply the concepts and proof techniques taught to solve problems requiring rigorous logical and mathematical arguments.
+- State the definitions and theorems of the Discrete Mathematics topics taught and recognise how they can be applied to standard numeric problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: WENG3004 - Artificial Intelligence (Bengaluru)
+### WENG3004 - Artificial Intelligence (Bengaluru)
+Learning Outcomes:
+- Explain fundamental AI methods and techniques.
+- Employ AI programming and practices.
+- Explain features or aspects of AI algorithms.
+- Describe how AI techniques are applied to particular problems.
+- Implement or develop a functional AI system.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: WENG6001 - Natural Language Processing (Bengaluru)
+### WENG6001 - Natural Language Processing (Bengaluru)
+Learning Outcomes:
+- Design an NLP solution by selecting the NLP problem formulation, approach and evaluation strategy, by analysing the requirements of a specific application.
+- Train NLP models using NLP libraries (e.g. NLTK, scikit-learn, Transformers).
+- Explain typical NLP strategies based on statistical and neural approaches.
+- Describe NLP problems such as POS tagging, sentiment analysis, information extraction and machine translation along with their challenges in terms of ambiguity resolution.
+Assessment Tasks:
+- Assessments: N/A%
+Workload: 
+
+Subject: WENG1002 - Software Engineering Fundamentals (Bengaluru)
+### WENG1002 - Software Engineering Fundamentals (Bengaluru)
+Learning Outcomes:
+- Demonstrate an understanding of how to use version control, continuous integration, and deployment tooling to sustainably integrate code from multiple parties.
+- Demonstrate effective use of software development tools to build full-stack end-user applications.
+- Work in a well-functioning team, following professional expectations, maintaining healthy relationships, and managing conflict.
+- Demonstrate effective use of static testing, dynamic testing, and user testing to validate and verify software systems.
+- Follow the software engineering life cycle in the context of modern and iterative software development practices in order to elicit requirements, design systems thoughtfully, and implement software correctly.
+- Demonstrate an ability to analyse complex software systems in terms of their data model, state model, and more.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: WSCI1002 - Mathematics 1B (Bengaluru)
+### WSCI1002 - Mathematics 1B (Bengaluru)
+Learning Outcomes:
+- Identify and construct valid mathematical arguments in the context of Algebra and Calculus.
+- Apply concepts and techniques from Algebra and Calculus to solve problems.
+- Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems.
+- Apply concepts in Algebra and Calculus to unexpected contexts.
+- Use technology as an aid to solve appropriate problems in Algebra and Calculus.
+- Communicate mathematical ideas in written and oral form using correct terminology and using technology.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: WENG1000 - Programming Fundamentals (Bengaluru)
+### WENG1000 - Programming Fundamentals (Bengaluru)
+Learning Outcomes:
+- Apply C programming language to solve simple decision, looping, array, and linked list problems programmatically.
+- Read and understand coding solutions.
+- Apply basic data structures, such as arrays and linked lists, to solve complex problems.
+- Review the produced code against specification criteria by applying testing techniques.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: WSCI1001 - Mathematics 1A (Bengaluru)
+### WSCI1001 - Mathematics 1A (Bengaluru)
+Learning Outcomes:
+- Identify and construct valid mathematical arguments.
+- Use technology as an aid to solve appropriate problems in Algebra and Calculus.
+- Apply concepts in Algebra and Calculus to unexpected contexts.
+- Communicate mathematical ideas in written form using correct terminology and using technology.
+- Apply concepts and techniques from Algebra and Calculus to solve problems.
+- Apply definitions and theorems in Algebra and Calculus to justify mathematical statements and solve problems.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: WENG6002 - Advanced C++ Programming (Bengaluru)
+### WENG6002 - Advanced C++ Programming (Bengaluru)
+Learning Outcomes:
+- Use advanced C++ features in program development.
+- Design, build, and test C++ programs.
+- Distinguish good, modern, widely-used practices from more outdated practices.
+- Set up build and testing environments for C++ programs.
+- Use abstractions (data structures, algorithms) to solve problems efficiently.
+- Build abstractions (data structures, algorithms) to solve problems efficiently.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: WENG3000 - Algorithm Design and Analysis (Bengaluru)
+### WENG3000 - Algorithm Design and Analysis (Bengaluru)
+Learning Outcomes:
+- Evaluate the efficiency of algorithms and justify their correctness.
+- Communicate algorithmic ideas at different levels of abstraction.
+- Apply the LaTeX typesetting system to produce high-quality technical documents.
+- Explain how standard design techniques are used to develop algorithms.
+- Solve problems by creatively applying algorithm design techniques.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: WENG6000 - Web Front-End Programming (Bengaluru)
+### WENG6000 - Web Front-End Programming (Bengaluru)
+Learning Outcomes:
+- Explain, analyse, structure and critique front-ends build in combinations of HTML, CSS, Javascript, and their associated frameworks.
+- Explain and analyse attributes, tradeoffs and technical details of varied web-based frameworks and delivery methods.
+- Develop and analyse frameworks to test and verify correctness of front-end systems.
+- Critically test, analyse and inquire with developed front-ends in order to provide genuine improvement in performance or compliance.
+- Explain and implement changes to front-end systems based on business and user needs, including application of best practices.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: WENG1001 - Computer Systems Fundamentals (Bengaluru)
+### WENG1001 - Computer Systems Fundamentals (Bengaluru)
+Learning Outcomes:
+- Design, implement, and analyse small programs at the assembly/machine level.
+- Implement simple programs involving communication and concurrency.
+- Describe the architectural layers (fundamental parts) of a modern computer system from hardware device (chip) levels upwards.
+- Describe the components comprising, and the services offered by, an operating system.
+- Describe the relationship between a high-level procedural language (C) and assembly (machine language) which implements it, including how a compiled program is executed in a classical von Neumann machine.
+- Explain how the major components of a CPU work together, including how data and instructions are represented in a computer.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
+Subject: WENG2001 - Software Design and Architecture (Bengaluru)
+### WENG2001 - Software Design and Architecture (Bengaluru)
+Learning Outcomes:
+- Analyse characteristics of elegantly written software.
+- Apply the principles of Object-Oriented Design to solve problems.
+- Create software solutions using an enterprise programming language within an integrated development environment (IDE).
+- Create medium-scale systems from scratch, and work on existing systems as part of the Software Development Life Cycle.
+- Evaluate different design and architectural paradigms and methodologies based on their origins and suitability for specific software development scenarios.
+- Apply widely used Design and Architectural Patterns to create extensible designs.
+Assessment Tasks:
+- In-person - Standard (usually weekly or fortnightly): N/A%
+Workload: 
+
